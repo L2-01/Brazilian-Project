@@ -1,0 +1,11 @@
+{
+  "particle_core.particle_core_config.NONE.desc": "Nenhuma partícula de poção será desabilitada",
+  "particle_core.particle_core_config.SELF.desc": "Partículas de poção emitidas por você serão desabilitadas",
+  "particle_core.particle_core_config.PLAYER.desc": "Partículas de poção emitidas por todos os jogadores (incluindo você) serão desabilitadas",
+  "particle_core.particle_core_config.ALL.desc": "Todas as partículas de poção serão deasbilitadas",
+  "particle_core.particle_core_config.turnOffPotionParticles.desc": "Desabilita partículas de poção em múltiplos graus, dependendo do selecionado.",
+  "particle_core.particle_core_config.reduceAllChance.desc": "[Valores entre 0.0 e 1.0] Reduz as partículas quando no modo ALL. Ex. 0.1 fará 10% das partículas DECREASED. Basicamente entre ALL e DECREASED.",
+  "particle_core.particle_core_config.reduceDecreasedChance.desc": "[Valores entre 0.0 e 1.0] Reduz as partículas quando no modo DECREASED. Ex. 0.1 fará 10% das partículas MINIMAL. Basicamente entre DECREASED e MINIMAL.",
+  "particle_core.particle_core_config.disableParticles.desc": "[true ou false] Desliga por completo todas as partículas no programa.",
+  "particle_core.particle_core_config.byTypeReductions.desc": "Permite reduzir/desabilitar tipos individuais de partícula. Ex. definir 'minecraft:smoke' para 0.3 fará com que partículas de Fogueira e Fumaça sejam geradas a 30% de sua taxa normal."
+}
