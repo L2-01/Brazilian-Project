@@ -1,20 +1,32 @@
-{
+{  
 	"block.toms_storage.inventory_connector": "Conector de Inventários",
+	"block.toms_storage.ts.inventory_connector": "Conector de Inventários",
 	"block.toms_storage.storage_terminal": "Terminal de Armazenamento",
+	"block.toms_storage.ts.storage_terminal": "Terminal de Armazenamento",
 	"block.toms_storage.trim": "Encaixe de Inventário",
+	"block.toms_storage.ts.trim": "Encaixe de Inventário",
 	"block.toms_storage.painted_trim": "Encaixe de Inventário",
 	"block.toms_storage.open_crate": "Caixa Aberta",
 	"block.toms_storage.inventory_cable": "Cabo de Inventário",
+	"block.toms_storage.ts.inventory_cable": "Cabo de Inventário",
 	"block.toms_storage.inventory_cable_framed": "Cabo de Inventário Emoldurado",
 	"block.toms_storage.inventory_cable_connector": "Conector de Cabo de Inventário",
+	"block.toms_storage.ts.inventory_cable_connector": "Conector de Cabo de Inventário",
 	"block.toms_storage.inventory_proxy": "Representante de Inventário",
 	"block.toms_storage.crafting_terminal": "Terminal de Fabricação",
+	"block.toms_storage.ts.crafting_terminal": "Terminal de Fabricação",
 	"block.toms_storage.basic_inventory_hopper": "Funil de Inventário Básico",
 	"block.toms_storage.level_emitter": "Emissor de Nível",
 	"block.toms_storage.inventory_cable_connector_framed": "Conector de Cabo de Inventário (Emoldurado)",
 	"block.toms_storage.inventory_interface": "Interface de Inventário",
 	"block.toms_storage.filing_cabinet": "Fichário",
+	"block.toms_storage.ts.export_cable": "Cabo de Exportação",
+	"block.toms_storage.ts.import_cable": "Cabo de Importação",
+	"block.toms_storage.ts.paint_kit": "Kit de Pintura",
+	"block.toms_storage.ts.level_emitter": "Emissor de Nível",
+	"block.toms_storage.ts.chest_cable_connector": "Conector de Baú",
 	
+	"item.toms_storage.ts.charged_item": "Item Carregado",
 	"item.toms_storage.paint_kit": "Kit de Pintura",
 	"item.toms_storage.wireless_terminal": "Terminal Sem Fio",
 	"item.toms_storage.adv_wireless_terminal": "Terminal Sem Fio Avançado",
@@ -23,7 +35,12 @@
 	"item.toms_storage.tag_item_filter": "Filtro de Itens por Tag",
 	"item.toms_storage.inventory_configurator": "Configurador de Inventário",
 	
+	"itemGroup.toms_storage": "Tom's Simple Storage",
 	"itemGroup.toms_storage.tab": "Tom's Simple Storage",
+	
+	"gui.toms_storage.terminal.search": "Buscar...",
+	"gui.toms_storage.terminal.sort": "Ordenar",
+	"gui.toms_storage.terminal.amount": "Quantidade",
 	
 	"menu.toms_storage.storage_terminal": "Armazenamento",
 	"menu.toms_storage.crafting_terminal": "Fabricação",
@@ -216,13 +233,17 @@
 	"text.autoconfig.toms_storage.option.blockedBlocks": "Lista de ids de blocos ignorada pelo conector de inventários",
 	"text.autoconfig.toms_storage.option.blockedMods": "Lista de ids de mods cujos blocow são ignorados pelo conector de inventários",
 	
-	"key.toms_storage.open_terminal": "[Tom's Simple Storage] Abrir o Terminal"
+	"key.toms_storage.open_terminal": "Abrir o Terminal"
 	
 	"tag.toms_storage.trims": "Encaixes de Inventários",
 	
+	"config.toms_storage.title": "Tom's Simple Storage - Configuração",
 	"config.jade.plugin_toms_storage.inventory_connector": "Informações sobre o Conector de Inventârios",
 	"config.jade.plugin_toms_storage.inventory_config": "Informações sobre o Configurador de Inventários",
 	"config.jade.plugin_toms_storage.inventory_hopper": "Informações sobre o Funil de Inventários",
 	
-	"overlay.toms_storage.configurator_info": "Tom's Simple Storage: Sobreposição do Configurador"
+	"overlay.toms_storage.configurator_info": "Tom's Simple Storage: Sobreposição do Configurador",
+	
+	"advancement.toms_storage.root": "Tom's Simple Storage",
+	"advancement.toms_storage.root.desc": "Organize seus itens de forma eficiente."
 }
