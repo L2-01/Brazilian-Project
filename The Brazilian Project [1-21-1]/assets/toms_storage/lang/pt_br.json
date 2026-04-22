@@ -1,4 +1,4 @@
-{  
+{
 	"block.toms_storage.inventory_connector": "Conector de Inventários",
 	"block.toms_storage.ts.inventory_connector": "Conector de Inventários",
 	"block.toms_storage.storage_terminal": "Terminal de Armazenamento",
@@ -94,7 +94,7 @@
 	"tooltip.toms_storage.level_emitter.greater_than": "Emite quando há mais do que especificado em armazenamento",
 	"tooltip.toms_storage.level_emitter.less_than": "Emite quando há menos do que especificado em armazenamento",
 	"tooltip.toms_storage.adv_wireless_terminal": "Shift + Clique Direito em um terminal para conectá-lo.\\Alcance: %d blocos\\O chunk do terminal deve estar carregado",
-	"tooltip.toms_storage.adv_wireless_terminal.beacon": "Um sinalizador próximo em um raio de 8 blocos  do termina\\extende o alcance do terminal.\\O nível do sinalizador determina o alcance:",
+	"tooltip.toms_storage.adv_wireless_terminal.beacon": "Um sinalizador próximo em um raio de 8 blocos do terminal\\extende o alcance do terminal.\\O nível do sinalizador determina o alcance:",
 	"tooltip.toms_storage.adv_wireless_terminal.beacon1": "%d: em qualquer lugar na mesma dimensão.",
 	"tooltip.toms_storage.adv_wireless_terminal.beacon2": "%d: em qualquer lugar em qualquer dimensão.",
 	"tooltip.toms_storage.adv_wireless_terminal.bound": "Vinculado a(%s, %s, %s) em %s",
@@ -186,8 +186,8 @@
 	"chat.toms_storage.terminal_not_loaded": "Terminal fora de alcance (Não Carregado)",
 	"chat.toms_storage.inv_link_access_denied": "Acesso Negado",
 	"chat.toms_storage.area_too_big": "Área Selecionada Grande Demais",
-    
-    "config.toms_storage.inventory_connector_range": "Alcance do Conector de Inventários",
+
+	"config.toms_storage.inventory_connector_range": "Alcance do Conector de Inventários",
 	"config.toms_storage.only_trims_connect": "Somente Permitir Encaixes de Conectar Inventários",
 	"config.toms_storage.inv_cable_connector_max_scan": "Número Mâximo de Cabos para Cabos Conectores de Inventário",
 	"config.toms_storage.wireless_reach": "Alcance do Terminal Sem Fio",
@@ -229,11 +229,11 @@
 	"text.autoconfig.toms_storage.option.invLinkBeaconLvlSameDim.@Tooltip": "Nível de Sinalizador necessário para o Conector de Cabo de Inventário ter alcance ilimitado pela mesma dimensão\nValor 0 somente exige um único bloco de sinalizador próximo\nValor -1 desabilita isso por completo",
 	"text.autoconfig.toms_storage.option.invLinkBeaconLvlCrossDim.@Tooltip": "Nível de Sinalizador necessário para o Conector de Cabo de Inventário ter acesso inter-dimensional\nValor 0 somente exige um único bloco de sinalizador próximo\nValor -1 desabilita isso por completo",
 	"text.autoconfig.toms_storage.option.runMultithreaded": "Utilizar multithreading para melhorar o desempenho",
-	"text.autoconfig.toms_storage.option.basicHopperCooldown": "Intervalo de transferência do Funil de Inventário Basico (Tiques)",
+	"text.autoconfig.toms_storage.option.basicHopperCooldown": "Intervalo de transferência do Funil de Inventário Básico (Tiques)",
 	"text.autoconfig.toms_storage.option.blockedBlocks": "Lista de ids de blocos ignorada pelo conector de inventários",
 	"text.autoconfig.toms_storage.option.blockedMods": "Lista de ids de mods cujos blocow são ignorados pelo conector de inventários",
 	
-	"key.toms_storage.open_terminal": "Abrir o Terminal"
+	"key.toms_storage.open_terminal": "Abrir o Terminal",
 	
 	"tag.toms_storage.trims": "Encaixes de Inventários",
 	
