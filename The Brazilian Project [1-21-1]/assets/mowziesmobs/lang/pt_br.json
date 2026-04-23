@@ -1,0 +1,116 @@
+{
+  "itemGroup.mowziesmobs.creativeTab": "Mowzie's Mobs",
+
+  "entity.mowziesmobs.wroughtnaut": "Forjonauta",
+  "entity.mowziesmobs.umvuthana_egg": "Ovo de Umvuthana",
+  "entity.mowziesmobs.ice_chunk": "Pedaço de Gelo",
+  "entity.mowziesmobs.ice_crystal": "Cristal de Gelo",
+  "entity.mowziesmobs.fireball": "Bola de Fogo",
+  "entity.mowziesmobs.barako": "Barako",
+  "entity.mowziesmobs.barakoa": "Barakoa",
+  "entity.mowziesmobs.spriggan": "Spriggan",
+  "entity.mowziesmobs.elokosa_follower_howler": "Elokosa",
+  "entity.mowziesmobs.elokosa_howler": "Bando de Elokosas",
+
+  "item.mowziesmobs.barako_totem_destroyed": "Totem de Barako (Destruído)",
+  "item.mowziesmobs.barako_totem_inert": "Totem de Barako (Inerte)",
+  "item.mowziesmobs.barako_totem": "Totem de Barako",
+  "item.mowziesmobs.umvuthana_mask_fear": "Máscara do Medo",
+  "item.mowziesmobs.frostmaw_fang": "Presa de Congedíbula",
+  "item.mowziesmobs.lantern_head": "Cabeça de Lanterno",
+  "item.mowziesmobs.naga_fang_sword": "Espada de Presa de Naga",
+  "item.mowziesmobs.umvuthi_club": "Clava de Umvuthi",
+  "item.mowziesmobs.wroughtnaut_helm": "Capacete de Forjonauta",
+  "item.mowziesmobs.ferrous_wroughtnaut_helm": "Capacete de Forjonauta Férreo",
+  "item.mowziesmobs.ferrous_ring": "Anel Férreo",
+  "item.mowziesmobs.paintbrush": "Pincel",
+  "item.mowziesmobs.foliaath_seed.text.1": "A cada meio-dia, a foliata filhote ficará com fome",
+  "item.mowziesmobs.foliaath_seed.text.3": "Depois de dois dias, a foliata crescerá completamente",
+
+  "item.mowziesmobs.earthrend_gauntlet.text.0": "§lRocha Voadora§r§7\nClique-direito em chão de terra para criar uma rocha\nSoque a rocha para dispará-la como projétil\nSegure o clique-direito para criar rochas maiores\n",
+  
+  "item.mowziesmobs.glowing_jelly": "Geléia Luminosa",
+
+  "item.mowziesmobs.sculptor_staff.text.1": "Olhe para a direção que você quer que as rochas voem e clique-direito",
+
+  "item.mowziesmobs.geomancer_beads.text.0": "+3 de ataque ao socar (também funciona com a Manopla Terraformadora)",
+  
+  "item.mowziesmobs.geomancer_robe.text.0": "Tem chance de gerar uma rocha flutuante por perto quando você causa ou recebe dano",
+
+  "item.mowziesmobs.elokosa_paw_full": "Pata da Lua Cheia",
+  "item.mowziesmobs.elokosa_paw_full.text.0": "Utilize para dar Lentidão em criaturas próximas",
+  "item.mowziesmobs.elokosa_paw_gibbous": "Pata da Lua Gibosa",
+  "item.mowziesmobs.elokosa_paw_gibbous.text.0": "Utilize para dar Lentidão em criaturas próximas",
+  "item.mowziesmobs.elokosa_paw_half": "Pata da Meia-Lua",
+  "item.mowziesmobs.elokosa_paw_half.text.0": "Utilize para dar Exaustão em criaturas próximas",
+  "item.mowziesmobs.elokosa_paw_crescent": "Pata da Lua Crescente",
+  "item.mowziesmobs.elokosa_paw_crescent.text.0": "Utilize para dar Fragilidade em criaturas próximas",
+  "item.mowziesmobs.elokosa_paw_crescent.text.1": "Fragilidade aumenta o dano recebido de ataques",
+  "item.mowziesmobs.elokosa_paw_new": "Pata da Lua Nova",
+  "item.mowziesmobs.elokosa_paw_new.text.0": "Utilige para dar Eclipse em criaturas próximas",
+  "item.mowziesmobs.elokosa_paw_new.text.1": "Eclipse limpa e impede todos os efeitos",
+  "item.mowziesmobs.elokosa_paw_new.text.2": "Efeitos sob eclipse são restaurados quando Eclipse acaba",
+
+  "item.mowziesmobs.elokosa_spawn_egg": "Ovo Gerador de Elokosa",
+  "item.mowziesmobs.elokosa_howler_spawn_egg": "Ovo Gerador de Bando de Elokosa",
+
+  "block.mowziesmobs.painted_acacia_slab": "Laje de Acácia Pintada",
+
+  "effect.mowziesmobs.eclipsed": "Eclipse",
+  "effect.mowziesmobs.eclipsed.description": "Previne todos os outros efeitos enquanto ativo.",
+  "effect.mowziesmobs.fragility": "Fragilidade",
+  "effect.mowziesmobs.fragility.description": "Aumenta dano recebido.",
+
+  "entity.mowziesmobs.sculptor.trade.blocked": "O teste foi travado!",
+
+  "death.attack.dart": "%1$s levou um tiro de %2$s",
+  "death.attack.mowziesmobs.frostmaw": "Congedíbula congelou %1$s",
+  "death.attack.mowziesmobs.naga_fang": "Uma Naga envenenou %1$s",
+  "death.attack.mowziesmobs.umvuthi": "Umvuthi esmagou %1$s",
+  "death.attack.mowziesmobs.barako": "Barako fulminou %1$s",
+  "death.attack.mowziesmobs.foliaath": "Foliata devorou %1$s",
+  "death.attack.mowziesmobs.ferrous_wroughtnaut": "Forjonauta Férreo destruiu %1$s",
+
+  "config.mowziesmobs.heals_out_of_battle": "Curar enquanto fora de batalha",
+
+  "config.mowziesmobs.allowed_block_tags": "Tags de Blocos Permitidos",
+
+  "config.mowziesmobs.spear": "Lança",
+  "config.mowziesmobs.durability": "Durabilidade",
+
+  "config.mowziesmobs.do_camera_shake": "Câmera Sacode",
+  "config.mowziesmobs.custom_boss_bar": "Barras de Vida de Chefe Personalizadas",
+  "config.mowziesmobs.custom_player_anims": "Animações de Jogador Personalizadas",
+
+  "advancement.mowziesmobs.root": "Mowzie's Mobs",
+  "advancement.mowziesmobs.root.desc": "Criaturas épicas e únicas habitam o mundo.",
+  "advancement.mowziesmobs.frostmaw": "Congedíbula Dado Não Se Olha...",
+  "advancement.mowziesmobs.frostmaw.desc": "Derrote o Congedíbula.",
+  "advancement.mowziesmobs.ferrous_wroughtnaut": "Forjado em Ferro",
+  "advancement.mowziesmobs.naga_fang_sword": "Lâmina Venenosa",
+  "advancement.mowziesmobs.naga_fang_sword.desc": "Faça uma Espada de Presa de Naga."
+  "advancement.mowziesmobs.ferrous_wroughtnaut.desc": "Derrote o Forjonauta Férreo.",
+  "advancements.mowziesmobs.sculptor_challenge.title": "Devagar se Vai Longe",
+  "advancements.mowziesmobs.kill_elokosa_howler.title": "Macaquice",
+  "advancements.mowziesmobs.kill_elokosa_howler.description": "Mate um Bando de Elokosas",
+
+  "subtitles.mowziesmobs.umvuthana.attack": "Umvuthana ataca",
+  "subtitles.mowziesmobs.umvuthana.attack_big": "Umvuthana ataca",
+  "subtitles.mowziesmobs.umvuthana.teleport": "Garça Umvuthana se teletransporta",
+  "subtitles.mowziesmobs.umvuthi.black_hole": "Ruídos de Buraco Negro",
+  "subtitles.mowziesmobs.naga.swoop": "Naga faz rasante",
+  "subtitles.mowziesmobs.bluff.hurt": "Rochedo ferido",
+  "subtitles.mowziesmobs.elokosa.day.death": "Elokosa morre",
+  "subtitles.mowziesmobs.elokosa.day.hurt": "Elokosa grita",
+  "subtitles.mowziesmobs.elokosa.day.idle": "Elokosa conversa",
+  "subtitles.mowziesmobs.elokosa.day.transform": "Elokosa se transforma",
+  "subtitles.mowziesmobs.elokosa.night.attack": "Elokosa ataca",
+  "subtitles.mowziesmobs.elokosa.night.attack_big": "Elokosa ataca",
+  "subtitles.mowziesmobs.elokosa.night.death": "Elokosa morre",
+  "subtitles.mowziesmobs.elokosa.night.hurt": "Elokosa grunhe",
+  "subtitles.mowziesmobs.elokosa.night.idle": "Elokosa grunhe",
+  "subtitles.mowziesmobs.elokosa.night.scream": "Elokosa grita",
+  "subtitles.mowziesmobs.elokosa.night.transform": "Elokosa se transforma",
+  "subtitles.mowziesmobs.elokosa.paw": "Pata de Elokosa ativa",
+  "subtitles.mowziesmobs.metal_impact": "Tinidos de Metal",
+}
