@@ -1,0 +1,42 @@
+{
+  "custommachinerypnc.gui.element.pressure.tooltip": "Pressão: %s",
+
+  "custommachinery.machine.component.pnc_heat": "Calor PNC",
+  "custommachinery.machine.component.pressure": "Pressão",
+
+  "custommachinery.machine.guielement.pnc_heat": "Calor PNC",
+  "custommachinery.machine.guielement.pressure": "Pressão",
+
+  "custommachinerypnc.gui.creation.components.heat.title": "Calor",
+  "custommachinerypnc.gui.creation.components.heat.capacity": "Capacidade",
+  "custommachinerypnc.gui.creation.components.heat.capacity.tooltip": "Máquinas de maior capacidade levarão mais tempo para aquecer ou esfriar\nO padrão é 1, máquinas avançadas do PNC usam 100",
+  "custommachinerypnc.gui.creation.components.heat.resistance": "Resistência",
+  "custommachinerypnc.gui.creation.components.heat.resistance.tooltip": "Resistência a variações de temperaturas externas\nO padrão é 1, máquinas do PNC usam 10",
+  "custommachinerypnc.gui.creation.components.pressure.title": "Pressão",
+  "custommachinerypnc.gui.creation.components.pressure.volume": "Volume",
+  "custommachinerypnc.gui.creation.components.pressure.volume.tooltip": "Volume de ar da máquina\nVolumes maiores levarão mais tempo para pressurizar",
+  "custommachinerypnc.gui.creation.components.pressure.danger": "Perigo",
+  "custommachinerypnc.gui.creation.components.pressure.danger.tooltip": "Início da pressão vermelha no medidor\nAcima disso, a máquina tem chance de explodir",
+  "custommachinerypnc.gui.creation.components.pressure.critical": "Crítico",
+  "custommachinerypnc.gui.creation.components.pressure.critical.tooltip": "Maior valor no medidor\nAcima disso, a máquina irá explodir",
+  "custommachinerypnc.gui.creation.components.pressure.critical_inferior": "A pressão crítica deve ser superior à pressão de perigo",
+
+  "custommachinerypnc.gui.creation.gui.heat.min": "Mín",
+  "custommachinerypnc.gui.creation.gui.heat.max": "Máx",
+
+  "custommachinerypnc.jei.ingredient.pressure": "Pressão entre %s e %s",
+  "custommachinerypnc.jei.ingredient.pressure.volume.input": "Consome %s de ar",
+  "custommachinerypnc.jei.ingredient.pressure.volume.output": "Produz %s de ar",
+  "custommachinerypnc.jei.ingredient.heat": "Calor: %s",
+  "custommachinerypnc.jei.ingredient.heat.input": "Consome %s de calor",
+  "custommachinerypnc.jei.ingredient.heat.input.per-tick": "Consome %s de calor por tick",
+  "custommachinerypnc.jei.ingredient.heat.output": "Produz %s de calor",
+  "custommachinerypnc.jei.ingredient.heat.output.per-tick": "Produz %s de calor por tick",
+  "custommachinerypnc.jei.ingredient.temperature.range": "Temperaturas aceitas:\n%s",
+
+  "custommachinerypnc.requirements.pressure.error.min": "A pressão deve ser maior que %s",
+  "custommachinerypnc.requirements.pressure.error.max": "A pressão deve ser menor que %s",
+  "custommachinerypnc.requirements.pressure.error.air": "Volume de ar insuficiente, %s necessário, mas %s encontrado!",
+  "custommachinerypnc.requirements.heat.error.input": "Calor insuficiente",
+  "custommachinerypnc.requirements.temperature.error": "Temperatura inválida: %s"
+}
