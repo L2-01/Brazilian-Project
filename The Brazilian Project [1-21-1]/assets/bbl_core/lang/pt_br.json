@@ -1,0 +1,54 @@
+{
+  "color.bblcore.white": "Branco",
+  "color.bblcore.black": "Preto",
+  "color.bblcore.red": "Vermelho",
+  "color.bblcore.green": "Verde",
+  "color.bblcore.blue": "Azul",
+  "color.bblcore.yellow": "Amarelo",
+  "color.bblcore.purple": "Roxo",
+  "color.bblcore.orange": "Laranja",
+  "color.bblcore.cyan": "Ciano",
+  "color.bblcore.gray": "Cinza",
+  "color.bblcore.brown": "Marrom",
+  "color.bblcore.pink": "Rosa",
+  "color.bblcore.lime": "Verde Limão",
+  "color.bblcore.light_blue": "Azul Claro",
+  "color.bblcore.magenta": "Magenta",
+  "color.bblcore.light_gray": "Cinza Claro",
+  "color.bblcore.lit": "Aceso",
+
+  "block.bblcore.colored_crafting_table": "Bancada de Trabalho Colorida",
+
+  "item.bblcore.upgrade_base": "Base de Melhoria",
+
+  "chat.bblcore.modpack": "Você está jogando %s versão %s",
+  "chat.bblcore.modpack_not_set": "Defina as informações do modpack na configuração - config/bbl/core/modpack.toml",
+  "chat.bblcore.modpack_website": "Visitar Página do Modpack",
+  "chat.bblcore.modpack_update": "Este modpack %s tem uma atualização disponível!",
+  "chat.bblcore.modpack_up_date": "Modpack atualizado!",
+  "chat.bblcore.discord": "Clique para entrar em nosso servidor do Discord!",
+  "chat.bblcore.discord_not_set": "Defina as informações do discord na configuração - config/bbl/core/modpack.toml",
+  "chat.bblcore.falling.home": "Uma força misteriosa salvou você, levando-o para casa...",
+  "chat.bblcore.falling.default": "Uma força misteriosa salvou você, levando-o para o ponto de geração do mundo...",
+
+  "tooltips.bblcore.block.unbreakable_resource_block_tool": "Ferramenta de coleta: %s",
+  "tooltips.bblcore.block.unbreakable_resource_block_tool_tag": "Tag da ferramenta de coleta: %s",
+
+  "tooltips.bblcore.shift": "Pressione SHIFT para mais informações",
+  "tooltips.bblcore.alt": "Pressione ALT para mais informações",
+  "tooltips.bblcore.ctrl": "Pressione CTRL para mais informações",
+  "tooltips.bblcore.coloring_item.banned_block": "Este bloco não pode ser colorido",
+
+  "tooltips.bblcore.coloring_item.shift_down": "Clique com o botão direito para colorir blocos coloridos no mundo, SHIFT + botão direito para ativar e desativar a Pulverização em Massa, use com blocos coloridos na grade de fabricação para pulverizar!",
+  "tooltips.lighting_item.shift.held": "Clique com o botão direito para iluminar blocos coloridos no mundo, SHIFT + botão direito para ativar e desativar a Pulverização em Massa, use com blocos coloridos na grade de fabricação para pulverizar!",
+  "tooltips.bblcore.coloring_item.mass_spraying": ", Pulverização em Massa!",
+  "jei.unbreakable_resource_block.name": "Blocos de Recursos",
+  "chat.bblcore.modpack_no_version": "Não foi possível encontrar a versão atual do modpack. Talvez esta seja uma instância de desenvolvimento?",
+  "chat.bblcore.modpack_instance_error": "Erro no Arquivo de Instância do Modpack",
+  "chat.bblcore.modpack_no_instance": "Arquivo não encontrado",
+  "chat.bblcore.modpack_up_to_date": "Modpack atualizado",
+  "chat.bblcore.dev_environment": "Nenhuma versão atual encontrada, devs do modpack não se preocupem, isso é normal se estiverem trabalhando em um pacote",
+  "chat.bblcore.modpack_invalid_instance": "Arquivo de instância inválido"
+
+
+}
