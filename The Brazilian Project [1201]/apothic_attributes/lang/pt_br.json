@@ -1,0 +1,176 @@
+{
+    "item.modifiers.both_hands": "Quando na Mão:",
+
+    "attributeslib.adv.base": "[Entidade: %s | Item: %s]",
+    "attributeslib.adv.sharpness_bonus": "[Afiado: +%s]",
+
+	"attributeslib.value.flat": "%s",
+	"attributeslib.value.percent": "%s%%",
+
+    "attributeslib.value.boolean.enabled": "Habilitado",
+    "attributeslib.value.boolean.disabled": "Desabilitado",
+    "attributeslib.value.boolean.enable": "Habilita",
+    "attributeslib.value.boolean.force_disable": "Desabilita",
+    "attributeslib.value.boolean.invalid": "Inválido",
+
+    "attributeslib.modifier.plus": "+%s %s",
+    "attributeslib.modifier.take": "-%s %s",
+    "attributeslib.modifier.bool": "%s %s",
+	
+    "attributeslib.gui.attributes": "Atributos",
+    "attributeslib.gui.base": "Base: %s",
+    "attributeslib.gui.min": "Mín: %s",
+    "attributeslib.gui.max": "Máx: %s",
+    "attributeslib.gui.modifiers": "Modificadores",
+    "attributeslib.gui.addition": "Adição: %s",
+    "attributeslib.gui.multiply_base": "Multiplicar Base: %s",
+    "attributeslib.gui.multiply_total": "Multiplicar Total: %s",
+    "attributeslib.gui.press_shift": "Segure Shift para mais informações.",
+    "attributeslib.gui.current": "Atual: %s",
+    "attributeslib.gui.show_attributes": "Mostrar Atributos",
+    "attributeslib.gui.formula.base": "Base",
+    "attributeslib.gui.formula.value": "Valor",
+    "attributeslib.gui.no_modifiers": "Sem Modificadores",
+
+    "attribute.name.generic.armor.desc": "Aumenta a redução de dano físico.",
+    "attribute.name.generic.armor_toughness.desc": "Reduz a eficácia da redução de armadura inimiga.",
+    "attribute.name.generic.attack_damage.desc": "Dano físico causado com um ataque totalmente carregado.",
+    "attribute.name.generic.attack_knockback.desc": "A distância que seus ataques corpo a corpo empurram os inimigos, em meios-blocos.",
+    "attribute.name.generic.attack_speed.desc": "Quantos ataques totalmente carregados você pode executar por segundo.",
+    "attribute.name.generic.knockback_resistance.desc": "Quanta repulsão você ignora.",
+    "attribute.name.generic.luck.desc": "Aumenta a probabilidade de coisas boas acontecerem.",
+    "attribute.name.generic.max_health.desc": "Quantos pontos de vida você pode ter.",
+    "attribute.name.generic.movement_speed.desc": "Velocidade de movimento ao caminhar.",
+
+    "forge.entity_reach.desc": "A que distância você pode interagir com entidades, em blocos.",
+    "forge.entity_gravity.desc": "Aceleração em direção ao chão, em blocos/s².",
+    "forge.name_tag_distance.desc": "A que distância outro jogador deve estar para ver seu nome.",
+    "forge.block_reach.desc": "A que distância você pode interagir com blocos, em blocos.",
+    "forge.step_height.desc": "Quantos blocos você pode subir sem pular.",
+    "forge.swim_speed.desc": "A velocidade com que você nada, em relação ao normal.",
+
+    "attributeslib:draw_speed": "Velocidade de Puxada",
+    "attributeslib:draw_speed.desc": "A velocidade com que você puxa armas de longo alcance, como arcos, bestas ou tridentes.",
+
+    "attributeslib:crit_chance": "Chance de Crítico",
+    "attributeslib:crit_chance.desc": "A chance de qualquer dano que você causar ser um acerto crítico, causando dano extra com base no seu Dano Crítico.",
+
+    "attributeslib:crit_damage": "Dano Crítico",
+    "attributeslib:crit_damage.desc": "Multiplicador de dano para acertos críticos, incluindo os acertos críticos de pulo do jogo base.",
+
+    "attributeslib:cold_damage": "Dano de Frio",
+    "attributeslib:cold_damage.desc": "Dano mágico bônus aplicado em ataques corpo a corpo, que também aplica lentidão aos inimigos atingidos.",
+
+    "attributeslib:fire_damage": "Dano de Fogo",
+    "attributeslib:fire_damage.desc": "Dano mágico bônus aplicado em ataques corpo a corpo, que também queima os inimigos atingidos.",
+
+    "attributeslib:life_steal": "Roubo de Vida",
+    "attributeslib:life_steal.desc": "Porcentagem do dano pós-mitigação que irá curar você.",
+
+    "attributeslib:current_hp_damage": "Dano de Vida Atual",
+    "attributeslib:current_hp_damage.desc": "Dano físico bônus aplicado em ataques corpo a corpo, com base na vida do alvo.",
+
+    "attributeslib:overheal": "Sobrecura",
+    "attributeslib:overheal.desc": "Porcentagem do dano pós-mitigação que concederá a você um escudo de absorção.",
+
+    "attributeslib:ghost_health": "Vida Fantasma",
+    "attributeslib:ghost_health.desc": "Ainda Não Implementado",
+
+    "attributeslib:mining_speed": "Velocidade de Mineração",
+    "attributeslib:mining_speed.desc": "A velocidade com que você minera blocos, em comparação ao normal.",
+
+    "attributeslib:arrow_damage": "Dano de Flecha",
+    "attributeslib:arrow_damage.desc": "Multiplicador de dano para flechas. Tridentes são flechas.",
+
+    "attributeslib:arrow_velocity": "Velocidade da Flecha",
+    "attributeslib:arrow_velocity.desc": "Multiplicador de velocidade para flechas. O dano da flecha escala com a velocidade.",
+
+    "attributeslib:experience_gained": "Experiência Ganha",
+    "attributeslib:experience_gained.desc": "Multiplicador na quantidade de experiência que você ganha ao quebrar blocos e matar monstros.",
+
+    "attributeslib:healing_received": "Cura Recebida",
+    "attributeslib:healing_received.desc": "Multiplicador para toda a cura recebida.",
+
+    "attributeslib:armor_pierce": "Perfuração de Armadura",
+    "attributeslib:armor_pierce.desc": "Redução fixa no valor da armadura do alvo.",
+
+    "attributeslib:armor_shred": "Fragmentação de Armadura",
+    "attributeslib:armor_shred.desc": "Redução percentual no valor da armadura do alvo.",
+
+    "attributeslib:prot_pierce": "Perfuração de Proteção",
+    "attributeslib:prot_pierce.desc": "Redução fixa no total de pontos de proteção do alvo.",
+
+    "attributeslib:prot_shred": "Fragmentação de Proteção",
+    "attributeslib:prot_shred.desc": "Redução percentual no total de pontos de proteção do alvo.",
+
+    "attributeslib:dodge_chance": "Chance de Esquiva",
+    "attributeslib:dodge_chance.desc": "Chance de se esquivar de um ataque corpo a corpo ou de um projétil.",
+
+    "attributeslib:elytra_flight": "Voo com Élitro",
+    "attributeslib:elytra_flight.desc": "Se você pode voar como se estivesse usando Elitros.",
+
+    "attributeslib:creative_flight": "Voo Criativo",
+    "attributeslib:creative_flight.desc": "Se você pode voar como se estivesse no Modo Criativo.",
+
+    "comment_id": "MobFx - descriptions are duplicated for JEED support.",
+
+    "effect.attributeslib.knowledge": "Conhecimento das Eras",
+    "effect.attributeslib.knowledge.desc": "Aumenta o tanto de experiência obtida ao matar e de blocos.",
+    "effect.attributeslib.knowledge.description": "Aumenta o tanto de experiência obtida ao matar e de blocos.",
+
+    "effect.attributeslib.sundering": "Ruptura",
+    "effect.attributeslib.sundering.desc": "Aumenta o dano recebido.",
+    "effect.attributeslib.sundering.description": "Aumenta o dano recebido.",
+	
+    "effect.attributeslib.vitality": "Estouro de Vitalidade",
+    "effect.attributeslib.vitality.desc": "Aumenta a cura recebida.",
+    "effect.attributeslib.vitality.description": "Aumenta a cura recebida.",
+	
+    "effect.attributeslib.grievous": "Feridas Dolorosas",
+    "effect.attributeslib.grievous.desc": "Reduz a cura recebida.",
+    "effect.attributeslib.grievous.description": "Reduz a cura recebida.",
+
+    "effect.attributeslib.bleeding": "Sangramento",
+    "effect.attributeslib.bleeding.desc": "Inflige dano a cada dois segundos.",
+    "effect.attributeslib.bleeding.description": "Inflige dano a cada dois segundos.",
+
+    "effect.attributeslib.detonation": "Detonação Flamejante",
+    "effect.attributeslib.detonation.desc": "Ao expirar, inflige dano com base nos tiques de fogo restantes.",
+    "effect.attributeslib.detonation.description": "Ao expirar, inflige dano com base nos tiques de fogo restantes.",
+	
+    "effect.attributeslib.flying": "Voo",
+    "effect.attributeslib.flying.desc": "Permite voar como se no Criativo.",
+    "effect.attributeslib.flying.description": "Permite voar como se no Criativo.",
+
+    "effect.minecraft.night_vision.desc": "Permite que você enxergue no escuro.",
+    "effect.minecraft.invisibility.desc": "Torna você invisível, exceto pelos equipamentos.",
+    "effect.minecraft.jump_boost.desc": "Aumenta a altura do pulo.",
+    "effect.minecraft.fire_resistance.desc": "Torna você imune a dano de fogo.",
+    "effect.minecraft.water_breathing.desc": "Faz com que você não se afogue.",
+    "effect.minecraft.instant_health.desc": "Restaura instantaneamente um pouco da sua vida.",
+    "effect.minecraft.instant_damage.desc": "Causa instantaneamente um pouco de dano mágico.",
+    "effect.minecraft.poison.desc": "Inflige periodicamente dano não letal.",
+    "effect.minecraft.regeneration.desc": "Faz com que você regenere vida ao longo do tempo.",
+
+    "comment_id": "Damage Sources",
+
+    "death.attack.attributeslib:bleeding": "%1$s sangrou até morrer",
+    "death.attack.attributeslib:bleeding.item": "%1$s sangrou até morrer devido a %3$s de %2$s",
+    "death.attack.attributeslib:bleeding.player": "%1$s sangrou até morrer enquanto tentava escapar de %2$s",
+
+    "death.attack.attributeslib:detonation": "Chamas detonaram %1$s",
+    "death.attack.attributeslib:detonation.item": "Chamas detonaram %1$s",
+    "death.attack.attributeslib:detonation.player": "Chamas detonaram %1$s",
+
+    "death.attack.attributeslib:current_hp_damage": "Abateram %1$s",
+    "death.attack.attributeslib:current_hp_damage.item": "%2$s abateu %1$s usando %3$s",
+    "death.attack.attributeslib:current_hp_damage.player": "Abateram %1$s enquanto lutava com %2$s",
+
+    "death.attack.attributeslib:fire_damage": "%1$s queimou até a morte",
+    "death.attack.attributeslib:fire_damage.item": "%2$s queimou %1$s até a morte usando %3$s",
+    "death.attack.attributeslib:fire_damage.player": "%1$s queimou até a morte enquanto lutava com %2$s",
+
+    "death.attack.attributeslib:cold_damage": "%1$s congelou até a morte",
+    "death.attack.attributeslib:cold_damage.item": "%2$s congelou %1$s até a morte usando %3$s",
+    "death.attack.attributeslib:cold_damage.player": "%1$s congelou até a morte enquanto lutava com %2$s"
+}

@@ -1,0 +1,20 @@
+{
+	"block.ars_controle.warping_spell_prism": "Prisma de Feitiço de Teleporte",
+  
+	"item.ars_controle.remote": "Controle Remoto",
+	"item.ars_controle.remote.with_target": "Controle Remoto (%s)",
+  
+	"ars_controle.target.set.none": "Alvo removido.",
+	"ars_controle.target.set.self": "Alvo definido para si mesmo.",
+	"ars_controle.target.set.entity": "Alvo definido para %s em %s.",
+	"ars_controle.target.set.block": "Alvo definido para o bloco em %s em %s.",
+	"ars_controle.target.get.none": "Nenhum alvo encontrado.",
+	"ars_controle.target.get.entity": "Entidade alvo: %s em %s.",
+	"ars_controle.target.get.block": "Bloco alvo: %s em %s.",
+	"ars_controle.remote.error.no_target": "Nenhum alvo armazenado no controle remoto.",
+	"ars_controle.remote.error.invalid_dimension": "O alvo está em uma dimensão inválida.",
+	"ars_controle.remote.error.different_dimension": "O alvo não pode estar em uma dimensão diferente.",
+	"ars_controle.remote.error.invalid_target": "Alvo inválido.",
+	
+	"ars_controle.remote.set_target": "Alvo remoto definido para %s em %s."
+}
