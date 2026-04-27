@@ -11,23 +11,8 @@
     "item.hostilenetworks.nether_prediction": "Previsão Generalizada do Nether",
     "item.hostilenetworks.end_prediction": "Previsão Generalizada do Ender",
     "item.hostilenetworks.twilight_prediction": "Previsão Generalizada do Crepúsculo",
-    "item.hostilenetworks.fab_directive": "Diretiva de Fabricação",
-    "item.hostilenetworks.fab_directive.desc": "Armazena seleções de um Fabricador de Loot",
-    "item.hostilenetworks.fab_directive.desc2": "Clique-Direito para copiar, Shift-Clique-Direito para aplicar",
-
-    "text.hostilenetworks.stored_selection": "Seleção Armazenada %s/%s",
-    "text.hostilenetworks.invalid_selection.model": "Seleção com Erro: Modelo não reconhecido (%s)",
-    "text.hostilenetworks.invalid_selection.index": "Seleção com Erro: Índice inválido (%s)",
-    "text.hostilenetworks.scroll": "[rolar]",
-    "text.hostilenetworks.shift": "[shift]",
-    "text.hostilenetworks.selection": "%s -> %s %s",
-    "text.hostilenetworks.selections_applied": "%s seleções de %s aplicadas",
-    "text.hostilenetworks.selections_copied": "%s seleções de %s copiadas",
-    
-    "key.categories.hostilenetworks": "Hostile Neural Networks",
-    "key.hostilenetworks.open_deep_learner": "Abrir Aprendiz Profundo (Curio)",
-
-    "itemGroup.hostilenetworks": "Hostile Neural Networks",
+	
+	"itemGroup.hostilenetworks": "Hostile Neural Networks",
 
     "hostilenetworks.gui.learner_empty.0": "Nenhum Modelo de Dados Encontrado",
     "hostilenetworks.gui.learner_empty.1": "Por favor, insira um Modelo de Dados!",
@@ -40,7 +25,8 @@
     "hostilenetworks.gui.info": "Informações",
     "hostilenetworks.gui.tier": "Nível do Modelo: %s",
     "hostilenetworks.gui.accuracy": "Precisão do Modelo: %s",
-    "hostilenetworks.gui.next_tier": "Aprimora para %s em %s %s",
+    "hostilenetworks.gui.next_tier": "Aprimora para ",
+	"hostilenetworks.gui.next_tier2": " em %s ",
     "hostilenetworks.gui.kill": "abate",
     "hostilenetworks.gui.kills": "abates",
     "hostilenetworks.gui.stats": "Estatísticas",
@@ -53,10 +39,6 @@
     "hostilenetworks.gui.max_tier": "Você não pode me aprimorar mais",
     "hostilenetworks.gui.max_data": "Estou no meu potencial máximo",
     "hostilenetworks.gui.variant": "%s (Variante)",
-    "hostilenetworks.gui.upgrade_disabled": "Modelos não podem ser aprimorados via abates.",
-    "hostilenetworks.gui.redstone.ignored": "Redstone: Ignorado",
-    "hostilenetworks.gui.redstone.off_when_powered": "Redstone: Desligado quando energizado",
-    "hostilenetworks.gui.redstone.on_when_powered": "Redstone: Ligado quando energizado",
 
     "hostilenetworks.hud.model": " Modelo",
     "hostilenetworks.hud.kills": "%s Restantes",
@@ -73,7 +55,6 @@
     "hostilenetworks.fail.model": "Por favor, insira um Modelo de Dados para iniciar a simulação",
     "hostilenetworks.fail.faulty": "Dados insuficientes no modelo. Por favor, insira um modelo Básico ou superior",
     "hostilenetworks.fail.energy_mid_cycle": "Progresso da simulação pausado\nNíveis de energia do sistema críticos",
-    "hostilenetworks.fail.redstone": "Progresso da simulação pausado\nSinal de redstone incorreto aplicado",
 
     "hostilenetworks.run.0": "> Iniciando tempo de execução ",
     "hostilenetworks.run.1": "> Iteração #%s iniciada",
@@ -93,6 +74,8 @@
     "hostilenetworks.info.dpk": "Dados Por Abate: %s",
     "hostilenetworks.info.sim_cost": "Custo da Simulação: %s",
     "hostilenetworks.info.rft": "%s FE/t",
+	"hostilenetworks.info.deep_learner": "Exibe um %s quando segurado e os modelos estão dentro",
+	"hostilenetworks.info.dl_contains": "Contém os seguintes modelos",
     "hostilenetworks.info.rolls": "Cópias da Tabela de Loot: %s",
     "hostilenetworks.info.player": "Loot do Jogador: %s",
     "hostilenetworks.info.exp": "Gera Experiência: %s",
@@ -109,7 +92,6 @@
     "hostilenetworks.color_text.true": "verdadeiro",
     "hostilenetworks.color_text.false": "falso",
 
-    "hostilenetworks.msg.multiple_models": "Múltiplos modelos (%s e %s) correspondem à entidade alvo. Este é um problema de configuração do modpack.",
     "hostilenetworks.msg.no_model": "Nenhum modelo conhecido existe para este espécime.",
     "hostilenetworks.msg.built": "Modelo de Dados de %s construído com sucesso",
 
@@ -130,7 +112,6 @@
     "hostilenetworks.trivia.pig": "O porco é um caso interessante.\nPior que uma vaca para drops,\ne pior que um cavalo para montar.\nTalvez matá-lo seja um ato de bondade...",
 
     "_comment": "Vanilla Hostiles",
-    "hostilenetworks.trivia.breeze": "Um parente aéreo do Blaze,\nVórtices só podem ser encontrados\ndentro dos confins de uma Câmara de Desafios.",
     "hostilenetworks.trivia.blaze": "Traga baldes e observe em desespero\nenquanto tudo evapora, e tudo está\nem chamas. Você está em chamas.",
     "hostilenetworks.trivia.creeper": "Um arquiteto inverso por profissão.\nGeralmente incompreendido.",
     "hostilenetworks.trivia.drowned": "Um morto-vivo que desafiou\na morte novamente.\nDe alguma forma, ele aprendeu a usar um Tridente.",

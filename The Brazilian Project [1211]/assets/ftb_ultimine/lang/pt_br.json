@@ -71,10 +71,10 @@
 	"ftbultimine.server_settings.costs_limits.require_tool.tooltip": "Se verdadeiro, os jogadores devem ter equipado uma ferramenta com durabilidade ou um item na tag de item 'ftbultimine:tools'\nVeja também 'Exigir Ferramenta Válida para o Ultimine'",
 	"ftbultimine.server_settings.costs_limits.require_valid_tool_for_block": "Exigir Ferramenta Válida para o Ultimine",
 	"ftbultimine.server_settings.costs_limits.require_valid_tool_for_block.tooltip": "Se verdadeiro, a ferramenta equipada deve ser válida para o bloco sendo minerado,\nou seja, ela deve ser capaz de coletar os itens derrubados\nVeja também 'Exigir Ferramenta para o Ultimine'",
-	"ftbultimine.server_settings.costs_limits.experience_per_block": "Custo de XP por Bloco Minerado",
+	"ftbultimine.server_settings.costs_limits.experience_per_block": "Custo de Exp. por Bloco Minerado",
 	"ftbultimine.server_settings.costs_limits.experience_per_block.tooltip": "Isso pode ser um valor fracionário\nSe o FTB Ranks estiver instalado, o nó 'ftbultimine.experience_per_block' tem prioridade, se presente",
-	"ftbultimine.server_settings.costs_limits.ultimine_cooldown": "Recarga do Ultimine (ticks)",
-	"ftbultimine.server_settings.costs_limits.ultimine_cooldown.tooltip": "Tempo em ticks necessário entre usos sucessivos da função Ultimine\n20 ticks = 1 segundo\nSe o FTB Ranks estiver instalado, o nó 'ftbultimine.ultimine_cooldown' tem prioridade, se presente",
+	"ftbultimine.server_settings.costs_limits.ultimine_cooldown": "Recarga do Ultimine (tiques)",
+	"ftbultimine.server_settings.costs_limits.ultimine_cooldown.tooltip": "Tempo em tiques necessário entre usos sucessivos da função Ultimine\n20 tiques = 1 segundo\nSe o FTB Ranks estiver instalado, o nó 'ftbultimine.ultimine_cooldown' tem prioridade, se presente",
 	"ftbultimine.server_settings.misc": "Diversos",
 	"ftbultimine.server_settings.misc.merge_tags": "Mesclar Tags (Sem Formato)",
 	"ftbultimine.server_settings.misc.merge_tags.tooltip": "Para o modo de escavação sem formato, quaisquer blocos nestas tags que compartilhem uma tag de bloco com o bloco minerado original são candidatos válidos para o Ultimining.",
@@ -85,7 +85,7 @@
 	"ftbultimine.server_settings.misc.cancel_on_block_break_fail": "Cancelar em Caso de Falha ao Quebrar Bloco",
 	"ftbultimine.server_settings.misc.cancel_on_block_break_fail.tooltip": "Configuração avançada: para a escavação se blocos inquebráveis forem encontrados, em vez de pular esses blocos",
 	"ftbultimine.modifier.max_blocks": "Máx. de Blocos do FTB Ultimine",
-	"ftbultimine.modifier.cooldown": "Ticks de Recarga do FTB Ultimine",
+	"ftbultimine.modifier.cooldown": "Tiques de Recarga do FTB Ultimine",
 	"ftbultimine.modifier.exhaustion": "Consumo de Comida do FTB Ultimine",
 	"ftbultimine.modifier.experience": "Custo de Experiência do FTB Ultimine"
 }
