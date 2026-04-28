@@ -3,7 +3,7 @@
 
   "curios.identifier.feet": "Pés",
 
-  "tooltip.relics.researching.info": "Pressione [%1$s] para pesquisar...",
+  "tooltip.relics.researching.info": "Pressione [%1$s] para buscar...",
 
   "tooltip.relics.relic.tooltip.abilities": "Habilidades:",
 
@@ -33,7 +33,7 @@
 
   "tooltip.relics.researching.research.hint.description": "Dica",
   "tooltip.relics.researching.research.hint.cost": "Custo: %1$s pontos de experiência do jogador (%2$s níveis relativos) %3$s.",
-  "tooltip.relics.researching.research.hint.quick": "Segure [Shift] para pesquisar habilidades de forma completamente automática.",
+  "tooltip.relics.researching.research.hint.quick": "Segure [Shift] para buscar habilidades de forma completamente automática.",
   "tooltip.relics.researching.research.hint.locked": "A habilidade já foi pesquisada!",
 
   "tooltip.relics.researching.badge.ability.cast_type.hint": "Use a tecla [%1$s] fora de qualquer interface para abrir a tela de habilidades!",
@@ -54,7 +54,7 @@
   "tooltip.relics.researching.relic.card.ready_to_upgrade": "A habilidade está pronta para subir de nível!",
 
   "tooltip.relics.researching.relic.gem.low_level": "Para destravar a fonte de experiência, você precisa aumentar a relíquia de nível para %1$s!",
-  "tooltip.relics.researching.relic.gem.locked_ability": "Para destravar a fonte de experiência, você precisa destravar e pesquisar a habilidade respectiva!",
+  "tooltip.relics.researching.relic.gem.locked_ability": "Para destravar a fonte de experiência, você precisa destravar e buscar a habilidade respectiva!",
 
   "tooltip.relics.researching.tab.relic": "Relíquia",
   "tooltip.relics.researching.tab.ability": "Habilidades",
@@ -67,7 +67,7 @@
   "tooltip.relics.researching.relic.info.extra_info": "A qualidade da relíquia é a média aritmética da qualidade de todas as habilidades atualmente destravadas e é medida em pontos de 1 a 5 com um meio termo de 0,5. Ela é uma métrica puramente visual que exibe o quão perto as características aleatórias iniciais do item estão do melhor possível. Para melhorar a qualidade geral da relíquia, cada habilidade deve ser considerada separadamente.",
 
   "tooltip.relics.researching.relic.experience.title": "Experiência de Relíquia:",
-  "tooltip.relics.researching.relic.experience.extra_info": "Obtida ao usar as habilidades da relíquia conforme pretendido (mais detalhes podem ser encontrados na página sobre fontes de experiência). Ao pesquisar o valor máximo de experiência, o nível da relíquia e o total de pontos de melhoria sobe em 1, permitindo a você destravar habilidades anteriormente indisponíveis ou melhorar habilidades existentes.",
+  "tooltip.relics.researching.relic.experience.extra_info": "Obtida ao usar as habilidades da relíquia conforme pretendido (mais detalhes podem ser encontrados na página sobre fontes de experiência). Ao buscar o valor máximo de experiência, o nível da relíquia e o total de pontos de melhoria sobe em 1, permitindo a você destravar habilidades anteriormente indisponíveis ou melhorar habilidades existentes.",
 
   "tooltip.relics.researching.ability.info.level": "Nível de Habilidade:",
   "tooltip.relics.researching.ability.info.quality": "Qualidade de Habilidade:",
@@ -317,5 +317,5 @@
   "info.relics.researching.wrong_container": "Trabalhar com a relíquia neste inventário não é possível. Mova o item para o inventário principal do jogador e tente novamente.",
 
   "key.relics.active_abilities_list": "Exibir a tela de habilidades ativas",
-  "key.relics.research_relic": "Pesquisar relíquia sob o cursor"
+  "key.relics.research_relic": "Buscar relíquia sob o cursor"
 }
