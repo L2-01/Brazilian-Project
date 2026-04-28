@@ -602,7 +602,7 @@
   "gauge_text.stellaris.stored": "Armazenado : %s",
   "gauge_text.stellaris.capacity": "Capacidade : %s",
   "screen.stellaris.gauge": "Capacidade: %1$s / %2$s",
-  "gauge_text.stellaris.max_generation": "Geração Máxima : %s FE/tick",
+  "gauge_text.stellaris.max_generation": "Geração Máxima : %s FE/tique",
 
   "stellaris.screen.oil": "Petróleo",
   "stellaris.screen.fuel": "Combustível",
@@ -743,7 +743,7 @@
   "config.stellaris.enableOxygenSystem.desc": "Ativar (verdadeiro) ou Desativar (falso) o Sistema de Oxigênio. O padrão é verdadeiro.",
 
   "config.stellaris.oxygenCheckInterval": "Intervalo de verificação oxigênio",
-  "config.stellaris.oxygenCheckInterval.desc": "Intervalo em ticks onde a verificação de oxigênio é realizada. O padrão é 20 ticks (1 segundo).",
+  "config.stellaris.oxygenCheckInterval.desc": "Intervalo em tiques onde a verificação de oxigênio é realizada. O padrão é 20 tiques (1 segundo).",
 
   "config.stellaris.maxOxygenRoomSize": "Tamanho Máximo da Sala de Oxigênio",
   "config.stellaris.maxOxygenRoomSize.desc": "O tamanho máximo de uma sala que pode ser preenchida com oxigênio. Padrão é de 32 blocos.",
@@ -757,7 +757,7 @@
 
 
   "config.stellaris.dieselGeneratorFuelTime" : "Tempo de Combustível do Gerador a Diesel",
-  "config.stellaris.dieselGeneratorFuelTime.desc": "O tempo em ticks que um gerador a diesel pode funcionar com 10mb de diesel.",
+  "config.stellaris.dieselGeneratorFuelTime.desc": "O tempo em tiques que um gerador a diesel pode funcionar com 10mb de diesel.",
 
   "config.stellaris.rocketTpHeight": "Altura de Teletransporte do Foguete",
   "config.stellaris.rocketTpHeight.desc": "A altura em que o foguete abre a tela de teletransporte. O padrão é 600 blocos.",
@@ -766,5 +766,5 @@
   "config.stellaris.orbitTeleportationYCoord.desc": "A coordenada Y para a qual o jogador será teletransportado ao usar o recurso de teletransporte orbital.",
 
   "config.stellaris.radiationCheckInterval": "Intervalo de verificação de radiação",
-  "config.stellaris.radiationCheckInterval.desc": "O intervalo em ticks em que a verificação de radiação é executada. O padrão é 100 ticks (5 segundos)."
+  "config.stellaris.radiationCheckInterval.desc": "O intervalo em tiques em que a verificação de radiação é executada. O padrão é 100 tiques (5 segundos)."
 }

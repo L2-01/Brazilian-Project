@@ -848,7 +848,7 @@
   "tooltip.energizedpower.machine_configuration.comparator_mode.energy": "Modo Comparador: Energia",
 
   "tooltip.energizedpower.upgrade_module_modifier.speed": "Velocidade de Produção",
-  "tooltip.energizedpower.upgrade_module_modifier.energy_consumption": "Consumo de Energia por tick",
+  "tooltip.energizedpower.upgrade_module_modifier.energy_consumption": "Consumo de Energia por tique",
   "tooltip.energizedpower.upgrade_module_modifier.energy_capacity": "Capacidade de Energia",
   "tooltip.energizedpower.upgrade_module_modifier.energy_transfer_rate": "Taxa de Transferência de Energia",
   "tooltip.energizedpower.upgrade_module_modifier.duration": "Duração",
@@ -873,8 +873,8 @@
   "entity.energizedpower.battery_box_minecart": "Carrinho de Mina com Caixa de Bateria",
   "entity.energizedpower.advanced_battery_box_minecart": "Carrinho de Mina com Caixa de Bateria Avançada",
 
-  "recipes.energizedpower.in_world_crafting": "Criação no Mundo",
-  "recipes.energizedpower.info.ticks": "Ticks: %d",
+  "recipes.energizedpower.in_world_crafting": "Fabricação no Mundo",
+  "recipes.energizedpower.info.ticks": "Tiques: %d",
   "recipes.energizedpower.plant_growth_chamber_fertilizer": "Câmara de Crescimento (Fertilizante)",
   "recipes.energizedpower.plant_growth_chamber_fertilizer.speed_multiplier": "%.2fx Velocidade",
   "recipes.energizedpower.plant_growth_chamber_fertilizer.energy_consumption_multiplier": "%.2fx Consumo de Energia",
@@ -1361,7 +1361,7 @@
   "advancements.energizedpower.hv_transformers.description": "Podem transferir ainda mais energia.",
 
   "advancements.energizedpower.ehv_transformers.title": "Transformadores de Extra Alta Tensão (EHV)",
-  "advancements.energizedpower.ehv_transformers.description": "Podem transferir mais de 2 milhões de FE por tick.",
+  "advancements.energizedpower.ehv_transformers.description": "Podem transferir mais de 2 milhões de FE por tique.",
 
   "advancements.energizedpower.battery_box.title": "Caixa de Bateria",
   "advancements.energizedpower.battery_box.description": "Armazene energia com o bloco Caixa de Bateria.",
@@ -1685,7 +1685,7 @@
 
   "book.energizedpower.page.heat_generator.1": "O Gerador de Calor produz energia se lava corrente ou parada tocar no bloco.",
   "book.energizedpower.page.heat_generator.2": "Se o Gerador de Calor tocar em lava parada, ele produzirá mais energia do que se tocasse em lava corrente.",
-  "book.energizedpower.page.heat_generator.3": "Quanto mais blocos de lava estiverem tocando, mais energia por tick será produzida.",
+  "book.energizedpower.page.heat_generator.3": "Quanto mais blocos de lava estiverem tocando, mais energia por tique será produzida.",
   "book.energizedpower.page.heat_generator.4": "Se você estiver jogando um modpack, outros fluidos quentes também podem ser suportados.",
 
   "book.energizedpower.page.thermal_generator.1": "O Gerador Térmico produz energia consumindo fluidos quentes.",
