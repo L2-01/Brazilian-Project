@@ -1,0 +1,127 @@
+{
+	"item.not_enough_glyphs.spell_binder": "Fichário de Feitiços",
+
+	"toomanyglyphs.glyph_name.glyph_filter_block": "Filtro: Bloco",
+	"toomanyglyphs.glyph_desc.glyph_filter_block": "Impede o feitiço de se resolver a menos que ele tenha por alvo um bloco.",
+	"item.toomanyglyphs.glyph_filter_block": "Glifo da Filtragem: Bloco",
+
+	"toomanyglyphs.glyph_name.glyph_filter_entity": "Filtro: Entidade",
+	"toomanyglyphs.glyph_desc.glyph_filter_entity": "Impede o feitiço de se resolver a menos que ele tenha por alvo uma entidade.",
+	"item.toomanyglyphs.glyph_filter_entity": "Glifo da Filtragem: Entidade",
+
+	"toomanyglyphs.glyph_name.glyph_filter_living": "Filtro: Vivo",
+	"toomanyglyphs.glyph_desc.glyph_filter_living": "Impede o feitiço de se resolver a menos que ele tenha por alvo uma entidade viva.",
+	"item.toomanyglyphs.glyph_filter_living": "Glifo da Filtragem: Vivo",
+
+	"toomanyglyphs.glyph_name.glyph_filter_living_not_player": "Filtro: Não-Jogador",
+	"toomanyglyphs.glyph_desc.glyph_filter_living_not_player": "Impede o feitiço de se resolver caso ele tenha por alvo um jogador.",
+	"item.toomanyglyphs.glyph_filter_living_not_player": "Glifo da Filtragem: Vivo, Não-Jogador",
+
+	"toomanyglyphs.glyph_name.glyph_filter_living_not_monster": "Filtro: Não-Monstro",
+	"toomanyglyphs.glyph_desc.glyph_filter_living_not_monster": "Impede o feitiço de se resolver caso ele tenha por alvo um monstro.",
+	"item.toomanyglyphs.glyph_filter_living_not_monster": "Glifo da Filtragem: Vivo, Não-Monstro",
+
+	"toomanyglyphs.glyph_name.glyph_filter_player": "Filtro: Jogador",
+	"toomanyglyphs.glyph_desc.glyph_filter_player": "Impede o feitiço de se resolver a menos que ele tenha por alvo um jogador.",
+	"item.toomanyglyphs.glyph_filter_player": "Glifo da Filtragem: Jogador",
+
+	"toomanyglyphs.glyph_name.glyph_filter_monster": "Filtro: Monstro",
+	"toomanyglyphs.glyph_desc.glyph_filter_monster": "Impede o feitiço de se resolver a menos que ele tenha por alvo um monstro.",
+	"item.toomanyglyphs.glyph_filter_monster": "Glifo da Filtragem: Monstro",
+
+	"toomanyglyphs.glyph_name.glyph_reverse_direction": "Direção Reversa",
+	"toomanyglyphs.glyph_desc.glyph_reverse_direction": "Reverte a direção de um feitiço que tenha por alvo um bloco na face atingida.",
+	"item.toomanyglyphs.glyph_reverse_direction": "Glifo da Direção Reversa",
+
+	"toomanyglyphs.glyph_name.glyph_chaining": "Encadeamento",
+	"toomanyglyphs.glyph_desc.glyph_chaining": "Faz com que um feitiço acerte múltiplos alvos agrupados em cadeia, sejam eles bloco semelhantes ou entidades vivas diferentes do conjurador. AdE aumenta a quantidade de alvos. Perfurar aume nta a distância máxima de pulo entre alvos.",
+	"item.toomanyglyphs.glyph_chaining": "Glifo do Encadeamento",
+
+	"toomanyglyphs.glyph_name.glyph_ray": "Raio",
+	"toomanyglyphs.glyph_desc.glyph_ray": "Instantaneamente atinge o alvo apontado, em um alcance limitado mas maior que Toque. Mana é gasta queira o raio atinja algo ou não. AdE aumenta o alcance. Sensível 1 permite ao raio atingir objetos que não bloqueiam movimento, tais como plantas ou globos de luz mágica flutuantes. Sensível 2 permite que o raio atinja líquidos.",
+	"item.toomanyglyphs.glyph_ray": "Glifo do Raio",
+
+	"toomanyglyphs.glyph_name.glyph_filter_item": "Filtro: Item",
+	"toomanyglyphs.glyph_desc.glyph_filter_item": "Impede o feitiço de se resolver a menos que ele tenha por alvo um item solto no mundo. Provavelmente inútil com Projétil e Raio básico, os quais não podem ter por alvo entidades não vivas.",
+	"item.toomanyglyphs.glyph_filter_item": "Glifo da Filtragem: Item",
+
+	"toomanyglyphs.glyph_name.glyph_filter_animal": "Filtro: Animal",
+	"toomanyglyphs.glyph_desc.glyph_filter_animal": "Impede o feitiço de se resolver a menos que ele tenha por alvo um animal de fazenda.",
+	"item.toomanyglyphs.glyph_filter_animal": "Glifo da Filtragem: Animal",
+
+	"toomanyglyphs.glyph_name.glyph_filter_is_baby": "Filtro: Bebê",
+	"toomanyglyphs.glyph_desc.glyph_filter_is_baby": "Impede o feitiço de se resolver a menos que ele tenha por alvo uma criatura viva, envelhecível não madura.",
+	"item.toomanyglyphs.glyph_filter_is_baby": "Glifo da Filtragem: Bebê",
+
+	"toomanyglyphs.glyph_name.glyph_filter_is_mature": "Filtro: Maduro",
+	"toomanyglyphs.glyph_desc.glyph_filter_is_mature": "Impede o feitiço de se resolver a menos que ele tenha por alvo uma criatura viva, envelhecível madura.",
+	"item.toomanyglyphs.glyph_filter_is_mature": "Glifo da Filtragem: Maduro",
+
+	"not_enough_glyphs.glyph_name.glyph_plow": "Arador",
+	"not_enough_glyphs.glyph_desc.glyph_plow": "Simula o uso de uma Enxada em blocos.",
+	"item.not_enough_glyphs.glyph_plow": "Glifo do Arador",
+
+	"not_enough_glyphs.glyph_name.glyph_trail": "Projétil Ecoante",
+	"not_enough_glyphs.glyph_desc.glyph_trail": "Dispara um projétil que resolve o feitiço múltiplas vezes em sua trilha. Adicione Sensível para fazê-lo se resolver em blocos. Use Estender Duração para reduzir o intervalo entre cada conjuração e AdE para aumentar a área de efeito.",
+	"item.not_enough_glyphs.glyph_trail": "Glifo do Projétil Ecoante",
+
+	"not_enough_glyphs.glyph_name.glyph_propagate_plane": "Propagar Plano",
+	"not_enough_glyphs.glyph_desc.glyph_propagate_plane": "Resolve o resto do feitiço em um plano estendendo-se a partir do bloco atingido. Adicione Sensível para fazer do plano circular. Adicione Amortecimento para fazer do plano oco.",
+	"item.not_enough_glyphs.glyph_propagate_plane": "Glifo do Propagar Plano",
+
+	"not_enough_glyphs.glyph_name.glyph_propagate_orbit": "Propagar Órbita",
+	"not_enough_glyphs.glyph_desc.glyph_propagate_orbit": "Converte o resto do feitiço em um feitiço de Órbita, orbitando a entidade ou bloco atingido. Regras do Órbita se aplicam para adições.",
+	"item.not_enough_glyphs.glyph_propagate_orbit": "Glifo do Propagar Órbita",
+
+	"arsomega.glyph_name.glyph_propagate_projectile": "Propagar Projétil",
+	"arsomega.glyph_desc.glyph_propagate_projectile": "Converte o restante do feitiço em um feitiço de Projétil, disparado do ponto de impacto na direção para onde o conjurador está olhando.",
+	"arsomega.glyph_name.glyph_propagate_self": "Propagar a Si Mesmo",
+	"arsomega.glyph_desc.glyph_propagate_self": "Resolve o restante do feitiço no conjurador.",
+	"arsomega.glyph_name.glyph_propagate_underfoot": "Propagar Debaixo",
+	"arsomega.glyph_desc.glyph_propagate_underfoot": "Resolve o resto do feitiço um bloco abaixo da posição atingida.",
+
+	"arsomega.glyph_name.glyph_flatten": "Aplanar",
+	"arsomega.glyph_desc.glyph_flatten": "Simula o uso de uma Pá em blocos ou dá dano relativo ao bloco sob a entidade.",
+	"item.arsomega.glyph_flatten": "Glifo do Aplanar",
+
+	"ars_elemental.glyph_name.glyph_homing_projectile": "Projétil Teleguiado",
+	"ars_elemental.glyph_desc.glyph_homing_projectile": "Este projétil busca a entidade mais próxima e a segue; comportando-se como um projétil clássico se não houver alvos válidos. Jogadores só serão alvos se melhorado por Sensível.",
+	"ars_elemental.glyph_name.glyph_propagator_homing": "Propagar Teleguiado",
+	"ars_elemental.glyph_desc.glyph_propagator_homing": "Converte o resto do feitiço em um Projétil Teleguiado e o dispara de onde atingir.",
+	"ars_elemental.glyph_name.glyph_arc_projectile": "Projétil em Arco",
+	"ars_elemental.glyph_desc.glyph_arc_projectile": "Este projétil é afetado pela gravidade. Cada Perfurar aplicado fará ele saltar uma vez ao atingir o chão.",
+	"ars_elemental.glyph_name.glyph_propagator_arc": "Propagar Arco",
+	"ars_elemental.glyph_desc.glyph_propagator_arc": "Converte o restante do feitiço em um Projétil em Arco e o dispara de onde atingir.",
+
+	"arsomega.glyph_name.glyph_propagate": "Propagar",
+	"arsomega.glyph_desc.glyph_propagate": "Resolve/Converte o restante.",
+
+	"ars_nouveau.spell_binder.open": "Pressione %s para abrir o inventário",
+
+	"ars_nouveau.book_thread": "Tópico do Livro : %s",
+	"ars_nouveau.book_slot": "Espaços de Tópicos do Livro",
+
+	"item.ars_nouveau.thread_summon_focus": "Foco de Invocação",
+	"ars_nouveau.perk_desc.thread_summon_focus": "Tópico para o Fichário de Feitiços. Irá conjurar feitiços como se o foco de invocação estivesse equipado.",
+
+	"item.ars_nouveau.thread_shaper_focus": "Foco da Modelagem de Blocos",
+	"ars_nouveau.perk_desc.thread_shaper_focus": "Tópico para o Fichário de Feitiços. Irá conjurar feitiços como se o foco de modelagem de blocos estivesse equipado.",
+
+	"item.ars_nouveau.thread_fire_focus": "Foco do Fogo",
+	"ars_nouveau.perk_desc.thread_fire_focus": "Tópico para o Fichário de Feitiços. Irá conjurar feitiços como se o foco do fogo estivesse equipado.",
+	"item.ars_nouveau.thread_earth_focus": "Foco da Terra",
+	"ars_nouveau.perk_desc.thread_earth_focus": "Tópico para o Fichário de Feitiços. Irá conjurar feitiços como se o foco da terra estivesse equipado.",
+	"item.ars_nouveau.thread_water_focus": "Foco da Água",
+	"ars_nouveau.perk_desc.thread_water_focus": "Tópico para o Fichário de Feitiços. Irá conjurar feitiços como se o foco da água estivesse equipado.",
+	"item.ars_nouveau.thread_air_focus": "Foco do Ar",
+	"ars_nouveau.perk_desc.thread_air_focus": "Tópico para o Fichário de Feitiços. Irá conjurar feitiços como se o foco do ar estivesse equipado.",
+	"item.ars_nouveau.thread_wild_magic": "Magia Selvagem",
+	"ars_nouveau.perk_desc.thread_wild_magic": "Tópico para o Fichário de Feitiços. Irá adicionar aleatoriamente adições positivos ou negativas aos efeitos de seus feitiços quando equipado.",
+	"item.ars_nouveau.thread_cheap_damage":"Dano Barato",
+	"ars_nouveau.perk_desc.thread_cheap_damage": "Tópico para o Fichário de Feitiços. Irá descontar em muito os feitiços conjurados do livro equipado, mas irá reduzir fortemente seu dano.",
+	"item.ars_nouveau.thread_slow_power": "Poderio Lento",
+	"ars_nouveau.perk_desc.thread_slow_power": "Tópico para o Fichário de Feitiços. Irá aumentar o dano dos feitiços conjurados do livro equipado, mas irá reduzir fortemente sua velocidade.",
+
+	"not_enough_glyphs.perk.mana_discount": "Desconto de Mana",
+	"not_enough_glyphs.perk.mana_discount.desc": "Reduz o custo de mana do feitiço em %s."
+}
