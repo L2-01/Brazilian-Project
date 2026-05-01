@@ -17,14 +17,14 @@
 	
 	"item.patchouli:intro_book.name": "Patchouli",
 	"item.patchouli:intro_book.subtitle": "Documentação para todos",
-	
 	"item.patchouli:intro_book.landing": "Com o $(item)Patchouli$(), você pode fazer $(thing)livros$() desbloqueáveis de avanço fácil de ler para mods e modpacks!",
+	
 	"item.patchouli:pamphlet.name": "Panfleto de Teste",
-	
 	"item.patchouli:pamphlet.landing": "Um folheto de teste, que é um livro com apenas uma categoria.",
-	"patchouli.subtitle.book_open": "Livro Abre",
 	
+	"patchouli.subtitle.book_open": "Livro Abre",
 	"patchouli.subtitle.book_flip": "Viradas de Página",
+	
 	"patchouli.gui.lexicon.landing_info": "(Texto inicial do marcador de posição, defina seu próprio no arquivo json do livro!)",
 	"patchouli.gui.lexicon.progress_meter": "Progresso de Desbloqueio:",
 	"patchouli.gui.lexicon.progress_tooltip": "%d/%d Desbloqueado",
@@ -97,8 +97,5 @@
 	"patchouli.gui.lexicon.button.visualize.info": "(Clique novamente para limpar)",
 	"patchouli.gui.lexicon.button.history": "História",
 	"patchouli.gui.lexicon.button.mark_all_read": "Marcar tudo como lido",
-	"patchouli.gui.lexicon.button.mark_category_read": "Marcar esta categoria como lida",
-	
-	"patchouli.networking.open_book.failed": "Falha ao abrir o livro %s",
-	"patchouli.networking.reload_contents.failed": "Falha ao recarregar o conteúdo %S"
+	"patchouli.gui.lexicon.button.mark_category_read": "Marcar esta categoria como lida"
 }
