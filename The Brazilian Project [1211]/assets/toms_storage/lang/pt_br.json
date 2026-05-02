@@ -219,8 +219,8 @@
 	"text.autoconfig.toms_storage.option.wirelessTermBeaconLvl": "Nível de sinalizador do Terminal Sem Fio Avançado",
 	"text.autoconfig.toms_storage.option.wirelessTermBeaconLvlCrossDim": "Nível interdimenaional do Terminal Sem Fio Avançado",
 	"text.autoconfig.toms_storage.option.wirelessTermBeaconLvl.@Tooltip": "Nível de Sinalizador necessário para o Terminal Sem Fio Avançado ter alcance infinito\nValor 0 somente exige um único bloco de sinalizador próximo\nValor -1 desabilita isso por completo",
-	"text.autoconfig.toms_storage.option.wirelessTermBeaconLvlCrossDim.@Tooltip": "Nível de Sinalizador necessário para o Terminal Sem Fio Avançado ter aceaso interdimensional\nValor 0 somente exige um único bloco de sinalizador próximo\nValor -1 desabilita isso por completo",
-	"text.autoconfig.toms_storage.option.invLinkBeaconLvl": "Nível de Sinalizado para Concctar Inventários",
+	"text.autoconfig.toms_storage.option.wirelessTermBeaconLvlCrossDim.@Tooltip": "Nível de Sinalizador necessário para o Terminal Sem Fio Avançado ter acesso interdimensional\nValor 0 somente exige um único bloco de sinalizador próximo\nValor -1 desabilita isso por completo",
+	"text.autoconfig.toms_storage.option.invLinkBeaconLvl": "Nível de Sinalizado para Concectar Inventários",
 	"text.autoconfig.toms_storage.option.invLinkBeaconRange": "Alcance da conexão de inventários com sinalizadores",
 	"text.autoconfig.toms_storage.option.invLinkBeaconLvlSameDim": "Nível de Sinalkzador para Conectar Inventários na Mesma Dimensão",
 	"text.autoconfig.toms_storage.option.invLinkBeaconLvlCrossDim": "Nível de Sinalkzador para Conectar Inventários Interdimensionalmente",
@@ -231,7 +231,7 @@
 	"text.autoconfig.toms_storage.option.runMultithreaded": "Utilizar multithreading para melhorar o desempenho",
 	"text.autoconfig.toms_storage.option.basicHopperCooldown": "Intervalo de transferência do Funil de Inventário Básico (Tiques)",
 	"text.autoconfig.toms_storage.option.blockedBlocks": "Lista de ids de blocos ignorada pelo conector de inventários",
-	"text.autoconfig.toms_storage.option.blockedMods": "Lista de ids de mods cujos blocow são ignorados pelo conector de inventários",
+	"text.autoconfig.toms_storage.option.blockedMods": "Lista de ids de mods cujos blocos são ignorados pelo conector de inventários",
 	
 	"key.toms_storage.open_terminal": "Abrir o Terminal",
 	
