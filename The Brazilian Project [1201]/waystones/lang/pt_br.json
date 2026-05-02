@@ -198,7 +198,7 @@
   "config.waystones.worldGen.frequency.tooltip": "Distância aproximada em chunks entre obeliscos gerados livremente no mundo. Defina para 0 para desabilitar a geração.",
   "config.waystones.worldGen.dimensionAllowList": "Lista Branca de Dimensões",
   "config.waystones.worldGen.dimensionAllowList.tooltip": "Lista de dimensões onde obeliscos podem gerar com o mundo. Se deixada vazia, todas as dimensões exceto aquelas na Lista Negra são utilizadas.",
-  "config.waystones.worldGen.dimensionDenyList": "Lista Negro de Dimensões",
+  "config.waystones.worldGen.dimensionDenyList": "Lista Negra de Dimensões",
   "config.waystones.worldGen.dimensionDenyList.tooltip": "Lista de dimensões onde obeliscos não podem gerar com o mundo. Somente utilizada se a Lista Branca estiver vazia.",
   "config.waystones.worldGen.nameGenerationMode": "Modo de Geração de Nomes",
   "config.waystones.worldGen.nameGenerationMode.tooltip": "Defina para 'PRESET_FIRST' para primeiro usar nomes da lista de nomes personalizados. Defina para 'PRESET_ONLY' para usar somente esses nomes personalizados. Defina para 'MIXED' para fazer alguns obeliscos utilizarem nomes personalizados e outros nomes aleatórios.",
