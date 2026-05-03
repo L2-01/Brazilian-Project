@@ -1,5 +1,6 @@
 {
   "create_central_kitchen.ponder.chiller.header": "Automatizando com o Create: Refrigerador",
+  "create_central_kitchen.ponder.chiller.text_1": "Além disso, use o Braço Mecânico para inserir gelo ou neve no Refrigerador",
   "create_central_kitchen.ponder.cooking_pot.header": "Automatizando com o Create: Panela",
   "create_central_kitchen.ponder.cooking_pot.text_1": "O Funil também consegue retirar comida cozida",
   "create_central_kitchen.ponder.cutting_board.header": "Automatizando com o Create: Tábua de Corte",
@@ -8,6 +9,9 @@
   "create_central_kitchen.ponder.cutting_board.text_3": "O Implantador com uma faca no Modo de Uso consegue cortar ingredientes crus",
   "create_central_kitchen.ponder.cutting_board.text_4": "A Serra Mecânica também consegue cortar ingredientes crus",
   "create_central_kitchen.ponder.heat_source.header": "Fontes de Calor para Cozinhar",
+  "create_central_kitchen.ponder.heat_source.text_1": "Este é um Queimador de Blaze, um aquecedor comum para caldeiras",
+  "create_central_kitchen.ponder.heat_source.text_2": "Aquecedores de Blaze são fontes de calor válidas para utensílios de cozinha",
+  "create_central_kitchen.ponder.heat_source.text_3": "Aquecedores de Blaze aceleram alguns utensílios de cozinha de acordo com seu nível de calor",
   "create_central_kitchen.ponder.keg.part_one.header": "Automatizando com o Create: Tonel - Parte Um",
   "create_central_kitchen.ponder.keg.part_one.text_1": "Canos podem inserir líquidos diretamente no Tonel",
   "create_central_kitchen.ponder.keg.part_one.text_2": "Canos também podem extrair líquidos do Tonel",
@@ -15,7 +19,9 @@
   "create_central_kitchen.ponder.keg.part_two.header": "Automatizando com o Create: Tonel - Parte Dois",
   "create_central_kitchen.ponder.keg.pouring.header": "Automatizando com o Create: Produção de Bebidas",
   "create_central_kitchen.ponder.keg.pouring.text_1": "Use a Bica para encher o Caneco com a bebida",
+  "create_central_kitchen.ponder.keg.pouring.text_2": "Despeje a bebida do Caneco com o Dreno de Itens",
   "create_central_kitchen.ponder.oven.header": "Automatizando com o Create: Forno",
+  "create_central_kitchen.ponder.shared.arm_automate_container_insertion": "Use o Braço Mecânico para inserir o recipiente de comida.",
   "create_central_kitchen.ponder.shared.arm_take_out_food": "O Braço Mecânico consegue retirar a comida cozida.",
   "create_central_kitchen.ponder.shared.package_automate_ingredient_insertion": "Use a Empacotadora para automatizar a inserção de ingredientes.",
   "create_central_kitchen.ponder.shared.pipe_insert_liquid_ingredient": "Use Canos para inserir ingredientes líquidos.",
@@ -23,6 +29,11 @@
   "create_central_kitchen.ponder.skillet_and_stove.header": "Automatizando com o Create: Frigideira e Fogão",
   "create_central_kitchen.ponder.skillet_and_stove.text_1": "O Braço Mecânico consegue colocar ingredientes crus no Fogão e na Frigideira",
   "create_central_kitchen.recipe.extradelight.automatic_gingerbread_decorating": "Decorações de Biscoito de Gengibre Automáticas",
+  "create_central_kitchen.recipe.extradelight.automatic_grinding": "Moagem Automática",
+  "create_central_kitchen.recipe.extradelight.automatic_juicing": "Produção Automática de Suco",
   "create_central_kitchen.recipe.extradelight.automatic_melting": "Fundição Automática",
+  "create_central_kitchen.recipe.farmersdelight.automatic_food_cutting": "Corte Automático de Comida",
+  "create_central_kitchen.recipe.farmersdelight.automatic_food_sawing": "Serragem Automática de Comida",
+  "pack.create_central_kitchen.runtime": "Create: Central Kitchen",
   "pack.create_central_kitchen.runtime.description": "Recursos Gerados em Tempo de Execução do Create: Central Kitchen"
 }

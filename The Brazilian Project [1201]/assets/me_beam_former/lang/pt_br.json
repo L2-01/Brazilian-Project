@@ -1,0 +1,30 @@
+{
+  "itemGroup.me_beam_former.example_tab": "ME Beam Former",
+
+  "block.me_beam_former.beam_former_block": "Formador de Feixe ME Mega",
+  "block.me_beam_former.omni_beam_former_block": "Formador de Feixe ME Omni",
+  "block.me_beam_former.wireless_energy_tower": "Torre de Indução de Energia Sem Fio",
+  "item.me_beam_former.beam_former_part": "Formador de Feixe ME",
+  "item.me_beam_former.laser_binding_tool": "Ferramenta de Vinculação a Laser",
+
+  "tooltip.me_beam_former.beam_former_part": "Emite/recebe feixes de energia em redes ME",
+  "tooltip.me_beam_former.beam_former_block": "Apenas a face traseira pode conectar cabos. Requer dois blocos em posições opostas para formar um feixe.",
+  "tooltip.me_beam_former.binding.set": "Formador de feixe de origem selecionado: (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.set_omni": "Formador de Feixe Omni selecionado: (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.set_tower": "Torre de Energia Sem Fio selecionada: (%s, %s, %s) — Use Shift+Clique Direito para vincular máquinas",
+  "tooltip.me_beam_former.binding.omni_linked": "Feixe Omni conectado: (%s, %s, %s) → (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.omni_unlinked": "Feixe Omni desconectado: (%s, %s, %s) ✗ (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.tower_linked": "Torre de Energia vinculada à máquina: (%s, %s, %s) → (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.tower_unlinked": "Torre de Energia desvinculada da máquina: (%s, %s, %s) ✗ (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.tower_to_tower_linked": "Rede de Torres de Energia conectada: (%s, %s, %s) ↔ (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.tower_to_tower_unlinked": "Rede de Torres de Energia desconectada: (%s, %s, %s) ✗ (%s, %s, %s)",
+  "tooltip.me_beam_former.binding.tower_to_tower_needs_normal_click": "Para conectar torres, use Clique Direito normal (sem Shift)",
+  "tooltip.me_beam_former.binding.tower_out_of_range": "Distância de conexão da torre fora de alcance! Limite: 20x20 horizontal, 256 vertical",
+  "tooltip.me_beam_former.binding.tower_needs_shift": "A Torre de Energia Sem Fio requer Shift+Clique Direito para vincular máquinas",
+  "tooltip.me_beam_former.binding.omni_only": "O Formador de Feixe Omni só pode se conectar a outros Formadores de Feixe Omni",
+  "tooltip.me_beam_former.binding.cleared": "Formador de feixe de origem removido",
+  "tooltip.me_beam_former.binding.invalid": "O formador de feixe de origem é inválido ou não existe mais",
+  "tooltip.me_beam_former.binding.no_source": "Use Shift+Clique Direito para selecionar um formador de feixe de origem primeiro",
+  "tooltip.me_beam_former.binding.self_link": "Não é possível conectar a si mesmo",
+  "tooltip.me_beam_former.binding.out_of_range": "Distância de conexão fora de alcance! Limite: 16x16 horizontal, 32 vertical"
+}
