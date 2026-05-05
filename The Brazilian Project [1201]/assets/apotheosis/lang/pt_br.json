@@ -7,8 +7,8 @@
 
     "info.apotheosis.affix_item": "Item de afixo apótico",
 
-    "death.attack.apotheosis.execute": "%s foi executado por %s",
-    "death.attack.apotheosis.execute.item": "%s foi executado por %s usando %s",
+    "death.attack.apotheosis.execute": "%2$s executou %1$s",
+    "death.attack.apotheosis.execute.item": "%2$s executou %1$s usando %s",
 
     "misc.apotheosis.affix_name.two": "%2$s %1$s",
     "misc.apotheosis.affix_name.three": "%2$s %1$s %3$s",
@@ -513,8 +513,8 @@
 
     "death.attack.apotheosis:psychic": "Um ataque refletido matou %s.",
     "death.attack.apotheosis:psychic.player": "%s teve seu ataque refletido por %s.",
-    "death.attack.apotheosis:execute": "%s foi executado.",
-    "death.attack.apotheosis:execute.player": "%s foi executado por %s.",
+    "death.attack.apotheosis:execute": "Executaram %s.",
+    "death.attack.apotheosis:execute.player": "%2$s executou %1$s.",
 
     "comment_id": "/Adventure + Gateways Compat",
 
@@ -866,8 +866,8 @@
     "enchantment.apotheosis.bane_of_illagers": "Perdição dos Illagers",
     "enchantment.apotheosis.bane_of_illagers.desc": "Illagers recebem dano aumentado.",
 
-    "death.attack.apotheosis:corrupted": "%s foi drenado por um encantamento corrompido.",
-    "death.attack.apotheosis:corrupted.player": "%s foi corrompido por %s.",
+    "death.attack.apotheosis:corrupted": "Um encantamento corrompido drenou %s.",
+    "death.attack.apotheosis:corrupted.player": "%2$s corrompeu %1$s.",
 
     "item.apotheosis.prismatic_web": "Teia de Aranha Prismática",
     "info.apotheosis.prismatic_cobweb": "Pode ser usada para remover maldições.",

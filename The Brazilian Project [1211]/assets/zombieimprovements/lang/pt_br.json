@@ -1,12 +1,21 @@
 {
+  "entity.zombieimprovements.leader": "Líder %s",
+
   "zombieimprovements.config": "Configurações do Mod",
-  "zombieimprovements.config.leaderRedAura": "Aura vermelha nos líderes",
+  "zombieimprovements.config.leaderRedAura": "Aura vermelha em líderes",
+  "zombieimprovements.config.leaderUniqueTexture": "Textura exclusiva para líderes",
+  "zombieimprovements.config.leaderUniqueSounds": "Sons exclusivos para líderes",
+  "zombieimprovements.config.leaderNamePrefix": "Adicionar prefixo 'Líder' ao nome",
+  "zombieimprovements.config.leaderSizeIncrease": "Aumento de tamanho do líder",
+  "zombieimprovements.config.leaderIncreasedDamage": "Dano aumentado do líder",
+  "zombieimprovements.config.damageIncreaseFormula": "Fórmula de dano",
+  "zombieimprovements.config.damageIncreaseFormula.desc": "'r' é um número aleatório entre 0 e 1. Zumbis padrão têm 3 de dano de ataque.",
   "zombieimprovements.config.reinforcementSpawnSounds": "Sons de Reforço",
-  "zombieimprovements.config.spawnSoundVolume": "Volume do som de reforços",
+  "zombieimprovements.config.spawnSoundVolume": "Volume do som de reforço",
   "zombieimprovements.config.spawnSoundVolume.desc": "Configure este número para algo superior a 1 na 1.21.10 já que o som é mais baixo nessa versão por algum motivo.",
   "zombieimprovements.config.onlyLeaderSpawnsReinforcements": "Somente líderes podem chamar reforços",
   "zombieimprovements.config.noLeaderFromSpawners": "Geradores de Criaturas não podem gerar líderes",
   "zombieimprovements.config.noReinforcementsFromSpawners": "Zumbis de Geradores de Criaturas não conseguem chamar reforços",
   "zombieimprovements.config.leaderMaxSpawnChance": "Chance máxima de geração de líder",
-  "zombieimprovements.config.leaderMaxSpawnChance.desc": "Esta é a maior chance possível de geração de líder, que é atingida com a dificuldade local em 4.0. Com a dificuldade local em 2.0 ou menor a chance de geração é sempre 0."
+  "zombieimprovements.config.leaderMaxSpawnChance.desc": "Esta é a maior chance possível de geração de líder, que é atingida com a dificuldade local 4.0. Com a dificuldade local em 2.0 ou menor a chance de geração é sempre 0."
 }
