@@ -15,9 +15,9 @@
   "gui.authme.method.button.microsoft.selectAccount": "Ctrl + clique para escolher a conta",
   "gui.authme.method.button.mojang": "Mojang (ou Legacy)",
   "gui.authme.method.button.mojang.unavailable": "Indisponível, clique para saber mais",
-  "gui.authme.method.button.offline": "Offline",
+  "gui.authme.method.button.offline": "Off-line",
 
-  "gui.authme.microsoft.title": "Login via Microsoft",
+  "gui.authme.microsoft.title": "Login com Microsoft",
   "gui.authme.microsoft.browser": "Você já pode fechar esta janela e voltar ao Minecraft!",
   "gui.authme.microsoft.status.checkBrowser": "Por favor, verifique seu navegador...",
   "gui.authme.microsoft.status.msAccessToken": "Adquirindo token de acesso da Microsoft...",
@@ -30,11 +30,11 @@
   "gui.authme.microsoft.warning.accept": "Eu sei o que estou fazendo",
   "gui.authme.microsoft.warning.cancel": "Voltar à segurança",
 
-  "gui.authme.mojang.title": "Login via Mojang (Legacy)",
+  "gui.authme.mojang.title": "Login com Mojang (Legacy)",
 
-  "gui.authme.offline.title": "Login Offline",
+  "gui.authme.offline.title": "Login Off-line",
   "gui.authme.offline.field.username": "Escolha um Nome de Usuário",
-  "gui.authme.offline.button.login": "Jogar Offline",
+  "gui.authme.offline.button.login": "Jogar Off-line",
 
   "text.rconfig.authme.title": "Auth Me",
   "text.rconfig.authme.description": "Autentique-se no Minecraft e revalide sua sessão",
@@ -56,7 +56,7 @@
   "text.rconfig.authme.option.methods.microsoft.xboxXstsUrl": "URL de Autorização XSTS do Xbox",
   "text.rconfig.authme.option.methods.microsoft.mcAuthUrl": "URL de Autenticação do Minecraft",
   "text.rconfig.authme.option.methods.microsoft.mcProfileUrl": "URL do Perfil do Minecraft",
-  "text.rconfig.authme.option.methods.offline": "Offline",
-  "text.rconfig.authme.option.methods.offline.description": "Controle o comportamento do método de login offline",
+  "text.rconfig.authme.option.methods.offline": "Off-line",
+  "text.rconfig.authme.option.methods.offline.description": "Controle o comportamento do método de login off-line",
   "text.rconfig.authme.option.methods.offline.lastUsername": "Último Nome de Usuário Usado"
 }

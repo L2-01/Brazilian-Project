@@ -48,8 +48,8 @@
   "tag.starcatcher.is_swamp": "Pântanos",
   "tag.starcatcher.is_warm_lake": "Clima Quente",
   "tag.starcatcher.is_lukewarm_ocean": "Oceanos Mornos",
-  "tag.starcatcher.is_warm_ocean": "Oceanos Mornos",
-  "tag.starcatcher.is_warm_river": "Rios Mornos",
+  "tag.starcatcher.is_warm_ocean": "Oceanos Quentes",
+  "tag.starcatcher.is_warm_river": "Rios Quentes",
 
   "tag.minecraft.is_badlands": "Terras Baldias",
   "tag.minecraft.is_beach": "Praias",
@@ -114,7 +114,7 @@
   "starcatcher.configuration.enable_villager_sound": "Som de Aldeão no Minigame",
   "starcatcher.configuration.enable_hit_sound": "Som de Acerto no Minigame",
   "starcatcher.configuration.enable_miss_sound": "Som de Erro no Minigame",
-  "starcatcher.configuration.vanilla_partial_ticks": "Partial Tiques do Vanilla",
+  "starcatcher.configuration.vanilla_partial_ticks": "Tiques Parciais do Jogo Padrão",
   "starcatcher.configuration.remove_notif_on_hover": "Remover Notificação de Novo Peixe ao Passar o Mouse",
 
   "starcatcher.configuration.give_guide": "Dar Guia",
@@ -310,9 +310,9 @@
   "tooltip.modifier.starcatcher.slightly_slower_handle_speed": "Diminui ligeiramente a velocidade de rotação da manivela",
   "tooltip.modifier.starcatcher.slower_handle_speed": "Diminui a velocidade de rotação da manivela",
 
-  "tooltip.modifier.starcatcher.vanilla_loot": "Restaura o saques de pesca do Vanilla",
+  "tooltip.modifier.starcatcher.vanilla_loot": "Restaura os itens obtidos de pesca do Jogo Padrão",
   
-  "tooltip.modifier.starcatcher.skip_minigame_if_vanilla_loot": "Pula o minigame quando usado junto com a boia sabor Vanilla",
+  "tooltip.modifier.starcatcher.skip_minigame_if_vanilla_loot": "Pula o minigame quando usado junto com a boia sabor baunilha",
   
   "tooltip.modifier.starcatcher.extra_exp_based_on_performance": "Experiência extra é concedida com base no seu desempenho",
   
@@ -1644,11 +1644,11 @@
   "item.starcatcher.hollowbelly_darter": "Dardo de Barriga Oca",
   "tooltip.starcatcher.hollowbelly_darter.0": "Um peixe de rio realmente pequeno e fácil de capturar.",
   
-  "item.starcatcher.mistback_chub": "Chub de Dorso Nebuloso",
+  "item.starcatcher.mistback_chub": "Carapau de Dorso Nebuloso",
   "tooltip.starcatcher.mistback_chub.0": "Um peixe de rio conhecido por suas escamas de cor prateada",
   
-  "item.starcatcher.bluegigi": "Bluegigi",
-  "tooltip.starcatcher.bluegigi.0": "Não confunda com um bluegill,",
+  "item.starcatcher.bluegigi": "Percazul",
+  "tooltip.starcatcher.bluegigi.0": "Não confunda com um perca-azul,",
   "tooltip.starcatcher.bluegigi.1": "este pequeno peixe é bastante comum perto de rios.",
   
   "item.starcatcher.dried_seaweed": "Alga Seca",
@@ -1658,7 +1658,7 @@
 
 
 
-  "item.starcatcher.frostgill_chub": "Chub de Guelra Gélida",
+  "item.starcatcher.frostgill_chub": "Carapau de Guelra Gélida",
   "tooltip.starcatcher.frostgill_chub.0": "Um peixe popular entre pescadores",
   "tooltip.starcatcher.frostgill_chub.1": "comumente encontrado em rios",
   
@@ -1765,7 +1765,7 @@
   "tooltip.starcatcher.dripfin.0": "Um peixe básico que habita as",
   "tooltip.starcatcher.dripfin.1": "poças de água de cavernas de espeleotema.",
 
-  "item.starcatcher.yellowstone_fish": "Peixe Yellowstone",
+  "item.starcatcher.yellowstone_fish": "Peixe Amarelão",
   "tooltip.starcatcher.yellowstone_fish.0": "Um belo peixe de cor dourada",
   "tooltip.starcatcher.yellowstone_fish.1": "comum em cavernas de espeleotema.",
 
@@ -1814,9 +1814,9 @@
 
 
   "item.starcatcher.sculkfish": "Peixe de Sculk",
-  "tooltip.starcatcher.sculkfish.0": "Um peixe traiçoeiro corrompido por Sculk.",
+  "tooltip.starcatcher.sculkfish.0": "Um peixe traiçoeiro corrompido pelo Sculk.",
   
-  "item.starcatcher.ward": "Ward",
+  "item.starcatcher.ward": "Defeixe",
   "tooltip.starcatcher.ward.0": "Um peixe <sclegendary>lendário</sclegendary> que dizem ser o melhor amigo do Defensor.",
   "tooltip.starcatcher.ward.1": "Em vez de resistir ao Sculk, este peixe o abraçou e tornou-se mais forte por isso.",
   
@@ -1910,7 +1910,7 @@
   "tooltip.starcatcher.end_glow.1": "Endermen não parecem se importar com ele.",
   
   "item.starcatcher.voidbiter": "Mordedor do Vazio",
-  "tooltip.starcatcher.voidbiter.0": "Um peixe <sclegendary>lendário</sclegendary> encontrado nas ilhas externas de O End.",
+  "tooltip.starcatcher.voidbiter.0": "Um peixe <sclegendary>lendário</sclegendary> encontrado nas ilhas externas do End.",
   "tooltip.starcatcher.voidbiter.1": "Tão poucos pescadores o viram que há rumores de que nem exista.",
   "tooltip.starcatcher.voidbiter.2": "Diz-se que apenas os <scuncommon>Pescadores Anciões</scuncommon> o pescaram",
   "tooltip.starcatcher.voidbiter.3": "com sucesso antes."
