@@ -58,6 +58,7 @@
   "tag.minecraft.is_forest": "Florestas",
   "tag.minecraft.is_hill": "Colinas",
   "tag.minecraft.is_jungle": "Selvas",
+  "tag.starcatcher.lush_and_jungle" : "Selvas & Cavernas Verdejantes",
   "tag.minecraft.is_mountain": "Montanhas",
   "tag.minecraft.is_nether": "Biomas do Nether",
   "tag.minecraft.is_ocean": "Todos os Oceanos",
@@ -299,7 +300,7 @@
 
   "tooltip.modifier.starcatcher.flip_every_hit": "Vira toda vez que você acerta um ponto ideal",
 
-  "tooltip.modifier.starcatcher.ignore_daytime_and_weather_restrictions.0": "Ignora restrições de horário e clima dos peixes",
+  "tooltip.modifier.starcatcher.ignore_daytime_and_weather_restrictions": "Ignora restrições de horário e clima dos peixes",
 
   "tooltip.modifier.starcatcher.decrease_lure_time": "Diminui o tempo de atração",
   "tooltip.modifier.starcatcher.big_decrease_lure_time": "Diminui muito o tempo de atração",
@@ -548,6 +549,8 @@
   "gui.starcatcher.toast.fish_caught": "Novo Peixe Fisgado!",
 
   "gui.guide.sign": "Assinar",
+  "gui.guide.sign.locked.0": "Assinar irá trancar suas listagens atuais",
+  "gui.guide.sign.locked.1": "Este livro não será mais atualizado com novos peixes depois de trancar.",
   "gui.guide.season": "Estação: ",
   "gui.guide.seasons": "Estações: ",
 
@@ -1190,14 +1193,9 @@
   "gui.guide.rarity.trash": "Lixo",
   "gui.guide.rarity.common": "Comum",
   "gui.guide.rarity.uncommon" : "Incomum",
-  "gui.guide.rarity.uncommon.eta" : "<scuncommon>Incomum</scuncommon>",
   "gui.guide.rarity.rare" : "Raro",
-  "gui.guide.rarity.rare.eta" : "<scrare>Raro</scrare>",
   "gui.guide.rarity.epic" : "Épico",
-  "gui.guide.rarity.epic.eta" : "<scepic>Épico</scepic>",
   "gui.guide.rarity.legendary" : "Lendário",
-  "gui.guide.rarity.legendary.eta" : "<sclegendary>Lendário</sclegendary>",
-
 
 
   "gui.starcatcher.tournament.organizer": "Organizador",
