@@ -1,0 +1,148 @@
+{
+  "menu.savingSubLevels": "Salvando sub-níveis",
+
+  "commands.sable.helper.missing_sub_level_container": "Não foi possível encontrar o contêiner de sub-nível para este nível!",
+  "commands.sable.helper.missing_physics_system": "Não foi possível encontrar o sistema de física de sub-nível para este nível!",
+
+  "commands.sable.sub_level": "sub-nível",
+  "commands.sable.sub_levels": "%s sub-níveis",
+
+  "commands.sable.physics.global": "global",
+  "commands.sable.physics.local": "local",
+
+  "commands.sable.spawn.success": "Gerou %s",
+  "commands.sable.spawn.clone.success": "Clonou o sub-nível",
+
+  "commands.sable.physics.impulse.angular.success": "Aplicou impulso angular %s a %s de %s",
+  "commands.sable.physics.impulse.linear.success": "Aplicou impulso linear %s a %s de %s",
+  "commands.sable.physics.rotation.add.success": "Adicionou rotação de %s a %s de %s",
+  "commands.sable.physics.rotation.set.success": "Definiu a rotação de %s como %s",
+  "commands.sable.physics.translation.add.success": "Adicionou translação de %s a %s de %s",
+  "commands.sable.physics.translation.set.success": "Definiu a translação de %s como %s",
+
+  "commands.sable.joint.missing_sublevel_target": "Falha ao encontrar sub-nível para a junta",
+  "commands.sable.joint.success": "Junta criada",
+
+  "commands.sable.sub_level.set_name.success_singular": "Definiu o nome do sub-nível como %s",
+  "commands.sable.sub_level.set_name.success_multiple": "Definiu o nome de %s sub-níveis como %s",
+
+  "commands.sable.sub_level.get_name.success": "O nome do sub-nível é %s",
+  "commands.sable.sub_level.get_name.failure_unnamed": "O sub-nível não tem nome",
+
+  "commands.sable.sub_level.clear_name.success_singular": "Limpou o nome do sub-nível",
+  "commands.sable.sub_level.clear_name.success_multiple": "Limpou o nome de %s sub-níveis",
+
+  "commands.sable.sub_level.teleport_with_orientation.success": "Teleportou %s para %.2f, %.2f, %.2f de frente para %.2f, %.2f",
+  "commands.sable.sub_level.teleport.success": "Teleportou %s para %.2f, %.2f, %.2f",
+  "commands.sable.sub_level.remove.success": "Removeu %s",
+  "commands.sable.sub_level.assemble.no_blocks": "Não foi possível montar o sub-nível, nenhum bloco válido encontrado",
+  "commands.sable.sub_level.assemble.connected.too_many_blocks": "Não foi possível montar o sub-nível, muitos blocos (máximo de %s)",
+  "commands.sable.sub_level.shatter.no_blocks": "Não foi possível fragmentar em sub-níveis, nenhum bloco válido encontrado",
+  "commands.sable.sub_level.shatter.connected.too_many_blocks": "Não foi possível fragmentar em sub-níveis, muitos blocos (máximo de %s)",
+  "commands.sable.sub_level.shatter.region.success": "Fragmentou uma região com %s blocos em novos sub-níveis",
+  "commands.sable.sub_level.shatter.connected.success": "Fragmentou %s blocos conectados em novos sub-níveis",
+  "commands.sable.sub_level.shatter.range.success": "Fragmentou uma área com %s blocos em novos sub-níveis",
+  "commands.sable.sub_level.shatter.radius.success": "Fragmentou um raio com %s blocos em novos sub-níveis",
+  "commands.sable.sub_level.shatter.sub_level.success": "Fragmentou %s em %s novos sub-níveis",
+  "commands.sable.sub_level.shatter.sub_level.only_single_block": "Não é possível fragmentar sub-níveis de um único bloco",
+  "commands.sable.sub_level.assemble.region.success": "Montou uma região de %s blocos em um novo sub-nível",
+  "commands.sable.sub_level.assemble.connected.success": "Montou %s blocos conectados em um novo sub-nível",
+  "commands.sable.sub_level.assemble.radius.success": "Montou um raio com %s blocos em um novo sub-nível",
+  "commands.sable.sub_level.assemble.range.success": "Montou uma área com %s blocos em um novo sub-nível",
+
+  "commands.sable.physics.paused.success": "Definiu a pausa da física como %s",
+  "commands.sable.physics.paused_toggled.success": "Alternou a pausa da física para %s",
+
+  "commands.sable.place_schematic.failure": "Não foi possível encontrar o esquemático!",
+  "commands.sable.place_schematic.success": "Esquemático posicionado!",
+
+  "commands.sable.fail.not_inside_sub_level": "Posição fora do terreno do sub-nível",
+  "commands.sable.fail.no_sub_levels": "Nenhum sub-nível encontrado",
+  "commands.sable.fail.unmodified": "Nenhum sub-nível modificado",
+  "commands.sable.fail.no_axis_for_rotation": "Nenhum eixo para rotação",
+
+  "commands.sable.info.count": "Encontrados %s sub-níveis:",
+  "commands.sable.info.name": "%s:",
+  "commands.sable.info.name.tooltip": "Ponteiro de Serialização: %s",
+  "commands.sable.info.position": "    Posição: %.2f %.2f %.2f",
+  "commands.sable.info.orientation": "    Orientação: %.2f %.2f %.2f %.2f",
+  "commands.sable.info.linear_velocity": "    Velocidade Linear: %.2f %.2f %.2f",
+  "commands.sable.info.angular_velocity": "    Velocidade Angular: %.2f %.2f %.2f",
+  "commands.sable.info.mass": "    Massa: %.2f",
+  "commands.sable.info.world_bounds": "    Limites do Mundo: %.2f x %.2f x %.2f",
+
+  "commands.data.sub_level.get": "%s no sub-nível %s após fator de escala de %s é %s",
+  "commands.data.sub_level.modified": "Modificou os dados auxiliares do sub-nível de %s",
+  "commands.data.sub_level.query": "%s tem os seguintes dados auxiliares de sub-nível: %s",
+
+  "argument.sable.body.selector.all": "Todos os sub-níveis",
+  "argument.sable.body.selector.nearest": "Sub-nível mais próximo",
+  "argument.sable.body.selector.random": "Sub-nível aleatório",
+  "argument.sable.body.selector.viewed": "Sub-nível visualizado",
+  "argument.sable.body.selector.latest": "Último sub-nível",
+  "argument.sable.body.selector.tracking": "Rastreando sub-nível",
+  "argument.sable.body.selector.inside": "Dentro do sub-nível",
+  "argument.sable.body.static_world": "O mundo estático",
+
+  "argument.sable.sub_level.modifier.distance": "Distância até o sub-nível",
+  "argument.sable.sub_level.modifier.x": "Posição x",
+  "argument.sable.sub_level.modifier.y": "Posição y",
+  "argument.sable.sub_level.modifier.z": "Posição z",
+  "argument.sable.sub_level.modifier.dx": "Sub-níveis entre x e x + dx",
+  "argument.sable.sub_level.modifier.dy": "Sub-níveis entre y e y + dy",
+  "argument.sable.sub_level.modifier.dz": "Sub-níveis entre z e z + dz",
+  "argument.sable.sub_level.modifier.vx": "Velocidade em x",
+  "argument.sable.sub_level.modifier.vy": "Velocidade em y",
+  "argument.sable.sub_level.modifier.vz": "Velocidade em z",
+  "argument.sable.sub_level.modifier.speed": "Velocidade do sub-nível",
+  "argument.sable.sub_level.modifier.mass": "Peso do sub-nível",
+  "argument.sable.sub_level.modifier.volume": "Volume da caixa delimitadora do sub-nível",
+  "argument.sable.sub_level.modifier.width": "Tamanho do eixo X da caixa delimitadora do sub-nível",
+  "argument.sable.sub_level.modifier.height": "Tamanho do eixo Y da caixa delimitadora do sub-nível",
+  "argument.sable.sub_level.modifier.length": "Tamanho do eixo Z da caixa delimitadora do sub-nível",
+  "argument.sable.sub_level.modifier.limit": "Número máximo de sub-níveis a retornar",
+  "argument.sable.sub_level.modifier.name": "Nome do sub-nível",
+  "argument.sable.sub_level.modifier.sort": "Ordenar os sub-níveis por distância",
+  "argument.sable.unexpected_end_of_input": "Fim inesperado da entrada",
+  "argument.sable.single_sub_level_required": "Apenas um sub-nível é permitido, mas o seletor fornecido permite mais de um",
+  "argument.sable.sub_level.invalid": "Seletor de sub-nível inválido",
+  "argument.sable.sub_level.expected_end_of_modifier": "Esperado o fim do modificador",
+  "argument.sable.sub_level.expected_positive_integer": "Esperado um número inteiro positivo",
+  "argument.sable.sub_level.expected_positive_decimal": "Esperado um número decimal positivo",
+  "argument.sable.sub_level.expected_positive_range": "Esperado um intervalo positivo",
+  "argument.sable.sub_level.expected_sorting": "Esperado um tipo de ordenação como \"mais próximo\" ou \"mais distante\"",
+  
+  "inspector.sable.sub_level_container.title": "Contêiner de Sub-Nível",
+
+  "attribute.name.player.sub_level_punch_strength": "Força de Impulso",
+  "attribute.name.player.sub_level_punch_cooldown": "Recarga do Impulso",
+
+  "options.sable_menu": "Ajustes de Sub-Nível...  ",
+  "options.physics_steps": "Passos da Física",
+  "options.physics_steps_template": "%s passos/s",
+  "options.physics_steps.tooltip": "Quantas vezes a simulação da física avança a cada segundo. Valores mais altos consumirão significativamente mais desempenho, mas terão maior precisão.",
+
+  "sub_level.toast.checkLog": "Consulte o log para mais detalhes",
+  "sub_level.toast.loadFailure": "Falha ao carregar o sub-nível em %s",
+  "sub_level.toast.saveFailure": "Falha ao salvar o sub-nível em %s",
+  "sub_level.toast.physicsFailure": "Falha na física para o sub-nível em %s",
+  "sub_level.toast.attemptingRecovery": "Tentando recuperação",
+
+  "camera_type.sub_level_view": "Entrando na Câmera de Dispositivo",
+  "camera_type.sub_level_view_unlocked": "Entrando na Câmera de Dispositivo Desbloqueada",
+
+  "force_group.sable.gravity": "Gravidade",
+  "force_group.sable.drag": "Arrasto",
+  "force_group.sable.levitation": "Levitação",
+  "force_group.sable.balloon_lift": "Sustentação de Balão",
+  "force_group.sable.propulsion": "Propulsão",
+  "force_group.sable.lift": "Sustentação",
+  "force_group.sable.magnetic_force": "Magnético",
+
+  "schematic.sable.mirror_not_supported": "Não é possível espelhar esquemáticos que contêm sub-níveis!",
+
+  "death.attack.fall.from_sublevel": "%1$s caiu de %2$s",
+
+  "sable.create.mechanical_arm.points_removed_sublevel_and_range": "Pontos de interação selecionados de %1$s removidos devido a limitações de alcance ou por não estarem ancorados.",
+  "sable.create.remove.points_removed_sublevel": "Pontos de interação selecionados de %1$s removidos por não estarem ancorados"
+}
