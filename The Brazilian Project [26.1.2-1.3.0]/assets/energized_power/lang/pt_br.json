@@ -113,18 +113,28 @@
   "item.energizedpower.speed_upgrade_module_3": "Módulo de Melhoria de Velocidade (Nível III)",
   "item.energizedpower.speed_upgrade_module_4": "Módulo de Melhoria de Velocidade (Nível IV)",
   "item.energizedpower.speed_upgrade_module_5": "Módulo de Melhoria de Velocidade (Nível V)",
+  "item.energizedpower.speed_upgrade_module_6": "Módulo de Melhoria de Velocidade (Nível VI)",
 
   "item.energizedpower.energy_efficiency_upgrade_module_1": "Módulo de Melhoria de Eficiência Energética (Nível I)",
   "item.energizedpower.energy_efficiency_upgrade_module_2": "Módulo de Melhoria de Eficiência Energética (Nível II)",
   "item.energizedpower.energy_efficiency_upgrade_module_3": "Módulo de Melhoria de Eficiência Energética (Nível III)",
   "item.energizedpower.energy_efficiency_upgrade_module_4": "Módulo de Melhoria de Eficiência Energética (Nível IV)",
   "item.energizedpower.energy_efficiency_upgrade_module_5": "Módulo de Melhoria de Eficiência Energética (Nível V)",
+  "item.energizedpower.energy_efficiency_upgrade_module_6": "Módulo de Melhoria de Eficiência Energética (Nível VI)",
+
+  "item.energizedpower.energy_production_upgrade_module_1": "Módulo de Melhoria de Produção de Energia (Nível I)",
+  "item.energizedpower.energy_production_upgrade_module_2": "Módulo de Melhoria de Produção de Energia (Nível II)",
+  "item.energizedpower.energy_production_upgrade_module_3": "Módulo de Melhoria de Produção de Energia (Nível III)",
+  "item.energizedpower.energy_production_upgrade_module_4": "Módulo de Melhoria de Produção de Energia (Nível IV)",
+  "item.energizedpower.energy_production_upgrade_module_5": "Módulo de Melhoria de Produção de Energia (Nível V)",
+  "item.energizedpower.energy_production_upgrade_module_6": "Módulo de Melhoria de Produção de Energia (Nível VI)",
 
   "item.energizedpower.energy_capacity_upgrade_module_1": "Módulo de Melhoria de Capacidade de Energia (Nível I)",
   "item.energizedpower.energy_capacity_upgrade_module_2": "Módulo de Melhoria de Capacidade de Energia (Nível II)",
   "item.energizedpower.energy_capacity_upgrade_module_3": "Módulo de Melhoria de Capacidade de Energia (Nível III)",
   "item.energizedpower.energy_capacity_upgrade_module_4": "Módulo de Melhoria de Capacidade de Energia (Nível IV)",
   "item.energizedpower.energy_capacity_upgrade_module_5": "Módulo de Melhoria de Capacidade de Energia (Nível V)",
+  "item.energizedpower.energy_capacity_upgrade_module_6": "Módulo de Melhoria de Capacidade de Energia (Nível VI)",
 
   "item.energizedpower.duration_upgrade_module_1": "Módulo de Melhoria de Duração (Nível I)",
   "item.energizedpower.duration_upgrade_module_2": "Módulo de Melhoria de Duração (Nível II)",
@@ -142,12 +152,14 @@
   "item.energizedpower.extraction_depth_upgrade_module_3": "Módulo de Melhoria de Profundidade de Extração (Nível III)",
   "item.energizedpower.extraction_depth_upgrade_module_4": "Módulo de Melhoria de Profundidade de Extração (Nível IV)",
   "item.energizedpower.extraction_depth_upgrade_module_5": "Módulo de Melhoria de Profundidade de Extração (Nível V)",
+  "item.energizedpower.extraction_depth_upgrade_module_6": "Módulo de Melhoria de Profundidade de Extração (Nível VI)",
 
   "item.energizedpower.extraction_range_upgrade_module_1": "Módulo de Melhoria de Alcance de Extração (Nível I)",
   "item.energizedpower.extraction_range_upgrade_module_2": "Módulo de Melhoria de Alcance de Extração (Nível II)",
   "item.energizedpower.extraction_range_upgrade_module_3": "Módulo de Melhoria de Alcance de Extração (Nível III)",
   "item.energizedpower.extraction_range_upgrade_module_4": "Módulo de Melhoria de Alcance de Extração (Nível IV)",
   "item.energizedpower.extraction_range_upgrade_module_5": "Módulo de Melhoria de Alcance de Extração (Nível V)",
+  "item.energizedpower.extraction_range_upgrade_module_6": "Módulo de Melhoria de Alcance de Extração (Nível VI)",
 
   "item.energizedpower.blast_furnace_upgrade_module": "Módulo de Melhoria de Alto-forno",
   "item.energizedpower.blast_furnace_upgrade_module.effect_text": "Alto-forno",
@@ -620,6 +632,10 @@
   "item.energizedpower.plant_growth_chamber": "Câmara de Crescimento de Plantas",
   "container.energizedpower.plant_growth_chamber": "Câmara de Crescimento de Plantas",
 
+  "block.energizedpower.fluid_freezer": "Congelador de Fluidos",
+  "item.energizedpower.fluid_freezer": "Congelador de Fluidos",
+  "container.energizedpower.fluid_freezer": "Congelador de Fluidos",
+
   "block.energizedpower.stone_liquefier": "Liquidificador de Pedra",
   "item.energizedpower.stone_liquefier": "Liquidificador de Pedra",
   "container.energizedpower.stone_liquefier": "Liquidificador de Pedra",
@@ -850,6 +866,7 @@
 
   "tooltip.energizedpower.upgrade_module_modifier.speed": "Velocidade de Produção",
   "tooltip.energizedpower.upgrade_module_modifier.energy_consumption": "Consumo de Energia por tique",
+  "tooltip.energizedpower.upgrade_module_modifier.energy_production": "Produção de Energia por tique",
   "tooltip.energizedpower.upgrade_module_modifier.energy_capacity": "Capacidade de Energia",
   "tooltip.energizedpower.upgrade_module_modifier.energy_transfer_rate": "Taxa de Transferência de Energia",
   "tooltip.energizedpower.upgrade_module_modifier.duration": "Duração",
@@ -896,6 +913,7 @@
   "emi.category.energizedpower.crystal_growth_chamber": "Câmara de Crescimento de Cristais",
   "emi.category.energizedpower.press_mold_maker": "Criador de Moldes de Prensa",
   "emi.category.energizedpower.alloy_furnace": "Fornalha de Liga",
+  "emi.category.energizedpower.fluid_freezer": "Congelador de Fluidos",
   "emi.category.energizedpower.stone_liquefier": "Liquidificador de Pedra",
   "emi.category.energizedpower.stone_solidifier": "Solidificador de Pedra",
   "emi.category.energizedpower.filtration_plant": "Planta de Filtração",
@@ -962,6 +980,9 @@
   "advancements.energizedpower.speed_upgrade_module_5.title": "Velocidade V",
   "advancements.energizedpower.speed_upgrade_module_5.description": "Crie um Módulo de Melhoria de Velocidade (Nível V).",
 
+  "advancements.energizedpower.speed_upgrade_module_6.title": "Velocidade VI",
+  "advancements.energizedpower.speed_upgrade_module_6.description": "Crie um Módulo de Melhoria de Velocidade (Nível).",
+
   "advancements.energizedpower.energy_efficiency_upgrade_module_1.title": "Eficiência Energética I",
   "advancements.energizedpower.energy_efficiency_upgrade_module_1.description": "Crie um Módulo de Melhoria de Eficiência Energética (Nível I).",
 
@@ -976,6 +997,27 @@
 
   "advancements.energizedpower.energy_efficiency_upgrade_module_5.title": "Eficiência Energética V",
   "advancements.energizedpower.energy_efficiency_upgrade_module_5.description": "Crie um Módulo de Melhoria de Eficiência Energética (Nível V).",
+
+  "advancements.energizedpower.energy_efficiency_upgrade_module_6.title": "Eficiência Energética VI",
+  "advancements.energizedpower.energy_efficiency_upgrade_module_6.description": "Crie um Módulo de Melhoria de Eficiência Energética (Nível VI).",
+
+  "advancements.energizedpower.energy_production_upgrade_module_1.title": "Produção de Energia I",
+  "advancements.energizedpower.energy_production_upgrade_module_1.description": "Crie um Módulo de Melhoria de Produção de Energia (Nível I).",
+
+  "advancements.energizedpower.energy_production_upgrade_module_2.title": "Produção de Energia II",
+  "advancements.energizedpower.energy_production_upgrade_module_2.description": "Crie um Módulo de Melhoria de Produção de Energia (Nível II).",
+
+  "advancements.energizedpower.energy_production_upgrade_module_3.title": "Produção de Energia III",
+  "advancements.energizedpower.energy_production_upgrade_module_3.description": "Crie um Módulo de Melhoria de Produção de Energia (Nível III).",
+
+  "advancements.energizedpower.energy_production_upgrade_module_4.title": "Produção de Energia IV",
+  "advancements.energizedpower.energy_production_upgrade_module_4.description": "Crie um Módulo de Melhoria de Produção de Energia (Nível IV).",
+
+  "advancements.energizedpower.energy_production_upgrade_module_5.title": "Produção de Energia V",
+  "advancements.energizedpower.energy_production_upgrade_module_5.description": "Crie um Módulo de Melhoria de Produção de Energia (Nível V).",
+
+  "advancements.energizedpower.energy_production_upgrade_module_6.title": "Produção de Energia VI",
+  "advancements.energizedpower.energy_production_upgrade_module_6.description": "Crie um Módulo de Melhoria de Produção de Energia (Nível VI).",
 
   "advancements.energizedpower.energy_capacity_upgrade_module_1.title": "Capacidade de Energia I",
   "advancements.energizedpower.energy_capacity_upgrade_module_1.description": "Crie um Módulo de Melhoria de Capacidade de Energia (Nível I).",
@@ -992,6 +1034,9 @@
   "advancements.energizedpower.energy_capacity_upgrade_module_5.title": "Capacidade de Energia V",
   "advancements.energizedpower.energy_capacity_upgrade_module_5.description": "Crie um Módulo de Melhoria de Capacidade de Energia (Nível V).",
 
+  "advancements.energizedpower.energy_capacity_upgrade_module_6.title": "Capacidade de Energia VI",
+  "advancements.energizedpower.energy_capacity_upgrade_module_6.description": "Crie um Módulo de Melhoria de Capacidade de Energia (Nível VI).",
+
   "advancements.energizedpower.duration_upgrade_module_1.title": "Duração I",
   "advancements.energizedpower.duration_upgrade_module_1.description": "Crie um Módulo de Melhoria de Duração (Nível I).",
 
@@ -999,70 +1044,76 @@
   "advancements.energizedpower.duration_upgrade_module_2.description": "Crie um Módulo de Melhoria de Duração (Nível II).",
 
   "advancements.energizedpower.duration_upgrade_module_3.title": "Duração III",
-  "advancements.energizedpower.duration_upgrade_module_3.description": "Fabrique um Módulo de Melhoria de Duração (Nível III).",
+  "advancements.energizedpower.duration_upgrade_module_3.description": "Crie um Módulo de Melhoria de Duração (Nível III).",
 
   "advancements.energizedpower.duration_upgrade_module_4.title": "Duração IV",
-  "advancements.energizedpower.duration_upgrade_module_4.description": "Fabrique um Módulo de Melhoria de Duração (Nível IV).",
+  "advancements.energizedpower.duration_upgrade_module_4.description": "Crie um Módulo de Melhoria de Duração (Nível IV).",
 
   "advancements.energizedpower.duration_upgrade_module_5.title": "Duração V",
-  "advancements.energizedpower.duration_upgrade_module_5.description": "Fabrique um Módulo de Melhoria de Duração (Nível V).",
+  "advancements.energizedpower.duration_upgrade_module_5.description": "Crie um Módulo de Melhoria de Duração (Nível V).",
 
   "advancements.energizedpower.duration_upgrade_module_6.title": "Duração VI",
-  "advancements.energizedpower.duration_upgrade_module_6.description": "Fabrique um Módulo de Melhoria de Duração (Nível VI).",
+  "advancements.energizedpower.duration_upgrade_module_6.description": "Crie um Módulo de Melhoria de Duração (Nível VI).",
 
   "advancements.energizedpower.range_upgrade_module_1.title": "Alcance I",
-  "advancements.energizedpower.range_upgrade_module_1.description": "Fabrique um Módulo de Melhoria de Alcance (Nível I).",
+  "advancements.energizedpower.range_upgrade_module_1.description": "Crie um Módulo de Melhoria de Alcance (Nível I).",
 
   "advancements.energizedpower.range_upgrade_module_2.title": "Alcance II",
-  "advancements.energizedpower.range_upgrade_module_2.description": "Fabrique um Módulo de Melhoria de Alcance (Nível II).",
+  "advancements.energizedpower.range_upgrade_module_2.description": "Crie um Módulo de Melhoria de Alcance (Nível II).",
 
   "advancements.energizedpower.range_upgrade_module_3.title": "Alcance III",
-  "advancements.energizedpower.range_upgrade_module_3.description": "Fabrique um Módulo de Melhoria de Alcance (Nível III).",
+  "advancements.energizedpower.range_upgrade_module_3.description": "Crie um Módulo de Melhoria de Alcance (Nível III).",
 
   "advancements.energizedpower.extraction_depth_upgrade_module_1.title": "Profundidade de Extração I",
-  "advancements.energizedpower.extraction_depth_upgrade_module_1.description": "Fabrique um Módulo de Melhoria de Profundidade de Extração (Nível I).",
+  "advancements.energizedpower.extraction_depth_upgrade_module_1.description": "Crie um Módulo de Melhoria de Profundidade de Extração (Nível I).",
 
   "advancements.energizedpower.extraction_depth_upgrade_module_2.title": "Profundidade de Extração II",
-  "advancements.energizedpower.extraction_depth_upgrade_module_2.description": "Fabrique um Módulo de Melhoria de Profundidade de Extração (Nível II).",
+  "advancements.energizedpower.extraction_depth_upgrade_module_2.description": "Crie um Módulo de Melhoria de Profundidade de Extração (Nível II).",
 
   "advancements.energizedpower.extraction_depth_upgrade_module_3.title": "Profundidade de Extração III",
-  "advancements.energizedpower.extraction_depth_upgrade_module_3.description": "Fabrique um Módulo de Melhoria de Profundidade de Extração (Nível III).",
+  "advancements.energizedpower.extraction_depth_upgrade_module_3.description": "Crie um Módulo de Melhoria de Profundidade de Extração (Nível III).",
 
   "advancements.energizedpower.extraction_depth_upgrade_module_4.title": "Profundidade de Extração IV",
-  "advancements.energizedpower.extraction_depth_upgrade_module_4.description": "Fabrique um Módulo de Melhoria de Profundidade de Extração (Nível IV).",
+  "advancements.energizedpower.extraction_depth_upgrade_module_4.description": "Crie um Módulo de Melhoria de Profundidade de Extração (Nível IV).",
 
   "advancements.energizedpower.extraction_depth_upgrade_module_5.title": "Profundidade de Extração V",
-  "advancements.energizedpower.extraction_depth_upgrade_module_5.description": "Fabrique um Módulo de Melhoria de Profundidade de Extração (Nível V).",
+  "advancements.energizedpower.extraction_depth_upgrade_module_5.description": "Crie um Módulo de Melhoria de Profundidade de Extração (Nível V).",
+
+  "advancements.energizedpower.extraction_depth_upgrade_module_6.title": "Profundidade de Extração VI",
+  "advancements.energizedpower.extraction_depth_upgrade_module_6.description": "Crie um Módulo de Melhoria de Profundidade de Extração (Nível VI).",
 
   "advancements.energizedpower.extraction_range_upgrade_module_1.title": "Alcance de Extração I",
-  "advancements.energizedpower.extraction_range_upgrade_module_1.description": "Fabrique um Módulo de Melhoria de Alcance de Extração (Nível I).",
+  "advancements.energizedpower.extraction_range_upgrade_module_1.description": "Crie um Módulo de Melhoria de Alcance de Extração (Nível I).",
 
   "advancements.energizedpower.extraction_range_upgrade_module_2.title": "Alcance de Extração II",
-  "advancements.energizedpower.extraction_range_upgrade_module_2.description": "Fabrique um Módulo de Melhoria de Alcance de Extração (Nível II).",
+  "advancements.energizedpower.extraction_range_upgrade_module_2.description": "Crie um Módulo de Melhoria de Alcance de Extração (Nível II).",
 
   "advancements.energizedpower.extraction_range_upgrade_module_3.title": "Alcance de Extração III",
-  "advancements.energizedpower.extraction_range_upgrade_module_3.description": "Fabrique um Módulo de Melhoria de Alcance de Extração (Nível III).",
+  "advancements.energizedpower.extraction_range_upgrade_module_3.description": "Crie um Módulo de Melhoria de Alcance de Extração (Nível III).",
 
   "advancements.energizedpower.extraction_range_upgrade_module_4.title": "Alcance de Extração IV",
-  "advancements.energizedpower.extraction_range_upgrade_module_4.description": "Fabrique um Módulo de Melhoria de Alcance de Extração (Nível IV).",
+  "advancements.energizedpower.extraction_range_upgrade_module_4.description": "Crie um Módulo de Melhoria de Alcance de Extração (Nível IV).",
 
   "advancements.energizedpower.extraction_range_upgrade_module_5.title": "Alcance de Extração V",
-  "advancements.energizedpower.extraction_range_upgrade_module_5.description": "Fabrique um Módulo de Melhoria de Alcance de Extração (Nível V).",
+  "advancements.energizedpower.extraction_range_upgrade_module_5.description": "Crie um Módulo de Melhoria de Alcance de Extração (Nível V).",
+
+  "advancements.energizedpower.extraction_range_upgrade_module_6.title": "Alcance de Extração VI",
+  "advancements.energizedpower.extraction_range_upgrade_module_6.description": "Crie um Módulo de Melhoria de Alcance de Extração (Nível VI).",
 
   "advancements.energizedpower.blast_furnace_upgrade_module.title": "Modo de Fornalha: Alto-forno",
-  "advancements.energizedpower.blast_furnace_upgrade_module.description": "Fabrique um Módulo de Melhoria de Alto-forno.",
+  "advancements.energizedpower.blast_furnace_upgrade_module.description": "Crie um Módulo de Melhoria de Alto-forno.",
 
   "advancements.energizedpower.smoker_upgrade_module.title": "Modo de Fornalha: Defumador",
-  "advancements.energizedpower.smoker_upgrade_module.description": "Fabrique um Módulo de Melhoria de Defumador.",
+  "advancements.energizedpower.smoker_upgrade_module.description": "Crie um Módulo de Melhoria de Defumador.",
 
   "advancements.energizedpower.moon_light_upgrade_module_1.title": "Luz do Luar I",
-  "advancements.energizedpower.moon_light_upgrade_module_1.description": "Fabrique um Módulo de Melhoria de Luz do Luar (Nível I).",
+  "advancements.energizedpower.moon_light_upgrade_module_1.description": "Crie um Módulo de Melhoria de Luz do Luar (Nível I).",
 
   "advancements.energizedpower.moon_light_upgrade_module_2.title": "Luz do Luar II",
-  "advancements.energizedpower.moon_light_upgrade_module_2.description": "Fabrique um Módulo de Melhoria de Luz do Luar (Nível II).",
+  "advancements.energizedpower.moon_light_upgrade_module_2.description": "Crie um Módulo de Melhoria de Luz do Luar (Nível II).",
 
   "advancements.energizedpower.moon_light_upgrade_module_3.title": "Luz do Luar III",
-  "advancements.energizedpower.moon_light_upgrade_module_3.description": "Fabrique um Módulo de Melhoria de Luz do Luar (Nível III).",
+  "advancements.energizedpower.moon_light_upgrade_module_3.description": "Crie um Módulo de Melhoria de Luz do Luar (Nível III).",
 
   "advancements.energizedpower.press_mold_maker.title": "Fabricador de Molde de Prensa",
   "advancements.energizedpower.press_mold_maker.description": "Use este bloco para fazer moldes de prensa para a Prensa de Metal.",
@@ -1074,25 +1125,25 @@
   "advancements.energizedpower.press_molds.description": "Moldes de Prensa assados podem ser usados na Prensa de Metal.",
 
   "advancements.energizedpower.alloy_furnace.title": "Fornalha de Liga",
-  "advancements.energizedpower.alloy_furnace.description": "Fabrique uma Fornalha de Liga.",
+  "advancements.energizedpower.alloy_furnace.description": "Crie uma Fornalha de Liga.",
 
   "advancements.energizedpower.steel_ingot.title": "Lingote de Aço",
-  "advancements.energizedpower.steel_ingot.description": "Fabrique um Lingote de Aço.",
+  "advancements.energizedpower.steel_ingot.description": "Crie um Lingote de Aço.",
 
   "advancements.energizedpower.redstone_alloy_ingot.title": "Lingote de Liga de Redstone",
-  "advancements.energizedpower.redstone_alloy_ingot.description": "Fabrique um Lingote de Liga de Redstone.",
+  "advancements.energizedpower.redstone_alloy_ingot.description": "Crie um Lingote de Liga de Redstone.",
 
   "advancements.energizedpower.advanced_alloy_ingot.title": "Lingote de Liga Avançada",
-  "advancements.energizedpower.advanced_alloy_ingot.description": "Fabrique um Lingote de Liga Avançada.",
+  "advancements.energizedpower.advanced_alloy_ingot.description": "Crie um Lingote de Liga Avançada.",
 
   "advancements.energizedpower.advanced_alloy_plate.title": "Chapa de Liga Avançada",
-  "advancements.energizedpower.advanced_alloy_plate.description": "Fabrique uma Chapa de Liga Avançada.",
+  "advancements.energizedpower.advanced_alloy_plate.description": "Crie uma Chapa de Liga Avançada.",
 
   "advancements.energizedpower.auto_crafter.title": "A automação é o futuro",
   "advancements.energizedpower.auto_crafter.description": "Quem precisa de bancadas de trabalho manuais quando este bloco pode fazer isso automaticamente?",
 
   "advancements.energizedpower.advanced_auto_crafter.title": "Criação de energia",
-  "advancements.energizedpower.advanced_auto_crafter.description": "Fabrique várias receitas com o mesmo bloco.",
+  "advancements.energizedpower.advanced_auto_crafter.description": "Crie várias receitas com o mesmo bloco.",
 
   "advancements.energizedpower.crusher.title": "Triture isso",
   "advancements.energizedpower.crusher.description": "Triture Pedra, Arenito, Pedregulho, Cascalho ou outros blocos.",
@@ -1101,7 +1152,7 @@
   "advancements.energizedpower.pulverizer.description": "Pulverize minérios para aumentar a produção.",
 
   "advancements.energizedpower.charcoal_filter.title": "Filtro de Carvão Vegetal",
-  "advancements.energizedpower.charcoal_filter.description": "Fabrique um filtro de carvão vegetal.",
+  "advancements.energizedpower.charcoal_filter.description": "Crie um filtro de carvão vegetal.",
 
   "advancements.energizedpower.sawmill.title": "Serragem",
   "advancements.energizedpower.sawmill.description": "Serra madeira.",
@@ -1113,22 +1164,25 @@
   "advancements.energizedpower.metal_press.description": "Molda metais.",
 
   "advancements.energizedpower.auto_press_mold_maker.title": "Criador de Molde de Prensa Automático",
-  "advancements.energizedpower.auto_press_mold_maker.description": "Fabrique um Criador de Molde de Prensa Automático.",
+  "advancements.energizedpower.auto_press_mold_maker.description": "Crie um Criador de Molde de Prensa Automático.",
 
   "advancements.energizedpower.auto_stonecutter.title": "Cortador de Pedras Automático",
-  "advancements.energizedpower.auto_stonecutter.description": "Fabrique um Cortador de Pedras Automático.",
+  "advancements.energizedpower.auto_stonecutter.description": "Crie um Cortador de Pedras Automático.",
 
   "advancements.energizedpower.assembling_machine.title": "Máquina de Montagem",
-  "advancements.energizedpower.assembling_machine.description": "Fabrique componentes eletrônicos na Máquina de Montagem.",
+  "advancements.energizedpower.assembling_machine.description": "Crie componentes eletrônicos na Máquina de Montagem.",
 
   "advancements.energizedpower.plant_growth_chamber.title": "Crescimento de Plantas Mais Rápido",
   "advancements.energizedpower.plant_growth_chamber.description": "Melhore a velocidade e o rendimento com a Câmara de Crescimento de Plantas.",
 
+  "advancements.energizedpower.fluid_freezer.title": "Congelador de Fluidos",
+  "advancements.energizedpower.fluid_freezer.description": "Congela líquidos, em sua maior parte para gelo e neve.",
+
   "advancements.energizedpower.stone_liquefier.title": "Liquidificador de Pedra",
-  "advancements.energizedpower.stone_liquefier.description": "Fabrique lava a partir de blocos de pedra.",
+  "advancements.energizedpower.stone_liquefier.description": "Crie lava a partir de blocos de pedra.",
 
   "advancements.energizedpower.stone_solidifier.title": "Solidificador de Pedra",
-  "advancements.energizedpower.stone_solidifier.description": "Fabrique blocos de pedra a partir de Água e Lava.",
+  "advancements.energizedpower.stone_solidifier.description": "Crie blocos de pedra a partir de Água e Lava.",
 
   "advancements.energizedpower.block_placer.title": "Coloque o bloco",
   "advancements.energizedpower.block_placer.description": "Os blocos são colocados automaticamente no mundo.",
@@ -1140,10 +1194,10 @@
   "advancements.energizedpower.fluid_drainer.description": "Drene fluidos de itens.",
 
   "advancements.energizedpower.fluid_pump.title": "Bomba de Fluido",
-  "advancements.energizedpower.fluid_pump.description": "Fabrique uma Bomba de Fluido.",
+  "advancements.energizedpower.fluid_pump.description": "Crie uma Bomba de Fluido.",
 
   "advancements.energizedpower.advanced_fluid_pump.title": "Bomba de Fluido Avançada",
-  "advancements.energizedpower.advanced_fluid_pump.description": "Fabrique uma Bomba de Fluido Avançada.",
+  "advancements.energizedpower.advanced_fluid_pump.description": "Crie uma Bomba de Fluido Avançada.",
 
   "advancements.energizedpower.drain.title": "O Ralo",
   "advancements.energizedpower.drain.description": "Drene blocos de fonte de fluidos.",
@@ -1191,7 +1245,7 @@
   "advancements.energizedpower.inventory_charger.description": "Carregue itens de energia em seu inventário com baterias.",
 
   "advancements.energizedpower.inventory_teleporter.title": "Teletransportador Portátil",
-  "advancements.energizedpower.inventory_teleporter.description": "Fabrique um Teletransportador Portátil.",
+  "advancements.energizedpower.inventory_teleporter.description": "Crie um Teletransportador Portátil.",
 
   "advancements.energizedpower.advanced_charger.title": "Carregamento paralelo",
   "advancements.energizedpower.advanced_charger.description": "Carregue itens de energia em paralelo.",
@@ -1215,7 +1269,7 @@
   "advancements.energizedpower.teleporter_processing_unit.description": "O cérebro dos Teletransportadores.",
 
   "advancements.energizedpower.teleporter.title": "Mais rápido que a luz",
-  "advancements.energizedpower.teleporter.description": "Fabrique um Teletransportador.",
+  "advancements.energizedpower.teleporter.description": "Crie um Teletransportador.",
 
   "advancements.energizedpower.weather_controller.title": "Controle o clima",
   "advancements.energizedpower.weather_controller.description": "Mude o clima com o Controlador de Clima.",
@@ -1233,13 +1287,13 @@
   "advancements.energizedpower.thermal_generator.description": "Consuma líquidos quentes para gerar energia.",
 
   "advancements.energizedpower.filtration_plant.title": "Filtração de fluidos",
-  "advancements.energizedpower.filtration_plant.description": "Fabrique uma Planta de Filtração.",
+  "advancements.energizedpower.filtration_plant.description": "Crie uma Planta de Filtração.",
 
   "advancements.energizedpower.fluid_transposer.title": "Transpositor de Fluido",
-  "advancements.energizedpower.fluid_transposer.description": "Fabrique um Transpositor de Fluido.",
+  "advancements.energizedpower.fluid_transposer.description": "Crie um Transpositor de Fluido.",
 
   "advancements.energizedpower.induction_smelter.title": "Fundição de Indução",
-  "advancements.energizedpower.induction_smelter.description": "Fabrique uma Fundição de Indução.",
+  "advancements.energizedpower.induction_smelter.description": "Crie uma Fundição de Indução.",
 
   "advancements.energizedpower.powered_lamp.title": "Luzes elétricas",
   "advancements.energizedpower.powered_lamp.description": "Converta energia em luz.",
@@ -1254,70 +1308,70 @@
   "advancements.energizedpower.item_conveyor_belt.description": "Transporte itens com correias transportadoras de itens.",
 
   "advancements.energizedpower.fast_item_conveyor_belt.title": "Transporte Rápido de Itens",
-  "advancements.energizedpower.fast_item_conveyor_belt.description": "Fabrique uma Correia Transportadora de Itens Rápida.",
+  "advancements.energizedpower.fast_item_conveyor_belt.description": "Crie uma Correia Transportadora de Itens Rápida.",
 
   "advancements.energizedpower.express_item_conveyor_belt.title": "Transporte Expresso de Itens",
-  "advancements.energizedpower.express_item_conveyor_belt.description": "Fabrique uma Correia Transportadora de Itens Expressa.",
+  "advancements.energizedpower.express_item_conveyor_belt.description": "Crie uma Correia Transportadora de Itens Expressa.",
 
   "advancements.energizedpower.item_conveyor_belt_loader.title": "Carregador de Itens",
   "advancements.energizedpower.item_conveyor_belt_loader.description": "Carregue itens em uma correia transportadora de itens.",
 
   "advancements.energizedpower.fast_item_conveyor_belt_loader.title": "Carregador de Correia Transportadora de Itens Rápido",
-  "advancements.energizedpower.fast_item_conveyor_belt_loader.description": "Fabrique um Carregador de Correia Transportadora de Itens Rápido.",
+  "advancements.energizedpower.fast_item_conveyor_belt_loader.description": "Crie um Carregador de Correia Transportadora de Itens Rápido.",
 
   "advancements.energizedpower.express_item_conveyor_belt_loader.title": "Carregador de Correia Transportadora de Itens Expresso",
-  "advancements.energizedpower.express_item_conveyor_belt_loader.description": "Fabrique um Carregador de Correia Transportadora de Itens Expresso.",
+  "advancements.energizedpower.express_item_conveyor_belt_loader.description": "Crie um Carregador de Correia Transportadora de Itens Expresso.",
 
   "advancements.energizedpower.item_conveyor_belt_sorter.title": "Classificação Automática",
   "advancements.energizedpower.item_conveyor_belt_sorter.description": "Classifique itens com o Classificador de Correia Transportadora de Itens.",
 
   "advancements.energizedpower.fast_item_conveyor_belt_sorter.title": "Classificador de Correia Transportadora de Itens Rápido",
-  "advancements.energizedpower.fast_item_conveyor_belt_sorter.description": "Fabrique um Classificador de Correia Transportadora de Itens Rápido.",
+  "advancements.energizedpower.fast_item_conveyor_belt_sorter.description": "Crie um Classificador de Correia Transportadora de Itens Rápido.",
 
   "advancements.energizedpower.express_item_conveyor_belt_sorter.title": "Classificador de Correia Transportadora de Itens Expresso",
-  "advancements.energizedpower.express_item_conveyor_belt_sorter.description": "Fabrique um Classificador de Correia Transportadora de Itens Expresso.",
+  "advancements.energizedpower.express_item_conveyor_belt_sorter.description": "Crie um Classificador de Correia Transportadora de Itens Expresso.",
 
   "advancements.energizedpower.item_conveyor_belt_switch.title": "Interruptor de Correia Transportadora",
   "advancements.energizedpower.item_conveyor_belt_switch.description": "Selecione uma direção.",
 
   "advancements.energizedpower.fast_item_conveyor_belt_switch.title": "Interruptor de Correia Transportadora de Itens Rápido",
-  "advancements.energizedpower.fast_item_conveyor_belt_switch.description": "Fabrique um Interruptor de Correia Transportadora de Itens Rápido.",
+  "advancements.energizedpower.fast_item_conveyor_belt_switch.description": "Crie um Interruptor de Correia Transportadora de Itens Rápido.",
 
   "advancements.energizedpower.express_item_conveyor_belt_switch.title": "Interruptor de Correia Transportadora de Itens Expresso",
-  "advancements.energizedpower.express_item_conveyor_belt_switch.description": "Fabrique um Interruptor de Correia Transportadora de Itens Expresso.",
+  "advancements.energizedpower.express_item_conveyor_belt_switch.description": "Crie um Interruptor de Correia Transportadora de Itens Expresso.",
 
   "advancements.energizedpower.item_conveyor_belt_splitter.title": "Divisor de Correia Transportadora",
   "advancements.energizedpower.item_conveyor_belt_splitter.description": "Distribua itens uniformemente para várias saídas.",
 
   "advancements.energizedpower.fast_item_conveyor_belt_splitter.title": "Divisor de Correia Transportadora de Itens Rápido",
-  "advancements.energizedpower.fast_item_conveyor_belt_splitter.description": "Fabrique um Divisor de Correia Transportadora de Itens Rápido.",
+  "advancements.energizedpower.fast_item_conveyor_belt_splitter.description": "Crie um Divisor de Correia Transportadora de Itens Rápido.",
 
   "advancements.energizedpower.express_item_conveyor_belt_splitter.title": "Divisor de Correia Transportadora de Itens Expresso",
-  "advancements.energizedpower.express_item_conveyor_belt_splitter.description": "Fabrique um Divisor de Correia Transportadora de Itens Expresso.",
+  "advancements.energizedpower.express_item_conveyor_belt_splitter.description": "Crie um Divisor de Correia Transportadora de Itens Expresso.",
 
   "advancements.energizedpower.item_conveyor_belt_merger.title": "Mesclador de Correia Transportadora",
   "advancements.energizedpower.item_conveyor_belt_merger.description": "Mescle itens uniformemente de várias entradas.",
 
   "advancements.energizedpower.fast_item_conveyor_belt_merger.title": "Mesclador de Correia Transportadora de Itens Rápido",
-  "advancements.energizedpower.fast_item_conveyor_belt_merger.description": "Fabrique um Mesclador de Correia Transportadora de Itens Rápido.",
+  "advancements.energizedpower.fast_item_conveyor_belt_merger.description": "Crie um Mesclador de Correia Transportadora de Itens Rápido.",
 
   "advancements.energizedpower.express_item_conveyor_belt_merger.title": "Mesclador de Correia Transportadora de Itens Expresso",
-  "advancements.energizedpower.express_item_conveyor_belt_merger.description": "Fabrique um Mesclador de Correia Transportadora de Itens Expresso.",
+  "advancements.energizedpower.express_item_conveyor_belt_merger.description": "Crie um Mesclador de Correia Transportadora de Itens Expresso.",
 
   "advancements.energizedpower.item_silo_tiny.title": "Silo de Itens (Minúsculo)",
-  "advancements.energizedpower.item_silo_tiny.description": "Fabrique um Silo de Itens minúsculo.",
+  "advancements.energizedpower.item_silo_tiny.description": "Crie um Silo de Itens minúsculo.",
 
   "advancements.energizedpower.item_silo_small.title": "Silo de Itens (Pequeno)",
-  "advancements.energizedpower.item_silo_small.description": "Fabrique um Silo de Itens pequeno.",
+  "advancements.energizedpower.item_silo_small.description": "Crie um Silo de Itens pequeno.",
 
   "advancements.energizedpower.item_silo_medium.title": "Silo de Itens (Médio)",
-  "advancements.energizedpower.item_silo_medium.description": "Fabrique um Silo de Itens médio.",
+  "advancements.energizedpower.item_silo_medium.description": "Crie um Silo de Itens médio.",
 
   "advancements.energizedpower.item_silo_large.title": "Silo de Itens (Grande)",
-  "advancements.energizedpower.item_silo_large.description": "Fabrique um Silo de Itens grande.",
+  "advancements.energizedpower.item_silo_large.description": "Crie um Silo de Itens grande.",
 
   "advancements.energizedpower.item_silo_giant.title": "Silo de Itens (Gigante)",
-  "advancements.energizedpower.item_silo_giant.description": "Fabrique um Silo de Itens gigante.",
+  "advancements.energizedpower.item_silo_giant.description": "Crie um Silo de Itens gigante.",
 
   "advancements.energizedpower.iron_fluid_pipe.title": "Transporte de Fluidos",
   "advancements.energizedpower.iron_fluid_pipe.description": "Transporte fluidos com tubos de fluido de ferro.",
@@ -1395,37 +1449,37 @@
   "advancements.energizedpower.advanced_battery_box_minecart.description": "Transporte ainda mais energia nos trilhos.",
 
   "advancements.energizedpower.tin_plate.title": "Chapa de Estanho",
-  "advancements.energizedpower.tin_plate.description": "Fabrique uma chapa de estanho.",
+  "advancements.energizedpower.tin_plate.description": "Crie uma chapa de estanho.",
 
   "advancements.energizedpower.copper_plate.title": "Chapa de Cobre",
-  "advancements.energizedpower.copper_plate.description": "Fabrique uma chapa de cobre.",
+  "advancements.energizedpower.copper_plate.description": "Crie uma chapa de cobre.",
 
   "advancements.energizedpower.iron_plate.title": "Bata nisso",
-  "advancements.energizedpower.iron_plate.description": "Fabrique uma chapa de ferro.",
+  "advancements.energizedpower.iron_plate.description": "Crie uma chapa de ferro.",
 
   "advancements.energizedpower.gold_plate.title": "Chapa de Ouro",
-  "advancements.energizedpower.gold_plate.description": "Fabrique uma chapa de ouro.",
+  "advancements.energizedpower.gold_plate.description": "Crie uma chapa de ouro.",
 
   "advancements.energizedpower.tin_wire.title": "Fio de Estanho",
-  "advancements.energizedpower.tin_wire.description": "Fabrique um fio de estanho.",
+  "advancements.energizedpower.tin_wire.description": "Crie um fio de estanho.",
 
   "advancements.energizedpower.copper_wire.title": "Fio de Cobre",
-  "advancements.energizedpower.copper_wire.description": "Fabrique um fio de cobre.",
+  "advancements.energizedpower.copper_wire.description": "Crie um fio de cobre.",
 
   "advancements.energizedpower.gold_wire.title": "Fio de Ouro",
-  "advancements.energizedpower.gold_wire.description": "Fabrique um fio de ouro.",
+  "advancements.energizedpower.gold_wire.description": "Crie um fio de ouro.",
 
   "advancements.energizedpower.energized_copper_plate.title": "Chapa de Cobre Energizado",
-  "advancements.energizedpower.energized_copper_plate.description": "Fabrique uma chapa de cobre energizado.",
+  "advancements.energizedpower.energized_copper_plate.description": "Crie uma chapa de cobre energizado.",
 
   "advancements.energizedpower.energized_gold_plate.title": "Chapa de Ouro Energizado",
-  "advancements.energizedpower.energized_gold_plate.description": "Fabrique uma chapa de ouro energizado.",
+  "advancements.energizedpower.energized_gold_plate.description": "Crie uma chapa de ouro energizado.",
 
   "advancements.energizedpower.energized_copper_wire.title": "Fio de Cobre Energizado",
-  "advancements.energizedpower.energized_copper_wire.description": "Fabrique um fio de cobre energizado.",
+  "advancements.energizedpower.energized_copper_wire.description": "Crie um fio de cobre energizado.",
 
   "advancements.energizedpower.energized_gold_wire.title": "Fio de Ouro Energizado",
-  "advancements.energizedpower.energized_gold_wire.description": "Fabrique um fio de ouro energizado.",
+  "advancements.energizedpower.energized_gold_wire.description": "Crie um fio de ouro energizado.",
 
   "advancements.energizedpower.energizedpower_basics.title": "Energized Power (Básico)",
   "advancements.energizedpower.energizedpower_basics.description": "Este é o início da sua jornada de energia energizada.",
@@ -1434,10 +1488,10 @@
   "advancements.energizedpower.energizer.description": "Esta máquina pode energizar seus lingotes de cobre muito mais rápido e de forma mais eficiente do que o carregador.",
 
   "advancements.energizedpower.advanced_crusher.title": "Triturador mais rápido",
-  "advancements.energizedpower.advanced_crusher.description": "Fabrique um Triturador Avançado.",
+  "advancements.energizedpower.advanced_crusher.description": "Crie um Triturador Avançado.",
 
   "advancements.energizedpower.advanced_pulverizer.title": "Pulverizador mais rápido",
-  "advancements.energizedpower.advanced_pulverizer.description": "Fabrique um Pulverizador Avançado.",
+  "advancements.energizedpower.advanced_pulverizer.description": "Crie um Pulverizador Avançado.",
 
   "advancements.energizedpower.lightning_generator.title": "Energia das nuvens",
   "advancements.energizedpower.lightning_generator.description": "Permite extrair energia de raios.",
@@ -1516,7 +1570,7 @@
   "book.energizedpower.page.credits.9": "Tradução para Alemão",
   "book.energizedpower.page.credits.10": "Tradução para Espanhol",
   "book.energizedpower.page.credits.11": "Tradução para Japonês",
-  
+  "book.energizedpower.page.credits.12": "Tradução para Português Brasileiro",
 
   "book.energizedpower.page.table_of_contents.title": "Índice",
 
@@ -1572,6 +1626,8 @@
   "book.energizedpower.page.energy_efficiency_upgrades": "As Melhorias de Eficiência Energética reduzem o consumo de energia.",
 
   "book.energizedpower.page.energy_capacity_upgrades": "As Melhorias de Capacidade de Energia aumentam a capacidade de armazenamento de energia e a taxa de transferência de energia.",
+
+  "book.energizedpower.page.energy_production_upgrades": "Melhorias de Produção de Energia aumentam a produção de energia.",
 
   "book.energizedpower.page.duration_upgrades.1": "As Melhorias de Duração aumentam a duração do clima definido pelo Controlador de Clima.",
   "book.energizedpower.page.duration_upgrades.2": "A Melhoria de Duração (Nível VI) permitirá que o Controlador de Clima mantenha o Clima atual, mas requer fornecimento constante de energia.",
@@ -1740,6 +1796,9 @@
   "book.energizedpower.page.plant_growth_chamber.5": "As sementes podem ser inseridas pelo norte, leste, sul e oeste. Os fertilizantes podem ser inseridos por cima e por baixo. As saídas podem ser extraídas de todas as faces do bloco.",
   "book.energizedpower.page.plant_growth_chamber.6": "Se você quiser usar um fertilizante, o fertilizante deve ser inserido primeiro.",
   "book.energizedpower.page.plant_growth_chamber.7": "Se você quiser automatizar esses blocos, lembre-se de que os rendimentos são aleatórios.",
+
+  "book.energizedpower.page.fluid_freezer.1": "O Congelador de Fluidos produz Gelo e Neve a partir de Água.",
+  "book.energizedpower.page.fluid_freezer.2": "Os fluidos devem ser inseridos com um tubo.",
 
   "book.energizedpower.page.stone_liquefier.1": "O Liquidificador de Pedra produz Lava a partir de blocos de Pedra.",
   "book.energizedpower.page.stone_liquefier.2": "Os fluidos devem ser extraídos com um tubo.",
