@@ -96,8 +96,6 @@
   "betterclouds.config.entry.shaderPreset.remove": "Remover Predefinição",
   "betterclouds.config.entry.shaderPreset.restore": "Restaurar Predefinição",
   "betterclouds.config.entry.shaderPreset.untitled": "Sem Título",
-  "betterclouds.config.entry.shuffle": "Ordem Aleatória",
-  "betterclouds.config.entry.shuffle.description": "Pode melhorar alguns problemas visuais e z-fighting",
   "betterclouds.config.entry.sizeXZ": "Largura",
   "betterclouds.config.entry.sizeXZ.description": "A largura de um cubo de nuvem individual",
   "betterclouds.config.entry.sizeY": "Altura",
@@ -175,6 +173,8 @@
   "betterclouds.config.group.shaders.presets": "Predefinições",
   "betterclouds.config.group.shaders.technical": "Técnico",
   "betterclouds.config.hide": "Esconder Interface",
+  "betterclouds.config.message.fieldControlledByShaderPreset" : "\n\nDuplique a predefinição de shader atualmente selecionada para editar esta opção!",
+  "betterclouds.config.message.fieldControlledByNoisePreset" : "\n\nDuplique a predefinição de ruido atualmente selecionada para editar esta opção!",
   "betterclouds.config.noisePreset.presetInvalid" : "§cErro: %s",
   "betterclouds.config.noisePreset.presetValid" : "§aA predefinição é válida, sem problemas :D",
   "betterclouds.config.reset.tooltip": "Redefine todas as opções para o padrão",
@@ -207,7 +207,7 @@
   "betterclouds.message.profiling.enabled": "Habilitar profiling por %d frames, o desempenho será reduzido.",
   "betterclouds.message.profiling.genTimes": "§5Tempos de Geração§r: %d §7ms§r || %.3f §7por segundo§r",
   "betterclouds.message.profiling.gpuTimes": "§cTempos da GPU§r (ms):\n%s",
-  "betterclouds.message.reloadingConfig": "Recarregando configurações..."
+  "betterclouds.message.reloadingConfig": "Recarregando configurações...",
   "betterclouds.message.renderdoc.capture.failure": "Captura do RenderDoc fracassou.",
   "betterclouds.message.renderdoc.capture.success": "Captura do RenderDoc salva em %s",
   "betterclouds.message.renderdoc.capture.trigger": "Captura do RenderDoc iniciada.",
@@ -219,5 +219,5 @@
   "betterclouds.message.renderdoc.prompt.install.action": "clique aqui para instalar.",
   "betterclouds.message.renderdoc.prompt.load": "RenderDoc não está carregado, %s",
   "betterclouds.message.renderdoc.prompt.load.action": "clique aqui para configurá-lo.",
-  "betterclouds.message.updatedPreferences": "Preferências atualizadas.",
+  "betterclouds.message.updatedPreferences": "Preferências atualizadas."
 }
