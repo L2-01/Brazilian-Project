@@ -90,7 +90,10 @@
   "sodium.console.core_shaders_warn": "Os seguintes pacotes de recursos podem ser incompatíveis com o Sodium:",
   "sodium.console.core_shaders_info": "Verifique o log do jogo para informações detalhadas.",
   "sodium.console.config_not_loaded": "O arquivo de configuração do Sodium foi corrompido ou está ilegível no momento. Algumas opções foram redefinidas temporariamente para seus valores padrão. Abra a tela de Configurações de Vídeo para resolver este problema.",
-  "sodium.console.config_file_was_reset": "O arquivo de configuração foi redefinido para padrões conhecidos.",
+  "sodium.console.corrupt_config.console.config_file_was_reset": "O arquivo de configuração foi redefinido para padrões conhecidos.",
+  "sodium.console.corrupt_config.console.title": "O Sodium não pôde carregar o arquivo de configurações",
+  "sodium.console.corrupt_config.message.title": "Não foi possível carregar o arquivo de configurações",
+  "sodium.console.corrupt_config.message.body": "Houve um problema ao tentar carregar o arquivo de configurações. Isso\npode acontecer quando o arquivo foi corrompido no discoou ao tentar\neditar manualmente o arquivo.\n\nSe você continuar, o aruqivo de configurações será redefinido para padrões\nconhecidos e você perderá quaisquer mudanças que possam ter sido feitas às suas\nConfigurações Gráficas.\n\nMais informações sobre o erro podem ser encontradas no arquivo de registros.",
   "sodium.options.search": "Buscar",
   "sodium.options.search.hint": "Buscar...",
   "sodium.options.open_external_page_button": "Abrir"
