@@ -20,6 +20,8 @@
     "block.glassential.clear_fluid_fake_glass": "Vidro Falso de Fluido Límpido",
     "block.glassential.colorable_glass": "Vidro Colorível",
     "block.glassential.colorable_stained_glass": "Vidro Tingido Colorível",
+    "block.glassential.colorable_glass_pane": "Vidraça Colorível",
+    "block.glassential.colorable_stained_glass_pane": "Vidraça Tingida Colorível",
 
     "block.glassential.glass_lava_lamp": "Lâmpada de Lava",
     "block.glassential.glass_lava_lamp_tinted": "Lâmpada de Lava Fumê",
@@ -129,8 +131,9 @@
     "tooltip.glassential.ice": "Gelo em vidro térmico, não derrete",
     "tooltip.glassential.lava_lamp": "Lanterna natural, queima como magma",
     "tooltip.glassential.gravity": "Amortece a queda, sem colisão",
-    "tooltip.glassential.one_way": "Uma janela secreta. Transparente de um lado, sólida do outro.\\nClique com o botão direito em uma face com qualquer bloco para disfarçar esse lado.",
+    "tooltip.glassential.one_way": "Uma janela secreta. Transparente de um lado, sólida do outro.",
     "tooltip.glassential.clear_fluid": "Remove a face da água próxima à superfície atrás do vidro para uma visão cristalina",
+    "tooltip.glassential.one_way.hint": "Clique com o botão direito em uma face com qualquer bloco para disfarçar essa face.",
     "tooltip.glassential.colorable": "Mude a cor e as propriedades com o Pincel Glassential",
 
     "tooltip.glassential.pane_frameless": "Sem bordas quando inserido entre blocos",
@@ -155,6 +158,9 @@
     "tooltip.glassential.painter.pass_player": "◯ Atravessar Jogador",
     "tooltip.glassential.painter.pass_entity": "◈ Atravessar Entidades",
     "tooltip.glassential.painter.usage": "Clique com o botão direito para configurar",
+    "tooltip.glassential.painter.eyedropper": "Shift + clique direot em qualquer bloco para copiar sua cor",
+    "message.glassential.brush.copy_success": "Cor %s copiada para o pincel",
+    "message.glassential.brush.copy_failed": "Não foi possível copiar a cor desse bloco",
 
     "itemGroup.glassential": "Glassential Renewed - Funcional",
     "itemGroup.glassential_misc": "Glassential Renewed - Blocos"

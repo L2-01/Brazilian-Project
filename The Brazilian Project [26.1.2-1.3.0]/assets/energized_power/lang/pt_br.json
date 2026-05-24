@@ -228,8 +228,8 @@
 
   "item.energizedpower.wooden_hammer": "Martelo de Madeira",
   "item.energizedpower.stone_hammer": "Martelo de Pedra",
-  "item.energizedpower.copper_hammer": "Martelo de Cobre",
   "item.energizedpower.iron_hammer": "Martelo de Ferro",
+  "item.energizedpower.copper_hammer": "Martelo de Cobre",
   "item.energizedpower.golden_hammer": "Martelo de Ouro",
   "item.energizedpower.diamond_hammer": "Martelo de Diamante",
   "item.energizedpower.netherite_hammer": "Martelo de Netherita",
@@ -245,6 +245,7 @@
 
   "item.energizedpower.battery_box_minecart": "Carrinho de Mina com Caixa de Bateria",
   "item.energizedpower.advanced_battery_box_minecart": "Carrinho de Mina com Caixa de Bateria Avançada",
+  "entity.minecraft.villager.electrician": "Eletricista",
 
   "block.energizedpower.silicon_block": "Bloco de Silício",
   "item.energizedpower.silicon_block": "Bloco de Silício",
@@ -307,6 +308,13 @@
 
   "block.energizedpower.item_conveyor_belt_switch": "Interruptor de Esteira Transportadora de Itens Básico",
   "item.energizedpower.item_conveyor_belt_switch": "Interruptor de Esteira Transportadora de Itens Básico",
+  
+  "item.energizedpower.item_ejector_upgrade_module_1": "Módulo de Melhoria de Ejetor de Itens (Nível I)",
+  "item.energizedpower.item_ejector_upgrade_module_2": "Módulo de Melhoria de Ejetor de Itens (Nível II)",
+  "item.energizedpower.item_ejector_upgrade_module_3": "Módulo de Melhoria de Ejetor de Itens (Nível III)",
+  "item.energizedpower.item_ejector_upgrade_module_4": "Módulo de Melhoria de Ejetor de Itens (Nível IV)",
+  "item.energizedpower.item_ejector_upgrade_module_5": "Módulo de Melhoria de Ejetor de Itens (Nível V)",
+  "item.energizedpower.item_ejector_upgrade_module_6": "Módulo de Melhoria de Ejetor de Itens (Nível VI)",
 
   "block.energizedpower.fast_item_conveyor_belt_switch": "Interruptor de Esteira Transportadora de Itens Rápido",
   "item.energizedpower.fast_item_conveyor_belt_switch": "Interruptor de Esteira Transportadora de Itens Rápido",
@@ -885,8 +893,7 @@
   "tooltip.energizedpower.upgrade_view.button.close": "Fechar Visão de Melhorias",
 
   "itemGroup.energizedpower.tab": "Energized Power",
-
-  "entity.minecraft.villager.electrician": "Eletricista",
+  "itemGroup.energizedpower.tab.upgrades": "Energized Power (Melhorias)",
 
   "entity.energizedpower.battery_box_minecart": "Carrinho de Mina com Caixa de Bateria",
   "entity.energizedpower.advanced_battery_box_minecart": "Carrinho de Mina com Caixa de Bateria Avançada",
@@ -1333,6 +1340,24 @@
 
   "advancements.energizedpower.item_conveyor_belt_switch.title": "Interruptor de Correia Transportadora",
   "advancements.energizedpower.item_conveyor_belt_switch.description": "Selecione uma direção.",
+  
+  "advancements.energizedpower.item_ejector_upgrade_module_1.description": "Crie um Módulo de Melhoria de Ejetor de Itens (Nível I).",
+  "advancements.energizedpower.item_ejector_upgrade_module_1.title": "Ejetor de Itens I",
+  
+  "advancements.energizedpower.item_ejector_upgrade_module_2.description": "Crie um Módulo de Melhoria de Ejetor de Itens (Nível II).",
+  "advancements.energizedpower.item_ejector_upgrade_module_2.title": "Ejetor de Itens II",
+  
+  "advancements.energizedpower.item_ejector_upgrade_module_3.description": "Crie um Módulo de Melhoria de Ejetor de Itens (Nível III).",
+  "advancements.energizedpower.item_ejector_upgrade_module_3.title": "Ejetor de Itens III",
+  
+  "advancements.energizedpower.item_ejector_upgrade_module_4.description": "Crie um Módulo de Melhoria de Ejetor de Itens (Nível IV).",
+  "advancements.energizedpower.item_ejector_upgrade_module_4.title": "Ejetor de Itens IV",
+  
+  "advancements.energizedpower.item_ejector_upgrade_module_5.description": "Crie um Módulo de Melhoria de Ejetor de Itens (Nível V).",
+  "advancements.energizedpower.item_ejector_upgrade_module_5.title": "Ejetor de Itens V",
+  
+  "advancements.energizedpower.item_ejector_upgrade_module_6.description": "Crie um Módulo de Melhoria de Ejetor de Itens (Nível VI).",
+  "advancements.energizedpower.item_ejector_upgrade_module_6.title": "Ejetor de Itens VI",
 
   "advancements.energizedpower.fast_item_conveyor_belt_switch.title": "Interruptor de Correia Transportadora de Itens Rápido",
   "advancements.energizedpower.fast_item_conveyor_belt_switch.description": "Crie um Interruptor de Correia Transportadora de Itens Rápido.",
@@ -1639,6 +1664,8 @@
   "book.energizedpower.page.extraction_range_upgrades": "As Melhorias de Alcance de Extração aumentam o alcance em que uma máquina pode operar.",
 
   "book.energizedpower.page.furnace_mode_upgrades": "As Melhorias de Modo de Fornalha alteram as receitas que uma Fornalha Energizada pode produzir.",
+  
+  "tooltip.energizedpower.upgrade_module_modifier.item_ejector": "Autoexpelir itens por tique",
 
   "book.energizedpower.page.moon_light_upgrades": "As Melhorias de Luz do Luar permitem que os Painéis Solares produzam energia durante a noite.",
 
@@ -1888,6 +1915,9 @@
 
   "book.energizedpower.page.item_conveyor_belt_switch.1": "O Interruptor de Correia Transportadora de Itens pega itens da correia transportadora de entrada (Deve estar voltada para o quadrado grande e não deve ser ascendente) e os coloca na correia transportadora de saída no lado com o indicador verde.",
   "book.energizedpower.page.item_conveyor_belt_switch.2": "Enquanto um sinal de redstone for aplicado, a outra saída será selecionada.",
+  
+  "book.energizedpower.page.item_ejector_upgrades.1": "Melhorias de Ejetor de Itens permitirão que máquinas automaticamente joguem itens na primeira saída válida.",
+  "book.energizedpower.page.item_ejector_upgrades.2": "Prioridade do mais alto ao mais baixo: Baixo, Cima, Norte, Sul, Oeste, Leste.",
 
   "book.energizedpower.page.item_conveyor_belt_splitter": "O Divisor de Correia Transportadora de Itens pega itens da correia transportadora de entrada (Deve estar voltada para o quadrado grande e não deve ser ascendente) e os coloca uniformemente nas correias transportadoras de saída conectadas.",
 
