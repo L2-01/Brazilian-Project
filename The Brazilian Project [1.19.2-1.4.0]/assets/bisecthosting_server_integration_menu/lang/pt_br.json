@@ -1,0 +1,71 @@
+{
+  "screen.config.mod": "BisectHosting Server Integration Menu",
+  "screen.config.features": "Recursos",
+  "screen.config.save": "Salvar",
+  "screen.config.discard": "Descartar",
+  "screen.config.close": "Fechar",
+
+  "screen.config.user.title": "Tela de Configuração do Usuário",
+  "screen.config.pack.title": "Tela de Configuração do Modpack",
+
+  "config.pack_id": "ID do Pacote",
+  "config.partner_id": "ID do Parceiro",
+  "config.pack_edit_mode": "Modo de Edição do Pacote",
+
+  "screen.config.modules.server_creator_banner.name": "Banner da Lista de Servidores",
+  "modules.server_creator_banner.config.title": "Título",
+  "modules.server_creator_banner.config.description": "Descrição",
+  "modules.server_creator_banner.config.use_language_files": "Usar Arquivos de Idioma",
+  "modules.server_creator_banner.config.display_banner": "Exibir Banner",
+
+  "screen.config.modules.public_server_list.name": "Lista de Servidores Públicos",
+  "modules.public_server_list.open_screen.text": "Servidores Públicos",
+  "modules.public_server_list.open_screen.tooltip": "Ver servidores públicos",
+  "modules.public_server_list.title": "Servidores Públicos",
+  "modules.public_server_list.how_to": "Adicione Seu Servidor",
+  "modules.public_server_list.last_played_label": "Jogado por Último",
+  "modules.public_server_list.public_servers_label": "Servidores Públicos",
+  "modules.public_server_list.loading.title": "Tela de Carregamento de Servidor Público",
+  "modules.public_server_list.loading.loading": "Carregando servidores públicos",
+  "modules.public_server_list.loading.failed": "Falha ao carregar servidores públicos",
+  "modules.public_server_list.filter.name": "Filtrar por Nome",
+  "modules.public_server_list.sort.player_count": "Ordenar por Contagem de Jogadores",
+  "modules.public_server_list.sort.ping": "Ordenar por Ping",
+  "modules.public_server_list.config.button_x": "Posição Esquerda do Botão",
+  "modules.public_server_list.config.button_y": "Posição Superior do Botão",
+  "modules.public_server_list.config.button_width": "Largura do Botão",
+  "modules.public_server_list.config.vanilla_button": "Botão Vanilla",
+  "modules.public_server_list.no_servers": "Não há servidores públicos listados.",
+  "modules.public_server_list.first_server": "Seja o primeiro a adicionar um servidor!",
+
+  "configs.boolean.true": "Verdadeiro",
+  "configs.boolean.false": "Falso",
+
+  "step.base.create_your_server": "Vamos criar o seu Servidor de Minecraft.",
+  "step.base.back": "Voltar",
+
+  "step.loading_plans.loading": "Carregando planos",
+  "step.loading_plans.failed": "Falha ao carregar planos",
+
+  "step.player_count.question": "Quantos jogadores você espera que estejam no servidor ao mesmo tempo?",
+  "step.player_count.next": "Próximo",
+
+  "step.recommended_jar.detected": "Detectamos que você está executando:",
+  "step.recommended_jar.choice": "Pressione 'Selecionar' para usar este pacote, ou pressione 'Alterar' para selecionar um pacote diferente.",
+  "step.recommended_jar.select": "Selecionar",
+  "step.recommended_jar.change": "Alterar",
+
+  "step.select_jar.name_filter": "Filtrar por nome",
+  "step.select_jar.platform_filter": "Filtrar por plataforma",
+  "step.select_jar.select_pack": "Selecione o pacote",
+  "step.select_jar.select": "Selecionar",
+
+  "step.select_package.plan": "Selecionamos o plano perfeito para você!",
+  "step.select_package.slider": "Mova o controle deslizante para escolher um plano diferente",
+  "step.select_package.order_plan": "Encomendar Plano",
+  "step.select_package.price": "$%s/Mês",
+
+  "step.select_plan.choose_plan": "Escolha o tipo de plano",
+  "step.select_plan.choose_budget": "Escolher Econômico",
+  "step.select_plan.choose_premium": "Escolher Premium"
+}
