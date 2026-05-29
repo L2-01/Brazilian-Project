@@ -1,0 +1,23 @@
+{
+  "debugify.name": "Debugify",
+  "debugify.basic": "Correções Básicas",
+  "debugify.gameplay": "Correções de Jogabilidade",
+  "debugify.gameplay.warning": "AVISO: Esta categoria contém configurações que podem ser consideradas uma vantagem injusta!",
+  "debugify.gameplay.enable_in_multiplayer": "Habilitar no Multijogador",
+  "debugify.fix.enabled": "Consertado",
+  "debugify.fix.disabled": "Não consertado",
+  "debugify.fix.unavailable": "Indisponível",
+  "debugify.error.conflict": "%s já é consertado pelo mod '%s'",
+  "debugify.error.os": "%s se aplica apenas a %s",
+  "debugify.os.windows": "Windows",
+  "debugify.os.macos": "macOS",
+  "debugify.os.linux": "Linux",
+  "debugify.os.solaris": "Solaris",
+  "debugify.misc": "Miscelâneo",
+  "debugify.misc.default_disabled": "Padrão para Desabilitado",
+  "debugify.misc.default_disabled.description": "Novas correções de erros serão desabilitadas em vez de habilitadas por padrão.",
+  "debugify.env.client": "Local",
+  "debugify.env.server": "Servidor",
+  "debugify.no_yacl.title": "YetAnotherConfigLib não está instalado!",
+  "debugify.no_yacl.description": "Para configurar o Debugify usando uma interface, você deve instalar o %s, esta é a biblioteca usada para disponibilizar esta funcionalidade. Caso contrário, você pode configurar usando o arquivo JSON armazenado em '%s'."
+}
