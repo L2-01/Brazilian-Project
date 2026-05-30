@@ -207,8 +207,8 @@
   "txt.energizedpower.energy_analyzer.output_side_information": "Informações para a face do bloco clicada:",
   "txt.energizedpower.energy_analyzer.no_energy_left": "O Analisador de Energia não tem energia suficiente (%s são necessários).",
   "txt.energizedpower.energy_analyzer.no_block_entity": "Este bloco não é um bloco de energia.",
-  "txt.energizedpower.energy_analyzer.no_energy_block": "Este bloco não é um bloco de energia (FE).",
-  "txt.energizedpower.energy_analyzer.no_energy_block_side": "Esta face do bloco não é uma face de bloco de energia (FE).",
+  "txt.energizedpower.energy_analyzer.no_energy_block": "Este bloco não é um bloco de energia (E).",
+  "txt.energizedpower.energy_analyzer.no_energy_block_side": "Esta face do bloco não é uma face de bloco de energia (E).",
   "txt.energizedpower.energy_analyzer.energy_output": "Energia: %s / %s.",
   "txt.energizedpower.energy_analyzer.energy_can_receive": "Este bloco consome energia.",
   "txt.energizedpower.energy_analyzer.energy_can_extract": "Este bloco produz energia.",
@@ -1234,13 +1234,13 @@
   "advancements.energizedpower.battery_6.description": "Nível VI: Você energizou sua bateria para obter ainda mais capacidade de armazenamento.",
 
   "advancements.energizedpower.battery_7.title": "Você disse que precisa de mais Poder?",
-  "advancements.energizedpower.battery_7.description": "Nível VII: Um quarto de milhão de FE de capacidade de armazenamento! Podemos fazer melhor?",
+  "advancements.energizedpower.battery_7.description": "Nível VII: Um quarto de milhão de E de capacidade de armazenamento! Podemos fazer melhor?",
 
   "advancements.energizedpower.battery_8.title": "Eu preciso de mais PODER",
-  "advancements.energizedpower.battery_8.description": "Esta é a melhor bateria deste mod (Pode armazenar mais de 1 milhão de FE)",
+  "advancements.energizedpower.battery_8.description": "Esta é a melhor bateria deste mod (Pode armazenar mais de 1 milhão de E)",
 
   "advancements.energizedpower.battery_8_fully_charged.title": "Mestre do Armazenamento de Energia",
-  "advancements.energizedpower.battery_8_fully_charged.description": "Você carregou totalmente sua bateria de 1 milhão de FE!",
+  "advancements.energizedpower.battery_8_fully_charged.description": "Você carregou totalmente sua bateria de 1 milhão de E!",
 
   "advancements.energizedpower.cable_insulator.title": "A Jaqueta para o seu Cabo",
   "advancements.energizedpower.cable_insulator.description": "Cubra seus cabos com este ingrediente. (Pode ser fabricado clicando na lã com uma tesoura [Ejetor também pode ser usado])",
@@ -1441,7 +1441,7 @@
   "advancements.energizedpower.hv_transformers.description": "Podem transferir ainda mais energia.",
 
   "advancements.energizedpower.ehv_transformers.title": "Transformadores de Extra Alta Tensão (EHV)",
-  "advancements.energizedpower.ehv_transformers.description": "Podem transferir mais de 2 milhões de FE por tique.",
+  "advancements.energizedpower.ehv_transformers.description": "Podem transferir mais de 2 milhões de E por tique.",
 
   "advancements.energizedpower.battery_box.title": "Caixa de Bateria",
   "advancements.energizedpower.battery_box.description": "Armazene energia com o bloco Caixa de Bateria.",
