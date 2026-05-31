@@ -1,0 +1,77 @@
+{
+  "itemGroup.energymeter": "Energy Meter",
+  
+  "block.energymeter.meter": "Medidor de Energia",
+  "container.energymeter.meter": "Medidor de Energia",
+
+  "label.energymeter.meter": "Medidor de Energia",
+  "label.energymeter.transfer_rate": "Taxa de Transferência",
+  "label.energymeter.number": "Número",
+  "label.energymeter.status": "Situação",
+  "label.energymeter.mode": "Modo",
+  "label.energymeter.accuracy": "Precisão",
+  "label.energymeter.interval": "I",
+  "label.energymeter.threshold": "L",
+
+  "tooltip.energymeter.side_config": "Configuração de Entrada e Saída",
+  "tooltip.energymeter.io_side": "Lado",
+  "tooltip.energymeter.io_mode": "Modo",
+  "tooltip.energymeter.current": "Atual",
+
+  "tooltip.energymeter.number": "Configuração do Número",
+  "tooltip.energymeter.number_desc_1": "Define se a formatação da taxa de transferência deve ser curta ou longa.",
+  "tooltip.energymeter.number_desc_2": "Somente afeta o número se ele for mais de 1,000 FE/t.",
+
+  "tooltip.energymeter.mode": "Configuração do Modo",
+  "tooltip.energymeter.mode_desc_1": "Define o modo do Medidor de Energia.",
+  "tooltip.energymeter.mode_desc_2": "Age como um cabo normal. Energia será distribuída igualmente e só será limitada pela entrada/saída.",
+  "tooltip.energymeter.mode_desc_3": "Age como uma lixeira. Energia que entra será eliminada. Isso pode ser usado para medir o máximo de energia que pode passar.",
+
+  "tooltip.energymeter.accuracy": "Configuração de Precisão",
+  "tooltip.energymeter.accuracy_desc_1": "Define a precisão do Medidor de Energia.",
+  "tooltip.energymeter.accuracy_desc_2": "Exibe a taxa média ao longo dos últimos 5 tiques. A cada período, ele irá  descartar valores anteriores e exibir apenas o período atual, levando a picos se a energia estiver fluindo inconsistentemente.",
+  "tooltip.energymeter.accuracy_desc_3": "Aceita um intervalo de tiques personalizado e calcula a média ao longo do período definido. Além disso, ele irá considerar a taxa do período anterior, suavizando picos e aumentando a precisão ao longo de múltiplos ciclos.", 
+
+  "tooltip.energymeter.interval": "Intervalo de Atualização",
+  "tooltip.energymeter.interval_desc_1": "Define o número de tiques (1s = 20 tiques) entre cada cálculo da taxa de transferência.",
+  "tooltip.energymeter.interval_desc_2": "Valores mais altos irão suavizar picos, mas resultarão em atualizações mais demoradas no medidor.",
+
+  "tooltip.energymeter.threshold": "Limiar Zero",
+  "tooltip.energymeter.threshold_desc_1": "Define o limite de redefinição em tiques (1s = 20 tiques). Se nenhuma energia for recebida durante esse período, a medida redefine para zero.",
+  "tooltip.energymeter.threshold_desc_2": "Valores mais altos detectarão perda de energia mais rápido. O valor não pode ser mais alto do que o intervalo, visto que isso não seria útil.",
+
+  "tooltip.energymeter.action_click": "Clique",
+  "tooltip.energymeter.action_hold": "Segure",
+  "tooltip.energymeter.action_1": "para trocar",
+  "tooltip.energymeter.action_2": "para redefinir",
+  "tooltip.energymeter.action_3": "para ligar/desligar",
+  "tooltip.energymeter.action_4": "para exibir mais informações",
+  "tooltip.energymeter.action_5": "para mudar o intervalo",
+  "tooltip.energymeter.action_6": "para aplicar o intervalo",
+  
+  "block_side.energymeter.bottom": "Inferior",
+  "block_side.energymeter.top": "Superior",
+  "block_side.energymeter.back": "Traseira",
+  "block_side.energymeter.front": "Frente",
+  "block_side.energymeter.left": "Esquerda",
+  "block_side.energymeter.right": "Direita",
+  
+  "io_setting.energymeter.off": "Desligado",
+  "io_setting.energymeter.in": "Entrada",
+  "io_setting.energymeter.out": "Saída",
+  "io_setting.energymeter.screen": "Tela",
+
+  "number.energymeter.long": "Longo",
+  "number.energymeter.short": "Curto",
+
+  "status.energymeter.disconnected": "Desconectado",
+  "status.energymeter.connected": "Conectado",
+  "status.energymeter.transferring": "Transferindo",
+  "status.energymeter.consuming": "Consumindo",
+
+  "mode.energymeter.transfer": "Transferência",
+  "mode.energymeter.consumer": "Consumidor",
+
+  "accuracy.energymeter.exact": "Exata",
+  "accuracy.energymeter.interval": "Intervalo"
+}
