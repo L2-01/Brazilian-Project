@@ -1,10 +1,10 @@
 {
 
-  "creativetab.winter": "MerryMaking Festividades de Inverno",
+  "itemGroup.maidens_winter_group": "MerryMaking Festividades de Inverno",
 
-  "creativetab.spring": "MerryMaking Festividades de Primavera",
+  "itemGroup.maidens_spring_group": "MerryMaking Festividades de Primavera",
 
-  "creativetab.fall": "MerryMaking Festividades de Outono",
+  "itemGroup.maidens_halloween_group": "MerryMaking Festividades de Outono",
 
 
   "entity.maidensmerrymaking.costumed_zombie": "Zumbi de Fantasia",
@@ -17,7 +17,21 @@
   "entity.maidensmerrymaking.costumed_spider": "Aranha de Fantasia",
   "entity.maidensmerrymaking.costumed_zombie_villager": "Aldeão Zumbi de Fantasia",
 
-  "entity.maidensmerrymaking.pastel_rabbit": "Coelho Pálido",
+  "entity.maidensmerrymaking.pink_bunny": "Coelho Rosa",
+  "entity.maidensmerrymaking.pink_bunny_small": "Coelho Rosa Pequeno",
+  "entity.maidensmerrymaking.pink_bunny_large": "Coelho Rosa Grande",
+  "entity.maidensmerrymaking.yellow_bunny": "Coelho Amarelo",
+  "entity.maidensmerrymaking.yellow_bunny_small": "Coelho Amarelo Pequeno",
+  "entity.maidensmerrymaking.yellow_bunny_large": "Coelho Amarelo Grande",
+  "entity.maidensmerrymaking.cyan_bunny": "Coelho Ciano",
+  "entity.maidensmerrymaking.cyan_bunny_small": "Coelho Ciano Pequeno",
+  "entity.maidensmerrymaking.cyan_bunny_large": "Coelho Ciano Grande",
+  "entity.maidensmerrymaking.blue_bunny": "Coelho Azul",
+  "entity.maidensmerrymaking.blue_bunny_small": "Coelho Azul Pequeno",
+  "entity.maidensmerrymaking.blue_bunny_large": "Coelho Azul Grande",
+  "entity.maidensmerrymaking.purple_bunny": "Coelho Roxo",
+  "entity.maidensmerrymaking.purple_bunny_small": "Coelho Roxo Pequeno",
+  "entity.maidensmerrymaking.purple_bunny_large": "Coelho Roxo Grande",
 
 
   "entity.maidensmerrymaking.colored_chicken": "Galinha Amarela",
@@ -29,8 +43,6 @@
   "tooltip.maidensmerrymaking.easter_card": "\u00A77Um cartão de Páscoa antigo e empoeirado há muito esquecido em um baú em algum lugar.\u00A77",
  
   
-  "item.maidensmerrymaking.iron_upgrade_smithing_template": "Molde de Ferraria",
-  "item.maidensmerrymaking.diamond_upgrade_smithing_template": "Molde de Ferraria",
   "item.maidensmerrymaking.bunny_hood": "Capuz de Coelho da Páscoa",
   "item.maidensmerrymaking.bunny_costume": "Peitoral de Coelho da Páscoa",
   "item.maidensmerrymaking.bunny_pants": "Calças de Coelho da Páscoa",
@@ -136,7 +148,11 @@
   "item.maidensmerrymaking.blue_egg": "Ovo Azul",
   "item.maidensmerrymaking.purple_egg": "Ovo Roxo",
   "item.maidensmerrymaking.yellow_egg": "Ovo Amarelo",
-  "item.maidensmerrymaking.pastel_rabbit_spawn_egg": "Ovo Gerador de Coelho Pálido",
+  "item.maidensmerrymaking.purple_bunny_spawn_egg": "Ovo Gerador de Coelho Roxo",
+  "item.maidensmerrymaking.pink_bunny_spawn_egg": "Ovo Gerador de Coelho Rosa",
+  "item.maidensmerrymaking.blue_bunny_spawn_egg": "Ovo Gerador de Coelho Azul",
+  "item.maidensmerrymaking.yellow_bunny_spawn_egg": "Ovo Gerador de Coelho Amarelo",
+  "item.maidensmerrymaking.cyan_bunny_spawn_egg": "Ovo Gerador de Coelho Ciano",
 
 "item.maidensmerrymaking.colored_chicken_spawn_egg": "Ovo Gerador de Galinha Amarela",
 
@@ -237,7 +253,6 @@
 "item.maidensmerrymaking.tree_garland": "Festão de Bagas Doces",
 
 "item.maidensmerrymaking.christmas_tree": "Árvore de Natal",
-"item.maidensmerrymaking.white_christmas_tree": "Árvore de Natal Branca",
 "item.maidensmerrymaking.christmas_tree_white_lights": "Árvore de Natal com Luzes Brancas",
 "item.maidensmerrymaking.christmas_tree_multi_lights": "Árvore de Natal com Luzes Coloridas",
 "item.maidensmerrymaking.roof_tiles": "Ladrilhos de Telhado",
@@ -271,8 +286,6 @@
 "item.maidensmerrymaking.bottle_of_mint": "Frasco de Hortelã",
 "item.maidensmerrymaking.ginger_tuber": "Gengibre",
 "item.maidensmerrymaking.mint_leaf": "Folha de Hortelã",
-"item.maidensmerrymaking.ham": "Presunto Cru",
-"item.maidensmerrymaking.cooked_ham": "Presunto Cozido",
 
 "item.maidensmerrymaking.christmas_music_disc_2": "Música Festiva",
 "item.maidensmerrymaking.christmas_music_disc_2.desc": "Mix de Músicas Festivas (Vários Artistas)",
@@ -452,7 +465,6 @@
 "block.maidensmerrymaking.aged_pine_trapdoor": "Alçapão de Pinheiro Envelhecido",
 
 "block.maidensmerrymaking.stuffed_poultry_dinner": "Ceia de Ave Recheada",
-"block.maidensmerrymaking.han_dinner": "Ceia de Presento Festivo",
 
 
 "block.maidensmerrymaking.blue_multi_dots_easter_egg_block": "Ovo de Páscoa Azul com Pontilhados",
@@ -674,7 +686,6 @@
 	"block.maidensmerrymaking.mantel_normal_crimson": "Prateleira de Lareira Carmesim",
 	
 	"block.maidensmerrymaking.mantel_normal_mangrove": "Prateleira de Lareira de Mangue",
-	"block.maidensmerrymaking.mantel_normal_cherry": "Prateleira de Lareira de Cerejeira",
 
 	"block.maidensmerrymaking.mantel_normal_pine": "Prateleira de Lareira de Pinheiro",
 	"block.maidensmerrymaking.mantel_normal_exposed_pine": "Prateleira de Lareira de Pinheiro Exposta",
@@ -685,12 +696,10 @@
 	"block.maidensmerrymaking.roof_crimson_stairs": "Escadas de Telhado Carmesim",
 	
 	"block.maidensmerrymaking.roof_mangrove_stairs": "Escadas de Telhado de Mangue",
-	"block.maidensmerrymaking.roof_cherry_stairs": "Escadas de Telhado de Cerejeira",
 	
 	"block.maidensmerrymaking.snowy_warped_stairs": "Escadas Nevadas Distorcidas",
 	"block.maidensmerrymaking.snowy_crimson_stairs": "Escadas Nevadas Carmesim",
 	"block.maidensmerrymaking.snowy_mangrove_stairs": "Escadas Nevadas de Mangue",
-	"block.maidensmerrymaking.snowy_cherry_stairs": "Escadas Nevadas de Cerejeira",
 	"block.maidensmerrymaking.blackstone_garland_wall": "Muro de Pedra-Negra com Festão",
 	"block.maidensmerrymaking.blackstone_garland_lights_wall": "Muro de Pedra-Negra com Festão Iluminado",
 	"block.maidensmerrymaking.blackstone_garland_multi_wall": "Muro de Pedra-Negra com Festão Colorido Iluminado",
@@ -738,7 +747,6 @@
 "block.maidensmerrymaking.dark_oak_wreath_door": "Porta de Carvalho Escuro com Festão",
 "block.maidensmerrymaking.spruce_wreath_door": "Porta de Abeto com Festão",
 "block.maidensmerrymaking.jungle_wreath_door": "Porta da Selva com Festão",
-"block.maidensmerrymaking.cherry_wreath_door": "Porta de Cerejeira com Festão",
 
 "block.maidensmerrymaking.acacia_lit_wreath_door": "Porta de Acácia com Festão Iluminado",
 "block.maidensmerrymaking.birch_lit_wreath_door": "Porta de Bétula com Festão Iluminado",
@@ -746,7 +754,6 @@
 "block.maidensmerrymaking.dark_oak_lit_wreath_door": "Porta de Carvalho Escuro com Festão Iluminado",
 "block.maidensmerrymaking.spruce_lit_wreath_door": "Porta de Abeto com Festão Iluminado",
 "block.maidensmerrymaking.jungle_lit_wreath_door": "Porta de da Selva com Festão Iluminado",
-"block.maidensmerrymaking.cherry_lit_wreath_door": "Porta de Cerejeira com Festão Iluminado",
 
 "block.maidensmerrymaking.acacia_lit_wreath_multi_door": "Porta de Acácia com Festão Colorido Iluminado",
 "block.maidensmerrymaking.birch_lit_wreath_multi_door": "Porta de Bétula com Festão Colorido Iluminado",
@@ -754,7 +761,6 @@
 "block.maidensmerrymaking.dark_oak_lit_wreath_multi_door": "Porta de Carvalho Escuro com Festão Colorido Iluminado",
 "block.maidensmerrymaking.spruce_lit_wreath_multi_door": "Porta de Abeto com Festão Colorido Iluminado",
 "block.maidensmerrymaking.jungle_lit_wreath_multi_door": "Porta da Selva com Festão Colorido Iluminado",
-"block.maidensmerrymaking.cherry_lit_wreath_multi_door": "Porta de Cerejeira com Festão Colorido Iluminado",
 
 "block.maidensmerrymaking.fireplace_logs": "Lenha de Lareira",
 "block.maidensmerrymaking.fireplace_logs_on": "Lenha de Lareira Queimando",
@@ -767,7 +773,7 @@
 "block.maidensmerrymaking.mantel_normal_dark_oak": "Prateleira de Lareira de Carvalho Escuro",
 "block.maidensmerrymaking.mantel_normal_jungle": "Prateleira de Lareira da Selva",
 
-"block.maidensmerrymaking.lamp_post_bottom": "Poste de Luz",
+"block.maidensmerrymaking.lamp_post": "Poste de Luz",
 "block.maidensmerrymaking.lamp_post_on": "Poste de Luz (Ligado)",
 
 "block.maidensmerrymaking.garland_horizontal": "Festão (Horizontal)",
@@ -836,7 +842,6 @@
 "block.maidensmerrymaking.polished_blackstone_brick_roof_slab": "Laje de Telhado de Tijolos de Pedra-Negra Polida",
 "block.maidensmerrymaking.deepslate_brick_roof_slab": "Laje de Telhado de Tijolos de Ardosiabissal",
 "block.maidensmerrymaking.stone_brick_roof_slab": "Laje de Telhado de Tijolos de Pedra",
-"block.maidensmerrymaking.cherry_roof_slab": "Laje de Telhado de Cerejeira",
 
 "block.maidensmerrymaking.acacia_snowy_slab": "Laje Nevada de Acácia",
 "block.maidensmerrymaking.birch_snowy_slab": "Laje Nevada de Bétula",
@@ -849,7 +854,6 @@
 "block.maidensmerrymaking.crimson_roof_slab": "Laje de Telhado Nevada Carmesim",
 "block.maidensmerrymaking.mangrove_snowy_slab": "Laje Nevada de Mangue",
 "block.maidensmerrymaking.warped_roof_slab": "Laje de Telhado Distorcida",
-"block.maidensmerrymaking.cherry_snowy_slab": "Laje Nevada de Cerejeira",
 
 "block.maidensmerrymaking.polished_blackstone_brick_snowy_slab": "Laje Nevada de Tijolos de Pedra-Negra Polida",
 "block.maidensmerrymaking.deepslate_brick_snowy_slab": "Laje Nevada de Tijolos de Ardosiabissal",
@@ -862,7 +866,6 @@
 "block.maidensmerrymaking.spruce_picket_fence": "Cerca de Estacas de Abeto",
 "block.maidensmerrymaking.oak_picket_fence": "Cerca de Estacas de Carvalho",
 "block.maidensmerrymaking.mangrove_picket_fence": "Cerca de Estacas de Mangue",
-"block.maidensmerrymaking.cherry_picket_fence": "Cerca de Estacas de Cerejeira",
 
 "block.maidensmerrymaking.pine_picket_fence": "Cerca de Estacas de Pinheiro",
 "block.maidensmerrymaking.exposed_pine_picket_fence": "Cerca de Estacas de Pinheiro Exposta",
@@ -876,7 +879,6 @@
 "block.maidensmerrymaking.oak_wreath_fence": "Cerca de Carvalho com Festão",
 "block.maidensmerrymaking.spruce_wreath_fence": "Cerca de Abeto com Festão",
 "block.maidensmerrymaking.mangrove_wreath_fence": "Cerca de Mangue com Festão",
-"block.maidensmerrymaking.cherry_wreath_fence": "Cerca de Cerejeira com Festão",
 
 "block.maidensmerrymaking.pine_wreath_fence": "Cerca de Pinheiro com Festão",
 "block.maidensmerrymaking.exposed_pine_wreath_fence": "Cerca de Pinheiro Exposta com Festão",
@@ -890,7 +892,6 @@
 "block.maidensmerrymaking.oak_wreath_lights_fence": "Cerca de Carvalho com Festão Iluminado",
 "block.maidensmerrymaking.spruce_wreath_lights_fence": "Cerca de Abeto com Festão Iluminado",
 "block.maidensmerrymaking.mangrove_wreath_lights_fence": "Cerca de Mangue com Festão Iluminado",
-"block.maidensmerrymaking.cherry_wreath_lights_fence": "Cerca de Cerejeira com Festão Iluminado",
 
 "block.maidensmerrymaking.pine_wreath_lights_fence": "Cerca de Pinheiro com Festão Iluminado",
 "block.maidensmerrymaking.exposed_pine_wreath_lights_fence": "Cerca de Pinheiro Exposta com Festão Iluminado",
@@ -904,7 +905,6 @@
 "block.maidensmerrymaking.spruce_picket_fence_gate": "Portão de Estacas de Abeto",
 "block.maidensmerrymaking.oak_picket_fence_gate": "Portão de Estacas de Carvalho",
 "block.maidensmerrymaking.mangrove_picket_fence_gate": "Portão de Estacas de Mangue",
-"block.maidensmerrymaking.cherry_picket_fence_gate": "Portão de de Estacas de Cerejeira",
 
 "block.maidensmerrymaking.pine_picket_fence_gate": "Portão de Estacas de Pinheiro",
 "block.maidensmerrymaking.exposed_pine_picket_fence_gate": "Portão de Estacas de Pinheiro Exposto",
@@ -918,7 +918,6 @@
 "block.maidensmerrymaking.oak_wreath_multi_fence": "Cerca de Carvalho com Festão Colorido Iluminado",
 "block.maidensmerrymaking.spruce_wreath_multi_fence": "Cerca de Abeto com Festão Colorido Iluminado",
 "block.maidensmerrymaking.mangrove_wreath_multi_fence": "Cerca de Mangue com Festão Colorido Iluminado",
-"block.maidensmerrymaking.cherry_wreath_multi_fence": "Cerca de Cerejeira com Festão Colorido Iluminado",
 
 "block.maidensmerrymaking.pine_wreath_multi_fence": "Cerca de Pinheiro com Festão Colorido Iluminado",
 "block.maidensmerrymaking.exposed_pine_wreath_multi_fence": "Cerca de Pinheiro Exposta com Festão Colorido Iluminado",
@@ -933,7 +932,6 @@
 "block.maidensmerrymaking.spruce_wreath_fence_gate": "Portão de Abeto com Festão",
 
 "block.maidensmerrymaking.mangrove_wreath_fence_gate": "Portão de Mangue com Festão",
-"block.maidensmerrymaking.cherry_wreath_fence_gate": "Portão de Cerejeira com Festão",
 
 "block.maidensmerrymaking.acacia_wreath_lights_fence_gate": "Portão de Acácia com Festão Iluminada",
 "block.maidensmerrymaking.birch_wreath_lights_fence_gate": "Portão de Bétula com Festão Iluminada",
@@ -942,7 +940,6 @@
 "block.maidensmerrymaking.oak_wreath_lights_fence_gate": "Portão de Carvalho com Festão Iluminada",
 "block.maidensmerrymaking.spruce_wreath_lights_fence_gate": "Portão de Abeto com Festão Iluminada",
 "block.maidensmerrymaking.mangrove_wreath_lights_fence_gate": "Portão de Mangue com Festão Iluminada",
-"block.maidensmerrymaking.cherry_wreath_lights_fence_gate": "Portão de Cerejeira com Festão Iluminada",
 
 "block.maidensmerrymaking.acacia_wreath_multi_fence_gate": "Portão de Acácia com Festão Colorida Iluminada",
 "block.maidensmerrymaking.birch_wreath_multi_fence_gate": "Portão de Bétula com Festão Colorida Iluminada",
@@ -951,7 +948,6 @@
 "block.maidensmerrymaking.oak_wreath_multi_fence_gate": "Portão de Carvalho com Festão Colorida Iluminada",
 "block.maidensmerrymaking.spruce_wreath_multi_fence_gate": "Portão de Abeto com Festão Colorida Iluminada",
 "block.maidensmerrymaking.mangrove_wreath_multi_fence_gate": "Portão de Mangue com Festão Colorida Iluminada",
-"block.maidensmerrymaking.cherry_wreath_multi_fence_gate": "Portão de Cerejeira com Festão Colorida Iluminada",
 
 "block.maidensmerrymaking.cobblestone_garland_wall": "Muro de Pedregulho com Festão",
 "block.maidensmerrymaking.brick_garland_wall": "Muro de Tijolos com Festão",
