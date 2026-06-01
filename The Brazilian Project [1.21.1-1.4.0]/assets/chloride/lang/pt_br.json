@@ -9,6 +9,9 @@
   "chloride.general.screen.borderless": "Sem Bordas",
   "chloride.general.screen.windowed": "Janela",
 
+  "chloride.general.screen.borderless.optimization": "Desabilitar otimização Sem Borda",
+  "chloride.general.screen.borderless.optimization.desc": "Força a desabilitar as otimizações do modo Sem Borda do driver\n\nIsso conserta o jogo piscar preto ao sair (perceptível tendo múltiplos monitores) mas  você pode sentir uma queda brusca no fps desabilitando elas",
+
   "chloride.interface": "Interface",
   "chloride.interface.fps.title": "Mostrar FPS",
   "chloride.interface.fps.desc": "Mostra o overlay de FPS. O modo avançado mostra o FPS mínimo, bem como a média de FPS de 30 segundos, útil para julgar o desempenho.",
@@ -93,6 +96,8 @@
   "chloride.world.clouds.height.desc": "Manda as nuvens pras alturas.\nConfigure a altura das nuvens, não tem efeito para ghasts felizes",
   "chloride.world.leaves_culling.title": "Otimização de Folhas",
   "chloride.world.leaves_culling.desc": "Reduz o número de faces visíveis de folhas do mesmo tipo, controla a profundidade da otimização",
+  "chloride.entities.culling.limit.title": "Limite de Entidades",
+  "chloride.entities.culling.limit.desc": "Define o limite de renderização de entidades (as entidades são organizadas com base na sua distância)",
   "chloride.world.leaves_culling.all": "TUDO",
   "chloride.world.leaves_culling.lot": "Muito",
   "chloride.world.leaves_culling.half": "Metade",
@@ -153,7 +158,7 @@
   "chloride.entities.nametag.items.title": "Nome sobre Molduras",
   "chloride.entities.nametag.items.desc": "Desativar isso impede a renderização de nomes para Itens, incluindo itens dentro de molduras",
 
-  "chloride.entities.culling.vseureka.warning": "VSEureka detectado, a distância vertical (bruta) é ignorada e usa a distância horizontal (ao quadrado)",
+  "chloride.entities.culling.vseureka.warning": "VSEureka/Sable detectado, a distância vertical (bruta) é ignorada e usa a distância horizontal (ao quadrado)",
   "chloride.entities.culling.title": "Distância Máxima de Entidade",
   "chloride.entities.culling.desc": "Se ativado, as Entidades serão escondidas com base no limite de distância configurado",
   "chloride.entities.culling.distance.horizontal.title": "Distância Máxima de Entidades (Horizontal)",
