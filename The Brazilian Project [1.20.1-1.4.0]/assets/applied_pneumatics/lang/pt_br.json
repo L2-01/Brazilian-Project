@@ -43,10 +43,10 @@
 
   "block.appliedpneumatics.me_pressure_interface_block": "Interface de Pressão ME",
   "block.appliedpneumatics.me_amadron_process_station": "Estação de Processamento Amadron",
-  "block.appliedpneumatics.me_amadron_extended_process_station": "A.P.S. Estendida",
+  "block.appliedpneumatics.me_amadron_extended_process_station": "E.P.A. Estendida",
   "block.appliedpneumatics.me_temperature_interface": "Interface de Temperatura ME",
 
-  "menu.title.appliedpneumatics.amadron_wireless_terminal": "A.W.T.",
+  "menu.title.appliedpneumatics.amadron_wireless_terminal": "T.W.A.",
   "menu.label.appliedpneumatics.me_pressure_interface.air_amount": "Volume: %s\\%sL %sbar",
   "menu.label.appliedpneumatics.me_pressure_interface.max_pressure": "Pressão de Perigo: %s bar",
   "menu.label.appliedpneumatics.me_pressure_interface.expected_pressure_text": "Pressão Alvo",
@@ -59,7 +59,7 @@
 
   "menu.appliedpneumatics.button.submit": "Fazer Pedido",
   "menu.appliedpneumatics.button.cancel_jobs": "Cancelar",
-  "menu.appliedpneumatics.button.cancel_jobs.tooltip": "Esta will:\n1. cancelará todos os pedidos, sejam feitos via terminal ou por fabricação automática.\n2. Devolverá todos os recursos do pedido para a rede ME, ou os derrubará como itens.\n3. Recursos já nos espaços de entrada não serão devolvidos automaticamente.\n4. Se feitos por fabricação automática, isso não cancelará as tarefas de fabricação.",
+  "menu.appliedpneumatics.button.cancel_jobs.tooltip": "Isso vai:\n1. cancelar todos os pedidos, sejam feitos via terminal ou por fabricação automática.\n2. Devolver todos os recursos do pedido para a rede ME, ou os derrubar como itens.\n3. Recursos já nos espaços de entrada não serão devolvidos automaticamente.\n4. Se feitos por fabricação automática, isso não cancelará as tarefas de fabricação.",
 
   "tooltip.appliedpneumatics.item.amadron.unlink": "Não conectado a uma Estação de Processamento Amadron",
   "tooltip.appliedpneumatics.item.amadron.linked": "Conectado a %s [%s, %s, %s]",
