@@ -26,7 +26,7 @@
 	"ftbteams.cant_kick_owner": "Não é possível expulsar o líder!",
 	"ftbteams.party_api_only": "Neste modpack, você não pode criar grupos diretamente!",
 	"ftbteams.api_override": "Neste modpack, você só pode criar grupos pelo botão 'Minha Equipe' no inventário!",
-	"ftbteams.missing_data": "Os dados da equipe não foram recebidos do servidor!\nO FTB Teams não funcionará corretamente.\nVerifique o log do servidor e certifique-se de que ele esteja no modo online.",
+	"ftbteams.missing_data": "Os dados da equipe não foram recebidos do servidor!\nO FTB Teams não funcionará corretamente.\nVerifique o registro do servidor e certifique-se de que ele esteja no modo on-line.",
 	"sidebar_button.ftbteams.my_team": "Minha Equipe",
 	"ftbteamsconfig": "Propriedades da Equipe",
 	"ftbteamsconfig.ftbteams": "Propriedades Básicas da Equipe",
@@ -75,7 +75,7 @@
 	"ftbteams.team_type.party": "Equipe de Grupo",
 	"ftbteams.team_type.server": "Equipe de Servidor",
 	"key.ftbteams.open_gui": "Abrir Interface de Equipes",
-	"key.category.ftbteams.ftbteams_key": "FTB Teams",
+	"key.categories.ftbteams": "FTB Teams",
 	"ftbteams.message.invited": "Convite para %s",
 	"ftbteams.message.invite_sent": "%s convidou você para entrar no grupo!",
 	"ftbteams.message.joined": "%s entrou no seu grupo!",
@@ -105,6 +105,5 @@
 	"ftbteams.message.property_not_editable": "Não é possível editar a propriedade %s!",
 	"ftbteams.accept": "Aceitar ✔",
 	"ftbteams.decline": "Recusar ✘",
-	"ftbteams.click_show_info": "Clique para ver as informações da equipe",
-	"ftbteams.party_creation_failed": "Ocorreu um erro ao criar o grupo! %s"
+	"ftbteams.click_show_info": "Clique para ver as informações da equipe"
 }
