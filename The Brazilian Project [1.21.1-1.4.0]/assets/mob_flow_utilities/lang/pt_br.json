@@ -1,0 +1,174 @@
+{
+  "creativetab.mobflowutilities": "Mob Flow Utilities",
+
+  "block.mobflowutilities.flow_pad_fast": "Plataforma de Transporte Rápida",
+  "block.mobflowutilities.flow_pad_faster": "Plataforma de Transporte Mais Rápida",
+  "block.mobflowutilities.flow_pad_fastest": "Plataforma de Transporte Muito Rápida",
+  "block.mobflowutilities.damage_pad": "Plataforma de Dano",
+
+  "block.mobflowutilities.collector": "Coletor",
+  "block.mobflowutilities.controller": "Controlador",
+  "block.mobflowutilities.fan": "Ventilador",
+  "block.mobflowutilities.fan.subtitle_line1": "Empurra criaturas na direção para a qual está voltado",
+  "block.mobflowutilities.fan.subtitle_line2": "Pode ser melhorado com melhorias de ventilador",
+
+  "block.mobflowutilities.genesis_chamber": "Câmara de Gênese",
+  "block.mobflowutilities.genesis_chamber.subtitle": "Gera criaturas em uma área de 5x5 ao redor. Requer combustível para funcionar",
+
+  "block.mobflowutilities.dark_dirt": "Terra Sombria",
+  "block.mobflowutilities.dark_dirt.subtitle": "Gera criaturas hostis em taxas aceleradas",
+  "block.mobflowutilities.glimmer_grass": "Grama Cintilante",
+  "block.mobflowutilities.glimmer_grass.subtitle": "Gera criaturas passivas em taxas aceleradas",
+  "block.mobflowutilities.dark_glass": "Vidro Sombrio",
+  "block.mobflowutilities.dark_glass.subtitle": "Bloqueia a luz. Imune ao Wither",
+  "block.mobflowutilities.glimmer_lamp": "Lâmpada Cintilante",
+  "block.mobflowutilities.glimmer_lamp.subtitle": "Emite luz quando energizado com Redstone",
+
+  "item.mobflowutilities.bane_of_arthropods_module": "Módulo de Ruína dos Artrópodes",
+  "item.mobflowutilities.bane_of_arthropods_module.subtitle": "Causa mais dano a aranhas, traças e outros artrópodes",
+  "item.mobflowutilities.fire_aspect_module": "Módulo de Aspecto Flamejante",
+  "item.mobflowutilities.fire_aspect_module.subtitle": "Incendeia alvos, causando dano por fogo ao longo do tempo",
+  "item.mobflowutilities.sharpness_module": "Módulo de Afiação",
+  "item.mobflowutilities.sharpness_module.subtitle": "Aumenta o dano corpo a corpo base contra todos os inimigos",
+  "item.mobflowutilities.smite_module": "Módulo de Julgamento",
+  "item.mobflowutilities.smite_module.subtitle": "Aumenta o dano contra mortos-vivos, como zumbis e esqueletos",
+  "item.mobflowutilities.looting_module": "Módulo de Saque",
+  "item.mobflowutilities.looting_module.subtitle": "Melhora a quantidade de itens largados e a chance de itens raros de criaturas",
+
+  "item.mobflowutilities.radius_increase_module": "Módulo de Aumento de Raio",
+  "item.mobflowutilities.radius_increase_module.subtitle": "Aumenta o alcance de coleta de Coletores e o raio de geração da Câmara de Gênese",
+  "item.mobflowutilities.void_filter_module": "Módulo de Filtro do Vazio",
+  "item.mobflowutilities.void_filter_module.subtitle": "Destrói itens filtrados recolhidos por Coletores",
+  "item.mobflowutilities.speed_module": "Módulo de Velocidade",
+  "item.mobflowutilities.speed_module.subtitle": "Aumenta as taxas de geração da Câmara de Gênese",
+
+  "item.mobflowutilities.fan_width_increase_module": "Módulo de Aumento de Largura do Ventilador",
+  "item.mobflowutilities.fan_width_increase_module.subtitle": "Aumenta a largura de sopro efetiva do ventilador",
+  "item.mobflowutilities.fan_height_increase_module": "Módulo de Aumento de Altura do Ventilador",
+  "item.mobflowutilities.fan_height_increase_module.subtitle": "Aumenta a altura de sopro efetiva do ventilador",
+  "item.mobflowutilities.fan_distance_increase_module": "Módulo de Aumento de Distância do Ventilador",
+  "item.mobflowutilities.fan_distance_increase_module.subtitle": "Aumenta a distância de sopro efetiva do ventilador",
+
+  "item.mobflowutilities.pad_wrench": "Chave de Plataforma",
+  "item.mobflowutilities.pad_wrench.subtitle": "Usada para conectar Plataformas de Dano a Controladores",
+
+  "item.mobflowutilities.mob_catcher": "Capturador de Criaturas",
+
+  "item.mobflowutilities.gloom_spore": "Esporo Melancólico",
+  "item.mobflowutilities.gloom_spore.subtitle": "Converte blocos semelhantes a terra em Terra Sombria. Item raro largado por criaturas hostis e encontrado em baús",
+
+  "item.mobflowutilities.glimmer_sprout": "Broto Cintilante",
+  "item.mobflowutilities.glimmer_sprout.subtitle": "Converte blocos semelhantes a terra em Grama Cintilante. Item raro largado por criaturas passivas e encontrado em baús",
+
+  "item.mobflowutilities.life_catalyst": "Catalisador da Vida",
+  "item.mobflowutilities.life_catalyst.subtitle": "Componente de fabricação para ovos geradores. Obtido ao derrotar chefes",
+
+  "item.mobflowutilities.empty_gene_vial": "Frasco de Gene do Vazio",
+
+  "item.mobflowutilities.gene_sample_vial": "Frasco de Amostra de Gene",
+
+  "menu.mobflowutilities.collector": "Coletor",
+  "menu.mobflowutilities.controller": "Controlador",
+
+  "gui.mobflowutilities.collector": "Coletor",
+  "gui.mobflowutilities.controller": "Controlador",
+  "gui.mobflowutilities.genesis_chamber": "Câmara de Gênese",
+  "gui.mobflowutilities.controller.remove": "Remover",
+  "gui.mobflowutilities.collector.xp_input_levels": "níveis",
+  "gui.mobflowutilities.void_filter": "Filtro do Vazio",
+
+  "gui.mobflowutilities.collector.offset.down_up": "Ajuste B/C",
+  "gui.mobflowutilities.collector.offset.north_south": "Ajuste N/S",
+  "gui.mobflowutilities.collector.offset.east_west": "Ajuste L/O",
+  "gui.mobflowutilities.collector.xp_levels_stored": "Níveis armazenados: %,d",
+
+  "tooltip.mobflowutilities.controller.remove_pad": "Remover plataformas selecionadas",
+  "tooltip.mobflowutilities.controller.pad_coordinates": "Plataforma de Dano em %d, %d, %d",
+  "tooltip.mobflowutilities.controller.scrollbar": "Exibindo plataformas %d-%d",
+
+  "tooltip.mobflowutilities.collector.xp_input_levels": "Insira o número de níveis para retirar ou depositar",
+
+  "tooltip.mobflowutilities.collector.offset.down_up.decrease": "Diminuir raio de coleta Baixo/Cima",
+  "tooltip.mobflowutilities.collector.offset.down_up.increase": "Aumentar raio de coleta Baixo/Cima",
+  "tooltip.mobflowutilities.collector.offset.down_up.value": "Ajuste Baixo/Cima: %s",
+  "tooltip.mobflowutilities.collector.offset.north_south.decrease": "Diminuir raio de coleta Norte/Sul",
+  "tooltip.mobflowutilities.collector.offset.north_south.increase": "Aumentar raio de coleta Norte/Sul",
+  "tooltip.mobflowutilities.collector.offset.north_south.value": "Ajuste Norte/Sul: %s",
+  "tooltip.mobflowutilities.collector.offset.east_west.decrease": "Diminuir raio de coleta Leste/Oeste",
+  "tooltip.mobflowutilities.collector.offset.east_west.increase": "Aumentar raio de coleta Leste/Oeste",
+  "tooltip.mobflowutilities.collector.offset.east_west.value": "Ajuste Leste/Oeste: %s",
+  "tooltip.mobflowutilities.collector.offset.reset_all": "Restaurar ajustes",
+
+  "tooltip.mobflowutilities.collector.wireframe_toggle": "Mostrar/Ocultar raio de coleta",
+  "tooltip.mobflowutilities.genesis_chamber.wireframe_toggle": "Mostrar/Ocultar raio de geração",
+  "tooltip.mobflowutilities.genesis_chamber.redstone_required": "Desativar controle de Redstone",
+  "tooltip.mobflowutilities.genesis_chamber.no_redstone_required": "Ativar controle de Redstone",
+
+  "tooltip.mobflowutilities.collector.xp.withdraw": "Retirar níveis do Coletor",
+  "tooltip.mobflowutilities.collector.xp.deposit": "Depositar níveis no Coletor",
+  "tooltip.mobflowutilities.collector.xp.withdraw_all": "Retirar toda a experiência armazenada do Coletor",
+  "tooltip.mobflowutilities.collector.xp.deposit_all": "Depositar toda a sua experiência no Coletor",
+  "tooltip.mobflowutilities.collector.xp_collection.enabled": "Desativar coleta de experiência",
+  "tooltip.mobflowutilities.collector.xp_collection.disabled": "Ativar coleta de experiência",
+  "tooltip.mobflowutilities.collector.xp_display": "EXP: %s",
+
+  "tooltip.mobflowutilities.collector.edit_filter": "Editar filtro",
+
+  "item.mobflowutilities.pad_wrench.mode.add": "Adicionar modo",
+  "item.mobflowutilities.pad_wrench.mode.remove": "Remover modo",
+  "item.mobflowutilities.pad_wrench.selection.single": "Seleção única",
+  "item.mobflowutilities.pad_wrench.selection.multi": "Seleção múltipla",
+  "item.mobflowutilities.pad_wrench.controller.selected": "Controlador selecionado em %d, %d, %d",
+  "item.mobflowutilities.pad_wrench.error.no_controller": "Nenhum controlador selecionado! Clique com o botão direito em um controlador primeiro.",
+  "item.mobflowutilities.pad_wrench.pad.linked": "Plataforma de Ataque conectada ao controlador",
+  "item.mobflowutilities.pad_wrench.pad.unlinked": "Plataforma de Ataque desconectada do controlador",
+  "item.mobflowutilities.pad_wrench.multi.start": "Iniciou seleção múltipla em %d, %d, %d",
+  "item.mobflowutilities.pad_wrench.multi.linked": "Conectou %d plataformas de ataque",
+  "item.mobflowutilities.pad_wrench.multi.unlinked": "Desconectou %d plataformas de ataque",
+  "item.mobflowutilities.pad_wrench.controller.cleared": "Controlador removido - Chave de Plataforma limpa",
+
+  "item.mobflowutilities.pad_wrench.tooltip.operation.add": "Operação: Adicionar",
+  "item.mobflowutilities.pad_wrench.tooltip.operation.remove": "Operação: Remover",
+  "item.mobflowutilities.pad_wrench.tooltip.selection.single": "Modo de seleção: Único",
+  "item.mobflowutilities.pad_wrench.tooltip.selection.multi": "Modo de seleção: Múltiplo",
+  "item.mobflowutilities.pad_wrench.tooltip.controller.selected": "Controlador: %d, %d, %d",
+  "item.mobflowutilities.pad_wrench.tooltip.controller.none": "Nenhum controlador selecionado",
+  "item.mobflowutilities.pad_wrench.tooltip.multi.active": "Início múltiplo: %d, %d, %d",
+  "item.mobflowutilities.pad_wrench.tooltip.usage.selection": "Botão direito: Alternar modo de seleção",
+  "item.mobflowutilities.pad_wrench.tooltip.usage.operation": "Shift + botão direito: Alternar modo de operação",
+  "item.mobflowutilities.pad_wrench.tooltip.usage.controller": "Usar no controlador: Selecionar alvo",
+  "item.mobflowutilities.pad_wrench.tooltip.usage.pad": "Usar na plataforma: Conectar/Desconectar",
+
+  "fakeplayer.mobflowutilities.damage_pad": "Plataforma de Dano do Mob Flow Utilities",
+
+  "item.mobflowutilities.mob_catcher.already_occupied": "O capturador de criaturas já contém uma criatura!",
+  "item.mobflowutilities.mob_catcher.boss_immunity": "Chefes não podem ser capturados!",
+  "item.mobflowutilities.mob_catcher.player_immunity": "Jogadores não podem ser capturados!",
+  "item.mobflowutilities.mob_catcher.captured": "Captura: %s",
+  "item.mobflowutilities.mob_catcher.empty": "O capturador de criaturas está vazio!",
+  "item.mobflowutilities.mob_catcher.invalid_surface": "Não é possível soltar a criatura aqui - o bloco deve ser sólido!",
+  "item.mobflowutilities.mob_catcher.no_space": "Espaço insuficiente para soltar a criatura!",
+  "item.mobflowutilities.mob_catcher.released": "Criatura solta!",
+  "item.mobflowutilities.mob_catcher.capture_failed": "Falha ao capturar criatura!",
+  "item.mobflowutilities.mob_catcher.release_failed": "Falha ao soltar criatura!",
+  "item.mobflowutilities.mob_catcher.contains": "Contém: %s",
+  "item.mobflowutilities.mob_catcher.empty_tooltip": "Vazio - Shift + botão direito em uma criatura para capturar",
+  "item.mobflowutilities.mob_catcher.usage.capture": "Shift + botão direito na criatura: Capturar",
+  "item.mobflowutilities.mob_catcher.usage.release": "Shift + botão direito em bloco: Soltar",
+
+  "item.mobflowutilities.empty_gene_vial.subtitle": "Usado para coletar material genético de criaturas",
+  "item.mobflowutilities.empty_gene_vial.usage": "Shift + botão direito em uma criatura para coletar uma amostra de gene",
+  "item.mobflowutilities.empty_gene_vial.player_immunity": "Não é possível coletar DNA de jogadores!",
+  "item.mobflowutilities.empty_gene_vial.no_spawn_egg": "O DNA desta criatura não pode ser coletado!",
+  "item.mobflowutilities.empty_gene_vial.blacklisted": "A essência desta criatura é poderosa demais para ser capturada!",
+  "item.mobflowutilities.empty_gene_vial.collected": "DNA coletado de: %s",
+
+  "item.mobflowutilities.gene_sample_vial.contains": "Amostra de gene: %s",
+  "item.mobflowutilities.gene_sample_vial.empty": "Vazio - Nenhuma amostra de gene detectada",
+  "item.mobflowutilities.gene_sample_vial.usage": "Combine com Catalisador da Vida + Esmeralda para criar um ovo gerador",
+
+  "menu.mobflowutilities.fan": "Ventilador",
+  "gui.mobflowutilities.fan": "Ventilador",
+
+  "tooltip.mobflowutilities.fan.wireframe_toggle": "Mostrar/Ocultar Zona de Empurrão"
+}

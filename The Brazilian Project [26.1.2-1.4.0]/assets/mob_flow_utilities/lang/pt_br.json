@@ -1,28 +1,58 @@
 {
   "creativetab.mobflowutilities": "Mob Flow Utilities",
 
-  "block.mobflowutilities.flow_pad_fast": "Plataforma de Espiral Rápida",
-  "block.mobflowutilities.flow_pad_faster": "Plataforma de Espiral Mais Rápida",
-  "block.mobflowutilities.flow_pad_fastest": "Plataforma de Espiral Muito Rápida",
+  "block.mobflowutilities.flow_pad_fast": "Plataforma de Transporte Rápida",
+  "block.mobflowutilities.flow_pad_faster": "Plataforma de Transporte Mais Rápida",
+  "block.mobflowutilities.flow_pad_fastest": "Plataforma de Transporte Muito Rápida",
   "block.mobflowutilities.damage_pad": "Plataforma de Dano",
 
   "block.mobflowutilities.collector": "Coletor",
   "block.mobflowutilities.controller": "Controlador",
+  "block.mobflowutilities.gigtank": "Giga Tanque",
   "block.mobflowutilities.fan": "Ventilador",
   "block.mobflowutilities.fan.subtitle_line1": "Empurra criaturas na direção para a qual está voltado",
   "block.mobflowutilities.fan.subtitle_line2": "Pode ser melhorado com melhorias de ventilador",
 
   "block.mobflowutilities.genesis_chamber": "Câmara de Gênese",
+  "block.mobflowutilities.genesis_infuser": "Infusor de Gênese",
   "block.mobflowutilities.genesis_chamber.subtitle": "Gera criaturas em uma área de 5x5 ao redor. Requer combustível para funcionar",
+  "block.mobflowutilities.genesis_infuser.subtitle": "Infunde carvão e carvão vegetal com experiência para criar combustível que queima por mais tempo",
 
   "block.mobflowutilities.dark_dirt": "Terra Sombria",
   "block.mobflowutilities.dark_dirt.subtitle": "Gera criaturas hostis em taxas aceleradas",
   "block.mobflowutilities.glimmer_grass": "Grama Cintilante",
   "block.mobflowutilities.glimmer_grass.subtitle": "Gera criaturas passivas em taxas aceleradas",
   "block.mobflowutilities.dark_glass": "Vidro Sombrio",
-  "block.mobflowutilities.dark_glass.subtitle": "Bloqueia a luz. Imune à decomposição",
+  "block.mobflowutilities.dark_glass.subtitle": "Bloqueia a luz. Imune ao Wither",
   "block.mobflowutilities.glimmer_lamp": "Lâmpada Cintilante",
   "block.mobflowutilities.glimmer_lamp.subtitle": "Emite luz quando energizado com Redstone",
+
+  "item.mobflowutilities.flow_pad_fast": "Plataforma de Espiral Rápida",
+  "item.mobflowutilities.flow_pad_faster": "Plataforma de Transporte Mais Rápida",
+  "item.mobflowutilities.flow_pad_fastest": "Plataforma de Transporte Muito Rápida",
+  "item.mobflowutilities.damage_pad": "Plataforma de Dano",
+
+  "item.mobflowutilities.collector": "Controlador",
+  "item.mobflowutilities.controller": "Coletor",
+  "item.mobflowutilities.gigatank": "Giga Tanque",
+  "item.mobflowutilities.gigatank.subtitle": "Segura 1024 baldes",
+  "item.mobflowutilities.fan": "Ventilador",
+  "item.mobflowutilities.fan.subtitle_line1": "Empurra criaturas na direção para a qual está voltado",
+  "item.mobflowutilities.fan.subtitle_line2": "Pode ser melhorado com melhorias de ventilador",
+
+  "item.mobflowutilities.genesis_chamber": "Câmara de Gênese",
+  "item.mobflowutilities.genesis_infuser": "Infusor de Gênese",
+  "item.mobflowutilities.genesis_chamber.subtitle": "Gera criaturas em uma área de 5x5 ao redor. Requer combustível para funcionar",
+  "item.mobflowutilities.genesis_infuser.subtitle": "Infunde carvão e carvão vegetal com experiência para criar combustível que queima por mais tempo",
+
+  "item.mobflowutilities.dark_dirt": "Terra Sombria",
+  "item.mobflowutilities.dark_dirt.subtitle": "Gera criaturas hostis em taxas aceleradas",
+  "item.mobflowutilities.glimmer_grass": "Grama Cintilante",
+  "item.mobflowutilities.glimmer_grass.subtitle": "Gera criaturas passivas em taxas aceleradas",
+  "item.mobflowutilities.dark_glass": "Vidro Sombrio",
+  "item.mobflowutilities.dark_glass.subtitle": "Bloqueia a luz. Imune ao Wither",
+  "item.mobflowutilities.glimmer_lamp": "Lâmpada Cintilante",
+  "item.mobflowutilities.glimmer_lamp.subtitle": "Emite luz quando energizado com Redstone",
 
   "item.mobflowutilities.bane_of_arthropods_module": "Módulo de Ruína dos Artrópodes",
   "item.mobflowutilities.bane_of_arthropods_module.subtitle": "Causa mais dano a aranhas, traças e outros artrópodes",
@@ -33,14 +63,14 @@
   "item.mobflowutilities.smite_module": "Módulo de Julgamento",
   "item.mobflowutilities.smite_module.subtitle": "Aumenta o dano contra mortos-vivos, como zumbis e esqueletos",
   "item.mobflowutilities.looting_module": "Módulo de Saque",
-  "item.mobflowutilities.looting_module.subtitle": "Melhora a quantidade de itens largados e a chance de saques raros de criaturas",
+  "item.mobflowutilities.looting_module.subtitle": "Melhora a quantidade de itens largados e a chance de itens raros de criaturas",
 
   "item.mobflowutilities.radius_increase_module": "Módulo de Aumento de Raio",
   "item.mobflowutilities.radius_increase_module.subtitle": "Aumenta o alcance de coleta de Coletores e o raio de geração da Câmara de Gênese",
   "item.mobflowutilities.void_filter_module": "Módulo de Filtro do Vazio",
   "item.mobflowutilities.void_filter_module.subtitle": "Destrói itens filtrados recolhidos por Coletores",
   "item.mobflowutilities.speed_module": "Módulo de Velocidade",
-  "item.mobflowutilities.speed_module.subtitle": "Aumenta as taxas de geração da Câmara de Gênese",
+  "item.mobflowutilities.speed_module.subtitle": "Aumenta as taxas de geração da Câmara de Gênese e a velocidade de processamento do Infusor de Gênese",
 
   "item.mobflowutilities.fan_width_increase_module": "Módulo de Aumento de Largura do Ventilador",
   "item.mobflowutilities.fan_width_increase_module.subtitle": "Aumenta a largura de sopro efetiva do ventilador",
@@ -54,14 +84,20 @@
 
   "item.mobflowutilities.mob_catcher": "Capturador de Criaturas",
 
-  "item.mobflowutilities.gloom_spore": "Esporo de Melancolia",
-  "item.mobflowutilities.gloom_spore.subtitle": "Converte blocos semelhantes a terra em Terra Sombria. Item raro largado por criaturas hostis e baús de saque",
+  "item.mobflowutilities.gloom_spore": "Esporo Melancólico",
+  "item.mobflowutilities.gloom_spore.subtitle": "Converte blocos semelhantes a terra em Terra Sombria.",
 
   "item.mobflowutilities.glimmer_sprout": "Broto Cintilante",
-  "item.mobflowutilities.glimmer_sprout.subtitle": "Converte blocos semelhantes a terra em Grama Cintilante. Item raro largado por criaturas passivas e baús de saque",
+  "item.mobflowutilities.glimmer_sprout.subtitle": "Converte blocos semelhantes a terra em Grama Cintilante.baús",
 
-  "item.mobflowutilities.incubation_orb": "Orbe de Incubação",
-  "item.mobflowutilities.incubation_orb.subtitle": "Componente de fabricação para ovos geradores. Itens largados por chefes",
+  "item.mobflowutilities.life_catalyst": "Catalisador da Vida",
+  "item.mobflowutilities.life_catalyst.subtitle": "Componente de fabricação para ovos geradores.",
+
+  "item.mobflowutilities.infused_coal": "Carvão Infundido",
+  "item.mobflowutilities.infused_coal.subtitle": "Queima por 8x mais tempo que carvão normal.",
+
+  "item.mobflowutilities.infused_charcoal": "Carvão Vegetal Infundido",
+  "item.mobflowutilities.infused_charcoal.subtitle": "Queima por 8x mais tempo que carvão vegetal normal.",
 
   "item.mobflowutilities.empty_gene_vial": "Frasco de Gene do Vazio",
 
@@ -69,6 +105,10 @@
 
   "menu.mobflowutilities.collector": "Coletor",
   "menu.mobflowutilities.controller": "Controlador",
+
+  "fluid_type.mobflowutilities.liquid_xp": "Experiência Líquida",
+  "block.mobflowutilities.liquid_xp_block": "Experiência Líquida",
+  "item.mobflowutilities.liquid_xp_bucket": "Balde de Experiência Líquida",
 
   "gui.mobflowutilities.collector": "Coletor",
   "gui.mobflowutilities.controller": "Controlador",
@@ -80,13 +120,11 @@
   "gui.mobflowutilities.collector.offset.down_up": "Ajuste B/C",
   "gui.mobflowutilities.collector.offset.north_south": "Ajuste N/S",
   "gui.mobflowutilities.collector.offset.east_west": "Ajuste L/O",
-  "gui.mobflowutilities.collector.xp_levels_stored": "Níveis armazenados: %,d",
+  "gui.mobflowutilities.collector.xp_levels_stored": "%,d",
 
   "tooltip.mobflowutilities.controller.remove_pad": "Remover plataformas selecionadas",
   "tooltip.mobflowutilities.controller.pad_coordinates": "Plataforma de Dano em %d, %d, %d",
   "tooltip.mobflowutilities.controller.scrollbar": "Exibindo plataformas %d-%d",
-
-  "tooltip.mobflowutilities.collector.xp_input_levels": "Insira o número de níveis para retirar ou depositar",
 
   "tooltip.mobflowutilities.collector.offset.down_up.decrease": "Diminuir raio de coleta Baixo/Cima",
   "tooltip.mobflowutilities.collector.offset.down_up.increase": "Aumentar raio de coleta Baixo/Cima",
@@ -101,18 +139,21 @@
 
   "tooltip.mobflowutilities.collector.wireframe_toggle": "Mostrar/Ocultar raio de coleta",
   "tooltip.mobflowutilities.genesis_chamber.wireframe_toggle": "Mostrar/Ocultar raio de geração",
-  "tooltip.mobflowutilities.genesis_chamber.redstone_required": "Desativar controle de Redstone",
-  "tooltip.mobflowutilities.genesis_chamber.no_redstone_required": "Ativar controle de Redstone",
+  "tooltip.mobflowutilities.genesis_chamber.redstone_required": "Sinal de Redstone Necessário",
+  "tooltip.mobflowutilities.genesis_chamber.no_redstone_required": "Sempre Ativa",
 
-  "tooltip.mobflowutilities.collector.xp.withdraw": "Retirar níveis do Coletor",
-  "tooltip.mobflowutilities.collector.xp.deposit": "Depositar níveis no Coletor",
-  "tooltip.mobflowutilities.collector.xp.withdraw_all": "Retirar todo o EXP armazenado do Coletor",
-  "tooltip.mobflowutilities.collector.xp.deposit_all": "Depositar todo o seu EXP no Coletor",
-  "tooltip.mobflowutilities.collector.xp_collection.enabled": "Desativar coleta de EXP",
-  "tooltip.mobflowutilities.collector.xp_collection.disabled": "Ativar coleta de EXP",
+  "tooltip.mobflowutilities.collector.xp.withdraw": "Retirar níveis",
+  "tooltip.mobflowutilities.collector.xp.deposit": "Depositar níveis",
+  "tooltip.mobflowutilities.collector.xp.withdraw_all": "Retirar toda a experiência armazenada",
+  "tooltip.mobflowutilities.collector.xp.deposit_all": "Depositar toda a sua experiência",
+  "tooltip.mobflowutilities.collector.xp_collection.enabled": "Desativar coleta de experiência",
+  "tooltip.mobflowutilities.collector.xp_collection.disabled": "Ativar coleta de experiência",
   "tooltip.mobflowutilities.collector.xp_display": "EXP: %s",
 
   "tooltip.mobflowutilities.collector.edit_filter": "Editar filtro",
+
+  "tooltip.mobflowutilities.genesis_infuser.tank_empty": "Vazio",
+  "tooltip.mobflowutilities.genesis_infuser.progress": "Progresso",
 
   "item.mobflowutilities.pad_wrench.mode.add": "Adicionar modo",
   "item.mobflowutilities.pad_wrench.mode.remove": "Remover modo",
@@ -139,7 +180,7 @@
   "item.mobflowutilities.pad_wrench.tooltip.usage.controller": "Usar no controlador: Selecionar alvo",
   "item.mobflowutilities.pad_wrench.tooltip.usage.pad": "Usar na plataforma: Conectar/Desconectar",
 
-  "fakeplayer.mobflowutilities.damage_pad": "Plataforma de Dano Mob Spiral Utilities",
+  "fakeplayer.mobflowutilities.damage_pad": "Plataforma de Dano do Mob Flow Utilities",
 
   "item.mobflowutilities.mob_catcher.already_occupied": "O capturador de criaturas já contém uma criatura!",
   "item.mobflowutilities.mob_catcher.boss_immunity": "Chefes não podem ser capturados!",
@@ -154,7 +195,7 @@
   "item.mobflowutilities.mob_catcher.contains": "Contém: %s",
   "item.mobflowutilities.mob_catcher.empty_tooltip": "Vazio - Shift + botão direito em uma criatura para capturar",
   "item.mobflowutilities.mob_catcher.usage.capture": "Shift + botão direito na criatura: Capturar",
-  "item.mobflowutilities.mob_catcher.usage.release": "Shift + botão direito no bloco: Soltar",
+  "item.mobflowutilities.mob_catcher.usage.release": "Shift + botão direito em bloco: Soltar",
 
   "item.mobflowutilities.empty_gene_vial.subtitle": "Usado para coletar material genético de criaturas",
   "item.mobflowutilities.empty_gene_vial.usage": "Shift + botão direito em uma criatura para coletar uma amostra de gene",
@@ -162,13 +203,18 @@
   "item.mobflowutilities.empty_gene_vial.no_spawn_egg": "O DNA desta criatura não pode ser coletado!",
   "item.mobflowutilities.empty_gene_vial.blacklisted": "A essência desta criatura é poderosa demais para ser capturada!",
   "item.mobflowutilities.empty_gene_vial.collected": "DNA coletado de: %s",
-
+ 
   "item.mobflowutilities.gene_sample_vial.contains": "Amostra de gene: %s",
   "item.mobflowutilities.gene_sample_vial.empty": "Vazio - Nenhuma amostra de gene detectada",
-  "item.mobflowutilities.gene_sample_vial.usage": "Fabrique com Cristal de Incubação + Esmeralda para criar um ovo gerador",
+  "item.mobflowutilities.gene_sample_vial.usage": "Combine com Catalisador da Vida e Esmeralda para criar um ovo gerador",
 
   "menu.mobflowutilities.fan": "Ventilador",
   "gui.mobflowutilities.fan": "Ventilador",
+  "gui.mobflowutilities.genesis_infuser": "Infusor de Gênese",
+  "menu.mobflowutilities.genesis_infuser": "Infusor de Gênese",
 
-  "tooltip.mobflowutilities.fan.wireframe_toggle": "Mostrar/Ocultar zona de empurrão"
+  "tooltip.mobflowutilities.fan.wireframe_toggle": "Mostrar/Ocultar Zona de Empurrão",
+
+  "message.mobflowutilities.tank.full": "O Tanque está Cheio",
+  "message.mobflowutilities.tank.empty": "O Tanque está Vazio"
 }
