@@ -1,5 +1,5 @@
 {
-  "key.category.openpartiesandclaims.controls" : "Open Parties and Claims",
+  "key.category.openpartiesandclaims.controls": "Open Parties and Claims",
   "gui.xaero_parties_player": "Jogador:",
   "gui.xaero_parties_current_party": "Grupo Atual:",
   "gui.xaero_parties_party_members": "Membros (%1$s):",
@@ -68,6 +68,9 @@
   "gui.xaero_claims_admin_mode_disabled": "Modo admin desativado!",
   "gui.xaero_claims_server_mode_enabled": "Modo de reivindicação do servidor ativado!",
   "gui.xaero_claims_server_mode_disabled": "Modo de reivindicação do servidor desativado!",
+  "gui.xaero_claims_party_mode_enabled" : "Modo de reivindicação de grupo ativado!",
+  "gui.xaero_claims_party_mode_disabled" : "Modo de reivindicação de grupo desativado!",
+  "gui.xaero_claims_player_mode_enabled" : "Agora você está reivindicando como você!",
   "gui.xaero_claims_nonally_mode_enabled": "Modo não aliado ativado! Você está vendo/acessando suas áreas como um não aliado.",
   "gui.xaero_claims_nonally_mode_disabled": "Modo não aliado desativado!",
   "gui.xaero_claims_claimed": "Chunk(s) reivindicado(s)!",
@@ -84,6 +87,8 @@
   "gui.xaero_claims_too_many_chunks": "Muitos chunks para uma única ação!",
   "gui.xaero_claims_are_disabled": "O recurso de reivindicação de chunks está desativado!",
   "gui.xaero_claims_claim_no_server_permission": "Você não tem mais permissão para fazer reivindicações de servidor!",
+  "gui.xaero_claims_claim_no_party_permission" : "Você não tem permissão para reivindicar em nome do seu grupo!",
+  "gui.xaero_claims_claim_not_in_party" : "Você não está em um grupo mas está tentando reivindicar como um!",
   "gui.xaero_claims_sub_current_too_many_targets": "Apenas um jogador-alvo é permitido!",
   "gui.xaero_claims_sub_current_invalid_target": "Jogador-alvo inválido!",
   "gui.xaero_claims_sub_current": "A configuração de sub-reivindicação em uso é \"%1$s\".",
@@ -116,6 +121,7 @@
   "gui.xaero_pac_config_option_set_invalid_sub": "ID da sub-configuração inválido!",
   "gui.xaero_pac_config_option_set_illegal_option": "A chave de opção especificada não é permitida nesta configuração!",
   "gui.xaero_pac_config_option_sub_inherited": "-",
+  "gui.xaero_pac_config_option_invalid_config" : "Configurações de jogador inválidas! Algo deu ruim. Reporte isso para o Xaero.",
 
   "gui.xaero_pac_config_option_get_invalid_key": "Chave de opção inválida!",
   "gui.xaero_pac_config_option_get_too_many_targets": "Apenas um jogador-alvo é permitido!",
@@ -128,6 +134,7 @@
   "gui.xaero_pac_config_type_wilderness": "Config. de Área Selvagem",
   "gui.xaero_pac_config_type_default_player": "Config. Padrão do Jogador",
   "gui.xaero_pac_config_type_player": "Config. do Jogador",
+  "gui.xaero_pac_config_type_party_claims" : "Config. de Grupo",
 
   "gui.xaero_pac_config_delete_sub_started": "Iniciando conversão de todas as reivindicações que usam a sub-configuração \"%1$s\"...",
   "gui.xaero_pac_config_delete_sub_complete": "Sub-reivindicação convertida e sub-configuração \"%1$s\" excluída!",
@@ -187,10 +194,12 @@
   "gui.xaero_claims_protection_create_cant_remove_glue": "Você não tem permissão para desunir alguns (ou todos) os terrenos que contêm esta seleção unida.",
   "gui.xaero_claims_protection_create_train_controls_protected": "Você não tem permissão para controlar este trem! Pressione ESC para se libertar.",
 
-  "gui.xaero_pac_title_entered_wilderness": "Terras Selvagens",
-  "gui.xaero_pac_title_entered_claim": "Terreno de %1$s%2$s",
-  "gui.xaero_pac_title_entered_server_claim": "Terreno do Servidor%1$s",
-  "gui.xaero_pac_title_entered_expired_claim": "Terreno Expirado%1$s",
+	"gui.xaero_pac_full_title_format" : "%1$s - %2$s",
+  "gui.xaero_pac_title_wilderness": "Terras Selvagens",
+  "gui.xaero_pac_title_player_claim": "Terreno de %1$s%2$s",
+  "gui.xaero_pac_title_server_claim": "Terreno do Servidor%1$s",
+  "gui.xaero_pac_title_expired_claim": "Terreno Expirado%1$s",
+	"gui.xaero_pac_title_party_claim" : "%1$s%2$s",
   "gui.xaero_pac_marked_for_forceload": " (Carregamento forçável)",
 
   "gui.xaero_pac_ui_handshake_not_received": "Handshake não recebido do servidor! O mod não está instalado?",
@@ -286,8 +295,8 @@
   "gui.xaero_pac_player_config_tooltip_playerConfig.claims.protection.exceptions.blocksRedirect": "padrão",
   "gui.xaero_pac_player_config_playerConfig.claims.protection.exceptions.fireSpread": "Permitir Propagação do Fogo",
   "gui.xaero_pac_player_config_tooltip_playerConfig.claims.protection.exceptions.fireSpread": "padrão",
-  "gui.xaero_pac_player_config_playerConfig.claims.protection.exceptions.blocksByEnchantments": "Quebra de Blocos por Encantamentos",
-  "gui.xaero_pac_player_config_tooltip_playerConfig.claims.protection.exceptions.blocksByEnchantments": "padrão",
+  "gui.xaero_pac_player_config_playerConfig.claims.protection.exceptions.blocksByEnchantments" : "Blocos de Encantamentos",
+  "gui.xaero_pac_player_config_tooltip_playerConfig.claims.protection.exceptions.blocksByEnchantments" : "padrão",
   "gui.xaero_pac_player_config_playerConfig.claims.protection.exceptions.cropTrample": "Permitir Pisotear Plantações",
   "gui.xaero_pac_player_config_tooltip_playerConfig.claims.protection.exceptions.cropTrample": "padrão",
   "gui.xaero_pac_player_config_playerConfig.claims.protection.fluidBarrier": "Barreira de Fluidos",
@@ -500,5 +509,13 @@
   "gui.xaero_pac_config_delete_group_confirmation_fail": "Certifique-se de que o \" confirm\" no final do comando está digitado corretamente.",
   "gui.xaero_pac_config_group_too_many_targets": "Apenas um jogador alvo é permitido!",
   "gui.xaero_pac_config_group_invalid_target": "Jogador alvo inválido!",
-  "gui.xaero_pac_config_deprecated_api_option": "Opção Obsoleta"
+  "gui.xaero_pac_config_deprecated_api_option": "Opção Obsoleta",
+
+	"gui.xaero_pac_default_party_name" : "Grupo de %1$s",
+	"gui.xaero_pac_player_config_player_groups_no_permission" : "Você não tem permissão para fazer isso nesta configuração!",
+	"gui.xaero_pac_claiming_as_narration" : "Selecione o Modo de Reivindicação",
+	"gui.xaero_pac_claiming_as_myself" : "Reivindicando como Eu",
+	"gui.xaero_pac_claiming_as_party" : "Reivindicando como Grupo",
+	"gui.xaero_pac_claiming_as_server" : "Reivindicando como Servidor",
+	"gui.xaero_pac_ui_party_claims_config": "Configurações de Grupo"
 }
