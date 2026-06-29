@@ -87,6 +87,7 @@
   "custommachinery.gui.config.enabled": "Ativado",
   "custommachinery.gui.config.disabled": "Desativado",
   "custommachinery.gui.config.all_none": "Definir todos os lados como nenhum",
+  "custommachinery.gui.config.settings": "Personalizar interface de configuração",
 
   "custommachinery.gui.creation.create": "Criar",
   "custommachinery.gui.creation.edit": "Editar",
@@ -104,6 +105,9 @@
   "custommachinery.gui.creation.wiki": "Abrir wiki",
   "custommachinery.gui.creation.time.created": "Criado: %s",
   "custommachinery.gui.creation.time.modified": "Modificado: %s",
+  "custommachinery.gui.creation.warning.error": "1 erro encontrado !",
+  "custommachinery.gui.creation.warning.errors": "%s erros !",
+  "custommachinery.gui.creation.warning.ok": "Nenhum erro encontrado",
 
   "custommachinery.gui.creation.popup.create": "Criar nova máquina",
   "custommachinery.gui.creation.popup.error.id": "ID ausente",
@@ -184,9 +188,11 @@
   "custommachinery.gui.creation.appearance.tool_type": "Tipo de ferramenta",
 
   "custommachinery.gui.creation.components.delete.title": "Excluir componente",
+  "custommachinery.gui.creation.components.create.tooltip": "Adicionar novo componente",
+  "custommachinery.gui.creation.components.edit.tooltip": "Editar componente selecionado",
   "custommachinery.gui.creation.components.delete.info": "Tem certeza de que deseja excluir este componente da máquina?",
-  "custommachinery.gui.creation.components.duplicate": "Duplicar",
   "custommachinery.gui.creation.components.duplicate.tooltip": "Duplicar este componente e incrementar o ID",
+  "custommachinery.gui.creation.components.delete.tooltip": "Deletar componente selecionado",
   "custommachinery.gui.creation.components.create.title": "Escolha um tipo",
   "custommachinery.gui.creation.components.id": "ID",
   "custommachinery.gui.creation.components.id.tooltip": "O ID deve ser diferente para cada componente do mesmo tipo",
@@ -272,6 +278,7 @@
   "custommachinery.gui.creation.gui.hints.3": "Pressione DEL para excluir rapidamente os elementos selecionados",
   "custommachinery.gui.creation.gui.hints.4": "Não se esqueça de salvar suas alterações",
   "custommachinery.gui.creation.gui.hints.5": "Copiar e colar incrementa automaticamente o ID",
+  "custommachinery.gui.creation.gui.hints.6": "Clique e arraste para selecionar múltiplos elementos",
   "custommachinery.gui.creation.gui.texture": "Textura",
   "custommachinery.gui.creation.gui.texture_hovered": "Textura ao passar o mouse",
   "custommachinery.gui.creation.gui.config": "Configuração",
@@ -364,6 +371,7 @@
 
   "custommachinery.gui.popup.confirm": "Confirmar",
   "custommachinery.gui.popup.cancel": "Cancelar",
+  "custommachinery.gui.popup.reset": "Redefinir",
   "custommachinery.gui.popup.warning": "Aviso!",
   "custommachinery.gui.popup.style": "Estilo",
 
