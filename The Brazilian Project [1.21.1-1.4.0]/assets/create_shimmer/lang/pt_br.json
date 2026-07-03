@@ -34,8 +34,7 @@
   "block.create_shimmer.blaze_uncrafter": "Desfabricador de Blaze",
   "effect.create_shimmer.shimmer": "Cintilação",
   "effect.create_shimmer.shimmer.description": "Melhora as habilidades de combate, mas distorce a visão e causa dano extra ocasional.",
-  "item.create_shimmer.uncrafter_template": "Molde de Desfabricador de Blaze",
-  "item.create_shimmer.uncrafter_template.desc": "Usado para fazer um Desfabricador de Blaze.",
+  "item.create_shimmer.uncrafter_template": "Molde de Ferraria",
   "item.create_shimmer.shimmer_crystal": "Cristal de Cintilação",
   "item.create_shimmer.shimmer_crystal.desc": "Armazena encantamentos extraídos por um Desfabricador de Blaze.",
   "item.create_shimmer.shimmer_crystal.empty": "Este cristal está vazio.",
@@ -65,5 +64,16 @@
   "item_group.create_shimmer.main": "Create Shimmer",
 
   "tooltip.create_shimmer.shimmer_effect": "Aumenta a velocidade de ataque, de movimento e o dano.",
-  "tooltip.create_shimmer.shimmer_warning": "Cuidado: pode causar comprometimento da visão e vulnerabilidade."
+  "tooltip.create_shimmer.shimmer_warning": "Cuidado: pode causar comprometimento da visão e vulnerabilidade."",
+  "block.create_shimmer.blaze_uncrafter.tooltip.summary": "Este bloco é atualmente experimental. Use com cautela.",
+  "gui.create_shimmer.blaze_uncrafter.disabled": "O Desfabricador de Blaze está desabilitado nas configurações",
+  "gui.create_shimmer.blaze_uncrafter.completed": "Desfabricação concluída",
+  "gui.create_shimmer.blaze_uncrafter.invalid_item": "Item inválido",
+  "item.create_shimmer.smithing_template.blaze_uncrafter.applies_to": "Queimador de Blaze",
+  "item.create_shimmer.smithing_template.blaze_uncrafter.ingredients": "Bancada de Desfabricação",
+  "item.create_shimmer.smithing_template.blaze_uncrafter.base_slot_description": "Adicione um Queimador de Blaze",
+  "item.create_shimmer.smithing_template.blaze_uncrafter.additions_slot_description": "Adicione uma Bancada de Desfabricação",
+  "upgrade.create_shimmer.blaze_upgrade": "Melhoria de Blaze"
+}
+
 }
