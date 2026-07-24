@@ -1,0 +1,35 @@
+{
+  "item.ae2helpers.result_import_card": "Cartão de Importação de Resultado de Fabricação",
+
+  "ae2helpers.configuration.title": "Configurações do ae2helpers",
+  "ae2helpers.configuration.section.ae2helpers.common.toml": "Configurações do ae2helpers",
+  "ae2helpers.configuration.section.ae2helpers.common.toml.title": "Configurações do ae2helpers",
+  "ae2helpers.configuration.items": "Lista de itens",
+  "ae2helpers.configuration.logDirtBlock": "Registrar Bloco de Terra",
+  "ae2helpers.configuration.magicNumberIntroduction": "Texto do número mágico",
+  "ae2helpers.configuration.magicNumber": "Número mágico",
+  "ae2helpers.configuration.enableAutoImport": "Habilitar autoimportação da Grade de Fabricação",
+
+  "ae2helpers.crafthelper.title": "Autoimportar fabricações pendentes",
+  "ae2helpers.crafthelper.enabled": "Habilitado",
+  "ae2helpers.crafthelper.disabled": "Desabilitado",
+  "ae2helpers.crafthelper.tooltip": "[AE2Helpers] Move automaticamente itens que são fabricados automaticamente via visualizador de receitas para a grade de fabricação",
+
+  "ae2helpers.importcard.pattern": "Provedor de Padrões ME (Apenas com Lados)",
+  "ae2helpers.importcard.screen.title": "Configuração do Cartão de Importação",
+  "ae2helpers.importcard.resultsonly": "Importar apenas resultados de fabricação",
+  "ae2helpers.importcard.resultsonly.tooltip": "Se habilitado, importa apenas itens que são saídas esperadas do padrão de fabricação atual.\nSe desabilitado, importa tudo da máquina alvo.",
+  "ae2helpers.importcard.sync": "Sincronizar com CPU de Fabricação",
+  "ae2helpers.importcard.sync.tooltip": "Se habilitado, verifica constantemente se a CPU de Fabricação ainda requer os itens.\nPara de importar se o trabalho for cancelado ou concluído por outros meios.\nFunciona apenas se `Importar apenas resultados de fabricação` estiver habilitado",
+  "ae2helpers.importcard.direction": "Lado de Importação",
+  "ae2helpers.importcard.direction.tooltip": "O lado da máquina adjacente de onde puxar os itens.\n'Auto' usa o lado virado para o Provedor de Padrões.",
+  "ae2helpers.importcard.direction.auto": "Auto (Virado para Máquina)",
+  "ae2helpers.importcard.tooltip.mode": "Modo: ",
+  "ae2helpers.importcard.tooltip.crafting_results": "Apenas resultados de fabricação",
+  "ae2helpers.importcard.tooltip.everything": "Tudo",
+  "ae2helpers.importcard.tooltip.sync": "Sinc. de CPU: ",
+  "ae2helpers.importcard.tooltip.enabled": "Habilitado",
+  "ae2helpers.importcard.tooltip.disabled": "Desabilitado",
+  "ae2helpers.importcard.tooltip.side": "Lado: ",
+  "ae2helpers.importcard.tooltip.hint": "Clique com botão direito para configurar"
+}
