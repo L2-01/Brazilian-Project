@@ -14,6 +14,11 @@
   "block.minformax.ore_coalescer": "Coalescedor de Minério",
   "block.minformax.farmer": "Agricultor",
   "block.minformax.pandora_box": "Caixa de Pandora",
+  "block.minformax.sakuradite_casing": "Revestimento de Sakuradita",
+  "block.minformax.sakuradite_panel": "Painel de Sakuradita",
+  "block.minformax.sakuradite_input_hatch": "Escotilha de Entrada de Sakuradita",
+  "block.minformax.sakuradite_output_hatch": "Escotilha de Saída de Sakuradita",
+  "block.minformax.gate_of_babylon": "Portão da Babilônia",
 
   "minformax.jade.owner": "§aProprietário: §c%s",
   "config.jade.plugin_minformax.owner": "Proprietário",
@@ -26,7 +31,9 @@
   "jei.minformax.aether_ingot.info": "Para obter o Lingote de Éter, basta jogar a Espuma Quântica na Superfície na coordenada Y acima de 1000.",
   "jei.minformax.void_ingot.info": "Para obter o Lingote do Vazio, basta jogar a Espuma Quântica no End na coordenada Y abaixo de 0.",
   "jei.minformax.quantum_foam.info": "Para obter a Espuma Quântica, Shift + clique direito com um Lingote Quântico em um Gerador Eterno. Pelo menos 5120 de sobrecarga são necessários.",
+  "jei.minformax.babylon_key.info": "Estrutura multibloco capaz de acelerar os ticks de tudo em seu interior. Tamanho mínimo de 3x3x3. Sem tamanho máximo.\nPara construir a estrutura, as arestas e os cantos são construídos com Revestimentos de Sakuradita. Paredes e faces são preenchidas com qualquer bloco de Sakuradita. Requer uma escotilha de entrada de energia para alimentar a estrutura.\nPara formar o multibloco, basta clicar com a Chave da Babilônia.",
 
+  "tooltip.minformax.phantom": "§bAs Escotilhas de Sakuradita são fantasmas, então você pode usá-las como entrada para o Portão da Babilônia.",
   "tooltip.minformax.owner": "§aProprietário: %s",
   "tooltip.minformax.index_lab": "§aGrava o índice de criaturas em fragmentos de memória.",
   "tooltip.minformax.eternal_generator": "§aColoque qualquer armazenamento válido ao lado para gerar recursos. §cFragmentos de memória não são consumidos.",
@@ -60,9 +67,17 @@
   "tooltip.minformax.under_construction": "§eEm Construção...",
   "tooltip.minformax.aether_ingot": "§aEu me pergunto o que aconteceria com a espuma a §c1000 §ablocos de altura?",
   "tooltip.minformax.void_ingot": "§aÉ um prazer visitar um §cvazio §ano fim de semana§d.",
+  "tooltip.minformax.sakuradite_multiblock_part": "§aComponente estrutural do multibloco",
+  "tooltip.minformax.babylon_key": "\"Dobrar o tempo é um brinquedo trivial para o meu tesouro. Contemple a riqueza da Babilônia!\"",
+  "tooltip.minformax.machine.ok": "✔ A estrutura está funcionando perfeitamente.",
+  "tooltip.minformax.machine.errors_found": "Operação interrompida! Erros detectados:",
+  "tooltip.minformax.gate_of_babylon.error.no_machines": " ❌ Nenhuma máquina dentro do Portão da Babilônia.",
+  "tooltip.minformax.machine.error.no_energy": " ❌ Reservas de energia insuficientes.",
+  "tooltip.minformax.machine.error.missing_input": " ❌ Nenhuma entrada detectada.",
+  "tooltip.minformax.machine.error.missing_storage": " ❌ Falta armazenamento/espaço adjacente próximo.",
 
   "advancements.minformax.root.title": "Miau?",
-  "advancements.minformax.root.description": "Aventura Time começa",
+  "advancements.minformax.root.description": "Hora da aventura começa",
 
   "message.minformax.ore_coalescer.item_overflow": "§aO bloco atual contém mais de §c4096 itens§a. §bSegure Shift §apara quebrar o bloco.",
   "message.minformax.warning": "§cGrande quantidade de entidades pode causar picos de lag!!!",
@@ -73,6 +88,24 @@
   "message.minformax.scanner.cannot_scan": "§cEsta entidade não pode ser escaneada: §e%s",
   "message.minformax.linker.linked": "§aVinculado",
   "message.minformax.linker.cleared": "§cDesvinculado",
+  "message.minformax.babylon.structure_too_small": "Estrutura muito pequena! As dimensões mínimas são 3x3x3.",
+  "message.minformax.babylon.structure_too_big": "Estrutura muito grande! As dimensões máximas são %sx%sx%s.",
+  "message.minformax.babylon.formed": "Portão da Babilônia formado! Tamanho: %sx%sx%s",
+  "message.minformax.babylon.unloaded_chunks": "A estrutura se estende para chunks não carregados!",
+  "message.minformax.babylon.collision": "A estrutura colide ou se sobrepõe a um multibloco existente!",
+  "message.minformax.babylon.block_missing": "Falta um bloco de Sakuradita em %s %s %s",
+  "message.minformax.babylon.casing_missing": "Falta um revestimento em %s %s %s",
+  "message.minformax.babylon.belongs_to_other": "O bloco em %s %s %s pertence a outro multibloco",
+  "message.minformax.config_tool.copied": "Configuração copiada!",
+  "message.minformax.config_tool.pasted": "Configuração colada!",
+  "message.minformax.config_tool.no_config": "Nenhuma configuração armazenada na ferramenta!",
+  "message.minformax.linker.already": "Todos os geradores adjacentes já estão %svinculados",
+  "message.minformax.linker.mass": "Vinculados em massa %s geradores adjacentes %s!",
+
+  "command.minformax.index.add_all": "Adicionados todos os índices de %s para %s",
+  "command.minformax.index.clear": "Índice limpo para %s",
+  "command.minformax.index.not_found": "Índice não encontrado: %s",
+  "command.minformax.index.new_entry": "Adicionado o índice %s para %s",
 
   "item.minformax.scanner": "Escaneador",
   "item.minformax.quantum_foam": "Espuma Quântica",
@@ -110,5 +143,9 @@
   "item.minformax.heliodor_ingot": "Lingote de Heliodor",
   "item.minformax.aether_ingot": "Lingote de Éter",
   "item.minformax.yinmin_ingot": "Lingote de Yinmin",
-  "item.minformax.void_ingot": "Lingote do Vazio"
+  "item.minformax.void_ingot": "Lingote do Vazio",
+  "item.minformax.babylon_key": "Chave da Babilônia",
+  "item.minformax.configuration_tool": "Ferramenta de Configuração",
+
+  "minformax.guide_name": "BlaBla"
 }
