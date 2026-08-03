@@ -1,4 +1,47 @@
 {
+  "item.ars_caelum.ritual_conjure_island_aluminum": "Conjurar Ilha: Alumínio",
+  "item.ars_caelum.ritual_conjure_island_black_quartz": "Conjurar Ilha: Quartzo Negro",
+  "item.ars_caelum.ritual_conjure_island_coal": "Conjurar Ilha: Carvão",
+  "item.ars_caelum.ritual_conjure_island_copper": "Conjurar Ilha: Cobre",
+  "item.ars_caelum.ritual_conjure_island_gold": "Conjurar Ilha: Ouro",
+  "item.ars_caelum.ritual_conjure_island_iron": "Conjurar Ilha: Ferro",
+  "item.ars_caelum.ritual_conjure_island_lapis": "Conjurar Ilha: Lápis-Lazúli",
+  "item.ars_caelum.ritual_conjure_island_lead": "Conjurar Ilha: Laço",
+  "item.ars_caelum.ritual_conjure_island_monazite": "Conjurar Ilha: Monazita",
+  "item.ars_caelum.ritual_conjure_island_nickel": "Conjurar Ilha: Níquel",
+  "item.ars_caelum.ritual_conjure_island_osmium": "Conjurar Ilha: Ósmio",
+  "item.ars_caelum.ritual_conjure_island_redstone": "Conjurar Ilha: Redstone",
+  "item.ars_caelum.ritual_conjure_island_ruby": "Conjurar Ilha: Rubi",
+  "item.ars_caelum.ritual_conjure_island_sapphire": "Conjurar Ilha: Safira",
+  "item.ars_caelum.ritual_conjure_island_silver": "Conjurar Ilha: Prata",
+  "item.ars_caelum.ritual_conjure_island_tin": "Conjurar Ilha: Estanho",
+  "item.ars_caelum.ritual_conjure_island_topaz": "Conjurar Ilha: Topázio",
+  "item.ars_caelum.ritual_conjure_island_uranium": "Conjurar Ilha: Urânio",
+  "item.ars_caelum.ritual_conjure_island_zinc": "Conjurar Ilha: Zinco",
+  "item.ars_caelum.ritual_conjure_island_nether_ancient_debris": "Conjurar Ilha: Detritos Ancestrais (Nether)",
+  "item.ars_caelum.ritual_conjure_island_nether_diamond": "Conjurar Ilha: Diamante (Nether)",
+  "item.ars_caelum.ritual_conjure_island_nether_emerald": "Conjurar Ilha: Esmeralda (Nether)",
+  "item.ars_caelum.ritual_conjure_island_nether_platinum": "Conjurar Ilha: Platina (Nether)",
+  "item.ars_caelum.ritual_conjure_island_nether_quartz": "Conjurar Ilha: Quartzo (Nether)",
+  "item.ars_caelum.ritual_conjure_island_nether_tungsten": "Conjurar Ilha: Tungstênio (Nether)",
+
+
+
+
+
+
+  "item.ftb.cloth_mesh": "Malha Mecânica de Pano",
+  "item.ftb.iron_mesh": "Malha Mecânica de Ferro",
+  "item.ftb.gold_mesh": "Malha Mecânica de Ouro",
+  "item.ftb.diamond_mesh": "Malha Mecânica de Diamante",
+  "item.ftb.blazing_mesh": "Malha Mecânica Incandescente",
+  "item.ftb.creative_mesh": "Malha Criativa",
+
+
+
+
+
+
   "itemGroup.ftbskies2aerocompanion": "FTB Skies 2 Aero",
   "item.ftbskies2aerocompanion.void_fishing_rod": "Vara de Pesca do Vazio",
   "block.ftbskies2aerocompanion.air_filter": "AeroScoop",
@@ -30,11 +73,11 @@
   "jade.ftbskies2aerocompanion.aeroscoop.buffer_header": "Saída armazenada (%d itens)",
   "ftbskies2aerocompanion.ponder.aeroscoop.header": "Coletando nos céus com o AeroScoop",
   "ftbskies2aerocompanion.ponder.aeroscoop.text_1": "O AeroScoop puxa itens do ar enquanto se move.",
-  "ftbskies2aerocompanion.ponder.aeroscoop.text_2": "Clique com o botão direito para instalar um filtro de malha - níveis mais altos coletam mais rápido e duram mais.",
+  "ftbskies2aerocompanion.ponder.aeroscoop.text_2": "Clique com o botão direito para instalar um filtro de malha — níveis mais altos coletam mais rápido e duram mais.",
   "ftbskies2aerocompanion.ponder.aeroscoop.text_3": "Sozinho, parado, nenhum ar passa por ele...",
-  "ftbskies2aerocompanion.ponder.aeroscoop.text_4": "Monte-o em uma engrenagem móvel - um rolamento, um moinho de vento ou uma nave Sable.",
+  "ftbskies2aerocompanion.ponder.aeroscoop.text_4": "Monte-o em uma engrenagem móvel — um rolamento, um moinho de vento ou uma nave Sable.",
   "ftbskies2aerocompanion.ponder.aeroscoop.text_5": "Conforme a engrenagem se move, o AeroScoop enche seu buffer interno com saques aleatórios.",
-  "ftbskies2aerocompanion.ponder.aeroscoop.text_6": "Qualquer inventário na engrenagem - um baú, um cofre, um barril - recebe os saques automaticamente.",
+  "ftbskies2aerocompanion.ponder.aeroscoop.text_6": "Qualquer inventário na engrenagem — um baú, um cofre, um barril — recebe os saques automaticamente.",
   "item.ftbskies2aerocompanion.inferium_void_fishing_rod": "Vara de Pesca do Vazio de Infério",
   "item.ftbskies2aerocompanion.prudentium_void_fishing_rod": "Vara de Pesca do Vazio de Prudêncio",
   "item.ftbskies2aerocompanion.tertium_void_fishing_rod": "Vara de Pesca do Vazio de Tértio",
@@ -69,40 +112,5 @@
   "item.ftbskies2aerocompanion.overcharged_copper_sheet": "Chapa de Cobre Sobrecarregada",
   "item.ftbskies2aerocompanion.overcharged_netherite_sheet": "Chapa de Netherita Sobrecarregada",
   "item.ftbskies2aerocompanion.overcharged_platinum_sheet": "Chapa de Platina Sobrecarregada",
-  "item.ftbskies2aerocompanion.overcharged_titanium_sheet": "Chapa de Titânio Sobrecarregada",
-
-
-  "item.ftb.cloth_mesh": "Malha Mecânica de Pano",
-  "item.ftb.iron_mesh": "Malha Mecânica de Ferro",
-  "item.ftb.gold_mesh": "Malha Mecânica de Ouro",
-  "item.ftb.diamond_mesh": "Malha Mecânica de Diamante",
-  "item.ftb.blazing_mesh": "Malha Mecânica Incandescente",
-  "item.ftb.creative_mesh": "Malha Criativa",
-
-
-  "item.ars_caelum.ritual_conjure_island_aluminum": "Conjurar Ilha: Alumínio",
-  "item.ars_caelum.ritual_conjure_island_black_quartz": "Conjurar Ilha: Quartzo Negro",
-  "item.ars_caelum.ritual_conjure_island_coal": "Conjurar Ilha: Carvão",
-  "item.ars_caelum.ritual_conjure_island_copper": "Conjurar Ilha: Cobre",
-  "item.ars_caelum.ritual_conjure_island_gold": "Conjurar Ilha: Ouro",
-  "item.ars_caelum.ritual_conjure_island_iron": "Conjurar Ilha: Ferro",
-  "item.ars_caelum.ritual_conjure_island_lapis": "Conjurar Ilha: Lápis-Lazúli",
-  "item.ars_caelum.ritual_conjure_island_lead": "Conjurar Ilha: Laço",
-  "item.ars_caelum.ritual_conjure_island_monazite": "Conjurar Ilha: Monazita",
-  "item.ars_caelum.ritual_conjure_island_nickel": "Conjurar Ilha: Níquel",
-  "item.ars_caelum.ritual_conjure_island_osmium": "Conjurar Ilha: Ósmio",
-  "item.ars_caelum.ritual_conjure_island_redstone": "Conjurar Ilha: Redstone",
-  "item.ars_caelum.ritual_conjure_island_ruby": "Conjurar Ilha: Rubi",
-  "item.ars_caelum.ritual_conjure_island_sapphire": "Conjurar Ilha: Safira",
-  "item.ars_caelum.ritual_conjure_island_silver": "Conjurar Ilha: Prata",
-  "item.ars_caelum.ritual_conjure_island_tin": "Conjurar Ilha: Estanho",
-  "item.ars_caelum.ritual_conjure_island_topaz": "Conjurar Ilha: Topázio",
-  "item.ars_caelum.ritual_conjure_island_uranium": "Conjurar Ilha: Urânio",
-  "item.ars_caelum.ritual_conjure_island_zinc": "Conjurar Ilha: Zinco",
-  "item.ars_caelum.ritual_conjure_island_nether_ancient_debris": "Conjurar Ilha: Detritos Ancestrais (Nether)",
-  "item.ars_caelum.ritual_conjure_island_nether_diamond": "Conjurar Ilha: Diamante (Nether)",
-  "item.ars_caelum.ritual_conjure_island_nether_emerald": "Conjurar Ilha: Esmeralda (Nether)",
-  "item.ars_caelum.ritual_conjure_island_nether_platinum": "Conjurar Ilha: Platina (Nether)",
-  "item.ars_caelum.ritual_conjure_island_nether_quartz": "Conjurar Ilha: Quartzo (Nether)",
-  "item.ars_caelum.ritual_conjure_island_nether_tungsten": "Conjurar Ilha: Tungstênio (Nether)"
+  "item.ftbskies2aerocompanion.overcharged_titanium_sheet": "Chapa de Titânio Sobrecarregada"
 }
