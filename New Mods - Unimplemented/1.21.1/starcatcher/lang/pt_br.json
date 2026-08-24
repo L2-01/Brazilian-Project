@@ -169,7 +169,7 @@
 
   "tag.starcatcher.has_radar_layer": "Possui Camada de Radar de Peixes",
   "tag.starcatcher.has_tracker_layer": "Possui Camada de Rastreador de Peixes",
-  "tag.starcatcher.has_farmland_interaction": "Possui Interação de Entidade com Terra Arada",
+  "tag.starcatcher.has_farmland_interaction": "Possui Interação com Terra Arada",
 
 
 
@@ -180,7 +180,7 @@
 
   "sounds.starcatcher.biting": "Peixe morde a isca",
   "sounds.starcatcher.cast": "Vara de pescar é arremessada",
-  "sounds.starcatcher.failed": "Falha no minijogo de pesca",
+  "sounds.starcatcher.failed": "Falha no Minigame de pesca",
   "sounds.starcatcher.missed": "Peixe foge nadando",
   "sounds.starcatcher.boop": "Toque de pesca",
   "sounds.starcatcher.reel": "Vara de pescar é recolhida",
@@ -193,8 +193,8 @@
 
   "starcatcher.configuration.ui_settings": "§3!!! [Movimentação e escala da interface] !!!",
 
-  "starcatcher.configuration.minigame_x_offset": "Deslocamento X do minijogo",
-  "starcatcher.configuration.minigame_y_offset": "Deslocamento Y do minijogo",
+  "starcatcher.configuration.minigame_x_offset": "Deslocamento X do Minigame",
+  "starcatcher.configuration.minigame_y_offset": "Deslocamento Y do Minigame",
   "starcatcher.configuration.minigame_scale": "Escala do Minigame",
 
   "starcatcher.configuration.tournament_x_offset": "Deslocamento X do torneio",
@@ -205,14 +205,14 @@
   "starcatcher.configuration.radar_y_offset": "Deslocamento Y do radar",
   "starcatcher.configuration.radar_scale": "Escala do radar",
 
-  "starcatcher.configuration.debug": "Informações de depuração do minijogo",
+  "starcatcher.configuration.debug": "Informações de depuração do Minigame",
 
   "starcatcher.configuration.hit_delay": "Atraso de Acerto do Minigame",
   "starcatcher.configuration.units": "Unidades de Medida",
   "starcatcher.configuration.sort": "Ordem de Classificação do Guia",
   "starcatcher.configuration.enable_tackle_sounds": "Sons de visual de equipamento",
   "starcatcher.configuration.enable_hit_sounds": "Sons de acerto no ponto ideal",
-  "starcatcher.configuration.enable_miss_sound": "Som de erro no minijogo",
+  "starcatcher.configuration.enable_miss_sound": "Som de erro no Minigame",
   "starcatcher.configuration.remove_notif_on_hover": "Remover Notificação de Novo Peixe ao Passar o Mouse",
   "starcatcher.configuration.overlay_update_frequency": "Frequência de atualização da sobreposição",
 
@@ -387,7 +387,7 @@
   "tooltip.modifier.number.11": "Onze",
   "tooltip.modifier.number.12": "Doze",
   "tooltip.modifier.number.32": "Trinta e dois",
-  "tooltip.modifier.number.64": "Um pack",
+  "tooltip.modifier.number.64": "Uma pilha",
 
   "tooltip.modifier.starcatcher.adjust_handle_speed": " a velocidade de rotação da manivela",
   "tooltip.modifier.starcatcher.adjust_handle_speed.shift": "Ajusta a velocidade de rotação da manivela em %s%%",
@@ -399,7 +399,7 @@
   "tooltip.modifier.starcatcher.adjust_vanishing_rate": " a taxa de sumiço dos pontos ideais",
   "tooltip.modifier.starcatcher.adjust_vanishing_rate.shift": "Ajusta a taxa de sumiço dos pontos ideais em %s%%",
 
-  "tooltip.modifier.starcatcher.adjust_lure_time.base": " o tempo da Isca",
+  "tooltip.modifier.starcatcher.adjust_lure_time.base": " o tempo da isca",
   "tooltip.modifier.starcatcher.adjust_lure_time.shift.min_ticks": "Ajusta os tiques mínimos para pescar em %s%%",
   "tooltip.modifier.starcatcher.adjust_lure_time.shift.max_ticks": "Ajusta os tiques máximos para pescar em %s%%",
   "tooltip.modifier.starcatcher.adjust_lure_time.shift.random": "Ajusta a chance de morder a cada tique em %s%%",
@@ -417,7 +417,7 @@
   "tooltip.modifier.starcatcher.adjust_penalty_rate.shift": "Ajusta a penalidade de errar pontos ideais em %s%%",
 
   "tooltip.modifier.starcatcher.vanilla_fishing_loot": "Restaura o saque de pesca do Vanilla",
-  "tooltip.modifier.starcatcher.skip_minigame_if_vanilla_bobber": "Pula o minijogo se equipado com a Boia Sabor Vanilla",
+  "tooltip.modifier.starcatcher.skip_minigame_if_vanilla_bobber": "Pula o Minigame se equipado com a Boia Sabor Vanilla",
 
 
   "tooltip.modifier.starcatcher.luck_attribute": "Ajusta a chance de peixe com base na sua Sorte",
@@ -483,7 +483,7 @@
 
 
   "item.starcatcher.bobber": "Boia",
-  "tooltip.starcatcher.bobber.0": "Uma boia básica para sua vara de pesca",
+  "tooltip.starcatcher.bobber.0": "Uma boia básica para sua vara de pesca.",
   "tooltip.starcatcher.bobber.1": "Melhor amiga do Anzol.",
 
   "item.starcatcher.steady_bobber": "Boia Estável",
@@ -543,7 +543,7 @@
 
   "item.starcatcher.missingno": "???",
   "item.starcatcher.unknown_fish": "Peixe Desconhecido",
-  "tooltips.starcatcher.unknown_fish.0": "peixe modelo usado no minigame para entradas que escondem o item sendo pescado",
+  "tooltips.starcatcher.unknown_fish.0": "peixe modelo usado no Minigame para entradas que escondem o item sendo pescado",
 
 
 
@@ -653,7 +653,7 @@
   "gui.guide.seasons.around_winter": "Perto do Inverno",
 
   "gui.guide.seasons.early_spring": "Início da Primavera",
-  "gui.guide.seasons.mid_spring": "Meada da Primavera",
+  "gui.guide.seasons.mid_spring": "Meado da Primavera",
   "gui.guide.seasons.late_spring": "Fim da Primavera",
 
   "gui.guide.seasons.early_summer": "Início do Verão",
@@ -706,8 +706,8 @@
   "gui.guide.units.imperial": "Imperial (pol & lb)",
 
   "gui.guide.units.cheeseburger": "X-Burguer",
-  "gui.guide.units.cheeseburger.size": "Cheeseburgers de altura",
-  "gui.guide.units.cheeseburger.weight": "Cheeseburgers de peso",
+  "gui.guide.units.cheeseburger.size": "X-Burguers de altura",
+  "gui.guide.units.cheeseburger.weight": "X-Burguers de peso",
 
   "gui.guide.units.developer": "Desenvolvedor",
   "gui.guide.units.developer.size": "wds de altura",
@@ -761,7 +761,7 @@
   "gui.guide.index.messages": "Cartas e Mensagens na Garrafa",
   "gui.guide.index.selling_bin": "Vendendo Seus Peixes!",
   "gui.guide.index.aquarium": "Aquários",
-  "gui.guide.index.display": "Assinatura de Vídeo e Livro",
+  "gui.guide.index.display": "Mostruário e Assinatura de Livro",
   "gui.guide.index.trophies_and_secrets": "Troféus e Segredos",
 
 
@@ -829,8 +829,8 @@
   "gui.guide.page.1.left.8": "  Serve como depósito",
   "gui.guide.page.1.left.9": "para os seus peixes juntamente com",
   "gui.guide.page.1.left.10": "outros itens relacionados à pesca,",
-  "gui.guide.page.1.left.11": "como anzóis, bóias, ",
-  "gui.guide.page.1.left.12": "e Iscas.",
+  "gui.guide.page.1.left.11": "como anzóis, boias, ",
+  "gui.guide.page.1.left.12": "e iscas.",
   "gui.guide.page.1.left.13": "",
   "gui.guide.page.1.left.14": "",
 
@@ -845,7 +845,7 @@
   "gui.guide.page.1.right.8": "",
   "gui.guide.page.1.right.9": "  Verdadeiramente essencial",
   "gui.guide.page.1.right.10": "se você planeja capturar peixes",
-  "gui.guide.page.1.right.11": "por todo a Superfície.",
+  "gui.guide.page.1.right.11": "por toda a Superfície.",
 
 
   "gui.guide.page.2.left.title": "Tesouros",
@@ -929,13 +929,13 @@
   "gui.guide.page.4.left.7": "da sua jornada de pesca.",
   "gui.guide.page.4.left.8": "",
   "gui.guide.page.4.left.9": "O melhor que um pescador pode desejar",
-  "gui.guide.page.4.left.10": "é uma <sclegendary>Melhoria de netherita</sclegendary>",
+  "gui.guide.page.4.left.10": "é uma <sclegendary>Melhoria de Netherita</sclegendary>",
   "gui.guide.page.4.left.11": "para a sua vara, aumentando os atributos",
   "gui.guide.page.4.left.12": "e liberando a pesca na lava,",
   "gui.guide.page.4.left.13": "mas isso vai",
   "gui.guide.page.4.left.14": "demorar um pouco para conseguir.",
   "gui.guide.page.4.left.15": "",
-  "gui.guide.page.4.left.16": "Até lá, um <scrare>Gancho de Ametista</scrare>",
+  "gui.guide.page.4.left.16": "Até lá, um <scrare>Anzol de Ametista</scrare>",
   "gui.guide.page.4.left.17": "servirá para pescar na lava.",
 
   "gui.guide.page.4.right.0": "",
@@ -945,7 +945,7 @@
   "gui.guide.page.4.right.4": "  A melhor forma de melhorar",
   "gui.guide.page.4.right.5": "sua experiência de pesca é",
   "gui.guide.page.4.right.6": "usando diferentes",
-  "gui.guide.page.4.right.7": "Ganchos, Boias e Iscas.",
+  "gui.guide.page.4.right.7": "Anzóis, Boias e Iscas.",
   "gui.guide.page.4.right.8": "",
   "gui.guide.page.4.right.9": "  Eles fornecem diferentes",
   "gui.guide.page.4.right.10": "modificadores, que vão de",
@@ -1001,7 +1001,7 @@
   "gui.guide.page.6.left.5": "  Existem vários itens",
   "gui.guide.page.6.left.6": "cosméticos diferentes para",
   "gui.guide.page.6.left.7": "coletar, variando de",
-  "gui.guide.page.6.left.8": "armaduras até visuais novos",
+  "gui.guide.page.6.left.8": "armaduras até visuais novos ",
   "gui.guide.page.6.left.9": "e chiques para sua vara.",
   "gui.guide.page.6.left.10": "",
   "gui.guide.page.6.left.11": "  Coletar todos os cosméticos",
@@ -1017,12 +1017,12 @@
   "gui.guide.page.6.right.4": "",
   "gui.guide.page.6.right.5": "  Cansado do seu equipamento",
   "gui.guide.page.6.right.6": "com aparência chata? Se tiver",
-  "gui.guide.page.6.right.7": "sorte, você pode encontrar um",
+  "gui.guide.page.6.right.7": "sorte, você pode encontrar um ",
   "gui.guide.page.6.right.8": "Molde de Ferraria de",
   "gui.guide.page.6.right.9": "Visual de Equipamento!",
   "gui.guide.page.6.right.10": "",
   "gui.guide.page.6.right.11": "  Assim como outros moldes,",
-  "gui.guide.page.6.right.12": "basta combiná-lo em uma",
+  "gui.guide.page.6.right.12": "basta combiná-lo em uma ",
   "gui.guide.page.6.right.13": "bancada de ferraria e curtir",
   "gui.guide.page.6.right.14": "o novo visual do seu equipamento.",
 
@@ -1249,13 +1249,13 @@
   "gui.guide.chance": "%s de chance",
 
   "gui.guide.full_moon": "Lua Cheia",
-  "gui.guide.waning_gibbous": "Minguante Gibosa",
+  "gui.guide.waning_gibbous": "Gibosa Minguante",
   "gui.guide.third_quarter": "Quarto Minguante",
   "gui.guide.waning_crescent": "Lua Minguante",
   "gui.guide.new_moon": "Lua Nova",
   "gui.guide.waxing_crescent": "Lua Crescente",
   "gui.guide.first_quarter": "Quarto Crescente",
-  "gui.guide.waxing_gibbous": "Crescente Gibosa",
+  "gui.guide.waxing_gibbous": "Gibosa Crescente",
 
   "gui.guide.day": "Dia",
   "gui.guide.dawn_and_dusk": "Amanhecer e anoitecer",
@@ -1295,7 +1295,7 @@
   "gui.starcatcher.tournament.organizer": "Organizador",
   "gui.starcatcher.tournament.status": "Status",
   "gui.starcatcher.tournament.duration": "Duração",
-  "gui.starcatcher.tournament.start_date": "Inscrito em",
+  "gui.starcatcher.tournament.start_date": "Data de Início",
   "gui.starcatcher.tournament.previous_tournaments": "Torneios anteriores",
   "gui.starcatcher.tournament.signed_up": "Jogadores inscritos",
   "gui.starcatcher.tournament.scores": "Pontuações dos jogadores",
@@ -1337,13 +1337,13 @@
   "starcatcher.message.amethyst_hook.3": "eu finalmente arrumar umas ferramentas de diamante.",
   "starcatcher.message.amethyst_hook.4": "",
   "starcatcher.message.amethyst_hook.5": "Pelo menos era o que eu pensava,",
-  "starcatcher.message.amethyst_hook.6": "se eu soubesse que deixaria meu gancho de ametista",
+  "starcatcher.message.amethyst_hook.6": "se eu soubesse que deixaria meu anzol de ametista",
   "starcatcher.message.amethyst_hook.7": "cair nos lagos de água de ardósia abissal,",
   "starcatcher.message.amethyst_hook.8": "eu nunca teria descido até lá.",
   "starcatcher.message.amethyst_hook.9": "",
   "starcatcher.message.amethyst_hook.10": "Se alguém encontrar esta carta à deriva nos",
   "starcatcher.message.amethyst_hook.11": "oceanos, sinta-se livre para pegar meu precioso",
-  "starcatcher.message.amethyst_hook.12": "Gancho de Ametista. Assim que você pescar pelo menos",
+  "starcatcher.message.amethyst_hook.12": "Anzol de Ametista. Assim que você pescar pelo menos",
   "starcatcher.message.amethyst_hook.13": "um peixe épico, os <scuncommon>Pescadores Mais Antigos</scuncommon>",
   "starcatcher.message.amethyst_hook.14": "darão sua bênção a você e",
   "starcatcher.message.amethyst_hook.15": "meu anzol de ametista morderá o seu anzol.",
@@ -1377,7 +1377,7 @@
   "starcatcher.message.lava_proof_2.7": "promessas de frascos <sclava>À Prova de Lava™</sclava>, eu fiquei",
   "starcatcher.message.lava_proof_2.8": "cético e nunca lhes dei uma chance.",
   "starcatcher.message.lava_proof_2.9": "",
-  "starcatcher.message.lava_proof_2.10": "O que posso dizer, vivendo e aprendendo.",
+  "starcatcher.message.lava_proof_2.10": "O que posso dizer, a gente vive e aprende.",
   "starcatcher.message.lava_proof_2.11": "",
   "starcatcher.message.lava_proof_2.12": "Tenho que ir, ouvi dizer que há um novo",
   "starcatcher.message.lava_proof_2.13": "suposto encantamento 'à prova de lava'. Até parece.",
@@ -1478,11 +1478,11 @@
   "tooltip.starcatcher.message.0": "A metade da mensagem de uma mensagem na garrafa.",
   "tooltip.starcatcher.message.1": "Quem sabe há quanto tempo ela está à deriva nas ondas para chegar até você.",
 
-  "item.starcatcher.broken_bottle": "Garrafa quebrada",
+  "item.starcatcher.broken_bottle": "Garrafa Quebrada",
   "tooltip.starcatcher.broken_bottle.0": "Uma garrafa quebrada lembrando dos tempos em que estava inteira.",
   "tooltip.starcatcher.broken_bottle.1": "Algumas coisas nunca voltam a ser como eram antes.",
 
-  "item.starcatcher.secret_note": "Nota secreta",
+  "item.starcatcher.secret_note": "Nota Secreta",
   "tooltip.starcatcher.secret_note.0": "Uma velha nota secreta quase perdida no tempo.",
   "tooltip.starcatcher.secret_note.1": "Segurando nada mais do que os pensamentos de",
   "tooltip.starcatcher.secret_note.2": "aqueles provavelmente não mais entre nós.",
@@ -1497,7 +1497,7 @@
   "tooltip.starcatcher.cooked_starcaught_fish.0": "Um peixe estelar, mas assado.",
   "tooltip.starcatcher.cooked_starcaught_fish.1": "Não sobrou nada de especial no que resta deste peixe outrora belo.",
 
-  "item.starcatcher.starcaught_bucket": "Balde Starcaught",
+  "item.starcatcher.starcaught_bucket": "Balde Estelar",
   "tooltip.starcatcher.starcaught_bucket.name": "Balde de %s",
 
   "item.starcatcher.starcaught_lava_bucket": "Balde de Lava Estelar",
@@ -1534,8 +1534,8 @@
 
 
   "item.starcatcher.obidontiee": "Obidontiee",
-  "tooltip.starcatcher.obidontiee.0": "Um peixinho perverso. Diz-se que muitas vezes pronuncia palavras incorretamente.",
-  "tooltip.starcatcher.obidontiee.1": "Diz-se que costuma pronunciar palavras incorretamente.",
+  "tooltip.starcatcher.obidontiee.0": "Um peixinho perverso.",
+  "tooltip.starcatcher.obidontiee.1": "Dizem que costuma pronunciar palavras incorretamente.",
 
   "item.starcatcher.driftfin": "Barbatana Derivante",
   "tooltip.starcatcher.driftfin.0": "Um peixe pequeno que passa a maior parte do tempo nos lagos da superfície.",
@@ -1665,7 +1665,7 @@
 
   "item.starcatcher.mirage_carp": "Carpa Miragem",
   "tooltip.starcatcher.mirage_carp.0": "Uma espécie de carpa encontrada em dias quentes e ensolarados em climas quentes.",
-  "tooltip.starcatcher.mirage_carp.1": "Dizem que os aldeões do deserto lhe deram esse nome,,",
+  "tooltip.starcatcher.mirage_carp.1": "Dizem que os aldeões do deserto lhe deram esse nome,",
   "tooltip.starcatcher.mirage_carp.2": "já que avistar uma era muitas vezes apenas uma miragem.",
 
 
@@ -1819,7 +1819,7 @@
   "tooltip.starcatcher.crystalback_minnow.0": "Um peixe realmente pequeno frequentemente usado como isca.",
   "tooltip.starcatcher.crystalback_minnow.1": "Esta espécie específica é mais comum à noite.",
 
-  "item.starcatcher.azure_crystalback_minnow": "Lambari Dorso de Cristal Azure",
+  "item.starcatcher.azure_crystalback_minnow": "Lambari Dorso de Cristal Lazúli",
   "tooltip.starcatcher.azure_crystalback_minnow.0": "Uma mutação rara de lambari dorso de cristal",
   "tooltip.starcatcher.azure_crystalback_minnow.1": "que brilha num tom azul suave durante a meia-noite.",
   "tooltip.starcatcher.azure_crystalback_minnow.2": "Uma captura desafiadora devido ao seu tamanho minúsculo.",
@@ -1898,7 +1898,7 @@
   "tooltip.starcatcher.whiteveil.0": "Um peixe pálido de barbatanas longas comum no subterrâneo.",
   "tooltip.starcatcher.whiteveil.1": "surpreendentemente pesado para o que parece ser um fantasma.",
 
-  "item.starcatcher.black_eel": "Enguia de Preta",
+  "item.starcatcher.black_eel": "Enguia Preta",
   "tooltip.starcatcher.black_eel.0": "Uma enguia preta carnívora comum no subterrâneo.",
 
   "item.starcatcher.amethystback": "Dorso de Ametista",
@@ -1946,23 +1946,23 @@
   "tooltip.starcatcher.ghostly_pike.0": "Um lúcio de aparência fantasmagórica encontrado nas profundezas do subsolo.",
 
   "item.starcatcher.aquamarine_pike": "Lúcio de Água Marinha",
-  "tooltip.starcatcher.aquamarine_pike.0": "Um peixe predador encontrado no nível da ardósia.",
+  "tooltip.starcatcher.aquamarine_pike.0": "Um peixe predador encontrado no nível da ardosiabissal.",
 
   "item.starcatcher.garnet_mackerel": "Cavala de Granada",
   "tooltip.starcatcher.garnet_mackerel.0": "Uma espécie de cavala fácil de pescar, encontrada nas profundezas das cavernas.",
 
   "item.starcatcher.bright_amethyst_snapper": "Caranha de Ametista Brilhante",
   "tooltip.starcatcher.bright_amethyst_snapper.0": "Um deslumbrante peixe de cor rosa encontrado no nível da ardosiabissal.",
-  "tooltip.starcatcher.bright_amethyst_snapper.1": "Dizem que ele sempre nada junto de um Pargo de Ametista Escura.",
+  "tooltip.starcatcher.bright_amethyst_snapper.1": "Dizem que ela sempre nada junto de uma Caranha de Ametista Escura.",
 
   "item.starcatcher.dark_amethyst_snapper": "Caranha de Ametista Escura",
   "tooltip.starcatcher.dark_amethyst_snapper.0": "Um deslumbrante peixe de cor azul escuro encontrado no nível da ardosiabissal.",
-  "tooltip.starcatcher.dark_amethyst_snapper.1": "Dizem que ele sempre nada junto de um Pargo de Ametista Clara.",
+  "tooltip.starcatcher.dark_amethyst_snapper.1": "Dizem que ela sempre nada junto de uma Caranha de Ametista Brilhante.",
 
   "item.starcatcher.deepslatefish": "Peixe de Ardosiabissal",
-  "tooltip.starcatcher.deepslatefish.0": "Um peixe <sclegendary>lendário</scsclegenday> encontrado apenas no alto das montanhas.",
+  "tooltip.starcatcher.deepslatefish.0": "Um peixe <sclegendary>lendário</sclegendary> encontrado apenas no alto das montanhas.",
   "tooltip.starcatcher.deepslatefish.1": "Brincadeira. É encontrado na ardosiabissal.",
-  "tooltip.starcatcher.deepslatefish.2": "Uma pesca incrivelmente difícil devido às suas escamas de ardósia que desaparecem.",
+  "tooltip.starcatcher.deepslatefish.2": "Uma pesca incrivelmente difícil devido às suas escamas de ardosiabissal que desaparecem.",
 
 
 
@@ -2005,7 +2005,7 @@
 
 
   "item.starcatcher.scorched_bloodsucker": "Sanguessuga Chamuscada",
-  "tooltip.starcatcher.scorched_bloodsucker.0": "Um parasita semelhante a um camarão, difícil de pescar, encontrado em lagos de lava na ardósia.",
+  "tooltip.starcatcher.scorched_bloodsucker.0": "Um parasita semelhante a um camarão, difícil de pescar, encontrado em lagos de lava na ardosiabissal.",
 
   "item.starcatcher.molten_deepslate_crab": "Caranguejo de Ardosiabissal Derretida",
   "tooltip.starcatcher.molten_deepslate_crab.0": "Um caranguejo de cor dourada encontrado em níveis de ardosiabissal perto de rios de lava.",
@@ -2064,7 +2064,7 @@
   "item.starcatcher.voidbiter": "Mordedor do Vazio",
   "tooltip.starcatcher.voidbiter.0": "Um peixe <sclegendary>lendário</sclegendary> encontrado flutuando no vasto vazio dO End.",
   "tooltip.starcatcher.voidbiter.1": "Tão poucos pescadores o viram que sua existência não passa de um boato.",
-  "tooltip.starcatcher.voidbiter.2": "Se alguém o pescasse, seria seguro assumir que é um descendente dos <scuncommon>Pescadores Desatualizados</scuncommon>.",
+  "tooltip.starcatcher.voidbiter.2": "Se alguém o pescasse, seria seguro assumir que é um descendente dos <scuncommon>Pescadores Mais Antigos</scuncommon>.",
 
   "item.starcatcher.purple_carp": "Carpa Roxa",
   "tooltip.starcatcher.purple_carp.0": "Estas espécies de carpa se adaptaram ao vazio frio dO End.",
@@ -2130,5 +2130,126 @@
 
   "item.starcatcher.meka_agave_bream": "Brema de Agave Meka",
   "tooltip.starcatcher.meka_agave_bream.0": "A versão mecânica de uma Brema de Agave feita para controlar a população de bremas.",
-  "tooltip.starcatcher.meka_agave_bream.1": "Se não conseguir encontrar uma Brema de Agave adequada a tempo, hibernará até a próxima época de acasalamento."
+  "tooltip.starcatcher.meka_agave_bream.1": "Se não conseguir encontrar uma Brema de Agave adequada a tempo, hibernará até a próxima época de acasalamento.",
+
+
+
+
+
+
+  "itemGroup.fancytabsections.fancy_things": "Shiny Things",
+  "itemGroup.fancytabsections.dirty_tools": "Dirty Tools",
+
+  "section.fancytabsections.shiny_things": "Coisas Brilhantes",
+  "section.fancytabsections.pretty_things": "Coisas Bonitas!",
+  "section.fancytabsections.secret_things": "Seção secreta que tem um nome bem longo para demonstrar a rolagem...",
+  "section.fancytabsections.hotbar": "Ordem Correta da Hotbar",
+  "section.fancytabsections.very_dirty_tools": "Ferramentas Muito Sujas",
+  "section.fancytabsections.decently_dirty_tools": "Ferramentas Razoavelmente Sujas",
+
+
+
+
+
+
+  "tooltip.libtooltips.generic.shift_up": "§7⏬ [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§7] ⏬",
+  "tooltip.libtooltips.generic.shift_down": "§7⏫ [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§7] ⏫",
+  "tooltip.libtooltips.generic.empty": "",
+
+  "key.category.libtooltips.libtooltips": "LibTooltips",
+  "key.libtooltips.expand": "Expandir Dica de Ferramenta",
+
+  "libtooltips.configuration.enable_tooltips": "Ativar Dicas de Ferramenta",
+  "libtooltips.configuration.line_before": "Linha vazia antes",
+  "libtooltips.configuration.line_before.tooltip": "Adiciona uma linha vazia ANTES da descrição, DEPOIS do [shift]",
+  "libtooltips.configuration.spaces_before_tooltip": "Espaços antes da dica",
+  "libtooltips.configuration.spaces_before_tooltip.tooltip": "Adiciona X espaços ANTES do texto da dica",
+  "libtooltips.configuration.line_after": "Linha vazia depois",
+  "libtooltips.configuration.line_after.tooltip": "Adiciona uma linha vazia DEPOIS da descrição",
+  "libtooltips.configuration.default_color": "Cor da Descrição",
+  "libtooltips.configuration.default_color.tooltip": "Qual cor usar como base para a dica. O valor é a cor como um número inteiro (use um seletor de cores online)",
+  "libtooltips.configuration.title": "Configurações do LibTooltips",
+
+  "tooltip.namespace.path.0": "Que dica chique com <ltrgb>arco-íris rgb</ltrgb>!",
+  "tooltip.namespace.path.1": "E olha, até suporta várias linhas, uau",
+  "tooltip.namespace.path.2": "Para evitar incompatibilidades com outras APIs de processamento de texto,",
+  "tooltip.namespace.path.3": "é recomendado que as tags tenham um nome não genérico, como 'ltrgb' em vez de 'rgb'",
+  "tooltip.namespace.path.4": "hide",
+  "tooltip.namespace.path.5": "Definir uma linha como 'hide' vai impedir que o restante das linhas seja exibido.",
+  "tooltip.namespace.path.6": "Isso é útil para traduções em que idiomas diferentes podem ter menos linhas que o padrão.",
+
+  "tooltip.always.namespace.path.0": "Esta dica sempre vai aparecer!",
+
+
+
+
+
+
+  "tinymultiblocklib.configuration.title": "Tiny Multiblock Lib",
+  "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml.title": "Configuração de Cliente do TMBL",
+  "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml": "Configuração de Cliente do TMBL",
+  "tinymultiblocklib.configuration.disable_multiblock_previews": "Desativar Pré-visualizações de Multiblocos",
+  "tinymultiblocklib.configuration.disable_multiblock_previews.tooltip": "Desativa as pré-visualizações fantasma ao tentar posicionar um multibloco",
+
+
+
+
+
+
+  "selling_bin.configuration.always_show_selling_bin_price": "Sempre Mostrar Preços da Caixa de Venda",
+  "selling_bin.configuration.selling_in_multiplier": "Multiplicador da Caixa de Venda",
+
+
+  "emi.category.selling_bin.selling_bin_selling": "Caixa de Venda",
+  "emi.category.selling_bin.selling_bin_currencies": "Moedas da Caixa de Venda",
+
+  "gui.selling_bin.selling.empty.0": "Não há itens vendáveis registrados na Caixa de Venda!",
+  "gui.selling_bin.selling.empty.1": "",
+  "gui.selling_bin.selling.empty.2": "A Caixa de Venda não faz nada sem um datapack.",
+  "gui.selling_bin.selling.empty.3": "",
+  "gui.selling_bin.selling.empty.4": "Veja a wiki em github.com/wdiscute/Selling-Bin/wiki para pacotes prontos",
+  "gui.selling_bin.selling.empty.5": "de dados que você pode usar, e como adicionar e personalizar o seu próprio.",
+  "gui.selling_bin.selling.empty.6": "",
+  "gui.selling_bin.selling.empty.7": "Você também pode selecionar um dos datapacks prontos e",
+  "gui.selling_bin.selling.empty.8": "embutidos durante a criação do mundo, na seção de datapacks, igual ao vanilla,",
+  "gui.selling_bin.selling.empty.9": "ou usar /datapack enable XXXXXXXXX",
+
+
+  "gui.selling_bin.currency.empty.0": "Não há moedas registradas na Caixa de Venda!",
+  "gui.selling_bin.currency.empty.1": "",
+  "gui.selling_bin.currency.empty.2": "A Caixa de Venda não faz nada sem um datapack.",
+  "gui.selling_bin.currency.empty.3": "",
+  "gui.selling_bin.currency.empty.4": "Veja a wiki em github.com/wdiscute/Selling-Bin/wiki para pacotes prontos",
+  "gui.selling_bin.currency.empty.5": "de dados que você pode usar, e como adicionar e personalizar o seu próprio.",
+  "gui.selling_bin.currency.empty.6": "",
+  "gui.selling_bin.currency.empty.7": "Você também pode selecionar um dos datapacks prontos e",
+  "gui.selling_bin.currency.empty.8": "embutidos durante a criação do mundo, na seção de datapacks, igual ao vanilla,",
+  "gui.selling_bin.currency.empty.9": "ou usar /datapack enable XXXXXXXXX",
+
+
+  "gui.selling_bin.processor.durability": "- O preço é ajustado com base na durabilidade restante.",
+  "gui.selling_bin.processor.food": "- O preço aumenta com base na fome e na saturação.",
+  "gui.selling_bin.processor.enchantments": "- O preço aumenta com base nos encantamentos.",
+  "gui.selling_bin.processor.quality_foods_processor": "- O preço aumenta com base na Qualidade.",
+  "gui.selling_bin.processor.wine_age_processor": "- O preço aumenta com base na idade do vinho.",
+  "gui.selling_bin.processor.beer_quality_processor": "- O preço aumenta com base na qualidade da cerveja.",
+
+
+  "gui.selling_bin.value": "valor",
+  "gui.selling_bin.base_price": "Preço:",
+  "gui.selling_bin.processors": "Processadores:",
+  "gui.selling_bin.sell": "Vender",
+  "gui.selling_bin.sell_all": "Vender Tudo",
+  "gui.selling_bin.auto_sell": "Venda Automática",
+  "gui.selling_bin.sell_sound": "Som de Venda",
+  "gui.selling_bin.currency_selected": "Moeda:",
+  "gui.selling_bin.currencies": "Moedas:",
+  "gui.selling_bin.highest": "Maior Possível",
+  "gui.selling_bin.card_slot": "Cartão do Banco Numismático",
+
+
+  "block.selling_bin.selling_bin": "Caixa de Venda",
+
+  "item.minecraft.emerald.plural": "Esmeraldas",
+  "block.minecraft.emerald_block.plural": "Blocos de Esmeralda"
 }

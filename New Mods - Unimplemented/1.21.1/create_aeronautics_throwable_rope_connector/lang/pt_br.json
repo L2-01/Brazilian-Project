@@ -5,7 +5,7 @@
   "message.create_aeronautics_throwable_rope_connector.no_valid_anchor_point": "Nenhum ponto de ancoragem válido",
   "message.create_aeronautics_throwable_rope_connector.target_too_far": "Alvo distante demais",
   "message.create_aeronautics_throwable_rope_connector.cannot_attach_there": "Impossível fixar aqui",
-  "message.create_aeronautics_throwable_rope_connector.missing_simulated": "Integração com Create não disponível",
+  "message.create_aeronautics_throwable_rope_connector.missing_simulated": "Integração com Create Simulated indisponível",
   "message.create_aeronautics_throwable_rope_connector.offhand_ammo_required": "Coloque um Conector de Corda Arremessável na mão secundária",
   "message.create_aeronautics_throwable_rope_connector.mounted_no_ammo": "Nenhum conector carregado",
   "message.create_aeronautics_throwable_rope_connector.mounted_already_connected": "Já conectado",
@@ -15,7 +15,7 @@
   "message.create_aeronautics_throwable_rope_connector.mounted_anchor_failed": "Nenhuma âncora válida encontrada",
   "message.create_aeronautics_throwable_rope_connector.mounted_release_disabled": "Liberação remota desativada na configuração",
   "message.create_aeronautics_throwable_rope_connector.mounted_controls": "Botão Esquerdo: Atirar | Botão Direito: Soltar Âncora | Agachar: Desmontar | Munição: %s",
-  "message.create_aeronautics_throwable_rope_connector.mounted_controls_release_disabled": "Botão Esquerdo: Atirar | Botão Direito: Soltar Não | Agachar: Desmontar | Munição: %s",
+  "message.create_aeronautics_throwable_rope_connector.mounted_controls_release_disabled": "Botão Esquerdo: Atirar | Botão Direito: Liberação Desativada | Agachar: Desmontar | Munição: %s",
   "tooltip.create_aeronautics_throwable_rope_connector.mounted_rope_launcher.load": "Botão Direito com Conector de Corda Arremessável para carregar munição",
   "tooltip.create_aeronautics_throwable_rope_connector.mounted_rope_launcher.mount": "Botão Direito para montar",
   "tooltip.create_aeronautics_throwable_rope_connector.mounted_rope_launcher.release": "Agachar + Botão Direito com a mão vazia para soltar âncora",
@@ -36,7 +36,7 @@
   "create_aeronautics_throwable_rope_connector.configuration.consumeOnSuccessOnly": "Consumir apenas em caso de sucesso",
   "create_aeronautics_throwable_rope_connector.configuration.playParticles": "Exibir partículas",
   "create_aeronautics_throwable_rope_connector.configuration.showFailureMessages": "Exibir mensagens de falha",
-  "create_aeronautics_throwable_rope_connector.configuration.showProjectileRopeTrail": "Exibir corda do projétil com feixe de luz",
+  "create_aeronautics_throwable_rope_connector.configuration.showProjectileRopeTrail": "Exibir rastro de corda do projétil",
   "create_aeronautics_throwable_rope_connector.configuration.mountedRedstoneFire": "Disparo de redstone montado",
   "create_aeronautics_throwable_rope_connector.configuration.mountedAnchorReleaseMode": "Modo de soltar âncora montado"
 }

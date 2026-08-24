@@ -138,7 +138,7 @@
   "aeronautics.potato_cannon.ammo": "Munição: %s x%s",
   "aeronautics.potato_cannon.attack_damage": "Dano de ataque: %s",
   "aeronautics.potato_cannon.knockback": "Repulsão: %s",
-  "aeronautics.potato_cannon.reload_ticks": "Ticks de recarga: %s",
+  "aeronautics.potato_cannon.reload_ticks": "Tiques de recarga: %s",
   "aeronautics.propeller.airflow": "Fluxo de ar: %s",
   "aeronautics.propeller.can_lift": "Capacidade de sustentação: %s",
   "aeronautics.propeller.sails": "Velas",
@@ -186,7 +186,7 @@
   "block.aeronautics.lime_envelope_encased_shaft": "Eixo Revestido com Envelope Verde-Limão",
   "block.aeronautics.magenta_envelope": "Envelope de Ar Quente Magenta",
   "block.aeronautics.magenta_envelope_encased_shaft": "Eixo Revestido com Envelope Magenta",
-  "block.aeronautics.mounted_potato_cannon": "Canhão de Batata Montado",
+  "block.aeronautics.mounted_potato_cannon": "Canhão de Batatas Montado",
   "block.aeronautics.orange_envelope": "Envelope de Ar Quente Laranja",
   "block.aeronautics.orange_envelope_encased_shaft": "Eixo Revestido com Envelope Laranja",
   "block.aeronautics.pearlescent_levitite": "Levitita Perolada",
@@ -201,7 +201,7 @@
   "block.aeronautics.smart_propeller.tooltip.behaviour1": "_Inverte_ a direção em que a hélice fornece empuxo.",
   "block.aeronautics.smart_propeller.tooltip.condition1": "Ao clicar com o botão direito usando a chave inglesa",
   "block.aeronautics.smart_propeller.tooltip.summary": "_Gera empuxo_ ao girar. _Ajusta a inclinação da hélice_ em um eixo para _tentar apontar para cima._",
-  "block.aeronautics.steam_vent": "Saída de Vapor",
+  "block.aeronautics.steam_vent": "Duto de Vapor",
   "block.aeronautics.white_envelope": "Envelope de Ar Quente",
   "block.aeronautics.white_envelope_encased_shaft": "Eixo Revestido com Envelope Branco",
   "block.aeronautics.wooden_propeller": "Hélice de Madeira",
@@ -219,6 +219,94 @@
   "item.aeronautics.music_disc_cloud_skipper": "Disco de Música",
   "jukebox_song.aeronautics.cloud_skipper": "Starlotte - Cloud Skipper",
 
+
+
+
+
+
+  "item.aeronautics.aviators_goggles.tooltip": {
+    "behaviour1": "_Componentes cinéticos_ mostram o _impacto de estresse_ ou _capacidade_ adicionada. _Estressômetros_ mostram estatísticas da _rede cinética conectada_. Outros blocos revelam informações como o conteúdo de itens e fluidos.",
+    "condition1": "Ao olhar para blocos",
+    "summary": "Expande a HUD com _informações diversas_ sobre componentes colocados."
+  },
+
+
+  "aeronautics": {
+    "simulated_section.aeronautics": "Aeronáutica",
+
+    "unit": {
+      "kpg": "%s kpg",
+      "mpg": "%s Mpg",
+      "gpg": "%s Gpg",
+      "pn": "%s pN",
+      "kpn": "%s kpN",
+      "mpn": "%s MpN",
+      "gpn": "%s GpN",
+      "meter_cubed": "%s m³",
+      "meters_per_second": "%s m/s"
+    },
+    "tooltip": {
+      "capacity_used": "Estresse cinético usado:"
+    },
+    "scroll_option": {
+      "hot_air_amount": "Saída máxima de ar quente",
+      "thrust_direction": "Direção do empuxo"
+    },
+    "generic": {
+      "pull_when_clockwise": "Puxa ar no sentido horário",
+      "push_when_clockwise": "Empurra ar no sentido horário",
+      "hot_air": "Ar quente"
+    },
+    "display_source": {
+      "propeller": {
+        "data": "Dados da hélice",
+        "thrust": "Empuxo",
+        "airflow": "Fluxo de ar"
+      },
+      "lifting_gas": {
+        "data": "Dados do gás de sustentação",
+        "volume": "Volume",
+        "total_lift": "Sustentação total"
+      }
+    },
+    "propeller": {
+      "thrust": "Empuxo: %s",
+      "airflow": "Fluxo de ar: %s",
+      "can_lift": "Capacidade de sustentação: %s",
+      "sails": "Velas"
+    },
+    "potato_cannon": {
+      "ammo": "Munição: %s x%s",
+      "attack_damage": "Dano de ataque: %s",
+      "knockback": "Repulsão: %s",
+      "reload_ticks": "Ticks de recarga: %s"
+    },
+    "boiler": {
+      "via_one_vent": "via 1 duto",
+      "via_vents": "via %1$s dutos"
+    },
+    "lifting_gas": {
+      "default": "Gás",
+      "steam": "Vapor",
+
+      "gas_output": "Saída de %s: %s",
+      "balloon": "Balão: ",
+      "fill": "Encher... %s",
+      "total_lift": "Sustentação total: %s",
+      "balloon_volume": "Volume do balão: %s",
+      "no_suitable_balloon": "Nenhum balão adequado encontrado"
+    }
+  },
+
+  "block": {
+    "aeronautics": {
+      "smart_propeller.tooltip": {
+        "summary": "_Gera empuxo_ ao girar. _Ajusta a inclinação da hélice_ em um eixo para _tentar apontar para cima._",
+        "condition1": "Ao clicar com o botão direito usando a chave inglesa",
+        "behaviour1": "_Inverte_ a direção em que a hélice fornece empuxo."
+      }
+    }
+  },
 
 
 
@@ -258,18 +346,18 @@
   "offroad.ponder.borehead_bearing_efficiency.header": "Eficiência do rolamento de perfuração",
   "offroad.ponder.borehead_bearing_efficiency.text_1": "Quanto mais blocos um rolamento de perfuração tentar quebrar, mais devagar funcionará",
   "offroad.ponder.borehead_bearing_efficiency.text_2": "Usar múltiplos rolamentos de perfuração pode compensar isso",
-  "offroad.ponder.borehead_bearing_excavating.header": "Escavando com rodas cortadoras de rocha",
+  "offroad.ponder.borehead_bearing_excavating.header": "Escavando com Discos de Corte de Rocha",
   "offroad.ponder.borehead_bearing_excavating.text_1": "Ao contrário das brocas normais, os Discos de Corte de Rocha quebram blocos em uma área ao seu redor",
   "offroad.ponder.borehead_bearing_intro.header": "Uso de Rolamentos da Cabeça de Perfuração e Discos de Corte de Rocha",
   "offroad.ponder.borehead_bearing_intro.text_1": "Os Rolamentos da Cabeça de Perfuração se conectam ao bloco à sua frente",
   "offroad.ponder.borehead_bearing_intro.text_2": "Quando há um Contêiner de Armazenamento e Discos de Corte de Rocha, a estrutura funciona como uma perfuratriz",
   "offroad.ponder.borehead_bearing_intro.text_3": "Os Discos de Corte de Rocha se conectam automaticamente a blocos e entre si sem precisar de Supercola",
-  "offroad.ponder.borehead_bearing_intro.text_4": "O Rolamento da Cabeça de Perfuração inverte o sentido da rotação...",
+  "offroad.ponder.borehead_bearing_intro.text_4": "O Rolamento de Perfuração inverte o sentido da rotação...",
   "offroad.ponder.borehead_bearing_intro.text_5": "...e gira a 0,25x da velocidade de rotação fornecida",
   "offroad.ponder.borehead_bearing_intro.text_6": "A velocidade de mineração depende da rotação de entrada...",
   "offroad.ponder.borehead_bearing_intro.text_7": "...e o armazenamento da perfuratriz coleta os itens automaticamente",
   "offroad.ponder.borehead_bearing_intro.text_8": "Quando o armazenamento da perfuratriz estiver cheio, ela não conseguirá continuar quebrando blocos",
-  "offroad.ponder.borehead_bearing_intro.text_9": "Para resolver isso, você pode extrair os itens diretamente do Rolamento da Cabeça de Perfuração",
+  "offroad.ponder.borehead_bearing_intro.text_9": "Para resolver isso, você pode extrair os itens diretamente do Rolamento de Perfuração",
   "offroad.scroll_option.suspension_strength": "Força da Suspensão",
   "offroad.scroll_option.suspension_strength_label": "Força",
   "offroad.simulated_section.offroad": "Off-road",
@@ -281,8 +369,65 @@
 
 
 
+  "block.offroad.wheel_mount.tooltip": {
+    "summary": "Monta itens do tipo _roda_ para permitir o deslocamento terrestre.",
+    "condition1": "Quando energizado por cima",
+    "behaviour1": "_Freia_ a roda acoplada, _aumentando o atrito_.",
+    "condition2": "Quando energizado pelo lado",
+    "behaviour2": "_Esterce_ a roda em direção ao _lado de onde vem o sinal_."
+  },
+
+  "item.offroad.small_tire.tooltip": {
+    "summary": "Uma roda _todo-terreno_ pequena.",
+    "condition1": "Ao clicar com o botão direito no suporte de roda",
+    "behaviour1": "_Coloca_ o pneu no suporte."
+  },
+
+  "item.offroad.tire.tooltip": {
+    "summary": "Uma roda _todo-terreno_ padrão.",
+    "condition1": "Ao clicar com o botão direito no suporte de roda",
+    "behaviour1": "_Coloca_ o pneu no suporte."
+  },
+
+  "item.offroad.large_tire.tooltip": {
+    "summary": "Uma roda _todo-terreno_ grande.",
+    "condition1": "Ao clicar com o botão direito no suporte de roda",
+    "behaviour1": "_Coloca_ o pneu no suporte."
+  },
+
+  "item.offroad.monstrous_tire.tooltip": {
+    "summary": "Uma roda _todo-terreno_ monstruosamente grande.",
+    "condition1": "Ao clicar com o botão direito no suporte de roda",
+    "behaviour1": "_Coloca_ o pneu no suporte."
+  },
+
+  "offroad": {
+    "simulated_section.offroad": "Off-road",
+    "tooltip.borehead_bearing_stress": "Discos de Corte de Rocha",
+
+    "scroll_option": {
+      "suspension_strength": "Força da Suspensão",
+      "suspension_strength_label": "Força"
+    },
+
+    "exceptions": {
+      "borehead_bearing": {
+        "insuffecient_rockcutting_wheels": "A estrutura acoplada não inclui nenhuma _roda cortadora de rocha_:\nNo mínimo _uma_ é necessária.",
+        "insuffecient_inventory_blocks": "A estrutura acoplada não inclui nenhum bloco de _inventário_.",
+
+        "too_many_items": "Esta engenhoca não é capaz de escavar.",
+        "too_many_items_description": "Não há _armazenamento_ _suficiente_ para coletar mais blocos. _Remova_ os itens em excesso para continuar escavando."
+      }
+    }
+  },
+
+
+
+
+
+
   "advancement.simulated.a_calculated_connection": "Uma Conexão Calculada",
-  "advancement.simulated.a_calculated_connection.desc": "Aline e conecte dois conectores de atracação",
+  "advancement.simulated.a_calculated_connection.desc": "Aline e conecte dois Conectores de Ancoragem",
   "advancement.simulated.applied_kinematics": "Cinemática Aplicada",
   "advancement.simulated.applied_kinematics.desc": "Obtenha um montador de física, o coração de toda engenhoca simulada",
   "advancement.simulated.big_beam": "Grande Feixe",
@@ -346,21 +491,21 @@
   "block.simulated.analog_transmission": "Transmissão Analógica",
   "block.simulated.auger_cog": "Engrenagem Helicoidal",
   "block.simulated.auger_shaft": "Eixo Helicoidal",
-  "block.simulated.black_handle": "Alça Preta",
-  "block.simulated.black_nameplate": "Plaqueta de Identificação Preta",
+  "block.simulated.black_handle": "Cabo Preto",
+  "block.simulated.black_nameplate": "Placa de Nome Preta",
   "block.simulated.black_portable_engine": "Motor Portátil Preto",
   "block.simulated.black_symmetric_sail": "Vela Simétrica Preta",
-  "block.simulated.blue_handle": "Alça Azul",
-  "block.simulated.blue_nameplate": "Plaqueta de Identificação Azul",
+  "block.simulated.blue_handle": "Cabo Azul",
+  "block.simulated.blue_nameplate": "Placa de Nome Azul",
   "block.simulated.blue_portable_engine": "Motor Portátil Azul",
   "block.simulated.blue_symmetric_sail": "Vela Simétrica Azul",
-  "block.simulated.brown_handle": "Alça Marrom",
-  "block.simulated.brown_nameplate": "Plaqueta de Identificação Marrom",
+  "block.simulated.brown_handle": "Cabo Marrom",
+  "block.simulated.brown_nameplate": "Placa de Nome Marrom",
   "block.simulated.brown_portable_engine": "Motor Portátil Marrom",
   "block.simulated.brown_symmetric_sail": "Vela Simétrica Marrom",
   "block.simulated.copper_handle": "Alça de Cobre",
-  "block.simulated.cyan_handle": "Alça Ciano",
-  "block.simulated.cyan_nameplate": "Plaqueta de Identificação Ciano",
+  "block.simulated.cyan_handle": "Cabo Ciano",
+  "block.simulated.cyan_nameplate": "Placa de Nome Ciano",
   "block.simulated.cyan_portable_engine": "Motor Portátil Ciano",
   "block.simulated.cyan_symmetric_sail": "Vela Simétrica Ciano",
   "block.simulated.directional_gearshift": "Câmbio Direcional",
@@ -563,7 +708,7 @@
   "simulated.display_source.velocity_sensor.speed": "Velocidade relativa",
   "simulated.display_source.velocity_sensor.towards": "Aproximando-se",
   "simulated.extra_kinetics.default": "Cinética Extra",
-  "simulated.extra_kinetics.extra_cogwheel": "Rotação da engrenagem",
+  "simulated.extra_kinetics.extra_cogwheel": "Engrenagem de Rotação",
   "simulated.extra_kinetics.information": "Informações de: %s",
   "simulated.extra_kinetics.torsion_output": "Eixo de Saída",
   "simulated.generic.pull_when_clockwise": "Puxar ar ao girar no sentido horário",
@@ -615,7 +760,9 @@
   "simulated.linked_typewriter.title": "Máquina de Escrever Vinculada",
   "simulated.merging_glue.block_exists": "Já existe um bloco aqui!",
   "simulated.merging_glue.connection_terminated": "Seleção descartada",
-  "simulated.merging_glue.invalid_directions": "Direções inválidas!",
+  "simulated.merging_glue.invalid_directions.down_down": "Não é possível colar duas faces voltadas para baixo!",
+  "simulated.merging_glue.invalid_directions.horizontal_vertical": "Não é possível colar faces horizontais e verticais!",
+  "simulated.merging_glue.invalid_directions.up_up": "Não é possível colar duas faces voltadas para cima!",
   "simulated.merging_glue.not_enough_support": "Esta face não tem suporte suficiente!",
   "simulated.merging_glue.only_between_sub_levels": "Só é possível colar entre engenhocas simuladas!",
   "simulated.merging_glue.out_of_range": "Fora de alcance!",
@@ -666,8 +813,8 @@
   "simulated.ponder.directional_receiver.text_3": "Um ângulo mais raso resulta em uma menor intensidade de sinal recebido",
   "simulated.ponder.directional_receiver.text_4": "Receptores Conectados Direcionais não podem receber sinais de Links de Redstone atrás deles",
   "simulated.ponder.directional_receiver.text_5": "Receptores Conectados Direcionais respeitam as mesmas frequências de itens que os Links de Redstone usam",
-  "simulated.ponder.docking_connector.header": "Uso de Conectores de Encaixe",
-  "simulated.ponder.docking_connector.text_1": "Conectores de encaixe podem criar conexões rígidas em pares",
+  "simulated.ponder.docking_connector.header": "Uso de Conectores de Ancoragem",
+  "simulated.ponder.docking_connector.text_1": "Conectores de Ancoragem podem criar conexões rígidas em pares",
   "simulated.ponder.docking_connector.text_2": "Conectores estendidos tentam se alinhar entre si",
   "simulated.ponder.docking_connector.text_3": "Assim que alinhados o suficiente, os conectores se travarão",
   "simulated.ponder.docking_connector.text_4": "A conexão é rígida, mas mantém os dois lados independentes",
@@ -675,8 +822,8 @@
   "simulated.ponder.docking_connector.text_6": "A inserção e a extração devem ocorrer em ambos os lados da conexão",
   "simulated.ponder.docking_connector.text_7": "Qualquer um dos conectores pode ser recolhido para desencaixar",
   "simulated.ponder.docking_connector.text_8": "Comparadores de Redstone podem ser usados para ler o progresso do encaixe",
-  "simulated.ponder.gimbal_sensor_intro.header": "Uso do Sensor Cardan",
-  "simulated.ponder.gimbal_sensor_intro.text_1": "O Sensor Cardan emite um sinal de redstone com base na sua orientação",
+  "simulated.ponder.gimbal_sensor_intro.header": "Uso do Sensor Gimbal",
+  "simulated.ponder.gimbal_sensor_intro.text_1": "O Sensor Gimbal emite um sinal de redstone com base na sua orientação",
   "simulated.ponder.gimbal_sensor_intro.text_2": "Por padrão, o sinal é emitido no declive",
   "simulated.ponder.gimbal_sensor_intro.text_3": "As caixas de valor podem configurar o ângulo do sinal máximo...",
   "simulated.ponder.gimbal_sensor_intro.text_4": "...e inverter a direção de saída",
@@ -874,9 +1021,9 @@
   "simulated.spring.too_stretched": "Muito esticado!",
   "simulated.subtitle.block.absorber.eats": "Fera maligna consome refeição miserável",
   "simulated.subtitle.block.auger_shaft.encase": "Revestindo eixo de broca",
-  "simulated.subtitle.block.docking_connector.dock": "Conector de atracação conecta",
-  "simulated.subtitle.block.docking_connector.extend": "Conector de atracação se estende",
-  "simulated.subtitle.block.docking_connector.retract": "Conector de atracação se retrai",
+  "simulated.subtitle.block.docking_connector.dock": "Conector de Ancoragem conecta",
+  "simulated.subtitle.block.docking_connector.extend": "Conector de Ancoragem se estende",
+  "simulated.subtitle.block.docking_connector.retract": "Conector de Ancoragem se retrai",
   "simulated.subtitle.block.linked_typewriter.tap": "Máquina de escrever vinculada digita",
   "simulated.subtitle.block.physics_assembler.assemble": "Engenhoca simulada se move",
   "simulated.subtitle.block.physics_assembler.disassemble": "Engenhoca simulada para",
@@ -928,5 +1075,407 @@
   "stat.simulated.interact_with_steering_wheel": "Interações com o volante",
   "stat.simulated.portable_engines_fed": "Motores portáteis alimentados",
   "stat.simulated.simulated_contraptions_named": "Engenhocas simuladas nomeadas",
-  "stat.simulated.typewriter_key_presses": "Teclas pressionadas na máquina de escrever"
+  "stat.simulated.typewriter_key_presses": "Teclas pressionadas na máquina de escrever",
+
+
+
+
+
+
+
+  "simulated": {
+    "simulated_section.simulated": "Simulado",
+
+    "prevent_disassembly": "Desmontagem impedida a partir de um montador físico não primário",
+
+    "generic": {
+      "pull_when_clockwise": "Puxar ar ao girar no sentido horário",
+      "push_when_clockwise": "Empurrar ar ao girar no sentido horário",
+      "swivel_default_always_locked": "Sempre bloqueada",
+      "swivel_default_always_unlocked": "Sempre desbloqueada",
+      "swivel_default_unlocked": "Energizada - Bloqueada",
+      "swivel_default_locked": "Desenergizada - Bloqueada"
+    },
+
+    "key": {
+      "alt": "Alt"
+    },
+
+    "scroll_option": {
+      "swivel_default_locked": "Comportamento de bloqueio por Redstone"
+    },
+
+    "linked_typewriter": {
+      "title": "Máquina de Escrever Vinculada",
+      "start_controlling": "Controlando %s agora",
+      "stop_controlling": "Deixou de controlar %s",
+      "bind_mode": "Modo de vinculação ativo",
+      "press_keybind": "Pressione qualquer tecla para vincular as frequências deste controle remoto à Máquina de Escrever Vinculada",
+      "key_bound": "Frequência vinculada a %1$s",
+      "bound": "Frequência vinculada",
+      "controller_bound": "Frequências do controle vinculadas",
+      "confirm_delete_all": "Isto excluirá todos os atalhos atuais. Clique novamente para confirmar.",
+      "bind_screen_title": "Editando atalhos de teclado",
+      "bind_screen_description": "Entrada vinculada a:",
+      "bind_screen_prompt": "Pressione uma tecla...",
+      "bind_item": "Pressione qualquer tecla para vincular esta frequência à tecla respectiva",
+      "bind_success": "Frequência vinculada a %s",
+      "delete.key": "Confirmar exclusão?",
+      "bind_new_key": "Vincular nova tecla",
+      "linked_controller_copy": "Teclas do controle vinculado adicionadas",
+      "key_count": "%1$s teclas configuradas"
+    },
+
+    "contraption_diagram": {
+      "total_mass": "Massa total: ",
+      "mass": "%s kpg",
+      "cannot_use": "Este diagrama deve estar em uma engenhoca simulada para ser inspecionado...",
+      "toggle_paper": "Configurar diagrama",
+      "shown": "Visível",
+      "hidden": "Não",
+      "center_of_mass": "Centro de massa: ",
+      "merged": "Mesclado",
+      "unmerged": "Separar",
+      "merge_forces": "Flechas de força: ",
+
+      "force_arrow": "%s força de %s",
+      "merged_force_arrow": "Forças de %s %s totalizando %s",
+      "merging_numeral": "%s",
+      "force_arrow_magnitude": "%s pN"
+    },
+
+    "analog_transmission": {
+      "too_fast": "Rápido demais",
+      "too_fast_error": "Parece que esta _Transmissão Analógica_ está tentando exceder a _velocidade máxima de rotação_. Reduza ou remova o _Sinal de Redstone_ dela para desacelerá-la."
+    },
+
+    "swivel_bearing": {
+      "too_fast": "Rápido demais",
+      "too_fast_error": "Parece que este _rolamento giratório_ está girando _rápido demais_."
+    },
+
+    "auger_shaft": {
+      "information": "Informações do Eixo da Broca",
+      "item_flow": "-> Transportando %1$s pilhas por segundo",
+      "actor_items": "Contém %1$s itens de atores",
+      "update_progress": "Progresso do item:"
+    },
+
+    "portable_engine": {
+      "tooltip_name": "Motor Portátil",
+      "superheated": "Superaquecido",
+      "superheated_time": "Superaquecido (%s)",
+      "infinite": "Infinito",
+      "time": "Tempo de queima: %s",
+      "fuel": "Combustível: %s",
+      "none": "Nenhum",
+      "byproduct": "Subproduto: %s"
+    },
+
+    "velocity_sensor": {
+      "description": "Velocidade máxima",
+      "selection": {
+        "away": "Afastar",
+        "towards": "Aproximar"
+      }
+    },
+
+    "optical_sensor.max_length": "Distância máxima de detecção",
+    "laser_pointer.max_length": "Distância máxima de alcance",
+    "torsion_spring.angle_limit": "Ângulo máximo",
+    "nameplate": {
+      "edit": "Editar nome",
+      "target.unwaxed": "A plaqueta não está encerada"
+    },
+
+    "gui": {
+      "assembly.exception": {
+        "couldNotAlign": "Não foi possível alinhar a engenhoca simulada para desmontar!",
+        "outOfWorld": "Não é possível desmontar fora do mundo!",
+        "tooFarFromGround": "Muito longe do chão para desmontar!",
+        "tooFast": "Movendo-se rápido demais para desmontar!",
+        "sameSubLevel": "Não é possível desmontar na mesma engenhoca simulada!"
+      },
+
+      "hold_tip": {
+        "hold_to_assemble": "Segure e arraste para montar",
+        "hold_to_disassemble": "Segure e arraste para desmontar",
+        "hold_to_adjust": "Segure e arraste para ajustar",
+        "hold_to_rotate": "Segure e arraste para girar"
+      },
+
+      "altitude_sensor.title": "Configurar alcance do sinal",
+
+      "modulating_linked_receiver": {
+        "title": "Modulando receptor vinculado",
+        "minimum_range": "Alcance mínimo",
+        "maximum_range": "Alcance máximo",
+        "min": "Mín.",
+        "max": "Máx."
+      },
+
+      "threshold_switch.rope_winch_length": "%1$s blocos"
+    },
+
+    "zipline": {
+      "too_far": "A corda está longe demais!",
+      "too_steep": "A corda está íngreme demais!"
+    },
+
+    "extra_kinetics": {
+      "default": "Cinética Extra",
+      "information": "Informações de: %s",
+      "extra_cogwheel": "Engrenagem de Rotação",
+      "torsion_output": "Eixo de Saída"
+    },
+
+    "plunger_launcher": {
+      "clear_plungers": "Desentupidores lançados limpos!"
+    },
+
+    "spring": {
+      "out_of_range": "Fora de alcance!",
+      "same_block": "Mesma posição de bloco!",
+      "block_exists": "Já existe um bloco aqui!",
+      "not_enough_support": "Esta face não tem suporte suficiente!",
+      "connection_terminated": "Seleção descartada",
+      "new_length": "Comprimento definido para %sm",
+      "min_length": "Comprimento mínimo (%sm)",
+      "max_length": "Comprimento máximo (%sm)",
+      "too_compressed": "Muito comprimido!",
+      "too_stretched": "Muito esticado!"
+    },
+
+    "altitude_sensor": {
+      "height": "Altura: %s",
+      "air_pressure": "Pressão do ar: %s"
+    },
+
+    "gimbal_sensor": {
+      "x_angle": "Ângulo X: %s",
+      "z_angle": "Ângulo Z: %s"
+    },
+
+    "merging_glue": {
+      "out_of_range": "Fora de alcance!",
+      "same_block": "Mesma posição de bloco!",
+      "block_exists": "Já existe um bloco aqui!",
+      "invalid_directions": {
+        "horizontal_vertical": "Não é possível colar faces horizontais e verticais!",
+        "up_up": "Não é possível colar duas faces voltadas para cima!",
+        "down_down": "Não é possível colar duas faces voltadas para baixo!"
+      },
+      "only_between_sub_levels": "Só é possível colar entre engenhocas simuladas!",
+      "same_sub_level": "Não é possível colar na mesma engenhoca simulada!",
+      "not_enough_support": "Esta face não tem suporte suficiente!",
+      "connection_terminated": "Seleção descartada"
+    },
+
+    "unit": {
+      "mass": "%s kpg",
+      "restitution": "%s%%",
+      "friction": "%s μ",
+      "floating": "%s kpg",
+
+      "length_blocks": "Blocos"
+    },
+
+    "tooltip": {
+      "dynamic_stress_impact": "Dinâmico",
+
+      "properties": "Propriedades:",
+      "mass": {
+        "none": "Sem peso",
+        "super_light": "Superleve",
+        "light": "Leve",
+        "heavy": "Pesado",
+        "super_heavy": "Superpesado",
+        "absurdly_heavy": "Absurdamente pesado"
+      },
+      "friction": {
+        "slippery": "Escorregadio",
+        "sticky": "Pegajoso"
+      },
+      "bouncy": "Elástico",
+      "fragile": "Frágil",
+      "airtight": "Hermético",
+      "floating": "Flutuante",
+
+      "new_ponder": "(Novo!)"
+    },
+
+    "display_source": {
+      "optical_sensor": {
+        "data": "Dados do Sensor Óptico",
+        "detected_block": "Bloco detectado",
+        "block_distance": "Distância do bloco"
+      },
+
+      "laser_sensor": {
+        "data": "Dados do Sensor Laser",
+        "laser_distance": "Distância do laser"
+      },
+
+      "velocity_sensor": {
+        "data": "Dados do Sensor de Velocidade",
+        "speed": "Velocidade relativa",
+        "description": "Velocidade máxima e direção de saída",
+        "towards": "Aproximando-se",
+        "away": "Afastando-se"
+      },
+
+      "altitude_sensor": {
+        "data": "Dados do Sensor de Altitude",
+        "height": "Altura",
+        "air_pressure": "Pressão do ar"
+      },
+
+      "gimbal_sensor": {
+        "data": "Dados do Sensor Gimbal",
+        "x_angle": "Ângulo X",
+        "z_angle": "Ângulo Z"
+      },
+
+      "portable_engine": {
+        "data": "Dados do Motor Portátil",
+        "current_burn": "Tempo de queima atual",
+        "total_burn": "Tempo de queima total"
+      },
+
+      "navigation_table": {
+        "data": "Dados da Mesa de Navegação",
+        "distance": "Distância do alvo",
+        "eta_real": "Previsão de chegada ao alvo"
+      },
+
+      "typewriter": {
+        "typed_text": "Texto digitado"
+      },
+
+      "item_throughput": "Vazão de itens",
+      "sublevel_name": "Nome da engenhoca"
+    }
+  },
+
+  "generator.simulated": {
+    "airship_ready": "Pronto para Aeronave",
+    "airship_ready.info": "Um mundo superplano em y=63 para simular condições normais de pressão do ar.",
+    "end_sea": "Mar do End"
+  },
+
+  "block.simulated": {
+    "handle.tooltip": {
+      "summary": "Fixe em um bloco para _segurá-lo_ com facilidade.",
+      "condition1": "Segurar Clique Direito",
+      "behaviour1": "_Puxa_ o cabo, movendo você ao redor dele.",
+      "condition2": "Segurar Clique Direito ao Agachar",
+      "behaviour2": "_Puxa_ o cabo, movendo apenas a _Engenhoca Simulada_ em que o cabo está.",
+      "condition3": "Rolar enquanto segura o Clique Direito",
+      "behaviour3": "Ajusta a _distância_, aproximando ou afastando o cabo"
+    },
+
+    "linked_typewriter.tooltip": {
+      "summary": "Garante controle prático sobre várias frequências do _Elo de Redstone_ atribuídas às suas _teclas_.",
+      "condition1": "Ao clicar com o botão direito",
+      "behaviour1": "_Alterna_ a Máquina de Escrever Vinculada. Os _controles de movimentos_ e quaisquer _teclas atribuídas_ são assumidos enquanto estiver ativa.",
+      "condition2": "Ao clicar com o botão direito enquanto agacha",
+      "behaviour2": "Abre a _Interface de Configuração_ manual.",
+      "condition3": "Clique direito com Controle Vinculado",
+      "behaviour3": "Vincula as frequências do _Controle Vinculado_ à máquina de escrever.",
+      "condition4": "Clique direito com item no Receptor do Elo de Redstone",
+      "behaviour4": "Ativa o _Modo de Vinculação_, pressione _qualquer tecla_ para vinculá-la à _Frequência do Elo_. (As frequências são _salvas_ quando a Máquina de Escrever Vinculada é _quebrada_)"
+    },
+
+    "absorber.tooltip": {
+      "summary": "§c[Placeholder] INCOMPLETO. NÃO §cFUNCIONA."
+    },
+
+    "nameplate.tooltip": {
+      "summary": "_Declare o nome_ da sua _Engenhoca Simulada_!",
+      "condition1": "Ao clicar com o botão direito",
+      "behaviour1": "_Editar_ o _nome_ exibido na Placa de Nome",
+      "condition2": "Ao clicar com o botão direito usando Corante",
+      "behaviour2": "_Altera a cor_ do nome na Placa de Nome",
+      "condition3": "Ao clicar com o botão direito usando Favo de Mel",
+      "behaviour3": "_Bloqueia_ o nome exibido na Placa de Nome",
+      "condition4": "Ao usar em uma Engenhoca Simulada",
+      "behaviour4": "Todas as Placas de Nome vão _compartilhar e definir_ o nome da _Engenhoca Simulada_"
+    },
+
+    "redstone_inductor": {
+      "copy": "Copiar",
+      "invert": "Inverter"
+    },
+
+    "redstone_accumulator": {
+      "input_delay": "Atraso de Entrada"
+    }
+  },
+
+  "item.simulated": {
+    "plunger_launcher.tooltip": {
+      "summary": "Slomhp! Mova _Engenhocas Simuladas_ com o poder da sucção. Pode ser alimentado com a _Pressão_ do _Ar_ de um _Reservatório de Ar_.",
+      "condition1": "Ao clicar com o botão direito",
+      "behaviour1": "_Dispara_ um _Desentupidor_ preso a uma corda. Dois Desentupidores disparados vão se _conectar_ e _puxar os blocos presos juntos_.",
+      "condition2": "Ao clicar com o botão direito usando Shift",
+      "behaviour2": "_Remove_ todos os _Desentupidores_ presos a cordas.",
+      "condition3": "Enquanto usar o Reservatório de Ar",
+      "behaviour3": "_Nenhuma_ _Durabilidade_ será usada. Em vez disso, a _pressão_ do _Ar_ é drenada do Reservatório"
+    },
+
+    "spring.tooltip": {
+      "summary": "Boing! _Conecta_ dois blocos com uma _mola._",
+      "condition1": "Ao clicar com o botão direito usando Chave Inglesa",
+      "behaviour1": "Ajusta a _força_ da mola",
+      "condition2": "Ao clicar com o botão direito usando Mola",
+      "behaviour2": "_Aumenta_ o comprimento de repouso",
+      "condition3": "Ao clicar com o botão direito e Shift com uma Mola",
+      "behaviour3": "_Reduz_ o comprimento de repouso"
+    },
+
+    "creative_physics_staff.tooltip": {
+      "summary": "Ferramenta do _Modo Criativo_ para mover _Engenhocas Simuladas_.",
+      "condition1": "Clique esquerdo na Engenhoca Simulada",
+      "behaviour1": "A _Engenhoca Alvo_ ficará _bloqueada no lugar_.",
+      "condition2": "Clique direito na Engenhoca Simulada",
+      "behaviour2": "_Alterna o arraste_ da _Engenhoca Alvo_ com o cajado.",
+      "condition3": "Segurar Tab ao arrastar",
+      "behaviour3": "Gira a _Engenhoca Alvo_ com o cajado.",
+      "condition4": "Rolar ao arrastar",
+      "behaviour4": "Ajusta _a que distância_ você está _arrastando_ a _Engenhoca Alvo_"
+    },
+
+    "contraption_diagram.tooltip": {
+      "summary": "Um _diagrama visual_ com informações detalhadas sobre uma _Engenhoca Simulada_.",
+      "condition1": "Ao clicar com o botão direito em uma Engenhoca Simulada",
+      "behaviour1": "_Visualize forças_ atuando na _Engenhoca Simulada_"
+    }
+  },
+
+
+  "create": {
+    "item_attributes": {
+      "block_mass": "massa é %s kpg",
+      "block_mass.inverted": "massa não é %s kpg",
+      "block_friction": "atrito é %s μ",
+      "block_friction.inverted": "atrito não é %s μ",
+      "block_bounciness": "elasticidade é %s",
+      "block_bounciness.inverted": "elasticidade não é %s"
+    }
+  },
+
+  "stat.simulated": {
+    "format": {
+      "meals": "%s refeições",
+      "short_stories": "%s contos"
+    },
+
+    "interact_with_assembler": "Interações com o montador",
+    "interact_with_contraption_diagram": "Interações com o diagrama da engenhoca",
+    "interact_with_handle": "Interações com a manivela",
+    "interact_with_steering_wheel": "Interações com o volante",
+    "portable_engines_fed": "Motores portáteis alimentados",
+    "simulated_contraptions_named": "Engenhocas simuladas nomeadas",
+    "typewriter_key_presses": "Teclas pressionadas na máquina de escrever"
+  }
 }

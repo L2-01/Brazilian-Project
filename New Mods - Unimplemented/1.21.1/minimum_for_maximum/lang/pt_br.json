@@ -31,7 +31,7 @@
   "jei.minformax.aether_ingot.info": "Para obter o Lingote de Éter, basta jogar a Espuma Quântica na Superfície na coordenada Y acima de 1000.",
   "jei.minformax.void_ingot.info": "Para obter o Lingote do Vazio, basta jogar a Espuma Quântica no End na coordenada Y abaixo de 0.",
   "jei.minformax.quantum_foam.info": "Para obter a Espuma Quântica, Shift + clique direito com um Lingote Quântico em um Gerador Eterno. Pelo menos 5120 de sobrecarga são necessários.",
-  "jei.minformax.babylon_key.info": "Estrutura multibloco capaz de acelerar os ticks de tudo em seu interior. Tamanho mínimo de 3x3x3. Sem tamanho máximo.\nPara construir a estrutura, as arestas e os cantos são construídos com Revestimentos de Sakuradita. Paredes e faces são preenchidas com qualquer bloco de Sakuradita. Requer uma escotilha de entrada de energia para alimentar a estrutura.\nPara formar o multibloco, basta clicar com a Chave da Babilônia.",
+  "jei.minformax.babylon_key.info": "Estrutura multibloco capaz de acelerar os tiques de tudo em seu interior. Tamanho mínimo de 3x3x3. Sem tamanho máximo.\nPara construir a estrutura, as arestas e os cantos são construídos com Revestimentos de Sakuradita. Paredes e faces são preenchidas com qualquer bloco de Sakuradita. Requer uma escotilha de entrada de energia para alimentar a estrutura.\nPara formar o multibloco, basta clicar com a Chave da Babilônia.",
 
   "tooltip.minformax.phantom": "§bAs Escotilhas de Sakuradita são fantasmas, então você pode usá-las como entrada para o Portão da Babilônia.",
   "tooltip.minformax.owner": "§aProprietário: %s",
@@ -47,7 +47,7 @@
   "tooltip.minformax.ultimate_speed_upgrade": "§c0x de consumo de energia",
   "tooltip.minformax.ultimate_processing_upgrade": "§cApenas para o §eCoalescedor de Minério.",
   "tooltip.minformax.inverted_upgrade": "§aPrincipal ↔ Adicional",
-  "tooltip.minformax.auto_smelting_upgrade": "§aFundirá itens automaticamente.",
+  "tooltip.minformax.auto_smelting_upgrade": "§aFunde itens automaticamente.",
   "tooltip.minformax.extra_drop_upgrade": "%s%% de chance de recompensa extra",
   "tooltip.minformax.fortune_upgrade": "Fortuna %s",
   "tooltip.minformax.processing_upgrade": "%sx operações",
@@ -100,7 +100,7 @@
   "message.minformax.config_tool.pasted": "Configuração colada!",
   "message.minformax.config_tool.no_config": "Nenhuma configuração armazenada na ferramenta!",
   "message.minformax.linker.already": "Todos os geradores adjacentes já estão %svinculados",
-  "message.minformax.linker.mass": "Vinculados em massa %s geradores adjacentes %s!",
+  "message.minformax.linker.mass": "%s Vinculados em massa %s geradores adjacentes!",
 
   "command.minformax.index.add_all": "Adicionados todos os índices de %s para %s",
   "command.minformax.index.clear": "Índice limpo para %s",

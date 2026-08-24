@@ -71,11 +71,11 @@
 	"bonsaitrees4.configuration.gameplay": "Jogabilidade",
 	"bonsaitrees4.configuration.gameplay.tooltip": "Opções relacionadas a jogabilidade, balanceamento e recursos.",
 
-	"bonsaitrees4.configuration.gameplay.baseGrowTicks": "Ticks padrão para crescer",
+	"bonsaitrees4.configuration.gameplay.baseGrowTicks": "Tiques padrão para crescer",
 	"bonsaitrees4.configuration.gameplay.baseGrowTicks.tooltip": "Se uma árvore de bonsai não tiver um tempo de crescimento personalizado, este valor será usado.",
 
 	"bonsaitrees4.configuration.gameplay.cutCooldown": "Tempo de recarga de excesso de saída",
-	"bonsaitrees4.configuration.gameplay.cutCooldown.tooltip": "Principalmente para evitar sobrecarga do servidor ao fazer spam da ação de corte se a saída estiver cheia. O tempo de recarga em ticks antes que o servidor tente cortar o bonsai novamente.",
+	"bonsaitrees4.configuration.gameplay.cutCooldown.tooltip": "Principalmente para evitar sobrecarga do servidor ao fazer spam da ação de corte se a saída estiver cheia. O tempo de recarga em tiques antes que o servidor tente cortar o bonsai novamente.",
 
 	"bonsaitrees4.configuration.gameplay.toolDamagePerCut": "Dano na ferramenta por corte",
 	"bonsaitrees4.configuration.gameplay.toolDamagePerCut.tooltip": "Toda vez que um bonsai é cortado, há uma chance de que a ferramenta usada receba essa quantidade de dano.",
@@ -84,7 +84,7 @@
 	"bonsaitrees4.configuration.gameplay.toolDamageChance.tooltip": "A chance de que a ferramenta receba dano ao cortar um bonsai.",
 
 	"bonsaitrees4.configuration.gameplay.toolAllowIndestructible": "Permitir ferramentas indestrutíveis",
-	"bonsaitrees4.configuration.gameplay.toolAllowIndestructible.tooltip": "Quando ativado, ferramentas que não recebem dano (ex: Machado de Suprêmium da Mystical Agriculture) podem ser usadas para cortar bonsais.",
+	"bonsaitrees4.configuration.gameplay.toolAllowIndestructible.tooltip": "Quando ativado, ferramentas que não recebem dano (ex: Machado de Suprêmio da Mystical Agriculture) podem ser usadas para cortar bonsais.",
 
 	"bonsaitrees4.configuration.client": "Cliente",
 	"bonsaitrees4.configuration.client.tooltip": "Opções relacionadas à renderização e exibição de informações.",
@@ -105,5 +105,5 @@
 	"bonsaitrees4.redstone_mode.stop_on_power": "Parar com sinal de redstone próximo",
 	"bonsaitrees4.redstone_mode.require_power": "Funcionar apenas com sinal de redstone próximo",
 
-	"config.jade.plugin_bonsaitrees4.jade/bonsai_pot": "Bonsai Pot"
+	"config.jade.plugin_bonsaitrees4.jade/bonsai_pot": "Vaso de Bonsai"
 }
