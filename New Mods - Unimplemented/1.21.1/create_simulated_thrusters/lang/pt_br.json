@@ -36,20 +36,20 @@
   "block.create_simulated_thrusters.redstone_thruster.tooltip.behaviour2": "A aceleração é definida pela _intensidade do sinal de redstone_ (0–15). Sem sinal, não há empuxo.",
 
   "block.create_simulated_thrusters.brass_thruster.tooltip": "PROPULSOR DE LATÃO",
-  "block.create_simulated_thrusters.brass_thruster.tooltip.summary": "Um propulsor multi-bloco pesado com _empuxo vetorial_ via controle de gimbal. Ocupa uma estrutura de _3×3×3_.",
+  "block.create_simulated_thrusters.brass_thruster.tooltip.summary": "Um propulsor multibloco pesado com _empuxo vetorial_ via controle de gimbal. Ocupa uma estrutura de _3×3×3_.",
   "block.create_simulated_thrusters.brass_thruster.tooltip.condition1": "Ao colocar",
   "block.create_simulated_thrusters.brass_thruster.tooltip.behaviour1": "Constrói automaticamente sua estrutura de 3×3×3 ao redor do bloco colocado. O bloco colocado torna-se o _controlador_ entre os dois blocos de _entrada de gimbal_ onde o eixo é conectado.",
   "block.create_simulated_thrusters.brass_thruster.tooltip.condition2": "Ao girar",
   "block.create_simulated_thrusters.brass_thruster.tooltip.behaviour2": "Produz empuxo no sentido do _Eixo_. A saída escala com o RPM até o máximo configurado e consome esforço cinético.",
   "block.create_simulated_thrusters.brass_thruster.tooltip.condition3": "Controle de Gimbal",
-  "block.create_simulated_thrusters.brass_thruster.tooltip.behaviour3": "Força os blocos de gimbal _esquerdo_ e _direito_ com redstone para _vetorizar o empuxo_. A diferença entre os dois sinais define o ângulo do gimbal.",
-  "block.create_simulated_thrusters.brass_thruster.tooltip.condition4": "Clique com o botão direito com uma Chave Inglesa",
+  "block.create_simulated_thrusters.brass_thruster.tooltip.behaviour3": "Energize os blocos de gimbal _esquerdo_ e _direito_ com redstone para _vetorizar o empuxo_. A diferença entre os dois sinais define o ângulo do gimbal.",
+  "block.create_simulated_thrusters.brass_thruster.tooltip.condition4": "Clique com o botão direito com uma Chave-inglesa",
   "block.create_simulated_thrusters.brass_thruster.tooltip.behaviour4": "Gira o painel do gimbal _90° ao redor do eixo de empuxo_, reatribuindo quais lados recebem as entradas de redstone.",
 
   "block.create_simulated_thrusters.blaze_thruster.tooltip": "PROPULSOR DE BLAZE",
   "block.create_simulated_thrusters.blaze_thruster.tooltip.summary": "Um propulsor _movido a combustível_ que produz força _sem consumir esforço cinético_.",
   "block.create_simulated_thrusters.blaze_thruster.tooltip.condition1": "Quando energizado por Redstone",
   "block.create_simulated_thrusters.blaze_thruster.tooltip.behaviour1": "Pausa o empuxo e o consumo de combustível quando o controle de redstone estiver ativado na configuração.",
-  "block.create_simulated_thrusters.blaze_thruster.tooltip.condition2": "Combustível Aceito",
-  "block.create_simulated_thrusters.blaze_thruster.tooltip.behaviour2": "Usa _combustíveis do Queimador Blaze_; combustíveis mais fortes produzem _empuxo mais forte_."
+  "block.create_simulated_thrusters.blaze_thruster.tooltip.condition2": "Combustível aceito",
+  "block.create_simulated_thrusters.blaze_thruster.tooltip.behaviour2": "Usa _combustíveis do Queimador de Blaze_; combustíveis mais fortes produzem _empuxo mais forte_."
 }

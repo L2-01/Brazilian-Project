@@ -16,7 +16,7 @@
   "block.mysticalagradditions.end_prosperity_ore": "Minério de Prosperita do End",
   "block.mysticalagradditions.end_inferium_ore": "Minério de Infério do End",
   "block.mysticalagradditions.nether_star_crux": "Catalisador de Estrela do Nether",
-  "block.mysticalagradditions.dragon_egg_crux": "Catalisador de Ovo de Dragão",
+  "block.mysticalagradditions.dragon_egg_crux": "Catalisador de Ovo do Dragão",
   "block.mysticalagradditions.gaia_spirit_crux": "Catalisador de Espírito de Gaia",
   "block.mysticalagradditions.awakened_draconium_crux": "Catalisador de Dracônio Desperto",
   "block.mysticalagradditions.neutronium_crux": "Catalisador de Neutrônio",
@@ -28,7 +28,7 @@
   "item.mysticalagradditions.insanium_gemstone": "Gema de Insânio",
   "item.mysticalagradditions.nether_star_shard": "Fragmento de Estrela do Nether",
   "item.mysticalagradditions.withering_soul": "Alma do Wither",
-  "item.mysticalagradditions.dragon_egg_chunk": "Pedaço de Ovo de Dragão",
+  "item.mysticalagradditions.dragon_egg_chunk": "Pedaço de Ovo do Dragão",
   "item.mysticalagradditions.dragon_scale": "Escama de Dragão",
   "item.mysticalagradditions.creative_essence": "Essência Criativa",
   "item.mysticalagradditions.inferium_coal": "Carvão de Infério",
@@ -73,12 +73,12 @@
   "fluid_type.mysticalagradditions.molten_soulium": "Almalio Fundido",
 
   "tooltip.mysticalagradditions.drop_chance": "Chance de largar de %s",
-  "tooltip.mysticalagradditions.gives_buffs": "Concede efeitos:",
+  "tooltip.mysticalagradditions.gives_buffs": "Concede efeitos benéficos:",
 
   "jei.desc.mysticalagradditions.withering_soul": "O Wither solta ao morrer.",
   "jei.desc.mysticalagradditions.dragon_scale": "O Dragão Ender solta ao morrer.",
 
-  "config.jade.plugin_mysticalagradditions.infused_farmland": "nível de terra arada de essência",
+  "config.jade.plugin_mysticalagradditions.infused_farmland": "Nível de terra arada de essência",
 
   "cropTier.mysticalagradditions.6": "6",
 
@@ -94,7 +94,7 @@
 
   "book.mysticalagriculture.entry.insanium": "Essência de Insânio",
   "book.mysticalagriculture.entry.insanium.page.1": "A Essência de Insânio é um nível adicional de essência acima de Suprêmio. Ela é usada para criar plantações de nível 6. $(br2)As plantações de nível 6 têm algumas características únicas que os níveis inferiores não possuem: $(br)$(li)Exigem um $(l:mysticalagriculture:agradditions/cruxes)Catalisador$() abaixo da terra arada para crescer.$() $(li)Nunca soltam uma segunda semente ao serem colhidas.$()",
-  "book.mysticalagriculture.entry.insanium.page.2": "$(li)Elas $(bold)geralmente$() não podem ser cultivadas usando $(l:advances/mystical_fertilizer)Fertilizante Místico$() ou $(l:basics/fertilized_essence)Essência Fertilizada$().$()",
+  "book.mysticalagriculture.entry.insanium.page.2": "$(li)Elas $(bold)geralmente$() não podem ser cultivadas usando $(l:advances/mystical_fertilizer)Fertilizante Místico$() ou $(l:basics/fertilized_essence)Essência Fertilizante$().$()",
   "book.mysticalagriculture.entry.cruxes": "Catalisadores",
   "book.mysticalagriculture.entry.cruxes.page.1": "Catalisadores são blocos que você coloca abaixo de uma $(l:mysticalagriculture:agradditions/insanium)Plantação de Nível 6$() para que ela possa crescer.",
   "book.mysticalagriculture.entry.paxels": "Pacachados de Essência",
@@ -103,7 +103,7 @@
   "book.mysticalagriculture.entry.ore_variants.page.1": "Os Minérios de Prosperita e de Infério do Nether $(bold)geralmente$() surgem em todos os níveis Y no Nether.",
   "book.mysticalagriculture.entry.ore_variants.page.2": "Os Minérios de Prosperita e de Infério do End $(bold)geralmente$() surgem em todos os níveis Y no End.",
   "book.mysticalagriculture.entry.essence_apples": "Maçãs de Essência",
-  "book.mysticalagriculture.entry.essence_apples.page.1": "As maçãs de essência são uma alternativa muito mais \"saudável\" às maçãs comuns, fornecendo efeitos e nutrição adicional.",
+  "book.mysticalagriculture.entry.essence_apples.page.1": "As maçãs de essência são uma alternativa muito mais \"saudável\" às maçãs comuns, fornecendo efeitos benéficos e nutrição adicional.",
 
   "material.mysticalagradditions.inferium": "Infério",
   "material.mysticalagradditions.prudentium": "Prudêncio",

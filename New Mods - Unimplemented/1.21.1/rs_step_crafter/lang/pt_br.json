@@ -28,7 +28,7 @@
   "gui.stepcrafter.filter_slot.not_enough_ingredients": "Ingredientes insuficientes",
   "gui.stepcrafter.filter_slot.network_full": "A rede está cheia. Impossível inserir o resultado da fabricação",
   "gui.stepcrafter.filter_slot.external_container_full": "O recipiente externo está cheio ou não aceita itens",
-  "gui.stepcrafter.filter_slot.shift_click_to_configure_amount": "Shift + Clique para configurar a quantidade",
+  "gui.stepcrafter.filter_slot.shift_click_to_configure_amount": "Shift + clique para configurar a quantidade",
   "gui.stepcrafter.step_crafter_manager.search_mode.step_crafter_manager_names": "Nomes das Bancadas Automáticas por Etapa",
   "gui.stepcrafter.step_crafter_manager.search_mode.step_crafter_manager_names.help": "Pesquisar nos nomes das Bancadas Automáticas por Etapa.",
   "gui.stepcrafter.step_requester_manager.search_mode.step_requester_manager_names": "Nomes dos Solicitadores por Etapa",
@@ -51,7 +51,7 @@
   "tooltip.stepcrafter.resource_configuration.batch_size": "Tamanho do lote: %s",
   "text.autoconfig.stepcrafter.option.stepCrafter.energyUsage": "Consumo de energia",
   "text.autoconfig.stepcrafter.option.stepCrafter.energyUsage.tooltip": "A energia usada pela Bancada Automática por Etapa.",
-  "text.autoconfig.stepcrafter.option.stepCrafter.speedMultiplier": "Multiplicador de Velocidade",
+  "text.autoconfig.stepcrafter.option.stepCrafter.speedMultiplier": "Multiplicador de velocidade",
   "text.autoconfig.stepcrafter.option.stepCrafter.speedMultiplier.tooltip": "O multiplicador de velocidade por espaço de atualização da Bancada Automática por Etapa. Fórmula: <SpeedUpgradeAmount> * <SpeedMultiplier> + 1",
   "text.autoconfig.stepcrafter.option.stepRequester.energyUsage": "Consumo de energia",
   "text.autoconfig.stepcrafter.option.stepRequester.energyUsage.tooltip": "A energia usada pelo Solicitador por Etapa.",
@@ -70,5 +70,12 @@
   "text.autoconfig.stepcrafter.option.stepRequesterManager.viewType": "Tipo de visualização",
   "text.autoconfig.stepcrafter.option.stepRequesterManager.viewType.tooltip": "O tipo de visualização.",
   "text.autoconfig.stepcrafter.option.slotUpgrade.energyUsage": "Consumo de energia",
-  "text.autoconfig.stepcrafter.option.slotUpgrade.energyUsage.tooltip": "A energia usada pelo Espaço de Atualização."
+  "text.autoconfig.stepcrafter.option.slotUpgrade.energyUsage.tooltip": "A energia usada pelo Espaço de Atualização.",
+  "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults": "Padrões de configuração de recursos",
+  "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults.defaultMinAmount": "Mínimo padrão",
+  "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults.defaultMinAmount.tooltip": "Quantidade mínima padrão para recursos recém-configurados.",
+  "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults.defaultMaxAmount": "Máximo padrão",
+  "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults.defaultMaxAmount.tooltip": "Quantidade máxima padrão para recursos recém-configurados.",
+  "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults.defaultBatchSize": "Tamanho de lote padrão",
+  "text.autoconfig.stepcrafter.option.resourceConfigurationDefaults.defaultBatchSize.tooltip": "Tamanho de lote padrão para recursos recém-configurados."
 }
