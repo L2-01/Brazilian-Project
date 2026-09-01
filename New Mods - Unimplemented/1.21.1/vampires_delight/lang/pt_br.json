@@ -9,8 +9,8 @@
   "block.vampiresdelight.bloody_soil_farmland": "Terra Arada Sanguinolenta",
   "block.vampiresdelight.vampire_orchid_crop": "Orquídea Vampírica em Crescimento",
   "block.vampiresdelight.spirit_lantern": "Lampião Espiritual",
-  "block.vampiresdelight.dark_spruce_cabinet": "Armário de Pinheiro Escuro",
-  "block.vampiresdelight.cursed_spruce_cabinet": "Armário de Pinheiro Amaldiçoado",
+  "block.vampiresdelight.dark_spruce_cabinet": "Armário de Abeto Escuro",
+  "block.vampiresdelight.cursed_spruce_cabinet": "Armário de Abeto Amaldiçoado",
   "block.vampiresdelight.jacaranda_cabinet": "Armário de Jacarandá",
   "block.vampiresdelight.magic_cabinet": "Armário Mágico",
 
@@ -22,8 +22,8 @@
   "item.vampiresdelight.black_mushroom_noodles": "Macarrão com Cogumelo Preto",
 
   "block.vampiresdelight.oak_wine_shelf": "Prateleira de Vinho de Carvalho",
-  "block.vampiresdelight.spruce_wine_shelf": "Prateleira de Vinho de Pinheiro",
-  "block.vampiresdelight.birch_wine_shelf": "Prateleira de Vinho de Eucalipto",
+  "block.vampiresdelight.spruce_wine_shelf": "Prateleira de Vinho de Abeto",
+  "block.vampiresdelight.birch_wine_shelf": "Prateleira de Vinho de Bétula",
   "block.vampiresdelight.jungle_wine_shelf": "Prateleira de Vinho da Selva",
   "block.vampiresdelight.acacia_wine_shelf": "Prateleira de Vinho de Acácia",
   "block.vampiresdelight.dark_oak_wine_shelf": "Prateleira de Vinho de Carvalho Escuro",
@@ -31,9 +31,9 @@
   "block.vampiresdelight.cherry_wine_shelf": "Prateleira de Vinho de Cerejeira",
   "block.vampiresdelight.bamboo_wine_shelf": "Prateleira de Vinho de Bambu",
   "block.vampiresdelight.crimson_wine_shelf": "Prateleira de Vinho Carmim",
-  "block.vampiresdelight.warped_wine_shelf": "Prateleira de Vinho Distorcido",
-  "block.vampiresdelight.dark_spruce_wine_shelf": "Prateleira de Vinho de Pinheiro Escuro",
-  "block.vampiresdelight.cursed_spruce_wine_shelf": "Prateleira de Vinho de Pinheiro Amaldiçoado",
+  "block.vampiresdelight.warped_wine_shelf": "Prateleira de Vinho Distorcida",
+  "block.vampiresdelight.dark_spruce_wine_shelf": "Prateleira de Vinho de Abeto Escuro",
+  "block.vampiresdelight.cursed_spruce_wine_shelf": "Prateleira de Vinho de Abeto Amaldiçoado",
   "block.vampiresdelight.jacaranda_wine_shelf": "Prateleira de Vinho de Jacarandá",
   "block.vampiresdelight.magic_wine_shelf": "Prateleira de Vinho Mágico",
 
@@ -101,7 +101,7 @@
   "block.vampiresdelight.blood_pie": "Torta de Sangue",
   "item.vampiresdelight.blood_pie_slice": "Fatia de Torta de Sangue",
   "block.vampiresdelight.weird_jelly_block": "Geleia Estranha",
-  "item.vampiresdelight.weird_jelly": "Chapa de Geleia Estranha",
+  "item.vampiresdelight.weird_jelly": "Prato de Geleia Estranha",
 
   "block.vampiresdelight.orchid_cake": "Bolo de Orquídea",
   "item.vampiresdelight.orchid_cake_slice": "Fatia de Bolo de Orquídea",
@@ -136,7 +136,7 @@
   "entity.vampiresdelight.alchemical_cocktail": "Coquetel Alquímico",
 
   "effect.vampiresdelight.blessing": "Bênção",
-  "effect.vampiresdelight.blessing.description": "Protege contra espíritos malignos, como phantoms.",
+  "effect.vampiresdelight.blessing.description": "Protege contra espíritos malignos, como espectros.",
 
   "item.minecraft.potion.effect.blessing": "Poção de Bênção",
   "item.minecraft.splash_potion.effect.blessing": "Poção Arremessável de Bênção",
@@ -165,7 +165,7 @@
   "enchantment.vampiresdelight.vampire_bite": "Mordida de Vampiro",
   "enchantment.vampiresdelight.vampire_bite.desc": "Cura o jogador proporcionalmente ao dano causado.",
 
-  "vampiresdelight.tooltip.daisy_tea": "Cura Fraqueza, Cegueira, \nLentidão e Náusea",
+  "vampiresdelight.tooltip.daisy_tea": "Cura Fraqueza, Cegueira,\nLentidão e Náusea",
   "vampiresdelight.tooltip.orchid_tea": "Infecta com Sanguinare",
   "vampiresdelight.tooltip.cursed_cupcake": "Remove o efeito de alho",
   "vampiresdelight.tooltip.spirit_lantern": "Permite enxergar um pouco mais longe na névoa de vampiro ao segurar",
@@ -181,7 +181,7 @@
   "vampiresdelight.tooltip.dandelion_beer_bottle.single_serving": "Contém %s porção de cerveja",
   "vampiresdelight.tooltip.dandelion_beer_bottle.multiple_servings": "Contém %s porções de cerveja",
 
-  "vampiresdelight.text.planted_on_vampire_soil": "Deve ser plantado em terra arada amaldiçoada ou sangrenta",
+  "vampiresdelight.text.planted_on_vampire_soil": "Deve ser plantado em Terra Arada Amaldiçoada ou Terra Arada Sanguinolenta",
 
   "itemGroup.vampiresdelight": "Vampire's Delight",
 
@@ -198,36 +198,36 @@
   "vampiresdelight.advancement.root": "Vampire's Delight",
   "vampiresdelight.advancement.root.desc": "A alta gastronomia dos vampiros espera por você!",
 
-  "vampiresdelight.advancement.consume_disgusting_food": "Que Nojo!",
+  "vampiresdelight.advancement.consume_disgusting_food": "Que nojo!",
   "vampiresdelight.advancement.consume_disgusting_food.desc": "Coma qualquer comida nojenta que não seja destinada à sua espécie.",
 
-  "vampiresdelight.advancement.get_weathered_letter": "Fanfics Centenárias",
+  "vampiresdelight.advancement.get_weathered_letter": "Fanfics centenárias",
   "vampiresdelight.advancement.get_weathered_letter.desc": "Encontre uma Carta Desgastada em uma masmorra ou estrutura relacionada ao mod.",
 
-  "vampiresdelight.advancement.pour_dandelion_beer": "Eu Sabia que Vocês, Elfos, Não Tinham Honra!",
+  "vampiresdelight.advancement.pour_dandelion_beer": "Eu sabia que vocês, elfos, não tinham honra!",
   "vampiresdelight.advancement.pour_dandelion_beer.desc": "Despeje cerveja de dente-de-leão em um frasco de vidro usando ambas as mãos sem usar uma Bancada de Trabalho.",
-  "vampiresdelight.advancement.place_dandelion_beer_bottle_on_shelf": "Ele Não a Prepara Desde...",
+  "vampiresdelight.advancement.place_dandelion_beer_bottle_on_shelf": "Ele não a prepara desde...",
   "vampiresdelight.advancement.place_dandelion_beer_bottle_on_shelf.desc": "Coloque uma Garrafa de Cerveja de Dente-de-Leão em uma Prateleira de Vinho. E isso é sério, a propósito.",
 
-  "vampiresdelight.advancement.get_garlic": "Messias da Humanidade",
+  "vampiresdelight.advancement.get_garlic": "Messias da humanidade",
   "vampiresdelight.advancement.get_garlic.desc": "Encontre Alho na natureza ou na casa do treinador de caçadores.",
 
-  "vampiresdelight.advancement.get_vampire_orchid": "Seu Melhor Amigo",
+  "vampiresdelight.advancement.get_vampire_orchid": "Seu melhor amigo",
   "vampiresdelight.advancement.get_vampire_orchid.desc": "Encontre uma Orquídea Vampírica em uma Floresta Vampírica ou compre-a do Vendedor Ambulante.",
-  "vampiresdelight.advancement.plant_vampire_orchid_crop": "Beleza Atormentadora",
-  "vampiresdelight.advancement.plant_vampire_orchid_crop.desc": "Plante Sementes de Orquídea Vampírica em terra arada amaldiçoada ou sangrenta.",
-  "vampiresdelight.advancement.get_orchid_tea": "Só Arde no Começo",
+  "vampiresdelight.advancement.plant_vampire_orchid_crop": "Beleza atormentadora",
+  "vampiresdelight.advancement.plant_vampire_orchid_crop.desc": "Plante Sementes de Orquídea Vampírica em Terra Arada Amaldiçoada ou Terra Arada Sanguinolenta.",
+  "vampiresdelight.advancement.get_orchid_tea": "Só arde no começo",
   "vampiresdelight.advancement.get_orchid_tea.desc": "Prepare Chá de Orquídea. Ele pode infectar com Sanguinare se for consumido por um humano. Pode ser um pouco apimentado.",
 
-  "vampiresdelight.advancement.pour_blood_wine": "O Gosto É o Mesmo de que Me Lembro...",
+  "vampiresdelight.advancement.pour_blood_wine": "O gosto é o mesmo de que me lembro...",
   "vampiresdelight.advancement.pour_blood_wine.desc": "Despeje vinho de sangue em um frasco de vidro usando ambas as mãos sem usar uma Bancada de Trabalho.",
   "vampiresdelight.advancement.place_blood_wine_bottle_on_shelf": "In Vino Veritas",
   "vampiresdelight.advancement.place_blood_wine_bottle_on_shelf.desc": "Coloque uma Garrafa de Vinho de Sangue em uma Prateleira de Vinho.",
 
-  "vampiresdelight.advancement.get_human_eye": "Um Olhar Marcante",
+  "vampiresdelight.advancement.get_human_eye": "Um olhar marcante",
   "vampiresdelight.advancement.get_human_eye.desc": "Obtenha um Olho Humano de qualquer criatura humanoide, como um Aldeão ou Caçador de Vampiros, usando uma Faca.",
 
-  "vampiresdelight.advancement.get_clothes_dissolving_potion": "O Melhor Presente para um Homem",
+  "vampiresdelight.advancement.get_clothes_dissolving_potion": "O melhor presente para um homem",
   "vampiresdelight.advancement.get_clothes_dissolving_potion.desc": "Obtenha uma poção que dissolve roupas e descubra o sentido da vida. Não me pergunte como consegui-la, pergunte a um elfo.",
 
   "vampiresdelight.subtitles.block.bottle_breaks": "Frasco de vidro se quebra",
@@ -240,12 +240,12 @@
 
   "weathered_letter.vampiresdelight.borscht_recipe": "Nota de receita estranha",
   "weathered_letter.vampiresdelight.borscht_recipe.author": "por Sir Flopenko",
-  "weathered_letter.vampiresdelight.borscht_recipe.text": "Borscht, um bom borscht é sempre delicioso! Na verdade, a receita é simples - carne fresca e vegetais adocicados. Primeiro, cozinhamos o caldo com carne de porco ou vitela no osso. Depois, lavamos e picamos a beterraba, a cenoura e a cebola. Enquanto isso, preparamos o refogado: despeje óleo em uma frigideira aquecida, adicione a cebola, o alho e a cenoura. Assim que a cebola dourar, adicione a beterraba. Frite por 5 minutos, depois coloque o extrato de tomate e frite por mais 5 minutos. Retire a carne do caldo, adicione o repolho picado e, um pouco mais tarde, as batatas. Separe a carne do osso e devolva-a ao borscht, tempere com sal e adicione o refogado. Carne fresca, vegetais adocicados! Aqui está o verdadeiro borscht! Acredito que muitos esqueceram o quão delicioso pode ser! Cozinhe e saboreie o borscht de caçador. Carne fresca, vegetais adocicados!\n\nP.S.: Não se esqueça do creme de leite!",
+  "weathered_letter.vampiresdelight.borscht_recipe.text": "Borscht, um bom borscht é sempre delicioso! Na verdade, a receita é simples - carne fresca e vegetais adocicados. Primeiro, cozinhamos o caldo com carne de porco ou vitela no osso. Depois, lavamos e picamos a beterraba, a cenoura e a cebola. Enquanto isso, preparamos o refogado: despeje óleo em uma frigideira aquecida, adicione a cebola, o alho e a cenoura. Assim que a cebola dourar, adicione a beterraba. Frite por 5 minutos, depois coloque o extrato de tomate e frite por mais 5 minutos. Retire a carne do caldo, adicione o repolho picado e, um pouco mais tarde, as batatas. Separe a carne do osso e devolva-a ao borscht, tempere com sal e adicione o refogado. Carne fresca, vegetais adocicados! Aqui está o verdadeiro borscht! Acredito que muitos esqueceram o quão delicioso pode ser! Cozinhe e saboreie o borscht de caçador. Carne fresca, vegetais adocicados!\n\nP.S.: Não se esqueça do creme de leite azedo!",
   "weathered_letter.vampiresdelight.dear_marcus": "Avanço nas infusões de sangue",
   "weathered_letter.vampiresdelight.dear_marcus.author": "por Ostap H.",
   "weathered_letter.vampiresdelight.dear_marcus.text": "Caro Marcus G.,\n\nEscrevo para informar sobre as descobertas mais recentes que fizemos na sua ausência. Parece que, apesar das nossas desconfianças, a injeção de sangue vampírico devidamente purificado de fato produz resultados favoráveis.\n\nInfelizmente, apesar de todas as nossas precauções, um dos nossos voluntários foi infectado com Sanguinare. Contudo, reinjetamos alho nele e a doença passou. Pelo visto, o efeito não foi tão forte quanto o de uma mordida de vampiro, por exemplo, então uma dose muito pequena foi suficiente. Garantimos que ninguém mais se ferisse e, graças a Deus, não houve mais infecções ou ferimentos. Espero que continue assim.\n\nPassando ao tópico principal, estávamos prestes a pedir sua permissão, como chefe dos pesquisadores, para interromper os experimentos, mas dois homens apresentaram efeitos inéditos após a injeção. Um deles teve uma melhora significativa na visão no escuro, enquanto o outro agora tem a capacidade de respirar debaixo d'água. Ainda não temos certeza se adquiriram essas particularidades permanentemente ou se desaparecerão em algum momento, mas acho que já é promissor. Se continuarmos nossos experimentos, talvez a comunidade de caçadores consiga ter acesso a alguns dos Grandes Dons, e isso vale muito. Esta é provavelmente uma boa forma de alcançar isso. Há alguma verdade em sua hipótese, Grid, embora não a tivéssemos levado a sério no início. Por favor, retorne à sede o mais rápido possível, precisamos do seu auxílio.\n\nAtenciosamente,\nOstap H.",
   "weathered_letter.vampiresdelight.unknown_id": "Carta Desgastada",
-  "weathered_letter.vampiresdelight.unknown_id.author": "por Desconhecida",
+  "weathered_letter.vampiresdelight.unknown_id.author": "por Autor desconhecido",
   "weathered_letter.vampiresdelight.unknown_id.text": "Como você conseguiu isso? Sério, se estiver no modo sobrevivência, informe isso ao desenvolvedor. Esta carta está quebrada, caso esteja se perguntando.",
 
   "vampiresdelight.jei.pouring": "Despejar",
@@ -258,20 +258,20 @@
   "tag.item.vampiresdelight.hunter_food": "Comida de Caçador",
   "tag.item.vampiresdelight.werewolf_only_food": "Comida Apenas para Lobisomens",
   "tag.item.vampiresdelight.not_rotten_food": "Comida Não Apodrecida",
-  "tag.item.vampiresdelight.enchantable.vampire_bite": "Encantável com Mordida Vampírica",
+  "tag.item.vampiresdelight.enchantable.vampire_bite": "Encantável com Mordida de Vampiro",
   "tag.item.vampiresdelight.wine_shelf_bottles": "Garrafas para Prateleiras de Vinho",
   "tag.item.vampiresdelight.beer_bottles": "Garrafas de Cerveja",
   "tag.item.vampiresdelight.wine_bottles": "Garrafas de Vinho",
 
   "tag.block.vampiresdelight.wine_shelves": "Prateleiras de Vinho",
-  "tag.block.vampiresdelight.drops_orchid_cake_slice": "Itens largados Fatia de Bolo de Orquídea",
+  "tag.block.vampiresdelight.drops_orchid_cake_slice": "Solta Fatia de Bolo de Orquídea",
   "tag.block.vampiresdelight.black_mushroom_grow_block": "Bloco de Crescimento de Cogumelo Preto",
   "tag.block.vampiresdelight.cursed_plants": "Plantas Amaldiçoadas",
 
   "tag.worldgen.biome.vampiresdelight.has_structure.lost_carriage": "Possui Estrutura da Carruagem Perdida",
 
   "tag.entity_type.vampiresdelight.unholy_spirits": "Espíritos Profanos",
-  "tag.entity_type.vampiresdelight.drops_human_eye": "Itens largados Olho Humano",
+  "tag.entity_type.vampiresdelight.drops_human_eye": "Solta Olho Humano",
 
   "vampiresdelight.configuration.village": "Vila",
   "vampiresdelight.configuration.farmersBuyGarlic": "Agricultores compram alho",
@@ -281,13 +281,13 @@
 
   "vampiresdelight.configuration.overrides": "Substituições",
   "vampiresdelight.configuration.enableFDFoodEffectsDespiteFaction": "Ativar efeitos de alimento independentemente da facção",
-  "vampiresdelight.configuration.enableFDFoodEffectsDespiteFaction.tooltip": "Se ativado, todos os jogadores receberão os efeitos de alimentos dos itens de alimento do Agricultor's Delight, independentemente da facção. Por exemplo, vampiros ainda receberão os efeitos, mas não a fome.",
+  "vampiresdelight.configuration.enableFDFoodEffectsDespiteFaction.tooltip": "Se ativado, todos os jogadores receberão os efeitos dos alimentos do Farmer's Delight, independentemente da facção. Por exemplo, vampiros ainda receberão os efeitos, mas não recuperarão pontos de fome.",
   "vampiresdelight.configuration.overrideFoodPropertiesForFactions": "Substituir propriedades de alimentos de itens para facções",
   "vampiresdelight.configuration.overrideFoodPropertiesForFactions.tooltip": "Define se este mod deve substituir os valores alimentares de todos os itens do jogo padrão e de mods para usar propriedades específicas por facção. Ativar esta opção faz com que componentes deste mod sejam aplicáveis a qualquer item. Por exemplo, se um item tiver o componente de dados `vampiresdelight:vampire_food`, ele usará o valor alimentar do componente em vez do padrão para vampiros. Desative isso caso cause conflitos com outros mods.",
 
   "vampiresdelight.configuration.blocks": "Blocos",
-  "vampiresdelight.configuration.bloodySoilBoostChance": "Chance de aceleração de crescimento no Solo Sangrento",
-  "vampiresdelight.configuration.bloodySoilBoostChance.tooltip": "Com que frequência (em porcentagem) o Solo Sangrento deve acelerar o crescimento de uma planta a cada pulso aleatório? Defina como 0.0 para desativar.",
+  "vampiresdelight.configuration.bloodySoilBoostChance": "Chance de aceleração de crescimento no Solo Sanguinolento",
+  "vampiresdelight.configuration.bloodySoilBoostChance.tooltip": "Com que frequência (em porcentagem) o Solo Sanguinolento deve acelerar o crescimento de uma planta a cada pulso aleatório? Defina como 0.0 para desativar.",
 
   "vampiresdelight.configuration.items": "Itens",
   "vampiresdelight.configuration.alchemicalCocktailBurnsGround": "Coquetel Alquímico incendeia o chão",
@@ -298,24 +298,24 @@
   "vampiresdelight.configuration.alchemicalCocktailStackSize.tooltip": "Qual deve ser o tamanho máximo do monte do Coquetel Alquímico?",
 
   "vampiresdelight.configuration.effects": "Efeitos",
-  "vampiresdelight.configuration.replaceWeirdJellySunscreenWithJumpBoost": "Substituir efeito do Gel Protetor Solar Estranho por Supersalto",
-  "vampiresdelight.configuration.replaceWeirdJellySunscreenWithJumpBoost.tooltip": "Define se o efeito de protetor solar do Gel Estranho deve ser substituído por Supersalto.",
+  "vampiresdelight.configuration.replaceWeirdJellySunscreenWithJumpBoost": "Substituir o efeito de protetor solar da Geleia Estranha por Supersalto",
+  "vampiresdelight.configuration.replaceWeirdJellySunscreenWithJumpBoost.tooltip": "Define se o efeito de protetor solar da Geleia Estranha deve ser substituído por Supersalto.",
   "vampiresdelight.configuration.batMeatWithersHumans": "Carne de morcego causa Decomposição em humanos",
   "vampiresdelight.configuration.batMeatWithersHumans.tooltip": "Define se a carne de morcego e as comidas feitas com ela devem ter chance de conceder o efeito Decomposição ao ser consumida por humanos. Caso contrário, envenenará o jogador em vez de causar decomposição.",
   "vampiresdelight.configuration.blessingHelpsAgainstGhosts": "Bênção ajuda contra Fantasmas",
-  "vampiresdelight.configuration.blessingHelpsAgainstGhosts.tooltip": "Define se o efeito de Bênção deve afugentar fantasmas assim como faz com os phantoms.",
+  "vampiresdelight.configuration.blessingHelpsAgainstGhosts.tooltip": "Define se o efeito de Bênção deve afugentar fantasmas assim como faz com os espectros.",
   "vampiresdelight.configuration.armorDissolvesFully": "Armadura fraca dissolve totalmente",
   "vampiresdelight.configuration.armorDissolvesFully.tooltip": "Define se armaduras \"fracas\", como couro e malha, devem ser totalmente dissolvidas por causa do efeito Dissolução.",
 
   "vampiresdelight.configuration.enchantments": "Encantamentos",
-  "vampiresdelight.configuration.vampireBiteMaxHealingValue": "Valor máximo de cura de Mordida Vampírica",
-  "vampiresdelight.configuration.vampireBiteMaxHealingValue.tooltip": "Qual deve ser a quantidade máxima de corações que o encantamento Mordida Vampírica deve curar?",
-  "vampiresdelight.configuration.vampireBiteChanceLevel1": "Chance de cura de Mordida Vampírica nível 1",
-  "vampiresdelight.configuration.vampireBiteChanceLevel1.tooltip": "Com qual chance o encantamento Mordida Vampírica nível 1 deve regenerar vida?",
-  "vampiresdelight.configuration.vampireBiteChanceLevel2": "Chance de cura de Mordida Vampírica nível 2",
-  "vampiresdelight.configuration.vampireBiteChanceLevel2.tooltip": "Com qual chance o encantamento Mordida Vampírica nível 2 deve regenerar vida?",
-  "vampiresdelight.configuration.vampireBiteChanceLevel3": "Chance de cura de Mordida Vampírica nível 3",
-  "vampiresdelight.configuration.vampireBiteChanceLevel3.tooltip": "Com qual chance o encantamento Mordida Vampírica nível 3 deve regenerar vida?",
+  "vampiresdelight.configuration.vampireBiteMaxHealingValue": "Valor máximo de cura de Mordida de Vampiro",
+  "vampiresdelight.configuration.vampireBiteMaxHealingValue.tooltip": "Qual deve ser a quantidade máxima de corações que o encantamento Mordida de Vampiro deve curar?",
+  "vampiresdelight.configuration.vampireBiteChanceLevel1": "Chance de cura de Mordida de Vampiro nível 1",
+  "vampiresdelight.configuration.vampireBiteChanceLevel1.tooltip": "Com qual chance o encantamento Mordida de Vampiro nível 1 deve regenerar vida?",
+  "vampiresdelight.configuration.vampireBiteChanceLevel2": "Chance de cura de Mordida de Vampiro nível 2",
+  "vampiresdelight.configuration.vampireBiteChanceLevel2.tooltip": "Com qual chance o encantamento Mordida de Vampiro nível 2 deve regenerar vida?",
+  "vampiresdelight.configuration.vampireBiteChanceLevel3": "Chance de cura de Mordida de Vampiro nível 3",
+  "vampiresdelight.configuration.vampireBiteChanceLevel3.tooltip": "Com qual chance o encantamento Mordida de Vampiro nível 3 deve regenerar vida?",
 
   "vampiresdelight.configuration.world": "Geração do mundo",
   "vampiresdelight.configuration.generateVDChestLoot": "Gerar saques do mod em baús",

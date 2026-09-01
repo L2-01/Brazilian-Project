@@ -9,14 +9,14 @@
 
   "bountiful.decree.starcatcher.name": "Starcatcher",
 
-  "structure.minecraft.monument": "Monumento do Oceano",
-  "structure.minecraft.trial_chambers": "Câmaras dos Desafios",
-  "structure.minecraft.end_city": "Cidades do End",
-  "structure.minecraft.village_desert": "Vilas do Deserto",
-  "structure.minecraft.village_plains": "Vilas das Planícies",
-  "structure.minecraft.village_savanna": "Vilas da Savana",
-  "structure.minecraft.village_taiga": "Vilas da Taiga",
-  "structure.minecraft.village_snowy": "Vilas Nevadas",
+  "structure.minecraft.monument": "Monumento Oceânico",
+  "structure.minecraft.trial_chambers": "Câmaras do Desafio",
+  "structure.minecraft.end_city": "Cidade do End",
+  "structure.minecraft.village_desert": "Vila do Deserto",
+  "structure.minecraft.village_plains": "Vila das Planícies",
+  "structure.minecraft.village_savanna": "Vila da Savana",
+  "structure.minecraft.village_taiga": "Vila da Taiga",
+  "structure.minecraft.village_snowy": "Vila Nevada",
 
   "advancements.husbandry.starcatcher.fisherman.title": "Pescador",
   "advancements.husbandry.starcatcher.fisherman.description": "Pegue um Peixe sem errar nenhuma vez",
@@ -31,7 +31,7 @@
   "section.starcatcher.hooks_bobbers": "Anzóis, Boias e Iscas",
   "section.starcatcher.cosmetics": "Cosméticos",
   "section.starcatcher.must_have": "Essenciais",
-  "section.starcatcher.trophies": "Troféus e Mensagens",
+  "section.starcatcher.trophies": "Estatísticas e Troféus",
   "section.starcatcher.miscellaneous": "Diversos",
   "section.starcatcher.tackle_boxes": "Caixas de Pesca",
 
@@ -61,6 +61,7 @@
   "emi.starcatcher.entity_entry": "Esta entrada sempre irá gerar um %s",
 
   "emi.category.starcatcher.fishing": "Pescaria do Starcatcher",
+  "emi.category.starcatcher.smithing": "Ferraria do Starcatcher",
 
   "emi.info.starcatcher.worms.0": "Minhocas têm diferentes modificadores de pesca quando usadas como isca.",
   "emi.info.starcatcher.worms.1": "Compostável.",
@@ -210,7 +211,7 @@
   "starcatcher.configuration.hit_delay": "Atraso de Acerto do Minigame",
   "starcatcher.configuration.units": "Unidades de Medida",
   "starcatcher.configuration.sort": "Ordem de Classificação do Guia",
-  "starcatcher.configuration.enable_tackle_sounds": "Sons de visual de equipamento",
+  "starcatcher.configuration.enable_villager_sounds": "Ativar Sons de Aldeão",
   "starcatcher.configuration.enable_hit_sounds": "Sons de acerto no ponto ideal",
   "starcatcher.configuration.enable_miss_sound": "Som de erro no Minigame",
   "starcatcher.configuration.remove_notif_on_hover": "Remover Notificação de Novo Peixe ao Passar o Mouse",
@@ -220,6 +221,7 @@
   "starcatcher.configuration.give_rod": "Dar vara",
   "starcatcher.configuration.enable_worms": "Minhocas ao Usar Farinha de Osso em Terra Arada",
   "starcatcher.configuration.enable_minigame": "Ativar Minigame de Pesca",
+  "starcatcher.configuration.enable_guide_help_pages": "Ativar Ajuda do Guia",
   "starcatcher.configuration.enable_ftb_team_sharing": "Ativar Compartilhamento FTBTeams",
   "starcatcher.configuration.enable_seasons": "Ativar Compatibilidade com Estações",
   "starcatcher.configuration.vanishing_rate_multiplier": "Multiplicador Global de Taxa de Desaparecimento",
@@ -295,7 +297,7 @@
   "tooltip.starcatcher.starcatcher_guide.signed": "Este Livro pertence a: %s",
   "tooltip.starcatcher.starcatcher_guide.signed_shift": "Assinado por: %s",
 
-  "tooltip.starcatcher.letter": "Escrito por: ",
+  "tooltip.starcatcher.letter": "Escrito por: %s",
 
   "item.starcatcher.starcatcher_twine": "Fio do Starcatcher",
   "tooltip.starcatcher.starcatcher_twine.0": "Um fio delicado enrolado em um graveto.",
@@ -368,12 +370,6 @@
 
   "tooltip.modifier.starcatcher.flip_every_hit": "Vira toda vez que você acerta um ponto ideal",
 
-
-  "tooltip.modifier.keyword.big_decrease": "Diminui tremendamente",
-  "tooltip.modifier.keyword.decrease": "Diminui",
-  "tooltip.modifier.keyword.increase": "Aumenta",
-  "tooltip.modifier.keyword.big_increase": "Aumenta tremendamente",
-
   "tooltip.modifier.number.1": "Um",
   "tooltip.modifier.number.2": "Dois",
   "tooltip.modifier.number.3": "Três",
@@ -389,17 +385,26 @@
   "tooltip.modifier.number.32": "Trinta e dois",
   "tooltip.modifier.number.64": "Uma pilha",
 
-  "tooltip.modifier.starcatcher.adjust_handle_speed": " a velocidade de rotação da manivela",
+  "tooltip.modifier.starcatcher.adjust_handle_speed.big_increase": "Aumenta tremendamente a velocidade de rotação da manivela",
+  "tooltip.modifier.starcatcher.adjust_handle_speed.increase": "Aumenta a velocidade de rotação da manivela",
+  "tooltip.modifier.starcatcher.adjust_handle_speed.decrease": "Diminui a velocidade de rotação da manivela",
+  "tooltip.modifier.starcatcher.adjust_handle_speed.big_decrease": "Diminui tremendamente a velocidade de rotação da manivela",
   "tooltip.modifier.starcatcher.adjust_handle_speed.shift": "Ajusta a velocidade de rotação da manivela em %s%%",
 
   "tooltip.modifier.starcatcher.add_basic_sweetspot": "Adiciona um ponto ideal",
   "tooltip.modifier.starcatcher.dripstone_bobber": "Adiciona um ponto ideal de Espeleotema",
   "tooltip.modifier.starcatcher.glowing_bobber": "Adiciona um ponto ideal de Brilho",
 
-  "tooltip.modifier.starcatcher.adjust_vanishing_rate": " a taxa de sumiço dos pontos ideais",
+  "tooltip.modifier.starcatcher.adjust_vanishing_rate.big_increase": "Aumenta tremendamente a taxa de desaparecimento dos pontos ideais",
+  "tooltip.modifier.starcatcher.adjust_vanishing_rate.increase": "Aumenta a taxa de desaparecimento dos pontos ideais",
+  "tooltip.modifier.starcatcher.adjust_vanishing_rate.decrease": "Diminui a taxa de desaparecimento dos pontos ideais",
+  "tooltip.modifier.starcatcher.adjust_vanishing_rate.big_decrease": "Diminui tremendamente a taxa de desaparecimento dos pontos ideais",
   "tooltip.modifier.starcatcher.adjust_vanishing_rate.shift": "Ajusta a taxa de sumiço dos pontos ideais em %s%%",
 
-  "tooltip.modifier.starcatcher.adjust_lure_time.base": " o tempo da isca",
+  "tooltip.modifier.starcatcher.adjust_lure_time.big_increase": "Aumenta tremendamente o tempo para atrair peixes",
+  "tooltip.modifier.starcatcher.adjust_lure_time.increase": "Aumenta o tempo para atrair peixes",
+  "tooltip.modifier.starcatcher.adjust_lure_time.decrease": "Diminui o tempo para atrair peixes",
+  "tooltip.modifier.starcatcher.adjust_lure_time.big_decrease": "Diminui tremendamente o tempo para atrair peixes",
   "tooltip.modifier.starcatcher.adjust_lure_time.shift.min_ticks": "Ajusta os tiques mínimos para pescar em %s%%",
   "tooltip.modifier.starcatcher.adjust_lure_time.shift.max_ticks": "Ajusta os tiques máximos para pescar em %s%%",
   "tooltip.modifier.starcatcher.adjust_lure_time.shift.random": "Ajusta a chance de morder a cada tique em %s%%",
@@ -415,6 +420,10 @@
   "tooltip.modifier.starcatcher.adjust_penalty_rate.increase": "Aumenta a penalidade por errar pontos ideais",
   "tooltip.modifier.starcatcher.adjust_penalty_rate.decrease": "Diminui a penalidade por errar pontos ideais",
   "tooltip.modifier.starcatcher.adjust_penalty_rate.shift": "Ajusta a penalidade de errar pontos ideais em %s%%",
+
+  "tooltip.modifier.starcatcher.adjust_hp.increase": "Os peixes serão mais fáceis de recolher",
+  "tooltip.modifier.starcatcher.adjust_hp.decrease": "Os peixes serão mais difíceis de recolher",
+  "tooltip.modifier.starcatcher.adjust_hp.shift": "Ajusta a vida dos peixes em %s%%",
 
   "tooltip.modifier.starcatcher.vanilla_fishing_loot": "Restaura o saque de pesca do Vanilla",
   "tooltip.modifier.starcatcher.skip_minigame_if_vanilla_bobber": "Pula o Minigame se equipado com a Boia Sabor Vanilla",
@@ -479,6 +488,7 @@
   "item.starcatcher.oxidised_copper_hook": "Anzol de Cobre Oxidado",
   "item.starcatcher.echoing_hook": "Anzol Ecoante",
   "item.starcatcher.frozen_hook": "Anzol Congelado",
+  "item.starcatcher.rusty_hook": "Anzol Enferrujado",
 
 
 
@@ -624,12 +634,9 @@
 
   "gui.starcatcher.toast.fish_caught": "Novo Peixe Fisgado!",
 
-  "gui.guide.signed.0": "Este livro está Assinado e",
-  "gui.guide.signed.1": "não será atualizado com novas capturas",
-
+  "gui.guide.disabled_by_server": "[desativado pelo servidor]",
+  "gui.guide.visitors": "Espiado por:",
   "gui.guide.sign": "Assinar",
-  "gui.guide.sign.locked.0": "Assinar fixará todas as suas capturas atuais",
-  "gui.guide.sign.locked.1": "Este livro não será mais atualizado com novas capturas após bloqueá-lo.",
   "gui.guide.season": "Estação: ",
   "gui.guide.seasons": "Estações: ",
 
@@ -687,6 +694,9 @@
   "gui.guide.elevation.stone_caves": "Cavernas de Pedra",
   "gui.guide.elevation.underground": "Subterrâneo",
 
+  "gui.guide.light_level.darkness": "Escuridão",
+  "gui.guide.light_level.bright": "Claro",
+
   "gui.guide.sort": "[ordenar]",
 
   "gui.guide.sort.alphabetical_up": "⏬ Alfabético",
@@ -697,10 +707,8 @@
   "gui.guide.sort.rarity_down": "⏫ Raridade",
   "gui.guide.sort.caught_up": "⏬ Capturados",
   "gui.guide.sort.caught_down": "⏫ Capturados",
-  "gui.guide.sort.fluid_up": "⏬ Fluido",
-  "gui.guide.sort.fluid_down": "⏫ Fluido",
-  "gui.guide.sort.season_up": "⏬ Estação",
-  "gui.guide.sort.season_down": "⏫ Estação",
+  "gui.guide.sort.caught_golden_up": "⏬ Dourados Capturados",
+  "gui.guide.sort.caught_golden_down": "⏫ Dourados Capturados",
 
   "gui.guide.units.metric": "Métrico (cm & kg)",
   "gui.guide.units.imperial": "Imperial (pol & lb)",
@@ -758,7 +766,7 @@
 
   "gui.guide.index.cosmetics": "Cosméticos",
   "gui.guide.index.tournaments": "Torneios de Pesca",
-  "gui.guide.index.messages": "Cartas e Mensagens na Garrafa",
+  "gui.guide.index.messages": "Mensagens na Garrafa e Segredos",
   "gui.guide.index.selling_bin": "Vendendo Seus Peixes!",
   "gui.guide.index.aquarium": "Aquários",
   "gui.guide.index.display": "Mostruário e Assinatura de Livro",
@@ -1214,6 +1222,8 @@
   "gui.guide.hover.weather.incorrect": "❌ Clima",
   "gui.guide.hover.elevation.correct": "✅ Elevação",
   "gui.guide.hover.elevation.incorrect": "❌ Elevação",
+  "gui.guide.hover.light_level.correct": "✅ Luz",
+  "gui.guide.hover.light_level.incorrect": "❌ Luz",
   "gui.guide.hover.caught_limit": "Limite de Captura: %s",
 
   "gui.guide.dimension": "Dimensão: ",
@@ -1239,6 +1249,7 @@
   "gui.guide.luck": "Sorte: ",
   "gui.guide.structure": "Estrutura: ",
   "gui.guide.elevation": "Elevação: ",
+  "gui.guide.light_level": "Nível de Luz: ",
   "gui.guide.elevation_bias": "Por volta de %s",
   "gui.guide.elevation_bias.hover": "De %s até %s, melhor em %s",
   "gui.guide.caught_limit": "Limite de Captura: ",
@@ -1358,8 +1369,8 @@
   "starcatcher.message.lava_proof_1.6": "Já me cansei tanto desses GOLPISTAS prometendo",
   "starcatcher.message.lava_proof_1.7": "frascos <sclava>À Prova de Lava™</sclava>, como se qualquer coisa pudesse",
   "starcatcher.message.lava_proof_1.8": "sobreviver a ser submersa em lava! Querem ver",
-  "starcatcher.message.lava_proof_1.9": "o que eu acho dos seus frascos estúpidos",
-  "starcatcher.message.lava_proof_1.10": "<sclava>À Prova de Lava™</sclava>??",
+  "starcatcher.message.lava_proof_1.9": "o que acho dos seus estúpidos frascos <sclava>à prova de lava™</sclava>",
+  "starcatcher.message.lava_proof_1.10": "??",
   "starcatcher.message.lava_proof_1.11": "",
   "starcatcher.message.lava_proof_1.12": "Esta carta vai direto para este suposto",
   "starcatcher.message.lava_proof_1.13": "'Frasco <sclava>À Prova de Lava™</sclava>' e direto para o",
@@ -1842,7 +1853,7 @@
   "item.starcatcher.deepjaw_herring": "Arenque de Mandíbula Profunda",
   "tooltip.starcatcher.deepjaw_herring.0": "Um peixe comum aos oceanos, frequentemente muito valorizado para trocas.",
 
-  "item.starcatcher.dusktail_snapper": "Caranha de Cauda do Crepuscular",
+  "item.starcatcher.dusktail_snapper": "Caranha de Cauda Crepuscular",
   "tooltip.starcatcher.dusktail_snapper.0": "Um peixe pesado para seu tamanho frequentemente usado em pratos.",
 
   "item.starcatcher.joel": "Joel",
@@ -1937,8 +1948,19 @@
   "tooltip.starcatcher.the_quarrish.1": "Seu tamanho pesado o torna uma captura muito entediante.",
 
   "item.starcatcher.lush_pike": "Lúcio Exuberante",
-  "tooltip.starcatcher.lush_pike.0": "Um lúcio musgoso e <sclegendary>lendário</sclegendary> encontrado raramente nas cavernas verdejantes.",
+  "tooltip.starcatcher.lush_pike.0": "Um lúcio musgoso encontrado raramente nas cavernas verdejantes.",
   "tooltip.starcatcher.lush_pike.1": "Uma pesca bem difícil até para pescadores experientes.",
+
+  "item.starcatcher.shadowfin": "Shadowfin",
+  "tooltip.starcatcher.shadowfin.0": "Um peixe mal-humorado que não gosta da maioria dos outros.",
+  "tooltip.starcatcher.shadowfin.1": "Passa os dias nas sombras,",
+  "tooltip.starcatcher.shadowfin.2": "saindo apenas para encontrar seu Mossfin.",
+
+  "item.starcatcher.mossfin": "Mossfin",
+  "tooltip.starcatcher.mossfin.0": "Tem olhos estranhamente grandes, sem outra finalidade além de serem fofos.",
+  "tooltip.starcatcher.mossfin.1": "Gosta de tudo que é claro e musgoso.",
+  "tooltip.starcatcher.mossfin.2": "Só entra nas sombras para procurar seu Shadowfin.",
+
 
 
 
@@ -2041,7 +2063,7 @@
 
   "item.starcatcher.willish": "Willish",
   "tooltip.starcatcher.willish.0": "Um peixe conhecido por enganar outros peixes para roubar sua comida.",
-  "tooltip.starcatcher.willish.1": "Ele é incrivelmente feio e deve ser jogado de volta nO Nether, onde pertence.",
+  "tooltip.starcatcher.willish.1": "Ele é incrivelmente feio e deve ser jogado de volta no Nether, onde pertence.",
 
   "item.starcatcher.lava_crab_claw": "Garra de Caranguejo de Lava",
   "tooltip.starcatcher.lava_crab_claw.0": "Uma garra arrancada de um Caranguejo de Lava.",
@@ -2062,12 +2084,12 @@
   "tooltip.starcatcher.end_glow.1": "Endermen não parecem se importar com ele.",
 
   "item.starcatcher.voidbiter": "Mordedor do Vazio",
-  "tooltip.starcatcher.voidbiter.0": "Um peixe <sclegendary>lendário</sclegendary> encontrado flutuando no vasto vazio dO End.",
+  "tooltip.starcatcher.voidbiter.0": "Um peixe <sclegendary>lendário</sclegendary> encontrado flutuando no vasto vazio do End.",
   "tooltip.starcatcher.voidbiter.1": "Tão poucos pescadores o viram que sua existência não passa de um boato.",
   "tooltip.starcatcher.voidbiter.2": "Se alguém o pescasse, seria seguro assumir que é um descendente dos <scuncommon>Pescadores Mais Antigos</scuncommon>.",
 
   "item.starcatcher.purple_carp": "Carpa Roxa",
-  "tooltip.starcatcher.purple_carp.0": "Estas espécies de carpa se adaptaram ao vazio frio dO End.",
+  "tooltip.starcatcher.purple_carp.0": "Estas espécies de carpa se adaptaram ao vazio frio do End.",
   "tooltip.starcatcher.purple_carp.1": "Dizem que dá um ótimo ensopado,",
   "tooltip.starcatcher.purple_carp.2": "embora ninguém tenha certeza de como prepará-lo.",
 
@@ -2076,11 +2098,11 @@
 
   "item.starcatcher.spacejelly": "Água-Viva do Espaço",
   "tooltip.starcatcher.spacejelly.0": "Uma água-viva de cor rosa-claro incrivelmente leve.",
-  "tooltip.starcatcher.spacejelly.1": "Ela flutua pelas ilhas externas dO End em busca de Cidades do End.",
+  "tooltip.starcatcher.spacejelly.1": "Ela flutua pelas ilhas externas do End em busca de Cidades do End.",
 
   "item.starcatcher.chorus_minnow": "Peixinho-do-Coro",
   "tooltip.starcatcher.chorus_minnow.0": "Uma espécie de peixinho consumida pelo Coro.",
-  "tooltip.starcatcher.chorus_minnow.1": "É desconhecido se são nativos dO End.",
+  "tooltip.starcatcher.chorus_minnow.1": "É desconhecido se são nativos do End.",
 
   "item.starcatcher.nebula_squid": "Lula Nebulosa",
   "tooltip.starcatcher.nebula_squid.0": "Diferente da Lula das Cinzas, as Lulas Nebulosas são bem pegajosas,",
@@ -2137,13 +2159,20 @@
 
 
 
-  "itemGroup.fancytabsections.fancy_things": "Shiny Things",
-  "itemGroup.fancytabsections.dirty_tools": "Dirty Tools",
+  "fancytabsections.configuration.index_expanded": "Índice Expandido",
+
+  "itemGroup.fancytabsections.fancy_things": "[FTS dev only] Shiny Things",
+  "itemGroup.fancytabsections.dirty_tools": "[FTS dev only] Dirty Tools",
 
   "section.fancytabsections.shiny_things": "Coisas Brilhantes",
   "section.fancytabsections.pretty_things": "Coisas Bonitas!",
   "section.fancytabsections.secret_things": "Seção secreta que tem um nome bem longo para demonstrar a rolagem...",
   "section.fancytabsections.hotbar": "Ordem Correta da Hotbar",
+  "section.fancytabsections.dirt": "Terra",
+  "section.fancytabsections.stone": "Pedra",
+  "section.fancytabsections.colors": "COR!",
+  "section.fancytabsections.empty": "Seção Vazia...",
+
   "section.fancytabsections.very_dirty_tools": "Ferramentas Muito Sujas",
   "section.fancytabsections.decently_dirty_tools": "Ferramentas Razoavelmente Sujas",
 
@@ -2152,49 +2181,10 @@
 
 
 
-  "tooltip.libtooltips.generic.shift_up": "§7⏬ [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§7] ⏬",
-  "tooltip.libtooltips.generic.shift_down": "§7⏫ [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§7] ⏫",
-  "tooltip.libtooltips.generic.empty": "",
-
-  "key.category.libtooltips.libtooltips": "LibTooltips",
-  "key.libtooltips.expand": "Expandir Dica de Ferramenta",
-
-  "libtooltips.configuration.enable_tooltips": "Ativar Dicas de Ferramenta",
-  "libtooltips.configuration.line_before": "Linha vazia antes",
-  "libtooltips.configuration.line_before.tooltip": "Adiciona uma linha vazia ANTES da descrição, DEPOIS do [shift]",
-  "libtooltips.configuration.spaces_before_tooltip": "Espaços antes da dica",
-  "libtooltips.configuration.spaces_before_tooltip.tooltip": "Adiciona X espaços ANTES do texto da dica",
-  "libtooltips.configuration.line_after": "Linha vazia depois",
-  "libtooltips.configuration.line_after.tooltip": "Adiciona uma linha vazia DEPOIS da descrição",
-  "libtooltips.configuration.default_color": "Cor da Descrição",
-  "libtooltips.configuration.default_color.tooltip": "Qual cor usar como base para a dica. O valor é a cor como um número inteiro (use um seletor de cores online)",
-  "libtooltips.configuration.title": "Configurações do LibTooltips",
-
-  "tooltip.namespace.path.0": "Que dica chique com <ltrgb>arco-íris rgb</ltrgb>!",
-  "tooltip.namespace.path.1": "E olha, até suporta várias linhas, uau",
-  "tooltip.namespace.path.2": "Para evitar incompatibilidades com outras APIs de processamento de texto,",
-  "tooltip.namespace.path.3": "é recomendado que as tags tenham um nome não genérico, como 'ltrgb' em vez de 'rgb'",
-  "tooltip.namespace.path.4": "hide",
-  "tooltip.namespace.path.5": "Definir uma linha como 'hide' vai impedir que o restante das linhas seja exibido.",
-  "tooltip.namespace.path.6": "Isso é útil para traduções em que idiomas diferentes podem ter menos linhas que o padrão.",
-
-  "tooltip.always.namespace.path.0": "Esta dica sempre vai aparecer!",
-
-
-
-
-
-
-  "tinymultiblocklib.configuration.title": "Tiny Multiblock Lib",
-  "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml.title": "Configuração de Cliente do TMBL",
-  "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml": "Configuração de Cliente do TMBL",
-  "tinymultiblocklib.configuration.disable_multiblock_previews": "Desativar Pré-visualizações de Multiblocos",
-  "tinymultiblocklib.configuration.disable_multiblock_previews.tooltip": "Desativa as pré-visualizações fantasma ao tentar posicionar um multibloco",
-
-
-
-
-
+  "itemGroup.selling_bin.selling_bin": "wd's Selling Bin",
+  "section.selling_bin.bin": "Caixa!",
+  "section.selling_bin.currencies": "Moedas",
+  "section.selling_bin.sellables": "Itens Vendáveis",
 
   "selling_bin.configuration.always_show_selling_bin_price": "Sempre Mostrar Preços da Caixa de Venda",
   "selling_bin.configuration.selling_in_multiplier": "Multiplicador da Caixa de Venda",
@@ -2251,5 +2241,59 @@
   "block.selling_bin.selling_bin": "Caixa de Venda",
 
   "item.minecraft.emerald.plural": "Esmeraldas",
-  "block.minecraft.emerald_block.plural": "Blocos de Esmeralda"
+  "block.minecraft.emerald_block.plural": "Blocos de Esmeralda",
+
+
+
+
+
+
+  "tinymultiblocklib.configuration.title": "Tiny Multiblock Lib",
+  "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml.title": "Configuração de Cliente do TMBL",
+  "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml": "Configuração de Cliente do TMBL",
+  "tinymultiblocklib.configuration.disable_multiblock_previews": "Desativar Pré-visualizações de Multiblocos",
+  "tinymultiblocklib.configuration.disable_multiblock_previews.tooltip": "Desativa as pré-visualizações fantasma ao tentar posicionar um multibloco",
+  "tinymultiblocklib.configuration.previews_for_everything": "Pré-visualizações para Tudo",
+  "tinymultiblocklib.configuration.previews_for_everything.tooltip": "Ativa pré-visualizações para tudo; usada para depuração",
+  "tinymultiblocklib.configuration.preview_whitelist": "Lista de Permissões de Pré-visualização",
+  "tinymultiblocklib.configuration.preview_whitelist.tooltip": "Lista de blocos para os quais as pré-visualizações serão exibidas",
+
+  "tinymultiblocklib.configuration.preview_blacklist": "Lista de Bloqueios de Pré-visualização",
+  "tinymultiblocklib.configuration.preview_blacklist.tooltip": "Lista de blocos para os quais as pré-visualizações serão ocultadas",
+
+  "tinymultiblocklib.configuration.preview_whitelist.button": "Editar",
+  "tinymultiblocklib.configuration.preview_blacklist.button": "Editar",
+
+
+
+
+
+
+  "tooltip.libtooltips.generic.shift_up": "§7⏬ [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§7] ⏬",
+  "tooltip.libtooltips.generic.shift_down": "§7⏫ [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§7] ⏫",
+  "tooltip.libtooltips.generic.empty": "",
+
+  "key.category.libtooltips.libtooltips": "LibTooltips",
+  "key.libtooltips.expand": "Expandir Dica de Ferramenta",
+
+  "libtooltips.configuration.enable_tooltips": "Ativar Dicas de Ferramenta",
+  "libtooltips.configuration.line_before": "Linha vazia antes",
+  "libtooltips.configuration.line_before.tooltip": "Adiciona uma linha vazia ANTES da descrição, DEPOIS do [shift]",
+  "libtooltips.configuration.spaces_before_tooltip": "Espaços antes da dica",
+  "libtooltips.configuration.spaces_before_tooltip.tooltip": "Adiciona X espaços ANTES do texto da dica",
+  "libtooltips.configuration.line_after": "Linha vazia depois",
+  "libtooltips.configuration.line_after.tooltip": "Adiciona uma linha vazia DEPOIS da descrição",
+  "libtooltips.configuration.default_color": "Cor da Descrição",
+  "libtooltips.configuration.default_color.tooltip": "Qual cor usar como base para a dica. O valor é a cor como um número inteiro (use um seletor de cores online)",
+  "libtooltips.configuration.title": "Configurações do LibTooltips",
+
+  "tooltip.namespace.path.0": "Que dica chique com <ltrgb>arco-íris rgb</ltrgb>!",
+  "tooltip.namespace.path.1": "E olha, até suporta várias linhas, uau",
+  "tooltip.namespace.path.2": "Para evitar incompatibilidades com outras APIs de processamento de texto,",
+  "tooltip.namespace.path.3": "é recomendado que as tags tenham um nome não genérico, como 'ltrgb' em vez de 'rgb'",
+  "tooltip.namespace.path.4": "hide",
+  "tooltip.namespace.path.5": "Definir uma linha como 'hide' vai impedir que o restante das linhas seja exibido.",
+  "tooltip.namespace.path.6": "Isso é útil para traduções em que idiomas diferentes podem ter menos linhas que o padrão.",
+
+  "tooltip.always.namespace.path.0": "Esta dica sempre vai aparecer!"
 }

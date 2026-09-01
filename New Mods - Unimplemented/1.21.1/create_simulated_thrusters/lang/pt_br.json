@@ -14,7 +14,7 @@
   "create_simulated_thrusters.gui.goggles.status.not_rotating": "Sem rotação",
   "create_simulated_thrusters.gui.goggles.status.overstressed": "Sobrecarga",
   "create_simulated_thrusters.gui.goggles.status.no_fuel": "Sem combustível",
-  "create_simulated_thrusters.gui.goggles.status.redstone_paused": "Redstone pausada",
+  "create_simulated_thrusters.gui.goggles.status.redstone_paused": "Pausado pela redstone",
   "create_simulated_thrusters.gui.goggles.redstone_power": "Força de Redstone",
   "create_simulated_thrusters.gui.goggles.fuel_type": "Tipo de combustível",
   "create_simulated_thrusters.gui.goggles.fuel_type.low": "Baixa qualidade",
@@ -43,7 +43,7 @@
   "block.create_simulated_thrusters.brass_thruster.tooltip.behaviour2": "Produz empuxo no sentido do _Eixo_. A saída escala com o RPM até o máximo configurado e consome esforço cinético.",
   "block.create_simulated_thrusters.brass_thruster.tooltip.condition3": "Controle de Gimbal",
   "block.create_simulated_thrusters.brass_thruster.tooltip.behaviour3": "Energize os blocos de gimbal _esquerdo_ e _direito_ com redstone para _vetorizar o empuxo_. A diferença entre os dois sinais define o ângulo do gimbal.",
-  "block.create_simulated_thrusters.brass_thruster.tooltip.condition4": "Clique com o botão direito com uma Chave-inglesa",
+  "block.create_simulated_thrusters.brass_thruster.tooltip.condition4": "Clique com o botão direito com uma Chave-Inglesa",
   "block.create_simulated_thrusters.brass_thruster.tooltip.behaviour4": "Gira o painel do gimbal _90° ao redor do eixo de empuxo_, reatribuindo quais lados recebem as entradas de redstone.",
 
   "block.create_simulated_thrusters.blaze_thruster.tooltip": "PROPULSOR DE BLAZE",
