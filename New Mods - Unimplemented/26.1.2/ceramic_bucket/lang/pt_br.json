@@ -1,0 +1,37 @@
+{
+  "tag.fluid.woodenbucket.ceramic_cracking": "Fluidos que racham o Balde de Cerâmica",
+
+  "item.ceramicbucket.ceramic_bucket": "Balde de Cerâmica",
+  "item.ceramicbucket.ceramic_bucket.entity": "Balde de Cerâmica de %s",
+  "item.ceramicbucket.ceramic_bucket.filled": "Balde de %s de Cerâmica",
+  "item.ceramicbucket.unfired_clay_bucket": "Balde de Argila Crua",
+
+  "text.autoconfig.ceramicbucket.title": "Configurações do Ceramic Bucket",
+
+  "text.autoconfig.ceramicbucket.option.BREAK_TEMPERATURE": "Temperatura de quebra",
+  "text.autoconfig.ceramicbucket.option.BREAK_TEMPERATURE.@Tooltip[0]": "§6§lTemperatura de quebra",
+  "text.autoconfig.ceramicbucket.option.BREAK_TEMPERATURE.@Tooltip[1]": "Temperatura mínima do fluido na qual o",
+  "text.autoconfig.ceramicbucket.option.BREAK_TEMPERATURE.@Tooltip[2]": "Balde de Cerâmica se quebra ao ser esvaziado.",
+  "text.autoconfig.ceramicbucket.option.BREAK_TEMPERATURE.@Tooltip[3]": "§7§oDesative definindo um número maior que o do fluido mais quente",
+  "text.autoconfig.ceramicbucket.option.BREAK_TEMPERATURE.@Tooltip[4]": "§7§oMín.: -10000; Máx.: 10000",
+  "text.autoconfig.ceramicbucket.option.BREAK_TEMPERATURE.@Tooltip[5]": "§7§oPadrão: 1000",
+
+  "text.autoconfig.ceramicbucket.option.DURABILITY": "Durabilidade",
+  "text.autoconfig.ceramicbucket.option.DURABILITY.@Tooltip[0]": "§6§lDurabilidade",
+  "text.autoconfig.ceramicbucket.option.DURABILITY.@Tooltip[1]": "Define a durabilidade máxima do Balde de Cerâmica.",
+  "text.autoconfig.ceramicbucket.option.DURABILITY.@Tooltip[2]": "§7§o0: desativa a durabilidade",
+  "text.autoconfig.ceramicbucket.option.DURABILITY.@Tooltip[3]": "§7§oMín.: 0; Máx.: 10000",
+  "text.autoconfig.ceramicbucket.option.DURABILITY.@Tooltip[4]": "§7§oPadrão: 0",
+
+  "text.autoconfig.ceramicbucket.option.FISH_OBTAINING_ENABLED": "Obtenção de peixes ativada",
+  "text.autoconfig.ceramicbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[0]": "§6§lObtenção de peixes ativada",
+  "text.autoconfig.ceramicbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[1]": "Define se a obtenção de peixes com um",
+  "text.autoconfig.ceramicbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[2]": "Balde de Cerâmica deve ser ativada.",
+  "text.autoconfig.ceramicbucket.option.FISH_OBTAINING_ENABLED.@Tooltip[3]": "§7§oPadrão: verdadeiro",
+
+  "text.autoconfig.ceramicbucket.option.MILKING_ENABLED": "Ordenha ativada",
+  "text.autoconfig.ceramicbucket.option.MILKING_ENABLED.@Tooltip[0]": "§6§lOrdenha ativada",
+  "text.autoconfig.ceramicbucket.option.MILKING_ENABLED.@Tooltip[1]": "Define se a ordenha de entidades com um",
+  "text.autoconfig.ceramicbucket.option.MILKING_ENABLED.@Tooltip[2]": "Balde de Cerâmica deve ser ativada.",
+  "text.autoconfig.ceramicbucket.option.MILKING_ENABLED.@Tooltip[3]": "§7§oPadrão: verdadeiro"
+}
