@@ -1,0 +1,31 @@
+{
+    "_comment": "Config",
+    "telepastries.config.title": "Configurações do TelePastries",
+
+    "_comment": "Creative Tab",
+    "itemGroup.tele_tab": "TelePastries",
+
+    "_comment": "Block",
+    "block.telepastries.nether_cake": "Bolo do Nether",
+    "block.telepastries.end_cake": "Bolo do End",
+    "block.telepastries.overworld_cake": "Bolo da Superfície",
+
+    "block.telepastries.twilight_cake": "Bolo do Twilight Forest",
+    "block.telepastries.lost_city_cake": "Bolo do Lost Cities",
+    "block.telepastries.hunting_dimension_cake": "Bolo da Dimensão de Caça",
+    "block.telepastries.custom_cake": "Bolo de %s",
+    "block.telepastries.custom_cake2": "Bolo de %s",
+    "block.telepastries.custom_cake3": "Bolo de %s",
+
+    "_comment": "Message",
+    "telepastries.pastry.reset.complete": "A posição salva da dimensão %s foi redefinida.",
+    "telepastries.pastry.reset.failed": "A dimensão %s não possui uma posição salva.",
+    "telepastries.pastry.support.disabled": "O bolo está desativado porque o %s não está instalado",
+    "telepastries.pastry.custom.unbound": "O bolo personalizado não possui dimensão associada na configuração ",
+    "telepastries.pastry.custom.invalid": "Destino do bolo inválido: %s",
+    "telepastries.same_dimension": "Não é possível se teletransportar para a mesma dimensão",
+    "telepastries.teleport_restricted": "Não é possível se teletransportar para uma dimensão diferente da Superfície",
+
+    "_comment": "Waila",
+    "config.jade.plugin_telepastries.bites": "Fatias de bolo"
+}
