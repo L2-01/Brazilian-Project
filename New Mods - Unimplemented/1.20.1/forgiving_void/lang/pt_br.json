@@ -1,0 +1,23 @@
+{
+  "config.forgivingvoid.title": "Forgiving Void",
+  "config.forgivingvoid.triggerAtDistanceBelow": "Ativar a uma distância abaixo",
+  "config.forgivingvoid.triggerAtDistanceBelow.tooltip": "Distância até o nível Y mínimo em que o Forgiving Void deve salvar o jogador e enviá-lo para o céu.",
+  "config.forgivingvoid.damageOnFall": "Dano na Queda",
+  "config.forgivingvoid.damageOnFall.tooltip": "Quantidade de dano aplicada ao jogador quando ele aterrissa.",
+  "config.forgivingvoid.fallingHeight": "Altura da Queda",
+  "config.forgivingvoid.fallingHeight.tooltip": "Altura da qual o jogador cairá após atravessar o vazio.",
+  "config.forgivingvoid.preventDeath": "Impedir a Morte",
+  "config.forgivingvoid.preventDeath.tooltip": "Impede a morte ao cair no vazio (limita o dano para deixar pelo menos meio coração).",
+  "config.forgivingvoid.triggerInOverworld": "Ativar no Mundo Superior",
+  "config.forgivingvoid.triggerInOverworld.tooltip": "Desative para impedir que o Forgiving Void seja acionado no vazio do Mundo Superior (dimensão 0).",
+  "config.forgivingvoid.triggerInNether": "Ativar no Nether",
+  "config.forgivingvoid.triggerInNether.tooltip": "Desative para impedir que o Forgiving Void seja acionado no vazio do Nether (dimensão -1).",
+  "config.forgivingvoid.triggerInEnd": "Ativar no End",
+  "config.forgivingvoid.triggerInEnd.tooltip": "Desative para impedir que o Forgiving Void seja acionado no vazio do End (dimensão 1).",
+  "config.forgivingvoid.disableVanillaAntiCheatWhileFalling": "Desativar o antitrapaça padrão durante a queda",
+  "config.forgivingvoid.disableVanillaAntiCheatWhileFalling.tooltip": "Ative se os jogadores estiverem sendo puxados de volta ao cair pelo vazio. Em servidores públicos, faça isso somente se houver um sistema antitrapaça adequado instalado.",
+  "config.forgivingvoid.dimensionAllowList": "Lista de Dimensões Permitidas",
+  "config.forgivingvoid.dimensionAllowList.tooltip": "Lista de IDs de dimensões permitidas para o Forgiving Void. As opções triggerInOverworld e similares têm prioridade.",
+  "config.forgivingvoid.dimensionDenyList": "Lista de Dimensões Negadas",
+  "config.forgivingvoid.dimensionDenyList.tooltip": "Lista de IDs adicionais de dimensões bloqueadas para o Forgiving Void. As opções triggerInOverworld e similares têm prioridade. Ignorada quando dimensionAllowList está definida."
+}
