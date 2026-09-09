@@ -1,4 +1,51 @@
 {
+  "rconfig.server.title": "Servidor Dedicado",
+  "rconfig.server.desc": "Propriedades que podem ser atualizadas em tempo real.",
+  "rconfig.server.wiki": "Wiki",
+
+  "rconfig.server.properties.white-list": "Lista Branca",
+  "rconfig.server.properties.white-list.desc": "Se ativado, apenas os usuários na lista branca podem acessar o servidor.",
+
+  "rconfig.server.properties.max-players": "Máximo de Jogadores",
+  "rconfig.server.properties.max-players.desc": "O número máximo de jogadores que podem jogar no servidor ao mesmo tempo.",
+
+  "rconfig.server.properties.motd": "Mensagem do Dia",
+  "rconfig.server.properties.motd.desc": "A mensagem exibida na lista de servidores.",
+
+  "rconfig.server.properties.allow-flight": "Permitir Voo",
+  "rconfig.server.properties.allow-flight.desc": "Se ativado, os jogadores podem voar no servidor, geralmente necessário em um servidor modificado.",
+
+  "rconfig.server.properties.pvp": "Jogador contra Jogador",
+  "rconfig.server.properties.pvp.desc": "Se ativado, os jogadores podem atacar uns aos outros.",
+
+  "rconfig.server.properties.enforce-whitelist": "Aplicar Lista Branca",
+  "rconfig.server.properties.enforce-whitelist.desc": "Se ativado, apenas os usuários na lista branca podem acessar o servidor; se houver usuários no servidor que não estejam na lista branca, eles serão expulsos.",
+
+  "rconfig.ui.constant.close": "Fechar",
+  "rconfig.ui.constant.reset": "Redefinir",
+  "rconfig.ui.constant.edit": "Editar",
+  "rconfig.ui.constant.edit.string": "Editar Texto",
+  "rconfig.ui.constant.edit.list": "Editar Lista",
+  "rconfig.ui.constant.edit.object": "Editar Objeto",
+  "rconfig.ui.constant.choose_item": "Escolher Item: ",
+  "rconfig.ui.constant.add_item": "Adicionar Item: ",
+  "rconfig.ui.constant.add_item.tooltip": "Adicionar Item",
+  "rconfig.ui.constant.remove_item": "Remover Item",
+  "rconfig.ui.constant.move_up": "Mover para Cima",
+  "rconfig.ui.constant.move_down": "Mover para Baixo",
+  "rconfig.ui.constant.mod_configs": "Configurações de Mods",
+  "rconfig.ui.constant.mod_configs.description": "Selecione uma configuração para visualizar ou editar.",
+
+
+  "rconfig.color.preset.defaults": "Padrões",
+  "rconfig.color.preset.recents": "Recentes",
+  "rconfig.color.preset.mc_colors": "Cores de Texto",
+
+
+
+
+
+
   "gui.authme.button.auth": "Autenticação",
   "gui.authme.button.auth.tooltip": "Olá, %s!",
   "gui.authme.button.relogin": "Reconectar",

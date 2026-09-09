@@ -29,9 +29,6 @@
     "item.ironfurnaces.upgrade_gold2": "Aprimoramento de Fornalha de Prata para Ouro",
     "item.ironfurnaces.item_copy": "Vinculador de Configurações de Fornalha",
 
-    "_comment": "TAB",
-    "itemGroup.ironfurnaces": "Iron Furnaces",
-	
     "_comment": "Furnace items (item.* required for BlockItem display names in 26.x)",
     "item.ironfurnaces.iron_furnace": "Fornalha de Ferro",
     "item.ironfurnaces.gold_furnace": "Fornalha de Ouro",
@@ -46,6 +43,9 @@
     "item.ironfurnaces.allthemodium_furnace": "Fornalha de Allthemodium",
     "item.ironfurnaces.vibranium_furnace": "Fornalha de Vibranium",
     "item.ironfurnaces.unobtainium_furnace": "Fornalha de Unobtainium",
+
+    "_comment": "TAB",
+    "itemGroup.ironfurnaces": "Iron Furnaces",
 
     "_comment": "Blocks",
     "block.ironfurnaces.iron_furnace": "Fornalha de Ferro",

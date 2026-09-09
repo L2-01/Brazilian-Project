@@ -27,13 +27,13 @@
   "block.mobflowutilities.glimmer_lamp": "Lâmpada Cintilante",
   "block.mobflowutilities.glimmer_lamp.subtitle": "Emite luz quando energizado com Redstone",
 
-  "item.mobflowutilities.flow_pad_fast": "Plataforma de Espiral Rápida",
+  "item.mobflowutilities.flow_pad_fast": "Plataforma de Transporte Rápida",
   "item.mobflowutilities.flow_pad_faster": "Plataforma de Transporte Mais Rápida",
   "item.mobflowutilities.flow_pad_fastest": "Plataforma de Transporte Muito Rápida",
   "item.mobflowutilities.damage_pad": "Plataforma de Dano",
 
-  "item.mobflowutilities.collector": "Controlador",
-  "item.mobflowutilities.controller": "Coletor",
+  "item.mobflowutilities.collector": "Coletor",
+  "item.mobflowutilities.controller": "Controlador",
   "item.mobflowutilities.gigatank": "Giga Tanque",
   "item.mobflowutilities.gigatank.subtitle": "Segura 1024 baldes",
   "item.mobflowutilities.fan": "Ventilador",
@@ -88,7 +88,7 @@
   "item.mobflowutilities.gloom_spore.subtitle": "Converte blocos semelhantes a terra em Terra Sombria.",
 
   "item.mobflowutilities.glimmer_sprout": "Broto Cintilante",
-  "item.mobflowutilities.glimmer_sprout.subtitle": "Converte blocos semelhantes a terra em Grama Cintilante.baús",
+  "item.mobflowutilities.glimmer_sprout.subtitle": "Converte blocos semelhantes a terra em Grama Cintilante.",
 
   "item.mobflowutilities.life_catalyst": "Catalisador da Vida",
   "item.mobflowutilities.life_catalyst.subtitle": "Componente de fabricação para ovos geradores.",
@@ -99,7 +99,7 @@
   "item.mobflowutilities.infused_charcoal": "Carvão Vegetal Infundido",
   "item.mobflowutilities.infused_charcoal.subtitle": "Queima por 8x mais tempo que carvão vegetal normal.",
 
-  "item.mobflowutilities.empty_gene_vial": "Frasco de Gene do Vazio",
+  "item.mobflowutilities.empty_gene_vial": "Frasco de Gene Vazio",
 
   "item.mobflowutilities.gene_sample_vial": "Frasco de Amostra de Gene",
 
@@ -155,8 +155,8 @@
   "tooltip.mobflowutilities.genesis_infuser.tank_empty": "Vazio",
   "tooltip.mobflowutilities.genesis_infuser.progress": "Progresso",
 
-  "item.mobflowutilities.pad_wrench.mode.add": "Adicionar modo",
-  "item.mobflowutilities.pad_wrench.mode.remove": "Remover modo",
+  "item.mobflowutilities.pad_wrench.mode.add": "Modo de Conexão",
+  "item.mobflowutilities.pad_wrench.mode.remove": "Modo de Desconexão",
   "item.mobflowutilities.pad_wrench.selection.single": "Seleção única",
   "item.mobflowutilities.pad_wrench.selection.multi": "Seleção múltipla",
   "item.mobflowutilities.pad_wrench.controller.selected": "Controlador selecionado em %d, %d, %d",
@@ -168,8 +168,8 @@
   "item.mobflowutilities.pad_wrench.multi.unlinked": "Desconectou %d plataformas de ataque",
   "item.mobflowutilities.pad_wrench.controller.cleared": "Controlador removido - Chave de Plataforma limpa",
 
-  "item.mobflowutilities.pad_wrench.tooltip.operation.add": "Operação: Adicionar",
-  "item.mobflowutilities.pad_wrench.tooltip.operation.remove": "Operação: Remover",
+  "item.mobflowutilities.pad_wrench.tooltip.operation.add": "Operação: Conectar",
+  "item.mobflowutilities.pad_wrench.tooltip.operation.remove": "Operação: Desconectar",
   "item.mobflowutilities.pad_wrench.tooltip.selection.single": "Modo de seleção: Único",
   "item.mobflowutilities.pad_wrench.tooltip.selection.multi": "Modo de seleção: Múltiplo",
   "item.mobflowutilities.pad_wrench.tooltip.controller.selected": "Controlador: %d, %d, %d",
@@ -185,7 +185,7 @@
   "item.mobflowutilities.mob_catcher.already_occupied": "O capturador de criaturas já contém uma criatura!",
   "item.mobflowutilities.mob_catcher.boss_immunity": "Chefes não podem ser capturados!",
   "item.mobflowutilities.mob_catcher.player_immunity": "Jogadores não podem ser capturados!",
-  "item.mobflowutilities.mob_catcher.captured": "Captura: %s",
+  "item.mobflowutilities.mob_catcher.captured": "Capturado: %s",
   "item.mobflowutilities.mob_catcher.empty": "O capturador de criaturas está vazio!",
   "item.mobflowutilities.mob_catcher.invalid_surface": "Não é possível soltar a criatura aqui - o bloco deve ser sólido!",
   "item.mobflowutilities.mob_catcher.no_space": "Espaço insuficiente para soltar a criatura!",
@@ -216,5 +216,12 @@
   "tooltip.mobflowutilities.fan.wireframe_toggle": "Mostrar/Ocultar Zona de Empurrão",
 
   "message.mobflowutilities.tank.full": "O Tanque está Cheio",
-  "message.mobflowutilities.tank.empty": "O Tanque está Vazio"
+  "message.mobflowutilities.tank.empty": "O Tanque está Vazio",
+
+  "item.mobflowutilities.pad_wrench.error.too_far": "Plataforma muito distante do controlador (máx. %s blocos)",
+  "item.mobflowutilities.pad_wrench.error.controller_full": "Controlador está cheio (máx. %s plataformas)",
+  "item.mobflowutilities.pad_wrench.error.controller_missing": "O controlador selecionado não existe mais",
+  "item.mobflowutilities.pad_wrench.error.invalid": "Alvo de vínculo inválido",
+  "item.mobflowutilities.pad_wrench.multi.skipped_far": "%s plataforma(s) ignorada(s): muito distante (máx. %s blocos)",
+  "item.mobflowutilities.pad_wrench.multi.skipped_full": "%s plataforma(s) ignorada(s): controlador cheio"
 }

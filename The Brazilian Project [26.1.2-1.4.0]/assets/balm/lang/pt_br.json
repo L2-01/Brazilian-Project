@@ -45,5 +45,20 @@
   "disconnect.balm.mod_missing_on_server": "O servidor não possui o %s instalado. Por favor, remova o mod do seu jogo ou instale-o no servidor também.",
   "disconnect.balm.mod_missing_on_client": "Você não possui o %s instalado. Por favor, instale o %s versão %s para jogar neste servidor.",
   "disconnect.balm.mod_version_mismatch": "Incompatibilidade de versão para %s. O servidor espera a versão %s, mas você tem a versão %s instalada atualmente. Por favor, instale a versão correta.",
-  "config.jade.plugin_balm.jade": "Balm"
+  "config.jade.plugin_balm.jade": "Balm",
+  "gui.balm.configuration.title": "%s...",
+  "gui.balm.configuration.edit": "Editar",
+  "gui.balm.configuration.validation.range": "Intervalo: %s a %s",
+  "gui.balm.configuration.validation.negative_infinity": "-inf",
+  "gui.balm.configuration.validation.positive_infinity": "+inf",
+
+
+
+
+
+
+  "key.keyboard.modifiers": "%s + %s",
+  "key.keyboard.modifier.shift": "Shift",
+  "key.keyboard.modifier.control": "Control",
+  "key.keyboard.modifier.alt": "Alt"
 }

@@ -2,29 +2,41 @@
 
   "itemGroup.shops": "BBL Shops",
   "menu.shops.shop": "A Grande Loja dos B Bucks",
+
   "item.shops.copper_coin": "Moeda de Cobre",
   "item.shops.iron_coin": "Moeda de Ferro",
   "item.shops.gold_coin": "Moeda de Ouro",
 
-  ".shops.shop": "Loja",
-  "tooltip.shops.balance": "Saldo: %s B Bucks",
   "tooltip.shops.shift": "Pressione SHIFT para mais informações",
   "tooltip.shops.search_bar": "Procure por um item na loja",
+  "tooltip.shops.balance": "Saldo: %s B Bucks",
+
+  "entity.shops.shop_trader": "Entidade Comerciante",
+
   "tooltip.shops.bound_to": "Este cartão está vinculado a %s",
   "tooltip.shops.how_to": "Clique com o Botão Direito para vincular à sua conta",
   "tooltip.shops.value": "Vale %s B Bucks",
 
+  "screen.shops.mode_buy_suffix": "Jogador Compra",
+  "screen.shops.mode_sell_suffix": "Jogador Vende",
+
+  "jei.shops.shop": "Compra e Venda",
   "jei.shops.selling_price": "Vende por: %s B Bucks",
   "jei.shops.buying_price": "Compra por: %s B Bucks",
-  "jei.shops.selling": "Jogador Vende",
-  "jei.shops.buying": "Jogador Compra",
   "jei.shops.tier": "Requer Nível: %s",
   "jei.shops.trader": "Exige um Comerciante com um bloco %s próximo",
+
+  "jei.shops.selling": "Jogador Vende",
+  "jei.shops.buying": "Jogador Compra",
+
+  "message.shops.no_sellable_item": "Você não tem esse item para vender.",
+  "message.shops.not_unlocked": "Você ainda não desbloqueou esse item.",
+  "message.shops.not_enough": "Você não tem B Bucks suficientes",
 
   "tooltip.shops.mode_buy": "Comprar",
   "tooltip.shops.mode_sell": "Vender",
 
-  "block.shops.shop.player_balance_card": "Usado para pagamentos automáticos",
+  "block.shops.shop.player_balance_card": "Inserir Cartão de Saldo do Jogador",
   "block.shops.shop.selling_input": "Entrada de Venda",
   "block.shops.shop.catalog": "Inserir Catálogo",
   "block.shops.shop.output": "Saída da Loja",
