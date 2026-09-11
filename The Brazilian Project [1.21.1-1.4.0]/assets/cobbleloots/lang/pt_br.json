@@ -11,7 +11,7 @@
   "gui.cobbleloots.loot_ball.field.sparks": "Faíscas",
   "gui.cobbleloots.loot_ball.field.uses": "Usos",
   "gui.cobbleloots.loot_ball.field.multiplier": "Mult.",
-  "gui.cobbleloots.loot_ball.field.xp": "XP",
+  "gui.cobbleloots.loot_ball.field.xp": "EXP",
   "gui.cobbleloots.loot_ball.field.playertimer": "Temporizador de Jogador",
   "gui.cobbleloots.loot_ball.field.despawntick": "Tique de Despawn",
   "gui.cobbleloots.loot_ball.field.item": "ID do Item",
@@ -139,5 +139,24 @@
   "cobbleloots.midnightconfig.archaeology_disabled_dimensions": "Dimensões Desativadas (Arqueologia)",
   "cobbleloots.midnightconfig.archaeology_disabled_dimensions.tooltip": "Lista de IDs de dimensões onde a arqueologia de Bola de Saques está desativada.",
 
-  "subtitles.cobbleloots.loot_ball_open": "Fanfarra de abertura da Bola de Saques"
+  "subtitles.cobbleloots.loot_ball_open": "Fanfarra de abertura da Bola de Saques",
+
+
+
+
+
+
+	"midnightlib.overview.title": "Visão Geral do MidnightConfig",
+	"midnightlib.midnightconfig.title": "Configuração do MidnightLib",
+	"midnightlib.midnightconfig.config_screen_list": "Ativar Lista de Telas de Configuração",
+	"midnightlib.midnightconfig.enum.ConfigButton.TRUE": "§aSim",
+	"midnightlib.midnightconfig.enum.ConfigButton.FALSE": "§cNão",
+	"midnightlib.midnightconfig.enum.ConfigButton.MODMENU": "§bModMenu",
+	"midnightlib.modrinth": "Modrinth",
+	"midnightlib.curseforge": "CurseForge",
+	"midnightlib.wiki": "Wiki",
+	"midnightconfig.colorChooser.title": "Escolha uma cor",
+	"midnightconfig.action.list_index": "Editando lista no índice %s",
+	"midnightconfig.action.color_chooser": "Abrir seletor de cores",
+	"midnightconfig.action.file_chooser": "Abrir seletor de arquivos"
 }
