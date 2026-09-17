@@ -124,7 +124,7 @@
   "tag.starcatcher.is_basalt_deltas": "Deltas de Basalto",
   "tag.starcatcher.is_soul_sand_valley": "Vales de Areia das Almas",
 
-  "tag.minecraft.is_badlands": "Terras Baldias",
+  "tag.minecraft.is_badlands": "Terras áridas",
   "tag.minecraft.is_beach": "Praias",
   "tag.minecraft.is_deep_ocean": "Oceanos Profundos",
   "tag.minecraft.is_end": "Biomas do End",
@@ -159,6 +159,13 @@
   "tag.starcatcher.epic_fishes": "Peixes Épicos",
   "tag.starcatcher.legendary_fishes": "Peixes Lendários",
 
+  "tag.starcatcher.common_starcaught_fishes": "Peixes Comuns",
+  "tag.starcatcher.uncommon_starcaught_fishes": "Peixes Incomuns",
+  "tag.starcatcher.rare_starcaught_fishes": "Peixes Raros",
+  "tag.starcatcher.epic_starcaught_fishes": "Peixes Épicos",
+  "tag.starcatcher.legendary_starcaught_fishes": "Peixes Lendários",
+
+
   "tag.starcatcher.aquarium_guide_display": "Interações de Aquário Para o Guia",
   "tag.starcatcher.placeable_in_display": "Colocável no Bloco de Exibição",
   "tag.starcatcher.placeable_in_tackle_box": "Colocável na Caixa de Pesca",
@@ -167,6 +174,10 @@
   "tag.starcatcher.tackle_skins": "Visuais de Equipamento",
   "tag.starcatcher.trash": "Lixo",
   "tag.starcatcher.worms": "Minhocas",
+
+  "tag.starcatcher.crabs": "Caranguejos",
+  "tag.starcatcher.eels": "Enguias",
+  "tag.starcatcher.shrimps": "Camarões",
 
   "tag.starcatcher.has_radar_layer": "Possui Camada de Radar de Peixes",
   "tag.starcatcher.has_tracker_layer": "Possui Camada de Rastreador de Peixes",
@@ -205,6 +216,11 @@
   "starcatcher.configuration.radar_x_offset": "Deslocamento X do radar",
   "starcatcher.configuration.radar_y_offset": "Deslocamento Y do radar",
   "starcatcher.configuration.radar_scale": "Escala do radar",
+
+  "starcatcher.configuration.tracker_x_offset": "Deslocamento X do Rastreador",
+  "starcatcher.configuration.tracker_y_offset": "Deslocamento Y do Rastreador",
+  "starcatcher.configuration.tracker_scale": "Escala do Rastreador",
+
 
   "starcatcher.configuration.debug": "Informações de depuração do Minigame",
 
@@ -1214,6 +1230,8 @@
   "gui.guide.hover.biome.incorrect": "❌ Bioma",
   "gui.guide.hover.daytime.correct": "✅ Horário",
   "gui.guide.hover.daytime.incorrect": "❌ Horário",
+  "gui.guide.hover.structure.correct": "✅ Estrutura",
+  "gui.guide.hover.structure.incorrect": "❌ Estrutura",
   "gui.guide.hover.moon_phase.incorrect": "❌ Fase da lua",
   "gui.guide.hover.moon_phase.correct": "✅ Fase da lua",
   "gui.guide.hover.luck_restriction.incorrect": "❌ Sorte",
@@ -1304,7 +1322,7 @@
 
 
   "gui.starcatcher.tournament.organizer": "Organizador",
-  "gui.starcatcher.tournament.status": "Status",
+  "gui.starcatcher.tournament.status": "Estado",
   "gui.starcatcher.tournament.duration": "Duração",
   "gui.starcatcher.tournament.start_date": "Data de Início",
   "gui.starcatcher.tournament.previous_tournaments": "Torneios anteriores",
@@ -2054,12 +2072,12 @@
   "item.starcatcher.magma_fish": "Peixe de Magma",
   "tooltip.starcatcher.magma_fish.0": "Um peixe comum do Nether conhecido por suas barbatanas vermelhas brilhantes.",
 
-  "item.starcatcher.glowstone_seeker": "Buscador de Pedra Luminosa",
+  "item.starcatcher.glowstone_seeker": "Buscador de Pedra-Luminosa",
   "tooltip.starcatcher.glowstone_seeker.0": "Um peixe que parece ser estranhamente atraído",
-  "tooltip.starcatcher.glowstone_seeker.1": "por pedra luminosa, geralmente nadando sob ela.",
+  "tooltip.starcatcher.glowstone_seeker.1": "por pedra-luminosa, geralmente nadando sob ela.",
 
-  "item.starcatcher.glowstone_pufferfish": "Baiacu de Pedra Luminosa",
-  "tooltip.starcatcher.glowstone_pufferfish.0": "Um baiacu cintilando exatamente como pedra luminosa.",
+  "item.starcatcher.glowstone_pufferfish": "Baiacu de Pedra-Luminosa",
+  "tooltip.starcatcher.glowstone_pufferfish.0": "Um baiacu cintilando exatamente como pedra-luminosa.",
 
   "item.starcatcher.willish": "Willish",
   "tooltip.starcatcher.willish.0": "Um peixe conhecido por enganar outros peixes para roubar sua comida.",
@@ -2181,6 +2199,60 @@
 
 
 
+  "tooltip.libtooltips.generic.shift_up": "§7⏬ [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§7] ⏬",
+  "tooltip.libtooltips.generic.shift_down": "§7⏫ [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§7] ⏫",
+  "tooltip.libtooltips.generic.empty": "",
+
+  "key.category.libtooltips.libtooltips": "LibTooltips",
+  "key.libtooltips.expand": "Expandir Dica de Ferramenta",
+
+  "libtooltips.configuration.enable_tooltips": "Ativar Dicas de Ferramenta",
+  "libtooltips.configuration.line_before": "Linha vazia antes",
+  "libtooltips.configuration.line_before.tooltip": "Adiciona uma linha vazia ANTES da descrição, DEPOIS do [shift]",
+  "libtooltips.configuration.spaces_before_tooltip": "Espaços antes da dica",
+  "libtooltips.configuration.spaces_before_tooltip.tooltip": "Adiciona X espaços ANTES do texto da dica",
+  "libtooltips.configuration.line_after": "Linha vazia depois",
+  "libtooltips.configuration.line_after.tooltip": "Adiciona uma linha vazia DEPOIS da descrição",
+  "libtooltips.configuration.default_color": "Cor da Descrição",
+  "libtooltips.configuration.default_color.tooltip": "Qual cor usar como base para a dica. O valor é a cor como um número inteiro (use um seletor de cores online)",
+  "libtooltips.configuration.title": "Configurações do LibTooltips",
+
+  "tooltip.namespace.path.0": "Que dica chique com <ltrgb>arco-íris rgb</ltrgb>!",
+  "tooltip.namespace.path.1": "E olha, até suporta várias linhas, uau",
+  "tooltip.namespace.path.2": "Para evitar incompatibilidades com outras APIs de processamento de texto,",
+  "tooltip.namespace.path.3": "é recomendado que as tags tenham um nome não genérico, como 'ltrgb' em vez de 'rgb'",
+  "tooltip.namespace.path.4": "hide",
+  "tooltip.namespace.path.5": "Definir uma linha como 'hide' vai impedir que o restante das linhas seja exibido.",
+  "tooltip.namespace.path.6": "Isso é útil para traduções em que idiomas diferentes podem ter menos linhas que o padrão.",
+
+  "tooltip.always.namespace.path.0": "Esta dica sempre vai aparecer!",
+
+
+
+
+
+
+  "tinymultiblocklib.configuration.title": "Tiny Multiblock Lib",
+  "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml.title": "Configuração de Cliente do TMBL",
+  "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml": "Configuração de Cliente do TMBL",
+  "tinymultiblocklib.configuration.disable_multiblock_previews": "Desativar Pré-visualizações de Multiblocos",
+  "tinymultiblocklib.configuration.disable_multiblock_previews.tooltip": "Desativa as pré-visualizações fantasma ao tentar posicionar um multibloco",
+  "tinymultiblocklib.configuration.previews_for_everything": "Pré-visualizações para Tudo",
+  "tinymultiblocklib.configuration.previews_for_everything.tooltip": "Ativa pré-visualizações para tudo; usada para depuração",
+  "tinymultiblocklib.configuration.preview_whitelist": "Lista de Permissões de Pré-visualização",
+  "tinymultiblocklib.configuration.preview_whitelist.tooltip": "Lista de blocos para os quais as pré-visualizações serão exibidas",
+
+  "tinymultiblocklib.configuration.preview_blacklist": "Lista de Bloqueios de Pré-visualização",
+  "tinymultiblocklib.configuration.preview_blacklist.tooltip": "Lista de blocos para os quais as pré-visualizações serão ocultadas",
+
+  "tinymultiblocklib.configuration.preview_whitelist.button": "Editar",
+  "tinymultiblocklib.configuration.preview_blacklist.button": "Editar",
+
+
+
+
+
+
   "itemGroup.selling_bin.selling_bin": "wd's Selling Bin",
   "section.selling_bin.bin": "Caixa!",
   "section.selling_bin.currencies": "Moedas",
@@ -2241,59 +2313,5 @@
   "block.selling_bin.selling_bin": "Caixa de Venda",
 
   "item.minecraft.emerald.plural": "Esmeraldas",
-  "block.minecraft.emerald_block.plural": "Blocos de Esmeralda",
-
-
-
-
-
-
-  "tinymultiblocklib.configuration.title": "Tiny Multiblock Lib",
-  "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml.title": "Configuração de Cliente do TMBL",
-  "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml": "Configuração de Cliente do TMBL",
-  "tinymultiblocklib.configuration.disable_multiblock_previews": "Desativar Pré-visualizações de Multiblocos",
-  "tinymultiblocklib.configuration.disable_multiblock_previews.tooltip": "Desativa as pré-visualizações fantasma ao tentar posicionar um multibloco",
-  "tinymultiblocklib.configuration.previews_for_everything": "Pré-visualizações para Tudo",
-  "tinymultiblocklib.configuration.previews_for_everything.tooltip": "Ativa pré-visualizações para tudo; usada para depuração",
-  "tinymultiblocklib.configuration.preview_whitelist": "Lista de Permissões de Pré-visualização",
-  "tinymultiblocklib.configuration.preview_whitelist.tooltip": "Lista de blocos para os quais as pré-visualizações serão exibidas",
-
-  "tinymultiblocklib.configuration.preview_blacklist": "Lista de Bloqueios de Pré-visualização",
-  "tinymultiblocklib.configuration.preview_blacklist.tooltip": "Lista de blocos para os quais as pré-visualizações serão ocultadas",
-
-  "tinymultiblocklib.configuration.preview_whitelist.button": "Editar",
-  "tinymultiblocklib.configuration.preview_blacklist.button": "Editar",
-
-
-
-
-
-
-  "tooltip.libtooltips.generic.shift_up": "§7⏬ [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§7] ⏬",
-  "tooltip.libtooltips.generic.shift_down": "§7⏫ [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§7] ⏫",
-  "tooltip.libtooltips.generic.empty": "",
-
-  "key.category.libtooltips.libtooltips": "LibTooltips",
-  "key.libtooltips.expand": "Expandir Dica de Ferramenta",
-
-  "libtooltips.configuration.enable_tooltips": "Ativar Dicas de Ferramenta",
-  "libtooltips.configuration.line_before": "Linha vazia antes",
-  "libtooltips.configuration.line_before.tooltip": "Adiciona uma linha vazia ANTES da descrição, DEPOIS do [shift]",
-  "libtooltips.configuration.spaces_before_tooltip": "Espaços antes da dica",
-  "libtooltips.configuration.spaces_before_tooltip.tooltip": "Adiciona X espaços ANTES do texto da dica",
-  "libtooltips.configuration.line_after": "Linha vazia depois",
-  "libtooltips.configuration.line_after.tooltip": "Adiciona uma linha vazia DEPOIS da descrição",
-  "libtooltips.configuration.default_color": "Cor da Descrição",
-  "libtooltips.configuration.default_color.tooltip": "Qual cor usar como base para a dica. O valor é a cor como um número inteiro (use um seletor de cores online)",
-  "libtooltips.configuration.title": "Configurações do LibTooltips",
-
-  "tooltip.namespace.path.0": "Que dica chique com <ltrgb>arco-íris rgb</ltrgb>!",
-  "tooltip.namespace.path.1": "E olha, até suporta várias linhas, uau",
-  "tooltip.namespace.path.2": "Para evitar incompatibilidades com outras APIs de processamento de texto,",
-  "tooltip.namespace.path.3": "é recomendado que as tags tenham um nome não genérico, como 'ltrgb' em vez de 'rgb'",
-  "tooltip.namespace.path.4": "hide",
-  "tooltip.namespace.path.5": "Definir uma linha como 'hide' vai impedir que o restante das linhas seja exibido.",
-  "tooltip.namespace.path.6": "Isso é útil para traduções em que idiomas diferentes podem ter menos linhas que o padrão.",
-
-  "tooltip.always.namespace.path.0": "Esta dica sempre vai aparecer!"
+  "block.minecraft.emerald_block.plural": "Blocos de Esmeralda"
 }

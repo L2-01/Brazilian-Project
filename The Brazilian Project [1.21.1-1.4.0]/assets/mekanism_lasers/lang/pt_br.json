@@ -29,12 +29,13 @@
   "block.mekanism_lasers.energized_fence": "Cerca Energizada",
 
   "item.mekanism_lasers.remote_control": "Controle Remoto",
+  "item.mekanism_lasers.laser_configurator": "Configurador de Laser",
 
   "container.mekanism_lasers.ore_generator": "Gerador de Minério",
   "container.mekanism_lasers.interface_block": "Bloco de Interface",
 
   "description.mekanism.laser_stopper": "Bloco que pode assumir a forma de qualquer outro bloco e ainda bloquear lasers",
-  "description.mekanism.laser_splitter": "Divide o laser em dois",
+  "description.mekanism.laser_splitter": "Divide um laser recebido em até quatro feixes que saem por seus lados perpendiculares. Agache-se e clique com o botão direito usando um Configurador para alternar a quantidade de feixes.",
   "description.mekanism.laser": "Luz altamente concentrada :D",
   "description.mekanism.laser_toggleable": "Luz altamente concentrada; mas pode ser ativada/desativada :D",
   "description.mekanism.ore_generator": "Usa luz para converter energia em minérios",

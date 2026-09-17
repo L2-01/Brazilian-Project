@@ -13,6 +13,7 @@
 	"ftbteams.lost_a_life": "Seu grupo perdeu uma vida! Restam %s / %s vidas!",
 	"ftbteams.kicked_no_lives": "O grupo removeu %s por morrer sem vidas restantes!",
 	"ftbteams.disbanded_no_lives": "A falta de vidas e jogadores desfez seu grupo!",
+	"ftbteams.party_full": "Não é possível adicionar novos jogadores: seu grupo está cheio! O limite é de %s membro(s)",
 	"ftbteams.server_permissions_prevent": "As permissões do servidor impedem essa ação.",
 	"ftbteams.info.id": "ID Longo da Equipe: %s",
 	"ftbteams.info.short_id": "ID Curto da Equipe: %s",
@@ -24,7 +25,7 @@
 	"ftbteams.property_not_found": "ID da propriedade não encontrado!",
 	"ftbteams.owner_cant_leave": "Transfira a liderança da equipe antes de sair!",
 	"ftbteams.cant_kick_owner": "Não é possível expulsar o líder!",
-	"ftbteams.party_api_only": "Neste modpack, você não pode criar grupos diretamente!",
+	"ftbteams.party_api_only": "Neste modpack, você não pode criar grupos diretamente!\n%s",
 	"ftbteams.api_override": "Neste modpack, você só pode criar grupos pelo botão 'Minha Equipe' no inventário!",
 	"ftbteams.missing_data": "Os dados da equipe não foram recebidos do servidor!\nO FTB Teams não funcionará corretamente.\nVerifique o registro do servidor e certifique-se de que ele esteja no modo on-line.",
 	"sidebar_button.ftbteams.my_team": "Minha Equipe",
@@ -105,5 +106,9 @@
 	"ftbteams.message.property_not_editable": "Não é possível editar a propriedade %s!",
 	"ftbteams.accept": "Aceitar ✔",
 	"ftbteams.decline": "Recusar ✘",
-	"ftbteams.click_show_info": "Clique para ver as informações da equipe"
+	"ftbteams.click_show_info": "Clique para ver as informações da equipe",
+	"ftbteams.config.server.limited_lives": "Vidas Limitadas da Equipe",
+	"ftbteams.config.server.limited_lives.tooltip": "Se for maior que 0, serão aplicadas vidas limitadas à equipe do grupo:\n• Quando um membro morre, o grupo perde uma vida\n• Se um membro morrer quando o grupo não tiver vidas restantes, ele será expulso do grupo\n• Se o proprietário do grupo morrer, um membro aleatório será promovido a proprietário (oficiais têm prioridade)\n• Grupos sem vidas restantes não podem convidar novos membros.",
+	"ftbteams.config.server.max_party_size": "Tamanho Máximo da Equipe",
+	"ftbteams.config.server.max_party_size.tooltip": "Se for maior que 0, as equipes de grupo não poderão ter mais jogadores que esse número.\nSe for 0, não haverá limite para o tamanho das equipes.\nObservação: se esta configuração for alterada e já houver no servidor equipes maiores que o novo valor, elas poderão manter o tamanho atual, mas não poderão convidar novos membros."
 }

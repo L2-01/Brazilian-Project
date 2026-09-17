@@ -3,6 +3,9 @@
   "item.omnitools.omni_vajra": "Omnivajra",
   "itemGroup.omnitools": "OmniTools",
   "key.omnitools.cycle_mode": "Alternar Modo da Ferramenta",
+  "key.omnitools.vajra_toggle_silk_touch": "Omni Vajra: Alternar Toque Suave",
+  "key.omnitools.vajra_toggle_mining_speed_up": "Omni Vajra: Aumentar Velocidade de Mineração",
+  "key.omnitools.vajra_toggle_mining_speed_down": "Omni Vajra: Reduzir Velocidade de Mineração",
   "key.categories.gameplay": "Ações do Jogo",
   "key.categories.omnitools": "Controles do OmniTools",
   "toolmode.omnitools.wrench": "Modo Chave",
@@ -14,11 +17,19 @@
   "message.omnitools.vajra_pickup_mode": "§6[OmniTool] §rColeta Automática: §e%s",
   "message.omnitools.vajra_pickup_mode_on": "Ativado",
   "message.omnitools.vajra_pickup_mode_off": "Desativado",
+  "message.omnitools.vajra_silk_touch": "§6[OmniTool] §rToque Suave: §e%s",
+  "message.omnitools.vajra_silk_touch_on": "Ligado",
+  "message.omnitools.vajra_silk_touch_off": "Desligado",
 
   "tooltip.omnitools.omni_wrench.main": "Uma omniferramenta multimod que substitui várias chaves separadas.",
   "tooltip.omnitools.omni_wrench.controls": "Defina uma tecla nos controles (padrão: Alt) para alternar os modos.",
   "omnitools.compat.draconicevolution": "[OmniTools] Draconic Evolution",
   "omnitools.compat.extendedae": "[OmniTools] ExtendedAE",
+  "omnitools.compat.industrialforegoing": "[OmniTools] Industrial Foregoing",
   "omnitools.compat.powah": "[OmniTools] Powah",
-  "omnitools.compat.entangled": "[OmniTools] Entangled"
+  "omnitools.compat.entangled": "[OmniTools] Entangled",
+  "omnitools.compat.mekanism": "[OmniTools] Mekanism",
+  "omnitools.compat.ae2": "[OmniTools] Applied Energistics 2",
+  "omnitools.compat.logisticsnetworks": "[OmniTools] Logistics Networks",
+  "message.omnitools.logisticsnetworks.clipboard_cleared": "Configurações armazenadas do nó logístico apagadas"
 }

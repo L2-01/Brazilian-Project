@@ -27,7 +27,7 @@
   "arsdelight.page.spell_automation": "Automação com Feitiços",
   "arsdelight.page1.drygmy_weapon": "Com o Ars Delight, Drygmy podem simular drops de entidades com ferramentas em um Pedestal Arcano próximo a um Henge de Drygmy.\n\nEste recurso permite aos Drygmy produzirem itens do Farmer's Delight e seus addons.",
   "arsdelight.page1.effects": "Cozinhando frutos de uma archwood com a casca de outra, pode-se neutralizar os efeitos negativos e obter algo novo e ativar efeitos mais beneficiais.\n\nComida feita com itens de wilden providenciarão efeitos de wilden que ajudam a jogar feitiços. Comida com ingredientes melhores dão níveis mais altos.",
-  "arsdelight.page1.enchanters_knife": "Aplica um feitiço de Toque antes de danificar uma entidade. Aplica um feitiço na Mesa do Escribaque NÃO contém uma forma, como Incediar -> Estender Duração.\n\nAo contrário da Espada do Encantador, ela não fornece Amplificar adicional.",
+  "arsdelight.page1.enchanters_knife": "Aplica um feitiço de Toque antes de causar dano a uma entidade. Aplique na Mesa do Escriba um feitiço que NÃO contenha uma forma, como Incendiar -> Estender Duração.\n\nAo contrário da Espada do Encantador, ela não fornece o aprimoramento Amplificar adicional.",
   "arsdelight.page1.jelly": "Geleia de fruto de archwood é feita de frutos e casca de archwood, com efeito melhorado para o fruto. Geleia, no chão, faz saltar entidades em queda e aplica o efeito de geleia.\n\nProjéteis de feitiço conseguem atravessar blocos de geleia. Se o feitiço tem efeito de infusão, sobreponha o efeito de poção e ele não consumirá poções.",
   "arsdelight.page1.resources": "Ars Delight adiciona diversos ingredientes que o jogador pode coletar com ferramentas:\n- Cascas de Archwood \n- Carne de Wilden\n- Carne de Quimera\n- Chifre de Quimera",
   "arsdelight.page1.spell_automation": "Quando feitiços atingem uma tábua de corte, ele irá simular ferramentas processando itens na tábua de corte com base no efeito do feitiço:\n- Cortar: Faca ou Tesoura\n- Cortar + Amplificar: Machado ou Faca\n- Cortar + Extrair: Somente Tesoura\n- Quebrar: Picareta\n- Esmagar: Pá\n- Derrubar: Machado\nTer a melhoria de AdE irá cancelar a automação da tábua de corte e aplicar os efeitos originais do feitiço.",
@@ -39,7 +39,7 @@
   "arsdelight.page4.resources": "O jogador pode obter Carne de Quimera em grandes quantidades matando Quimeras com uma faca.\n\nEla é bastante nutritiva e dá um forte efeito Wilden quando cozinhada corretamente.",
   "arsdelight.page5.effects": "O efeito de Feitiço Congelante irá aplicar o efeito Congelamento quando o feitiço do jogador ferir outra entidade.\n\nO Congelamento aplicado irá ter o mesmo nível e duração que o efeito do Feitiço Congelante atualmente no jogador.",
   "arsdelight.page5.resources": "O jogador pode obter Chifres de Quimera matando Quimeras com um machado.\n\nEle é um recipiente reutilizável de comida e consegue melhorar o efeito da comida.",
-  "arsdelight.page6.effects": "O efeito Wilden irá aumentar a mana máxima do jogador, sua regeneração de mana e dano de seus feitiços.\n\nPor padrão, cada nível aumenta em 20% o máximo de mana, a regeneração de mana e o dano dos feitiços. O número ser modificado individualmente nas configurações.",
+  "arsdelight.page6.effects": "O efeito Wilden aumentará a mana máxima do jogador, a regeneração de mana e o dano dos feitiços.\n\nPor padrão, cada nível aumenta em 20%% a mana máxima, a regeneração de mana e o dano dos feitiços. Esses valores podem ser ajustados individualmente nas configurações.",
   "arsdelight.patchouli.automation.page1": "Quando feitiços atingem uma tábua de corte, ele irá simular ferramentas processando itens na tábua de corte com base no efeito do feitiço:$(li)Cortar: Faca ou Tesoura$(li)Cortar + Amplificar: Machado ou Faca$(li)Cortar + Extrair: Somente Tesoura$(li)Quebrar: Picareta$(li)Esmagar: Pá$(li)Derrubar: Machado$(br)nTer a melhoria de AdE irá cancelar a automação da tábua de corte e aplicar os efeitos originais do feitiço.",
   "arsdelight.patchouli.automation.title": "Automação com Feitiços",
   "arsdelight.patchouli.category_desc": "Mecânicas, efeitos e itens dignos de nota adicionados pelo Ars Delight que interagem com conteúdo no Ars Nouveau",
@@ -52,8 +52,8 @@
   "arsdelight.patchouli.effects.page1": "Cozinhando frutos de uma archwood com a casca de outra, pode-se neutralizar os efeitos negativos e obter algo novo e ativar efeitos mais beneficiais.$(br2)Comida feita com itens de wilden providenciarão efeitos de wilden que ajudam a jogar feitiços. Comida com ingredientes melhores dão níveis mais altos.",
   "arsdelight.patchouli.effects.synchronized_shield": "O efeito Escudo Sincronizado dará absorção ao jogador quando ele se regenerar. O jogador ganha o mesmo tanto de absorção quanto ele regenera até uma quantia máxima definida pelo nível do efeito.$(br2)Cada nível dobra a absorção máxima e aquantidade de absorção ganha",
   "arsdelight.patchouli.effects.title": "Efeitos de Comidas",
-  "arsdelight.patchouli.effects.wilden": "O efeito Wilden irá aumentar a mana máxima do jogador, sua regeneração de mana e dano de seus feitiços.$(br2)Por padrão, cada nível aumenta em 20% o máximo de mana, a regeneração de mana e o dano dos feitiços. O número ser modificado individualmente nas configurações.",
-  "arsdelight.patchouli.enchanters_knife": "Aplica um feitiço de Toque antes de danificar uma entidade. Aplica um feitiço na Mesa do Escribaque NÃO contém uma forma, como Incediar -> Estender Duração.$(br2)Ao contrário da Espada do Encantador, ela não fornece Amplificar adicional.",
+  "arsdelight.patchouli.effects.wilden": "O efeito Wilden aumentará a mana máxima do jogador, a regeneração de mana e o dano dos feitiços.$(br2)Por padrão, cada nível aumenta em 20%% a mana máxima, a regeneração de mana e o dano dos feitiços. Esses valores podem ser ajustados individualmente nas configurações.",
+  "arsdelight.patchouli.enchanters_knife": "Aplica um feitiço de Toque antes de causar dano a uma entidade. Aplique na Mesa do Escriba um feitiço que NÃO contenha uma forma, como Incendiar -> Estender Duração.$(br2)Ao contrário da Espada do Encantador, ela não fornece o aprimoramento Amplificar adicional.",
   "arsdelight.patchouli.jelly.page1": "Geleia de fruto de archwood é feita de frutos e casca de archwood, com efeito melhorado para o fruto. Geleia, no chão, faz saltar entidades em queda e aplica o efeito de geleia.$(br2)Projéteis de feitiço conseguem atravessar blocos de geleia. Se o feitiço tem efeito de infusão, sobreponha o efeito de poção e ele não consumirá poções.",
   "arsdelight.patchouli.jelly.title": "Geleia de Frutos de Archwood",
   "arsdelight.patchouli.resources.barks": "O jogador pode coletar cascas de archwood cortando troncos de archwood com o machado na tábua de corte.$(br2)Cascas de archwood são amplamente utilizadas na culinária para ampliar o efeito de frutos da mesma árvore archwood ou converter o efeito de frutos de uma archwood diferente",
@@ -169,7 +169,6 @@
   "item.arsdelight.neutralized_frostaya_jam": "Geleia de Frostaya Neutralizada",
   "item.arsdelight.neutralized_lightchee_jam": "Geleia de Lightchee Neutralizada",
   "item.arsdelight.skittle_stew": "Ensopado de Sementes Mágicas",
-  "item.arsdelight.neutralized_frostaya_jam": "Geleia de Frostaya Neutralizada",
   "item.arsdelight.source_berry_cookie": "Biscoito de Bagas de Fonte",
   "item.arsdelight.source_berry_cupcake": "Cupcake de Bagas de Fonte",
   "item.arsdelight.source_berry_hornbeer": "Chifre de Cerveja de Bagas de Fonte",
@@ -185,5 +184,21 @@
   "item.arsdelight.wilden_skewer": "Espetinho de Wilden",
   "item.arsdelight.wilden_spike_powder": "Pó de Espinho de Wilden",
   "item.arsdelight.wilden_stew": "Ensopado de Wilden",
-  "itemGroup.arsdelight.arsdelight": "Ars Nouveau's Flavors & Delight"
+  "itemGroup.arsdelight.arsdelight": "Ars Nouveau's Flavors & Delight",
+
+
+
+
+
+
+  "l2core.configuration.addEnchantmentDescription": "Mostrar descrições de encantamentos quando houver encantamentos com descrições paramétricas personalizadas",
+  "l2core.configuration.addEnchantmentDescription.tooltip": "Valores Permitidos: DISABLE, SHIFT_ONLY, ALWAYS",
+  "l2core.configuration.overlayZVal": "Altura da sobreposição de caracteres do item",
+  "l2core.configuration.overlayZVal.tooltip": " Padrão: 250\n Intervalo: -1000000 ~ 1000000",
+  "l2core.configuration.renderOverlayIcons": "Renderizar ícones sobrepostos nas entidades",
+  "l2core.configuration.renderOverlayIcons.tooltip": "",
+  "l2core.configuration.section.l2configs.l2core.client.toml": "Configuração de Cliente do L2Core",
+  "l2core.configuration.section.l2configs.l2core.client.toml.title": "Configuração de Cliente do L2Core",
+  "l2core.configuration.title": "Configuração do L2Core",
+  "l2core.title": "L2Core"
 }

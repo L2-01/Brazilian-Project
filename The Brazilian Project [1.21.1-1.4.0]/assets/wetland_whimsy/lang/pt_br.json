@@ -1,24 +1,4 @@
 {
-	"itemGroup.wetland_whimsy": "Wetland Whimsy",
-	"entity.wetland_whimsy.snapping_turtle": "Tartaruga-Mordedora",
-	"entity.wetland_whimsy.bullfrog": "Rã-Touro",
-	"entity.wetland_whimsy.heron": "Garça",
-	"entity.wetland_whimsy.dragonfly": "Libélula do Pântano",
-	"entity.wetland_whimsy.firefly": "Vaga-Lume",
-	"item.wetland_whimsy.frog_leg": "Perna de Rã",
-	"item.wetland_whimsy.cooked_frog_leg": "Perna de Rã Cozida",
-	"item.wetland_whimsy.snapping_turtle_shell": "Carapaça de Tartaruga-Mordedora",
-	"item.wetland_whimsy.heron_feather": "Pena de Garça",
-	"block.wetland_whimsy.mud_reeds": "Juncos de Lama",
-	"block.wetland_whimsy.cattail": "Taboa",
-	"block.wetland_whimsy.swamp_lily": "Lírio do Pântano",
-	"block.wetland_whimsy.cypress_log": "Tronco de Cipreste",
-	"block.wetland_whimsy.cypress_planks": "Tábuas de Cipreste",
-	"block.wetland_whimsy.cypress_leaves": "Folhas de Cipreste",
-	"biome.wetland_whimsy.willow_wetlands": "Pantanal dos Salgueiros",
-	"biome.wetland_whimsy.bayou": "Brejo",
-	"advancement.wetland_whimsy.root": "Maravilhas dos Pântanos",
-	"advancement.wetland_whimsy.root.desc": "Os pântanos ganharam vida.",
 	"advancements.wetland_whimsy.ancient_brazier.desc": "Acenda um Braseiro Ancestral",
 	"advancements.wetland_whimsy.ancient_brazier.title": "🔥🔥🔥",
 	"advancements.wetland_whimsy.ancient_pot.desc": "Insira uma Moeda Ancestral em um Vaso Ancestral",
@@ -119,5 +99,39 @@
 	"wetland_whimsy.configuration.section.wetland.whimsy.common.toml.title": "Configurações do Wetland Whimsy",
 	"wetland_whimsy.configuration.upgrade_disks": "Melhorar Discos",
 	"wetland_whimsy.configuration.upgrade_disks.tooltip": "Dita se os \"Discos\" encontrados em corpos d'água devem ser melhorados",
-	"wetland_whimsy.swamp_hut_disabled": "A Cabana do Pântano do jogo padrão foi desabilitada pelo Wetland Whimsy.\nProcure por \"wetland_whimsy:witch_hut\" no lugar dela\n ou reabilite cabanas de bruxa do jogo padrão nas configurações.\n"
+	"wetland_whimsy.swamp_hut_disabled": "A Cabana do Pântano do jogo padrão foi desabilitada pelo Wetland Whimsy.\nProcure por \"wetland_whimsy:witch_hut\" no lugar dela\n ou reabilite cabanas de bruxa do jogo padrão nas configurações.\n",
+
+
+
+
+
+
+  "modmenu.descriptionTranslation.biolith": "Utilitários dos Terraformers para geração do mundo",
+
+  "biolith.command.describe.header": "valores do bioma",
+  "biolith.command.describe.biome.vanilla": "Bioma do jogo base/dados: ",
+  "biolith.command.describe.biome.terrablender": "Bioma do TerraBlender: ",
+  "biolith.command.describe.biome.moderner_beta": "Bioma do Moderner Beta: ",
+  "biolith.command.describe.biome.replacement": "Bioma substituto: ",
+  "biolith.command.describe.biome.sub": "Sub-bioma selecionado: ",
+  "biolith.command.describe.biome.nearest": "mais próximo: ",
+  "biolith.command.describe.biome.none": "(nenhuma)",
+  "biolith.command.describe.biome.scale": "scale",
+  "biolith.command.describe.nonPlayer": "O emissor não é um jogador; informe uma entidade ou posição.",
+  "biolith.command.describe.notOurs": "A dimensão-alvo não é modificada pelo Biolith.",
+  "biolith.command.help": "Opções de comando:\n  §9/biolith help§r - Informações do comando Biolith\n  §9/biolith describe§r - Informações de bioma e ruído",
+  "biolith.command.help.missing": "§eNão há ajuda para o comando especificado.",
+  "biolith.command.help.describe": "§9/biolith describe [at (<entity>|<position>)]§r - Informações sobre ruído e seleção de bioma",
+  "biolith.command.hint": "§6(Tente \"§9/biolith help§6\" para ver informações sobre o comando...)",
+  "biolith.world.minecraft.the_end": "O End",
+  "biolith.world.minecraft.the_nether": "O Nether",
+  "biolith.world.minecraft.overworld": "Superfície",
+
+
+
+
+
+
+  "trimmed.info.datapacksReloadedTitle": "Pacotes de Dados Recarregados",
+  "trimmed.info.datapacksReloaded": "Talvez seja necessário recarregar os recursos do cliente! F3 + T"
 }

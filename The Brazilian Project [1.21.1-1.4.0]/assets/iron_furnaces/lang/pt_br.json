@@ -28,8 +28,10 @@
     "item.ironfurnaces.upgrade_gold2": "Aprimoramento de Fornalha de Prata para Ouro",
     "item.ironfurnaces.item_copy": "Vinculador de Configurações de Fornalha",
 
+
     "_comment": "TAB",
     "itemGroup.ironfurnaces": "Iron Furnaces",
+
 
     "_comment": "Blocks",
     "block.ironfurnaces.iron_furnace": "Fornalha de Ferro",
@@ -44,6 +46,7 @@
     "block.ironfurnaces.million_furnace": "Fornalha Arco-íris",
     "block.ironfurnaces.heater": "Transmissor de Calor Sem Fio",
 
+
     "_comment": "ATM",
     "block.ironfurnaces.allthemodium_furnace": "Fornalha de Allthemodium",
     "block.ironfurnaces.vibranium_furnace": "Fornalha de Vibranium",
@@ -54,7 +57,6 @@
     "item.ironfurnaces.upgrade_allthemodium": "Aprimoramento de Fornalha de Netherita para Allthemodium",
     "item.ironfurnaces.upgrade_vibranium": "Aprimoramento de Fornalha de Allthemodium para Vibranium",
     "item.ironfurnaces.upgrade_unobtainium": "Aprimoramento de Fornalha de Vibranium para Unobtainium",
-
 
 
     "_comment": "GUI",
@@ -72,6 +74,7 @@
     "ironfurnaces.jei_category_regular": "Melhoria: Gerador",
     "ironfurnaces.jei_category_blasting": "Gerador | Alto-forno",
     "ironfurnaces.jei_category_smoking": "Gerador | Defumação",
+
 
     "_comment": "Tooltips",
     "tooltip.ironfurnaces.cooktime": "Tempo de Cozimento",
@@ -157,5 +160,4 @@
     "ironfurnaces.update.buttons": "[{\"text\":\"[\"},{\"text\":\"Clique para Changelog\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"%s\"}},{\"text\":\"] [\",\"color\":\"none\"},{\"text\":\"Clique para Download\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"%s\"}},{\"text\":\"]\",\"color\":\"none\"}]",
     "ironfurnaces.update.buttonOptions": "Clique: Changelog, Shift-Clique: Download! (No Navegador)",
     "ironfurnaces.update.failed": "[{\"text\":\"A Verificação de Atualização para \"},{\"text\":\"Iron Furnaces \",\"color\":\"dark_green\"},{\"text\":\"falhou! Verifique os Logs para mais informações!\",\"color\":\"none\"}]"
-
 }

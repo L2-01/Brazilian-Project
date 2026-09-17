@@ -20,7 +20,7 @@
     "item.dimdungeons.item_portal_key_advanced": "Chave de Portal Avançada",
     "item.dimdungeons.item_blank_advanced_key": "Chave Avançada em Branco",
     "item.dimdungeons.item_blank_theme_key": "Chave Temática em Branco",
-	
+
     "item.dimdungeons.item_blank_build_key": "Chave de Dimensão Pessoal em Branco",
     "item.dimdungeons.item_blank_teleporter_key": "Chave de Teletransporte em Branco",
     "item.dimdungeons.item_build_key": "Chave de Dimensão Pessoal",
@@ -197,12 +197,12 @@
     "book.dimdungeons.advanced_message_3": "Masmorras avançadas são duas vezes maiores que as outras! É o dobro do tesouro e o dobro do perigo!",
     "book.dimdungeons.advanced_message_4": "Os baús de tesouro em masmorras avançadas contêm espólios melhores!",
     "book.dimdungeons.advanced_message_5": "Às vezes, objetos estranhos de outros universos acabam nesta dimensão.",
-    "book.dimdungeons.advanced_message_6": "Você já foi emboscado por um Vingador?",
+    "book.dimdungeons.advanced_message_6": "Você já foi emboscado por um Vindicador?",
     "book.dimdungeons.advanced_message_7": "Você pode renomear chaves de masmorra com segurança e elas ainda o teletransportarão para o mesmo lugar.",
     "book.dimdungeons.advanced_message_8": "Há mais por vir! Esta não é a masmorra final.",
 
     "book.dimdungeons.guidebook_1": "Este guia rápido explicará tudo o que você precisa saber sobre como construir um portal, criar chaves e invadir masmorras!",
-    "book.dimdungeons.guidebook_2": "Primeiro, seu portal exigirá 3 Blocos de Portal Dourado. Para criar um Bloco de Portal Dourado, cerque um Tijolo de Pedra Talhado com 8 Lingotes de Ouro.",
+    "book.dimdungeons.guidebook_2": "Primeiro, seu portal exigirá 3 Blocos de Portal Dourado. Para criar um Bloco de Portal Dourado, cerque Tijolos de Pedra Talhados com 8 Lingotes de Ouro.",
     "book.dimdungeons.guidebook_3": "Segundo, seu portal requer um Bloco Porta-Chave. Para criar este item, pegue um dos seus 3 Blocos de Portal Dourado e combine-o com um Baú com Armadilha e um Olho de Ender.",
     "book.dimdungeons.guidebook_4": "A construção do seu portal começa com uma moldura feita de Tijolos de Pedra, com 4 blocos de altura e 3 de largura. (Com dois blocos de ar no meio.) Substitua o bloco central superior pela sua Pedra Angular do Portal.",
     "book.dimdungeons.guidebook_5": "Finalize seu portal colocando pilares a 1 bloco de distância de ambos os lados da moldura. Os pilares têm três blocos de altura e um Bloco de Portal Dourado no topo.",
@@ -217,9 +217,9 @@
     "error.dimdungeons.portal_error_1": "Esta chave de portal não está ativada.",
     "error.dimdungeons.portal_error_2": "Os dois blocos abaixo do porta-chave do portal devem estar livres.",
     "error.dimdungeons.portal_error_3": "Falta um bloco na moldura do portal.",
-    "error.dimdungeons.portal_error_4": "As molduras do portal devem ser construídas com Tijolo de Pedra, e não de ",
+    "error.dimdungeons.portal_error_4": "As molduras do portal devem ser construídas com Tijolos de Pedra, e não de ",
     "error.dimdungeons.portal_error_5": "Falta um bloco em um dos pilares do portal.",
-    "error.dimdungeons.portal_error_6": "Os pilares do portal devem ser construídos com Tijolo de Pedra, e não de ",
+    "error.dimdungeons.portal_error_6": "Os pilares do portal devem ser construídos com Tijolos de Pedra, e não de ",
     "error.dimdungeons.portal_error_7": "Os pilares do portal precisam ter um Bloco de Portal Dourado no topo, e não um ",
     "error.dimdungeons.portal_error_8": "Você deve adicionar dois Blocos da Coroa do Portal ao topo da moldura.",
     "error.dimdungeons.portal_error_9": "Estandartes brancos ou roxos devem ser pendurados nos pilares.",
@@ -240,8 +240,8 @@
 	"security.dimdungeons.player_added_blacklist": " foi adicionado à sua lista de banidos.", 
 	"security.dimdungeons.player_removed_blacklist": " foi removido da sua lista de banidos.", 
 	"security.dimdungeons.player_failed_teleport": "Este jogador te bloqueou de entrar na dimensão dele.", 
-	"security.dimdungeons.disabled_dungeon_dimension": "A dimensão da masmorra foi desabilitada nas configurações do servidor.", 
-	"security.dimdungeons.disabled_build_dimension": "A dimensão de construção pessoal foi desabilitada nas configurações do servidor.", 
+	"security.dimdungeons.disabled_dungeon_dimension": "A dimensão da masmorra foi desativada nas configurações do servidor.", 
+	"security.dimdungeons.disabled_build_dimension": "A dimensão de construção pessoal foi desativada nas configurações do servidor.", 
 
 	"advancements.dimdungeons.dungeons.root.title": "Masmorras Dimensionais",
 	"advancements.dimdungeons.dungeons.root.description": "Fabrique o bloco porta-chave do portal.",
@@ -257,7 +257,7 @@
 	"advancements.dimdungeons.dungeons.enter_advanced_dungeon.description": "O dobro do perigo, o dobro do espólio!",
 	"advancements.dimdungeons.dungeons.all_trophies.title": "Colecionista",
 	"advancements.dimdungeons.dungeons.all_trophies.description": "Encontre todos os 8 troféus únicos.",
-	
+
 	"advancements.dimdungeons.dungeons.enter_personal_space.title": "Lar, Doce Espaço",	
 	"advancements.dimdungeons.dungeons.enter_personal_space.description": "Obtenha uma chave para sua própria dimensão pessoal e entre nela!",
 	"advancements.dimdungeons.dungeons.find_teleporter_key.title": "Encruzilhada Intermundos",
@@ -284,7 +284,7 @@
 	"config.dimdungeons.logLevel": "Nível de Log",
 	"config.dimdungeons.breakingWhitelist": "Lista de Permissão para Quebra",
 	"config.dimdungeons.interactionBlacklist": "Lista de Proibição para Interação",
-	
+
 	"config.dimdungeons.showParticles": "Exibir Partículas",
 	"config.dimdungeons.playPortalSounds": "Tocar Sons do Portal",
 
@@ -314,21 +314,21 @@
     "enemy.dimdungeons.minecraft:guardian": "Guardião",
     "enemy.dimdungeons.minecraft:witch": "Bruxa",
     "enemy.dimdungeons.minecraft:zombie": "Zumbi",
-    "enemy.dimdungeons.minecraft:husk": "Zumbi-Múmia",
+    "enemy.dimdungeons.minecraft:husk": "Cascoso",
     "enemy.dimdungeons.minecraft:drowned": "Afogado",
     "enemy.dimdungeons.minecraft:skeleton": "Esqueleto",
-    "enemy.dimdungeons.minecraft:wither_skeleton": "W. Esqueleto",
+    "enemy.dimdungeons.minecraft:wither_skeleton": "Esqueleto Wither",
     "enemy.dimdungeons.minecraft:stray": "Errante",
     "enemy.dimdungeons.minecraft:spider": "Aranha",
     "enemy.dimdungeons.minecraft:pillager": "Saqueador",
     "enemy.dimdungeons.minecraft:blaze": "Blaze",
-    "enemy.dimdungeons.minecraft:vindicator": "Vingador",
+    "enemy.dimdungeons.minecraft:vindicator": "Vindicador",
     "enemy.dimdungeons.minecraft:hoglin": "Hoglin",
     "enemy.dimdungeons.minecraft:piglin": "Piglin",
     "enemy.dimdungeons.minecraft:piglin_brute": "Bárbaro",
     "enemy.dimdungeons.minecraft:phantom": "Espectro",
     "enemy.dimdungeons.minecraft:magma_cube": "Cubo de Magma",
-    
+
     "enemy.dimdungeons.minecraft:enderman2": "Lunariano",
     "enemy.dimdungeons.minecraft:guardian2": "Caçador",
     "enemy.dimdungeons.minecraft:witch2": "Alquimista",

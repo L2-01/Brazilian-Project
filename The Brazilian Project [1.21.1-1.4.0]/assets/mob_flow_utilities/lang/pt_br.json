@@ -23,6 +23,7 @@
   "block.mobflowutilities.dark_glass.subtitle": "Bloqueia a luz. Imune ao Wither",
   "block.mobflowutilities.glimmer_lamp": "Lâmpada Cintilante",
   "block.mobflowutilities.glimmer_lamp.subtitle": "Emite luz quando energizado com Redstone",
+  "block.mobflowutilities.gigatank": "Giga Tanque",
 
   "item.mobflowutilities.bane_of_arthropods_module": "Módulo de Ruína dos Artrópodes",
   "item.mobflowutilities.bane_of_arthropods_module.subtitle": "Causa mais dano a aranhas, traças e outros artrópodes",
@@ -37,8 +38,6 @@
 
   "item.mobflowutilities.radius_increase_module": "Módulo de Aumento de Raio",
   "item.mobflowutilities.radius_increase_module.subtitle": "Aumenta o alcance de coleta de Coletores e o raio de geração da Câmara de Gênese",
-  "item.mobflowutilities.void_filter_module": "Módulo de Filtro do Vazio",
-  "item.mobflowutilities.void_filter_module.subtitle": "Destrói itens filtrados recolhidos por Coletores",
   "item.mobflowutilities.speed_module": "Módulo de Velocidade",
   "item.mobflowutilities.speed_module.subtitle": "Aumenta as taxas de geração da Câmara de Gênese",
 
@@ -66,6 +65,7 @@
   "item.mobflowutilities.empty_gene_vial": "Frasco de Gene do Vazio",
 
   "item.mobflowutilities.gene_sample_vial": "Frasco de Amostra de Gene",
+  "item.mobflowutilities.gigatank.subtitle": "Segura 1024 baldes",
 
   "menu.mobflowutilities.collector": "Coletor",
   "menu.mobflowutilities.controller": "Controlador",
@@ -111,8 +111,6 @@
   "tooltip.mobflowutilities.collector.xp_collection.enabled": "Desativar coleta de experiência",
   "tooltip.mobflowutilities.collector.xp_collection.disabled": "Ativar coleta de experiência",
   "tooltip.mobflowutilities.collector.xp_display": "EXP: %s",
-
-  "tooltip.mobflowutilities.collector.edit_filter": "Editar filtro",
 
   "item.mobflowutilities.pad_wrench.mode.add": "Adicionar modo",
   "item.mobflowutilities.pad_wrench.mode.remove": "Remover modo",
@@ -170,5 +168,12 @@
   "menu.mobflowutilities.fan": "Ventilador",
   "gui.mobflowutilities.fan": "Ventilador",
 
-  "tooltip.mobflowutilities.fan.wireframe_toggle": "Mostrar/Ocultar Zona de Empurrão"
+  "tooltip.mobflowutilities.fan.wireframe_toggle": "Mostrar/Ocultar Zona de Empurrão",
+
+  "message.mobflowutilities.tank.full": "O Tanque está Cheio",
+  "message.mobflowutilities.tank.empty": "O Tanque está Vazio",
+
+  "fluid_type.mobflowutilities.liquid_xp": "Experiência Líquida",
+  "block.mobflowutilities.liquid_xp_block": "Experiência Líquida",
+  "item.mobflowutilities.liquid_xp_bucket": "Balde de Experiência Líquida"
 }

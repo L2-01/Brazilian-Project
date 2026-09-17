@@ -51,7 +51,7 @@
       "extra": [
         {
           "strikethrough": true,
-          "text": "garrafa"
+      "text": "garrafa"
         },
         " bolsa..."
       ],
@@ -60,9 +60,21 @@
   ],
   "item.gag.time_sand_pouch.info": "Acumula lentamente tempo enquanto estiver no inventário de um jogador. Use em um bloco que recebe tiques para acelerá-lo, usando parte do tempo armazenado da bolsa.",
   "item.gag.time_sand_pouch.info.stored_grains": "Contém o equivalente a %2$s de Grãos do Tempo",
-  "itemGroup.gag.gag": "GAG - Gadgets Against Grind",
+  "itemGroup.gag.gag": "GAG — Gadgets Against Grind",
   "subtitles.gag.entity.dynamite.throw": "Dinamite arremessada",
   "subtitles.gag.item.repelling.apply": "Item de repulsão aplicado",
   "subtitles.gag.item.time_sand_pouch.ding": "Tique do bloco acelerado",
-  "subtitles.gag.item.time_sand_pouch.dong": "Tique do bloco acelerado para velocidade muito alta"
+  "subtitles.gag.item.time_sand_pouch.dong": "Tique do bloco acelerado para velocidade muito alta",
+
+
+
+
+
+
+	"key.categories.placebo": "Placebo",
+	"placebo.toggleTrails": "Toggle Supporter Trails",
+	"placebo.toggleWings": "Alternar Asas de Apoiador",
+	"placebo.cmd.serialize_success": "%s foi salvo em %s.",
+	"placebo.cmd.serialize_failure": "Ocorreu um erro durante o processo de serialização.",
+	"placebo.cmd.not_found": "%s não foi encontrado."
 }

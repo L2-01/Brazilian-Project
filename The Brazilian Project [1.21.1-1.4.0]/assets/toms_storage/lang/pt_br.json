@@ -1,32 +1,20 @@
 {
 	"block.toms_storage.inventory_connector": "Conector de Inventários",
-	"block.toms_storage.ts.inventory_connector": "Conector de Inventários",
 	"block.toms_storage.storage_terminal": "Terminal de Armazenamento",
-	"block.toms_storage.ts.storage_terminal": "Terminal de Armazenamento",
 	"block.toms_storage.trim": "Encaixe de Inventário",
-	"block.toms_storage.ts.trim": "Encaixe de Inventário",
 	"block.toms_storage.painted_trim": "Encaixe de Inventário",
 	"block.toms_storage.open_crate": "Caixa Aberta",
 	"block.toms_storage.inventory_cable": "Cabo de Inventário",
-	"block.toms_storage.ts.inventory_cable": "Cabo de Inventário",
 	"block.toms_storage.inventory_cable_framed": "Cabo de Inventário Emoldurado",
 	"block.toms_storage.inventory_cable_connector": "Conector de Cabo de Inventário",
-	"block.toms_storage.ts.inventory_cable_connector": "Conector de Cabo de Inventário",
 	"block.toms_storage.inventory_proxy": "Representante de Inventário",
 	"block.toms_storage.crafting_terminal": "Terminal de Fabricação",
-	"block.toms_storage.ts.crafting_terminal": "Terminal de Fabricação",
 	"block.toms_storage.basic_inventory_hopper": "Funil de Inventário Básico",
 	"block.toms_storage.level_emitter": "Emissor de Nível",
 	"block.toms_storage.inventory_cable_connector_framed": "Conector de Cabo de Inventário (Emoldurado)",
 	"block.toms_storage.inventory_interface": "Interface de Inventário",
 	"block.toms_storage.filing_cabinet": "Fichário",
-	"block.toms_storage.ts.export_cable": "Cabo de Exportação",
-	"block.toms_storage.ts.import_cable": "Cabo de Importação",
-	"block.toms_storage.ts.paint_kit": "Kit de Pintura",
-	"block.toms_storage.ts.level_emitter": "Emissor de Nível",
-	"block.toms_storage.ts.chest_cable_connector": "Conector de Baú",
-	
-	"item.toms_storage.ts.charged_item": "Item Carregado",
+
 	"item.toms_storage.paint_kit": "Kit de Pintura",
 	"item.toms_storage.wireless_terminal": "Terminal Sem Fio",
 	"item.toms_storage.adv_wireless_terminal": "Terminal Sem Fio Avançado",
@@ -34,23 +22,18 @@
 	"item.toms_storage.polymorphic_item_filter": "Filtro de Itens Polimórfico",
 	"item.toms_storage.tag_item_filter": "Filtro de Itens por Tag",
 	"item.toms_storage.inventory_configurator": "Configurador de Inventário",
-	
-	"itemGroup.toms_storage": "Tom's Simple Storage",
+
 	"itemGroup.toms_storage.tab": "Tom's Simple Storage",
-	
-	"gui.toms_storage.terminal.search": "Buscar...",
-	"gui.toms_storage.terminal.sort": "Ordenar",
-	"gui.toms_storage.terminal.amount": "Quantidade",
-	
+
 	"menu.toms_storage.storage_terminal": "Armazenamento",
 	"menu.toms_storage.crafting_terminal": "Fabricação",
 	"menu.toms_storage.level_emitter": "Emissor de Nível",
 	"menu.toms_storage.inventory_connector": "Conector de Inventários",
 	"menu.toms_storage.inventory_configurator": "Configurador de Inventário (%s)",
 	"menu.toms_storage.filing_cabinet": "Fichário",
-	
+
 	"label.toms_storage.inventory_connector.beacon_level": "Nível do Sinalizador: %d",
-	
+
 	"tooltip.toms_storage.hold_shift_for_info": "Segure SHIFT para obter mais informações.",
 	"tooltip.toms_storage.paintable": "Pode ser pintado",
 	"tooltip.toms_storage.inventory_cable_connector_link": "Os chunks de ambos os lados devem estar carregados",
@@ -74,7 +57,10 @@
 	"tooltip.toms_storage.amount": "Quantidade de Itens: %d",
 	"tooltip.toms_storage.sorting_amount": "Organizar por Quantidade do Item",
 	"tooltip.toms_storage.sorting_name": "Organizar por Nome do Item",
-	"tooltip.toms_storage.sorting_by_mod": "Organizar por Mod",
+	"tooltip.toms_storage.sorting_mod": "Organizar por Mod",
+	"tooltip.toms_storage.sorting_space_efficiency": "Organizar por Eficiência de Espaço",
+	"tooltip.toms_storage.sorting_id": "Organizar por ID do Item",
+	"tooltip.toms_storage.sorting_type": "Organizar por Tipo do Item",
 	"tooltip.toms_storage.search": "Pesquisa Padrão",
 	"tooltip.toms_storage.search_auto": "Pesquisa Automática",
 	"tooltip.toms_storage.search_keep": "Manter Pesquisa Padrão",
@@ -85,7 +71,7 @@
 	"tooltip.toms_storage.search_auto_keep_sync": "%s Manter pesquisa automática sincronizada",
 	"tooltip.toms_storage.ctrlMode_ae": "Controles Semelhantes ao do Applied Energistics\\Puxar um item: Shift+Clique Direito\\Transferir um item: Ctrl+Shift+Clique Direito",
 	"tooltip.toms_storage.ctrlMode_rs": "Controles Semelhantes ao do Refined Storage\\Puxar um item: Clique do Meio\\Transferir um item: Shift+Clique do Meio",
-	"tooltip.toms_storage.ctrlMode_def": "Controles Semelhantes ao do Jogo Padrão\\Puxar um item: Clique com o botão direito\\Transferir um item: Shift+Clique Direito",	
+	"tooltip.toms_storage.ctrlMode_def": "Controles Semelhantes ao do Jogo Padrão\\Puxar um item: Clique com o botão direito\\Transferir um item: Shift+Clique Direito",
 	"tooltip.toms_storage.crafting_pull_off": "Não puxar do inventário do jogador ao fabricar",
 	"tooltip.toms_storage.crafting_pull_on": "Puxar os itens que faltam do inventário do jogador ao fabricar",
 	"tooltip.toms_storage.filter_item": "Filtro: %s",
@@ -168,17 +154,19 @@
 	"tooltip.toms_storage.config_overlay.mass_select.finish": "Pressione %s para finalizar seleção de área",
 	"tooltip.toms_storage.config_overlay.mass_select.abort": "Pressione %s + %s para abortar a seleção atual",
 	"tooltip.toms_storage.config_overlay.select.single": "Pressione %s para adicionar/remover um único inventário",
-	"tooltip.toms_storage.config_overlay.select.finish": "Pressione %s no ar para finalizar a seleção the air to finish selection",
+	"tooltip.toms_storage.config_overlay.select.finish": "Pressione %s no ar para finalizar a seleção",
 	"tooltip.toms_storage.config_overlay.select.start_mass": "Pressione %s para selecionar em área",
 	"tooltip.toms_storage.config_overlay.configure": "Pressione %s para configurar bloco",
 	"tooltip.toms_storage.config_overlay.show": "Pressione %s para ver blocos conectados",
 	"tooltip.toms_storage.config_overlay.too_far": "Bloco configurado longe demais",
 	"tooltip.toms_storage.disabled_by_redstone": "Desabilitado por Redstone",
-	
+	"tooltip.toms_storage.item_sync_error": "Erro de sincronização da pilha de itens",
+	"tooltip.toms_storage.slots_used": "Espaços Usados: %d",
+
 	"narrator.toms_storage.terminal_search": "Campo de Pesquisa do Terminal",
 	"narrator.toms_storage.level_emitter_amount": "Contagem de Itens Emissores de Nível",
 	"narrator.toms_storage.inventory_link_channel": "Campo de Nome do Canal de Conector de Inventários",
-	
+
 	"chat.toms_storage.inventory_connector.free_slots": "Conector de Inventários: %d livres/%d espaços (em %d inventários).",
 	"chat.toms_storage.terminal_bound": "Terminal Sem Fio Avançado Vinculado",
 	"chat.toms_storage.terminal_invalid_block": "Bloco inválido",
@@ -202,14 +190,14 @@
 	"config.toms_storage.basic_hopper_cooldown": "Intervalo de transferência do Funil de Inventário Básico (em tiques)",
 	"config.toms_storage.inv_blocked_blocks": "Lista de ids de blocos ignorada pelo conector de inventários",
 	"config.toms_storage.inv_blocked_mods": "Lista de ids de mods cujos blocos são ignorados pelo conector de inventário",
-	
+
 	"toms_storage.configuration.title": "Configurações do Tom's Simple Storage",
 	"toms_storage.configuration.section.toms.storage.common.toml.title": "Configurações Gerais do Tom's Simple Storage",
-	"toms_storage.configuration.section.toms.storage.server.toml.title": "Configurações de Servidor so Tom's Simple Storage Server Configuration",
+	"toms_storage.configuration.section.toms.storage.server.toml.title": "Configurações de Servidor do Tom's Simple Storage",
 	"toms_storage.configuration.section.toms.storage.common.toml": "Configurações Gerais do Tom's Simple Storage",
 	"toms_storage.configuration.section.toms.storage.server.toml": "Configurações de Servidor do Tom's Simple Storage",
-	"toms_storage.configuration.importantInfo.tooltip": "AVISO IMPORTANTE:\nISTO É APENAS AS CONFIGURAÇÕES GERAIS. Elas não têm todos os valores ajustáveis do Tom's Simple Storage\nAw configurações foram movidas para toms_storage-server.toml\nEsse arquivo É ÚNICO POR MUNDO, o que sifnifica que você precisa or para 'saves/<nome do mundo>/serverconfig' para ajustá-lo. Essas mudanças então serão aplocadas somente PARA AQUELE MUNDO.\nVocê pode então pegar esse arquivo de configuração e colocá-lo na pasta 'defaultconfigs' para aplicá-lo automaticamente a todos os mjndos NOVOS que você gerar DEPOIS DISSO.\nIsso pode soar estrango para muitos de vocês, mas este é um jeito novo mais sensato de lidar com configurações, visto que as configurações de servidor são sincronizadas jogando multijogador.",
-	
+	"toms_storage.configuration.importantInfo.tooltip": "AVISO IMPORTANTE:\nESTAS SÃO APENAS AS CONFIGURAÇÕES GERAIS. Elas não contêm todos os valores ajustáveis do Tom's Simple Storage.\nAs configurações foram movidas para toms_storage-server.toml.\nEsse arquivo É ÚNICO PARA CADA MUNDO, o que significa que você precisa acessar 'saves/<nome do mundo>/serverconfig' para ajustá-lo. Essas mudanças serão aplicadas somente ÀQUELE MUNDO.\nVocê pode pegar esse arquivo de configuração e colocá-lo na pasta 'defaultconfigs' para aplicá-lo automaticamente a todos os NOVOS mundos gerados A PARTIR DE ENTÃO.\nIsso pode parecer confuso para muitas pessoas, mas é uma maneira nova e sensata de lidar com configurações, pois as configurações de servidor são sincronizadas ao jogar no modo multijogador.",
+
 	"text.autoconfig.toms_storage.title": "Configurações do Tom's Simple Storage",
 	"text.autoconfig.toms_storage.option.invConnectorScanRange": "Alcance do Conector de Inventários ",
 	"text.autoconfig.toms_storage.option.onlyTrims": "Permitir Somente Encaixes de Conectar Inventârios",
@@ -232,18 +220,14 @@
 	"text.autoconfig.toms_storage.option.basicHopperCooldown": "Intervalo de transferência do Funil de Inventário Básico (Tiques)",
 	"text.autoconfig.toms_storage.option.blockedBlocks": "Lista de ids de blocos ignorada pelo conector de inventários",
 	"text.autoconfig.toms_storage.option.blockedMods": "Lista de ids de mods cujos blocos são ignorados pelo conector de inventários",
-	
+
 	"key.toms_storage.open_terminal": "Abrir o Terminal",
-	
+
 	"tag.toms_storage.trims": "Encaixes de Inventários",
-	
-	"config.toms_storage.title": "Tom's Simple Storage - Configuração",
+
 	"config.jade.plugin_toms_storage.inventory_connector": "Informações sobre o Conector de Inventârios",
 	"config.jade.plugin_toms_storage.inventory_config": "Informações sobre o Configurador de Inventários",
 	"config.jade.plugin_toms_storage.inventory_hopper": "Informações sobre o Funil de Inventários",
-	
-	"overlay.toms_storage.configurator_info": "Tom's Simple Storage: Sobreposição do Configurador",
-	
-	"advancement.toms_storage.root": "Tom's Simple Storage",
-	"advancement.toms_storage.root.desc": "Organize seus itens de forma eficiente."
+
+	"overlay.toms_storage.configurator_info": "Tom's Simple Storage: Sobreposição do Configurador"
 }

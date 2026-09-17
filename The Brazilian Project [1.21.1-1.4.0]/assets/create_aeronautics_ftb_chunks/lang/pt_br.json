@@ -8,7 +8,7 @@
   "create_aeronautics_ftb_chunks.screen.unclaim": "Desproteger Engenhoca",
   "create_aeronautics_ftb_chunks.screen.force": "Ativar Carregamento Forçado",
   "create_aeronautics_ftb_chunks.screen.unforce": "Desativar Carregamento Forçado",
-  "create_aeronautics_ftb_chunks.screen.status": "Status",
+  "create_aeronautics_ftb_chunks.screen.status": "Estado",
   "create_aeronautics_ftb_chunks.screen.claimed": "Protegido",
   "create_aeronautics_ftb_chunks.screen.unclaimed": "Desprotegido",
   "create_aeronautics_ftb_chunks.screen.force_loaded": "Carregamento Forçado",
@@ -26,5 +26,13 @@
   "create_aeronautics_ftb_chunks.screen.plot_force": "Manter Âncora Carregada",
   "create_aeronautics_ftb_chunks.screen.plot_unforce": "Liberar Carregamento da Âncora",
   "create_aeronautics_ftb_chunks.screen.physics_force": "Manter Física Ativa",
-  "create_aeronautics_ftb_chunks.screen.physics_unforce": "Desativar Física"
+  "create_aeronautics_ftb_chunks.screen.physics_unforce": "Desativar Física",
+  "create_aeronautics_ftb_chunks.map.owner": "Proprietário: %s",
+  "create_aeronautics_ftb_chunks.map.plot_chunks": "Partes de terreno mantidas carregadas: %s/%s",
+  "create_aeronautics_ftb_chunks.map.physics": "Physics ticket: %s",
+  "create_aeronautics_ftb_chunks.map.physical_chunk": "Physical chunk: %s",
+  "create_aeronautics_ftb_chunks.map.altitude": "Altitude: %s blocks",
+  "create_aeronautics_ftb_chunks.map.speed": "Velocidade: %s blocos/s",
+  "create_aeronautics_ftb_chunks.map.active": "Ativo",
+  "create_aeronautics_ftb_chunks.map.inactive": "Inativo"
 }

@@ -1,4 +1,16 @@
 {
+  "machine.compactmachines.colossal": "Máquina Compacta (Colossal)",
+  "machine.compactmachines.giant": "Máquina Compacta (Gigante)",
+  "machine.compactmachines.large": "Máquina Compacta (Grande)",
+  "machine.compactmachines.normal": "Máquina Compacta (Normal)",
+  "machine.compactmachines.small": "Máquina Compacta (Pequena)",
+  "machine.compactmachines.tiny": "Máquina Compacta (Minúscula)",
+
+
+
+
+
+
   "advancement.compactmachines.foundations": "Fundações",
   "advancement.compactmachines.foundations.desc": "Obtenha um bloco de parede quebrável.",
   "advancement.compactmachines.got_shrinking_device": "Dispositivo Pessoal de Encolhimento",
@@ -29,7 +41,7 @@
   "gamerule.compactmachines.allow_creative_oob.description": "Permite jogadores no modo criativo fora dos limites",
   "gamerule.compactmachines.allow_spectator_oob": "Permitir OOB para Espectadores",
   "gamerule.compactmachines.allow_spectator_oob.description": "Permite espectadores fora dos limites",
-  "gamerule.compactmachines.allow_survival_oob": "Permitir OOB no Sobrevivência",
+  "gamerule.compactmachines.allow_survival_oob": "Permitir OOB no modo Sobrevivência",
   "gamerule.compactmachines.allow_survival_oob.description": "Permite jogadores no modo sobrevivência fora dos limites",
   "gamerule.compactmachines.damage_oob": "Causar Dano a Jogadores OOB",
   "gamerule.compactmachines.damage_oob.description": "Causa dano a jogadores que estão fora dos limites",
@@ -41,7 +53,7 @@
   "itemGroup.compactmachines.main": "Compact Machines",
   "jei.compactmachines.machines": "As máquinas são usadas para criar dimensões de bolso. Fabrique uma máquina e coloque-a no mundo, depois use um Dispositivo Pessoal de Encolhimento para entrar.",
   "jei.compactmachines.shrinking_device": "Use o Dispositivo Pessoal de Encolhimento (PSD) em uma máquina para entrar em um espaço compacto.",
-  "key.category.compactmachines.general": "Compact Machines",
+  "key.category.compactmachines.general": "Máquinas Compactas",
   "key.mapping.compactmachines.exit_room": "Saída Rápida da Máquina Compacta",
   "key.mapping.compactmachines.open_upgrade_screen": "Abrir Tela de Melhoria da Sala",
   "machine.compactmachines.machine.bound_to": "Vinculada a: %1$s",

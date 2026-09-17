@@ -8,7 +8,20 @@
   "item.appliedsoul.soul_storage_cell_256k": "Célula de Armazenamento de Almas ME de 256k",
   "item.appliedsoul.range_card": "Cartão de Alcance",
   "item.appliedsoul.ender_star": "Estrela Ender",
+  "item.appliedsoul.broadcast_connect_tool": "Ferramenta Conector de Transmissão",
   "block.appliedsoul.soul_collector": "Coletor de Almas",
+  "block.appliedsoul.soul_broadcast": "Transmissor de Almas",
   "aekey.soulkey.description": "Almas",
-  "gui.appliedsoul.soul_collector": "Coletor de Almas"
+  "gui.appliedsoul.soul_collector": "Coletor de Almas",
+  "gui.appliedsoul.soul_broadcast": "Transmissão de Almas",
+  "tooltip.appliedsoul.connection_pos": "Conectado a: X: %s Y: %s Z: %s",
+  "tooltip.appliedsoul.connection_dimension": "Dimensão-alvo: %s",
+  "tip.appliedsoul.broadcast_connect_tool.selected": "Conectado com sucesso a: X: %s Y: %s Z: %s",
+  "tip.appliedsoul.broadcast_connect_tool.clear_selected": "Seleção limpa com sucesso",
+  "tip.appliedsoul.broadcast_connect_tool.need_broadcast": "É necessário conectar ao Transmissor de Almas",
+  "tip.appliedsoul.broadcast_connect_tool.connected": "Conectado",
+  "tip.appliedsoul.broadcast_connect_tool.removed": "Removido",
+  "tip.appliedsoul.broadcast_connect_tool.different_dimension": "Dimensão incompatível",
+  "tip.appliedsoul.broadcast_connect_tool.has_connected": "Conectado por outros Transmissores de Almas",
+  "tip.appliedsoul.broadcast_connect_tool.out_of_range": "Fora de alcance (alcance máximo: %s)"
 }
