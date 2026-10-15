@@ -232,7 +232,7 @@
 
 
   "aeronautics": {
-    "simulated_section.aeronautics": "Aeronáutica",
+    "simulated_section.aeronautics": "Aeronautics",
 
     "unit": {
       "kpg": "%s kpg",
@@ -246,16 +246,16 @@
       "meters_per_second": "%s m/s"
     },
     "tooltip": {
-      "capacity_used": "Estresse cinético usado:"
+      "capacity_used": "Kinetic Stress Used:"
     },
     "scroll_option": {
-      "hot_air_amount": "Saída máxima de ar quente",
-      "thrust_direction": "Direção do empuxo"
+      "hot_air_amount": "Max Hot Air Output",
+      "thrust_direction": "Thrust Direction"
     },
     "generic": {
       "pull_when_clockwise": "Puxa ar no sentido horário",
       "push_when_clockwise": "Empurra ar no sentido horário",
-      "hot_air": "Ar quente"
+      "hot_air": "Hot Air"
     },
     "display_source": {
       "propeller": {
@@ -272,29 +272,29 @@
     "propeller": {
       "thrust": "Empuxo: %s",
       "airflow": "Fluxo de ar: %s",
-      "can_lift": "Capacidade de sustentação: %s",
-      "sails": "Velas"
+      "can_lift": "Can lift: %s",
+      "sails": "Sails"
     },
     "potato_cannon": {
-      "ammo": "Munição: %s x%s",
-      "attack_damage": "Dano de ataque: %s",
-      "knockback": "Repulsão: %s",
-      "reload_ticks": "Ticks de recarga: %s"
+      "ammo": "Ammo: %s x%s",
+      "attack_damage": "Attack damage: %s",
+      "knockback": "Knockback: %s",
+      "reload_ticks": "Reload ticks: %s"
     },
     "boiler": {
-      "via_one_vent": "via 1 duto",
-      "via_vents": "via %1$s dutos"
+      "via_one_vent": "via 1 vent",
+      "via_vents": "via %1$s vents"
     },
     "lifting_gas": {
       "default": "Gás",
-      "steam": "Vapor",
+      "steam": "Steam",
 
-      "gas_output": "Saída de %s: %s",
-      "balloon": "Balão: ",
-      "fill": "Encher... %s",
+      "gas_output": "%s output: %s",
+      "balloon": "Balloon: ",
+      "fill": "Fill... %s",
       "total_lift": "Sustentação total: %s",
-      "balloon_volume": "Volume do balão: %s",
-      "no_suitable_balloon": "Nenhum balão adequado encontrado"
+      "balloon_volume": "Balloon volume: %s",
+      "no_suitable_balloon": "No suitable balloon found"
     }
   },
 
@@ -677,7 +677,7 @@
   "simulated.contraption_diagram.merge_forces": "Flechas de força: ",
   "simulated.contraption_diagram.merged": "Mesclado",
   "simulated.contraption_diagram.merged_force_arrow": "Forças de %s %s totalizando %s",
-  "simulated.contraption_diagram.merging_numeral": "%s",
+  "simulated.contraption_diagram.merging_numeral": "%s Aberta",
   "simulated.contraption_diagram.shown": "Visível",
   "simulated.contraption_diagram.toggle_paper": "Configurar diagrama",
   "simulated.contraption_diagram.total_mass": "Massa total: ",
@@ -1084,16 +1084,16 @@
 
 
   "simulated": {
-    "simulated_section.simulated": "Simulado",
+    "simulated_section.simulated": "Simulated",
 
-    "prevent_disassembly": "Desmontagem impedida a partir de um montador físico não primário",
+    "prevent_disassembly": "Disassembly from non-primary Physics Assembler prevented",
 
     "generic": {
       "pull_when_clockwise": "Puxar ar ao girar no sentido horário",
       "push_when_clockwise": "Empurrar ar ao girar no sentido horário",
-      "swivel_default_always_locked": "Sempre bloqueada",
-      "swivel_default_always_unlocked": "Sempre desbloqueada",
-      "swivel_default_unlocked": "Energizada - Bloqueada",
+      "swivel_default_always_locked": "Always Locked",
+      "swivel_default_always_unlocked": "Always Unlocked",
+      "swivel_default_unlocked": "Powered -> Locked",
       "swivel_default_locked": "Desenergizada - Bloqueada"
     },
 
@@ -1107,39 +1107,39 @@
 
     "linked_typewriter": {
       "title": "Máquina de Escrever Vinculada",
-      "start_controlling": "Controlando %s agora",
-      "stop_controlling": "Deixou de controlar %s",
-      "bind_mode": "Modo de vinculação ativo",
-      "press_keybind": "Pressione qualquer tecla para vincular as frequências deste controle remoto à Máquina de Escrever Vinculada",
-      "key_bound": "Frequência vinculada a %1$s",
-      "bound": "Frequência vinculada",
-      "controller_bound": "Frequências do controle vinculadas",
-      "confirm_delete_all": "Isto excluirá todos os atalhos atuais. Clique novamente para confirmar.",
-      "bind_screen_title": "Editando atalhos de teclado",
-      "bind_screen_description": "Entrada vinculada a:",
-      "bind_screen_prompt": "Pressione uma tecla...",
-      "bind_item": "Pressione qualquer tecla para vincular esta frequência à tecla respectiva",
-      "bind_success": "Frequência vinculada a %s",
-      "delete.key": "Confirmar exclusão?",
-      "bind_new_key": "Vincular nova tecla",
-      "linked_controller_copy": "Teclas do controle vinculado adicionadas",
-      "key_count": "%1$s teclas configuradas"
+      "start_controlling": "Now controlling %s",
+      "stop_controlling": "Stopped controlling %s",
+      "bind_mode": "Bind mode active",
+      "press_keybind": "Press any key to bind this Remote's frequencies to the Linked Typewriter",
+      "key_bound": "Frequency bound to %1$s",
+      "bound": "Frequency bound",
+      "controller_bound": "Controller frequencies bound",
+      "confirm_delete_all": "This will delete all current keybinds. Click again to confirm.",
+      "bind_screen_title": "Editing Keybinds",
+      "bind_screen_description": "Input bound to:",
+      "bind_screen_prompt": "Press key...",
+      "bind_item": "Press any key to bind this frequency to the respective key",
+      "bind_success": "Frequency bound to %s",
+      "delete.key": "Confirm deletion?",
+      "bind_new_key": "Bind new key",
+      "linked_controller_copy": "Added Linked Controller keys",
+      "key_count": "%1$s configured keys"
     },
 
     "contraption_diagram": {
-      "total_mass": "Massa total: ",
+      "total_mass": "Total mass: ",
       "mass": "%s kpg",
-      "cannot_use": "Este diagrama deve estar em uma engenhoca simulada para ser inspecionado...",
-      "toggle_paper": "Configurar diagrama",
-      "shown": "Visível",
-      "hidden": "Não",
-      "center_of_mass": "Centro de massa: ",
-      "merged": "Mesclado",
-      "unmerged": "Separar",
-      "merge_forces": "Flechas de força: ",
+      "cannot_use": "This Diagram must be on a Simulated Contraption to be inspected...",
+      "toggle_paper": "Configure Diagram",
+      "shown": "Shown",
+      "hidden": "Hidden",
+      "center_of_mass": "Center of Mass: ",
+      "merged": "Merged",
+      "unmerged": "Separate",
+      "merge_forces": "Force Arrows: ",
 
-      "force_arrow": "%s força de %s",
-      "merged_force_arrow": "Forças de %s %s totalizando %s",
+      "force_arrow": "%s force of %s",
+      "merged_force_arrow": "%s %s forces totalling %s",
       "merging_numeral": "%s",
       "force_arrow_magnitude": "%s pN"
     },
@@ -1156,20 +1156,20 @@
 
     "auger_shaft": {
       "information": "Informações do Eixo da Broca",
-      "item_flow": "-> Transportando %1$s pilhas por segundo",
-      "actor_items": "Contém %1$s itens de atores",
-      "update_progress": "Progresso do item:"
+      "item_flow": "-> Moving %1$s stacks / second",
+      "actor_items": "Contains %1$s items from actors",
+      "update_progress": "Item Progress:"
     },
 
     "portable_engine": {
-      "tooltip_name": "Motor Portátil",
-      "superheated": "Superaquecido",
-      "superheated_time": "Superaquecido (%s)",
-      "infinite": "Infinito",
-      "time": "Tempo de queima: %s",
-      "fuel": "Combustível: %s",
+      "tooltip_name": "Portable Engine",
+      "superheated": "Superheated",
+      "superheated_time": "Superheated (%s)",
+      "infinite": "Infinite",
+      "time": "Burn time: %s",
+      "fuel": "Fuel: %s",
       "none": "Nenhum",
-      "byproduct": "Subproduto: %s"
+      "byproduct": "Byproduct: %s"
     },
 
     "velocity_sensor": {
@@ -1180,57 +1180,57 @@
       }
     },
 
-    "optical_sensor.max_length": "Distância máxima de detecção",
-    "laser_pointer.max_length": "Distância máxima de alcance",
-    "torsion_spring.angle_limit": "Ângulo máximo",
+    "optical_sensor.max_length": "Max Detection Distance",
+    "laser_pointer.max_length": "Max Casting Distance",
+    "torsion_spring.angle_limit": "Max Angle",
     "nameplate": {
-      "edit": "Editar nome",
-      "target.unwaxed": "A plaqueta não está encerada"
+      "edit": "Edit Name",
+      "target.unwaxed": "Nameplate is not waxed"
     },
 
     "gui": {
       "assembly.exception": {
-        "couldNotAlign": "Não foi possível alinhar a engenhoca simulada para desmontar!",
-        "outOfWorld": "Não é possível desmontar fora do mundo!",
-        "tooFarFromGround": "Muito longe do chão para desmontar!",
-        "tooFast": "Movendo-se rápido demais para desmontar!",
-        "sameSubLevel": "Não é possível desmontar na mesma engenhoca simulada!"
+        "couldNotAlign": "Could not align Simulated Contraption to disassemble!",
+        "outOfWorld": "Cannot disassemble out of the world!",
+        "tooFarFromGround": "Too far from the ground to disassemble!",
+        "tooFast": "Moving too fast to disassemble!",
+        "sameSubLevel": "Cannot disassemble onto the same Simulated Contraption!"
       },
 
       "hold_tip": {
-        "hold_to_assemble": "Segure e arraste para montar",
-        "hold_to_disassemble": "Segure e arraste para desmontar",
-        "hold_to_adjust": "Segure e arraste para ajustar",
-        "hold_to_rotate": "Segure e arraste para girar"
+        "hold_to_assemble": "Hold and drag to assemble",
+        "hold_to_disassemble": "Hold and drag to disassemble",
+        "hold_to_adjust": "Hold and drag to adjust",
+        "hold_to_rotate": "Hold and drag to rotate"
       },
 
-      "altitude_sensor.title": "Configurar alcance do sinal",
+      "altitude_sensor.title": "Configure Signal Range",
 
       "modulating_linked_receiver": {
         "title": "Modulando receptor vinculado",
-        "minimum_range": "Alcance mínimo",
-        "maximum_range": "Alcance máximo",
-        "min": "Mín.",
-        "max": "Máx."
+        "minimum_range": "Minimum Range",
+        "maximum_range": "Maximum Range",
+        "min": "Min",
+        "max": "Max"
       },
 
-      "threshold_switch.rope_winch_length": "%1$s blocos"
+      "threshold_switch.rope_winch_length": "%1$s Blocks"
     },
 
     "zipline": {
-      "too_far": "A corda está longe demais!",
-      "too_steep": "A corda está íngreme demais!"
+      "too_far": "Rope is too far!",
+      "too_steep": "Rope is too steep!"
     },
 
     "extra_kinetics": {
       "default": "Cinética Extra",
       "information": "Informações de: %s",
-      "extra_cogwheel": "Engrenagem de Rotação",
-      "torsion_output": "Eixo de Saída"
+      "extra_cogwheel": "Rotation Cogwheel",
+      "torsion_output": "Output Shaft"
     },
 
     "plunger_launcher": {
-      "clear_plungers": "Desentupidores lançados limpos!"
+      "clear_plungers": "Cleared launched plungers!"
     },
 
     "spring": {
@@ -1239,11 +1239,11 @@
       "block_exists": "Já existe um bloco aqui!",
       "not_enough_support": "Esta face não tem suporte suficiente!",
       "connection_terminated": "Seleção descartada",
-      "new_length": "Comprimento definido para %sm",
-      "min_length": "Comprimento mínimo (%sm)",
-      "max_length": "Comprimento máximo (%sm)",
-      "too_compressed": "Muito comprimido!",
-      "too_stretched": "Muito esticado!"
+      "new_length": "Length set to %sm",
+      "min_length": "Length at minimum (%sm)",
+      "max_length": "Length at maximum (%sm)",
+      "too_compressed": "Too compressed!",
+      "too_stretched": "Too stretched!"
     },
 
     "altitude_sensor": {
@@ -1261,12 +1261,12 @@
       "same_block": "Mesma posição de bloco!",
       "block_exists": "Já existe um bloco aqui!",
       "invalid_directions": {
-        "horizontal_vertical": "Não é possível colar faces horizontais e verticais!",
-        "up_up": "Não é possível colar duas faces voltadas para cima!",
-        "down_down": "Não é possível colar duas faces voltadas para baixo!"
+        "horizontal_vertical": "Cannot glue horizontal and vertical faces together!",
+        "up_up": "Cannot glue two upwards faces together!",
+        "down_down": "Cannot glue two downwards faces together!"
       },
-      "only_between_sub_levels": "Só é possível colar entre engenhocas simuladas!",
-      "same_sub_level": "Não é possível colar na mesma engenhoca simulada!",
+      "only_between_sub_levels": "Can only glue between Simulated Contraptions!",
+      "same_sub_level": "Cannot glue on the same Simulated Contraption!",
       "not_enough_support": "Esta face não tem suporte suficiente!",
       "connection_terminated": "Seleção descartada"
     },
@@ -1277,48 +1277,48 @@
       "friction": "%s μ",
       "floating": "%s kpg",
 
-      "length_blocks": "Blocos"
+      "length_blocks": "Blocks"
     },
 
     "tooltip": {
-      "dynamic_stress_impact": "Dinâmico",
+      "dynamic_stress_impact": "Dynamic",
 
-      "properties": "Propriedades:",
+      "properties": "Properties:",
       "mass": {
         "none": "Sem peso",
-        "super_light": "Superleve",
-        "light": "Leve",
-        "heavy": "Pesado",
-        "super_heavy": "Superpesado",
-        "absurdly_heavy": "Absurdamente pesado"
+        "super_light": "Super Light",
+        "light": "Light",
+        "heavy": "Heavy",
+        "super_heavy": "Super Heavy",
+        "absurdly_heavy": "Absurdly Heavy"
       },
       "friction": {
-        "slippery": "Escorregadio",
-        "sticky": "Pegajoso"
+        "slippery": "Slippery",
+        "sticky": "Sticky"
       },
-      "bouncy": "Elástico",
-      "fragile": "Frágil",
-      "airtight": "Hermético",
+      "bouncy": "Bouncy",
+      "fragile": "Fragile",
+      "airtight": "Airtight",
       "floating": "Flutuante",
 
-      "new_ponder": "(Novo!)"
+      "new_ponder": "(New!)"
     },
 
     "display_source": {
       "optical_sensor": {
         "data": "Dados do Sensor Óptico",
-        "detected_block": "Bloco detectado",
-        "block_distance": "Distância do bloco"
+        "detected_block": "Detected Block",
+        "block_distance": "Block Distance"
       },
 
       "laser_sensor": {
         "data": "Dados do Sensor Laser",
-        "laser_distance": "Distância do laser"
+        "laser_distance": "Laser Distance"
       },
 
       "velocity_sensor": {
         "data": "Dados do Sensor de Velocidade",
-        "speed": "Velocidade relativa",
+        "speed": "Relative Speed",
         "description": "Velocidade máxima e direção de saída",
         "towards": "Aproximando-se",
         "away": "Afastando-se"
@@ -1338,22 +1338,22 @@
 
       "portable_engine": {
         "data": "Dados do Motor Portátil",
-        "current_burn": "Tempo de queima atual",
-        "total_burn": "Tempo de queima total"
+        "current_burn": "Current Burn Time",
+        "total_burn": "Total Burn Time"
       },
 
       "navigation_table": {
         "data": "Dados da Mesa de Navegação",
-        "distance": "Distância do alvo",
-        "eta_real": "Previsão de chegada ao alvo"
+        "distance": "Target Distance",
+        "eta_real": "Target ETA"
       },
 
       "typewriter": {
-        "typed_text": "Texto digitado"
+        "typed_text": "Typed Text"
       },
 
-      "item_throughput": "Vazão de itens",
-      "sublevel_name": "Nome da engenhoca"
+      "item_throughput": "Item Throughput",
+      "sublevel_name": "Contraption Name"
     }
   },
 
@@ -1403,12 +1403,12 @@
     },
 
     "redstone_inductor": {
-      "copy": "Copiar",
-      "invert": "Inverter"
+      "copy": "Copy",
+      "invert": "Invert"
     },
 
     "redstone_accumulator": {
-      "input_delay": "Atraso de Entrada"
+      "input_delay": "Input Delay"
     }
   },
 

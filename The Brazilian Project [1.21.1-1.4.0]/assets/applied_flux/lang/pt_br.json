@@ -51,9 +51,11 @@
   "appflux.type.fe.name": "FE",
   "appflux.cell.storage": "Contém: %s %s",
   "gui.appflux.flux_accessor": "Acessor de Fluxo",
-  "gui.appflux.flux_accessor.fast_on": "Modo Rápido: Ativado",
-  "gui.appflux.flux_accessor.fast_off": "Modo Rápido: Desativado",
-  "gui.appflux.flux_accessor.warn": "Pode causar lag no Modo Rápido.",
+  "gui.appflux.flux_accessor.fast_mode": "Modo Rápido",
+  "gui.appflux.flux_accessor.io_mode": "Modo IO",
+  "gui.appflux.flux_accessor.input_mode": "Somente entrada",
+  "gui.appflux.flux_accessor.output_mode": "Somente saída",
+  "gui.appflux.flux_accessor.input_output_mode": "Entrada e saída",
   "group.pattern_provider.name": "Provedor de Padrões ME",
   "group.fe_portable_cells.name": "Células FE Portáteis"
 }

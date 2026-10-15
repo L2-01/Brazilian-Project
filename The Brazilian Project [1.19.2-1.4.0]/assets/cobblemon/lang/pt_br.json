@@ -1,5 +1,5 @@
 {
-  "itemGroup.cobblemon.pokeball": "Poké Bolas",
+  "itemGroup.cobblemon.pokeball": "Poké Balls",
   "item.cobblemon.poke_ball": "Pokébola",
   "item.cobblemon.slate_ball": "Bola Ardósia",
   "item.cobblemon.azure_ball": "Bola Cerúlea",
@@ -46,6 +46,8 @@
   "item.cobblemon.red_apricorn": "Bolota Vermelha",
   "item.cobblemon.white_apricorn": "Bolota Branca",
   "item.cobblemon.yellow_apricorn": "Bolota Amarela",
+
+  "itemGroup.cobblemon.evolution_item": "Evolution Items",
   "item.cobblemon.link_cable": "Cabo de Ligação",
   "item.cobblemon.dragon_scale": "Escama de Dragão",
   "item.cobblemon.kings_rock": "Pedra do Rei",
@@ -87,8 +89,8 @@
   "item.cobblemon.sun_stone": "Pedra do Sol",
   "item.cobblemon.thunder_stone": "Pedra do Trovão",
   "item.cobblemon.water_stone": "Pedra d'Água",
-  
-  "itemGroup.cobblemon.medicine": "Medicina",
+
+  "itemGroup.cobblemon.medicine": "Medicine",
   "item.cobblemon.rare_candy": "Doce Raro",
   "item.cobblemon.exp_candy_xs": "Doce de Exp. PP",
   "item.cobblemon.exp_candy_s": "Doce de Exp. P",
@@ -101,6 +103,8 @@
   "item.cobblemon.iron": "Ferro",
   "item.cobblemon.protein": "Proteína",
   "item.cobblemon.zinc": "Zinco",
+
+  "itemGroup.cobblemon.held_item": "Held Items",
   "item.cobblemon.assault_vest": "Colete de Ataque",
   "item.cobblemon.auspicious_armor": "Armadura Auspiciosa",
   "item.cobblemon.big_root": "Raiz Grande",
@@ -137,6 +141,7 @@
   "item.cobblemon.spell_tag": "Etiqueta de Feitiço",
   "item.cobblemon.twisted_spoon": "Colher Torcida",
   "item.cobblemon.wise_glasses": "Óculos Sábios",
+
   "item.cobblemon.poke_ball.tooltip": "Taxa de captura 1×",
   "item.cobblemon.slate_ball.tooltip": "Taxa de captura 1×",
   "item.cobblemon.azure_ball.tooltip": "Taxa de captura 1×",
@@ -169,8 +174,7 @@
   "item.cobblemon.park_ball.tooltip": "2.5× em todos os biomas de Floresta ou Planícies",
   "item.cobblemon.dream_ball.tooltip": "4× em Pokémon adormecidos",
   "item.cobblemon.beast_ball.tooltip": "5× em Ultracriaturas, 0.1× caso contrário",
-  "itemGroup.cobblemon.held_item": "Cobblemon: Itens Segurados",
-  "itemGroup.cobblemon.evolution_item": "Cobblemon: Itens de Evolução",
+
   "block.cobblemon.apricorn_log": "Tronco de Azinheira",
   "block.cobblemon.stripped_apricorn_log": "Tronco de Azinheira Descascado",
   "block.cobblemon.apricorn_wood": "Madeira de Azinheira",
@@ -197,14 +201,17 @@
   "block.cobblemon.healing_machine.tooltip1": "Necessita de carregamento após ser posicionada.",
   "block.cobblemon.healing_machine.tooltip2": "Carrega ao longo do tempo.",
   "block.cobblemon.pc": "Computador",
+
   "cobblemon.overflow_no_pc": "Sua equipe está cheia e você ainda não tem um computador!",
   "cobblemon.overflow_no_space": "Sua equipe e %1$s estão cheios!",
   "cobblemon.overflow_to_pc": "Sua equipe está cheia! %1$s foi adicionado ao %2$s.",
   "cobblemon.your_pc": "Seu Computador",
   "cobblemon.command.pokespawn.invalid-pokemon": "Nome do Pokémon inválido",
   "cobblemon.command.pokespawn.invalid-move": "Nome do movimento inválido",
+
   "cobblemon.ui.generic.yes": "Sim",
   "cobblemon.ui.generic.no": "Não",
+
   "cobblemon.ui.pokenav.title": "PokéNav",
   "cobblemon.ui.summary.title": "Sumário",
   "cobblemon.ui.starter.title": "Escolha um Inicial",
@@ -216,6 +223,7 @@
   "cobblemon.ui.moves": "Movimentos",
   "cobblemon.ui.moves.switch": "Trocar Movimento",
   "cobblemon.ui.moves.pp": "%1$sPP",
+
   "cobblemon.ui.stats": "Atributos",
   "cobblemon.ui.stats.stat": "Atributo",
   "cobblemon.ui.stats.base": "Base",
@@ -229,6 +237,7 @@
   "cobblemon.ui.stats.sp_atk": "Atq Esp.",
   "cobblemon.ui.stats.sp_def": "Def Esp.",
   "cobblemon.ui.stats.speed": "Velocidade",
+
   "cobblemon.ui.info": "Informações",
   "cobblemon.ui.info.pokedex_number": "Nº Dex",
   "cobblemon.ui.info.species": "Espécie",
@@ -238,6 +247,7 @@
   "cobblemon.ui.info.ability": "Habilidade",
   "cobblemon.ui.info.experience_points": "Pontos de Exp.",
   "cobblemon.ui.info.to_next_level": "Exp. p/ Próximo Nv.",
+
   "cobblemon.ui.party": "Equipe",
   "cobblemon.ui.power": "Poder",
   "cobblemon.ui.accuracy": "Precisão",
@@ -246,6 +256,7 @@
   "cobblemon.ui.exit": "Sair",
   "cobblemon.ui.pc.box.title": "Pasta %1$s",
   "cobblemon.ui.pc.release": "Soltar",
+
   "key.cobblemon.upshiftparty": "Alternar seleção na equipe para cima",
   "key.cobblemon.downshiftparty": "Alternar seleção na equipe para baixo",
   "key.cobblemon.hideparty": "Ocultar sobreposição da equipe",
@@ -254,7 +265,7 @@
   "key.cobblemon.summary": "Abrir sumário",
   "key.cobblemon.categories.cobblemon": "Cobblemon",
   "cobblemon.subtitle.capture_succeeded": "Captura bem-sucedida!",
-  
+
   "cobblemon.healingmachine.alreadyinuse": "Esta máquina de cura já está em uso!",
   "cobblemon.healingmachine.nopokemon": "Você não tem Pokémon na sua equipe para curar!",
   "cobblemon.healingmachine.alreadyhealed": "Sua equipe Pokémon já está completamente curada!",
@@ -263,12 +274,15 @@
   "cobblemon.healingmachine.notenoughcharge": "Esta máquina precisa de mais %s de carga para curar sua equipe!",
   "cobblemon.healingmachine.inbattle": "Você não pode usar uma máquina de cura durante a batalha!",
   "cobblemon.healingmachine.alreadyhealing": "Sua equipe Pokémon já está sendo curada em outra máquina!",
+
   "cobblemon.pc.inbattle": "Você não pode usar o computador em batalha!",
+
   "cobblemon.held_item": "Item Segurado",
   "cobblemon.held_item.give": "%1$s recebeu %2$s para vestir.",
   "cobblemon.held_item.replace": "Você recuperou %1$s de %2$s e deu %3$s para ele usar.",
   "cobblemon.held_item.take": "Você recuperou %1$s de %2$s.",
   "cobblemon.held_item.already_holding": "%1$s já está segurando %2$s!",
+
   "cobblemon.ui.pokemonteam": "Equipe Pokémon",
   "cobblemon.ui.lv": "Nv.",
   "cobblemon.ui.lv.number": "Nv.%1$s",
@@ -286,23 +300,28 @@
   "cobblemon.battle.ui.run": "Fugir",
   "cobblemon.battle.ui.hide_label": "Pressione %1$s para se mover.",
   "cobblemon.battle.ui.actions_label": "Você precisa escolher uma ação. Pressione %1$s.",
+
   "cobblemon.ui.evolve": "Evoluir",
   "cobblemon.ui.evolution": "Evolução",
   "cobblemon.ui.evolve.hint": "Parece que %1$s está pronto para evoluir!",
   "cobblemon.ui.evolve.into": "%1$s evoluiu para %2$s!",
+
   "cobblemon.label.lv": "Nv. %1$s",
+
   "cobblemon.challenge_label": "Pressione %1$s para batalhar.",
   "cobblemon.challenge.sender": "Você desafiou %1$s para uma batalha!",
-  "cobblemon.challenge.receiver": "%1$s desafiou você para uma batalha!",
+  "cobblemon.challenge.receiver": "%1$s desafiou você para uma batalha! Pressione %2$s enquanto olha para ele para batalhar.",
+
   "cobblemon.drop.item.inventory": "Você recebeu %2$s (%1$sx).",
   "cobblemon.drop.item.full": "Seu inventário estava cheio, %1$s caiu no chão.",
+
   "cobblemon.command.general.invalid-party-slot": "Não há Pokémon na posição %1$s!",
   "cobblemon.command.givepokemon.give": "%2$s recebeu %1$s.",
   "cobblemon.command.pokemonedit": "%2$s editou %1$s.",
   "cobblemon.command.teach": "%2$s de %1$s aprendeu %3$s.",
   "cobblemon.command.teach.already_knows": "%1$s já aprendeu %2$s!",
   "cobblemon.command.healpokemon.heal": "Curou totalmente a equipe de %1$s.",
-  "cobblemon.command.friendship": " %1$s tem %2$s de amizade.",
+  "cobblemon.command.friendship": "%1$s tem %2$s de amizade.",
   "cobblemon.command.givepokemon.nospecies": "Erro: Você precisa inserir um nome de Pokémon válido ou 'random' no comando",
   "cobblemon.command.spawnpokemon.nospecies": "Erro: Você precisa inserir um nome de Pokémon válido ou 'random' no comando",
   "cobblemon.command.held_item": "%2$s de %1$s recebeu %3$s para segurar.",
@@ -313,10 +332,11 @@
   "cobblemon.command.pokebox.box_is_full": "A caixa %1$s do jogador está cheia.",
   "cobblemon.command.pokebox.storage_is_full": "O armazenamento do jogador está cheio.",
   "cobblemon.command.pokebox.last_pokemon": "Não enviou o último Pokémon recebido do jogador para o computador.",
+
   "advancements.cobblemon.root": "O Mundo de Cobblemon!",
-  "advancements.cobblemon.root.description": "Escolha um Pokémon inicial e inicie sua nova aventura",
   "advancements.cobblemon.obtain_leftovers": "Reduzir, Reutilizar e Reciclar!",
   "advancements.cobblemon.obtain_leftovers.description": "Guarde as sobras depois de comer uma maçã",
+  "advancements.cobblemon.root.description": "Escolha um Pokémon inicial e inicie sua nova aventura",
   "advancements.cobblemon.harvest_apricorn": "É uma Fruta ou é uma Noz?",
   "advancements.cobblemon.harvest_apricorn.description": "Colha uma bolota apertando o botão direito quando ela estiver madura",
   "advancements.cobblemon.harvest_apricorn_seed": "Fazendo a Minha Parte",
@@ -345,6 +365,7 @@
   "advancements.cobblemon.first_shiny_catch.description": "Capture seu primeiro Pokémon shiny",
   "advancements.cobblemon.healing_machine": "Poder de Cura",
   "advancements.cobblemon.healing_machine.description": "Espere tempo suficiente para que uma Máquina de Cura se recarregue, então cure sua equipe",
+
   "cobblemon.battle.damage_dealt": "%1$s sofreu o dano de %2$s!",
   "cobblemon.battle.used_move": "%1$s usou %2$s!",
   "cobblemon.battle.used_move_on": "%1$s usou %2$s em %3$s!",
@@ -389,6 +410,7 @@
   "cobblemon.capture.not_single": "Você só pode capturar Pokémon selvagens em batalhas 1 contra 1.",
   "cobblemon.you_in_battle": "Você não pode fazer isso em batalha!",
   "cobblemon.battle.turn": "Turno %1$s, prepare-se!",
+
 
   "cobblemon.battle.rain_dance": "Começou a chover!",
   "cobblemon.battle.rain_dance_upkeep": "A chuva continua caindo.",
@@ -439,8 +461,6 @@
   "cobblemon.battle.cant.truant": "%1$s está moscando!",
   "cobblemon.battle.cant.flinched": "%1$s hesitou e não pôde se mover!",
   "cobblemon.battle.cant.recharge": "%1$s precisa recarregar!",
-  "cobblemon.battle.cant.truant": "%1$s está distraído!",
-  "cobblemon.battle.cant.recharge": "%1$s precisa recarregar!",
   "cobblemon.battle.cant.attract": "A paixão de %1$s impede que se mova!",
   "cobblemon.battle.cant.disable": "%2$s de %1$s está desabilitado!",
   "cobblemon.battle.cant.focus_punch": "%1$s perdeu seu foco e não pôde se mover!",
@@ -449,6 +469,9 @@
   "cobblemon.battle.cant.gravity": "%1$s não pode usar %2$s devido à gravidade!",
   "cobblemon.battle.cant.shell_trap": "A cilada explosiva de %1$s não funcionou!",
   "cobblemon.battle.cant.taunt": "%1$s não pode usar %2$s após ser provocado!",
+  "cobblemon.battle.cant.throat_chop": "Os efeitos de Golpe Garganta previnem %1$s de usar certos movimentos!",
+  "cobblemon.battle.cant.no_pp": "%1$s não pode usar %2$s pois está sem PP!",
+
   "cobblemon.battle.activate.gravity": "%1$s não pode se manter no ar devido à gravidade",
   "cobblemon.battle.activate.misty_terrain": "%1$s envolve-se com uma névoa protetora!",
   "cobblemon.battle.activate.psychic_terrain": "%1$s envolve-se com um terreno psíquico!",
@@ -460,6 +483,7 @@
   "cobblemon.battle.activate.court_change": "%1$s trocou os efeitos de batalha que afetavam cada lado do campo!",
   "cobblemon.battle.activate.guard_split": "%1$s devidiu sua defesa com o alvo!",
   "cobblemon.battle.activate.spite": "Os PP de %2$s de %1$s foram reduzidos em %3$s!",
+
   "cobblemon.battle.prepare.bounce": "%1$s saltou muito alto!",
   "cobblemon.battle.prepare.dig": "%1$s se entocou embaixo da terra!",
   "cobblemon.battle.prepare.dive": "%1$s se escondeu embaixo d’água!",
@@ -476,6 +500,7 @@
   "cobblemon.battle.prepare.solar_beam": "%1$s absorveu a luz!",
 
   "cobblemon.battle.swapboost.generic": "%1$s trocou seus atributos aumentados com %2$s!",
+
   "cobblemon.battle.singleturn.protect": "%1$s se protegeu!",
   "cobblemon.battle.singleturn.endure": "%1$s se prepara para resistir aos ataques!",
   "cobblemon.battle.singleturn.crafty_shield": "Guarda Astuta protegeu a equipe de %1$s!",
@@ -496,8 +521,6 @@
   "cobblemon.battle.singleturn.rage_powder": "%1$s se torna o centro das atenções!",
   "cobblemon.battle.singleturn.shell_trap": "%1$s armou uma cilada explosiva!",
   "cobblemon.battle.singleturn.spotlight": "%1$s se torna o centro das atenções!",
-  "cobblemon.battle.cant.throat_chop": "Os efeitos de Golpe Garganta previnem %1$s de usar certos movimentos!",
-  "cobblemon.battle.cant.no_pp": "%1$s não pode usar %2$s pois está sem PP!",
 
   "cobblemon.battle.singlemove.destiny_bond": "%1$s espera derrubar o seu atacante com isso!",
   "cobblemon.battle.singlemove.glaive_rush": "%1$s se lança em uma investida imprudente!",
@@ -505,12 +528,14 @@
   "cobblemon.battle.singlemove.rage": "Á ira de %1$s está se acumulando!",
 
   "cobblemon.battle.hurt.wrap": "%1$s foi ferido pelo embrulho!",
-  
+
   "cobblemon.battle.end.bind": "%1$s não está mais sendo esmagado!",
   "cobblemon.battle.end.wrap": "%1$s se libertou do Embrulho!",
-  
+
+
+
   "cobblemon.battle.set_hp.pain_split": "Os lutadores compartilharam sua dor!",
-  
+
   "cobblemon.battle.ability.sturdy": "%1$s suportou o ataque!",
   "cobblemon.battle.ability.speed_boost": "O bônus de velocidade de %1$s foi ativado!",
   "cobblemon.battle.ability.intimidate": "A Intimidação de %1$s foi ativada!",
@@ -518,6 +543,7 @@
   "cobblemon.battle.ability.anticipation": "%1$s estremeceu em antecipação!",
   "cobblemon.battle.ability.air_lock": "Os efeitos do clima desapareceram.",
   "cobblemon.battle.ability.generic": "%2$s de %1$s ativou!",
+
   "cobblemon.battle.errors.busy": "%1$s está ocupado!",
   "cobblemon.battle.error.in_battle": "%1$s está em uma batalha.",
   "cobblemon.battle.error.in_battle.personal": "Você já está em batalha!",
@@ -535,10 +561,10 @@
   "cobblemon.battle.item.take_item.start": "%1$s roubou %2$s de %3$s!",
   "cobblemon.battle.item.harvest.start": "%1$s colheu %2$s!",
   "cobblemon.battle.item.bestow.start": "%1$s recebeu %2$s de %3$s!",
-  "cobblemon.battle.item.tricked.start":"%1$s trocou de itens com seu alvo!",
+  "cobblemon.battle.item.tricked.start": "%1$s trocou de itens com seu alvo!",
 
-  "cobblemon.battle.item.eat.end":"%1$s comeu %2$s!",
-  "cobblemon.battle.item.fling.end":"%1$s lançou %2$s!",
+  "cobblemon.battle.item.eat.end": "%1$s comeu %2$s!",
+  "cobblemon.battle.item.fling.end": "%1$s lançou %2$s!",
   "cobblemon.battle.item.knock_off.end": "%1$s derrubou o %3$s de %2$s!",
   "cobblemon.battle.item.gem.end": "A %1$s fortaleceu o poder de %2$s!",
   "cobblemon.battle.item.incinerate.end": "O %2$s de %1$s foi queimado!",
@@ -567,17 +593,20 @@
   "cobblemon.battle.heal.generic": "%1$s restaurou seus PV.",
 
   "cobblemon.battle.cure_status.ability.naturalcure": "%1$s foi curado graças à sua Cura Natural!",
-  
+
+
   "cobblemon.experience.gained": "%1$s recebeu %2$s de experiência.",
   "cobblemon.experience.level_up": "%1$s agora está no nível %2$s!",
   "cobblemon.experience.learned_move": "%1$s aprendeu %2$s.",
+
   "cobblemon.party.faintRecover": "%1$s se recuperou do desmaio.",
+
   "cobblemon.type.fire": "Fogo",
   "cobblemon.type.water": "Água",
   "cobblemon.type.grass": "Planta",
   "cobblemon.type.electric": "Elétrico",
   "cobblemon.type.ice": "Gelo",
-  "cobblemon.type.normal": "Normal",
+  "cobblemon.type.normal": "Padrão",
   "cobblemon.type.fighting": "Lutador",
   "cobblemon.type.ghost": "Fantasma",
   "cobblemon.type.dark": "Sombrio",
@@ -590,6 +619,7 @@
   "cobblemon.type.rock": "Pedra",
   "cobblemon.type.poison": "Venenoso",
   "cobblemon.type.dragon": "Dragão",
+
   "cobblemon.nature.hardy": "Destemida",
   "cobblemon.nature.lonely": "Solitária",
   "cobblemon.nature.brave": "Valente",
@@ -615,9 +645,11 @@
   "cobblemon.nature.quirky": "Peculiar",
   "cobblemon.nature.bold": "Corajosa",
   "cobblemon.nature.quiet": "Quieta",
+
   "cobblemon.species.random": "Pokémon aleatório",
   "cobblemon.species.unknown": "Pokémon desconhecido",
   "cobblemon.a_pokemon": "Um Pokémon",
+
   "cobblemon.starterselection.category.kanto": "Kanto",
   "cobblemon.starterselection.category.johto": "Johto",
   "cobblemon.starterselection.category.hoenn": "Hoenn",
@@ -627,6 +659,7 @@
   "cobblemon.starterselection.category.alola": "Alola",
   "cobblemon.starterselection.category.galar": "Galar",
   "cobblemon.starterselection.category.paldea": "Paldea",
+
   "cobblemon.stat.hp.name": "PV",
   "cobblemon.stat.attack.name": "Ataque",
   "cobblemon.stat.defence.name": "Defesa",
@@ -635,9 +668,11 @@
   "cobblemon.stat.speed.name": "Velocidade",
   "cobblemon.stat.accuracy.name": "Precisão",
   "cobblemon.stat.evasion.name": "Evasão",
+
   "cobblemon.move.category.physical": "Físico",
   "cobblemon.move.category.special": "Especial",
   "cobblemon.move.category.status": "Estados",
+
   "cobblemon.status.sleep.apply": "%1$s adormeceu!",
   "cobblemon.status.sleep.is": "%1$s está adormecido.",
   "cobblemon.status.sleep.woke": "%1$s acordou!",
@@ -651,6 +686,7 @@
   "cobblemon.status.frozen.apply": "%1$s foi congelado!",
   "cobblemon.status.frozen.thawed": "%1$s descongelou!",
   "cobblemon.status.frozen.is": "%1$s está congelado!",
+
   "block.cobblemon.dawn_stone_ore": "Minério de Pedra da Alvorada",
   "block.cobblemon.dusk_stone_ore": "Minério de Pedra do Crepúsculo",
   "block.cobblemon.fire_stone_ore": "Minério de Pedra do Fogo",
@@ -672,10 +708,13 @@
   "block.cobblemon.deepslate_thunder_stone_ore": "Minério de Pedra do Trovão de Ardosiabissal",
   "block.cobblemon.deepslate_water_stone_ore": "Minério de Pedra d'Água de Ardosiabissal",
   "block.cobblemon.dripstone_moon_stone_ore": "Minério de Pedra da Lua de Ardosiabissal",
+
   "gamerule.doPokemonSpawning": "Gerar Pokémon",
   "cobblemon.command.checkspawns.invalid-bucket": "Grupo de Geração Inválido",
   "cobblemon.command.checkspawns.spawns": "Geração",
   "cobblemon.command.checkspawns.nothing": "Nenhum Pokémon pode aparecer aqui agora.",
+
+
   "cobblemon.move.absorb": "Absorção",
   "cobblemon.move.absorb.desc": "Um ataque que drena nutrientes. O HP do usuário é restaurado em até metade do dano sofrido pelo alvo.",
   "cobblemon.move.accelerock": "Rocha Veloz",
@@ -1084,7 +1123,7 @@
   "cobblemon.move.electrodrift.desc": "O usuário corre para frente em velocidades ultrarrápidas, perfurando seu alvo com eletricidade futurística. O poder desse movimento é aumentado mais do que o normal se for um golpe superefetivo.",
   "cobblemon.move.electroweb": "Teia Elétrica",
   "cobblemon.move.electroweb.desc": "O usuário captura Pokémon adversários em uma rede elétrica para causar dano. Isso também reduz seus atributos de Velocidade.",
-  "cobblemon.move.embargo": "Embargo",
+  "cobblemon.move.embargo": "Confiscar",
   "cobblemon.move.embargo.desc": "Este movimento impede o alvo de usar o item que ele segura por cinco turnos. Seu treinador também é impedido de usar itens nele.",
   "cobblemon.move.ember": "Brasa",
   "cobblemon.move.ember.desc": "O alvo é atacado com pequenas chamas. Isso também pode deixar o alvo com uma queimadura.",
@@ -1910,7 +1949,7 @@
   "cobblemon.move.rollout.desc": "O usuário rola continuamente em direção ao alvo ao longo de cinco turnos. Este ataque se torna mais poderoso a cada vez que acerta.",
   "cobblemon.move.roost": "Poleiro",
   "cobblemon.move.roost.desc": "O usuário pousa e descansa o corpo. Este movimento restaura o PV do usuário em até metade do seu PV máximo.",
-  "cobblemon.move.rototiller": "Rototiller",
+  "cobblemon.move.rototiller": "Fertilizante",
   "cobblemon.move.rototiller.desc": "Ao arar o solo, o usuário facilita o crescimento das plantas. Isso aumenta os atributos de Ataque e Ataque Especial de um Pokémon do tipo Planta.",
   "cobblemon.move.round": "Ronda",
   "cobblemon.move.round.desc": "O usuário ataca o alvo com uma música. Se outros usarem este movimento, eles agirão imediatamente após o usuário inicial, e o poder de suas Rodadas será aumentado.",
@@ -2398,7 +2437,9 @@
   "cobblemon.move.zingzap.desc": "O usuário colide com o alvo, aplicando um poderoso choque elétrico. Isso também pode fazer o alvo recuar.",
   "cobblemon.move.zippyzap": "Pikaturbo",
   "cobblemon.move.zippyzap.desc": "O usuário ataca o alvo com rajadas de eletricidade em alta velocidade. Este movimento sempre acontece primeiro e resulta em um acerto crítico.",
+
   "cobblemon.entity.pokemon": "Pokémon",
+
   "cobblemon.species.bulbasaur.name": "Bulbasaur",
   "cobblemon.species.bulbasaur.desc": "O Bulbasaur pode ser visto cochilando sob a luz forte do sol. Há uma semente em suas costas. Ao absorver os raios solares, a semente cresce progressivamente.",
   "cobblemon.species.ivysaur.name": "Ivysaur",
@@ -2485,7 +2526,7 @@
   "cobblemon.species.golbat.desc": "Golbat morde a presa com suas quatro presas e bebe o sangue da vítima. Ele se torna ativo em noites escuras e sem lua, voando para atacar pessoas e Pokémon.",
   "cobblemon.species.oddish.name": "Oddish",
   "cobblemon.species.oddish.desc": "Oddish busca solo fértil e rico em nutrientes e então se planta. Durante o dia, enquanto está plantado, acredita-se que os pés deste Pokémon mudam de forma e se assemelham às raízes das árvores.",
-  "cobblemon.species.gloom.name": "Gloom",
+  "cobblemon.species.gloom.name": "Penumbra",
   "cobblemon.species.gloom.desc": "De sua boca, Gloom pinga mel com um cheiro absolutamente horrível. Aparentemente, ele adora o terrível odor. Ele cheira os vapores nocivos e depois baba ainda mais mel.",
   "cobblemon.species.vileplume.name": "Vileplume",
   "cobblemon.species.vileplume.desc": "Vileplume tem as maiores pétalas do mundo. Elas são usadas para atrair presas, que são então envoltas com esporos tóxicos. Assim que as presas são imobilizadas, este Pokémon as captura e as devora.",
@@ -2503,7 +2544,7 @@
   "cobblemon.species.dugtrio.desc": "Dugtrio são, na verdade, trigêmeos que emergiram de um corpo. Como resultado, cada trigêmeo pensa exatamente como os outros dois. Eles trabalham em cooperação para cavar infinitamente.",
   "cobblemon.species.meowth.name": "Meowth",
   "cobblemon.species.meowth.desc": "Meowth recolhe suas garras afiadas para dentro das patas para se esgueirar furtivamente sem dar nenhum passo incriminador. Por algum motivo, este Pokémon adora moedas brilhantes que brilham com a luz.",
-  "cobblemon.species.persian.name": "Persian",
+  "cobblemon.species.persian.name": "Persa",
   "cobblemon.species.persian.desc": "Persian tem seis bigodes fortes que lhe conferem uma aparência robusta. Os bigodes detectam os movimentos do ar para determinar o que está nas proximidades do Pokémon. Ele se torna dócil se agarrado pelos bigodes.",
   "cobblemon.species.psyduck.name": "Psyduck",
   "cobblemon.species.psyduck.desc": "Se usar seu poder misterioso, Psyduck não consegue se lembrar de tê-lo feito. Aparentemente, ele não consegue se lembrar de tal evento porque entra em um estado alterado que se assemelha muito ao sono profundo.",
@@ -2644,7 +2685,7 @@
   "cobblemon.species.mrmime.name": "Mr. Mime",
   "cobblemon.species.mrmime.desc": "O Mr. Mime é um mestre da pantomima. Seus gestos e movimentos convencem os observadores de que algo invisível realmente existe. Uma vez que os observadores se convencem, o invisível existe como se fosse real.",
   "cobblemon.species.scyther.name": "Scyther",
-  "cobblemon.species.scyther.desc": "Scyther é incrivelmente rápido. Sua velocidade escalar de chamas aumenta a efetividade das foices gêmeas em seus antebraços. As foices deste Poke├Mão são tão eficazes, eles podem cortar troncos grossos em um golpe perverso.",
+  "cobblemon.species.scyther.desc": "Scyther é incrivelmente rápido. Sua velocidade escalar de chamas aumenta a efetividade das foices gêmeas em seus antebraços. As foices deste Pokémon são tão eficazes, eles podem cortar troncos grossos em um golpe perverso.",
   "cobblemon.species.jynx.name": "Jynx",
   "cobblemon.species.jynx.desc": "Jynx caminha ritmicamente, balançando e sacudindo os quadris como se estivesse dançando. Seus movimentos são tão sedutores e saltitantes que as pessoas que a veem são impelidas a sacudir os quadris sem sequer pensar no que estão fazendo.",
   "cobblemon.species.electabuzz.name": "Electrabuz",
@@ -2701,6 +2742,7 @@
   "cobblemon.species.mewtwo.desc": "Mewtwo é um Pokémon que foi criado por manipulação genética. No entanto, embora o poder científico dos humanos tenha criado o corpo deste Pokémon, eles falharam em dotar Mewtwo de um coração compassivo.",
   "cobblemon.species.mew.name": "Mew",
   "cobblemon.species.mew.desc": "Dizem que Mew possui a composição genética de todos os Pokémon. Ele é capaz de se tornar invisível quando quer, então passa despercebido mesmo quando se aproxima das pessoas.",
+
   "cobblemon.species.chikorita.name": "Chikorita",
   "cobblemon.species.chikorita.desc": "Na batalha, Chikorita balança sua folha para manter o inimigo afastado. No entanto, uma fragrância doce também emana da folha, acalmando o Pokémon em batalha e criando uma atmosfera aconchegante e amigável ao redor.",
   "cobblemon.species.bayleef.name": "Bayleef",
@@ -2901,6 +2943,7 @@
   "cobblemon.species.hooh.desc": "As penas de Ho-Oh brilham em sete cores dependendo do ângulo em que são atingidas pela luz. Dizem que essas penas trazem felicidade aos portadores. Dizem que esse Pokémon vive ao pé de um arco-íris.",
   "cobblemon.species.celebi.name": "Celebi",
   "cobblemon.species.celebi.desc": "Este Pokémon veio do futuro através da viajem do tempo. Acredita-se que, enquanto Celebi aparecer, um futuro brilhante e radiante nos aguarda.",
+
   "cobblemon.species.treecko.name": "Treecko",
   "cobblemon.species.treecko.desc": "Treecko é tranquilo, calmo e controlado ele nunca entra em pânico em nenhuma situação. Se um inimigo maior encarasse esse Pokémon, ele encararia de volta sem ceder um centímetro de chão.",
   "cobblemon.species.grovyle.name": "Grovyle",
@@ -3171,6 +3214,7 @@
   "cobblemon.species.jirachi.desc": "Jirachi despertará de seu sono de mil anos se você cantar para ele com uma voz pura. Dizem que ele realiza qualquer desejo das pessoas.",
   "cobblemon.species.deoxys.name": "Deoxys",
   "cobblemon.species.deoxys.desc": "Deoxys surgiu de um vírus que veio do espaço. Ele é altamente inteligente e exerce poderes psicocinéticos. Este Pokémon dispara lasers do órgão cristalino em seu peito.",
+
   "cobblemon.species.turtwig.name": "Turtwig",
   "cobblemon.species.turtwig.desc": "Ele realiza fotossíntese com o corpo, produzindo oxigênio. A folha em sua cabeça murcha se estiver com sede.",
   "cobblemon.species.grotle.name": "Grotle",
@@ -3385,6 +3429,7 @@
   "cobblemon.species.shaymin.desc": "O desabrochar das flores de Gracidea confere-lhe o poder de voar. Sentimentos de gratidão são a mensagem que ela transmite.",
   "cobblemon.species.arceus.name": "Arceus",
   "cobblemon.species.arceus.desc": "Diz a mitologia que este Pokémon nasceu antes mesmo do universo existir.",
+
   "cobblemon.species.victini.name": "Victini",
   "cobblemon.species.victini.desc": "Quando ele compartilha a energia infinita que cria, todo o corpo desse ser transborda de poder.",
   "cobblemon.species.snivy.name": "Snivy",
@@ -3697,6 +3742,7 @@
   "cobblemon.species.meloetta.desc": "Suas melodias são cantadas com um método especial de vocalização que pode controlar os sentimentos de quem as ouve.",
   "cobblemon.species.genesect.name": "Genesect",
   "cobblemon.species.genesect.desc": "Este Pokémon existiu há 300 milhões de anos. A Equipe Plasma o alterou e anexou um canhão em suas costas.",
+
   "cobblemon.species.chespin.name": "Chespin",
   "cobblemon.species.chespin.desc": "Uma casca de madeira tão grossa cobre sua cabeça e costas que nem mesmo um impacto direto de um caminhão o perturbaria.",
   "cobblemon.species.quilladin.name": "Quilladin",
@@ -3841,6 +3887,7 @@
   "cobblemon.species.hoopa.desc": "Dizem que ele é capaz de agarrar qualquer coisa que desejar com seus seis anéis e seis braços enormes. Com seu poder selado, ele se transforma em uma forma muito menor.",
   "cobblemon.species.volcanion.name": "Volcanion",
   "cobblemon.species.volcanion.desc": "Ele expele seu vapor interno dos braços em suas costas. Ele tem poder suficiente para explodir uma montanha.",
+
   "cobblemon.species.rowlet.name": "Rowlet",
   "cobblemon.species.rowlet.desc": "Ele se sente relaxado em lugares apertados e escuros e é conhecido por usar o bolso ou a bolsa do seu treinador como ninho.",
   "cobblemon.species.dartrix.name": "Dartrix",
@@ -4017,6 +4064,7 @@
   "cobblemon.species.meltan.desc": "Ele derrete partículas de ferro e outros metais encontrados no subsolo, para que possa absorvê-los em seu corpo de aço derretido.",
   "cobblemon.species.melmetal.name": "Melmetal",
   "cobblemon.species.melmetal.desc": "Reverenciado há muito tempo por sua capacidade de criar ferro do nada, por algum motivo ele voltou à vida depois de 3.000 anos.",
+
   "cobblemon.species.grookey.name": "Grookey",
   "cobblemon.species.grookey.desc": "Quando ele usa seu bastão especial para marcar uma batida, as ondas sonoras produzidas carregam energia revitalizante para as plantas e flores da área.",
   "cobblemon.species.thwackey.name": "Thwackey",
@@ -4209,6 +4257,7 @@
   "cobblemon.species.overqwil.desc": "Os espinhos venenosos de Overqwil reagirão reflexivamente mesmo enquanto Overqwil dorme, apunhalando qualquer coisa em movimento que se aproxime.",
   "cobblemon.species.enamorus.name": "Enamorus",
   "cobblemon.species.enamorus.desc": "Quando ele voa para esta terra do outro lado do mar, o inverno amargo chega ao fim. De acordo com a lenda, o amor deste Pokémon dá origem ao surgimento de uma nova vida em Hisui.",
+
   "cobblemon.species.sprigatito.name": "Sprigatito",
   "cobblemon.species.floragato.name": "Floragato",
   "cobblemon.species.meowscarada.name": "Meowscarada",
@@ -4290,15 +4339,15 @@
   "cobblemon.species.greattusk.name": "Greattusk",
   "cobblemon.species.screamtail.name": "Screamtail",
   "cobblemon.species.brutebonnet.name": "Brutebonnet",
-  "cobblemon.species.fluttermane.name": "Flutter Mane",
-  "cobblemon.species.slitherwing.name": "Slither Wing",
-  "cobblemon.species.sandyshocks.name": "Sandy Shocks",
-  "cobblemon.species.irontreads.name": "Iron Treads",
-  "cobblemon.species.ironbundle.name": "Iron Bundle",
-  "cobblemon.species.ironhands.name": "Iron Hands",
-  "cobblemon.species.ironjugulis.name": "Iron Jugulis",
-  "cobblemon.species.ironmoth.name": "Iron Moth",
-  "cobblemon.species.ironthorns.name": "Iron Thorns",
+  "cobblemon.species.fluttermane.name": "Juba Sopro",
+  "cobblemon.species.slitherwing.name": "Asa Rasteira",
+  "cobblemon.species.sandyshocks.name": "Choque Areia",
+  "cobblemon.species.irontreads.name": "Trilho Férreo",
+  "cobblemon.species.ironbundle.name": "Pacote Férreo",
+  "cobblemon.species.ironhands.name": "Mãos Férreas",
+  "cobblemon.species.ironjugulis.name": "Jugulares Férreas",
+  "cobblemon.species.ironmoth.name": "Mariposa Férrea",
+  "cobblemon.species.ironthorns.name": "Espinhos Férreos",
   "cobblemon.species.frigibax.name": "Frigibax",
   "cobblemon.species.arctibax.name": "Arctibax",
   "cobblemon.species.baxcalibur.name": "Baxcalibur",
@@ -4308,12 +4357,13 @@
   "cobblemon.species.chienpao.name": "Chien Pao",
   "cobblemon.species.tinglu.name": "Ting-Lu",
   "cobblemon.species.chiyu.name": "Chi-Yu",
-  "cobblemon.species.roaringmoon.name": "Roaring Moon",
-  "cobblemon.species.ironvaliant.name": "Iron Valiant",
+  "cobblemon.species.roaringmoon.name": "Lua Estrondo",
+  "cobblemon.species.ironvaliant.name": "Valentia Férrea",
   "cobblemon.species.koraidon.name": "Koraidon",
   "cobblemon.species.miraidon.name": "Miraidon",
-  "cobblemon.species.walkingwake.name": "Walking Wake",
-  "cobblemon.species.ironleaves.name": "Iron Leaves",
+  "cobblemon.species.walkingwake.name": "Onda Ando",
+  "cobblemon.species.ironleaves.name": "Folhas Férreas",
+
   "cobblemon.ability.adaptability": "Adaptabilidade",
   "cobblemon.ability.adaptability.desc": "Aumenta o poder dos movimentos do mesmo tipo do Pokémon.",
   "cobblemon.ability.aerilate": "Aeração",
@@ -4420,7 +4470,7 @@
   "cobblemon.ability.desolateland.desc": "O Pokémon altera o clima para anular ataques do tipo Água.",
   "cobblemon.ability.disguise": "Disfarce",
   "cobblemon.ability.disguise.desc": "Uma vez por batalha, a mortalha que cobre o Pokémon pode protegê-lo de um ataque.",
-  "cobblemon.ability.download": "Download",
+  "cobblemon.ability.download": "Baixar",
   "cobblemon.ability.download.desc": "O Pokémon compara os atributos de Defesa e Def. Especial do Pokémon adversário antes de aumentar seu próprio atributo de Ataque ou Atq. Especial - o que for mais eficaz.",
   "cobblemon.ability.dragonsmaw": "Mandíbula de Dragão",
   "cobblemon.ability.dragonsmaw.desc": "Aumenta o poder dos movimentos do tipo Dragão.",

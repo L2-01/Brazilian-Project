@@ -174,7 +174,7 @@
   "custommachinery.gui.creation.appearance.interaction_sound.fall": "Som de queda",
   "custommachinery.gui.creation.appearance.interaction_sound.open": "Som de abertura",
   "custommachinery.gui.creation.appearance.interaction_sound.close": "Som de fechamento",
-  "custommachinery.gui.creation.appearance.item": "Item",
+  "custommachinery.gui.creation.appearance.item": "Itens",
   "custommachinery.gui.creation.appearance.item.tooltip": "Abrir configuração de aparência do item",
   "custommachinery.gui.creation.appearance.keep_inventory": "Manter inventário",
   "custommachinery.gui.creation.appearance.keep_inventory.tooltip": "Se ativado, a máquina manterá seu inventário quando quebrada",
@@ -326,7 +326,7 @@
   "custommachinery.gui.creation.gui.button.toggle": "Alternar",
   "custommachinery.gui.creation.gui.button.toggle.tooltip": "Se ativado, o botão permanecerá pressionado até ser pressionado novamente",
   "custommachinery.gui.creation.gui.button.text": "Texto",
-  "custommachinery.gui.creation.gui.button.item": "Item",
+  "custommachinery.gui.creation.gui.button.item": "Itens",
   "custommachinery.gui.creation.gui.button.hold_time": "Tempo de retenção",
   "custommachinery.gui.creation.gui.button.hold_time.tooltip": "Tempo (em tiques) que o botão permanecerá pressionado quando clicado",
   "custommachinery.gui.creation.gui.experience.display_mode": "Modo de exibição",
@@ -411,7 +411,7 @@
 
   "custommachinery.machine.component.energy": "Energia",
   "custommachinery.machine.component.fluid": "Fluido",
-  "custommachinery.machine.component.item": "Item",
+  "custommachinery.machine.component.item": "Itens",
   "custommachinery.machine.component.item_fluid": "Item (manipulador de fluido)",
   "custommachinery.machine.component.item_energy": "Item (manipulador de energia)",
   "custommachinery.machine.component.item_upgrade": "Item (melhoria)",
@@ -584,7 +584,7 @@
   "requirement.custommachinery.fuel": "Combustível",
   "requirement.custommachinery.function": "Função",
   "requirement.custommachinery.item_filter": "Filtro de item",
-  "requirement.custommachinery.item": "Item",
+  "requirement.custommachinery.item": "Itens",
   "requirement.custommachinery.item_transform": "Transformação de item",
   "requirement.custommachinery.light": "Luz",
   "requirement.custommachinery.loot_table": "Tabela de saques",
@@ -613,5 +613,5 @@
   "custommachinery.configuration.item_slot_cycle_time": "Tempo de ciclo do espaço de item",
 
   "unit.energy.forge": "FE",
-  "unit.energy.fabric": "E"
+  "unit.energy.fabric": "L"
 }

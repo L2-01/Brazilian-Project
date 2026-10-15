@@ -1,4 +1,12 @@
 {
+  "embeddium.conflicting_mod": "O Embeddium detectou a presença de mods conhecidos por causar problemas de renderização/falhas. Recomenda-se desinstalá-los. Veja a lista abaixo.",
+  "embeddium.conflicting_mod_list": "[{2}]",
+
+
+
+
+
+
   "sodium.option_impact.low": "Baixo",
   "sodium.option_impact.medium": "Médio",
   "sodium.option_impact.high": "Alto",
@@ -36,14 +44,14 @@
   "sodium.options.use_block_face_culling.tooltip": "Se ativado, apenas os lados dos blocos que estão voltados para a câmera serão enviados para renderização. Isso pode eliminar um grande número de faces de blocos logo no início do processo de renderização, economizando largura de banda de memória e tempo na GPU. Alguns pacotes de recursos podem ter problemas com esta opção, então tente desativá-la se estiver vendo buracos nos blocos.",
   "sodium.options.use_compact_vertex_format.name": "Usar Formato de Vértice Compacto",
   "sodium.options.use_compact_vertex_format.tooltip": "Se ativado, um formato de vértice mais compacto será usado para renderizar chunks. Isso pode reduzir significativamente o uso de memória gráfica e os requisitos de largura de banda, especialmente para placas gráficas integradas, mas pode causar z-fighting com alguns pacotes de recursos devido à redução da precisão dos atributos de posição e coordenadas de textura. Desativar isso não tem efeito se o Oculus estiver instalado.",
-  "sodium.options.translucent_face_sorting.name": "Ordenação de Faces Translúcidas",
-  "sodium.options.translucent_face_sorting.tooltip": "Se ativado, efeitos translúcidos de superfícies como vidro tingido e água serão aplicados corretamente.",
   "sodium.options.use_fog_occlusion.name": "Usar Oclusão de Neblina",
   "sodium.options.use_fog_occlusion.tooltip": "Se ativado, os chunks que forem determinados como totalmente ocultos por efeitos de neblina não serão renderizados, ajudando a melhorar o desempenho. A melhoria pode ser mais dramática quando os efeitos de neblina são mais pesados (como debaixo d'água), mas pode causar artefatos visuais indesejáveis entre o céu e a neblina em alguns cenários.",
   "sodium.options.use_entity_culling.name": "Usar Oclusão de Entidades",
   "sodium.options.use_entity_culling.tooltip": "Se ativado, as entidades determinadas como fora de qualquer chunk visível serão ignoradas durante a renderização. Isso pode ajudar a melhorar o desempenho evitando a renderização de entidades localizadas no subsolo ou atrás de paredes.",
   "sodium.options.use_particle_culling.name": "Usar Oclusão de Partículas",
   "sodium.options.use_particle_culling.tooltip": "Se ativado, somente partículas que determina-se estarem visíveis serão renderizadas. Isso pode dar uma melhoria significativa às taxas de fps quando há muitas partículas por perto.",
+  "sodium.options.translucent_face_sorting.name": "Ordenação de Faces Translúcidas",
+  "sodium.options.translucent_face_sorting.tooltip": "Se ativado, efeitos translúcidos de superfícies como vidro tingido e água serão aplicados corretamente.",
   "sodium.options.animate_only_visible_textures.name": "Animar Apenas Texturas Visíveis",
   "sodium.options.animate_only_visible_textures.tooltip": "Se ativado, apenas as texturas animadas determinadas como visíveis serão atualizadas. Isso pode proporcionar um aumento significativo na taxa de quadros em alguns hardwares, especialmente com pacotes de recursos mais pesados. Se você tiver problemas com algumas texturas não sendo animadas, tente desativar esta opção.",
   "sodium.options.cpu_render_ahead_limit.name": "Limite de Pré-renderização da CPU",
@@ -66,7 +74,5 @@
   "sodium.options.always_defer_chunk_updates.tooltip": "Se ativado, a renderização nunca esperará que as atualizações de chunks terminem, mesmo que sejam importantes. Isso pode melhorar muito a taxa de quadros em alguns cenários, mas pode criar um atraso visual significativo no mundo.",
   "sodium.options.buttons.undo": "Desfazer",
   "sodium.options.buttons.apply": "Aplicar",
-  "sodium.options.buttons.donate": "Apoie o Sodium!",
-  "embeddium.conflicting_mod": "O Embeddium detectou a presença de mods conhecidos por causar problemas de renderização/falhas. Recomenda-se desinstalá-los. Veja a lista abaixo.",
-  "embeddium.conflicting_mod_list": "[{2}]"
+  "sodium.options.buttons.donate": "Apoie o Sodium!"
 }

@@ -31,14 +31,14 @@
   "tooltip.relics.relic.status.negative": "§4§l[§4§l✘§4§l]",
 
   "tooltip.relics.relic.upgrade.description": "Subir de Nível",
-  "tooltip.relics.relic.upgrade.cost": "Custo: %1$s pontos de melhoria %2$s, %3$s pontos de experiência (%4$s níveis relativos) %5$s.",
+  "tooltip.relics.relic.upgrade.cost": "Custo: %1$s pontos de melhoria %2$s, %3$s pontos de experiência %4$s.",
   "tooltip.relics.relic.upgrade.locked": "A habilidade já está em seu nível máximo.",
 
   "tooltip.relics.relic.reroll.description": "Re-aleatorizar atributos aleatórios",
-  "tooltip.relics.relic.reroll.cost": "Custo: %1$s pontos de experiência (%2$s níveis relativos) %3$s.",
-  
+  "tooltip.relics.relic.reroll.cost": "Custo: %1$s pontos de experiência %2$s.",
+
   "tooltip.relics.relic.reset.description": "Resetar pontos de habilidade",
-  "tooltip.relics.relic.reset.cost": "Custo: %1$s pontos de experiência (%2$s níveis relativos) %3$s.",
+  "tooltip.relics.relic.reset.cost": "Custo: %1$s pontos de experiência %2$s.",
   "tooltip.relics.relic.reset.locked": "Para usar você precisa subir esta habilidade de nível pelo menos 1 vez.",
 
   "item.relics.infinity_ham": "Presunto Infinito",
@@ -57,7 +57,7 @@
   "tooltip.relics.enders_hand.ability.neutrality": "Neutralidade",
   "tooltip.relics.enders_hand.ability.neutrality.description": "Faz os endermen serem neutros com seu usuário.",
   "tooltip.relics.enders_hand.ability.swap": "Transposição do End",
-  "tooltip.relics.enders_hand.ability.swap.description": "Troca o usuário e o alvo no campo de visão dentro de um alcance de até %1$s blocos.",
+  "tooltip.relics.enders_hand.ability.swap.description": "Troca o usuário de lugar com o alvo ao longo da linha de visão.",
   "tooltip.relics.enders_hand.ability.swap.stat.distance.title": "Distância:",
   "tooltip.relics.enders_hand.ability.swap.stat.distance.value": "%1$s blocos.",
   "tooltip.relics.enders_hand.ability.swap.predicate.target": "Olhando para o alvo",
@@ -65,7 +65,7 @@
   "item.relics.holy_locket": "Pingente Sagrado",
   "tooltip.relics.holy_locket.description": "Concede ao usuário a habilidade de voltar a regeneração dos inimigos contra eles.",
   "tooltip.relics.holy_locket.ability.belief": "Fé",
-  "tooltip.relics.holy_locket.ability.belief.description": "Tem 2 modos alternáveis: Santidade e Profanidade. No modo vermelho de Santidade, %1$s%% da regeneração de entidades visíveis dentro de um raio de %3$s blocos será roubada e transferida para o usuário da relíquia. No modo azul de Profanidade, a relíquia dará dano a todas as entidades visíveis dentro do mesmo raio igual a %2$s%% da regeneração do usuário dela.",
+  "tooltip.relics.holy_locket.ability.belief.description": "Uma habilidade alternável com dois modos: Santidade e Profanidade. Ativar a habilidade em qualquer modo preenche o reservatório interno em 1 unidade. No modo Santidade, redireciona uma porção da cura do usuário como dano para alvos próximos e reduz o dano recebido em 1% por carga. No modo Profanidade, absorve uma porção da cura de alvos próximos e aumenta o dano causado em 1% por carga.",
   "tooltip.relics.holy_locket.ability.belief.stat.radius.title": "Raio:",
   "tooltip.relics.holy_locket.ability.belief.stat.radius.value": "%1$s blocos.",
   "tooltip.relics.holy_locket.ability.belief.stat.amount.title": "Modificador de Regeneração/Dano:",
@@ -85,7 +85,7 @@
   "tooltip.relics.holy_locket.ability.blessing.stat.consumption.title": "Consumo de cargas:",
   "tooltip.relics.holy_locket.ability.blessing.stat.consumption.value": "%1$s por segundo.",
   "tooltip.relics.holy_locket.ability.blessing.predicate.blessing": "Cargas internas",
-  
+
   "item.relics.magic_mirror": "Espelho Mágico",
   "tooltip.relics.magic_mirror.description": "+1 ponto de experiência para cada uso da habilidade «Buraco de Minhoca», +1 ponto de experiência para cada 50 blocos até o ponto de teletransporte.",
   "tooltip.relics.magic_mirror.ability.teleport": "Buraco de Minhoca",
@@ -179,7 +179,7 @@
   "tooltip.relics.midnight_robe.ability.backstab.stat.damage.value": "%1$s%%.",
   "tooltip.relics.midnight_robe.ability.backstab.stat.distance.title": "Raio do círculo:",
   "tooltip.relics.midnight_robe.ability.backstab.stat.distance.value": "%1$s blocos.",
-  
+
   "item.relics.reflection_necklace": "Colar Refletor",
   "tooltip.relics.reflection_necklace.description": "+1 ponto de experiência para cada 10 de dano acumulado dentro da relíquia com a habilidade «Ódio Infernal».",
   "tooltip.relics.reflection_necklace.ability.explode": "Ódio Infernal",
@@ -190,7 +190,7 @@
   "tooltip.relics.reflection_necklace.ability.explode.stat.damage.value": "%1$s unidades.",
   "tooltip.relics.reflection_necklace.ability.explode.stat.stun.title": "Atordoamento por unidade:",
   "tooltip.relics.reflection_necklace.ability.explode.stat.stun.value": "%1$s segundos.",
-  
+
   "item.relics.jellyfish_necklace": "Colar Água-Viva",
   "tooltip.relics.jellyfish_necklace.description": "+1 ponto de experiência para cada ativação da habilidade «Descarga Elétrica».",
   "tooltip.relics.jellyfish_necklace.ability.unsinkable": "Poder Sobre o Mar",
@@ -220,7 +220,7 @@
   "tooltip.relics.spore_sack.ability.buffer.description": "Cada vez que o tempo de recarga da habilidade «Síntese de Veneno» é acionado, acumula uma carga dentro da relíquia que pode ser usada por outras habilidades para liberar esporos. Adiciona uma chance de não consumir esporos ao solicitar cargas para outras habilidades.",
   "tooltip.relics.spore_sack.ability.buffer.stat.capacity.title": "Capacidade:",
   "tooltip.relics.spore_sack.ability.buffer.stat.capacity.value": "%1$s esporos.",
-  "tooltip.relics.spore_sack.ability.buffer.stat.chance.title": "Chance:",
+  "tooltip.relics.spore_sack.ability.buffer.stat.chance.title": "Probabilidade:",
   "tooltip.relics.spore_sack.ability.buffer.stat.chance.value": "%1$s%%.",
   "tooltip.relics.spore_sack.ability.multiplying": "Decomposição",
   "tooltip.relics.spore_sack.ability.multiplying.description": "Cada esporo pode se dividir em vários esporos menores em um determinado alcance quando explode. O número máximo de esporos é determinado pelo grau do tamanho do esporo principal, mas o número final é limitado pela primeira chance malsucedida de divisão de esporo.",
@@ -243,7 +243,7 @@
   "tooltip.relics.ice_breaker.ability.sustainability.stat.modifier.title": "Resistência a Repulsão:",
   "tooltip.relics.ice_breaker.ability.sustainability.stat.modifier.value": "%1$s%%.",
   "tooltip.relics.ice_breaker.ability.impact": "Terremoto",
-  "tooltip.relics.ice_breaker.ability.impact.description": "Uso prolongado da habilidade enquanto cai, até pousar, criará uma onda de choque, dando até %2$s de dano e jogando inimigos próximos para trás. Contudo, o poder da onda de choque depende da distância da qual o usuário caiu.",
+  "tooltip.relics.ice_breaker.ability.impact.description": "Usar a habilidade durante uma queda criará uma onda de choque no local de pouso, causando dano e lançando alvos próximos para longe. O poder da onda depende da distância que o usuário percorreu voando.",
   "tooltip.relics.ice_breaker.ability.impact.stat.size.title": "Raio máximo:",
   "tooltip.relics.ice_breaker.ability.impact.stat.size.value": "%1$s blocos.",
   "tooltip.relics.ice_breaker.ability.impact.stat.damage.title": "Dano mínimo:",
@@ -269,7 +269,7 @@
   "tooltip.relics.horse_flute.ability.heal.description": "Um cavalo colocado no armazenamento interno da relíquia se recuperará lentamente.",
   "tooltip.relics.horse_flute.ability.heal.stat.amount.title": "Tratamento:",
   "tooltip.relics.horse_flute.ability.heal.stat.amount.value": "%1$s pontos de saúde por segundo.",
-  
+
   "item.relics.magma_walker": "Botas Magmaticas",
   "tooltip.relics.magma_walker.description": "+1 ponto de experiência para cada 5 unidades de aquecimento da habilidade «Passos Ardentes».",
   "tooltip.relics.magma_walker.ability.pace": "Passos Ardentes",
@@ -285,7 +285,7 @@
   "tooltip.relics.aqua_walker.ability.walking.description": "Por um tempo, permite andar na superfície da água sem afundar. Assim que o tempo acabar, as botas começam a afundar, puxando o usuário para debaixo d'água com elas.",
   "tooltip.relics.aqua_walker.ability.walking.stat.time.title": "Duração:",
   "tooltip.relics.aqua_walker.ability.walking.stat.time.value": "%1$s segundos.",
-  
+
   "item.relics.drowned_belt": "Cinto do Afogado",
   "tooltip.relics.drowned_belt.description": "+1 ponto de experiência para cada nível do encantamento «Correnteza» no tridente ao usá-lo.",
   "tooltip.relics.drowned_belt.ability.slots": "Capacidade de Carga",
@@ -306,15 +306,15 @@
   "tooltip.relics.drowned_belt.ability.riptide.description": "Permite ao encantamento «Correnteza» do tridente ser utilizado sem chuva ou água, adicionando um tempo de recarga a ele.",
   "tooltip.relics.drowned_belt.ability.riptide.stat.cooldown.title": "Tempo de recarga:",
   "tooltip.relics.drowned_belt.ability.riptide.stat.cooldown.value": "%1$s segundos por nível do encantamento.",
-  
+
   "item.relics.hunter_belt": "Cinto de Caçador",
   "tooltip.relics.hunter_belt.description": "+1 ponto de experiência para cada ataque feito pelo mascote do usuário.",
   "tooltip.relics.hunter_belt.ability.slots": "Capacidade de Carga",
   "tooltip.relics.hunter_belt.ability.slots.description": "Aumenta o número máximo de espaços para amuletos.",
   "tooltip.relics.hunter_belt.ability.slots.stat.charm.title": "Amuletos:",
-  "tooltip.relics.hunter_belt.ability.slots.stat.charm.value": "+%1$s slots.",
+  "tooltip.relics.hunter_belt.ability.slots.stat.charm.value": "+%1$s espaços.",
   "tooltip.relics.hunter_belt.ability.training": "Treinamento",
-  "tooltip.relics.hunter_belt.ability.training.description": "Aumenta o dano dado pelos mascotes do usuário em %1$s%%.",
+  "tooltip.relics.hunter_belt.ability.training.description": "Aumenta o dano causado pelos mascotes do usuário.",
   "tooltip.relics.hunter_belt.ability.training.stat.damage.title": "Multiplicador de dano:",
   "tooltip.relics.hunter_belt.ability.training.stat.damage.value": "+%1$s%%.",
 
@@ -409,11 +409,11 @@
   "tooltip.relics.wool_mitten.ability.mold.stat.size.value": "%1$s unidades.",
   "tooltip.relics.wool_mitten.ability.mold.stat.damage.title": "Dano:",
   "tooltip.relics.wool_mitten.ability.mold.stat.damage.value": "%1$s por tamanho de unidade.",
-  "tooltip.relics.wool_mitten.ability.mold.stat.stun.title": "Stun:",
+  "tooltip.relics.wool_mitten.ability.mold.stat.stun.title": "Atordoamento:",
   "tooltip.relics.wool_mitten.ability.mold.stat.stun.value": "%1$s segundos por tamanho de unidade.",
-  "tooltip.relics.wool_mitten.ability.mold.stat.freeze.title": "Frostbite:",
+  "tooltip.relics.wool_mitten.ability.mold.stat.freeze.title": "Congelamento:",
   "tooltip.relics.wool_mitten.ability.mold.stat.freeze.value": "%1$s segundos por tamanho de unidade.",
-  
+
   "item.relics.roller_skates": "Patins",
   "tooltip.relics.roller_skates.description": "+1 ponto de experiência para cada segundo de aceleração da habilidade «Aceleração».",
   "tooltip.relics.roller_skates.ability.skating": "Aceleração",

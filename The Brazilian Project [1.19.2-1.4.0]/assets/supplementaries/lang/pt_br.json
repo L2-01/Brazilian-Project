@@ -2,7 +2,7 @@
   "itemGroup.supplementaries": "Supplementaries",
   "itemGroup.supplementaries.supplementaries": "Supplementaries",
   "block.supplementaries.faucet": "Torneira",
-  "block.supplementaries.wall_lantern": "Lanterna de Parede",
+  "block.supplementaries.wall_lantern": "Lampião de Parede",
   "block.supplementaries.planter": "Jardineira",
   "block.supplementaries.planter_rich": "Caixa de Plantio com Solo Rico",
   "block.supplementaries.bellows": "Fole",
@@ -13,7 +13,7 @@
   "block.supplementaries.jar_tinted": "Jarro Tingido",
   "block.supplementaries.turn_table": "Bancada Giratória",
   "block.supplementaries.pedestal": "Pedestal",
-  "block.supplementaries.redstone_illuminator": "Lanterna de Redstone",
+  "block.supplementaries.redstone_illuminator": "Iluminador de Redstone",
   "block.supplementaries.notice_board": "Quadro de Avisos",
   "block.supplementaries.speaker_block": "Bloco de Alto-Falante",
   "block.supplementaries.sconce": "Arandela",
@@ -63,7 +63,8 @@
   "message.supplementaries.throwable_brick": "Pode ser arremessado",
   "message.supplementaries.wall_lantern": "Pode ser colocado nas paredes",
   "message.supplementaries.command.configs_reloaded": "Configurações recarregadas",
-  "block.supplementaries.copper_lantern": "Lanterna de Cobre",
+  "block.supplementaries.copper_lantern": "Lampião de Cobre",
+
   "message.supplementaries.hourglass": "Aceita qualquer pó, areia ou pólvora",
   "message.supplementaries.cage": "[Shift] para colocar",
   "gui.supplementaries.safe.name": "%1$s de %2$s",
@@ -95,6 +96,7 @@
   "message.supplementaries.safe.assigned_key": "Trancado com a chave '%s'",
   "message.supplementaries.safe.assigned_key_generic": "Atribuído à chave",
   "item.supplementaries.key": "Chave",
+
   "item.supplementaries.bamboo_spikes_tipped_effect": "Espinhos de Bambu de %s",
   "death.attack.supplementaries.bamboo_spikes": "Um espinho empalou %1$s",
   "death.attack.supplementaries.bamboo_spikes.player": "Um espinho empalou %1$s enquanto lutava contra %2$s",
@@ -128,6 +130,7 @@
   "item.supplementaries.bomb": "Bomba",
   "item.supplementaries.bomb_projectile": "Bomba",
   "block.supplementaries.flax_block": "Fardo de Linho",
+
   "block.supplementaries.jar_boat": "Jarro com Barco",
   "block.supplementaries.magma_cream_block": "Bloco de Creme de Magma",
   "message.supplementaries.magma_cream_block": "Instale o mod 'Quark' para funcionalidade completa",
@@ -307,7 +310,7 @@
   "supplementaries.virtual_resourcepack.title": "Pacote de recursos virtual",
   "supplementaries.virtual_resourcepack.description": "recursos dinâmicos de tempo de execução",
   "block.supplementaries.tater_in_a_jar": "Jarro com Batata",
-  "block.supplementaries.skull_candles": "Skull Candles",
+  "block.supplementaries.skull_candles": "Crânios com Velas",
   "block.supplementaries.skull_candles_soul": "Crânio com Vela das Almas",
   "block.supplementaries.skull_candles_wall": "Crânio de Parede com Vela",
   "block.supplementaries.skull_candles_soul_wall": "Crânio de Parede com Vela das Almas",
@@ -375,6 +378,7 @@
   "block.supplementaries.ashen_basalt": "Basalto",
   "block.supplementaries.skull_candle": "Crânio com Vela",
   "block.supplementaries.structure_temp": "0",
+
   "block.supplementaries.ceiling_banner_black": "Estandarte Preto",
   "block.supplementaries.ceiling_banner_blue": "Estandarte Azul",
   "block.supplementaries.ceiling_banner_brown": "Estandarte Marrom",
@@ -391,9 +395,13 @@
   "block.supplementaries.ceiling_banner_red": "Estandarte Vermelho",
   "block.supplementaries.ceiling_banner_white": "Estandarte Branco",
   "block.supplementaries.ceiling_banner_yellow": "Estandarte Amarelo",
+
   "item.supplementaries.pancake_disc": "Panqueca",
+
   "supplementaries.gui.controls": "Supplementaries",
   "supplementaries.keybind.quiver": "Aljava",
+
+
   "subtitle.supplementaries.clock_tick": "Relógio tiquetaqueando",
   "subtitle.supplementaries.gunpowder.ignite": "Pólvora queimando",
   "subtitle.supplementaries.bomb": "Bomba explodindo",
@@ -406,7 +414,7 @@
   "subtitle.supplementaries.bubble.pop": "Estouro de bolha",
   "subtitle.supplementaries.bubble.blow": "Assoprando bolhas",
   "subtitle.supplementaries.present.place": "Presente colocado",
-  "subtitle.supplementaries.present.break": "Present broken",
+  "subtitle.supplementaries.present.break": "Presente é quebrado",
   "subtitle.supplementaries.present.open": "Presente aberto",
   "subtitle.supplementaries.present.pack": "Presente embrulhado",
   "subtitle.supplementaries.crank.turn": "Manivela girada",
@@ -433,18 +441,24 @@
   "item.supplementaries.slice_map": "Mapa de Exploração",
   "filled_map.sliced.tooltip": "Camada: %d",
   "message.supplementaries.death_marker": "Última morte",
+
   "supplementaries.display_source.item_name": "Nome do item",
   "supplementaries.display_source.world_position": "Coordenadas",
   "supplementaries.display_source.notice_board": "Copiar quadro de avisos",
   "supplementaries.display_source.time_of_day": "Hora do dia",
   "supplementaries.display_source.fluid_amount": "Quantidade de fluido",
   "create.display_source.fill_level.fluid_amount": "Quantidade de fluido",
+
   "block_type.supplementaries.hanging_sign": "Placa Suspensa",
   "block_type.supplementaries.sign_post": "Placa de Sinalização",
+
+
+
   "gui.supplementaries.optifine.message": "Antes de prosseguir, observe que o Optifine é conhecido por causar problemas e travamentos.\n\nO mod não é adequado para ambientes com mods e apresentou muitos casos de péssima compatibilidade, até mesmo com o próprio Forge.\n\nAlém disso, em termos de desempenho, existem alternativas muito melhores e extremamente mais eficientes, como Modern Fix, Embeddium e Oculus para shaders.\n\nSeja jogando com mods ou no vanilla, você deve sempre usar os mods listados abaixo.",
   "gui.supplementaries.optifine.suggestions": "Esta é uma seleção de mods que recomendamos usar em vez do OptiFine.",
   "gui.supplementaries.optifine.title": "AVISO: OPTIFINE DETECTADO",
   "gui.supplementaries.optifine.turn_off": "Não exibir isso novamente",
+
   "wood_type.domum_ornamentum.cactus": "Cacto Verde",
   "wood_type.domum_ornamentum.cactus_extra": "Cacto",
   "wood_type.twilightforest.dark": "Madeira Negra",
@@ -453,6 +467,7 @@
   "wood_type.twilightforest.sorting": "Separadora",
   "leaves_type.twilightforest.dark": "Negras",
   "leaves_type.ulterlands.souldrained": "Petrificadas",
+
   "trinkets.slot.chest.quiver": "Aljava",
   "trinkets.slot.legs.key": "Chave"
 }

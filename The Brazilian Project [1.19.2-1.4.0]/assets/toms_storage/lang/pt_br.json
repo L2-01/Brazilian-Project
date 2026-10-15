@@ -10,37 +10,32 @@
 	"block.toms_storage.ts.inventory_cable_connector_filtered": "Conector de Cabo de Inventário (Filtrado)",
 	"block.toms_storage.ts.inventory_proxy": "Representante de Inventário",
 	"block.toms_storage.ts.crafting_terminal": "Terminal de Fabricação",
-	"tooltip.toms_storage.inventory_proxy.key": " - '%s' %s",
-	"tooltip.toms_storage.inventory_proxy.value": " - '%s=%s' %s",
-	"tooltip.toms_storage.inventory_proxy.ignoreSize": "Ignora o tamanho da pilha no filtro",
-	"tooltip.toms_storage.inventory_proxy.maxCount.arg": "<valor máximo>",
-	"tooltip.toms_storage.inventory_proxy.maxCount.desc": "Define a quantidade máxima da pilha em espaços vazios",
 	"block.toms_storage.ts.inventory_hopper_basic": "Funil de Inventários Básico",
 	"block.toms_storage.ts.level_emitter": "Emissor de Nível",
 	"block.toms_storage.ts.inventory_cable_connector_framed": "Conector de Cabo de Inventário (Emoldurado)",
-	
+
 	"item.toms_storage.ts.paint_kit": "Kit de Pintura",
 	"item.toms_storage.ts.wireless_terminal": "Terminal Sem Fio",
 	"item.toms_storage.ts.adv_wireless_terminal": "Terminal Sem Fio Avançado",
 	"item.toms_storage.ts.item_filter": "Filtro de Itens",
 	"item.toms_storage.ts.polymorphic_item_filter": "Filtro de Itens Polimórfico",
 	"item.toms_storage.ts.tag_item_filter": "Filtro de Itens por Tag",
-	
+
 	"itemGroup.toms_storage.tab": "Tom's Simple Storage",
-	
+
 	"ts.storage_terminal": "Armazenamento",
 	"ts.crafting_terminal": "Fabricação",
 	"ts.connector_filtered": "Definir Filtro",
 	"ts.level_emitter": "Emissor de Nível",
 	"ts.inventory_connector": "Conector de Inventários",
 	"ts.inventory_connector.beacon_level": "Nível do Sinalizador: %d",
-	
+
 	"tooltip.toms_storage.hold_shift_for_info": "Segure SHIFT para obter mais informações.",
 	"tooltip.toms_storage.paintable": "Pode ser pintado",
 	"tooltip.toms_storage.inventory_cable_connector_link": "Os chunks de ambos os lados devem estar carregados",
 	"tooltip.toms_storage.inventory_cable_connector_link.beacon1": "Coloque ele um sinalizador de nível %d para tornar um conector de inventário acessível de qualquer lugar dentro da mesma dimensão.",
 	"tooltip.toms_storage.inventory_cable_connector_link.beacon2": "Coloque ele um sinalizador de nível %d para tornar um conector de inventário acessível de qualquer lugar em qualquer dimensão .",
-	"tooltip.toms_storage.inventory_cable_connector": "Conecta o inventário à Rede de Inventários. Ou dá acesso à rede.\\Utilize o Configurador de Inventário para filtrar.",
+	"tooltip.toms_storage.inventory_cable_connector": "Conecta o inventário à\\Rede de Inventários. Ou dá acesso à rede.\\Necessário para conectar terminais.",
 	"tooltip.toms_storage.filtered": "Pode ser filtrado",
 	"tooltip.toms_storage.trim": "Conecta inventários com o Conector de Inventários.",
 	"tooltip.toms_storage.crafting_terminal": "Dá acesso aos seus itens.\\Coloque-o em um inventário.\\Tem uma bancada de trabalho embutida.",
@@ -50,6 +45,11 @@
 	"tooltip.toms_storage.open_crate": "Converte o bloco à sua frente\\em um inventário.\\Cuidado: Cria Entidades de Item",
 	"tooltip.toms_storage.inventory_connector": "Conecta todos os inventários que tocar em um.\\Use o Terminal de Armazenamento para acessar\\todos os seus itens. Encaixes podem conectar espaços.",
 	"tooltip.toms_storage.inventory_proxy": "Estende a face do bloco para o qual estiver apontando.\\Use um diamante em uma face para habilitar o modo de filtragem.\\Coloque um inventário na face e encha os espaços com os itens filtrados.\\Espaços vazios permitem tudo. A contagem de itens define o tamanho máximo da pilha no espaço.\\Renomeie o contêiner do filtro para configurações adicionais.\\Formato: '<key>=[value],[key2]=[value2],...'\\opções:",
+	"tooltip.toms_storage.inventory_proxy.key": " - '%s' %s",
+	"tooltip.toms_storage.inventory_proxy.value": " - '%s=%s' %s",
+	"tooltip.toms_storage.inventory_proxy.ignoreSize": "Ignora o tamanho da pilha no filtro",
+	"tooltip.toms_storage.inventory_proxy.maxCount.arg": "<valor máximo>",
+	"tooltip.toms_storage.inventory_proxy.maxCount.desc": "Define a quantidade máxima da pilha em espaços vazios",
 	"tooltip.toms_storage.inventory_cable": "Conecta inventários em\\longas distâncias. Conectores de cabo de inventário\\devem ser usados ​​para anexar inventários\\Um conector de inventários deve estar\\presente na rede.",
 	"tooltip.toms_storage.inventory_hopper": "Importe ou exporte de sua Rede de Inventários\\Clique com o botão direito em um item para definir o filtro.\\Segure shift e clique com a mão vazia para limpar o filtro.",
 	"tooltip.toms_storage.loop": "Loop detectado em seu sistema de armazenamento",
@@ -107,18 +107,18 @@
 	"tooltip.toms_storage.ghostMode_0": "Habilitar organizar enquanto segura SHIFT",
 	"tooltip.toms_storage.ghostMode_1": "Desabilitar organizar enquanto segura SHIFT",
 	"tooltip.toms_storage.tallMode_0": "Tamanho do Terminal: Padrão",
-	"tooltip.toms_storage.tallMode_1": "Tamanho do Terminal: Automático ",
-	
+	"tooltip.toms_storage.tallMode_1": "Tamanho do Terminal: Automático",
+
 	"narrator.toms_storage.terminal_search": "Campo de Pesquisa do Terminal",
 	"narrator.toms_storage.level_emitter_amount": "Contagem de Itens Emissores de Nível",
 	"narrator.toms_storage.inventory_link_channel": "Campo de Nome do Canal de Conector de Inventários",
-	
+
 	"chat.toms_storage.inventory_connector.free_slots": "Conector de Inventários: %d livres/%d espaços (em %d inventários).",
 	"chat.toms_storage.terminal_bound": "Terminal Sem Fio Avançado Vinculado",
 	"chat.toms_storage.terminal_invalid_block": "Bloco inválido",
 	"chat.toms_storage.terminal_out_of_range": "Terminal fora de alcance",
 	"chat.toms_storage.inv_link_access_denied": "Acesso Negado",
-	
+
 	"tomsstorage.config.inventory_connector_range": "Alcance do Conector de Inventários",
 	"tomsstorage.config.only_trims_connect": "Somente Permitir Encaixes de Conectar Inventários",
 	"tomsstorage.config.inv_cable_connector_max_scan": "Número Mâximo de Cabos para Cabos Conectores de Inventário",
@@ -127,12 +127,12 @@
 	"tomsstorage.config.adv_wireless_range": "Alcance do Terminal Sem Fio Avançado",
 	"tomsstorage.config.adv_wireless_beacon_lvl": "Nível de Sinalizador necessário para o Terminal Sem Fio Avançado ter alcance infinito\nValor 0 somente exige um único bloco de sinalizador próximo\nValor -1 desabilita isso por completo",
 	"tomsstorage.config.adv_wireless_beacon_lvl_dim": "Nível de Sinalizador necessário para o Terminal Sem Fio Avançado ter acesso inter-dimensional\nValor 0 somente exige um único bloco de sinalizador próximo\nValor -1 desabilita isso por completo",
-	"tomsstorage.config.inv_link_beacon_lvl": "Nível de Sinalizador necessário para o Terminal Sem Fio Avançado conectar inventários\nValor 0 somente exige um único bloco de sinalizador próximo\nValor -1 desabilita isso por completo",
-	"tomsstorage.config.inv_link_beacon_lvl_dim": "Nível de Sinalizador necessário para o Conector de Cabo de Inventário ter acesso interdimensional\nValor 0 somente exige um único bloco de sinalizador próximo\nValor -1 desabilita isso por completo",
+	"tomsstorage.config.inv_link_beacon_lvl": "Nível de Sinalizador necessário para o Conector de Cabo de Inventário conectar inventários\nValor -1 desabilita esse recurso por completo",
+	"tomsstorage.config.inv_link_beacon_lvl_dim": "Nível de Sinalizador necessário para o Conector de Cabo de Inventário ter acesso interdimensional\nValor -1 desabilita esse recurso por completo",
 	"tomsstorage.config.inv_dup_scan_size": "Contagem de espaços máxima segundo o procurador de duplicatas do Conector de Inventários",
-	
+
 	"text.autoconfig.toms_storage.title": "Configurações do Tom's Simple Storage",
-	"text.autoconfig.toms_storage.option.invRange": "Alcance do Conector de Inventários ",
+	"text.autoconfig.toms_storage.option.invRange": "Alcance do Conector de Inventários",
 	"text.autoconfig.toms_storage.option.onlyTrims": "Permitir Somente Encaixes de Conectar Inventârios",
 	"text.autoconfig.toms_storage.option.invConnectorMaxCables": "Número máximo de cabos para Conectores de Cabo de Inventário",
 	"text.autoconfig.toms_storage.option.wirelessRange": "Alcance do terminal sem fio",
@@ -147,8 +147,8 @@
 	"text.autoconfig.toms_storage.option.invLinkBeaconLvl.@Tooltip": "Valor de 0 só exige um único bloco de sinalizador próximo\nValor de -1 desabilita este recurso por completo",
 	"text.autoconfig.toms_storage.option.invLinkBeaconLvlDim.@Tooltip": "Valor de 0 só exige um único bloco de sinalizador próximo\nValor de -1 desabilita este recurso por completo",
 	"text.autoconfig.toms_storage.option.invDupScanSize": "Contagem de espaços máxima segundo o procurador de duplicatas do Conector de Inventários",
-	
+
 	"key.toms_storage.open_terminal": "[Tom's Simple Storage] Abrir Terminal",
-	
-	"tag.toms_storage.trims": "Inventory Trims"
+
+	"tag.toms_storage.trims": "Encaixes de Inventários"
 }

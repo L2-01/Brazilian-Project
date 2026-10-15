@@ -1,6 +1,6 @@
 {
 
-	"_": "->------------------------]  Game Elements  [------------------------<-",
+	"_": "->------------------------]  Elementos do Jogo  [------------------------<-",
 
 	"block.create_enchantment_industry.blaze_enchanter": "Encantador Blaze",
 	"block.create_enchantment_industry.disenchanter": "Desencantador",
@@ -20,9 +20,8 @@
 	"item.create_enchantment_industry.ink_bucket": "Balde de Tinta",
 
 
-	"_": "->------------------------]  Advancements  [------------------------<-",
 
-	"advancement.create_enchantment_industry.experienced_engineer": "Experienced Engineer",
+	"advancement.create_enchantment_industry.experienced_engineer": "Engenheiro Experiente",
 	"advancement.create_enchantment_industry.experienced_engineer.desc": "Obtenha Pepitas de Experiência esmagando minérios ou matando criaturas usando o implantador",
 	"advancement.create_enchantment_industry.black_as_ink": "50 Tons de Preto",
 	"advancement.create_enchantment_industry.black_as_ink.desc": "Obtenha um balde de Tinta",
@@ -56,7 +55,6 @@
 	"advancement.create_enchantment_industry.hypothetical_extension.desc": "Adicione um novo encantamento a um item usando o hiper-encantamento de um Encantador Blaze",
 
 
-	"_": "->------------------------]  Ponder Content  [------------------------<-",
 
 	"create_enchantment_industry.ponder.tag.experience": "Relacionado a Experiência",
 	"create_enchantment_industry.ponder.tag.experience.description": "Itens e Componentes relacionados à experiência",
@@ -109,7 +107,6 @@
 	"create_enchantment_industry.ponder.transform.text_4": "Você pode substituir o Guia de Encantamento segurando outro em sua mão e clicando com o direito no Encantador Blaze.",
 
 
-	"_": "->------------------------]  Item Descriptions  [------------------------<-",
 
 	"item.create_enchantment_industry.enchanting_guide.tooltip": "DICAS DO GUIA DE ENCANTAMENTOS",
 	"item.create_enchantment_industry.enchanting_guide.tooltip.current_enchantment": "Encantamento Atual:",
@@ -119,7 +116,6 @@
 	"item.create_enchantment_industry.experience_rotor.tooltip.summary": "Utilizado para _Misturar_ _Receitas_ que convertem _Líquidos_ _de_ _Experiência_.",
 
 
-	"_": "->------------------------]  UI & Messages  [------------------------<-",
 
 	"create_enchantment_industry.gui.enchanting_guide.no_enchantment": "Nenhum Encantamento Disponível",
 	"create_enchantment_industry.gui.goggles.printer": "Objeto a copiar:",
@@ -137,7 +133,5 @@
 	"recipe.create_enchantment_industry.disenchanting": "Desencantando",
 
 	"create_enchantment_industry.display_source.blaze_enchanter_source_target_enchantment": "Encantamento Alvo",
-	"create_enchantment_industry.display_source.printer_source_copy_content": "Copiar Conteúdo",
-
-	"_": "Aproveite o Create: Enchantment Industry!"
+	"create_enchantment_industry.display_source.printer_source_copy_content": "Copiar Conteúdo"
 }

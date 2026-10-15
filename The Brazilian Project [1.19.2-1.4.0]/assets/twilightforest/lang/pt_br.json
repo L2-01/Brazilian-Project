@@ -1,6 +1,6 @@
 {
   "itemGroup.twilightforest": "Twilight Forest",
-  "itemGroup.twilightforest.twilightforest": "Twilight Forest",
+
   "advancement.twilightforest.root.desc": "Entre na misteriosa floresta mágica: a Floresta do Crepúsculo",
   "advancement.twilightforest.hedge": "Esmagador de Insetos",
   "advancement.twilightforest.hedge.desc": "Derrote uma aranha no Labirinto de Cercas Vivas",
@@ -27,7 +27,7 @@
   "advancement.twilightforest.kill_naga": "Hora de Equilibrar o Jogo",
   "advancement.twilightforest.kill_naga.desc": "Mate %s no seu pátio da floresta e obtenha %s para ultrapassar a barreira mágica em torno da torre do Lich",
   "advancement.twilightforest.naga_armors": "Armadureiro de Naga",
-  "advancement.twilightforest.naga_armors.desc": "Faça um peitoral e calças de Naga.",
+  "advancement.twilightforest.naga_armors.desc": "Fabrique o peitoral e as calças de %s.",
   "advancement.twilightforest.kill_lich": "Tragam Para Fora Seus Mortos",
   "advancement.twilightforest.kill_lich.desc": "Mate o %s no topo da sua torre e reivindique um cetro para afastar os mosquitos venenosos do Pântano, ver na escuridão da Floresta Negra, e resistir ao frio da Floresta de Neve",
   "advancement.twilightforest.lich_scepters": "Pelos Nossos Poderes Combinados!",
@@ -84,12 +84,14 @@
   "advancement.twilightforest.experiment_115_3.desc": "comendo o experimento cento-e-quinze o dia todo, para sempre, cento-e-quinze vezes experimento cento-e-quinze, experimento cento-e-quinze ponto com, dáblio dáblio dáblio ponto experimento cento-e-quinze ponto com, cento-e-quinze anos, todo minuto experimento cento-e-quinze ponto com, dáblio dáblio dáblio ponto cento-e-quinze vezes experimento cento-e-quinze ponto com",
   "advancement.twilightforest.arborist": "Dendrologista Maniaco",
   "advancement.twilightforest.arborist.desc": "Prepare os seus machados e tesouras. Procure por todo canto e consiga tudo que vem de árvores! Crie, saque, obtenha cada laje... muda... folhas... mais... tudo. TUDO!",
+
   "twilightforest.twilight_portal.unsafe": "Não parece seguro aqui...",
   "twilightforest.trophy_pedestal.ineligible": "Você não é digno.",
   "twilightforest.ore_meter.range": "Raio: %s, Origem: [%s, %s]",
   "twilightforest.ore_meter.exposed": "Exposto: %s",
   "twilightforest.scepter_charges": "%d cargas restantes",
-  "commands.tffeature.usage": "/%s <informações | reativar | conquistar | centro>",
+
+  "commands.tffeature.usage": "/tffeature <info|reactivate|conquer|center>",
   "commands.tffeature.not_in_twilight_forest": "Você não está na dimensão da Floresta do Crepúsculo",
   "commands.tffeature.none_nearby": "Não foi possível encontrar recursos por perto!",
   "commands.tffeature.nearest": "O recurso mais próximo é: %s",
@@ -102,6 +104,7 @@
   "commands.tffeature.structure.conquer.update": "Bandeira de conquista de estrutura era %s, mudando para %s",
   "commands.tffeature.structure.spawn_list": "A lista de geração para esta área é:",
   "commands.tffeature.structure.spawn_info": "%s, Peso %s",
+
   "biome.twilightforest.forest": "Floresta do Crepúsculo",
   "biome.twilightforest.dense_forest": "Floresta Densa",
   "biome.twilightforest.firefly_forest": "Floresta dos Vaga-Lumes",
@@ -123,14 +126,18 @@
   "biome.twilightforest.thornlands": "Terra dos Espinhos",
   "biome.twilightforest.final_plateau": "Platô Final",
   "biome.twilightforest.underground": "Subsolo",
+
   "gamerule.tfEnforcedProgression": "Twilight Forest: Progressão Forçada",
+
   "enchantment.twilightforest.fire_react": "Reação Flamejante",
   "enchantment.twilightforest.fire_react.desc": "Adiciona uma chance do agressor ser incendiado ao acertar o usuário.",
   "enchantment.twilightforest.chill_aura": "Aura Fria",
   "enchantment.twilightforest.chill_aura.desc": "Adiciona uma chance do agressor receber o efeito de congelado ao acertar o usuário.",
   "enchantment.twilightforest.destruction": "Destruição",
   "enchantment.twilightforest.destruction.desc": "Permite que o Bloco com Corrente quebre blocos que normalmente exigem ferramentas melhores.",
+
   "effect.twilightforest.frosted": "Congelado",
+
   "block.twilightforest.twilight_oak_log": "Tronco de Carvalho do Crepúsculo",
   "block.twilightforest.canopy_log": "Tronco de Dossel",
   "block.twilightforest.mangrove_log": "Tronco do Manguezal",
@@ -152,7 +159,7 @@
   "block.twilightforest.mangrove_leaves": "Folhas do Manguezal",
   "block.twilightforest.rainbow_oak_leaves": "Folhas de Carvalho Arco-Íris",
   "block.twilightforest.firefly": "Vaga-Lume",
-  "block.twilightforest.cicada": "Cicada",
+  "block.twilightforest.cicada": "Cigarra",
   "block.twilightforest.twilight_portal": "Portal da Floresta do Crepúsculo",
   "block.twilightforest.mazestone": "Pedra de Labirinto",
   "block.twilightforest.mazestone_brick": "Tijolos de Pedra de Labirinto",
@@ -246,7 +253,7 @@
   "block.twilightforest.built_block": "Bloco Construído",
   "block.twilightforest.antibuilder": "Anti-Construtor",
   "block.twilightforest.antibuilt_block": "Bloco Anti-Construtor",
-  "block.twilightforest.ghast_trap": "Ghast Trap",
+  "block.twilightforest.ghast_trap": "Armadilha de Ghast",
   "block.twilightforest.carminite_reactor": "Reator de Carminita",
   "block.twilightforest.reactor_debris": "Detritos de Reator",
   "block.twilightforest.fake_gold": "Ouro Falso",
@@ -289,7 +296,7 @@
   "block.twilightforest.trollber": "Bagas-Troll",
   "block.twilightforest.slider": "Armadilha Deslizante",
   "block.twilightforest.knightmetal_block": "Bloco de Metal-Cavaleiro",
-  "block.twilightforest.huge_lily_pad": "Vitória-Régia Gigante",
+  "block.twilightforest.huge_lily_pad": "Nenúfar Gigante",
   "block.twilightforest.huge_water_lily": "Ninféia Gigante",
   "block.twilightforest.castle_brick": "Tijolos de Castelo",
   "block.twilightforest.worn_castle_brick": "Tijolos de Castelo Desgastados",
@@ -317,7 +324,7 @@
   "block.twilightforest.bold_castle_brick_stairs": "Escadas de Tijolos de Castelo Fortes",
   "block.twilightforest.violet_force_field": "Campo de Força Roxo",
   "block.twilightforest.pink_force_field": "Campo de Força Magenta",
-  "block.twilightforest.orange_force_field": "Orange Force Field",
+  "block.twilightforest.orange_force_field": "Campo de Força Laranja",
   "block.twilightforest.green_force_field": "Campo de Força Verde",
   "block.twilightforest.blue_force_field": "Campo de Força Azul",
   "block.twilightforest.ironwood_block": "Bloco de Madeira-de-Ferro",
@@ -325,7 +332,7 @@
   "block.twilightforest.steeleaf_block": "Bloco de Folha de Aço",
   "block.twilightforest.arctic_fur_block": "Bloco de Pelo Ártico",
   "block.twilightforest.carminite_block": "Bloco de Carminita",
-  "block.twilightforest.cinder_furnace": "Cinder Furnace",
+  "block.twilightforest.cinder_furnace": "Fornalha de Cinzas",
   "block.twilightforest.cinder_log": "Tronco Queimado",
   "block.twilightforest.cinder_wood": "Madeira Queimada",
   "block.twilightforest.twilight_portal_miniature_structure": "Portal da Floresta do Crepúsculo em Miniatura",
@@ -354,16 +361,19 @@
   "block.twilightforest.naga_trophy": "Troféu de Naga",
   "block.twilightforest.minoshroom_trophy": "Troféu de Minogumelo",
   "block.twilightforest.knight_phantom_trophy": "Troféu de Cavaleiro Fantasma",
-  "block.twilightforest.lich_trophy": "Lich Trophy",
+  "block.twilightforest.lich_trophy": "Troféu de Lich",
   "block.twilightforest.ur_ghast_trophy": "Troféu de Ur-Ghast",
   "block.twilightforest.alpha_yeti_trophy": "Troféu de Iéti Alfa",
   "block.twilightforest.snow_queen_trophy": "Troféu de Rainha Gelada",
   "block.twilightforest.quest_ram_trophy": "Troféu de Carneiro-Missão",
+
   "block.twilightforest.keepsake_casket": "Caixão-Lembrança",
   "block.twilightforest.casket.broken": "Seu Caixão-Lembrança estava danificado demais para guardar mais itens. Todos os itens que seriam guardados em seu caixão foram derrubados no chão.",
   "block.twilightforest.casket.locked": "Esse Caixão só pode ser aberto por %s!",
+
   "block.twilightforest.candelabra": "Candelabro",
   "block.twilightforest.red_thread": "Fio Vermelho",
+
   "block.twilightforest.zombie_skull_candle": "Vela de Cabeça de Zumbi",
   "block.twilightforest.zombie_wall_skull_candle": "Vela de Cabeça de Zumbi de Parede",
   "block.twilightforest.skeleton_skull_candle": "Vela de Crânio de Esqueleto",
@@ -375,6 +385,7 @@
   "block.twilightforest.player_skull_candle": "Vela de Cabeça de Jogador",
   "block.twilightforest.player_skull_candle.named": "Cabeça de %s com Velas",
   "block.twilightforest.player_wall_skull_candle": "Vela de Cabeça de Jogador de Parede",
+
   "block.twilightforest.potted_twilight_oak_sapling": "Muda de Carvalho do Crepúsculo Adoecido Envasada",
   "block.twilightforest.potted_canopy_sapling": "Muda de Árvore-Dossel Envasada",
   "block.twilightforest.potted_mangrove_sapling": "Muda de Manguezal Envasada",
@@ -391,6 +402,7 @@
   "block.twilightforest.potted_thorn": "Espinhos Envasados",
   "block.twilightforest.potted_green_thorn": "Espinhos Verdes Envasados",
   "block.twilightforest.potted_dead_thorn": "Espinhos Queimados Envasados",
+
   "block.twilightforest.oak_banister": "Corrimão de Carvalho",
   "block.twilightforest.spruce_banister": "Corrimão de Abeto",
   "block.twilightforest.birch_banister": "Corrimão de Bétula",
@@ -401,6 +413,7 @@
   "block.twilightforest.warped_banister": "Corrimão Distorcido",
   "block.twilightforest.vangrove_banister": "Corrimão de Mangue",
   "block.twilightforest.banister.cycle": "Clique com o botão direito usando o machado para mudar",
+
   "block.twilightforest.canopy_planks": "Tábuas de Dossel",
   "block.twilightforest.canopy_stairs": "Escadas de Dossel",
   "block.twilightforest.canopy_slab": "Laje de Dossel",
@@ -414,6 +427,7 @@
   "block.twilightforest.canopy_wall_sign": "Placa de Dossel de Parede",
   "block.twilightforest.canopy_banister": "Corrimão de Dossel",
   "block.twilightforest.canopy_bookshelf": "Estante de Dossel",
+
   "block.twilightforest.dark_planks": "Tábuas de Madeira Negra",
   "block.twilightforest.dark_stairs": "Escadas de Madeira Negra",
   "block.twilightforest.dark_slab": "Laje de Madeira Negra",
@@ -426,6 +440,7 @@
   "block.twilightforest.darkwood_sign": "Placa de Madeira Negra",
   "block.twilightforest.darkwood_wall_sign": "Placa de Madeira Negra de Parede",
   "block.twilightforest.darkwood_banister": "Corrimão de Madeira Negra",
+
   "block.twilightforest.mangrove_planks": "Tábuas do Manguezal",
   "block.twilightforest.mangrove_stairs": "Escadas do Manguezal",
   "block.twilightforest.mangrove_slab": "Laje do Manguezal",
@@ -438,6 +453,7 @@
   "block.twilightforest.mangrove_sign": "Placa do Manguezal",
   "block.twilightforest.mangrove_wall_sign": "Placa do Manguezal de Parede",
   "block.twilightforest.mangrove_banister": "Corrimão do Manguezal",
+
   "block.twilightforest.twilight_oak_planks": "Tábuas de Carvalho do Crepúsculo",
   "block.twilightforest.twilight_oak_stairs": "Escadas de Carvalho do Crepúsculo",
   "block.twilightforest.twilight_oak_slab": "Laje de Carvalho do Crepúsculo",
@@ -450,6 +466,7 @@
   "block.twilightforest.twilight_oak_sign": "Placa de Carvalho do Crepúsculo",
   "block.twilightforest.twilight_wall_sign": "Placa de Carvalho do Crepúsculo de Parede",
   "block.twilightforest.twilight_oak_banister": "Corrimão de Carvalho do Crepúsculo",
+
   "block.twilightforest.time_planks": "Tábuas-do-Tempo",
   "block.twilightforest.time_stairs": "Escadas de Madeira-do-Tempo",
   "block.twilightforest.time_slab": "Laje de Madeira-do-Tempo",
@@ -498,6 +515,7 @@
   "block.twilightforest.sorting_sign": "Placa de Ordenadora",
   "block.twilightforest.sorting_wall_sign": "Placa de Ordenadora de Parede",
   "block.twilightforest.sorting_banister": "Corrimão de Ordenadora",
+
   "block.twilightforest.twilight_oak_chest": "Baú de Carvalho do Crepúsculo",
   "block.twilightforest.canopy_chest": "Baú de Dossel",
   "block.twilightforest.mangrove_chest": "Baú do Manguezal",
@@ -506,6 +524,7 @@
   "block.twilightforest.transformation_chest": "Baú de Transformadora",
   "block.twilightforest.mining_chest": "Baú de Madeira-das-Minas",
   "block.twilightforest.sorting_chest": "Baú de Ordenadora",
+
   "block.twilightforest.hollow_oak_log_horizontal": "Tronco de Carvalho Oco",
   "block.twilightforest.hollow_spruce_log_horizontal": "Tronco de Abeto Oco",
   "block.twilightforest.hollow_birch_log_horizontal": "Tronco de Bétula Oco",
@@ -523,6 +542,7 @@
   "block.twilightforest.hollow_transformation_log_horizontal": "Tronco de Transformadora Oco",
   "block.twilightforest.hollow_mining_log_horizontal": "Tronco de Madeira-das-Minas Oco",
   "block.twilightforest.hollow_sorting_log_horizontal": "Tronco de Madeira de Ordenação Oco",
+
   "block.twilightforest.hollow_oak_log_vertical": "Tronco de Carvalho Oco",
   "block.twilightforest.hollow_spruce_log_vertical": "Tronco de Abeto Oco",
   "block.twilightforest.hollow_birch_log_vertical": "Tronco de Bétula Oco",
@@ -540,6 +560,7 @@
   "block.twilightforest.hollow_transformation_log_vertical": "Tronco de Transformadora Oco",
   "block.twilightforest.hollow_mining_log_vertical": "Tronco de Madeira-das-Minas Oco",
   "block.twilightforest.hollow_sorting_log_vertical": "Tronco de Ordenadora Oco",
+
   "block.twilightforest.hollow_oak_log_climbable": "Tronco de Carvalho Oco",
   "block.twilightforest.hollow_spruce_log_climbable": "Tronco de Abeto Oco",
   "block.twilightforest.hollow_birch_log_climbable": "Tronco de Bétula Oco",
@@ -559,7 +580,9 @@
   "block.twilightforest.hollow_sorting_log_climbable": "Tronco de Ordenadora Oco",
   "block.arctic.tooltip": "Reduz dano de queda em 90%",
   "block.knightmetal.tooltip": "Funciona como um cacto mais forte",
+
   "dimension.twilightforest.twilightforest": "Floresta do Crepúsculo",
+
   "structure.twilightforest.hedge_maze": "Labirinto de Cercas Vivas",
   "structure.twilightforest.small_hollow_hill": "Colina Oca Pequena",
   "structure.twilightforest.medium_hollow_hill": "Colina Oca Média",
@@ -576,6 +599,7 @@
   "structure.twilightforest.aurora_palace": "Palácio Aurora",
   "structure.twilightforest.troll_cave": "Caverna dos Trolls",
   "structure.twilightforest.final_castle": "Castelo do Platô Final",
+
   "item.twilightforest.boarkchop": "Costeletas Cruas",
   "item.twilightforest.naga_scale": "Escama de Naga",
   "item.twilightforest.naga_chestplate": "Túnica de Escamas de Naga",
@@ -651,7 +675,7 @@
   "item.twilightforest.charm_of_keeping_3": "Amuleto da Conservação III",
   "item.twilightforest.tower_key": "Chave da Torre",
   "item.twilightforest.borer_essence": "Essência do Inseto de Madeira-Torre",
-  "item.twilightforest.carminite": "Carminite",
+  "item.twilightforest.carminite": "Carminita",
   "item.twilightforest.armor_shard": "Fragmento de Armadura",
   "item.twilightforest.knightmetal_ingot": "Lingote de Metal-Cavaleiro",
   "item.twilightforest.armor_shard_cluster": "Amontoado de Fragmentos de Armadura",
@@ -692,6 +716,7 @@
   "item.twilightforest.cube_talisman": "Talismã do Cubo",
   "item.twilightforest.cube_of_annihilation": "Cubo da Aniquilação",
   "item.twilightforest.moon_dial": "Indicador Lunar",
+
   "item.twilightforest.moon_dial.phase_0": "Lua Cheia",
   "item.twilightforest.moon_dial.phase_1": "Minguante Gibosa",
   "item.twilightforest.moon_dial.phase_2": "Quarto Minguante",
@@ -702,6 +727,7 @@
   "item.twilightforest.moon_dial.phase_7": "Crescente Gibosa",
   "item.twilightforest.moon_dial.phase_unknown": "Fase da lua indeterminada",
   "item.twilightforest.moon_dial.phase_unknown_fools": "404 lua não encontrada",
+
   "item.twilightforest.music_disc_radiance": "Disco Musical",
   "item.twilightforest.music_disc_radiance.desc": "Rotch Gwylt - Radiance",
   "item.twilightforest.music_disc_steps": "Disco Musical",
@@ -720,6 +746,7 @@
   "item.twilightforest.music_disc_thread.desc": "MrCompost - Thread",
   "item.twilightforest.music_disc_motion": "Disco Musical",
   "item.twilightforest.music_disc_motion.desc": "MrCompost - Motion",
+
   "item.twilightforest.naga_banner_pattern": "Figura para Estandarte",
   "item.twilightforest.naga_banner_pattern.desc": "Escamas de Naga",
   "block.minecraft.banner.twilightforest.naga.black": "Escamas de Naga Pretas",
@@ -738,6 +765,7 @@
   "block.minecraft.banner.twilightforest.naga.magenta": "Escamas de Naga Magentas",
   "block.minecraft.banner.twilightforest.naga.pink": "Escamas de Naga Rosas",
   "block.minecraft.banner.twilightforest.naga.brown": "Escamas de Naga Marrons",
+
   "item.twilightforest.lich_banner_pattern": "Figura para Estandarte",
   "item.twilightforest.lich_banner_pattern.desc": "Coroa de Lich",
   "block.minecraft.banner.twilightforest.lich.black": "Coroa de Lich Preta",
@@ -756,6 +784,7 @@
   "block.minecraft.banner.twilightforest.lich.magenta": "Coroa de Lich Magenta",
   "block.minecraft.banner.twilightforest.lich.pink": "Coroa de Lich Rosa",
   "block.minecraft.banner.twilightforest.lich.brown": "Coroa de Lich Marrom",
+
   "item.twilightforest.minoshroom_banner_pattern": "Figura para Estandarte",
   "item.twilightforest.minoshroom_banner_pattern.desc": "Machados de Minogumelo",
   "block.minecraft.banner.twilightforest.minoshroom.black": "Machados de Minogumelo Pretos",
@@ -774,6 +803,7 @@
   "block.minecraft.banner.twilightforest.minoshroom.magenta": "Machados de Minogumelo Magenta",
   "block.minecraft.banner.twilightforest.minoshroom.pink": "Machados de Minogumelo Rosa",
   "block.minecraft.banner.twilightforest.minoshroom.brown": "Machados de Minogumelo Marrom",
+
   "item.twilightforest.hydra_banner_pattern": "Figura para Estandarte",
   "item.twilightforest.hydra_banner_pattern.desc": "Chama de Hidra",
   "block.minecraft.banner.twilightforest.hydra.black": "Chama de Hidra Preta",
@@ -792,6 +822,7 @@
   "block.minecraft.banner.twilightforest.hydra.magenta": "Chama de Hidra Magenta",
   "block.minecraft.banner.twilightforest.hydra.pink": "Chama de Hidra Rosa",
   "block.minecraft.banner.twilightforest.hydra.brown": "Chama de Hidra Marrom",
+
   "item.twilightforest.knight_phantom_banner_pattern": "Figura para Estandarte",
   "item.twilightforest.knight_phantom_banner_pattern.desc": "Capacete de Cavaleiro",
   "block.minecraft.banner.twilightforest.knight_phantom.black": "Capacete de Cavaleiro Preto",
@@ -810,6 +841,7 @@
   "block.minecraft.banner.twilightforest.knight_phantom.magenta": "Capacete de Cavaleiro Magenta",
   "block.minecraft.banner.twilightforest.knight_phantom.pink": "Capacete de Cavaleiro Rosa",
   "block.minecraft.banner.twilightforest.knight_phantom.brown": "Capacete de Cavaleiro Marrom",
+
   "item.twilightforest.ur_ghast_banner_pattern": "Figura para Estandarte",
   "item.twilightforest.ur_ghast_banner_pattern.desc": "Borda de Carminita",
   "block.minecraft.banner.twilightforest.ur_ghast.black": "Borda de Carminita Preta",
@@ -828,6 +860,7 @@
   "block.minecraft.banner.twilightforest.ur_ghast.magenta": "Borda de Carminita Magenta",
   "block.minecraft.banner.twilightforest.ur_ghast.pink": "Borda de Carminita Rosa",
   "block.minecraft.banner.twilightforest.ur_ghast.brown": "Borda de Carminita Marrom",
+
   "item.twilightforest.alpha_yeti_banner_pattern": "Figura para Estandarte",
   "item.twilightforest.alpha_yeti_banner_pattern.desc": "Cara de Iéti Alfa",
   "block.minecraft.banner.twilightforest.alpha_yeti.black": "Cara de Iéti Alfa Preta",
@@ -846,6 +879,7 @@
   "block.minecraft.banner.twilightforest.alpha_yeti.magenta": "Cara de Iéti Alfa Magenta",
   "block.minecraft.banner.twilightforest.alpha_yeti.pink": "Cara de Iéti Alfa Rosa",
   "block.minecraft.banner.twilightforest.alpha_yeti.brown": "Cara de Iéti Alfa Marrom",
+
   "item.twilightforest.snow_queen_banner_pattern": "Figura para Estandarte",
   "item.twilightforest.snow_queen_banner_pattern.desc": "Floco de Neve",
   "block.minecraft.banner.twilightforest.snow_queen.black": "Floco de Neve Preto",
@@ -864,6 +898,7 @@
   "block.minecraft.banner.twilightforest.snow_queen.magenta": "Floco de Neve Magenta",
   "block.minecraft.banner.twilightforest.snow_queen.pink": "Floco de Neve Rosa",
   "block.minecraft.banner.twilightforest.snow_queen.brown": "Floco de Neve Marrom",
+
   "item.twilightforest.quest_ram_banner_pattern": "Figura para Estandarte",
   "item.twilightforest.quest_ram_banner_pattern.desc": "Redemoinhos de Carneiro-Missão",
   "block.minecraft.banner.twilightforest.quest_ram.black": "Redemoinhos de Carneiro-Missão Pretos",
@@ -882,6 +917,7 @@
   "block.minecraft.banner.twilightforest.quest_ram.magenta": "Redemoinhos de Carneiro-Missão Magenta",
   "block.minecraft.banner.twilightforest.quest_ram.pink": "Redemoinhos de Carneiro-Missão Rosa",
   "block.minecraft.banner.twilightforest.quest_ram.brown": "Redemoinhos de Carneiro-Missão Marrons",
+
   "item.twilightforest.boar_spawn_egg": "Ovo Gerador de Javali",
   "item.twilightforest.bighorn_sheep_spawn_egg": "Ovo Gerador de Ovelha de Chifres",
   "item.twilightforest.deer_spawn_egg": "Ovo Gerador de Veado",
@@ -937,6 +973,7 @@
   "item.twilightforest.adherent_spawn_egg": "Ovo Gerador de Aderente",
   "item.twilightforest.roving_cube_spawn_egg": "Ovo Gerador de Cubo Itinerante",
   "item.twilightforest.guide": "Caderno do Viajante",
+
   "item.twilightforest.minotaur_axe.tooltip": "Dano extra ao correr",
   "item.twilightforest.knightmetal_sword.tooltip": "Dano extra contra alvos armadurados",
   "item.twilightforest.knightmetal_pickaxe.tooltip": "Dano extra contra alvos armadurados",
@@ -951,6 +988,7 @@
   "item.twilightforest.arctic_armor.tooltip": "Tingível",
   "item.twilightforest.skull_candle.desc": "Tem: %s %s Vela",
   "item.twilightforest.skull_candle.desc.multiple": "Tem: %s %s Velas",
+
   "entity.twilightforest.boar": "Javali",
   "entity.twilightforest.bighorn_sheep": "Ovelha de Chifres",
   "entity.twilightforest.deer": "Cervo",
@@ -993,7 +1031,7 @@
   "entity.twilightforest.towerwood_borer": "Inseto de Madeira-Torre",
   "entity.twilightforest.carminite_broodling": "Parasitoide de Carminita",
   "entity.twilightforest.ur_ghast": "Ur-Ghast",
-  "entity.twilightforest.blockchain_goblin": "Block and Chain Goblin",
+  "entity.twilightforest.blockchain_goblin": "Goblin da Bola com Corrente",
   "entity.twilightforest.upper_goblin_knight": "Cavaleiro Goblin Superior",
   "entity.twilightforest.lower_goblin_knight": "Cavaleiro Goblin Inferior",
   "entity.twilightforest.helmet_crab": "Caranguejo de Capacete",
@@ -1014,6 +1052,7 @@
   "entity.twilightforest.adherent": "Aderente",
   "entity.twilightforest.castle_guardian": "Guardião do Castelo",
   "entity.twilightforest.roving_cube": "Cubo Itinerante",
+
   "entity.twilightforest.ice_snowball": "Bola de Gelo",
   "entity.twilightforest.ice_arrow": "Flecha de Gelo",
   "entity.twilightforest.seeker_arrow": "Flecha Teleguiada",
@@ -1036,6 +1075,7 @@
   "entity.twilightforest.cicada_slingshot": "Cigarra",
   "entity.twilightforest.firefly_slingshot": "Vaga-Lume",
   "entity.twilightforest.moonworm_slingshot": "Minhoca Lunar",
+
   "subtitles.twilightforest.entity.acid_rain": "Chuva Ácida escalda jogador",
   "subtitles.twilightforest.entity.alphayeti.alert": "Iéti Alfa ouve",
   "subtitles.twilightforest.entity.alphayeti.death": "Iéti Alfa morre",
@@ -1214,6 +1254,7 @@
   "subtitles.twilightforest.entity.yeti.growl": "Iéti rosna",
   "subtitles.twilightforest.entity.yeti.hurt": "Iéti ferido",
   "subtitles.twilightforest.entity.yeti.throw": "Iéti arremessa",
+
   "subtitles.twilightforest.entity.alphayeti.parrot": "Papagaio friamente rosna",
   "subtitles.twilightforest.entity.carminitegolem.parrot": "Papagaio faz tinidos",
   "subtitles.twilightforest.entity.hostilewolf.parrot": "Papagaio rosna",
@@ -1226,6 +1267,7 @@
   "subtitles.twilightforest.entity.redcap.parrot": "Papagaio ri",
   "subtitles.twilightforest.entity.tome.parrot": "Papagaio faz sons de livro",
   "subtitles.twilightforest.entity.wraith.parrot": "Papagaio suspira",
+
   "subtitles.twilightforest.block.beanstalk.grow": "Chão treme",
   "subtitles.twilightforest.block.bug.squish": "Inseto esmagado :(",
   "subtitles.twilightforest.block.builder.create": "Construtor de carminita cria bloco",
@@ -1261,6 +1303,7 @@
   "subtitles.twilightforest.block.vanish.locked": "Porta de madeira-torre tranca-se",
   "subtitles.twilightforest.block.vanish.unlock": "Porta de madeira-torre destranca-se",
   "subtitles.twilightforest.block.vanish.vanish": "Bloco desaparecedor some",
+
   "subtitles.twilightforest.item.blockchain.collide": "Bloco com Corrente colide",
   "subtitles.twilightforest.item.blockchain.hit": "Bloco com Corrente bate",
   "subtitles.twilightforest.item.blockchain.fire": "Bloco com Corrente dispara",
@@ -1281,6 +1324,7 @@
   "subtitles.twilightforest.item.scepter.use": "Cetro usado",
   "subtitles.twilightforest.item.scepter.pearl": "Cetro do Crepúsculo joga pérola",
   "subtitles.twilightforest.item.shield.shatter": "Escudo de madeira quebrado",
+
   "death.attack.twilightforest.ghastTear": "%1$s assou com lágrimas ardentes",
   "death.attack.twilightforest.ghastTear.player": "%1$s assou com lágrimas ardentes enquanto tentava fugir de %2$s",
   "death.attack.twilightforest.hydraFire": "%1$s assou vivo no fogo da Hidra",
@@ -1315,6 +1359,7 @@
   "death.attack.twilightforest.thrown_block.player": "Um bloco jogado esmagou %1$s enquanto tentava fugir de %2$s",
   "death.attack.twilightforest.expired": "A vida de %1$s expirou",
   "death.attack.twilightforest.expired.player": "A vida de %1$s expirou",
+
   "death.attack.twilightforest.axing": "%2$s picotou %1$s",
   "death.attack.twilightforest.axing.item": "%2$s picotou %1$s enquanto usava %3$s",
   "death.attack.twilightforest.cicada": "Uma cigarra acertou %1$s",
@@ -1344,6 +1389,7 @@
   "death.attack.twilightforest.yeeted": "Jogaram %1$s pela última vez",
   "death.attack.twilightforest.yeeted.entity": "%2$s jogou %1$s pela última vez",
   "death.attack.twilightforest.yeeted.item": "%2$s jogou %1$s pela última vez enquanto segurava, de alguma forma, %3$s",
+
   "stat.twilightforest.blocks_crumbled": "Blocos Desgastados",
   "stat.twilightforest.bugs_squished": "Insetos Esmagados",
   "stat.twilightforest.e115_slices_eaten": "Fátias de Experimento 115 Comidas",
@@ -1353,24 +1399,29 @@
   "stat.twilightforest.tf_shields_broken": "Escudos de Fortificação Quebrados",
   "stat.twilightforest.torchberries_harvested": "Bagalumes Colhidas",
   "stat.twilightforest.trophy_pedestals_activated": "Pedestais de Troféu Ativados",
-  "stat.twilightforest.uncrafting_table_interactions": "",
+  "stat.twilightforest.uncrafting_table_interactions": "Interações com a Bancada de Desfabricação",
+
   "twilightforest.misc.wip0": "Este bloco ainda está sendo feito e pode ter problemas ou efeitos não pretendidos que podem danificar seu mundo.",
   "twilightforest.misc.wip1": "Use com cuidado.",
   "twilightforest.misc.nyi": "Este bloco tem efeitos ainda não implementados.",
+
   "twilightforest.loading.title.enter": "Levando você para a Floresta do Crepúsculo...",
   "twilightforest.loading.title.leave": "Levando você da Floresta do Crepúsculo...",
+
   "twilightforest.ui.magicmap.fail": "A Magia falhou. Talvez ela não funcione aqui?",
   "twilightforest.ui.biome_locked": "Bioma Bloqueado!",
   "twilightforest.ui.biome_locked_2": "Veja seus progressos",
   "twilightforest.ui.portal.unworthy": "A píscina do Portal não responde. Talvez algo tenha sido esquecido?",
   "twilightforest.ui.advancement.required": "Progresso Necessário:",
   "twilightforest.ui.advancement.no_title": "<Progresso Oculto>",
+
   "twilightforest.config.dimension": "Configurações da Dimensão",
   "twilightforest.config.dimension.tooltip": "Você não será capaz de mudar estas configurações sem reiniciar o jogo de alguma forma.",
   "twilightforest.config.spawn_in_tf": "Jogadores Novos Nascem na Floresta do Crepúsculo",
   "twilightforest.config.spawn_in_tf.tooltip": "Se Habilitado, jogadores nascendo pela primeira vez irão nascer na Floresta do Crepúsculo.",
   "twilightforest.config.portal_for_new_player": "Gerar Portais para Jogadores Novos",
   "twilightforest.config.portal_for_new_player.tooltip": "Se habilitado, o portal de volta gerará para jogadores novos que foram enviados para a Floresta do Crepúsculo caso `spawn_in_tf` esteja habilitado.",
+
   "twilightforest.config.hollow_hill_stalactites": "Estalactites de Colina Oca Personalizados",
   "twilightforest.config.hollow_hill_stalactites.tooltip": "Define estalactites personalizados gerados em colinas ocas.\nO formato é \\\"iddomod:bloco<:meta> tamanho comprimento_máximo altura_mínima peso\\\", where the properties are:\nSize - the maximum length of the stalactite relative to the space between hill floor and ceiling,\nMax length - maximum length of a stalactite in blocks,\nMin height - minimum space between the hill floor and the stalactite to let it generate,\nWeight - how often it generates.\n\nFor example: \\\"minecraft:iron_ore 0.7 8 1 24\\\" would add a stalactite equal to the default iron ore stalactite.",
   "twilightforest.config.large_hill": "Colinas Grandes",
@@ -1381,12 +1432,15 @@
   "twilightforest.config.small_hill.tooltip": "Blocos gerando como estalactites em todas as colinas.",
   "twilightforest.config.stalactite_config_only": "Usar Somente a Configuração do Estalactite",
   "twilightforest.config.stalactite_config_only.tooltip": "Se habilitado, estalactites padrão e estalactites definidos por outros mods não serão usados.",
+
   "twilightforest.config.silent_cicadas": "Cigarras Silenciosas",
   "twilightforest.config.silent_cicadas.tooltip": "Silencia cigarras para aqueles tendo problemas de biblioteca ou que só acham elas irritantes.",
   "twilightforest.config.silent_cicadas_on_head": "Cigarras Silenciosas na Cabeça",
   "twilightforest.config.silent_cicadas_on_head.tooltip": "Silencia cigarras sentadas na sua cabeça. Se a opção acima estiver habilitada, esta opção não terá efeito algum.",
+
   "twilightforest.config.first_person_effects": "Renderizar Efeitos na Primeira Pessoa",
   "twilightforest.config.first_person_effects.tooltip": "Controla se diversos efeitos do mod são renderizados na visão de primeira pessoa. Desligue isso se você acha que eles te distraem.",
+
   "twilightforest.config.origin_dimension": "Dimensão de Origem",
   "twilightforest.config.origin_dimension.tooltip": "A dimensão da qual você sempre pode viajar para a Floresta do Crepúsculo, além de ser também a dimensão para a qual você voltará. O padrão é a Superfície.",
   "twilightforest.config.portals_in_other_dimensions": "Portais em outras dimensões",
@@ -1405,6 +1459,7 @@
   "twilightforest.config.max_portal_size.tooltip": "A quantidade máxima de espaços d'água que o mod verificará ao criar um portal. Números altos demais podem causar problemas.",
   "twilightforest.config.portal_unlocked_by_advancement": "Trancar Portal com Progresso",
   "twilightforest.config.portal_unlocked_by_advancement.tooltip": "Insira o local válido de um progresso como uma string. Por exemplo, usar a string \"minecraft:story/mine_diamond\" irá travar o portal atrás do progresso \"Diamantes!\". IDs de Progresso inválidos ou vazios deixarão o portal completamente travado.",
+
   "twilightforest.config.uncrafting": "Desabilitar Desfabricação na Bancada de Desfabricação",
   "twilightforest.config.uncrafting.tooltip": "Desabilita a função de desfabricação. Recomendado como última opção caso hajam muitas coisas para mudar sobre seu comportamento.",
   "twilightforest.config.uncrafting_recipes": "Desabilitar Receitas de Desfabricação na Bancada de Desfabricação",
@@ -1419,6 +1474,7 @@
   "twilightforest.config.uncrafting_mod_ids.tooltip": "Aqui, você pode desabilitar todos os itens de certos mods de serem desfabricados.\nInsira um id de mod válido para desabilitar todas as receitas desse mod..\nExemplo: \"twilightforest\" irá desabilitar todas as receitas de desfabricação deste mod.",
   "twilightforest.config.uncrafting_mod_id_flip": "Inverter Lista de IDs de Mod da Desfabricação",
   "twilightforest.config.uncrafting_mod_id_flip.tooltip": "Se habilitado, isso irá inverter a opção acima e torná-la de uma lista branca.",
+
   "twilightforest.config.disable_time": "Desabilitar Núcleo-do-Tempo",
   "twilightforest.config.disable_time.tooltip": "Se habilitado, impede o Núcleo-do-Tempo de funcionar.",
   "twilightforest.config.time_range": "Alcance do Núcleo-do-Tempo",
@@ -1435,80 +1491,101 @@
   "twilightforest.config.disable_sorting.tooltip": "Se habilitado, impede o Núcleo de Ordenadora de funcionar.",
   "twilightforest.config.sorting_range": "Alcance do Núcleo de Ordenadora",
   "twilightforest.config.sorting_range.tooltip": "Define o raio dentro do qual o Núcleo de Ordenadora funciona. Pode ser qualquer número entre 1 e 128.",
+
   "twilightforest.config.optifine": "Desabilitar a tela de aviso quando o Optifine  está instalado.",
   "twilightforest.config.optifine.tooltip": "Desabilita a tela de aviso exibida ao abrir o jogo quando o Optifine está instalado.",
+
   "twilightforest.config.locked_toasts": "Desabilitar os Avisos de Biomas Bloqueados.",
   "twilightforest.config.locked_toasts.tooltip": "Desabilita os avisos que aparecem quando um bioma está bloqueado. Não é recomendado se você não é familiarizado com a progressão.",
+
   "twilightforest.config.animate_trophyitem": "Girar Cabeças de Troféu no modelo dos Itens",
   "twilightforest.config.animate_trophyitem.tooltip": "Girar cabeças de troféus no modelo do item. Não impacta o desempenho. Para aqueles que não gostam de diversão.",
+
   "twilightforest.config.ram_indicator": "Indicador de Lã Comida do Carneiro-Missão",
-  "twilightforest.config.ram_indicator.tooltip": "Renders a little check mark or x above your crosshair depending on if fed the Quest Ram that color of wool. Turn this off if you find it intrusive.",
+  "twilightforest.config.ram_indicator.tooltip": "Renderiza uma pequena marca de verificação ou x acima da sua mira dependendo de você ter alimentado o Carneiro-Missão com aquela cor de lã. Desative se achar intrusivo.",
+
   "twilightforest.config.shield_parry": "Bloquear com Escudo",
   "twilightforest.config.shield_parry.tooltip": "Recomendamos baixar o mod Shield Parry para bloquear com o escudo, mas esses controles continuam mesmo sem ele.",
   "twilightforest.config.parry_non_twilight": "Bloquear projéteis que não sejam do Twilight",
   "twilightforest.config.parry_non_twilight.tooltip": "Habilite para bloquear projéteis que não sejam da Twilight. Recomendamos baixar o mod Shield Parry em vez disso.",
   "twilightforest.config.parry_window": "Janela de Abertura de Timing para Projéteis",
   "twilightforest.config.parry_window.tooltip": "A quantidade de tiques após levantar um escudo que permite bloquear um projétil. Têm 20 tiques em 1 segundos.",
+
   "twilightforest.config.casket_uuid_locking": "Caixão-Lembrança Travgado por UUID",
   "twilightforest.config.casket_uuid_locking.tooltip": "Se habilitado, Caixões-Lembrança geradps quando um jogador morre não poderão ser abertos por outros jogadores. Use isso se não quiser que as pessoas peguem  coisas dos Caixões-Lembrança de outras pessoas. OBSERVAÇÃO: operadores do servidor ainda poderão abrir caixões trancados.",
   "twilightforest.config.disable_skull_candles": "Desabilitar Criação de Crânio com Velas",
   "twilightforest.config.disable_skull_candles.tooltip": "Se ativado, desabilita a habilidade de fazer Crânios com Velas clicando em um crânio do jogo padrão com uma vela. Habilite isso em caso de conflito com outro mod.",
+
   "twilightforest.book.author": "um explorador esquecido",
+
   "twilightforest.book.lichtower": "Observações sobre uma Torre Pontiaguda",
-  "twilightforest.book.lichtower.1": "§8[O caderno de um explorador, roído por monstros]§0\n\nComecei a examinar a estranha aura que cerca esta torre. Os tijolos da torre estão protegidos por uma maldição, mais forte do que qualquer outra que já vi. A magia da maldição está se espalhando pela",
+  "twilightforest.book.lichtower.1": "§8[[O caderno de um explorador, roído por monstros]]§0\n\nComecei a examinar a estranha aura que cerca esta torre. Os tijolos da torre estão protegidos por uma maldição, mais forte do que qualquer outra que já vi. A magia da maldição está se espalhando pela",
   "twilightforest.book.lichtower.2": "área circundante.\n\nEm minha terra natal eu teria diversas opções para lidar com esta magia, mas aqui meus suprimentos são limitados. Preciso buscar mais...",
   "twilightforest.book.lichtower.3": "§8[[Muitas entradas depois]]§0\n\nUma grande descoberta! Durante minhas viagens, avistei um enorme monstro semelhante a uma serpente em um pátio decorado. Perto de onde eu estava, encontrei uma escama verde, desgastada e descartada.\n\nA magia presente na escama parece ter o poder de quebrar maldições",
   "twilightforest.book.lichtower.4": "que preciso, mas a magia está fraca demais. Talvez eu precise adquirir amostras mais frescas, diretamente da criatura.",
+
   "twilightforest.book.labyrinth": "Observações sobre um Labirinto Pantanoso",
   "twilightforest.book.labyrinth.1": "§8[[O caderno de um explorador, escrito em papel impermeável]]§0\n\nOs mosquitos neste pântano são irritantes, mas estranhos. A grande maioria deles parece não ter origem natural, nem parece ter um papel na ecologia local. Começo a suspeitar de que eles são",
   "twilightforest.book.labyrinth.2": "algum tipo de maldição mágica.\n\n§8[[Próxima entrada]]§0\n\nAgora que encontrei um feitiço de proteção no labirinto em ruínas aqui, considero minhas suspeitas confirmadas. Tanto o feitiço de proteção quanto os mosquitos são uma",
   "twilightforest.book.labyrinth.3": "maldição. Esta maldição parece ter uma fonte diferente das outras que encontrei. Vou ter que buscar mais...\n\n§8[[Próxima entrada]]§0\n\nA maldição parece ser de um tipo poderoso demais para um único ser sozinho",
   "twilightforest.book.labyrinth.4": "produzir. Seriam necessários múltiplos feiticeiros trabalhando em conjunto.\n\nSe um dos magos parasse de contribuir, toda a maldição sobre todo o pântano cairia. Estranhamente, minhas adivinhações não mostram sinais de nenhum feiticeiro vivo por perto.",
   "twilightforest.book.labyrinth.5": "Mas eu vi algo interessante em uma das torres próximas com telhados pontiagudos...",
+
   "twilightforest.book.hydralair": "Observações sobre o Pântano de Fogo",
   "twilightforest.book.hydralair.1": "§8[[O caderno de um explorador, escrito em papel à prova de fogo]]§0\n\nO fogo é um obstáculo insignificante para um explorador mestre como eu. Atravessei mares de fogo e nadei em oceanos de lava. O ar ardente aqui é interessante, mas,",
   "twilightforest.book.hydralair.2": "no fim das contas, obstáculo algum.\n\nO que me impede é que encontrei outro feitiço de proteção, desta vez envolvendo uma criatura poderosa que deve ser o rei deste pântano de fogo. Este não é o primeiro feitiço de proteção que encontro, e estou",
   "twilightforest.book.hydralair.3": "começando a desvendar os mistérios de como eles funcionam.\n\nSe este feitiço for como os outros, ele deve ser sustentado por uma criatura poderosa próxima. Ao redor do pântano de fogo há vários pântanos úmidos, e sob esses pântanos há labirintos cheios de minotauros",
   "twilightforest.book.hydralair.4": "A escolha lógica à qual vincular tal feitiço seria algum tipo de minotauro poderoso, diferente, de alguma forma, dos outros que o cercam...",
+
   "twilightforest.book.tfstronghold": "Observações sobre uma Fortaleza",
   "twilightforest.book.tfstronghold.1": "§8[[O caderno de um explorador, escrito em papel levemente brilhante]]§0\n\nOs tentáculos da escuridão cercando esta área são apenas uma manifestação de um feitiço de proteção sobre a floresta negra inteira. O feitiço provoca cegueira, o que é bastante irritante. Eu vi diversas",
   "twilightforest.book.tfstronghold.2": "coisas interessantes na área e gostaria de continuar explorando.\n\n§8[[Próxima entrada]]§0\n\nEu encontrei ruínas na floresta negra. Elas pertecem a uma fortaleza, de algum tipo habitada por cavaleiros. Mas, no lugar de caavleiros, esta fortaleza está cheia de",
-  "twilightforest.book.tfstronghold.3": "goblins. Eles vestem armaduras de cavaleiro, mas seu comportamento definitivamente não pertence a um cavaleiro.\n\n§8[[Próxima entrada]]§0\n\nNas profundezas das ruínas, encontrei um pedestal. O pedestal parece ser do tipo que cavaleiros colocariam troféis para provar sua força.",
-  "twilightforest.book.tfstronghold.4": "Obter um cetro poderoso parece enfraquecer a maldição sobre a floresta negra, e colocar um troféu associado com uma criatura poderosa no pedestal provavelmente concederia acesso à parte principal da fortaleza.",
+  "twilightforest.book.tfstronghold.3": "goblins. Eles vestem armaduras de cavaleiro, mas seu comportamento definitivamente não pertence a um cavaleiro.\n\n§8[[Próxima entrada]]§0\n\nNas profundezas das ruínas, encontrei um pedestal. O pedestal parece ser do tipo que",
+  "twilightforest.book.tfstronghold.4": "cavaleiros colocariam troféis para provar sua força.\n\\Obter um cetro poderoso parece enfraquecer a maldição sobre a floresta negra, e colocar um troféu associado a uma criatura poderosa no pedestal provavelmente concederia acesso à",
   "twilightforest.book.tfstronghold.5": "parte principal da fortaleza.",
+
   "twilightforest.book.darktower": "Observações sobre uma Torre de Madeira",
-  "twilightforest.book.darktower.1": "§8[[§8[[O caderno de um explorador que parece ter sobrevivido a uma explosão]]§0\n\nEsta torre claramente tem mecanismos que não estão respondendo a mim. A magia deles quase que anseia por reconhecer meu toque, mas não consegue. É como se os dispositivos da torre estivessem sendo",
+  "twilightforest.book.darktower.1": "§8[[O caderno de um explorador que parece ter sobrevivido a uma explosão]]§0\n\nEsta torre claramente tem mecanismos que não estão respondendo a mim. A magia deles quase que anseia por reconhecer meu toque, mas não consegue. É como se os dispositivos da torre estivessem sendo",
   "twilightforest.book.darktower.2": "suprimidos por um poderoso grupo de seres próximos.\n\n§8[[Próxima entrada]]§0\n\nA magia parece emanar das profundezas das fortalezas próximas. Ela não deve vir dos goblins, pois a magia deles é encantadora, mas sem foco. Ainda",
   "twilightforest.book.darktower.3": "deve ter alguma força ativa nas fortalezas.\n\n§8[[Próxima entrada]]§0\n\nMinha análise indica que ela vem de múltiplas fontes, operando como um grupo. Voltarei para a fortaleza depois de reabastecer...",
+
   "twilightforest.book.yeticave": "Observações Sobre uma Caverna de Gelo",
   "twilightforest.book.yeticave.1": "§8[[O caderno de um explorador, coberto em neve]]§0\n\nA nevasca cercando estas terras nevadas é inacabável. Esta não é mera nevacas normal--este é um fenômeno mágico. Terei de conduzir experimentos para descobrir o que seria capaz de",
   "twilightforest.book.yeticave.2": "provocar tal efeito.\n\n§8[[Próxima Entrada]]§0\n\nA maldição parece ser de algum tipo poderoso demais para um único ser produzir. Múltiplos feiticeiros trabalhando em conjunto seria necessário. Se um dos feiticeiros parasse de",
   "twilightforest.book.yeticave.3": "contribuir, a nevasca se acalmaria. Estranhamente minhas adivinhações não mostraram nenhum sinal de quaisquer feiticeiros vivos próximo. Mas eu vi algo interessante em uma das torres de telhados pontiagudos próximas...",
+
   "twilightforest.book.icetower": "Observações sobre a Fortificação Aurórica",
   "twilightforest.book.icetower.1": "§8[[O caderno de um explorador, coberto de gelo]]§0\n\nSuperei uma nevasca, só para me deparar com uma terrível tempestade de gelo no topo da geleira. Minhas explorações me mostraram o esplendor de um palácio de gelo, brilhando com as cores da",
   "twilightforest.book.icetower.2": "aurora polar. Tudo parece protegido por algum tipo de maldição.\n\n§8[[Próxima entrada]]§0\n\nEu não sou novo nisso. Esta maldição é alimentada pelo poder de uma criatura próxima. A causa da maldição em torno do pântano de fogo foi feita a partir do poder do",
   "twilightforest.book.icetower.3": "líder dos minotauros próximos.\n\nAo redor desta geleira, há múltiplos iétis. Talvez os iétis tenham algum tipo de líder...",
+
   "twilightforest.book.trollcave": "Observações Sobre as Terras Altas",
   "twilightforest.book.trollcave.1": "§8[[O caderno de um explorador, danificado por ácido]]§0\n\nParece não ter como me proteger da chuva tóxica cercando esta área. Em minhas breves excursões, também encontrei outro feitiço de proteção, semelhante aos outros que tenho",
   "twilightforest.book.trollcave.2": "testemunhado. O feitiço deve estar conectado à tempestade tóxica de algum modo. Preciso buscar mais...\n\n§8[[Próxima entrada]]§0\n\nTal magia climática suprema deve ser o resultado de múltiplos grandes males não derrotados neste mundo. Meus estudos contêm",
   "twilightforest.book.trollcave.3": "diversas pistas apontando para um pântano ardente, uma floresta coberta em escuridão profunda e um domínio coberto em neve.",
+
   "twilightforest.book.unknown": "Observações Sobre o Inexplicado",
   "twilightforest.book.unknown.1": "§8[[Este livro apresenta sinais de ter sido copiado múltiplas vezes]]§0\n\nEu não consigo explicar o campo de força ao redor desta estrutura, mas a magia é poderosa. Se esta maldição é como as outras, então a resposta para destravá-la está em outro lugar. Talvez haja algo que eu não tenha",
   "twilightforest.book.unknown.2": "feito, ou algum monstro que hei ainda de derrotar. Terei de dar meia-volta. Eu voltarei para este lugar depois para ver se algo mudou.",
+
+
   "block.twilightforest.molten_fiery_fluid": "Ardência Derretida",
   "block.twilightforest.molten_knightmetal_fluid": "Metal-Cavaleiro Derretido",
   "block.twilightforest.fiery_essence_fluid": "Essência Ardente",
   "fluid.twilightforest.molten_fiery": "Ardência Derretida",
   "fluid.twilightforest.molten_knightmetal": "Metal-Cavaleiro Derretido",
   "fluid.twilightforest.fiery_essence": "Essência Ardente",
+
   "item.twilightforest.molten_fiery_bucket": "Balde de Ardência Derretida",
   "item.twilightforest.molten_knightmetal_bucket": "Balde de Metal-Cavaleiro Derretido",
   "item.twilightforest.fiery_essence_bucket": "Balde de Essência Ardente",
+
   "material.twilightforest.nagascale": "Escama de Naga",
   "material.twilightforest.steeleaf": "Folha de Aço",
   "material.twilightforest.fiery": "Ardente",
   "material.twilightforest.knightmetal": "Metal-Cavaleiro",
   "material.twilightforest.raven_feather": "Pena de Corvo",
+
   "modifier.twilightforest.precipitate": "Precipitado",
   "modifier.twilightforest.precipitate.flavor": "O último plano de fuga restante.",
   "modifier.twilightforest.precipitate.description": "Quanto menos vida você tem, mas rápido fica!",
@@ -1529,9 +1606,13 @@
   "modifier.twilightforest.veiled": "Velado",
   "modifier.twilightforest.veiled.flavor": "Como um Espectro!",
   "modifier.twilightforest.veiled.description": "O projétil será invisível.",
+
+
   "desc.immersiveengineering.info.shader.rarity.twilight": "Crepúsculo",
+
   "item.twilightforest.shader": "Shader do Crepúsculo: %s",
   "item.twilightforest.shader_bag": "Mala de Shader %s do Crepúsculo",
+
   "item.twilightforest.shader.name.twilight": "Crepúsculo",
   "item.twilightforest.shader.name.firefly": "Vaga-Lume",
   "item.twilightforest.shader.name.questing_ram": "Carneiro-Missão",
@@ -1556,49 +1637,14 @@
   "item.twilightforest.shader.name.snow_queen": "Rainha Gelada",
   "item.twilightforest.shader.name.cube_of_annihilation": "Cubo da Aniquição",
   "item.twilightforest.shader.name.final_castle": "Castelo Final1",
+
   "twilightforest.gui.optifine.title": "AVISO: SODIUM DETECTADO",
   "twilightforest.gui.optifine.message": "Antes de prosseguir, observe que o Sodium causa problemas visuais.\n\nAntes de reportar um problema, instale o Indium e veja se o problema persiste.\n\nProblemas associados ao S odium não são resolvidos no lado do Twilight Forest!\n\nEsta tela pode ser desabilitada nas Configurações Locais.",
   "twilightforest.gui.optifine.suggestions": "Aqui uma coletânea de mods que recomendamos usar no lugar.",
+
   "gui.crumble_horn_jei": "Chifre da Ruína",
   "gui.transformation_jei": "Pó Transformador",
   "gui.uncrafting_jei": "Desfabricação",
-  "gui.crumble_horn_jei.dropped_as_item": "Largado como item",
-  "tag.twilightforest.nyi": "Não Implementado",
-  "tag.twilightforest.wip": "Em Desenvolvimento",
-  "tag.twilightforest.banned_uncrafting_ingredients": "Ingredientes de Desfabricação Banidos",
-  "tag.twilightforest.uncrafting_ignores_cost": "Ignora Custo de Desfabricação",
-  "tag.twilightforest.banned_uncraftables": "Banidos da Desfabricação",
-  "tag.twilightforest.logs": "Troncos da Floresta do Crepúsculo",
-  "tag.twilightforest.transwood_logs": "Troncos de Transformadora",
-  "tag.twilightforest.sortwood_logs": "Troncos de Organizadora",
-  "tag.twilightforest.twilight_oak_logs": "Troncos de Carvalho do Crepúsculo",
-  "tag.twilightforest.timewood_logs": "Troncos-do-Tempo",
-  "tag.twilightforest.towerwood": "Madeira-Torre",
-  "tag.twilightforest.mangrove_logs": "Troncos de Manguezal",
-  "tag.twilightforest.darkwood_logs": "Troncos de Madeira Negra",
-  "tag.twilightforest.mining_logs": "Troncos de Madeira-das-Minas",
-  "tag.twilightforest.canopy_logs": "Troncos de Dossel",
-  "tag.twilightforest.kept_on_death": "Mantido ao Morrer",
-  "tag.twilightforest.kobold_pacification_breads": "Pães Pacificadores de Kobold",
-  "tag.twilightforest.portal_activators": "Ativadores de Portal",
-  "tag.twilightforest.fiery_vial": "Frascos Ardentes",
-  "tag.twilightforest.arctic_fur": "Pelos Árticos",
-  "tag.c.arctic_fur_storage_blocks": "Blocos de Armazenamento Pelo Ártico",
-  "tag.c.carminite_gems": "Joias de Carminita",
-  "tag.c.carminite_storage_blocks": "Blocos de Armazenamento de Carminita",
-  "tag.c.knightmetal_ores": "Minérios de Metal-Cavaleiro",
-  "tag.c.knightmetal_ingots": "Lingotes de Metal-Cavaleiro",
-  "tag.c.knightmetal_storage_blocks": "Blocos de Armazenamento de Metal-Cavaleiro",
-  "tag.c.fiery_ingots": "Lingotes Ardentes",
-  "tag.c.fiery_storage_blocks": "Blocos de Armazenamento Ardentes",
-  "tag.c.steeleaf_ingots": "Lingotes de Folha de Aço",
-  "tag.c.steeleaf_storage_blocks": "Blocos de Armazanemanto de Folha de Aço",
-  "tag.c.ironwood_ores": "Minérios de Madeira-de-Ferro",
-  "tag.c.ironwood_ingots": "Lingotes de Madeira-de-Ferro",
-  "tag.c.ironwood_storage_blocks": "Blocos de Armazenamento de Madeira-de-Ferro",
-  "tag.c.paper": "Papéis",
-  "tag.trinkets.head.hat": "Chapéus",
-  "tag.trinkets.chest.necklace": "Colares",
-  "tag.trinkets.legs.belt": "Cintos",
+
   "config.jade.plugin_twilightforest.quest_ram_wool": "Lã do Carneiro-Missão"
 }

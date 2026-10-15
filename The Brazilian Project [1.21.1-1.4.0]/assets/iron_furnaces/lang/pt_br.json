@@ -28,10 +28,8 @@
     "item.ironfurnaces.upgrade_gold2": "Aprimoramento de Fornalha de Prata para Ouro",
     "item.ironfurnaces.item_copy": "Vinculador de Configurações de Fornalha",
 
-
     "_comment": "TAB",
     "itemGroup.ironfurnaces": "Iron Furnaces",
-
 
     "_comment": "Blocks",
     "block.ironfurnaces.iron_furnace": "Fornalha de Ferro",
@@ -46,7 +44,6 @@
     "block.ironfurnaces.million_furnace": "Fornalha Arco-íris",
     "block.ironfurnaces.heater": "Transmissor de Calor Sem Fio",
 
-
     "_comment": "ATM",
     "block.ironfurnaces.allthemodium_furnace": "Fornalha de Allthemodium",
     "block.ironfurnaces.vibranium_furnace": "Fornalha de Vibranium",
@@ -57,6 +54,7 @@
     "item.ironfurnaces.upgrade_allthemodium": "Aprimoramento de Fornalha de Netherita para Allthemodium",
     "item.ironfurnaces.upgrade_vibranium": "Aprimoramento de Fornalha de Allthemodium para Vibranium",
     "item.ironfurnaces.upgrade_unobtainium": "Aprimoramento de Fornalha de Vibranium para Unobtainium",
+
 
 
     "_comment": "GUI",
@@ -75,7 +73,6 @@
     "ironfurnaces.jei_category_blasting": "Gerador | Alto-forno",
     "ironfurnaces.jei_category_smoking": "Gerador | Defumação",
 
-
     "_comment": "Tooltips",
     "tooltip.ironfurnaces.cooktime": "Tempo de Cozimento",
     "tooltip.ironfurnaces.upgrade_right_click": "Agache e clique com o botão direito para aprimorar",
@@ -90,7 +87,7 @@
     "tooltip.ironfurnaces.heaterY": "Y: ",
     "tooltip.ironfurnaces.heaterZ": "Z: ",
     "tooltip.ironfurnaces.heater_not_bound": "Ainda não foi vinculado a uma fonte de energia!",
-    "tooltip.ironfurnaces.heater_tip": "Coloque no slot de combustível da fornalha",
+    "tooltip.ironfurnaces.heater_tip": "Coloque no espaço de combustível da fornalha",
     "tooltip.ironfurnaces.heater_tip1": "Só funciona a partir do nível de Ferro",
     "tooltip.ironfurnaces.augment_right_click": "Clique com o botão direito para inserir melhoria",
     "tooltip.ironfurnaces.augment_speed_pro": "+Reduz pela metade o tempo de cozimento para todas as receitas.",
@@ -145,7 +142,7 @@
     "tooltip.ironfurnaces.gui_shift_more_options": " para mais opções",
     "tooltip.ironfurnaces.hold": "Segure ",
     "tooltip.ironfurnaces.for_details": " para Detalhes.",
-    "tooltip.ironfurnaces.augment_slot": "Slot de Melhoria",
+    "tooltip.ironfurnaces.augment_slot": "Espaço de Melhoria",
     "tooltip.ironfurnaces.rainbow_blowup": "Algo está me dizendo para explodir isso...",
     "tooltip.ironfurnaces.rainbow_gen1": "Gerará",
     "tooltip.ironfurnaces.rainbow_gen2": "RF/Tique se todas as outras fornalhas estiverem gerando energia",
@@ -160,4 +157,5 @@
     "ironfurnaces.update.buttons": "[{\"text\":\"[\"},{\"text\":\"Clique para Changelog\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"%s\"}},{\"text\":\"] [\",\"color\":\"none\"},{\"text\":\"Clique para Download\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"%s\"}},{\"text\":\"]\",\"color\":\"none\"}]",
     "ironfurnaces.update.buttonOptions": "Clique: Changelog, Shift-Clique: Download! (No Navegador)",
     "ironfurnaces.update.failed": "[{\"text\":\"A Verificação de Atualização para \"},{\"text\":\"Iron Furnaces \",\"color\":\"dark_green\"},{\"text\":\"falhou! Verifique os Logs para mais informações!\",\"color\":\"none\"}]"
+
 }

@@ -1,4 +1,11 @@
 {
+  "fieldguide.name.minecraft.pale_oak_sapling": "Carvalho Pálido",
+
+
+
+
+
+
   "advancements.adventure.heart_transplanter.description": "Alinhe um Coração de Rangente entre dois blocos de Tronco de Carvalho Pálido",
   "advancements.adventure.heart_transplanter.title": "Cardiologista",
   "advancements.husbandry.place_dried_ghast_in_water.description": "Coloque um bloco de Ghast Seco na água",
@@ -99,8 +106,8 @@
   "entity.minecraft.armadillo": "Tatu",
   "entity.minecraft.creaking": "Rangente",
   "entity.minecraft.happy_ghast": "Ghast Feliz",
-  "item.minecraft.pale_oak_boat": "Bote de Carvalho Pálido",
-  "item.minecraft.pale_oak_chest_boat": "Bote de Carvalho Pálido com Baú",
+  "entity.minecraft.pale_oak_boat": "Bote de Carvalho Pálido",
+  "entity.minecraft.pale_oak_chest_boat": "Bote de Carvalho Pálido com Baú",
   "entity.minecraft.sulfur_cube": "Cubo de Enxofre",
   "entity.minecraft.sulfur_cube.content": "Contém: %s",
   "entity.minecraft.sulfur_cube.explosion_disabled": "Explosões de Cubos de Enxofre estão desabilitadas",
@@ -141,12 +148,12 @@
   "item.minecraft.music_disc_tears.desc": "Amos Roddy - Tears",
   "item.minecraft.orange_bundle": "Trouxa Laranja",
   "item.minecraft.orange_harness": "Arreio Laranja",
-  "entity.minecraft.pale_oak_boat": "Bote de Carvalho Pálido",
-  "entity.minecraft.pale_oak_chest_boat": "Bote de Carvalho Pálido com Baú",
+  "item.minecraft.pale_oak_boat": "Bote de Carvalho Pálido",
+  "item.minecraft.pale_oak_chest_boat": "Bote de Carvalho Pálido com Baú",
   "item.minecraft.pink_bundle": "Trouxa Rosa",
   "item.minecraft.pink_harness": "Arreio Rosa",
-  "item.minecraft.purple_bundle": "Purple Bundle",
-  "item.minecraft.purple_harness": "Purple Harness",
+  "item.minecraft.purple_bundle": "Trouxa Roxa",
+  "item.minecraft.purple_harness": "Arreio Roxo",
   "item.minecraft.red_bundle": "Trouxa Vermelha",
   "item.minecraft.red_harness": "Arreio Vermelho",
   "item.minecraft.resin_brick": "Tijolo de Resina",
@@ -204,10 +211,10 @@
   "subtitles.entity.creaking.twitch": "Rangente se contrai",
   "subtitles.entity.creaking.unfreeze": "Rangente anda",
   "subtitles.entity.ghastling.ambient": "Ghastzinho balbucia",
+  "subtitles.entity.ghastling.death": "Ghastzinho morre",
   "subtitles.entity.ghastling.hurt": "Ghastzinho ferido",
   "subtitles.entity.ghastling.spawn": "Ghastzinho surge",
   "subtitles.entity.happy_ghast.ambient": "Ghast Feliz cantarola",
-  "subtitles.entity.ghastling.death": "Ghastzinho morre",
   "subtitles.entity.happy_ghast.death": "Ghast Feliz morre",
   "subtitles.entity.happy_ghast.equip": "Arreio equipado",
   "subtitles.entity.happy_ghast.harness_goggles_down": "Ghast Feliz pronto",
@@ -235,4 +242,4 @@
   "subtitles.item.wolf_armor.damage": "Armadura de Lobo sofre dano",
   "subtitles.item.wolf_armor.repair": "Armadura de Lobo reparada",
   "trim_material.minecraft.resin": "Material de Resina"
-} 
+}

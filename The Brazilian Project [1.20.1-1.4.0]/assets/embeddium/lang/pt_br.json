@@ -1,4 +1,17 @@
 {
+  "embeddium.conflicting_mod": "O Embeddium detectou a presença de mods conhecidos por causar problemas de renderização/falhas. Recomenda-se desinstalá-los. Veja a lista abaixo.",
+  "embeddium.conflicting_mod_list": "[{2}]",
+  "embeddium.search_bar_empty": "Buscar opções...",
+  "embeddium.options.added_by_mod_string": "Adicionado pelo mod: %s",
+  "embeddium.options.fullscreen.resolution.tooltip": "Controla a resolução do jogo no modo tela cheia.",
+  "embeddium.options.use_quad_normals_for_lighting.name": "Usar Sombreamento de Quad Preciso",
+  "embeddium.options.use_quad_normals_for_lighting.tooltip": "Quando ativado, o Embeddium aplicará sombreamento às faces de blocos não-vanilla com base na direção real para a qual estão voltadas, e não na direção alinhada ao eixo. Isso pode melhorar a qualidade da iluminação quando o pipeline de luz experimental do Forge está desativado (o que é recomendado para melhor desempenho).\n\nNão tem efeito se o pipeline de luz experimental estiver ativado.",
+
+
+
+
+
+
   "sodium.option_impact.low": "Baixo",
   "sodium.option_impact.medium": "Médio",
   "sodium.option_impact.high": "Alto",
@@ -27,7 +40,7 @@
   "sodium.options.biome_blend.value": "%s bloco(s)",
   "sodium.options.biome_blend.tooltip": "Controla o alcance no qual os biomas serão amostrados para a colorização de blocos. Valores mais altos aumentam consideravelmente o tempo necessário para construir chunks para melhorias de qualidade decrescentes.",
   "sodium.options.entity_distance.tooltip": "Controla quão longe as entidades podem ser renderizadas do jogador. Valores mais altos aumentam a distância de renderização ao custo da taxa de quadros.",
-  "sodium.options.entity_shadows.tooltip": "Se ativado, sombras básicas serão renderizadas sob mobs e outras entidades.",
+  "sodium.options.entity_shadows.tooltip": "Se ativado, sombras básicas serão renderizadas sob criaturas e outras entidades.",
   "sodium.options.vignette.name": "Vinheta",
   "sodium.options.vignette.tooltip": "Se ativado, um efeito de vinheta será renderizado na visão do jogador. É improvável que isso faça diferença na taxa de quadros, a menos que você tenha limitação de taxa de preenchimento.",
   "sodium.options.mipmap_levels.tooltip": "Controla o número de mipmaps que serão usados para texturas de modelos de blocos. Valores mais altos proporcionam uma melhor renderização de blocos à distância, mas podem afetar negativamente o desempenho com muitas texturas animadas.",
@@ -63,12 +76,5 @@
   "sodium.console.pojav_launcher": "PojavLauncher não é suportado ao usar o Embeddium.\n  * É muito provável que você encontre problemas extremos de desempenho, erros gráficos e falhas.\n  * Você estará por sua conta se decidir continuar -- não ajudaremos com quaisquer bugs ou falhas!",
   "sodium.console.core_shaders_error": "Os seguintes pacotes de recursos são incompatíveis com o Embeddium:",
   "sodium.console.core_shaders_warn": "Os seguintes pacotes de recursos podem ser incompatíveis com o Embeddium:",
-  "sodium.console.core_shaders_info": "Verifique o log do jogo para informações detalhadas.",
-  "embeddium.conflicting_mod": "O Embeddium detectou a presença de mods conhecidos por causar problemas de renderização/falhas. Recomenda-se desinstalá-los. Veja a lista abaixo.",
-  "embeddium.conflicting_mod_list": "[{2}]",
-  "embeddium.search_bar_empty": "Buscar opções...",
-  "embeddium.options.added_by_mod_string": "Adicionado pelo mod: %s",
-  "embeddium.options.fullscreen.resolution.tooltip": "Controla a resolução do jogo no modo tela cheia.",
-  "embeddium.options.use_quad_normals_for_lighting.name": "Usar Sombreamento de Quad Preciso",
-  "embeddium.options.use_quad_normals_for_lighting.tooltip": "Quando ativado, o Embeddium aplicará sombreamento às faces de blocos não-vanilla com base na direção real para a qual estão voltadas, e não na direção alinhada ao eixo. Isso pode melhorar a qualidade da iluminação quando o pipeline de luz experimental do Forge está desativado (o que é recomendado para melhor desempenho).\n\nNão tem efeito se o pipeline de luz experimental estiver ativado."
+  "sodium.console.core_shaders_info": "Verifique o log do jogo para informações detalhadas."
 }

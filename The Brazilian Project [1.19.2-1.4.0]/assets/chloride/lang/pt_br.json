@@ -1,6 +1,6 @@
 {
   "embeddium.plus.options.common.slow": "Lento",
-  "embeddium.plus.options.common.normal": "Normal",
+  "embeddium.plus.options.common.normal": "Padrão",
   "embeddium.plus.options.common.fast": "Rápido",
   "embeddium.plus.options.common.superfast": "Super Rápido",
   "embeddium.plus.options.common.fastest": "Mais Rápido",
@@ -77,7 +77,6 @@
   "embeddium.plus.options.darkness.mode.reallydark": "Muito Escuro",
   "embeddium.plus.options.darkness.mode.dark": "Escuro",
   "embeddium.plus.options.darkness.mode.dim": "Escuro Tênue",
-  
   "embeddium.plus.options.darkness.others.title": "Ativar em Outras dimensões",
   "embeddium.plus.options.darkness.others.desc": "Se habilitado, escuridão real será aplicada em outras dimensões\n\n[AVISO] Esta opção será removida em um futuro próximo em favor de uma lista negra",
   "embeddium.plus.options.darkness.overworld.title": "Ativar na Superfície",
@@ -138,8 +137,7 @@
 
   "embeddium.plus.options.zoom.page": "Zume",
   "embeddium.plus.options.zoom.title": "Ativar Zume",
-  "embeddium.plus.options.zoom.desc":"Se defenido como `true`, o mod irá ser desabilitado (em algumas plataformas, as teclas de atalho ainda exibirão nas opções do jogo; elas não farão nada se essa opção estiver definida como `true`).\nExige reiniciar o jogo para entrar em efeito.",
-  
+  "embeddium.plus.options.zoom.desc": "Se defenido como `true`, o mod irá ser desabilitado (em algumas plataformas, as teclas de atalho ainda exibirão nas opções do jogo; elas não farão nada se essa opção estiver definida como `true`).\nExige reiniciar o jogo para entrar em efeito.",
   "embeddium.plus.options.zoom.cinematic.title": "Zoom Cinemático",
   "embeddium.plus.options.zoom.cinematic.desc": "Habilita a Câmera Cinemática ao usar o zoom.\nSe desabilitar isso, você também deveria definir `zoomSmoothnessMs` par a `0`",
   "embeddium.plus.options.zoom.sensitive.title": "Sensibilidade Mínima do Mouse",

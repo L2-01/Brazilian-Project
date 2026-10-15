@@ -13,14 +13,14 @@
     "misc.apotheosis.affix_name.two": "%2$s %1$s",
     "misc.apotheosis.affix_name.three": "%2$s %1$s %3$s",
     "misc.apotheosis.affix_name.four": "%3$s %2$s %4$s de %1$s",
-	"misc.apotheosis.affix_bounds": "[%s\u00A0-\u00A0%s]",
+    "misc.apotheosis.affix_bounds": "[%s\u00A0-\u00A0%s]",
 
     "misc.apotheosis.radial_state_updated": "Modo de mineração radial atualizado para \"%s\"",
     "misc.apotheosis.radial_state.require_not_sneaking": "Desativado enquanto se agacha",
     "misc.apotheosis.radial_state.require_sneaking": "Habilitado enquanto se agacha",
     "misc.apotheosis.radial_state.enabled": "Habilitado",
     "misc.apotheosis.radial_state.disabled": "Desabilitado",
-	
+
     "message.apotheosis.world_tiers_arent_real": "Níveis de Mundo só estão disponíveis no Minecraft 1.21.1 ou superior. Esta versão do Apotheosis utilizar um sistema de progressão à base de dimensões.",
 
     "affix.apotheosis:armor/attribute/blessed": "Abençoado",
@@ -149,7 +149,7 @@
     "affix.apotheosis:ranged/mob_effect/shulkers": "Tocado por Shulker",
     "affix.apotheosis:ranged/mob_effect/shulkers.suffix": "da Levitação",
 
-    "affix.apotheosis:shield/mob_effect/withering": "Withering",
+    "affix.apotheosis:shield/mob_effect/withering": "Decompondo",
     "affix.apotheosis:shield/mob_effect/withering.suffix": "do Esqueleto das Trevas",
 
     "affix.apotheosis:shield/attribute/ironforged": "Ferroforjado",
@@ -186,7 +186,7 @@
 
     "affix.apotheosis:telepathic": "Telepático",
     "affix.apotheosis:telepathic.suffix": "do Espaço e Tempo",
-    "affix.apotheosis:telepathic.desc.weapon": "Os itens largados pelos mobs irão se teletransportar até você.",
+    "affix.apotheosis:telepathic.desc.weapon": "Os itens largados pelas criaturas irão se teletransportar até você.",
     "affix.apotheosis:telepathic.desc.tool": "Os blocos que caem serão teletransportados até você.",
 
     "affix.apotheosis:heavy_weapon/special/executing": "Executando",
@@ -373,7 +373,7 @@
     "item.apotheosis.gem.apotheosis:overworld/royalty": "Gema da Família Real",
     "item.apotheosis.gem.apotheosis:the_nether/inferno": "Gema do Inferno Incandescente",
     "item.apotheosis.gem.apotheosis:the_nether/blood_lord": "Gema do Senhor do Sangue Voraz",
-    "item.apotheosis.gem.apotheosis:the_end/endersurge": "Gema do Surto Ender ",
+    "item.apotheosis.gem.apotheosis:the_end/endersurge": "Gema do Surto Ender",
     "item.apotheosis.gem.apotheosis:the_end/mageslayer": "Gema do Matador de Magos",
     "item.apotheosis.gem.apotheosis:twilight/forest": "Gema do Twilight Forest",
     "item.apotheosis.gem.apotheosis:twilight/queen": "Gema da Rainha Congelada",
@@ -516,67 +516,65 @@
     "death.attack.apotheosis:execute": "Executaram %s.",
     "death.attack.apotheosis:execute.player": "%2$s executou %1$s.",
 
-    "comment_id": "/Adventure + Gateways Compat",
 
     "misc.apotheosis.boss": "Chefe Apótico %s",
     "misc.apotheosis.random": "Aleatório",
     "reward.apotheosis.affix": "Item com Afixo (%s)",
     "reward.apotheosis.random_affix": "Item com Afixo (Aleatório)",
-    "apotheosis.boss_gate_small": "Portão de Chefe Apótico Pequeno ",
+    "apotheosis.boss_gate_small": "Portão de Chefe Apótico Pequeno",
 
-    "comment_id": "/Advancements",
 
     "advancements.apotheosis.enchantment": "Os Segredos do Encantamento",
     "advancements.apotheosis.enchantment.desc": "Obtenha uma mesa de encantamentos e comece a desvendar o mistério.",
-    
+
     "advancements.apotheosis.30ench": "O Básico",
     "advancements.apotheosis.30ench.desc": "Encante um item no nível 30.",
-    
+
     "advancements.apotheosis.60ench": "Dominando o Inferno e o Mar",
     "advancements.apotheosis.60ench.desc": "Encante um item no nível 60.",
-    
+
     "advancements.apotheosis.80ench": "Encantamentos das Profundezas",
     "advancements.apotheosis.80ench.desc": "Encante um item no nível 80.",
-    
+
     "advancements.apotheosis.100ench": "Encantamento Dracônico",
     "advancements.apotheosis.100ench.desc": "Encante um item no nível 100.",
-    
+
     "advancements.apotheosis.bookshelf": "Bibliotecário Local",
     "advancements.apotheosis.bookshelf.desc": "Fabrique uma estante de livros.",
-    
+
     "advancements.apotheosis.hellshelf": "O Caos do Inferno",
     "advancements.apotheosis.hellshelf.desc": "Obtenha uma Estante Infernal.",
-    
+
     "advancements.apotheosis.upgrade_hellshelf": "Dominando o Inferno",
     "advancements.apotheosis.upgrade_hellshelf.desc": "Aprimore uma Estante Infernal Infundida.",
-    
+
     "advancements.apotheosis.deepshelf": "Mergulhando na Escuridão",
     "advancements.apotheosis.deepshelf.desc": "Ative uma Estante das Profundezas Adormecida.",
-    
+
     "advancements.apotheosis.sculkshelf": "Abraçando o Sculk",
     "advancements.apotheosis.sculkshelf.desc": "Fabrique uma Estante de Sculk usando uma Gavinha de Defensor.",
-    
+
     "advancements.apotheosis.endshelf": "Encantador Matador de Dragões",
     "advancements.apotheosis.endshelf.desc": "Adquira Bafo de Dragão Imbuído e fabrique uma Estante do End.",
-    
+
     "advancements.apotheosis.upgrade_endshelf": "A Estante final",
     "advancements.apotheosis.upgrade_endshelf.desc": "Aprimore uma Estante do End para uma Estante do End Dracônica.",
-    
+
     "advancements.apotheosis.seashelf": "A Pureza dos Mares",
     "advancements.apotheosis.seashelf.desc": "Obtenha uma Estante Marinha",
-    
+
     "advancements.apotheosis.infuse_seashelf": "Infusão Marinha",
     "advancements.apotheosis.infuse_seashelf.desc": "Obtenha uma Estante Marinha Infundida através de Encantamento por Infusão.",
-    
+
     "advancements.apotheosis.upgrade_seashelf": "Dormindo no Frio Abaixo",
     "advancements.apotheosis.upgrade_seashelf.desc": "Aprimore uma Estante Marinha Infundida",
-    
+
     "advancements.apotheosis.infuse_hellshelf": "Infusão Infernal",
     "advancements.apotheosis.infuse_hellshelf.desc": "Obtenha uma Estante Infernal Infundida através de Encantamento por Infusão.",
-    
+
     "advancements.apotheosis.anvilench": "Encantador de Bigornas",
     "advancements.apotheosis.anvilench.desc": "Encante uma bigorna",
-	"advancements.apotheosis.shieldench": "Encantador de Escudos",
+    "advancements.apotheosis.shieldench": "Encantador de Escudos",
     "advancements.apotheosis.shieldench.desc": "Encante um escudo",
     "advancements.apotheosis.altar": "Transformação Oceânica",
     "advancements.apotheosis.altar.desc": "Fabrique um Altar dos Mares, que pode transformar itens encantados indesejados em um novo livro.",
@@ -628,7 +626,7 @@
     "advancements.apotheosis.merchant.desc": "Compre um item de Afixo do Vendedor Ambulante.",
     "advancements.apotheosis.random": "Como você conseguiu isso?",
     "advancements.apotheosis.random.desc": "Recupere um item de afixo de um Monstro aleatório.",
-	
+
     "advancements.apotheosis.gem": "Não é um Diamante",
     "advancements.apotheosis.gem.desc": "Encontre uma Gema Apótica, que pode ser encaixada em Itens de Afixo.",
 
@@ -641,12 +639,12 @@
     "advancements.apotheosis.ancient_gem": "Jóias do Infinito",
     "advancements.apotheosis.ancient_gem.desc": "Usando a Bancada de Lapidação de Gema, crie uma Gema Perfeita.",
 
-    "advancements.apotheosis.gem_cut": "O Lapidário",
-    "advancements.apotheosis.gem_cut.desc": "Use uma Bancada de Lapidação de Gema para melhorar uma Gema Apótica.",
-    
-    "advancements.apotheosis.socket": "O Joalheiro",
+       "advancements.apotheosis.socket": "O Joalheiro",
     "advancements.apotheosis.socket.desc": "Usando uma Bancada de Ferraria, encaixe uma Gema em um item.",
-	
+
+       "advancements.apotheosis.gem_cut": "O Lapidário",
+    "advancements.apotheosis.gem_cut.desc": "Use uma Bancada de Lapidação de Gema para melhorar uma Gema Apótica.",
+
     "advancements.apotheosis.spawner.root": "Farm Automática Fácil",
     "advancements.apotheosis.spawner.root.desc": "Geradores de Criaturas podem ser coletados e modificados, consulte o JEI para mais informações.",
     "advancements.apotheosis.spawner": "Um Pouco Mais Pro Lado",
@@ -680,14 +678,13 @@
     "advancements.apotheosis.ultimate_spawner": "Deixando o Vinicius Orgulhoso",
     "advancements.apotheosis.ultimate_spawner.desc": "Crie um gerador de criaturas com intervalos mínimos que possa ser controlado por redstone, não tenha IA, ignore condições de geração e ignore jogadores.",
 
-    "comment_id": "/Spawner Module",
-    
+
     "item.apotheosis.spawner": "Gerador de %s",
-    
+
     "enchantment.apotheosis.capturing": "Captura",
     "enchantment.apotheosis.capturing.desc": "Faz criaturas terem chance de produzir seus ovos de geração.",
 
-    "misc.apotheosis.concat": "%s %s",
+    "misc.apotheosis.concat": "%2$s %1$s",
     "misc.apotheosis.value_concat": "%s: %s",
     "misc.apotheosis.min_value": "Este modificador não reduzir abaixo isso abaixo de %s",
     "misc.apotheosis.max_value": "Este modificador não pode aumentar isso acima de %s",
@@ -699,7 +696,7 @@
     "misc.apotheosis.shift_stats": "Segure Shift para ver os Atributos",
     "misc.apotheosis.ctrl_stats": "Segure Ctrl para ver os Atributos",
     "misc.apotheosis.banned": "Não pode ser usado em um Gerador de Criaturas",
-    
+
     "stat.apotheosis.min_delay": "Intervalo Mínimo",
     "stat.apotheosis.max_delay": "Intervalo Máximo",
     "stat.apotheosis.spawn_count": "Quantia Gerada",
@@ -734,8 +731,7 @@
     "info.apotheosis.spawner.always_drop": "Geradores podem ser modificados com itens diversos e sempre produzem item ao serem quebrados.",
     "info.apotheosis.capturing": "O encantamento Captura dá chance de obter ovos geradores de seus respectivos monstros.\\n \\nChance de Obter: 0.4%% por nível",
 
-    "comment_id": "/Enchantment Module",
-    
+
     "block.apotheosis.hellshelf": "Estante Infernal",
     "block.apotheosis.infused_hellshelf": "Estante Infernal Infundida",
     "block.apotheosis.blazing_hellshelf": "Estante Infernal Flamejante",
@@ -789,7 +785,7 @@
     "info.apotheosis.clues": " - Pistas de Encantamento: %s",
     "info.apotheosis.allows_treasure": " - Permite Encantamentos de Tesouro",
     "info.apotheosis.filter": "Filtro de Encantamentos:",
-    "info.apotheosis.eterna.p": " - Eterna: +%s (Max %s)",
+    "info.apotheosis.eterna.p": " - Eterna: +%s (Máx. %s)",
     "info.apotheosis.quanta.p": " - Quanta: +%s%%",
     "info.apotheosis.arcana.p": " - Arcana: +%s%%",
     "info.apotheosis.rectification.p": " - Retificação: +%s%%",
@@ -829,7 +825,7 @@
     "info.apotheosis.percent_at_most": "Mas não mais que: %s%%",
     "info.apotheosis.eterna_exact": "Requer exatamente: %s/%s",
     "info.apotheosis.percent_exact": "Requer exatamente: %s%%",
-    "recipes.apotheosis.infusion": "Encantamento por Infusão",
+    "apotheosis.recipes.enchanting": "Encantamento por Infusão",
     "info.apotheosis.book_range": "Intervalo de Poder: [%s, %s]",
     "info.apotheosis.discoverable": "Descobrível",
     "info.apotheosis.discoverable.not": "Não Descobrível",
@@ -844,9 +840,9 @@
 
     "enchantment.apotheosis.infusion": "Infusão",
     "enchantment.apotheosis.infusion.desc": "Espaço reservado para Criação de Encantamentos",
-    
+
     "enchantment.apotheosis.mounted_strike": "Golpe Montado",
-    "enchantment.apotheosis.mounted_strike.desc": "Causa dano extra quando em um cavalo.", 
+    "enchantment.apotheosis.mounted_strike.desc": "Causa dano extra quando em um cavalo.",
 
     "enchantment.apotheosis.miners_fervor": "Fervor do Minerador",
     "enchantment.apotheosis.miners_fervor.desc": "Você minerará muito rápido, mas nunca instantaneamente.",
@@ -862,7 +858,7 @@
 
     "enchantment.apotheosis.icy_thorns": "Espinhos Gelados",
     "enchantment.apotheosis.icy_thorns.desc": "Atrasa os atacantes.",
-    
+
     "enchantment.apotheosis.bane_of_illagers": "Perdição dos Illagers",
     "enchantment.apotheosis.bane_of_illagers.desc": "Illagers recebem dano aumentado.",
 
@@ -871,7 +867,7 @@
 
     "item.apotheosis.prismatic_web": "Teia de Aranha Prismática",
     "info.apotheosis.prismatic_cobweb": "Pode ser usada para remover maldições.",
-	
+
     "item.apotheosis.inert_trident": "Tridente Inerte",
     "item.apotheosis.other_tome": "Tomo dos Outros",
     "item.apotheosis.helmet_tome": "Tomo de Capacete",
@@ -913,8 +909,8 @@
 
     "enchantment.apotheosis.reflective": "Defesas Refletoras",
     "enchantment.apotheosis.reflective.desc": "Ataques bloqueados podem ferir o atacante.",
-	
-	"enchantment.apotheosis.berserkers_fury": "Fúria do Berserker",
+
+    "enchantment.apotheosis.berserkers_fury": "Fúria do Berserker",
     "enchantment.apotheosis.berserkers_fury.desc": "Fica enfurecido ao receber dano. [⌛ 0:45]",
 
     "enchantment.apotheosis.knowledge": "Conhecimento das Eras",
@@ -922,7 +918,7 @@
 
     "enchantment.apotheosis.splitting": "Divisão",
     "enchantment.apotheosis.splitting.desc": "Permite que bigornas separem múltiplos encantamentos de livros sobre os quais elas caírem.",
-    
+
     "enchantment.apotheosis.obliteration": "Obliteração",
     "enchantment.apotheosis.obliteration.desc": "Permite que bigornas separem um único encantamento de livros sobre os quais elas caírem.",
 
@@ -934,7 +930,7 @@
 
     "enchantment.apotheosis.magic_protection": "Aversão Oculta",
     "enchantment.apotheosis.magic_protection.desc": "O dano mágico causado por e para o usuário é reduzido.",
-    
+
     "enchantment.apotheosis.crescendo": "Crescendo de Virotes",
     "enchantment.apotheosis.crescendo.desc": "Sua besta pode ser disparada vezes adicionais por recarga.",
 
@@ -955,11 +951,10 @@
 
     "enchantment.apotheosis.spearfishing": "Pesca com Lança",
     "enchantment.apotheosis.spearfishing.desc": "Abates com um tridente arremessado podem pescar um peixe.",
-    
+
     "enchantment.apotheosis.endless_quiver": "Aljava Infinita",
     "enchantment.apotheosis.endless_quiver.desc": "Torna todas as flechas infinitas.",
 
-    "comment_id": "/Vanilla",
     "generic.reachDistance": "Distância de Alcance",
     "forge.swimSpeed": "Velocidade de Nado",
     "forge.entity_gravity": "Gravidade",
@@ -1083,8 +1078,8 @@
     "enchantment.level.125": "CXXV",
     "enchantment.level.126": "CXXVI",
     "enchantment.level.127": "CXXVII",
-    
-	
+
+
     "block.apotheosis.library": "Biblioteca de Encantamentos",
     "block.apotheosis.ender_library": "Biblioteca de Alexandria",
     "apotheosis.ench.library": "Biblioteca de Encantamentos",
@@ -1112,19 +1107,18 @@
     "info.apotheosis.infusion_failed": "Critérios de Infusão Não Atendidos",
     "info.apotheosis.anvil_at": "Forjando no Nível %s",
     "info.apotheosis.anvil_xp_cost": "Custo Bruto de XP: %s",
-    
+
     "info.apotheosis.slider_power": "Poder: %s",
     "info.apotheosis.enchinfo_level": "Nível: %s",
-    "info.apotheosis.enchinfo_weight": "Peso: %s (%s)",
-    "info.apotheosis.enchinfo_chance": "Chance: %s",
+    "info.apotheosis.enchinfo_rarity": "Raridade: %s",
+    "info.apotheosis.enchinfo_chance": "Probabilidade: %s",
     "info.apotheosis.enchinfo_slot": "Espaço de Encantamento %s",
     "info.apotheosis.enchinfo_minpow": "Poder Mínimo: %s",
     "info.apotheosis.enchinfo_maxpow": "Poder Máximo: %s",
     "info.apotheosis.enchinfo_title": "Encantamentos Disponíveis",
     "info.apotheosis.weights": "Pesos",
     "info.apotheosis.all_available": "Ver todos os encantamentos disponíveis",
-    
-    "comment_id": "/Potion Module",
+
 
     "item.minecraft.potion.effect.resistance": "Poção de Resistência",
     "item.minecraft.splash_potion.effect.resistance": "Poção Arremessável de Resistência",
@@ -1187,17 +1181,14 @@
     "item.apotheosis.potion_charm.disabled": "Desabilitado",
     "item.apotheosis.potion_charm.curios_only": "Funciona somente em um espaço do Curios",
     "misc.apotheosis.blacklisted_potion": "Não pode ser convertida em um amuleto de poção.",
-    
-    "comment_id": "/Anvil Module",
+
     "info.apotheosis.anvil": "Pode ser encantado.",
 
-    "comment_id": "/Garden Module",
     "item.apotheosis.ender_lead": "Laço de Ender",
     "info.apotheosis.noentity": "Entidade Presa: Nenhuma",
     "info.apotheosis.containedentity": "Entidade Presa: %s",
     "info.apotheosis.ender_lead": "O Laço de Ender é um item que pode ser utilizado para mover animais. Soque um animal para capturar e clique com o direito para soltá-lo. O laço não funcionará em outros tipos de entidades .",
 
-    "comment_id": "/Villager Module",
     "name.apotheosis.merch_sword": "Sonhos Presos",
     "name.apotheosis.merch_pick": "Esfareladora",
     "name.apotheosis.merch_axe": "Desmatadora",
@@ -1223,16 +1214,14 @@
     "entity.apotheosis.mining_arrow": "Flecha Mineradora",
     "info.apotheosis.mining_arrow.iron": "Quebra blocos como uma picareta de ferro",
     "info.apotheosis.mining_arrow.diamond": "Quebra blocos como uma picareta de diamante",
-    
-    "comment_id": "/Misc",
+
     "info.apoth.modifier_disabled": "Este modificador está desativado",
-    "itemGroup.apotheosis.adventure": "Apotheosis: Módulo de Aventura",
-    "itemGroup.apotheosis.ench": "Apotheosis: Módulo de Encantamento",
+    "itemGroup.apotheosis.adventure": "Apotheosis: Adventure Module",
+    "itemGroup.apotheosis.ench": "Apotheosis: Enchanting Module",
     "config.jade.plugin_apotheosis.spawner": "Módulo de Geradores Apóticos",
     "config.jade.plugin_apotheosis.ench": "Módulo de Encantamento Apótico",
     "config.jade.plugin_apotheosis.adventure": "Módulo de Aventura Apótica",
-    
-    "comment_id": "Guidebook",
+
     "book.apotheosis.name": "Crônica das Sombras",
     "book.apotheosis.subtitle": "Guia para a Apoteose",
     "book.apotheosis.landing": "Bem-vindo ao mundo do Apotheosis.$(br2)O Apotheosis é dividido em $(#8080FF)Módulos$(), assim como o conteúdo deste livro.$(br2)Módulos desabilitados são escondidos."

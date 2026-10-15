@@ -64,5 +64,20 @@
   "item.mystianapiary.upgrade_centrifuge_t3": "Melhoria de Centrífuga (Nível 3)",
   "tooltip.mystianapiary.centrifuge.desc": "Processa favos em produtos de centrífuga",
   "tooltip.mystianapiary.centrifuge.mult": "Saída da centrífuga x%1$s",
-  "tooltip.mystianapiary.centrifuge.combs": "Favos sem produto não são multiplicados"
+  "tooltip.mystianapiary.centrifuge.combs": "Favos sem produto não são multiplicados",
+  "block.mystianapiary.me_storage_interface": "Interface de Armazenamento ME",
+  "tooltip.mystianapiary.me_storage_interface": "Envia a saída de itens e fluidos do apiário diretamente para o armazenamento ME",
+  "tooltip.mystianapiary.me_storage_interface.network": "Requer um canal de rede ME energizada",
+  "tooltip.mystianapiary.me_storage_interface.overflow": "As Caixas de Armazenamento Físico recebem tudo que o armazenamento ME rejeitar",
+  "message.mystianapiary.me_interface.mode": "Modo de redstone: %s",
+  "message.mystianapiary.me_interface.mode.always": "Sempre Ativo",
+  "message.mystianapiary.me_interface.mode.high": "Ativo com sinal",
+  "message.mystianapiary.me_interface.mode.low": "Ativo sem sinal",
+  "message.mystianapiary.me_interface.duplicate": "Apiário inválido: apenas uma Interface de Armazenamento ME é permitida",
+  "message.mystianapiary.me_interface.redstone": "Saída ME desativada por redstone (%s)",
+  "message.mystianapiary.me_interface.disconnected": "Interface de Armazenamento ME desconectada",
+  "message.mystianapiary.me_interface.unpowered": "A rede ME está sem energia",
+  "message.mystianapiary.me_interface.no_channel": "A Interface de Armazenamento ME está sem canal",
+  "message.mystianapiary.me_interface.rejected": "Saída ME rejeitada: armazenamento cheio, filtrado ou bloqueado por segurança",
+  "message.mystianapiary.me_interface.online": "Interface de Armazenamento ME conectada e aceitando saída (%s)"
 }

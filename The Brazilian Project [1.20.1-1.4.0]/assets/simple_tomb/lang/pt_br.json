@@ -1,3 +1,67 @@
 {
-  "_erro_ao_ler_bloco_original": "{\r\n\r\n    \"simpletomb.grave.grave_simple\": \"Simple Grave\",\r\n    \"simpletomb.grave.grave_cross\": \"Cross Grave\",\r\n    \"simpletomb.grave.grave_normal\": \"Normal Grave\",\r\n    \"simpletomb.grave.tombstone\": \"Tombstone\",\r\n\r\n\r\n    \"item.simpletomb.grave_key\": \"Grave Key\",\r\n\r\n\r\n\t\t\"simpletomb.commands.null\":\"Invalid sub-command, example: /simpletomb latest\",\r\n\t\t\"simpletomb.commands.latest.null\":\"Latest grave not found\",\r\n\r\n    \"simpletomb.message.rip\": \"R.I.P.\",\r\n\r\n    \"simpletomb.message.open_grave.success\": \"The tomb disappears!\",\r\n    \"simpletomb.message.open_grave.need_owner\": \"Only the graves owner can open this\",\r\n    \"simpletomb.message.recover_lost_items\": \"You have recovered your lost items\",\r\n    \"simpletomb.message.open_grave.need_key\": \"You need a key!\",\r\n    \"simpletomb.message.open_grave.wrong_key\": \"This is the wrong key!\",\r\n    \"simpletomb.message.no_loot_for_grave\": \"No grave appeared as there were no items to be stored\",\r\n    \"simpletomb.message.no_grave_location\": \"Your items lie on the ground; this place is not intended for graves\",\r\n    \"simpletomb.message.no_place_for_grave\": \"There was nowhere to place the grave!\",\r\n    \"simpletomb.message.fail_to_place_grave\": \"The grave could not be placed!\",\r\n    \"simpletomb.message.new_grave\": \"Tomb created at: %s\",\r\n    \"simpletomb.message.journeymap\": \"[name:\\\"Grave\\\", x:%d, y:%d, z:%d, dim:\\\"%d\\\"]\",\r\n\r\n\r\n    \"simpletomb.message.no_save_to_restore\": \"There's no save to restore\",\r\n\r\n\r\n    \"simpletomb.message.day\": \"Days: %d\",\r\n\r\n    \"simpletomb.message.distance\": \"Distance: %d [%d, %d, %d] in dimension %d\",\r\n\r\n\r\n    \"_comment\": \"General\",\r\n    \"simpletomb.config_cat.general\": \"General\",\r\n    \"simpletomb.config_cat.general.tooltip\": \"Miscellaneous options\",\r\n    \"simpletomb.config.handle_player_death.tooltip\": \"Whether to handle player death\",\r\n    \"simpletomb.config.log_player_grave.tooltip\": \"Whether to log the positions of players' graves\",\r\n    \"simpletomb.config.player_grave_access.tooltip\": \"Whether to require a Grave's Key to access graves\",\r\n    \"simpletomb.config.grave_key_on_death.tooltip\": \"Whether to always give players a Grave's Key on death\",\r\n    \"simpletomb.config.decay_time.tooltip\": \"The time in minutes before a Grave's Key isn't required to open a grave (-1 = disabled)\",\r\n    \"simpletomb.config.teleport_dim.tooltip\": \"Allows teleportation to other dimensions\",\r\n    \"simpletomb.config.pvp_mode.tooltip\": \"Enables PvP mode, which allows players to open graves of players they kill\",\r\n    \"simpletomb.config.sniffer_range.tooltip\": \"The radius in which items should be collected when a grave is spawned\",\r\n    \"simpletomb.config.ghostly_shape_duration.tooltip\": \"The duration of the Ghostly Shape effect in seconds\",\r\n    \"simpletomb.config.nerf_ghostly_shape.tooltip\": \"Whether to cancel the Ghostly Shape effect on breaking a block or opening a chest\",\r\n    \"simpletomb.config.chance_loss_on_death.tooltip\": \"The chance that some items are lost on death\",\r\n    \"simpletomb.config.percent_loss_on_death.tooltip\": \"The percentage of items that are lost on death\",\r\n    \"simpletomb.config.prevent_death_outside_world.tooltip\": \"Prevents death outside of world borders\",\r\n    \"simpletomb.config.graves_by_pass_griefing_rules.tooltip\": \"Whether graves should be allowed to bypass anti-griefing rules\",\r\n    \"simpletomb.config.unhandled_beneficial_effects\": \"Unhandled Beneficial Effects\",\r\n    \"simpletomb.config.unhandled_beneficial_effects.tooltip\": \"Beneficial effects that can't used by certain features such as �nkh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment\",\r\n    \"simpletomb.config.unhandled_harmful_effects\": \"Unhandled Harmful Effects\",\r\n    \"simpletomb.config.unhandled_harmful_effects.tooltip\": \"Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer\",\r\n    \"simpletomb.config.whitelist_blocks\": \"Replaceable blocks\",\r\n    \"simpletomb.config.whitelist_blocks.tooltip\": \"Blocks that can be replaced by graves\",\r\n    \"simpletomb.config.no_grave_location\": \"Graveless Areas\",\r\n    \"simpletomb.config.no_grave_location.tooltip\": \"Coordinates where graves shouldn't spawn\",\r\n    \"simpletomb.config.chance_mob_on_grave_recovery.tooltip\": \"The chance that creatures appear after the contents of a grave are retrieved\",\r\n    \"simpletomb.config.persistant_halloween.tooltip\": \"The Halloween features also happen outside the dates of the event\",\r\n    \"simpletomb.config.allow_beyond_the_grave_damage.tooltip\": \"Allows players to be hurt by special damages related to some items\",\r\n    \"simpletomb.config.auto_equip_on_death_respawn.tooltip\": \"Automatically equips any equipable items when respawning after a death\"\r\n}"
+
+    "simpletomb.grave.grave_simple": "Túmulo Simples",
+    "simpletomb.grave.grave_cross": "Túmulo em Cruz",
+    "simpletomb.grave.grave_normal": "Túmulo Padrão",
+    "simpletomb.grave.tombstone": "Lápide",
+
+
+    "item.simpletomb.grave_key": "Chave de Túmulo",
+
+
+		"simpletomb.commands.null": "Subcomando inválido; exemplo: /simpletomb latest",
+		"simpletomb.commands.latest.null": "Último túmulo não encontrado",
+
+    "simpletomb.message.rip": "R.I.P.",
+
+    "simpletomb.message.open_grave.success": "O túmulo desaparece!",
+    "simpletomb.message.open_grave.need_owner": "Somente o dono do túmulo pode abrir isto",
+    "simpletomb.message.recover_lost_items": "Você recuperou seus itens perdidos",
+    "simpletomb.message.open_grave.need_key": "Você precisa de uma chave!",
+    "simpletomb.message.open_grave.wrong_key": "Esta não é a chave certa!",
+    "simpletomb.message.no_loot_for_grave": "Nenhum túmulo foi criado, pois não havia itens para armazenar",
+    "simpletomb.message.no_grave_location": "Seus itens estão no chão; este local não é adequado para túmulos",
+    "simpletomb.message.no_place_for_grave": "Não havia onde colocar o túmulo!",
+    "simpletomb.message.fail_to_place_grave": "Não foi possível colocar o túmulo!",
+    "simpletomb.message.new_grave": "Túmulo criado em: %s",
+    "simpletomb.message.journeymap": "[name:\"Túmulo\", x:%d, y:%d, z:%d, dim:\"%d\"]",
+
+
+    "simpletomb.message.no_save_to_restore": "Não há salvamento para restaurar",
+
+
+    "simpletomb.message.day": "Dias: %d",
+
+    "simpletomb.message.distance": "Distância: %d [%d, %d, %d] na dimensão %d",
+
+
+    "_comment": "General",
+    "simpletomb.config_cat.general": "Geral",
+    "simpletomb.config_cat.general.tooltip": "Opções diversas",
+    "simpletomb.config.handle_player_death.tooltip": "Define se a morte do jogador deve ser gerenciada",
+    "simpletomb.config.log_player_grave.tooltip": "Define se as posições dos túmulos dos jogadores devem ser registradas",
+    "simpletomb.config.player_grave_access.tooltip": "Define se uma Chave de Túmulo é necessária para acessá-lo",
+    "simpletomb.config.grave_key_on_death.tooltip": "Define se uma Chave de Túmulo será sempre dada ao morrer",
+    "simpletomb.config.decay_time.tooltip": "O tempo em minutos antes que uma Chave de Túmulo não seja necessária para abri-lo (-1 = desativado)",
+    "simpletomb.config.teleport_dim.tooltip": "Permite teletransporte para outras dimensões",
+    "simpletomb.config.pvp_mode.tooltip": "Ativa o modo PvP, permitindo que jogadores abram os túmulos daqueles que matarem",
+    "simpletomb.config.sniffer_range.tooltip": "O raio no qual os itens devem ser coletados quando um túmulo for gerado",
+    "simpletomb.config.ghostly_shape_duration.tooltip": "A duração do efeito Forma Fantasmagórica em segundos",
+    "simpletomb.config.nerf_ghostly_shape.tooltip": "Define se o efeito Forma Fantasmagórica é cancelado ao quebrar um bloco ou abrir um baú",
+    "simpletomb.config.chance_loss_on_death.tooltip": "A chance de alguns itens serem perdidos ao morrer",
+    "simpletomb.config.percent_loss_on_death.tooltip": "A porcentagem de itens perdidos ao morrer",
+    "simpletomb.config.prevent_death_outside_world.tooltip": "Impede a morte fora das fronteiras do mundo",
+    "simpletomb.config.graves_by_pass_griefing_rules.tooltip": "Define se os túmulos podem ignorar regras de proteção contra destruição",
+    "simpletomb.config.unhandled_beneficial_effects": "Efeitos benéficos não gerenciados",
+    "simpletomb.config.unhandled_beneficial_effects.tooltip": "Efeitos benéficos que não podem ser usados por certos conteúdos, como Ankh da Oração, pirulito, pergaminho da preservação, vantagem de alquimia e encantamento de sifão mágico",
+    "simpletomb.config.unhandled_harmful_effects": "Efeitos nocivos não gerenciados",
+    "simpletomb.config.unhandled_harmful_effects.tooltip": "Efeitos nocivos que não podem ser usados por certos conteúdos, como a tábua da ganância e o encantamento portador da praga",
+    "simpletomb.config.whitelist_blocks": "Blocos substituíveis",
+    "simpletomb.config.whitelist_blocks.tooltip": "Blocos que podem ser substituídos por túmulos",
+    "simpletomb.config.no_grave_location": "Áreas sem túmulos",
+    "simpletomb.config.no_grave_location.tooltip": "Coordenadas onde túmulos não devem ser gerados",
+    "simpletomb.config.chance_mob_on_grave_recovery.tooltip": "A chance de criaturas aparecerem após o conteúdo de um túmulo ser recuperado",
+    "simpletomb.config.persistant_halloween.tooltip": "Os conteúdos de Dia das Bruxas também ocorrem fora das datas do evento",
+    "simpletomb.config.allow_beyond_the_grave_damage.tooltip": "Permite que jogadores sofram danos especiais relacionados a alguns itens",
+    "simpletomb.config.auto_equip_on_death_respawn.tooltip": "Equipa automaticamente quaisquer itens equipáveis ao renascer após a morte"
 }

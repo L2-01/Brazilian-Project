@@ -29,7 +29,7 @@
   "particular.configuration.chestBubbles.tooltip": "Habilita bolhas que sobem de baús submersos",
 
   "particular.configuration.soulSandBubbles": "Bolhas de Areia das Almas",
-  "particular.configuration.soulSandBubbles.tooltip": "Habilita bolhas que sobem de areia das almas submersa",
+  "particular.configuration.soulSandBubbles.tooltip": "Habilita bolhas que sobem de Areia das Almas submersa",
 
   "particular.configuration.barrelBubbles": "Bolhas de Barril",
   "particular.configuration.barrelBubbles.tooltip": "Habilita bolhas que sobem de barris submersos",
@@ -38,10 +38,10 @@
   "particular.configuration.poppingBubbles.tooltip": "Habilita efeitos de bolhas estourando na superfície da água",
 
   "particular.configuration.rainRipples": "Ondulações da Chuva",
-  "particular.configuration.rainRipples.tooltip": "Habilita efeitos de ondulação quando chuva cai na água\n\nAutomaticamente desabilitado quando shaders estão ativos",
+  "particular.configuration.rainRipples.tooltip": "Habilita efeitos de ondulação quando a chuva cai na água\n\nAutomaticamente desabilitado quando sombreadores estão ativos",
 
   "particular.configuration.waterDripRipples": "Ondulações de Gotejamento",
-  "particular.configuration.waterDripRipples.tooltip": "Habilita efeitos de ondulação quando água pinga na superfície de água\n\nAutomaticamente desabilitado quando shaders estão ativos",
+  "particular.configuration.waterDripRipples.tooltip": "Habilita efeitos de ondulação quando água pinga na superfície de água\n\nAutomaticamente desabilitado quando sombreadores estão ativos",
 
   "particular.configuration.cakeEatingParticles": "Partículas ao Comer Bolo",
   "particular.configuration.cakeEatingParticles.tooltip": "Habilita partículas ao comer bolo",
@@ -49,20 +49,20 @@
   "particular.configuration.emissiveLavaDrips": "Gotas de Lava Emissivas",
   "particular.configuration.emissiveLavaDrips.tooltip": "Habilita partículas de gotejamento de lava brilhantes",
 
-  "particular.configuration.lavaSplash": "Ondulações de Lava",
-  "particular.configuration.lavaSplash.tooltip": "Habilita partículas de ondulação na lava quando partículas caem em lava",
+  "particular.configuration.lavaSplash": "Respingos de Lava",
+  "particular.configuration.lavaSplash.tooltip": "Habilita partículas de respingo na lava quando entidades caem na lava",
 
   "particular.configuration.startTime": "Hora de Início",
-  "particular.configuration.startTime.tooltip": "Tempo do jogo quando vaga-lumes começam a aparecer (em tiques)\n\n12000 = pôr do sol (6:00 da tarde)\nAlcance: 0 a 23999",
+  "particular.configuration.startTime.tooltip": "Tempo do jogo quando vaga-lumes começam a aparecer (em tiques)\n\n12000 = pôr do sol (6:00 da tarde)\nIntervalo: 0 a 23999",
 
   "particular.configuration.endTime": "Hora de Fim",
-  "particular.configuration.endTime.tooltip": "Tempo do jogo quando vaga-lumes param de aparecer (em tiques)\n\n23000 = noite (11:00 da noite)\nAlcance: 0 a  23999",
+  "particular.configuration.endTime.tooltip": "Tempo do jogo quando vaga-lumes param de aparecer (em tiques)\n\n23000 = fim da noite (23:00)\nIntervalo: 0 a 23999",
 
   "particular.configuration.minTemp": "Temperatura Mínima",
-  "particular.configuration.minTemp.tooltip": "Temperatura mínima de bioma para vaga-lumes aparecerem\n\n0.5 = clima temperado\nAlcance: 0.0 a 2.0",
+  "particular.configuration.minTemp.tooltip": "Temperatura mínima de bioma para vaga-lumes aparecerem\n\n0.5 = clima temperado\nIntervalo: 0.0 a 2.0",
 
   "particular.configuration.maxTemp": "Temperatura Máxima",
-  "particular.configuration.maxTemp.tooltip": "Temperatura máxia de bioma para vaga-lumes aparecerem\n\n0.99 = quente, mas não muito\nAlcance: 0.0 a 2.0",
+  "particular.configuration.maxTemp.tooltip": "Temperatura máxima de bioma para vaga-lumes aparecerem\n\n0.99 = quente, mas não muito\nIntervalo: 0.0 a 2.0",
 
   "particular.configuration.canSpawnInRain": "Aparecer na Chuva",
   "particular.configuration.canSpawnInRain.tooltip": "Permite que vaga-lumes apareçam em tempo chuvoso\n\nVaga-lumes normalmente se escondem quando chove",
@@ -71,19 +71,19 @@
   "particular.configuration.dailyRandom.tooltip": "Fatores aleatórios afetando taxas de geração de vaga-lumes ao longo do dia\n\nLista de valores representando a probabilidade de geração em horários diferentes",
 
   "particular.configuration.grass": "Frequência em Grama",
-  "particular.configuration.grass.tooltip": "Modificador de frequência de geração próximo a blocos de grama\n\nAlcance: 0.0 a 1.0",
+  "particular.configuration.grass.tooltip": "Modificador de frequência de geração próximo a blocos de grama\n\nIntervalo: 0.0 a 1.0",
 
   "particular.configuration.tallGrass": "Frequência em Grama Alta",
-  "particular.configuration.tallGrass.tooltip": "Modificador de frequência de geração próximo a grama alta\n\nAlcance: 0.0 a 1.0",
+  "particular.configuration.tallGrass.tooltip": "Modificador de frequência de geração próximo a grama alta\n\nIntervalo: 0.0 a 1.0",
 
   "particular.configuration.flowers": "Frequência em Flores",
-  "particular.configuration.flowers.tooltip": "Modificador de frequência de geração próximo a flores\n\nAlcance: 0.0 a 1.0",
+  "particular.configuration.flowers.tooltip": "Modificador de frequência de geração próximo a flores\n\nIntervalo: 0.0 a 1.0",
 
   "particular.configuration.tallFlowers": "Frequência em Flores Altas",
-  "particular.configuration.tallFlowers.tooltip": "Modificador de frequência de geração próximo a flores altas\n\nAlcance: 0.0 a 1.0",
+  "particular.configuration.tallFlowers.tooltip": "Modificador de frequência de geração próximo a flores altas\n\nIntervalo: 0.0 a 1.0",
 
   "particular.configuration.spawnChance": "Chance de Geração",
-  "particular.configuration.spawnChance.tooltip": "Chance de geração reversa\n\nValores mais altos = geração menos frequente",
+  "particular.configuration.spawnChance.tooltip": "Chance de geração inversa\n\nValores mais altos = geração menos frequente",
 
   "particular.configuration.spawnRipples": "Gerar Ondulações",
   "particular.configuration.spawnRipples.tooltip": "Cria efeitos de ondulação quando folhas caem em água",
@@ -92,13 +92,13 @@
   "particular.configuration.layFlatOnGround.tooltip": "Faz folhas ficarem deitadas ao pousar no chão",
 
   "particular.configuration.layFlatRightAngles": "Ajustar em Ângulo Reto ao Ficar Plana",
-  "particular.configuration.layFlatRightAngles.tooltip": "Girar a folha para ângulos de 90 graus ao caírem no chão",
+  "particular.configuration.layFlatRightAngles.tooltip": "Ajusta a rotação da folha a ângulos de 90 graus ao ficar plana",
 
   "particular.configuration.baseMaxAge": "Duração Máxima Base",
   "particular.configuration.baseMaxAge.tooltip": "Duração base de partículas de pó de caverna em tiques\n\n200 tiques = 10 segundos",
 
   "particular.configuration.color": "Cor",
-  "particular.configuration.color.tooltip": "Valor RGB da cor para partículas de pó de caverna\n\n0x808080 = cinza\nAlcance: 0x000000 a 0xFFFFFF",
+  "particular.configuration.color.tooltip": "Valor RGB da cor para partículas de pó de caverna\n\n0x808080 = cinza\nIntervalo: 0x000000 a 0xFFFFFF",
 
   "particular.configuration.fadeDuration": "Duração do Desvanecimento",
   "particular.configuration.fadeDuration.tooltip": "Quanto tempo partículas de pó demoram para desvanecer em tiques\n\n20 tiques = 1 segundo",
@@ -110,7 +110,7 @@
   "particular.configuration.accelChangeChance.tooltip": "Chance inversa de mudar a aceleração de partículas de pó\n\nValores mais altos = mudanças menos frequentes\n180 quer dizer que há uma chance de 1 em 180 por tique",
 
   "particular.configuration.excludeBiomes": "Excluir Biomas",
-  "particular.configuration.excludeBiomes.tooltip": "Lista de IDs de biomas onde pó de caverna não irá gerar\n\nFormato: minecraft:nome_do_bioma_em_ingles",
+  "particular.configuration.excludeBiomes.tooltip": "Lista de IDs de biomas onde pó de caverna não irá gerar\n\nFormato: minecraft:biome_name",
 
   "neoforge.configuration.uitext.section": "Seção: %s",
   "neoforge.configuration.uitext.sectiontext": "Aberta",
@@ -133,33 +133,33 @@
   "particular.configuration.caveDustSettings": "Configurações de Pó de Caverna",
   "particular.configuration.caveDustSettings.tooltip": "Configure as propriedades das partículas de pó de caverna",
 
-  "particular.configuration.waterSplashSettings": "Configurações de Ondulação de Água",
-  "particular.configuration.waterSplashSettings.tooltip": "Configure o comportamento das partículas de ondulação de água",
+  "particular.configuration.waterSplashSettings": "Configurações de Respingos de Água",
+  "particular.configuration.waterSplashSettings.tooltip": "Configure o comportamento das partículas de respingo de água",
 
   "particular.configuration.minFallDistance": "Distância Mínima de Queda",
-  "particular.configuration.minFallDistance.tooltip": "Distância mínima (em blocos) da qual uma entidade deve cair antes de criar partículas de respingo na água\n\n0.0 = sempre criar partículas\nAlcance: 0.0 a 100.0",
+  "particular.configuration.minFallDistance.tooltip": "Distância mínima (em blocos) da qual uma entidade deve cair antes de criar partículas de respingo na água\n\n0.0 = sempre criar partículas\nIntervalo: 0.0 a 100.0",
 
   "particular.configuration.smallDroplets": "Gotículas de Respingo Pequenas",
   "particular.configuration.smallDroplets.tooltip": "Habilitar partículas de água para respingos pequenos\n\nAdiciona detalhes visuais para entradas gentis na água",
 
-  "particular.configuration.splashOpacity": "Opacidade de Mergulho",
-  "particular.configuration.splashOpacity.tooltip": "Opacidade das partículas de respingo da água e da lava\n\n0.75 = 25% mais transparente\nAlcance: 0.0 a 1.0",
+  "particular.configuration.splashOpacity": "Opacidade de Respingo",
+  "particular.configuration.splashOpacity.tooltip": "Opacidade das partículas de respingo da água e da lava\n\n0.75 = 25% mais transparente\nIntervalo: 0.0 a 1.0",
 
   "particular.configuration.softEntryParticles": "Partículas de Entrada Gentil",
-  "particular.configuration.softEntryParticles.tooltip": "Usar bolhas e gotejos de água pequenos para entradas gentis na água em vez de partículas de mergulho",
+  "particular.configuration.softEntryParticles.tooltip": "Usar bolhas e gotejos de água pequenos para entradas gentis na água em vez de partículas de respingo",
 
   "particular.configuration.cuboidWaterfallSpray": "Névoa de Cachoeira Cuboide",
   "particular.configuration.cuboidWaterfallSpray.tooltip": "Usar partículas cuboides de 1 voxel para a névoa de cachoeiras",
 
   "particular.configuration.cuboidSplashDroplets": "Respingos Cuboides",
-  "particular.configuration.cuboidSplashDroplets.tooltip": "Usar partículas cuboides de 1 voxel para partículas de mergulho",
+  "particular.configuration.cuboidSplashDroplets.tooltip": "Usar partículas cuboides de 1 voxel para partículas de respingo",
 
   "particular.configuration.waterCuboidBiomeTint": "Coloração por Bioma de Água Cuboide",
   "particular.configuration.waterCuboidBiomeTint.tooltip": "Colorir a névoa de cachoeira usando a cor de água local do bioma",
 
   "particular.configuration.waterCuboidColor": "Cor da Água Cuboide",
-  "particular.configuration.waterCuboidColor.tooltip": "Cor RGB para a névoa de cachoeira quando a coloração por bioma está desabilitada\n\n0xFFFFFF = branco\nAlcance: 0x000000 a 0xFFFFFF",
+  "particular.configuration.waterCuboidColor.tooltip": "Cor RGB para a névoa de cachoeira quando a coloração por bioma está desabilitada\n\n0xFFFFFF = branco\nIntervalo: 0x000000 a 0xFFFFFF",
 
   "particular.configuration.lavaCuboidColor": "Cor da Lava Cuboide",
-  "particular.configuration.lavaCuboidColor.tooltip": "Cor RGB para partículas de lava cuboides\n\n0xFF681F = lava laranja\nAlcance: 0x000000 a 0xFFFFFF"
+  "particular.configuration.lavaCuboidColor.tooltip": "Cor RGB para partículas de lava cuboides\n\n0xFF681F = lava laranja\nIntervalo: 0x000000 a 0xFFFFFF"
 }

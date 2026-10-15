@@ -7,59 +7,6 @@
 
 
 
-  "fancytabsections.configuration.index_expanded": "Índice Expandido",
-
-  "itemGroup.fancytabsections.fancy_things": "[FTS dev only] Shiny Things",
-  "itemGroup.fancytabsections.dirty_tools": "[FTS dev only] Dirty Tools",
-
-  "section.fancytabsections.shiny_things": "Coisas Brilhantes",
-  "section.fancytabsections.pretty_things": "Coisas Bonitas!",
-  "section.fancytabsections.secret_things": "Seção secreta que tem um nome bem longo para demonstrar a rolagem...",
-  "section.fancytabsections.hotbar": "Ordem Correta da Hotbar",
-  "section.fancytabsections.dirt": "Terra",
-  "section.fancytabsections.stone": "Pedra",
-  "section.fancytabsections.colors": "COR!",
-  "section.fancytabsections.empty": "Seção Vazia...",
-
-  "section.fancytabsections.very_dirty_tools": "Ferramentas Muito Sujas",
-  "section.fancytabsections.decently_dirty_tools": "Ferramentas Razoavelmente Sujas",
-
-
-
-
-
-
-  "tooltip.libtooltips.generic.shift_up": "§7⏬ [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§7] ⏬",
-  "tooltip.libtooltips.generic.shift_down": "§7⏫ [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§7] ⏫",
-  "tooltip.libtooltips.generic.empty": "",
-
-  "key.category.libtooltips.libtooltips": "LibTooltips",
-  "key.libtooltips.expand": "Expandir Dica de Ferramenta",
-
-  "libtooltips.configuration.enable_tooltips": "Ativar Dicas de Ferramenta",
-  "libtooltips.configuration.line_before": "Linha vazia antes",
-  "libtooltips.configuration.line_before.tooltip": "Adiciona uma linha vazia ANTES da descrição, DEPOIS do [shift]",
-  "libtooltips.configuration.line_after": "Linha vazia depois",
-  "libtooltips.configuration.line_after.tooltip": "Adiciona uma linha vazia DEPOIS da descrição",
-  "libtooltips.configuration.default_color": "Cor da Descrição",
-  "libtooltips.configuration.default_color.tooltip": "Qual cor usar como base para a dica. O valor é a cor como um número inteiro (use um seletor de cores online)",
-  "libtooltips.configuration.title": "Configurações do LibTooltips",
-
-  "tooltip.namespace.path.0": "Que dica chique com <ltrgb>arco-íris rgb</ltrgb>!",
-  "tooltip.namespace.path.1": "E olha, até suporta várias linhas, uau",
-  "tooltip.namespace.path.2": "Para evitar incompatibilidades com outras APIs de processamento de texto,",
-  "tooltip.namespace.path.3": "é recomendado que as tags tenham um nome não genérico, como 'ltrgb' em vez de 'rgb'",
-  "tooltip.namespace.path.4": "hide",
-  "tooltip.namespace.path.5": "Definir uma linha como 'hide' vai impedir que o restante das linhas seja exibido.",
-  "tooltip.namespace.path.6": "Isso é útil para traduções em que idiomas diferentes podem ter menos linhas que o padrão.",
-
-  "tooltip.always.namespace.path.0": "Esta dica sempre vai aparecer!",
-
-
-
-
-
-
   "tinymultiblocklib.configuration.title": "Tiny Multiblock Lib",
   "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml.title": "Configuração de Cliente do TMBL",
   "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml": "Configuração de Cliente do TMBL",
@@ -81,74 +28,6 @@
 
 
 
-
-
-
-
-
-
-  "selling_bin.configuration.always_show_selling_bin_price": "Sempre Mostrar Preços da Caixa de Venda",
-  "selling_bin.configuration.selling_in_multiplier": "Multiplicador da Caixa de Venda",
-
-
-  "emi.category.selling_bin.selling_bin_selling": "Caixa de Venda",
-  "emi.category.selling_bin.selling_bin_currencies": "Moedas da Caixa de Venda",
-
-  "gui.selling_bin.selling.empty.0": "Não há itens vendáveis registrados na Caixa de Venda!",
-  "gui.selling_bin.selling.empty.1": "",
-  "gui.selling_bin.selling.empty.2": "A Caixa de Venda não faz nada sem um datapack.",
-  "gui.selling_bin.selling.empty.3": "",
-  "gui.selling_bin.selling.empty.4": "Veja a wiki em github.com/wdiscute/Selling-Bin/wiki para pacotes prontos",
-  "gui.selling_bin.selling.empty.5": "de dados que você pode usar, e como adicionar e personalizar o seu próprio.",
-  "gui.selling_bin.selling.empty.6": "",
-  "gui.selling_bin.selling.empty.7": "Você também pode selecionar um dos datapacks prontos e",
-  "gui.selling_bin.selling.empty.8": "embutidos durante a criação do mundo, na seção de datapacks, igual ao vanilla,",
-  "gui.selling_bin.selling.empty.9": "ou usar /datapack enable XXXXXXXXX",
-
-
-  "gui.selling_bin.currency.empty.0": "Não há moedas registradas na Caixa de Venda!",
-  "gui.selling_bin.currency.empty.1": "",
-  "gui.selling_bin.currency.empty.2": "A Caixa de Venda não faz nada sem um datapack.",
-  "gui.selling_bin.currency.empty.3": "",
-  "gui.selling_bin.currency.empty.4": "Veja a wiki em github.com/wdiscute/Selling-Bin/wiki para pacotes prontos",
-  "gui.selling_bin.currency.empty.5": "de dados que você pode usar, e como adicionar e personalizar o seu próprio.",
-  "gui.selling_bin.currency.empty.6": "",
-  "gui.selling_bin.currency.empty.7": "Você também pode selecionar um dos datapacks prontos e",
-  "gui.selling_bin.currency.empty.8": "embutidos durante a criação do mundo, na seção de datapacks, igual ao vanilla,",
-  "gui.selling_bin.currency.empty.9": "ou usar /datapack enable XXXXXXXXX",
-
-
-  "gui.selling_bin.processor.durability": "- O preço é ajustado com base na durabilidade restante.",
-  "gui.selling_bin.processor.food": "- O preço aumenta com base na fome e na saturação.",
-  "gui.selling_bin.processor.enchantments": "- O preço aumenta com base nos encantamentos.",
-  "gui.selling_bin.processor.quality_foods_processor": "- O preço aumenta com base na Qualidade.",
-  "gui.selling_bin.processor.wine_age_processor": "- O preço aumenta com base na idade do vinho.",
-  "gui.selling_bin.processor.beer_quality_processor": "- O preço aumenta com base na qualidade da cerveja.",
-
-
-  "gui.selling_bin.value": "valor",
-  "gui.selling_bin.base_price": "Preço:",
-  "gui.selling_bin.processors": "Processadores:",
-  "gui.selling_bin.sell": "Vender",
-  "gui.selling_bin.sell_all": "Vender Tudo",
-  "gui.selling_bin.auto_sell": "Venda Automática",
-  "gui.selling_bin.sell_sound": "Som de Venda",
-  "gui.selling_bin.currency_selected": "Moeda:",
-  "gui.selling_bin.currencies": "Moedas:",
-  "gui.selling_bin.highest": "Maior Possível",
-  "gui.selling_bin.card_slot": "Cartão do Banco Numismático",
-
-
-  "block.selling_bin.selling_bin": "Caixa de Venda",
-
-  "item.minecraft.emerald.plural": "Esmeraldas",
-  "block.minecraft.emerald_block.plural": "Blocos de Esmeralda",
-
-
-
-
-
-
   "dimension.minecraft.overworld": "Superfície",
   "dimension.minecraft.the_nether": "O Nether",
   "dimension.minecraft.the_end": "O End",
@@ -163,6 +42,7 @@
 
   "bountiful.decree.starcatcher.name": "Starcatcher",
 
+  "structure.minecraft.ancient_city": "Cidade Ancestral",
   "structure.minecraft.monument": "Monumento Oceânico",
   "structure.minecraft.trial_chambers": "Câmaras do Desafio",
   "structure.minecraft.end_city": "Cidade do End",
@@ -339,6 +219,7 @@
 
 
 
+  "sounds.starcatcher.minigame_starts": "Pescaria começa!",
 
   "sounds.starcatcher.king_cry": "Sons de choro",
   "sounds.starcatcher.king_grr": "Sons de raiva",
@@ -428,6 +309,8 @@
 
 
   "entity.starcatcher.fish": "Peixe do Starcatcher",
+  "entity.starcatcher.fish.no_model": "%s não tem um modelo pronto! Invocar peixes usando o item de peixe é uma funcionalidade exclusiva do Modo Criativo. Não relate isso ao desenvolvedor se o peixe foi invocado no Modo Criativo.",
+  "entity.starcatcher.tackle_box_boat": "Bote com Caixa de Pesca",
 
   "gui.starcatcher.bait_out": "Sua isca acabou...",
   "gui.starcatcher.bait_running_low": "Sua isca está acabando...",
@@ -469,16 +352,15 @@
 
   "tooltip.starcatcher.letter": "Escrito por: %s",
 
-  "item.starcatcher.starcatcher_twine": "Fio do Starcatcher",
-  "tooltip.starcatcher.starcatcher_twine.0": "Um fio delicado enrolado em um graveto.",
-  "tooltip.starcatcher.starcatcher_twine.1": "Vansire usou estes para instrumentos de corda antigamente.",
-
   "block.starcatcher.tournament_stand": "Estande de Torneio",
   "tooltip.starcatcher.tournament_stand.0": "Um estande usado para sediar torneios de pesca.",
 
 
   "tooltip.starcatcher.modifiers": "Modificadores de Pesca:",
   "tooltip.starcatcher.modifiers.active": "<scepic>§lModificadores Ativos:</scepic>",
+
+  "tooltip.modifier.starcatcher.quality_food_roll": "Suas capturas terão qualidade superior",
+  "tooltip.modifier.starcatcher.quality_food_roll.shift": "A qualidade das suas capturas será sorteada mais %s vezes",
 
   "tooltip.modifier.starcatcher.prevent_frozen": "Impede que sua manivela congele",
 
@@ -493,6 +375,19 @@
   "tooltip.modifier.starcatcher.add_creeper": "Um amigo mal-humorado pode aparecer",
 
   "tooltip.modifier.starcatcher.no_gravity": "Sua boia não seguirá mais as leis da gravidade",
+
+  "tooltip.modifier.starcatcher.gunpowder_bait": "Algo... terá mais chance de morder a isca",
+  "tooltip.modifier.starcatcher.cherry_bait": "Peixes de cerejais terão mais chance de morder a isca",
+  "tooltip.modifier.starcatcher.lush_bait": "Peixes de cavernas verdejantes terão mais chance de morder a isca",
+  "tooltip.modifier.starcatcher.sculk_bait": "Peixes das profundezas sombrias terão mais chance de morder a isca",
+  "tooltip.modifier.starcatcher.dripstone_bait": "Peixes da Isca de Espeleotema terão mais chance de morder a isca",
+  "tooltip.modifier.starcatcher.murkwater_bait": "Peixes de pântanos terão mais chance de morder a isca",
+  "tooltip.modifier.starcatcher.legendary_bait": "Peixes lendários terão mais chance de morder a isca",
+
+  "tooltip.modifier.starcatcher.restricted_rarities": "Você não pode mais pescar peixes %s",
+  "tooltip.modifier.starcatcher.allowed_rarities": "Você só pode pescar peixes %s",
+  "tooltip.modifier.starcatcher.allowed_rarities.list_last_separator": " e ",
+  "tooltip.modifier.starcatcher.allowed_rarities.list_separator": ", ",
 
   "tooltip.modifier.starcatcher.extra_golden_chance.perfect": "Capturas perfeitas têm mais chance de serem douradas",
   "tooltip.modifier.starcatcher.extra_golden_chance.perfect.shift": "Capturas perfeitas têm %s%% a mais de chance de serem douradas",
@@ -578,6 +473,9 @@
   "tooltip.modifier.starcatcher.adjust_lure_time.shift.min_ticks": "Ajusta os tiques mínimos para pescar em %s%%",
   "tooltip.modifier.starcatcher.adjust_lure_time.shift.max_ticks": "Ajusta os tiques máximos para pescar em %s%%",
   "tooltip.modifier.starcatcher.adjust_lure_time.shift.random": "Ajusta a chance de morder a cada tique em %s%%",
+
+  "tooltip.modifier.starcatcher.increase_chance": "Você tem mais chance de pescar %s",
+  "tooltip.modifier.starcatcher.increase_chance.shift": "Aumenta o peso de seleção de %s em %s",
 
   "tooltip.modifier.starcatcher.adjust_moving_sweetspots.increase": "Aumenta a velocidade de pontos ideais em movimento",
   "tooltip.modifier.starcatcher.adjust_moving_sweetspots.decrease": "Diminui a velocidade de pontos ideais em movimento",
@@ -685,6 +583,7 @@
 
 
   "item.starcatcher.gunpowder_bait": "Isca de Pólvora",
+  "item.starcatcher.targeted_bait": "Isca Direcionada",
   "item.starcatcher.cherry_bait": "Isca de Cereja",
   "item.starcatcher.lush_bait": "Isca Exuberante",
   "item.starcatcher.sculk_bait": "Isca de Sculk",
@@ -751,7 +650,28 @@
   "block.starcatcher.tackle_box_cyan": "Caixa de Pesca Ciano",
   "block.starcatcher.tackle_box_green": "Caixa de Pesca Verde",
 
+  "item.starcatcher.oak_tackle_box_boat": "Bote de Carvalho com Caixa de Pesca",
+  "item.starcatcher.dark_oak_tackle_box_boat": "Bote de Carvalho Escuro com Caixa de Pesca",
+  "item.starcatcher.cherry_tackle_box_boat": "Bote de Cerejeira com Caixa de Pesca",
+  "item.starcatcher.bamboo_tackle_box_boat": "Jangada de Bambu com Caixa de Pesca",
+  "item.starcatcher.spruce_tackle_box_boat": "Bote de Abeto com Caixa de Pesca",
+  "item.starcatcher.birch_tackle_box_boat": "Bote de Bétula com Caixa de Pesca",
+  "item.starcatcher.mangrove_tackle_box_boat": "Bote de Mangue com Caixa de Pesca",
+  "item.starcatcher.acacia_tackle_box_boat": "Bote de Acácia com Caixa de Pesca",
+  "item.starcatcher.jungle_tackle_box_boat": "Bote da Selva com Caixa de Pesca",
+
+  "block.starcatcher.oak_fish_plaque": "Placa de Peixe de Carvalho",
+  "block.starcatcher.dark_oak_fish_plaque": "Placa de Peixe de Carvalho Escuro",
+  "block.starcatcher.cherry_fish_plaque": "Placa de Peixe de Cerejeira",
+  "block.starcatcher.acacia_fish_plaque": "Placa de Peixe de Acácia",
+  "block.starcatcher.bamboo_fish_plaque": "Placa de Peixe de Bambu",
+  "block.starcatcher.jungle_fish_plaque": "Placa de Peixe da Selva",
+  "block.starcatcher.birch_fish_plaque": "Placa de Peixe de Bétula",
+  "block.starcatcher.spruce_fish_plaque": "Placa de Peixe de Abeto",
+  "block.starcatcher.mangrove_fish_plaque": "Placa de Peixe de Mangue",
+
   "block.starcatcher.aquarium": "Aquário",
+  "block.starcatcher.aquarium.dead_fish": "Peixes mortos não vão em um Aquário...",
 
   "block.starcatcher.fisherman_hat_black": "Chapéu de Pescador Preto",
   "block.starcatcher.fisherman_hat_blue": "Chapéu de Pescador Azul",
@@ -829,18 +749,22 @@
   "gui.guide.seasons.around_autumn": "Perto do Outono",
   "gui.guide.seasons.around_winter": "Perto do Inverno",
 
+  "gui.guide.seasons.spring": "Primavera",
   "gui.guide.seasons.early_spring": "Início da Primavera",
   "gui.guide.seasons.mid_spring": "Meado da Primavera",
   "gui.guide.seasons.late_spring": "Fim da Primavera",
 
+  "gui.guide.seasons.summer": "Verão",
   "gui.guide.seasons.early_summer": "Início do Verão",
   "gui.guide.seasons.mid_summer": "Meado do Verão",
   "gui.guide.seasons.late_summer": "Fim do Verão",
 
+  "gui.guide.seasons.autumn": "Outono",
   "gui.guide.seasons.early_autumn": "Início do Outono",
   "gui.guide.seasons.mid_autumn": "Meado do Outono",
   "gui.guide.seasons.late_autumn": "Fim do Outono",
 
+  "gui.guide.seasons.winter": "Inverno",
   "gui.guide.seasons.early_winter": "Início do Inverno",
   "gui.guide.seasons.mid_winter": "Meado do Inverno",
   "gui.guide.seasons.late_winter": "Fim do Inverno",
@@ -1396,6 +1320,7 @@
   "gui.guide.hover.elevation.incorrect": "❌ Elevação",
   "gui.guide.hover.light_level.correct": "✅ Luz",
   "gui.guide.hover.light_level.incorrect": "❌ Luz",
+  "gui.guide.hover.bait": "Isca",
   "gui.guide.hover.caught_limit": "Limite de Captura: %s",
 
   "gui.guide.dimension": "Dimensão: ",
@@ -1409,7 +1334,8 @@
   "gui.guide.blacklisted_biomes": "Biomas na Lista Negra: ",
   "gui.guide.blacklisted_biome_tags": "Tags de Bioma na Lista Negra: ",
   "gui.guide.blacklisted_dimensions": "Dimensões na Lista Negra: ",
-  "gui.guide.bait": "Prefere: ",
+  "gui.guide.bait.prefer": "Prefere: ",
+  "gui.guide.bait.require": "Exige: ",
   "gui.guide.weather": "Clima: ",
   "gui.guide.raining": "Chovendo",
   "gui.guide.thundering": "Trovejando",
@@ -1450,7 +1376,6 @@
   "gui.guide.around": "Em torno de %s",
   "gui.guide.between": "Entre %s e %s",
   "gui.guide.no_restriction": "-------",
-  "gui.guide.bait_required": "A isca correta é necessária para esta captura!",
   "gui.guide.rarity_count.single": "%s peixes",
   "gui.guide.bait_chance_added": "Chance adicionada pela isca:",
   "gui.guide.rarity_count.all": "Todos os %s peixes",
@@ -1639,6 +1564,24 @@
   "starcatcher.message.wither.14": "",
   "starcatcher.message.wither.15": "",
   "starcatcher.message.wither.sender": "",
+
+  "starcatcher.message.the_end.0": "",
+  "starcatcher.message.the_end.1": "Eu estava pensando em como nada",
+  "starcatcher.message.the_end.2": "tem um fim verdadeiro.",
+  "starcatcher.message.the_end.3": "",
+  "starcatcher.message.the_end.4": "Tudo vem do mesmo lugar e vai para",
+  "starcatcher.message.the_end.5": "ele: lugar nenhum.",
+  "starcatcher.message.the_end.6": "",
+  "starcatcher.message.the_end.7": "",
+  "starcatcher.message.the_end.8": "Então, se o começo é o fim,",
+  "starcatcher.message.the_end.9": "e o fim é o começo,",
+  "starcatcher.message.the_end.10": "o que é o fim, afinal?",
+  "starcatcher.message.the_end.11": "",
+  "starcatcher.message.the_end.12": "Isso ajuda você a dormir melhor?",
+  "starcatcher.message.the_end.13": "Como a névoa rosada de um",
+  "starcatcher.message.the_end.14": "céu apocalíptico.",
+  "starcatcher.message.the_end.15": "Ou o conforto dentro de uma mentira?",
+  "starcatcher.message.the_end.sender": "",
 
 
   "item.starcatcher.letter": "Carta",
@@ -1835,6 +1778,36 @@
 
 
 
+  "item.starcatcher.oculi": "Oculi",
+  "tooltip.starcatcher.oculi.0": "Este peixe estranho lembra algo que você já viu antes,",
+  "tooltip.starcatcher.oculi.1": "mas você não consegue enxergar bem o que é.",
+  "tooltip.starcatcher.oculi.2": "De qualquer forma, certamente é um peixe.",
+
+  "item.starcatcher.glimmergill": "Guelra Cintilante",
+  "tooltip.starcatcher.glimmergill.0": "As escamas deste peixe são cobertas por um tipo de gelo",
+  "tooltip.starcatcher.glimmergill.1": "que reflete a luz de uma forma muito particular.",
+  "tooltip.starcatcher.glimmergill.2": "Presas curiosas acabam entrando em seu corpo e se cortam em suas escamas afiadas.",
+
+  "item.starcatcher.cryospine": "Espinha Gélida",
+  "tooltip.starcatcher.cryospine.0": "Um peixe parcialmente congelado, frequentemente ignorado devido ao seu baixo valor nutritivo.",
+  "tooltip.starcatcher.cryospine.1": "Dizem que pescadores presos em icebergs pescavam 100 deles,",
+  "tooltip.starcatcher.cryospine.2": "só para fazer uma única refeição.",
+
+  "item.starcatcher.lilac_minnow": "Lambari Lilás",
+  "tooltip.starcatcher.lilac_minnow.0": "Uma espécie de lambari que ficou lilás devido às temperaturas congelantes em que vive.",
+  "tooltip.starcatcher.lilac_minnow.1": "Dizem que usá-lo como isca é a única forma de pescar um Rei do Gelo.",
+
+  "item.starcatcher.frostbit_jelly": "Água-Viva Gélida",
+  "tooltip.starcatcher.frostbit_jelly.0": "Uma espécie de água-viva que usa icebergs para hibernar por longos períodos.",
+  "tooltip.starcatcher.frostbit_jelly.1": "É lá que passa a maior parte da vida.",
+
+  "item.starcatcher.king_of_the_frost": "Rei do Gelo",
+  "tooltip.starcatcher.king_of_the_frost.0": "O <sclegendary>lendário</sclegendary> Rei do Gelo, que reina sobre todos os icebergs.",
+  "tooltip.starcatcher.king_of_the_frost.1": "Seus tentáculos se enrolam nas presas e as levam às profundezas dos oceanos até que se afoguem.",
+  "tooltip.starcatcher.king_of_the_frost.2": "Pescadores são extremamente cautelosos com ele ao navegar pelos icebergs da Superfície.",
+
+
+
 
 
   "item.starcatcher.sandtail": "Cauda de Areia",
@@ -2009,6 +1982,10 @@
 
   "item.starcatcher.blue_crystal_fin": "Barbatana de Cristal Azul",
   "tooltip.starcatcher.blue_crystal_fin.0": "Um peixe incomum mais comumente encontrado durante o dia.",
+
+  "item.starcatcher.mothfish": "Peixe-Mariposa",
+  "tooltip.starcatcher.mothfish.0": "Este peixe desenvolveu uma camada de pelos para ajudá-lo a superar o frio.",
+  "tooltip.starcatcher.mothfish.1": "Como ele mantém esses pelos secos é um mistério...",
 
 
   "item.starcatcher.morganite": "Morganita",
@@ -2254,6 +2231,10 @@
   "item.starcatcher.end_glow": "Brilho do End",
   "tooltip.starcatcher.end_glow.0": "Um peixe traiçoeiro encontrado apenas no End.",
   "tooltip.starcatcher.end_glow.1": "Endermen não parecem se importar com ele.",
+
+  "item.starcatcher.dreamliner": "Dreamliner",
+  "tooltip.starcatcher.dreamliner.0": "Um peixe encontrado nadando pelo vazio sem fim do End.",
+  "tooltip.starcatcher.dreamliner.1": "Dizem que ele foi um 787 em sua vida passada.",
 
   "item.starcatcher.voidbiter": "Mordedor do Vazio",
   "tooltip.starcatcher.voidbiter.0": "Um peixe <sclegendary>lendário</sclegendary> encontrado flutuando no vasto vazio do End.",

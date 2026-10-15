@@ -136,7 +136,7 @@
 	"tooltip.toms_storage.inv_config.remove_filter": "Limpar Configuração",
 	"tooltip.toms_storage.item_filter.contents": "Conteúdos:",
 	"tooltip.toms_storage.item_filter.prefix": "- %s",
-	"tooltip.toms_storage.item_filter.no_items": "Nenhum Item ",
+	"tooltip.toms_storage.item_filter.no_items": "Nenhum Item",
 	"tooltip.toms_storage.hold_control_for_details": "Segure %s para obter detalhes de configuração.",
 	"tooltip.toms_storage.connector_info.size": "%d livres/%d espaços",
 	"tooltip.toms_storage.connector_info.inv": "%d inventários",
@@ -199,7 +199,7 @@
 	"toms_storage.configuration.importantInfo.tooltip": "AVISO IMPORTANTE:\nESTAS SÃO APENAS AS CONFIGURAÇÕES GERAIS. Elas não contêm todos os valores ajustáveis do Tom's Simple Storage.\nAs configurações foram movidas para toms_storage-server.toml.\nEsse arquivo É ÚNICO PARA CADA MUNDO, o que significa que você precisa acessar 'saves/<nome do mundo>/serverconfig' para ajustá-lo. Essas mudanças serão aplicadas somente ÀQUELE MUNDO.\nVocê pode pegar esse arquivo de configuração e colocá-lo na pasta 'defaultconfigs' para aplicá-lo automaticamente a todos os NOVOS mundos gerados A PARTIR DE ENTÃO.\nIsso pode parecer confuso para muitas pessoas, mas é uma maneira nova e sensata de lidar com configurações, pois as configurações de servidor são sincronizadas ao jogar no modo multijogador.",
 
 	"text.autoconfig.toms_storage.title": "Configurações do Tom's Simple Storage",
-	"text.autoconfig.toms_storage.option.invConnectorScanRange": "Alcance do Conector de Inventários ",
+	"text.autoconfig.toms_storage.option.invConnectorScanRange": "Alcance do Conector de Inventário",
 	"text.autoconfig.toms_storage.option.onlyTrims": "Permitir Somente Encaixes de Conectar Inventârios",
 	"text.autoconfig.toms_storage.option.invConnectorMaxCables": "Número máximo de cabos para Conectores de Cabo de Inventário",
 	"text.autoconfig.toms_storage.option.wirelessRange": "Alcance do terminal sem fio",

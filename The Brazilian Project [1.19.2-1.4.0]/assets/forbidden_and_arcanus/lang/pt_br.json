@@ -1,11 +1,11 @@
 {
-  "_comment": "Item Groups",
-  "itemGroup.forbidden_arcanus": "Forbidden & Arcanus",
+    "_comment": "Item Groups",
+    "itemGroup.forbidden_arcanus": "Forbidden & Arcanus",
 
     "__comment": "Effects",
     "effect.forbidden_arcanus.spectral_vision": "Visão Espectral",
     "effect.forbidden_arcanus.darkened": "Escurecido",
-	
+
     "category_blocks": "Blocos",
     "block.forbidden_arcanus.darkstone": "Pedra Sombria",
     "block.forbidden_arcanus.arcane_chiseled_darkstone": "Pedra Sombria Arcana Talhada",
@@ -191,7 +191,7 @@
     "item.forbidden_arcanus.mundabitur_dust": "Pó de Mundabitur",
     "item.forbidden_arcanus.corrupti_dust": "Pó de Corrupto",
     "item.forbidden_arcanus.dark_matter": "Matéria Escura",
-    "item.forbidden_arcanus.ender_pearl_fragment": "Fragmento de Pérola do Ender",
+    "item.forbidden_arcanus.ender_pearl_fragment": "Fragmento de Pérola de Ender",
     "item.forbidden_arcanus.rune": "Runa",
     "item.forbidden_arcanus.dark_rune": "Runa Sombria",
     "item.forbidden_arcanus.rune_bag": "Saco de Runas",
@@ -222,7 +222,7 @@
     "item.forbidden_arcanus.edelwood_water_bucket": "Balde de Água de Edelwood",
     "item.forbidden_arcanus.edelwood_lava_bucket": "Balde de Lava de Edelwood",
     "item.forbidden_arcanus.edelwood_milk_bucket": "Balde de Leite de Edelwood",
-    "item.forbidden_arcanus.edelwood_powder_snow_bucket": "Balde de Neve Fofa de Edelwood",
+    "item.forbidden_arcanus.edelwood_powder_snow_bucket": "Balde de Neve em Pó de Edelwood",
     "item.forbidden_arcanus.edelwood_pufferfish_bucket": "Balde de Edelwood com Baiacu",
     "item.forbidden_arcanus.edelwood_salmon_bucket": "Balde de Edelwood com Salmão",
     "item.forbidden_arcanus.edelwood_cod_bucket": "Balde de Edelwood com Bacalhau",
@@ -239,7 +239,7 @@
     "item.forbidden_arcanus.edelwood_chicken_bucket": "Balde de Edelwood com Galinha",
     "item.forbidden_arcanus.edelwood_axolotl_bucket": "Balde de Edelwood com Axolote",
     "item.forbidden_arcanus.edelwood_bee_bucket": "Balde de Edelwood com Abelha",
-    "item.forbidden_arcanus.edelwood_strider_bucket": "Balde de Edelwood com Lavagante",
+    "item.forbidden_arcanus.edelwood_strider_bucket": "Balde de Edelwood com Marchador",
     "item.forbidden_arcanus.edelwood_allay_bucket": "Balde de Edelwood com Sereno",
     "item.forbidden_arcanus.cherry_boat": "Bote de Cerejeira",
     "item.forbidden_arcanus.cherry_chest_boat": "Bote de Cerejeira com Baú",
@@ -336,7 +336,7 @@
     "container.forbidden_arcanus.clibano": "Clibano",
 
     "enchantments": "Encantamentos",
-    "enchantment.forbidden_arcanus.permafrost": "Permafrost",
+    "enchantment.forbidden_arcanus.permafrost": "Gelo Eterno",
     "enchantment.forbidden_arcanus.indestructible": "Indestrutível",
 
     "entity.forbidden_arcanus.lost_soul": "Alma Perdida",
@@ -348,6 +348,7 @@
     "modifier.forbidden_arcanus.fiery": "Ígneo",
     "modifier.forbidden_arcanus.magnetized": "Magnetizado",
     "modifier.forbidden_arcanus.demolishing": "Demolidor",
+
 
     "forbiddenmicon": "Forbiddenmicon",
     "forbiddenmicon.category.main": "Principal",
@@ -367,7 +368,7 @@
     "forbidden_arcanus.blood": "Sangue",
     "forbidden_arcanus.experience": "Experiência",
 
-    "guis_comment": "Guis",
+    "guis_comment": "GUIs",
     "gui.forbidden_arcanus.hephaestus_forge.unlocked_at_level": "Desbloqueado no Nível",
     "gui.forbidden_arcanus.clibano.residue_fullness": "Volume de resíduos",
     "gui.forbidden_arcanus.clibano.residue.gold": "Ouro",

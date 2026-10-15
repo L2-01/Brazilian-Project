@@ -4,7 +4,7 @@
 	"text.jei_mekanism_multiblocks.building.better_fusion_reactor": "Reator de Fusão Aprimorado",
 	"text.jei_mekanism_multiblocks.building.extra_matrix": "Matriz de Indução Reforçada",
 
-	"text.jei_mekanism_multiblocks.enter": "Enter",
+	"text.jei_mekanism_multiblocks.enter": "Entrar",
 	"text.jei_mekanism_multiblocks.specs": "Especificações",
 	"text.jei_mekanism_multiblocks.costs": "Custos",
 	"text.jei_mekanism_multiblocks.results": "Resultados",
@@ -25,6 +25,8 @@
 	"text.jei_mekanism_multiblocks.duration.seconds": "%s s",
 	"text.jei_mekanism_multiblocks.duration.ticks": "%s t",
 	"text.jei_mekanism_multiblocks.example": "Exemplo",
+	"text.jei_mekanism_multiblocks.preview": "Prévia",
+	"text.jei_mekanism_multiblocks.preview.layers": "Camadas: %1$s/%2$s",
 
 	"text.jei_mekanism_multiblocks.specs.width": "Largura: %s",
 	"text.jei_mekanism_multiblocks.specs.width_length": "Largura, Comprimento: %s",
@@ -44,7 +46,7 @@
 	"text.jei_mekanism_multiblocks.specs.water_cooled": "Refrigerado a Água",
 	"text.jei_mekanism_multiblocks.specs.for_sodium_cooling": "Para Refrigeração com Sódio",
 	"text.jei_mekanism_multiblocks.specs.advanced": "Avançado",
-	"text.jei_mekanism_multiblocks.specs.layout": "Layout",
+	"text.jei_mekanism_multiblocks.specs.layout": "Estrutura",
 	"text.jei_mekanism_multiblocks.specs.target_energy": "Energia-Alvo",
 
 	"text.jei_mekanism_multiblocks.result.input_tank": "Tanque de Entrada",
@@ -68,6 +70,7 @@
 	"text.jei_mekanism_multiblocks.result.temp_with": "Temp. com '%s'",
 	"text.jei_mekanism_multiblocks.result.heating_rate_with": "Taxa de Aquecimento de '%s'",
 	"text.jei_mekanism_multiblocks.result.steam_production": "Produção de Vapor",
+	"text.jei_mekanism_multiblocks.result.pcs_production": "Produção de PCS",
 	"text.jei_mekanism_multiblocks.result.passive_generation": "Geração Passiva",
 	"text.jei_mekanism_multiblocks.result.energy_per_antimatter": "Energia por Antimatéria",
 	"text.jei_mekanism_multiblocks.result.energy_per_polonium": "Energia Por Polônio",
@@ -103,5 +106,5 @@
 	"text.jei_mekanism_multiblocks.tooltip.heater_near_and_1_sink_2": "bem ao lado de '%2$s'",
 	"text.jei_mekanism_multiblocks.tooltip.click_to_simulate": "Clique para simular '%s'",
 
-	"_eof": "_eof"
+	"_eof": "eof"
 }

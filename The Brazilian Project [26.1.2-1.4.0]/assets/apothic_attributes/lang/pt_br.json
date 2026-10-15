@@ -32,7 +32,7 @@
     "attribute.name.movement_speed.desc": "Velocidade de movimento ao caminhar.",
 
     "attribute.name.entity_interaction_range.desc": "A que distância você pode interagir com entidades, em blocos.",
-    "attribute.name.gravity.desc": "Aceleração em direção ao chão, em blocos/s².",
+    "attribute.name.gravity.desc": "Aceleração em direção ao chão, em blocos/s²",
     "neoforge.name_tag_distance.desc": "A que distância outro jogador deve estar para ver seu nome.",
     "attribute.name.block_interaction_range.desc": "A que distância você pode interagir com blocos, em blocos.",
     "attribute.name.step_height.desc": "Quantos blocos você pode subir sem pular.",
@@ -48,7 +48,7 @@
     "apothic_attributes:crit_chance.desc": "A chance de qualquer dano que você causar ser um acerto crítico, causando dano extra com base no seu Dano Crítico.",
 
     "apothic_attributes:crit_damage": "Dano Crítico",
-    "apothic_attributes:crit_damage.desc": "Multiplicador de dano para acertos críticos, incluindo os acertos críticos de pulo do jogo base.",
+    "apothic_attributes:crit_damage.desc": "Multiplicador de dano para acertos críticos, incluindo os acertos críticos de pulo do jogo padrão.",
 
     "apothic_attributes:cold_damage": "Dano de Frio",
     "apothic_attributes:cold_damage.desc": "Dano mágico bônus aplicado em ataques corpo a corpo, que também aplica lentidão aos inimigos atingidos.",
@@ -98,8 +98,8 @@
     "apothic_attributes:dodge_chance": "Chance de Esquiva",
     "apothic_attributes:dodge_chance.desc": "Chance de se esquivar de um ataque corpo a corpo ou de um projétil.",
 
-    "apothic_attributes:elytra_flight": "Voo com Élitro",
-    "apothic_attributes:elytra_flight.desc": "Se você pode voar como se estivesse usando Elitros.",
+    "apothic_attributes:elytra_flight": "Voo com Élitros",
+    "apothic_attributes:elytra_flight.desc": "Se você pode voar como se estivesse usando Élitros.",
 
     "apothic_attributes:creative_flight": "Voo Criativo",
     "apothic_attributes:creative_flight.desc": "Se você pode voar como se estivesse no Modo Criativo.",
@@ -109,7 +109,7 @@
 
     "comment_id": "MobFx - descriptions are duplicated for JEED support.",
 
-    "effect.apothic_attributes.knowledge": "Conhecimento das Eras",
+    "effect.apothic_attributes.knowledge": "Conhecimento Ancestral",
     "effect.apothic_attributes.vitality": "Estouro de Vitalidade",
     "effect.apothic_attributes.grievous": "Feridas Dolorosas",
     "effect.apothic_attributes.flying": "Voo",
@@ -136,7 +136,6 @@
     "effect.minecraft.poison.desc": "Inflige periodicamente dano não letal.",
     "effect.minecraft.regeneration.desc": "Faz com que você regenere vida ao longo do tempo.",
 
-    "comment_id": "Damage Sources",
 
     "death.attack.apothic_attributes:bleeding": "%1$s sangrou até morrer",
     "death.attack.apothic_attributes:bleeding.item": "%1$s sangrou até morrer devido a %3$s de %2$s",
@@ -178,25 +177,25 @@
     "item.minecraft.lingering_potion.effect.minecraft.mining_fatigue": "Poção Persistente de Exaustão",
     "item.minecraft.tipped_arrow.effect.minecraft.mining_fatigue": "Flecha de Exaustão",
 
-    "item.minecraft.potion.effect.minecraft.wither": "Poção do Wither",
-    "item.minecraft.splash_potion.effect.minecraft.wither": "Poção Arremessável do Wither",
-    "item.minecraft.lingering_potion.effect.minecraft.wither": "Poção Persistente do Wither",
-    "item.minecraft.tipped_arrow.effect.minecraft.wither": "Flecha do Wither",
+    "item.minecraft.potion.effect.minecraft.wither": "Poção de Decomposição",
+    "item.minecraft.splash_potion.effect.minecraft.wither": "Poção Arremessável de Decomposição",
+    "item.minecraft.lingering_potion.effect.minecraft.wither": "Poção Persistente de Decomposição",
+    "item.minecraft.tipped_arrow.effect.minecraft.wither": "Flecha de Decomposição",
 
     "item.minecraft.potion.effect.minecraft.levitation": "Poção de Levitação",
     "item.minecraft.splash_potion.effect.minecraft.levitation": "Poção Arremessável de Levitação",
     "item.minecraft.lingering_potion.effect.minecraft.levitation": "Poção Persistente de Levitação",
     "item.minecraft.tipped_arrow.effect.minecraft.levitation": "Flecha de Levitação",
 
-    "item.minecraft.potion.effect.apothic_attributes.sundering": "Poção Ruptura",
-    "item.minecraft.splash_potion.effect.apothic_attributes.sundering": "Poção Arremessável Ruptura",
-    "item.minecraft.lingering_potion.effect.apothic_attributes.sundering": "Poção Persistente Ruptura",
-    "item.minecraft.tipped_arrow.effect.apothic_attributes.sundering": "Flecha Ruptura",
+    "item.minecraft.potion.effect.apothic_attributes.sundering": "Poção de Ruptura",
+    "item.minecraft.splash_potion.effect.apothic_attributes.sundering": "Poção Arremessável de Ruptura",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.sundering": "Poção Persistente de Ruptura",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.sundering": "Flecha de Ruptura",
 
-    "item.minecraft.potion.effect.apothic_attributes.knowledge": "Poção do Conhecimento das Eras",
-    "item.minecraft.splash_potion.effect.apothic_attributes.knowledge": "Poção Arremessável do Conhecimento das Eras",
-    "item.minecraft.lingering_potion.effect.apothic_attributes.knowledge": "Poção Persistente do Conhecimento das Eras",
-    "item.minecraft.tipped_arrow.effect.apothic_attributes.knowledge": "Flecha do Conhecimento das Eras",
+    "item.minecraft.potion.effect.apothic_attributes.knowledge": "Poção do Conhecimento Ancestral",
+    "item.minecraft.splash_potion.effect.apothic_attributes.knowledge": "Poção Arremessável do Conhecimento Ancestral",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.knowledge": "Poção Persistente do Conhecimento Ancestral",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.knowledge": "Flecha do Conhecimento Ancestral",
 
     "item.minecraft.potion.effect.apothic_attributes.vitality": "Poção de Estouro de Vitalidade",
     "item.minecraft.splash_potion.effect.apothic_attributes.vitality": "Poção Arremessável de Estouro de Vitalidade",

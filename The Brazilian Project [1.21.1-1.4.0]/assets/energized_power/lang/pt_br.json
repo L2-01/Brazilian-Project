@@ -55,7 +55,7 @@
   "advancements.energizedpower.basic_upgrade_module.title": "Módulo de Melhoria Básico",
   "advancements.energizedpower.battery_1.description": "Armazena energia em forma de item.",
   "advancements.energizedpower.battery_1.title": "Baterias",
-  "advancements.energizedpower.battery_10.description": "Esta é a melhor bateria deste mod — desta vez, de verdade!",
+  "advancements.energizedpower.battery_10.description": "Esta é a melhor bateria deste mod - desta vez, de verdade!",
   "advancements.energizedpower.battery_10.title": "A melhor bateria!",
   "advancements.energizedpower.battery_2.description": "Esta bateria pode armazenar tanta energia quanto 4 baterias de Nível I.",
   "advancements.energizedpower.battery_2.title": "Energia x4",
@@ -732,11 +732,11 @@
   "book.energizedpower.front.cover.text": "Este é o guia deste mod!",
   "book.energizedpower.page.alloy_furnace.1": "A Fornalha de Liga pode ser usada para produzir ligas.",
   "book.energizedpower.page.alloy_furnace.2": "Saídas e combustíveis consumidos podem ser extraídos de todos os lados.",
-  "book.energizedpower.page.alloy_furnace.3": "O combustível pode ser inserido por cima e por baixo. As entradas podem ser inseridas por todos os outros lados (Frente: Todos os slots de entrada, Esquerda: Slot de entrada esquerdo, Trás: Slot de entrada do meio, Direita: Slot de entrada direito).",
+  "book.energizedpower.page.alloy_furnace.3": "O combustível pode ser inserido por cima e por baixo. As entradas podem ser inseridas por todos os outros lados (Frente: Todos os espaços de entrada, Esquerda: Espaço de entrada esquerdo, Trás: Espaço de entrada do meio, Direita: Espaço de entrada direito).",
   "book.energizedpower.page.alloys": "Ligas são usadas em muitas receitas e podem ser produzidas na Fornalha de Liga e na Fundição de Indução.",
   "book.energizedpower.page.assembling_machine": "A Máquina de Montagem cria componentes eletrônicos (ex: circuitos).",
   "book.energizedpower.page.auto_crafters.1": "A Bancada Automática fabrica itens automaticamente.",
-  "book.energizedpower.page.auto_crafters.2": "A receita pode ser definida usando os slots de padrão.",
+  "book.energizedpower.page.auto_crafters.2": "A receita pode ser definida usando os espaços de padrão.",
   "book.energizedpower.page.auto_crafters.3": "A Bancada Automática pode lidar com conflitos de receitas, ou seja, receitas com as mesmas entradas. Para fazer isso, use o botão \"Alternar entre receitas\" ou defina o padrão através de um mod visualizador de receitas (como o REI).",
   "book.energizedpower.page.auto_crafters.4": "A versão avançada da Bancada Automática suporta várias receitas ao mesmo tempo.",
   "book.energizedpower.page.auto_press_mold_maker": "O Criador de Molde de Prensa Automático é uma versão automatizada do Criador de Molde de Prensa, mas requer uma Pá para fabricar receitas.",
@@ -839,9 +839,9 @@
   "book.energizedpower.page.energized_crystal_matrix": "A Matriz de Cristal Energizado é usada como estabilizador em algumas máquinas avançadas.",
   "book.energizedpower.page.energized_gold_ingot": "Lingotes de Ouro Energizado são usados para algumas máquinas avançadas (ex: Estação de Carregamento).",
   "book.energizedpower.page.energizer": "O Energizador pode energizar itens de forma muito eficiente.",
-  "book.energizedpower.page.energizing_speed_upgrade_module.1": "Os aprimoramentos de Velocidade de Energização tornam o Energizador mais rápido, mas mantêm o consumo total de energia.",
-  "book.energizedpower.page.energizing_speed_upgrade_module.2": "O consumo de energia por tique aumenta na mesma proporção que a velocidade.",
-  "book.energizedpower.page.energizing_speed_upgrade_module.3": "Ao usar níveis superiores de Aprimoramentos de Velocidade de Energização, é necessário instalar Aprimoramentos de Capacidade de Energia para manter o Energizador funcionando.",
+  "book.energizedpower.page.energizing_speed_upgrades.1": "As melhorias de Velocidade de Energização tornam o Energizador mais rápido, mas mantêm o consumo total de energia igual.",
+  "book.energizedpower.page.energizing_speed_upgrades.2": "O consumo de energia por tique aumentará na mesma proporção que a velocidade.",
+  "book.energizedpower.page.energizing_speed_upgrades.3": "Se níveis mais altos das Melhorias de Velocidade de Energização forem usados, Melhorias de Capacidade de Energia devem ser instaladas para manter o Energizador operacional.",
   "book.energizedpower.page.energy_analyzer.1": "O Analisador de Energia pode ser usado para obter estatísticas de energia. Usado principalmente para blocos de energia sem uma GUI.",
   "book.energizedpower.page.energy_analyzer.2": "Pode ser usado clicando em blocos de energia.",
   "book.energizedpower.page.energy_blocks.table_of_contents.title": "Índice\n(Blocos de Energia)",
@@ -918,7 +918,7 @@
   "book.energizedpower.page.item_conveyor_belt_sorter.4": "As saídas são codificadas por cores (vermelho: primeira saída e sempre no lado esquerdo em relação à entrada, amarelo: segunda saída e no lado oposto em relação à entrada, verde: terceira saída e no lado direito em relação à entrada).",
   "book.energizedpower.page.item_conveyor_belt_sorter.5": "O item será direcionado para a primeira saída onde o filtro corresponder (Prioridade: SAÍDA 1, SAÍDA 2, SAÍDA 3).",
   "book.energizedpower.page.item_conveyor_belt_sorter.6": "O filtro corresponde se pelo menos um item de padrão da linha de filtro de saída corresponder ao item de entrada.",
-  "book.energizedpower.page.item_conveyor_belt_sorter.7": "Os itens de padrão podem ser colocados pegando o item do inventário e clicando com o botão esquerdo em um slot de padrão. O filtro pode ser redefinido clicando com o botão esquerdo sem um item.",
+  "book.energizedpower.page.item_conveyor_belt_sorter.7": "Os itens de padrão podem ser colocados pegando o item do inventário e clicando com o botão esquerdo em um espaço de padrão. O filtro pode ser redefinido clicando com o botão esquerdo sem um item.",
   "book.energizedpower.page.item_conveyor_belt_sorter.8": "Para permitir quaisquer itens, selecione a lista negra sem nenhum item de padrão. Se uma saída não estiver conectada, o filtro deve ser definido como lista branca sem nenhum item de padrão.",
   "book.energizedpower.page.item_conveyor_belt_sorter.9": "Um sinal de redstone de força 15 será emitido se nenhum filtro corresponder (Se nenhuma saída estiver conectada ou se estiver cheia, nenhum sinal de redstone será emitido).",
   "book.energizedpower.page.item_conveyor_belt_splitter": "O Divisor de Correia Transportadora de Itens pega itens da correia transportadora de entrada (Deve estar voltada para o quadrado grande e não deve ser ascendente) e os coloca uniformemente nas correias transportadoras de saída conectadas.",
@@ -950,8 +950,8 @@
   "book.energizedpower.page.ore_dusts": "Pós de minério podem ser fundidos em lingotes.",
   "book.energizedpower.page.plant_growth_chamber.1": "A Câmara de Crescimento de Plantas pode impulsionar o crescimento e o rendimento das plantas.",
   "book.energizedpower.page.plant_growth_chamber.2": "O espaço de entrada superior é destinado às sementes. O espaço de entrada inferior é destinado ao solo.",
-  "book.energizedpower.page.plant_growth_chamber.3": "O slot de entrada esquerdo, opcionalmente utilizável, é o slot de fertilizante.",
-  "book.energizedpower.page.plant_growth_chamber.4": "Quando o slot de fertilizante é usado, multiplicadores de energia e velocidade são aplicados.",
+  "book.energizedpower.page.plant_growth_chamber.3": "O espaço de entrada esquerdo, opcionalmente utilizável, é o espaço de fertilizante.",
+  "book.energizedpower.page.plant_growth_chamber.4": "Quando o espaço de fertilizante é usado, multiplicadores de energia e velocidade são aplicados.",
   "book.energizedpower.page.plant_growth_chamber.5": "As sementes podem ser inseridas pelo norte, leste, sul e oeste. Os fertilizantes podem ser inseridos por cima e por baixo. As saídas podem ser extraídas de todas as faces do bloco.",
   "book.energizedpower.page.plant_growth_chamber.6": "Para automatizar esses blocos, lembre-se de que os rendimentos são aleatórios.",
   "book.energizedpower.page.plates.1": "As chapas são usadas como ingrediente de criação na maioria das máquinas. As chapas podem ser fabricadas com martelos ou usando o compressor.",
@@ -1010,7 +1010,7 @@
   "book.energizedpower.page.transformers.9": "Os transformadores podem ser usados para extrair energia dos túneis de energia do AE2.",
   "book.energizedpower.page.upgrade_configuration": "A maioria das máquinas suporta Módulos de Melhoria. As melhorias não podem ser inseridas automaticamente.",
   "book.energizedpower.page.weather_controller.1": "O Controlador de Clima pode mudar o clima temporariamente. Ele requer energia para fazer isso.",
-  "book.energizedpower.page.weather_controller.2": "Pode ser automatizado com redstone — intensidades do sinal: 15: limpo; 14: chuva; 13: trovoada; 1 a 12 (somente com um Módulo de Aprimoramento de Duração de nível VI instalado): redefine o clima selecionado.",
+  "book.energizedpower.page.weather_controller.2": "Pode ser automatizado com redstone - intensidades do sinal: 15: limpo; 14: chuva; 13: trovoada; 1 a 12 (somente com um Módulo de Aprimoramento de Duração de nível VI instalado): redefine o clima selecionado.",
   "book.energizedpower.page.weather_controller.3": "Também pode ser automatizado com computadores do CCTweaked.",
   "book.energizedpower.page.welcome.1": "Este mod adiciona muitos itens e máquinas relacionados à energia.",
   "book.energizedpower.page.welcome.2": "Wiki oficial do Energized Power",
@@ -1531,7 +1531,7 @@
   "key.category.energizedpower.main": "Energized Power",
   "key.energizedpower.teleporter.use": "Usar Teletransportador",
   "painting.energizedpower.factory.author": "JDDev0",
-  "painting.energizedpower.factory.title": "Factory",
+  "painting.energizedpower.factory.title": "Fábrica",
   "painting.energizedpower.gear.author": "JDDev0",
   "painting.energizedpower.gear.title": "Gear",
   "recipes.energizedpower.in_world_crafting": "Criação no Mundo",
@@ -2244,5 +2244,60 @@
 
   "_template.epblock.elite_machine_frame": "Estrutura de Máquina de Elite",
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "entity.minecraft.villager.electrician": "Eletricista"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
