@@ -9,8 +9,10 @@
     "command.torchmaster.torch_list.completed": "As tochas foram despejadas no arquivo de log",
     "command.torchmaster.entity_dump.completed": "As entidades foram despejadas no arquivo de log",
     "itemGroup.torchmaster": "Torchmaster",
+
     "item.torchmaster.frozen_pearl": "Pérola Congelada",
     "item.torchmaster.frozen_pearl.tooltip": "Limpa luzes residuais de um Lampião de Labareda Selvagem",
+
     "text.config.torchmaster-config.option.feralFlareLanternTickRate": "Taxa de Tiques do Lampião de Labareda Selvagem",
     "text.config.torchmaster-config.option.feralFlareLanternTickRate.tooltip": "Com que frequência o lampião deve tentar posicionar luzes",
     "text.config.torchmaster-config.option.feralFlareLanternLightHardcap": "Limite Máximo de Luzes do Lampião de Labareda Selvagem",
@@ -27,10 +29,11 @@
     "text.config.torchmaster-config.option.blockOnlyNaturalSpawns.tooltip": "Se desativado, a mega tocha e a lâmpada do pavor impedirão gerações de geradores do Minecraft.",
     "text.config.torchmaster-config.option.blockVillageSieges": "Bloquear invasões de vilas",
     "text.config.torchmaster-config.option.blockVillageSieges.tooltip": "A mega tocha impedirá invasões de vilas por zumbis se ativada",
-    "text.config.torchmaster-config.option.megaTorchEntityBlockListOverrides": "Substituições da Lista-Negra de Entidades da Mega Tocha",
+    "text.config.torchmaster-config.option.megaTorchEntityBlockListOverrides": "Substituições da Lista de Bloqueio de Entidades da Mega Tocha",
     "text.config.torchmaster-config.option.megaTorchEntityBlockListOverrides.tooltip": "Veja a Wiki do Torchmaster no GitHub para detalhes",
-    "text.config.torchmaster-config.option.dreadLampEntityBlockListOverrides": "Substituições da Lista-Negra de Entidades da Lâmpada do Pavor",
+    "text.config.torchmaster-config.option.dreadLampEntityBlockListOverrides": "Substituições da Lista de Bloqueio de Entidades da Lâmpada do Pavor",
     "text.config.torchmaster-config.option.dreadLampEntityBlockListOverrides.tooltip": "Veja a Wiki do Torchmaster no GitHub para detalhes",
+
     "screen.torchmaster.volume_gui.title": "Exibição de Alcance de Volume do Torchmaster",
     "screen.torchmaster.volume_gui.toggle_on": "Desligar exibição de alcance",
     "screen.torchmaster.volume_gui.toggle_off": "Ligar exibição de alcance",
