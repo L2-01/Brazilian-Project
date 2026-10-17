@@ -1,0 +1,20 @@
+{
+    "config.citresewn.title": "Configuração do CIT Resewn",
+    "config.citresewn.enabled.title": "Ativado",
+    "config.citresewn.enabled.tooltip": "Se o CIT Resewn deve carregar e injetar cits dos pacotes de recursos",
+    "config.citresewn.mute_errors.title": "Silenciar erros de carregamento",
+    "config.citresewn.mute_errors.tooltip": "Se o CIT Resewn não deve registrar erros de cit no log",
+    "config.citresewn.mute_warns.title": "Silenciar avisos de carregamento",
+    "config.citresewn.mute_warns.tooltip": "Se o CIT Resewn não deve registrar avisos de cit no log",
+    "config.citresewn.citenchantment_scroll_multiplier.title": "Encantamento CIT: Multiplicador de Rolagem",
+    "config.citresewn.citenchantment_scroll_multiplier.tooltip": "Multiplicador geral da velocidade de rolagem das texturas de brilho adicionadas por CITs de encantamento.",
+    "config.citresewn.broken_paths.title": "Permitir caminhos quebrados em pacotes de recursos",
+    "config.citresewn.broken_paths.tooltip": "Permite que pacotes com caminhos de recursos ilegais sejam carregados.\nPode causar problemas!",
+    "config.citresewn.cache_ms.title": "Cache",
+    "config.citresewn.cache_ms.tooltip": "Com que frequência o cache de cit deve ser atualizado.\nValores maiores dão mais desempenho.\nValores menores fazem os cits atualizarem mais rápido.\nTEMPO REAL remove o cache por completo,\n fazendo os itens verificarem cits a cada quadro.",
+    "config.citresewn.cache_ms.ticks.0": "TEMPO REAL",
+    "config.citresewn.cache_ms.ticks.1": "A CADA TIQUE",
+    "config.citresewn.cache_ms.ticks.any": "A CADA %s TIQUES",
+    "pack.incompatible.broken_paths": "(Contém caminhos quebrados)",
+    "pack.incompatible.confirm.broken_paths": "Este pacote contém caminhos quebrados e o suporte a eles pode ser removido no futuro. Contate o autor do pacote para remover este aviso. (~ CIT Resewn)"
+}
