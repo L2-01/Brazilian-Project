@@ -1,0 +1,20 @@
+{
+    "mezz_config.config.name": "Nome: %s",
+    "mezz_config.config.description": "Descrição: %s",
+    "mezz_config.config.valueValues": "Valores Válidos: %s",
+    "mezz_config.config.defaultValue": "Valor Padrão: %s",
+    "mezz_config.config.requiresWorldRestart": "Requer reiniciar o mundo para ter efeito.",
+    "mezz_config.config.requiresGameRestart": "Requer reiniciar o jogo para ter efeito.",
+    "mezz_config.config.fileWatcher": "Monitoramento de Arquivos",
+    "mezz_config.config.fileWatcher.description": "Controla o monitoramento automático de arquivos de configuração e o tempo de recarga.",
+    "mezz_config.config.fileWatcher.enabled": "Monitoramento Automático de Arquivos",
+    "mezz_config.config.fileWatcher.enabled.description": "Monitora automaticamente arquivos de configuração e os recarrega quando são alterados fora do jogo.",
+    "mezz_config.config.fileWatcher.changeSettlingDelayMilliseconds": "Atraso de Estabilização de Mudança",
+    "mezz_config.config.fileWatcher.changeSettlingDelayMilliseconds.description": "Milissegundos de espera após o último evento do sistema de arquivos antes de recarregar os arquivos de configuração alterados.",
+    "mezz_config.config.fileWatcher.missingDirectoryRetryIntervalMilliseconds": "Intervalo de Tentativa para Diretório Ausente",
+    "mezz_config.config.fileWatcher.missingDirectoryRetryIntervalMilliseconds.description": "Milissegundos entre tentativas de começar a monitorar diretórios de configuração que ainda não existem.",
+    "mezz_config.config.logging": "Registro",
+    "mezz_config.config.logging.description": "Controla o registro de diagnóstico opcional do MezzConfig.",
+    "mezz_config.config.logging.logUntranslatedKeys": "Registrar Chaves Não Traduzidas",
+    "mezz_config.config.logging.logUntranslatedKeys.description": "Registra chaves de localização de categoria e valor que estão faltando no idioma ativo. Ativado por padrão em ambientes de desenvolvimento."
+}

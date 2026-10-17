@@ -1,0 +1,20 @@
+{
+    "gui.enderio_conduit_opt.extract_tick": "Freq. de Extração:",
+    "gui.enderio_conduit_opt.math_split": "Divisão Matemática",
+    "gui.enderio_conduit_opt.smart_sleep": "Suspensão Inteligente",
+    "tooltip.enderio_conduit_opt.smart_sleep": "§a[Suspensão Inteligente]§r\nQuando ativado, os canos suspendem automaticamente quando não há nada para transferir.\n§cQuando desativado§r, esta conexão nunca suspende: tenta novamente exatamente na frequência definida, sem backoff (defina a frequência como 1 para cada tique).",
+    "tooltip.enderio_conduit_opt.math_split": "§c[Substitui o Round-Robin do Vanilla]§r\nRecursos extraídos serão estritamente §adivididos matematicamente§r dentro do §emesmo Tique§r.\nA lógica de extração é otimizada, suportando até 1000 extrações contínuas de um único slot.\n§8Adequado para linhas de produção automatizadas que exigem divisão exata, extração contínua ou distribuição síncrona no mesmo Tique.",
+    "tooltip.enderio_conduit_opt.item_single": "Transferência Única: %s Itens",
+    "tooltip.enderio_conduit_opt.item_second": "Transferência por Segundo: %s Itens/s",
+    "tooltip.enderio_conduit_opt.fluid_single": "Transferência Única: %s mB",
+    "tooltip.enderio_conduit_opt.fluid_second": "Transferência por Segundo: %s mB/s",
+    "tooltip.enderio_conduit_opt.energy_effective_rate": "Transferência por Segundo: %s FE/t",
+    "tooltip.enderio_conduit_opt.graph_tick_rate": "Taxa de Transferência: %s tiques/transferência",
+    "key.categories.enderio_conduit_opt": "Otimização de Condutos EIO",
+    "key.enderio_conduit_opt.toggle_auto_insert": "Alternar Modo de Inserção Automática",
+    "message.enderio_conduit_opt.auto_insert_on": "§a[EIO Conduit Opt] Inserção Automática ao Posicionar: Ativada",
+    "message.enderio_conduit_opt.auto_insert_off": "§c[EIO Conduit Opt] Inserção Automática ao Posicionar: Desativada",
+    "tooltip.enderio_conduit_opt.auto_insert_on": "§7Inserção Automática ao Posicionar: §aAtivada",
+    "tooltip.enderio_conduit_opt.auto_insert_off": "§7Inserção Automática ao Posicionar: §cDesativada",
+    "tooltip.enderio_conduit_opt.auto_insert_hint": "§8Pressione %s §8para alternar o modo"
+}
