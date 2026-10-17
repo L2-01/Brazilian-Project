@@ -1,0 +1,26 @@
+{
+  "itemGroup.applied_oritech": "Applied Oritech",
+
+  "block.applied_oritech.me_dock": "Doca ME",
+  "block.applied_oritech.me_pattern_provider_addon": "Complemento de Fornecedor de Padrões ME",
+  "block.applied_oritech.me_interface_addon": "Complemento de Interface ME",
+  "block.applied_oritech.me_extended_pattern_provider_addon": "Complemento de Fornecedor de Padrões Estendido ME",
+  "block.applied_oritech.me_extended_interface_addon": "Complemento de Interface Estendida ME",
+  "tooltip.applied_oritech.me_extended_pattern_provider_addon": "Fornece 36 espaços para padrões. Agachar + botão direito com a mão vazia alterna o retorno automático da saída.",
+  "tooltip.applied_oritech.me_extended_interface_addon": "Fornece 36 espaços de estoque usando o menu de interface paginada do ExtendedAE.",
+
+  "message.applied_oritech.not_attached": "Não conectado: coloque os complementos contra uma Doca ME conectada a uma máquina; instale a doca num espaço de complemento da máquina.",
+  "message.applied_oritech.no_dock": "Nenhuma Doca ME nesta máquina.",
+  "message.applied_oritech.dock_online": "Doca ME online: %s módulos complementares conectados.",
+  "message.applied_oritech.dock_offline": "Doca ME offline: verifique a energia e os canais da rede.",
+  "message.applied_oritech.auto_return": "Retornar resultados para a rede: %s",
+  "message.applied_oritech.toggle_on": "ligado",
+  "message.applied_oritech.toggle_off": "desligado",
+
+  "tooltip.applied_oritech.me_dock": "Conecta os módulos complementares ME desta máquina a uma rede ME. Cada doca e seus complementos compartilham um canal.",
+  "tooltip.applied_oritech.me_pattern_provider_addon": "Permite que a rede ME fabrique usando esta máquina. Envia ingredientes apenas para os espaços de entrada da máquina.",
+  "tooltip.applied_oritech.me_interface_addon": "Mantém os espaços de entrada da máquina abastecidos com os itens que você configurar, solicitando fabricações quando acabam.",
+
+  "config.jade.plugin_applied_oritech.grid_node_state": "Estado da Rede do Applied Oritech",
+  "config.jade.plugin_applied_oritech.pattern_provider": "Fornecedor de Padrões do Applied Oritech"
+}

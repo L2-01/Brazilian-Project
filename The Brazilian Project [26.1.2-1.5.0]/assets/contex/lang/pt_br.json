@@ -1,0 +1,13 @@
+{
+    "label.contex.source_tooltip.ctm.texture": "Textura",
+    "label.contex.source_tooltip.ctm.border": "Borda",
+    "label.contex.source_tooltip.ctm.mirror_parallel": "Espelhar paralelo",
+    "label.contex.source_tooltip.ctm.mirror_perpendicular": "Espelhar perpendicular",
+    "value.contex.source_tooltip.ctm.border": "l: %s, r: %s, t: %s, b: %s",
+    "msg.contex.gen_ctm_tex.no_such_texture": "A textura '%s' especificada não existe",
+    "msg.contex.gen_ctm_tex.texture_animated": "Não é possível gerar textura CTM a partir de textura animada",
+    "msg.contex.gen_ctm_tex.invalid_corner_synth": "Não é possível sintetizar cantos internos com tamanhos de borda ou espelhamento variados",
+    "msg.contex.gen_ctm_tex.gen_failed": "A geração da textura CTM falhou",
+    "msg.contex.gen_ctm_tex.export_failed": "A exportação da textura CTM falhou: %s",
+    "msg.contex.gen_ctm_tex.success": "Textura CTM gerada exportada para %s"
+}
