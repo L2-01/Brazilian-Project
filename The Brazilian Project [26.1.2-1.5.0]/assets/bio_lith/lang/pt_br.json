@@ -1,0 +1,23 @@
+{
+  "modmenu.descriptionTranslation.biolith": "Utilitários de geração de mundo dos Terraformers",
+  "fml.menu.mods.info.description.biolith": "Utilitários de geração de mundo dos Terraformers",
+
+  "biolith.command.describe.header": "valores do bioma",
+  "biolith.command.describe.biome.vanilla": "Bioma vanilla/de dados: ",
+  "biolith.command.describe.biome.terrablender": "Bioma do TerraBlender: ",
+  "biolith.command.describe.biome.moderner_beta": "Bioma do Moderner Beta: ",
+  "biolith.command.describe.biome.replacement": "Bioma substituto: ",
+  "biolith.command.describe.biome.sub": "Sub-bioma selecionado: ",
+  "biolith.command.describe.biome.nearest": "mais próximo: ",
+  "biolith.command.describe.biome.none": "(nenhum)",
+  "biolith.command.describe.biome.scale": "escala",
+  "biolith.command.describe.nonPlayer": "O autor da chamada não é um jogador; forneça uma entidade ou posição.",
+  "biolith.command.describe.notOurs": "A dimensão alvo não é modificada pelo Biolith.",
+  "biolith.command.help": "Opções de comando:\n  §9/biolith help§r - Informações do comando biolith\n  §9/biolith describe§r - Informações de bioma e ruído",
+  "biolith.command.help.missing": "§eNão há ajuda para o comando especificado.",
+  "biolith.command.help.describe": "§9/biolith describe [at (<entity>|<position>)]§r - Informações sobre ruído e seleção de bioma",
+  "biolith.command.hint": "§6(Tente \"§9/biolith help§6\" para informações do comando...)",
+  "biolith.world.minecraft.the_end": "O End",
+  "biolith.world.minecraft.the_nether": "O Nether",
+  "biolith.world.minecraft.overworld": "Superfície"
+}
