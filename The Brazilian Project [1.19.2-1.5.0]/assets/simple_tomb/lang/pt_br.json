@@ -3,16 +3,10 @@
     "simpletomb.grave.grave_cross": "Túmulo em Cruz",
     "simpletomb.grave.grave_normal": "Túmulo Padrão",
     "simpletomb.grave.tombstone": "Lápide",
-
-
     "item.simpletomb.grave_key": "Chave de Túmulo",
-
-
-		"simpletomb.commands.null": "Subcomando inválido; exemplo: /simpletomb latest",
-		"simpletomb.commands.latest.null": "Último túmulo não encontrado",
-
+    "simpletomb.commands.null": "Subcomando inválido; exemplo: /simpletomb latest",
+    "simpletomb.commands.latest.null": "Último túmulo não encontrado",
     "simpletomb.message.rip": "R.I.P.",
-
     "simpletomb.message.open_grave.success": "O túmulo desaparece!",
     "simpletomb.message.open_grave.need_owner": "Somente o dono do túmulo pode abrir isto",
     "simpletomb.message.recover_lost_items": "Você recuperou seus itens perdidos",
@@ -24,16 +18,9 @@
     "simpletomb.message.fail_to_place_grave": "Não foi possível colocar o túmulo!",
     "simpletomb.message.new_grave": "Túmulo criado em: %s",
     "simpletomb.message.journeymap": "[name:\"Túmulo\", x:%d, y:%d, z:%d, dim:\"%d\"]",
-
-
     "simpletomb.message.no_save_to_restore": "Não há salvamento para restaurar",
-
-
     "simpletomb.message.day": "Dias: %d",
-
     "simpletomb.message.distance": "Distância: %d [%d, %d, %d] na dimensão %d",
-
-
     "_comment": "General",
     "simpletomb.config_cat.general": "Geral",
     "simpletomb.config_cat.general.tooltip": "Opções diversas",
