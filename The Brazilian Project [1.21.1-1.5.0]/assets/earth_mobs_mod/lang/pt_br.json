@@ -61,7 +61,7 @@
     "item.earthmobsmod.bouldering_drowned_spawn_egg": "Ovo Gerador de Afogado Escalador",
     "item.earthmobsmod.lobber_drowned_spawn_egg": "Ovo Gerador de Afogado Arremessador",
     "item.earthmobsmod.bouldering_frozen_zombie_spawn_egg": "Ovo Gerador de Zumbi Congelado Escalador",
-    "item.earthmobsmod.lobber_husk_spawn_egg": "Ovo Gerador de Zumbi-Múmia Arremessador",
+    "item.earthmobsmod.lobber_husk_spawn_egg": "Ovo Gerador de Cascoso Arremessador",
     "item.earthmobsmod.tropical_slime_spawn_egg": "Ovo Gerador de Slime Tropical",
     "item.earthmobsmod.viler_witch_spawn_egg": "Ovo Gerador de Bruxa Pior",
     "item.earthmobsmod.baby_ghast_spawn_egg": "Ovo Gerador de Ghast Filhote",
@@ -104,7 +104,7 @@
     "entity.earthmobsmod.bouldering_drowned": "Afogado Escalador",
     "entity.earthmobsmod.lobber_drowned": "Afogado Arremessador",
     "entity.earthmobsmod.bouldering_frozen_zombie": "Zumbi Congelado Escalador",
-    "entity.earthmobsmod.lobber_husk": "Zumbi-Múmia Arremessador",
+    "entity.earthmobsmod.lobber_husk": "Cascoso Arremessador",
     "entity.earthmobsmod.tropical_slime": "Slime Tropical",
     "entity.earthmobsmod.viler_witch": "Bruxa Pior",
     "entity.earthmobsmod.baby_ghast": "Ghast Filhote",
@@ -162,8 +162,8 @@
     "subtitles.item.horn": "Toca chifre",
     "entity.earthmobsmod.baby_ghast.sit": "%1$s agora está sentado",
     "entity.earthmobsmod.baby_ghast.standing": "%1$s agora está de pé",
-    "death.attack.earthmobsmod.burning_attack": "%1$s foi incinerado por %2$s",
-    "death.attack.earthmobsmod.zombified": "%1$s foi zumbificado",
+    "death.attack.earthmobsmod.burning_attack": "%2$s incinerou %1$s",
+    "death.attack.earthmobsmod.zombified": "%1$s zumbificou-se",
     "instrument.earthmobsmod.wooden_horn": "Chifre de Madeira",
     "instrument.earthmobsmod.battle_horn": "Chifre de Batalha"
 }

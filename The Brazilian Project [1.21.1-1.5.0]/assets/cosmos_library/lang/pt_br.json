@@ -1,39 +1,51 @@
 {
     "jei.experience": "XP",
+
     "cosmoslibrary.info.hold.name": "Segure",
+
     "cosmoslibrary.info.shift.name": "Shift",
     "cosmoslibrary.info.ctrl.name": "Ctrl",
     "cosmoslibrary.info.alt.name": "Alt",
+
     "cosmoslibrary.info.fordetails.name": "para mais detalhes.",
     "cosmoslibrary.info.tooltip.energy.name": "Um item que armazena energia.",
     "cosmoslibrary.info.currentpower.name": "Energia Atual:",
     "cosmoslibrary.info.maxpower.name": "Energia Máxima:",
     "cosmoslibrary.info.release.name": "Solte",
     "cosmoslibrary.info.less.name": "para menos detalhes.",
+
     "cosmoslibrary.info.nbt.name": "para informações de NBT.",
     "cosmoslibrary.info.nbt.less.name": "para menos informações de NBT.",
+
     "cosmoslibrary.info.energy.name": "para mais detalhes.",
     "cosmoslibrary.info.energy.less.name": "para menos detalhes.",
+
     "cosmoslibrary.info.tooltip.fluid.name": "Um bloco que armazena um fluido.",
     "cosmoslibrary.tooltip.energy_item.stored": "Energia: ",
     "cosmoslibrary.tooltip.energy_item.stored_suff": " FE",
     "cosmoslibrary.tooltip.energy_item.extract": "Taxa Máx. de Extração: ",
     "cosmoslibrary.tooltip.energy_item.receive": "Taxa Máx. de Recebimento: ",
+
     "cosmoslibrary.tooltip.block_item.items_stored": "Este bloco contém Itens.",
     "cosmoslibrary.tooltip.block_item.fluid_stored": "Fluido: ",
     "cosmoslibrary.tooltip.block_item.fluid_fill_level": "Nível de Preenchimento: ",
     "cosmoslibrary.tooltip.block_item.fluid_stored_suff": " mB",
+
     "cosmoslibrary.info.pickaxe.name": "Picareta que usa energia",
     "cosmoslibrary.info.pickaxe.power.name": "Energia Restante",
+
     "cosmoslibrary.info.energy_item": "Detalhes de Energia:",
+
     "gui.button.side.output_to": "Saída",
     "gui.button.side.input_from": "Entrada",
     "gui.button.side.none": "Nenhum",
     "gui.button.side.disabled": "Desativado",
+
     "gui.info.input.name": "Entrada",
     "gui.info.output.name": "Saída",
     "gui.info.normal.name": "Normal",
     "gui.info.disabled.name": "Desativado",
+
     "cosmoslibrary.channel_state.air.name": "",
     "cosmoslibrary.channel_state.cable_no_conn.name": "Sem Conexão",
     "cosmoslibrary.channel_state.cable.name": "Cabo",
@@ -42,32 +54,44 @@
     "cosmoslibrary.channel_state.interface_input.name": "Interface de Entrada",
     "cosmoslibrary.channel_state.interface_output.name": "Interface de Saída",
     "cosmoslibrary.channel_state.disabled.name": "Desativado",
-    "item.cosmoslibrary.cosmos_wrench": "Chave Inglesa do Cosmos",
+
+    "item.cosmoslibrary.cosmos_wrench": "Chave-Inglesa do Cosmos",
+
     "cosmoslibrary.enum.lock_state.locked": "Trancado",
     "cosmoslibrary.enum.lock_state.unlocked": "Destrancado",
     "cosmoslibrary.enum.lock_state.unknown": "Desconhecido",
+
     "cosmoslibrary.enum.connection_type.screen": "Tela",
     "cosmoslibrary.enum.connection_type.energy": "Energia",
     "cosmoslibrary.enum.connection_type.fluid": "Fluido",
     "cosmoslibrary.enum.connection_type.item": "Item",
+
     "cosmoslibrary.enum.side_state.interface_normal": "Interface Normal",
     "cosmoslibrary.enum.side_state.interface_output": "Interface de Saída",
     "cosmoslibrary.enum.side_state.interface_input": "Interface de Entrada",
     "cosmoslibrary.enum.side_state.disabled": "Desativado",
+
     "cosmoslibrary.enum.side_guide.shown": "Exibido",
     "cosmoslibrary.enum.side_guide.hidden": "Oculto",
+
     "cosmoslibrary.enum.generated.false": "Não Gerado",
     "cosmoslibrary.enum.generated.true": "Gerado",
+
     "cosmoslibrary.enum.trap_players.free": "Livre",
     "cosmoslibrary.enum.trap_players.trapped": "Preso",
+
     "cosmoslibrary.enum.allow_state.allowed": "Permitido",
     "cosmoslibrary.enum.allow_state.blocked": "Bloqueado",
+
     "cosmoslibrary.enum.enable_state.enabled": "Ativado",
     "cosmoslibrary.enum.enable_state.disabled": "Desativado",
+
     "cosmoslibrary.enum.energy_state.fill": "Encher",
     "cosmoslibrary.enum.energy_state.drain": "Drenar",
+
     "cosmoslibrary.enum.generation_mode.item": "Itens Combustíveis",
     "cosmoslibrary.enum.generation_mode.fluid": "Fluidos de Alta Temperatura",
+
     "cosmoslibrary.enum.allowed_entities.none": "Sem Entidades",
     "cosmoslibrary.enum.allowed_entities.entities_only": "Entidades Não-Jogador",
     "cosmoslibrary.enum.allowed_entities.players_only": "Entidades Jogador",
@@ -75,44 +99,59 @@
     "cosmoslibrary.enum.allowed_entities.all": "Todas as Entidades",
     "cosmoslibrary.enum.allowed_entities.hostile_mobs": "Criaturas Hostis",
     "cosmoslibrary.enum.allowed_entities.mobs": "Criaturas Amigáveis",
+
     "cosmoslibrary.enum.ui_mode.dark": "Escuro",
     "cosmoslibrary.enum.ui_mode.light": "Claro",
+
     "cosmoslibrary.enum.ui_help.hidden": "Oculto",
     "cosmoslibrary.enum.ui_help.shown": "Exibido",
+
     "cosmoslibrary.enum.ui_lock.private": "Privado",
     "cosmoslibrary.enum.ui_lock.public": "Público",
+
     "cosmoslibrary.gui.button.direction.down": "Baixo",
     "cosmoslibrary.gui.button.direction.up": "Cima",
     "cosmoslibrary.gui.button.direction.north": "Norte",
     "cosmoslibrary.gui.button.direction.south": "Sul",
     "cosmoslibrary.gui.button.direction.west": "Oeste",
     "cosmoslibrary.gui.button.direction.east": "Leste",
+
     "cosmoslibrary.gui.button.tank_clear": "Shift+Clique para Esvaziar o Tanque de Fluido.",
     "cosmoslibrary.gui.button.tank_clear_shift": "Aviso! Isso não pode ser desfeito.",
+
     "cosmoslibrary.gui.fluid_bar.pre": "Fluido Armazenado: ",
     "cosmoslibrary.gui.fluid_bar.suff": " mB.",
+
     "cosmoslibrary.gui.energy_bar.pre": "Energia Armazenada: ",
     "cosmoslibrary.gui.energy_bar.suff": " FE.",
+
     "cosmoslibrary.gui.generation.pre": "Gerando: ",
     "cosmoslibrary.gui.generation.pre_output": "Enviando: ",
     "cosmoslibrary.gui.generation.suff": " FE/t.",
+
     "cosmoslibrary.gui.energy.fe_rate": " FE/t.",
     "cosmoslibrary.gui.energy.fe_pre": "Usando: ",
+
     "cosmoslibrary.options.off": "DESLIGADO",
     "cosmoslibrary.options.on": "LIGADO",
     "cosmoslibrary.options.off.composed": " DESLIGADO",
     "cosmoslibrary.options.on.composed": " LIGADO",
+
     "cosmoslibrary.options.no": "NÃO",
     "cosmoslibrary.options.yes": "SIM",
     "cosmoslibrary.options.no.composed": " NÃO",
     "cosmoslibrary.options.yes.composed": " SIM",
+
     "cosmoslibrary.gui.ui_mode.info": "Mudar Tema da UI: ",
     "cosmoslibrary.gui.ui_mode.value": "Tema Atual da UI: ",
+
     "cosmoslibrary.gui_help_title": "Modo de Ajuda da UI",
     "cosmoslibrary.gui.ui_help.info": "Mostrar Ajuda da UI: ",
     "cosmoslibrary.gui.ui_help.value": "Ajuda da UI atualmente: ",
+
     "cosmoslibrary.gui.ui_lock.info": "Mudar Estado de Bloqueio da UI: ",
     "cosmoslibrary.gui.ui_lock.value": "Estado Atual de Bloqueio da UI: ",
+
     "cosmoslibrary.gui.colour.info": "Mudar a cor atual:",
     "cosmoslibrary.gui.colour.value": "Cor Atual: "
 }

@@ -41,7 +41,7 @@
     "config.bridgingmod.option.delayPostBridging": "Atraso Pós-Ponte",
     "config.bridgingmod.option.delayPostBridging.description.0": "Quantos tiques precisam passar (20 tiques = 1 segundo) antes que você possa fazer ponte com outro bloco? Isso afeta a velocidade de construção enquanto você segura o botão de colocar blocos.\n",
     "config.bridgingmod.option.delayPostBridging.description.1": "3 = Mais fácil de fazer Ponte",
-    "config.bridgingmod.option.delayPostBridging.description.2": "4 = Comportamento do Jogo Padrão",
+    "config.bridgingmod.option.delayPostBridging.description.2": "4 = Comportamento Vanilla",
     "config.bridgingmod.option.supportedBridgeAxes": "Eixo da Ponte",
     "config.bridgingmod.option.supportedBridgeAxes.description.0": "Quer usar a ponte apenas horizontalmente como na edição Bedrock? Esta configuração limita a ponte a certos eixos.",
     "config.bridgingmod.option.supportedBridgeAxesWhenCrouched": "Eixo da Ponte Enquanto Agachado",
@@ -107,5 +107,4 @@
     "config.bridgingmod.option.showNonBridgingDebugHighlight.description.0": "Veja Visuais->Mostrar Contorno de Bloco Sem Ponte, mas com F3",
     "config.bridgingmod.option.showDebugTrace": "Mostrar Rastro do Bloco da Ponte no F3",
     "config.bridgingmod.option.showDebugTrace.description.0": "Contorna levemente todas as posições de blocos que foram verificadas e ignoradas ao tentar encontrar um alvo de ponte. Bastante perturbador!"
-
 }

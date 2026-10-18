@@ -12,19 +12,28 @@
     "jer.config.showDevData.title": "Mostrar informações extras",
     "jer.config.showDevData.description": "Principalmente para devs de pacotes. Recursos incluem mas não se limitam a média de blocos por chunk, ids de entidade, ...",
     "jer.config.hiddenTabs.title": "Ocultar abas adicionadas pelo JER",
-    "_comment": "#Moon Phases",
+    "_comment": "# do not translate strings between quotes as they are used in code",
     "jer.config.hiddenTabs.description": "As abas adicionadas pelo JER são 'dungeon', 'enchantment', 'mob', 'villager', 'worldgen' e 'plant'",
+
+    "_comment": "#Default dimensions",
     "jer.dim.all": "Todas",
     "jer.dim.minecraft:overworld": "Superfície",
     "jer.dim.minecraft:the_nether": "O Nether",
     "jer.dim.minecraft:the_end": "O End",
+
+    "_comment": "#Usage: jer.page pageNumber jer.of lastPage",
     "jer.page": "Página",
     "jer.of": "de",
+    "_comment": "#Usage X jer.stacks",
+    "_comment": "#X will either be \"[max]\" or \"[min] - [max]\"",
     "jer.stacks": "%s Pilhas",
+
     "jer.lightLevel": "Nível de Luz",
     "jer.any": "Qualquer",
     "jer.dim.no": "Sem Dimensões de Geração Válidas",
     "jer.not": "Não",
+
+    "_comment": "#Dungeon View",
     "jer.dungeon.title": "Baús de Masmorra",
     "jer.dungeon.abandonedMineshaftChest": "Mina Abandonada",
     "jer.dungeon.desertPyramidChest": "Templo do Deserto",
@@ -69,8 +78,14 @@
     "jer.dungeon.ruined_portal": "Portal em Ruínas",
     "jer.dungeon.ancient_city": "Cidade Ancestral",
     "jer.dungeon.ancient_city_ice_box": "Caixa de Gelo da Cidade Ancestral",
+
+    "_comment": "#Enchantments View",
     "jer.enchantments.title": "Encantamentos",
+
+    "_comment": "#Plant View",
     "jer.plant.title": "Drops de Plantas",
+
+    "_comment": "#Ore View",
     "jer.worldgen.title": "Geração do Mundo",
     "jer.worldgen.silkTouch": "Requer Toque Suave",
     "jer.worldgen.biomes": "Biomas de Geração",
@@ -81,15 +96,22 @@
     "jer.worldgen.chance": "com %s de chance",
     "jer.worldgen.affectedByFortune": "(Afetado por Fortuna)",
     "jer.worldgen.averageChunk": "Média de blocos por chunk",
+
+    "_comment": "#Mob View",
     "jer.mob.title": "Drops de Criaturas",
     "jer.mob.spawn": "Bioma de Geração:",
     "jer.mob.biome": "Biomas de Geração: passe o mouse aqui",
     "jer.mob.exp": "Experiência",
+
+    "_comment": "#Villager View",
     "jer.villager.title": "Trocas de Aldeões",
     "jer.villager.poi": "Ponto de Interesse",
+
+    "_comment": "#Conditionals - when translating retain '%s' as this lets the modifier be properly inserted into the string",
     "jer.magmaCream.text": "Cubos de Magma pequenos e grandes",
     "jer.slimeBall.text": "Apenas slimes minúsculos",
     "jer.rareDrop.text": "Drop Raro",
+
     "jer.slimeScale.text": "Escala com o tamanho do slime",
     "jer.kingSlime.text": "Apenas slimes rei",
     "jer.beheading.text": "Decapitar aumenta a chance",
@@ -103,8 +125,8 @@
     "jer.notWet.text": "Quando não está molhado",
     "jer.hasPotion.text": "Quando afetado por %s",
     "jer.hasNoPotion.text": "Quando não afetado por %s",
-    "jer.beyond.text": "A mais de %sm do spawn",
-    "jer.nearer.text": "A menos de %sm do spawn",
+    "jer.beyond.text": "A mais de %sm do ponto de nascimento",
+    "jer.nearer.text": "A menos de %sm do ponto de nascimento",
     "jer.raining.text": "Quando chovendo",
     "jer.dry.text": "Quando não está chovendo",
     "jer.thundering.text": "Quando trovejando",
@@ -135,6 +157,8 @@
     "jer.belowLooting.text": "Saque abaixo de %s",
     "jer.killedBy.text": "Quando morto por %s",
     "jer.notKilledBy.text": "Quando não morto por %s",
+
+    "_comment": "#Moon Phases",
     "jer.full.moon": "Cheia",
     "jer.waning_gibbous.moon": "Minguante Gibosa",
     "jer.third_quarter.moon": "Quarto Minguante",

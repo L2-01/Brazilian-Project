@@ -3,9 +3,11 @@
     "loot_category.irons_apothic.staff.plural": "Cajados",
     "loot_category.irons_apothic.spellbook": "Livro de Feitiços",
     "loot_category.irons_apothic.spellbook.plural": "Livros de Feitiços",
+
     "gem_class.staff": "Cajados",
     "gem_class.magic_gear": "Cajados ou Livros de Feitiços",
     "gem_class.spellbook": "Livros de Feitiços",
+
     "item.apotheosis.gem.irons_apothic:core/celsius_tear": "Lágrima de Celsius",
     "item.apotheosis.gem.irons_apothic:core/dragonfire_spessartite": "Espessartita de Fogo de Dragão",
     "item.apotheosis.gem.irons_apothic:core/luminous_opal": "Opala Luminosa",
@@ -16,6 +18,7 @@
     "item.apotheosis.gem.irons_apothic:core/whispering_tentaculite": "Tentaculita Sussurrante",
     "item.apotheosis.gem.irons_apothic:core/charged_lodestone": "Magnetita Carregada",
     "item.apotheosis.gem.irons_apothic:core/mossy_agate": "Ágata Musgosa",
+
     "item.apotheosis.gem.irons_apothic:external/sky_meteoritill": "Meteoritil Celeste",
     "item.apotheosis.gem.irons_apothic:external/sirens_aquamarine": "Água-marinha da Sereia",
     "item.apotheosis.gem.irons_apothic:external/deepsea_heartstone": "Pedra-Coração do Mar Profundo",
@@ -30,10 +33,12 @@
     "item.apotheosis.gem.irons_apothic:external/goetic_stibnite": "Estibnite Goética",
     "item.apotheosis.gem.irons_apothic:external/aeolian_celestite": "Celestita Eólica",
     "item.apotheosis.gem.irons_apothic:external/sepulchral_howlite": "Howlita Sepulcral",
+
     "affix.irons_apothic.target.spell_damage_self": "Ao causar dano de feitiço, ganha %s",
     "affix.irons_apothic.target.spell_damage_target": "Ao causar dano de feitiço, inflige %s",
     "affix.irons_apothic.target.spell_heal_self": "Ao curar com feitiço, ganha %s",
     "affix.irons_apothic.target.spell_heal_target": "Ao curar com feitiço, concede %s",
+
     "affix.irons_apothic.trigger.spell_damage": "Ao causar dano de feitiço, lança %s",
     "affix.irons_apothic.trigger.spell_damage.self": "Ao causar dano de feitiço, lança %s em si",
     "affix.irons_apothic.trigger.spell_heal": "Ao curar com feitiço, lança %s",
@@ -46,6 +51,7 @@
     "affix.irons_apothic.trigger.hurt.self": "Ao ser atacado, lança %s em si",
     "affix.irons_apothic.trigger.shield_block": "Ao bloquear, lança %s",
     "affix.irons_apothic.trigger.shield_block.self": "Ao bloquear, lança %s em si",
+
     "affix.irons_apothic.trigger_imbued.spell_damage": "Ao causar dano de feitiço, lança o feitiço imbuído deste item",
     "affix.irons_apothic.trigger_imbued.spell_damage.self": "Ao causar dano de feitiço, lança em si o feitiço imbuído deste item",
     "affix.irons_apothic.trigger_imbued.spell_heal": "Ao curar com feitiço, lança o feitiço imbuído deste item",
@@ -58,6 +64,7 @@
     "affix.irons_apothic.trigger_imbued.hurt.self": "Ao ser atacado, lança em si o feitiço imbuído deste item",
     "affix.irons_apothic.trigger_imbued.shield_block": "Ao bloquear, lança o feitiço imbuído da sua arma",
     "affix.irons_apothic.trigger_imbued.shield_block.self": "Ao bloquear, lança em si o feitiço imbuído da sua arma",
+
     "affix.irons_apothic:imbued/shield_block": "Tecido-Mágico",
     "affix.irons_apothic:imbued/shield_block.suffix": "da Tecelagem Mágica",
     "affix.irons_apothic:imbued/projectile_hit": "Tecido-Mágico",
@@ -68,6 +75,7 @@
     "affix.irons_apothic:imbued/hurt.suffix": "da Tecelagem Mágica",
     "affix.irons_apothic:imbued/spell_damage": "Tecido-Mágico",
     "affix.irons_apothic:imbued/spell_damage.suffix": "da Tecelagem Mágica",
+
     "affix.irons_apothic:shield/spell/airbending": "Dobrador de Ar",
     "affix.irons_apothic:shield/spell/airbending.suffix": "de Guru Laghima",
     "affix.irons_apothic:shield/spell/projecting": "Projetante",
@@ -80,15 +88,19 @@
     "affix.irons_apothic:shield/spell/tundra_terrain.suffix": "da Tundra",
     "affix.irons_apothic:shield/spell/drapes_of_reflection": "Drapejante",
     "affix.irons_apothic:shield/spell/drapes_of_reflection.suffix": "de Reflexos de Jade",
+
     "affix.irons_apothic.spell_level.desc": "Feitiços de %s lançados serão %s níveis mais altos.",
     "affix.irons_apothic.spell_level.desc.singular": "Feitiços de %s lançados serão %s nível mais alto.",
     "affix.irons_apothic.mana_cost.desc": "Feitiços de %s lançados com esta arma custarão %s%% menos mana.",
+
     "affix.irons_apothic:telepathic": "Telepático",
     "affix.irons_apothic:telepathic.suffix": "do Espaço e do Tempo",
     "affix.irons_apothic:telepathic.desc.staff": "Os drops de criaturas serão teleportados até você.",
+
     "affix.irons_apothic:festive": "Festivo",
     "affix.irons_apothic:festive.suffix": "de Festividade",
     "affix.irons_apothic:festive.desc": "Inimigos mortos têm %s%% de chance de se tornar uma Pinhata de Saque",
+
     "affix.irons_apothic:magic_weapons/attribute/volatile": "Volátil",
     "affix.irons_apothic:magic_weapons/attribute/volatile.suffix": "de Magias Selvagens",
     "affix.irons_apothic:magic_weapons/attribute/intricate": "Intrincado",
@@ -105,6 +117,7 @@
     "affix.irons_apothic:magic_weapons/attribute/brutish.suffix": "de Magias Enérgicas",
     "affix.irons_apothic:magic_weapons/attribute/capacity": "Fonte de Mana",
     "affix.irons_apothic:magic_weapons/attribute/capacity.suffix": "de Reservas Mágicas",
+
     "affix.irons_apothic:magic_weapons/mob_effect/sophisticated": "Sofisticado",
     "affix.irons_apothic:magic_weapons/mob_effect/sophisticated.suffix": "de Sabedoria Elevada",
     "affix.irons_apothic:magic_weapons/mob_effect/elusive": "Evasivo",
@@ -113,6 +126,7 @@
     "affix.irons_apothic:magic_weapons/mob_effect/obliviating.suffix": "do Tomo Ender",
     "affix.irons_apothic:magic_weapons/mob_effect/smothering": "Sufocante",
     "affix.irons_apothic:magic_weapons/mob_effect/smothering.suffix": "da Névoa Esmagadora",
+
     "affix.irons_apothic:magic_weapons/mob_effect/invigorating": "Revigorante",
     "affix.irons_apothic:magic_weapons/mob_effect/invigorating.suffix": "da Vitalidade",
     "affix.irons_apothic:magic_weapons/mob_effect/protective": "Protetor",
@@ -121,48 +135,60 @@
     "affix.irons_apothic:magic_weapons/mob_effect/inspiring.suffix": "do Valor",
     "affix.irons_apothic:magic_weapons/mob_effect/fortifying": "Fortificante",
     "affix.irons_apothic:magic_weapons/mob_effect/fortifying.suffix": "de Resguardo",
+
     "affix.irons_apothic.school.generic": "Todas",
     "affix.irons_apothic.school.none": "Todas",
+
     "affix.irons_apothic:elemental/school_none/attribute": "Arcano",
     "affix.irons_apothic:elemental/school_none/attribute.suffix": "do Arquimago",
     "affix.irons_apothic:elemental/school_none/spell_level": "Adepto",
     "affix.irons_apothic:elemental/school_none/spell_level.suffix": "de Maestria Arcana",
+
     "affix.irons_apothic:elemental/school_eldritch/attribute": "Sobrenatural",
     "affix.irons_apothic:elemental/school_eldritch/attribute.suffix": "de Horrores Sinistros",
     "affix.irons_apothic:elemental/school_eldritch/hasturian": "Hasturiano",
     "affix.irons_apothic:elemental/school_eldritch/hasturian.suffix": "de Abominações Desfiguradas",
+
     "affix.irons_apothic:elemental/school_lightning/attribute": "Carregado",
     "affix.irons_apothic:elemental/school_lightning/attribute.suffix": "de Faíscas Dispersas",
     "affix.irons_apothic:elemental/school_lightning/electromancers": "do Electromante",
     "affix.irons_apothic:elemental/school_lightning/electromancers.suffix": "do Xamã",
+
     "affix.irons_apothic:elemental/school_ender/attribute": "Nascido do Vazio",
     "affix.irons_apothic:elemental/school_ender/attribute.suffix": "de Segredos Esotéricos",
     "affix.irons_apothic:elemental/school_ender/void_seers": "do Vidente do Vazio",
     "affix.irons_apothic:elemental/school_ender/void_seers.suffix": "do Poder Proibido",
+
     "affix.irons_apothic:elemental/school_ice/attribute": "Glacial",
     "affix.irons_apothic:elemental/school_ice/attribute.suffix": "do Congelamento Eterno",
     "affix.irons_apothic:elemental/school_ice/cryomancers": "do Criomante",
     "affix.irons_apothic:elemental/school_ice/cryomancers.suffix": "do Gelo Verdadeiro",
+
     "affix.irons_apothic:elemental/school_holy/attribute": "Sagrado",
     "affix.irons_apothic:elemental/school_holy/attribute.suffix": "dos Céus Eternos",
     "affix.irons_apothic:elemental/school_holy/clerics": "do Clérigo",
     "affix.irons_apothic:elemental/school_holy/clerics.suffix": "de Pureza Inabalável",
+
     "affix.irons_apothic:elemental/school_blood/attribute": "Morto-vivo",
     "affix.irons_apothic:elemental/school_blood/attribute.suffix": "do Rei Esqueleto",
     "affix.irons_apothic:elemental/school_blood/necromancers": "do Necromante",
     "affix.irons_apothic:elemental/school_blood/necromancers.suffix": "de Ressurreição Involuntária",
+
     "affix.irons_apothic:elemental/school_fire/attribute": "Infernal",
     "affix.irons_apothic:elemental/school_fire/attribute.suffix": "de Chamas do Inferno Gritantes",
     "affix.irons_apothic:elemental/school_fire/pyromancers": "do Piromante",
     "affix.irons_apothic:elemental/school_fire/pyromancers.suffix": "da Insanidade",
+
     "affix.irons_apothic:elemental/school_evocation/attribute": "Ardiloso",
     "affix.irons_apothic:elemental/school_evocation/attribute.suffix": "de Trapaça",
     "affix.irons_apothic:elemental/school_evocation/conjurer": "do Conjurador",
     "affix.irons_apothic:elemental/school_evocation/conjurer.suffix": "de Evocação",
+
     "affix.irons_apothic:elemental/school_nature/attribute": "Esmagador",
     "affix.irons_apothic:elemental/school_nature/attribute.suffix": "dos Continentes",
     "affix.irons_apothic:elemental/school_nature/terraformer": "do Terraformador",
     "affix.irons_apothic:elemental/school_nature/terraformer.suffix": "de Altas Montanhas",
+
     "affix.irons_apothic:elemental/school_wind/attribute": "Zéfiro",
     "affix.irons_apothic:elemental/school_wind/attribute.suffix": "de Vendavais Uivantes",
     "affix.irons_apothic:elemental/school_wind/aeromancer": "do Aeromante",
@@ -171,54 +197,69 @@
     "affix.irons_apothic:elemental/school_geo/attribute.suffix": "da Convergência",
     "affix.irons_apothic:elemental/school_geo/geomancers": "do Geomante",
     "affix.irons_apothic:elemental/school_geo/geomancers.suffix": "do Chamado da Terra",
+
+
     "affix.irons_apothic:elemental/school_abyssal/attribute": "Abissal",
     "affix.irons_apothic:elemental/school_abyssal/attribute.suffix": "de Profundezas Submersas",
     "affix.irons_apothic:elemental/school_abyssal/chthonic": "Ctônico",
     "affix.irons_apothic:elemental/school_abyssal/chthonic.suffix": "do Vazio Abaixo",
+
     "affix.irons_apothic:elemental/school_symmetry/attribute": "Simétrico",
     "affix.irons_apothic:elemental/school_symmetry/attribute.suffix": "do Equilíbrio Perfeito",
     "affix.irons_apothic:elemental/school_symmetry/equilibrium": "do Equilíbrio",
     "affix.irons_apothic:elemental/school_symmetry/equilibrium.suffix": "de Almas Espelhadas",
+
     "affix.irons_apothic:elemental/school_spirit/attribute": "Espiritual",
     "affix.irons_apothic:elemental/school_spirit/attribute.suffix": "do Penhasco Azul",
     "affix.irons_apothic:elemental/school_spirit/harmonic": "Harmônico",
     "affix.irons_apothic:elemental/school_spirit/harmonic.suffix": "do Portão sem Portões",
+
     "affix.irons_apothic:elemental/school_sound/attribute": "Sonoro",
     "affix.irons_apothic:elemental/school_sound/attribute.suffix": "de Ondas Ecoantes",
     "affix.irons_apothic:elemental/school_sound/bardic": "Bárdico",
     "affix.irons_apothic:elemental/school_sound/bardic.suffix": "de Harmonia Melodiosa",
+
     "affix.irons_apothic:elemental/school_spellblade/attribute": "Forjado em Feitiço",
     "affix.irons_apothic:elemental/school_spellblade/attribute.suffix": "de Aço Imbuído",
     "affix.irons_apothic:elemental/school_spellblade/blade_dancer": "do Dançarino de Lâminas",
     "affix.irons_apothic:elemental/school_spellblade/blade_dancer.suffix": "de Golpes Arcanos",
+
     "affix.irons_apothic:elemental/school_radiance/attribute": "Blackreach",
     "affix.irons_apothic:elemental/school_radiance/attribute.suffix": "de Cavernas Brilhantes",
     "affix.irons_apothic:elemental/school_radiance/mycelial": "Micelial",
     "affix.irons_apothic:elemental/school_radiance/mycelial.suffix": "de Crescimento Fúngico",
+
     "affix.irons_apothic:elemental/school_shadow/attribute": "Sombrio",
     "affix.irons_apothic:elemental/school_shadow/attribute.suffix": "de Véus Sombrios",
     "affix.irons_apothic:elemental/school_shadow/warlocks": "do Bruxo",
     "affix.irons_apothic:elemental/school_shadow/warlocks.suffix": "de Pactos Vinculantes",
+
     "affix.irons_apothic:elemental/school_hydro/attribute": "Mareal",
     "affix.irons_apothic:elemental/school_hydro/attribute.suffix": "de Correntes Agitadas",
     "affix.irons_apothic:elemental/school_hydro/hydromancer": "do Hidromante",
     "affix.irons_apothic:elemental/school_hydro/hydromancer.suffix": "de Enchentes Varridas",
+
     "affix.irons_apothic:elemental/school_technomancy/attribute": "Tecnomântico",
     "affix.irons_apothic:elemental/school_technomancy/attribute.suffix": "de Maestria Mecânica",
     "affix.irons_apothic:elemental/school_technomancy/technocrat": "do Tecnocrata",
     "affix.irons_apothic:elemental/school_technomancy/technocrat.suffix": "de Feitiçaria Industrial",
+
+
     "affix.irons_apothic:elemental/school_ritual/attribute": "Profano",
     "affix.irons_apothic:elemental/school_ritual/attribute.suffix": "de Ritos Proibidos",
     "affix.irons_apothic:elemental/school_ritual/ritualist": "do Ritualista",
     "affix.irons_apothic:elemental/school_ritual/ritualist.suffix": "de Sacrifícios Sombrios",
+
     "affix.irons_apothic:elemental/school_aero/attribute": "Tempestuoso",
     "affix.irons_apothic:elemental/school_aero/attribute.suffix": "de Rajadas Tempestuosas",
     "affix.irons_apothic:elemental/school_aero/gale_caller": "do Chamador de Vendavais",
     "affix.irons_apothic:elemental/school_aero/gale_caller.suffix": "de Céus Tempestuosos",
+
     "affix.irons_apothic:elemental/school_necro/attribute": "Vinculado ao Lich",
     "affix.irons_apothic:elemental/school_necro/attribute.suffix": "de Decomposição Eterna",
     "affix.irons_apothic:elemental/school_necro/lich": "do Lich",
     "affix.irons_apothic:elemental/school_necro/lich.suffix": "do Filactério",
+
     "affix.irons_apothic:elemental/school_none/mana_cost": "Eficiente",
     "affix.irons_apothic:elemental/school_none/mana_cost.suffix": "de Conservação Arcana",
     "affix.irons_apothic:elemental/school_fire/mana_cost": "Aceso",
@@ -267,6 +308,7 @@
     "affix.irons_apothic:elemental/school_aero/mana_cost.suffix": "do Sopro da Tempestade",
     "affix.irons_apothic:elemental/school_necro/mana_cost": "Decadente",
     "affix.irons_apothic:elemental/school_necro/mana_cost.suffix": "do Sussurro da Morte",
+
     "affix.irons_apothic:elemental/school_blood/armor": "Sanguíneo",
     "affix.irons_apothic:elemental/school_blood/armor.suffix": "do Resguardo de Sangue",
     "affix.irons_apothic:elemental/school_ender/armor": "Tocado pelo Vazio",
@@ -293,6 +335,7 @@
     "affix.irons_apothic:elemental/school_symmetry/armor.suffix": "do Guarda Espelhado",
     "affix.irons_apothic:elemental/school_wind/armor": "Aéreo",
     "affix.irons_apothic:elemental/school_wind/armor.suffix": "da Barreira Celeste",
+
     "affix.irons_apothic:armor/spell/evasive": "Evasivo",
     "affix.irons_apothic:armor/spell/evasive.suffix": "de Fuga de Emergência",
     "affix.irons_apothic:armor/spell/shielding": "Escudado",
@@ -309,6 +352,7 @@
     "affix.irons_apothic:armor/spell/wither_skull.suffix": "de Decomposição Reativa",
     "affix.irons_apothic:armor/spell/energy_burst": "Explosivo",
     "affix.irons_apothic:armor/spell/energy_burst.suffix": "de Energia Radiante",
+
     "affix.irons_apothic:magic_weapons/spell/blessed": "Abençoado",
     "affix.irons_apothic:magic_weapons/spell/blessed.suffix": "de Proteção Divina",
     "affix.irons_apothic:magic_weapons/spell/rejuvenating": "Rejuvenescedor",
@@ -319,6 +363,7 @@
     "affix.irons_apothic:magic_weapons/spell/thunderous.suffix": "de Raio em Cadeia",
     "affix.irons_apothic:magic_weapons/spell/oakskinned": "Pele-de-Carvalho",
     "affix.irons_apothic:magic_weapons/spell/oakskinned.suffix": "de Armadura Natural",
+
     "affix.irons_apothic:melee/spell/frostbite": "Congelante",
     "affix.irons_apothic:melee/spell/frostbite.suffix": "de Passos Gelados",
     "affix.irons_apothic:melee/spell/abyssal_echo": "Abissal",
@@ -349,6 +394,7 @@
     "affix.irons_apothic:melee/spell/vein_ripper.suffix": "de Rasgar Veias",
     "affix.irons_apothic:melee/spell/infernal_strike": "Infernal",
     "affix.irons_apothic:melee/spell/infernal_strike.suffix": "de Golpes Marcados",
+
     "affix.irons_apothic:ranged/spell/fire_arrow": "Flamejante",
     "affix.irons_apothic:ranged/spell/fire_arrow.suffix": "de Impacto Ardente",
     "affix.irons_apothic:ranged/spell/magic_arrow": "Tocado pelo Vazio",

@@ -25,15 +25,21 @@
     "dankstorage.mode.pickup_all": "Coletar Tudo",
     "dankstorage.mode.filtered_pickup": "Coleta Filtrada",
     "dankstorage.mode.void_pickup": "Coleta com Descarte",
+
     "dankstorage.sorting_type.descending": "Ordenar, Decrescente",
     "dankstorage.sorting_type.descending.desc": "Decrescente, ordena da maior para a menor quantidade de itens",
+
     "dankstorage.sorting_type.ascending": "Ordenar, Crescente",
     "dankstorage.sorting_type.ascending.desc": "Crescente, ordena da menor para a maior quantidade de itens",
+
     "dankstorage.sorting_type.registry_name": "Ordenar, Nome de Registro",
     "dankstorage.sorting_type.registry_name.desc": "Nome de registro, ordena por nome de registro em ordem alfabética *excluindo* IDs de mod",
+
     "dankstorage.sorting_type.modid": "Ordenar, ID de Mod",
     "dankstorage.sorting_type.modid.desc": "ID de mod, ordena por ID de mod e depois por nome de registro",
+
     "dankstorage.auto_sort": "Ordenação Automática,",
+
     "key.dankstorage.pickup": "Modo Liga/Desliga",
     "key.dankstorage.construction": "Modo de Construção",
     "key.dankstorage.lock_slot": "Travar Espaço",
@@ -52,7 +58,7 @@
     "text.dankstorage.blacklisted_usage": "Este item não pode ser usado do armazenamento!",
     "text.dankstorage.stacklimit": "Limite de Pilha, %s",
     "text.dankstorage.exact": "Contagem Exata, %s",
-    "text.dankstorage.formatcontaineditems": "%2$s %1$s",
+    "text.dankstorage.formatcontaineditems": "%s %s",
     "text.dankstorage.upgrade_successful": "Melhoria Bem-sucedida",
     "text.dankstorage.lock_button": "Pressione para travar a frequência",
     "text.dankstorage.unlock_button": "Pressione para destravar a frequência",
@@ -72,6 +78,7 @@
     "dankstorage.command.reset_frequency.not_a_dank": "Não é um Dank",
     "dankstorage.command.set_tier.invalid_id": "A frequência não existe",
     "text.dankstorage.compress_button": "Compacta receitas reversíveis 3x3 e 2x2",
+
     "text.dankstorage.pickup_button": "Modos de Coleta \n%s \n%s \n%s \n%s",
     "text.dankstorage.pickup_button.none": "Cinza, %s",
     "text.dankstorage.pickup_button.nonetxt": "Não coleta nada",
@@ -81,8 +88,10 @@
     "text.dankstorage.pickup_button.filteredtxt": "Só coleta itens que já estão presentes no Dank",
     "text.dankstorage.pickup_button.void": "Vermelho, %s",
     "text.dankstorage.pickup_button.voidtxt": "Anula todo excesso dos espaços, tem as mesmas restrições de coleta que o filtrado",
+
     "text.dankstorage.sort_button": "Ordena da maior para a menor",
     "itemGroup.dankstorage": "Dank Storage",
+
     "text.dankstorage.tier_mismatch": "O Dank atual não pode abrir o inventário vinculado; melhore ou troque para uma frequência suportada",
     "text.dankstorage.open_config": "Abrir Configurações"
 }

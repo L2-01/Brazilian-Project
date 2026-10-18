@@ -38,7 +38,7 @@
     "button.apotheosis.disabled": "Desabilitado",
     "button.apotheosis.tier_changes_disabled": "Mudanças Manuais do Nível Mundial estão desabilitadas na configuração.",
     "button.apotheosis.show_detailed_info": "Informação Detalhada",
-    "button.apotheosis.show_detailed_info.desc": "Ver bônus de mobs, bônus de jogadores e raridades",
+    "button.apotheosis.show_detailed_info.desc": "Ver bônus de criaturas, bônus de jogadores e raridades",
     "button.apotheosis.return": "IX",
     "button.apotheosis.return.desc": "Voltar para a tela de seleção de Nível",
     "button.apotheosis.inactive": "Inativo",
@@ -85,7 +85,7 @@
     "key.apotheosis.compare_equipment": "Comparar Equipamento Apontado",
     "key.apotheosis.link_item_to_chat": "Compartilhar Item Apontado no Chat",
 
-    "chat.apotheosis.link_item_with_count": "%2$s %1$s",
+    "chat.apotheosis.link_item_with_count": "%s %s",
 
     "info.apotheosis.affix_item": "Item de afixo apótico",
 
@@ -93,10 +93,10 @@
     "death.attack.apotheosis:execute.item": "%2$s executou %1$s usando %3$s",
     "death.attack.apotheosis:execute.player": "%2$s executou %1$s",
 
-    "misc.apotheosis.affix_name.two": "%2$s %1$s",
-    "misc.apotheosis.affix_name.three": "%2$s %1$s %3$s",
-    "misc.apotheosis.affix_name.four": "%3$s %2$s %4$s de %1$s",
-    "misc.apotheosis.affix_bounds": "[%s\u00A0-\u00A0%s]",
+    "misc.apotheosis.affix_name.two": "%s %s",
+    "misc.apotheosis.affix_name.three": "%s %s %s",
+    "misc.apotheosis.affix_name.four": "%s %s %s %s",
+    "misc.apotheosis.affix_bounds": "[%s - %s]",
 
     "misc.apotheosis.attribute_toggle.updated": "Os bônus de %s agora estão %s",
     "misc.apotheosis.attribute_toggle.none": "Suas botas não têm um afixo de alternância de atributos.",
@@ -276,7 +276,7 @@
 
     "affix.apotheosis:generic/telepathic": "Telepático",
     "affix.apotheosis:generic/telepathic.suffix": "do Espaço e Tempo",
-    "affix.apotheosis:generic/telepathic.desc.weapon": "Os itens largados pelos mobs irão se teletransportar até você.",
+    "affix.apotheosis:generic/telepathic.desc.weapon": "Os itens largados pelas criaturas irão se teletransportar até você.",
     "affix.apotheosis:generic/telepathic.desc.tool": "Os blocos que caem serão teletransportados até você.",
 
     "affix.apotheosis:melee/executing": "Executando",
@@ -568,7 +568,7 @@
     "item.apotheosis.gem.cracked": "%s Rachado",
     "item.apotheosis.gem.chipped": "%s Lascada",
     "item.apotheosis.gem.flawed": "%s Imperfeito",
-    "item.apotheosis.gem.normal": "%s Aberta",
+    "item.apotheosis.gem.normal": "%s",
     "item.apotheosis.gem.flawless": "%s Impecável",
     "item.apotheosis.gem.perfect": "%s Perfeito",
     "item.apotheosis.vial_of_extraction": "Frasco de Extração Arcana",
@@ -786,7 +786,7 @@
     "rarity.apotheosis:ancient": "Ancestral",
 
     "death.attack.apotheosis:psychic": "Um ataque refletido matou %s.",
-    "death.attack.apotheosis:psychic.player": "%s teve seu ataque refletido por %s.",
+    "death.attack.apotheosis:psychic.player": "%2$s refletiu o ataque de %1$s.",
 
     "disconnect.apotheosis.tier_changes_disabled": "Mudanças manuais nos tiers de mundo estão desabilitadas nas configurações.",
 
@@ -808,18 +808,18 @@
     "tooltip.apotheosis.requires_world_tier": "Requer Nível Mundial: %s",
 
     "wave_entity.apotheosis.affixed_armored_zombie": "Zumbi Armadurado com Afixo",
-    "wave_entity.apotheosis.affixed_armored_husk": "Zumbi-Múmia Armadurado com Afixo",
+    "wave_entity.apotheosis.affixed_armored_husk": "Cascoso Armadurado com Afixo",
     "wave_entity.apotheosis.affixed_armored_skeleton": "Esqueleto Armadurado com Afixo",
     "wave_entity.apotheosis.affixed_armored_stray": "Errante Armadurado com Afixo",
     "wave_entity.apotheosis.affixed_polar_bear": "Urso Polar com Afixo",
     "wave_entity.apotheosis.affixed_wolf": "Lobo com Afixo",
     "wave_entity.apotheosis.affixed_armored_bogged": "Pantanoso Armadurado com Afixo",
-    "wave_entity.apotheosis.vampiric_phantom": "Espectro Vampírico",
+    "wave_entity.apotheosis.vampiric_phantom": "Fantasma Vampírico",
     "wave_entity.apotheosis.nether_herald": "Arauto do Nether",
     "wave_entity.apotheosis.affixed_armored_zombified_piglin": "Piglin-Zumbi Armadurado com Afixo",
     "wave_entity.apotheosis.affixed_armored_wither_skeleton": "Esqueleto Wither Armadurado com Afixo",
     "wave_entity.apotheosis.ghast_rider": "Cavaleiro Ghast",
-    "wave_entity.apotheosis.affixed_armored_piglin_brute": "Piglin Bruto Armadurado com Afixo",
+    "wave_entity.apotheosis.affixed_armored_piglin_brute": "Piglin Bárbaro Armadurado com Afixo",
     "wave_entity.apotheosis.bastion_guard": "Bastião Guarda Elite",
     "wave_entity.apotheosis.killer_bunny": "Coelho Assassino",
 

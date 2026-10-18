@@ -80,10 +80,12 @@
     "com.structurize.command.playernotfound": "Não foi possível encontrar o jogador para salvar a varredura!",
     "com.structurize.command.scan.no.perm": "Você não tem permissão para varrer via comandos; use a Ferramenta de Varredura!",
     "com.structurize.command.scan.success": "Varredura salva com sucesso",
+
     "com.structurize.command.paste.no.perm": "Você não tem permissão para colar via comandos; use a Ferramenta de Construção!",
     "com.structurize.command.paste.no.pack": "O pacote especificado não existe",
     "com.structurize.command.paste.no.blueprint": "A planta especificada não existe",
     "com.structurize.command.paste.success": "Colagem acionada com sucesso",
+
     "com.structurize.gui.buildtool.leave.tip": "Clique com o botão direito da ferramenta de construção num bloco sólido para ajustar a posição da construção",
     "com.structurize.gui.buildtool.tip": "Pressione ESC para sair da GUI e inspecionar a prévia",
     "key.structurize.categories.general": "Structurize",
@@ -205,6 +207,7 @@
     "com.ldtteam.structurize.iterators.inwardcircleheight4": "Círculo Fechando Altura 4",
     "com.ldtteam.structurize.iterators.hilbert": "Hilbert",
     "com.ldtteam.structurize.iterators.random": "Aleatório",
+
     "com.ldtteam.structurize.iterators.default.tooltip": "Colocação de Blocos Fileira por Fileira",
     "com.ldtteam.structurize.iterators.inwardcircle.tooltip": "Colocação em Círculo começando de fora",
     "com.ldtteam.structurize.iterators.inwardcircleheight1.tooltip": "Colocação em Círculo, colocando fileiras externas até 1 a mais de altura",
@@ -213,6 +216,7 @@
     "com.ldtteam.structurize.iterators.inwardcircleheight4.tooltip": "Colocação em Círculo, colocando fileiras externas até 4 a mais de altura",
     "com.ldtteam.structurize.iterators.hilbert.tooltip": "Colocação de Blocos Baseada em Proximidade Matemática",
     "com.ldtteam.structurize.iterators.random.tooltip": "Coloca Blocos no plano x/z em ordem aleatória",
+
     "structurize.preview_renderer.exception": "Ocorreu um erro durante a renderização da prévia de planta. Se não se importar, envie o latest.log ao nosso rastreador de problemas. Obrigado!",
     "structurize.preview_renderer.cannot_render": "Erro irrecuperável durante a renderização da planta \"%s\". Se não se importar, envie o latest.log ao nosso rastreador de problemas. Obrigado!",
     "com.ldtteam.structurize.remove_block": "Remover Bloco %s",

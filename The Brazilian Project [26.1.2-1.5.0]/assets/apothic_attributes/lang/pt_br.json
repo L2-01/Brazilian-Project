@@ -48,7 +48,7 @@
     "apothic_attributes:crit_chance.desc": "A chance de qualquer dano que você causar ser um acerto crítico, causando dano extra com base no seu Dano Crítico.",
 
     "apothic_attributes:crit_damage": "Dano Crítico",
-    "apothic_attributes:crit_damage.desc": "Multiplicador de dano para acertos críticos, incluindo os acertos críticos de pulo do jogo padrão.",
+    "apothic_attributes:crit_damage.desc": "Multiplicador de dano para acertos críticos, incluindo os acertos críticos de pulo do jogo base.",
 
     "apothic_attributes:cold_damage": "Dano de Frio",
     "apothic_attributes:cold_damage.desc": "Dano mágico bônus aplicado em ataques corpo a corpo, que também aplica lentidão aos inimigos atingidos.",
@@ -98,18 +98,18 @@
     "apothic_attributes:dodge_chance": "Chance de Esquiva",
     "apothic_attributes:dodge_chance.desc": "Chance de se esquivar de um ataque corpo a corpo ou de um projétil.",
 
-    "apothic_attributes:elytra_flight": "Voo com Élitros",
-    "apothic_attributes:elytra_flight.desc": "Se você pode voar como se estivesse usando Élitros.",
+    "apothic_attributes:elytra_flight": "Voo com Élitro",
+    "apothic_attributes:elytra_flight.desc": "Se você pode voar como se estivesse usando élitros.",
 
     "apothic_attributes:creative_flight": "Voo Criativo",
     "apothic_attributes:creative_flight.desc": "Se você pode voar como se estivesse no Modo Criativo.",
 
-    "apothic_attributes:cooldown_reduction": "Redução de Recarga",
-    "apothic_attributes:cooldown_reduction.desc": "Reduz o tempo de recarga de habilidades e efeitos acionados. O tempo de recarga usa o símbolo ⌛.",
+    "apothic_attributes:cooldown_reduction": "Redução de tempo de recarga",
+    "apothic_attributes:cooldown_reduction.desc": "Reduz o tempo de recarga de habilidades e efeitos ativados. Os tempos de recarga usam o símbolo ⌛.",
 
     "comment_id": "MobFx - descriptions are duplicated for JEED support.",
 
-    "effect.apothic_attributes.knowledge": "Conhecimento Ancestral",
+    "effect.apothic_attributes.knowledge": "Conhecimento das Eras",
     "effect.apothic_attributes.vitality": "Estouro de Vitalidade",
     "effect.apothic_attributes.grievous": "Feridas Dolorosas",
     "effect.apothic_attributes.flying": "Voo",
@@ -177,25 +177,25 @@
     "item.minecraft.lingering_potion.effect.minecraft.mining_fatigue": "Poção Persistente de Exaustão",
     "item.minecraft.tipped_arrow.effect.minecraft.mining_fatigue": "Flecha de Exaustão",
 
-    "item.minecraft.potion.effect.minecraft.wither": "Poção de Decomposição",
-    "item.minecraft.splash_potion.effect.minecraft.wither": "Poção Arremessável de Decomposição",
-    "item.minecraft.lingering_potion.effect.minecraft.wither": "Poção Persistente de Decomposição",
-    "item.minecraft.tipped_arrow.effect.minecraft.wither": "Flecha de Decomposição",
+    "item.minecraft.potion.effect.minecraft.wither": "Poção do Wither",
+    "item.minecraft.splash_potion.effect.minecraft.wither": "Poção Arremessável do Wither",
+    "item.minecraft.lingering_potion.effect.minecraft.wither": "Poção Persistente do Wither",
+    "item.minecraft.tipped_arrow.effect.minecraft.wither": "Flecha do Wither",
 
     "item.minecraft.potion.effect.minecraft.levitation": "Poção de Levitação",
     "item.minecraft.splash_potion.effect.minecraft.levitation": "Poção Arremessável de Levitação",
-    "item.minecraft.lingering_potion.effect.minecraft.levitation": "Poção Persistente de Levitação",
+    "item.minecraft.lingering_potion.effect.minecraft.levitation": "Poção Prolongada de Levitação",
     "item.minecraft.tipped_arrow.effect.minecraft.levitation": "Flecha de Levitação",
 
-    "item.minecraft.potion.effect.apothic_attributes.sundering": "Poção de Ruptura",
-    "item.minecraft.splash_potion.effect.apothic_attributes.sundering": "Poção Arremessável de Ruptura",
-    "item.minecraft.lingering_potion.effect.apothic_attributes.sundering": "Poção Persistente de Ruptura",
-    "item.minecraft.tipped_arrow.effect.apothic_attributes.sundering": "Flecha de Ruptura",
+    "item.minecraft.potion.effect.apothic_attributes.sundering": "Poção Ruptura",
+    "item.minecraft.splash_potion.effect.apothic_attributes.sundering": "Poção Arremessável Ruptura",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.sundering": "Poção Persistente Ruptura",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.sundering": "Flecha Ruptura",
 
-    "item.minecraft.potion.effect.apothic_attributes.knowledge": "Poção do Conhecimento Ancestral",
-    "item.minecraft.splash_potion.effect.apothic_attributes.knowledge": "Poção Arremessável do Conhecimento Ancestral",
-    "item.minecraft.lingering_potion.effect.apothic_attributes.knowledge": "Poção Persistente do Conhecimento Ancestral",
-    "item.minecraft.tipped_arrow.effect.apothic_attributes.knowledge": "Flecha do Conhecimento Ancestral",
+    "item.minecraft.potion.effect.apothic_attributes.knowledge": "Poção do Conhecimento das Eras",
+    "item.minecraft.splash_potion.effect.apothic_attributes.knowledge": "Poção Arremessável do Conhecimento das Eras",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.knowledge": "Poção Persistente do Conhecimento das Eras",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.knowledge": "Flecha do Conhecimento das Eras",
 
     "item.minecraft.potion.effect.apothic_attributes.vitality": "Poção de Estouro de Vitalidade",
     "item.minecraft.splash_potion.effect.apothic_attributes.vitality": "Poção Arremessável de Estouro de Vitalidade",

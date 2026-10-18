@@ -19,5 +19,21 @@
     "text.wc.setting.heightMultiplier": "Multiplicador de Altura",
     "text.wc.setting.heightMultiplier.tooltip": "Muda o quanto a capa reage ao movimento em Y.",
     "text.wc.setting.computeGravityVector": "Computar Vetor de Gravidade",
-    "text.wc.setting.computeGravityVector.tooltip": "Tenta computar a direção correta da gravidade para a simulação da capa. Pode ter problemas com alguns mods como Iris shaders ou PaperDoll."
+    "text.wc.setting.computeGravityVector.tooltip": "Tenta computar a direção correta da gravidade para a simulação da capa. Pode ter problemas com alguns mods como Iris shaders ou PaperDoll.",
+
+
+
+
+
+
+    "text.trender.name": "Trender",
+    "text.trender.tab.general_options": "Opções",
+    "text.trender.style": "Estilo de UI",
+    "text.trender.style.tooltip": "Muda o Estilo de UI de todos os mods do tr7zw.",
+    "text.trender.style.MODERN": "Moderno",
+    "text.trender.style.MODERN_DARK": "Moderno Escuro",
+    "text.trender.style.VANILLA_OLD": "Vanilla Antigo",
+    "text.trender.style.VANILLA_MODERN": "Vanilla Moderno",
+    "text.trender.sendstacktraces": "Enviar Stacktraces",
+    "text.trender.sendstacktraces.tooltip": "Quando ativado, stacktraces nos registros ou falhas do jogo que contenham referências a mods do tr7zw serão enviadas ao autor do mod via Sentry (Sentry.io) para ajudar a corrigir bugs mais rápido. Nenhuma informação pessoal é coletada ou enviada. (Reinicie o jogo após ativar)"
 }

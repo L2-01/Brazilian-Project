@@ -7,14 +7,14 @@
     "info.gateways.gate_pearl": "Uma Pérola de Portal permite que você invoque um Portal ao usá-la em um bloco.\n\nEla só pode ser usada quando o novo Portal não estiver muito próximo de outro Portal, com base no espaçamento atual.\n",
     "info.gateways.gate_pearl.2": "Um Portal aberto falhará em um surto de raios se não puder gerar uma criatura, se qualquer criatura ativa se afastar demais, ou se o temporizador da horda expirar.\n\nAs recompensas surgirão do Portal conforme forem obtidas.",
 
-    "tooltip.gateways.with_count": "%2$s %1$s",
+    "tooltip.gateways.with_count": "%s %s",
     "tooltip.gateways.dot_with_count": "• %s %s",
     "tooltip.gateways.dot": "• %s",
 
     "tooltip.gateways.scroll": "[rolar]",
-    "tooltip.gateways.shift": "[Segure Shift para Ver Ondas]",
-    "tooltip.gateways.ctrl": "[Segure Ctrl para Ver Recompensas]",
-    "tooltip.gateways.alt": "[Segure Alt para Ver Penalidades]",
+    "tooltip.gateways.shift": "[Shift]",
+    "tooltip.gateways.ctrl": "[Ctrl]",
+    "tooltip.gateways.alt": "[Alt]",
     "tooltip.gateways.true": "Habilitado",
     "tooltip.gateways.false": "Desabilitado",
 
@@ -49,7 +49,7 @@
     "boss.gateways.endless.bot": "Inimigos: %d/%d | Modificadores ativos: %d",
     "boss.gateways.endless.incoming": "Inimigos a caminho: %d",
 
-    "reward.gateways.stack": "%2$s %1$s",
+    "reward.gateways.stack": "%s %s",
     "reward.gateways.entity": "%s %s rolagens de saque",
     "reward.gateways.loot_table": "%s %s rolagens",
     "reward.gateways.chance": "%s de chance de %s",
@@ -57,12 +57,12 @@
     "reward.gateways.summon": "Invoca %s",
 
     "failure.gateways.explosion": "Explosão de raio %s",
-    "failure.gateways.mob_effect": "%s Aberta",
+    "failure.gateways.mob_effect": "%s",
     "failure.gateways.summon": "Invoca %s",
     "failure.gateways.chance": "%s de chance de %s",
 
     "rule.gateways.default": "[era %s]",
-    "rule.gateways.spawn_range": "Alcance de gerador: %s",
+    "rule.gateways.spawn_range": "Alcance de surgimento: %s",
     "rule.gateways.leash_range": "Alcance de coleira: %s",
     "rule.gateways.allow_discarding": "Permitir descarte: %s",
     "rule.gateways.allow_dim_change": "Permitir mudança de dimensão: %s",
@@ -105,7 +105,7 @@
 
     "name.gateways.necrotic_farmer": "Fazendeiro Necrótico",
     "name.gateways.undead_legionnaire": "Legionário Morto-vivo",
-    "name.gateways.withered_ranger": "Guardião Definhado",
+    "name.gateways.withered_ranger": "Arqueiro Definhado",
     "name.gateways.butcher": "Açougueiro",
     "name.gateways.huge_slime": "Slime Gigante",
     "name.gateways.magicbane_slime": "Slime Flagelo Mágico",

@@ -1,0 +1,26 @@
+{
+    "key.yamlconfig.configs": "Abrir Tela de Configurações",
+    "key.category.yamlconfig.category": "YAML Config",
+    "yamlconfig.screen.configs": "Todas as Configurações",
+    "yamlconfig.screen.config.save": "Salvar Mudanças",
+    "yamlconfig.screen.config.cancel": "Cancelar",
+    "yamlconfig.gui.add_entry": "Adicionar Entrada",
+    "yamlconfig.gui.tooltip.reset_value": "Redefinir Valor",
+    "yamlconfig.gui.validation_error.min_length": "Este campo precisa ter pelo menos %s caracteres",
+    "yamlconfig.gui.validation_error.max_length": "Este campo pode ter no máximo %s caracteres",
+    "yamlconfig.gui.validation_error.pattern": "Este campo precisa seguir o padrão: '%s'",
+    "yamlconfig.gui.validation_error.valid_values": "Este campo precisa ser um dos seguintes valores: %s",
+    "yamlconfig.gui.validation_error.min_value": "Este campo precisa ser pelo menos %s",
+    "yamlconfig.gui.validation_error.max_value": "Este campo pode ser no máximo %s",
+    "yamlconfig.gui.validation_error.invalid_number": "Este campo precisa ser um número",
+    "yamlconfig.gui.validation_error.invalid_date_time": "Este campo precisa seguir o formato: '%s'",
+    "yamlconfig.gui.validation_error.invalid_resource_location": "Este campo precisa ser um local de recurso válido",
+    "yamlconfig.gui.validation_error.invalid_registry_value": "Este valor deste campo não está no registro",
+    "yamlconfig.gui.validation_error.duplicate_key": "Esta chave já está em uso",
+    "yamlconfig.gui.validation_error.empty_key": "Este campo não pode ficar vazio",
+
+    "yamlconfig.gui.value.true": "Ativado",
+    "yamlconfig.gui.value.false": "Desativado",
+
+    "yamlconfig.gui.yaml_only": "Editável apenas no arquivo YAML"
+}

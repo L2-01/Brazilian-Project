@@ -1,9 +1,22 @@
-{
-  "config.deeper_oceans.title": "Configuração do Deeper Oceans",
-  "config.deeper_oceans.option.depth_multiplier": "Multiplicador de Profundidade",
-  "config.deeper_oceans.option.depth_multiplier.tooltip": "O quanto mais profundos os oceanos devem ser em relação ao vanilla.",
-  "config.deeper_oceans.option.monument_offset": "Deslocamento do Monumento",
-  "config.deeper_oceans.option.monument_offset.tooltip": "O quanto os Monumentos Oceânicos vanilla devem ser deslocados para compensar oceanos mais profundos.",
-  "config.deeper_oceans.option.disable_deep_ocean_trial_chambers": "Desativar Câmaras do Desafio em Oceanos Profundos",
-  "config.deeper_oceans.option.disable_deep_ocean_trial_chambers.tooltip": "Desativa a geração de Câmaras do Desafio em biomas de oceano profundo."
-}
+{
+    "config.deeper_oceans.title": "Configuração do Deeper Oceans",
+    "config.deeper_oceans.option.depth_multiplier": "Multiplicador de Profundidade",
+    "config.deeper_oceans.option.depth_multiplier.tooltip": "O quanto mais profundos os oceanos devem ser em relação ao vanilla.",
+    "config.deeper_oceans.option.monument_offset": "Deslocamento do Monumento",
+    "config.deeper_oceans.option.monument_offset.tooltip": "O quanto os Monumentos Oceânicos vanilla devem ser deslocados para compensar oceanos mais profundos.",
+    "config.deeper_oceans.option.disable_deep_ocean_trial_chambers": "Desativar Câmaras do Desafio em Oceanos Profundos",
+    "config.deeper_oceans.option.disable_deep_ocean_trial_chambers.tooltip": "Desativa a geração de Câmaras do Desafio em biomas de oceano profundo.",
+
+
+
+
+
+
+    "config.apollib.default": "Padrão: ",
+    "config.apollib.done": "Salvar e Fechar",
+    "config.apollib.done.tooltip": "Salva suas alterações e fecha a tela.",
+    "config.apollib.export": "Exportar",
+    "config.apollib.export.tooltip": "Exporta o arquivo de configuração atual para a área de transferência.",
+    "config.apollib.back": "Voltar",
+    "config.apollib.back.tooltip": "Fecha esta tela sem salvar nenhuma alteração."
+}

@@ -1,61 +1,88 @@
 {
-  "bbe.config.sodium.pagetext.general": "Geral",
-  "bbe.config.sodium.pagetext.optimizations": "Otimizações",
-  "bbe.config.sodium.pagetext.animations": "Animações",
-  "bbe.config.sodium.pagetext.advanced": "Avançado",
-  "bbe.config.storage.main.optimize.master": "Ativar BBE",
-  "bbe.config.storage.main.optimize.master.tooltip": "Usado para ativar ou desativar o BBE e todas as suas otimizações",
-  "bbe.config.storage.main.misc.shademode": "Modo de Sombra",
-  "bbe.config.storage.main.misc.shademode.tooltip": "Escolhe qual método de sombreamento usar para as entidades de bloco otimizadas pelo BBE. Embora o Sodium possa parecer melhor por aplicar oclusão ambiente e mapas de luz por canto em vez de por face, pode causar uma diferença perceptível quando as entidades de bloco estiverem transitando entre a renderização vanilla e a do Sodium",
-  "bbe.config.storage.main.optimize.chest": "Otimizar Baú",
-  "bbe.config.storage.main.optimize.chest.tooltip": "Usado para ativar ou desativar as otimizações de baú",
-  "bbe.config.storage.main.optimize.shulker": "Otimizar Caixa de Shulker",
-  "bbe.config.storage.main.optimize.shulker.tooltip": "Usado para ativar ou desativar as otimizações de caixa de shulker",
-  "bbe.config.storage.main.optimize.sign": "Otimizar Placa",
-  "bbe.config.storage.main.optimize.sign.tooltip": "Usado para ativar ou desativar as otimizações de placa",
-  "bbe.config.storage.main.optimize.decoratedpot": "Otimizar Vaso Decorado",
-  "bbe.config.storage.main.optimize.decoratedpot.tooltip": "Usado para ativar ou desativar as otimizações de vaso decorado",
-  "bbe.config.storage.main.optimize.banner": "Otimizar Estandarte",
-  "bbe.config.storage.main.optimize.banner.tooltip": "Usado para ativar ou desativar as otimizações de estandarte",
-  "bbe.config.storage.main.optimize.bell": "Otimizar Sino",
-  "bbe.config.storage.main.optimize.bell.tooltip": "Usado para ativar ou desativar as otimizações de sino",
-  "bbe.config.storage.main.optimize.copper_golem_statue": "Otimizar Estátua de Golem de Cobre",
-  "bbe.config.storage.main.optimize.copper_golem_statue.tooltip": "Usado para ativar ou desativar as otimizações de estátua de golem de cobre",
-  "bbe.config.storage.main.optimize.shelf": "Otimizar Prateleira",
-  "bbe.config.storage.main.optimize.shelf.tooltip": "Usado para ativar ou desativar as otimizações de prateleira",
-  "bbe.config.storage.main.optimize.campfire": "Otimizar Fogueira",
-  "bbe.config.storage.main.optimize.campfire.tooltip": "Usado para ativar ou desativar as otimizações de fogueira",
-  "bbe.config.storage.main.optimize.lectern": "Otimizar Atril",
-  "bbe.config.storage.main.optimize.lectern.tooltip": "Usado para ativar ou desativar as otimizações de atril",
-  "bbe.config.storage.main.animation.chest": "Animar Baú",
-  "bbe.config.storage.main.animation.chest.tooltip": "Usado para ativar ou desativar as animações de baú",
-  "bbe.config.storage.main.animation.shulker": "Animar Caixa de Shulker",
-  "bbe.config.storage.main.animation.shulker.tooltip": "Usado para ativar ou desativar as animações de caixa de shulker",
-  "bbe.config.storage.main.animation.bell": "Animar Sino",
-  "bbe.config.storage.main.animation.bell.tooltip": "Usado para ativar ou desativar as animações de sino",
-  "bbe.config.storage.main.animation.decoratedpot": "Animar Vaso Decorado",
-  "bbe.config.storage.main.animation.decoratedpot.tooltip": "Usado para ativar ou desativar as animações de vaso decorado",
-  "bbe.config.storage.main.misc.banner_graphics": "Gráficos de Estandarte",
-  "bbe.config.storage.main.misc.banner_graphics.tooltip": "Decide em qual passe de renderização os estandartes devem ser renderizados, (Rápido = recorte), (Sofisticado = translúcido)",
-  "bbe.config.storage.main.misc.christmas_chest": "Baú de Natal",
-  "bbe.config.storage.main.misc.christmas_chest.tooltip": "Usado para ativar ou desativar as texturas de Natal para baús",
-  "bbe.config.storage.main.misc.render_passes": "Passes de Renderização Extras",
-  "bbe.config.storage.main.misc.render_passes.tooltip": "Decide quantos passes de renderização extras devem manter uma entidade de bloco em seu estado de animação após o fim da animação",
-  "bbe.config.storage.main.misc.sign_text": "Texto de Placa",
-  "bbe.config.storage.main.misc.sign_text.tooltip": "Usado para ativar ou desativar a renderização de texto de placa",
-  "bbe.config.storage.main.misc.sign_text_distance": "Distância de Renderização do Texto de Placa",
-  "bbe.config.storage.main.misc.sign_text_distance.tooltip": "Decide a que distância (blocos) começar a renderizar o texto de placa",
-  "bbe.config.storage.main.misc.sign_text_culling": "Descarte de Texto de Placa",
-  "bbe.config.storage.main.misc.sign_text_culling.tooltip": "Pula a renderização do texto de placa no lado que não está visível. Usado para ativar ou desativar o descarte de faces traseiras do texto de placa",
-  "bbe.config.storage.main.misc.update_scheduler": "Agendador de Atualizações",
-  "bbe.config.storage.main.misc.update_scheduler.tooltip": "Decide qual agendador de atualizações usar: Inteligente atualiza entidades de bloco com base em vários fatores como visibilidade (sem atualizações diretas), enquanto Rápido atualiza imediatamente",
-  "bbe.config.storage.main.misc.update_scheduler.tooltip_notavailable": "Esta opção não está disponível porque um mod incompatível foi detectado!",
-  "bbe.config.storage.main.misc.update_scheduler.type.fast": "Rápido",
-  "bbe.config.storage.main.misc.update_scheduler.type.smart": "Inteligente",
-  "bbe.config.storage.main.misc.banner_graphics.type.fast": "Rápido",
-  "bbe.config.storage.main.misc.banner_graphics.type.fancy": "Sofisticado",
-  "bbe.config.storage.main.misc.shademode.type.sodium": "Sodium",
-  "bbe.config.storage.main.misc.shademode.type.vanilla": "Vanilla",
-  "bbe.config.storage.main.misc.banner_pose": "Pose do Estandarte",
-  "bbe.config.storage.main.misc.banner_pose.tooltip": "Gira a tela/bandeira do estandarte para uma posição predefinida"
-}
+    "bbe.config.sodium.pagetext.general": "Geral",
+    "bbe.config.sodium.pagetext.optimizations": "Otimizações",
+    "bbe.config.sodium.pagetext.animations": "Animações",
+    "bbe.config.sodium.pagetext.advanced": "Avançado",
+
+    "bbe.config.storage.main.optimize.master": "Ativar BBE",
+    "bbe.config.storage.main.optimize.master.tooltip": "Usado para ativar ou desativar o BBE e todas as suas otimizações",
+
+    "bbe.config.storage.main.misc.shademode": "Modo de Sombra",
+    "bbe.config.storage.main.misc.shademode.tooltip": "Escolhe qual método de sombreamento usar para as entidades de bloco otimizadas pelo BBE. Embora o Sodium possa parecer melhor por aplicar oclusão ambiente e mapas de luz por canto em vez de por face, pode causar uma diferença perceptível quando as entidades de bloco estiverem transitando entre a renderização vanilla e a do Sodium",
+
+    "bbe.config.storage.main.optimize.chest": "Otimizar Baú",
+    "bbe.config.storage.main.optimize.chest.tooltip": "Usado para ativar ou desativar as otimizações de baú",
+
+    "bbe.config.storage.main.optimize.shulker": "Otimizar Caixa de Shulker",
+    "bbe.config.storage.main.optimize.shulker.tooltip": "Usado para ativar ou desativar as otimizações de caixa de shulker",
+
+    "bbe.config.storage.main.optimize.sign": "Otimizar Placa",
+    "bbe.config.storage.main.optimize.sign.tooltip": "Usado para ativar ou desativar as otimizações de placa",
+
+    "bbe.config.storage.main.optimize.decoratedpot": "Otimizar Vaso Decorado",
+    "bbe.config.storage.main.optimize.decoratedpot.tooltip": "Usado para ativar ou desativar as otimizações de vaso decorado",
+
+    "bbe.config.storage.main.optimize.banner": "Otimizar Estandarte",
+    "bbe.config.storage.main.optimize.banner.tooltip": "Usado para ativar ou desativar as otimizações de estandarte",
+
+    "bbe.config.storage.main.optimize.bell": "Otimizar Sino",
+    "bbe.config.storage.main.optimize.bell.tooltip": "Usado para ativar ou desativar as otimizações de sino",
+
+    "bbe.config.storage.main.optimize.copper_golem_statue": "Otimizar Estátua de Golem de Cobre",
+    "bbe.config.storage.main.optimize.copper_golem_statue.tooltip": "Usado para ativar ou desativar as otimizações de estátua de golem de cobre",
+
+    "bbe.config.storage.main.optimize.shelf": "Otimizar Prateleira",
+    "bbe.config.storage.main.optimize.shelf.tooltip": "Usado para ativar ou desativar as otimizações de prateleira",
+
+    "bbe.config.storage.main.optimize.campfire": "Otimizar Fogueira",
+    "bbe.config.storage.main.optimize.campfire.tooltip": "Usado para ativar ou desativar as otimizações de fogueira",
+
+    "bbe.config.storage.main.optimize.lectern": "Otimizar Atril",
+    "bbe.config.storage.main.optimize.lectern.tooltip": "Usado para ativar ou desativar as otimizações de atril",
+
+    "bbe.config.storage.main.animation.chest": "Animar Baú",
+    "bbe.config.storage.main.animation.chest.tooltip": "Usado para ativar ou desativar as animações de baú",
+
+    "bbe.config.storage.main.animation.shulker": "Animar Caixa de Shulker",
+    "bbe.config.storage.main.animation.shulker.tooltip": "Usado para ativar ou desativar as animações de caixa de shulker",
+
+    "bbe.config.storage.main.animation.bell": "Animar Sino",
+    "bbe.config.storage.main.animation.bell.tooltip": "Usado para ativar ou desativar as animações de sino",
+
+    "bbe.config.storage.main.animation.decoratedpot": "Animar Vaso Decorado",
+    "bbe.config.storage.main.animation.decoratedpot.tooltip": "Usado para ativar ou desativar as animações de vaso decorado",
+
+    "bbe.config.storage.main.misc.banner_graphics": "Gráficos de Estandarte",
+    "bbe.config.storage.main.misc.banner_graphics.tooltip": "Decide em qual passe de renderização os estandartes devem ser renderizados, (Rápido = recorte), (Sofisticado = translúcido)",
+
+    "bbe.config.storage.main.misc.christmas_chest": "Baú de Natal",
+    "bbe.config.storage.main.misc.christmas_chest.tooltip": "Usado para ativar ou desativar as texturas de Natal para baús",
+
+    "bbe.config.storage.main.misc.render_passes": "Passes de Renderização Extras",
+    "bbe.config.storage.main.misc.render_passes.tooltip": "Decide quantos passes de renderização extras devem manter uma entidade de bloco em seu estado de animação após o fim da animação",
+
+    "bbe.config.storage.main.misc.sign_text": "Texto de Placa",
+    "bbe.config.storage.main.misc.sign_text.tooltip": "Usado para ativar ou desativar a renderização de texto de placa",
+
+    "bbe.config.storage.main.misc.sign_text_distance": "Distância de Renderização do Texto de Placa",
+    "bbe.config.storage.main.misc.sign_text_distance.tooltip": "Decide a que distância (blocos) começar a renderizar o texto de placa",
+
+    "bbe.config.storage.main.misc.sign_text_culling": "Descarte de Texto de Placa",
+    "bbe.config.storage.main.misc.sign_text_culling.tooltip": "Pula a renderização do texto de placa no lado que não está visível. Usado para ativar ou desativar o descarte de faces traseiras do texto de placa",
+
+    "bbe.config.storage.main.misc.update_scheduler": "Agendador de Atualizações",
+    "bbe.config.storage.main.misc.update_scheduler.tooltip": "Decide qual agendador de atualizações usar: Inteligente atualiza entidades de bloco com base em vários fatores como visibilidade (sem atualizações diretas), enquanto Rápido atualiza imediatamente",
+    "bbe.config.storage.main.misc.update_scheduler.tooltip_notavailable": "Esta opção não está disponível porque um mod incompatível foi detectado!",
+
+    "bbe.config.storage.main.misc.update_scheduler.type.fast": "Rápido",
+    "bbe.config.storage.main.misc.update_scheduler.type.smart": "Inteligente",
+
+    "bbe.config.storage.main.misc.banner_graphics.type.fast": "Rápido",
+    "bbe.config.storage.main.misc.banner_graphics.type.fancy": "Sofisticado",
+
+    "bbe.config.storage.main.misc.shademode.type.sodium": "Sodium",
+    "bbe.config.storage.main.misc.shademode.type.vanilla": "Vanilla",
+
+    "bbe.config.storage.main.misc.banner_pose": "Pose do Estandarte",
+    "bbe.config.storage.main.misc.banner_pose.tooltip": "Gira a tela/bandeira do estandarte para uma posição predefinida"
+}

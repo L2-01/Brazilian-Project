@@ -1,5 +1,5 @@
 {
-    "_comment": "# Aspects",
+    "_comment": "General",
     "itemGroup.integrateddynamics": "Integrated Dynamics",
     "general.integrateddynamics.description": "Assuma o controle total e automatizado dos seus dispositivos.",
     "general.integrateddynamics.info.none": "Nenhum",
@@ -1707,7 +1707,7 @@
     "operator.integrateddynamics.parse.basename": "Interpretar",
     "operator.integrateddynamics.parse.tooltip": "Interpretar %s",
 
-    "_comment": "------ Índice de On the Dynamics of Integration ------",
+    "_comment": "------ On the Dynamics of Integration contents ------",
 
     "info_book.integrateddynamics.section.main": "Sobre a Dinâmica da Integração",
     "info_book.integrateddynamics.tag_index": "&oÍndice&r",
@@ -1995,12 +1995,12 @@
 
     "info_book.integrateddynamics.manual.machines.energy_battery": "Bateria de Energia",
     "info_book.integrateddynamics.manual.machines.energy_battery.text1": "As redes do &lIntegrated Dynamics&r podem ser configuradas para consumir energia. Para isso, você pode anexar &lBaterias de Energia&r à rede para adicionar capacidade de armazenamento de energia a ela.",
-    "info_book.integrateddynamics.manual.machines.energy_battery.text2": "Essas baterias aceitam energia baseada em &lRF&r.",
+    "info_book.integrateddynamics.manual.machines.energy_battery.text2": "Essas baterias aceitam energia baseada em &lRF&r e &lTesla&r.",
     "info_book.integrateddynamics.manual.machines.energy_battery.text3": "Aplicar um sinal de redstone ativará o modo de exportação automática de energia para todos os lados.",
     "info_book.integrateddynamics.manual.machines.energy_battery.text4": "Quando esta bateria está no seu inventário, o modo de &lfornecimento automático&r pode ser ativado com shift+clique direito. Quando ativado, esta bateria tentará automaticamente encher os itens que você está segurando nas suas duas mãos com energia.",
 
     "info_book.integrateddynamics.manual.machines.generator": "Gerador",
-    "info_book.integrateddynamics.manual.machines.generator.text1": "Quando você precisar de energia &lRF&r, pode usar o &lGerador&r para criar energia a partir de itens &oqueimáveis&r.",
+    "info_book.integrateddynamics.manual.machines.generator.text1": "Quando você precisar de energia &lRF&r ou &lTesla&r, pode usar o &lGerador&r para criar energia a partir de itens &oqueimáveis&r.",
 
     "info_book.integrateddynamics.manual.machines.mechanical_squeezer": "Prensa Mecânica",
     "info_book.integrateddynamics.manual.machines.mechanical_squeezer.text1": "Chegará um momento em que você terá tido o suficiente de todo esse pular em &lPrensas&r. Se você ainda não tiver automatizado suas &lPrensas&r até lá, talvez seja hora de pensar em fazer uma &lPrensa Mecânica&r. Ela não requer nenhum esforço manual, mas requer energia para funcionar. Isso também a torna significativamente mais rápida que as &lPrensas&r comuns e permite espremer mais coisas com um rendimento maior.",

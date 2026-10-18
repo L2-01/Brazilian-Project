@@ -3,7 +3,7 @@
     "gui.enderio_conduit_opt.math_split": "Divisão Matemática",
     "gui.enderio_conduit_opt.smart_sleep": "Suspensão Inteligente",
     "tooltip.enderio_conduit_opt.smart_sleep": "§a[Suspensão Inteligente]§r\nQuando ativado, os canos suspendem automaticamente quando não há nada para transferir.\n§cQuando desativado§r, esta conexão nunca suspende: tenta novamente exatamente na frequência definida, sem backoff (defina a frequência como 1 para cada tique).",
-    "tooltip.enderio_conduit_opt.math_split": "§c[Substitui o Round-Robin do Vanilla]§r\nRecursos extraídos serão estritamente §adivididos matematicamente§r dentro do §emesmo Tique§r.\nA lógica de extração é otimizada, suportando até 1000 extrações contínuas de um único slot.\n§8Adequado para linhas de produção automatizadas que exigem divisão exata, extração contínua ou distribuição síncrona no mesmo Tique.",
+    "tooltip.enderio_conduit_opt.math_split": "§c[Substitui o Round-Robin do Vanilla]§r\nRecursos extraídos serão estritamente §adivididos matematicamente§r dentro do §emesmo Tique§r.\nA lógica de extração é otimizada, suportando até 1000 extrações contínuas de um único espaço.\n§8Adequado para linhas de produção automatizadas que exigem divisão exata, extração contínua ou distribuição síncrona no mesmo Tique.",
     "tooltip.enderio_conduit_opt.item_single": "Transferência Única: %s Itens",
     "tooltip.enderio_conduit_opt.item_second": "Transferência por Segundo: %s Itens/s",
     "tooltip.enderio_conduit_opt.fluid_single": "Transferência Única: %s mB",
