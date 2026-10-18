@@ -1,4 +1,32 @@
 {
+    "item.fightorflight.pokestaff": "Cajado Poké",
+    "item.fightorflight.pokestaff.desc1": "Modo: ",
+    "item.fightorflight.pokestaff.desc2": "Espaço de movimento: %d",
+    "item.fightorflight.pokestaff.desc3": "Modo de Comando: %s",
+    "item.fightorflight.pokestaff.mode.send": "Enviar comando para o seu Pokémon",
+    "item.fightorflight.pokestaff.mode.selectmoveslot": "Selecionar espaço de movimento",
+    "item.fightorflight.pokestaff.mode.selectcommand": "Escolher o modo de comando deste cajado",
+    "item.fightorflight.pokestaff.command.move_attack": "Ataque em Movimento",
+    "item.fightorflight.pokestaff.command.move": "Mover",
+    "item.fightorflight.pokestaff.command.stay": "Manter Posição",
+    "item.fightorflight.pokestaff.command.attack_target": "Atacar Alvo",
+    "item.fightorflight.pokestaff.command.attack_position": "Atacar Posição (W.I.P.)",
+    "item.fightorflight.pokestaff.command.no_cmd": "Nenhum Comando",
+    "item.fightorflight.pokestaff.command.clear_cmd": "Limpar Todos os Comandos",
+    "item.fightorflight.pokestaff.send.result.move": "Movimento selecionado: ",
+    "item.fightorflight.pokestaff.send.result.command": "Comando selecionado: ",
+    "item.fightorflight.pokestaff.recv.command": "[ %s ] Comando Selecionado: %s",
+    "item.fightorflight.oran_lucky_egg": "Ovo da Sorte de Oran",
+    "key.fightorflight.startbattle": "Iniciar uma batalha com um Pokémon irritado",
+    "key.fightorflight.categories.fightorflight": "Cobblemon Fight or Flight",
+
+
+
+
+
+
+
+
     "text.cloth-config.save_and_done": "Salvar e Sair",
     "text.cloth-config.apply": "Aplicar Alterações",
     "text.cloth-config.quit_config": "Alterações Não Salvas",
@@ -47,31 +75,5 @@
     "option.cloth-config.disableSmoothScroll": "Desativar Rolagem Suave",
     "text.cloth-config.testing.1": "Você desenvolve mods e quer usar %1$s? Acesse %2$s para começar. Você também pode %3$s.",
     "text.cloth-config.testing.2": "Wiki do Cloth Config",
-    "text.cloth-config.testing.3": "clicar aqui para abrir o arquivo de opções do Minecraft sem nenhum motivo específico",
-
-
-
-
-
-
-  "item.fightorflight.pokestaff": "Cajado Poké",
-  "item.fightorflight.pokestaff.desc1": "Modo: ",
-  "item.fightorflight.pokestaff.desc2": "Espaço de movimento: %d",
-  "item.fightorflight.pokestaff.desc3": "Modo de Comando: %s",
-  "item.fightorflight.pokestaff.mode.send": "Enviar comando para o seu Pokémon",
-  "item.fightorflight.pokestaff.mode.selectmoveslot": "Selecionar espaço de movimento",
-  "item.fightorflight.pokestaff.mode.selectcommand": "Escolher o modo de comando deste cajado",
-  "item.fightorflight.pokestaff.command.move_attack": "Ataque em Movimento",
-  "item.fightorflight.pokestaff.command.move": "Mover",
-  "item.fightorflight.pokestaff.command.stay": "Manter Posição",
-  "item.fightorflight.pokestaff.command.attack_target": "Atacar Alvo",
-  "item.fightorflight.pokestaff.command.attack_position": "Atacar Posição (W.I.P.)",
-  "item.fightorflight.pokestaff.command.no_cmd": "Nenhum Comando",
-  "item.fightorflight.pokestaff.command.clear_cmd": "Limpar Todos os Comandos",
-  "item.fightorflight.pokestaff.send.result.move": "Movimento selecionado: ",
-  "item.fightorflight.pokestaff.send.result.command": "Selected command: ",
-  "item.fightorflight.pokestaff.recv.command": "[ %s ] Comando Selecionado: %s",
-  "item.fightorflight.oran_lucky_egg": "Ovo da Sorte de Oran",
-  "key.fightorflight.startbattle": "Iniciar uma batalha com um pokémon irritado",
-  "key.fightorflight.categories.fightorflight": "Cobblemon Fight or Flight"
+    "text.cloth-config.testing.3": "clicar aqui para abrir o arquivo de opções do Minecraft sem nenhum motivo específico"
 }

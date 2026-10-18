@@ -1,28 +1,38 @@
 {
     "clientsort.name": "ClientSort",
+
     "resourcepack.clientsort.dark-mode": "Modo Escuro do ClientSort",
+
     "key.clientsort.edit": "Abrir Editor",
     "key.clientsort.cancelAuto": "Cancelar Operação Automática",
     "key.clientsort.op.sort": "Ordenar",
     "key.clientsort.op.stackFill": "Preencher Pilhas",
     "key.clientsort.op.matchTransfer": "Reabastecer",
     "key.clientsort.op.transfer": "Transferir",
+
     "message.clientsort.installCloth": "Instale a Cloth Config API para acessar as opções do mod.",
     "message.clientsort.configScreenDisabled": "A tela de configuração não está disponível nesta versão.",
     "message.clientsort.viewModrinth": "Ver no Modrinth",
     "message.clientsort.configReloaded": "Configuração do servidor recarregada de '%s'!",
     "message.clientsort.checkLogs": "Confira os registros do jogo para mais informações.",
+
     "title.clientsort.groupSelector": "Editor ClientSort - Selecione um Widget para Editar",
+
     "title.clientsort.positionEditor": "Editor ClientSort",
+
     "title.clientsort.confirm.saveAsDefault": "Salvar Posição do Botão como Padrão",
     "message.clientsort.confirm.saveAsDefault": "Tem certeza de que deseja salvar esta posição de botão como padrão? Se quiser redefinir a posição padrão no futuro, você deve fazê-lo pelo menu principal de opções.",
+
     "title.clientsort.confirm.splitPolicyClass": "Dividir esta Política por Classe",
     "message.clientsort.confirm.splitPolicyClass": "Esta política está atualmente especificada pela classe '%s'. Tem certeza de que deseja criar uma política separada para a classe '%s'? Se quiser reverter esta alteração no futuro, você deve excluir a nova política no menu principal de opções.",
+
     "title.clientsort.confirm.splitPolicyTitle": "Dividir esta Política por Título",
     "message.clientsort.confirm.splitPolicyTitle": "Esta política está atualmente especificada pela classe '%s', sem título. Tem certeza de que deseja criar uma política separada com o título '%s'? Se quiser reverter esta alteração no futuro, você deve excluir a nova política no menu principal de opções.",
+
     "title.clientsort.confirm.disableButtons": "Desativar Botões de Ativação do Inventário",
     "message.clientsort.confirm.disableButtons.1": "Se quiser reativar os botões depois, você deve usar o atalho %s enquanto visualiza um inventário, ou visitar a aba %s na configuração do mod.",
     "message.clientsort.confirm.disableButtons.2": "Tem certeza de que deseja desativar todos os botões?",
+
     "editor.clientsort.buttons": "Botões",
     "editor.clientsort.enabled": "Ativado",
     "editor.clientsort.disabled": "Desativado",
@@ -68,6 +78,7 @@
     "editor.clientsort.policyKey.menu": "Menu Ativo: %s",
     "editor.clientsort.policyKey.unset": "Não definido",
     "editor.clientsort.policyKey.screen": "Tela: %s",
+
     "option.clientsort.general": "Geral",
     "option.clientsort.interactionInterval": "Intervalo de Interação",
     "option.clientsort.interactionInterval.tooltip": "O tempo mínimo, em milissegundos, entre eventos de interação quando a aceleração de servidor não está em uso.",
@@ -89,6 +100,7 @@
     "option.clientsort.transferReverseOrder.tooltip": "Se deve varrer o inventário de origem de trás para frente nas operações de transferência.",
     "option.clientsort.showDebugInfo": "Exibir Informações de Depuração",
     "option.clientsort.showDebugInfo.tooltip": "Se deve exibir informações de depuração na GUI e ativar o log de depuração. O valor será redefinido ao reiniciar o jogo.",
+
     "option.clientsort.sorting": "Ordenação",
     "option.clientsort.sortOrder": "Ordem de Ordenação Padrão",
     "option.clientsort.shiftSortOrder": "Ordem de Ordenação com Shift",
@@ -105,6 +117,7 @@
     "option.clientsort.endOverrideItems.tooltip": "Ao ordenar, os itens desta lista sempre serão ordenados para o fim.",
     "option.clientsort.overrideItems.tooltip.2": "Aceita identificadores de itens como '%s'.",
     "option.clientsort.overrideItems.tooltip.2.item": "minecraft:red_shulker_box",
+
     "option.clientsort.matching": "Correspondência",
     "option.clientsort.alwaysMatchByType": "Sempre Corresponder por Tipo",
     "option.clientsort.alwaysMatchByType.tooltip": "Operações de correspondência de itens sempre corresponderão itens com o mesmo tipo.",
@@ -112,6 +125,7 @@
     "option.clientsort.typeMatchTags.tooltip.1": "Itens com qualquer uma das tags desta lista serão correspondidos somente por tipo.",
     "option.clientsort.typeMatchTags.tooltip.2": "Usado somente se 'Sempre Corresponder por Tipo' estiver desativado.",
     "option.clientsort.typeMatchTags.tooltip.3": "Veja %s para uma lista de tags.",
+
     "option.clientsort.sounds": "Sons",
     "option.clientsort.playSoundSort": "Tocar Sons de Ordenação",
     "option.clientsort.playSoundSort.tooltip": "Se deve tocar sons ao ordenar sem aceleração de servidor.",
@@ -127,9 +141,11 @@
     "option.clientsort.soundVolume": "Volume",
     "option.clientsort.allowSoundOverlap": "Permitir Sobreposição",
     "option.clientsort.allowSoundOverlap.tooltip": "Se deve permitir que o som anterior continue ao iniciar um novo som.",
+
     "option.clientsort.keybinds": "Atalhos",
     "option.clientsort.isolateKeybinds": "Isolar Atalhos",
     "option.clientsort.isolateKeybinds.tooltip": "Se ativada, o ClientSort tentará remover seus próprios atalhos do mapa do Minecraft. Isso pode ajudar a prevenir conflitos, mas pode não ser compatível com mods que alteram o sistema de atalhos.",
+
     "option.clientsort.buttons": "Botões",
     "option.clientsort.showButtons": "Exibir Botões",
     "option.clientsort.showButtons.tooltip": "Se deve exibir botões extras na GUI para operações de inventário.",
@@ -149,6 +165,7 @@
     "option.clientsort.layoutDefaults.tooltip": "Estes valores são usados por políticas que têm o respectivo valor indefinido.",
     "option.clientsort.layoutOffset.x": "Deslocamento X",
     "option.clientsort.layoutOffset.y": "Deslocamento Y",
+
     "option.clientsort.policies": "Políticas",
     "option.clientsort.policies.instructions": "Instruções",
     "option.clientsort.policies.description.1": "A lista de políticas abaixo permite configurar o atalho e as operações de botões de ativação para cada tipo de inventário.",
@@ -166,14 +183,16 @@
     "option.clientsort.policies.description.13": "Nota: os botões de preencher, reabastecer e transferir só são exibidos se ativados tanto no inventário do jogador quanto no contêiner.",
     "option.clientsort.classPolicies": "Políticas de Classe",
     "option.clientsort.classPolicies.tooltip": "Cada uma das entradas abaixo corresponde a um tipo específico de inventário.",
-    "option.clientsort.screenClassBlacklist": "Lista Negra de Classes de Tela",
+    "option.clientsort.screenClassBlacklist": "Lista-Negra de Classes de Tela",
     "option.clientsort.screenClassBlacklist.tooltip": "As políticas acima são baseadas na classe do inventário ou menu. Se quiser desativar botões e ordenação para um tipo específico de tela que não tenha uma classe de inventário ou menu única, adicione-a aqui.",
+
     "hotbarScope.clientsort.HOTBAR": "Hotbar",
     "hotbarScope.clientsort.HOTBAR.tooltip": "A hotbar será processada como um inventário separado.",
     "hotbarScope.clientsort.INVENTORY": "Inventário",
     "hotbarScope.clientsort.INVENTORY.tooltip": "A hotbar será processada como parte do inventário principal.",
     "hotbarScope.clientsort.NONE": "Nenhum",
     "hotbarScope.clientsort.NONE.tooltip": "A hotbar não será processada.",
+
     "extraSlotScope.clientsort.EXTRA": "Extras",
     "extraSlotScope.clientsort.EXTRA.tooltip": "Espaços extras serão processados como um inventário separado.",
     "extraSlotScope.clientsort.HOTBAR": "Hotbar",
@@ -182,22 +201,26 @@
     "extraSlotScope.clientsort.INVENTORY.tooltip": "Espaços extras serão processados como parte do inventário principal.",
     "extraSlotScope.clientsort.NONE": "Nenhum",
     "extraSlotScope.clientsort.NONE.tooltip": "Espaços extras não serão processados.",
+
     "sortOrder.clientsort.none": "Nenhuma",
     "sortOrder.clientsort.alphabet": "Alfabética",
     "sortOrder.clientsort.creative": "Criativa",
     "sortOrder.clientsort.quantity": "Quantidade",
     "sortOrder.clientsort.rawId": "ID Bruto",
+
     "triggerButton.clientsort.SORT": "Ordenar",
     "triggerButton.clientsort.STACK_FILL": "Preencher Pilhas",
     "triggerButton.clientsort.MATCH_TRANSFER": "Reabastecer",
     "triggerButton.clientsort.TRANSFER": "Transferir",
     "triggerButton.clientsort.NONE": "Nenhum",
+
     "payloadResult.clientsort.success": "Operação bem-sucedida.",
     "payloadResult.clientsort.unknown": "O servidor retornou um código de falha não reconhecido.",
     "payloadResult.clientsort.failure": "O servidor encontrou um erro inesperado.",
     "payloadResult.clientsort.failure.unsupportedOp": "O servidor não suporta esta operação neste inventário.",
     "payloadResult.clientsort.failure.invalidData": "O servidor rejeitou esta operação devido a dados de payload inválidos.",
     "payloadResult.clientsort.failure.inconsistentState": "O servidor abortou e desativou esta operação devido a estado de inventário inconsistente.",
+
     "error.clientsort.low": "Baixo demais",
     "error.clientsort.high": "Alto demais",
     "error.clientsort.resourceLocation.parse": "Identificador inválido",

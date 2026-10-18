@@ -1,5 +1,6 @@
 {
     "itemGroup.yungscavebiomes.general": "YUNG's Cave Biomes",
+
     "yungscavebiomes.advancements.root.title": "YUNG's Cave Biomes",
     "yungscavebiomes.advancements.root.description": "Explore o subsolo...",
     "yungscavebiomes.advancements.poke_the_cactus.title": "Não Toque no Cacto",
@@ -16,9 +17,11 @@
     "yungscavebiomes.advancements.frost_potion.description": "Prepare uma Poção de Gelo",
     "yungscavebiomes.advancements.sandstorm_end.title": "Corredores Jateados de Areia",
     "yungscavebiomes.advancements.sandstorm_end.description": "Sobreviva a uma Tempestade de Areia",
+
     "biome.yungscavebiomes.frosted_caves": "Cavernas Congeladas",
     "biome.yungscavebiomes.marble_caves": "Cavernas de Mármore",
     "biome.yungscavebiomes.lost_caves": "Cavernas Perdidas",
+
     "block.yungscavebiomes.icicle": "Estalactite de Gelo",
     "block.yungscavebiomes.frost_lily": "Lírio de Gelo",
     "block.yungscavebiomes.marble": "Mármore",
@@ -45,14 +48,17 @@
     "block.yungscavebiomes.brittle_red_sandstone": "Arenito Vermelho Frágil",
     "block.yungscavebiomes.prickly_peach_cactus": "Cacto de Pêssego Espinhoso",
     "block.yungscavebiomes.prickly_vines": "Trepadeiras Espinhosas",
+
     "entity.yungscavebiomes.ice_cube": "Cubo de Gelo",
     "entity.yungscavebiomes.sand_snapper": "Mordedor de Areia",
     "entity.yungscavebiomes.icicle": "Estalactite de Gelo",
+
     "item.yungscavebiomes.ice_cube_spawn_egg": "Ovo Gerador de Cubo de Gelo",
     "item.yungscavebiomes.sand_snapper_spawn_egg": "Ovo Gerador de Mordedor de Areia",
     "item.yungscavebiomes.prickly_peach": "Pêssego Espinhoso",
     "item.yungscavebiomes.hourglass_pottery_sherd": "Óstraco de Ampulheta",
     "item.yungscavebiomes.clock_pottery_sherd": "Óstraco de Relógio",
+
     "effect.yungscavebiomes.frost": "Gelo",
     "effect.yungscavebiomes.frost.description": "Reduz a velocidade de movimento e aplica dano ao longo do tempo.",
     "effect.yungscavebiomes.buffeted": "Sacudido",
@@ -66,13 +72,17 @@
     "item.minecraft.tipped_arrow.effect.yungscavebiomes.frost": "Flecha de Gelo",
     "item.minecraft.tipped_arrow.effect.yungscavebiomes.strong_frost": "Flecha de Gelo",
     "trim_pattern.yungscavebiomes.ancient": "Enfeite Antigo",
+
     "death.attack.prickly_vines": "Trepadeiras espinhosas perfuraram %1$s até a morte",
     "death.attack.prickly_vines.player": "Trepadeiras espinhosas perfuraram %1$s até a morte enquanto ele tentava escapar de %2$s",
     "death.attack.falling_icicle": "Um pingente de gelo em queda empalou %1$s",
     "death.attack.falling_icicle.player": "Um pingente de gelo em queda empalou %1$s durante a luta contra %2$s",
+
     "subtitles.yungscavebiomes.block.rare_ice.ambient": "Gelo Encantado brilha",
+
     "command.sandstorm.start": "Tempestade de areia iniciada em todas as Cavernas Perdidas em %s.",
     "command.sandstorm.stop": "Tempestade de areia parada em todas as Cavernas Perdidas em %s.",
+
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves": "Cavernas Perdidas",
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.enableSandstorms": "Ativar Tempestades de Areia",
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.extraSandstormParticles": "Renderizar Partículas Extras Durante Tempestades de Areia",
@@ -80,6 +90,7 @@
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.maxSandstormDuration": "Duração Máxima da Tempestade de Areia (segundos)",
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.minTimeBetweenSandstorms": "Tempo Mínimo Entre Tempestades de Areia (segundos)",
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.maxTimeBetweenSandstorms": "Tempo Máximo Entre Tempestades de Areia (segundos)",
+
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.noiseParameters": "Parâmetros de Ruído do Bioma",
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.noiseParameters.temperatureMin": "Temperatura Mínima",
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.noiseParameters.temperatureMax": "Temperatura Máxima",
@@ -94,6 +105,7 @@
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.noiseParameters.weirdnessMin": "Estranheza Mínima",
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.noiseParameters.weirdnessMax": "Estranheza Máxima",
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.noiseParameters.offset": "Deslocamento",
+
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.frostedCaves": "Cavernas Congeladas",
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.frostedCaves.noiseParameters": "Parâmetros de Ruído do Bioma",
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.frostedCaves.noiseParameters.temperatureMin": "Temperatura Mínima",
@@ -109,6 +121,7 @@
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.frostedCaves.noiseParameters.weirdnessMin": "Estranheza Mínima",
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.frostedCaves.noiseParameters.weirdnessMax": "Estranheza Máxima",
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.frostedCaves.noiseParameters.offset": "Deslocamento",
+
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.other": "Outros",
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.other.vanillaBiomeModifications": "Modificações de Biomas do Vanilla",
     "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.other.vanillaBiomeModifications.dripstoneCaves": "Cavernas de espeleotemas",

@@ -271,6 +271,7 @@
     "entity_model_features.config.variable_explanation.optifine_parts": "Nomes de partes do OptiFine:",
     "entity_model_features.config.variable_explanation.unknown_parts": "Nomes de partes não mapeados:",
     "entity_model_features.config.prevent_hand": "Impedir animações da mão em primeira pessoa",
+
     "entity_model_features.config.reset_player": "Redefinir modelo do jogador a cada render",
     "entity_model_features.config.reset_player.tooltip": "Faz o EMF redefinir todas as transformações de partes vanilla dos modelos de jogador bem antes de cada render.\nSó se aplica se houver modelos personalizados para o jogador.\nEste não é o comportamento típico, porém com a quantidade de mods que alteram animações de jogador\nesta configuração reduz muito a dificuldade de compatibilidade de animação de jogador entre mods e pacotes de animação.\nEX.: mods de emotes de jogador.\nEsta compatibilidade ainda requer trabalho do lado dos criadores de pacotes.",
     "entity_model_features.config.models.file_names": "Nomes e localizações de arquivos",

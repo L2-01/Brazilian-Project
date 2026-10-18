@@ -1,10 +1,12 @@
 {
     "cloth_config.sound_physics_remastered.settings": "Configurações do Sound Physics",
+
     "cloth_config.sound_physics_remastered.category.general": "Geral",
     "cloth_config.sound_physics_remastered.category.performance": "Desempenho",
     "cloth_config.sound_physics_remastered.category.reflectivity": "Refletividades de Blocos",
     "cloth_config.sound_physics_remastered.category.occlusion": "Fatores de Oclusão de Blocos",
     "cloth_config.sound_physics_remastered.category.debug": "Depuração",
+
     "cloth_config.sound_physics_remastered.enabled": "Ativar Sound Physics",
     "cloth_config.sound_physics_remastered.enabled.description": "Ativa/Desativa todos os efeitos sonoros.",
     "cloth_config.sound_physics_remastered.simple_voice_chat_integration": "Integração com Simple Voice Chat",
@@ -39,6 +41,7 @@
     "cloth_config.sound_physics_remastered.evaluate_ambient_sounds.description": "Se sons como ambiente de caverna, do Nether ou subaquático devem ter física sonora",
     "cloth_config.sound_physics_remastered.sound_blacklist_regex": "Regex de lista-negra de sons",
     "cloth_config.sound_physics_remastered.sound_blacklist_regex.description": "Esta regex é aplicada a todos os sons que estão tocando. Se corresponder, o som não recebe nenhum efeito.",
+
     "cloth_config.sound_physics_remastered.environment_evaluation_ray_count": "Quantidade de raios de avaliação de ambiente",
     "cloth_config.sound_physics_remastered.environment_evaluation_ray_count.description": "O número de raios a traçar para determinar a reverberação de cada fonte sonora. Mais raios fornecem resultados de traçado mais consistentes, mas levam mais tempo para calcular. Diminua este valor se sentir picos de lag quando sons tocam.",
     "cloth_config.sound_physics_remastered.environment_evaluation_ray_bounces": "Saltos de raios de avaliação de ambiente",
@@ -59,6 +62,7 @@
     "cloth_config.sound_physics_remastered.update_moving_sounds.description": "Se discos de música ou outros sons mais longos devem ser reavaliados frequentemente",
     "cloth_config.sound_physics_remastered.sound_update_interval": "Intervalo de atualização de sons",
     "cloth_config.sound_physics_remastered.sound_update_interval.description": "O intervalo em tiques em que sons em movimento são reavaliados. Valores menores significam reavaliação mais frequente, mas também mais lag. Esta opção só tem efeito se 'Atualizar sons em movimento' estiver ativado.",
+
     "cloth_config.sound_physics_remastered.debug_logging": "Log de depuração",
     "cloth_config.sound_physics_remastered.debug_logging.description": "Ativa o log de depuração.",
     "cloth_config.sound_physics_remastered.occlusion_logging": "Log de oclusão",

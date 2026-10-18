@@ -1,24 +1,32 @@
 {
     "nbtac.options": "Configurações do NBT Autocomplete",
+
     "nbtac.options.style": "Estilo",
     "nbtac.options.suggestions": "Sugestões",
     "nbtac.options.suggestion_priority": "Prioridade de Sugestões",
     "nbtac.options.item_components": "Componentes de Item",
     "nbtac.options.debugging_options": "Opções de Depuração",
+
+
+
     "nbtac.options.field.short_boolean": "Booleano Curto",
     "nbtac.options.field.short_boolean.desc": "Sugere 1b/0b em vez de true/false para valor booleano. Note que não se aplica ao formato JSON bruto, pois ele requer a forma true/false.",
+
     "nbtac.options.field.tag_quotation_marks": "Colocar Tags entre Aspas",
     "nbtac.options.field.tag_quotation_marks.false": "Quando necessário",
     "nbtac.options.field.tag_quotation_marks.true": "Sempre",
     "nbtac.options.field.tag_quotation_marks.desc": "Coloca nomes de tags entre aspas.\ntrue - Sempre\nfalse - Quando necessário",
+
     "nbtac.options.field.string_quotation_marks": "Colocar Strings entre Aspas",
     "nbtac.options.field.string_quotation_marks.false": "Quando necessário",
     "nbtac.options.field.string_quotation_marks.true": "Sempre",
     "nbtac.options.field.string_quotation_marks.desc": "Coloca valores do tipo string entre aspas.\ntrue - Sempre\nfalse - Quando necessário",
+
     "nbtac.options.field.default_quotation_mark": "Aspas Padrão",
     "nbtac.options.field.default_quotation_mark.single": "Simples (')",
     "nbtac.options.field.default_quotation_mark.double": "Duplas (\")",
     "nbtac.options.field.default_quotation_mark.desc": "Define que tipo de aspas será usado por padrão.\nsingle - [']\ndouble - [\"]\nSe você estiver na 1.21.4 ou mais antiga, note que não se aplica a componentes de texto JSON.",
+
     "nbtac.options.field.json_string_suggestion": "Sugestão de String JSON",
     "nbtac.options.field.json_string_suggestion.none": "Nenhuma",
     "nbtac.options.field.json_string_suggestion.recommended": "Recomendada",
@@ -27,55 +35,82 @@
     "nbtac.options.field.json_string_suggestion.legacy_merged": "Legado, Mescladas ('\")",
     "nbtac.options.field.json_string_suggestion.legacy_backslash": "Legado, Barra Invertida (\"\\\")",
     "nbtac.options.field.json_string_suggestion.desc": "Define a sugestão de abertura de string simples para componentes de texto JSON.\nnone - Nenhuma\nrecommended - Igual a \"default_for_strings\" na 1.20.4 e mais novas, igual a \"legacy_separated\" nas mais antigas.\ndefault_for_strings - usa o tipo de aspas da configuração \"Tipo de Aspas Padrão\".\nlegacy_separated - [' \"]\nlegacy_merged - ['\"] - semelhante a legacy_separated, mas sem espaço.\nlegacy_backslash - [\"\\\"].",
+
     "nbtac.options.field.hide_mc_namespace_in_tags": "Ocultar Namespace do Minecraft em Tags",
     "nbtac.options.field.hide_mc_namespace_in_tags.desc": "Oculta o namespace \"minecraft:\" das sugestões de tags.",
+
     "nbtac.options.field.hide_mc_namespace_in_strings": "Ocultar Namespace do Minecraft em Strings",
     "nbtac.options.field.hide_mc_namespace_in_strings.desc": "Oculta o namespace \"minecraft:\" das sugestões de strings.",
+
+
     "nbtac.options.field.ignore_letter_case": "Ignorar Maiúsculas/Minúsculas",
     "nbtac.options.field.ignore_letter_case.desc": "Ignora maiúsculas/minúsculas ao fornecer sugestões de nomes de tags.",
+
     "nbtac.options.field.show_tag_hints": "Mostrar Dicas de Tags",
     "nbtac.options.field.show_tag_hints.desc": "Mostra dicas de tags (como seu tipo ou fonte) ao lado do nome na lista de sugestões.",
+
     "nbtac.options.field.update_on_cursor_movement": "Atualizar ao Mover o Cursor",
     "nbtac.options.field.update_on_cursor_movement.desc": "Atualiza as sugestões ao mover o cursor.\nIsto se aplica a todas as sugestões de comandos, não apenas as fornecidas pelo NBT Autocomplete.\nEsta configuração restaura o comportamento de antes do Minecraft 26.1, e defini-la como false não muda nada nas versões mais antigas.",
+
+
     "nbtac.options.field.custom_sorting": "Ordenação Personalizada",
     "nbtac.options.field.custom_sorting.desc": "Permite que o mod use ordenação de sugestões não alfabética.",
+
     "nbtac.options.field.mark_recommended": "Marcar Recomendadas",
     "nbtac.options.field.mark_recommended.desc": "Marca sugestões recomendadas com \"<*>\" numa dica.",
+
     "nbtac.options.field.recommended_at_the_top": "Recomendadas no Topo",
     "nbtac.options.field.recommended_at_the_top.desc": "Coloca as sugestões recomendadas no topo da lista. Requer ordenação personalizada.",
+
     "nbtac.options.field.mark_irrelevant": "Marcar Irrelevantes",
     "nbtac.options.field.mark_irrelevant.desc": "Marca sugestões irrelevantes com \"<I>\" numa dica.",
+
     "nbtac.options.field.gray_out_irrelevant": "Acinzentar Irrelevantes",
     "nbtac.options.field.gray_out_irrelevant.desc": "Acinzenta as sugestões irrelevantes.",
+
     "nbtac.options.field.placing_of_irrelevant": "Posicionamento das Irrelevantes",
     "nbtac.options.field.placing_of_irrelevant.normal": "Normal",
     "nbtac.options.field.placing_of_irrelevant.at_the_bottom": "No Fim",
     "nbtac.options.field.placing_of_irrelevant.hidden": "Ocultas",
     "nbtac.options.field.placing_of_irrelevant.desc": "Especifica o posicionamento das sugestões irrelevantes.\nValores possíveis: normal, at_the_bottom, hidden\nValores diferentes de \"normal\" requerem a ordenação personalizada ativada.",
+
+
     "nbtac.options.field.hide_mc_namespace_in_components": "Ocultar Namespace do Minecraft em Componentes",
     "nbtac.options.field.hide_mc_namespace_in_components.desc": "Oculta o namespace \"minecraft:\" das sugestões de componentes de item.",
+
     "nbtac.options.field.show_custom_data_as_relevant": "Mostrar \"custom_data\" como Relevante",
     "nbtac.options.field.show_custom_data_as_relevant.desc": "Quando ativado, sempre mostrará o componente de item \"minecraft:custom_data\" como sugestão relevante. Quando desativado, sempre será mostrado como irrelevante.",
+
     "nbtac.options.field.show_custom_model_data_as_relevant": "Mostrar \"custom_model_data\" como Relevante",
     "nbtac.options.field.show_custom_model_data_as_relevant.desc": "Quando ativado, sempre mostrará o componente de item \"minecraft:custom_model_data\" como sugestão relevante. Quando desativado, sempre será mostrado como irrelevante.",
+
     "nbtac.options.field.unknown_item_components": "Componentes de Item Desconhecidos",
     "nbtac.options.field.unknown_item_components.relevant_by_default": "Relevantes por Padrão",
     "nbtac.options.field.unknown_item_components.relevant_within_namespace": "Relevantes no Mesmo Namespace",
     "nbtac.options.field.unknown_item_components.irrelevant_by_default": "Irrelevantes por Padrão",
     "nbtac.options.field.unknown_item_components.desc": "Especifica a relevância padrão de componentes de dados de item desconhecidos.\nIsto se aplica principalmente a componentes de mods.\nSe você vir componentes de item desconhecidos no vanilla (apenas com o NBTac instalado), reporte isto como um problema.\nrelevant_by_default - componentes de item desconhecidos são marcados como relevantes por padrão.\nrelevant_within_namespace - componentes de item desconhecidos são marcados como relevantes apenas se seu ID estiver no mesmo namespace do ID do item.\nirrelevant_by_default - componentes de item desconhecidos são marcados como irrelevantes por padrão.",
+
+
     "nbtac.options.field.vanilla_ids_sorting": "Ordenação de IDs Vanilla",
     "nbtac.options.field.vanilla_ids_sorting.0": "Sem Ordenação Personalizada",
     "nbtac.options.field.vanilla_ids_sorting.1": "Depende",
     "nbtac.options.field.vanilla_ids_sorting.2": "Sempre no Topo",
     "nbtac.options.field.vanilla_ids_sorting.3": "Sempre no Meio",
     "nbtac.options.field.vanilla_ids_sorting.desc": "Especifica o método em que IDs vanilla (no namespace \"minecraft:\") são ordenados em relação a IDs não vanilla (de mods). Aplica-se apenas às sugestões fornecidas pelo NBT Autocomplete. Esta configuração também está fortemente relacionada à configuração \"Ocultar Namespace do Minecraft em Strings\".\n0 - Sem Ordenação Personalizada - com o namespace vanilla oculto fará os IDs ficarem espalhados entre os IDs dos mods, portanto não é recomendado.\n1 - Depende - colocado no topo apenas com o namespace oculto, caso contrário no meio.\n2 - Sempre no Topo\n3 - Sempre no Meio\nOutros valores serão tratados como 1.",
+
+
     "nbtac.options.field.debug_mode": "Modo de Depuração",
     "nbtac.options.field.debug_mode.desc": "Ativa mensagens e verificações adicionais úteis para depuração.",
+
     "nbtac.options.field.debug_sleep": "Pausa de Carregamento de Depuração",
     "nbtac.options.field.debug_sleep.0": "[desativado]",
     "nbtac.options.field.debug_sleep.desc": "Atrasa o carregamento de sugestões para medir melhor o tempo que leva (valor em milissegundos, recomendado definir alguns milhares).",
+
     "nbtac.options.field.debug_config_screen": "Tela de Configuração de Depuração",
     "nbtac.options.field.debug_config_screen.desc": "Mostra a GUI de configurações após sair da tela de realms. Ela não é redefinida ao valor padrão pelo botão de redefinição da GUI!",
+
+
+
     "nbtac.options.common.tooltip": "%s\n§8Valor padrão: %s",
     "nbtac.options.common.reset_settings": "Redefinir Configurações",
     "nbtac.options.common.gui_debug_warning": "O modo de depuração da tela de configuração está ativado!"

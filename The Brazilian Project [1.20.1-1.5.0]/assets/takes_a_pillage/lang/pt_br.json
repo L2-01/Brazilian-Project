@@ -2,29 +2,35 @@
     "item.takesapillage.archer_spawn_egg": "Ovo Gerador de Arqueiro",
     "item.takesapillage.skirmisher_spawn_egg": "Ovo Gerador de Escaramuçador",
     "item.takesapillage.legioner_spawn_egg": "Ovo Gerador de Legionário",
+
     "item.takesapillage.ravager_horn": "Chifre de Devastador",
     "item.takesapillage.bastille_blues_music_disc": "Music Disc",
     "item.takesapillage.bastille_blues_music_disc.desc": "izofar - Bastille Blues",
+
     "entity.takesapillage.clay_golem": "Golem de Argila",
     "entity.takesapillage.archer": "Arqueiro",
     "entity.takesapillage.skirmisher": "Escaramuçador",
     "entity.takesapillage.legioner": "Legionário",
+
     "subtitle.takesapillage.entity.clay_golem.attack": "Golem de Argila ataca",
     "subtitle.takesapillage.entity.clay_golem.damage": "Golem de Argila se quebra",
     "subtitle.takesapillage.entity.clay_golem.death": "Golem de Argila morre",
     "subtitle.takesapillage.entity.clay_golem.hurt": "Golem de Argila ferido",
     "subtitle.takesapillage.entity.clay_golem.repair": "Golem de Argila é reparado",
     "subtitle.takesapillage.entity.clay_golem.step": "Passos do Golem de Argila",
+
     "subtitle.takesapillage.entity.legioner.ambient": "Legionário murmura",
     "subtitle.takesapillage.entity.legioner.celebrate": "Legionário comemora",
     "subtitle.takesapillage.entity.legioner.death": "Legionário morre",
     "subtitle.takesapillage.entity.legioner.hurt": "Legionário ferido",
+
     "advancements.takesapillage.root.title": "É Preciso Saquear",
     "advancements.takesapillage.root.description": "Explore a Superfície em busca de novas estruturas!",
     "advancements.takesapillage.bastille.title": "Eh-eh-oh, eh-oh",
     "advancements.takesapillage.bastille.description": "Localize uma Bastilha",
-    "advancements.takesapillage.pillager_camp.title": "A Canção da Fogueira",
+    "advancements.takesapillage.pillager_camp.title": "Campfire Song Song",
     "advancements.takesapillage.pillager_camp.description": "Localize um Acampamento de Saqueadores",
+
     "death.attack.clay_golem": "%2$s espancou %1$s",
     "death.attack.clay_golem.item": "%2$s espancou %1$s usando %3$s",
     "death.attack.archer": "%2$s alvejou %1$s",
@@ -33,6 +39,7 @@
     "death.attack.skirmisher.item": "%2$s picou %1$s em pedaços enquanto empunhava %3$s",
     "death.attack.legioner": "%2$s abateu %1$s",
     "death.attack.legioner.item": "%2$s abateu %1$s enquanto empunhava %3$s",
+
     "takesapillage.configGui.title": "It Takes a Pillage - Configuração",
     "takesapillage.configGui.replaceIronGolems.title": "Gerações de Golem de Argila",
     "takesapillage.configGui.peacefulGolemRate.title": "Substituição de Golem de Argila na Dificuldade Pacífica",
@@ -41,5 +48,6 @@
     "takesapillage.configGui.hardGolemRate.title": "Substituição de Golem de Argila na Dificuldade Difícil",
     "takesapillage.configGui.removeBadOmen.title": "Leite Remove o Mau Agouro",
     "takesapillage.configGui.pillageSiegesOccur.title": "Cercos de Saqueadores",
+
     "instrument.takesapillage.raid_horn": "Chifre de Raid"
 }

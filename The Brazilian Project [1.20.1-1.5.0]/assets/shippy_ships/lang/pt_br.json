@@ -9,6 +9,7 @@
     "entity.shippy_ships.pale_oak_sailboat": "Veleiro de Carvalho-Pálido",
     "entity.shippy_ships.spruce_sailboat": "Veleiro de Abeto",
     "entity.shippy_ships.bamboo_sailboat": "Veleiro de Bambu",
+
     "entity.shippy_ships.sailboat_hull_part": "Veleiro",
     "entity.shippy_ships.sailboat_rammer": "Veleiro",
     "entity.shippy_ships.cog_hull_part": "Coca",
@@ -26,6 +27,7 @@
     "entity.shippy_ships.galleon_hull_part": "Galeão",
     "entity.shippy_ships.galleon_rammer": "Galeão",
     "entity.shippy_ships.galleon_rammer_small": "Galeão",
+
     "entity.shippy_ships.acacia_cog": "Coca de Acácia",
     "entity.shippy_ships.birch_cog": "Coca de Bétula",
     "entity.shippy_ships.cherry_cog": "Coca de Cerejeira",
@@ -36,6 +38,7 @@
     "entity.shippy_ships.pale_oak_cog": "Coca de Carvalho-Pálido",
     "entity.shippy_ships.spruce_cog": "Coca de Abeto",
     "entity.shippy_ships.bamboo_cog": "Coca de Bambu",
+
     "entity.shippy_ships.acacia_caravel": "Caravela de Acácia",
     "entity.shippy_ships.birch_caravel": "Caravela de Bétula",
     "entity.shippy_ships.cherry_caravel": "Caravela de Cerejeira",
@@ -46,6 +49,7 @@
     "entity.shippy_ships.pale_oak_caravel": "Caravela de Carvalho-Pálido",
     "entity.shippy_ships.spruce_caravel": "Caravela de Abeto",
     "entity.shippy_ships.bamboo_caravel": "Caravela de Bambu",
+
     "entity.shippy_ships.acacia_galleon": "Galeão de Acácia",
     "entity.shippy_ships.birch_galleon": "Galeão de Bétula",
     "entity.shippy_ships.cherry_galleon": "Galeão de Cerejeira",
@@ -56,17 +60,20 @@
     "entity.shippy_ships.pale_oak_galleon": "Galeão de Carvalho-Pálido",
     "entity.shippy_ships.spruce_galleon": "Galeão de Abeto",
     "entity.shippy_ships.bamboo_galleon": "Galeão de Bambu",
+
     "block.shippy_ships.ship_builder": "Construtor de Veleiros",
     "block.shippy_ships.cog_builder": "Construtor de Cocas",
     "block.shippy_ships.caravel_builder": "Construtor de Caravelas",
     "block.shippy_ships.galleon_builder": "Construtor de Galeões",
     "block.shippy_ships.ship_builder_deco": "Construtor de Navios Decorativo",
     "block.shippy_ships.bollard": "Cabeço",
+
     "key.categories.shippyships": "Shippy Ships",
     "key.shippy_ships.zoom_in": "Zoom no Navio",
     "key.shippy_ships.zoom_out": "Desfazer Zoom no Navio",
     "key.shippy_ships.eject_passengers": "Ejetar todos os passageiros",
     "key.shippy_ships.is_pressing_ctrl": "Construção Rápida (Usar Pilha)",
+
     "info.shippy_ships.wood.oak": "carvalho",
     "info.shippy_ships.wood.birch": "bétula",
     "info.shippy_ships.wood.spruce": "abeto",
@@ -77,11 +84,13 @@
     "info.shippy_ships.wood.cherry": "cerejeira",
     "info.shippy_ships.wood.mangrove": "mangue",
     "info.shippy_ships.wood.bamboo": "bambu",
+
     "info.shippy_ships.ship_builder.add_logs": "Adicione troncos. ",
     "info.shippy_ships.ship_builder.add_planks": "Adicione tábuas. ",
     "info.shippy_ships.ship_builder.add_iron_nuggets": "Adicione pepitas de ferro. ",
     "info.shippy_ships.ship_builder.add_wool": "Adicione lã. ",
-    "info.shippy_ships.ship_builder.add_wax": "Apply wax. ",
+    "info.shippy_ships.ship_builder.add_wax": "Aplique cera. ",
+
     "info.shippy_ships.ship_builder.choose_log": "Escolha um tronco para começar a construir!",
     "info.shippy_ships.ship_builder.building": "Construindo veleiro de %1$s! %2$s Progresso: %3$d",
     "info.shippy_ships.ship_builder.wood_set": "Conjunto de madeira: %1$s",
@@ -91,11 +100,13 @@
     "info.shippy_ships.ship_builder.ship_ready": "Navio pronto!",
     "info.shippy_ships.ship_builder.destroyed": "O veleiro foi destruído! Recomeçando.",
     "info.shippy_ships.ship_builder.error": "Item ou etapa errada! %1$s",
+
     "info.shippy_ships.cog_builder.add_logs": "Adicione troncos. ",
     "info.shippy_ships.cog_builder.add_planks": "Adicione tábuas. ",
     "info.shippy_ships.cog_builder.add_iron_nuggets": "Adicione pepitas de ferro. ",
     "info.shippy_ships.cog_builder.add_wool": "Adicione cera ou resina. ",
-    "info.shippy_ships.cog_builder.add_wax": "Add wax or resin. ",
+    "info.shippy_ships.cog_builder.add_wax": "Adicione cera ou resina. ",
+
     "info.shippy_ships.cog_builder.choose_log": "Escolha um tronco para começar a construir!",
     "info.shippy_ships.cog_builder.building": "Construindo coca de %1$s! %2$s Progresso: %3$d",
     "info.shippy_ships.cog_builder.wood_set": "Conjunto de madeira: %1$s",
@@ -105,11 +116,13 @@
     "info.shippy_ships.cog_builder.ship_ready": "Navio pronto!",
     "info.shippy_ships.cog_builder.destroyed": "O coca foi destruído! Recomeçando.",
     "info.shippy_ships.cog_builder.error": "Item ou etapa errada! %1$s",
+
     "info.shippy_ships.caravel_builder.add_logs": "Adicione troncos. ",
     "info.shippy_ships.caravel_builder.add_planks": "Adicione tábuas. ",
     "info.shippy_ships.caravel_builder.add_iron_nuggets": "Adicione pepitas de ferro. ",
     "info.shippy_ships.caravel_builder.add_wool": "Adicione cera ou resina. ",
-    "info.shippy_ships.caravel_builder.add_wax": "Add wax or resin. ",
+    "info.shippy_ships.caravel_builder.add_wax": "Adicione cera ou resina. ",
+
     "info.shippy_ships.caravel_builder.choose_log": "Escolha um tronco para começar a construir!",
     "info.shippy_ships.caravel_builder.building": "Construindo caravela de %1$s! %2$s Progresso: %3$d",
     "info.shippy_ships.caravel_builder.wood_set": "Conjunto de madeira: %1$s",
@@ -119,11 +132,12 @@
     "info.shippy_ships.caravel_builder.ship_ready": "Navio pronto!",
     "info.shippy_ships.caravel_builder.destroyed": "O caravela foi destruído! Recomeçando.",
     "info.shippy_ships.caravel_builder.error": "Item ou etapa errada! %1$s",
+
     "info.shippy_ships.galleon_builder.add_logs": "Adicione troncos. ",
     "info.shippy_ships.galleon_builder.add_planks": "Adicione tábuas. ",
     "info.shippy_ships.galleon_builder.add_iron_nuggets": "Adicione barras de ferro. ",
     "info.shippy_ships.galleon_builder.add_wool": "Adicione cera ou resina. ",
-    "info.shippy_ships.galleon_builder.add_wax": "Add wax or resin. ",
+    "info.shippy_ships.galleon_builder.add_wax": "Adicione cera ou resina. ",
     "info.shippy_ships.galleon_builder.choose_log": "Escolha um tronco para começar a construir!",
     "info.shippy_ships.galleon_builder.building": "Construindo galeão de %1$s! %2$s Progresso: %3$d",
     "info.shippy_ships.galleon_builder.wood_set": "Conjunto de madeira: %1$s",
@@ -133,7 +147,9 @@
     "info.shippy_ships.galleon_builder.ship_ready": "Navio pronto!",
     "info.shippy_ships.galleon_builder.destroyed": "O galeão foi destruído! Recomeçando.",
     "info.shippy_ships.galleon_builder.error": "Item ou etapa errada! %1$s",
+
     "info.shippy_ships.no_free_mount": "Sem espaços de equipamento restantes",
+
     "item.shippy_ships.base_sail_pattern": "Padrão de Vela de Base",
     "item.shippy_ships.brick_sail_pattern": "Padrão de Vela de Tijolos",
     "item.shippy_ships.checker_sail_pattern": "Padrão de Vela de Xadrez",

@@ -2,18 +2,18 @@
     "comment_id": "/Adventure Module",
 
     "key.categories.apotheosis": "Apotheosis",
-    "key.apotheosis.toggle_radial_mining": "Mudar o Modo de Mineração Radial",
+    "key.apotheosis.toggle_radial_mining": "Alterar modo de mineração radial",
     "key.apotheosis.world_tiers_arent_real": "Notificação de Erro de Nível do Mundo",
 
     "info.apotheosis.affix_item": "Item de afixo apótico",
 
     "death.attack.apotheosis.execute": "%2$s executou %1$s",
-    "death.attack.apotheosis.execute.item": "%2$s executou %1$s usando %s",
+    "death.attack.apotheosis.execute.item": "%2$s executou %1$s usando %3$s",
 
-    "misc.apotheosis.affix_name.two": "%2$s %1$s",
-    "misc.apotheosis.affix_name.three": "%2$s %1$s %3$s",
-    "misc.apotheosis.affix_name.four": "%3$s %2$s %4$s de %1$s",
-    "misc.apotheosis.affix_bounds": "[%s\u00A0-\u00A0%s]",
+    "misc.apotheosis.affix_name.two": "%s %s",
+    "misc.apotheosis.affix_name.three": "%s %s %s",
+    "misc.apotheosis.affix_name.four": "%s %s %s %s",
+    "misc.apotheosis.affix_bounds": "[%s - %s]",
 
     "misc.apotheosis.radial_state_updated": "Modo de mineração radial atualizado para \"%s\"",
     "misc.apotheosis.radial_state.require_not_sneaking": "Desativado enquanto se agacha",
@@ -149,7 +149,7 @@
     "affix.apotheosis:ranged/mob_effect/shulkers": "Tocado por Shulker",
     "affix.apotheosis:ranged/mob_effect/shulkers.suffix": "da Levitação",
 
-    "affix.apotheosis:shield/mob_effect/withering": "Decompondo",
+    "affix.apotheosis:shield/mob_effect/withering": "Definhamento",
     "affix.apotheosis:shield/mob_effect/withering.suffix": "do Esqueleto das Trevas",
 
     "affix.apotheosis:shield/attribute/ironforged": "Ferroforjado",
@@ -491,14 +491,14 @@
     "text.apotheosis.category.leggings.plural": "Calças",
     "text.apotheosis.category.boots": "Bota",
     "text.apotheosis.category.boots.plural": "Botas",
-    "text.apotheosis.any_x_item": "Qualquer Item de Afixo %s",
+    "text.apotheosis.any_x_item": "Qualquer Item com Afixo %s",
 
     "info.apotheosis.boss_spawn": "%s despertou por perto!",
     "info.apotheosis.boss": "Chefe Apótico %s",
     "info.apotheosis.boss_item": "Derrubará: %s",
     "info.apotheosis.boss_modifiers": "Modificadores do Chefe:",
     "info.apotheosis.rarity_material": "Material de Raridade (%s)",
-    "info.apotheosis.gem_crushing": "O Pó de Gema é obtido ao jogar qualquer Gema Apótica no chão e deixar uma bigorna cair sobre ela.\n\nDepois disso, use a Mesa de Reciclagem.",
+    "info.apotheosis.gem_crushing": "O Pó de Gema é obtido ao jogar qualquer Gema Apótica no chão e deixar uma bigorna cair sobre ela.",
     "info.apotheosis.gem_extraction": "Usado em uma Bancada de Ferraria para desencaixar Gemas Apóticas.\n\nO item será destruído no processo.",
     "info.apotheosis.gem_expulsion": "Usado em uma Bancada de Ferraria para desencaixar Gemas Apóticas.\n\nAs gemas serão destruídas no processo.",
     "info.apotheosis.unnaming": "Usado em uma Bancada de Ferraria para remover os componentes de afixo do nome de um item.",
@@ -512,7 +512,7 @@
     "rarity.apotheosis:ancient": "Ancestral",
 
     "death.attack.apotheosis:psychic": "Um ataque refletido matou %s.",
-    "death.attack.apotheosis:psychic.player": "%s teve seu ataque refletido por %s.",
+    "death.attack.apotheosis:psychic.player": "%2$s refletiu o ataque de %1$s.",
     "death.attack.apotheosis:execute": "Executaram %s.",
     "death.attack.apotheosis:execute.player": "%2$s executou %1$s.",
 
@@ -552,7 +552,7 @@
     "advancements.apotheosis.deepshelf.desc": "Ative uma Estante das Profundezas Adormecida.",
 
     "advancements.apotheosis.sculkshelf": "Abraçando o Sculk",
-    "advancements.apotheosis.sculkshelf.desc": "Fabrique uma Estante de Sculk usando uma Gavinha de Defensor.",
+    "advancements.apotheosis.sculkshelf.desc": "Fabrique uma Estante de Sculk usando uma Gavinha de Sentinela.",
 
     "advancements.apotheosis.endshelf": "Encantador Matador de Dragões",
     "advancements.apotheosis.endshelf.desc": "Adquira Bafo de Dragão Imbuído e fabrique uma Estante do End.",
@@ -639,10 +639,10 @@
     "advancements.apotheosis.ancient_gem": "Jóias do Infinito",
     "advancements.apotheosis.ancient_gem.desc": "Usando a Bancada de Lapidação de Gema, crie uma Gema Perfeita.",
 
-       "advancements.apotheosis.socket": "O Joalheiro",
+    "advancements.apotheosis.socket": "O Joalheiro",
     "advancements.apotheosis.socket.desc": "Usando uma Bancada de Ferraria, encaixe uma Gema em um item.",
 
-       "advancements.apotheosis.gem_cut": "O Lapidário",
+    "advancements.apotheosis.gem_cut": "O Lapidário",
     "advancements.apotheosis.gem_cut.desc": "Use uma Bancada de Lapidação de Gema para melhorar uma Gema Apótica.",
 
     "advancements.apotheosis.spawner.root": "Farm Automática Fácil",
@@ -684,7 +684,7 @@
     "enchantment.apotheosis.capturing": "Captura",
     "enchantment.apotheosis.capturing.desc": "Faz criaturas terem chance de produzir seus ovos de geração.",
 
-    "misc.apotheosis.concat": "%2$s %1$s",
+    "misc.apotheosis.concat": "%s %s",
     "misc.apotheosis.value_concat": "%s: %s",
     "misc.apotheosis.min_value": "Este modificador não reduzir abaixo isso abaixo de %s",
     "misc.apotheosis.max_value": "Este modificador não pode aumentar isso acima de %s",
@@ -881,7 +881,7 @@
     "item.apotheosis.scrap_tome": "Tomo da Desmontagem",
     "item.apotheosis.improved_scrap_tome": "Tomo da Desmontagem Superior",
     "item.apotheosis.extraction_tome": "Tomo de Extração",
-    "item.apotheosis.warden_tendril": "Gavinha de Defensor",
+    "item.apotheosis.warden_tendril": "Gavinha de Sentinela",
     "item.apotheosis.infused_breath": "Bafo de Dragão Imbuído",
 
     "info.apotheosis.tome_error": "Item Bugado - Clique com o botão direito no ar para transformar em um livro encantado.",
@@ -961,9 +961,9 @@
     "block.reeds": "Cana-de-Açúcar",
     "potion.potency.3": "IV",
     "enchantment.level.0": "0",
-    "enchantment.level.11": "XI",
+    "enchantment.level.11": "X",
     "enchantment.level.12": "XII",
-    "enchantment.level.13": "XIII",
+    "enchantment.level.13": "IX",
     "enchantment.level.14": "XIV",
     "enchantment.level.15": "XV",
     "enchantment.level.16": "XVI",
@@ -1050,7 +1050,7 @@
     "enchantment.level.97": "XCVII",
     "enchantment.level.98": "XCVIII",
     "enchantment.level.99": "XCIX",
-    "enchantment.level.100": "C",
+    "enchantment.level.100": "F",
     "enchantment.level.101": "CI",
     "enchantment.level.102": "CII",
     "enchantment.level.103": "CIII",
@@ -1172,22 +1172,22 @@
 
     "item.apotheosis.lucky_foot": "Pé de Coelho da Sorte",
 
-    "item.apotheosis.potion_charm_broke": "Amuleto de Poção Inválido",
+    "item.apotheosis.potion_charm_broke": "Amuleto de poção inválida",
     "item.apotheosis.potion_charm": "Amuleto de %s",
     "item.apotheosis.potion_charm.desc": "Aplica %s quando ativo e no inventário.",
-    "item.apotheosis.potion_charm.desc2": "%s - Clique com o direito para alternar.",
+    "item.apotheosis.potion_charm.desc2": "%s - Clique com o botão direito para alternar.",
     "item.apotheosis.potion_charm.desc3": "Fonte: %s",
     "item.apotheosis.potion_charm.enabled": "Habilitado",
     "item.apotheosis.potion_charm.disabled": "Desabilitado",
-    "item.apotheosis.potion_charm.curios_only": "Funciona somente em um espaço do Curios",
-    "misc.apotheosis.blacklisted_potion": "Não pode ser convertida em um amuleto de poção.",
+    "item.apotheosis.potion_charm.curios_only": "Funciona apenas em um encaixe de Curios",
+    "misc.apotheosis.blacklisted_potion": "Não pode ser convertido em um Amuleto de Poção.",
 
     "info.apotheosis.anvil": "Pode ser encantado.",
 
-    "item.apotheosis.ender_lead": "Laço de Ender",
-    "info.apotheosis.noentity": "Entidade Presa: Nenhuma",
-    "info.apotheosis.containedentity": "Entidade Presa: %s",
-    "info.apotheosis.ender_lead": "O Laço de Ender é um item que pode ser utilizado para mover animais. Soque um animal para capturar e clique com o direito para soltá-lo. O laço não funcionará em outros tipos de entidades .",
+    "item.apotheosis.ender_lead": "Laço do Ender",
+    "info.apotheosis.noentity": "Entidade Guardada: nada",
+    "info.apotheosis.containedentity": "Entidade Guardada: %s",
+    "info.apotheosis.ender_lead": "O Laço do Ender é um item que pode ser usado para mover animais.  Dê um soco em um animal para capturá-lo e clique com o botão direito para liberá-lo.  A guia não funciona em outros tipos de entidades.",
 
     "name.apotheosis.merch_sword": "Sonhos Presos",
     "name.apotheosis.merch_pick": "Esfareladora",
@@ -1215,14 +1215,14 @@
     "info.apotheosis.mining_arrow.iron": "Quebra blocos como uma picareta de ferro",
     "info.apotheosis.mining_arrow.diamond": "Quebra blocos como uma picareta de diamante",
 
-    "info.apoth.modifier_disabled": "Este modificador está desativado",
+    "info.apoth.modifier_disabled": "Este Modificador está desativado",
     "itemGroup.apotheosis.adventure": "Apotheosis: Adventure Module",
     "itemGroup.apotheosis.ench": "Apotheosis: Enchanting Module",
-    "config.jade.plugin_apotheosis.spawner": "Módulo de Geradores Apóticos",
-    "config.jade.plugin_apotheosis.ench": "Módulo de Encantamento Apótico",
-    "config.jade.plugin_apotheosis.adventure": "Módulo de Aventura Apótica",
+    "config.jade.plugin_apotheosis.spawner": "Módulo de Gerador Apótico",
+    "config.jade.plugin_apotheosis.ench": "Módulo de Encan. Apótico",
+    "config.jade.plugin_apotheosis.adventure": "Módulo de Aventura Apótico",
 
     "book.apotheosis.name": "Crônica das Sombras",
-    "book.apotheosis.subtitle": "Guia para a Apoteose",
+    "book.apotheosis.subtitle": "Guia Apótico",
     "book.apotheosis.landing": "Bem-vindo ao mundo do Apotheosis.$(br2)O Apotheosis é dividido em $(#8080FF)Módulos$(), assim como o conteúdo deste livro.$(br2)Módulos desabilitados são escondidos."
 }

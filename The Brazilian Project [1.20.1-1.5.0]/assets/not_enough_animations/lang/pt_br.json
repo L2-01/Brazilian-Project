@@ -50,8 +50,8 @@
     "text.nea.holdUpItemsMode.tooltip": "Faz o jogador erguer itens (como se estivesse olhando para eles/segurando-os à sua frente)",
     "text.nea.holdUpItemsMode.ALL": "Todos os Itens",
     "text.nea.holdUpItemsMode.NONE": "Nenhum Item",
-    "text.nea.holdUpItemsMode.CONFIG": "Apenas Itens da Config",
-    "text.nea.holdUpItemsMode.CONFIG_INVERTED": "Exceto Itens da Config",
+    "text.nea.holdUpItemsMode.CONFIG": "Apenas Itens da Configuração",
+    "text.nea.holdUpItemsMode.CONFIG_INVERTED": "Exceto Itens da Configuração",
     "text.nea.holdUpItemOffset": "Deslocamento ao Erguer",
     "text.nea.holdUpItemOffset.tooltip": "Modifica o quanto o item é erguido",
     "text.nea.ladderAnimationAmplifier": "Amplificador de Braço na Escada",
@@ -62,8 +62,8 @@
     "text.nea.ladderAnimationArmSpeed.tooltip": "A velocidade dos braços ao subir uma escada",
     "text.nea.enable.itemSwapAnimation": "Animação de Troca de Item",
     "text.nea.enable.itemSwapAnimation.tooltip": "Adiciona uma animação para trocar itens da mão principal para a secundária e vice-versa",
-    "text.nea.enable.tweakElytraAnimation": "Ajustar Voo de Élitro",
-    "text.nea.enable.tweakElytraAnimation.tooltip": "Ajusta a animação de voo de élitro para parecer mais natural",
+    "text.nea.enable.tweakElytraAnimation": "Ajustar Voo de Élitros",
+    "text.nea.enable.tweakElytraAnimation.tooltip": "Ajusta a animação de voo de élitros para parecer mais natural",
     "text.nea.enable.petAnimation": "Acariciar Lobos/Gatos",
     "text.nea.enable.petAnimation.tooltip": "Adiciona uma animação para acariciar lobos e gatos. Olhe para o lobo/gato enquanto se agacha para acariciá-lo",
     "text.nea.enable.fallingAnimation": "[WIP] Animação de Queda",
@@ -80,7 +80,7 @@
     "text.nea.disableLegSmoothing.tooltip": "Desativa a suavização das pernas",
     "text.nea.enable.bowAnimation": "Animação de Arco",
     "text.nea.enable.bowAnimation.tooltip": "O tipo de animação de arco a usar",
-    "text.nea.enable.bowAnimation.VANILLA": "Vanilla",
+    "text.nea.enable.bowAnimation.VANILLA": "Padrão (Vanilla)",
     "text.nea.enable.bowAnimation.CUSTOM_V1": "Personalizada V1",
     "text.nea.enable.clampCrossbowAnimations": "Travar Animações de Besta",
     "text.nea.enable.clampCrossbowAnimations.tooltip": "Trava as animações",
@@ -105,5 +105,21 @@
     "text.nea.maxNormalAngle": "Ângulo Normal",
     "text.nea.maxNormalAngle.tooltip": "Define seu ângulo normal de travamento de rotação. Só funciona no modo Nenhum.",
     "text.nea.maxBlockingAngle": "Ângulo de Bloqueio",
-    "text.nea.maxBlockingAngle.tooltip": "Define seu ângulo de bloqueio de travamento de rotação. Só funciona no modo Nenhum."
+    "text.nea.maxBlockingAngle.tooltip": "Define seu ângulo de bloqueio de travamento de rotação. Só funciona no modo Nenhum.",
+
+
+
+
+
+
+    "text.trender.name": "Trender",
+    "text.trender.tab.general_options": "Opções",
+    "text.trender.style": "Estilo de UI",
+    "text.trender.style.tooltip": "Muda o Estilo de UI de todos os mods do tr7zw.",
+    "text.trender.style.MODERN": "Moderno",
+    "text.trender.style.MODERN_DARK": "Moderno Escuro",
+    "text.trender.style.VANILLA_OLD": "Vanilla Antigo",
+    "text.trender.style.VANILLA_MODERN": "Vanilla Moderno",
+    "text.trender.sendstacktraces": "Enviar Stacktraces",
+    "text.trender.sendstacktraces.tooltip": "Quando ativado, stacktraces nos registros ou falhas do jogo que contenham referências a mods do tr7zw serão enviadas ao autor do mod via Sentry (Sentry.io) para ajudar a corrigir bugs mais rápido. Nenhuma informação pessoal é coletada ou enviada. (Reinicie o jogo após ativar)"
 }

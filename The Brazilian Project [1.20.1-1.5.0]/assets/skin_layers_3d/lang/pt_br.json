@@ -42,5 +42,21 @@
     "text.skinlayers.irisCompatibilityMode.enable": "Modo de Compatibilidade com Iris",
     "text.skinlayers.irisCompatibilityMode.enable.tooltip": "Forma alternativa de renderizar as camadas; corrige sombras/cores estranhas ao usar sombreadores do Iris. Ative esta configuração apenas quando necessário. Quebrará as conexões dos cantos.",
     "text.skinlayers.applySodiumWorkaround.enable": "Contorno para Sodium",
-    "text.skinlayers.applySodiumWorkaround.enable.tooltip": "Contorno para o Sodium ter lados de cubo invertidos em algumas versões(?). Ative isto apenas se estiver usando Sodium e notar problemas visuais com os lados das camadas de skin faltando."
+    "text.skinlayers.applySodiumWorkaround.enable.tooltip": "Contorno para o Sodium ter lados de cubo invertidos em algumas versões(?). Ative isto apenas se estiver usando Sodium e notar problemas visuais com os lados das camadas de skin faltando.",
+
+
+
+
+
+
+    "text.trender.name": "Trender",
+    "text.trender.tab.general_options": "Opções",
+    "text.trender.style": "Estilo de UI",
+    "text.trender.style.tooltip": "Muda o Estilo de UI de todos os mods do tr7zw.",
+    "text.trender.style.MODERN": "Moderno",
+    "text.trender.style.MODERN_DARK": "Moderno Escuro",
+    "text.trender.style.VANILLA_OLD": "Vanilla Antigo",
+    "text.trender.style.VANILLA_MODERN": "Vanilla Moderno",
+    "text.trender.sendstacktraces": "Enviar Stacktraces",
+    "text.trender.sendstacktraces.tooltip": "Quando ativado, stacktraces nos registros ou falhas do jogo que contenham referências a mods do tr7zw serão enviadas ao autor do mod via Sentry (Sentry.io) para ajudar a corrigir bugs mais rápido. Nenhuma informação pessoal é coletada ou enviada. (Reinicie o jogo após ativar)"
 }

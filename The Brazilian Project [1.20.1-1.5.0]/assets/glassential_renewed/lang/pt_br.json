@@ -37,7 +37,7 @@
     "block.glassential.obsidian_door": "Porta de Vidro de Obsidiana",
     "block.glassential.oak_glass_door": "Porta de Vidro de Carvalho",
     "block.glassential.spruce_glass_door": "Porta de Vidro de Abeto",
-    "block.glassential.birch_glass_door": "Porta de Vidro de Bétula",
+    "block.glassential.birch_glass_door": "Porta de Vidro de Eucalipto",
     "block.glassential.acacia_glass_door": "Porta de Vidro de Acácia",
     "block.glassential.jungle_glass_door": "Porta de Vidro da Selva",
     "block.glassential.dark_oak_glass_door": "Porta de Vidro de Carvalho Escuro",
@@ -49,7 +49,7 @@
     "block.glassential.cherry_glass_door": "Porta de Vidro de Cerejeira",
     "block.glassential.oak_glass_trapdoor": "Alçapão de Vidro de Carvalho",
     "block.glassential.spruce_glass_trapdoor": "Alçapão de Vidro de Abeto",
-    "block.glassential.birch_glass_trapdoor": "Alçapão de Vidro de Bétula",
+    "block.glassential.birch_glass_trapdoor": "Alçapão de Vidro de Eucalipto",
     "block.glassential.acacia_glass_trapdoor": "Alçapão de Vidro de Acácia",
     "block.glassential.jungle_glass_trapdoor": "Alçapão de Vidro da Selva",
     "block.glassential.dark_oak_glass_trapdoor": "Alçapão de Vidro de Carvalho Escuro",
@@ -122,7 +122,7 @@
     "tooltip.glassential.ice": "Gelo em vidro térmico, não derrete",
     "tooltip.glassential.lava_lamp": "Lanterna natural, queima como magma",
     "tooltip.glassential.gravity": "Amortece a queda, sem colisão",
-    "tooltip.glassential.one_way": "Uma janela secreta. Transparente de um lado, sólida do outro.\\nClique com o botão direito em um lado com qualquer bloco para disfarça-lo.",
+    "tooltip.glassential.one_way": "Uma janela secreta. Transparente de um lado, sólida do outro.",
     "tooltip.glassential.one_way.hint": "Clique com o botão direito em uma face com qualquer bloco para disfarçar essa face.",
     "tooltip.glassential.clear_fluid": "Remove a face da água próxima à superfície atrás do vidro para uma visão cristalina",
     "tooltip.glassential.colorable": "Mude a cor e as propriedades com o Pincel Glassential",
@@ -149,5 +149,5 @@
     "message.glassential.brush.copy_success": "Cor %s copiada para o pincel",
     "message.glassential.brush.copy_failed": "Não foi possível copiar a cor desse bloco",
     "itemGroup.glassential": "Glassential Renewed - Functional",
-    "itemGroup.glassential_misc": "Glassential Renewed - Blocks"
+    "itemGroup.glassential_misc": "Glassential Renewed - Blocos"
 }

@@ -3,6 +3,7 @@
     "biome.netherexp.quartz_chasm": "Ravina de Quartzo",
     "biome.netherexp.plume_bowels": "Entranhas de Fumaça",
     "biome.netherexp.grieving_grove": "Bosque dos Pesares",
+
     "item.netherexp.warphopper_fur": "Pelagem de Saltador Distorcido",
     "item.netherexp.hogham": "Hogham Cru",
     "item.netherexp.cooked_hogham": "Hogham Cozido",
@@ -51,8 +52,10 @@
     "item.netherexp.music_disc_cricket.desc": "LudoCrypt - cricket",
     "item.netherexp.music_disc_buckshot_wonderland": "Disco de Música",
     "item.netherexp.music_disc_buckshot_wonderland.desc": "Shroomaniac - Buckshot Wonderland",
+
     "item.netherexp.antidote.inactive_tooltip": "Para ativar, precisa ser fabricado com:",
     "item.netherexp.non_consumable.tooltip": "Artefato Não Consumível",
+
     "item.netherexp.antidote": "Antídoto",
     "item.netherexp.antidote.effect.": "Antídoto Não Fabricável",
     "item.netherexp.antidote.effect.awkward": "Antídoto Estranho",
@@ -76,6 +79,7 @@
     "item.netherexp.antidote.effect.decay": "Antídoto de Decomposição",
     "item.netherexp.antidote.effect.luck": "Antídoto de Sorte",
     "item.netherexp.antidote.effect.unluck": "Antídoto de Azar",
+
     "item.netherexp.grenade_antidote": "Granada de Antídoto",
     "item.netherexp.grenade_antidote.effect.": "Granada de Antídoto Não Fabricável",
     "item.netherexp.grenade_antidote.effect.awkward": "Granada de Antídoto Estranha",
@@ -99,19 +103,23 @@
     "item.netherexp.grenade_antidote.effect.decay": "Granada de Antídoto de Decomposição",
     "item.netherexp.grenade_antidote.effect.luck": "Granada de Antídoto de Sorte",
     "item.netherexp.grenade_antidote.effect.unluck": "Granada de Antídoto de Azar",
+
     "shotgun_fist.ammo": "Munição:",
     "shotgun_fist.heat": "Temperatura:",
     "sanctum_compass.to_activate": "Para ativar, requer:",
     "sanctum_compass.tracking": "Vinculada a um Santuário",
+
     "item.netherexp.glowcheese": "Queijo Brilhante",
     "block.netherexp.nether_pizza": "Pizza do Nether",
     "item.netherexp.nether_pizza": "Pizza do Nether",
     "item.netherexp.nether_pizza_slice": "Fatia de Pizza do Nether",
+
     "enchantment.netherexp.phantasm_hull": "Casco Fantasma",
     "enchantment.netherexp.cartridge": "Cartucho",
     "enchantment.netherexp.recoil": "Recuo",
     "enchantment.netherexp.barrage": "Barragem",
     "enchantment.netherexp.artemis": "Ártemis",
+
     "block.netherexp.soul_slate": "Ardósia das Almas",
     "block.netherexp.pale_soul_slate": "Ardósia das Almas Pálida",
     "block.netherexp.soul_slate_slab": "Laje de Ardósia das Almas",
@@ -125,18 +133,22 @@
     "block.netherexp.cracked_soul_slate_bricks": "Tijolos de Ardósia das Almas Trincados",
     "block.netherexp.soul_slate_brick_pillar": "Pilar de Tijolos de Ardósia das Almas",
     "block.netherexp.chiseled_soul_slate_bricks": "Tijolos de Ardósia das Almas Talhados",
+
     "block.netherexp.soul_slate_tiles": "Ladrilhos de Ardósia das Almas",
     "block.netherexp.soul_slate_tile_stairs": "Escadas de Ladrilhos de Ardósia das Almas",
     "block.netherexp.soul_slate_tile_slab": "Laje de Ladrilhos de Ardósia das Almas",
     "block.netherexp.soul_slate_tile_wall": "Muro de Ladrilhos de Ardósia das Almas",
     "block.netherexp.etched_soul_slate_tiles": "Ladrilhos de Ardósia das Almas Gravados",
     "block.netherexp.chiseled_soul_slate_tiles": "Ladrilhos de Ardósia das Almas Talhados",
+
     "block.netherexp.brazier_chest": "Baú de Braseiro",
     "block.netherexp.brazier_chest.locked": "O Baú de Braseiro está trancado, requer Chama Traiçoeira para abrir",
     "block.netherexp.treacherous_candle": "Vela Traiçoeira",
     "treacherous_candle.health": "Vela Traiçoeira",
     "block.netherexp.sculk_grinder": "Moedor de Sculk",
+
     "block.netherexp.inscribed_panel": "Painel Inscrito",
+
     "block.netherexp.gargoyle_statue": "Estátua de Gárgula",
     "block.netherexp.ossified_gargoyle_statue": "Estátua de Gárgula Ossificada",
     "block.netherexp.trample_gargoyle_statue": "Estátua de Gárgula Pisoteadora",
@@ -148,31 +160,40 @@
     "block.netherexp.occult_gargoyle_statue": "Estátua de Gárgula Oculta",
     "block.netherexp.sealed_gargoyle_statue": "Estátua de Gárgula Selada",
     "block.netherexp.obfuscated_gargoyle_statue": "Estátua de Gárgula Obfuscada",
+
     "block.netherexp.soul_candle": "Vela das Almas",
+
     "block.netherexp.fossil_ore": "Minério de Fóssil",
     "block.netherexp.fossil_fuel_ore": "Minério de Combustível Fóssil",
+
     "block.netherexp.soul_glass": "Vidro das Almas",
     "block.netherexp.ochre_frogmist": "Névoa-Anfíbia Ocre",
     "block.netherexp.verdant_frogmist": "Névoa-Anfíbia Virente",
     "block.netherexp.pearlescent_frogmist": "Névoa-Anfíbia Nacarada",
     "block.netherexp.carmine_frogmist": "Névoa-Anfíbia Carmim",
+
     "block.netherexp.soul_swirls": "Redemoinhos das Almas",
     "block.netherexp.ecto_soul_sand": "Areia das Almas de Ectoplasma",
     "block.netherexp.suspicious_soul_sand": "Areia das Almas Suspeita",
     "block.netherexp.soul_magma_block": "Bloco de Magma das Almas",
+
     "fluid_type.netherexp.ectoplasm": "Ectoplasma",
     "block.netherexp.ectoplasm": "Ectoplasma",
     "item.netherexp.ectoplasm_bucket": "Balde de Ectoplasma",
     "block.netherexp.black_ice": "Gelo Negro",
+
     "block.netherexp.soul_torchflower": "Toscha das Almas",
     "block.netherexp.soul_torchflower_crop": "Plantação de Toscha das Almas",
+
     "block.netherexp.sorroweed": "Ervamágoa",
     "block.netherexp.sorrowsquash": "Abóbora-Mágoa",
     "block.netherexp.carved_sorrowsquash": "Abóbora-Mágoa Entalhada",
     "block.netherexp.ghoul_o_lantern": "Abóbora-Ghoul",
     "block.netherexp.sorrowsquash_stem": "Caule de Abóbora-Mágoa",
     "block.netherexp.sorrowsquash_stem_plant": "Planta de Abóbora-Mágoa",
+
     "block.netherexp.shotgun_barrel": "Cano de Escopeta",
+
     "block.netherexp.smooth_netherrack": "Netherrack Liso",
     "block.netherexp.smooth_netherrack_slab": "Laje de Netherrack Liso",
     "block.netherexp.smooth_netherrack_stairs": "Escadas de Netherrack Liso",
@@ -183,6 +204,7 @@
     "block.netherexp.netherrack_brick_wall": "Muro de Tijolos de Netherrack",
     "block.netherexp.netherrack_tiles": "Ladrilhos de Netherrack",
     "block.netherexp.netherrack_pillar": "Pilar de Netherrack",
+
     "block.netherexp.basalt_slab": "Laje de Basalto",
     "block.netherexp.basalt_stairs": "Escadas de Basalto",
     "block.netherexp.basalt_wall": "Muro de Basalto",
@@ -193,6 +215,7 @@
     "block.netherexp.polished_basalt_brick_slab": "Laje de Tijolos de Basalto Polido",
     "block.netherexp.polished_basalt_brick_stairs": "Escadas de Tijolos de Basalto Polido",
     "block.netherexp.polished_basalt_brick_wall": "Muro de Tijolos de Basalto Polido",
+
     "block.netherexp.netherite_plated_block": "Bloco Revestido de Netherita",
     "block.netherexp.netherite_grate": "Grade de Netherita",
     "block.netherexp.cut_netherite_block": "Bloco de Netherita Cortado",
@@ -200,6 +223,7 @@
     "block.netherexp.cut_netherite_stairs": "Escadas de Netherita Cortada",
     "block.netherexp.cut_netherite_pillar": "Pilar de Netherita Cortado",
     "block.netherexp.netherite_bars": "Barras de Netherita",
+
     "block.netherexp.rusty_netherite_plated_block": "Bloco Revestido de Netherita Enferrujado",
     "block.netherexp.rusty_netherite_grate": "Grade de Netherita Enferrujada",
     "block.netherexp.rusty_cut_netherite_block": "Bloco de Netherita Cortado Enferrujado",
@@ -207,12 +231,15 @@
     "block.netherexp.rusty_cut_netherite_stairs": "Escadas de Netherita Cortada Enferrujadas",
     "block.netherexp.rusty_cut_netherite_pillar": "Pilar de Netherita Cortado Enferrujado",
     "block.netherexp.rusty_netherite_bars": "Barras de Netherita Enferrujadas",
+
     "item.netherexp.warped_wart": "Fungo Distorcido",
     "block.netherexp.warped_wart": "Fungo Distorcido",
+
     "block.netherexp.enigma_flesh": "Carne de Enigma",
     "block.netherexp.strange_enigma_flesh": "Carne de Enigma Estranha",
     "block.netherexp.enigma_crown": "Coroa de Enigma",
     "block.netherexp.enigma_shelf": "Prateleira de Enigma",
+
     "block.netherexp.stripped_claret_stem": "Tronco de Clarete Descascado",
     "block.netherexp.stripped_claret_hyphae": "Hifas de Clarete Descascadas",
     "block.netherexp.claret_planks": "Tábuas de Clarete",
@@ -230,11 +257,14 @@
     "item.netherexp.claret_hanging_sign": "Placa Suspensa de Clarete",
     "block.netherexp.claret_hanging_sign": "Placa Suspensa de Clarete",
     "block.netherexp.claret_wall_hanging_sign": "Placa Suspensa de Clarete",
+
     "block.netherexp.magma_cream_block": "Bloco de Creme de Magma",
+
     "block.netherexp.explosive_scoria": "Escória Explosiva",
     "block.netherexp.igneous_reeds": "Juncos Ígneos",
     "block.netherexp.smokestalk": "Fumocaule",
     "block.netherexp.smokestalk_plant": "Planta de Fumocaule",
+
     "block.netherexp.smokestalk_block": "Bloco de Fumocaule",
     "block.netherexp.stripped_smokestalk_block": "Bloco de Fumocaule Descascado",
     "block.netherexp.smokestalk_planks": "Tábuas de Fumocaule",
@@ -252,21 +282,26 @@
     "item.netherexp.smokestalk_hanging_sign": "Placa Suspensa de Fumocaule",
     "block.netherexp.smokestalk_hanging_sign": "Placa Suspensa de Fumocaule",
     "block.netherexp.smokestalk_wall_hanging_sign": "Placa Suspensa de Fumocaule",
+
     "block.netherexp.quartz_crystal_block": "Bloco de Cristal de Quartzo",
     "block.netherexp.quartz_crystal": "Cristal de Quartzo",
     "block.netherexp.cracked_quartz_bricks": "Tijolos de Quartzo Trincados",
     "block.netherexp.chiseled_quartz_pillar": "Pilar de Quartzo Talhado",
+
     "block.netherexp.silica_sand": "Areia de Sílica",
     "block.netherexp.silica_sandstone": "Arenito de Sílica",
     "block.netherexp.silica_sandstone_slab": "Laje de Arenito de Sílica",
     "block.netherexp.silica_sandstone_stairs": "Escadas de Arenito de Sílica",
     "block.netherexp.silica_sandstone_wall": "Muro de Arenito de Sílica",
+
     "block.netherexp.cut_silica_sandstone": "Arenito de Sílica Cortado",
     "block.netherexp.cut_silica_sandstone_slab": "Laje de Arenito de Sílica Cortado",
     "block.netherexp.chiseled_silica_sandstone": "Arenito de Sílica Talhado",
+
     "block.netherexp.smooth_silica_sandstone": "Arenito de Sílica Liso",
     "block.netherexp.smooth_silica_sandstone_slab": "Laje de Arenito de Sílica Liso",
     "block.netherexp.smooth_silica_sandstone_stairs": "Escadas de Arenito de Sílica Liso",
+
     "block.netherexp.nether_brick_pillar": "Pilar de Tijolos do Nether",
     "block.netherexp.red_mixed_nether_bricks": "Tijolos do Nether Misturados Vermelhos",
     "block.netherexp.blue_mixed_nether_bricks": "Tijolos do Nether Misturados Azuis",
@@ -274,24 +309,33 @@
     "block.netherexp.blue_nether_brick_slab": "Laje de Tijolos Azuis do Nether",
     "block.netherexp.blue_nether_brick_stairs": "Escadas de Tijolos Azuis do Nether",
     "block.netherexp.blue_nether_brick_wall": "Muro de Tijolos Azuis do Nether",
+
     "block.netherexp.shroomnight": "Cogunote",
+
     "block.netherexp.nether_wart_beard": "Barba de Fungo do Nether",
     "block.netherexp.warped_wart_beard": "Barba de Fungo Distorcido",
     "block.netherexp.weeping_ivy": "Hera Chorona",
     "block.netherexp.twisting_ivy": "Hera Retorcida",
+
     "block.netherexp.red_scale_fungus": "Fungo-Escama Vermelho",
     "block.netherexp.blue_scale_fungus": "Fungo-Escama Azul",
+
     "block.netherexp.crimson_sprouts": "Brotos Carmesins",
+
     "block.netherexp.soul_soil_layer": "Camada de Terra das Almas",
+
     "block.netherexp.soul_path": "Caminho de Terra das Almas",
     "block.netherexp.crimson_nylium_path": "Caminho de Nicélio Carmesim",
     "block.netherexp.warped_nylium_path": "Caminho de Nicélio Distorcido",
+
     "block.netherexp.crimson_sporeshroom": "Coguesporo Carmesim",
     "block.netherexp.warped_sporeshroom": "Coguesporo Distorcido",
     "block.netherexp.basaltic_geyser": "Gêiser Basáltico",
     "block.netherexp.souled_geyser": "Gêiser das Almas",
+
     "block.netherexp.white_ash": "Cinza Branca",
     "block.netherexp.white_ash_block": "Bloco de Cinza Branca",
+
     "block.netherexp.bone_cortical": "Osso Cortical",
     "block.netherexp.bone_rod": "Haste de Osso",
     "block.netherexp.bone_fence": "Cerca de Ossos",
@@ -303,17 +347,20 @@
     "block.netherexp.skull_block": "Bloco de Crânio",
     "block.netherexp.burning_skull_block": "Bloco de Crânio em Chamas",
     "block.netherexp.soul_burning_skull_block": "Bloco de Crânio em Chamas das Almas",
+
     "block.netherexp.wither_bone_block": "Bloco de Osso de Wither",
     "block.netherexp.stacked_wither_bone_slab": "Laje de Ossos de Wither Empilhados",
     "block.netherexp.stacked_wither_bone_stairs": "Escadas de Ossos de Wither Empilhados",
     "block.netherexp.stacked_wither_bones": "Ossos de Wither Empilhados",
-    "block.netherexp.wither_skull_block": "Bloco de Crânio de Esqueleto Wither",
-    "block.netherexp.burning_wither_skull_block": "Bloco de Crânio de Esqueleto Wither em Chamas",
-    "block.netherexp.soul_burning_wither_skull_block": "Bloco de Crânio de Esqueleto Wither em Chamas das Almas",
+    "block.netherexp.wither_skull_block": "Bloco de Crânio de Esqueleto-Wither",
+    "block.netherexp.burning_wither_skull_block": "Bloco de Crânio de Esqueleto-Wither em Chamas",
+    "block.netherexp.soul_burning_wither_skull_block": "Bloco de Crânio de Esqueleto-Wither em Chamas das Almas",
+
     "block.netherexp.weeping_polished_blackstone_bricks": "Tijolos de Pedra-Negra Polida Choronosos",
     "block.netherexp.twisting_polished_blackstone_bricks": "Tijolos de Pedra-Negra Polida Retorcidos",
     "block.netherexp.polished_blackstone_pillar": "Pilar de Pedra-Negra Polida",
     "block.netherexp.polished_blackstone_fence": "Cerca de Pedra-Negra Polida",
+
     "block.netherexp.potted_soul_swirls": "Redemoinhos das Almas Envasados",
     "block.netherexp.potted_enigma_crown": "Coroa de Enigma Envasada",
     "block.netherexp.potted_smokestalk": "Fumocaule Envasado",
@@ -322,6 +369,7 @@
     "block.netherexp.potted_crimson_sporeshroom": "Coguesporo Carmesim Envasado",
     "block.netherexp.potted_warped_sporeshroom": "Coguesporo Distorcido Envasado",
     "block.netherexp.potted_soul_torchflower": "Toscha das Almas Envasada",
+
     "subtitles.item.gold_ingot.gilding": "Bloco é dourado",
     "subtitles.block.ectoplasm.freeze": "Ectoplasma congela",
     "subtitles.block.ectoplasm.whispering": "Ectoplasma sussurra bobagens",
@@ -342,6 +390,7 @@
     "subtitles.block.brazier_chest.lit": "Traiçoeira guincha",
     "subtitles.block.treacherous_candle.victory": "Coral de vitória da Vela Traiçoeira",
     "subtitles.block.treacherous_candle.defeat": "Coral de derrota da Vela Traiçoeira",
+
     "subtitles.entity.warphopper.ambient": "Saltador Distorcido chilreia",
     "subtitles.entity.warphopper.hurt": "Saltador Distorcido é ferido",
     "subtitles.entity.warphopper.death": "Saltador Distorcido morre",
@@ -365,7 +414,9 @@
     "subtitles.entity.banshee.death": "Banshee morre",
     "subtitles.entity.banshee.teleport": "Banshee se teleporta",
     "subtitles.entity.banshee.shoot": "Fogo-Fátuo dispara",
+
     "container.brazier_chest": "Baú de Braseiro",
+
     "death.attack.graveMistSuffocation": "Almas envolveram e sufocaram %1$s",
     "death.attack.stampedeCrush": "%2$s esmagou %1$s",
     "death.attack.soulBullet": "Uma arma de fogo letal baleou %1$s",
@@ -374,6 +425,7 @@
     "death.attack.will_o_wisp.player": "Um Fogo-Fátuo assombrou %1$s",
     "death.attack.volatileScoriaExplosion": "Uma descarga de redstone volátil atingiu %1$s",
     "death.attack.shotgunExplosion": "Uma explosão de escopeta sobrecarregada atingiu %1$s",
+
     "entity.netherexp.wisp": "Fagulha",
     "entity.netherexp.apparition": "Aparição",
     "entity.netherexp.vessel": "Receptáculo",
@@ -386,8 +438,10 @@
     "entity.netherexp.antidote": "Antídoto",
     "entity.netherexp.grenade_effect_cloud": "Nuvem de Efeito da Granada",
     "entity.netherexp.warphopper": "Saltador Distorcido",
+
     "painting.netherexp.house.author": "Navidson Realty",
     "painting.netherexp.house.title": "House",
+
     "advancements.nether.add_spores_to_block.title": "Esporálgebra",
     "advancements.nether.add_spores_to_block.description": "Aplique Esporos de Luz ou Esporos Noturnos ao bloco de fungo apropriado",
     "advancements.nether.overkill.title": "Massacre",
@@ -444,9 +498,11 @@
     "advancements.nether.tower_defense.description": "Crie sua própria Vela Traiçoeira usando Cera Antiga",
     "advancements.nether.emf_raider.title": "Caçador de EMF",
     "advancements.nether.emf_raider.description": "Ative uma Bússola Localizadora de Santuário e siga-a até sua origem",
+
     "effect.netherexp.fogsight": "Visão de Névoa",
     "effect.netherexp.unbounded_speed": "Velocidade Ilimitada",
     "effect.netherexp.betrayed": "Traído",
+
     "effect.netherexp.speed_immunity": "Imunidade a Velocidade",
     "effect.netherexp.slowness_immunity": "Imunidade a Lentidão",
     "effect.netherexp.strength_immunity": "Imunidade a Força",
@@ -467,6 +523,7 @@
     "effect.netherexp.wither_immunity": "Imunidade a Decomposição",
     "effect.netherexp.luck_immunity": "Imunidade a Sorte",
     "effect.netherexp.unluck_immunity": "Imunidade a Azar",
+
     "item.netherexp.brightspores": "Esporos Brilhantes",
     "block.netherexp.shroombright": "Coguclarão",
     "block.netherexp.shale_swirls": "Redemoinhos de Xisto",
@@ -486,6 +543,7 @@
     "block.netherexp.potted_violet_scale_fungus": "Fungo-Escama Violeta Envasado",
     "block.netherexp.potted_umbral_sporeshroom": "Coguesporo Umbral Envasado",
     "block.netherexp.umbral_nylium_path": "Caminho de Nicélio Umbral",
+
     "item.netherexp.blightspores": "Esporos de Praga",
     "block.netherexp.shroomblight": "Cogupraga",
     "block.netherexp.blight_swirls": "Redemoinhos de Praga",
@@ -498,9 +556,12 @@
     "block.netherexp.yellow_nether_brick_slab": "Laje de Tijolos Amarelos do Nether",
     "block.netherexp.yellow_nether_brick_stairs": "Escadas de Tijolos Amarelos do Nether",
     "block.netherexp.yellow_nether_brick_wall": "Muro de Tijolos Amarelos do Nether",
+
     "item.netherexp.frightspores": "Esporos de Pavor",
     "block.netherexp.shroomfright": "Cogumedo",
+
     "block.netherexp.soul_ruby_ore": "Minério de Rubi das Almas",
+
     "item.netherexp.necromium_plating": "Revestimento de Necrônio",
     "block.netherexp.necromium_plated_block": "Bloco Revestido de Necrônio",
     "block.netherexp.necromium_grate": "Grade de Necrônio",
@@ -508,6 +569,7 @@
     "block.netherexp.cut_necromium_slab": "Laje de Necrônio Cortada",
     "block.netherexp.cut_necromium_stairs": "Escadas de Necrônio Cortada",
     "block.netherexp.cut_necromium_pillar": "Pilar de Necrônio Cortado",
+
     "item.netherexp.sealed_pottery_sherd": "Óstraco Selado",
     "item.netherexp.spectre_pottery_sherd": "Óstraco de Espectro",
     "item.netherexp.marionette_pottery_sherd": "Óstraco de Marionete",
@@ -515,12 +577,15 @@
     "item.netherexp.deception_pottery_sherd": "Óstraco de Engano",
     "item.netherexp.firearm_pottery_sherd": "Óstraco de Arma de Fogo",
     "item.netherexp.botanical_pottery_sherd": "Óstraco Botânico",
+
     "item.netherexp.jackhammer_fist": "Punho-Martelete",
+
     "enchantment.netherexp.phantasm_hull.desc": "A maioria dos projéteis atravessa você ao agachar.",
     "enchantment.netherexp.cartridge.desc": "Chance de conservar munição ao usar escopetas.",
     "enchantment.netherexp.recoil.desc": "Aumenta o próprio recuo das escopetas.",
     "enchantment.netherexp.barrage.desc": "Aumenta os projéteis disparados pelas escopetas, mas gera um tempo de recarga maior.",
     "enchantment.netherexp.artemis.desc": "Aumenta o alcance dos projéteis de muitas armas de longa distância.",
+
     "item.netherexp.roasted_bone": "Osso Assado",
     "block.netherexp.cerebrage_skull": "Crânio de Cerebragem",
     "item.netherexp.cerebrage": "Cerebragem",
@@ -541,6 +606,7 @@
     "subtitles.entity.stampede.attack": "Estouro atropela",
     "subtitles.entity.stampede.eat": "Estouro mastiga sua comida",
     "subtitles.entity.stampede.agitated": "Estouro se agita",
+
     "block.netherexp.black_icicle": "Pingente de Gelo Negro",
     "block.netherexp.thin_black_ice": "Gelo Negro Fino",
     "block.netherexp.soul_permafrost": "Permafrost das Almas",
@@ -551,9 +617,11 @@
     "subtitles.block.thin_black_ice.cracking": "Gelo Negro Fino racha",
     "subtitles.entity.vessel.warn": "Receptáculo carrega o barril",
     "subtitles.entity.vessel.fire": "Receptáculo atira",
+
     "effect.netherexp.brain_damage_immunity": "Imunidade a Dano Cerebral",
     "item.netherexp.antidote.effect.brain_damage": "Antídoto de Dano Cerebral",
     "item.netherexp.grenade_antidote.effect.brain_damage": "Granada de Antídoto de Dano Cerebral",
+
     "block.netherexp.grooved_black_ice": "Gelo Negro Estriado",
     "block.netherexp.discernment_glass": "Vidro de Discernimento",
     "block.netherexp.haze_block": "Bloco de Bruma",
@@ -580,7 +648,7 @@
     "block.netherexp.ancient_campfire": "Fogueira Antiga",
     "block.netherexp.ancient_candle": "Vela Antiga",
     "block.netherexp.ancient_burning_skull_block": "Bloco de Crânio em Chamas Antigo",
-    "block.netherexp.ancient_burning_wither_skull_block": "Bloco de Crânio de Esqueleto Wither em Chamas Antigo",
+    "block.netherexp.ancient_burning_wither_skull_block": "Bloco de Crânio de Esqueleto-Wither em Chamas Antigo",
     "block.netherexp.ancient_skeleton_skull_candle": "Vela de Crânio de Esqueleto Antiga",
     "subtitles.entity.carcass.hurt": "Carcaça chacoalha",
     "subtitles.entity.carcass.death": "Carcaça desmorona",
@@ -590,5 +658,6 @@
     "subtitles.item.jackhammer_fist.loop": "Punho-Martelete engrena",
     "subtitles.item.jackhammer_fist.pull": "Punho-Martelete se arma",
     "entity.netherexp.shotgun_pellet": "Chumbo de Escopeta",
+
     "itemGroup.netherexp.netherexp_tab": "Jaden's Nether Expansion"
 }

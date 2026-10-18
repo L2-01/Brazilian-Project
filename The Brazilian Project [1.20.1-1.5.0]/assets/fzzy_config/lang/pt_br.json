@@ -83,17 +83,20 @@
     "fc.validated_field.collapse.usage.focused": "Pressione enter para recolher",
     "fc.validated_field.collapse.usage.hovered": "Clique esquerdo para recolher",
     "fc.validated_field.current": "Valor atual: %s",
+
     "fc.validated_field.default": "Restaurar [%1$s] para o padrão de [%2$s]",
     "fc.validated_field.update.error": "Erro de atualização para [%1$s], [%2$s] para [%3$s]: %4$s",
     "fc.validated_field.revert.error": "Erro de reversão para [%1$s]: %2$s",
     "fc.validated_field.update": "[%1$s], [%2$s] para [%3$s]",
     "fc.validated_field.revert": "Reverter [%1$s], [%2$s] de volta para [%3$s]",
+
     "fc.tristate.default": "Padrão",
     "fc.tristate.default.desc": "Padrão",
     "fc.tristate.true": "Verdadeiro",
     "fc.tristate.true.desc": "Verdadeiro",
     "fc.tristate.false": "Falso",
     "fc.tristate.false.desc": "Falso",
+
     "fc.keybind.ctrl": "Ctrl %s",
     "fc.keybind.ctrl.shift": "Ctrl Shift %s",
     "fc.keybind.ctrl.shift.alt": "Ctrl Shift Alt %s",
@@ -105,10 +108,13 @@
     "fc.keybind.narrate": "tecla %s",
     "fc.keybind.resetting": "§e>§r %s §e<§r",
     "fc.keybind.resetting.narrate": "Selecione a nova tecla de atalho. Atual: %s",
+
     "test.walkable.testChildDave.testChildBool": "Booleano do Filho de Teste Dave",
     "test.walkable.testChildDave.testChildBool.desc": "O booleano favorito do Dave. Por favor, trate-o bem.",
+
     "fc.networking.permission.cheat": "O jogador [%1$s] pode ter tentado trapacear nas alterações de configuração do servidor!",
     "fc.networking.restart": "As configurações requerem um reinício.",
+
     "fc.search.indirect": "O resultado contém sub-entradas correspondentes:",
     "fc.search.indirect.group": "O grupo contém sub-entradas correspondentes:",
     "fc.search.title": "Configurações da Barra de Busca",
@@ -134,10 +140,12 @@
     "fc.search.behavior.NEVER.desc": "Nenhuma consulta de busca é passada",
     "fc.search.clearSearch": "Limpar Busca",
     "fc.search.clearSearch.desc": "Verdadeiro = a GUI limpa sua consulta de busca ao abrir\nFalso = a GUI exibirá a consulta ao ser reaberta.",
+
     "fc.narrator.position.list": "Entrada de lista %1$s de %2$s",
     "fc.narrator.position.config": "Configuração %1$s de %2$s",
     "fc.narrator.position.entry": "Elemento %1$s de %2$s",
     "fc.narrator.position.child": "Sub-elemento %1$s de %2$s",
+
     "fc.command.config": "§6§lConfiguração Afetada:§r",
     "fc.command.player": "§6§lJogador Responsável:§r",
     "fc.command.history": "§6§lHistórico de Alterações no momento do incidente:§r",
@@ -147,6 +155,7 @@
     "fc.command.rejected": "Atualização Aceita: %s",
     "fc.command.inspect": "[Inspecionar Atualização]",
     "fc.command.error.no_id": "ID de atualização em quarentena inválido",
+
     "fc.config.generic.section": "Seção de Configuração",
     "fc.config.generic.section.desc": "Esta Seção de Configuração não implementa sua chave de tradução. A tela não sabe como chamá-la!",
     "fc.config.generic.field": "Configuração",
@@ -198,6 +207,7 @@
     "fc.config.reload_resources.update.client.prompt": "[Recarregar Pacotes de Recursos]",
     "fc.config.reload_resources.update.server": "Você fez alterações em configuração(ões) que exigem que clientes recarreguem recursos (F3 + T). Os clientes conectados foram automaticamente atualizados e notificados; converse com os jogadores se houver dúvidas.",
     "fc.config.prompt.hover": "Clique para executar o comando",
+
     "fc.button.accept": "Aceitar",
     "fc.button.deny": "Negar",
     "fc.button.apply": "Aplicar Alterações",
@@ -249,6 +259,7 @@
     "fc.button.click.open_file": "Abre um arquivo: %s",
     "fc.button.click.run_command": "executa o comando \"%s\"",
     "fc.button.click.copy_to_clipboard": "copia \"%s\" para a sua área de transferência",
+
     "fc.button.info": "Informações de Uso da Tela",
     "fc.button.info.fc": "§oEsta configuração é alimentada por %s§r",
     "fc.button.info.fc.tip": "Abrir página da Wiki",
@@ -268,6 +279,7 @@
     "fc.button.info.search": "Ir para",
     "fc.button.info.info": "Informação",
     "fc.button.info.full_exit": "Saída Total",
+
     "fc.button.info.page_up.desc": "Rola uma 'página' de configurações para cima",
     "fc.button.info.page_down.desc": "Rola uma 'página' de configurações para baixo",
     "fc.button.info.home.desc": "Rola para o topo da configuração",
@@ -283,6 +295,7 @@
     "fc.button.info.search.desc": "Abre o menu 'Ir Para'",
     "fc.button.info.info.desc": "Abre este popup",
     "fc.button.info.full_exit.desc": "Sai de todas as GUIs de configuração abertas e as salva, conforme aplicável",
+
     "fzzy_config.text.or_2": "%1$s ou %2$s",
     "fzzy_config.text.or_3": "%1$s, %2$s",
     "fzzy_config.text.and_2": "%1$s e %2$s"

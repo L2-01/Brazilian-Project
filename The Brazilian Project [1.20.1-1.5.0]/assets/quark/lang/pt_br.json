@@ -2,6 +2,7 @@
     "____comment": "Colors are in #RRGGBB format",
     "quark.gui.color.crate_count": "#404040",
     "quark.gui.color.matrix_enchanting": "#404040",
+
     "quark.gui.button.sort": "Organizar",
     "quark.gui.button.sort_inventory": "Organizar inventário",
     "quark.gui.button.sort_container": "Organizar contêiner",
@@ -13,6 +14,7 @@
     "quark.gui.button.emotes": "Emojis",
     "quark.gui.button.back": "Voltar",
     "quark.gui.button.shift_lock": "Shift travado",
+
     "quark.gui.enchanting.min": "Mínimo: %d",
     "quark.gui.enchanting.influence": "Influência de vela: +%d%%",
     "quark.gui.enchanting.dampen": "Influência de vela: %d%%",
@@ -21,9 +23,11 @@
     "quark.gui.enchanting.right_click": "Botão dir. para girar",
     "quark.gui.enchanting.merge": "Clique para melhorar",
     "quark.gui.enchanting.pending": "Há encantamentos pendentes",
+
     "quark.gui.keygroup.misc": "Misc. do Quark",
     "quark.gui.keygroup.inv": "Inventário do Quark",
     "quark.gui.keygroup.emote": "Emojis do Quark",
+
     "quark.gui.config.save": "Salvar alterações",
     "quark.gui.config.social.website": "Site do Quark",
     "quark.gui.config.social.discord": "Discord do Quark/Violet Moon",
@@ -40,9 +44,11 @@
     "quark.gui.config.nchildren": "%d filhos",
     "quark.gui.config.defaultvalue": "Padrão: %s",
     "quark.gui.config.missingaddon": "Está faltando o addon necessário para esta categoria",
+
     "quark.gui.celebration.quark": "Feliz aniversário, Quark!",
     "quark.gui.celebration.vm": "Feliz aniversário, Violet Moon!",
     "quark.gui.celebration.minecraft": "Feliz aniversário, Minecraft!",
+
     "quark.gui.celebration.vns": "Feliz aniversário para MCVinnyq e Sully!",
     "quark.gui.celebration.vazkii": "Feliz aniversário para Vazkii!",
     "quark.gui.celebration.wire": "Feliz aniversário para Wire Segal!",
@@ -52,6 +58,7 @@
     "quark.gui.celebration.train": "Feliz aniversário para Train!",
     "quark.gui.celebration.zemmy": "Feliz aniversário para Zemmy!",
     "quark.gui.celebration.mat": "Feliz aniversário para MehVahdJukaar!",
+
     "quark.gui.celebration.iad": "Feliz Dia Internacional da Assexualidade!",
     "quark.gui.celebration.iad2": "Feliz Dia de Conscientização Intersexo!",
     "quark.gui.celebration.idr": "Feliz Dia de Solidariedade entre Intersex!",
@@ -63,9 +70,11 @@
     "quark.gui.celebration.tdr": "Feliz Dia de Solidariedade entre Transgêneros!",
     "quark.gui.celebration.tdv": "Feliz Dia da Visibilidade Trans!",
     "quark.gui.celebration.zdd": "Feliz Dia da Discriminação Zero!",
+
     "quark.gui.celebration.pm": "Feliz Mês de Orgulho LGBTQIA+!",
     "quark.gui.celebration.baw": "Feliz Semana de Conscientização Bissexual!",
     "quark.gui.celebration.taw": "Feliz Semana de Conscientização Trans!",
+
     "quark.gui.celebration.afd": "Te peguei! Primeiro de abril!",
     "quark.gui.celebration.hw": "Feliz Dia das Bruxas!",
     "quark.gui.celebration.xmas": "Feliz Natal!",
@@ -75,8 +84,10 @@
     "quark.gui.celebration.wwd": "Feliz Dia Mundial da Vida Selvagem!",
     "quark.gui.celebration.hrd": "Feliz Dia dos Direitos Humanos!",
     "quark.gui.celebration.ny": "Feliz Ano Novo!",
+
     "quark.gui.celebration.edballs": "Ed Balls",
     "quark.gui.celebration.doyouremember": "Você se lembra?",
+
     "quark.category.general": "Configurações gerais",
     "quark.category.friends": "Configurações de amigos",
     "quark.category.automation": "Automação",
@@ -89,6 +100,7 @@
     "quark.category.client": "Cliente",
     "quark.category.oddities": "Miscelâneas",
     "quark.category.experimental": "Experimental",
+
     "_quark.config.tl_note1": "Chaves de tradução adicionais para elementos de configuração podem ser adicionadas aqui",
     "_quark.config.tl_note2": "O formato é quark.config.[(categoria).]+.(nome).<nome|desc>",
     "_quark.config.tl_note3": "onde (nome) é em letras minúsculas, com espaços substituídos por sublinhados, e todos os caracteres não alfanuméricos removidos",
@@ -96,12 +108,14 @@
     "_quark.config.tl_note5": "Esta localização é apenas para o visualizador no jogo e não afetará o arquivo de configuração. Descrições adicionais .desc podem ser adicionadas à vontade",
     "_quark.config.tl_note6": "Descrições podem ser removidas traduzindo-as para uma chave vazia, se desejado. Use \n para dividir linhas",
     "_quark.config.tl_note7": "Veja abaixo exemplos (com a chave prefixada por _) para não carregar no jogo:",
+
     "_quark.config.automation.feeding_trough.name": "Teste 100",
     "_quark.config.automation.feeding_trough.desc": "Sim, estou testando\nCom várias linhas também!",
     "_quark.config.automation.feeding_trough.max_animals.name": "Testeroni",
     "_quark.config.automation.feeding_trough.max_animals.desc": "Testerino com uma linha",
     "_quark.config.automation.feeding_trough.love_chance.name": "Isto é um teste mesmo",
     "_quark.config.automation.feeding_trough.love_chance.desc": "",
+
     "quark.camera.filter": "Filtro: ",
     "quark.camera.filter.none": "Nenhum",
     "quark.camera.filter.grayscale": "Escala cinza",
@@ -129,11 +143,13 @@
     "quark.camera.filter.protanopia": "Protanopia simulada",
     "quark.camera.filter.tritanopia": "Tritanopia simulada",
     "quark.camera.filter.achromatopsia": "Acromatopsia simulada",
+
     "quark.camera.rulers": "Réguas: ",
     "quark.camera.rulers0": "Nenhuma",
     "quark.camera.rulers1": "Regra dos terços",
     "quark.camera.rulers2": "Proporção áurea",
     "quark.camera.rulers3": "Mira",
+
     "quark.camera.borders": "Bordas: ",
     "quark.camera.borders0": "Nenhuma",
     "quark.camera.borders1": "Quadrada",
@@ -141,24 +157,29 @@
     "quark.camera.borders3": "16:9",
     "quark.camera.borders4": "21:9",
     "quark.camera.borders5": "Polaróide",
+
     "quark.camera.overlay": "Sobreposição: ",
     "quark.camera.overlay0": "Nenhuma",
     "quark.camera.overlay1": "Data",
     "quark.camera.overlay2": "Cartão postal",
     "quark.camera.overlay3": "Marca d'água",
     "quark.camera.overlay4": "Item segurado",
+
     "quark.camera.header": "Modo de câmera",
     "quark.camera.info": "[%s para sair, ENTER para tirar foto]",
     "quark.camera.reset": "Redefinir configurações (precisa agachar)",
     "quark.camera.greetings": "Saudações de %s!",
-    "death.attack.quark.pickarang": "%1$s foi surpreendido pelo pickarang de %2$s voltando",
-    "death.attack.quark.pickarang.item": "%1$s foi surpreendido pelo %3$s de %2$s voltando",
+
+    "death.attack.quark.pickarang": "%2$s surpreendeu %1$s com o retorno do pickarang",
+    "death.attack.quark.pickarang.item": "%2$s surpreendeu %1$s com o retorno do %3$s",
+
     "quark.jei.makes_copy": "Faz cópia",
     "quark.jei.any_enchanted": "Qualquer item encantado",
     "quark.jei.influence": "Influência matriz",
     "quark.jei.boost_influence": "Aumenta a chance de: ",
     "quark.jei.dampen_influence": "Reduz a chance de: ",
     "quark.jei.hint_preamble": "[Quark]\n",
+
     "quark.jei.hint.pickarang": "É um bumerangue de picareta! Pode ser arremessado e minerará qualquer coisa que atingir, trazendo os itens de volta para você. Também pode ser encantado para melhor desempenho.",
     "quark.jei.hint.flamerang": "Funciona como um picarangue, mas os itens coletados ficam imunes a dano de fogo e lava enquanto viajam.",
     "quark.jei.hint.abacus": "Use isso em um bloco e ele contará a distância entre o bloco que você está olhando e o que você clicou, até 48 blocos.",
@@ -237,6 +258,7 @@
     "quark.jei.hint.pipe": "Move itens inseridos com um funil/ejetor ou equivalente, ou na forma de item largado em uma extremidade. Itens preferem cair para baixo, depois seguir em frente, depois aleatoriamente para os lados, e só então para cima. Itens indo para um contêiner cheio voltarão. Qualquer tubo pode ser desativado com um sinal de redstone, e a quantidade de itens em um tubo pode ser lida com um comparador. Tubos com mais de 16 itens quebrarão.",
     "quark.jei.hint.magnet": "Pode empurrar e puxar quaisquer blocos feitos de cobre ou ferro quando energizado, dependendo do lado. Se vários ímãs moverem o mesmo bloco, a maior força vencerá. A força de um ímã em um bloco é o sinal de redstone dado menos a distância até o bloco. Funis movidos com um ímã droparão um item à frente para cada bloco movido. Se o item for uma semente, tentará plantá-la. Cortadores de pedra movidos com um ímã tentarão quebrar o bloco acima deles.",
     "quark.jei.hint.dusky_myalite": "Pode ser encontrado incrustado em Espirais no End externo.",
+
     "quark.jei.hint.banner_layer_buff": "Estandartes foram atualizados para ter até %d camadas agora.",
     "quark.jei.hint.crate": "Pode segurar até %d itens, independentemente do tamanho da pilha. Não é ótimo para armazenamento em massa, mas fantástico para itens não empilháveis ou uma grande variedade de itens aleatórios.",
     "quark.jei.hint.piston_te": "Agora pode empurrar blocos complexos (ou seja, Tile Entities), exceto geradores de monstros.",
@@ -264,6 +286,7 @@
     "quark.jei.hint.repair_item_changed": "O material de reparo deste item em uma bigorna foi alterado para %s.",
     "quark.jei.hint.repair_item_changed_multiple": "O material de reparo deste item em uma bigorna foi alterado para um de %s.",
     "quark.jei.hint.shiba_find_low_light": "Se você estiver segurando uma tocha, Shibas apontarão pontos escuros para você iluminar.",
+
     "quark.jei.hint.minecraft.clock": "Deve ser fabricado antes de fazer qualquer coisa para evitar truques engraçados com o livro de receitas.",
     "quark.jei.hint.minecraft.amethyst_block": "Pode ser colocado sob um bloco de notas para fazê-lo emitir o som icônico de ametista.",
     "quark.jei.hint.minecraft.shulker_shell": "Baús podem ser convertidos em Caixas de Shulker sem quebrá-los usando duas Cascas de Shulker de uma vez - uma em cada mão.",
@@ -276,11 +299,12 @@
     "quark.jei.hint.minecraft.sponge": "Agora pode ser colocada diretamente na água.",
     "quark.jei.hint.minecraft.spore_blossom": "Agora pode ser renovada com farinha de osso.",
     "quark.jei.hint.minecraft.vine": "Tesouras agora podem ser usadas para cortar as pontad das trepadeiras para impedir que ela cresça mais.",
-    "quark.jei.hint.minecraft.campfire": "Impulsionará jogadores voando com um elytra acima dele ainda mais para cima.",
-    "quark.jei.hint.minecraft.soul_campfire": "Puxará jogadores voando com um elytra acima dele para o chão.",
+    "quark.jei.hint.minecraft.campfire": "Impulsionará jogadores voando com um élitros acima dele ainda mais para cima.",
+    "quark.jei.hint.minecraft.soul_campfire": "Puxará jogadores voando com um élitros acima dele para o chão.",
     "quark.jei.hint.minecraft.tinted_glass": "Pode ser usado para fazer feixes de farol ficarem mais fracos ao colocar o bloco no caminho. Vários se acumulam.",
     "quark.jei.hint.minecraft.lava_bucket": "Clique com o botão direito em um item no seu inventário no balde de lava para destruí-lo para sempre! Caixas de shulker e itens imunes ao fogo, como netherita, não podem ser destruídos assim.",
     "quark.jei.hint.minecraft.armor_stand": "Agora tem braços, permitindo segurar um item mais um escudo.",
+
     "quark.keybind.change_hotbar": "Trocador de barra de atalhos",
     "quark.keybind.lock_rotation": "Trava de rotação",
     "quark.keybind.sort_container": "Organizar inventário alvo",
@@ -300,6 +324,7 @@
     "quark.keybind.shift_lock": "Shift travado",
     "quark.keybind.autorun": "Andar automaticamente",
     "quark.keybind.variant_selector": "Seletor de variantes",
+
     "quark.readout.not_ingame": "Não está no jogo",
     "quark.readout.looking": "Olhando para %s",
     "quark.readout.holding": "Segurando %dx %s",
@@ -308,6 +333,7 @@
     "quark.readout.food": "Comida %d",
     "quark.readout.sign_says": ". A placa diz ",
     "quark.readout.no_item": "Sem item",
+
     "quark.subtitles.shiba_eat_arrow": "Shiba... come flecha?",
     "quark.subtitles.shiba_ambient": "Shiba ofega",
     "quark.subtitles.shiba_hurt": "Shiba se machuca",
@@ -369,6 +395,7 @@
     "quark.subtitles.ambient.clock": "Relógio tique-taquea",
     "quark.subtitles.ambient.crickets": "Grilos cantam",
     "quark.subtitles.ambient.chatter": "Conversa agitada",
+
     "quark.emote.wave": "Acenar",
     "quark.emote.yes": "Sim",
     "quark.emote.no": "Não",
@@ -387,6 +414,7 @@
     "quark.emote.zombie": "Zumbi",
     "quark.emote.exorcist": "Exorcista",
     "quark.emote.jet": "Jat",
+
     "quark.misc.shulker_box_shift": "Segure Shift para ver o conteúdo",
     "quark.misc.map_shift": "Segure Shift para ver o mapa",
     "quark.misc.rotation_lock": "Você ativou a trava de rotação. Quaisquer blocos que você colocar serão orientados na direção que estiver olhando. Pressione [%s] para alterar ou redefinir isso. Esta mensagem não aparecerá novamente.",
@@ -432,6 +460,7 @@
     "quark.misc.variant_tooltip_hold_shift": "(SHIFT para variantes)",
     "quark.misc.variant_tooltip_header": "Variantes:",
     "quark.misc.disable_slot": "Clique para desativar o espaço",
+
     "quark.misc.you_came_to_the_wrong_neighborhood.0": "Palavra de seis letras só pra me ajudar",
     "quark.misc.you_came_to_the_wrong_neighborhood.1": "É uma complexidade e eu tô codificando no meu mod e eu,",
     "quark.misc.you_came_to_the_wrong_neighborhood.2": "Eu continuo consertando, e mantendo tudo junto",
@@ -449,10 +478,13 @@
     "quark.misc.you_came_to_the_wrong_neighborhood.14": "Esse não é meu nome",
     "quark.misc.you_came_to_the_wrong_neighborhood.15": "Esse não é meu nome",
     "quark.misc.you_came_to_the_wrong_neighborhood.16": "Esse não é meu nome",
+
     "quark.misc.reloaded0": "Suas configurações do Quark foram recarregada.",
     "quark.misc.reloaded1": "- Se você mudou algo relacionado as receitas, por favor, execute /reload.",
     "quark.misc.reloaded2": "- Se suas mudanças não forem aplicadas, tente reiniciar o jogo.",
+
     "quark.container.feeding_trough": "Comedouro",
+
     "item.quark.trowel": "Espátula de construção",
     "item.quark.slime_in_a_bucket": "Balde com slime",
     "item.quark.slime_in_a_bucket.named": "Balde com %s",
@@ -526,11 +558,13 @@
     "item.quark.ancient_fruit": "Fruta encantada",
     "item.quark.pathfinders_quill": "Pena de explorador",
     "item.quark.hammer": "Martelo",
+
     "upgrade.quark.rune_upgrade": "Gravura rúnica",
     "item.quark.smithing_template.rune.applies_to": "Itens encantados",
     "item.quark.smithing_template.rune.base_slot_description": "Adicione um item encantado",
     "item.quark.smithing_template.rune.ingredients": "Pó de blaze, corante ou nada",
     "item.quark.smithing_template.rune.additions_slot_description": "Adicione pó de blaze, corante ou deixe vazio",
+
     "rune.quark.black": "Gravura rúnica preta",
     "rune.quark.blue": "Gravura rúnica azul",
     "rune.quark.brown": "Gravura rúnica marrom",
@@ -549,12 +583,15 @@
     "rune.quark.yellow": "Gravura rúnica amarela",
     "rune.quark.rainbow": "Gravura rúnica arco-íris",
     "rune.quark.blank": "Gravura rúnica em branco",
+
     "item.minecraft.potion.effect.quark.resilience": "Poção de estabilidade",
     "item.minecraft.splash_potion.effect.quark.resilience": "Poção arremessável de estabilidade",
     "item.minecraft.lingering_potion.effect.quark.resilience": "Poção prolongada de estabilidade",
     "item.minecraft.tipped_arrow.effect.quark.resilience": "Flecha de estabilidade",
+
     "item.quark.biome_map": "Mapa de exploração para %s",
     "item.quark.biome_map.unknown": "Bioma desconhecido",
+
     "_biome_map_comment": "As seguintes chaves de tradução são relevantes apenas para mapas gerados antes do Quark 354.",
     "item.quark.biome_map.snowy_plains": "Mapa de exploração para as planícies nevadas",
     "item.quark.biome_map.windswept_hills": "Mapa de exploração para as colinas ventosas",
@@ -569,6 +606,7 @@
     "item.quark.biome_map.badlands": "Mapa de exploração para as terras áridas",
     "item.quark.biome_map.mushroom_fields": "Mapa de exploração para os campos de cogumelos",
     "item.quark.biome_map.ice_spikes": "Mapa de exploração para os picos de gelo",
+
     "block.quark.charcoal_block": "Bloco de carvão",
     "block.quark.thatch": "Colmo de feno",
     "block.quark.thatch_slab": "Laje de colmo de feno",
@@ -1347,14 +1385,17 @@
     "block.quark.raw_iron_bricks_wall": "Muro de tijolos de ferro bruto",
     "block.quark.raw_gold_bricks_wall": "Muro de tijolos de ouro bruto",
     "block.quark.raw_copper_bricks_wall": "Muro de tijolos de cobre bruto",
-    "item.quark.stoneling_spawn_egg": "Ovo gerador de pedrita",
-    "item.quark.crab_spawn_egg": "Ovo gerador de caranguejo",
-    "item.quark.foxhound_spawn_egg": "Ovo gerador de chamuscão",
-    "item.quark.toretoise_spawn_egg": "Ovo gerador de pedraruga",
-    "item.quark.forgotten_spawn_egg": "Ovo gerador de esquecido",
-    "item.quark.wraith_spawn_egg": "Ovo gerador de espectro",
-    "item.quark.shiba_spawn_egg": "Ovo gerador de shiba",
+
+    "item.quark.stoneling_spawn_egg": "Ovo Gerador de Pedrita",
+    "item.quark.crab_spawn_egg": "Ovo Gerador de Caranguejo",
+    "item.quark.foxhound_spawn_egg": "Ovo Gerador de Chamuscão",
+    "item.quark.toretoise_spawn_egg": "Ovo Gerador de Pedraruga",
+    "item.quark.forgotten_spawn_egg": "Ovo Gerador de Esquecido",
+    "item.quark.wraith_spawn_egg": "Ovo Gerador de Espectro",
+    "item.quark.shiba_spawn_egg": "Ovo Gerador de Shiba",
+
     "effect.quark.resilience": "Resiliência",
+
     "entity.quark.pickarang": "Picarangue",
     "entity.quark.glass_frame": "Moldura de vidro",
     "entity.quark.dyed_item_frame": "Moldura tingida",
@@ -1370,6 +1411,7 @@
     "entity.quark.shiba": "Shiba",
     "entity.quark.quark_boat": "Bote",
     "entity.quark.quark_chest_boat": "Bote com baú",
+
     "block.quark.magnetized_block": "Bloco magnetizado",
     "block.quark.potted_beetroot": "Beterrabas em vaso",
     "block.quark.potted_berries": "Arbusto de bagas doces em vaso",
@@ -1405,9 +1447,12 @@
     "block.quark.potted_chorus_twist": "Espiral de coro em vaso",
     "block.quark.potted_ancient_sapling": "Muda de árvore ancestral em vaso",
     "block.quark.potted_cave_vines": "Vinhas de caverna em vaso",
+
     "block.quark.tiny_potato": "Batatinha",
     "block.quark.tiny_potato.angry": "Batatinha brava",
+
     "biome.quark.glimmering_weald": "Bosque Brilhante",
+
     "tag.item.c.storage_blocks.apple": "Blocos de armazenamento de maçã",
     "tag.item.c.storage_blocks.bamboo": "Blocos de armazenamento de bambu",
     "tag.item.c.storage_blocks.beetroot": "Blocos de Armazenamento de Beterraba",
@@ -1428,6 +1473,7 @@
     "tag.item.c.storage_blocks.stick": "Blocos de armazenamento de gravetos",
     "tag.item.c.storage_blocks.sugar_cane": "Blocos de armazenamento de cana-de-açúcar",
     "tag.item.c.storage_blocks.sweet_berries": "Blocos de armazenamento de bagas doces",
+
     "tag.item.quark.ancient_logs": "Troncos de madeira ancestral",
     "tag.item.quark.azalea_logs": "Troncos de azaleia",
     "tag.item.quark.bamboo_logs": "Troncos de bambu",
@@ -1457,6 +1503,7 @@
     "tag.item.quark.stools": "Banquinhos",
     "tag.item.quark.vertical_slabs": "Lajes verticais",
     "tag.item.quark.wooden_vertical_slabs": "Lajes verticais de madeira",
+
     "advancements.quark.influence.title": "Influenciador",
     "advancements.quark.influence.description": "Use velas no encantamento matriz para influenciar um encantamento específico",
     "advancements.quark.pat_potato.title": "Batata, Batata",
