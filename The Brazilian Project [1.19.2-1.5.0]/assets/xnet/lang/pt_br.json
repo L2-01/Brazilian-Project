@@ -1,5 +1,4 @@
 {
-
     "item.xnet.xnet_manual": "Manual da XNet",
     "item.xnet.connector_upgrade": "Kit de Melhoria de Conector",
 
@@ -102,8 +101,8 @@
     "xnet.item.ext.count.tooltip": "Quantidade de itens a extrair|por operação",
     "xnet.item.count.tooltip.formatted": "Desativar %s se o inventário de destino|tiver itens em quantidade muito %s",
     "xnet.item.blacklist.label": "LN",
-    "xnet.item.blacklist.tooltip": "Ativar modo de lista negra",
-    "xnet.item.tags.label": "Marcações",
+    "xnet.item.blacklist.tooltip": "Ativar modo de lista-negra",
+    "xnet.item.tags.label": "Marcadores",
     "xnet.item.tags.tooltip": "Correspondência de tag",
     "xnet.item.meta.label": "Meta",
     "xnet.item.meta.tooltip": "Correspondência de metadados",
@@ -152,8 +151,8 @@
 
     "xnet.enum.channelmode.priority": "Prioridade",
     "xnet.enum.channelmode.priority.tooltip": "Modo de distribuição de itens|Atual:Prioridade",
-    "xnet.enum.channelmode.roundrobin": "Round-robin",
-    "xnet.enum.channelmode.roundrobin.tooltip": "Modo de distribuição de itens|Atual:Round-robin",
+    "xnet.enum.channelmode.roundrobin": "Rodízio",
+    "xnet.enum.channelmode.roundrobin.tooltip": "Modo de distribuição de itens|Atual:Rodízio",
 
     "xnet.enum.insextmode.ins": "Ins",
     "xnet.enum.insextmode.ins.tooltip": "Inserir itens no|bloco conectado",

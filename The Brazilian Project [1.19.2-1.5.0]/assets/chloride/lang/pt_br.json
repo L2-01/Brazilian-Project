@@ -48,7 +48,7 @@
   "embeddium.plus.options.displayfps.gpu": "GPU",
   "embeddium.plus.options.displayfps.mem": "MEM",
 
-  "embeddium.plus.options.culling.page": "Culling de Entidades",
+  "embeddium.plus.options.culling.page": "descarte de entidades",
   "embeddium.plus.options.culling.entity.title": "Usar a Distância Máxima de Entidaeds",
   "embeddium.plus.options.culling.entity.desc": "Se habilitado, Entidades serão escondidas com base no limite de distância configurado",
   "embeddium.plus.options.culling.entity.distance.horizontal.title": "Distância Máxima de Entidades (Horizontal)",
@@ -78,7 +78,7 @@
   "embeddium.plus.options.darkness.mode.dark": "Escuro",
   "embeddium.plus.options.darkness.mode.dim": "Escuro Tênue",
   "embeddium.plus.options.darkness.others.title": "Ativar em Outras dimensões",
-  "embeddium.plus.options.darkness.others.desc": "Se habilitado, escuridão real será aplicada em outras dimensões\n\n[AVISO] Esta opção será removida em um futuro próximo em favor de uma lista negra",
+  "embeddium.plus.options.darkness.others.desc": "Se habilitado, escuridão real será aplicada em outras dimensões\n\n[AVISO] Esta opção será removida em um futuro próximo em favor de uma lista-negra",
   "embeddium.plus.options.darkness.overworld.title": "Ativar na Superfície",
   "embeddium.plus.options.darkness.overworld.desc": "Se ativado, a escuridão real será aplicada na Superfície.",
   "embeddium.plus.options.darkness.noskylight.title": "Ativar em dimensões Sem Luz do Céu",
@@ -110,8 +110,8 @@
   "embeddium.plus.options.fadein.title": "Qualidade do Fade In dos Chunks",
   "embeddium.plus.options.fadein.desc": "Controla o quão rápido os chunks aparecem. Sem impacto no desempenho, Fancy simplesmente demora  mais, mas fica mais legal. Atualmente não funciona",
 
-  "embeddium.plus.options.leaves_culling.title": "Culling de Folhas",
-  "embeddium.plus.options.leaves_culling.desc": "Reduz o número de faces visíveis de folhas do mesmo tipo, controla a profundidade do culling",
+  "embeddium.plus.options.leaves_culling.title": "descarte de folhas",
+  "embeddium.plus.options.leaves_culling.desc": "Reduz o número de faces visíveis de folhas do mesmo tipo, controla a profundidade do descarte",
   "embeddium.plus.options.leaves_culling.all": "Todas",
   "embeddium.plus.options.leaves_culling.more": "Mais",
   "embeddium.plus.options.leaves_culling.half": "Metade",

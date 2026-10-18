@@ -217,12 +217,12 @@
 
   "item.energizedpower.cutter": "Cortador",
 
-  "item.energizedpower.wrench": "Chave Inglesa",
-  "tooltip.energizedpower.wrench.txt.shift": "A Chave Inglesa pode ser usada para configurar blocos.",
+  "item.energizedpower.wrench": "Chave-Inglesa",
+  "tooltip.energizedpower.wrench.txt.shift": "A Chave-Inglesa pode ser usada para configurar blocos.",
   "tooltip.energizedpower.wrench.select_face": "Face selecionada: %s",
   "tooltip.energizedpower.wrench.not_configurable": "Este bloco não pode ser configurado.",
 
-  "tooltip.energizedpower.wrench_configurable": "Este bloco pode ser configurado com uma Chave Inglesa.",
+  "tooltip.energizedpower.wrench_configurable": "Este bloco pode ser configurado com uma Chave-Inglesa.",
 
   "item.energizedpower.battery_box_minecart": "Carrinho de Mina com Caixa de Bateria",
   "item.energizedpower.advanced_battery_box_minecart": "Carrinho de Mina com Caixa de Bateria Avançada",
@@ -261,8 +261,8 @@
   "tooltip.energizedpower.item_conveyor_belt_sorter.label.output_connection.no_connection": "Saída %d: Nenhuma esteira transportadora conectada",
   "tooltip.energizedpower.item_conveyor_belt_sorter.label.output_connection.connection": "Saída %d: Esteira conectada",
   "tooltip.energizedpower.item_conveyor_belt_sorter.cbx.ignore_nbt": "Ignorar NBT",
-  "tooltip.energizedpower.item_conveyor_belt_sorter.cbx.whitelist": "Lista Branca",
-  "tooltip.energizedpower.item_conveyor_belt_sorter.cbx.blacklist": "Lista Negra",
+  "tooltip.energizedpower.item_conveyor_belt_sorter.cbx.whitelist": "Lista-branca",
+  "tooltip.energizedpower.item_conveyor_belt_sorter.cbx.blacklist": "Lista-negra",
 
   "block.energizedpower.item_conveyor_belt_switch": "Interruptor de Esteira Transportadora de Itens",
   "item.energizedpower.item_conveyor_belt_switch": "Interruptor de Esteira Transportadora de Itens",
@@ -1191,8 +1191,8 @@
   "advancements.energizedpower.cutter.title": "Corte, corte, corte",
   "advancements.energizedpower.cutter.description": "Cortadores podem ser usados para fabricar fios.",
 
-  "advancements.energizedpower.wrench.title": "Configuração com Chave Inglesa",
-  "advancements.energizedpower.wrench.description": "Configure blocos com uma chave inglesa.",
+  "advancements.energizedpower.wrench.title": "Configuração com Chave-Inglesa",
+  "advancements.energizedpower.wrench.description": "Configure blocos com uma Chave-Inglesa.",
 
   "advancements.energizedpower.battery_box_minecart.title": "Energia nos Trilhos",
   "advancements.energizedpower.battery_box_minecart.description": "Transporte energia nos trilhos.",
@@ -1378,7 +1378,7 @@
   "book.energizedpower.page.duration_upgrades.1": "As Melhorias de Duração aumentam a duração do clima definido pelo Controlador de Clima.",
   "book.energizedpower.page.duration_upgrades.2": "A Melhoria de Duração (Nível VI) permitirá que o Controlador de Clima mantenha o Clima atual, mas requer fornecimento constante de energia.",
 
-  "book.energizedpower.page.range_upgrades": "As Melhorias de Alcance aumentam o alcance em que uma máquina pode enviar e receber ondas eletromagnéticas.",
+  "book.energizedpower.page.range_upgrades": "As Melhorias de Alcance aumentam o alcance em que uma máquina pode operar.",
 
   "book.energizedpower.page.extraction_depth_upgrades": "As Melhorias de Profundidade de Extração aumentam a profundidade em que uma máquina pode operar.",
 
@@ -1395,7 +1395,7 @@
   "book.energizedpower.page.cutters.1": "Cortadores podem ser usados para fabricar fios.",
   "book.energizedpower.page.cutters.2": "Cortadores podem ser usados para quebrar cabos mais rapidamente.",
 
-  "book.energizedpower.page.wrench": "A Chave Inglesa pode ser usada para configurar blocos.",
+  "book.energizedpower.page.wrench": "A Chave-Inglesa pode ser usada para configurar blocos.",
 
 
   "book.energizedpower.page.chapter.workbenches.title": "Bancadas de Trabalho",
@@ -1587,7 +1587,7 @@
   "book.energizedpower.page.chapter.fluid_blocks": "Blocos que podem armazenar e transferir fluidos.",
 
   "book.energizedpower.page.fluid_pipes.1": "Os tubos de fluido podem transferir fluidos.",
-  "book.energizedpower.page.fluid_pipes.2": "O modo de cada lado do tubo pode ser configurado com uma Chave Inglesa.",
+  "book.energizedpower.page.fluid_pipes.2": "O modo de cada lado do tubo pode ser configurado com uma Chave-Inglesa.",
   "book.energizedpower.page.fluid_pipes.3": "Um único bloco de tubo de fluido só pode extrair um tipo de fluido de cada vez, mesmo quando vários lados estão configurados como extração.",
   "book.energizedpower.page.fluid_pipes.4": "Existem dois níveis de tubos de fluido: Ferro e Dourado.",
 
@@ -1602,7 +1602,7 @@
   "book.energizedpower.page.chapter.item_transportation": "Blocos que podem transportar Itens.",
 
   "book.energizedpower.page.item_conveyor_belt.1": "As correias transportadoras de itens podem transportar itens.",
-  "book.energizedpower.page.item_conveyor_belt.2": "A inclinação das correias transportadoras pode ser configurada com uma Chave Inglesa.",
+  "book.energizedpower.page.item_conveyor_belt.2": "A inclinação das correias transportadoras pode ser configurada com uma Chave-Inglesa.",
   "book.energizedpower.page.item_conveyor_belt.3": "As correias transportadoras podem ser carregadas com funis e qualquer bloco que possa inserir itens em blocos.",
   "book.energizedpower.page.item_conveyor_belt.4": "As correias transportadoras podem inserir itens em blocos na frente da correia transportadora.",
   "book.energizedpower.page.item_conveyor_belt.5": "Alternativamente, elas podem ser descarregadas com funis e outros blocos que podem extrair itens de blocos.",
@@ -1621,7 +1621,7 @@
   "book.energizedpower.page.item_conveyor_belt_sorter.5": "O item será direcionado para a primeira saída onde o filtro corresponder (Prioridade: SAÍDA 1, SAÍDA 2, SAÍDA 3).",
   "book.energizedpower.page.item_conveyor_belt_sorter.6": "O filtro corresponde se pelo menos um item de padrão da linha de filtro de saída corresponder ao item de entrada.",
   "book.energizedpower.page.item_conveyor_belt_sorter.7": "Os itens de padrão podem ser colocados pegando o item do inventário e clicando com o botão esquerdo em um espaço de padrão. O filtro pode ser redefinido clicando com o botão esquerdo sem um item.",
-  "book.energizedpower.page.item_conveyor_belt_sorter.8": "Para permitir quaisquer itens, selecione a lista negra sem nenhum item de padrão. Se uma saída não estiver conectada, o filtro deve ser definido como lista branca sem nenhum item de padrão.",
+  "book.energizedpower.page.item_conveyor_belt_sorter.8": "Para permitir quaisquer itens, selecione a lista-negra sem nenhum item de padrão. Se uma saída não estiver conectada, o filtro deve ser definido como lista-branca sem nenhum item de padrão.",
   "book.energizedpower.page.item_conveyor_belt_sorter.9": "Um sinal de redstone de força 15 será emitido se nenhum filtro corresponder (Se nenhuma saída estiver conectada ou se estiver cheia, nenhum sinal de redstone será emitido).",
 
   "book.energizedpower.page.item_conveyor_belt_switch.1": "O Interruptor de Correia Transportadora de Itens pega itens da correia transportadora de entrada (Deve estar voltada para o quadrado grande e não deve ser ascendente) e os coloca na correia transportadora de saída no lado com o indicador verde.",

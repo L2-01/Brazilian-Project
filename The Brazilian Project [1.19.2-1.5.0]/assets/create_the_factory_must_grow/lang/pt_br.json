@@ -1,5 +1,4 @@
 {
-
 	"_": "Aproveite o Create: Central Kitchen!",
 
 	"block.createindustry.accumulator": "Acumulador",
@@ -405,7 +404,7 @@
 	"item.createindustry.coal_coke": "Coque de Carvão",
 	"item.createindustry.coal_coke_dust": "Pó de Coque de Carvão",
 	"item.createindustry.concrete_mixture": "Mistura de Concreto",
-	"item.createindustry.cooling_fluid_bucket": "Balde de Fluidos de Resfriamento",
+	"item.createindustry.cooling_fluid_bucket": "Balde com Fluido de Resfriamento",
 	"item.createindustry.copper_cable": "Cabo de Cobre",
 	"item.createindustry.copper_grenade": "Granada de Cobre",
 	"item.createindustry.copper_sulfate": "Sulfato de Cobre",
@@ -657,7 +656,7 @@
 	"block.createindustry.voltmeter.tooltip.behaviour1": "Mede a _Tensão_ da _Fonte de Energia_, a energia máxima no _Voltímetro_ é determinada pelo seu _Alcance de Medição_.",
 	"block.createindustry.voltmeter.condition2": "Quando observado com Óculos de Engenheiro",
 	"block.createindustry.voltmeter.tooltip.behaviour2": "Exibe informações detalhadas sobre a _Tensão_ das fonte bem como o _Alcance de Medição_ do Voltímetro",
-	"block.createindustry.voltmeter.condition3": "Quando clicado com o Botão Direito com Chave Inglesa",
+	"block.createindustry.voltmeter.condition3": "Quando clicado com o Botão Direito com Chave-Inglesa",
 	"block.createindustry.voltmeter.tooltip.behaviour3": "Muda o _Alcance de Medição_",
 	"block.createindustry.converter.tooltip.summary": "Torna outros mods compatíveis com o TFMG adicionando tensão elétrica",
 	"block.createindustry.converter.condition1": "Quando FE é inserido por Baixo",
@@ -668,7 +667,7 @@
 	"block.createindustry.rgb_light_bulb.tooltip.summary": "Brilha em uma dada cor quando Energizada",
 	"block.createindustry.rgb_light_bulb.condition1": "Quando colocada em Fonte de Energia",
 	"block.createindustry.rgb_light_bulb.behaviour1": "A lâmpada irá _Brilhar_ se a _Tensão_ e a _Energia_ estiverem em equilíbrio, quanto maior a _Tensão_ mais forte o brilho",
-	"block.createindustry.rgb_light_bulb.condition2": "Quando clicada com o Botão Direito com uma Chave Inglesa",
+	"block.createindustry.rgb_light_bulb.condition2": "Quando clicada com o Botão Direito com uma Chave-Inglesa",
 	"block.createindustry.rgb_light_bulb.behaviour2": "Muda de cor",
 	"block.createindustry.creative_generator.tooltip.summary": "Produz energia com base no valor em seu painel de entrada",
 	"block.createindustry.cable connector.tooltip.summary": "Clique com o direito com 2 conectores de cabo com um _Cabo de Cobre_ para fazê-los transportarem _Energia_",
@@ -680,7 +679,7 @@
 	"block.createindustry.electric_motor.tooltip.summary": "Converte energia em rotação (rpm configurável na lateral)",
 	"block.createindustry.generator.tooltip.summary": "Transforma rotação em energia",
 	"block.createindustry.copper_coil.tooltip.summary": "Aumenta Tensão",
-	"block.createindustry.copper_coil.tooltip.behaviour1": "Para aumentar a tensão, você precisa ter torres de bobinas ao lado ou a um bloco da outra, com pelo menos uma tendo pelo menos 1 bloco a mais do que a outra, ambas com a altura máxima de 5 blocos e com seus blocos superiores tocando. Clique com o botão direito no bloco superior na torre maior com uma chave inglesa para fazer dele a saída. Energia entra e sai do topo de suas respectivas torres",
+	"block.createindustry.copper_coil.tooltip.behaviour1": "Para aumentar a tensão, você precisa ter torres de bobinas ao lado ou a um bloco da outra, com pelo menos uma tendo pelo menos 1 bloco a mais do que a outra, ambas com a altura máxima de 5 blocos e com seus blocos superiores tocando. Clique com o botão direito no bloco superior na torre maior com uma Chave-Inglesa para fazer dele a saída. Energia entra e sai do topo de suas respectivas torres",
 	"block.createindustry.flarestack.tooltip.summary": "Queima produtos de petróleo desnecessários",
 	"block.createindustry.flarestack.tooltip.condition1": "Quando Fluidos/Gases combustíveis são bombeados pela parte inferior",
 	"block.createindustry.flarestack.tooltip.behaviour1": "Exclui o que é bombeado para dentro",
@@ -743,7 +742,7 @@
 	"createindustry.ponder.blast_furnace.text_2": "Para montar um alto-forno, construa uma chaminé de tijolos refratários conforme mostrado",
 	"createindustry.ponder.blast_furnace.text_3": "A metade inferior da chaminé precisa ser reforçada",
 	"createindustry.ponder.blast_furnace.text_4": "Combustível e outros itens são inseridos pela abertura no topo",
-	"createindustry.ponder.coke_oven.text_1": "O Forno de Coque é construído colocando os blocos do Forno de Coque conforme mostrado e clicando em uma das laterais com uma chave inglesa",
+	"createindustry.ponder.coke_oven.text_1": "O Forno de Coque é construído colocando os blocos do Forno de Coque conforme mostrado e clicando em uma das laterais com uma Chave-Inglesa",
 	"createindustry.ponder.coke_oven.text_2": "Seu processo é bem lento, como tal é mais eficiente ter longas fileiras de fornos trabalhando simultanemaente",
 	"createindustry.ponder.coke_oven.text_3": "Carvão pode ser inserido de qualquer lado",
 	"createindustry.ponder.coke_oven.text_4": "Enquanto funciona, o forno produz Creosoto e CO2, que precisam ser extraídos com bombas para que ele funcione",
@@ -758,7 +757,7 @@
 	"createindustry.ponder.large_generator.text_1": "A parte principal do Gerador Grande é o Rotor",
 	"createindustry.ponder.large_generator.text_2": "Para completar o Gerador Grande, coloque Estatores ao redor do Rotor",
 	"createindustry.ponder.large_generator.text_3": "Fornecer energia rotacional ao Roto irá produzir energia elétrica",
-	"createindustry.ponder.large_generator.text_4": "Clicar em um dos lados com uma chave inglesa fará dele uma saída de energia",
+	"createindustry.ponder.large_generator.text_4": "Clicar em um dos lados com uma Chave-Inglesa fará dele uma saída de energia",
 
 	"createindustry.ponder.distillation_tower.header": "Torre de Destilação",
 

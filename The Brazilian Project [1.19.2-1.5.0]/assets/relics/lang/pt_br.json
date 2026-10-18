@@ -34,14 +34,14 @@
   "tooltip.relics.relic.exchange.locked": "A relíquia já atingiu seu nível máximo.",
 
   "tooltip.relics.relic.upgrade.description": "Subir de Nível",
-  "tooltip.relics.relic.upgrade.cost": "Custo: %1$s pontos de melhoria %2$s, %3$s pontos de experiência (%4$s níveis relativos) %5$s.",
+  "tooltip.relics.relic.upgrade.cost": "Custo: %1$s pontos de melhoria %2$s, %3$s pontos de experiência %4$s.",
   "tooltip.relics.relic.upgrade.locked": "A habilidade já está em seu nível máximo.",
 
   "tooltip.relics.relic.reroll.description": "Re-aleatorizar atributos aleatórios",
-  "tooltip.relics.relic.reroll.cost": "Custo: %1$s pontos de experiência (%2$s níveis relativos) %3$s.",
+  "tooltip.relics.relic.reroll.cost": "Custo: %1$s pontos de experiência %2$s.",
 
   "tooltip.relics.relic.reset.description": "Resetar pontos de habilidade",
-  "tooltip.relics.relic.reset.cost": "Custo: %1$s pontos de experiência (%2$s níveis relativos) %3$s.",
+  "tooltip.relics.relic.reset.cost": "Custo: %1$s pontos de experiência %2$s.",
   "tooltip.relics.relic.reset.locked": "Para usar você precisa subir esta habilidade de nível pelo menos 1 vez.",
 
   "item.relics.infinity_ham": "Presunto Infinito",
@@ -60,7 +60,7 @@
   "tooltip.relics.enders_hand.ability.neutrality": "Neutralidade",
   "tooltip.relics.enders_hand.ability.neutrality.description": "Faz os endermen serem neutros com seu usuário.",
   "tooltip.relics.enders_hand.ability.swap": "Transposição do End",
-  "tooltip.relics.enders_hand.ability.swap.description": "Troca o usuário e o alvo no campo de visão dentro de um alcance de até %1$s blocos.",
+  "tooltip.relics.enders_hand.ability.swap.description": "Troca o usuário com o alvo na linha de visão.",
   "tooltip.relics.enders_hand.ability.swap.stat.distance.title": "Distância:",
   "tooltip.relics.enders_hand.ability.swap.stat.distance.value": "%1$s blocos.",
   "tooltip.relics.enders_hand.ability.swap.predicate.target": "Olhando para o alvo",
@@ -231,7 +231,7 @@
   "tooltip.relics.ice_breaker.ability.sustainability.stat.modifier.title": "Resistência a Repulsão:",
   "tooltip.relics.ice_breaker.ability.sustainability.stat.modifier.value": "%1$s%%.",
   "tooltip.relics.ice_breaker.ability.impact": "Terremoto",
-  "tooltip.relics.ice_breaker.ability.impact.description": "Uso prolongado da habilidade enquanto cai, até pousar, criará uma onda de choque, dando até %2$s de dano e jogando inimigos próximos para trás. Contudo, o poder da onda de choque depende da distância da qual o usuário caiu.",
+  "tooltip.relics.ice_breaker.ability.impact.description": "Usar a habilidade durante uma queda criará uma onda de choque no local da aterrissagem, causando dano e arremessando alvos próximos. O poder da onda depende da distância que o usuário voou.",
   "tooltip.relics.ice_breaker.ability.impact.stat.size.title": "Raio máximo:",
   "tooltip.relics.ice_breaker.ability.impact.stat.size.value": "%1$s blocos.",
   "tooltip.relics.ice_breaker.ability.impact.stat.damage.title": "Dano mínimo:",
@@ -239,7 +239,7 @@
   "tooltip.relics.ice_breaker.ability.impact.predicate.falling": "Queda Livre",
 
   "item.relics.bastion_ring": "Anel do Bastião",
-  "tooltip.relics.bastion_ring.leveling": "+1/5/10 ponto(s) de experiência para cada Piglin Zumbificado / Piglin / Piglin Bárbaro.\n+1 ponto de experiência para cada troca adicional com a habilidade «Respeito».",
+  "tooltip.relics.bastion_ring.leveling": "+1/5/10 ponto(s) de experiência para cada Piglin-Zumbificado / Piglin / Piglin Bárbaro.\n+1 ponto de experiência para cada troca adicional com a habilidade «Respeito».",
   "tooltip.relics.bastion_ring.ability.compass": "Reconhecimento",
   "tooltip.relics.bastion_ring.ability.compass.description": "Faz os piglins serem neutros com seu usuário. O piglin mais próximo indicará a localização de um bastião próximo.",
   "tooltip.relics.bastion_ring.ability.trade": "Respeito",
@@ -302,7 +302,7 @@
   "tooltip.relics.hunter_belt.ability.slots.stat.talisman.title": "Talismãs:",
   "tooltip.relics.hunter_belt.ability.slots.stat.talisman.value": "+%1$s espaços.",
   "tooltip.relics.hunter_belt.ability.training": "Treinamento",
-  "tooltip.relics.hunter_belt.ability.training.description": "Aumenta o dano dado pelos mascotes do usuário em %1$s%%.",
+  "tooltip.relics.hunter_belt.ability.training.description": "Aumenta o dano causado pelos mascotes do usuário.",
   "tooltip.relics.hunter_belt.ability.training.stat.damage.title": "Multiplicador de dano:",
   "tooltip.relics.hunter_belt.ability.training.stat.damage.value": "+%1$s%%.",
 

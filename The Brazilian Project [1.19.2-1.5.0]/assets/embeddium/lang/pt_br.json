@@ -36,7 +36,7 @@
   "sodium.options.biome_blend.value": "%s bloco(s)",
   "sodium.options.biome_blend.tooltip": "Controla o alcance no qual os biomas serão amostrados para a colorização de blocos. Valores mais altos aumentam consideravelmente o tempo necessário para construir chunks para melhorias de qualidade decrescentes.",
   "sodium.options.entity_distance.tooltip": "Controla quão longe as entidades podem ser renderizadas do jogador. Valores mais altos aumentam a distância de renderização ao custo da taxa de quadros.",
-  "sodium.options.entity_shadows.tooltip": "Se ativado, sombras básicas serão renderizadas sob mobs e outras entidades.",
+  "sodium.options.entity_shadows.tooltip": "Se ativado, sombras básicas serão renderizadas sob criaturas e outras entidades.",
   "sodium.options.vignette.name": "Vinheta",
   "sodium.options.vignette.tooltip": "Se ativado, um efeito de vinheta será renderizado na visão do jogador. É improvável que isso faça diferença na taxa de quadros, a menos que você tenha limitação de taxa de preenchimento.",
   "sodium.options.mipmap_levels.tooltip": "Controla o número de mipmaps que serão usados para texturas de modelos de blocos. Valores mais altos proporcionam uma melhor renderização de blocos à distância, mas podem afetar negativamente o desempenho com muitas texturas animadas.",
