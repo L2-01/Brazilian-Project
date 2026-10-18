@@ -1,2 +1,15 @@
-# Auto detect text files and perform LF normalization
+# Detectar arquivos de texto e normalizar as quebras de linha para LF.
 * text=auto
+
+# Preservar arquivos binarios sem conversao de fim de linha.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ogg binary
+*.nbt binary
+*.zip binary
+*.jar binary
+*.7z binary
+*.pak binary

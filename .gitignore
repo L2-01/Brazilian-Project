@@ -1,13 +1,35 @@
-/Originals - 1.21.1
-/Originals - 26.1.2
-/Originals - 1.20.1
-/Originals - 1.19.2
-
-New Mods - Unimplemented/Originals - 1.21.1
-New Mods - Unimplemented/Originals - 26.1.2
-New Mods - Unimplemented/Originals - 1.20.1
-New Mods - Unimplemented/Originals - 1.19.2
-
+# ============================================================
+# EXCLUSOES GERAIS (mantidas do arquivo original)
+# Atenção: *.md inclui README.md; *.py inclui scripts Python.
+# ============================================================
 en_us.json
 *.md
 *.py
+
+# ============================================================
+# GUIDEME — PUBLICAR SOMENTE AS PAGINAS _pt_br
+# Os originais e demais idiomas ficam disponiveis localmente.
+# Preserva estruturas comuns chamadas ae2guide.
+# ============================================================
+**/ae2guide/**
+!**/ae2guide/
+!**/ae2guide/**/
+!**/ae2guide/**/_pt_br/**
+
+# ============================================================
+# GUIDEME — GUIAS EM assets/<namespace>/guides/...
+# Escopo restrito a assets para nao ignorar outras pastas 'guides'.
+# ============================================================
+**/assets/*/guides/**
+!**/assets/*/guides/
+!**/assets/*/guides/**/
+!**/assets/*/guides/**/_pt_br/**
+
+# ============================================================
+# PATCHOULI — PUBLICAR SOMENTE OS ARQUIVOS pt_br
+# Nao inclui book.json, en_us e traducoes de outros idiomas.
+# ============================================================
+**/patchouli_books/**
+!**/patchouli_books/
+!**/patchouli_books/**/
+!**/patchouli_books/**/pt_br/**
