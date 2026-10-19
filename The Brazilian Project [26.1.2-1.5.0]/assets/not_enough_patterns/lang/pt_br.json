@@ -46,7 +46,7 @@
     "nep.configuration.machineHub.meNetworkChannels": "Canais da Rede ME",
     "nep.configuration.machineHub.meNetworkChannels.tooltip": "Canais que a Central de Máquinas ocupa na rede ME antes de contar os vínculos. Cada inventário vinculado adiciona meNetworkChannelsPerLink adicional, e qualquer valor acima de 8 deve passar por cabos densos.\nIsto é lido uma vez ao conectar a Central a uma rede; portanto, alterá-lo exige recarregar o mundo. Defina este valor e meNetworkChannelsPerLink como 0 para uma Central que não ocupe canais.",
     "nep.configuration.machineHub.meNetworkChannelsPerLink": "Canais da Rede ME por Vínculo",
-    "nep.configuration.machineHub.meNetworkChannelsPerLink.tooltip": "Canais que cada inventário vinculado à Central de Máquinas adiciona ao consumo da Central, substituindo o barramento que cada escotilha precisaria.\nA Central pode ocupar no máximo o limite de canais, dependendo da sua configuração do AE2. Defina como 0 para que os vínculos não tenham custo.",
+    "nep.configuration.machineHub.meNetworkChannelsPerLink.tooltip": "Canais que cada inventário vinculado à Central de Máquinas adiciona ao consumo da Central, substituindo o ponto de E/S que cada escotilha precisaria.\nA Central pode ocupar no máximo o limite de canais, dependendo da sua configuração do AE2. Defina como 0 para que os vínculos não tenham custo.",
     "nep.configuration.patternDecoder": "Decodificador de Padrões",
     "nep.configuration.patternDecoder.tooltip": "Comportamento do Decodificador de Padrões.",
     "nep.configuration.patternDecoder.requireDecoder": "Exigir Decodificador",

@@ -90,7 +90,7 @@
 
     "effect.occultism.third_eye.description": "A visão ficará em tons de cinza, com aberração cromática e desfoque. Concede a habilidade de ver folhas, troncos, pedras e minérios do outro mundo.",
     "effect.occultism.double_jump.description": "Concede a habilidade de pular duas vezes.",
-    "effect.occultism.dragon_greed.description": "Matar entidades aumenta a quantidade de XP que elas soltam.",
+    "effect.occultism.dragon_greed.description": "Matar entidades aumenta a quantidade de XP que elas largam.",
     "effect.occultism.mummy_dodge.description": "Concede a chance de se mover automaticamente uma curta distância para fora do caminho e evitar dano.",
     "effect.occultism.bat_lifesteal.description": "Cura um pouco de vida quando o usuário mata algo.",
     "effect.occultism.beaver_harvest.description": "Aumenta a velocidade de cortar madeira.",
@@ -116,7 +116,7 @@
     "effect.bloodmagic.plantleech": "Sanguessuga Vegetal",
     "effect.bloodmagic.plantleech.description": "Inflige dano em troca de mais tiques de crescimento.",
     "effect.bloodmagic.soulsnare": "Laço de Almas",
-    "effect.bloodmagic.soulsnare.description": "Faz criaturas soltarem vontade.",
+    "effect.bloodmagic.soulsnare.description": "Faz criaturas largarem vontade.",
     "effect.bloodmagic.firefuse": "Pavio de Fogo",
     "effect.bloodmagic.firefuse.description": "Causa uma explosão ao fim do efeito que lança o usuário bem alto no ar.",
     "effect.bloodmagic.soulfray": "Desgaste da Alma",
@@ -131,7 +131,7 @@
     "effect.simplyswords.echo.description": "Inflige dano mágico atrasado.",
     "effect.simplyswords.onslaught.description": "Concede pressa pulsante, mas inflige fraqueza quando expira.",
     "effect.simplyswords.battle_fatigue": "Fadiga de Batalha",
-    "effect.simplyswords.battle_fatigue.description": "Impede soltar outro Estandarte por um tempo.",
+    "effect.simplyswords.battle_fatigue.description": "Impede largar outro Estandarte por um tempo.",
     "effect.simplyswords.fatal_flicker": "Clarão Fatal",
     "effect.simplyswords.fatal_flicker.description": "Reinicia a recarga da habilidade de avanço do Whisperwind.",
 
@@ -386,7 +386,7 @@
     "effect.epicfight.instability.description": "Faz o usuário ser morto instantaneamente pela habilidade inata das adagas de duelo ao acumular 4. Só funciona em zumbis, esqueletos e creepers.",
 
     "effect.create_bic_bit.unanchored.description": "Teleporta o usuário aleatoriamente.",
-    "effect.create_bic_bit.oiled_up.description": "Faz o usuário soltar itens aleatoriamente, cair de escadas, flutuar na água e voar quando chove.",
+    "effect.create_bic_bit.oiled_up.description": "Faz o usuário largar itens aleatoriamente, cair de escadas, flutuar na água e voar quando chove.",
 
     "effect.marvelous_menagerie.sea_cow_serenity.description": "Aumenta pontos de armadura e resistência a repulsão, e concede oxigênio infinito.",
     "effect.marvelous_menagerie.pacified.description": "Impede entidades de atacarem o usuário a menos que sejam provocadas.",
@@ -407,7 +407,7 @@
     "effect.mahoutsukai.bleeding.description": "Concede a habilidade de criar um Mahoujin.",
     "effect.mahoutsukai.immunity_exchange.description": "Faz o usuário não receber dano de fontes repetidas e, em vez disso, receber o dobro de dano de uma fonte diferente da última.",
     "effect.mahoutsukai.insight_eyes.description": "Concede a habilidade de ver o inventário, bônus, penalidades e efeitos de poção de uma entidade.",
-    "effect.mahoutsukai.misfortune.description": "Tem chance de fazer o usuário ser atingido por um raio, soltar itens, ter saque pior, tropeçar, quebrar ferramentas ou aumentar a agressividade inimiga.",
+    "effect.mahoutsukai.misfortune.description": "Tem chance de fazer o usuário ser atingido por um raio, largar itens, ter saque pior, tropeçar, quebrar ferramentas ou aumentar a agressividade inimiga.",
     "effect.mahoutsukai.confusion.description": "Inverte os controles de jogadores e faz criaturas correrem desesperadamente.",
     "effect.mahoutsukai.wounded.description": "Inflige dano ao longo do tempo se o usuário se mover rápido demais.",
     "effect.mahoutsukai.cm_cooldown.description": "Recarga para habilidades.",
@@ -579,7 +579,7 @@
 
     "effect.tconstruct.carry.description": "Diminui a velocidade de movimento.",
     "effect.tconstruct.bleeding.description": "Inflige dano ao longo do tempo.",
-    "effect.tconstruct.magnetic.description": "Puxa itens soltos em direção ao usuário.",
+    "effect.tconstruct.magnetic.description": "Puxa itens largados em direção ao usuário.",
     "effect.tconstruct.enderference.description": "Impede enderman de se teleportarem.",
     "effect.tconstruct.teleport_cooldown.description": "Recarga para teleportar com o Slimeskull de Enderman.",
     "effect.tconstruct.fireball_cooldown.description": "Recarga para bolas de fogo.",
@@ -672,7 +672,7 @@
     "effect.roundabout.gravity_flip.description": "Inobtível; efeito de depuração. A direção da gravidade do usuário muda conforme a potência do efeito: Norte no nível 1, Sul no 2, Leste no 3, Oeste no 4, Cima no 5 e o normal Baixo no 6.",
     "effect.roundabout.hex.description": "Impede o usuário de comer Maçãs Douradas Encantadas e garante que a Locacaca comida transforme o coração do usuário em pedra. No nível 2, também impede de comer maçãs douradas normais.",
     "effect.roundabout.melting.description": "Diminui a vida máxima e faz o usuário emitir constantemente gotículas pálidas. No nível 7+, a velocidade de movimento diminui. Não pode ser removido com Leite.",
-    "effect.roundabout.stand_virus.description": "Só os indignos obterão o vírus. Inflige dano ao longo do tempo e muda a textura dos corações da HUD. Star Platinum e The World infligirão 3 vezes mais dano. Ao fim do efeito, o stand que a flecha segura rejeita o usuário e solta seu grito.",
+    "effect.roundabout.stand_virus.description": "Só os indignos obterão o vírus. Inflige dano ao longo do tempo e muda a textura dos corações da HUD. Platina Estelar e The World infligirão 3 vezes mais dano. Ao fim do efeito, o stand que a flecha segura rejeita o usuário e solta seu grito.",
     "effect.roundabout.vampire_blood.description": "Ao morrer com o efeito, o usuário voltará à vida como vampiro com vida cheia.",
     "effect.roundabout.warding.description": "Concede imunidade a Flechas com Efeito e a pegar fogo, exceto por contato com lava e Fogo de Stand.",
 

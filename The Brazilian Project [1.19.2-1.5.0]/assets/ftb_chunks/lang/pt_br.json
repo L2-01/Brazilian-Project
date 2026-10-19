@@ -162,7 +162,7 @@
     "ftbchunks.require_game_stage": "Exigir etapa de jogo para o mapeamento",
     "ftbchunks.require_game_stage.tooltip": "Se ativado, os jogadores devem ter a etapa de jogo 'ftbchunks_mapping' (requer KubeJS e/ou Gamestages) para poderem abrir o mapa ou ver o minimapa",
     "ftbchunks.location_mode_override": "Substituir \"Visibilidade da localização\" da equipe",
-    "ftbchunks.location_mode_override.tooltip": "Se ativado, as configurações de \"Visibilidade da localização\" da equipe são ignoradas e todos os jogadores podem ver uns aos aos outros em qualquer lugar do mapa",
+    "ftbchunks.location_mode_override.tooltip": "Se ativado, as configurações de \"Visibilidade da localização\" da equipe são ignoradas e todos os jogadores podem ver uns aos outros em qualquer lugar do mapa",
     "ftbchunks.memory.region_release_time": "Tempo para liberação de região ociosa",
     "ftbchunks.memory.region_release_time.tooltip": "Tempo em segundos para liberar dados de regiões 512x512 não acessadas recentemente\nValores menores reduzem o uso de memória, mas aumentam o acesso ao disco para recarregar as regiões\nDefina como 0 para não liberar dados de regiões.",
     "ftbchunks.memory.autorelease_on_map_close": "Liberar regiões automaticamente ao fechar o mapa",

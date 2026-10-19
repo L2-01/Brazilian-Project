@@ -234,7 +234,7 @@
     "log.sfm.statement.tick.io.move_to.extracted_nothing": "não extraiu nada, marcando este espaço de entrada como concluído",
     "log.sfm.statement.tick.io.move_to.retention_obligation": "Prometeu deixar %d no espaço de origem, ainda com obrigação de deixar %d",
     "log.sfm.statement.tick.io.move_to.retention_obligation_no_move": "Nada para mover após obrigações de retenção, marcando o espaço de origem como concluído e pulando",
-    "log.sfm.statement.tick.io.move_to.stack_limit_no_move": "Máximo transferível destino=%d, origem=%d, limite do pack=%d; novo paraMover=%d",
+    "log.sfm.statement.tick.io.move_to.stack_limit_no_move": "Máximo transferível destino=%d, origem=%d, limite de pilha=%d; novo paraMover=%d",
     "log.sfm.statement.tick.io.move_to.type_mismatch": "Incompatibilidade de tipo, pulando",
     "log.sfm.statement.tick.io.move_to.zero_simulated_movement": "Obteve o restante %d após inserção simulada de potencial %d (0 para mover), pulando",
     "log.sfm.statement.tick.io.move_to.zero_to_move": "paraMover=0, pulando",

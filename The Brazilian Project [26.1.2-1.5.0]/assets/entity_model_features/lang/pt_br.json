@@ -1,8 +1,8 @@
 {
     "entity_model_features.config.parrot_shoulder_animate": "Ombro de papagaio segue as animações do jogador",
     "entity_model_features.config.parrot_shoulder_animate.tooltip": "Faz a posição do papagaio no ombro seguir automaticamente a posição animada do jogador por padrão; não é equivalente aos pontos de anexo `parrot_left` e `parrot_right`, pois estes não rotacionam.",
-    "entity_model_features.config.sulfur_cube_block": "Animação padrão do bloco Sulfur Cube",
-    "entity_model_features.config.sulfur_cube_block.tooltip": "Faz os blocos internos do Sulfur Cube animarem automaticamente por padrão; equivale a ter um anexo 'sulfur_cube_block' na parte 'cube' do modelo com offset 0,0,0.",
+    "entity_model_features.config.sulfur_cube_block": "Animação padrão do bloco Cubo de Enxofre",
+    "entity_model_features.config.sulfur_cube_block.tooltip": "Faz os blocos internos do Cubo de Enxofre animarem automaticamente por padrão; equivale a ter um anexo 'sulfur_cube_block' na parte 'cube' do modelo com offset 0,0,0.",
     "entity_model_features.config.logASM": "Registrar estado matemático compilado",
     "entity_model_features.config.asmmaths.logASM": "Causa spam no log; você provavelmente não precisa disso a menos que o dev tenha pedido um log com isso.",
     "entity_model_features.config.asmmaths": "Matemática de animação compilada",

@@ -124,7 +124,7 @@
     "fdbosses.word.killed_chesed_in_screen": "Bem, você o matou. Parabéns! Espero que se sinta mal por matar uma criatura inocente! Sabe, eu queria crashar o jogo, mas isso seria um game design ruim, então deixarei essa decisão para você. Aqui, aperte este botão.",
     "fdbosses.word.crash_game": "Crashar o jogo",
     "fdbosses.word.start_fight": "Iniciar Luta",
-    "fdbosses.word.drops": "Drops",
+    "fdbosses.word.drops": "Itens Largados",
 
     "fdbosses.boss_drop.fdbosses.chesed.fdbosses.lightning_core.info": "Um núcleo do qual Chesed extrai seu poder. \n\nPode ser aplicado a qualquer arma na bancada de trabalho. \n\nAo atacar entidades com uma arma aprimorada com o Núcleo de Raio, há uma chance de atingir o alvo com o raio de Chesed, que causará uma porcentagem do dano da arma enquanto inflige {{(fdbosses:effect)id=fdbosses:shocked}}.",
     "fdbosses.boss_drop.fdbosses.chesed.fdbosses.lightning_core.stats": "Choque:\n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=effectConfig, value=shockDamageReductionPercent}}% de redução de dano causado.\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=lightningStrikeShockDuration}} tiques.\n\nRaio: \n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=itemConfig, value=lightningStrikeDamagePercent}}% do dano da arma.\n\nChance de invocação: {{(fdbosses:config_float) config=itemConfig, value=chanceToSummonLightningStrike}}%",
