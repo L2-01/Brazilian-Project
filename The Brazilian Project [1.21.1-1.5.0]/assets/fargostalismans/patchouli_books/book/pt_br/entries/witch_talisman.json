@@ -1,0 +1,18 @@
+{
+  "name": "Talismã da Bruxa",
+  "sortnum": 53,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:witch_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã da Bruxa faz bruxas arremessarem poções benéficas, como regeneração, no jogador. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_epic)Base de Talismã Épico$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_mystic)Força do Místico$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/witch_talisman",
+      "recipe2": "fargostalismans:forces/force_of_mystic"
+    }
+  ],
+  "read_by_default": true
+}

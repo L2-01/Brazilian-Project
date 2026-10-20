@@ -1,0 +1,21 @@
+{
+    "name": "Carrinho de Atração de Aura",
+    "icon": "naturesaura:mover_cart",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Um dos problemas que muitos pesquisadores de $(aura) enfrentam é que, embora ela seja abundante e fácil de acessar, não é necessariamente fácil de $(thing)mover$(). Para isso, o $(item)Carrinho de Atração de Aura$() foi desenvolvido: seu único propósito é permitir que a $(aura) seja movida pelo mundo facilmente. Para isso, tudo que é necessário é uma quantidade excessiva de $(aura) na área inicial e alguns $(item)trilhos$()."
+        },
+        {
+            "type": "text",
+            "text": "Para usar o $(item)Carrinho de Atração de Aura$(), é preciso colocá-lo num trilho. Para fazê-lo se conectar à $(aura) na área ao redor e poder movê-la, ele precisa passar por um $(item)Trilho Ativador$() energizado. Ele então pegará a $(aura) ao redor e a puxará consigo até atingir um $(item)Trilho Ativador$() desenergizado, ponto em que soltará a $(aura).$(p)Vale notar que, durante o processo de mover $(aura) dessa maneira, parte do excesso é $(thing)$(t:| || || |_)perdida$()."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Carrinho de Atração de Aura$()",
+            "recipe": "naturesaura:mover_cart"
+        }
+    ]
+}

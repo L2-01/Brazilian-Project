@@ -1,0 +1,17 @@
+{
+  "name": "Manivela de Madeira",
+  "category": "ae2:getting_started",
+  "icon": "ae2:crank",
+  "sortnum": 100,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(thing)Manivela de Madeira$() pode ser usada para operar manualmente o $(l:ae2:getting_started/charger)Carregador$(/l), o $(l:ae2:getting_started/inscriber)Inscritor$(/l) e os $(l:ae2:getting_started/certus#cga)Aceleradores de Crescimento de Cristais$(/l).$(br2)Para colocar a $(thing)Manivela$() no $(thing)Carregador$(), segure [$(k:sneak)] e pressione [$(k:use)]. A $(thing)Manivela de Madeira$() só pode ser colocada num lado válido de entrada de energia (normalmente o topo ou a base)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ae2:network/blocks/crank",
+      "text": "Cada volta gera $(l:ae2:concepts/power)160 AE$(). São preciso 10 voltas para gerar energia suficiente para fabricar um único item no $(thing)Carregador$().$(br2)Ela pode quebrar se usada demais."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "trim_pattern.cobblemon.automaton",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:automaton_armor_trim_smithing_template",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "trim_pattern.cobblemon.automaton",
+            "item": "cobblemon:automaton_armor_trim_smithing_template",
+            "text": "book.cobblepedia.entries.automaton_armor_trim_smithing_template.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:automaton_armor_trim_smithing_template",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.trivia",
+            "text": "book.cobblepedia.entries.automaton_armor_trim_smithing_template.trivia.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:smithing_template"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "name": "Baleia-do-End",
+    "icon": "adventurez:blackstone_golem_heart",
+    "category": "adventurez:mob_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Baleias-do-End são criaturas amigáveis que voam pelo vazio. Elas podem ser montadas, até com um amigo, e podem ser chamadas com a Flauta do Ender. Consiga uma fruta do coro e fabrique uma Vara com Fruta do Coro para guiá-las na direção que você quiser"
+        },
+        {
+            "type": "entity",
+            "name": "Exibição",
+            "entity": "adventurez:ender_whale",
+            "rotate": false,
+            "default_rotation": 25.0,
+            "scale": 0.6,
+            "offset": -0.3
+        },
+        {
+            "type": "spotlight",
+            "item": "adventurez:ender_flute",
+            "link_recipe": true,
+            "text": "A Flauta do Ender é um instrumento antigo para chamar Baleias-do-End para uma montaria"
+        },
+        {
+            "type": "crafting",
+            "recipe": "adventurez:ender_flute"
+        },
+        {
+            "type": "spotlight",
+            "item": "adventurez:chorus_fruit_on_a_stick",
+            "link_recipe": true,
+            "text": "A Vara com Fruta do Coro é uma simples vara para guiar Baleias-do-End, já que elas adoram comer essas frutas"
+        },
+        {
+            "type": "crafting",
+            "recipe": "adventurez:chorus_fruit_on_a_stick"
+        }
+    ]
+}

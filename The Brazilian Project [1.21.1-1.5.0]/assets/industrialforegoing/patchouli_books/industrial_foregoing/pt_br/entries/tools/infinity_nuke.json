@@ -1,0 +1,17 @@
+{
+  "name": "Ogiva Nuclear do Infinito",
+  "icon": "industrialforegoing:infinity_nuke",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Ogiva Nuclear do Infinito é uma ferramenta de destruição em massa cujo raio de explosão aumenta com base no nível e na quantidade de biocombustível dentro dela. A Ogiva não destruirá coisas em chunks reivindicados. $(br2)Para fazê-la explodir você precisa colocá-la no chão, clicar com o botão direito para armá-la e clicar com o botão direito com uma pederneira para explodi-la."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_nuke"
+    }
+  ]
+}

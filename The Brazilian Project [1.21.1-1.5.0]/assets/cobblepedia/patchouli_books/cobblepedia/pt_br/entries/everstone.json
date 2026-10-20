@@ -1,0 +1,27 @@
+{
+    "name": "item.cobblemon.everstone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:everstone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:everstone",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.everstone.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.loot",
+            "text": "book.cobblepedia.entries.everstone.loot.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:eviolite"
+            ]
+        }
+    ]
+}

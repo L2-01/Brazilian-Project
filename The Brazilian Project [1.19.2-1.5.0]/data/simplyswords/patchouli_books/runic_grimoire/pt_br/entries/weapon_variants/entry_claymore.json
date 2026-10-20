@@ -1,0 +1,26 @@
+{
+  "name": "Claymore",
+  "icon": "simplyswords:iron_claymore",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_claymore",
+      "text": "A Claymore foi projetada tanto para ataques de corte quanto de estocada e era usada por guerreiros escoceses em batalha. Seu tamanho e peso a tornam uma arma poderosa capaz de desferir golpes devastadores num inimigo."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_claymore",
+      "recipe2": "simplyswords:gold_claymore"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_claymore"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_claymore",
+      "recipe2": "simplyswords:runic_claymore"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+    "name": "item.cobblemon.vivichoke_seeds",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:vivichoke_seeds",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:vivichoke_seeds",
+            "text": "book.cobblepedia.entries.vivichoke_seeds.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:vivichoke_seeds",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.loot",
+            "text": "book.cobblepedia.entries.vivichoke_seeds.loot.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.trading",
+            "text": "book.cobblepedia.entries.vivichoke_seeds.trading.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.farming",
+            "text": "book.cobblepedia.entries.vivichoke_seeds.farming.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.composting",
+            "text": "book.cobblepedia.entries.vivichoke_seeds.composting.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:miracle_seed"
+            ]
+        }
+    ]
+}

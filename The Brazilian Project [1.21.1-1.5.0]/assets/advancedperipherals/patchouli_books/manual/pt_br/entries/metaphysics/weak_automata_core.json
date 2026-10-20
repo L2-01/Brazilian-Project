@@ -1,0 +1,27 @@
+{
+  "name": "Núcleo de Autômato Fraco",
+  "icon": "advancedperipherals:weak_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Núcleo de Autômato Fraco",
+      "item": "advancedperipherals:weak_automata_core",
+      "text": "O Núcleo de Autômato Fraco é uma melhoria para tartarugas, que permite transformar a tartaruga em um autômato poderoso!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:weak_automata_core"
+    },
+    {
+      "type": "link",
+      "text": "Ele fornece várias habilidades para as tartarugas.$(li)Cavar blocos com ferramenta;$(li)Clicar em blocos com item ou mão vazia;$(li)Sugar itens ao redor, todos ou específicos;$(li)Detectar itens ao redor;$(li)Detectar bloco ou tartaruga na linha de visão;$(li)Carregar a tartaruga com item de RF dentro do inventário",
+      "url": "https://docs.advanced-peripherals.de/metaphysics/weak_automata/",
+      "link_text": "Documentação da API"
+    },
+    {
+      "type": "text",
+      "text": "Mas o núcleo fraco é apenas o começo da pesquisa metafísica! A estrutura vazia está pronta para aceitar fragmentos de alma de criaturas. Parece que você precisa tentar alimentar a alma com criaturas diferentes para receber variantes avançadas.$(li)$(l:metaphysics/end_automata_core)Núcleo de Autômato do End$(li)$(l:metaphysics/husbandry_automata_core)Núcleo de Autômato de Pecuária"
+    }
+  ]
+}

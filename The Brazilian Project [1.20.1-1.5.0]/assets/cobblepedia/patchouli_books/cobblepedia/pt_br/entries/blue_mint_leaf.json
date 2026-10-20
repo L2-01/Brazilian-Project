@@ -1,0 +1,28 @@
+{
+    "name": "item.cobblemon.blue_mint_leaf",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:blue_mint_leaf",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:blue_mint_leaf",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.blue_mint_leaf.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "entries": [
+                "cobblepedia:lonely_mint",
+                "cobblepedia:bold_mint",
+                "cobblepedia:impish_mint",
+                "cobblepedia:lax_mint",
+                "cobblepedia:relaxed_mint",
+                "cobblepedia:mild_mint",
+                "cobblepedia:gentle_mint",
+                "cobblepedia:hasty_mint"
+            ]
+        }
+    ]
+}

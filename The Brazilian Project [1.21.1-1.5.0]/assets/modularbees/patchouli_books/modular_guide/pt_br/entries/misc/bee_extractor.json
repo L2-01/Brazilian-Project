@@ -1,0 +1,17 @@
+{
+  "name": "Extrator de Abelha",
+  "icon": "modularbees:bee_extractor",
+  "read_by_default": true,
+  "category": "modularbees:misc",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Extrator de Abelha",
+      "text": "O Extrator de Abelha é um engarrafador modificado, que pode extrair o gene da abelha para o frasco."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:bee_extractor"
+    }
+  ]
+}

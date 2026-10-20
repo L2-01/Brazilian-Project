@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.pink_apricorn",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:pink_apricorn",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:pink_apricorn",
+            "link_recipe": true,
+            "title": "item.cobblemon.pink_apricorn",
+            "text": "book.cobblepedia.entries.pink_apricorn.text"
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "cobblemon:pink_apricorn_smelt_to_dye",
+            "title": "book.cobblepedia.pages.smelting"
+        }
+    ]
+}

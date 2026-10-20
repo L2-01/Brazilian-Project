@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:block_detector",
+  "name": "Detector de Blocos",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:block_detector",
+      "link_recipe": true,
+      "text": "O $(d)Detector de Blocos$() emite um sinal de redstone quando o bloco à sua frente corresponde ao bloco armazenado no seu inventário.",
+      "title": "Detector de Blocos"
+    }
+  ]
+}

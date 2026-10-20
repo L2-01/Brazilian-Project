@@ -1,0 +1,42 @@
+{
+    "name": "block.cobblemon.relic_coin_pouch",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:relic_coin_pouch",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:relic_coin_pouch",
+            "title": "block.cobblemon.relic_coin_pouch",
+            "text": "book.cobblepedia.entries.relic_coin_pouch.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.loot",
+            "text": "book.cobblepedia.entries.relic_coin_pouch.loot.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.generation",
+            "text": "book.cobblepedia.entries.relic_coin_pouch.generation.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:relic_pouch_from_coin",
+            "recipe2": "cobblemon:relic_pouch_from_relic_sack",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:relic_coin_sack",
+            "title": "book.cobblepedia.pages.ingredient"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:relic_coin",
+                "cobblepedia:relic_coin_sack"
+            ]
+        }
+    ]
+}

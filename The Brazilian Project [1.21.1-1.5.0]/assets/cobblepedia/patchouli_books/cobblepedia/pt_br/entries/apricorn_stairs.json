@@ -1,0 +1,20 @@
+{
+    "name": "block.cobblemon.apricorn_stairs",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:apricorn_stairs",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:apricorn_stairs",
+            "title": "block.cobblemon.apricorn_stairs",
+            "text": "book.cobblepedia.entries.apricorn_stairs.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:apricorn_stairs",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.apricorn_stairs.crafting"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "book.cobblepedia.entries.crop",
+    "category": "cobblepedia:agriculture",
+    "icon": "cobblemon:medicinal_leek",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.crop.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:revival_herb",
+                "cobblepedia:pep_up_flower",
+                "cobblepedia:medicinal_leek",
+                "cobblepedia:vivichoke_seeds",
+                "cobblepedia:mint_seeds",
+                "cobblepedia:big_root",
+                "cobblepedia:energy_root"
+            ]
+        }
+    ]
+}

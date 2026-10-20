@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:location_filter",
+  "name": "Filtro de Localização",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(d)Filtro de Localização$() permite $(3)definir uma localização$(), usada por vários itens e blocos.$(br2)Defina a localização usando-o no bloco desejado.",
+      "title": "Filtro de Localização"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:location_filter",
+      "link_recipe": true,
+      "text": "Existem outras formas também, como usá-lo num $(l:blocks/biome_radar)Radar de Bioma$(/l) para vinculá-lo ao bioma localizado."
+    }
+  ]
+}

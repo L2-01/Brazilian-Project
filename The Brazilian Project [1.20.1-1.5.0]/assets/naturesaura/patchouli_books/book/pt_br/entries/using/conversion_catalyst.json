@@ -1,0 +1,122 @@
+{
+    "name": "Catalisador de Transmutação",
+    "icon": "naturesaura:conversion_catalyst",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O $(l:using/altar)Altar Natural$() pode ser útil para infundir certos itens com o poder da $(aura), porém, ele também pode ajudar a transmutar itens de um tipo em outro.$(br)Isso pode ser feito criando o $(item)Catalisador de Transmutação$() e colocando-o em cima de qualquer um dos quatro blocos de $(item)Tijolos de Pedra Dourada$() inferiores ao redor do altar, e então colocando o ingrediente no altar como de costume."
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "Criando o $(item)Catalisador de Transmutação$() usando o $(l:practices/tree_ritual)Ritual da Floresta$().",
+            "recipe": "naturesaura:conversion_catalyst"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Criando $(item)Bafo do Dragão$() a partir da $(aura) do End",
+            "recipe": "naturesaura:breath"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Conjurando $(item)Couro$() dos restos de um zumbi",
+            "recipe": "naturesaura:leather"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Fazendo $(item)Areia das Almas$() a partir de grãos mundanos",
+            "recipe": "naturesaura:soul_sand"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Criando $(item)Fungo do Nether$() dos esporos do Nether",
+            "recipe": "naturesaura:nether_wart"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Conjurando $(item)Fragmentos de Prismarinho$() do minério do nether",
+            "recipe": "naturesaura:prismarine"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Fazendo $(thing)água$() se acumular dentro de uma $(item)garrafa$() vazia",
+            "recipe": "naturesaura:water"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Transformando $(item)Carvão Vegetal$() em $(item)Carvão$()",
+            "recipe": "naturesaura:coal"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Criando $(item)Flechas Espectrais$()",
+            "recipe": "naturesaura:arrow"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Criando uma $(item)Flor-do-Coro$()",
+            "recipe": "naturesaura:chorus"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Criando $(item)Olhos de Aranha Fermentados$()",
+            "recipe": "naturesaura:fermented"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Criando um $(item)Laço$()",
+            "recipe": "naturesaura:lead"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Purificando uma $(item)Batata Venenosa$()",
+            "recipe": "naturesaura:potato"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Criando $(item)Cristais de Prismarinho$()",
+            "recipe": "naturesaura:prismarine_crystal"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Criando um $(item)Pé de Coelho$()",
+            "recipe": "naturesaura:rabbit_foot"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Criando $(item)Pedra-Negra Dourada$()",
+            "recipe": "naturesaura:gilded_blackstone"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Criando $(item)Fungo Carmesim$()",
+            "recipe": "naturesaura:crimson_fungus"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Criando $(item)Fungo Distorcido$()",
+            "recipe": "naturesaura:warped_fungus"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Transformando $(item)Maçãs$() em $(item)Ovos$()",
+            "recipe": "naturesaura:egg"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Transformando $(item)Água$() em $(item)Leite$()$(p)$(italic)Igualzinho ao Jesus$()",
+            "recipe": "naturesaura:milk"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Transformando $(item)Fragmentos de Ametista$() em $(item)Pérolas de Ender$()",
+            "recipe": "naturesaura:ender_pearl"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Transformando $(item)Terra das Almas$() em $(item)Lágrimas de Ghast$()",
+            "recipe": "naturesaura:ghast_tear"
+        }
+    ]
+}

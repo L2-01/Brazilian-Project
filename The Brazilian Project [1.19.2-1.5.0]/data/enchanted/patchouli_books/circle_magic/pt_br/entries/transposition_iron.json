@@ -1,0 +1,17 @@
+{
+  "name": "Transpor Ferro",
+  "icon": "minecraft:raw_iron",
+  "category": "enchanted:transposition",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Transpor Ferro",
+      "text": "Transpõe todo o ferro útil debaixo do círculo para a superfície, deixando a pedra para trás."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:transposition_iron"
+    }
+  ],
+  "read_by_default": true
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Controlador",
+  "icon": "xnet:controller",
+  "category": "rftoolsbase:category_xnet_simple",
+  "extra_recipe_mappings": {
+    "xnet:controller": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Controlador é o coração de uma rede XNet. Ele edita canais e decide como itens, líquidos, energia ou redstone se movem através dos blocos conectados."
+    },
+    {
+      "type": "text",
+      "text": "Adicione um canal, escolha seu tipo e depois adicione conectores a esse canal. Cada conector pode ter seu próprio lado, prioridade, filtros e configurações de transferência."
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:controller"
+    }
+  ]
+}

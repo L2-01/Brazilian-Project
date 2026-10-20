@@ -1,0 +1,18 @@
+{
+    "name": "Módulo de Translação",
+    "icon": "mffs:translation_module",
+    "category": "mffs:projector_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:translation_module",
+            "link_recipe": true,
+            "text": "O $(5)Módulo de Translação$() pode ser colocado nos espaços de campo do $(l:mffs:machines/projector)Projetor de Campo de Força$() para deslocar a posição do campo projetado. Você pode mover o campo de força em cada direção colocando $(5)Módulos de Translação$() no espaço de campo respectivo daquele lado. Cada módulo move o campo em 1 bloco."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:translation_module",
+            "text": "Fabricando o $(5)Módulo de Translação$()."
+        }
+    ]
+}

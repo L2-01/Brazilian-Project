@@ -1,0 +1,21 @@
+{
+    "name": "Moldador de Nuvens",
+    "icon": "naturesaura:weather_changer",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ocasionalmente, pode ser desejável para um botânico mágico mudar uma das muitas coisas que guiam nossas ações diárias e ditam quando podemos sair: $(thing)o clima$(). Com o $(item)Moldador de Nuvens$(), esse desejo se torna realmente possível. Aceitando certos itens jogados no chão para ativação, este dispositivo $(thing)mudará o clima$() para o tipo desejado, usando $(aura) no processo."
+        },
+        {
+            "type": "text",
+            "text": "Os seguintes itens podem ser usados e mudarão o clima da seguinte forma: $(item)Girassóis$() farão sol, $(item)Prismarinho Escuro$() fará chover e, por último, $(item)Bolas de Fogo$() invocarão uma tempestade. Jogar mais itens também aumenta o tempo que o clima desejado provavelmente durará, mas também aumenta o uso de $(aura) da mudança.$(br)Além disso, quando o clima já é do tipo desejado, o $(item)Moldador de Nuvens$() não deixará de fazer seu trabalho."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Moldador de Nuvens$()",
+            "recipe": "naturesaura:weather_changer"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Melhorias de Caveira",
+  "icon": "enchanted:chalice_filled",
+  "category": "enchanted:altars",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As caveiras podem melhorar tanto a capacidade quanto a taxa de recarga de um altar, com eficácia variada. $(br2)$(bold)Esqueleto$() +1x Capacidade de Poder +1x Taxa de Recarga$(br)$(bold)Wither$() +2x Capacidade de Poder +2x Taxa de Recarga$(br)$(bold)Jogador$() +2,5x Capacidade de Poder +3x Taxa de Recarga"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "minecraft:skeleton_skull"
+        },
+        "pattern": [
+          [ " 0 " ]
+        ]
+      }
+    }
+  ],
+  "read_by_default": true
+}

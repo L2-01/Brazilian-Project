@@ -1,0 +1,17 @@
+{
+  "name": "Urso-Polar",
+  "icon": "minecraft:polar_bear_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:polar_bear",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:swords,tag:minecraft:axes",
+      "text": "Usar uma espada ou machado no Cercado de Animais matará o urso-polar e largará seu saque."
+    }
+  ]
+}

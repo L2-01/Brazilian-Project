@@ -1,0 +1,16 @@
+{
+  "name": "Giz Infernal",
+  "icon": "enchanted:chalk_red",
+  "category": "enchanted:performing_rites",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O giz infernal é um giz vermelho-escuro que parece estar queimando. $(br2)O giz infernal é usado na maioria dos ritos envolvendo o Nether, seres demoníacos ou fogo. Deve ser criado num caldeirão."
+    },
+    {
+      "type": "enchanted:cauldron_recipe",
+      "recipe": "enchanted:witch_cauldron/chalk_red"
+    }
+  ],
+  "read_by_default": true
+}

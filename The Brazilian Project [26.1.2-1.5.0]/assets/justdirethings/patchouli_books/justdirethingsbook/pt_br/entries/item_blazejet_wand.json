@@ -1,0 +1,21 @@
+{
+  "name": "Varinha de Blazejet",
+  "sortnum": 5,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:blazejet_wand",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Varinha de Blazejet é um ótimo jeito de se locomover! Ela vem com a habilidade de rajada de ar embutida.$(br2)Ative essa habilidade com o clique direito (ou personalize na tela de configurações da ferramenta) para ser lançado na direção para a qual está olhando."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Níveis maiores desta varinha permitem ir ainda mais longe, o que você pode configurar com um controle na tela de configurações da ferramenta.$(br2)Enquanto a segura na mão, você não sofre dano de queda. Mas garanta que ela esteja na sua mão!$(br2)Esta ferramenta vem com a habilidade Reparo em Lava, então jogue-a num bloco de origem de lava para repará-la."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Varinha de Blazejet",
+      "recipe": "justdirethings:blazejet_wand"
+    }
+  ]
+}

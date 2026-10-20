@@ -1,0 +1,38 @@
+{
+  "name": "block.apprenticecodex.alchemy_brewer",
+  "category": "apprenticecodex:devices",
+  "icon": "apprenticecodex:alchemy_brewer",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:alchemy_brewer",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.alchemy_brewer.page.p001.text",
+        "with": [
+          {
+            "translate": "block.minecraft.glow_lichen"
+          },
+          {
+            "translate": "block.apprenticecodex.atelier_station"
+          },
+          {
+            "translate": "block.irons_spellbooks.alchemist_cauldron"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:alchemy_brewer",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.alchemy_brewer.page.p002.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/atelier_station",
+        "apprenticecodex:magic_tools/spellcasters_flask",
+        "apprenticecodex:magic_tools/alchemists_flask"
+      ]
+    }
+  ]
+}

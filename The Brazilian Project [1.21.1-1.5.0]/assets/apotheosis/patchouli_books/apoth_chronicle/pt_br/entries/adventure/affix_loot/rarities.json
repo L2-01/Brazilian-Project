@@ -1,0 +1,38 @@
+{
+    "name": "Raridades",
+    "icon": "minecraft:nether_star",
+    "category": "apotheosis:adventure/affix_loot",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Todo item de afixo tem uma $(9)Raridade$() associada a ele. A raridade do item determina o quão forte ele será e quais afixos serão aplicados a ele.$(p)Uma raridade maior é sempre mais forte que a anterior."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Comum",
+            "text": "Um item $(#808080)Comum$() é o tipo mais básico de item de afixo. Cada um sempre terá um único bônus de atributo e tem uma chance baixa de ganhar um segundo."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Incomum",
+            "text": "Um item $(#33FF33)Incomum$() é um passo acima do comum, mas ainda não ganha efeitos únicos. Esses itens sempre têm dois bônus de atributo e têm chance de um efeito básico.$(p)Eles também podem receber um único encaixe."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Raro",
+            "text": "Os itens $(#5555FF)Raros$() são onde os afixos começam a brilhar. Esses itens recebem dois bônus de atributo e um efeito especial, e têm chance de um segundo efeito.$(p)Eles também podem receber até dois encaixes e sempre têm um pequeno bônus de durabilidade."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Épico",
+            "text": "Os itens $(#BB00BB)Épicos$() estão à beira da grandeza. Eles recebem três atributos, um efeito e sempre uma $(9)Habilidade$(), com chance de um segundo efeito.$(p)Eles sempre têm um ou mais encaixes e um bônus de durabilidade mais forte."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Mítico",
+            "text": "Os itens $(#ED7014)Míticos$() foram forjados por uma entidade perdida de grande poder. Eles recebem quatro atributos, dois efeitos e uma $(9)Habilidade$().$(p)Eles têm um ou mais encaixes e um bônus de durabilidade significativo.$(p)Os itens $(#ED7014)Míticos$() têm bônus adicionais não mencionados aqui."
+        }
+    ]
+}

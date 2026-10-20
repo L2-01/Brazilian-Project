@@ -1,0 +1,31 @@
+{
+  "name": "Leitor de Blocos",
+  "icon": "advancedperipherals:block_reader",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este bloco é capaz de ler dados de blocos e entidades de bloco à sua frente.$(p)Para a documentação completa, consulte a $(9)$(l:https://docs.advanced-peripherals.de/peripherals/block_reader/)página oficial da wiki$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:block_reader"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:block_reader",
+          "T": "minecraft:dirt"
+        },
+        "pattern": [
+          [
+            "0PT"
+          ]
+        ]
+      },
+      "text": "Conecte seu Leitor de Blocos a um computador e ao bloco alvo para usá-lo!"
+    }
+  ]
+}

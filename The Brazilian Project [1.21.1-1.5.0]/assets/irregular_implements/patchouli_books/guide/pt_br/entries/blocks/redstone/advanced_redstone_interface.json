@@ -1,0 +1,19 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:advanced_redstone_interface",
+  "name": "Interface de Redstone Avançada",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(d)Interface de Redstone Avançada$() transmite a intensidade do sinal de redstone que recebe a até 9 blocos vinculados.$(br2)Insira $(l:items/location_filter)Filtros de Localização$(/l) nela para vinculá-la a essas localizações.",
+      "title": "Interface de Redstone Avançada"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:advanced_redstone_interface",
+      "link_recipe": true,
+      "text": "Segurar uma $(l:items/redstone_tool)Ferramenta de Redstone$(/l) desenha uma linha dela até cada localização vinculada.",
+      "title": " "
+    }
+  ]
+}

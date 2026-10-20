@@ -1,0 +1,17 @@
+{
+  "name": "Proteção Vodu",
+  "icon": "enchanted:voodoo_protection_poppet",
+  "category": "enchanted:infusing_poppets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um boneco de proteção vodu, como o nome sugere, protege o beneficiário de bonecos vodu.$(br2)$(bold)Resistente$() Um uso extra.$(br)$(bold)Infundido$() Pune seu agressor."
+    },
+    {
+      "type": "enchanted:spinning_wheel_recipe",
+      "recipe": "enchanted:spinning/voodoo_protection_poppet"
+    }
+  ],
+  "read_by_default": true,
+  "priority": false
+}

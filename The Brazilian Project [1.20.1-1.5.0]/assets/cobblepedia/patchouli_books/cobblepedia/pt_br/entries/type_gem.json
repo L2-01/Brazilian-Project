@@ -1,0 +1,46 @@
+{
+    "name": "book.cobblepedia.entries.type_gem.name",
+    "category": "cobblepedia:held_items",
+    "icon": "cobblemon:normal_gem",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.type_gem.name",
+            "item": "tag:cobblemon:type_gems",
+            "text": "book.cobblepedia.entries.type_gem.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.type_gem.obtaining.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:normal_gem",
+                "cobblepedia:fire_gem",
+                "cobblepedia:water_gem",
+                "cobblepedia:grass_gem",
+                "cobblepedia:electric_gem",
+                "cobblepedia:rock_gem",
+                "cobblepedia:ground_gem",
+                "cobblepedia:bug_gem",
+                "cobblepedia:poison_gem",
+                "cobblepedia:ghost_gem",
+                "cobblepedia:psychic_gem",
+                "cobblepedia:dark_gem"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:fairy_gem",
+                "cobblepedia:dragon_gem",
+                "cobblepedia:ice_gem",
+                "cobblepedia:fighting_gem",
+                "cobblepedia:flying_gem",
+                "cobblepedia:steel_gem"
+            ]
+        }
+    ]
+}

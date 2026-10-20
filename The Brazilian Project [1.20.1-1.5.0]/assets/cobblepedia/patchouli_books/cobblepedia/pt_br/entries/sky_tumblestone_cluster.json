@@ -1,0 +1,15 @@
+{
+    "name": "block.cobblemon.sky_tumblestone_cluster",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:sky_tumblestone_cluster",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "block.cobblemon.sky_tumblestone_cluster",
+            "item": "cobblemon:sky_tumblestone_cluster,cobblemon:small_budding_sky_tumblestone,cobblemon:medium_budding_sky_tumblestone,cobblemon:large_budding_sky_tumblestone",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.sky_tumblestone_cluster.text"
+        }
+    ]
+}

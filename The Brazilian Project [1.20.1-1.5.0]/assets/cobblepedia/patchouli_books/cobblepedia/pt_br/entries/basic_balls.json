@@ -1,0 +1,39 @@
+{
+    "name": "book.cobblepedia.entries.basic_balls",
+    "category": "cobblepedia:poke_balls",
+    "icon": "cobblemon:citrine_ball",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.basic_balls",
+            "item": "tag:cobblepedia:book/basic_balls",
+            "text": "book.cobblepedia.entries.basic_balls.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.basic_balls.crafting"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:craft_base_balls",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.craft_base_balls",
+            "text": "advancements.cobblemon.craft_base_balls.description"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.basic_balls.list",
+            "entries": [
+                "cobblepedia:poke_ball",
+                "cobblepedia:citrine_ball",
+                "cobblepedia:verdant_ball",
+                "cobblepedia:azure_ball",
+                "cobblepedia:roseate_ball",
+                "cobblepedia:slate_ball",
+                "cobblepedia:premier_ball"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Noções de Armadura",
+  "sortnum": 0,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:ferricore_chestplate",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cada nível de recurso tem um conjunto equivalente de Armadura. Cada uma dessas armaduras tem um conjunto de $(l:justdirethings:upgrades)Melhorias$(/l) disponíveis.$(br2)Confira quais melhorias estão disponíveis para as ferramentas olhando a dica delas enquanto segura \"shift\"."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para instalar melhorias, fabrique o item de melhoria apropriado e coloque sua armadura e o item de melhoria numa bancada de ferraria.$(br2)Use os moldes de melhoria para avançar de um nível ao próximo, mantendo suas melhorias instaladas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Shift + clique em qualquer ferramenta na sua mão para configurá-la. Você pode então clicar na sua armadura nessa tela para acessar as melhorias dela. Daí, você pode ativar ou desativar melhorias específicas clicando nelas.$(br2)Clique com o botão direito na melhoria para mudar algumas configurações (se houver) ou atribuir uma tecla de atalho. Se a habilidade for passiva, o atalho alterna sua ativação. Se for ativa, o atalho a dispara."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Habilidades ativas, como invulnerabilidade, precisam ser atribuídas a uma tecla de atalho. Veja a entrada $(l:justdirethings:upgrade_basics)Noções de Melhoria$(/l) para mais detalhes sobre esse sistema.$(br2)A armadura pode ser melhorada na bancada de ferraria (confira a receita no JEI) e manterá as melhorias instaladas quando fabricada dessa forma."
+    }
+  ]
+}

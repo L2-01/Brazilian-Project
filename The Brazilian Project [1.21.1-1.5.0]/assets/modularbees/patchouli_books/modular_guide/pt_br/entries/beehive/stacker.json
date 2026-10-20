@@ -1,0 +1,17 @@
+{
+  "name": "Empilhador de Colmeias",
+  "icon": "modularbees:modular_beehive_stacker",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Empilhador de Colmeias",
+      "text": "O Empilhador pode aumentar o tamanho máximo de pilha do inventário de saída da colmeia, e cada empilhador fornece um bônus de 3x no tamanho da pilha por padrão.$(br)Quando você usa vários empilhadores ao mesmo tempo, os bônus de tamanho são aditivos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_beehive_stacker"
+    }
+  ]
+}

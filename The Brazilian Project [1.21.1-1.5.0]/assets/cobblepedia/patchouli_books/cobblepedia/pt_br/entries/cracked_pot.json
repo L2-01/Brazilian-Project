@@ -1,0 +1,33 @@
+{
+    "name": "item.cobblemon.cracked_pot",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:cracked_pot",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:cracked_pot",
+            "title": "item.cobblemon.cracked_pot",
+            "text": "book.cobblepedia.entries.cracked_pot.text"
+        },
+        {
+            "type": "patchouli:stonecutting",
+            "recipe": "cobblemon:cracked_pot",
+            "title": "book.cobblepedia.pages.stonecutting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.cracked_pot.evolving",
+            "using_item2": "cobblemon:cracked_pot",
+            "pokemon2": "cobblemon:sinistea",
+            "evolved_pokemon2": "cobblemon:polteageist"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:chipped_pot"
+            ]
+        }
+    ]
+}

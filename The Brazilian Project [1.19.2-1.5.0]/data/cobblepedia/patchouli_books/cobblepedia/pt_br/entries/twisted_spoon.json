@@ -1,0 +1,35 @@
+{
+    "name": "item.cobblemon.twisted_spoon",
+    "category": "cobblepedia:held_items",
+    "icon": "cobblemon:twisted_spoon",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:twisted_spoon",
+            "text": "book.cobblepedia.entries.twisted_spoon.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:twisted_spoon",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "cobblepedia:largping",
+            "title": "book.cobblepedia.pages.largping",
+            "drop_item": "cobblemon:twisted_spoon",
+            "pokemon": "cobblemon:abra",
+            "rate": "2.5",
+            "drop_item2": "cobblemon:twisted_spoon",
+            "pokemon2": "cobblemon:kadabra",
+            "rate2": "5",
+            "drop_item3": "cobblemon:twisted_spoon",
+            "pokemon3": "cobblemon:alakazam",
+            "rate3": "10"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.twisted_spoon.holding"
+        }
+    ]
+}

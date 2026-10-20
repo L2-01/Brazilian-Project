@@ -1,0 +1,49 @@
+{
+  "name": "item.apprenticecodex.scrollcaster_gauntlet",
+  "category": "apprenticecodex:staves_and_casting_devices",
+  "icon": "apprenticecodex:scrollcaster_gauntlet",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:scrollcaster_gauntlet",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.scrollcaster_gauntlet.page.p001.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.spell_calibration_bench"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:scrollcaster_gauntlet",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.scrollcaster_gauntlet.page.p002.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.scrollcaster_gauntlet.page.p003.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.scrollcaster_gauntlet.page.p003.text",
+      "item": "irons_spellbooks:fire_rune,irons_spellbooks:ice_rune,irons_spellbooks:lightning_rune,irons_spellbooks:holy_rune,irons_spellbooks:ender_rune,irons_spellbooks:blood_rune,irons_spellbooks:evocation_rune,irons_spellbooks:nature_rune"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:apprenticecodex:scrollcaster_gauntlet_slot_upgrades",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.scrollcaster_gauntlet.page.p004.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.scrollcaster_gauntlet.page.p004.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:mithril_freecast_staff",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.scrollcaster_gauntlet.page.p005.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.scrollcaster_gauntlet.page.p005.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spellcaster_workbench",
+        "apprenticecodex:devices/spell_calibration_bench"
+      ]
+    }
+  ]
+}

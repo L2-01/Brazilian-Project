@@ -1,0 +1,42 @@
+{
+  "name": "patchouli.apprenticecodex.apprentices_memo.entry.element_maiden_set.name",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:element_maiden_robe_ribbon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.element_maiden_set.page.p001.title",
+      "item": "apprenticecodex:element_maiden_robe_ribbon",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.element_maiden_set.page.p001.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.divine_possession"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:armor_stand{ArmorItems:[{id:\"apprenticecodex:element_maiden_robe_boots\",Count:1b},{id:\"apprenticecodex:element_maiden_robe_leggings\",Count:1b},{id:\"apprenticecodex:element_maiden_robe_robe\",Count:1b},{id:\"apprenticecodex:element_maiden_robe_ribbon\",Count:1b}],NoBasePlate:1b,ShowArms:1b}",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.element_maiden_set.page.p002.text"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "apprenticecodex:element_maiden_robe_ribbon",
+      "recipe2": "apprenticecodex:element_maiden_robe_robe"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "apprenticecodex:element_maiden_robe_leggings",
+      "recipe2": "apprenticecodex:element_maiden_robe_boots"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:equipment_and_accessories/end_game_armors",
+        "apprenticecodex:devices/spell_calibration_bench"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Unguento de Voo",
+  "icon": "enchanted:flying_ointment",
+  "category": "enchanted:kettle",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O unguento de voo é um líquido que parece desafiar a gravidade. Qualquer coisa imbuída dele ganha a propriedade de voo, incluindo jogadores que o bebem.$(br2)Usado para infundir vassouras."
+    },
+    {
+      "type": "enchanted:kettle_recipe",
+      "recipe": "enchanted:kettle/flying_ointment"
+    }
+  ],
+  "read_by_default": true
+}

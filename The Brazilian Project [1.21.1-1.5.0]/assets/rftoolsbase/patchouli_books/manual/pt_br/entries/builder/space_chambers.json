@@ -1,0 +1,37 @@
+{
+  "name": "Câmaras Espaciais",
+  "icon": "rftoolsbuilder:space_chamber_card",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:space_chamber": 1,
+    "rftoolsbuilder:space_chamber_controller": 2,
+    "rftoolsbuilder:space_chamber_card": 3
+  },
+  "sortnum": 25,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uma Câmara Espacial marca um volume que o Construtor ou o Construtor de Veículos pode copiar ou mover. Use blocos de câmara e um controlador para definir a câmara."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:space_chamber"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:space_chamber_controller"
+    },
+    {
+      "type": "text",
+      "text": "Agache e clique com o botão direito no controlador com um Cartão Espacial para armazenar seu canal. Clique com o botão direito no cartão no ar para inspecionar o conteúdo da câmara."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:space_chamber_card"
+    },
+    {
+      "type": "text",
+      "text": "Blocos de Suporte são blocos auxiliares temporários usados por escaneamentos e construções. Eles são intencionalmente leves e podem ser removidos quando não forem mais necessários."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "block.cobblemon.polished_tumblestone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:polished_tumblestone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "block.cobblemon.polished_tumblestone",
+            "item": "cobblemon:polished_tumblestone",
+            "text": "book.cobblepedia.entries.polished_tumblestone.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:polished_tumblestone",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:stonecutting",
+            "recipe": "cobblemon:polished_tumblestone_in_stonecutter",
+            "title": "book.cobblepedia.pages.stonecutting"
+        }
+    ]
+}

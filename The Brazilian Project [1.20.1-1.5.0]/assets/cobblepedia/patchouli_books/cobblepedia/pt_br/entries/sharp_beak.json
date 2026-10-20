@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.sharp_beak",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:sharp_beak",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:sharp_beak",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.sharp_beak.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.sharp_beak.holding"
+        }
+    ]
+}

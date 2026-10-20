@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.pp_up",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:pp_up",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:pp_up",
+            "text": "book.cobblepedia.entries.pp_up.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:pp_up",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

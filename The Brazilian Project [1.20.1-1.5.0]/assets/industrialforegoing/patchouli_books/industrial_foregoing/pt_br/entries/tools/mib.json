@@ -1,0 +1,17 @@
+{
+  "name": "Ferramenta de Aprisionamento de Criaturas",
+  "icon": "industrialforegoing:mob_imprisonment_tool",
+  "category": "industrialforegoing:tools",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Quando você $(6)Clica com o Botão Direito$() numa entidade com a FAC na mão, essa entidade será armazenada dentro da FAC. $(br2)Você pode liberar a entidade $(6)Clicando com o Botão Direito$() com ela no chão"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_imprisonment_tool"
+    }
+  ]
+}

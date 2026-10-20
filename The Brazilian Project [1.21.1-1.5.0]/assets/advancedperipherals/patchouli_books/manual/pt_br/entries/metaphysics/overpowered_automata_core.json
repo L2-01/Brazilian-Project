@@ -1,0 +1,25 @@
+{
+  "name": "Núcleo de Autômato Superpoderoso",
+  "icon": "advancedperipherals:overpowered_weak_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Núcleo de Autômato Fraco Superpoderoso",
+      "item": "advancedperipherals:overpowered_weak_automata_core",
+      "text": "Esta é sua primeira tentativa de contornar as regras da metafísica. Bem, não tão bem-sucedida quanto você esperava que fosse.$(p)A combinação ingênua de qualquer núcleo de autômato e uma estrela do Nether leva a algum resultado..."
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:overpowered_weak_automata_core",
+      "recipe2": "advancedperipherals:overpowered_end_automata_core"
+    },
+    {
+      "type": "link",
+      "text": "As versões superpoderosas dos núcleos de autômato não consomem a durabilidade do item ao usá-las.$(p)Mas tudo tem um preço. Se você tentar realizar qualquer operação com este núcleo sem combustível suficiente, a melhoria quebrará imediatamente.",
+      "url": "https://docs.advanced-peripherals.de/metaphysics/overpowered_automata/",
+      "link_text": "Documentação da API"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+    "name": "book.cobblepedia.entries.using_evolution_item",
+    "category": "cobblepedia:evolution_items",
+    "icon": "cobblemon:black_augurite",
+    "priority": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.entries.using_evolution_item",
+            "text": "book.cobblepedia.entries.using_evolution_item.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:evolution_stone",
+                "cobblepedia:sweet",
+                "cobblepedia:galarica_cuff",
+                "cobblepedia:galarica_wreath",
+                "cobblepedia:black_augurite",
+                "cobblepedia:peat_block",
+                "cobblepedia:tart_apple",
+                "cobblepedia:sweet_apple",
+                "cobblepedia:cracked_pot",
+                "cobblepedia:chipped_pot",
+                "cobblepedia:auspicious_armor",
+                "cobblepedia:malicious_armor"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:unremarkable_teacup",
+                "cobblepedia:masterpiece_teacup"
+            ]
+        }
+    ]
+}

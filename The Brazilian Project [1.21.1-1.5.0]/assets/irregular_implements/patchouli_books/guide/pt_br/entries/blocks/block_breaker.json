@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:block_breaker",
+  "name": "Quebrador de Blocos",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:block_breaker",
+      "link_recipe": true,
+      "text": "O $(d)Quebrador de Blocos$() quebra o bloco à sua frente. Ele equivale a uma picareta de ferro.$(br2)Os blocos quebrados são colocados num inventário atrás dele ou derrubados no chão.$(br2)Ele pode ser desativado com um sinal de redstone.",
+      "title": "Quebrador de Blocos"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:diamond_breaker",
+      "link_recipe": true,
+      "text": "O $(d)Quebrador de Diamante$() pode ser usado no Quebrador de Blocos para melhorá-lo, tornando-o equivalente a uma picareta de diamante.$(br2)Ele também pode ser encantado, e os encantamentos serão aplicados ao quebrar blocos!",
+      "title": "Quebrador de Diamante"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+    DataVersion: 4790,
+    size: [4, 1, 1],
+    data: [
+        {
+            pos: [0, 0, 0],
+            state: "nodeworks:pipe{pipe_axis:junction,pipe_down:false,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:false}",
+            nbt: {
+                components: {},
+                networkId: "7d4805a7-81f7-4782-a9e7-c03f53279c6f",
+                id: "nodeworks:pipe"
+            }
+        },
+        {
+            pos: [1, 0, 0],
+            state: "nodeworks:pipe{pipe_axis:x,pipe_down:false,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:true}",
+            nbt: {
+                components: {},
+                networkId: "7d4805a7-81f7-4782-a9e7-c03f53279c6f",
+                id: "nodeworks:pipe"
+            }
+        },
+        {
+            pos: [2, 0, 0],
+            state: "nodeworks:pipe{pipe_axis:x,pipe_down:false,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:true}",
+            nbt: {
+                components: {},
+                networkId: "7d4805a7-81f7-4782-a9e7-c03f53279c6f",
+                id: "nodeworks:pipe"
+            }
+        },
+        {
+            pos: [3, 0, 0],
+            state: "nodeworks:network_controller",
+            nbt: {
+                chunkLoadingEnabled: 0b,
+                components: {},
+                laserEnabled: 1b,
+                networkName: "",
+                handlerRetryLimit: 50,
+                networkId: "7d4805a7-81f7-4782-a9e7-c03f53279c6f",
+                nodeGlowStyle: 0,
+                id: "nodeworks:network_controller",
+                permanentId: "7d4805a7-81f7-4782-a9e7-c03f53279c6f",
+                laserMode: 0,
+                redstoneMode: 0,
+                networkColor: 5038046
+            }
+        }
+    ],
+    entities: [],
+    palette: [
+        "nodeworks:pipe{pipe_axis:junction,pipe_down:false,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:false}",
+        "nodeworks:pipe{pipe_axis:x,pipe_down:false,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:true}",
+        "nodeworks:network_controller"
+    ]
+}

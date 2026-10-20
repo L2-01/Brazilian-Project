@@ -1,0 +1,13 @@
+{
+    "name": "Dano Crítico",
+    "icon": "minecraft:netherite_axe",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(9)Dano Crítico$() é o modificador de dano dos seus golpes críticos.$(p)Críticos de salto também usam seu valor de Dano Crítico, em vez do multiplicador usual de 1.5x.$(p)Encontrado em armas."
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.tart_apple",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:tart_apple",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:tart_apple",
+            "link_recipe": true,
+            "title": "item.cobblemon.tart_apple",
+            "text": "book.cobblepedia.entries.tart_apple.text"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.tart_apple.evolving",
+            "using_item2": "cobblemon:tart_apple",
+            "pokemon2": "cobblemon:applin",
+            "evolved_pokemon2": "cobblemon:flapple"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "book.cobblepedia.entries.battling",
+    "category": "cobblepedia:getting_started",
+    "icon": "cobblemon:razor_fang",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.battling.text"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "book.cobblepedia.entries.battling.rafts.title",
+            "text": "book.cobblepedia.entries.battling.rafts.text",
+            "images": [
+                "cobblepedia:textures/gui/entries/rafts.png"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:catching",
+                "cobblepedia:battling_players"
+            ]
+        }
+    ]
+}

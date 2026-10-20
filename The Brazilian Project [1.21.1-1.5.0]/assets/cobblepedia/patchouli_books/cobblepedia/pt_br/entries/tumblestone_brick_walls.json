@@ -1,0 +1,21 @@
+{
+    "name": "book.cobblepedia.entries.tumblestone_brick_walls.name",
+    "category": "cobblepedia:items",
+    "icon": "cobblemon:tumblestone_brick_wall",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.tumblestone_brick_walls.name",
+            "item": "cobblemon:tumblestone_brick_wall,cobblemon:black_tumblestone_brick_wall,cobblemon:sky_tumblestone_brick_wall",
+            "text": "book.cobblepedia.entries.tumblestone_brick_walls.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:tumblestone_brick_wall",
+                "cobblepedia:black_tumblestone_brick_wall",
+                "cobblepedia:sky_tumblestone_brick_wall"
+            ]
+        }
+    ]
+}

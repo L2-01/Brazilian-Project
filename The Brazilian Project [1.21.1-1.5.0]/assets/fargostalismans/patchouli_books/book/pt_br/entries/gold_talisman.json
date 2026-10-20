@@ -1,0 +1,18 @@
+{
+  "name": "Talismã de Ouro",
+  "sortnum": 24,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:gold_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã de Ouro impede a agressividade de piglins e piglins bárbaros, mesmo ao atacá-los. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_normal)Base de Talismã Padrão$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_overworld)Força da Superfície$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/gold_talisman",
+      "recipe2": "fargostalismans:forces/force_of_overworld"
+    }
+  ],
+  "read_by_default": true
+}

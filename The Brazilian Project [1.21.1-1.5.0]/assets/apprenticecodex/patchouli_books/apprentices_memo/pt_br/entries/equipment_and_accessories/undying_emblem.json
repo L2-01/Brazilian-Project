@@ -1,0 +1,27 @@
+{
+  "name": "item.apprenticecodex.undying_emblem",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:undying_emblem",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:undying_emblem",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.undying_emblem.page.p001.text",
+        "with": [
+          {
+            "translate": "item.minecraft.totem_of_undying"
+          },
+          {
+            "translate": "spell.apprenticecodex.idol_reconstruction"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:undying_emblem",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.undying_emblem.page.p002.text"
+    }
+  ]
+}

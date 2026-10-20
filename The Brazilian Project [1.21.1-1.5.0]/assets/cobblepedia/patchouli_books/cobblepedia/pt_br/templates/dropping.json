@@ -1,0 +1,83 @@
+{
+    "components": [
+        {
+            "type": "patchouli:header",
+            "text": "#title",
+            "x": -1,
+            "y": -1
+        },
+        {
+            "type": "patchouli:separator",
+            "x": -1,
+            "y": -1
+        },
+        {
+            "type": "patchouli:text",
+            "text": "#text",
+            "x": 0,
+            "y": 17
+        }
+    ],
+    "include": [
+        {
+            "template": "cobblepedia:dropping_base",
+            "as": "drop1",
+            "y": 20,
+            "using": {
+                "species_id": "#pokemon",
+                "drop_item": "#drop_item",
+                "rate": "#rate"
+            }
+        },
+        {
+            "template": "cobblepedia:dropping_base",
+            "as": "drop2",
+            "y": 42,
+            "using": {
+                "species_id": "#pokemon2",
+                "drop_item": "#drop_item2",
+                "rate": "#rate2"
+            }
+        },
+        {
+            "template": "cobblepedia:dropping_base",
+            "as": "drop3",
+            "y": 64,
+            "using": {
+                "species_id": "#pokemon3",
+                "drop_item": "#drop_item3",
+                "rate": "#rate3"
+            }
+        },
+        {
+            "template": "cobblepedia:dropping_base",
+            "as": "drop4",
+            "y": 86,
+            "using": {
+                "species_id": "#pokemon4",
+                "drop_item": "#drop_item4",
+                "rate": "#rate4"
+            }
+        },
+        {
+            "template": "cobblepedia:dropping_base",
+            "as": "drop5",
+            "y": 108,
+            "using": {
+                "species_id": "#pokemon5",
+                "drop_item": "#drop_item5",
+                "rate": "#rate5"
+            }
+        },
+        {
+            "template": "cobblepedia:dropping_base",
+            "as": "drop6",
+            "y": 130,
+            "using": {
+                "species_id": "#pokemon6",
+                "drop_item": "#drop_item6",
+                "rate": "#rate6"
+            }
+        }
+    ]
+}

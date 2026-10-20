@@ -1,0 +1,28 @@
+{
+  "name": "patchouli.apprenticecodex.apprentices_memo.entry.apprentice_mage_set.name",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:apprentice_mage_scarf",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.apprentice_mage_set.page.p001.title",
+      "item": "apprenticecodex:apprentice_mage_scarf",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.apprentice_mage_set.page.p001.text"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:armor_stand{ArmorItems:[{id:\"apprenticecodex:apprentice_mage_boots\",Count:1b},{id:\"apprenticecodex:apprentice_mage_leggings\",Count:1b},{id:\"apprenticecodex:apprentice_mage_torso\",Count:1b},{id:\"apprenticecodex:apprentice_mage_scarf\",Count:1b}],NoBasePlate:1b,ShowArms:1b}",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.apprentice_mage_set.page.p002.text"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "apprenticecodex:apprentice_mage_scarf",
+      "recipe2": "apprenticecodex:apprentice_mage_torso"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "apprenticecodex:apprentice_mage_leggings",
+      "recipe2": "apprenticecodex:apprentice_mage_boots"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "item.cobblemon.star_sweet",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:star_sweet",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:star_sweet",
+            "title": "item.cobblemon.star_sweet",
+            "text": "book.cobblepedia.entries.star_sweet.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:star_sweet",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.star_sweet.evolving",
+            "holding_item2": "cobblemon:star_sweet",
+            "pokemon2": "cobblemon:milcery",
+            "evolved_pokemon2": "cobblemon:alcremie"
+        }
+    ]
+}

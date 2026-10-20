@@ -1,0 +1,16 @@
+{
+  "name": "Ejetor",
+  "icon": "minecraft:dispenser",
+  "category": "animal_pen:category_aquarium",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você pode interagir com algumas ferramentas usando um ejetor."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:bucket",
+      "text": "Você pode usar um balde num cercado de animais que contenha tartaruga."
+    }
+  ]
+}

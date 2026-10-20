@@ -1,0 +1,25 @@
+{
+    "name": "block.cobblemon.polished_sky_tumblestone_stairs",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:polished_sky_tumblestone_stairs",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "block.cobblemon.polished_sky_tumblestone_stairs",
+            "item": "cobblemon:polished_sky_tumblestone_stairs",
+            "text": "book.cobblepedia.entries.polished_sky_tumblestone_stairs.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:polished_sky_tumblestone_stairs",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:stonecutting",
+            "recipe": "cobblemon:polished_sky_tumblestone_stairs_from_polished_sky_tumblestone_in_stonecutter",
+            "recipe2": "cobblemon:polished_sky_tumblestone_stairs_from_sky_tumblestone_block_in_stonecutter",
+            "title": "book.cobblepedia.pages.stonecutting"
+        }
+    ]
+}

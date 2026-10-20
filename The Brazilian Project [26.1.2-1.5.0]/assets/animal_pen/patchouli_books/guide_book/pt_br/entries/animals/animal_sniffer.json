@@ -1,0 +1,32 @@
+{
+  "name": "Farejador",
+  "icon": "minecraft:sniffer_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sniffer",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:sniffer_food",
+      "text": "Alimente os farejadores com sementes de tochiflor para procriá-los e aumentar seu número no cercado."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:swords,tag:minecraft:axes",
+      "text": "Usar uma espada ou machado no Cercado de Animais matará os farejadores e largará seu saque."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:bowl",
+      "text": "Use uma tigela no cercado de farejadores para coletar sementes ancestrais. Mais farejadores significam mais sementes. [interação de redstone 1]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:bucket",
+      "text": "Use um balde no cercado de farejadores para coletar ovos. Mais farejadores significam mais ovos. [interação de redstone 2]"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Domando uma Pedra de Estimação",
+  "icon": "petrock:stoneium",
+  "category": "petrock:care_category",
+  "pages": [
+    {
+      "type": "text",
+      "title": "Predium",
+      "text": "O Predium aparece no mundo normal. Use os Lingotes de Predium para domar uma Pedra de Estimação"
+    },
+    {
+      "type": "spotlight",
+      "item": {
+        "item": "petrock:raw_stoneium"
+      },
+      "text": "O Predium Bruto é largado pelo Minério de Predium"
+    },
+    {
+      "type": "smelting",
+      "recipe": "petrock:stoneium_from_smelting_raw_stoneium"
+    },
+    {
+      "type": "blasting",
+      "recipe": "petrock:stoneium_from_blasting_raw_stoneium"
+    },
+    {
+      "type": "smelting",
+      "recipe": "petrock:stoneium_from_smelting_stoneium_ore",
+      "recipe2": "petrock:stoneium_from_smelting_deepslate_stoneium_ore"
+    },
+    {
+      "type": "blasting",
+      "recipe": "petrock:stoneium_from_blasting_stoneium_ore",
+      "recipe2": "petrock:stoneium_from_blasting_deepslate_stoneium_ore",
+      "recipe3": "petrock:stoneium_from_blasting_raw_stoneium"
+    }
+  ]
+}

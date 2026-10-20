@@ -1,0 +1,36 @@
+{
+    "name": "Ferramentas do Andarilho das Almas",
+    "icon": "naturesaura:depth_pickaxe",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:depth_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "As $(item)ferramentas do Andarilho das Almas$() são extraordinariamente poderosas como ferramentas, sendo forjadas de uma combinação de materiais dos Céus, da Terra e das Profundezas. Além de funcionarem como ferramentas comuns, cada uma tem uma $(thing)habilidade especial$() adicional que as distingue de suas contrapartes de $(item)netherita$().$(br)Além disso, essas ferramentas podem ser $(thing)reparadas$() da mesma forma que as $(l:items/sky_tools)ferramentas do Buscador dos Céus$()."
+        },
+        {
+            "type": "crafting",
+            "text": "A $(item)Picareta do Andarilho das Almas$(), quando ativada ao $(thing)interagir agachado$() com ela, minerará um $(thing)veio de minérios$() inteiro de uma vez, permitindo minerar muito mais eficientemente.",
+            "recipe": "naturesaura:depth_pickaxe"
+        },
+        {
+            "type": "crafting",
+            "text": "A $(item)Machadinha do Andarilho das Almas$(), quando ativada ao $(thing)interagir agachado$() com ela, é muito eficiente em derrubar $(thing)qualquer tipo de árvore$(), até as extraordinariamente grandes, fazendo isso de uma vez só.",
+            "recipe": "naturesaura:depth_axe"
+        },
+        {
+            "type": "crafting",
+            "text": "A $(item)Pá do Andarilho das Almas$(), ao interagir com um bloco árido como $(item)Terra$(), o transforma num bloco de grama viçoso, fazendo isso também para uma $(thing)grande área$() ao redor no processo.",
+            "recipe": "naturesaura:depth_shovel"
+        },
+        {
+            "type": "crafting",
+            "text": "A $(item)Enxada do Andarilho das Almas$() ajuda aqueles botânicos que não gostam de esperar uma árvore cair completamente por conta própria, permitindo quebrar $(item)Folhas$() numa área muito grande com apenas um balanço.",
+            "recipe": "naturesaura:depth_hoe"
+        }, {
+            "type": "crafting",
+            "text": "O tamanho imenso da $(item)Lâmina do Andarilho das Almas$() entra em jogo ao atacar um grupo maior de monstros: ao atacar um deles, vários numa área bem grande são atingidos, como se ela estivesse encantada com uma versão mais poderosa de $(item)Alcance$(). É claro, essas duas habilidades também não são mutuamente exclusivas.",
+            "recipe": "naturesaura:depth_sword"
+        }
+    ]
+}

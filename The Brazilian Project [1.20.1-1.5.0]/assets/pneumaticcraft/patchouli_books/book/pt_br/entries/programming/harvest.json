@@ -1,0 +1,29 @@
+{
+  "name": "Widget de Colher",
+  "icon": "pneumaticcraft:textures/progwidgets/harvest_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Drone colherá qualquer plantação ou árvore totalmente madura dentro da $(l:programming/area)área/$ especificada. Itens que forem derrubados dos blocos de plantação $(italic)não/$ são recolhidos; adicione um widget $(l:programming/pickup_item)Pegar Itens/$ separado ou use algum meio alternativo de coletar os itens, como um $(item)Drone/$ separado.$(p)Você pode conectar um $(l:programming/item_filter)Filtro de Item/$ opcional para limitar quais plantações serão colhidas (use a semente da plantação para filtrar)."
+    },
+    {
+      "type": "text",
+      "title": "Ferramentas",
+      "text": "Você pode fazer o $(item)Drone/$ $(l:programming/inventory_import)importar/$ uma $(item)Enxada/$. Quando equipado com uma Enxada, as plantações serão replantadas automaticamente (isso usa durabilidade da Enxada).$(p)Você pode forçar o $(item)Drone/$ a $(italic)só/$ colher quando estiver carregando uma Enxada marcando a caixa de seleção $(item)Requer Enxada/$ na GUI de configuração do widget; então, se/quando a Enxada quebrar, o drone pode buscar outra antes de continuar colhendo."
+    },
+    {
+      "type": "text",
+      "title": "Limitando Blocos Colhidos",
+      "text": "A quantidade de ações de colheita pode ser limitada a uma quantidade especificada $(thing)clicando com o botão direito/$ no widget $(thing)Colher/$.$(p)Se definido como 1, por exemplo, o $(item)Drone/$ só colherá um bloco cada vez que o widget for executado e passará para o próximo widget após colher aquele bloco."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/harvest_piece.png"
+      ],
+      "text": "$(italic)Sai da minha terra/$"
+    }
+  ]
+}

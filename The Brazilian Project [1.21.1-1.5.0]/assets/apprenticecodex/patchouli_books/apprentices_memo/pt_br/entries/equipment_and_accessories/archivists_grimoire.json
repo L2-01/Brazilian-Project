@@ -1,0 +1,42 @@
+{
+  "name": "item.apprenticecodex.archivists_grimoire",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:archivists_grimoire",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:archivists_grimoire",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.archivists_grimoire.page.p001.text",
+        "with": [
+          {
+            "translate": "block.irons_spellbooks.inscription_table"
+          },
+          {
+            "translate": "block.apprenticecodex.spellcaster_workbench"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:archivists_grimoire",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.archivists_grimoire.page.p002.text"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.archivists_grimoire.page.p003.text"
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "example": "apprenticecodex:examples/spellcaster_workbench/archivists_grimoire_row_upgrade",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.archivists_grimoire.page.p004.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spellcaster_workbench"
+      ]
+    }
+  ]
+}

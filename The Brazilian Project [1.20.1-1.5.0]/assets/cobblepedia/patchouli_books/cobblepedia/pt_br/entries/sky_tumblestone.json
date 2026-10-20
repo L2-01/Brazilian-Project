@@ -1,0 +1,27 @@
+{
+    "name": "item.cobblemon.sky_tumblestone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:sky_tumblestone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.sky_tumblestone",
+            "item": "cobblemon:sky_tumblestone",
+            "text": "book.cobblepedia.entries.sky_tumblestone.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:sky_tumblestone",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:sky_tumblestone_block"
+            ]
+        }
+    ]
+}

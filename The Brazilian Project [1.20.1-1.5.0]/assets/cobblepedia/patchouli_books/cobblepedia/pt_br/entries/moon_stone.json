@@ -1,0 +1,64 @@
+{
+    "name": "item.cobblemon.moon_stone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:moon_stone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:moon_stone",
+            "title": "item.cobblemon.moon_stone",
+            "text": "book.cobblepedia.entries.moon_stone.text"
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "cobblemon:moon_stone_from_smelting_moon_stone_ore",
+            "recipe2": "cobblemon:moon_stone_from_smelting_deepslate_moon_stone_ore",
+            "title": "book.cobblepedia.pages.smelting"
+        },
+        {
+            "type": "patchouli:blasting",
+            "recipe": "cobblemon:moon_stone_from_blasting_moon_stone_ore",
+            "recipe2": "cobblemon:moon_stone_from_blasting_deepslate_moon_stone_ore",
+            "title": "book.cobblepedia.pages.blasting"
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "cobblemon:moon_stone_from_smelting_dripstone_moon_stone_ore",
+            "title": "book.cobblepedia.pages.smelting"
+        },
+        {
+            "type": "patchouli:blasting",
+            "recipe": "cobblemon:moon_stone_from_blasting_dripstone_moon_stone_ore",
+            "title": "book.cobblepedia.pages.blasting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.moon_stone.evolving",
+            "using_item2": "cobblemon:moon_stone",
+            "pokemon2": "cobblemon:clefairy",
+            "evolved_pokemon2": "cobblemon:clefable",
+            "using_item3": "cobblemon:moon_stone",
+            "pokemon3": "cobblemon:jigglypuff",
+            "evolved_pokemon3": "cobblemon:wigglytuff",
+            "using_item4": "cobblemon:moon_stone",
+            "pokemon4": "cobblemon:skitty",
+            "evolved_pokemon4": "cobblemon:delcatty",
+            "using_item5": "cobblemon:moon_stone",
+            "pokemon5": "cobblemon:munna",
+            "evolved_pokemon5": "cobblemon:musharna"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.moon_stone.evolving",
+            "using_item2": "cobblemon:moon_stone",
+            "pokemon2": "cobblemon:nidorina",
+            "evolved_pokemon2": "cobblemon:nidoqueen",
+            "using_item3": "cobblemon:moon_stone",
+            "pokemon3": "cobblemon:nidorino",
+            "evolved_pokemon3": "cobblemon:nidoking"
+        }
+    ]
+}

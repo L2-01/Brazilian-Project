@@ -1,0 +1,19 @@
+{
+    "name": "book.cobblepedia.entries.decorative_blocks.name",
+    "category": "cobblepedia:getting_started",
+    "icon": "cobblemon:relic_coin_sack",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.decorative_blocks.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:relic_coin_sack",
+                "cobblepedia:relic_coin_pouch",
+                "cobblepedia:apricorn_set"
+            ]
+        }
+    ]
+}

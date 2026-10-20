@@ -1,0 +1,43 @@
+{
+    "name": "Afixos",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:adventure/affix_loot",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Um $(6)Afixo$() é a força motriz por trás dos Itens de Afixo. Cada afixo é bem parecido com um encantamento, fornecendo um bônus específico ao item ao qual está preso.$(p)Este livro não listará todos os afixos, pois isso cabe a você descobrir, mas ajudará a explicá-los."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Tipos de Afixo",
+            "text": "Existem alguns tipos diferentes de afixos, cada tipo tendo um conjunto específico de funcionalidades que pode fornecer.$(p)Quais tipos de afixos são aplicados a um item depende da $(l:apotheosis:adventure/affix_loot/rarities)Raridade$() do item."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Afixos de Atributo",
+            "text": "O tipo mais comum de afixos são os afixos de atributo.$(p)Esses afixos simples fornecem um bônus a um atributo específico e estão disponíveis em todas as raridades. Raridades maiores recebem afixos de atributo adicionais."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Afixos de Efeito",
+            "text": "Os afixos de efeito são o tipo mais variado de afixo. Eles têm liberdade para adicionar todo tipo de funcionalidade aos seus itens, indo de bônus simples de utilidade a fortes efeitos de combate.$(p)Eles começam a aparecer em itens $(#33FF33)Incomuns$()."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Afixos de Habilidade",
+            "text": "As habilidades são o tipo mais forte de afixo e costumam ter uma recarga (mostrada com uma ampulheta) que respeita a Redução de Recarga.$(p)Todo item Épico e Mítico carrega exatamente uma."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Encaixes",
+            "text": "Um Encaixe é um tipo especial de afixo que simplesmente fornece um receptáculo para uma $(l:apotheosis:adventure/gems/gems)Gema$().$(p)As gemas podem conferir grandes bônus, mas podem ser difíceis de encontrar.$(p)Encaixes também podem ser adicionados com um $(9)Sigilo de Encaixe$(), até dois por item."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "O Afixo de Durabilidade",
+            "text": "O Afixo de Durabilidade torna um item mais resistente a dano e está presente na maioria dos itens Raros+. Raramente, itens míticos podem ser Inquebráveis em vez disso.$(p)Ele se aplica depois de todas as outras resistências a dano, tornando-se multiplicativo com o Inquebrável."
+        }
+    ]
+}

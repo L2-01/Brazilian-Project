@@ -1,0 +1,19 @@
+{
+  "name": "Módulo Remoto",
+  "icon": "rftoolsstorage:storage_module6",
+  "category": "rftoolsbase:category_rftoolsstorage_modularstorage",
+  "extra_recipe_mappings": {
+    "rftoolsstorage:storage_module6": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Módulo de Armazenamento Remoto é um módulo legado/interno nesta versão e não faz parte da progressão normal."
+    },
+    {
+      "type": "text",
+      "text": "Para acesso remoto normal, use um $(l:rftoolsbase:scanner/modules)Módulo de Tela de Controle de Armazenamento$(/l) vinculado a um Scanner de Armazenamento e instale-o num tablet."
+    }
+  ]
+}

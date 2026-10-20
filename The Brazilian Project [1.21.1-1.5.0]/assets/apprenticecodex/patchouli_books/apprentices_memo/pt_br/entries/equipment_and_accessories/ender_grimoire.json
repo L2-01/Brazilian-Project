@@ -1,0 +1,55 @@
+{
+  "name": "item.apprenticecodex.ender_grimoire",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:ender_grimoire",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:ender_grimoire",
+      "link_recipe": true,
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.ender_grimoire.page.p001.text",
+        "with": [
+          {
+            "translate": "block.minecraft.ender_chest"
+          },
+          {
+            "translate": "item.apprenticecodex.ender_grimoire"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:grimoire_manifest",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.ender_grimoire.page.p002.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.manifestation_grimoire"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.ender_grimoire.page.p003.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.ender_grimoire"
+          },
+          {
+            "translate": "block.irons_spellbooks.inscription_table"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:magic_tools/grimoire_manifest"
+      ]
+    }
+  ]
+}

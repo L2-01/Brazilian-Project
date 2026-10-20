@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.claw_fossil",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:claw_fossil",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.claw_fossil",
+            "item": "cobblemon:claw_fossil",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.claw_fossil.text"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "name": "book.cobblepedia.entries.natural_berry",
+    "category": "cobblepedia:agriculture",
+    "icon": "cobblemon:cheri_berry",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.natural_berry",
+            "item": "tag:cobblepedia:book/natural_berry",
+            "text": "book.cobblepedia.entries.natural_berry.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:oran_berry",
+                "cobblepedia:cheri_berry",
+                "cobblepedia:chesto_berry",
+                "cobblepedia:pecha_berry",
+                "cobblepedia:rawst_berry",
+                "cobblepedia:aspear_berry",
+                "cobblepedia:persim_berry",
+                "cobblepedia:razz_berry",
+                "cobblepedia:bluk_berry",
+                "cobblepedia:nanab_berry",
+                "cobblepedia:wepear_berry",
+                "cobblepedia:pinap_berry"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:occa_berry",
+                "cobblepedia:passho_berry",
+                "cobblepedia:wacan_berry",
+                "cobblepedia:rindo_berry",
+                "cobblepedia:yache_berry",
+                "cobblepedia:chople_berry",
+                "cobblepedia:kebia_berry",
+                "cobblepedia:shuca_berry",
+                "cobblepedia:coba_berry",
+                "cobblepedia:payapa_berry",
+                "cobblepedia:tanga_berry",
+                "cobblepedia:charti_berry"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:kasib_berry",
+                "cobblepedia:haban_berry",
+                "cobblepedia:colbur_berry",
+                "cobblepedia:babiri_berry",
+                "cobblepedia:chilan_berry",
+                "cobblepedia:roseli_berry"
+            ]
+        }
+    ]
+}

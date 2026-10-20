@@ -1,0 +1,31 @@
+{
+  "name": "Widget de Área",
+  "icon": "pneumaticcraft:textures/progwidgets/area_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O widget $(thing)Área/$ é usado apenas como parâmetro para outros widgets, para dizer a que área (que pode ser um único bloco) eles devem se aplicar. Para usar este widget, você precisará de uma $(l:tools/gps_tool)Ferramenta GPS/$ e/ou $(l:tools/gps_area_tool)Ferramenta de Área GPS/$.$(p)Há três formas comuns de configurar um widget de Área:"
+    },
+    {
+      "type": "text",
+      "text": "1. $(thing)Clique com o botão direito/$ no widget Área na GUI do $(l:programming/programmer)Programador/$ para abrir uma GUI de configuração e configure-o lá. Você pode definir a extensão da área com os dois botões $(thing)GPS/$ (clique para abrir outra GUI e selecione uma $(l:tools/gps_tool)Ferramenta GPS/$ do seu inventário) e escolha o $(thing)Tipo de Área/$ e os parâmetros associados nos botões de opção abaixo."
+    },
+    {
+      "type": "text",
+      "text": "2. Configure uma $(l:tools/gps_tool)Ferramenta GPS/$ ou $(l:tools/gps_area_tool)Ferramenta de Área GPS/$ no mundo. Na GUI do $(l:programming/programmer)Programador/$, você pode: $(li)$(thing)Clique com o botão esquerdo/$ com a $(item)Ferramenta (de Área) GPS/$ num widget $(thing)Área/$ existente para copiar as configurações da ferramenta para o widget$(li)$(thing)Clique com o botão esquerdo/$ com uma $(item)Ferramenta GPS/$ numa área de programação vazia para criar um novo widget $(l:programming/coordinate)Coordenada/$(li)$(thing)Shift+clique com o botão esquerdo/$ com uma $(item)Ferramenta GPS/$ numa área de programação vazia para criar um novo widget $(thing)Área/$(li)$(thing)Clique com o botão esquerdo/$ com uma $(item)Ferramenta de Área GPS/$ numa área de programação vazia para criar um novo widget $(thing)Área/$."
+    },
+    {
+      "type": "text",
+      "text": "3. A opção avançada: você pode usar $(thing)variáveis/$, como criadas pelo widget $(l:programming/coordinate_operator)Operador de Coordenadas/$. O $(l:programming/programmer)Programador/$ deve estar no modo $(thing)Avançado/$ para que variáveis estejam disponíveis; ao lado dos botões GPS, você agora também verá campos de seleção suspensos. Você pode escolher um nome de variável conhecido lá, e o canto correspondente desta Área usará a posição dessa variável."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/area_piece.png"
+      ],
+      "text": "$(italic)Widget de Área/$"
+    }
+  ]
+}

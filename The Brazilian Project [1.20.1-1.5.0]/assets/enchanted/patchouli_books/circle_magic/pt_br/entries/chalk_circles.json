@@ -1,0 +1,17 @@
+{
+  "name": "Realizando Ritos",
+  "icon": "enchanted:textures/block/glyph_gold.png",
+  "category": "enchanted:performing_rites",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Para realizar um rito, os círculos de giz corretos devem ser construídos primeiro. Os ritos podem usar três tipos de giz: ritual, infernal e de outro lugar, que são colocados ao redor de um glifo de coração desenhado com giz dourado.$(br2)Cada rito precisa de uma quantidade adequada de poder de um altar e de itens de foco; isso é exibido num diagrama."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:charging_stone"
+    }
+  ],
+  "read_by_default": false,
+  "priority": true
+}

@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.growth_mulch",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:growth_mulch",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:growth_mulch",
+            "text": "book.cobblepedia.entries.growth_mulch.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:growth_mulch",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.max_ether",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:max_ether",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:max_ether",
+            "text": "book.cobblepedia.entries.max_ether.text"
+        },
+        {
+            "type": "cobblepedia:brewing",
+            "title": "book.cobblepedia.pages.brewing",
+            "reagent_item": "cobblemon:pep_up_flower",
+            "base_item": "cobblemon:ether",
+            "result_item": "cobblemon:max_ether"
+        }
+    ]
+}

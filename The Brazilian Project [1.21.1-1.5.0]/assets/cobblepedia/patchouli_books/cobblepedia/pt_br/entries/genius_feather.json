@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.genius_feather",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:genius_feather",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:genius_feather",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.genius_feather.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:feather"
+            ]
+        }
+    ]
+}

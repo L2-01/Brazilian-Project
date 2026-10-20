@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.punching_glove",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:punching_glove",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:punching_glove",
+            "text": "book.cobblepedia.entries.punching_glove.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:punching_glove",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.covert_cloak",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:covert_cloak",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:covert_cloak",
+            "text": "book.cobblepedia.entries.covert_cloak.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:covert_cloak",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Combustível de Brasa de Blaze",
+  "sortnum": 27,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:refined_t2_fluid_bucket",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Combustível de Brasa de Blaze é uma fonte potente de energia. É produzido processando Combustível de Brasa de Blaze Bruto, obtido largando $(l:justdirethings:res_coal_t2)Brasa de Blaze$(/l) no $(l:justdirethings:res_polymorphic_fluid)Fluido Polimórfico$(/l). Coloque essa mistura ao lado de um bloco de Gosma de Blazebloom para refiná-la."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Combustível de Brasa de Blaze é um combustível eficiente e pode ser usado para gerar energia no $(l:justdirethings:mach_generatorfluidt1)Gerador a Combustível$(/l)."
+    }
+  ]
+}

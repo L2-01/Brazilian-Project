@@ -1,0 +1,19 @@
+{
+  "name": "Widget de Pular para Sub-rotina",
+  "icon": "pneumaticcraft:textures/progwidgets/jump_sub_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este widget se comporta como o $(thing)Pulo/$, exceto que quando a sub-rotina é concluída, a execução continuará no widget conectado à parte de baixo do widget $(thing)Pular para Sub-rotina/$. Um widget $(thing)Pular para Sub-rotina/$ é útil para reutilizar código comum e chamar sub-rotinas com argumentos arbitrários atribuindo variáveis antes de pular para a sub-rotina."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/jump_sub_piece.png"
+      ],
+      "text": "$(italic)Widget de Pular para Sub-rotina/$"
+    }
+  ]
+}

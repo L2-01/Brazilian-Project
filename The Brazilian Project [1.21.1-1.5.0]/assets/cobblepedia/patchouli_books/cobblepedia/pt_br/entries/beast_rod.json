@@ -1,0 +1,18 @@
+{
+    "name": "book.cobblepedia.entries.beast_rod.name",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:beast_rod",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:beast_rod",
+            "text": "book.cobblepedia.entries.beast_rod.text"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "cobblemon:beast_rod",
+            "title": "book.cobblepedia.pages.smithing"
+        }
+    ]
+}

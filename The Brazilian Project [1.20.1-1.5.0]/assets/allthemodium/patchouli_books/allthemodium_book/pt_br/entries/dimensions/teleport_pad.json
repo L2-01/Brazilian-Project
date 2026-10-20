@@ -1,0 +1,15 @@
+{
+    "name": "Plataforma de Teletransporte",
+    "icon": "allthemodium:teleport_pad",
+    "category": "allthemodium:dimensions",
+    "sortnum": 1,
+    "pages": [{
+            "type": "crafting",
+            "recipe": "allthemodium:teleport_pad"
+        },
+        {
+            "type": "text",
+            "text": "A Plataforma de Teletransporte é usada para se teletransportar para $(l:dimensions/miningdim)a Dimensão de Mineração$(/c) e $(l:dimensions/otherdim)o Outro$(/c); você precisa usar shift + clique direito com a mão principal e a mão secundária vazias.$(br2)Observação: a $(l:dimensions/miningdim)Dimensão de Mineração$(/c) está desativada no pacote ATM6: To The Sky"
+        }
+    ]
+}

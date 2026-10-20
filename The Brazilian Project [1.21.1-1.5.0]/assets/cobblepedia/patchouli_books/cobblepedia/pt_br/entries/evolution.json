@@ -1,0 +1,20 @@
+{
+    "name": "book.cobblepedia.entries.evolution",
+    "category": "cobblepedia:pokemon",
+    "icon": "cobblemon:thunder_stone",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.evolution.text"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "book.cobblepedia.entries.evolution.particles.title",
+            "text": "book.cobblepedia.entries.evolution.particles.text",
+            "images": [
+                "cobblepedia:textures/gui/entries/evolution_particle_effect.png"
+            ]
+        }
+    ]
+}

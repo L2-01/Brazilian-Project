@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.safety_goggles",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:safety_goggles",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:safety_goggles",
+            "text": "book.cobblepedia.entries.safety_goggles.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:safety_goggles",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.safety_goggles.holding"
+        }
+    ]
+}

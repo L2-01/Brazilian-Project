@@ -1,0 +1,64 @@
+{
+    "name": "book.cobblepedia.entries.evolution_stone_ore",
+    "category": "cobblepedia:getting_started",
+    "icon": "cobblemon:fire_stone_ore",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.evolution_stone_ore.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.evolution_stone_ore",
+            "entries": [
+                "cobblepedia:fire_stone_ore",
+                "cobblepedia:water_stone_ore",
+                "cobblepedia:thunder_stone_ore",
+                "cobblepedia:leaf_stone_ore",
+                "cobblepedia:moon_stone_ore",
+                "cobblepedia:sun_stone_ore",
+                "cobblepedia:shiny_stone_ore",
+                "cobblepedia:dusk_stone_ore",
+                "cobblepedia:dawn_stone_ore",
+                "cobblepedia:ice_stone_ore"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.evolution_stone_ore.deepslate",
+            "entries": [
+                "cobblepedia:deepslate_fire_stone_ore",
+                "cobblepedia:deepslate_water_stone_ore",
+                "cobblepedia:deepslate_thunder_stone_ore",
+                "cobblepedia:deepslate_leaf_stone_ore",
+                "cobblepedia:deepslate_moon_stone_ore",
+                "cobblepedia:deepslate_sun_stone_ore",
+                "cobblepedia:deepslate_shiny_stone_ore",
+                "cobblepedia:deepslate_dusk_stone_ore",
+                "cobblepedia:deepslate_dawn_stone_ore",
+                "cobblepedia:deepslate_ice_stone_ore"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.evolution_stone_ore.dripstone",
+            "entries": [
+                "cobblepedia:dripstone_moon_stone_ore"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.evolution_stone_ore.nether",
+            "entries": [
+                "cobblepedia:nether_fire_stone_ore"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.evolution_stone_ore.terracotta",
+            "entries": [
+                "cobblepedia:terracotta_sun_stone_ore"
+            ]
+        }
+    ]
+}

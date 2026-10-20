@@ -1,0 +1,17 @@
+{
+  "name": "Teleporte de Itens",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_dropteleport",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Garanta que seus saques estejam seguros com a melhoria Teleporte de Itens. Esta melhoria inovadora teleporta itens largados diretamente para um inventário vinculado.$(br2)Shift + clique direito com a ferramenta num inventário, como um baú, para vinculá-lo. Agora, quaisquer itens largados de minérios ou criaturas teleportarão diretamente para lá!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Teleporte de Itens",
+      "recipe": "justdirethings:upgrade_dropteleport"
+    }
+  ]
+}

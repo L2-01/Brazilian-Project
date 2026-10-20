@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.super_potion",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:super_potion",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:super_potion",
+            "text": "book.cobblepedia.entries.super_potion.text"
+        },
+        {
+            "type": "cobblepedia:brewing",
+            "title": "book.cobblepedia.pages.brewing",
+            "reagent_item": "cobblemon:energy_root",
+            "base_item": "cobblemon:potion",
+            "result_item": "cobblemon:super_potion"
+        }
+    ]
+}

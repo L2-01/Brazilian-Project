@@ -1,0 +1,25 @@
+{
+    "name": "item.cobblemon.figy_berry",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:figy_berry",
+    "pages": [
+        {
+            "type": "cobblepedia:mutated_berry",
+            "item": "cobblemon:figy_berry"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "item.cobblemon.figy_berry.tooltip"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:berry_juice"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Ejetor",
+  "icon": "minecraft:dispenser",
+  "category": "animal_pen:category_aviary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você pode interagir com algumas ferramentas usando um ejetor."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:shears",
+      "text": "Você pode usar tesouras num cercado de animais que contenha abelhas."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:glass_bottle",
+      "text": "Você pode usar um frasco de vidro num cercado de animais que contenha abelhas."
+    }
+  ]
+}

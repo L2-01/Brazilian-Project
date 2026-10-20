@@ -1,0 +1,51 @@
+{
+    "name": "book.cobblepedia.entries.apricorn_seed",
+    "category": "cobblepedia:agriculture",
+    "icon": "cobblemon:red_apricorn_seed",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.apricorn_seed",
+            "item": "tag:cobblemon:apricorn_sprouts",
+            "text": "book.cobblepedia.entries.apricorn_seed.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.apricorn_seed.obtaining.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.apricorn_seed.usage.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.apricorn.colors",
+            "text": "book.cobblepedia.entries.apricorn.colors.text",
+            "entries": [
+                "cobblepedia:red_apricorn_seed",
+                "cobblepedia:yellow_apricorn_seed",
+                "cobblepedia:green_apricorn_seed",
+                "cobblepedia:blue_apricorn_seed",
+                "cobblepedia:pink_apricorn_seed",
+                "cobblepedia:white_apricorn_seed",
+                "cobblepedia:black_apricorn_seed"
+            ]
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:harvest_apricorn_seed",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.harvest_apricorn_seed",
+            "text": "advancements.cobblemon.harvest_apricorn_seed.description"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:rainbow_apricorns",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.rainbow_apricorns",
+            "text": "advancements.cobblemon.rainbow_apricorns.description"
+        }
+    ]
+}

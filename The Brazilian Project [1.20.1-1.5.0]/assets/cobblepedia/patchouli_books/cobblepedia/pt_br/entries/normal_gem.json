@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.normal_gem",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:normal_gem",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:normal_gem",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.normal_gem.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:type_gem"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Mais Bigornas",
+  "sortnum": 1,
+  "category": "justdirethings:justdynathings",
+  "icon": "justdynathings:eclipse_alloy_anvil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Bigornas únicas que permitem reparar coisas sem Experiência"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Bigorna de Ferricoro",
+      "recipe": "justdynathings:ferricore_anvil",
+      "text": "Uma bigorna que repara ferramentas com alguns catalisadores"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Bigorna de BlazeGold",
+      "recipe": "justdynathings:blazegold_anvil",
+      "text": "Uma bigorna que repara itens usando fluidos de alta temperatura"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Bigorna de Celestigema",
+      "recipe": "justdynathings:celestigem_anvil",
+      "text": "Uma bigorna que repara itens usando Forge Energy (FE)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Bigorna de Liga Eclipse",
+      "recipe": "justdynathings:eclipse_alloy_anvil",
+      "text": "Uma bigorna que repara itens usando Forge Energy (FE) como a Bigorna de Celestigema"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Além disso, quando um refrigerante é adicionado, ela reparará com base em (eficiência do refrigerante) / 100 x (dano total) que o item pode receber mais de 1000 por tique ou $(bold)irá repará-lo completamente$()"
+    }
+  ]
+}

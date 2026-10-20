@@ -1,0 +1,41 @@
+{
+  "name": "Início de Jogo",
+  "icon": "irons_spellbooks:inscription_table",
+  "category": "irons_spellbooks:root",
+  "sortnum": -3,
+  "read_by_default": false,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Visão Geral",
+      "text": "A progressão no início do jogo é dominada por exploração e saque. O mundo está cheio de tesouros mágicos, especialmente nas novas estruturas mágicas espalhadas pelas terras. Mas cuidado! Cada estrutura mágica é o lar de um poderoso mago, que não vai recebê-lo muito bem."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:scroll",
+      "title": "Pergaminhos",
+      "text": "Os pergaminhos serão seu primeiro contato com a magia. Embora possam ser consumidos para lançar o feitiço que contêm, é melhor guardá-los até poder inscrevê-los em um livro de feitiços, onde podem ser usados repetidamente, por meio de uma Mesa de Inscrição >>>"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mesa de Inscrição",
+      "text": "Para usar corretamente um Livro de Feitiços, você deve inscrever feitiços nele com a Mesa de Inscrição, usando pergaminhos. Os pergaminhos podem ser recuperados depois de colocados em um Livro de Feitiços, mas isso desinscreve o feitiço. Livros de feitiços para iniciantes podem ser fabricados com materiais básicos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:inscription_table",
+      "recipe2": "irons_spellbooks:copper_spell_book"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:arcane_essence",
+      "title": "Materiais Básicos",
+      "text": "Alguns materiais básicos podem até ser encontrados esparsamente em estruturas vanilla.$(br2)A Essência Arcana pode ser combinada com armadura de couro para fabricar a armadura de Mago Errante, uma fonte inicial de mana máxima adicional."
+    },
+    {
+      "type": "patchouli:entity",
+      "name": "Armadura de Mago Errante",
+      "entity": "minecraft:armor_stand{ArmorItems:[{id:'irons_spellbooks:wandering_magician_boots',Count:1b},{id:'irons_spellbooks:wandering_magician_leggings',Count:1b},{id:'irons_spellbooks:wandering_magician_chestplate',Count:1b},{id:'irons_spellbooks:wandering_magician_helmet',Count:1b}],NoBasePlate:1b}"
+    }
+  ]
+}

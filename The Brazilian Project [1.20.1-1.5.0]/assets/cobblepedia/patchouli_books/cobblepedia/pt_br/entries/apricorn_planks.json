@@ -1,0 +1,20 @@
+{
+    "name": "block.cobblemon.apricorn_planks",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:apricorn_planks",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:apricorn_planks",
+            "title": "block.cobblemon.apricorn_planks",
+            "text": "book.cobblepedia.entries.apricorn_planks.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:apricorn_planks",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.apricorn_planks.crafting"
+        }
+    ]
+}

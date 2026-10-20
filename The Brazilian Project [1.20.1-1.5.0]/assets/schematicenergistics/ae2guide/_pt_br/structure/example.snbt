@@ -1,0 +1,15 @@
+{
+    DataVersion: 3465,
+    size: [2, 2, 1],
+    data: [
+        {pos: [0, 0, 0], state: "ae2:cable_bus{light_level:0,waterlogged:false}", nbt: {ForgeCaps: {}, cable: {gn: {p: 0}, id: "ae2:fluix_smart_cable", visual: {channelsEast: 1, connections: ["east"], missingChannel: 0b, powered: 0b}}, hasRedstone: 2, id: "ae2:cable_bus", visual: {}}},
+        {pos: [1, 0, 0], state: "schematicenergistics:cannon_interface", nbt: {ForgeCaps: {}, id: "schematicenergistics:cannon_interface", proxy: {p: 0}, visual: {}}},
+        {pos: [1, 1, 0], state: "create:schematicannon", nbt: {AmountPlaced: 0, AmountToPlace: 0, DefaultYaw: 135.0f, FlyingBlocks: [], ForgeCaps: {}, Inventory: {Items: [], Size: 5}, Options: {ReplaceMode: 2, ReplaceTileEntities: 0b, SkipMissing: 0b}, PaperProgress: 0.0f, Printer: {DeferredBlocks: [], EntityProgress: -1, PrintStage: "BLOCKS"}, Progress: 0.0f, RemainingFuel: 0, State: "STOPPED", Status: "idle", id: "create:schematicannon"}}
+    ],
+    entities: [],
+    palette: [
+        "ae2:cable_bus{light_level:0,waterlogged:false}",
+        "schematicenergistics:cannon_interface",
+        "create:schematicannon"
+    ]
+}

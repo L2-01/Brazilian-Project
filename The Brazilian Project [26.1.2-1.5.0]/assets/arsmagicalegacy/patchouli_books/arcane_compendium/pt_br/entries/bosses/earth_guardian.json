@@ -1,0 +1,30 @@
+{
+  "category": "arsmagicalegacy:bosses",
+  "icon": "arsmagicalegacy:earth_guardian_spawn_egg",
+  "name": "item.arsmagicalegacy.arcane_compendium.bosses.earth_guardian.name",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "item.arsmagicalegacy.arcane_compendium.bosses.earth_guardian.page0.text"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "arsmagicalegacy:earth_guardian",
+      "text": "Nível de magia recomendado: 20"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "arsmagicalegacy:earth_guardian_spawn_ritual",
+      "name": "item.arsmagicalegacy.arcane_compendium.bosses.earth_guardian.page2.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "item.arsmagicalegacy.arcane_compendium.bosses.earth_guardian.page3.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arsmagicalegacy:earth_armor",
+      "text": "item.arsmagicalegacy.arcane_compendium.bosses.earth_guardian.page4.text"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Blindagem",
+  "icon": "simplyswords:runic_tablet",
+  "category": "simplyswords:category_rune_etching",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:runic_tablet",
+      "title": "Blindagem",
+      "text": "Blindagem é um poder rúnico que imbui a arma do usuário com a $(#389fff)$(l)essência da proteção$(). $(br2)Concede ao usuário uma chance de ganhar absorção a cada golpe bem-sucedido."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Blindagem é um poder rúnico poderoso que pode dar ao usuário uma vantagem em batalha protegendo-o de dano. É ideal para personagens focados em aguentar e absorver dano, como guerreiros e paladinos. $(br2)Também pode ser útil para personagens que dependem de ataques pesados, pois o efeito de absorção permite ficar na luta por mais tempo."
+    }
+  ]
+}

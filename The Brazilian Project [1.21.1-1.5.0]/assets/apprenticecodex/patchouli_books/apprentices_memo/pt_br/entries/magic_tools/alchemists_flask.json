@@ -1,0 +1,24 @@
+{
+  "name": "item.apprenticecodex.alchemists_flask",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:alchemists_flask",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:alchemists_flask",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.alchemists_flask.page.p001.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.extract"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "apprenticecodex:alchemists_flask",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.alchemists_flask.page.p002.text"
+    }
+  ]
+}

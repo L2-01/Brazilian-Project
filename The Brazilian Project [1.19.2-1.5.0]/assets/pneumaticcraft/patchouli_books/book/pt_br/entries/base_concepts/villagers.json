@@ -1,0 +1,17 @@
+{
+  "name": "Aldeões Mecânicos de Pressão",
+  "icon": "minecraft:emerald",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Você ouviu relatos de um $(thing)aldeão/$ que tem em estoque alguns componentes interessantes do $(pncr). Aparentemente ele esteve envolvido num acidente com uma $(l:manufacturing/pressure_chamber)Câmara de Pressão/$? Enfim, hoje em dia ele prefere ficar na própria casa, que pode ser encontrada em vilas. Se não der certo, uma $(l:machines/charging_station)Estação de Carga/$ pode se provar atrativa para aldeões desempregados..."
+    },
+    {
+      "type": "entity",
+      "name": "Mecânico",
+      "entity": "minecraft:villager{VillagerData:{profession:'pneumaticcraft:mechanic'}}",
+      "text": "$(italic)Não é fã do $(l:tools/amadron_tablet)Amadron/$."
+    }
+  ]
+}

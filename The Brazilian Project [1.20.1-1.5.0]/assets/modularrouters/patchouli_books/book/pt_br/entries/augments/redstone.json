@@ -1,0 +1,15 @@
+{
+  "name": "Melhoria de Redstone",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:redstone_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esta melhoria pode ser adicionada a qualquer módulo.$(p)Normalmente, os módulos são executados quando o roteador executa, sem questionamentos. No entanto, se esta melhoria for adicionada a um módulo, esse módulo poderá definir seu próprio comportamento de redstone; um botão extra é adicionado à GUI do módulo para controlar isso."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:redstone_augment"
+    }
+  ]
+}

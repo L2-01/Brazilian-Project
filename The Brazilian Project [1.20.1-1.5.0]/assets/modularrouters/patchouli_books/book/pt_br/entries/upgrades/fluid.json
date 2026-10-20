@@ -1,0 +1,15 @@
+{
+  "name": "Melhoria de Transferência de Fluido",
+  "category": "modularrouters:upgrades",
+  "icon": "modularrouters:fluid_upgrade",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esta melhoria afeta apenas o $(l:modules/fluid)Módulo de Fluido Mk1/$ e o $(l:modules/fluid_2)Módulo de Fluido Mk2/$.$(p)Ela aumenta a taxa geral de transferência de fluido do $(l:router/modular_router)Roteador/$ (em cada direção; para dentro e para fora do roteador) da taxa base de 50 mB/tique em 10 mB/tique, até um máximo de 400 mB/tique. Portanto, o número máximo de Melhorias de Transferência de Fluido num roteador é 35."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:fluid_upgrade"
+    }
+  ]
+}

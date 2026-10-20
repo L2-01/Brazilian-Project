@@ -1,0 +1,54 @@
+{
+    "name": "item.cobblemon.leaf_stone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:leaf_stone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:leaf_stone",
+            "title": "item.cobblemon.leaf_stone",
+            "text": "book.cobblepedia.entries.leaf_stone.text"
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "cobblemon:leaf_stone_from_smelting_leaf_stone_ore",
+            "recipe2": "cobblemon:leaf_stone_from_smelting_deepslate_leaf_stone_ore",
+            "title": "book.cobblepedia.pages.smelting"
+        },
+        {
+            "type": "patchouli:blasting",
+            "recipe": "cobblemon:leaf_stone_from_blasting_leaf_stone_ore",
+            "recipe2": "cobblemon:leaf_stone_from_blasting_deepslate_leaf_stone_ore",
+            "title": "book.cobblepedia.pages.blasting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.leaf_stone.evolving",
+            "using_item2": "cobblemon:leaf_stone",
+            "pokemon2": "cobblemon:gloom",
+            "evolved_pokemon2": "cobblemon:vileplume",
+            "using_item3": "cobblemon:leaf_stone",
+            "pokemon3": "cobblemon:weepinbell",
+            "evolved_pokemon3": "cobblemon:victreebel",
+            "using_item4": "cobblemon:leaf_stone",
+            "pokemon4": "cobblemon:exeggcute",
+            "evolved_pokemon4": "cobblemon:exeggutor",
+            "using_item5": "cobblemon:leaf_stone",
+            "pokemon5": "cobblemon:nuzleaf",
+            "evolved_pokemon5": "cobblemon:shiftry",
+            "using_item6": "cobblemon:leaf_stone",
+            "pokemon6": "cobblemon:pansage",
+            "evolved_pokemon6": "cobblemon:simisage"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:miracle_seed"
+            ]
+        }
+    ]
+}

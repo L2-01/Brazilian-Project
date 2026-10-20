@@ -1,0 +1,46 @@
+{
+    "name": "item.cobblemon.kings_rock",
+    "category": "cobblepedia:evolution_items",
+    "icon": "cobblemon:kings_rock",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:kings_rock",
+            "link_recipe": true,
+            "title": "item.cobblemon.kings_rock",
+            "text": "book.cobblepedia.entries.kings_rock.text"
+        },
+        {
+            "type": "cobblepedia:largping",
+            "title": "book.cobblepedia.pages.largping",
+            "drop_item": "cobblemon:kings_rock",
+            "pokemon": "cobblemon:krabby",
+            "rate": "2.5",
+            "drop_item2": "cobblemon:kings_rock",
+            "pokemon2": "cobblemon:kingler",
+            "rate2": "5",
+            "drop_item3": "cobblemon:kings_rock",
+            "pokemon3": "cobblemon:politoed",
+            "rate3": "20"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.kings_rock.holding"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.kings_rock.evolving",
+            "holding_item4": "cobblemon:kings_rock",
+            "using_item4": "cobblemon:link_cable",
+            "pokemon4": "cobblemon:poliwhirl",
+            "evolved_pokemon4": "cobblemon:politoed",
+            "holding_item5": "cobblemon:kings_rock",
+            "using_item5": "cobblemon:link_cable",
+            "pokemon5": "cobblemon:slowpoke",
+            "evolved_pokemon5": "cobblemon:slowking"
+        }
+    ]
+}

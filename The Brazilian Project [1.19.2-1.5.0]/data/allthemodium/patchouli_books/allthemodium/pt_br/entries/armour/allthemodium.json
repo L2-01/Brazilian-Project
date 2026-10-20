@@ -1,0 +1,32 @@
+{
+    "name": "Armadura de Allthemodium",
+    "icon": "allthemodium:allthemodium_chestplate",
+    "category": "allthemodium:armour",
+    "sortnum": 1,
+    "pages": [{
+            "type": "text",
+            "text": "A armadura de Allthemodium tem vários benefícios além da armadura, resistência e resistência a repulsão:$(li)Respiração Aquática$(li)Sem Dano de Colisão ao voar de Élitro$(li)Imune a Dano de Fogo$(li)Sem Dano de Queda$(li)Ao melhorar a armadura de Netherita, ela mantém os encantamentos"
+        },
+        {
+            "type": "crafting",
+            "recipe": "allthemodium:main/allthemodium_helmet",
+            "recipe2": "kubejs:minecraft_netherite_helmet_upgrade"
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "allthemodium:main/allthemodium_chestplate",
+            "recipe2": "kubejs:minecraft_netherite_chestplate_upgrade"
+        },
+        {
+            "type": "crafting",
+            "recipe": "allthemodium:main/allthemodium_leggings",
+            "recipe2": "kubejs:minecraft_netherite_leggings_upgrade"
+        },
+        {
+            "type": "crafting",
+            "recipe": "allthemodium:main/allthemodium_boots",
+            "recipe2": "kubejs:minecraft_netherite_boots_upgrade"
+        }
+    ]
+}

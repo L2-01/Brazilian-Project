@@ -1,0 +1,14 @@
+{
+    "name": "item.cobblemon.eject_pack",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:eject_pack",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:eject_pack",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.eject_pack.text"
+        }
+    ]
+}

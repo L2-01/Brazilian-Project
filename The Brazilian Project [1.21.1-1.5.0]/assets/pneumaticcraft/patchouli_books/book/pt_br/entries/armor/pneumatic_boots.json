@@ -1,0 +1,52 @@
+{
+  "name": "Botas Pneumáticas",
+  "icon": "pneumaticcraft:pneumatic_boots",
+  "category": "pneumaticcraft:armor",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "As $(item)Botas Pneumáticas/$ são uma das quatro peças da $(thing)Armadura Pneumática/$.$(p)As botas fornecem proteção de queda embutida a um custo de ar modesto (proporcional ao dano de queda negado).$(p)Você também ganha assistência de passo de 1 bloco de graça (sem custo de ar).  Note que isso é assistência de passo, não salto automático, e é um recurso alternável."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pneumatic_boots",
+      "text": "Fabricando umas Botas Pneumáticas"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:jet_boots_upgrade_1",
+      "text": "Se você sempre quis planar pelo ar sem preocupação nenhuma (exceto quanta pressão ainda lhe resta), a $(l:base_concepts/upgrades#jet_boots_1)Melhoria de Botas a Jato/$ é para você.  Há 5 níveis de Melhoria de Botas a Jato para voo progressivamente mais rápido e maior uso de ar."
+    },
+    {
+      "type": "text",
+      "title": "Botas a Jato (cont.)",
+      "text": "Quando a melhoria está ativa, basta segurar a tecla $(k:pneumaticcraft.boots.jet_boots) para impulsionar na direção em que você está olhando.$(p)As $(thing)Botas a Jato/$ são uma usuária $(bold)pesada/$ de ar; é fortemente recomendado adicionar várias $(l:base_concepts/upgrades#volume)Melhorias de Volume/$ às suas botas (e ao $(l:armor/pneumatic_chestplate)peitoral/$, com $(l:base_concepts/upgrades#charging)Melhorias de Carga/$).$(p)O uso de uma $(l:machines/aerial_interface)Interface Aérea/$ também é aconselhado quando possível, junto com uma boa infraestrutura de carga na sua base."
+    },
+    {
+      "type": "text",
+      "title": "Botas a Jato (cont.)",
+      "text": "Com $(l:base_concepts/upgrades#jet_boots_3)Melhorias de Botas a Jato: Nível III/$ ou melhor, você também terá acesso ao $(thing)Modo Construtor/$, que permite um controle de voo mais no estilo criativo (porém mais lento) e velocidade de escavação no ar melhorada.$(p)Isso pode ser ativado e desativado via a GUI da armadura (e vinculado a uma tecla)."
+    },
+    {
+      "type": "text",
+      "title": "Botas a Jato (cont.)",
+      "text": "Com $(l:base_concepts/upgrades#jet_boots_4)Melhorias de Botas a Jato: Nível IV/$ ou melhor, você também ganha acesso aos $(thing)Estabilizadores de Voo/$, que o trarão a uma parada imediata quando você soltar a tecla de impulso (a um custo de ar proporcional à velocidade em que você estava viajando).$(p)Como o Modo Construtor, isso também pode ser ativado e desativado via a GUI da armadura (e vinculado a uma tecla)."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:dispenser_upgrade",
+      "text":  "Ao adicionar até 4 $(l:base_concepts/upgrades#dispenser)Melhorias de Ejetor/$ às botas, você ganha a habilidade de executar um $(bold)chute pneumático/$.  Isso causará dano moderado a entidades (e não apenas entidades vivas!), mas também infligirá repulsão pesada, a um custo de ar modesto.$(p)Pressione $(thing)$(k:pneumaticcraft.boots.kick)/$ para chutar."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:flippers_upgrade",
+      "text":  "Com uma $(l:base_concepts/upgrades#flippers)Melhoria de Pés de Pato/$ instalada, você desfrutará de um benefício moderado à sua velocidade de nado. Isso não tem custo extra de ar, então é uma alternativa muito mais barata às Botas a Jato quando na água."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:stomp_upgrade",
+      "text":  "Com uma $(l:base_concepts/upgrades#stomp)Melhoria de Pisão/$ instalada e ativa, você pode fazer chover destruição sobre seus inimigos. Se você atingir o chão rápido o suficiente para sofrer dano (mesmo que esse dano seja absorvido pelas suas botas), criaturas próximas serão feridas, proporcionalmente à velocidade com que você chegou. Isso consome um pouco de ar para cada criatura ferida assim."
+    }
+  ]
+}

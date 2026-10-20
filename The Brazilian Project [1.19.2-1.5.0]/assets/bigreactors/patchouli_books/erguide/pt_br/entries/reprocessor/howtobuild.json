@@ -1,0 +1,18 @@
+{
+    "name": "Como construir",
+    "icon": "bigreactors:reprocessorcollector",
+    "category": "bigreactors:reprocessor",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "O Reprocessador é uma máquina de 3 por 3 e 7 blocos de altura, construída com blocos de Revestimento e uma de cada uma das outras peças do dispositivo.$(br)Vidro pode ser usado no lugar de blocos de Revestimento nas faces verticais da máquina (mas não na moldura).$(br2)Verifique a página de cada peça do Reprocessador para restrições de onde cada peça pode ser colocada."
+
+        },
+        {
+            "type": "zcmultiblock",
+            "multiblock_id" : "bigreactors:bookreprocessor"
+        }
+    ]
+}

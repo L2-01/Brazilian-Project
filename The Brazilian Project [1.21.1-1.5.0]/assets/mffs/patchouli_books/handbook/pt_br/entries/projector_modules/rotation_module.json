@@ -1,0 +1,18 @@
+{
+    "name": "Módulo de Rotação",
+    "icon": "mffs:rotation_module",
+    "category": "mffs:projector_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:rotation_module",
+            "link_recipe": true,
+            "text": "O $(5)Módulo de Rotação$() pode ser colocado nos espaços de campo do $(l:mffs:machines/projector)Projetor de Campo de Força$() para girar o campo projetado. Você pode mover o campo de força ao redor do eixo x, y ou z colocando $(5)Módulos de Rotação$() no espaço respectivo daquele eixo. $(li)LESTE, OESTE - Ajustam a Guinada$(li)ACIMA, ABAIXO - Ajustam a Arfagem$(li)SUL, NORTE - Ajustam a Rolagem$()"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:rotation_module",
+            "text": "Fabricando o $(5)Módulo de Rotação$()."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Visão Noturna",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_nightvision",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Navegue no escuro com facilidade usando a melhoria Visão Noturna. Esta melhoria concede visão noturna permanente, iluminando seus arredores o tempo todo."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Visão Noturna",
+      "recipe": "justdirethings:upgrade_nightvision"
+    }
+  ]
+}

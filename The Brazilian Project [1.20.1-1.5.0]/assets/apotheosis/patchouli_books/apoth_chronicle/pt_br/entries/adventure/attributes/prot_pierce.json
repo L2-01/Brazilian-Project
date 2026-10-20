@@ -1,0 +1,13 @@
+{
+    "name": "Perfuração de Proteção",
+    "icon": "attributeslib:textures/mob_effect/sundering.png",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(9)Perfuração de Proteção$() permite ignorar uma quantidade fixa dos pontos de proteção do seu alvo ao atacar.$(p)Perfuração de Proteção extra não faz o alvo ter proteção negativa."
+        }
+	]
+}

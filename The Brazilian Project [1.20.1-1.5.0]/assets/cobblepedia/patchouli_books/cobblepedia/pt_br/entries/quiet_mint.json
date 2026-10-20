@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.quiet_mint",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:quiet_mint",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:quiet_mint",
+            "text": "book.cobblepedia.entries.quiet_mint.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:quiet_mint",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

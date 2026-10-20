@@ -1,0 +1,119 @@
+{
+  "name": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.name",
+  "category": "apprenticecodex:staves_and_casting_devices",
+  "icon": "apprenticecodex:iron_spellcaster_gun",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.page.p001.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.page.p001.text",
+      "item": "apprenticecodex:iron_spellcaster_gun,apprenticecodex:copper_spellcaster_gun,apprenticecodex:gold_spellcaster_gun,apprenticecodex:diamond_spellcaster_gun"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.page.p002.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:iron_spellcaster_gun",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.page.p003.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.iron_spellcaster_gun"
+          },
+          {
+            "translate": "spell.irons_spellbooks.magic_missile"
+          },
+          {
+            "translate": "spell.irons_spellbooks.magic_missile"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:iron_spellcaster_gun",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.page.p004.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:copper_spellcaster_gun",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.page.p005.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.copper_spellcaster_gun"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:copper_spellcaster_gun",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.page.p006.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:gold_spellcaster_gun",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.page.p007.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.gold_spellcaster_gun"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:gold_spellcaster_gun",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.page.p008.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:diamond_spellcaster_gun",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.page.p009.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.diamond_spellcaster_gun"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:diamond_spellcaster_gun",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.page.p010.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:malignant_spellcaster_gun",
+      "flag": "mod:malum",
+      "advancement": "apprenticecodex:apprentice_codex/malum_black_crystal_revealed",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.page.p011.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.malignant_spellcaster_gun"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:silver_spell_amplifier",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.page.p012.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_system.page.p012.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:staves_and_casting_devices/spellgun_ammo",
+        "apprenticecodex:devices/spellcaster_workbench",
+        "apprenticecodex:devices/spell_calibration_bench"
+      ]
+    }
+  ]
+}

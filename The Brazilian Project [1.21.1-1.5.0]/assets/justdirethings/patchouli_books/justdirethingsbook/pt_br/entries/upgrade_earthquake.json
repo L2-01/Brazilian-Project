@@ -1,0 +1,17 @@
+{
+  "name": "Terremoto",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_earthquake",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Libere a força da natureza com a melhoria Terremoto. Esta melhoria causa um tremor poderoso ao seu redor, desacelerando todos os inimigos próximos.$(br2)Ela deve ser ativada com uma tecla de atalho vinculada configurada no menu de configurações da ferramenta"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação do Terremoto",
+      "recipe": "justdirethings:upgrade_earthquake"
+    }
+  ]
+}

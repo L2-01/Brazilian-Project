@@ -1,0 +1,17 @@
+{
+  "name": "Armadura",
+  "icon": "enchanted:armour_poppet",
+  "category": "enchanted:infusing_poppets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Bonecos de armadura protegem uma peça de armadura equipada pelo beneficiário quando ela quebra.$(br2)$(bold)Resistente$() Um uso extra.$(br)$(bold)Infundido$() Devolve a armadura à durabilidade total"
+    },
+    {
+      "type": "enchanted:spinning_wheel_recipe",
+      "recipe": "enchanted:spinning/armour_poppet"
+    }
+  ],
+  "read_by_default": true,
+  "priority": false
+}

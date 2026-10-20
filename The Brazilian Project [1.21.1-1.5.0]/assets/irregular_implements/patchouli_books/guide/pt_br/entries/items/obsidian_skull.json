@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:obsidian_skull",
+  "name": "Crânio de Obsidiana",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:obsidian_skull",
+      "link_recipe": true,
+      "text": "O $(d)Crânio de Obsidiana$() tem chance de $(3)anular dano de fogo$() quando está no inventário do jogador.$(br2)Quanto maior o dano que seria sofrido, maior a chance de anulação. A fórmula exata é $(4)(quantia^3)/100$().",
+      "title": "Crânio de Obsidiana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:obsidian_skull_ring",
+      "link_recipe": true,
+      "text": "Você também pode fabricar o $(d)Anel de Crânio de Obsidiana$(), que pode ser usado no espaço de anel do Curios!",
+      "title": "Anel de Crânio de Obsidiana"
+    }
+  ]
+}

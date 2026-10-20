@@ -1,0 +1,15 @@
+{
+    "name": "block.cobblemon.stripped_apricorn_log",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:stripped_apricorn_log",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:stripped_apricorn_log",
+            "link_recipe": true,
+            "title": "block.cobblemon.stripped_apricorn_log",
+            "text": "book.cobblepedia.entries.stripped_apricorn_log.text"
+        }
+    ]
+}

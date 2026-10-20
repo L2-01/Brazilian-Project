@@ -1,0 +1,36 @@
+{
+  "name": "Gerador",
+  "icon": "rftoolsutility:spawner",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:spawner": 0,
+    "rftoolsutility:syringe": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Gerador cria criaturas a partir de uma seringa cheia, FE e materiais fornecidos por $(l:rftoolsbase:machines/matter_beamer)Emissores de Matéria$(/l) vinculados. A criatura selecionada determina quais materiais são aceitos."
+    },
+    {
+      "type": "crafting",
+      "heading": "Gerador",
+      "recipe": "rftoolsutility:spawner",
+      "recipe2": "rftoolsutility:syringe"
+    },
+    {
+      "type": "text",
+      "title": "Seringas",
+      "text": "Use uma seringa no mesmo tipo de criatura até que esteja totalmente injetada, depois coloque-a no gerador. A dica de ferramenta mostra a criatura armazenada e o nível de injeção."
+    },
+    {
+      "type": "text",
+      "title": "Materiais",
+      "text": "A interface mostra três reservas de matéria. Os Emissores de Matéria devem enviar os materiais necessários para a criatura na seringa; materiais não relacionados são ignorados."
+    },
+    {
+      "type": "text",
+      "title": "Eficiência",
+      "text": "Forneça FE suficiente e mantenha os emissores abastecidos. $(5)Infundir$() o gerador melhora a eficiência, enquanto infundir os emissores melhora a rapidez e o custo com que eles entregam itens."
+    }
+  ]
+}

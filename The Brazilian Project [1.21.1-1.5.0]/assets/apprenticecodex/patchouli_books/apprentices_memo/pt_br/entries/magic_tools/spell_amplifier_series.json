@@ -1,0 +1,165 @@
+{
+  "name": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.name",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:iron_spell_amplifier",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p001.title",
+      "item": "apprenticecodex:iron_spell_amplifier",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p001.text"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p002.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.spell_calibration_bench"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:iron_spell_amplifier",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p003.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.iron_spell_amplifier"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:iron_spell_amplifier",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p004.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:copper_spell_amplifier",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p005.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.copper_spell_amplifier"
+          },
+          {
+            "translate": "spell.apprenticecodex.shock"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:copper_spell_amplifier",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p006.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:gold_spell_amplifier",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p007.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.gold_spell_amplifier"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:gold_spell_amplifier",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p008.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:diamond_spell_amplifier",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p009.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.diamond_spell_amplifier"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:diamond_spell_amplifier",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p010.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:netherite_spell_amplifier",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p011.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.netherite_spell_amplifier"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "apprenticecodex:netherite_spell_amplifier",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p012.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:silver_spell_amplifier",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p013.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.silver_spell_amplifier"
+          },
+          {
+            "translate": "block.apprenticecodex.spell_calibration_bench"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:silver_spell_amplifier",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p014.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:soulstained_steel_spell_amplifier",
+      "flag": "mod:malum",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p015.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.soulstained_steel_spell_amplifier"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:soulstained_steel_spell_amplifier",
+      "flag": "mod:malum",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spell_amplifier_series.page.p016.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.arcane_blast"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:magic_tools/explorers_cane",
+        "apprenticecodex:magic_tools/photon_siphon"
+      ]
+    }
+  ]
+}

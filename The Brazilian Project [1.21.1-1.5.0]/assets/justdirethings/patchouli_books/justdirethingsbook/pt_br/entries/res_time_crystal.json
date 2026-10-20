@@ -1,0 +1,32 @@
+{
+  "name": "Cristais do Tempo",
+  "sortnum": 20,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:time_crystal",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os Cristais do Tempo não são tarefa trivial de criar, mas valem muito a pena, pois têm o poder de afetar o próprio tempo! Criá-los é um processo de várias etapas que será detalhado nas páginas a seguir.$(br2)Primeiro, use $(l:justdirethings:goo_tier4)Gosma de Shadowpulse$(/l) para converter um bloco de Ametista em Germinação num bloco de Drusa de Cristal do Tempo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O bloco de Drusa de Cristal do Tempo deve absorver energia temporal de cada uma das 3 dimensões do Minecraft: o Mundo Superior, o Nether e o End.$(br2)Coloque o bloco de Drusa de Cristal do Tempo no Mundo Superior por algum tempo. Ele começará a absorver Energia Temporal do Mundo Superior, visível como efeitos de partículas azuis. Quando o bloco mudar de cor, está pronto para o próximo passo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você precisará mover o bloco para o Nether neste ponto; porém, não é possível quebrá-lo sem estilhaçá-lo — nem mesmo com Toque Suave! Você precisará achar $(l:justdirethings:mach_blockswappert1)Um Outro Jeito$(/l) de movê-lo entre dimensões. Uma vez no Nether, ele absorverá Energia Temporal do Nether, que aparecerá como efeitos de partículas laranjas. Quando o bloco mudar de cor, está pronto para ser movido de novo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Por fim, mova o bloco para o End. Ali, ele absorverá Energia Temporal do End, visualizada como efeitos de partículas verdes. Ao concluir, o bloco ficará verde e Brotos de Cristal do Tempo começarão a aparecer.$(br2)Cada vez que um broto de cristal do tempo germina, ele consome um pouco da energia temporal. Garanta não quebrar os brotos de cristal do tempo até que estejam totalmente crescidos, ou você os destruirá sem receber nada em troca!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Eventualmente, toda a energia temporal na drusa de cristal do tempo será consumida. Nesse ponto, você precisará movê-la de volta ao Mundo Superior e recomeçar o processo de carga do início.$(br)Nota: sem carga, os brotos não crescerão mais. Além disso, se você mover APENAS a Drusa de Cristal do Tempo, os brotos se estilhaçarão. É recomendado mover o Cristal e seus brotos $(l:justdirethings:mach_blockswappert2)Todos Juntos$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Algumas pessoas relataram distorções temporais incomuns ao carregá-los por aí. Você deve ser cauteloso."
+    }
+  ]
+}

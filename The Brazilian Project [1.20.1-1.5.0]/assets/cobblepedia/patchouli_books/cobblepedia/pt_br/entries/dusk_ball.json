@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.dusk_ball",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:dusk_ball",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:dusk_ball",
+            "text": "book.cobblepedia.entries.dusk_ball.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:dusk_ball",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.dusk_ball.crafting"
+        }
+    ]
+}

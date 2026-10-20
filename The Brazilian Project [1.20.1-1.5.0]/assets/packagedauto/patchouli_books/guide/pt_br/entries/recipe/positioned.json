@@ -1,0 +1,47 @@
+{
+	"name": "Processamento Posicionado",
+	"category": "packagedauto:recipe",
+	"icon": "packagedauto:distributor",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(thing)Processamento Posicionado/$ é um tipo de receita de processamento/fabricação que usa $(item)Distribuidores de Pacotes Posicionados/$ para distribuir itens em inventários separados.$(p)Ao codificar, as saídas serão ordenadas e empilhadas.$(p)Ao desempacotar, os itens serão inseridos nos inventários-alvo na ordem codificada."
+		},
+		{
+			"type": "packagedauto:spotlight2",
+			"item1": "packagedauto:distributor_marker",
+			"item2": "packagedauto:distributor",
+			"title": "Uso",
+			"text": "Para usar, vincule $(item)Marcadores do Distribuidor/$ a inventários e coloque os marcadores nos espaços do distribuidor correspondentes aos espaços de entrada codificados."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Uso (cont.)",
+			"text": "Você pode usar $(thing)$(k:sneak) + $(k:use)/$ num $(item)Marcador do Distribuidor/$ vinculado ou colocá-lo numa grade de fabricação para desvinculá-lo.$(p)Você pode usar $(thing)$(k:sneak) + $(k:use)/$ com a mão vazia num $(item)Distribuidor de Pacotes Posicionado/$ para mostrar seu alcance e alvos atuais.$(p)Você pode combinar um $(item)Marcador do Distribuidor/$ vinculado com outros não vinculados numa grade de fabricação para copiar o conteúdo."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Uso (cont.)",
+			"text": "O $(item)Distribuidor de Pacotes Posicionado/$ respeita os ajustes de modo de bloqueio do $(l:core/unpackager)Desempacotador/$ de origem.$(p)Se algum inventário-alvo se tornar inválido, o distribuidor ejetará todos os itens pendentes em cima de si mesmo."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Clonagem de Ajustes",
+			"text": "Usando o $(l:core/settings_cloner)Clonador de Ajustes de Empacotamento/$, você pode copiar e colar os ajustes de alvo atuais de um $(item)Distribuidor de Pacotes Posicionado/$.$(p)Para colar os ajustes de alvo, você precisa ter $(item)Marcadores do Distribuidor/$ vazios suficientes no seu inventário."
+		},
+		{
+			"type": "patchouli:text",
+			"flag": "mod:ae2",
+			"title": "Integração com AE2",
+			"text": "O $(item)Distribuidor de Pacotes Posicionado/$ pode ser conectado a uma $(thing)Rede ME/$.$(p)Nesse caso, ele ejetará os itens pendentes na rede se algum inventário-alvo se tornar inválido."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "packagedauto:distributor_marker",
+			"recipe2": "packagedauto:distributor",
+			"title": "Fabricação"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 103
+}

@@ -1,0 +1,18 @@
+{
+    "name": "block.cobblemon.shiny_stone_block",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:shiny_stone_block",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:shiny_stone_block",
+            "text": "book.cobblepedia.entries.shiny_stone_block.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:shiny_stone_block",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

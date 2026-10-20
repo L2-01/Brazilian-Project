@@ -1,0 +1,14 @@
+{
+    "name": "block.cobblemon.green_mint",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:green_mint_seeds",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:green_mint_seeds",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.green_mint_seeds.text"
+        }
+    ]
+}

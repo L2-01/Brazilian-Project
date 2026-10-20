@@ -1,0 +1,27 @@
+{
+    "name": "item.cobblemon.potion",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:potion",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:potion",
+            "text": "book.cobblepedia.entries.potion.text"
+        },
+        {
+            "type": "cobblepedia:brewing",
+            "title": "book.cobblepedia.pages.brewing",
+            "reagent_item": "cobblemon:oran_berry",
+            "base_item": "cobblemon:medicinal_brew",
+            "result_item": "cobblemon:potion"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.brewing_ingredient",
+            "entries": [
+                "cobblepedia:super_potion"
+            ]
+        }
+    ]
+}

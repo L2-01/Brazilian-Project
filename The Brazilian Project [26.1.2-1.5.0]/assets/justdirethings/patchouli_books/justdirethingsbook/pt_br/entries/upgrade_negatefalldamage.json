@@ -1,0 +1,17 @@
+{
+  "name": "Anula-Quedas",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_negatefalldamage",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Proteja-se de quedas acidentais com a melhoria Anula-Quedas. Esta melhoria absorve todo o dano de queda, garantindo sua aterrissagem segura.$(br2)Nota: ela usa energia para amortecer sua queda. Quanto mais dano ela bloquear, mais energia usa. Botas de Celestigema não têm tanta energia assim...."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação do Anula-Quedas",
+      "recipe": "justdirethings:upgrade_negatefalldamage"
+    }
+  ]
+}

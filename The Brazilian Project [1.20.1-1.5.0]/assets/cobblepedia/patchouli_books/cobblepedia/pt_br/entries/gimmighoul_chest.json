@@ -1,0 +1,31 @@
+{
+    "name": "block.cobblemon.gimmighoul_chest",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:gimmighoul_chest",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:gimmighoul_chest",
+            "link_recipe": true,
+            "title": "block.cobblemon.gimmighoul_chest",
+            "text": "book.cobblepedia.entries.gimmighoul_chest.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.gimmighoul_chest.obtaining.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.generation",
+            "text": "book.cobblepedia.entries.gimmighoul_chest.generation.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:gilded_chest"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.fossilized_drake",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:fossilized_drake",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.fossilized_drake",
+            "item": "cobblemon:fossilized_drake",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.fossilized_drake.text"
+        }
+    ]
+}

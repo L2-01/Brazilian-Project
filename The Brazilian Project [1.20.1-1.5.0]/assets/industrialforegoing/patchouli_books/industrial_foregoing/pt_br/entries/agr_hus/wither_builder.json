@@ -1,0 +1,16 @@
+{
+  "name": "Construtor de Wither",
+  "icon": "industrialforegoing:wither_builder",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uma máquina usada para gerar withers. Quando abastecida com energia, $(6)3 Caveiras de Wither$() e $(6)4 areias de almas$(), ela construirá completamente a estrutura de invocação do wither na área de trabalho."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:wither_builder"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Introdução",
+  "icon": "minecraft:writable_book",
+  "category": "iceandfire:introduction",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "iceandfire:manuscript"
+      },
+      "title": "Introdução",
+      "text": "Colado na contracapa do Manuscrito há um bilhete surrado. Ele diz:$(br)“Ofereço este manuscrito — que registra projetos de ferramentas sobrenaturais e um guia para encontrar criaturas fantásticas — a quem estiver disposto a explorar maravilhas misteriosas. Que ele lhe seja útil.”"
+    }
+  ]
+}

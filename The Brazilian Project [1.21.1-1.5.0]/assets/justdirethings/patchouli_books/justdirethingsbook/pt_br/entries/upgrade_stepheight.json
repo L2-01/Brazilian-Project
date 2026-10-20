@@ -1,0 +1,17 @@
+{
+  "name": "Salto Automático",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_stepheight",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A melhoria Salto Automático permite subir blocos inteiros sem esforço, sem pular. Navegue o terreno suavemente e mantenha seu ritmo sem interrupção."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Salto Automático",
+      "recipe": "justdirethings:upgrade_stepheight"
+    }
+  ]
+}

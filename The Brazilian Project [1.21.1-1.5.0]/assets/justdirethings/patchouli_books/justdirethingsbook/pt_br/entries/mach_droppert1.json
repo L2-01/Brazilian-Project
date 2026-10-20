@@ -1,0 +1,25 @@
+{
+  "name": "Liberador Simples",
+  "sortnum": 11,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:droppert1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Liberador Simples foi projetado para largar itens no mundo.$(br2)O botão de direção muda a direção em que os itens são largados — por padrão é \"para baixo\", como um ejetor comum. Lembre-se de que ele larga no espaço de bloco para o qual o liberador está virado."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O botão numérico nesta tela controla o tamanho da pilha larga.$(br2)Por padrão é 1, ou seja, 1 item por vez será largado, mas aumentá-lo significa que mais itens serão largados por vez.$(br2)Quando definido como 64, ele larga uma pilha inteira de uma vez.$(br2)Nota: quando definido como 64, ele não PRECISA ter 64 itens para largar — apenas larga quantos tiver."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O botão \"atraso de coleta\" nesta tela controla o atraso de coleta aplicado aos itens largados.$(br2)Por padrão no Minecraft, quando você larga um item no chão, há um curto período antes de poder pegá-lo de volta. Este botão controla esse atraso para itens largados pelo liberador.$(br2)O padrão é 0, ou seja, os itens podem ser coletados imediatamente."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Liberador Simples",
+      "recipe": "justdirethings:droppert1"
+    }
+  ]
+}

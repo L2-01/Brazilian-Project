@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:contact_button",
+  "name": "Botão de Contato",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:contact_button",
+      "link_recipe": true,
+      "text": "Quando o bloco à frente do $(d)Botão de Contato$() é clicado, o Botão de Contato emite um pulso curto de redstone pelas outras faces.",
+      "title": "Botão de Contato"
+    }
+  ]
+}

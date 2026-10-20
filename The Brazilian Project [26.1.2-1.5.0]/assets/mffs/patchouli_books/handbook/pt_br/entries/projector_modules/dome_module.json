@@ -1,0 +1,18 @@
+{
+    "name": "Módulo de Domo",
+    "icon": "mffs:dome_module",
+    "category": "mffs:projector_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:dome_module",
+            "link_recipe": true,
+            "text": "O $(5)Módulo de Domo$() pode ser colocado nos espaços de matriz de um $(l:mffs:machines/projector)Projetor de Campo de Força$() para cortar todos os blocos projetados abaixo do nível Y do projetor, criando um formato de domo."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:dome_module",
+            "text": "Fabricando o $(5)Módulo de Domo$()."
+        }
+    ]
+}

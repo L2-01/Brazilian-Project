@@ -1,0 +1,17 @@
+{
+    "name": "Homi do Pântano",
+    "icon": "naturesaura:moss_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Uma ótima fonte de $(aura) natural é o $(thing)musgo$() em qualquer tipo de bloco musgoso. Essa propriedade pode ser aproveitada na forma do $(item)Homi do Pântano$(): ele pegará quaisquer blocos ao redor cobertos de musgo e o removerá, deixando o bloco limpo para trás. Para cada bloco em que faz isso, ele gera um pouco de $(aura) e a espalha no ambiente."
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:moss_generator",
+            "text": "Criando o $(item)Homi do Pântano$()"
+        }
+    ]
+}

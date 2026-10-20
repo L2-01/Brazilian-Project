@@ -1,0 +1,17 @@
+{
+  "name": "Enxada de Ouro de Blaze",
+  "sortnum": 11,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:blazegold_hoe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Melhora a $(l:justdirethings:tool_ferricore_hoe)Enxada de Ferricoro$(/l) com ação mais rápida e \"Reparo em Lava\". A preparação cria solo de Blazebloom, que acelera ainda mais o crescimento das plantações e permite colheita automática — fazendo as plantas largar seus recursos automaticamente.$(br2)Os itens colhidos desaparecem rápido. Use o $(l:justdirethings:mach_itemcollector)Coletor de Itens$(/l) para recolher os itens largados com eficiência."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:blazegold_hoe",
+      "text": "Fabricação da Enxada de Ouro de Blaze"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Forja de Aura Energética",
+    "icon": "naturesaura:rf_converter",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "flag": "naturesaura:rf_converter",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Embora a $(aura) seja bastante versátil e útil, ela definitivamente não é a única $(thing)fonte de energia$() por aí. Na história recente, novas fontes de energia que não são consideradas naturais foram $(italic)forjadas$() pelas pessoas. Às vezes, pode ser útil ter tal fonte de energia à disposição. A $(item)Forja de Aura Energética$() converte $(aura) diretamente no que a maioria das pessoas conhece como $(thing)Redstone Flux$(),"
+        },
+        {
+            "type": "text",
+            "text": "para outros, $(thing)Forge Energy$() e para outros ainda, $(thing)Crystal Flux$().$(br)Para isso, basta colocar a $(item)Forja de Aura Energética$() com a estrutura anexada como mostrado na próxima página. Então, qualquer quantidade excessiva de $(aura) na área será automaticamente transformada em energia elétrica. Quanto mais $(aura) houver presente, mais rápido o processo de conversão será.$(br)Além disso, ter o $(l:items/eye)Olho Ambiental$() equipado exibirá a quantidade de energia no dispositivo."
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:rf_converter",
+            "text": "Criando a estrutura ao redor da $(item)Forja de Aura Energética$()"
+        },
+        {
+            "type": "crafting",
+            "text": "Criando a $(item)Forja de Aura Energética$()",
+            "recipe": "naturesaura:rf_converter"
+        }
+    ]
+}

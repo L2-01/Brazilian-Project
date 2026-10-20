@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.berry_juice",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:berry_juice",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:berry_juice",
+            "text": "book.cobblepedia.entries.berry_juice.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:berry_juice",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.berry_juice.crafting.text"
+        }
+    ]
+}

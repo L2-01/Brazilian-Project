@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.exp_candy_l",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:exp_candy_l",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:exp_candy_l",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.exp_candy_l.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.using",
+            "text": "book.cobblepedia.entries.exp_candy_l.using"
+        }
+    ]
+}

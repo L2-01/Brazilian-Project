@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.heat_rock",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:heat_rock",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:heat_rock",
+            "text": "book.cobblepedia.entries.heat_rock.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.loot",
+            "text": "book.cobblepedia.entries.heat_rock.loot.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:heat_rock",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

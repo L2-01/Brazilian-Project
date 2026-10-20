@@ -1,0 +1,26 @@
+{
+  "name": "Martelo de Guerra",
+  "icon": "simplyswords:iron_greathammer",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_greathammer",
+      "text": "O Martelo de Guerra é conhecido por sua capacidade de causar dano devastador a cada golpe, devido ao seu peso e tamanho. Era tradicionalmente usado por infantaria e cavalaria pesada na guerra medieval, e também por ferreiros, pedreiros e outros trabalhadores para golpes pesados."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_greathammer",
+      "recipe2": "simplyswords:gold_greathammer"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_greathammer"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_greathammer",
+      "recipe2": "simplyswords:runic_greathammer"
+    }
+  ]
+}

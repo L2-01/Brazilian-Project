@@ -1,0 +1,32 @@
+{
+    "name": "book.cobblepedia.entries.shoulder_mount",
+    "category": "cobblepedia:pokemon",
+    "icon": "cobblemon:love_sweet",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.shoulder_mount.text"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "book.cobblepedia.entries.shoulder_mount",
+            "text": "book.cobblepedia.entries.shoulder_mount.image",
+            "images": [
+                "cobblepedia:textures/gui/entries/shoulder_mount.png"
+            ]
+        },
+        {
+            "type": "patchouli:link",
+            "url": "https://wiki.cobblemon.com/index.php/Pokémon#Shoulder_Mount",
+            "link_text": "book.cobblepedia.pages.wiki",
+            "text": "book.cobblepedia.entries.shoulder_mount.wiki"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:pokemon_spawning"
+            ]
+        }
+    ]
+}

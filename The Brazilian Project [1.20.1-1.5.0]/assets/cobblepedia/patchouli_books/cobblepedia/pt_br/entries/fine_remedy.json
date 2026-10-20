@@ -1,0 +1,26 @@
+{
+    "name": "item.cobblemon.fine_remedy",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:fine_remedy",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:fine_remedy",
+            "text": "book.cobblepedia.entries.fine_remedy.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "book.cobblepedia.pages.crafting",
+            "recipe": "cobblemon:fine_remedy"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:superb_remedy"
+            ]
+        }
+    ]
+}

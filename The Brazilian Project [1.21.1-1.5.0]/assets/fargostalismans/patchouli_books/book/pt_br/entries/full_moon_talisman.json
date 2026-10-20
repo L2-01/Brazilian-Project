@@ -1,0 +1,18 @@
+{
+  "name": "Talismã da Lua Cheia",
+  "sortnum": 21,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:full_moon_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã da Lua Cheia concede 10% de aumento de dano ao jogador durante a lua cheia (a cada 8 dias do Minecraft). A receita de fabricação requer uma $(l:fargostalismans:talisman_base_epic)Base de Talismã Épico$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_environment)Força do Ambiente$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/full_moon_talisman",
+      "recipe2": "fargostalismans:forces/force_of_environment"
+    }
+  ],
+  "read_by_default": true
+}

@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:stable_ender_pearl",
+  "name": "Pérola do Ender Estável",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use-a para se vincular à $(d)Pérola do Ender Estável$().$(br2)Após sete segundos existindo como entidade de item, a pérola $(3)teletransportará o jogador vinculado até a sua localização$().",
+      "title": "Pérola do Ender Estável"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:stable_ender_pearl",
+      "link_recipe": true,
+      "text": "Você não precisa derrubá-la por conta própria! Ela ainda teletransportará você se for derrubada de qualquer outra forma.$(br2)Mas ela precisa estar carregada, e você deve estar na mesma dimensão!"
+    }
+  ]
+}

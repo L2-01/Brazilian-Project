@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.timid_mint",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:timid_mint",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:timid_mint",
+            "text": "book.cobblepedia.entries.timid_mint.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:timid_mint",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

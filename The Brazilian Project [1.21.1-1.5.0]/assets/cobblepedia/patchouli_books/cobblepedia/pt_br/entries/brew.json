@@ -1,0 +1,50 @@
+{
+    "name": "book.cobblepedia.entries.brew",
+    "category": "cobblepedia:consumables",
+    "icon": "cobblemon:medicinal_brew",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.brew.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.brew.potion.title",
+            "text": "book.cobblepedia.entries.brew.potion.text",
+            "anchor": "potion",
+            "entries": [
+                "cobblepedia:potion",
+                "cobblepedia:super_potion",
+                "cobblepedia:hyper_potion",
+                "cobblepedia:max_potion",
+                "cobblepedia:full_restore"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.brew.spray.title",
+            "text": "book.cobblepedia.entries.brew.spray.text",
+            "anchor": "spray",
+            "entries": [
+                "cobblepedia:antidote",
+                "cobblepedia:burn_heal",
+                "cobblepedia:ice_heal",
+                "cobblepedia:awakening",
+                "cobblepedia:paralyze_heal",
+                "cobblepedia:full_heal"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.brew.ether.title",
+            "text": "book.cobblepedia.entries.brew.ether.text",
+            "anchor": "ether",
+            "entries": [
+                "cobblepedia:ether",
+                "cobblepedia:max_ether",
+                "cobblepedia:elixir",
+                "cobblepedia:max_elixir"
+            ]
+        }
+    ]
+}

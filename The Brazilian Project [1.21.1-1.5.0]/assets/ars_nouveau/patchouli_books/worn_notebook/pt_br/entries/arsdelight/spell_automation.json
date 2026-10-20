@@ -1,0 +1,20 @@
+{
+	"category": "ars_nouveau:arsdelight",
+	"icon": "farmersdelight:cutting_board",
+	"name": "arsdelight.patchouli.automation.title",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "arsdelight.patchouli.automation.page1"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"ars_nouveau:glyphs_1/glyph_break",
+				"ars_nouveau:glyphs_1/glyph_cut",
+				"ars_nouveau:glyphs_1/glyph_fell",
+				"ars_nouveau:glyphs_2/glyph_crush"
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Cura",
+  "icon": "petrock:kibble",
+  "category": "petrock:care_category",
+  "pages": [
+    {
+      "type": "text",
+      "title": "Ração de Pedra",
+      "text": "Use Ração de Pedra para curar sua Pedra de Estimação danificada & Também usada para acasalamento"
+    },
+    {
+      "type": "crafting",
+      "recipe": "petrock:kibble"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Outros Itens de Comida",
+      "text": "Qualquer item da lista acima pode ser usado para curar sua Pedra de Estimação danificada & Também usado para acasalamento",
+      "item": "tag:petrock:petrock_food"
+    }
+  ]
+}

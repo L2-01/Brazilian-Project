@@ -1,0 +1,23 @@
+{
+    "name": "book.cobblepedia.entries.stopbattle_command",
+    "category": "cobblepedia:commands",
+    "read_by_default": true,
+    "icon": "cobblemon:upgrade",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.stopbattle_command.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.stopbattle_command.usage"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:battling"
+            ]
+        }
+    ]
+}

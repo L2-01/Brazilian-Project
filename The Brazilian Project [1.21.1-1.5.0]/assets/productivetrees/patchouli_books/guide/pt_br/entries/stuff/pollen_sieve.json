@@ -1,0 +1,18 @@
+{
+    "name": "Melhoria de Peneira de Pólen",
+    "icon": "productivetrees:upgrade_pollen_sieve",
+    "category": "productivetrees:stuff",
+    "flag": "mod:productivebees",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivetrees:upgrade_pollen_sieve",
+            "text": "Instale numa colmeia avançada do Productive Bees para que as abelhas coletem pólen das árvores próximas. A área de coleta é afetada por melhorias de alcance. Mais de uma melhoria de peneira não aumenta o rendimento."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "productivetrees:pollen_sieve",
+            "text": ""
+        }
+    ]
+}

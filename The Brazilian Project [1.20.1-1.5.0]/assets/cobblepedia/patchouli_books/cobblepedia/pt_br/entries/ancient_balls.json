@@ -1,0 +1,66 @@
+{
+    "name": "book.cobblepedia.entries.ancient_balls.name",
+    "category": "cobblepedia:archaeology",
+    "icon": "cobblemon:ancient_poke_ball",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.ancient_balls.name",
+            "item": "tag:cobblemon:ancient_poke_balls",
+            "text": "book.cobblepedia.entries.ancient_balls.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.ancient_balls.obtaining.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.ancient_balls.usage.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.ancient_balls.basic_variants.title",
+            "text": "book.cobblepedia.entries.ancient_balls.basic_variants.text",
+            "entries": [
+                "cobblepedia:ancient_poke_ball",
+                "cobblepedia:ancient_citrine_ball",
+                "cobblepedia:ancient_verdant_ball",
+                "cobblepedia:ancient_azure_ball",
+                "cobblepedia:ancient_roseate_ball",
+                "cobblepedia:ancient_slate_ball",
+                "cobblepedia:ancient_ivory_ball"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.ancient_balls.unique_variants.title",
+            "text": "book.cobblepedia.entries.ancient_balls.unique_variants.text",
+            "entries": [
+                "cobblepedia:ancient_feather_ball",
+                "cobblepedia:ancient_wing_ball",
+                "cobblepedia:ancient_jet_ball",
+                "cobblepedia:ancient_heavy_ball",
+                "cobblepedia:ancient_leaden_ball",
+                "cobblepedia:ancient_gigaton_ball"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.ancient_balls.other_variants.title",
+            "entries": [
+                "cobblepedia:ancient_great_ball",
+                "cobblepedia:ancient_ultra_ball",
+                "cobblepedia:ancient_origin_ball"
+            ]
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:craft_ancient_balls",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.craft_ancient_balls",
+            "text": "advancements.cobblemon.craft_ancient_balls.description"
+        }
+    ]
+}

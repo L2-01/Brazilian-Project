@@ -1,0 +1,147 @@
+{
+  "name": "Variantes de Pedra de Estimação",
+  "icon": "petrock:petrockbox",
+  "category": "petrock:petrock_category",
+  "pages": [
+    {
+      "type": "text",
+      "title": "Variantes de Pedra de Estimação",
+      "text": "Isso mostrará todas as variantes de Pedra de Estimação que você pode ter. $(br) Para obter as novas variantes, basta clicar com o botão direito numa Pedra de Estimação domada com o tipo de bloco desejado da lista aqui."
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:0}",
+      "text": "Esta é a Variante de Pedra"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:1}",
+      "text": "Esta é a Variante de Netherrack"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:2}",
+      "text": "Esta é a Variante de Pedra do End"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:3}",
+      "text": "Esta é a Variante de Ardosiabissal"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:4}",
+      "text": "Esta é a Variante de Diorito"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:5}",
+      "text": "Esta é a Variante de Granito"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:6}",
+      "text": "Esta é a Variante de Andesito"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:7}",
+      "text": "Esta é a Variante de Argila"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:9}",
+      "text": "Esta é a Variante Squidgy (obtida ao nomear uma Pedra de Estimação como \"Squidgy\")"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:8}",
+      "text": "Esta é a Variante de Rocha-mãe (somente criativo)"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:-1}",
+      "text": "Esta é a variante missingno (impossível sem cheats)"
+
+    },
+    {
+      "type": "text",
+      "title": "Variantes de Pedra de Estimação com Pernas",
+      "text": "Isso mostrará todas as variantes de Pedra de Estimação com pernas que você pode ter. $(br) Para obter as novas variantes, basta clicar com o botão direito numa Pedra de Estimação domada com o tipo de bloco desejado da lista aqui."
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:0}",
+      "text": "Esta é a Variante de Pedra"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:1}",
+      "text": "Esta é a Variante de Netherrack"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:2}",
+      "text": "Esta é a Variante de Pedra do End"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:3}",
+      "text": "Esta é a Variante de Ardosiabissal"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:4}",
+      "text": "Esta é a Variante de Diorito"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:5}",
+      "text": "Esta é a Variante de Granito"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:6}",
+      "text": "Esta é a Variante de Andesito"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:7}",
+      "text": "Esta é a Variante de Argila"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:9}",
+      "text": "Esta é a Variante Squidgy (obtida ao nomear uma Pedra de Estimação como \"Squidgy\")"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:8}",
+      "text": "Esta é a Variante de Rocha-mãe (somente criativo)"
+
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:-1}",
+      "text": "Esta é a variante missingno (impossível sem cheats)"
+
+    }
+  ]
+}

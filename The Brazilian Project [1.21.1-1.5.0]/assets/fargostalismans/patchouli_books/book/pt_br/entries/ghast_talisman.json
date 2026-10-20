@@ -1,0 +1,18 @@
+{
+  "name": "Talismã de Ghast",
+  "sortnum": 22,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:ghast_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã de Ghast aplica o efeito de fraqueza a criaturas hostis num raio de 3 blocos por 2 segundos. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_normal)Base de Talismã Padrão$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_rejectors)Força dos Negadores$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/ghast_talisman",
+      "recipe2": "fargostalismans:forces/force_of_rejectors"
+    }
+  ],
+  "read_by_default": true
+}

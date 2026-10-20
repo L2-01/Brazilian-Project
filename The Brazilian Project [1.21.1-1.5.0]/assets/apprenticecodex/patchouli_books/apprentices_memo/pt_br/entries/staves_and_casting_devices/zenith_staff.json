@@ -1,0 +1,17 @@
+{
+  "name": "item.apprenticecodex.zenith_staff",
+  "category": "apprenticecodex:staves_and_casting_devices",
+  "icon": "apprenticecodex:zenith_staff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:zenith_staff",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.zenith_staff.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:zenith_staff",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.zenith_staff.page.p002.text"
+    }
+  ]
+}

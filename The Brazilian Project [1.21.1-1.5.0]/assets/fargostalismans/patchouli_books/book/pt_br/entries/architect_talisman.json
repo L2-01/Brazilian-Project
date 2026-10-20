@@ -1,0 +1,18 @@
+{
+  "name": "Talismã do Arquiteto",
+  "sortnum": 3,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:architect_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã do Arquiteto concede alcance de blocos de até 64 blocos. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_normal)Base de Talismã Padrão$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_explorer)Força do Explorador$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/architect_talisman",
+      "recipe2": "fargostalismans:forces/force_of_explorer"
+    }
+  ],
+  "read_by_default": true
+}

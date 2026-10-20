@@ -1,0 +1,16 @@
+{
+    "name": "Este Livro",
+    "icon": "patchouli:guide_book{'patchouli:book':'naturesaura:book'}",
+    "category": "naturesaura:intro",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "O $(item)Livro da Aura Natural$() é o guia para toda informação relacionada à $(aura), mas ele pode fazer muito mais que apenas mostrar textos informativos: nele, pode-se encontrar descrições de como $(thing)fabricar coisas$(), $(thing)construir coisas$() e muito mais.$(br)Além disso, ao completar $(item)Progressos$(), mais capítulos serão desbloqueados com o tempo - cada novo capítulo saudando o leitor com um $(thing)ícone vermelho$()."
+        },
+        {
+            "type": "text",
+            "text": "Além disso, para guiar o usuário pelo desenvolvimento de sua pesquisa, alguns capítulos exibirão $(thing)ícones laranjas$(). Eles notificam o leitor sobre o próximo passo que deverá tomar para avançar sua pesquisa. Adicionalmente, há um link direto para o $(item)menu de Progressos$() na página inicial, que permite uma visão maior do progresso geral."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Bruxaria: Bonecos",
+  "icon": "patchouli:textures/item/book_purple.png",
+  "category": "enchanted:additional_resources",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A arte dos bonecos é a arte de criar bonecos que agem como substituto do alvo para realizar magia; esse conhecimento está descrito em Bruxaria: Bonecos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:book_poppetry"
+    }
+  ],
+  "read_by_default": false,
+  "sortnum": 3
+}

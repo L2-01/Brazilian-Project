@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:nature_core",
+  "name": "Núcleo da Natureza",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A estrutura do $(d)Núcleo da Natureza$() pode ser encontrada aleatoriamente pelo mundo, com um $(3)Baú da Natureza$() por perto cheio de coisas boas.$(br2)O próprio Núcleo da Natureza também faz várias coisas de tempos em tempos.",
+      "title": "Núcleo da Natureza"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:nature_core",
+      "link_recipe": true,
+      "text": "Ele pode:$(br)$(li)Converter areia próxima em terra ou grama$(li)Gerar um animal por perto$(li)Aplicar farinha de osso em plantações próximas$(li)Plantar mudas por perto$(li)Reparar a estrutura ao seu redor"
+    }
+  ]
+}

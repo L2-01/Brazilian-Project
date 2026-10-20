@@ -1,0 +1,26 @@
+{
+    "name": "book.cobblepedia.entries.prehistoric_rooted_pit.name",
+    "category": "cobblepedia:structures",
+    "read_by_default": true,
+    "icon": "minecraft:mangrove_roots",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.prehistoric_rooted_pit.text"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "book.cobblepedia.pages.generation",
+            "images": [
+                "cobblepedia:textures/gui/entries/prehistoric_rooted_pit.png"
+            ]
+        },
+        {
+            "type": "patchouli:link",
+            "title": "book.cobblepedia.pages.loot.title",
+            "url": "https://wiki.cobblemon.com/index.php/Fossil_Dig_Sites#Prehistoric_Rooted_Pit",
+            "link_text": "book.cobblepedia.pages.wiki"
+        }
+    ]
+}

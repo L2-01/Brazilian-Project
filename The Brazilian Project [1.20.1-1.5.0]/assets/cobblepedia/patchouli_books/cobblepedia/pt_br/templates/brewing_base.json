@@ -1,0 +1,67 @@
+{
+    "components": [
+        {
+            "type": "patchouli:header",
+            "text": "#result_item->iname",
+            "guard": "#title->exists->inv",
+            "x": -1,
+            "y": -1
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#reagent_item",
+            "framed": true,
+            "x": 30,
+            "y": 15
+        },
+        {
+            "type": "patchouli:item",
+            "item": "minecraft:brewing_stand",
+            "guard": "#result_item->exists",
+            "x": 30,
+            "y": 35
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#base_item",
+            "framed": true,
+            "x": 10,
+            "y": 50
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#base_item",
+            "framed": true,
+            "x": 30,
+            "y": 55
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#base_item",
+            "framed": true,
+            "x": 50,
+            "y": 50
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#result_item",
+            "link_recipe": true,
+            "framed": true,
+            "x": 90,
+            "y": 35
+        },
+        {
+            "type": "patchouli:image",
+            "image": "cobblepedia:textures/gui/crafting.png",
+            "guard": "#result_item->exists",
+            "width": 16,
+            "height": 16,
+            "u": 62,
+            "v": 24,
+            "texture_width": 128,
+            "texture_height": 256,
+            "x": 70,
+            "y": 35
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Machado de Ouro de Blaze",
+  "sortnum": 10,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:blazegold_axe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Corta mais rápido que o $(l:justdirethings:tool_ferricore_axe)Machado de Ferricoro$(/l). Possui \"Reparo em Lava\", reparando-se automaticamente na lava."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:blazegold_axe",
+      "text": "Fabricação do Machado de Ouro de Blaze"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:analog_emitter",
+  "name": "Emissor Analógico",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:analog_emitter",
+      "link_recipe": true,
+      "text": "O $(d)Emissor Analógico$(), quando energizado na face frontal, emite um sinal de redstone com intensidade configurável.$(br2)Clique nele com o botão direito para alternar a intensidade da saída.",
+      "title": "Emissor Analógico"
+    }
+  ]
+}

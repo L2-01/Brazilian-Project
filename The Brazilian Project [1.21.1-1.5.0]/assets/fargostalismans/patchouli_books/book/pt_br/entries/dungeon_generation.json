@@ -1,0 +1,17 @@
+{
+  "name": "Informações de Geração da Masmorra",
+  "sortnum": 1,
+  "category": "fargostalismans:dungeon",
+  "icon": "fargostalismans:abominable_energy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Masmorra do Fargo só é gerada entre Y:25 e Y:50. É uma estrutura subterrânea que surge em qualquer bioma do Nether. Cada masmorra deve ficar espaçada entre 12 e 20 chunks de distância."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Esta estrutura executa apenas 6 etapas, mas recorre a uma 7ª etapa para decoração. Às vezes a geração pode dar azar e resultar numa masmorra pequena. Ela foi projetada para ser gerada aleatoriamente, com o objetivo de oferecer um design de masmorra abrangente. Sugestões de salas adicionais ou designs de corredores são bem-vindas no Github."
+    }
+  ],
+  "read_by_default": true
+}

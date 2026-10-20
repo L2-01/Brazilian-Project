@@ -1,0 +1,18 @@
+{
+  "name": "Base de Talismã Épico",
+  "sortnum": 2,
+  "category": "fargostalismans:upgrades",
+  "icon": "fargostalismans:talisman_base_epic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Base de Talismã Épico requer 2 bases do nível anterior. A base é usada para fabricar a $(l:fargostalismans:talisman_base_legendary)Base de Talismã Lendário$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/talisman_base_epic",
+      "recipe2": "fargostalismans:talismans/talisman_base_legendary"
+    }
+  ],
+  "read_by_default": true
+}

@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.armor_fossil",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:armor_fossil",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.armor_fossil",
+            "item": "cobblemon:armor_fossil",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.armor_fossil.text"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Resíduo Orgânico",
+  "icon": "industrialforegoing:sewer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 12,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uma máquina usada para coletar $(l:agr_hus/sewage)Resíduo Orgânico$() de animais e experiência para transformá-lo em essência."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:sewer"
+    }
+  ]
+}

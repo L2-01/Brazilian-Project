@@ -1,0 +1,27 @@
+{
+    "name": "block.cobblemon.tumblestone_block",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:tumblestone_block",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "block.cobblemon.tumblestone_block",
+            "item": "cobblemon:tumblestone_block",
+            "text": "book.cobblepedia.entries.tumblestone_block.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:tumblestone_block",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:tumblestone"
+            ]
+        }
+    ]
+}

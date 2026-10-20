@@ -1,0 +1,25 @@
+{
+    "name": "Criador de Campo de Aura",
+    "icon": "naturesaura:field_creator",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Uma das duas atividades mais feitas por humanos é $(thing)quebrar$() blocos. Isso exige bastante força e esforço e, se feito por longos períodos, pode se tornar cansativo.$(br)O $(item)Criador de Campo de Aura$() cria um campo denso de $(aura) em movimento que é forte o suficiente para $(thing)destruir blocos$() dentro dele."
+        },
+        {
+            "type": "text",
+            "text": "Para montar um campo assim, dois $(item)Criadores de Campo de Aura$() precisam ser colocados a alguns blocos de distância. Então, interagir com um deles agachado e com o outro sem agachar fará uma conexão entre os dois se formar.$(br)Ao fornecer a um deles um $(thing)sinal de redstone$() e após um curto tempo de canalização, o campo será criado entre os dois, permitindo que quaisquer blocos colocados ali sejam quebrados e seus itens caiam no mundo."
+        },
+        {
+            "type": "text",
+            "text": "É claro, quebrar blocos e especialmente o tempo de canalização inicial exigirão um pouco de $(aura) do ambiente. Além disso, enquanto o campo estiver ativo, uma pequena quantidade é consumida como custo de manutenção.$(br)Qualquer botânico que precise de itens obtidos ao $(thing)tosquiar$() certos blocos não precisa se preocupar: colocar uma $(item)Moldura de Item$() com $(item)Tesouras$() em qualquer um dos dois $(item)Criadores de Campo de Aura$() fará com que todos os blocos tosquiáveis entre eles sejam tosquiados, com todos os outros sendo colhidos normalmente."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando dois $(item)Criadores de Campo de Aura$()",
+            "recipe": "naturesaura:field_creator"
+        }
+    ]
+}

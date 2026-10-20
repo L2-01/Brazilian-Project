@@ -1,0 +1,22 @@
+{
+    "name": "Revestimento",
+    "icon": "bigreactors:reprocessorcasing",
+    "category": "bigreactors:reprocessor-parts",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:reprocessorcasing",
+            "link_recipe": true,
+            "title" : "Revestimento",
+            "text": "Os blocos de Revestimento são os blocos de construção fundamentais do Reprocessador.$(br2)São essenciais para construir sua moldura e também são usados para fabricar as outras peças. Além disso, blocos de Revestimento podem ser usados para preencher as faces do Reprocessador, se você preferir não usar vidro."
+        },
+        {
+            "type": "crafting-part_usage",
+            "crafting.title1": "Revestimento",
+            "crafting.recipe1": "bigreactors:reprocessor/casing",
+            "usage.text": "$(l)Obrigatório:$() são necessários para construir a moldura$(br)$(l)Posições válidas:$() qualquer$(br)$(l)Interface gráfica:$() não"
+        }
+    ]
+}

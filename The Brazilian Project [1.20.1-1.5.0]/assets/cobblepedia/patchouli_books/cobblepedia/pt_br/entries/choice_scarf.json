@@ -1,0 +1,29 @@
+{
+    "name": "item.cobblemon.choice_scarf",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:choice_scarf",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:choice_scarf",
+            "text": "book.cobblepedia.entries.choice_scarf.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:choice_scarf",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.choice_scarf.holding"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:choice_items"
+            ]
+        }
+    ]
+}

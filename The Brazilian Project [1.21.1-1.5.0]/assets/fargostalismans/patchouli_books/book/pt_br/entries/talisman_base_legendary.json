@@ -1,0 +1,18 @@
+{
+  "name": "Base de Talismã Lendário",
+  "sortnum": 3,
+  "category": "fargostalismans:upgrades",
+  "icon": "fargostalismans:talisman_base_legendary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Base de Talismã Lendário requer 2 bases do nível anterior. A base é usada para fabricar a $(l:fargostalismans:talisman_base_ultimate)Base de Talismã Ultimate$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/talisman_base_legendary",
+      "recipe2": "fargostalismans:talismans/talisman_base_ultimate"
+    }
+  ],
+  "read_by_default": true
+}

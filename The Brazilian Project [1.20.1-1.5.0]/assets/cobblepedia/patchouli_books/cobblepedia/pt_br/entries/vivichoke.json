@@ -1,0 +1,34 @@
+{
+    "name": "item.cobblemon.vivichoke",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:vivichoke",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:vivichoke",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.vivichoke.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.vivichoke.obtaining.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:vivichoke_seeds",
+                "cobblepedia:vivichoke_dip",
+                "cobblepedia:superb_remedy",
+                "cobblepedia:max_revive",
+                "cobblepedia:pp_up",
+                "cobblepedia:pp_max",
+                "cobblepedia:braised_vivichoke",
+                "cobblepedia:max_potion"
+            ]
+        }
+    ]
+}

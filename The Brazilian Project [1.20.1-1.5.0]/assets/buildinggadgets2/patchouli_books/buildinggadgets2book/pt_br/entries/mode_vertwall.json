@@ -1,0 +1,23 @@
+{
+  "name": "Parede Vertical",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/vertical_wall.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Parede Vertical construirá uma parede para cima ou para baixo a partir do topo ou da base de um bloco para o qual você está olhando. $(br2)Se estiver olhando para o lado de um bloco, ela construirá ao redor dele."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Parede Vertical",
+      "images": [
+        "buildinggadgets2:textures/book/images/vertwall2.png",
+        "buildinggadgets2:textures/book/images/vertwall4.png",
+        "buildinggadgets2:textures/book/images/vertwall3.png"
+      ],
+      "border": true,
+      "text": "Alterne as imagens acima para ver as diferentes opções"
+    }
+  ]
+}

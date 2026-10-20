@@ -1,0 +1,17 @@
+{
+  "name": "Serra do Infinito",
+  "icon": "industrialforegoing:infinity_saw",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Serra do Infinito é uma ferramenta que permite cortar árvores eficientemente; quanto maior o nível, mais blocos você pode cortar ao mesmo tempo. Continue quebrando o mesmo bloco para cortar árvores grandes."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_saw"
+    }
+  ]
+}

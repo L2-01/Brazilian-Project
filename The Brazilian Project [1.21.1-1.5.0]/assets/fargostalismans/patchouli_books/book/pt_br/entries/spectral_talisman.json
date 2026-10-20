@@ -1,0 +1,18 @@
+{
+  "name": "Talismã Espectral",
+  "sortnum": 42,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:spectral_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã Espectral impede a agressividade de espectros. Espectros ainda serão gerados, mas não atacarão. Eles ainda ficarão irritados se você atacá-los. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_normal)Base de Talismã Padrão$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_explorer)Força do Explorador$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/spectral_talisman",
+      "recipe2": "fargostalismans:forces/force_of_explorer"
+    }
+  ],
+  "read_by_default": true
+}

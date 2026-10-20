@@ -1,0 +1,17 @@
+{
+  "name": "Velocidade de Natação",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_swimspeed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Navegue as águas com agilidade sem precedentes com a melhoria Velocidade de Natação. Este aprimoramento aumenta significativamente sua velocidade de nado, permitindo exploração subaquática mais rápida.$(br2)Armaduras de níveis maiores permitem travessia ainda mais rápida, com um controle deslizante no menu de configurações."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Velocidade de Natação",
+      "recipe": "justdirethings:upgrade_swimspeed"
+    }
+  ]
+}

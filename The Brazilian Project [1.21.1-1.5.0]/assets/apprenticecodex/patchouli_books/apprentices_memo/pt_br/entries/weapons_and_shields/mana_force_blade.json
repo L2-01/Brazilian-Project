@@ -1,0 +1,17 @@
+{
+  "name": "item.apprenticecodex.mana_force_blade",
+  "category": "apprenticecodex:weapons_and_shields",
+  "icon": "apprenticecodex:mana_force_blade",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:mana_force_blade",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.mana_force_blade.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:mana_force_blade",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.mana_force_blade.page.p002.text"
+    }
+  ]
+}

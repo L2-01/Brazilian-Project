@@ -1,0 +1,30 @@
+{
+  "name": "Núcleo de Gerador de Criaturas",
+  "icon": "pneumaticcraft:spawner_core",
+  "category": "pneumaticcraft:spawning",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Os $(item)Núcleos de Gerador de Criaturas/$ são o coração pulsante dos $(item)Geradores de Criaturas/$ vanilla, contendo a essência da criatura a ser gerada.$(p)Eles podem ser extraídos à força de um Gerador com um $(l:spawning/spawner_extractor)Extrator de Gerador de Criaturas/$, mas também é possível fabricá-los e usá-los no mais poderoso $(l:spawning/pressurized_spawner)Gerador de Criaturas Pressurizado/$."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:spawner_core",
+      "text": "Há duas formas de obter um Núcleo de Gerador de Criaturas:$(li)Extrair um à força de um Gerador com um $(l:spawning/spawner_extractor)Extrator de Gerador de Criaturas/$ (prepare-se para uma luta!). Esses núcleos vêm 100% preenchidos com a essência da criatura daquele Gerador.$(li)Fabricar o seu próprio Núcleo de Gerador de Criaturas e usar uma $(l:spawning/vacuum_trap)Armadilha de Vácuo/$ para capturar essência de criatura e preenchê-lo."
+    },
+    {
+      "type": "text",
+      "text": "Note que é possível que um Núcleo de Gerador de Criaturas preenchido por uma $(item)Armadilha de Vácuo/$ contenha a essência de várias criaturas diferentes, o que pode ou não ser desejável.$(p)Você pode liberar uma criatura aleatória do núcleo $(thing)clicando com o botão direito/$ nele, mas isso pode ser meio imprevisível. Produzir um núcleo com 100% de pureza via $(thing)Armadilha de Vácuo/$ não é trivial e exige certo cuidado."
+    },
+    {
+      "type": "crafting",
+      "text": "Fabricando uma Casca de Núcleo de Gerador de Criaturas. Usada na fabricação de um $(item)Núcleo de Gerador de Criaturas/$ de verdade.",
+      "recipe": "pneumaticcraft:spawner_core_shell"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/spawner_core"
+    }
+  ]
+}

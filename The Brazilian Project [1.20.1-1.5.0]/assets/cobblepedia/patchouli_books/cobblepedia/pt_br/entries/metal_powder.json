@@ -1,0 +1,14 @@
+{
+    "name": "item.cobblemon.metal_powder",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:metal_powder",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:metal_powder",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.metal_powder.text"
+        }
+    ]
+}

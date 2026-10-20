@@ -1,0 +1,36 @@
+{
+    "name": "book.cobblepedia.entries.apricorn_farming",
+    "category": "cobblepedia:apricorns",
+    "icon": "cobblemon:red_apricorn_seed",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.apricorn_farming.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.breaking",
+            "text": "book.cobblepedia.entries.apricorn_farming.obtaining"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.generation",
+            "text": "book.cobblepedia.entries.apricorn_farming.usage"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:harvest_apricorn_seed",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.harvest_apricorn_seed",
+            "text": "advancements.cobblemon.harvest_apricorn_seed.description"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:rainbow_apricorns",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.rainbow_apricorns",
+            "text": "advancements.cobblemon.rainbow_apricorns.description"
+        }
+    ]
+}

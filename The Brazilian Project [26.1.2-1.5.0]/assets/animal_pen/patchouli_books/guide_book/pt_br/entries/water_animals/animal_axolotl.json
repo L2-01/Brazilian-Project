@@ -1,0 +1,27 @@
+{
+  "name": "Axolote",
+  "icon": "minecraft:axolotl_spawn_egg",
+  "category": "animal_pen:category_aquarium",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:axolotl",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:axolotl_food",
+      "text": "Axolotes comem apenas baldes de peixe tropical que você fornecer ao cercado de animais."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:swords,tag:minecraft:axes",
+      "text": "Usar uma espada ou machado no Cercado de Animais matará o axolote."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:water_bucket",
+      "text": "Você pode pegar axolotes dos cercados usando um balde de água."
+    }
+  ]
+}

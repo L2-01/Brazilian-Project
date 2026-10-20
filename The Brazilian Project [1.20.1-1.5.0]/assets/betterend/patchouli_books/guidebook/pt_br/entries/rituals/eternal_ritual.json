@@ -1,0 +1,44 @@
+{
+    "name": "Ritual Eterno",
+    "icon": "betterend:eternal_pedestal",
+    "read_by_default": true,
+    "category": "betterend:rituals",
+    "pages": [
+        {
+            "type": "text",
+            "text": "\"Uma forma não tão simples de voltar à Superfície.\"$(br2)Enquanto viaja pelo mundo do End, você pode se deparar com ruínas antigas."
+        },
+        {
+            "type": "image",
+            "text": "Há uma moldura destruída (ou não) de $(bold)Flavolito Rúnico$() e seis pedestais ao redor dela.",
+            "border": false,
+            "images": [
+                "betterend:textures/images/eternal_ritual/portal_structure.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "Esses são os restos dos majestosos portais que um dia ligaram os mundos do End e da Superfície.$(br2)Para ativar o portal, você precisa restaurar a moldura (se estiver quebrada)."
+        },
+        {
+            "type": "image",
+            "text": "E colocar 6 $(bold)Cristais Eternos$() nos pedestais.",
+            "border": false,
+            "images": [
+                "betterend:textures/images/eternal_ritual/portal_frame_full.png"
+            ]
+        },
+        {
+            "type": "image",
+            "text": "Depois que você colocar o último cristal, o portal será ativado.",
+            "border": false,
+            "images": [
+                "betterend:textures/images/eternal_ritual/ritual_finished.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Flavolito Rúnico$() (para restaurar a moldura) e $(bold)Cristais Eternos$() podem ser obtidos pelo $(l:rituals/infusion_ritual)Ritual de Infusão$(/l)."
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.old_amber_fossil",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:old_amber_fossil",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.old_amber_fossil",
+            "item": "cobblemon:old_amber_fossil",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.old_amber_fossil.text"
+        }
+    ]
+}

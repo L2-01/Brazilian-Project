@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.exp_share",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:exp_share",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:exp_share",
+            "text": "book.cobblepedia.entries.exp_share.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:exp_share",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.exp_share.holding"
+        }
+    ]
+}

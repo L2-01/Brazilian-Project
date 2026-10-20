@@ -1,0 +1,36 @@
+{
+    "name": "Capacitor de Fortron",
+    "icon": "mffs:fortron_capacitor",
+    "category": "mffs:machines",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:fortron_capacitor",
+            "link_recipe": true,
+            "text": "O $(9)Capacitor de Fortron$() serve como um dispositivo de armazenamento e gerenciamento de energia para máquinas MFFS. Ele é projetado para coletar o Fortron gerado por $(l:mffs:machines/coercion_deriver)Derivadores de Coerção$() e transferi-lo a outras máquinas que precisam de $(l:mffs:getting_started/fortron)Fortron$() para operar, essencialmente agindo como um \"hub\"."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:fortron_capacitor",
+            "text": "Fabricando o $(9)Capacitor de Fortron$()."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Uso",
+            "text": "Coloque o Capacitor e defina qual frequência ele deve usar. Por padrão, Capacitores usam a frequência número 0, mas isso pode ser mudado:$(li)Clicando com o botão direito no Capacitor e inserindo o número de frequência desejado na sua GUI$(li)Agachando e clicando com o botão direito no Capacitor enquanto segura um $(l:mffs:tools/frequency_card)Cartão de Frequência$()."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Ative o Capacitor de Fortron fornecendo-lhe um sinal de Redstone. Uma vez ativado, o Capacitor mudará de vermelho para azul e começará a transferir $(l:mffs:getting_started/fortron)Fortron$() entre outros dispositivos MFFS que usem a mesma frequência e estejam dentro do alcance (padrão de 15 blocos)."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Melhorias",
+            "text": "Um Capacitor de Fortron pode ser melhorado com vários módulos para aprimorar suas capacidades:$(li)$(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$(): Permite que o Capacitor se vincule a outras máquinas MFFS a uma distância maior. Cada módulo aumenta o alcance em 1 bloco a partir do padrão de 15 blocos.$(li)$(l:mffs:upgrade_modules/speed_module)$(5)Módulo de Velocidade$(): Permite que o Capacitor transfira $(l:mffs:getting_started/fortron)Fortron$() de e para máquinas mais rapidamente. Cada módulo aumenta a taxa de transferência em 50 FE."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)Módulo de Capacidade$(): Aumenta a quantidade de $(l:mffs:getting_started/fortron)Fortron$() que o Capacitor consegue armazenar."
+        }
+    ]
+}

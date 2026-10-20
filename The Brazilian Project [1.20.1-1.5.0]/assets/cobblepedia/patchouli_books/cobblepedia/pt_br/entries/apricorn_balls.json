@@ -1,0 +1,34 @@
+{
+    "name": "book.cobblepedia.entries.apricorn_balls",
+    "category": "cobblepedia:poke_balls",
+    "icon": "cobblemon:fast_ball",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.apricorn_balls",
+            "item": "tag:cobblepedia:book/apricorn_balls",
+            "text": "book.cobblepedia.entries.apricorn_balls.text"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:craft_apricorn_balls",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.craft_apricorn_balls",
+            "text": "advancements.cobblemon.craft_apricorn_balls.description"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.apricorn_balls.list",
+            "entries": [
+                "cobblepedia:fast_ball",
+                "cobblepedia:level_ball",
+                "cobblepedia:lure_ball",
+                "cobblepedia:heavy_ball",
+                "cobblepedia:love_ball",
+                "cobblepedia:friend_ball",
+                "cobblepedia:moon_ball"
+            ]
+        }
+    ]
+}

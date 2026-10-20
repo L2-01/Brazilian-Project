@@ -1,0 +1,76 @@
+{
+  "name": "patchouli.apprenticecodex.apprentices_memo.entry.throwable_cards.name",
+  "category": "apprenticecodex:staves_and_casting_devices",
+  "icon": "apprenticecodex:spell_invoke_card",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.throwable_cards.page.p001.title",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.throwable_cards.page.p001.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.spellcaster_workbench"
+          }
+        ]
+      },
+      "item": "apprenticecodex:spell_invoke_card,apprenticecodex:spell_autonomy_card"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.throwable_cards.page.p002.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.spell_invoke_card"
+          },
+          {
+            "translate": "item.apprenticecodex.spell_autonomy_card"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spell_invoke_card",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.throwable_cards.page.p003.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.spell_invoke_card"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "example": "apprenticecodex:examples/spellcaster_workbench/spell_invoke_card_from_paper",
+      "example2": "apprenticecodex:examples/spellcaster_workbench/spell_invoke_card_from_card",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.throwable_cards.page.p004.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spell_autonomy_card",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.throwable_cards.page.p005.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.spell_autonomy_card"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "example": "apprenticecodex:examples/spellcaster_workbench/spell_autonomy_card_from_paper",
+      "example2": "apprenticecodex:examples/spellcaster_workbench/spell_autonomy_card_from_card",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.throwable_cards.page.p006.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spellcaster_workbench"
+      ]
+    }
+  ]
+}

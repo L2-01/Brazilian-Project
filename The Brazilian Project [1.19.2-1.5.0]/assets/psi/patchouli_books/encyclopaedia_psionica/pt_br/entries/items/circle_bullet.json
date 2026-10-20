@@ -1,0 +1,58 @@
+{
+  "name": "psi.book.entry.circleBullet",
+  "category": "psi:items",
+  "icon": "psi:spell_bullet_circle",
+  "pages": [
+    {
+      "type": "text",
+      "text": "psi.book.page.circleBullet.0"
+    },
+    {
+      "type": "crafting",
+      "text": "psi.book.page.circleBullet.1",
+      "recipe": "psi:spell_bullet_circle"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.circleBullet.2"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.circleBullet.3"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.circleBullet.4"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.circleBullet.5"
+    },
+    {
+      "type": "text",
+      "title": "psi.book.subsec.circleBullet.6",
+      "text": "psi.book.page.circleBullet.6",
+      "anchor": "circlesync"
+    },
+    {
+      "type": "psi:spell_grid",
+      "spell": "{modsRequired:[{modName:\"psi\",modVersion:\"2.0.0\"}],spellList:[{data:{key:\"psi:trick_delay\",params:{_time:2}},x:3,y:3},{data:{key:\"psi:constant_wrapper\",params:{_constant:2,_target:4}},x:3,y:4},{data:{constantValue:\"95\",key:\"psi:constant_number\"},x:3,y:5},{data:{key:\"psi:operator_subtract\",params:{_number1:2,_number2:4,_number3:0}},x:4,y:4},{data:{key:\"psi:connector\",params:{_target:3}},x:4,y:5},{data:{key:\"psi:selector_loopcast_index\"},x:5,y:3},{data:{key:\"psi:operator_multiply\",params:{_number1:1,_number2:2,_number3:0}},x:5,y:4},{data:{constantValue:\"5\",key:\"psi:constant_number\"},x:5,y:5}],spellName:\"Circlesync\",uuidLeast:-5666065845008046135L,uuidMost:-8982799496831941618L,validSpell:1b}",
+      "text": "psi.book.page.circleBullet.7"
+    },
+    {
+      "type": "text",
+      "title": "psi.book.subsec.circleBullet.8",
+      "text": "psi.book.page.circleBullet.8",
+      "anchor": "20b_tower"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.circleBullet.9"
+    },
+    {
+      "type": "psi:spell_grid",
+      "spell": "{modsRequired:[{modName:\"psi\",modVersion:\"2.0.0\"}],spellList:[{data:{key:\"psi:trick_die\",params:{_target:4}},x:3,y:3},{data:{key:\"psi:selector_ruler_vector\"},x:3,y:4},{data:{key:\"psi:selector_block_presence\",params:{_position:2}},x:4,y:3},{data:{key:\"psi:operator_vector_sum\",params:{_vector1:4,_vector2:3,_vector3:0}},x:4,y:4},{data:{key:\"psi:selector_loopcast_index\"},x:5,y:3},{data:{key:\"psi:operator_vector_construct\",params:{_x:0,_y:1,_z:0}},x:5,y:4}],spellName:\"20-Bit Tower\",uuidLeast:-6418013341378361091L,uuidMost:8665330167676028379L,validSpell:1b}",
+      "text": "psi.book.page.circleBullet.10"
+    }
+  ]
+}

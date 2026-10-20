@@ -1,0 +1,15 @@
+{
+  "name": "Complementos para Computador de Bolso",
+  "icon": "computercraft:pocket_computer_advanced",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Oferecemos melhorias de Computador de Bolso para os seguintes periféricos:$(li)$(9)$(l:peripherals/environment_detector)Detector de Ambiente$(/l)$()$(li)$(9)$(l:peripherals/player_detector)Detector de Jogadores$(/l)$()$(li)$(9)$(l:peripherals/chat_box)Caixa de Chat$(/l)$()$(p)Para a documentação completa, consulte a $(9)$(l:https://docs.advanced-peripherals.de/items/pocket_computer/)página oficial da wiki$(/l)$()!"
+    },
+    {
+      "type": "text",
+      "text": "Basta combiná-los com um computador de bolso para adicionar o periférico a ele. Note que você não pode usar os eventos associados."
+    }
+  ]
+}

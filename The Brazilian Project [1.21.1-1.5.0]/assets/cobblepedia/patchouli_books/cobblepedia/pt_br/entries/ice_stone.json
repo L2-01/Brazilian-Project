@@ -1,0 +1,45 @@
+{
+    "name": "item.cobblemon.ice_stone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:ice_stone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:ice_stone",
+            "title": "item.cobblemon.ice_stone",
+            "text": "book.cobblepedia.entries.ice_stone.text"
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "cobblemon:ice_stone_from_smelting_ice_stone_ore",
+            "recipe2": "cobblemon:ice_stone_from_smelting_deepslate_ice_stone_ore",
+            "title": "book.cobblepedia.pages.smelting"
+        },
+        {
+            "type": "patchouli:blasting",
+            "recipe": "cobblemon:ice_stone_from_blasting_ice_stone_ore",
+            "recipe2": "cobblemon:ice_stone_from_blasting_deepslate_ice_stone_ore",
+            "title": "book.cobblepedia.pages.blasting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.ice_stone.evolving",
+            "using_item2": "cobblemon:ice_stone",
+            "pokemon2": "cobblemon:sandshrew",
+            "evolved_pokemon2": "cobblemon:sandslash",
+            "using_item3": "cobblemon:ice_stone",
+            "pokemon3": "cobblemon:vulpix",
+            "evolved_pokemon3": "cobblemon:ninetales"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:never_melt_ice"
+            ]
+        }
+    ]
+}

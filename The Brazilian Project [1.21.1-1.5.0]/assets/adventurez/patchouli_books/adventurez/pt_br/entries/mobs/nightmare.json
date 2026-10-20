@@ -1,0 +1,18 @@
+{
+    "name": "Pesadelo",
+    "icon": "adventurez:blackstone_golem_heart",
+    "category": "adventurez:mob_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O Pesadelo é a montaria do Ceifador das Almas, que pode ser encontrado em vales de areia de almas. Ele tem uma alma sombria por causa da influência de seu cavaleiro. Pode ser domesticado"
+        },
+        {
+            "type": "entity",
+            "name": "Exibição",
+            "entity": "adventurez:nightmare",
+            "scale": 0.6,
+            "offset": 0.5
+        }
+    ]
+}

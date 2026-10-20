@@ -1,0 +1,40 @@
+{
+    "name": "book.cobblepedia.entries.apricorn_set",
+    "category": "cobblepedia:getting_started",
+    "icon": "cobblemon:apricorn_log",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.apricorn_set.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:apricorn_button",
+                "cobblepedia:apricorn_door",
+                "cobblepedia:apricorn_fence",
+                "cobblepedia:apricorn_fence_gate",
+                "cobblepedia:apricorn_leaves",
+                "cobblepedia:apricorn_log",
+                "cobblepedia:apricorn_planks",
+                "cobblepedia:apricorn_pressure_plate",
+                "cobblepedia:apricorn_slab",
+                "cobblepedia:apricorn_stairs",
+                "cobblepedia:apricorn_trapdoor",
+                "cobblepedia:apricorn_wood"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.held_items_list",
+            "entries": [
+                "cobblepedia:stripped_apricorn_log",
+                "cobblepedia:stripped_apricorn_wood",
+                "cobblepedia:apricorn_boat",
+                "cobblepedia:apricorn_chest_boat",
+                "cobblepedia:apricorn_sign",
+                "cobblepedia:apricorn_hanging_sign"
+            ]
+        }
+    ]
+}

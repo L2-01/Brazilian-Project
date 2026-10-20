@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:diaphanous_block",
+  "name": "Bloco Diáfano",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(d)Bloco Diáfano$() parece outro bloco à distância, mas desaparece conforme você se aproxima.$(br2)Para definir a aparência, fabrique-o com o bloco desejado.",
+      "title": "Bloco Diáfano"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:diaphanous_block,irregular_implements:diaphanous_block[irregular_implements:block=\"minecraft:oak_log\"]",
+      "link_recipe": true,
+      "text": "Fabricá-lo consigo mesmo o inverte, ficando visível de perto, mas desaparecendo à distância."
+    }
+  ]
+}

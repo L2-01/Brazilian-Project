@@ -1,0 +1,25 @@
+{
+  "name": "Moldura de Calor",
+  "icon": "pneumaticcraft:heat_frame",
+  "category": "pneumaticcraft:semiblocks",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este item pode ser posicionado em qualquer $(thing)inventário/$. Quando aquecido por uma fonte de $(l:base_concepts/heat)Calor/$ adjacente, ele tentará fundir qualquer item no inventário (ou congelá-lo quando resfriado). Só terá sucesso se houver espaço no inventário para o item resultante. Quanto mais calor aplicado, mais rápido o processo de fundição será, até um máximo de 1 item por segundo. Da mesma forma, quanto mais for resfriado, mais rápido congelará os objetos."
+    },
+    {
+      "type": "link",
+      "flag": "mod:crafttweaker",
+      "title": "CraftTweaker",
+      "text": "A $(thing)Moldura de Calor/$ tem suporte ao $(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$ para resfriamento (a fundição apenas usa receitas normais de $(item)Fornalha/$): receitas podem ser adicionadas e removidas. Siga o link abaixo para mais informações.",
+      "url": "https://crafttweaker.readthedocs.io/en/latest/#Mods/PneumaticCraft_Repressurized/Heat_Frame_Cooling/",
+      "link_text": "CraftTweaker Docs"
+    },
+    {
+      "type": "crafting",
+      "text": "Fabricando uma Moldura de Calor",
+      "recipe": "pneumaticcraft:heat_frame"
+    }
+  ]
+}

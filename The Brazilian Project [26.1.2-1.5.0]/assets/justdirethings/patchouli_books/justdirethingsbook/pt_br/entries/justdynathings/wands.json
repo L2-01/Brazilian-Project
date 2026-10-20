@@ -1,0 +1,44 @@
+{
+  "name": "Novas Varinhas",
+  "sortnum": 5,
+  "category": "justdirethings:justdynathings",
+  "icon": "justdynathings:swapper_wand",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "title": "Varinha Trocadora",
+      "recipe": "justdynathings:swapper_wand",
+      "text": "Uma varinha que permite trocar um bloco por outro sem removê-lo do mundo"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Varinha Coletora",
+      "recipe": "justdynathings:picker_wand",
+      "text": "Uma varinha que permite pegar um bloco e colocá-lo onde você quiser"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Varinha do Estupor Temporal",
+      "recipe": "justdynathings:temporal_stupefy_wand",
+      "text": "Uma varinha que permite remover Entidades da Varinha do Tempo e aplicar um curto efeito de estupor"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Varinha do Tempo Avançada",
+      "recipe": "justdynathings:advanced_time_wand",
+      "text": "Uma versão melhorada da Varinha do Tempo com mais capacidade e modos para configurar a ação de clique"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Varinha de Luz",
+      "recipe": "justdynathings:light_wand",
+      "text": "Uma varinha que permite colocar e remover blocos de Luz, e também pode aplicar Brilho na entidade à frente"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Varinha de Luz Avançada",
+      "recipe": "justdynathings:advanced_light_wand",
+      "text": "Uma versão melhorada da Varinha de Luz que usa FE em vez de durabilidade de item"
+    }
+  ]
+}

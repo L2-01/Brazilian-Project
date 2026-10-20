@@ -1,0 +1,31 @@
+{
+    "name": "Controlador",
+    "icon": "bigreactors:reinforced_turbinecontroller",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_turbinecontroller",
+            "link_recipe": true,
+            "title" : "Controlador",
+            "text": "O Controlador é sua interface principal com a Turbina.$(br2)Clique com o botão direito no Controlador para abrir sua interface gráfica; de lá você pode ligar ou desligar a Turbina, verificar quanto vapor e refrigerante há nos tanques internos, quão rápido o $(l:bigreactors:turbine/rotor)Rotor$(/l) está girando e quanta energia está sendo gerada."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Você também pode regular quanto vapor está fluindo ao redor do $(l:bigreactors:turbine/rotor)Rotor$(/l), o que fazer com o vapor quando ele se condensar de volta ao refrigerante original e engatar ou desengatar as $(l:bigreactors:turbine/coils)Bobinas Indutoras$(/l).$(br2)Se você passar o mouse sobre um controle na interface, uma dica será exibida com informações adicionais ou um texto explicativo para aquele controle."
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic",
+            "recipe1": "bigreactors:turbine/basic/controller",
+            "title2": "Reinforced",
+            "recipe2": "bigreactors:turbine/reinforced/controller"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Obrigatório:$() pelo menos um é necessário$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "item.apprenticecodex.luminous_device",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:luminous_device",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:luminous_device",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.luminous_device.page.p001.text",
+        "with": [
+          {
+            "translate": "block.minecraft.torch"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.luminous_device.page.p002.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:luminous_device",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.luminous_device.page.p003.text"
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "recipe": "apprenticecodex:spellcaster_workbench/luminous_device_mage_light_upgrade",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.luminous_device.page.p004.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.mage_light"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "recipe": "apprenticecodex:spellcaster_workbench/luminous_device_wizardlamp_upgrade",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.luminous_device.page.p005.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.wizardlamp"
+          },
+          {
+            "translate": "item.apprenticecodex.luminous_device"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "recipe": "apprenticecodex:spellcaster_workbench/luminous_device_clean_upgrade",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.luminous_device.page.p006.text",
+        "with": [
+          {
+            "translate": "item.minecraft.brush"
+          },
+          {
+            "translate": "spell.apprenticecodex.mage_light"
+          },
+          {
+            "translate": "spell.apprenticecodex.wizardlamp"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spellcaster_workbench"
+      ]
+    }
+  ]
+}

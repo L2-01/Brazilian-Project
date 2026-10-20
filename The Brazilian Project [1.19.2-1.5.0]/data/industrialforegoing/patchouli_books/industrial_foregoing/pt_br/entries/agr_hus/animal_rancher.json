@@ -1,0 +1,17 @@
+{
+  "name": "Criadouro de Animais",
+  "icon": "industrialforegoing:animal_rancher",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uma máquina usada para $(6)tosquiar$() ovelhas e $(6)ordenhar$() vacas."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:animal_rancher"
+    }
+  ]
+}

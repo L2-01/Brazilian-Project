@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.sail_fossil",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:sail_fossil",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.sail_fossil",
+            "item": "cobblemon:sail_fossil",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.sail_fossil.text"
+        }
+    ]
+}

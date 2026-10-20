@@ -1,0 +1,25 @@
+{
+    "name": "item.cobblemon.lum_berry",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:lum_berry",
+    "pages": [
+        {
+            "type": "cobblepedia:mutated_berry",
+            "item": "cobblemon:lum_berry"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "item.cobblemon.lum_berry.tooltip"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:berry_juice"
+            ]
+        }
+    ]
+}

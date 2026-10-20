@@ -1,0 +1,17 @@
+{
+  "name": "Talismã de Mooshroom",
+  "sortnum": 29,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:mooshroom_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã de Mooshroom regenera 2% da vida do jogador a cada tique enquanto ele estiver sobre micélio. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_advanced)Base de Talismã Avançado$(/l). O talismã não é usado para fabricar uma força."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/mooshroom_talisman"
+    }
+  ],
+  "read_by_default": true
+}

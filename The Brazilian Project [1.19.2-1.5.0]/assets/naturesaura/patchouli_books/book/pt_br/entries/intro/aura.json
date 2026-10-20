@@ -1,0 +1,28 @@
+{
+    "name": "Aura, conceitualmente",
+    "icon": "naturesaura:gold_leaf",
+    "category": "naturesaura:intro",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ao contrário da crença popular, a $(aura) não é armazenada em $(italic)nós$() flutuantes individuais, mas sim, está presente em todo o mundo.$(br)Embora tocá-la seja impossível, fazer uso de seus poderes certamente não é. Quando a $(aura) é usada corretamente, ela pode auxiliar na $(thing)produção$() de materiais, na $(thing)criação$() de novas ideias e no $(thing)aproveitamento$() do mundo e seus componentes."
+        },
+        {
+            "type": "text",
+            "text": "Porém, nem sempre é tão fácil assim. Fazer mau uso dela, especificamente $(thing)drená-la$() completamente de uma área, fará o culpado enfrentar retornos decrescentes.$(br)Então, embora a $(aura) seja abundante e útil, abusar dela certamente seria desaconselhável.$(p)Algo adicional a notar é que, dependendo do mundo em que você está - especificamente, a $(item)dimensão$(), diferentes tipos de $(aura) estarão presentes, fazendo algumas mecânicas funcionarem diferente do esperado."
+        },
+        {
+            "type": "text",
+            "text": "Quanto ao funcionamento interno da $(aura), os cientistas relutam em admitir que ainda não descobriram exatamente como ela funciona.$(br)A única coisa que sabem é que quantidades excessivas ou faltantes de $(aura) afetam uma área de tamanho variável (baseado no aparato usado) ao redor do local onde a modificação ocorreu.$(br)Se uma área for drenada e um novo instrumento gerador for adicionado, ele renovará a área drenada primeiro antes de criar sua própria área viçosa."
+        },
+        {
+            "type": "text",
+            "text": "Similarmente, se um instrumento de drenagem for colocado perto de uma área rica, ele primeiro drenará aquela área antes de passar a drenar a área diretamente ao seu redor.$(p)Embora esse comportamento pareça complicado, o consenso é que deixar o aparato e a $(aura) fazerem seu trabalho por um tempo parece ser uma boa abordagem de análise, já que às vezes a $(aura) tende a migrar e se mover para se equilibrar naturalmente."
+        },
+        {
+            "type": "text",
+            "text": "Por fim, e mais recentemente, os botânicos mágicos descobriram um comportamento não observado antes: a $(item)dissipação de Aura$(). Esse comportamento parece ocorrer quando a $(aura) se espalhou o suficiente em todas as direções, ficando tão distante do ponto de origem que começa a $(thing)dissipar$() lentamente. Embora isso não afete a $(aura) mais próxima de sua origem de forma alguma, ainda pode ser algo a se atentar e mitigar usando algo como o $(l:devices/aura_detector)Detector de Aura$().",
+            "anchor": "fizzling"
+        }
+    ]
+}

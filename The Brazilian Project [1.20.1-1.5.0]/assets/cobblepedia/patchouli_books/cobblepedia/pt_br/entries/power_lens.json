@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.power_lens",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:power_lens",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:power_lens",
+            "text": "book.cobblepedia.entries.power_lens.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.power_lens.usage.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:power_lens",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

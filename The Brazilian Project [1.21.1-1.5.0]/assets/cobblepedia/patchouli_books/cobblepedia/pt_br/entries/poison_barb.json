@@ -1,0 +1,58 @@
+{
+    "name": "item.cobblemon.poison_barb",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:poison_barb",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:poison_barb",
+            "text": "book.cobblepedia.entries.poison_barb.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:poison_barb",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "cobblepedia:largping",
+            "title": "book.cobblepedia.pages.largping",
+            "drop_item": "cobblemon:poison_barb",
+            "pokemon": "cobblemon:nidoranf",
+            "rate": "2.5",
+            "drop_item2": "cobblemon:poison_barb",
+            "pokemon2": "cobblemon:nidorina",
+            "rate2": "5",
+            "drop_item3": "cobblemon:poison_barb",
+            "pokemon3": "cobblemon:nidoqueen",
+            "rate3": "10",
+            "drop_item4": "cobblemon:poison_barb",
+            "pokemon4": "cobblemon:nidoranm",
+            "rate4": "2.5",
+            "drop_item5": "cobblemon:poison_barb",
+            "pokemon5": "cobblemon:nidorino",
+            "rate5": "5",
+            "drop_item6": "cobblemon:poison_barb",
+            "pokemon6": "cobblemon:nidoking",
+            "rate6": "10"
+        },
+        {
+            "type": "cobblepedia:largping",
+            "title": "book.cobblepedia.pages.largping",
+            "drop_item": "cobblemon:poison_barb",
+            "pokemon": "cobblemon:beedrill",
+            "rate": "2.5",
+            "drop_item2": "cobblemon:poison_barb",
+            "pokemon2": "cobblemon:tentacool",
+            "rate2": "2.5",
+            "drop_item3": "cobblemon:poison_barb",
+            "pokemon3": "cobblemon:tentacruel",
+            "rate3": "5"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.poison_barb.holding"
+        }
+    ]
+}

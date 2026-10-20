@@ -1,0 +1,18 @@
+{
+  "name": "Talismã de Espinhos",
+  "sortnum": 45,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:thorny_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã de Espinhos concede imunidade ao dano de arbustos de bagas doces. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_normal)Base de Talismã Padrão$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_warrior)Força do Guerreiro$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/thorny_talisman",
+      "recipe2": "fargostalismans:forces/force_of_warrior"
+    }
+  ],
+  "read_by_default": true
+}

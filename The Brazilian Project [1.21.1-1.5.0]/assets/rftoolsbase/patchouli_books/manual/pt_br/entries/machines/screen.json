@@ -1,0 +1,38 @@
+{
+  "name": "A Tela",
+  "icon": "rftoolsutility:screen",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:screen": 0,
+    "rftoolsutility:creative_screen": 0,
+    "rftoolsutility:text_module": 0,
+    "rftoolsutility:energy_module": 0,
+    "rftoolsutility:energyplus_module": 0,
+    "rftoolsutility:inventory_module": 0,
+    "rftoolsutility:inventoryplus_module": 0,
+    "rftoolsutility:clock_module": 0,
+    "rftoolsutility:fluid_module": 0,
+    "rftoolsutility:fluidplus_module": 0,
+    "rftoolsutility:machineinformation_module": 0,
+    "rftoolsutility:computer_module": 0,
+    "rftoolsutility:button_module": 0,
+    "rftoolsutility:redstone_module": 0,
+    "rftoolsutility:counter_module": 0,
+    "rftoolsutility:counterplus_module": 0,
+    "rftoolsutility:tablet_screen": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Tela é um bloco versátil que pode exibir todos os tipos de informação. Isso depende dos módulos que você instalou. A Tela precisa de energia, que é fornecida remotamente por um $(l:rftoolsbase:machines/screen_controller)Controlador de Tela$(/l) próximo$(br2)$(5)Clique com o botão direito$() com a mão vazia para abrir a interface da Tela"
+    },
+    {
+      "type": "text",
+      "text": "Na interface você pode instalar módulos (ou instalá-los clicando com o botão direito com o módulo na tela)$(br2)Muitos módulos (como o módulo de energia) precisam de um alvo para funcionar. Para definir esse alvo, você deve primeiro $(5)agachar e clicar com o botão direito$() com o módulo na máquina que deseja monitorar"
+    },
+    {
+      "type": "text",
+      "text": "Quando o módulo está instalado na Tela, também há várias opções de exibição que você pode definir abrindo a interface específica do módulo (acessada pela interface normal da Tela)$(br2)Nessa interface você também pode ativar o modo 'brilho total' e, usando a chave-inglesa, pode mudar o tamanho e a transparência da tela"
+    }
+  ]
+}

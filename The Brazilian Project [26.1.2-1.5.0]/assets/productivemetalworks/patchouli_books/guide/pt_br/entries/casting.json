@@ -1,0 +1,25 @@
+{
+  "category": "productivemetalworks:casting",
+  "icon": "productivemetalworks:casting_table",
+  "name": "book.productivemetalworks.casting_page.title",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "book.productivemetalworks.casting_page.intro"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivemetalworks:casting_table",
+      "text": "book.productivemetalworks.casting_page.table"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivemetalworks:casting_basin",
+      "text": "book.productivemetalworks.casting_page.basin"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "book.productivemetalworks.casting_page.taps"
+    }
+  ]
+}

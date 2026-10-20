@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:lotus_blossom",
+  "name": "Flor de Lótus",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:lotus_blossom",
+      "link_recipe": true,
+      "text": "As $(d)Flores de Lótus$() podem ser comidas para dar ao jogador uma boa quantidade de experiência.$(br2)Se você comê-las agachado, consumirá a pilha inteira de uma vez.",
+      "title": "Flor de Lótus"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:lotus_seeds",
+      "link_recipe": true,
+      "text": "Flores de Lótus podem ser cultivadas com $(d)Sementes de Lótus$(), plantadas em qualquer bloco de terra/grama.$(br2)Você pode encontrar plantas de lótus naturais em $(3)biomas frios$().",
+      "title": "Sementes de Lótus"
+    }
+  ]
+}

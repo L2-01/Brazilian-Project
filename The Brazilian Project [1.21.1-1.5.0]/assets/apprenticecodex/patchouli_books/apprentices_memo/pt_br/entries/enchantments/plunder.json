@@ -1,0 +1,22 @@
+{
+  "name": "enchantment.apprenticecodex.plunder",
+  "category": "apprenticecodex:enchantments",
+  "icon": "minecraft:enchanted_book",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "enchantment.apprenticecodex.plunder",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.plunder.page.p001.text",
+        "with": [
+          {
+            "translate": "enchantment.minecraft.looting"
+          },
+          {
+            "translate": "enchantment.minecraft.looting"
+          }
+        ]
+      }
+    }
+  ]
+}

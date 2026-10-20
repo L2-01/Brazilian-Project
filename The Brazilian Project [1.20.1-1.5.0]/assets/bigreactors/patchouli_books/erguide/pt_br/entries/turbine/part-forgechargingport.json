@@ -1,0 +1,31 @@
+{
+    "name": "Porta de Carregamento de Energia Forge",
+    "icon": "bigreactors:reinforced_turbinechargingportfe",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_turbinechargingportfe",
+            "link_recipe": true,
+            "title" : "Porta de Carregamento de Energia Forge",
+            "text": "A Porta de Carregamento de Energia Forge permite usar a energia armazenada na sua Turbina para carregar itens que usam o $(l:bigreactors:misc/powersystem)sistema de energia$(/l) Forge Energy para funcionar.$(br2)Abra a interface gráfica da porta e insira o item que você quer carregar no slot de entrada no centro."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Quando o buffer de energia do item estiver cheio, o item será movido automaticamente para o slot de saída da interface para você coletar.$(br2)Se, por qualquer motivo, você precisar parar o processo de carregamento, pressione o botão de ejeção para mover o item para o slot de saída imediatamente."
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic",
+            "recipe1": "bigreactors:turbine/basic/chargingfe",
+            "title2": "Reinforced",
+            "recipe2": "bigreactors:turbine/reinforced/chargingfe"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim"
+        }
+    ]
+}

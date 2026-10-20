@@ -1,0 +1,23 @@
+{
+  "name": "Coluna Vertical",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/vertical_column.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O modo Coluna Vertical está disponível tanto para o dispositivo de construção quanto para o de troca.$(br2)Ele constrói para cima ou para baixo se você estiver olhando para o topo ou o fundo de um bloco, ou constrói para cima e para baixo ao redor se estiver olhando para a lateral de um bloco."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Coluna Vertical",
+      "images": [
+        "buildinggadgets2:textures/book/images/vertcolumn1.png",
+        "buildinggadgets2:textures/book/images/vertcolumn3.png",
+        "buildinggadgets2:textures/book/images/vertcolumn2.png"
+      ],
+      "border": true,
+      "text": "Alterne as imagens acima para ver as diferentes opções"
+    }
+  ]
+}

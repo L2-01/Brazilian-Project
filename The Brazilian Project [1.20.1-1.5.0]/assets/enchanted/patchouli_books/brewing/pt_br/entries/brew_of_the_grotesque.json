@@ -1,0 +1,16 @@
+{
+  "name": "Poção do Grotesco",
+  "icon": "enchanted:brew_of_the_grotesque",
+  "category": "enchanted:kettle",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esta poção torna quem a bebe irreconhecivelmente grotesco, impedindo que criaturas próximas se aproximem. $(br2)Também serve como base para a maioria das maldições."
+    },
+    {
+      "type": "enchanted:kettle_recipe",
+      "recipe": "enchanted:kettle/brew_of_the_grotesque"
+    }
+  ],
+  "read_by_default": true
+}

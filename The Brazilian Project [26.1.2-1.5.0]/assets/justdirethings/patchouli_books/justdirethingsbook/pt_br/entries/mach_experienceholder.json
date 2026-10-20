@@ -1,0 +1,41 @@
+{
+  "name": "Depósito de Experiência",
+  "sortnum": 3,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:experienceholder",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O depósito de experiência faz exatamente o que o nome diz. Ele guarda experiência!$(br2)Na UI, você verá os níveis atuais armazenados (representados pelo número verde) e os níveis parciais armazenados (representados pela barra de exp verde). Clicar nos botões + ou - transfere 1 nível de você (o jogador) para o bloco."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Segure Shift ao clicar nesses botões para transferir 10 níveis por vez, e segure Ctrl ao clicar para transferir TODOS os seus níveis de uma vez!$(br2)Você notará que ele tem uma Área de Efeito, que serve a dois propósitos. O primeiro é automatizar os níveis de experiência de jogadores próximos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Usando o Botão Numérico à esquerda do botão -, defina a quantidade desejada de experiência que um jogador dentro da área de efeito deve ter. Depois, use o botão de controle de redstone para determinar quando isso ocorre: por pulso (padrão) ou sempre. A máquina usará a Velocidade (tiques) para tentar modificar os níveis do(s) jogador(es) próximo(s) de tempos em tempos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A máquina adicionará ou removerá níveis do jogador conforme necessário para levar o nível daquele jogador ao alvo — supondo, claro, que haja exp suficiente armazenada na máquina para elevá-lo tanto!$(br2)Ative o botão \"só dono\" para garantir que isso só dê experiência ao jogador que colocou o bloco."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use isso para guardar automaticamente sua experiência ao voltar para a base definindo-o como 0, ou mantenha sua experiência sempre no nível 30 enquanto encanta numa mesa de encantamentos! Toda vez que você encantar algo, esta máquina pode automaticamente te completar de volta até exatamente o nível 30!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Além disso, há um botão \"Coletar Experiência\", que tentará encontrar orbs de experiência dentro da área de efeito. Quando ativado, ele absorve qualquer orb de exp próximo e o armazena. Esse recurso ignora o estado de redstone do bloco e roda ou não conforme a configuração deste botão."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O bloco também é um tanque de fluido, e pode transferir pontos de exp para Fluido de XP a uma taxa de 20 mb por 1 ponto de experiência. Você pode interagir com este bloco usando um balde ou o $(l:justdirethings:item_fluid_canister)Recipiente de Fluido$(/l).$(br2)Também é possível extrair ou inserir o fluido usando tubos ou Laserio etc.$(br2)O bloco retém sua experiência ao ser quebrado, então sem preocupações se precisar relocá-lo!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Depósito de Experiência",
+      "recipe": "justdirethings:experienceholder"
+    }
+  ]
+}

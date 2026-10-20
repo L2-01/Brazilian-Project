@@ -1,0 +1,18 @@
+{
+  "name": "Talismã de Zumbi",
+  "sortnum": 56,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:zombie_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã de Zumbi aumenta a velocidade de ataque por 3 golpes após ficar 5 segundos sem atacar. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_advanced)Base de Talismã Avançado$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_rejectors)Força dos Negadores$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/zombie_talisman",
+      "recipe2": "fargostalismans:forces/force_of_rejectors"
+    }
+  ],
+  "read_by_default": true
+}

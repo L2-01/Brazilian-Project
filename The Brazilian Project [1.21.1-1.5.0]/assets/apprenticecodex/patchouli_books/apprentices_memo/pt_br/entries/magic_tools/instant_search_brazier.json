@@ -1,0 +1,27 @@
+{
+  "name": "item.apprenticecodex.instant_search_brazier",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:instant_search_brazier",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:instant_search_brazier",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.instant_search_brazier.page.p001.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.search_beacon"
+          },
+          {
+            "translate": "spell.apprenticecodex.search_beacon"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:instant_search_brazier",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.instant_search_brazier.page.p002.text"
+    }
+  ]
+}

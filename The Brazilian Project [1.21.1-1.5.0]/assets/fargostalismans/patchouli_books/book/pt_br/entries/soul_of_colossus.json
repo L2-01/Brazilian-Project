@@ -1,0 +1,27 @@
+{
+  "name": "Alma do Colosso",
+  "sortnum": 1,
+  "category": "fargostalismans:souls",
+  "icon": "fargostalismans:soul_of_colossus",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Alma do Colosso multiplica a vida por 5 e anula todos os efeitos negativos. Isso conflita com os talismãs da Força do Negativo. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_ultimate)Base de Talismã Ultimate$(/l). A alma é usada para fabricar a $(l:fargostalismans:soul_of_dimensions)Alma das Dimensões$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:souls/soul_of_colossus",
+      "recipe2": "fargostalismans:souls/soul_of_dimensions"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os itens para fabricá-la podem ser obtidos saqueando baús numa Masmorra do Fargo."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:souls/soul_of_colossus_1",
+      "recipe2": "fargostalismans:souls/soul_of_colossus_2"
+    }
+  ],
+  "read_by_default": true
+}

@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.dome_fossil",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:dome_fossil",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.dome_fossil",
+            "item": "cobblemon:dome_fossil",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.dome_fossil.text"
+        }
+    ]
+}

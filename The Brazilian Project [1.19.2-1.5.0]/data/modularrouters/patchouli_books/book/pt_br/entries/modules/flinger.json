@@ -1,0 +1,19 @@
+{
+  "name": "Módulo Lançador",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:flinger_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este módulo se comporta como o $(l:modules/largper)Módulo Ejetor/$, exceto que também imprime uma velocidade configurável ao item largado, potencialmente arremessando o item a uma distância considerável. Você pode ajustar a velocidade, arfagem e guinada do item via GUI do módulo.$(li)Arfagem e guinada são em graus, relativos a uma arfagem ou guinada base."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Se o módulo ejeta para Cima ou para Baixo, a arfagem base é +90° ou -90°, respectivamente. Caso contrário, a arfagem base é 0°.$(li)Se o módulo ejeta para Cima ou para Baixo, a guinada base é a direção de orientação do roteador. Caso contrário, a guinada base vem da direção do módulo.$(li)Exemplo: uma velocidade de 1,0, arfagem/guinada de 0° e uma direção de módulo horizontal arremessará um item pelo chão por uma distância de cerca de 7 blocos."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:flinger_module"
+    }
+  ]
+}

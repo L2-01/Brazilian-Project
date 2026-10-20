@@ -1,0 +1,30 @@
+{
+  "name": "Escâner Geológico",
+  "icon": "advancedperipherals:geo_scanner",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Escâner Geológico fornece informações sobre os blocos ao redor e o chunk onde o escâner está localizado. O escâner geológico tem um intervalo entre as varreduras, então você deve estar preparado para isso.$(p)Para a documentação completa, consulte a $(9)$(l:https://docs.advanced-peripherals.de/peripherals/geo_scanner/)página oficial da wiki$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:geo_scanner"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:geo_scanner"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "Conecte seu Escâner Geológico a um computador para usá-lo!"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "item.cobblemon.magmarizer",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:magmarizer",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:magmarizer",
+            "title": "item.cobblemon.magmarizer",
+            "text": "book.cobblepedia.entries.magmarizer.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:magmarizer",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "cobblepedia:largping",
+            "title": "book.cobblepedia.pages.largping",
+            "drop_item": "cobblemon:magmarizer",
+            "pokemon": "cobblemon:magmar",
+            "rate": "5",
+            "drop_item2": "cobblemon:magmarizer",
+            "pokemon2": "cobblemon:magby",
+            "rate2": "2.5",
+            "drop_item3": "cobblemon:magmarizer",
+            "pokemon3": "cobblemon:magmortar",
+            "rate3": "10"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "item": "cobblemon:magmarizer",
+            "link_cable": true,
+            "holding_item3": "cobblemon:magmarizer",
+            "using_item3": "cobblemon:link_cable",
+            "pokemon3": "cobblemon:magmar",
+            "evolved_pokemon3": "cobblemon:magmortar"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Cajado da Riqueza",
+    "icon": "naturesaura:loot_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Por todo o mundo, diferentes tipos de $(thing)tesouros$() podem ser encontrados, incluindo $(item)Baús$() cheios, $(item)Carrinhos de Mina com Baú$() e assim por diante.$(p)O $(item)Cajado da Riqueza$() tem a capacidade de revelar essas riquezas e torná-las mais fáceis de encontrar. Ao balançá-lo, ele $(thing)destacará$() cada contêiner de armazenamento num raio de 64 blocos ou mais por cerca de um minuto."
+        },
+        {
+            "type": "text",
+            "text": "Isso daria ao usuário tempo suficiente para simplesmente viajar ao local magicamente visível e coletar o tesouro.$(p)Naturalmente, para o cajado poder descobrir riquezas dessa maneira, uma boa quantidade de $(aura) precisa estar armazenada num $(l:items/aura_cache)Cache de Aura$() ou similar."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Cajado da Riqueza$()",
+            "recipe": "naturesaura:loot_finder"
+        }
+    ]
+}

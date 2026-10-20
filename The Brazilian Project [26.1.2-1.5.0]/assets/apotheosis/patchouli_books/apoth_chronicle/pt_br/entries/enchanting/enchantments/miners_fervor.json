@@ -1,0 +1,17 @@
+{
+    "name": "Fervor do Minerador",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(5)Fervor do Minerador$() é um encantamento Distorcido que pode ser aplicado a ferramentas de mineração.$(p)Ele faz você quebrar blocos muito rapidamente, mas nunca instantaneamente. Blocos que já quebram instantaneamente não são afetados."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Apesar de ter um teto de velocidade, o bônus por nível é muito maior que $(9)Eficiência$().$(p)Isso o torna uma escolha ideal para ferramentas com velocidade base baixa.$(p)Por motivos óbvios, é exclusivo com $(9)Eficiência$()."
+        }
+    ]
+}

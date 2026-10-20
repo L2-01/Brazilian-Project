@@ -1,0 +1,33 @@
+{
+    "name": "Módulo de Confisco",
+    "icon": "mffs:confiscation_module",
+    "category": "mffs:interdiction_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:confiscation_module",
+            "link_recipe": true,
+            "text": "O $(5)Módulo de Confisco$() é um módulo opcional para a $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$() que lhe dá a habilidade de tirar itens de um jogador automaticamente. Se um jogador estiver na área de ação de uma Matriz de Interdição, ela vasculhará o inventário do jogador e confiscará quaisquer itens proibidos encontrados. Isso se aplica a todos os itens, independente de estarem sendo carregados, vestidos ou guardados no inventário."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:confiscation_module",
+            "text": "Fabricando o $(5)Módulo de Confisco$()."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Modo de Filtro",
+            "text": "O ajuste de Modo de Filtro e os 9 espaços associados ao longo da parte inferior da GUI da $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$() são usados para configurar o comportamento do módulo. O ajuste de Modo de Filtro tem dois estados: Banido (padrão) e Permitido.$(br2)Os itens confiscados são coletados para inventários adjacentes à $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$()."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Banido",
+            "text": "Quando o botão indicar 'Banido', a $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$() trata os 9 espaços (vermelhos) como uma lista de itens proibidos que devem ser confiscados. Somente esses itens serão confiscados; o jogador poderá manter quaisquer outros itens que tiver. Se todos os 9 espaços de item estiverem vazios, a Matriz assume que todo item deve ser confiscado do jogador."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Permitido",
+            "text": "Se o botão indicar 'Permitido', a Matriz trata os 9 espaços (verdes) como uma lista de itens que o jogador pode manter. Qualquer outro item será confiscado. Quando todos os 9 espaços estiverem vazios, a $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$() assume que todos os itens são permitidos e não confiscará nada."
+        }
+    ]
+}

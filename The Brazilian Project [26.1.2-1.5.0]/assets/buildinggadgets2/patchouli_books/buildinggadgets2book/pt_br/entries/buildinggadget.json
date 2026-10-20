@@ -1,0 +1,29 @@
+{
+  "name": "Dispositivo de Construção",
+  "sortnum": 1,
+  "category": "buildinggadgets2:gadgets",
+  "icon": "buildinggadgets2:gadget_building[buildinggadgets2:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O dispositivo de construção torna construir um grande número de blocos de uma vez extremamente fácil! $(br2)Primeiro, garanta que o dispositivo tenha energia. $(br2)Segundo, Shift+clique direito num bloco no mundo para especificar o bloco com que construir."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você pode escolher seu $(l:buildinggadgets2:modes)Modo de Construção$(/l) segurando a tecla de configurações. Cada modo é descrito na sua respectiva entrada deste livro. O modo padrão é $(l:buildinggadgets2:mode_build_to_me)Construir até Mim$(/l). $(br2)Ao olhar para um bloco no mundo, você verá uma imagem fantasma dos blocos que serão colocados.  Se estiverem faltando os itens ou a energia necessários para colocar esses blocos, eles terão uma sobreposição vermelha. Clique com o botão direito para colocar os blocos como mostrado."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Prévia da Construção",
+      "images": [
+        "buildinggadgets2:textures/book/images/ghost_render.png"
+      ],
+      "border": true,
+      "text": "Vendo uma prévia do que será construído"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando você clica com o botão direito, a construção começa. Os itens serão tirados do seu inventário para serem colocados no mundo, e quaisquer blocos para os quais você não tenha o item necessário serão pulados. $(br2)Não esqueça que você pode $(l:buildinggadgets2:undo)desfazer$(/l) se cometer um erro!"
+    }
+  ]
+}

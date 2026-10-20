@@ -1,0 +1,18 @@
+{
+  "name": "Talismã da Noite",
+  "sortnum": 32,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:night_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã da Noite concede 10% de aumento de armadura ao jogador durante a noite. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_epic)Base de Talismã Épico$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_environment)Força do Ambiente$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/night_talisman",
+      "recipe2": "fargostalismans:forces/force_of_environment"
+    }
+  ],
+  "read_by_default": true
+}

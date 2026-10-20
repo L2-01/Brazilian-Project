@@ -1,0 +1,19 @@
+{
+  "name": "A Tela",
+  "icon": "rftoolsutility:screen",
+  "category": "rftoolsutility:category_rftoolsutility_machines",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Tela é um bloco versátil que pode exibir todo tipo de informação. Isso depende dos módulos que você instalou. A Tela precisa de energia fornecida remotamente por um $(l:rftoolsutility:machines/screen_controller)Controlador de Tela$(/l) próximo$(br2)$(5)Clique direito$() com a mão vazia para abrir a interface da Tela"
+    },
+    {
+      "type": "text",
+      "text": "Na GUI você pode instalar módulos (ou pode instalá-los clicando com o botão direito com o módulo na tela)$(br2)Muitos módulos (como o módulo de energia) precisam de um alvo para funcionar. Para definir esse alvo, você deve primeiro $(5)clicar com o botão direito agachado$() com o módulo na máquina que quer monitorar"
+    },
+    {
+      "type": "text",
+      "text": "Quando o módulo está instalado na Tela, há também várias opções de exibição que você pode definir abrindo a GUI específica do módulo (acessada pela GUI normal da Tela)$(br2)Nessa GUI você também pode ativar o modo \"brilho total\" e, usando a chave, pode mudar o tamanho e a transparência da tela"
+    }
+  ]
+}

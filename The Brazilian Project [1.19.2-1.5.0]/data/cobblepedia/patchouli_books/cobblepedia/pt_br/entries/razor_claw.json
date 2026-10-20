@@ -1,0 +1,34 @@
+{
+    "name": "item.cobblemon.razor_claw",
+    "category": "cobblepedia:held_items",
+    "icon": "cobblemon:razor_claw",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:razor_claw",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.razor_claw.text"
+        },
+        {
+            "type": "cobblepedia:largping",
+            "title": "book.cobblepedia.pages.largping",
+            "drop_item": "cobblemon:razor_claw",
+            "pokemon": "cobblemon:weavile",
+            "rate": "10"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.razor_claw.holding"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.razor_claw.evolving",
+            "holding_item3": "cobblemon:razor_claw",
+            "evolving_tooltip3": "book.cobblepedia.entries.razor_claw.evolving_tooltip",
+            "pokemon3": "cobblemon:sneasel",
+            "evolved_pokemon3": "cobblemon:weavile"
+        }
+    ]
+}

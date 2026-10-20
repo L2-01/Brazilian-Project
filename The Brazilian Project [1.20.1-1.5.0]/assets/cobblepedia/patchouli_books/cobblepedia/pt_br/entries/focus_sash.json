@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.focus_sash",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:focus_sash",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:focus_sash",
+            "text": "book.cobblepedia.entries.focus_sash.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:focus_sash",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

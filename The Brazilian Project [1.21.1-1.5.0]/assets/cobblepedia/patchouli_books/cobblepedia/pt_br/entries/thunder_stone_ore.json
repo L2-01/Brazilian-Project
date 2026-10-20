@@ -1,0 +1,28 @@
+{
+    "name": "block.cobblemon.thunder_stone_ore",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:thunder_stone_ore",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:thunder_stone_ore",
+            "link_recipe": true,
+            "title": "block.cobblemon.thunder_stone_ore",
+            "text": "book.cobblepedia.entries.thunder_stone_ore.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.generation",
+            "text": "book.cobblepedia.entries.thunder_stone_ore.generation"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:thunder_stone",
+                "cobblepedia:deepslate_thunder_stone_ore",
+                "cobblepedia:evolution_stone_mining"
+            ]
+        }
+    ]
+}

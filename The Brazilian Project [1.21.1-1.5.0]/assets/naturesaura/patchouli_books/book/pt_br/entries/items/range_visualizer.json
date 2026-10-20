@@ -1,0 +1,17 @@
+{
+    "name": "Lupa Mística",
+    "icon": "naturesaura:range_visualizer",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A $(item)Lupa Mística$() é um dispositivo $(t:é um mod do vazkii)elegante$() para qualquer botânico mágico trabalhando com maquinário. Quando equipada em qualquer mão e ao interagir com um dispositivo compatível, seu $(thing)alcance de operação$() será exibido ao redor, permitindo que quaisquer mecanismos construídos com ela sejam inspecionados fácil e precisamente. Para parar um dispositivo de exibir seu alcance, basta interagir com ele uma segunda vez."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando a $(item)Lupa Mística$()",
+            "recipe": "naturesaura:range_visualizer"
+        }
+    ]
+}

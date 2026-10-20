@@ -1,0 +1,28 @@
+{
+    "name": "block.cobblemon.display_case",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:display_case",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:display_case",
+            "title": "block.cobblemon.display_case",
+            "text": "book.cobblepedia.entries.display_case.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:display_case",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.display_case.usage.text"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.display_case.usage.text2"
+        }
+    ]
+}

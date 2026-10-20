@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.guard_spec",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:guard_spec",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:guard_spec",
+            "text": "book.cobblepedia.entries.guard_spec.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:guard_spec",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

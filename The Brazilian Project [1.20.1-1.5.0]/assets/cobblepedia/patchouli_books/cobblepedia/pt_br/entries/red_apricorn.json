@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.red_apricorn",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:red_apricorn",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:red_apricorn",
+            "link_recipe": true,
+            "title": "item.cobblemon.red_apricorn",
+            "text": "book.cobblepedia.entries.red_apricorn.text"
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "cobblemon:red_apricorn_smelt_to_dye",
+            "title": "book.cobblepedia.pages.smelting"
+        }
+    ]
+}

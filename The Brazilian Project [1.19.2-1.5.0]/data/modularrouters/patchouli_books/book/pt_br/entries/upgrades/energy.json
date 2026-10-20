@@ -1,0 +1,35 @@
+{
+  "name": "Melhoria de Energia",
+  "category": "modularrouters:upgrades",
+  "icon": "modularrouters:energy_upgrade",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esta melhoria dá ao Roteador um buffer interno de energia. Cada melhoria aumenta o tamanho do buffer em 50.000 FE e a taxa de transferência em 1.000 FE por $(italic)tique do roteador/$ (esses valores são ajustáveis na config do mod).$(p)Há vários cenários em que uma Melhoria de Energia é útil, detalhados nas páginas seguintes."
+    },
+    {
+      "type": "text",
+      "title": "1. Roteando Energia",
+      "text": "Os módulos $(l:modules/energy_output)Saída de Energia/$ e $(l:modules/energy_distributor)Distribuidor de Energia/$ são ambos capazes de empurrar ativamente energia do buffer do roteador para blocos adjacentes ou próximos.$(p)Com esses módulos, você pode efetivamente construir uma célula de energia com capacidades limitadas de transferência de energia sem fio."
+    },
+    {
+      "type": "text",
+      "title": "2. Energizando Módulos",
+      "text": "Por padrão, os módulos do roteador não custam energia para executar, com exceção do $(l:modules/activator)Módulo Ativador/$ em modo de ataque. $(p)No entanto, o uso de energia é configurável e é possível que custos de energia se apliquem a outros módulos no pacote que você está jogando; todos os módulos listam os números de uso de energia em seu tooltip quando aplicável."
+    },
+    {
+      "type": "text",
+      "title": "3. Carregando Itens",
+      "text": "Qualquer item que contenha energia no buffer do roteador pode, opcionalmente, ter energia transferida do buffer interno do roteador para o item, ou vice-versa.$(p)Quando um item contendo energia está no buffer de itens, a GUI do roteador mostrará um botão alternável entre o buffer e a barra de energia para definir a direção de transferência de energia."
+    },
+    {
+      "type": "text",
+      "title": "Taxas de Transferência",
+      "text": "É importante notar que as taxas de transferência indicadas nos tooltips são em FE por $(italic)tique do roteador/$, o que não é o mesmo que FE/t. A taxa de tiques de um Roteador depende de suas $(l:upgrades/speed)Melhorias de Velocidade/$; sem Melhorias de Velocidade, um tique do roteador ocorre a cada 20 tiques do servidor. Portanto, a taxa de transferência geral pode ser menor do que você esperaria."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:energy_upgrade"
+    }
+  ]
+}

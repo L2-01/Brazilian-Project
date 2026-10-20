@@ -1,0 +1,25 @@
+{
+    "name": "item.cobblemon.chipped_pot",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:chipped_pot",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:chipped_pot",
+            "title": "item.cobblemon.chipped_pot",
+            "text": "book.cobblepedia.entries.chipped_pot.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:chipped_pot",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:cracked_pot"
+            ]
+        }
+    ]
+}

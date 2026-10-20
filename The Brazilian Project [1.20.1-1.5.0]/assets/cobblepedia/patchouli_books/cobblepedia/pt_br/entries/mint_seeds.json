@@ -1,0 +1,24 @@
+{
+    "name": "book.cobblepedia.entries.mint_seeds",
+    "category": "cobblepedia:agriculture",
+    "icon": "cobblemon:red_mint_seeds",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.mint_seeds",
+            "item": "tag:cobblepedia:book/mint_seeds",
+            "text": "book.cobblepedia.entries.mint_seeds.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:red_mint_seeds",
+                "cobblepedia:blue_mint_seeds",
+                "cobblepedia:cyan_mint_seeds",
+                "cobblepedia:pink_mint_seeds",
+                "cobblepedia:green_mint_seeds",
+                "cobblepedia:white_mint_seeds"
+            ]
+        }
+    ]
+}

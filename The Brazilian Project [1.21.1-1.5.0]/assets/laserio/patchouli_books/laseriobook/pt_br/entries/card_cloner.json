@@ -1,0 +1,21 @@
+{
+  "name": "Clonador de Cartões",
+  "icon": "laserio:card_cloner",
+  "sortnum": 2,
+  "category": "laserio:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Clonador de Cartões pode ser usado para 'copiar e colar' as configurações de um cartão para outro! De dentro de uma tela de $(l:laserio:laser_node)Nó a Laser$(/l), pegue o Clonador de Cartões (no seu cursor) e clique com o botão esquerdo num cartão para copiar suas configurações. $(br2)Clique com o botão direito num cartão para colar as configurações armazenadas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao colar, os $(l:laserio:overclocker_card)Overclockers$(/l) e $(l:laserio:filters)Filtros$(/l) serão automaticamente tirados (ou recolocados) dentro do $(l:laserio:card_holder)Porta-Cartões$(/l) atualmente disponível. Esses itens não serão tirados do inventário do jogador.$(br2)Se algum dos itens necessários estiver faltando, a colagem falhará. Ela NÃO colará as configurações parcialmente."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Clonador de Cartões",
+      "recipe": "laserio:card_cloner"
+    }
+  ]
+}

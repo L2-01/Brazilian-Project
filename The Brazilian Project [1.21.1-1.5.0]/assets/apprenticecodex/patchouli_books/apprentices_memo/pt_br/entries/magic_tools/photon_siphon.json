@@ -1,0 +1,24 @@
+{
+  "name": "item.apprenticecodex.photon_siphon",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:photon_siphon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:photon_siphon",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.photon_siphon.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:photon_siphon",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.photon_siphon.page.p002.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:magic_tools/spell_amplifier_series",
+        "apprenticecodex:magic_tools/explorers_cane"
+      ]
+    }
+  ]
+}

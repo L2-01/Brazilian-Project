@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.awakening",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:awakening",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:awakening",
+            "text": "book.cobblepedia.entries.awakening.text"
+        },
+        {
+            "type": "cobblepedia:brewing",
+            "title": "book.cobblepedia.pages.brewing",
+            "reagent_item": "cobblemon:chesto_berry",
+            "base_item": "cobblemon:medicinal_brew",
+            "result_item": "cobblemon:awakening"
+        }
+    ]
+}

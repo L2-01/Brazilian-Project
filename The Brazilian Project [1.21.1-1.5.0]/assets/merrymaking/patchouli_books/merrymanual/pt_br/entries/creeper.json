@@ -1,0 +1,33 @@
+{
+
+"name": "Creeper de Natal",
+    "icon": "merrymaking:christmas_creeper_spawn_egg",
+    "category": "merrymaking:mobs",
+    "pages": [
+	
+	{
+		"type": "patchouli:text",
+		"text": "No espírito das festas, este pequeno sujeito tem uma surpresa especial para os jogadores — isto é, se eles deixarem ele chegar perto o suficiente."
+	},
+		{
+		
+			"type": "patchouli:entity",
+			"name": "Creeper de Natal",
+			"entity": "merrymaking:christmas_creeper",			
+			"text":  "Só... não o deixe irritado. Você não vai gostar dele irritado." 
+			
+		}
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		]
+	
+	
+}

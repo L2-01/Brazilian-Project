@@ -1,0 +1,30 @@
+{
+    "name": "block.cobblemon.green_gilded_chest",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:green_gilded_chest",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:green_gilded_chest",
+            "title": "block.cobblemon.green_gilded_chest",
+            "text": "book.cobblepedia.entries.green_gilded_chest.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:green_gilded_chest",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:gilded_chest",
+                "cobblepedia:yellow_gilded_chest",
+                "cobblepedia:black_gilded_chest",
+                "cobblepedia:pink_gilded_chest",
+                "cobblepedia:white_gilded_chest",
+                "cobblepedia:blue_gilded_chest"
+            ]
+        }
+    ]
+}

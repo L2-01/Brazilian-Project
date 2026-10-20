@@ -1,0 +1,38 @@
+{
+    "name": "Saída de Energia Forge",
+    "icon": "bigreactors:reinforced_turbinepowertapfe_active",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_turbinepowertapfe_active",
+            "link_recipe": true,
+            "title" : "Saída de Energia Forge",
+            "text": "A Saída de Energia Forge permite extrair energia de uma Turbina.$(br2)Como o nome indica, esta Saída de Energia emite energia usando o $(l:bigreactors:misc/powersystem)sistema de energia$(/l) Forge Energy e, portanto, só pode ser conectada a tubos ou máquinas compatíveis com esse sistema."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Apenas um $(l:bigreactors:misc/powersystem)sistema de energia$(/l) pode ser usado por Turbina e, portanto, apenas um tipo de Saída de Energia pode ser usado para construir uma única Turbina.$(br2)A Saída de Energia está disponível nas formas $(l:bigreactors:misc/passiveactiveparts)passiva e ativa$(/l)."
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic (Passive)",
+            "recipe1": "bigreactors:turbine/basic/passivetap_fe",
+            "title2": "Reinforced (Passive)",
+            "recipe2": "bigreactors:turbine/reinforced/passivetap_fe"
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic (Active)",
+            "recipe1": "bigreactors:turbine/basic/activetap_fe",
+            "title2": "Reinforced (Active)",
+            "recipe2": "bigreactors:turbine/reinforced/activetap_fe"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não$(br)$(l)Sistema de energia:$() Forge Energy"
+        }
+    ]
+}

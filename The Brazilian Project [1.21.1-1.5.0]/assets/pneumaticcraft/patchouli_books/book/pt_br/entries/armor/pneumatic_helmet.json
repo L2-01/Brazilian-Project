@@ -1,0 +1,73 @@
+{
+  "name": "Capacete Pneumático",
+  "icon": "pneumaticcraft:pneumatic_helmet",
+  "category": "pneumaticcraft:armor",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O $(item)Capacete Pneumático/$ é uma das quatro peças da $(thing)Armadura Pneumática/$.$(p)Por muito tempo, foi a única peça disponível."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pneumatic_helmet",
+      "text": "Fabricando um Capacete Pneumático"
+    },
+    {
+      "type": "spotlight",
+      "anchor": "entity_tracker",
+      "item": "pneumaticcraft:entity_tracker_upgrade",
+      "text": "Com uma melhoria de $(l:base_concepts/upgrades#entity_tracker)Rastreamento de Entidades/$ instalada, criaturas vivas num alcance de 16 blocos serão rastreadas automaticamente, mesmo através de paredes. Quando a entidade for uma criatura agressiva, você receberá um aviso se ela estiver mirando você. Isso permite que você se prepare para a batalha (ou fuga!). Você pode filtrar na GUI as entidades que devem ser rastreadas com um $(l:base_concepts/entity_filter)Filtro de Entidade/$."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:block_tracker_upgrade",
+      "text": "Com uma melhoria de $(l:base_concepts/upgrades#block_tracker)Rastreamento de Blocos/$ instalada, blocos especiais num raio de 30 blocos serão rastreados, mesmo através de paredes. Os seguintes blocos são rastreados:$(li)Quaisquer inventários (o conteúdo será mostrado)$(li)Geradores de Criaturas (o tempo de geração será mostrado)$(li)Blocos de Traças$(li)Molduras de Portal do End$(li)TNT$(li)Ganchos de Armadilha"
+    },
+    {
+      "type": "text",
+      "title": "Rastreamento de Blocos (cont.)",
+      "text": "Como alguns desses blocos são bem comuns (inventários na casa de um jogador, Blocos de Traças numa Fortaleza), o HUD parará automaticamente de exibir o rótulo se um certo número de blocos de um certo tipo for alcançado. Você ainda pode obter informações sobre um bloco rastreado passando o cursor sobre ele. Você também pode especificar quais blocos quer rastrear desmarcando-os na GUI de configuração."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:coordinate_tracker_upgrade",
+      "text": "A melhoria de $(l:base_concepts/upgrades#coordinate_tracker)Rastreamento de Coordenadas/$ calculará o caminho mais curto até um local selecionado, usando o próprio pathfinding do Minecraft para isso.$(p)Isso é muito útil quando você está perdido numa caverna e quer sair: abra o menu de opções (pressione $(thing)$(k:pneumaticcraft.armor.options)/$) e selecione $(bold)Navegar até a superfície/$."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:search_upgrade",
+      "text": "Você conhece o problema de tentar encontrar um certo item na sua base, que tem muitos e muitos baús? Se sim, então a $(l:base_concepts/upgrades#item_searcher)Melhoria de Busca/$ é para você. Você pode buscar um item na GUI: navegue até o item que procura com a barra de rolagem ou digite o nome do item na caixa de busca. Quando encontrar o item, coloque-o no espaço de Alvo."
+    },
+    {
+      "type": "text",
+      "title": "Busca de Itens (cont.)",
+      "text": "Agora, qualquer unidade do item selecionado no chão ou em qualquer inventário num alcance de 16 blocos ganhará um $(thing)brilho verde/$. O tamanho do brilho depende da proporção do item no local em relação ao total de itens encontrados.$(p)Note que você também precisa das melhorias $(l:base_concepts/upgrades#entity_tracker)Rastreamento de Entidades/$ (para itens no chão) e/ou $(l:base_concepts/upgrades#block_tracker)Rastreamento de Blocos/$ (para itens em inventários) no seu capacete."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:dispenser_upgrade",
+      "text": "Uma $(l:base_concepts/upgrades#dispenser)Melhoria de Ejetor/$, quando instalada junto com a $(l:base_concepts/upgrades#entity_tracker)Melhoria de Rastreamento de Entidades/$, permite monitorar/depurar $(l:tools/drone)Drones/$. Basta pressionar $(thing)$(k:pneumaticcraft.helmet.debugging.drone)/$ enquanto olha para um $(item)Drone/$. A animação de rastreamento agora terá uma borda vermelha. Agora abra a janela de opções do capacete pressionando $(thing)$(k:pneumaticcraft.armor.options)/$ e navegue até o painel $(bold)Depuração de Drone/$."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:range_upgrade",
+      "text": "A $(l:base_concepts/upgrades#range)Melhoria de Alcance/$ aumenta o alcance do $(l:base_concepts/upgrades#entity_tracker)Rastreamento de Entidades/$ em 16 blocos por melhoria e o do $(l:base_concepts/upgrades#block_tracker)Rastreamento de Blocos/$ em 5 blocos por melhoria. Até 5 melhorias são aceitas.$(p)Note que esta melhoria aumenta o consumo de ar do capacete."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:night_vision_upgrade",
+      "text": "A $(l:base_concepts/upgrades#night_vision)Melhoria de Visão Noturna/$ faz o que diz: permite que você veja no escuro, por um $(l:base_concepts/pressure)custo de ar/$ mínimo."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:scuba_upgrade",
+      "text": "A $(l:base_concepts/upgrades#scuba)Melhoria de Mergulho/$ permite que você respire debaixo d'água, usando ar da reserva do capacete para lhe fornecer ar. Como bônus, ela fornece uma máscara facial que permite uma visão subaquática muito mais clara; as vistas podem ser bem espetaculares em conjunto com uma $(l:base_concepts/upgrades#night_vision)Melhoria de Visão Noturna/$."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:ender_visor_upgrade",
+      "text": "A $(l:base_concepts/upgrades#ender_visor)Melhoria de Visor de Ender/$ é baseada em pesquisa avançada de $(thing)abóboras/$ e fornece um meio alternável de evitar a agressividade dos $(thing)Endermen/$, ao mesmo tempo mitigando as dificuldades visuais normalmente associadas a enfiar a cabeça numa abóbora de verdade."
+    }
+  ]
+}

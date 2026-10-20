@@ -1,0 +1,17 @@
+{
+    "name": "Fúria do Berserker",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(4)Fúria do Berserker$() é um encantamento Corrompido que pode ser aplicado a peitorais.$(p)Ao usar este encantamento, se você receber dano, receberá dano adicional e obterá Resistência, Velocidade e Força."
+        },
+		{
+			"type": "patchouli:text",
+			"text": "O dano recebido e a força da poção são baseados no nível do encantamento."
+		}
+	]
+}

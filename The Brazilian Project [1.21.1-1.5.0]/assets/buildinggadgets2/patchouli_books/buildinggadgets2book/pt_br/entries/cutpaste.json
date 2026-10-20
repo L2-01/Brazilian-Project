@@ -1,0 +1,42 @@
+{
+  "name": "Dispositivo de Recortar e Colar",
+  "sortnum": 4,
+  "category": "buildinggadgets2:gadgets",
+  "icon": "buildinggadgets2:gadget_cut_paste[buildinggadgets2:forge_energy=5000000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O dispositivo de recortar e colar torna mover estruturas moleza, e funciona exatamente como o $(l:buildinggadgets2:copypaste)Dispositivo de Copiar e Colar$(/l)! Para começar, certifique-se de estar no modo 'recortar' no menu de configurações. $(br2)Clique com o botão direito em um canto de uma estrutura e depois Shift + clique com o botão direito no canto oposto. Se feito corretamente, um contorno vermelho cercará sua estrutura."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Recortando",
+      "images": [
+        "buildinggadgets2:textures/book/images/cut.png"
+      ],
+      "border": true,
+      "text": "Recortando uma estrutura"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A estrutura não será removida até você clicar no botão 'recortar' no menu de configurações. $(br2)Mude o dispositivo para o modo 'colar' e você verá uma prévia fantasma da estrutura que copiou. $(br2)Para colocar a estrutura no mundo, basta clicar com o botão direito! Nenhum item é necessário para isso, pois ele usa os blocos que você removeu antes."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Prévia de Colagem",
+      "images": [
+        "buildinggadgets2:textures/book/images/paste.png"
+      ],
+      "border": true,
+      "text": "Pré-visualizando uma colagem"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você só pode ter uma estrutura armazenada no dispositivo por vez. Colocá-la no mundo apagará as informações armazenadas no dispositivo.$(br2)Tenha cuidado ao colar a estrutura, você só tem uma chance — o $(l:buildinggadgets2:exchangemode)modo de troca$(/l) é recomendado! $(br2)Se você tentar recortar uma nova área enquanto já existem dados, será pedida uma confirmação. Se fizer isso, o primeiro conjunto de dados será perdido para sempre!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Todos os dados de entidades-bloco serão movidos junto com a estrutura, incluindo o conteúdo de baús e configurações de blocos. $(br2)Assim como no $(l:buildinggadgets2:copypaste)Dispositivo de Copiar e Colar$(/l), você pode modificar as posições de recorte ou colagem com a opção apropriada do menu de configurações. Veja aquele capítulo para detalhes!"
+    }
+  ]
+}

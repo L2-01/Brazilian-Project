@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.serious_mint",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:serious_mint",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:serious_mint",
+            "text": "book.cobblepedia.entries.serious_mint.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:serious_mint",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

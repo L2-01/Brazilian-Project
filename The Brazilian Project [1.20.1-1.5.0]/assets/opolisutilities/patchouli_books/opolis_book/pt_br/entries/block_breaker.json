@@ -1,0 +1,18 @@
+{
+	"name": "Quebrador de Blocos",
+	"icon": "opolisutilities:block_breaker",
+	"category": "opolisutilities:advanced_items",
+	"sortnum": 10,
+	"pages": [
+		{
+    		"type": "spotlight",
+    		"item": "opolisutilities:block_breaker",
+    		"text": "Pode ser usado para quebrar blocos no mundo; os blocos só quebram com a ferramenta correta no primeiro espaço.$(br2)Blocos sem uma ferramenta padrão não funcionam com ele.$(br2)É afetado por itens encantados, de mods e vanilla!"
+    	},
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:block_breaker",
+			"text": "O segundo espaço é uma lista de permissões, ou seja, só blocos correspondentes são quebrados.$(br2)O terceiro espaço é uma lista de bloqueio, ou seja, tudo exceto o bloco no espaço será quebrado."
+		}
+	]
+}

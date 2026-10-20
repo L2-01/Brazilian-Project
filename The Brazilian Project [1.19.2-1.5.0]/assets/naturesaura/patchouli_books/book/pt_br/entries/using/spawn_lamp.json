@@ -1,0 +1,17 @@
+{
+    "name": "Lâmpada do Santuário",
+    "icon": "naturesaura:spawn_lamp",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A $(item)Lâmpada do Santuário$(), além de ser uma ótima peça decorativa, também tem outra função muito útil: quando abastecida com um $(thing)sinal de redstone$(), ela fará com que quaisquer monstros numa área de até cerca de 48 blocos ao redor $(thing)parem de aparecer$(), não importando o nível de luz. Para isso, a força do sinal de redstone determina o alcance. Toda vez que um monstro é impedido, uma pequena quantidade de $(aura) é usada."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando a $(item)Lâmpada do Santuário$()$(p)$(italic)Mobproofius Lampus$()",
+            "recipe": "naturesaura:spawn_lamp"
+        }
+    ]
+}

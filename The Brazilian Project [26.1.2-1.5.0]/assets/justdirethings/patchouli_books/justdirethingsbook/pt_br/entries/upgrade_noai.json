@@ -1,0 +1,17 @@
+{
+  "name": "Obliteração Mental",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_noai",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A melhoria Obliteração Mental desativa a inteligência artificial da criatura alvo. A criatura ficará completamente inerte para sempre, sem tomar nenhuma ação, devido a um bloqueio temporal completo do seu cérebro.$(br2)Esta é uma habilidade ativada e deve ser vinculada a uma tecla de atalho no menu de configurações da ferramenta."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Obliteração Mental",
+      "recipe": "justdirethings:upgrade_noai"
+    }
+  ]
+}

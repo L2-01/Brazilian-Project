@@ -1,0 +1,17 @@
+{
+  "name": "Vodu",
+  "icon": "enchanted:voodoo_poppet",
+  "category": "enchanted:infusing_poppets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Bonecos vodu, diferente da maioria das outras formas de bonecos, são uma efígie usada para transferir dano do boneco para um alvo."
+    },
+    {
+      "type": "enchanted:spinning_wheel_recipe",
+      "recipe": "enchanted:spinning/voodoo_poppet"
+    }
+  ],
+  "read_by_default": true,
+  "priority": false
+}

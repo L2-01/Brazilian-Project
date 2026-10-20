@@ -1,0 +1,24 @@
+{
+  "name": "Varinha do Tempo",
+  "sortnum": 7,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:time_wand[justdirethings:forge_energy=100000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Varinha do Tempo é um jeito portátil de aproveitar as habilidades de alteração do tempo dos $(l:justdirethings:res_time_crystal)Cristais do Tempo$(/l)$(br2)Note que, para usar esta varinha, você precisará carregá-la tanto com Forge Energy quanto com $(l:justdirethings:res_time_fluid)Fluido de Tempo$(/l)"
+    },
+    {
+      "type": "justdirethings:text_with_config",
+      "text": "Basta clicar com o botão direito em qualquer bloco que processe tiques — inclui máquinas como Fornalhas e plantações como Trigo. A princípio, o bloco rodará duas vezes mais rápido. Clique de novo para dobrar a 4x, depois 8x, até #time_wand.time_wand_max_multiplier#x de velocidade!$(br2)Cada aceleração consumirá Forge Energy e Fluido de Tempo conforme o aumento de velocidade.$(br2)Esse aumento de velocidade dura 30 segundos.",
+      "config_options": [
+        "time_wand.time_wand_max_multiplier"
+      ]
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Varinha do Tempo",
+      "recipe": "justdirethings:time_wand"
+    }
+  ]
+}

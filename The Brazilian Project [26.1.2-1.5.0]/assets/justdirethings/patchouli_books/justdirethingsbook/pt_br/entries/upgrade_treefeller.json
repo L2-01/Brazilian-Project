@@ -1,0 +1,17 @@
+{
+  "name": "Lenhador",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_treefeller",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O lenhador é uma habilidade passiva que vai em Machados de Ferricoro e superiores. Quando você quebra um pedaço de madeira, ele quebra quaisquer blocos de madeira iguais adjacentes ao mesmo tempo.$(br2)Derrube essas árvores numa única machadada!$(br2)Nota: derrubar uma árvore inteira de uma vez leva um pouco mais de tempo que um único bloco!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Lenhador",
+      "recipe": "justdirethings:upgrade_treefeller"
+    }
+  ]
+}

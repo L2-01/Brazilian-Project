@@ -1,0 +1,40 @@
+{
+  "name": "Cartão de Mineração",
+  "icon": "rftoolsbuilder:shape_card_quarry",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_quarry": 1,
+    "rftoolsbuilder:shape_card_quarry_clear": 2,
+    "rftoolsbuilder:shape_card_quarry_silk": 3,
+    "rftoolsbuilder:shape_card_quarry_fortune": 4,
+    "rftoolsbuilder:shape_card_quarry_clear_silk": 3,
+    "rftoolsbuilder:shape_card_quarry_clear_fortune": 4
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Cartão de Mineração faz o Construtor extrair todos os blocos da área selecionada. Cartões de mineração normais substituem os blocos extraídos pelo bloco de preenchimento configurado."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_quarry"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_quarry_clear"
+    },
+    {
+      "type": "text",
+      "text": "As variantes de Limpeza deixam ar em vez do preenchimento. As variantes com Toque Suave preservam os blocos, enquanto as variantes com Fortuna melhoram os itens largados quando possível."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_quarry_silk"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_quarry_fortune"
+    }
+  ]
+}

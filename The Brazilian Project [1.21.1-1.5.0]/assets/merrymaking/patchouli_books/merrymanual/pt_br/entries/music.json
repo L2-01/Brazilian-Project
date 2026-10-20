@@ -1,0 +1,31 @@
+{
+
+"name": "Discos de Música Festiva",
+    "icon": "merrymaking:christmas_music_disc_1",
+    "category": "merrymaking:music",
+    "pages": [
+	
+		{		
+			"type": "patchouli:text",				
+			"text": "Discos de Música Festiva podem ser encontrados em baús por todo o mundo normal, ou podem ser largados quando um Esqueleto mata um Creeper." 			
+		},
+		
+		{		
+			"type": "spotlight",
+			"title": "Disco de Música Festiva Vermelho",
+			"item": "merrymaking:christmas_music_disc_1",
+			"text": "O Disco Vermelho toca um sortimento de músicas festivas lofi por LofiGeek." 			
+		},
+		
+		{		
+			"type": "spotlight",
+			"title": "Disco de Música Festiva Verde",
+			"item": "merrymaking:christmas_music_disc_2",
+			"text": "O Disco Verde toca músicas festivas mais tradicionais." 			
+		}			
+		
+		
+		]
+	
+	
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Alma da Maestria do Voo",
+  "sortnum": 2,
+  "category": "fargostalismans:souls",
+  "icon": "fargostalismans:soul_of_flight_mastery",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Alma da Maestria do Voo concede voo do modo criativo. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_ultimate)Base de Talismã Ultimate$(/l). A alma é usada para fabricar a $(l:fargostalismans:soul_of_dimensions)Alma das Dimensões$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:souls/soul_of_flight_mastery",
+      "recipe2": "fargostalismans:souls/soul_of_dimensions"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os itens para fabricá-la são fabricados usando élitros"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:souls/soul_of_flight_mastery_1",
+      "recipe2": "fargostalismans:souls/soul_of_flight_mastery_2"
+    }
+  ],
+  "read_by_default": true
+}

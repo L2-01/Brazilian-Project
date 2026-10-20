@@ -1,0 +1,18 @@
+{
+    "name": "Módulo de Capacidade",
+    "icon": "mffs:capacity_module",
+    "category": "mffs:upgrade_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:capacity_module",
+            "link_recipe": true,
+            "text": "O $(5)Módulo de Capacidade$() pode ser colocado nos espaços de upgrade de várias máquinas MFFS para melhorar suas capacidades de armazenamento de $(l:mffs:getting_started/fortron)Fortron$(). Seus efeitos variam conforme a máquina, mas mais comumente incluem aumentar a capacidade de $(l:mffs:getting_started/fortron)Fortron$() de um dispositivo."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:capacity_module",
+            "text": "Fabricando o $(5)Módulo de Capacidade$()."
+        }
+    ]
+}

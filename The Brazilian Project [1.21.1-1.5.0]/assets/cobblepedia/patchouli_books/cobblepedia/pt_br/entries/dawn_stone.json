@@ -1,0 +1,39 @@
+{
+    "name": "item.cobblemon.dawn_stone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:dawn_stone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:dawn_stone",
+            "title": "item.cobblemon.dawn_stone",
+            "text": "book.cobblepedia.entries.dawn_stone.text"
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "cobblemon:dawn_stone_from_smelting_dawn_stone_ore",
+            "recipe2": "cobblemon:dawn_stone_from_smelting_deepslate_dawn_stone_ore",
+            "title": "book.cobblepedia.pages.smelting"
+        },
+        {
+            "type": "patchouli:blasting",
+            "recipe": "cobblemon:dawn_stone_from_blasting_dawn_stone_ore",
+            "recipe2": "cobblemon:dawn_stone_from_blasting_deepslate_dawn_stone_ore",
+            "title": "book.cobblepedia.pages.blasting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.dawn_stone.evolving",
+            "using_item2": "cobblemon:dawn_stone",
+            "evolving_tooltip2": "book.cobblepedia.entries.dawn_stone.evolving_tooltip.kirilia_gallade",
+            "pokemon2": "cobblemon:kirlia[male]",
+            "evolved_pokemon2": "cobblemon:gallade",
+            "using_item3": "cobblemon:dawn_stone",
+            "evolving_tooltip3": "book.cobblepedia.entries.dawn_stone.evolving_tooltip.snorunt_froslass",
+            "pokemon3": "cobblemon:snorunt[female]",
+            "evolved_pokemon3": "cobblemon:froslass"
+        }
+    ]
+}

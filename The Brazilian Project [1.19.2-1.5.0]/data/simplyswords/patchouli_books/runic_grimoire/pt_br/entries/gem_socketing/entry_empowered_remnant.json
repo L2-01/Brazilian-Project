@@ -1,0 +1,20 @@
+{
+  "name": "Remanescente Fortalecido",
+  "icon": "simplyswords:empowered_remnant",
+  "category": "simplyswords:category_gem_socketing",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:empowered_remnant",
+      "text": "Remanescentes Fortalecidos podem ser obtidos fundindo armas únicas numa fornalha. A arma é destruída e uma pequena porção de seu poder permanece na forma de um Remanescente Fortalecido."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando este item é combinado numa mesa de ferraria com um catalisador, como uma Tábua Rúnica ou uma Barra de Netherita, uma gema pode ser formada. Essas gemas podem então ser encaixadas em encaixes correspondentes em armas únicas, permitindo fortalecê-las de várias formas."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "simplyswords:soulrender"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Peças de Quebra-Cabeça",
+  "icon": "pneumaticcraft:textures/progwidgets/start_piece.png",
+  "category": "pneumaticcraft:programming",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Os $(thing)Quebra-Cabeças de Programação/$, ou $(thing)Peças de Quebra-Cabeça/$, são os itens físicos usados para programar um $(l:tools/drone)Drone/$ com um $(l:programming/programmer)Programador/$. Eles são consumidos quando um Drone é programado, mas podem ser recuperados sobrescrevendo o $(item)Drone/$ com um programa menor (ou vazio).$(p)As representações virtuais das $(thing)Peças de Quebra-Cabeça/$ na GUI do $(item)Programador/$ são chamadas de $(thing)Widgets de Programação/$."
+    },
+    {
+      "type": "text",
+      "text": "Para gravar um programa num $(l:tools/drone)Drone/$, você deve ter as $(thing)Peças de Quebra-Cabeça/$ no seu inventário ou colocá-las num inventário adjacente ao $(item)Programador/$ (em qualquer lado).$(p)Se você estiver no Modo Criativo, a programação é completamente grátis; nenhuma peça necessária."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:programming_puzzle"
+    }
+  ]
+}

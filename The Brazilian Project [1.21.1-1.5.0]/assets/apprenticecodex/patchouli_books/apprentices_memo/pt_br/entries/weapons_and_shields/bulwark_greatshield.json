@@ -1,0 +1,35 @@
+{
+  "name": "item.apprenticecodex.bulwark_greatshield",
+  "category": "apprenticecodex:weapons_and_shields",
+  "icon": "apprenticecodex:bulwark_greatshield",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:bulwark_greatshield",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.bulwark_greatshield.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:bulwark_greatshield",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.bulwark_greatshield.page.p002.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:fire_rune",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.bulwark_greatshield.page.p003.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.bulwark_greatshield.page.p003.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:wisdom_shard",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.bulwark_greatshield.page.p004.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.bulwark_greatshield.page.p004.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spell_calibration_bench"
+      ]
+    }
+  ]
+}

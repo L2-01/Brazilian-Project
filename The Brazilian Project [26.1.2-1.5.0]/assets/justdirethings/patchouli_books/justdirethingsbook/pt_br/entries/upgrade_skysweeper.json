@@ -1,0 +1,17 @@
+{
+  "name": "Limpa-Céus",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_skysweeper",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O limpa-céus é uma habilidade passiva instalada em pás de Ferricoro e superiores. Quando você quebra um bloco com gravidade (como cascalho ou areia), quaisquer blocos iguais acima dele também serão quebrados automaticamente. Chega de cascalho caindo enquanto você minera!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Limpa-Céus",
+      "recipe": "justdirethings:upgrade_skysweeper"
+    }
+  ]
+}

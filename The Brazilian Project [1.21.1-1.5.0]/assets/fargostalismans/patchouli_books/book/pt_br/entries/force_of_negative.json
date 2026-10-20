@@ -1,0 +1,18 @@
+{
+  "name": "Força do Negativo",
+  "sortnum": 6,
+  "category": "fargostalismans:forces",
+  "icon": "fargostalismans:force_of_negative",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Força do Negativo concede todos os efeitos dos talismãs usados na sua fabricação. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_legendary)Base de Talismã Lendário$(/l). A força é usada para fabricar a $(l:fargostalismans:soul_of_minecraft)Alma do Minecraft$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:forces/force_of_negative",
+      "recipe2": "fargostalismans:souls/soul_of_minecraft"
+    }
+  ],
+  "read_by_default": true
+}

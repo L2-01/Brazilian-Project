@@ -1,0 +1,28 @@
+{
+    "name": "book.cobblepedia.entries.herb",
+    "category": "cobblepedia:held_items",
+    "icon": "cobblemon:revival_herb",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.herb",
+            "item": "tag:cobblemon:herbs",
+            "text": "book.cobblepedia.entries.herb.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.herb.obtaining.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:revival_herb",
+                "cobblepedia:mental_herb",
+                "cobblepedia:power_herb",
+                "cobblepedia:white_herb",
+                "cobblepedia:mirror_herb"
+            ]
+        }
+    ]
+}

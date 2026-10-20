@@ -1,0 +1,63 @@
+{
+  "name": "Energia AE",
+  "icon": "ae2:energy_cell",
+  "category": "ae2:concepts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(thing)Sistema ME$() usa uma forma de energia única medida em $(thing)AE$().$(br2)Alguns $(item)Sistemas de Energia Externos$() podem ser convertidos em $(thing)AE$(), mas essa conversão só funciona num sentido.$(br2)Quais $(item)Sistemas de Energia Externos$() estão disponíveis depende da configuração do seu modpack."
+    },
+    {
+      "flag": "mod:fabric-api",
+      "type": "patchouli:text",
+      "title": "Conversão(ões) do Fabric",
+      "text": "A \"$(thing)Energy$()\" do Tech Reborn converte em $(thing)AE$() na proporção padrão de $(thing)$(bold)2 E = 1 AE$()."
+    },
+    {
+      "flat": "mod:forge",
+      "type": "patchouli:text",
+      "title": "Conversão(ões) do Forge",
+      "text": "\"\"$(thing)Forge Energy$()\" ($(thing)FE$()), às vezes chamada de \"$(thing)Redstone Flux$()\" ($(thing)RF$()), ou ainda outros nomes ($(thing)IF$(), $(thing)CF$(), $(thing)µI$(), etc.), é o sistema de energia mais usado. Ela converte em $(thing)AE$() na proporção padrão de $(thing)$(bold)2 FE = 1 AE$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Blocos de Conversão",
+      "text": "As máquinas a seguir aceitam $(thing)Energia Externa$() diretamente só para elas mesmas.$(li)$(l:ae2:getting_started/charger)Carregador$(/l)$(li)$(l:ae2:getting_started/inscriber)Inscritor$(/l)$(li)$(l:ae2:todo)Baú ME$(/l)$(br2)Os blocos a seguir conseguem aceitar $(thing)Energia Externa$() e convertê-la em $(thing)AE$() para toda a Rede.$(li)$(item)Aceitador de Energia$()$(li)$(l:ae2:todo)Controlador ME$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ae2:network/blocks/energy_energy_acceptor",
+      "recipe2": "ae2:network/parts/energy_acceptor"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armazenamento de Energia",
+      "text": "A energia $(thing)AE$() fica armazenada na rede. Os blocos a seguir aumentam quanta energia pode ser armazenada.$(li)Qualquer Rede ME: 800 $(thing)AE$()$(li)$(l:ae2:todo)Controlador ME$(/l): 8.000 $(thing)AE$()$(li)$(item)Célula de Energia$(): 200 mil $(thing)AE$()$(li)$(item)Célula Densa de Energia$(): 1,6 mi $(thing)AE$()$(br2)Um problema comum de iniciante é a falta de $(thing)armazenamento de energia AE$(). Se você tiver problemas de energia (o sistema apagando ou reiniciando constantemente), adicione $(item)Células de Energia$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ae2:network/blocks/energy_energy_cell",
+      "recipe2": "ae2:network/blocks/energy_dense_energy_cell"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Transferência de Energia",
+      "text": "A $(thing)Energia AE$() está disponível em toda a $(thing)Rede$(). Ela segue as mesmas regras de conectividade dos $(l:ae2:concepts/channels)Canais$(/l), com uma exceção.$(br2)A $(l:ae2:todo)Fibra de Quartzo$() é uma peça multi-part de cabo que bloqueia $(thing)Canais$(), mas permite que a $(thing)energia AE$() passe entre $(thing)Redes$(). É útil para $(l:ae2:todo)Sub-Redes$().$(br2)As $(item)Células de Energia$() mantêm a carga quando quebradas."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Consumo de Energia",
+      "text": "A $(thing)Energia AE$() é consumida pela rede para vários propósitos, como...$(li)Cada bloco por onde um Canal precisa passar (Redes com Controlador são mais eficientes que Ad-Hoc).$(li)Componentes com consumo passivo de energia.$(li)Componentes com consumo ativo de energia para executar tarefas específicas.$(br2)O $(l:ae2:todo)Controlador$(/l) ou a $(l:ae2:todo)Ferramenta de Rede$(/l) podem mostrar estatísticas de energia."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ae2:network/blocks/energy_vibration_chamber",
+      "text": "Se você não tiver um $(thing)sistema de energia externo$() disponível, pode usar a $(item)Câmara de Vibração$() para gerar $(thing)AE$() diretamente usando $(thing)combustíveis de fornalha$(). Com as configurações padrão, 1 $(item)Carvão$() produz 8.000 $(thing)AE$() a 40 $(thing)AE$()/t."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Observações Extras",
+      "text": "Vale ressaltar que vários $(thing)Mods de HUD$() só mostram os números de armazenamento de energia local, e vão mostrar 0 de energia em coisas como $(l:ae2:getting_started/inscriber)Inscritores$() quando eles são alimentados pela $(thing)Rede$(). O $(item)Inscritor$() vai funcionar normalmente mesmo assim.$(br2)Embora $(l:ae2:todo)Controladores$(/l) possam aceitar $(thing)energia externa$(), isso normalmente ocupa uma face (32 $(thing)canais$() potenciais), então geralmente é melhor continuar usando um $(item)Aceitador de Energia$() como entrada."
+    }
+  ]
+}

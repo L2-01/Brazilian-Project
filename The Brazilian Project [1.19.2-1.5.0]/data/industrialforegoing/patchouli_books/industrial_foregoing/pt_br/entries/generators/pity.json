@@ -1,0 +1,17 @@
+{
+  "name": "Gerador Medíocre",
+  "icon": "industrialforegoing:pitiful_generator",
+  "category": "industrialforegoing:generators",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Um gerador muito ineficiente que consome combustíveis queimáveis, como carvão. $(br2)É tão ineficiente que, quando o buffer de energia da máquina está cheio, ele continua consumindo combustível."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:pitiful_generator"
+    }
+  ]
+}

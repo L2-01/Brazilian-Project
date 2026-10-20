@@ -1,0 +1,18 @@
+{
+    "name": "book.cobblepedia.entries.battling",
+    "category": "cobblepedia:getting_started",
+    "icon": "cobblemon:razor_fang",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.battling.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:catching",
+                "cobblepedia:battling_players"
+            ]
+        }
+    ]
+}

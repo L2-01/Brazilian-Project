@@ -1,0 +1,19 @@
+{
+  "name": "Abandonado",
+  "icon": "railcraft:abandoned_track",
+  "category": "railcraft:track_type",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O tipo de trilho abandonado se destaca pela habilidade de ficar suspenso, fazer carrinhos descarrilharem e crescer grama. Este tipo de trilho é feito com trilhos normais e dormentes de madeira simples.$(br2)Trilhos abandonados requerem menos madeira e creosoto que trilhos de ferro. Em geral, é melhor construir este tipo de trilho quando você está sem creosoto ou sem tempo. Eles podem ser úteis se você deseja construir muitos trilhos em pouco tempo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "No entanto, carrinhos podem descarrilhar se estiverem rápidos demais em trilhos abandonados. Quando a velocidade dos carrinhos em trilhos abandonados excede 0,35 bloco por tique (7m/s, 87,5% do limite de velocidade de trilhos normais), o trem começa a ter uma chance de descarrilhar. A cada tique após exceder esse limite de velocidade, um carrinho tem 0,2% de chance de descarrilhar. A chance aumenta para 4% em um segundo, e para quase 1/3 em 10 segundos. Para um trem, quando um carrinho do trem descarrilha, o trem inteiro descarrilha."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando você precisar atravessar um cânion, eles podem se tornar úteis. Criaturas e jogadores não podem andar sobre trilhos abandonados suspensos.$(br2)Um trilho abandonado crescerá grama quando estiver ao lado de um bloco de grama alta."
+    }
+  ]
+}

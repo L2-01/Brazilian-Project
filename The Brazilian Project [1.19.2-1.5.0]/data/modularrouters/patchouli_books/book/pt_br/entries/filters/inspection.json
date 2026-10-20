@@ -1,0 +1,23 @@
+{
+  "name": "Filtro de Inspeção",
+  "category": "modularrouters:filters",
+  "icon": "modularrouters:inspection_filter",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este filtro permite a correspondência de itens por várias propriedades inteiras diversas do item. As inspeções atualmente suportadas são:$(li)Para itens contêiner de fluido (baldes, tanques...), o nível de fluido como porcentagem.$(li)Para itens contêiner de energia (baterias, ferramentas energizadas...), o nível de energia como porcentagem."
+    },
+    {
+      "type": "text",
+      "text": "$(li)O maior nível de encantamento entre os encantamentos do item (pode ser usado para filtrar itens encantados, ex.: de uma farm de criaturas)$(li)A durabilidade de itens (ferramentas, armas) como porcentagem da durabilidade máxima.$(li)Para itens comestíveis, o valor alimentar como número de meias coxas restauradas (ex.: bife tem valor 8)."
+    },
+    {
+      "type": "text",
+      "text": "Para itens que não têm a propriedade inspecionada de forma alguma, o valor retornado será sempre -1, ex.: um $(item)Pedregulho/$ tem valor de durabilidade -1. Isso é distinto de um retorno 0, já que uma ferramenta com menos de 1% de durabilidade restante retornaria valor 0.$(p)Este filtro pode ser útil para extrair automaticamente itens danificados ou descarregados para reparo/recarga, etc."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:inspection_filter"
+    }
+  ]
+}

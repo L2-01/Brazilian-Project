@@ -1,0 +1,24 @@
+{
+    "name": "item.cobblemon.light_ball",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:light_ball",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:light_ball",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.light_ball.text"
+        },
+        {
+            "type": "cobblepedia:largping",
+            "title": "book.cobblepedia.pages.largping",
+            "drop_item": "cobblemon:light_ball",
+            "pokemon": "cobblemon:pikachu",
+            "rate": "5",
+            "drop_item2": "cobblemon:light_ball",
+            "pokemon2": "cobblemon:raichu",
+            "rate2": "10"
+        }
+    ]
+}

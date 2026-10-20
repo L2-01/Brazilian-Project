@@ -1,0 +1,17 @@
+{
+  "name": "item.apprenticecodex.mana_maneuver_gear",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:mana_maneuver_gear",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:mana_maneuver_gear",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.mana_maneuver_gear.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:mana_maneuver_gear",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.mana_maneuver_gear.page.p002.text"
+    }
+  ]
+}

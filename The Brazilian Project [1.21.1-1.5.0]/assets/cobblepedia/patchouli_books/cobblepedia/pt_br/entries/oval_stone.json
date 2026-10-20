@@ -1,0 +1,24 @@
+{
+    "name": "item.cobblemon.oval_stone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:oval_stone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:oval_stone",
+            "link_recipe": true,
+            "title": "item.cobblemon.oval_stone",
+            "text": "book.cobblepedia.entries.oval_stone.text"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.oval_stone.evolving",
+            "holding_item3": "cobblemon:oval_stone",
+            "evolving_tooltip3": "book.cobblepedia.entries.oval_stone.evolving_tooltip",
+            "pokemon3": "cobblemon:happiny",
+            "evolved_pokemon3": "cobblemon:chansey"
+        }
+    ]
+}

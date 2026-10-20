@@ -1,0 +1,28 @@
+{
+  "name": "Proxy de Redstone",
+  "icon": "xnet:redstone_proxy",
+  "category": "rftoolsbase:category_xnet_simple",
+  "extra_recipe_mappings": {
+    "xnet:redstone_proxy": 0,
+    "xnet:redstone_proxy_upd": 0
+  },
+  "sortnum": 50,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Proxy de Redstone é um bloco auxiliar para interação com redstone. Use-o onde uma configuração XNet precisa de um bloco simples voltado a redstone."
+    },
+    {
+      "type": "text",
+      "text": "A variante de atualização também envia atualizações aos vizinhos. Use-a quando a redstone próxima deve ser notificada imediatamente."
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:redstone_proxy"
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:redstoneproxy_update"
+    }
+  ]
+}

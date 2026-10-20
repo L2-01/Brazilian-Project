@@ -1,0 +1,12 @@
+{
+    "name": "Deterioração Carmesim",
+    "icon": "minecraft:soul_sand",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:negative_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Acontece que os efeitos da $(l:effects/decay)Deterioração Natural$() se estendem ao $(thing)nether$() de certa forma: quando os níveis de $(aura) estão baixos o suficiente, $(item)netherrack$() e outros blocos também começarão a se $(thing)deteriorar$(). Primeiro, eles se transformarão em $(item)terra das almas$(), depois em $(item)areia das almas$(), inevitavelmente tornando a área realmente difícil de atravessar. Além disso, blocos também começarão a $(thing)pegar fogo$() aparentemente ao acaso."
+        }
+    ]
+}

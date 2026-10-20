@@ -1,0 +1,17 @@
+{
+  "name": "Talismã de Maçã",
+  "sortnum": 2,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:apple_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã de Maçã aumenta a cura em 25% adicionais. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_advanced)Base de Talismã Avançado$(/l). O talismã não é usado para fabricar uma força."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/apple_talisman"
+    }
+  ],
+  "read_by_default": true
+}

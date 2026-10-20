@@ -1,0 +1,74 @@
+{
+  "name": "Escolas de Magia",
+  "icon": "irons_spellbooks:lightning_bottle",
+  "category": "irons_spellbooks:root",
+  "sortnum": 20,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Visão Geral",
+      "text": "Cada feitiço mágico pertence a uma escola de magia. Cada escola encapsula um tema, tanto visual quanto funcional, e cada uma tem um Foco: um item representativo usado como ingrediente de fabricação. Além disso, cada escola pode ser fortalecida por equipamentos específicos da escola, permitindo que você se torne um poderoso mestre de uma única escola, ou misture e combine para virar um generalista."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:blaze_rod",
+      "title": "Fogo",
+      "text": "A escola de Fogo, com uma Vara de Blaze como Foco, é centrada em dano e dano ao longo do tempo."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:frozen_bone",
+      "title": "Gelo",
+      "text": "A escola de Gelo, com Ossos Congelados como Foco, é centrada em dano e controle de grupo."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:lightning_bottle",
+      "title": "Raio",
+      "text": "A escola de Raio, com uma Garrafa de Relâmpago como Foco, é centrada em dano concentrado."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:divine_pearl",
+      "title": "Sagrado",
+      "text": "A escola Sagrada, com a Pérola Divina como Foco, é centrada em suporte, cura e fortalecimento de aliados."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:ender_pearl",
+      "title": "Ender",
+      "text": "A escola Ender, com uma Pérola de Ender como Foco, é tematizada em torno de tudo que é arcano e místico, com feitiços que vão de dano a utilidade e mobilidade."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:blood_vial",
+      "title": "Sangue",
+      "text": "A escola de Sangue, com um Frasco de Sangue como Foco, é tematizada em torno do mal; você encontrará elementos de necromancia, decomposição e magia de sangue aqui, com feitiços focados em dano que fortalece o conjurador."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:emerald",
+      "title": "Evocação",
+      "text": "A escola de Evocação, com uma Esmeralda como Foco, é tematizada em torno de truques mágicos e conjuração, cobrindo a mais ampla variedade de feitiços ofensivos, defensivos e utilitários."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:poisonous_potato",
+      "title": "Natureza",
+      "text": "A escola de Natureza, com uma Batata Venenosa como Foco, é focada em aplicar penalidades aos inimigos, com elementos de dano para finalizá-los."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:eldritch_manuscript",
+      "title": "Ancestral",
+      "text": "A escola Ancestral não é como as outras. É uma forma antiga e poderosa de magia, quase completamente esquecida; você não poderá fabricar nem lançar feitiços Ancestrais de imediato. No entanto, fragmentos de manuscritos Ancestrais antigos ainda podem ser encontrados espalhados pelo mundo, e podem até ser recompostos com a ajuda de um fragmento de eco."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:echo_shard",
+      "title": "Ancestral, continuação",
+      "text": "Depois que um manuscrito é restaurado, ele pode ser consumido para aprender um único feitiço Ancestral, habilitando sua fabricação e seu lançamento. Depois de aprendido, o Fragmento de Eco é usado como foco."
+    }
+  ]
+}

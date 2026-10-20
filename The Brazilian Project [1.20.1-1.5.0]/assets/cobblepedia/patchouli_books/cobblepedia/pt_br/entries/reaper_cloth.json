@@ -1,0 +1,28 @@
+{
+    "name": "item.cobblemon.reaper_cloth",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:reaper_cloth",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:reaper_cloth",
+            "title": "item.cobblemon.reaper_cloth",
+            "text": "book.cobblepedia.entries.reaper_cloth.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:reaper_cloth",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.reaper_cloth.evolving",
+            "holding_item3": "cobblemon:reaper_cloth",
+            "using_item3": "cobblemon:link_cable",
+            "pokemon3": "cobblemon:dusclops",
+            "evolved_pokemon3": "cobblemon:dusknoir"
+        }
+    ]
+}

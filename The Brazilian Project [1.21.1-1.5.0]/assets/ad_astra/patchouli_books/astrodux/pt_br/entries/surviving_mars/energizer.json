@@ -1,0 +1,18 @@
+{
+  "name": "Energizador",
+  "icon": "ad_astra:energizer",
+  "sortnum": 5,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Energizador",
+      "item": "ad_astra:energizer",
+      "text": "O energizador é uma máquina capaz de energizar itens e armazenar grandes quantidades de energia. Para carregar um item, energize o energizador e depois clique com o botão direito no energizador com esse item. Ele armazena 2 milhões de energia, tornando-o capaz de carregar máquinas por muito tempo. Ele também retém sua energia quando quebrado."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:energizer"
+    }
+  ]
+}

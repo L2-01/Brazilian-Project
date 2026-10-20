@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.skull_fossil",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:skull_fossil",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.skull_fossil",
+            "item": "cobblemon:skull_fossil",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.skull_fossil.text"
+        }
+    ]
+}

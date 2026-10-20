@@ -1,0 +1,42 @@
+{
+    "name": "block.cobblemon.pep_up_flower",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:pep_up_flower",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:pep_up_flower",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.pep_up_flower.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.pep_up_flower.obtaining.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "book.cobblepedia.pages.ingredient",
+            "recipe": "cobblemon:pep_up_flower_to_white_dye"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:x_attack",
+                "cobblepedia:x_accuracy",
+                "cobblepedia:x_special_attack",
+                "cobblepedia:x_speed",
+                "cobblepedia:x_defence",
+                "cobblepedia:x_special_defence",
+                "cobblepedia:guard_spec",
+                "cobblepedia:dire_hit",
+                "cobblepedia:pp_max",
+                "cobblepedia:pp_up",
+                "cobblepedia:fine_remedy"
+            ]
+        }
+    ]
+}

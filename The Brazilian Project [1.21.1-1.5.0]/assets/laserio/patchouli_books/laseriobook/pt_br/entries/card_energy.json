@@ -1,0 +1,33 @@
+{
+  "name": "Cartões de Energia",
+  "sortnum": 3,
+  "category": "laserio:cards",
+  "icon": "laserio:card_energy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cartões de Energia são usados para enviar Energia entre inventários, como máquinas e baterias.$(br2)Os cartões de energia têm mecânicas levemente diferentes dos outros cartões, e serão documentados nas páginas seguintes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Diferente dos cartões de Item/Fluido que exigem overclockers para operar mais rápido que uma vez a cada 20 tiques, os Cartões de Energia podem operar a cada tique por padrão.$(br2)Overclockers não podem ser colocados em cartões de energia. Os cartões de energia sempre operam a no máximo 1.000.000 FE/tique. Isso pode ser reduzido se você quiser."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os cartões de energia também têm um ajuste 'Limite de Energia %' — por padrão, nos modos inserir/estocar isso é 100%, e nos modos de extração é 0%. No modo inserir/estocar ele especifica o quanto encher o aceitador de energia especificado. $(br2)Por exemplo: Se o bloco puder guardar 1.000.000 FE, e você especificar 50%, ele só encherá até 500.000FE."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "No modo extrair, isso designa qual porcentagem deve ser deixada para trás.$(br2)Por exemplo: Se você estiver extraindo FE de uma célula de energia que pode guardar 1.000.000FE, e especificar um limite de 25%, ele não extrairá abaixo de 250.000 FE."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Nota Técnica: O sistema Forge Energy suporta armazenamento de energia até MAX_INT, que é aproximadamente 2,14 bilhões de FE. Se você estiver usando um mod como Draconic Evolution ou Mekanism, suas células de armazenamento podem guardar mais que essa quantidade 'hackeando' como a Forge Energy funciona. Como resultado, este indicador de % não funcionará em células de armazenamento maiores que 2,14 bilhões de FE. Desculpe! :)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Cartão de Energia",
+      "recipe": "laserio:card_energy"
+    }
+  ]
+}

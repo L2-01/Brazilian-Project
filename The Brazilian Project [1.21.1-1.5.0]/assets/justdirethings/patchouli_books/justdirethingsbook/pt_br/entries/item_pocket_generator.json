@@ -1,0 +1,21 @@
+{
+  "name": "Gerador Portátil",
+  "sortnum": 2,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:pocket_generator",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Gerador Portátil é uma fonte de energia portátil, perfeita para manter carregadas ferramentas e armaduras dependentes de energia enquanto você se move. Essencial para aventureiros que dependem de Forge Energy.$(br2)Abra a UI clicando nele e insira combustível na forma de carvão ou carvões melhorados deste mod!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Combustíveis de nível maior queimam mais quente e por mais tempo, então você obtém mais forge energy / tique usando combustíveis de nível maior. Você também pode usar o $(l:justdirethings:item_fuel_canister)Recipiente de Combustível$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação do Gerador Portátil",
+      "recipe": "justdirethings:pocket_generator"
+    }
+  ]
+}

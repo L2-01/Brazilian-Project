@@ -1,0 +1,26 @@
+{
+  "name": "patchouli.apprenticecodex.apprentices_memo.entry.wooden_wand.name",
+  "category": "apprenticecodex:staves_and_casting_devices",
+  "icon": "apprenticecodex:wooden_wand",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:wooden_wand",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.wooden_wand.page.p001.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.apprentice_desk"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:magic_tools/crude_ink",
+        "apprenticecodex:devices/apprentice_desk"
+      ]
+    }
+  ]
+}

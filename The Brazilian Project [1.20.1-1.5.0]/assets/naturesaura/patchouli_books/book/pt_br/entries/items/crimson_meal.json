@@ -1,0 +1,21 @@
+{
+    "name": "Farinha Carmesim",
+    "icon": "naturesaura:crimson_meal",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_nether",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Na maioria das vezes, a $(item)Farinha de Osso$() cumpre seu propósito: fertilizar plantas para fazê-las crescer muito mais rápido. Porém, quando se trata da dimensão do $(thing)Nether$(), a simples farinha de osso não se sai tão bem.$(br)Esse problema, porém, pode ser facilmente evitado através do uso da $(item)Farinha Carmesim$().$(br)Esta substância não só fará qualquer planta de $(item)Fungo do Nether$() crescer mais rápido, de forma semelhante à farinha de osso"
+        },
+        {
+            "type": "text",
+            "text": "funcionar, mas também fará $(item)Fungo do Nether$() totalmente crescido virar um enorme $(thing)cogumelo de fungo do nether$() que pode ser colhido por um rendimento maior de produção."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando a $(item)Farinha Carmesim$()",
+            "recipe": "naturesaura:crimson_meal"
+        }
+    ]
+}

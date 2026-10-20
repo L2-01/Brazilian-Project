@@ -1,0 +1,28 @@
+{
+	"name": "Fragmento de Pérola do Ender",
+	"icon": "opolisutilities:textures/item/ender_pearl_fragment.png",
+
+	"category": "opolisutilities:advanced_items",
+	"sortnum": 6,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Fragmentos de Pérola do Ender podem cair do minério de ender que aparece no subsolo."
+		},
+		{
+            "type": "spotlight",
+            "item": "opolisutilities:ender_ore",
+            "text": "Minério de Ender"
+        },
+        {
+            "type": "spotlight",
+            "item": "opolisutilities:deepslate_ender_ore",
+            "text": "Minério de Ender de Ardosiabissal"
+        },
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:ender_pearl_from_ender_pearl_fragments",
+			"text": "Usado para fazer Pérolas do Ender."
+		}
+	]
+}

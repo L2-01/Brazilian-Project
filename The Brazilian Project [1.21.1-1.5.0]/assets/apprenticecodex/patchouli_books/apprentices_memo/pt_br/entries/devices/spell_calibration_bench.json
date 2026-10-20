@@ -1,0 +1,17 @@
+{
+  "name": "block.apprenticecodex.spell_calibration_bench",
+  "category": "apprenticecodex:devices",
+  "icon": "apprenticecodex:spell_calibration_bench",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spell_calibration_bench",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_calibration_bench.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:spell_calibration_bench",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_calibration_bench.page.p002.text"
+    }
+  ]
+}

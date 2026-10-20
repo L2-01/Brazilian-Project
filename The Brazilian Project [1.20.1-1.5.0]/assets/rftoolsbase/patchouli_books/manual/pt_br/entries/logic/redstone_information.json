@@ -1,0 +1,15 @@
+{
+  "name": "Informação de Redstone",
+  "icon": "rftoolsutility:redstone_information",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:redstone_information": 0,
+    "rftoolsutility:tablet_redstone": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este item pode armazenar vários canais de redstone ($(5)clique com o botão direito$() em um $(l:rftoolsbase:logic/redstone_transmitter)Transmissor de Redstone$(/l) ou $(l:rftoolsbase:logic/redstone_receiver)Receptor de Redstone$(/l) para adicionar o canal). Você pode então colocá-lo em um $(l:rftoolsbase:tools/tablet)Tablet$(/l), que permite examinar e alterar sinais de redstone de qualquer lugar"
+    }
+  ]
+}

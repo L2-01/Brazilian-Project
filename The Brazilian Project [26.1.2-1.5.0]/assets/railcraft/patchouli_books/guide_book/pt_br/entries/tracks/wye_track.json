@@ -1,0 +1,15 @@
+{
+  "name": "Trilho de Bifurcação em Y",
+  "icon": "railcraft:iron_wye_track",
+  "category": "railcraft:tracks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Trilhos de bifurcação em Y são um bom meio de ajustar a direção de viagem de um carrinho.$(br2)Eles são colocados no mundo clicando com o botão direito com uma marreta de pregos num trilho flexível, e alternam entre as possibilidades. Por padrão, o kit de trilho de bifurcação em Y é a segunda possibilidade, depois do kit de trilho de desvio."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Eles podem ser controlados por um atuador de desvio, seja alavanca (manual), motor (baseado em sinal/redstone), ou roteamento (baseado em tabela de roteamento).$(br2)Quando um jogador quebra o kit de trilho, ele não larga nada e se torna um pedaço de trilho flexível."
+    }
+  ]
+}

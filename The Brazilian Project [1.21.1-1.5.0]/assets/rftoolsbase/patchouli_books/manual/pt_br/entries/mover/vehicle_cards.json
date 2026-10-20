@@ -1,0 +1,23 @@
+{
+  "name": "Cartões de Veículo",
+  "icon": "rftoolsbuilder:vehicle_card",
+  "category": "rftoolsbase:category_rftoolsbuilder_mover",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:vehicle_card": 1
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Um Cartão de Veículo armazena os blocos que compõem um veículo. O Construtor de Veículos preenche o cartão a partir de uma câmara espacial válida."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:vehicle_card"
+    },
+    {
+      "type": "text",
+      "text": "Insira o cartão em um Movedor para colocar o veículo naquele nodo. O Controlador do Movedor pode então mover o veículo entre Movedores conectados."
+    }
+  ]
+}

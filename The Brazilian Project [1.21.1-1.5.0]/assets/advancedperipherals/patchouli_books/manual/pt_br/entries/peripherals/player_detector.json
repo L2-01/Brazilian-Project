@@ -1,0 +1,30 @@
+{
+  "name": "Detector de Jogadores",
+  "icon": "advancedperipherals:player_detector",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Detector de Jogadores é capaz de reconhecer jogadores dentro de um certo alcance. Além disso, ele reconhece o jogador que clica nele.$(p)Para a documentação completa, consulte a $(9)$(l:https://docs.advanced-peripherals.de/peripherals/player_detector/)página oficial da wiki$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:player_detector"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:player_detector"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "Conecte seu Detector de Jogadores a um computador para usá-lo!"
+    }
+  ]
+}

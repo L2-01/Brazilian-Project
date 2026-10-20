@@ -1,0 +1,25 @@
+{
+    "name": "item.cobblemon.hopo_berry",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:hopo_berry",
+    "pages": [
+        {
+            "type": "cobblepedia:mutated_berry",
+            "item": "cobblemon:hopo_berry"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "item.cobblemon.hopo_berry.tooltip"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:berry_juice"
+            ]
+        }
+    ]
+}

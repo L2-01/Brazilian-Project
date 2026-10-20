@@ -1,0 +1,17 @@
+{
+  "name": "Botas de Liga Eclipse",
+  "sortnum": 23,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:eclipsealloy_boots[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Estas botas avançadas armazenam até 500.000 FE, oferecendo excelente mobilidade e absorção de energia. Mantenha-as sempre carregadas com um $(l:justdirethings:item_pocket_generator)Gerador Portátil$(/l) para melhores resultados."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação das Botas de Liga Eclipse",
+      "recipe": "justdirethings:eclipsealloy_boots"
+    }
+  ]
+}

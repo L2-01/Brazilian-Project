@@ -1,0 +1,17 @@
+{
+    "name": "Olho do Blaze",
+    "icon": "naturesaura:fortress_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_nether",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Para encontrar $(thing)Fortalezas$(), pode-se usar as habilidades do $(item)Olho de Ender$(), que, ao ser arremessado, se moverá lentamente em direção à mais próxima dessas estruturas, apontando o caminho. Comportamento similar pode ser observado no $(item)Olho do Blaze$(), mas, em vez de encontrar fortalezas, ele localizará a $(thing)Fortaleza do Nether$() mais próxima."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Olho do Blaze$()",
+            "recipe": "naturesaura:fortress_finder"
+        }
+    ]
+}

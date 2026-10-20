@@ -1,0 +1,15 @@
+{
+  "name": "Melhoria de Explosão",
+  "category": "modularrouters:upgrades",
+  "icon": "modularrouters:blast_upgrade",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esta melhoria torna o roteador totalmente imune a dano de explosão e também a ser destruído por chefes."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:blast_upgrade"
+    }
+  ]
+}

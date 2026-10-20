@@ -1,0 +1,27 @@
+{
+    "name": "Vidro",
+    "icon": "bigreactors:reinforced_reactorglass",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_reactorglass",
+            "link_recipe": true,
+            "title" : "Vidro",
+            "text": "Os blocos de Vidro são blocos decorativos que podem ser usados, no lugar de um bloco de Revestimento, para mostrar o interior do Reator."
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic",
+            "recipe1": "bigreactors:reactor/basic/glass",
+            "title2": "Reinforced",
+            "recipe2": "bigreactors:reactor/reinforced/glass"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não"
+        }
+    ]
+}

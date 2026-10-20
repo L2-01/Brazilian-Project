@@ -1,0 +1,28 @@
+{
+  "name": "Cartão de Bombeamento",
+  "icon": "rftoolsbuilder:shape_card_pump",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_pump": 1,
+    "rftoolsbuilder:shape_card_pump_clear": 2
+  },
+  "sortnum": 50,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Cartão de Bombeamento faz o Construtor coletar fluidos da área selecionada. O fluido bombeado deve ser armazenado em um tanque conectado ao Construtor."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_pump"
+    },
+    {
+      "type": "text",
+      "text": "O Cartão de Bombeamento normal substitui o fluido removido pelo preenchimento configurado. A variante de limpeza deixa espaço vazio em vez disso."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_pump_clear"
+    }
+  ]
+}

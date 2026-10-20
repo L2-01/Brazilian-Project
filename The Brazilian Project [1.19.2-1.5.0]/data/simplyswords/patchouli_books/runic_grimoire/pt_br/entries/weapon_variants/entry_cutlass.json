@@ -1,0 +1,26 @@
+{
+  "name": "Alfange",
+  "icon": "simplyswords:iron_cutlass",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_cutlass",
+      "text": "O Alfange foi projetado tanto para ataques de corte quanto de estocada e era amplamente usado em combates corpo a corpo em navios e barcos, tornando-o uma arma formidável para a guerra naval. Sua forma curva permite ataques de corte poderosos, eficazes tanto contra carne quanto contra cordas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_cutlass",
+      "recipe2": "simplyswords:gold_cutlass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_cutlass"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_cutlass",
+      "recipe2": "simplyswords:runic_cutlass"
+    }
+  ]
+}

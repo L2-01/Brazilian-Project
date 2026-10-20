@@ -1,0 +1,32 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:floo_sign",
+  "name": "Rede de Flu",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:floo_sign",
+      "link_recipe": true,
+      "text": "A $(d)rede de Flu$() permite teletransportar-se entre diferentes $(3)Lareiras de Flu$() dentro da mesma dimensão.$(br2)Para fazer uma lareira, use uma $(d)Placa de Flu$() em tijolos no mundo. Eles virarão $(3)Tijolos de Pó de Flu$(), herdando o nome personalizado de bigorna da placa.",
+      "title": "Rede de Flu"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:floo_brick",
+      "link_recipe": true,
+      "text": "Se a placa não tiver nome, a lareira também ficará sem nome. Lareiras sem nome $(c)não podem ser destino de teletransporte$(), mas podem ser origem.$(br2)Para se teletransportar a uma lareira, fique sobre qualquer outra lareira e $(3)diga o nome dela no chat$().$(br2)O teletransporte exige Pó de Flu; veja a próxima página para detalhes."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:floo_powder",
+      "link_recipe": true,
+      "text": "Para se teletransportar, você precisa estar segurando $(d)Pó de Flu$() na mão. Um único item será consumido por teletransporte."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:floo_pouch",
+      "link_recipe": true,
+      "text": "Alternativamente, você pode ter uma $(d)Bolsa de Pó de Flu$(), que armazena até 128 Pós de Flu e funciona em qualquer lugar do seu inventário.$(br2)Agache e clique com o botão direito na Bolsa de Pó de Flu para enchê-la com Pó de Flu do seu inventário."
+    }
+  ]
+}

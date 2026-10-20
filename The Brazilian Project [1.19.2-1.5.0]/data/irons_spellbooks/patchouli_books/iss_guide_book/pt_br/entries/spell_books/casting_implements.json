@@ -1,0 +1,34 @@
+{
+  "name": "Implementos de Conjuração",
+  "icon": "irons_spellbooks:graybeard_staff",
+  "category": "irons_spellbooks:root",
+  "sortnum": 3,
+  "read_by_default" : true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Implementos de Conjuração",
+      "text": "Implementos de Conjuração são itens que podem ser usados com o botão direito para lançar seu feitiço ativo. Na maioria das vezes, eles também dão benefícios passivos, permitindo um estilo de jogo de mago dedicado."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:graybeard_staff",
+      "text": "Um simples graveto é tudo que é preciso para fazer a bola de cristal rolar."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:artificer_cane",
+      "text": "Às vezes, um pouco mais de estilo é tudo que é preciso para levar suas conjurações ao próximo nível."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:ice_staff",
+      "text": "Rumores dizem que pedaços de um cajado gélido místico jazem espalhados pelo mundo. O Criomante pode ter pesquisas guardadas na torre dele revelando mais."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:blood_staff",
+      "text": "Um cetro ancestral com habilidades de invocação inigualáveis; só pode ser adquirido tomando-o do seu dono morto-vivo."
+    }
+  ]
+}

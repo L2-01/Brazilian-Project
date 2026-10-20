@@ -1,0 +1,26 @@
+{
+    "name": "block.cobblemon.healing_machine",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:healing_machine",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:healing_machine",
+            "title": "block.cobblemon.healing_machine",
+            "text": "book.cobblepedia.entries.healing_machine.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:healing_machine",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:healing_machine",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.healing_machine",
+            "text": "advancements.cobblemon.healing_machine.description"
+        }
+    ]
+}

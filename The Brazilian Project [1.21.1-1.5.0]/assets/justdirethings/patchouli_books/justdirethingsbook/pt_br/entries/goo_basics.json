@@ -1,0 +1,20 @@
+{
+  "name": "Noções de Gosma",
+  "sortnum": 0,
+  "category": "justdirethings:goo",
+  "icon": "justdirethings:gooblock_tier1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A gosma é uma substância transformativa capaz de alterar certos blocos colocados adjacentes a ela. Cada nível de gosma tem a capacidade de consumir e converter blocos mais fortes em recursos novos e avançados.$(br2)Esse sistema permite o desbloqueio progressivo de materiais e capacidades de fabricação."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para utilizar a gosma:$(br2)1. Fabrique um bloco de gosma e posicione-o no seu mundo.$(br2)2. Ative a gosma alimentando-a com um recurso específico que ela possa consumir (indicado pelo bloco de gosma).$(br2)3. Coloque um bloco elegível ao lado da gosma ativada para iniciar o processo de transformação."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Nota: após transformar um bloco, há 10% de chance de a gosma precisar de reativação ao alimentá-la com outro item. Enquanto inativa, a gosma não pode iniciar novas transformações, mas qualquer processo em andamento continuará até o fim.$(br2)Gosmas de nível maior sempre podem fabricar tudo que uma de nível menor pode, e são bem mais rápidas."
+    }
+  ]
+}

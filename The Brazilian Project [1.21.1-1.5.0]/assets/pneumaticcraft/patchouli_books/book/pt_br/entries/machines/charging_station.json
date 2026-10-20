@@ -1,0 +1,60 @@
+{
+  "name": "Estação de Carga",
+  "icon": "pneumaticcraft:charging_station",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A $(item)Estação de Carga/$ é uma máquina na qual $(l:base_concepts/pressure)itens pneumáticos/$ podem ser carregados (ou descarregados). A interação entre a $(item)Estação de Carga/$ e os itens pneumáticos é a mesma que a interação entre tubos/máquinas: diferenças de pressão serão equalizadas. Isso significa que você precisará de uma $(item)Estação de Carga/$ bem pressurizada para carregar itens totalmente."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:charging_station",
+      "text": "A maioria dos itens carregáveis tem pressão máxima de 10 bar. Não se preocupe com explosões, porém; os itens não explodirão por sobrecarga, apenas pararão de carregar além de 10 bar.$(p)A $(thing)Plataforma de Carga/$ pode ser camuflada com um $(l:tools/camo_applicator)Aplicador de Camuflagem/$."
+    },
+    {
+      "type": "text",
+      "title": "Plataforma de Carga",
+      "text": "Você pode transformar a $(item)Estação de Carga/$ numa $(thing)Plataforma de Carga/$ inserindo uma $(l:base_concepts/upgrades#dispenser)Melhoria de Ejetor/$. Isso (des)pressurizará:$(li)itens no chão em cima da Estação de Carga$(li)itens carregados por jogadores de pé na Estação de Carga$(li)todos os tipos de $(l:tools/drone)Drone/$ que estiverem diretamente acima da Estação de Carga"
+    },
+    {
+      "type": "text",
+      "title": "Gerenciamento de Melhorias",
+      "text": "A $(item)Estação de Carga/$ também funciona como um sistema de gerenciamento para itens que aceitam $(l:base_concepts/upgrades)melhorias/$. Para melhorar um item, coloque-o na $(item)Estação de Carga/$ como de costume e clique no botão de $(thing)seta para cima/$ logo acima do espaço do item. Isso abre uma nova GUI onde melhorias podem ser inseridas; cada melhoria aplicável ao item em questão está documentada numa aba lateral da GUI."
+    },
+    {
+      "type": "relations",
+      "title": "Itens Carregáveis",
+      "entries": [
+        "pneumaticcraft:components/air_canister",
+        "pneumaticcraft:tools/pneumatic_wrench",
+        "pneumaticcraft:logistics/logistics_configurator",
+        "pneumaticcraft:tools/camo_applicator",
+        "pneumaticcraft:tools/vortex_cannon",
+        "pneumaticcraft:tools/minigun",
+        "pneumaticcraft:tools/manometer",
+        "pneumaticcraft:armor/pneumatic_helmet",
+        "pneumaticcraft:armor/pneumatic_chestplate",
+        "pneumaticcraft:armor/pneumatic_leggings",
+        "pneumaticcraft:armor/pneumatic_boots"
+      ]
+    },
+    {
+      "type": "relations",
+      "title": "Itens Carregáveis (cont.)",
+      "entries": [
+        "pneumaticcraft:tools/drone",
+        "pneumaticcraft:tools/collector_drone",
+        "pneumaticcraft:tools/guard_drone",
+        "pneumaticcraft:tools/harvesting_drone",
+        "pneumaticcraft:logistics/logistics_drone"
+      ]
+    },
+    {
+      "type": "crafting",
+      "text": "Fabricando uma Estação de Carga",
+      "recipe": "pneumaticcraft:charging_station"
+    }
+  ]
+}

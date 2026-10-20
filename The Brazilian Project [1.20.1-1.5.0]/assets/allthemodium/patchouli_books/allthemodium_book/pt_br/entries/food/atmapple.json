@@ -1,0 +1,15 @@
+{
+    "name": "Maçã de Allthemodium",
+    "icon": "allthemodium:allthemodium_apple",
+    "category": "allthemodium:food",
+    "pages": [{
+            "type": "crafting",
+            "recipe": "allthemodium:allthemodium_apple",
+            "title": "Maçã de Allthemodium"
+        },
+        {
+            "type": "text",
+            "text": "A Maçã de Allthemodium dá 20 de fome e 80 de saturação. A maçã tem os seguintes efeitos:$(li)Rápida de Comer$(li)Sempre Comestível$(li)Absorção X por 30 s$(li)Regeneração X por 30 s"
+        }
+    ]
+}

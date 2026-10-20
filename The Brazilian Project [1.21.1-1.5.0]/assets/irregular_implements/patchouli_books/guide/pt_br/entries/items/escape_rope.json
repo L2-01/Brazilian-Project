@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:escape_rope",
+  "name": "Corda de Fuga",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(d)Corda de Fuga$() pode ser usada para sair rapidamente de cavernas.$(br2)Segure o botão direito dentro de uma caverna e ela procurará rapidamente $(3)o local mais próximo com visão do céu$() e teletransportará você até lá.",
+      "title": "Corda de Fuga"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:escape_rope",
+      "link_recipe": true,
+      "text": "Se ela não encontrar um local válido, será derrubada aos seus pés."
+    }
+  ]
+}

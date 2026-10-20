@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.beast_ball",
+    "category": "cobblepedia:poke_ball_types",
+    "icon": "cobblemon:beast_ball",
+    "sortnum": 30,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:beast_ball",
+            "text": "book.cobblepedia.entries.beast_ball.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:beast_ball",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.beast_ball.crafting"
+        }
+    ]
+}

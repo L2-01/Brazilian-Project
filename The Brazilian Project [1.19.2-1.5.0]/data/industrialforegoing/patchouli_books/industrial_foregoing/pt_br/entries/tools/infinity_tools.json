@@ -1,0 +1,21 @@
+{
+  "name": "Ferramentas do Infinito",
+  "icon": "industrialforegoing:infinity_drill",
+  "category": "industrialforegoing:tools",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "As Ferramentas do Infinito seguem um princípio simples: quanto mais energia têm, melhores são. Aumentar o nível pode dar à ferramenta vantagens especiais.  Ter $(l:biofuel)biocombustível$() nelas as tornará mais eficientes, consumindo o combustível em vez de energia quando usadas. $(br2)Você pode $(6)Agachar+Clique Direito$() para abrir a GUI da ferramenta."
+    },
+    {
+      "type": "text",
+      "text": "Você pode desativar o $(6)carregamento$() da ferramenta desativando o carregamento na GUI da ferramenta. $(br2)Há 7 níveis: $(li)Pobre$(li)Comum$(li)Incomum$(li)Raro$(li)Épico$(li)Lendário$(li)Artefato $(br2) Todas as ferramentas teleportarão os itens largados para o jogador."
+    },
+    {
+      "type": "text",
+      "text": "Você pode obter uma versão especial $(6)Brilhante$() da ferramenta tornando-se um patreon. Ela dará recompensas visuais! "
+    }
+  ]
+}

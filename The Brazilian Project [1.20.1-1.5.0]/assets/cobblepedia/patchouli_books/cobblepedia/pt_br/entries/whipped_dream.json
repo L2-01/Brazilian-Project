@@ -1,0 +1,28 @@
+{
+    "name": "item.cobblemon.whipped_dream",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:whipped_dream",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:whipped_dream",
+            "title": "item.cobblemon.whipped_dream",
+            "text": "book.cobblepedia.entries.whipped_dream.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:whipped_dream",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.whipped_dream.evolving",
+            "holding_item3": "cobblemon:whipped_dream",
+            "using_item3": "cobblemon:link_cable",
+            "pokemon3": "cobblemon:swirlix",
+            "evolved_pokemon3": "cobblemon:slurpuff"
+        }
+    ]
+}

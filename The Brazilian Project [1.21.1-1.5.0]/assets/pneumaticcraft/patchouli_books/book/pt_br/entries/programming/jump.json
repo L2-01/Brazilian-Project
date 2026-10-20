@@ -1,0 +1,23 @@
+{
+  "name": "Widget de Pulo",
+  "icon": "pneumaticcraft:textures/progwidgets/jump_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este widget é focado puramente no $(l:programming/flow_control)fluxo do programa/$. Quando o programa atinge um widget $(thing)Pulo/$, ele olha o widget $(l:programming/text)Texto/$ conectado e tenta pular para um widget $(l:programming/label)Rótulo/$ com um nome correspondente. Se falhar por qualquer motivo, a execução retornará ao widget $(l:programming/start)Início/$. (Este comportamento de fallback normalmente nunca deveria ocorrer)."
+    },
+    {
+      "type": "text",
+      "text": "Um widget $(thing)Pulo/$ pode ser usado para fundir múltiplas $(italic)ramificações/$ no fluxo do programa (usando dois ou mais pulos que todos pulam para o mesmo $(l:programming/label)Rótulo/$), ou simplesmente para organizar seu programa separando seções em suas próprias 'sub-rotinas'. Uma dica útil é marcar a caixa de seleção $(bold)Mostrar Fluxo/$ no canto inferior esquerdo da GUI do $(l:programming/programmer)Programador/$;  ela mostrará linhas ligando widgets $(thing)Pulo/Condição/Rótulo/$ de mesmo nome."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/jump_piece.png"
+      ],
+      "text": "$(italic)Por que não/$"
+    }
+  ]
+}

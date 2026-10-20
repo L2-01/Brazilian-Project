@@ -1,0 +1,17 @@
+{
+  "name": "Lingote de Liga Eclipse",
+  "sortnum": 7,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:eclipsealloy_ingot",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os Lingotes de Liga Eclipse, obtidos fundindo Liga Eclipse Bruta, oferecem durabilidade e força incomparáveis. Eles derivam da mineração de $(l:justdirethings:res_eclipsealloy_raw)Minérios de Liga Eclipse Bruto$(/l), fornecendo o material definitivo para fabricar os itens mais poderosos e duráveis."
+    },
+    {
+      "type": "patchouli:smelting",
+      "title": "Fundindo Liga Eclipse Bruta",
+      "recipe": "justdirethings:eclipsealloy_ingot_smelted"
+    }
+  ]
+}

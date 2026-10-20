@@ -1,0 +1,18 @@
+{
+    "name": "Cartão de Frequência",
+    "icon": "mffs:frequency_card",
+    "category": "mffs:tools",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:frequency_card",
+            "link_recipe": true,
+            "text": "O $(5)Cartão de Frequência$() pode guardar, memorizar e gerar frequências para interagir com máquinas. Sua frequência pode ser definida colocando-o no espaço de frequência de uma máquina. Usá-lo em qualquer máquina definirá a frequência daquela máquina para a que estiver gravada no cartão. Você pode gerar uma frequência aleatória agachando e clicando com o botão direito enquanto segura o cartão."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:frequency_card",
+            "text": "Fabricando o $(5)Cartão de Frequência$()."
+        }
+    ]
+}

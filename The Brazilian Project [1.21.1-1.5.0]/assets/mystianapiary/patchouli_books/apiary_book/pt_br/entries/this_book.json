@@ -1,0 +1,18 @@
+{
+  "name": "Este Livro",
+  "icon": "patchouli:guide_book",
+  "category": "mystianapiary:multiblock",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Essenciais do Apiário",
+      "text": "Uma cópia extra está a um livro e um favo de mel de distância, então não há necessidade de guardar este.$(br2)$(o)Estas páginas mostram a receita que seu jogo realmente carregou, então um modpack que a reajustou mostra a própria versão aqui. Se uma receita abaixo parecer vazia, seu pack a substituiu por algo que uma grade de fabricação não consegue exibir.$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mystianapiary:apiary_book",
+      "title": "Fabricando este Livro"
+    }
+  ]
+}

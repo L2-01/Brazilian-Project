@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.fossilized_fish",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:fossilized_fish",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.fossilized_fish",
+            "item": "cobblemon:fossilized_fish",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.fossilized_fish.text"
+        }
+    ]
+}

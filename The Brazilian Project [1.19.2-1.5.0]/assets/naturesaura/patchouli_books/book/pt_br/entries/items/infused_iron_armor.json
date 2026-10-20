@@ -1,0 +1,26 @@
+{
+    "name": "Armadura do Botânico",
+    "icon": "naturesaura:infused_iron_chest",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Além de suas $(l:items/infused_iron_tools)ferramentas$(), um botânico pode ganhar proteção através de armadura, especificamente a $(item)Armadura do Botânico$(). Além de ser quase tão protetora quanto a armadura de ferro, ela pode ter sua durabilidade perdida recarregada ao se agachar possuindo um $(l:items/aura_cache)Cache de Aura$(), similarmente às ferramentas do mesmo tipo. Além disso, a armadura também tem um $(thing)bônus de conjunto$() que é aplicado quando o conjunto completo é usado de uma vez."
+        },
+        {
+            "type": "text",
+            "text": "Então, quando uma criatura atacar o usuário, ela será afetada por um curto efeito de $(item)Decomposição$(), ferindo-a de forma semelhante ao encantamento Espinhos.$(br)Além disso, usar um $(l:items/shockwave_creator)Amuleto da Ira$() enquanto o conjunto completo estiver equipado também infligirá o efeito de Decomposição em quaisquer criaturas atingidas por seu efeito por um curto período."
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:infused_helmet",
+            "recipe2": "naturesaura:infused_chest"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:infused_pants",
+            "recipe2": "naturesaura:infused_shoes"
+        }
+    ]
+}

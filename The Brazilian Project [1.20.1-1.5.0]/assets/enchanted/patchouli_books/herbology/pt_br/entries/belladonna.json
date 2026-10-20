@@ -1,0 +1,25 @@
+{
+  "name": "Flores de Beladona",
+  "icon": "enchanted:textures/item/belladonna_flower.png",
+  "category": "enchanted:common_plants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Atropa Belladonna, comumente conhecida como beladona, é uma integrante venenosa da família Solanaceae. $(br2)A folhagem e as bagas desta planta são conhecidas por serem extremamente tóxicas para humanos e devem ser manuseadas com cuidado.$(br2)$(bold)Obtenção:$()$(br)Conhecida por ser largada por Grama Alta"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "enchanted:belladonna[age=4]"
+        },
+        "pattern": [
+          [ "0" ],
+          [ " " ]
+        ]
+      }
+    }
+  ],
+  "read_by_default": true
+}

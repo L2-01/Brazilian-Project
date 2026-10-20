@@ -1,0 +1,57 @@
+{
+    "name": "Beyond Earth",
+    "icon": "beyond_earth:cheese",
+    "read_by_default": true,
+    "sortnum": 8,
+    "category": "productivebees:bees_modded",
+    "flag": "mod:beyond_earth",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Abelhas do Beyond Earth"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "vire a página"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Desh",
+            "text": "Dê um bloco de Desh a uma $(l:bees/modded/ingot_bees#steel)Abelha de Aço$(/l)",
+            "anchor": "desh",
+            "flag": "productivebees:desh"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Desh",
+            "entity": "productivebees:configurable_bee{type:'productivebees:desh'}",
+            "flag": "productivebees:desh"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Ostruo",
+            "text": "Dê um bloco de Ostruo a uma $(l:bees/modded/beyond_earth#desh)Abelha de Desh$(/l)",
+            "anchor": "ostrum",
+            "flag": "productivebees:ostrum"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Ostruo",
+            "entity": "productivebees:configurable_bee{type:'productivebees:ostrum'}",
+            "flag": "productivebees:ostrum"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Calorita",
+            "text": "Dê um bloco de Calorita a uma $(l:bees/modded/beyond_earth#ostrum)Abelha de Ostruo$(/l)",
+            "anchor": "ostrum",
+            "flag": "productivebees:ostrum"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Calorita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:ostrum'}",
+            "flag": "productivebees:ostrum"
+        }
+    ]
+}

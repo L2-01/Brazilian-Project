@@ -1,0 +1,17 @@
+{
+    "name": "Javali-do-End",
+    "icon": "adventurez:blackstone_golem_heart",
+    "category": "adventurez:mob_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Javalis-do-End aparecem na dimensão do End e tentarão te empurrar para o vazio"
+        },
+        {
+            "type": "entity",
+            "name": "Exibição",
+            "entity": "adventurez:enderwarthog",
+            "scale": 0.6
+        }
+    ]
+}

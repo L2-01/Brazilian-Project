@@ -1,0 +1,39 @@
+{
+    "name": "Aprimoramento",
+    "icon": "apotheosis:augmenting_table",
+    "category": "apotheosis:adventure/affix_loot",
+    "flag": "apotheosis:adventure",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(9)Bancada de Aprimoramento$() é uma estação de criação de fim de jogo usada para aprimorar os afixos individuais de um item.$(p)Através dela, você pode melhorar ou rerrolar afixos únicos, deixando o resto intacto."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:augmenting_table",
+            "text": "Criar uma Bancada de Aprimoramento exige focar a energia de uma $(9)Estrela do Nether$() através de duas $(9)Pérolas Forjada pelos Deuses$(), usando uma $(9)Mesa de Encantamentos$() como base."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Slots de Entrada",
+            "text": "A Bancada de Aprimoramento tem dois slots de entrada.$(p)O slot superior segura o item que você deseja aprimorar, que precisa ser um item de afixo.$(p)Normalmente, você só deve aprimorar itens de raridade pelo menos $(#ED7014)Mítica$(), embora possa considerar aprimorar os $(#BB00BB)Épicos$() também."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:sigil_of_enhancement",
+            "title": "Slots de Entrada",
+            "text": "O slot inferior segura $(9)Sigilos de Aprimoramento$(), o item de combustível usado no Aprimoramento.$(p)Por fim, você precisará selecionar o afixo desejado no menu suspenso."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Melhorando",
+            "text": "A primeira operação que pode ser feita na bancada de aprimoramento é melhorar um afixo.$(p)Isso custa dois $(9)Sigilos de Aprimoramento$() e 225 níveis, e melhora a força interna do afixo atual em 25%.$(p)Afixos sem níveis não podem ser melhorados."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Rerrolando",
+            "text": "A segunda operação da bancada de aprimoramento é rerrolar um afixo.$(p)Isso custa um $(9)Sigilo de Aprimoramento$() e 175 níveis, e troca o afixo selecionado por outro do mesmo tipo.$(p)As opções alternativas serão mostradas à esquerda."
+        }
+    ]
+}

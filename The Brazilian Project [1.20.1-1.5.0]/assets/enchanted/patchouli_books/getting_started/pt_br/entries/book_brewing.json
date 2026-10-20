@@ -1,0 +1,17 @@
+{
+  "name": "Bruxaria: Preparo de Poções",
+  "icon": "patchouli:textures/item/book_purple.png",
+  "category": "enchanted:additional_resources",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O preparo de poções é uma habilidade essencial para qualquer Bruxa ou Bruxo, mas é profundo demais para ser coberto neste livro. Consulte o livro Bruxaria: Preparo de Poções, como mostrado na receita de fabricação."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:book_brewing"
+    }
+  ],
+  "read_by_default": false,
+  "sortnum": 2
+}

@@ -1,0 +1,24 @@
+{
+    "name": "book.cobblepedia.entries.x_item",
+    "category": "cobblepedia:consumables",
+    "icon": "cobblemon:x_accuracy",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.x_item.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:x_accuracy",
+                "cobblepedia:x_attack",
+                "cobblepedia:x_special_attack",
+                "cobblepedia:x_defence",
+                "cobblepedia:x_special_defence",
+                "cobblepedia:x_speed",
+                "cobblepedia:dire_hit",
+                "cobblepedia:guard_spec"
+            ]
+        }
+    ]
+}

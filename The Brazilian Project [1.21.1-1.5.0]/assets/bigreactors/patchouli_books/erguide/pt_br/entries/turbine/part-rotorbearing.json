@@ -1,0 +1,27 @@
+{
+    "name": "Rolamento do Rotor",
+    "icon": "bigreactors:reinforced_turbinerotorbearing",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_turbinerotorbearing",
+            "link_recipe": true,
+            "title" : "Rolamento do Rotor",
+            "text": "O Rolamento do Rotor é a base do conjunto do $(l:bigreactors:turbine/rotor)Rotor$(/l) da sua Turbina.$(br2)Ele deve ser colocado numa das faces da Turbina, geralmente no centro, e seguido por alguns blocos de $(l:bigreactors:turbine/part-rotorshaft)Eixo do Rotor$(/l)."
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic",
+            "recipe1": "bigreactors:turbine/basic/bearing",
+            "title2": "Reinforced",
+            "recipe2": "bigreactors:turbine/reinforced/bearing"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Obrigatório:$() um, e apenas um, é necessário$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Talismã do Vingador",
+  "sortnum": 49,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:vindicator_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã do Vingador concede 50% de aumento de dano em um golpe a cada 30 segundos após trocar de ferramenta. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_normal)Base de Talismã Padrão$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_rejectors)Força dos Negadores$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/vindicator_talisman",
+      "recipe2": "fargostalismans:forces/force_of_rejectors"
+    }
+  ],
+  "read_by_default": true
+}

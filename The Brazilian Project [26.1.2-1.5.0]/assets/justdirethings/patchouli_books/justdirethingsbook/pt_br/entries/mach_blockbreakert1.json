@@ -1,0 +1,17 @@
+{
+  "name": "Quebra-Blocos Simples",
+  "sortnum": 3,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:blockbreakert1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O quebra-blocos simples usa uma ferramenta (como uma picareta ou pá) para quebrar o bloco para o qual está virado. Ele não pode operar sem uma ferramenta, e danificará a ferramenta (ou consumirá energia) sempre que um bloco for quebrado, exatamente como aconteceria se um jogador a estivesse usando."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Quebra-Blocos Simples",
+      "recipe": "justdirethings:blockbreakert1"
+    }
+  ]
+}

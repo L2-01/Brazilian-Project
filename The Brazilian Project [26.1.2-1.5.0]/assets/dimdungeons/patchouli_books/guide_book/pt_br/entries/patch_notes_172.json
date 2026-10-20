@@ -1,0 +1,16 @@
+{
+    "name": "Versão 172",
+    "icon": "minecraft:book",
+    "category": "dimdungeons:patch_notes",	
+	"sortnum": 172,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(li)Atualizada a tradução para chinês, graças a Nageih e Dolosaber. $(li)Adicionada uma nova tradução para russo de George-bruh. $(li)Portais para Centros de Teletransporte agora fecham dos dois lados ao remover a chave. (Isso só se aplica aos portais 2-8. O primeiro portal/de Carvalho é permanente para evitar que alguém fique preso.)"
+        },
+        {
+            "type": "text",
+            "text": "$(li)Adicionada uma nova trapaça /dimdungeons getroom para imprimir o nome da sala em que você está. $(li)Corrigido um bug que fazia a lista de amigos/banidos falhar se outro mod usasse mixins para alterar o nome do jogador. (Especificamente, o Apotheosis.) $(li)Ativar chaves agora retorna corretamente SUCCESS em vez de PASS. Isso deve corrigir o último dos bugs de chaves que ficavam permanentemente em branco."
+		}		
+    ]
+}

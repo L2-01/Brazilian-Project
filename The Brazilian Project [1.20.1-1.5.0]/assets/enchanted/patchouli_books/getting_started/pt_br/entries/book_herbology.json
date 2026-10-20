@@ -1,0 +1,17 @@
+{
+  "name": "Bruxaria: Herbologia",
+  "icon": "patchouli:textures/item/book_purple.png",
+  "category": "enchanted:additional_resources",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Bruxas precisarão usar várias plantas mágicas e comuns; os métodos de obtê-las, bem como suas propriedades, estão detalhados em Bruxaria: Herbologia."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:book_herbology"
+    }
+  ],
+  "read_by_default": false,
+  "sortnum": 0
+}

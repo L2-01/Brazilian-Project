@@ -1,0 +1,17 @@
+{
+  "name": "Classificador de Encantamentos",
+  "icon": "industrialforegoing:enchantment_sorter",
+  "category": "industrialforegoing:misc",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esta máquina separará itens encantados dos que não são."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_sorter"
+    }
+  ]
+}

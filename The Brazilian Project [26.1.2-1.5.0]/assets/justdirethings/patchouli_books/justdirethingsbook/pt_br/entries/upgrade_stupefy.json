@@ -1,0 +1,17 @@
+{
+  "name": "Estupefaça",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_stupefy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Confunda seus inimigos com a melhoria Estupefaça. Ao olhar para um inimigo e ativar esta habilidade com uma tecla de atalho, ele imediatamente esquecerá de você!$(br2)Além disso, ele não conseguirá te mirar de novo por alguns instantes. Esta habilidade tem recarga!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Estupefaça",
+      "recipe": "justdirethings:upgrade_stupefy"
+    }
+  ]
+}

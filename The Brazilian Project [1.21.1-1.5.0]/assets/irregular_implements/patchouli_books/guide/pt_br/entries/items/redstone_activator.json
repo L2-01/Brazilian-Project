@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:redstone_activator",
+  "name": "Ativador de Redstone",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Usar o $(d)Ativador de Redstone$() o energiza por um curto período.",
+      "title": "Ativador de Redstone"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:redstone_activator",
+      "link_recipe": true,
+      "text": "Agache e clique com o botão direito nele para alterar a duração entre 2, 20 e 100 tiques."
+    }
+  ]
+}

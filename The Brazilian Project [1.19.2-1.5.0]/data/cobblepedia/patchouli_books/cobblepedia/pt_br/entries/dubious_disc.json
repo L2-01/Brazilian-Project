@@ -1,0 +1,28 @@
+{
+    "name": "item.cobblemon.dubious_disc",
+    "category": "cobblepedia:evolution_items",
+    "icon": "cobblemon:dubious_disc",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:dubious_disc",
+            "title": "item.cobblemon.dubious_disc",
+            "text": "book.cobblepedia.entries.dubious_disc.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:dubious_disc",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.dubious_disc.evolving",
+            "holding_item3": "cobblemon:dubious_disc",
+            "using_item3": "cobblemon:link_cable",
+            "pokemon3": "cobblemon:porygon2",
+            "evolved_pokemon3": "cobblemon:porygonz"
+        }
+    ]
+}

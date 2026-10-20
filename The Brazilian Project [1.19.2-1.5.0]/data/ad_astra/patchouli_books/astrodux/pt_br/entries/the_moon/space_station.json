@@ -1,0 +1,18 @@
+{
+  "name": "Estação Espacial",
+  "icon": "ad_astra:/textures/gui/space_station_icon.png",
+  "sortnum": 0,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Estação Espacial",
+      "text": "Uma estação espacial é uma estrutura pré-construída criada na tela de seleção de planeta, desde que você tenha os materiais necessários. As estações espaciais ficam sempre na órbita de uma lua ou planeta e permitem colocar blocos naquela dimensão de órbita."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Estação Espacial",
+      "text": "As estações espaciais foram projetadas para serem expandidas, permitindo construir a base dos seus sonhos sobre uma lua/planeta. Elas sempre aparecem na posição de onde você lançou seu foguete, então lembre-se das coordenadas para não perder a estrutura."
+    }
+  ]
+}

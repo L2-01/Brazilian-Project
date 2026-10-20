@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.mental_herb",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:mental_herb",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:mental_herb",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.mental_herb.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.mental_herb.usage.text"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "item.cobblemon.clover_sweet",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:clover_sweet",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:clover_sweet",
+            "title": "item.cobblemon.clover_sweet",
+            "text": "book.cobblepedia.entries.clover_sweet.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:clover_sweet",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.clover_sweet.evolving",
+            "holding_item2": "cobblemon:clover_sweet",
+            "pokemon2": "cobblemon:milcery",
+            "evolved_pokemon2": "cobblemon:alcremie"
+        }
+    ]
+}

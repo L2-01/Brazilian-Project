@@ -1,0 +1,22 @@
+{
+    "name": "Vidro",
+    "icon": "bigreactors:fluidizerglass",
+    "category": "bigreactors:fluidizer-parts",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:fluidizerglass",
+            "link_recipe": true,
+            "title" : "Vidro",
+            "text": "Os blocos de Vidro são blocos decorativos que podem ser usados, no lugar de um bloco de Revestimento, para mostrar o interior do Fluidificador."
+        },
+        {
+            "type": "crafting-part_usage",
+            "crafting.title1": "Vidro",
+            "crafting.recipe1": "bigreactors:fluidizer/glass",
+            "usage.text": "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() no"
+        }
+    ]
+}

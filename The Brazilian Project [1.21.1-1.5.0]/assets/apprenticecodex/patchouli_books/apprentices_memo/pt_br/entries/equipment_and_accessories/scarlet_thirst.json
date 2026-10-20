@@ -1,0 +1,17 @@
+{
+  "name": "item.apprenticecodex.scarlet_thirst",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:scarlet_thirst",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:scarlet_thirst",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.scarlet_thirst.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:scarlet_thirst",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.scarlet_thirst.page.p002.text"
+    }
+  ]
+}

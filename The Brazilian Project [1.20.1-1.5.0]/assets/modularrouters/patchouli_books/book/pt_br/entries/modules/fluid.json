@@ -1,0 +1,31 @@
+{
+  "name": "Módulo de Fluido Mk1",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:fluid_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Embora Roteadores não possam lidar com fluidos diretamente (eles não têm um tanque interno), eles podem manipular fluidos se houver um (único) item contêiner de fluido no buffer. Isso inclui baldes e quaisquer contêineres de fluido adicionados por outros mods."
+    },
+    {
+      "type": "text",
+      "text": "A GUI do Módulo de Fluido permite definir a direção de transferência:$(li)$(bold)Transferir Para o Roteador/$ significa que o roteador tentará puxar fluidos de um bloco adjacente (seja um fluido no mundo ou um bloco que contenha fluido) para dentro de um item que contenha fluido no buffer.$(li)$(bold)Transferir Do Roteador/$ significa que o roteador tentará empurrar fluidos de um item que contenha fluido no buffer para o mundo; seja despejando fluido ou colocando fluido num tanque adjacente."
+    },
+    {
+      "type": "text",
+      "text": "A GUI também permite definir a taxa máxima de transferência. Note que este é o máximo que será $(italic)tentado/$, e ainda é limitado pela taxa de transferência geral do Roteador, que é 1 balde por segundo, e pela taxa de transferência do fluido ou contêiner de fluido externo.$(p)Os espaços de filtro do Módulo de Fluido só aceitarão itens contendo fluido e filtrarão pelo fluido contido, não pelo item contêiner."
+    },
+    {
+      "type": "text",
+      "text": "Adicionar $(l:upgrades/speed)Melhorias de Velocidade/$ não transferirá fluidos mais rápido, apenas com mais frequência. Um Roteador com 9 melhorias de velocidade ainda transferirá apenas 1 balde por segundo, só que com mais frequência e em quantidades menores. Para aumentar a taxa de transferência geral, adicione $(l:upgrades/fluid)Melhorias de Transferência de Fluido/$.$(p)Tenha muito cuidado ao mexer nas configurações do Módulo de Fluido se o roteador contiver fluidos perigosos, como um balde de lava. O roteador não hesitará em despejar lava sobre você se você errar..."
+    },
+    {
+      "type": "text",
+      "text": "Note que você também pode conectar tubos de fluido de outros mods a um roteador, $(bold)se/$ o buffer tiver um contêiner de fluido dentro, e bombear fluidos para dentro e para fora do roteador; os fluidos serão direcionados para/do item contêiner.$(p)Você $(italic)não/$ precisa de um Módulo de Fluido instalado para fazer isso; Módulos de Fluido só são necessários se você quiser empurrar ou puxar fluidos ativamente."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:fluid_module"
+    }
+  ]
+}

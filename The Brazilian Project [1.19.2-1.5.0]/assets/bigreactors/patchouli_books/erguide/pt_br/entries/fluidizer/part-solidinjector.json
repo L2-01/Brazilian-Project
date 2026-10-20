@@ -1,0 +1,22 @@
+{
+    "name": "Injetor de Sólidos",
+    "icon": "bigreactors:fluidizersolidinjector",
+    "category": "bigreactors:fluidizer-parts",
+    "read_by_default": true,
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:fluidizersolidinjector",
+            "link_recipe": true,
+            "title" : "Injetor de Sólidos",
+            "text": "O Injetor de Sólidos permite inserir fontes de combustível sólidas existentes (como lingotes) no Fluidificador para convertê-las em fluido ou misturá-las e criar um novo combustível."
+        },
+        {
+            "type": "crafting-part_usage",
+            "crafting.title1": "Injetor de Sólidos",
+            "crafting.recipe1": "bigreactors:fluidizer/solidinjector",
+            "usage.text": "$(l)Mandatory:$() see $(l:bigreactors:fluidizer/operational_mode)operational mode$(/l)$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() yes"
+        }
+    ]
+}

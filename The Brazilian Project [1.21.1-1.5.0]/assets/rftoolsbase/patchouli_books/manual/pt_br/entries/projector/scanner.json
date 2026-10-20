@@ -1,0 +1,19 @@
+{
+  "name": "Scanner",
+  "icon": "rftoolsbuilder:scanner",
+  "category": "rftoolsbase:category_rftoolsbuilder_projector",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:scanner": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Scanner escaneia uma seção do mundo e armazena o resultado em um Cartão de Forma."
+    },
+    {
+      "type": "text",
+      "text": "Coloque um Cartão de Forma de entrada no espaço superior esquerdo. Ele controla o tamanho e o deslocamento da área a escanear.$(br2)Pressione $(thing)Escanear$() para gravar o resultado no Cartão de Forma do espaço inferior esquerdo."
+    }
+  ]
+}

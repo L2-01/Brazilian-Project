@@ -1,0 +1,15 @@
+{
+  "name": "Detalhes da Câmara",
+  "icon": "rftoolsbuilder:space_chamber_controller",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:space_chamber_controller": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A tela de Detalhes da Câmara mostra o que está dentro de uma Câmara Espacial selecionada.$(br2)Clique com o botão direito com um Cartão Espacial para abrir uma visão geral de todos os blocos e entidades atualmente dentro daquela câmara."
+    }
+  ]
+}

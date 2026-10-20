@@ -1,0 +1,26 @@
+{
+    "name": "book.cobblepedia.entries.shiny_pokemon",
+    "category": "cobblepedia:pokemon",
+    "icon": "cobblemon:luxury_ball",
+    "advancement": "cobblemon:first_catch",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.shiny_pokemon.text"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:first_shiny_catch",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.first_shiny_catch",
+            "text": "advancements.cobblemon.first_shiny_catch.description"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:pokemon_spawning",
+                "cobblepedia:catching"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Base de Talismã Divino",
+  "sortnum": 5,
+  "category": "fargostalismans:upgrades",
+  "icon": "fargostalismans:talisman_base_godly",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Base de Talismã Divino requer 2 bases do nível anterior. A base é o nível final de melhoria (até agora)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/talisman_base_godly"
+    }
+  ],
+  "read_by_default": true
+}

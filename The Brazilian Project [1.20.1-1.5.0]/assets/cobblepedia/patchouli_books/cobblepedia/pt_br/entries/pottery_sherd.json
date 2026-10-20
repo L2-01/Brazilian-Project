@@ -1,0 +1,29 @@
+{
+    "name": "book.cobblepedia.entries.pottery_sherd.name",
+    "category": "cobblepedia:archaeology",
+    "icon": "cobblemon:capture_sherd",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.pottery_sherd.name",
+            "item": "tag:cobblemon:decorated_pot_sherds",
+            "text": "book.cobblepedia.entries.pottery_sherd.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.loot",
+            "text": "book.cobblepedia.entries.pottery_sherd.loot.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:bygone_sherd",
+                "cobblepedia:capture_sherd",
+                "cobblepedia:dome_sherd",
+                "cobblepedia:helix_sherd",
+                "cobblepedia:nostalgic_sherd",
+                "cobblepedia:suspicious_sherd"
+            ]
+        }
+    ]
+}

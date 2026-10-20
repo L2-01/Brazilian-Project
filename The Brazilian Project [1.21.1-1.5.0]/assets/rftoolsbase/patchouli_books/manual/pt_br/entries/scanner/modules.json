@@ -1,0 +1,29 @@
+{
+  "name": "Módulos do Scanner",
+  "icon": "rftoolsstorage:storage_control_module",
+  "category": "rftoolsbase:category_rftoolsstorage_scanner",
+  "extra_recipe_mappings": {
+    "rftoolsstorage:storage_control_module": 0,
+    "rftoolsstorage:dump_module": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Os módulos de Controle de Armazenamento e de Despejo são módulos de Tela que funcionam através de um Scanner de Armazenamento vinculado. Clique direito agachado num scanner com o módulo para definir o alvo dele."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:storage_control_module",
+      "recipe2": "rftoolsstorage:dump_module"
+    },
+    {
+      "type": "text",
+      "text": "O Módulo de Tela de Controle de Armazenamento monitora até nove filtros de itens e pode contar todos os inventários ou apenas inventários marcados/roteáveis."
+    },
+    {
+      "type": "text",
+      "text": "O Módulo de Tela de Despejo envia os itens correspondentes do inventário do jogador para a rede do scanner vinculado. Ele pode usar tags comuns de itens para uma correspondência mais ampla."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Melhoria de Pilha",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:stack_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esta melhoria pode ser adicionada a qualquer módulo que manipule $(italic)itens/$ (em oposição a $(italic)blocos/$, $(italic)fluidos/$ ou $(italic)energia/$).$(p)Adicionar Melhorias de Pilha a um módulo aumenta o número de itens que ele pode processar por tique; cada Melhoria de Pilha dobra o número de itens, até o máximo do tamanho natural de pilha do item (64 para a maioria dos itens)."
+    },
+    {
+      "type": "text",
+      "text": "Se o $(l:router/modular_router)roteador/$ também tiver $(l:upgrades/stack)Melhorias de Pilha/$ instaladas, as Melhorias de Pilha do módulo terão precedência; ex.: se um roteador tem 6 Melhorias de Pilha e um módulo tem 2 Melhorias de Pilha, o módulo processará 4 itens por tique, não 64."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:stack_augment"
+    }
+  ]
+}

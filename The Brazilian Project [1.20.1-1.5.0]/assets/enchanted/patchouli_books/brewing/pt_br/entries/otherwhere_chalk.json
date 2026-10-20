@@ -1,0 +1,16 @@
+{
+  "name": "Giz de Outro Lugar",
+  "icon": "enchanted:otherwhere_chalk",
+  "category": "enchanted:cauldron",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O giz de Outro Lugar é um giz roxo-vivo, tipicamente usado em ritos envolvendo teletransporte/transposição, relocação ou o End."
+    },
+    {
+      "type": "enchanted:cauldron_recipe",
+      "recipe": "enchanted:witch_cauldron/otherwhere_chalk"
+    }
+  ],
+  "read_by_default": true
+}

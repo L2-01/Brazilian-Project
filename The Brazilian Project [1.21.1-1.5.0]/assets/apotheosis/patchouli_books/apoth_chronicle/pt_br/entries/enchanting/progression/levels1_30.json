@@ -1,0 +1,20 @@
+{
+    "name": "Níveis 1 - 30",
+    "icon": "minecraft:bookshelf",
+    "category": "apotheosis:enchanting/progression",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "title": "Alcançando o Nível 30",
+            "recipe": "minecraft:bookshelf",
+            "text": "Alcançar o Nível 30 é feito da maneira usual, com quinze estantes de livros."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Outros Atributos",
+            "item": "minecraft:skeleton_skull",
+            "text": "Nesta etapa, há algumas opções básicas para aumentar outros atributos.$(p)Você pode usar Velas para aumentar $(arcana), e Crânios para aumentar $(quanta)."
+        }
+    ]
+}

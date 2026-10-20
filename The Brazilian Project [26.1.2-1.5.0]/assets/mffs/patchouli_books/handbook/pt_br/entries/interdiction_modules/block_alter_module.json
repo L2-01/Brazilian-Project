@@ -1,0 +1,18 @@
+{
+    "name": "Módulo de Alteração de Blocos",
+    "icon": "mffs:block_alter_module",
+    "category": "mffs:interdiction_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:block_alter_module",
+            "link_recipe": true,
+            "text": "O $(5)Módulo de Alteração de Blocos$() é um módulo opcional para a $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$(). Ele permite que uma Matriz iniba a habilidade de um jogador de colocar ou quebrar blocos. Se um jogador tentar quebrar ou colocar um bloco dentro da área de ação da $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$(), ela informará ao jogador que ele não tem permissão para isso e reverterá o que quer que ele tenha feito."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:block_alter_module",
+            "text": "Fabricando o $(5)Módulo de Alteração de Blocos$()."
+        }
+    ]
+}

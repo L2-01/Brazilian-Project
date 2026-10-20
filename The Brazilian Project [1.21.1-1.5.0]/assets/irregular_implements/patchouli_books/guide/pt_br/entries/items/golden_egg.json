@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:golden_egg",
+  "name": "Ovo de Ouro",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:golden_egg",
+      "link_recipe": true,
+      "text": "O $(d)Ovo de Ouro$() gera uma galinha que $(3)bota lingotes de ouro$() em vez de ovos.$(br2)Eles podem ser encontrados em $(l:blocks/bean_pod)Vagens de Feijão$(/l), que ficam no topo de $(l:items/magic_bean)Feijões Mágicos$(/l) plantados",
+      "title": "Ovo de Ouro"
+    }
+  ]
+}

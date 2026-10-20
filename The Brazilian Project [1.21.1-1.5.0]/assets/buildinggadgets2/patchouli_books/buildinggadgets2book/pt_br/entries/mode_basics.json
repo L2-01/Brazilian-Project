@@ -1,0 +1,34 @@
+{
+  "name": "Básico",
+  "sortnum": 0,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:template",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os dispositivos de construção e de troca têm uma configuração de 'alcance', que especifica o alcance de blocos afetados. Cada modo lida com isso de forma um pouco diferente, mas em geral representa uma área.$(br2)Por exemplo, no modo Fileira Horizontal um alcance de 3 será 3 blocos no total, 1 de cada lado do bloco para o qual você está olhando. Isso é arredondado se você escolher um número par."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Alcance de 3",
+      "images": [
+        "buildinggadgets2:textures/book/images/horzrow4.png"
+      ],
+      "border": true,
+      "text": "Um alcance de 3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para paredes, um alcance de 3 construirá uma parede 3x3. Números pares modificam levemente a altura da parede. $(br2) Experimente com a prévia para obter o resultado que você procura!"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Alcance de 3",
+      "images": [
+        "buildinggadgets2:textures/book/images/vertwall1.png"
+      ],
+      "border": true,
+      "text": "Um alcance de 3"
+    }
+  ]
+}

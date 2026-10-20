@@ -1,0 +1,23 @@
+{
+    "name": "book.cobblepedia.entries.pokemon_drops",
+    "category": "cobblepedia:pokemon",
+    "icon": "cobblemon:soft_sand",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.pokemon_drops.text"
+        },
+        {
+            "type": "patchouli:link",
+            "url": "https://wiki.cobblemon.com/index.php/Pokémon/Itens Largados",
+            "link_text": "book.cobblepedia.pages.wiki",
+            "text": "book.cobblepedia.entries.pokemon_drops.wiki"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:pokemon_spawning"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "block.cobblemon.restoration_tank",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:restoration_tank",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:restoration_tank",
+            "title": "block.cobblemon.restoration_tank",
+            "text": "book.cobblepedia.entries.restoration_tank.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:restoration_tank",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

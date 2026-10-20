@@ -1,0 +1,18 @@
+{
+    "name": "book.cobblepedia.entries.fast_rod.name",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:fast_rod",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:fast_rod",
+            "text": "book.cobblepedia.entries.fast_rod.text"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "cobblemon:fast_rod",
+            "title": "book.cobblepedia.pages.smithing"
+        }
+    ]
+}

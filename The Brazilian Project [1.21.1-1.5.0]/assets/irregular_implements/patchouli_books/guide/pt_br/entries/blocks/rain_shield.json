@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:rain_shield",
+  "name": "Escudo de Chuva",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:rain_shield",
+      "link_recipe": true,
+      "text": "O $(d)Escudo de Chuva$() impede que a chuva caia num raio ao seu redor. Por padrão, esse raio é de 5 chunks.$(br2)Ele pode ser desativado com um sinal de redstone.",
+      "title": "Escudo de Chuva"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Iniciador de Fogo Externo",
+    "icon": "naturesaura:furnace_heater",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Em algum momento, percebe-se que uma $(item)Fornalha$() é simplesmente lenta demais e consome recursos demais para ser usada eficientemente.$(br)O $(item)Iniciador de Fogo Externo$() acelera uma $(item)Fornalha$() em qualquer lado em que for colocado, junto de dar a ela o calor necessário para fundir qualquer tipo de material. Note que, ao consumir a $(aura) necessária para isso, os níveis naturais podem cair para negativos, causando $(l:intro/aura)retornos decrescentes$()."
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "Criando o $(item)Iniciador de Fogo Externo$() usando o $(l:practices/tree_ritual)Ritual da Floresta$()",
+            "recipe": "naturesaura:furnace_heater"
+        }
+    ]
+}

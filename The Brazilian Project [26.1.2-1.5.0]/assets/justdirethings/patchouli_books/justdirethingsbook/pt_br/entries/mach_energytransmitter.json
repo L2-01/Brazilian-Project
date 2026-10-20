@@ -1,0 +1,25 @@
+{
+  "name": "Transmissor de Energia",
+  "sortnum": 1,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:energytransmitter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O transmissor de energia é um jeito revolucionário de transmitir energia dos seus geradores para as máquinas!$(br2)Primeiro, conecte esta máquina a uma fonte de energia, como os geradores a $(l:justdirethings:mach_generatort1)Carvão$(/l) ou a $(l:justdirethings:mach_generatorfluidt1)Combustível$(/l). Isso encherá o buffer interno de Forge Energy."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Segundo, defina a Área de Efeito, como na maioria das $(l:justdirethings:mach_advanced_controls)Máquinas Avançadas$(/l).$(br2)Qualquer bloco dentro da área de efeito que possa receber Forge Energy começará a ser preenchido pelo buffer interno.$(br2)NOTA: há uma pequena perda de energia como resultado dessa transferência sem fio. Isso é intencional e serve de equilíbrio para a transferência de \"energia sem fio\". Essa perda é configurável."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se quiser, você pode filtrar as máquinas que recebem energia usando os espaços de filtro na UI, assim como na maioria das outras $(l:justdirethings:mach_advanced_controls)Máquinas Avançadas$(/l).$(br2)Se outro transmissor de energia estiver dentro da área de efeito, eles se equilibrarão automaticamente. O balanceamento de energia não causa perda. Você pode desativar a renderização de partículas com um botão na UI."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Transmissor de Energia",
+      "recipe": "justdirethings:energytransmitter"
+    }
+  ]
+}

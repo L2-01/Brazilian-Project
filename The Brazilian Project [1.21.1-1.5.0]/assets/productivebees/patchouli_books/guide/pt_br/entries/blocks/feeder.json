@@ -1,0 +1,20 @@
+{
+  "name": "Laje de Alimentação",
+  "icon": "productivebees:feeder",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:feeder",
+      "text": "Pode ser usada como ponto de coleta para alimentar abelhas. Contém 3 blocos de item. Quando abelhas Lenhadoras ou Mineradoras se alimentam dela, ela produzirá a partir de um item aleatório na laje."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Lajes de alimentação podem ser embebecidas em mel, dando às abelhas um excelente lugar para molhar as patinhas e se recuperar de um longo dia de trabalho, ou seja, dá a elas regeneração."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Como uma $(l:items/upgrades#simulator)colmeia simulada$(/l) só tem 1 posição de bloco de flor, lajes de alimentação funcionam muito bem com elas, deixando você ter até 3 abelhas diferentes trabalhando na colmeia."
+    }
+  ]
+}

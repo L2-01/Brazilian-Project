@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.safari_ball",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:safari_ball",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:safari_ball",
+            "text": "book.cobblepedia.entries.safari_ball.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:safari_ball",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.safari_ball.crafting"
+        }
+    ]
+}

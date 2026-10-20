@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.smooth_rock",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:smooth_rock",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:smooth_rock",
+            "text": "book.cobblepedia.entries.smooth_rock.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.loot",
+            "text": "book.cobblepedia.entries.smooth_rock.loot.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:smooth_rock",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

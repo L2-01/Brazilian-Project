@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.poison_gem",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:poison_gem",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:poison_gem",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.poison_gem.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:type_gem"
+            ]
+        }
+    ]
+}

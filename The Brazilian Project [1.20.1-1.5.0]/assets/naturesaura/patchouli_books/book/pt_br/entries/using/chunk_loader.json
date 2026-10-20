@@ -1,0 +1,22 @@
+{
+    "name": "Olho do Mundo",
+    "icon": "naturesaura:chunk_loader",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:aura_bottle_end",
+    "flag": "naturesaura:chunk_loader",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Do mundo em que vivemos, um elemento-chave nunca foi bem compreendido: onde ninguém está olhando, nada parece acontecer - o próprio tempo parece pausar. Esse fenômeno natural pode às vezes ser problemático, especialmente quando se trata de transporte automatizado em longas distâncias. O $(item)Olho do Mundo$(), porém, observará a área que deve ser mantida $(thing)ativa$() para você, exigindo, em troca, uma pequena quantidade de"
+        },
+        {
+            "type": "text",
+            "text": "$(aura) para manter sua visão.$(p)Para configurá-lo, basta colocá-lo e fornecer um $(thing)sinal de redstone$() - quanto mais forte o sinal, maior será seu raio em blocos, sendo cerca de 30 o máximo. Devido à natureza de como a observação dessa maneira parece funcionar, o alcance nem sempre é atingido exatamente, o que significa que, às vezes, as áreas carregadas serão $(thing)um pouco maiores$() que o alcance esperado."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Olho do Mundo$()$(p)$(italic)Uma carga de chunks",
+            "recipe": "naturesaura:chunk_loader"
+        }
+    ]
+}

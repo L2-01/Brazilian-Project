@@ -1,0 +1,26 @@
+{
+    "name": "book.cobblepedia.entries.poke_ball_intro",
+    "category": "cobblepedia:poke_balls",
+    "icon": "cobblemon:poke_ball",
+    "priority": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.poke_ball_intro.text"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:craft_poke_ball",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.craft_poke_ball",
+            "text": "advancements.cobblemon.craft_poke_ball.description"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:basic_balls",
+                "cobblepedia:catching"
+            ]
+        }
+    ]
+}

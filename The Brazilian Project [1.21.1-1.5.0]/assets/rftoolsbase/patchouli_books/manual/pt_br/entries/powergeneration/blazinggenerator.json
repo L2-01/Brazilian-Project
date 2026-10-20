@@ -1,0 +1,27 @@
+{
+  "name": "Gerador Ardente",
+  "icon": "rftoolspower:blazing_generator",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:blazing_generator": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Gerador Ardente queima Varetas Ardentes para gerar FE. Varetas de blaze normais precisam primeiro ser processadas no $(l:rftoolsbase:powergeneration/blazingagitator)Agitador Ardente$(/l)."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:blazing_generator"
+    },
+    {
+      "type": "text",
+      "text": "Uma Vareta Ardente tem dois valores importantes: potência de saída e duração. Varetas de maior qualidade produzem mais FE/t, e varetas de maior duração mantêm o gerador funcionando por mais tempo."
+    },
+    {
+      "type": "text",
+      "text": "O gerador pode usar até quatro varetas e funciona melhor quando opera continuamente. Ele precisa de tempo para aquecer antes de alcançar o potencial total das varetas inseridas."
+    }
+  ]
+}

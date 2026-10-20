@@ -1,0 +1,27 @@
+{
+  "name": "item.apprenticecodex.monarch_bond_charm",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:monarch_bond_charm",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:monarch_bond_charm",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.monarch_bond_charm.page.p001.text",
+        "with": [
+          {
+            "translate": "spell.irons_spellbooks.heal"
+          },
+          {
+            "translate": "spell.irons_spellbooks.greater_heal"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:monarch_bond_charm",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.monarch_bond_charm.page.p002.text"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.superb_remedy",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:superb_remedy",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:superb_remedy",
+            "text": "book.cobblepedia.entries.superb_remedy.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "book.cobblepedia.pages.crafting",
+            "recipe": "cobblemon:superb_remedy"
+        }
+    ]
+}

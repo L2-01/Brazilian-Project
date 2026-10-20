@@ -1,0 +1,36 @@
+{
+  "name": "item.apprenticecodex.anti_mana_arrow",
+  "category": "apprenticecodex:weapons_and_shields",
+  "icon": "apprenticecodex:anti_mana_arrow",
+  "extra_recipe_mappings": {
+    "apprenticecodex:anti_mana_arrow": 1
+  },
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:anti_mana_arrow",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.anti_mana_arrow.page.p001.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.spellcaster_workbench"
+          },
+          {
+            "translate": "item.apprenticecodex.mana_shield_charm"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "recipe": "apprenticecodex:spellcaster_workbench/anti_mana_arrow",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.anti_mana_arrow.page.p002.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spellcaster_workbench"
+      ]
+    }
+  ]
+}

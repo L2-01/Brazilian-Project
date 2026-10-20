@@ -1,0 +1,32 @@
+{
+  "name": "enchantment.apprenticecodex.glow_energy",
+  "category": "apprenticecodex:enchantments",
+  "icon": "apprenticecodex:spellcasters_flask",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "enchantment.apprenticecodex.glow_energy",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.glow_energy.page.p001.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.spellcasters_flask"
+          },
+          {
+            "translate": "item.apprenticecodex.alchemists_flask"
+          },
+          {
+            "translate": "enchantment.apprenticecodex.red_energy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:magic_tools/spellcasters_flask",
+        "apprenticecodex:magic_tools/alchemists_flask"
+      ]
+    }
+  ]
+}

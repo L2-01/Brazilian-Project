@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.helix_fossil",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:helix_fossil",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.helix_fossil",
+            "item": "cobblemon:helix_fossil",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.helix_fossil.text"
+        }
+    ]
+}

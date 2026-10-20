@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.rich_mulch",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:rich_mulch",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:rich_mulch",
+            "text": "book.cobblepedia.entries.rich_mulch.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:rich_mulch",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

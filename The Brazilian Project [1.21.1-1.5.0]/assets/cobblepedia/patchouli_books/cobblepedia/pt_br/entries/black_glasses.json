@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.black_glasses",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:black_glasses",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:black_glasses",
+            "text": "book.cobblepedia.entries.black_glasses.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:black_glasses",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.black_glasses.holding"
+        }
+    ]
+}

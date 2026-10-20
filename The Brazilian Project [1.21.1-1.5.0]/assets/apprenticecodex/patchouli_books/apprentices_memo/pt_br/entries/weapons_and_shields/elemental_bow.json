@@ -1,0 +1,72 @@
+{
+  "name": "item.apprenticecodex.elemental_bow",
+  "category": "apprenticecodex:weapons_and_shields",
+  "icon": "apprenticecodex:elemental_bow",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:elemental_bow",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.elemental_bow.page.p001.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.spell_calibration_bench"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:elemental_bow",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.elemental_bow.page.p002.text"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.elemental_bow.page.p003.text"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.elemental_bow.page.p004.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "enchantment.apprenticecodex.synthesis",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.elemental_bow.page.p005.text",
+        "with": [
+          {
+            "translate": "enchantment.apprenticecodex.synthesis"
+          },
+          {
+            "translate": "enchantment.minecraft.infinity"
+          }
+        ]
+      },
+      "item": "apprenticecodex:elemental_bow[minecraft:enchantments={levels:{\"apprenticecodex:synthesis\":1}}]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:apprenticecodex:scrollcaster_gauntlet_slot_upgrades",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.elemental_bow.page.p006.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.elemental_bow.page.p006.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.elemental_bow.page.p007.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.elemental_bow.page.p007.text",
+      "item": "irons_spellbooks:fire_rune,irons_spellbooks:ice_rune,irons_spellbooks:lightning_rune,irons_spellbooks:holy_rune,irons_spellbooks:ender_rune,irons_spellbooks:blood_rune,irons_spellbooks:evocation_rune,irons_spellbooks:nature_rune"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:cooldown_rune",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.elemental_bow.page.p008.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.elemental_bow.page.p008.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spell_calibration_bench"
+      ]
+    }
+  ]
+}

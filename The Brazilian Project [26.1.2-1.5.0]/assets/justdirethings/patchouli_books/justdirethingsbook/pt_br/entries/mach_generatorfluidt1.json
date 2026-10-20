@@ -1,0 +1,17 @@
+{
+  "name": "Gerador a Combustível Simples",
+  "sortnum": 20,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:generatorfluidt1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Gerador a Combustível Simples expande as capacidades do $(l:justdirethings:mach_generatort1)Gerador a Carvão Simples$(/l) usando combustíveis refinados para uma produção de energia mais eficiente.$(br2)Veja as seções de $(l:justdirethings:res_refined_fuel_t2)Combustível Refinado$(/l) para opções de combustível. Há 3 níveis de combustível disponíveis."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Gerador a Combustível Simples",
+      "recipe": "justdirethings:generatorfluidt1"
+    }
+  ]
+}

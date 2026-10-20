@@ -1,0 +1,29 @@
+{
+  "name": "O Controlador de Tela",
+  "icon": "rftoolsutility:screen_controller",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:screen_controller": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "Com o Controlador de Tela você pode energizar $(l:rftoolsbase:machines/screen)telas$(/l) próximas. Usando o botão 'Escanear' na interface você pode conectar todas as telas num raio de 32x32x32.$(br2)$(5)Infundir$() esta máquina aumenta esse alcance"
+    },
+    {
+      "type": "crafting",
+      "heading": "Controlador de Tela",
+      "recipe": "rftoolsutility:screen_controller"
+    },
+    {
+      "type": "text",
+      "title": "Escaneando",
+      "text": "Coloque o controlador dentro do alcance, forneça FE e pressione Escanear. Escaneie novamente depois de adicionar, remover ou mover telas."
+    },
+    {
+      "type": "text",
+      "title": "Alcance",
+      "text": "A área de escaneamento padrão é de 32x32x32 blocos ao redor do controlador. $(5)Infundir$() o controlador aumenta esse alcance."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Semeador de Plantas",
+  "icon": "industrialforegoing:plant_sower",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uma máquina usada para $(6)plantar$() plantações e mudas. $(br2)Os 9 slots de inventário interno são codificados por $(6)cor$() e correspondem às marcações coloridas no topo do Semeador de Plantas. A área de trabalho acima da máquina é dividida em 9 segmentos e apenas sementes do slot de inventário correspondente serão plantadas em cada seção."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:plant_sower"
+    }
+  ]
+}

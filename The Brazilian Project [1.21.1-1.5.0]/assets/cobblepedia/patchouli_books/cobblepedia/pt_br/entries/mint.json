@@ -1,0 +1,49 @@
+{
+    "name": "book.cobblepedia.entries.mint",
+    "category": "cobblepedia:consumables",
+    "icon": "cobblemon:lonely_mint",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.mint",
+            "item": "tag:cobblemon:mints",
+            "text": "book.cobblepedia.entries.mint.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.mint.usage.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:lonely_mint",
+                "cobblepedia:adamant_mint",
+                "cobblepedia:naughty_mint",
+                "cobblepedia:brave_mint",
+                "cobblepedia:bold_mint",
+                "cobblepedia:impish_mint",
+                "cobblepedia:lax_mint",
+                "cobblepedia:relaxed_mint",
+                "cobblepedia:modest_mint",
+                "cobblepedia:mild_mint",
+                "cobblepedia:rash_mint",
+                "cobblepedia:quiet_mint"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:calm_mint",
+                "cobblepedia:gentle_mint",
+                "cobblepedia:careful_mint",
+                "cobblepedia:sassy_mint",
+                "cobblepedia:timid_mint",
+                "cobblepedia:hasty_mint",
+                "cobblepedia:jolly_mint",
+                "cobblepedia:naive_mint",
+                "cobblepedia:serious_mint"
+            ]
+        }
+    ]
+}

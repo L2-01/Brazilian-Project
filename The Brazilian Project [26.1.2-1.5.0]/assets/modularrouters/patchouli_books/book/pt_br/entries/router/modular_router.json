@@ -1,0 +1,58 @@
+{
+  "name": "Roteador Modular",
+  "icon": "modularrouters:modular_router",
+  "category": "modularrouters:router",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O $(thing)Roteador Modular/$ é o núcleo do sistema de roteamento. Ele é responsável por executar todos os módulos conectados a ele; movendo itens, blocos e fluidos de várias formas."
+    },
+    {
+      "type": "image",
+      "images": [
+        "modularrouters:textures/patchouli/router_gui.png"
+      ],
+      "text": "$(italic)Uma GUI de Roteador Modular com vários módulos e melhorias instalados",
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "1. O Buffer",
+      "text": "O $(thing)Roteador Modular/$ tem um buffer de um espaço, capaz de conter até uma pilha de itens. Esse buffer é exposto como um inventário normal, então pode ser interagido via $(item)Funis/$ e outros sistemas de tubulação de mods.$(p)Além disso, um $(item)Comparador/$ colocado contra o roteador medirá a plenitude do espaço como esperado."
+    },
+    {
+      "type": "text",
+      "title": "2. Espaços de Módulo",
+      "text": "O $(thing)Roteador Modular/$ tem nove espaços para $(l:intro/modules)módulos/$. Cada vez que o roteador executa (entre 1 e 10 vezes por segundo, dependendo das Melhorias de Velocidade), ele $(thing)executará/$ cada módulo por vez, da esquerda para a direita.$(p)Você pode configurar módulos instalados sem removê-los do roteador pressionando $(4)$(bold)[$(k:modularrouters.configure)]/$ enquanto passa o mouse sobre eles, ou $(thing)clicando com o botão do meio/$ no módulo na GUI."
+    },
+    {
+      "type": "text",
+      "title": "3. Espaços de Melhoria",
+      "text": "O $(thing)Roteador Modular/$ tem cinco espaços para $(l:intro/upgrades)melhorias/$. Melhorias aprimoram a funcionalidade do roteador de várias formas; por exemplo, cada $(l:upgrades/speed)Melhoria de Velocidade/$ inserida faz o roteador executar um pouco mais rápido, enquanto cada $(l:upgrades/stack)Melhoria de Pilha/$ permite que ele lide com mais itens em cada operação."
+    },
+    {
+      "type": "text",
+      "title": "4. Controle de Redstone",
+      "text": "O $(thing)Roteador Modular/$ tem alguma flexibilidade sobre como responde a entrada de redstone, controlada pelo botão superior direito:$(li)Padrão: sempre executar, independente do sinal de redstone$(li)Só executar quando $(italic)não/$ houver sinal de redstone$(li)Só executar quando $(italic)houver/$ sinal de redstone$(li)Nunca executar$(li)Executar $(italic)uma vez/$ quando um pulso de redstone for recebido (qualquer sinal maior que o anterior)."
+    },
+    {
+      "type": "text",
+      "title": "5. Modo Ecológico",
+      "text": "Num espírito ecologicamente correto, o roteador tem uma opção de desacelerar automaticamente se ficar ocioso por um tempo.$(p)Quando o Modo Ecológico está ativado, se o roteador não tiver feito nenhum trabalho nos últimos $(ttcolor)$(t:Ajustável na config do mod - 'ecoTimeout')5 segundos/$, ele desacelerará e só executará uma vez a cada $(ttcolor)$(t:Ajustável na config do mod - 'lowPowerTickRate')5 segundos/$ (independentemente de $(l:upgrades/speed)Melhorias de Velocidade/$). No entanto, assim que fizer qualquer trabalho, ele retornará à velocidade normal de execução."
+    },
+    {
+      "type": "text",
+      "title": "Modo Ecológico (cont.)",
+      "text": "Isso é destinado principalmente a servidores ocupados, para economizar ciclos de CPU, mas é potencialmente bom de ter em qualquer roteador que só execute raramente e onde transferência rápida de itens não seja tão importante (ex.: uma farm de ovelhas onde você pode ter um $(l:modules/vacuum)Módulo de Vácuo/$ coletando lã tosquiada periodicamente)."
+    },
+    {
+      "type": "text",
+      "title": "Jogadores Falsos",
+      "text": "Vários módulos ($(l:modules/placer)Colocador/$, $(l:modules/breaker)Quebrador/$, $(l:modules/activator)Ativador/$) fazem seu trabalho como um $(thing)jogador falso/$. Esse jogador falso usa o perfil de jogo do jogador que colocou o roteador; isso é importante saber em servidores multiplayer que usam mods de proteção de terreno como FTB Chunks."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:modular_router"
+    }
+  ]
+}

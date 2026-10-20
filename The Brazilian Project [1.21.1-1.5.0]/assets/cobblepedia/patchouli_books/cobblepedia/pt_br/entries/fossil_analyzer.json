@@ -1,0 +1,19 @@
+{
+    "name": "block.cobblemon.fossil_analyzer",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:fossil_analyzer",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:fossil_analyzer",
+            "title": "block.cobblemon.fossil_analyzer",
+            "text": "book.cobblepedia.entries.fossil_analyzer.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:fossil_analyzer",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

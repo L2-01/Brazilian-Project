@@ -1,0 +1,23 @@
+{
+  "name": "Injetor de Pérolas",
+  "icon": "rftoolspower:pearl_injector",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:pearl_injector": 0
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Injetor de Pérolas insere pérolas de ender em um $(l:rftoolsbase:powergeneration/endergenic)Gerador Endergênico$(/l). Coloque-o virado para o gerador ou diretamente abaixo dele."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:pearl_injector"
+    },
+    {
+      "type": "text",
+      "text": "Com um pulso de redstone, ele converte uma pérola de ender em uma pérola endergênica e a injeta. Se o gerador alvo já estiver segurando uma pérola, a nova pérola é perdida."
+    }
+  ]
+}

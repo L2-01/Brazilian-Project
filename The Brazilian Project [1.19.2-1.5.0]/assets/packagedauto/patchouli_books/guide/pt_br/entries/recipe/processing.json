@@ -1,0 +1,13 @@
+{
+	"name": "Processamento",
+	"category": "packagedauto:recipe",
+	"icon": "minecraft:furnace",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(thing)Processamento/$ é o tipo de receita de processamento mais básico.$(p)Ao codificar, as entradas e saídas serão ordenadas e empilhadas."
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 101
+}

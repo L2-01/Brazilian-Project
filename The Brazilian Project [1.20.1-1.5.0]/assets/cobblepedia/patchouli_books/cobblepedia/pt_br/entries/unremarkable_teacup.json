@@ -1,0 +1,24 @@
+{
+    "name": "item.cobblemon.unremarkable_teacup",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:unremarkable_teacup",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:unremarkable_teacup",
+            "title": "item.cobblemon.unremarkable_teacup",
+            "text": "book.cobblepedia.entries.unremarkable_teacup.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.loot",
+            "text": "book.cobblepedia.entries.unremarkable_teacup.loot"
+        },
+        {
+            "type": "patchouli:stonecutting",
+            "recipe": "cobblemon:unremarkable_teacup",
+            "title": "book.cobblepedia.pages.stonecutting"
+        }
+    ]
+}

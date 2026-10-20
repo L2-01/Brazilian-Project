@@ -1,0 +1,27 @@
+{
+    "name": "item.cobblemon.ribbon_sweet",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:ribbon_sweet",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:ribbon_sweet",
+            "title": "item.cobblemon.ribbon_sweet",
+            "text": "book.cobblepedia.entries.ribbon_sweet.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:ribbon_sweet",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.ribbon_sweet.evolving",
+            "holding_item2": "cobblemon:ribbon_sweet",
+            "pokemon2": "cobblemon:milcery",
+            "evolved_pokemon2": "cobblemon:alcremie"
+        }
+    ]
+}

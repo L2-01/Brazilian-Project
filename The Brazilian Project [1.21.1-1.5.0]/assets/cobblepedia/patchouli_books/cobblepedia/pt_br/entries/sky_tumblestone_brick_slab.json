@@ -1,0 +1,30 @@
+{
+    "name": "block.cobblemon.sky_tumblestone_brick_slab",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:sky_tumblestone_brick_slab",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "block.cobblemon.sky_tumblestone_brick_slab",
+            "item": "cobblemon:sky_tumblestone_brick_slab",
+            "text": "book.cobblepedia.entries.sky_tumblestone_brick_slab.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:sky_tumblestone_brick_slab",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:stonecutting",
+            "recipe": "cobblemon:sky_tumblestone_brick_slab_from_polished_sky_tumblestone_in_stonecutter",
+            "recipe2": "cobblemon:sky_tumblestone_brick_slab_from_sky_tumblestone_block_in_stonecutter",
+            "title": "book.cobblepedia.pages.stonecutting"
+        },
+        {
+            "type": "patchouli:stonecutting",
+            "recipe": "cobblemon:sky_tumblestone_brick_slab_from_sky_tumblestone_bricks_in_stonecutter",
+            "title": "book.cobblepedia.pages.stonecutting"
+        }
+    ]
+}

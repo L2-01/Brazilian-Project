@@ -1,0 +1,62 @@
+{
+    "name": "book.cobblepedia.entries.apricorn",
+    "category": "cobblepedia:agriculture",
+    "icon": "cobblemon:red_apricorn",
+    "turnin": "cobblemon:harvest_apricorn",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.apricorn",
+            "item": "tag:cobblemon:apricorns",
+            "text": "book.cobblepedia.entries.apricorn.text"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:harvest_apricorn",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.harvest_apricorn",
+            "text": "advancements.cobblemon.harvest_apricorn.description"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.apricorn.obtaining"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.farming",
+            "text": "book.cobblepedia.entries.apricorn.farming"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.farming",
+            "text": "book.cobblepedia.entries.apricorn.farming2"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.composting",
+            "text": "book.cobblepedia.entries.apricorn.composting"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:apricorn_bowl",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.entries.apricorn.apricorn_bowl"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.apricorn.colors",
+            "text": "book.cobblepedia.entries.apricorn.colors.text",
+            "anchor": "colors",
+            "entries": [
+                "cobblepedia:red_apricorn",
+                "cobblepedia:yellow_apricorn",
+                "cobblepedia:green_apricorn",
+                "cobblepedia:blue_apricorn",
+                "cobblepedia:pink_apricorn",
+                "cobblepedia:white_apricorn",
+                "cobblepedia:black_apricorn"
+            ]
+        }
+    ]
+}

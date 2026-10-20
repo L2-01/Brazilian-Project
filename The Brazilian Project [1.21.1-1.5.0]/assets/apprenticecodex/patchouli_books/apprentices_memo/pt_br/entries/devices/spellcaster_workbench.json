@@ -1,0 +1,84 @@
+{
+  "name": "block.apprenticecodex.spellcaster_workbench",
+  "category": "apprenticecodex:devices",
+  "icon": "apprenticecodex:spellcaster_workbench",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spellcaster_workbench",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellcaster_workbench.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:spellcaster_workbench",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellcaster_workbench.page.p002.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.spellcaster_workbench.page.p003.title",
+      "item": "apprenticecodex:spellcasters_flask",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellcaster_workbench.page.p003.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.spellcasters_flask"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.spellcaster_workbench.page.p004.title",
+      "item": "apprenticecodex:scrollcaster_gauntlet",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellcaster_workbench.page.p004.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.scrollcaster_gauntlet"
+          },
+          {
+            "translate": "item.apprenticecodex.scrollcaster_gauntlet"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.spellcaster_workbench.page.p005.title",
+      "item": "apprenticecodex:luminous_device",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellcaster_workbench.page.p005.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.luminous_device"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.spellcaster_workbench.page.p006.title",
+      "item": "apprenticecodex:archivists_grimoire",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellcaster_workbench.page.p006.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.archivists_grimoire"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:staves_and_casting_devices/spellgun_ammo",
+        "apprenticecodex:staves_and_casting_devices/spellgun_system",
+        "apprenticecodex:staves_and_casting_devices/scrollcaster_gauntlet",
+        "apprenticecodex:magic_tools/luminous_device",
+        "apprenticecodex:magic_tools/spellcasters_flask",
+        "apprenticecodex:weapons_and_shields/anti_mana_arrow",
+        "apprenticecodex:equipment_and_accessories/archivists_grimoire"
+      ]
+    }
+  ]
+}

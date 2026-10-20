@@ -1,0 +1,26 @@
+{
+  "name": "Transpor Jogador",
+  "icon": "minecraft:ender_pearl",
+  "category": "enchanted:transposition",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Transpor Jogador",
+      "text": "Teletransporta quem lança para a localização contida num obelisco vinculado. $(br2)Conhecido por deixar algumas partes para trás em raras ocasiões, se lançado mal."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:transposition_player"
+    },
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Transpor Jogador",
+      "text": "Teletransporta quem lança para a localização contida num obelisco sanguíneo. $(br2)Conhecido por deixar algumas partes para trás em raras ocasiões, se lançado mal."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:transposition_player_blooded"
+    }
+  ],
+  "read_by_default": true
+}

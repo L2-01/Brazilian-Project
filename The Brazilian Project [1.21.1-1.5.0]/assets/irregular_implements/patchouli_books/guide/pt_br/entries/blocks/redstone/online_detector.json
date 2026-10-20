@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:online_detector",
+  "name": "Detector Online",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:online_detector",
+      "link_recipe": true,
+      "text": "O $(d)Detector Online$() emite um sinal de redstone quando o jogador escolhido está conectado ao servidor.$(br2)Digite o nome de usuário exato do jogador na sua interface para configurá-lo.",
+      "title": "Detector Online"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "item.cobblemon.ether",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:ether",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:ether",
+            "text": "book.cobblepedia.entries.ether.text"
+        },
+        {
+            "type": "cobblepedia:brewing",
+            "title": "book.cobblepedia.pages.brewing",
+            "reagent_item": "cobblemon:leppa_berry",
+            "base_item": "cobblemon:medicinal_brew",
+            "result_item": "cobblemon:ether"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.brewing_ingredient",
+            "entries": [
+                "cobblepedia:max_ether"
+            ]
+        }
+    ]
+}

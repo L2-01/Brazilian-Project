@@ -1,0 +1,18 @@
+{
+    "name": "book.cobblepedia.entries.ancient_leaden_rod.name",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:ancient_leaden_rod",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:ancient_leaden_rod",
+            "text": "book.cobblepedia.entries.ancient_leaden_rod.text"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "cobblemon:ancient_leaden_rod",
+            "title": "book.cobblepedia.pages.smithing"
+        }
+    ]
+}

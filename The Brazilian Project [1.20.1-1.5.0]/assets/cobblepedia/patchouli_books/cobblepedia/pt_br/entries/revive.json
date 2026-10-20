@@ -1,0 +1,26 @@
+{
+    "name": "item.cobblemon.revive",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:revive",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:revive",
+            "text": "book.cobblepedia.entries.revive.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "book.cobblepedia.pages.crafting",
+            "recipe": "cobblemon:revive"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:max_revive"
+            ]
+        }
+    ]
+}

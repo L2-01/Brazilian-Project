@@ -1,0 +1,36 @@
+{
+    "name": "Projetor de Campo de Força",
+    "icon": "mffs:projector",
+    "category": "mffs:machines",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:projector",
+            "link_recipe": true,
+            "text": "O $(9)Projetor de Campo de Força$() é uma parte fundamental da família de máquinas do MFFS. Ele usa energia Fortron para projetar campos de força de várias formas e tamanhos no mundo."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:projector",
+            "text": "Fabricando o $(9)Projetor de Campo de Força$()."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Uso",
+            "text": "Para criar um campo de força, forneça ao $(9)Projetor de Campo de Força$() um suprimento de $(l:mffs:getting_started/fortron)Fortron$() vinculando-o a um $(l:mffs:machines/fortron_capacitor)Capacitor de Fortron$() próximo. Isso pode ser feito:$(li)Clicando com o botão direito no $(9)Projetor de Campo de Força$() e inserindo o número de frequência correspondente na sua tela de GUI$(li)Agachando e clicando com o botão direito no Projetor enquanto segura um $(l:mffs:tools/frequency_card)Cartão de Frequência$()."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Decida qual forma de campo de força criar fabricando um dos $(l:mffs:projector_modes)itens de modo do projetor$(). Clique com o botão direito no Projetor e coloque o item de modo do projetor no espaço central (vermelho) cercado por setas apontando para fora. Fabrique vários itens $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() e coloque-os na matriz de espaços do lado esquerdo da GUI do $(9)Projetor de Campo de Força$(). Cada $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() usado nos espaços de matriz do Projetor aumentará o raio do campo de força em um bloco."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O número na parte inferior da GUI indica quanto Fortron é necessário para sustentar um campo de força do tamanho e forma especificados. Ative o Projetor fornecendo-lhe um sinal de Redstone. Uma vez ativado, o $(9)Projetor de Campo de Força$() mudará de vermelho para azul e começará a projetar um campo de força (desde que tenha $(l:mffs:getting_started/fortron)Fortron$() disponível suficiente).$(p)Para conseguir atravessar um campo de força, é necessário um $(l:mffs:machines/biometric_identifier)Identificador Biométrico$()."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Melhorias",
+            "text": "Um $(9)Projetor de Campo de Força$() pode ser melhorado com vários módulos. Estes módulos gerais têm os seguintes efeitos:$(li)$(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$(): Ajusta a forma de um campo de força projetado.$(li)$(l:mffs:upgrade_modules/speed_module)$(5)Módulo de Velocidade$(): Permite que o Projetor gere um campo de força mais rapidamente.$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)Módulo de Capacidade$(): Aumenta a quantidade de $(l:mffs:getting_started/fortron)Fortron$() que o Projetor consegue armazenar.$()"
+        }
+    ]
+}

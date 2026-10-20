@@ -1,0 +1,28 @@
+{
+    "name": "item.cobblemon.never_melt_ice",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:never_melt_ice",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:never_melt_ice",
+            "text": "book.cobblepedia.entries.never_melt_ice.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:never_melt_ice",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:never_melt_ice_using_stone",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.never_melt_ice.holding"
+        }
+    ]
+}

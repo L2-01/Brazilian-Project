@@ -1,0 +1,18 @@
+{
+    "name": "block.cobblemon.leaf_stone_block",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:leaf_stone_block",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:leaf_stone_block",
+            "text": "book.cobblepedia.entries.leaf_stone_block.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:leaf_stone_block",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

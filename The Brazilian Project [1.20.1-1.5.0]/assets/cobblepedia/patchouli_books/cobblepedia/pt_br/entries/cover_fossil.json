@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.cover_fossil",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:cover_fossil",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.cover_fossil",
+            "item": "cobblemon:cover_fossil",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.cover_fossil.text"
+        }
+    ]
+}

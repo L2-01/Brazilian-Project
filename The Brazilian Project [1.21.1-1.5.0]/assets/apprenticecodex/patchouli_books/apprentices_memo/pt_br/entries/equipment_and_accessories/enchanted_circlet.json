@@ -1,0 +1,17 @@
+{
+  "name": "item.apprenticecodex.enchanted_circlet",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:enchanted_circlet",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:enchanted_circlet",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.enchanted_circlet.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:enchanted_circlet",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.enchanted_circlet.page.p002.text"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Descascador",
+    "icon": "productivetrees:stripper",
+    "category": "productivetrees:stuff",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivetrees:stripper",
+            "text": "Tira a casca da madeira, deixando-a nua e descascada. Requer um machado para operar."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "productivetrees:stripper",
+            "text": ""
+        }
+    ]
+}

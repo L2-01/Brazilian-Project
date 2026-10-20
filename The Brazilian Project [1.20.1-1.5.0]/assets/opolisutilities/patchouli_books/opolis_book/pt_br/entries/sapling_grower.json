@@ -1,0 +1,18 @@
+{
+	"name": "Cultivador de Mudas",
+	"icon": "opolisutilities:textures/item/sapling_grower.png",
+	"category": "opolisutilities:basic_items",
+	"sortnum": 4,
+	"pages": [
+		{
+    		"type": "spotlight",
+    		"item": "opolisutilities:sapling_grower",
+    		"text": "Pode ser usado para fazer mudas crescerem no mundo!"
+    	},
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:sapling_grower",
+			"text": "Funciona exatamente como usar farinha de osso."
+		}
+	]
+}

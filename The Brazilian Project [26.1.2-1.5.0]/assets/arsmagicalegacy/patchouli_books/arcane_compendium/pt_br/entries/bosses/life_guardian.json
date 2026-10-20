@@ -1,0 +1,30 @@
+{
+  "category": "arsmagicalegacy:bosses",
+  "icon": "arsmagicalegacy:life_guardian_spawn_egg",
+  "name": "item.arsmagicalegacy.arcane_compendium.bosses.life_guardian.name",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "item.arsmagicalegacy.arcane_compendium.bosses.life_guardian.page0.text"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "arsmagicalegacy:life_guardian",
+      "text": "Nível de magia recomendado: 50"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "arsmagicalegacy:life_guardian_spawn_ritual",
+      "name": "item.arsmagicalegacy.arcane_compendium.bosses.life_guardian.page2.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "item.arsmagicalegacy.arcane_compendium.bosses.life_guardian.page3.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arsmagicalegacy:life_ward",
+      "text": "item.arsmagicalegacy.arcane_compendium.bosses.life_guardian.page4.text"
+    }
+  ]
+}

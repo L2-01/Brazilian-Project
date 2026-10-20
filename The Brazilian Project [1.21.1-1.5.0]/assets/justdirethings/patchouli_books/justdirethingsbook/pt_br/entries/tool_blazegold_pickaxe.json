@@ -1,0 +1,17 @@
+{
+  "name": "Picareta de Ouro de Blaze",
+  "sortnum": 8,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:blazegold_pickaxe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mais rápida que a $(l:justdirethings:tool_ferricore_pickaxe)Picareta de Ferricoro$(/l) e inclui \"Reparo em Lava\" — repara-se quando jogada na lava."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:blazegold_pickaxe",
+      "text": "Fabricação da Picareta de Ouro de Blaze"
+    }
+  ]
+}

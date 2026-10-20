@@ -1,0 +1,17 @@
+{
+  "name": "item.apprenticecodex.spellcharged_greatsword",
+  "category": "apprenticecodex:weapons_and_shields",
+  "icon": "apprenticecodex:spellcharged_greatsword",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spellcharged_greatsword",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellcharged_greatsword.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:spellcharged_greatsword",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellcharged_greatsword.page.p002.text"
+    }
+  ]
+}

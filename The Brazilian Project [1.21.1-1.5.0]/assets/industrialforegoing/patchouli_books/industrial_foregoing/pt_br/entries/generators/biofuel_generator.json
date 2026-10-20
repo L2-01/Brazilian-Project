@@ -1,0 +1,17 @@
+{
+  "name": "Gerador de Biocombustível",
+  "icon": "industrialforegoing:biofuel_generator",
+  "category": "industrialforegoing:generators",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Um gerador que usa $(l:generators/biofuel)Biocombustível$() para gerar $(6)160$()RF/t. $(br2)Este gerador é eficiente, então parará de consumir combustível quando o buffer interno estiver cheio."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:biofuel_generator"
+    }
+  ]
+}

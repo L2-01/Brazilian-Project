@@ -1,0 +1,17 @@
+{
+  "name": "Prolongado",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_lingering",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Amplifique sua área de efeito com a melhoria Prolongado. Esta melhoria faz as poções do seu arco deixarem um efeito prolongado, estendendo seu impacto no ambiente e nos inimigos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação do Prolongado",
+      "recipe": "justdirethings:upgrade_lingering"
+    }
+  ]
+}

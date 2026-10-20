@@ -1,0 +1,18 @@
+{
+    "name": "Módulo de Fusão de Campos",
+    "icon": "mffs:fusion_module",
+    "category": "mffs:projector_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:fusion_module",
+            "link_recipe": true,
+            "text": "O $(5)Módulo de Fusão de Campos$() pode ser colocado nos espaços de matriz de $(l:mffs:machines/projector)Projetores de Campo de Força$() para fundir dois ou mais campos projetados. O módulo cortará quaisquer blocos projetados que se sobreponham a outro campo de força. Múltiplos campos de força com este módulo serão então unidos perfeitamente em um só."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:fusion_module",
+            "text": "Fabricando o $(5)Módulo de Fusão de Campos$()."
+        }
+    ]
+}

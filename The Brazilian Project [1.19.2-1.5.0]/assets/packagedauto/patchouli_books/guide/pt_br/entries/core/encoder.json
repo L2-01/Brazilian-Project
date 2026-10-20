@@ -1,0 +1,42 @@
+{
+	"name": "Codificador de Receitas de Pacotes",
+	"category": "packagedauto:core",
+	"icon": "packagedauto:encoder",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "O $(item)Codificador de Receitas de Pacotes/$ codifica receitas em $(l:core/recipe_holder)Suportes de Receita de Pacotes/$, que então fornecem dados de receita para as máquinas."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "packagedauto:encoder",
+			"link_recipe": true,
+			"title": "Uso",
+			"text": "Para codificar receitas, selecione um $(l:recipe)tipo de receita/$.$(p)Dependendo do tipo de receita, você pode então definir as entradas, saídas e suas quantidades.$(p)Por fim, coloque $(l:core/recipe_holder)Suportes de Receita de Pacotes/$ dentro e pressione o $(thing)botão de salvar/$ para codificar as receitas."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Uso (cont.)",
+			"text": "Você pode carregar receitas de $(l:core/recipe_holder)Suportes de Receita de Pacotes/$ codificados pressionando o $(thing)botão de carregar/$.$(p)Até 20 receitas podem ser codificadas nos $(l:core/recipe_holder)Suportes de Receita de Pacotes/$ selecionando os espaços de receita no topo da GUI.$(p)Quais $(l:core/package)Pacotes de Receita/$ são produzidos pode ser visto na prévia à direita."
+		},
+		{
+			"type": "patchouli:text",
+			"flag": "&mod:jei,!mod:emi",
+			"title": "Integração com JEI",
+			"text": "Você pode mostrar todas as receitas aplicáveis ao tipo de receita atual pressionando a seta, e pode pressionar o botão $(thing)Mover Itens/$ para codificar receitas rapidamente."
+		},
+		{
+			"type": "patchouli:text",
+			"flag": "mod:emi",
+			"title": "Integração com EMI",
+			"text": "Ao ver receitas aplicáveis ao tipo de receita atual, você pode pressionar o botão $(thing)Preencher Receita/$ para codificar receitas rapidamente.$(p)Para receitas que aceitam ingredientes com múltiplos itens, você pode especificar qual item usar na árvore de receitas."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "packagedauto:encoder",
+			"title": "Fabricação"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 6
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Carregador do Infinito",
+  "icon": "industrialforegoing:infinity_charger",
+  "category": "industrialforegoing:misc",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Carrega itens que podem armazenar energia. Carrega itens $(6)do Infinito$() muito rápido."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:infinity_charger"
+    }
+  ]
+}

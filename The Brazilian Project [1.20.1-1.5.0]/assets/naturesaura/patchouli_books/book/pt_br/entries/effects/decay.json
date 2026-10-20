@@ -1,0 +1,12 @@
+{
+    "name": "Deterioração Natural",
+    "icon": "naturesaura:decayed_leaves",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:negative_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ao drenar $(aura) de uma área ao ponto em que plantas e outra vegetação não tenham mais a energia natural necessária para se sustentar, a $(thing)Deterioração Natural$() entra em ação. Toda a $(item)Grama$() se deteriorará, junto com as $(item)Folhas$() de árvores e outras plantas. Quanto mais $(aura) for drenada de uma área, pior esse efeito ficará.$(br)Parece que este efeito só ocorre na $(thing)superfície$() e no $(thing)nether$()."
+        }
+    ]
+}

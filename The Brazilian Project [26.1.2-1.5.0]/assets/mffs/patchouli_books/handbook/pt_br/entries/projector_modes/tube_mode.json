@@ -1,0 +1,32 @@
+{
+    "name": "Modo Tubo",
+    "icon": "mffs:tube_mode",
+    "category": "mffs:projector_modes",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:tube_mode",
+            "link_recipe": true,
+            "text": "Por padrão, o $(2)Modo Tubo$() define o Projetor para gerar um campo de força em formato de tubo quadrado (ou prisma tetragonal) com exatamente 1 bloco de espessura. Um campo em formato de tubo consiste em quatro lados sólidos que correm paralelos ao plano horizontal. Os lados frontal e traseiro do Projetor representam as faces abertas do tubo de campo de força."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:tube_mode",
+            "text": "Fabricando o $(2)Modo Tubo$()."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Ajuste do Campo",
+            "text": "Colocar um $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() num espaço de item marcado por uma seta direcional escalará o campo em 1 bloco apenas naquela direção. Por exemplo, para aumentar a altura de um campo de força em 1 bloco; adicione um $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() num espaço de item marcado por uma seta direcional apontando para o topo-esquerdo ou topo-direito da tela de GUI."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "mffs:textures/gui/handbook/tube_mode.png"
+            ],
+            "border": true,
+            "title": "Projeção",
+            "text": "Um campo de $(2)Modo Tubo$() escalado sendo projetado."
+        }
+    ]
+}

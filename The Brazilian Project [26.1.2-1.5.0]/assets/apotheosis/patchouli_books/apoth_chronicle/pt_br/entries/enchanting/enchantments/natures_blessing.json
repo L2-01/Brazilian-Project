@@ -1,0 +1,13 @@
+{
+    "name": "Bênção da Natureza",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Bênção da Natureza$() é um encantamento de enxada.$(p)Ele permite que uma enxada seja usada como farinha de osso, por um custo de durabilidade.$(p)Níveis maiores de encantamento reduzem o custo de durabilidade.$(p)Não é acionado enquanto agachado."
+        }
+    ]
+}

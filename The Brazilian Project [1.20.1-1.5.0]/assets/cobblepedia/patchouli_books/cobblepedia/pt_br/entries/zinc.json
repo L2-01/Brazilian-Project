@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.zinc",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:zinc",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:zinc",
+            "text": "book.cobblepedia.entries.zinc.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:zinc",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

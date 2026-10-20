@@ -1,0 +1,15 @@
+{
+  "name": "Cartão de Memória",
+  "icon": "advancedperipherals:memory_card",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Os $(9)$(l:items/ar_goggles)Óculos Inteligentes$(/l)$() podem ser usados em combinação com o $(9)$(l:peripherals/inventory_manager)Gerenciador de Inventário$(/l)$() para se comunicar com o inventário do jogador.$(p)Clique com o botão direito com o Cartão de Memória na mão para atribuí-lo a você.$(p)Para a documentação completa, consulte a $(9)$(l:https://docs.advanced-peripherals.de/items/ar_goggles/)página oficial da wiki$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:memory_card"
+    }
+  ]
+}

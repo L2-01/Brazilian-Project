@@ -1,0 +1,46 @@
+{
+	"name": "Portais Pessoais",
+	"icon": "dimdungeons:item_key_build",
+	"category": "dimdungeons:portals",
+	"sortnum": 10,
+	"advancement": "dimdungeons:dungeons/enter_personal_space",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Agora que você está confortável na sua própria dimensão de bolso pessoal, é hora de aprender a definir limites sobre quem pode te seguir pelo seu portal. Configurar o acesso à sua dimensão é feito de dentro para fora, usando um de cinco itens no portal dourado junto à entrada. (Os itens nunca são consumidos.) Esses itens serão cobertos nas próximas cinco páginas."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:book",
+			"text": "Usar um Livro no seu portal falará para você a sua lista de convidados atual, assim como se essa lista está atualmente operando em modo lista-branca ou modo lista-negra."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:white_dye",
+			"text": "Usar Corante Branco no seu portal o mudará para o modo lista-branca. A lista de nomes configurados será tratada como amigos e ninguém mais poderá entrar."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:black_dye",
+			"text": "Usar Corante Preto no seu portal o mudará para o modo lista-negra. A lista de nomes configurados será tratada como uma lista de banidos e todos EXCETO os jogadores nomeados poderão entrar."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:paper",
+			"text": "Primeiro nomeie o Papel numa Bigorna com o nome de outro jogador. Depois use o papel no seu portal para adicioná-lo à lista flexível de convidados. Use o Papel de novo para remover o nome daquele jogador. A lista pode ser uma lista-branca ou uma lista-negra."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:grindstone",
+			"text": "Usar um Rebolo no seu portal limpará todos os nomes configurados nele."
+		},
+		{
+			"type": "text",
+			"text": "Há várias limitações neste sistema de segurança. Primeira e mais importante: ele só controla quem pode entrar. Não há permissões de construção implementadas. (Embora alguns servidores possam implementar isso separadamente.) Segundo, há várias formas de jogadores contornarem as permissões e entrarem independentemente de como o portal está configurado:"
+		},
+		{
+			"type": "text",
+			"text": "$(li)O dono de uma dimensão sempre pode entrar. $(li)Jogadores no modo criativo sempre podem entrar. $(li)O admin do servidor pode definir disablePersonalDimSecurity= true na configuração do servidor. $(li)As permissões só são verificadas por um portal normal com uma pedra angular. Usar outros meios para se teletransportar para dentro contorna as verificações."
+		}
+	]
+}

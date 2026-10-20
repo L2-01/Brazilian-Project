@@ -1,0 +1,19 @@
+{
+  "name": "Caixa de Capacitor de Sinal",
+  "icon": "railcraft:signal_capacitor_box",
+  "category": "railcraft:signal_boxes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esta caixa pode ser colocada ao lado de uma Caixa Receptora de Sinal ou Caixa de Relé de Bloco de Sinal e então emitirá um pulso de Redstone por um período de tempo predefinido sempre que a caixa adjacente emitir Redstone. É conceitualmente similar a uma Célula de Estado do RedPower."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clicar com o botão direito na caixa abrirá sua GUI. Nesta GUI, você pode ver a quantidade atual de tempo em que ela emitirá redstone, que é ajustável. Além disso, há um botão que alterna entre 'Borda de Subida' e 'Borda de Descida'."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Borda de Subida emitirá um pulso de redstone pelo período de tempo especificado uma vez que uma caixa adjacente emita um sinal de redstone. A Borda de Descida segurará o pulso de redstone até o tempo especificado depois que uma caixa adjacente parar de emitir um sinal de redstone (criando um atraso)."
+    }
+  ]
+}

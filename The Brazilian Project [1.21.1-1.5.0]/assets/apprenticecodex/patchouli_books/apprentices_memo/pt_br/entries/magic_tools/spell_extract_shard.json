@@ -1,0 +1,35 @@
+{
+  "name": "item.apprenticecodex.spell_extract_shard",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:spell_extract_shard",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spell_extract_shard",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spell_extract_shard.page.p001.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.spellcaster_workbench"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:spell_extract_shard",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_extract_shard.page.p002.text"
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "example": "apprenticecodex:examples/spellcaster_workbench/spell_extraction",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_extract_shard.page.p003.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spellcaster_workbench"
+      ]
+    }
+  ]
+}

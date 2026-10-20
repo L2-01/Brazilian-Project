@@ -1,0 +1,28 @@
+{
+    "name": "item.cobblemon.sachet",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:sachet",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:sachet",
+            "title": "item.cobblemon.sachet",
+            "text": "book.cobblepedia.entries.sachet.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:sachet",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.sachet.evolving",
+            "holding_item3": "cobblemon:sachet",
+            "using_item3": "cobblemon:link_cable",
+            "pokemon3": "cobblemon:spritzee",
+            "evolved_pokemon3": "cobblemon:aromatisse"
+        }
+    ]
+}

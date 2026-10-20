@@ -1,0 +1,49 @@
+{
+    "name": "book.cobblepedia.entries.apricorn_trees",
+    "category": "cobblepedia:apricorns",
+    "icon": "cobblemon:green_apricorn_seed",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.apricorn_trees.text"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:bone_meal_apricorn",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.bone_meal_apricorn",
+            "text": "advancements.cobblemon.bone_meal_apricorn.description"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "book.cobblepedia.pages.generation",
+            "images": [
+                "cobblepedia:textures/gui/entries/apricorn_trees.png"
+            ]
+        },
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.apricorn_trees.generation"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.obtainable_items",
+            "text": "book.cobblepedia.entries.apricorn_trees.obtainable_items",
+            "entries": [
+                "cobblepedia:apricorn_leaves",
+                "cobblepedia:apricorn_log"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.obtainable_items",
+            "text": "book.cobblepedia.entries.apricorn_trees.obtainable_items2",
+            "entries": [
+                "cobblepedia:apricorns",
+                "cobblepedia:apricorn_seeds"
+            ]
+        }
+    ]
+}

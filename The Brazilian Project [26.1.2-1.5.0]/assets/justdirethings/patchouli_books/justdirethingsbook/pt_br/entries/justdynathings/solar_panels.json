@@ -1,0 +1,39 @@
+{
+  "name": "O Poder do Sol",
+  "sortnum": 4,
+  "category": "justdirethings:justdynathings",
+  "icon": "justdynathings:blazegold_solar_panel",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um novo conjunto de geradores que geram Forge Energy com base em condições ambientais"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Painel Solar de Ferricoro",
+      "recipe": "justdynathings:ferricore_solar_panel",
+      "text": "Taxa máx. de FE padrão: $(br)$(bold)240$()$(br)$(bold)Condições Padrão:$() $(li) Dimensões = Overworld $(li) Ver o céu = verdadeiro $(li) De dia = verdadeiro"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Painel Solar de BlazeGold",
+      "recipe": "justdynathings:blazegold_solar_panel",
+      "text": "Taxa máx. de FE padrão: $(br)$(bold)960$()$(br)$(bold)Condições Padrão:$() $(li) Dimensões = Nether "
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Painel Solar de Celestigema",
+      "recipe": "justdynathings:celestigem_solar_panel",
+      "text": "Taxa máx. de FE padrão: $(br)$(bold)3840$()$(br)$(bold)Condições Padrão:$() $(li) Ver o céu = verdadeiro$(li) Quanto mais painéis solares estiverem próximos uns dos outros, mais produzirão"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Painel Solar de Liga Eclipse",
+      "recipe": "justdynathings:eclipse_alloy_solar_panel",
+      "text": "Taxa máx. de FE padrão: $(br)$(bold)11520$()"
+    },{
+      "type":"patchouli:text",
+      "text":"$(bold)Condições Padrão:$()$(li) Quanto mais painéis solares estiverem próximos uns dos outros, mais produzirão$(li) Nível Y alto/baixo aumentará o multiplicador, nível Y intermediário diminuirá o multiplicador$(br2)$(bold)Nota$(): Tudo pode ser modificado via configurações, então não confie totalmente!"
+    }
+  ]
+}

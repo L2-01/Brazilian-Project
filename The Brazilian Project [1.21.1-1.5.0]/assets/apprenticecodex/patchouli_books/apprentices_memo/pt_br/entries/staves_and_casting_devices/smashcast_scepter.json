@@ -1,0 +1,23 @@
+{
+  "name": "item.apprenticecodex.smashcast_scepter",
+  "category": "apprenticecodex:staves_and_casting_devices",
+  "icon": "apprenticecodex:smashcast_scepter",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:smashcast_scepter",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.smashcast_scepter.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:smashcast_scepter",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.smashcast_scepter.page.p002.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spell_calibration_bench"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Invocar Familiar",
+  "icon": "enchanted:arthana",
+  "category": "enchanted:transposition",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Invocar Familiar",
+      "text": "Invoca o familiar vinculado a quem lança o rito, fazendo-o se teletransportar para o círculo de lançamento. Este rito é capaz de invocar familiares dispensados ou falecidos."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:summoning_familiar"
+    }
+  ],
+  "read_by_default": true
+}

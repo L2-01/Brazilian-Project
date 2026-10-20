@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.protective_pads",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:protective_pads",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:protective_pads",
+            "text": "book.cobblepedia.entries.protective_pads.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:protective_pads",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

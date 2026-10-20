@@ -1,0 +1,37 @@
+{
+  "name": "Superfície",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/surface.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O modo Superfície estende um conjunto de blocos para os quais você está olhando. Veja as imagens à direita para um exemplo.$(br2)O modo impreciso permite que o dispositivo mire quaisquer blocos, ou apenas os mesmos blocos daquele para o qual você está olhando."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Superfície Imprecisa",
+      "images": [
+        "buildinggadgets2:textures/book/images/surface5.png",
+        "buildinggadgets2:textures/book/images/surface1.png",
+        "buildinggadgets2:textures/book/images/surface2.png"
+      ],
+      "border": true,
+      "text": "Alterne as imagens acima para ver as diferentes opções"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Este modo também está disponível para o trocador, e o modo impreciso funciona da mesma forma. $(br2)Além disso, o modo conectado só troca blocos que estejam conectados àqueles para os quais você está olhando. Veja as imagens à direita para uma explicação."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Superfície Conectada",
+      "images": [
+        "buildinggadgets2:textures/book/images/surface3.png",
+        "buildinggadgets2:textures/book/images/surface4.png"
+      ],
+      "border": true,
+      "text": "Alterne as imagens acima para ver as diferentes opções"
+    }
+  ]
+}

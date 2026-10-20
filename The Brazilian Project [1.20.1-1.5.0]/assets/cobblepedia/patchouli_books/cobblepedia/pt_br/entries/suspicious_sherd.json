@@ -1,0 +1,30 @@
+{
+    "name": "item.cobblemon.suspicious_sherd",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:suspicious_sherd",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:suspicious_sherd",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.suspicious_sherd.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.loot",
+            "text": "book.cobblepedia.entries.suspicious_sherd.loot.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.trivia",
+            "text": "book.cobblepedia.entries.suspicious_sherd.trivia.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:pottery_sherd"
+            ]
+        }
+    ]
+}

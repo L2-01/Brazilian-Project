@@ -1,0 +1,67 @@
+{
+  "name": "item.apprenticecodex.floatmount_broom",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:floatmount_broom",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:floatmount_broom",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.floatmount_broom.page.p001.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.spell_calibration_bench"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:floatmount_broom",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.floatmount_broom.page.p002.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:apprenticecodex:scrollcaster_gauntlet_slot_upgrades",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.floatmount_broom.page.p003.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.floatmount_broom.page.p003.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:saddle",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.floatmount_broom.page.p004.title",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.floatmount_broom.page.p004.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.call_broom"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:fireward_ring",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.floatmount_broom.page.p005.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.floatmount_broom.page.p005.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:overdrive_broom_engine",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.floatmount_broom.page.p006.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.floatmount_broom.page.p006.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:heart_of_the_sea",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.floatmount_broom.page.p007.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.floatmount_broom.page.p007.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spell_calibration_bench"
+      ]
+    }
+  ]
+}

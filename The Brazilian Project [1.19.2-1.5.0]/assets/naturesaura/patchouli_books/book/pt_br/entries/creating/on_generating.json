@@ -1,0 +1,17 @@
+{
+    "name": "Sobre a Criação de Aura",
+    "icon": "naturesaura:gold_leaf",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:wood_stand",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Criar$() $(aura) é uma prática que rapidamente será necessária a qualquer botânico mágico que a utilize. Antes de entrar no assunto, vale notar que existem vários $(thing)dispositivos$() cujo único propósito é criar $(aura), a maioria dos quais o leitor pode descobrir mais adiante. Por padrão, a maioria desses dispositivos não tem a $(thing)força criacional$() para criar $(aura) além do alcance do $(l:items/eye)Olho Ambiental$()."
+        },
+        {
+            "type": "text",
+            "text": "Uma vez que uma quantidade de $(aura) próxima dessa seja atingida na área, esses dispositivos criacionais se comportarão de formas diferentes, alguns desligando completamente, outros continuando seu comportamento sem criar $(aura) alguma no processo. É claro, eles podem ser parados manualmente usando um $(l:devices/aura_detector)Detector de Aura$() ou similar.$(p)Mais tarde, esse comportamento pode ser alterado usando o $(l:creating/generator_limit_remover)Catalisador de Criação$()."
+        }
+    ]
+}

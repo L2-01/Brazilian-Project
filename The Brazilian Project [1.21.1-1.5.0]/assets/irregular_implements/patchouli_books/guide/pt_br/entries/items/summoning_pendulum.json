@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:summoning_pendulum",
+  "name": "Pêndulo de Invocação",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(d)Pêndulo de Invocação$() pode ser usado para $(3)guardar criaturas para soltá-las depois$().$(br2)Basta clicar com o botão direito numa criatura com o pêndulo para guardá-la dentro dele. Depois, clique com o botão direito em qualquer lugar para invocá-la de volta.",
+      "title": "Pêndulo de Invocação"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:summoning_pendulum",
+      "link_recipe": true,
+      "text": "O Pêndulo de Invocação pode guardar até 5 criaturas por vez.$(br2)Criaturas com a tag de tipo de entidade $(c)#irregular_implements:summoning_pendulum_blacklist$() não podem ser guardadas no pêndulo."
+    }
+  ]
+}

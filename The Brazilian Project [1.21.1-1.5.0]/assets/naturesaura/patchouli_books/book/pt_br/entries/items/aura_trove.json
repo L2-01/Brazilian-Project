@@ -1,0 +1,17 @@
+{
+    "name": "Repositório de Aura",
+    "icon": "naturesaura:aura_trove",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Uma vez que a quantidade de $(aura) necessária se torne demais para o $(l:items/aura_cache)Cache de Aura$() armazenar sem precisar recarregá-lo com muita frequência, pode-se empregar a ajuda de um $(item)Repositório de Aura$() - uma versão de nível superior do $(item)Cache de Aura$() com três vezes sua capacidade de armazenamento."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Repositório de Aura$()",
+            "recipe": "naturesaura:aura_trove"
+        }
+    ]
+}

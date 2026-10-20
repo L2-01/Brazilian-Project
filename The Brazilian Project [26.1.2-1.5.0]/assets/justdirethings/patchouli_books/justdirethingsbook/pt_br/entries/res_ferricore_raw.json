@@ -1,0 +1,17 @@
+{
+  "name": "Minério de Ferricoro Bruto",
+  "sortnum": 0,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:raw_ferricore_ore",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Quando um Bloco de Ferro é consumido pela Gosma de Primogel, ele se transforma num Minério de Ferricoro Bruto. Minere este bloco para obter itens de Ferricoro Bruto, que podem ser fundidos em $(l:justdirethings:res_ferricore)Lingotes de Ferricoro$(/l)."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "justdirethings:raw_ferricore",
+      "text": "O Ferricoro Bruto larga quando você quebra o Minério de Ferricoro Bruto"
+    }
+  ]
+}

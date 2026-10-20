@@ -1,0 +1,25 @@
+{
+  "name": "item.apprenticecodex.spellcaster_quiver",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:spellcaster_quiver",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spellcaster_quiver",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellcaster_quiver.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:spellcaster_quiver",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellcaster_quiver.page.p002.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:weapons_and_shields/anti_mana_arrow",
+        "apprenticecodex:weapons_and_shields/elemental_bow",
+        "apprenticecodex:staves_and_casting_devices/focus_staffbow"
+      ]
+    }
+  ]
+}

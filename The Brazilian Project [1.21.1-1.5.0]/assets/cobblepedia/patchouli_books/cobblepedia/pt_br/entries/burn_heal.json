@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.burn_heal",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:burn_heal",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:burn_heal",
+            "text": "book.cobblepedia.entries.burn_heal.text"
+        },
+        {
+            "type": "cobblepedia:brewing",
+            "title": "book.cobblepedia.pages.brewing",
+            "reagent_item": "cobblemon:rawst_berry",
+            "base_item": "cobblemon:medicinal_brew",
+            "result_item": "cobblemon:burn_heal"
+        }
+    ]
+}

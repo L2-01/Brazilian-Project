@@ -1,0 +1,36 @@
+{
+  "name": "item.apprenticecodex.grimoire_manifest",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:grimoire_manifest",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:grimoire_manifest",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.grimoire_manifest.page.p001.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.ender_grimoire"
+          },
+          {
+            "translate": "item.apprenticecodex.ender_grimoire"
+          },
+          {
+            "translate": "item.apprenticecodex.ender_grimoire"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:grimoire_manifest",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.grimoire_manifest.page.p002.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:equipment_and_accessories/ender_grimoire"
+      ]
+    }
+  ]
+}

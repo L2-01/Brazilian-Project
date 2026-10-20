@@ -1,0 +1,22 @@
+{
+    "name": "Injetor de Resíduos",
+    "icon": "bigreactors:reprocessorwasteinjector",
+    "category": "bigreactors:reprocessor-parts",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:reprocessorwasteinjector",
+            "link_recipe": true,
+            "title" : "Injetor de Resíduos",
+            "text": "O Injetor de Resíduos permite inserir no Reprocessador o material residual do Reator.$(br2)A interface gráfica pode ser usada para inserir materiais manualmente, ou você pode conectar algum tipo de tubo para inserir resíduos no injetor."
+        },
+        {
+            "type": "crafting-part_usage",
+            "crafting.title1": "Injetor de Resíduos",
+            "crafting.recipe1": "bigreactors:reprocessor/wasteinjector",
+            "usage.text": "$(l)Obrigatório:$() um, e apenas um, é necessário$(br)$(l)Posições válidas:$() face superior (não na moldura)$(br)$(l)Interface gráfica:$() sim"
+        }
+    ]
+}

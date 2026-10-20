@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.ancient_origin_ball",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:ancient_origin_ball",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:ancient_origin_ball",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.ancient_origin_ball.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.ancient_origin_ball.obtaining.text"
+        }
+    ]
+}

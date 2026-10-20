@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.air_balloon",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:air_balloon",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:air_balloon",
+            "text": "book.cobblepedia.entries.air_balloon.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:air_balloon",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

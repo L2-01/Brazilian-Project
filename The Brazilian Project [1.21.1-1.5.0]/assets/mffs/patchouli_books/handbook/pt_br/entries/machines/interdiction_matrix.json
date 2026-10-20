@@ -1,0 +1,27 @@
+{
+    "name": "Matriz de Interdição",
+    "icon": "mffs:interdiction_matrix",
+    "category": "mffs:machines",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:interdiction_matrix",
+            "link_recipe": true,
+            "text": "A $(9)Matriz de Interdição$() é um membro da família de máquinas do MFFS. Ela impõe restrições a jogadores ou entidades presentes no espaço ao seu redor. Por exemplo, pode ser configurada para matar automaticamente criaturas ou jogadores que entrarem em sua área de efeito, ou para impedir que jogadores não autorizados mexam em outras máquinas."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:interdiction_matrix",
+            "text": "Fabricando a $(9)Matriz de Interdição$()."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Operação",
+            "text": "O espaço ao redor de uma $(9)Matriz de Interdição$() é dividido em duas regiões lógicas: $(bold)Ação$() e $(bold)Aviso$(). A região de ação irradia da própria Matriz pelo mesmo número de blocos que houver $(l:mffs:upgrade_modules/scale_module)$(5)Módulos de Escala$() instalados. Por padrão, a região de aviso continua a partir da borda da região de ação (como uma esfera concêntrica) por mais 3 blocos."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Quando um jogador entra na área de aviso de uma $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$(), ela envia uma mensagem de alerta dizendo que ele acabou de entrar em seu alcance de varredura. Se um jogador não quiser descobrir em primeira mão quais módulos a Matriz tem instalados, ele não deve prosseguir. Sem módulos instalados, uma $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$() não faz realmente nada. Com $(l:mffs:interdiction_modules)$(5)módulos$() instalados, ela pode servir como um poderoso sistema de defesa."
+        }
+    ]
+}

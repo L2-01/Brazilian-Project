@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.flame_orb",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:flame_orb",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:flame_orb",
+            "text": "book.cobblepedia.entries.flame_orb.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:flame_orb",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

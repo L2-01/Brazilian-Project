@@ -1,0 +1,16 @@
+{
+  "name": "Taglocks",
+  "icon": "enchanted:taglock_filled",
+  "category": "enchanted:crafting_materials",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um kit de taglock é usado para coletar algum tipo de vínculo com outra criatura — pode ser qualquer coisa, de sangue a cabelo. Pode ser usado em entidades ou camas usadas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:taglock"
+    }
+  ],
+  "read_by_default": true
+}

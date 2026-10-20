@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.bright_powder",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:bright_powder",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:bright_powder",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.bright_powder.text"
+        },
+        {
+            "type": "patchouli:smelting",
+            "title": "book.cobblepedia.pages.smelting",
+            "recipe": "cobblemon:bright_powder"
+        }
+    ]
+}

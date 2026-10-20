@@ -1,0 +1,17 @@
+{
+    "name": "book.cobblepedia.entries.held_item_command",
+    "category": "cobblepedia:commands",
+    "read_by_default": true,
+    "icon": "cobblemon:exp_share",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.held_item_command.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.held_item_command.usage"
+        }
+    ]
+}

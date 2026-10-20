@@ -1,0 +1,44 @@
+{
+    "name": "Reciclagem",
+    "icon": "apotheosis:salvaging_table",
+    "category": "apotheosis:adventure/affix_loot",
+	"flag": "apotheosis:adventure",
+	"sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:salvaging_table",
+			"text": "A $(9)Bancada de Reciclagem$() é usada para desmontar itens de afixo em seus $(9)Materiais de Raridade$() correspondentes."
+		},
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:common_material",
+			"link_recipe": true,
+            "text": "Um pedaço de formato estranho de um metal não identificável.$(p)Este material é obtido ao reciclar itens comuns."
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:uncommon_material",
+			"link_recipe": true,
+            "text": "Um tecido incrivelmente durável, desgastado por incontáveis eras. Não exibe uma única rasgadura.$(p)Encontrado ao reciclar itens incomuns."
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:rare_material",
+			"link_recipe": true,
+            "text": "Um pedaço do cristal mais brilhante que já existiu. Embora seja apenas um fragmento, contém um forte poder mágico.$(p)Adquirido ao reciclar itens raros."
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:epic_material",
+			"link_recipe": true,
+            "text": "Grãos de areia de um reino mágico, onde a magia arcana distorce toda a vida.$(p)Reciclar um item épico os reduz a esta forma."
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:mythic_material",
+			"link_recipe": true,
+            "text": "Uma pérola de energia divina purificada. O imenso poder selado dentro a torna bastante volátil.$(p)Essas criações extraordinárias só podem ser obtidas reciclando itens míticos."
+        }
+	]
+}

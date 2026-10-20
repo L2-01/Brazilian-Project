@@ -1,0 +1,124 @@
+{
+    "name": "Molduras de Lareira",
+    "icon": "minecraft:writable_book",
+    "category": "merrymaking:mantels",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Aconchegue-se numa noite fria ao lado de uma bela lareira. Essas Molduras de Lareira podem ser decoradas e são perfeitas para tomar chocolate quente junto ao fogo. $(br2) As molduras têm 3 blocos de largura, 3 blocos de altura e 1 bloco de profundidade, e são centralizadas em torno de onde você coloca o bloco. $(br2) Continue lendo para saber como decorá-las..." 
+        },	
+
+	{
+		"type": "patchouli:multiblock",
+		"name": "Molduras de Lareira",
+		
+		"multiblock": {
+	
+			"mapping": {
+				 "A": "merrymaking:oak_mantel[facing=west,section=0]",
+				 "B": "merrymaking:oak_mantel[facing=west,section=1]",
+				 "C": "merrymaking:oak_mantel[facing=west,section=2]",
+				 "D": "merrymaking:oak_mantel[facing=west,section=3]",
+				 "E": "merrymaking:oak_mantel[facing=west,section=4]"
+			 },
+			 
+			 "pattern": [
+			 
+			 
+				["DCB"],
+				["E0A"] 
+			 
+			 
+			 ],
+			 
+			 
+			 "symmetrical": true
+			 
+			}	
+				
+		},		
+		
+		
+		{
+		"type": "patchouli:text",
+		"text": "As Molduras de Lareira podem ser decoradas clicando em cada seção com Festões Horizontais de qualquer tipo e/ou meias de Natal. $(br2) Para formar um canto nas extremidades, basta colocar uma segunda peça do mesmo festão.$(br2) Para remover as decorações, clique na moldura com a mão vazia. $(br2) Continue lendo para ver a Receita..."
+		},		
+		
+		
+		
+		{
+		"type": "patchouli:multiblock",
+		"name": "Decorando as Molduras",
+		
+		"multiblock": {
+	
+			"mapping": {
+				 "A": "merrymaking:oak_mantel[facing=west,section=0,type=garland]",
+				 "B": "merrymaking:oak_mantel[corner=true,facing=west,section=1,type=garland,stocking=true]",
+				 "C": "merrymaking:oak_mantel[facing=west,section=2,type=garland,stocking=true]",
+				 "D": "merrymaking:oak_mantel[corner=true,facing=west,section=3,type=garland,stocking=true]",
+				 "E": "merrymaking:oak_mantel[facing=west,section=4,type=garland]"
+			 },
+			 
+			 "pattern": [
+			 
+			 
+				["DCB"],
+				["E0A"] 
+			 
+			 
+			 ],
+			 
+			 
+			 "symmetrical": true
+			 
+			}	
+				
+		},
+		
+		{
+			"type": "text",
+			"text": "As Molduras de Lareira vêm em todas as cores das madeiras vanilla. Podem ser fabricadas com 4 tábuas e 3 lajes, como mostrado aqui."
+		},
+		
+		{
+		"type": "crafting",
+		"recipe": "merrymaking:oak_mantel",
+		"text": "Continue lendo para conhecer as Decorações de Lareira..."
+		},
+		
+		{
+			"type": "text",
+			"text": "Há alguns blocos de decoração específicos feitos para encaixar perfeitamente no topo de uma Moldura de Lareira. São eles: $(br) $(li)Decoração de Lareira: Castiçais $(li)Decoração de Lareira: Casa de Gengibre $(li)Decoração de Lareira: Lanterna e Poinsétia $(li)Decoração de Lareira: Árvore de Natal $(li)Decoração de Lareira: Lanterna e Enfeite $(li)Decoração de Lareira: Joy"
+		},
+		
+		{
+			"type": "text",
+			"text": "Como clicar numa Moldura decorada remove uma de suas decorações, você precisará usar shift+clique ao colocar Blocos de Decoração de Moldura ou quaisquer outros sobre as Molduras."
+		},
+		
+		{
+			"type": "crafting",
+			"title": "Decorações de Lareira",
+			"recipe": "merrymaking:mantel_deco_candles",
+			"recipe2": "merrymaking:mantel_deco_gbhouse"				
+		},
+		
+		{
+			"type": "crafting",
+			"title": "Decorações de Lareira",
+			"recipe": "merrymaking:mantel_deco_lantern",
+			"recipe2": "merrymaking:mantel_deco_tree"
+		},		
+		{
+			"type": "crafting",
+			"title": "Decorações de Lareira",
+			"recipe": "merrymaking:mantel_deco_ball",
+			"recipe2": "merrymaking:mantel_deco_joy"	
+		}
+		
+		
+	
+		
+    ]
+}

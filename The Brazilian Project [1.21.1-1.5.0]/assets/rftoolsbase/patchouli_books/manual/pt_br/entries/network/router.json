@@ -1,0 +1,23 @@
+{
+  "name": "Roteador",
+  "icon": "xnet:router",
+  "category": "rftoolsbase:category_xnet_network",
+  "extra_recipe_mappings": {
+    "xnet:router": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Roteador conecta múltiplas redes de controladores XNet. Conecte-o a uma rede de cabos de roteamento e depois publique ou consuma canais dos controladores vinculados."
+    },
+    {
+      "type": "text",
+      "text": "Use cabos de roteamento e conectores de roteamento na rede do roteador. Cabos coloridos normais permanecem locais a uma única rede de controlador."
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:router"
+    }
+  ]
+}

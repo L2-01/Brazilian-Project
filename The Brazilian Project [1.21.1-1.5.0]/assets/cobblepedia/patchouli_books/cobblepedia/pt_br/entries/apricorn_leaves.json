@@ -1,0 +1,35 @@
+{
+    "name": "block.cobblemon.apricorn_leaves",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:apricorn_leaves",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:apricorn_leaves",
+            "link_recipe": true,
+            "title": "block.cobblemon.apricorn_leaves",
+            "text": "book.cobblepedia.entries.apricorn_leaves.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.breaking",
+            "text": "book.cobblepedia.entries.apricorn_leaves.breaking"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.apricorn_leaves.generation"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.mechanics",
+            "text": "book.cobblepedia.entries.apricorn_leaves.mechanics"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.composting",
+            "text": "book.cobblepedia.entries.apricorn_leaves.composting"
+        }
+    ]
+}

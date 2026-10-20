@@ -1,0 +1,29 @@
+{
+  "name": "item.apprenticecodex.mana_shield_charm",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:mana_shield_charm",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:mana_shield_charm",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.mana_shield_charm.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:mana_shield_charm",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.mana_shield_charm.page.p002.text"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.mana_shield_charm.page.p003.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:enchantments/shell",
+        "apprenticecodex:enchantments/synchronization",
+        "apprenticecodex:enchantments/neutralization"
+      ]
+    }
+  ]
+}

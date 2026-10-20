@@ -1,0 +1,22 @@
+{
+    "name": "Revestimento",
+    "icon": "bigreactors:fluidizercasing",
+    "category": "bigreactors:fluidizer-parts",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:fluidizercasing",
+            "link_recipe": true,
+            "title" : "Revestimento",
+            "text": "Os blocos de Revestimento são os blocos de construção do Fluidificador.$(br2)São necessários para construir sua moldura e também são usados para fabricar as outras peças. Blocos de Revestimento também podem ser usados para preencher as faces do Fluidificador, se você não gostar muito de vidro."
+        },
+        {
+            "type": "crafting-part_usage",
+            "crafting.title1": "Revestimento",
+            "crafting.recipe1": "bigreactors:fluidizer/casing",
+            "usage.text": "$(l)Mandatory:$() they are required to build the frame$(br)$(l)Valid positions:$() any$(br)$(l)Graphical interface:$() no"
+        }
+    ]
+}

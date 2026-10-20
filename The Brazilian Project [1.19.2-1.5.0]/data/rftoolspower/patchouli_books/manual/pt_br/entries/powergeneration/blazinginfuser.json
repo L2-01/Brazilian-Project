@@ -1,0 +1,16 @@
+{
+  "name": "Infusor Ardente",
+  "icon": "rftoolspower:blazing_infuser",
+  "category": "rftoolspower:category_rftoolspower_powergeneration",
+  "sortnum": 26,
+  "pages": [
+    {
+      "type": "text",
+      "text": "As varetas ardentes produzidas pelo $(l:rftoolspower:powergeneration/blazingagitator)Agitador Ardente$(/l) podem ser melhoradas ainda mais infundindo-as com uma pilha de certos itens catalisadores. Note que, uma vez infundida, uma vareta ardente não pode mais ser usada no agitador ardente para ajudar a melhorar outras varetas"
+    },
+    {
+      "type": "text",
+      "text": "Catalisadores (benefício de energia/tempo para uma pilha cheia):$(br2)$(li)$(item)redstone$() 40% mais energia$(li)$(item)pedra-luminosa$() 10% mais energia, 30% mais tempo$(li)$(item)quartzo$() 40% mais tempo$(li)$(item)fragmentos dimensionais$() 60% mais energia, 60% mais tempo$(li)$(item)estrela do nether$() 120% mais energia, 120% mais tempo$(li)$(item)lágrima de ghast$() 80% mais energia, 80% mais tempo"
+    }
+  ]
+}

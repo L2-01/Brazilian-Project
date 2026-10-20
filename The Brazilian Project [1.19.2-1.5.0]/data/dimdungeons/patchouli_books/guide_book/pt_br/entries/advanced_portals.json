@@ -1,0 +1,33 @@
+{
+	"name": "Portais Avançados",
+	"icon": "dimdungeons:block_portal_crown",
+	"category": "dimdungeons:portals",
+	"sortnum": 3,
+	"advancement": "dimdungeons:dungeons/enter_basic_dungeon",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Enquanto explora masmorras, você pode encontrar $(item)blocos de pedra angular de portal$(). Eles contêm $(item)chaves de portal avançadas$(). Para usar uma dessas chaves você precisará melhorar o seu portal. A construção melhorada exige dois blocos de $(item)coroa do portal$(), que só podem ser encontrados em baús de masmorra. Você também precisará de dois estandartes roxos ou brancos."
+		},		
+		{
+			"type": "multiblock",
+			"multiblock": {
+				"pattern": [
+					["   ","   "," C "," K "," C ","   ","   "],
+					[" GW","   "," B ","   "," B ","   "," GP"],
+					[" BW","   "," B "," 0 "," B ","   "," BP"],
+					[" B ","   ","   "," B ","   ","   "," B "]
+				],
+				"mapping": {
+					"C": "dimdungeons:block_portal_crown",
+					"K": "dimdungeons:block_portal_keyhole",
+					"G": "dimdungeons:block_gilded_portal",
+					"B": "minecraft:stone_bricks",
+					"W": "minecraft:white_wall_banner[facing=south]",
+					"P": "minecraft:purple_wall_banner[facing=south]"
+				}
+			},
+			"text": "Depois melhore o seu portal assim."
+		}
+	]
+}

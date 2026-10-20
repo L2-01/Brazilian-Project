@@ -1,0 +1,37 @@
+{
+    "name": "book.cobblepedia.entries.trading_evolution_item",
+    "category": "cobblepedia:evolution_items",
+    "icon": "cobblemon:link_cable",
+    "priority": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.entries.trading_evolution_item",
+            "text": "book.cobblepedia.entries.trading_evolution_item.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:kings_rock",
+                "cobblepedia:metal_coat",
+                "cobblepedia:protector",
+                "cobblepedia:dragon_scale",
+                "cobblepedia:electirizer",
+                "cobblepedia:magmarizer",
+                "cobblepedia:upgrade",
+                "cobblepedia:dubious_disc",
+                "cobblepedia:prism_scale",
+                "cobblepedia:reaper_cloth",
+                "cobblepedia:deep_sea_tooth",
+                "cobblepedia:deep_sea_scale"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:sachet",
+                "cobblepedia:whipped_dream"
+            ]
+        }
+    ]
+}

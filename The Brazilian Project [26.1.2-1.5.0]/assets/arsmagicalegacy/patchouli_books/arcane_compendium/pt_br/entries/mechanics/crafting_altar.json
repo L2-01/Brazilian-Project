@@ -1,0 +1,35 @@
+{
+  "category": "arsmagicalegacy:mechanics",
+  "icon": "arsmagicalegacy:altar_core",
+  "name": "item.arsmagicalegacy.arcane_compendium.mechanics.crafting_altar.name",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "item.arsmagicalegacy.arcane_compendium.mechanics.crafting_altar.page0.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arsmagicalegacy:altar_core",
+      "text": "item.arsmagicalegacy.arcane_compendium.mechanics.crafting_altar.page1.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arsmagicalegacy:magic_wall",
+      "text": "item.arsmagicalegacy.arcane_compendium.mechanics.crafting_altar.page2.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "arsmagicalegacy:altar_core",
+      "recipe2": "arsmagicalegacy:magic_wall"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "arsmagicalegacy:altar",
+      "name": "item.arsmagicalegacy.arcane_compendium.mechanics.crafting_altar.page4.title"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "item.arsmagicalegacy.arcane_compendium.mechanics.crafting_altar.page5.text"
+    }
+  ]
+}

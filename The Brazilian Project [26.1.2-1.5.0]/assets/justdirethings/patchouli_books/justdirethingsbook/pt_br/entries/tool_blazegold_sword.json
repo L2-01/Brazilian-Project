@@ -1,0 +1,17 @@
+{
+  "name": "Espada de Ouro de Blaze",
+  "sortnum": 7,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:blazegold_sword",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Dano aprimorado sobre a $(l:justdirethings:tool_ferricore_sword)Espada de Ferricoro$(/l). Apresenta \"Reparo em Lava\" para reparo total quando jogada na lava."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:blazegold_sword",
+      "text": "Fabricação da Espada de Ouro de Blaze"
+    }
+  ]
+}

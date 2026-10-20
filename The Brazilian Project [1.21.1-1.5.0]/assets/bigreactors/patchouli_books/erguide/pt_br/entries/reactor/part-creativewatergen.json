@@ -1,0 +1,20 @@
+{
+    "name": "Gerador de Água Criativo",
+    "icon": "bigreactors:reinforced_reactorcreativewatergenerator",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 12,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_reactorcreativewatergenerator",
+            "link_recipe": true,
+            "title" : "Gerador de Água",
+            "text": "O Gerador de Água é uma peça exclusiva do criativo que funciona como fonte constante de água para um Reator com $(l:bigreactors/active)resfriamento ativo$(/l).$(br2)Esta peça fornece automaticamente um balde de água ao Tanque de Fluido Refrigerante, mas apenas quando o Reator está ligado."
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() Reforçada$(br)$(l)Interface gráfica:$() não$(br)$(l)Modo criativo:$() esta peça só está disponível no modo criativo e não há receita de fabricação para ela."
+        }
+    ]
+}

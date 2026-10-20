@@ -1,0 +1,21 @@
+{
+    "name": "Cajado de Baldur",
+    "icon": "naturesaura:light_staff",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Os Deuses dos mundos superiores há muito detêm muitos poderes, incluindo o poder de lançar $(thing)luz$() sobre o mundo. Ao combinar materiais divinos da forma mostrada na página seguinte, um cajado pode ser criado que dispara um $(thing)raio de luz$() que, quando um bloco é atingido, faz a área ao redor ser iluminada como se $(item)Pedra-Luminosa$() tivesse sido colocada lá."
+        },
+        {
+            "type": "text",
+            "text": "Além disso, quando o raio atinge qualquer tipo de criatura viva, ela entrará em $(thing)chamas$().$(p)Para lançar um raio desse tipo, uma pequena quantidade de $(aura) precisa ser carregada pelo usuário."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Cajado de Baldur$()",
+            "recipe": "naturesaura:light_staff"
+        }
+    ]
+}

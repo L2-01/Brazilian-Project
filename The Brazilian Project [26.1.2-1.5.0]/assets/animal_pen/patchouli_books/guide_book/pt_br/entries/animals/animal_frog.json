@@ -1,0 +1,27 @@
+{
+  "name": "Sapo",
+  "icon": "minecraft:frog_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:frog",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:frog_food",
+      "text": "Alimente os sapos com bolas de slime para procriá-los e aumentar seu número no cercado."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:swords,tag:minecraft:axes",
+      "text": "Usar uma espada ou machado no Cercado de Animais matará o sapo e largará seu saque."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:magma_block",
+      "text": "Alimentar os sapos com bloco de magma largará seus anfibrilhos. [interação de redstone 1]"
+    }
+  ]
+}

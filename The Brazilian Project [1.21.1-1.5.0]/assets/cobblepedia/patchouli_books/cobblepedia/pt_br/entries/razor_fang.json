@@ -1,0 +1,49 @@
+{
+    "name": "item.cobblemon.razor_fang",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:razor_fang",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:razor_fang",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.razor_fang.text"
+        },
+        {
+            "type": "cobblepedia:largping",
+            "title": "book.cobblepedia.pages.largping",
+            "drop_item": "cobblemon:razor_fang",
+            "pokemon": "cobblemon:ekans",
+            "rate": "2.5",
+            "drop_item2": "cobblemon:razor_fang",
+            "pokemon2": "cobblemon:arbok",
+            "rate2": "5",
+            "drop_item3": "cobblemon:razor_fang",
+            "pokemon3": "cobblemon:mawile",
+            "rate3": "5"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.razor_fang.holding"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.razor_fang.evolving",
+            "holding_item3": "cobblemon:razor_fang",
+            "evolving_tooltip3": "book.cobblepedia.entries.razor_fang.evolving_tooltip",
+            "pokemon3": "cobblemon:gligar",
+            "evolved_pokemon3": "cobblemon:gliscor"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:dragon_fang"
+            ]
+        }
+    ]
+}

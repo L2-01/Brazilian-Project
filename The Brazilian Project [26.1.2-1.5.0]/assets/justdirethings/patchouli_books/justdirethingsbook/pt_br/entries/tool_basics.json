@@ -1,0 +1,24 @@
+{
+  "name": "Noções de Ferramenta",
+  "sortnum": 0,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:ferricore_pickaxe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cada nível de recurso tem um conjunto equivalente de ferramentas. Cada uma dessas ferramentas tem um conjunto de $(l:justdirethings:upgrades)Melhorias$(/l) disponíveis.$(br2)Confira quais melhorias estão disponíveis para as ferramentas olhando a dica delas enquanto segura \"shift\"."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para instalar melhorias, fabrique o item de melhoria apropriado e coloque sua ferramenta e o item de melhoria numa bancada de ferraria.$(br2)Use os moldes de melhoria para avançar de um nível ao próximo, mantendo suas melhorias instaladas.$(br2)Ative ou Desative a ferramenta com a tecla de atalho atribuída (\"v\" por padrão). Quando a ferramenta está desativada, TODAS as habilidades são desligadas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Shift + clique na ferramenta quando ela estiver na sua mão para configurá-la (também há uma tecla de atalho para essa tela). A partir daí, você pode ativar ou desativar melhorias específicas clicando nelas.$(br2)Clique com o botão direito na melhoria para mudar algumas configurações (se houver) ou atribuir uma tecla de atalho. Se a habilidade for passiva, o atalho alterna sua ativação. Se for ativa, o atalho a dispara."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Habilidades ativas, como o escaneador de criaturas, podem ser configuradas para acontecer com clique direito, clique esquerdo ou uma tecla de atalho designada. Veja a entrada $(l:justdirethings:upgrade_basics)Noções de Melhoria$(/l) para mais detalhes sobre esse sistema.$(br2)As ferramentas podem ser melhoradas na bancada de ferraria (confira a receita no JEI) e manterão as melhorias instaladas quando fabricadas dessa forma."
+    }
+  ]
+}

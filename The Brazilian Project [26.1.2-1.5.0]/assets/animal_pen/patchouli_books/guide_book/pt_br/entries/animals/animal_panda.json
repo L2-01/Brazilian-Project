@@ -1,0 +1,22 @@
+{
+  "name": "Panda",
+  "icon": "minecraft:panda_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:panda",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:panda_food",
+      "text": "Alimente os pandas com bambu para procriá-los e aumentar seu número no cercado."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:swords,tag:minecraft:axes",
+      "text": "Usar uma espada ou machado no Cercado de Animais matará o panda e largará seu saque."
+    }
+  ]
+}

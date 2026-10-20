@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.expert_belt",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:expert_belt",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:expert_belt",
+            "text": "book.cobblepedia.entries.expert_belt.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:expert_belt",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Plástico",
+  "icon": "industrialforegoing:plastic",
+  "category": "industrialforegoing:basics",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:dryrubber",
+      "text": "Um material de fabricação simples feito de $(l:basics/latex)Látex$()."
+    },
+    {
+      "type": "smelting",
+      "recipe": "industrialforegoing:plastic"
+    }
+  ]
+}

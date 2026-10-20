@@ -1,0 +1,41 @@
+---
+navigation:
+    title: Elementos Compostos
+    icon: methane_bucket
+    position: 0
+    parent: resources/index.md
+---
+
+# Elementos Compostos
+
+Alguns compostos elementais são encontrados ou prontamente acessíveis a partir de recursos naturais. Como os elementos base, estes podem ser
+extraídos com algum processamento de máquinas.
+
+## Metano
+
+<ItemImage id="portable_tank" components="limacore:fluid={id:'ltxi:methane', amount:16000}" scale="2" />
+
+O Metano é um gás hidrocarboneto abundante encontrado nos Pântanos do Overworld. Requer o [Depurador Atmosférico](../machines/resource/atmospheric_scrubber.md)
+para coletar. É uma fonte de combustível eficiente, assim como a matéria-prima para polímeros avançados e compostos de silicone.
+
+## Sulfurina
+
+<ItemImage id="portable_tank" components="limacore:fluid={id:'ltxi:sulphurine', amount:16000}" scale="2" />
+
+A Sulfurina é o gás atmosférico do Nether. As condições impossivelmente secas do Nether permitem que este gás permaneça
+estável e não decaia em enxofre elemental. O [Laboratório Químico](../machines/processing/chem_lab.md) pode reagir Sulfurina
+com Água para formar Ácido Sulfúrico, e ela também é usada para solidificar Óleo de Silicone em borracha.
+
+## Água do Mar
+
+<ItemImage id="portable_tank" components="limacore:fluid={id:'ltxi:sea_water', amount:16000}" scale="2" />
+
+A água dos oceanos do Overworld tem uma alta concentração de cloro da flora marinha. Um Depurador Atmosférico pode
+coletar a água do oceano, e Cloro pode então ser extraído via [Eletrocentrífuga](../machines/processing/electrocentrifuge.md).
+
+## Amônia
+
+<ItemImage id="portable_tank" components="limacore:fluid={id:'ltxi:ammonia', amount:16000}" scale="2" />
+
+A Amônia é um composto tóxico de nitrogênio-hidrogênio usado para cultivar certas floras exóticas no [Jardim Bio/ARU](../machines/resource/digital_garden.md)
+e para armas de gás sombrio. Mais importante, é usada na linha de processamento do metal Rênio.

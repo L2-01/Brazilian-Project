@@ -1,0 +1,72 @@
+{
+    "name": "book.cobblepedia.entries.mutated_berry",
+    "category": "cobblepedia:agriculture",
+    "icon": "cobblemon:leppa_berry",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.mutated_berry",
+            "item": "tag:cobblemon:mutated_berries",
+            "text": "book.cobblepedia.entries.mutated_berry.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:leppa_berry",
+                "cobblepedia:lum_berry",
+                "cobblepedia:hopo_berry",
+                "cobblepedia:figy_berry",
+                "cobblepedia:iapapa_berry",
+                "cobblepedia:wiki_berry",
+                "cobblepedia:aguav_berry",
+                "cobblepedia:mago_berry",
+                "cobblepedia:sitrus_berry",
+                "cobblepedia:touga_berry",
+                "cobblepedia:cornn_berry",
+                "cobblepedia:magost_berry"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:rabuta_berry",
+                "cobblepedia:nomel_berry",
+                "cobblepedia:spelon_berry",
+                "cobblepedia:pamtre_berry",
+                "cobblepedia:watmel_berry",
+                "cobblepedia:durin_berry",
+                "cobblepedia:belue_berry",
+                "cobblepedia:enigma_berry",
+                "cobblepedia:kee_berry",
+                "cobblepedia:maranga_berry",
+                "cobblepedia:pomeg_berry",
+                "cobblepedia:kelpsy_berry"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:qualot_berry",
+                "cobblepedia:hondew_berry",
+                "cobblepedia:grepa_berry",
+                "cobblepedia:tamato_berry",
+                "cobblepedia:liechi_berry",
+                "cobblepedia:ganlon_berry",
+                "cobblepedia:petaya_berry",
+                "cobblepedia:apicot_berry",
+                "cobblepedia:salac_berry",
+                "cobblepedia:starf_berry",
+                "cobblepedia:lansat_berry",
+                "cobblepedia:micle_berry"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:custap_berry",
+                "cobblepedia:jaboca_berry",
+                "cobblepedia:rowap_berry"
+            ]
+        }
+    ]
+}

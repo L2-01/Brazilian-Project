@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.root_fossil",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:root_fossil",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.root_fossil",
+            "item": "cobblemon:root_fossil",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.root_fossil.text"
+        }
+    ]
+}

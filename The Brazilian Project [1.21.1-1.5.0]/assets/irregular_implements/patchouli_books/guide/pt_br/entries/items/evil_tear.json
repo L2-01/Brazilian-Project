@@ -1,0 +1,70 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:evil_tear",
+  "name": "Lágrima Maligna",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:evil_tear",
+      "link_recipe": true,
+      "text": "A $(d)Lágrima Maligna$() pode ser usada para criar um $(3)Portal do End Artificial$().$(br2)Monte a estrutura mostrada na página ao lado e então $(3)use a Lágrima Maligna na Vara do End$() para ativá-lo.$(br2)Um portal crescerá abaixo dele e funcionará exatamente como um Portal do End normal.",
+      "title": "Lágrima Maligna"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "mapping": {
+          "B": "#c:obsidians",
+          "E": "#c:end_stones",
+          "R": "minecraft:end_rod[facing=down]"
+        },
+        "pattern": [
+          [
+            "     ",
+            "     ",
+            "  E  ",
+            "     ",
+            "     "
+          ],
+          [
+            "     ",
+            "     ",
+            "  R  ",
+            "     ",
+            "     "
+          ],
+          [
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     "
+          ],
+          [
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "     "
+          ],
+          [
+            "BBBBB",
+            "B   B",
+            "B 0 B",
+            "B   B",
+            "BBBBB"
+          ],
+          [
+            "     ",
+            " EEE ",
+            " EEE ",
+            " EEE ",
+            "     "
+          ]
+        ],
+        "symmetrical": true
+      },
+      "name": "Portal do End Artificial"
+    }
+  ]
+}

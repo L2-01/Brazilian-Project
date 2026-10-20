@@ -1,0 +1,27 @@
+{
+    "name": "item.cobblemon.elixir",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:elixir",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:elixir",
+            "text": "book.cobblepedia.entries.elixir.text"
+        },
+        {
+            "type": "cobblepedia:brewing",
+            "title": "book.cobblepedia.pages.brewing",
+            "reagent_item": "cobblemon:hopo_berry",
+            "base_item": "cobblemon:medicinal_brew",
+            "result_item": "cobblemon:elixir"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.brewing_ingredient",
+            "entries": [
+                "cobblepedia:max_elixir"
+            ]
+        }
+    ]
+}

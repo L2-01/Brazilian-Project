@@ -1,0 +1,36 @@
+{
+	"category": "ars_nouveau:arsdelight",
+	"icon": "arsdelight:neutralized_bombegrante_jam",
+	"name": "arsdelight.patchouli.effects.title",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "arsdelight.patchouli.effects.page1"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "arsdelight:mendosteen_tea",
+			"text": "arsdelight.patchouli.effects.flourishing"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "arsdelight:bastion_tea",
+			"text": "arsdelight.patchouli.effects.synchronized_shield"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "arsdelight:bombegrante_tea",
+			"text": "arsdelight.patchouli.effects.blast_resistance"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "arsdelight:frostaya_tea",
+			"text": "arsdelight.patchouli.effects.freezing_spell"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "arsdelight:wilden_meat",
+			"text": "arsdelight.patchouli.effects.wilden"
+		}
+	]
+}

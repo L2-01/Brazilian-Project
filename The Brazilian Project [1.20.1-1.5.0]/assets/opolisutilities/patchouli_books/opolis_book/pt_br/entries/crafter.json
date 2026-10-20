@@ -1,0 +1,18 @@
+{
+	"name": "Fabricador",
+	"icon": "opolisutilities:crafter",
+	"category": "opolisutilities:advanced_items",
+	"sortnum": 10,
+	"pages": [
+		{
+    		"type": "spotlight",
+    		"item": "opolisutilities:crafter",
+    		"text": "Pode ser usado para fabricar itens automaticamente! Requer um mínimo de 2 itens por espaço de entrada para começar a fabricar!$(br2)Só funciona com itens de entrada empilháveis.$(br2)Use a chave-inglesa para ligar!"
+    	},
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:crafter",
+			"text": "Aceita itens por qualquer lateral e pelo topo; a saída é por baixo.$(br2)A chave-inglesa pode ser usada para acelerar e desacelerar o fabricador!"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Configurador de Logística",
+  "icon": "pneumaticcraft:logistics_configurator",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O propósito principal do $(item)Configurador de Logística/$ é ajudar na configuração de um $(l:logistics/overview)Sistema de Logística/$.$(p)Ao $(thing)clicar com o botão direito/$ com ele em qualquer $(l:logistics/frames)Moldura de Logística/$, ele pode configurar vários filtros.$(p)$(thing)Agachar e clicar com o botão direito/$ remove a moldura do inventário em que está anexada."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:logistics_configurator",
+      "text": "O $(item)Configurador de Logística/$ também pode ser usado para remover (ao $(thing)agachar e clicar com o botão direito/$) outros dispositivos anexáveis, como o $(l:semiblocks/transfer_gadget)Dispositivo de Transferência/$ e o $(l:semiblocks/crop_support)Suporte de Plantação/$."
+    },
+    {
+      "type": "crafting",
+      "text": "Fabricando um Configurador de Logística",
+      "recipe": "pneumaticcraft:logistics_configurator"
+    }
+  ]
+}

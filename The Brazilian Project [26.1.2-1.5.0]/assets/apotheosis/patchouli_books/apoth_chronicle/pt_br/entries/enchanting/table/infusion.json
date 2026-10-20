@@ -1,0 +1,20 @@
+{
+    "name": "Encantamento de Infusão",
+    "icon": "apothic_enchanting:infused_hellshelf",
+    "category": "apotheosis:enchanting/table",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(9)Encantamento de Infusão$() é um novo método de fabricação através da Mesa de Encantamentos.$(p)Cada receita de infusão tem um único item de entrada e três requisitos de atributos."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Cada requisito de atributo normalmente exigirá pelo menos algum valor e, opcionalmente, terá um valor máximo.$(p)Encantamentos de infusão só usam o terceiro slot, custam três Lápis-Lazúli e cobram o custo de nível do requisito de $(eterna) da receita (mínimo 3)."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Para realizar um encantamento de infusão, basta colocar o item no slot.$(p)Se você tiver os atributos corretos, o terceiro slot se acenderá, e clicar nele realizará a infusão."
+        }
+    ]
+}

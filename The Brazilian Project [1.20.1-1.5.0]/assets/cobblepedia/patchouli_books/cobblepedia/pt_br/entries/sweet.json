@@ -1,0 +1,25 @@
+{
+    "name": "book.cobblepedia.entries.sweet",
+    "category": "cobblepedia:evolution_items",
+    "icon": "cobblemon:strawberry_sweet",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.sweet",
+            "item": "tag:cobblepedia:book/sweet",
+            "text": "book.cobblepedia.entries.sweet.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:strawberry_sweet",
+                "cobblepedia:love_sweet",
+                "cobblepedia:berry_sweet",
+                "cobblepedia:clover_sweet",
+                "cobblepedia:flower_sweet",
+                "cobblepedia:star_sweet",
+                "cobblepedia:ribbon_sweet"
+            ]
+        }
+    ]
+}

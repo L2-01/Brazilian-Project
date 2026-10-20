@@ -1,0 +1,17 @@
+{
+	"name": "Papel Encharcado",
+	"icon": "opolisutilities:textures/item/soaked_paper.png",
+	"category": "opolisutilities:basic_items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "text",
+			"text": "O Papel Encharcado pode ser seco em uma Mesa de Secagem para virar papel. O Papel Encharcado pode ser feito em uma Mesa de Encharcamento (Mesa de Secagem alagada)."
+		},
+		{
+        	"type": "crafting",
+        	"recipe": "opolisutilities:log_sheet",
+        	"text": "Usada para fazer Papel Encharcado."
+        }
+	]
+}

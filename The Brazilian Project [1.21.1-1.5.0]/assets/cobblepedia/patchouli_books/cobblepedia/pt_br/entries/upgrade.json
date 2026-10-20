@@ -1,0 +1,35 @@
+{
+    "name": "item.cobblemon.upgrade",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:upgrade",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:upgrade",
+            "title": "item.cobblemon.upgrade",
+            "text": "book.cobblepedia.entries.upgrade.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:upgrade",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "cobblepedia:largping",
+            "title": "book.cobblepedia.pages.largping",
+            "drop_item": "cobblemon:upgrade",
+            "pokemon": "cobblemon:porygon2",
+            "rate": "20"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.upgrade.evolving",
+            "holding_item3": "cobblemon:upgrade",
+            "using_item3": "cobblemon:link_cable",
+            "pokemon3": "cobblemon:porygon",
+            "evolved_pokemon3": "cobblemon:porygon2"
+        }
+    ]
+}

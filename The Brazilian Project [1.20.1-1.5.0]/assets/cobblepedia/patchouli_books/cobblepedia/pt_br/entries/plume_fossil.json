@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.plume_fossil",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:plume_fossil",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.plume_fossil",
+            "item": "cobblemon:plume_fossil",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.plume_fossil.text"
+        }
+    ]
+}

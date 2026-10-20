@@ -1,0 +1,52 @@
+{
+    "name": "book.cobblepedia.entries.fossil.name",
+    "category": "cobblepedia:archaeology",
+    "icon": "cobblemon:helix_fossil",
+    "turnin": "cobblemon:obtain_fossil",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.fossil.name",
+            "item": "tag:cobblemon:fossils",
+            "text": "book.cobblepedia.entries.fossil.text"
+        },
+        {
+            "type": "patchouli:text",
+            "anchor": "obtaining",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.fossil.obtaining.text"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:obtain_fossil",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.obtain_fossil",
+            "text": "advancements.cobblemon.obtain_fossil.description"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:helix_fossil",
+                "cobblepedia:dome_fossil",
+                "cobblepedia:old_amber_fossil",
+                "cobblepedia:root_fossil",
+                "cobblepedia:claw_fossil",
+                "cobblepedia:skull_fossil",
+                "cobblepedia:armor_fossil",
+                "cobblepedia:cover_fossil",
+                "cobblepedia:plume_fossil",
+                "cobblepedia:jaw_fossil",
+                "cobblepedia:sail_fossil"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:fossilized_bird",
+                "cobblepedia:fossilized_fish",
+                "cobblepedia:fossilized_drake",
+                "cobblepedia:fossilized_dino"
+            ]
+        }
+    ]
+}

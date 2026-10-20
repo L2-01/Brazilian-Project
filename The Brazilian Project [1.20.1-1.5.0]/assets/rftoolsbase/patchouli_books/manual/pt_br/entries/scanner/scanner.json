@@ -1,0 +1,35 @@
+{
+  "name": "Scanner de Armazenamento",
+  "icon": "rftoolsstorage:storage_scanner",
+  "category": "rftoolsbase:category_rftoolsstorage_scanner",
+  "extra_recipe_mappings": {
+    "rftoolsstorage:storage_scanner": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Scanner de Armazenamento escaneia inventários próximos e mostra o conteúdo deles numa só GUI. Você pode pesquisar, solicitar itens e inserir itens de volta nos inventários conectados."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:storage_scanner"
+    },
+    {
+      "type": "text",
+      "text": "Use o controle deslizante de raio e o botão Escanear para encontrar inventários. Com a integração do XNet configurada como exigido, o alcance do scanner passa a ser controlado pelas conexões do XNet."
+    },
+    {
+      "type": "text",
+      "text": "A caixa de busca filtra por nome de item. Prefixe um termo com @ para filtrar por ID de mod, como @minecraft ou @rftoolsstorage."
+    },
+    {
+      "type": "text",
+      "text": "Inventários podem ser movidos, removidos, marcados como roteáveis e ordenados. Inventários roteáveis são usados para comportamento automatizado de inserção/extração e visualizações de módulo marcadas."
+    },
+    {
+      "type": "text",
+      "text": "Para uso remoto, vincule um $(l:rftoolsbase:scanner/modules)Módulo de Tela de Controle de Armazenamento$(/l) ao scanner e instale-o num $(l:rftoolsbase:scanner/remote)Tablet (escâner)$(/l)."
+    }
+  ]
+}

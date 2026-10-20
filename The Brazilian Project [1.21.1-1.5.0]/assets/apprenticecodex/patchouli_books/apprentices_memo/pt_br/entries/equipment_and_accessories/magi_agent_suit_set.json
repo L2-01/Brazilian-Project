@@ -1,0 +1,35 @@
+{
+  "name": "patchouli.apprenticecodex.apprentices_memo.entry.magi_agent_suit_set.name",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:magi_agent_suit_hood",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.magi_agent_suit_set.page.p001.title",
+      "item": "apprenticecodex:magi_agent_suit_hood",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.magi_agent_suit_set.page.p001.text"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:armor_stand{ArmorItems:[{id:\"apprenticecodex:magi_agent_suit_boots\",Count:1b},{id:\"apprenticecodex:magi_agent_suit_leggings\",Count:1b},{id:\"apprenticecodex:magi_agent_suit_coat\",Count:1b},{id:\"apprenticecodex:magi_agent_suit_hood\",Count:1b}],NoBasePlate:1b,ShowArms:1b}",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.magi_agent_suit_set.page.p002.text"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "apprenticecodex:magi_agent_suit_hood",
+      "recipe2": "apprenticecodex:magi_agent_suit_coat"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "apprenticecodex:magi_agent_suit_leggings",
+      "recipe2": "apprenticecodex:magi_agent_suit_boots"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:equipment_and_accessories/end_game_armors",
+        "apprenticecodex:devices/spell_calibration_bench"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Raridades",
+    "icon": "minecraft:nether_star",
+    "category": "apotheosis:adventure/affix_loot",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Todo item de afixo tem uma $(9)Raridade$() associada a ele. A raridade do item determina quão forte ele será e quais afixos serão aplicados a ele.$(p)Uma raridade maior é sempre mais forte que a anterior."
+        },
+		{
+			"type": "patchouli:text",
+			"title": "Comum",
+			"text": "Um item $(#808080)Comum$() é o tipo mais básico de item de afixo. Cada um sempre terá um único bônus de atributo e tem uma chance baixa de ganhar um segundo."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Incomum",
+			"text": "Um item $(#33FF33)Incomum$() é um passo acima de um item comum, mas ainda não recebe nenhum efeito único. Esses itens sempre têm dois bônus de atributo e podem receber um terceiro.$(p)Eles também podem receber um único encaixe."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Raro",
+			"text": "É nos itens $(#5555FF)Raros$() que os afixos começam a brilhar. Esses itens recebem três bônus de atributo e um efeito especial, e podem receber um segundo efeito.$(p)Eles também podem receber um encaixe e sempre têm um leve bônus de durabilidade."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Épico",
+			"text": "Itens $(#BB00BB)Épicos$() estão à beira da grandeza. Eles recebem três atributos e um efeito, e podem receber um quarto atributo e um segundo efeito.$(p)Eles também podem receber até dois encaixes e têm um bônus de durabilidade mais forte."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mítico",
+			"text": "Itens $(#ED7014)Míticos$() foram forjados por uma entidade perdida de grande poder. Eles recebem quatro atributos e dois efeitos, e podem receber um terceiro efeito, além de três encaixes.$(p)Eles também carregam um bônus significativo de durabilidade."
+		}
+	]
+}

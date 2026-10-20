@@ -1,0 +1,17 @@
+{
+    "name": "Resfriamento Ativo",
+    "icon": "minecraft:water_bucket",
+    "category": "bigreactors:reactor-operational_mode",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Um Reator com resfriamento ativo é um Reator que usa um refrigerante externo para dissipar seu calor interno.$(br2)O refrigerante será vaporizado no processo e o vapor resultante pode ser extraído do Reator para girar os rotores de uma ou mais Turbinas."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Para construir um Reator com resfriamento ativo você precisa incluir pelo menos duas Portas de Fluido no multibloco, uma configurada para inserir refrigerante no Reator e outra para extrair o vapor gerado do Reator.$(br2)O vapor extraído pode então ser canalizado para suas Turbinas para gerar energia."
+        }
+    ]
+}

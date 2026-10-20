@@ -1,0 +1,18 @@
+{
+  "name": "Talismã de Fogo",
+  "sortnum": 19,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:fire_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã de Fogo concede imunidade a dano de lava e fogo. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_advanced)Base de Talismã Avançado$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_nature)Força da Natureza$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/fire_talisman",
+      "recipe2": "fargostalismans:forces/force_of_nature"
+    }
+  ],
+  "read_by_default": true
+}

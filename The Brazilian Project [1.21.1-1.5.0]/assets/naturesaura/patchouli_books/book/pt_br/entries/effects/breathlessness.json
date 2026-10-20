@@ -1,0 +1,12 @@
+{
+    "name": "Falta de Ar",
+    "icon": "minecraft:white_wool",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:negative_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A remoção de $(aura) de uma área não só afeta a vegetação ao redor da área afetada, mas também criaturas que precisam de $(item)oxigênio$() para respirar. Essas criaturas rapidamente notarão que, quanto mais $(aura) é drenada, mais difícil fica respirar: seus pulmões começarão a produzir uma dor aguda que arde em intervalos irregulares, e regenerar vida se torna severamente mais difícil."
+        }
+    ]
+}

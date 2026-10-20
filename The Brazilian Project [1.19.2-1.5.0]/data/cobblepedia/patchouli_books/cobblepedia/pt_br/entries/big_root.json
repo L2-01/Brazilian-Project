@@ -1,0 +1,47 @@
+{
+    "name": "item.cobblemon.big_root",
+    "category": "cobblepedia:held_items",
+    "icon": "cobblemon:big_root",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:big_root",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.big_root.text"
+        },
+        {
+            "type": "cobblepedia:largping",
+            "title": "book.cobblepedia.pages.largping",
+            "drop_item": "cobblemon:big_root",
+            "pokemon": "cobblemon:diglett",
+            "rate": "2.5",
+            "drop_item2": "cobblemon:big_root",
+            "pokemon2": "cobblemon:dugtrio",
+            "rate2": "5",
+            "drop_item3": "cobblemon:big_root",
+            "pokemon3": "cobblemon:bellsprout",
+            "rate3": "2.5",
+            "drop_item4": "cobblemon:big_root",
+            "pokemon4": "cobblemon:weepinbell",
+            "rate4": "5",
+            "drop_item5": "cobblemon:big_root",
+            "pokemon5": "cobblemon:victreebel",
+            "rate5": "10"
+        },
+        {
+            "type": "cobblepedia:largping",
+            "title": "book.cobblepedia.pages.largping",
+            "drop_item": "cobblemon:big_root",
+            "pokemon": "cobblemon:tangela",
+            "rate": "2.5",
+            "drop_item2": "cobblemon:big_root",
+            "pokemon2": "cobblemon:tangrowth",
+            "rate2": "5"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.big_root.holding"
+        }
+    ]
+}

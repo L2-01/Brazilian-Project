@@ -1,0 +1,33 @@
+{
+    "name": "book.cobblepedia.entries.medicine",
+    "category": "cobblepedia:consumables",
+    "icon": "cobblemon:heal_powder",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.medicine.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:revival_herb",
+                "cobblepedia:revive",
+                "cobblepedia:max_revive",
+                "cobblepedia:remedy",
+                "cobblepedia:fine_remedy",
+                "cobblepedia:superb_remedy",
+                "cobblepedia:vitamin",
+                "cobblepedia:x_item",
+                "cobblepedia:energy_root",
+                "cobblepedia:brew"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:ability_capsule",
+                "cobblepedia:ability_patch"
+            ]
+        }
+    ]
+}

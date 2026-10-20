@@ -1,0 +1,34 @@
+{
+  "name": "item.apprenticecodex.jumpcast_charm",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:jumpcast_charm",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:jumpcast_charm",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.jumpcast_charm.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:jumpcast_charm",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.jumpcast_charm.page.p002.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.assist_wings"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.jumpcast_charm.page.p003.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spell_calibration_bench"
+      ]
+    }
+  ]
+}

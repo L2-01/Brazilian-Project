@@ -1,0 +1,21 @@
+{
+    "name": "Moderadores",
+    "icon": "minecraft:iron_block",
+    "category": "bigreactors:reactor",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Um moderador de radiação é um bloco ou fluido que pode ser colocado dentro do Reator para absorver parte da radiação emitida pelo combustível e $(l:bigreactors:reactor/innerworking)mover o calor$(/l) para longe das $(l:bigreactors:reactor/part-fuelrod)Barras de Combustível$(/l).$(br2)Um moderador específico pode converter radiação em calor com mais ou menos eficiência que outro, ou pode absorver mais radiação que os outros. Ou pode conduzir calor muito melhor que seus companheiros."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Ou pode ser baratíssimo mas extremamente ineficiente em tudo. Como o ar, por exemplo: funciona, mas mal.$(br2)Normalmente um bloco/fluido raro, ou um particularmente caro de fabricar, tem estatísticas melhores que um comum ou barato.$(br2)O Extreme Reactors registra, por padrão, vários blocos/fluidos vanilla e de mods como moderadores.$(br)Outros mods ou modpacks podem adicionar seus próprios moderadores ou modificar/remover os padrões."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Apenas moderadores válidos podem ser colocados dentro dos Reatores. Moderadores inválidos impedirão a formação do multibloco do Reator.$(br2)Blocos e fluidos (verifique o balde) que podem ser usados como moderadores são marcados com uma dica especial que você pode ver, se quiser se dar spoilers, ativando o recurso $(italic)Dicas de Ferramentas Avançadas$() do Minecraft (F3 + H)."
+        }
+    ]
+}

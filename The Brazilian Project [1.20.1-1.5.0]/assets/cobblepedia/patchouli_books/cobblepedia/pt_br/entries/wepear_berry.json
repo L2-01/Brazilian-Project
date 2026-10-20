@@ -1,0 +1,25 @@
+{
+    "name": "item.cobblemon.wepear_berry",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:wepear_berry",
+    "pages": [
+        {
+            "type": "cobblepedia:natural_berry",
+            "item": "cobblemon:wepear_berry"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "item.cobblemon.wepear_berry.tooltip"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:berry_juice"
+            ]
+        }
+    ]
+}

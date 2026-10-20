@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.jaw_fossil",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:jaw_fossil",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.jaw_fossil",
+            "item": "cobblemon:jaw_fossil",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.jaw_fossil.text"
+        }
+    ]
+}

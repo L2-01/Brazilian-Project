@@ -1,0 +1,25 @@
+{
+  "name": "Alho",
+  "icon": "enchanted:textures/item/garlic.png",
+  "category": "enchanted:common_plants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O alho, uma espécie de planta bulbosa florífera do gênero Allium, é mais conhecido por seu uso como tempero em muitas culinárias. $(br2)Um uso menos conhecido desta planta é ser um forte repelente de seres vampíricos.$(br2)$(bold)Obtenção:$()$(br)Conhecido por ser largado por Grama Alta"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "enchanted:garlic[age=4]"
+        },
+        "pattern": [
+          [ "0" ],
+          [ " " ]
+        ]
+      }
+    }
+  ],
+  "read_by_default": true
+}

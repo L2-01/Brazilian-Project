@@ -1,0 +1,19 @@
+{
+  "name": "Controlador do Movedor",
+  "icon": "rftoolsbuilder:mover_controller",
+  "category": "rftoolsbase:category_rftoolsbuilder_mover",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:mover_controller": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Controlador do Movedor conecta Movedores entre si. Coloque-o adjacente a um Movedor e depois use-o para encontrar outros Movedores conectados."
+    },
+    {
+      "type": "text",
+      "text": "Dois Movedores estão conectados quando estão a até 128 blocos um do outro em uma das direções cardeais."
+    }
+  ]
+}

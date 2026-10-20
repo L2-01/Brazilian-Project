@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:ectoplasm",
+  "name": "Ectoplasma",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(d)Ectoplasma$() é um material derrubado quando espíritos são mortos.$(br2)Espíritos têm chance de nascer $(3)sempre que uma criatura morre$(). A chance aumenta quanto mais perto da lua cheia e aumenta ainda mais se o Dragão Ender já tiver sido morto no servidor.",
+      "title": "Ectoplasma"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:ectoplasm",
+      "link_recipe": true,
+      "text": "Os espíritos $(c)só podem ser feridos por magia$().$(br2)Poções arremessáveis, armas encantadas ou certos itens como a $(l:items/spectre_sword)Espada de Espectro$(/l) são exemplos de formas de feri-los."
+    }
+  ]
+}

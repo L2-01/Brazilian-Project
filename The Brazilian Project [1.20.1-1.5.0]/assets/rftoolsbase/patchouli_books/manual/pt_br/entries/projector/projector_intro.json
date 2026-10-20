@@ -1,0 +1,15 @@
+{
+  "name": "Projetor",
+  "icon": "rftoolsbuilder:projector",
+  "category": "rftoolsbase:category_rftoolsbuilder_projector",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:projector": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Projetor projeta o conteúdo de um Cartão de Forma no mundo.$(br2)Use-o para pré-visualizar ou visualizar uma forma antes de usá-la em outra máquina."
+    }
+  ]
+}

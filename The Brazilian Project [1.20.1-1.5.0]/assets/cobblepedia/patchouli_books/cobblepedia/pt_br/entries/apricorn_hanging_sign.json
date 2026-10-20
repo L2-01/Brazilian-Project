@@ -1,0 +1,26 @@
+{
+    "name": "block.cobblemon.apricorn_hanging_sign",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:apricorn_hanging_sign",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:apricorn_hanging_sign",
+            "title": "block.cobblemon.apricorn_hanging_sign",
+            "text": "book.cobblepedia.entries.apricorn_hanging_sign.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:apricorn_hanging_sign",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.apricorn_hanging_sign.crafting"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:apricorn_sign"
+            ]
+        }
+    ]
+}

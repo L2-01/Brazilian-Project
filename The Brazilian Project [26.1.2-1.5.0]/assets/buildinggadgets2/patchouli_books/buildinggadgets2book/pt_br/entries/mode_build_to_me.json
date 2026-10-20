@@ -1,0 +1,21 @@
+{
+  "name": "Construir até Mim",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/build_to_me.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O modo Construir até Mim constrói uma fileira de blocos da face do bloco para o qual você está olhando até o jogador. Isso pode ser horizontal ou vertical, dependendo da face do bloco para a qual você está olhando.$(br2)O ajuste de alcance é ignorado neste modo.$(br2)Alternar 'colocar no topo' construirá até a cabeça do jogador em vez dos pés."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Construir até Mim",
+      "images": [
+        "buildinggadgets2:textures/book/images/ghost_render.png"
+      ],
+      "border": true,
+      "text": "Construindo até o jogador"
+    }
+  ]
+}

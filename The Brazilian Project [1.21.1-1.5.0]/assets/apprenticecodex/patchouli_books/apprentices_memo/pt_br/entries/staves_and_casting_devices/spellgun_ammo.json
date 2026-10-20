@@ -1,0 +1,269 @@
+{
+  "name": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.name",
+  "category": "apprenticecodex:staves_and_casting_devices",
+  "icon": "apprenticecodex:fullauto_spell_casting_round",
+  "priority": true,
+  "extra_recipe_mappings": {
+    "apprenticecodex:basic_spellcaster_round": 6,
+    "apprenticecodex:arcane_spellcaster_round": 8,
+    "apprenticecodex:advanced_spellcaster_round": 10,
+    "apprenticecodex:spell_dominator_round": 12,
+    "apprenticecodex:multi_purpose_spell_round": 14,
+    "apprenticecodex:fullauto_spell_casting_round": 16
+  },
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p001.title",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p001.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.spellcaster_workbench"
+          }
+        ]
+      },
+      "item": "apprenticecodex:rapid_spellcaster_round,apprenticecodex:basic_spellcaster_round,apprenticecodex:arcane_spellcaster_round,apprenticecodex:advanced_spellcaster_round,apprenticecodex:spell_dominator_round,apprenticecodex:multi_purpose_spell_round,apprenticecodex:fullauto_spell_casting_round"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p002.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.spellcaster_ammo_pouch"
+          },
+          {
+            "translate": "item.apprenticecodex.spellcaster_ammo_pouch"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:rapid_spellcaster_round",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p003.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.rapid_spellcaster_round"
+          },
+          {
+            "translate": "item.apprenticecodex.iron_spellcaster_gun"
+          },
+          {
+            "translate": "block.minecraft.crafting_table"
+          },
+          {
+            "translate": "block.apprenticecodex.spellcaster_workbench"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:rapid_spellcaster_round",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p004.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.spellcaster_workbench"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "recipe": "apprenticecodex:spellcaster_workbench/rapid_spellcaster_round",
+      "recipe2": "apprenticecodex:spellcaster_workbench/rapid_spellcaster_round_recycle",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p005.text",
+        "with": [
+          {
+            "translate": "item.minecraft.copper_ingot"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:basic_spellcaster_round",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p006.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.basic_spellcaster_round"
+          },
+          {
+            "translate": "item.apprenticecodex.gold_spellcaster_gun"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "recipe": "apprenticecodex:spellcaster_workbench/basic_spellcaster_round",
+      "recipe2": "apprenticecodex:spellcaster_workbench/basic_spellcaster_round_recycle",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p007.text",
+        "with": [
+          {
+            "translate": "item.minecraft.iron_ingot"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:arcane_spellcaster_round",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p008.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.arcane_spellcaster_round"
+          },
+          {
+            "translate": "item.apprenticecodex.gold_spellcaster_gun"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "recipe": "apprenticecodex:spellcaster_workbench/arcane_spellcaster_round",
+      "recipe2": "apprenticecodex:spellcaster_workbench/arcane_spellcaster_round_recycle",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p009.text",
+        "with": [
+          {
+            "translate": "item.irons_spellbooks.arcane_essence"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:advanced_spellcaster_round",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p010.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.advanced_spellcaster_round"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "recipe": "apprenticecodex:spellcaster_workbench/advanced_spellcaster_round",
+      "recipe2": "apprenticecodex:spellcaster_workbench/advanced_spellcaster_round_recycle",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p011.text",
+        "with": [
+          {
+            "translate": "item.minecraft.gold_ingot"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spell_dominator_round",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p012.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.spell_dominator_round"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "recipe": "apprenticecodex:spellcaster_workbench/spell_dominator_round",
+      "recipe2": "apprenticecodex:spellcaster_workbench/spell_dominator_round_recycle",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p013.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.spellstained_arcane_ingot"
+          },
+          {
+            "translate": "item.apprenticecodex.spellcaster_ammo_pouch"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:multi_purpose_spell_round",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p014.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.multi_purpose_spell_round"
+          },
+          {
+            "translate": "item.apprenticecodex.multipurpose_staffrifle"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "recipe": "apprenticecodex:spellcaster_workbench/multi_purpose_spell_round",
+      "recipe2": "apprenticecodex:spellcaster_workbench/multi_purpose_spell_round_recycle",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p015.text",
+        "with": [
+          {
+            "translate": "item.minecraft.netherite_scrap"
+          },
+          {
+            "translate": "item.minecraft.netherite_ingot"
+          },
+          {
+            "translate": "entity.irons_spellbooks.citadel_keeper"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:fullauto_spell_casting_round",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p016.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.fullauto_spell_casting_round"
+          },
+          {
+            "translate": "item.apprenticecodex.fullauto_rapidcast_spellrifle"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:spellcaster_workbench_recipe",
+      "recipe": "apprenticecodex:spellcaster_workbench/fullauto_spell_casting_round",
+      "recipe2": "apprenticecodex:spellcaster_workbench/fullauto_spell_casting_round_recycle",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellgun_ammo.page.p017.text",
+        "with": [
+          {
+            "translate": "item.irons_spellbooks.mithril_scrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spellcaster_workbench",
+        "apprenticecodex:staves_and_casting_devices/spellgun_system",
+        "apprenticecodex:staves_and_casting_devices/multipurpose_staffrifle",
+        "apprenticecodex:staves_and_casting_devices/fullauto_rapidcast_spellrifle"
+      ]
+    }
+  ]
+}

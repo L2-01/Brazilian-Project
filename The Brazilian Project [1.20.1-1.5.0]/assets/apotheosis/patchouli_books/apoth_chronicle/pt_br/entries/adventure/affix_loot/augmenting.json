@@ -1,0 +1,39 @@
+{
+    "name": "Aprimoramento",
+    "icon": "apotheosis:augmenting_table",
+    "category": "apotheosis:adventure/affix_loot",
+    "flag": "apotheosis:adventure",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(9)Bancada de Aprimoramento$() é uma estação de fabricação de fim de jogo usada para aprimorar os afixos individuais de um item.$(p)Através dela, você pode aprimorar ou rerolar afixos individuais, deixando os demais intactos."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:augmenting_table",
+            "text": "Criar uma Bancada de Aprimoramento requer focar a energia de uma $(9)Estrela do Nether$() através de duas $(9)Pérolas Forjadas Pelos Deuses$(), usando uma $(9)Mesa de Encantamento$() como base."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Espaços de Entrada",
+            "text": "A Bancada de Aprimoramento tem dois espaços de entrada.$(p)O espaço superior recebe o item que você deseja aprimorar, que deve ser um item de afixo.$(p)Normalmente, você só deve aprimorar itens de pelo menos raridade $(#ED7014)Mítica$(), embora possa considerar aprimorar itens $(#BB00BB)Épicos$() também."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:sigil_of_enhancement",
+            "title": "Espaços de Entrada",
+            "text": "O espaço inferior recebe os $(9)Sigilos de Aprimoramento$(), o item de combustível usado no Aprimoramento.$(p)Por fim, você precisará selecionar o afixo desejado no menu suspenso."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Aprimorando",
+            "text": "A primeira operação que pode ser realizada na bancada de aprimoramento é aprimorar um afixo.$(p)Isso custa dois $(9)Sigilos de Aprimoramento$() e aumentará a força interna do afixo atual em 25%.$(p)O tamanho do bônus fornecido varia por Afixo."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Rerolando",
+            "text": "A segunda operação da bancada de aprimoramento é rerolar um afixo.$(p)Isso custa um $(9)Sigilo de Aprimoramento$() e troca o afixo selecionado por outro do mesmo tipo.$(p)As opções alternativas serão mostradas à esquerda."
+        }
+    ]
+}

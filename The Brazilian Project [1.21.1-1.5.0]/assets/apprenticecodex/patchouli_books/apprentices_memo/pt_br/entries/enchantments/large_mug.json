@@ -1,0 +1,29 @@
+{
+  "name": "enchantment.apprenticecodex.large_mug",
+  "category": "apprenticecodex:enchantments",
+  "icon": "apprenticecodex:spellcasters_flask",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "enchantment.apprenticecodex.large_mug",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.large_mug.page.p001.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.spellcasters_flask"
+          },
+          {
+            "translate": "item.apprenticecodex.alchemists_flask"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:magic_tools/spellcasters_flask",
+        "apprenticecodex:magic_tools/alchemists_flask"
+      ]
+    }
+  ]
+}

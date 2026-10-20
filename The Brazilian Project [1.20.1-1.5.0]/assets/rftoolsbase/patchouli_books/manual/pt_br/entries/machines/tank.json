@@ -1,0 +1,29 @@
+{
+  "name": "O Tanque",
+  "icon": "rftoolsutility:tank",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:tank": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "Um recipiente para líquidos que pode (por padrão) armazenar até 32 baldes. É possível restringir o tipo de líquidos colocando um balde com o líquido específico no espaço de filtro"
+    },
+    {
+      "type": "crafting",
+      "heading": "Tanque",
+      "recipe": "rftoolsutility:tank"
+    },
+    {
+      "type": "text",
+      "title": "Usando",
+      "text": "Clique com o botão direito com baldes ou outros recipientes de fluido para encher ou drenar o tanque. Tubos também podem interagir com sua capacidade de fluido."
+    },
+    {
+      "type": "text",
+      "title": "Filtro",
+      "text": "Coloque um balde cheio no espaço de filtro para travar o tanque naquele fluido. Remova o item do filtro para permitir qualquer fluido novamente."
+    }
+  ]
+}

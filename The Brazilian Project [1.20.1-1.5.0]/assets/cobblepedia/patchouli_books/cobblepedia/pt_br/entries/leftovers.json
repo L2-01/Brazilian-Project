@@ -1,0 +1,24 @@
+{
+    "name": "item.cobblemon.leftovers",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:leftovers",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:leftovers",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.leftovers.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.leftovers.obtaining"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.leftovers.holding"
+        }
+    ]
+}

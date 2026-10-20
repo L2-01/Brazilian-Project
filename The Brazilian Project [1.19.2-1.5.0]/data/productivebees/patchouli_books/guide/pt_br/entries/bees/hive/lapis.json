@@ -1,0 +1,18 @@
+{
+  "name": "Abelha de Lápis-Lázuli",
+  "icon": "minecraft:lapis_lazuli",
+  "read_by_default": true,
+  "category": "productivebees:bees_hive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Abelha de Lápis-Lázuli",
+      "text": "Cruzada de uma $(l:bees/hive/redstone)Abelha de Redstone$(/l) e uma $(l:bees/solitary/blue_banded)Abelha Faixa Azul$(/l).",
+      "anchor": "lapis"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:configurable_bee{type:'productivebees:lapis'}"
+    }
+  ]
+}

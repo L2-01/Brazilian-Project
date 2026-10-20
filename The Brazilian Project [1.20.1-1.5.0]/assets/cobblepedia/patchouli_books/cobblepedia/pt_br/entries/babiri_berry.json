@@ -1,0 +1,25 @@
+{
+    "name": "item.cobblemon.babiri_berry",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:babiri_berry",
+    "pages": [
+        {
+            "type": "cobblepedia:natural_berry",
+            "item": "cobblemon:babiri_berry"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "item.cobblemon.babiri_berry.tooltip"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:berry_juice"
+            ]
+        }
+    ]
+}

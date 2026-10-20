@@ -1,0 +1,62 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:biome_radar",
+  "name": "Radar de Bioma",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:biome_radar",
+      "link_recipe": true,
+      "text": "O $(d)Radar de Bioma$() é uma estrutura multibloco que $(3)ajuda você a encontrar biomas$() no mundo.$(br2)Primeiro, você precisa construir a estrutura.",
+      "title": "Radar de Bioma"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "irregular_implements:biome_radar",
+          "A": "minecraft:iron_bars[north=true,south=true,east=true,west=true]",
+          "E": "minecraft:iron_bars[east=true]",
+          "I": "minecraft:iron_bars",
+          "N": "minecraft:iron_bars[north=true]",
+          "S": "minecraft:iron_bars[south=true]",
+          "W": "minecraft:iron_bars[west=true]"
+        },
+        "pattern": [
+          [
+            " I ",
+            "I I",
+            " I "
+          ],
+          [
+            " E ",
+            "SAN",
+            " W "
+          ],
+          [
+            "   ",
+            " I ",
+            "   "
+          ],
+          [
+            "   ",
+            " 0 ",
+            "   "
+          ]
+        ],
+        "symmetrical": true
+      },
+      "name": "Antena do Radar de Bioma"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:biome_crystal[irregular_implements:biome=\"minecraft:plains\"]",
+      "link_recipe": true,
+      "text": "$(d)Cristais de Bioma$() podem ser encontrados em baús de masmorras, e existe $(3)um para cada bioma$().$(br2)Insira um Cristal de Bioma no Radar de Bioma e as chamas do radar começarão a soprar na direção do bioma, se ele for encontrado."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você também pode usar um $(l:items/location_filter)Filtro de Localização$(/l) no Radar de Bioma para salvar a localização do bioma no filtro.$(br2)Com isso, você pode fabricá-lo junto com uma $(l:items/golden_compass)Bússola de Ouro$(/l) para encontrar o caminho até o bioma!"
+    }
+  ]
+}

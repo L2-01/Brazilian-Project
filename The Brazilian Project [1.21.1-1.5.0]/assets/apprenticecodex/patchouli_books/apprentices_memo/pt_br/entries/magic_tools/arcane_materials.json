@@ -1,0 +1,153 @@
+{
+  "name": "patchouli.apprenticecodex.apprentices_memo.entry.arcane_materials.name",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:spellstained_arcane_ingot",
+  "extra_recipe_mappings": {
+    "apprenticecodex:spellstained_arcane_ingot": 3,
+    "apprenticecodex:spellstained_diamond": 3,
+    "apprenticecodex:emberstained_netherite_ingot": 5,
+    "apprenticecodex:mana_enveloped_silver_chunk": 9
+  },
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "name": "Materiais Mágicos",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.arcane_materials.page.p001.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spellstained_arcane_ingot",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.arcane_materials.page.p002.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.spellstained_arcane_ingot"
+          },
+          {
+            "translate": "item.irons_spellbooks.arcane_ingot"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spellstained_diamond",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.arcane_materials.page.p003.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.spellstained_diamond"
+          },
+          {
+            "translate": "item.minecraft.diamond"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:essence_smoker_recipe",
+      "recipe": "apprenticecodex:essence_smoker/infuse_scroll_to_ingot",
+      "recipe2": "apprenticecodex:essence_smoker/infuse_scroll_to_diamond",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.arcane_materials.page.p004.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:emberstained_netherite_ingot",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.arcane_materials.page.p005.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.emberstained_netherite_ingot"
+          },
+          {
+            "translate": "item.minecraft.netherite_ingot"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:essence_smoker_recipe",
+      "recipe": "apprenticecodex:essence_smoker/infuse_cinder_to_netherite",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.arcane_materials.page.p006.text",
+        "with": [
+          {
+            "translate": "item.minecraft.netherite_scrap"
+          },
+          {
+            "translate": "entity.irons_spellbooks.citadel_keeper"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:bullet_rune",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.arcane_materials.page.p007.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.bullet_rune"
+          },
+          {
+            "translate": "item.irons_spellbooks.blank_rune"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:mithril_weave_offcuts",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.arcane_materials.page.p008.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.mithril_weave_offcuts"
+          },
+          {
+            "translate": "item.irons_spellbooks.mithril_weave"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:bullet_rune",
+      "recipe2": "apprenticecodex:mithril_weave_offcuts"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:mana_enveloped_silver_chunk",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.arcane_materials.page.p010.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.mana_enveloped_silver_chunk"
+          },
+          {
+            "translate": "item.irons_spellbooks.silver_ring"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:silver_ring_from_mana_enveloped_silver_chunk",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.arcane_materials.page.p011.text",
+        "with": [
+          {
+            "translate": "item.irons_spellbooks.silver_ring"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/essence_smoker"
+      ]
+    }
+  ]
+}

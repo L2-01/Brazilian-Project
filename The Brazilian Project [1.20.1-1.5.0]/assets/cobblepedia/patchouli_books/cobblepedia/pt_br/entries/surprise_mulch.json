@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.surprise_mulch",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:surprise_mulch",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:surprise_mulch",
+            "text": "book.cobblepedia.entries.surprise_mulch.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:surprise_mulch",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

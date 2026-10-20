@@ -1,0 +1,32 @@
+{
+    "name": "book.cobblepedia.entries.mulch",
+    "category": "cobblepedia:agriculture",
+    "icon": "cobblemon:mulch_base",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.mulch",
+            "item": "tag:cobblepedia:book/mulch",
+            "text": "book.cobblepedia.entries.mulch.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.mulch.usage.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:mulch_base",
+                "cobblepedia:growth_mulch",
+                "cobblepedia:rich_mulch",
+                "cobblepedia:surprise_mulch",
+                "cobblepedia:loamy_mulch",
+                "cobblepedia:coarse_mulch",
+                "cobblepedia:peat_mulch",
+                "cobblepedia:humid_mulch",
+                "cobblepedia:sandy_mulch"
+            ]
+        }
+    ]
+}

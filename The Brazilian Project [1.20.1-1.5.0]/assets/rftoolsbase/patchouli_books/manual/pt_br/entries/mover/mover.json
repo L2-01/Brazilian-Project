@@ -1,0 +1,15 @@
+{
+  "name": "Movedor",
+  "icon": "rftoolsbuilder:mover",
+  "category": "rftoolsbase:category_rftoolsbuilder_mover",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:mover": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Um Movedor marca uma posição para onde um veículo pode se mover.$(br2)Use um $(l:rftoolsbase:mover/mover_controller)Controlador do Movedor$(/l) para descobrir e conectar Movedores em uma rede de movimento."
+    }
+  ]
+}

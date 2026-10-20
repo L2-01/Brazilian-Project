@@ -1,0 +1,32 @@
+{
+  "name": "Sensor Universal",
+  "icon": "pneumaticcraft:universal_sensor",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O $(thing)Sensor Universal/$ é, como o nome sugere, um sensor que pode ser usado em muitas aplicações; ele mede condições no mundo e emite um $(#f00)sinal de redstone/$ com base nessas condições.$(p)Ser universal não sai de graça: o sensor requer $(l:base_concepts/pressure)ar/$ para funcionar (1 mL/tique) em $(ttcolor)$(t:O Emissor de Redstone Constante é grátis)quase todos/$ os casos, e Sensores precisam de certas $(l:base_concepts/upgrades)Melhorias/$ para funcionar."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:universal_sensor",
+      "text": "Atualmente há mais de 15 condições diferentes que o Sensor pode medir, desde verificar se há um bloco numa certa coordenada até se há um streamer transmitindo. Abra a GUI do $(thing)Sensor Universal/$ para ver o que está disponível, mais as descrições."
+    },
+    {
+      "type": "text",
+      "title": "Melhorias",
+      "text": "Você precisará inserir uma $(l:base_concepts/upgrades#entity_tracker)Rastreamento de Entidades/$, $(l:base_concepts/upgrades#dispenser)Ejetor/$ ou $(l:base_concepts/upgrades#block_tracker)Rastreamento de Blocos/$ mais uma $(l:tools/gps_tool)Ferramenta GPS/$ para permitir a seleção da categoria correspondente de sensores. Ex.: contar o número de entidades no alcance requer uma $(item)Melhoria de Rastreamento de Entidades/$ instalada."
+    },
+    {
+      "type": "text",
+      "title": "Exemplo: Contagem de Entidades",
+      "text": "Digamos que você tenha um cercado cheio de animais e queira matar alguns, mas apenas se houver o suficiente.$(p)Adicione uma $(l:base_concepts/upgrades#entity_tracker)Melhoria de Rastreamento de Entidades/$ e $(l:base_concepts/upgrades#range)Melhorias de Alcance/$ suficientes para cobrir o tamanho do cercado.$(p)Agora, na GUI, selecione o botão $(thing)Entidade/$, depois $(thing)No Alcance/$ e, por fim, insira um $(l:base_concepts/entity_filter)filtro de entidade/$ correspondente ao seu tipo de animal (ex.: 'vaca')."
+    },
+    {
+      "type": "crafting",
+      "text": "Fabricando um Sensor Universal",
+      "recipe": "pneumaticcraft:universal_sensor"
+    }
+  ]
+}

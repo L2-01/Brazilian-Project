@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:ender_bucket",
+  "name": "Balde de Ender",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:ender_bucket",
+      "link_recipe": true,
+      "text": "O $(d)Balde de Ender$() pode ser usado para coletar fluidos à distância.$(br2)Se você usar um balde vazio num bloco de fluido que não é fonte, ele procurará o bloco-fonte mais próximo e coletará aquele.",
+      "title": "Balde de Ender"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:reinforced_ender_bucket",
+      "link_recipe": true,
+      "text": "O $(d)Ender Bucket Reforçado$() funciona da mesma forma, mas pode $(3)armazenar o equivalente a 10 baldes de fluido$() por vez.",
+      "title": "Ender Bucket Reforçado"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Cartão da Célula de Energia",
+  "icon": "rftoolspower:powercell_card",
+  "category": "rftoolsbase:category_rftoolspower_powerstorage",
+  "extra_recipe_mappings": {
+    "rftoolspower:powercell_card": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este cartão vincula $(l:rftoolsbase:powerstorage/dimensionalcell)Células Dimensionais$(/l) entre si. Um cartão novo começa desvinculado. Insira-o em uma Célula Dimensional para criar ou copiar um vínculo."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:powercell_card"
+    },
+    {
+      "type": "text",
+      "text": "Use o cartão vinculado em outras Células Dimensionais para uní-las à mesma rede de armazenamento remoto."
+    }
+  ]
+}

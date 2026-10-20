@@ -1,0 +1,14 @@
+{
+    "name": "block.cobblemon.blue_mint",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:blue_mint_seeds",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:blue_mint_seeds",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.blue_mint_seeds.text"
+        }
+    ]
+}

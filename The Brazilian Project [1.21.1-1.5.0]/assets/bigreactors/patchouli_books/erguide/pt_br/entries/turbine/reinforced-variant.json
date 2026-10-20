@@ -1,0 +1,17 @@
+{
+    "name": "Reforçada",
+    "icon": "bigreactors:reinforced_reactorcasing",
+    "category": "bigreactors:turbine-variants",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A variante Reforçada permite construir Turbinas tão grandes quanto você precisar ou quiser, para gerar quantidades extremas de energia.$(br2)O tamanho máximo, até 256 blocos, pode ser definido por jogadores, criadores de modpacks ou admins de servidor no arquivo de configuração do Extreme Reactors.$(br2)As Turbinas Básicas podem usar até 2000 mB/t de vapor para girar seu Rotor."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "As Turbinas Reforçadas oferecem integridade estrutural superior, mas têm um custo de fabricação maior e não são tão eficientes quanto as outras variantes. No entanto, sua capacidade de geração superior mais que compensa essas desvantagens."
+        }
+    ]
+}

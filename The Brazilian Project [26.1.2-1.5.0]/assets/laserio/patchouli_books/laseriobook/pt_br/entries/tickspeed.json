@@ -1,0 +1,20 @@
+{
+  "name": "Velocidade (Tiques)",
+  "sortnum": 8,
+  "category": "laserio:mechanics",
+  "icon": "minecraft:textures/item/clock_00.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Velocidade (Tiques) só está disponível nos Modos Extrator e Estocador.$(br2)Este ajuste determina quão rápido um cartão opera. O valor padrão de 20 tiques significa que um cartão extrator só extrairá itens a cada 20 tiques, ou 1 segundo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Cartões Extratores e Estocadores têm valor padrão e mínimo de 20, com valor máximo de 1200, a menos que $(l:laserio:overclocker_card)Overclockers de Cartão$(/l) estejam instalados.  As seguintes velocidades mínimas de tique são permitidas com os respectivos overclockers instalados:$(br)1. 15$(br)2. 10$(br)3. 5$(br)4. 1$(br2)Se você quiser extrair itens a cada tique, precisa de 4 overclockers instalados."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clique com o botão esquerdo neste valor para aumentá-lo em 1. Clique com o botão direito para diminuí-lo. Segurar shift multiplica a mudança por 10, enquanto segurar ctrl multiplica a mudança por 64.$(br2)Esses podem ser combinados, ou seja, segurar shift+ctrl multiplicará por 640.$(br2)Por exemplo, shift+clique direito decrementará em 10."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "item.apprenticecodex.spellcaster_ammo_pouch",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:spellcaster_ammo_pouch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spellcaster_ammo_pouch",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellcaster_ammo_pouch.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:spellcaster_ammo_pouch",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellcaster_ammo_pouch.page.p002.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:staves_and_casting_devices/spellgun_system",
+        "apprenticecodex:staves_and_casting_devices/spellgun_ammo",
+        "apprenticecodex:staves_and_casting_devices/multipurpose_staffrifle",
+        "apprenticecodex:staves_and_casting_devices/fullauto_rapidcast_spellrifle"
+      ]
+    }
+  ]
+}

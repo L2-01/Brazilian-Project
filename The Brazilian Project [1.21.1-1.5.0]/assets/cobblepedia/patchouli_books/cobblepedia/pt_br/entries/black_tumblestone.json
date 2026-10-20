@@ -1,0 +1,27 @@
+{
+    "name": "item.cobblemon.black_tumblestone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:black_tumblestone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.black_tumblestone",
+            "item": "cobblemon:black_tumblestone",
+            "text": "book.cobblepedia.entries.black_tumblestone.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:black_tumblestone",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:black_tumblestone_block"
+            ]
+        }
+    ]
+}

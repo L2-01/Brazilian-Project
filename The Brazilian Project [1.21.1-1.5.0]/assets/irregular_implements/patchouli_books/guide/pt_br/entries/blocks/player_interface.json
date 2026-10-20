@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:player_interface",
+  "name": "Interface do Jogador",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(d)Interface do Jogador$() permite $(3)interagir com o inventário do dono$() usando tubos etc.$(br2)Ela pertence a quem a colocou.$(br2)Cada face do bloco aponta para uma parte diferente do inventário do jogador.",
+      "title": "Interface do Jogador"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:player_interface",
+      "link_recipe": true,
+      "text": "$(li)Cima - Espaços de armadura$(li)Baixo - Espaços da barra de acesso rápido$(li)Norte - Espaço da mão secundária$(li)Outros - Espaços do inventário principal"
+    }
+  ]
+}

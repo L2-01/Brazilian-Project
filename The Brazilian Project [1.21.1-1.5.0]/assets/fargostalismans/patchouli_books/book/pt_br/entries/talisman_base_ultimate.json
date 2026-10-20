@@ -1,0 +1,18 @@
+{
+  "name": "Base de Talismã Ultimate",
+  "sortnum": 4,
+  "category": "fargostalismans:upgrades",
+  "icon": "fargostalismans:talisman_base_ultimate",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Base de Talismã Ultimate requer 2 bases do nível anterior. A base é usada para fabricar a $(l:fargostalismans:talisman_base_godly)Base de Talismã Divino$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/talisman_base_ultimate",
+      "recipe2": "fargostalismans:talismans/talisman_base_godly"
+    }
+  ],
+  "read_by_default": true
+}

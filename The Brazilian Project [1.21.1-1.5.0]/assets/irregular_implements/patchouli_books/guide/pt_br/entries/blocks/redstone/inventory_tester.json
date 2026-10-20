@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:inventory_tester",
+  "name": "Testador de Inventário",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(d)Testador de Inventário$() é colocado na lateral de um inventário e segura um item.$(br2)Ele emite um sinal de redstone quando aquele inventário consegue aceitar aquele item.$(br2)Ele também verifica o $(o)lado$() do inventário ao qual está acoplado. Se colocado no topo de uma fornalha, ele só verifica se a fornalha aceita o item pelo espaço superior.",
+      "title": "Testador de Inventário"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:inventory_tester",
+      "link_recipe": true,
+      "text": "Por isso, você também pode querer usar o $(l:blocks/inventory_rerouter)Redirecionador de Inventário$(/l) para acessar a face do inventário por outro lado.$(br2)Você pode invertê-lo na sua interface, para que ele emita um sinal quando o inventário não puder aceitar o item."
+    }
+  ]
+}

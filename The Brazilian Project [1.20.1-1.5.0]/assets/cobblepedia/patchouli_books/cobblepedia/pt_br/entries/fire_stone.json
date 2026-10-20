@@ -1,0 +1,51 @@
+{
+    "name": "item.cobblemon.fire_stone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:fire_stone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:fire_stone",
+            "title": "item.cobblemon.fire_stone",
+            "text": "book.cobblepedia.entries.fire_stone.text"
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "cobblemon:fire_stone_from_smelting_fire_stone_ore",
+            "recipe2": "cobblemon:fire_stone_from_smelting_deepslate_fire_stone_ore",
+            "title": "book.cobblepedia.pages.smelting"
+        },
+        {
+            "type": "patchouli:blasting",
+            "recipe": "cobblemon:fire_stone_from_blasting_fire_stone_ore",
+            "recipe2": "cobblemon:fire_stone_from_blasting_deepslate_fire_stone_ore",
+            "title": "book.cobblepedia.pages.blasting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.fire_stone.evolving",
+            "using_item2": "cobblemon:fire_stone",
+            "pokemon2": "cobblemon:vulpix",
+            "evolved_pokemon2": "cobblemon:ninetales",
+            "using_item3": "cobblemon:fire_stone",
+            "pokemon3": "cobblemon:growlithe",
+            "evolved_pokemon3": "cobblemon:arcanine",
+            "using_item4": "cobblemon:fire_stone",
+            "pokemon4": "cobblemon:eevee",
+            "evolved_pokemon4": "cobblemon:flareon",
+            "using_item5": "cobblemon:fire_stone",
+            "pokemon5": "cobblemon:pansear",
+            "evolved_pokemon5": "cobblemon:simisear"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:charcoal_stick"
+            ]
+        }
+    ]
+}

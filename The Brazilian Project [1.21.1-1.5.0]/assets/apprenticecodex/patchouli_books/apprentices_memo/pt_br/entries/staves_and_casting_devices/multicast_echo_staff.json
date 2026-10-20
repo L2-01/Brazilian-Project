@@ -1,0 +1,27 @@
+{
+  "name": "item.apprenticecodex.multicast_echo_staff",
+  "category": "apprenticecodex:staves_and_casting_devices",
+  "icon": "apprenticecodex:multicast_echo_staff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:multicast_echo_staff",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.multicast_echo_staff.page.p001.text",
+        "with": [
+          {
+            "translate": "item.minecraft.echo_shard"
+          },
+          {
+            "translate": "spell.apprenticecodex.echo_cast"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:multicast_echo_staff",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.multicast_echo_staff.page.p002.text"
+    }
+  ]
+}

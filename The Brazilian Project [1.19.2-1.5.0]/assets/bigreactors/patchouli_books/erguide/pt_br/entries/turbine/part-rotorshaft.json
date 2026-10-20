@@ -1,0 +1,27 @@
+{
+    "name": "Eixo do Rotor",
+    "icon": "bigreactors:reinforced_turbinerotorshaft",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_turbinerotorshaft",
+            "link_recipe": true,
+            "title" : "Eixo do Rotor",
+            "text": "O Eixo do Rotor é o componente principal do $(l:bigreactors:turbine/rotor)Rotor$(/l) da Turbina.$(br2)Os blocos de Eixo do Rotor devem ser colocados um após o outro dentro da Turbina e devem cobrir todo o seu comprimento, começando no $(l:bigreactors:turbine/part-rotorbearing)Rolamento do Rotor$(/l) e terminando contra um bloco de $(l:bigreactors:turbine/part-casing)Carcaça$(/l) do outro lado.$(br2)"
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic",
+            "recipe1": "bigreactors:turbine/basic/shaft",
+            "title2": "Reinforced",
+            "recipe2": "bigreactors:turbine/reinforced/shaft"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Obrigatório:$() sim$(br)$(l)Posições válidas:$() dentro da Turbina$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "item.cobblemon.prism_scale",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:prism_scale",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:prism_scale",
+            "link_recipe": true,
+            "title": "item.cobblemon.prism_scale",
+            "text": "book.cobblepedia.entries.prism_scale.text"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.prism_scale.evolving",
+            "holding_item3": "cobblemon:prism_scale",
+            "using_item3": "cobblemon:link_cable",
+            "pokemon3": "cobblemon:feebas",
+            "evolved_pokemon3": "cobblemon:milotic"
+        }
+    ]
+}

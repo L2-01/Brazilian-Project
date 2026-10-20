@@ -1,0 +1,31 @@
+{
+  "name": "Livros de Feitiços Únicos",
+  "icon": "irons_spellbooks:evoker_spell_book",
+  "category": "irons_spellbooks:root",
+  "sortnum": 2,
+  "read_by_default" : true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Livros de Feitiços Únicos",
+      "text": "Livros de feitiços únicos são item largados raros de certas criaturas que vêm com feitiços inscritos, que não podem ser removidos nem editados. Nem todo livro de feitiços pode ser manufaturado — afinal, é chamada de arte arcana."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Melhorias Únicas",
+      "item": "irons_spellbooks:arcane_anvil",
+      "text": "Os feitiços de um livro de feitiços único são travados, mas podem ser melhorados. Combinando um livro de feitiços único na Bigorna Arcana com um pergaminho de nível maior do mesmo feitiço do livro, você pode aumentar o nível do feitiço travado."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:evoker_spell_book",
+      "text": "Um livro cheio de magia illager fundamental, o Grimório de Evocação pode ser largado por Evocadores ou seu primo conjurador mais poderoso, os Arquevocadores."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:necronomicon_spell_book",
+      "text": "Um livro ancestral que guarda uma porção de feitiços sombrios; só pode ser adquirido tomando-o do seu dono morto-vivo."
+    }
+
+  ]
+}

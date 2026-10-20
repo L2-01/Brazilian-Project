@@ -1,0 +1,24 @@
+{
+  "name": "Lançando Maldições",
+  "icon": "minecraft:wither_rose",
+  "category": "enchanted:curses",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Lançando Maldições",
+      "text": "As maldições, em sua essência, são iguais a qualquer outra magia de círculo, porém o nível da maldição aumenta com a habilidade de quem lança. Bruxas e bruxos com um familiar gato, ou os que realizam o rito com um covém, serão mais habilidosos em amaldiçoar outros."
+    },
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Removing Curses",
+      "text": "As únicas formas conhecidas de remover uma maldição de uma pessoa afligida são realizar o rito apropriado de remoção de maldição ou por intervenção divina da Deusa através de uma estátua."
+    },
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Mitigating Curses",
+      "text": "As roupas usadas por caçadores de bruxas são conhecidas por mitigar a maioria dos efeitos causados por maldições, e bonecos de proteção vodu também supostamente têm algum efeito em bloquear maldições de baixo nível."
+    }
+  ],
+  "read_by_default": false,
+  "sortnum": 1
+}

@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.ability_capsule",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:ability_capsule",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:ability_capsule",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.ability_capsule.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.ability_capsule.obtaining.text"
+        }
+    ]
+}

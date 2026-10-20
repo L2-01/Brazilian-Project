@@ -1,0 +1,17 @@
+{
+    "name": "Funcionamento interno",
+    "icon": "bigreactors:basic_turbinerotorbearing",
+    "category": "bigreactors:turbine",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Como uma Turbina gera energia?$(br2)Girando seu $(l:bigreactors/rotor)Rotor$(/l).$(br2)O fluido do Tanque de Fluido de Vapor da Turbina é bombeado para dentro da câmara do $(l:bigreactors/rotor)Rotor$(/l), na taxa que você configurou na interface gráfica do $(l:bigreactors/part-controller)Controlador$(/l).$(br2)Uma pequena quantidade do vapor é capturada por cada $(l:bigreactors/part-rotorblade)Lâmina do Rotor$(/l), fazendo o $(l:bigreactors/rotor)Rotor$(/l) girar."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Quando as $(l:bigreactors/coils)Bobinas Indutoras$(/l) estão $(l:bigreactors/part-controller)engatadas$(/l), energia é gerada dependendo da velocidade do $(l:bigreactors/rotor)Rotor$(/l) e dos valores médios de propriedades como eficiência e quantidade de arrasto de todos os seus blocos de bobina.$(br2)$(italic)Note que, embora esta visão geral permita criar as melhores Turbinas possíveis, ela é uma simplificação exagerada do que realmente acontece dentro da sua Turbina.$()"
+        }
+    ]
+}

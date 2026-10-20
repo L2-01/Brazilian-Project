@@ -1,0 +1,66 @@
+{
+  "name": "item.apprenticecodex.craftsmans_delight",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:craftsmans_delight",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:craftsmans_delight",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.craftsmans_delight.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:craftsmans_delight",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.craftsmans_delight.page.p002.text"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.craftsmans_delight.page.p003.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "spell.apprenticecodex.tiny_lumberjack",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.craftsmans_delight.page.p004.text",
+      "item": "irons_spellbooks:scroll[irons_spellbooks:spell_container={maxSpells:1,mustEquip:false,spellWheel:false,data:[{id:\"apprenticecodex:tiny_lumberjack\",index:0,level:1,locked:1b}]}]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "spell.apprenticecodex.world_flatter",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.craftsmans_delight.page.p005.text",
+      "item": "irons_spellbooks:scroll[irons_spellbooks:spell_container={maxSpells:1,mustEquip:false,spellWheel:false,data:[{id:\"apprenticecodex:world_flatter\",index:0,level:1,locked:1b}]}]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "flag": "!mod:malum",
+      "title": "spell.irons_spellbooks.touch_dig",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.craftsmans_delight.page.p006.text",
+      "item": "irons_spellbooks:scroll[irons_spellbooks:spell_container={maxSpells:1,mustEquip:false,spellWheel:false,data:[{id:\"irons_spellbooks:touch_dig\",index:0,level:1,locked:1b}]}]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "flag": "mod:malum",
+      "title": "spell.irons_spellbooks.touch_dig",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.craftsmans_delight.page.p008.text",
+        "with": [
+          {
+            "translate": "item.malum.spellweaving_pickaxe"
+          }
+        ]
+      },
+      "item": "irons_spellbooks:scroll[irons_spellbooks:spell_container={maxSpells:1,mustEquip:false,spellWheel:false,data:[{id:\"irons_spellbooks:touch_dig\",index:0,level:1,locked:1b}]}]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "spell.apprenticecodex.graced_rain",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.craftsmans_delight.page.p009.text",
+      "item": "irons_spellbooks:scroll[irons_spellbooks:spell_container={maxSpells:1,mustEquip:false,spellWheel:false,data:[{id:\"apprenticecodex:graced_rain\",index:0,level:1,locked:1b}]}]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "spell.apprenticecodex.linear_build",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.craftsmans_delight.page.p010.text",
+      "item": "irons_spellbooks:scroll[irons_spellbooks:spell_container={maxSpells:1,mustEquip:false,spellWheel:false,data:[{id:\"apprenticecodex:linear_build\",index:0,level:1,locked:1b}]}]"
+    }
+  ]
+}

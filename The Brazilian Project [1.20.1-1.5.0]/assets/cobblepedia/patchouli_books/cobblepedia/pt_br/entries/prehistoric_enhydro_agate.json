@@ -1,0 +1,26 @@
+{
+    "name": "book.cobblepedia.entries.prehistoric_enhydro_agate.name",
+    "category": "cobblepedia:structures",
+    "read_by_default": true,
+    "icon": "cobblemon:deepslate_water_stone_ore",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.prehistoric_enhydro_agate.text"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "book.cobblepedia.pages.generation",
+            "images": [
+                "cobblepedia:textures/gui/entries/prehistoric_enhydro_agate.png"
+            ]
+        },
+        {
+            "type": "patchouli:link",
+            "title": "book.cobblepedia.pages.loot.title",
+            "url": "https://wiki.cobblemon.com/index.php/Fossil_Dig_Sites#Prehistoric_Enhydro_Agate",
+            "link_text": "book.cobblepedia.pages.wiki"
+        }
+    ]
+}

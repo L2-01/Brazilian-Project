@@ -1,0 +1,33 @@
+{
+  "name": "block.apprenticecodex.arcanum_in_a_jar",
+  "category": "apprenticecodex:devices",
+  "icon": "apprenticecodex:arcanum_in_a_jar",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:arcanum_in_a_jar",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.arcanum_in_a_jar.page.p001.text",
+        "with": [
+          {
+            "translate": "item.minecraft.redstone"
+          },
+          {
+            "translate": "item.apprenticecodex.crystalline_arcane_shard"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:arcanum_in_a_jar",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.arcanum_in_a_jar.page.p002.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:magic_tools/crystalline_arcane_shard"
+      ]
+    }
+  ]
+}

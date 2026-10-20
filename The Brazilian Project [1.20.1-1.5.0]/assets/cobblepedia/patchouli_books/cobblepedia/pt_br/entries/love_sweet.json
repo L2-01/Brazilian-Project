@@ -1,0 +1,27 @@
+{
+    "name": "item.cobblemon.love_sweet",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:love_sweet",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:love_sweet",
+            "title": "item.cobblemon.love_sweet",
+            "text": "book.cobblepedia.entries.love_sweet.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:love_sweet",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.love_sweet.evolving",
+            "holding_item2": "cobblemon:love_sweet",
+            "pokemon2": "cobblemon:milcery",
+            "evolved_pokemon2": "cobblemon:alcremie"
+        }
+    ]
+}

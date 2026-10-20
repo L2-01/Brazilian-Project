@@ -1,0 +1,23 @@
+{
+  "name": "Cartão de Forma Padrão",
+  "icon": "rftoolsbuilder:shape_card_def",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_def": 1
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Cartão de Forma padrão armazena uma forma, tamanho, deslocamento e modo sólido ou oco. Use-o no Construtor para colocar blocos ou no Projetor de Escudo para definir um escudo com forma."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_def"
+    },
+    {
+      "type": "text",
+      "text": "Clique com o botão direito no cartão para editar formas como caixa, esfera, cilindro, cone, toro, prisma, escaneamento ou composição. Agachar e usar pode ajudar a selecionar posições no mundo."
+    }
+  ]
+}

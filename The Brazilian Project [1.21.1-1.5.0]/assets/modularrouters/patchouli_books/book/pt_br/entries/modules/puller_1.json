@@ -1,0 +1,15 @@
+{
+  "name": "Módulo Extrator Mk1",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:puller_module_1",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este módulo tenta puxar o primeiro item elegível do inventário adjacente na sua $(l:intro/modules#direction)direção configurada/$ para dentro do buffer do roteador. Se o buffer estiver cheio ou contiver algo que não se empilhe com nada no inventário, nada será puxado."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:puller_module_1"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "enchantment.apprenticecodex.synthesis",
+  "category": "apprenticecodex:enchantments",
+  "icon": "minecraft:bow",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "enchantment.apprenticecodex.synthesis",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.synthesis.page.p001.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.elemental_bow"
+          },
+          {
+            "translate": "item.apprenticecodex.focus_staffbow"
+          },
+          {
+            "translate": "enchantment.minecraft.infinity"
+          },
+          {
+            "translate": "enchantment.minecraft.mending"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:staves_and_casting_devices/focus_staffbow",
+        "apprenticecodex:weapons_and_shields/elemental_bow"
+      ]
+    }
+  ]
+}

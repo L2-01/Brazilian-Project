@@ -1,0 +1,14 @@
+{
+    "name": "block.cobblemon.pink_mint",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:pink_mint_seeds",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:pink_mint_seeds",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.pink_mint_seeds.text"
+        }
+    ]
+}

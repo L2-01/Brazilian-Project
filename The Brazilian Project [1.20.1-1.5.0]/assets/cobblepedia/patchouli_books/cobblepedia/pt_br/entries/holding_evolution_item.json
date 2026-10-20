@@ -1,0 +1,22 @@
+{
+    "name": "book.cobblepedia.entries.holding_evolution_item",
+    "category": "cobblepedia:evolution_items",
+    "icon": "cobblemon:oval_stone",
+    "priority": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.entries.holding_evolution_item",
+            "text": "book.cobblepedia.entries.holding_evolution_item.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:trading_evolution_item",
+                "cobblepedia:oval_stone",
+                "cobblepedia:razor_fang",
+                "cobblepedia:razor_claw"
+            ]
+        }
+    ]
+}

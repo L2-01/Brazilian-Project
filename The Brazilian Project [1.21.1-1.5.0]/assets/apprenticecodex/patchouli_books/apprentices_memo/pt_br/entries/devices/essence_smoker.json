@@ -1,0 +1,40 @@
+{
+  "name": "block.apprenticecodex.essence_smoker",
+  "category": "apprenticecodex:devices",
+  "icon": "apprenticecodex:essence_smoker",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:essence_smoker",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.essence_smoker.page.p001.text",
+        "with": [
+          {
+            "translate": "item.minecraft.flint_and_steel"
+          },
+          {
+            "translate": "spell.apprenticecodex.catch_flame"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:essence_smoker",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.essence_smoker.page.p002.text"
+    },
+    {
+      "type": "apprenticecodex:essence_smoker_recipe",
+      "recipe": "apprenticecodex:essence_smoker/purify_rotten_flesh_to_leather",
+      "recipe2": "apprenticecodex:essence_smoker/taint_potato",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.essence_smoker.page.p003.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:magic_tools/arcane_materials",
+        "apprenticecodex:magic_tools/arcane_cinder"
+      ]
+    }
+  ]
+}

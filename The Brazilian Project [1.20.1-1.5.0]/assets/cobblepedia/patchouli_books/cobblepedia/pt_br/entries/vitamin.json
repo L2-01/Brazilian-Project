@@ -1,0 +1,24 @@
+{
+    "name": "book.cobblepedia.entries.vitamin",
+    "category": "cobblepedia:consumables",
+    "icon": "cobblemon:calcium",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.vitamin.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:calcium",
+                "cobblepedia:carbos",
+                "cobblepedia:hp_up",
+                "cobblepedia:iron",
+                "cobblepedia:protein",
+                "cobblepedia:zinc",
+                "cobblepedia:pp_up",
+                "cobblepedia:pp_max"
+            ]
+        }
+    ]
+}

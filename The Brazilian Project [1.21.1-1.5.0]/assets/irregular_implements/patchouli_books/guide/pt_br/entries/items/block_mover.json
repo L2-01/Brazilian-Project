@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:block_mover",
+  "name": "Movedor de Bloco",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(d)Movedor de Bloco$() permite pegar e mover blocos com facilidade. Isso $(3)inclui blocos com entidades de bloco$(), como baús!$(br2)Clique com o botão direito num bloco para pegá-lo, depois clique novamente para colocá-lo.",
+      "title": "Movedor de Bloco"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:block_mover",
+      "link_recipe": true,
+      "text": "Blocos com a tag de bloco $(c)#irregular_implements:block_mover_blacklist$() não podem ser movidos com o Movedor de Bloco.$(br2)Por padrão, isso inclui blocos como a rocha-mãe."
+    }
+  ]
+}

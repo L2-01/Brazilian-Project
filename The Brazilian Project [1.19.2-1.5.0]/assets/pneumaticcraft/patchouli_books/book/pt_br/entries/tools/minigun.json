@@ -1,0 +1,22 @@
+{
+  "name": "Minigun",
+  "icon": "pneumaticcraft:minigun",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A $(item)Minigun/$ é uma arma de mão que funciona com $(l:base_concepts/pressure)ar comprimido/$ e $(l:tools/minigun_ammo)Munição/$. A munição precisa ser inserida no $(l:tools/minigun_ammo#magazine)carregador da Minigun/$ - ela não será consumida do inventário do jogador.$(p)Para disparar a minigun, basta segurar o $(thing)botão direito/$. O cano começará a girar e disparará assim que atingir a velocidade."
+    },
+    {
+      "type": "text",
+      "title": "Aprimorando",
+      "text": "Muitos recursos (velocidade de giro, alcance, chance de efeito de poção...) da $(item)Minigun/$ são aprimoráveis numa $(l:machines/charging_station)Estação de Carga/$.$(p)Documentação completa sobre cada melhoria e seus efeitos está disponível na GUI de melhorias da Estação de Carga."
+    },
+    {
+      "type": "crafting",
+      "text": "Fabricando uma Minigun",
+      "recipe": "pneumaticcraft:minigun"
+    }
+  ]
+}

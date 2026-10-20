@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.full_heal",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:full_heal",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:full_heal",
+            "text": "book.cobblepedia.entries.full_heal.text"
+        },
+        {
+            "type": "cobblepedia:brewing",
+            "title": "book.cobblepedia.pages.brewing",
+            "reagent_item": "cobblemon:lum_berry",
+            "base_item": "cobblemon:medicinal_brew",
+            "result_item": "cobblemon:full_heal"
+        }
+    ]
+}

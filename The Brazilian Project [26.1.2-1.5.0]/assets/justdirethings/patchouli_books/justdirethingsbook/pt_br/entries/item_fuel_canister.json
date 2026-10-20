@@ -1,0 +1,25 @@
+{
+  "name": "Recipiente de Combustível",
+  "sortnum": 1,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:fuel_canister",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Recipiente de Combustível é essencial para armazenar e transportar grandes quantidades de combustível.$(br2)Clique com o botão direito no item para abrir a UI. Insira combustível com shift + clique (ou pegando o combustível e clicando nele na UI). Qualquer combustível funciona, como carvão, madeira etc., mas não baldes de lava."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A dica mostrará quanto combustível você armazenou. O recipiente de combustível pode então ser colocado em máquinas como fornalhas e geradores, que consumirão o combustível do recipiente. É um ótimo jeito de garantir que você não desperdiça um carvão inteiro para fundir 1 minério!$(br2)Nota: não há como tirar os itens de volta!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Inserir os combustíveis deste mod também transfere seu atributo de multiplicador de combustível, calculando a média com o combustível já existente no recipiente. A dica do recipiente mostrará o multiplicador que você terá ao usá-lo num $(l:justdirethings:item_pocket_generator)Gerador Portátil$(/l) ou $(l:justdirethings:mach_generatort1)Gerador$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação do Recipiente de Combustível",
+      "recipe": "justdirethings:fuel_canister"
+    }
+  ]
+}

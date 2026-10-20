@@ -1,0 +1,16 @@
+{
+  "name": "Cultivo de Vitória-Régia",
+  "icon": "twilightforest:huge_lily_pad",
+  "category": "twilightdelight:tricks",
+  "pages": [
+	{
+	  "type": "patchouli:text",
+	  "text": "Coloque solo rico um bloco abaixo da água e uma vitória-régia acima da água. A vitória-régia pode crescer e virar uma Vitória-Régia Gigante se houver espaço.$(br2)Uma vitória-régia ao lado de uma vitória-régia gigante também pode crescer e virar uma Ninféia Gigante."
+	},
+	{
+	  "type": "patchouli:spotlight",
+	  "item": "twilightforest:huge_water_lily",
+	  "text": "Depois que a vitória-régia cresce e vira uma ninféia gigante, ela continua espalhando mais vitórias-régias ao redor da ninféia."
+	}
+  ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Oferenda aos Deuses",
+    "icon": "naturesaura:offering_table",
+    "category": "naturesaura:practices",
+    "advancement": "naturesaura:infused_materials",
+    "turnin": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O $(item)Ferro Infundido$() é muito bom e tem poder natural suficiente para fazer várias coisas por si só. Mas para mecanismos mais avançados, um metal mais poderoso é necessário. Para isso, e para muitas outras coisas, a $(item)Oferenda aos Deuses$() é necessária.$(br)Os Deuses são, há muito tempo, os seres mais fortes e poderosos e, como tal, também possuem os metais mais fortes conhecidos pelo homem."
+        },
+        {
+            "type": "text",
+            "text": "Para construir uma forma de chamar os próprios Deuses, simplesmente coloque uma $(item)Mesa de Oferendas$() com algumas flores ao redor, como mostrado na próxima página. Então, para iniciar uma oferenda, coloque qualquer quantidade de itens que quiser oferecer na tigela da mesa e jogue o item que chamará os próprios Deuses, na maioria dos casos o $(item)Espírito do Chamado$(), perto da mesa.$(br)Os itens requisitados então, com sorte, choverão do céu."
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:offering_table",
+            "text": "Preparando a $(item)Oferenda aos Deuses$(). Qualquer tipo de flor pode ser usada."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando a $(item)Mesa de Oferendas$()",
+            "recipe": "naturesaura:offering_table"
+        },
+        {
+            "type": "crafting",
+            "text": "Criando $(item)Espíritos do Chamado$()",
+            "recipe": "naturesaura:calling_spirit"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Pedindo $(item)Lingotes dos Céus$(), um metal poderoso infundido com energia divina.",
+            "recipe": "naturesaura:sky_ingot"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Pedir $(item)Lingotes dos Céus$() usando $(item)Ouro Corrompido$() resulta num rendimento maior.",
+            "recipe": "naturesaura:sky_ingot_from_gold"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Trocando o $(item)Símbolo de Alegria$() por uma versão muito mais forte, o $(item)Símbolo de Euforia$()",
+            "recipe": "naturesaura:token_euphoria"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Trocando o $(item)Símbolo de Medo$() por uma versão muito mais forte, o $(item)Símbolo de Terror$()",
+            "recipe": "naturesaura:token_terror",
+            "anchor": "terror"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Trocando o $(item)Símbolo de Ira$() por uma versão muito mais forte, o $(item)Símbolo de Raiva$()",
+            "recipe": "naturesaura:token_rage"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "Trocando o $(item)Símbolo de Tristeza$() por uma versão muito mais forte, o $(item)Símbolo de Luto$()",
+            "recipe": "naturesaura:token_grief"
+        }
+    ]
+}

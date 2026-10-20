@@ -1,0 +1,23 @@
+{
+  "name": "Módulo Quebrador",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:breaker_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este módulo tenta quebrar um bloco adjacente ao $(l:router/item_router)Roteador/$ na $(l:intro/modules#direction)direção configurada/$ do módulo.$(p)A maioria dos blocos é quebrável, embora qualquer coisa com dureza inquebrável (ex.: $(item)Rocha-Mãe/$ ou $(item)Portal do End/$ vanilla) não possa ser quebrada, nem quaisquer blocos de fluido. Se o bloco for quebrado, seu(s) item largado(s) primário(s) será(ão) automaticamente inserido(s) no buffer do roteador de itens, se possível."
+    },
+    {
+      "type": "text",
+      "text": "O Módulo Quebrador pode ser fabricado com qualquer tipo de picareta (incluindo picaretas de mods), mas a picareta usada para fabricar o módulo determina seu nível de colheita. Ex.: se você criar um Módulo Quebrador com uma $(item)Picareta de Ferro/$, ele não será capaz de quebrar $(item)Obsidiana/$.$(p)Adicionalmente, quaisquer $(thing)encantamentos/$ na picareta usada serão registrados no módulo ($(thing)Toque Suave/$ e $(thing)Fortuna/$ são particularmente úteis)."
+    },
+    {
+      "type": "text",
+      "text": "Por padrão, o filtro do Módulo Quebrador funciona sobre $(thing)itens que seriam largados/$, em vez do próprio bloco. Ex.: filtrar por $(item)Pedra/$ não funcionaria para quebrar Pedra, a menos que o módulo tenha $(thing)Toque Suave/$ ativado. Nesse caso, você deve filtrar por $(item)Pedregulho/$.$(p)Você pode configurar o módulo para corresponder pelo $(thing)bloco/$ via GUI do módulo; isso pode ser útil para distinguir entre blocos que ambos não largam nada, ex.: $(item)Gelo/$ e $(item)Gelo Compactado/$."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:breaker_module"
+    }
+  ]
+}

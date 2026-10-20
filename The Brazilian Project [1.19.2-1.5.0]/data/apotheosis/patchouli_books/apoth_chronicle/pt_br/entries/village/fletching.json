@@ -1,0 +1,44 @@
+{
+    "name": "Criação de Flechas",
+    "icon": "minecraft:fletching_table",
+    "category": "apotheosis:village/village",
+	"flag": "apotheosis:village",
+	"sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O Apotheosis apresenta um novo tipo de fabricação chamado $(9)Criação de Flechas$().$(p)Ele permite fazer flechas de forma mais eficiente.$(p)Junto com o tipo de fabricação, também há novas flechas."
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:obsidian_arrow",
+			"link_recipe": true,
+            "text": "A $(9)Flecha de Obsidiana$() é uma melhoria direta da flecha padrão.$(p)Ela faz todos os ataques à distância causarem 20% de dano extra."
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:broadhead_arrow",
+			"anchor": "broadhead",
+			"link_recipe": true,
+            "text": "A $(9)Flecha Cabeçuda$() é melhor para lutas prolongadas.$(p)Cada acerto aplica sangramento. Cada acerto adicional renova a duração e aumenta o nível de sangramento no alvo."
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:explosive_arrow",
+			"link_recipe": true,
+            "text": "A $(9)Flecha Explosiva$() é melhor contra grupos.$(p)Ela causa uma explosão no impacto."
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:iron_mining_arrow",
+			"link_recipe": true,
+            "text": "A $(9)Flecha Mineradora de Ferro$() é como uma picareta voadora.$(p)Todos os blocos atingidos com esta flecha são minerados como se fossem quebrados com uma Picareta de Ferro."
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:diamond_mining_arrow",
+			"link_recipe": true,
+            "text": "A $(9)Flecha Mineradora de Diamante$() é uma picareta voadora melhor!$(p)Todos os blocos atingidos com esta flecha são minerados como se fossem quebrados com uma Picareta de Diamante."
+        }
+	]
+}

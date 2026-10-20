@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:item_filter",
+  "name": "Filtro de Item",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(d)Filtro de Item$() tem uma lista de até 9 itens, que pode funcionar como lista-negra ou lista-branca para certas coisas.$(br2)Use o filtro para abri-lo e coloque itens nos espaços para adicioná-los à lista.$(br2)O botão na extremidade direita da interface permite $(3)alternar entre os modos lista-negra e lista-branca$() para o filtro inteiro.",
+      "title": "Filtro de Item"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:item_filter",
+      "link_recipe": true,
+      "text": "Acima de cada espaço preenchido há 2 botões. O botão da esquerda permite $(3)alternar se o espaço é um Filtro de Item ou um Filtro de Tag$().$(br2)O botão da direita muda conforme a opção acima. Se o espaço for um Filtro de Item, ele permite $(3)alternar se é preciso corresponder aos componentes de dados$().$(br2)Se for um Filtro de Tag, permite $(3)alternar a tag$(). Por exemplo, colocando um lingote de ferro e definindo como Filtro de Tag, você pode alternar entre \"Pagamentos de Sinalizador\", \"Lingotes\", \"Materiais de Enfeite\", etc."
+    }
+  ]
+}

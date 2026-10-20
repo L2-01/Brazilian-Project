@@ -1,0 +1,21 @@
+{
+  "name": "Cartões de Produto Químico",
+  "sortnum": 5,
+  "category": "laserio:cards",
+  "icon": "laserio:card_chemical",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cartões de Produto Químico são usados para enviar Produtos Químicos entre inventários, como Tanques do Mekanism.  Esses cartões só estão disponíveis se o Mekanism estiver instalado.$(br2)Os valores de Overclocker estão documentados na página seguinte."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Valores de mB/t (máx.) para Overclockers:$(br2)$(li)0 Overclockers: 15.000mb/20t$(li)1 Overclocker:  60.000mb/15t$(li)2 Overclockers: 120.000mb/10t$(li)3 Overclockers: 180.000mb/5t$(li)4 Overclockers: 240.000mb/1t"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Cartão de Produto Químico",
+      "recipe": "laserio:card_chemical"
+    }
+  ]
+}

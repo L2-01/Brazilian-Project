@@ -1,0 +1,38 @@
+{
+
+"name": "Modelos",
+    "icon": "minecraft:writable_book",
+    "category": "merrymaking:misc",
+    "pages": [
+	
+		{
+			"type": "spotlight",
+			"item": "merrymaking:left_diag_template",
+			"text": "Modelos são usados para definir um formato esquerdo ou direito de um bloco de luz/festão ao fabricar. Modelos são reutilizáveis e permanecem após a fabricação. As receitas de modelo exigem corante verde e papel, e podem ser usadas tanto para luzes quanto para festões. As receitas de modelo são:"
+		},
+		
+		{
+			"type": "crafting",
+			"title": "Modelos Diagonais",
+			"recipe": "merrymaking:left_diag_template",
+			"recipe2": "merrymaking:right_diag_template"	
+		},
+		
+		{
+			"type": "crafting",
+			"title": "Modelos Verticais",
+			"recipe": "merrymaking:left_vert_template",
+			"recipe2": "merrymaking:right_vert_template"	
+		},
+		
+		{
+			"type": "crafting",
+			"title": "Modelos de Canto Vertical",
+			"recipe": "merrymaking:left_corner_template",
+			"recipe2": "merrymaking:right_corner_template"	
+		}
+		
+		]
+	
+	
+}

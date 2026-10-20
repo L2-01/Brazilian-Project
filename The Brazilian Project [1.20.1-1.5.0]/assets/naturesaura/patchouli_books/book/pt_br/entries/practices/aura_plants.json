@@ -1,0 +1,35 @@
+{
+    "name": "Plantas de Aura",
+    "icon": "naturesaura:aura_bloom",
+    "category": "naturesaura:practices",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Uma ocorrência natural que ajudou na descoberta da $(aura) são certos tipos de vegetação que aparecem em quase todo lugar do mundo. Sabe-se que essas plantas fazem a área ao redor conter naturalmente uma concentração maior de $(aura) quando crescem pela primeira vez. Além disso, todas essas plantas cabem perfeitamente em $(item)Vasos de Flores$(), servindo como uma bela decoração."
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:aura_bloom",
+            "link_recipe": true,
+            "text": "A $(item)Flor de Aura$() cresce em qualquer tipo de área onde haja $(thing)grama$(), geralmente em pequenos grupos. Encontrar áreas assim pode ser especialmente útil ao começar com $(aura), já que é muito menos destrutivo para o ambiente coletar $(aura) usando a $(l:practices/aura_bottle)Garrafa e Rolha$() aqui."
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:aura_cactus",
+            "link_recipe": true,
+            "text": "O $(item)Cacto de Aura$() cresce em áreas desertas de qualquer cor, assim como regiões de $(thing)mesa$(). Como essas áreas são geralmente bem áridas com poucas plantas, elas podem ser um bom ponto de partida."
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:aura_mushroom",
+            "link_recipe": true,
+            "text": "O $(item)Cogumelo de Aura$() é encontrado em ilhas infestadas de micélio, onde aparece ao lado de cogumelos gigantes e vacas vermelhas brilhantes. Nessas regiões, ele faz lindas partículas roxas de aura subirem do chão."
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:crimson_aura_mushroom",
+            "link_recipe": true,
+            "text": "Os $(item)Fungos de Aura Carmesim$() e $(item)Distorcido$() podem ser encontrados nas regiões florestadas do $(thing)nether$(), onde brotam ao lado de suas contrapartes sem aura. Ao começar como botânico mágico nessas regiões infernais, eles podem ser especialmente benéficos."
+        }
+    ]
+}

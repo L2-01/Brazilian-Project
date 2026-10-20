@@ -1,0 +1,16 @@
+{
+  "name": "Giz do Nether",
+  "icon": "enchanted:nether_chalk",
+  "category": "enchanted:performing_rites",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O giz do Nether é um giz vermelho-escuro que parece estar queimando. $(br2)O giz do Nether é usado na maioria dos ritos envolvendo o Nether, seres demoníacos ou fogo. Deve ser criado num caldeirão."
+    },
+    {
+      "type": "enchanted:cauldron_recipe",
+      "recipe": "enchanted:witch_cauldron/nether_chalk"
+    }
+  ],
+  "read_by_default": true
+}

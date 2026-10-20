@@ -1,0 +1,86 @@
+{
+    "name": "Festões",
+    "icon": "minecraft:writable_book",
+    "category": "merrymaking:garlands",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Festões são muito parecidos com as luzes. Têm os mesmos formatos de posicionamento das luzes Clássicas/Mini, com exceção do formato Cobertura, já que um horizontal funciona para o pico. Vêm em três estilos: $(li)Simples $(li)Luzes Brancas $(li)Luzes Coloridas" 
+        },
+		
+		
+		
+		{
+		"type": "spotlight",
+		"title": "Festões Horizontais",
+		"item": "merrymaking:garland_horizontal",
+		"text": "Festões horizontais se conectam dentro e ao redor de cantos, assim como as luzes."
+		},
+		
+		{
+		"type": "spotlight",
+		"title": "Festões Diagonais",
+		"item": "merrymaking:garland_lights_diagonal_left",
+		"text": "Festões diagonais se estendem levemente abaixo de onde são colocados, semelhante às Luzes de Estalactite. Isso é feito para que se alinhem melhor entre si."
+		},
+		
+		{
+		"type": "spotlight",
+		"title": "Festões Verticais",
+		"item": "merrymaking:garland_vertical_right",
+		"text": "O Festão Vertical se alinhará com o lado esquerdo ou direito de um bloco."
+		},
+		
+		{
+		"type": "spotlight",
+		"title": "Festões de Canto Vertical",
+		"item": "merrymaking:garland_vertical_corner_multi_right",
+		"text": "O Festão de Canto Vertical criará duas seções de festão em um ângulo de 90 graus, alinhando-se com o lado esquerdo ou direito de um bloco."
+		},
+		
+		
+		{
+			"type": "patchouli:text",
+			"text": "Você começará fabricando um Festão Horizontal.$(br2)Para isso, precisará de três folhas de abeto e dois laços.$(br2)Você também precisará de um modelo para os outros formatos de festão, assim como fez para as luzes. Continue lendo para ver as receitas..."
+		},
+		
+		{
+			"type": "crafting",
+			"title": "Festão e Laços",
+			"recipe": "merrymaking:garland_horizontal",
+			"recipe2": "merrymaking:garland_horizontal_lights_multi"	
+		},
+		
+		{
+			"type": "patchouli:text",
+			"text": "Para criar as versões iluminadas dos festões, combine um festão horizontal com a luz \"de Árvore\" de sua escolha numa bancada de trabalho.$(br2)Para fazer outros formatos, combine 3 festões com um modelo numa bancada de trabalho, como mostrado aqui:"
+		},		
+	
+			
+		
+		{
+			"type": "crafting",
+			"title": "Festões Diagonais",
+			"recipe": "merrymaking:garland_diag_left",
+			"recipe2": "merrymaking:garland_lights_diag_right"	
+		},
+		
+		{
+			"type": "crafting",
+			"title": "Festões Verticais",
+			"recipe": "merrymaking:garland_vert_left",
+			"recipe2": "merrymaking:garland_multi_vert_right"	
+		},
+		
+		{
+			"type": "crafting",
+			"title": "Festões de Canto Vertical",
+			"recipe": "merrymaking:garland_lights_vert_corner_right",
+			"recipe2": "merrymaking:garland_vert_corner_left"	
+		}
+		
+		
+	
+		
+    ]
+}

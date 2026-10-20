@@ -1,0 +1,17 @@
+{
+  "name": "Coletor de Itens",
+  "sortnum": 1,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:itemcollector",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O coletor de itens funciona como uma $(l:justdirethings:mach_advanced_controls)Máquina Avançada$(/l), apesar de ser feito com recursos de nível 1. Ele aspirará quaisquer entidades de item na sua área de efeito e as depositará no inventário ao qual está acoplado.$(br2)Você pode filtrar quais itens são coletados na GUI e aumentar a velocidade de coleta, se desejar."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Coletor de Itens",
+      "recipe": "justdirethings:itemcollector"
+    }
+  ]
+}

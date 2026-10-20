@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.binding_band",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:binding_band",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:binding_band",
+            "text": "book.cobblepedia.entries.binding_band.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:binding_band",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

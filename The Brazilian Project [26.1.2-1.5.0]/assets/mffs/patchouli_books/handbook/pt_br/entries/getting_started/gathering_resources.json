@@ -1,0 +1,29 @@
+{
+    "name": "Coletando Recursos",
+    "icon": "mffs:steel_compound",
+    "category": "mffs:getting_started",
+    "sortnum": 1,
+    "turnin": "mffs:smelt_steel",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O primeiro passo rumo aos campos de força é encontrar os recursos base.$(br)Os componentes do MFFS são feitos principalmente de $(5)Lingotes de Aço$(), que podem ser fabricados em 2 passos simples. Primeiro, faça um pouco de $(5)Composto de Aço$() na fabricação, que você então pode fundir em lingotes."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:steel_compound",
+            "text": "Combine uma Barra de Ferro com 4 Carvões para criar um Composto de Aço."
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "mffs:steel_ingot",
+            "text": "Fundindo o Composto de Aço num Lingote de Aço."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:steel_ingot",
+            "link_recipe": true,
+            "text": "Um dos ingredientes mais comuns que você usará no MFFS. É usado para fabricar componentes base como a $(5)Matriz de Foco$() ou o $(2)Cartão em Branco$(), além de maquinário de campo de força."
+        }
+    ]
+}

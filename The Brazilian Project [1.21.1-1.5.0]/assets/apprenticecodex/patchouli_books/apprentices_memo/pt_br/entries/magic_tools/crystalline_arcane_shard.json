@@ -1,0 +1,48 @@
+{
+  "name": "item.apprenticecodex.crystalline_arcane_shard",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:crystalline_arcane_shard",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:crystalline_arcane_shard",
+      "link_recipe": true,
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.crystalline_arcane_shard.page.p001.text",
+        "with": [
+          {
+            "translate": "item.irons_spellbooks.arcane_essence"
+          },
+          {
+            "translate": "block.apprenticecodex.arcanum_in_a_jar"
+          },
+          {
+            "translate": "item.apprenticecodex.iron_swingcast_staff"
+          },
+          {
+            "translate": "item.irons_spellbooks.arcane_essence"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "apprenticecodex:crystalline_arcane_shard",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.crystalline_arcane_shard.page.p002.text",
+        "with": [
+          {
+            "translate": "block.minecraft.blast_furnace"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/arcanum_in_a_jar",
+        "apprenticecodex:staves_and_casting_devices/swingcast_staff"
+      ]
+    }
+  ]
+}

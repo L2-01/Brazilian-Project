@@ -1,0 +1,24 @@
+{
+  "name": "Lógico",
+  "icon": "rftoolsutility:logic",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:logic": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este bloco tem três entradas de redstone e uma saída. Usando a interface você pode fazer qualquer combinação possível dessas três entradas em uma única saída. Para cada combinação de entrada você pode definir a saída como desligada, ligada ou manter. Em 'manter', o estado da saída será o mesmo de antes da entrada ser mudada para esse estado."
+    },
+    {
+      "type": "text",
+      "title": "Interface",
+      "text": "A interface lista cada combinação de entrada para os três lados de entrada. Defina cada linha como Desligado, Ligado ou Manter; Manter preserva o estado anterior da saída."
+    },
+    {
+      "type": "crafting",
+      "heading": "Dígito",
+      "recipe": "rftoolsutility:logic"
+    }
+  ]
+}

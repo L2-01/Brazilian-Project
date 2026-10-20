@@ -1,0 +1,25 @@
+{
+  "name": "enchantment.apprenticecodex.guzzle",
+  "category": "apprenticecodex:enchantments",
+  "icon": "apprenticecodex:spellcasters_flask",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "enchantment.apprenticecodex.guzzle",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.guzzle.page.p001.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.spellcasters_flask"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:magic_tools/spellcasters_flask"
+      ]
+    }
+  ]
+}

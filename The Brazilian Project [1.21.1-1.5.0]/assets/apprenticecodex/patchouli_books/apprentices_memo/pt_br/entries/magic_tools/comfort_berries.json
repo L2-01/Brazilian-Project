@@ -1,0 +1,34 @@
+{
+  "name": "item.apprenticecodex.comfort_berries",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:comfort_berries",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:comfort_berries",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.comfort_berries.page.p001.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.healing_bloom"
+          },
+          {
+            "translate": "effect.apprenticecodex.mana_regeneration"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:comfort_sandwich",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.comfort_berries.page.p002.text",
+        "with": [
+          {
+            "translate": "item.minecraft.bread"
+          }
+        ]
+      }
+    }
+  ]
+}

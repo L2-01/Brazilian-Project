@@ -1,0 +1,49 @@
+{
+  "name": "Célula Dimensional",
+  "icon": "rftoolspower:dimensionalcell",
+  "category": "rftoolsbase:category_rftoolspower_powerstorage",
+  "extra_recipe_mappings": {
+    "rftoolspower:dimensionalcell_simple": 0,
+    "rftoolspower:dimensionalcell": 0,
+    "rftoolspower:dimensionalcell_advanced": 0,
+    "rftoolspower:dimensionalcell_creative": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Célula Dimensional é um armazenamento de energia multidimensional. Como uma $(l:rftoolsbase:powerstorage/powercell)Célula de Energia$(/l), ela armazena e transfere FE, mas células vinculadas podem compartilhar energia sem se tocar."
+    },
+    {
+      "type": "text",
+      "text": "As Células Dimensionais são vinculadas com um $(l:rftoolsbase:powerstorage/powercell_card)Cartão da Célula de Energia$(/l). Insira um cartão não vinculado para criar um vínculo, ou copie o vínculo de uma célula existente para outro cartão."
+    },
+    {
+      "type": "text",
+      "text": "A interface tem espaços de cartão para vincular/copiar, um espaço de carga para itens de FE, uma barra de armazenamento da rede, botões de modo de lado e um botão de Estatísticas para FE inserido/extraído."
+    },
+    {
+      "type": "text",
+      "text": "Nenhum, Entrada e Saída definem todos os lados para ignorar, receber ou transmitir FE. Os lados individuais também podem ser alterados com uma $(l:rftoolsbase:tools/smartwrench)Chave-Inglesa Inteligente$(/l): azul para entrada, amarelo para saída, em branco para desativado."
+    },
+    {
+      "type": "text",
+      "text": "No entanto, há uma desvantagem nas Células Dimensionais: quando definidas no $(thing)Modo de Saída$(), há um pequeno custo para extrair RF de células remotas. Não é muito, geralmente só alguns por cento, mas se acumula. Felizmente, as Células Dimensionais podem ser $(l:rftoolsbase:machines/infusing)Infundidas$() para reduzir esse custo."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:dimensionalcell_simple",
+      "text": "O nível mais baixo de Célula Dimensional armazena 250.000 RF e pode receber ou enviar até 1.250 RF/tique. Essa velocidade pode ser aumentada via $(l:rftoolsbase:machines/infusing)Infusão$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:dimensionalcell",
+      "text": "O nível médio de Célula Dimensional armazena 1.000.000 RF e pode receber ou enviar até 5.000 RF/tique. Essa velocidade pode ser aumentada via $(l:rftoolsbase:machines/infusing)Infusão$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:dimensionalcell_advanced",
+      "text": "O nível mais alto de Célula Dimensional armazena 4.000.000 RF e pode receber ou enviar até 20.000 RF/tique. Essa velocidade pode ser aumentada via $(l:rftoolsbase:machines/infusing)Infusão$()."
+    }
+  ]
+}

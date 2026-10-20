@@ -1,0 +1,17 @@
+{
+  "name": "Separador de Filhotes",
+  "icon": "industrialforegoing:animal_baby_separator",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 16,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uma máquina usada para separar animais $(6)filhotes$() dos animais adultos. Os filhotes serão teleportados para trás da máquina. Você pode mudar que tipo de criatura é movida na GUI."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:animal_baby_separator"
+    }
+  ]
+}

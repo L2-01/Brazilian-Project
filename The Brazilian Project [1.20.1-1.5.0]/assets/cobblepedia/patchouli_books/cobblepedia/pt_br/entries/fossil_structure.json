@@ -1,0 +1,44 @@
+{
+    "name": "book.cobblepedia.entries.fossil_structure.name",
+    "category": "cobblepedia:archaeology",
+    "icon": "minecraft:suspicious_sand",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.fossil_structure.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:prehistoric_birch_tree",
+                "cobblepedia:prehistoric_dripstone_oasis",
+                "cobblepedia:prehistoric_enhydro_agate",
+                "cobblepedia:prehistoric_eroded_pillar",
+                "cobblepedia:prehistoric_frozen_pond",
+                "cobblepedia:prehistoric_frozen_spike",
+                "cobblepedia:prehistoric_hydrothermal_vents",
+                "cobblepedia:prehistoric_lush_den",
+                "cobblepedia:prehistoric_mossy_pond",
+                "cobblepedia:prehistoric_mud_pit",
+                "cobblepedia:prehistoric_oak_tree",
+                "cobblepedia:prehistoric_powdered_deposit"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:prehistoric_preserved_skeleton",
+                "cobblepedia:prehistoric_rooted_pit",
+                "cobblepedia:prehistoric_sandy_den",
+                "cobblepedia:prehistoric_spruce_tree",
+                "cobblepedia:prehistoric_submerged_impact",
+                "cobblepedia:prehistoric_submerged_spike",
+                "cobblepedia:prehistoric_sunscorched_den",
+                "cobblepedia:prehistoric_sunscorched_remains",
+                "cobblepedia:prehistoric_suspicious_mound",
+                "cobblepedia:prehistoric_underwater_fissure",
+                "cobblepedia:prehistoric_vibrant_hydrothermal_vents"
+            ]
+        }
+    ]
+}

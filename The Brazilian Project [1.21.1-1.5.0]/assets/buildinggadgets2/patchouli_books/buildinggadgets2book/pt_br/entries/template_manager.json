@@ -1,0 +1,60 @@
+{
+  "name": "Gerenciador de Modelos",
+  "sortnum": 1,
+  "category": "buildinggadgets2:templates",
+  "icon": "buildinggadgets2:template_manager",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O gerenciador de modelos permite salvar suas estruturas favoritas do $(l:buildinggadgets2:copypaste)Dispositivo de Copiar e Colar$(/l)! $(br2)Com este bloco, você pode salvar as estruturas em itens no seu mundo, ou até compartilhá-las fora do seu mundo!$(br2)Para começar, coloque um dispositivo de copiar e colar no espaço superior e uma folha de papel no inferior."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Gerenciador de Modelos",
+      "images": [
+        "buildinggadgets2:textures/book/images/templatemanager1.png"
+      ],
+      "border": true,
+      "text": "Passo 1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clique em 'Salvar' para converter o papel em um modelo. Ao mesmo tempo, uma renderização da estrutura aparecerá na sua tela.$(br2)Você pode mover e girar a renderização com os botões do mouse, ou dar zoom com a roda de rolagem. $(br2)Para copiar a estrutura de um modelo de volta para o dispositivo, clique no botão 'carregar'."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Vincular Inventário",
+      "images": [
+        "buildinggadgets2:textures/book/images/templatemanager2.png"
+      ],
+      "border": true,
+      "text": "Renderização chique é chique"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clique no botão 'Renderizar' para alternar para o Modo de Materiais, que mostrará uma lista dos materiais necessários para esta estrutura, de forma bem parecida com a Lista de Materiais.$(br2)Clique no botão de materiais para voltar ao modo de Renderização."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Lista de Materiais",
+      "images": [
+        "buildinggadgets2:textures/book/images/templatemanager3.png"
+      ],
+      "border": true,
+      "text": "Tantos itens"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os modelos podem ser nomeados. O nome aparecerá no item de modelo.$(br2)Clicar em 'copiar' criará uma string json e a colocará na área de transferência do seu computador. Você pode compartilhá-la com amigos fora do minecraft. Se eles copiarem a mesma string para a área de transferência e clicarem no botão 'colar' nesta interface, ela replicará sua estrutura para eles!$(br2)Certifique-se de que há papel no espaço inferior ao clicar em colar."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Nomeando",
+      "images": [
+        "buildinggadgets2:textures/book/images/templatemanager4.png"
+      ],
+      "border": true,
+      "text": "Mas é uma casa bem bonita, né."
+    }
+  ]
+}

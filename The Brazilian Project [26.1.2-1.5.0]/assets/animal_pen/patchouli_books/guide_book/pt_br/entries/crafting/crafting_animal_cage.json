@@ -1,0 +1,16 @@
+{
+  "name": "Gaiola de Animais",
+  "icon": "animal_pen:animal_cage",
+  "category": "animal_pen:category_items",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com uma Gaiola de Animais, você pode pegar qualquer animal do Minecraft e depositá-lo em Cercados de Animais. Não é possível pegar animais domesticados ou filhotes. Clicar com uma gaiola vazia num Cercado de Animais enquanto agachado lhe dará metade dos animais do cercado. Você pode soltar os animais clicando agachado no chão."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "animal_pen:animal_cage"
+    }
+  ]
+}

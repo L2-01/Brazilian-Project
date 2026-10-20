@@ -1,0 +1,17 @@
+{
+  "name": "Unidade de Processamento de Látex",
+  "icon": "industrialforegoing:latex_processing_unit",
+  "category": "industrialforegoing:basics",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Unidade de Processamento de Látex usará $(6)750$()mb de $(l:basics/latex)Látex$() e $(6)500$()mb de água para produzir 1 $(l:basics/plastic) Borracha Seca$()"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:latex_processing_unit"
+    }
+  ]
+}

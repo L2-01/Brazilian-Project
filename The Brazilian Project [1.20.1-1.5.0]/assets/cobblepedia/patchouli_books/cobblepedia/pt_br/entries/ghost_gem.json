@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.ghost_gem",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:ghost_gem",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:ghost_gem",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.ghost_gem.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:type_gem"
+            ]
+        }
+    ]
+}

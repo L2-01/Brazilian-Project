@@ -1,0 +1,18 @@
+{
+  "name": "Talismã da Terra",
+  "sortnum": 14,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:earth_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã da Terra converte blocos de terra em grama usando a mão vazia. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_normal)Base de Talismã Padrão$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_nature)Força da Natureza$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/earth_talisman",
+      "recipe2": "fargostalismans:forces/force_of_nature"
+    }
+  ],
+  "read_by_default": true
+}

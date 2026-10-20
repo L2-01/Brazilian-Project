@@ -1,0 +1,52 @@
+{
+  "name": "Drone",
+  "icon": "pneumaticcraft:drone[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Drones são poderosos robôs voadores programáveis, que podem ser usados para todo tipo de automação. Eles precisam ser programados antes de fazer qualquer coisa; para isso você também precisará de um $(l:programming/programmer)Programador/$ e algumas $(l:programming/puzzle_pieces)Peças de Quebra-Cabeça/$.$(p)Quando você posiciona um Drone programado e $(l:base_concepts/pressure)pressurizado/$, ele executará suas tarefas programadas."
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:drone",
+      "offset": -0.3
+    },
+    {
+      "type": "text",
+      "anchor": "charging",
+      "title": "Recarga Automática",
+      "text": "Drones são espertos: quando estão com pouco ar, eles param seu programa principal e procuram uma $(l:machines/charging_station)Estação de Carga/$ que tenha uma $(l:base_concepts/upgrades#dispenser)Melhoria de Ejetor/$ e pelo menos 1 bar de pressão, a menos de $(ttcolor)$(t:Veja 'max_drone_charging_station_search_range' na configuração do mod)80 blocos/$ de distância.$(p)Quando encontrada, o $(item)Drone/$ irá até essa $(item)Estação de Carga/$ e ficará carregando até a estação não conseguir mais fornecer ar. Depois disso, o $(item)Drone/$ retomará seu programa principal."
+    },
+    {
+      "type": "text",
+      "title": "Recarga Automática (cont.)",
+      "text": "Num servidor multiplayer você pode querer permitir que apenas seus Drones carreguem na(s) sua(s) Estação(ões) de Carga. Você pode tornar sua $(item)Estação de Carga/$ privada cobrindo-a com uma $(l:machines/security_station)Estação de Segurança/$.$(p)Agora apenas os $(item)Drones/$ posicionados por jogadores na lista-branca da sua $(item)Estação de Segurança/$ poderão carregar."
+    },
+    {
+      "type": "text",
+      "text": "Quando o ar do $(item)Drone/$ acaba, suas hélices param e ele cai direto no chão. Cuidado: drones podem sofrer dano de queda! Um $(item)Drone/$ destruído deixará cair a si mesmo em forma de item.$(p)Você pode tingir um $(item)Drone/$ fabricando-o com um $(item)corante/$. Você também pode tingir um $(item)Drone/$ no mundo, $(thing)clicando com o botão direito/$ nele com um $(item)corante/$. Essa coloração é apenas cosmética, mas pode ajudar a distinguir drones num relance."
+    },
+    {
+      "type": "text",
+      "title": "Depuração",
+      "text": "Hmm, por que aquele $(item)Drone/$ age como age? Por que ele não faz nada? Você pode depurar seu programa usando um $(l:armor/pneumatic_helmet)Capacete Pneumático/$ com as melhorias $(l:base_concepts/upgrades#dispenser)Ejetor/$ e $(l:base_concepts/upgrades#entity_tracker)Rastreamento de Entidades/$ instaladas. Com o $(item)Drone/$ mirado e o $(thing)Rastreamento de Entidades/$ ativo, pressione a tecla $(thing)$(k:pneumaticcraft.helmet.debugging.drone)/$. Então, abrir a página $(thing)Depuração de Drone/$ na GUI da Armadura Pneumática mostrará o programa daquele drone, incluindo o widget atual e quaisquer erros."
+    },
+    {
+      "type": "text",
+      "title": "Depuração (cont.)",
+      "text": "Há alguns outros truques a conhecer:$(li)Clicar com o botão direito num Drone com uma $(l:tools/gps_tool)Ferramenta GPS/$ faz com que ele vá até a posição de bloco armazenada na Ferramenta GPS; pode ser útil para testar a navegação do Drone.$(li)Hackear um Drone (usando a $(l:base_concepts/upgrades#security)Melhoria de Segurança/$ no Capacete Pneumático) faz com que ele suspenda seu programa e venha até você; útil se o programa o deixou num lugar de difícil acesso. Hackeá-lo novamente retomará o programa."
+    },
+    {
+      "type": "text",
+      "title": "Mudando de Dimensão",
+      "text": "Por padrão, drones não podem mudar de dimensão, ex.: passando por um portal do Nether. Isso porque programas de drone usam coordenadas de bloco que normalmente não fariam sentido numa dimensão diferente. No entanto, ao incluir um widget $(l:programming/condition_dimension)Condição: Dimensão/$ no seu programa, os drones ganham a habilidade de trocar de dimensão.$(p)É importante notar que você ainda precisa escrever seu programa para suportar múltiplas dimensões, ou seja, seções do seu programa que ramificam a partir do widget de dimensão devem usar espaços de coordenadas diferentes."
+    },
+    {
+      "type": "crafting",
+      "text": "Fabricando um Drone",
+      "recipe": "pneumaticcraft:drone"
+    }
+  ]
+}

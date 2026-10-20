@@ -1,0 +1,11 @@
+{
+  "name": "O Controlador de Tela",
+  "icon": "rftoolsutility:screen_controller",
+  "category": "rftoolsutility:category_rftoolsutility_machines",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Com o Controlador de Tela você pode energizar $(l:rftoolsutility:machines/screen)telas$(/l) próximas. Usando o botão \"Scan\" na GUI, você pode se conectar a todas as telas num raio de 32x32x32.$(br2)$(5)Infundir$() esta máquina aumenta esse alcance"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Machado de Liga Eclipse",
+  "sortnum": 23,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:eclipsealloy_axe[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Este Machado de Liga Eclipse se destaca em corte de madeira com alta eficiência e armazenamento de energia ampliado.$(br2)Ele foi projetado para aguentar as tarefas de extração de madeira mais exigentes."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:eclipsealloy_axe",
+      "text": "Fabricação do Machado de Liga Eclipse"
+    }
+  ]
+}

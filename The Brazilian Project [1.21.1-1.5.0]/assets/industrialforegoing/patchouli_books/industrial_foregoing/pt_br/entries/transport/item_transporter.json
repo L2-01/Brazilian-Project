@@ -1,0 +1,25 @@
+{
+  "name": "Transportador de Itens",
+  "icon": "industrialforegoing:item_transporter_type",
+  "category": "industrialforegoing:transport",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Transportador de Itens pode ser usado para transportar itens entre inventários que estão a 1 bloco de distância. Você precisa ter um transportador no lado de extração e no lado de inserção.$(br2)Vários tipos de transportadores podem estar no mesmo bloco e têm modos de inserção e de extração. Para mudar os modos, você precisa clicar com o botão direito na área central."
+    },
+    {
+      "type": "text",
+      "text": "Você pode filtrar o que interage na GUI com os modos de lista-negra e lista-branca. $(br2)Para remover melhorias ou um transportador, você pode agachar e clicar com o botão direito num dos transportadores. $(br2)No modo regulador, quando um transportador está em modo de inserção, você pode especificar quantos itens/fluidos um inventário pode ter."
+    },
+    {
+      "type": "text",
+      "text": "Você pode acelerar a velocidade com que um transportador trabalha usando Addons de Velocidade e transferir mais usando Addons de Eficiência, clicando neles com o botão direito no anel externo do transportador."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:item_transporter_type"
+    }
+  ]
+}

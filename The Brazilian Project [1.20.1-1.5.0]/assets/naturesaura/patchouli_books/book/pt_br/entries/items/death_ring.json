@@ -1,0 +1,21 @@
+{
+    "name": "Anel da Última Chance",
+    "icon": "naturesaura:death_ring",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Quando se está preso, como dizem, entre a espada e a parede, não há muito a fazer - às vezes, a $(thing)morte$() simplesmente precisa ser aceita como uma ocorrência.$(p)Era o que os botânicos mágicos pensavam antes de perceberem que a $(thing)própria morte$() poderia ser $()evitada$() usando algo tão simples quanto um anel: o $(item)Anel da Última Chance$(), quando colocado em qualquer lugar do"
+        },
+        {
+            "type": "text",
+            "text": "inventário do usuário, impedirá sua morte curando-o e $(thing)desaparecendo$() no processo, de forma semelhante ao $(item)Totem da Imortalidade$()."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Anel da Última Chance$()$(p)$(italic)Este Anel Cai como uma Luva",
+            "recipe": "naturesaura:death_ring"
+        }
+    ]
+}

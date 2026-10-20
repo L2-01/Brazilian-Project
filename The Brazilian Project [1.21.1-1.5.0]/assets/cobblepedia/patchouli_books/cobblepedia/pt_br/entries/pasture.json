@@ -1,0 +1,28 @@
+{
+    "name": "block.cobblemon.pasture",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:pasture",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:pasture",
+            "title": "block.cobblemon.pasture",
+            "text": "book.cobblepedia.entries.pasture.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:pasture",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.pasture.usage.text.1"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.pasture.usage.text.2"
+        }
+    ]
+}

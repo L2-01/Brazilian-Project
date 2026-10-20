@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.x_accuracy",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:x_accuracy",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:x_accuracy",
+            "text": "book.cobblepedia.entries.x_accuracy.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:x_accuracy",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

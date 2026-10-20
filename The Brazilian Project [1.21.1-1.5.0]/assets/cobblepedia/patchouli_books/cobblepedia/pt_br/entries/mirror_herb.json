@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.mirror_herb",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:mirror_herb",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:mirror_herb",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.mirror_herb.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.mirror_herb.usage.text"
+        }
+    ]
+}

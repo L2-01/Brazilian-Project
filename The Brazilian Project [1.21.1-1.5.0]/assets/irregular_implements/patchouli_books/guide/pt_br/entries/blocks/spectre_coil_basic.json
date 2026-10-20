@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:spectre_coil_basic",
+  "name": "Bobinas de Espectro",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_coil_basic,irregular_implements:spectre_coil_redstone,irregular_implements:spectre_coil_ender",
+      "link_recipe": true,
+      "text": "As $(d)Bobinas de Espectro$() permitem extrair energia sem fio do seu $(l:blocks/spectre_energy_injector)Buffer de Energia de Espectro$(/l).$(br2)Cada versão pode puxar uma quantidade diferente de FE/t da reserva. Coloque a bobina diretamente na máquina que você quer alimentar.",
+      "title": "Bobinas de Espectro"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_coil_number,irregular_implements:spectre_coil_genesis",
+      "link_recipe": true,
+      "text": "Existem duas bobinas especiais que $(3)geram FE$() do nada, em vez de puxar do Buffer de Energia de Espectro.$(br2)A primeira pode ser encontrada em baús de masmorras, enquanto a segunda só pode ser obtida por comandos ou no modo criativo.}",
+      "title": " "
+    }
+  ]
+}

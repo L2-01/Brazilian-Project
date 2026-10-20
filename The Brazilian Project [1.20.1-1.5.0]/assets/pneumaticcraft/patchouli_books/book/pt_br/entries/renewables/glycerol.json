@@ -1,0 +1,28 @@
+{
+  "name": "Glicerol",
+  "icon": "pneumaticcraft:glycerol",
+  "category": "pneumaticcraft:renewables",
+  "advancement": "pneumaticcraft:ethanol",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O $(thing)Glicerol/$ é um subproduto da produção de $(l:renewables/biodiesel)Diesel Biológico/$, mas acaba sendo uma substância bem útil por si só. Seus usos estão detalhados nas páginas seguintes."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:bandage",
+      "text": "As $(thing)Bandagens/$ podem ser usadas para curar rapidamente 3 corações de vida. Rapidamente não é instantâneo, porém; você precisará clicar com o botão direito e segurar por 2 segundos para aplicar uma bandagem, e há um tempo de recarga de 8 segundos entre usos."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:speed_upgrade_from_glycerol",
+      "text": "O dobro do rendimento de usar $(thing)Açúcar/$, o que há para não gostar? Isso economizará o seu precioso $(l:components/lubricant)Lubrificante/$."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:furnace",
+      "title": "Como Combustível",
+      "text": "O $(thing)Glicerol/$ também funciona como um item de combustível decente, equivalente a 4 $(thing)Tábuas/$ ou meia porção de $(thing)Carvão/$."
+    }
+  ]
+}

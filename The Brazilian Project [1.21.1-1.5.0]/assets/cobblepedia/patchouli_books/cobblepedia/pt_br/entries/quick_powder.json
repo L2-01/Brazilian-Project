@@ -1,0 +1,14 @@
+{
+    "name": "item.cobblemon.quick_powder",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:quick_powder",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:quick_powder",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.quick_powder.text"
+        }
+    ]
+}

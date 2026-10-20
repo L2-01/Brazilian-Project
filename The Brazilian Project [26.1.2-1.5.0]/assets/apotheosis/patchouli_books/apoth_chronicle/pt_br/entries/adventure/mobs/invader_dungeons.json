@@ -1,0 +1,17 @@
+{
+    "name": "Masmorras dos Invasores",
+    "icon": "minecraft:spawner",
+    "category": "apotheosis:adventure/mobs",
+    "flag": "apotheosis:adventure",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Nas profundezas das cavernas ancestrais da terra há estruturas ocultas, que abrigam o poder incalculável dos afixos. Seria uma grata surpresa se esse poder estivesse livre para ser tomado, mas, infelizmente, ele é defendido por um Gerador de Chefe."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Subterrâneas, há algumas variantes diferentes dessas estruturas. Cada masmorra contém um Gerador de Chefe e alguns baús de espólio. A gaiola será acionada ao se aproximar dela, libertando o Invasor."
+        }
+    ]
+}

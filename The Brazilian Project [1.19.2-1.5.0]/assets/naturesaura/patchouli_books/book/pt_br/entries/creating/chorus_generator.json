@@ -1,0 +1,21 @@
+{
+    "name": "Ceifador das Alturas do Ender",
+    "icon": "naturesaura:chorus_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Uma vez que o poderoso dragão do $(thing)End$() tenha sido derrotado, pode-se começar a se aventurar pelas muitas ilhas áridas ao redor de seu covil. Ao fazê-lo, pode-se descobrir plantas $(thing)chorus$(): flores que brotam para cima e alto no céu. Flores desse tipo contêm uma quantidade considerável de $(aura), coletada do ar do end ao seu redor."
+        },
+        {
+            "type": "text",
+            "text": "Através do $(item)Ceifador das Alturas do Ender$(), essa energia pode ser extraída. Primeiro, uma $(thing)flor-do-coro$() precisa ser cultivada a no máximo cerca de dois blocos dele. Uma vez que tenha crescido o suficiente, fornecer ao $(item)Ceifador das Alturas do Ender$() um $(thing)sinal de redstone$() fará com que ele comece a colher a planta inteira, dispersando $(aura) no processo.$(br)Quanto mais alta e larga a planta tiver crescido antes da colheita, mais $(aura) é criada."
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:chorus_generator",
+            "text": "Criando o $(item)Ceifador das Alturas do Ender$()"
+        }
+    ]
+}

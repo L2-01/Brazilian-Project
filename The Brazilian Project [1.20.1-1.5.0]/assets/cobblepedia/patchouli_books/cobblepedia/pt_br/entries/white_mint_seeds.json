@@ -1,0 +1,14 @@
+{
+    "name": "block.cobblemon.white_mint",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:white_mint_seeds",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:white_mint_seeds",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.white_mint_seeds.text"
+        }
+    ]
+}

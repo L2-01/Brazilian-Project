@@ -1,0 +1,23 @@
+{
+    "name": "Módulo de Acesso a Blocos",
+    "icon": "mffs:block_access_module",
+    "category": "mffs:interdiction_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:block_access_module",
+            "link_recipe": true,
+            "text": "O $(5)Módulo de Acesso a Blocos$() é um módulo opcional para a $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$(). Ele permite que uma Matriz iniba a habilidade de um jogador de clicar com o botão direito num bloco e acessar sua tela de GUI."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:block_access_module",
+            "text": "Fabricando o $(5)Módulo de Acesso a Blocos$()."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Operação",
+            "text": "Se um jogador não autorizado tentar clicar com o botão direito num bloco ou máquina localizado dentro do alcance de ação de uma Matriz de Interdição (equipada com o $(5)Módulo de Acesso a Blocos$()), ele não poderá abrir a GUI. Como esperado, blocos ou máquinas fora da área de ação podem ser usados normalmente."
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Trilhos dos Mundos",
+    "icon": "naturesaura:dimension_rail_nether",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Embora $(item)Carrinhos de Mina$() tenham uma capacidade limitada de viajar por qualquer tipo de $(thing)portal$(), montar isso definitivamente é complicado. Os $(item)Trilhos dos Mundos$() resolvem esse problema facilmente: existem três tipos, um para cada dimensão conhecida. Quando um carrinho passa sobre um deles, ele é transportado diretamente para a dimensão designada do trilho, usando um pouco de $(aura) no processo."
+        },
+        {
+            "type": "text",
+            "text": "A seleção da $(thing)posição$() para a qual os carrinhos de mina são enviados é baseada nas dimensões envolvidas na viagem:$(br)Viajar entre a superfície e o nether fará o carrinho ser enviado para um oitavo de sua posição e vice-versa, semelhante a como portais normais funcionam.$(br)Viajar entre a superfície e o end fará o carrinho ser enviado para a $(thing)plataforma de obsidiana$(), e para o ponto de geração da superfície ao viajar no sentido contrário."
+        },
+        {
+            "type": "text",
+            "text": "Usar uma $(l:items/range_visualizer)Lupa Mística$() em qualquer um dos trilhos fará com que a posição de destino seja destacada na dimensão de destino, com o destaque sendo visível $(thing)através de paredes$(), tornando-o fácil de encontrar sem muito trabalho.$(p)A única limitação conhecida desses trilhos é que parece que eles não têm poder suficiente para transportar carrinhos contendo $(thing)seres vivos$()."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Trilho da Superfície$()",
+            "recipe": "naturesaura:dimension_rail_overworld"
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Trilho do Nether$()",
+            "recipe": "naturesaura:dimension_rail_nether"
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Trilho do End$()",
+            "recipe": "naturesaura:dimension_rail_end"
+        }
+    ]
+}

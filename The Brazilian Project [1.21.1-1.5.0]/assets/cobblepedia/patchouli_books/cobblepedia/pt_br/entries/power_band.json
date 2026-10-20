@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.power_band",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:power_band",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:power_band",
+            "text": "book.cobblepedia.entries.power_band.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.power_band.usage.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:power_band",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

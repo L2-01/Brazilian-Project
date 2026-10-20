@@ -1,0 +1,21 @@
+{
+  "name": "Varinha de Eclipsetal",
+  "sortnum": 7,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:eclipsegate_wand[justdirethings:forge_energy=100000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Varinha de Eclipsetal representa o auge do desenvolvimento de ferramentas mágicas, com poderes incomparáveis.$(br2)Além das habilidades da $(l:justdirethings:item_voidshift_wand)Varinha de Deslocamento do Vazio$(/l), você pode ativar a habilidade Portal do Eclipse. Basta clicar com o botão direito num bloco, e todos os blocos ao redor e atrás dele desaparecem temporariamente!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Após alguns instantes, os blocos originais retornam como estavam. Entidades de bloco como baús não são afetadas.$(br2)A tela de configuração permite ajustar o alcance dessa habilidade."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Varinha de Eclipsetal",
+      "recipe": "justdirethings:eclipsegate_wand"
+    }
+  ]
+}

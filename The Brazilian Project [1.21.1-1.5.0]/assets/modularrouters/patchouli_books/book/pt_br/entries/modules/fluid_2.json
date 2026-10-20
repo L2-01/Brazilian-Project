@@ -1,0 +1,19 @@
+{
+  "name": "Módulo de Fluido Mk2",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:fluid_module_2",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Como o $(l:modules/fluid_1)Módulo de Fluido Mk1/$, este módulo pode transferir fluidos para dentro ou para fora do roteador, se ele tiver um item contendo fluido no buffer. No entanto, este módulo também pode mirar locais mais distantes, até 12 blocos de distância (até 24 com $(l:augments/range_up)Melhorias de Aumento de Alcance/$)."
+    },
+    {
+      "type": "text",
+      "text": "$(thing)Agache e clique com o botão direito/$ em qualquer bloco com o módulo para definir seu alvo.$(p)Note que o bloco alvo não precisa necessariamente ser um tanque de fluido; se você quebrar o bloco depois de definir o alvo do módulo, o módulo poderá esvaziar um balde de fluido no mundo naquele local."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:fluid_module_2"
+    }
+  ]
+}

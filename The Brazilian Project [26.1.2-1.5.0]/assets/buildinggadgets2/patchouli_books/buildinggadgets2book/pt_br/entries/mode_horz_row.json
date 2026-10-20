@@ -1,0 +1,24 @@
+{
+  "name": "Fileira Horizontal",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/horizontal_row.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fileira Horizontal constrói blocos para longe do jogador com base na direção para a qual ele está olhando. Isso é útil para construir pontes! $(br2)Alterne 'colocar no topo' para ver como muda a colocação. $(br2)Também está disponível no trocador, para trocar 'à esquerda e à direita' da direção para a qual o jogador está olhando."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Fileira Horizontal",
+      "images": [
+        "buildinggadgets2:textures/book/images/horzrow1.png",
+        "buildinggadgets2:textures/book/images/horzrow3.png",
+        "buildinggadgets2:textures/book/images/horzrow2.png",
+        "buildinggadgets2:textures/book/images/horzrow4.png"
+      ],
+      "border": true,
+      "text": "Alterne as imagens acima para ver as diferentes opções"
+    }
+  ]
+}

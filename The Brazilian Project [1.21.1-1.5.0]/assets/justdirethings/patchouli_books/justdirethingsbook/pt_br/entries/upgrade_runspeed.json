@@ -1,0 +1,17 @@
+{
+  "name": "Velocidade de Corrida",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_runspeed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Impulsione suas capacidades de corrida com a melhoria Velocidade de Corrida. Este aprimoramento aumenta significativamente sua velocidade de corrida, permitindo atravessar grandes distâncias em menos tempo.$(br2)Pode ser instalada em calças de nível Ferricoro, mas calças de níveis maiores permitem velocidades de corrida maiores. Um controle deslizante está disponível na tela de configurações para ajustá-la."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Velocidade de Corrida",
+      "recipe": "justdirethings:upgrade_runspeed"
+    }
+  ]
+}

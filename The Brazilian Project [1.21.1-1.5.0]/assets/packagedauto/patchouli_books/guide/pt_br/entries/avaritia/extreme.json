@@ -1,0 +1,33 @@
+{
+	"name": "Fabricação Extrema",
+	"category": "packagedauto:recipe",
+	"icon": "packagedavaritia:extreme_crafter",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(thing)Fabricação Extrema/$ é um tipo de receita de fabricação que usa o $(item)Fabricador de Pacotes Extremo/$ para fabricar receitas fabricáveis numa $(item)Mesa de Fabricação Extrema/$.$(p)Itens fabricados pelo $(item)Fabricador de Pacotes Extremo/$ serão ejetados para inventários adjacentes.$(p)O $(item)Fabricador de Pacotes Extremo/$ requer energia."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"flag": "mod:ae2",
+			"item": "packagedavaritia:extreme_crafter",
+			"link_recipe": true,
+			"title": "Integração com AE2",
+			"text": "O $(item)Fabricador de Pacotes Extremo/$ pode ser conectado a uma $(thing)Rede ME/$.$(p)Ele vai extrair energia para usar e, em vez disso, ejetar os itens fabricados na rede."
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "!mod:ae2",
+			"recipe": "packagedavaritia:extreme_crafter",
+			"title": "Fabricação"
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "mod:ae2",
+			"recipe": "packagedavaritia:extreme_crafter_ae",
+			"title": "Fabricação"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 1504
+}

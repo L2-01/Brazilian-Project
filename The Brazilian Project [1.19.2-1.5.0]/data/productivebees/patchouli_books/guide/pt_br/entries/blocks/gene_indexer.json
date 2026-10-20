@@ -1,0 +1,16 @@
+{
+    "name": "Indexador de Genes",
+    "icon": "productivebees:gene_indexer",
+    "category": "productivebees:blocks",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:gene_indexer",
+            "text": "Está se afogando em amostras de genes? Está tendo LER de tanto combinar genes? Então este bloco é para você!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Encha este contêiner extragrande com todos os genes que você tiver por aí, aperte um interruptor e veja o indexador de genes interno automatizado combinar os genes para você. Pode não ser a forma mais eficiente... mas é automatizada!\nPrecisa de um sinal de redstone."
+        }
+    ]
+}

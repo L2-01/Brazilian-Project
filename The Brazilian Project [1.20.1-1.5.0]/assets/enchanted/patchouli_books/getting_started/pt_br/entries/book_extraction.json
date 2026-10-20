@@ -1,0 +1,17 @@
+{
+  "name": "Bruxaria: Extração",
+  "icon": "patchouli:textures/item/book_purple.png",
+  "category": "enchanted:additional_resources",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Para ser eficaz na arte da bruxaria, é preciso ser capaz de extrair substâncias ou propriedades mágicas de outros materiais."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:book_extraction"
+    }
+  ],
+  "read_by_default": false,
+  "sortnum": 1
+}

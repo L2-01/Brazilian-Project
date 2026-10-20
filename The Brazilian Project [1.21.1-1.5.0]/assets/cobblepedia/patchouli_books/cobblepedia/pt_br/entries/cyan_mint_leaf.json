@@ -1,0 +1,28 @@
+{
+    "name": "item.cobblemon.cyan_mint_leaf",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:cyan_mint_leaf",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:cyan_mint_leaf",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.cyan_mint_leaf.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "entries": [
+                "cobblepedia:adamant_mint",
+                "cobblepedia:impish_mint",
+                "cobblepedia:modest_mint",
+                "cobblepedia:mild_mint",
+                "cobblepedia:rash_mint",
+                "cobblepedia:quiet_mint",
+                "cobblepedia:careful_mint",
+                "cobblepedia:jolly_mint"
+            ]
+        }
+    ]
+}

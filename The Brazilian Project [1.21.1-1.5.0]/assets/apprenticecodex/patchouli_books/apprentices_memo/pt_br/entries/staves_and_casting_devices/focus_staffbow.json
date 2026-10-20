@@ -1,0 +1,36 @@
+{
+  "name": "item.apprenticecodex.focus_staffbow",
+  "category": "apprenticecodex:staves_and_casting_devices",
+  "icon": "apprenticecodex:focus_staffbow",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:focus_staffbow",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.focus_staffbow.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:focus_staffbow",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.focus_staffbow.page.p002.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "enchantment.apprenticecodex.synthesis",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.focus_staffbow.page.p003.text",
+        "with": [
+          {
+            "translate": "enchantment.apprenticecodex.synthesis"
+          }
+        ]
+      },
+      "item": "apprenticecodex:focus_staffbow[minecraft:enchantments={levels:{\"apprenticecodex:synthesis\":1}}]"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:enchantments/synthesis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "item.cobblemon.galarica_wreath",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:galarica_wreath",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:galarica_wreath",
+            "link_recipe": true,
+            "title": "item.cobblemon.galarica_wreath",
+            "text": "book.cobblepedia.entries.galarica_wreath.text"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.galarica_wreath.evolving",
+            "using_item3": "cobblemon:galarica_wreath",
+            "pokemon3": "cobblemon:slowpoke",
+            "evolved_pokemon3": "cobblemon:slowking"
+        }
+
+    ]
+}

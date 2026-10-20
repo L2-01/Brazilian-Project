@@ -1,0 +1,17 @@
+{
+  "name": "Magia",
+  "icon": "enchanted:magic_poppet",
+  "category": "enchanted:infusing_poppets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Bonecos de magia protegem o beneficiário da morte por magia.$(br2)$(bold)Resistente$() Um uso extra.$(br)$(bold)Infundido$() Concede 10 segundos de resistência à magia."
+    },
+    {
+      "type": "enchanted:spinning_wheel_recipe",
+      "recipe": "enchanted:spinning/magic_poppet"
+    }
+  ],
+  "read_by_default": true,
+  "priority": false
+}

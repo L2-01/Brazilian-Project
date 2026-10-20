@@ -1,0 +1,17 @@
+{
+  "name": "Talismã de Estrela do Nether",
+  "sortnum": 31,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:nether_star_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã de Estrela do Nether aumenta o dano crítico em 50% e permite acertos críticos exigindo apenas que o jogador esteja caindo e fora d’água. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_epic)Base de Talismã Épico$(/l). O talismã não é usado para fabricar uma força."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/nether_star_talisman"
+    }
+  ],
+  "read_by_default": true
+}

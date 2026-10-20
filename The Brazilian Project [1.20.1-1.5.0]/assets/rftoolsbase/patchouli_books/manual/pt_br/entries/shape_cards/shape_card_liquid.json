@@ -1,0 +1,19 @@
+{
+  "name": "Cartão de Líquido",
+  "icon": "rftoolsbuilder:shape_card_liquid",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_liquid": 1
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Cartão de Líquido faz o Construtor colocar fluido na forma selecionada. Forneça o fluido através de um tanque conectado ao Construtor."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_liquid"
+    }
+  ]
+}

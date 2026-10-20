@@ -1,0 +1,24 @@
+{
+    "name": "Ocular Ambiental",
+    "icon": "naturesaura:eye_improved",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:end_flower",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O $(l:items/eye)Olho Ambiental$() é muito útil em teoria; porém, muitos botânicos mágicos sofrem com seu alcance limitado para medir a $(aura) no ambiente ao redor. Uma solução simples para esse problema é o $(item)Ocular Ambiental$().$(br)Funcionando de forma similar ao $(item)Olho Ambiental$(), a principal diferença é seu medidor muito maior de $(aura) na área: é $(thing)duas vezes maior$()."
+        },
+        {
+            "type": "text",
+            "text": "É preciso notar que a barra estendida só aparece se os níveis de $(aura) estiverem altos ou baixos o suficiente.$(p)Em segundo lugar, o $(item)Ocular Ambiental$() tem a capacidade de exibir todos os efeitos de $(thing)Desequilíbrio de Aura$() que estão ocorrendo no local onde o usuário está. Eles são exibidos na forma de ícones ao lado da barra de aura. Para descobrir qual ícone representa qual efeito, a seção de $(thing)Desequilíbrio de Aura$() deste livro pode ser usada."
+        }, {
+            "type": "text",
+            "text": "Se um ícone de efeito estiver riscado, é um efeito que requer $(l:effects/effect_powder)Pó de Efeito$() e não há nenhum presente, ou é um efeito que está sendo inibido pelo pó correspondente.$(br)Uma vantagem adicional é que, enquanto o $(item)Olho Ambiental$() precisa estar na hotbar, o $(item)Ocular Ambiental$() pode estar em qualquer lugar do inventário do usuário para funcionar.$(br)Todas as outras propriedades do $(item)Olho Ambiental$() passam para o $(item)Ocular Ambiental$() como esperado."
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "Criando o $(item)Ocular Ambiental$() usando o $(l:practices/tree_ritual)Ritual da Floresta$()",
+            "recipe": "naturesaura:eye_improved"
+        }
+    ]
+}

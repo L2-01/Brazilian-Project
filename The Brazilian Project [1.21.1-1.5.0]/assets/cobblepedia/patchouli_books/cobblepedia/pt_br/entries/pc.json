@@ -1,0 +1,26 @@
+{
+    "name": "block.cobblemon.pc",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:pc",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:pc",
+            "title": "block.cobblemon.pc",
+            "text": "book.cobblepedia.entries.pc.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:pc",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:full_party",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.full_party",
+            "text": "advancements.cobblemon.full_party.description"
+        }
+    ]
+}

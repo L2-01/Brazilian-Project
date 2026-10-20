@@ -1,0 +1,22 @@
+{
+  "name": "Lula-Brilhante",
+  "icon": "minecraft:glow_squid_spawn_egg",
+  "category": "animal_pen:category_aquarium",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:glow_squid",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:fishes",
+      "text": "Alimente as lulas-brilhantes com qualquer peixe para procriá-las e aumentar seu número no Aquário."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:swords,tag:minecraft:axes",
+      "text": "Usar uma espada ou machado no Aquário matará a lula-brilhante e largará seu saque."
+    }
+  ]
+}

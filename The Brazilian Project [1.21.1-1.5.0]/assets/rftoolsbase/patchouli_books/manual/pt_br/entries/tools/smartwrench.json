@@ -1,0 +1,16 @@
+{
+  "name": "Chave Inteligente",
+  "icon": "rftoolsbase:smartwrench",
+  "category": "rftoolsbase:category_tools",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Chave Inteligente pode ser usada para remover facilmente blocos de tecnologia e também selecionar blocos para funcionalidades especiais. $(br2)Use como uma chave normal: $(5)clique direito agachado$() para pegar e $(5)clique direito$() para girar.$(br2)$(5)Clique direito$() no ar para mudar de modo"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbase:smartwrench",
+      "text": "Se a chave estiver no $(thing)modo Seleção$(), ela pode ser usada para executar operações especializadas em blocos (por exemplo) como o Projetor de Escudo."
+    }
+  ]
+}

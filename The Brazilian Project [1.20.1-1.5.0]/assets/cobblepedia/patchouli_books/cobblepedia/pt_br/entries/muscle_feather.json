@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.muscle_feather",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:muscle_feather",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:muscle_feather",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.muscle_feather.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:feather"
+            ]
+        }
+    ]
+}

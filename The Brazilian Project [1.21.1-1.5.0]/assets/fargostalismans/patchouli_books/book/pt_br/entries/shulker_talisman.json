@@ -1,0 +1,18 @@
+{
+  "name": "Talismã de Shulker",
+  "sortnum": 38,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:shulker_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã de Shulker concede imunidade ao efeito de levitação. O dano de projéteis de shulker ainda ocorre. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_normal)Base de Talismã Padrão$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_mystic)Força do Místico$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/shulker_talisman",
+      "recipe2": "fargostalismans:forces/force_of_mystic"
+    }
+  ],
+  "read_by_default": true
+}

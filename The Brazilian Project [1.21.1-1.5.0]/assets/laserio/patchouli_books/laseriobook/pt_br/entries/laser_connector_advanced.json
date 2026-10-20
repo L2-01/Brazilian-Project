@@ -1,0 +1,43 @@
+{
+  "name": "Conector Avançado",
+  "icon": "laserio:laser_connector_advanced",
+  "sortnum": 2,
+  "category": "laserio:blocks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Conectores a Laser Avançados funcionam igual aos $(l:laserio:laser_connector)Conectores a Laser$(/l), conectando-se a outros conectores (básicos) e nós a até 8 blocos de distância. $(br2)Eles só podem ser conectados a um outro Conector Avançado, no entanto, formando um par.  O alcance de conexão de um conector avançado até seu parceiro é infinito — incluindo entre dimensões!"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Conector Avançado",
+      "images": [
+        "laserio:textures/book/entries/laser_connector_advanced1.png"
+      ],
+      "border": true,
+      "text": "Dois Conectores Avançados ligados um ao outro"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se um Conector Avançado já tiver um parceiro, e você tentar pareá-lo com um novo parceiro, a conexão original será quebrada para formar a nova conexão.  $(br2)Ao olhar para o bloco com a $(l:laserio:laser_wrench)Chave-Inglesa a Laser$(/l) na mão, você verá as coordenadas do bloco parceiro."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Coordenadas do Parceiro",
+      "images": [
+        "laserio:textures/book/entries/laser_connector_advanced2.png"
+      ],
+      "border": true,
+      "text": "Mostrando as coordenadas do conector parceiro"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conectores a Laser Avançados NÃO carregam chunks para você. Você é responsável por cuidar de todo o carregamento de chunks por conta própria! Nós em chunks não carregadas não operam."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Conector a Laser Avançado",
+      "recipe": "laserio:laser_connector_advanced"
+    }
+  ]
+}

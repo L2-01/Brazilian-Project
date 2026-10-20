@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:peace_candle",
+  "name": "Vela da Paz",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(d)Vela da Paz$() impede que criaturas hostis nasçam num raio ao seu redor. Por padrão, esse raio é de um chunk (ou seja, uma área de 3x3 chunks).$(br2)Ela pode ser desativada com um sinal de redstone.",
+      "title": "Vela da Paz"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:peace_candle",
+      "link_recipe": true,
+      "text": "Velas da Paz podem ser encontradas em certos templos de vilas. Onde haveria um suporte de poções, às vezes você pode encontrar uma Vela da Paz."
+    }
+  ]
+}

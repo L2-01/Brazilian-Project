@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.vivichoke_dip",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:vivichoke_dip",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:vivichoke_dip",
+            "text": "book.cobblepedia.entries.vivichoke_dip.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:vivichoke_dip",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Talismã de Redstone",
+  "sortnum": 37,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:redstone_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã de Redstone repara 1 ponto de durabilidade da armadura equipada a cada 5-7,5 segundos. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_advanced)Base de Talismã Avançado$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_overworld)Força da Superfície$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/redstone_talisman",
+      "recipe2": "fargostalismans:forces/force_of_overworld"
+    }
+  ],
+  "read_by_default": true
+}

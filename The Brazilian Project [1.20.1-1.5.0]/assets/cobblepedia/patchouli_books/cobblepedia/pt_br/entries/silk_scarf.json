@@ -1,0 +1,31 @@
+{
+    "name": "item.cobblemon.silk_scarf",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:silk_scarf",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:silk_scarf",
+            "text": "book.cobblepedia.entries.silk_scarf.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:silk_scarf",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.silk_scarf.holding"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:choice_scarf"
+            ]
+        }
+    ]
+}

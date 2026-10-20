@@ -1,0 +1,141 @@
+{
+  "name": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.name",
+  "category": "apprenticecodex:staves_and_casting_devices",
+  "icon": "apprenticecodex:iron_swingcast_staff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p001.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p001.text",
+      "item": "apprenticecodex:iron_swingcast_staff,apprenticecodex:copper_swingcast_staff,apprenticecodex:gold_swingcast_staff,apprenticecodex:diamond_swingcast_staff,apprenticecodex:netherite_swingcast_staff,apprenticecodex:silver_swingcast_staff"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p002.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.spell_calibration_bench"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:iron_swingcast_staff",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p003.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.iron_swingcast_staff"
+          },
+          {
+            "translate": "item.apprenticecodex.crystalline_arcane_shard"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:iron_swingcast_staff",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p004.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:copper_swingcast_staff",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p005.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.copper_swingcast_staff"
+          },
+          {
+            "translate": "spell.irons_spellbooks.ball_lightning"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:copper_swingcast_staff",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p006.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:gold_swingcast_staff",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p007.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.gold_swingcast_staff"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:gold_swingcast_staff",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p008.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:diamond_swingcast_staff",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p009.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.diamond_swingcast_staff"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:diamond_swingcast_staff",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p010.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:netherite_swingcast_staff",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p011.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.netherite_swingcast_staff"
+          },
+          {
+            "translate": "item.irons_spellbooks.concentration_amulet"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "apprenticecodex:netherite_swingcast_staff",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p012.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:silver_swingcast_staff",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p013.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.netherite_swingcast_staff"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:silver_swingcast_staff",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.swingcast_staff.page.p014.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spell_calibration_bench"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.wide_lens",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:wide_lens",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:wide_lens",
+            "text": "book.cobblepedia.entries.wide_lens.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:wide_lens",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

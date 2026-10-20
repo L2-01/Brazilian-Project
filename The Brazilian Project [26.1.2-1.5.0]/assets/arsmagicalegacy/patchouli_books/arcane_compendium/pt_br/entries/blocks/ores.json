@@ -1,0 +1,66 @@
+{
+  "category": "arsmagicalegacy:blocks",
+  "icon": "arsmagicalegacy:chimerite_ore",
+  "name": "item.arsmagicalegacy.arcane_compendium.blocks.ores.name",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "item.arsmagicalegacy.arcane_compendium.blocks.ores.page0.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "chimerite",
+      "item": "arsmagicalegacy:chimerite_ore",
+      "text": "Encontrada onde as pedras se deslocam, a Quimerita é usada em feitiços que exigem grande alternação ou ilusão."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "topaz",
+      "item": "arsmagicalegacy:topaz_ore",
+      "text": "Encontrado nas profundezas mais fundas ou nos picos mais altos, o Topázio é comumente usado como um cristal mágico de nível inicial."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "vinteum",
+      "item": "arsmagicalegacy:vinteum_ore",
+      "text": "Relativamente comum na maioria das camadas do mundo, o Pó de Vinteum rapidamente se provou um recurso mágico viável."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "moonstone",
+      "item": "arsmagicalegacy:moonstone_ore",
+      "text": "Raramente encontrada em meteoritos que caíram sobre o mundo há muito tempo, a Pedra da Lua é um material celestial com poderes mágicos extraordinários."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "sunstone",
+      "item": "arsmagicalegacy:sunstone_ore",
+      "text": "As gemas de Pedra do Sol se formaram ao longo de milhares de anos dentro de porções de obsidiana em contato com os oceanos de lava do Nether. Apesar disso, elas não são resistentes ao fogo, e é preciso muito cuidado para obtê-las."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "arsmagicalegacy:chimerite_block",
+      "recipe2": "arsmagicalegacy:chimerite"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "arsmagicalegacy:topaz_block",
+      "recipe2": "arsmagicalegacy:topaz"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "arsmagicalegacy:vinteum_block",
+      "recipe2": "arsmagicalegacy:vinteum_dust"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "arsmagicalegacy:moonstone_block",
+      "recipe2": "arsmagicalegacy:moonstone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "arsmagicalegacy:sunstone_block",
+      "recipe2": "arsmagicalegacy:sunstone"
+    }
+  ]
+}

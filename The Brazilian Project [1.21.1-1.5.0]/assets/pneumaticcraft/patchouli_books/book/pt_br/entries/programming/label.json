@@ -1,0 +1,23 @@
+{
+  "name": "Widget de Rótulo",
+  "icon": "pneumaticcraft:textures/progwidgets/label_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este widget é focado puramente no $(l:programming/flow_control)fluxo do programa/$. O rótulo define um ponto no programa para o qual os widgets $(l:programming/jump)Pulo/$ e $(l:programming/conditions)Condição/$ podem pular. Você deve anexar um widget $(l:programming/text)Texto/$ a este widget para nomeá-lo. Quaisquer pulos/condições usando um widget $(thing)Texto/$ daquele nome então pularão para este rótulo."
+    },
+    {
+      "type": "text",
+      "text": "Um widget $(thing)Rótulo/$ pode ser usado para criar uma $(italic)ramificação/$ no fluxo do programa (ao usar $(l:programming/conditions)Condições/$), ou apenas para organizar seções do seu programa para clareza, colocando-as lado a lado. Uma dica útil é marcar a caixa de seleção $(bold)Mostrar Fluxo/$ no canto inferior esquerdo da GUI do $(l:programming/programmer)Programador/$;  ela mostrará linhas ligando widgets $(thing)Pulo/Condição/Rótulo/$ de mesmo nome."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/label_piece.png"
+      ],
+      "text": "$(italic)Widget de Rótulo/$"
+    }
+  ]
+}

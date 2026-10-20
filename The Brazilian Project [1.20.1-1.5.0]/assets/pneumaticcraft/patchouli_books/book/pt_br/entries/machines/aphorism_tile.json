@@ -1,0 +1,33 @@
+{
+  "name": "Ladrilho de Aforismo",
+  "icon": "pneumaticcraft:aphorism_tile",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:assembly_controller",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Os $(thing)Ladrilhos de Aforismo/$ são como $(item)Placas/$, mas podem exibir quantidades arbitrárias de texto. Qualquer texto é automaticamente redimensionado para que o texto completo caiba no ladrilho.$(p)Quando você posiciona um Ladrilho de Aforismo, ele $(ttcolor)$(t:Isso pode ser desativado na configuração do cliente - veja 'B:dramaSplash')exibe por padrão/$ um texto aleatório do $(l:http://mc-drama.herokuapp.com/)Drama Generator/$."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(item)Ladrilhos de Aforismo/$ podem ser editados no lugar $(thing)clicando com o botão direito/$ com a mão vazia.$(li)Marcações podem ser adicionadas usando $(thing)Alt + 0-9/a-f/l/m/n/o/r/$ ($(l:https://minecraft.gamepedia.com/Formatting_codes)códigos padrão do Minecraft/$).$(li)Segurar $(thing)F1/$ mostrará uma ajuda pop-up para os atalhos do editor.$(li)$(item)Ladrilhos de Aforismo/$ podem ser recoloridos $(thing)clicando com o botão direito/$ com qualquer corante. A borda e o fundo do ladrilho podem ser coloridos independentemente clicando na área correspondente do ladrilho."
+    },
+    {
+      "type": "text",
+      "anchor": "items",
+      "text": "$(li)$(item)Ladrilhos de Aforismo/$ também podem exibir $(thing)itens/$, em vez de ou junto com texto. Você pode especificar um item para exibir colocando (numa linha própria) texto no formato $(thing){item:<modid>:<itemid>}/$, ex.: $(thing){item:minecraft:diamond}/$.$(li)Alternativamente, clique no botão $(thing)Inserir Item.../$ no painel esquerdo da GUI e escolha um item no pop-up de busca. Isso substituirá todo o texto da linha atual. Você pode exibir vários itens num mesmo ladrilho."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Dica: os itens exibidos são dimensionados para corresponder à altura das linhas de texto. Se você estiver misturando texto e itens, mantenha as linhas de texto curtas para evitar itens minúsculos.$(li)Você também pode usar o controle deslizante no painel esquerdo da GUI para definir uma $(thing)margem/$ para o texto do ladrilho, se quiser que ele ocupe menos espaço no ladrilho.$(li)Por fim, você pode usar a caixa de seleção no painel esquerdo da GUI para tornar o ladrilho inteiro $(thing)invisível/$, de modo que $(italic)apenas/$ o texto (e/ou itens) seja exibido."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Ladrilhos de Aforismo invisíveis não têm forma de bloco alguma, a menos que você agache, então têm uso potencial como rótulos para baús, especialmente ao exibir item(ns). Como não têm forma, quaisquer interações são repassadas ao bloco atrás - clicar com o botão direito num baú, por exemplo.$(li)Ladrilhos invisíveis podem ser editados agachando e clicando com o botão direito neles (com a mão vazia, como de costume)."
+    },
+    {
+      "type": "pneumaticcraft:assembly_system",
+      "recipe": "pneumaticcraft:assembly/aphorism_tile"
+    }
+  ]
+}

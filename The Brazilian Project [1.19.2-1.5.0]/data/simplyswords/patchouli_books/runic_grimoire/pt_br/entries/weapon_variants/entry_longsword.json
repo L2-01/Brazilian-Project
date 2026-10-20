@@ -1,0 +1,26 @@
+{
+  "name": "Espada Longa",
+  "icon": "simplyswords:iron_longsword",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_longsword",
+      "text": "A espada longa é uma arma versátil que pode ser usada para cortar, estocar e fatiar. Era amplamente usada por cavaleiros e outros soldados durante o período medieval. A espada longa é considerada a arma por excelência do cavaleiro e é conhecida por sua precisão, poder de corte e versatilidade."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_longsword",
+      "recipe2": "simplyswords:gold_longsword"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_longsword"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_longsword",
+      "recipe2": "simplyswords:runic_longsword"
+    }
+  ]
+}

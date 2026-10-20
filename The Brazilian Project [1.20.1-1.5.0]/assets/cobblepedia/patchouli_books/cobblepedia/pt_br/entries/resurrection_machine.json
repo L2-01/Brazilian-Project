@@ -1,0 +1,38 @@
+{
+    "name": "book.cobblepedia.entries.resurrection_machine.name",
+    "category": "cobblepedia:archaeology",
+    "icon": "cobblemon:restoration_tank",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "block.cobblemon.resurrection_machine",
+            "text": "book.cobblepedia.entries.resurrection_machine.text"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "book.cobblepedia.pages.formation",
+            "multiblock": {
+                "pattern": [
+                    [ "_", "M", "T" ],
+                    [ "_", "0", "B" ],
+                    [ "_", "_", "_" ]
+                ],
+                "mapping": {
+                    "M": "cobblemon:monitor",
+                    "0": "cobblemon:fossil_analyzer",
+                    "T": "cobblemon:restoration_tank[part=top]",
+                    "B": "cobblemon:restoration_tank[part=bottom]"
+                  }
+            }
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.resurrection_machine.usage.text"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.resurrection_machine.usage.text1"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Xamã",
+    "icon": "adventurez:blackstone_golem_heart",
+    "category": "adventurez:mob_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O Xamã é uma criatura do pântano que caiu em um caldeirão de alquimia quando era jovem. Desde então, ele experimenta um tipo de magia maligna e tóxica"
+        },
+        {
+            "type": "entity",
+            "name": "Exibição",
+            "entity": "adventurez:shaman"
+        }
+    ]
+}

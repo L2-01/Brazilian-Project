@@ -1,0 +1,33 @@
+{
+	"name": "Fabricação do End",
+	"category": "packagedauto:recipe",
+	"icon": "packagedavaritia:end_crafter",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(thing)Fabricação do End/$ é um tipo de receita de fabricação que usa o $(item)Fabricador de Pacotes do End/$ para fabricar receitas fabricáveis numa $(item)Mesa de Fabricação do End/$.$(p)Itens fabricados pelo $(item)Fabricador de Pacotes do End/$ serão ejetados para inventários adjacentes.$(p)O $(item)Fabricador de Pacotes do End/$ requer energia."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"flag": "mod:ae2",
+			"item": "packagedavaritia:end_crafter",
+			"link_recipe": true,
+			"title": "Integração com AE2",
+			"text": "O $(item)Fabricador de Pacotes do End/$ pode ser conectado a uma $(thing)Rede ME/$.$(p)Ele vai extrair energia para usar e, em vez disso, ejetar os itens fabricados na rede."
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "!mod:ae2",
+			"recipe": "packagedavaritia:end_crafter",
+			"title": "Fabricação"
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "mod:ae2",
+			"recipe": "packagedavaritia:end_crafter_ae",
+			"title": "Fabricação"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 1503
+}

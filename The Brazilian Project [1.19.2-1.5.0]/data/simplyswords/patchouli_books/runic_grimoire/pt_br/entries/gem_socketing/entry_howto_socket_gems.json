@@ -1,0 +1,16 @@
+{
+  "name": "Encaixando Gemas",
+  "icon": "simplyswords:netherfused_gem",
+  "category": "simplyswords:category_gem_socketing",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:netherfused_gem",
+      "text": "Para encaixar uma gema, você deve ter no seu inventário tanto a gema quanto uma arma única com um encaixe vazio do mesmo tipo (rúnico / do nether)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Com o inventário aberto, clique com o botão esquerdo na gema para que ela se prenda ao seu cursor. Depois, basta clicar com o botão esquerdo na arma em que você quer encaixá-la. A gema vai desaparecer do cursor e sua arma única estará encaixada."
+    }
+  ]
+}

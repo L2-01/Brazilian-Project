@@ -1,0 +1,17 @@
+{
+  "name": "Gosma de Primogel",
+  "sortnum": 1,
+  "category": "justdirethings:goo",
+  "icon": "justdirethings:gooblock_tier1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Gosma de Primogel, o nível fundamental de gosma, pode transformar recursos básicos como Ferro em Ferricoro. Ela é perfeita para os primeiros experimentos em transformação de materiais e para aprimorar materiais comuns em algo mais útil e eficiente.$(br2)Fabricada de materiais simples do Mundo Superior, a Gosma de Primogel é o primeiro passo para explorar o potencial alquímico da gosma."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Gosma de Primogel",
+      "recipe": "justdirethings:gooblock_tier1"
+    }
+  ]
+}

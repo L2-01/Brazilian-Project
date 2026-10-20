@@ -1,0 +1,27 @@
+{
+    "name": "Vidro",
+    "icon": "bigreactors:reinforced_turbineglass",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_turbineglass",
+            "link_recipe": true,
+            "title" : "Vidro",
+            "text": "Os blocos de Vidro são blocos decorativos que podem ser usados, no lugar de um bloco de $(l:bigreactors:turbine/part-casing)Carcaça$(/l), para mostrar o interior da Turbina."
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic",
+            "recipe1": "bigreactors:turbine/basic/glass",
+            "title2": "Reinforced",
+            "recipe2": "bigreactors:turbine/reinforced/glass"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não"
+        }
+    ]
+}

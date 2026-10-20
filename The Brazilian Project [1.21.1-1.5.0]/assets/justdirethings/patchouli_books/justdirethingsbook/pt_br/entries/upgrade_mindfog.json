@@ -1,0 +1,17 @@
+{
+  "name": "Névoa Mental",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_mindfog",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esta habilidade passiva te torna mais difícil de detectar. Criaturas não conseguirão te detectar tão facilmente, e você pode chegar mais perto delas antes que fiquem hostis a você.$(br2)Níveis maiores de armadura tornam esta habilidade ainda mais eficaz."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Névoa Mental",
+      "recipe": "justdirethings:upgrade_mindfog"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Infusão",
+  "icon": "simplyswords:runic_tablet",
+  "category": "simplyswords:category_rune_etching",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:runic_tablet",
+      "title": "Infusão",
+      "text": "Infusão é um poder rúnico que imbui a arma do usuário com a $(#389fff)$(l)essência da magia$(). $(br2)Dá à arma a capacidade de investir com uma energia mágica potente ao acertar inimigos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O dano mágico causado por Infusão costuma ser imprevisível e tende a diminuir conforme a arma sofre dano de durabilidade. Manter a arma com Infusão reparada é prudente."
+    }
+  ]
+}

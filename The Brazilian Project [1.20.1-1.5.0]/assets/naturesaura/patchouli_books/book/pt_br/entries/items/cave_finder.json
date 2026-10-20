@@ -1,0 +1,21 @@
+{
+    "name": "Cajado das Sombras",
+    "icon": "naturesaura:cave_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Às vezes, especialmente ao tentar criar uma área de geração de monstros, cavernas ao redor e $(thing)pontos escuros$() precisam ser iluminados. Porém, eles costumam ser difíceis de localizar, causando muita escavação desnecessária apenas para encontrá-los.$(br)O $(item)Cajado das Sombras$() torna esse processo muito mais eficiente: ao ativá-lo, ele $(thing)visualizará$() todos os lugares escuros numa área de cerca de"
+        },
+        {
+            "type": "text",
+            "text": "30 blocos ao redor do ponto de ativação por cerca de 30 segundos, dando a qualquer um tempo suficiente para cavar até elas e iluminá-las.$(br)As áreas visualizadas são aquelas onde a luz natural e artificial será baixa o suficiente para monstros aparecerem.$(p)Naturalmente, encontrar e exibir áreas dessa maneira exigirá uma quantidade considerável de $(aura) de um $(l:items/aura_cache)Cache de Aura$() ou similar."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Cajado das Sombras$()",
+            "recipe": "naturesaura:cave_finder"
+        }
+    ]
+}

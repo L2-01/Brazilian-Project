@@ -1,0 +1,17 @@
+{
+    "name": "Mamute",
+    "icon": "adventurez:blackstone_golem_heart",
+    "category": "adventurez:mob_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Mamutes são criaturas amigáveis e algumas pessoas dizem que estão extintos. Eles podem ser reproduzidos com grama e são encontrados em ambientes muito frios."
+        },
+        {
+            "type": "entity",
+            "name": "Exibição",
+            "entity": "adventurez:mammoth",
+            "scale": 0.8
+        }
+    ]
+}

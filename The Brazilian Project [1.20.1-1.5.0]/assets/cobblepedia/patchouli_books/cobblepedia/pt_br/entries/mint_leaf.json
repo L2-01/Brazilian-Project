@@ -1,0 +1,24 @@
+{
+    "name": "book.cobblepedia.entries.mint_leaf",
+    "category": "cobblepedia:agriculture",
+    "icon": "cobblemon:red_mint_leaf",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.mint_leaf",
+            "item": "tag:cobblemon:mint_leaf",
+            "text": "book.cobblepedia.entries.mint_leaf.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:red_mint_leaf",
+                "cobblepedia:blue_mint_leaf",
+                "cobblepedia:cyan_mint_leaf",
+                "cobblepedia:pink_mint_leaf",
+                "cobblepedia:green_mint_leaf",
+                "cobblepedia:white_mint_leaf"
+            ]
+        }
+    ]
+}

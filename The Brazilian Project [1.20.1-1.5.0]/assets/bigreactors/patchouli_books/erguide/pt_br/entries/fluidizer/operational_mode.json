@@ -1,0 +1,17 @@
+{
+    "name": "Modo de operação",
+    "icon": "bigreactors:verderium_bucket",
+    "category": "bigreactors:fluidizer",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "O Fluidificador pode processar materiais nos três modos diferentes a seguir, dependendo do tipo e número de Injetores na máquina:$(br2)$(li)$(o)Modo Sólido: $() transforma fontes de combustível sólidas (como lingotes) em combustível fluido. Para ativar este modo, você precisa de um, e apenas um, Injetor de Sólidos na máquina"
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(o)Modo de Mistura Sólida: $() transforma duas fontes de combustível sólidas (como lingotes) em fluido e as mistura para criar um novo tipo de combustível. Para ativar este modo, você precisa de dois, e apenas dois, Injetores de Sólidos na máquina.$(li)$(o)Modo de Mistura de Fluidos: $() mistura dois combustíveis fluidos num novo tipo de combustível. Para ativar este modo, você precisa de dois, e apenas dois, Injetores de Fluidos na máquina."
+        }
+    ]
+}

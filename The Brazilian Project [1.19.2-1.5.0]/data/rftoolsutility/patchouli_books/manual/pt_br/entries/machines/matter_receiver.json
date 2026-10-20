@@ -1,0 +1,15 @@
+{
+  "name": "Receptor de Matéria",
+  "icon": "rftoolsutility:matter_receiver",
+  "category": "rftoolsutility:category_rftoolsutility_machines",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Receptor de Matéria é para onde um jogador pode se teletransportar a partir de um $(l:rftoolsutility:machines/matter_transmitter)Transmissor de Matéria$(/l). Use o $(l:rftoolsutility:machines/dialing_device)Dispositivo de Discagem$(/l) para discar um transmissor de matéria para este receptor.$(br2)$(5)Infundir$() esta máquina causa consumo reduzido de energia"
+    },
+    {
+      "type": "text",
+      "text": "Note que é muito importante que o Receptor de Matéria tenha energia suficiente. Caso contrário, o jogador corre o risco de efeitos ruins ao se teletransportar"
+    }
+  ]
+}

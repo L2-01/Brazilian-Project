@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.cell_battery",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:cell_battery",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:cell_battery",
+            "text": "book.cobblepedia.entries.cell_battery.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:cell_battery",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

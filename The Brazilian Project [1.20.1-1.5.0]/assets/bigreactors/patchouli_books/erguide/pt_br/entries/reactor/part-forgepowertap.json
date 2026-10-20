@@ -1,0 +1,38 @@
+{
+    "name": "Saída de Energia Forge",
+    "icon": "bigreactors:reinforced_reactorpowertapfe_active",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_reactorpowertapfe_passive",
+            "link_recipe": true,
+            "title" : "Saída de Energia Forge",
+            "text": "A Saída de Energia Forge permite extrair energia de um Reator com $(l:bigreactors/passive)resfriamento passivo$(/l). Esta Saída de Energia emite energia usando o $(l:bigreactors/powersystem)sistema de energia$(/l) Forge Energy, o que significa que só pode ser conectada a tubos ou máquinas compatíveis com esse sistema."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Apenas um $(l:bigreactors/powersystem)sistema de energia$(/l) pode ser usado por Reator, o que significa que apenas um tipo de Saída de Energia pode ser utilizado numa única construção de Reator. A Saída de Energia está disponível nas formas $(l:bigreactors/passiveactiveparts)passiva e ativa$(/l)."
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic (Passive)",
+            "recipe1": "bigreactors:reactor/basic/passivetap_fe",
+            "title2": "Reinforced (Passive)",
+            "recipe2": "bigreactors:reactor/reinforced/passivetap_fe"
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic (Active)",
+            "recipe1": "bigreactors:reactor/basic/activetap_fe",
+            "title2": "Reinforced (Active)",
+            "recipe2": "bigreactors:reactor/reinforced/activetap_fe"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não$(br)$(l)Sistema de energia:$() Forge Energy"
+        }
+    ]
+}

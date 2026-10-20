@@ -1,0 +1,26 @@
+{
+  "name": "Dispositivo de Destruição",
+  "sortnum": 5,
+  "category": "buildinggadgets2:gadgets",
+  "icon": "buildinggadgets2:gadget_destruction[buildinggadgets2:forge_energy=2000000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O dispositivo de destruição torna limpar uma área grande muito fácil. Quaisquer blocos limpos serão $(bold)anulados!$(clear).$(br2)Primeiro, abra o menu de configurações e ajuste a área. Essa área é relativa ao bloco (e à face do bloco) para o qual você está olhando.$(br2)Se você olhar para a face de cima de um bloco, 'para cima' será relativo à tela do jogador."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Dispositivo de Destruição",
+      "images": [
+        "buildinggadgets2:textures/book/images/destruction1.png",
+        "buildinggadgets2:textures/book/images/destruction2.png"
+      ],
+      "border": true,
+      "text": "Destruindo uma área — clique na seta para ver outras imagens!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando estiver satisfeito com as configurações, clique com o botão direito num bloco para anular todos os blocos destacados. Eles serão removidos do mundo. $(br2)Você pode desfazer esta ação se cometer um erro. Isso não removerá itens do seu inventário ao desfazer, pois o dispositivo está apenas devolvendo os blocos anulados ao mundo."
+    }
+  ]
+}

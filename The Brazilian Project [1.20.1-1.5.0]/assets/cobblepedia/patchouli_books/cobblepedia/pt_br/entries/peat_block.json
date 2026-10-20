@@ -1,0 +1,28 @@
+{
+    "name": "item.cobblemon.peat_block",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:peat_block",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:peat_block",
+            "link_recipe": true,
+            "title": "item.cobblemon.peat_block",
+            "text": "book.cobblepedia.entries.peat_block.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:peat_block",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.peat_block.evolving",
+            "using_item2": "cobblemon:peat_block",
+            "pokemon2": "cobblemon:ursaring",
+            "evolved_pokemon2": "cobblemon:ursaluna"
+        }
+    ]
+}

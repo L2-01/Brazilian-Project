@@ -1,0 +1,21 @@
+{
+    "name": "Auxílio do Armeiro",
+    "icon": "naturesaura:blast_furnace_booster",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Desde que os cientistas aldeões descobriram o uso de materiais de nível mais alto para criar um $(item)Alto-Forno$(), os botânicos mágicos tentaram melhorar ainda mais essa tecnologia. Eles descobriram que a $(aura) pode ser capaz de purificar qualquer tipo de $(thing)minério$() a ponto de ter uma chance de produzir $(thing)dois lingotes$() em vez de um."
+        },
+        {
+            "type": "text",
+            "text": "Essas capacidades podem ser introduzidas através de um $(item)Auxílio do Armeiro$(), que simplesmente precisa ser colocado em cima de um $(item)Alto-Forno$().$(p)Vale notar, em nome da $(thing)automação$(), que minérios podem ser inseridos em qualquer lado do $(item)Auxílio do Armeiro$() usando um $(item)Funil$() ou dispositivo similar. Isso fará com que os itens vão parar na área de fundição como se tivessem sido alimentados diretamente pelo topo do $(item)Alto-Forno$()."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Auxílio do Armeiro$()",
+            "recipe": "naturesaura:blast_furnace_booster"
+        }
+    ]
+}

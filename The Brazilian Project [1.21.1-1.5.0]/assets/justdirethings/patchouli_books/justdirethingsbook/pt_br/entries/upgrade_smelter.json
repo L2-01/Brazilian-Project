@@ -1,0 +1,17 @@
+{
+  "name": "Fundição",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_smelter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fundir itens instantaneamente com a melhoria Fundição. Aplicada a ferramentas, esta melhoria permite obter diretamente os produtos fundidos de minérios minerados.$(br2)Usa um pouco de durabilidade."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Fundição",
+      "recipe": "justdirethings:upgrade_smelter"
+    }
+  ]
+}

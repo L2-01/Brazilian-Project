@@ -1,0 +1,24 @@
+{
+  "name": "block.apprenticecodex.magnetic_stability_anchor",
+  "category": "apprenticecodex:devices",
+  "icon": "apprenticecodex:magnetic_stability_anchor",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:magnetic_stability_anchor",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.magnetic_stability_anchor.page.p001.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.auto_magnet"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:magnetic_stability_anchor",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.magnetic_stability_anchor.page.p002.text"
+    }
+  ]
+}

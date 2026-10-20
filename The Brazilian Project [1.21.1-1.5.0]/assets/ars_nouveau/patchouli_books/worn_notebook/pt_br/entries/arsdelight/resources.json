@@ -1,0 +1,31 @@
+{
+	"category": "ars_nouveau:arsdelight",
+	"icon": "arsdelight:chimera_horn",
+	"name": "arsdelight.patchouli.resources.title",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "arsdelight.patchouli.resources.page1"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "tag:arsdelight:barks",
+			"text": "arsdelight.patchouli.resources.barks"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "arsdelight:wilden_meat",
+			"text": "arsdelight.patchouli.resources.wilden_meat"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "arsdelight:chimera_meat",
+			"text": "arsdelight.patchouli.resources.chimera_meat"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "arsdelight:chimera_horn",
+			"text": "arsdelight.patchouli.resources.chimera_horn"
+		}
+	]
+}

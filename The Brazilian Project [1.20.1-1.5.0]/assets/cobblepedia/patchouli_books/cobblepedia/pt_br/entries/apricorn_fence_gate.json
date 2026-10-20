@@ -1,0 +1,20 @@
+{
+    "name": "block.cobblemon.apricorn_fence_gate",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:apricorn_fence_gate",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:apricorn_fence_gate",
+            "title": "block.cobblemon.apricorn_fence_gate",
+            "text": "book.cobblepedia.entries.apricorn_fence_gate.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:apricorn_fence_gate",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.apricorn_fence_gate.crafting"
+        }
+    ]
+}

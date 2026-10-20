@@ -1,0 +1,29 @@
+{
+    "name": "book.cobblepedia.entries.candy",
+    "category": "cobblepedia:consumables",
+    "icon": "cobblemon:rare_candy",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.candy",
+            "item": "tag:cobblemon:experience_candies",
+            "text": "book.cobblepedia.entries.candy.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.candy.obtaining.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:rare_candy",
+                "cobblepedia:exp_candy_xs",
+                "cobblepedia:exp_candy_s",
+                "cobblepedia:exp_candy_m",
+                "cobblepedia:exp_candy_l",
+                "cobblepedia:exp_candy_xl"
+            ]
+        }
+    ]
+}

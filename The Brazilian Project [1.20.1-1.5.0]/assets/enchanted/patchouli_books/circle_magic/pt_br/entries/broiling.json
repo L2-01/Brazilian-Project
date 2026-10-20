@@ -1,0 +1,17 @@
+{
+  "name": "Escaldadura",
+  "icon": "minecraft:beef",
+  "category": "enchanted:world",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Escaldadura",
+      "text": "Cozinha rapidamente todas as comidas cruas dentro do círculo $(br2)Como o calor é muito intenso, há chance de parte da comida queimar."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:broiling"
+    }
+  ],
+  "read_by_default": true
+}

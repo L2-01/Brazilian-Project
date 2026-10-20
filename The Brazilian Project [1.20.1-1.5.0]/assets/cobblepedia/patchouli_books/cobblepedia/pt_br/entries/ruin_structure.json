@@ -1,0 +1,36 @@
+{
+    "name": "book.cobblepedia.entries.ruin_structure.name",
+    "category": "cobblepedia:archaeology",
+    "icon": "minecraft:cracked_stone_bricks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.ruin_structure.text"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "book.cobblepedia.pages.generation",
+            "images": [
+                "cobblepedia:textures/gui/entries/crumbling_arch_ruins.png"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:crumbling_arch_ruins",
+                "cobblepedia:decaying_crypt_ruins",
+                "cobblepedia:deserted_house_ruins",
+                "cobblepedia:deserted_tower_ruins",
+                "cobblepedia:deserted_town_center_ruins",
+                "cobblepedia:fallen_statue_ruins",
+                "cobblepedia:hidden_bunker_ruins",
+                "cobblepedia:mossy_oubliette_ruins",
+                "cobblepedia:rooted_arch_ruins",
+                "cobblepedia:toppled_pillars_ruins",
+                "cobblepedia:unstable_cave_ruins",
+                "cobblepedia:gimmighoul_towers"
+            ]
+        }
+    ]
+}

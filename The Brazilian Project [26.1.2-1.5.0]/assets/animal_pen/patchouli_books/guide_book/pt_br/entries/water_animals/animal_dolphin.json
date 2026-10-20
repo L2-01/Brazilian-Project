@@ -1,0 +1,22 @@
+{
+  "name": "Golfinho",
+  "icon": "minecraft:dolphin_spawn_egg",
+  "category": "animal_pen:category_aquarium",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:dolphin",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:fishes",
+      "text": "Alimente os golfinhos com qualquer peixe para procriá-los e aumentar seu número no Aquário."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:swords,tag:minecraft:axes",
+      "text": "Usar uma espada ou machado no Aquário matará o golfinho e largará seu saque."
+    }
+  ]
+}

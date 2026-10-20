@@ -1,0 +1,38 @@
+{
+    "name": "book.cobblepedia.entries.type_boosting_items",
+    "category": "cobblepedia:held_items",
+    "icon": "cobblemon:black_belt",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.type_boosting_items.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:black_belt",
+                "cobblepedia:black_glasses",
+                "cobblepedia:charcoal_stick",
+                "cobblepedia:dragon_fang",
+                "cobblepedia:hard_stone",
+                "cobblepedia:magnet",
+                "cobblepedia:metal_coat",
+                "cobblepedia:miracle_seed",
+                "cobblepedia:mystic_water",
+                "cobblepedia:never_melt_ice",
+                "cobblepedia:poison_barb",
+                "cobblepedia:silk_scarf"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:silver_powder",
+                "cobblepedia:soft_sand",
+                "cobblepedia:spell_tag",
+                "cobblepedia:twisted_spoon",
+                "cobblepedia:fairy_feather"
+            ]
+        }
+    ]
+}

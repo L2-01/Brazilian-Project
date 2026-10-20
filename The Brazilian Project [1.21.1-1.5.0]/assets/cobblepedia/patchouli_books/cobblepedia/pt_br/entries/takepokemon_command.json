@@ -1,0 +1,17 @@
+{
+    "name": "book.cobblepedia.entries.takepokemon_command",
+    "category": "cobblepedia:commands",
+    "read_by_default": true,
+    "icon": "cobblemon:upgrade",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.takepokemon_command.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.takepokemon_command.usage"
+        }
+    ]
+}

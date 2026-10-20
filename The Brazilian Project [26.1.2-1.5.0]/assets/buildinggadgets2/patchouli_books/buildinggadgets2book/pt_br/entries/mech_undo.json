@@ -1,0 +1,16 @@
+{
+  "name": "Desfazer",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/undo.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Desfazer reverte a última tarefa que seu dispositivo fez, seja removendo o último conjunto de blocos construído, seja trocando o último conjunto de blocos de volta.$(br2)Se estiver trocando de volta, certifique-se de ainda ter os itens necessários no seu inventário!$(br2)Desfazer lembra as últimas 10 ações que o dispositivo fez."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Desfazer pode ser acessado via tecla de atalho ou pelo Menu de Configurações do seu dispositivo.$(br2)O dispositivo de recortar e colar não tem funcionalidade de desfazer!"
+    }
+  ]
+}

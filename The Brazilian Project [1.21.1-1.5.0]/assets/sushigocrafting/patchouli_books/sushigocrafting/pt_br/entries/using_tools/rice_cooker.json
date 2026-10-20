@@ -1,0 +1,17 @@
+{
+  "name": "Panela de Arroz",
+  "icon": "sushigocrafting:rice_cooker",
+  "category": "sushigocrafting:using_tools",
+  "sortnum": 2,
+  "read_by_default": false,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uma máquina usada para cozinhar arroz perfeitamente nos padrões do $(6)Uncle Roger$(). Para cozinhar você vai precisar de Arroz, Água e um pouco de combustível. $(br2)Você não vai precisar se preocupar com os pesos no espaço de saída; o Arroz Cozido será combinado automaticamente."
+    },
+    {
+      "type": "crafting",
+      "recipe": "sushigocrafting:rice_cooker"
+    }
+  ]
+}

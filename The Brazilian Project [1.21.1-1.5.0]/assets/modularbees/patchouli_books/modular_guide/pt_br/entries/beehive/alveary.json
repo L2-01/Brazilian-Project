@@ -1,0 +1,17 @@
+{
+  "name": "Apiário Modular",
+  "icon": "modularbees:modular_beehive_alveary",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Apiário Modular",
+      "text": "A colmeia central em si não pode abrigar abelhas, então você precisa do Apiário para alojar todas as suas abelhas.$(br)Cada Apiário pode abrigar 5 abelhas; você precisa usar gaiolas de abelha para colocar abelhas no Apiário.$(br)Dica: você pode clicar com o botão direito no Apiário com gaiolas de abelha para inserir/extrair abelhas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_alveary"
+    }
+  ]
+}

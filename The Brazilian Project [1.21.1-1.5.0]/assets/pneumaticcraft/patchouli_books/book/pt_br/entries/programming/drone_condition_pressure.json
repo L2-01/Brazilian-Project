@@ -1,0 +1,19 @@
+{
+  "name": "Widget de Condição de Drone: Pressão",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_drone_pressure_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este é um widget de $(l:programming/conditions)Condição/$.$(p)O widget $(thing)Condição de Drone: Pressão/$ permite verificar a $(l:base_concepts/pressure)pressão/$ deste $(l:tools/drone)Drone/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_drone_pressure_piece.png"
+      ],
+      "text": "$(italic)Widget de Condição de Drone: Pressão/$"
+    }
+  ]
+}

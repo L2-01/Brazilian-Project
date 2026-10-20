@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:chat_detector",
+  "name": "Detector de Chat",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:chat_detector",
+      "link_recipe": true,
+      "text": "O $(d)Detector de Chat$() emite um sinal de redstone quando o jogador que o colocou diz uma frase específica no chat.$(br2)A caixa de texto na sua interface é, na verdade, um campo de $(o)regex$(), então pode ser bem sofisticada.$(br2)Você também pode alternar se a mensagem é cancelada ou não.",
+      "title": "Detector de Chat"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:global_chat_detector",
+      "link_recipe": true,
+      "text": "O $(d)Detector de Chat Global$() funciona da mesma forma, mas escuta mensagens de chat de todos os jogadores, não apenas de quem o colocou.$(br2)Porém, ele só pode cancelar mensagens enviadas pelo seu dono.",
+      "title": "Detector de Chat Global"
+    }
+  ]
+}

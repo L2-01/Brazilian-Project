@@ -1,0 +1,18 @@
+{
+  "name": "Genes de Abelha",
+  "icon": "productivebees:gene",
+  "category": "mystianapiary:bee_mechanics",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Produtividade",
+      "text": "Os genes do Productive Bees importam principalmente para abelhas soltas no mundo. Dentro do apiário, o que conta é a $(2)Produtividade$().$(br2)Um gene de Produtividade mais alto significa que uma abelha produz mais a cada ciclo, e se soma à $(l:mystianapiary:upgrades)melhoria de Produtividade$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Verificando uma Abelha",
+      "text": "Passe o mouse sobre uma abelha na $(l:mystianapiary:modules#input)Caixa de Abelhas$() para ver os genes dela.$(br2)Cruze por Produtividade mais alta para tirar o máximo do seu apiário."
+    }
+  ]
+}

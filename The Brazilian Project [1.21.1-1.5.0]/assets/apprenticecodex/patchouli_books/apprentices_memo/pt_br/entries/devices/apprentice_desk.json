@@ -1,0 +1,30 @@
+{
+  "name": "block.apprenticecodex.apprentice_desk",
+  "category": "apprenticecodex:devices",
+  "icon": "apprenticecodex:apprentice_desk",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:apprentice_desk",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.apprentice_desk.page.p001.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.crude_ink"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:apprentice_desk",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.apprentice_desk.page.p002.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:staves_and_casting_devices/wooden_wand"
+      ]
+    }
+  ]
+}

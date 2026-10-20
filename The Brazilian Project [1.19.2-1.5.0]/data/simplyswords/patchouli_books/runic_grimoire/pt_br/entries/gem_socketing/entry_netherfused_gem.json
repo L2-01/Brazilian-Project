@@ -1,0 +1,20 @@
+{
+  "name": "Gema do Nether",
+  "icon": "simplyswords:netherfused_gem",
+  "category": "simplyswords:category_gem_socketing",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:netherfused_gem",
+      "text": "Gemas do Nether podem ser obtidas combinando um Remanescente Fortalecido e uma Barra de Netherita numa mesa de ferraria. Uma vez identificadas, essas gemas revelam um poder aleatório abrigado dentro delas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Gemas do Nether podem ser encaixadas em armas únicas que contenham um [ encaixe do nether ] vazio."
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherfused_gem"
+    }
+  ]
+}

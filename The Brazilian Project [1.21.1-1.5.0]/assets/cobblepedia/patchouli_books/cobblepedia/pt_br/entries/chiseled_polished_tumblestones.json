@@ -1,0 +1,21 @@
+{
+    "name": "book.cobblepedia.entries.chiseled_polished_tumblestones.name",
+    "category": "cobblepedia:items",
+    "icon": "cobblemon:chiseled_polished_tumblestone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.chiseled_polished_tumblestones.name",
+            "item": "cobblemon:chiseled_polished_tumblestone,cobblemon:chiseled_polished_black_tumblestone,cobblemon:chiseled_polished_sky_tumblestone",
+            "text": "book.cobblepedia.entries.chiseled_polished_tumblestones.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:chiseled_polished_tumblestone",
+                "cobblepedia:chiseled_polished_black_tumblestone",
+                "cobblepedia:chiseled_polished_sky_tumblestone"
+            ]
+        }
+    ]
+}

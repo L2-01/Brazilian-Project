@@ -1,0 +1,22 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:block_destabilizer",
+  "name": "Desestabilizador de Blocos",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(d)Desestabilizador de Blocos$() faz o bloco à sua frente, e todos os blocos conectados do mesmo tipo, $(3)caírem como areia$() quando recebe um pulso de redstone.$(br2)Na sua interface, você pode alternar várias configurações relacionadas ao modo Preguiçoso.",
+      "title": "Desestabilizador de Blocos"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:block_destabilizer",
+      "link_recipe": true,
+      "text": "No modo Preguiçoso, ele $(3)lembra quais posições de blocos desestabilizar$(), mesmo que sejam blocos diferentes.$(br2)Se o Formato Preguiçoso não estiver definido, ele será definido na primeira vez que for ativado no modo Preguiçoso."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clicar no botão $(3)Mostrar Formato Preguiçoso$() mostrará cubos onde estão todas as posições do Formato Preguiçoso.$(br2)Note que essa parte $(c)não funciona muito bem com o Sodium$(); você deveria ver essas posições através dos blocos, mas isso não funciona.$(br2)Por fim, o botão $(3)Esquecer Formato Preguiçoso$() limpa o formato salvo."
+    }
+  ]
+}

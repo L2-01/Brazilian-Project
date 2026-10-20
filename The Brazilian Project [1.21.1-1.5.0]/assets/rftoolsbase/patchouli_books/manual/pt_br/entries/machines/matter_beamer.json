@@ -1,0 +1,29 @@
+{
+  "name": "Emissor de Matéria",
+  "icon": "rftoolsutility:matter_beamer",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:matter_beamer": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Emissor de Matéria envia itens de material para um $(l:rftoolsbase:machines/spawner)Gerador$(/l). Ele tem um espaço de entrada, usa FE enquanto ativo e envia itens apenas quando o gerador vinculado pode usá-los."
+    },
+    {
+      "type": "crafting",
+      "heading": "Emissor de Matéria",
+      "recipe": "rftoolsutility:matter_beamer"
+    },
+    {
+      "type": "text",
+      "title": "Vinculando",
+      "text": "Use uma chave-inglesa no Emissor de Matéria e depois use a chave-inglesa no Gerador alvo. Usar a chave-inglesa novamente no emissor selecionado limpa o destino."
+    },
+    {
+      "type": "text",
+      "title": "Operação",
+      "text": "Dê um sinal de redstone ao emissor e insira os materiais necessários para a receita do gerador. $(5)Infundir$() envia mais itens por pulso e reduz o custo de FE."
+    }
+  ]
+}

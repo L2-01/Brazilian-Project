@@ -1,0 +1,22 @@
+{
+  "name": "Módulo de Carga",
+  "icon": "pneumaticcraft:charging_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este módulo de tubo permite carregar (ou descarregar) itens pressurizáveis no inventário para o qual ele aponta, ex.: um baú com suas ferramentas pneumáticas, ou $(l:components/air_canister)Cilindros de Ar/$ para transferência de ar a longa distância (talvez através de algum tipo de sistema de inventário de Ender).$(p)Você também pode apontar este módulo para uma $(l:machines/aerial_interface)Interface Aérea/$ para carregar itens no seu próprio inventário de jogador."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "Aplicar um $(l:tubes/module_expansion_card)Cartão de Expansão de Módulo/$ ao Módulo de Carga aumenta a taxa de carga do módulo de 10mL/tique (por item) para 100mL/tique (por item)"
+    },
+    {
+      "type": "crafting",
+      "text": "Fabricando um Módulo de Carga",
+      "recipe": "pneumaticcraft:charging_module"
+    }
+  ]
+}

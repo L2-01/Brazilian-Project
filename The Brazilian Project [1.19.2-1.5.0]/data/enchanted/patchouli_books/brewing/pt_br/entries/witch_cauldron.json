@@ -1,0 +1,32 @@
+{
+  "name": "Caldeirão de Bruxa",
+  "icon": "enchanted:witch_cauldron",
+  "category": "enchanted:cauldron",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O caldeirão de bruxa é um caldeirão melhorado usado para criar substâncias mágicas e poções personalizadas (WIP). $(br2)O caldeirão deve ser colocado sobre uma fonte de calor para ferver e pode exigir poder de altar.$(br2)Se um Caldeirão não tiver calor ou poder suficiente, a poção ficará marrom e estragará, devendo ser removida."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "enchanted:witch_cauldron",
+          "1": "minecraft:campfire[lit=true]"
+        },
+        "pattern": [
+          [ " 0 " ],
+          [ " 1 " ]
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:anointing_paste",
+      "text": "Use pasta de unção num caldeirão comum para transformá-lo num caldeirão de bruxa.$(br2)Uma poção pode ser criada enchendo o caldeirão de água e largando os itens corretos na ordem correta dentro dele."
+    }
+  ],
+  "read_by_default": false,
+  "priority": true
+}

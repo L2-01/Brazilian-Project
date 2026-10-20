@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.soft_sand",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:soft_sand",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:soft_sand",
+            "text": "book.cobblepedia.entries.soft_sand.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:soft_sand",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.soft_sand.holding"
+        }
+    ]
+}

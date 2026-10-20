@@ -1,0 +1,19 @@
+{
+    "name": "Pólen",
+    "icon": "productivetrees:pollen",
+    "category": "productivetrees:stuff",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "flag": "mod:productivebees",
+            "item": "productivetrees:pollen",
+            "text": "O pólen coletado por abelhas pode ser usado para polinizar folhas manualmente e criar novas espécies de árvore. Veja no JEI quais árvores cruzam entre si para saber qual pólen usar em quais folhas."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "flag": "!mod:productivebees",
+            "item": "productivetrees:pollen",
+            "text": "O pólen coletado por peneiras de pólen pode ser usado para polinizar folhas manualmente e criar novas espécies de árvore. Veja no JEI quais árvores cruzam entre si para saber qual pólen usar em quais folhas."
+        }
+    ]
+}

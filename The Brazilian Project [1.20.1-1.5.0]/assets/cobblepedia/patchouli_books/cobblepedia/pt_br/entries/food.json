@@ -1,0 +1,21 @@
+{
+    "name": "book.cobblepedia.entries.food",
+    "category": "cobblepedia:consumables",
+    "icon": "cobblemon:leek_and_potato_stew",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.food.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:medicinal_leek",
+                "cobblepedia:roasted_leek",
+                "cobblepedia:leek_and_potato_stew",
+                "cobblepedia:braised_vivichoke",
+                "cobblepedia:vivichoke_dip"
+            ]
+        }
+    ]
+}

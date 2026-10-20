@@ -1,0 +1,52 @@
+{
+    "name": "Ritual da Floresta",
+    "icon": "naturesaura:wood_stand",
+    "category": "naturesaura:practices",
+    "advancement": "naturesaura:gold_leaf",
+    "priority": true,
+    "turnin": "naturesaura:wood_stand",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ao começar como botânico mágico, é benéfico usar os poderes da natureza num nível mais direto antes de mergulhar diretamente na $(aura). O $(item)Ritual da Floresta$() usa propriedades do $(l:practices/gold_trees)Pó de Ouro$() para incorporar o poder de ingredientes naturais diretamente numa árvore fresca e em crescimento, devorando-a no processo, mas ao mesmo tempo, transformando-a em ferramentas e itens úteis."
+        },
+        {
+            "type": "text",
+            "text": "Para construir este $(thing)ritual$(), deve-se colocar $(item)Pó de Ouro$() na configuração mostrada na próxima página, com alguns $(item)Suportes de Madeira$() ao redor que segurarão os ingredientes.$(br)Então, a $(item)Muda$() correta deve ser colocada no meio e, seja por algum tipo de fertilizante ou pela inevitabilidade do tempo, seu crescimento fará o ritual começar.$(br)Note que é preciso cuidado, pois rituais exigem $(bold)tipos específicos de mudas$()."
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:tree_ritual",
+            "text": "Preparando o $(item)Ritual da Floresta$(). Não é necessário ter todos os $(item)Suportes de Madeira$() presentes."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando $(item)Suportes de Madeira$()",
+            "recipe": "naturesaura:wood_stand"
+        },
+        {
+            "type": "text",
+            "text": "Junto com o ritual, o conhecimento dos $(item)Símbolos$() pode ser obtido: estatuetas de madeira, representando emoções-chave - criadas de árvores infundidas com seus respectivos símbolos. Essas estatuetas contêm uma combinação do vasto poder da própria $(aura) e o poder das emoções que representam.$(p)Daqui em diante, esses $(item)Símbolos$() serão um ingrediente-chave de construção."
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_joy",
+            "text": "Criando o $(item)Símbolo de Alegria$(), infundido com itens que despertam alegria, encontrados na natureza, na exploração e na beleza"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_fear",
+            "text": "Criando o $(item)Símbolo de Medo$(), infundido com itens que representam transitoriedade, queda"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_anger",
+            "text": "Criando o $(item)Símbolo de Ira$(), infundido com componentes sombrios - explosividade, fogo, escuridão"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_sorrow",
+            "text": "Criando o $(item)Símbolo de Tristeza$(), infundido com lágrimas, fragilidade e morte"
+        }
+    ]
+}

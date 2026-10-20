@@ -1,0 +1,17 @@
+{
+    "name": "Sobrecura",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Ter $(9)Sobrecura$() significa que parte do seu dano físico causado será ganha como escudo de absorção.$(p)Ao contrário do roubo de vida, a Sobrecura funciona quando você está com a vida cheia."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "A absorção é limitada à metade da sua vida máxima e só se aplica a golpes corpo a corpo.$(p)Este atributo só é encontrado em armas corpo a corpo."
+        }
+    ]
+}

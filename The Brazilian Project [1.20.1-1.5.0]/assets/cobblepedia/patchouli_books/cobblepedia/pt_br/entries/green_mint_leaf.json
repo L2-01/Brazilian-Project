@@ -1,0 +1,28 @@
+{
+    "name": "item.cobblemon.green_mint_leaf",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:green_mint_leaf",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:green_mint_leaf",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.green_mint_leaf.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "entries": [
+                "cobblepedia:brave_mint",
+                "cobblepedia:relaxed_mint",
+                "cobblepedia:quiet_mint",
+                "cobblepedia:sassy_mint",
+                "cobblepedia:timid_mint",
+                "cobblepedia:hasty_mint",
+                "cobblepedia:jolly_mint",
+                "cobblepedia:naive_mint"
+            ]
+        }
+    ]
+}

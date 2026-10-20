@@ -1,0 +1,25 @@
+{
+    "name": "Reagentes",
+    "icon": "bigreactors:yellorium_ingot",
+    "category": "bigreactors:reactor",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Um reagente é uma substância química que você pode usar dentro do seu Reator para sustentar uma reação nuclear.$(br2)Há dois tipos de reagentes:$(li)$(bold)Combustível:$() literalmente, o combustível que sustenta a reação nuclear em cadeia dentro das $(l:bigreactors:reactor/part-fuelrod)Barras de Combustível$(/l)$(li)$(bold)Resíduo:$() o subproduto da reação depois que o combustível é consumido."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O Extreme Reactors registra, por padrão, quatro reagentes: os combustíveis Yellório e Blutônio e seus resíduos associados, Cianita e Magentita.$(br2)Cada reagente tem uma lista de itens que podem ser usados para produzir aquele reagente, por exemplo, inserindo-os numa $(l:bigreactors:reactor/part-solidaccessport)Porta de Acesso Sólido$(/l).$(br2)O Yellório, por exemplo, pode ser obtido a partir de $(l:bigreactors:intro/ores)Lingotes de Yellório$(/l). A Cianita, quando ejetada do Reator, vira Lingotes de Cianita."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Alguns reagentes podem ser produzidos no $(l:bigreactors:reprocessor/reprocessing)Reprocessador$(/l) convertendo resíduos em novas fontes de combustível.$(br2)Cada tipo de Combustível tem suas próprias propriedades e se comporta de forma diferente dentro do Reator$(br2)Outros mods ou modpacks podem adicionar seus próprios reagentes, tipos de combustível e fontes de reagentes, ou modificar/remover os padrões."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Itens que podem ser usados para produzir um reagente do tipo combustível são marcados com uma dica especial que você pode ver, se quiser se dar spoilers, ativando o recurso $(italic)Dicas de Ferramentas Avançadas$() do Minecraft (F3 + H)."
+        }
+    ]
+}

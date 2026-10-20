@@ -1,0 +1,40 @@
+{
+  "name": "Noções de Melhoria",
+  "sortnum": 0,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_mobscanner",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As melhorias são instaladas em $(l:justdirethings:tools)Ferramentas$(/l) ou $(l:justdirethings:armor)Armaduras$(/l) para conceder certas habilidades a elas. Elas podem ser instaladas usando a Bancada de Ferraria — você consegue pesquisar a receita com o JEI.$(br2)Há vários tipos de habilidades."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Habilidades de Uso$() são usadas para ativar. Por exemplo, o Escaneador de Criaturas é uma habilidade de uso que, quando ativada, mostra a posição de todas as criaturas próximas.$(br2)$(l)Habilidades Passivas$() afetam como sua ferramenta opera. Por exemplo, a habilidade martelo permite à ferramenta quebrar numa área 3x3, 5x5 ou 7x7 sempre que você minera um bloco."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Algumas habilidades têm $(l)recargas$() — como a habilidade de invulnerabilidade, que te deixa invulnerável por alguns segundos, mas não pode ser usada de novo por alguns minutos. Habilidades $(l)passivas$() e $(l)ativas$() podem ter recargas, mas nem todas têm. Veja as seções individuais de melhoria para mais detalhes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "As habilidades podem ser controladas pela $(l)Tela de Configurações da Ferramenta$(), ativada com shift + clique direito em qualquer ferramenta.$(br2)Nesta tela, você pode acessar as configurações de outras ferramentas clicando nelas na UI. Por exemplo, shift + clique direito numa Espada de Ferricoro para abrir a UI e depois clique no seu Capacete de Ferricoro para acessar as configurações dele."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao olhar um item, você verá um ícone representando cada uma das suas habilidades. Clique com o botão esquerdo no ícone para ligar ou desligar a habilidade.$(br2)Quando desligadas, as habilidades ativas não serão disparadas pelo atalho, e as passivas não causarão seus efeitos.$(br2)Por exemplo, se você desligar a habilidade martelo, sua picareta minerará apenas 1 bloco."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clique com o botão direito na habilidade para acessar a tela de opções dela. Para habilidades $(l)ativas$(), você pode especificar qual tecla de atalho (ou clique do mouse) as ativa.$(br2)Para habilidades passivas, a atribuição de atalho liga ou desliga a habilidade quando o atalho é pressionado.$(br2)As habilidades podem ser ativadas ou alternadas mesmo se o item não estiver equipado! Mas primeiro, mude o botão \"ativar se equipado\" para \"ativar do inventário\""
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Isso significa que você pode ativar a habilidade \"rajada de ar\" ou \"escaneador de minérios\" mesmo se a varinha ou picareta não estiver na sua mão. Desde que esteja *em algum lugar* do seu inventário, você pode usar essas habilidades.$(br2)Suporte a Curios está planejado para alguns itens."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Algumas habilidades também têm configurações personalizadas. Por exemplo, as habilidades de velocidade de corrida ou altura de salto têm controles deslizantes (disponíveis a partir da armadura de Nível 2) que controlam o quanto mais rápido você corre ou o quão mais alto você salta.$(br2)Algumas habilidades melhoram conforme o nível da ferramenta em que estão instaladas. Por exemplo, a habilidade Martelo é 3x3 numa $(l:justdirethings:tool_blazegold_pickaxe)Picareta de Ouro de Blaze$(/l) e 7x7 numa $(l:justdirethings:tool_eclipse_alloy_pickaxe)Picareta de Liga Eclipse$(/l)."
+    }
+  ]
+}

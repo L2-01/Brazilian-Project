@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/plates",
+  "icon": "irregular_implements:item_rejuvenator_plate",
+  "name": "Chapa de Rejuvenescimento de Itens",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:item_rejuvenator_plate",
+      "link_recipe": true,
+      "text": "Qualquer entidade de item que tocar a $(d)Chapa de Rejuvenescimento de Itens$() terá seu temporizador de sumiço redefinido para 4 minutos e sua idade zerada.",
+      "title": "Chapa de Rejuvenescimento de Itens"
+    }
+  ]
+}

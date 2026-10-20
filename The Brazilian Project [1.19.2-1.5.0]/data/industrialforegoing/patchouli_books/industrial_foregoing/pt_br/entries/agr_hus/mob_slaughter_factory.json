@@ -1,0 +1,17 @@
+{
+  "name": "Fábrica de Abate de Criaturas",
+  "icon": "industrialforegoing:mob_slaughter_factory",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 9,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uma máquina usada para processar criaturas e animais em $(l:agr_hus/meat)Carne Líquida$() e $(l:agr_hus/pink_slime)Slime Rosa$(). As criaturas mortas por esta máquina não produzem itens largados nem experiência. $(br2)Criaturas passivas produzem mais slime rosa que as não passivas"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_slaughter_factory"
+    }
+  ]
+}

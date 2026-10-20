@@ -1,0 +1,49 @@
+{
+    "name": "item.cobblemon.medicinal_brew",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:medicinal_brew",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:medicinal_brew",
+            "text": "book.cobblepedia.entries.medicinal_brew.text"
+        },
+        {
+            "type": "cobblepedia:brewing",
+            "title": "book.cobblepedia.pages.brewing",
+            "reagent_item": "cobblemon:medicinal_leek",
+            "base_item": "minecraft:potion{Potion:'minecraft:water'}",
+            "result_item": "cobblemon:medicinal_brew"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.crafting_ingredient",
+            "entries": [
+                "cobblepedia:hp_up",
+                "cobblepedia:protein",
+                "cobblepedia:iron",
+                "cobblepedia:calcium",
+                "cobblepedia:zinc",
+                "cobblepedia:carbos",
+                "cobblepedia:pp_up"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.brewing_ingredient",
+            "entries": [
+                "cobblepedia:potion",
+                "cobblepedia:hyper_potion",
+                "cobblepedia:antidote",
+                "cobblepedia:awakening",
+                "cobblepedia:burn_heal",
+                "cobblepedia:ice_heal",
+                "cobblepedia:paralyze_heal",
+                "cobblepedia:full_heal",
+                "cobblepedia:ether",
+                "cobblepedia:elixir"
+            ]
+        }
+    ]
+}

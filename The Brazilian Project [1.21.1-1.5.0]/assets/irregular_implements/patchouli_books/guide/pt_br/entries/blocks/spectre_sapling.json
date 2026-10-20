@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:spectre_sapling",
+  "name": "Muda de Espectro",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(d)Muda de Espectro$() cresce e vira uma árvore de Espectro translúcida.$(br2)Suas Folhas de Espectro têm chance de derrubar $(l:items/ectoplasm)Ectoplasma$(/l), o que a torna uma ótima fonte reutilizável!",
+      "title": "Muda de Espectro"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_sapling",
+      "link_recipe": true,
+      "text": "Crie uma Muda de Espectro clicando com o botão direito em qualquer bloco de muda com um Ectoplasma."
+    }
+  ]
+}

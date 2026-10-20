@@ -1,0 +1,17 @@
+{
+  "name": "Alimentador Modular",
+  "icon": "modularbees:modular_beehive_feeder",
+  "read_by_default": true,
+  "category": "modularbees:beehive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Alimentador Modular",
+      "text": "As abelhas na Colmeia Modular só procurarão flores no Alimentador Modular, que pode conter 9 tipos de flores.$(br)Se uma abelha precisar de flor fluida, você pode colocar um balde ou tanque contendo o fluido correspondente."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "modularbees:modular_feeder"
+    }
+  ]
+}

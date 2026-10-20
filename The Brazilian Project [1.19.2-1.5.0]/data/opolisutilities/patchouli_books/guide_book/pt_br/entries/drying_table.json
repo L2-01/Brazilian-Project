@@ -1,0 +1,18 @@
+{
+	"name": "Mesa de Secagem",
+	"icon": "opolisutilities:drying_table",
+	"category": "opolisutilities:advanced_items",
+	"sortnum": 3,
+	"pages": [
+		{
+    		"type": "spotlight",
+    		"item": "opolisutilities:drying_table",
+    		"text": "Pode ser usada para secar itens."
+    	},
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:drying_table",
+			"text": "Pode ser usada para secar itens."
+		}
+	]
+}

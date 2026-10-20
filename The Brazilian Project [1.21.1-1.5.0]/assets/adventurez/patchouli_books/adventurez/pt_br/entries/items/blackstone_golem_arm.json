@@ -1,0 +1,17 @@
+{
+    "name": "Braço de Golem de Pedra-Negra",
+    "icon": "adventurez:blackblackstone_golem_arm",
+    "category": "adventurez:item_category",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "adventurez:blackstone_golem_arm",
+            "link_recipe": true,
+            "text": "O Braço de Pedra-Negra é uma arma criada com o Coração de Golem de Pedra-Negra e desbloqueia a habilidade de arremessar rochas nos seus inimigos. Carregue-o segurando o botão direito até que ele brilhe em vermelho e arremesse uma rocha soltando o botão"
+        },
+        {
+            "type": "crafting",
+            "recipe": "adventurez:blackstone_golem_arm"
+        }
+    ]
+}

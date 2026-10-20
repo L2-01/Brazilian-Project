@@ -1,0 +1,27 @@
+{
+  "name": "Filtro de Itens em Lote",
+  "category": "modularrouters:filters",
+  "icon": "modularrouters:bulk_item_filter",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este filtro permite a correspondência de alto desempenho de até 54 itens diferentes, incluindo correspondência opcional de NBT. O Filtro de Itens em Lote pode ser configurado de algumas formas diferentes:$(p)$(li)$(thing)Agache+clique com o botão direito/$ no filtro contra qualquer inventário para mesclar uma cópia do conteúdo daquele inventário no filtro."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(thing)Clique com o botão direito/$ no filtro para abrir uma GUI mostrando os itens atualmente no filtro. Você pode adicionar (cópias fantasmas de) itens ao filtro aqui, clicar em itens para removê-los, ou pressionar o botão vermelho $(bold)$(4)X/$ para limpar o filtro completamente."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Quando o filtro está num módulo que está num roteador, você pode abrir a GUI do filtro clicando nele com o botão do meio, ou pressionando $(bold)$(4)[$(k:modularrouters.configure)]/$ sobre ele.$(p)$(bold)Se/$ o módulo tiver um inventário válido como alvo, dois botões extras aparecem na GUI: um botão verde $(bold)$(2)+/$ para $(italic)mesclar/$ os itens do inventário alvo, e um botão azul $(bold)$(1)=/$ para $(italic)carregar/$ os itens do inventário alvo (sobrescrevendo o conteúdo atual do filtro)."
+    },
+    {
+      "type": "text",
+      "text": "Este último método de configuração é particularmente útil combinado com um $(l:modules/sender_2)Módulo Enviador/$ para implementar um sistema de classificação, já que o Filtro de Itens em Lote lembrará o que deveria estar num inventário, mesmo que o inventário real seja esvaziado depois."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:bulk_item_filter"
+    }
+  ]
+}

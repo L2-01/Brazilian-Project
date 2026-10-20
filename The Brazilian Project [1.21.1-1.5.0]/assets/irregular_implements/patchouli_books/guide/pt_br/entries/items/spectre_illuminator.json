@@ -1,0 +1,19 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:spectre_illuminator",
+  "name": "Iluminador de Espectro",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_illuminator",
+      "link_recipe": true,
+      "text": "O $(d)Iluminador de Espectro$() pode ser usado para $(3)iluminar um chunk inteiro$().$(br2)Ele coloca uma entidade que flutua lentamente para cima, até ficar a uma certa distância acima do bloco mais alto do chunk."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:blackout_powder",
+      "link_recipe": true,
+      "text": "Isso pode ser desfeito clicando com o botão direito na entidade ou usando um $(d)Pó de Blackout$() em qualquer lugar do chunk."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Iguana",
+    "icon": "adventurez:blackstone_golem_heart",
+    "category": "adventurez:mob_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Iguanas são criaturas amigáveis, gostam de comer arbustos mortos, podem ser reproduzidas com arbustos secos e são encontradas em biomas de terras áridas"
+        },
+        {
+            "type": "entity",
+            "name": "Exibição",
+            "entity": "adventurez:iguana",
+            "scale": 0.7,
+            "offset": -0.3
+        }
+    ]
+}

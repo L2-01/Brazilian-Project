@@ -1,0 +1,26 @@
+{
+  "name": "Talismã",
+  "icon": "enchanted:circle_talisman",
+  "category": "enchanted:binding",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Talismã",
+      "text": "Este rito de vinculação é usado para vincular círculos de giz com a configuração correta a um Talismã de Círculo. Esses círculos podem ser colocados em outro local usando o talismã, e o círculo vinculado é liberado no mundo."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:bind_talisman"
+    },
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Talismã",
+      "text": "Este rito de vinculação é usado para vincular círculos de giz com a configuração correta a um Talismã de Círculo. Esses círculos podem ser colocados em outro local usando o talismã, e o círculo vinculado é liberado no mundo."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:bind_talisman_charged"
+    }
+  ],
+  "read_by_default": true
+}

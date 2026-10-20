@@ -1,0 +1,24 @@
+{
+    "name": "book.cobblepedia.entries.smithing_template.name",
+    "category": "cobblepedia:archaeology",
+    "icon": "cobblemon:automaton_armor_trim_smithing_template",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.smithing_template.name",
+            "item": "cobblemon:automaton_armor_trim_smithing_template",
+            "text": "book.cobblepedia.entries.smithing_template.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.loot",
+            "text": "book.cobblepedia.entries.smithing_template.loot.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:automaton_armor_trim_smithing_template"
+            ]
+        }
+    ]
+}

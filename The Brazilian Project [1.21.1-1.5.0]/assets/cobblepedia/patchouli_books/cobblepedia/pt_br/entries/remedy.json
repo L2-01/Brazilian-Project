@@ -1,0 +1,26 @@
+{
+    "name": "item.cobblemon.remedy",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:remedy",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:remedy",
+            "text": "book.cobblepedia.entries.remedy.text"
+        },
+        {
+            "type": "patchouli:smelting",
+            "title": "book.cobblepedia.pages.smelting",
+            "recipe": "cobblemon:remedy"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:fine_remedy"
+            ]
+        }
+    ]
+}

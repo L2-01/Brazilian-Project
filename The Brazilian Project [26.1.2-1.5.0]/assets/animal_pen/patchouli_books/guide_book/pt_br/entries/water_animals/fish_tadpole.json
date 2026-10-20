@@ -1,0 +1,22 @@
+{
+  "name": "Girino",
+  "icon": "minecraft:tadpole_spawn_egg",
+  "category": "animal_pen:category_aquarium",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:tadpole",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Usar uma espada ou machado no Aquário matará o girino e largará seu saque."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:water_bucket",
+      "text": "Você pode pegar girinos dos aquários usando um balde de água."
+    }
+  ]
+}

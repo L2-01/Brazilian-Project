@@ -1,0 +1,38 @@
+{
+    "name": "book.cobblepedia.entries.berry",
+    "category": "cobblepedia:agriculture",
+    "icon": "cobblemon:oran_berry",
+    "turnin": "cobblemon:obtain_berry",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.berry",
+            "item": "tag:cobblemon:berries",
+            "text": "book.cobblepedia.entries.berry.text"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:obtain_berry",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.obtain_berry",
+            "text": "advancements.cobblemon.obtain_berry.description"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.berry.obtaining"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.berry.usage"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:natural_berry",
+                "cobblepedia:mutated_berry"
+            ]
+        }
+    ]
+}

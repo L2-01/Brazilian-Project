@@ -1,0 +1,23 @@
+{
+    "name": "book.cobblepedia.entries.feather.name",
+    "category": "cobblepedia:consumables",
+    "icon": "cobblemon:health_feather",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "tag:cobblemon:feathers",
+            "text": "book.cobblepedia.entries.feather.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:health_feather",
+                "cobblepedia:muscle_feather",
+                "cobblepedia:resist_feather",
+                "cobblepedia:genius_feather",
+                "cobblepedia:clever_feather",
+                "cobblepedia:swift_feather"
+            ]
+        }
+    ]
+}

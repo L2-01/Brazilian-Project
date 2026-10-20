@@ -1,0 +1,37 @@
+{
+    "name": "item.cobblemon.energy_root",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:energy_root",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:energy_root",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.energy_root.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.energy_root.obtaining.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.generation",
+            "text": "book.cobblepedia.entries.energy_root.generation.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "entries": [
+                "cobblepedia:superb_remedy",
+                "cobblepedia:super_potion"
+            ]
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.using",
+            "text": "book.cobblepedia.entries.energy_root.using.text"
+        }
+    ]
+}

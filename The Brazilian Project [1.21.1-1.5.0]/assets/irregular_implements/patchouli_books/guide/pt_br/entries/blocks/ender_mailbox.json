@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:ender_mailbox",
+  "name": "Caixa de Correio do Ender",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(d)Caixa de Correio do Ender$() permite enviar e receber $(l:items/ender_letter)Cartas Ender$(/l) de outros jogadores.$(br2)Para enviar uma carta, basta usá-la na caixa de correio e ela será enviada ao destinatário.",
+      "title": "Caixa de Correio do Ender"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:ender_mailbox",
+      "link_recipe": true,
+      "text": "Usar qualquer caixa de correio mostra suas cartas recebidas, da mesma forma que os baús do End mostram seus itens."
+    }
+  ]
+}

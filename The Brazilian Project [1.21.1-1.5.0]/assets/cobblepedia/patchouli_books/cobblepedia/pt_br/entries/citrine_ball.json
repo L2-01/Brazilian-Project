@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.citrine_ball",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:citrine_ball",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:citrine_ball",
+            "text": "book.cobblepedia.entries.citrine_ball.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:citrine_ball",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.citrine_ball.crafting"
+        }
+    ]
+}

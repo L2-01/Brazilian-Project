@@ -1,0 +1,29 @@
+{
+    "name": "item.cobblemon.choice_specs",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:choice_specs",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:choice_specs",
+            "text": "book.cobblepedia.entries.choice_specs.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:choice_specs",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.choice_specs.holding"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:choice_items"
+            ]
+        }
+    ]
+}

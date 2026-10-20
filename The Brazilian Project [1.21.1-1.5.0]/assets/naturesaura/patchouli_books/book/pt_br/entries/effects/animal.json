@@ -1,0 +1,21 @@
+{
+    "name": "Aumento de Fertilidade",
+    "icon": "minecraft:egg",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Quando a quantidade de $(aura) numa área aumenta além de cerca de dois terços do medidor do $(l:items/eye)Olho Ambiental$(), e há um pouco de $(l:effects/effect_powder)Pó da Fertilidade$() por perto, ela começa a afetar os $(item)animais$() da área: vacas, ovelhas, porcos e afins começarão a $(thing)acasalar$() sem estímulo algum ocasionalmente, drenando um pouco da $(aura) no processo, como se estivessem se apaixonando por causa de seu poder."
+        },
+        {
+            "type": "text",
+            "text": "Além disso, $(item)Ovos$() que ficaram jogados no chão como item por um tempo irão $(thing)chocar$() em uma galinha sem precisar serem jogados.$(p)Note que ambos esses efeitos deixarão de ocorrer quando houver animais suficientes na área, prevenindo superpopulação."
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:animal_powder",
+            "text": "Criando o $(l:effects/effect_powder)Pó da Fertilidade$()."
+        }
+    ]
+}

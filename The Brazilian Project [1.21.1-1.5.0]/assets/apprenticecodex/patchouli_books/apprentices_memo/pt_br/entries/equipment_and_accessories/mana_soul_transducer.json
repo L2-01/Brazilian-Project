@@ -1,0 +1,25 @@
+{
+  "name": "item.apprenticecodex.mana_soul_transducer",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:mana_soul_transducer",
+  "flag": "mod:malum",
+  "advancement": "apprenticecodex:apprentice_codex/malum_black_crystal_revealed",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:mana_soul_transducer",
+      "link_recipe": true,
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.mana_soul_transducer.page.p001.text",
+        "with": [
+          {
+            "translate": "item.malum.mnemonic_hex_staff"
+          },
+          {
+            "translate": "spell.apprenticecodex.soul_conversion"
+          }
+        ]
+      }
+    }
+  ]
+}

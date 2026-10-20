@@ -1,0 +1,27 @@
+{
+    "name": "Começando",
+    "icon": "minecraft:writable_book",
+    "category": "productivetrees:guide",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "flag": "mod:productivebees",
+            "text": "Coloque uma árvore ao lado de outra perto de algumas abelhas, lucro.$(br)A colmeia pode ser simulada e melhorias de alcance aumentam a área de trabalho em 2 blocos por melhoria. O alcance base é 4.$(br2)Note que este mod está em beta e ainda não está completo.$(br)Em específico, os recursos de crescimento das árvores (a aparência delas quando crescidas) estão em desenvolvimento."
+        },
+        {
+            "type": "patchouli:text",
+            "flag": "!mod:productivebees",
+            "text": "Coloque uma árvore ao lado de outra perto de algumas abelhas, lucro.$(br)Você também pode coletar folhas e passá-las por uma peneira de pólen para extrair pólen. Use as bolas de pólen numa folha para polinizá-la e obter uma nova espécie de árvore.$(br2)Note que este mod está em beta e ainda não está completo.$(br1)Em específico, os recursos de crescimento das árvores (a aparência delas quando crescidas) estão em desenvolvimento."
+        },
+        {
+            "type": "patchouli:text",
+            "flag": "!mod:productivebees",
+            "text": "Se você usar abelhas, precisa garantir que as folhas das duas árvores que quer cruzar estejam a até 4 blocos do ninho/colmeia e que as abelhas tenham flores por perto. Cada viagem da flor até a colmeia dispara uma tentativa de polinização numa folha próxima."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:spyglass",
+            "text": "Você pode usar uma Luneta para identificar melhor quais folhas foram polinizadas."
+        }
+    ]
+}

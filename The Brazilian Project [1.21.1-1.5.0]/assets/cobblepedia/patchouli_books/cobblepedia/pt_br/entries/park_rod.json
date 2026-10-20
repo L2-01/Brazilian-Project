@@ -1,0 +1,18 @@
+{
+    "name": "book.cobblepedia.entries.park_rod.name",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:park_rod",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:park_rod",
+            "text": "book.cobblepedia.entries.park_rod.text"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "cobblemon:park_rod",
+            "title": "book.cobblepedia.pages.smithing"
+        }
+    ]
+}

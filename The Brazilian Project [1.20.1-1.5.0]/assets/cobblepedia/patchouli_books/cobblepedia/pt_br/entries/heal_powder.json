@@ -1,0 +1,26 @@
+{
+    "name": "item.cobblemon.heal_powder",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:heal_powder",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:heal_powder",
+            "text": "book.cobblepedia.entries.heal_powder.text"
+        },
+        {
+            "type": "patchouli:smelting",
+            "title": "book.cobblepedia.pages.smelting",
+            "recipe": "cobblemon:heal_powder"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:revive"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Transpor Jogador",
+  "icon": "minecraft:ender_pearl",
+  "category": "enchanted:transposition",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Transpor Jogador",
+      "text": "Teleporta o conjurador para a localização contida num obelisco vinculado. $(br2)É conhecido por deixar algumas partes para trás em raras ocasiões, se conjurado mal."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:transpose_caster_waystone"
+    },
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Transpor Jogador",
+      "text": "Teleporta o conjurador para a localização contida num obelisco sanguíneo. $(br2)É conhecido por deixar algumas partes para trás em raras ocasiões, se conjurado mal."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:transpose_caster_blooded"
+    }
+  ],
+  "read_by_default": true
+}

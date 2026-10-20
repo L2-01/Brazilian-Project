@@ -1,0 +1,14 @@
+{
+    "name": "block.cobblemon.red_mint",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:red_mint_seeds",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:red_mint_seeds",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.red_mint_seeds.text"
+        }
+    ]
+}

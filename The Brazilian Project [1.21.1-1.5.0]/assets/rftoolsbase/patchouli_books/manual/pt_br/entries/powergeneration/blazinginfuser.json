@@ -1,0 +1,27 @@
+{
+  "name": "Infusor Ardente",
+  "icon": "rftoolspower:blazing_infuser",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:blazing_infuser": 0
+  },
+  "sortnum": 26,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Infusor Ardente melhora Varetas Ardentes feitas pelo $(l:rftoolsbase:powergeneration/blazingagitator)Agitador Ardente$(/l). Ele consome itens catalisadores para aumentar a potência, a duração, ou ambos."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:blazing_infuser"
+    },
+    {
+      "type": "text",
+      "text": "Depois da infusão, uma vareta não pode mais ajudar a melhorar outras varetas no Agitador. Primeiro monte um bom conjunto de impulsionadoras e depois infuse as varetas destinadas a combustível."
+    },
+    {
+      "type": "text",
+      "text": "Catalisadores para um conjunto completo: redstone dá potência, quartzo dá duração, pedra-luminosa favorece duração, fragmentos dimensionais melhoram ambos, e lágrimas de ghast ou estrelas do Nether dão grandes bônus."
+    }
+  ]
+}

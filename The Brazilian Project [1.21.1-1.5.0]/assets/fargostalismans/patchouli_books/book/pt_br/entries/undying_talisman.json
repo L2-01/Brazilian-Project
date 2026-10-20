@@ -1,0 +1,18 @@
+{
+  "name": "Talismã da Imortalidade",
+  "sortnum": 47,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:undying_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã da Imortalidade ressuscita o jogador uma vez ao morrer e o teletransporta 10 blocos para trás. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_advanced)Base de Talismã Avançado$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_mystic)Força do Místico$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/undying_talisman",
+      "recipe2": "fargostalismans:forces/force_of_mystic"
+    }
+  ],
+  "read_by_default": true
+}

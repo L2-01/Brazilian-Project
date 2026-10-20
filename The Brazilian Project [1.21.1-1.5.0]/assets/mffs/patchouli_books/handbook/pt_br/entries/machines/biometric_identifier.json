@@ -1,0 +1,53 @@
+{
+    "name": "Identificador Biométrico",
+    "icon": "mffs:biometric_identifier",
+    "category": "mffs:machines",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:biometric_identifier",
+            "link_recipe": true,
+            "text": "O $(9)Identificador Biométrico$() é um membro da família de máquinas do MFFS. Ele usa bioassinaturas emitidas por jogadores para definir quais permissões eles têm ao interagir com campos de força e máquinas MFFS. Por exemplo, pode permitir que um jogador atravesse um campo de força ativo ou isentá-lo dos efeitos da $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:biometric_identifier",
+            "text": "Fabricando o $(9)Identificador Biométrico$()."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Uso",
+            "text": "Para configurar o $(9)Identificador Biométrico$() para reconhecer um jogador, abra sua tela de GUI e coloque um $(l:mffs:tools/id_card)Cartão de Identificação$() no espaço de item superior esquerdo rotulado $(2)Direitos$(). Se o Cartão de Identificação estiver em branco e ainda não tiver sido atribuído, você pode agachar e clicar com o botão direito segurando-o na mão para atribuí-lo a você, ou agachar e clicar com o botão direito em outro jogador para atribuí-lo a ele."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Em seguida, defina quais permissões você deseja que o jogador tenha alternando os botões do lado direito da GUI. Cada botão atribui a seguinte permissão:$(li)$(bold)Transposição$(): Permite ao jogador atravessar campos de força agachando-se através deles.$(li)$(bold)Alteração de Blocos$(): Permite ao jogador colocar ou quebrar blocos enquanto estiver dentro da área protegida pela $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$().$()"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(bold)Acesso a Blocos$(): Permite ao jogador abrir a tela de GUI de qualquer coisa enquanto estiver dentro do alcance operacional da Matriz.$(li)$(bold)Configurar$(): Concede ao jogador acesso para configurar o Identificador Biométrico e mudar permissões de usuários.$(li)$(bold)Ignorar Defesa$(): Permite ao jogador ignorar restrições impostas pela $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$().$(li)$(bold)Ignorar Confisco$(): Isenta o jogador do efeito de confisco da Matriz de Interdição.$()"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(bold)Controle Remoto$(): Permite ao jogador usar um controle remoto em máquinas vinculadas ao Identificador.$(p)Com os direitos do jogador agora atribuídos, mova o cartão dele para qualquer um dos 9 espaços ao longo da parte inferior da tela de GUI para completar o processo. Para se definir como mestre de um $(9)Identificador Biométrico$(), coloque um $(l:mffs:tools/id_card)Cartão de Identificação$() atribuído a você no espaço de item rotulado $(2)Mestre$()."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O usuário mestre de um $(9)Identificador Biométrico$() recebe $(4)automaticamente todas as permissões.$() Ative o $(9)Identificador Biométrico$() aplicando um sinal de Redstone ou clicando no botão de Tocha de Redstone no canto superior esquerdo de sua GUI. Uma vez ativado, o $(9)Identificador Biométrico$() acenderá e fará efeito."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "mffs:textures/gui/handbook/biometric_identifier.png"
+            ],
+            "border": true,
+            "title": "Exibição",
+            "text": "Um $(9)Identificador Biométrico$() ativo."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Notas",
+            "text": "$(li)Ao atravessar um campo de força, um jogador deve continuar agachado até sair completamente da barreira do campo, caso contrário será morto.$(li)$(l:mffs:tools/id_card)Cartões de Identificação$() não podem ser removidos do Identificador enquanto ele estiver ativo.$(li)Atravessar um campo de força pode causar Náusea IV temporária.$(li)Um jogador no modo criativo sempre pode atravessar um campo de força.$()"
+        }
+    ]
+}

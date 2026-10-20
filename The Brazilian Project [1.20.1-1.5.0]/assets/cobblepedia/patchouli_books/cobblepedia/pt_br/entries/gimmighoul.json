@@ -1,0 +1,30 @@
+{
+    "name": "book.cobblepedia.entries.gimmighoul.name",
+    "category": "cobblepedia:archaeology",
+    "icon": "cobblemon:pokemon_model{species:\"cobblemon:gimmighoul\", aspects:[]}",
+    "turnin": "cobblemon:evolve_gholdengo_netherite",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.gimmighoul.name",
+            "item": "cobblemon:pokemon_model{species:\"cobblemon:gimmighoul\", aspects:[]}",
+            "text": "book.cobblepedia.entries.gimmighoul.text"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:evolve_gholdengo_netherite",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.evolve_gholdengo_netherite",
+            "text": "advancements.cobblemon.evolve_gholdengo_netherite.description"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:gimmighoul_chest",
+                "cobblepedia:relic_coin",
+                "cobblepedia:relic_coin_pouch",
+                "cobblepedia:relic_coin_sack"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Fábrica de Lavagem",
+  "icon": "industrialforegoing:washing_factory",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 19,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Usando carne líquida e um minério, esta máquina transformará essa carne em carne de minério crua daquele minério."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:washing_factory"
+    }
+  ]
+}

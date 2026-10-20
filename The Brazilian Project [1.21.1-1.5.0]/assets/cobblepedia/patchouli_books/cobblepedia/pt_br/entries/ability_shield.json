@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.ability_shield",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:ability_shield",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:ability_shield",
+            "text": "book.cobblepedia.entries.ability_shield.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:ability_shield",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

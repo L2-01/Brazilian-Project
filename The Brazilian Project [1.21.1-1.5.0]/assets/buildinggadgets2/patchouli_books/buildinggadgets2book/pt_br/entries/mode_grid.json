@@ -1,0 +1,22 @@
+{
+  "name": "Grade",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/grid.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O modo Grade coloca blocos em uma grade! Útil para tochas, pedra luminosa, etc. Conforme o alcance aumenta, os blocos ficam mais distantes uns dos outros, até que eventualmente a área simplesmente fica maior. $(br2)Este também é um modo do trocador que permite trocar blocos em uma grade."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Modo Grade",
+      "images": [
+        "buildinggadgets2:textures/book/images/mode_grid.png",
+        "buildinggadgets2:textures/book/images/mode_grid2.png"
+      ],
+      "border": true,
+      "text": "Alterne as imagens acima para ver as diferentes opções"
+    }
+  ]
+}

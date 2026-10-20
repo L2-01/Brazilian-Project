@@ -1,0 +1,20 @@
+{
+	"category": "ars_nouveau:arsdelight",
+	"icon": "arsdelight:mendosteen_jelly",
+	"name": "arsdelight.patchouli.jelly.title",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "tag:arsdelight:jelly",
+			"text": "arsdelight.patchouli.jelly.page1"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"ars_nouveau:glyphs_2/glyph_infuse",
+				"ars_nouveau:automation/spell_prism",
+				"ars_nouveau:automation/spell_turret"
+			]
+		}
+	]
+}

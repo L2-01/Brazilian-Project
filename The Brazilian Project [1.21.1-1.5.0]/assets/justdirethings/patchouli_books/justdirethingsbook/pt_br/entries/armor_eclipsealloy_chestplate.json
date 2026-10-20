@@ -1,0 +1,17 @@
+{
+  "name": "Peitoral de Liga Eclipse",
+  "sortnum": 21,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:eclipsealloy_chestplate[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Este peitoral de nível máximo utiliza 500.000 FE de Forge Energy, oferecendo proteção sem precedentes. Recarregue-o regularmente com um $(l:justdirethings:item_pocket_generator)Gerador Portátil$(/l) para garantir eficiência máxima."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação do Peitoral de Liga Eclipse",
+      "recipe": "justdirethings:eclipsealloy_chestplate"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "item.apprenticecodex.ashen_circlet",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:ashen_circlet",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:ashen_circlet",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.ashen_circlet.page.p001.text",
+        "with": [
+          {
+            "translate": "item.irons_spellbooks.tarnished_helmet"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:ashen_circlet",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.ashen_circlet.page.p002.text"
+    }
+  ]
+}

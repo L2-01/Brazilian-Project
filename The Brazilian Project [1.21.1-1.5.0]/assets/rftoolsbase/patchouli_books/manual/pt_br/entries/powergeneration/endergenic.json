@@ -1,0 +1,55 @@
+{
+  "name": "Gerador Endergênico",
+  "icon": "rftoolspower:endergenic",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:endergenic": 0,
+    "rftoolspower:ender_monitor": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A energia endergênica é baseada em tempo. Um Injetor de Pérolas cria uma pérola endergênica, os geradores a capturam e disparam, e um bom tempo transforma a chegada da pérola em FE."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:endergenic",
+      "recipe2": "rftoolspower:ender_monitor"
+    },
+    {
+      "type": "text",
+      "text": "Uma configuração básica precisa de pelo menos dois Geradores Endergênicos, um Injetor de Pérolas, temporização de redstone e um destino definido com a chave-inglesa."
+    },
+    {
+      "type": "image",
+      "images": [
+        "rftoolspower:textures/manual/endergenic.png"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Estados do gerador: Ocioso aguarda. Carregando pode receber uma pérola. Segurando significa que uma pérola foi capturada e está consumindo FE até ser disparada novamente."
+    },
+    {
+      "type": "text",
+      "text": "Passo 1: emita um pulso no Injetor de Pérolas para injetar uma pérola no primeiro gerador. Passo 2: emita um pulso nesse gerador para disparar a pérola em direção ao gerador pareado."
+    },
+    {
+      "type": "text",
+      "text": "Passo 3: emita um pulso no gerador receptor para colocá-lo em Carregando antes que a pérola chegue. O ponto ideal de captura é o tique 10 do seu ciclo de carga de 15 tiques."
+    },
+    {
+      "type": "text",
+      "text": "Passo 4: dispare a pérola adiante rapidamente. Uma pérola segurada custa FE a cada tique e pode ser perdida se retida por muito tempo ou se o gerador ficar sem energia."
+    },
+    {
+      "type": "text",
+      "text": "Use uma chave-inglesa para parear geradores. A mensagem no chat mostra o tempo de viagem em tiques, até 4 tiques. Esse tempo de viagem é o valor-chave para sua temporização de redstone."
+    },
+    {
+      "type": "text",
+      "text": "Os Monitores Ender ajudam a automatizar a temporização observando o estado do gerador. Mesmo configurações bem ajustadas podem perder pérolas, então mantenha em mente o suprimento de pérolas e a lógica de partida."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Amuletos de Poção",
+    "icon": "apotheosis:potion_charm",
+    "category": "apotheosis:potion/charms",
+    "flag": "apotheosis:potion",
+    "sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Um $(9)Amuleto de Poção$() é um item totalmente novo que ajuda você a aproveitar ao máximo suas poções.$(p)Veja bem: enquanto uma poção normal exige que você a beba e use todo o efeito de uma vez, o $(9)Amuleto de Poção$() permite dosá-lo."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:potion_charm",
+            "title": "Fabricação do Amuleto de Poção",
+            "text": "Um amuleto é feito de três poções do mesmo tipo e um pouco de pó de blaze.$(p)Um único amuleto dura mais que as três poções combinadas."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Usando Amuletos de Poção",
+            "text": "Um $(9)Amuleto de Poção$() só está ativo quando habilitado.$(p)Para habilitar um amuleto, basta clicar com o botão direito com ele na mão.$(p)Um amuleto habilitado começará a brilhar."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Enquanto o amuleto estiver ativo e no seu inventário, ele aplicará a poção em você, consumindo durabilidade.$(p)O amuleto aplica uma curta dose do efeito por vez. Um amuleto dura muito mais que suas três poções.$(p)Quando o amuleto ficar sem durabilidade, ele quebrará."
+        }
+    ]
+}

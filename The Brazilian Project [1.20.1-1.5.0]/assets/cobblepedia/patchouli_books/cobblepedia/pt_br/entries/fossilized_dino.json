@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.fossilized_dino",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:fossilized_dino",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.fossilized_dino",
+            "item": "cobblemon:fossilized_dino",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.fossilized_dino.text"
+        }
+    ]
+}

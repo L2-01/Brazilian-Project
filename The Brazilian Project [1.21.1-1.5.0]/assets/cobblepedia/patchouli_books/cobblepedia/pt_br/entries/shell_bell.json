@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.shell_bell",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:shell_bell",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:shell_bell",
+            "text": "book.cobblepedia.entries.shell_bell.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:shell_bell",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

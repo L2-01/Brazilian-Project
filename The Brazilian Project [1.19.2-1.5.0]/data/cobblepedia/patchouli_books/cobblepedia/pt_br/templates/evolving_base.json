@@ -1,0 +1,120 @@
+{
+    "processor": "com.gitlab.vinnystalck.cobblepedia.book.template.EvolvingProcessor",
+    "components": [
+        {
+            "type": "patchouli:item",         
+            "item": "#pokemon_item",
+            "guard": "#holding_item->exists",
+            "framed": true,
+            "x": 5
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#pokemon_item",
+            "guard": "#holding_item->exists->inv",
+            "framed": true,
+            "x": 35
+        },
+        {
+            "type": "patchouli:image",
+            "image": "cobblepedia:textures/gui/crafting.png",
+            "guard": "#holding_item->exists",
+            "width": 16,
+            "height": 16,
+            "u": 62,
+            "v": 24,
+            "texture_width": 128,
+            "texture_height": 256,
+            "x": 20
+        },
+        {
+            "type": "patchouli:tooltip",
+            "tooltip": ["While #pokemon_item->iname# holds #holding_item->iname#"],
+            "guard": "#holding_item->exists",
+            "width": 16,
+            "height": 16,
+            "x": 20
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#holding_item",
+            "guard": "#holding_item->exists",
+            "framed": false,
+            "x": 35
+        },
+        {
+            "type": "patchouli:image",
+            "image": "cobblepedia:textures/gui/crafting.png",
+            "guard": "#using_item->exists",
+            "width": 16,
+            "height": 16,
+            "u": 62,
+            "v": 24,
+            "texture_width": 128,
+            "texture_height": 256,
+            "x": 80
+        },
+        {
+            "type": "patchouli:tooltip",
+            "tooltip": ["When using #using_item->iname# on #pokemon_item->iname#"],
+            "guard": "#using_item->exists",
+            "width": 16,
+            "height": 16,
+            "x": 80
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#using_item",
+            "guard": "#using_item->exists",
+            "framed": false,
+            "x": 65
+        },
+        {
+            "type": "patchouli:image",
+            "image": "cobblepedia:textures/gui/crafting.png",
+            "guard": "#pokemon_item->exists",
+            "width": 16,
+            "height": 16,
+            "u": 62,
+            "v": 24,
+            "texture_width": 128,
+            "texture_height": 256,
+            "x": 50
+        },
+        {
+            "type": "patchouli:tooltip",
+            "tooltip": [
+                "#pokemon_item->iname# evolves Into #evolved_pokemon_item->iname#"
+            ],
+            "guard": "#pokemon_item->exists",
+            "width": 16,
+            "height": 16,
+            "x": 50
+        },
+        {
+            "type": "patchouli:tooltip",
+            "tooltip": [
+                "#pokemon_item->iname# evolves Into #evolved_pokemon_item->iname#",
+                "#evolving_tooltip"
+            ],
+            "guard": "#evolving_tooltip->exists",
+            "width": 16,
+            "height": 16,
+            "x": 50
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#evolved_pokemon_item",
+            "guard": "#using_item->exists->inv",
+            "framed": true,
+            "x": 65
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#evolved_pokemon_item",
+            "guard": "#using_item->exists",
+            "framed": true,
+            "x": 95
+        }
+    ]
+}

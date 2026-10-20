@@ -1,0 +1,19 @@
+{
+    "name": "Fadiga de Mineração",
+    "icon": "minecraft:textures/mob_effect/mining_fatigue.png",
+    "category": "apotheosis:potion/recipes",
+    "flag": "apotheosis:potion",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c)Fadiga de Mineração$() é um efeito negativo que normalmente só é aplicado por Guardiões Anciões.$(p)Enquanto ativa, sua velocidade de mineração é reduzida para 30% no nível I e 9% no nível II."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Receita de Preparo",
+            "item": "minecraft:fermented_spider_eye",
+            "text": "Esta poção pode ser preparada com uma $(9)Poção de Pressa$() e um Olho de Aranha Fermentado.$(p)Ela pode ser estendida, fortalecida ou transformada em poção arremessável com os ingredientes usuais."
+        }
+    ]
+}

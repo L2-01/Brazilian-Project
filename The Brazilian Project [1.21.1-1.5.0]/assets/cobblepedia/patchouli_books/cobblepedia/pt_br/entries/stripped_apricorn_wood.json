@@ -1,0 +1,19 @@
+{
+    "name": "block.cobblemon.stripped_apricorn_wood",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:stripped_apricorn_wood",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:stripped_apricorn_wood",
+            "title": "block.cobblemon.stripped_apricorn_wood",
+            "text": "book.cobblepedia.entries.stripped_apricorn_wood.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:stripped_apricorn_wood",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

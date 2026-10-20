@@ -1,0 +1,28 @@
+{
+    "name": "item.cobblemon.pink_mint_leaf",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:pink_mint_leaf",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:pink_mint_leaf",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.pink_mint_leaf.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "entries": [
+                "cobblepedia:naughty_mint",
+                "cobblepedia:lax_mint",
+                "cobblepedia:rash_mint",
+                "cobblepedia:calm_mint",
+                "cobblepedia:gentle_mint",
+                "cobblepedia:careful_mint",
+                "cobblepedia:sassy_mint",
+                "cobblepedia:naive_mint"
+            ]
+        }
+    ]
+}

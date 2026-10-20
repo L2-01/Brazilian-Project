@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.weakness_policy",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:weakness_policy",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:weakness_policy",
+            "text": "book.cobblepedia.entries.weakness_policy.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:weakness_policy",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

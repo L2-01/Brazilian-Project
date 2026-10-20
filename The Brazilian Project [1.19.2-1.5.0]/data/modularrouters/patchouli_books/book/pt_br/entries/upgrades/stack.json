@@ -1,0 +1,19 @@
+{
+  "name": "Melhoria de Pilha",
+  "category": "modularrouters:upgrades",
+  "icon": "modularrouters:stack_upgrade",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Módulos num roteador operam sobre um único item por vez: ex.: um $(l:modules/sender_1)Módulo Enviador/$ enviará um único item do buffer do roteador a cada tique do roteador, independentemente de quantos itens estejam no buffer."
+    },
+    {
+      "type": "text",
+      "text": "Adicionando Melhorias de Pilha a um roteador, isso pode ser aumentado. Cada Melhoria de Pilha dobra o número de itens que podem ser processados por cada módulo, até um máximo de 64, ou o tamanho nativo de pilha do item (ex.: 16 para $(item)Pérolas de Ender/$).$(p)Segue-se, portanto, que 6 é o número máximo de Melhorias de Pilha úteis que podem ser instaladas num roteador."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:stack_upgrade"
+    }
+  ]
+}

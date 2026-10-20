@@ -1,0 +1,14 @@
+{
+    "name": "item.cobblemon.float_stone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:float_stone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:float_stone",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.float_stone.text"
+        }
+    ]
+}

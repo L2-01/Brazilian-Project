@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.galarica_cuff",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:galarica_cuff",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:galarica_cuff",
+            "link_recipe": true,
+            "title": "item.cobblemon.galarica_cuff",
+            "text": "book.cobblepedia.entries.galarica_cuff.text"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.galarica_cuff.evolving",
+            "using_item3": "cobblemon:galarica_cuff",
+            "pokemon3": "cobblemon:slowpoke",
+            "evolved_pokemon3": "cobblemon:slowbro"
+        }
+    ]
+}

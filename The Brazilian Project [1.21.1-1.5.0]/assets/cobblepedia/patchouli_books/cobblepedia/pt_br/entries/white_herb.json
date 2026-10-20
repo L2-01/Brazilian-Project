@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.white_herb",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:white_herb",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:white_herb",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.white_herb.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.white_herb.usage.text"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Acessador de Jogador",
+  "sortnum": 21,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:playeraccessor",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Acessador de Jogador é um bloco utilitário único que facilita a interação direta com o inventário de um jogador. Ele permite que sistemas externos, como funis ou tubos, insiram ou extraiam itens diretamente do inventário de um jogador, efetivamente criando uma ponte entre o jogador e soluções automatizadas de armazenamento."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os botões da UI permitem alternar qual lado acessa quais espaços do inventário.$(br2)Por exemplo, você pode configurar para que a inserção pela face \"superior\" equipe ou remova armadura, e a face inferior interaja com o espaço da mão secundária."
+    }
+  ]
+}

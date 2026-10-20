@@ -1,0 +1,26 @@
+{
+    "name": "item.cobblemon.masterpiece_teacup",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:masterpiece_teacup",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:masterpiece_teacup",
+            "link_recipe": true,
+            "title": "item.cobblemon.masterpiece_teacup",
+            "text": "book.cobblepedia.entries.masterpiece_teacup.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.loot",
+            "text": "book.cobblepedia.entries.masterpiece_teacup.loot"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:unremarkable_teacup"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.smoke_ball",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:smoke_ball",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:smoke_ball",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.smoke_ball.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.smoke_ball.obtaining.text"
+        }
+    ]
+}

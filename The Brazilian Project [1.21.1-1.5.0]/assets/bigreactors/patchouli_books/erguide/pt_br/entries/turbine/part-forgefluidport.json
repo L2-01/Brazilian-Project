@@ -1,0 +1,34 @@
+{
+    "name": "Porta de Fluido Forge",
+    "icon": "bigreactors:reinforced_turbinefluidport_forge_passive",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_turbinefluidport_forge_passive",
+            "link_recipe": true,
+            "title" : "Porta de Fluido Forge",
+            "text": "A Porta de Fluido Forge permite inserir ou extrair fluidos de uma Turbina.$(br2)Esta Porta aceita e emite fluidos vanilla, mas apenas se forem $(l:bigreactors:misc/coolantsystem)refrigerantes ou vapores$(/l) válidos.$(br2)Uma $(l:bigreactors:misc/wrench)chave$(/l) pode ser usada para mudar a Porta do modo de entrada para o de saída."
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic (Passive)",
+            "recipe1": "bigreactors:turbine/basic/passivefluidport_forge",
+            "title2": "Reinforced (Passive)",
+            "recipe2": "bigreactors:turbine/reinforced/passivefluidport_forge"
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic (Active)",
+            "recipe1": "bigreactors:turbine/basic/activefluidport_forge",
+            "title2": "Reinforced (Active)",
+            "recipe2": "bigreactors:turbine/reinforced/activefluidport_forge"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não$(br)$(l)Chave:$() uma $(l:bigreactors:misc/wrench)chave$(/l) pode ser usada para alternar o modo da Porta"
+        }
+    ]
+}

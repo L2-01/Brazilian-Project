@@ -1,0 +1,106 @@
+{
+  "name": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.name",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:spell_calibration_bench",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spell_calibration_bench",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p001.title",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p001.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.spell_calibration_bench"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:arcane_rune",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p002.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p002.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p003.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p003.text",
+      "item": "irons_spellbooks:fire_rune,irons_spellbooks:ice_rune,irons_spellbooks:lightning_rune,irons_spellbooks:holy_rune,irons_spellbooks:ender_rune,irons_spellbooks:blood_rune,irons_spellbooks:evocation_rune,irons_spellbooks:nature_rune"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:protection_rune",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p004.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p004.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:shock_absorption_plate",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p005.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p005.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:blast_reactive_plate",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p006.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p006.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:wind_accumulation_weave",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p008.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p008.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:anti_gravity_weave",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p010.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p010.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:scrollwoven_parchment",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p011.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p011.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:leather_boots",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p012.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p012.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:goggles",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p013.title",
+      "flag": "mod:create",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p013.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:soul_augmented_weave",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p014.title",
+      "flag": "mod:malum",
+      "advancement": "apprenticecodex:apprentice_codex/malum_black_crystal_revealed",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p014.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:soul_covered_plate",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p015.title",
+      "flag": "mod:malum",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.end_game_armors.page.p015.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spell_calibration_bench",
+        "apprenticecodex:equipment_and_accessories/chromatic_magia_dress_set",
+        "apprenticecodex:equipment_and_accessories/magi_agent_suit_set",
+        "apprenticecodex:equipment_and_accessories/element_maiden_set"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Poder de Encantamento",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:enchanting/table",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Durante o processo de encantamento, você gasta experiência e Lápis-Lazúli para encantar um item.$(p)A partir disso, os encantamentos são selecionados aleatoriamente usando fórmulas complexas.$(p)Este capítulo explica esse processo."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Primeiro, vamos ver como os encantamentos são selecionados.$(p)Cada encantamento tem uma $(5)Função de Poder$(), que controla qual $(fpower) tornará um nível específico disponível.$(p)Uma vez reunidos todos os encantamentos disponíveis, alguns são selecionados aleatoriamente com base em seus pesos."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O $(fpower) é calculado com os seguintes passos:$(p)Inicialmente, você tem um $(bpower), que é o nível que você gastou ao encantar.$(p)Então, $(quanta) modifica seu $(bpower) para produzir seu $(fpower).$(p)A $(9)Estabilidade Quântica$() remove a metade negativa dessa rolagem."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Os detalhes de como cada atributo modifica seu $(bpower) podem ser encontrados nas entradas de $(l:apotheosis:enchanting/table/stats#quanta)$(quanta) e $(l:apotheosis:enchanting/table/stats#rectification)Estabilidade Quântica$().$(p)Normalmente, um $(fpower) maior dará acesso a encantamentos de nível mais alto."
+        }
+    ]
+}

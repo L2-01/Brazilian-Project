@@ -1,0 +1,33 @@
+{
+  "name": "Clicador Simples",
+  "sortnum": 7,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:clickert1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Clicador Simples simula clique direito, clique esquerdo ou até ações de segurar o clique! É útil para automatizar interações como clicar em botões ou atacar criaturas.$(br2)A UI é complexa, então vamos detalhá-la nas páginas a seguir."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O espaço na UI é qual item deve ser usado para clicar. Podem ser tesouras para tosquiar ovelhas, ou uma espada para atacar criaturas. Também pode ficar vazio, se você quiser clicar num botão.$(br2)O botão $(l)mostrar jogador falso$() mostrará (com partículas no mundo) a direção em que o clique ocorrerá, com base no botão $(l)direção$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O botão $(l)agachar$() alterna o clique \"agachado\", que simula o que acontece num clique agachado num item.$(br2)O $(l)botão de clique$() alterna entre clique direito, clique esquerdo e segurar clique, indicando o tipo de clique a usar. Clique esquerdo para atacar, por exemplo, e segurar clique para um tridente. O número abaixo de segurar clique é por quanto tempo segurá-lo antes de soltar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O botão $(l)alvo$() especifica em qual tipo de coisa clicar. Alvo $(l)blocos$() só clicará num bloco naquele espaço, enquanto alvo $(l)ar$() só clicará se NÃO houver um bloco naquele espaço.$(br2)Alvo $(l)Hostis$() só clicará em criaturas hostis, como zumbis, enquanto alvo $(l)passivas$() só atinge não-hostis, como ovelhas ou porcos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Alvo $(l)Adultas$() só atingirá criaturas adultas, como zumbis ou ovelhas crescidas, enquanto alvo $(l)filhotes$() só mirará bebês, como vacas ou zumbis bebês.$(br2)Alvo $(l)Jogador$() só afetará jogadores.$(br2)Por fim, alvo $(l)todas vivas$() afeta qualquer criatura viva, seja jogador, zumbi ou ovelha filhote."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Clicador Simples",
+      "recipe": "justdirethings:clickert1"
+    }
+  ]
+}

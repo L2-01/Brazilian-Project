@@ -1,0 +1,19 @@
+{
+  "name": "Widget de Teleporte",
+  "icon": "pneumaticcraft:textures/progwidgets/teleport_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O $(thing)Teleporte/$ é a versão mais cara (em termos de $(l:base_concepts/pressure)ar/$ usado) do widget $(l:programming/goto)Ir Para/$, mas igualmente direta: o $(l:tools/drone)Drone/$ se teletransportará para a localização alcançável mais próxima dentro da $(l:programming/area)Área/$ especificada.$(p)O $(item)Drone/$ usa 10000mL de ar para se teletransportar, que é a maior parte da capacidade de um $(item)Drone/$ sem melhorias, então $(l:base_concepts/upgrades#volume)Melhorias de Volume/$ são recomendadas."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/teleport_piece.png"
+      ],
+      "text": "$(italic)Agora estou aqui. Agora estou lá./$"
+    }
+  ]
+}

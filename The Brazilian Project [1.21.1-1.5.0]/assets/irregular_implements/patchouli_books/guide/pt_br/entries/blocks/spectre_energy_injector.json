@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:spectre_energy_injector",
+  "name": "Injetor de Energia de Espectro",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Todo jogador tem um $(3)Buffer de Energia de Espectro$() que funciona mais ou menos $(3)como um baú do End, mas para FE$() em vez de itens.$(br2)Por padrão, essa reserva pode armazenar até 1.000.000 de FE. Esse valor pode ser alterado na configuração do servidor.",
+      "title": "Injetor de Energia de Espectro"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_energy_injector",
+      "link_recipe": true,
+      "text": "O $(d)Injetor de Energia de Espectro$() permite $(3)inserir FE na reserva$(). Ele pertence a quem o colocou.$(br2)Você $(c)não pode extrair do injetor$(). Para isso, é preciso usar uma $(l:blocks/spectre_coil_basic)Bobina de Espectro$(/l) ou um $(l:items/spectre_charger_basic)Carregador de Espectro$(/l)."
+    }
+  ]
+}

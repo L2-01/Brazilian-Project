@@ -1,0 +1,18 @@
+{
+  "name": "Maldição do Infortúnio",
+  "icon": "minecraft:ender_eye",
+  "category": "enchanted:curses",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Maldição do Infortúnio",
+      "text": "Amaldiçoa o afligido para ficar propenso a ocasionalmente ganhar um efeito infortunado, como fraqueza ou fadiga de mineração."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:curse_misfortune"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 2
+}

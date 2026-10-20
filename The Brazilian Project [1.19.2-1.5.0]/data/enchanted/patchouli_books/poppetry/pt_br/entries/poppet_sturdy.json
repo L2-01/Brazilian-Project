@@ -1,0 +1,17 @@
+{
+  "name": "Bonecos Resistentes",
+  "icon": "enchanted:poppet_sturdy",
+  "category": "enchanted:creating_poppets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O boneco resistente é uma versão melhorada do boneco que permite que a boneca seja usada duas vezes. Podem ser usados no lugar de um boneco normal numa roda de fiar.$(br2)Bonecos resistentes não têm chance de falha."
+    },
+    {
+      "type": "enchanted:spinning_wheel_recipe",
+      "recipe": "enchanted:spinning/poppet_sturdy"
+    }
+  ],
+  "read_by_default": false,
+  "priority": false
+}

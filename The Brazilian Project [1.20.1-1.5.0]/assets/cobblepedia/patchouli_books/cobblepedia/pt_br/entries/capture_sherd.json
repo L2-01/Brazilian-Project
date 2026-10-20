@@ -1,0 +1,30 @@
+{
+    "name": "item.cobblemon.capture_sherd",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:capture_sherd",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:capture_sherd",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.capture_sherd.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.loot",
+            "text": "book.cobblepedia.entries.capture_sherd.loot.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.trivia",
+            "text": "book.cobblepedia.entries.capture_sherd.trivia.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:pottery_sherd"
+            ]
+        }
+    ]
+}

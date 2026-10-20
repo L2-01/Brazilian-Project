@@ -1,0 +1,23 @@
+{
+  "name": "Roteador Sem Fio",
+  "icon": "xnet:wireless_router",
+  "category": "rftoolsbase:category_xnet_wireless",
+  "extra_recipe_mappings": {
+    "xnet:wireless_router": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Roteador Sem Fio pode conectar duas redes de Controladores separadas.$(br2)Coloque uma antena no topo do roteador. O nível dessa antena determina o alcance sem fio."
+    },
+    {
+      "type": "text",
+      "text": "Os roteadores sem fio funcionam com redes de roteamento. Use cabos e conectores de roteamento no lado local e depois publique ou consuma canais pela interface do roteador."
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:wireless_router"
+    }
+  ]
+}

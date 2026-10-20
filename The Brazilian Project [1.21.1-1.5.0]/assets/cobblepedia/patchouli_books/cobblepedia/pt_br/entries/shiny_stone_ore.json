@@ -1,0 +1,28 @@
+{
+    "name": "block.cobblemon.shiny_stone_ore",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:shiny_stone_ore",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:shiny_stone_ore",
+            "link_recipe": true,
+            "title": "block.cobblemon.shiny_stone_ore",
+            "text": "book.cobblepedia.entries.shiny_stone_ore.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.generation",
+            "text": "book.cobblepedia.entries.shiny_stone_ore.generation"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:shiny_stone",
+                "cobblepedia:deepslate_shiny_stone_ore",
+                "cobblepedia:evolution_stone_mining"
+            ]
+        }
+    ]
+}

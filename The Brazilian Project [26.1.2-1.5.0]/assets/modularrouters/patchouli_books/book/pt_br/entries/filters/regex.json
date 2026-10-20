@@ -1,0 +1,34 @@
+{
+  "name": "Filtro de Regex",
+  "category": "modularrouters:filters",
+  "icon": "modularrouters:regex_filter",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este filtro permite a correspondência de blocos e itens com uma expressão regular, contra o $(strong)nome de registro/$ do item. Expressões regulares são muito poderosas, mas exigem algum aprendizado para liberar todo o seu potencial. No entanto, o uso básico de regex não é muito difícil. Há muitos sites com tutoriais sobre expressões regulares, ex.: $(l:https://regexone.com/)RegexOne/$."
+    },
+    {
+      "type": "text",
+      "title": "Nomes de Registro",
+      "text": "Como a filtragem de itens é feita puramente no servidor, ela não pode saber ao certo qual é o texto exibido de um item. Portanto, todas as correspondências de filtro são feitas contra o $(thing)nome de registro/$ interno do item. Você pode encontrar esse nome de registro ativando a exibição avançada de tooltip com $(thing)F3+H/$.$(p)Note que a correspondência é feita apenas contra a parte do nome de registro $(italic)após/$ os dois-pontos."
+    },
+    {
+      "type": "text",
+      "text": "Para abrir a GUI do módulo, $(thing)clique com o botão direito/$ no filtro, ou $(thing)clique com o botão do meio/$ / pressione $(bold)$(4)[$(k:modularrouters.configure)]/$ num filtro instalado num módulo.$(li)Digite sua regex no campo de texto no topo e pressione $(thing)Enter/$ ou clique no botão verde $(bold)$(2)+/$. Sua regex será adicionada à lista, assumindo que sua sintaxe seja válida. Você pode ter até 6 entradas num filtro.$(li)Clique no $(bold)$(4)X/$ vermelho ao lado de qualquer regex para removê-la da lista.$(li)As correspondências não diferenciam maiúsculas de minúsculas."
+    },
+    {
+      "type": "text",
+      "title": "Exemplo 1",
+      "text": "Uma regex 'ore' corresponderá a quaisquer itens com 'ore' no nome de registro (\"iron_ore\", \"gold_ore\", \"redstone_ore\"). Infelizmente, ela também corresponderá a \"drill_core\", mas você pode evitar isso usando uma regex $(1)_ore/$. Para ser ainda mais específico, você pode usar $(1)_ore$/$, que também garante que a string \"_ore\" esteja no fim do nome de registro do item."
+    },
+    {
+      "type": "text",
+      "title": "Exemplo 2",
+      "text": "Configure um $(l:modules/player)Módulo de Jogador/$ para extrair do inventário principal do jogador e coloque um filtro de regex contendo $(1)_ore/$ no módulo. Isso pode ser usado para extrair quaisquer minérios do seu inventário, não importa onde você esteja, para o seu sistema de processamento de minérios; muito útil se você está minerando longe da sua base e quer que os minérios minerados sejam enviados para casa imediatamente."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:regex_filter"
+    }
+  ]
+}

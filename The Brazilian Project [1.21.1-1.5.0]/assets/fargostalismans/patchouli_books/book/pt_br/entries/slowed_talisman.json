@@ -1,0 +1,18 @@
+{
+  "name": "Talismã de Lentidão",
+  "sortnum": 40,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:slowed_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã de Lentidão concede 25% de aumento de dano enquanto o jogador está sob efeito de lentidão. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_epic)Base de Talismã Épico$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_negative)Força do Negativo$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/slowed_talisman",
+      "recipe2": "fargostalismans:forces/force_of_negative"
+    }
+  ],
+  "read_by_default": true
+}

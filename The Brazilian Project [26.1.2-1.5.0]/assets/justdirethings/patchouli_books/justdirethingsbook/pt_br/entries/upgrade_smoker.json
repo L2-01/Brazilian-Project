@@ -1,0 +1,17 @@
+{
+  "name": "Defumação",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_smoker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aprimore suas capacidades culinárias com a melhoria Defumação. Quaisquer itens largados por criaturas serão defumados automaticamente! Carne Bovina virará Filé.$(br2)Usa um pouco de durabilidade."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Defumação",
+      "recipe": "justdirethings:upgrade_smoker"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.peat_mulch",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:peat_mulch",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:peat_mulch",
+            "text": "book.cobblepedia.entries.peat_mulch.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:peat_mulch",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+
+"name": "Muros",
+    "icon": "minecraft:writable_book",
+    "category": "merrymaking:fences",
+    "pages": [
+	
+		{
+			"type": "spotlight",
+			"item": "merrymaking:brick_garland_wall",			
+			"text": "Qualquer bloco de Muro vanilla pode ser decorado com Festão.$(br2)Basta combinar o muro com o festão de sua escolha numa bancada de trabalho."
+		},			
+		
+		{
+			"type": "crafting",
+			"title": "Muros com Festão",
+			"recipe": "merrymaking:andesite_wall_garland",
+			"recipe2": "merrymaking:stone_brick_wall_garland_white"	
+		},
+		
+		{
+			"type": "crafting",
+			"title": "Muros com Festão",
+			"recipe": "merrymaking:sandstone_wall_garland_multi"
+				
+		}
+		
+		
+		
+		]
+	
+	
+}

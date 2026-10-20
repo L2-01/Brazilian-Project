@@ -1,0 +1,33 @@
+{
+  "name": "Abelha",
+  "icon": "minecraft:bee_spawn_egg",
+  "category": "animal_pen:category_aviary",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:bee",
+      "scale": 1,
+      "text": "As abelhas coletam pólen no cercado com o tempo."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:bee_food",
+      "text": "Alimente as abelhas com uma flor pequena para procriá-las e aumentar seu número no cercado."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:swords,tag:minecraft:axes",
+      "text": "Usar uma espada ou machado no Cercado de Animais matará as abelhas."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:shears",
+      "text": "Usar tesouras removerá o pólen coletado e largará favos de mel. [interação de redstone 1]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:glass_bottle",
+      "text": "Usar um frasco de vidro removerá o pólen coletado e encherá o frasco com mel. [interação de redstone 1]"
+    }
+  ]
+}

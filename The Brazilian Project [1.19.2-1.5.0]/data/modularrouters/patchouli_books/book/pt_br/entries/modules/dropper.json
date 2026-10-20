@@ -1,0 +1,15 @@
+{
+  "name": "Módulo Ejetor",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:dropper_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este módulo tenta largar um item do buffer do roteador como uma entidade de item no mundo. O item largado será adjacente ao roteador na $(l:intro/modules#direction)direção configurada/$ do módulo. A entidade de item será colocada com velocidade zero, diferente do $(item)Liberador/$ vanilla, que adiciona uma irritante velocidade aleatória ao item."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:dropper_module"
+    }
+  ]
+}

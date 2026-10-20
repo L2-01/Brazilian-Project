@@ -1,0 +1,29 @@
+{
+  "name": "Planta Termopneumática",
+  "icon": "pneumaticcraft:thermopneumatic_processing_plant",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:refinery",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uma $(thing)Planta de Processamento Termopneumático/$ usa $(l:base_concepts/pressure)pressão/$ e/ou $(l:base_concepts/heat)calor/$ para processar materiais. Ela tem vários usos:$(li)100mB de $(thing)GLP/$ e 1 peça de $(item)Carvão/$ fazem 1000mB de $(l:components/plastic)Plástico/$. Isso requer calor, mas não pressão.$(li)1000mB de $(thing)Diesel/$ e 1 peça de $(item)Pó de Redstone/$ fazem 1000mB de $(l:components/lubricant)Lubrificante/$. Novamente, isso requer calor, mas não pressão."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A $(item)Planta de Processamento Termopneumático/$ pode ser usada para craquear combustíveis mais pesados produzidos por uma $(l:manufacturing/refinery)Refinaria/$ em combustíveis mais leves com uma taxa de retorno de 80%:$(li)Diesel -> Querosene$(li)Querosene -> Gasolina$(li)Gasolina -> GLP$(p)Isso requer tanto calor quanto pressão."
+    },
+    {
+      "type": "link",
+      "flag": "mod:crafttweaker",
+      "title": "CraftTweaker",
+      "text": "A $(thing)Planta de Processamento Termopneumático/$ tem suporte ao $(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$: receitas podem ser adicionadas e removidas. Siga o link abaixo para mais informações.",
+      "url": "https://docs.blamejared.com/1.16/en/mods/PneumaticCraft-Repressurized/ThermoPlant",
+      "link_text": "CraftTweaker Docs"
+    },
+    {
+      "type": "crafting",
+      "text": "Fabricando uma Planta de Processamento Termopneumático",
+      "recipe": "pneumaticcraft:thermopneumatic_processing_plant"
+    }
+  ]
+}

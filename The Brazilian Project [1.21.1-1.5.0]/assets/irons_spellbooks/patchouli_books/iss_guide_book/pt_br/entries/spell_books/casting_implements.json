@@ -1,0 +1,34 @@
+{
+  "name": "Instrumentos de Conjuração",
+  "icon": "irons_spellbooks:graybeard_staff",
+  "category": "irons_spellbooks:root",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Instrumentos de Conjuração",
+      "text": "Instrumentos de Conjuração são itens que podem ser clicados com o botão direito (usados) para lançar seu feitiço ativo. Na maioria das vezes, eles também oferecem benefícios passivos, permitindo um estilo de jogo dedicado a mago."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:graybeard_staff",
+      "text": "Um simples graveto é tudo que é preciso para começar a rolar a bola de cristal."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:artificer_cane",
+      "text": "Às vezes, um estilo extra é tudo que é preciso para levar sua conjuração ao próximo nível."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:ice_staff",
+      "text": "Rumores dizem que pedaços de um cajado místico congelado estão espalhados pela Superfície. O Criomante pode ter pesquisas guardadas em sua torre revelando mais."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:blood_staff",
+      "text": "Um cetro antigo com habilidades de invocação inigualáveis; só pode ser obtido tirando-o de seu dono morto-vivo."
+    }
+  ]
+}

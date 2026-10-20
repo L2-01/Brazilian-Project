@@ -1,0 +1,17 @@
+{
+  "name": "Voo",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_flight",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ganhe o poder de voo irrestrito com a melhoria Voo. Esta melhoria permite voar livremente no modo sobrevivência, quase como no modo criativo.$(br2)Ela usa forge energy para te manter no ar, então não deixe acabar!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação do Voo",
+      "recipe": "justdirethings:upgrade_flight"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.flying_gem",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:flying_gem",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:flying_gem",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.flying_gem.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:type_gem"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Ponte ME",
+  "icon": "advancedperipherals:me_bridge",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Ponte ME é capaz de interagir com o Applied Energistics 2. Você pode extrair itens, fabricar itens, obter todos os itens como uma lista e mais. A Ponte ME usa um canal.$(p)Para a documentação completa, consulte a $(9)$(l:https://docs.advanced-peripherals.de/peripherals/me_bridge/)página oficial da wiki$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:me_bridge"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:me_bridge"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "Conecte sua Ponte ME a um computador para usá-la!"
+    }
+  ]
+}

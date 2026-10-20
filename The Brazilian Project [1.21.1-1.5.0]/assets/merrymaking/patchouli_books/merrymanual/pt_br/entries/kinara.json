@@ -1,0 +1,58 @@
+{
+
+"name": "Kinara",
+    "icon": "merrymaking:kinara",
+    "category": "merrymaking:kwanzaa",
+    "pages": [
+	
+		{
+			"type": "patchouli:image",
+			
+			"images": ["merrymaking:textures/gui/kinara.png"],
+			"text": "Kinara"
+		},
+		
+		{
+			"type": "spotlight",
+			"title": "Kinara",
+			"item": "merrymaking:kinara",			
+			"text": "O Kinara tem orientação direcional e pode ser colocado sobre um Mkeka, se desejado.$(br2)É totalmente funcional e foi projetado para emular o acendimento das velas de Kwanzaa em ordem."
+		},
+		
+		{
+			"type": "patchouli:text",
+			"title": "Acendendo o Kinara",						
+			"text": "Para acender o Kinara, você precisará do seguinte: $(li)1 Vela Preta $(li) 3 Velas Vermelhas $(li) 3 Velas Verdes $(li)Pederneira $(br2)As velas entram no Kinara na seguinte ordem de cores: preta, vermelha, verde, vermelha, verde, vermelha, verde."
+		},
+		
+		{
+			"type": "patchouli:text",
+			"title": "Acendendo o Kinara",						
+			"text": "Comece colocando a primeira vela e depois acenda-a. Em seguida, coloque a segunda e acenda-a. Repita o processo até que todas as velas estejam acesas.$(br2)Uma mensagem no chat aparecerá indicando cada vela ao ser acesa. Quanto mais velas acesas, mais luz o Kinara emitirá."
+		},
+		
+		{
+			"type": "patchouli:text",
+			"title": "Solução de Problemas",						
+			"text": "Se usar uma vela de cor errada, a vela colocada mais recentemente será devolvida e você poderá tentar de novo.$(br2)Se o seu Kinara não acender, remova todas as velas (basta clicar com a mão vazia) e coloque-as/acenda-as novamente na ordem correta."
+		},
+		
+				
+				
+		{
+			"type": "crafting",	
+			"title": "Kinara",
+			"recipe": "merrymaking:kinara"
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		]
+	
+	
+}

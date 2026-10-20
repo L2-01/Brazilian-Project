@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:contact_lever",
+  "name": "Alavanca de Contato",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:contact_lever",
+      "link_recipe": true,
+      "text": "Quando o bloco à frente da $(d)Alavanca de Contato$() é clicado, a Alavanca de Contato alterna entre ligado e desligado.$(br2)Enquanto ligada, ela emite um sinal de redstone pelas outras faces.",
+      "title": "Alavanca de Contato"
+    }
+  ]
+}

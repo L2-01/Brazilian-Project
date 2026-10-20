@@ -1,0 +1,28 @@
+{
+    "name": "Dragão",
+    "icon": "adventurez:blackstone_golem_heart",
+    "category": "adventurez:mob_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O Dragão é o filho do conhecidíssimo Dragão do Ender. Você precisa chocar o ovo de dragão e ele crescerá com o tempo. Depois ele pode ser montado e, se for grande o suficiente, pode até carregar um baú. Ele adora comer pele de ogro, mas também não tem nada contra carne crua, então, se estiver com pouca vida, alimente-o"
+        },
+        {
+            "type": "entity",
+            "name": "Exibição",
+            "entity": "adventurez:dragon",
+            "scale": 1.1,
+            "offset": -1.2
+        },
+        {
+            "type": "text",
+            "title": "Incubação do Ovo",
+            "text": "Depois de obter o ovo de dragão, você terá que invocar e matar O Olho para obter o efeito de fama. Se o VoidZ estiver instalado, você terá que matar a Sombra do Vazio em vez disso. Construa um ninho na sua base para chocar o ovo com segurança. Se ele sentir sua fama, começará a chocar e emitirá partículas"
+        },
+        {
+            "type": "text",
+            "title": "Crescimento",
+            "text": "Depois que o dragão nascer, você pode alimentá-lo com pele de ogro para que cresça mais rápido, se estiver com fome suficiente. Ele cresce em tamanho duas vezes até se tornar um dragão grande. Após o primeiro estágio, você pode colocar uma sela para dragões para montá-lo; após o segundo estágio, você pode colocar um baú nele e ele já tem idade suficiente para cuspir fogo"
+        }
+    ]
+}

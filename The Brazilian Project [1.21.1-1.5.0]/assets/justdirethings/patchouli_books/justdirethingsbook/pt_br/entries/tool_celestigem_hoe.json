@@ -1,0 +1,17 @@
+{
+  "name": "Enxada de Celestigema",
+  "sortnum": 17,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:celestigem_hoe[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Melhorada a partir da $(l:justdirethings:tool_blazegold_hoe)Enxada de Ouro de Blaze$(/l), as ferramentas de Celestigema têm Forge Energy em vez de durabilidade. Esta enxada cria solo de Voidshimmer.$(br2)Se a enxada tiver a habilidade \"teleporte de itens\" e estiver vinculada a um inventário, o solo teleportará os blocos auto-colhidos para aquele inventário."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:celestigem_hoe",
+      "text": "Fabricação da Enxada de Celestigema"
+    }
+  ]
+}

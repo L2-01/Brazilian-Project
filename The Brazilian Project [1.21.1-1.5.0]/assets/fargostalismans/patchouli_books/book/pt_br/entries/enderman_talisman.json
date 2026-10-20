@@ -1,0 +1,18 @@
+{
+  "name": "Talismã de Enderman",
+  "sortnum": 17,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:enderman_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã de Enderman impede que endermans fiquem hostis ao olhar para eles. Eles ainda ficarão irritados se você os atacar. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_normal)Base de Talismã Padrão$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_explorer)Força do Explorador$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/enderman_talisman",
+      "recipe2": "fargostalismans:forces/force_of_explorer"
+    }
+  ],
+  "read_by_default": true
+}

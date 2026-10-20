@@ -1,0 +1,26 @@
+{
+    "name": "Árvores Ancestrais",
+    "icon": "naturesaura:ancient_leaves",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:wood_stand",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Uma forma básica de repor a $(aura) de uma área são as $(item)Árvores Ancestrais$(). Uma vez criada uma $(item)Muda Ancestral$(), ela crescerá como uma árvore normal, mas suas folhas começarão a aumentar os níveis de $(aura) de volta ao normal lentamente.$(br)A árvore, porém, não sai bem nesse processo: conforme a $(aura) de suas folhas é drenada para o mundo, as folhas começam a morrer, deixando a árvore nua se o suficiente for drenado."
+        },
+        {
+            "type": "text",
+            "text": "Vale notar adicionalmente que, embora esta árvore pareça especialmente bonita nas regiões mais infernais do mundo devido ao esquema de cores correspondente, ela $(italic)não funciona$() fora do reino da $(thing)superfície$(), já que é a única área onde as plantas podem prosperar da forma apropriada."
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "Criando a $(item)Muda Ancestral$() usando o $(l:practices/tree_ritual)Ritual da Floresta$()",
+            "recipe": "naturesaura:ancient_sapling"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:ancient_planks",
+            "recipe2": "naturesaura:ancient_stick"
+        }
+    ]
+}

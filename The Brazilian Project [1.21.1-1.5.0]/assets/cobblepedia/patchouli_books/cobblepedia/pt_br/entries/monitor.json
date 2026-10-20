@@ -1,0 +1,19 @@
+{
+    "name": "block.cobblemon.monitor",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:monitor",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:monitor",
+            "title": "block.cobblemon.monitor",
+            "text": "book.cobblepedia.entries.monitor.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:monitor",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

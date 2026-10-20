@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:ender_letter",
+  "name": "Carta Ender",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As $(d)Cartas Ender$() permitem $(3)enviar itens a outros jogadores$() com facilidade.$(br2)Use a carta para abri-la. Você pode inserir $(3)até 9 itens$() para enviar e digitar o nome de usuário do destinatário na caixa de texto.",
+      "title": "Carta Ender"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:ender_letter",
+      "link_recipe": true,
+      "text": "Para enviar a carta, basta usá-la numa $(l:blocks/ender_mailbox)Caixa de Correio do Ender$(/l). A carta será inserida na caixa de correio do destinatário, se houver espaço."
+    }
+  ]
+}

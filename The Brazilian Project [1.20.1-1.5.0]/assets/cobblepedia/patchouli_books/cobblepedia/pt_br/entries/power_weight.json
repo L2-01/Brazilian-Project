@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.power_weight",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:power_weight",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:power_weight",
+            "text": "book.cobblepedia.entries.power_weight.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.power_weight.usage.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:power_weight",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

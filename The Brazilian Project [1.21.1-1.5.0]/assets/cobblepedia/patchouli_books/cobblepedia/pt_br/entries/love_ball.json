@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.love_ball",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:love_ball",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:love_ball",
+            "text": "book.cobblepedia.entries.love_ball.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:love_ball",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.love_ball.crafting"
+        }
+    ]
+}

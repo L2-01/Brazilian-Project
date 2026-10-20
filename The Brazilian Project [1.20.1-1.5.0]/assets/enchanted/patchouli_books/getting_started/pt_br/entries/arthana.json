@@ -1,0 +1,16 @@
+{
+  "name": "Arthana",
+  "icon": "enchanted:arthana",
+  "category": "enchanted:tools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A arthana é uma faca ritual tipicamente usada para sacrifício, que permite que criaturas soltem materiais mágicos raros. Os materiais possíveis estão listados abaixo:$(br2)$(bold)Lobo$() Língua de Cão$(br)$(bold)Creeper$() Coração de Creeper$(br)$(bold)Morcego$() Lã de Morcego"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:arthana"
+    }
+  ],
+  "read_by_default": true
+}

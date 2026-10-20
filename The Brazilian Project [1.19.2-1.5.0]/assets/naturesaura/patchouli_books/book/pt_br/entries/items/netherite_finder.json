@@ -1,0 +1,21 @@
+{
+    "name": "Cajado do Conhecimento Ancestral",
+    "icon": "naturesaura:netherite_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Descobertas recentes desvendaram uma substância bastante importante, enterrada nas partes mais escuras deste mundo: os $(thing)Detritos Ancestrais$(). Esse material difícil de encontrar é resistente e extremamente útil para mineradores, mas sua raridade o torna difícil de obter. O $(item)Cajado do Conhecimento Ancestral$() resolve esse problema de forma elegante."
+        },
+        {
+            "type": "text",
+            "text": "Ao usá-lo, todos os blocos de $(thing)Detritos Ancestrais$() numa área ao redor do usuário serão destacados, tornando-os visíveis até $(thing)através de outros blocos$(), por cerca de um minuto. Durante esse tempo, o material pode ser facilmente localizado e minerado.$(br)Nem precisa dizer que essa operação requer uma grande quantidade de $(aura) de um $(l:items/aura_cache)Cache de Aura$() ou dispositivo similar."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Cajado do Conhecimento Ancestral$()",
+            "recipe": "naturesaura:netherite_finder"
+        }
+    ]
+}

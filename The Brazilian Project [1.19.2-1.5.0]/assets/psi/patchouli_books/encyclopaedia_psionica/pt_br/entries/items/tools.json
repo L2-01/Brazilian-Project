@@ -1,0 +1,34 @@
+{
+  "name": "psi.book.entry.tools",
+  "category": "psi:items",
+  "icon": "psi:psimetal_pickaxe",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "psi.book.page.tools.0"
+    },
+    {
+      "type": "crafting_multi",
+      "text": "psi.book.page.tools.1",
+      "recipes": [
+        "psi:psimetal_sword",
+        "psi:psimetal_shovel",
+        "psi:psimetal_pickaxe",
+        "psi:psimetal_axe"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tools.2"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tools.3"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tools.4"
+    }
+  ]
+}

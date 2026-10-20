@@ -1,0 +1,26 @@
+{
+    "name": "Porta de Computador",
+    "icon": "bigreactors:reinforced_reactorcomputerport",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_reactorcomputerport",
+            "link_recipe": true,
+            "title" : "Porta de Computador",
+            "text": "A Porta de Computador permite conectar seu Reator a um computador para tarefas complexas de automação.$(br2)Um conjunto padrão de métodos é exposto ao computador conectado e você pode usá-los para consultar o status do Reator e controlar seu comportamento."
+        },
+        {
+            "type": "crafting-text",
+            "text": "Para usar a Porta de Computador, você precisa de um mod externo que adicione computadores programáveis ao jogo.$(br2)Atualmente, o único mod suportado (e disponível) é o CC:Tweaked.",
+            "title": "Reforçada",
+            "recipe": "bigreactors:reactor/reinforced/computerport"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() Reforçada$(br)$(l)Interface gráfica:$() não"
+        }
+    ]
+}

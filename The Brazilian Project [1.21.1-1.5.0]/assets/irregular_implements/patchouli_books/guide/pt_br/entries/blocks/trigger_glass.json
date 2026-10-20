@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:trigger_glass",
+  "name": "Vidro de Gatilho",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:trigger_glass",
+      "link_recipe": true,
+      "text": "O $(d)Vidro de Gatilho$() normalmente é sólido, mas, ao receber um pulso de redstone, torna-se não sólido por um curto período.$(br2)Esse efeito se propaga a todos os blocos de Vidro de Gatilho conectados, dentro de uma distância.",
+      "title": "Vidro de Gatilho"
+    }
+  ]
+}

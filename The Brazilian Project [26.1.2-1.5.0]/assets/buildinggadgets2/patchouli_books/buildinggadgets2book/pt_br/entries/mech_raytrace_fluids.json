@@ -1,0 +1,21 @@
+{
+  "name": "Raytrace de Fluidos",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/raytrace_fluid.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Raytrace de Fluidos permite que o(s) dispositivo(s) interajam com fluidos. Quando ligado, os trocadores podem trocar fluidos, e os construtores podem construir em cima de fluidos. $(br2)Quando desligado, esses dispositivos ignoram os fluidos e constroem nos blocos atrás deles.$(br2)Veja o capítulo sobre $(l:buildinggadgets2:mech_fluid_handling)Manipulação de Fluidos$(/l) para mais detalhes."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Raytrace de Fluidos",
+      "images": [
+        "buildinggadgets2:textures/book/images/raytracefluids.png"
+      ],
+      "border": true,
+      "text": "Afetando Fluidos!"
+    }
+  ]
+}

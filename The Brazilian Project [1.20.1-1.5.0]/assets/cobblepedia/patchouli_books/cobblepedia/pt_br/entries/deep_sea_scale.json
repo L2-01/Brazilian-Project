@@ -1,0 +1,29 @@
+{
+    "name": "item.cobblemon.deep_sea_scale",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:deep_sea_scale",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:deep_sea_scale",
+            "link_recipe": true,
+            "title": "item.cobblemon.deep_sea_scale",
+            "text": "book.cobblepedia.entries.deep_sea_scale.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.deep_sea_scale.holding"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.deep_sea_scale.evolving",
+            "holding_item3": "cobblemon:deep_sea_scale",
+            "using_item3": "cobblemon:link_cable",
+            "pokemon3": "cobblemon:clamperl",
+            "evolved_pokemon3": "cobblemon:gorebyss"
+        }
+    ]
+}

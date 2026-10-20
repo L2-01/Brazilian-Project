@@ -1,0 +1,16 @@
+{
+  "name": "Giz Ritualístico",
+  "icon": "enchanted:ritual_chalk",
+  "category": "enchanted:performing_rites",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O giz ritualístico é a forma mais básica de giz usada na magia de círculos, é obtida com bastante facilidade e usada em muitas aplicações simples, além de ritos mais complexos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:ritual_chalk"
+    }
+  ],
+  "read_by_default": true
+}

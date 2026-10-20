@@ -1,0 +1,17 @@
+{
+  "name": "Configurador de Máquinas",
+  "sortnum": 9,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:machinesettingscopier",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esta ferramenta permite copiar configurações de máquinas. Shift + clique direito numa $(l:justdirethings:machines)Máquina$(/l) para copiar suas configurações, depois clique direito noutra máquina para colá-las. Clique no ar para abrir um menu e selecionar configurações específicas para copiar."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação do Configurador de Máquinas",
+      "recipe": "justdirethings:machinesettingscopier"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "book.cobblepedia.entries.power_item",
+    "category": "cobblepedia:held_items",
+    "icon": "cobblemon:power_anklet",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.power_item",
+            "item": "tag:cobblepedia:book/power_item",
+            "text": "book.cobblepedia.entries.power_item.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:power_anklet",
+                "cobblepedia:power_band",
+                "cobblepedia:power_belt",
+                "cobblepedia:power_bracer",
+                "cobblepedia:power_lens",
+                "cobblepedia:power_weight"
+            ]
+        }
+    ]
+}

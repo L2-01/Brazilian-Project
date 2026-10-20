@@ -1,0 +1,21 @@
+{
+    "name": "book.cobblepedia.entries.choice_items",
+    "category": "cobblepedia:held_items",
+    "icon": "cobblemon:choice_band",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.choice_items",
+            "item": "tag:cobblepedia:book/choice_items",
+            "text": "book.cobblepedia.entries.choice_items.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:choice_band",
+                "cobblepedia:choice_scarf",
+                "cobblepedia:choice_specs"
+            ]
+        }
+    ]
+}

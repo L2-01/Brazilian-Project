@@ -1,0 +1,37 @@
+{
+  "name": "Transportador Carregado",
+  "icon": "rftoolsutility:charged_porter",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:charged_porter": 0,
+    "rftoolsutility:advanced_charged_porter": 0,
+    "rftoolsutility:teleport_probe": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "Transportadores Carregados são ferramentas portáteis de teletransporte que usam $(l:rftoolsbase:machines/matter_receiver)Receptores de Matéria$(/l) como destinos. Eles precisam ser carregados com FE antes do uso."
+    },
+    {
+      "type": "crafting",
+      "heading": "Transportadores",
+      "recipe": "rftoolsutility:charged_porter",
+      "recipe2": "rftoolsutility:advanced_charged_porter"
+    },
+    {
+      "type": "text",
+      "title": "Alvos",
+      "text": "Clique com o botão direito com um transportador em um Receptor de Matéria para armazenar esse destino. O transportador básico armazena um alvo; o transportador avançado pode armazenar vários alvos e alternar entre eles."
+    },
+    {
+      "type": "text",
+      "title": "Uso",
+      "text": "Use o transportador carregado para iniciar o teletransporte. O receptor ainda precisa existir e estar utilizável. O transportador avançado é melhor para jogadores que viajam entre várias bases."
+    },
+    {
+      "type": "text",
+      "title": "Sonda de Teletransporte",
+      "text": "A Sonda de Teletransporte ajuda a inspecionar informações do receptor e alvos do transportador, o que é útil ao depurar uma rede de teletransporte maior."
+    }
+  ]
+}

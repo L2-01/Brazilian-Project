@@ -1,0 +1,42 @@
+{
+    "components": [
+        {
+            "type": "patchouli:header",
+            "text": "#title",
+            "guard": "#title->exists",
+            "x": -1,
+            "y": -1
+        },
+        {
+            "type": "patchouli:header",
+            "text": "#text",
+            "guard": "#text->exists",
+            "x": -1,
+            "y": 80
+        }
+    ],
+    "include": [
+        {
+            "template": "cobblepedia:brewing_base",
+            "as": "brewing",
+            "using": {
+                "title": "#title",
+                "reagent_item": "#reagent_item",
+                "base_item": "#base_item",
+                "result_item": "#result_item"
+            }
+        },
+        {
+            "template": "cobblepedia:brewing_base",
+            "guard": "#text->exists->inv",
+            "as": "brewing2",
+            "y": 80,
+            "using": {
+                "title": "#title",
+                "reagent_item": "#reagent_item2",
+                "base_item": "#base_item2",
+                "result_item": "#result_item2"
+            }
+        }
+    ]
+}

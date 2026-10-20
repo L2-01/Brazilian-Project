@@ -1,0 +1,94 @@
+{
+    "name": "book.cobblepedia.entries.poke_ball_tiers",
+    "category": "cobblepedia:poke_balls",
+    "icon": "cobblemon:luxury_ball",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.poke_ball_tiers",
+            "item": "tag:cobblepedia:book/poke_ball_tiers",
+            "text": "book.cobblepedia.entries.poke_ball_tiers.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.poke_ball_tiers.first_tier",
+            "text": "book.cobblepedia.entries.poke_ball_tiers.first_tier.text",
+            "entries": [
+                "cobblepedia:basic_balls",
+                "cobblepedia:safari_ball",
+                "cobblepedia:heal_ball",
+                "cobblepedia:ancient_balls",
+                "cobblepedia:ancient_feather_ball",
+                "cobblepedia:ancient_heavy_ball"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.poke_ball_tiers.second_tier",
+            "text": "book.cobblepedia.entries.poke_ball_tiers.second_tier.text",
+            "entries": [
+                "cobblepedia:apricorn_balls",
+                "cobblepedia:great_ball",
+                "cobblepedia:sport_ball",
+                "cobblepedia:park_ball",
+                "cobblepedia:net_ball",
+                "cobblepedia:dive_ball",
+                "cobblepedia:nest_ball",
+                "cobblepedia:ancient_great_ball",
+                "cobblepedia:ancient_wing_ball",
+                "cobblepedia:ancient_leaden_ball"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.poke_ball_tiers.third_tier",
+            "text": "book.cobblepedia.entries.poke_ball_tiers.third_tier.text",
+            "entries": [
+                "cobblepedia:ultra_ball",
+                "cobblepedia:love_ball",
+                "cobblepedia:repeat_ball",
+                "cobblepedia:timer_ball",
+                "cobblepedia:luxury_ball",
+                "cobblepedia:dusk_ball",
+                "cobblepedia:quick_ball",
+                "cobblepedia:ancient_ultra_ball",
+                "cobblepedia:ancient_jet_ball",
+                "cobblepedia:ancient_gigaton_ball"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.poke_ball_tiers.fourth_tier",
+            "text": "book.cobblepedia.entries.poke_ball_tiers.fourth_tier.text",
+            "entries": [
+                "cobblepedia:dream_ball",
+                "cobblepedia:beast_ball"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.poke_ball_tiers.highest_tier",
+            "text": "book.cobblepedia.entries.poke_ball_tiers.highest_tier.text",
+            "entries": [
+                "cobblepedia:master_ball"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.entries.poke_ball_tiers.untiered",
+            "text": "book.cobblepedia.entries.poke_ball_tiers.untiered.text",
+            "entries": [
+                "cobblepedia:cherish_ball",
+                "cobblepedia:ancient_origin_ball"
+            ]
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:craft_all_balls",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.craft_all_balls",
+            "text": "advancements.cobblemon.craft_all_balls.description"
+        }
+    ]
+}

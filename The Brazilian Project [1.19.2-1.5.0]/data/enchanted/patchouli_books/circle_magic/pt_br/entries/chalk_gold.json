@@ -1,0 +1,16 @@
+{
+  "name": "Giz Dourado",
+  "icon": "enchanted:chalk_gold",
+  "category": "enchanted:performing_rites",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O giz dourado é usado para criar o glifo de coração de um círculo mágico, que deve ser clicado com o botão direito para ser ativado. Nenhum rito funciona sem um glifo de coração."
+    },
+    {
+      "type": "enchanted:cauldron_recipe",
+      "recipe": "enchanted:witch_cauldron/chalk_gold"
+    }
+  ],
+  "read_by_default": true
+}

@@ -1,0 +1,41 @@
+{
+    "name": "book.cobblepedia.entries.tumblestones.name",
+    "category": "cobblepedia:archaeology",
+    "icon": "cobblemon:tumblestone",
+    "turnin": "cobblemon:obtain_tumblestone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.tumblestones.name",
+            "item": "tag:cobblemon:tumblestones",
+            "text": "book.cobblepedia.entries.tumblestones.text"
+        },
+        {
+            "type": "patchouli:text",
+            "anchor": "obtaining",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.tumblestones.obtaining.text"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:obtain_tumblestone",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.obtain_tumblestone",
+            "text": "advancements.cobblemon.obtain_tumblestone.description"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:tumblestone",
+                "cobblepedia:black_tumblestone",
+                "cobblepedia:sky_tumblestone"
+            ]
+        },
+        {
+            "type": "patchouli:text",
+            "anchor": "usage",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.tumblestones.usage.text"
+        }
+    ]
+}

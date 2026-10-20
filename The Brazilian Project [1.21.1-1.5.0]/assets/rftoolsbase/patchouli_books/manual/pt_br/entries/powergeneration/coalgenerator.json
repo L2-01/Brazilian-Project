@@ -1,0 +1,23 @@
+{
+  "name": "Gerador a Carvão",
+  "icon": "rftoolspower:coalgenerator",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:coalgenerator": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Gerador a Carvão é um gerador de FE simples do início do jogo. Insira carvão ou blocos de carvão e ele os queimará em energia para máquinas próximas ou cabos conectados."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:coalgenerator"
+    },
+    {
+      "type": "text",
+      "text": "Ele tem um buffer interno, então pode continuar queimando enquanto a saída está temporariamente bloqueada. Blocos de carvão são convenientes para longos períodos sem supervisão."
+    }
+  ]
+}

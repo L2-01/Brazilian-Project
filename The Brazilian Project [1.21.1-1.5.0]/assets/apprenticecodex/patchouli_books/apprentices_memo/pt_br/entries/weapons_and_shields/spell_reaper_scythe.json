@@ -1,0 +1,17 @@
+{
+  "name": "item.apprenticecodex.spell_reaper_scythe",
+  "category": "apprenticecodex:weapons_and_shields",
+  "icon": "apprenticecodex:spell_reaper_scythe",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spell_reaper_scythe",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_reaper_scythe.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:spell_reaper_scythe",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_reaper_scythe.page.p002.text"
+    }
+  ]
+}

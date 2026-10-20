@@ -1,0 +1,17 @@
+{
+  "name": "Broca a Laser",
+  "icon": "industrialforegoing:laser_drill",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 13,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esta máquina, quando abastecida com energia, carrega a primeira $(l:resource_production/ore_laser_base)Base de Laser de Minério$() e $(l:resource_production/fluid_laser_base)Base de Laser de Fluido$() que encontrar na sua área de trabalho."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:laser_drill"
+    }
+  ]
+}

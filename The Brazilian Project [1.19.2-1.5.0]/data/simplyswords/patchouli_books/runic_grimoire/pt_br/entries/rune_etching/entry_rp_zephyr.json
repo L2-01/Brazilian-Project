@@ -1,0 +1,17 @@
+{
+  "name": "Zéfiro",
+  "icon": "simplyswords:runic_tablet",
+  "category": "simplyswords:category_rune_etching",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:runic_tablet",
+      "title": "Zéfiro",
+      "text": "Zéfiro é um poder rúnico que imbui a arma do usuário com a $(#85a0ab)$(l)essência do elemento vento$(). $(br2)Concede ao usuário uma chance de ganhar velocidade de ataque e de movimento aumentadas a cada acerto."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "É ideal para personagens focados em causar dano alto, como guerreiros, bárbaros e ladinos, que podem aproveitar a velocidade de ataque e de movimento aumentadas para atacar rápido e evadir ataques inimigos."
+    }
+  ]
+}

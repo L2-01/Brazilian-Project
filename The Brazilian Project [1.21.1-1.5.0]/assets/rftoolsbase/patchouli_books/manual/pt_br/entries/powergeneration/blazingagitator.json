@@ -1,0 +1,27 @@
+{
+  "name": "Agitador Ardente",
+  "icon": "rftoolspower:blazing_agitator",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:blazing_agitator": 0
+  },
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Agitador Ardente prepara varetas de blaze para o $(l:rftoolsbase:powergeneration/blazinggenerator)Gerador Ardente$(/l). Ele usa um pouco de FE para transformar varetas normais em Varetas Ardentes."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:blazing_agitator"
+    },
+    {
+      "type": "text",
+      "text": "Varetas próximas na grade de entrada melhoram umas às outras. Varetas melhores terminam mais rápido e ganham melhor qualidade de energia, então vale a pena manter algumas varetas fortes na grade."
+    },
+    {
+      "type": "text",
+      "text": "Os nove botões de trava impedem que varetas prontas se movam para a saída. Use-os para manter varetas de alta qualidade no lugar como impulsionadoras de varetas futuras."
+    }
+  ]
+}

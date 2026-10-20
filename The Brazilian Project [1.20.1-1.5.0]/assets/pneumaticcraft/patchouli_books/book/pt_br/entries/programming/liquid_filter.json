@@ -1,0 +1,19 @@
+{
+  "name": "Widget de Filtro de Fluido",
+  "icon": "pneumaticcraft:textures/progwidgets/liquid_filter_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O $(thing)Filtro de Fluido/$ é um widget usado apenas como $(thing)parâmetro/$ para outros widgets. Você pode usá-lo para especificar um certo fluido $(thing)clicando com o botão direito/$ no widget e buscando/selecionando fluidos na GUI de busca resultante."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/liquid_filter_piece.png"
+      ],
+      "text": "$(italic)Widget de Filtro de Fluido/$"
+    }
+  ]
+}

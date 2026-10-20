@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.impish_mint",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:impish_mint",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:impish_mint",
+            "text": "book.cobblepedia.entries.impish_mint.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:impish_mint",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

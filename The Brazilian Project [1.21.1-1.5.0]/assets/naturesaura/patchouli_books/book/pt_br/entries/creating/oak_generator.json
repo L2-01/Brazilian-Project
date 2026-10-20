@@ -1,0 +1,21 @@
+{
+    "name": "Diminuidor de Dossel",
+    "icon": "naturesaura:oak_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Certamente, em algum momento de suas vidas, qualquer pessoa lidando com árvores se deparou com este conhecido problema: uma $(item)Muda de Carvalho$() cresce numa $(thing)árvore grande$() difícil de olhar, gerenciar e derrubar.$(br)O $(item)Diminuidor de Dossel$() é um bloco que serve a dois propósitos por si só:$(br)Colocá-lo perto de uma área onde carvalhos estão crescendo, a no máximo cerca de 10 blocos deles, fará com que apenas"
+        },
+        {
+            "type": "text",
+            "text": "carvalhos de tamanho normal cresçam.$(br)No processo, a energia natural adicional de quaisquer mudas que estavam crescendo em árvores grandes é transformada numa quantidade considerável de $(aura) que será alimentada ao ambiente.$(br)Vale notar que, como o reino da $(thing)superfície$() é a única área onde as árvores em questão crescem naturalmente, também é a única área onde este dispositivo tem efeito.$(br)Obviamente, uma ótima forma de aproveitar isso é numa $(thing)plantação automática de árvores$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:oak_generator",
+            "text": "Criando o $(item)Diminuidor de Dossel$()"
+        }
+    ]
+}

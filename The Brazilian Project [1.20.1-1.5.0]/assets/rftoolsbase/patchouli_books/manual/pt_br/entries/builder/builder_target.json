@@ -1,0 +1,20 @@
+{
+  "name": "Mirando",
+  "icon": "minecraft:compass",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Existem várias maneiras de controlar a área alvo que o Construtor afetará."
+    },
+    {
+      "type": "text",
+      "text": "Você pode inserir diretamente o tamanho e o deslocamento no Cartão de Forma.$(br2)O deslocamento é sempre relativo ao Construtor. Um deslocamento de 0,0,0 coloca a área com o Construtor no centro."
+    },
+    {
+      "type": "text",
+      "text": "Você também pode agachar e clicar com o botão direito em um Construtor para iniciar a seleção de área, ou definir o tamanho no Cartão de Forma e usar os botões de âncora na interface para controlar o deslocamento."
+    }
+  ]
+}

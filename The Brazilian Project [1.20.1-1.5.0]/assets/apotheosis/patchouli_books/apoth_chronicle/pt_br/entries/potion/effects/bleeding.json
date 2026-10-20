@@ -1,0 +1,17 @@
+{
+    "name": "Sangramento",
+    "icon": "attributeslib:textures/mob_effect/bleeding.png",
+    "category": "apotheosis:potion/effects",
+	"flag": "apotheosis:potion",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c)Sangramento$() é um efeito negativo aplicado pelas $(l:apotheosis:village/fletching#broadhead)Flechas Cabeçudas$().$(p)Ele faz você receber dano a cada dois segundos."
+        },
+		{
+            "type": "patchouli:text",
+            "text": "O dano aumenta com o nível do $(c)Sangramento$().$(p)O dano do $(c)Sangramento$() ignora a armadura."
+        }
+	]
+}

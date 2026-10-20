@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.steel_gem",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:steel_gem",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:steel_gem",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.steel_gem.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:type_gem"
+            ]
+        }
+    ]
+}

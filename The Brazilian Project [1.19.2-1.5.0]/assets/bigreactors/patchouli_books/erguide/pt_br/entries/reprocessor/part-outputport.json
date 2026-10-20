@@ -1,0 +1,22 @@
+{
+    "name": "Porta de Saída",
+    "icon": "bigreactors:reprocessoroutputport",
+    "category": "bigreactors:reprocessor-parts",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:reprocessoroutputport",
+            "link_recipe": true,
+            "title" : "Porta de Saída",
+            "text": "A Porta de Saída permite extrair o material reprocessado do Reprocessador.$(br2)A interface gráfica pode ser usada para extrair materiais manualmente ou você pode conectar algum tipo de tubo para extraí-los automaticamente."
+        },
+        {
+            "type": "crafting-part_usage",
+            "crafting.title1": "Porta de Saída",
+            "crafting.recipe1": "bigreactors:reprocessor/outputport",
+            "usage.text": "$(l)Mandatory:$() one, and only one, is required$(br)$(l)Valid positions:$() any vertical face (not on frame)$(br)$(l)Graphical interface:$() yes"
+        }
+    ]
+}

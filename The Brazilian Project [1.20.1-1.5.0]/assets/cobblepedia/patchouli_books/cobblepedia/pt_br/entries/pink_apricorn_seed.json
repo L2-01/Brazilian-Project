@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.pink_apricorn_seed",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:pink_apricorn_seed",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:pink_apricorn_seed",
+            "link_recipe": true,
+            "title": "item.cobblemon.pink_apricorn_seed",
+            "text": "book.cobblepedia.entries.pink_apricorn_seed.text"
+        }
+    ]
+}

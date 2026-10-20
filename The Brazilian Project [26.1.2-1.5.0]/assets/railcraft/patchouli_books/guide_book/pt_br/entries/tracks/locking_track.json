@@ -1,0 +1,19 @@
+{
+  "name": "Trilho de Travamento",
+  "icon": "railcraft:iron_locking_track",
+  "category": "railcraft:tracks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Quando desenergizados, esses trilhos agarram e seguram qualquer carrinho que passe sobre eles. E diferente dos Trilhos Elétricos, o carrinho não pode ser empurrado para fora. Além disso, se você bater no trilho com um Pé de Cabra, pode mudar os modos. Alguns desses modos têm setas no trilho. Quando um trilho desenergizado com um carrinho em cima é energizado, ele lançará o carrinho na direção da seta."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Modos:$(li)Modo Bloqueio - Padrão, solta o carrinho quando energizado, mas não o impulsiona.$(li)Modo Bloqueio de Trem - Quando energizado, ficará energizado até 10 segundos depois que o trem inteiro sair do trilho ou outro trem/carrinho se aproximar. Não impulsiona carrinhos.$(li)Modo Embarque - Quando energizado, impulsionará o carrinho na direção da seta."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Modos:$(li)Modo Embarque de Trem - Quando energizado, ficará energizado até 10 segundos depois que o trem inteiro sair do trilho ou outro trem/carrinho se aproximar. Impulsiona na direção da seta.$(li)Modo Retenção - Quando energizado, impulsionará o carrinho na direção em que ele viajava originalmente quando foi travado.$(li)Modo Retenção de Trem - Quando energizado, ficará energizado até 10 segundos depois que o trem inteiro sair do trilho ou outro trem/carrinho se aproximar. Impulsiona na direção do deslocamento."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.mulch_base",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:mulch_base",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:mulch_base",
+            "text": "book.cobblepedia.entries.mulch_base.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:mulch_base",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

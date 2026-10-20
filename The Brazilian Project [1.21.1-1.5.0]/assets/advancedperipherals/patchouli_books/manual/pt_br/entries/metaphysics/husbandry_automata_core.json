@@ -1,0 +1,20 @@
+{
+  "name": "Núcleo de Autômato de Pecuária",
+  "icon": "advancedperipherals:husbandry_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Núcleo de Autômato de Pecuária",
+      "item": "advancedperipherals:husbandry_automata_core",
+      "text": "Após consumir 3 galinhas, 3 vacas e 3 ovelhas, o núcleo de autômato fraco será transformado em núcleo de autômato de pecuária!$(p)Além de ser uma variante mais poderosa do núcleo de autômato fraco, parece que esta alma também fornece habilidades para interagir com animais!"
+    },
+    {
+      "type": "link",
+      "text": "Além das habilidades do núcleo de autômato fraco, este núcleo também permite interagir com animais e até transferi-los para dentro!$(p)Mas esteja ciente: qualquer animal armazenado será perdido quando a tartaruga for quebrada.",
+      "url": "https://docs.advanced-peripherals.de/metaphysics/husbandry_automata/",
+      "link_text": "Documentação da API"
+    }
+  ]
+}

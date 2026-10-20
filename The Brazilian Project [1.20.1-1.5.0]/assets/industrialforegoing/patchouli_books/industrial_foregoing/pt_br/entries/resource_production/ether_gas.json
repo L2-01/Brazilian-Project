@@ -1,0 +1,13 @@
+{
+  "name": "Gás de Éter (Balde)",
+  "icon": "industrialforegoing:ether_gas_bucket",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 13,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O fluido produzido pela $(l:resource_production/fluid_laser_base)Base de Laser de Fluido$() quando colocada bem em cima de um Wither."
+    }
+  ]
+}

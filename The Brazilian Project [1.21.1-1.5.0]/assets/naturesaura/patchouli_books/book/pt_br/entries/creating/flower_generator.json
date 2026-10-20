@@ -1,0 +1,25 @@
+{
+    "name": "Absorvedor Herbívoro",
+    "icon": "naturesaura:flower_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Um item mundano que certamente possui níveis naturais bem altos de $(aura) é a $(item)flor$(). Isso pode ser aproveitado usando o $(item)Absorvedor Herbívoro$() que, quando colocado no mundo, consumirá qualquer flor pequena nas proximidades e converterá sua energia em $(aura)."
+        },
+        {
+            "type": "text",
+            "text": "A pegadinha, porém, é que abastecê-lo com uma mesma flor constantemente fará com que ele perca a capacidade de consumir a $(aura) daquela flor.$(br)Isso significa que, para fazer o absorvedor funcionar eficientemente, será preciso abastecê-lo com $(thing)tipos diferentes$() de flores um após o outro.$(br)Para o absorvedor atingir eficiência máxima, cerca de seis tipos diferentes devem ser necessários."
+        },
+        {
+            "type": "text",
+            "text": "Além disso, é preciso dizer que, como as flores com as quais ele é abastecido naturalmente só aparecem no reino da $(thing)superfície$(), essa também é a única área onde este dispositivo funciona. Em outros reinos, por exemplo, as regiões mais $(thing)infernais$(), esta máquina não terá efeito."
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:flower_generator",
+            "text": "Criando o $(item)Absorvedor Herbívoro$()"
+        }
+    ]
+}

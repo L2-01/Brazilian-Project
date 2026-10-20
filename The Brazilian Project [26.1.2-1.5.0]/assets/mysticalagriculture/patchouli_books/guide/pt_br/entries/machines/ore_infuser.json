@@ -1,0 +1,17 @@
+{
+  "name": "book.mysticalagriculture.entry.ore_infuser",
+  "category": "mysticalagriculture:machines",
+  "icon": "mysticalagriculture:ore_infuser",
+  "sortnum": 206,
+  "pages": [
+    {
+      "type": "text",
+      "text": "book.mysticalagriculture.entry.ore_infuser.page.1"
+    },
+    {
+      "type": "crafting",
+      "title": "book.mysticalagriculture.crafting",
+      "recipe": "mysticalagriculture:ore_infuser"
+    }
+  ]
+}

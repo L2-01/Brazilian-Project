@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.fast_ball",
+    "category": "cobblepedia:poke_ball_types",
+    "icon": "cobblemon:fast_ball",
+    "sortnum": 11,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:fast_ball",
+            "text": "book.cobblepedia.entries.fast_ball.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:fast_ball",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.fast_ball.crafting"
+        }
+    ]
+}

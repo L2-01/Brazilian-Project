@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.silver_powder",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:silver_powder",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:silver_powder",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.silver_powder.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.silver_powder.holding"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "name": "item.cobblemon.sun_stone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:sun_stone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:sun_stone",
+            "title": "item.cobblemon.sun_stone",
+            "text": "book.cobblepedia.entries.sun_stone.text"
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "cobblemon:sun_stone_from_smelting_sun_stone_ore",
+            "recipe2": "cobblemon:sun_stone_from_smelting_deepslate_sun_stone_ore",
+            "title": "book.cobblepedia.pages.smelting"
+        },
+        {
+            "type": "patchouli:blasting",
+            "recipe": "cobblemon:sun_stone_from_blasting_sun_stone_ore",
+            "recipe2": "cobblemon:sun_stone_from_blasting_deepslate_sun_stone_ore",
+            "title": "book.cobblepedia.pages.blasting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.sun_stone.evolving",
+            "using_item2": "cobblemon:sun_stone",
+            "pokemon2": "cobblemon:gloom",
+            "evolved_pokemon2": "cobblemon:bellossom",
+            "using_item3": "cobblemon:sun_stone",
+            "pokemon3": "cobblemon:sunkern",
+            "evolved_pokemon3": "cobblemon:sunflora",
+            "using_item4": "cobblemon:sun_stone",
+            "pokemon4": "cobblemon:cottonee",
+            "evolved_pokemon4": "cobblemon:whimsicott",
+            "using_item5": "cobblemon:sun_stone",
+            "pokemon5": "cobblemon:petilil",
+            "evolved_pokemon5": "cobblemon:lilligant",
+            "using_item6": "cobblemon:sun_stone",
+            "pokemon6": "cobblemon:helioptile",
+            "evolved_pokemon6": "cobblemon:heliolisk"
+        }
+    ]
+}

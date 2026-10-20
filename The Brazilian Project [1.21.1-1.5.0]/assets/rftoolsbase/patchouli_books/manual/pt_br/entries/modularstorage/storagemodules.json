@@ -1,0 +1,35 @@
+{
+  "name": "Módulos de Armazenamento",
+  "icon": "rftoolsstorage:storage_module0",
+  "category": "rftoolsbase:category_rftoolsstorage_modularstorage",
+  "extra_recipe_mappings": {
+    "rftoolsstorage:storage_module0": 0,
+    "rftoolsstorage:storage_module1": 0,
+    "rftoolsstorage:storage_module2": 0,
+    "rftoolsstorage:storage_module3": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Os Módulos de Armazenamento são o armazenamento real de itens do Armazenamento Modular. O Nível 1 comporta 100 pilhas, o Nível 2 comporta 200, o Nível 3 comporta 300 e o Nível 4 comporta 500."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:storage_module0"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:storage_module1",
+      "recipe2": "rftoolsstorage:storage_module2"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:storage_module3"
+    },
+    {
+      "type": "text",
+      "text": "Melhorar com receitas de NBT com formato preserva o conteúdo do módulo. Faça backups antes de mover módulos valiosos entre sistemas."
+    }
+  ]
+}

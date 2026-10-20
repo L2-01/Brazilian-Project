@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.ancient_wing_ball",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:ancient_wing_ball",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:ancient_wing_ball",
+            "text": "book.cobblepedia.entries.ancient_wing_ball.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:ancient_wing_ball",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.ancient_wing_ball.crafting.text"
+        }
+    ]
+}

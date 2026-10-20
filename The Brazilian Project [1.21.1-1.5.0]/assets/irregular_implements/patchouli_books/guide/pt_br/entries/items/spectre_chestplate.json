@@ -1,0 +1,19 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:spectre_chestplate",
+  "name": "Armadura de Espectro",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(d)armadura de Espectro$() é comparável à armadura de diamante, com durabilidade e encantabilidade maiores.",
+      "title": "Armadura de Espectro"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_helmet,irregular_implements:spectre_chestplate,irregular_implements:spectre_leggings,irregular_implements:spectre_boots",
+      "link_recipe": true,
+      "text": "Usar o conjunto completo também deixa você levemente transparente!",
+      "title": " "
+    }
+  ]
+}

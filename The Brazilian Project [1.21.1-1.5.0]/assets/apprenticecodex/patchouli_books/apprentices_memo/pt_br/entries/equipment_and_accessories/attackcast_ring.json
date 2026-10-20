@@ -1,0 +1,27 @@
+{
+  "name": "item.apprenticecodex.attackcast_ring",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:attackcast_ring",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:attackcast_ring",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.attackcast_ring.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:attackcast_ring",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.attackcast_ring.page.p002.text"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.attackcast_ring.page.p003.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spell_calibration_bench"
+      ]
+    }
+  ]
+}

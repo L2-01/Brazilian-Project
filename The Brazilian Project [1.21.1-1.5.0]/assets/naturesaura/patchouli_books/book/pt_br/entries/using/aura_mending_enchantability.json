@@ -1,0 +1,17 @@
+{
+    "name": "Cura da Natureza",
+    "icon": "minecraft:enchanted_book",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_tools",
+    "flag": "mod:enchantability",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Qualquer ferramenta sendo reparada através do uso de $(aura) é muito bom, até o botânico mágico entrar em contato com inimigos traiçoeiros ou alturas perigosas. Nesse ponto, a capacidade de $(thing)se curar$() certamente seria útil."
+        },
+        {
+            "type": "text",
+            "text": "Um livro encantado de $(item)Remendo da Natureza$(), uma vez obtido, pode ser inserido nos espaços de encantamento de um $(item)Baú de Ender$() para ganhar o efeito $(item)Cura da Natureza$(), que, enquanto se $(thing)agacha$(), completará a vida do usuário lentamente enquanto drena $(aura) de um contêiner de $(aura) em seu inventário."
+        }
+    ]
+}

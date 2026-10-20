@@ -1,0 +1,27 @@
+{
+  "name": "Vaca",
+  "icon": "minecraft:cow_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cow",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:cow_food",
+      "text": "Alimente as vacas com trigo para procriá-las e aumentar seu número no cercado."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:swords,tag:minecraft:axes",
+      "text": "Usar uma espada ou machado no Cercado de Animais matará a vaca e largará seu saque."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:bucket",
+      "text": "Usar um balde no Cercado de Animais com uma vaca dentro dará ao jogador um balde de leite. [interação de redstone 1]"
+    }
+  ]
+}

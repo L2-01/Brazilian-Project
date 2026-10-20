@@ -1,0 +1,16 @@
+{
+  "name": "Modo de Redstone",
+  "sortnum": 11,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/redstonehigh.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O modo de redstone determina como um sinal de redstone no $(l:laserio:redstonechannel)Canal de Redstone$(/l) afetará um cartão.$(br2)Por padrão, isso é definido como $(bold)ignorado$(), o que significa que o cartão sempre operará, e a redstone não o afetará."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br2)Se definido como baixo, os cartões só funcionarão quando NÃO houver um sinal de redstone no canal de redstone (o botão de canal fica à direita da chave de redstone).$(br2)No modo redstone alto, os cartões só operam quando HÁ um sinal de redstone no canal de redstone."
+    }
+  ]
+}

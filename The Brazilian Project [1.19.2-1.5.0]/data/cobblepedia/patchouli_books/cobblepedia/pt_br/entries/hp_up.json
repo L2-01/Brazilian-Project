@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.hp_up",
+    "category": "cobblepedia:medicine",
+    "icon": "cobblemon:hp_up",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:hp_up",
+            "text": "book.cobblepedia.entries.hp_up.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.using",
+            "text": "book.cobblepedia.entries.hp_up.using"
+        }
+    ]
+}

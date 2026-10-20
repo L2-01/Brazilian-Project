@@ -1,0 +1,17 @@
+{
+  "name": "Enxada de Liga Eclipse",
+  "sortnum": 24,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:eclipsealloy_hoe[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Enxada de Liga Eclipse é uma revolução na tecnologia agrícola, capaz de transformar terra em solo altamente fértil.$(br2)Ela suporta as melhorias de agricultura mais avançadas, maximizando o rendimento e a eficiência das plantações."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:eclipsealloy_hoe",
+      "text": "Fabricação da Enxada de Liga Eclipse"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "category": "ars_nouveau:equipment",
+  "icon": "starbunclemania:starby_ears",
+  "name": "starbunclemania.player_cosmetic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "starbunclemania.page.player_cosmetic"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "starbunclemania:starby_ears"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "starbunclemania:alak_hat",
+      "recipe2": "starbunclemania:sea_bunny"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "starbunclemania:drygmy_horns",
+      "recipe2": "starbunclemania:whirli_prop"
+    }
+  ]
+}

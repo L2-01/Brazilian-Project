@@ -1,0 +1,19 @@
+{
+    "name": "Resistência",
+    "icon": "minecraft:textures/mob_effect/resistance.png",
+    "category": "apotheosis:potion/recipes",
+	"flag": "apotheosis:potion",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Resistência$() é um efeito bastante útil que não tem receita no vanilla.$(p)Cada nível dá +20% de redução de dano contra todas as fontes.$(p)Você também precisará dela para preparar poções de $(l:apotheosis:potion/effects/sundering)Ruptura$()."
+        },
+		{
+            "type": "patchouli:spotlight",
+			"title": "Receita de Preparo",
+			"item": "minecraft:shulker_shell",
+            "text": "Esta poção pode ser fabricada com uma Poção Estranha e uma Casco de Shulker.$(p)Ela pode ser prolongada, fortalecida ou transformada numa poção de arremesso com os ingredientes habituais."
+        }
+	]
+}

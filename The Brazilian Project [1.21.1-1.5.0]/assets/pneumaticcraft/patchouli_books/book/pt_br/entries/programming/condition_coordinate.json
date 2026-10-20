@@ -1,0 +1,23 @@
+{
+  "name": "Widget de Condição: Coordenada",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_coordinate_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este é um widget de $(l:programming/conditions)Condição/$.$(p)O widget $(thing)Condição: Coordenada/$ compara duas $(l:programming/coordinate)Coordenadas/$. Diferentes testes podem ser feitos nessas coordenadas e, mais especificamente, em cada eixo (X/Y/Z) da coordenada. Você pode verificar se apenas um eixo das duas coordenadas corresponde, ou dois, ou os três."
+    },
+    {
+      "type": "text",
+      "text": "O(s) eixo(s) sendo comparado(s) são definidos pelas caixas de seleção na GUI do widget. Da mesma forma, a condição a usar ('=', '>=') é definida pelos botões de opção na GUI.$(p)Sua comparação de coordenadas também é exibida textualmente na GUI (ex.: $(thing)x1 <= x2 e z1 <= z2/$)."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_coordinate_piece.png"
+      ],
+      "text": "$(italic)Widget de Condição: Coordenada/$"
+    }
+  ]
+}

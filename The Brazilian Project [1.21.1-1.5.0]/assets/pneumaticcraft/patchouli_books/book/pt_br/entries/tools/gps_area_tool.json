@@ -1,0 +1,25 @@
+{
+  "name": "Ferramenta de Área GPS",
+  "icon": "pneumaticcraft:gps_area_tool",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A $(item)Ferramenta de Área GPS/$ é uma versão avançada da $(l:tools/gps_tool)Ferramenta GPS/$, que pode armazenar $(italic)duas/$ coordenadas no mundo. $(thing)Clique com o botão direito/$ num bloco para mudar a primeira coordenada ($(#f00)P1/$), e $(thing)clique com o botão esquerdo/$ para a segunda coordenada ($(#0f0)P2/$).$(p)Você pode ajustar coordenadas rapidamente rolando a roda do mouse enquanto se esgueira; a coordenada alterada será a última que você clicou."
+    },
+    {
+      "type": "text",
+      "text": "Esgueirar-se e clicar com o botão direito ou esquerdo no ar anotará a coordenada 'ativa' sem armazená-la; esta é a coordenada ajustada ao rolar a roda do mouse.$(p)Ao clicar com o botão $(thing)direito/$ ou $(thing)esquerdo/$ no ar, você pode abrir uma GUI para inserir coordenadas de bloco precisas; clique no botão $(#f00)P1/$ ou $(#0f0)P2/$ conforme apropriado.$(p)Na GUI, você também pode mudar o $(thing)tipo de Área/$ da ferramenta, permitindo pré-visualizar a área em diferentes configurações."
+    },
+    {
+      "type": "text",
+      "text": "A $(item)Ferramenta de Área GPS/$ suporta $(l:programming/variables#global)Variáveis Globais/$ como a $(l:tools/gps_tool#variables)Ferramenta GPS/$ básica, mas é claro, $(italic)duas/$ variáveis podem ser usadas.$(p)Num $(l:programming/programmer)Programador/$, $(thing)clique com o botão esquerdo/$ no fundo da área de programação com a $(item)Ferramenta de Área GPS/$ para criar uma nova peça de quebra-cabeça de $(l:programming/area)Área/$, ou $(thing)clique com o botão esquerdo/$ numa peça de quebra-cabeça de $(l:programming/area)Área/$ existente para atualizá-la com as configurações desta ferramenta."
+    },
+    {
+      "type": "crafting",
+      "text": "Fabricando uma Ferramenta de Área GPS",
+      "recipe": "pneumaticcraft:gps_area_tool"
+    }
+  ]
+}

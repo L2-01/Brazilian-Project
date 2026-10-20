@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:iron_dropper",
+  "name": "Liberador de Ferro",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(d)Liberador de Ferro$() é uma melhoria do liberador comum, com vários recursos extras.$(br2)Na sua interface há 4 botões para alterar algumas configurações.$(br2)Suas configurações de redstone são:$(br)$(li)Ejetar quando pulsar$(li)Ejetar continuamente enquanto energizado$(li)Ejetar continuamente",
+      "title": "Liberador de Ferro"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:iron_dropper",
+      "link_recipe": true,
+      "text": "Você pode alternar o atraso de coleta dos itens entre 20, 5 e 0 tiques.$(br2)Você pode alternar se os itens são lançados direto para frente ou com velocidade levemente aleatória.$(br2)Por fim, você pode alternar se ele deve produzir partículas e sons ao ejetar itens ou não."
+    }
+  ]
+}

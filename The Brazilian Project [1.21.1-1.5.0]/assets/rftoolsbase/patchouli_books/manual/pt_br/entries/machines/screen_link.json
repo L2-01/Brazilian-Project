@@ -1,0 +1,29 @@
+{
+  "name": "Vínculo de Tela",
+  "icon": "rftoolsutility:screen_link",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:screen_link": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Vínculo de Tela armazena a localização de uma $(l:rftoolsbase:machines/screen)Tela$(/l) para que um $(l:rftoolsbase:tools/tablet)Tablet$(/l) possa abrir essa tela remotamente."
+    },
+    {
+      "type": "crafting",
+      "heading": "Vínculo de Tela",
+      "recipe": "rftoolsutility:screen_link"
+    },
+    {
+      "type": "text",
+      "title": "Vinculando",
+      "text": "Clique com o botão direito em uma Tela com o Vínculo de Tela para armazená-la. Clicar com o botão direito em um bloco que não é uma tela limpa o alvo armazenado."
+    },
+    {
+      "type": "text",
+      "title": "Tablet",
+      "text": "Coloque o vínculo em um Tablet. Usar o tablet abre a tela remota se o chunk da tela estiver carregado. Agachar e usar abre a interface do tablet."
+    }
+  ]
+}

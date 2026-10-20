@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.dive_ball",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:dive_ball",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:dive_ball",
+            "text": "book.cobblepedia.entries.dive_ball.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:dive_ball",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.dive_ball.crafting"
+        }
+    ]
+}

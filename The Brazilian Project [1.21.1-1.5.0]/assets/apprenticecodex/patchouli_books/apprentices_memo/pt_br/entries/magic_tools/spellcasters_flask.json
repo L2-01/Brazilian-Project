@@ -1,0 +1,30 @@
+{
+  "name": "item.apprenticecodex.spellcasters_flask",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:spellcasters_flask",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spellcasters_flask",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spellcasters_flask.page.p001.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.spellcaster_workbench"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:spellcasters_flask",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spellcasters_flask.page.p002.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spellcaster_workbench"
+      ]
+    }
+  ]
+}

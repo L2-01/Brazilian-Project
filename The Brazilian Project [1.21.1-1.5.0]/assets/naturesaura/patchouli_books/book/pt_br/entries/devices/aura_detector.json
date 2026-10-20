@@ -1,0 +1,17 @@
+{
+    "name": "Detector de Aura",
+    "icon": "naturesaura:aura_detector",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ao trabalhar com $(aura), às vezes pode ser benéfico saber seus níveis numa área sem precisar estar lá para verificar pessoalmente. O $(item)Detector de Aura$() emite um sinal de $(thing)redstone$() baseado na quantidade de $(aura) nas proximidades, desde que você anexe um $(item)Comparador$() a ele. Para isso, seu alcance de exibição é similar ao do $(l:items/eye)Olho Ambiental$()."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Detector de Aura$()",
+            "recipe": "naturesaura:aura_detector"
+        }
+    ]
+}

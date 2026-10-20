@@ -1,0 +1,23 @@
+{
+  "name": "Girar",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/rotate.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Girar permite que o jogador rotacione um Copiar e Colar ou Recortar e Colar ao redor do ponto inicial.$(br2)Experimente e observe o que a renderização faz para entender melhor, ou percorra as imagens à direita."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Girar",
+      "images": [
+        "buildinggadgets2:textures/book/images/rotate1.png",
+        "buildinggadgets2:textures/book/images/rotate2.png",
+        "buildinggadgets2:textures/book/images/rotate3.png"
+      ],
+      "border": true,
+      "text": "Girando uma casa!"
+    }
+  ]
+}

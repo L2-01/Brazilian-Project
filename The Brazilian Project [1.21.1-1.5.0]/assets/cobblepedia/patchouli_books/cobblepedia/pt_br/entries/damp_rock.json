@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.damp_rock",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:damp_rock",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:damp_rock",
+            "text": "book.cobblepedia.entries.damp_rock.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.loot",
+            "text": "book.cobblepedia.entries.damp_rock.loot.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:damp_rock",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

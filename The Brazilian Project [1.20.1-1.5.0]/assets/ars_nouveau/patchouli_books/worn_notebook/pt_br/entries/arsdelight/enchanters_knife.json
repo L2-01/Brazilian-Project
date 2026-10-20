@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:arsdelight",
+  "icon": "arsdelight:enchanters_knife",
+  "name": "item.arsdelight.enchanters_knife",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "arsdelight.patchouli.enchanters_knife"
+    },
+    {
+      "type": "ars_nouveau:apparatus_recipe",
+      "recipe": "ars_nouveau:enchanters_knife"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Velocidade de Caminhada",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_walkspeed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aprimore seu passo com a melhoria Velocidade de Caminhada. Ideal para explorar ou cultivar, esta melhoria torna seu movimento mais eficiente sem correr.$(br2)Pode ser instalada em calças de nível Ferricoro, mas calças de níveis maiores permitem velocidades de caminhada maiores. Um controle deslizante está disponível na tela de configurações para ajustá-la."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Velocidade de Caminhada",
+      "recipe": "justdirethings:upgrade_walkspeed"
+    }
+  ]
+}

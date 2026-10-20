@@ -1,0 +1,17 @@
+{
+    "name": "Teias de Aranha",
+    "icon": "minecraft:cobweb",
+    "category": "apotheosis:enchanting/utility",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Teias de Aranha podem ser combinadas com um item numa bigorna para remover todos os encantamentos.$(p)Teias de Aranha Prismáticas podem ser combinadas com um item numa bigorna para remover todas as maldições."
+        },
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:cobweb",
+			"recipe2": "apotheosis:prismatic_web"
+		}
+	]
+}

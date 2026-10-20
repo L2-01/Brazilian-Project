@@ -1,0 +1,48 @@
+{
+	"name": "Extensão do Empacotador",
+	"category": "packagedauto:core",
+	"icon": "packagedauto:packager_extension",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "A $(item)Extensão do Empacotador/$ copia a função de um $(l:core/packager)Empacotador/$ próximo, permitindo usar menos $(l:core/recipe_holder)Suportes de Receita de Pacotes/$ ao paralelizar o empacotamento.$(p)Esta máquina requer energia."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "packagedauto:packager_extension",
+			"link_recipe": true,
+			"title": "Uso",
+			"text": "Para usar a $(item)Extensão do Empacotador/$, coloque-a em qualquer lugar numa área 3x3x3 ao redor de um $(l:core/packager)Empacotador/$ para copiar sua função.$(p)Se houver vários $(l:core/packager)Empacotadores/$, a máquina vai copiar o que encontrar mais ao noroeste e embaixo.$(p)Você pode extrair as entradas pelo lado de cima."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Modos",
+			"text": "$(thing)Exigir Exato/$: Faz o primeiro pacote que corresponde exatamente ao conteúdo do inventário.$(p)$(thing)Exigir Disjunto/$: Verifica se os pacotes não têm sobreposição e faz o pacote que pode ser feito do conteúdo do inventário; caso contrário, recorre ao $(thing)Exigir Exato/$.$(p)$(thing)Primeira Correspondência/$: Faz o primeiro pacote que pode ser feito do conteúdo do inventário."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Clonagem de Ajustes",
+			"text": "Usando o $(l:core/settings_cloner)Clonador de Ajustes de Empacotamento/$, você pode copiar e colar o ajuste de modo."
+		},
+		{
+			"type": "patchouli:text",
+			"flag": "mod:ae2",
+			"title": "Integração com AE2",
+			"text": "A $(item)Extensão do Empacotador/$ pode ser conectada a uma $(thing)Rede ME/$.$(p)Ela vai extrair energia para usar, fornecer empacotamento como fabricação automática, e em vez disso ejetar os $(l:core/package)Pacotes de Receita/$ criados na rede."
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "!mod:ae2",
+			"recipe": "packagedauto:packager_extension",
+			"title": "Fabricação"
+		},
+		{
+			"type": "patchouli:crafting",
+			"flag": "mod:ae2",
+			"recipe": "packagedauto:packager_extension_ae",
+			"title": "Fabricação"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 8
+}

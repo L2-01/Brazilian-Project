@@ -1,0 +1,32 @@
+{
+  "name": "Modos",
+  "sortnum": 1,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/modestocker.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os modos determinam o que um cartão fundamentalmente faz. As páginas seguintes definem cada tipo de modo atualmente disponível.$(br2)Cada tipo de cartão (Item/Fluido/Energia) suporta os três modos a seguir. Cartões de item são usados como exemplo.$(br2)Cartões de redstone suportarão um conjunto diferente de modos."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item[laserio:card_transfer_mode=0b]",
+      "text": "Cartões de modo Inserir são um destino válido para objetos sendo extraídos por cartões de modo Extrair.$(br2)Cartões de modo Estocar tentarão puxar de cartões de modo Inserir."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item[laserio:card_transfer_mode=1b]",
+      "text": "Cartões de modo Extrair tentam remover objetos do seu bloco adjacente. Itens, por exemplo, serão removidos de um baú adjacente e enviados a um cartão de inserção."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item[laserio:card_transfer_mode=2b]",
+      "text": "Cartões de modo Estocar tentam encontrar os itens designados no seu filtro, e os puxam de outros Nós de inserção na mesma rede.$(br2)Cartões de modo Estocar exigem um filtro definido como Permitir."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item[laserio:card_transfer_mode=3b]",
+      "text": "Cartões de sensor não movem objetos, mas em vez disso olham para um inventário adjacente, e emitem um sinal de redstone no canal de redstone se o inventário corresponder ao filtro.$(br2)Cartões de modo Sensor exigem um filtro."
+    }
+  ]
+}

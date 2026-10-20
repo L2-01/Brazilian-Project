@@ -1,0 +1,50 @@
+{
+    "name": "Guirlandas",
+    "icon": "minecraft:writable_book",
+    "category": "merrymaking:wreaths",
+    "pages": [
+       		
+		
+		{
+		"type": "spotlight",		
+		"item": "merrymaking:christmas_wreath",
+		"text": "Guirlandas são muito versáteis. Com uma guirlanda, você pode colocá-la como está, usá-la num Poste de Luz ou combiná-la com outros blocos, como Portas e Portões de Cerca de Estacas, para decorá-los.$(br2)Elas vêm em três estilos: $(li)Simples $(li)Luzes Brancas $(li)Luzes Coloridas"
+		},		
+		
+		
+		{
+			"type": "patchouli:text",
+			"text": "Para fabricar uma guirlanda, você precisará de 8 Folhas de Abeto e um Laço." 
+		},
+		
+		{
+			"type": "crafting",
+			"title": "Laço",
+			"recipe": "merrymaking:bow"
+			
+				
+		},
+		
+		
+			{
+			"type": "crafting",
+			"title": "Guirlanda",
+			"recipe": "merrymaking:wreath",
+			"text": "Depois de ter sua guirlanda, você pode dar um toque extra com algumas luzes.$(br2)Para fazer uma guirlanda iluminada, combine uma guirlanda com Luzes de Árvore de sua escolha numa bancada de trabalho:"
+				
+		},
+		
+		{
+			"type": "crafting",
+			"title": "Guirlanda Iluminada",
+			"recipe": "merrymaking:wreath_white_lights",
+			"recipe2": "merrymaking:wreath_multi_lights"	
+		}
+		
+	
+		
+		
+	
+		
+    ]
+}

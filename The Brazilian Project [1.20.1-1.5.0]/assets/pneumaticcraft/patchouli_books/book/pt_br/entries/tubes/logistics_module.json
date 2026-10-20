@@ -1,0 +1,37 @@
+{
+  "name": "Módulo de Logística",
+  "icon": "pneumaticcraft:logistics_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este poderoso módulo é usado para conectar inventários a um $(l:logistics/overview)Sistema de Logística/$, permitindo efetivamente a transferência controlada de itens e fluidos via tubos de pressão.$(p)O inventário ou tanque de fluido para o qual o módulo aponta deve estar equipado com uma $(l:logistics/frames)Moldura de Logística/$.$(p)O Módulo de Logística não aceita um $(l:tubes/module_expansion_card)Cartão de Expansão de Módulo/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/logistics_module.png"
+      ],
+      "border": "true",
+      "text": "Dois Módulos de Logística conectando baús com Molduras de $(l:logistics/frames#passive_provider)Provedor Passivo/$ e $(l:logistics/frames#requester)Solicitante/$."
+    },
+    {
+      "type": "text",
+      "text": "Uma rede de Módulos de Logística é definida por todos os módulos conectados entre si por $(l:tubes/pressure_tubes)Tubos de Pressão/$; note que quaisquer máquinas que usam ar $(italic)não/$ fazem parte da rede.$(p)Você pode selecionar um canal via GUI do módulo ou clicando com o botão direito com qualquer $(item)corante/$; apenas Módulos de Logística da mesma cor se comunicarão entre si, dando efetivamente 16 $(thing)canais/$ em cada rede."
+    },
+    {
+      "type": "text",
+      "text": "Os Módulos de Logística precisam de $(l:base_concepts/pressure)pressão/$; são necessários 3 bar para que os módulos operem. O ar usado é uma multiplicação de distância, quantidade transportada e uma constante. Isso significa que é preciso mais ar para transportar uma pilha cheia de itens, e também mais para transportá-la a uma longa distância. O ar é usado no Módulo de Logística $(italic)receptor/$, já que o ar flui em direção a esse módulo."
+    },
+    {
+      "type": "text",
+      "text": "Luzes indicadoras são instaladas para indicar o estado:$(p)$(li)$(#f00)Vermelho/$: Pressão insuficiente, aplique pelo menos 3 bar.$(li)$(#f80)Laranja/$: Mais de 3 bar, mas pressão insuficiente para transportar os itens/fluidos a essa distância.$(li)$(#0f0)Verde/$: Pressão suficiente, em espera.$(li)$(#00f)Azul (pulso)/$: Itens/fluidos estão sendo transportados."
+    },
+    {
+      "type": "crafting",
+      "text": "Fabricando um Módulo de Logística",
+      "recipe": "pneumaticcraft:logistics_module"
+    }
+  ]
+}

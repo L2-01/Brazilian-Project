@@ -1,0 +1,22 @@
+{
+  "name": "Colocar por Cima",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/place_on_top.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Colocar por Cima funciona de forma um pouco diferente para cada modo, e para alguns modos não terá efeito algum.$(br2)Em geral, em vez de colocar ao redor de um bloco, ele colocará por cima dele. Experimente e veja o que faz com a renderização!$(br2)Olhe as duas imagens à direita para um exemplo."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Colocar por Cima",
+      "images": [
+        "buildinggadgets2:textures/book/images/placeontop1.png",
+        "buildinggadgets2:textures/book/images/placeontop2.png"
+      ],
+      "border": true,
+      "text": "Alterne as imagens acima para ver as diferentes opções"
+    }
+  ]
+}

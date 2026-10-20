@@ -1,0 +1,18 @@
+{
+  "name": "Talismã do Vazio",
+  "sortnum": 50,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:void_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã do Vazio concede imunidade a quedas no vazio. O jogador é teletransportado para o topo da dimensão. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_normal)Base de Talismã Padrão$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_warrior)Força do Guerreiro$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/void_talisman",
+      "recipe2": "fargostalismans:forces/force_of_warrior"
+    }
+  ],
+  "read_by_default": true
+}

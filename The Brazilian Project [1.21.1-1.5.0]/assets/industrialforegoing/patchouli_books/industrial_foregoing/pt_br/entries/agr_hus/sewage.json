@@ -1,0 +1,13 @@
+{
+  "name": "Resíduo Orgânico (Balde)",
+  "icon": "industrialforegoing:sewage_bucket",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 13,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O fluido produzido pelo $(l:agr_hus/sewer)Resíduo Orgânico$(). Você não quer saber sobre isso."
+    }
+  ]
+}

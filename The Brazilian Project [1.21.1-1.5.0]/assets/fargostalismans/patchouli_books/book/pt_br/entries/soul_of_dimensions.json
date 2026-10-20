@@ -1,0 +1,17 @@
+{
+  "name": "Alma das Dimensões",
+  "sortnum": 4,
+  "category": "fargostalismans:souls",
+  "icon": "fargostalismans:soul_of_dimensions",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Alma das Dimensões concede todos os efeitos das almas usadas na sua fabricação. Este é o item final (por enquanto) do Fargo's Talismans. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_godly)Base de Talismã Divino$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:souls/soul_of_dimensions"
+    }
+  ],
+  "read_by_default": true
+}

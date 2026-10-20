@@ -1,0 +1,38 @@
+{
+  "name": "Visão Geral do Diesel Biológico",
+  "icon": "minecraft:book",
+  "category": "pneumaticcraft:renewables",
+  "priority": "true",
+  "advancement": "pneumaticcraft:tp_plant",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este é um guia bem rápido para produzir $(thing)Diesel Biológico/$ renovável. Siga os passos aqui e consulte as outras páginas desta seção para mais detalhes sobre tópicos específicos (outras páginas podem estar bloqueadas por progressos, mas desbloquearão conforme você completar os passos pré-requisitos)."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:yeast_culture_bucket",
+      "text": "Passo 1a: Faça um pouco de $(thing)Cultura de Levedura/$: pegue cogumelos e água e combine-os numa $(l:manufacturing/thermopneumatic_processing_plant)Planta de Processamento Termopneumática/$. Você precisará garantir que a PPT tenha temperatura entre 30°C e 60°C, o que pode ser fácil ou difícil dependendo do seu bioma e altitude."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:sugar",
+      "text": "Passo 1b (opcional): Quando tiver pelo menos um balde de Cultura de Levedura, você pode produzir mais de forma mais rápida despejando-a numa poça no mundo, jogando um pouco de açúcar na poça e despejando um balde de água num espaço de bloco adjacente à cultura; a cultura se replicará na água que você despejou."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:ethanol_bucket",
+      "text": "Passo 2: Faça um pouco de $(thing)Etanol/$ adicionando sua $(thing)Cultura de Levedura/$ e um pouco de $(thing)Açúcar/$ numa $(l:manufacturing/thermopneumatic_processing_plant)Planta de Processamento Termopneumática/$. Isso depende de temperatura de forma muito similar ao passo 1a."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:vegetable_oil_bucket",
+      "text": "Passo 3: Faça um pouco de $(thing)Óleo Vegetal/$ espremendo $(thing)sementes/$ ou $(thing)plantações/$ numa $(l:manufacturing/thermopneumatic_processing_plant)Planta de Processamento Termopneumática/$ com um pouco de pressão."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:biodiesel_bucket",
+      "text": "Passo 4: Combine seu $(thing)Etanol/$ e $(thing)Óleo Vegetal/$ num $(l:manufacturing/fluid_mixer)Misturador de Fluidos/$. Parabéns, você fez um combustível renovável!"
+    }
+  ]
+}

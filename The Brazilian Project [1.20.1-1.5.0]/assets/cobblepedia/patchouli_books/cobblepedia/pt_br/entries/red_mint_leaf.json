@@ -1,0 +1,28 @@
+{
+    "name": "item.cobblemon.red_mint_leaf",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:red_mint_leaf",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:red_mint_leaf",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.red_mint_leaf.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "entries": [
+                "cobblepedia:lonely_mint",
+                "cobblepedia:adamant_mint",
+                "cobblepedia:naughty_mint",
+                "cobblepedia:brave_mint",
+                "cobblepedia:bold_mint",
+                "cobblepedia:modest_mint",
+                "cobblepedia:calm_mint",
+                "cobblepedia:timid_mint"
+            ]
+        }
+    ]
+}

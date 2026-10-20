@@ -1,0 +1,29 @@
+{
+    "name": "block.cobblemon.sun_stone_ore",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:sun_stone_ore",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:sun_stone_ore",
+            "link_recipe": true,
+            "title": "block.cobblemon.sun_stone_ore",
+            "text": "book.cobblepedia.entries.sun_stone_ore.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.generation",
+            "text": "book.cobblepedia.entries.sun_stone_ore.generation"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:sun_stone",
+                "cobblepedia:deepslate_sun_stone_ore",
+                "cobblepedia:terracotta_sun_stone_ore",
+                "cobblepedia:evolution_stone_mining"
+            ]
+        }
+    ]
+}

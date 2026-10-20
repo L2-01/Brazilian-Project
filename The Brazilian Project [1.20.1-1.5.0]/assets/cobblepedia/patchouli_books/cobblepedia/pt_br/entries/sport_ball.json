@@ -1,0 +1,19 @@
+{
+    "name": "item.cobblemon.sport_ball",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:sport_ball",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:sport_ball",
+            "text": "book.cobblepedia.entries.sport_ball.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:sport_ball",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.sport_ball.crafting"
+        }
+    ]
+}

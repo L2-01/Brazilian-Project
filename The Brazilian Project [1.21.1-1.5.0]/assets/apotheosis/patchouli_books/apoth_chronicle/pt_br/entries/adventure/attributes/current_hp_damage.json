@@ -1,0 +1,13 @@
+{
+    "name": "Dano de Vida Atual",
+    "icon": "minecraft:dragon_head",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(9)Dano de Vida Atual$() é um tipo de dano ao acertar. A cada golpe, você causará uma porcentagem da vida atual do alvo como dano físico adicional.$(p)Este atributo só é encontrado em armas corpo a corpo."
+        }
+    ]
+}

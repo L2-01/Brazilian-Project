@@ -1,0 +1,20 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:ender_bridge",
+  "name": "Pontes do Ender",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:ender_bridge,irregular_implements:prismarine_ender_bridge",
+      "link_recipe": true,
+      "text": "As $(d)Pontes do Ender$(), quando energizadas, teletransportam as entidades em cima delas para a $(d)Âncora do Ender$() para a qual estão apontadas.$(br2)Funcionam através de blocos a qualquer distância, desde que estejam $(3)olhando DIRETAMENTE para a Âncora do Ender$().",
+      "title": "Pontes do Ender"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:ender_anchor",
+      "link_recipe": true,
+      "text": "Quando energizada, ela busca uma Âncora do Ender em linha reta. Se houver uma, ela carrega com base na distância e então é ativada; se não houver, falha com um som audível.$(br2)A ponte básica leva 1 tique por bloco percorrido, enquanto a Ponte do Ender de Prismarinho leva 0,5 tiques por bloco percorrido."
+    }
+  ]
+}

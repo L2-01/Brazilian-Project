@@ -1,0 +1,21 @@
+{
+    "name": "book.cobblepedia.entries.tumblestone_bricks_set.name",
+    "category": "cobblepedia:archaeology",
+    "icon": "cobblemon:tumblestone_bricks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.tumblestone_bricks_set.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:tumblestones_bricks",
+                "cobblepedia:tumblestone_bricks_stairs",
+                "cobblepedia:tumblestone_brick_slabs",
+                "cobblepedia:tumblestone_brick_walls",
+                "cobblepedia:chiseled_tumblestones_bricks"
+            ]
+        }
+    ]
+}

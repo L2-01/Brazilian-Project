@@ -1,0 +1,17 @@
+{
+    "name": "Encantabilidade",
+    "icon": "minecraft:golden_sword",
+    "category": "apotheosis:enchanting/changes",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "No Vanilla, todos os itens sem uma $(l:apotheosis:enchanting/table/enchantability)Encantabilidade de Item$() explícita têm padrão zero.$(p)O Apotheosis muda o padrão para um.$(p)Isso tem como efeito colateral tornar alguns itens encantáveis sem intenção."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Este ajuste não muda a encantabilidade de itens que têm um valor explícito.$(p)Itens com encantabilidade zero nunca podem ser encantados."
+        }
+    ]
+}

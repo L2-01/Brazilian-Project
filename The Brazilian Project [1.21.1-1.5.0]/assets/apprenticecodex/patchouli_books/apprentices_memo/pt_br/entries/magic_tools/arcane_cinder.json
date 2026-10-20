@@ -1,0 +1,43 @@
+{
+  "name": "item.apprenticecodex.arcane_cinder",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:arcane_cinder",
+  "extra_recipe_mappings": {
+    "apprenticecodex:arcane_cinder": 1
+  },
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:arcane_cinder",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.arcane_cinder.page.p001.text",
+        "with": [
+          {
+            "translate": "item.irons_spellbooks.cinder_essence"
+          },
+          {
+            "translate": "block.minecraft.furnace"
+          },
+          {
+            "translate": "block.minecraft.blast_furnace"
+          },
+          {
+            "translate": "block.minecraft.smoker"
+          }
+        ]
+      }
+    },
+    {
+      "type": "apprenticecodex:essence_smoker_recipe",
+      "recipe": "apprenticecodex:essence_smoker/infuse_coal_to_arcane_cinder",
+      "recipe2": "apprenticecodex:essence_smoker/infuse_charcoal_to_arcane_cinder",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.arcane_cinder.page.p002.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/essence_smoker"
+      ]
+    }
+  ]
+}

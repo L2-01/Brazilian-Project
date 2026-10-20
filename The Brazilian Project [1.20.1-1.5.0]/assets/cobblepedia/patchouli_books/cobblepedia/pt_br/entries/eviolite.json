@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.eviolite",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:eviolite",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:eviolite",
+            "text": "book.cobblepedia.entries.eviolite.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:eviolite",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

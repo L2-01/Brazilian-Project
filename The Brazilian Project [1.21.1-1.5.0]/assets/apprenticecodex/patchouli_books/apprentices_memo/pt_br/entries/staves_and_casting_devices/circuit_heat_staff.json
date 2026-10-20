@@ -1,0 +1,21 @@
+{
+  "name": "item.apprenticecodex.circuit_heat_staff",
+  "category": "apprenticecodex:staves_and_casting_devices",
+  "icon": "apprenticecodex:circuit_heat_staff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:circuit_heat_staff",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.circuit_heat_staff.page.p001.text"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.circuit_heat_staff.page.p002.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:circuit_heat_staff",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.circuit_heat_staff.page.p003.text"
+    }
+  ]
+}

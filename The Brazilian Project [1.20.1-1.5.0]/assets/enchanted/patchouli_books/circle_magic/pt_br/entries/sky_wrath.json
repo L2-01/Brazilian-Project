@@ -1,0 +1,26 @@
+{
+  "name": "Ira dos Céus",
+  "icon": "minecraft:lightning_rod",
+  "category": "enchanted:world",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Ira dos Céus",
+      "text": "Convoca uma tempestade de raios focada ao redor do círculo. $(br2)Adicionar um obelisco vinculado permite a quem lança direcionar os raios para aquele local."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:sky_wrath"
+    },
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Ira dos Céus",
+      "text": "Convoca uma tempestade de raios focada ao redor do círculo. $(br2)Adicionar um obelisco vinculado ou sanguíneo permite a quem lança direcionar os raios para aquele local."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:sky_wrath_charged"
+    }
+  ],
+  "read_by_default": true
+}

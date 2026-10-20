@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.hard_stone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:hard_stone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:hard_stone",
+            "text": "book.cobblepedia.entries.hard_stone.text"
+        },
+        {
+            "type": "patchouli:stonecutting",
+            "recipe": "cobblemon:hard_stone",
+            "title": "book.cobblepedia.pages.stonecutting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.hard_stone.holding"
+        }
+    ]
+}

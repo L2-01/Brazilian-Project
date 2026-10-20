@@ -1,0 +1,17 @@
+{
+  "name": "Broca do Infinito",
+  "icon": "industrialforegoing:infinity_drill",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Broca do Infinito é uma ferramenta que permite minerar grandes áreas; quanto maior o nível, maior a área."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_drill"
+    }
+  ]
+}

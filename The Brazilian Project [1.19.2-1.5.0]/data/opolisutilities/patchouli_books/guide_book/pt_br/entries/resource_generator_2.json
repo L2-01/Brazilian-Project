@@ -1,0 +1,52 @@
+{
+	"name": "Gerador de Recursos 2",
+	"icon": "opolisutilities:resource_generator_2",
+	"category": "opolisutilities:advanced_items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "text",
+			"text": "O gerador de recursos 2 é um bloco que duplica itens como pedregulho e pedra.$(br2)Qualquer bloco que possa armazenar itens pode ser colocado embaixo do gerador de recursos 2, incluindo funis e baús.$(br2)Ao funcionar, o gerador de recursos 2 fica azul e começa a fornecer itens para o inventário abaixo."
+		},
+		{
+        	"type": "multiblock",
+        	"multiblock": {
+        		"pattern": [
+        			["S"],
+        			["R"],
+        			["0"],
+        			[" "]
+        		],
+        		"mapping": {
+        			"S": "minecraft:cobblestone",
+        			"R": "opolisutilities:resource_generator_2",
+        			"0": "#forge:chests"
+        		}
+        	},
+        	"text": "Configuração básica do Gerador de Recursos 2. Produz um item a cada 11 segundos."
+        },
+		{
+        	"type": "multiblock",
+        	"multiblock": {
+        		"pattern": [
+        		    ["B"],
+        			["S"],
+        			["R"],
+        			["0"],
+        			[" "]
+        		],
+        		"mapping": {
+        		    "B": "minecraft:gold_block",
+        			"S": "minecraft:cobblestone",
+        			"R": "opolisutilities:resource_generator_2",
+        			"0": "#forge:chests"
+        		}
+        	},
+        	"text": "Blocos de velocidade podem ser colocados em cima para aumentar a velocidade com que os blocos são produzidos."
+        },
+        {
+        	"type": "text",
+        	"text": "Pressionar U no gerador de recursos 2 vai mostrar todos os blocos que ele pode minerar, assim como quaisquer blocos que possam afetar a velocidade com que ele produz recursos."
+        }
+	]
+}

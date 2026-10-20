@@ -1,0 +1,31 @@
+{
+    "name": "Estojo de Gemas",
+    "icon": "apotheosis:gem_case",
+    "category": "apotheosis:adventure/gems",
+    "flag": "apotheosis:adventure",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:gem_case",
+            "text": "O $(9)Estojo de Gemas$() é um dispositivo de armazenamento para $(l:apotheosis:adventure/gems/gems)Gemas$().$(p)Ele pode guardar até trinta e dois mil gemas de cada tipo e pureza, e pode ser melhorado para guardar mais."
+        },
+        {
+            "title": "Filtragem",
+            "type": "patchouli:text",
+            "text": "O Estojo de Gemas tem dois filtros: um filtro de nome e um filtro de item.$(p)O filtro de nome permite buscar uma gema pelo nome, enquanto o filtro de item permite buscar gemas que caibam num item específico."
+        },
+        {
+            "title": "Lapidação de Gemas",
+            "type": "patchouli:text",
+            "text": "O Estojo de Gemas também tem seis slots auxiliares que podem ser usados para guardar materiais de melhoria.$(p)Se houver materiais e gemas suficientes, seguindo as receitas de melhoria de pureza, você pode melhorar Gemas diretamente no estojo.$(p)Isso torna a $(l:apotheosis:adventure/gems/gem_cutting)Bancada de Lapidação de Gema$() efetivamente obsoleta."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "apotheosis:ender_gem_case",
+            "title": "Um Estojo de Gemas Supremo",
+            "link_recipe": true,
+            "text": "O $(9)Estojo de Gemas da Casa Fabergé$() tem uma $(6)Capacidade de Armazenamento$() de dois bilhões.$(p)Não pode ser fabricado diretamente e precisa ser criado usando $(l:apotheosis:enchanting/table/infusion)Encantamento de Infusão$()."
+        }
+    ]
+}

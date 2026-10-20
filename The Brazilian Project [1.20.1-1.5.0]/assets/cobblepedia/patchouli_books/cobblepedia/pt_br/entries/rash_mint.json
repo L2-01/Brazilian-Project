@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.rash_mint",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:rash_mint",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:rash_mint",
+            "text": "book.cobblepedia.entries.rash_mint.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:rash_mint",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

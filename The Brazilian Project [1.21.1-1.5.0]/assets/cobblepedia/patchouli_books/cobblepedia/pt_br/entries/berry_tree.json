@@ -1,0 +1,28 @@
+{
+    "name": "book.cobblepedia.entries.berry_tree",
+    "category": "cobblepedia:agriculture",
+    "icon": "cobblemon:growth_mulch",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.berry_tree.text"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.berry_tree.farming.text"
+        },
+        {
+            "type": "patchouli:link",
+            "title": "book.cobblepedia.pages.generation",
+            "text": "book.cobblepedia.entries.berry_tree.generation.text",
+            "url": "https://wiki.cobblemon.com/index.php/Berry_Tree#Biome_Location_for_Natural_Berries_and_Preferred_Mulch",
+            "link_text": "book.cobblepedia.pages.wiki"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:berry_mutating"
+            ]
+        }
+    ]
+}

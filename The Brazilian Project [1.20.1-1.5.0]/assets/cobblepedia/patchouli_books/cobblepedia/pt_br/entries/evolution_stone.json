@@ -1,0 +1,35 @@
+{
+    "name": "book.cobblepedia.entries.evolution_stone",
+    "category": "cobblepedia:evolution_items",
+    "icon": "cobblemon:fire_stone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "book.cobblepedia.entries.evolution_stone",
+            "item": "tag:cobblepedia:book/evolution_stone",
+            "text": "book.cobblepedia.entries.evolution_stone.text"
+        },
+        {
+            "type": "patchouli:link",
+            "url": "https://wiki.cobblemon.com/index.php/Evolution_Stone#Evolution",
+            "title": "book.cobblepedia.pages.evolving",
+            "link_text": "book.cobblepedia.pages.wiki",
+            "text": "book.cobblepedia.entries.evolution_stones.wiki"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:fire_stone",
+                "cobblepedia:water_stone",
+                "cobblepedia:thunder_stone",
+                "cobblepedia:leaf_stone",
+                "cobblepedia:moon_stone",
+                "cobblepedia:sun_stone",
+                "cobblepedia:shiny_stone",
+                "cobblepedia:dusk_stone",
+                "cobblepedia:dawn_stone",
+                "cobblepedia:ice_stone"
+            ]
+        }
+    ]
+}

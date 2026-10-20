@@ -1,0 +1,17 @@
+{
+  "name": "Talismã de Picareta",
+  "sortnum": 34,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:pickaxe_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã de Picareta concede o dobro de velocidade de mineração. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_normal)Base de Talismã Padrão$(/l). O talismã não é usado para fabricar uma força."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/pickaxe_talisman"
+    }
+  ],
+  "read_by_default": true
+}

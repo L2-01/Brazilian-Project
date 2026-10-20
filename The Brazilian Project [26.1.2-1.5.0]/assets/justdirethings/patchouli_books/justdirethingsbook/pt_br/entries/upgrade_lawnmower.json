@@ -1,0 +1,17 @@
+{
+  "name": "Cortador de Grama",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_lawnmower",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A melhoria Cortador de Grama é uma habilidade ativada que pode ser instalada em pás a partir de ferricore. Quando você a ativa, toda a grama e flores próximas serão cortadas e seus itens largarão no chão."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Cortador de Grama",
+      "recipe": "justdirethings:upgrade_lawnmower"
+    }
+  ]
+}

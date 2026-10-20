@@ -1,0 +1,31 @@
+{
+  "name": "Efeitos ao Comer",
+  "icon": "sushigocrafting:avocado_slices",
+  "category": "sushigocrafting:getting_started",
+  "sortnum": 0,
+  "read_by_default": false,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Usar diferentes tipos de ingredientes para fazer um tipo de sushi vai te dar efeitos diferentes para melhorar sua comida"
+    },
+    {
+      "type": "spotlight",
+      "item": "sushigocrafting:salmon_fillet",
+      "title": "Bocadas",
+      "text": "Comer com este efeito de poção dá uma pequena chance de não consumir o item."
+    },
+    {
+      "type": "spotlight",
+      "item": "sushigocrafting:tuna_fillet",
+      "title": "Paladar Adquirido",
+      "text": "Comer com este efeito de poção vai render comida extra."
+    },
+    {
+      "type": "spotlight",
+      "item": "sushigocrafting:shrimp",
+      "title": "Mãos Firmes",
+      "text": "Usar uma tábua de corte com este efeito de poção vai render peso extra nos seus ingredientes."
+    }
+  ]
+}

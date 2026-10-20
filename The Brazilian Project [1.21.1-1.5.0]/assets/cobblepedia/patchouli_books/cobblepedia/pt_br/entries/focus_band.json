@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.focus_band",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:focus_band",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:focus_band",
+            "text": "book.cobblepedia.entries.focus_band.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:focus_band",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.focus_band.holding"
+        }
+    ]
+}

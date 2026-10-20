@@ -1,0 +1,2346 @@
+{
+    DataVersion: 4790,
+    size: [11, 8, 5],
+    data: [
+        {
+            pos: [3, 0, 2],
+            state: "nodeworks:budding_celestine"
+        },
+        {
+            pos: [0, 0, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 0, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 0, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 0, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 0, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 0, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 0, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 0, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 0, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 0, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 0, 2],
+            state: "nodeworks:large_celestine_bud{facing:west,waterlogged:false}"
+        },
+        {
+            pos: [2, 0, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 0, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 0, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 0, 1],
+            state: "nodeworks:medium_celestine_bud{facing:north,waterlogged:false}"
+        },
+        {
+            pos: [3, 0, 3],
+            state: "nodeworks:small_celestine_bud{facing:south,waterlogged:false}"
+        },
+        {
+            pos: [3, 0, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 0, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 0, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 0, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 0, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 0, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 0, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 0, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 0, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 0, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 0, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 0, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 0, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 0, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 0, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 0, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 0, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 0, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 0, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 0, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 0, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 0, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 0, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 0, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 0, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 1, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 1, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 1, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 1, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 1, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 1, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 1, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 1, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 1, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 1, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 1, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 1, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 1, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 1, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 1, 2],
+            state: "nodeworks:small_celestine_bud{facing:up,waterlogged:false}"
+        },
+        {
+            pos: [3, 1, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 1, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 1, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 1, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 1, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 1, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 1, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 1, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 1, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 1, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 1, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 1, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 1, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 1, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 1, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 1, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 1, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 1, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 1, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 1, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 1, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 1, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 1, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 1, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 1, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 1, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 1, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 1, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 1, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 1, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 2, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 2, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 2, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 2, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 2, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 2, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 2, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 2, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 2, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 2, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 2, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 2, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 2, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 2, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 2, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 2, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 2, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 2, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 2, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 2, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 2, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 2, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 2, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 2, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 2, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 2, 2],
+            state: "nodeworks:antenna_segment{connected:true,facing:north,part:receiver}"
+        },
+        {
+            pos: [6, 2, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 2, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 2, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 2, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 2, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 2, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 2, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 2, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 2, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 2, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 2, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 2, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 2, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 2, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 2, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 2, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 2, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 2, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 2, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 3, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 3, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 3, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 3, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 3, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 3, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 3, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 3, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 3, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 3, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 3, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 3, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 3, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 3, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 3, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 3, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 3, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 3, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 3, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 3, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 3, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 3, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 3, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 3, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 3, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 3, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 3, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 3, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 3, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 3, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 3, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 3, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 3, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 3, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 3, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 3, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 3, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 3, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 3, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 3, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 3, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 3, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 3, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 3, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 3, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 3, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 3, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 3, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 4, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 4, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 4, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 4, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 4, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 4, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 4, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 4, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 4, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 4, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 4, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 4, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 4, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 4, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 4, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 4, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 4, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 4, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 4, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 4, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 4, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 4, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 4, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 4, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 4, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 4, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 4, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 4, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 4, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 4, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 4, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 4, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 4, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 4, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 4, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 4, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 4, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 4, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 4, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 4, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 4, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 4, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 4, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 4, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 4, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 4, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 4, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 4, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 4, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 4, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 4, 2],
+            state: "nodeworks:antenna_segment{connected:false,facing:north,part:middle}"
+        },
+        {
+            pos: [10, 4, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 4, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 5, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 5, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 5, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 5, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 5, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 5, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 5, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 5, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 5, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 5, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 5, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 5, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 5, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 5, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 5, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 5, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 5, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 5, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 5, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 5, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 5, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 5, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 5, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 5, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 5, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 5, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 5, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 5, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 5, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 5, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 5, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 5, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 5, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 5, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 5, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 5, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 5, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 5, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 5, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 5, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 5, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 5, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 5, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 5, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 5, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 5, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 5, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 5, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 5, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 5, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 5, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 5, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 5, 2],
+            state: "nodeworks:antenna_segment{connected:false,facing:north,part:middle}"
+        },
+        {
+            pos: [10, 5, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 5, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 6, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 6, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 6, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 6, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 6, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 6, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 6, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 6, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 6, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 6, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 6, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 6, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 6, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 6, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 6, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 6, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 6, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 6, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 6, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 6, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 6, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 6, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 6, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 6, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 6, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 6, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 6, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 6, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 6, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 6, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 6, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 6, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 6, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 6, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 6, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 6, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 6, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 6, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 6, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 6, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 6, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 6, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 6, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 6, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 6, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 6, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 6, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 6, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 6, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 6, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 6, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 6, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 6, 2],
+            state: "nodeworks:antenna_segment{connected:false,facing:north,part:middle}"
+        },
+        {
+            pos: [10, 6, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 6, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 7, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 7, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 7, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 7, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 7, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 7, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 7, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 7, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 7, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [1, 7, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 7, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 7, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 7, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 7, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [2, 7, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 7, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 7, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 7, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 7, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [3, 7, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 7, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 7, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 7, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 7, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [4, 7, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 7, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 7, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 7, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 7, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [5, 7, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 7, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 7, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 7, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 7, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [6, 7, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 7, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 7, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 7, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 7, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [7, 7, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 7, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 7, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 7, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 7, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [8, 7, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 7, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 7, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 7, 2],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 7, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [9, 7, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 7, 0],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 7, 1],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 7, 2],
+            state: "nodeworks:antenna_segment{connected:false,facing:north,part:top}"
+        },
+        {
+            pos: [10, 7, 3],
+            state: "minecraft:air"
+        },
+        {
+            pos: [10, 7, 4],
+            state: "minecraft:air"
+        },
+        {
+            pos: [0, 0, 2],
+            state: "nodeworks:pipe{pipe_axis:junction,pipe_down:false,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:true,pipe_west:false}",
+            nbt: {
+                components: {},
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                id: "nodeworks:pipe"
+            }
+        },
+        {
+            pos: [1, 0, 2],
+            state: "nodeworks:breaker{facing:east}",
+            nbt: {
+                breakProgress: 0,
+                breakDurationTicks: 0,
+                components: {},
+                ownerUuid: "380df991-f603-344c-a090-369bad2a924a",
+                previewArea: 0b,
+                channel: 0,
+                filterRule: "",
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                id: "nodeworks:breaker",
+                deviceName: "",
+                redstoneMode: 0
+            }
+        },
+        {
+            pos: [4, 0, 0],
+            state: "minecraft:chest{facing:east,type:left,waterlogged:false}",
+            nbt: {
+                components: {},
+                Items: [],
+                id: "minecraft:chest"
+            }
+        },
+        {
+            pos: [4, 0, 1],
+            state: "minecraft:chest{facing:east,type:right,waterlogged:false}",
+            nbt: {
+                components: {},
+                Items: [],
+                id: "minecraft:chest"
+            }
+        },
+        {
+            pos: [4, 0, 2],
+            state: "nodeworks:node{pipe_down:false,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:true,pipe_west:false}",
+            nbt: {
+                components: {},
+                Items: [
+                    {
+                        count: 1,
+                        Slot: 18b,
+                        id: "nodeworks:storage_card"
+                    }
+                ],
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                id: "nodeworks:node"
+            }
+        },
+        {
+            pos: [5, 0, 0],
+            state: "minecraft:chest{facing:east,type:left,waterlogged:false}",
+            nbt: {
+                components: {},
+                Items: [],
+                id: "minecraft:chest"
+            }
+        },
+        {
+            pos: [5, 0, 1],
+            state: "minecraft:chest{facing:east,type:right,waterlogged:false}",
+            nbt: {
+                components: {},
+                Items: [],
+                id: "minecraft:chest"
+            }
+        },
+        {
+            pos: [5, 0, 2],
+            state: "nodeworks:node{pipe_down:false,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:true}",
+            nbt: {
+                components: {},
+                Items: [
+                    {
+                        count: 1,
+                        Slot: 18b,
+                        id: "nodeworks:storage_card"
+                    }
+                ],
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                id: "nodeworks:node"
+            }
+        },
+        {
+            pos: [6, 0, 1],
+            state: "nodeworks:import_chest{facing:east}",
+            nbt: {
+                components: {},
+                tickInterval: 20,
+                channel: -1,
+                Items: [],
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                roundRobinIndex: 0,
+                id: "nodeworks:import_chest",
+                redstoneMode: 0,
+                roundRobin: 0b
+            }
+        },
+        {
+            pos: [6, 0, 2],
+            state: "nodeworks:pipe{pipe_axis:junction,pipe_down:false,pipe_east:false,pipe_north:true,pipe_south:false,pipe_up:true,pipe_west:true}",
+            nbt: {
+                components: {},
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                id: "nodeworks:pipe"
+            }
+        },
+        {
+            pos: [8, 0, 2],
+            state: "minecraft:furnace{facing:north,lit:true}",
+            nbt: {
+                lit_total_time: 1600,
+                components: {},
+                cooking_time_spent: 40,
+                cooking_total_time: 200,
+                Items: [
+                    {
+                        count: 1,
+                        Slot: 0b,
+                        id: "minecraft:raw_iron"
+                    },
+                    {
+                        count: 63,
+                        Slot: 1b,
+                        id: "minecraft:coal"
+                    }
+                ],
+                id: "minecraft:furnace",
+                lit_time_remaining: 1561,
+                RecipesUsed: {}
+            }
+        },
+        {
+            pos: [9, 0, 2],
+            state: "minecraft:furnace{facing:north,lit:true}",
+            nbt: {
+                lit_total_time: 1600,
+                components: {},
+                cooking_time_spent: 67,
+                cooking_total_time: 200,
+                Items: [
+                    {
+                        count: 1,
+                        Slot: 0b,
+                        id: "minecraft:raw_iron"
+                    },
+                    {
+                        count: 63,
+                        Slot: 1b,
+                        id: "minecraft:coal"
+                    }
+                ],
+                id: "minecraft:furnace",
+                lit_time_remaining: 1534,
+                RecipesUsed: {}
+            }
+        },
+        {
+            pos: [10, 0, 2],
+            state: "minecraft:furnace{facing:north,lit:true}",
+            nbt: {
+                lit_total_time: 1600,
+                components: {},
+                cooking_time_spent: 100,
+                cooking_total_time: 200,
+                Items: [
+                    {
+                        count: 2,
+                        Slot: 0b,
+                        id: "minecraft:raw_iron"
+                    },
+                    {
+                        count: 63,
+                        Slot: 1b,
+                        id: "minecraft:coal"
+                    }
+                ],
+                id: "minecraft:furnace",
+                lit_time_remaining: 1501,
+                RecipesUsed: {}
+            }
+        },
+        {
+            pos: [0, 1, 2],
+            state: "nodeworks:instruction_storage{facing:north}",
+            nbt: {
+                components: {},
+                Items: [
+                    {
+                        components: {
+                            "minecraft:custom_data": {
+                                output: "minecraft:acacia_button",
+                                recipe: ["", "", "", "", "minecraft:acacia_planks", "", "", "", ""]
+                            }
+                        },
+                        count: 1,
+                        Slot: 0b,
+                        id: "nodeworks:instruction_set"
+                    },
+                    {
+                        components: {
+                            "minecraft:custom_data": {
+                                output: "minecraft:acacia_button",
+                                recipe: ["", "", "", "", "minecraft:acacia_planks", "", "", "", ""]
+                            }
+                        },
+                        count: 1,
+                        Slot: 1b,
+                        id: "nodeworks:instruction_set"
+                    },
+                    {
+                        components: {
+                            "minecraft:custom_data": {
+                                output: "minecraft:acacia_button",
+                                recipe: ["", "", "", "", "minecraft:acacia_planks", "", "", "", ""]
+                            }
+                        },
+                        count: 1,
+                        Slot: 2b,
+                        id: "nodeworks:instruction_set"
+                    },
+                    {
+                        components: {
+                            "minecraft:custom_data": {
+                                output: "minecraft:acacia_button",
+                                recipe: ["", "", "", "", "minecraft:acacia_planks", "", "", "", ""]
+                            }
+                        },
+                        count: 1,
+                        Slot: 3b,
+                        id: "nodeworks:instruction_set"
+                    },
+                    {
+                        components: {
+                            "minecraft:custom_data": {
+                                output: "minecraft:acacia_button",
+                                recipe: ["", "", "", "", "minecraft:acacia_planks", "", "", "", ""]
+                            }
+                        },
+                        count: 1,
+                        Slot: 4b,
+                        id: "nodeworks:instruction_set"
+                    },
+                    {
+                        components: {
+                            "minecraft:custom_data": {
+                                output: "minecraft:acacia_button",
+                                recipe: ["", "", "", "", "minecraft:acacia_planks", "", "", "", ""]
+                            }
+                        },
+                        count: 1,
+                        Slot: 5b,
+                        id: "nodeworks:instruction_set"
+                    },
+                    {
+                        components: {
+                            "minecraft:custom_data": {
+                                output: "nodeworks:io_card",
+                                recipe: [
+                                    "nodeworks:blank_card",
+                                    "minecraft:lime_dye",
+                                    "",
+                                    "minecraft:hopper",
+                                    "",
+                                    "",
+                                    "",
+                                    "",
+                                    ""
+                                ],
+                                allowSubstitutions: 1b
+                            }
+                        },
+                        count: 1,
+                        Slot: 6b,
+                        id: "nodeworks:instruction_set"
+                    }
+                ],
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                id: "nodeworks:instruction_storage"
+            }
+        },
+        {
+            pos: [1, 1, 2],
+            state: "nodeworks:network_controller",
+            nbt: {
+                chunkLoadingEnabled: 0b,
+                components: {},
+                laserEnabled: 1b,
+                networkName: "",
+                handlerRetryLimit: 50,
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                nodeGlowStyle: 0,
+                id: "nodeworks:network_controller",
+                permanentId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                laserMode: 0,
+                redstoneMode: 0,
+                networkColor: 4451693
+            }
+        },
+        {
+            pos: [2, 1, 2],
+            state: "nodeworks:focus_node{pipe_down:false,pipe_east:false,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:true}",
+            nbt: {
+                components: {},
+                Items: [],
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                id: "nodeworks:focus_node",
+                connections: [
+                    [I; 4, 2, 2]
+                ]
+            }
+        },
+        {
+            pos: [4, 1, 2],
+            state: "nodeworks:pipe{pipe_axis:y,pipe_down:true,pipe_east:false,pipe_north:false,pipe_south:false,pipe_up:true,pipe_west:false}",
+            nbt: {
+                components: {},
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                id: "nodeworks:pipe"
+            }
+        },
+        {
+            pos: [4, 1, 3],
+            state: "nodeworks:crafting_storage{formed:true,overheat_level:0}",
+            nbt: {
+                components: {},
+                id: "nodeworks:crafting_storage"
+            }
+        },
+        {
+            pos: [4, 1, 4],
+            state: "nodeworks:stabilizer",
+            nbt: {
+                components: {},
+                id: "nodeworks:stabilizer"
+            }
+        },
+        {
+            pos: [6, 1, 2],
+            state: "nodeworks:receiver_antenna{facing:north}",
+            nbt: {
+                components: {},
+                Items: [
+                    {
+                        components: {
+                            "minecraft:custom_data": {
+                                paired_pos: 6597069897786L,
+                                paired_dim: "minecraft:overworld",
+                                paired_kind: "PROCESSING_STORAGE",
+                                frequency: "150211eb-3c30-45ea-b0b0-4abc47d39c65"
+                            }
+                        },
+                        count: 1,
+                        Slot: 0b,
+                        id: "nodeworks:link_crystal"
+                    }
+                ],
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                id: "nodeworks:receiver_antenna"
+            }
+        },
+        {
+            pos: [8, 1, 2],
+            state: "nodeworks:node{pipe_down:false,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:true,pipe_west:false}",
+            nbt: {
+                components: {},
+                Items: [
+                    {
+                        count: 1,
+                        Slot: 3b,
+                        id: "nodeworks:storage_card"
+                    },
+                    {
+                        count: 1,
+                        Slot: 5b,
+                        id: "nodeworks:storage_card"
+                    },
+                    {
+                        count: 1,
+                        Slot: 46b,
+                        id: "nodeworks:storage_card"
+                    },
+                    {
+                        count: 1,
+                        Slot: 52b,
+                        id: "nodeworks:storage_card"
+                    }
+                ],
+                networkId: "c1f3e22c-75de-4555-802f-55f0e7d35f44",
+                id: "nodeworks:node"
+            }
+        },
+        {
+            pos: [9, 1, 2],
+            state: "nodeworks:node{pipe_down:false,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:true}",
+            nbt: {
+                components: {},
+                Items: [
+                    {
+                        count: 1,
+                        Slot: 3b,
+                        id: "nodeworks:storage_card"
+                    },
+                    {
+                        count: 1,
+                        Slot: 5b,
+                        id: "nodeworks:storage_card"
+                    }
+                ],
+                networkId: "c1f3e22c-75de-4555-802f-55f0e7d35f44",
+                forcedPipeBlocked: 2,
+                id: "nodeworks:node"
+            }
+        },
+        {
+            pos: [10, 1, 2],
+            state: "nodeworks:node{pipe_down:false,pipe_east:false,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:true}",
+            nbt: {
+                components: {},
+                Items: [
+                    {
+                        count: 1,
+                        Slot: 3b,
+                        id: "nodeworks:storage_card"
+                    },
+                    {
+                        count: 1,
+                        Slot: 5b,
+                        id: "nodeworks:storage_card"
+                    }
+                ],
+                networkId: "c1f3e22c-75de-4555-802f-55f0e7d35f44",
+                forcedPipeBlocked: 2,
+                id: "nodeworks:node"
+            }
+        },
+        {
+            pos: [0, 2, 2],
+            state: "nodeworks:terminal{facing:north}",
+            nbt: {
+                components: {},
+                ownerUuid: "380df991-f603-344c-a090-369bad2a924a",
+                autoRun: 0b,
+                layoutIndex: 0,
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                id: "nodeworks:terminal",
+                scripts: [
+                    {
+                        name: "main",
+                        text: ""
+                    }
+                ]
+            }
+        },
+        {
+            pos: [1, 2, 2],
+            state: "nodeworks:inventory_terminal{facing:north}",
+            nbt: {
+                components: {},
+                layoutIndex: 0,
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                id: "nodeworks:inventory_terminal"
+            }
+        },
+        {
+            pos: [3, 2, 3],
+            state: "nodeworks:substrate",
+            nbt: {
+                components: {},
+                id: "nodeworks:substrate"
+            }
+        },
+        {
+            pos: [4, 2, 2],
+            state: "nodeworks:focus_node{pipe_down:true,pipe_east:false,pipe_north:false,pipe_south:true,pipe_up:false,pipe_west:false}",
+            nbt: {
+                components: {},
+                Items: [],
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                id: "nodeworks:focus_node",
+                connections: [
+                    [I; 2, 1, 2]
+                ]
+            }
+        },
+        {
+            pos: [4, 2, 3],
+            state: "nodeworks:crafting_core{formed:true}",
+            nbt: {
+                isCrafting: 0b,
+                scheduler: {
+                    backlog: [],
+                    inProgress: [I; ],
+                    state: "IDLE",
+                    completed: [I; ]
+                },
+                isFormed: 1b,
+                components: {},
+                currentCraftItem: "",
+                networkId: "e0fdf5dc-d347-43fd-a9d7-bc0268998647",
+                id: "nodeworks:crafting_core",
+                bufferState: {
+                    countCap: 768L,
+                    typesCap: 16,
+                    items: {}
+                }
+            }
+        },
+        {
+            pos: [4, 2, 4],
+            state: "nodeworks:stabilizer",
+            nbt: {
+                components: {},
+                id: "nodeworks:stabilizer"
+            }
+        },
+        {
+            pos: [5, 2, 3],
+            state: "nodeworks:substrate",
+            nbt: {
+                components: {},
+                id: "nodeworks:substrate"
+            }
+        },
+        {
+            pos: [8, 2, 2],
+            state: "nodeworks:processing_handler{facing:down}",
+            nbt: {
+                microNetworkId: "c1f3e22c-75de-4555-802f-55f0e7d35f44",
+                components: {},
+                outputChannel: 14,
+                networkId: "575b4b40-dcb2-4148-b558-193e48effc73",
+                processingApiName: "",
+                id: "nodeworks:processing_handler",
+                permanentId: "c1f3e22c-75de-4555-802f-55f0e7d35f44",
+                inputCount: 0
+            }
+        },
+        {
+            pos: [9, 2, 2],
+            state: "nodeworks:network_controller",
+            nbt: {
+                chunkLoadingEnabled: 0b,
+                components: {},
+                laserEnabled: 1b,
+                networkName: "",
+                handlerRetryLimit: 50,
+                networkId: "575b4b40-dcb2-4148-b558-193e48effc73",
+                nodeGlowStyle: 0,
+                id: "nodeworks:network_controller",
+                permanentId: "575b4b40-dcb2-4148-b558-193e48effc73",
+                laserMode: 0,
+                redstoneMode: 0,
+                networkColor: 2454264
+            }
+        },
+        {
+            pos: [10, 2, 2],
+            state: "nodeworks:processing_storage{facing:north}",
+            nbt: {
+                components: {},
+                Items: [
+                    {
+                        components: {
+                            "minecraft:custom_data": {
+                                outputs: ["minecraft:acacia_button"],
+                                output_slots: [I; 0],
+                                serial: 0b,
+                                inputs: ["minecraft:acacia_planks"],
+                                output_counts: [I; 1],
+                                name: "minecraft:acacia_planks@1>>minecraft:acacia_button@1",
+                                input_slots: [I; 4],
+                                input_counts: [I; 1],
+                                timeout: 0
+                            }
+                        },
+                        count: 1,
+                        Slot: 0b,
+                        id: "nodeworks:processing_set"
+                    },
+                    {
+                        components: {
+                            "minecraft:custom_data": {
+                                outputs: ["minecraft:acacia_button"],
+                                output_slots: [I; 0],
+                                serial: 0b,
+                                inputs: ["minecraft:acacia_planks"],
+                                output_counts: [I; 1],
+                                name: "minecraft:acacia_planks@1>>minecraft:acacia_button@1",
+                                input_slots: [I; 4],
+                                input_counts: [I; 1],
+                                timeout: 0
+                            }
+                        },
+                        count: 1,
+                        Slot: 1b,
+                        id: "nodeworks:processing_set"
+                    },
+                    {
+                        components: {
+                            "minecraft:custom_data": {
+                                outputs: ["minecraft:acacia_button"],
+                                output_slots: [I; 0],
+                                serial: 0b,
+                                inputs: ["minecraft:acacia_planks"],
+                                output_counts: [I; 1],
+                                name: "minecraft:acacia_planks@1>>minecraft:acacia_button@1",
+                                input_slots: [I; 4],
+                                input_counts: [I; 1],
+                                timeout: 0
+                            }
+                        },
+                        count: 1,
+                        Slot: 2b,
+                        id: "nodeworks:processing_set"
+                    }
+                ],
+                networkId: "575b4b40-dcb2-4148-b558-193e48effc73",
+                id: "nodeworks:processing_storage"
+            }
+        },
+        {
+            pos: [3, 3, 3],
+            state: "nodeworks:substrate",
+            nbt: {
+                components: {},
+                id: "nodeworks:substrate"
+            }
+        },
+        {
+            pos: [4, 3, 3],
+            state: "nodeworks:co_processor{formed:true,overheat_level:0}",
+            nbt: {
+                components: {},
+                id: "nodeworks:co_processor"
+            }
+        },
+        {
+            pos: [4, 3, 4],
+            state: "nodeworks:stabilizer",
+            nbt: {
+                components: {},
+                id: "nodeworks:stabilizer"
+            }
+        },
+        {
+            pos: [5, 3, 3],
+            state: "nodeworks:substrate",
+            nbt: {
+                components: {},
+                id: "nodeworks:substrate"
+            }
+        },
+        {
+            pos: [8, 3, 2],
+            state: "nodeworks:pipe{pipe_axis:junction,pipe_down:true,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:false}",
+            nbt: {
+                components: {},
+                networkId: "575b4b40-dcb2-4148-b558-193e48effc73",
+                id: "nodeworks:pipe"
+            }
+        },
+        {
+            pos: [9, 3, 2],
+            state: "nodeworks:pipe{pipe_axis:junction,pipe_down:true,pipe_east:false,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:true}",
+            nbt: {
+                components: {},
+                networkId: "575b4b40-dcb2-4148-b558-193e48effc73",
+                id: "nodeworks:pipe"
+            }
+        },
+        {
+            pos: [10, 3, 2],
+            state: "nodeworks:broadcast_antenna",
+            nbt: {
+                components: {},
+                Items: [],
+                id: "nodeworks:broadcast_antenna",
+                frequency: "150211eb-3c30-45ea-b0b0-4abc47d39c65"
+            }
+        },
+        {
+            pos: [4, 4, 3],
+            state: "nodeworks:stabilizer",
+            nbt: {
+                components: {},
+                id: "nodeworks:stabilizer"
+            }
+        },
+        {
+            pos: [4, 4, 4],
+            state: "nodeworks:stabilizer",
+            nbt: {
+                components: {},
+                id: "nodeworks:stabilizer"
+            }
+        }
+    ],
+    entities: [],
+    palette: [
+        "nodeworks:budding_celestine",
+        "minecraft:air",
+        "nodeworks:large_celestine_bud{facing:west,waterlogged:false}",
+        "nodeworks:medium_celestine_bud{facing:north,waterlogged:false}",
+        "nodeworks:small_celestine_bud{facing:south,waterlogged:false}",
+        "nodeworks:small_celestine_bud{facing:up,waterlogged:false}",
+        "nodeworks:antenna_segment{connected:true,facing:north,part:receiver}",
+        "nodeworks:antenna_segment{connected:false,facing:north,part:middle}",
+        "nodeworks:antenna_segment{connected:false,facing:north,part:top}",
+        "nodeworks:pipe{pipe_axis:junction,pipe_down:false,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:true,pipe_west:false}",
+        "nodeworks:breaker{facing:east}",
+        "minecraft:chest{facing:east,type:left,waterlogged:false}",
+        "minecraft:chest{facing:east,type:right,waterlogged:false}",
+        "nodeworks:node{pipe_down:false,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:true,pipe_west:false}",
+        "nodeworks:node{pipe_down:false,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:true}",
+        "nodeworks:import_chest{facing:east}",
+        "nodeworks:pipe{pipe_axis:junction,pipe_down:false,pipe_east:false,pipe_north:true,pipe_south:false,pipe_up:true,pipe_west:true}",
+        "minecraft:furnace{facing:north,lit:true}",
+        "nodeworks:instruction_storage{facing:north}",
+        "nodeworks:network_controller",
+        "nodeworks:focus_node{pipe_down:false,pipe_east:false,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:true}",
+        "nodeworks:pipe{pipe_axis:y,pipe_down:true,pipe_east:false,pipe_north:false,pipe_south:false,pipe_up:true,pipe_west:false}",
+        "nodeworks:crafting_storage{formed:true,overheat_level:0}",
+        "nodeworks:stabilizer",
+        "nodeworks:receiver_antenna{facing:north}",
+        "nodeworks:node{pipe_down:false,pipe_east:false,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:true}",
+        "nodeworks:terminal{facing:north}",
+        "nodeworks:inventory_terminal{facing:north}",
+        "nodeworks:substrate",
+        "nodeworks:focus_node{pipe_down:true,pipe_east:false,pipe_north:false,pipe_south:true,pipe_up:false,pipe_west:false}",
+        "nodeworks:crafting_core{formed:true}",
+        "nodeworks:processing_handler{facing:down}",
+        "nodeworks:processing_storage{facing:north}",
+        "nodeworks:co_processor{formed:true,overheat_level:0}",
+        "nodeworks:pipe{pipe_axis:junction,pipe_down:true,pipe_east:true,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:false}",
+        "nodeworks:pipe{pipe_axis:junction,pipe_down:true,pipe_east:false,pipe_north:false,pipe_south:false,pipe_up:false,pipe_west:true}",
+        "nodeworks:broadcast_antenna"
+    ]
+}

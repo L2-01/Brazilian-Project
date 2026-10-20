@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/plates",
+  "icon": "irregular_implements:corrector_plate",
+  "name": "Chapa Corretora",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:corrector_plate",
+      "link_recipe": true,
+      "text": "Entidades que se movem sobre uma $(d)Chapa Corretora$() serão alinhadas ao centro do bloco.$(br2)Ou seja, elas só podem se mover ao longo do caminho reto entre o meio dos eixos X e Z do bloco.",
+      "title": "Chapa Corretora"
+    }
+  ]
+}

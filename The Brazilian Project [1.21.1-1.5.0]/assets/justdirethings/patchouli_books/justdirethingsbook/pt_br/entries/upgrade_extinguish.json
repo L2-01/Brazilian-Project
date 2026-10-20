@@ -1,0 +1,17 @@
+{
+  "name": "Extintor",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_extinguish",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Proteja-se do perigo flamejante com a melhoria Extintor. Esta melhoria útil apaga automaticamente o fogo no jogador, garantindo segurança contra labaredas súbitas.$(br2)Nota: há uma recarga antes de poder te apagar de novo. Essa recarga é menor em níveis maiores de armadura."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Extintor",
+      "recipe": "justdirethings:upgrade_extinguish"
+    }
+  ]
+}

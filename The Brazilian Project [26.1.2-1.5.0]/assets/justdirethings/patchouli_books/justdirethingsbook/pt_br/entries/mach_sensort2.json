@@ -1,0 +1,25 @@
+{
+  "name": "Sensor Avançado",
+  "sortnum": 10,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:sensort2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Sensor Avançado é uma versão melhorada do $(l:justdirethings:mach_sensort1)Sensor Simples$(/l).$(br2)Ele pode detectar QUANTAS correspondências existem na sua área alvo. Por padrão, está configurado como > 0, ou seja, se houver 1 ou mais correspondências numa área, ele emite um sinal de redstone."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você pode alternar o botão maior-que para menor-que ou igual-a, e depois usar o botão numérico à direita para aumentar isso.$(br2)Casos de uso incluem, por exemplo, detectar se há menos de 10 vacas adultas e então emitir um sinal para ativar um clicador para alimentá-las."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "As opções de filtro funcionam da mesma forma que no sensor simples, e você pode clicar com o botão direito nos espaços de filtro para controlar a detecção de estados de bloco."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Sensor Avançado",
+      "recipe": "justdirethings:sensort2"
+    }
+  ]
+}

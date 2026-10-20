@@ -1,0 +1,33 @@
+{
+  "name": "enchantment.apprenticecodex.tense",
+  "category": "apprenticecodex:enchantments",
+  "icon": "minecraft:enchanted_book",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "enchantment.apprenticecodex.tense",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.tense.page.p001.text",
+        "with": [
+          {
+            "translate": "enchantment.apprenticecodex.alacrity"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.tense.page.p999.title",
+      "entries": [
+        "apprenticecodex:staves_and_casting_devices/spellgun_system",
+        "apprenticecodex:staves_and_casting_devices/swingcast_staff",
+        "apprenticecodex:staves_and_casting_devices/scrollcaster_gauntlet",
+        "apprenticecodex:staves_and_casting_devices/chargecast_catalystbook",
+        "apprenticecodex:weapons_and_shields/spell_side_edge",
+        "apprenticecodex:equipment_and_accessories/stealth_rune_set",
+        "apprenticecodex:equipment_and_accessories/enchanted_circlet",
+        "apprenticecodex:magic_tools/spell_amplifier_series"
+      ]
+    }
+  ]
+}

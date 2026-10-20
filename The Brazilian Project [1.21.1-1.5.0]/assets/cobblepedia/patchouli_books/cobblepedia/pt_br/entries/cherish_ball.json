@@ -1,0 +1,14 @@
+{
+    "name": "item.cobblemon.cherish_ball",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:cherish_ball",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:cherish_ball",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.cherish_ball.text"
+        }
+    ]
+}

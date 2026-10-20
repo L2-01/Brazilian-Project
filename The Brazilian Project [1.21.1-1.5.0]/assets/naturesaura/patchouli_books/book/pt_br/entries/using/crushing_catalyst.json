@@ -1,0 +1,67 @@
+{
+    "name": "Catalisador de Desmoronamento",
+    "icon": "naturesaura:crushing_catalyst",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O $(l:using/altar)Altar Natural$() pode ser útil para infundir certos itens com o poder da $(aura), mas também pode ser usado para $(thing)esmagar$() certos itens em formas diferentes.$(br)Isso pode ser feito criando o $(item)Catalisador de Desmoronamento$() e colocando-o em cima de qualquer um dos quatro blocos de $(item)Tijolos de Pedra Dourada$() inferiores ao redor do altar, e então colocando o ingrediente no altar como de costume."
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "Criando o $(item)Catalisador de Desmoronamento$() usando o $(l:practices/tree_ritual)Ritual da Floresta$().",
+            "recipe": "naturesaura:crushing_catalyst"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Criando $(item)Farinha de Osso$() esmagando $(item)Ossos$()",
+            "recipe": "naturesaura:bone"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Colhendo $(item)Açúcar$() removendo-o da cana",
+            "recipe": "naturesaura:sugar"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Fazendo $(item)Pó de Blaze$() a partir dos materiais do Nether",
+            "recipe": "naturesaura:blaze"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Criando $(item)Pó de Pedra-Luminosa$() destruindo $(item)Pedra-Luminosa$()",
+            "recipe": "naturesaura:glowstone"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Fazendo $(item)Areia$() pulverizando $(item)Pedregulho$()",
+            "recipe": "naturesaura:sand"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Fazendo $(item)Pó de Ouro$() a partir de $(item)Folhas Douradas$()",
+            "recipe": "naturesaura:gold_powder"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Reduzindo $(item)Blocos de Ametista$() a $(item)Fragmentos$()",
+            "recipe": "naturesaura:amethyst"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Transformando $(item)Barro Compactado$() de volta em $(item)Barro$()",
+            "recipe": "naturesaura:mud"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Extraindo $(item)Fungos do Nether$() de $(item)Blocos de Fungos do Nether$()",
+            "recipe": "naturesaura:nether_wart_crushing"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "Transformando $(item)Terra das Almas$() em $(item)Areia das Almas$()",
+            "recipe": "naturesaura:soul_sand_crushing"
+        }
+    ]
+}

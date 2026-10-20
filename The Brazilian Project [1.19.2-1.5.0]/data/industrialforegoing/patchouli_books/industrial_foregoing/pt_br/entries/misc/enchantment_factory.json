@@ -1,0 +1,17 @@
+{
+  "name": "Fábrica de Encantamentos",
+  "icon": "industrialforegoing:enchantment_factory",
+  "category": "industrialforegoing:misc",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esta máquina, quando abastecida com grandes quantidades de $(l:agr_hus/essence)Essência$() e um item, encantará o item com nível $(6)30$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_factory"
+    }
+  ]
+}

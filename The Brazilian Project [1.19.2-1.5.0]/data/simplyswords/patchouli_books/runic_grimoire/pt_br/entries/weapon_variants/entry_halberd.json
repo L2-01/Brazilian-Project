@@ -1,0 +1,26 @@
+{
+  "name": "Alabarda",
+  "icon": "simplyswords:iron_halberd",
+  "category": "simplyswords:category_weapon_variants",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "simplyswords:iron_halberd",
+      "text": "Uma alabarda é um tipo de arma de haste que apresenta uma longa haste com uma lâmina afiada e curva numa ponta e uma cabeça de machado na outra. Com sua versatilidade e alcance, a alabarda é uma arma formidável nas mãos de um guerreiro habilidoso."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:iron_halberd",
+      "recipe2": "simplyswords:gold_halberd"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "simplyswords:diamond_halberd"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "simplyswords:netherite_halberd",
+      "recipe2": "simplyswords:runic_halberd"
+    }
+  ]
+}

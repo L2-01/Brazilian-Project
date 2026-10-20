@@ -1,0 +1,14 @@
+{
+    "name": "block.cobblemon.cyan_mint",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:cyan_mint_seeds",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:cyan_mint_seeds",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.cyan_mint_seeds.text"
+        }
+    ]
+}

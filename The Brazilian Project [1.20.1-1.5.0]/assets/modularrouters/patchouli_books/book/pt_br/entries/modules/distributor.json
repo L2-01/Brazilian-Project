@@ -1,0 +1,19 @@
+{
+  "name": "Módulo Distribuidor",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:distributor_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esta é uma versão estendida do $(l:modules/sender_2)Módulo Enviador Mk2/$, que pode enviar itens para múltiplos alvos. $(thing)Agache e clique com o botão direito/$ num inventário para adicioná-lo ao Módulo Distribuidor, e $(thing)agache e clique com o botão direito/$ no inventário novamente para removê-lo.$(p)O Módulo Distribuidor pode distribuir para até 8 alvos."
+    },
+    {
+      "type": "text",
+      "text": "Um controle extra sobre a estratégia de distribuição está disponível via controle da GUI à direita:$(li)$(bold)Round Robin/$ - distribui para cada inventário por vez, tão uniformemente quanto possível$(li)$(bold)Aleatório/$ - escolhe um dos alvos ao acaso$(li)$(bold)Mais Próximo/$ - sempre preenche o alvo mais próximo que tenha espaço para o item$(li)$(bold)Mais Distante/$ - sempre preenche o alvo mais distante que tenha espaço para o item"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:distributor_module"
+    }
+  ]
+}

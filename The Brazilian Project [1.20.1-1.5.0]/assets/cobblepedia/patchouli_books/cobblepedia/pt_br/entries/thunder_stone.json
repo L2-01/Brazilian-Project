@@ -1,0 +1,40 @@
+{
+    "name": "item.cobblemon.thunder_stone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:thunder_stone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:thunder_stone",
+            "title": "item.cobblemon.thunder_stone",
+            "text": "book.cobblepedia.entries.thunder_stone.text"
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "cobblemon:thunder_stone_from_smelting_thunder_stone_ore",
+            "recipe2": "cobblemon:thunder_stone_from_smelting_deepslate_thunder_stone_ore",
+            "title": "book.cobblepedia.pages.smelting"
+        },
+        {
+            "type": "patchouli:blasting",
+            "recipe": "cobblemon:thunder_stone_from_blasting_thunder_stone_ore",
+            "recipe2": "cobblemon:thunder_stone_from_blasting_deepslate_thunder_stone_ore",
+            "title": "book.cobblepedia.pages.blasting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.thunder_stone.evolving",
+            "using_item2": "cobblemon:thunder_stone",
+            "pokemon2": "cobblemon:pikachu",
+            "evolved_pokemon2": "cobblemon:raichu",
+            "using_item3": "cobblemon:thunder_stone",
+            "pokemon3": "cobblemon:eevee",
+            "evolved_pokemon3": "cobblemon:jolteon",
+            "using_item4": "cobblemon:thunder_stone",
+            "pokemon4": "cobblemon:eelektrik",
+            "evolved_pokemon4": "cobblemon:eelektross"
+        }
+    ]
+}

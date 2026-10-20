@@ -1,0 +1,40 @@
+{
+    "name": "book.cobblepedia.entries.evolution_stone_mining",
+    "category": "cobblepedia:getting_started",
+    "icon": "cobblemon:dawn_stone",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.evolution_stone_mining.text"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "book.cobblepedia.pages.generation",
+            "text": "book.cobblepedia.entries.evolution_stone_mining.image",
+            "images": [
+                "cobblepedia:textures/gui/entries/evolution_stone_mining.png"
+            ]
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.generation",
+            "text": "book.cobblepedia.entries.evolution_stone_mining.generation"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.evolution_stone_mining.generation_common"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.evolution_stone_mining.generation_rare"
+        },
+        {
+            "type": "patchouli:link",
+            "url": "https://wiki.cobblemon.com/index.php/Evolution_Stone_Ore#Biome_Tag_Rarity",
+            "link_text": "book.cobblepedia.pages.wiki",
+            "text": "book.cobblepedia.entries.evolution_stone_mining.wiki"
+        }
+    ]
+}

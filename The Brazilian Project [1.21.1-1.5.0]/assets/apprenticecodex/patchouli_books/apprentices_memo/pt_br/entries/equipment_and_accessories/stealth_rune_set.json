@@ -1,0 +1,35 @@
+{
+  "name": "patchouli.apprenticecodex.apprentices_memo.entry.stealth_rune_set.name",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:stealth_rune_armor_body",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.stealth_rune_set.page.p001.title",
+      "item": "apprenticecodex:stealth_rune_armor_body",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.stealth_rune_set.page.p001.text",
+        "with": [
+          {
+            "translate": "spell.irons_spellbooks.invisibility"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:armor_stand{ArmorItems:[{id:\"apprenticecodex:stealth_rune_armor_foot\",Count:1b},{id:\"apprenticecodex:stealth_rune_armor_leg\",Count:1b},{id:\"apprenticecodex:stealth_rune_armor_body\",Count:1b},{id:\"apprenticecodex:stealth_rune_armor_head\",Count:1b}],NoBasePlate:1b,ShowArms:1b}",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.stealth_rune_set.page.p002.text"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "apprenticecodex:stealth_rune_armor_head",
+      "recipe2": "apprenticecodex:stealth_rune_armor_body"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "apprenticecodex:stealth_rune_armor_leg",
+      "recipe2": "apprenticecodex:stealth_rune_armor_foot"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Talismã do Dia",
+  "sortnum": 11,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:day_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã do Dia concede 5% de aumento de dano ao jogador durante o dia. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_epic)Base de Talismã Épico$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_environment)Força do Ambiente$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/day_talisman",
+      "recipe2": "fargostalismans:forces/force_of_environment"
+    }
+  ],
+  "read_by_default": true
+}

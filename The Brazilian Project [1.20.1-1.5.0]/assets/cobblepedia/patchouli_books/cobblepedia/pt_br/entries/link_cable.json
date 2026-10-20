@@ -1,0 +1,34 @@
+{
+    "name": "item.cobblemon.link_cable",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:link_cable",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:link_cable",
+            "title": "item.cobblemon.link_cable",
+            "text": "book.cobblepedia.entries.link_cable.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:link_cable",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.loot",
+            "text": "book.cobblepedia.entries.link_cable.loot"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.link_cable.evolving"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.link_cable.evolving2"
+        }
+    ]
+}

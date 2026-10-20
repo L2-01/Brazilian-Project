@@ -1,0 +1,23 @@
+{
+  "name": "Parede Horizontal",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/horizontal_wall.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Parede Horizontal funciona de algumas formas diferentes. Com colocar no topo ativado, ela constrói uma área acima do bloco para o qual você está olhando, ou se estendendo em sua direção se estiver olhando para uma lateral. $(br2)Com colocar no topo desativado, ela constrói ao redor do bloco para o qual você está olhando.$(br2)Veja as imagens à direita para as diferentes opções."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Parede Horizontal",
+      "images": [
+        "buildinggadgets2:textures/book/images/horzwall1.png",
+        "buildinggadgets2:textures/book/images/horzwall3.png",
+        "buildinggadgets2:textures/book/images/horzwall2.png"
+      ],
+      "border": true,
+      "text": "Alterne as imagens acima para ver as diferentes opções"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.leek_and_potato_stew",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:leek_and_potato_stew",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:leek_and_potato_stew",
+            "text": "book.cobblepedia.entries.leek_and_potato_stew.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:leek_and_potato_stew",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

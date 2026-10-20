@@ -1,0 +1,35 @@
+{
+    "name": "book.cobblepedia.entries.catching",
+    "category": "cobblepedia:getting_started",
+    "icon": "cobblemon:poke_ball",
+    "turnin": "cobblemon:first_catch",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.catching.text"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.catching.text2"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.catching.text3"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:first_catch",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.first_catch",
+            "text": "advancements.cobblemon.first_catch.description"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:poke_ball_intro",
+                "cobblepedia:battling",
+                "cobblepedia:pc"
+            ]
+        }
+    ]
+}

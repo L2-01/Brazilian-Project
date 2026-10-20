@@ -1,0 +1,31 @@
+{
+  "name": "enchantment.apprenticecodex.synchronization",
+  "category": "apprenticecodex:enchantments",
+  "icon": "minecraft:enchanted_book",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "enchantment.apprenticecodex.synchronization",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.synchronization.page.p001.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.mana_shield_charm"
+          },
+          {
+            "translate": "enchantment.apprenticecodex.shell"
+          },
+          {
+            "translate": "enchantment.apprenticecodex.neutralization"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:equipment_and_accessories/mana_shield_charm"
+      ]
+    }
+  ]
+}

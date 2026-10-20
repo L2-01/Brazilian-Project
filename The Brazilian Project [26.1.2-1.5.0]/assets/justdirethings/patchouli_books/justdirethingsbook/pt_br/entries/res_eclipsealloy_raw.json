@@ -1,0 +1,17 @@
+{
+  "name": "Minério de Liga Eclipse Bruto",
+  "sortnum": 6,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:raw_eclipsealloy_ore",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Quando um Bloco de Netherita é transformado pela Gosma de Shadowpulse, ele torna-se um Minério de Liga Eclipse Bruto. Minere este bloco para obter itens de Liga Eclipse Bruta, que podem ser fundidos em $(l:justdirethings:res_eclipsealloy)Lingotes de Liga Eclipse$(/l)."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "justdirethings:raw_eclipsealloy",
+      "text": "A Liga Eclipse Bruta larga quando você quebra o Minério de Liga Eclipse Bruto"
+    }
+  ]
+}

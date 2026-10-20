@@ -1,0 +1,33 @@
+{
+    "name": "book.cobblepedia.entries.pokemon_spawning",
+    "category": "cobblepedia:pokemon",
+    "icon": "cobblemon:lucky_egg",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.pokemon_spawning.text"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "book.cobblepedia.entries.pokemon_spawning",
+            "text": "book.cobblepedia.entries.pokemon_spawning.image",
+            "images": [
+                "cobblepedia:textures/gui/entries/pokemon_spawning.png",
+                "cobblepedia:textures/gui/entries/pokemon_spawning2.png"
+            ]
+        },
+        {
+            "type": "patchouli:link",
+            "url": "https://wiki.cobblemon.com/index.php/Pokémon/Spawning",
+            "link_text": "book.cobblepedia.pages.wiki",
+            "text": "book.cobblepedia.entries.pokemon_spawning.wiki"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:catching"
+            ]
+        }
+    ]
+}

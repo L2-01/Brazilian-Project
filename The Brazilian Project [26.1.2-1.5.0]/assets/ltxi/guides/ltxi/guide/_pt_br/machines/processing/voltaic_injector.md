@@ -1,0 +1,23 @@
+---
+navigation:
+    title: Injetor Voltaico
+    icon: voltaic_injector
+    parent: machines/processing/index.md
+    position: 107
+item_ids:
+    - voltaic_injector
+---
+
+# Injetor Voltaico
+
+<BlockImage id="voltaic_injector" scale="4" />
+
+## Sobre
+
+Bombardeia material com um feixe de voltagem extremamente alta. Ele pode forçar mutações de certos corantes em pigmentos especiais,
+cortar materiais de minério limpos e tornar o vidro de titânio azul.
+
+## Especificação de Receita
+- Tempo base de fabricação: varia, por padrão 10 segundos
+- Entradas: 1 item
+- Saídas: 1-3 itens

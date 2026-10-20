@@ -1,0 +1,25 @@
+{
+  "name": "enchantment.apprenticecodex.transcendence",
+  "category": "apprenticecodex:enchantments",
+  "icon": "minecraft:enchanted_book",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "enchantment.apprenticecodex.transcendence",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.transcendence.page.p001.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.transcendence.page.p999.title",
+      "entries": [
+        "apprenticecodex:staves_and_casting_devices/revolvercast_staff",
+        "apprenticecodex:staves_and_casting_devices/multipurpose_staffrifle",
+        "apprenticecodex:staves_and_casting_devices/scrollcaster_gauntlet",
+        "apprenticecodex:staves_and_casting_devices/chargecast_catalystbook",
+        "apprenticecodex:weapons_and_shields/elemental_bow",
+        "apprenticecodex:equipment_and_accessories/quickcast_scroll_cartridge",
+        "apprenticecodex:equipment_and_accessories/shooting_star_mantle"
+      ]
+    }
+  ]
+}

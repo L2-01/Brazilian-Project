@@ -1,0 +1,18 @@
+{
+    "name": "book.cobblepedia.entries.trading",
+    "category": "cobblepedia:getting_started",
+    "icon": "cobblemon:link_cable",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.trading.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:link_cable",
+                "cobblepedia:trading_evolution_item"
+            ]
+        }
+    ]
+}

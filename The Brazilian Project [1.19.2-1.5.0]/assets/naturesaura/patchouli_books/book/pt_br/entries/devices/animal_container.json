@@ -1,0 +1,17 @@
+{
+    "name": "Olho Corpóreo",
+    "icon": "naturesaura:animal_container",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:eye",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Às vezes, como fazendeiro, quer-se que os $(thing)animais$() fiquem contidos numa área pequena para evitar que fujam.$(br)O $(item)Olho Corpóreo$() impede que qualquer animal saia de sua área de efeito sem precisar de blocos ao redor. Seu $(thing)alcance$() para essa contenção é determinado pelo $(thing)sinal de redstone$() aplicado a ele - quanto mais forte, maior a área."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Olho Corpóreo$()",
+            "recipe": "naturesaura:animal_container"
+        }
+    ]
+}

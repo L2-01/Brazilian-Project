@@ -1,0 +1,30 @@
+{
+  "name": "Ponte RS",
+  "icon": "advancedperipherals:rs_bridge",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Ponte RS é capaz de interagir com o Refined Storage. Você pode extrair itens, fabricar itens, obter todos os itens como uma lista e mais.$(p)Para a documentação completa, consulte a $(9)$(l:https://docs.advanced-peripherals.de/peripherals/rs_bridge/)página oficial da wiki$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:rs_bridge"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:rs_bridge"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "Conecte sua Ponte RS a um computador para usá-la!"
+    }
+  ]
+}

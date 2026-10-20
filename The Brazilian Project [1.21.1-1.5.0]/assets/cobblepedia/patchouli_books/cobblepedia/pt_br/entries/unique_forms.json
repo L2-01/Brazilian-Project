@@ -1,0 +1,25 @@
+{
+    "name": "book.cobblepedia.entries.unique_forms",
+    "category": "cobblepedia:pokemon",
+    "icon": "cobblemon:beast_ball",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.unique_forms.text"
+        },
+        {
+            "type": "patchouli:link",
+            "title": "book.cobblepedia.entries.unique_forms.official.title",
+            "text": "book.cobblepedia.entries.unique_forms.official.text",
+            "url": "https://wiki.cobblemon.com/index.php/Pok%C3%A9mon/Unique_Forms#Official_Pok%C3%A9mon_Forms",
+            "link_text": "book.cobblepedia.pages.wiki"
+        },
+        {
+            "type": "patchouli:link",
+            "title": "book.cobblepedia.entries.unique_forms.minecraft.title",
+            "text": "book.cobblepedia.entries.unique_forms.minecraft.text",
+            "url": "https://wiki.cobblemon.com/index.php/Pokémon/Unique_Forms#Minecraft_Forms",
+            "link_text": "book.cobblepedia.pages.wiki"
+        }
+    ]
+}

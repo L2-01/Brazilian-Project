@@ -1,0 +1,16 @@
+{
+    "name": "Encantabilidade de Item",
+    "category": "apotheosis:enchanting/table",
+    "icon": "minecraft:golden_sword",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "No vanilla, a encantabilidade de um item contribui para seu $(fpower).$(p)O Apotheosis remove isso e, no lugar, trata a encantabilidade como uma chance de fortalecer cada encantamento que você rolar."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Cada encantamento rolado tem uma chance, baseada na encantabilidade do item, de ganhar um nível extra.$(p)Isso pode levar um encantamento além do seu máximo normal. Tais níveis são marcados com uma estrela no nome."
+        }
+    ]
+}

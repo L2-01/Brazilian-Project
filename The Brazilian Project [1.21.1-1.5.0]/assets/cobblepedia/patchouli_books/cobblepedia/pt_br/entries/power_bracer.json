@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.power_bracer",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:power_bracer",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:power_bracer",
+            "text": "book.cobblepedia.entries.power_bracer.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.power_bracer.usage.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:power_bracer",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

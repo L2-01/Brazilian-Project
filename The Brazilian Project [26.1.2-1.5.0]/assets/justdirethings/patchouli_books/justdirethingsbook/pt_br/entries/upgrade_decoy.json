@@ -1,0 +1,17 @@
+{
+  "name": "Isca",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_decoy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Distraia seus inimigos com a melhoria Isca. Implante uma isca para desviar a atenção inimiga, dando a você uma vantagem estratégica em combate.$(br2)Ative esta habilidade com uma tecla de atalho vinculada para gerar uma isca. Inimigos próximos serão forçados a atacá-la por um tempo, até ela desaparecer."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Isca",
+      "recipe": "justdirethings:upgrade_decoy"
+    }
+  ]
+}

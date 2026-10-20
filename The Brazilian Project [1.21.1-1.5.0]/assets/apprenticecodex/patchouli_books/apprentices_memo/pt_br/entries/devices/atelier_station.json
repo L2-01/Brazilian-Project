@@ -1,0 +1,59 @@
+{
+  "name": "block.apprenticecodex.atelier_station",
+  "category": "apprenticecodex:devices",
+  "icon": "apprenticecodex:atelier_station",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:atelier_station",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.atelier_station.page.p001.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.spellcasters_flask"
+          },
+          {
+            "translate": "item.apprenticecodex.alchemists_flask"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:atelier_station",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.atelier_station.page.p002.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:alchemist_cauldron",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.atelier_station.page.p003.text",
+        "with": [
+          {
+            "translate": "block.irons_spellbooks.alchemist_cauldron"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:alchemy_brewer",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.atelier_station.page.p004.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.alchemy_brewer"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/alchemy_brewer",
+        "apprenticecodex:magic_tools/spellcasters_flask",
+        "apprenticecodex:magic_tools/alchemists_flask"
+      ]
+    }
+  ]
+}

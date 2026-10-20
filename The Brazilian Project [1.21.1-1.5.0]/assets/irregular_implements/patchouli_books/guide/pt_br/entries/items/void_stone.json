@@ -1,0 +1,13 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:void_stone",
+  "name": "Pedra do Vazio",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:void_stone",
+      "link_recipe": true,
+      "text": "A $(d)Pedra do Vazio$() $(3)exclui qualquer item$() inserido no seu menu."
+    }
+  ]
+}

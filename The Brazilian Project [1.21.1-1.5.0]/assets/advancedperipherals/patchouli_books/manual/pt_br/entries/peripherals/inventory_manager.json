@@ -1,0 +1,30 @@
+{
+  "name": "Gerenciador de Inventário",
+  "icon": "advancedperipherals:inventory_manager",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Gerenciador de Inventário pode se comunicar com o inventário do jogador. Você precisa clicar com o botão direito em um Cartão de Memória e colocar o cartão no gerenciador para usá-lo.$(p)Para a documentação completa, consulte a $(9)$(l:https://docs.advanced-peripherals.de/peripherals/inventory_manager/)página oficial da wiki$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:inventory_manager"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:inventory_manager"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "Conecte seu Gerenciador de Inventário a um computador para usá-lo!"
+    }
+  ]
+}

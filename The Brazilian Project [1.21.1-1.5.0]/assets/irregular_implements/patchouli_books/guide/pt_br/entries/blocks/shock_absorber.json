@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:shock_absorber",
+  "name": "Amortecedor",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:shock_absorber",
+      "link_recipe": true,
+      "text": "O $(d)Amortecedor$() anula totalmente o dano de queda ao se pousar nele.$(br2)Além disso, ele emite um sinal de redstone proporcional à distância da queda.",
+      "title": "Amortecedor"
+    }
+  ]
+}

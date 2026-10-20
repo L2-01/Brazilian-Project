@@ -1,0 +1,17 @@
+{
+  "name": "Cama Hidropônica Simulada",
+  "icon": "industrialforegoing:simulated_hydroponic_bed",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 16,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Quando energizada, esta máquina gerará itens largados de plantações com base nos dados do Processador de Simulação Hidropônica"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:simulated_hydroponic_bed"
+    }
+  ]
+}

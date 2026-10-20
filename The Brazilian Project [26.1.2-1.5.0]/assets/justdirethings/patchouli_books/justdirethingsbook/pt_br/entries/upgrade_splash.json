@@ -1,0 +1,17 @@
+{
+  "name": "Arremessável",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_splash",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aprimore seus ataques à distância com a melhoria Arremessável. Esta melhoria converte os impactos de flecha em efeitos de respingo, espalhando o impacto por uma área mais ampla."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Arremessável",
+      "recipe": "justdirethings:upgrade_splash"
+    }
+  ]
+}

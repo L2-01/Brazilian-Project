@@ -1,0 +1,24 @@
+{
+    "name": "item.cobblemon.park_ball",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:park_ball",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:park_ball",
+            "text": "book.cobblepedia.entries.park_ball.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:park_ball",
+            "title": "book.cobblepedia.pages.crafting",
+            "text": "book.cobblepedia.entries.park_ball.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.trivia",
+            "text": "book.cobblepedia.entries.park_ball.trivia"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.naughty_mint",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:naughty_mint",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:naughty_mint",
+            "text": "book.cobblepedia.entries.naughty_mint.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:naughty_mint",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

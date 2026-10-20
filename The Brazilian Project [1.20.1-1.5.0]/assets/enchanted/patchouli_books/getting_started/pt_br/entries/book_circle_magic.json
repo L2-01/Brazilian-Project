@@ -1,0 +1,17 @@
+{
+  "name": "Bruxaria: Magia de Círculos",
+  "icon": "patchouli:textures/item/book_purple.png",
+  "category": "enchanted:additional_resources",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A magia de círculos é um processo poderoso usado para aproveitar energia mágica e focá-la num efeito específico. Isso está detalhado em Bruxaria: Magia de Círculos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:book_circle_magic"
+    }
+  ],
+  "read_by_default": false,
+  "sortnum": 3
+}

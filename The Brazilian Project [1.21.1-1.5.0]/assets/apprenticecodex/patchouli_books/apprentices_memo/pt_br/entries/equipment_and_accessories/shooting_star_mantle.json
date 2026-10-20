@@ -1,0 +1,169 @@
+{
+  "name": "item.apprenticecodex.shooting_star_mantle",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:shooting_star_mantle",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:shooting_star_mantle",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p001.text",
+        "with": [
+          {
+            "translate": "item.minecraft.elytra"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:shooting_star_mantle",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p002.text"
+    },
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p003.text",
+        "with": [
+          {
+            "translate": "item.minecraft.elytra"
+          },
+          {
+            "translate": "item.minecraft.elytra"
+          },
+          {
+            "translate": "spell.irons_spellbooks.angel_wing"
+          },
+          {
+            "translate": "item.minecraft.elytra"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "spell.apprenticecodex.wavering_star",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p004.text",
+      "item": "irons_spellbooks:scroll[irons_spellbooks:spell_container={maxSpells:1,mustEquip:false,spellWheel:false,data:[{id:\"apprenticecodex:wavering_star\",index:0,level:1,locked:1b}]}]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:scrollwoven_parchment",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p005.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p005.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:protection_rune",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p006.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p006.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:arcane_rune",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p007.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p007.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:cooldown_rune",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p008.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p008.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:fire_rune",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p009.title",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p009.text",
+        "with": [
+          {
+            "translate": "spell.irons_spellbooks.burning_dash"
+          },
+          {
+            "translate": "spell.apprenticecodex.wavering_star"
+          },
+          {
+            "translate": "spell.irons_spellbooks.burning_dash"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:ice_rune",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p010.title",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p010.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.wavering_star"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:evocation_rune",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p011.title",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p011.text",
+        "with": [
+          {
+            "translate": "item.minecraft.firework_rocket"
+          },
+          {
+            "translate": "item.minecraft.firework_rocket"
+          },
+          {
+            "translate": "spell.apprenticecodex.personal_shelf"
+          },
+          {
+            "translate": "block.minecraft.ender_chest"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:lightning_rune",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p012.title",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p012.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.wavering_star"
+          },
+          {
+            "translate": "spell.irons_spellbooks.volt_strike"
+          },
+          {
+            "translate": "spell.irons_spellbooks.volt_strike"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:ender_rune",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p013.title",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.shooting_star_mantle.page.p013.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.wavering_star"
+          },
+          {
+            "translate": "spell.apprenticecodex.quick_blink"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spell_calibration_bench"
+      ]
+    }
+  ]
+}

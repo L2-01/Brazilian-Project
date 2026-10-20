@@ -1,0 +1,15 @@
+{
+    "name": "item.cobblemon.fossilized_bird",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:fossilized_bird",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "item.cobblemon.fossilized_bird",
+            "item": "cobblemon:fossilized_bird",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.fossilized_bird.text"
+        }
+    ]
+}

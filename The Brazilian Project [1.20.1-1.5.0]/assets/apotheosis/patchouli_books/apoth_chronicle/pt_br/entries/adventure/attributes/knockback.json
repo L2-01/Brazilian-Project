@@ -1,0 +1,17 @@
+{
+    "name": "Repulsão de Ataque",
+    "icon": "minecraft:piston",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Repulsão de Ataque$() é a distância com que você repele inimigos ao atacá-los.$(p)Cada ponto fará com que inimigos atingidos sejam empurrados meio bloco para trás.$(p)Armas e escudos podem fornecer este atributo."
+        },
+		{
+			"type": "patchouli:text",
+			"text": "O encantamento Repulsão fornece um bônus equivalente a este atributo, mas não conta para o teto do valor máximo."
+		}
+	]
+}

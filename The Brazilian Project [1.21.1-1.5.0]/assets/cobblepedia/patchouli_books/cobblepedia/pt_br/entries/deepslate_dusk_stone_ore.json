@@ -1,0 +1,28 @@
+{
+    "name": "block.cobblemon.deepslate_dusk_stone_ore",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:deepslate_dusk_stone_ore",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:deepslate_dusk_stone_ore",
+            "link_recipe": true,
+            "title": "block.cobblemon.deepslate_dusk_stone_ore",
+            "text": "book.cobblepedia.entries.deepslate_dusk_stone_ore.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.generation",
+            "text": "book.cobblepedia.entries.dusk_stone_ore.generation"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:dusk_stone",
+                "cobblepedia:dusk_stone_ore",
+                "cobblepedia:evolution_stone_mining"
+            ]
+        }
+    ]
+}

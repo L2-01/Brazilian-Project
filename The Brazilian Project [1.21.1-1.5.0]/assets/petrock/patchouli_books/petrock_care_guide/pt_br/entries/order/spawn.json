@@ -1,0 +1,25 @@
+{
+  "name": "Gerando seu novo bichinho",
+  "icon": "petrock:petrockbox",
+  "category": "petrock:order_category",
+  "pages": [
+    {
+      "type": "text",
+      "title": "Como Gerar",
+      "text": "Este item vai gerar uma nova Pedra de Estimação não domada onde você clicou"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock"
+    },
+    {
+      "type": "crafting",
+      "recipe": "petrock:petrockwithlegsbox",
+      "text": "Você também pode adicionar pernas à Pedra de Estimação enquanto ela ainda está na caixa"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs"
+    }
+  ]
+}

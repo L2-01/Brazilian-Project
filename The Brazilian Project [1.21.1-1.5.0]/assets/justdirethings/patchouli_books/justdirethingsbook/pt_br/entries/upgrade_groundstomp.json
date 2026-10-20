@@ -1,0 +1,17 @@
+{
+  "name": "Bate-Estaca",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_groundstomp",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Libere força sísmica com a melhoria Bate-Estaca. Quando ativada, esta melhoria cria uma onda de choque que empurra as entidades próximas para trás.$(br2)Esta é uma habilidade ativada, então você precisará atribuir uma tecla de atalho para usá-la."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria Bate-Estaca",
+      "recipe": "justdirethings:upgrade_groundstomp"
+    }
+  ]
+}

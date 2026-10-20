@@ -1,0 +1,27 @@
+{
+  "name": "Armazenamento Modular",
+  "icon": "rftoolsstorage:modular_storage",
+  "category": "rftoolsbase:category_rftoolsstorage_modularstorage",
+  "extra_recipe_mappings": {
+    "rftoolsstorage:modular_storage": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Armazenamento Modular é um bloco de armazenamento pesquisável. Insira um $(l:rftoolsbase:modularstorage/storagemodules)Módulo de Armazenamento$(/l) para definir quantas pilhas ele pode guardar."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:modular_storage"
+    },
+    {
+      "type": "text",
+      "text": "O bloco armazena os itens no módulo, então o módulo pode manter seu conteúdo ao ser movido. Módulos de nível mais alto desbloqueiam inventários maiores."
+    },
+    {
+      "type": "text",
+      "text": "Use a GUI para pesquisar, ordenar, compactar e alternar entre os tamanhos de inventário visíveis. O espaço de módulo controla a capacidade real de armazenamento."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Módulo de Reforço",
+    "icon": "mffs:reinforcement_module",
+    "category": "mffs:projector_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:reinforcement_module",
+            "link_recipe": true,
+            "text": "Colocar um $(5)Módulo de Reforço$() num $(l:mffs:machines/projector)Projetor de Campo de Força$() torna os blocos do campo de força projetado imunes à destruição pelo Wither."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:reinforcement_module",
+            "text": "Fabricando o $(5)Módulo de Reforço$()."
+        }
+    ]
+}

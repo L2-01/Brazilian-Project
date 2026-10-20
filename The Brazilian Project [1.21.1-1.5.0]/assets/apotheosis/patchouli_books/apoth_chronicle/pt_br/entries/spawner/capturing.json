@@ -1,0 +1,19 @@
+{
+    "name": "Captura",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:spawner/spawner",
+    "flag": "apotheosis:spawner",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Geradores de Criaturas podem ter sua entidade mudada usando um $(9)Ovo Gerador$().$(p)Normalmente, estes são inatingíveis. Para remediar isso, o Apothic Spawners adiciona o encantamento $(9)Captura$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:cow_spawn_egg",
+            "title": "Ovos Geradores",
+            "text": "Cada nível do encantamento $(9)Captura$() dá uma chance muito pequena de as entidades largarem seu ovo gerador ao morrer.$(p)Entidades sem ovo gerador, ou que estejam na lista de bloqueio (ex.: chefes), não podem largar um."
+        }
+    ]
+}

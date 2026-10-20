@@ -1,0 +1,25 @@
+{
+    "name": "Olhar de Fogos de Artifício",
+    "icon": "naturesaura:firework_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)Fogos de artifício$() são lindos de se ver, embora seja um pouco caro criar os que ficam realmente bonitos. O $(item)Olhar de Fogos de Artifício$() aparentemente compartilha dessa opinião: consumindo quaisquer fogos de artifício $(thing)jogados$() no chão ao seu redor, ele os lançará ao ar. Quando explodem, sua energia explosiva e colorida é absorvida e, com base na complexidade do fogo de artifício,"
+        },
+        {
+            "type": "text",
+            "text": "mais ou menos $(aura) é criada e espalhada no ambiente como resultado. Para a complexidade, especialmente o $(thing)valor$() dos itens usados na criação do fogo de artifício é importante, mas também a quantidade de $(thing)estrelas de fogos$(), a quantidade de $(thing)cores$() e algumas outras variáveis influenciam na quantidade de $(aura) criada a cada disparo."
+        },
+        {
+            "type": "text",
+            "text": "Além disso, vale notar que, enquanto um fogo de artifício já está sendo lançado ao ar pelo $(item)Olhar de Fogos de Artifício$(), ou enquanto ele está consumindo a energia de uma explosão, jogar mais fogos na sua área de coleta fará com que eles sejam consumidos, mas nenhuma $(aura) será criada a partir deles. Isso implica que seria sábio configurar algum tipo de $(thing)temporizador$() para sua automação."
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:firework_generator",
+            "text": "Criando o $(item)Olhar de Fogos de Artifício$()"
+        }
+    ]
+}

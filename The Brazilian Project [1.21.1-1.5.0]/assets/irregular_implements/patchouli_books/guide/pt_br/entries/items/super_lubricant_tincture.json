@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:super_lubricant_tincture",
+  "name": "Tintura de Super Lubrificante",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(d)Tintura de Super Lubrificante$() pode ser fabricada com qualquer item de botas para que elas $(3)anulem completamente o atrito$() quando usadas.$(br2)Isso significa que, se você começar a se mover, não vai parar!",
+      "title": "Tintura de Super Lubrificante"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:super_lubricant_tincture",
+      "link_recipe": true,
+      "text": "Você pode fabricar botas lubrificadas com uma garrafa de água para remover o lubrificante."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "book.cobblepedia.entries.dusk_rod.name",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:dusk_rod",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:dusk_rod",
+            "text": "book.cobblepedia.entries.dusk_rod.text"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "cobblemon:dusk_rod",
+            "title": "book.cobblepedia.pages.smithing"
+        }
+    ]
+}

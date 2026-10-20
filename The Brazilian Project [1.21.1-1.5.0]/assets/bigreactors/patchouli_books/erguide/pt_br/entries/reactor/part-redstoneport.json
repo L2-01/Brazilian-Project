@@ -1,0 +1,43 @@
+{
+    "name": "Porta de Redstone",
+    "icon": "bigreactors:reinforced_reactorredstoneport",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_reactorredstoneport",
+            "link_recipe": true,
+            "title" : "Porta de Redstone",
+            "text": "A Porta de Redstone permite automatizar seu Reator usando redstone.$(br2)Abra a interface gráfica da Porta para configurá-la. Você pode então escolher entre três configurações de entrada (que escutam um sinal de redstone) e seis de saída (que emitem um sinal de redstone)."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(bold)Configurações de entrada$()$(br2)Executa uma das seguintes ações quando um sinal de redstone é recebido$(br2)$(li)$(o)Ligar / Desligar:$() liga ou desliga o Reator dependendo do sinal recebido$(li)$(o)Ejetar Resíduos:$() ejeta material residual para as Portas de Acesso em modo saída$(li)$(o)Inserção das Hastes de Controle:$() define a porcentagem de inserção de todas as Hastes de Controle do Reator."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(bold)Configurações de saída$()$(br2)Emite um sinal de redstone quando uma das seguintes condições é atendida$(br2)$(li)$(o)Calor do Revestimento:$() o calor do Revestimento do Reator está acima, abaixo ou entre uma temperatura definida$(li)$(o)Calor do Núcleo:$() o calor do Núcleo do Reator está acima, abaixo ou entre uma temperatura definida$(li)$(o)Riqueza de Combustível:$() o percentual de Riqueza de Combustível está acima, abaixo ou entre um valor definido"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(o)Quantidade de Combustível:$() a quantidade de combustível disponível está acima, abaixo ou entre um valor definido$(li)$(o)Quantidade de Resíduos:$() a quantidade de resíduos disponível está acima, abaixo ou entre um valor definido.$(li)$(o)Energia Armazenada:$() a quantidade de energia armazenada no buffer interno está acima, abaixo ou entre um valor definido.$(li)$(o)Quantidade de refrigerante:$() a quantidade de refrigerante na Turbina está acima, abaixo ou entre um valor definido"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(o)Quantidade de vapor:$() a quantidade de vapor na Turbina está acima, abaixo ou entre um valor definido$(br2)Você geralmente vai precisar de duas ou mais Portas de Redstone para automatizar totalmente um Reator.$(br2)Para automação mais complexa, verifique a $(l:bigreactors:reactor/part-computerport)Porta de Computador$(/l)."
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Basic",
+            "recipe1": "bigreactors:reactor/basic/redstoneport",
+            "title2": "Reinforced",
+            "recipe2": "bigreactors:reactor/reinforced/redstoneport"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim"
+        }
+    ]
+}

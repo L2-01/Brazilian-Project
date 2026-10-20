@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:pitcher_plant",
+  "name": "Planta Ancestral",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As $(d)Plantas Ancestrais$() geram água.$(br2)Você pode coletar essa água usando um balde ou qualquer outro item de armazenamento de fluido nela.$(br2)Ela também enche periodicamente tanques de fluido adjacentes, e a água pode ser extraída por tubos de fluido.",
+      "title": "Planta Ancestral"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:pitcher_plant",
+      "link_recipe": true,
+      "text": "Plantas Ancestrais podem ser encontradas em biomas com a tag de bioma $(3)c:is_wet/overworld$()."
+    }
+  ]
+}

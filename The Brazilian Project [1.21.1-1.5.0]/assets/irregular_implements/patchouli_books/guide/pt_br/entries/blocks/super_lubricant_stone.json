@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:super_lubricant_stone",
+  "name": "Blocos Super Lubrificados",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:irregular_implements:super_lubricated",
+      "link_recipe": true,
+      "text": "Os $(d)Blocos Super Lubrificados$() anulam totalmente o atrito, permitindo que entidades se movam sobre eles sem desacelerar.$(br2)Isso é muito útil para transportar itens, especialmente quando usados com $(l:blocks/plates)chapas$(/l).",
+      "title": "Blocos Super Lubrificados"
+    }
+  ]
+}

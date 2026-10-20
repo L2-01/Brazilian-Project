@@ -1,0 +1,22 @@
+{
+    "name": "Catalisador de Criação",
+    "icon": "naturesaura:generator_limit_remover",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:offering",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Como descrito na seção $(l:creating/on_generating)Sobre a Criação de Aura$(), a maioria dos $(thing)dispositivos criacionais$() não consegue criar $(aura) além de um certo ponto. O $(item)Catalisador de Criação$() resolve esse problema facilmente: colocá-lo diretamente abaixo de qualquer dispositivo criacional fará seu limite ser removido, tornando-o capaz de gerar $(aura) muito além do ponto mencionado.$(br)Isso não tem custo algum em troca."
+        },
+        {
+            "type": "text",
+            "text": "Embora gerar $(aura) indefinidamente possa ser uma perspectiva empolgante para alguns botânicos mágicos, também foi recentemente descoberto que fazê-lo pode ser de pouca utilidade devido à $(l:intro/aura#fizzling)dissipação de Aura$(). Isso deve ser levado em conta e mitigado usando um dispositivo como o $(l:devices/aura_detector)Detector de Aura$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:generator_limit_remover",
+            "text": "Fabricando o $(item)Catalisador de Criação$() usando os símbolos"
+        }
+    ]
+}

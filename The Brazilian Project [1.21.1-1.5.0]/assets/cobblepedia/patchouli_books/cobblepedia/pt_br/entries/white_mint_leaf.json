@@ -1,0 +1,21 @@
+{
+    "name": "item.cobblemon.white_mint_leaf",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:white_mint_leaf",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:white_mint_leaf",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.white_mint_leaf.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "entries": [
+                "cobblepedia:serious_mint"
+            ]
+        }
+    ]
+}

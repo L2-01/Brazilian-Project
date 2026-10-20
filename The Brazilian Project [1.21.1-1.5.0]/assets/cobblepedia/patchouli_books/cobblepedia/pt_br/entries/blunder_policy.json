@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.blunder_policy",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:blunder_policy",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:blunder_policy",
+            "text": "book.cobblepedia.entries.blunder_policy.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:blunder_policy",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

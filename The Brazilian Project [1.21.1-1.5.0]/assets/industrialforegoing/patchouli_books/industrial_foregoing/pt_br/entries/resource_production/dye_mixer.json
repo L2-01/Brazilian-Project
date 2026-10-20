@@ -1,0 +1,17 @@
+{
+  "name": "Misturador de Corante",
+  "icon": "industrialforegoing:dye_mixer",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 12,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esta máquina mistura cores primárias de corante para criar as cores do arco-íris.$(br2)Por exemplo: se o $(6)corante$() pedido for branco, ela precisará de 1 de $(4)Vermelho$(0), $(2)Verde$(0) e $(1)Azul$(0).$(br)Ela consumirá $(6)30$()RF/t"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:dye_mixer"
+    }
+  ]
+}

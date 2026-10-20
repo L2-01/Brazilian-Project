@@ -1,0 +1,20 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:spectre_sword",
+  "name": "Ferramentas de Espectro",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_sword",
+      "link_recipe": true,
+      "text": "A $(d)Espada de Espectro$() é comparável à espada de diamante, com durabilidade e encantabilidade maiores.$(br2)Ela aumenta seu alcance de interação com entidades em 3 blocos e pode ser usada para matar espíritos."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_pickaxe,irregular_implements:spectre_axe,irregular_implements:spectre_shovel",
+      "link_recipe": true,
+      "text": "A $(d)Picareta, o Machado e a Pá de Espectro$() são cada um comparável ao seu equivalente de diamante, com durabilidade e encantabilidade maiores.$(br2)Cada um deles aumenta seu alcance de interação com blocos em 3 blocos.",
+      "title": " "
+    }
+  ]
+}

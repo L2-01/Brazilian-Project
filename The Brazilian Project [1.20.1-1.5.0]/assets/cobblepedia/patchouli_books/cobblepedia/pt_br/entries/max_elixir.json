@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.max_elixir",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:max_elixir",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:max_elixir",
+            "text": "book.cobblepedia.entries.max_elixir.text"
+        },
+        {
+            "type": "cobblepedia:brewing",
+            "title": "book.cobblepedia.pages.brewing",
+            "reagent_item": "cobblemon:pep_up_flower",
+            "base_item": "cobblemon:elixir",
+            "result_item": "cobblemon:max_elixir"
+        }
+    ]
+}

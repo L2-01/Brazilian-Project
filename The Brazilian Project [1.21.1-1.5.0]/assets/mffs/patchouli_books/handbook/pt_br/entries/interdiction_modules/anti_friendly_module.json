@@ -1,0 +1,18 @@
+{
+    "name": "Módulo Antiamistoso",
+    "icon": "mffs:anti_friendly_module",
+    "category": "mffs:interdiction_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:anti_friendly_module",
+            "link_recipe": true,
+            "text": "O $(5)Módulo Antiamistoso$() é um módulo opcional para a $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$(). Com este módulo instalado, a Matriz detectará automaticamente entidades amigáveis (como ovelhas, vacas e aldeões) que entrarem em seu alcance de varredura e as matará - quase instantaneamente. Jogadores e criaturas hostis não são afetados."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:anti_friendly_module",
+            "text": "Fabricando o $(5)Módulo Antiamistoso$()."
+        }
+    ]
+}

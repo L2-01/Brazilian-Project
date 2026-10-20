@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.power_anklet",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:power_anklet",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:power_anklet",
+            "text": "book.cobblepedia.entries.power_anklet.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.power_anklet.usage.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:power_anklet",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Flores de Acônito",
+  "icon": "enchanted:textures/item/wolfsbane_flower.png",
+  "category": "enchanted:common_plants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aconitum, nome comum do Acônito, refere-se a muitas plantas floríferas nativas de áreas montanhosas da Europa, América do Norte e Ásia.$(br2)As raízes de acônito contêm uma quantidade substancial de aconitina, uma potente neurotoxina e cardiotoxina.$(br2)$(bold)Obtenção:$()$(br)Conhecida por ser largada por Grama Alta"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "enchanted:wolfsbane[age=4]"
+        },
+        "pattern": [
+          [ "0" ],
+          [ " " ]
+        ]
+      }
+    }
+  ],
+  "read_by_default": true
+}

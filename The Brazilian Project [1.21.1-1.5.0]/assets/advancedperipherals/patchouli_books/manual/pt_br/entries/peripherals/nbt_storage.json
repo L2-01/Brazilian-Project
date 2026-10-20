@@ -1,0 +1,30 @@
+{
+  "name": "Armazenamento NBT",
+  "icon": "advancedperipherals:nbt_storage",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Armazenamento NBT é um bloco personalizado que permite a entrada/saída de dados personalizados para um bloco. Fornecido principalmente para suporte ao Integrated Dynamics.$(p)Para a documentação completa, consulte a $(9)$(l:https://docs.advanced-peripherals.de/peripherals/nbt_storage/)página oficial da wiki$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:nbt_storage"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:nbt_storage"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "Conecte seu Armazenamento NBT a um computador para usá-lo!"
+    }
+  ]
+}

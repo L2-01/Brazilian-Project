@@ -1,0 +1,28 @@
+{
+    "name": "Controle Remoto",
+    "icon": "mffs:remote_controller",
+    "category": "mffs:tools",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:remote_controller",
+            "link_recipe": true,
+            "text": "O $(5)Controle Remoto$() é um dispositivo extraordinário que está na vanguarda da tecnologia de configuração remota. Em vez de simplesmente permitir ligar ou desligar uma máquina MFFS, ele fornece acesso material à GUI real da máquina."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:remote_controller",
+            "text": "Fabricando o $(5)Controle Remoto$()."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Operação",
+            "text": "Quando ativado, o Controle estabelece um fluxo de matéria bidirecional com a máquina que foi configurado para controlar. Ao fazer isso, o jogador não só ganha acesso a todas as opções configuráveis da máquina, como também pode adicionar e remover seus itens - como se estivesse bem ao lado dela. Um $(5)Controle Remoto$() não precisa ser carregado; ele extrai energia diretamente de uma máquina MFFS próxima usando a mesma frequência. Como tal, um Controle não pode funcionar se não houver $(l:mffs:getting_started/fortron)Fortron$() suficiente disponível."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Uso",
+            "text": "$(li)Abra a GUI da máquina MFFS a ser controlada e coloque o Controle no seu espaço de frequência para definir a frequência do controle. $(li)Vincule o controle à máquina alvo agachando e clicando com o botão direito nela. O controle exibirá o nome e as coordenadas da máquina à qual foi vinculado. $(li)Afaste-se da máquina e clique com o botão direito com o controle para acessar a GUI da máquina."
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Construtor Automático",
+    "icon": "naturesaura:auto_crafter",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Uma grande parte da vida de qualquer botânico é a $(thing)construção$() de itens, especificamente numa $(item)Bancada de Trabalho$(). Isso, porém, pode facilmente se tornar tedioso e demorado, especialmente para receitas criadas e usadas regularmente. Para isso, o $(item)Construtor Automático$() é útil: ele criará, sem a ajuda de ninguém, qualquer item que possa ser feito por fabricação comum."
+        },
+        {
+            "type": "text",
+            "text": "Para isso, primeiro, a $(thing)estrutura$() da página seguinte precisa ser construída com o $(item)Construtor Automático$() no centro. Quando colocado, a direção da seta indica o $(thing)topo da receita$(), como se apontasse para a fileira superior de espaços numa $(item)Bancada de Trabalho$(). Os ingredientes necessários então devem ser jogados nos $(item)Troncos Ancestrais$() na sua configuração normal. Uma vez no lugar, após alguns segundos, o item resultante sairá $(thing)pela base$() do $(item)Construtor Automático$()."
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:auto_crafter",
+            "text": "Criando a estrutura necessária para o processo de fabricação automática"
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Construtor Automático$()",
+            "recipe": "naturesaura:auto_crafter"
+        }
+    ]
+}

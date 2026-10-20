@@ -1,0 +1,12 @@
+{
+    "name": "Surto Instável",
+    "icon": "minecraft:tnt",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:negative_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Quando os níveis de $(aura) na área estão extremamente baixos, a ponto da $(item)Deterioração Natural$() já ter feito todo o trabalho possível, mas os níveis ainda não aumentam, a própria natureza perde estabilidade ao ponto de $(item)Surto Instável$(): $(thing)explosões$() começarão a ocorrer esporadicamente numa grande área da superfície, com sua severidade e intervalo variando conforme a severidade do desequilíbrio."
+        }
+    ]
+}

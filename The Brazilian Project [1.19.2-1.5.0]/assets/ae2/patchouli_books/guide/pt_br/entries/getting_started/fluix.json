@@ -1,0 +1,17 @@
+{
+  "name": "5) Cristais de Fluix",
+  "category": "ae2:getting_started",
+  "icon": "ae2:fluix_crystal",
+  "sortnum": 50,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os $(thing)Cristais de Fluix$() são usados em várias receitas. São obtidos jogando $(l:ae2:getting_started/charger)Cristais de Fluix Carregados$(/l), $(item)Redstone$() e $(item)Quartzo do Nether$() numa poça de água.$(br2)Podem ser triturados em $(thing)Pó de Fluix$() num $(l:ae2:getting_started/inscriber)Inscritor$(/l).$(br2)Também existe uma forma em Bloco, que pode ser usada para melhorar as $(l:ae2:equipment/quartz_tools#fluix)Ferramentas de Quartzo$(/l)."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ae2:fluix_crystal",
+      "link_recipe": true
+    }
+  ]
+}

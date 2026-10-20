@@ -1,0 +1,17 @@
+{
+    "name": "Ocular do Ender",
+    "icon": "naturesaura:ender_access",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O $(item)Ocular do Ender$() é, simplificando, uma versão portátil do $(l:using/ender_crate)Caixote do Ender$(). Após dar a ele um $(thing)Nome do Ender$() exatamente da mesma forma, interagir com ele segurando-o na mão abrirá o armazenamento ali mesmo. Para isso, um $(l:items/aura_cache)Cache de Aura$() é necessário, do qual um pouco de $(aura) será drenada."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Ocular do Ender$()",
+            "recipe": "naturesaura:ender_access"
+        }
+    ]
+}

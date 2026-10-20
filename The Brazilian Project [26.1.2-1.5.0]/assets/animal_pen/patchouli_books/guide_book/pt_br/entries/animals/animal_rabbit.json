@@ -1,0 +1,22 @@
+{
+  "name": "Coelho",
+  "icon": "minecraft:rabbit_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:rabbit",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:rabbit_food",
+      "text": "Alimente os coelhos com cenouras ou cenouras douradas para procriá-los e aumentar seu número no cercado."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:minecraft:swords,tag:minecraft:axes",
+      "text": "Usar uma espada ou machado no Cercado de Animais matará o coelho e largará seu saque."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "item.cobblemon.dragon_gem",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:dragon_gem",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:dragon_gem",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.dragon_gem.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:type_gem"
+            ]
+        }
+    ]
+}

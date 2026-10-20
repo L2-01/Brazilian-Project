@@ -1,0 +1,29 @@
+{
+    "name": "item.cobblemon.deep_sea_tooth",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:deep_sea_tooth",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:deep_sea_tooth",
+            "link_recipe": true,
+            "title": "item.cobblemon.deep_sea_tooth",
+            "text": "book.cobblepedia.entries.deep_sea_tooth.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.deep_sea_tooth.holding"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.deep_sea_tooth.evolving",
+            "holding_item3": "cobblemon:deep_sea_tooth",
+            "using_item3": "cobblemon:link_cable",
+            "pokemon3": "cobblemon:clamperl",
+            "evolved_pokemon3": "cobblemon:gorebyss"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Máquinas Avançadas",
+  "sortnum": 2,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:blockbreakert2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As máquinas avançadas geralmente têm os mesmos controles das suas contrapartes simples, e mais alguns.$(br2)$(l)Área de Efeito$()$(br2)Máquinas avançadas podem afetar uma área grande, que pode ser visualizada clicando no botão \"Renderizar área\", para ver no mundo qual área o bloco afetará."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os botões RAD e OFF ajustam onde essa área de efeito se aplica.$(br2)RAD afeta o raio, aumentando a área afetada.$(br2)OFF afeta o deslocamento do bloco, movendo o centro da área para outra posição.$(br2)Teste esses botões com \"renderizar área\" ativo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Filtros$()$(br2)A maioria das máquinas avançadas tem uma fileira de espaços de filtro, que permitem filtrar o que a máquina afeta. Podem ser itens, blocos ou entidades!$(br2)Você pode arrastar do JEI para preenchê-los, ou clicar neles com uma pilha de itens na mão dentro da GUI.$(br2)Para filtrar entidades, use um ovo gerador ou o capturador de criaturas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você também pode alternar o botão de lista \"permitir vs bloquear\". No modo permitir, apenas itens listados serão afetados, enquanto no modo bloquear, qualquer coisa EXCETO os itens listados será afetada.$(br2)Comparar NBT pode ser usado para filtros mais específicos, como exigir encantamentos ou dano iguais numa ferramenta, ou filtrar uma cor específica de ovelha se estiver usando um capturador de criaturas."
+    }
+  ]
+}

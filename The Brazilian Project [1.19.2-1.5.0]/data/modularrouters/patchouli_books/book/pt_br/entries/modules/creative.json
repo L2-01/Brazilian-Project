@@ -1,0 +1,11 @@
+{
+  "name": "Módulo Criativo",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:creative_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Módulo Criativo é um módulo especial não fabricável que simplesmente insere itens, do nada, no buffer do roteador.$(p)Ele usa o filtro do módulo como uma lista de itens e, a cada tique, passa para o próximo item do filtro em esquema rotativo. Ele não se importa com outras configurações de filtro (lista-branca/negra, corresponder NBT...)."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Porta de Fluido do Mekanism",
+    "icon": "bigreactors:reinforced_reactorfluidport_mekanism_passive",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 11,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_reactorfluidport_mekanism_passive",
+            "link_recipe": true,
+            "title" : "Porta de Fluido do Mekanism",
+            "text": "A Porta de Fluido do Mekanism permite extrair vapor de um Reator com $(l:bigreactors:reactor/active)resfriamento ativo$(/l) como um Gás do Mekanism.$(br2)Esta Porta converte automaticamente o vapor em gás se existir uma receita Rotary do Mekanism para o fluido armazenado dentro do Reator. A taxa de conversão definida pela receita Rotary é respeitada."
+        },
+        {
+            "type": "crafting-part_usage",
+            "crafting.title1": "Reinforced (Passive)",
+            "crafting.recipe1": "bigreactors:reactor/reinforced/passivefluidport_mekanism",
+            "usage.text": "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() Reinforced$(br)$(l)Graphical interface:$() no"
+        }
+    ]
+}

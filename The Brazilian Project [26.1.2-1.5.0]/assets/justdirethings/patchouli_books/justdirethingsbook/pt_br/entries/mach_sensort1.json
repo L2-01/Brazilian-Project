@@ -1,0 +1,29 @@
+{
+  "name": "Sensor Simples",
+  "sortnum": 9,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:sensort1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Sensor Simples detecta blocos ou entidades na sua área de efeito e emite um sinal de redstone quando suas condições são atendidas. O espaço na UI é um único espaço de filtro, permitindo filtrar por um bloco ou criatura.$(br2)No seu modo padrão, \"bloco\" com filtro vazio, ele emitirá um sinal de redstone se houver um bloco à sua frente."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O botão $(l)redstone$() permite alternar entre emitir um sinal de redstone forte ou fraco quando as condições são atendidas.$(br2)O botão $(l)Lista de Permissão$() alterna o espaço de filtro entre lista de permissão e lista de bloqueio. Lembre-se de que, se estiver mirando um bloco, deve definir como permissão. Por padrão, no modo bloqueio com filtro vazio, ele emitirá sinal para qualquer bloco."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O botão $(l)alvo$() permite alternar entre mirar Blocos, Ar, Hostis, Passivas, Adultas, Filhotes, Jogador, Todas Vivas e entidades de Item. Veja a entrada do livro $(l:justdirethings:mach_clickert1)Clicador Simples$(/l) para detalhes sobre o que cada uma faz.$(br2)O modo itens detectará itens no mundo à frente do bloco."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao mirar blocos, você pode clicar com o botão direito no espaço de filtro para designar um ESTADO de bloco específico para filtrar!$(br)Por exemplo, você pode detectar se uma porta está aberta ou fechada, ou se uma alavanca está ligada ou desligada.$(br2)Basta clicar com o botão direito no espaço de filtro quando um bloco estiver nele, e você verá uma lista de todos os estados de bloco à esquerda. Clique em cada um para alternar entre as opções."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Sensor Simples",
+      "recipe": "justdirethings:sensort1"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Porta de Fluido Forge",
+    "icon": "bigreactors:reinforced_reactorfluidport_forge_passive",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "bigreactors:reinforced_reactorfluidport_forge_passive",
+            "link_recipe": true,
+            "title" : "Porta de Fluido Forge",
+            "text": "A Porta de Fluido Forge permite inserir ou extrair fluidos de um Reator com $(l:bigreactors/active)resfriamento ativo$(/l).$(br2)Esta Porta aceita e emite fluidos vanilla, mas apenas se forem $(l:bigreactors/coolantsystem)refrigerantes ou vapores$(/l) válidos.$(br2)Você pode usar uma $(l:bigreactors/wrench)chave$(/l) para mudar a Porta do modo de entrada para o de saída."
+        },
+        {
+            "type": "bigreactors:crafting1x",
+            "title1": "Reinforced (Passive)",
+            "recipe1": "bigreactors:reactor/reinforced/passivefluidport_forge",
+            "title2": "Reinforced (Active)",
+            "recipe2": "bigreactors:reactor/reinforced/activefluidport_forge"
+        },
+        {
+            "type": "bigreactors:part_usage",
+            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() Reforçada$(br)$(l)Interface gráfica:$() não$(br)$(l)Chave:$() uma $(l:bigreactors:misc/wrench)chave$(/l) pode ser usada para alternar o modo da Porta."
+        }
+    ]
+}

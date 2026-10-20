@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:redstone_tool",
+  "name": "Ferramenta de Redstone",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(d)Ferramenta de Redstone$() é usada para $(3)vincular certos blocos de redstone sem fio a outras localizações$().$(br2)Primeiro, use-a no bloco vinculável para salvá-lo na ferramenta. Depois, use a ferramenta no bloco ao qual você quer vincular o bloco salvo.$(br2)Enquanto segura a Ferramenta de Redstone, você poderá ver uma linha conectando todos os blocos vinculados perto de você.",
+      "title": "Ferramenta de Redstone"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:redstone_tool",
+      "link_recipe": true,
+      "text": "A Ferramenta de Redstone pode ser usada nos seguintes blocos:$(li)$(l:blocks/redstone/basic_redstone_interface)Interface de Redstone Básica$(/l)$(li)$(l:blocks/redstone/redstone_observer)Observador de Redstone$(/l)"
+    }
+  ]
+}

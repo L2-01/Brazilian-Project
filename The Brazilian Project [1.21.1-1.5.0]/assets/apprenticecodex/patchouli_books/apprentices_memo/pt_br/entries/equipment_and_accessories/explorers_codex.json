@@ -1,0 +1,25 @@
+{
+  "name": "item.apprenticecodex.explorers_codex",
+  "category": "apprenticecodex:equipment_and_accessories",
+  "icon": "apprenticecodex:explorers_codex",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:explorers_codex",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.explorers_codex.page.p001.text",
+        "with": [
+          {
+            "translate": "block.irons_spellbooks.inscription_table"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:explorers_codex",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.explorers_codex.page.p002.text"
+    }
+  ]
+}

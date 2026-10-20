@@ -1,0 +1,16 @@
+{
+  "name": "Tanque de Água",
+  "icon": "railcraft:water_tank_siding",
+  "category": "railcraft:multiblock",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Tanque de Água é uma fonte de água para a sua ferrovia. É um sistema passivo que coleta água do ambiente para manter o tanque cheio. O tanque em si pode guardar 400 baldes de água e pode ser usado para reabastecer suas Locomotivas a Vapor (ou outros dispositivos que consomem água). A taxa na qual o tanque se reabastece é determinada pelo bioma, pelo clima e se o tanque está ao ar livre (pode ver o céu). Geralmente é recomendado que você não tente fazer sua ferrovia passar pelo deserto.$(br2)Para construir um tanque de água, construa uma estrutura oca 3x3x3 de Revestimento de Tanque de Água, semelhante a como você construiria um Forno de Coque."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Tanque de Água",
+      "multiblock_id": "railcraft:water_tank"
+    }
+  ]
+}

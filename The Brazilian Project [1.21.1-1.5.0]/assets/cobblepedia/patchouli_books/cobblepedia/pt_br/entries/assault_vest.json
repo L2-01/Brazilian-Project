@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.assault_vest",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:assault_vest",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:assault_vest",
+            "text": "book.cobblepedia.entries.assault_vest.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:assault_vest",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.holding",
+            "text": "book.cobblepedia.entries.assault_vest.holding"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "book.cobblepedia.entries.prehistoric_mud_pit.name",
+    "category": "cobblepedia:structures",
+    "read_by_default": true,
+    "icon": "minecraft:mud",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.prehistoric_mud_pit.text"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "book.cobblepedia.pages.generation",
+            "images": [
+                "cobblepedia:textures/gui/entries/prehistoric_mud_pit.png"
+            ]
+        },
+        {
+            "type": "patchouli:link",
+            "title": "book.cobblepedia.pages.loot.title",
+            "url": "https://wiki.cobblemon.com/index.php/Fossil_Dig_Sites#Prehistoric_Mud_Pit",
+            "link_text": "book.cobblepedia.pages.wiki"
+        }
+    ]
+}

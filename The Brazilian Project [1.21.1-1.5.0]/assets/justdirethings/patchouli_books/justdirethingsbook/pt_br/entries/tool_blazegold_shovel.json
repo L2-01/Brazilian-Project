@@ -1,0 +1,17 @@
+{
+  "name": "Pá de Ouro de Blaze",
+  "sortnum": 9,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:blazegold_shovel",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esta pá cava mais rápido que a $(l:justdirethings:tool_ferricore_shovel)Pá de Ferricoro$(/l). Ela se repara quando jogada na lava via \"Reparo em Lava\"."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:blazegold_shovel",
+      "text": "Fabricação da Pá de Ouro de Blaze"
+    }
+  ]
+}

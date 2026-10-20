@@ -1,0 +1,30 @@
+{
+  "name": "Caixa de Chat",
+  "icon": "advancedperipherals:chat_box",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O periférico Caixa de Chat permite que você interaja com o chat do jogo enviando e recebendo mensagens.$(p)Você pode até enviar mensagens que só ficam visíveis para a Caixa de Chat se iniciar sua mensagem com um `$`.$(p)Para a documentação completa, consulte a $(9)$(l:https://docs.advanced-peripherals.de/peripherals/chat_box/)página oficial da wiki$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:chat_box"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:chat_box"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "Conecte sua Caixa de Chat a um computador para usá-la!"
+    }
+  ]
+}

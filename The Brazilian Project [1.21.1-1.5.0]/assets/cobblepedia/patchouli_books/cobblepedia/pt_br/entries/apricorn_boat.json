@@ -1,0 +1,25 @@
+{
+    "name": "item.cobblemon.apricorn_boat",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:apricorn_boat",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:apricorn_boat",
+            "title": "item.cobblemon.apricorn_boat",
+            "text": "book.cobblepedia.entries.apricorn_boat.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:apricorn_boat",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:apricorn_chest_boat"
+            ]
+        }
+    ]
+}

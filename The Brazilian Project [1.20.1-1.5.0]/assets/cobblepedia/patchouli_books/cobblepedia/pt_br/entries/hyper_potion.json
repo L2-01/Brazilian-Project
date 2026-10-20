@@ -1,0 +1,27 @@
+{
+    "name": "item.cobblemon.hyper_potion",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:hyper_potion",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:hyper_potion",
+            "text": "book.cobblepedia.entries.hyper_potion.text"
+        },
+        {
+            "type": "cobblepedia:brewing",
+            "title": "book.cobblepedia.pages.brewing",
+            "reagent_item": "cobblemon:sitrus_berry",
+            "base_item": "cobblemon:medicinal_brew",
+            "result_item": "cobblemon:hyper_potion"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.brewing_ingredient",
+            "entries": [
+                "cobblepedia:max_potion"
+            ]
+        }
+    ]
+}

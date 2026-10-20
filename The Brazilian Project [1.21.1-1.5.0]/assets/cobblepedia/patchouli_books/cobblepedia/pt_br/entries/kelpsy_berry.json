@@ -1,0 +1,26 @@
+{
+    "name": "item.cobblemon.kelpsy_berry",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:kelpsy_berry",
+    "pages": [
+        {
+            "type": "cobblepedia:mutated_berry",
+            "item": "cobblemon:kelpsy_berry"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "item.cobblemon.kelpsy_berry.tooltip"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:berry_juice",
+                "cobblepedia:protein"
+            ]
+        }
+    ]
+}

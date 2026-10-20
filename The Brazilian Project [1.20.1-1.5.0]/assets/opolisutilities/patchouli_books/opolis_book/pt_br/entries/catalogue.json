@@ -1,0 +1,28 @@
+{
+	"name": "Catálogo",
+	"icon": "opolisutilities:catalogue",
+	"category": "opolisutilities:advanced_items",
+	"sortnum": 11,
+	"pages": [
+		{
+    		"type": "spotlight",
+    		"item": "opolisutilities:catalogue",
+    		"text": "Pode ser usado para comprar e vender itens!$(br2)Alguns itens podem exigir mais de 64 unidades de um mesmo item — é aí que você pode usar a carteira!$(br2)Usa receitas em JSON, útil para desenvolvedores de modpacks.$(br2)Tem suporte completo ao JEI."
+    	},
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:catalogue",
+			"text": "O Mercado de Ações!"
+		},
+		{
+    		"type": "spotlight",
+    		"item": "opolisutilities:catalogue_book",
+    		"text": "Uma versão portátil do Catálogo."
+    	},
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:catalogue_book",
+			"text": "O Mercado de Ações onde quer que você vá!"
+		}
+	]
+}

@@ -1,0 +1,102 @@
+{
+    "components": [
+        {
+            "type": "patchouli:header",
+            "text": "book.cobblepedia.pages.evolving",
+            "x": -1,
+            "y": -1
+        },
+        {
+            "type": "patchouli:separator",
+            "x": -1,
+            "y": -1
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Um $(l)#item->iname#/$ é um item usado para evoluir Pokémon quando carregado durante o uso de um $(l:cobblepedia:link_cable)Cabo de Ligação/$. Isso consome o #item->iname#.",
+            "guard": "#link_cable",
+            "x": 0,
+            "y": 17
+        },
+        {
+            "type": "patchouli:text",
+            "text": "#text",
+            "x": 0,
+            "y": 17
+        }
+    ],
+    "include": [
+        {
+            "template": "cobblepedia:evolving_base",
+            "as": "evolution1",
+            "y": 20,
+            "using": {
+                "holding_item": "#holding_item",
+                "using_item": "#using_item",
+                "evolving_tooltip": "#evolving_tooltip",
+                "species_id": "#pokemon",
+                "evolved_species_id": "#evolved_pokemon"
+            }
+        },
+        {
+            "template": "cobblepedia:evolving_base",
+            "as": "evolution2",
+            "y": 42,
+            "using": {
+                "holding_item": "#holding_item2",
+                "using_item": "#using_item2",
+                "evolving_tooltip": "#evolving_tooltip2",
+                "species_id": "#pokemon2",
+                "evolved_species_id": "#evolved_pokemon2"
+            }
+        },
+        {
+            "template": "cobblepedia:evolving_base",
+            "as": "evolution_item3",
+            "y": 64,
+            "using": {
+                "holding_item": "#holding_item3",
+                "using_item": "#using_item3",
+                "evolving_tooltip": "#evolving_tooltip3",
+                "species_id": "#pokemon3",
+                "evolved_species_id": "#evolved_pokemon3"
+            }
+        },
+        {
+            "template": "cobblepedia:evolving_base",
+            "as": "evolution4",
+            "y": 86,
+            "using": {
+                "holding_item": "#holding_item4",
+                "using_item": "#using_item4",
+                "evolving_tooltip": "#evolving_tooltip4",
+                "species_id": "#pokemon4",
+                "evolved_species_id": "#evolved_pokemon4"
+            }
+        },
+        {
+            "template": "cobblepedia:evolving_base",
+            "as": "evolution5",
+            "y": 108,
+            "using": {
+                "holding_item": "#holding_item5",
+                "using_item": "#using_item5",
+                "evolving_tooltip": "#evolving_tooltip5",
+                "species_id": "#pokemon5",
+                "evolved_species_id": "#evolved_pokemon5"
+            }
+        },
+        {
+            "template": "cobblepedia:evolving_base",
+            "as": "evolution6",
+            "y": 130,
+            "using": {
+                "holding_item": "#holding_item6",
+                "using_item": "#using_item6",
+                "evolving_tooltip": "#evolving_tooltip6",
+                "species_id": "#pokemon6",
+                "evolved_species_id": "#evolved_pokemon6"
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Aprimoramento de Funil",
+    "icon": "naturesaura:hopper_upgrade",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Coletar itens usando $(item)Funis$() é útil, mas às vezes pode ser inconveniente, especialmente com uma grande área de coleta. Para isso, o $(item)Aprimoramento de Funil$() será uma ajuda: simplesmente colocando-o em cima de qualquer $(item)Funil$(), ele aumentará drasticamente seu alcance de coleta de itens em cerca de $(thing)sete$() blocos.$(br)Ao coletar um item, ele usa uma pequena quantidade de $(aura)."
+        },
+        {
+            "type": "crafting",
+            "text": "Criando o $(item)Aprimoramento de Funil$()",
+            "recipe": "naturesaura:hopper_upgrade"
+        }
+    ]
+}

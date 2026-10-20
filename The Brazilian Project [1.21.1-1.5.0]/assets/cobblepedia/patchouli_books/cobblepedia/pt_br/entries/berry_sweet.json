@@ -1,0 +1,27 @@
+{
+    "name": "item.cobblemon.berry_sweet",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:berry_sweet",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:berry_sweet",
+            "title": "item.cobblemon.berry_sweet",
+            "text": "book.cobblepedia.entries.berry_sweet.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:berry_sweet",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.berry_sweet.evolving",
+            "holding_item2": "cobblemon:berry_sweet",
+            "pokemon2": "cobblemon:milcery",
+            "evolved_pokemon2": "cobblemon:alcremie"
+        }
+    ]
+}

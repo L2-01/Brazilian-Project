@@ -1,0 +1,23 @@
+{
+  "name": "Cabos",
+  "icon": "ad_astra:desh_cable",
+  "sortnum": 4,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Cabos",
+      "item": "ad_astra:desh_cable",
+      "text": "Os cabos permitem a transferência de energia a longa distância. Há duas variantes: aço e desh — o desh tem uma taxa de transferência maior. Quando usados com uma chave inglesa, os cabos podem ser configurados para se estender em direções ou se desconectar de nós na rede."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:recipes/steel_cable",
+      "recipe2": "ad_astra:recipes/desh_cable"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:recipes/wrench"
+    }
+  ]
+}

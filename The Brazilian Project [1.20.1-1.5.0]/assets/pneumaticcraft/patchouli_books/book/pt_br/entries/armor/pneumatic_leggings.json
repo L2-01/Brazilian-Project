@@ -1,0 +1,38 @@
+{
+  "name": "Calças Pneumáticas",
+  "icon": "pneumaticcraft:pneumatic_leggings",
+  "category": "pneumaticcraft:armor",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+
+    {
+      "type": "text",
+      "text": "As $(item)Calças Pneumáticas/$ são uma das quatro peças da $(thing)Armadura Pneumática/$."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pneumatic_leggings",
+      "text": "Fabricando umas Calças Pneumáticas"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:speed_upgrade",
+      "text":  "Além de reduzir o tempo de inicialização da armadura, as $(l:base_concepts/upgrades#speed)Melhorias de Velocidade/$ nas calças têm um efeito mais importante: elas aumentam sua $(thing)velocidade de corrida/$, a um $(l:base_concepts/pressure)custo de ar/$ mínimo.  Até 4 Melhorias de Velocidade podem ser instaladas."
+    },
+    {
+      "type": "text",
+      "title": "Melhoria de Velocidade (cont.)",
+      "text": "A GUI da armadura permite que o bônus de velocidade seja reduzido na hora, se você quiser mudar sua velocidade sem precisar encontrar uma $(l:machines/charging_station)Estação de Carga/$ para trocar as melhorias."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:jumping_upgrade_1",
+      "text": "Uma $(l:base_concepts/upgrades#jumping_1)Melhoria de Salto/$ fornece habilidade de salto aumentada a um custo de ar mínimo. Há 4 níveis de Melhoria de Salto.$(p)Segurar $(thing)$(k:key.sneak)/$ enquanto pula reduzirá a altura do salto ao equivalente de uma única melhoria."
+    },
+    {
+      "type": "text",
+      "title": "Melhoria de Salto (cont.)",
+      "text": "A GUI da armadura permite que o bônus de salto seja reduzido na hora, se você quiser mudar sua altura de salto sem precisar encontrar uma $(l:machines/charging_station)Estação de Carga/$ para trocar as melhorias."
+    }
+  ]
+}

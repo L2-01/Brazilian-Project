@@ -1,0 +1,31 @@
+{
+  "name": "item.apprenticecodex.crude_ink",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:crude_ink",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:crude_ink",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.crude_ink.page.p001.text",
+        "with": [
+          {
+            "translate": "block.apprenticecodex.apprentice_desk"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:crude_ink",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.crude_ink.page.p002.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/apprentice_desk",
+        "apprenticecodex:staves_and_casting_devices/wooden_wand"
+      ]
+    }
+  ]
+}

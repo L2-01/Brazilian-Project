@@ -1,0 +1,18 @@
+{
+    "name": "item.cobblemon.pokerod_smithing_template",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:pokerod_smithing_template",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:pokerod_smithing_template",
+            "text": "book.cobblepedia.entries.pokerod_smithing_template.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:pokerod_smithing_template",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

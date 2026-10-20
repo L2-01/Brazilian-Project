@@ -1,0 +1,33 @@
+{
+  "name": "Máquina de Paradoxo",
+  "sortnum": 22,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:paradoxmachine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A máquina de paradoxo é a próxima evolução da Tecnologia de Manipulação do Tempo!$(br2)Ela permite tirar uma \"fotografia\" de uma área do mundo, registrando as entidades e blocos que existem no momento em que você clica no botão.$(br2)Esta máquina pode rebobinar o tempo até o ponto em que essas coisas existiam."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Primeiro, coloque a máquina no mundo e designe uma área de efeito, como na maioria das máquinas avançadas.$(br2)Segundo, coloque quaisquer Blocos (apenas Minérios Brutos!) ou Entidades (Zumbis, vacas etc.) na área de efeito que você gostaria de salvar.$(br2)Por fim, clique no botão \"fotografia\" na UI da máquina."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Agora, a máquina precisará de uma quantidade significativa tanto de Energia quanto de Fluido de Tempo. Após limpar a área de blocos ou entidades, ative a máquina. Os blocos e entidades que você limpou serão restaurados!$(br2)Nota: um botão na UI permite alternar entre Somente Entidades, Somente Blocos ou ambos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Agora, tecnicamente falando, a Máquina de Paradoxo não reverte exatamente as entidades e blocos de um ponto anterior no tempo.$(br2)É mais como se ela pegasse aquela entidade de um universo paralelo, num ponto anterior da sua própria linha do tempo. É tudo muito técnico!$(br2)Isso significa que as entidades podem não ser EXATAMENTE idênticas às que você fotografou."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)AVISO!!!$()$(br2)O uso excessivo desta máquina pode levar a alguma corrupção do contínuo espaço-tempo. Um perigoso efeito colateral conhecido como $(l:justdirethings:misc_paradox)Paradoxo$(/l) pode aparecer após uso prolongado! A máquina rastreará o acúmulo de energia de paradoxo e o representará na UI.$(br2)Use por sua conta e risco.$(br2)Eles deviam mesmo imprimir o aviso antes do feitiço."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Máquina de Paradoxo",
+      "recipe": "justdirethings:paradoxmachine"
+    }
+  ]
+}

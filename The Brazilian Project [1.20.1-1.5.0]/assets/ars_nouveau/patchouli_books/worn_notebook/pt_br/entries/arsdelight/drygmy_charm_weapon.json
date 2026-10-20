@@ -1,0 +1,18 @@
+{
+	"category": "ars_nouveau:arsdelight",
+	"icon": "farmersdelight:iron_knife",
+	"name": "arsdelight.patchouli.drygmy_weapon.title",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "arsdelight.patchouli.drygmy_weapon.page1"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"ars_nouveau:automation/drygmy_charm",
+				"ars_nouveau:machines/mob_jar"
+			]
+		}
+	]
+}

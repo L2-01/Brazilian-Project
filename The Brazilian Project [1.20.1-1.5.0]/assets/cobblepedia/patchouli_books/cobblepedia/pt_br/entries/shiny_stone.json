@@ -1,0 +1,43 @@
+{
+    "name": "item.cobblemon.shiny_stone",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:shiny_stone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:shiny_stone",
+            "title": "item.cobblemon.shiny_stone",
+            "text": "book.cobblepedia.entries.shiny_stone.text"
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "cobblemon:shiny_stone_from_smelting_shiny_stone_ore",
+            "recipe2": "cobblemon:shiny_stone_from_smelting_deepslate_shiny_stone_ore",
+            "title": "book.cobblepedia.pages.smelting"
+        },
+        {
+            "type": "patchouli:blasting",
+            "recipe": "cobblemon:shiny_stone_from_blasting_shiny_stone_ore",
+            "recipe2": "cobblemon:shiny_stone_from_blasting_deepslate_shiny_stone_ore",
+            "title": "book.cobblepedia.pages.blasting"
+        },
+        {
+            "type": "cobblepedia:evolving",
+            "title": "book.cobblepedia.pages.evolving",
+            "text": "book.cobblepedia.entries.shiny_stone.evolving",
+            "using_item2": "cobblemon:shiny_stone",
+            "pokemon2": "cobblemon:togetic",
+            "evolved_pokemon2": "cobblemon:togekiss",
+            "using_item3": "cobblemon:shiny_stone",
+            "pokemon3": "cobblemon:roselia",
+            "evolved_pokemon3": "cobblemon:roserade",
+            "using_item4": "cobblemon:shiny_stone",
+            "pokemon4": "cobblemon:minccino",
+            "evolved_pokemon4": "cobblemon:cinccino",
+            "using_item5": "cobblemon:shiny_stone",
+            "pokemon5": "cobblemon:floette",
+            "evolved_pokemon5": "cobblemon:florges"
+        }
+    ]
+}

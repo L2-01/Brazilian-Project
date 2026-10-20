@@ -1,0 +1,18 @@
+{
+    "name": "book.cobblepedia.entries.berry_mutating",
+    "category": "cobblepedia:getting_started",
+    "icon": "cobblemon:surprise_mulch",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.berry_mutating.text"
+        },
+        {
+            "type": "patchouli:link",
+            "title": "book.cobblepedia.entries.berry_mutating.tree.title",
+            "text": "book.cobblepedia.entries.berry_mutating.tree.text",
+            "url": "https://wiki.cobblemon.com/index.php/Berry_Tree#Berry_Mutating",
+            "link_text": "book.cobblepedia.pages.wiki"
+        }
+    ]
+}

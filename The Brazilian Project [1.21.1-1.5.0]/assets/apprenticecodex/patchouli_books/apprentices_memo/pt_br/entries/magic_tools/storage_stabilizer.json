@@ -1,0 +1,33 @@
+{
+  "name": "item.apprenticecodex.storage_stabilizer",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:storage_stabilizer",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:storage_stabilizer",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.storage_stabilizer.page.p001.text",
+        "with": [
+          {
+            "translate": "spell.irons_spellbooks.summon_ender_chest"
+          },
+          {
+            "translate": "spell.apprenticecodex.personal_shelf"
+          },
+          {
+            "translate": "spell.apprenticecodex.companion_trunk"
+          },
+          {
+            "translate": "spell.irons_spellbooks.summon_ender_chest"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:storage_stabilizer",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.storage_stabilizer.page.p002.text"
+    }
+  ]
+}

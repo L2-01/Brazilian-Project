@@ -1,0 +1,54 @@
+{
+    "name": "item.cobblemon.revival_herb",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:revival_herb",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:revival_herb",
+            "link_recipe": true,
+            "text": "book.cobblepedia.entries.revival_herb.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.obtaining",
+            "text": "book.cobblepedia.entries.revival_herb.obtaining.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.generation",
+            "text": "book.cobblepedia.entries.revival_herb.generation.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.farming",
+            "text": "book.cobblepedia.entries.revival_herb.farming.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "book.cobblepedia.pages.ingredient",
+            "text": "book.cobblepedia.pages.ingredient.text",
+            "entries": [
+                "cobblepedia:heal_powder"
+            ]
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.composting",
+            "text": "book.cobblepedia.entries.revival_herb.composting.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.mutating",
+            "text": "book.cobblepedia.entries.revival_herb.mutating.text"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:pep_up_flower",
+                "cobblepedia:heal_powder"
+            ]
+        }
+    ]
+}

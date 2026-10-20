@@ -1,0 +1,29 @@
+{
+  "name": "Trocador Simples",
+  "sortnum": 13,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:blockswappert1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Trocador Simples foi projetado para trocar blocos e/ou entidades no mundo entre ele e um parceiro pareado.$(br2)Comece colocando dois trocadores no mundo. Depois use uma Chave-Inglesa de Ferricoro: clique direito no primeiro trocador, depois no 2º. Uma mensagem dirá que eles estão vinculados.$(br2)A UI também terá um botão verde mostrando a que ele está vinculado."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O botão $(l)blocos$() permite alternar entre trocar blocos ou não. Quando ativado, ele troca os blocos à frente dos trocadores entre si. Quando desativado, os ignora.$(br2)O botão $(l)entidades$() equivale à funcionalidade dos filtros de entidades do $(l:justdirethings:mach_clickert1)Clicador Simples$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao trocar blocos, entidades de bloco como baús são trocadas normalmente.$(br2)Você pode usar isso para trocar baús ou máquinas diferentes, ou trocar dois tipos de blocos no mundo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao mirar entidades, você pode usá-lo como uma forma inicial de teletransporte entre dois locais (mirando jogadores), ou capturar criaturas e entidades e enviá-las para outro lugar.$(br2)Por exemplo, você poderia colocar um animal filhote à frente dele e configurá-lo para teleportar só adultos. Quando o filhote crescer, ele será teleportado!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Trocador Simples",
+      "recipe": "justdirethings:blockswappert1"
+    }
+  ]
+}

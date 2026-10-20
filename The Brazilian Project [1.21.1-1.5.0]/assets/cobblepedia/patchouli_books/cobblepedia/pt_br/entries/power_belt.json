@@ -1,0 +1,23 @@
+{
+    "name": "item.cobblemon.power_belt",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:power_belt",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:power_belt",
+            "text": "book.cobblepedia.entries.power_belt.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.power_belt.usage.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:power_belt",
+            "title": "book.cobblepedia.pages.crafting"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Sela para Dragões",
+    "icon": "adventurez:dragon_saddle",
+    "category": "adventurez:item_category",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "adventurez:dragon_saddle",
+            "link_recipe": true,
+            "text": "A sela para dragões é feita de pele de ogro. Depois que o Dragão crescer o suficiente, você pode colocá-la em suas costas"
+        },
+        {
+            "type": "crafting",
+            "recipe": "adventurez:dragon_saddle"
+        }
+    ]
+}

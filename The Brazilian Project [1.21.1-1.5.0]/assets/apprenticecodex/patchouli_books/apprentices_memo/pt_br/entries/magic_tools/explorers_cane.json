@@ -1,0 +1,31 @@
+{
+  "name": "item.apprenticecodex.explorers_cane",
+  "category": "apprenticecodex:magic_tools",
+  "icon": "apprenticecodex:explorers_cane",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:explorers_cane",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.explorers_cane.page.p001.text",
+        "with": [
+          {
+            "translate": "spell.apprenticecodex.long_stride"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:explorers_cane",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.explorers_cane.page.p002.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:magic_tools/spell_amplifier_series",
+        "apprenticecodex:magic_tools/photon_siphon"
+      ]
+    }
+  ]
+}

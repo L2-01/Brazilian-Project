@@ -1,0 +1,18 @@
+{
+  "name": "Talismã da Neve",
+  "sortnum": 41,
+  "category": "fargostalismans:talismans",
+  "icon": "fargostalismans:snowy_talisman",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Talismã da Neve concede 20% de aumento de dano durante tempestades de neve. A receita de fabricação requer uma $(l:fargostalismans:talisman_base_epic)Base de Talismã Épico$(/l). O talismã é usado para fabricar a $(l:fargostalismans:force_of_environment)Força do Ambiente$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fargostalismans:talismans/snowy_talisman",
+      "recipe2": "fargostalismans:forces/force_of_environment"
+    }
+  ],
+  "read_by_default": true
+}

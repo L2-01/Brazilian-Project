@@ -1,0 +1,35 @@
+{
+  "name": "Manipulação de Fluidos",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "minecraft:water_bucket",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os dispositivos podem interagir com Fluidos! Certifique-se de que $(l:buildinggadgets2:mech_raytrace_fluids)Mira em Fluidos$(/l) está ativado para selecionar um fluido com Shift + clique direito. $(br2)Para colocar fluidos no mundo, você precisará de um balde com o fluido apropriado. $(br2)Alternativamente, mods que adicionam tanques (como o Mekanism) podem ser usados, e os fluidos serão removidos/inseridos nos tanques."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Manipulação de Fluidos",
+      "images": [
+        "buildinggadgets2:textures/book/images/fluidhandling1.png",
+        "buildinggadgets2:textures/book/images/fluidhandling2.png"
+      ],
+      "border": true,
+      "text": "Alterne as imagens acima para ver as diferentes opções"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O dispositivo de copiar e colar, é claro, também lida com fluidos!$(br2)Ao desfazer ou trocar fluidos, o dispositivo tentará encontrar um lugar para colocar o fluido (como um balde vazio ou tanque), mas anulará o fluido se não encontrar um."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Manipulação de Fluidos",
+      "images": [
+        "buildinggadgets2:textures/book/images/fluidhandling3.png"
+      ],
+      "border": true,
+      "text": "Copiar e Colar Fluidos"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "book.cobblepedia.entries.givepokemonother_command",
+    "category": "cobblepedia:commands",
+    "icon": "cobblemon:upgrade",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.givepokemonother_command.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.pages.usage",
+            "text": "book.cobblepedia.entries.givepokemonother_command.usage"
+        }
+    ]
+}

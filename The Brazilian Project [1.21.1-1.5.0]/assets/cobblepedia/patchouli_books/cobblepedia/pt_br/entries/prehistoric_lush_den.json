@@ -1,0 +1,27 @@
+{
+    "name": "book.cobblepedia.entries.prehistoric_lush_den.name",
+    "category": "cobblepedia:structures",
+    "read_by_default": true,
+    "icon": "minecraft:jungle_leaves",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.prehistoric_lush_den.text"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "title": "book.cobblepedia.pages.generation",
+            "images": [
+                "cobblepedia:textures/gui/entries/prehistoric_lush_den.png",
+                "cobblepedia:textures/gui/entries/prehistoric_lush_den2.png"
+            ]
+        },
+        {
+            "type": "patchouli:link",
+            "title": "book.cobblepedia.pages.loot.title",
+            "url": "https://wiki.cobblemon.com/index.php/Fossil_Dig_Sites#Prehistoric_Lush_Den",
+            "link_text": "book.cobblepedia.pages.wiki"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "book.cobblepedia.entries.battling_players",
+    "category": "cobblepedia:getting_started",
+    "icon": "cobblemon:dragon_fang",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "book.cobblepedia.entries.battling_players.text"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "book.cobblepedia.entries.battling_players.spectate.title",
+            "text": "book.cobblepedia.entries.battling_players.spectate.text"
+        },
+        {
+            "type": "patchouli:quest",
+            "trigger": "cobblemon:first_battle_victory",
+            "anchor": "advancement",
+            "title": "advancements.cobblemon.first_battle_victory",
+            "text": "advancements.cobblemon.first_battle_victory.description"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "cobblepedia:battling"
+            ]
+        }
+    ]
+}

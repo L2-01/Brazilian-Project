@@ -1,0 +1,18 @@
+{
+    "name": "Módulo Antihostil",
+    "icon": "mffs:anti_hostile_module",
+    "category": "mffs:interdiction_modules",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "mffs:anti_hostile_module",
+            "link_recipe": true,
+            "text": "O $(5)Módulo Antihostil$() é um módulo opcional para a $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$(). Com este módulo instalado, a Matriz consegue detectar automaticamente criaturas hostis que entrarem em seu alcance de varredura e matá-las - quase instantaneamente. Jogadores e entidades não hostis, como aldeões e animais, não são afetados."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mffs:anti_hostile_module",
+            "text": "Fabricando o $(5)Módulo Antihostil$()."
+        }
+    ]
+}

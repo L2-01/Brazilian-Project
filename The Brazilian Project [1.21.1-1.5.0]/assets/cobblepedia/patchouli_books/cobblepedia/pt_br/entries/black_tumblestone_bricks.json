@@ -1,0 +1,25 @@
+{
+    "name": "block.cobblemon.black_tumblestone_bricks",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:black_tumblestone_bricks",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "block.cobblemon.black_tumblestone_bricks",
+            "item": "cobblemon:black_tumblestone_bricks",
+            "text": "book.cobblepedia.entries.black_tumblestone_bricks.text"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cobblemon:black_tumblestone_bricks",
+            "title": "book.cobblepedia.pages.crafting"
+        },
+        {
+            "type": "patchouli:stonecutting",
+            "recipe": "cobblemon:black_tumblestone_bricks_from_black_tumblestone_block_in_stonecutter",
+            "recipe2": "cobblemon:black_tumblestone_bricks_in_stonecutter",
+            "title": "book.cobblepedia.pages.stonecutting"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Compostor de Resíduo Orgânico",
+  "icon": "industrialforegoing:sewage_composter",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 14,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Quando abastecida com $(l:agr_hus/sewage)Resíduo Orgânico$(), esta máquina criará $(l:agr_hus/fertilizer)Fertilizante$() a partir dele."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:sewage_composter"
+    }
+  ]
+}

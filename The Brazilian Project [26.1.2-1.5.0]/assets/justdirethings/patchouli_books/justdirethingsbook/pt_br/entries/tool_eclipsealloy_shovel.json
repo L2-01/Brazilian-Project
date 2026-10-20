@@ -1,0 +1,17 @@
+{
+  "name": "Pá de Liga Eclipse",
+  "sortnum": 22,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:eclipsealloy_shovel[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Pá de Liga Eclipse é incomparável ao mover grandes quantidades de material com eficiência, graças à sua capacidade de energia aprimorada.$(br2)Ideal para lidar com os desafios de escavação mais difíceis."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:eclipsealloy_shovel",
+      "text": "Fabricação da Pá de Liga Eclipse"
+    }
+  ]
+}

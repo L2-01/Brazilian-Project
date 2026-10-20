@@ -1,0 +1,17 @@
+{
+  "name": "Familiar",
+  "icon": "enchanted:arthana",
+  "category": "enchanted:binding",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Familiar",
+      "text": "Use este rito para vincular um familiar a você, o que pode dar bônus às bruxas. O capítulo Familiares em A Arte da Bruxaria discute familiares em mais detalhe."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:binding_familiar"
+    }
+  ],
+  "read_by_default": true
+}

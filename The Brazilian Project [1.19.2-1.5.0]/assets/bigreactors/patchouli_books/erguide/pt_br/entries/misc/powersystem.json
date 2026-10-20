@@ -1,0 +1,16 @@
+{
+    "name": "Sistemas de Energia",
+    "icon": "minecraft:redstone_block",
+    "category": "bigreactors:misc",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Os geradores de energia do Extreme Reactors são, por projeto, desvinculados de qualquer sistema de energia específico que exista hoje no mundo do Minecraft.$(br2)A energia é gerada e depois convertida em tempo real pelas Saídas de Energia quando é extraída do buffer interno de energia."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "As Saídas de Energia instaladas no seu Reator ou Turbina definem o sistema de energia de saída da máquina.$(br2)Atualmente o mod vem com uma $(l:bigreactors:reactor/part-forgepowertap)Saída de Energia Forge$(/l) que envia unidades de $(bold)Forge Energy$().$(br2)Outros sistemas de energia podem ser facilmente suportados adicionando novos tipos de Saídas de Energia."
+        }
+    ]
+}

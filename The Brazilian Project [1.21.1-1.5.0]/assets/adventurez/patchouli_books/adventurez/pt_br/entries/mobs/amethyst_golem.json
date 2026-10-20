@@ -1,0 +1,17 @@
+{
+    "name": "Golem de Ametista",
+    "icon": "adventurez:blackstone_golem_heart",
+    "category": "adventurez:mob_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O Golem de Ametista pode ser encontrado em geodos e eles não gostam da raça humana, já que a maioria das pessoas só pensa em lucro, desenterra as ametistas e deixa para trás um buraco vazio e sem amor. Ele ficará furioso quando você destruir ametistas!"
+        },
+        {
+            "type": "entity",
+            "name": "Exibição",
+            "entity": "adventurez:amethyst_golem",
+            "offset": 0.2
+        }
+    ]
+}

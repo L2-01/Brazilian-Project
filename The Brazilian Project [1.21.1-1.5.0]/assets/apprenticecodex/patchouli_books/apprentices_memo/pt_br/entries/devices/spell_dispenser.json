@@ -1,0 +1,36 @@
+{
+  "name": "block.apprenticecodex.spell_dispenser",
+  "category": "apprenticecodex:devices",
+  "icon": "apprenticecodex:spell_dispenser",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:spell_dispenser",
+      "text": {
+        "translate": "patchouli.apprenticecodex.apprentices_memo.entry.spell_dispenser.page.p001.text",
+        "with": [
+          {
+            "translate": "item.apprenticecodex.spellcasters_flask"
+          }
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:spell_dispenser",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_dispenser.page.p002.text"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_dispenser.page.p003.text"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_dispenser.page.p004.text"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.spell_dispenser.page.p005.text"
+    }
+  ]
+}

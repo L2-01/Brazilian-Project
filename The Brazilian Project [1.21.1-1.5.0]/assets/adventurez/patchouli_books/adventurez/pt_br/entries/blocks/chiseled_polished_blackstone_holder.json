@@ -1,0 +1,19 @@
+{
+    "name": "Suporte de Pedra-Negra Polida Talhada",
+    "icon": "adventurez:chiseled_polished_blackstone_holder",
+    "category": "adventurez:block_category",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "Suporte de Pedra-Negra Polida Talhada",
+            "item": "adventurez:chiseled_polished_blackstone_holder",
+            "link_recipe": true,
+            "text": "Contém o poder de segurar um Fragmento de Pedra-Negra Dourada. Necessário para invocar o Golem de Pedra-Negra."
+        },
+        {
+            "type": "stonecutting",
+            "title": "Corte de Pedra",
+            "recipe": "adventurez:chiseled_polished_blackstone_holder"
+        }
+    ]
+}

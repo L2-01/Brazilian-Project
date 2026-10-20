@@ -1,0 +1,18 @@
+{
+    "name": "book.cobblepedia.entries.cherish_rod.name",
+    "category": "cobblepedia:items",
+    "read_by_default": true,
+    "icon": "cobblemon:cherish_rod",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "cobblemon:cherish_rod",
+            "text": "book.cobblepedia.entries.cherish_rod.text"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "cobblemon:cherish_rod",
+            "title": "book.cobblepedia.pages.smithing"
+        }
+    ]
+}

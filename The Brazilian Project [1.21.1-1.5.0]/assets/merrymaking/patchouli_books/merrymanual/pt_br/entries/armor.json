@@ -1,0 +1,102 @@
+{
+    "name": "Armadura de Suéter Feio",
+    "icon": "merrymaking:red_santa_hat_leather",
+    "category": "merrymaking:armor",
+    "pages": [
+       		
+		{
+			"type": "patchouli:image",
+			
+			"images": ["merrymaking:textures/gui/ugly_armor.png"],
+			"text": "Um conjunto de Armadura de Natal Feia"
+		},
+		
+		{
+		"type": "spotlight",		
+		"item": "merrymaking:red_ugly_christmas_sweater",
+		"title": "Armadura de Suéter Feio",
+		"text": "Esta armadura deliciosamente brega de tema festivo vem em 2 cores, mas pode ser misturada e combinada. $(br2)Chapéus e Suéteres (Elmos e Peitorais) têm chance de serem largados por criaturas que os estejam usando. "
+		},	
+		
+		{
+			"type": "patchouli:text",
+			"text": "A armadura tem vários níveis e pode ser aprimorada usando uma Bancada de Ferraria.$(br2)$(li)Nível 1 (Couro): fabricado ou obtido por item largado $(li)Nível 2 (Ferro): aprimorado na Bancada de Ferraria $(li)Nível 3 (Diamante): aprimorado na Bancada de Ferraria $(li)Nível 4 (Netherita): aprimorado na Bancada de Ferraria" 
+		},
+
+			{
+		"type": "spotlight",		
+		"item": "merrymaking:iron_upgrade_smithing_template",
+		"title": "Moldes de Ferraria",
+		"text": "Para aprimorar sua armadura ao Nível 2 ou superior, você precisará de um Molde de Ferraria especial. Eles são encontrados em baús por todo o mundo normal e podem ser replicados com as seguintes receitas:"
+		},	
+		
+		
+		{
+			"type": "crafting",
+			"title": "Duplicação de Moldes",
+			"recipe": "merrymaking:iron_upgrade_template_dupe",
+			"recipe2": "merrymaking:diamond_upgrade_template_dupe"
+			
+				
+		},
+		
+		{
+			"type": "patchouli:text",
+			"text": "O conjunto \"Vermelho\" da Armadura de Natal Feia é fabricado com Couro e Lã Vermelha. $(br2)O conjunto \"Verde\" é fabricado com Couro e Lã Verde. $(br2)As receitas para fabricar as peças de Nível 1 são:" 
+		},
+		
+			{
+			"type": "crafting",
+			"title": "Elmos",
+			"recipe": "merrymaking:red_santa_hat_leather",
+			"recipe2": "merrymaking:reindeer_antlers_leather"
+			
+				
+		},
+		
+		{
+			"type": "crafting",
+			"title": "Peitorais",
+			"recipe": "merrymaking:red_ugly_sweater_leather",
+			"recipe2": "merrymaking:green_ugly_sweater_leather"	
+		},
+		
+		{
+			"type": "crafting",
+			"title": "Calças",
+			"recipe": "merrymaking:plaid_pants_leather",
+			"recipe2": "merrymaking:striped_pants_leather"	
+		},
+		
+		{
+			"type": "crafting",
+			"title": "Botas",
+			"recipe": "merrymaking:reindeer_slippers_leather",
+			"recipe2": "merrymaking:santa_slippers_leather"	
+		},
+		
+		
+		
+		{
+			"type": "patchouli:smithing",
+			"title": "Exemplos de Aprimoramento do Nível 2",
+			"recipe": "minecraft:iron_santa_hat_smithing",
+			"recipe2": "minecraft:iron_green_sweater_smithing",
+			"text": "As receitas de ferraria do Nível 2 usam o Molde de Ferraria de Ferro." 
+			
+				
+		},
+		
+		{
+			"type": "patchouli:smithing",
+			"title": "Exemplos de Aprimoramento do Nível 3",
+			"recipe": "minecraft:iron_plaid_leggings_smithing",
+			"recipe2": "minecraft:diamond_reindeer_slippers_smithing",
+			"text": "As receitas de ferraria do Nível 3 usam o Molde de Ferraria de Diamante."
+		}
+		
+		
+	
+		
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Rover",
+  "icon": "ad_astra:tier_1_rover",
+  "sortnum": 3,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Rover",
+      "item": "ad_astra:tier_1_rover",
+      "text": "O rover é um veículo terrestre capaz de dirigir no terreno acidentado de luas e planetas. É excepcionalmente rápido, tem um inventário capaz de armazenar oito itens e dois assentos para vários passageiros. Para usá-lo, encha o rover de combustível (shift + clique e coloque os baldes de combustível no espaço de entrada da esquerda)."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "ad_astra:tier_1_rover",
+      "scale": 0.36
+    }
+  ]
+}

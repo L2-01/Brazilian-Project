@@ -1,0 +1,28 @@
+{
+    "name": "Armadura Dourada",
+    "icon": "adventurez:gilded_netherite_chestplate",
+    "category": "adventurez:item_category",
+    "pages": [
+        {
+            "type": "text",
+            "title": "Armadura de Netherita Dourada",
+            "text": "Dore sua armadura de netherita na bancada de ferraria. Fragmentos de Netherita Dourada são obtidos ao matar o Golem de Pedra-Negra"
+        },
+        {
+            "type": "smithing",
+            "title": "Ferraria",
+            "recipe": "adventurez:gilded_netherite_helmet",
+            "recipe2": "adventurez:gilded_netherite_chestplate"
+        },
+        {
+            "type": "smithing",
+            "title": "Ferraria",
+            "recipe": "adventurez:gilded_netherite_leggings",
+            "recipe2": "adventurez:gilded_netherite_boots"
+        },
+        {
+            "type": "empty",
+            "draw_filler": false
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:luminous_powder",
+  "name": "Pó Luminoso",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(d)Pó Luminoso$() pode ser aplicado a qualquer item para fazê-lo brilhar no escuro!$(br2)Basta fabricar o pó junto com qualquer item para aplicá-lo.",
+      "title": "Pó Luminoso"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:luminous_powder",
+      "link_recipe": true,
+      "text": "Você pode $(3)fabricar um item iluminado com um balde de água$() para limpá-lo, removendo a iluminação."
+    }
+  ]
+}

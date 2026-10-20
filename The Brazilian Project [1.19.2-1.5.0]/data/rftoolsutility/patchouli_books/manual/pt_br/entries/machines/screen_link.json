@@ -1,0 +1,11 @@
+{
+  "name": "Vínculo de Tela",
+  "icon": "rftoolsutility:screen_link",
+  "category": "rftoolsutility:category_rftoolsutility_machines",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Usando $(5)clique direito$() você pode vincular este item a uma $(l:rftoolsutility:machines/screen)Tela$(/l) e depois colocá-lo num $(l:tools/tablet)Tablet$(/l). Isso permite olhar a Tela de qualquer lugar (desde que a Tela esteja com o chunk carregado)"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "item.apprenticecodex.reflectcast_shield",
+  "category": "apprenticecodex:weapons_and_shields",
+  "icon": "apprenticecodex:reflectcast_shield",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:reflectcast_shield",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.reflectcast_shield.page.p001.text"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apprenticecodex:reflectcast_shield",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.reflectcast_shield.page.p002.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:silver_ring",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.reflectcast_shield.page.p003.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.reflectcast_shield.page.p003.text"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apprenticecodex:wisdom_shard",
+      "title": "patchouli.apprenticecodex.apprentices_memo.entry.reflectcast_shield.page.p004.title",
+      "text": "patchouli.apprenticecodex.apprentices_memo.entry.reflectcast_shield.page.p004.text"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "apprenticecodex:devices/spell_calibration_bench"
+      ]
+    }
+  ]
+}
