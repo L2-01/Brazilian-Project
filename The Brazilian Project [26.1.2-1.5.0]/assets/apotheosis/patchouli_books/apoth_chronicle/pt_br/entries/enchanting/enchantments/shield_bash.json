@@ -1,13 +1,13 @@
 {
-    "name": "Pancada de Escudo",
-    "icon": "minecraft:enchanted_book",
-    "category": "apotheosis:enchanting/enchantments",
-    "flag": "apotheosis:enchanting",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "$(9)Pancada de Escudo$() é um encantamento de escudo.$(p)Ele faz com que ataques corpo a corpo com esse escudo causem dano extra por nível.$(p)No entanto, atacar com $(9)Pancada de Escudo$() causa dano adicional de durabilidade."
-        }
-    ]
+	"name": "Pancada de Escudo",
+	"icon": "minecraft:enchanted_book",
+	"category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(9)Pancada de Escudo$() é um encantamento de escudo.$(p)Faz ataques corpo a corpo com aquele escudo causarem dano extra por nível.$(p)Porém, atacar com $(9)Pancada de Escudo$() causa dano de durabilidade adicional."
+		}
+	]
 }

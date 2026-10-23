@@ -7,12 +7,13 @@ navigation:
 
 # Armadura Wonderland
 
-O exoesqueleto modular movido a AL/1C, codinome '*Wonderland*', é o conjunto de armadura assinatura da LTXI. Ele pode ser [melhorado](fundamentals/upgrade_system.md)
-para aumentar sua defesa, utilidade, proteção contra ambientes hostis e armazenamento de energia.
+O exosqueleto modular movido a AL/1C, codinome '*Wonderland*', é a armadura signature da LTXI. Ela pode receber
+[melhorias](fundamentals/upgrade_system.md) para aumentar sua defesa, utilidade, proteção contra ambientes hostis e
+armazenamento de energia.
 
-Todas as peças AL/1C são [Fabricadas](machines/processing/fabricators.md) com 2 melhorias de defesa padrão e uma melhoria
-intrínseca única da peça. Os módulos de melhoria de defesa são de nível inicial e podem ser melhorados para aumentar
-fortemente a defesa da armadura.
+Todas as peças AL/1C são [Fabricadas](machines/processing/fabricators.md) com 2 melhorias de defesa padrão e uma
+melhoria intrínseca única da peça. Os módulos de melhoria de defesa são de nível básico e podem ser aprimorados para
+aumentar bastante a defesa da armadura.
 
 ## Todas as Peças
 

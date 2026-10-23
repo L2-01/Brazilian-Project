@@ -12,7 +12,7 @@ item_ids:
   - iska_utils:luck_module
   - iska_utils:experience_module
 categories:
-  - Módulos
+  - Modules
 ---
 # Módulos do Ceifador de Criaturas
 
@@ -22,10 +22,10 @@ Melhorias instaláveis para o **Ceifador de Criaturas**. Use **um tipo de módul
 | ------ | ---- |
 | **Dano normal** | Bônus de dano empilhável. |
 | **Dano letal** | Dano fixo muito alto (substitui o normal). |
-| **Encantamento** | Segura uma arma; encantamentos se aplicam aos ataques. |
-| **Decapitação** | Chance extra de item largado de cabeça. |
-| **Sorte** | Sorte para rolagens de saque. |
-| **Experiência** | Multiplicador de XP bônus em abates. |
+| **Encantamento** | Guarda uma arma; os encantamentos se aplicam aos ataques. |
+| **Decapitação** | Chance extra de drop de cabeça. |
+| **Sorte** | Sorte para as rolagens de saque. |
+| **Experiência** | Multiplicador de XP bônus nos abates. |
 
 <ItemGrid>
   <ItemIcon id="iska_utils:normal_damage_module" />
@@ -36,4 +36,4 @@ Melhorias instaláveis para o **Ceifador de Criaturas**. Use **um tipo de módul
   <ItemIcon id="iska_utils:experience_module" />
 </ItemGrid>
 
-Veja **Ceifador de Criaturas** para posicionamento, redstone e detalhes da GUI.
+Veja **Ceifador de Criaturas** para detalhes de posicionamento, redstone e GUI.

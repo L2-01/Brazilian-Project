@@ -1,0 +1,16 @@
+{
+  "name": "Carne de Elefante Crua",
+  "icon": "livingthings:elephant",
+  "category": "livingthings:item_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(br)$(bold)Obtenção:$()$(br)pode ser largada por Elefantes"
+    },
+    {
+      "type": "spotlight",
+      "item": "livingthings:elephant",
+      "text": "$(br)$(bold)Uso:$()$(li)pode ser comida$(li)pode ser assada para virar Carne de Elefante Assada"
+    }
+  ]
+}

@@ -9,14 +9,14 @@
             "type": "spotlight",
             "item": "bigreactors:reprocessorpowerport",
             "link_recipe": true,
-            "title" : "Porta de Energia",
+            "title": "Porta de Energia",
             "text": "A Porta de Energia permite fornecer a energia necessária para alimentar o Reprocessador.$(br2)Qualquer cabo ou gerador compatível com Forge Energy pode ser conectado à Porta de Energia."
         },
         {
             "type": "crafting-part_usage",
             "crafting.title1": "Porta de Energia",
             "crafting.recipe1": "bigreactors:reprocessor/powerport",
-            "usage.text": "$(l)Mandatory:$() one, and only one, is required$(br)$(l)Valid positions:$() any vertical face (not on frame)$(br)$(l)Graphical interface:$() no"
+            "usage.text": "$(l)Obrigatória:$() uma, e apenas uma, é exigida$(br)$(l)Posições válidas:$() qualquer face vertical (não na moldura)$(br)$(l)Interface gráfica:$() não"
         }
     ]
 }

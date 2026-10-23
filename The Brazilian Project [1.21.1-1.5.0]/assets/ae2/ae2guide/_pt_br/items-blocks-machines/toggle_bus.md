@@ -18,12 +18,12 @@ item_ids:
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-Um ponto que funciona de forma semelhante a um <ItemLink id="fluix_glass_cable" /> ou outros cabos, mas
-permite que seu estado de conexão seja alternado via redstone. Isso permite cortar
+Um ponto que funciona de forma parecida com um <ItemLink id="fluix_glass_cable" /> ou outros cabos, mas que
+permite alternar seu estado de conexão via redstone. Isso permite cortar
 uma seção de uma [Rede ME](../ae2-mechanics/me-network-connections.md).
 
-Quando um sinal de redstone é fornecido, a peça habilita a conexão; o <ItemLink id="inverted_toggle_bus" /> oferece o
-comportamento inverso, desabilitando a conexão em vez disso.
+Quando um sinal de redstone é fornecido, a parte ativa a conexão; o <ItemLink id="inverted_toggle_bus" /> fornece o comportamento
+reverso, desativando a conexão em vez disso.
 
 Vale notar que alterná-los pode fazer a rede reiniciar e recalcular os dispositivos conectados.
 

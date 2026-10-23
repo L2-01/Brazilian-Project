@@ -6,15 +6,15 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O quebra-blocos avançado é uma versão melhorada do $(l:justdirethings:mach_blockbreakert1)Quebra-Blocos Simples$(/l). Ele pode quebrar blocos numa área bem maior. Seguem os detalhes de cada recurso da UI.$(br2)$(l)Filtrar Bloco vs Filtrar Item.$()$(br2)A seção de filtro permite especificar quais blocos quebrar. "
+      "text": "O quebra-blocos avançado é uma versão aprimorada do $(l:justdirethings:mach_blockbreakert1)Quebra-Blocos Simples$(/l). Ele pode quebrar blocos em uma área bem maior. Seguem os detalhes de cada recurso da interface.$(br2)$(l)Filtrar Bloco vs Filtrar Item.$()$(br2)A seção de filtro permite especificar quais blocos quebrar. "
     },
     {
       "type": "patchouli:text",
-      "text": "No modo \"filtrar bloco\", ele deixa você especificar quais BLOCOS quebrar. Por exemplo, se colocar pedregulho ali, ele só quebrará blocos de pedregulho.$(br2)No modo filtrar ITENS, ele especifica quais itens largados de itens permitir. Por exemplo, se colocar pedregulho ali, ele pode quebrar pedra ou pedregulho, já que quebrar pedra larga pedregulho (a menos que a picareta tenha toque suave)."
+      "text": "No modo 'filtrar bloco', isso permite especificar quais BLOCOS quebrar. Por exemplo, se você colocar pedregulho ali, só blocos de pedregulho serão quebrados.$(br2)No modo filtrar ITENS, ele especifica quais drops de itens permitir. Por exemplo, com pedregulho ali, ele pode quebrar pedra ou pedregulho, já que quebrar pedra larga pedregulho (a menos que a picareta tenha Toque Suave)."
     },
     {
       "type": "patchouli:text",
-      "text": "$(l)Botão de Direção.$()$(br2)O botão de direção permite especificar de qual face do bloco quebrar. Normalmente isso não importa, mas se sua ferramenta tem uma habilidade tipo \"martelo\", permite especificar de qual \"lado\" do bloco você está atingindo ao quebrá-lo, podendo assim controlar a direção do martelo."
+      "text": "$(l)Botão de Direção.$()$(br2)O botão de direção permite especificar de qual face do bloco quebrar. Normalmente isso não importa, mas se sua ferramenta tem uma habilidade tipo 'martelo', ele permite especificar de que 'lado' do bloco você está golpeando ao quebrá-lo, controlando a direção do martelo."
     },
     {
       "type": "patchouli:crafting",

@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "Este widget é focado puramente no $(l:programming/flow_control)fluxo do programa/$. Quando o programa atinge um widget $(thing)Pulo/$, ele olha o widget $(l:programming/text)Texto/$ conectado e tenta pular para um widget $(l:programming/label)Rótulo/$ com um nome correspondente. Se falhar por qualquer motivo, a execução retornará ao widget $(l:programming/start)Início/$. (Este comportamento de fallback normalmente nunca deveria ocorrer)."
+      "text": "Este widget é focado puramente no $(l:programming/flow_control)fluxo do programa/$. Quando o programa chega num widget de $(thing)Pulo/$, ele olha para o widget de $(l:programming/text)Texto/$ conectado e tenta pular para um widget de $(l:programming/label)Rótulo/$ com um nome correspondente. Se falhar por qualquer motivo, a execução retornará ao widget de $(l:programming/start)Início/$. (Esse comportamento de fallback normalmente nunca deveria ocorrer)."
     },
     {
       "type": "text",
-      "text": "Um widget $(thing)Pulo/$ pode ser usado para fundir múltiplas $(italic)ramificações/$ no fluxo do programa (usando dois ou mais pulos que todos pulam para o mesmo $(l:programming/label)Rótulo/$), ou simplesmente para organizar seu programa separando seções em suas próprias 'sub-rotinas'. Uma dica útil é marcar a caixa de seleção $(bold)Mostrar Fluxo/$ no canto inferior esquerdo da GUI do $(l:programming/programmer)Programador/$;  ela mostrará linhas ligando widgets $(thing)Pulo/Condição/Rótulo/$ de mesmo nome."
+      "text": "Um widget de $(thing)Pulo/$ pode ser usado para unir vários $(italic)ramos/$ no fluxo do programa (usando dois ou mais pulos que saltam todos para o mesmo $(l:programming/label)Rótulo/$, ou simplesmente para organizar seu programa separando seções em suas próprias 'sub-rotinas'. Uma dica útil é marcar a caixa $(bold)Mostrar Fluxo/$ no canto inferior esquerdo da GUI do $(l:programming/programmer)Programador/$; ela mostrará linhas ligando widgets de $(thing)Pulo/Condição/Rótulo/$ com o mesmo nome."
     },
     {
       "type": "image",

@@ -1,0 +1,54 @@
+{
+  "name": "Livros de Feitiços Básicos",
+  "icon": "irons_spellbooks:iron_spell_book",
+  "category": "irons_spellbooks:root",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Livros de Feitiços Fabricáveis",
+      "text": "Muitos livros de feitiços podem ser fabricados a partir de uma combinação de materiais vanilla e arcanos. Cada nível adicional fabricado aumenta a quantidade de espaços do livro e geralmente vem com bônus extras, aumentando o poder e a quantidade de feitiços que ele pode conter."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:copper_spell_book",
+      "recipe2": "irons_spellbooks:iron_spell_book"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:gold_spell_book",
+      "recipe2": "irons_spellbooks:diamond_spell_book"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:netherite_spell_book",
+      "recipe2": "irons_spellbooks:dragonskin_spell_book"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Livros de Feitiços com Nome",
+      "text": "Livros de feitiços com nome podem ser encontrados escondidos em muitos cantos do mundo, geralmente oferecendo bônus a aventureiros sortudos que procuram nos lugares certos."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:rotten_spell_book",
+      "text": "O que pode ter sido um livro mais poderoso apodreceu desde então, restando apenas três páginas. Ainda assim, mais poderoso que a maioria dos livros de feitiços da Superfície. Podem ser saqueados de lugares igualmente podres por toda a Superfície."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:villager_spell_book",
+      "text": "Um livro comum com uma pequena bênção se torna um canal adequado para magia divina. Construir uma reputação com os aldeões, especialmente libertando cativos do Arquevocador, garantirá que um caia nas suas mãos eventualmente."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:blaze_spell_book",
+      "text": "Todo Blaze, sem que saibam, vem com um destes escondido. O truque é matá-los e torcer para que não vire cinza."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:druidic_spell_book",
+      "text": "Uma forte energia mágica ainda persiste no Livro de Feitiços Podre. O livro pode ser abençoado novamente se um remédio apropriado for aplicado."
+    }
+  ]
+}

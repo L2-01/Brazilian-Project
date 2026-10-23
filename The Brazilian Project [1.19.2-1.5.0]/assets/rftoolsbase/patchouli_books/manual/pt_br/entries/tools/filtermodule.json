@@ -1,0 +1,15 @@
+{
+    "name": "Módulo de Filtro",
+    "icon": "rftoolsbase:filter_module",
+    "category": "rftoolsbase:category_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O Módulo de Filtro é um item muito versátil que pode ser usado para colocar itens em lista branca ou lista negra para a máquina. Várias máquinas suportam este módulo (Construtor, Armazenamento Modular, Fabricador, ...)$(br2)Blocos, itens e tags são suportados. Você pode usar lista negra ou lista branca e também exigir correspondência de NBT e dano"
+        },
+        {
+            "type": "text",
+            "text": "$(5)Clique agachado com o botão direito$() num inventário (como um baú) para adicionar todos os itens/blocos daquele inventário ao filtro.$(br)$(5)Clique agachado com o botão direito$() num bloco no mundo para adicionar aquele bloco ao filtro.$(br2)Na GUI do módulo de filtro você também pode adicionar tags ou converter um bloco/item para as tags correspondentes"
+        }
+    ]
+}

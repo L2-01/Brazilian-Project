@@ -1,16 +1,16 @@
 {
-  "name": "Widget de Condição: Dimensão",
+  "name": "Widget Condição: Dimensão",
   "icon": "pneumaticcraft:textures/progwidgets/condition_dimension_piece.png",
   "category": "pneumaticcraft:widget_cond",
   "advancement": "pneumaticcraft:programmer",
   "pages": [
     {
       "type": "text",
-      "text": "Este é um widget de $(l:programming/conditions)Condição/$.$(p)O widget $(thing)Condição: Dimensão/$ permite verificar a dimensão atual do drone. A presença deste widget no seu programa de drone é $(o)necessária/$ para permitir que drones programáveis mudem de dimensão, ex.: passando por um portal do Nether."
+      "text": "Este é um widget de $(l:programming/conditions)Condição/$.$(p)O widget $(thing)Condição: Dimensão/$ permite verificar a dimensão atual do drone. A presença deste widget no programa do drone é $(o)obrigatória/$ para permitir que drones programáveis mudem de dimensão, ex.: atravessando um portal do Nether."
     },
     {
       "type": "text",
-      "text": "Você pode filtrar a dimensão a ser verificada com um widget $(l:programming/text)Texto/$ contendo o ID da dimensão a verificar, ex.: $(thing)minecraft:overworld/$ ou $(thing)minecraft:the_nether/$. Widgets de Texto à direita funcionam como lista-branca; widgets de texto à esquerda funcionam como lista-negra."
+      "text": "Você pode filtrar a dimensão a verificar com um widget $(l:programming/text)Texto/$ contendo o ID da dimensão, ex.: $(thing)minecraft:overworld/$ ou $(thing)minecraft:the_nether/$. Widgets Texto à direita funcionam como lista-branca; widgets texto à esquerda funcionam como lista-negra."
     },
     {
       "type": "image",

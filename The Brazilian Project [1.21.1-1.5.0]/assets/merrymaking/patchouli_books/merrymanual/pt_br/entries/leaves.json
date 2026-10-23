@@ -1,35 +1,25 @@
 {
-
-"name": "Folhas com Luzes",
-    "icon": "minecraft:writable_book",
-    "category": "merrymaking:wreaths",
-    "pages": [
-	
-		{
-			"type": "spotlight",
-			"title": "Folhas com Luzes",
-			"item": "merrymaking:spruce_leaves_lights_large_white",			
-			"text": "Dê um brilho festivo às suas árvores e arbustos de inverno. Folhas de Abeto podem ser combinadas com Luzes numa bancada de trabalho para criar Folhas com Luzes. $(br2)Para fazer as versões de luz grande, use luzes base Clássicas. Para fazer as versões de tamanho normal, use Luzes de Árvore."
-		},			
-		
-		{
-			"type": "crafting",
-			"title": "Folhas com Luzes",
-			"recipe": "merrymaking:leaves_large_multi_lights",
-			"recipe2": "merrymaking:leaves_white_lights"	
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Folhas com Luzes",
-			"recipe": "merrymaking:leaves_large_white_lights",
-			"recipe2": "merrymaking:leaves_multi_lights"
-				
-		}
-		
-		
-		
-		]
-	
-	
+  "name": "Folhas com Luzes",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:wreaths",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Folhas com Luzes",
+      "item": "merrymaking:spruce_leaves_lights_large_white",
+      "text": "Dê às suas árvores e arbustos de inverno um brilho festivo. Folhas de Abeto podem ser combinadas com Luzes numa bancada de trabalho para criar Folhas com Luzes. $(br2)Para fazer as versões de luzes grandes, use luzes-base Clássicas. Para as versões de tamanho normal, use Luzes de Árvore."
+    },
+    {
+      "type": "crafting",
+      "title": "Folhas com Luzes",
+      "recipe": "merrymaking:leaves_large_multi_lights",
+      "recipe2": "merrymaking:leaves_white_lights"
+    },
+    {
+      "type": "crafting",
+      "title": "Folhas com Luzes",
+      "recipe": "merrymaking:leaves_large_white_lights",
+      "recipe2": "merrymaking:leaves_multi_lights"
+    }
+  ]
 }

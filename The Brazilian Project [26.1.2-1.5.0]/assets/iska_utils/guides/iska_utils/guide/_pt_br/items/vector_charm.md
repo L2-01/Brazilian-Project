@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:vector_charm
 categories:
-  - Movimento vetorial
+  - Vector motion
 ---
 # Amuleto Vetorial
 
@@ -15,8 +15,8 @@ categories:
 
 ## O que faz
 
-- Impulsiona o movimento sobre **Placas Vetoriais** quando segurado, vestido, no Curios (se instalado) ou no inventário (prioridade: mão principal, mão secundária, Curios, depois inventário).
+- Aumenta o movimento sobre **Placas Vetoriais** quando segurado, usado, no Curios (se instalado) ou no inventário (prioridade: mão principal, mão secundária, Curios, depois inventário).
 
 ## Energia
 
-- Buffer opcional de RF/FE e consumo por direção; veja a dica no jogo para o comportamento exato.
+- Buffer de RF/FE opcional e consumo por direção; veja o tooltip no jogo para o comportamento exato.

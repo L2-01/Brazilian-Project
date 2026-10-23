@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "O $(l:using/altar)Altar Natural$() pode ser útil para infundir certos itens com o poder da $(aura), porém, ele também pode ajudar a transmutar itens de um tipo em outro.$(br)Isso pode ser feito criando o $(item)Catalisador de Transmutação$() e colocando-o em cima de qualquer um dos quatro blocos de $(item)Tijolos de Pedra Dourada$() inferiores ao redor do altar, e então colocando o ingrediente no altar como de costume."
+            "text": "O $(l:using/altar)Altar Natural$() pode ser útil para infundir certos itens com o poder da $(aura); no entanto, ele também pode ajudar a transmutar itens de um tipo para outro.$(br)Isso pode ser alcançado criando o $(item)Catalisador de Transmutação$() e colocando-o em cima de qualquer um dos quatro blocos de $(item)Tijolo de Pedra Dourada$() inferiores ao redor do altar, e então colocando o ingrediente no altar como de costume."
         },
         {
             "type": "naturesaura:tree_ritual",
@@ -15,7 +15,7 @@
         },
         {
             "type": "naturesaura:altar",
-            "text": "Criando $(item)Bafo do Dragão$() a partir da $(aura) do End",
+            "text": "Criando $(item)Sopro de Dragão$() a partir da $(aura) do end",
             "recipe": "naturesaura:breath"
         },
         {
@@ -25,7 +25,7 @@
         },
         {
             "type": "naturesaura:altar",
-            "text": "Fazendo $(item)Areia das Almas$() a partir de grãos mundanos",
+            "text": "Fazendo $(item)Areia de Almas$() de grãos mundanos",
             "recipe": "naturesaura:soul_sand"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "type": "naturesaura:altar",
-            "text": "Fazendo $(thing)água$() se acumular dentro de uma $(item)garrafa$() vazia",
+            "text": "Fazendo $(thing)água$() acumular dentro de uma $(item)garrafa$() vazia",
             "recipe": "naturesaura:water"
         },
         {
@@ -55,7 +55,7 @@
         },
         {
             "type": "naturesaura:altar",
-            "text": "Criando uma $(item)Flor-do-Coro$()",
+            "text": "Criando uma $(item)Flor do Coro$()",
             "recipe": "naturesaura:chorus"
         },
         {
@@ -65,7 +65,7 @@
         },
         {
             "type": "naturesaura:altar",
-            "text": "Criando um $(item)Laço$()",
+            "text": "Criando uma $(item)Corda$()",
             "recipe": "naturesaura:lead"
         },
         {
@@ -80,12 +80,12 @@
         },
         {
             "type": "naturesaura:altar",
-            "text": "Criando um $(item)Pé de Coelho$()",
+            "text": "Criando uma $(item)Pata de Coelho$()",
             "recipe": "naturesaura:rabbit_foot"
         },
         {
             "type": "naturesaura:altar",
-            "text": "Criando $(item)Pedra-Negra Dourada$()",
+            "text": "Criando $(item)Pedra Negra Dourada$()",
             "recipe": "naturesaura:gilded_blackstone"
         },
         {
@@ -110,12 +110,12 @@
         },
         {
             "type": "naturesaura:altar",
-            "text": "Transformando $(item)Fragmentos de Ametista$() em $(item)Pérolas de Ender$()",
+            "text": "Transformando $(item)Fragmentos de Ametista$() em $(item)Pérolas do Ender$()",
             "recipe": "naturesaura:ender_pearl"
         },
         {
             "type": "naturesaura:altar",
-            "text": "Transformando $(item)Terra das Almas$() em $(item)Lágrimas de Ghast$()",
+            "text": "Transformando $(item)Solo de Almas$() em $(item)Lágrimas de Ghast$()",
             "recipe": "naturesaura:ghast_tear"
         }
     ]

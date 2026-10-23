@@ -1,5 +1,5 @@
 {
-    "name": "Dano de Frio",
+    "name": "Dano por Frio",
     "icon": "minecraft:blue_ice",
     "category": "apotheosis:adventure/attributes",
     "flag": "apotheosis:adventure",
@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "O $(9)Dano de Frio$() é dano mágico bônus aplicado a ataques corpo a corpo. Ele também aplica uma lentidão dependente da força do dano.$(p)Encontrado em armas corpo a corpo."
+            "text": "O $(9)Dano por Frio$() é dano mágico bônus aplicado a ataques corpo a corpo. Também aplica lentidão proporcional à força do dano.$(p)Encontrado em armas corpo a corpo."
         }
     ]
 }

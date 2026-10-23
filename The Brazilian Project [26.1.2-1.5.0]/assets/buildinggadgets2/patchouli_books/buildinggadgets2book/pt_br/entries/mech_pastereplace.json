@@ -1,16 +1,16 @@
 {
-  "name": "Colar Substituindo",
+  "name": "Substituir Blocos",
   "sortnum": 1,
   "category": "buildinggadgets2:mechanics",
   "icon": "buildinggadgets2:textures/book/icons/paste_replace.png",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Colar Substituindo só está disponível nos dispositivos de recortar e colar ou de copiar e colar. $(br2)Quando desativado, os dispositivos não substituirão nenhum bloco no mundo exceto blocos que você normalmente poderia sobrescrever, como água e grama alta, o que é perigoso com o dispositivo de recortar e colar, pois pode levar blocos a serem 'perdidos'.  "
+      "text": "Substituir Blocos só está disponível nos dispositivos de Recortar e Colar ou Copiar e Colar. $(br2)Quando desativado, os dispositivos não substituirão nenhum bloco no mundo, exceto blocos que você normalmente poderia sobrescrever, como água e grama alta; isso é perigoso com o dispositivo de recortar e colar, pois pode levar à 'perda' de blocos.  "
     },
     {
       "type": "patchouli:text",
-      "text": "Quando ativado, o dispositivo substituirá qualquer bloco no mundo pelo bloco da colagem, incluindo ar! Esta é uma ótima forma de construir uma casa dentro de uma montanha.$(br2)Nota: Quaisquer blocos substituídos dessa maneira serão $(bold)ANULADOS$(clear) e não largam nem devolvem nenhum item."
+      "text": "Quando ativado, o dispositivo substituirá qualquer bloco do mundo pelo bloco da colagem, inclusive ar! É uma ótima maneira de construir uma casa dentro de uma montanha.$(br2)Observação: qualquer bloco substituído dessa forma será $(bold)ANULADO$(clear) e não derrubará nem devolverá itens."
     }
   ]
 }

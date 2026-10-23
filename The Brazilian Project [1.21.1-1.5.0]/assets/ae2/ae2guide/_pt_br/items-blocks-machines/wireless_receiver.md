@@ -14,7 +14,7 @@ item_ids:
 
 <ItemImage id="wireless_receiver" scale="4" />
 
-Uma <ItemLink id="fluix_pearl" /> numa antena refletora, um componente da tecnologia ME sem fio de curto alcance.
+Uma <ItemLink id="fluix_pearl" /> numa antena parabólica, um componente da tecnologia ME sem fio de curto alcance.
 
 ## Receita
 

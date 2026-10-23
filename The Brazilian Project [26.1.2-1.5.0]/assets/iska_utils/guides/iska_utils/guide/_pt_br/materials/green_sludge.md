@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:green_sludge
 categories:
-  - Materiais
+  - Materials
 ---
 # Lodo Verde
 

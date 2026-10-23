@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "As $(item)Placas de Circuito Impresso/$ (PCIs) são componentes importantes usados em muitas máquinas e ferramentas de nível mais alto. Fazer uma $(item)PCI/$ requer alguns passos.$(p)Primeiro de tudo, faça uma $(item)PCI Vazia/$ na $(l:manufacturing/pressure_chamber)Câmara de Pressão/$ como mostrado ao lado. Há então dois métodos para prosseguir (veja adiante)."
+      "text": "$(item)PCIs Finalizadas/$ (PCIs) são componentes importantes usados em muitas máquinas e ferramentas de nível mais alto. Fazer uma $(item)PCI/$ exige alguns passos.$(p)Primeiro, faça uma $(item)PCI Vazia/$ na $(l:manufacturing/pressure_chamber)Câmara de Pressão/$ conforme mostrado ao lado. Depois há dois métodos para prosseguir (veja a página seguinte)."
     },
     {
       "type": "pneumaticcraft:pressure_chamber",
@@ -15,24 +15,24 @@
     {
       "type": "text",
       "title": "Método #1",
-      "text": "Este método é o único disponível inicialmente e é um tanto lento sem automação extra e infraestrutura de aquecimento: você pode revelar uma $(item)PCI/$ quimicamente colocando-a numa $(l:manufacturing/uv_light_box)Caixa de Luz UV/$ e depois colocando a $(item)PCI Vazia/$ exposta num $(l:manufacturing/etching_tank)Tanque de Corrosão/$ para transformá-la numa $(item)PCI Não Montada/$."
+      "text": "Este método é o único disponível inicialmente, e é um tanto lento sem automação extra e infraestrutura de aquecimento: você pode desenvolver uma $(item)PCI/$ quimicamente colocando-a numa $(l:manufacturing/uv_light_box)Caixa de Luz UV/$ e depois colocando a $(item)PCI Vazia/$ exposta num $(l:manufacturing/etching_tank)Tanque de Corrosão/$ para transformá-la numa $(item)PCI Não Montada/$."
     },
     {
       "type": "blasting",
       "title": "Reciclando PCIs Falhas",
       "recipe": "pneumaticcraft:empty_pcb_from_failed_pcb",
-      "text": "O processo de corrosão tem uma chance de falha se a $(item)PCI Vazia/$ não foi 100% exposta na $(l:manufacturing/uv_light_box)Caixa de Luz UV/$; você pode reciclar $(item)PCIs Falhas/$ num $(item)Alto-Forno/$."
+      "text": "O processo de corrosão tem chance de falha se a $(item)PCI Vazia/$ não foi 100% exposta na $(l:manufacturing/uv_light_box)Caixa de Luz UV/$; você pode reciclar $(item)PCIs Falhas/$ num $(item)Alto-forno/$."
     },
     {
       "type": "spotlight",
       "title": "Método #2",
       "item": "pneumaticcraft:assembly_controller",
-      "text": "Quando você puder fazer um $(l:manufacturing/assembly_system)Sistema de Montagem/$, poderá usá-lo para transformar $(item)PCIs Vazias/$ diretamente em $(item)PCIs Não Montadas/$ com um $(item)Programa de Montagem: Laser/$. Não há necessidade de expô-la numa $(item)Caixa de Luz UV/$ ou usar um $(item)Tanque de Corrosão/$ nesse caso."
+      "text": "Assim que puder fazer um $(l:manufacturing/assembly_system)Sistema de Montagem/$, você poderá usá-lo para transformar $(item)PCIs Vazias/$ diretamente em $(item)PCIs Não Montadas/$ com um $(item)Programa de Montagem: Laser/$. Não há necessidade de expô-la numa $(item)Caixa de Luz UV/$ nem de usar um $(item)Tanque de Corrosão/$ neste caso."
     },
     {
       "type": "text",
       "title": "Método #2 (cont.)",
-      "text": "$(p)O Sistema de Montagem é uma opção muito conveniente e razoavelmente rápida para produzir $(item)PCIs Não Montadas/$; porém, com automação e infraestrutura de aquecimento suficientes, a combinação $(thing)Caixa de Luz UV/Tanque de Corrosão/$ pode ser muito mais rápida, especialmente se você precisar produzir PCIs em massa."
+      "text": "$(p)O Sistema de Montagem é uma opção muito conveniente e razoavelmente rápida para produzir $(item)PCIs Não Montadas/$; porém, com automação e infraestrutura de aquecimento suficientes, o combo $(thing)Caixa de Luz UV/Tanque de Corrosão/$ pode ser bem mais rápido, principalmente se você precisar produzir PCIs em massa."
     },
     {
       "type": "pneumaticcraft:assembly_system",
@@ -41,7 +41,7 @@
     {
       "type": "crafting",
       "recipe": "pneumaticcraft:printed_circuit_board",
-      "text": "Por fim, você pode adicionar alguns $(l:components/capacitor)Capacitores/$ e $(l:components/transistor)Transistores/$ para montar a $(item)PCI Finalizada/$!"
+      "text": "Por fim, você pode adicionar alguns $(l:components/capacitor)Capacitores/$ e $(l:components/transistor)Transistores/$ para montar a $(item)PCI Finalizada/$ finalizada!"
     }
   ]
 }

@@ -1,40 +1,30 @@
 {
-
-"name": "Portas Decoradas",
-    "icon": "minecraft:writable_book",
-    "category": "merrymaking:doors",
-    "pages": [
-	
-	{
-			"type": "patchouli:image",
-			
-			"images": ["merrymaking:textures/gui/door.png"],
-			"text": "Porta de Abeto Decorada!"
-		},
-	
-		{
-			"type": "spotlight",
-			"item": "merrymaking:oak_wreath_lights_white_door",			
-			"text": "Para adicionar uma guirlanda a qualquer tipo de porta vanilla, combine a porta e uma guirlanda numa bancada de trabalho. $(br2)Portas com Guirlandas Iluminadas também emitem luz."
-		},			
-		
-		{
-			"type": "crafting",
-			"title": "Portas com Guirlandas",
-			"recipe": "merrymaking:spruce_wreath_door",
-			"recipe2": "merrymaking:cherry_wreath_lights_white_door"	
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Porta com Guirlandas",
-			"recipe": "merrymaking:dark_oak_wreath_lights_multi_door"
-				
-		}
-		
-		
-		
-		]
-	
-	
+  "name": "Portas Decoradas",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:doors",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/door.png"
+      ],
+      "text": "Porta de Abeto Decorada!"
+    },
+    {
+      "type": "spotlight",
+      "item": "merrymaking:oak_wreath_lights_white_door",
+      "text": "Para adicionar uma guirlanda a qualquer tipo de porta vanilla, combine a porta e uma guirlanda numa bancada de trabalho. $(br2)Portas com Guirlandas Iluminadas também emitem luz."
+    },
+    {
+      "type": "crafting",
+      "title": "Portas com Guirlandas",
+      "recipe": "merrymaking:spruce_wreath_door",
+      "recipe2": "merrymaking:cherry_wreath_lights_white_door"
+    },
+    {
+      "type": "crafting",
+      "title": "Porta com Guirlanda",
+      "recipe": "merrymaking:dark_oak_wreath_lights_multi_door"
+    }
+  ]
 }

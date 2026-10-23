@@ -1,32 +1,32 @@
 {
-    "name": "Modo Esfera",
-    "icon": "mffs:sphere_mode",
-    "category": "mffs:projector_modes",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:sphere_mode",
-            "link_recipe": true,
-            "text": "Por padrão, o $(2)Modo Esfera$() define o Projetor para gerar um campo de força em formato de esfera com exatamente 1 bloco de espessura. Cada $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() aumenta o tamanho do campo de força em 1 bloco."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:sphere_mode",
-            "text": "Fabricando o $(2)Modo Esfera$()."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Ajuste do Campo",
-            "text": "Adicionar $(l:mffs:upgrade_modules/scale_module)$(5)Módulos de Escala$() a espaços de item marcados com uma seta direcional aumenta ainda mais o raio do campo de força em 1 bloco por módulo."
-        },
-        {
-            "type": "patchouli:image",
-            "images": [
-                "mffs:textures/gui/handbook/sphere_mode.png"
-            ],
-            "border": true,
-            "title": "Projeção",
-            "text": "Um campo de $(2)Modo Esfera$() escalado sendo projetado."
-        }
-    ]
+  "name": "Modo Esfera",
+  "icon": "mffs:sphere_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:sphere_mode",
+      "link_recipe": true,
+      "text": "Por padrão, o $(2)Modo Esfera$() define o Projetor para gerar um campo de força em formato de esfera com exatamente 1 bloco de espessura. Cada $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() aumenta o tamanho do campo de força em 1 bloco."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:sphere_mode",
+      "text": "Fabricando o $(2)Modo Esfera$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ajuste de Campo",
+      "text": "Adicionar $(l:mffs:upgrade_modules/scale_module)$(5)Módulos de Escala$() aos slots de item marcados com uma seta direcional aumenta ainda mais o raio do campo de força em 1 bloco por módulo."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/sphere_mode.png"
+      ],
+      "border": true,
+      "title": "Projeção",
+      "text": "Um campo de $(2)Modo Esfera$() escalado sendo projetado."
+    }
+  ]
 }

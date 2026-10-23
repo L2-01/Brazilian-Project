@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "Ao longo dos anos em que os botânicos tentaram descobrir as propriedades mágicas dos objetos portadores de $(aura), eles descobriram um tema inesperado, porém comum: o $(item)Ouro$() parece sempre ter um papel na interação entre humanos e $(aura)."
+            "text": "Ao longo dos anos em que os botânicos tentaram descobrir as propriedades mágicas dos objetos portadores de $(aura), eles descobriram um tema inesperado, porém comum: o $(item)Ouro$() parece sempre desempenhar um papel na interação entre humanos e $(aura)."
         },
         {
             "type": "spotlight",
-            "text": "Para ter o primeiro contato com os poderes da substância, é necessário criar uma $(item)Árvore Brilhante$() que, quando colhida, deixará cair $(item)Folha de Ouro$() - um material delicado, porém poderoso. Para criar tal árvore, basta fabricar um pouco de $(item)Fibra Brilhante$() e colocá-la na copa de uma árvore. O tempo trará o brilho.",
+            "text": "Para ter o primeiro contato com os poderes da substância, é preciso criar uma $(item)Árvore Brilhante$() que, quando colhida, soltará $(item)Folhas de Ouro$() — um material delicado, porém poderoso. Para criar tal árvore, simplesmente fabrique um pouco de $(item)Fibra Brilhante$() e coloque-a na copa de uma árvore. O tempo então trará o brilho.",
             "item": "naturesaura:gold_leaf",
             "link_recipe": true
         },
@@ -22,7 +22,7 @@
         },
         {
             "type": "crafting",
-            "text": "A $(item)Folha de Ouro$(), uma vez colhida, pode ser facilmente esmagada em $(item)Pó de Ouro$(), que pode ser colocado no chão como parte integral do $(l:practices/tree_ritual)Ritual da Floresta$().",
+            "text": "A $(item)Folha de Ouro$(), uma vez colhida, pode ser facilmente triturada em $(item)Pó de Ouro$(), que pode ser colocado no chão como parte integral do $(l:practices/tree_ritual)Ritual da Floresta$().",
             "recipe": "naturesaura:gold_powder"
         }
     ]

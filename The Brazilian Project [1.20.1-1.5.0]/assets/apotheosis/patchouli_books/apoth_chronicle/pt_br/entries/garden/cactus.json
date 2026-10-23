@@ -2,15 +2,15 @@
     "name": "Cacto",
     "icon": "minecraft:cactus",
     "category": "apotheosis:garden/garden",
-	"flag": "apotheosis:garden",
-	"sortnum": 0,
+    "flag": "apotheosis:garden",
+    "sortnum": 0,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Os cactos tiveram sua altura máxima de crescimento aumentada para 5.$(p)Esse valor é configurável, então pode ser um pouco maior (ou menor) dependendo do modpack."
+            "text": "Os cactos tiveram a altura máxima de crescimento aumentada para 5.$(p)Esse valor é configurável e pode ser um pouco maior (ou menor) dependendo do modpack."
         }
-	],
-	"extra_recipe_mappings": {
-		"minecraft:cactus": 0
-	}
+    ],
+    "extra_recipe_mappings": {
+        "minecraft:cactus": 0
+    }
 }

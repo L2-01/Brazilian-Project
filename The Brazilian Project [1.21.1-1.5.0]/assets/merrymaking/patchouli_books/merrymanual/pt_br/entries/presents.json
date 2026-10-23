@@ -1,29 +1,12 @@
 {
-
-"name": "Presente",
-    "icon": "merrymaking:present",
-    "category": "merrymaking:present",
-    "pages": [
-	
-		{
-		
-			"type": "spotlight",
-			
-			"item": "merrymaking:present",
-			"text": "Presentes são encontrados em Baús por todo o mundo normal. $(br2) Quando um Presente é colocado, as cores do embrulho são escolhidas aleatoriamente. Presentes podem ser coletados com Toque Suave. $(br2)Abrir um Presente revelará o presente dentro dele. Os presentes variam de muito bons a \"Puxa, você não precisava!\"" 
-			
-		}
-				
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		]
-	
-	
+  "name": "Presente",
+  "icon": "merrymaking:present",
+  "category": "merrymaking:present",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "merrymaking:present",
+      "text": "Presentes são encontrados em Baús por toda a Superfície. $(br2) Quando um Presente é colocado, as cores do embrulho são escolhidas aleatoriamente. Presentes podem ser recolhidos com Toque de Seda. $(br2)Quebrar um Presente revelará o presente dentro. Os presentes vão de muito bons a \"Puxa, não precisava!\""
+    }
+  ]
 }

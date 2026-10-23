@@ -1,0 +1,40 @@
+{
+  "name": "Distribuidor de Oxigênio",
+  "icon": "ad_astra:oxygen_distributor",
+  "sortnum": 2,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Distribuidor de Oxigênio",
+      "item": "ad_astra:oxygen_distributor",
+      "text": "O distribuidor de oxigênio é uma máquina poderosa que distribui oxigênio em uma sala vedada, permitindo que qualquer vida dentro dela sobreviva. Funciona exatamente como um carregador de oxigênio, no qual você insere água no tanque, mas em vez de fornecer oxigênio a você, ele é distribuído no ar."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Bomba de Água",
+      "item": "ad_astra:water_pump",
+      "text": "A bomba de água é essencial para manter o distribuidor de oxigênio funcionando indefinidamente. Para usá-la, coloque uma fonte infinita de água abaixo, depois a bomba de água sobre um dos blocos de água e, por fim, o distribuidor de oxigênio ao lado. Certifique-se de abastecer a bomba e o distribuidor com energia suficiente."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Distribuidor e Bomba",
+      "recipe": "ad_astra:recipes/oxygen_distributor",
+      "recipe2": "ad_astra:recipes/water_pump"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Usando o Distribuidor",
+      "text": "Quando o distribuidor de oxigênio tiver uma fonte infinita de água, energia suficiente e uma sala completamente vedada, ele distribuirá oxigênio na sala. Para conferir se o oxigênio está sendo distribuído, clique em \"mostrar\" na interface do distribuidor. Se vir bolhas flutuando, significa que a sala está sendo abastecida com oxigênio."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se houver uma abertura na estrutura deixando o oxigênio escapar, a interface do distribuidor mostrará um aviso. Tampe a abertura para evitar desperdício de energia e de oxigênio. Depois disso, você poderá tirar o traje de oxigênio e sobreviver. Cada distribuidor cobre até 2.000 blocos, permitindo construir uma estação espacial ou base de tamanho moderado. Se precisar de mais, pode colocar mais distribuidores de oxigênio."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ventilação",
+      "text": "Dentro da estrutura oxigenada, providencie ventilação adequada para que o oxigênio não fique bloqueado quando uma porta for fechada. Para isso, deixe um vão de um bloco entre as paredes ou use um bloco de respiradouro para permitir o fluxo de oxigênio."
+    }
+  ]
+}

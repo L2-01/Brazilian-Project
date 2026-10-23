@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: Outras coisas
+  title: Outros Itens
   icon: "justdynathings:stabilizer"
   position: 99
 ---
 
-# Outras coisas
+# Outros itens
 
-Alguns outros blocos/itens não categorizados, mas não para definir como inúteis!
+Alguns outros blocos/itens sem categoria — mas nem por isso inúteis!
 
 <SubPages />

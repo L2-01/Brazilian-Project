@@ -1,19 +1,22 @@
 ---
 navigation:
-  title: "Porta NOT"
+  title: "Porta NÃO"
   icon: "not_gate"
   parent: little_big_redstone:logic.md
   position: 13
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:not_gate
 ---
 
-# Porta NOT
+# Porta NÃO
 
 <FloatingColumn width="100" align="right">
-	### Tabela-verdade
+	### Booleano
+	As Portas NÃO só produzem um valor de saída de 0 (DESLIGADO) ou 1 (LIGADO).
+
+	### Tabela-Verdade
 	<TruthTable>
 		<TruthState input="0" output="1" />
 		<TruthState input="1" output="0" />
@@ -34,7 +37,8 @@ item_ids:
 	</Column>
 </Row>
 
-Portas NOT são a porta mais simples disponível. Elas aceitam uma única entrada, invertem o sinal e fornecem uma única saída.
+As portas NÃO são as portas mais simples disponíveis. Elas recebem uma única entrada, invertem o sinal e fornecem
+uma única saída.
 
 <MicrochipScene color="red" includeToolbar={true}>
 	<Logic name="1" x="0" y="0" type="io" hide={true} />

@@ -1,11 +1,11 @@
 {
-  "name": "Trilho de Transição de A.V.",
-  "icon": "railcraft:high_speed_transition_track",
-  "category": "railcraft:tracks",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Esses trilhos de velocidade direcionais só impulsionarão carrinhos numa direção quando energizados. Carrinhos viajando na direção oposta serão desacelerados para velocidades normais de carrinho se o trilho estiver energizado, ou desacelerados até parar se não estiver."
-    }
-  ]
+    "name": "Trilho de Transição de Alta Velocidade",
+    "icon": "railcraft:high_speed_transition_track",
+    "category": "railcraft:tracks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Esses trilhos de velocidade direcionais só impulsionam carrinhos numa direção quando energizados. Carrinhos viajando na direção oposta serão desacelerados para a velocidade normal quando o trilho estiver energizado, ou até parar quando não estiver."
+        }
+    ]
 }

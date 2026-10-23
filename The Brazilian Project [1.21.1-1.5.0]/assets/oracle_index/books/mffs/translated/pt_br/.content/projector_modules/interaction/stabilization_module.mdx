@@ -1,0 +1,45 @@
+---
+id: mffs:stabilization_module
+type: item
+---
+
+# Módulo de Estabilização
+
+O Módulo de Estabilização pode ser usado num [](@mffs:projector) para cristalizar o campo numa forma sólida. Em vez de
+criar uma barreira de campo de energia que desaparece quando desligada, o Projetor substitui o campo por blocos de verdade
+fornecidos pelo jogador.
+
+Dessa maneira, o Módulo de Estabilização torna possível produzir uma réplica física exata de um padrão de campo de força
+que permanece depois que o Projetor é desativado. Como o campo é construído com blocos reais, sua durabilidade
+corresponde à dos blocos. No entanto, enquanto o Projetor estiver suficientemente energizado e abastecido com
+blocos de reposição suficientes, ele regenerará continuamente a estrutura do campo caso ela seja quebrada.
+
+O processo de estabilização (transposição) exige mais Fortron e é mais lento que a projeção normal do campo; mas se usado
+em combinação com o recurso de [](@mffs:custom_mode) de um Projetor, suas aplicações imagináveis são praticamente
+ilimitadas.
+
+Por exemplo, um jogador poderia criar uma estrutura que se repara automaticamente sempre que um [Creeper](@creeper) tentar
+explodi-la.
+Adicionar [Módulos de Velocidade](@mffs:speed_module) a um Projetor permite estabilizar vários blocos de uma vez.
+
+<PrefabObtaining />
+
+## Uso
+
+- Coloque um baú ao lado do Projetor de Campo de Força (em qualquer lado) e certifique-se de que ele contenha os blocos necessários para construir
+o campo.
+- Insira um Módulo de Estabilização de Campo nos espaços de matriz do Projetor. Configure o campo como desejar e então ative
+o Projetor.
+- O Projetor consumirá blocos dos baús adjacentes na ordem em que aparecerem. Se um baú contiver uma mistura
+de blocos diferentes, a estrutura resultante também será composta por uma mistura de blocos.
+
+## Uso no modo Personalizado
+
+Diferente dos outros modos disponíveis para o Projetor de Campo de Força, o item de Modo Personalizado armazena a posição e o
+tipo exatos de cada bloco que analisa. Por isso, o processo de estabilização para o [](@mffs:custom_mode) não funciona da
+mesma forma.
+Em vez de consumir os blocos na ordem em que aparecem e transpô-los para posições arbitrárias, o Projetor
+pega apenas os tipos de bloco que correspondem ao padrão original.
+
+Cada bloco é colocado exatamente como deveria, de acordo com seu tipo e posição. Se um Projetor ficar sem os tipos de
+bloco correspondentes necessários para replicar um padrão, ele pausa até que eles sejam fornecidos.

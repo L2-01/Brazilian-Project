@@ -1,0 +1,16 @@
+{
+  "name": "Protetores de Ouvido",
+  "icon": "enchanted:earmuffs",
+  "category": "enchanted:tools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Protetores de ouvido oferecem certo nível de proteção contra inimigos que usam ataques baseados em som, como gritos, e podem até ser considerados essenciais ao lidar com Mandrágoras e Banshees."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:earmuffs"
+    }
+  ],
+  "read_by_default": true
+}

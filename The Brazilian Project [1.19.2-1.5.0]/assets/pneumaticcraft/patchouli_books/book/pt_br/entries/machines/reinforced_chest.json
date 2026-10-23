@@ -1,17 +1,17 @@
 {
-  "name": "Baú Reforçado",
-  "icon": "pneumaticcraft:reinforced_chest",
-  "category": "pneumaticcraft:machines",
-  "advancement": "pneumaticcraft:root",
-  "pages": [
-    {
-      "type": "text",
-      "text": "O $(item)Baú Reforçado/$ é um baú de 36 espaços com resistência a explosão de nível obsidiana e que mantém seu inventário quando quebrado."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando um Baú Reforçado",
-      "recipe": "pneumaticcraft:reinforced_chest"
-    }
-  ]
+    "name": "Baú Reforçado",
+    "icon": "pneumaticcraft:reinforced_chest",
+    "category": "pneumaticcraft:machines",
+    "advancement": "pneumaticcraft:root",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O $(item)Baú Reforçado/$ é um baú de 36 espaços com resistência a explosões de nível obsidiana, e mantém seu inventário ao ser quebrado."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Baú Reforçado",
+            "recipe": "pneumaticcraft:reinforced_chest"
+        }
+    ]
 }

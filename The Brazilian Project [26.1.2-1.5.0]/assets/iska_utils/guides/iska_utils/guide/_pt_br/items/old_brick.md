@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:old_brick
 categories:
-  - Entrega Suspeita
+  - Suspicious Delivery
 ---
 # Tijolo Antigo
 
@@ -15,7 +15,7 @@ categories:
 
 ## O que faz
 
-Um artefato de construtores teimosos. Enquanto vestido no **Curios**, adiciona **armadura extra**.
+Um artefato de construtores teimosos. Enquanto usado no **Curios**, adiciona **armadura extra**.
 
 ## Como obter
 

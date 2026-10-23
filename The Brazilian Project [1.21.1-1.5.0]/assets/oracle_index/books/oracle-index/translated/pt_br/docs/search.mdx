@@ -1,0 +1,22 @@
+---
+title: Pesquisa
+---
+
+O Oracle Index conta com uma funcionalidade de pesquisa inteligente. Para abrir a tela de pesquisa, pressione [CTRL + ORACLE_HOTKEY] ou a tecla de atalho da pesquisa (não atribuída por padrão). Há também um pequeno ícone de pesquisa ao visualizar uma entrada da wiki.
+
+<Callout variant="info">
+    A pesquisa também suporta cálculos/expressões matemáticas!
+</Callout>
+
+Ao abrir a tela de pesquisa pela primeira vez, pode levar alguns segundos para indexar as páginas disponíveis antes que você consiga pesquisar. A pesquisa é semântica e completa, alimentada por aprendizado de máquina. Isso significa que você não precisa pesquisar com palavras-chave exatas: pode digitar frases completas e o conteúdo relevante será exibido, mesmo que as palavras não correspondam exatamente. Quaisquer tópicos relevantes serão mostrados.
+
+## Detalhes Técnicos
+Internamente, o Oracle Index gera embeddings para todas as páginas, que são pré-processados em fragmentos. Um pequeno modelo de sentence transformer (all-MiniLm-L6-V2-q) gera então embeddings para cada fragmento e para a consulta de pesquisa. Os vetores de embedding ficam armazenados na memória. O vetor de embedding da consulta é então comparado aos embeddings dos fragmentos da wiki. Os N resultados mais próximos são exibidos ao usuário.
+
+A biblioteca usada para isso é a Langchain4j, que utiliza o DJL Framework. O modelo de embedding tem cerca de 15 MB.
+
+## Limites
+
+A pesquisa indexa o texto das páginas no idioma base e, no momento, não constrói um índice semântico separado para o texto traduzido. Selecionar um resultado ainda abre a página traduzida quando disponível, e os títulos dos resultados usam o idioma ativo.
+
+O modelo de embedding e o runtime nativo deixam o artefato com pesquisa maior. Se o artefato da plataforma instalada não incluir esse runtime, o Oracle Index informa que a pesquisa está indisponível e aponta para o artefato multiplataforma. A navegação normal pela wiki não depende da pesquisa semântica.

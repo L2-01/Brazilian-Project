@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O Colocador de Fluido Simples permite automatizar a colocação de fluidos no mundo, assim como seu bloco parceiro, o $(l:justdirethings:mach_blockplacert1)Colocador Simples$(/l), faz com blocos.$(br2)Ele tem um espaço na UI para inserir baldes ou outros itens de fluido como o Recipiente de Fluido."
+      "text": "O Colocador de Fluido Simples permite automatizar o posicionamento de fluidos no mundo, assim como seu bloco parceiro, o $(l:justdirethings:mach_blockplacert1)Colocador Simples$(/l), faz com blocos.$(br2)Ele tem um espaço na interface para inserir baldes ou outros itens contém-fluido, como o Recipiente de Fluido."
     },
     {
       "type": "patchouli:text",
-      "text": "No lado esquerdo da UI há um tanque de fluido, indicando qual fluido está armazenado na máquina. Se houver mais de 1.000 mb de fluido disponíveis e ainda não houver um fluido ou bloco à frente da máquina, ela colocará o fluido no mundo."
+      "text": "No lado esquerdo da interface há um tanque de fluido, indicando qual fluido está armazenado na máquina. Se houver mais de 1.000mb de fluido disponíveis e não houver um fluido ou bloco à frente da máquina, ela colocará o fluido no mundo."
     },
     {
       "type": "patchouli:crafting",

@@ -10,7 +10,7 @@ item_ids:
 
 # Bola de Neve Carregada
 
-Lançar uma Bola de Neve Carregada fará com que um raio apareça ao atingir o solo ou quando atingir a criatura, obtido pela energização de uma bola de neve. 
+Arremessar uma Bola de Neve Carregada faz um raio surgir ao atingir o chão ou um mob; obtida ao energizar uma bola de neve. 
 
 <Row>
 <RecipesFor id="powah:charged_snowball" />

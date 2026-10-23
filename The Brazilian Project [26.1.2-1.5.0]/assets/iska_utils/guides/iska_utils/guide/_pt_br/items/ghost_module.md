@@ -7,14 +7,14 @@ navigation:
 item_ids:
   - iska_utils:ghost_module
 categories:
-  - Módulos
+  - Modules
 ---
 # Módulo Fantasma
 
 <ItemImage id="iska_utils:ghost_module" />
 
-Permite que efeitos de máquinas interajam através de blocos sólidos.
+Permite que os efeitos da máquina interajam através de blocos sólidos.
 
 | Máquina | Papel |
 | ------- | ---- |
-| **Ventilador Modular** | Permite que o fluxo de ar interaja através de blocos sólidos. |
+| **Ventilador Modular** | Permite ao fluxo de ar interagir através de blocos sólidos. |

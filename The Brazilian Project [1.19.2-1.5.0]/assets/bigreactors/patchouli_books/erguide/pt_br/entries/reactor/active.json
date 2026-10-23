@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Um Reator com resfriamento ativo é um Reator que usa um refrigerante externo para dissipar seu calor interno.$(br2)O refrigerante será vaporizado no processo e o vapor resultante pode ser extraído do Reator para girar os rotores de uma ou mais Turbinas."
+            "text": "Um Reator resfriado ativamente é um Reator que usa um refrigerante externo para dissipar seu calor interno.$(br2)O refrigerante será vaporizado no processo e o vapor resultante pode ser extraído do Reator para acionar os rotores de uma ou mais Turbinas."
         },
         {
             "type": "patchouli:text",
-            "text": "Para construir um Reator com resfriamento ativo você precisa incluir pelo menos duas Portas de Fluido no multibloco, uma configurada para inserir refrigerante no Reator e outra para extrair o vapor gerado do Reator.$(br2)O vapor extraído pode então ser canalizado para suas Turbinas para gerar energia."
+            "text": "Para construir um Reator resfriado ativamente você precisa incluir pelo menos duas Portas de Fluido no multibloco, uma configurada para inserir um refrigerante no Reator e outra para extrair o vapor gerado do Reator.$(br2)O vapor extraído pode então ser canalizado para as suas Turbinas para gerar energia."
         }
     ]
 }

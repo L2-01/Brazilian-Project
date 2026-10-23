@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:gauntlet_of_climbing
 categories:
-  - Combate e viagem
+  - Combat and travel
 ---
 # Manopla de Escalada
 
@@ -16,4 +16,4 @@ categories:
 ## Uso
 
 - Quando ativada, escale paredes enquanto colide horizontalmente.
-- Alterne com a tecla mostrada na dica.
+- Alterne com a tecla mostrada no tooltip.

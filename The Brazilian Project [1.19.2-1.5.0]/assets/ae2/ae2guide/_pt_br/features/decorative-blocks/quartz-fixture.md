@@ -11,7 +11,7 @@ item_ids:
 
 ![Uma imagem de uma luminária de quartzo carregado](../../assets/large/charged_quartz_fixture1.png)
 
-Fonte de luz decorativa que pode ser montada em qualquer superfície sólida. Até no teto. Diferente de tochas, este bloco não é
-afetado por água.
+Fonte de luz decorativa que pode ser montada em qualquer superfície sólida. Até no teto. Diferente das tochas, este bloco não é
+afetado pela água.
 
 <RecipeFor id="quartz_fixture" />

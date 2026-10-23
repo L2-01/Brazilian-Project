@@ -4,10 +4,10 @@ item_ids:
 ---
 
 # Terminal da Interface de Canhão
-Um terminal que permite controlar suas Interfaces de Canhão pela rede.
+Um Terminal que permite controlar suas Interfaces de Canhão pela rede.
 
 ## Uso
-Conecte-o à sua rede AE2 e clique nele com o botão direito para abrir a GUI. Você pode ver todas as Interfaces de Canhão conectadas e seus status.
+Conecte-o à sua Rede AE2 e clique com o botão direito para abrir a GUI. Você pode ver todas as Interfaces de Canhão conectadas e seu status.
 Clique numa Interface de Canhão para abrir sua GUI.
 
 ## Receita

@@ -1,0 +1,17 @@
+{
+    "name": "Estouro de Vitalidade",
+    "icon": "apotheosis:textures/mob_effect/vitality.png",
+    "category": "apotheosis:potion/effects",
+    "flag": "apotheosis:potion",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A Poção de $(9)Estouro de Vitalidade$() é um efeito benéfico.$(p)Sob seus efeitos, toda cura recebida aumenta."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O aumento de cura é de 20% por nível."
+        }
+    ]
+}

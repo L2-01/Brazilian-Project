@@ -9,18 +9,18 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:energizerchargingport_fe",
             "link_recipe": true,
-            "title" : "Porta de Carregamento FE",
-            "text": "A Porta de Carregamento Forge permite usar a energia armazenada no seu Energizador para carregar itens que usam o $(l:bigreactors:misc/powersystem)sistema de energia$(/l) Forge Energy para funcionar.$(br2)Abra a interface gráfica da porta e insira o item que você quer carregar no slot de entrada no centro."
+            "title": "Porta de Carregamento FE",
+            "text": "A Porta de Carregamento Forge permite usar a energia armazenada no seu Energizador para carregar itens que funcionam com o $(l:bigreactors:misc/powersystem)sistema de energia$(/l) Forge Energy.$(br2)Abra a interface gráfica da porta e insira o item que você quer carregar no espaço de entrada ao centro."
         },
         {
             "type": "patchouli:text",
-            "text": "Quando o buffer de energia do item estiver cheio, ele será movido automaticamente para o slot de saída da interface para você coletar.$(br2)Se, por qualquer motivo, você precisar parar o processo de carregamento, pressione o botão de ejeção para mover o item para o slot de saída imediatamente."
+            "text": "Quando o buffer de energia do item estiver cheio, ele será movido automaticamente para o espaço de saída da interface para você retirar.$(br2)Se, por algum motivo, você precisar interromper o carregamento, pressione o botão de ejeção para mover o item ao espaço de saída imediatamente."
         },
         {
             "type": "crafting-part_usage",
-            "crafting.title1": "Porta de Carregamento FE",
+            "crafting.title1": "Porta de Carregamento de Energia FE",
             "crafting.recipe1": "bigreactors:energizer/chargingport_fe",
-            "usage.text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Interface gráfica:$() sim"
+            "usage.text": "$(l)Obrigatória:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Interface gráfica:$() sim"
         }
     ]
 }

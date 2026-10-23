@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Os Lingotes de Ouro de Blaze derivam da fundição de Ouro de Blaze Bruto, extraído de $(l:justdirethings:res_blazegold_raw)Minérios de Ouro de Blaze Bruto$(/l). Esses lingotes são essenciais para fabricar itens imbuídos de propriedades mágicas."
+      "text": "Lingotes de Ouro de Blaze são obtidos fundindo Ouro de Blaze Bruto, extraído de $(l:justdirethings:res_blazegold_raw)Minérios de Ouro de Blaze Bruto$(/l). Esses lingotes são essenciais para fabricar itens imbuídos de propriedades mágicas."
     },
     {
       "type": "patchouli:smelting",
-      "title": "Fundindo Ouro de Blaze Bruto",
+      "title": "Fundição: Ouro de Blaze Bruto",
       "recipe": "justdirethings:blazegold_ingot_smelted"
     }
   ]

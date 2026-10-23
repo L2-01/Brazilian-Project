@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "Certas atividades, especialmente construir e caçar monstros, só podem ser feitas facilmente em certas horas. Ao longo dos anos, os botânicos mágicos tentaram encontrar uma forma de manipular o $(thing)tempo$() para ganho pessoal. O $(item)Relógio de Sol Variável$() tem a capacidade de fazer exatamente isso. Embora bastante caro de configurar, ele tem a habilidade de avançar rapidamente para $(thing)qualquer hora do dia ou da noite$() com facilidade."
+            "text": "Certas atividades, especialmente construir e caçar monstros, só podem ser feitas facilmente em certos horários. Ao longo dos anos, botânicos mágicos tentaram encontrar uma forma de manipular o próprio $(thing)tempo$() para ganho pessoal. O $(item)Relógio de Sol Variável$() tem a habilidade de fazer exatamente isso. Embora bem caro de montar, ele consegue avançar rapidamente para $(thing)qualquer hora do dia ou da noite$() com facilidade."
         },
         {
             "type": "text",
-            "text": "Para configurá-lo, tudo que é necessário é que o $(item)Relógio de Sol Variável$() tenha uma $(item)Moldura de Item$() contendo um $(item)Ponteiro do Tempo$(). A $(thing)rotação$() do ponteiro na moldura determinará a hora para a qual se avançará, com o ponteiro apontando para cima correspondendo à meia-noite. Para ativar um avanço de tempo, um $(item)Relógio$() comum precisa ser jogado bem perto do relógio de sol.$(br)Isso, é claro, custa uma grande quantidade de $(aura) - quanto mais tempo avançado, mais será consumida."
+            "text": "Para configurá-lo, tudo que é preciso é que o $(item)Relógio de Sol Variável$() tenha um $(item)Porta-Retrato$() contendo um $(item)Ponteiro do Tempo$(). A $(thing)rotação$() do ponteiro no porta-retrato determinará então para que hora será pulado, com o ponteiro apontando para cima correspondendo à meia-noite. Para ativar um salto de tempo, um $(item)Relógio$() comum precisa ser solto bem perto do relógio de sol.$(br)Isso, claro, tem o custo de uma grande quantidade de $(aura) — quanto mais tempo pulado, mais será consumida."
         },
         {
             "type": "crafting",
@@ -19,7 +19,7 @@
         },
         {
             "type": "naturesaura:offering",
-            "text": "Requisitando o $(item)Ponteiro do Tempo$() com a $(l:practices/offering)Oferenda aos Deuses$()",
+            "text": "Solicitando o $(item)Ponteiro do Tempo$() com a $(l:practices/offering)Oferenda aos Deuses$()",
             "recipe": "naturesaura:clock_hand"
         }
     ]

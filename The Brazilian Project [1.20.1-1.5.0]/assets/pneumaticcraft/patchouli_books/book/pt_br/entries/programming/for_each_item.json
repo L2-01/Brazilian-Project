@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "text",
-      "text": "Este widget avançado executará uma sub-rotina para cada $(l:programming/item_filter)Filtro de Item/$ conectado. Para cada filtro, ele definirá a variável especificada para aquele filtro e pulará para o $(l:programming/label)Rótulo/$ que corresponde ao widget $(l:programming/text)Texto/$ conectado. Quando aquela rotina terminar de executar (quando alcançar o fim de um programa onde normalmente pularia de volta para $(l:programming/start)Início/$), ele voltará a este widget e fará o mesmo para o próximo $(thing)Filtro de Item/$."
+      "text": "Este widget avançado executará uma sub-rotina para cada $(l:programming/item_filter)Filtro de Item/$ conectado. Para cada filtro, ele definirá a variável especificada para aquele filtro e pulará para o $(l:programming/label)Rótulo/$ que corresponde ao widget de $(l:programming/text)Texto/$ conectado. Quando essa rotina terminar de executar (ao chegar ao fim de um programa onde normalmente voltaria para $(l:programming/start)Início/$), ele retornará a este widget e fará o mesmo para o próximo $(thing)Filtro de Item/$."
     },
     {
       "type": "text",
-      "title": "Interrompendo",
-      "text": "Você pode sair do loop definindo a variável de item usada pelo $(thing)Para Cada Item/$ para um filtro vazio (use o widget $(l:programming/item_assign)Atribuir Item/$ para isso). Na próxima vez, quando o programa pular de volta para o $(thing)Para Cada Item/$, ele notará isso e cancelará o restante da travessia de filtros."
+      "title": "Quebrando",
+      "text": "Você pode sair do loop definindo a variável de item usada pelo $(thing)Para Cada Item/$ para um filtro vazio (use o widget de $(l:programming/item_assign)Atribuição de Item/$ para isso). Na próxima vez, quando o programa voltar ao $(thing)Para Cada Item/$, ele notará isso e cancelará a travessia de filtros."
     },
     {
       "type": "image",

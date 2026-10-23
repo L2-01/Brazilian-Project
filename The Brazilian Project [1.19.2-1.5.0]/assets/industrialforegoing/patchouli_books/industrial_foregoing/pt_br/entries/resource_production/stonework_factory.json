@@ -1,0 +1,17 @@
+{
+  "name": "Fábrica de Processamento de Pedra",
+  "icon": "industrialforegoing:material_stonework_factory",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Um gerador de $(6)pedregulho$() de nova geração.$(br2)Quando abastecido com $(6)60$()RF/t e ambos $(6)água$() e $(6)lava$(), ele pode ser instruído a criar certos materiais.$(br)Esses materiais podem ser manipulados por ações:$(br)$(li)Fundir$(br)$(li)Esmagar$(br)$(li)Fabricar"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:material_stonework_factory"
+    }
+  ]
+}

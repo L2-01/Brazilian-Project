@@ -1,43 +1,43 @@
 {
-  "name": "Micromísseis",
-  "icon": "pneumaticcraft:micromissiles",
-  "category": "pneumaticcraft:tools",
-  "advancement": "pneumaticcraft:printed_circuit_board",
-  "pages": [
-    {
-      "type": "text",
-      "text": "Os $(item)Micromísseis/$ são pequenos mísseis lançados à mão com carga explosiva e mira inteligente em criaturas. Para disparar um $(item)Micromíssil/$, basta $(thing)clicar com o botão direito/$ no pod de mísseis. Cada pod tem 100 mísseis por padrão.$(p)Os Micromísseis procuram alvos num raio esférico de 24 blocos, centrado no míssil. Quando um alvo adequado é encontrado, o míssil vira em direção a esse alvo."
-    },
-    {
-      "type": "entity",
-      "entity": "pneumaticcraft:micromissile",
-      "offset": "-0.3",
-      "text": "$(italic)Pequenos, mas letais/$"
-    },
-    {
-      "type": "text",
-      "text": "Os $(item)Micromísseis/$ nunca mirarão o jogador que disparou o míssil nem qualquer entidade (mascotes, drones...) pertencente a esse jogador. Mas cuidado com dano colateral de explosões próximas: não recomendado para combate em espaços fechados!$(p)Os $(item)Micromísseis/$ podem mirar entidades vivas, carrinhos de mina e barcos, mas não mirarão entidades de item ou outras entidades não vivas como quadros."
-    },
-    {
-      "type": "text",
-      "text": "Se um $(item)Micromíssil/$ atingir qualquer entidade ou bloco, ele explodirá imediatamente. A explosão não danificará o terreno $(ttcolor)$(t:Veja 'B:damageTerrain' na configuração do mod)por padrão/$.$(p)Os $(item)Micromísseis/$ têm vida útil limitada, que é de 300 tiques (15 segundos) $(ttcolor)$(t:Veja 'I:missileLifetime' na configuração do mod)por padrão/$. Depois disso, o míssil ficará sem combustível e cairá do céu, mas ainda explodirá ao atingir o chão."
-    },
-    {
-      "type": "text",
-      "text": "Se você mirar diretamente numa entidade adequada ao disparar, o $(item)Micromíssil/$ disparado travará imediatamente nessa entidade, independentemente do que mais estiver mais perto.$(p)Se você $(thing)agachar e clicar com o botão direito/$ no pod de mísseis, uma GUI abrirá permitindo a configuração de várias propriedades do míssil:$(li)O triângulo de seleção permite balancear entre velocidade máxima, taxa de curva e poder de explosão."
-    },
-    {
-      "type": "text",
-      "text": "$(li)Você pode escolher entre os modos $(thing)Inteligente/$ e $(thing)Burro/$: no modo $(thing)Inteligente/$, os mísseis travarão nos alvos como descrito acima, enquanto no modo $(thing)Burro/$, os mísseis simplesmente voarão em linha reta até atingir algo, mas com boa velocidade e capacidade de dano.$(li)Você pode filtrar quais entidades atacar inserindo um $(l:base_concepts/entity_filter)filtro de entidade/$ no campo $(bold)Filtro de Entidade/$."
-    },
-    {
-      "type": "text",
-      "text": "$(li)O botão $(bold)Salvar como Padrão/$ faz com que as configurações atuais sejam salvas e usadas para todos os pods de mísseis recém-fabricados. Nota: as configurações são salvas no lado do servidor."
-    },
-    {
-      "type": "crafting",
-      "recipe": "pneumaticcraft:micromissiles",
-      "text": "Criando Micromísseis"
-    }
-  ]
+    "name": "Micromísseis",
+    "icon": "pneumaticcraft:micromissiles",
+    "category": "pneumaticcraft:tools",
+    "advancement": "pneumaticcraft:printed_circuit_board",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)Micromísseis/$ são pequenos mísseis lançados à mão, com carga explosiva e mira inteligente de criaturas. Para disparar um $(item)Micromíssil/$, basta $(thing)clicar com o botão direito/$ no pod de mísseis. Cada pod tem 100 mísseis por padrão.$(p)Os Micromísseis buscam alvos num raio esférico de 24 blocos, centrado no míssil. Ao encontrar um alvo adequado, o míssil vira na direção dele."
+        },
+        {
+            "type": "entity",
+            "entity": "pneumaticcraft:micromissile",
+            "offset": "-0.3",
+            "text": "$(italic)Pequeno mas letal/$"
+        },
+        {
+            "type": "text",
+            "text": "$(item)Micromísseis/$ nunca têm como alvo o jogador que disparou o míssil nem qualquer entidade (mascotes, drones...) pertencente a esse jogador. Mas cuidado com dano colateral de explosões próximas: não recomendado para combate a curta distância!$(p)Os $(item)Micromísseis/$ podem mirar entidades vivas, carrinhos e barcos, mas não miram entidades de item nem outras entidades não vivas como quadros."
+        },
+        {
+            "type": "text",
+            "text": "Se um $(item)Micromíssil/$ atingir qualquer entidade ou bloco, ele explodirá imediatamente. A explosão não danificará o terreno $(ttcolor)$(t:Veja 'B:damageTerrain' na config do mod)por padrão/$.$(p)Os $(item)Micromísseis/$ têm tempo de vida limitado, de 300 ticks (15 segundos) $(ttcolor)$(t:Veja 'I:missileLifetime' na config do mod)por padrão/$. Depois disso o míssil ficará sem combustível e cairá do céu, mas ainda explodirá ao atingir o chão."
+        },
+        {
+            "type": "text",
+            "text": "Se você mirar diretamente numa entidade adequada ao disparar, o $(item)Micromíssil/$ disparado travará imediatamente nessa entidade, independentemente do que estiver mais perto.$(p)Se você $(thing)agachar+clicar com o botão direito/$ no pod de mísseis, uma GUI se abrirá permitindo configurar várias propriedades do míssil:$(li)O triângulo de seleção permite balancear velocidade máxima, taxa de giro e poder de explosão."
+        },
+        {
+            "type": "text",
+            "text": "$(li)Você pode escolher entre os modos $(thing)Guiado/$ e $(thing)Não Guiado/$: no modo $(thing)Guiado/$, os mísseis travam nos alvos conforme descrito acima, enquanto no modo $(thing)Não Guiado/$ eles simplesmente voam em linha reta até atingir algo, mas com boa velocidade e capacidade de dano.$(li)Você pode filtrar quais entidades atacar digitando um $(l:base_concepts/entity_filter)filtro de entidades/$ no campo $(bold)Filtro de Entidades/$."
+        },
+        {
+            "type": "text",
+            "text": "$(li)O botão $(bold)Salvar como Padrão/$ faz com que as configurações atuais sejam salvas e usadas em todos os pods de mísseis recém-fabricados. Nota: as configurações são salvas no lado do servidor."
+        },
+        {
+            "type": "crafting",
+            "recipe": "pneumaticcraft:micromissiles",
+            "text": "Criando Micromísseis"
+        }
+    ]
 }

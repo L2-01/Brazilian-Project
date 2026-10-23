@@ -1,16 +1,16 @@
 {
-  "name": "FTB Filter System",
-  "category": "modularrouters:filters",
-  "icon": "ftbfiltersystem:smart_filter",
-  "flag": "|mod:ftbfiltersystem",
-  "pages": [
-    {
-      "type": "text",
-      "text": "FTB Filter System é um mod poderoso que permite combinar muitos tipos de condição de filtro de formas interessantes com uma GUI intuitiva. Se o FFS estiver instalado (se você está lendo isto, está!), os itens $(item)Filtro Inteligente/$ do mod podem ser colocados nos espaços de filtro de um módulo e filtrarão itens apropriadamente."
-    },
-    {
-      "type": "text",
-      "text": "Limitação: os Filtros Inteligentes do FFS não podem ser configurados enquanto instalados como os filtros do Modular Routers podem; você precisará ter o item de filtro no seu inventário para reconfigurá-lo."
-    }
-  ]
+    "name": "FTB Filter System",
+    "category": "modularrouters:filters",
+    "icon": "ftbfiltersystem:smart_filter",
+    "flag": "|mod:ftbfiltersystem",
+    "pages": [
+        {
+            "type": "text",
+            "text": "FTB Filter System é um mod poderoso que permite combinar muitos tipos de condição de filtro de formas interessantes com uma interface intuitiva. Se o FFS estiver instalado (se você está lendo isto, está!), itens $(item)Smart Filter/$ do mod podem ser colocados nos espaços de filtro de um módulo e filtrarão itens adequadamente."
+        },
+        {
+            "type": "text",
+            "text": "Limitação: Filtros Inteligentes do FFS não podem ser configurados enquanto instalados, como os filtros do Modular Routers podem; você precisará ter o item de filtro no seu inventário para reconfigurá-lo."
+        }
+    ]
 }

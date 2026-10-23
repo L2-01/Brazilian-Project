@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Para configurá-lo, use o filtro no jogador que você quer filtrar.",
-      "title": "O $(d)Filtro de Jogador$() permite $(3)filtrar por um jogador específico$()."
+      "text": "Para defini-lo, use o Filtro no jogador que quer filtrar.",
+      "title": "O $(d)Filtro de Jogador$() permite $(3)filtrar com base num jogador específico$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:player_filter",
       "link_recipe": true,
-      "text": "Usá-lo agachado o define para você mesmo."
+      "text": "Usá-lo agachado o definirá para você mesmo."
     }
   ]
 }

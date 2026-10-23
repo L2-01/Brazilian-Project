@@ -14,9 +14,9 @@ item_ids:
 
 ## Sobre
 
-O Depurador Atmosférico se especializa em extrair gases e fluidos do ambiente. Ele pode optar por extrair recursos
-ambientais da dimensão, ou pode extrair recursos localizados de locais específicos como os oceanos
-ou pântanos do Overworld.
+O Depurador Atmosférico é especializado em extrair gases e fluidos do ambiente. Ele pode optar por extrair recursos
+ambientais da dimensão, ou pode extrair recursos localizados de locais específicos como os oceanos ou pântanos da
+Superfície.
 
 ## Especificações
 

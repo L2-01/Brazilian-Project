@@ -21,7 +21,7 @@ item_ids:
 
 As Células de Armazenamento de Raios são o meio de armazenamento dedicado a guardar Raios numa rede ME. Assim como as células comuns de itens / fluidos, basta colocar uma num <ItemLink id="ae2:drive" /> para começar a usar.
 
-`Usando o poder espacial do End e a afinidade natural do Cristal de Sobrecarga com Raios, Raios de alta energia são confinados dentro de uma minúscula célula.`
+`Using the spatial power of the End and the natural Lightning affinity of Overload Crystal, high-energy Lightning is constrained inside a tiny cell.`
 
 ## Níveis
 

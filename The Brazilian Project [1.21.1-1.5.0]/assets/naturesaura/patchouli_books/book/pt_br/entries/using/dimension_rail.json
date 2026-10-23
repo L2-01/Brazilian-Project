@@ -6,15 +6,15 @@
     "pages": [
         {
             "type": "text",
-            "text": "Embora $(item)Carrinhos de Mina$() tenham uma capacidade limitada de viajar por qualquer tipo de $(thing)portal$(), montar isso definitivamente é complicado. Os $(item)Trilhos dos Mundos$() resolvem esse problema facilmente: existem três tipos, um para cada dimensão conhecida. Quando um carrinho passa sobre um deles, ele é transportado diretamente para a dimensão designada do trilho, usando um pouco de $(aura) no processo."
+            "text": "Embora os $(item)Vagões$() tenham uma capacidade limitada de viajar por qualquer tipo de $(thing)portal$(), definitivamente é uma montagem complicada de fazer. Os $(item)Trilhos dos Mundos$() resolvem esse problema facilmente: há três tipos, um para cada dimensão conhecida. Quando um vagão passa sobre um deles, ele é transportado para a dimensão designada do trilho diretamente, usando um pouco de $(aura) no processo."
         },
         {
             "type": "text",
-            "text": "A seleção da $(thing)posição$() para a qual os carrinhos de mina são enviados é baseada nas dimensões envolvidas na viagem:$(br)Viajar entre a superfície e o nether fará o carrinho ser enviado para um oitavo de sua posição e vice-versa, semelhante a como portais normais funcionam.$(br)Viajar entre a superfície e o end fará o carrinho ser enviado para a $(thing)plataforma de obsidiana$(), e para o ponto de geração da superfície ao viajar no sentido contrário."
+            "text": "A seleção da $(thing)posição$() para a qual os carrinhos são enviados é baseada nas dimensões envolvidas na viagem:$(br)Viajar entre a Superfície e o Nether fará o carrinho ser enviado para um oitavo da sua posição e de volta, semelhante a como portais normais funcionam.$(br)Viajar entre a Superfície e o End fará o carrinho ser enviado para a $(thing)plataforma de obsidiana$(), e para o ponto de nascimento da Superfície ao viajar no sentido contrário."
         },
         {
             "type": "text",
-            "text": "Usar uma $(l:items/range_visualizer)Lupa Mística$() em qualquer um dos trilhos fará com que a posição de destino seja destacada na dimensão de destino, com o destaque sendo visível $(thing)através de paredes$(), tornando-o fácil de encontrar sem muito trabalho.$(p)A única limitação conhecida desses trilhos é que parece que eles não têm poder suficiente para transportar carrinhos contendo $(thing)seres vivos$()."
+            "text": "Usar uma $(l:items/range_visualizer)Lupa Mística$() em qualquer um dos trilhos fará a posição de destino ser destacada na dimensão de destino, com o destaque visível $(thing)através das paredes$(), tornando-o fácil de encontrar sem muito trabalho.$(p)A única ressalva conhecida desses trilhos é que parece que eles não têm energia suficiente para transportar carrinhos contendo $(thing)seres vivos$()."
         },
         {
             "type": "crafting",

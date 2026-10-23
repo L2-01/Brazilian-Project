@@ -1,0 +1,29 @@
+{
+  "name": "Árvore de Alno",
+  "icon": "enchanted:textures/block/alder_sapling.png",
+  "category": "enchanted:mutated_plants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Árvores de alno, do gênero Alnus, são árvores monóicas distribuídas pela zona temperada norte, que se acredita sangrarem quando cortadas, pois a madeira branca pode ficar vermelha.$(br2)Acredita-se que esta árvore seja tanto uma portadora de infortúnio quanto um repelente de negatividade.$(br2)$(bold)Obtenção:$()$(br)Mutada de plantas pequenas."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "enchanted:alder_sapling"
+        },
+        "pattern": [
+          [
+            "0"
+          ],
+          [
+            " "
+          ]
+        ]
+      }
+    }
+  ],
+  "read_by_default": true
+}

@@ -56,7 +56,7 @@ item_ids:
 </Row>
 
 Bolas de tinta são usadas num <ItemLink id="color_applicator" /> para pintar blocos coloríveis como [cabos](cables.md),
-lã, terracota, vidro e concreto. Elas também podem ser usadas num <ItemLink id="matter_cannon" /> para atirar pequenas manchas de tinta.
+lã, terracota, vidro e concreto. Elas também podem ser usadas num <ItemLink id="matter_cannon" /> para disparar pequenas manchas de tinta.
 
 ## Receitas
 
@@ -82,7 +82,7 @@ lã, terracota, vidro e concreto. Elas também podem ser usadas num <ItemLink id
   <br />
 </Column>
 
-# Bolas de Tinta Luminosas
+# Bolas de Tinta Lumen
 
 <Row gap="-8">
   <ItemImage id="white_lumen_paint_ball" scale="4" />
@@ -96,12 +96,12 @@ lã, terracota, vidro e concreto. Elas também podem ser usadas num <ItemLink id
   <ItemImage id="red_lumen_paint_ball" scale="4" />
 </Row>
 
-Elas agem identicamente às bolas de tinta comuns, mas as manchas emitem luz quando atiradas de um <ItemLink id="matter_cannon" />.
-Útil como uma espécie de sinalizador, eu acho.
+Elas agem identicamente às bolas de tinta comuns, mas as manchas emitem luz quando disparadas de um <ItemLink id="matter_cannon" />.
+Úteis como uma espécie de pistola de sinalização, eu diria.
 
 ## Receitas
 
-8 bolas de tinta ao redor de um pó de pedra-luminosa
+8 bolas de tinta ao redor de um pó de glowstone
 
 <Column>
   <Row>

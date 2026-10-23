@@ -7,8 +7,8 @@ navigation:
   title: Célula de Visualização
 ---
 
-Um item que contém uma configuração semelhante à de uma Célula de Armazenamento, que permite
-personalizar a filtragem de um determinado <ItemLink
-id="terminal"/>.
+Um item que contém uma configuração parecida com a de uma Célula de Armazenamento e permite
+personalizar a filtragem de um <ItemLink
+id="terminal"/> específico.
 
 <RecipeFor id="view_cell" />

@@ -12,38 +12,38 @@
       "images": [
         "modularrouters:textures/patchouli/router_gui.png"
       ],
-      "text": "$(italic)A GUI de um Roteador Modular com vários módulos e melhorias instalados",
+      "text": "$(italic)Uma GUI de Roteador Modular com vários módulos e melhorias instalados",
       "border": true
     },
     {
       "type": "text",
       "title": "1. O Buffer",
-      "text": "O $(thing)Roteador Modular/$ tem um buffer de um espaço, capaz de segurar até uma pilha de itens. Esse buffer é exposto como um inventário normal, então pode ser usado por $(item)Funis/$ e outros sistemas de encanamento de mods.$(p)Além disso, um $(item)Comparador/$ colocado contra o roteador vai medir o quanto o espaço está cheio, como esperado."
+      "text": "O $(thing)Roteador Modular/$ tem um buffer de um espaço, capaz de conter até uma pilha de itens. Este buffer é exposto como um inventário normal, então pode ser interagido via $(item)Funis/$ e outros sistemas de tubulação de mods.$(p)Além disso, um $(item)Comparador/$ colocado contra o roteador medirá a cheiamento do espaço como esperado."
     },
     {
       "type": "text",
-      "title": "2. Espaços de Módulos",
-      "text": "O $(thing)Roteador Modular/$ tem nove espaços para $(l:intro/modules)módulos/$. Cada vez que o roteador executa (entre 1 e 10 vezes por segundo dependendo das Melhorias de Velocidade), ele vai $(thing)executar/$ cada módulo por vez, da esquerda para a direita.$(p)Você pode configurar módulos instalados sem removê-los do roteador pressionando $(4)$(bold)[$(k:modularrouters.configure)]/$ enquanto passa o mouse sobre ele, ou $(thing)clicando com o botão do meio/$ no módulo na GUI."
+      "title": "2. Espaços de Módulo",
+      "text": "O $(thing)Roteador Modular/$ tem nove espaços para $(l:intro/modules)módulos/$. Cada vez que o roteador funciona (entre 1 e 10 vezes por segundo dependendo das Melhorias de Velocidade), ele $(thing)executará/$ cada módulo por vez, da esquerda para a direita.$(p)Você pode configurar módulos instalados sem removê-los do roteador pressionando $(4)$(bold)[$(k:modularrouters.configure)]/$ enquanto passa o mouse sobre ele, ou $(thing)Clicando com o botão do meio/$ no módulo na GUI."
     },
     {
       "type": "text",
-      "title": "3. Espaços de Melhorias",
-      "text": "O $(thing)Roteador Modular/$ tem cinco espaços para $(l:intro/upgrades)melhorias/$. Melhorias aprimoram a funcionalidade do roteador de várias formas; por exemplo, cada $(l:upgrades/speed)Melhoria de Velocidade/$ inserida faz o roteador processar um pouco mais rápido, enquanto cada $(l:upgrades/stack)Melhoria de Pilha/$ permite lidar com mais itens em cada operação."
+      "title": "3. Espaços de Melhoria",
+      "text": "O $(thing)Roteador Modular/$ tem cinco espaços para $(l:intro/upgrades)melhorias/$. Melhorias aprimoram a funcionalidade do roteador de várias formas; por exemplo, cada $(l:upgrades/speed)Melhoria de Velocidade/$ inserida faz o roteador funcionar um pouco mais rápido, enquanto cada $(l:upgrades/stack)Melhoria de Pilha/$ permite que ele processe mais itens em cada operação."
     },
     {
       "type": "text",
       "title": "4. Controle de Redstone",
-      "text": "O $(thing)Roteador Modular/$ tem certa flexibilidade sobre como responde à entrada de redstone, controlada pelo botão no canto superior direito:$(li)Padrão: sempre executar, independente do sinal de redstone$(li)Só executar quando $(italic)não/$ houver sinal de redstone$(li)Só executar quando $(italic)houver/$ sinal de redstone$(li)Nunca executar$(li)Executar $(italic)uma vez/$ quando um pulso de redstone for recebido (qualquer sinal maior que o anterior)."
+      "text": "O $(thing)Roteador Modular/$ tem alguma flexibilidade sobre como responde à entrada de redstone, controlada pelo botão no canto superior direito:$(li)Padrão: sempre funcionar, independente do sinal de redstone$(li)Só funcionar quando $(italic)não/$ houver sinal de redstone$(li)Só funcionar quando $(italic)houver/$ sinal de redstone$(li)Nunca funcionar$(li)Funcionar $(italic)uma vez/$ quando um pulso de redstone for recebido (qualquer sinal maior que o anterior)."
     },
     {
       "type": "text",
       "title": "5. Modo Eco",
-      "text": "No espírito de ser ambientalmente amigável, o roteador tem uma opção de diminuir automaticamente o ritmo se ficar ocioso por um tempo.$(p)Quando o Modo Eco está ativado, se o roteador não fez nenhum trabalho nos últimos $(ttcolor)$(t:Ajustável na config do mod - 'ecoTimeout')5 segundos/$, ele desacelera e só processa uma vez a cada $(ttcolor)$(t:Ajustável na config do mod - 'lowPowerTickRate')5 segundos/$ (independente das $(l:upgrades/speed)Melhorias de Velocidade/$). Porém, assim que faz qualquer trabalho, volta à velocidade normal."
+      "text": "Num espírito ecologicamente correto, o roteador tem uma opção de desacelerar automaticamente se ficar ocioso por um tempo.$(p)Quando o Modo Eco está ativado, se o roteador não tiver feito nenhum trabalho nos últimos $(ttcolor)$(t:Adjustable in mod config - 'ecoTimeout')5 segundos/$, ele desacelerará e só funcionará uma vez a cada $(ttcolor)$(t:Adjustable in mod config - 'lowPowerTickRate')5 segundos/$ (independente das $(l:upgrades/speed)Melhorias de Velocidade/$). No entanto, assim que fizer qualquer trabalho, ele retornará à velocidade normal de tiques."
     },
     {
       "type": "text",
       "title": "Modo Eco (cont.)",
-      "text": "Isso é feito principalmente para servidores ocupados, para economizar ciclos de CPU, mas pode ser útil para qualquer roteador que raramente executa e onde transferência rápida de itens não é tão importante (ex.: uma fazenda de ovelhas onde um $(l:modules/vacuum)Módulo de Vácuo/$ coleta lã tosquiada periodicamente)."
+      "text": "Isto é pensado principalmente para servidores ocupados, para economizar ciclos de CPU, mas pode ser bom ter para qualquer roteador que funcione raramente e onde a transferência rápida de itens não seja tão importante (ex.: uma fazenda de ovelhas onde você pode ter um $(l:modules/vacuum)Módulo de Vácuo/$ coletando lã tosquiada periodicamente)."
     },
     {
       "type": "crafting",

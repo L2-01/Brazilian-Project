@@ -7,7 +7,7 @@
     {
       "type": "patchouli:text",
       "title": "Acelerador da Colmeia",
-      "text": "Você pode usar o Acelerador da Colmeia para fazer sua abelha produzir ainda mais rápido. Ele precisa de energia e de um Eletrodo para funcionar; Eletrodos melhores dão um bônus de velocidade maior.$(br)Quando você usa vários aceleradores ao mesmo tempo, os bônus de velocidade são aditivos. Isso significa que dois Eletrodos de Netherita (+400%) podem fazer as abelhas trabalharem x9 (+800%) mais rápido."
+      "text": "Você pode usar o Acelerador da Colmeia para fazer suas abelhas produzirem ainda mais rápido. Ele precisa de energia e de um Eletrodo para funcionar; eletrodos melhores dão mais velocidade.$(br)Ao usar vários aceleradores ao mesmo tempo, os bônus de velocidade se somam. Isso significa que dois Eletrodos de Netherita (+400%) fazem as abelhas trabalharem 9x mais rápido (+800%)."
     },
     {
       "type": "patchouli:crafting",
@@ -17,7 +17,7 @@
     {
       "type": "patchouli:text",
       "title": "Eletrodo",
-      "text": "Há quatro níveis de eletrodos, e você pode encontrar seus bônus no JEI/tooltip.$(br)Os eletrodos sofrerão mais dano quanto mais abelhas houver na colmeia. A fórmula: floor[(x/15+1)*(1.03^x)], onde x é a quantidade de abelhas."
+      "text": "Existem quatro níveis de eletrodos; você pode ver seus bônus no JEI/tooltip.$(br)Os eletrodos sofrem mais dano quanto mais abelhas houver na colmeia. A fórmula: piso[(x/15+1)*(1.03^x)], x é a quantidade de abelhas."
     },
     {
       "type": "patchouli:crafting",

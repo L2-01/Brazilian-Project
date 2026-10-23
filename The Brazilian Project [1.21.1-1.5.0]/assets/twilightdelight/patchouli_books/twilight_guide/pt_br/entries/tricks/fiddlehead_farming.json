@@ -3,14 +3,14 @@
   "icon": "twilightdelight:fiddlehead_clump",
   "category": "twilightdelight:tricks",
   "pages": [
-	{
-	  "type": "patchouli:text",
-	  "text": "Plante um Broto de Samambaia em Solo Rico ou Solo Rico do Crepúsculo e ele virará um Aglomerado de Broto de Samambaia.$(br2)O aglomerado cresce por 4 estágios em solo que sustenta colônias. Mantenha o espaço acima vazio para que folhas altas possam brotar, e use Farinha de Ossos para acelerar o processo."
-	},
-	{
-	  "type": "patchouli:spotlight",
-	  "item": "twilightdelight:fiddlehead_clump",
-	  "text": "Quebrar um aglomerado crescido larga de 2 a 5 Brotos de Samambaia, dependendo do estágio.$(br2)No crescimento completo, colha-o com Tesouras para pegar o próprio Aglomerado, ou corte-o numa Tábua de Corte com uma faca para obter 5 Brotos de Samambaia."
-	}
+    {
+      "type": "patchouli:text",
+      "text": "Plante o Broto de Samambaia em Solo Rico ou Solo Rico do Crepúsculo e ele virará um Aglomerado de Broto de Samambaia.$(br2)O aglomerado cresce por 4 estágios em solo que suporta colônias. Mantenha o espaço acima livre para que frondes altas brotem, e use Farinha de Osso para acelerar."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightdelight:fiddlehead_clump",
+      "text": "Quebrar um aglomerado crescido dropa 2 a 5 Brotos de Samambaia dependendo do estágio.$(br2)Em crescimento total, colha-o com Tesoura para pegar o próprio Aglomerado, ou corte-o numa Tábua de Corte com uma faca para obter 5 Brotos de Samambaia."
+    }
   ]
 }

@@ -10,8 +10,8 @@ navigation:
   title: Baú de Pedra do Céu
 ---
 
-Baús podem ser fabricados com <ItemLink id="sky_stone_block" /> encontrada em meteoritos.
-Eles são resistentes a explosões e comportam até 36 pilhas de itens.
+Baús podem ser fabricados com a <ItemLink id="sky_stone_block" /> encontrada em meteoritos.
+Eles são resistentes a explosões e comportam até 36 pacotes de itens.
 
 <div className="level"><div className="level-left">
 

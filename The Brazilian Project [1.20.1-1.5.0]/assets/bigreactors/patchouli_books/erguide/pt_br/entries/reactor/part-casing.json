@@ -9,19 +9,19 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:reinforced_reactorcasing",
             "link_recipe": true,
-            "title" : "Revestimento",
-            "text": "Os blocos de Revestimento são os blocos de construção do Reator.$(br2)São necessários para construir sua moldura e também são usados para fabricar as outras peças. Blocos de Revestimento também podem ser usados para preencher as faces do Reator, se você não gostar muito de vidro.$(br2)Você vai fabricar uma tonelada deles."
+            "title": "Revestimento",
+            "text": "Blocos de Revestimento são os blocos de construção do Reator.$(br2)Eles são exigidos para construir sua moldura e também são usados para fabricar as outras partes. Blocos de Revestimento também podem ser usados para preencher as faces do Reator se você não gostar muito de vidro.$(br2)Você vai fabricar uma tonelada deles."
         },
         {
             "type": "bigreactors:crafting1x",
-            "title1": "Basic",
+            "title1": "Básico",
             "recipe1": "bigreactors:reactor/basic/casing",
-            "title2": "Reinforced",
+            "title2": "Reforçado",
             "recipe2": "bigreactors:reactor/reinforced/casing"
         },
         {
             "type": "bigreactors:part_usage",
-            "text": "$(l)Obrigatório:$() são necessários para construir a moldura$(br)$(l)Posições válidas:$() qualquer$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não"
+            "text": "$(l)Obrigatória:$() são exigidas para construir a moldura$(br)$(l)Posições válidas:$() qualquer uma$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não"
         }
     ]
 }

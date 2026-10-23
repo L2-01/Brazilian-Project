@@ -1,12 +1,12 @@
 {
-  "name": "Noções de Gosma",
+  "name": "Básico de Gosma",
   "sortnum": 0,
   "category": "justdirethings:goo",
   "icon": "justdirethings:gooblock_tier1",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A gosma é uma substância transformativa capaz de alterar certos blocos colocados adjacentes a ela. Cada nível de gosma tem a capacidade de consumir e converter blocos mais fortes em recursos novos e avançados.$(br2)Esse sistema permite o desbloqueio progressivo de materiais e capacidades de fabricação."
+      "text": "A gosma é uma substância transformativa que pode alterar certos blocos colocados adjacentes a ela. Cada nível de gosma tem a capacidade de consumir e converter blocos mais fortes em novos recursos avançados.$(br2)Esse sistema permite o desbloqueio progressivo de materiais e capacidades de fabricação."
     },
     {
       "type": "patchouli:text",
@@ -14,7 +14,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Nota: após transformar um bloco, há 10% de chance de a gosma precisar de reativação ao alimentá-la com outro item. Enquanto inativa, a gosma não pode iniciar novas transformações, mas qualquer processo em andamento continuará até o fim.$(br2)Gosmas de nível maior sempre podem fabricar tudo que uma de nível menor pode, e são bem mais rápidas."
+      "text": "Nota: após transformar um bloco, há 10% chance de a gosma precisar ser reativada, alimentando-a com outro item. Enquanto inativa, a gosma não pode iniciar novas transformações, mas qualquer processo em andamento continuará até o fim.$(br2)Gosmas de nível superior sempre podem fabricar tudo o que uma de nível inferior pode, e são bem mais rápidas."
     }
   ]
 }

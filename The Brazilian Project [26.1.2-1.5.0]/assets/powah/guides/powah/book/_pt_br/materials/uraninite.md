@@ -10,6 +10,6 @@ navigation:
 
 ![](./uraninite.png)
 
-Minério de Uraninita é um minério raramente encontrado no subsolo nos níveis 1 - 64 para pobres, nos níveis 1 - 32 para o normal, e nos níveis 1 - 16 para denso, e é encontrado em depósitos de 1 - 4 blocos. 
+O Minério de Uraninita é um minério raramente encontrado no subsolo em níveis abaixo de 64 na versão pobre, abaixo de 20 na normal e abaixo de 0 na densa, sendo encontrado em jazidas de 1 a 5 blocos. 
 
-Um ferro ou uma picareta melhor é necessária para minerá-lo e, quando extraído, ele dropará 1 pedaço de uraninita bruta com base no tipo de minério (a quantidade dropada é afetada pela fortuna). 
+É necessária uma picareta de ferro ou melhor para minerá-lo, e ao ser minerado dropa 1 peça de Uraninita Bruta conforme o tipo do minério (a quantidade dropada é afetada por fortuna). 

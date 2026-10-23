@@ -1,0 +1,18 @@
+{
+  "name": "Gato",
+  "icon": "enchanted:textures/patchouli/black_cat.png",
+  "category": "enchanted:familiars",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Gatos são os familiares mais comuns que você verá perto de Bruxas. Ter um gato familiar aumenta a potência das maldições e da remoção de maldições.$(br2)Gatos podem ser encontrados e domesticados em vilas e cabanas do pântano."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "enchanted:textures/patchouli/black_cat.png"
+      ]
+    }
+  ],
+  "read_by_default": true
+}

@@ -1,34 +1,19 @@
 {
-
-"name": "Outros Blocos Decorativos",
-    "icon": "merrymaking:quartz_platter",
-    "category": "merrymaking:other",
-    "pages": [
-	
-		{
-			"type": "spotlight",
-			"title": "Travessa de Quartzo",
-			"item": "merrymaking:quartz_platter",			
-			"text": "Os blocos a seguir são apenas decorativos, mas são usados nas receitas de Ceia e Bandeja de Comida: $(br2)$(li)Travessa de Quartzo $(li)Bandeja de Madeira"
-		},
-		
-				
-				
-		{
-			"type": "crafting",	
-			"title": "Bandejas de Comida Decorativas",
-			"recipe": "merrymaking:quartz_platter",
-			"recipe2": "merrymaking:empty_tray"
-		}
-		
-		
-		
-		
-		
-		
-		
-		
-		]
-	
-	
+  "name": "Outros Blocos Decorativos",
+  "icon": "merrymaking:quartz_platter",
+  "category": "merrymaking:other",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Travessa de Quartzo",
+      "item": "merrymaking:quartz_platter",
+      "text": "Os blocos a seguir são apenas decorativos, mas são usados nas receitas de Ceia e Bandeja de Comida: $(br2)$(li)Travessa de Quartzo $(li)Bandeja de Madeira"
+    },
+    {
+      "type": "crafting",
+      "title": "Bandejas de Comida Decorativas",
+      "recipe": "merrymaking:quartz_platter",
+      "recipe2": "merrymaking:empty_tray"
+    }
+  ]
 }

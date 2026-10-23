@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:graveyard_soil
 categories:
-  - Solos de Farm de Criaturas
+  - MobFarm Soils
 ---
 # Solo de Cemitério
 
@@ -15,4 +15,4 @@ categories:
 
 ## Comportamento
 
-Mortos-vivos (`#minecraft:undead`) parados sobre solo de cemitério são **curados** num intervalo aleatório.
+Mortos-vivos (`#minecraft:undead`) parados sobre o solo de cemitério são **curados** num intervalo aleatório.

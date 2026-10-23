@@ -1,0 +1,16 @@
+{
+    "name": "Gerando seu novo pet",
+    "icon": "petrock:petrockbox",
+    "category": "petrock:order_category",
+    "pages": [
+        {
+            "type": "text",
+            "title": "Como Gerar",
+            "text": "Este item gerará uma nova Pedra de Estimação não domesticada onde você clicou"
+        },
+        {
+            "type": "entity",
+            "entity": "petrock:petrock"
+        }
+    ]
+}

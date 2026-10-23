@@ -1,19 +1,19 @@
 {
-  "name": "Widget de Condição de Drone: Fluido",
-  "icon": "pneumaticcraft:textures/progwidgets/condition_drone_liquid_piece.png",
-  "category": "pneumaticcraft:widget_cond",
-  "advancement": "pneumaticcraft:programmer",
-  "pages": [
-    {
-      "type": "text",
-      "text": "Este é um widget de $(l:programming/conditions)Condição/$.$(p)O widget $(thing)Condição de Drone: Fluido/$ permite verificar o tanque deste $(l:tools/drone)Drone/$ por uma certa quantidade de fluido. Ele só contará o fluido permitido por um $(l:programming/liquid_filter)Filtro de Fluido/$ conectado (ou sem filtro para contar qualquer fluido)."
-    },
-    {
-      "type": "image",
-      "images": [
-        "pneumaticcraft:textures/progwidgets/condition_drone_liquid_piece.png"
-      ],
-      "text": "$(italic)Widget de Condição de Drone: Fluido/$"
-    }
-  ]
+    "name": "Widget de Condição do Drone: Fluido",
+    "icon": "pneumaticcraft:textures/progwidgets/condition_drone_liquid_piece.png",
+    "category": "pneumaticcraft:widget_cond",
+    "advancement": "pneumaticcraft:programmer",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Este é um widget de $(l:programming/conditions)Condição/$.$(p)O widget $(thing)Condição de Drone: Fluido/$ permite verificar o tanque deste $(l:tools/drone)Drone/$ em busca de uma certa quantidade de fluido. Ele só contará o fluido permitido por um $(l:programming/liquid_filter)Filtro de Fluido/$ conectado (ou sem filtro para contar qualquer fluido)."
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/progwidgets/condition_drone_liquid_piece.png"
+            ],
+            "text": "$(italic)Widget de Condição do Drone: Fluido/$"
+        }
+    ]
 }

@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Bigorna de Liga de Eclipse
+  title: Bigorna de Liga Eclipse
   icon: "justdynathings:eclipse_alloy_anvil"
   position: 4
   parent: justdynathings:anvils.md
@@ -8,10 +8,10 @@ item_ids:
   - justdynathings:eclipse_alloy_anvil
 ---
 
-# Bigorna de Liga de Eclipse
+# Bigorna de Liga Eclipse
 
-Uma bigorna que repara itens usando Forge Energy (FE) como a <ItemLink id="justdynathings:celestigem_anvil"/>
-Além disso, quando adicionado um [refrigerante](https://github.com/DevDyna/JustDynaThings/blob/main/src/generated/resources/data/justdynathings/data_maps/fluid/anvils/eclipsealloy_repair.json), ela irá repará-lo com base em `coolant-efficiency / 100 x total-damage` que o item pode receber mais que 1000 a cada tique ou irá reparar completamente
+Uma bigorna que repara itens usando Forge Energy (FE), como a <ItemLink id="justdynathings:celestigem_anvil"/>.
+Além disso, ao adicionar um [refrigerante](https://github.com/DevDyna/JustDynaThings/blob/main/src/generated/resources/data/justdynathings/data_maps/fluid/anvils/eclipsealloy_repair.json), ela reparará com base em `coolant-efficiency / 100 x total-damage`; se o item receber mais que 1000 por tick, será reparado por completo.
 
 <BlockImage id="justdynathings:eclipse_alloy_anvil" scale="4.0"/>
 

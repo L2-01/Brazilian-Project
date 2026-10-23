@@ -1,32 +1,34 @@
 {
-  "name": "3) Inscritor",
-  "category": "ae2:getting_started",
-  "icon": "ae2:inscriber",
-  "sortnum": 30,
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "O $(thing)Inscritor$() é um método de fabricação comum no AE2. É usado para fabricar $(thing)Processadores$() e certos $(thing)Pós$().$(br2)O $(thing)Inscritor$() aceita $(l:ae2:concepts/power)Energia da Rede e a maioria das formas de energia externa$(/l), ou pode ser alimentado manualmente com uma $(l:ae2:getting_started/crank)Manivela de Madeira$(/l).$(br2)Ele é $(l:ae2:concepts/sided)Direcional$(/l) e pode ser $(l:ae2:equipment/wrench)Girado$(/l)."
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "ae2:network/blocks/inscribers",
-      "text": "Direcionalidade da orientação padrão:$(li)Entrada de cima = lado de \"Cima\"$(li)Entrada do meio = \"Laterais\"$(li)Entrada de baixo = lado de \"Baixo\"$(li)Saída = \"Laterais\"$(br)Laterais: Norte, Leste, Sul, Oeste$(br2)Os itens nos espaços de entrada não empilham."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Os $(thing)Inscritores$() têm 3 espaços de $(item)Melhoria de Cartão$() e só aceitam $(l:ae2:misc/cards/acceleration)Cartões de Aceleração$(/l). Eles melhoram significativamente a velocidade de processamento.$(br2)Você vai querer automatizar o $(thing)Inscritor$(). Um exemplo de início de jogo é usar $(item)Funis$(). Por causa da Direcionalidade do $(thing)Inscritor$() e dos lados limitados de interação dos $(item)Funis$(), você vai querer girar o $(thing)Inscritor$() usando uma $(l:ae2:equipment/wrench)Chave-Inglesa de Quartzo$(/l)."
-    },
-    {
-      "type": "patchouli:image",
-      "images": ["ae2:textures/patchouli/images/inscriber_setup.png"],
-      "border": true,
-      "title": "Exemplo de Semi-Automação"
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Receitas Notáveis",
-      "text": "$(todo)<ToDo: Processador de Receitas do Inscritor. Por favor use JEI ou REI por enquanto>$()$(li)Circuitos Impressos e Silício$(li)Processadores$(li)Pó de Quartzo Certus$(li)Pó de Fluix$(li)Pó do Fim$(li)Pó de Pedra do Céu$(li)Copiar Prensas do Inscritor$(br2)Lógico = Lingote de Ouro$(br)Engenharia = Diamante$(br)Cálculo = Quartzo Certus"
-    }
-  ]
+    "name": "3) Inscritor",
+    "category": "ae2:getting_started",
+    "icon": "ae2:inscriber",
+    "sortnum": 30,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(thing)Inscritor$() é um método de fabricação comum no AE2. É usado para fabricar $(thing)Processadores$() e certos $(thing)Pós$().$(br2)O $(thing)Inscritor$() aceita $(l:ae2:concepts/power)Energia da Rede e a maioria das formas externas de energia$(/l), ou pode ser alimentado manualmente usando uma $(l:ae2:getting_started/crank)Manivela de madeira$(/l).$(br2)Ele tem $(l:ae2:concepts/sided)Lados$(/l) e pode ser $(l:ae2:equipment/wrench)Girado$(/l)."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "ae2:network/blocks/inscribers",
+            "text": "Lados da Orientação Padrão:$(li)Entrada Superior = Lado \"Topo\"$(li)Entrada Central = \"Laterais\"$(li)Entrada Inferior = Lado \"Base\"$(li)Saída = \"Laterais\"$(br)Laterais: Norte, Leste, Sul, Oeste$(br2)Os itens nos Espaços de Entrada não se empilham."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Os $(thing)Inscritores$() têm 3 Espaços de $(item)Cartão de Melhoria$() e só aceitam $(l:ae2:misc/cards/acceleration)Cartões de Aceleração$(/l). Eles melhoram significativamente a velocidade de processamento.$(br2)Você vai querer automatizar o $(thing)Inscritor$(). Um exemplo inicial é usar $(item)Funis$(). Por causa da Orientação por Lados do $(thing)Inscritor$() e dos lados limitados de interação dos $(item)Funis$(), você vai querer girar o $(thing)Inscritor$() usando uma $(l:ae2:equipment/wrench)Chave Inglesa de Quartzo$(/l)."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "ae2:textures/patchouli/images/inscriber_setup.png"
+            ],
+            "border": true,
+            "title": "Exemplo de Semi-Automação"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Receitas Notáveis",
+            "text": "$(todo)<ToDo: Processador de Receitas do Inscritor. Por enquanto, use o JEI ou o REI>$()$(li)Circuitos Impressos e Silício$(li)Processadores$(li)Pó de Quartzo Certus$(li)Pó de Fluix$(li)Pó de Ender$(li)Pó de Pedra do Céu$(li)Copiar Placas do Inscritor$(br2)Lógica = Barra de Ouro$(br)Engenharia = Diamante$(br)Cálculo = Quartzo Certus"
+        }
+    ]
 }

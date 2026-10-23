@@ -2,19 +2,18 @@
     "name": "Seu Primeiro Reator",
     "icon": "bigreactors:basic_reactorcasing",
     "category": "bigreactors:intro",
-
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "O Reator é uma máquina multibloco cuja função principal é produzir energia — e muita.$(br2)Uma máquina multibloco é composta por vários blocos diferentes que você colocará no mundo lado a lado.$(br2)Para fabricar e alimentar o Reator você precisa de lingotes de Yellório, então vá minerar um pouco de Minério de Yellório e funda-o imediatamente!"
+            "text": "O Reator é uma máquina multibloco cuja função principal é produzir energia — e muita.$(br2)Uma máquina multibloco é composta por muitos blocos diferentes que você colocará no mundo lado a lado.$(br2)Para fabricar e alimentar o Reator, você precisa de lingotes de Yellório, então vá minerar Minério de Yellorita e derreta-o já!"
         },
         {
             "type": "bigreactors:zcmultiblock",
-            "multiblock_id" : "bigreactors:bookfirstbasicreactor"
+            "multiblock_id": "bigreactors:bookfirstbasicreactor"
         },
         {
             "type": "patchouli:text",
-            "text": "Para construir seu primeiro Reator você precisa fabricar os seguintes blocos de Reator Básico:$(br2)$(li)22x Revestimento$(li)1x Controlador$(li)1x Haste de Controle$(li)1x Barra de Combustível$(li)1x Porta de Acesso Sólido$(li)1x Saída de Energia FE Ativa$(br2)O bloco de Vidro é na verdade opcional e pode ser substituído por outro bloco de Revestimento."
+            "text": "Para construir seu primeiro Reator, você precisa fabricar os seguintes blocos de Reator Básico:$(br2)$(li)22x Revestimento$(li)1x Controlador$(li)1x Haste de Controle$(li)1x Barra de Combustível$(li)1x Porta de Acesso Sólido$(li)1x Saída de Energia FE Ativa$(br2)O bloco de Vidro é opcional e pode ser substituído por outro bloco de Revestimento."
         },
         {
             "type": "bigreactors:crafting1x",
@@ -41,27 +40,27 @@
             "type": "bigreactors:crafting-text",
             "title": "Saída de Energia Forge",
             "recipe": "bigreactors:reactor/basic/activetap_fe",
-            "text": "Depois de fabricar todos os blocos necessários, você está pronto para construir seu primeiro Reator.$(br2)Coloque os blocos no seu mundo usando o diagrama a seguir, colocando a Barra de Combustível no centro com um Revestimento abaixo."
+            "text": "Depois de fabricar todos os blocos necessários, você está pronto para construir seu primeiro Reator.$(br2)Coloque os blocos no seu mundo seguindo o diagrama a seguir, colocando a Barra de Combustível no centro com um Revestimento abaixo."
         },
         {
             "type": "bigreactors:zcmultiblock",
-            "multiblock_id" : "bigreactors:bookfirstbasicreactor"
+            "multiblock_id": "bigreactors:bookfirstbasicreactor"
         },
         {
             "type": "patchouli:text",
-            "text": "Se tudo correr bem, quando você colocar o último bloco, o Reator se formará e você poderá abrir a interface do Controlador clicando com o botão direito no bloco Controlador.$(br2)Se nada acontecer, clique com o botão direito em qualquer bloco que você colocou: você receberá uma mensagem de erro que deve explicar qual é o problema. Depois de corrigir, você deve ter um Reator formado ou outra mensagem de erro esperando por você."
+            "text": "Se tudo der certo, ao colocar o último bloco o Reator se formará, e você poderá abrir a interface do Controlador clicando com o botão direito no bloco do Controlador.$(br2)Se nada acontecer, clique com o botão direito em qualquer bloco colocado: você receberá uma mensagem de erro explicando o problema. Depois de corrigir, você terá um Reator formado — ou outra mensagem de erro à sua espera."
         },
         {
             "type": "patchouli:text",
-            "text": "Agora que seu Reator está pronto, é hora de colocar combustível nele.$(br2)Pegue mais lingotes de Yellório e clique com o botão direito na Porta de Acesso Sólido. Defina a Porta para o modo Entrada e coloque seus lingotes no slot de entrada.$(br2)Os lingotes serão rapidamente consumidos pelo Reator e transformados em combustível.$(br2)Abra a interface do Controlador e ligue seu Reator!"
+            "text": "Agora que seu Reator está pronto, é hora de colocar combustível nele.$(br2)Pegue mais lingotes de Yellório e clique com o botão direito na Porta de Acesso Sólido. Defina a Porta para o modo de entrada e coloque seus lingotes no espaço de entrada.$(br2)Os lingotes serão rapidamente consumidos pelo Reator e transformados em combustível.$(br2)Abra a interface do Controlador e ligue seu Reator!"
         },
         {
             "type": "patchouli:text",
-            "text": "Conforme o Reator esquenta, energia é produzida lentamente e o buffer interno de energia é preenchido.$(br2)Para usar a energia armazenada dentro do Reator você precisa conectar algum tipo de tubo de energia ou uma máquina à Saída de Energia Forge Ativa.$(br)A Saída de Energia enviará energia para o bloco conectado (se ele puder aceitá-la)"
+            "text": "Conforme o Reator esquenta, energia é produzida lentamente e o buffer interno de energia é preenchido.$(br2)Para usar a energia armazenada no Reator, você precisa conectar algum tipo de cano de energia ou máquina à Saída de Energia Forge Ativa.$(br)A Saída de Energia enviará energia ao bloco conectado (se ele puder aceitá-la)."
         },
         {
             "type": "patchouli:text",
-            "text": "Parabéns, você construiu seu primeiro Reator!$(br2)Use-o para gerar toda a energia necessária para o começo do jogo e depois siga para construir outros Reatores e Turbinas após ler o restante deste manual."
+            "text": "Parabéns, você construiu seu primeiro Reator!$(br2)Use-o para gerar toda a energia necessária no início do jogo e depois parta para construir outros Reatores e Turbinas após ler o restante deste manual."
         }
     ]
 }

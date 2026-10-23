@@ -9,19 +9,19 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:reinforced_turbinerotorblade",
             "link_recipe": true,
-            "title" : "Lâmina do Rotor",
-            "text": "A Lâmina do Rotor é o último componente do seu $(l:bigreactors:turbine/rotor)Rotor$(/l), mas é a que vai fazê-lo girar.$(br2)Uma Lâmina do Rotor só pode ser colocada perpendicularmente a um bloco de $(l:bigreactors:turbine/part-rotorshaft)Eixo do Rotor$(/l) ou ao lado de uma Lâmina já colocada, afastando-se do bloco do eixo."
+            "title": "Lâmina do Rotor",
+            "text": "A Lâmina do Rotor é o último componente do seu $(l:bigreactors:turbine/rotor)Rotor$(/l), mas é a que fará o rotor girar.$(br2)Uma Lâmina do Rotor só pode ser colocada perpendicularmente a um bloco de $(l:bigreactors:turbine/part-rotorshaft)Eixo do Rotor$(/l) ou ao lado de uma Lâmina já colocada, afastando-se do bloco do eixo."
         },
         {
             "type": "bigreactors:crafting1x",
-            "title1": "Basic",
+            "title1": "Básico",
             "recipe1": "bigreactors:turbine/basic/blade",
-            "title2": "Reinforced",
+            "title2": "Reforçado",
             "recipe2": "bigreactors:turbine/reinforced/blade"
         },
         {
             "type": "bigreactors:part_usage",
-            "text": "$(l)Obrigatório:$() sim$(br)$(l)Posições válidas:$() dentro da Turbina, conectada a outra Lâmina ou a um bloco de Eixo do Rotor$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não"
+            "text": "$(l)Obrigatória:$() sim$(br)$(l)Posições válidas:$() dentro da Turbina, conectada a outra Lâmina ou a um bloco de Eixo do Rotor$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não"
         }
     ]
 }

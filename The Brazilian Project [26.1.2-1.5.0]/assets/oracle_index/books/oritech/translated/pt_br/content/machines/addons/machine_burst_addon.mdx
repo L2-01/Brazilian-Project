@@ -1,0 +1,32 @@
+---
+title: Complemento de Rajada
+id: oritech:machine_burst_addon
+type: block
+custom:
+    Velocidade: "8x a velocidade normal"
+    Duração da rajada: "+240 tiques"
+---
+
+O Complemento de Rajada permite que as máquinas operem em velocidades muito
+maiores por curtos períodos.
+Quando ativo, ele faz a máquina rodar a 8x a velocidade normal.
+
+Aplicável a todas as máquinas que processam receitas (ex.: pulverizadores, fornalhas, centrífugas, etc.)
+
+Máquinas usando complementos de rajada podem superaquecer se usadas por tempo demais.
+Se o tempo de rajada for excedido, a máquina entrará em um estado limitado,
+operando a 80% da velocidade normal e consumindo 20% mais energia
+até esfriar.
+
+<Callout variant="info">
+    Complementos de rajada são melhores para tarefas de processamento intermitentes, mas não são
+    recomendados para máquinas que precisam rodar continuamente.
+</Callout>
+
+**Gerenciando as Rajadas**
+
+Cada complemento de rajada aumenta a duração máxima da rajada em 12 segundos.
+Para evitar o superaquecimento, a máquina precisa parar de processar periodicamente
+para permitir que o medidor de rajada recarregue.
+Quando um complemento de rajada está ativo, a interface da máquina mostra o
+tempo de rajada restante.

@@ -14,7 +14,7 @@ item_ids:
 
 <BlockImage id="fluix_block" scale="8" />
 
-O bloco de armazenamento para <ItemLink id="fluix_crystal" />. Também é usado nas receitas de algumas máquinas.
+O bloco de armazenamento do <ItemLink id="fluix_crystal" />. Também é usado nas receitas de algumas máquinas.
 
 ## Receita
 

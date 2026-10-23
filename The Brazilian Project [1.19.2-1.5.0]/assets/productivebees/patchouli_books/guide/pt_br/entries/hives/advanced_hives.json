@@ -1,0 +1,26 @@
+{
+    "name": "Colmeias Avançadas",
+    "icon": "productivebees:advanced_oak_beehive",
+    "category": "productivebees:hives",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "productivebees:advanced_oak_beehive",
+            "text": "O Productive Bees expande a colmeia do jogo padrão com uma Colmeia Avançada. Diferente da colmeia do jogo padrão, a colmeia avançada não requer uma fogueira por perto para ser coletada; ela pode ser quebrada e movida com as abelhas ainda dentro, sem o uso de toque suave."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "productivebees:hives/advanced_oak_beehive",
+            "text": "Existem muitas variantes de colmeias avançadas disponíveis dependendo de quais outras madeiras estão disponíveis no seu pack."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "As Colmeias Avançadas possuem uma GUI de onde você pode ver quais abelhas estão dentro da colmeia, bem como retirar quaisquer recursos produzidos. As Colmeias Avançadas podem ser melhoradas ainda mais usando uma $(l:hives/expansion_boxes)caixa de expansão$(/l). Anexar uma $(l:hives/expansion_boxes)caixa de expansão$(/l) aumentará a capacidade de abelhas de 3 para 5 e permitirá que $(l:items/upgrades)melhorias$(/l) sejam instaladas."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Se você estiver cansado de esperar as abelhas terminarem seu trabalho e saírem da colmeia, pode bater na colmeia ou no ninho com uma vara para forçá-las a sair, perdendo todo o progresso de produção. Isso só funciona se for seguro para as abelhas saírem."
+        }
+    ]
+}

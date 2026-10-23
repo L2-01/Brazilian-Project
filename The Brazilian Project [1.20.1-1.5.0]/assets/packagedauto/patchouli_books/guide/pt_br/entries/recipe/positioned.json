@@ -17,7 +17,7 @@
 		{
 			"type": "patchouli:text",
 			"title": "Uso (cont.)",
-			"text": "Você pode usar $(thing)$(k:sneak) + $(k:use)/$ num $(item)Marcador do Distribuidor/$ vinculado ou colocá-lo numa grade de fabricação para desvinculá-lo.$(p)Você pode usar $(thing)$(k:sneak) + $(k:use)/$ com a mão vazia num $(item)Distribuidor de Pacotes Posicionado/$ para mostrar seu alcance e alvos atuais.$(p)Você pode combinar um $(item)Marcador do Distribuidor/$ vinculado com outros não vinculados numa grade de fabricação para copiar o conteúdo."
+			"text": "Você pode $(thing)$(k:sneak) + $(k:use)/$ um $(item)Marcador do Distribuidor/$ vinculado ou colocá-lo numa grade de fabricação para desvinculá-lo.$(p)Você pode $(thing)$(k:sneak) + $(k:use)/$ com a mão vazia num $(item)Distribuidor de Pacotes Posicionado/$ para mostrar seu alcance e alvos atuais.$(p)Você pode combinar um $(item)Marcador do Distribuidor/$ vinculado com desvinculados numa grade de fabricação para copiar o conteúdo."
 		},
 		{
 			"type": "patchouli:text",
@@ -27,13 +27,13 @@
 		{
 			"type": "patchouli:text",
 			"title": "Clonagem de Ajustes",
-			"text": "Usando o $(l:core/settings_cloner)Clonador de Ajustes de Empacotamento/$, você pode copiar e colar os ajustes de alvo atuais de um $(item)Distribuidor de Pacotes Posicionado/$.$(p)Para colar os ajustes de alvo, você precisa ter $(item)Marcadores do Distribuidor/$ vazios suficientes no seu inventário."
+			"text": "Usando o $(l:core/settings_cloner)Clonador de Configurações de Empacotamento/$, você pode copiar e colar a configuração de alvo atual de um $(item)Distribuidor de Pacotes Posicionado/$.$(p)Para colar as configurações de alvo, você precisa ter $(item)Marcadores de Distribuidor/$ vazios suficientes no seu inventário."
 		},
 		{
 			"type": "patchouli:text",
 			"flag": "mod:ae2",
 			"title": "Integração com AE2",
-			"text": "O $(item)Distribuidor de Pacotes Posicionado/$ pode ser conectado a uma $(thing)Rede ME/$.$(p)Nesse caso, ele ejetará os itens pendentes na rede se algum inventário-alvo se tornar inválido."
+			"text": "O $(item)Distribuidor de Pacotes Posicionado/$ pode ser conectado a uma $(thing)Rede ME/$.$(p)Em vez disso, ele ejetará os itens pendentes para a rede se algum inventário-alvo se tornar inválido."
 		},
 		{
 			"type": "patchouli:crafting",

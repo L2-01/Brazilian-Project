@@ -12,8 +12,9 @@ item_ids:
 
 <BlockImage id="solar_panel" scale="4" />
 
-Paineis Solares são geradores de energia passivos. Têm uma taxa de geração de energia muito baixa e seu uso é restrito a dimensões
-tipo superfície durante o dia. Mas energia é de graça e não requer partida, então eles são as fontes de energia reserva mais confiáveis
-para infraestrutura crítica como seu armazenamento digital de itens ou sua usina principal.
+Painéis Solares são geradores passivos de energia. Eles têm uma taxa de geração muito baixa e seu uso é restrito a
+dimensões do tipo Superfície durante o dia. Mas a energia é grátis e não precisa de partida, então são as fontes de
+energia de reserva mais confiáveis para infraestrutura crítica como seu armazenamento digital de itens ou sua usina
+principal.
 
-> Paineis Solares funcionam na chuva, mas não em tempestades.
+> Painéis Solares funcionam na chuva, mas não em tempestades.

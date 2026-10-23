@@ -7,8 +7,8 @@ navigation:
 
 # Efeitos em Criaturas (Efeitos de Poção)
 
-## Congelamento
-O Congelamento desacelera os alvos. Também os congela pela duração do efeito.
+## Gélido
+Gélido desacelera os alvos. Também os congela pela duração do efeito.
 ### Modificadores de atributo
 - Velocidade de Ataque: -25% x nível do efeito.
 - Velocidade de Movimento: -25% x nível do efeito.
@@ -18,15 +18,15 @@ O Congelamento desacelera os alvos. Também os congela pela duração do efeito.
 -------
 
 ## Corrosão
-A Corrosão enfraquece a armadura do alvo.
+Corrosão enfraquece a armadura do alvo.
 ### Modificadores de atributo
 - Armadura: -33% x nível do efeito.
 - Resistência da Armadura: -33% x nível do efeito.
 
 -------
 
-## Sombras
-Sombras reduzem *todo* o dano de ataque de um alvo, desde que possa ser rastreado até ele. Além disso,
+## Penumbra
+Penumbra reduz *todo* o dano de ataque de um alvo, desde que possa ser rastreado até ele. Além disso,
 o alvo afetado não pode aplicar nenhum efeito de poção durante a duração do efeito.
 
 ### Modificadores de atributo

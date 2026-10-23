@@ -5,14 +5,14 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "O $(item)Desempacotador/$ desempacota conjuntos de $(l:core/package)Pacotes de Receita/$ em inventários adjacentes ou $(thing)máquinas de fabricação de pacotes/$ dependendo do $(l:recipe)tipo de receita/$.$(p)Esta máquina requer energia."
+			"text": "O $(item)Desempacotador/$ desempacota conjuntos de $(l:core/package)Pacotes de Receita/$ para inventários adjacentes ou $(thing)máquinas de fabricação de pacotes/$, dependendo do $(l:recipe)tipo de receita/$.$(p)Esta máquina requer energia."
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "packagedauto:unpackager",
 			"link_recipe": true,
 			"title": "Uso",
-			"text": "Para usar o $(item)Desempacotador/$, coloque conjuntos de $(l:core/package)Pacotes de Receita/$ dentro. Os pacotes serão inseridos nos $(thing)rastreadores/$ e, quando cheios, serão desempacotados em inventários adjacentes ou $(thing)máquinas de fabricação de pacotes/$ dependendo do $(thing)tipo de receita/$. Você pode mudar o número de rastreadores."
+			"text": "Para usar o $(item)Desempacotador/$, coloque conjuntos de $(l:core/package)Pacotes de Receita/$ dentro. Os pacotes serão inseridos nos $(thing)rastreadores/$ e, quando cheios, serão desempacotados para inventários adjacentes ou $(thing)máquinas de fabricação de pacotes/$, dependendo do $(thing)tipo de receita/$. Você pode mudar o número de rastreadores."
 		},
 		{
 			"type": "patchouli:text",
@@ -22,13 +22,13 @@
 		{
 			"type": "patchouli:text",
 			"title": "Clonagem de Ajustes",
-			"text": "Usando o $(l:core/settings_cloner)Clonador de Ajustes de Empacotamento/$, você pode copiar e colar o ajuste de modo de bloqueio, o ajuste de quantidade de rastreadores e as receitas atualmente disponíveis.$(p)Para colar receitas, o $(item)Desempacotador/$ de destino não deve ter receitas, e você deve ter um $(l:core/recipe_holder)Suporte de Receita de Pacotes/$ vazio no inventário."
+			"text": "Usando o $(l:core/settings_cloner)Clonador de Ajustes de Empacotamento/$, você pode copiar e colar o ajuste de modo de bloqueio, o ajuste de contagem de rastreadores e as receitas atualmente disponíveis.$(p)Para colar receitas, o $(item)Desempacotador/$ alvo não deve ter receitas e você precisa ter um $(l:core/recipe_holder)Suporte de Receita de Pacotes/$ vazio no seu inventário."
 		},
 		{
 			"type": "patchouli:text",
 			"flag": "mod:ae2",
 			"title": "Integração com AE2",
-			"text": "O $(item)Desempacotador/$ pode ser conectado a uma $(thing)Rede ME/$, exigindo um canal.$(p)Ele vai extrair energia para usar e fornecer desempacotamento como fabricação automática.$(p)Coloque um $(l:core/recipe_holder)Suporte de Receita de Pacotes/$ codificado dentro para permitir o desempacotamento automático das receitas codificadas."
+			"text": "O $(item)Desempacotador/$ pode ser conectado a uma $(thing)Rede ME/$, exigindo um canal.$(p)Ele extrairá energia para usar e fornecerá desempacotamento como autofabricação.$(p)Coloque um $(l:core/recipe_holder)Suporte de Receita de Pacotes/$ codificado dentro para permitir a autofabricação de desempacotamento das receitas codificadas."
 		},
 		{
 			"type": "patchouli:crafting",

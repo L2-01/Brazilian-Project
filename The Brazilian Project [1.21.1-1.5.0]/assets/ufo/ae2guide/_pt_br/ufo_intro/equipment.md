@@ -8,7 +8,7 @@ navigation:
 
 # Equipamento
 
-O equipamento UFO inclui o Scanner de Estrutura, ferramentas transformáveis
-movidas a RF e três linhas de armadura com contratos de proteção diferentes.
+O equipamento do UFO inclui o Scanner de Estrutura, ferramentas transformáveis movidas a RF
+e três linhas de armadura com contratos de proteção diferentes.
 
 <SubPages />

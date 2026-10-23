@@ -6,27 +6,27 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Cartões de Energia são usados para enviar Energia entre inventários, como máquinas e baterias.$(br2)Os cartões de energia têm mecânicas levemente diferentes dos outros cartões, e serão documentados nas páginas seguintes."
+      "text": "Cartões de Energia são usados para enviar Energia entre inventários, como máquinas e baterias.$(br2)Cartões de energia têm mecânicas levemente diferentes dos outros cartões, que serão documentadas nas páginas seguintes."
     },
     {
       "type": "patchouli:text",
-      "text": "Diferente dos cartões de Item/Fluido, que exigem overclockers para operar mais rápido que uma vez a cada 20 tiques, os Cartões de Energia podem operar a cada tique por padrão.$(br2)Valores de FE/T (máx.) para Overclockers:$(br)$(li)0 Overclockers: 1.000fe/t$(li)1 Overclocker:  4.000fe/t$(li)2 Overclockers: 16.000fe/t$(li)3 Overclockers: 32.000fe/t$(li)4 Overclockers: 100.000fe/t"
+      "text": "Diferente dos cartões de Item/Fluido que requerem overclockers para operar mais rápido que uma vez a cada 20 tiques, Cartões de Energia podem operar a cada tique por padrão.$(br2)Valores de FE/T (máx.) para Overclockers:$(br)$(li)0 Overclockers: 1.000fe/t$(li)1 Overclocker:  4.000fe/t$(li)2 Overclockers: 16.000fe/t$(li)3 Overclockers: 32.000fe/t$(li)4 Overclockers: 100.000fe/t"
     },
     {
       "type": "patchouli:text",
-      "text": "Os cartões de energia também têm uma configuração de 'Limite de Energia %' — por padrão, nos modos de inserção/estoque é 100%, e nos modos de extração é 0%. No modo de inserção/estoque, especifica até quanto encher o aceitador de energia especificado. $(br2)Por exemplo: se o bloco consegue armazenar 1.000.000 FE e você especificar 50%, ele só vai encher até 500.000FE."
+      "text": "Cartões de energia também têm uma configuração de 'Limite de Energia %' — por padrão, nos modos de inserção/estoque é 100%, e nos modos de extração é 0%. No modo de inserção/estoque ele especifica até quanto encher o receptor de energia especificado. $(br2)Por exemplo: se o bloco pode armazenar 1.000.000 FE e você especificar 50%, ele só encherá até 500.000 FE."
     },
     {
       "type": "patchouli:text",
-      "text": "No modo de extração, designa qual porcentagem deve ser deixada para trás.$(br2)Por exemplo: se você está extraindo FE de uma célula de energia que comporta 1.000.000FE e especificar um limite de 25%, ela não vai extrair abaixo de 250.000 FE."
+      "text": "No modo de extração, isso designa qual porcentagem deve ser deixada para trás.$(br2)Por exemplo: se você está extraindo FE de uma célula de energia que pode armazenar 1.000.000 FE e especificar um limite de 25%, ele não extrairá abaixo de 250.000 FE."
     },
     {
       "type": "patchouli:text",
-      "text": "Nota técnica: o sistema Forge Energy suporta armazenamento de energia até MAX_INT, que é aproximadamente 2,14 bilhões de FE. Se você usa um mod como Draconic Evolution ou Mekanism, as células de armazenamento deles conseguem guardar mais que isso 'hackeando' como o Forge Energy funciona. Como resultado, esse indicador de % não vai funcionar em células de armazenamento maiores que 2,14 bilhões de FE. Desculpa! :)"
+      "text": "Nota Técnica: o sistema Forge Energy suporta armazenamento de energia até MAX_INT, que é aproximadamente 2,14 bilhões de FE. Se você estiver usando um mod como Draconic Evolution ou Mekanism, suas células de armazenamento podem armazenar mais que essa quantidade 'hackeando' como o Forge Energy funciona. Como resultado, este indicador de % não funcionará em células de armazenamento maiores que 2,14 bilhões de FE. Desculpe! :)"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Energy Card",
+      "title": "Cartão de Energia",
       "recipe": "laserio:card_energy"
     }
   ]

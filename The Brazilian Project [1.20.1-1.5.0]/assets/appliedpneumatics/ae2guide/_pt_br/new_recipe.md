@@ -33,5 +33,5 @@ navigation:
 - 64 Bolas de Matéria -> 1 Singularidade
 - 1 Cristal de Quartzo Certus -> 1 Processador de Cálculo
 - 1 Diamante -> 1 Processador de Engenharia
-- 1 Barra de Ouro -> 1 Processador Lógico
+- 1 Lingote de Ouro -> 1 Processador Lógico
 - 1 Silício -> 1 Circuito Impresso de Silício

@@ -1,17 +1,17 @@
 {
-  "name": "Medidor de Pressão",
-  "icon": "pneumaticcraft:pressure_gauge",
-  "category": "pneumaticcraft:components",
-  "advancement": "pneumaticcraft:root",
-  "pages": [
-    {
-      "type": "text",
-      "text": "Este é um componente de fabricação para outros dispositivos. Ele não tem uso próprio."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando um Medidor de Pressão",
-      "recipe": "pneumaticcraft:pressure_gauge"
-    }
-  ]
+    "name": "Medidor de Pressão",
+    "icon": "pneumaticcraft:pressure_gauge",
+    "category": "pneumaticcraft:components",
+    "advancement": "pneumaticcraft:root",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Este é um componente de fabricação para outros dispositivos. Não tem uso por si só."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Medidor de Pressão",
+            "recipe": "pneumaticcraft:pressure_gauge"
+        }
+    ]
 }

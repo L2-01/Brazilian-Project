@@ -2,12 +2,12 @@
     "name": "Espinhos Gelados",
     "icon": "minecraft:enchanted_book",
     "category": "apotheosis:enchanting/enchantments",
-	"flag": "apotheosis:enchanting",
-	"sortnum": 1,
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(9)Espinhos Gelados$() é um encantamento de peitoral.$(p)Ele aplica lentidão aos atacantes. A duração e a força escalam com o nível do encantamento.$(p)É exclusivo com $(9)Espinhos$()."
+            "text": "$(9)Espinhos Gelados$() é um encantamento de peitoral.$(p)Aplica lentidão aos atacantes. A duração e a força aumentam com o nível do encantamento.$(p)É exclusivo de $(9)Espinhos$()."
         }
-	]
+    ]
 }

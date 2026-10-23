@@ -1,0 +1,18 @@
+{
+	"name": "Estação de Inscrição de Chaves",
+	"icon": "dimdungeons:block_key_charger",
+	"category": "dimdungeons:artifacts",
+	"sortnum": 20,
+	"advancement": "dimdungeons:dungeons/find_key_charger",
+	"pages": [
+		{
+			"type": "spotlight",
+			"item": "dimdungeons:block_key_charger",
+			"text": "Você encontrou uma $(bold)Estação de Inscrição de Chaves$() portátil! Este bloco permite ativar chaves de portal em branco da mesma forma que uma Moldura do Portal do End faria. Porém, ela pode ter um número limitado de usos e pode quebrar."
+		},
+		{
+			"type": "text",
+			"text": "A Estação de Inscrição de Chaves tem 3 estágios de dano, assim como uma bigorna. A chance de cada uso causar um nível de dano é configurável, mas por padrão é de 100%. Portanto, uma Estação de Inscrição de Chaves pode ser usada 3 vezes antes de quebrar."
+		}
+	]
+}

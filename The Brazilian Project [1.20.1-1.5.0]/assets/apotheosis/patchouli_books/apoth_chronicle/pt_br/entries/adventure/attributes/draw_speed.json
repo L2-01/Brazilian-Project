@@ -1,5 +1,5 @@
 {
-    "name": "Velocidade de Puxada",
+    "name": "Velocidade de Carga",
     "icon": "minecraft:bow",
     "category": "apotheosis:adventure/attributes",
     "flag": "apotheosis:adventure",
@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "A $(9)Velocidade de Puxada$() é a rapidez com que você pode esticar uma arma à distância, relativa à velocidade original. 1 = 100%, 2 = 200%, etc.$(p)Encontrada em armas à distância."
+            "text": "A $(9)Velocidade de Carga$() é a rapidez com que você arma uma arma de longo alcance, em relação à velocidade original. 1 = 100%, 2 = 200%, etc.$(p)Encontrada em armas de longo alcance."
         }
     ]
 }

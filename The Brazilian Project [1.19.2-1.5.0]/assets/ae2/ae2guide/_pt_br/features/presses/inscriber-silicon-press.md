@@ -14,13 +14,13 @@ navigation:
 
 Necessária para fazer os vários processadores com o <ItemLink
 id="inscriber"/>. Encontrada em <ItemLink
-id="sky_stone_chest"/> que surge em meteoritos
-durante a geração do mundo, e pode ser copiada usando o <ItemLink
+id="sky_stone_chest"/> que surgem em meteoritos
+durante a geração do mundo e pode ser copiada usando o <ItemLink
 id="inscriber"/>.
 
 <RecipeFor id="silicon_press" />
 
-### Prensas de Processador
+### Placas de Prensa de Processador
 
 <CategoryIndex category="Processor Press Plates" />
 
@@ -28,6 +28,6 @@ id="inscriber"/>.
 
 <CategoryIndex category="Processors" />
 
-### Peças de Processador
+### Componentes de Processador
 
 <CategoryIndex category="Processor Parts" />

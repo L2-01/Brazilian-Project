@@ -7,28 +7,28 @@
     "pages": [
         {
             "type": "text",
-            "text": "A $(aura) e sua presença no mundo tem sido um enigma para os pesquisadores há muito tempo. Antigamente, eles costumavam usar $(item)Garrafas$() para coletar $(aura) e poder analisá-la em mais detalhes, já que assim ela se torna visível a olho nu. Logo depois, reclamações de civis desinformados começaram a incomodá-los: \"Outros cientistas já têm utilidade para garrafas, isso vai causar problemas\", diziam."
+            "text": "A $(aura) e sua presença no mundo têm sido um enigma para os pesquisadores há muito tempo. Antigamente, eles usavam $(item)Garrafas$() para coletar $(aura) e poder analisá-la em mais detalhes, já que assim ela se torna visível a olho nu. Logo depois, reclamações de civis desinformados começaram a incomodá-los: \"Outros cientistas já têm um uso para garrafas, isso vai causar problemas\", diziam eles."
         },
         {
             "type": "crafting",
-            "text": "Como tal, e para acabar com todo o falatório incoerente, eles criaram a $(item)Garrafa e Rolha$(): um utensílio semelhante, porém levemente diferente da garrafa, que pode ser usado exclusivamente para coletar $(aura) simplesmente interagindo com o ar enquanto a segura.",
+            "text": "Assim, e para calar todo o tagarelar incoerente, eles criaram a $(item)Garrafa e Rolha$(): um utensílio semelhante, porém levemente diferente da garrafa, que pode ser usado exclusivamente para coletar $(aura) simplesmente interagindo com o ar enquanto a segura.",
             "recipe": "naturesaura:bottle_two_the_rebottling"
         },
         {
             "type": "spotlight",
             "item": "naturesaura:aura_bottle{stored_type:'naturesaura:overworld'}",
             "link_recipe": true,
-            "text": "É claro, dependendo do mundo em que você está, o tipo de $(aura) coletada variará levemente. Por exemplo, no mundo normal, a $(aura) pode ser coletada na forma de luz solar, enquanto no reino do Nether, pode ser coletada na forma de fantasmas, e no reino do End, está presente na forma de uma abundância excessiva de escuridão."
+            "text": "Claro, com base no mundo em que você está, o tipo de $(aura) coletada variará levemente. Por exemplo, no mundo normal, a $(aura) pode ser coletada na forma de luz solar, enquanto no reino do Nether, a $(aura) pode ser coletada na forma de fantasmas, e no reino do End, a $(aura) está presente na forma de uma abundância excessiva de escuridão."
         },
         {
             "type": "text",
-            "text": "Além disso, a coleta de $(aura) dessa maneira pode ser automatizada facilmente usando $(item)Ejetores$(): colocar $(item)Garrafas e Rolhas$() vazias neles fará com que sejam disparadas abertas, enchendo-se de $(aura) no processo. Como elas não são sugadas de volta pelo Ejetor depois, uma ferramenta adicional como um $(item)Funil$() é necessária."
+            "text": "Além disso, a coleta de $(aura) dessa maneira pode ser automatizada facilmente usando $(item)Liberadores$(): colocar $(item)Garrafas e Rolhas$() vazias neles fará com que sejam disparadas abertas, enchendo-se de $(aura) no processo. Como elas não são sugadas de volta pelo Liberador depois, uma ferramenta adicional como um $(item)Funil$() é necessária."
         },
         {
             "type": "spotlight",
             "item": "naturesaura:vacuum_bottle",
             "link_recipe": true,
-            "text": "Por fim, algumas áreas têm uma severa falta de $(aura), muito abaixo do que o $(l:items/eye)Olho Ambiental$() consegue exibir, e cujo ar é consequentemente quase desprovido de oxigênio. Usar uma $(item)Garrafa e Rolha$() em áreas assim permite engarrafar esse ar e capturar um vácuo de $(aura) quase perfeito na garrafa."
+            "text": "Por último, algumas áreas têm uma falta severa de $(aura), muito menor do que o $(l:items/eye)Olho Ambiental$() consegue exibir, e cujo ar é consequentemente quase desprovido de oxigênio. Usar uma $(item)Garrafa e Rolha$() em áreas assim permite engarrafar esse ar e capturar um vácuo de $(aura) quase perfeito na garrafa."
         }
     ]
 }

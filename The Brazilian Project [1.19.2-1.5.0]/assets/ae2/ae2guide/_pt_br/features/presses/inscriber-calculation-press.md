@@ -12,17 +12,17 @@ navigation:
   title: Prensa Inscritora de Cálculo
 ---
 
-Necessária para fazer <ItemLink
+Necessária para fazer o <ItemLink
 id="printed_calculation_processor"/> com o
 
 <ItemLink id="inscriber" />. Encontrada em <ItemLink id="sky_stone_chest" /> que
-surge em meteoritos durante a geração do mundo, e pode ser copiada usando o <ItemLink id="inscriber" />
+surgem em meteoritos durante a geração do mundo e pode ser copiada usando o <ItemLink id="inscriber" />
 
 .
 
 <RecipeFor id="calculation_processor_press" />
 
-### Prensas de Processador
+### Placas de Prensa de Processador
 
 <CategoryIndex category="Processor Press Plates" />
 
@@ -30,6 +30,6 @@ surge em meteoritos durante a geração do mundo, e pode ser copiada usando o <I
 
 <CategoryIndex category="Processors" />
 
-### Peças de Processador
+### Componentes de Processador
 
 <CategoryIndex category="Processor Parts" />

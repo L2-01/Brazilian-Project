@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:capacitor_module
 categories:
-  - Módulos
+  - Modules
 ---
 # Módulo Capacitor
 
@@ -17,4 +17,4 @@ Melhoria relacionada a energia / capacidade para máquinas compatíveis.
 
 | Máquina | Papel |
 | ------- | ---- |
-| **Purificador de Radiação** (quando presente) | Melhoria relacionada a energia / capacidade para purificação. |
+| **Purificador de Radiação** (quando presente) | Melhoria relacionada a energia / capacidade para a purificação. |

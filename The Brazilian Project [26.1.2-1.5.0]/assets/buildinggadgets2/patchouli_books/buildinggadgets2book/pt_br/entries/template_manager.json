@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O gerenciador de modelos permite que você salve suas estruturas favoritas do $(l:buildinggadgets2:copypaste)Dispositivo de Copiar e Colar$(/l)!  $(br2)Com este bloco, você pode salvar as estruturas em itens no seu mundo, ou até compartilhá-las fora do mundo!$(br2)Para começar, coloque um dispositivo de copiar e colar no espaço superior e um pedaço de papel no inferior."
+      "text": "O Gerenciador de Modelos permite salvar suas estruturas favoritas do $(l:buildinggadgets2:copypaste)Dispositivo de Copiar e Colar$(/l)! $(br2)Com este bloco, você pode salvar as estruturas em itens no seu mundo, ou até compartilhá-las fora dele!$(br2)Para começar, coloque um dispositivo de copiar e colar no slot superior e um papel no slot inferior."
     },
     {
       "type": "patchouli:image",
@@ -19,7 +19,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Clique em 'Salvar' para converter o papel num modelo. Ao mesmo tempo, uma renderização da estrutura aparecerá na sua tela.$(br2)Você pode mover e girar a renderização com os botões do mouse, ou dar zoom com a roda de rolagem. $(br2)Para copiar a estrutura de um modelo de volta ao dispositivo, clique no botão 'carregar'."
+      "text": "Clique em 'Salvar' para converter o papel num modelo. Ao mesmo tempo, uma renderização da estrutura aparecerá na sua tela.$(br2)Você pode mover e girar a renderização com os botões do mouse, ou aplicar zoom com a roda de rolagem. $(br2)Para copiar a estrutura de um modelo de volta para o dispositivo, clique no botão 'carregar'."
     },
     {
       "type": "patchouli:image",
@@ -28,11 +28,11 @@
         "buildinggadgets2:textures/book/images/templatemanager2.png"
       ],
       "border": true,
-      "text": "Renderização elegante é elegante"
+      "text": "A renderização sofisticada é mesmo sofisticada"
     },
     {
       "type": "patchouli:text",
-      "text": "Clique no botão 'Renderizar' para alternar para o Modo de Materiais, que mostrará uma lista dos materiais necessários para esta estrutura, de forma bem parecida com a Lista de Materiais.$(br2)Clique no botão de materiais para voltar ao modo Renderizar."
+      "text": "Clique no botão 'Renderizar' para alterná-lo para o Modo de Materiais, que mostrará uma lista dos materiais necessários para esta estrutura, de forma muito parecida com a Lista de Materiais.$(br2)Clique no botão de materiais para voltar ao modo Renderizar."
     },
     {
       "type": "patchouli:image",
@@ -45,7 +45,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Os modelos podem ser nomeados. O nome aparecerá no item de modelo.$(br2)Clicar em 'copiar' criará uma string json e a colocará na área de transferência do seu computador. Você pode compartilhá-la com amigos fora do Minecraft. Se eles copiarem a mesma string para a área de transferência e clicarem no botão 'colar' nesta GUI, ela replicará a sua estrutura para eles!$(br2)Certifique-se de que haja papel no espaço inferior ao clicar em colar."
+      "text": "Os modelos podem ser nomeados. O nome aparecerá no item de modelo.$(br2)Clicar em 'copiar' criará uma string JSON e a colocará na área de transferência do seu computador. Você pode compartilhá-la com amigos fora do Minecraft. Se eles copiarem a mesma string para a área de transferência e clicarem no botão 'colar' nesta interface, ela replicará sua estrutura para eles!$(br2)Verifique se há papel no slot inferior ao clicar em colar."
     },
     {
       "type": "patchouli:image",
@@ -54,7 +54,7 @@
         "buildinggadgets2:textures/book/images/templatemanager4.png"
       ],
       "border": true,
-      "text": "Mas é uma casa bem bonita."
+      "text": "Mas é mesmo uma casa bonita."
     }
   ]
 }

@@ -1,0 +1,41 @@
+---
+title: Forja Atômica
+id: oritech:atomic_forge
+type: block
+custom:
+    Capacidade de RF: "1,024"
+    RF/t: "1,024"
+    Núcleos necessários: "8"
+
+---
+A forja atômica é uma máquina usada para criar
+chips de computador avançados, reforçar ardosiabissal e ajudar no processamento de minérios de alto rendimento.
+
+<center>
+<ModAsset location="oritech:area/enderic_laser_energy" width={512} />
+</center>
+
+
+<Callout variant="warning">
+    Tubos de energia não podem se conectar diretamente a uma forja atômica; ela precisa
+    ser alimentada por um [laser endérico](@oritech:enderic_laser).
+</Callout>
+
+Diferente da maioria das máquinas, a forja não apenas paga um custo constante de RF/t. Cada receita precisa carregar a máquina até um nível de energia exigido antes de poder ser concluída.
+
+Isso significa que seu principal gargalo geralmente é a vazão do laser. Mais lasers, operação mais rápida do laser e uma fonte de energia dedicada aumentam a velocidade de produção.
+
+## Automação
+
+A forja atômica tem diferentes modos de entrada para facilitar a automação. As variantes "Preencher Uniformemente" ou "Por Lados" podem ser usadas para garantir que cada item vá para o espaço certo.
+
+A automação também pode ser feita via AE2 / RS2. Os fornecedores de padrões funcionam diretamente com a forja.
+
+## Processamento de Alta Energia
+
+Diferente de outras máquinas, o ciclo de processamento da forja atômica é
+determinado pelo seu buffer de energia. A receita só será concluída quando
+a forja estiver totalmente carregada até o nível exigido.
+Usar múltiplos lasers, ou aumentar a velocidade deles, pode acelerar bastante esse processo.
+
+Se a forja parecer lenta, a entrada de itens normalmente não é o problema. A taxa de carregamento é.

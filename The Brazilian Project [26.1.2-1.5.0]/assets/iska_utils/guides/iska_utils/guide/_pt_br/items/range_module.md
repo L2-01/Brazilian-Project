@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:range_module
 categories:
-  - Módulos
+  - Modules
 ---
 # Módulo de Alcance
 
@@ -18,6 +18,6 @@ Expande a área de trabalho ou o raio de uma máquina.
 | Máquina | Papel |
 | ------- | ---- |
 | **Ventilador Modular** | Aumenta o alcance máximo em todos os eixos. |
-| **Caixa Coletora** | Aumenta as extensões máximas de coleta. |
-| **Anulador de Ender / Mercador Ambulante / Almas** | Aumenta o raio máximo de proteção. |
-| **Altar Flamejante** | Aumenta o raio de cobertura de chunks. |
+| **Caixa Coletora** | Aumenta os limites máximos de coleta. |
+| **Anulador de Ender / Anulador de Mercador Ambulante / Anulador de Almas** | Aumenta o raio máximo de proteção. |
+| **Altar Flamejante** | Aumenta o raio de cobertura em chunks. |

@@ -9,14 +9,14 @@
             "type": "spotlight",
             "item": "bigreactors:fluidizerfluidinjector",
             "link_recipe": true,
-            "title" : "Injetor de Fluidos",
+            "title": "Injetor de Fluidos",
             "text": "O Injetor de Fluidos permite inserir combustíveis fluidos existentes no Fluidificador para misturá-los e criar um novo combustível."
         },
         {
             "type": "crafting-part_usage",
             "crafting.title1": "Injetor de Fluidos",
             "crafting.recipe1": "bigreactors:fluidizer/fluidinjector",
-            "usage.text": "$(l)Mandatory:$() see $(l:bigreactors:fluidizer/operational_mode)operational mode$(/l)$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() no"
+            "usage.text": "$(l)Obrigatória:$() ver $(l:bigreactors:fluidizer/operational_mode)modo operacional$(/l)$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Interface gráfica:$() não"
         }
     ]
 }

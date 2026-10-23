@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Painel Solar de BlazeGold
+  title: Painel Solar de Ouro de Blaze
   icon: "justdynathings:blazegold_solar_panel"
   position: 2
   parent: justdynathings:solar_panels.md
@@ -8,13 +8,13 @@ item_ids:
   - justdynathings:blazegold_solar_panel
 ---
 
-# Painel Solar de BlazeGold
+# Painel Solar de Ouro de Blaze
 
-Um painel solar que gera Energia Forge
+Um painel solar que gera Forge Energy.
 
-Taxa padrão de FE Máx : **960**
+Taxa máxima de FE padrão : **960**
 
-**Condições Padrão:**
+**Condições padrão:**
 
 - Dimensões = Nether
 
@@ -22,4 +22,4 @@ Taxa padrão de FE Máx : **960**
 
 <Recipe id="justdynathings:blazegold_solar_panel" />
 
-_Nota: Tudo pode ser modificado via configs, então não confie totalmente!_
+_Nota: tudo pode ser modificado via configurações, então não confie totalmente!_

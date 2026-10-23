@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Relógio de Ferricore
+  title: Relógio de Ferricoro
   icon: "justdynathings:ferricore_clock"
   position: 4
   parent: justdynathings:other.md
@@ -8,19 +8,19 @@ item_ids:
   - justdynathings:ferricore_clock
 ---
 
-# Relógios de redstone totalmente configuráveis
+# Um relógio de redstone totalmente configurável
 
-# Relógio de Ferricore
+# Relógio de Ferricoro
 
 _também conhecido como Relógio de Redstone_
 
-Um bloco que pode ser programado para alimentar componentes de redstone em qualquer lado configurável com um gametick específico
+Um bloco que pode ser programado para energizar componentes de redstone, com cada face configurável num tique de jogo específico
 
 <BlockImage id="justdynathings:ferricore_clock" p:north="true" p:south="true" p:east="true" p:west="true" p:up="true" p:down="true" p:active="false" scale="4.0"/>
 
 <BlockImage id="justdynathings:ferricore_clock" p:north="true" p:south="true" p:east="true" p:west="true" p:up="true" p:down="true" p:active="true" scale="4.0"/>
 
-Relógio de Ferricore com as direções NORTE e CIMA desativadas para evitar alimentar o que não é desejado
+Relógio de Ferricoro com as direções NORTE e CIMA desativadas para evitar energizar o que não se quer
 
 <GameScene zoom="4" interactive={true}>
 

@@ -57,4 +57,4 @@ A Prensa Inscritora de Nome pode ser usada num inscritor para nomear itens, seme
 Para fabricar, clique com o botão direito com a <ItemLink id="certus_quartz_cutting_knife" /> ou a <ItemLink id="nether_quartz_cutting_knife" />
 e insira um lingote de metal; você terá que digitar o nome que
 deseja escrever na placa e depois simplesmente extrair a placa pronta. Você pode usar uma ou duas placas por vez no inscritor;
-se usar duas placas, ele imprimirá o nome usando a combinação dos dois nomes, slot de cima e depois slot de baixo.
+se usar duas placas, ele imprimirá o nome usando a combinação dos dois nomes, espaço de cima e depois espaço de baixo.

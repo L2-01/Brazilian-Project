@@ -14,8 +14,8 @@ item_ids:
 
 <ItemImage id="charged_certus_quartz_crystal" scale="4" />
 
-Um <ItemLink id="certus_quartz_crystal" /> que passou por um <ItemLink id="charger" />. Usado na produção de
-<ItemLink id="fluix_crystal" /> e [blocos de drusa de certus](../items-blocks-machines/budding_certus.md).
+Um <ItemLink id="certus_quartz_crystal" /> (Cristal de Quartzo Certus) que passou por um <ItemLink id="charger" />. Usado na produção de
+<ItemLink id="fluix_crystal" /> e [blocos de certus em brotamento](../items-blocks-machines/budding_certus.md).
 
 ## Receita
 

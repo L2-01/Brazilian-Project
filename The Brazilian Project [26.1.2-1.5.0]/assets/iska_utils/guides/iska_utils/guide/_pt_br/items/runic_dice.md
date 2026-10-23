@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:runic_dice
 categories:
-  - Entrega Suspeita
+  - Suspicious Delivery
 ---
 # Dado Rúnico
 
@@ -15,9 +15,9 @@ categories:
 
 ## O que faz
 
-**Artefato de amuleto.** Ele cria estranhas ilusões ópticas — às vezes você o vê se dividir em cópias e se fundir de novo. Enquanto usado, concede um **bônus aleatório de velocidade de ataque** que muda ao longo do tempo.
+**Artefato de amuleto.** Cria ilusões de ótica estranhas — às vezes você o vê se dividir em cópias e se fundir de novo. Enquanto usado, concede um **bônus aleatório de velocidade de ataque** que muda com o tempo.
 
-Use no **espaço de amuleto do Curios**.
+Use no **slot de amuleto do Curios**.
 
 ## Como obter
 

@@ -13,19 +13,19 @@ item_ids:
 
 ## Cristais de Quartzo Certus
 
-Cristais de quartzo certus possuem a característica única de armazenar grandes quantidades de energia.
-Quando carregado no <ItemLink id="charger"/>, ele se converte
+Os cristais de quartzo certus possuem a característica única de armazenar grandes quantidades de energia.
+Quando carregados no <ItemLink id="charger"/>, convertem-se
 em <ItemLink id="charged_certus_quartz_crystal"/>.
 
 ### Cristais de Fluix
 
 Este cristal possui a capacidade única de absorver e converter energia de uma
-forma para outra, e é a base de toda a tecnologia ME.
+forma para outra e é a base de toda a tecnologia ME.
 
-<ItemLink id="fluix_crystal" /> é fabricado no mundo colocando <ItemLink id="charged_certus_quartz_crystal" />
+O <ItemLink id="fluix_crystal" /> é fabricado no mundo colocando <ItemLink id="charged_certus_quartz_crystal" />
 , <ItemLink id="minecraft:quartz" />
-e <ItemLink id="minecraft:redstone" /> na água. Eles começam a reagir rapidamente,
-e o resultado é um <ItemLink id="fluix_crystal" />. .
+e <ItemLink id="minecraft:redstone" /> na água. Eles reagem rapidamente,
+resultando num <ItemLink id="fluix_crystal" />. .
 
 <div>
   <video

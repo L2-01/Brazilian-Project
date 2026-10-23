@@ -1,1 +1,16 @@
-{"name":"Carne de Caranguejo Assada","icon":"livingthings:cooked_crab","category":"livingthings:item_category","pages":[{"type":"text","text":"$(br)$(bold)Obtenção:$()$(br)pode ser obtida assando Carne de Caranguejo Crua"},{"type":"spotlight","item":"livingthings:cooked_crab","text":"$(br)$(bold)Uso:$()$(li)pode ser comida"}]}
+{
+    "name": "Carne de Caranguejo Assada",
+    "icon": "livingthings:cooked_crab",
+    "category": "livingthings:item_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(br)$(bold)Obtenção:$()$(br)pode ser obtida assando Carne de Caranguejo Crua"
+        },
+        {
+            "type": "spotlight",
+            "item": "livingthings:cooked_crab",
+            "text": "$(br)$(bold)Uso:$()$(li)pode ser comida"
+        }
+    ]
+}

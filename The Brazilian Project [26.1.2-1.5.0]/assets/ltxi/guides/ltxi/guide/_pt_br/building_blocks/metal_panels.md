@@ -21,6 +21,7 @@ navigation:
 <BlockImage id="tiled_slatesteel_panel" scale="3" />
 </Row>
 
-Compósitos de polímero-metal são ótimos blocos de construção de instalações. Uma vez estabelecida uma linha de produção de polímero, painéis
-de Titânio e Aço-Ardósia podem ser produzidos em grandes quantidades com facilidade. Estes têm resistência a explosões de **36,0**, forte o bastante para suportar uma
-explosão de TNT a queima-roupa assim como a maioria das explosões de criaturas hostis comuns.
+Compósitos de polímero-metal são ótimos blocos de construção para instalações. Uma vez estabelecida uma linha de
+produção de polímeros, painéis de Titânio e Aço-Ardósia podem ser produzidos em grande quantidade com facilidade. Eles
+têm resistência a explosões de **36.0**, forte o bastante para suportar uma explosão de TNT à queima-roupa e a maioria
+das explosões comuns de criaturas hostis.

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: Prensas Inscritoras
+  title: Prensas
   icon: silicon_press
   position: 010
 categories:
@@ -14,7 +14,7 @@ item_ids:
 - ae2:name_press
 ---
 
-# Prensas Inscritoras
+# Prensas
 
 Há 5 prensas diferentes usadas no <ItemLink id="inscriber" />.
 
@@ -50,11 +50,11 @@ Elas também podem ser duplicadas num <ItemLink id="inscriber" />.
   </Row>
 </Column>
 
-## Prensa Inscritora de Nome
+## Prensa de Nome
 
-A Prensa Inscritora de Nome pode ser usada num inscritor para nomear itens, semelhante a uma bigorna.
+A Prensa de Nome pode ser usada num inscritor para nomear itens, parecido com uma bigorna.
 
-Para fabricar, clique com o botão direito com a <ItemLink id="certus_quartz_cutting_knife" /> ou a <ItemLink id="nether_quartz_cutting_knife" />
-e insira um lingote de metal; você terá que digitar o nome que
-deseja escrever na placa e depois simplesmente extrair a placa pronta. Você pode usar uma ou duas placas por vez no inscritor;
-se usar duas placas, ele imprimirá o nome usando a combinação dos dois nomes, slot de cima e depois slot de baixo.
+Para fabricar, clique com o botão direito na <ItemLink id="certus_quartz_cutting_knife" /> ou <ItemLink id="nether_quartz_cutting_knife" />
+e insira um lingote de metal; você terá então que digitar o nome que deseja
+escrever na placa e simplesmente extrair a placa pronta. Você pode usar uma ou duas placas por vez no inscritor;
+se usar duas placas, ele imprimirá o nome usando a combinação dos dois nomes — espaço de cima, depois espaço de baixo.

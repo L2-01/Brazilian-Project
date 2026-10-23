@@ -1,19 +1,22 @@
 ---
 navigation:
-  title: "Porta NOR"
+  title: "Porta NÃO OU"
   icon: "nor_gate"
   parent: little_big_redstone:logic.md
   position: 17
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:nor_gate
 ---
 
-# Porta NOR
+# Porta NÃO OU
 
 <FloatingColumn width="100" align="right">
-	### Tabela-verdade
+	### Booleano
+	As Portas NÃO OU só produzem um valor de saída de 0 (DESLIGADO) ou 1 (LIGADO).
+
+	### Tabela-Verdade
 	<TruthTable inputs="2" outputs="1">
 		<TruthState input="0,0" output="1" />
 		<TruthState input="0,1" output="0" />
@@ -36,10 +39,10 @@ item_ids:
 	</Column>
 </Row>
 
-Portas NOR são componentes lógicos que exigem que pelo menos uma entrada esteja LIGADA para que a saída esteja DESLIGADA. Este é o inverso
-de uma [Porta OR](or_gate.md).
+As portas NÃO OU são componentes lógicos que exigem que pelo menos uma entrada esteja LIGADA para a saída ficar
+DESLIGADA. É o inverso de uma [porta OU](or_gate.md).
 
-Portas NOR podem ser configuradas para ter entre 2 e 10 entradas.
+As portas NÃO OU podem ser configuradas para ter entre 2 e 10 entradas.
 
 <Row>
 	<Column>

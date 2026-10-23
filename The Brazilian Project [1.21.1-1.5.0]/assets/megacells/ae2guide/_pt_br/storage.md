@@ -103,9 +103,9 @@ item_ids:
 </Row>
 
 Como mencionado antes, o <ItemLink id="megacells:accumulation_processor" /> serve como o primeiro passo para montar
-qualquer infraestrutura MEGA, e isso inclui, para começar, seus próprios níveis mais altos de células de armazenamento. Com este
+qualquer infraestrutura MEGA, e isso inclui seus próprios níveis superiores de células de armazenamento para começar. Com este
 processador, um <ItemLink id="ae2:cell_component_256k" /> pode ser levado *ainda mais além*, de **1M** (equivalente a
-"1024k") até o nível M mais alto de **256M** — mais de *mil vezes* maior em capacidade que o de 256k.
+"1024k") em diante até o nível M mais alto de **256M** — mais de *mil vezes* maior em capacidade que 256k.
 
 <RecipeFor id="cell_component_1m" />
 <RecipeFor id="cell_component_4m" />
@@ -113,8 +113,8 @@ processador, um <ItemLink id="ae2:cell_component_256k" /> pode ser levado *ainda
 <RecipeFor id="cell_component_64m" />
 <RecipeFor id="cell_component_256m" />
 
-Claro, um armazenamento mais capaz exigirá uma cápsula mais capaz também, e é aí que entra mais Aço do Céu para
-fabricar uma cápsula para células de itens para seus novos componentes de nível M.
+Claro, armazenamento mais capaz exige uma cápsula mais capaz para acompanhar, e é aí que entra mais Aço do Céu
+para fabricar uma cápsula de célula de itens para seus novos componentes de nível M.
 
 <Row>
   <RecipeFor id="mega_item_cell_housing" />
@@ -122,10 +122,10 @@ fabricar uma cápsula para células de itens para seus novos componentes de nív
   <Recipe id="cells/standard/item_storage_cell_1m_with_housing" />
 </Row>
 
-Para fluidos e tudo além deles, também existem cápsulas dedicadas. Como se vê, a Pedra do Céu é poderosa o suficiente para
-se ligar a alguns outros metais e também formar as células apropriadas, como o cobre, para fazer cápsulas para células de fluidos
-de **Bronze do Céu**. Mesmo fora deste guia, o que quer que você possa imaginar pode ser suportado pelo MEGA com uma célula
-dedicada e seu próprio tipo de cápsula.
+Para fluidos e tudo além, também há cápsulas dedicadas. Como se vê, a Pedra do Céu é poderosa o suficiente para
+se ligar com alguns outros metais e também formar as células apropriadas, como o cobre para fazer cápsulas de célula de fluidos de
+**Bronze do Céu**. Mesmo fora deste guia, o que quer que você possa imaginar pode ser suportado pelo MEGA com uma célula dedicada
+e seu próprio tipo de cápsula.
 
 <Row>
   <ItemImage id="sky_bronze_ingot" scale="4" />
@@ -144,14 +144,14 @@ dedicada e seu próprio tipo de cápsula.
 
 ## [Células Portáteis](ae2:items-blocks-machines/storage_cells.md#portable-item-storage) MEGA
 
-O MEGA também fornece versões portáteis de todas as suas células, assim como o próprio AE2, embora a capacidade aumentada dessas
-células exija um tanto a mais de energia. Por isso, note que elas são fabricadas com uma
+O MEGA também fornece versões portáteis de todas as suas células, assim como o próprio AE2 faz, embora a capacidade aumentada dessas
+células exija um tanto mais de energia. Assim, note que elas são fabricadas com uma
 <ItemLink id="ae2:dense_energy_cell" /> em vez de uma <ItemLink id="ae2:energy_cell" /> comum.
 
-Embora essas células portáteis também suportem a gama completa de [melhorias](ae2:items-blocks-machines/upgrade_cards.md) que as
-células portáteis ME comuns suportam, sua bateria maior e a fome geral por energia significam que o
-<ItemLink id="ae2:energy_card" /> comum não é *exatamente* forte o bastante para sustentá-las. Para esse propósito, só o
-<ItemLink id="megacells:greater_energy_card" /> resolve.
+Embora essas células portáteis também aceitem a gama completa de [melhorias](ae2:items-blocks-machines/upgrade_cards.md) que
+as células portáteis ME comuns aceitam, sua bateria aumentada e a fome geral por energia significam que o
+<ItemLink id="ae2:energy_card" /> comum não é *bem* forte o suficiente para sustentá-las. Para esse propósito, apenas o
+<ItemLink id="megacells:greater_energy_card" /> serve.
 
 <Row>
   <RecipeFor id="portable_item_cell_1m" />

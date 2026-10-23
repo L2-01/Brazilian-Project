@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O $(d)Controle Remoto de Redstone$() funciona como o $(l:items/redstone_activator)Ativador de Redstone$(/l), mas, em vez disso, energiza até 9 localizações selecionáveis.$(br2)Agache e clique com o botão direito para abrir a interface. Coloque um $(l:items/location_filter)Filtro de Localização$(/l) preenchido num dos espaços superiores para adicioná-lo. Opcionalmente, você pode colocar qualquer item no espaço abaixo para adicionar um ícone ao botão da localização.",
+      "text": "O $(d)Controle Remoto de Redstone$() funciona como o $(l:items/redstone_activator)Ativador de Redstone$(/l), mas em vez disso energiza até 9 localizações selecionáveis.$(br2)Agache + clique direito para abrir sua interface. Coloque um $(l:items/location_filter)Filtro de Localização$(/l) preenchido num dos espaços superiores para adicioná-lo. Opcionalmente, coloque qualquer item no espaço abaixo para adicionar um ícone ao botão da localização.",
       "title": "Controle Remoto de Redstone"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:redstone_remote",
       "link_recipe": true,
-      "text": "Use sem agachar para acessar os botões de localização. Clicar em um energizará aquela localização por um curto período."
+      "text": "Use sem estar agachado para acessar os botões de localização. Clicar num deles energizará aquela localização por um curto período."
     }
   ]
 }

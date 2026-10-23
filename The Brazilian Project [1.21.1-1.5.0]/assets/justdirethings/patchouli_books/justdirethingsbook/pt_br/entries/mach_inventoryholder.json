@@ -6,35 +6,35 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O Depósito de Inventário é, essencialmente, um Mannequim super avançado!$(br2)Quando colocado no mundo, ele age mais ou menos como um baú — basta clicar com o botão direito para acessar o inventário. Você notará que ele tem uma UI igual à do inventário do seu jogador — com espaços para a barra de atalhos, itens, armadura e até a mão secundária!"
+      "text": "O Depósito de Inventário é essencialmente um Suporte de Armadura superavançado!$(br2)Colocado no mundo, ele age como um baú — basta clicar com o botão direito para acessar o inventário. Você notará que sua interface espelha o inventário do jogador — com espaços para a Hotbar, itens, Armadura e até sua mão secundária!"
     },
     {
       "type": "patchouli:text",
-      "text": "Inicialmente você pode inserir o que quiser no inventário. Assim que um item for colocado, você pode ctrl + clicar nele para \"salvar\" aquele item, incluindo o tamanho da pilha.$(br2)Ao fazer isso, você aplicou um filtro àquele espaço, garantindo que só itens daquele tipo caibam ali. Se quiser que esse filtro aplique filtragem por NBT, ative \"Comparar NBT\" com o botão no canto superior direito."
+      "text": "Inicialmente você pode inserir o que quiser no inventário. Uma vez colocado um item, você pode Ctrl+clicar nele para 'salvá-lo', incluindo o tamanho da pilha.$(br2)Fazendo isso, você aplica um filtro àquele espaço, garantindo que apenas itens daquele tipo caibam ali. Se quiser que o filtro aplique filtragem de NBT, ative Comparar NBT com o botão no canto superior direito."
     },
     {
       "type": "patchouli:text",
-      "text": "Quando você shift + clica para o inventário, a seguinte lógica se aplica nesta ordem:$(br2)$(li)Tenta achar um filtro correspondente e insere ali.$(li)Tenta inserir no mesmo espaço do inventário em que estava no do jogador (por exemplo, canto superior direito para canto superior direito).$(li)Por fim, insere normalmente (começando pelo canto superior esquerdo)."
+      "text": "Ao dar Shift+clique para dentro do inventário, a seguinte lógica se aplica nesta ordem:$(br2)$(li)Tenta encontrar um filtro correspondente e insere ali.$(li)Tenta inserir no mesmo espaço do inventário em que estava no do jogador (por exemplo, canto superior direito para canto superior direito).$(li)Por fim, insere normalmente (começando pelo canto superior esquerdo)."
     },
     {
       "type": "patchouli:text",
-      "text": "Se você ativar \"Apenas Itens Filtrados\" pelo botão no canto superior direito, itens não poderão ser inseridos em espaços \"não filtrados\". Isso significa que, se você tentar colocar um item num espaço sem filtro, não será permitido.$(br2)Se ativar \"Comparar Tamanhos de Pilha\", os espaços filtrados só aceitarão até o tamanho de pilha salvo."
+      "text": "Se você ativar 'Apenas Itens Filtrados' pelo botão no canto superior direito, itens não poderão ser inseridos em espaços 'sem filtro'. Ou seja, se tentar colocar um item num espaço sem filtro, não será permitido.$(br2)Se ativar 'Comparar Tamanhos de Pilha', os espaços filtrados só aceitarão até o tamanho de pilha salvo."
     },
     {
       "type": "patchouli:text",
-      "text": "No canto superior esquerdo há botões para controlar como tubos, funis etc. podem interagir com esta máquina.$(br2)Quando \"Apenas Itens Filtrados\" está ativo, só se pode encher espaços com filtro correspondente, e \"Comparar Tamanhos de Pilha\" funciona como descrito acima na inserção.$(br2)Ao extrair, espaços com filtro aplicado são ignorados, e \"Comparar Tamanhos de Pilha\" determina se a extração tentará corresponder ao tamanho de pilha do filtro."
+      "text": "No canto superior esquerdo há botões para controlar como tubos, funis etc. podem interagir com essa máquina.$(br2)Com Apenas Itens Filtrados ativado, só será permitido enfunilar para espaços com filtro correspondente, e 'Comparar Tamanhos de Pilha' funciona como acima na inserção.$(br2)Na extração, espaços com filtro serão ignorados, e Comparar Tamanhos de Pilha determina se a extração tentará respeitar o tamanho de pilha do filtro."
     },
     {
       "type": "patchouli:text",
-      "text": "O botão \"Mostrar Jogador Falso\" no canto superior esquerdo alterna o jogador renderizado acima do bloco.$(br2)Ctrl + Shift + clique num dos espaços da barra de atalhos na UI coloca uma borda vermelha naquele espaço. Isso determina qual espaço do inventário é renderizado na \"mão principal\" do jogador falso. É puramente cosmético."
+      "text": "O botão 'Mostrar Jogador Falso' no canto superior esquerdo alterna o jogador renderizado acima do bloco.$(br2)Ctrl+Shift+Clique em um dos espaços da hotbar na interface coloca uma borda vermelha ao redor dele. Isso determina qual espaço do inventário é renderizado na 'mão principal' do jogador falso. É puramente cosmético."
     },
     {
       "type": "patchouli:text",
-      "text": "Na parte de baixo da UI há um botão Puxar Itens e um botão Empurrar Itens. Empurrar Itens tentará inserir todos os itens do seu inventário no bloco, respeitando os espaços de filtro definidos.$(br2)Nota: os botões \"apenas itens filtrados\" e \"comparar tamanhos de pilha\" no canto superior direito da UI são respeitados ao empurrar.$(br2)Puxar Inventário tira itens do bloco e os coloca no seu inventário."
+      "text": "Perto da parte inferior da interface ficam os botões Puxar Itens e Empurrar Itens. Empurrar Itens tentará inserir todos os itens do seu inventário no bloco, respeitando os espaços de filtro definidos.$(br2)Nota: os botões 'apenas itens filtrados' e 'comparar tamanhos de pilha' no canto superior direito são respeitados ao empurrar.$(br2)Puxar Inventário retira os itens do bloco e os coloca no seu inventário."
     },
     {
       "type": "patchouli:text",
-      "text": "O botão trocar inventário tenta trocar cada espaço do inventário do seu jogador com os espaços correspondentes no inventário do bloco.$(br2)Recomenda-se fazer isso com filtragem mínima, senão os itens não conseguirão ser trocados — mas fique à vontade para configurar como preferir e experimentar as opções!"
+      "text": "O botão de trocar inventário tenta trocar cada espaço do seu inventário com os espaços correspondentes do inventário do bloco.$(br2)Recomenda-se fazer isso com filtragem mínima, senão os itens não conseguirão trocar — mas você pode configurar como quiser, sinta-se livre para experimentar as opções!"
     },
     {
       "type": "patchouli:crafting",

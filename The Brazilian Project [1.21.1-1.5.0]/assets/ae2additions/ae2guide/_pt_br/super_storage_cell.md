@@ -1,6 +1,6 @@
 ---
 navigation:
-    title: Célula de Super Armazenamento
+    title: Supercélula de Armazenamento
     parent: aeadditions.md
 item_ids:
   - ae2additions:super_cell_65m
@@ -22,13 +22,13 @@ item_ids:
   - ae2additions:super_cell_component_4k
   - ae2additions:super_cell_component_1k
 ---
-# Célula de Super Armazenamento
+# Supercélula de Armazenamento
 
-A Célula de Super Armazenamento é uma célula muito poderosa, que permite armazenar fluidos, itens, químicos etc. na mesma célula. Você não precisa mais de uma célula para fluidos, uma célula para itens e assim por diante.
+A Supercélula de Armazenamento é uma célula muito poderosa, que permite armazenar fluidos, itens, químicos etc. na mesma célula. Você não precisa mais de uma célula para fluidos, uma célula para itens e assim por diante.
 
 <Row>
 ![Terminal](assets/super_storage_cell/example_terminal.png)
-![Gabinete ME](assets/super_storage_cell/example_drive.png)
+![Gabinete](assets/super_storage_cell/example_drive.png)
 </Row>
 
 # Receitas

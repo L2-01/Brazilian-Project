@@ -19,4 +19,4 @@ item_ids:
 <ItemImage id="extendedae:concurrent_processor_print" scale="4"></ItemImage>
 </Row>
 
-O Processador Concorrente é comumente usado em máquinas multithread, permitindo que elas lidem com múltiplas tarefas ao mesmo tempo.
+Processadores Concorrentes são comumente usados em máquinas multithread, permitindo que elas lidem com várias tarefas simultaneamente.

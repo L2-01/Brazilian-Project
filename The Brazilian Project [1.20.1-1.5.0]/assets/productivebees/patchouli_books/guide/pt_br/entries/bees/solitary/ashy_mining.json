@@ -1,19 +1,19 @@
 {
-  "name": "Abelha Mineradora Cinzenta",
-  "icon": "productivebees:spawn_egg_ashy_mining_bee",
-  "read_by_default": true,
-  "sortnum": 1,
-  "category": "productivebees:bees_solitary",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "title": "Abelha Mineradora Cinzenta",
-      "text": "[Andrena cineraria]",
-      "anchor": "ashy_mining"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "productivebees:ashy_mining_bee"
-    }
-  ]
+    "name": "Abelha Mineradora Cinzenta",
+    "icon": "productivebees:spawn_egg_ashy_mining_bee",
+    "read_by_default": true,
+    "sortnum": 1,
+    "category": "productivebees:bees_solitary",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Abelha Mineradora Cinzenta",
+            "text": "[Andrena cineraria]",
+            "anchor": "ashy_mining"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:ashy_mining_bee"
+        }
+    ]
 }

@@ -1,0 +1,49 @@
+---
+title: Princípios de Design de Reatores
+icon: oritech:area/reactor
+---
+
+Você pode projetar seus reatores como quiser. Em geral, varetas duplas ou quádruplas são mais eficientes no uso de combustível, pois geram mais RF total por pastilha, mas também são
+muito mais difíceis de resfriar.
+
+Você pode usar resfriamento ativo com absorvedores de calor, ou resfriamento passivo apenas com respiros de calor. Quando cercado por componentes ativos em todos os lados, um único absorvedor
+pode absorver até 16 * 4 = 64 de calor por tique, mas exige gelo para funcionar. Você pode criar gelo a partir de água com o resfriador industrial.
+
+Um único respiro de calor pode dissipar calor com base no bloco vizinho mais quente. A 1000 C, ele dissipa 14 de calor, e a 0 C apenas 4. Dependendo dos seus
+objetivos, você provavelmente vai querer espalhar o calor com distribuidores de calor para muitos respiros, ou cercar alguns absorvedores com tubos de calor.
+
+<div onlineOnly="true" >
+Com base nas fórmulas fornecidas, aqui está uma pequena tabela que fez parte dos cálculos para você:
+| Tipo de Vareta | Nº de Varetas | Pulsos Internos | Pulsos Externos | Pulsos Totais | Calor Gerado | RF Gerado | Respiros a 0 C | Respiros a 1000 C | Contatos de Absorvedor |
+| ---------- | --------- | --------------- | --------------- | ------------ | -------------- | ------------ | ------------------- | ---------------------- | ------------------------ |
+| vareta única | 1         | 1               | 0               | 1            | 4              | 128          | 1                   | 1                      | 1                        |
+|            | 1         | 1               | 1               | 2            | 6              | 256          | 2                   | 1                      | 1                        |
+|            | 1         | 1               | 2               | 3            | 8              | 384          | 2                   | 1                      | 1                        |
+|            | 1         | 1               | 4               | 5            | 16             | 640          | 4                   | 2                      | 1                        |
+| vareta dupla | 2         | 4               | 0               | 4            | 12             | 512          | 3                   | 1                      | 1                        |
+|            | 2         | 4               | 1               | 5            | 16             | 640          | 4                   | 2                      | 1                        |
+|            | 2         | 4               | 2               | 6            | 22             | 768          | 6                   | 2                      | 2                        |
+|            | 2         | 4               | 4               | 8            | 36             | 1024         | 9                   | 3                      | 3                        |
+|            | 2         | 4               | 8               | 12           | 76             | 1536         | 19                  | 6                      | 5                        |
+| vareta quádrupla | 4         | 12              | 0               | 12           | 76             | 1536         | 19                  | 6                      | 5                        |
+|            | 4         | 12              | 1               | 13           | 88             | 1664         | 22                  | 7                      | 6                        |
+|            | 4         | 12              | 2               | 14           | 102            | 1792         | 26                  | 8                      | 7                        |
+|            | 4         | 12              | 4               | 16           | 132            | 2048         | 33                  | 10                     | 9                        |
+|            | 4         | 12              | 8               | 20           | 204            | 2560         | 51                  | 15                     | 13                       |
+|            | 4         | 12              | 16              | 28           | 396            | 3584         | 99                  | 29                     | 25                       |
+</div>
+
+O design do reator pode variar. Um reator pequeno pode ser bom o suficiente para a geração de energia do início ao meio do jogo, enquanto reatores massivos podem ser necessários no fim de jogo.
+Ao testar designs, muitas vezes é aconselhável usar pastilhas pequenas para permitir um desligamento mais rápido caso o reator comece a superaquecer.
+
+Normalmente, algumas varetas de combustível são cercadas por tubos de calor e componentes de resfriamento, como abaixo:
+
+<center>
+<ModAsset location="oritech:area/reactor_small_layout" width={500} />
+</center>
+
+Para reatores maiores com varetas mais densas, você vai precisar de muito mais resfriamento. Note que nem todos os blocos internos precisam ser preenchidos:
+
+<center>
+<ModAsset location="oritech:area/reactor_bigger_layout" width={500} />
+</center>

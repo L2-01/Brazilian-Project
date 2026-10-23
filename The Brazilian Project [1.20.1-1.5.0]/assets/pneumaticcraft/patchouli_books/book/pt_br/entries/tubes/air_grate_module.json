@@ -6,26 +6,26 @@
   "pages": [
     {
       "type": "text",
-      "text": "Este módulo é usado para atrair/repelir entidades para/do módulo. Com $(l:base_concepts/pressure)pressão/$ positiva, o tubo soprará as entidades para longe e com pressão $(thing)negativa/$ ele sugará as entidades para perto. A pressão negativa é obtida com uma $(l:machines/vacuum_pump)Bomba de Vácuo/$. Quando entidades de itens chegam perto o suficiente, elas são automaticamente inseridas em qualquer inventário adjacente, respeitando inventários com lados (como Fornalhas)."
+      "text": "Este módulo é usado para atrair/repelir entidades para/do módulo. Com $(l:base_concepts/pressure)pressão/$ positiva, o tubo soprará as entidades para longe e com pressão $(thing)negativa/$ as sugará para perto. Pressão negativa é obtida com uma $(l:machines/vacuum_pump)Bomba de Vácuo/$. Quando entidades de itens estiverem perto o suficiente, serão inseridas automaticamente em qualquer inventário adjacente, respeitando inventários com lados (como Fornalhas)."
     },
     {
       "type": "text",
-      "text": "O alcance do módulo pode ser expresso com estas fórmulas:$(p)Com pressão positiva:$(p)  $(#272)Alcance = 4 x pressão (bar)/$$(p)Com pressão negativa:$(p)  $(#272)Alcance = -16 x pressão (bar)/$$(p)Ex.: a 2 bar ele repele a 4x2=8 blocos. A -0,5 bar, atrai a -16x-0,5=8 blocos."
+      "text": "O alcance do módulo pode ser expresso com estas fórmulas:$(p)Com pressão positiva:$(p)  $(#272)Range = 4 x pressure (bar)/$(p)Com pressão negativa:$(p)  $(#272)Range = -16 x pressure (bar)/$(p)Ex.: a 2 bar ele repele a 4x2=8 blocos. A -0,5 bar, ele atrai a -16x-0,5=8 blocos."
     },
     {
       "type": "text",
-      "text": "A Grade de Ar só afetará entidades numa área cúbica, na direção para a qual está voltada. O módulo também precisa ter linha de visão até a entidade.$(p)Você pode clicar com o botão direito no módulo para fazê-lo mostrar o alcance afetado por alguns segundos."
+      "text": "A Grade de Ar só afetará entidades numa área cúbica, na direção para a qual está virada. O módulo também precisa ter linha de visão para a entidade.$(p)Você pode clicar com o botão direito no módulo para fazê-lo mostrar o alcance afetado por alguns segundos."
     },
     {
       "type": "text",
-      "title": "Resfriamento de Dissipadores de Calor",
+      "title": "Resfriamento com Dissipador de Calor",
       "anchor": "active_cooling",
-      "text": "Um Módulo de Tubo de Grade de Ar também pode ser usado para resfriar ativamente $(l:machines/heat_sink)Dissipadores de Calor/$. O alcance em que os Dissipadores de Calor são resfriados é um cubo de 3x3x3 à frente da Grade de Ar. Esse alcance é visualizado quando o módulo é posicionado.$(p)A Grade de Ar só resfriará Dissipadores de Calor quando tiver um alcance de 3 blocos ou mais (ou seja, 0,75 bar)."
+      "text": "Um Módulo de Tubo de Grade de Ar também pode ser usado para resfriar ativamente $(l:machines/heat_sink)Dissipadores de Calor/$. O alcance em que os Dissipadores de Calor são resfriados é um cubo 3x3x3 à frente da Grade de Ar. Esse alcance é visualizado quando o módulo é colocado.$(p)A Grade de Ar só resfriará Dissipadores de Calor quando tiver um alcance de 3 blocos ou mais (ou seja, 0,75 bar)."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:module_expansion_card",
-      "text": "Quando você aplica um $(l:tubes/module_expansion_card)Cartão de Expansão de Módulo/$, passa a controlar quais entidades são afetadas pelo módulo.$(p)Você poderia configurá-lo, por exemplo, para que apenas um certo jogador seja afetado, ou apenas Creepers, ou apenas itens. Isso pode ser feito clicando com o botão direito no módulo aprimorado para abrir uma GUI que permite definir um $(l:base_concepts/entity_filter)filtro de entidade/$."
+      "text": "Quando você aplica um $(l:tubes/module_expansion_card)Cartão de Expansão de Módulo/$, ganha controle sobre quais entidades são afetadas pelo módulo.$(p)Você poderia configurá-lo, por exemplo, para que apenas um certo jogador seja afetado, ou apenas Creepers, ou apenas itens. Isso pode ser feito clicando com o botão direito no módulo aprimorado para abrir uma GUI que permite definir um $(l:base_concepts/entity_filter)filtro de entidades/$."
     },
     {
       "type": "crafting",

@@ -3,14 +3,19 @@ navigation:
   title: "Flip-Flop T"
   icon: "t_flip_flop"
   parent: little_big_redstone:logic.md
-  position: 23
+  position: 25
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:t_flip_flop
 ---
 
 # Flip-Flop T
+
+<FloatingColumn width="100" align="right">
+	### Analógico
+	Os Flip-Flops T produzem um valor de sinal de saída igual ao valor do sinal de entrada que os colocou em LIGADO.
+</FloatingColumn>
 
 <Row>
 	<Column>
@@ -25,7 +30,8 @@ item_ids:
 	</Column>
 </Row>
 
-O flip-flop T é um componente lógico que simplesmente inverte o estado da saída sempre que um novo sinal de entrada LIGADO é recebido.
+O flip-flop T é um componente lógico que simplesmente alterna o estado da saída sempre que um novo sinal de
+entrada LIGADO é recebido.
 
 <MicrochipScene color="red" includeToolbar={true}>
 	<Logic name="1" x="0" y="0" type="io" hide={true} />

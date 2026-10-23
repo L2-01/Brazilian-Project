@@ -1,19 +1,19 @@
 {
-  "name": "Widget de Importar RF",
-  "icon": "pneumaticcraft:textures/progwidgets/rf_import_piece.png",
-  "category": "pneumaticcraft:widget_interact",
-  "advancement": "pneumaticcraft:programmer",
-  "pages": [
-    {
-      "type": "text",
-      "text": "$(l:tools/drone)Drones/$ têm um buffer interno de 100.000 FE (Energia Forge).  Usando este widget, você pode importar energia de um bloco fornecedor de energia (ex.: uma $(item)Célula de Energia do Thermal Expansion/$ ou um $(item)Capacitor do Immersive Engineering/$) para o armazenamento interno do drone.$(p)$(italic)Apesar do nome, este widget importa FE (Energia Forge), não RF (Redstone Flux). O nome é histórico./$"
-    },
-    {
-      "type": "image",
-      "images": [
-        "pneumaticcraft:textures/progwidgets/rf_import_piece.png"
-      ],
-      "text": "$(italic)Eu tenho o poder/$"
-    }
-  ]
+    "name": "Widget de Importar RF",
+    "icon": "pneumaticcraft:textures/progwidgets/rf_import_piece.png",
+    "category": "pneumaticcraft:widget_interact",
+    "advancement": "pneumaticcraft:programmer",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:tools/drone)Drones/$ têm um buffer interno de 100.000 FE (Forge Energy). Usando este widget, você pode importar energia de um bloco que forneça energia (ex.: uma $(item)Célula de Energia do Thermal Expansion/$ ou um $(item)Capacitor do Immersive Engineering/$) para o armazenamento interno do drone.$(p)$(italic)Apesar do nome, este widget importa FE (Forge Energy), não RF (Redstone Flux). O nome é histórico./$"
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/progwidgets/rf_import_piece.png"
+            ],
+            "text": "$(italic)Eu tenho o poder/$"
+        }
+    ]
 }

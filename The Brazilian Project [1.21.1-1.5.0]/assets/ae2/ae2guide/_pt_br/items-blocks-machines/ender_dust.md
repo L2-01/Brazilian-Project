@@ -14,7 +14,7 @@ item_ids:
 
 <ItemImage id="ender_dust" scale="4" />
 
-Uma pérola de ender que foi triturada por um <ItemLink id="inscriber" />. Usada na produção de <ItemLink id="wireless_booster" />s
+Uma ender pearl triturada por um <ItemLink id="inscriber" />. Usada na produção de <ItemLink id="wireless_booster" />s
 e pares de <ItemLink id="quantum_entangled_singularity" />.
 
 ## Receita

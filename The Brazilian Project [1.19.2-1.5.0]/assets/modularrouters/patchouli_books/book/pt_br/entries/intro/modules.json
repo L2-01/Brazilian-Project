@@ -1,0 +1,50 @@
+{
+  "name": "Módulos",
+  "icon": "modularrouters:breaker_module",
+  "category": "modularrouters:intro",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Módulos/$ são inseridos num $(l:intro/modular_router)Roteador Modular/$ e dizem ao roteador o que fazer. Há 20 tipos diferentes de módulos, cada um com uma função específica. Todos os módulos têm algumas características em comum, no entanto:$(li)Todos os módulos têm 9 $(thing)espaços de filtro/$ para controlar qual(is) item(ns) um módulo processará.$(li)Muitos módulos têm uma $(thing)direção/$ definida, relativa ao sentido do roteador."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Alguns módulos têm configurações extras para funcionalidades específicas do módulo.$(p)Tudo isso pode ser configurado na GUI do módulo, que você acessa $(thing)Clicando com o botão direito/$ no módulo na mão.$(p)Você também pode configurar um módulo instalado na GUI do roteador pressionando $(4)$(bold)[$(k:modularrouters.configure)]/$ enquanto passa o mouse sobre ele, ou $(thing)Clicando com o botão do meio/$ no módulo na GUI, sem precisar removê-lo do roteador."
+    },
+    {
+      "type": "image",
+      "images": [
+        "modularrouters:textures/patchouli/module_gui.png"
+      ],
+      "text": "$(italic)GUI do Módulo: veja as páginas seguintes para uma descrição de cada parte da GUI/$",
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "1. Espaços de Filtro",
+      "anchor": "filter",
+      "text": "Há nove espaços de filtro, onde você pode inserir cópias fantasmas de qualquer item ou bloco. O módulo só operará se o item no $(thing)buffer/$ do roteador corresponder a um item no filtro do módulo (se em lista-branca; o oposto se em lista-negra)."
+    },
+    {
+      "type": "text",
+      "anchor": "direction",
+      "title": "2. Seletor de Direção",
+      "text": "A maioria dos módulos opera numa direção definida, relativa ao sentido do roteador. Aqui você pode definir a direção.$(p)Alguns módulos (ex.: o $(l:modules/sender2)Enviador Mk2/$) miram um bloco distante diretamente, então não têm uma direção definível. Nesse caso, o seletor de direção ficará em branco."
+    },
+    {
+      "type": "text",
+      "title": "3. Controle de Filtro",
+      "text": "Aqui há vários botões que controlam:$(li)Lista-branca vs. lista-negra$(li)Se deve corresponder ao dano do item (para itens com durabilidade)$(li)Se deve corresponder ao NBT do item, ex.: encantamentos$(li)Se deve corresponder por $(l:https://minecraft.gamepedia.com/Tag)tags de item/$(p)Também há um botão aqui para controlar o $(l:router/termination)Comportamento de Término/$, que é explicado numa página separada."
+    },
+    {
+      "type": "text",
+      "title": "4. Melhorias de Módulo",
+      "text": "Todo módulo tem quatro espaços de $(thing)Melhoria/$ onde melhorias de módulo (upgrades específicos do módulo) podem ser inseridas.$(p)As melhorias que podem ser inseridas aqui dependem do tipo de módulo; nem todo tipo de módulo aceita todo tipo de melhoria."
+    },
+    {
+      "type": "text",
+      "title": "5. Configurações Extras",
+      "text": "Alguns módulos têm opções extras de configuração. Por exemplo, o $(l:modules/detector)Módulo Detector/$ mostrado antes tem opções para definir o nível de saída de redstone e se o sinal de saída deve ser um sinal de redstone fraco ou forte.$(p)Onde os módulos têm essas opções, elas são mostradas no lado direito da GUI."
+    }
+  ]
+}

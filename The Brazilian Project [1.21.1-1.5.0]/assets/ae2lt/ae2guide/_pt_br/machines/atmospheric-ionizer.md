@@ -16,11 +16,11 @@ item_ids:
   <BlockImage id="ae2lt:atmospheric_ionizer" scale="4" />
 </Row>
 
-O **Ionizador Atmosférico** é um dispositivo de controle climático. Ele consome **Condensado de Tempo** e energia AE para forçar o clima do mundo a um estado específico, permitindo alimentar o Coletor de Raios com descargas naturais confiáveis.
+O **Ionizador Atmosférico** é um dispositivo de controle climático. Ele consome **Condensado Climático** e energia AE para forçar o clima do mundo a um estado específico, permitindo alimentar o Coletor de Raios com raios naturais confiáveis.
 
-## Condensado de Tempo
+## Condensado Climático
 
-Existem três tipos de Condensado de Tempo, um para cada estado climático:
+Há três tipos de Condensado Climático, um por estado do clima:
 
 <ItemGrid>
   <ItemIcon id="ae2lt:clear_condensate" />
@@ -28,18 +28,18 @@ Existem três tipos de Condensado de Tempo, um para cada estado climático:
   <ItemIcon id="ae2lt:thunderstorm_condensate" />
 </ItemGrid>
 
-| Condensado | Tempo Alvo | Custo de AE | Duração |
+| Condensado | Clima Alvo | Custo em AE | Duração |
 |------------|----------------|---------|----------|
-| Condensado Límpido | Limpo | 500.000 AE | 12.000 ~ 180.000 tiques |
-| Condensado de Chuva | Chuva | 1.000.000 AE | 12.000 ~ 24.000 tiques |
-| Condensado de Tempestade | Tempestade | 8.000.000 AE | 3.600 ~ 15.600 tiques |
+| Condensado Límpido | Limpo | 500.000 AE | 12.000 ~ 180.000 ticks |
+| Condensado de Chuva | Chuva | 1.000.000 AE | 12.000 ~ 24.000 ticks |
+| Condensado de Tempestade | Tempestade | 8.000.000 AE | 3.600 ~ 15.600 ticks |
 
 ## Fluxo de Operação
 
 1. Conecte o Ionizador Atmosférico à rede ME
-2. Coloque o Condensado de Tempo necessário no espaço de entrada
+2. Coloque o Condensado Climático necessário no slot de entrada
 3. A máquina puxa AE continuamente da rede ME para ionizar
-4. Quando a ionização termina, o clima do mundo é forçado ao estado alvo
+4. Com a ionização completa, o clima do mundo é forçado ao estado alvo
 5. O condensado é consumido
 
 ## Notas
@@ -47,4 +47,4 @@ Existem três tipos de Condensado de Tempo, um para cada estado climático:
 * O Ionizador Atmosférico consome **energia AE** da rede ME, não FE
 * O Condensado de Tempestade tem o maior custo por uso (8.000.000 AE) — garanta que a rede tenha energia suficiente disponível
 * Em dimensões que não suportam clima, a máquina não funciona
-* Quando o tempo alvo já é o tempo atual, a máquina não consome condensado
+* Quando o clima alvo já é o clima atual, a máquina não consome condensado

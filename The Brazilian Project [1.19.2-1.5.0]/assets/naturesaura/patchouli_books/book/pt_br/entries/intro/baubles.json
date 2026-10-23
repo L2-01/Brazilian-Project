@@ -1,5 +1,5 @@
 {
-    "name": "Baubles",
+    "name": "Amuletos",
     "icon": "minecraft:totem_of_undying",
     "category": "naturesaura:intro",
     "read_by_default": true,
@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Às vezes você pode se ver sem espaço no $(thing)inventário$(), com pilhas enormes de blocos e itens lotando sua mochila e te atrasando.$(br)Alguns $(thing)itens naturais$() podem ser colocados diretamente nos braços, cintura e peito como $(item)Baubles$(). Se um item tiver essa funcionalidade, sua dica exibirá as partes do corpo onde ele pode ficar."
+            "text": "Às vezes você pode se ver perdido com o espaço do seu $(thing)inventário$(), com pilhas enormes de blocos e itens bagunçando sua mochila e te atrasando.$(br)Alguns $(thing)itens naturais$() podem ser colocados diretamente nos braços, cintura e peito como $(item)Amuletos$(). Se um item tiver essa funcionalidade, sua dica exibirá as partes do corpo onde ele pode residir."
         }
     ]
 }

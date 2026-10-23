@@ -16,7 +16,7 @@ item_ids:
 
 Ferramentas básicas podem ser feitas tanto de <ItemLink id="certus_quartz_crystal" /> quanto de <ItemLink id="minecraft:quartz" />.
 
-Sua durabilidade e velocidade de mineração são equivalentes às ferramentas de ferro.
+Sua durabilidade e velocidade de mineração equivalem às ferramentas de ferro.
 
 ## Ferramentas de Quartzo Certus
 

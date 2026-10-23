@@ -14,7 +14,7 @@ item_ids:
     <ItemImage id="appliedsoul:range_card" scale="2" />
 </Row>
 
-O **Cartão de Alcance** pode fornecer alcance de trabalho adicional para o **<ItemLink id ="appliedsoul:soul_collector" />**. Cada melhoria fornece um **raio adicional de 1 chunk** de trabalho.
+O **Cartão de Alcance** pode fornecer alcance de trabalho adicional para o **<ItemLink id ="appliedsoul:soul_collector" />**. Cada melhoria fornece um **raio de 1 chunk** adicional de trabalho.
 
-O **Cartão de Alcance** pode fornecer alcance de trabalho adicional para o **<ItemLink id ="appliedsoul:soul_broadcast" />**. Cada melhoria fornece um **raio adicional de 16 blocos** de trabalho.
+O **Cartão de Alcance** pode fornecer alcance de trabalho adicional para o **<ItemLink id ="appliedsoul:soul_broadcast" />**. Cada melhoria fornece um **raio de 16 blocos** adicional de trabalho.
 ---

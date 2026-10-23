@@ -1,0 +1,22 @@
+{
+	"name": "Papel Encharcado",
+	"icon": "opolisutilities:textures/item/soaked_paper.png",
+	"category": "opolisutilities:basic_items",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "text",
+			"text": "O papel encharcado pode ser seco numa mesa de secagem para fazer papel."
+		},
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:log_sheet",
+			"text": "Usado para fazer papel encharcado."
+		},
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:soaked_paper",
+			"text": "Pode ser usado para fazer papel."
+		}
+	]
+}

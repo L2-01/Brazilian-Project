@@ -1,12 +1,12 @@
 {
-	"name": "A Moldura de Portal Básica",
+	"name": "O Portal Básico",
 	"icon": "dimdungeons:block_gilded_portal",
 	"category": "dimdungeons:portals",
 	"sortnum": 2,
 	"pages": [
 		{
 			"type": "text",
-			"text": "Primeiro, aqui está uma lista mínima de matérias-primas: $(li)9x Tijolos de Pedra$(li)3x Tijolos de Pedra Talhados$(li)24x Barras de Ouro$(li)1x Baú com Armadilha$(li)1x Olho de Ender$(br)Você também pode usar tijolos de pedra rachados ou musgosos.$(br2)Tenha em mente que você também precisará fabricar e ativar chaves. Construir a moldura do portal é só o primeiro passo."
+			"text": "Primeiro, aqui está uma lista mínima de materiais brutos: $(li)9x Tijolos de Pedra$(li)3x Tijolos de Pedra Talhados$(li)24x Barras de Ouro$(li)1x Baú com Armadilha$(li)1x Olho de Ender$(br)Você também pode usar tijolos de pedra rachados ou musgosos.$(br2)Lembre-se de que você também precisará fabricar e ativar chaves. Construir o portal é apenas o primeiro passo."
 		},
 		{
 			"type": "crafting",
@@ -16,16 +16,48 @@
 		{
 			"type": "crafting",
 			"recipe": "dimdungeons:recipe_block_portal_keyhole",
-			"text": "Depois use um para fabricar um bloco de pedra angular do portal"
+			"text": "Depois use um para fabricar um bloco de Pedra Angular do Portal"
 		},
 		{
 			"type": "multiblock",
 			"multiblock": {
 				"pattern": [
-					[" "," "," ","K"," "," "," "],
-					["G"," ","B"," ","B"," ","G"],
-					["B"," ","B","0","B"," ","B"],
-					["B"," "," ","B"," "," ","B"]
+					[
+						" ",
+						" ",
+						" ",
+						"K",
+						" ",
+						" ",
+						" "
+					],
+					[
+						"G",
+						" ",
+						"B",
+						" ",
+						"B",
+						" ",
+						"G"
+					],
+					[
+						"B",
+						" ",
+						"B",
+						"0",
+						"B",
+						" ",
+						"B"
+					],
+					[
+						"B",
+						" ",
+						" ",
+						"B",
+						" ",
+						" ",
+						"B"
+					]
 				],
 				"mapping": {
 					"K": "dimdungeons:block_portal_keyhole",
@@ -33,11 +65,11 @@
 					"B": "minecraft:stone_bricks"
 				}
 			},
-			"text": "Depois crie um portal assim."
+			"text": "Então crie um portal assim."
 		},
 		{
 			"type": "text",
-			"text": "Decorar o portal é altamente encorajado! Além disso, quaisquer blocos de ar exceto os dois do meio onde o portal se forma podem ser preenchidos com quaisquer blocos que você quiser. Afundar o portal um bloco no chão ou construir degraus até ele também pode ser uma boa ideia."
+			"text": "Decorar o portal é muito recomendado! Além disso, quaisquer blocos de ar, exceto os dois do meio onde o portal se forma, podem ser preenchidos com os blocos que você quiser. Afundar o portal um bloco no chão ou construir degraus até ele também pode ser uma boa ideia."
 		}
 	]
 }

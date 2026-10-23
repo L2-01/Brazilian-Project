@@ -17,7 +17,7 @@ item_ids:
 TNT pequena para explosões pequenas. Útil para fazer pares de <ItemLink id="quantum_entangled_singularity" />.
 
 Seu dano a blocos pode ser desativado na configuração para permitir fazer singularidades sem a possibilidade
-de destruição, caso você queira desativar TNT e creepers no seu servidor.
+de griefing, caso você queira desativar TNT e creepers no seu servidor.
 
 ## Receita
 

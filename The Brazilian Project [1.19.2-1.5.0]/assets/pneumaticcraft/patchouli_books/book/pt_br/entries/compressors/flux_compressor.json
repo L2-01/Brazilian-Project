@@ -1,17 +1,17 @@
 {
-  "name": "Compressor de Fluxo",
-  "icon": "pneumaticcraft:flux_compressor",
-  "category": "pneumaticcraft:compressors",
-  "advancement": "pneumaticcraft:advanced_pressure_tube",
-  "pages": [
-    {
-      "type": "text",
-      "text": "O $(item)Compressor de Fluxo/$ converte $(thing)Energia Forge/$ (compatível com $(thing)Redstone Flux/$ e os sistemas de energia de vários outros mods) em $(l:base_concepts/pressure)ar comprimido/$. Ele consome 40 FE/tique base, mas pode ser aprimorado com $(l:base_concepts/upgrades#speed)Melhorias de Velocidade/$.$(p)O Compressor de Fluxo tem capacidade de 100.000 FE e aceita FE ao dobro da taxa em que o usa."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando um $(item)Compressor de Fluxo/$$(p)Este gerador precisa ser $(l:base_concepts/heat)resfriado/$, pois sua eficiência cairá conforme a temperatura sobe, até o ponto em que nenhum ar é gerado.",
-      "recipe": "pneumaticcraft:flux_compressor"
-    }
-  ]
+    "name": "Compressor de Fluxo",
+    "icon": "pneumaticcraft:flux_compressor",
+    "category": "pneumaticcraft:compressors",
+    "advancement": "pneumaticcraft:advanced_pressure_tube",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O $(item)Compressor de Fluxo/$ converte $(thing)Forge Energy/$ (compatível com $(thing)Redstone Flux/$ e os sistemas de energia de vários outros mods) em $(l:base_concepts/pressure)ar comprimido/$. Ele consome uma base de 40 FE/tick, mas pode ser aprimorado com $(l:base_concepts/upgrades#speed)Melhorias de Velocidade/$.$(p)O Compressor de Fluxo tem capacidade de 100.000 FE e aceita FE ao dobro da taxa em que o usa."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando um $(item)Compressor de Fluxo/$$(p)Este gerador precisa ser $(l:base_concepts/heat)resfriado/$, pois sua eficiência cairá conforme a temperatura sobe, até o ponto em que nenhum ar é gerado.",
+            "recipe": "pneumaticcraft:flux_compressor"
+        }
+    ]
 }

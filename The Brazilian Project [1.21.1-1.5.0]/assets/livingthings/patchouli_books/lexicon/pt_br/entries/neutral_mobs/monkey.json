@@ -1,1 +1,18 @@
-{"name":"Macaco","icon":"livingthings:monkey_spawn_egg","category":"livingthings:neutral_mobs_category","pages":[{"type":"text","text":"$(br2)$(bold)Vida: $()3 Corações$(br)$(bold)Dano de Ataque: $()1,5 Coração$(br2)$(bold)Itens de Reprodução: $()$(li)Maçãs$(li)Bananas$(br2)$(bold)Itens Largados:$()$(li)1-2 Couros$(li)0-1 Banana"},{"type":"entity","entity":"livingthings:monkey","rotate":false,"default_rotation":35,"text":"Pode ser encontrado em todos os biomas de $(bold)Selva$()."}]}
+{
+    "name": "Macaco",
+    "icon": "livingthings:monkey_spawn_egg",
+    "category": "livingthings:neutral_mobs_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(br2)$(bold)Vida: $()3 Corações$(br)$(bold)Dano de Ataque: $()1,5 Coração$(br2)$(bold)Itens de Reprodução: $()$(li)Maçãs$(li)Bananas$(br2)$(bold)Drops:$()$(li)1-2 Couro$(li)0-1 Banana"
+        },
+        {
+            "type": "entity",
+            "entity": "livingthings:monkey",
+            "rotate": false,
+            "default_rotation": 35,
+            "text": "Pode ser encontrado em todos os biomas de $(bold)Selva$()."
+        }
+    ]
+}

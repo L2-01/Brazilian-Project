@@ -35,12 +35,12 @@ A câmara de vibração suporta as seguintes [melhorias](upgrade_cards.md):
 
 ## Config
 
-As propriedades da câmara de vibração podem ser editadas em common.json na pasta do AE2 dentro da pasta config do seu diretório `.minecraft\`.
+As propriedades da câmara de vibração podem ser editadas em common.json na pasta do AE2 dentro da pasta config do seu diretório .minecraft\.
 
-*   `baseEnergyPerFuelTick` define a eficiência base, sem melhorias, da câmara de vibração.
-*   `minEnergyPerGameTick` define a geração mínima possível de energia (a câmara sempre usará um pouco de combustível lentamente, mesmo se a rede
+*   baseEnergyPerFuelTick define a eficiência base, sem melhorias, da câmara de vibração.
+*   minEnergyPerGameTick define a geração mínima possível de energia (a câmara sempre usará um pouco de combustível lentamente, mesmo se a rede
     não requerer energia).
-*   `maxEnergyPerGameTick` define a saída (e velocidade) máxima sem melhorias da câmara de vibração.
+*   maxEnergyPerGameTick define a saída (e velocidade) máxima sem melhorias da câmara de vibração.
 
 ## Receita
 

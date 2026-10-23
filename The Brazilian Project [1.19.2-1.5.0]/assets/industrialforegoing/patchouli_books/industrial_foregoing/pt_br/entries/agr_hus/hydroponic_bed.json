@@ -1,0 +1,17 @@
+{
+  "name": "Cama Hidropônica",
+  "icon": "industrialforegoing:hydroponic_bed",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 16,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esta máquina, quando combinada com energia e $(6)água$() (ou $(6)lava$() para plantações do nether), acelerará um pouco o crescimento das plantações. $(br2)Ao fornecer quantidades muito pequenas de $(l:resource_production/ether_gas)Gás de Éter$(), as plantações crescerão muito mais rápido e serão replantadas automaticamente."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:hydroponic_bed"
+    }
+  ]
+}

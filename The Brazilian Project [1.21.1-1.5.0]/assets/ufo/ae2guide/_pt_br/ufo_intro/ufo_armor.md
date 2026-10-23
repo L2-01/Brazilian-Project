@@ -26,7 +26,7 @@ item_ids:
 
 <ItemImage id="ufo:thermal_resistor_chest" scale="3" float="left" />
 
-Vista a Máscara, o Peitoral, as Calças e as Botas juntos para satisfazer a verificação
+Use a Máscara, o Peitoral, as Calças e as Botas juntos para satisfazer a verificação
 de proteção térmica do UFO. Um conjunto completo de Resistor Térmico, ou um conjunto UFO
 energizado completo, protege contra materiais perigosos marcados e a zona de calor
 industrial do DMA. Peças individuais sozinhas não satisfazem o contrato completo de proteção.
@@ -36,25 +36,25 @@ industrial do DMA. Peças individuais sozinhas não satisfazem o contrato comple
 <ItemImage id="ufo:ufo_chestplate" scale="3" float="left" />
 
 O conjunto UFO agora é o tier final de armadura modular. Equipe as quatro peças UFO e
-pressione **N** para abrir sua tela de configuração. Insira um cartão de módulo no espaço,
-selecione a peça de armadura compatível, depois ative ou remova os módulos instalados da
-lista.
+pressione **N** para abrir sua tela de configuração. Insira um cartão de módulo no slot,
+selecione a peça de armadura compatível e então habilite ou remova módulos instalados
+da lista.
 
 O capacete aceita módulos de visão, ambientais e de energia; o peitoral
-aceita módulos defensivos, de sobrevivência e de voo; as calças aceitam módulos de utilidade,
-combate e saque; e as botas aceitam módulos de movimento. Os módulos consomem
+aceita módulos defensivos, de sobrevivência e de voo; as calças aceitam módulos utilitários,
+de combate e de saque; e as botas aceitam módulos de movimento. Os módulos consomem
 RF da peça de armadura onde estão instalados. Segure Shift sobre uma peça para
 inspecionar sua energia e módulos instalados.
 
-Módulos com uma engrenagem expõem controles ao vivo. O Voo do Vazio controla velocidade e inércia;
-o Passo de Fase controla altura de passo e alcance adicional de bloco/entidade; o Regenerador
-Temporal controla a força de regeneração; o Relé Quântico controla a taxa de
-transferência; o Translocador de Matéria controla seu gatilho e a vida restaurada; o Ímã de
-Entropia e o Campo de Camuflagem controlam seus alcances; e os módulos de combate e de saque
-expõem seus multiplicadores de poder. A Visão Abissal também previne a Escuridão. A
-Singularidade de Saque aplica Sorte real e multiplica itens largados por criaturas e experiência, então seu
-nível configurado permanece efetivo mesmo para tabelas de saque que ignoram a
+Módulos com uma engrenagem expõem controles ao vivo. Voo do Vazio controla velocidade e inércia;
+Passo de Fase controla altura de passo e alcance adicional de blocos/entidades; Regenerador
+Temporal controla a força da regeneração; Relé Quântico controla a taxa de
+transferência; Translocador de Matéria controla seu gatilho e a vida restaurada; Ímã de
+Entropia e Campo de Camuflagem controlam seus alcances; e os módulos de combate e saque
+expõem seus multiplicadores de poder. Visão Abissal também previne Escuridão. Singularidade
+de Saque aplica Sorte real e multiplica drops de criaturas e experiência, então seu
+nível configurado permanece efetivo mesmo para tabelas de itens que ignoram a
 qualidade de sorte do vanilla.
 
 A antiga armadura Astral Nexus foi aposentada da progressão. Seus visuais
-marcantes de voo agora são fornecidos pelo módulo UFO **Propulsores de Dobra**.
+característicos de voo agora são fornecidos pelo módulo UFO **Propulsores de Dobra**.

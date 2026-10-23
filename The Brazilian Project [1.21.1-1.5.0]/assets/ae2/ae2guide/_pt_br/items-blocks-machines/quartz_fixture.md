@@ -21,7 +21,7 @@ item_ids:
 
 A luminária de quartzo carregado é um pequeno enfeite que emite luz.
 
-Já a luminária de detecção de luz emite um sinal de redstone conforme o nível de luz do seu bloco.
+A luminária detectora de luz, por sua vez, emite um sinal de redstone de acordo com o nível de luz do seu bloco.
 
 ## Receitas
 

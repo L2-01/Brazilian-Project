@@ -1,23 +1,23 @@
 {
-    "name": "Cartão de Identificação",
-    "icon": "mffs:id_card",
-    "category": "mffs:tools",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:id_card",
-            "link_recipe": true,
-            "text": "Os $(5)Cartões de Identificação$() do MFFS são usados em combinação com o $(l:mffs:machines/biometric_identifier)Identificador Biométrico$() para reger os direitos e privilégios dos jogadores."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:id_card",
-            "text": "Fabricando o $(5)Cartão de Identificação$()."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Uso",
-            "text": "Antes que um Cartão de Identificação possa ser usado, ele precisa ser atribuído a um jogador. Um Cartão de Identificação pode ser atribuído a você mesmo agachando e clicando com o botão direito enquanto segura o cartão. Você também pode agachar e clicar com o botão direito em outros jogadores para atribuir o cartão a eles. Ative o cartão novamente para limpar a identidade armazenada."
-        }
-    ]
+  "name": "Cartão de Identificação",
+  "icon": "mffs:id_card",
+  "category": "mffs:tools",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:id_card",
+      "link_recipe": true,
+      "text": "Os $(5)Cartões de Identificação$() do MFFS são usados em combinação com o $(l:mffs:machines/biometric_identifier)Identificador Biométrico$() para controlar os direitos e privilégios dos jogadores."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:id_card",
+      "text": "Fabricando o $(5)Cartão de Identificação$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "Antes de poder ser usado, um Cartão de Identificação precisa ser atribuído a um jogador. Um Cartão de Identificação pode ser atribuído a você mesmo usando shift + clique direito segurando o cartão. Você também pode usar shift + clique direito em outros jogadores para atribuir o cartão a eles. Ative o cartão novamente para limpar a identidade armazenada."
+    }
+  ]
 }

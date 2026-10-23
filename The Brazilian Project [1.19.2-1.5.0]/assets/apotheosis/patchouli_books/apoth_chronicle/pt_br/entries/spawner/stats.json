@@ -1,0 +1,67 @@
+{
+    "name": "Atributos de Gerador",
+    "icon": "minecraft:writable_book",
+    "category": "apotheosis:spawner/spawner",
+    "flag": "apotheosis:spawner",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Cada Gerador de Criaturas tem $(9)Atributos de Gerador$(), que ditam seu funcionamento.$(p)Quanto tempo entre gerações, quantas criaturas são geradas etc.$(p)Este capítulo detalha todos eles."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Atraso de Geração",
+            "text": "Depois que um Gerador de Criaturas gera uma entidade, há um atraso até a próxima geração.$(p)Esse atraso é um número aleatório entre o $(9)Atraso Mínimo de Geração$() e o $(9)Atraso Máximo de Geração$().$(p)Se o Atraso Máximo for menor que o Mínimo, o Mínimo será usado."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Quantia Gerada",
+            "text": "A $(9)Quantia Gerada$() dita quantas criaturas são geradas por vez.$(p)Nem todas as gerações terão sucesso, então às vezes nascerão menos entidades.$(p)A geração conta como bem-sucedida (e o atraso reinicia) desde que uma entidade seja gerada."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Máx. de Entidades",
+            "text": "Os Geradores de Criaturas rastreiam o número de entidades por perto.$(p)Se esse número exceder o $(9)Máx. de Entidades$(), a geração para.$(p)Apenas entidades do mesmo tipo da gerada são contadas."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Distância de Ativação",
+            "text": "Os Geradores de Criaturas exigem um jogador por perto para funcionar.$(p)Esse jogador deve estar dentro da $(9)Distância de Ativação$(), que é um raio em blocos, para o gerador operar."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Alcance de Geração",
+            "text": "O $(9)Alcance de Geração$() é o raio em blocos dentro do qual as entidades podem surgir.$(p)Certifique-se de que essa área seja adequada para as entidades, senão algumas gerações podem falhar."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Ignora Jogadores",
+            "text": "Um gerador que $(9)Ignora Jogadores$() não precisa de um jogador dentro da $(9)Distância de Ativação$().$(p)Ele funcionará com ou sem um."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Ignora Condições",
+            "text": "Um gerador que $(9)Ignora Condições$() não exigirá mais certas condições de geração específicas da criatura.$(p)Isso inclui coisas como a exigência de grama para animais.$(p)Ele só precisará de espaço suficiente e ausência de entidades próximas."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Controlado por Redstone",
+            "text": "Um gerador $(9)Controlado por Redstone$() exige um sinal de redstone para operar.$(p)Isso permite controlar quando o gerador funciona."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Ignora Luz",
+            "text": "Um gerador que $(9)Ignora Luz$() funcionará em todos os níveis de luz.$(p)Isso significa que criaturas podem surgir sob a luz do dia.$(p)Se ele já $(9)Ignora Condições$(), este modificador não faz nada."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Sem IA",
+            "text": "Um gerador com $(9)Sem IA$() habilitado gerará criaturas sem nenhuma IA.$(p)Normalmente, elas apenas ficam flutuando, imóveis, sem fazer nada.$(p)Porém, as criadas pelo Apotheosis ainda podem ser movidas."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Se você estiver fazendo grandes fazendas de criaturas, use sempre a melhoria $(9)Sem IA$().$(p)Ela reduz significativamente a carga do servidor e torna as criaturas mais fáceis de controlar."
+        }
+    ]
+}

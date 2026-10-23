@@ -1,1 +1,19 @@
-{"name":"Guaxinim","icon":"livingthings:raccoon_spawn_egg","category":"livingthings:neutral_mobs_category","pages":[{"type":"text","text":"Mamíferos de médio porte que limpam bem a comida antes de comê-la.$(br2)$(bold)Vida: $()5 Corações$(br)$(bold)Dano de Ataque: $()1 Coração$(br2)$(bold)Itens de Reprodução: $()$(li)Trigo$(li)Maçã$(li)Cenoura$(li)Batata$(li)Beterraba"},{"type":"entity","entity":"livingthings:raccoon","rotate":false,"scale":0.9,"default_rotation":35,"text":"Pode ser encontrado em biomas de $(bold)Floresta$() e $(bold)Planície$()."}]}
+{
+    "name": "Guaxinim",
+    "icon": "livingthings:raccoon_spawn_egg",
+    "category": "livingthings:neutral_mobs_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Mamíferos de tamanho médio que limpam bem sua comida antes de comê-la.$(br2)$(bold)Vida: $()5 Corações$(br)$(bold)Dano de Ataque: $()1 Coração$(br2)$(bold)Itens de Reprodução: $()$(li)Trigo$(li)Maçã$(li)Cenoura$(li)Batata$(li)Beterraba"
+        },
+        {
+            "type": "entity",
+            "entity": "livingthings:raccoon",
+            "rotate": false,
+            "scale": 0.9,
+            "default_rotation": 35,
+            "text": "Pode ser encontrado em biomas de $(bold)Floresta$() e $(bold)Planície$()."
+        }
+    ]
+}

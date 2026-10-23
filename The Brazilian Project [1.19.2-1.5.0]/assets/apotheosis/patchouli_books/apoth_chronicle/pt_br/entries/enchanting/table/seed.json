@@ -1,0 +1,16 @@
+{
+    "name": "Semente de Encantamento",
+    "icon": "minecraft:wheat_seeds",
+    "category": "apotheosis:enchanting/table",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Tudo no encantamento (e em algumas outras mecânicas) se baseia na sua $(9)Semente de Encantamento$().$(p)A semente muda sempre que você encanta um item em uma mesa de encantamentos."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Enquanto sua semente não mudar, todos os resultados aleatórios baseados nela permanecerão os mesmos.$(p)Por exemplo, quais encantamentos são selecionados para um espaço específico é um resultado aleatório baseado na semente."
+        }
+    ]
+}

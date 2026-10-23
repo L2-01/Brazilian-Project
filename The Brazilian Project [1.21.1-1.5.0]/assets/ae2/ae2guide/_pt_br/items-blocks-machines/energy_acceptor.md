@@ -21,22 +21,22 @@ item_ids:
 </Row>
 
 O aceitador de energia converte formas comuns de energia de outros mods de tecnologia para a forma interna de [energia](../ae2-mechanics/energy.md) do AE2,
-AE. Embora o <ItemLink id="controller" /> também possa fazer isso, faces de controlador são valiosas, então muitas vezes é melhor usar um aceitador de
-energia em vez disso.
+AE. Embora o <ItemLink id="controller" /> também possa fazer isso, as faces do controlador são valiosas, então geralmente é melhor usar um aceitador
+de energia.
 
-As taxas de conversão de Forge Energy e Techreborn Energy são
+As razões de conversão de Forge Energy e Techreborn Energy são
 
 *   2 FE = 1 AE (Forge)
 *   1 E  = 2 AE (Fabric)
 
-A velocidade de conversão depende inteiramente de quanta AE sua rede consegue armazenar, por razões explicadas
+A velocidade de conversão depende inteiramente de quanto AE sua rede consegue armazenar, por motivos explicados
 [nesta página](../ae2-mechanics/energy.md).
 
 ## Variantes
 
-Aceitadores de energia vêm em 2 variantes diferentes: normal e plana/[subparte](../ae2-mechanics/cable-subparts.md). Isso permite fazer alguns esquemas mais compactos.
+Aceitadores de energia vêm em 2 variantes: normal e plana/[subparte](../ae2-mechanics/cable-subparts.md). Isso permite fazer configurações mais compactas.
 
-Aceitadores de energia podem ser alternados entre normal e plano numa grade de fabricação.
+Aceitadores de energia podem ser trocados entre normal e plana numa grade de fabricação.
 
 ## Receita
 

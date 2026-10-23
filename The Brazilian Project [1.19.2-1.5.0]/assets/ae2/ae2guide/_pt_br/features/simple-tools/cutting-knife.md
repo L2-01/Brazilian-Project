@@ -7,7 +7,7 @@ item_ids:
 ---
 
 Uma faca de corte feita de <ItemLink id="certus_quartz_crystal"/> ou <ItemLink id="minecraft:quartz"/>.
-Ela pode ser usada para fazer <ItemLink id="name_press"/>, <ItemLink id="cable_anchor"/> e <ItemLink
+Pode ser usada para fazer a <ItemLink id="name_press"/>, a <ItemLink id="cable_anchor"/> e a <ItemLink
 id="facade"/>.
 
 <RecipeFor id="certus_quartz_cutting_knife" />

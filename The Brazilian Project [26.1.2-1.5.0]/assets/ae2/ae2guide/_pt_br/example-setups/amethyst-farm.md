@@ -5,20 +5,20 @@ navigation:
   icon: minecraft:amethyst_shard
 ---
 
-# Cultivo de Ametista
+# Farm de Ametista
 
 Embora o <ItemLink id="growth_accelerator" /> funcione na ametista, os métodos usuais de filtrar [brotos de certus](../items-blocks-machines/budding_certus.md)
-com um <ItemLink id="annihilation_plane" /> não funcionam em brotos de ametista. Ao contrário dos brotos de certus não maduros, que largam
-<ItemLink id="certus_quartz_dust" />, brotos de ametista não maduros não largam nada, então um plano de aniquilação sempre os quebrará,
+com um <ItemLink id="annihilation_plane" /> não funcionam nos brotos de ametista. Diferente dos brotos de certus não maduros, que derrubam
+<ItemLink id="certus_quartz_dust" />, os brotos de ametista não maduros não derrubam nada, então um plano de aniquilação sempre os quebrará,
 porque uma rede sempre consegue armazenar "nada".
 
-A forma de contornar isso é encantar o plano de aniquilação com Toque Suave. Assim os brotos de ametista não maduros *de fato* largam algo
-(os vários estágios dos blocos físicos de broto), e portanto podem ser filtrados.
+A forma de contornar isso é encantar o plano de aniquilação com toque suave. Assim, os brotos de ametista não maduros *de fato* derrubam algo
+(os vários estágios dos blocos de broto físicos) e, portanto, podem ser filtrados.
 
-O <ItemLink id="minecraft:amethyst_cluster" /> deve então ser colocado de novo por um <ItemLink id="formation_plane" />, para então ser
-re-quebrado por um <ItemLink id="annihilation_plane" /> sem Toque Suave, a fim de obter <ItemLink id="minecraft:amethyst_shard" />s.
+A <ItemLink id="minecraft:amethyst_cluster" /> precisa então ser colocada novamente por um <ItemLink id="formation_plane" />, para depois ser
+quebrada de novo por um <ItemLink id="annihilation_plane" /> sem toque suave, a fim de obter <ItemLink id="minecraft:amethyst_shard" />s.
 
-Note que, devido à direcionalidade do agregado, deve haver uma face de bloco sólida diretamente oposta ao plano de formação.
+Note que, devido à direcionalidade da drusa, deve haver uma face de bloco sólida diretamente oposta ao plano de formação.
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/amethyst_farm.snbt" />
@@ -28,7 +28,7 @@ Note que, devido à direcionalidade do agregado, deve haver uma face de bloco s�
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 1 1" max="2.3 2 2">
-        (2) Plano de Formação: Filtrado para Agregado de Ametista.
+        (2) Formation Plane: Filtrado para Drusa de Ametista.
         <ItemImage id="minecraft:amethyst_cluster" scale="2" />
   </BoxAnnotation>
 
@@ -55,7 +55,7 @@ Note que, devido à direcionalidade do agregado, deve haver uma face de bloco s�
 
 ## Configurações
 
-* O primeiro <ItemLink id="annihilation_plane" /> (1) não tem GUI e não pode ser configurado, mas deve ser encantado com Toque Suave.
+* O primeiro <ItemLink id="annihilation_plane" /> (1) não tem GUI e não pode ser configurado, mas precisa ser encantado com toque suave.
 * O <ItemLink id="formation_plane" /> (2) está filtrado para <ItemLink id="minecraft:amethyst_cluster" />.
 * O segundo <ItemLink id="annihilation_plane" /> (3) não tem GUI e não pode ser configurado, mas pode ser encantado com fortuna.
 * O primeiro <ItemLink id="storage_bus" /> (4) está filtrado para <ItemLink id="minecraft:amethyst_shard" />.
@@ -65,12 +65,12 @@ Note que, devido à direcionalidade do agregado, deve haver uma face de bloco s�
 ## Como Funciona
 
 1. O primeiro <ItemLink id="annihilation_plane" /> tenta quebrar o que está à sua frente, mas só consegue quebrar <ItemLink id="minecraft:amethyst_cluster" />
-    porque o único armazenamento na sub-rede é o <ItemLink id="formation_plane" />, filtrado para agregado de ametista. Isso só funciona porque
-o plano está encantado com Toque Suave; caso contrário, ele conseguiria quebrar os brotos não maduros porque eles não largam nada.
-2. O <ItemLink id="formation_plane" /> coloca o agregado no bloco oposto a ele.
-3. O segundo <ItemLink id="annihilation_plane" /> quebra o agregado, produzindo <ItemLink id="minecraft:amethyst_shard" />.
-4. O primeiro <ItemLink id="storage_bus" /> armazena os fragmentos no barril. Isto tecnicamente não precisa ser filtrado porque a única
-coisa que o segundo plano de aniquilação deveria encontrar são agregados totalmente crescidos.
-5. O segundo <ItemLink id="storage_bus" /> dá à rede principal acesso a todos os fragmentos de ametista no barril. Está configurado com
-[prioridade](../ae2-mechanics/import-export-storage.md#storage-priority) alta para que fragmentos de ametista sejam preferencialmente
-colocados de volta no barril em vez de no seu armazenamento principal.
+    porque o único armazenamento da sub-rede é o <ItemLink id="formation_plane" />, filtrado para drusa de ametista. Isso só funciona porque
+o plano está encantado com toque suave; caso contrário, ele poderia quebrar os brotos não maduros porque eles não derrubam nada.
+2. O <ItemLink id="formation_plane" /> coloca a drusa no bloco oposto a ele.
+3. O segundo <ItemLink id="annihilation_plane" /> quebra a drusa, produzindo <ItemLink id="minecraft:amethyst_shard" />.
+4. O primeiro <ItemLink id="storage_bus" /> armazena os fragmentos no barril. Tecnicamente, ele não precisaria ser filtrado porque a única
+coisa que o segundo plano de aniquilação deve encontrar são drusas totalmente crescidas.
+5. O segundo <ItemLink id="storage_bus" /> dá à rede principal acesso a todos os fragmentos de ametista do barril. Ele está configurado com
+alta [prioridade](../ae2-mechanics/import-export-storage.md#storage-priority) para que os fragmentos de ametista sejam preferencialmente
+devolvidos ao barril em vez de irem para o seu armazenamento principal.

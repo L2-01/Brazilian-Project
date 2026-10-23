@@ -2,43 +2,43 @@
     "name": "Níveis 30 - 60",
     "icon": "apotheosis:hellshelf",
     "category": "apotheosis:enchanting/progression",
-	"flag": "apotheosis:enchanting",
+    "flag": "apotheosis:enchanting",
     "pages": [
-		{
+        {
             "type": "patchouli:crafting",
-			"title": "Alcançando o Nível 45",
-			"recipe": "apotheosis:hellshelf",
-			"text": "Para alcançar o nível 45, você vai querer criar algumas $(9)Estantes Infernais$() e adicioná-las às suas Estantes existentes."
-		},
-		{
+            "title": "Alcançando o Nível 45",
+            "recipe": "apotheosis:hellshelf",
+            "text": "Para alcançar o nível 45, crie algumas $(9)Estantes Infernais$() e adicione-as às suas Estantes de Livros existentes."
+        },
+        {
             "type": "patchouli:crafting",
-			"title": "Alcançando o Nível 45",
-			"recipe": "apotheosis:seashelf",
-			"text": "Se você não for fã do Nether, também pode se aventurar no Oceano e criar $(9)Estantes Marinhas$() no lugar."
-		},
-		{
+            "title": "Alcançando o Nível 45",
+            "recipe": "apotheosis:seashelf",
+            "text": "Se você não gosta do Nether, também pode se aventurar no Oceano e criar $(9)Estantes Marinhas$()."
+        },
+        {
             "type": "patchouli:spotlight",
-			"title": "Alcançando o Nível 60",
-			"item": "apotheosis:infused_hellshelf",
-			"text": "Ao alcançar o Nível 45, você precisará explorar o $(l:apotheosis:enchanting/table/infusion)Encantamento de Infusão$() para melhorar suas estantes."
-		},
-		{
+            "title": "Alcançando o Nível 60",
+            "item": "apotheosis:infused_hellshelf",
+            "text": "Ao alcançar o Nível 45, você precisará explorar o $(l:apotheosis:enchanting/table/infusion)Encantamento por Infusão$() para aprimorar suas estantes."
+        },
+        {
             "type": "patchouli:spotlight",
-			"title": "Alcançando o Nível 60",
-			"item": "apotheosis:infused_seashelf",
-			"text": "Crie mais algumas do tipo de estante que você estava usando, imbua-as e melhore-as.$(p)Essas novas estantes, junto das suas antigas, permitirão alcançar o Nível 60."
-		},
-		{
+            "title": "Alcançando o Nível 60",
+            "item": "apotheosis:infused_seashelf",
+            "text": "Crie mais algumas do tipo de estante que você usava, infunda-as e aprimore-as.$(p)Essas novas estantes, somadas às antigas, permitirão alcançar o Nível 60."
+        },
+        {
             "type": "patchouli:spotlight",
-			"title": "Outros Atributos",
-			"item": "apotheosis:sightshelf",
-			"text": "Você agora tem acesso a opções melhores para aumentar outros atributos.$(p)Além dos bônus das Estantes Infernais e das Estantes Marinhas, você agora também pode criar $(9)Estantes da Visão$() para aumentar suas $(clues)."
-		},
-		{
+            "title": "Outros Atributos",
+            "item": "apotheosis:sightshelf",
+            "text": "Agora você tem acesso a opções melhores para aumentar outros atributos.$(p)Além dos bônus das Estantes Infernais e Marinhas, você também pode criar $(9)Estantes Infernais da Visão$() para aumentar suas $(clues)."
+        },
+        {
             "type": "patchouli:crafting",
-			"title": "Outros Atributos",
-			"recipe": "apotheosis:rectifier",
-			"text": "Se você tiver um suprimento estável de Ametista, também pode fazer $(9)Estantes da Retificação$() para aumentar ainda mais sua $(rectification)."
-		}
-	]
+            "title": "Outros Atributos",
+            "recipe": "apotheosis:rectifier",
+            "text": "Se tiver um suprimento estável de Ametista, você também pode fazer $(9)Estantes de Retificação$() para aumentar ainda mais sua $(rectification)."
+        }
+    ]
 }

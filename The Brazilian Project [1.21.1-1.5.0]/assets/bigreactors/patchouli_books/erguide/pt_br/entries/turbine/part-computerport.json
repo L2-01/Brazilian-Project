@@ -9,18 +9,18 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:reinforced_turbinecomputerport",
             "link_recipe": true,
-            "title" : "Porta de Computador",
-            "text": "A Porta de Computador permite conectar sua Turbina a um computador para tarefas complexas de automação.$(br2)Um conjunto padrão de métodos é exposto ao computador conectado e você pode usá-los para consultar o status da Turbina e controlar seu comportamento."
+            "title": "Porta de Computador",
+            "text": "A Porta de Computador permite conectar sua Turbina a um computador para tarefas complexas de automação.$(br2)Um conjunto padrão de métodos é exposto ao computador conectado, e você pode usá-los para consultar o status da Turbina e controlar seu comportamento."
         },
         {
             "type": "crafting-text",
-            "text": "Para usar a Porta de Computador, você precisa de um mod externo que adicione computadores programáveis ao jogo.$(br2)Atualmente, o único mod suportado (e disponível) é o CC:Tweaked.",
-            "title": "Reforçada",
+            "text": "Para usar a Porta de Computador, você precisa de um mod externo que adicione computadores programáveis ao jogo.$(br2)Atualmente, o único mod assim suportado (e disponível) é o CC.",
+            "title": "Reforçado",
             "recipe": "bigreactors:turbine/reinforced/computerport"
         },
         {
             "type": "bigreactors:part_usage",
-            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() Reforçada$(br)$(l)Interface gráfica:$() não"
+            "text": "$(l)Obrigatória:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() Reforçada$(br)$(l)Interface gráfica:$() não"
         }
     ]
 }

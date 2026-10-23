@@ -1,17 +1,17 @@
 {
-    "name": "Crescimento Carmesim",
+    "name": "Crescimento Excessivo Carmesim",
     "icon": "naturesaura:nether_grass",
     "category": "naturesaura:effects",
     "advancement": "naturesaura:positive_imbalance",
     "pages": [
         {
             "type": "text",
-            "text": "Como discutido no capítulo sobre $(l:effects/plant_boost)Aumento de Vegetação$(), um excesso de $(aura) pode migrar para plantas e afins. Um efeito semelhante pode ser observado no $(thing)nether$(): se os níveis de $(aura) estiverem altos o suficiente, $(item)grama$() começará a crescer em cima de qualquer $(item)netherrack$() da área."
+            "text": "Como discutido no capítulo sobre $(l:effects/plant_boost)Aumento Vegetacional$(), um excesso de $(aura) pode migrar para plantas e afins. Um efeito semelhante pode ser observado no $(thing)nether$(): se os níveis de $(aura) forem altos o suficiente, $(item)grama$() começará a crescer em cima de qualquer $(item)netherrack$() na área."
         },
         {
             "type": "naturesaura:tree_ritual",
             "recipe": "naturesaura:nether_grass_powder",
-            "text": "Este efeito pode ser inibido usando $(l:effects/effect_powder)Pó da Aridez$()."
+            "text": "Este efeito pode ser inibido usando o $(l:effects/effect_powder)Pó da Aridez$()."
         }
     ]
 }

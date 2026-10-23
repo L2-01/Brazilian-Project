@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "As $(d)Chaves de Portal$() teletransportam instantaneamente o jogador para uma localização definida quando são coletadas do chão.$(br2)Para definir a localização, $(3)clique na Chave de Portal no chão$(), o que a fará começar a brilhar. Jogue-a no chão e ela ativará após alguns segundos, parando de brilhar.$(br2)O único limite é que ela não pode atravessar dimensões. A Chave de Portal também é $(c)consumida ao ser usada$().",
+      "text": "As $(d)Chaves de Portal$() teleportam instantaneamente o jogador para uma localização definida quando são apanhadas do chão.$(br2)Para definir a localização, $(3)clique na Chave de Portal no chão$(), o que a fará começar a brilhar. Jogue-a no chão e ela ativará após alguns segundos, parando de brilhar.$(br2)O único limite é que não pode atravessar dimensões. A Chave de Portal também é $(c)consumida ao uso$().",
       "title": "Chave de Portal"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:portkey",
       "link_recipe": true,
-      "text": "Além disso, você pode $(3)fabricar a Chave de Portal com qualquer outro item$() para disfarçá-la. O item derrubado terá a aparência do disfarce, não da Chave de Portal."
+      "text": "Além disso, você pode $(3)fabricar a Chave de Portal com qualquer outro item$() para disfarçá-la. O item largado parecerá o disfarce em vez da própria Chave de Portal."
     }
   ]
 }

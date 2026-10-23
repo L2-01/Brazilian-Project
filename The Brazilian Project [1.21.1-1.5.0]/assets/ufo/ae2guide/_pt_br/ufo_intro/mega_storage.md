@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: ufo_intro/infrastructure.md
-  title: Mega Processadores & Armazenamento
+  title: Mega Processadores e Armazenamento
   position: 50
 item_ids:
   - ufo:1b_mega_crafting_storage
@@ -16,11 +16,11 @@ item_ids:
   - ufo:2b_mega_co_processor
 ---
 
-# Mega Armazenamento & Processadores de Fabricação
+# Mega Armazenamento e Processadores de Fabricação
 
 <BlockImage id="ufo:1b_mega_crafting_storage" scale="3"></BlockImage>
 
-O UFO Future estende a infraestrutura de fabricação do AE2 com armazenamentos de fabricação muito grandes e mega coprocessadores.
+O UFO Future expande a infraestrutura de fabricação da AE2 com armazenamentos de fabricação muito grandes e mega coprocessadores.
 
 ## Mega Armazenamentos de Fabricação
 
@@ -32,13 +32,12 @@ O UFO Future estende a infraestrutura de fabricação do AE2 com armazenamentos 
 
 ## Mega Coprocessadores
 
-- Coprocessador de Deslocamento de Fase — **4.096 canais**
-- Coprocessador Hiperdenso — **8.192 canais**
-- Coprocessador Tesseract — **16.384 canais**
-- Coprocessador do Horizonte de Eventos — **32.768 canais**
-- Coprocessador da Linha Cósmica — **65.536 canais**
+- Coprocessador de Deslocamento de Fase — **4.096 pistas**
+- Coprocessador Hiperdenso — **8.192 pistas**
+- Coprocessador Tesseract — **16.384 pistas**
+- Coprocessador do Horizonte de Eventos — **32.768 pistas**
+- Coprocessador da Linha Cósmica — **65.536 pistas**
 
-Até o primeiro tier do UFO excede os módulos convencionais mais fortes de addons
-usados pelo modpack suportado. Os valores limitados mantêm as CPUs de fabricação
-normais úteis enquanto o Nexus de Computação Quântica continua sendo o caminho
-para um pool compartilhado e infinito.
+Até o primeiro tier do UFO excede os módulos convencionais mais fortes de addons usados
+pelo modpack suportado. Os valores limitados mantêm as CPUs de fabricação normais úteis enquanto
+o Nexus de Computação Quântica continua sendo o caminho para um pool compartilhado e infinito.

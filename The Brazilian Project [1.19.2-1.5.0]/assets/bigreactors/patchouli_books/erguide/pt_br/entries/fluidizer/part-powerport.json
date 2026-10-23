@@ -9,14 +9,14 @@
             "type": "spotlight",
             "item": "bigreactors:fluidizerpowerport",
             "link_recipe": true,
-            "title" : "Porta de Energia",
+            "title": "Porta de Energia",
             "text": "A Porta de Energia permite fornecer a energia necessária para alimentar o Fluidificador.$(br2)Qualquer cabo ou gerador compatível com Forge Energy pode ser conectado à Porta de Energia."
         },
         {
             "type": "crafting-part_usage",
             "crafting.title1": "Porta de Energia",
             "crafting.recipe1": "bigreactors:fluidizer/powerport",
-            "usage.text": "$(l)Mandatory:$() at least one is required$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() no"
+            "usage.text": "$(l)Obrigatória:$() pelo menos uma é exigida$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Interface gráfica:$() não"
         }
     ]
 }

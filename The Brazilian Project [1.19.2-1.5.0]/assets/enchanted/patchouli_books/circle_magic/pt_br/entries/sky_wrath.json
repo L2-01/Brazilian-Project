@@ -1,0 +1,26 @@
+{
+  "name": "Fúria do Céu",
+  "icon": "minecraft:lightning_rod",
+  "category": "enchanted:world",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Ira do Céu",
+      "text": "Invoca uma tempestade de raios concentrada ao redor do círculo. $(br2)Adicionar um obelisco vinculado permite ao conjurador direcionar os raios para aquele local."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:sky_wrath"
+    },
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Ira do Céu",
+      "text": "Invoca uma tempestade de raios concentrada ao redor do círculo. $(br2)Adicionar um obelisco vinculado ou sanguíneo permite ao conjurador direcionar os raios para aquele local."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:sky_wrath_charged"
+    }
+  ],
+  "read_by_default": true
+}

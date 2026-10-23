@@ -5,6 +5,6 @@ navigation:
   title: Núcleo de Formação
 ---
 
-Um componente capaz de converter energia de volta em matéria.
+Um componente que pode converter energia de volta em matéria.
 
 <RecipeFor id="formation_core" />

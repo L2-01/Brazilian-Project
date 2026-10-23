@@ -1,5 +1,5 @@
 {
-    "name": "Porta de Carregamento de Energia Forge",
+    "name": "Porta de Carregamento Forge",
     "icon": "bigreactors:reinforced_reactorchargingportfe",
     "category": "bigreactors:reactor-parts",
     "read_by_default": true,
@@ -9,23 +9,23 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:reinforced_reactorchargingportfe",
             "link_recipe": true,
-            "title" : "Porta de Carregamento de Energia Forge",
-            "text": "A Porta de Carregamento de Energia Forge permite usar a energia armazenada no seu Reator com $(l:bigreactors/passive)resfriamento passivo$(/l) para carregar itens que usam o $(l:bigreactors/powersystem)sistema de energia$(/l) Forge Energy para funcionar.$(br2)Abra a interface gráfica da porta e insira o item que você quer carregar no slot de entrada no centro."
+            "title": "Porta de Carregamento Forge",
+            "text": "A Porta de Carregamento Forge permite usar a energia armazenada no seu Reator $(l:bigreactors/passive)resfriado passivamente$(/l) para carregar itens que funcionam com o $(l:bigreactors/powersystem)sistema de energia$(/l) Forge Energy. $(br2) Abra a interface gráfica da porta e insira o item que você quer carregar no espaço de entrada ao centro."
         },
         {
             "type": "patchouli:text",
-            "text": "Quando o buffer de energia do item estiver cheio, ele será movido automaticamente para o slot de saída da interface para você coletar.$(br2)Se, por qualquer motivo, você precisar parar o processo de carregamento, pressione o botão de ejeção para mover o item para o slot de saída imediatamente."
+            "text": "Quando o buffer de energia do item estiver cheio, ele será movido automaticamente para o espaço de saída da interface para você retirar. $(br2) Se, por algum motivo, você precisar interromper o carregamento, pressione o botão de ejeção para mover o item ao espaço de saída imediatamente."
         },
         {
             "type": "bigreactors:crafting1x",
-            "title1": "Basic",
+            "title1": "Básico",
             "recipe1": "bigreactors:reactor/basic/chargingfe",
-            "title2": "Reinforced",
+            "title2": "Reforçado",
             "recipe2": "bigreactors:reactor/reinforced/chargingfe"
         },
         {
             "type": "bigreactors:part_usage",
-            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim"
+            "text": "$(l)Obrigatória:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim"
         }
     ]
 }

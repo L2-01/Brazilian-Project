@@ -14,19 +14,19 @@ item_ids:
     <BlockImage id="appliedsoul:soul_broadcast" scale="2" />
 </Row>
 
-O **Transmissor de Almas** pode acelerar diretamente a máquina selecionada pelo jogador
+O **Transmissor de Almas** pode acelerar diretamente a máquina selecionada pelo jogador.
 
 <Row gap="16">
     <ItemImage id="appliedsoul:broadcast_connect_tool" scale="2" />
 </Row>
 
-* 1. Primeiro você precisa usar a **<ItemLink id ="appliedsoul:broadcast_connect_tool" />** com **SHIFT+CLIQUE DIREITO** para selecionar o **Transmissor de Almas**
-* 2. Depois pressione **SHIFT+CLIQUE DIREITO** em qualquer máquina que possa ser acelerada. Então essa máquina poderá ser acelerada normalmente
-* ps1. O padrão é **4 (configuração do Industrial Foregoing: Souls)** * **6 (todas as faces fazem efeito por padrão)** de velocidade
+* 1. Você primeiro precisa usar a **<ItemLink id ="appliedsoul:broadcast_connect_tool" />** com **SHIFT+BOTÃO DIREITO** para selecionar o **Transmissor de Almas**
+* 2. Depois pressione **SHIFT+BOTÃO DIREITO** em qualquer máquina que possa ser acelerada. Então essa máquina poderá ser acelerada normalmente
+* ps1. O padrão é velocidade de **4 (configuração do Industrial Foregoing: Souls)** * **6 (todas as faces fazem efeito por padrão)**
 * ps2. Esta máquina **não pode** acelerar máquinas entre dimensões
 * ps3. Máquinas selecionadas por outros **Transmissores de Almas** não podem ser selecionadas novamente
-* ps4. A máquina selecionada também **não pode** ser acelerada por um **Surto de Almas**
-* ps5. Segurar esta ferramenta na mão **destaca os blocos relevantes**: **vermelho representa máquinas selecionadas por outros Transmissores de Almas**, verde representa o Transmissor de Almas e **amarelo representa a máquina selecionada sob o Transmissor de Almas**
+* ps4. A máquina selecionada também **não pode** ser acelerada por **Soul Surge**
+* ps5. Segurar esta ferramenta **destacará os blocos relevantes**: **vermelho representa já selecionado por outro Transmissor de Almas**, verde representa o Transmissor de Almas, **amarelo representa a máquina selecionada sob o Transmissor de Almas**
 
 ---
 <Row gap="16">

@@ -1,0 +1,16 @@
+{
+    "name": "Dígito",
+    "icon": "rftoolsutility:digit",
+    "category": "rftoolsutility:category_rftoolsutility_logic",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Este bloco simplesmente exibe um número de 0 a F (hexadecimal) correspondente à força do sinal de entrada."
+        },
+        {
+            "type": "crafting",
+            "heading": "Dígito",
+            "recipe": "rftoolsutility:digit"
+        }
+    ]
+}

@@ -91,30 +91,31 @@ item_ids:
   - ae2:toggle_bus
   - ae2:inverted_toggle_bus
 ---
-Embora redes ME também sejam criadas por máquinas ME adjacentes, cabos são a forma primária de
+
+Embora as redes ME também sejam criadas por máquinas adjacentes compatíveis com ME, os cabos são a principal forma de
 estender uma rede ME por áreas maiores.
 
 Cabos de cores diferentes podem ser usados para garantir que cabos adjacentes não se conectem entre si,
-permitindo que os [canais](channels.md) sejam distribuídos de forma mais eficiente.
+permitindo distribuir os [canais](channels.md) com mais eficiência.
 
-## Cabo ME
+## Cabo de Vidro
 
-![Uma imagem do Cabo de Vidro](../../assets/large/glass_cable.png)
+![Uma Imagem do Cabo de Vidro](../../assets/large/glass_cable.png)
 
-<ItemLink id="fluix_glass_cable" /> é o cabo mais simples de fazer, transfere energia
-e até 8 [canais](channels.md). Ele vem em 17 cores diferentes, o padrão é
+O <ItemLink id="fluix_glass_cable" /> é o cabo mais simples de fazer: transfere energia
+e até 8 [Canais](channels.md). Existe em 17 cores diferentes, sendo o padrão
 Fluix, e pode ser tingido de qualquer cor usando qualquer um dos 16 corantes.
 
 Para fabricar cabos coloridos, cerque um corante de qualquer tipo com 8 cabos do mesmo
-tipo (a cor dos cabos não importa, mas eles devem ser do mesmo tipo,
-ME, Inteligente, etc.). Você também pode pintar cabos com qualquer pincel de tinta
-compatível com Forge no mundo.
+tipo ( a cor dos cabos não importa, mas eles devem ser do mesmo tipo,
+vidro, inteligente etc. ). Você também pode pintar cabos no mundo com qualquer pincel
+de pintura compatível com Forge.
 
-Você pode lavar qualquer cabo colorido com um balde de água para remover o corante.
+Você pode fabricar qualquer cabo colorido com um balde de água para remover a tinta.
 
-Você pode cobrir o cabo com lã para criar <ItemLink id="fluix_covered_cable"/>, e fabricar <ItemLink
+Você pode cobrir o cabo com lã para criar o <ItemLink id="fluix_covered_cable"/> e fabricar o <ItemLink
 id="fluix_smart_cable"/> para ter uma ideia melhor do que está acontecendo com
-seus [canais](channels.md).
+seus [Canais](channels.md).
 
 <RecipeFor id="fluix_glass_cable" />
 
@@ -122,27 +123,27 @@ seus [canais](channels.md).
 
 ![Uma imagem de cabos cobertos.](../../assets/large/covered_cable.png)
 
-A variante de cabo coberto não oferece vantagens de jogo sobre sua contraparte <ItemLink
-id="fluix_glass_cable"/>. Ela pode, porém, ser usada
+A variante de cabo coberto não oferece vantagens de gameplay sobre seu equivalente <ItemLink
+id="fluix_glass_cable"/>. Porém, pode ser usada
 como uma escolha estética alternativa se você preferir o visual coberto.
 
 Pode ser colorido da mesma forma que o <ItemLink
 id="fluix_glass_cable"/>. Quatro <ItemLink
 id="fluix_covered_cable"/> podem ser fabricados com
-redstone e pedra luminosa para fazer <ItemLink
+redstone e pedra luminosa para criar o <ItemLink
 id="fluix_covered_dense_cable"/>.
 
 <RecipeFor id="fluix_covered_cable" />
 
 ## Cabo Denso
 
-![Uma imagem de cabo denso.](../../assets/large/dense_cable.png)Cabo de maior capacidade,
-pode carregar 32 canais, ao contrário do cabo comum que só carrega 8.
-No entanto, ele não suporta pontos, então você deve primeiro descer do cabo denso para um
-cabo menor (como <ItemLink
-id="fluix_glass_cable"/> ou <ItemLink
+![Uma imagem de cabo denso.](../../assets/large/dense_cable.png)Cabo de maior
+capacidade: transporta 32 canais, ao contrário do cabo comum que só leva 8.
+Porém, ele não aceita pontos, então você precisa primeiro reduzir de denso para um
+cabo menor (como o <ItemLink
+id="fluix_glass_cable"/> ou o <ItemLink
 id="fluix_smart_cable"/>) antes de usar pontos ou
-painéis. Mostra a carga de forma semelhante ao <ItemLink
+painéis. Exibe a carga de forma semelhante ao <ItemLink
 id="fluix_smart_cable"/>, com cada linha acesa
 representando quatro canais em uso.
 
@@ -152,12 +153,12 @@ representando quatro canais em uso.
 
 ![Uma imagem de cabo inteligente.](../../assets/large/smart_cable.png)
 
-Embora tenha alguma semelhança visual com o <ItemLink id="fluix_covered_cable"/>, ele
-fornece função de diagnóstico ao visualizar o uso de canais nos cabos;
-os canais aparecem como linhas coloridas acesas que correm ao longo da faixa preta nos
-cabos, dando a você uma compreensão de como seus canais estão sendo usados na
-sua rede. Os primeiros quatro canais aparecem como linhas na cor do
-cabo; os quatro seguintes aparecem como linhas brancas.
+Embora se pareça um pouco com o <ItemLink id="fluix_covered_cable"/>, ele
+oferece uma função de diagnóstico ao visualizar o uso de canais nos cabos:
+os canais aparecem como linhas coloridas acesas que percorrem a faixa preta dos
+cabos, dando uma noção de como seus canais estão sendo usados na
+rede. Os primeiros quatro canais aparecem como linhas da cor do
+cabo; os quatro seguintes, como linhas brancas.
 
 Eles também podem ser coloridos da mesma forma que o <ItemLink
 id="fluix_glass_cable"/>.
@@ -167,17 +168,17 @@ id="fluix_glass_cable"/>.
 ## Ponto Interruptor
 
 Um ponto que funciona de forma semelhante ao <ItemLink
-id="fluix_glass_cable"/> ou a outros cabos, mas
-permite que seu estado de conexão seja alternado via redstone. Isso permite cortar
+id="fluix_glass_cable"/> ou outros cabos, mas
+permite alternar seu estado de conexão via redstone. Isso permite isolar
 uma seção de uma [Rede ME](../me-network.md).
 
-Quando um sinal de redstone é fornecido, a parte ativa a conexão; o <ItemLink
-id="inverted_toggle_bus"/> fornece o
-comportamento inverso, desativando a conexão em vez disso.
+Quando recebe sinal de redstone, o ponto habilita a conexão; o <ItemLink
+id="inverted_toggle_bus"/> oferece o
+comportamento inverso, desabilitando a conexão.
 
 <RecipeFor id="toggle_bus" />
 
-Existe também uma versão invertida do ponto interruptor que desativa a conexão
+Também existe uma versão invertida do ponto interruptor, que desabilita a conexão
 quando um sinal de redstone é fornecido.
 
 <RecipeFor id="inverted_toggle_bus" />

@@ -1,12 +1,12 @@
 {
-  "name": "Widget de Clicar com o Botão Direito em Entidade",
+  "name": "Widget de Clicar com Direito na Entidade",
   "icon": "pneumaticcraft:textures/progwidgets/entity_right_click_piece.png",
   "category": "pneumaticcraft:widget_interact",
   "advancement": "pneumaticcraft:programmer",
   "pages": [
     {
       "type": "text",
-      "text": "O $(l:tools/drone)Drone/$ $(thing)clicará com o botão direito/$ com o item no primeiro espaço do seu inventário, em cada entidade na $(l:programming/area)Área/$ especificada, uma vez. Isso pode ser usado para tosquiar ovelhas, ordenhar vacas, procriar animais e muito mais!$(p)Tenha em mente que quaisquer widgets $(l:programming/area)Área/$ conectados a este widget devem ter o tipo de área $(thing)Caixa/$; esta é a única forma suportada. É possível criar formas diferentes, porém, usando lista-branca/lista-negra de áreas."
+      "text": "O $(l:tools/drone)Drone/$ usará $(thing)clique com o botão direito/$ com o item no primeiro espaço do seu inventário, uma vez, em cada entidade da $(l:programming/area)Área/$ especificada. Isso pode ser usado para tosquiar ovelhas, ordenhar vacas, reproduzir animais e muito mais!$(p)Tenha em mente que quaisquer widgets de $(l:programming/area)Área/$ conectados a este widget devem ter o tipo de área $(thing)Caixa/$; é a única forma suportada. É possível criar formas diferentes, porém, usando lista-branca/lista-negra de áreas."
     },
     {
       "type": "image",

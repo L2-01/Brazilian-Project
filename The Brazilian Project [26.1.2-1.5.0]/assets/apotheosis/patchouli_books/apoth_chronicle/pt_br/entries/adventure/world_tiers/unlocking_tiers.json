@@ -6,37 +6,37 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Cada $(6)Nível Mundial$() precisa ser desbloqueado antes que você possa habilitá-lo (exceto o Refúgio, que é habilitado por padrão).$(p)Desbloquear níveis mundiais é feito completando Progressos específicos.$(p)Uma vez desbloqueado, você precisa ativá-lo na $(l:apotheosis:adventure/world_tiers/select_screen)Tela de Seleção$()."
+            "text": "Cada $(6)Nível de Mundo$() deve ser desbloqueado antes que você possa ativá-lo (exceto o Refúgio, que já vem ativado).$(p)Desbloquear níveis de mundo é feito completando Progressos específicos.$(p)Uma vez desbloqueado, você precisa ativá-lo na $(l:apotheosis:adventure/world_tiers/select_screen)Tela de Seleção$()."
         },
         {
             "type": "patchouli:text",
             "title": "Prefácio",
-            "text": "Esta seção cobrirá os requisitos padrão para desbloquear os níveis mundiais.$(p)Note que modpacks podem mudar esses requisitos, então consulte a aba de progressos \"Níveis Apóticos do Mundo\" para a informação completa."
+            "text": "Esta seção cobrirá os requisitos padrão para desbloquear níveis de mundo.$(p)Note que modpacks podem mudar esses requisitos, então consulte a aba de progressos \"Níveis Apóticos do Mundo\" para informações completas."
         },
         {
             "type": "patchouli:text",
             "title": "Refúgio",
-            "text": "$(9)Refúgio$() é desbloqueado por padrão, embora você não consiga vê-lo até pegar seu primeiro Item com Afixo."
+            "text": "O $(9)Refúgio$() vem desbloqueado por padrão, embora você não consiga vê-lo até pegar seu primeiro Item com Afixo."
         },
         {
             "type": "patchouli:text",
             "title": "Fronteira",
-            "text": "$(9)Fronteira$() é desbloqueado equipando um Item com Afixo em cada slot de armadura e segurando uma Arma com Afixo em qualquer das mãos."
+            "text": "A $(9)Fronteira$() é desbloqueada ao equipar um Item com Afixo em cada espaço de armadura e segurar uma Arma com Afixo em uma das mãos."
         },
         {
             "type": "patchouli:text",
             "title": "Ascensão",
-            "text": "Desbloquear a $(9)Ascensão$() requer que você equipe um conjunto completo de Itens com Afixo $(#33FF33)Incomuns$(), incluindo uma arma.$(p)Você também precisará matar um Invasor Apótico."
+            "text": "Desbloquear a $(9)Ascensão$() exige equipar um conjunto completo de Itens com Afixo $(#33FF33)Incomuns$(), incluindo uma arma.$(p)Você também precisará abater um Invasor Apótico."
         },
         {
             "type": "patchouli:text",
             "title": "Cume",
-            "text": "Chegar ao $(9)Cume$() é um pouco mais difícil.$(p)Você precisará adquirir um conjunto completo de Itens com Afixo $(#5555FF)Raros$() e ter matado o Wither."
+            "text": "Chegar ao $(9)Cume$() é um pouco mais difícil.$(p)Você precisará obter um conjunto completo de Itens com Afixo $(#5555FF)Raros$() e ter abatido o Wither."
         },
         {
             "type": "patchouli:text",
             "title": "Pináculo",
-            "text": "O nível final, $(9)Pináculo$(), exige que você não só obtenha um conjunto completo de itens $(#BB00BB)Épicos$(), mas também que liberte o End.$(p)Isso significa matar o Dragão Ender."
+            "text": "O nível final, o $(9)Pináculo$(), exige que você não apenas obtenha um conjunto completo de itens $(#BB00BB)Épicos$(), mas também liberte o End.$(p)Isso significa abater o Ender Dragon."
         }
     ]
 }

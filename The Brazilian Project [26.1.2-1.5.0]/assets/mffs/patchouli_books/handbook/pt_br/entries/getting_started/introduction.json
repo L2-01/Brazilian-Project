@@ -1,29 +1,29 @@
 {
-    "name": "Introdução",
-    "icon": "minecraft:lectern",
-    "category": "mffs:getting_started",
-    "sortnum": 0,
-    "priority": true,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "O $(l)Modular Force Field Systems$() (ou MFFS) é um mod que adiciona $(3)campos de força$(), $(5)maquinário de alta tecnologia$() e $(6)medidas defensivas$() ao Minecraft. Cansado de explosões nucleares destruindo sua casa ou quer manter pessoas fora das suas bases secretas? Não se preocupe, $(l)nós ajudamos você!$()"
-        },
-        {
-            "type": "patchouli:image",
-            "images": [
-                "mffs:textures/gui/handbook/overview.png"
-            ],
-            "border": true,
-            "text": "Uma visão geral da tecnologia de Campo de Força do MFFS"
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Campos de força podem ser usados para inúmeras coisas, incluindo: $(li)Manter intrusos fora da sua casa$(li)Construir estruturas$(li)Criar bases subaquáticas ou eclusas de ar$(li)Exterminar criaturas que se aproximam$(li)Capturar inimigos em armadilhas$(li)Proteger contra mísseis balísticos$(li)Confiscar itens de jogadores$()"
-        },
-        {
-            "type": "patchouli:text",
-            "text": "O MFFS também conta com opções de configuração que podem $(3)remover sua dependência de energia elétrica$(), tornando-o utilizável no Minecraft vanilla ou em combinação com outros mods. O MFFS é mais comumente usado em mundos $(2)multijogador$(), mas certamente oferece muitos benefícios para $(2)um jogador$() também."
-        }
-    ]
+  "name": "Introdução",
+  "icon": "minecraft:lectern",
+  "category": "mffs:getting_started",
+  "sortnum": 0,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Modular Force Field Systems$() (ou MFFS) é um mod que adiciona $(3)campos de força$(), $(5)maquinário de alta tecnologia$() e $(6)medidas defensivas$() ao Minecraft. Cansado de explosões nucleares destruindo sua casa ou quer manter pessoas fora das suas bases secretas? Não diga mais nada, $(l)nós temos a solução!$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/overview.png"
+      ],
+      "border": true,
+      "text": "Uma visão geral da tecnologia de Campo de Força do MFFS"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Campos de força podem ser usados para uma infinidade de coisas, incluindo: $(li)Manter intrusos fora da sua casa$(li)Construir estruturas$(li)Criar bases subaquáticas ou eclusas de ar$(li)Exterminar criaturas que se aproximam$(li)Capturar inimigos em armadilhas$(li)Proteger contra mísseis balísticos$(li)Confiscar itens de jogadores$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O MFFS também oferece opções de configuração que podem $(3)remover sua dependência de energia elétrica$(), tornando-o utilizável no Minecraft vanilla ou em combinação com outros mods. O MFFS é mais comumente usado em mundos $(2)multiplayer$(), mas certamente traz muitos benefícios para $(2)singleplayer$() também."
+    }
+  ]
 }

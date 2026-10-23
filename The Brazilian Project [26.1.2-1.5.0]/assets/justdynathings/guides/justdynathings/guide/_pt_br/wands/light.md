@@ -11,7 +11,7 @@ item_ids:
 # Fiat lux!
 
 Um novo conjunto de varinhas que permite colocar e quebrar blocos de luz
-Também pode aplicar o efeito Brilhante na entidade que estiver olhando
+Ela também pode aplicar o efeito Brilhante na entidade para a qual você olha
 
 Consome durabilidade ao ser usada
 

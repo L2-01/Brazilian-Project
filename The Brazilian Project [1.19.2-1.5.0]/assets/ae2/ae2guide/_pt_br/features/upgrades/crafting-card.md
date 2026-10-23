@@ -8,5 +8,5 @@ navigation:
 ---
 
 Pode ser usado com a <ItemLink id="interface"/>
-ou o <ItemLink id="export_bus"/> para requisitar
-fabricação automática do sistema.
+ou o <ItemLink id="export_bus"/> para solicitar
+fabricação automática ao sistema.

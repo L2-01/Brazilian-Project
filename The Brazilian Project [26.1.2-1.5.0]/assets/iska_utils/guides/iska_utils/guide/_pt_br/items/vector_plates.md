@@ -16,13 +16,13 @@ item_ids:
   - iska_utils:player_extreme_vect
   - iska_utils:player_ultra_vect
 categories:
-  - Movimento vetorial
+  - Vector motion
 ---
 # Placas vetoriais
 
 <ItemImage id="iska_utils:slow_vect" />
 
-Placas estilo esteira que empurram entidades ao longo da direção para a qual apontam. Os ícones no inventário mostram um selo de **farm de criaturas** ou de **jogadores** para distinguir as duas linhas.
+Placas estilo esteira que empurram entidades na direção para a qual estão viradas. Os ícones do inventário mostram um selo de **farm de criaturas** ou **jogador** para você distinguir as duas linhas.
 
 ## Placas de farm de criaturas
 

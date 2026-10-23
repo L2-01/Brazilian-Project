@@ -13,20 +13,20 @@ item_ids:
   <BlockImage id="ae2lt:overloaded_controller" scale="4" />
 </Row>
 
-O **Controlador ME de Sobrecarga** é a versão aprimorada do <ItemLink id="ae2:controller" /> vanilla e o dispositivo central da rede de Sobrecarga. Cada controlador de Sobrecarga fornece canais extras à rede ME, além de um buffer interno de energia maior com injeção passiva de energia.
+O **Controlador ME de Sobrecarga** é a versão melhorada do <ItemLink id="ae2:controller" /> do vanilla e o dispositivo central da rede de Sobrecarga. Cada controlador de Sobrecarga fornece canais extras à rede ME e oferece um buffer de energia interno maior com injeção passiva de energia.
 
 ## Recursos Centrais
 
-* **Fornecimento extra de canais**: cada controlador de Sobrecarga fornece **128 canais** à rede (padrão, configurável)
-* **Capacidade interna de energia**: 16.000.000 AE
-* **Injeção passiva de energia**: gera 100 AE por tique (padrão, configurável) e os armazena no próprio controlador, mantendo parte da rede funcionando mesmo sem fonte de energia externa
-* **Conexões de cabo**: usa o tipo de conexão de Cabo Inteligente Denso
+* **Fornecimento de canais extras**: cada controlador de Sobrecarga fornece **128 canais** à rede (padrão, configurável)
+* **Capacidade de energia interna**: 16.000.000 AE
+* **Injeção passiva de energia**: gera 100 AE por tick (padrão, configurável) e armazena no próprio controlador, mantendo parte da rede funcionando mesmo sem fonte externa de energia
+* **Conexões de cabo**: usa o tipo de conexão de cabo Denso Inteligente
 
 ## Mecânica de Fornecimento de Canais
 
 A alocação de canais numa rede de Sobrecarga difere fundamentalmente do AE2 vanilla:
 
-* **AE2 vanilla**: usa um algoritmo BFS, com canais deduzidos segmento a segmento ao longo do caminho. Cada cabo denso carrega no máximo 32 canais.
+* **AE2 vanilla**: usa um algoritmo BFS, com canais descontados segmento a segmento ao longo do caminho. Cada cabo denso carrega no máximo 32 canais.
 * **Rede de Sobrecarga**: usa um **algoritmo de fluxo máximo** para alocar canais globalmente.
 
 O que isso significa para o jogador:
@@ -46,19 +46,19 @@ O que isso significa para o jogador:
 
 ## Como Usar
 
-O Controlador ME de Sobrecarga segue as mesmas regras de colocação e multibloco do controlador vanilla.
+O Controlador ME de Sobrecarga segue as mesmas regras de posicionamento e multibloco do controlador do vanilla.
 
-Para dar transmissão sem fio a um multibloco de controladores, substitua apenas **um** bloco de controlador por um [Controlador Sobrecarregado Sem Fio](wireless-network.md) ou Controlador Sobrecarregado Sem Fio Avançado. Ele transmite a rede ME à qual todo o multibloco de controladores pertence, então os blocos restantes podem continuar sendo Controladores ME de Sobrecarga comuns.
+Para dar transmissão sem fio a um multibloco de controladores, substitua apenas **um** bloco de controlador por um [Controlador Sobrecarregado Sem Fio](wireless-network.md) ou um Controlador Sobrecarregado Sem Fio Avançado. Ele transmite a rede ME à qual todo o multibloco de controladores pertence, então os blocos restantes podem continuar sendo Controladores ME de Sobrecarga comuns.
 
-Para efeito completo, combine-o com o [Cabo de Sobrecarga](overloaded-cable.md).
+Para o efeito completo, combine-o com o [Cabo ME de Sobrecarga](overloaded-cable.md).
 
-## Comparado ao Controlador Vanilla
+## Comparado ao Controlador do Vanilla
 
-| Recurso | Controlador Vanilla | Controlador ME de Sobrecarga |
+| Recurso | Controlador do Vanilla | Controlador ME de Sobrecarga |
 |---------|--------------------|--------------------------|
-| Fornecimento de canais | 32 canais por face do controlador (roteados por cabo denso) | 128 canais por controlador (alocação global por fluxo máximo) |
-| Capacidade interna de energia | Menor | 16.000.000 AE |
-| Injeção passiva de energia | Nenhuma | 100 AE por tique |
+| Fornecimento de canais | 32 canais por face de controlador (roteados pelo cabo denso) | 128 canais por controlador (alocação global por fluxo máximo) |
+| Capacidade de energia interna | Menor | 16.000.000 AE |
+| Injeção passiva de energia | Nenhuma | 100 AE por tick |
 | Algoritmo de alocação de canais | BFS, segmento a segmento | Fluxo máximo, global |
 
-> O Controlador ME de Sobrecarga mantém todo o comportamento básico do controlador vanilla (multibloco, gerenciamento de rede, etc.) e só aprimora as camadas de canais e energia.
+> O Controlador ME de Sobrecarga mantém todo o comportamento básico do controlador do vanilla (multibloco, gerenciamento de rede etc.), e apenas aprimora as camadas de canais e energia.

@@ -3,10 +3,10 @@ navigation:
   title: "!Sandbox"
 ---
 
-<FloatingImage src="assets/large/craftingco.png" align="left" alt="Uma imagem de vários Co-processadores numa CPU de Fabricação" />
-<FloatingImage src="assets/large/craftingco.png" align="left" alt="Uma imagem de vários Co-processadores numa CPU de Fabricação" />
-<FloatingImage src="assets/large/craftingco.png" align="left" alt="Uma imagem de vários Co-processadores numa CPU de Fabricação" />
-<FloatingImage src="assets/large/charger_with_crank.jpg" align="right" alt="Uma imagem de vários Co-processadores numa CPU de Fabricação" />
+<FloatingImage src="assets/large/craftingco.png" align="left" alt="A picture of several Co Processors in a Crafting CPU" />
+<FloatingImage src="assets/large/craftingco.png" align="left" alt="A picture of several Co Processors in a Crafting CPU" />
+<FloatingImage src="assets/large/craftingco.png" align="left" alt="A picture of several Co Processors in a Crafting CPU" />
+<FloatingImage src="assets/large/charger_with_crank.jpg" align="right" alt="A picture of several Co Processors in a Crafting CPU" />
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius egestas augue, non lacinia ligula tristique eu. Integer tempus orci in nulla aliquet porttitor. In justo purus, ullamcorper vitae elit vitae, condimentum gravida erat. Duis eget eleifend leo. Aenean tincidunt mi risus, eu varius ipsum pretium sit amet. Nullam tincidunt leo ligula, quis blandit sem pellentesque vel. Vestibulum non auctor diam, eget ullamcorper velit. Maecenas venenatis neque at odio cursus sollicitudin. Fusce non ipsum nisi. Nam bibendum purus dolor, vitae viverra neque fermentum vitae.
 

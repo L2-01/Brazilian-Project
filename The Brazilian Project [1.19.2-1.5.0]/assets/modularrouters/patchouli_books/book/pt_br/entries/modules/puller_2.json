@@ -1,0 +1,20 @@
+{
+  "name": "Módulo Extrator Mk2",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:puller_module_2",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Ele se comporta como o $(l:modules/puller_1)Extrator Mk1/$, mas pode puxar itens de inventários não adjacentes.$(p)O inventário pode estar a até 12 blocos de distância (até 24 com $(l:augments/range_up)Melhorias de Alcance/$); linha de visão livre $(italic)não/$ é necessária."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Para selecionar o inventário alvo, use $(thing)Agachar+Clique Direito/$ no bloco com o módulo Extrator Mk2 na mão. Você receberá uma mensagem de confirmação.$(li)Ao segurar um Extrator Mk2 com um alvo definido, o bloco alvo será destacado."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:puller_module_2",
+      "recipe2": "modularrouters:puller_module_2_x4"
+    }
+  ]
+}

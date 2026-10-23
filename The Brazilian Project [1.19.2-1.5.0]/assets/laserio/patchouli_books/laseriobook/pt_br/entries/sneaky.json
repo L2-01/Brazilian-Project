@@ -1,0 +1,16 @@
+{
+  "name": "Furtivo",
+  "sortnum": 2,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/sneaky-up.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A configuração Furtivo determina por qual lado do inventário adjacente o cartão tentará operar.$(br2)Por exemplo, uma fornalha aceita itens pelo 'Lado de Cima' do bloco. Se o nó estiver num lado da fornalha, defina o modo furtivo do cartão de inserção como 'Cima'."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Este cartão agora tentará inserir itens no lado de 'cima' da fornalha.$(br2)Outro cartão pode ser definido como 'Furtivo Baixo' para inserir combustível no fundo da fornalha."
+    }
+  ]
+}

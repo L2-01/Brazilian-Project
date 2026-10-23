@@ -24,7 +24,7 @@
     "advancement.aether_ii.bestiary.desc": "Complete todo o bestiário",
     "advancement.aether_ii.blue_aercloud": "Ao Infinito e Além!",
     "advancement.aether_ii.blue_aercloud.desc": "Salte em uma Aeronuvem Azul",
-    "advancement.aether_ii.charm": "Encantado, Com Certeza",
+    "advancement.aether_ii.charm": "Encantado, com Certeza",
     "advancement.aether_ii.charm.desc": "Aplique um Amuleto a um equipamento",
     "advancement.aether_ii.cloud_skiff": "Marinheiro das Nuvens",
     "advancement.aether_ii.cloud_skiff.desc": "Ande de Esquife de Nuvem para se mover melhor no Mar de Nuvens",
@@ -1686,5 +1686,58 @@
     "subtitles.aether_ii.item.scatterglass_vial.fill": "Frasco de Vidro Disperso enche",
     "subtitles.aether_ii.item.shifting_glass.use": "Vidro Deslizante usado",
     "subtitles.aether_ii.item.swet_gel.use": "Gel de Slime Doce usado",
-    "subtitles.aether_ii.ui.artisans_bench.take_result": "Bancada do Artesão usada"
+    "subtitles.aether_ii.ui.artisans_bench.take_result": "Bancada do Artesão usada",
+
+
+
+
+
+
+    "config.cumulus_menus.client.menu.active_menu": "Menu Ativo",
+    "config.cumulus_menus.client.menu.active_menu.tooltip": "Define a tela de título ativa do menu",
+    "config.cumulus_menus.client.menu.enable_menu_api": "Ativar Menu API",
+    "config.cumulus_menus.client.menu.enable_menu_api.tooltip": "Define se a API de menus está ativada",
+    "config.cumulus_menus.client.menu.enable_menu_list_button": "Ativa o botão de seleção de menu",
+    "config.cumulus_menus.client.menu.enable_menu_list_button.tooltip": "Adiciona um botão no canto superior direito do menu principal para abrir a tela de seleção de menus",
+    "config.cumulus_menus.client.world_preview.enable_quick_load_button": "Ativa o botão de carregamento rápido",
+    "config.cumulus_menus.client.world_preview.enable_quick_load_button.tooltip": "Adiciona um botão no canto superior direito da tela de menu principal para permitir carregar rapidamente num mundo, se a pré-visualização de mundo estiver ativada",
+    "config.cumulus_menus.client.world_preview.enable_world_preview": "Ativa a pré-visualização de mundo",
+    "config.cumulus_menus.client.world_preview.enable_world_preview.tooltip": "Transforma o panorama de fundo numa pré-visualização do último mundo jogado",
+    "config.cumulus_menus.client.world_preview.enable_world_preview_button": "Ativa o botão de alternar mundo",
+    "config.cumulus_menus.client.world_preview.enable_world_preview_button.tooltip": "Adiciona um botão no canto superior direito da tela de menu principal para alternar entre o panorama e a pré-visualização do mundo",
+    "cumulus_menus.configuration.Menu": "Menu",
+    "cumulus_menus.configuration.Menu.button": "Opções",
+    "cumulus_menus.configuration.Menu.tooltip": "Opções de configuração dos menus",
+    "cumulus_menus.configuration.World Preview": "Pré-visualização de Mundo",
+    "cumulus_menus.configuration.World Preview.button": "Opções",
+    "cumulus_menus.configuration.World Preview.tooltip": "Opções de configuração para as definições de pré-visualização de mundo",
+    "cumulus_menus.configuration.section.cumulus.menus.client.toml": "Configurações do Cliente",
+    "cumulus_menus.configuration.section.cumulus.menus.client.toml.title": "Configuração do Cliente Cumulus",
+    "cumulus_menus.configuration.title": "Configuração do Cumulus",
+    "cumulus_menus.menu_title.minecraft": "Minecraft",
+    "cumulus_menus.world_preview.toast.description": "Aguarde antes de alternar a prévia do mundo",
+    "cumulus_menus.world_preview.toast.title": "O servidor ainda está salvando",
+    "gui.cumulus_menus.button.menu_launch": "Abrir Menu",
+    "gui.cumulus_menus.button.menu_list": "Lista de Menus",
+    "gui.cumulus_menus.menu.button.quick_load": "Q",
+    "gui.cumulus_menus.menu.button.world_preview": "O",
+    "gui.cumulus_menus.menu.load": "Carregar Rápido",
+    "gui.cumulus_menus.menu.preview": "Ativar/Desativar Mundo",
+    "gui.cumulus_menus.selectWorld.previewActive.delete": "Este mundo não pode ser excluído enquanto está sendo pré-visualizado.",
+    "gui.cumulus_menus.selectWorld.previewActive.edit": "Este mundo não pode ser editado enquanto está sendo pré-visualizado.",
+    "gui.cumulus_menus.selectWorld.previewActive.recreate": "Este mundo não pode ser recriado enquanto está sendo pré-visualizado.",
+    "gui.cumulus_menus.title.menu_selection": "Escolha um Menu Principal",
+    "pack.cumulus_menus.mod.description": "Recursos do Cumulus",
+
+
+
+
+
+
+    "gui.nitrogen_internals.boss.message.far": "Você precisa estar na sala do chefe para interagir.",
+    "nitrogen_internals.patreon.tier.arkenzus": "Arkenzus",
+    "nitrogen_internals.patreon.tier.ascentan": "Ascentan",
+    "nitrogen_internals.patreon.tier.human": "Humano",
+    "nitrogen_internals.patreon.tier.valkyrie": "Valquíria",
+    "pack.nitrogen_internals.mod.description": "Recursos do Nitrogen"
 }

@@ -9,12 +9,12 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:reinforced_turbinecreativesteamgenerator",
             "link_recipe": true,
-            "title" : "Gerador de Vapor",
-            "text": "O Gerador de Vapor é uma peça exclusiva do criativo que funciona como fonte constante de vapor para uma Turbina.$(br2)Esta peça fornece automaticamente vapor até a quantidade máxima permitida pela variante da peça ao Tanque de Fluido de Vapor, mas apenas quando a Turbina está ativa.\n\n"
+            "title": "Gerador de Vapor",
+            "text": "O Gerador de Vapor é uma peça exclusiva do criativo que age como fonte constante de vapor para uma Turbina.$(br2)Esta peça fornece automaticamente vapor até a quantidade máxima permitida pela variante da peça ao Tanque de Fluido de Vapor, mas apenas quando a Turbina está ativa.\n\n"
         },
         {
             "type": "bigreactors:part_usage",
-            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não$(br)$(l)Modo criativo:$() esta peça só está disponível no modo criativo e não há receita de fabricação para ela."
+            "text": "$(l)Obrigatória:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não$(br)$(l)Modo criativo:$() esta parte só está disponível no modo criativo e não há receita de fabricação para ela."
         }
     ]
 }

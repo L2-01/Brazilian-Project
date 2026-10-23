@@ -8,7 +8,7 @@ item_ids:
   - iska_utils:structure_placer
   - iska_utils:blueprint
 categories:
-  - Ferramentas úteis
+  - Useful tools
 ---
 # Posicionador de Estruturas e Planta
 
@@ -16,7 +16,7 @@ categories:
 
 ## Posicionador de Estruturas
 
-- Posiciona estruturas salvas a partir das definições / pacotes de estrutura do mod (veja a Máquina Posicionadora de Estruturas para o fluxo de autoria).
+- Posiciona estruturas salvas das definições de estrutura / packs do mod (veja a Máquina Posicionadora de Estruturas para o fluxo de autoria).
 
 ## Planta
 

@@ -1,0 +1,55 @@
+---
+id: oritech:steam_engine_block
+type: block
+related_items: ["oritech:steam_boiler_addon"]
+title: Motor a Vapor
+custom:
+    Capacidade de RF: "250,000"
+    RF/t: "50,000 máx."
+    Capacidade da caldeira: "8 baldes"
+    Núcleos necessários: "2"
+
+---
+
+Todos os geradores (exceto o gerador básico) podem ser aprimorados para produzir vapor adicionando um complemento de caldeira a vapor.
+Quando adicionado, a máquina não produzirá mais RF diretamente. Em vez disso, produzirá vapor na proporção de 2:1.
+
+Para produzir vapor, água será consumida. Água e vapor podem ser bombeados para dentro e para fora diretamente pelo complemento, mas não pela própria máquina.
+
+<center>
+<ModAsset location="oritech:area/steam_power" width={1000} />
+</center>
+
+Para usar o vapor, um motor a vapor pode ser usado para produzir RF a partir dele. Ele recebe vapor como entrada e emite água.
+Porém, durante o processo, cerca de 20% da água é perdida, então um suprimento constante de água é necessário para os geradores.
+
+<Callout variant="info">
+    Os motores a vapor não funcionam se o armazenamento de água estiver completamente cheio. Sempre garanta que a água tenha para onde ir.
+    Com alguns tanques, comparadores e redstone, você pode construir um ciclo autossustentável.
+</Callout>
+
+A velocidade de um motor a vapor varia conforme o vapor armazenado. Mais vapor significa mais pressão, o que o faz girar mais rápido.
+A velocidade escala linearmente com base na porcentagem de preenchimento
+do tanque de vapor, com um multiplicador máximo de 25 quando o tanque está cheio.
+
+A eficiência do motor também varia conforme a velocidade. Eficiência maior resulta em mais RF por unidade de vapor produzida.
+A eficiência da máquina é máxima ao operar por volta de 700% de velocidade. Qualquer valor abaixo ou acima disso resulta em um rendimento menos ideal.
+
+A energia sai pelos espaços vermelhos da máquina. As portas de fluido são marcadas em azul.
+
+<Callout variant="info">
+    O encadeamento permite processar quantidades enormes de vapor
+    sem tubulações complexas para cada bloco.
+</Callout>
+
+
+## Encadeamento
+
+Você pode encadear vários Motores a Vapor para formar uma usina de energia maior, construindo motores a vapor lado a lado.
+*   **Motor Mestre**: o controlador principal que gerencia a operação
+*   **Motores Escravos**: motores extras conectados em linha (até 10 blocos)
+*   **Processamento**: o mestre distribui o processamento de vapor aos escravos,
+    aumentando a vazão total
+*   Todas as tubulações e interações devem mirar apenas no primeiro motor a vapor (o motor mestre).
+
+O motor mestre é o primeiro motor que recebe vapor. Conecte seus tubos apenas a este primeiro motor.

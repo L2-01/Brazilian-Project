@@ -10,7 +10,7 @@ item_ids:
 
 # Fiat lux! Parte 2
 
-Funciona da mesma forma que a <ItemLink id="justdynathings:light_wand"/> mas consome FE a cada uso
+Funciona igual à <ItemLink id="justdynathings:light_wand"/>, mas consome FE a cada uso
 
 <ItemImage id="justdynathings:advanced_light_wand" scale="4.0"/>
 

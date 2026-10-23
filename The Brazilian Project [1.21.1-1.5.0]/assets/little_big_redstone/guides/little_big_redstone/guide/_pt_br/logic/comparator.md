@@ -5,7 +5,7 @@ navigation:
   parent: little_big_redstone:logic.md
   position: 23
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:comparator
 ---
@@ -14,24 +14,24 @@ item_ids:
 
 <FloatingColumn width="100" align="right">
 	### Analógico
-	Comparadores produzem um valor de sinal de saída igual ao valor contra o qual se compara. Este pode ser o valor
-	constante definido nas configurações ou, quando o comparador está definido para passar, o primeiro valor de entrada.
+	Os comparadores produzem um valor de sinal de saída igual ao valor comparado. Pode ser o valor constante
+	definido nas configurações ou, quando o comparador está definido para passar, o valor da primeira entrada.
 </FloatingColumn>
 
 <RecipeFor id="comparator" />
 
-O comparador é um componente lógico que permite comparar a força de sinal de entre 1 e 10 entradas (B₁ - B₁₀)
-contra alguma outra força de sinal (A). A opção de modo do comparador determina se todas ou apenas uma das entradas
-devem corresponder à comparação para a saída ficar LIGADA. Quando a saída está LIGADA, a força do sinal de saída
-será igual à força de sinal da configuração de substituição de saída. Quando a configuração de substituição de saída
-está definida para passar, o sinal de saída será igual à entrada A.
+O comparador é um componente lógico que permite comparar a força de sinal de 1 a 10 entradas (B₁ - B₁₀) contra
+outra força de sinal (A). A opção de modo do comparador determina se todas ou apenas uma das entradas devem
+satisfazer a comparação para a saída ficar LIGADA. Quando a saída está LIGADA, a força do sinal de saída será igual
+à força de sinal da configuração de substituição de saída. Quando a substituição de saída está definida para passar,
+o sinal de saída será igual à entrada A.
 
-O comparador pode ser configurado para ter uma porta de entrada para a entrada A definindo a força do sinal para
-passar. Alternativamente, ele pode ser configurado para ter um sinal constante usado para comparação; nesse caso,
-ele não terá uma porta de entrada para a entrada A.
+O comparador pode ser configurado para ter uma porta de entrada para a entrada A definindo a força de sinal para
+passar. Alternativamente, pode ser configurado para usar um sinal constante na comparação; nesse caso, ele não terá
+uma porta de entrada para a entrada A.
 
-Assim como outros componentes lógicos que fazem comparações contra forças de sinal, o comparador pode ser configurado
-para exigir que os valores sejam maiores ou iguais a, iguais a, ou menores ou iguais à entrada A.
+Assim como outros componentes lógicos que fazem comparações de força de sinal, o comparador pode ser configurado
+para exigir que os valores sejam maiores ou iguais, iguais, ou menores ou iguais à entrada A.
 
 <Row>
 	<Column>

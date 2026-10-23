@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "A $(9)Resistência da Armadura$() é um atributo que reduz a eficácia da redução de armadura recebida.$(p)Normalmente fornecida por itens de armadura ou escudos."
+            "text": "A $(9)Resistência da Armadura$() é um atributo que reduz a eficácia da redução de armadura recebida.$(p)Geralmente fornecida por itens de armadura ou escudos."
         },
         {
             "type": "patchouli:text",
-            "text": "Cada ponto de Resistência da Armadura reduz a eficácia da Perfuração de Armadura e da Fragmentação de Armadura em 2%, até 60%.$(p)Esta função é exclusiva do Apotheosis. No Minecraft Vanilla, a Resistência da Armadura contribui para a redução de dano."
+            "text": "Cada ponto de Resistência da Armadura reduz a eficácia da Penetração e do Estilhaçamento de Armadura em 2%, uma redução de até 60%.$(p)Essa função é exclusiva do Apotheosis. No Minecraft vanilla, a Resistência da Armadura contribui para a redução de dano."
         }
     ]
 }

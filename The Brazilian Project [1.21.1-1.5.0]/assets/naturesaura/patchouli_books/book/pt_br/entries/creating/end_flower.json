@@ -6,12 +6,12 @@
     "pages": [
         {
             "type": "text",
-            "text": "O $(thing)Dragão de Ender$() é conhecido por ser uma fera impressionante. Ele guarda $(thing)o End$() melhor que qualquer um, mas pode ser derrotado. Isso não só rende um símbolo de sua prole e muito orgulho, também rende a $(item)Rosa do Esquecimento$(). Após a morte do dragão, elas começarão a brotar do chão na ilha do end, prontas para serem coletadas por qualquer botânico e colocadas em qualquer dimensão."
+            "text": "O $(thing)Dragão do Ender$() é conhecido por ser uma fera impressionante. Ele guarda $(thing)o End$() melhor que qualquer um, mas pode ser derrotado. Isso não só rende um símbolo de sua prole e muito orgulho, como também rende a $(item)Rosa do Esquecimento$(). Com a morte do dragão, elas começarão a brotar do chão na ilha do end, prontas para serem coletadas por qualquer botânico e colocadas em qualquer dimensão."
         },
         {
             "type": "spotlight",
             "item": "naturesaura:end_flower",
-            "text": "Esta flor carrega quantidades muito grandes de $(aura) que podem ser colhidas de uma forma interessante: jogar um $(item)Olho de Ender$() no chão perto dela fará a rosa consumi-lo e começar a dispersar sua $(aura) no ambiente. Durante esse processo, ela não pode ser parada nem colhida. Note que este processo $(italic)não$() requer um $(l:creating/generator_limit_remover)Catalisador de Criação$().",
+            "text": "Esta flor carrega quantidades muito grandes de $(aura) que podem ser colhidas de forma interessante: soltar um $(item)Olho do Ender$() no chão perto dela fará a rosa consumi-lo e começar a dispersar sua $(aura) no ambiente. Durante esse processo, ela não pode ser parada nem colhida. Note que este processo $(italic)não$() requer um $(l:creating/generator_limit_remover)Catalisador de Criação$().",
             "link_recipe": true
         }
     ]

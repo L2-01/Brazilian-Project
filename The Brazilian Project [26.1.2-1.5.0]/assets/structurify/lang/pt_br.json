@@ -141,7 +141,7 @@
     "gui.structurify.structure_sets.salt.title": "Sal",
     "gui.structurify.structure_sets.salt.description": "Salt é um número usado como semente para o gerador aleatório que controla como as estruturas são espalhadas pelo mundo. Cada conjunto de estruturas deve ter um salt único.",
     "gui.structurify.structure_sets.frequency.title": "Frequência",
-    "gui.structurify.structure_sets.frequency.description": "Frequência é a probabilidade de uma estrutura tentar ser gerada quando todas as outras condições são atendidas.\n\n - 1.0: 100% de chance de gerar\n - 0.0: 0% de chance de gerar",
+    "gui.structurify.structure_sets.frequency.description": "Frequência é a probabilidade de uma estrutura tentar ser gerada quando todas as outras condições são atendidas.\n\n - 1.0: 100% chance de gerar\n - 0.0: 0% chance de gerar",
     "gui.structurify.structure_sets.spacing.title": "Espaçamento",
     "gui.structurify.structure_sets.spacing.description": "Espaçamento é a distância média em chunks entre estruturas do mesmo conjunto (grupo de estruturas).",
     "gui.structurify.structure_sets.separation.title": "Separação",

@@ -17,19 +17,19 @@ item_ids:
 <ItemImage id="extendedae:wireless_tool" scale="6"></ItemImage>
 </Row>
 
-O Conector ME sem Fio pode vincular duas redes como um <ItemLink id="ae2:quantum_link" />, mas tem alcance limitado e não pode
-conectar através de dimensões. Ele suporta apenas conexões um-para-um; use uma <ItemLink id="extendedae:wireless_hub" />
-para conexões muitos-para-muitos.
+O Conector ME sem Fio pode ligar duas redes como o <ItemLink id="ae2:quantum_link" />, mas tem alcance limitado e não pode
+conectar entre dimensões. O Conector ME sem Fio só suporta conexões um-para-um. Use a <ItemLink id="extendedae:wireless_hub" />
+se quiser conexões muitos-para-muitos.
 
-## Vinculando Conectores sem Fio
+## Vinculando os Conectores sem Fio
 
-Clique nos dois Conectores sem Fio que você quer vincular com o Kit de Configuração ME sem Fio para conectá-los.
+Clique nos dois Conectores ME sem Fio que você quer vincular com o Kit de Configuração ME sem Fio para conectá-los.
 
-Agache e clique para limpar os ajustes atuais do Kit de Configuração ME sem Fio.
+Agache + clique para limpar a configuração atual do Kit de Configuração ME sem Fio.
 
 O Conector ME sem Fio muda de textura quando um vínculo é estabelecido com sucesso.
 
-Conectores ME sem Fio não vinculados
+Conectores ME sem Fio desvinculados
 
 <GameScene zoom="5" background="transparent">
   <ImportStructure src="../structure/wireless_connector_off.snbt"></ImportStructure>
@@ -43,19 +43,20 @@ Conectores ME sem Fio vinculados
 
 ## Cor
 
-Conectores sem Fio podem ser coloridos como cabos e só se conectam a cabos e conectores da mesma cor.
+Conectores sem Fio podem ser coloridos como cabos e só se conectam a cabos/conectores da mesma cor.
 
 Você precisa de um <ItemLink id="ae2:color_applicator" /> para colorir um conector.
 
-Você pode configurar seus Conectores sem Fio assim:
+Assim, você pode montar seus conectores sem fio desta forma:
 
 <GameScene zoom="3" background="transparent" interactive={true}>
   <ImportStructure src="../structure/wireless_connector_setup.snbt"></ImportStructure>
 </GameScene>
 
-## Uso de Energia
+## Consumo de energia
 
-Conectores ME sem Fio consomem mais energia quanto mais distantes estiverem. A curva custo-distância não é linear, então o custo
-de energia pode ficar muito alto quando estão muito distantes.
+Conectores ME sem Fio consomem mais energia quanto mais distantes estão. Como a curva custo-distância não é linear, o custo de
+energia pode ficar muito alto quando estão longe demais.
 
-Você pode usar <ItemLink id="ae2:energy_card" />s para economizar energia. Cada cartão reduz o custo de energia em 10%.
+Você pode usar <ItemLink id="ae2:energy_card" /> para economizar energia; cada cartão reduz o custo de energia em 10%.
+

@@ -1,37 +1,22 @@
 {
-
-"name": "Mkeka",
-    "icon": "merrymaking:mkeka",
-    "category": "merrymaking:kwanzaa",
-    "pages": [
-	
-		{
-		
-			"type": "spotlight",
-			"title": "Mkeka",
-			"item": "merrymaking:mkeka",			
-			"text": "O Mkeka tem orientação direcional e pode interagir com o Kinara, o Cálice e o Milho.$(br2)Um Mkeka tem capacidade para segurar um único Kinara, ou: $(li)Um Cálice sozinho $(li)Até 3 Milhos $(li)Uma combinação de um Cálice e até 3 Milhos."
-		},
-		
-		{
-			"type": "patchouli:text",
-			"text": "Para remover objetos do Mkeka, basta clicar nele com a mão vazia."
-		},
-		
-		{
-			"type": "crafting",	
-			"title": "Mkeka",
-			"recipe": "merrymaking:mkeka"
-			
-		}
-		
-		
-		
-		
-		
-		
-		
-		]
-	
-	
+  "name": "Mkeka",
+  "icon": "merrymaking:mkeka",
+  "category": "merrymaking:kwanzaa",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Mkeka",
+      "item": "merrymaking:mkeka",
+      "text": "A Mkeka tem direção e pode interagir com a Kinara, o Cálice e o Milho.$(br2)Uma Mkeka pode conter uma única Kinara, ou: $(li)Um Cálice sozinho $(li)Até 3 Milhos $(li)Uma combinação de um Cálice e até 3 Milhos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para remover objetos da Mkeka, basta clicar nela com a mão vazia."
+    },
+    {
+      "type": "crafting",
+      "title": "Mkeka",
+      "recipe": "merrymaking:mkeka"
+    }
+  ]
 }

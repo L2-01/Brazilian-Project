@@ -1,72 +1,72 @@
 {
-  "name": "Munição de Minigun",
-  "icon": "pneumaticcraft:gun_ammo",
-  "category": "pneumaticcraft:tools",
-  "advancement": "pneumaticcraft:minigun",
-  "pages": [
-    {
-      "type": "text",
-      "text": "A Munição é usada pela $(l:tools/minigun)Minigun/$.$(p)Um cartucho de munição comporta até 1000 projéteis de minigun, dependendo do tipo de munição. A munição é consumida gradualmente enquanto a $(item)Minigun/$ dispara, e os níveis de munição podem ser vistos na tooltip do item de munição, na sua barra de durabilidade e (quando a minigun está equipada) no HUD, ao lado da mira da minigun no centro da tela."
-    },
-    {
-      "type": "text",
-      "anchor": "magazine",
-      "text": "A munição deve ser inserida no carregador da $(item)Minigun/$ para ser usada; ela não será consumida do inventário do jogador. $(thing)Agache e clique com o botão direito/$ na $(item)Minigun/$ para carregar munição nela.$(p)A munição é consumida dos espaços numerados 1-4 em ordem, mas você pode $(thing)clicar com o botão do meio/$ num espaço para travá-lo, forçando a $(item)Minigun/$ a consumir munição apenas daquele espaço; útil se você tiver vários tipos de munição carregados. $(thing)Clique com o botão do meio/$ num espaço travado para destravá-lo novamente."
-    },
-    {
-      "type": "spotlight",
-      "item": "pneumaticcraft:gun_ammo",
-      "text": "A $(item)Munição de Minigun/$ comum não tem capacidades especiais próprias, mas tem um grande cartucho de 1000 projéteis.$(p)Além disso, é o único tipo de munição que pode ser fabricada com $(l:tools/minigun_ammo#potions)Poções/$ para ganhar seu efeito."
-    },
-    {
-      "type": "spotlight",
-      "item": "pneumaticcraft:gun_ammo_incendiary",
-      "text": "A $(item)Munição de Minigun Incendiária/$ tem tamanho de cartucho de 500 e incendiará as entidades que atingir.$(p)Ela também tem chance de incendiar blocos, então cautela é aconselhada!"
-    },
-    {
-      "type": "spotlight",
-      "item": "pneumaticcraft:gun_ammo_weighted",
-      "text": "A $(item)Munição de Minigun Pesada/$ tem tamanho de cartucho de 250 e causa dano muito alto, mas devido ao seu peso tem apenas 20% do alcance da munição normal."
-    },
-    {
-      "type": "spotlight",
-      "item": "pneumaticcraft:gun_ammo_ap",
-      "text": "A $(item)Munição de Minigun Perfurante/$ tem tamanho de cartucho de 250 e é um tanto cara de fabricar, mas causa um pouco mais de dano que a munição comum e pode atravessar a armadura dos alvos."
-    },
-    {
-      "type": "spotlight",
-      "item": "pneumaticcraft:gun_ammo_explosive",
-      "text": "A $(item)Munição de Minigun Explosiva/$ tem tamanho de cartucho de 125. Ela tem chance de criar uma explosão pequena, mas altamente eficaz ao atingir; cuidado, essa explosão também pode ferir você. Explosões não danificarão o terreno $(ttcolor)$(t:Veja 'B:explosiveAmmoTerrainDamage' na configuração)por padrão/$."
-    },
-    {
-      "type": "spotlight",
-      "item": "pneumaticcraft:gun_ammo_freezing",
-      "text": "A $(item)Munição de Minigun Congelante/$ tem tamanho de cartucho de 250. Ela desacelera os alvos que atinge e tem chance de encerrá-los numa nuvem congelante danosa; cuidado, essa nuvem também pode ferir você.$(p)Ela causa dano extra contra alvos resistentes ao fogo, então é uma excelente escolha para lutar no $(#800)Nether/$."
-    },
-    {
-      "type": "text",
-      "title": "Munição com Ponta de Poção",
-      "anchor": "potions",
-      "text": "Você pode fabricar munição de minigun comum com qualquer $(item)Poção/$, e essa munição não causa mais dano físico, mas tem chance de aplicar o efeito dessa poção ao seu alvo.$(p)Poções $(thing)Arremessáveis/$ e $(thing)Prolongadas/$ também podem ser usadas; elas têm o efeito de área esperado, mas a munição é consumida 3 vezes mais rápido com poções arremessáveis e 6 vezes mais rápido com poções prolongadas!"
-    },
-    {
-      "type": "crafting",
-      "recipe": "pneumaticcraft:gun_ammo",
-      "recipe2": "pneumaticcraft:gun_ammo_incendiary"
-    },
-    {
-      "type": "crafting",
-      "recipe": "pneumaticcraft:gun_ammo_weighted",
-      "recipe2": "pneumaticcraft:gun_ammo_ap"
-    },
-    {
-      "type": "crafting",
-      "recipe": "pneumaticcraft:gun_ammo_explosive",
-      "recipe2": "pneumaticcraft:gun_ammo_freezing"
-    },
-    {
-      "type": "crafting",
-      "recipe": "pneumaticcraft:gun_ammo_potion_crafting"
-    }
-  ]
+    "name": "Munição de Minigun",
+    "icon": "pneumaticcraft:gun_ammo",
+    "category": "pneumaticcraft:tools",
+    "advancement": "pneumaticcraft:minigun",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A Munição é usada pela $(l:tools/minigun)Minigun/$.$(p)Um pente de munição comporta até 1000 projéteis de minigun, dependendo do tipo de munição. A munição é consumida gradualmente enquanto a $(item)Minigun/$ dispara, e os níveis de munição podem ser vistos na dica do item de munição, na sua barra de durabilidade e (quando a minigun está equipada) no HUD, ao lado da mira da minigun no centro da tela."
+        },
+        {
+            "type": "text",
+            "anchor": "magazine",
+            "text": "A munição deve ser inserida no pente da $(item)Minigun/$ para ser usada; ela não será consumida do inventário do jogador. $(thing)Agache+clique direito/$ na $(item)Minigun/$ para carregar munição nela.$(p)A munição é consumida dos espaços numerados 1-4 em ordem, mas você pode clicar com o $(thing)botão do meio/$ num espaço para travá-lo, forçando a $(item)Minigun/$ a consumir munição só daquele espaço; útil se você tiver vários tipos de munição carregados. $(thing)Clique do meio/$ num espaço travado para destravá-lo novamente."
+        },
+        {
+            "type": "spotlight",
+            "item": "pneumaticcraft:gun_ammo",
+            "text": "A $(item)Munição/$ simples não tem capacidades especiais por si só, mas tem um pente grande de 1000 projéteis.$(p)Além disso, é o único tipo de munição que pode ser fabricado com $(l:tools/minigun_ammo#potions)Poções/$ para ganhar seus efeitos."
+        },
+        {
+            "type": "spotlight",
+            "item": "pneumaticcraft:gun_ammo_incendiary",
+            "text": "$(item)Munição de Minigun Incendiária/$ tem um pente de 500 munições e incendeia as entidades que atinge.$(p)Também tem chance de incendiar blocos, então tome cuidado!"
+        },
+        {
+            "type": "spotlight",
+            "item": "pneumaticcraft:gun_ammo_weighted",
+            "text": "$(item)Munição de Minigun Pesada/$ tem um pente de 250 munições e causa dano muito alto, mas devido ao seu peso tem apenas 20% do alcance da munição normal."
+        },
+        {
+            "type": "spotlight",
+            "item": "pneumaticcraft:gun_ammo_ap",
+            "text": "$(item)Munição de Minigun Perfurante/$ tem um pente de 250 munições, é um tanto cara de fabricar, causa um pouco mais de dano que a munição comum e pode atravessar a armadura dos alvos."
+        },
+        {
+            "type": "spotlight",
+            "item": "pneumaticcraft:gun_ammo_explosive",
+            "text": "$(item)Munição de Minigun Explosiva/$ tem um pente de 125 munições. Tem uma chance de criar uma explosão pequena mas altamente eficaz ao atingir; cuidado, essa explosão também pode ferir você. Explosões não danificam o terreno $(ttcolor)$(t:Veja 'B:explosiveAmmoTerrainDamage' na config)por padrão/$."
+        },
+        {
+            "type": "spotlight",
+            "item": "pneumaticcraft:gun_ammo_freezing",
+            "text": "$(item)Munição de Minigun Congelante/$ tem um pente de 250 munições. Retarda os alvos que atinge e tem chance de envolvê-los numa nuvem congelante que causa dano; cuidado, essa nuvem também pode ferir você.$(p)Causa dano extra contra alvos resistentes ao fogo, sendo uma excelente escolha para lutar no $(#800)Nether/$."
+        },
+        {
+            "type": "text",
+            "title": "Munição com Ponta de Poção",
+            "anchor": "potions",
+            "text": "Você pode fabricar munição padrão de minigun com qualquer $(item)Poção/$, e essa munição não causa mais dano físico, mas tem chance de aplicar o efeito daquela poção ao seu alvo.$(p)Poções $(thing)Arremessáveis/$ e $(thing)Persistentes/$ também podem ser usadas; elas têm o efeito de área esperado, mas a munição é consumida 3 vezes mais rápido quando apontada com poções arremessáveis, e 6 vezes mais rápido com poções persistentes!"
+        },
+        {
+            "type": "crafting",
+            "recipe": "pneumaticcraft:gun_ammo",
+            "recipe2": "pneumaticcraft:gun_ammo_incendiary"
+        },
+        {
+            "type": "crafting",
+            "recipe": "pneumaticcraft:gun_ammo_weighted",
+            "recipe2": "pneumaticcraft:gun_ammo_ap"
+        },
+        {
+            "type": "crafting",
+            "recipe": "pneumaticcraft:gun_ammo_explosive",
+            "recipe2": "pneumaticcraft:gun_ammo_freezing"
+        },
+        {
+            "type": "crafting",
+            "recipe": "pneumaticcraft:gun_ammo_potion_crafting"
+        }
+    ]
 }

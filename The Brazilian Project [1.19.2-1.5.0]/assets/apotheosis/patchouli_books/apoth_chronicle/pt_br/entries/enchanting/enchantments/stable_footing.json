@@ -1,0 +1,17 @@
+{
+    "name": "Pés Firmes",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Pés Firmes$() é um encantamento para botas.$(p)Faz a penalidade de velocidade de quebra ao voar ser revertida.$(p)Isso inclui todas as penalidades por não estar no chão."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Quando combinado com $(9)Afinidade Aquática$(), você pode ter velocidade de quebra total ao nadar."
+        }
+    ]
+}

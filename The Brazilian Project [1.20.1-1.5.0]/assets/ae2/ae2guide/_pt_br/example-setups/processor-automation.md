@@ -17,7 +17,7 @@ que você consiga filtrá-lo.
 Aqui está detalhado como fazer isso só com o AE2, usando [sub-redes de "canos"](pipe-subnet.md).
 
 Note que, como isto usa um <ItemLink id="pattern_provider" />, ele é feito para se integrar ao seu esquema de
-esquema. Se você só quiser automatizar um processador sozinho, substitua o provedor de padrões por outro barril e coloque os ingredientes diretamente no barril de cima.
+[autofabricação](../ae2-mechanics/autocrafting.md). Se você só quiser automatizar um processador sozinho, substitua o provedor de padrões por outro barril e coloque os ingredientes diretamente no barril de cima.
 
 Este esquema por acaso é retrocompatível
 com versões anteriores do AE2, porque mesmo que os <ItemLink id="inscriber" />s tenham lados, as sub-redes de canos ainda inserem nos e
@@ -46,7 +46,7 @@ extraem das faces corretas.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 4 0" max="4.3 3 1" thickness=".05">
-        (4) Ponto de Exportação #2: Filtrado para Barra de Ouro. Tem 2 Cartões de Aceleração
+        (4) Ponto de Exportação #2: Filtrado para Lingote de Ouro. Tem 2 Cartões de Aceleração
         <Row><ItemImage id="minecraft:gold_ingot" scale="2" /> <ItemImage id="speed_card" scale="2" /></Row>
   </BoxAnnotation>
 
@@ -169,7 +169,7 @@ extraem das faces corretas.
 
 1. O <ItemLink id="pattern_provider" /> empurra os ingredientes para o barril.
 2. A primeira [sub-rede de canos](pipe-subnet.md) (laranja) puxa o silício, o pó de redstone e o ingrediente do processador relevante
-   (Barra de Ouro, Cristal de Quartzo Certus ou Diamante) do barril e os coloca no <ItemLink id="inscriber" /> relevante.
+   (Lingote de Ouro, Cristal de Quartzo Certus ou Diamante) do barril e os coloca no <ItemLink id="inscriber" /> relevante.
 3. Os primeiros quatro <ItemLink id="inscriber" />s fazem o <ItemLink id="printed_silicon" /> e o <ItemLink id="printed_logic_processor" />,
    <ItemLink id="printed_calculation_processor" /> ou <ItemLink id="printed_engineering_processor" />.
 4. A segunda e a terceira [sub-redes de canos](pipe-subnet.md) (verde) tiram os circuitos impressos dos primeiros quatro <ItemLink id="inscriber" />s

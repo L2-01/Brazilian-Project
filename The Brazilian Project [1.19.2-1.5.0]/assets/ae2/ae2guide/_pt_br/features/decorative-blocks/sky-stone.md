@@ -9,9 +9,9 @@ navigation:
   title: Pedra do Céu
 ---
 
-### Bloco de Pedra do Céu
+### Pedra do Céu Lisa
 
-![Uma imagem de um Bloco de Pedra do Céu.](../../../assets/large/skystone_block.png)
+![Uma Imagem de um Bloco de Pedra do Céu.](../../../assets/large/skystone_block.png)
 
 Forma de bloco da <ItemLink id="sky_stone_block"/>.
 

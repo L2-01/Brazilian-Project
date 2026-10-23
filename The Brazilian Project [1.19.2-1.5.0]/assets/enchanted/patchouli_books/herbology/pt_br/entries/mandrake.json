@@ -1,0 +1,34 @@
+{
+  "name": "Mandrágoras",
+  "icon": "enchanted:textures/item/mandrake_root.png",
+  "category": "enchanted:common_plants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mandrágoras são um grupo de plantas herbáceas perenes com raízes longas em forma de pastinaca.$(br2)Os gritos desta planta podem causar ferimentos ou morte. Use protetores de ouvido e colha à noite para reduzir o risco.$(br2)$(bold)Obtenção:$()$(br)Sabe-se que são derrubadas por Grama Alta"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "enchanted:mandrake[age=4]"
+        },
+        "pattern": [
+          [
+            "0"
+          ],
+          [
+            " "
+          ]
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:earmuffs",
+      "text": "Usar protetores de ouvido protegerá contra os gritos da mandrágora."
+    }
+  ],
+  "read_by_default": true
+}

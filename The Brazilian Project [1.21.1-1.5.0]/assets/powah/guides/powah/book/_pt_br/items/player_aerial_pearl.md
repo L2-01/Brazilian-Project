@@ -10,9 +10,9 @@ item_ids:
 
 # Pérola Aérea de Jogador
 
-A Pérola Aérea de Jogador é usada para fabricar o Transmissor de Jogador. 
+A Pérola Aérea de Jogador é usada para fabricar o transmissor de jogador. 
 
-Você pode obtê-la usando uma Pérola Aérea em um Zumbi ou Cascoso. 
+Você pode obtê-la usando uma Pérola Aérea num Zumbi ou num Zumbi-Múmia. 
 
 <Row>
 <RecipesFor id="powah:player_aerial_pearl" />

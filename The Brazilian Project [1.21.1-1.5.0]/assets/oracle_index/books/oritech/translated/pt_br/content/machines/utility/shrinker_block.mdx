@@ -1,0 +1,42 @@
+---
+title: Complemento de Cortador
+id: oritech:shrinker_block
+type: block
+custom:
+    Capacidade de RF: "50,000,000"
+    Entrada máxima de RF: "833,333"
+    Núcleos necessários: "4"
+    Espaços de complemento: "1"
+---
+
+O Complemento de Cortador é um multibloco usado para
+comprimir vários complementos de máquina num único bloco.
+Ele permite combinar vários complementos num
+[Coração da Máquina](@oritech:machine_combi_addon).
+
+<center>
+<ModAsset location="oritech:area/shrinker_area" width={512} />
+</center>
+
+---
+
+**Processo de Compactação**
+
+Para usar o cortador, você precisa anexar os complementos que deseja combinar
+via extensores. A máquina precisa estar cheia de energia para operar.
+Uma vez ativado pela interface ou energizando o **centro** com
+redstone, o cortador consumirá os blocos físicos no mundo
+e produzirá um único bloco combinado no seu inventário.
+
+<center>
+<ModAsset location="oritech:area/shrinker_setup_area" width={512} />
+</center>
+
+<Callout variant="warning">
+    A compactação é irreversível. Apenas complementos que afetam as
+    estatísticas da máquina (como velocidade, eficiência ou rendimento) podem ser emendados.
+    Complementos que exigem interação direta (Caldeira a Vapor, Unidade de Controle,
+    Proxy de Inventário, Caçador) não podem ser compactados.
+    Além disso, um "Coração da Máquina" não pode ser combinado com
+    outros complementos — ele precisa ser o único complemento instalado.
+</Callout>

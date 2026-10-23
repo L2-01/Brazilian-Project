@@ -82,7 +82,7 @@ Um padrão de circuito fechado consiste em:
 
 * **Padrões membros** (até 27): os padrões comuns que formam o loop, cada um anotado com as cópias executadas por ciclo. Todas as contagens de cópias devem formar uma razão inteira mínima; 2:4 é inválido e deve ser escrito como 1:2.
 
-* **Saídas primária e secundárias:** Marque exatamente 1 saída primária e até 8 saídas secundárias da produção líquida do loop. A saída primária deve ter ganho líquido positivo. Por exemplo, consumir 128 Cristais de Quartzo Certus e produzir 256 é válido, assim como produzir 192 Cristais de Quartzo Certus, 16 Pós de Quartzo Certus e 16 Cristais de Quartzo Certus Carregados. Produzir apenas 64 Cristais de Quartzo Certus, 48 Pós de Quartzo Certus e 48 Cristais de Quartzo Certus Carregados tem ganho líquido negativo e não pode ser codificado. Conversões reversíveis como `1 Bloco de Ferro → 9 Lingotes de Ferro` combinadas com `9 Lingotes de Ferro → 1 Bloco de Ferro` também não têm ganho líquido e são rejeitadas.
+* **Saídas primária e secundárias:** Marque exatamente 1 saída primária e até 8 saídas secundárias da produção líquida do loop. A saída primária deve ter ganho líquido positivo. Por exemplo, consumir 128 Cristais de Quartzo Certus e produzir 256 é válido, assim como produzir 192 Cristais de Quartzo Certus, 16 Pós de Quartzo Certus e 16 Cristais de Quartzo Certus Carregados. Produzir apenas 64 Cristais de Quartzo Certus, 48 Pós de Quartzo Certus e 48 Cristais de Quartzo Certus Carregados tem ganho líquido negativo e não pode ser codificado. Conversões reversíveis como `1 Iron Block → 9 Iron Ingots` combinadas com `9 Iron Ingots → 1 Iron Block` também não têm ganho líquido e são rejeitadas.
 
 * **Entradas externas:** Materiais que cada ciclo retira da rede, calculados automaticamente e exibidos como somente leitura. Água fornecida ao loop da Câmara de Reação é um exemplo.
 
@@ -93,7 +93,7 @@ Você deve fornecer os materiais necessários para iniciar o loop.
 ### Fluxo de Autoria
 
 1. Alterne para o modo Padrão de Circuito Fechado e coloque — ou codifique — o padrão comum do produto primário do loop no **espaço de saída de padrão codificado** do terminal.
-Para um circuito fechado de Quartzo Certus, pode ser um padrão de processamento como `16 Cristais de Quartzo Certus Carregados + 16 Pós de Quartzo Certus → 64 Cristais de Quartzo Certus Carregados`, ou um padrão de fabricação como `1 Bloco de Quartzo Certus → 4 Cristais de Quartzo Certus`; qualquer padrão comum cuja saída seja Quartzo Certus pode ser usado como ponto de partida.
+Para um circuito fechado de Quartzo Certus, pode ser um padrão de processamento como `16 Charged Certus Quartz Crystals + 16 Certus Quartz Dust → 64 Charged Certus Quartz Crystals`, ou um padrão de fabricação como `1 Certus Quartz Block → 4 Certus Quartz Crystals`; qualquer padrão comum cuja saída seja Quartzo Certus pode ser usado como ponto de partida.
 2. Clique em **Preencher**: o terminal busca na rede combinações de padrões que fechem o loop em torno daquele produto. Quando há vários candidatos, clicar novamente alterna entre eles.
 3. Abra a tela de **Detalhes** para revisar e ajustar: adicione, remova e reordene membros, edite cópias por ciclo e marque saídas primária e secundárias (clique para alternar a declaração, Shift-clique para definir a primária).
 4. Ajuste os dois multiplicadores na página de configurações:

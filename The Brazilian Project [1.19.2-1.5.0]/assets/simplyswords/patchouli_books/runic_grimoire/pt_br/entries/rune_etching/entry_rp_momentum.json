@@ -1,0 +1,17 @@
+{
+    "name": "Ímpeto",
+    "icon": "simplyswords:runic_tablet",
+    "category": "simplyswords:category_rune_etching",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:runic_tablet",
+            "title": "Ímpeto",
+            "text": "O Ímpeto é um poder rúnico que imbui a arma do portador com a $(#389fff)$(l)essência de massa e velocidade$(). $(br2)Ele gera impulso para frente, propelindo o portador rapidamente adiante."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "A onda de energia criada pelo Ímpeto pode ser usada com grande efeito em combate, permitindo ao portador cobrir terreno rapidamente e avançar para o abate."
+        }
+    ]
+}

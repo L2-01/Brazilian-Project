@@ -10,7 +10,7 @@ navigation:
   title: Componente Espacial de 2³
 ---
 
-Menor componente de armazenamento espacial, usado para fazer a <ItemLink
+O menor componente de armazenamento espacial, usado para fazer a <ItemLink
 id="spatial_storage_cell_2"/>.
 
 <RecipeFor id="spatial_cell_component_2" />

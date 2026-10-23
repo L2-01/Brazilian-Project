@@ -1,0 +1,32 @@
+{
+  "name": "Materiais Básicos",
+  "icon": "ad_astra:steel_plate",
+  "sortnum": 0,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Chapas de Ferro",
+      "item": "ad_astra:iron_plate",
+      "text": "As chapas de ferro são o material mais básico do Ad Astra. São criadas fabricando lingotes de ferro com um martelo em uma bancada de trabalho. São usadas para fabricar as máquinas mais simples necessárias para construir um foguete e chegar ao espaço."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Martelo e chapas",
+      "recipe": "ad_astra:recipes/hammer",
+      "recipe2": "ad_astra:hammering/iron_plate"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Chapa de Aço",
+      "item": "ad_astra:steel_plate",
+      "text": "As chapas de aço são o componente principal do foguete de nível um e de muitas máquinas importantes. São criadas comprimindo lingotes de aço em um compressor, que pode ser energizado por um gerador a carvão. Não deixe de coletar muitas chapas de aço, pois você vai precisar delas durante toda a sua jornada espacial."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Gerador, Compressor",
+      "recipe": "ad_astra:recipes/coal_generator",
+      "recipe2": "ad_astra:recipes/compressor"
+    }
+  ]
+}

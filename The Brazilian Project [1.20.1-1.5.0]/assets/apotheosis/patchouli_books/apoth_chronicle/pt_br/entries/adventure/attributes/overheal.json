@@ -2,12 +2,12 @@
     "name": "Sobrecura",
     "icon": "minecraft:experience_bottle",
     "category": "apotheosis:adventure/attributes",
-	"flag": "apotheosis:adventure",
-	"sortnum": 0,
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Ter $(9)Supercura$() significa que parte do seu dano físico causado será recebida como um escudo de absorção. Ao contrário do roubo de vida, a Supercura funciona quando você está com a vida cheia.$(p)Este atributo só é encontrado em armas pesadas."
+            "text": "Ter $(9)Sobrecura$() significa que parte do seu dano físico causado será convertida em um escudo de absorção. Ao contrário do vampirismo, a Sobrecura funciona quando você está com a vida cheia.$(p)Esse atributo só é encontrado em armas pesadas."
         }
-	]
+    ]
 }

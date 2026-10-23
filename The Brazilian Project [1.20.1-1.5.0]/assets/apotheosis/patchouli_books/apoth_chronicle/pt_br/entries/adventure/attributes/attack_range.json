@@ -2,12 +2,12 @@
     "name": "Alcance de Ataque",
     "icon": "minecraft:skeleton_skull",
     "category": "apotheosis:adventure/attributes",
-	"flag": "apotheosis:adventure",
-	"sortnum": 0,
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Seu $(9)Alcance de Ataque$() é a distância máxima na qual você pode atacar alvos com uma arma corpo a corpo.$(p)Geralmente encontrado em armas."
+            "text": "Seu $(9)Alcance de Ataque$() é a distância máxima em que você pode atacar alvos com uma arma corpo a corpo.$(p)Geralmente encontrado em armas."
         }
-	]
+    ]
 }

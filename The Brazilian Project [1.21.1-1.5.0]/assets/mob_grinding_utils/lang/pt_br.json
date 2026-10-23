@@ -57,7 +57,7 @@
     "item.mob_grinding_utils.saw_upgrade_smite": "Melhoria de Julgamento do Triturador de Criaturas",
     "item.mob_grinding_utils.saw_upgrade_arthropod": "Melhoria de Artrópodes do Triturador de Criaturas",
     "item.mob_grinding_utils.saw_upgrade_beheading": "Melhoria de Decapitação do Triturador de Criaturas",
-    "item.mob_grinding_utils.null_sword": "Espada Imaginária \"Não Estou Aqui\"",
+    "item.mob_grinding_utils.null_sword": "Espada Imaginária Not Here",
     "item.mob_grinding_utils.fluid_xp_bucket": "Balde de XP Líquido",
     "item.mob_grinding_utils.rotten_egg": "Ovo Podre",
     "item.mob_grinding_utils.golden_egg": "Ovo Dourado",
@@ -77,7 +77,7 @@
 
     "_comment": "Spike Damage",
     "death.attack.spikes": "%1$s se empalou em espinhos",
-    "death.attack.spikes.player": "%2$s empalou %1$s em espinhos",
+    "death.attack.spikes.player": "%1$s morreu nos espinhos %2$s",
 
     "_comment": "Block Tool tips",
     "block.mob_grinding_utils.fan.tooltip_1": "Empurra Criaturas na direção frontal.",
@@ -126,7 +126,7 @@
 
     "block.mob_grinding_utils.dreadful_dirt.tooltip_1": "Gera Mais Criaturas Hostis.",
     "block.mob_grinding_utils.dreadful_dirt.tooltip_2": "Pegará Fogo à Luz do Dia se Exposto ao Céu.",
-    "block.mob_grinding_utils.dreadful_dirt.tooltip_3": "Nível de luz 5 ou superior Para a Geração de Criaturas Hostis.",
+    "block.mob_grinding_utils.dreadful_dirt.tooltip_3": "Nível de luz 5 ou superior para a Geração de Criaturas Hostis.",
 
     "block.mob_grinding_utils.delightful_dirt.tooltip_1": "Gera mais criaturas.",
     "block.mob_grinding_utils.delightful_dirt.tooltip_2": "Ficará Coberto de Neve à Noite se Exposto ao Céu.",
@@ -161,7 +161,7 @@
     "tooltip.chickenfeed_5": "Cria um Ovo Dourado.",
 
     "tooltip.mobswab_1": "Use em criaturas para coletar 'DNA'.",
-    "tooltip.mobswab_2": "Crie com um Balde de XP e Sementes.",
+    "tooltip.mobswab_2": "Fabrique com um Balde de XP e Sementes.",
     "tooltip.mobswab_3": "Contém:",
 
     "tooltip.sawupgrade_sharpness": "Afiação: +1. Máx de %d.",

@@ -1,0 +1,26 @@
+{
+  "name": "Chave-Inglesa a Laser",
+  "icon": "laserio:laser_wrench",
+  "sortnum": 1,
+  "category": "laserio:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Chave-Inglesa a Laser é usada principalmente para conectar vários Blocos entre si.$(br2)$(l:laserio:laser_node)Nós$(/l) e $(l:laserio:laser_connector)Conectores$(/l) podem ser conectados usando Shift+Clique Direito para selecionar um bloco, e depois clicando com o botão direito em outro bloco para formar uma conexão.$(br2)O alcance máximo de conexão é de 8 blocos."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Chave-Inglesa a Laser",
+      "images": [
+        "laserio:textures/book/entries/laser_wrench.png"
+      ],
+      "border": true,
+      "text": "O bloco atualmente selecionado é destacado em verde."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Chave-Inglesa a Laser",
+      "recipe": "laserio:laser_wrench"
+    }
+  ]
+}

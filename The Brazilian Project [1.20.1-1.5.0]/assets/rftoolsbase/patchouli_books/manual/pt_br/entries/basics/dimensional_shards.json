@@ -2,7 +2,7 @@
   "name": "Fragmentos Dimensionais",
   "icon": "rftoolsbase:dimensionalshard",
   "category": "rftoolsbase:category_basics",
-  "extra_recipe_mappings":{
+  "extra_recipe_mappings": {
     "rftoolsbase:dimensionalshard": 0,
     "rftoolsbase:dimensionalshard_overworld": 0,
     "rftoolsbase:dimensionalshard_nether": 0,
@@ -11,14 +11,14 @@
   "pages": [
     {
       "type": "text",
-      "text": "O $(item)Minério de Fragmento Dimensional$() pode ser encontrado no subsolo em pequenos aglomerados em várias dimensões. É afetado por $(thing)Fortuna$() e larga $(item)Fragmentos Dimensionais$() ao ser quebrado. $(br2)Eles são usados em várias receitas mais complicadas e também podem ser usados para $(l:rftoolsbase:machines/infusing)infundir máquinas$()."
+      "text": "O $(item)Minério de Fragmento Dimensional$() pode ser encontrado no subsolo em pequenos aglomerados em várias dimensões. Ele é afetado por $(thing)Fortuna$() e larga $(item)Fragmentos Dimensionais$() quando quebrado. $(br2)Eles são usados em várias receitas mais complicadas e também podem ser usados para $(l:rftoolsbase:machines/infusing)infundir máquinas$()."
     },
     {
       "type": "image",
       "images": [
         "rftoolsbase:textures/manual/image_ore.png"
       ],
-      "text": "Um pouco de Minério de Fragmento Dimensional no subsolo do mundo normal."
+      "text": "Um pouco de Minério de Fragmento Dimensional no subsolo da Superfície."
     },
     {
       "type": "crafting",
@@ -28,13 +28,12 @@
     {
       "type": "text",
       "flag": "mod:rftoolsdim",
-      "text": "Os $(item)Fragmentos Dimensionais$() também podem ser usados na criação de uma variedade de $(item)Blocos Decorativos$()."
+      "text": "Os $(item)Fragmentos Dimensionais$() também podem ser usados para criar uma variedade de $(item)Blocos Decorativos$()."
     },
-
     {
       "type": "text",
       "flag": "!mod:rftoolsdim",
-      "text": "Se você tivesse o RFTools Dimensions, poderia fazer uns blocos decorativos bem legais, mas você não tem, que pena :("
+      "text": "Se você tivesse o RFTools Dimensions, poderia fazer blocos decorativos bem legais, mas como não tem, que pena :("
     },
     {
       "type": "crafting",

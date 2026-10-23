@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Os $(d)Ovos do Clima$() permitem $(3)mudar o clima$() quando arremessados.$(br2)Existem 3 tipos: Ensolarado, Chuvoso e Tempestuoso.$(br2)Naturalmente, jogar um Ovo do Clima (Ensolarado) limpa o clima, um Ovo do Clima (Chuvoso) causa chuva e um Ovo do Clima (Tempestuoso) causa uma tempestade de raios.",
+      "text": "Os $(d)Ovos do Clima$() permitem $(3)mudar o clima$() quando arremessados.$(br2)Há 3 tipos: Ensolarado, Chuvoso e Tempestuoso.$(br2)Naturalmente, arremessar um Ovo Ensolarado limpará o clima, um Ovo Chuvoso causará chuva e um Ovo Tempestuoso causará tempestade.",
       "title": "Ovos do Clima"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:weather_egg,irregular_implements:weather_egg[irregular_implements:weather=\"rainy\"],irregular_implements:weather_egg[irregular_implements:weather=\"stormy\"]",
       "link_recipe": true,
-      "text": "Jogar um ovo que corresponde ao clima atual não faz nada.",
+      "text": "Arremessar um Ovo que corresponda ao clima atual não fará nada.",
       "title": " "
     }
   ]

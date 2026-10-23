@@ -18,8 +18,8 @@ item_ids:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-### O Provedor de Padrões Expandido é um Provedor de Padrões maior que vem em versões de bloco completo e de parte,
-### e pode conter até 72 Padrões.
+### O Provedor de Padrões Expandido é um Provedor de Padrões maior que vem nas versões de bloco completo e de parte,
+### podendo conter até 72 Padrões.
 ![exp_pp_screen.png](assets/exp_pp_screen.png)
 
 ## Todas as receitas

@@ -1,0 +1,17 @@
+{
+  "name": "Invocar Entidade",
+  "icon": "minecraft:ender_eye",
+  "category": "enchanted:transposition",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Invocação de Entidade",
+      "text": "Invoca o ser marcado pelo taglock, fazendo-o se teletransportar para o círculo de conjuração. Grande chance de falha em Caçadores de Bruxas. $(br2)Entidades descarregadas ou desaparecidas não podem ser invocadas."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:summoning_entity"
+    }
+  ],
+  "read_by_default": true
+}

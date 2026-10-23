@@ -14,11 +14,11 @@ item_ids:
 
 ## Sobre
 
-Extrusora, prensa e/ou estampadora hidráulica portátil de uso geral. Prensa matérias-primas em chapas, engrenagens e outras
-formas simples.
+Extrusora, prensa e/ou estampadora hidráulica portátil de uso geral. Prensa matérias-primas em chapas, engrenagens e
+outras formas simples.
 
-## Especificação de Receita
+## Especificação da Receita
 
-- Tempo base de fabricação: varia, por padrão 10 segundos
+- Tempo base de fabricação: varia, 10 segundos por padrão
 - Entradas: 0-2 itens, 0-1 fluido(s)
 - Saídas: 1-2 itens

@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:flight_nullifier
 categories:
-  - Mundo e máquinas
+  - World and machines
 ---
 # Anulador de Voo
 
@@ -15,18 +15,18 @@ categories:
 
 ## O que faz
 
-Bloqueia **voo** dentro de um **raio** cúbico ao redor do bloco. Quando o alvo inclui entidades aéreas, também suprime o movimento aéreo ascendente — Ghasts, Espectros, Blazes e voadores similares ficam presos ao chão na zona. Mesmo alcance e melhorias de Módulo de Alcance do [Anulador de Ender](ender_nullifier.md).
+Bloqueia **voo** dentro de um **raio** cúbico ao redor do bloco. Quando o alvo inclui entidades aéreas, ele também suprime o movimento aéreo ascendente — Ghasts, Phantoms, Blazes e voadores semelhantes ficam no chão dentro da zona. Mesmo alcance e melhorias de Módulo de Alcance do [Anulador de Ender](ender_nullifier.md).
 
 Entidades na lista de ignorados configurada (padrão: `#c:bosses`) estão isentas deste anulador.
 
 ## GUI
 
-Mesmo layout dos outros anuladores: **redstone**, **espaço de módulo**, linha de alcance e prévia da área. Além disso:
+Mesmo layout dos outros anuladores: **redstone**, **slot de módulo**, linha de alcance e prévia da área. Adicionalmente:
 
-- **Alvo** (botão de ícone, lado direito): alterna entre o grupo afetado. Clique esquerdo avança, clique direito volta.
-  - *Somente criaturas* (padrão): suprime o voo aéreo na zona.
-  - *Somente jogadores*: bloqueia voo em Sobrevivência/Aventura.
-  - *Criaturas e jogadores*: afeta ambos os grupos.
+- **Alvo** (botão de ícone, lado direito): alterna o grupo afetado. Clique esquerdo avança, clique direito volta.
+  - *Somente criaturas* (padrão): suprime voo aéreo na zona.
+  - *Somente jogadores*: bloqueia voo no Sobrevivência/Aventura.
+  - *Criaturas e jogadores*: afeta os dois grupos.
 
 ## Dicas
 

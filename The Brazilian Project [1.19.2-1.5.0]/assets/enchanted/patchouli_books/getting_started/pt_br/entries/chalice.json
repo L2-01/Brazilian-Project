@@ -1,0 +1,16 @@
+{
+  "name": "Aprimoramentos de Cálice",
+  "icon": "enchanted:chalice_filled",
+  "category": "enchanted:altars",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um cálice pode ser colocado num altar para aumentar a capacidade de poder. $(br2)$(bold)Cálice$() +1x de Capacidade de Poder$(br)$(bold)Cálice Cheio$() +2x de Capacidade de Poder.$(br2)Um cálice pode ser enchido usando Sopa de Redstone nele."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:chalice"
+    }
+  ],
+  "read_by_default": true
+}

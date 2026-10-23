@@ -1,0 +1,27 @@
+{
+  "name": "Melhoria Regulador",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:regulator_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esta melhoria permite um controle preciso sobre quantos itens podem ser enviados para ou puxados de um inventário, ou do buffer do roteador.$(p)Quando um módulo tem uma Melhoria Regulador, você verá um campo de texto numérico extra na sua GUI onde pode configurar um limite. Este limite é interpretado de forma diferente dependendo do módulo específico:"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Para os módulos Enviador $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$ / $(l:modules/sender_3)Mk3/$ e o $(l:modules/player)Módulo de Jogador/$ (no modo de inserção), os módulos só enviarão um item ao inventário se já houver menos que a quantidade configurada daquele item no inventário.$(li)Para os módulos Extrator $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$ e o $(l:modules/player)Módulo de Jogador/$ (no modo de extração), os módulos só puxarão um item do inventário se houver mais que a quantidade configurada daquele item no inventário."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Para os módulos $(l:modules/dropper)Ejetor/$, $(l:modules/flinger)Lançador/$, $(l:modules/placer)Colocador/$ e $(l:modules/void)Vazio/$, os módulos só funcionarão se houver mais que a quantidade configurada daquele item no buffer do roteador.$(li)Para os módulos $(l:modules/breaker)Quebrador/$ e $(l:modules/vacuum)Vácuo/$, os módulos só funcionarão se houver menos que a quantidade configurada daquele item no buffer do roteador."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Para os módulos de Fluido $(l:modules/fluid)Mk1/$ / $(l:modules/fluid_2)Mk2/$, o limite pode ser uma porcentagem da capacidade do tanque alvo ou uma quantidade absoluta em mB (selecionável na GUI), em vez de um número de itens. Ao puxar fluido, o módulo só funcionará se houver $(italic)mais/$ fluido no alvo que a quantidade configurada; ao empurrar fluido, só funcionará se houver $(italic)menos/$ fluido que a quantidade configurada."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:regulator_augment"
+    }
+  ]
+}

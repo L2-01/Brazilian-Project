@@ -1,0 +1,17 @@
+{
+  "name": "Água",
+  "icon": "enchanted:water_poppet",
+  "category": "enchanted:infusing_poppets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Bonecos de água protegem o beneficiário da morte por afogamento e também impedem a morte por afogamento por 5 segundos.$(br2)$(bold)Resistente$() Um uso extra.$(br)$(bold)Infundido$() 10 segundos de respiração aquática."
+    },
+    {
+      "type": "enchanted:spinning_wheel_recipe",
+      "recipe": "enchanted:spinning/water_poppet"
+    }
+  ],
+  "read_by_default": true,
+  "priority": false
+}

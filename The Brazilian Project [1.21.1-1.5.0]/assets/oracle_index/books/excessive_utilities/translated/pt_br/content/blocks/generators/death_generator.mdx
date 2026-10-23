@@ -1,0 +1,27 @@
+---
+title: Gerador da Morte
+id: excessive_utilities:death_generator
+related_items: [excessive_utilities:death_generator]
+type: block
+---
+O **Gerador da Morte** queima certos itens relacionados à morte para produzir FE.
+
+Enquanto ativo, o Gerador da Morte emite partículas em um raio configurável ao seu redor. Qualquer entidade dentro desse raio recebe o efeito [Ruína](@excessive_utilities:doom), que a mata em 60 segundos se não for curado.
+
+## Configuração
+
+O Gerador da Morte usa o tipo de receita `excessive_utilities:single_item_fuel`. Use isto como exemplo:
+
+```json
+{
+  "type": "excessive_utilities:single_item_fuel",
+  "duration": 400,
+  "fe_per_tick": 150,
+  "generator_type": "death",
+  "ingredient": {
+    "tag": "c:storage_blocks/bone_meal"
+  }
+}
+```
+
+<PrefabObtaining/>

@@ -17,4 +17,4 @@ item_ids:
 
 O Carregador Estendido é um <ItemLink id="ae2:charger" /> avançado.
 
-Ele pode carregar quatro itens ao mesmo tempo.
+Ele pode carregar 4 itens ao mesmo tempo.

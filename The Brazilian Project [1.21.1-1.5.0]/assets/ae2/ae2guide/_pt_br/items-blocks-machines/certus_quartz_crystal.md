@@ -14,9 +14,9 @@ item_ids:
 
 <ItemImage id="certus_quartz_crystal" scale="4" />
 
-*"Cristais de Quartzo Certus possuem o traço único de aceitar grandes quantidades de energia em sua matriz cristalina"*
+*"Cristais de Quartzo Certus possuem a característica única de aceitar grandes quantidades de energia em sua matriz cristalina"*
 
-Um dos ingredientes primários para blocos, [dispositivos](../ae2-mechanics/devices.md) e itens do AE2. Feito cultivando-o de [drusa de certus](../ae2-mechanics/certus-growth.md).
+Um dos ingredientes principais para blocos, [dispositivos](../ae2-mechanics/devices.md) e itens do AE2. Produzido cultivando-o a partir de [certus em brotamento](../ae2-mechanics/certus-growth.md).
 
 ## Algumas Receitas Alternativas
 

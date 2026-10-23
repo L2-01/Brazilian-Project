@@ -5,11 +5,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "Esta melhoria só pode ser adicionada a um $(l:modules/vacuum)Módulo de Vácuo/$.$(p)Quando esta melhoria é adicionada, o Módulo de Vácuo absorverá orbes de experiência em vez de itens. Os orbes serão convertidos em $(item)Frascos de Encantamento/$ a uma taxa de 7 XP por frasco (que é a quantidade média de XP obtida ao quebrar um Frasco de Encantamento)."
+      "text": "Esta melhoria só pode ser adicionada a um $(l:modules/vacuum)Módulo de Vácuo/$.$(p)Quando esta melhoria é adicionada, o Módulo de Vácuo absorverá orbes de experiência em vez de itens. Os orbes serão convertidos em $(item)Frascos de Encantamento/$ à taxa de 7XP por frasco (que é a quantidade média de XP ganha ao quebrar um Frasco de Encantamento)."
     },
     {
       "type": "text",
-      "text": "Dependendo de quais outros mods estão instalados, também pode ser possível converter orbes em fluidos de XP. Isso requer que um tanque contendo fluido esteja no buffer do roteador ou adjacente ao roteador. No último caso, certifique-se de que o botão $(bold)Ejetar/$ esteja ativado na GUI do Módulo de Vácuo."
+      "text": "Dependendo de quais outros mods estão instalados, também pode ser possível converter orbes em fluidos de XP. Isso requer que um tanque contendo fluido esteja no buffer do roteador ou adjacente ao roteador. No último caso, garanta que o botão $(bold)Ejetar/$ esteja ativado na GUI do Módulo de Vácuo."
     },
     {
       "type": "crafting",

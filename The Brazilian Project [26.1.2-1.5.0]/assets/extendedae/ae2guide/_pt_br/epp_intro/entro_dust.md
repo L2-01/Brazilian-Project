@@ -15,6 +15,6 @@ item_ids:
 <ItemImage id="extendedae:entro_dust" scale="4"></ItemImage>
 </Row>
 
-Você pode obtê-lo triturando um <ItemLink id="extendedae:entro_crystal" /> ou quebrando [Fluix Entroizado Brotante](./entro_budding.md).
+Você pode obtê-lo triturando um <ItemLink id="extendedae:entro_crystal" /> ou quebrando uma [Drusa de Fluix Entroizado](./entro_budding.md).
 
 Ele é usado para fabricar certas máquinas do ExtendedAE e o <ItemLink id="extendedae:entro_ingot" />.

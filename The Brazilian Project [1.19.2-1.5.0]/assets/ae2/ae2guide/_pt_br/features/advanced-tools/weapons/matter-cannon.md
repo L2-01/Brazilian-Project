@@ -10,18 +10,18 @@ navigation:
   title: Canhão de Matéria
 ---
 
-O <ItemLink id="matter_cannon"/> é um
-canhão eletromagnético portátil, que dispara pequenos projéteis; o dano que ele causa
-depende da munição. Por ser uma arma energizada, precisa ser carregado no <ItemLink
-id="charger"/>. A munição pode ser recarregada num
+O <ItemLink id="matter_cannon"/> é uma
+arma de trilho portátil que dispara pequenos projéteis; seu dano depende da
+munição. Por ser uma arma alimentada a energia, precisa ser carregada no <ItemLink
+id="charger"/>. A munição pode ser reabastecida num
 
-<ItemLink id="chest" /> ou <ItemLink id="io_port" />, já que ele funciona como uma
-célula de armazenamento de um único item, semelhante à <ItemLink id="item_storage_cell_1k" />.
+<ItemLink id="chest" /> ou <ItemLink id="io_port" />, pois funciona como uma
+célula de armazenamento de um único item, semelhante à <ItemLink id="item_storage_cell_1k" />
 
-Sua bateria comporta até 200k AE e consome 1600 AE por item disparado. ( +1
-item disparado por <ItemLink id="speed_card"/> )
+Sua bateria comporta até 200k AE e consome 1600 AE por item disparado ( +1
+item disparado por <ItemLink id="speed_card"/> ).
 
 Como regra geral, metais mais pesados causam mais dano, e itens não metálicos
-mais leves causam menos dano.
+mais leves causam menos.
 
 <RecipeFor id="matter_cannon" />

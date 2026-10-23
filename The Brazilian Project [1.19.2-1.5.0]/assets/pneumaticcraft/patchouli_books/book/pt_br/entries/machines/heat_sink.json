@@ -1,30 +1,30 @@
 {
-  "name": "Dissipador de Calor",
-  "icon": "pneumaticcraft:heat_sink",
-  "category": "pneumaticcraft:machines",
-  "advancement": "pneumaticcraft:root",
-  "pages": [
-    {
-      "type": "text",
-      "text": "O $(item)Dissipador de Calor/$ é um bloco usado para se livrar de $(l:base_concepts/heat)Calor/$.$(p)Cuidado, um $(item)Dissipador de Calor/$ mais quente que 60°C ou mais frio que -60°C o machucará ao ser tocado!$(p)Os $(item)Dissipadores de Calor/$ só dissipam calor do bloco ao qual estão diretamente conectados. Para conectar muitos $(item)Dissipadores de Calor/$, use $(l:machines/heat_pipe)Tubos de Calor/$ para fornecer mais superfícies."
-    },
-    {
-      "type": "image",
-      "images": [
-        "pneumaticcraft:textures/patchouli/heat_sinks.png"
-      ],
-      "border": "true",
-      "text": "$(italic)Um $(l:compressors/advanced_liquid_compressor)Compressor de Líquidos Avançado/$ $(italic)com vários Dissipadores de Calor/$"
-    },
-    {
-      "type": "text",
-      "title": "Resfriamento Ativo",
-      "text": "Você pode aumentar a eficácia de um $(item)Dissipador de Calor/$ posicionando-o no alcance de um $(l:tubes/air_grate_module#active_cooling)Módulo de Tubo de Grade de Ar/$. O alcance do módulo é exibido quando você o anexa a um $(l:tubes/pressure_tubes)Tubo de Pressão/$. A eficácia de resfriamento pode ser empilhada usando vários Módulos de Tubo de Grade de Ar."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando um Dissipador de Calor",
-      "recipe": "pneumaticcraft:heat_sink"
-    }
-  ]
+    "name": "Dissipador de Calor",
+    "icon": "pneumaticcraft:heat_sink",
+    "category": "pneumaticcraft:machines",
+    "advancement": "pneumaticcraft:root",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O $(item)Dissipador de Calor/$ é um bloco usado para se livrar de $(l:base_concepts/heat)Calor/$.$(p)Cuidado, um $(item)Dissipador de Calor/$ mais quente que 60°C ou mais frio que -60°C machucará você ao ser tocado!$(p)Os $(item)Dissipadores de Calor/$ só dissipam calor do bloco ao qual estão diretamente conectados. Para conectar muitos $(item)Dissipadores de Calor/$, use $(l:machines/heat_pipe)Tubos de Calor/$ para fornecer mais superfícies."
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/patchouli/heat_sinks.png"
+            ],
+            "border": "true",
+            "text": "$(italic)Um $(l:compressors/advanced_liquid_compressor)Compressor de Líquidos Avançado/$ $(italic)com vários Dissipadores de Calor/$"
+        },
+        {
+            "type": "text",
+            "title": "Resfriamento Ativo",
+            "text": "Você pode aumentar a eficácia de um $(item)Dissipador de Calor/$ colocando-o ao alcance de um $(l:tubes/air_grate_module#active_cooling)Módulo de Tubo de Grade de Ar/$. O alcance do módulo é exibido quando você o acopla a um $(l:tubes/pressure_tubes)Tubo de Pressão/$. A eficácia de resfriamento pode ser acumulada usando vários Módulos de Tubo de Grade de Ar."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Dissipador de Calor",
+            "recipe": "pneumaticcraft:heat_sink"
+        }
+    ]
 }

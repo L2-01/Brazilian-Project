@@ -1,19 +1,19 @@
 {
-  "name": "Widget de Destruir Item",
-  "icon": "pneumaticcraft:textures/progwidgets/void_item_piece.png",
-  "category": "pneumaticcraft:widget_interact",
-  "advancement": "pneumaticcraft:programmer",
-  "pages": [
-    {
-      "type": "text",
-      "text": "Isso destruirá imediata e permanentemente itens no inventário do drone - cuidado! Recomenda-se fortemente usar isto junto com um $(l:programming/item_filter)Filtro de Item/$. Com um filtro, apenas itens permitidos pelo filtro serão destruídos.$(p)O widget termina a execução quando nenhum dos itens aplicáveis resta no inventário do $(item)Drone/$."
-    },
-    {
-      "type": "image",
-      "images": [
-        "pneumaticcraft:textures/progwidgets/void_item_piece.png"
-      ],
-      "text": "$(italic)Não queria mesmo/$"
-    }
-  ]
+    "name": "Widget de Anular Item",
+    "icon": "pneumaticcraft:textures/progwidgets/void_item_piece.png",
+    "category": "pneumaticcraft:widget_interact",
+    "advancement": "pneumaticcraft:programmer",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Isto destruirá imediata e permanentemente itens no inventário do drone — cuidado! É fortemente recomendado usar isto junto com um $(l:programming/item_filter)Filtro de Item/$. Com um filtro, apenas os itens permitidos pelo filtro serão anulados.$(p)O widget termina de executar quando nenhum dos itens aplicáveis restar no inventário do $(item)Drone/$."
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/progwidgets/void_item_piece.png"
+            ],
+            "text": "$(italic)Não queria mesmo/$"
+        }
+    ]
 }

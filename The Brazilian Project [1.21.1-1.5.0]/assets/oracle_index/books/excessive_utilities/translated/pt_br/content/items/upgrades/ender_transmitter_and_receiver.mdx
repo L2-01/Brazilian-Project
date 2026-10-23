@@ -1,0 +1,33 @@
+---
+title: Transmissor e Receptor do Ender
+id:
+  - excessive_utilities:ender_transmitter
+  - excessive_utilities:ender_receiver
+icon: excessive_utilities:item/ender_transmitter
+type: item
+infobox:
+  title: Transmissor e Receptor do Ender
+  tabs:
+    - name: Transmissor e Receptor do Ender
+      display:
+        - excessive_utilities:item/ender_transmitter
+        - excessive_utilities:item/ender_receiver
+---
+
+O **Transmissor do Ender** e o **Receptor do Ender** permitem que Nós de Transferência movam itens, fluidos ou energia sem fio, incluindo entre dimensões.
+
+Um Transmissor do Ender pode ser instalado num Nó de Transferência. Um Receptor do Ender pode ser instalado num Nó de Recuperação. Os dois Nós devem ser do mesmo tipo: Transmissores de Itens se conectam a Receptores de Itens, Transmissores de Fluidos a Receptores de Fluidos e Transmissores de Energia a Receptores de Energia.
+
+## Frequências
+
+Use qualquer uma das melhorias enquanto a segura para configurar sua frequência.
+
+Frequências públicas são compartilhadas por todos os jogadores. Qualquer Transmissor e Receptor com o mesmo nome de frequência pública pode se conectar.
+
+Frequências privadas pertencem ao jogador que as configurou. Uma frequência privada só conecta melhorias com o mesmo nome e dono, então outro jogador não pode entrar nela apenas digitando o mesmo nome.
+
+## Transferindo
+
+Um Transmissor tenta os Receptores carregados em sua frequência em ordem round-robin. Se um Receptor estiver cheio ou rejeitar o recurso, o Transmissor continua para o próximo Receptor. Receptores de Itens e Fluidos respeitam seus filtros configurados.
+
+A transferência sem fio não carrega chunks. Um Receptor só fica disponível enquanto seu chunk estiver carregado. Quando nenhum Receptor aceita o recurso, o Nó de Transferência pode continuar usando normalmente sua rede conectada de Tubos de Transferência.

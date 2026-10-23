@@ -1,0 +1,37 @@
+{
+  "name": "Chaleira",
+  "icon": "enchanted:kettle",
+  "category": "enchanted:kettle",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A chaleira, semelhante ao caldeirão de bruxa, é um tipo de aparato de fermentação usado principalmente para criar infusões, mas pode ter outros usos. $(br2)Chaleiras exigem poder de altar e uma fonte de calor suficiente para funcionar.$(br2)A falta de poder ou calor suficiente fará a poção estragar, e ela deve ser removida antes de usar a chaleira novamente."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "enchanted:kettle[type=2,facing=east]",
+          "1": "minecraft:campfire[lit=true]",
+          "f": "minecraft:cobblestone_wall"
+        },
+        "pattern": [
+          [
+            "f0f"
+          ],
+          [
+            "f1f"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:kettle",
+      "text": "Uma poção ou infusão pode ser criada enchendo a chaleira com água e soltando os itens corretos na ordem correta dentro dela. As poções podem ser recolhidas com frascos de vidro vazios ao final."
+    }
+  ],
+  "read_by_default": false,
+  "priority": true
+}

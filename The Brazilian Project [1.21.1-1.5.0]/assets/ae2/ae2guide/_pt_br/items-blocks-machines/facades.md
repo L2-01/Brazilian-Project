@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: Fachadas de Cabos
+  title: Fachadas
   icon: facade
   icon_components:
     "ae2:facade_item": "minecraft:stone"
@@ -12,10 +12,10 @@ item_ids:
 - ae2:facade
 ---
 
-# Fachadas de Cabos
+# Fachadas
 
-Fachadas podem ser usadas para deixar sua base mais limpa. Elas podem cobrir os dois tamanhos de cabo e ser feitas de muitos
-tipos de bloco.
+Fachadas podem ser usadas para deixar sua base com aparência mais limpa. Elas podem cobrir os dois tamanhos de cabo e ser feitas de muitos
+tipos de blocos.
 
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/assemblies/facades_1.snbt" />
@@ -23,7 +23,7 @@ tipos de bloco.
 </GameScene>
 
 Elas podem cobrir todos os lados de um cabo, mas deixam [subpartes](../ae2-mechanics/cable-subparts.md) e conexões de cabo
-saltarem para fora.
+aparecerem.
 
 <GameScene zoom="6"  interactive={true}>
   <ImportStructure src="../assets/assemblies/facades_2.snbt" />
@@ -39,7 +39,7 @@ Seja criativo com elas para melhorar a estética da sua base ou fazer blocos com
 
 ## Escondendo Fachadas
 
-Fachadas ficarão escondidas enquanto você segurar uma <a href="network_tool.md">ferramenta de rede</a> em qualquer das mãos.
+Fachadas ficarão escondidas enquanto você segurar uma <a href="network_tool.md">ferramenta de rede</a> em qualquer mão.
 
 Você pode interagir com blocos atrás de fachadas escondidas sem precisar remover as fachadas primeiro.
 

@@ -1,0 +1,16 @@
+{
+  "name": "Aprimoramentos de Tocha",
+  "icon": "enchanted:candelabra",
+  "category": "enchanted:altars",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um aprimoramento da categoria de tochas pode ser colocado num altar; os benefícios de cada aprimoramento desta categoria são os seguintes:$(br2)$(bold)Tocha$() +0.5x de Taxa de Recarga$(br)$(bold)Vela$() +1x de Taxa de Recarga$(br)$(bold)Candelabro$() +2x de Taxa de Recarga"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:candelabra"
+    }
+  ],
+  "read_by_default": true
+}

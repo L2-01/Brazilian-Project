@@ -1,0 +1,13 @@
+{
+    "name": "Penetração de Proteção",
+    "icon": "apotheosis:textures/mob_effect/sundering.png",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(9)Penetração de Proteção$() permite ignorar uma quantidade fixa dos pontos de proteção do alvo ao atacar.$(p)Penetração de Proteção extra não deixa a proteção do alvo negativa."
+        }
+    ]
+}

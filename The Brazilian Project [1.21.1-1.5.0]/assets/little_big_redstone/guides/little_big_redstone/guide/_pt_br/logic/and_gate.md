@@ -1,19 +1,22 @@
 ---
 navigation:
-  title: "Porta AND"
+  title: "Porta E"
   icon: "and_gate"
   parent: little_big_redstone:logic.md
   position: 14
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:and_gate
 ---
 
-# Porta AND
+# Porta E
 
 <FloatingColumn width="100" align="right">
-	### Tabela-verdade
+	### Analógico
+	As Portas E produzem um sinal de saída igual ao maior sinal de entrada.
+
+	### Tabela-Verdade
 	<TruthTable inputs="2">
 		<TruthState input="0,0" output="0" />
 		<TruthState input="0,1" output="0" />
@@ -36,10 +39,10 @@ item_ids:
 	</Column>
 </Row>
 
-Portas AND são componentes lógicos que exigem que todas as entradas estejam LIGADAS para que a saída esteja LIGADA. Este é o inverso de uma
-[Porta NAND](nand_gate.md).
+As portas E são componentes lógicos que exigem que todas as entradas estejam LIGADAS para a saída ficar LIGADA.
+É o inverso de uma [porta NÃO E](nand_gate.md).
 
-Portas AND podem ser configuradas para ter entre 2 e 10 entradas.
+As portas E podem ser configuradas para ter entre 2 e 10 entradas.
 
 <Row>
 	<Column>

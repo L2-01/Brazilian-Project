@@ -1,0 +1,23 @@
+{
+    "name": "Relíquia Dormente",
+    "icon": "simplyswords:dormant_relic",
+    "advancement": "simplyswords:dormant_relic",
+    "category": "simplyswords:category_unique_weapons",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:dormant_relic",
+            "text": "A Relíquia Dormente é uma espada peculiar que guarda um segredo misterioso em sua lâmina. À primeira vista, parece uma espada comum e sem destaque, mas possui uma energia adormecida esperando ser despertada através do processo de fabricação."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:righteous_relic",
+            "recipe2": "simplyswords:tainted_relic"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:sunfire",
+            "recipe2": "simplyswords:harbinger"
+        }
+    ]
+}

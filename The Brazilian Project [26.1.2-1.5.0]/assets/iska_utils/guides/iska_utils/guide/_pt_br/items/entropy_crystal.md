@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:entropy_crystal
 categories:
-  - Materiais de Entropia
+  - Entropy materials
 ---
 # Cristal de Entropia
 
@@ -15,7 +15,7 @@ categories:
 
 ## O que é
 
-Um recurso de entropia cristalizada forjado na <ItemImage id="iska_utils:ancient_tablet" /> **Tabuleta Antiga** (**6 ametistas** + <ItemImage id="iska_utils:entropic_agglomeration" /> **Aglomeração Entrópica**). Mais estável que o <ItemImage id="iska_utils:unstable_entropy_catalyst" /> **Catalisador de Entropia Instável** — **não** decai no seu inventário.
+Um recurso de entropia cristalizada forjado na <ItemImage id="iska_utils:ancient_tablet" /> **Tabuleta Antiga** (**6 ametistas** + <ItemImage id="iska_utils:entropic_agglomeration" /> **Aglomeração Entrópica**). Mais estável que o <ItemImage id="iska_utils:unstable_entropy_catalyst" /> **Catalisador de Entropia Instável** — ele **não** decai no seu inventário.
 
 ## Como fazer
 
@@ -23,5 +23,5 @@ Carregue a tabuleta com **6× gemas de ametista** e **1× Aglomeração Entrópi
 
 ## Usos
 
-- **Bancada de ferraria**: com <ItemImage id="iska_utils:entropic_smithing_template" /> **Molde de Ferraria Entrópico** e equipamento de **netherita** → ferramentas e armaduras **entrópicas**.
-- Componente da <ItemImage id="iska_utils:entropy_tnt" /> **Dinamite de Entropia** e outras fabricações de entropia.
+- **Mesa de ferraria**: com <ItemImage id="iska_utils:entropic_smithing_template" /> **Molde de Ferraria Entrópico** e equipamento de **netherita** → ferramentas e armaduras **entrópicas**.
+- Componente da <ItemImage id="iska_utils:entropy_tnt" /> **Dinamite de Entropia** e de outras fabricações de entropia.

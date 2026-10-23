@@ -1,0 +1,42 @@
+---
+title: Emendador de Complementos
+id: oritech:addon_splicer
+type: block
+custom:
+    Capacidade de RF: "50,000,000"
+    Entrada máx. de RF: "833,333"
+    Núcleos necessários: "4"
+    Espaços de complemento: "1"
+---
+
+O Emendador de Complementos é um multibloco usado para
+comprimir vários complementos de máquina em um único bloco.
+Ele permite combinar vários complementos em um
+[Coração da Máquina](@oritech:heart_of_the_machine_addon).
+
+<center>
+<ModAsset location="oritech:area/shrinker_area" width={512} />
+</center>
+
+---
+
+**Processo de Compactação**
+
+Para usar o emendador, você deve acoplar os complementos que deseja combinar
+por meio de extensores. A máquina precisa estar cheia de energia para operar.
+Uma vez ativado pela interface ou energizando o **centro** com
+redstone, o emendador consumirá os blocos físicos no mundo
+e produzirá um único bloco combinado no seu inventário.
+
+<center>
+<ModAsset location="oritech:area/shrinker_setup_area" width={512} />
+</center>
+
+<Callout variant="warning">
+    A compactação é irreversível. Apenas complementos que afetam as
+    estatísticas da máquina (como velocidade, eficiência ou rendimento) podem ser emendados.
+    Complementos que exigem interação direta (Caldeira a Vapor, Redstone,
+    Proxy de Inventário, Caçador) não podem ser compactados.
+    Além disso, um "Coração da Máquina" não pode ser combinado com
+    outros complementos — ele precisa ser o único complemento instalado.
+</Callout>

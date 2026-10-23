@@ -15,4 +15,4 @@ item_ids:
 <BlockImage id="extendedae:silicon_block" scale="8"></BlockImage>
 </Row>
 
-Um bloco usado para armazenar <ItemLink id="ae2:silicon" />.
+Um bloco de armazenamento para <ItemLink id="ae2:silicon" />.

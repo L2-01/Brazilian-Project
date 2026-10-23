@@ -1,0 +1,29 @@
+{
+  "name": "Alcachofra d'Água",
+  "icon": "enchanted:textures/item/artichoke.png",
+  "category": "enchanted:common_plants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esta subespécie da alcachofra comum só cresce sobre água parada. Diferente de sua prima verde, ela não é considerada comestível.$(br2)Consumir esta planta saciará a fome, mas esvaziará seu estômago.$(br2)$(br)$(bold)Obtenção:$()$(br)Sabe-se que é derrubada por Grama Alta"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "enchanted:artichoke[age=4]"
+        },
+        "pattern": [
+          [
+            "0"
+          ],
+          [
+            " "
+          ]
+        ]
+      }
+    }
+  ],
+  "read_by_default": true
+}

@@ -12,7 +12,7 @@ navigation:
 
   <ItemImage id="malum:spirit_altar" scale="2"/>
 
-  Executa infusão espiritual, foco espiritual e trabalho rúnico como passos de fabricação automática ME, no Altar dos Espíritos, no Cadinho de Espíritos e na Bancada de Trabalho Rúnica reais com seus próprios espíritos, pedestais, melhorias e aceleradores, ou numa Matriz que substitui os três.
+  Executa infusão de espíritos, foco de espíritos e trabalho rúnico como etapas de fabricação automática ME, no Altar de Espíritos, Cadinho de Espíritos e Bancada Rúnica reais com seus próprios espíritos, pedestais, aprimoramentos e aceleradores, ou numa Matriz que substitui os três.
 </Column>
 
 <Recipe id="nep:module_status/malum"/>
@@ -27,14 +27,14 @@ navigation:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-| Processo | Configuração | Padrão |
+| Processo | Preparação | Padrão |
 |---|---|---|
-| <ItemImage id="malum:spirit_altar" scale="0.5"/> Infusão Espiritual | Altar dos Espíritos, com pedestais para receitas que precisam de ingredientes extras | Padrão de Infusão Espiritual |
-| <ItemImage id="malum:spirit_crucible" scale="0.5"/> Foco Espiritual | Cadinho de Espíritos, segurando o ímpeto do nó que você quer | Padrão de Foco Espiritual |
-| <ItemImage id="malum:runic_workbench" scale="0.5"/> Trabalho Rúnico | Bancada de Trabalho Rúnica, com o segundo ingrediente fornecido pela rede em vez da sua mão | Padrão de Trabalho Rúnico |
-| <ItemImage id="nep:focused_spirit_matrix" scale="0.5"/> Infusão Espiritual | Matriz de Foco Espiritual, um bloco, nada construído ao redor | Padrão de Infusão Espiritual |
-| <ItemImage id="nep:focused_spirit_matrix" scale="0.5"/> Foco Espiritual | Matriz de Foco Espiritual, com um Ímpeto de Matriz no seu espaço de ímpeto | Padrão de Foco Espiritual |
-| <ItemImage id="nep:focused_spirit_matrix" scale="0.5"/> Trabalho Rúnico | Matriz de Foco Espiritual, tirando os espíritos de uma runa do seu próprio banco | Padrão de Trabalho Rúnico |
+| <ItemImage id="malum:spirit_altar" scale="0.5"/> Infusão de Espíritos | Altar de Espíritos, com pedestais para receitas que precisam de ingredientes extras | Padrão de Infusão Espiritual |
+| <ItemImage id="malum:spirit_crucible" scale="0.5"/> Foco de Espíritos | Cadinho de Espíritos, segurando o ímpeto do nó que você quer | Padrão de Foco Espiritual |
+| <ItemImage id="malum:runic_workbench" scale="0.5"/> Trabalho Rúnico | Bancada Rúnica, com o segundo ingrediente fornecido pela rede em vez da sua mão | Padrão de Trabalho Rúnico |
+| <ItemImage id="nep:focused_spirit_matrix" scale="0.5"/> Infusão de Espíritos | Matriz de Foco Espiritual, um bloco, nada construído ao redor | Padrão de Infusão Espiritual |
+| <ItemImage id="nep:focused_spirit_matrix" scale="0.5"/> Foco de Espíritos | Matriz de Foco Espiritual, com um Ímpeto de Matriz no seu espaço de ímpeto | Padrão de Foco Espiritual |
+| <ItemImage id="nep:focused_spirit_matrix" scale="0.5"/> Trabalho Rúnico | Matriz de Foco Espiritual, tirando os espíritos de uma runa do próprio banco | Padrão de Trabalho Rúnico |
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -46,7 +46,7 @@ navigation:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-O Malum mantém seu tier do vazio fora de vista até você descobrir os Segredos do Vazio, e uma receita escondida dessa forma está ausente em vez de bloqueada, o que é fácil de ler como uma receita que não existe. Qualquer item nosso cujas receitas estejam todas escondidas carrega uma linha dizendo isso, e a linha some assim que a revelação que a esconde é descoberta.
+O Malum mantém seu tier do vazio fora de vista até você descobrir os Segredos do Vazio, e uma receita escondida assim está ausente em vez de trancada, o que é fácil de ler como uma receita que não existe. Qualquer item nosso cujas receitas todas estejam escondidas carrega uma linha dizendo isso, e a linha some assim que a revelação que a esconde é descoberta.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -60,7 +60,7 @@ O Malum mantém seu tier do vazio fora de vista até você descobrir os Segredos
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Num servidor que liga **Require Decoder**, os padrões do Malum só codificam numa rede cujo [Decodificador de Padrões](/nep/pattern-decoder.md) carregue este módulo. Sem ele, codificam como Padrões de Processamento comuns.
+Num servidor que ativa **Exigir Decodificador**, padrões do Malum só codificam numa rede cujo [Decodificador de Padrões](/nep/pattern-decoder.md) carrega este módulo. Sem ele, codificam como Padrões de Processamento comuns.
 
 <Recipe id="nep:malum_encoding_module"/>
 

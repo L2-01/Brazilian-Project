@@ -1,0 +1,16 @@
+{
+  "name": "Fervendo Comida",
+  "icon": "minecraft:cooked_beef",
+  "category": "enchanted:cauldron",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Outro uso do caldeirão de bruxa é ferver comida para cozinhá-la sem precisar de combustível. Este é um método eficaz de cozinhar e funciona com qualquer comida. $(br2)Atualmente só funciona em comidas vanilla; mais serão adicionadas depois."
+    },
+    {
+      "type": "enchanted:cauldron_recipe",
+      "recipe": "enchanted:witch_cauldron/cooked_beef"
+    }
+  ],
+  "read_by_default": true
+}

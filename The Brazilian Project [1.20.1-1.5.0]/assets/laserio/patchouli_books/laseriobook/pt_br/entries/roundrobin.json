@@ -6,15 +6,15 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Rodízio só está disponível no Modo Extrator.$(br2)O rodízio instrui um extrator a distribuir itens uniformemente entre múltiplos inseridores.$(br2)Há três modos disponíveis:$(br)1. Falso$(br)2. Verdadeiro$(br)3. Forçado"
+      "text": "Round Robin só está disponível no Modo Extrator.$(br2)O round robin instrui um extrator a distribuir itens uniformemente entre múltiplos inseridores.$(br2)Há três modos disponíveis:$(br)1. Desativado$(br)2. Ativado$(br)3. Forçado"
     },
     {
       "type": "patchouli:text",
-      "text": "Quando definido como $(l)falso$(), o rodízio é desativado, e o sistema de $(l:laserio:priority)prioridade$(/l) é seguido. O primeiro inventário encherá inteiramente antes que objetos sejam enviados ao segundo inventário.$(br2)Quando definido como $(l)verdadeiro$(), os itens serão enviados aos baús em ordem de prioridade, e distribuídos uniformemente.$(br2)Se houver 3 baús numa rede, o primeiro conjunto de itens irá para o primeiro baú, o 2º conjunto para o 2º baú, etc."
+      "text": "Quando definido como $(l)desativado$(), o round robin é desligado e o sistema de $(l:laserio:priority)prioridade$(/l) é seguido. O primeiro inventário encherá completamente antes de objetos serem enviados ao segundo inventário.$(br2)Quando definido como $(l)ativado$(), os itens serão enviados aos baús em ordem de prioridade e distribuídos uniformemente.$(br2)Se houver 3 baús numa rede, o primeiro conjunto de itens irá para o primeiro baú, o segundo conjunto para o segundo baú, etc."
     },
     {
       "type": "patchouli:text",
-      "text": "Quando definido como $(l)forçado$(), as mesmas regras de 'verdadeiro' são seguidas. No entanto, se um dos destinos encher, o extrator parará de operar até ele ficar disponível de novo.$(br2)Nota: O descarregamento de chunks pode causar uma mudança nas mecânicas de rodízio, especialmente se alguns nós estiverem descarregados quando outros não estão."
+      "text": "Quando definido como $(l)forçado$(), as mesmas regras do 'ativado' são seguidas. No entanto, se um dos destinos ficar cheio, o extrator parará de operar até que ele fique disponível novamente.$(br2)Nota: o descarregamento de chunks pode causar mudanças nas mecânicas de round robin, especialmente se alguns nós estiverem descarregados enquanto outros não."
     }
   ]
 }

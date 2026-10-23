@@ -1,0 +1,20 @@
+{
+    "name": "Encantamento por Infusão",
+    "icon": "apotheosis:infused_hellshelf",
+    "category": "apotheosis:enchanting/table",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(9)Encantamento por Infusão$() é um novo método de fabricação através da Mesa de Encantamentos.$(p)Cada receita de infusão tem um único item de entrada e três requisitos de atributos."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Cada requisito de atributo normalmente exige pelo menos algum valor e pode opcionalmente ter um valor máximo.$(p)Os encantamentos de infusão só usam o terceiro espaço e permitem gastar experiência além do necessário."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Para realizar um encantamento de infusão, basta colocar o item no espaço.$(p)Se você tiver os atributos corretos, o terceiro espaço acenderá e clicá-lo realizará a infusão."
+        }
+    ]
+}

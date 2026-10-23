@@ -1,19 +1,22 @@
 ---
 navigation:
-  title: "Porta NAND"
+  title: "Porta NÃO E"
   icon: "nand_gate"
   parent: little_big_redstone:logic.md
   position: 15
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:nand_gate
 ---
 
-# Porta NAND
+# Porta NÃO E
 
 <FloatingColumn width="100" align="right">
-	### Tabela-verdade
+	### Booleano
+	As Portas NÃO E só produzem um valor de saída de 0 (DESLIGADO) ou 1 (LIGADO).
+
+	### Tabela-Verdade
 	<TruthTable inputs="2">
 		<TruthState input="0,0" output="1" />
 		<TruthState input="0,1" output="1" />
@@ -36,10 +39,10 @@ item_ids:
 	</Column>
 </Row>
 
-Portas NAND são componentes lógicos que exigem que todas as entradas estejam LIGADAS para que a saída esteja DESLIGADA. Este é o inverso de uma
-[Porta AND](and_gate.md).
+As portas NÃO E são componentes lógicos que exigem que todas as entradas estejam LIGADAS para a saída ficar
+DESLIGADA. É o inverso de uma [porta E](and_gate.md).
 
-Portas NAND podem ser configuradas para ter entre 2 e 10 entradas.
+As portas NÃO E podem ser configuradas para ter entre 2 e 10 entradas.
 
 <Row>
 	<Column>

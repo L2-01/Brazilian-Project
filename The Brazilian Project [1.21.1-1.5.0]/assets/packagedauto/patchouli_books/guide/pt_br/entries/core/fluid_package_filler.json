@@ -1,30 +1,30 @@
 {
-	"name": "Enchedor de Pacotes de Fluido",
-	"category": "packagedauto:core",
-	"icon": "packagedauto:fluid_package_filler",
-	"pages": [
-		{
-			"type": "patchouli:text",
-			"text": "O $(item)Enchedor de Pacotes de Fluido/$ cria $(l:core/volume_package)Pacotes de Volume/$ cheios de fluidos.$(p)Esta máquina requer energia."
-		},
-		{
-			"type": "patchouli:spotlight",
-			"item": "packagedauto:fluid_package_filler",
-			"link_recipe": true,
-			"title": "Uso",
-			"text": "Para usar o $(item)Enchedor de Pacotes de Fluido/$, coloque-o ao lado de um recipiente de fluido e coloque um recipiente de fluido modelo dentro.$(p)Você pode então especificar a quantidade de fluido que o $(l:core/volume_package)Pacote de Volume/$ criado deve conter."
-		},
-		{
-			"type": "patchouli:text",
-			"title": "Uso (cont.)",
-			"text": "Por fim, aplique um sinal de redstone na máquina para criar o pacote.$(p)O pacote criado será ejetado para inventários adjacentes."
-		},
-		{
-			"type": "patchouli:crafting",
-			"recipe": "packagedauto:fluid_package_filler",
-			"title": "Fabricação"
-		}
-	],
-	"read_by_default": true,
-	"sortnum": 11
+    "name": "Enchedor de Pacotes de Fluido",
+    "category": "packagedauto:core",
+    "icon": "packagedauto:fluid_package_filler",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(item)Enchedor de Pacotes de Fluido/$ cria $(l:core/volume_package)Pacotes de Volume/$ preenchidos com fluidos.$(p)Esta máquina requer energia."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "packagedauto:fluid_package_filler",
+            "link_recipe": true,
+            "title": "Uso",
+            "text": "Para usar o $(item)Enchedor de Pacotes de Fluido/$, coloque-o ao lado de um recipiente de fluido e ponha um recipiente de fluido modelo dentro.$(p)Você pode então especificar a quantidade de fluido que o $(l:core/volume_package)Pacote de Volume/$ criado deve conter."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Uso (cont.)",
+            "text": "Por fim, aplique um sinal de redstone à máquina para criar o pacote.$(p)O pacote criado será ejetado em inventários adjacentes."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "packagedauto:fluid_package_filler",
+            "title": "Fabricação"
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 11
 }

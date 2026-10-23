@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:drop_of_entropy
 categories:
-  - Materiais de Entropia
+  - Entropy materials
 ---
 # Gota de Entropia
 
@@ -15,7 +15,7 @@ categories:
 
 ## O que faz
 
-Um **recurso** raro — não é vestido no corpo. Usado na <ItemImage id="iska_utils:ancient_tablet" /> **Tabuleta Antiga**, em fabricações entrópicas e em outros pontos desta cadeia de progressão.
+Um **recurso** raro — não é usado no corpo. Usada na <ItemImage id="iska_utils:ancient_tablet" /> **Tabuleta Antiga**, em fabricações entrópicas e em outros pontos desta cadeia de progressão.
 
 ## Como obter
 
@@ -53,11 +53,11 @@ Um **recurso** raro — não é vestido no corpo. Usado na <ItemImage id="iska_u
 
 <iska_utils:IfSilverfishLarva>
 
-**Integração com Ex Deorum** (requer **Ex Deorum** e o item <ItemImage id="iska_utils:silverfish_larva" /> **Larva de Traça** registrado — veja aquela página):
+**Integração com Ex Deorum** (requer **Ex Deorum** e o item <ItemImage id="iska_utils:silverfish_larva" /> **Larva de Traça** registrado — veja essa página):
 
 - Use uma larva num **barril do Ex Deorum** que contenha **água de bruxa** → **1** Gota de Entropia.
-- Infeste pedra com uma larva; uma **traça** parada em **água de bruxa** vira um **endermite** e pode largar entropia ao ser derrotada.
+- Infeste pedra com uma larva; uma **traça** parada em **água de bruxa** vira um **endermite** e pode derrubar entropia ao ser derrotada.
 
 </iska_utils:IfSilverfishLarva>
 
-A **Gota de Entropia** em si **não** é reciclável.
+A própria **Gota de Entropia** **não** é reciclável.

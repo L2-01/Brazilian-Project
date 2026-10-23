@@ -1,0 +1,51 @@
+---
+title: Refinaria
+id: oritech:refinery
+type: block
+custom:
+    Capacidade de RF: "50,000"
+    RF/t: "64"
+    Capacidade de fluido (principal): "64 baldes"
+    Capacidade de fluido (módulos): "4 baldes cada"
+    Núcleos necessários: "9"
+
+---
+A refinaria é usada para processar misturas de itens e fluidos. Ela tem uma entrada de itens,
+uma entrada de fluidos e várias opções de saída.
+
+<Callout variant="info">
+    Ah, o doce cheiro de destilação fracionada pela manhã! Nada diz "progresso" tão bem
+    quanto converter [petróleo](@oritech:still_oil_bucket) cru em produtos industriais úteis.
+    Preocupações ambientais? Isso é um problema para as gerações futuras resolverem!
+</Callout>
+
+<center>
+<ModAsset location="oritech:area/refinery" width={1000} />
+</center>
+
+---
+
+**Destilação Fracionada**
+
+A refinaria tem **1 entrada de itens** e **1 entrada de fluidos**, com **1 saída de itens**
+e **3 saídas de fluidos**.
+
+Por padrão, apenas o primeiro espaço de saída de fluido está ativo.
+Para ativar o segundo e o terceiro espaços de saída de fluido, você deve instalar
+[Módulos de Câmara da Refinaria](@oritech:refinery_chamber_module) em cima do
+bloco principal.
+Os fluidos do 2º e do 3º espaços devem ser extraídos diretamente
+desses módulos.
+
+**Mecânica de Rendimento**
+
+Se uma receita tiver mais saídas de fluido do que espaços disponíveis (ou módulos),
+a lógica interna reaproveita a capacidade não utilizada:
+- Se nenhum módulo estiver disponível, a primeira saída de fluido é dobrada.
+- Se apenas um módulo estiver disponível (2 saídas de fluido ativas), a quantidade da segunda saída
+de fluido é dobrada (se aplicável).
+
+<Callout variant="info">
+    A refinaria não tem espaços de complemento e não pode ser melhorada/acelerada diretamente. Porém, confira a [refinaria maculada](@oritech:tainted_refinery)
+    para uma variante potencialmente mais rápida e capaz.
+</Callout>

@@ -7,15 +7,15 @@
   "pages": [
     {
       "type": "text",
-      "text": "Todas as operações que alteram o mundo consumirão combustível da tartaruga (é claro, se você não desativar o uso de combustível na configuração do CC:Tweaked).$(p)Além disso, a maioria dessas operações tem tempos de recarga, então você deve considerar isso no seu código. Felizmente, cada recarga ativa pode ser obtida por meio de métodos do periférico."
+      "text": "Todas as operações que alteram o mundo consomem combustível da tartaruga (claro, a menos que você desative o uso de combustível na configuração do CC:Tweaked).$(p)Além disso, a maioria dessas operações tem recargas, então leve isso em conta no seu código. Felizmente, toda recarga ativa pode ser consultada por métodos do periférico."
     },
     {
       "type": "text",
-      "text": "Você acha que as recargas são longas demais? É aí que a taxa de consumo de combustível vem ajudar!$(p)Uma taxa maior de consumo de combustível reduzirá a recarga, mas obviamente aumentará o consumo de combustível. Por exemplo, se a operação de clique exigir 1 ponto de combustível para ser realizada e tiver uma recarga de 5 segundos, com consumo de combustível 2 você pode realizar a operação de clique uma vez a cada 2,5 segundos, mas ao custo de 2 pontos de combustível."
+      "text": "Acha que as recargas são longas demais? É aí que a taxa de consumo de combustível ajuda!$(p)Uma taxa de consumo maior reduz a recarga, mas obviamente aumenta o consumo de combustível. Por exemplo, se uma operação de clique exige 1 ponto de combustível e tem recarga de 5 segundos, com consumo de combustível 2 você pode fazer um clique a cada 2,5 segundos, ao custo de 2 pontos de combustível."
     },
     {
       "type": "text",
-      "text": "No entanto, a taxa de consumo de combustível não é tão simples! Cada núcleo de autômato tem uma limitação máxima de consumo de combustível, que pode ser obtida pelo método $(l)getConfiguration$().$(p)Além disso, os pontos de combustível crescerão mais rápido do que a recarga diminui. O consumo de combustível 3 exigirá 4 pontos de combustível, o consumo de combustível 4 exigirá ainda mais pontos de combustível, etc."
+      "text": "No entanto, a taxa de consumo de combustível não é tão simples! Todo núcleo de autômato tem um limite máximo de consumo, que pode ser consultado pelo método $(l)getConfiguration$().$(p)Além disso, o custo de combustível cresce mais rápido que a queda da recarga. Consumo de combustível 3 exige 4 pontos de combustível, consumo 4 exige mais pontos de combustível, e assim por diante."
     }
   ]
 }

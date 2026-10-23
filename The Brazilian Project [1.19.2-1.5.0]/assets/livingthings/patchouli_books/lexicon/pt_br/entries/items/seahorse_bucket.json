@@ -1,0 +1,15 @@
+{
+  "name": "Balde com Cavalo-Marinho",
+  "icon": "livingthings:seahorse_bucket",
+  "category": "livingthings:item_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(br)$(bold)Obtenção:$()$(br)clique com o botão direito num cavalo-marinho com um balde de água para capturá-lo num balde"
+    },
+    {
+      "type": "spotlight",
+      "item": "livingthings:seahorse_bucket"
+    }
+  ]
+}

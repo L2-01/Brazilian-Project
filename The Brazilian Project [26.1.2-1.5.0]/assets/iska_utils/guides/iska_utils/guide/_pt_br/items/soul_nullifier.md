@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:soul_nullifier
 categories:
-  - Mundo e máquinas
+  - World and machines
 ---
 # Anulador de Almas
 
@@ -15,19 +15,19 @@ categories:
 
 ## O que faz
 
-Bloco que **impede a geração de Lost Souls do Forbidden Arcanus** (variantes normal, corrupta e encantada) dentro de um **raio** cúbico ao seu redor em todos os eixos (definido na GUI). Requer o **Forbidden Arcanus** instalado.
+Bloco que **impede spawns de Lost Soul do Forbidden Arcanus** (variantes normal, corrompida e encantada) dentro de um **raio** cúbico ao seu redor em todos os eixos (definido na GUI). Requer o **Forbidden Arcanus** instalado.
 
 ## GUI
 
-Clique direito no bloco para abrir sua GUI de controle. Todos os controles funcionam como no [Anulador de Ender](ender_nullifier.md):
+Clique com o botão direito no bloco para abrir sua GUI de controle. Todos os controles funcionam igual ao [Anulador de Ender](ender_nullifier.md):
 
 - Controle de **Alcance** com botões **-** / **+**.
 - Botão de **Modo de Redstone** alternando entre Ignorar (pólvora), Baixo, Alto, Desativado.
-- **Shift + clique direito**: alterna a ativação manual sem abrir a GUI (retorno na barra de ação).
+- **Shift + clique direito**: alterna habilitar/desabilitar manual sem abrir a GUI (retorno na barra de ação).
 - Prévia de área **Mostrar / Ocultar**.
-- Espaço de **Módulo de Alcance** para aumentar o raio máximo. Veja **Módulos** → **Módulo de Alcance**.
+- Slot de **Módulo de Alcance** para aumentar o raio máximo. Veja **Módulos** → **Módulo de Alcance**.
 
 ## Dicas
 
 - Mesmo comportamento de posicionamento do [Anulador de Ender](ender_nullifier.md).
-- Começa **ativo** (modo Manual, manualmente habilitado) quando colocado.
+- Começa **ativo** (modo Manual, habilitado manualmente) ao ser colocado.

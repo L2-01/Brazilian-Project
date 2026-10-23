@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "O Fluidificador é uma máquina 3x3x3 (tamanho mínimo) construída com blocos de Revestimento e uma mistura das outras peças do dispositivo.$(br)Vidro pode ser usado no lugar de blocos de Revestimento em todas as faces da máquina (mas não na moldura).$(br2)Verifique a página de cada peça do Fluidificador para restrições de onde cada peça pode ser colocada."
+            "text": "O Fluidificador é uma máquina 3x3x3 (tamanho mínimo) construída com blocos de Revestimento e uma mistura das outras peças.$(br)O Vidro pode ser usado no lugar de blocos de Revestimento em todas as faces da máquina (mas não na estrutura).$(br2)Confira a página de cada peça do Fluidificador para ver as restrições de onde ela pode ser colocada."
         },
         {
             "type": "zcmultiblock",
-            "multiblock_id" : "bigreactors:bookfluidizer"
+            "multiblock_id": "bigreactors:bookfluidizer"
         }
     ]
 }

@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Esta melhoria só pode ser adicionada aos módulos $(l:modules/largper)Ejetor/$ e $(l:modules/flinger)Lançador/$.$(p)Pode ser empilhada; cada melhoria adicionada aumentará o atraso de coleta de itens largados/lançados em 10 tiques (0,5 s). Isso pode ser útil se você não quiser que jogadores coletem acidentalmente itens largados por perto, por exemplo."
+      "text": "Esta melhoria só pode ser adicionada aos módulos $(l:modules/dropper)Ejetor/$ e $(l:modules/flinger)Lançador/$.$(p)Pode ser empilhada; cada melhoria adicionada aumentará o atraso de coleta de itens soltos/lançados em 10 tiques (0,5 seg). Isso pode ser útil se você não quiser que jogadores coletem acidentalmente itens soltos próximos, por exemplo."
     },
     {
       "type": "crafting",

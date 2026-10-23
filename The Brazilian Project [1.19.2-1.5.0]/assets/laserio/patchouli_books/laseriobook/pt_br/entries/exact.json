@@ -1,0 +1,16 @@
+{
+  "name": "Exato",
+  "sortnum": 6,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/exacttrue.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Exato só está disponível nos Modos Extrator e de Estoque.$(br2)O modo exato garante que a quantidade exata de itens definida no campo 'Quantidade de Extração' seja extraída. Por exemplo, se a Quantidade de Extração estiver definida como 8 e houver apenas 5 itens num baú adjacente, o extrator não os removerá até que 8 estejam disponíveis."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O modo exato funciona de forma um pouco diferente para cartões de Modo de Estoque. Exato só permitirá que itens se movam se a quantidade necessária para cumprir o pedido de estoque OU a Quantidade de Extração estiver disponível na rede, o que for menor.$(br2)Por exemplo, se um cartão de estoque precisar de mais 13 itens e puder extrair 32 por vez, ele só extrairá se 13 itens estiverem disponíveis em algum lugar da rede."
+    }
+  ]
+}

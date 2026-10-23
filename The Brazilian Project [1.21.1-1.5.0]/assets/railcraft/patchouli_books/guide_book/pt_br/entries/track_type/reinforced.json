@@ -1,15 +1,15 @@
 {
-  "name": "Reforçado",
-  "icon": "railcraft:reinforced_track",
-  "category": "railcraft:track_type",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "O Trilho Reforçado tem algumas vantagens sobre o Tipo de Trilho de Ferro.$(li)Ele tem uma resistência a explosão maior. (45, suficiente para explosões de Dinamite)$(li)Também é 25% mais rápido que o tipo de trilho de ferro."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Comparado ao tipo de Trilho de A.V., ele é bem mais lento, e bem mais seguro.$(br2)No entanto, você deve colocar trilhos reforçados sobre blocos resistentes a explosão, já que o trilho sempre será largado assim que o bloco de sustentação for removido."
-    }
-  ]
+    "name": "Reforçado",
+    "icon": "railcraft:reinforced_track",
+    "category": "railcraft:track_type",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O Trilho Reforçado tem algumas vantagens sobre o Tipo de Trilho de Ferro.$(li)Ele tem resistência a explosões maior (45, suficiente para explosões de TNT).$(li)Também é 25% facilmente mais rápido que o tipo de trilho de ferro."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Comparado ao tipo de Trilho de Alta Velocidade, ele é bem mais lento e bem mais seguro.$(br2)Porém, você deve colocar trilhos reforçados sobre blocos resistentes a explosões, já que o trilho sempre será derrubado quando o bloco de suporte for removido."
+        }
+    ]
 }

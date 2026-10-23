@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "O $(item)Funil de Líquidos/$ é um dispositivo que você pode usar para transferir fluidos. Como o $(l:machines/omnidirectional_hopper)Funil Omnidirecional/$, sua entrada e saída podem apontar em qualquer direção e ele usa as mesmas regras de posicionamento e rotação. Você pode adicionar $(l:base_concepts/upgrades#speed)Melhorias de Velocidade/$ para aumentar a taxa de transferência."
+      "text": "O $(item)Funil de Líquidos/$ é um dispositivo que você pode usar para transferir fluidos. Como o $(l:machines/omnidirectional_hopper)Funil Omnidirecional/$, sua entrada e saída podem apontar em qualquer direção, e ele usa as mesmas regras de posicionamento e rotação. Você pode adicionar $(l:base_concepts/upgrades#speed)Melhorias de Velocidade/$ para aumentar a taxa de transferência."
     },
     {
       "type": "spotlight",
@@ -21,7 +21,7 @@
     },
     {
       "type": "crafting",
-      "text": "Fabricando um Funil de Líquidos",
+      "text": "Fabricando Funil de Líquidos",
       "recipe": "pneumaticcraft:liquid_hopper"
     }
   ]

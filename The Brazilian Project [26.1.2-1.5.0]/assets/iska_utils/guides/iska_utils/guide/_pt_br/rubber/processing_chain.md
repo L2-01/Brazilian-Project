@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:rubber_chunk
 categories:
-  - Borracha e processamento
+  - Rubber and processing
 ---
 # Cadeia de processamento
 
@@ -15,12 +15,12 @@ categories:
 
 ## Da seiva à borracha
 
-- A seiva é processada em borracha e materiais relacionados através da progressão da borracha.
+- A seiva é processada em borracha e materiais relacionados através da progressão de borracha.
 
 ## Saídas comuns
 
-- **Borracha**: ingrediente central usado para ferramentas/armaduras/plástico.
-- **Lingote de Plástico**: usado em componentes de nível mais alto.
+- **Borracha**: ingrediente central usado para ferramentas/armadura/plástico.
+- **Lingote de Plástico**: usado em componentes de nível maior.
 - **Lodo Verde** / **Bola de Slime de Piche**: intermediários relacionados.
 
 <ItemGrid>

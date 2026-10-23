@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Vincular a um inventário permite que você interaja com aquele inventário para extrair/inserir itens.  Primeiro, ative o modo 'vincular inventário' no menu de configurações do seu dispositivo. Depois Shift+clique direito num baú ou outro inventário. $(br2)Uma caixa azul ao redor do inventário indicará o seu sucesso. Shift+clique direito num bloco que não seja inventário (como grama) para desconectar."
+      "text": "Vincular a um inventário permite interagir com ele para extrair/inserir itens. Primeiro, ative o modo 'vincular inventário' no menu de configurações do seu dispositivo. Em seguida, pressione Shift + clique com o botão direito num baú ou outro inventário. $(br2)Uma caixa azul ao redor do inventário indicará o sucesso. Pressione Shift + clique com o botão direito num bloco que não seja inventário (como grama) para desconectar."
     },
     {
       "type": "patchouli:image",
@@ -15,11 +15,11 @@
         "buildinggadgets2:textures/book/images/bindinv.png"
       ],
       "border": true,
-      "text": "Vinculando a um Baú!"
+      "text": "Vinculando a um baú!"
     },
     {
       "type": "patchouli:text",
-      "text": "Você também pode vincular a um Sistema do Applied Energistics 2 conectando-se ao ponto de acesso sem fio daquele sistema.  $(br2)O dispositivo terá alcance ilimitado, então não precisa se preocupar com melhorias de alcance!"
+      "text": "Você também pode vincular a um sistema do Applied Energistics 2 conectando-se ao ponto de acesso sem fio desse sistema. $(br2)O dispositivo terá alcance ilimitado, então não é preciso se preocupar com melhorias de alcance!"
     },
     {
       "type": "patchouli:image",

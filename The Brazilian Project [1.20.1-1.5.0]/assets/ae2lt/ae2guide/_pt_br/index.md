@@ -12,7 +12,7 @@ Recursos principais:
 
 * Colete raios naturais ou gerados por máquina como **energia de Raios** e armazene-a na sua rede ME junto com itens e fluidos
 * Use Raios para alimentar máquinas de processamento avançadas que produzem Liga de Sobrecarga, Processadores de Sobrecarga, a Matriz de Colapso de Raios e outros materiais novos
-* Expanda a capacidade de canais e o alcance da sua rede ME com o Controlador ME de Sobrecarga, o Cabo de Sobrecarga, o Fornecedor de Padrões de Sobrecarga e a Interface ME de Sobrecarga
+* Expanda a capacidade de canais e o alcance da sua rede ME com o Controlador ME de Sobrecarga, o Cabo de Sobrecarga, o Fornecedor de Padrões ME de Sobrecarga e a Interface ME de Sobrecarga
 
 ## Sumário
 

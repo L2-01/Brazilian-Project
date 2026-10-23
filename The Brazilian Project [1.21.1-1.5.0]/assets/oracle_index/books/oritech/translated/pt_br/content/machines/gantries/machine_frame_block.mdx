@@ -1,0 +1,32 @@
+---
+title: Estrutura de Máquina
+id: oritech:machine_frame_block
+type: block
+custom:
+    Comprimento máx. da estrutura: "64 blocos"
+---
+
+A Estrutura de Máquina é a base estrutural das máquinas
+industriais maiores do Oritech.
+Ela funciona como um chassi base para vários multiblocos complexos.
+
+<center>
+<ModAsset location="oritech:area/machine_frame" width={512} />
+</center>
+
+Uma estrutura de máquina é sempre construída como um retângulo, com uma ou mais máquinas de pórtico acopladas a ela. Os blocos internos da estrutura devem ficar vazios.
+
+---
+
+**Aplicações**
+
+Ela é necessária para construir as seguintes máquinas:
+- **[Bloco Destruidor](@oritech:destroyer_block)**
+- **[Bloco Colocador](@oritech:placer_block)**
+- **[Bloco Fertilizador](@oritech:fertilizer_block)**
+
+As máquinas sempre miram nos blocos abaixo da estrutura, e podem ser acopladas em qualquer ponto dela, incluindo os cantos.
+
+Várias máquinas compatíveis podem operar na mesma estrutura. Elas iteram pela área da estrutura em vez de exigir uma estrutura dedicada cada uma.
+
+A maioria das máquinas baseadas em estrutura pode usar o conjunto usual de complementos, e os complementos de velocidade melhoram tanto a velocidade de movimento quanto a de trabalho.

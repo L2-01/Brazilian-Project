@@ -1,19 +1,19 @@
 {
-  "name": "Widget de Condição de Drone: Melhorias",
+  "name": "Widget de Condição do Drone: Melhorias",
   "icon": "pneumaticcraft:textures/progwidgets/condition_drone_upgrades_piece.png",
   "category": "pneumaticcraft:widget_cond",
   "advancement": "pneumaticcraft:programmer",
   "pages": [
     {
       "type": "text",
-      "text": "O widget $(thing)Condição de Drone: Melhorias/$ permite verificar o número de melhorias instaladas neste $(l:tools/drone)Drone/$. Especifique a(s) melhoria(s) a verificar usando um ou mais widgets $(l:programming/item_filter)Filtro de Item/$ anexados, definidos para o(s) item(ns) de melhoria a verificar; sem nenhum filtro, todas as melhorias instaladas de todos os tipos serão contadas."
+      "text": "O widget $(thing)Condição de Drone: Melhorias/$ permite verificar o número de melhorias instaladas neste $(l:tools/drone)Drone/$. Especifique a(s) melhoria(s) a ser(em) verificada(s) usando um ou mais widgets de $(l:programming/item_filter)Filtro de Item/$ conectados, configurados para o(s) item(ns) de melhoria a verificar; sem nenhum filtro, todas as melhorias instaladas de todos os tipos serão contadas."
     },
     {
       "type": "image",
       "images": [
         "pneumaticcraft:textures/progwidgets/condition_drone_upgrades_piece.png"
       ],
-      "text": "$(italic)Widget de Condição de Drone: Melhorias/$"
+      "text": "$(italic)Widget de Condição do Drone: Melhorias/$"
     }
   ]
 }

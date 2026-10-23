@@ -1,0 +1,45 @@
+{
+    "name": "Gemas",
+    "icon": "apotheosis:gem",
+    "category": "apotheosis:adventure/affix_loot",
+    "flag": "apotheosis:adventure",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Uma $(9)Gema$() é um cristal de força condensada.$(p)Quando encaixada em um item de afixo, a Gema fornece um bônus poderoso.$(p)As Gemas podem dar bônus diferentes em itens diferentes e podem ser aprimoradas."
+        },
+        {
+            "title": "Raridade",
+            "type": "patchouli:text",
+            "text": "Assim como um Item de Afixo, cada gema tem uma $(l:apotheosis:adventure/affix_loot/rarities)Raridade$(). A raridade sozinha determina a força da gema, e gemas de raridade maior custam mais para aprimorar.$(p)As Gemas não podem ser aprimoradas além da raridade Ancestral."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Obtendo Gemas",
+            "text": "As Gemas podem ser encontradas em espólios de baús e raramente ao matar criaturas. Porém, para uma gema ser largada, quem mata deve ser um jogador de verdade, não uma máquina ou outra fonte de automação.$(p)As Gemas têm mais chance de serem largadas por Chefes."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Encaixando Gemas",
+            "text": "Para encaixar uma gema em um item, combine os dois em uma Bancada de Ferraria.$(p)Cada gema indica em quais itens pode ser encaixada.$(p)Algumas gemas são $(#C73912)Únicas$(), ou seja, apenas uma cópia dela pode ser encaixada em um item."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Removendo Gemas",
+            "text": "Remover gemas de um item era um processo difícil, mas alguns alquimistas espertos descobriram como fazer.$(p)As anotações deles estão detalhadas nas próximas páginas."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:vial_of_expulsion",
+            "title": "Expulsão Ardente",
+            "text": "Combine um item encaixado com um $(9)Frasco de Expulsão Ardente$() em uma bancada de ferraria para remover as gemas, destruindo-as no processo."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:vial_of_extraction",
+            "title": "Extração Arcana",
+            "text": "Combine um item encaixado com um $(9)Frasco de Extração Arcana$() em uma bancada de ferraria para recuperar as gemas, destruindo o item no processo."
+        }
+    ]
+}

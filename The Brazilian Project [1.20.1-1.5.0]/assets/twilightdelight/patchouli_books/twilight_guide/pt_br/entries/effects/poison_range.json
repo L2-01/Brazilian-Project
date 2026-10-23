@@ -3,14 +3,14 @@
   "icon": "twilightforest:steeleaf_ingot",
   "category": "twilightdelight:effects",
   "pages": [
-	{
-	  "type": "patchouli:text",
-	  "text": "Este efeito protege o jogador do efeito de Veneno e aplica Veneno a todos os inimigos ao seu redor, infligindo dano muito mais rápido que o veneno normal.$(br2)O alcance do efeito é marcado com partículas verdes."
-	},
-	{
-	  "type": "patchouli:spotlight",
-	  "item": "twilightforest:steeleaf_ingot",
-	  "text": "Obtível a partir de bebidas e sobremesas feitas de Folha de Aço."
-	}
+    {
+      "type": "patchouli:text",
+      "text": "Este efeito protegerá o jogador do efeito Veneno e aplicará Veneno a todos os inimigos ao redor. Ele infligirá dano muito mais rápido que o veneno normal.$(br2)O alcance do efeito é marcado com partículas verdes."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightforest:steeleaf_ingot",
+      "text": "Obtido de bebidas e sobremesas feitas com Folha de Aço."
+    }
   ]
 }

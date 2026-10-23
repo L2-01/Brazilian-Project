@@ -5,7 +5,7 @@ navigation:
   parent: little_big_redstone:logic.md
   position: 24
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:calculator
 ---
@@ -14,14 +14,14 @@ item_ids:
 
 <FloatingColumn width="100" align="right">
 	### Analógico
-	O sinal de saída do calculador será igual ao valor total calculado de todas as entradas. O sinal não excederá
-	a faixa de 0 a 15.
+	O sinal de saída do calculador será igual ao valor total calculado de todas as entradas. O sinal não excederá a
+	faixa de 0 a 15.
 </FloatingColumn>
 
 <Recipe id="little_big_redstone:logic/calculator" />
 
-O calculador pode receber de 2 a 10 entradas. Os sinais de entrada serão somados ou subtraídos dependendo do
-modo selecionado. O sinal de saída é então o resultado total calculado das entradas.
+O calculador pode receber de 2 a 10 entradas. Os sinais de entrada serão somados ou subtraídos dependendo do modo
+selecionado. O sinal de saída é então o resultado total calculado das entradas.
 
 <Row>
 	<Column>
@@ -75,7 +75,7 @@ modo selecionado. O sinal de saída é então o resultado total calculado das en
 	</Column>
 </Row>
 
-Note que a ordem das entradas é levada em conta. Isso significa que no modo de subtração, se você tiver um valor
-menor primeiro e um valor maior depois, a saída será 0. Isso acontece porque o sinal não pode ficar negativo. Por
-exemplo, num calculador no modo de subtração, se a entrada A for 5 e a entrada B for 10, o valor calculado seria -5.
-Porém, o sinal de saída seria 0, e portanto desligado.
+Note que a ordem das entradas é levada em conta. Isso significa que, no modo de subtração, se você tiver um valor
+menor primeiro e um valor maior depois, a saída será 0. Isso porque o sinal não pode ficar negativo. Por exemplo,
+num calculador em modo de subtração, se a entrada A for 5 e a entrada B for 10, o valor calculado seria -5. No
+entanto, o sinal de saída seria 0, e portanto desligado.

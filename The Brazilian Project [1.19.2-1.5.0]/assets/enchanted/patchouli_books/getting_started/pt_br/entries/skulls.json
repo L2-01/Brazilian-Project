@@ -1,0 +1,26 @@
+{
+  "name": "Aprimoramentos de Crânio",
+  "icon": "enchanted:chalice_filled",
+  "category": "enchanted:altars",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Crânios podem aumentar tanto a capacidade quanto a taxa de recarga de um altar, com eficácia variada. $(br2)$(bold)Esqueleto$() +1x de Capacidade de Poder +1x de Taxa de Recarga$(br)$(bold)Wither$() +2x de Capacidade de Poder +2x de Taxa de Recarga$(br)$(bold)Jogador$() +2.5x de Capacidade de Poder +3x de Taxa de Recarga"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "minecraft:skeleton_skull"
+        },
+        "pattern": [
+          [
+            " 0 "
+          ]
+        ]
+      }
+    }
+  ],
+  "read_by_default": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Canal",
+  "sortnum": 4,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/blankbutton.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cartões só podem interagir com outros cartões que estejam no mesmo canal. Isso permite ao jogador ter múltiplos conjuntos de lógica de roteamento na mesma rede.$(br2)Por exemplo, cartões Extratores no canal 'Laranja' só tentarão inserir em Cartões de Inserção de cor 'Laranja', e ignorarão todos os outros cartões."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Por exemplo, defina um Cartão Extrator para o 'Canal Laranja' com um filtro de pedregulho, e outro cartão extrator para o 'Canal Preto' com um filtro de carvão. Depois coloque-os no mesmo nó. $(br2)Um inseridor de canal laranja pode ficar acima de uma fornalha, com um inseridor de canal preto abaixo. Isso garantirá que apenas pedregulho entre no topo da fornalha, enquanto o carvão vai para baixo."
+    }
+  ]
+}

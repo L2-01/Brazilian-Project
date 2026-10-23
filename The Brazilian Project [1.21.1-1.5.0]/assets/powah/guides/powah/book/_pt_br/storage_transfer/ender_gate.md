@@ -18,11 +18,11 @@ item_ids:
 
 ![](./ender_gate.png)
 
-Transfira energia entre o bloco adjacente e a rede Ender. 
+Transfere energia entre o bloco adjacente e a rede ender. 
 
 Diferente da Célula do Ender, você não pode melhorar a rede a partir dele. 
 
-|                                             | E/S Máximo                                           |
+|                                             | E/S Máx.                                              |
 | ------------------------------------------- | ---------------------------------------------------- |
 | <ItemLink id="powah:ender_gate_starter" />  | <powah:EnergyMaxIO id="powah:ender_gate_starter" />  |
 | <ItemLink id="powah:ender_gate_basic" />    | <powah:EnergyMaxIO id="powah:ender_gate_basic" />    |

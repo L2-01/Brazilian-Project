@@ -1,14 +1,14 @@
 {
-	"name": "PackagedAvaritia",
-	"category": "packagedauto:recipe",
-	"icon": "packagedavaritia:extreme_crafter",
-	"pages": [
-		{
-			"type": "patchouli:text",
-			"text": "O $(#822)PackagedAvaritia/$ adiciona tipos de receita para as receitas do $(#822)Avaritia/$ ao $(#822)PackagedAuto/$."
-		}
-	],
-	"read_by_default": true,
-	"sortnum": 1500,
-	"entry_color": "882222"
+    "name": "PackagedAvaritia",
+    "category": "packagedauto:recipe",
+    "icon": "packagedavaritia:extreme_crafter",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(#822)PackagedAvaritia/$ adiciona tipos de receita para receitas do $(#822)Avaritia/$ ao $(#822)PackagedAuto/$."
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 1500,
+    "entry_color": "882222"
 }

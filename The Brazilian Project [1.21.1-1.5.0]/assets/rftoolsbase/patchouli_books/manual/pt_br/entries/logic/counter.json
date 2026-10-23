@@ -8,13 +8,13 @@
   "pages": [
     {
       "type": "text",
-      "text": "O contador é um bloco simples que conta pulsos de redstone e emite um sinal de redstone ao atingir um determinado número. Depois ele recomeça. $(br2)Sua interface tem dois valores - 'Contador' (o número máximo até onde ele pode contar) e 'Atual' (o número em que ele está no momento)."
+      "text": "O contador é um bloco simples que conta pulsos de redstone e emite um sinal de redstone quando atinge um certo número. Então recomeça. $(br2)Sua GUI tem dois valores — 'Contador' (o número máximo até onde ele pode contar) e 'Atual' (o número em que está atualmente)."
     },
     {
       "type": "crafting",
       "heading": "Contador",
       "recipe": "rftoolsutility:counter",
-      "text": "Quando Atual é igual a Contador, ele emite um sinal de redstone. Outro pulso de redstone desliga o sinal e reinicia o Contador para 0."
+      "text": "Quando Atual for igual a Contador, ele emite um sinal de redstone. Outro pulso de redstone desligará o sinal e reiniciará o Contador para 0."
     }
   ]
 }

@@ -1,39 +1,39 @@
 {
-    "name": "Gemas",
-    "icon": "apotheosis:gem",
-    "category": "apotheosis:adventure/gems",
-    "flag": "apotheosis:adventure",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Uma $(9)Gema$() é um cristal de força condensada.$(p)Quando encaixada num item com afixo, uma Gema fornece um bônus poderoso.$(p)Gemas podem dar bônus diferentes em itens diferentes e podem ser melhoradas."
-        },
-        {
-            "title": "Pureza",
-            "type": "patchouli:text",
-            "text": "Cada gema tem uma Pureza, variando de $(#808080)Rachada$() a $(6)Perfeita$().$(p)A pureza sozinha determina a força da gema, e gemas de pureza maior são mais caras de melhorar.$(p)Uma Gema $(6)Perfeita$() não pode mais ser melhorada."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Obtendo Gemas",
-            "text": "Gemas podem ser encontradas em espólios de baús e raramente ao matar criaturas. Gotas de gemas são mais comuns para jogadores reais, mas têm uma chance muito pequena de cair de máquinas ou outras fontes de automação.$(p)Gemas têm mais chance de cair de Chefes."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Encaixando Gemas",
-            "text": "Para encaixar uma gema num item, combine os dois numa Bancada de Ferraria, ou pegue a gema e clique com o botão direito nela sobre o item em qualquer inventário.$(p)Cada gema indica em quais itens ela pode ser encaixada.$(p)Algumas gemas são $(#C73912)Únicas$(), o que significa que apenas uma cópia dessa gema pode ser encaixada num item."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Removendo Gemas",
-            "text": "Remover gemas de um item era um processo difícil, mas alguns alquimistas espertos descobriram como fazer.$(p)Suas anotações estão detalhadas na próxima página."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "apotheosis:sigil_of_withdrawal",
-            "title": "Sigilo de Retirada",
-            "text": "Combine um item com engaste e um $(9)Sigilo de Retirada$() numa bancada de ferraria para remover as gemas encaixadas de um item. O item e todas as gemas serão devolvidos."
-        }
-    ]
+	"name": "Gemas",
+	"icon": "apotheosis:gem",
+	"category": "apotheosis:adventure/gems",
+	"flag": "apotheosis:adventure",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Uma $(9)Gema$() é um cristal de força condensada.$(p)Quando encaixada em um item de afixo, a Gema fornece um bônus poderoso.$(p)As Gemas podem dar bônus diferentes em itens diferentes e podem ser aprimoradas."
+		},
+		{
+			"title": "Pureza",
+			"type": "patchouli:text",
+			"text": "Cada gema tem uma Pureza, indo de $(#808080)Rachada$() a $(6)Perfeita$().$(p)A pureza sozinha determina a força da gema, e gemas de pureza maior são mais caras de aprimorar.$(p)Uma Gema $(6)Perfeita$() não pode mais ser aprimorada."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Obtendo Gemas",
+			"text": "Gemas podem ser encontradas em espólios de baú e raramente ao matar criaturas. Drops de gema são mais comuns para jogadores reais, mas têm uma chance muito pequena de cair de máquinas ou outras fontes de automação.$(p)Gemas têm mais chance de cair de Chefes."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Encaixando Gemas",
+			"text": "Para encaixar uma gema em um item, combine os dois em uma Bancada de Ferraria, ou pegue a gema e clique com o botão direito nela sobre o item em qualquer inventário.$(p)Cada gema indica em quais itens ela pode ser encaixada.$(p)Algumas gemas são $(#C73912)Únicas$(), o que significa que apenas uma cópia daquela gema pode ser encaixada em um item."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Removendo Gemas",
+			"text": "Remover gemas de um item era um processo difícil, mas alguns alquimistas espertos descobriram como fazê-lo.$(p)Suas anotações estão detalhadas na próxima página."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "apotheosis:sigil_of_withdrawal",
+			"title": "Sigilo de Retirada",
+			"text": "Combine um item encaixado com um $(9)Sigilo de Retirada$() numa bancada de ferraria para remover as gemas encaixadas do item. O item e todas as gemas serão devolvidos."
+		}
+	]
 }

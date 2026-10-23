@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Quando as $(l:bigreactors:turbine/coils)Bobinas Indutoras$(/l) estão $(l:bigreactors:turbine/part-controller)engatadas$(/l), energia é gerada dependendo da velocidade do $(l:bigreactors:turbine/rotor)Rotor$(/l) e dos valores médios de propriedades como eficiência e quantidade de arrasto de todos os seus blocos de bobina.$(br2)$(italic)Note que, embora seja próximo o suficiente para permitir criar as melhores Turbinas possíveis, isso é uma simplificação exagerada do que realmente acontece dentro da sua Turbina.$() "
+            "text": "Quando as $(l:bigreactors:turbine/coils)Bobinas de Indução$(/l) estão $(l:bigreactors:turbine/part-controller)ativadas$(/l), energia é gerada dependendo da velocidade do $(l:bigreactors:turbine/rotor)Rotor$(/l) e dos valores médios de propriedades como eficiência e arrasto de todos os seus blocos de bobina.$(br2)$(italic)Note que, embora seja próximo o bastante para permitir criar as melhores Turbinas possíveis, isto é uma simplificação excessiva do que realmente acontece dentro da sua Turbina.$() "
         }
     ]
 }

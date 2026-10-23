@@ -1,0 +1,49 @@
+---
+title: Melhorias de Velocidade
+id:
+  - excessive_utilities:speed_upgrade
+  - excessive_utilities:speed_upgrade_magical
+  - excessive_utilities:speed_upgrade_ultimate
+icon: excessive_utilities:item/speed_upgrade
+type: item
+infobox:
+  title: Melhorias de Velocidade
+  tabs:
+    - name: Melhorias de Velocidade
+      display:
+        - excessive_utilities:item/speed_upgrade
+        - excessive_utilities:item/speed_upgrade_magical
+        - excessive_utilities:item/speed_upgrade_ultimate
+---
+
+**Melhorias de Velocidade** podem ser colocadas em certas máquinas para deixá-las mais rápidas. Cada Melhoria na pilha faz a máquina rodar uma vez adicional a cada tique.
+
+Cada nível de Melhoria pode ser empilhado mais alto que o anterior:
+- **Melhoria de Velocidade**: até 4
+- **Melhoria de Velocidade (Mágica)**: até 16
+- **Melhoria de Velocidade (Suprema)**: até 64
+
+Melhorias de Velocidade custam [Força da Rede]($players/grid_power) para funcionar. A quantidade de GP exigida depende do tamanho da pilha.
+
+A função padrão é:
+
+```kt
+stackSize * (122 + 4 * stackSize) / 126.0
+```
+
+Então uma pilha cheia de cada nível exigiria:
+- 4 Melhorias de Velocidade: 4,38 GP
+- 16 Melhorias de Velocidade (Mágica): 23,62 GP
+- 64 Melhorias de Velocidade (Suprema): 192 GP
+
+## Configuração
+
+A configuração do servidor tem uma opção `speedUpgradeGpCostMultiplier` que multiplica o custo de GP das Melhorias de Velocidade. Defini-la como 0 torna o uso gratuito.
+
+Além disso, você pode modificar a própria fórmula com [KubeJS]($devs/kubejs).
+
+## Receitas
+
+<ProjectRecipe id="excessive_utilities:speed_upgrade" />
+<ProjectRecipe id="excessive_utilities:speed_upgrade_magical" />
+<ProjectRecipe id="excessive_utilities:speed_upgrade_ultimate" />

@@ -9,31 +9,31 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:reinforced_turbineredstoneport",
             "link_recipe": true,
-            "title" : "Porta de Redstone",
-            "text": "A Porta de Redstone permite automatizar sua Turbina usando redstone.$(br2)Abra a interface gráfica da Porta para configurá-la. Você pode então escolher entre três configurações de entrada (que escutam um sinal de redstone) e quatro de saída (que emitem um sinal de redstone)."
+            "title": "Porta de Redstone",
+            "text": "A Porta de Redstone permite automatizar sua Turbina usando Redstone.$(br2)Abra a interface gráfica da Porta para configurá-la. Você pode então escolher entre três configurações de entrada (que escutam um sinal de Redstone) e quatro de saída (que emitem um sinal de Redstone)."
         },
         {
             "type": "patchouli:text",
-            "text": "$(bold)Configurações de entrada$()$(br2)Executa uma das seguintes ações quando um sinal de redstone é recebido$(br2)$(li)$(o)Ligar / Desligar:$() liga ou desliga a Turbina dependendo do sinal recebido$(li)$(o)Bobinas Indutoras:$() engata ou desengata as bobinas indutoras$(li)$(o)Taxa de Fluxo:$() altera a taxa máxima de fluxo de vapor dentro da Turbina."
+            "text": "$(bold)Configurações de entrada$()$(br2)Executa uma das seguintes ações quando um sinal de Redstone é recebido$(br2)$(li)$(o)Ligar / Desligar :$() liga ou desliga a Turbina dependendo do sinal recebido$(li)$(o)Bobinas de Indução :$() ativa ou desativa as bobinas de indução$(li)$(o)Taxa de Fluxo :$() altera a taxa máxima de fluxo de vapor dentro da Turbina."
         },
         {
             "type": "patchouli:text",
-            "text": "$(bold)Configurações de saída$()$(br2)Emite um sinal de redstone quando uma das seguintes condições é atendida$(br2)$(li)$(o)Velocidade do Rotor:$() a velocidade do rotor da Turbina está acima, abaixo ou entre um valor definido$(li)$(o)Quantidade de refrigerante:$() a quantidade de refrigerante na Turbina está acima, abaixo ou entre um valor definido$(li)$(o)Quantidade de vapor:$() a quantidade de vapor na Turbina está acima, abaixo ou entre um valor definido"
+            "text": "$(bold)Configurações de saída$()$(br2)Emite um sinal de Redstone quando uma das seguintes condições é atendida$(br2)$(li)$(o)Velocidade do Rotor :$() a velocidade do rotor da Turbina está acima, abaixo ou dentro de um dado valor$(li)$(o)Quantidade de refrigerante :$() a quantidade de refrigerante na Turbina está acima, abaixo ou dentro de um dado valor$(li)$(o)Quantidade de vapor :$() a quantidade de vapor na Turbina está acima, abaixo ou dentro de um dado valor"
         },
         {
             "type": "patchouli:text",
-            "text": "$(li)$(o)Energia Armazenada:$() a quantidade de energia armazenada no buffer interno está acima, abaixo ou entre um valor definido.$(br2)Você geralmente vai precisar de duas ou mais Portas de Redstone para automatizar totalmente uma Turbina.$(br2)Para automações mais complexas, verifique a $(l:bigreactors:turbine/part-computerport)Porta de Computador$(/l)."
+            "text": "$(li)$(o)Energia Armazenada :$() a quantidade de energia armazenada no buffer interno de energia está acima, abaixo ou dentro de um dado valor.$(br2)Você geralmente precisará de duas ou mais Portas de Redstone para automatizar totalmente uma Turbina.$(br2)Para automações mais complexas, veja a $(l:bigreactors:turbine/part-computerport)Porta de Computador$(/l)."
         },
         {
             "type": "bigreactors:crafting1x",
-            "title1": "Basic",
+            "title1": "Básico",
             "recipe1": "bigreactors:turbine/basic/redstoneport",
-            "title2": "Reinforced",
+            "title2": "Reforçado",
             "recipe2": "bigreactors:turbine/reinforced/redstoneport"
         },
         {
             "type": "bigreactors:part_usage",
-            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim"
+            "text": "$(l)Obrigatória:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim"
         }
     ]
 }

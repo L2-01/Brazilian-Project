@@ -10,9 +10,9 @@ item_ids:
 
 # Cartão de Ligação
 
-Cartão de Ligação usado para vincular um jogador a um Transmissor de Jogador na mesma dimensão. 
+O Cartão de Ligação é usado para vincular um jogador a um Transmissor de Jogador na mesma dimensão. 
 
-Você precisa vinculá-lo a você antes de adicioná-lo ao Transmissor de Jogador. Clique com o botão direito para vinculá-lo. 
+Você precisa vinculá-lo a si mesmo antes de adicioná-lo ao transmissor de jogador; clique com o botão direito para vincular. 
 
 <Row>
 <RecipesFor id="powah:binding_card" />

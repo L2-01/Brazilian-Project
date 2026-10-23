@@ -1,17 +1,17 @@
 {
-    "name": "Geradores de Criaturas",
-    "icon": "minecraft:spawner",
-    "category": "apotheosis:spawner/spawner",
-    "flag": "apotheosis:spawner",
-    "sortnum": -1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Um $(9)Gerador de Criaturas$() é um bloco mágico que pode canalizar entidades do vazio.$(p)Mas você já sabia disso, então vamos ao que interessa.$(p)Com o Apothic Spawners, geradores podem ser coletados com $(9)Toque Suave$()."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Colher um gerador dessa forma terá um custo adicional de durabilidade.$(p)Geradores de criaturas têm uma série de $(l:apotheosis:spawner/stats)Atributos de Gerador$() que controlam seu funcionamento.$(p)Esses atributos podem ser mudados usando $(l:apotheosis:spawner/runes)Runas de Gerador$()."
-        }
-    ]
+	"name": "Geradores de Criaturas",
+	"icon": "minecraft:spawner",
+	"category": "apotheosis:spawner/spawner",
+	"flag": "apotheosis:spawner",
+	"sortnum": -1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Um $(9)Gerador de Criaturas$() é um bloco mágico que pode canalizar entidades do vazio.$(p)Mas você já sabia disso, então vamos ao que há de novo.$(p)Com o Apothic Spawners, geradores podem ser recolhidos com $(9)Toque de Seda$()."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Recolher um gerador dessa forma incorrerá em um custo adicional de durabilidade.$(p)Geradores de criaturas têm uma série de $(l:apotheosis:spawner/stats)Atributos de Gerador$() que controlam seu funcionamento.$(p)Esses atributos podem ser alterados usando $(l:apotheosis:spawner/runes)Runas de Gerador$()."
+		}
+	]
 }

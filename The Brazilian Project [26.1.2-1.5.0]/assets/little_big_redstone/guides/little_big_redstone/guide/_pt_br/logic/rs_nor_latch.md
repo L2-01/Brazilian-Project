@@ -3,9 +3,9 @@ navigation:
   title: "Trava RS NOR"
   icon: "rs_nor_latch"
   parent: little_big_redstone:logic.md
-  position: 24
+  position: 26
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:rs_nor_latch
 ---
@@ -13,7 +13,10 @@ item_ids:
 # Trava RS NOR
 
 <FloatingColumn width="100" align="right">
-	### Tabela-verdade
+	### Analógico
+	As Travas RS NOR produzem um valor de sinal de saída igual ao valor do sinal de entrada que a colocou em LIGADO.
+
+	### Tabela-Verdade
 	<TruthTable inputs="2" outputs="1">
 		<TruthState input="0,0" output="0" />
 		<TruthState input="0,1" output="0" />
@@ -36,16 +39,17 @@ item_ids:
 	</Column>
 </Row>
 
-A trava RS NOR, também conhecida como trava NOR de reset-set, é um componente lógico que tem 2 entradas e 1 saída.
+A trava rs nor, também conhecida como trava reset-set nor, é um componente lógico que tem 2 entradas e 1 saída.
 
-A Entrada A, ou o que também é referida como a entrada Set (Definir), quando LIGADA, definirá a saída como LIGADA e ela permanecerá LIGADA mesmo
-depois que A for desligada. Quaisquer outras entradas LIGADAS em A não alterarão a saída, desde que a saída ainda esteja LIGADA.
+A entrada A, também chamada de entrada Set, quando LIGADA coloca a saída em LIGADO e ela permanece LIGADA mesmo
+depois que A for DESLIGADA. Quaisquer outras entradas LIGADAS em A não mudarão a saída, enquanto a saída ainda
+estiver LIGADA.
 
-A Entrada B, também conhecida como entrada Reset (Reiniciar), quando LIGADA, definirá a saída como DESLIGADA e ela permanecerá DESLIGADA mesmo depois que B for
-desligada - assumindo que A também esteja DESLIGADA. Quaisquer outras entradas LIGADAS em B não alterarão a saída, desde que a
-saída ainda esteja DESLIGADA.
+A entrada B, também conhecida como entrada Reset, quando LIGADA coloca a saída em DESLIGADO e ela permanece
+DESLIGADA mesmo depois que B for DESLIGADA — supondo que A também esteja DESLIGADA. Quaisquer outras entradas
+LIGADAS em B não mudarão a saída, enquanto a saída ainda estiver DESLIGADA.
 
-Quando A e B estão ambas LIGADAS, o estado de saída é DESLIGADO.
+Quando A e B estão ambas LIGADAS, o estado da saída é DESLIGADO.
 
 <Row>
 	<Column>
@@ -105,9 +109,9 @@ Quando A e B estão ambas LIGADAS, o estado de saída é DESLIGADO.
 			<Logic name="rs_nor_latch" x="32" y="4" type="rs_nor_latch" />
 			<Logic name="output" x="64" y="4" type="io" data="{config:{input:false,direction:'south',signal_strength:15}}" hide={true} />
 		
-			<Wire from="a" fromPort="0" to="rs_nor_latch" to="0" />
-			<Wire from="b" fromPort="0" to="rs_nor_latch" to="1" />
-			<Wire from="rs_nor_latch" fromPort="0" to="output" to="0" />
+			<Wire from="a" fromPort="0" to="rs_nor_latch" toPort="0" />
+			<Wire from="b" fromPort="0" to="rs_nor_latch" toPort="1" />
+			<Wire from="rs_nor_latch" fromPort="0" to="output" toPort="0" />
 		
 			<RedstoneSignal step="0" direction="east" strength="15" />
 			<RedstoneSignal step="0" direction="west" strength="15" />

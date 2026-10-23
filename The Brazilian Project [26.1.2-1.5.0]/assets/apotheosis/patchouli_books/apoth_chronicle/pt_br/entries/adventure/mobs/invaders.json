@@ -1,33 +1,33 @@
 {
-    "name": "Invasores Apóticos",
-    "icon": "minecraft:beacon",
-    "category": "apotheosis:adventure/mobs",
-    "flag": "apotheosis:adventure",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Um barulho estranho, uma mensagem peculiar e um gigante feixe de luz vindo do céu...$(p)Todos os sinais apontam para uma incursão de um Invasor Apótico!"
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Mecânica de Geração",
-            "text": "Invasores substituem uma pequena fração das gerações naturais de monstros. Na Superfície, aparecem na superfície ou perto da sua profundidade subterrânea; no Nether, em qualquer lugar; no End, apenas nas ilhas externas.$(p)Eles nunca aparecem no $(9)Refúgio$()."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Mecânica de Geração",
-            "text": "Sua chegada será marcada por um barulho alto, uma mensagem de estado e um feixe de sinalizador.$(p)Invasores se tornam mais comuns em Níveis Mundiais mais altos, e as taxas diferem por Dimensão."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Raridades dos Invasores",
-            "text": "Cada Invasor tem uma raridade, indicada pelo nome e pela cor do contorno.$(p)Invasores de raridade maior serão mais fortes, mas largarão espólios melhores como resultado."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Espólios",
-            "text": "Invasores têm queda garantida de um $(l:apotheosis:adventure/mobs/invader_items)item com afixo especial$() e podem ter tabelas de espólio bônus adicionais além das tabelas de suas contrapartes normais.$(p)Eles também têm maior probabilidade de largar Gemas."
-        }
-    ]
+	"name": "Invasores Apóticos",
+	"icon": "minecraft:beacon",
+	"category": "apotheosis:adventure/mobs",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Um barulho estranho, uma mensagem peculiar e um feixe de luz gigante vindo do céu...$(p)Todos os sinais apontam para uma incursão de um Invasor Apótico!"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mecânicas de Geração",
+			"text": "Invasores substituem uma pequena fração das gerações naturais de monstros. Na Superfície, aparecem na superfície ou perto da sua profundidade no subterrâneo; no Nether em qualquer lugar; no End apenas nas ilhas externas.$(p)Eles nunca aparecem no $(9)Refúgio$()."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Mecânicas de Geração",
+			"text": "Sua chegada será marcada por um barulho alto, uma mensagem de status e um feixe de sinalizador.$(p)Invasores ficam mais comuns em Níveis de Mundo mais altos, e as taxas diferem por Dimensão."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Raridades dos Invasores",
+			"text": "Cada Invasor tem uma raridade, indicada pelo seu nome e cor de contorno.$(p)Invasores de raridade maior serão mais fortes, mas derrubam melhores espólios como resultado."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Saque",
+			"text": "Invasores garantem um $(l:apotheosis:adventure/mobs/invader_items)item com afixo especial$(), e podem ter tabelas de espólio de bônus adicionais além de suas contrapartes normais.$(p)Eles também têm maior probabilidade de derrubar Gemas."
+		}
+	]
 }

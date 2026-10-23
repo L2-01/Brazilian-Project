@@ -1,25 +1,35 @@
 {
-  "name": "O Poder da Terra",
-  "sortnum": 11,
-  "category": "justdirethings:justdynathings",
-  "icon": "justdynathings:thermo_generator",
-  "pages": [
-    {
-      "type": "patchouli:crafting",
-      "title": "Gerador Térmico",
-      "recipe": "justdynathings:thermo_generator",
-      "text": "Um novo gerador que gera Forge Energy com base em blocos de fonte de calor e um fluido refrigerante"
-    },
-    {
-      "type": "patchouli:multiblock",
-      "multiblock": {
-        "pattern": [["T"], ["M"],["0"]],
-        "mapping": {
-          "M": "minecraft:magma_block",
-          "T": "justdynathings:thermo_generator[active=true,facing=down]"
+    "name": "O Poder da Terra",
+    "sortnum": 11,
+    "category": "justdirethings:justdynathings",
+    "icon": "justdynathings:thermo_generator",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "title": "Gerador Termoelétrico",
+            "recipe": "justdynathings:thermo_generator",
+            "text": "Um novo gerador que gera Forge Energy com base em blocos fonte de calor e um fluido refrigerante"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                    [
+                        "T"
+                    ],
+                    [
+                        "M"
+                    ],
+                    [
+                        "0"
+                    ]
+                ],
+                "mapping": {
+                    "M": "minecraft:magma_block",
+                    "T": "justdynathings:thermo_generator[active=true,facing=down]"
+                }
+            },
+            "enable_visualize": false
         }
-      },
-      "enable_visualize": false
-    }
-  ]
+    ]
 }

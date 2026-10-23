@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:the_deception
 categories:
-  - Entrega Suspeita
+  - Suspicious Delivery
 ---
 # A Enganação
 
@@ -15,7 +15,7 @@ categories:
 
 ## O que faz
 
-**Artefato arcano.** Você se sente confuso: sentar ou comer? Na dúvida, você come. Após comer, você ganha **Enganado** — absorção extra mostrada como um **coração dourado** (veja a dica do item).
+**Artefato arcano.** Você se sente confuso: sentar ou comer? Na dúvida, você come. Depois de comer, você ganha **Enganado** — absorção extra mostrada como um **coração dourado** (veja o tooltip do item).
 
 Use no **Curios**.
 

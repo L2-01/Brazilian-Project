@@ -19,4 +19,4 @@ item_ids:
 <ItemImage id="appflux:printed_energy_processor" scale="4"></ItemImage>
 </Row>
 
-O Processador de Energia é usado para gerenciar fluxos de energia no sistema ME. Todos os dispositivos de energia precisam do Processador de Energia para rotear a energia.
+O Processador de Energia é usado para gerenciar fluxos de energia no sistema ME. Todos os dispositivos de energia precisam do Processador de Energia para rotear energia.

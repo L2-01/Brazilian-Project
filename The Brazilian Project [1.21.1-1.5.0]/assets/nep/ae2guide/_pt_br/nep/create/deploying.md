@@ -1,20 +1,20 @@
 ---
 navigation:
-  title: Aplicação
+  title: Posicionamento
   icon: create:deployer
   parent: nep/create/index.md
   position: 61
 item_ids:
   - nep:andesite_crafting_pattern
 ---
-# <Color id="gold">Aplicação</Color>
+# <Color id="gold">Posicionamento</Color>
 
 <Column alignItems="center" fullWidth={true}>
-  # <Color id="gold">Aplicação</Color>
+  # <Color id="gold">Posicionamento</Color>
 
   <ItemImage id="create:deployer" scale="2"/>
 
-  Automatize o Implantador para receitas `create:deploying`, `create:item_application` e `create:sandpaper_polishing`. O Depósito é a máquina de fabricação: o item base é preparado nele, e um Implantador dois blocos acima pressiona sobre ele.
+  Automatize o Posicionador para receitas `create:deploying`, `create:item_application` e `create:sandpaper_polishing`. O Depósito é a máquina de fabricação: o item base é preparado nele, e um Posicionador dois blocos acima pressiona sobre ele.
 </Column>
 
 <Recipe id="nep:module_status/deploying"/>
@@ -24,7 +24,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Configuração</Color>
+  ## <Color id="gold">Preparação</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -34,15 +34,15 @@ item_ids:
   <Block id="create:deployer" y="2" p:facing="down"/>
 
   <BlockAnnotation y="2" color="#ffaa00">
-    **Implantador**, virado para baixo, sempre girando
+    **Posicionador**, virado para baixo, mantido girando
   </BlockAnnotation>
   <BlockAnnotation y="0" color="#00ccff">
     **Depósito**, e o Provedor vai aqui
   </BlockAnnotation>
 </GameScene>
 
-* Implantador dois blocos acima do Depósito, virado para baixo, com velocidade rotacional.
-* O Provedor vai no <ItemLink id="create:depot"/>, não no Implantador.
+* Posicionador dois blocos acima do Depósito, virado para baixo, com velocidade de rotação.
+* O Provedor vai no <ItemLink id="create:depot"/>, não no Posicionador.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -54,26 +54,26 @@ item_ids:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Um <ItemLink id="nep:andesite_crafting_pattern"/>. Procure a receita no JEI, abra um <ItemLink id="ae2:pattern_encoding_terminal"/> e clique no **+** da receita: o padrão em branco volta como um Padrão de Fabricação em Andesito, nomeando a receita `create:deploying` ou `create:item_application` exata a executar. As entradas são o item base mais o item aplicado.
+Um <ItemLink id="nep:andesite_crafting_pattern"/>. Procure a receita no JEI, abra um <ItemLink id="ae2:pattern_encoding_terminal"/> e clique no **+** da receita: o padrão em branco volta como um Padrão de Fabricação em Andesito, nomeando a receita `create:deploying` ou `create:item_application` exata a executar. As entradas são o item base mais o item posicionado.
 
-Um padrão de processamento comum com as mesmas entradas e resultado ainda funciona; o Depósito simplesmente precisa procurar uma correspondência na lista de receitas em vez de ser informado qual executar.
+Um padrão de processamento comum com as mesmas entradas e resultado ainda funciona; o Depósito simplesmente precisa procurar um casamento na lista de receitas em vez de ser dito qual executar.
 
-> <Color id="yellow">Ferramentas reutilizáveis são devolvidas.</Color> Quando a receita mantém seu item aplicado, aquele espaço é marcado como <Color id="yellow">retido</Color> no terminal de codificação. A rede empresta a ferramenta para a fabricação e a recebe de volta depois, então ela nunca é gasta, e um Provedor a entrega direto ao Implantador em vez de você carregar uma à mão.
+> <Color id="yellow">Ferramentas reutilizáveis são devolvidas.</Color> Quando a receita preserva seu item posicionado, aquele espaço é marcado como <Color id="yellow">retido</Color> no terminal de codificação. A rede empresta a ferramenta para a fabricação e a recebe de volta depois, então ela nunca é gasta, e um Provedor a entrega direto ao Posicionador em vez de você carregar uma à mão.
 
-Se o Implantador já estiver segurando uma ferramenta correspondente, aquela é usada e a cópia emprestada volta direto ao Provedor intacta. Um padrão com a ferramenta deixada de fora também funciona, mas aí o Implantador precisa ser carregado à mão e os envios são rejeitados até que seja.
+Se o Posicionador já estiver segurando uma ferramenta correspondente, essa é usada e a cópia emprestada volta direto ao Provedor intacta. Um padrão sem a ferramenta ainda funciona também, mas aí o Posicionador precisa ser carregado à mão e envios são rejeitados até isso acontecer.
 
-> <Color id="yellow">Ferramentas que um Implantador desgasta voltam usadas.</Color> A lixa, e qualquer ferramenta que uma receita aplica sem consumir, perde um ponto de durabilidade por fabricação em vez de ser gasta inteira. Esses padrões pedem a ferramenta de volta um ponto pior, então a rede pode emprestar uma parcialmente usada e recebe essa mesma de volta. Uma ferramenta no último ponto quebra no Implantador e nada volta, o que é exatamente o que o padrão pediu.
+> <Color id="yellow">Ferramentas que um Posicionador desgasta voltam usadas.</Color> Lixa, e qualquer ferramenta que uma receita posicione sem preservar, perde um ponto de durabilidade por fabricação em vez de ser gasta inteira. Esses padrões pedem a ferramenta de volta um ponto pior, então a rede pode emprestar uma parcialmente usada e recebe essa mesma de volta. Uma ferramenta no último ponto quebra no Posicionador e nada volta, que é exatamente o que o padrão pediu.
 
-Uma ferramenta desgastada é sempre emprestada nova para cada fabricação, então o Implantador precisa estar vazio quando o padrão chega. Envios são recusados enquanto ele ainda estiver segurando algo, porque a rede tem a receber de volta a ferramenta que o padrão entregou, não o que quer que tenha sobrado no Implantador.
+Uma ferramenta de desgaste é sempre emprestada nova para cada fabricação, então o Posicionador precisa estar vazio quando o padrão chega. Envios são recusados enquanto ele ainda estiver segurando algo, porque a rede deve receber de volta a ferramenta que o padrão entregou, não o que quer que tenha sobrado no Posicionador.
 
-Uma [Matriz de Montagem](/nep/create/sequenced-assembly-matrix.md) aceita o mesmo padrão e aplica dentro de si, sem Depósito e sem Implantador. Ela não segura nada à mão, então lá a ferramenta precisa estar no padrão, e ela recusa a receita rara cuja ferramenta um Implantador desgasta em vez de consumir.
+Uma [Matriz de Montagem](/nep/create/sequenced-assembly-matrix.md) aceita o mesmo padrão e posiciona dentro de si, sem Depósito e sem Posicionador. Ela não segura nada à mão, então ali a ferramenta precisa estar no padrão, e ela recusa a receita rara cuja ferramenta um Posicionador desgasta em vez de consumir.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Lixamento</Color>
+  ## <Color id="gold">Sanding</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -84,20 +84,20 @@ Uma [Matriz de Montagem](/nep/create/sequenced-assembly-matrix.md) aceita o mesm
   <ItemImage id="create:polished_rose_quartz" scale="1.5"/>
 </Row>
 
-Um Implantador segurando <ItemLink id="create:sand_paper"/> lixa o que estiver no Depósito, mas o Create registra essas receitas sob seu próprio tipo `create:sandpaper_polishing` em vez de Aplicação, então um padrão não tinha o que nomear e o **+** no JEI devolvia um padrão de processamento comum que nenhum Depósito aceitava. O NEP agora lê toda receita de polimento como uma de Aplicação, e o **+** na entrada **Sandpaper Polishing** do Create dá um <ItemLink id="nep:andesite_crafting_pattern"/> como qualquer outro.
+Um Posicionador segurando <ItemLink id="create:sand_paper"/> poli o que estiver no Depósito, mas o Create arquiva essas receitas no próprio tipo `create:sandpaper_polishing` em vez de Posicionamento, então um padrão não tinha o que nomear e o **+** do JEI devolvia um padrão de processamento comum que nenhum Depósito aceitaria. O NEP agora lê toda receita de polimento como uma de Posicionamento, e o **+** na entrada de **Polimento com Lixa** do Create dá um <ItemLink id="nep:andesite_crafting_pattern"/> como qualquer outro.
 
-* O padrão carrega o item base e uma folha, com a folha <Color id="yellow">retida</Color>. Tanto <ItemLink id="create:sand_paper"/> quanto <ItemLink id="create:red_sand_paper"/> a satisfazem.
-* Um Implantador desgasta sua folha um ponto por polimento, diferente dos machados com que descasca. O padrão portanto nomeia a folha como uma ferramenta que volta um ponto pior, e o Implantador é esvaziado de novo após cada polimento.
-* Qualquer nível de dano satisfaz o padrão, então uma folha parcialmente usada no estoque é estoque como qualquer outro, e a rede só fabrica uma nova depois que toda folha que ela guarda se desgastar. Uma folha ainda custa um polimento por ponto, oito ao todo.
-* O polimento que gasta o último ponto de uma folha a quebra no Implantador, e o padrão não pediu nada de volta, então a fabricação se resolve só com o item base.
-* Uma [Matriz de Montagem](/nep/create/sequenced-assembly-matrix.md) recusa o polimento pelo mesmo motivo que recusa qualquer receita que desgasta sua ferramenta: ela devolve as entradas retidas exatamente como chegaram.
+* O padrão comporta o item base e uma lixa, com a lixa <Color id="yellow">retida</Color>. Tanto <ItemLink id="create:sand_paper"/> quanto <ItemLink id="create:red_sand_paper"/> satisfazem.
+* Um Posicionador desgasta sua lixa um ponto por polimento, diferente dos machados com que desbasta. O padrão então nomeia a lixa como ferramenta que volta um ponto pior, e o Posicionador é esvaziado de novo após cada polimento.
+* Qualquer nível de dano satisfaz o padrão, então uma lixa parcialmente usada no estoque é estoque como qualquer outro e a rede só fabrica uma nova quando toda lixa que ela guarda tiver se desgastado. Uma lixa ainda custa um polimento por ponto, oito no total.
+* O polimento que gasta o último ponto de uma lixa a quebra no Posicionador, e o padrão não pediu nada de volta, então a fabricação se acerta só com o item base.
+* Uma [Matriz de Montagem](/nep/create/sequenced-assembly-matrix.md) recusa polimento pelo mesmo motivo que recusa qualquer receita que desgasta sua ferramenta: ela devolve entradas retidas exatamente como chegaram.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Descascando Troncos</Color>
+  ## <Color id="gold">Stripping Logs</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -108,12 +108,12 @@ Um Implantador segurando <ItemLink id="create:sand_paper"/> lixa o que estiver n
   <ItemImage id="minecraft:stripped_oak_log" scale="1.5"/>
 </Row>
 
-O JEI lista o descascamento em **Item Application**, mas o Create mostra isso apenas como lembrete do clique direito do vanilla: não há receita por trás, então um Implantador normalmente ignora um tronco parado num Depósito. A opção **Log Stripping** adiciona a receita que falta para cada tronco que um machado consegue descascar, e a lista em **Deploying** junto das receitas que um Implantador já consegue executar.
+O JEI lista desbastar em **Aplicação de Item**, mas o Create mostra isso só como lembrete do clique direito vanilla: não há receita por trás, então um Posicionador normalmente ignora um tronco parado num Depósito. A configuração **Desbaste de Troncos** adiciona a receita faltante para cada tronco que um machado pode desbastar, e a lista em **Posicionamento** junto das receitas que um Posicionador já pode executar.
 
-* O machado não é consumido nem danificado, exatamente como nas próprias receitas de machado do Create para desoxidar cobre, então a rede empresta o mesmo para toda fabricação.
-* O padrão carrega o tronco e o machado, com o machado retido. Codifique-o de qualquer entrada do JEI com **+**, ou à mão como um padrão de processamento que pega o tronco e entrega o tronco descascado, com o machado deixado no Implantador.
-* Funciona também para um Depósito abastecido à mão, não só um dirigido por um Provedor.
-* Um tronco ao qual uma receita carregada já aplica um machado é deixado em paz, então um pacote pode substituir o que o descascamento faz simplesmente trazendo sua própria receita `create:deploying` ou `create:item_application`.
+* O machado não é consumido nem danificado, exatamente como as receitas de machado do próprio Create para desoxidizar cobre, então a rede empresta o mesmo para cada fabricação.
+* O padrão comporta o tronco e o machado, com o machado retido. Codifique-o de qualquer entrada do JEI com **+**, ou à mão como padrão de processamento levando o tronco e dando o tronco desbastado, com o machado deixado no Posicionador.
+* Funciona para um Depósito preenchido à mão também, não só um dirigido por um Provedor.
+* Um tronco ao qual uma receita carregada já aplica um machado é deixado em paz, então um pack pode substituir o que o desbaste faz simplesmente trazendo a própria receita `create:deploying` ou `create:item_application`.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -125,6 +125,6 @@ O JEI lista o descascamento em **Item Application**, mas o Create mostra isso ap
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-* O Implantador precisa estar virado para baixo e girando.
+* O Posicionador precisa estar virado para baixo e girando.
 * O Depósito precisa estar vazio quando a fabricação começa.
-* Apenas receitas únicas e de resultado garantido são automatizadas.
+* Só receitas de saída única e garantida são automatizadas.

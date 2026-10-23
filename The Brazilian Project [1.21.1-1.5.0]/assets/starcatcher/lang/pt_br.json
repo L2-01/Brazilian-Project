@@ -53,7 +53,7 @@
     "stat.starcatcher.golden_catches": "Starcatcher - peixes dourados encontrados",
     "stat.starcatcher.perfect_catches": "Starcatcher - pescados perfeitamente",
 
-    "emi.starcatcher.fp.loot_tables": "Tabelas de saques:",
+    "emi.starcatcher.fp.loot_tables": "Tabelas de itens:",
     "emi.starcatcher.fp.individual_items": "Itens individuais:",
     "emi.starcatcher.fp.blacklisted_items": "Itens na lista de bloqueio:",
     "emi.starcatcher.fp.weight": " peso - item",
@@ -167,7 +167,7 @@
     "tag.starcatcher.legendary_starcaught_fishes": "Peixes Lendários",
 
 
-    "tag.starcatcher.aquarium_guide_display": "Interações de Aquário Para o Guia",
+    "tag.starcatcher.aquarium_guide_display": "Interações de Aquário para o Guia",
     "tag.starcatcher.placeable_in_display": "Colocável no Bloco de Exibição",
     "tag.starcatcher.placeable_in_tackle_box": "Colocável na Caixa de Pesca",
     "tag.starcatcher.placeable_in_tackle_box_fish_slot": "Pode ser Colocado no Espaço de Peixes da Caixa de Pesca",
@@ -248,7 +248,7 @@
     "starcatcher.configuration.decay_multiplier": "Multiplicador Global de Decaimento",
     "starcatcher.configuration.hp_multiplier": "Multiplicador Global de HP",
     "starcatcher.configuration.handle_speed_multiplier": "Multiplicador global de velocidade da manivela",
-    "starcatcher.configuration.hide_entries_until_found": "Ocultar Entradas do Guia Até Serem Encontradas",
+    "starcatcher.configuration.hide_entries_until_found": "Ocultar Entradas do Guia até Serem Encontradas",
     "starcatcher.configuration.save_data_to_items": "Salvar NBT de Tamanho, Peso, Raridade e Dourado",
     "starcatcher.configuration.base_min_ticks": "Mínimo de Tiques para Pescar",
     "starcatcher.configuration.base_max_ticks": "Máximo de Tiques para Pescar",
@@ -828,7 +828,7 @@
     "gui.guide.index.cosmetics": "Cosméticos",
     "gui.guide.index.tournaments": "Torneios de Pesca",
     "gui.guide.index.messages": "Mensagens na Garrafa e Segredos",
-    "gui.guide.index.selling_bin": "Vendendo Seus Peixes!",
+    "gui.guide.index.selling_bin": "Vendendo seus Peixes!",
     "gui.guide.index.aquarium": "Aquários",
     "gui.guide.index.display": "Mostruário e Assinatura de Livro",
     "gui.guide.index.trophies_and_secrets": "Troféus e Segredos",
@@ -2294,5 +2294,126 @@
     "section.fancytabsections.empty": "Seção Vazia...",
 
     "section.fancytabsections.very_dirty_tools": "Ferramentas Muito Sujas",
-    "section.fancytabsections.decently_dirty_tools": "Ferramentas Razoavelmente Sujas"
+    "section.fancytabsections.decently_dirty_tools": "Ferramentas Razoavelmente Sujas",
+
+
+
+
+
+
+    "tooltip.libtooltips.generic.shift_up": "§7⏬ [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§7] ⏬",
+    "tooltip.libtooltips.generic.shift_down": "§7⏫ [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§7] ⏫",
+    "tooltip.libtooltips.generic.empty": "",
+
+    "key.category.libtooltips.libtooltips": "LibTooltips",
+    "key.libtooltips.expand": "Expandir Dica de Ferramenta",
+
+    "libtooltips.configuration.enable_tooltips": "Ativar Dicas de Ferramenta",
+    "libtooltips.configuration.line_before": "Linha vazia antes",
+    "libtooltips.configuration.line_before.tooltip": "Adiciona uma linha vazia ANTES da descrição, DEPOIS do [shift]",
+    "libtooltips.configuration.spaces_before_tooltip": "Espaços antes da dica",
+    "libtooltips.configuration.spaces_before_tooltip.tooltip": "Adiciona X espaços ANTES do texto da dica",
+    "libtooltips.configuration.line_after": "Linha vazia depois",
+    "libtooltips.configuration.line_after.tooltip": "Adiciona uma linha vazia DEPOIS da descrição",
+    "libtooltips.configuration.default_color": "Cor da Descrição",
+    "libtooltips.configuration.default_color.tooltip": "Qual cor usar como base para a dica. O valor é a cor como um número inteiro (use um seletor de cores online)",
+    "libtooltips.configuration.title": "Configurações do LibTooltips",
+
+    "tooltip.namespace.path.0": "Que dica chique com <ltrgb>arco-íris rgb</ltrgb>!",
+    "tooltip.namespace.path.1": "E olha, até suporta várias linhas, uau",
+    "tooltip.namespace.path.2": "Para evitar incompatibilidades com outras APIs de processamento de texto,",
+    "tooltip.namespace.path.3": "é recomendado que as tags tenham um nome não genérico, como 'ltrgb' em vez de 'rgb'",
+    "tooltip.namespace.path.4": "ocultar",
+    "tooltip.namespace.path.5": "Definir uma linha como 'hide' vai impedir que o restante das linhas seja exibido.",
+    "tooltip.namespace.path.6": "Isso é útil para traduções em que idiomas diferentes podem ter menos linhas que o padrão.",
+
+    "tooltip.always.namespace.path.0": "Esta dica sempre vai aparecer!",
+
+
+
+
+
+
+    "tinymultiblocklib.configuration.title": "Tiny Multiblock Lib",
+    "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml.title": "Configuração de Cliente do TMBL",
+    "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml": "Configuração de Cliente do TMBL",
+    "tinymultiblocklib.configuration.disable_multiblock_previews": "Desativar Pré-visualizações de Multiblocos",
+    "tinymultiblocklib.configuration.disable_multiblock_previews.tooltip": "Desativa as pré-visualizações fantasma ao tentar posicionar um multibloco",
+    "tinymultiblocklib.configuration.previews_for_everything": "Pré-visualizações para Tudo",
+    "tinymultiblocklib.configuration.previews_for_everything.tooltip": "Ativa pré-visualizações para tudo; usada para depuração",
+    "tinymultiblocklib.configuration.preview_whitelist": "Lista de Permissões de Pré-visualização",
+    "tinymultiblocklib.configuration.preview_whitelist.tooltip": "Lista de blocos para os quais as pré-visualizações serão exibidas",
+
+    "tinymultiblocklib.configuration.preview_blacklist": "Lista de Bloqueios de Pré-visualização",
+    "tinymultiblocklib.configuration.preview_blacklist.tooltip": "Lista de blocos para os quais as pré-visualizações serão ocultadas",
+
+    "tinymultiblocklib.configuration.preview_whitelist.button": "Editar",
+    "tinymultiblocklib.configuration.preview_blacklist.button": "Editar",
+
+
+
+
+
+
+    "itemGroup.selling_bin.selling_bin": "Caixa de Venda do wd",
+    "section.selling_bin.bin": "Caixa!",
+    "section.selling_bin.currencies": "Moedas",
+    "section.selling_bin.sellables": "Itens Vendáveis",
+
+    "selling_bin.configuration.always_show_selling_bin_price": "Sempre Mostrar Preços da Caixa de Venda",
+    "selling_bin.configuration.selling_in_multiplier": "Multiplicador da Caixa de Venda",
+
+
+    "emi.category.selling_bin.selling_bin_selling": "Caixa de Venda",
+    "emi.category.selling_bin.selling_bin_currencies": "Moedas da Caixa de Venda",
+
+    "gui.selling_bin.selling.empty.0": "Não há itens vendáveis registrados na Caixa de Venda!",
+    "gui.selling_bin.selling.empty.1": "",
+    "gui.selling_bin.selling.empty.2": "A Caixa de Venda não faz nada sem um datapack.",
+    "gui.selling_bin.selling.empty.3": "",
+    "gui.selling_bin.selling.empty.4": "Veja a wiki em github.com/wdiscute/Selling-Bin/wiki para pacotes prontos",
+    "gui.selling_bin.selling.empty.5": "de dados que você pode usar, e como adicionar e personalizar o seu próprio.",
+    "gui.selling_bin.selling.empty.6": "",
+    "gui.selling_bin.selling.empty.7": "Você também pode selecionar um dos datapacks prontos e",
+    "gui.selling_bin.selling.empty.8": "embutidos durante a criação do mundo, na seção de datapacks, igual ao vanilla,",
+    "gui.selling_bin.selling.empty.9": "ou usar /datapack enable XXXXXXXXX",
+
+
+    "gui.selling_bin.currency.empty.0": "Não há moedas registradas na Caixa de Venda!",
+    "gui.selling_bin.currency.empty.1": "",
+    "gui.selling_bin.currency.empty.2": "A Caixa de Venda não faz nada sem um datapack.",
+    "gui.selling_bin.currency.empty.3": "",
+    "gui.selling_bin.currency.empty.4": "Veja a wiki em github.com/wdiscute/Selling-Bin/wiki para pacotes prontos",
+    "gui.selling_bin.currency.empty.5": "de dados que você pode usar, e como adicionar e personalizar o seu próprio.",
+    "gui.selling_bin.currency.empty.6": "",
+    "gui.selling_bin.currency.empty.7": "Você também pode selecionar um dos datapacks prontos e",
+    "gui.selling_bin.currency.empty.8": "embutidos durante a criação do mundo, na seção de datapacks, igual ao vanilla,",
+    "gui.selling_bin.currency.empty.9": "ou usar /datapack enable XXXXXXXXX",
+
+
+    "gui.selling_bin.processor.durability": "- O preço é ajustado com base na durabilidade restante.",
+    "gui.selling_bin.processor.food": "- O preço aumenta com base na fome e na saturação.",
+    "gui.selling_bin.processor.enchantments": "- O preço aumenta com base nos encantamentos.",
+    "gui.selling_bin.processor.quality_foods_processor": "- O preço aumenta com base na Qualidade.",
+    "gui.selling_bin.processor.wine_age_processor": "- O preço aumenta com base na idade do vinho.",
+    "gui.selling_bin.processor.beer_quality_processor": "- O preço aumenta com base na qualidade da cerveja.",
+
+
+    "gui.selling_bin.value": "valor",
+    "gui.selling_bin.base_price": "Preço:",
+    "gui.selling_bin.processors": "Processadores:",
+    "gui.selling_bin.sell": "Vender",
+    "gui.selling_bin.sell_all": "Vender Tudo",
+    "gui.selling_bin.auto_sell": "Venda Automática",
+    "gui.selling_bin.sell_sound": "Som de Venda",
+    "gui.selling_bin.currency_selected": "Moeda:",
+    "gui.selling_bin.currencies": "Moedas:",
+    "gui.selling_bin.highest": "Maior Possível",
+    "gui.selling_bin.card_slot": "Cartão do Banco Numismático",
+
+
+    "block.selling_bin.selling_bin": "Caixa de Venda",
+
+    "item.minecraft.emerald.plural": "Esmeraldas",
+    "block.minecraft.emerald_block.plural": "Blocos de Esmeralda"
 }

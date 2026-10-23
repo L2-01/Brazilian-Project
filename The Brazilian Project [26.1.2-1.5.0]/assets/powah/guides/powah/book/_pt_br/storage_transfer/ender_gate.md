@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Portãos do Ender
+  title: Portões do Ender
   parent: storage_transfer/index.md
   icon: powah:ender_gate_starter
   position: 3
@@ -14,15 +14,15 @@ item_ids:
   - powah:ender_gate_starter
 ---
 
-# Portãos do Ender
+# Portões do Ender
 
 ![](./ender_gate.png)
 
-Transfira energia entre o bloco adjacente e a rede ender. 
+Transfere energia entre o bloco adjacente e a rede ender. 
 
-Diferente da Célula do Ender você não pode Atualizar a rede dela. 
+Diferente da Célula do Ender, você não pode melhorar a rede a partir dele. 
 
-|                                             | I/O Máximo                                           |
+|                                             | E/S Máx.                                              |
 | ------------------------------------------- | ---------------------------------------------------- |
 | <ItemLink id="powah:ender_gate_starter" />  | <powah:EnergyMaxIO id="powah:ender_gate_starter" />  |
 | <ItemLink id="powah:ender_gate_basic" />    | <powah:EnergyMaxIO id="powah:ender_gate_basic" />    |

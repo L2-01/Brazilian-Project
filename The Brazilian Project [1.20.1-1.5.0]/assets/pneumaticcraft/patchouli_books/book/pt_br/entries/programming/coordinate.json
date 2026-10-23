@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "A $(thing)Coordenada/$ é um widget usado apenas como parâmetro para os widgets $(l:programming/coordinate_operator)Operador de Coordenadas/$ e $(l:programming/condition_coordinate)Condição: Coordenada/$.$(p)Este widget pode ser comparado ao widget $(l:programming/area)Área/$: com o widget $(thing)Área/$ você está fornecendo $(italic)duas/$ coordenadas para formar uma área, enquanto com este widget você está fornecendo apenas $(italic)uma/$. Há duas formas de fornecer uma coordenada:"
+      "text": "A $(thing)Coordenada/$ é um widget usado apenas como parâmetro para os widgets $(l:programming/coordinate_operator)Operador de Coordenada/$ e $(l:programming/condition_coordinate)Condição: Coordenada/$.$(p)Este widget pode ser comparado ao widget de $(l:programming/area)Área/$: com o widget de $(thing)Área/$ você fornece $(italic)duas/$ coordenadas para formar uma área, enquanto com este widget você fornece apenas $(italic)uma/$. Há duas formas de fornecer uma coordenada:"
     },
     {
       "type": "text",
-      "text": "$(bold)Constante/$$(br)Uma coordenada constante é, bem... constante. Você pode selecionar uma escolhendo uma $(l:tools/gps_tool)Ferramenta GPS/$, ou simplesmente digitar valores X/Y/Z diretamente nos campos de texto.$(p)$(bold)Variável/$$(br)Ao selecionar Variável, você pode retornar o valor armazenado na $(l:programming/variables)variável/$ como a coordenada. Tenha em mente que com isso você só pode fornecer uma coordenada, não modificar a variável!"
+      "text": "$(bold)Constante/$$(br)Uma coordenada constante é, bem... constante. Você pode selecionar uma escolhendo uma $(l:tools/gps_tool)Ferramenta GPS/$ ou simplesmente digitar valores X/Y/Z diretamente nos campos de texto.$(p)$(bold)Variável/$$(br)Ao selecionar Variável, você pode retornar o valor armazenado na $(l:programming/variables)variável/$ como a coordenada. Lembre-se de que com isso você só pode fornecer uma coordenada, não modificar a variável!"
     },
     {
       "type": "image",
@@ -21,4 +21,3 @@
     }
   ]
 }
-

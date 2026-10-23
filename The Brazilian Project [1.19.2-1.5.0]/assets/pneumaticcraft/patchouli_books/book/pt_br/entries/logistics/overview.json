@@ -1,25 +1,25 @@
 {
-  "name": "Visão Geral da Logística",
-  "icon": "pneumaticcraft:logistics_configurator",
-  "category": "pneumaticcraft:logistics",
-  "advancement": "pneumaticcraft:root",
-  "priority": "true",
-  "pages": [
-    {
-      "type": "text",
-      "text": "O $(thing)Sistema de Logística/$ do $(pncr) oferece uma forma interessante de transportar itens e fluidos e manter inventários e tanques abastecidos.$(p)Inventários e tanques podem ser marcados com $(l:logistics/frames)Molduras de Logística/$, dispositivos anexáveis que controlam como itens e fluidos devem ser movidos para dentro e para fora desses blocos."
-    },
-    {
-      "type": "text",
-      "text": "Esses inventários são então conectados por $(l:logistics/logistics_drone)Drones de Logística/$ ou $(l:tubes/pressure_tubes)Tubos de Pressão/$ com $(l:tubes/logistics_module)Módulos de Logística/$ anexados.$(p)O $(thing)Sistema de Logística/$ é fortemente inspirado em $(l:https://wiki.factorio.com/Logistic_network)Factorio/$ e, se você já jogou esse jogo, os conceitos serão familiares. A principal diferença é que este mod fornece $(l:logistics/frames)Molduras/$ para anexar a inventários/tanques existentes, em vez de baús logísticos separados."
-    },
-    {
-      "type": "relations",
-      "entries": [
-        "pneumaticcraft:logistics/frames",
-        "pneumaticcraft:logistics/logistics_drone",
-        "pneumaticcraft:tubes/logistics_module"
-      ]
-    }
-  ]
+    "name": "Visão Geral da Logística",
+    "icon": "pneumaticcraft:logistics_configurator",
+    "category": "pneumaticcraft:logistics",
+    "advancement": "pneumaticcraft:root",
+    "priority": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O $(pncr) oferece um $(thing)Sistema de Logística/$ interessante para transportar itens e fluidos, e para manter inventários e tanques abastecidos.$(p)Inventários e tanques podem ser marcados com $(l:logistics/frames)Molduras de Logística/$, gadgets anexáveis que controlam como itens e fluidos devem entrar e sair desses blocos."
+        },
+        {
+            "type": "text",
+            "text": "Esses inventários são então conectados com $(l:logistics/logistics_drone)Drones de Logística/$ ou $(l:tubes/pressure_tubes)Tubos de Pressão/$ com $(l:tubes/logistics_module)Módulos de Logística/$ acoplados.$(p)O $(thing)Sistema de Logística/$ é fortemente inspirado no $(l:https://wiki.factorio.com/Logistic_network)Factorio/$, e se você já jogou aquele jogo, os conceitos serão familiares. A principal diferença é que este mod fornece $(l:logistics/frames)Molduras/$ para acoplar a inventários/tanques existentes, em vez de baús de logística separados."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "pneumaticcraft:logistics/frames",
+                "pneumaticcraft:logistics/logistics_drone",
+                "pneumaticcraft:tubes/logistics_module"
+            ]
+        }
+    ]
 }

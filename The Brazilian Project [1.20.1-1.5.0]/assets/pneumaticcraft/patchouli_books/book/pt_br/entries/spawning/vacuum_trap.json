@@ -10,21 +10,21 @@
     },
     {
       "type": "text",
-      "text": "$(li)1. Garanta que a Armadilha de Vácuo tenha -0,5 bar de pressão ou menos. $(l:base_concepts/upgrades#volume)Melhorias de Volume/$ são recomendadas aqui. Além disso, se você pretende mover a Armadilha de Vácuo, use a chave inglesa nela em vez de quebrá-la com uma picareta, para preservar o vácuo armazenado.$(li)2. Insira um $(l:spawning/spawner_core)Núcleo de Gerador de Criaturas/$ não cheio para receber as criaturas capturadas.$(li)3. Abra a porta da Armadilha de Vácuo, $(thing)agachando e clicando com o botão direito/$ nela ou aplicando um sinal de redstone."
+      "text": "$(li)1. Garanta que a Armadilha de Vácuo tenha -0,5 bar de pressão ou menos. $(l:base_concepts/upgrades#volume)Melhorias de Volume/$ são recomendadas aqui. Além disso, se pretender mover a Armadilha de Vácuo, use a chave inglesa em vez de quebrá-la com uma picareta, para preservar o vácuo armazenado.$(li)2. Insira um $(l:spawning/spawner_core)Núcleo de Gerador de Criaturas/$ não cheio para receber as criaturas capturadas.$(li)3. Abra a porta da Armadilha de Vácuo, $(thing)agachando e clicando com o botão direito/$ nela, ou aplicando um sinal de redstone."
     },
     {
       "type": "text",
       "title": "Restrições",
-      "text": "A Armadilha de Vácuo nunca capturará:$(li)Jogadores$(li)Drones$(li)Criaturas chefe (Wither, Dragão de Ender...)$(li)Animais domesticados$(li)Qualquer criatura gerada por um Gerador de Criaturas vanilla$(p)Além disso, você pode colocar criaturas na lista-negra adicionando seu ID de entidade (ex.: $(thing)minecraft:zombie/$) à tag de tipo de entidade $(thing)pneumaticcraft:vacuum_trap_blacklisted/$."
+      "text": "A Armadilha de Vácuo nunca capturará:$(li)Jogadores$(li)Drones$(li)Criaturas chefe (Wither, Dragão Ender...)$(li)Animais domesticados$(li)Qualquer criatura gerada por um Gerador vanilla$(p)Além disso, você pode colocar criaturas na lista-negra adicionando seu ID de entidade (ex.: $(thing)minecraft:zombie/$) à tag de tipo de entidade $(thing)pneumaticcraft:vacuum_trap_blacklisted/$."
     },
     {
       "type": "text",
       "title": "Essência de Memória",
-      "text": "Se o tanque da Armadilha de Vácuo contiver pelo menos 100mB de $(l:base_concepts/memory_essence)Essência de Memória/$, a eficiência de absorção de criaturas será bastante aumentada; em vez de contribuir 1% para a essência do $(thing)Núcleo de Gerador de Criaturas/$ instalado, uma criatura capturada contribuirá 2 - 4%, ou seja, em vez de precisar capturar 100 criaturas para encher um núcleo, você precisará capturar apenas 25-50. 100mB de Essência de Memória serão usados toda vez que uma criatura for capturada."
+      "text": "Se o tanque da Armadilha de Vácuo contiver pelo menos 100mB de $(l:base_concepts/memory_essence)Essência de Memória/$, a eficiência de absorção de criaturas aumentará muito; em vez de contribuir 1% para a essência do $(thing)Núcleo de Gerador de Criaturas/$ instalado, uma criatura capturada contribuirá 2 - 4%, ou seja, em vez de precisar capturar 100 criaturas para encher um núcleo, você só precisará capturar 25-50. 100mB de Essência de Memória serão usados a cada criatura capturada."
     },
     {
       "type": "crafting",
-      "text": "Fabricando uma Armadilha de Vácuo",
+      "text": "Fabricando Armadilha de Vácuo",
       "recipe": "pneumaticcraft:vacuum_trap"
     }
   ]

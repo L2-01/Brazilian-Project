@@ -13,7 +13,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Um $(l)#item->iname#/$ é um item usado para evoluir Pokémon quando carregado durante o uso de um $(l:cobblepedia:link_cable)Cabo de Ligação/$. Isso consome o #item->iname#.",
+            "text": "Um $(l)#item->iname#/$ é um item usado para evoluir Pokémon quando mantido enquanto se usa um $(l:cobblepedia:link_cable)cabo de conexão/$. Isso consome o #item->iname#.",
             "guard": "#link_cable",
             "x": 0,
             "y": 17

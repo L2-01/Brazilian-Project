@@ -6,15 +6,15 @@
     "pages": [
         {
             "type": "text",
-            "text": "Usando os poderes inerentes do $(l:using/altar)Ferro Infundido$(), pode-se produzir ferramentas que não só têm propriedades semelhantes ao seu material base $(item)Ferro$(), mas também têm recursos adicionais que não se esperaria.$(br)As páginas seguintes mostrarão como criar as ferramentas e como usar seus recursos especiais."
+            "text": "Usando os poderes inerentes do $(l:using/altar)Ferro Infundido$(), pode-se produzir ferramentas que não só têm propriedades semelhantes ao seu material base $(item)Ferro$(), como também têm recursos adicionais que ninguém esperaria.$(br)As páginas seguintes mostrarão como criar as ferramentas e como usar seus recursos especiais."
         },
         {
             "type": "text",
-            "text": "Além disso, ao levar um $(l:items/aura_cache)Cache de Aura$() com você, as ferramentas poderão usar a $(aura) nele armazenada para regenerar sua durabilidade, aumentando significativamente sua vida útil. Para isso, basta ficar parado e agachado, e a ferramenta em sua mão recarregará lentamente."
+            "text": "Além disso, ao levar um $(l:items/aura_cache)Cache de Aura$() consigo, as ferramentas poderão usar a $(aura) nele armazenada para regenerar sua durabilidade, aumentando significativamente sua vida útil. Para isso, basta ficar parado e agachado, e a ferramenta na mão recarregará lentamente."
         },
         {
             "type": "crafting",
-            "text": "A $(item)Picareta do Botânico$(), ao interagir com um bloco, o transformará em sua variação $(thing)musgosa$(), desde que ele tenha uma.",
+            "text": "A $(item)Picareta do Botânico$(), quando usada num bloco, o transformará em sua variação com $(thing)musgo$(), desde que ele tenha uma.",
             "recipe": "naturesaura:infused_pickaxe"
         },
         {
@@ -24,16 +24,17 @@
         },
         {
             "type": "crafting",
-            "text": "A $(item)Pá do Botânico$() tem a capacidade de fazer $(thing)grama$() crescer em terra inculta através de uma simples interação, além de fazer $(thing)caminhos$() mais largos na grama.",
+            "text": "A $(item)Pá do Botânico$() tem a capacidade de fazer $(thing)grama$() crescer em terra baldía por simples interação, além de fazer $(thing)caminhos$() mais largos na grama.",
             "recipe": "naturesaura:infused_shovel"
         },
         {
             "type": "crafting",
-            "text": "A $(item)Enxada do Botânico$() ajuda um fazendeiro a obter diferentes tipos de $(thing)sementes$() à moda antiga, simplesmente sendo usada num pedaço de grama ou terra.",
+            "text": "A $(item)Enxada do Botânico$() ajuda o fazendeiro a obter diferentes tipos de $(thing)sementes$() à moda antiga, simplesmente sendo usada num bloco de grama ou terra.",
             "recipe": "naturesaura:infused_hoe"
-        }, {
+        },
+        {
             "type": "crafting",
-            "text": "A $(item)Lâmina do Botânico$() é uma boa forma de lidar com monstros: ela fará qualquer criatura que você acertar ficar $(thing)mais lenta$() por alguns segundos, tornando-a um alvo mais fácil.",
+            "text": "A $(item)Lâmina do Botânico$() é uma boa forma de lidar com monstros: ela fará qualquer criatura que você atingir ficar $(thing)desacelerada$() por alguns segundos, tornando-a um alvo mais fácil.",
             "recipe": "naturesaura:infused_sword"
         }
     ]

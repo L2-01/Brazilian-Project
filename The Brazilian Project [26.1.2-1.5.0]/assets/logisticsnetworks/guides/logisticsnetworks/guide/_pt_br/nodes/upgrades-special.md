@@ -9,40 +9,40 @@ navigation:
 
 # Melhorias Especiais
 
-As melhorias especiais não mudam os tetos de vazão de um nó. A Melhoria Dimensional destrava transferências entre dimensões e a Melhoria de Rede destrava acesso à rede de armazenamento; ambas podem ser combinadas com uma [melhoria de desempenho](upgrades-performance.md) no mesmo nó. Os itens de melhoria Química e de Fonte são mantidos para compatibilidade futura, mas estão inativos no momento.
+Melhorias especiais não mudam os tetos de vazão de um nó. A Melhoria Dimensional desbloqueia transferências entre dimensões e a Melhoria de Rede desbloqueia acesso a rede de armazenamento; ambas podem ser combinadas com uma [melhoria de desempenho](upgrades-performance.md) no mesmo nó. Os itens de melhoria Química do Mekanism e de Fonte de Ars são mantidos para compatibilidade futura, mas estão atualmente inativos.
 
-Os slots de melhoria ficam no painel [Filtros e Melhorias](filters-upgrades.md). Duplicatas são rejeitadas, mas melhorias ativas diferentes podem dividir os quatro slots.
+Os espaços de melhoria ficam no painel [Filtros e Melhorias](filters-upgrades.md). Duplicatas são rejeitadas, mas melhorias ativas diferentes podem dividir os quatro espaços.
 
 ## Melhoria Dimensional
 
-**Destrava transferências entre dimensões.** Sem esta melhoria, um nó só conversa com nós na mesma dimensão. Instale a Melhoria Dimensional e o nó pode transferir de e para nós em outras dimensões — entre o Overworld e o Nether, o End e o Overworld, ou qualquer dimensão de mod.
+**Desbloqueia transferências entre dimensões.** Sem esta melhoria, um nó só pode falar com nós na mesma dimensão. Instale a Melhoria Dimensional e o nó pode transferir de e para nós em outras dimensões — entre a Superfície e o Nether, o End e a Superfície, ou qualquer dimensão de mod.
 
-**As duas pontas precisam dela.** Tanto o nó Remetente quanto o Destinatário precisam de uma Melhoria Dimensional instalada. Instalá-la em só um lado não basta — o motor verifica os dois nós antes de permitir um salto entre dimensões.
+**As duas pontas precisam dela.** Tanto o nó Emissor quanto o nó Receptor precisam de uma Melhoria Dimensional instalada. Instalar em um lado só não basta — o motor verifica os dois nós antes de permitir um salto entre dimensões.
 
-Dentro da mesma dimensão a melhoria não faz nada extra — as transferências normais funcionam sem ela.
+Dentro da mesma dimensão a melhoria não faz nada extra — transferências normais funcionam sem ela.
 
 <RecipeFor id="logisticsnetworks:dimensional_upgrade" />
 
 ## Melhoria Química do Mekanism
 
-Este item é mantido para compatibilidade futura. No momento ele não destrava canais ou transferências de Químico. Sua receita só aparece quando o Mekanism está carregado.
+Este item é mantido para compatibilidade futura. Atualmente ele não desbloqueia canais ou transferências químicas. Sua receita só aparece quando o Mekanism está carregado.
 
-<RecipeFor id="logisticsnetworks:mekanism_chemical_upgrade" fallbackText="Instale o Mekanism para desbloquear esta receita." />
+<RecipeFor id="logisticsnetworks:mekanism_chemical_upgrade" fallbackText="Install Mekanism to unlock this recipe." />
 
-## Melhoria de Fonte do Ars
+## Melhoria de Fonte de Ars
 
-Este item é mantido para compatibilidade futura. No momento ele não destrava canais ou transferências de Fonte. Sua receita só aparece quando o Ars Nouveau está carregado.
+Este item é mantido para compatibilidade futura. Atualmente ele não desbloqueia canais ou transferências de Fonte. Sua receita só aparece quando o Ars Nouveau está carregado.
 
-<RecipeFor id="logisticsnetworks:ars_source_upgrade" fallbackText="Instale o Ars Nouveau para desbloquear esta receita." />
+<RecipeFor id="logisticsnetworks:ars_source_upgrade" fallbackText="Install Ars Nouveau to unlock this recipe." />
 
 ## Melhoria de Rede
 
-**Destrava acesso direto à rede de armazenamento.** Um nó com esta melhoria numa Interface do Applied Energistics 2 ou do Refined Storage move itens e fluidos direto por toda a rede de armazenamento conectada, como descrito em [Configurações de Canal](channel-settings.md). Sem ela, a Interface é só mais um inventário e o nó só vê o que está estocado na própria Interface.
+**Desbloqueia acesso direto à rede de armazenamento.** Um nó com esta melhoria numa Interface de Applied Energistics 2 ou Refined Storage move itens e fluidos direto por toda a rede de armazenamento conectada, como descrito em [Configurações de Canal](channel-settings.md). Sem ela, a Interface é só mais um inventário e o nó só vê o que está estocado na própria Interface.
 
-Cada nó numa Interface que deva alcançar a rede precisa da sua própria Melhoria de Rede. Nós em outros blocos não precisam dela.
+Cada nó numa Interface que deve alcançar a rede precisa da sua própria Melhoria de Rede. Nós em outros blocos não precisam dela.
 
-Há duas receitas, uma por mod de armazenamento. Cada uma só aparece quando aquele mod está carregado.
+Existem duas receitas, uma por mod de armazenamento. Cada uma só aparece quando aquele mod está carregado.
 
-<Recipe id="logisticsnetworks:network_upgrade_ae2" fallbackText="Instale o Applied Energistics 2 para desbloquear esta receita." />
+<Recipe id="logisticsnetworks:network_upgrade_ae2" fallbackText="Install Applied Energistics 2 to unlock this recipe." />
 
-<Recipe id="logisticsnetworks:network_upgrade_refinedstorage" fallbackText="Instale o Refined Storage para desbloquear esta receita." />
+<Recipe id="logisticsnetworks:network_upgrade_refinedstorage" fallbackText="Install Refined Storage to unlock this recipe." />

@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O $(d)Filtro de Entidade$() permite $(3)filtrar por tipo de entidade$() em vários itens e blocos.$(br2)Para configurá-lo, basta usar o filtro na entidade que você quer filtrar.",
+      "text": "O $(d)Filtro de Entidade$() permite $(3)filtrar com base no tipo de entidade$() para vários itens e blocos.$(br2)Para defini-lo, basta usar o Filtro na entidade que quer filtrar.",
       "title": "Filtro de Entidade"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:entity_filter",
       "link_recipe": true,
-      "text": "Usá-lo agachado o define para o tipo de entidade Jogador."
+      "text": "Usá-lo agachado o definirá para o tipo de entidade Jogador."
     }
   ]
 }

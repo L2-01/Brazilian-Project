@@ -1,0 +1,13 @@
+{
+    "name": "Dano por Fogo",
+    "icon": "minecraft:blaze_powder",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(9)Dano por Fogo$() é dano mágico bônus aplicado a ataques corpo a corpo. Também incendeia o alvo por um curto período. Dano maior aumenta a duração do fogo.$(p)Encontrado em armas corpo a corpo."
+        }
+    ]
+}

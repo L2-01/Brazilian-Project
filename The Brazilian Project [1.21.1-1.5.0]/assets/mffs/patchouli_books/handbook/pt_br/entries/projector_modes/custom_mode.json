@@ -1,50 +1,50 @@
 {
-    "name": "Modo Personalizado",
-    "icon": "mffs:custom_mode",
-    "category": "mffs:projector_modes",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:custom_mode",
-            "link_recipe": true,
-            "text": "O $(2)Modo Personalizado$() é o mais versátil de todos os modos, pois permite projetar um campo de força de qualquer forma ou estrutura. Uma vez que um padrão de blocos definido pelo usuário tenha sido analisado e armazenado pelo próprio item $(2)Modo Personalizado$(), o Projetor consegue gerar um campo de força que é uma $(9)réplica exata$() do original. Dessa forma, campos de força podem ser construídos no formato de $(9)qualquer coisa que possa ser fabricada$() - incluindo uma ponte, uma casa, ou até uma fortaleza inteira!"
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:custom_mode",
-            "text": "Fabricando o $(2)Modo Personalizado$()."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Uso",
-            "text": "Segure o item $(2)Modo Personalizado$() e use-o em dois blocos no mundo. Esses dois blocos (primário e secundário) definirão um espaço 3D que o $(2)Modo Personalizado$() pode analisar. Conforme cada bloco é clicado, suas coordenadas no mundo serão armazenadas como 'Pos. primária' e 'Pos. secundária'. Use-o enquanto agachado para instruir o item $(2)Modo Personalizado$() a analisar e salvar todos os blocos que existem entre os pontos selecionados."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Quando o Projetor detecta que um item $(2)Modo Personalizado$() foi inserido no espaço correto, hologramas aleatórios aparecerão continuamente acima dele para indicar que o padrão do campo não corresponde a nenhuma das formas de modo conhecidas (isso é um recurso, não um bug). Se desejado, defina onde o campo de força deve aparecer (em relação ao Projetor) adicionando $(l:mffs:projector_modules/translation_module)$(5)Módulos de Translação$() nos espaços de item marcados por setas direcionais."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Ajuste do Campo",
-            "text": "Assim como nos outros modos de projetor, os campos de força do $(2)Modo Personalizado$() podem ser girados e escalados usando os módulos $(l:mffs:projector_modules/rotation_module)$(5)Rotação$() e $(l:mffs:upgrade_modules/scale_module)$(5)Escala$(), respectivamente."
-        },
-        {
-            "type": "patchouli:image",
-            "images": [
-                "mffs:textures/gui/handbook/custom_mode.png"
-            ],
-            "border": true,
-            "title": "Projeção",
-            "text": "Um campo de $(2)Modo Personalizado$() sendo projetado."
-        },
-        {
-            "type": "patchouli:image",
-            "images": [
-                "mffs:textures/gui/handbook/custom_mode_camo.png"
-            ],
-            "border": true,
-            "title": "Projeção",
-            "text": "Um campo de $(2)Modo Personalizado$() sendo projetado com um $(l:mffs:projector_modules/camouflage_module)$(5)Módulo de Camuflagem$() aplicado."
-        }
-    ]
+  "name": "Modo Personalizado",
+  "icon": "mffs:custom_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:custom_mode",
+      "link_recipe": true,
+      "text": "O $(2)Modo Personalizado$() é o mais versátil de todos os modos, pois permite projetar um campo de força de qualquer formato ou estrutura. Uma vez que um padrão de blocos definido pelo usuário tenha sido analisado e armazenado pelo próprio item $(2)Modo Personalizado$(), o Projetor pode gerar um campo de força que é uma $(9)réplica exata$() do original. Dessa forma, campos de força podem ser construídos no formato de $(9)qualquer coisa que possa ser fabricada$() — incluindo uma ponte, uma casa ou até uma fortaleza inteira!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:custom_mode",
+      "text": "Fabricando o $(2)Modo Personalizado$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "Segure o item $(2)Modo Personalizado$() e use-o em dois blocos no mundo. Esses dois blocos (primário e secundário) definirão um espaço 3D que o $(2)Modo Personalizado$() pode analisar. Conforme cada bloco é clicado, suas coordenadas no mundo serão armazenadas como 'Posição primária' e 'Posição secundária'. Use enquanto agachado para instruir o item $(2)Modo Personalizado$() a analisar e salvar todos os blocos que existem entre os pontos selecionados."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando o Projetor detecta que um item $(2)Modo Personalizado$() foi inserido no slot correto, hologramas aleatórios aparecerão continuamente acima dele para indicar que o padrão do campo não corresponde a nenhum dos formatos de modo conhecidos (isso é um recurso, não um bug). Se desejado, defina onde o campo de força deve aparecer (em relação ao Projetor) adicionando $(l:mffs:projector_modules/translation_module)$(5)Módulos de Translação$() nos slots de item marcados por setas direcionais."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ajuste de Campo",
+      "text": "Assim como os outros modos de projetor, os campos de força do $(2)Modo Personalizado$() podem ser girados e escalados usando os $(l:mffs:projector_modules/rotation_module)$(5)Módulos de Rotação$() e $(l:mffs:upgrade_modules/scale_module)$(5)de Escala$(), respectivamente."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/custom_mode.png"
+      ],
+      "border": true,
+      "title": "Projeção",
+      "text": "Um campo de $(2)Modo Personalizado$() sendo projetado."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/custom_mode_camo.png"
+      ],
+      "border": true,
+      "title": "Projeção",
+      "text": "Um campo de $(2)Modo Personalizado$() sendo projetado com um $(l:mffs:projector_modules/camouflage_module)$(5)Módulo de Camuflagem$() aplicado."
+    }
+  ]
 }

@@ -1,23 +1,23 @@
 {
-  "name": "Terminação",
+  "name": "Término",
   "icon": "minecraft:barrier",
   "category": "modularrouters:router",
   "pages": [
     {
       "type": "text",
-      "text": "Este é um tópico um tanto esotérico sobre o qual, na maioria dos casos, você não precisará se preocupar. No entanto, quando precisar, será muito útil!"
+      "text": "Este é um tópico um pouco esotérico do qual na maioria dos casos você não precisará se preocupar. No entanto, quando precisar, será muito útil!"
     },
     {
       "type": "text",
-      "text": "A terminação é configurada por módulo, pelo botão 'T' abaixo dos espaços de filtro. Por padrão, está inativa; se você a ativar para um módulo, então $(italic)se/$ o módulo fizer qualquer trabalho neste tique do roteador, o roteador parará ali. Nenhum outro módulo (ou seja, à direita deste módulo) será executado desta vez."
+      "text": "O Término é configurado por módulo, pelo botão 'T' abaixo dos espaços de filtro. Por padrão, está inativo; se você o ativar para um módulo, então $(italic)se/$ o módulo fizer qualquer trabalho neste tique do roteador, o roteador parará ali. Nenhum módulo adicional (ou seja, à direita deste módulo) será executado nesta rodada."
     },
     {
       "type": "text",
-      "text": "Por que isso seria útil? Imagine um cenário onde seu roteador está sendo suprido com muitos itens, ex.: de uma pedreira. Você quer destruir $(item)Pedregulho/$ e enviar todo o resto para outro inventário; então você adicionaria um $(l:modules/void)Módulo de Vazio/$ com uma lista-branca de Pedregulho, seguido de um $(l:modules/sender_1)Módulo Enviador/$ para enviar qualquer outra coisa adiante."
+      "text": "Por que isso seria útil? Imagine um cenário onde seu roteador está sendo abastecido com muitos itens, ex.: de uma pedreira. Você quer anular $(item)Pedregulho/$ e enviar todo o resto para outro inventário; então você adicionaria um $(l:modules/void)Módulo de Vazio/$ com uma lista-branca de Pedregulho, seguido de um $(l:modules/sender_1)Módulo Enviador/$ para enviar qualquer outra coisa adiante."
     },
     {
       "type": "text",
-      "text": "Quando o roteador executa, digamos que já haja uma pilha de Pedregulho no buffer. O Módulo de Vazio destruirá um Pedregulho, e então o módulo Enviador enviará os 63 Pedregulhos restantes para o seu armazenamento. Provavelmente não é isso que você quer.$(p)No entanto, se você ativar a Terminação no Módulo de Vazio, então quando ele executar, o roteador parará naquele tique; o módulo Enviador não executará até que o Módulo de Vazio não tenha mais nada a fazer."
+      "text": "Quando o roteador funciona, digamos que já haja uma pilha de Pedregulho no buffer. O Módulo de Vazio anulará um Pedregulho e depois o módulo Enviador enviará os 63 Pedregulho restantes para o seu armazenamento. Provavelmente não é isso que você quer.$(p)No entanto, se você ativar o Término no Módulo de Vazio, quando ele funcionar, o roteador parará naquele tique; o módulo Enviador não funcionará até que o Módulo de Vazio não tenha mais nada para fazer."
     }
   ]
 }

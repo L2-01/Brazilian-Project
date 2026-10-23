@@ -10,7 +10,7 @@ item_ids:
 
 # Lente de Ender
 
-Ao aplicar uma Lente de Ender a um painel solar, ele verá através dos blocos. 
+Ao aplicar uma Lente de Ender num Painel Solar, ele passa a enxergar através dos blocos. 
 
 <Row>
 <RecipesFor id="powah:lens_of_ender" />

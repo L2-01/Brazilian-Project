@@ -3,11 +3,13 @@
     "icon": "allthemodium:allthemodium_ore",
     "category": "allthemodium:ore",
     "sortnum": 1,
-    "pages": [{
-        "type": "spotlight",
-        "item": "allthemodium:allthemodium_ore",
-        "title": "Minério de Allthemodium",
-        "link_recipe": false,
-        "text": "O Minério de Allthemodium surge no bioma Profundezas Sombrias, nas paredes e tetos de cavernas. Você também pode encontrá-lo como uma geração comum bem alto nas montanhas, acima de Y 170, e em todo lugar na Dimensão de Mineração entre Y -59 e Y 20, assim como nas cavernas da camada de ardósia da dimensão O Outro."
-    }]
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "allthemodium:allthemodium_ore",
+            "title": "Minério de Allthemodium",
+            "link_recipe": false,
+            "text": "O Minério de Allthemodium gera no bioma Profundezas Sombrias, em paredes e tetos de cavernas; você também pode encontrá-lo como geração comum bem alto nas Montanhas, acima de Y 170. Também pode ser encontrado em toda parte na Dimensão de Mineração ATM entre Y -59 e Y 20, além de cavernas na camada de ardósia do Outro."
+        }
+    ]
 }

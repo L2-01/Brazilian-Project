@@ -1,58 +1,40 @@
 {
-
-"name": "Menorá",
-    "icon": "merrymaking:menorah",
-    "category": "merrymaking:hanukkah",
-    "pages": [
-	
-		{
-			"type": "patchouli:image",
-			
-			"images": ["merrymaking:textures/gui/menorah.png"],
-			"text": "Menorá"
-		},
-		
-		{
-			"type": "spotlight",
-			"title": "Menorá",
-			"item": "merrymaking:menorah",			
-			"text": "A Menorá tem orientação direcional e foi projetada para emular o acendimento do Shamash, seguido por cada vela subsequente, da direita para a esquerda.$(br2)."
-		},
-		
-		{
-			"type": "patchouli:text",
-			"title": "Acendendo a Menorá",						
-			"text": "Para acender a Menorá, você precisará do seguinte: $(li)1 Vela Azul $(li) 8 Velas Brancas $(li)Pederneira $(br2)As velas entram na Menorá da seguinte forma: primeiro a azul, depois as Velas Brancas restantes."
-		},
-		
-		{
-			"type": "patchouli:text",
-			"title": "Acendendo a Menorá",						
-			"text": "Comece colocando o Shamash, a Vela Azul, e depois acenda-a. Em seguida, coloque a segunda e acenda-a. Repita o processo até que todas as velas estejam acesas.$(br2)Quanto mais velas acesas, mais luz a Menorá emitirá."
-		},
-		
-		{
-			"type": "patchouli:text",
-			"title": "Solução de Problemas",						
-			"text": "Se usar uma vela de cor errada, a vela colocada mais recentemente será devolvida e você poderá tentar de novo.$(br2)Se a sua Menorá não acender, remova todas as velas (basta clicar com a mão vazia) e coloque-as/acenda-as novamente na ordem correta."
-		},
-		
-				
-				
-		{
-			"type": "crafting",	
-			"title": "Menorá",
-			"recipe": "merrymaking:menorah"
-			
-		}
-		
-		
-		
-		
-		
-		
-		
-		]
-	
-	
+  "name": "Menorá",
+  "icon": "merrymaking:menorah",
+  "category": "merrymaking:hanukkah",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/menorah.png"
+      ],
+      "text": "Menorá"
+    },
+    {
+      "type": "spotlight",
+      "title": "Menorá",
+      "item": "merrymaking:menorah",
+      "text": "A Menorá tem direção e foi feita para emular o acendimento do Shamash, seguido por cada vela subsequente, da direita para a esquerda.$(br2)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Acendendo a Menorá",
+      "text": "Para acender a Menorá, você precisará do seguinte: $(li)1 Vela Azul $(li) 8 Velas Brancas $(li)Pederneira $(br2)As velas vão na Menorá assim: Azul primeiro, depois as Velas Brancas restantes."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Acendendo a Menorá",
+      "text": "Comece colocando o Shamash, a Vela Azul, e acenda-a. Depois coloque a segunda e acenda-a. Repita o processo até todas as velas estarem acesas.$(br2)Quanto mais velas acesas, mais luz a Menorá emitirá."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Solução de Problemas",
+      "text": "Se usar a vela de cor errada, ela devolverá a vela colocada mais recentemente e você pode tentar de novo.$(br2)Se sua Menorá não acender, remova todas as velas (basta clicar com a mão vazia) e coloque-as/acenda-as de novo na ordem correta."
+    },
+    {
+      "type": "crafting",
+      "title": "Menorá",
+      "recipe": "merrymaking:menorah"
+    }
+  ]
 }

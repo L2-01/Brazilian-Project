@@ -1,0 +1,17 @@
+{
+  "name": "Base de Laser de Fluido",
+  "icon": "industrialforegoing:fluid_laser_base",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 15,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Quando totalmente carregada por uma $(l:resource_production/laser_drill)Broca a Laser$(), ela produzirá fluidos. Para isso precisará de um catalisador específico que não será consumido, e a máquina precisará ser colocada num bioma específico e estar perfurando numa profundidade específica. $(br2)Alguns fluidos podem precisar de uma entidade sob a máquina para produzir o fluido. $(br2)Consulte o JEI para os valores."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_laser_base"
+    }
+  ]
+}

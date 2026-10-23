@@ -9,14 +9,14 @@
             "type": "spotlight",
             "item": "bigreactors:energizerpowerport_fe",
             "link_recipe": true,
-            "title" : "Porta de Energia FE Passiva",
-            "text": "A Porta de Energia FE Passiva permite inserir e extrair energia do Energizador.$(br2)Qualquer cabo ou máquina compatível com Forge Energy pode ser conectado à Porta de Energia FE Passiva. O bloco conectado deve extrair ou inserir energia por conta própria."
+            "title": "Porta de Energia FE Passiva",
+            "text": "A Porta de Energia FE Passiva permite inserir e extrair energia do Energizador.$(br2)Qualquer cabo ou máquina compatível com Forge Energy pode ser conectado à Porta de Energia FE Passiva. O bloco conectado precisa extrair ou inserir energia por conta própria."
         },
         {
             "type": "crafting-part_usage",
-            "crafting.title1": "Porta de Energia FE Passiva",
+            "crafting.title1": "Saída de Energia FE Passiva",
             "crafting.recipe1": "bigreactors:energizer/powerport_fe",
-            "usage.text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Interface gráfica:$() sim"
+            "usage.text": "$(l)Obrigatória:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Interface gráfica:$() sim"
         }
     ]
 }

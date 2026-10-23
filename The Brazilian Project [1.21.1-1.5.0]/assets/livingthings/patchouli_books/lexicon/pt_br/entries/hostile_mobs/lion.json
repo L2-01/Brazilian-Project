@@ -1,1 +1,19 @@
-{"name":"Leão","icon":"livingthings:lion_spawn_egg","category":"livingthings:hostile_mobs_category","pages":[{"type":"text","text":"Um animal perigoso!$(br2)$(bold)Vida: $()10 Corações$(br)$(bold)Dano de Ataque: $()2,5 Corações$(br2)$(bold)Itens de Reprodução: $()$(li)Bife Cru$(li)Frango Cru$(li)Coelho Cru"},{"type":"entity","entity":"livingthings:lion{IsMale:true}","rotate":false,"scale":0.8,"default_rotation":45,"text":"Pode ser encontrado em todos os biomas de $(bold)Savana$()."}]}
+{
+    "name": "Leão",
+    "icon": "livingthings:lion_spawn_egg",
+    "category": "livingthings:hostile_mobs_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Um animal perigoso!$(br2)$(bold)Vida: $()10 Corações$(br)$(bold)Dano de Ataque: $()2,5 Corações$(br2)$(bold)Itens de Reprodução: $()$(li)Carne de Boi Crua$(li)Frango Cru$(li)Coelho Cru"
+        },
+        {
+            "type": "entity",
+            "entity": "livingthings:lion{IsMale:true}",
+            "rotate": false,
+            "scale": 0.8,
+            "default_rotation": 45,
+            "text": "Pode ser encontrado em todos os biomas de $(bold)Savana$()."
+        }
+    ]
+}

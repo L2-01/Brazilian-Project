@@ -15,6 +15,6 @@ item_ids:
 <BlockImage id="extendedae:ex_io_port" p:powered="true" scale="8"></BlockImage>
 </Row>
 
-A Porta de E/S ME Estendida funciona oito vezes mais rápido que uma <ItemLink id="ae2:io_port" /> padrão.
+A Porta de E/S ME Estendida opera oito vezes mais rápido que a <ItemLink id="ae2:io_port" /> normal.
 
-Ela também tem mais espaços de melhoria que uma Porta de E/S padrão.
+Ela também tem mais espaços de melhoria que a normal.

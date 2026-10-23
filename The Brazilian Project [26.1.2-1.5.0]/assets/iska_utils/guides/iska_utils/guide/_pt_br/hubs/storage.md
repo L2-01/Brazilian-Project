@@ -5,11 +5,11 @@ navigation:
   parent: index.md
   position: 10
 categories:
-  - Armazenamento
+  - Storage
 ---
 # Armazenamento
 
-Armazenamento de Gaveta Profunda e blocos relacionados.
+Armazenamento com Gaveta Profunda e blocos relacionados.
 
 
 <SubPages icons={true} alphabetical={true} />

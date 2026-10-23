@@ -1,0 +1,43 @@
+{
+    "name": "Célula de Energia",
+    "icon": "rftoolspower:cell1",
+    "category": "rftoolspower:category_rftoolspower_powerstorage",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "As $(item)Células de Energia$() armazenam quantidades massivas de energia. Elas podem ser colocadas individualmente ou lado a lado para formar uma estrutura multibloco. As Células de Energia distribuirão RF automaticamente entre si e suas vizinhas, e se unirão num multibloco independentemente do nível."
+        },
+        {
+            "type": "text",
+            "text": "As Células de Energia não têm UI, mas podem ser configuradas para entrada, saída ou ignorar energia batendo no lado desejado com uma $(l:rftoolsbase:tools/smartwrench)chave inteligente$() no $(thing)Modo Chave$(). Azul é entrada, Amarelo é saída e um lado em branco não é nenhum dos dois."
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolspower:power_core1",
+            "recipe2": "rftoolspower:cell1"
+        },
+        {
+            "type": "text",
+            "text": "Por padrão, a $(item)Célula de Energia (Baixa)$() pode armazenar 500.000 RF cada."
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolspower:power_core2",
+            "recipe2": "rftoolspower:cell2"
+        },
+        {
+            "type": "text",
+            "text": "Por padrão, a $(item)Célula de Energia (Média)$() pode armazenar 4.000.000 RF cada."
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftoolspower:power_core3",
+            "recipe2": "rftoolspower:cell3"
+        },
+        {
+            "type": "text",
+            "text": "Por padrão, a $(item)Célula de Energia (Alta)$() pode armazenar 20.000.000 RF cada. Isso é muito RF!"
+        }
+    ]
+}

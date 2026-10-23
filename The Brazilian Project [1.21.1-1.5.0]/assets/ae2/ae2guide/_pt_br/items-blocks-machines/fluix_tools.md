@@ -28,11 +28,11 @@ item_ids:
   <ItemImage id="fluix_sword" scale="4" />
 </Row>
 
-Ferramentas de [Fluix](fluix_crystal.md) são semelhantes a ferramentas de ferro, tendo 3x a durabilidade e dano de ataque e velocidade de mineração levemente maiores.
+Ferramentas de [Fluix](fluix_crystal.md) são parecidas com ferramentas de ferro, tendo 3x a durabilidade e dano de ataque e velocidade de mineração levemente maiores.
 
-Todas as ferramentas de fluix agem como se tivessem pelo menos fortuna/saque 1, o que é útil antes de ter acesso a uma mesa de encantamentos.
+Todas as ferramentas de fluix agem como se tivessem pelo menos fortuna/pilhagem 1, o que é útil antes de ter acesso a uma mesa de encantamento.
 
-Você precisará fazer um <ItemLink id="fluix_upgrade_smithing_template" />.
+Você precisará fazer uma <ItemLink id="fluix_upgrade_smithing_template" />
 
 ## Receitas
 

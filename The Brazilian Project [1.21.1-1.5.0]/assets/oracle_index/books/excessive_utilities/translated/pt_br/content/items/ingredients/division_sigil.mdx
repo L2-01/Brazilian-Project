@@ -1,0 +1,68 @@
+---
+title: Símbolo da Divisão
+id: excessive_utilities:division_sigil
+related_items: [excessive_utilities:division_sigil]
+type: item
+---
+O **Símbolo da Divisão** é usado para criar [Lingotes Instáveis](@excessive_utilities:unstable_ingot). Um Símbolo não invertido pode guardar até 256 usos. O ritual de ativação restaura esses usos, enquanto um ritual muito mais exigente pode inverter o Símbolo no **Símbolo da Pseudoinversão**, que tem usos ilimitados.
+
+Use um Símbolo não invertido no bloco central de qualquer um dos rituais para verificar a montagem. Ele dirá se a estrutura está pronta e, quando possível, onde algo está faltando.
+
+## Ritual de Ativação
+
+O ritual de ativação deve ser montado num bioma da Superfície. Coloque uma Mesa de Encantamentos no centro da seguinte montagem:
+
+<Asset location="excessive_utilities:wiki/division_sigil_activation" width={768} alt="An Enchanting Table surrounded by a ring of Redstone Dust for the Division Sigil activation ritual" />
+
+- A Mesa de Encantamentos deve ter visão desobstruída do céu.
+- Cerque-a com Pó de Redstone nos oito blocos na mesma altura.
+- Construa uma camada sólida 11×11 de blocos na tag `#minecraft:dirt` diretamente abaixo dela.
+- Mantenha o bloco acima da Mesa de Encantamentos no nível de luz de bloco 7 ou menor.
+- Execute o ritual por volta da meia-noite, entre 17.500 e 18.500 tiques do dia do Minecraft.
+
+Quando a montagem estiver pronta, mate qualquer criatura perto da Mesa de Encantamentos. O Símbolo da Divisão de menor carga em qualquer lugar do inventário do matador é ativado e preenchido até 256 usos. O bloco sob a mesa também é convertido em [Terra Amaldiçoada](@excessive_utilities:cursed_earth), que imediatamente começa a se espalhar pela plataforma de terra.
+
+Apenas o jogador que desferir o golpe mortal tem um Símbolo ativado.
+
+## Ritual de Inversão
+
+O ritual de inversão acontece num bioma do End. Coloque um Sinalizador no centro e depois construa este padrão 9×9 na mesma altura. `◼` é Pó de Redstone, `◻` é Linha e `B` é o Sinalizador. O sul está no topo do diagrama e o leste está à esquerda.
+
+<Asset location="excessive_utilities:wiki/division_sigil_inversion" width={768} alt="A completed Division Sigil inversion ritual with a Beacon, Redstone Dust, String, and four chests" />
+
+*Um ritual de inversão concluído. A lã colorida sob o Pó de Redstone e a Linha está lá apenas para facilitar a visualização do padrão.*
+
+```
+◼◻◻◻◻◻◻◻◻
+◼◻◼◼◼◼◼◼◼
+◼◻◼◻◻◻◻◻◼
+◼◻◼◻◼◼◼◻◼
+◼◻◼◻B◻◼◻◼
+◼◻◼◼◼◻◼◻◼
+◼◻◻◻◻◻◼◻◼
+◼◼◼◼◼◼◼◻◼
+◻◻◻◻◻◻◻◻◼
+```
+
+Coloque um inventário cinco blocos ao norte, sul, leste e oeste do Sinalizador. Cada um deve ser acessível pelo lado virado para o Sinalizador e conter o seguinte:
+
+- **Norte — Filhos do Fogo:** 12 itens distintos correspondentes. Os padrões incluem pedra, vidro, terracota, carvão, lingotes de metal, comida cozida, tijolos, pão e corante verde.
+- **Sul — Dádivas da Terra:** 12 itens distintos correspondentes. Os padrões incluem terra, areia, cascalho, minérios da Superfície, Obsidiana, Blocos de Grama e Argila.
+- **Leste — Descendentes da Água:** 12 itens correspondentes no total. Poções são incluídas por padrão; diferente das outras direções, elas são contadas por quantidade, e não por tipo único de item.
+- **Oeste — Especiarias do Ar:** 12 itens distintos correspondentes. Discos de Música são incluídos por padrão.
+
+As listas exatas de ingredientes são tags de datapack e podem ser alteradas por um modpack. Veja [Tags de Datapack]($devs/datapack_tags) para seus IDs.
+
+Quando a estrutura estiver pronta, o jogador carregando um Símbolo da Divisão não invertido deve matar um Golem de Ferro perto do Sinalizador. Isso inicia o ritual.
+
+## Sobrevivendo à Inversão
+
+O ritual invoca repetidamente monstros Amaldiçoados perto do jogador que o iniciou. Esses inimigos são mais rápidos, batem mais forte e perseguem ativamente jogadores próximos. Mate 100 monstros gerados pelo ritual para completá-lo na configuração padrão.
+
+O jogador iniciante deve permanecer vivo, no End e dentro da grande área ativa do ritual. Sair ou morrer encerra o ritual sem inverter o Símbolo. Quando o ritual termina, seus monstros Amaldiçoados restantes são removidos.
+
+Em caso de sucesso, um Símbolo da Divisão não invertido carregado por cada jogador na área do ritual se torna um Símbolo da Pseudoinversão.
+
+Donos de servidor podem configurar o atraso entre ondas, monstros gerados por onda, máximo de monstros do ritual vivos e número de mortes necessárias.
+
+<PrefabObtaining/>

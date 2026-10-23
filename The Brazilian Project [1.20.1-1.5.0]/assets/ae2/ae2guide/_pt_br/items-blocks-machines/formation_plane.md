@@ -20,7 +20,7 @@ O Plano de Formação coloca blocos e larga itens. Ele funciona de forma semelha
 colocando/largando quando coisas são "armazenadas" nele por [dispositivos](../ae2-mechanics/devices.md) inserindo no [armazenamento da rede](../ae2-mechanics/import-export-storage.md),
 como <ItemLink id="import_bus" />s e <ItemLink id="interface" />s.
 
-<GameScene zoom="8" interactive={true}>
+<GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/formation_plane_demonstration.snbt" />
   <IsometricCamera yaw="255" pitch="30" />
 </GameScene>

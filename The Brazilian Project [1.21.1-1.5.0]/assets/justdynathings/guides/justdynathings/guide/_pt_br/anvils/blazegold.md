@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Bigorna de BlazeGold
+  title: Bigorna de Ouro de Blaze
   icon: "justdynathings:blazegold_anvil"
   position: 2
   parent: justdynathings:anvils.md
@@ -8,7 +8,7 @@ item_ids:
   - justdynathings:blazegold_anvil
 ---
 
-# Bigorna de BlazeGold
+# Bigorna de Ouro de Blaze
 
 Uma bigorna que repara itens usando [fluidos de alta temperatura](https://github.com/DevDyna/JustDynaThings/blob/main/src/generated/resources/data/justdynathings/data_maps/fluid/anvils/blazegold_repair.json)
 

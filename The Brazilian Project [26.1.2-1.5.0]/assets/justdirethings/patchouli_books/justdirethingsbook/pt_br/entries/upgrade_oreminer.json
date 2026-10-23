@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A melhoria Minerador é uma habilidade passiva que pode ser instalada em picaretas a partir de Ferricoro. Ela minera automaticamente blocos de minério conectados ao que você minera — meio como um \"minerador de filões\", mas só para minérios, e automático."
+      "text": "A melhoria Minerador é uma habilidade passiva que pode ser instalada em picaretas a partir de Ferricoro. Ela minera automaticamente os blocos de minério conectados ao que você minerou — como um 'minerador de veio', mas só para minérios, e automática."
     },
     {
       "type": "patchouli:crafting",
-      "title": "Fabricação da Melhoria Minerador",
+      "title": "Fabricação da Melhoria: Minerador",
       "recipe": "justdirethings:upgrade_oreminer"
     }
   ]

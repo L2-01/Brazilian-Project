@@ -34,33 +34,33 @@ item_ids:
   <BlockImage id="crafting_unit" scale="4" />
 </Row>
 
-CPUs de fabricação gerenciam pedidos/tarefas de fabricação. Elas armazenam os ingredientes intermediários enquanto tarefas de fabricação com múltiplas etapas são
-executadas, e afetam o tamanho das tarefas e, até certo ponto, a velocidade com que são concluídas. Veja [autofabricação](../ae2-mechanics/autocrafting.md)
+CPUs de Fabricação gerenciam requisições/trabalhos de fabricação. Elas armazenam os ingredientes intermediários enquanto trabalhos com várias etapas estão
+sendo executados, e afetam o tamanho máximo dos trabalhos e, em certa medida, a velocidade com que são concluídos. Veja [fabricação automática](../ae2-mechanics/autocrafting.md)
 para mais detalhes.
 
-Cada CPU de fabricação lida com 1 pedido ou tarefa, então se você quiser pedir tanto um processador de cálculo quanto 256 pedras lisas de uma vez, você precisa de 2 multiblocos de CPU.
+Cada CPU de fabricação lida com 1 requisição ou trabalho, então se você quiser pedir um processador de cálculo e 256 pedras lisas ao mesmo tempo, precisa de 2 multiblocos de CPU.
 
-Elas podem ser configuradas para lidar com pedidos de jogadores, de automação (pontos de exportação e interfaces), ou de ambos.
+Elas podem ser configuradas para atender requisições de jogadores, de automação (pontos de exportação e interfaces) ou de ambos.
 
-Clicar com o botão direito numa abre uma UI de status de fabricação onde você pode conferir o progresso da tarefa de fabricação que a CPU está lidando.
+Clicar com o botão direito em uma abre uma UI de estado de fabricação onde você pode acompanhar o progresso do trabalho que a CPU está executando.
 
 ## Configurações
 
-*   A CPU pode ser configurada para aceitar pedidos apenas de jogadores, apenas de automação (como <ItemLink id="export_bus" />s com
-    <ItemLink id="crafting_card" />s), ou de ambos.
+*   A CPU pode ser configurada para aceitar requisições só de jogadores, só de automação (como <ItemLink id="export_bus" />es com
+    <ItemLink id="crafting_card" />s) ou de ambos.
 
 ## Construção
 
-CPUs de fabricação são multiblocos e devem ser prismas retangulares sólidos sem lacunas. São feitos de vários componentes.
+CPUs de Fabricação são multiblocos e devem ser prismas retangulares sólidos, sem vãos. Elas são feitas de vários componentes.
 
-Cada CPU deve conter pelo menos 1 bloco de armazenamento de fabricação (e a CPU mínima viável é de fato apenas um único armazenamento de fabricação de 1k).
+Cada CPU deve conter pelo menos 1 bloco de armazenamento de fabricação (e a CPU mínima viável é, de fato, apenas um único armazenamento de fabricação de 1k).
 
-# Unidade de Fabricação
+# Unidade de fabricação
 
 <BlockImage id="crafting_unit" scale="4" />
 
 (Opcional) Unidades de fabricação simplesmente preenchem espaço numa CPU para torná-la um prisma retangular sólido, se você não tiver
-dos outros componentes em quantidade suficiente. Elas também são um ingrediente base dos outros componentes.
+componentes suficientes dos outros tipos. Elas também são um ingrediente base dos outros componentes.
 
 <RecipeFor id="crafting_unit" />
 
@@ -79,8 +79,8 @@ dos outros componentes em quantidade suficiente. Elas também são um ingredient
 </Row>
 
 (Obrigatório) Armazenamentos de fabricação estão disponíveis em todos os tamanhos padrão de célula (1k, 4k, 16k, 64k, 256k). Eles armazenam os ingredientes e
-ingredientes intermediários envolvidos numa fabricação, então armazenamentos maiores ou em maior número são necessários para a CPU lidar com tarefas de fabricação
-com mais ingredientes.
+ingredientes intermediários envolvidos numa fabricação, então armazenamentos maiores ou em maior número são necessários para a CPU lidar com trabalhos
+de fabricação com mais ingredientes.
 
 <Column>
   <Row>
@@ -98,20 +98,20 @@ com mais ingredientes.
   </Row>
 </Column>
 
-# Unidade de Co-Processamento de Fabricação
+# Unidade de Co Processamento de Fabricação
 
 <BlockImage id="crafting_accelerator" scale="4" />
 
-(Opcional) Co-processadores de fabricação fazem o sistema enviar lotes de ingredientes de <ItemLink id="pattern_provider" />s com mais frequência,
+(Opcional) Coprocessadores de fabricação fazem o sistema enviar lotes de ingredientes dos <ItemLink id="pattern_provider" />s com mais frequência,
 fazendo a CPU processar mais rápido.
-Isso permite que acompanhem máquinas que processam rapidamente. Um exemplo disso é um provedor de padrões cercado de
-<ItemLink id="molecular_assembler" />s sendo capaz de empurrar ingredientes mais rápido do que um único montador consegue processar, e assim
-distribuindo os lotes de ingredientes entre os montadores ao redor.
+Isso permite acompanhar máquinas que processam rápido. Um exemplo é um provedor de padrões cercado de
+<ItemLink id="molecular_assembler" />s sendo capaz de empurrar ingredientes mais rápido do que um único montador consegue processar,
+distribuindo assim os lotes de ingredientes entre os montadores ao redor.
 
-Algumas receitas complexas têm múltiplas etapas que podem ser feitas em paralelo, como fazer tábuas e livros simultaneamente para fazer estantes.
-Na tela de status de fabricação (visível clicando com o botão direito numa CPU ou pelo ícone de martelo num [terminal](terminals.md)), essas
-etapas aparecerão todas como "agendadas". Cada coprocessador extra permite que mais uma dessas etapas seja feita em paralelo (e então apareça como "fabricando").
-No entanto, isso não é tão relevante, porque você normalmente terá mais coprocessadores puramente pela velocidade de inserção do que uma receita tem etapas que poderiam concebivelmente ser feitas em paralelo.
+Algumas receitas complexas têm várias etapas que podem ser feitas em paralelo, como fazer tábuas e livros simultaneamente para fazer estantes.
+Na tela de estado de fabricação (visível clicando com o botão direito numa CPU ou pelo ícone de martelo num [terminal](terminals.md)), essas
+etapas aparecerão como "agendadas". Cada coprocessador extra permite que mais uma dessas etapas seja feita em paralelo (aparecendo então como "fabricando").
+Porém, isso não é tão relevante, porque normalmente você terá mais coprocessadores pela velocidade de inserção do que etapas de receita que poderiam ser feitas em paralelo.
 
 <RecipeFor id="crafting_accelerator" />
 
@@ -119,7 +119,7 @@ No entanto, isso não é tão relevante, porque você normalmente terá mais cop
 
 <BlockImage id="crafting_monitor" scale="4" />
 
-(Opcional) O monitor de fabricação exibe a tarefa que a CPU está lidando no momento.
+(Opcional) O monitor de fabricação exibe o trabalho que a CPU está executando no momento.
 A tela pode ser colorida com um <ItemLink id="color_applicator" />.
 
 <RecipeFor id="crafting_monitor" />

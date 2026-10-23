@@ -1,1 +1,35 @@
-{"name":"Cerejeira","icon":"minecraft:cherry_sapling","category":"bonsaitrees4:minecraft","pages":[{"type":"bonsaitrees4:tree","tree_name":"Cerejeira","tree_sapling":"minecraft:cherry_sapling"},{"type":"patchouli:link","title":"No Minecraft","text":"As cerejeiras têm folhas rosas distintas e galhos curvos, com alguma semelhança às acácias. Elas surgem naturalmente apenas no bioma de cerejal.","url":"https://minecraft.wiki/w/Cherry","link_text":"Minecraft Wiki"},{"type":"patchouli:link","title":"Na Terra","text":"A flor de cerejeira, ou sakura, é a flor das árvores do subgênero Cerasus do gênero Prunus. \"Sakura\" geralmente se refere às flores de cerejeiras ornamentais, como cultivares de Prunus serrulata, e não às árvores cultivadas por seus frutos. São comuns no Leste Asiático, especialmente no Japão, onde foram cultivadas, produzindo muitas variedades.","url":"https://en.wikipedia.org/wiki/Cherry_blossom","link_text":"Wikipedia"},{"type":"patchouli:image","border":true,"images":["bonsaitrees4:textures/patchouli/cherry_tree.png","bonsaitrees4:textures/patchouli/cherry_leaves.png","bonsaitrees4:textures/patchouli/cherry_tea.png"]}]}
+{
+    "name": "Cerejeira",
+    "icon": "minecraft:cherry_sapling",
+    "category": "bonsaitrees4:minecraft",
+    "pages": [
+        {
+            "type": "bonsaitrees4:tree",
+            "tree_name": "Cerejeira",
+            "tree_sapling": "minecraft:cherry_sapling"
+        },
+        {
+            "type": "patchouli:link",
+            "title": "No Minecraft",
+            "text": "Cerejeiras têm folhas rosas distintas e galhos curvos, com alguma semelhança às acácias. Elas aparecem naturalmente apenas no bioma de bosque de cerejeiras.",
+            "url": "https://minecraft.wiki/w/Cherry",
+            "link_text": "Minecraft Wiki"
+        },
+        {
+            "type": "patchouli:link",
+            "title": "No Mundo Real",
+            "text": "A flor de cerejeira, ou sakura, é a flor de árvores do subgênero Cerasus de Prunus. \"Sakura\" geralmente se refere às flores de cerejeiras ornamentais, como cultivares de Prunus serrulata, não a árvores cultivadas por seus frutos. São comuns no Leste Asiático, especialmente no Japão, onde foram cultivadas, produzindo muitas variedades.",
+            "url": "https://en.wikipedia.org/wiki/Cherry_blossom",
+            "link_text": "Wikipedia"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "images": [
+                "bonsaitrees4:textures/patchouli/cherry_tree.png",
+                "bonsaitrees4:textures/patchouli/cherry_leaves.png",
+                "bonsaitrees4:textures/patchouli/cherry_tea.png"
+            ]
+        }
+    ]
+}

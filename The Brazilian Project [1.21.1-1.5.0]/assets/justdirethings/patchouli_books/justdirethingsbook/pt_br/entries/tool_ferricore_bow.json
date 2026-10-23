@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O Arco de Ferricoro, fabricado de Ferricoro robusto, aprimora as funcionalidades do arco comum com durabilidade aumentada e a capacidade de ser melhorado com várias habilidades.$(br2)Este arco inclui um espaço especial para Recipiente de Poção na UI de configurações da ferramenta, permitindo aprimorar flechas com vários efeitos de poção. Insira um $(l:justdirethings:item_potion_canister)Recipiente de Poção$(/l) para aplicar efeitos."
+      "text": "O Arco de Ferricoro, fabricado com resistente Ferricoro, aprimora as funcionalidades do arco comum com durabilidade aumentada e a capacidade de receber várias habilidades.$(br2)Este arco inclui um espaço especial para Recipiente de Poção na interface de configurações da ferramenta, permitindo aprimorar as flechas com vários efeitos de poção. Insira um $(l:justdirethings:item_potion_canister)Recipiente de Poção$(/l) para aplicar efeitos."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "justdirethings:bow_ferricore",
-      "text": "Fabricação do Arco de Ferricoro"
+      "text": "Fabricação: Arco de Ferricoro"
     }
   ]
 }

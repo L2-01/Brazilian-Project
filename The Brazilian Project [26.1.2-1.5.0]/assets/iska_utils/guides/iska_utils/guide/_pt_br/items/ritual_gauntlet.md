@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:ritual_gauntlet
 categories:
-  - Entrega Suspeita
+  - Suspicious Delivery
 ---
 # Manopla Ritual
 
@@ -15,7 +15,7 @@ categories:
 
 ## O que faz
 
-**Artefato arcano** que pertenceu a um alquimista; runas de significado desconhecido o cobrem. Vista no **Curios** (mãos). Enquanto qualquer **efeito de poção** estiver ativo em você, golpes podem ativar **dano crítico bônus** — mais forte quando seus efeitos ativos são **nocivos** do que quando são **benéficos** ou **neutros**. Chances exatas na dica do item.
+**Artefato arcano** que pertenceu a um alquimista; runas de significado desconhecido a cobrem. Use no **Curios** (mãos). Enquanto qualquer **efeito de poção** estiver ativo em você, seus golpes podem ativar **dano crítico bônus** — mais forte quando seus efeitos ativos são **prejudiciais** do que quando são **benéficos** ou **neutros**. As chances exatas estão no tooltip do item.
 
 ## Como obter
 

@@ -23,9 +23,9 @@ item_ids:
 </Row>
 
 Células de energia dão à rede mais armazenamento de [energia](../ae2-mechanics/energy.md). Uma certa quantidade de buffer de energia ajuda a suavizar
-picos de consumo de energia quando grandes quantidades de itens são inseridas ou extraídas, e quantidades maiores de armazenamento de energia
-permitem que a rede funcione enquanto energia não está sendo gerada (como à noite com painéis solares) ou lidar com o enorme consumo instantâneo
-de energia do [armazenamento espacial](../ae2-mechanics/spatial-io.md).
+picos de consumo quando grandes quantidades de itens são inseridas ou extraídas, e quantidades maiores de armazenamento de energia
+permitem que a rede funcione enquanto energia não está sendo gerada (como à noite com painéis solares) ou aguentam o consumo instantâneo
+massivo do [armazenamento espacial](../ae2-mechanics/spatial-io.md).
 
 ## Barras de Carga
 
@@ -47,11 +47,11 @@ As barras na lateral de uma célula correspondem a quanta energia ela tem.
 
 ## Tipos de Célula
 
-*   A <ItemLink id="energy_cell" /> pode armazenar 200 mil AE, e apenas uma deve ser suficiente para a maioria dos casos de uso, lidando com os picos de energia
-    do uso normal da rede com folga.
-*   A <ItemLink id="dense_energy_cell" /> pode armazenar 1,6M AE e serve para quando você quer rodar uma rede a partir de energia armazenada, ou
-    lidar com o enorme consumo instantâneo de energia de grandes esquemas de [armazenamento espacial](../ae2-mechanics/spatial-io.md).
-*   A <ItemLink id="creative_energy_cell" /> é um item do criativo para testes, fornecendo ENERGIA ILIMITADAAAA ou algo assim.
+*   A <ItemLink id="energy_cell" /> pode armazenar 200k AE, e apenas uma deve ser suficiente para a maioria dos casos, lidando com os picos de energia
+    do uso normal da rede com facilidade.
+*   A <ItemLink id="dense_energy_cell" /> pode armazenar 1,6M AE e serve para quando você quer operar uma rede a partir de energia armazenada ou
+    lidar com o consumo instantâneo massivo de grandes configurações de [armazenamento espacial](../ae2-mechanics/spatial-io.md).
+*   A <ItemLink id="creative_energy_cell" /> é um item criativo para testes, fornecendo ENERGIA ILIMITADAAAA ou algo assim.
 
 ## Receitas
 

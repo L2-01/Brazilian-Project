@@ -1,0 +1,48 @@
+---
+title: Porto de Drones
+id: oritech:drone_port_block
+type: block
+---
+
+O porto de drones habilita a logística de longa distância transportando itens e
+fluidos por meio de drones voadores autônomos.
+Ele exige um porto de drones correspondente tanto na posição de decolagem
+quanto na de pouso.
+
+---
+
+**Logística e Mira**
+
+Para estabelecer uma conexão, use um [designador de alvo](@oritech:target_designator)
+para vincular um porto remetente a um destino específico.
+Os portos de destino podem estar em outra dimensão e precisam estar em
+áreas com chunks carregados. Dentro da mesma dimensão, eles devem estar a pelo menos
+50 blocos de distância.
+Embora um porto só possa enviar para um destino, ele pode receber
+remessas de vários portos externos. Porém, se um porto estiver enviando itens continuamente, ele pode "entupir"
+um porto de destino e impedir que remessas de outros portos cheguem.
+
+---
+
+**Energia e Melhorias**
+
+- **Custo de Viagem**: o tempo de entrega é constante, mas o
+consumo de energia escala com a distância segundo
+`sqrt(distance) * 50 + 1024` RF. Rotas entre dimensões usam a
+distância de coordenadas entre os portos para esse cálculo.
+- **Transporte de Fluidos**: para transportar líquidos, tanto o porto remetente
+quanto o receptor devem estar equipados com um
+[complemento de fluido](@oritech:machine_fluid_addon).
+- **Automação**: acoplar um [complemento de unidade de controle](@oritech:machine_redstone_addon)
+permite monitorar os níveis de inventário e o status operacional.
+
+**Modos de Controle por Redstone**
+
+O complemento de unidade de controle habilita saídas avançadas de comparador:
+- **Medição de Energia**: força do sinal baseada na energia armazenada.
+- **Medição de Espaço de Inventário**: força do sinal baseada na maior
+quantidade de material (item ou fluido).
+- **Medição de Progresso**: sinal baseado no progresso da operação.
+- **Medição de Atividade**: sinal baseado no estado (ocioso, enviando, recebendo).
+- **Controle de Entrada**: energizar o complemento impede o porto de
+enviar ou receber.

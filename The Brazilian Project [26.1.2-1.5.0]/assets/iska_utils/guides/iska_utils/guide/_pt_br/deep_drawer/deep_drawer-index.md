@@ -8,7 +8,7 @@ navigation:
 
 # Gaveta Profunda
 
-Um sistema de armazenamento completo projetado para itens não empilháveis. O sistema de Gavetas Profundas consiste num bloco de armazenamento principal e vários módulos que estendem sua funcionalidade.
+Um sistema de armazenamento completo projetado para itens não empilháveis. O sistema de Gavetas Profundas consiste num bloco de armazenamento principal e vários módulos que expandem sua funcionalidade.
 
 ## Componentes Principais
 

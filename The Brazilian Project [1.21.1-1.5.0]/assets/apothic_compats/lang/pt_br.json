@@ -350,6 +350,26 @@
     "affix.apothic_compats:curios/attribute/ancient/lacerating": "Dilacerante",
     "affix.apothic_compats:curios/attribute/ancient/lacerating.suffix": "da Precisão Cirúrgica",
 
+    "affix.apothic_compats:curios/attribute/piercing": "Penetrante",
+    "affix.apothic_compats:curios/attribute/piercing.suffix": "do Destruidor",
+    "affix.apothic_compats:curios/attribute/ancient/piercing": "Penetrante",
+    "affix.apothic_compats:curios/attribute/ancient/piercing.suffix": "do Destruidor",
+
+    "affix.apothic_compats:curios/attribute/shredding": "Dilacerar",
+    "affix.apothic_compats:curios/attribute/shredding.suffix": "do Maelstrom",
+    "affix.apothic_compats:curios/attribute/ancient/shredding": "Dilacerar",
+    "affix.apothic_compats:curios/attribute/ancient/shredding.suffix": "do Maelstrom",
+
+    "affix.apothic_compats:curios/attribute/runebreaking": "Quebra-Runas",
+    "affix.apothic_compats:curios/attribute/runebreaking.suffix": "do Quebrador de Runas",
+    "affix.apothic_compats:curios/attribute/ancient/runebreaking": "Quebra-Runas",
+    "affix.apothic_compats:curios/attribute/ancient/runebreaking.suffix": "do Quebrador de Runas",
+
+    "affix.apothic_compats:curios/attribute/nullifying": "Anulante",
+    "affix.apothic_compats:curios/attribute/nullifying.suffix": "da Anulação",
+    "affix.apothic_compats:curios/attribute/ancient/nullifying": "Anulante",
+    "affix.apothic_compats:curios/attribute/ancient/nullifying.suffix": "da Anulação",
+
     "affix.apothic_compats:curios/attribute/graceful": "Gracioso",
     "affix.apothic_compats:curios/attribute/graceful.suffix": "do Duelista",
     "affix.apothic_compats:curios/attribute/ancient/graceful": "Gracioso",
@@ -895,9 +915,9 @@
     "affix.apothic_compats:scythe/attribute/ancient/runebreaking.suffix": "do Quebrador de Runas",
 
     "affix.apothic_compats:scythe/attribute/nullifying": "Nulificador",
-    "affix.apothic_compats:scythe/attribute/nullifying.suffix": "do Quebra-Magos",
+    "affix.apothic_compats:scythe/attribute/nullifying.suffix": "da Anulação",
     "affix.apothic_compats:scythe/attribute/ancient/nullifying": "Nulificador",
-    "affix.apothic_compats:scythe/attribute/ancient/nullifying.suffix": "do Quebra-Magos",
+    "affix.apothic_compats:scythe/attribute/ancient/nullifying.suffix": "da Anulação",
 
     "affix.apothic_compats:scythe/attribute/giant_slaying": "Matador de Gigantes",
     "affix.apothic_compats:scythe/attribute/giant_slaying.suffix": "de Golpes Colossais",
@@ -1134,8 +1154,98 @@
     "affix.apothic_compats:gun/mob_effect/ancient/blighted": "Arruinado",
     "affix.apothic_compats:gun/mob_effect/ancient/blighted.suffix": "das Terras Arruinadas",
 
-    "affix.apotheosis:ranged/mob_effect/deathbound": "Preso à Morte",
-    "affix.apotheosis:ranged/mob_effect/deathbound.suffix": "do Senhor da Putrefação",
-    "affix.apotheosis:ranged/mob_effect/ancient/deathbound": "Preso à Morte",
-    "affix.apotheosis:ranged/mob_effect/ancient/deathbound.suffix": "do Senhor da Putrefação"
+    "affix.apothic_compats:gun/mob_effect/deathbound": "Preso à Morte",
+    "affix.apothic_compats:gun/mob_effect/deathbound.suffix": "do Senhor da Putrefação",
+    "affix.apothic_compats:gun/mob_effect/ancient/deathbound": "Preso à Morte",
+    "affix.apothic_compats:gun/mob_effect/ancient/deathbound.suffix": "do Senhor da Putrefação",
+
+    "affix.apothic_compats:gun/spell/fire_arrow": "Flamejante",
+    "affix.apothic_compats:gun/spell/fire_arrow.suffix": "do Impacto Ardente",
+    "affix.apothic_compats:gun/spell/ancient/fire_arrow": "Flamejante",
+    "affix.apothic_compats:gun/spell/ancient/fire_arrow.suffix": "do Impacto Ardente",
+
+    "affix.apothic_compats:gun/spell/magic_arrow": "Tocado pelo Vazio",
+    "affix.apothic_compats:gun/spell/magic_arrow.suffix": "das Marcas do Ender",
+    "affix.apothic_compats:gun/spell/ancient/magic_arrow": "Tocado pelo Vazio",
+    "affix.apothic_compats:gun/spell/ancient/magic_arrow.suffix": "das Marcas do Ender",
+
+    "affix.apothic_compats:gun/spell/poison_arrow": "Peçonhento",
+    "affix.apothic_compats:gun/spell/poison_arrow.suffix": "das Saraivadas Envenenadas",
+    "affix.apothic_compats:gun/spell/ancient/poison_arrow": "Peçonhento",
+    "affix.apothic_compats:gun/spell/ancient/poison_arrow.suffix": "das Saraivadas Envenenadas",
+
+    "affix.apothic_compats:gun/spell/sunbeam": "Celestial",
+    "affix.apothic_compats:gun/spell/sunbeam.suffix": "de Sol Invictus",
+    "affix.apothic_compats:gun/spell/ancient/sunbeam": "Celestial",
+    "affix.apothic_compats:gun/spell/ancient/sunbeam.suffix": "de Sol Invictus",
+
+    "affix.apothic_compats:gun/spell/volley": "Dispersante",
+    "affix.apothic_compats:gun/spell/volley.suffix": "dos Disparos Dispersos",
+    "affix.apothic_compats:gun/spell/ancient/volley": "Dispersante",
+    "affix.apothic_compats:gun/spell/ancient/volley.suffix": "dos Disparos Dispersos",
+
+    "affix.apothic_compats:gun/spell/missile": "Balístico",
+    "affix.apothic_compats:gun/spell/missile.suffix": "da Mira Certeira",
+    "affix.apothic_compats:gun/spell/ancient/missile": "Balístico",
+    "affix.apothic_compats:gun/spell/ancient/missile.suffix": "da Mira Certeira",
+
+    "affix.apothic_compats:gun/spell/firecracker": "Coruscante",
+    "affix.apothic_compats:gun/spell/firecracker.suffix": "dos Fogos de Artifício",
+    "affix.apothic_compats:gun/spell/ancient/firecracker": "Coruscante",
+    "affix.apothic_compats:gun/spell/ancient/firecracker.suffix": "dos Fogos de Artifício",
+
+    "affix.apothic_compats:gun/spell/guided_bolt": "Guiado",
+    "affix.apothic_compats:gun/spell/guided_bolt.suffix": "do Poder Sagrado",
+    "affix.apothic_compats:gun/spell/ancient/guided_bolt": "Guiado",
+    "affix.apothic_compats:gun/spell/ancient/guided_bolt.suffix": "do Poder Sagrado",
+
+    "affix.apothic_compats:gun/spell/firebolt": "Ardente",
+    "affix.apothic_compats:gun/spell/firebolt.suffix": "da Chama",
+    "affix.apothic_compats:gun/spell/ancient/firebolt": "Ardente",
+    "affix.apothic_compats:gun/spell/ancient/firebolt.suffix": "da Chama",
+
+    "affix.apothic_compats:gun/spell/icicle": "Gelado",
+    "affix.apothic_compats:gun/spell/icicle.suffix": "da Geada",
+    "affix.apothic_compats:gun/spell/ancient/icicle": "Gelado",
+    "affix.apothic_compats:gun/spell/ancient/icicle.suffix": "da Geada",
+
+    "affix.apothic_compats:gun/spell/chain_lightning": "Eletrocutante",
+    "affix.apothic_compats:gun/spell/chain_lightning.suffix": "da Corrente",
+    "affix.apothic_compats:gun/spell/ancient/chain_lightning": "Eletrocutante",
+    "affix.apothic_compats:gun/spell/ancient/chain_lightning.suffix": "da Corrente",
+
+    "affix.apothic_compats:gun/spell/chain_creeper": "Rastejante",
+    "affix.apothic_compats:gun/spell/chain_creeper.suffix": "das Explosões",
+    "affix.apothic_compats:gun/spell/ancient/chain_creeper": "Rastejante",
+    "affix.apothic_compats:gun/spell/ancient/chain_creeper.suffix": "das Explosões",
+
+    "affix.apothic_compats:gun/spell/root": "Enraizado",
+    "affix.apothic_compats:gun/spell/root.suffix": "do Imóvel",
+    "affix.apothic_compats:gun/spell/ancient/root": "Enraizado",
+    "affix.apothic_compats:gun/spell/ancient/root.suffix": "do Imóvel",
+
+    "affix.apothic_compats:gun/spell/starfall": "Astral",
+    "affix.apothic_compats:gun/spell/starfall.suffix": "das Estrelas",
+    "affix.apothic_compats:gun/spell/ancient/starfall": "Astral",
+    "affix.apothic_compats:gun/spell/ancient/starfall.suffix": "das Estrelas",
+
+    "affix.apothic_compats:gun/spell/blizzard": "Ártico",
+    "affix.apothic_compats:gun/spell/blizzard.suffix": "dos Ventos Gélidos",
+    "affix.apothic_compats:gun/spell/ancient/blizzard": "Ártico",
+    "affix.apothic_compats:gun/spell/ancient/blizzard.suffix": "dos Ventos Gélidos",
+
+    "affix.apothic_compats:gun/spell/lightning_lance": "Eletrificante",
+    "affix.apothic_compats:gun/spell/lightning_lance.suffix": "dos Raios",
+    "affix.apothic_compats:gun/spell/ancient/lightning_lance": "Eletrificante",
+    "affix.apothic_compats:gun/spell/ancient/lightning_lance.suffix": "dos Raios",
+
+    "affix.apothic_compats:gun/spell/fortify": "Fortificado",
+    "affix.apothic_compats:gun/spell/fortify.suffix": "da Resiliência",
+    "affix.apothic_compats:gun/spell/ancient/fortify": "Fortificado",
+    "affix.apothic_compats:gun/spell/ancient/fortify.suffix": "da Resiliência",
+
+    "affix.apothic_compats:gun/spell/shockwave": "Supersônico",
+    "affix.apothic_compats:gun/spell/shockwave.suffix": "do Poder",
+    "affix.apothic_compats:gun/spell/ancient/shockwave": "Supersônico",
+    "affix.apothic_compats:gun/spell/ancient/shockwave.suffix": "do Poder"
 }

@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:portable_dislocator
 categories:
-  - Combate e viagem
+  - Combat and travel
 ---
 # Deslocador Portátil
 
@@ -15,8 +15,8 @@ categories:
 
 ## O que faz
 
-- Ferramenta de teletransporte de curto alcance que salta em direção ao alvo de uma **bússola de busca** que você esteja segurando (por exemplo **Nature's Compass** ou **Explorer's Compass**).
+- Ferramenta de teletransporte de curto alcance que pula em direção ao alvo de uma **bússola de busca** que você está segurando (por exemplo **Nature's Compass** ou **Explorer's Compass**).
 
 ## Controles
 
-- Use a tecla atribuída nos Controles; o destino depende do alvo da bússola segurada e da direção do seu olhar.
+- Use a tecla atribuída em Controles; o destino depende do alvo da bússola segurada e da sua direção de olhar.

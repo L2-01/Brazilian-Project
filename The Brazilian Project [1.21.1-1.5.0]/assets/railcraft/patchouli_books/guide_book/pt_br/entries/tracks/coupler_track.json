@@ -1,15 +1,15 @@
 {
-  "name": "Trilho Acoplador",
-  "icon": "railcraft:iron_coupler_track",
-  "category": "railcraft:tracks",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Estes trilhos são projetados para serem usados para criar ou desfazer trens de carrinhos. Eles devem ser energizados por redstone para funcionar. Clicar com o botão direito num trilho acoplador o mudará para o modo desacoplador e vice-versa."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Trilhos Acopladores podem ser encadeados para vincular um Trem inteiro quando combinados com um Detector de Trem.$(br)Trilhos acopladores têm um modo adicional chamado Acoplamento Automático que pode ser configurado com um pé de cabra. Isso define um carrinho para se acoplar com o próximo carrinho com o qual ele colidir."
-    }
-  ]
+    "name": "Trilho Acoplador",
+    "icon": "railcraft:iron_coupler_track",
+    "category": "railcraft:tracks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Esses trilhos foram projetados para criar ou desfazer trens de carrinhos. Eles precisam ser energizados por redstone para funcionar. Clicar com o botão direito num trilho acoplador o alterna para o modo desacoplador e vice-versa."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Trilhos Acopladores podem ser encadeados para unir um Trem inteiro quando combinados com um Detector de Trem.$(br)Trilhos acopladores têm um modo adicional chamado Autoacoplamento, configurável com o pé de cabra. Ele faz um carrinho se acoplar ao próximo carrinho com que colidir."
+        }
+    ]
 }

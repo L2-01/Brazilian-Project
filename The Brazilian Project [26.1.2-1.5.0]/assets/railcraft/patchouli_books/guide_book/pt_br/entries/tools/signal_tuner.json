@@ -1,11 +1,11 @@
 {
-  "name": "Sintonizador de Sinal",
-  "icon": "railcraft:signal_tuner",
-  "category": "railcraft:tools",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Este scanner de frequência eletrônico é usado para emparelhar um Controlador com um Receptor. Para iniciar o emparelhamento, basta clicar com o botão direito num Controlador. Feito isso, vá até o Receptor ao qual você deseja emparelhar o Controlador e clique com o botão direito nele também. Se o emparelhamento foi bem-sucedido, você receberá uma mensagem na tela. Ele também pode ser usado para limpar um emparelhamento existente clicando com o botão direito no controlador ou no receptor."
-    }
-  ]
+    "name": "Sintonizador de Sinal",
+    "icon": "railcraft:signal_tuner",
+    "category": "railcraft:tools",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Este escâner eletrônico de frequência é usado para parear um Controlador com um Receptor. Para iniciar o pareamento, basta clicar com o botão direito num Controlador. Feito isso, vá até o Receptor com o qual deseja parear o Controlador e clique com o botão direito nele também. Se o pareamento for bem-sucedido, você receberá uma mensagem na tela. Ele também pode ser usado para limpar um pareamento existente clicando com o botão direito no controlador ou no receptor."
+        }
+    ]
 }

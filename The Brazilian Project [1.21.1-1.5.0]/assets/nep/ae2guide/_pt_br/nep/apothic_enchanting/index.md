@@ -12,7 +12,7 @@ navigation:
 
   <ItemImage id="apothic_enchanting:raven_enchanting_table" scale="2"/>
 
-  Executa a infusão de encantamentos como um passo de fabricação automática ME na Mesa do Corvo, independentemente de quaisquer estantes ao redor dela.
+  Executa a infusão de encantamento como etapa de fabricação automática ME na Mesa do Corvo, independentemente de quaisquer estantes ao redor.
 </Column>
 
 <Recipe id="nep:module_status/apothic_enchanting"/>
@@ -27,9 +27,9 @@ navigation:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-| Processo | Configuração | Padrão |
+| Processo | Preparação | Padrão |
 |---|---|---|
-| <ItemImage id="apothic_enchanting:raven_enchanting_table" scale="0.5"/> Infusão de Encantamentos | Mesa do Corvo, estantes opcionais | Padrão de Processamento |
+| <ItemImage id="apothic_enchanting:raven_enchanting_table" scale="0.5"/> Infusão de Encantamento | Mesa do Corvo, estantes opcionais | Padrão de Processamento |
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -43,7 +43,7 @@ navigation:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Num servidor que liga **Require Decoder**, os padrões do Apothic Enchanting só codificam numa rede cujo [Decodificador de Padrões](/nep/pattern-decoder.md) carregue este módulo. Sem ele, codificam como Padrões de Processamento comuns.
+Num servidor que ativa **Exigir Decodificador**, padrões do Apothic Enchanting só codificam numa rede cujo [Decodificador de Padrões](/nep/pattern-decoder.md) carrega este módulo. Sem ele, codificam como Padrões de Processamento comuns.
 
 <Recipe id="nep:apothic_enchanting_encoding_module"/>
 

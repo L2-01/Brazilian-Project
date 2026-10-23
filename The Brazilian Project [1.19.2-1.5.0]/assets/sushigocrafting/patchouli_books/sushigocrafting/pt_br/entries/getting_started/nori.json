@@ -1,0 +1,21 @@
+{
+    "name": "Nori",
+    "icon": "sushigocrafting:nori_sheets",
+    "category": "sushigocrafting:getting_started",
+    "sortnum": 2,
+    "read_by_default": false,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Para obter Folhas de Nori você precisará encontrar Alga Marinha nos oceanos e transformá-la em Alga Marinha Seca, formando um Bloco de Algas Marinhas Secas. $(br2)Esmagar um Bloco de Algas Marinhas Secas contra um Bloco de Ferro com um pistão lhe dará algumas Folhas de Nori."
+        },
+        {
+            "type": "image",
+            "images": [
+                "sushigocrafting:textures/gui/book/nori.png"
+            ],
+            "title": "Fabricação de Nori com Pistão",
+            "text": ""
+        }
+    ]
+}

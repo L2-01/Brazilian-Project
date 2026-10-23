@@ -9,14 +9,14 @@
             "type": "spotlight",
             "item": "bigreactors:reprocessorcollector",
             "link_recipe": true,
-            "title" : "Coletor",
-            "text": "O Coletor obtém o material do interior do Reprocessador quando um trabalho de reprocessamento é concluído."
+            "title": "Coletor",
+            "text": "O Coletor adquire material do interior do Reprocessador quando um trabalho de reprocessamento é concluído."
         },
         {
             "type": "crafting-part_usage",
             "crafting.title1": "Coletor",
             "crafting.recipe1": "bigreactors:reprocessor/collector",
-            "usage.text": "$(l)Mandatory:$() one, and only one, is required$(br)$(l)Valid positions:$() bottom face (not on frame)$(br)$(l)Graphical interface:$() no"
+            "usage.text": "$(l)Obrigatória:$() uma, e apenas uma, é exigida$(br)$(l)Posições válidas:$() face inferior (não na moldura)$(br)$(l)Interface gráfica:$() não"
         }
     ]
 }

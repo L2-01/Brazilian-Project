@@ -3,14 +3,14 @@
   "icon": "twilightdelight:chaos_ink_drink",
   "category": "twilightdelight:effects",
   "pages": [
-	{
-	  "type": "patchouli:text",
-	  "text": "Este efeito restaura lentamente a durabilidade dos cetros do Lich na sua barra de acesso rápido e na mão secundária. Cetros com maior durabilidade máxima recarregam mais rápido."
-	},
-	{
-	  "type": "patchouli:spotlight",
-	  "item": "twilightdelight:chaos_ink_drink",
-	  "text": "Obtido da Bebida de Tinta do Caos, do Caldo de Ossos de Feitiçaria, do Pergaminho de Bolo Mágico e do Ensopado do Caos."
-	}
+    {
+      "type": "patchouli:text",
+      "text": "Este efeito restaura lentamente a durabilidade dos cetros do Lich na sua barra de acesso rápido e na mão secundária. Cetros com durabilidade máxima maior recarregam mais rápido."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightdelight:chaos_ink_drink",
+      "text": "Obtível da Bebida de Tinta do Caos, do Caldo de Ossos de Feitiçaria, do Pergaminho de Bolo Mágico e do Ensopado do Caos."
+    }
   ]
 }

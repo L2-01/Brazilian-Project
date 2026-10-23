@@ -1,21 +1,21 @@
 {
-  "name": "2) Meteoritos e Bússola",
-  "category": "ae2:getting_started",
-  "icon": "ae2:meteorite_compass",
-  "sortnum": 20,
-  "extra_recipe_mappings": {
-    "ae2:mysterious_cube": 0
-  },
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Os $(thing)Meteoritos$() podem ser encontrados espalhados pela superfície do mundo. Eles contêm um pouco de $(l:ae2:getting_started/certus)Quartzo Certus$() e um $(thing)Cubo Misterioso$() no centro, e ficam envoltos numa grande quantidade de $(item)Pedra do Céu$().$(br2)O $(thing)Cubo Misterioso$() larga todas as 4 $(l:ae2:getting_started/inscriber)Prensas do Inscritor$(/l) quando quebrado."
+    "name": "2) Meteoros e Bússola",
+    "category": "ae2:getting_started",
+    "icon": "ae2:meteorite_compass",
+    "sortnum": 20,
+    "extra_recipe_mappings": {
+        "ae2:mysterious_cube": 0
     },
-    {
-      "type": "patchouli:spotlight",
-      "item": "ae2:meteorite_compass",
-      "link_recipe": true,
-      "text": "A $(thing)Bússola de Meteoritos$() é fabricada colocando uma Bússola normal num $(l:ae2:getting_started/charger)Carregador$(/l).$(br2)Essa $(thing)Bússola$() aponta para o chunk mais próximo contendo um $(thing)Cubo Misterioso$() (e portanto um Meteorito) que ela encontrar.$(br2)Giro Lento = Não achou nenhum $(thing)Cubo Misterioso$() no alcance."
-    }
-  ]
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Os $(thing)Meteoritos$() podem ser encontrados espalhados pela superfície do mundo normal. Eles contêm um pouco de $(l:ae2:getting_started/certus)Quartzo Certus$() e um $(thing)Cubo Misterioso$() no centro. Também são envolvidos por uma grande quantidade de $(item)Pedra do Céu$().$(br2)O $(thing)Cubo Misterioso$() larga todas as 4 $(l:ae2:getting_started/inscriber)Placas do Inscritor$(/l) quando quebrado."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "ae2:meteorite_compass",
+            "link_recipe": true,
+            "text": "A $(thing)Bússola de Meteoritos$() é fabricada colocando uma Bússola comum num $(l:ae2:getting_started/charger)Carregador$(/l).$(br2)Essa $(thing)Bússola$() aponta para o Chunk mais próximo contendo um $(thing)Cubo Misterioso$() (e portanto um Meteorito) que ela encontrar.$(br2)Giro Lento = Não encontrou nenhum $(thing)Cubo Misterioso$() ao alcance."
+        }
+    ]
 }

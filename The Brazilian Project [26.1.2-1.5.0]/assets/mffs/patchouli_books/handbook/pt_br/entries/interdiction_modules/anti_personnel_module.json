@@ -1,18 +1,18 @@
 {
-    "name": "Módulo Antipessoal",
-    "icon": "mffs:anti_personnel_module",
-    "category": "mffs:interdiction_modules",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:anti_personnel_module",
-            "link_recipe": true,
-            "text": "O $(5)Módulo Antipessoal$() é um módulo opcional para a $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$(). Com este módulo instalado, a Matriz detectará automaticamente jogadores não autorizados que entrarem em seu alcance de ação e os matará - quase instantaneamente. Criaturas amigáveis e hostis não são afetadas."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:anti_personnel_module",
-            "text": "Fabricando o $(5)Módulo Antipessoal$()."
-        }
-    ]
+  "name": "Módulo Antipessoal",
+  "icon": "mffs:anti_personnel_module",
+  "category": "mffs:interdiction_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:anti_personnel_module",
+      "link_recipe": true,
+      "text": "O $(5)Módulo Antipessoal$() é um módulo opcional para a $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$(). Com este módulo instalado, a Matriz detectará automaticamente jogadores não autorizados que entrarem em seu alcance de ação e os matará — quase instantaneamente. Criaturas amistosas e hostis não são afetadas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:anti_personnel_module",
+      "text": "Fabricando o $(5)Módulo Antipessoal$()."
+    }
+  ]
 }

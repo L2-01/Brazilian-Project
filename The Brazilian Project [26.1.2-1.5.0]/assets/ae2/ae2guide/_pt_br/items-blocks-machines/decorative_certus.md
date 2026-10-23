@@ -39,7 +39,7 @@ item_ids:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-<ItemLink id="quartz_block" />s podem ser fabricados, fundidos e cortados em pedra em alguns blocos de construção decorativos
+<ItemLink id="quartz_block" />s podem ser fabricados, fundidos e cortados em pedra em vários blocos de construção decorativos
 
 ## Receitas
 

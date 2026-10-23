@@ -14,10 +14,10 @@ item_ids:
 
 <ItemImage id="fluix_crystal" scale="4" />
 
-*"Cristais de Fluix possuem a habilidade única de absorver e converter energia de uma forma para outra, e são o fundamento de
+*"Cristais de Fluix possuem a habilidade única de absorver e converter energia de uma forma para outra, e são a base de
 toda a tecnologia de Energia de Matéria"*
 
-Um dos ingredientes primários para blocos, [dispositivos](../ae2-mechanics/devices.md) e itens do AE2. Feito jogando quartzo do nether, redstone e
+Um dos ingredientes principais para blocos, [dispositivos](../ae2-mechanics/devices.md) e itens do AE2. Feito jogando quartzo do nether, redstone e
 <ItemLink id="charged_certus_quartz_crystal" /> na água.
 
 Pode ser [automatizado](../example-setups/throw-in-water-automation.md) usando um <ItemLink id="formation_plane" /> e um <ItemLink id="annihilation_plane" />.

@@ -1,15 +1,15 @@
 {
-  "name": "Caixa de Relé de Bloco de Sinal",
-  "icon": "railcraft:signal_block_relay_box",
-  "category": "railcraft:signal_boxes",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "A Caixa de Relé de Bloco de Sinal pode ser emparelhada com até dois outros Sinais de Bloco ou Relés. Ela pode ser usada tanto como uma terminação de um Bloco de Sinal quanto como um extensor. Quando usada como extensor, é possível usá-la para fazer Blocos de Sinal contornarem esquinas e funcionar como um único Bloco de Sinal."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Além disso, o Relé pode ser configurado para emitir Redstone e atua como um Controlador. Ele também pode ser colocado adjacente a Caixas Controladoras de Sinal e Caixas de Capacitor de Sinal da mesma maneira que uma Caixa Receptora de Sinal."
-    }
-  ]
+    "name": "Caixa de Relé de Bloco de Sinal",
+    "icon": "railcraft:signal_block_relay_box",
+    "category": "railcraft:signal_boxes",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A Caixa de Relé de Bloco de Sinal pode ser pareada com até outros dois Sinais de Bloco ou Relés. Ela pode ser usada como tampa final de um Bloco de Sinal ou como extensor. Usada como extensor, é possível contornar esquinas com Blocos de Sinal fazendo-os funcionar como um único Bloco de Sinal."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Além disso, o Relé pode ser configurado para emitir Redstone e funcionar como Controlador. Ele também pode ser colocado adjacente a Caixas Controladoras de Sinal e Caixas de Capacitor de Sinal da mesma forma que uma Caixa Receptora de Sinal."
+        }
+    ]
 }

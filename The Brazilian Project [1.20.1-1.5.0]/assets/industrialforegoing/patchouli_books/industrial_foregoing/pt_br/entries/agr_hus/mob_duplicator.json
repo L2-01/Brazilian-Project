@@ -6,13 +6,12 @@
   "pages": [
     {
       "type": "text",
-      "text": "Uma máquina usada para gerar criaturas. Quando abastecida com energia, $(l:agr_hus/essence)Essência$() e qualquer entidade numa $(l:tools/mib)Ferramenta de Aprisionamento de Criaturas$(), ela as gerará ao seu redor. $(br2)Ela conta as entidades próximas e para se houver demais."
+      "text": "Uma máquina usada para gerar criaturas. Quando abastecida com energia, $(l:agr_hus/essence)Essência$() e qualquer entidade numa $(l:tools/mib)Ferramenta de Aprisionamento de Criaturas$(), ela os gerará ao seu redor. $(br2)Ela contará as entidades próximas e parará se houver muitas."
     },
     {
       "type": "crafting",
       "recipe": "industrialforegoing:mob_duplicator"
-    }
-  ,
+    },
     {
       "type": "crafting",
       "recipe": "industrialforegoing:mob_imprisonment_tool"

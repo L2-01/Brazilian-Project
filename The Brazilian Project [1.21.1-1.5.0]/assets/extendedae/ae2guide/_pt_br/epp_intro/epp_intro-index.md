@@ -4,16 +4,16 @@ navigation:
     position: 60
 ---
 
-# Estenda Sua Configuração de AE!
+# Estenda sua Configuração de AE!
 
 O Extended AE traz de volta alguns recursos de AE das versões 1.7.10/1.12.2 para o AE moderno.
 
-[Extended AE GitHub](https://github.com/GlodBlock/ExtendedAE)
+[Extended AE GitHub](https://github.com/GlodBlock/ExtendedAE) 
 
-## Sistema de Cristais de Entro
+## Sistema de Cristal de Entro
 <CategoryIndex category="entro system"></CategoryIndex>
 
-## Fundação Estendida
+## Fundamentos Estendidos
 <CategoryIndex category="extended foundation"></CategoryIndex>
 
 ## Dispositivos Estendidos

@@ -7,6 +7,6 @@ navigation:
 
 # Outras coisas
 
-Alguns outros blocos/itens não categorizados, mas não para definir como inúteis!
+Alguns blocos/itens sem categoria, mas não por serem inúteis!
 
 <SubPages />

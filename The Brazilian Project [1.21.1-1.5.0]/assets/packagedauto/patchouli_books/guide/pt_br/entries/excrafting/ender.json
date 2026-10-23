@@ -1,38 +1,38 @@
 {
-	"name": "Fabricação do Ender",
-	"category": "packagedauto:recipe",
-	"icon": "packagedexcrafting:ender_crafter",
-	"pages": [
-		{
-			"type": "patchouli:text",
-			"text": "$(thing)Fabricação do Ender/$ é um tipo de receita de fabricação que usa o $(item)Fabricador de Pacotes do Ender/$ para fabricar receitas fabricáveis numa $(item)Bancada Automática Ender/$."
-		},
-		{
-			"type": "packagedauto:spotlight2",
-			"item1": "packagedexcrafting:ender_crafter",
-			"item2": "extendedcrafting:ender_alternator",
-			"title": "Uso",
-			"text": "Para usar o $(item)Fabricador de Pacotes do Ender/$, coloque $(item)Alternadores Ender/$ numa área de 7x7x7 ao redor dele.$(p)Itens fabricados pelo $(item)Fabricador de Pacotes do Ender/$ serão ejetados para inventários adjacentes.$(p)O $(item)Fabricador de Pacotes do Ender/$ requer energia."
-		},
-		{
-			"type": "patchouli:text",
-			"flag": "mod:ae2",
-			"title": "Integração com AE2",
-			"text": "O $(item)Fabricador de Pacotes do Ender/$ pode ser conectado a uma $(thing)Rede ME/$.$(p)Ele vai extrair energia para usar e, em vez disso, ejetar os itens fabricados na rede."
-		},
-		{
-			"type": "patchouli:crafting",
-			"flag": "!mod:ae2",
-			"recipe": "packagedexcrafting:ender_crafter",
-			"title": "Fabricação"
-		},
-		{
-			"type": "patchouli:crafting",
-			"flag": "mod:ae2",
-			"recipe": "packagedexcrafting:ender_crafter_ae",
-			"title": "Fabricação"
-		}
-	],
-	"read_by_default": true,
-	"sortnum": 5005
+    "name": "Fabricação do Ender",
+    "category": "packagedauto:recipe",
+    "icon": "packagedexcrafting:ender_crafter",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(thing)Fabricação Ender/$ é um tipo de receita de fabricação que usa o $(item)Fabricador de Pacotes do Ender/$ para fabricar receitas fabricáveis numa $(item)Bancada Automática Ender/$."
+        },
+        {
+            "type": "packagedauto:spotlight2",
+            "item1": "packagedexcrafting:ender_crafter",
+            "item2": "extendedcrafting:ender_alternator",
+            "title": "Uso",
+            "text": "Para usar o $(item)Fabricador de Pacotes do Ender/$, coloque $(item)Alternadores Ender/$ numa área 7x7x7 ao redor dele.$(p)Itens fabricados pelo $(item)Fabricador de Pacotes do Ender/$ serão ejetados para inventários adjacentes.$(p)O $(item)Fabricador de Pacotes do Ender/$ requer energia."
+        },
+        {
+            "type": "patchouli:text",
+            "flag": "mod:ae2",
+            "title": "Integração com AE2",
+            "text": "O $(item)Fabricador de Pacotes do Ender/$ pode ser conectado a uma $(thing)Rede ME/$.$(p)Ele extrairá energia para usar e, em vez disso, ejetará os itens fabricados para a rede."
+        },
+        {
+            "type": "patchouli:crafting",
+            "flag": "!mod:ae2",
+            "recipe": "packagedexcrafting:ender_crafter",
+            "title": "Fabricação"
+        },
+        {
+            "type": "patchouli:crafting",
+            "flag": "mod:ae2",
+            "recipe": "packagedexcrafting:ender_crafter_ae",
+            "title": "Fabricação"
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 5005
 }

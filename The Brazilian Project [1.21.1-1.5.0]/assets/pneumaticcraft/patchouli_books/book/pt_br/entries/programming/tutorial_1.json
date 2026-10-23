@@ -7,51 +7,51 @@
   "pages": [
     {
       "type": "text",
-      "text": "Neste tutorial, vamos configurar um programa simples para fazer um $(l:tools/drone)Drone/$ escavar uma área. Antes de começar, você vai precisar de:"
+      "text": "Neste tutorial, vamos configurar um programa simples para fazer um $(l:tools/drone)Drone/$ escavar uma área. Antes de começar, você precisará de:"
     },
     {
       "type": "text",
-      "text": "$(li)Um $(l:programming/programmer)Programador/$ (claro)$(li)(Se você não estiver no Modo Criativo) Um $(item)Baú/$ adjacente ao Programador contendo pelo menos seis $(l:programming/puzzle_pieces)Peças de Quebra-Cabeça/$ $(li)Um $(item)Baú/$ ou qualquer outro inventário, contendo uma $(item)Pá/$ de qualquer tipo$(li)Uma $(l:tools/gps_tool)Ferramenta GPS/$ básica$(li)Uma $(l:tools/gps_area_tool)Ferramenta de Área GPS/$"
+      "text": "$(li)Um $(l:programming/programmer)Programador/$ (claro)$(li)(Se você não estiver no Modo Criativo) Um $(item)Baú/$ adjacente ao Programador contendo pelo menos seis $(l:programming/puzzle_pieces)Peças de Quebra-Cabeça/$ $(li)Um $(item)Baú/$ ou outro inventário, contendo uma $(item)Pá/$ de qualquer tipo$(li)Uma $(l:tools/gps_tool)Ferramenta GPS/$ básica $(li)Uma $(l:tools/gps_area_tool)Ferramenta de Área GPS/$"
     },
     {
       "type": "text",
-      "text": "Abra a GUI do $(l:programming/programmer)Programador/$. À direita, você verá uma $(thing)bandeja/$ de $(ttcolor)$(t:As representações virtuais das Peças de Quebra-Cabeça na GUI são chamadas de Widgets de Programação)Widgets de Programação/$. Há várias páginas deles; você pode alternar entre elas com os botões de seta abaixo da bandeja, ou expandir a bandeja pressionando $(thing)Espaço/$ ou $(thing)Tab/$.$(p)Quando expandida, um campo de texto aparece acima da bandeja onde você pode inserir um $(thing)filtro/$ para buscar widgets. Digite 'start' lá agora: você verá apenas um widget não $(7)acinzentado/$."
+      "text": "Abra a GUI do $(l:programming/programmer)Programador/$. À direita, você verá uma $(thing)bandeja/$ de $(ttcolor)$(t:As representações virtuais das Peças de Quebra-Cabeça na GUI são chamadas de Widgets de Programação)Widgets de Programação/$. Há várias páginas deles; você pode folhear com os botões de seta abaixo da bandeja, ou expandir a bandeja pressionando $(thing)Espaço/$ ou $(thing)Tab/$.$(p)Quando expandida, um campo de texto aparece acima da bandeja onde você pode digitar um $(thing)filtro/$ para buscar widgets. Digite 'start' ali agora: você verá apenas um widget não $(7)acinzentado/$."
     },
     {
       "type": "text",
-      "text": "Agora arraste aquele widget $(l:programming/start)Início/$ para a área de programação principal. Ele aparecerá com uma $(4)borda vermelha/$, indicando um problema: passe o mouse para ver qual.$(p)Certo, não há widget conectado embaixo - vamos remediar isso agora criando nosso programa.$(p)Encontre um widget $(l:programming/inventory_import)Importar do Inventário/$ e arraste-o para logo abaixo do widget $(thing)Início/$."
+      "text": "Agora arraste o widget $(l:programming/start)Início/$ para a área principal de programação. Ele aparecerá com uma $(4)borda vermelha/$, indicando um problema: passe o mouse para ver qual.$(p)Certo, não há widget conectado embaixo — vamos resolver isso agora criando nosso programa.$(p)Encontre um widget de $(l:programming/inventory_import)Importar do Inventário/$ e arraste-o para logo abaixo do widget $(thing)Início/$."
     },
     {
       "type": "text",
-      "text": "Se você posicioná-lo perto o suficiente, ele 'encaixará' na parte de baixo do widget $(thing)Início/$. Note como os conectores se encaixam, como um quebra-cabeça; daí o nome $(thing)Peça de Quebra-Cabeça/$.$(p)Em seguida, arraste um widget $(l:programming/area)Área/$ e conecte-o à direita ($(ttcolor)$(t:Widgets à direita de outros widgets agem como lista-branca; widgets à esquerda agem como lista-negra)não à esquerda/$) do widget $(thing)Importar/$, e um widget $(l:programming/item_filter)Filtro de Item/$, também à direita do widget $(thing)Importar/$. Novamente, certifique-se de que eles 'encaixem' juntos."
+      "text": "Se você colocá-lo perto o bastante, ele se 'encaixará' na parte de baixo do widget $(thing)Início/$. Note como os conectores se encaixam, como um quebra-cabeça; daí o nome $(thing)Peça de Quebra-Cabeça/$.$(p)Em seguida, arraste um widget de $(l:programming/area)Área/$ e conecte-o à direita ($(ttcolor)$(t:Widgets à direita de outros widgets agem como lista-branca; widgets à esquerda agem como lista-negra)não à esquerda/$) do widget $(thing)Importar/$, e um widget de $(l:programming/item_filter)Filtro de Item/$, também à direita do widget $(thing)Importar/$. Novamente, certifique-se de que eles se 'encaixem'."
     },
     {
       "type": "text",
-      "text": "Você notará que o widget $(thing)Área/$ também começa com uma $(4)borda vermelha/$, porque ele ainda não tem uma área definida. Pegue sua $(item)Ferramenta GPS/$ e $(thing)agache e clique com o botão direito/$ no $(item)baú/$ contendo a $(item)pá/$ que você posicionou antes. Você verá o local destacado.$(p)Agora, na GUI do Programador, $(thing)clique com o botão esquerdo/$ no widget $(thing)Área/$ com a $(item)Ferramenta GPS/$ no seu cursor: você verá a localização copiada para o widget $(thing)Área/$!"
+      "text": "Você notará que o widget de $(thing)Área/$ também começa com uma $(4)borda vermelha/$, porque ainda não tem uma área definida. Pegue sua $(item)Ferramenta GPS/$ e $(thing)agache+clique com o botão direito/$ no $(item)baú/$ contendo a $(item)pá/$ que você colocou antes. Você verá que ela destaca a localização.$(p)Agora, na GUI do Programador, $(thing)clique com o botão esquerdo/$ no widget de $(thing)Área/$ com a $(item)Ferramenta GPS/$ no seu cursor: você verá a localização copiada para o widget de $(thing)Área/$!"
     },
     {
       "type": "text",
-      "text": "Agora o $(thing)Filtro de Item/$: $(thing)clique com o botão direito/$ nele para abrir uma GUI de opções. Clique no botão $(bold)Buscar Item.../$ e digite 'pá' na janela de busca resultante. Escolha o tipo de pá que você colocou no baú antes e pressione $(thing)Escape/$ para fechar a caixa de busca.$(p)De volta na janela do $(thing)Filtro de Item/$, garanta que 'Durabilidade do Item' esteja $(italic)desmarcada/$, para que também corresponda a pás parcialmente usadas. Pressione $(thing)Escape/$ novamente: de volta à GUI principal."
+      "text": "Agora o $(thing)Filtro de Item/$: $(thing)clique com o botão direito/$ nele para abrir uma GUI de opções. Clique no botão $(bold)Buscar Item.../$ e digite 'shovel' na janela de busca resultante. Escolha o tipo de pá que você colocou no baú antes e pressione $(thing)Escape/$ para fechar a caixa de busca.$(p)De volta à janela do $(thing)Filtro de Item/$, garanta que 'Durabilidade do Item' esteja $(italic)desmarcada/$, para que também corresponda a pás parcialmente usadas. Pressione $(thing)Escape/$ novamente: de volta à GUI principal."
     },
     {
       "type": "text",
-      "text": "Neste ponto, dissemos ao Drone para pegar uma pá do baú; agora vamos fazê-lo escavar!$(p)Arraste um widget $(l:programming/dig)Escavar/$ e encaixe-o na parte de baixo do widget $(thing)Importar/$.$(p)Arraste outro widget $(thing)Área/$ e encaixe-o à direita do widget $(thing)Escavar/$."
+      "text": "Até aqui, mandamos o Drone pegar uma pá no baú; agora vamos fazê-lo escavar!$(p)Arraste um widget $(l:programming/dig)Escavar/$ e encaixe-o na parte de baixo do widget $(thing)Importar/$.$(p)Arraste outro widget de $(thing)Área/$ e encaixe-o à direita do widget $(thing)Escavar/$."
     },
     {
       "type": "text",
-      "text": "Vamos definir a área a ser escavada: pegue sua $(thing)Ferramenta de Área GPS/$ e $(thing)clique com o botão direito/$ num bloco para formar um canto da área. $(thing)Clique com o botão esquerdo/$ num bloco no canto oposto. Como o drone usará uma pá, tente ficar na terra/areia.$(p)Certifique-se de que a área destacada é uma $(thing)caixa sólida/$ - deve ser por padrão, mas você pode $(thing)clicar com os botões esquerdo/direito/$ com a ferramenta no ar para abrir uma GUI de configuração onde a forma pode ser definida."
+      "text": "Vamos definir a área a ser escavada: pegue sua $(thing)Ferramenta de Área GPS/$ e $(thing)clique com o botão direito/$ num bloco para formar um canto da área. $(thing)Clique com o botão esquerdo/$ num bloco no canto oposto. Como o drone usará uma pá, tente ficar na terra/areia.$(p)Garanta que a área destacada seja uma $(thing)caixa sólida/$ — ela deve ser por padrão, mas você pode $(thing)clicar com botão esquerdo/direito/$ com a ferramenta no ar para abrir uma GUI de configuração onde a forma pode ser definida."
     },
     {
       "type": "text",
-      "text": "De volta na GUI do Programador, pegue a $(thing)Ferramenta de Área GPS/$ e $(thing)clique com o botão esquerdo/$ com ela no widget $(thing)Área/$ anexado ao widget $(thing)Escavar/$. Como antes, você verá suas configurações copiadas para o widget Área.$(p)Neste ponto, não deve haver destaques vermelhos indicando erros: parabéns, você tem um programa válido!"
+      "text": "De volta à GUI do Programador, pegue a $(thing)Ferramenta de Área GPS/$ e $(thing)clique com o botão esquerdo/$ com ela no widget de $(thing)Área/$ anexado ao widget $(thing)Escavar/$. Como antes, você verá as configurações dela copiadas para o widget de Área.$(p)Neste ponto, não deve haver destaques vermelhos indicando erros: parabéns, você tem um programa válido!"
     },
     {
       "type": "text",
-      "text": "Por fim, pegue um $(l:tools/drone)Drone/$ e certifique-se de que foi pressurizado numa $(l:machines/charging_station)Estação de Carga/$. Coloque o item Drone no espaço no canto superior direito da GUI do Programador e clique no botão $(thing)⟶ (exportar)/$ (você pode nomear o Drone se quiser, no campo de texto à esquerda).$(p)Você receberá um retorno sonoro e seu Drone está programado!"
+      "text": "Por fim, pegue um $(l:tools/drone)Drone/$ e certifique-se de que ele foi pressurizado numa $(l:machines/charging_station)Estação de Carga/$. Coloque o item Drone no espaço no canto superior direito da GUI do Programador e clique no botão $(thing)⟶ (exportar)/$ (você pode nomear o Drone se quiser, no campo de texto à esquerda).$(p)Você ouvirá um retorno sonoro, e seu Drone estará programado!"
     },
     {
       "type": "text",
-      "text": "Tudo o que resta agora é implantar seu Drone: $(thing)clique com o botão direito/$ no mundo em algum lugar perto do seu baú e observe-o trabalhar!"
+      "text": "Só falta agora posicionar seu Drone: $(thing)clique com o botão direito/$ no mundo em algum ponto perto do seu baú e veja-o trabalhar!"
     }
   ]
 }

@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O $(d)Amuleto de Lava$() adiciona um escudo de lava temporário, visível acima da sua barra de armadura.$(br2)Enquanto o escudo estiver cheio, você fica $(a)completamente imune ao dano de lava$(). Porém, ele $(c)não protege contra fogo$()!$(br2)A lava ainda vai incendiar você, e você ainda sofrerá dano com isso! Que tal investir num $(l:items/obsidian_skull)Crânio de Obsidiana$(/l) também?",
+      "text": "O $(d)Amuleto de Lava$() adiciona um escudo de lava temporário, visível acima da sua barra de armadura.$(br2)Enquanto o escudo estiver cheio, você ficará $(a)completamente imune a dano de lava$(). Porém, ele $(c)não o protege do fogo$()!$(br2)A lava ainda o incendiará, e você ainda sofrerá dano disso! Talvez invista também num $(l:items/obsidian_skull)Crânio de Obsidiana$(/l)?",
       "title": "Amuleto de Lava"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:lava_charm",
       "link_recipe": true,
-      "text": "Amuletos de Lava podem ser encontrados raramente em $(3)baús de masmorras$() e mais comumente em $(3)baús de fortalezas do Nether$()."
+      "text": "Amuletos de Lava podem ser encontrados raramente em $(3)baús de masmorra$() e mais comumente em $(3)baús de Fortalezas do Nether$()."
     }
   ]
 }

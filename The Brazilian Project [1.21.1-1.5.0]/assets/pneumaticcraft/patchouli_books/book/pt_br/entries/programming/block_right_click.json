@@ -1,20 +1,20 @@
 {
-  "name": "Widget de Clique Direito",
+  "name": "Widget de Clicar com Direito",
   "icon": "pneumaticcraft:textures/progwidgets/block_right_click_piece.png",
   "category": "pneumaticcraft:widget_interact",
   "advancement": "pneumaticcraft:programmer",
   "pages": [
     {
       "type": "text",
-      "text": "O Drone $(thing)clicará com o botão direito/$ com o item no primeiro espaço do seu inventário, para cada posição de bloco no seu widget $(l:programming/area)Área/$ conectado. Isso pode ser usado para arar o chão, plantar sementes, aplicar farinha de osso, arremessar uma poção, implantar um drone, girar blocos com uma chave inglesa... as possibilidades são infinitas."
+      "text": "O Drone usará $(thing)clique com o botão direito/$ com o item no primeiro espaço do seu inventário, em cada posição de bloco do seu widget de $(l:programming/area)Área/$ conectado. Isso pode ser usado para arar o chão, plantar sementes, aplicar farinha de osso, arremessar uma poção, posicionar um drone, girar blocos com uma chave... as possibilidades são infinitas."
     },
     {
       "type": "text",
-      "text": "Este widget opera em um de dois modos, selecionáveis via a GUI do widget no Programador:$(li)Modo Item - usa a lógica de clique direito do $(thing)item segurado/$, ex.: usar uma $(item)Pederneira/$ num bloco$(li)Modo Bloco - ativa a lógica de clique direito do $(thing)bloco/$, ex.: virar uma $(item)Alavanca/$(p)No $(thing)Modo Item/$, quaisquer filtros anexados se aplicam ao $(italic)item/$ sendo usado; no $(thing)Modo Bloco/$, os filtros se aplicam ao $(italic)bloco/$ sendo ativado."
+      "text": "Este widget opera em um de dois modos, selecionáveis pela GUI do widget no Programador:$(li)Modo de Item - usa a lógica de clique direito do $(thing)item segurado/$, ex.: usar uma $(item)Pederneira/$ em algum bloco$(li)Modo de Bloco - ativa a lógica de clique direito do $(thing)bloco/$, ex.: acionar uma $(item)Alavanca/$(p)No $(thing)Modo de Item/$, quaisquer filtros anexados se aplicam ao $(italic)item/$ sendo usado; no $(thing)Modo de Bloco/$, os filtros se aplicam ao $(italic)bloco/$ sendo ativado."
     },
     {
       "type": "text",
-      "text": "Você poderia usar este widget para posicionar blocos comuns. Porém, isso $(italic)não/$ é recomendado, porque quando um Drone clica com o botão direito numa posição onde já existe um bloco, ele clicará no bloco, resultando em posicionar um bloco $(italic)ao lado/$ deste bloco em vez do bloco em si.$(p)Por essas razões, o uso do widget $(l:programming/place)Colocar/$ é preferível. Há algumas situações, porém (ex.: tentar plantar $(item)Sementes/$) em que o widget $(thing)Clicar com o Botão Direito no Bloco/$ é necessário."
+      "text": "Você poderia usar este widget para colocar blocos normais. Porém, isso $(italic)não/$ é recomendado, porque quando um Drone clica com o botão direito numa posição onde já existe um bloco, ele clicará com o botão direito no bloco, resultando na colocação de um bloco $(italic)ao lado/$ desse bloco em vez do bloco em si.$(p)Por essas razões, o uso do widget de $(l:programming/place)Colocar/$ é preferível. Há algumas situações, porém (ex.: tentar plantar $(item)Sementes/$), em que o widget de $(thing)Clicar com Direito no Bloco/$ é necessário."
     },
     {
       "type": "image",

@@ -1,0 +1,19 @@
+{
+  "name": "Pergaminhos",
+  "icon": "irons_spellbooks:scroll",
+  "category": "irons_spellbooks:root",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Pergaminhos",
+      "item": "irons_spellbooks:scroll",
+      "text": "Pergaminhos podem ser encontrados em baús, saqueados de criaturas ou fabricados. Cada Pergaminho contém um feitiço com um nível, semelhante a um livro encantado. Pergaminhos podem ser aprimorados na Bigorna Arcana combinando-os com a tinta de raridade correspondente ao próximo nível."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pergaminhos podem ser usados sozinhos para lançar seu feitiço, subvertendo custos de mana e tempo de recarga, mas consumindo o pergaminho no processo. Principalmente, eles são inscritos em livros de feitiços para uso contínuo, ou reciclados via Caldeirão de Alquimista para se tornarem feitiços mais úteis."
+    }
+  ]
+}

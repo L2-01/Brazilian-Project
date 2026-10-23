@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A $(d)Bússola de Esmeralda$() pode ser vinculada a um jogador e $(3)aponta na direção dele$().$(br2)Claro, só funciona se o jogador estiver conectado e na mesma dimensão que você.",
+      "text": "A $(d)Bússola de Esmeralda$() pode ser vinculada a um jogador e $(3)aponta na direção dele$().$(br2)Claro, só funciona se o jogador estiver logado e na mesma dimensão que você.",
       "title": "Bússola de Esmeralda"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:emerald_compass",
       "link_recipe": true,
-      "text": "Você pode vincular a bússola a um jogador de duas formas.$(br2)A primeira é simplesmente clicar nele com o botão direito enquanto segura a bússola.$(br2)A outra é fabricar a bússola com um $(l:items/player_filter)Filtro de Jogador$(/l) definido."
+      "text": "Você pode vincular a Bússola a um jogador de duas formas.$(br2)A primeira é simplesmente clicar nele com o botão direito segurando a Bússola.$(br2)A outra é fabricar a Bússola com um $(l:items/player_filter)Filtro de Jogador$(/l) definido."
     }
   ]
 }

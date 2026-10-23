@@ -19,13 +19,13 @@ item_ids:
 
 # Células de Armazenamento de Raios
 
-As Células de Armazenamento de Raios são o meio de armazenamento dedicado a guardar Raios numa rede ME. Assim como as células comuns de itens / fluidos, basta colocar uma num <ItemLink id="ae2:drive" /> para começar a usar.
+Células de Armazenamento de Raios são o meio de armazenamento dedicado a guardar Raios numa rede ME. Assim como células comuns de itens / fluidos, basta colocar uma num <ItemLink id="ae2:drive" /> para começar a usar.
 
-`Usando o poder espacial do End e a afinidade natural do Cristal de Sobrecarga com Raios, Raios de alta energia são confinados dentro de uma minúscula célula.`
+`Usando o poder espacial do End e a afinidade natural de Raios do Cristal de Sobrecarga, Raios de alta energia são confinados dentro de uma célula minúscula.`
 
-## Níveis
+## Tiers
 
-As Células de Armazenamento de Raios vêm em cinco níveis com capacidade progressivamente maior. Uma única célula armazena **ambos** os Raios de Alta e de Altíssima Tensão ao mesmo tempo.
+Células de Armazenamento de Raios vêm em cinco tiers com capacidade progressivamente maior. Uma única célula armazena **ambos** os Raios de Alta e de Altíssima Tensão ao mesmo tempo.
 
 <ItemGrid>
   <ItemIcon id="ae2lt:lightning_storage_component_i" />
@@ -35,7 +35,7 @@ As Células de Armazenamento de Raios vêm em cinco níveis com capacidade progr
   <ItemIcon id="ae2lt:lightning_storage_component_v" />
 </ItemGrid>
 
-| Nível | Capacidade Efetiva | Consumo em Repouso |
+| Tier | Capacidade Efetiva | Consumo em Repouso |
 |------|--------------------|------------|
 | Célula de Armazenamento de Raios I | 256 | 32 AE/t |
 | Célula de Armazenamento de Raios II | 1.024 | 128 AE/t |
@@ -47,8 +47,8 @@ As Células de Armazenamento de Raios vêm em cinco níveis com capacidade progr
 
 <ItemImage id="ae2lt:infinite_storage_cell" scale="2" float="left" />
 
-A **Célula de Armazenamento Infinita** não tem limite de capacidade e pode guardar qualquer quantidade de qualquer tipo de item de uma vez. Devido ao seu custo de fabricação e à tecnologia necessária, ela **não pode ser produzida em massa**.
+A **Célula de Armazenamento Infinita** não tem limite de capacidade e pode guardar qualquer quantidade de qualquer tipo de item ao mesmo tempo. Devido ao seu custo de fabricação e à tecnologia exigida, ela **não pode ser produzida em massa**.
 
 ## Apêndice
 
-> Escondido no final de um registro de varredura: "Uma célula não está no registro — ela só pode ser lida uma vez e não pode ser gravada; fora isso, tudo lê normal." Origem e interpretação não foram registradas.
+> Escondida no fim de um log de varredura: "Uma célula não está no registro — só pode ser lida uma vez e não aceita escrita; fora isso tudo lê normal." Origem e interpretação não registradas.

@@ -1,0 +1,17 @@
+{
+	"name": "Chaves de Portal Avançadas",
+	"icon": "dimdungeons:textures/item/item_key_level2.png",
+	"category": "dimdungeons:keys",
+	"sortnum": 3,
+	"advancement": "dimdungeons:dungeons/enter_basic_dungeon",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Ao explorar masmorras, você pode raramente encontrar $(item)blocos de Pedra Angular do Portal$(). Eles contêm $(item)chaves de portal avançadas$(), e esta é a única forma de encontrar essas chaves. Essas chaves abrem portais para masmorras DUAS VEZES maiores e com saque de qualidade muito superior!"
+		},
+		{
+			"type": "text",
+			"text": "Há algumas coisas que você deve saber sobre essas chaves especiais. Primeiro, seu portal precisará de um aprimoramento antes que elas possam ser usadas. Segundo, os monstros lá dentro serão muito mais fortes e algumas salas difíceis podem aparecer. Você deve estar muito bem equipado e preparado para uma masmorra avançada!"
+		}
+	]
+}

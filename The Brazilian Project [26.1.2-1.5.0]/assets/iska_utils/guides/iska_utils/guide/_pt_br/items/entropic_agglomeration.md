@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:entropic_agglomeration
 categories:
-  - Solos de Farm de Criaturas
+  - MobFarm Soils
 ---
 # Aglomeração Entrópica
 
@@ -15,14 +15,14 @@ categories:
 
 ## Uso no solo
 
-Clique direito no **chão conectado** para converter uma mancha ligada em **Solo Entrópico** (área circular, raio 7). Consome uma aglomeração por uso.
+Clique com o botão direito em **solo conectado** para converter um trecho ligado em **Solo Entrópico** (área circular, raio 7). Consome uma aglomeração por uso.
 
 ## Uso em creepers
 
-Clique direito num **Creeper** vanilla para convertê-lo num **Creeper Entrópico**. Consome uma aglomeração. O Creeper Entrópico larga **Gota de Entropia** (e pólvora como um creeper normal); veja **Gota de Entropia** em Materiais de Entropia para chance de cristal e notas de explosão.
+Clique com o botão direito num **Creeper** vanilla para convertê-lo num **Creeper Entrópico**. Consome uma aglomeração. O Creeper Entrópico derruba **Gota de Entropia** (e pólvora como um creeper normal); veja **Gota de Entropia** em Materiais de Entropia para a chance de cristal e notas de explosão.
 
 ## Efeito (solo)
 
-- Ignora as regras de espalhamento natural: converte grama/terra vanilla e solo do mod **entrópico ou druídico existente** na mancha.
-- O **Solo de Cemitério** não faz parte da mancha (bloqueia a conversão através dele).
-- Para luz, gerações na escuridão, ondas de redstone e Terra Entrópica, veja **Solo Entrópico**.
+- Ignora as regras de propagação natural: converte grama/terra vanilla e **solo entrópico ou druídico** do mod já presente no trecho.
+- **Solo de Cemitério** não faz parte do trecho (bloqueia a conversão através dele).
+- Para luz, spawns na escuridão, ondas de redstone e Terra Entrópica, veja **Solo Entrópico**.

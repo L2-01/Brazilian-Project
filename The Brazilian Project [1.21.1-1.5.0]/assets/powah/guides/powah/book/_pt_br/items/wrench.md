@@ -10,13 +10,13 @@ item_ids:
 
 # Chave-Inglesa
 
-A Chave-Inglesa possui 3 modos: 
+A Chave-Inglesa tem 3 modos: 
 
-Modo de configuração: usado para alterar a configuração de E/S dos cabos. 
+Modo de Configuração: usado para alterar a configuração de E/S dos cabos. 
 
-Modo de vínculo: usado para vincular blocos vinculáveis como o Orbe Energizante e as Varas. 
+Modo de Ligação: usado para vincular blocos vinculáveis, como o orbe energizante e as varas. 
 
-Modo de rotação: usado para girar blocos horizontalmente. 
+Modo de Rotação: usado para girar blocos horizontalmente. 
 
 <Row>
 <RecipesFor id="powah:wrench" />

@@ -13,7 +13,7 @@ item_ids:
   - iska_utils:scanner_chip_loot
   - iska_utils:scanner_chip_liquid
 categories:
-  - Ferramentas úteis
+  - Useful tools
 ---
 # Escâner e chips
 
@@ -21,7 +21,7 @@ categories:
 
 ## Escâner
 
-- Destaca blocos ou criaturas correspondentes por um tempo limitado; suporta Chips de Escaneador para armazenar e transferir alvos.
+- Destaca blocos ou criaturas correspondentes por tempo limitado; suporta Chips de Escaneador para armazenar e transferir alvos.
 
 <ItemGrid>
   <ItemIcon id="iska_utils:scanner" />
@@ -40,36 +40,36 @@ categories:
 
 ## Chip de Escaneador (Minérios)
 
-- Pré-definido para escanear **minérios**.
-- **Shift + usar** para alternar o filtro de nível de mineração (mostrado no chat / dica).
+- Pré-configurado para escanear **minérios**.
+- **Shift + usar** para alternar o filtro de nível de mineração (mostrado no chat / tooltip).
 - Segure o escâner na **mão principal** e **use o chip** para transferir o alvo de escaneamento de minérios para o escâner.
 
 ## Chip de Escaneador (Criaturas)
 
-- Pré-definido para escanear **todas as criaturas**.
-- **Shift + usar** para alternar categorias de criaturas.
+- Pré-configurado para escanear **todas as criaturas**.
+- **Shift + usar** para alternar as categorias de criaturas.
 - Segure o escâner na **mão principal** e **use o chip** para transferir o alvo de escaneamento de criaturas para o escâner.
 
 ## Chip de Escaneador (Geradores)
 
-- Pré-definido para escanear **blocos de gerador** (geradores de monstros, de provação e relacionados).
-- **Shift + usar** para alternar: todos os geradores, só geradores de monstros ou só geradores de provação.
+- Pré-configurado para escanear **blocos geradores** (de monstros, de provações e geradores relacionados).
+- **Shift + usar** para alternar: todos os geradores, só geradores de monstros ou só geradores de provações.
 - Transfira para o escâner como os outros chips especializados.
 
 ## Chip de Escaneador (Itens)
 
-- Pré-definido para encontrar **recipientes de armazenamento com itens** (fechados ou com conteúdo).
-- **Shift + usar** para alternar os modos de itens:
+- Pré-configurado para encontrar **recipientes de armazenamento com itens** (fechados ou com conteúdo).
+- **Shift + usar** para alternar os modos de busca:
   1. Recipientes com itens (padrão)
   2. Recipientes vazios
   3. Recipientes abertos que ainda guardam itens para você (quando suportado por mods compatíveis, ex.: Lootr)
 - Detecta baús, barris, shulkers, vasos decorados, recipientes de mods e blocos do **Lootr**.
 - **Entidades** de itens (ex.: molduras do Lootr) usam marcadores flutuantes.
-- As cores dos marcadores de bloco diferem entre Lootr e recipientes vanilla/de mods.
+- As cores dos marcadores de bloco diferem para recipientes Lootr vs. vanilla/mods.
 
-## Chip de Escaneador (Líquido)
+## Chip de Escaneador (Líquidos)
 
-- Pré-definido para escanear **todos os fluidos** no alcance.
-- **Shift + usar num bloco de fluido** (ou na face de um bloco adjacente a fluido) para filtrar apenas aquele fluido. Fluidos correntes e de origem são normalizados (ex.: `minecraft:water`).
-- **Shift + usar em qualquer outro bloco** para redefinir o filtro para todos os fluidos.
+- Pré-configurado para escanear **todos os fluidos** no alcance.
+- **Shift + usar num bloco de fluido** (ou na face de um bloco adjacente a fluido) para filtrar só aquele fluido. Fluidos correntes e fontes são normalizados (ex.: `minecraft:water`).
+- **Shift + usar em qualquer outro bloco** para zerar o filtro de volta a todos os fluidos.
 - Transfira para o escâner como os outros chips especializados.

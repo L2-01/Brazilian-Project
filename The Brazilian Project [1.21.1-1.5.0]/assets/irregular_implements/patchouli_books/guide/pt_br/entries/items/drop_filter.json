@@ -7,13 +7,13 @@
       "type": "patchouli:spotlight",
       "item": "irregular_implements:drop_filter",
       "link_recipe": true,
-      "text": "O $(d)Filtro de Itens Largados$() pode conter um $(l:items/item_filter)Filtro de Item$(/l) e impede que qualquer item correspondente ao filtro entre no seu inventário."
+      "text": "O $(d)Filtro de Itens Largados$() pode conter um $(l:items/item_filter)Filtro de Item$(/l) e impede que quaisquer itens correspondentes ao Filtro entrem no seu inventário."
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:voiding_drop_filter",
       "link_recipe": true,
-      "text": "O $(d)Filtro de Itens Largados Aniquilador$() funciona da mesma forma, mas, em vez disso, $(c)exclui os itens correspondentes$()."
+      "text": "O $(d)Filtro de Itens Largados Aniquilador$() funciona da mesma forma, mas em vez disso $(c)deleta quaisquer itens correspondentes$()."
     }
   ]
 }

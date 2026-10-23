@@ -1,0 +1,17 @@
+{
+  "name": "Santidade",
+  "icon": "minecraft:feather",
+  "category": "enchanted:creature",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Santidade",
+      "text": "Impede que monstros entrem no círculo. $(br2)Embora eficaz, esta barreira certamente não é impenetrável. Altas velocidades podem fazer um monstro ricochetear para dentro do círculo. $(br2)Requer 3 de poder adicionais por tique"
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:sanctity"
+    }
+  ],
+  "read_by_default": true
+}

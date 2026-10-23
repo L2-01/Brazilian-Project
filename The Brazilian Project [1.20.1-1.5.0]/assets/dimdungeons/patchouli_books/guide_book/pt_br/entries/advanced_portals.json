@@ -7,16 +7,48 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "Enquanto explora masmorras, você pode encontrar $(item)blocos de pedra angular de portal$(). Eles contêm $(item)chaves de portal avançadas$(). Para usar uma dessas chaves você precisará melhorar o seu portal. A construção melhorada exige dois blocos de $(item)coroa do portal$(), que só podem ser encontrados em baús de masmorra. Você também precisará de dois estandartes roxos ou brancos."
-		},		
+			"text": "Ao explorar masmorras, você pode encontrar $(item)blocos de Pedra Angular do Portal$(). Eles contêm $(item)chaves de portal avançadas$(). Para usar uma dessas chaves, você precisará aprimorar seu portal. A construção aprimorada exige dois blocos de $(item)Coroa do Portal$(), que só podem ser encontrados em baús de masmorra. Você também precisará de dois estandartes, roxos ou brancos."
+		},
 		{
 			"type": "multiblock",
 			"multiblock": {
 				"pattern": [
-					["   ","   "," C "," K "," C ","   ","   "],
-					[" GW","   "," B ","   "," B ","   "," GP"],
-					[" BW","   "," B "," 0 "," B ","   "," BP"],
-					[" B ","   ","   "," B ","   ","   "," B "]
+					[
+						"   ",
+						"   ",
+						" C ",
+						" K ",
+						" C ",
+						"   ",
+						"   "
+					],
+					[
+						" GW",
+						"   ",
+						" B ",
+						"   ",
+						" B ",
+						"   ",
+						" GP"
+					],
+					[
+						" BW",
+						"   ",
+						" B ",
+						" 0 ",
+						" B ",
+						"   ",
+						" BP"
+					],
+					[
+						" B ",
+						"   ",
+						"   ",
+						" B ",
+						"   ",
+						"   ",
+						" B "
+					]
 				],
 				"mapping": {
 					"C": "dimdungeons:block_portal_crown",
@@ -27,7 +59,7 @@
 					"P": "minecraft:purple_wall_banner[facing=south]"
 				}
 			},
-			"text": "Depois melhore o seu portal assim."
+			"text": "Então aprimore seu portal assim."
 		}
 	]
 }

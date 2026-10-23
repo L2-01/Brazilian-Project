@@ -9,14 +9,14 @@
             "type": "spotlight",
             "item": "bigreactors:energizercasing",
             "link_recipe": true,
-            "title" : "Revestimento",
-            "text": "Os blocos de Revestimento são os blocos de construção do Energizador.$(br2)São necessários para construir sua moldura e suas faces, e também são usados para fabricar as outras peças."
+            "title": "Revestimento",
+            "text": "Os blocos de Revestimento são os blocos de construção do Energizador.$(br2)Eles são necessários para montar sua estrutura e faces, e também são usados para fabricar as outras peças."
         },
         {
             "type": "crafting-part_usage",
             "crafting.title1": "Revestimento",
             "crafting.recipe1": "bigreactors:energizer/casing",
-            "usage.text": "$(l)Obrigatório:$() são necessários para construir a moldura e as faces$(br)$(l)Posições válidas:$() qualquer$(br)$(l)Interface gráfica:$() não"
+            "usage.text": "$(l)Obrigatória:$() são exigidas para construir a moldura e as faces$(br)$(l)Posições válidas:$() qualquer uma$(br)$(l)Interface gráfica:$() não"
         }
     ]
 }

@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:sacred_rubber_sapling
 categories:
-  - Borracha e processamento
+  - Rubber and processing
 ---
 # Muda de Seringueira Sagrada
 
@@ -17,4 +17,4 @@ categories:
 
 - **Não** cresce por tiques aleatórios — aplique **farinha de osso** repetidamente (**15** usos no total) para iniciar o crescimento procedural.
 - O crescimento precisa de espaço livre para um tronco muito grande e uma cúpula de folhas.
-- Se a **Aglomeração Druídica** for usada na muda, ela vira uma árvore **mega sagrada**, ainda maior.
+- Se **Aglomeração Druídica** for usada na muda, ela vira uma árvore **mega sagrada**, ainda maior.

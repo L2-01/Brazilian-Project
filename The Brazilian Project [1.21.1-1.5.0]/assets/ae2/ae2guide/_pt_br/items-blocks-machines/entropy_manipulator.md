@@ -14,12 +14,12 @@ item_ids:
 
 <ItemImage id="entropy_manipulator" scale="4" />
 
-O Manipulador de Entropia permite aquecer e resfriar coisas clicando com o botão direito e shift-clicando com o botão direito, respectivamente. Ele não faz muita coisa,
-apenas coisas como evaporar ou congelar água, solidificar lava em obsidiana, fundir troncos em carvão vegetal e fundir pedregulho em pedra no mundo.
+O Manipulador de Entropia permite aquecer e esfriar coisas clicando com o botão direito e shift+botão direito respectivamente. Ele não faz muita coisa —
+apenas coisas como evaporar ou congelar água, solidificar lava em obsidiana, fundir troncos em carvão e fundir pedregulho em pedra no mundo.
 
-Se não houver algo específico que ele possa fazer a um bloco, ele agirá como uma pederneira.
+Se não houver uma ação específica que ele possa fazer em um bloco, ele agirá como uma pederneira.
 
-Sua energia pode ser recarregada num <ItemLink id="charger" />.
+Sua energia pode ser recarregada em um <ItemLink id="charger" />.
 
 ## Receita
 

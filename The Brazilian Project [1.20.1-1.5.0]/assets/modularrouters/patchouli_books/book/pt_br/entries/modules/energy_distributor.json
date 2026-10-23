@@ -5,11 +5,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "Este módulo é como uma combinação de um $(l:modules/energy_output)Saída de Energia/$ e um Módulo $(l:modules/distributor)Distribuidor/$, pois pode distribuir FE (Forge Energy) sem fio para até 8 blocos próximos que aceitem energia.$(p)$(thing)Agache e clique com o botão direito/$ num bloco para adicioná-lo ao Módulo Distribuidor de Energia, e $(thing)agache e clique com o botão direito/$ no bloco novamente para removê-lo."
+      "text": "Este módulo é como uma combinação de um módulo $(l:modules/energy_output)Saída de Energia/$ e um $(l:modules/distributor)Distribuidor/$, pois pode distribuir FE (Forge Energy) sem fio para até 8 blocos receptores de energia próximos.$(p)$(thing)Agache+clique direito/$ num bloco para adicioná-lo ao Módulo Distribuidor de Energia, e $(thing)agache+clique direito/$ no bloco novamente para removê-lo."
     },
     {
       "type": "text",
-      "text": "Como o $(l:modules/energy_output)Módulo de Saída de Energia/$, este módulo pode extrair energia do buffer interno de energia do roteador (se alguma $(l:upgrades/energy)Melhoria de Energia/$ estiver instalada) ou de um item contendo energia no buffer de itens do roteador. O buffer interno de energia é usado preferencialmente."
+      "text": "Assim como o $(l:modules/energy_output)Módulo de Saída de Energia/$, este módulo pode extrair energia do buffer interno de energia do roteador (se alguma $(l:upgrades/energy)Melhoria de Energia/$ estiver instalada) ou de um item contendo energia no buffer de itens do roteador. O buffer interno de energia é usado preferencialmente."
     },
     {
       "type": "crafting",

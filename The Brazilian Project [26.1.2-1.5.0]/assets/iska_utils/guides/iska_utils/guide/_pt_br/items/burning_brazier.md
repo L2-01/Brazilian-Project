@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:burning_brazier
 categories:
-  - Combate e viagem
+  - Combat and travel
 ---
 # Braseiro Ardente
 
@@ -15,5 +15,5 @@ categories:
 
 ## Uso
 
-- Coloca **Chama Ardente** embaixo de você automaticamente (alterne com a tecla mostrada na dica).
+- Coloca **Chama Ardente** sob você automaticamente (alterne com a tecla mostrada no tooltip).
 - Consome durabilidade ao colocar chamas.

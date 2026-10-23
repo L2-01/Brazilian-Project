@@ -19,8 +19,8 @@ navigation:
 <ItemIcon id="laser_tech_part" />
 </ItemGrid>
 
-Estes são os blocos de construção de melhorias, máquinas e alguns circuitos. O [Montador](../machines/processing/assembler.md)
-consegue produzi-los em massa com facilidade.
+Estes são os blocos de construção de melhorias, maquinário e alguns circuitos. O
+[Montador](../machines/processing/assembler.md) consegue produzi-los em massa com facilidade.
 
 ## Circuitos Básicos
 
@@ -34,11 +34,11 @@ consegue produzi-los em massa com facilidade.
 <ItemIcon id="t3_circuit" />
 </ItemGrid>
 
-Corroer chapas de cobre sobre chapas de polímero com [Ácido Sulfúrico](acids.md#sulfuric-acid) produz placas de circuito adequadas
-para eletrônicos de nível inicial a médio. Chapas de silício, chapas de metal condutor, chapas de blindagem de titânio e a(s)
-célula(s) voltaica(s) apropriada(s) são suficientes para fabricar até o terceiro nível de circuitos. Por limitações de materiais, circuitos
-feitos por este método devem ser construídos uns em cima dos outros. Ainda assim, é mais eficiente que fazê-lo à mão numa bancada de trabalho,
-que só permite fabricar o Circuito Básico — e de forma bem ineficiente.
+Corroer chapas de cobre sobre chapas de polímero com [Ácido Sulfúrico](acids.md#sulfuric-acid) produz placas de circuito
+adequadas para eletrônica de entrada a médio porte. Chapas de silício, chapas de metal condutor, chapas de blindagem de
+titânio e célula(s) voltaica(s) apropriadas bastam para manufaturar até o terceiro nível de circuitos. Por limitações de
+material, circuitos feitos por este método precisam ser construídos sobre outro. Ainda assim, é mais eficiente do que
+fazê-lo à mão numa bancada de trabalho, que só permite fabricar o Circuito Básico — e bem ineficientemente, aliás.
 
 ## Circuitos Elite
 
@@ -51,14 +51,15 @@ que só permite fabricar o Circuito Básico — e de forma bem ineficiente.
 <ItemIcon id="logic_core" />
 </ItemGrid>
 
-Uma vez garantido o acesso ao [Fluoropolímero](polymers.md#fluoropolymer), prata pode ser corrosiva sobre chapas de fluoropolímero
-com ácido sulfúrico para produzir placas de circuito de alta qualidade que suportam núcleos de circuito de cristais exóticos. Núcleos Lógicos podem
-ser obtidos fundindo [Silício](elements_base.md#silicon), [Fósforo](elements_base.md#phosphorus) e [Olivina](gems.md#olivine)
-(junto com [Argônio](elements_base.md#argon) como gás de proteção) no [Forno de Arco](../machines/processing/arc_furnace.md).
-Apenas 1-2 núcleos lógicos e uma única chapa de metal condutor fabricarão Circuitos Básicos, Aprimorados e de Precisão
-em maiores quantidades e sem exigir o nível anterior de circuito.
+Uma vez garantido o acesso a [Fluoropolímero](polymers.md#fluoropolymer), prata pode ser corroída sobre chapas de
+fluoropolímero com ácido sulfúrico para produzir placas de circuito de alto grau que suportam núcleos de circuito de
+cristal exótico. Núcleos Lógicos podem ser obtidos fundindo [Silício](elements_base.md#silicon),
+[Fósforo](elements_base.md#phosphorus) e [Olivina](gems.md#olivine) (junto com [Argônio](elements_base.md#argon) como
+gás de blindagem) no [Forno de Arco](../machines/processing/arc_furnace.md). Apenas 1-2 núcleos lógicos e uma única
+chapa de metal condutor manufaturam Circuitos Básicos, Aprimorados e de Precisão em quantidades maiores e sem exigir o
+nível anterior de circuito.
 
-### Nano Lógica
+### Lógica Nano
 
 <ItemGrid>
 <ItemIcon id="nano_logic_core" />
@@ -66,6 +67,7 @@ em maiores quantidades e sem exigir o nível anterior de circuito.
 <ItemIcon id="t5_circuit" />
 </ItemGrid>
 
-Fundir Núcleos Lógicos com pó de Piroxênio e [Nióbio](metals_alloys.md#niobium) formará um Núcleo Lógico Nano, o núcleo
-de computador mais avançado criado por nós. O Processador de Nanonúcleo e o Processador de Real Virtualidade podem ser criados a partir do Núcleo
-Lógico Nano, Células Voltaicas de Alta Energia, chapas de blindagem de titânio e alguns químicos especiais.
+Fundir Núcleos Lógicos com Piroxênio e pó de [Nióbio](metals_alloys.md#niobium) forma um Núcleo Lógico Nano, o núcleo
+de computador mais avançado criado por nós. O Processador de Nanonúcleo e o Processador de Real Virtualidade podem ser
+criados a partir do Núcleo Lógico Nano, Células Voltaicas de Alta Energia, chapas de blindagem de titânio e alguns
+produtos químicos especiais.

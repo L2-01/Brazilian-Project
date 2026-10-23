@@ -1,0 +1,24 @@
+---
+title: Bloco Colocador
+id: oritech:placer
+type: block
+custom:
+    Capacidade de RF: "100,000"
+    Entrada máx. de RF: "5,000"
+    Custo de movimento: "8 RF"
+    Custo de trabalho: "64 RF"
+    Espaços de complemento: "1"
+---
+
+O bloco colocador posiciona blocos do seu inventário na camada abaixo da [estrutura de máquina](@oritech:machine_frame).
+
+<center>
+<ModAsset location="oritech:area/block_placer" width={700} />
+</center>
+
+Ele também pode ser usado para plantar sementes em terra arada ou colocar mudas. A máquina verifica se a posição
+é válida para o item antes de colocá-lo.
+
+Essa verificação de validade o torna confiável para automação de plantações e árvores, pois alvos inválidos são pulados em vez de desperdiçar itens.
+
+Se vários colocadores compartilharem a mesma estrutura, eles iteram sobre a mesma área de trabalho, assim como as outras máquinas de pórtico.

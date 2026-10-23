@@ -14,7 +14,7 @@ item_ids:
 
 # Molde de Ferraria de Fluix
 
-Diferente do molde de ferraria vanilla, você pode fazer este do zero.
+Diferente do molde de ferraria do vanilla, você pode fazer este do zero.
 
 Necessário para as [ferramentas de fluix](fluix_tools.md)
 

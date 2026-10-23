@@ -1,19 +1,19 @@
 {
-  "name": "Começando",
+  "name": "Primeiros Passos",
   "icon": "minecraft:writable_book",
   "category": "productivebees:guide",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O Productive Bees expande as abelhas vanilla. Este guia assume alguma compreensão do sistema vanilla."
+      "text": "O Productive Bees constrói em cima das abelhas do jogo padrão. Algum entendimento do sistema do jogo padrão é presumido neste guia."
     },
     {
       "type": "patchouli:text",
-      "text": "Além das abelhas vanilla, você encontrará uma variedade de novas abelhas vivendo em $(l:hives/nests)ninhos$(/l) bem escondidos em diferentes biomas pelo mundo normal. Essas abelhas são solitárias, ou seja, não viverão numa colmeia. No entanto, sua genética permite cruzar diferentes tipos de abelhas, e além disso elas são estilosas."
+      "text": "Além das abelhas do jogo padrão, você encontrará uma variedade de novas abelhas vivendo em $(l:hives/nests)ninhos$(/l) bem escondidos em diferentes biomas ao redor do mundo. Essas abelhas são solitárias, o que significa que não viverão numa colmeia. No entanto, sua genética permite cruzar diferentes tipos de abelhas, além de terem uma aparência legal."
     },
     {
       "type": "patchouli:text",
-      "text": "A primeira coisa que você precisa encontrar é um ninho de abelhas vanilla para conseguir frascos de mel e favos de mel. Os frascos de mel são necessários para fabricar $(l:items/bee_cage)Gaiolas de Abelha$(/l), que tornam muito mais fácil transportar abelhas para sua casa."
+      "text": "A primeira coisa que você precisa encontrar é um ninho de abelha do jogo padrão para conseguir garrafas de mel e favos de mel. As garrafas de mel são necessárias para fabricar $(l:items/bee_cage)Gaiolas de Abelha$(/l), o que facilita muito o transporte de abelhas para sua casa."
     },
     {
       "type": "patchouli:text",
@@ -21,7 +21,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Algumas abelhas só podem ser encontradas em outras dimensões ou obtidas por cruzamento. Use o JEI para consultar as receitas de cruzamento e saber quais abelhas você precisa encontrar."
+      "text": "Algumas abelhas só podem ser encontradas em outras dimensões ou obtidas através de cruzamento. Use o JEI para consultar as receitas de cruzamento e saber quais abelhas você precisa encontrar."
     }
   ]
 }

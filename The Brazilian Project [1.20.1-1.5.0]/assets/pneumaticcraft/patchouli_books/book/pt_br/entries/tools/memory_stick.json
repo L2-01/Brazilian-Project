@@ -6,21 +6,21 @@
   "pages": [
     {
       "type": "text",
-      "text": "Um $(item)Cartão de Memória/$ é um dispositivo de mão útil para extrair, armazenar e restaurar níveis de experiência do jogador:$(li)$(thing)Clique com o botão direito/$: move um nível de experiência de você para o cartão$(li)$(thing)Agache + clique com o botão direito/$: move um nível de experiência do cartão para você$(li)$(thing)Clique com o botão esquerdo/$: alterna a absorção automática de XP, onde quaisquer orbes de XP que você coletar são automaticamente absorvidos pelo cartão"
+      "text": "Um $(item)Cartão de Memória/$ é um dispositivo portátil útil para extrair, armazenar e restaurar níveis de experiência do jogador:$(li)$(thing)Botão direito/$: move um nível de experiência de você para o stick$(li)$(thing)Agachar + Botão direito/$: move um nível de experiência do stick para você$(li)$(thing)Botão esquerdo/$: alterna a auto-absorção de XP, em que quaisquer orbes de XP coletados são absorvidos automaticamente pelo stick"
     },
     {
       "type": "text",
-      "text": "A experiência armazenada no Cartão de Memória também pode ser extraída como fluido $(l:base_concepts/memory_essence)Essência de Memória/$. Para isso, basta $(thing)clicar com o botão direito/$ em qualquer $(l:machines/tanks)Tanque de Fluidos/$ para transferir XP de ou para o tanque (tanques de fluido de outros mods também devem funcionar bem aqui). Clicar com o botão direito num tanque vazio tentará transferir Essência de Memória do cartão para o tanque; clicar num tanque com Essência de Memória tentará transferir do tanque para o cartão."
+      "text": "A experiência armazenada no Cartão de Memória também pode ser extraída como fluido $(l:base_concepts/memory_essence)Essência de Memória/$. Para isso, basta $(thing)clicar com o botão direito/$ em qualquer $(l:machines/tanks)Tanque de Fluido/$ para transferir XP para dentro ou para fora do tanque (tanques de fluido de outros mods também devem funcionar aqui). Clicar com o botão direito num tanque vazio tentará transferir Essência de Memória do cartão para o tanque; clicar num tanque com qualquer Essência de Memória tentará transferir do tanque para o cartão."
     },
     {
       "type": "text",
       "title": "Curios",
       "flag": "mod:curios",
-      "text": "Com o mod $(thing)Curios/$ instalado, você pode guardar o Cartão de Memória em qualquer espaço de Curios, economizando espaço de inventário. Isso é particularmente útil com a absorção automática de XP ligada."
+      "text": "Com o mod $(thing)Curios/$ instalado, você pode guardar o Cartão de Memória em qualquer espaço do Curios, economizando espaço de inventário. Isso é particularmente útil com a auto-absorção de XP ligada."
     },
     {
       "type": "crafting",
-      "text": "Fabricando um Cartão de Memória",
+      "text": "Crafting a Cartão de Memória",
       "recipe": "pneumaticcraft:memory_stick"
     }
   ]

@@ -40,7 +40,7 @@ ou outro cano de itens empurra o resultado de volta para o provedor.
 ## Configurações
 
 * O <ItemLink id="pattern_provider" /> (1) está na sua configuração padrão, com os <ItemLink id="processing_pattern" />s relevantes.
-  Ele também fornece [energia](../ae2-mechanics/energy.md) ao <ItemLink id="charger" /> porque age como um [cabo](../items-blocks-machines/cables.md).
+  Ele também fornece o <ItemLink id="charger" /> com [energia](../ae2-mechanics/energy.md) porque age como um [cabo](../items-blocks-machines/cables.md).
   
     ![Charger Pattern](../assets/diagrams/charger_pattern.png)
 

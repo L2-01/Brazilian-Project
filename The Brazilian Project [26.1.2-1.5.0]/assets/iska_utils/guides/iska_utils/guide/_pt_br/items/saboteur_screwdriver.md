@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:saboteur_screwdriver
 categories:
-  - Ferramentas úteis
+  - Useful tools
 ---
 # Chave de Fenda do Sabotador
 
@@ -15,6 +15,6 @@ categories:
 
 ## Uso
 
-Clique direito numa entidade de **dinamite acesa** (vanilla ou de mod) para **desarmá-la**. O item largado corresponde à origem: dinamite acesa de mod devolve o bloco de dinamite correspondente; dinamite acesa vanilla devolve dinamite comum.
+Clique com o botão direito numa entidade de **dinamite acesa** (vanilla ou de mods) para **desarmá-la**. O item derrubado corresponde à fonte: dinamite acesa de mods devolve o bloco de dinamite correspondente; dinamite acesa vanilla devolve dinamite comum.
 
-Também funciona em **carrinhos com dinamite**: o explosivo é removido, um carrinho vazio fica nos trilhos e a dinamite é largada.
+Também funciona em **Carrinhos com Dinamite**: o explosivo é removido, um carrinho vazio fica nos trilhos e a dinamite é derrubada.

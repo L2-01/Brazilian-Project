@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Energizante
+  title: Energização
   parent: energy_blocks/index.md
   icon: powah:energizing_orb
   position: 0
@@ -15,18 +15,18 @@ item_ids:
   - powah:energizing_rod_starter
 ---
 
-# Energizante
+# Energização
 
 ![](./energizing.png)
 
-O Orbe Energizante é um bloco usado para energizar itens, requer pelo menos uma Haste Energizante na faixa de 9X9 para funcionar, a velocidade de energização depende da quantidade de hastes e do nível da haste (taxa de I/O). 
+O Orbe Energizante é um bloco usado para energizar itens; requer pelo menos uma Vara Energizante num raio de 9X9 para funcionar, e a velocidade de energização depende da quantidade de varas e do tier da vara (taxa de E/S). 
 
-O orbe não requer energia, mas as hastes devem ser colocadas em cabos ou qualquer bloco de Forge Energy (FE) para funcionar. 
+O orbe não requer energia, mas as varas devem ser colocadas sobre cabos ou qualquer bloco de Forge Energy (FE) para funcionar. 
 
 <Row>
 <RecipesFor id="powah:energizing_orb" />
 </Row>
-|                                                 | Capacidade                                                  | I/O Máximo                                               |
+|                                                 | Capacidade                                                    | E/S Máx.                                                  |
 | ----------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
 | <ItemLink id="powah:energizing_rod_starter" />  | <powah:EnergyCapacity id="powah:energizing_rod_starter" />  | <powah:EnergyMaxIO id="powah:energizing_rod_starter" />  |
 | <ItemLink id="powah:energizing_rod_basic" />    | <powah:EnergyCapacity id="powah:energizing_rod_basic" />    | <powah:EnergyMaxIO id="powah:energizing_rod_basic" />    |

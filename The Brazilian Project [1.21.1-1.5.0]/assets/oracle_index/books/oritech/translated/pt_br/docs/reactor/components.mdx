@@ -1,0 +1,57 @@
+---
+title: Componentes do Reator
+icon: oritech:area/reactor
+---
+
+O reator pode ser feito de vários componentes diferentes:
+
+- Controlador do Reator: o coração do seu reator. Este bloco precisa ser colocado uma vez em algum ponto das paredes. É preciso interagir com ele para montar ou atualizar o reator.
+A interface mostra o status atual do reator, junto com as temperaturas dos componentes e estatísticas. A interface mostra apenas a primeira camada do interior.
+
+- Parede do Reator: a parede do reator é uma peça muito resistente e altamente resistente a explosões do reator. Ela deve revestir toda a estrutura.
+
+- Vareta de Reator: as varetas de reator são componentes internos que precisam ser abastecidos com pastilhas de urânio ou plutônio. Uma porta de combustível sobre cada coluna de varetas é necessária
+para inserir o combustível. Está disponível em varetas únicas, duplas ou quádruplas, que geram calor e energia dependendo da quantidade de varetas.
+
+- Tubo de Calor do Reator: os tubos de calor absorvem calor das varetas de combustível vizinhas e depois distribuem o calor entre os respiros de calor vizinhos. A quantidade máxima de calor
+transferida de um componente vizinho é baseada na diferença de temperatura entre os 2 componentes:
+  > temperatureDiff / 4 + 10
+
+- Refletor de Nêutrons do Reator: esses blocos refletem os nêutrons das varetas de combustível vizinhas, aumentando sua eficiência.
+
+- Respiro de Calor do Reator: os respiros removem calor do componente vizinho mais quente. A quantidade de calor removida é baseada na temperatura do componente
+vizinho. Componentes mais quentes resultam em mais calor removido. A fórmula exata é:
+  > neighborHeat / 100 + 4
+
+- Absorvedores de Calor do Reator: os absorvedores de calor podem remover uma quantidade fixa de calor de todos os componentes vizinhos. Isso significa que são mais eficientes quando
+cercados por componentes que precisam ser resfriados. No entanto, exigem um suprimento constante de refrigerante na forma de gelo, gelo azul ou gelo compactado na porta de refrigerante
+acima da coluna de absorvedores. A quantidade de refrigerante usada é fixa e não aumenta com mais lados sendo resfriados. A cada tique, 16 unidades
+de calor são removidas de cada vizinho.
+
+- Porta de Energia do Reator: a porta de energia é usada para extrair a energia gerada pelo reator. Cada porta pode extrair até 25.000 RF/t.
+
+- Porta de Combustível do Reator: precisa ser colocada no teto externo do reator, com varetas de combustível abaixo. É onde as pastilhas de combustível podem ser inseridas.
+
+- Porta de Absorção de Refrigerante do Reator: precisa ser colocada no teto externo do reator, com absorvedores de calor abaixo.
+É onde o refrigerante na forma de gelo, gelo azul ou gelo compactado pode ser inserido.
+
+- Porta de Redstone do Reator: um sinal de energia em uma porta de redstone desativa a entrada de novos combustíveis. Qualquer pastilha de combustível que já tenha começado a queimar precisa
+terminar antes que o reator desligue completamente com um sinal de redstone em uma porta. A porta também pode ser usada com um comparador para extrair dados. Ela tem 3 modos:
+Energia, Contagem de Varetas Ativas e Temperatura. Para alternar entre os modos, basta clicar com o botão direito na porta.
+
+## Atividade das Varetas de Combustível
+
+Cada vareta de combustível consome uma quantidade fixa de combustível das portas de combustível acima. Cada pastilha de combustível tem uma capacidade de combustível diferente. Use JEI, REI ou EMI para ver o
+uso de pastilhas e dados de capacidade específicos. Cada vareta única usa 1 unidade de capacidade, uma vareta dupla usa 2 e uma vareta quádrupla usa 4.
+
+Ao queimar combustível, cada vareta gera pulsos de nêutrons. Cada pulso cria uma quantidade específica de energia, 128 RF por padrão. Quanto mais pulsos uma vareta recebe,
+mais energia ela também cria.
+Cada vareta envia e recebe um pulso por padrão. No entanto, se um componente vizinho também for uma vareta de combustível,
+ela também atingirá o componente vizinho com um pulso. Refletores de nêutrons podem ser usados para devolver um pulso à sua origem, agindo de forma similar a um tipo de vareta como vizinho.
+
+Pulsos duplos e quádruplos atingem as outras varetas do mesmo bloco com pulsos e também enviam 2 ou 4 pulsos aos vizinhos.
+
+Uma vareta única gera 1 pulso interno, uma vareta dupla gera 4 e uma vareta quádrupla gera 12.
+
+A quantidade de calor gerada é baseada no total de pulsos de uma vareta, pulsos internos mais externos:
+> pulses / 2 * pulses + 4

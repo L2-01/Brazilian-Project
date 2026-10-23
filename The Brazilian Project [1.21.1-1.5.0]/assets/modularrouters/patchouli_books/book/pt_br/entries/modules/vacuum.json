@@ -5,11 +5,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "Este módulo procura itens largados numa área cúbica de 13x13x13 ao redor do roteador (ou seja, até 6 blocos em cada direção) e os absorve para dentro do buffer do roteador, se possível.$(p)O alcance pode ser aumentado até 25x25x25 (12 blocos em cada direção) com $(l:augments/range_up)Melhorias de Aumento de Alcance/$, ou reduzido a apenas 3x3x3 com $(l:augments/range_down)Melhorias de Diminuição de Alcance/$."
+      "text": "Este módulo varre itens largados numa área cúbica 13x13x13 ao redor do roteador (ou seja, até 6 blocos em cada direção) e os absorve para o buffer do roteador, se possível.$(p)O alcance pode ser aumentado até 25x25x25 (12 blocos em cada direção) com $(l:augments/range_up)Melhorias de Aumento de Alcance/$, ou reduzido a apenas 3x3x3 com $(l:augments/range_down)Melhorias de Diminuição de Alcance/$."
     },
     {
       "type": "text",
-      "text": "A área varrida é centrada no roteador se a $(l:intro/modules#direction)direção configurada/$ do módulo for $(bold)Todas/$ (o padrão).$(p)Se o módulo tiver uma direção real configurada, a área é deslocada naquela direção em 6 blocos, mais um para cada Melhoria de Aumento de Alcance instalada, menos um para cada Melhoria de Diminuição de Alcance instalada.$(p)Ex.: com a direção $(bold)CIMA/$, o módulo só varrerá uma área diretamente acima do roteador."
+      "text": "A área varrida é centrada no roteador se a $(l:intro/modules#direction)direção configurada/$ do módulo for $(bold)Todas/$ (o padrão).$(p)Se o módulo tiver uma direção real configurada, a área é deslocada nessa direção em 6 blocos, mais um para cada Melhoria de Aumento de Alcance instalada, menos um para cada Melhoria de Diminuição de Alcance instalada.$(p)Ex.: com a direção $(bold)UP/$, o módulo só varrerá uma área diretamente acima do roteador."
     },
     {
       "type": "crafting",

@@ -1,0 +1,17 @@
+{
+  "name": "Pedra Sintonizada",
+  "icon": "enchanted:attuned_stone_charged",
+  "category": "enchanted:charging",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Pedra Sintonizada",
+      "text": "Reúne poder para imbuir uma pedra sintonizada com energia mágica. Esta pedra pode ser usada para vários propósitos, como substituir um altar ou criar objetos mágicos."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:charging_stone"
+    }
+  ],
+  "read_by_default": true
+}

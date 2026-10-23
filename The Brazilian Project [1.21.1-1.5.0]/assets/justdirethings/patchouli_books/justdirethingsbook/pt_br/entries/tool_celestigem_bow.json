@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O Arco de Celestigema supera o $(l:justdirethings:tool_blazegold_bow)Arco de Ouro de Blaze$(/l), utilizando Forge Energy em vez de durabilidade. Ele pode guardar até 10.000 FE, ideal para uso prolongado sem desgaste.$(br2)Este arco possui 3 \"espaços de Recipiente de Poção\", permitindo efeitos personalizados. Carregue-o com um $(l:justdirethings:item_potion_canister)Recipiente de Poção$(/l) para flechas aprimoradas."
+      "text": "O Arco de Celestigema supera o $(l:justdirethings:tool_blazegold_bow)Arco de Ouro de Blaze$(/l), utilizando Forge Energy em vez de durabilidade. Ele comporta até 10.000 FE, ideal para uso prolongado sem desgaste.$(br2)Este arco possui 3 'espaços para Recipiente de Poção', permitindo efeitos personalizados. Carregue-o com $(l:justdirethings:item_potion_canister)Recipientes de Poção$(/l) para flechas aprimoradas."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "justdirethings:bow_celestigem",
-      "text": "Fabricação do Arco de Celestigema"
+      "text": "Fabricação: Arco de Celestigema"
     }
   ]
 }

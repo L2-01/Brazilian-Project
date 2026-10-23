@@ -1,0 +1,32 @@
+# Dívida de Alma
+
+A Dívida de Alma rastreia quantos [Fragmentos de Alma](@excessive_utilities:soul_fragment) estão vinculados ao seu jogador. Por padrão, essa quantidade é 0. Ela pode ser positiva ou negativa:
+
+- **Excedente de Alma** significa que você absorveu mais Fragmentos de Alma do que removeu.
+- **Dívida de Alma** significa que você removeu mais Fragmentos de Alma do que absorveu.
+
+Cada ponto muda sua vida máxima pelo valor de configuração **Vida por Fragmento de Alma** do servidor. Por padrão isso é **2 de vida**, ou um coração.
+
+## Fragmentos de Alma
+
+Fragmentos de Alma são itens raros largados por entidades. A chance base de obtenção é de cerca de **1 em 43 milhões**. Matar com a [Kikoku](@excessive_utilities:kikoku) adiciona uma rolagem de bônus separada com chance de cerca de **1 em 4,3 milhões**.
+
+Usar um Fragmento de Alma o absorve e aumenta seu Excedente de Alma em 1. Com a configuração padrão, isso adiciona um coração à sua vida máxima.
+
+A dica de ferramenta do Fragmento de Alma mostra sua Dívida ou Excedente de Alma atual e o modificador de vida máxima atual do sistema.
+
+## Removendo Fragmentos
+
+Use uma [Espada Etérea](@excessive_utilities:etheric_sword) para remover um Fragmento de Alma de si mesmo. Se bem-sucedido, você recebe um item Fragmento de Alma e seu total armazenado diminui em 1.
+
+A espada não removerá um fragmento se isso fizer sua vida máxima cair para 0 ou menos.
+
+## Comportamento ao Morrer
+
+A configuração do Servidor controla o que acontece com a Dívida e o Excedente de Alma quando você morre:
+
+| Configuração | Comportamento |
+| --- | --- |
+| `KEEP` | Mantém toda a Dívida e o Excedente de Alma. Este é o padrão. |
+| `RESET` | Zera ao morrer. |
+| `REMOVE_NEGATIVE` | Mantém o Excedente de Alma, mas limpa a Dívida de Alma. |

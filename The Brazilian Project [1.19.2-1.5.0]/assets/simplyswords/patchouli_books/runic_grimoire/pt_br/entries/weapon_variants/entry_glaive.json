@@ -1,0 +1,26 @@
+{
+    "name": "Glaive",
+    "icon": "simplyswords:iron_glaive",
+    "category": "simplyswords:category_weapon_variants",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:iron_glaive",
+            "text": "A glaive é um tipo de arma de haste que consiste numa lâmina de fio único montada na ponta de um longo cabo, ideal para cortes e golpes. O design da glaive permite grande alcance em combate, tornando-a útil tanto para atacar quanto para defender."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:iron_glaive",
+            "recipe2": "simplyswords:gold_glaive"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:diamond_glaive"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "simplyswords:netherite_glaive",
+            "recipe2": "simplyswords:runic_glaive"
+        }
+    ]
+}

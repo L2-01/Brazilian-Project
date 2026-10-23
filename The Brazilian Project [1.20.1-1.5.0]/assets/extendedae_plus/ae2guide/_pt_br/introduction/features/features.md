@@ -138,4 +138,4 @@ Um botão de controle de duplicação é adicionado à interface do provedor de 
 
 ### Exibição de Informações do Padrão
 
-- Mostra informações do autor nos padrões concluídos: `Escrito por <NomeDoJogador>`
+- Mostra informações do autor nos padrões concluídos: `Written by <PlayerName>`

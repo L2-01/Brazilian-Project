@@ -1,12 +1,12 @@
 {
-  "name": "Ajustes de Rede",
+  "name": "Configurações de Rede",
   "icon": "laserio:textures/gui/buttons/settings.png",
   "sortnum": 1,
   "category": "laserio:mechanics",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A tela de ajustes de rede está disponível a partir de qualquer tela de $(l:laserio:laser_node)Nó a Laser$(/l). Nesta tela de ajustes, você pode mudar a cor da rede. Esta cor afetará:$(li)O Bloco de Nó a Laser (no mundo)$(li)O Bloco de Conector a Laser (no mundo)$(li)A cor dos lasers entre blocos. "
+      "text": "A tela de configurações de rede está disponível a partir de qualquer tela de $(l:laserio:laser_node)Nó a Laser$(/l). Nessa tela de configurações, você pode mudar a cor da rede. Essa cor afetará:$(li)O Bloco de Nó a Laser (no mundo)$(li)O Bloco Conector a Laser (no mundo)$(li)A cor dos lasers entre os blocos. "
     },
     {
       "type": "patchouli:image",
@@ -19,19 +19,19 @@
     },
     {
       "type": "patchouli:text",
-      "text": "A cor dos lasers entre o nó e os inventários (como baús ou tanques) não será afetada.$(br2)Fazer uma mudança num nó de uma rede propagará automaticamente para todos os outros nós da mesma rede. Dessa forma, você pode ter redes de cores diferentes pelo seu mundo!$(br2)Isso é puramente cosmético e não tem efeito prático na funcionalidade."
+      "text": "A cor dos lasers entre o nó e os inventários (como baús ou tanques) não será afetada.$(br2)Fazer uma alteração num nó de uma rede se propagará automaticamente para todos os outros nós da mesma rede. Assim, você pode ter redes de cores diferentes pelo seu mundo!$(br2)Isso é puramente cosmético e não tem efeito prático na funcionalidade."
     },
     {
       "type": "patchouli:text",
-      "text": "Ao adicionar um nó ou rede a outra rede, as seguintes regras se aplicam:$(br2)Se um dos nós/redes tiver um ajuste de cor, e o outro for padrão, o padrão sempre será sobreposto.$(br2)Caso contrário, o bloco destacado enviará seus ajustes para aquele em que você clicar ao conectá-lo. Por exemplo, se você shift+clicar num nó verde e depois clicar num nó azul, o nó azul ficará verde. "
+      "text": "Ao adicionar um nó ou rede a outra rede, aplicam-se as seguintes regras:$(br2)Se um dos nós/redes tiver uma configuração de cor e o outro estiver no padrão, o padrão sempre será substituído.$(br2)Caso contrário, o bloco destacado enviará suas configurações ao bloco em que você clicar para conectá-lo. Por exemplo, se você shift-clicar num nó verde e depois clicar num nó azul, o nó azul ficará verde. "
     },
     {
       "type": "patchouli:text",
-      "text": "Há dois ajustes de Alfa, Alfa e Alfa da Chave-Inglesa.$(br2)O Alfa só afeta o laser indo entre dois blocos quaisquer e determina a transparência daquele laser. Se definido como 0, você não verá os lasers entre nós/conectores de forma alguma.$(br2)O Alfa da Chave-Inglesa SOMARÁ este ajuste ao alfa quando o jogador estiver segurando a chave-inglesa."
+      "text": "Há duas configurações de Alfa: Alfa e Alfa da Chave-Inglesa.$(br2)Alfa afeta apenas o laser entre dois blocos quaisquer e determina a transparência desse laser. Se definido como 0, você não verá os lasers entre nós/conectores.$(br2)O Alfa da Chave-Inglesa ADICIONA este valor ao alfa quando o jogador está segurando a chave-inglesa."
     },
     {
       "type": "patchouli:text",
-      "text": "Por exemplo, se você definir alfa como 0 e alfa da chave-inglesa como 80, só verá os lasers enquanto segura uma chave-inglesa!$(br2)Se você definir o alfa como 80 e o alfa da chave-inglesa como 200, verá os lasers mais brilhantes enquanto segura a chave-inglesa. Não há mal nenhum em passar de 255 ao somar os dois números, ele se limitará automaticamente a 255."
+      "text": "Por exemplo, se você definir alfa como 0 e alfa da chave-inglesa como 80, só verá os lasers ao segurar uma chave-inglesa!$(br2)Se definir o alfa como 80 e o alfa da chave-inglesa como 200, verá os lasers mais brilhantes ao segurar a chave-inglesa. Não há problema em passar de 255 ao somar os dois números — o valor se limitará automaticamente a 255."
     }
   ]
 }

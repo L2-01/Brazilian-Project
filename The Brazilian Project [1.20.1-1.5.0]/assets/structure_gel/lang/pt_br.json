@@ -211,8 +211,8 @@
     "gui.structure_gel.data_handler.default": "Padrão",
     "gui.structure_gel.data_handler.type": "Tipo",
 
-    "gui.structure_gel.data_handler.structure_gel:chest.loot.label": "Tabela de Saque",
-    "gui.structure_gel.data_handler.structure_gel:chest.loot.description": "A tabela de saque a dar ao bloco colocado.",
+    "gui.structure_gel.data_handler.structure_gel:chest.loot.label": "Tabela de Itens",
+    "gui.structure_gel.data_handler.structure_gel:chest.loot.description": "A tabela de itens a dar ao bloco colocado.",
     "gui.structure_gel.data_handler.structure_gel:chest.chest.label": "Bloco de Baú",
     "gui.structure_gel.data_handler.structure_gel:chest.chest.description": "O estado de bloco que será colocado.",
     "gui.structure_gel.data_handler.structure_gel:chest.generation_chance.label": "Chance de Geração",
@@ -232,8 +232,8 @@
     "gui.structure_gel.data_handler.structure_gel:entity.main_hand.description": "O item segurado no espaço da mão principal.",
     "gui.structure_gel.data_handler.structure_gel:entity.off_hand.label": "Mão Secundária",
     "gui.structure_gel.data_handler.structure_gel:entity.off_hand.description": "O item segurado no espaço da mão secundária.",
-    "gui.structure_gel.data_handler.structure_gel:entity.loot.label": "Tabela de Saque",
-    "gui.structure_gel.data_handler.structure_gel:entity.loot.description": "A tabela de saque desta entidade, se aplicável.",
+    "gui.structure_gel.data_handler.structure_gel:entity.loot.label": "Tabela de Itens",
+    "gui.structure_gel.data_handler.structure_gel:entity.loot.description": "A tabela de itens desta entidade, se aplicável.",
     "gui.structure_gel.data_handler.structure_gel:entity.persistent.label": "Persistente",
     "gui.structure_gel.data_handler.structure_gel:entity.persistent.description": "Quando verdadeiro, a entidade não desaparece sozinha.",
     "gui.structure_gel.data_handler.structure_gel:entity.spawn_chance.label": "Chance de Geração",
@@ -283,8 +283,8 @@
 
     "gui.structure_gel.data_handler.structure_gel:archaeology.block.label": "Bloco",
     "gui.structure_gel.data_handler.structure_gel:archaeology.block.description": "O bloco a colocar.",
-    "gui.structure_gel.data_handler.structure_gel:archaeology.loot_table.label": "Tabela de Saque",
-    "gui.structure_gel.data_handler.structure_gel:archaeology.loot_table.description": "A tabela de saque a dar ao bloco.",
+    "gui.structure_gel.data_handler.structure_gel:archaeology.loot_table.label": "Tabela de Itens",
+    "gui.structure_gel.data_handler.structure_gel:archaeology.loot_table.description": "A tabela de itens a dar ao bloco.",
     "gui.structure_gel.data_handler.structure_gel:archaeology.generation_chance.label": "Chance de Geração",
     "gui.structure_gel.data_handler.structure_gel:archaeology.generation_chance.description": "A chance percentual de isto colocar um bloco."
 }

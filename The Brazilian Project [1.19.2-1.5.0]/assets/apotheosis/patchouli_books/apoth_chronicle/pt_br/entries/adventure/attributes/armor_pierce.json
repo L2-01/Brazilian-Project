@@ -1,0 +1,13 @@
+{
+    "name": "Penetração de Armadura",
+    "icon": "apotheosis:textures/mob_effect/sundering.png",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(9)Penetração de Armadura$() permite ignorar uma quantidade fixa da armadura do alvo ao atacar.$(p)Penetração de Armadura extra pode deixar a armadura do alvo negativa."
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: Chaves-Inglesas
+  title: Chaves
   icon: certus_quartz_wrench
   position: 410
 categories:
@@ -11,7 +11,7 @@ item_ids:
 - ae2:nether_quartz_wrench
 ---
 
-# Chaves-Inglesas
+# Chaves
 
 <Row>
   <ItemImage id="certus_quartz_wrench" scale="4" />
@@ -19,11 +19,11 @@ item_ids:
   <ItemImage id="nether_quartz_wrench" scale="4" />
 </Row>
 
-Chaves-inglesas são usadas para girar (botão direito) e desmontar (shift-botão direito) dispositivos, máquinas e outros blocos do AE2.
+Chaves são usadas para girar (clique direito) e desmontar (shift+clique direito) dispositivos, máquinas e outros blocos do AE2.
 [Subpartes](../ae2-mechanics/cable-subparts.md) podem ser removidas de um cabo sem quebrar tudo no cabo
-(ou o cabo pode ser removido sem quebrar as subpartes).
+(ou o cabo pode ser removido sem quebrar as subpartes.)
 
-Muitos blocos do AE2 podem ser girados, então só porque este guia não diz que você pode girar algo, não significa que não pode.
+Muitos blocos do AE2 podem ser girados, então o fato de este guia não dizer que você pode girar algo não significa que você não pode.
 
 ## Receitas
 

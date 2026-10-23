@@ -1,0 +1,35 @@
+---
+title: Terra Amaldiçoada
+id: excessive_utilities:cursed_earth
+related_items: [excessive_utilities:cursed_earth]
+type: block
+---
+A **Terra Amaldiçoada** se espalha pela terra próxima e gera rapidamente criaturas hostis em áreas escuras. Ela pode ser usada para fazer uma poderosa fazenda de criaturas, mas pode ser muito perigosa se não for administrada.
+
+A Terra Amaldiçoada pode ser criada usando uma [Gota do Mal](@excessive_utilities:drop_of_evil) num bloco de terra compatível. Ativar um [Símbolo da Divisão](@excessive_utilities:division_sigil) também a cria sob a Mesa de Encantamentos do ritual.
+
+## Propagação e Luz
+
+A Terra Amaldiçoada recém-criada se espalha rapidamente no início e depois continua se espalhando mais devagar durante tiques aleatórios de bloco. Ela pode substituir blocos na tag `#excessive_utilities:cursed_earth_replaceable`, que por padrão contém blocos de terra. Ela precisa de um bloco aberto acima do alvo e não se espalha normalmente quando a luz acima dele é maior que 4.
+
+Por padrão, a Terra Amaldiçoada exposta ao céu diurno pega fogo com Fogo das Almas. O fogo se espalha rapidamente pela Terra Amaldiçoada próxima, eventualmente transformando-a de volta em Terra. Cubra a área antes de converter uma plataforma grande e mantenha fogo comum longe dela, a menos que queira removê-la.
+
+## Criaturas Amaldiçoadas
+
+Monstros gerados diretamente pela Terra Amaldiçoada são **Amaldiçoados**. Criaturas amaldiçoadas aparecem quase completamente escuras, emitem fumaça, se movem 20% mais rápido e causam 150% de dano de ataque base adicional com a configuração padrão.
+
+<Asset location="excessive_utilities:wiki/cursed_mobs" width={768} />
+
+O [Gerador de Criaturas Inquietado](@excessive_utilities:resturbed_mob_spawner) também marca as criaturas que cria como Amaldiçoadas. Um operador de servidor pode aplicar ou remover o mesmo estado com o comando de maldição de entidade do mod.
+
+A Terra Amaldiçoada usa a lista normal de monstros e as regras de geração do bioma local. Ela para de tentar gerações adicionais quando o número configurado de monstros já está por perto, e tipos de entidade em `#excessive_utilities:cursed_earth_blacklist` não podem ser selecionados.
+
+## Configuração
+
+Donos de servidor podem configurar:
+
+- Se a Terra Amaldiçoada queima quando exposta à luz do dia
+- O número máximo de monstros próximos antes de a geração pausar
+- O raio usado para contar esses monstros
+- Os bônus de dano de ataque e de velocidade de movimento dados às criaturas Amaldiçoadas
+- O período e a chance usados nas tentativas de trabalho da Terra Amaldiçoada

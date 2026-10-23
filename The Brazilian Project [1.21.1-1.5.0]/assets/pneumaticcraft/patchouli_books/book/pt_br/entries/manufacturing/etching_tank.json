@@ -5,22 +5,22 @@
   "advancement": "pneumaticcraft:etchacid_bucket",
   "pages": [
     {
-    "type": "text",
-    "text": "O $(thing)Tanque de Corrosão/$ deve primeiro ser enchido com $(l:manufacturing/etching_acid)Ácido de Corrosão/$. Depois insira até 25 $(thing)PCIs Vazias/$ que já tenham sido parcial ou totalmente expostas numa $(l:manufacturing/uv_light_box)Caixa de Luz UV/$.$(p)Embora seja possível simplesmente despejar Ácido de Corrosão no mundo e jogar PCIs na poça, usar o Tanque de Corrosão é uma forma muito mais segura e rápida de fazer isso."
+      "type": "text",
+      "text": "O $(thing)Tanque de Corrosão/$ deve primeiro ser enchido com $(l:manufacturing/etching_acid)Ácido de Corrosão/$. Depois insira até 25 unidades de $(thing)PCI Vazia/$ que já tenham sido parcial ou totalmente expostas numa $(l:manufacturing/uv_light_box)Caixa de Luz UV/$.$(p)Embora seja possível simplesmente despejar Ácido de Corrosão no mundo e jogar PCIs na poça, usar o Tanque de Corrosão é uma forma muito mais segura e rápida de fazer isso."
     },
     {
       "type": "text",
       "title": "Automação",
-      "text": "Você pode canalizar $(thing)PCIs Vazias/$ por qualquer lado. $(thing)PCIs Não Montadas/$ corroídas com sucesso são movidas para o espaço de saída superior direito, enquanto $(thing)PCIs Falhas/$ vão para o espaço inferior direito. Para extração automatizada, extraia PCIs Não Montadas pela lateral da máquina e PCIs Falhas por cima ou por baixo. Você poderia automatizar isso canalizando PCIs Falhas para um $(thing)Alto-Forno/$ para recuperar PCIs Vazias não expostas e recomeçar o processo."
+      "text": "Você pode injetar $(thing)PCIs Vazias/$ por qualquer lado. As $(thing)PCIs Não Montadas/$ corroidas com sucesso são movidas para o espaço de saída superior direito, enquanto as $(thing)PCIs Falhas/$ vão para o espaço inferior direito. Para extração automatizada, extraia a PCI Não Montada pela lateral da máquina, e a PCI Falha pelo topo ou pelo fundo. Você poderia automatizar isso encaminhando PCIs Falhas para um $(thing)Alto-forno/$ para recuperar PCIs Vazias não expostas, e recomeçar o processo."
     },
     {
       "type": "text",
       "title": "Aquecimento",
-      "text": "Sem $(l:base_concepts/heat)Calor/$, o Tanque de Corrosão leva 150 segundos para corroer totalmente uma PCI (embora, claro, possa corroer até 25 em paralelo). Se você aplicar calor ao tanque, poderá reduzir ainda mais o tempo de processamento, até um mínimo de 30 segundos; quanto mais quente o tanque fica, mais rápido o processamento. Porém, esteja avisado de que, quando aquecido, uma pequena quantidade de Ácido de Corrosão será consumida enquanto as PCIs estão sendo corroídas."
+      "text": "Sem $(l:base_concepts/heat)Calor/$, o Tanque de Corrosão leva 150 segundos para corroer totalmente uma PCI (embora, claro, possa corroer até 25 em paralelo). Se você aplicar calor ao tanque, pode reduzir ainda mais o tempo de processamento, até um mínimo de 30 segundos; quanto mais quente o tanque ficar, mais rápido o processamento. Porém, esteja avisado de que, quando aquecido, uma pequena quantidade de Ácido de Corrosão será consumida enquanto as PCIs estiverem sendo corroidas."
     },
     {
       "type": "crafting",
-      "text": "Fabricando um Tanque de Corrosão",
+      "text": "Fabricando Tanque de Corrosão",
       "recipe": "pneumaticcraft:etching_tank"
     }
   ]

@@ -15,12 +15,12 @@ item_ids:
 
 <BlockImage id="sky_stone_block" scale="8" />
 
-O material de que os [meteoritos](../ae2-mechanics/meteorites.md) são feitos, usado nas receitas do <ItemLink id="sky_stone_tank" />, do <ItemLink id="not_so_mysterious_cube" />,
-do <ItemLink id="cell_component_256k" /> e, mais importante, do <ItemLink id="controller" />.
+O material de que os [meteoritos](../ae2-mechanics/meteorites.md) são feitos, usado nas receitas do <ItemLink id="sky_stone_tank" />, <ItemLink id="not_so_mysterious_cube" />,
+<ItemLink id="cell_component_256k" /> e, mais importante, do <ItemLink id="controller" />.
 
 ## Receitas
 
-Coloque um <ItemLink id="annihilation_plane" /> virado para cima na altura máxima de construção do mundo para obter <ItemLink id="sky_dust" />.
+Coloque um <ItemLink id="annihilation_plane" /> apontado para cima na altura máxima do mundo para obter <ItemLink id="sky_dust" />.
 
 <RecipeFor id="sky_stone_block" />
 

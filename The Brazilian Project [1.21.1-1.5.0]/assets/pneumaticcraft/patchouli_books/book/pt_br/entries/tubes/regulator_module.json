@@ -6,20 +6,20 @@
   "pages": [
     {
       "type": "text",
-      "text": "O Módulo de Tubo Regulador é um módulo $(l:tubes/tube_modules#inline)em linha/$ usado para limitar a $(l:base_concepts/pressure)pressão/$ permitida através do tubo. Por padrão, o módulo regulará a pressão para 4,9 bar (tanto para tubos básicos quanto avançados) sem sinal de redstone, reduzindo até 0 conforme o sinal sobe até 15. Isso significa que uma alavanca bem ao lado de um regulador o fecha, impedindo qualquer fluxo de ar através dele."
+      "text": "O Módulo de Tubo Regulador é um módulo $(l:tubes/tube_modules#inline)interno/$ usado para limitar a $(l:base_concepts/pressure)pressão/$ permitida através do tubo. Por padrão, o módulo regulará a pressão para 4,9 bar (tanto para tubos básicos quanto avançados) sem sinal de redstone, reduzindo em direção a 0 conforme o sinal se aproxima de 15. Isso significa que uma alavanca bem ao lado de um regulador o fecha, impedindo qualquer fluxo de ar por ele."
     },
     {
       "type": "text",
-      "text": "Quando o lado estreito do regulador alcança esta pressão, nenhum ar adicional será permitido através do tubo. Esse princípio pode ser usado como um $(thing)transformador/$: no lado de entrada (largo) há ar de alta pressão, mas o Tubo Regulador limita a pressão na saída ao limiar definido.$(p)Isso permite que uma rede de tubos de nível inferior seja abastecida com segurança por uma rede de nível superior."
+      "text": "Quando o lado estreito do regulador atinge esta pressão, nenhum ar adicional poderá passar pelo tubo. Este princípio pode ser usado como um $(thing)transformador/$: no lado de entrada (largo) há ar de alta pressão, mas o Tubo Regulador limita a pressão na saída à pressão de limite.$(p)Isso permite que uma rede de tubos de nível inferior seja abastecida com segurança por uma rede de nível superior."
     },
     {
       "type": "text",
-      "text": "Curiosamente, o $(thing)Módulo de Tubo Regulador/$ permite fluxo de ar irrestrito na direção oposta (do lado estreito para o lado largo), independentemente do sinal de redstone; isso significa que um regulador com sinal de redstone completo pode ser usado como uma válvula de mão única.$(p)Note que o $(thing)Regulador/$ $(italic)não/$ reduz ativamente a pressão no seu lado estreito; ele só impede o fluxo de ar se a pressão fosse subir acima do limiar."
+      "text": "Curiosamente, o $(thing)Módulo de Tubo Regulador/$ permite fluxo irrestrito de ar na direção oposta (do lado estreito para o lado largo) independentemente do sinal de redstone; isso significa que um regulador com sinal de redstone máximo pode ser usado como válvula de mão única.$(p)Note que o $(thing)Regulador/$ $(italic)não/$ reduz ativamente a pressão no seu lado estreito; ele apenas impede o fluxo de ar se a pressão for subir acima do limite."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:module_expansion_card",
-      "text": "Aplicar um $(l:tubes/module_expansion_card)Cartão de Expansão de Módulo/$ ao Módulo de Tubo Regulador desbloqueia uma GUI que oferece muito mais controle sobre o nível de limiar. Você pode definir um limiar preciso na GUI ou (com a caixa de seleção $(bold)Configuração Avançada/$) configurar níveis de limiar interpolados com base no sinal de redstone. Isso funciona exatamente como o $(l:tubes/safety_module)Módulo de Tubo de Segurança/$."
+      "text": "Aplicar um $(l:tubes/module_expansion_card)Cartão de Expansão de Módulo/$ ao Módulo de Tubo Regulador desbloqueia uma GUI que dá muito mais controle sobre o nível-limite. Você pode definir um limite preciso na GUI ou (com a caixa $(bold)Configuração Avançada/$) configurar níveis-limite interpolados com base no sinal de redstone. Funciona exatamente como o $(l:tubes/safety_module)Módulo de Tubo de Segurança/$."
     },
     {
       "type": "crafting",

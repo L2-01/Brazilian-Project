@@ -1,16 +1,16 @@
 {
-    "name": "Peças Passivas e Ativas",
+    "name": "Partes Passivas e Ativas",
     "icon": "minecraft:piston",
     "category": "bigreactors:misc",
     "read_by_default": true,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Algumas peças do Reator ou da Turbina que interagem com blocos externos estão disponíveis na forma $(bold)passiva$() ou $(bold)ativa$(), ou ambas.$(br2)Uma peça $(bold)passiva$() não faz nada por conta própria. Não tenta enviar energia, fluidos ou itens nem tenta adquiri-los. O bloco conectado à peça precisa tomar a iniciativa e iniciar a transferência."
+            "text": "Algumas peças do Reator ou da Turbina que interagem com blocos externos estão disponíveis na forma $(bold)passiva$() ou $(bold)ativa$(), ou ambas.$(br2)Uma peça $(bold)passiva$() não faz nada por si só. Ela não tenta enviar energia, fluidos ou itens, nem tenta obtê-los. O bloco conectado à peça precisa tomar a iniciativa e iniciar a transferência."
         },
         {
             "type": "patchouli:text",
-            "text": "Uma peça $(bold)ativa$() está sempre procurando uma oportunidade de extrair itens e fluidos ou de enviar energia, itens e fluidos para o bloco conectado, mas não permite que o bloco conectado insira ou extraia nada da peça.$(br2)Misturando peças ativas e passivas você pode ajustar finamente sua rede de distribuição e aquisição de recursos."
+            "text": "Uma peça $(bold)ativa$() está sempre à procura de uma oportunidade para extrair itens e fluidos ou enviar energia, itens e fluidos ao bloco conectado, mas não permite que o bloco conectado insira ou extraia nada da peça.$(br2)Misturando peças ativas e passivas, você pode ajustar finamente sua rede de distribuição e aquisição de recursos."
         }
     ]
 }

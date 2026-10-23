@@ -5,7 +5,7 @@ navigation:
   parent: little_big_redstone:logic.md
   position: 11
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:reader
 ---
@@ -14,24 +14,26 @@ item_ids:
 
 <FloatingColumn width="100" align="right">
 	### Analógico
-	Quando no modo comparador, o leitor emitirá um valor de saída igual à força do sinal analógico emitida pelo
-	bloco para comparadores. Caso contrário, os leitores só emitirão um valor de saída de 0 (DESLIGADO) ou 1 (LIGADO).
+	No modo comparador, o leitor produzirá um valor de saída igual à força de sinal analógico que o bloco emite para
+	comparadores. Caso contrário, os leitores só produzem um valor de saída de 0 (DESLIGADO) ou 1 (LIGADO).
 </FloatingColumn>
-
 
 <RecipeFor id="reader" />
 
-O leitor é um componente lógico que não tem entrada dentro do circuito. Em vez disso, o leitor emitirá um sinal baseado
-na capacidade de preenchimento do contêiner diretamente adjacente ao microchip, na direção em que está configurado.
+O leitor é um componente lógico que não tem entrada dentro do circuito. Em vez disso, o leitor emite um sinal
+baseado no nível de preenchimento do contêiner diretamente adjacente ao microchip na direção em que ele está
+configurado.
 
-Contêineres válidos para o leitor consistem em contêineres de itens (baús, barris, fornalhas, etc.), contêineres de fluidos (tanques de fluido de mods),
-e contêineres de energia (contêineres FE de mods, como baterias). Por padrão, ele lê o preenchimento de itens, mas
-você pode alterar isso no menu de configuração de lógica.
+Os contêineres válidos para o leitor consistem em contêineres de itens (baús, barris, fornalhas etc.), contêineres
+de fluido (tanques de fluido de mods) e contêineres de energia (contêineres de FE de mods, como baterias). Por
+padrão ele lê o preenchimento de itens, mas você pode mudar isso no menu de configuração da lógica.
 
-Um leitor pode ser configurado para detectar uma porcentagem mínima de preenchimento de um contêiner para que ele tenha um sinal de saída
-LIGADO. Por padrão, a porcentagem mínima de preenchimento é de 50%.
+Um leitor pode ser configurado para detectar um certo limite do nível de conteúdo de um contêiner para que ele
+tenha uma saída LIGADA. Esse limite pode ser uma porcentagem ou um valor constante. Para usar uma porcentagem,
+basta incluir um % no fim do valor.
 
-Abaixo está um exemplo de um leitor sendo usado para acender uma lâmpada de redstone quando o baú está com pelo menos 50% de preenchimento.
+Abaixo está um exemplo de um leitor sendo usado para acender uma lâmpada de redstone quando o baú está pelo
+menos 50% cheio.
 
 <PaddedBox left="5" top="5">
 	<Row>
@@ -40,7 +42,7 @@ Abaixo está um exemplo de um leitor sendo usado para acender uma lâmpada de re
 				<GameScene zoom="2" padding="0">
 					<Block id="minecraft:chest" />
 					<BlockAnnotation>
-						O baú está com pelo menos 50% de preenchimento
+						O baú está pelo menos 50% cheio
 					</BlockAnnotation>
 					<Block id="red_microchip" x="-1" />
 					<Block id="minecraft:redstone_lamp" x="-2" p:lit="true" />
@@ -54,7 +56,7 @@ Abaixo está um exemplo de um leitor sendo usado para acender uma lâmpada de re
 				<Logic name="reader" x="0" y="0" type="reader" data="{config:{direction:'west'}}" />
 				<Logic name="output" x="32" y="0" type="io" data="{config:{direction:'east',input:false,signal_strength:15}}" />
 	
-				<Wire from="reader" fromPort="0" to="output" toPort="0" powered={true} />
+				<Wire from="reader" fromPort="0" to="output" toPort="0" powered="1" />
 			</MicrochipScene>
 		</Column>
 	</Row>
@@ -65,7 +67,7 @@ Abaixo está um exemplo de um leitor sendo usado para acender uma lâmpada de re
 				<GameScene zoom="2" padding="0">
 					<Block id="minecraft:chest" />
 					<BlockAnnotation>
-						O baú está com menos de 50% de preenchimento
+						O baú está menos de 50% cheio
 					</BlockAnnotation>
 					<Block id="red_microchip" x="-1" />
 					<Block id="minecraft:redstone_lamp" x="-2" p:lit="false" />

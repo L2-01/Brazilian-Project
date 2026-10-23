@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O dispositivo de troca pode trocar um conjunto de blocos por outro! Ele não pode, no entanto, substituir blocos de ar. Use um $(l:buildinggadgets2:buildinggadget)Dispositivo de Construção$(/l) para isso! $(br2)Primeiro, garanta que o dispositivo tenha energia. $(br2)Segundo, Shift+clique direito num bloco no mundo para especificar o bloco para o qual trocar."
+      "text": "O Dispositivo de Troca pode trocar um conjunto de blocos por outro! Ele não pode, porém, substituir blocos de ar. Use um $(l:buildinggadgets2:buildinggadget)Dispositivo de Construção$(/l) para isso! $(br2)Primeiro, verifique se o dispositivo tem energia. $(br2)Segundo, pressione Shift + clique com o botão direito num bloco do mundo para especificar o bloco para o qual trocar."
     },
     {
       "type": "patchouli:text",
-      "text": "Você pode escolher seu $(l:buildinggadgets2:modes)Modo de Troca$(/l) segurando a tecla de configurações. Cada modo é descrito na sua respectiva entrada deste livro. O modo padrão é $(l:buildinggadgets2:mode_surface)Superfície$(/l). $(br2)Ao olhar para um bloco no mundo, você verá uma imagem fantasma dos blocos que serão colocados por cima dos blocos existentes.  Se estiverem faltando os itens ou a energia necessários para colocar esses blocos, eles terão uma sobreposição vermelha. Clique com o botão direito para trocar os blocos como mostrado."
+      "text": "Você pode escolher seu $(l:buildinggadgets2:modes)Modo de Troca$(/l) segurando a tecla de configurações. Cada modo é descrito em sua respectiva entrada neste livro. O modo padrão é $(l:buildinggadgets2:mode_surface)Superfície$(/l). $(br2)Ao olhar para um bloco no mundo, você verá uma imagem fantasma dos blocos que serão colocados sobre os blocos existentes. Se faltarem os itens ou a energia necessários para colocar esses blocos, eles terão uma sobreposição vermelha. Clique com o botão direito para trocar os blocos conforme mostrado."
     },
     {
       "type": "patchouli:image",
@@ -23,11 +23,11 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Quando você clica com o botão direito, a troca começa. Os itens serão tirados do seu inventário para serem colocados no mundo, e quaisquer blocos para os quais você não tenha o item necessário serão pulados. $(br2)Os itens dos blocos removidos serão devolvidos a você. $(br2)Nota: Você pode encantar esta ferramenta com toque suave. Sem ele, grama devolverá terra, etc."
+      "text": "Ao clicar com o botão direito, a troca começará. Os itens serão retirados do seu inventário para serem colocados no mundo, e quaisquer blocos para os quais você não tenha o item necessário serão ignorados. $(br2)Os itens dos blocos removidos serão devolvidos a você. $(br2)Observação: você pode encantar esta ferramenta com Toque Suave. Sem ele, a grama devolverá terra, etc."
     },
     {
       "type": "patchouli:text",
-      "text": "Você pode $(l:buildinggadgets2:undo)desfazer$(/l) com o dispositivo de troca, mas precisa ter os itens necessários.$(br2)Por exemplo, se você trocou grama por tijolos de pedra, precisa ter grama no seu inventário para desfazer esta troca. Não esqueça de aplicar toque suave se desejado!"
+      "text": "Você pode $(l:buildinggadgets2:undo)desfazer$(/l) com o Dispositivo de Troca, mas precisa ter os itens necessários.$(br2)Por exemplo, se você trocou grama por tijolos de pedra, precisa ter grama no inventário para desfazer essa troca. Não esqueça de aplicar Toque Suave, se desejar!"
     }
   ]
 }

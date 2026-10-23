@@ -1,15 +1,15 @@
 ---
 navigation:
-  title: Borracha e processamento
+  title: Borracha e Processamento
   icon: iska_utils:rubber
   parent: index.md
   position: 12
 categories:
-  - Borracha e processamento
+  - Rubber and processing
 ---
-# Borracha e processamento
+# Borracha e Processamento
 
-Seringueiras, extração de seiva, processamento e os principais materiais de borracha usados pelo mod.
+Seringueiras, extração de seiva, processamento e os principais materiais de borracha usados em todo o mod.
 
 
 <SubPages icons={true} alphabetical={true} />

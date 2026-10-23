@@ -6,15 +6,15 @@
   "pages": [
     {
       "type": "text",
-      "text": "Como seu irmão mais novo, o $(l:components/air_canister)Cilindro de Ar/$, o $(thing)Cilindro de Ar Reforçado/$ armazena ar e pode ser carregado e descarregado numa $(l:machines/charging_station)Estação de Carga/$. Porém, ele tem um volume maior de 6000mL e pode ser carregado até 20 bar (ele não explode)."
+      "text": "Como seu irmão menor, o $(l:components/air_canister)Cilindro de Ar/$, o $(thing)Cilindro de Ar Reforçado/$ armazena ar e pode ser carregado e descarregado numa $(l:machines/charging_station)Estação de Carga/$. Porém, ele tem um volume maior de 6000mL e pode ser carregado até 20 bar (não explodirá)."
     },
     {
       "type": "text",
-      "text": "Um uso interessante para o $(thing)Cilindro de Ar Reforçado/$ é como dispositivo de armazenamento de ar em massa, em conjunto com um inventário como um baú e um $(l:tubes/pressure_tubes)Tubo de Pressão/$ com um $(l:tubes/charging_module)Módulo de Carga/$. Isso pode ficar ainda mais interessante com uma $(l:machines/aerial_interface)Interface Aérea/$ e um $(thing)Baú de Ender/$ (vanilla)..."
+      "text": "Um uso interessante para o $(thing)Cilindro de Ar Reforçado/$ é como dispositivo de armazenamento de ar em massa, junto com um inventário como um baú e um $(l:tubes/pressure_tubes)Tubo de Pressão/$ com um $(l:tubes/charging_module)Módulo de Carga/$. Isso pode ficar ainda mais interessante com uma $(l:machines/aerial_interface)Interface Aérea/$ e um $(thing)Baú de Ender/$ (do jogo padrão)..."
     },
     {
       "type": "crafting",
-      "text": "Fabricando um Cilindro de Ar Reforçado",
+      "text": "Fabricando Cilindro de Ar Reforçado",
       "recipe": "pneumaticcraft:reinforced_air_canister"
     }
   ]

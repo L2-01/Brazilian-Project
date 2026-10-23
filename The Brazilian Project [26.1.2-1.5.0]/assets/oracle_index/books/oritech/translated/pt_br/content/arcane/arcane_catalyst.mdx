@@ -1,0 +1,52 @@
+---
+id: oritech:arcane_catalyst
+type: block
+title: Catalisador Arcano
+custom:
+    Capacidade base de almas: "50"
+    Alcance de coleta de almas: "16 blocos"
+---
+
+O Catalisador Arcano é usado para armazenamento de almas e encantamento avançado. Ele armazena almas, que podem então ser usadas por um
+[Encantador Estabilizado](@oritech:stabilized_enchanter) próximo ou para encantamento direto de livros.
+
+## Coleta de Almas
+
+O catalisador coleta automaticamente quaisquer almas liberadas num **raio de 16 blocos**.
+Almas são liberadas quando criaturas morrem por perto ou quando [Flores da Alma](@oritech:soul_flowers)
+são colhidas.
+
+## Estabilização e Armazenamento
+
+O catalisador tem uma capacidade base de **50 almas**. Para armazenar mais, ele precisa ser
+abastecido com energia, como a de um [Laser Endérico](@oritech:enderic_laser).
+
+- **Carregamento**: cada **20 RF/t** fornecidos aumenta a capacidade de almas em **1**.
+- **Decaimento**: se o suprimento de energia for cortado, a capacidade volta lentamente a 50.
+
+<Callout variant="danger">
+    **Risco de Instabilidade**: se o catalisador contiver mais almas do que sua capacidade atual
+    (por exemplo, se faltar energia enquanto ele estiver cheio), ele ficará instável. Após **3 segundos**
+    (60 tiques) de instabilidade, ele **explode**. A força da explosão aumenta com
+    a quantidade de almas excedentes.
+</Callout>
+
+## Hiper-encantamento
+
+Ao colocar um **Livro Encantado** no primeiro espaço e um item no segundo, você
+pode encantar itens diretamente.
+
+- **Requisito de Nível**: o livro usado precisa estar no **nível máximo do vanilla** para aquele
+encantamento.
+- **Sem Restrições**: este método ignora as regras padrão de encantamento, permitindo aplicar
+qualquer encantamento em qualquer item.
+- **Hiperníveis**: se o item já tiver o encantamento no nível máximo, o catalisador pode "hiper-encantá-lo"
+para níveis ainda maiores.
+- **Consumo**: o livro encantado é consumido durante o processo de hiper-encantamento.
+
+<center>
+<ModAsset location="oritech:area/catalyst_stabilized" width={640} />
+</center>
+
+O hiper-encantamento custa muito mais almas que o encantamento padrão, escalando
+exponencialmente com o nível-alvo.

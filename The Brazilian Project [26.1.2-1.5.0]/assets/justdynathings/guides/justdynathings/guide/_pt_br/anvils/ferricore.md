@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Bigorna de Ferricore
+  title: Bigorna de Ferricoro
   icon: "justdynathings:ferricore_anvil"
   position: 1
   parent: justdynathings:anvils.md
@@ -8,7 +8,7 @@ item_ids:
   - justdynathings:ferricore_anvil
 ---
 
-# Bigorna de Ferricore
+# Bigorna de Ferricoro
 
 Uma bigorna que repara ferramentas com alguns [catalisadores](https://github.com/DevDyna/JustDynaThings/blob/main/src/generated/resources/data/justdynathings/data_maps/item/anvils/ferricore_repair.json)
 

@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Conectores a Laser Avançados funcionam igual aos $(l:laserio:laser_connector)Conectores a Laser$(/l), conectando-se a outros conectores (básicos) e nós a até 8 blocos de distância. $(br2)Eles só podem ser conectados a um outro Conector Avançado, no entanto, formando um par.  O alcance de conexão de um conector avançado até seu parceiro é infinito — incluindo entre dimensões!"
+      "text": "Conectores a Laser Avançados funcionam igual aos $(l:laserio:laser_connector)Conectores a Laser$(/l), conectando-se a outros conectores (básicos) e nós a até 8 blocos de distância. $(br2)Eles só podem se conectar a um outro Conector Avançado, porém, formando um par. O alcance da conexão de um conector avançado ao seu parceiro é infinito — inclusive entre dimensões!"
     },
     {
       "type": "patchouli:image",
@@ -15,11 +15,11 @@
         "laserio:textures/book/entries/laser_connector_advanced1.png"
       ],
       "border": true,
-      "text": "Dois Conectores Avançados ligados um ao outro"
+      "text": "Dois Conectores Avançados vinculados um ao outro"
     },
     {
       "type": "patchouli:text",
-      "text": "Se um Conector Avançado já tiver um parceiro, e você tentar pareá-lo com um novo parceiro, a conexão original será quebrada para formar a nova conexão.  $(br2)Ao olhar para o bloco com a $(l:laserio:laser_wrench)Chave-Inglesa a Laser$(/l) na mão, você verá as coordenadas do bloco parceiro."
+      "text": "Se um Conector Avançado já tiver um parceiro e você tentar pareá-lo com um novo parceiro, a conexão original será desfeita para formar a nova conexão. $(br2)Ao olhar para o bloco com a $(l:laserio:laser_wrench)Chave-Inglesa a Laser$(/l) na mão, você verá as coordenadas do bloco parceiro."
     },
     {
       "type": "patchouli:image",
@@ -32,7 +32,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Conectores a Laser Avançados NÃO carregam chunks para você. Você é responsável por cuidar de todo o carregamento de chunks por conta própria! Nós em chunks não carregadas não operam."
+      "text": "Conectores a Laser Avançados NÃO carregam chunks para você. Você é responsável por gerenciar todo o carregamento de chunks por conta própria! Nós em chunks descarregados não funcionarão."
     },
     {
       "type": "patchouli:crafting",

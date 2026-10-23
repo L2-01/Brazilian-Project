@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A Âncora permite que você 'trave' o bloco para o qual está olhando, para poder se mover ou olhar ao redor livremente. Há uma tecla de atalho para isso, ou você pode acessá-la pelo menu de configurações. $(br2)Você pode clicar com o botão direito a qualquer momento para construir a estrutura quando ela estiver ancorada.$(br2)Nota: Mudar o alcance pode não fazer efeito até você remover e recolocar a âncora."
+      "text": "A Âncora permite 'travar' o bloco para o qual você está olhando, para que possa se mover ou olhar ao redor livremente. Há uma tecla de atalho para isso, ou você pode acessá-la pelo menu de configurações. $(br2)Você pode clicar com o botão direito a qualquer momento para construir a estrutura enquanto ela estiver ancorada.$(br2)Observação: alterar o alcance pode não fazer efeito até você remover e recolocar a âncora."
     },
     {
       "type": "patchouli:image",
@@ -15,7 +15,7 @@
         "buildinggadgets2:textures/book/images/anchor1.png"
       ],
       "border": true,
-      "text": "Ancore a sua renderização!"
+      "text": "Ancore sua renderização!"
     }
   ]
 }

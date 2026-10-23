@@ -35,12 +35,12 @@ item_ids:
     <ItemImage id="air_cell_1k" scale="4" />
 </Row>
 
-As Células de Armazenamento de Ar dão à Rede ME a capacidade de armazenar ar. Cada byte pode conter 250 mL de ar. Quando a célula estiver cheia e ar adicional for inserido, ela será ejetada do gabinete, podendo até fazer o gabinete explodir.
+As Células de Armazenamento de Ar dão à rede ME a capacidade de armazenar ar. Cada byte pode guardar 250 mL de ar. Quando a célula está cheia e ar adicional é inserido, ele será ejetado do gabinete e pode até fazer o gabinete explodir.
 
 ## Células Portáteis de Armazenamento
-As células portáteis de armazenamento podem ser inseridas num gabinete como uma célula normal de armazenamento de ar, mas também funcionam como um tanque de ar com pressão máxima de 20 bar, interagindo diretamente com as máquinas do PneumaticCraft.
+As células portáteis de armazenamento podem ser inseridas num gabinete como uma célula de armazenamento de ar normal, mas também funcionam como um tanque de ar com pressão máxima de 20 bar, interagindo diretamente com as máquinas do PneumaticCraft.
 
-## Cartões de Upgrade Disponíveis
-- [Cartão de Segurança](upgrades.md): Protege seus gabinetes e células de armazenamento; quando cheios, rejeita automaticamente inserções adicionais.
-- [Cartão de Vácuo](upgrades.md): Quando cheio, o ar excedente inserido é destruído automaticamente. Protege seus gabinetes da mesma forma que o Cartão de Segurança.
+## Cartões de Melhoria Disponíveis
+- [Cartão de Segurança](upgrades.md): Protege seus gabinetes e células de armazenamento; quando cheios, rejeita automaticamente inserções futuras.
+- [Cartão de Vácuo](upgrades.md): Quando cheio, o ar excedente inserido é automaticamente destruído. Protege seus gabinetes da mesma forma que o Cartão de Segurança.
 - [Cartão de Carregamento](upgrades.md): Para células portáteis de armazenamento; consome energia e o ar armazenado para carregar itens que usam gás no inventário do jogador.

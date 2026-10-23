@@ -1,9 +1,9 @@
 ---
 navigation:
-  title: Esquemas de Exemplo
+  title: Configurações de Exemplo
   position: 40
 ---
 
-# Esquemas de Exemplo
+# Configurações de Exemplo
 
 <SubPages />

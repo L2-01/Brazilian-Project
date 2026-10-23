@@ -5,19 +5,25 @@ navigation:
   parent: little_big_redstone:logic.md
   position: 22
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:randomizer
 ---
 
 # Aleatorizador
 
+<FloatingColumn width="100" align="right">
+	### Analógico
+	Os Aleatorizadores produzem um valor de sinal de saída igual ao valor do sinal de entrada.
+</FloatingColumn>
+
 <Recipe id="little_big_redstone:logic/randomizer" />
 
-O aleatorizador pode ter entre 1 e 10 saídas, no entanto, apenas uma saída pode estar LIGADA por vez. Quando a entrada
-está LIGADA, a cada tick, uma saída aleatória estará LIGADA por uma porcentagem de tempo configurável. Por padrão, a chance é de 100%,
-mas você pode alterá-la para qualquer valor. Por exemplo, com a chance definida para 50%, em metade dos ticks em que a entrada estiver LIGADA,
-uma saída aleatória estará LIGADA. Cada saída tem igual chance de ser selecionada.
+O aleatorizador pode ter de 1 a 10 saídas, porém apenas uma saída pode estar LIGADA por vez. Quando a entrada
+está LIGADA, a cada tique uma saída aleatória ficará LIGADA numa porcentagem configurável do tempo. Por padrão, a
+chance é de 100%, mas você pode alterá-la para qualquer valor. Por exemplo, com a chance definida em 50%, em metade
+dos tiques em que a entrada estiver LIGADA, uma saída aleatória ficará LIGADA. Cada saída tem a mesma chance de ser
+selecionada.
 
 <Row>
 	<Column>
@@ -61,8 +67,8 @@ uma saída aleatória estará LIGADA. Cada saída tem igual chance de ser seleci
 	</Column>
 </Row>
 
-Os exemplos acima têm suas entradas encurtadas para um único tick. Note que se você não fizer o mesmo, a saída será
-diferente a cada tick. Abaixo está um exemplo de como isso se pareceria.
+Os exemplos acima têm as entradas encurtadas para um único tique. Note que, se você não fizer o mesmo, a saída
+será diferente a cada tique. Abaixo está um exemplo de como isso ficaria.
 
 <Row>
 	<Column>

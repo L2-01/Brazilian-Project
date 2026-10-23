@@ -1,0 +1,21 @@
+---
+title: Melhoria de Busca em Profundidade
+id: excessive_utilities:depth_first_search_upgrade
+related_items: [excessive_utilities:depth_first_search_upgrade]
+type: item
+---
+A **Melhoria de Busca em Profundidade** pode ser colocada dentro de [Nós de Transferência e Recuperação](@excessive_utilities:transfer_nodes) para mudar como o Ping deles procura uma rede ramificada de Tubos de Transferência.
+
+Normalmente, um Ping escolhe um caminho conectado aleatório em cada junção. Se chegar a um beco sem saída, ele volta ao Nó e começa uma nova busca.
+
+Com essa Melhoria instalada, o Ping lembra o caminho que seguiu. Num beco sem saída, ele volta à junção mais recente e escolhe aleatoriamente um ramo inexplorado. Isso continua até que todo ramo alcançável tenha sido pesquisado, depois do que o Ping volta ao Nó e recomeça.
+
+A busca em profundidade é útil quando uma rede de canos tem muitos ramos, pois o Nó consegue pesquisar a rede a fundo sem perder repetidamente o progresso em becos sem saída.
+
+O Ping também reinicia quando um Nó de Transferência esvazia seu buffer. Uma [Melhoria Pseudo Round-Robin](@excessive_utilities:pseudo_round_robin_upgrade) impede esse reinício.
+
+A Melhoria muda apenas a ordem em que os canos são pesquisados. Ela não aumenta a velocidade de transferência nem a quantidade movida por operação.
+
+Apenas uma Melhoria de Busca em Profundidade pode ser instalada num Nó. Ela não pode ser instalada junto com uma [Melhoria de Busca em Largura](@excessive_utilities:breadth_first_search_upgrade).
+
+<PrefabObtaining/>

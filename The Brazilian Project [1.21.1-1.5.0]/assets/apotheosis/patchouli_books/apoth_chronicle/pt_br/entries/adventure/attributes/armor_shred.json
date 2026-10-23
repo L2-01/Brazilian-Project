@@ -1,5 +1,5 @@
 {
-    "name": "Fragmentação de Armadura",
+    "name": "Estilhaçamento de Armadura",
     "icon": "apothic_attributes:textures/mob_effect/sundering.png",
     "category": "apotheosis:adventure/attributes",
     "flag": "apotheosis:adventure",
@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "A $(9)Fragmentação de Armadura$() permite ignorar uma porcentagem da armadura do seu alvo ao atacar.$(p)A $(9)Fragmentação de Armadura$() é aplicada antes da $(9)Perfuração de Armadura$()."
+            "text": "O $(9)Estilhaçamento de Armadura$() permite ignorar uma porcentagem da armadura do alvo ao atacar.$(p)O $(9)Estilhaçamento de Armadura$() é aplicado antes da $(9)Penetração de Armadura$()."
         }
     ]
 }

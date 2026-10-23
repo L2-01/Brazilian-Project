@@ -24,20 +24,21 @@ O Terminal de Acesso a Padrões ME Estendido oferece três recursos adicionais e
 
 ## Busca de Padrões Aprimorada
 
-Você pode buscar padrões pelos nomes de seus ingredientes de entrada ou saída.
+Você pode pesquisar padrões pelos nomes dos seus ingredientes de entrada/saída.
 
 ![EPA1](../pic/epa_gui1.png)
 
-## Destaque de Padrões
+## Destaque de Padrão
 
-Às vezes ainda é difícil encontrar o padrão desejado porque os padrões são sempre exibidos em grupo. O Terminal de Acesso a Padrões
-Estendido pode destacar o padrão correspondente na GUI.
+Às vezes ainda é difícil achar o padrão desejado porque os padrões são sempre exibidos em grupos. O Terminal de Acesso a
+Padrões Estendido pode destacar o padrão correspondente na GUI.
 
 ![EPA2](../pic/epa_gui2.png)
 
-## Destaque do Provedor de Padrões no Mundo
+## Destaque de Provedor de Padrões no Mundo
 
 Pode ser difícil determinar qual Provedor de Padrões está travado durante um trabalho de fabricação grande. O Terminal de Acesso a Padrões Estendido
-pode destacar o Provedor de Padrões no mundo, facilitando sua localização.
+pode destacar o Provedor de Padrões no mundo, facilitando localizá-lo.
 
 ![EPA3](../pic/epa_gui3.png)
+

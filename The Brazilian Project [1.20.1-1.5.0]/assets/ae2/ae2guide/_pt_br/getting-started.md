@@ -90,7 +90,7 @@ O inscritor é uma máquina com lados, muito parecido com a fornalha vanilla. In
 
 Para facilitar a automação com funis (e possivelmente reduzir o espaguete de tubos), os inscritores podem ser girados com uma <ItemLink id="certus_quartz_wrench" />.
 
-Produza alguns de cada tipo de processador em preparação para o próximo passo, montando um sistema ME bem básico. Automatizar a produção de processadores fica "[como exercício para o leitor](example-setups/processor-automation.md)".
+Produza alguns de cada tipo de processador em preparação para o próximo passo, montando um sistema ME bem básico. Automatizar a produção de processadores fica "como exercício para o leitor".
 
 ## Tecnologia de Energia de Matéria: Redes ME e Armazenamento
 

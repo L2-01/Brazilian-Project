@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Acelere suas tarefas de mineração com a melhoria Quebra Instantânea. Ferramentas equipadas podem quebrar blocos instantaneamente, graças à adição de $(l:justdirethings:res_time_crystal)Cristais do Tempo$(/l), reduzindo drasticamente o tempo necessário para reunir materiais.$(br2)Nota: o uso de energia aumenta significativamente com a dureza do bloco. Obsidiana custa bem mais energia para quebrar instantaneamente do que pedra."
+      "text": "Acelere suas tarefas de mineração com a melhoria Quebra Instantânea. Ferramentas equipadas podem quebrar blocos instantaneamente, graças à adição de $(l:justdirethings:res_time_crystal)Cristais do Tempo$(/l), reduzindo drasticamente o tempo de coleta de materiais.$(br2)Nota: o consumo de energia aumenta significativamente conforme a dureza do bloco. Obsidiana custa bem mais energia para quebrar instantaneamente do que pedra."
     },
     {
       "type": "patchouli:crafting",
-      "title": "Fabricação da Quebra Instantânea",
+      "title": "Fabricação: Quebra Instantânea",
       "recipe": "justdirethings:upgrade_instabreak"
     }
   ]

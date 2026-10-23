@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Uma configuração de Reator / Turbina com $(l:bigreactors:reactor/active)resfriamento ativo$(/l) vaporiza um refrigerante usando o calor do Reator para gerar um vapor que pode ser usado para girar os rotores de várias Turbinas e gerar energia.$(br2)Um $(bold)refrigerante$() é um fluido que, se reconhecido, pode ser bombeado para dentro do Tanque de Fluido Refrigerante do Reator usando uma $(l:bigreactors:reactor/part-forgefluidport)Porta de Fluido$(/l) em modo de entrada."
+            "text": "Uma configuração de Reator / Turbina $(l:bigreactors:reactor/active)resfriada ativamente$(/l) vaporiza um refrigerante usando o calor do Reator para gerar um vapor que pode ser usado para acionar os rotores de várias Turbinas e gerar energia.$(br2)Um $(bold)refrigerante$() é um fluido que, se reconhecido, pode ser bombeado para o Tanque de Fluido Refrigerante do Reator usando uma $(l:bigreactors:reactor/part-forgefluidport)Porta de Fluido$(/l) em modo de entrada."
         },
         {
             "type": "patchouli:text",
-            "text": "Um $(bold)vapor$() é um fluido resultante de um refrigerante vaporizado dentro de um Reator e que pode ser bombeado de um Reator para uma Turbina (usando $(l:bigreactors:reactor/part-forgefluidport)Porta de Fluido$(/l)) para ser usado para girar o rotor da Turbina e depois ser condensado de volta ao refrigerante original para o ciclo recomeçar.$(br2)Apenas refrigerantes e vapores válidos podem ser usados dentro de um Reator ou de uma Turbina."
+            "text": "Um $(bold)vapor$() é um fluido resultante de um refrigerante sendo vaporizado dentro de um Reator, e que pode ser bombeado de um Reator para uma Turbina (usando uma $(l:bigreactors:reactor/part-forgefluidport)Porta de Fluido$(/l)) para ser usado para acionar o rotor da Turbina e depois ser condensado de volta ao refrigerante original, permitindo que o ciclo recomece.$(br2)Apenas refrigerantes e vapores válidos podem ser usados dentro de um Reator ou de uma Turbina."
         },
         {
             "type": "patchouli:text",

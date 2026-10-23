@@ -1,40 +1,23 @@
 {
-
-"name": "Criaturas com Armadura de Natal Feia",
-    "icon": "merrymaking:mob_in_hat_item",
-    "category": "merrymaking:mobs",
-    "pages": [
-	
-		{
-		
-			"type": "spotlight",
-			"item": "merrymaking:red_santa_hat",			
-			"text": "Zumbis e Esqueletos de todos os tipos, Creepers e até os Piglins Zumbis estão mostrando seu espírito festivo vestindo Suéteres Feios e Gorros de Papai Noel! $(br2)Criaturas usando a armadura têm uma chance aleatória de largar as peças da armadura." 
-			
-		},
-		
-		{
-			"type": "patchouli:image",
-			
-			"images": ["merrymaking:textures/gui/zombie_sweater.png"],
-			"text": "Um Zumbi de Suéter Feio. Ele está pronto para a festa!"
-		},
-		
-		{
-			"type": "patchouli:text",
-			"text": "Nota: este recurso é personalizável e pode ser desativado no arquivo de configuração. $(br2)Os itens largados de Armadura Feia de criaturas também podem ser desativados no arquivo de configuração."
-		}
-				
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		]
-	
-	
+  "name": "Criaturas em Armadura de Natal Feia",
+  "icon": "merrymaking:mob_in_hat_item",
+  "category": "merrymaking:mobs",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "merrymaking:red_santa_hat",
+      "text": "Zumbis e Esqueletos de todos os tipos, Creepers e até os Piglins-Zumbi estão mostrando seu Espírito Festivo vestindo Suéteres Feios e Gorros de Papai Noel! $(br2)Criaturas vestindo a armadura têm chance aleatória de largar as peças."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/zombie_sweater.png"
+      ],
+      "text": "Um Zumbi num Suéter Feio. Ele está pronto para a festa!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Nota: esse recurso é personalizável e pode ser desativado no arquivo de configuração. $(br2)Drops de Armadura Feia de criaturas também podem ser desativados no arquivo de configuração."
+    }
+  ]
 }

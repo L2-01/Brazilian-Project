@@ -1,0 +1,19 @@
+{
+  "name": "Filtros Inteligentes",
+  "icon": "modularrouters:bulk_item_filter",
+  "category": "modularrouters:intro",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Filtros Inteligentes/$ podem ser inseridos nos espaços de filtro de um $(l:intro/modules)módulo/$ no lugar de itens comuns. Em vez de apenas tentar corresponder diretamente ao item, os filtros têm funcionalidades especiais de correspondência.$(p)Por exemplo, o $(l:filters/bulk_item)Filtro de Itens em Lote/$ pode corresponder eficientemente a até 54 itens diferentes, e seus itens podem ser configurados a partir de um inventário existente."
+    },
+    {
+      "type": "image",
+      "images": [
+        "modularrouters:textures/patchouli/bulk_filter.png"
+      ],
+      "text": "$(italic)Filtro de Itens em Lote instalado num Módulo Extrator Mk2/$",
+      "border": true
+    }
+  ]
+}

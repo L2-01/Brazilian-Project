@@ -19,7 +19,7 @@ a ser afetado.
 
 Cada linha contínua de pilões usa 1 [canal](../ae2-mechanics/channels.md)
 
-Linhas de pilões devem ter pelo menos 2 blocos de comprimento para funcionar.
+Linhas de pilões precisam ter pelo menos 2 blocos de comprimento para funcionar.
 
 ## Receita
 

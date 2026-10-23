@@ -5,35 +5,41 @@ navigation:
   parent: little_big_redstone:logic.md
   position: 10
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:io
 ---
 
 # Porta de E/S
 
+<FloatingColumn width="100" align="right">
+	### Analógico
+	As portas de E/S produzem um valor de sinal de saída igual ao valor do sinal de entrada.
+</FloatingColumn>
+
 <Recipe id="little_big_redstone:logic/io" />
 
-Portas de E/S são a forma de você inserir e extrair sinais de redstone para e de seus circuitos. Quando Portas de E/S são colocadas em
-um circuito, você poderá ver faces de redstone nas laterais do bloco de microchip que podem aceitar ou fornecer um
-sinal de redstone.
+As portas de E/S são como você pode inserir e emitir sinais de redstone de e para os seus circuitos. Quando
+portas de E/S são colocadas num circuito, você poderá ver faces de redstone nas laterais do bloco de microchip que
+podem aceitar ou fornecer um sinal de redstone.
 
 <br />
 
-Cada Porta de E/S tem uma direção à qual se conecta: <Color color="#4CFF00">Norte</Color>,
-<Color color="#0094FF">Sul</Color>, <Color color="#FF0000">Leste</Color>, <Color color="#FF6A00">Oeste</Color>,
-<Color color="#FFFFFF">Acima</Color>, e <Color color="#FFD800">Abaixo</Color>. A cor de uma direção pode ser vista no
-lado de um microchip ao agachar-se e olhar para ele.
+Cada porta de E/S tem uma direção à qual ela se vincula: <Color color="#4CFF00">norte</Color>,
+<Color color="#0094FF">sul</Color>, <Color color="#FF0000">leste</Color>, <Color color="#FF6A00">oeste</Color>,
+<Color color="#FFFFFF">acima</Color> e <Color color="#FFD800">abaixo</Color>. A cor de cada direção pode ser vista na
+lateral de um microchip ao agachar e olhar para ele.
 
-**NOTA:** Cada direção só pode atuar como uma entrada ou uma saída, não ambas. Se Portas de E/S forem colocadas em um circuito de tal forma
-que uma é uma entrada e a outra é uma saída na mesma face - nenhuma das portas funcionará e um indicador de aviso será
-exibido.
+**NOTA:** Cada direção só pode atuar como entrada ou como saída, não como ambas. Se portas de E/S forem colocadas
+num circuito de modo que uma seja entrada e a outra saída na mesma face — nenhuma das portas funcionará e um
+indicador de aviso será exibido.
 
 <br />
 
-Você também pode configurar a força do sinal de uma Porta de E/S. Quando a porta está no modo de entrada, o sinal de redstone inserido
-deve atender ou exceder o sinal para que a porta forneça uma saída LIGADA. Quando a porta está no modo de saída e
-a porta de entrada é fornecida com um sinal LIGADO, o sinal de redstone fornecido será igual à força do sinal definida.
+Você também pode configurar a força de sinal de uma porta de E/S. Quando a porta está no modo de entrada, o sinal
+de redstone inserido deve atingir ou exceder o sinal para que a porta forneça uma saída LIGADA. Quando a porta está
+no modo de saída e a porta de entrada recebe um sinal LIGADO, o sinal de redstone fornecido será igual à força de
+sinal definida.
 
 <Row>
 	<Column>

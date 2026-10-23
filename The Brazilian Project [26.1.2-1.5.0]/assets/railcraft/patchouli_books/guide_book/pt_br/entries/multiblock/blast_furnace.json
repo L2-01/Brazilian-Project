@@ -1,16 +1,16 @@
 {
-  "name": "Alto-Forno",
-  "icon": "railcraft:blast_furnace_bricks",
-  "category": "railcraft:multiblock",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "O Alto-Forno é uma estrutura de tijolos 3x3x4, oca no meio, para converter Barras de Ferro em Barras de Aço.$(br2)O Forno é construído com 34 tijolos especiais feitos de Tijolos do Nether, Areia das Almas e Creme de Magma. Se desmontado, são necessários 36 Tijolos do Nether, 36 Areias das Almas e 9 Cremes de Magma para construir um Alto-Forno. Altos-Fornos não podem ser construídos adjacentes uns aos outros — deve haver pelo menos um quadrado entre os Fornos."
-    },
-    {
-      "type": "patchouli:multiblock",
-      "name": "Alto-Forno",
-      "multiblock_id": "railcraft:blast_furnace"
-    }
-  ]
+    "name": "Alto-forno",
+    "icon": "railcraft:blast_furnace_bricks",
+    "category": "railcraft:multiblock",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O Alto-forno é uma estrutura de tijolos 3x3x4, oca no meio, para converter Lingotes de Ferro em Lingotes de Aço.$(br2)O Forno é construído com 34 tijolos especiais feitos de Tijolos do Nether, Areia das Almas e Creme de Magma. Desmontado, são necessários 36 Tijolos do Nether, 36 Areias das Almas e 9 Cremes de Magma para construir um Alto-forno. Altos-fornos não podem ser construídos adjacentes um ao outro — deve haver ao menos um espaço entre eles."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Alto-forno",
+            "multiblock_id": "railcraft:blast_furnace"
+        }
+    ]
 }

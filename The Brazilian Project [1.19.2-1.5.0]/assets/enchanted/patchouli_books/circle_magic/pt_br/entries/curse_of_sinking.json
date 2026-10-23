@@ -1,0 +1,18 @@
+{
+  "name": "Maldição do Afundamento",
+  "icon": "minecraft:water_bucket",
+  "category": "enchanted:curses",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Maldição do Afundamento",
+      "text": "Amaldiçoa o aflito a ficar mais pesado tanto na água quanto no ar. $(br2)Realize durante uma tempestade."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:curse_of_sinking"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 2
+}

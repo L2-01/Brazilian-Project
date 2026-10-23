@@ -25,14 +25,14 @@ do <ItemLink id="wireless_access_point"/> mais próximo.
 ![Uma imagem de um ponto de acesso sem fio.](../../assets/large/wireless_access_point.png)
 
 Permite acesso sem fio via um <ItemLink id="wireless_terminal" />.
-O alcance e o uso de energia são determinados pelo número de <ItemLink id="wireless_booster" /> instalados
+O alcance e o consumo de energia são determinados pelo número de <ItemLink id="wireless_booster" /> instalados
 no <ItemLink id="wireless_access_point" />.
 
-Uma rede pode ter qualquer quantidade de <ItemLink id="wireless_access_point"/> com qualquer quantidade
-de <ItemLink id="wireless_booster" /> em cada um, permitindo otimizar o uso de energia
-e o alcance alterando seu esquema.
+Uma rede pode ter qualquer número de <ItemLink id="wireless_access_point"/> com qualquer número
+de <ItemLink id="wireless_booster" /> em cada um, permitindo otimizar o consumo de energia
+e o alcance ajustando sua montagem.
 
-Exige um [canal](channels.md) para funcionar.
+Exige um [canal](channels.md) para operar.
 
 <RecipeFor id="wireless_access_point" />
 

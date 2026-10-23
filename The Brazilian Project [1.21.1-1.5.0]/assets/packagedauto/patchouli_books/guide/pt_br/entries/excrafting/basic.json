@@ -5,7 +5,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "$(thing)Fabricação Básica/$ é um tipo de receita de fabricação que usa o $(item)Fabricador de Pacotes Básico/$ para fabricar receitas fabricáveis numa $(item)Bancada de Trabalho Básica/$.$(p)Itens fabricados pelo $(item)Fabricador de Pacotes Básico/$ serão ejetados para inventários adjacentes.$(p)O $(item)Fabricador de Pacotes Básico/$ requer energia."
+			"text": "$(thing)Fabricação Básica/$ é um tipo de receita de fabricação que usa o $(item)Fabricador de Pacotes Básico/$ para fabricar receitas possíveis em uma $(item)Bancada de Trabalho Básica/$.$(p)Itens fabricados pelo $(item)Fabricador de Pacotes Básico/$ serão ejetados para inventários adjacentes.$(p)O $(item)Fabricador de Pacotes Básico/$ requer energia."
 		},
 		{
 			"type": "patchouli:spotlight",
@@ -13,7 +13,7 @@
 			"item": "packagedexcrafting:basic_crafter",
 			"link_recipe": true,
 			"title": "Integração com AE2",
-			"text": "O $(item)Fabricador de Pacotes Básico/$ pode ser conectado a uma $(thing)Rede ME/$.$(p)Ele vai extrair energia para usar e, em vez disso, ejetar os itens fabricados na rede."
+			"text": "O $(item)Fabricador de Pacotes Básico/$ pode ser conectado a uma $(thing)Rede ME/$.$(p)Ele extrairá energia para usar e, em vez disso, ejetará os itens fabricados para a rede."
 		},
 		{
 			"type": "patchouli:crafting",

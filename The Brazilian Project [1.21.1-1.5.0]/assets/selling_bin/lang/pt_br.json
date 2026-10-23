@@ -59,5 +59,48 @@
     "block.selling_bin.selling_bin": "Caixa de Venda",
 
     "item.minecraft.emerald.plural": "Esmeraldas",
-    "block.minecraft.emerald_block.plural": "Blocos de Esmeralda"
+    "block.minecraft.emerald_block.plural": "Blocos de Esmeralda",
+
+
+
+
+
+
+    "fancytabsections.configuration.index_expanded": "Índice Expandido",
+
+    "itemGroup.fancytabsections.fancy_things": "[FTS dev only] Coisas Brilhantes",
+    "itemGroup.fancytabsections.dirty_tools": "[FTS dev only] Ferramentas Sujas",
+
+    "section.fancytabsections.shiny_things": "Coisas Brilhantes",
+    "section.fancytabsections.pretty_things": "Coisas Bonitas!",
+    "section.fancytabsections.secret_things": "Seção secreta que tem um nome bem longo para demonstrar a rolagem...",
+    "section.fancytabsections.hotbar": "Ordem Correta da Hotbar",
+    "section.fancytabsections.dirt": "Terra",
+    "section.fancytabsections.stone": "Pedra",
+    "section.fancytabsections.colors": "COR!",
+    "section.fancytabsections.empty": "Seção Vazia...",
+
+    "section.fancytabsections.very_dirty_tools": "Ferramentas Muito Sujas",
+    "section.fancytabsections.decently_dirty_tools": "Ferramentas Razoavelmente Sujas",
+
+
+
+
+
+
+    "tinymultiblocklib.configuration.title": "Tiny Multiblock Lib",
+    "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml.title": "Configuração de Cliente do TMBL",
+    "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml": "Configuração de Cliente do TMBL",
+    "tinymultiblocklib.configuration.disable_multiblock_previews": "Desativar Pré-visualizações de Multiblocos",
+    "tinymultiblocklib.configuration.disable_multiblock_previews.tooltip": "Desativa as pré-visualizações fantasma ao tentar posicionar um multibloco",
+    "tinymultiblocklib.configuration.previews_for_everything": "Pré-visualizações para Tudo",
+    "tinymultiblocklib.configuration.previews_for_everything.tooltip": "Ativa pré-visualizações para tudo; usada para depuração",
+    "tinymultiblocklib.configuration.preview_whitelist": "Lista de Permissões de Pré-visualização",
+    "tinymultiblocklib.configuration.preview_whitelist.tooltip": "Lista de blocos para os quais as pré-visualizações serão exibidas",
+
+    "tinymultiblocklib.configuration.preview_blacklist": "Lista de Bloqueios de Pré-visualização",
+    "tinymultiblocklib.configuration.preview_blacklist.tooltip": "Lista de blocos para os quais as pré-visualizações serão ocultadas",
+
+    "tinymultiblocklib.configuration.preview_whitelist.button": "Editar",
+    "tinymultiblocklib.configuration.preview_blacklist.button": "Editar"
 }

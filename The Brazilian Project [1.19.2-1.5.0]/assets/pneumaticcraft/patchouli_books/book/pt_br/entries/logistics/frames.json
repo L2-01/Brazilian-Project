@@ -1,55 +1,55 @@
 {
-  "name": "Molduras de Logística",
-  "icon": "pneumaticcraft:logistics_frame_passive_provider",
-  "category": "pneumaticcraft:logistics",
-  "advancement": "pneumaticcraft:root",
-  "pages": [
-    {
-      "type": "text",
-      "text": "As $(thing)Molduras de Logística/$ são dispositivos anexáveis posicionados em inventários ou tanques para marcá-los como parte de um $(thing)Sistema de Logística/$.$(p)Molduras posicionadas podem ser configuradas $(thing)clicando com o botão direito/$ com um $(l:tools/logistics_configurator)Configurador de Logística/$ e removidas $(thing)agachando e clicando com o botão direito/$ com o Configurador. Molduras também podem ser configuradas na mão clicando com o botão direito na forma de item."
-    },
-    {
-      "type": "text",
-      "text": "As seguintes propriedades de moldura podem ser configuradas:$(li)Todas as Molduras suportam $(thing)filtragem/$ para controlar quais itens/fluidos elas fornecerão ou aceitarão. Veja também $(l:tools/tag_filter)Filtros de Tag/$.$(li)A aba lateral $(thing)Filtro/$ permite configurar se os filtros correspondem por $(thing)NBT do item/$ ou $(thing)ID do mod/$, e também se o filtro deve ser aplicado como lista-branca (padrão) ou lista-negra."
-    },
-    {
-      "type": "text",
-      "text": "$(li)Para $(l:logistics/frames#requester)Molduras Solicitantes/$, a aba $(thing)Tamanho Mínimo do Pedido/$ permite configurar a quantidade mínima de itens ou fluido que será movida por vez; útil para impedir que drones façam viagens constantes com cargas minúsculas.$(li)Por fim, todas as molduras podem ser configuradas para ficar $(thing)invisíveis/$ aos jogadores, a menos que estejam segurando um item de Logística (moldura ou configurador). Nota: molduras invisíveis repassam cliques esquerdos do jogador para o bloco abaixo."
-    },
-    {
-      "type": "crafting",
-      "anchor": "active_provider",
-      "title": "Moldura de Provedor Ativo",
-      "recipe": "pneumaticcraft:logistics_frame_active_provider",
-      "text": "A $(item)Moldura de Provedor Ativo/$ fornece itens/fluidos para $(l:logistics/frames#requester)Molduras Solicitantes/$, $(l:logistics/frames#storage)Molduras de Armazenamento/$ e $(l:logistics/frames#default_storage)Molduras de Armazenamento Padrão/$."
-    },
-    {
-      "type": "crafting",
-      "anchor": "passive_provider",
-      "title": "Moldura de Provedor Passivo",
-      "recipe": "pneumaticcraft:logistics_frame_passive_provider",
-      "text": "A $(item)Moldura de Provedor Passivo/$ fornece itens/fluidos apenas para $(l:logistics/frames#requester)Molduras Solicitantes/$."
-    },
-    {
-      "type": "crafting",
-      "anchor": "storage",
-      "title": "Moldura de Armazenamento",
-      "recipe": "pneumaticcraft:logistics_frame_storage",
-      "text": "As $(item)Molduras de Armazenamento/$ podem receber itens/fluidos de $(l:logistics/frames#active_provider)Molduras de Provedor Ativo/$ e fornecer itens para $(l:logistics/frames#requester)Molduras Solicitantes/$."
-    },
-    {
-      "type": "crafting",
-      "anchor": "default_storage",
-      "title": "Moldura de Armazenamento Padrão",
-      "recipe": "pneumaticcraft:logistics_frame_default_storage",
-      "text": "As $(item)Molduras de Armazenamento Padrão/$ podem receber itens/fluidos de $(l:logistics/frames#active_provider)Molduras de Provedor Ativo/$ e fornecer recursos para $(l:logistics/frames#requester)Molduras Solicitantes/$ e $(l:logistics/frames#storage)Molduras de Armazenamento/$. Elas têm prioridade menor que as Molduras de Armazenamento, que sempre serão usadas primeiro se possível."
-    },
-    {
-      "type": "crafting",
-      "anchor": "requester",
-      "title": "Moldura Solicitante",
-      "recipe": "pneumaticcraft:logistics_frame_requester",
-      "text": "As $(item)Molduras Solicitantes/$ podem solicitar itens/fluidos de qualquer outro inventário com moldura. Para essas molduras, use a GUI de configuração para dizer à moldura quanto de cada item ou fluido tentar manter $(thing)em estoque/$."
-    }
-  ]
+    "name": "Molduras de Logística",
+    "icon": "pneumaticcraft:logistics_frame_passive_provider",
+    "category": "pneumaticcraft:logistics",
+    "advancement": "pneumaticcraft:root",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Molduras de Logística/$ são gadgets anexáveis colocados em inventários ou tanques para marcá-los como parte de um $(thing)Sistema de Logística/$.$(p)Quadros colocados podem ser configurados $(thing)clicando com o botão direito/$ com um $(l:tools/logistics_configurator)Configurador de Logística/$, e removidos $(thing)agachando e clicando com o botão direito/$ com o Configurador. Quadros também podem ser configurados na mão, clicando com o botão direito no item."
+        },
+        {
+            "type": "text",
+            "text": "As seguintes propriedades de moldura podem ser configuradas:$(li)Todas as Molduras suportam $(thing)filtragem/$ para controlar quais itens/fluidos fornecerão ou aceitarão. Veja também os $(l:tools/tag_filter)Filtros de Marcação/$.$(li)A aba lateral $(thing)Filtro/$ permite configurar se os filtros correspondem por $(thing)NBT do item/$ ou $(thing)ID do mod/$, e também se o filtro deve ser aplicado como lista-branca (padrão) ou lista-negra."
+        },
+        {
+            "type": "text",
+            "text": "$(li)Para $(l:logistics/frames#requester)Molduras Solicitantes de Logística/$, a aba $(thing)Tamanho Mínimo do Pedido/$ permite configurar a quantidade mínima de itens ou fluido que será movida por vez; útil para evitar que drones façam viagens constantes com cargas minúsculas.$(li)Por fim, todos os quadros podem ser configurados para ficarem $(thing)invisíveis/$ aos jogadores, a menos que estejam segurando um item de Logística (quadro ou configurador). Nota: quadros invisíveis repassam cliques esquerdos de jogadores para o bloco abaixo."
+        },
+        {
+            "type": "crafting",
+            "anchor": "active_provider",
+            "title": "Moldura de Provedor Ativo de Logística",
+            "recipe": "pneumaticcraft:logistics_frame_active_provider",
+            "text": "A $(item)Moldura de Provedor Ativo de Logística/$ fornece itens/fluidos para $(l:logistics/frames#requester)Molduras Solicitantes/$, $(l:logistics/frames#storage)Molduras de Armazenamento de Logística/$ e $(l:logistics/frames#default_storage)Molduras de Armazenamento de Logística Padrão de Logística/$."
+        },
+        {
+            "type": "crafting",
+            "anchor": "passive_provider",
+            "title": "Moldura de Provedor Passivo de Logística",
+            "recipe": "pneumaticcraft:logistics_frame_passive_provider",
+            "text": "A $(item)Moldura de Provedor Passivo de Logística/$ fornece itens/fluidos apenas para $(l:logistics/frames#requester)Molduras Solicitantes/$."
+        },
+        {
+            "type": "crafting",
+            "anchor": "storage",
+            "title": "Moldura de Armazenamento de Logística",
+            "recipe": "pneumaticcraft:logistics_frame_storage",
+            "text": "$(item)Molduras de Armazenamento de Logística de Logística/$ podem receber itens/fluidos de $(l:logistics/frames#active_provider)Molduras de Provedor Ativo de Logística/$ e fornecer itens a $(l:logistics/frames#requester)Molduras Solicitantes de Logística/$."
+        },
+        {
+            "type": "crafting",
+            "anchor": "default_storage",
+            "title": "Moldura de Armazenamento de Logística Padrão de Logística",
+            "recipe": "pneumaticcraft:logistics_frame_default_storage",
+            "text": "$(item)Molduras de Armazenamento de Logística Padrão de Logística de Logística/$ podem receber itens/fluidos de $(l:logistics/frames#active_provider)Molduras de Provedor Ativo de Logística/$ e fornecer recursos a $(l:logistics/frames#requester)Molduras Solicitantes de Logística/$ e $(l:logistics/frames#storage)Molduras de Armazenamento de Logística de Logística/$. Eles têm prioridade menor que os Molduras de Armazenamento de Logística de Logística, que sempre serão usados primeiro quando possível."
+        },
+        {
+            "type": "crafting",
+            "anchor": "requester",
+            "title": "Moldura Solicitante",
+            "recipe": "pneumaticcraft:logistics_frame_requester",
+            "text": "$(item)Molduras Solicitantes de Logística/$ podem requisitar itens/fluidos de qualquer outro inventário com quadro. Para esses quadros, use a GUI de configuração para dizer ao quadro quanto de cada item ou fluido ele deve tentar manter $(thing)estocado/$."
+        }
+    ]
 }

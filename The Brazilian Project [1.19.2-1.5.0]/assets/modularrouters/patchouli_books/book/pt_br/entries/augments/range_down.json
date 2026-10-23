@@ -1,0 +1,16 @@
+{
+  "name": "Melhoria de Diminuição de Alcance",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:range_down_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esta melhoria pode ser adicionada a qualquer módulo que tenha um alcance (Enviador $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$, Extrator $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$, Extrusor $(l:modules/extruder_1)Mk1/$ / $(l:modules/extruder_2)Mk2/$, $(l:modules/fluid_2)Fluido Mk2/$, $(l:modules/vacuum)Vácuo/$).$(p)Pode ser empilhada; cada melhoria reduzirá o alcance do módulo em um bloco.$(p)Provavelmente só é útil em conjunto com o $(l:modules/vacuum)Módulo de Vácuo/$, para controlar o alcance em que ele procura itens."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:range_down_augment",
+      "recipe2": "modularrouters:range_down_from_up"
+    }
+  ]
+}

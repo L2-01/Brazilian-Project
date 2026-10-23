@@ -1,25 +1,25 @@
 {
-  "name": "Núcleo de Logística",
-  "icon": "pneumaticcraft:logistics_core",
-  "category": "pneumaticcraft:logistics",
-  "advancement": "pneumaticcraft:pressure_tube",
-  "pages": [
-    {
-      "type": "text",
-      "text": "Este é um componente de fabricação básico para todos os itens e dispositivos relacionados à $(l:logistics/overview)Logística/$."
-    },
-    {
-      "type": "relations",
-      "entries": [
-        "pneumaticcraft:logistics/frames",
-        "pneumaticcraft:logistics/logistics_drone",
-        "pneumaticcraft:tubes/logistics_module"
-      ]
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando um Núcleo de Logística",
-      "recipe": "pneumaticcraft:logistics_core"
-    }
-  ]
+    "name": "Núcleo de Logística",
+    "icon": "pneumaticcraft:logistics_core",
+    "category": "pneumaticcraft:logistics",
+    "advancement": "pneumaticcraft:pressure_tube",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Este é um componente de fabricação básico para todos os itens e dispositivos relacionados à $(l:logistics/overview)Logística/$."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "pneumaticcraft:logistics/frames",
+                "pneumaticcraft:logistics/logistics_drone",
+                "pneumaticcraft:tubes/logistics_module"
+            ]
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Núcleo de Logística",
+            "recipe": "pneumaticcraft:logistics_core"
+        }
+    ]
 }

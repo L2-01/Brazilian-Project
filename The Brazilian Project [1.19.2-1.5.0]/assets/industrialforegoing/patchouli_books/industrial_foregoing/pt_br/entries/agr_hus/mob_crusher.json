@@ -1,0 +1,17 @@
+{
+  "name": "Esmagador de Criaturas",
+  "icon": "industrialforegoing:mob_crusher",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uma máquina usada para $(6)matar$() criaturas como se um jogador o fizesse, produzindo drops e Essência. Os drops são criados diretamente da tabela de itens da criatura. $(br2)Esta máquina tem um modo alternativo em que, em vez de gerar essência, gerará drops com níveis aleatórios de $(6)fortuna$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_crusher"
+    }
+  ]
+}

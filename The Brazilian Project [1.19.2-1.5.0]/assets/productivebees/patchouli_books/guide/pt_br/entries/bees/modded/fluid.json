@@ -1,0 +1,56 @@
+{
+    "name": "Abelhas de Fluido",
+    "icon": "minecraft:water_bucket",
+    "read_by_default": true,
+    "sortnum": 4,
+    "category": "productivebees:bees_modded",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Abelhas produzindo coisas fluidas"
+        },
+        {
+            "type": "patchouli:empty",
+            "draw_filler": false
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha Oleosa",
+            "text": "Obtida pescando em biomas de oceano",
+            "anchor": "oily",
+            "flag": "productivebees:oily"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha Oleosa",
+            "entity": "productivebees:configurable_bee{type:'productivebees:oily'}",
+            "flag": "productivebees:oily"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Chocolate",
+            "text": "Obtida alimentando sementes de cacau a uma $(l:bees/wild/sugarbag)Abelha Saco-de-Açúcar$(/l).",
+            "anchor": "chocolate",
+            "flag": "productivebees:chocolate"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Chocolate",
+            "entity": "productivebees:configurable_bee{type:'productivebees:chocolate'}",
+            "flag": "productivebees:chocolate"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Chá",
+            "text": "Obtida alimentando um balde de água a uma $(l:bees/solitary/leafcutter)Abelha Cortadeira$(/l).",
+            "anchor": "tea",
+            "flag": "productivebees:tea"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Chá",
+            "entity": "productivebees:configurable_bee{type:'productivebees:tea'}",
+            "flag": "productivebees:tea"
+        }
+    ]
+}

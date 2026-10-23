@@ -113,7 +113,7 @@
     "info.apothic_enchanting.limit": "[Limite: %s]",
 
     "enchantment.apothic_enchanting.infusion": "Infusão",
-    "enchantment.apothic_enchanting.infusion.desc": "Espaço reservado para Criação de Encantamentos",
+    "enchantment.apothic_enchanting.infusion.desc": "Espaço reservado para Fabricação de Encantamentos",
 
     "enchantment.apothic_enchanting.mounted_strike": "Golpe Montado",
     "enchantment.apothic_enchanting.mounted_strike.desc": "Causa dano extra quando em um cavalo.",
@@ -125,7 +125,7 @@
     "enchantment.apothic_enchanting.stable_footing.desc": "Anula a penalidade de velocidade de mineração por voar.",
 
     "enchantment.apothic_enchanting.scavenger": "Saqueador",
-    "enchantment.apothic_enchanting.scavenger.desc": "Criaturas mortas podem rolar suas tabelas de saques duas vezes.",
+    "enchantment.apothic_enchanting.scavenger.desc": "Criaturas mortas podem rolar suas tabelas de itens duas vezes.",
 
     "enchantment.apothic_enchanting.life_mending": "Remendo Vital",
     "enchantment.apothic_enchanting.life_mending.desc": "Consome a cura recebida para reparar itens.",
@@ -137,7 +137,7 @@
     "enchantment.apothic_enchanting.bane_of_illagers.desc": "Illagers recebem dano aumentado.",
 
     "death.attack.apothic_enchanting:corrupted": "Um encantamento corrompido drenou %s.",
-    "death.attack.apothic_enchanting:corrupted.player": "%2$s corrompeu %1$s.",
+    "death.attack.apothic_enchanting:corrupted.player": "%s sofreu corrupção por %s.",
 
     "item.apothic_enchanting.prismatic_web": "Teia de Aranha Prismática",
     "info.apothic_enchanting.prismatic_cobweb": "Pode ser usada para remover maldições.",
@@ -230,7 +230,7 @@
     "enchantment.apothic_enchanting.worker_exploitation.desc": "A lã recebida é dobrada, mas a ovelha recebe dano.",
 
     "enchantment.apothic_enchanting.growth_serum": "Soro de Crescimento",
-    "enchantment.apothic_enchanting.growth_serum.desc": "Ovelhas têm 50% de chance de regenerar instantaneamente sua lã.",
+    "enchantment.apothic_enchanting.growth_serum.desc": "Ovelhas têm 50% chance de regenerar instantaneamente sua lã.",
 
     "enchantment.apothic_enchanting.boon_of_the_earth": "Dádiva da Terra",
     "enchantment.apothic_enchanting.boon_of_the_earth.desc": "Minérios podem ser encontrados ao minerar pedra.",
@@ -354,25 +354,25 @@
     "advancements.apothic_enchanting.enchanting_stats.desc": "Encante um item tendo pelo menos 10 de cada atributo.",
 
     "advancements.apothic_enchanting.quanta0": "Adeus, Fluxo",
-    "advancements.apothic_enchanting.quanta0.desc": "Encante um item com 0% de Quanta.",
+    "advancements.apothic_enchanting.quanta0.desc": "Encante um item com 0% Quanta.",
 
     "advancements.apothic_enchanting.quanta50": "Introdução ao Caos",
-    "advancements.apothic_enchanting.quanta50.desc": "Encante um item com 50% de Quanta.",
+    "advancements.apothic_enchanting.quanta50.desc": "Encante um item com 50% Quanta.",
 
     "advancements.apothic_enchanting.quanta100": "Jogando os Dados",
-    "advancements.apothic_enchanting.quanta100.desc": "Encante um item com 100% de Quanta.",
+    "advancements.apothic_enchanting.quanta100.desc": "Encante um item com 100% Quanta.",
 
     "advancements.apothic_enchanting.arcana50": "Energia Mágica",
-    "advancements.apothic_enchanting.arcana50.desc": "Encante um item com 50% de Arcana.",
+    "advancements.apothic_enchanting.arcana50.desc": "Encante um item com 50% Arcana.",
 
     "advancements.apothic_enchanting.arcana100": "Poder Arcano",
-    "advancements.apothic_enchanting.arcana100.desc": "Encante um item com 100% de Arcana.",
+    "advancements.apothic_enchanting.arcana100.desc": "Encante um item com 100% Arcana.",
 
     "advancements.apothic_enchanting.max_stats": "Força Máxima",
     "advancements.apothic_enchanting.max_stats.desc": "Encante um item tendo todos os atributos no máximo.",
 
     "advancements.apothic_enchanting.max_stable": "Poder Estável",
-    "advancements.apothic_enchanting.max_stable.desc": "Encante um item com Eterna e Arcana máximos, mas 0% de Quanta.",
+    "advancements.apothic_enchanting.max_stable.desc": "Encante um item com Eterna e Arcana máximos, mas 0% Quanta.",
 
     "advancements.apothic_enchanting.max_rectified": "Apenas o Melhor",
     "advancements.apothic_enchanting.max_rectified.desc": "Encante um item com atributos máximos e Estabilidade Quântica.",

@@ -1,0 +1,32 @@
+{
+    "name": "Níveis 80 - 100",
+    "icon": "apotheosis:endshelf",
+    "category": "apotheosis:enchanting/progression",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Alcançando o Nível 90",
+            "item": "apotheosis:infused_breath",
+            "text": "Acessar o penúltimo estágio exige uma mesa de Nível 80 e acesso ao $(9)Bafo de Dragão$().$(p)Com isso, você pode criar $(9)Bafo de Dragão Imbuído$(), um componente central das $(9)Estantes do End$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Alcançando o Nível 90",
+            "recipe": "apotheosis:endshelf",
+            "recipe2": "apotheosis:pearl_endshelf"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Alcançando o Nível 100",
+            "item": "minecraft:dragon_head",
+            "text": "O nível mais alto que uma Mesa de Encantamentos pode alcançar é o Nível 100, mas apenas uma estante pode fornecer tanto poder.$(p)Criar essa estante exige se aventurar nos confins do End para conseguir uma $(9)Cabeça de Dragão$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Alcançando o Nível 100",
+            "recipe": "apotheosis:draconic_endshelf",
+            "text": "Uma única $(9)Estante do End Dracônica$() fornece força bruta suficiente para elevar uma mesa do Nível 90 ao Nível 100.$(p)Porém, ela não fornece outros bônus de atributo."
+        }
+    ]
+}

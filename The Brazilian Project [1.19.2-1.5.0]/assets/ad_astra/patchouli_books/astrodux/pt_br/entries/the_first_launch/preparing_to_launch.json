@@ -1,0 +1,16 @@
+{
+  "name": "Preparando o Lançamento",
+  "icon": "ad_astra:tier_1_rocket",
+  "sortnum": 4,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#ff0000)Siga estes passos com muito cuidado! $()Esquecer até mesmo um item aqui pode tornar sua vida difícil ou, pior, deixá-lo preso na Lua!$(br2)Para voltar da Lua à Terra, você precisa de duas coisas básicas: uma plataforma de lançamento e três baldes de combustível."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Coloque esses itens no inventário do seu foguete e garanta que eles estejam sempre lá a cada lançamento. Por fim, leve vários tanques de oxigênio cheios, bastante comida, tochas das almas ou pedra luminosa, armas e ferramentas. Com tudo isso, você estará pronto para lançar! Entre no foguete e pressione $(k:jump)!"
+    }
+  ]
+}

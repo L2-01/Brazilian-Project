@@ -27,7 +27,7 @@ Clique com o botão direito no bloco para configurar suas expressões de marcaç
 - `( )` agrupa partes de uma expressão.
 - `*` pode ser usado como curinga em nomes de marcações.
 
-Por exemplo, `forge:ingots & !forge:ingots/iron` seleciona todos os lingotes marcados, exceto barras de ferro. A lista-negra é aplicada depois da lista-branca e exclui quaisquer itens correspondentes. Se ambas as expressões estiverem vazias, a interface não expõe nenhum item.
+Por exemplo, `forge:ingots & !forge:ingots/iron` seleciona todos os lingotes marcados, exceto lingotes de ferro. A lista-negra é aplicada depois da lista-branca e exclui quaisquer itens correspondentes. Se ambas as expressões estiverem vazias, a interface não expõe nenhum item.
 
 ## Comportamento de Automação
 

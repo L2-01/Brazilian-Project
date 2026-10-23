@@ -1,0 +1,17 @@
+{
+    "name": "Saqueador",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2)Saqueador$() é um encantamento Obra-Prima para espadas.$(p)Dá 2,5% de chance por nível de rolar os espólios duas vezes ao matar uma criatura.$(p)Quando funciona, é como se você tivesse acabado de matar duas da mesma entidade."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Esse encantamento funciona em todas as entidades, incluindo chefes como o $(8)Wither$().$(p)Também acumula com $(9)Saque$()."
+        }
+    ]
+}

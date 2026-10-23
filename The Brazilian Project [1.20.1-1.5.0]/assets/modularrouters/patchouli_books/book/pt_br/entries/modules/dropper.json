@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Este módulo tenta largar um item do buffer do roteador como uma entidade de item no mundo. O item largado será adjacente ao roteador na $(l:intro/modules#direction)direção configurada/$ do módulo. A entidade de item será colocada com velocidade zero, diferente do $(item)Liberador/$ vanilla, que adiciona uma irritante velocidade aleatória ao item."
+      "text": "Este módulo tenta soltar um item do buffer do roteador como uma entidade de item no mundo. O item será solto adjacente ao roteador na $(l:intro/modules#direction)direção configurada/$ do módulo. A entidade de item será colocada com velocidade zero, diferente do $(item)Ejetor/$ vanilla, que adiciona uma irritante velocidade aleatória ao item."
     },
     {
       "type": "crafting",

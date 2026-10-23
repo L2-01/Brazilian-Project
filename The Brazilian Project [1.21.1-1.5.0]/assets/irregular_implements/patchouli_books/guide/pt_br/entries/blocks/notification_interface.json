@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A $(d)Interface de Notificação$(), quando energizada, envia uma notificação configurável ao jogador que a colocou.$(br2)Você pode definir título, corpo e ícone na sua interface.",
+      "text": "A $(d)Interface de Notificação$(), quando energizada, envia uma notificação configurável ao jogador que a colocou.$(br2)Você pode definir título, corpo e ícone em sua interface.",
       "title": "Interface de Notificação"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:notification_interface",
       "link_recipe": true,
-      "text": "Administradores de servidor também podem usar o comando \"/ii notify <player> <title> <body> <itemstack>\" para enviar notificações aos jogadores."
+      "text": "Administradores de servidor também podem usar o comando \"/ii notify <player> <title> <body> <itemstack>\" para enviar notificações a jogadores."
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+    "name": "Ruptura",
+    "icon": "apotheosis:textures/mob_effect/sundering.png",
+    "category": "apotheosis:potion/effects",
+    "flag": "apotheosis:potion",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A Poção de $(c)Ruptura$() é um efeito negativo.$(p)Sob seus efeitos, todo dano recebido aumenta em 20% por nível."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Serve como contrapartida direta da resistência, somando-se a ela.$(p)Com Ruptura II e Resistência II, você sofreria dano normal."
+        }
+    ]
+}

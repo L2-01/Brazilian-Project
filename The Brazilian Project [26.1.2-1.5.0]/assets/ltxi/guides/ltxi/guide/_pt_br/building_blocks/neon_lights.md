@@ -45,6 +45,6 @@ navigation:
 </GameScene>
 
 Apesar do nome, as Luzes de Neon não contêm neon de verdade. Elas contêm, porém, [Fósforo](../resources/elements_base.md#phosphorus)
-fundido com um corante num bloco decorativo brilhante. Luzes de Neon podem ser feitas no [Forno de Arco](../machines/processing/arc_furnace.md)
-e têm um alto rendimento de material para produto final. Os 16 corantes padrão podem ser usados, além de 5 cores extras
-dos nossos pigmentos personalizados.
+fundido com um corante num bloco decorativo brilhante. As Luzes de Neon podem ser feitas no
+[Forno de Arco](../machines/processing/arc_furnace.md) e têm uma alta proporção de material para produto final. Os 16
+corantes padrão podem ser usados, além de 5 cores extras dos nossos pigmentos personalizados.

@@ -24,15 +24,15 @@
   "pages": [
     {
       "type": "text",
-      "text": "A Tela é um bloco versátil que pode exibir todos os tipos de informação. Isso depende dos módulos que você instalou. A Tela precisa de energia, que é fornecida remotamente por um $(l:rftoolsbase:machines/screen_controller)Controlador de Tela$(/l) próximo$(br2)$(5)Clique com o botão direito$() com a mão vazia para abrir a interface da Tela"
+      "text": "A Tela é um bloco versátil que pode exibir todo tipo de informação, dependendo dos módulos instalados. A Tela precisa de energia fornecida remotamente por um $(l:rftoolsbase:machines/screen_controller)Controlador de Tela$(/l) próximo$(br2)$(5)Clique com o botão direito$() de mão vazia para abrir a interface da Tela"
     },
     {
       "type": "text",
-      "text": "Na interface você pode instalar módulos (ou instalá-los clicando com o botão direito com o módulo na tela)$(br2)Muitos módulos (como o módulo de energia) precisam de um alvo para funcionar. Para definir esse alvo, você deve primeiro $(5)agachar e clicar com o botão direito$() com o módulo na máquina que deseja monitorar"
+      "text": "Na GUI você pode instalar módulos (ou pode instalá-los clicando com o botão direito com o módulo na tela)$(br2)Muitos módulos (como o módulo de energia) precisam de um alvo para funcionar. Para definir esse alvo, primeiro você deve $(5)clicar agachado com o botão direito$() com o módulo na máquina que deseja monitorar"
     },
     {
       "type": "text",
-      "text": "Quando o módulo está instalado na Tela, também há várias opções de exibição que você pode definir abrindo a interface específica do módulo (acessada pela interface normal da Tela)$(br2)Nessa interface você também pode ativar o modo 'brilho total' e, usando a chave-inglesa, pode mudar o tamanho e a transparência da tela"
+      "text": "Quando o módulo está instalado na Tela, há também várias opções de exibição que você pode definir abrindo a GUI específica do módulo (acessada pela GUI normal da Tela)$(br2)Nessa GUI você também pode ativar o modo 'brilho total' e, usando a chave, pode mudar o tamanho e a transparência da tela"
     }
   ]
 }

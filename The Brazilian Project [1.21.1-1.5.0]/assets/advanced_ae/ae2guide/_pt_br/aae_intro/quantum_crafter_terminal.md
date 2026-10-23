@@ -17,9 +17,9 @@ item_ids:
 <ItemImage id="advanced_ae:wireless_quantum_crafter_terminal" scale="4"></ItemImage>
 </Row>
 
-Os Terminais do Fabricador Quântico permitem que o jogador gerencie toda a sua rede de <ItemLink id="advanced_ae:quantum_crafter"/>s
-de um único lugar. A versão sem fio é útil para alterar configurações em movimento: basta vinculá-la à sua rede
-inserindo-a no seu ponto de acesso sem fio e pronto!
+Os Terminais do Fabricador Quântico permitem ao jogador gerenciar toda a sua rede de <ItemLink id="advanced_ae:quantum_crafter"/>s
+de um só lugar. A versão sem fio é útil para alterar configurações em qualquer lugar — basta vinculá-la à sua rede inserindo-a no
+seu ponto de acesso sem fio e pronto!
 
 <Row gap="20">
 <RecipeFor id="advanced_ae:quantum_crafter_terminal" />

@@ -1,0 +1,17 @@
+{
+    "name": "Rastro de Fogo",
+    "icon": "simplyswords:runic_tablet",
+    "category": "simplyswords:category_rune_etching",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:runic_tablet",
+            "title": "Rastro de Fogo",
+            "text": "O Rastro de Fogo é um poder rúnico que imbui a arma do portador com a $(#bf4117)$(l)essência de fogo$(). $(br2)Concede ao portador uma chance de se incendiar enquanto também aumenta sua velocidade a cada golpe bem-sucedido."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Pode ser útil em batalhas contra inimigos que dependem de velocidade e mobilidade, pois a velocidade aumentada permite ao portador manobrá-los. $(br2)O efeito de fogo pode ser uma desvantagem para personagens com defesas fracas, mas a velocidade aumentada pode compensar em certas situações."
+        }
+    ]
+}

@@ -6,7 +6,7 @@ navigation:
 
 # Links e Agradecimentos
 
-Obrigado por usar o Logistics Networks! Cada nó colocado, cada rede construída, cada canal configurado — significa muito de verdade. Se você achar este mod útil, ajude o projeto a crescer entrando na comunidade ou dando uma estrela no repositório.
+Obrigado por usar o Logistics Networks! Cada nó colocado, cada rede construída, cada canal configurado — significa muito de verdade. Se você achar este mod útil, ajude o projeto a crescer entrando na comunidade ou marcando o repositório com uma estrela.
 
 ## Comunidade e Código-Fonte
 

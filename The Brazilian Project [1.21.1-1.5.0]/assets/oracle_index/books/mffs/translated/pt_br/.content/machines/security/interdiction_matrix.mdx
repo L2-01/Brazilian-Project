@@ -1,0 +1,30 @@
+---
+id: mffs:interdiction_matrix
+type: block
+---
+
+# Matriz de Interdição
+
+A Matriz de Interdição é um membro da família de máquinas do MFFS.
+
+Ela impõe restrições a jogadores ou entidades presentes no espaço ao seu redor. Por exemplo, pode ser configurada para
+matar automaticamente criaturas ou jogadores que entrem na sua área de efeito, ou para impedir que jogadores não autorizados mexam
+em outras máquinas.
+
+<PrefabObtaining />
+
+## Funcionamento
+
+O espaço ao redor de uma Matriz de Interdição se divide em duas regiões lógicas: **Ação** e **Aviso**.
+
+A região de ação se estende a partir da própria Matriz pelo mesmo número de blocos que houver de
+[Módulos de Escala](@mffs:scale_module) instalados.
+Por padrão, a região de aviso continua a partir da borda da região de ação (como uma esfera concêntrica) por mais
+3 blocos.
+
+Quando um jogador entra na área de aviso de uma Matriz de Interdição, ela envia uma mensagem de alerta informando que ele acabou de
+entrar no seu alcance de varredura. Se um jogador não quiser descobrir em primeira mão quais módulos a Matriz tem instalados,
+ele não deve prosseguir.
+
+Sem módulos instalados, uma Matriz de Interdição não faz realmente nada. Com módulos instalados, ela pode servir como um
+poderoso sistema de defesa.

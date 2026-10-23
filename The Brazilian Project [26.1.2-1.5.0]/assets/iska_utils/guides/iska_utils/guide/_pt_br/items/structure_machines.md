@@ -8,7 +8,7 @@ item_ids:
   - iska_utils:structure_placer_machine
   - iska_utils:structure_saver_machine
 categories:
-  - Mundo e máquinas
+  - World and machines
 ---
 # Máquinas Posicionadora / Salvadora de Estruturas
 
@@ -16,8 +16,8 @@ categories:
 
 ## Máquina posicionadora
 
-- Posiciona estruturas a partir de definições com custos de FE/RF por bloco quando aplicável.
+- Posiciona estruturas a partir de definições, com custos de FE/RF por bloco quando aplicável. Veja também o **Posicionador de Estruturas** manual em Ferramentas Úteis.
 
 ## Máquina salvadora
 
-- Captura áreas para definições de estrutura compatíveis com a posicionadora.
+- Captura áreas em definições de estrutura compatíveis com a posicionadora.

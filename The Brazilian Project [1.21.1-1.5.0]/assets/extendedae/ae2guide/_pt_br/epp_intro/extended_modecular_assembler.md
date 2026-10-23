@@ -17,8 +17,8 @@ item_ids:
 
 O Montador Molecular Estendido é um <ItemLink id="ae2:molecular_assembler" /> avançado.
 
-Ele pode executar oito trabalhos de fabricação ao mesmo tempo (desde que sua rede ME contenha um <ItemLink id="ae2:crafting_accelerator" />)
-e é duas vezes mais rápido que um Montador Molecular padrão.
+Ele pode executar oito trabalhos de fabricação ao mesmo tempo (desde que sua rede ME tenha <ItemLink id="ae2:crafting_accelerator" />s)
+e opera duas vezes mais rápido que o normal.
 
-No entanto, ele só suporta trabalhos de fabricação vindos de um <ItemLink id="ae2:pattern_provider" />, então você não pode inserir um padrão diretamente.
+Porém, ele só aceita trabalhos de fabricação de um <ItemLink id="ae2:pattern_provider" />. Portanto, você não pode colocar um padrão nele diretamente.
 

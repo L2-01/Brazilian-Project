@@ -16,9 +16,9 @@ item_ids:
 
 # Baterias
 
-Carregar itens quando estiver no inventário do jogador, também pode ser usado para atualizar a capacidade de um canal da rede Ender, Segure Shift ao clicam em uma batatea para movela pra GUI da Celula de Ender quando aberta, se a bateria contiver energia, então também será aplicada ao canal da rede final. 
+Carrega itens quando está no inventário do jogador. Também pode ser usada para aumentar a capacidade de um canal da Rede Ender ao clicar com Shift numa Bateria dentro da GUI de uma Célula do Ender; se a Bateria contiver energia, ela também será aplicada ao canal da rede ender. 
 
-|                                          | Capacidade                                           | I/O Máximo                                        |
+|                                          | Capacidade                                             | E/S Máx.                                           |
 | ---------------------------------------- | ---------------------------------------------------- | ------------------------------------------------- |
 | <ItemLink id="powah:battery_starter" />  | <powah:EnergyCapacity id="powah:battery_starter" />  | <powah:EnergyMaxIO id="powah:battery_starter" />  |
 | <ItemLink id="powah:battery_basic" />    | <powah:EnergyCapacity id="powah:battery_basic" />    | <powah:EnergyMaxIO id="powah:battery_basic" />    |

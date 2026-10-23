@@ -8,7 +8,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "O Emissor de Matéria envia itens de material para um $(l:rftoolsbase:machines/spawner)Gerador$(/l). Ele tem um espaço de entrada, usa FE enquanto ativo e envia itens apenas quando o gerador vinculado pode usá-los."
+      "text": "O Emissor de Matéria envia itens de material a um $(l:rftoolsbase:machines/spawner)Gerador$(/l). Ele tem um espaço de entrada, usa FE enquanto ativo e transmite itens apenas quando o gerador vinculado pode usá-los."
     },
     {
       "type": "crafting",
@@ -18,12 +18,12 @@
     {
       "type": "text",
       "title": "Vinculando",
-      "text": "Use uma chave-inglesa no Emissor de Matéria e depois use a chave-inglesa no Gerador alvo. Usar a chave-inglesa novamente no emissor selecionado limpa o destino."
+      "text": "Use uma chave-inglesa no Emissor de Matéria e depois use a chave-inglesa no Gerador alvo. Usar a chave-inglesa no emissor selecionado de novo limpa o destino."
     },
     {
       "type": "text",
       "title": "Operação",
-      "text": "Dê um sinal de redstone ao emissor e insira os materiais necessários para a receita do gerador. $(5)Infundir$() envia mais itens por pulso e reduz o custo de FE."
+      "text": "Dê um sinal de redstone ao emissor e insira os materiais exigidos pela receita do gerador. $(5)Infundir$() envia mais itens por pulso e reduz o custo de FE."
     }
   ]
 }

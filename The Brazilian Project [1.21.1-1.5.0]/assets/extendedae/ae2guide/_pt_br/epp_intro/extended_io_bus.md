@@ -1,7 +1,7 @@
 ---
 navigation:
     parent: epp_intro/epp_intro-index.md
-    title: Ponto de Exportação/Importação ME Estendido
+    title: Ponto de Importação/Exportação ME Estendido
     icon: extendedae:ex_import_bus_part
 categories:
 - extended devices
@@ -21,7 +21,8 @@ item_ids:
 </GameScene>
 </Row>
 
-Os Pontos de Importação e Exportação ME Estendidos funcionam mais rápido que o <ItemLink id="ae2:import_bus" /> e o <ItemLink id="ae2:export_bus" /> padrão
-(o multiplicador de velocidade padrão é 8, mas é configurável).
+Os Pontos de Importação/Exportação ME Estendidos funcionam mais rápido que o <ItemLink id="ae2:import_bus" /> e o <ItemLink id="ae2:export_bus" /> normais
+(o multiplicador de velocidade padrão é 8; é configurável).
 
-Eles também têm mais espaços de melhoria que os pontos padrão.
+Eles também têm mais espaços de melhoria que os normais.
+

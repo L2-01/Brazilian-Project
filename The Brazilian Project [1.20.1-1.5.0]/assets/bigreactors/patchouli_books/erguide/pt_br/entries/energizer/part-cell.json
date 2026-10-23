@@ -1,22 +1,22 @@
 {
-  "name": "Célula de Energia",
-  "icon": "bigreactors:energizercell",
-  "category": "bigreactors:energizer-parts",
-  "read_by_default": true,
-  "sortnum": 1,
-  "pages": [
-    {
-      "type": "spotlight",
-      "item": "bigreactors:energizercell",
-      "link_recipe": true,
-      "title" : "Célula de Energia",
-      "text": "As Células de Energia são os componentes de armazenamento do Energizador e devem ser usadas para preencher completamente o volume interno da máquina."
-    },
-    {
-      "type": "crafting-part_usage",
-      "crafting.title1": "Célula de Energia",
-      "crafting.recipe1": "bigreactors:energizer/energizercell",
-      "usage.text": "$(l)Obrigatório:$() sim$(br)$(l)Posições válidas:$() dentro do Energizador$(br)$(l)Interface gráfica:$() não"
-    }
-  ]
+    "name": "Célula de Energia",
+    "icon": "bigreactors:energizercell",
+    "category": "bigreactors:energizer-parts",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:energizercell",
+            "link_recipe": true,
+            "title": "Célula de Energia",
+            "text": "As Células de Energia são os componentes de armazenamento do Energizador e devem preencher completamente o volume interno da máquina."
+        },
+        {
+            "type": "crafting-part_usage",
+            "crafting.title1": "Célula de Energia",
+            "crafting.recipe1": "bigreactors:energizer/energizercell",
+            "usage.text": "$(l)Obrigatória:$() sim$(br)$(l)Posições válidas:$() dentro do Energizador$(br)$(l)Interface gráfica:$() não"
+        }
+    ]
 }

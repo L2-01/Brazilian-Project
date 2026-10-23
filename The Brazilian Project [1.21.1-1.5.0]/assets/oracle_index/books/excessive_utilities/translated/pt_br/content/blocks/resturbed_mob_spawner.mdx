@@ -1,0 +1,25 @@
+---
+title: Gerador de Criaturas Inquietado
+id: excessive_utilities:resturbed_mob_spawner
+related_items: [excessive_utilities:resturbed_mob_spawner]
+type: block
+---
+O **Gerador de Criaturas Inquietado** é uma versão portátil e controlável por Redstone de um Gerador de Criaturas vanilla. Ele mantém o tipo de entidade e os dados de geração do gerador original, então pode ser movido sem reconstruir a fazenda em torno de um novo gerador.
+
+## Obtenção e Transporte
+
+Use uma [Gota do Mal](@excessive_utilities:drop_of_evil) num Gerador de Criaturas vanilla para convertê-lo. O bloco original é removido e um item de Gerador de Criaturas Inquietado é derrubado em seu lugar. Sua dica de ferramenta mostra a entidade que ele vai gerar.
+
+Diferente de um gerador vanilla, um Gerador de Criaturas Inquietado derruba a si mesmo quando minerado com uma Picareta. Seus dados de geração ficam armazenados no item e são restaurados quando o bloco é colocado novamente.
+
+## Geração
+
+Enquanto desenergizado, o bloco segue o comportamento do Gerador de Criaturas vanilla. Um jogador precisa estar dentro do alcance de ativação do gerador, a criatura selecionada precisa ter espaço para aparecer, e o gerador respeita seu atraso armazenado, contagem de geração, limite de entidades próximas e alcance de geração.
+
+Toda criatura criada por um Gerador de Criaturas Inquietado é [Amaldiçoada](@excessive_utilities:cursed_earth). Criaturas amaldiçoadas ficam visivelmente escurecidas e recebem bônus configuráveis de velocidade de movimento e dano de ataque; os padrões estão descritos na seção **Criaturas Amaldiçoadas** da página Terra Amaldiçoada.
+
+## Controle por Redstone
+
+Qualquer sinal de Redstone vizinho pausa o gerador completamente. Sua criatura interna para de girar enquanto desativado, tornando seu estado fácil de ver. Remover o sinal permite que ele continue de seu atraso de geração existente, em vez de reiniciar o gerador.
+
+Isso torna uma Alavanca suficiente para controle manual, enquanto circuitos comuns de Redstone podem ativar a fazenda apenas quando sua produção é necessária.

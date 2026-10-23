@@ -12,10 +12,10 @@ item_ids:
 
 # Gosma Criativa
 
-Um Gosma simples que não pode morrer
-Pode ser alternado usando qualquer chave inglesa
+Uma gosma simples que não pode morrer
+Ela pode ser alternada usando qualquer chave
 
-Nível do nível : **MÁX**
+Nível: **MAX**
 
 <BlockImage id="justdynathings:creative_goo" scale="4.0" p:alive="false"/> 
 <BlockImage id="justdynathings:creative_goo" scale="4.0" p:alive="true" />

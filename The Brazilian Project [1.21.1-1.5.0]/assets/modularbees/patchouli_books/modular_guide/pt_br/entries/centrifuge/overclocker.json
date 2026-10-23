@@ -7,7 +7,7 @@
     {
       "type": "patchouli:text",
       "title": "Acelerador da Centrífuga",
-      "text": "Você pode usar o Acelerador da Centrífuga para acelerar a centrífuga. Ele precisa de energia e de um Eletrodo para funcionar; Eletrodos melhores dão um bônus de velocidade maior.$(br)Quando você usa vários aceleradores ao mesmo tempo, os bônus de velocidade são aditivos. Isso significa que dois Eletrodos de Netherita (+400%) podem fazer a centrífuga trabalhar x9 (+800%) mais rápido."
+      "text": "Você pode usar o Acelerador da Centrífuga para acelerar a centrífuga. Ele precisa de energia e de um Eletrodo para funcionar; eletrodos melhores dão mais velocidade.$(br)Ao usar vários aceleradores ao mesmo tempo, os bônus de velocidade se somam. Isso significa que dois Eletrodos de Netherita (+400%) fazem o trabalho 9x mais rápido (+800%)."
     },
     {
       "type": "patchouli:crafting",
@@ -16,7 +16,7 @@
     {
       "type": "patchouli:text",
       "title": "Eletrodo",
-      "text": "Há quatro níveis de eletrodos, e você pode encontrar seus bônus no JEI/tooltip.$(br)Os eletrodos sempre perderão 1 de durabilidade a cada tique de trabalho."
+      "text": "Existem quatro níveis de eletrodos; você pode ver seus bônus no JEI/tooltip.$(br)Os eletrodos sempre perdem 1 de durabilidade a cada tick de trabalho."
     },
     {
       "type": "patchouli:crafting",

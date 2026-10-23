@@ -1,0 +1,19 @@
+{
+  "name": "Melhorias de Módulo",
+  "icon": "modularrouters:augment_core",
+  "category": "modularrouters:intro",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Melhorias de módulo/$ são como $(l:intro/upgrades)melhorias/$, mas são inseridas num $(l:intro/modules)módulo/$ em vez de num $(l:intro/modular_router)Roteador Modular/$. Cada módulo tem espaços para 4 melhorias (algumas podem ser empilhadas). As melhorias de módulo aprimoram ou estendem a funcionalidade de um módulo de várias formas."
+    },
+    {
+      "type": "image",
+      "images": [
+        "modularrouters:textures/patchouli/augments.png"
+      ],
+      "text": "$(italic)Um Módulo de Vácuo com 6 melhorias de Aumento de Alcance e uma melhoria de Vácuo de XP/$",
+      "border": true
+    }
+  ]
+}

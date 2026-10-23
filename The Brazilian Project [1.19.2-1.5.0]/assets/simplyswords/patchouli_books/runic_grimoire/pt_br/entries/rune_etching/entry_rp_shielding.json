@@ -1,0 +1,17 @@
+{
+    "name": "Proteção",
+    "icon": "simplyswords:runic_tablet",
+    "category": "simplyswords:category_rune_etching",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:runic_tablet",
+            "title": "Proteção",
+            "text": "A Proteção é um poder rúnico que imbui a arma do portador com a $(#389fff)$(l)essência de proteção$(). $(br2)Concede ao portador uma chance de ganhar absorção ao atingir com cada golpe bem-sucedido."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "A Proteção é um poder rúnico poderoso que pode dar ao portador uma vantagem em batalha protegendo-o de danos. É ideal para personagens focados em aguentar e absorver dano, como guerreiros e paladinos. $(br2)Também pode ser útil para personagens que dependem de ataques pesados, pois o efeito de absorção permite que permaneçam na luta por mais tempo."
+        }
+    ]
+}

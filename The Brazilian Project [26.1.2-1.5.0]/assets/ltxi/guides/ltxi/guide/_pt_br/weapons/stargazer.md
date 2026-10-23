@@ -10,11 +10,15 @@ navigation:
 
 <ItemImage id="stargazer" scale="3" />
 
+### Melhoria padrão
+
+<UpgradeEntry id="default/stargazer" />
+
 ## Atributos
 
-- Dano base: 45,0
-- Alcance: 200,0
+- Dano base: 45.0
+- Alcance: 200.0
 - Projétil: [LightFrag](index.md#lightfrags)
-- Gatilho: Carregamento de fusão
-- Tempo de carga: 0,5 s
-- Recarga do gatilho: 0,25 s
+- Gatilho: Fusão por carga
+- Tempo de carga: 0.5 seg
+- Resfriamento do gatilho: 0.25 seg

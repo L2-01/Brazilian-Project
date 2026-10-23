@@ -1,0 +1,42 @@
+---
+id: oritech:spawner_controller_block
+type: block
+title: Controlador de Gerador
+---
+
+O Controlador de Gerador controla o sistema automatizado de geração de criaturas. Quando colocado
+acima de uma [gaiola de gerador](@oritech:spawner_cage_block), ele pode ser usado para gerar tipos específicos de criaturas.
+
+<Callout variant="warning">
+    A *Oritech Inc* não se responsabiliza por crises existenciais vividas por criaturas questionando seu
+    propósito na vida, nem por quaisquer dilemas éticos que você desenvolva sobre a colheita industrializada de almas.
+</Callout>
+
+## Configuração
+
+O tipo de criatura é determinado pela primeira entidade que passa por cima do controlador. Esse
+tipo só pode ser mudado quebrando e recolocando o controlador. Uma vez definido o tipo de criatura,
+o controlador destaca o tamanho necessário da gaiola de gerador embaixo dele.
+
+<center>
+<ModAsset location="oritech:area/mob_spawner" width={512} />
+</center>
+
+## Operação
+
+O controlador coleta almas de mortes próximas e as consome para gerar a
+criatura atribuída.
+
+- **Custo de Almas**: o número de almas necessárias para uma geração é calculado com base
+na vida da criatura (especificamente a raiz quadrada do seu HP máximo).
+- **Alcance de Geração**: o controlador tenta encontrar uma superfície de geração válida dentro
+de um pequeno raio (4 blocos) ao seu redor.
+- **Controle por Redstone**: aplicar um sinal de redstone ao controlador o desativa,
+parando todas as operações de geração.
+
+Clicar com o botão direito no controlador fornece informações sobre seu estado operacional atual,
+incluindo a criatura definida e os níveis de alma atuais.
+
+<Callout variant="info">
+    O gerador não pode ser configurado para tipos de criatura que fazem parte da tag `oritech:spawner_blacklist`.
+</Callout>

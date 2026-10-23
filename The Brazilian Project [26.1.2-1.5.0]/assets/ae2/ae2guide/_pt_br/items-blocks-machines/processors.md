@@ -27,15 +27,15 @@ item_ids:
   <ItemImage id="engineering_processor" scale="4" />
 </Row>
 
-Processadores são um dos ingredientes primários em [dispositivos](../ae2-mechanics/devices.md) e máquinas do AE2. Também são um dos seus primeiros
+Processadores são um dos ingredientes principais dos [dispositivos](../ae2-mechanics/devices.md) e máquinas do AE2. Eles também são um dos seus primeiros
 grandes desafios de automação. Há três tipos de processador, feitos com ouro, <ItemLink id="certus_quartz_crystal" />
 e diamante, respectivamente. Eles são feitos usando [prensas](presses.md) num <ItemLink id="inscriber" />, num processo
-de várias etapas (normalmente alcançado via uma série de inscritores e canos filtrados).
+multi-etapas (geralmente realizado via uma série de inscritores e tubulação filtrada).
 
 ## Etapas de Produção
 
 <Column gap="5">
-  1.  Reúna/faça os ingredientes necessários: silício, redstone, ouro, <ItemLink id="certus_quartz_crystal" />, diamante.
+  1.  Colete/fabrica os ingredientes necessários: silício, redstone, ouro, <ItemLink id="certus_quartz_crystal" />, diamante.
 
   <RecipeFor id="silicon" />
 

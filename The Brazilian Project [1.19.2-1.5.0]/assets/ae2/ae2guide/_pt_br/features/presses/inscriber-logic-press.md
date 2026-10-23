@@ -12,12 +12,12 @@ navigation:
   title: Prensa Inscritora Lógica
 ---
 
-Necessária para fazer <ItemLink id="printed_logic_processor"/> com o <ItemLink id="inscriber" />.
-Encontrada em <ItemLink id="sky_stone_chest" /> que surge em meteoritos durante a geração do mundo, e pode ser copiada usando o <ItemLink id="inscriber" />.
+Necessária para fazer o <ItemLink id="printed_logic_processor"/> com o <ItemLink id="inscriber" />.
+Encontrada em <ItemLink id="sky_stone_chest" /> que surgem em meteoritos durante a geração do mundo e pode ser copiada usando o <ItemLink id="inscriber" />.
 
 <RecipeFor id="logic_processor_press" />
 
-### Prensas de Processador
+### Placas de Prensa de Processador
 
 <CategoryIndex category="Processor Press Plates" />
 
@@ -25,6 +25,6 @@ Encontrada em <ItemLink id="sky_stone_chest" /> que surge em meteoritos durante 
 
 <CategoryIndex category="Processors" />
 
-### Peças de Processador
+### Componentes de Processador
 
 <CategoryIndex category="Processor Parts" />

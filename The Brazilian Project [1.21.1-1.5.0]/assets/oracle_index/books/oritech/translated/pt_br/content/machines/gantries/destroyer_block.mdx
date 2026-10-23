@@ -1,0 +1,42 @@
+---
+title: Bloco Destruidor
+id: oritech:destroyer_block
+type: block
+custom:
+    Capacidade de RF: "100,000"
+    Entrada máx. de RF: "5,000"
+    Custo de movimento: "8 RF"
+    Custo de trabalho: "128 RF base"
+    Núcleos necessários: "2"
+    Espaços de complemento: "4"
+---
+
+O bloco destruidor é um componente de pórtico que quebra blocos na área abaixo. É um multibloco
+que opera sobre uma [estrutura de máquina](@oritech:machine_frame_block) e mira na camada de blocos diretamente abaixo da estrutura.
+
+O tempo e a energia necessários para quebrar um bloco dependem da dureza dele.
+
+### Agricultura
+
+Para habilitar o uso agrícola, instale o [complemento de filtro de plantação](@oritech:crop_filter_addon). Isso faz o destruidor de blocos
+pular todas as plantações não maduras, permitindo a colheita automatizada.
+
+<center>
+<ModAsset location="oritech:area/block_destroyer_farming" width={1000} />
+</center>
+
+### Pedreira
+
+Ao adicionar [complementos de pedreira](@oritech:quarry_addon), o destruidor de blocos também pode funcionar como uma pedreira.
+Cada complemento de pedreira multiplica por 8 o alcance para baixo:
+
+*   **1 Complemento**: alcance de 8 blocos
+*   **2 Complementos**: alcance de 64 blocos
+*   **3 Complementos**: alcance de 512 blocos
+
+A velocidade padrão é bem lenta quando usado como pedreira, então é recomendado adicionar alguns
+complementos de [velocidade](@oritech:machine_speed_addon) e [eficiência](@oritech:machine_efficiency_addon).
+
+<center>
+<ModAsset location="oritech:area/block_destroyer_quarry" width={1000} />
+</center>

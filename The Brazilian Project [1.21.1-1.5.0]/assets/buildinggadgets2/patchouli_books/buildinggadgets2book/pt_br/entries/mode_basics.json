@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Os dispositivos de construção e de troca têm uma configuração de 'alcance', que especifica o alcance de blocos afetados. Cada modo lida com isso de forma um pouco diferente, mas em geral representa uma área.$(br2)Por exemplo, no modo Fileira Horizontal um alcance de 3 será 3 blocos no total, 1 de cada lado do bloco para o qual você está olhando. Isso é arredondado se você escolher um número par."
+      "text": "Os dispositivos de construção e de troca têm uma configuração de 'alcance', que especifica a faixa de blocos afetados. Cada modo lida com isso de forma um pouco diferente, mas em geral representa uma área.$(br2)Por exemplo, no modo Fileira Horizontal, um alcance de 3 serão 3 blocos no total, 1 de cada lado do bloco para o qual você está olhando. Isso é arredondado se você escolher um número par."
     },
     {
       "type": "patchouli:image",

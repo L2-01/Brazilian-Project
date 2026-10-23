@@ -1,0 +1,21 @@
+Citadel é um mod de biblioteca destinado a dar um lar
+à base de código de Alexthe666 e de outros autores de mods.
+Ele é composto principalmente de código compartilhado para animação,
+renderização e rastreamento de propriedades de entidades.
+Também contém um sistema básico de livro-guia, que você está vendo agora.
+O sistema de livro lê automaticamente a partir de arquivos JSON.
+O texto é quebrado automaticamente e lido a partir de um arquivo .txt.
+Itens e blocos podem ser renderizados, junto com receitas como esta:
+<NEWLINE>
+Assim como itens e blocos, entidades e modelos tabula também podem
+ser renderizados. Eles podem ser estáticos, girados em qualquer
+direção ou seguir o cursor do jogador.
+<NEWLINE>
+<NEWLINE>
+Todas as entidades devem animar corretamente. Se o
+livro não conseguir encontrar a entidade, ele renderiza um
+porco no lugar. Botões de link são úteis para permitir que os
+jogadores naveguem pelos livros corretamente.
+Pressionar o botão de link abre a página
+especificada, e o botão de voltar permite ao
+jogador retornar à página anterior.

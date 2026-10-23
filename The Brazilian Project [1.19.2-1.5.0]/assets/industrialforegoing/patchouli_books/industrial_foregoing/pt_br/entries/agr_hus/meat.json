@@ -1,0 +1,13 @@
+{
+  "name": "Carne Líquida (Balde)",
+  "icon": "industrialforegoing:meat_bucket",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 10,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Um fluido produzido pela $(l:agr_hus/mob_slaughter_factory)Fábrica de Abate de Criaturas$()."
+    }
+  ]
+}

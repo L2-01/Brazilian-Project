@@ -17,4 +17,4 @@ item_ids:
 <ItemImage id="appflux:harden_insulating_resin" scale="4"></ItemImage>
 </Row>
 
-A Resina Isolante pode impedir que a energia armazenada vaze. É o material necessário para fabricar cápsulas de célula de FE.
+A Resina Isolante pode impedir que a energia armazenada vaze. É o material necessário para fazer a cápsula de célula FE.

@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:calling_bell
 categories:
-  - Artefatos
+  - Artifacts
 ---
 # Sino de Chamada
 
@@ -15,8 +15,8 @@ categories:
 
 ## O que faz
 
-Curio arcano do tipo **amuleto**. Enquanto equipado, se você usar pelo menos **três artefatos arcanos distintos** no Curios ao mesmo tempo (por exemplo <ItemImage id="iska_utils:totem_of_pain" /> **Totem da Dor**, <ItemImage id="iska_utils:miniature_tent" /> **Barraca Miniatura** ou <ItemImage id="iska_utils:cursed_candle" /> **Vela Arcana**), você ganha bônus de vida máxima, armadura e resistência da armadura.
+Curio arcano de **amuleto**. Enquanto equipado, se você usar pelo menos **três artefatos arcanos distintos** no Curios ao mesmo tempo (por exemplo <ItemImage id="iska_utils:totem_of_pain" /> **Totem da Dor**, <ItemImage id="iska_utils:miniature_tent" /> **Barraca Miniatura** ou <ItemImage id="iska_utils:cursed_candle" /> **Vela Arcana**), você ganha bônus de vida máxima, armadura e resistência da armadura.
 
-## Obtendo
+## Obtenção
 
 Frequentemente encontrado dentro de pacotes de <ItemImage id="iska_utils:suspicious_delivery" /> **Entrega Suspeita**.

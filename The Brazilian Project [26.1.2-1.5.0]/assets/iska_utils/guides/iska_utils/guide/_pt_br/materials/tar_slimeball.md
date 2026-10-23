@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:tar_slimeball
 categories:
-  - Materiais
+  - Materials
 ---
 # Bola de Slime de Piche
 

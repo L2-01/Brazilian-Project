@@ -12,40 +12,44 @@ navigation:
 	<LogicIndex />
 </FloatingColumn>
 
-Componentes lógicos, ou o que às vezes também são chamados de portas lógicas, são o que impulsiona o seu circuito. Todos os componentes lógicos 
-terão portas de entrada ou de saída. Essas portas são a forma como você transmite e modifica sinais para obter os resultados
-que deseja. Componentes lógicos se comportam puramente em uma base booleana - o que significa que os sinais podem ter um valor
-DESLIGADO (0) ou LIGADO (1).
+Os componentes lógicos, também chamados às vezes de portas lógicas, são o que movimenta o seu circuito. Todo
+componente lógico terá portas de entrada ou de saída. Essas portas são como você passa e modifica sinais para obter
+os resultados desejados. Os componentes lógicos se comportam de forma analógica, parecido com o pó de redstone —
+ou seja, os sinais podem ser qualquer valor de 0 (desligado) a 15. Valores de 1 para cima são considerados ligados.
+Alguns componentes lógicos simplesmente deixam o valor do sinal passar. Por exemplo, passar um valor de entrada 10
+num componente produzirá um valor 10 na saída, desde que a saída esteja ligada. Há exceções a esse comportamento,
+indicadas na página do guia de cada componente lógico.
 
 <br />
 
-### Tabelas-verdade
+### Tabelas-Verdade
 
-A lógica se comportará de maneira diferente dependendo de seus sinais de entrada, tipicamente de forma determinística. Assim, a maioria dos componentes lógicos 
-têm o que é chamado de tabela-verdade associada a eles. Uma tabela-verdade é uma tabela que mostra o estado de saída
-para cada combinação de entradas para o componente lógico em questão. A página correspondente para cada componente lógico
-que pode ser descrito usando uma tabela-verdade terá uma presente nela.
+A lógica se comporta de maneira diferente dependendo dos sinais de entrada, normalmente de forma determinística.
+Por isso, a maioria dos componentes lógicos tem o que se chama de tabela-verdade associada. Uma tabela-verdade é uma
+tabela que mostra o estado da saída para cada combinação de entradas do componente lógico. A página correspondente
+de cada componente lógico que possa ser descrito por uma tabela-verdade terá uma presente nela.
 
-As entradas são representadas por letras em ordem sequencial. Por exemplo, a primeira entrada seria A, a segunda B, e assim
-por diante. As saídas são representadas por Q. Se houver múltiplas saídas, o Q é seguido por subscrito denotando
-a saída específica. Por exemplo, Q₁, Q₂, e assim por diante. No entanto, na maioria dos casos haverá apenas uma saída para uma porta.
+As entradas são representadas por letras em ordem sequencial. Por exemplo, a primeira entrada seria A, a segunda
+B, e assim por diante. As saídas são representadas por Q. Se houver várias saídas, o Q é seguido de um subscrito que
+denota a saída específica. Por exemplo, Q₁, Q₂, e assim por diante. Na maioria dos casos, porém, haverá apenas uma
+saída numa porta.
 
 <br />
 
 ### Usando a Lógica
 
-A lógica pode ser colocada ou retirada na interface de um [Microchip](../microchips.md) usando o clique esquerdo. Enquanto segura a lógica em seu
-cursor, você pode segurar a tecla CTRL para ajustar seu posicionamento a uma grade.
+A lógica pode ser colocada ou recolhida na interface de um [Microchip](../microchips.md) usando o botão esquerdo.
+Enquanto segura a lógica no cursor, você pode segurar a tecla ctrl para encaixar o posicionamento numa grade.
 
-Para configurar um componente lógico (se houver algo para configurar), você pode usar o clique direito nele. Isso abrirá um
-menu onde você pode alterar as configurações do componente. As configurações de cada componente são descritas em sua
-página correspondente.
+Para configurar um componente lógico (se houver algo a configurar), você pode usar o botão direito sobre ele. Isso
+abrirá um menu onde você pode alterar as configurações do componente. As configurações de cada componente estão
+descritas na sua página correspondente.
 
-Para obter informações sobre como conectar a lógica usando suas portas, veja a página sobre [fios](../redstone_bits.md).
+Para informações sobre como conectar a lógica usando suas portas, veja a página sobre [fios](../redstone_bits.md).
 
-Componentes lógicos podem ser tingidos separadamente do microchip, mas por padrão herdarão a cor do microchip
-no qual são colocados. Para tingir componentes lógicos, você pode fazê-lo em sua grade de criação, como faria normalmente, ou você
-pode clicar com o botão direito na lógica no menu com o corante para aplicá-lo.
+Os componentes lógicos podem ser tingidos separadamente do microchip, mas por padrão herdam a cor do microchip em
+que são colocados. Para tingir componentes lógicos, você pode fazê-lo na sua grade de fabricação como de costume, ou
+clicar com o botão direito na lógica no menu segurando o corante para aplicá-lo.
 
-Similarmente, você pode usar um balde de água ou bolas de neve para limpar a cor do componente lógico. Note que as bolas de neve
-serão consumidas, enquanto os baldes de água não serão.
+Da mesma forma, você pode usar um balde de água ou bolas de neve para remover a cor do componente lógico. Note
+que as bolas de neve são consumidas, enquanto os baldes de água não.

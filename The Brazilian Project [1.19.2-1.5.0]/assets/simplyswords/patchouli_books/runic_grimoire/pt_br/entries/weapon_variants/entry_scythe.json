@@ -1,0 +1,26 @@
+{
+    "name": "Foice",
+    "icon": "simplyswords:iron_scythe",
+    "category": "simplyswords:category_weapon_variants",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:iron_scythe",
+            "text": "A Foice é conhecida por sua habilidade de causar dano devastador a cada golpe, devido ao seu peso e lâmina afiada. A Foice pode ser usada para ataques de corte e fatiamento num raio amplo, graças à sua lâmina curva particularmente grande e cabo longo."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:iron_scythe",
+            "recipe2": "simplyswords:gold_scythe"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:diamond_scythe"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "simplyswords:netherite_scythe",
+            "recipe2": "simplyswords:runic_scythe"
+        }
+    ]
+}

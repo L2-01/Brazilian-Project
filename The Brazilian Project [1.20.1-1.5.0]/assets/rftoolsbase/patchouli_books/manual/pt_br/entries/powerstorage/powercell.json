@@ -14,11 +14,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "As $(item)Células de Energia$() armazenam quantidades enormes de energia. Podem ser colocadas individualmente ou lado a lado para formar uma estrutura multibloco. As Células de Energia distribuem RF automaticamente entre si e suas vizinhas, e se unem num multibloco independentemente do nível."
+      "text": "As $(item)Células de Energia$() armazenam quantidades massivas de energia. Elas podem ser colocadas individualmente ou lado a lado para formar uma estrutura multibloco. As Células de Energia distribuirão RF automaticamente entre si e suas vizinhas, e se unirão num multibloco independentemente do nível."
     },
     {
       "type": "text",
-      "text": "As Células de Energia não têm interface, mas podem ser configuradas para receber, enviar ou ignorar energia ao bater no lado desejado com uma $(l:rftoolsbase:tools/smartwrench)chave-inglesa inteligente$() no $(thing)Modo Chave-Inglesa$(). Azul é entrada, amarelo é saída e um lado em branco não é nenhum dos dois."
+      "text": "As Células de Energia não têm UI, mas podem ser configuradas para entrada, saída ou ignorar energia batendo no lado desejado com uma $(l:rftoolsbase:tools/smartwrench)chave inteligente$() no $(thing)Modo Chave$(). Azul é entrada, Amarelo é saída e um lado em branco não é nenhum dos dois."
     },
     {
       "type": "crafting",

@@ -1,25 +1,25 @@
 {
-	"name": "Suporte de Receita de Pacotes",
-	"category": "packagedauto:core",
-	"icon": "packagedauto:recipe_holder",
-	"pages": [
-		{
-			"type": "patchouli:text",
-			"text": "Os $(item)Suportes de Receita de Pacotes/$ guardam dados de receita para máquinas, codificados no $(l:core/encoder)Codificador de Receitas de Pacotes/$.$(p)Você pode $(thing)$(k:sneak) + $(k:use)/$ num $(item)Suporte de Receita de Pacotes/$ codificado ou colocá-lo numa grade de fabricação para limpar.$(p)Você pode combinar um $(item)Suporte de Receita de Pacotes/$ codificado com vazios numa grade de fabricação para copiar o conteúdo."
-		},
-		{
-			"type": "patchouli:spotlight",
-			"flag": "&mod:jei,!mod:emi",
-			"item": "packagedauto:recipe_holder",
-			"title": "Integração com JEI",
-			"text": "Você pode pressionar $(thing)$(k:jei.showUses)/$ em $(item)Suportes de Receita de Pacotes/$ codificados para mostrar informações detalhadas sobre quais receitas estão codificadas."
-		},
-		{
-			"type": "patchouli:crafting",
-			"recipe": "packagedauto:recipe_holder",
-			"title": "Fabricação"
-		}
-	],
-	"read_by_default": true,
-	"sortnum": 4
+    "name": "Suporte de Receita de Pacotes",
+    "category": "packagedauto:core",
+    "icon": "packagedauto:recipe_holder",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Os $(item)Suportes de Receita de Pacotes/$ armazenam dados de receita para as máquinas, codificados no $(l:core/encoder)Codificador de Receitas de Pacotes/$.$(p)Você pode usar $(thing)$(k:sneak) + $(k:use)/$ num $(item)Suporte de Receita de Pacotes/$ codificado ou colocá-lo numa grade de fabricação para limpá-lo.$(p)Você pode combinar um $(item)Suporte de Receita de Pacotes/$ codificado com vazios numa grade de fabricação para copiar o conteúdo."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "flag": "&mod:jei,!mod:emi",
+            "item": "packagedauto:recipe_holder",
+            "title": "Integração com JEI",
+            "text": "Você pode pressionar $(thing)$(k:jei.showUses)/$ nos $(item)Suportes de Receita de Pacotes/$ codificados para ver informações detalhadas sobre as receitas codificadas."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "packagedauto:recipe_holder",
+            "title": "Fabricação"
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 4
 }

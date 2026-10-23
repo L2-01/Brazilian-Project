@@ -6,27 +6,27 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "A $(9)Tela de Seleção de Nível Mundial$() é sua página completa para aprender sobre e gerenciar os $(6)Níveis Mundiais$().$(p)Ela pode ser aberta usando o atalho \"Abrir Seleção de Nível de Mundo\", que por padrão é CTRL+T."
+            "text": "A $(9)Tela de Seleção de Nível de Mundo$() é sua página completa para aprender sobre e gerenciar os $(6)Níveis de Mundo$().$(p)Ela pode ser aberta usando o atalho \"Abrir Seleção de Nível de Mundo\", que por padrão é CTRL+T."
         },
         {
             "type": "patchouli:text",
             "title": "Ativando Níveis",
-            "text": "Os níveis não são ativados automaticamente. Quando você desbloqueia um novo nível, primeiro precisa usar o botão \"Ativar\" para habilitá-lo.$(p)Você pode selecionar um nível clicando no símbolo dele na tela, e então ativá-lo usando o botão."
+            "text": "Níveis não são ativados automaticamente. Quando você desbloqueia um novo nível, primeiro precisa usar o botão \"Ativar\" para habilitá-lo.$(p)Você pode selecionar um nível clicando no símbolo dele na tela e depois ativá-lo usando o botão."
         },
         {
             "type": "patchouli:text",
             "title": "Informações do Nível",
-            "text": "Para ver informações sobre um nível, selecione o nível e então pressione o botão \"Informações Detalhadas\".$(p)Isso mostrará os pesos de raridade e pureza daquele nível, assim como quaisquer Aprimoramentos de Nível que serão aplicados.$(p)Os pesos mostrados são ajustados pela sua Sorte. Segure Shift para ver os padrões."
+            "text": "Para ver informações sobre um nível, selecione-o e pressione o botão \"Informação Detalhada\".$(p)Isso mostrará os pesos de raridade e pureza daquele nível, além de quaisquer Melhorias de Nível que serão aplicadas.$(p)Os pesos mostrados são ajustados pela sua Sorte. Segure Shift para ver os padrões."
         },
         {
             "type": "patchouli:text",
             "title": "Tutorial",
-            "text": "O botão '?' abre o tutorial dos Níveis Mundiais.$(p)Até você ativar um nível pela primeira vez, itens com afixo aparecem como $(9)Não Identificados$() e escondem suas descrições."
+            "text": "O botão '?' abre o tutorial de Níveis de Mundo.$(p)Até você ativar um nível pela primeira vez, itens com afixo aparecem como $(9)Não Identificados$() e escondem suas descrições."
         },
         {
             "type": "patchouli:text",
             "title": "Observações",
-            "text": "Você pode trocar entre os Níveis desbloqueados a qualquer momento, a menos que um modpack tenha desabilitado mudanças manuais.$(p)Em multijogador, vários jogadores podem ter Níveis diferentes sem afetar uns aos outros. A maioria do conteúdo resolverá o Nível do jogador mais próximo."
+            "text": "Você pode alternar entre Níveis desbloqueados a qualquer momento, a menos que um modpack tenha desabilitado mudanças manuais.$(p)No multiplayer, vários jogadores podem ter Níveis diferentes sem se afetarem. A maioria do conteúdo resolverá pelo Nível do jogador mais próximo."
         }
     ]
 }

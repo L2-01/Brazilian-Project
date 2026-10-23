@@ -7,6 +7,6 @@ navigation:
 
 # Mais Bigornas
 
-Bigornas exclusivas que permitem reparar coisas sem Experiência
+Bigornas especiais que permitem reparar itens sem Experiência
 
 <SubPages />

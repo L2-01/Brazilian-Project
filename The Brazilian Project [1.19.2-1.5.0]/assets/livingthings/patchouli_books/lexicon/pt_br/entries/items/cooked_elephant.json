@@ -1,0 +1,16 @@
+{
+  "name": "Carne de Elefante Assada",
+  "icon": "livingthings:cooked_elephant",
+  "category": "livingthings:item_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(br)$(bold)Obtenção:$()$(br)pode ser obtida assando Carne de Elefante Crua"
+    },
+    {
+      "type": "spotlight",
+      "item": "livingthings:cooked_elephant",
+      "text": "$(br)$(bold)Uso:$()$(li)pode ser comida"
+    }
+  ]
+}

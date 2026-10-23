@@ -20,17 +20,17 @@ item_ids:
   <ItemImage id="amadron_process_upgrade" scale="4" />
 </Row>
 
-Processa pedidos vindos do **Terminal Sem Fio Amadron** e da **autofabricação da Rede ME**.  
-Quando um pedido entra na fila, a estação envia uma solicitação de drone ao Centro de Compras Amadron a cada 200 tiques de jogo.
+Processa pedidos vindos do **Terminal Sem Fio Amadron** e da **autofabricação da rede ME**.
+Quando um pedido entra na fila, a estação envia uma solicitação de drone ao centro de compras Amadron a cada 200 tiques do jogo.
 
-Os drones da empresa Amadron chegarão para coletar recursos e entregar as mercadorias.  
-Cada drone lida apenas com um único tipo de pedido.
+Os drones da empresa Amadron chegarão para coletar recursos e entregar as mercadorias.
+Cada drone lida com apenas um tipo de pedido.
 
-Durante esse processo, você deve sempre garantir que o topo da estação esteja **desobstruído**; caso contrário, os drones Amadron podem se recusar a aterrissar.  
+Durante esse processo, você deve sempre garantir que o topo da estação esteja **desobstruído**; caso contrário, os drones Amadron podem se recusar a descer.
 Se isso acontecer, sua estação de processamento ficará entupida de recursos e exigirá limpeza manual.
 
-Se a estação de processamento for destruída enquanto a fila de pedidos não estiver vazia, todos os recursos de pedidos incompletos serão devolvidos à Rede ME.  
-Se a Rede ME estiver indisponível ou sem espaço suficiente, os recursos restantes serão ejetados como itens largados.
+Se a estação de processamento for destruída enquanto a fila de pedidos não estiver vazia, todos os recursos de pedidos não concluídos serão devolvidos à rede ME.
+Se a rede ME estiver indisponível ou sem espaço suficiente, os recursos restantes serão ejetados como itens no chão.
 
-## Cartões de Upgrade Disponíveis
-- **Cartão de Aceleração**: Aumenta tanto o número máximo de drones disponíveis por envio quanto o número máximo de pedidos que cada drone pode processar.
+## Cartões de Melhoria Disponíveis
+- **Cartão de Aceleração**: Aumenta tanto o número máximo de drones disponíveis por despacho quanto o número máximo de pedidos que cada drone pode processar.

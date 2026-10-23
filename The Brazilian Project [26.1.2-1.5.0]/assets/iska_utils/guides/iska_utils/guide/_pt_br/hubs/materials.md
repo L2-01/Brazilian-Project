@@ -5,11 +5,11 @@ navigation:
   parent: index.md
   position: 13
 categories:
-  - Materiais
+  - Materials
 ---
 # Materiais
 
-Intermediários e materiais processados usados por todo o mod.
+Intermediários e materiais processados usados em todo o mod.
 
 
 <SubPages icons={true} alphabetical={true} />

@@ -1,0 +1,16 @@
+{
+  "name": "Fungos do Nether",
+  "icon": "minecraft:nether_wart",
+  "category": "enchanted:cauldron",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Embora caros, fungos do nether podem ser sintetizados num caldeirão caso a Bruxa não consiga encontrá-los por meios normais.$(br2)Não é recomendado fazer isso, pois é caro e ineficaz."
+    },
+    {
+      "type": "enchanted:cauldron_recipe",
+      "recipe": "enchanted:witch_cauldron/nether_wart"
+    }
+  ],
+  "read_by_default": true
+}

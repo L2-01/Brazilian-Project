@@ -7,19 +7,19 @@ navigation:
 
 # Gerador de Pedregulho Autorregulado
 
-Automatizar um gerador de pedregulho é simples: basta apontar um <ItemLink id="annihilation_plane" /> para um gerador de pedregulho manual vanilla
-padrão. No entanto, fazer isso eventualmente entupirá sua rede de pedregulho, então alguma regulação
+Automatizar um gerador de pedregulho é simples: basta apontar um <ItemLink id="annihilation_plane" /> para um gerador de pedregulho
+manual padrão do vanilla. Porém, fazer isso acabará enchendo sua rede de pedregulho, então alguma regulação
 é desejável.
 
-Devido a como os planos de aniquilação funcionam (eles agem como <ItemLink id="import_bus" />s), não podemos simplesmente colocar um <ItemLink id="level_emitter" />
-apontado para um <ItemLink id="export_bus" /> com um <ItemLink id="redstone_card" /> (já que não se pode ir direto de importação para exportação
-sem armazenamento no meio). Temos que ser um pouco mais indiretos.
+Devido a como os planos de aniquilação funcionam (eles agem como <ItemLink id="import_bus" />es), não podemos simplesmente colocar um <ItemLink id="level_emitter" />
+apontado para um <ItemLink id="export_bus" /> com um <ItemLink id="redstone_card" /> (já que não dá para ir direto da importação para a exportação
+sem armazenamento no meio). Precisamos de um caminho um pouco mais indireto.
 
-<ItemLink id="toggle_bus" />s permitem conectar e desconectar partes da sua rede com sinais de redstone, mas eles fazem
-a rede reiniciar sempre que fazem isso. Há uma solução simples: coloque o ponto interruptor numa [sub-rede](../ae2-mechanics/subnetworks.md)
+Os <ItemLink id="toggle_bus" />es permitem conectar e desconectar partes da sua rede com sinais de redstone, mas eles fazem
+a rede reiniciar toda vez que fazem isso. Há uma solução simples: coloque o ponto interruptor em uma [sub-rede](../ae2-mechanics/subnetworks.md),
 de modo que ele só reinicie a sub-rede.
 
-Podemos ter uma [sub-rede](../ae2-mechanics/subnetworks.md) autocontida de <ItemLink id="annihilation_plane" /> e <ItemLink id="storage_bus" />
+Podemos ter um <ItemLink id="annihilation_plane" /> e um <ItemLink id="storage_bus" /> autocontidos numa [sub-rede](../ae2-mechanics/subnetworks.md)
 empurrando para uma <ItemLink id="interface" /> na rede principal. O ponto interruptor conectará e desconectará a sub-rede de uma
 <ItemLink id="quartz_fiber" />, cortando a energia dos planos.
 
@@ -31,7 +31,7 @@ empurrando para uma <ItemLink id="interface" /> na rede principal. O ponto inter
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 2 2" max="2.3 3 3">
-        (2) Ponto de Armazenamento: Na sua configuração padrão.
+        (2) Ponto de Armazenamento: Em sua configuração padrão.
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 2.3 2" max="2.7 2.7 2.3">
@@ -40,11 +40,11 @@ empurrando para uma <ItemLink id="interface" /> na rede principal. O ponto inter
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 3 2.3" max="2.7 3.3 2.7">
-        (4) Emissor de Nível: Configurado com pedregulho e a quantidade desejada, definido para "Emitir quando os níveis estiverem abaixo do limite".
+        (4) Emissor de Nível: Configurado com pedregulho e a quantidade desejada, definido para "Emitir quando níveis estão abaixo do limite".
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 2 3" max="2 3 2">
-        (5) Interface: Na sua configuração padrão.
+        (5) Interface: Em sua configuração padrão.
   </BoxAnnotation>
 
 <DiamondAnnotation pos="0 2.5 1.5" color="#00ff00">
@@ -61,17 +61,17 @@ empurrando para uma <ItemLink id="interface" /> na rede principal. O ponto inter
 ## Configurações
 
 * Os <ItemLink id="annihilation_plane" />s (1) não têm GUI para configurar, mas podem ser encantados com Eficiência e Inquebrável para reduzir o consumo de energia.
-* O <ItemLink id="storage_bus" /> (2) está na sua configuração padrão.
+* O <ItemLink id="storage_bus" /> (2) está em sua configuração padrão.
 * O <ItemLink id="toggle_bus" /> (3) deve estar no lado da sub-rede da fibra de quartzo, não na rede principal, ou a rede
   principal reiniciará toda vez que ele alternar.
-* O <ItemLink id="level_emitter" /> (4) está configurado com o item e a quantidade desejados, e definido para "Emitir quando os níveis estiverem abaixo do limite".
-* A <ItemLink id="interface" /> (5) está na sua configuração padrão.
+* O <ItemLink id="level_emitter" /> (4) está configurado com o item e a quantidade desejados, e definido para "Emitir quando níveis estão abaixo do limite".
+* A <ItemLink id="interface" /> (5) está em sua configuração padrão.
 
 ## Como Funciona
 
 1. O gerador de pedregulho produz um pouco de pedregulho.
 2. Os <ItemLink id="annihilation_plane" />s quebram o pedregulho.
 3. O <ItemLink id="storage_bus" /> armazena o pedregulho na <ItemLink id="interface" />, enviando-o para a rede principal.
-4. Quando a quantidade de pedregulho na rede principal excede a quantidade definida, o <ItemLink id="level_emitter" /> para de
-   enviar sinal, desligando o <ItemLink id="toggle_bus" />.
-5. Isso corta a energia da sub-rede, impedindo os planos de aniquilação de funcionar.
+4. Quando a quantidade de pedregulho na rede principal excede a quantidade definida, o <ItemLink id="level_emitter" /> para
+   de enviar o sinal, desligando o <ItemLink id="toggle_bus" />.
+5. Isso corta a energia da sub-rede, parando o funcionamento dos planos de aniquilação.

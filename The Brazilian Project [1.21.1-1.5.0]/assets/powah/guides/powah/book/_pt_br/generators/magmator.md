@@ -18,11 +18,11 @@ item_ids:
 
 ![](./magmator.png)
 
-O Magmador é um gerador FE que gera energia a partir de fluidos de alta temperatura como o Lava. 
+O Magmador é um gerador de FE que gera energia a partir de fluidos de alta temperatura, como Lava. 
 
-Os Tiers mais altos geram mais FE/t e têm maior saida de energia, além de queimarem o combustível mais rápido e com o mesmo de ganho energia por tique de combustível. 
+Os tiers mais altos geram mais FE/t e têm maior saída de energia; além disso, queimam o combustível mais rápido com a mesma energia ganha por tique de combustível. 
 
-|                                           | Capacidade                                            | Gera                                                    | Extração Máxima                                    |
+|                                           | Capacidade                                              | Gera                                               | Extração Máx.                                        |
 | ----------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------- |
 | <ItemLink id="powah:magmator_starter" />  | <powah:EnergyCapacity id="powah:magmator_starter" />  | <powah:EnergyGeneration id="powah:magmator_starter" />  | <powah:EnergyMaxIO id="powah:magmator_starter" />  |
 | <ItemLink id="powah:magmator_basic" />    | <powah:EnergyCapacity id="powah:magmator_basic" />    | <powah:EnergyGeneration id="powah:magmator_basic" />    | <powah:EnergyMaxIO id="powah:magmator_basic" />    |

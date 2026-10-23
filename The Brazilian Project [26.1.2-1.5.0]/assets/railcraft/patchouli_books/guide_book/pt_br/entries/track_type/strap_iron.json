@@ -1,15 +1,15 @@
 {
-  "name": "Cinta de Ferro",
-  "icon": "railcraft:strap_iron_track",
-  "category": "railcraft:track_type",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "A cinta de ferro, ou tipo de trilho de madeira, se destaca pelo seu limite de velocidade extremamente lento — apenas 30% do tipo de trilho de ferro. Este tipo de trilho é feito com trilhos de madeira e leitos de trilho de madeira."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Trilhos de cinta de ferro requerem bem menos ferro e um pouco mais de madeira e creosoto que trilhos de ferro. Em geral, é melhor construir este tipo de trilho quando você está com pouco ferro. Outros usos recomendados incluem passeios panorâmicos e aplicações de tempo de precisão."
-    }
-  ]
+    "name": "Cinta de Ferro",
+    "icon": "railcraft:strap_iron_track",
+    "category": "railcraft:track_type",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O tipo de trilho de cinta de ferro, ou trilho de madeira, se destaca pelo limite de velocidade extremamente baixo — apenas 30% total do tipo de trilho de ferro. Esse tipo de trilho é feito com carris de madeira e lastros de madeira."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Trilhos de cinta de ferro exigem bem menos ferro e um pouco mais de madeira e creosoto que trilhos de ferro. Em geral, é melhor construir esse tipo de trilho quando você está com pouco ferro. Outros usos recomendados incluem passeios cênicos e aplicações de cronometragem de precisão."
+        }
+    ]
 }

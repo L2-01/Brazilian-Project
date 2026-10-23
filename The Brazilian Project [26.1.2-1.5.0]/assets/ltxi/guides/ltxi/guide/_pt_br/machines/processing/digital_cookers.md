@@ -1,6 +1,6 @@
 ---
 navigation:
-    title: Cocção Digital
+    title: Culinária Digital
     icon: digital_furnace
     parent: machines/processing/index.md
     position: 100
@@ -10,7 +10,7 @@ item_ids:
   - digital_blast_furnace
 ---
 
-# Máquinas de Cocção Digitais
+# Máquinas de Culinária Digital
 
 <Row>
 <BlockImage id="digital_furnace" scale="3" />
@@ -19,11 +19,11 @@ item_ids:
 </Row>
 
 ## Sobre
-O trio de Máquinas de Cocção Digitais consiste no **Forno Digital**, no **Defumador Digital** e no **Alto-Forno Digital**.
-Como você pode imaginar pelos nomes, são variantes de máquinas LTX [melhoráveis](../../fundamentals/upgrade_system.md)
-dos blocos de cocção do jogo base.
+O trio de Máquinas de Culinária Digital consiste no **Forno Digital**, no **Defumador Digital** e no **Alto-Forno Digital**.
+Como dá para adivinhar pelos nomes, são variantes de máquina LTX com suporte a
+[melhorias](../../fundamentals/upgrade_system.md) dos blocos de cozimento do jogo base.
 
-## Especificação de Receita
-- Tempo base de fabricação: Varia. Usa os tempos de cocção das receitas vanilla.
+## Especificação da Receita
+- Tempo base de fabricação: Varia. Usa os tempos de cozimento das receitas vanilla.
 - Entradas: 1 item
 - Saídas: 1 item

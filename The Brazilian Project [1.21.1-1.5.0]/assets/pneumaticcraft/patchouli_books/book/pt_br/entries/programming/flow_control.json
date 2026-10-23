@@ -6,20 +6,20 @@
   "pages": [
     {
       "type": "text",
-      "text": "Quando um $(l:tools/drone)Drone/$ é implantado, ele começa imediatamente a executar seu programa armazenado. O fluxo de execução ocorre da seguinte forma:$(li)O programa $(italic)sempre/$ começa no widget $(l:programming/start)Início/$, do qual só pode haver um.$(li)O fluxo normalmente prossegue $(italic)para baixo/$; para o widget conectado à parte de baixo do widget atual."
+      "text": "Quando um $(l:tools/drone)Drone/$ é posicionado, ele imediatamente começa a executar seu programa armazenado. O fluxo de execução ocorre da seguinte forma:$(li)O programa $(italic)sempre/$ começa no widget $(l:programming/start)Início/$, do qual só pode haver um.$(li)O fluxo normalmente prossegue $(italic)para baixo/$; para o widget conectado à parte de baixo do widget atual."
     },
     {
       "type": "text",
-      "text": "$(li)Um widget executa sua operação até decidir que $(italic)terminou/$ - a definição de 'terminou' varia de widget para widget e está descrita nas páginas de cada widget individual.$(li)Quando não há widget conectado à parte de baixo do widget atual, a execução retorna ao widget $(l:programming/start)Início/$.$(p)Esses são os fundamentos. Há alguns casos especiais, porém, descritos a seguir..."
+      "text": "$(li)Um widget executa sua operação até decidir que está $(italic)concluído/$ — a definição de 'concluído' varia de widget para widget e é descrita nas páginas de cada widget individual.$(li)Quando não há widget conectado abaixo do widget atual, a execução retorna ao widget $(l:programming/start)Início/$.$(p)Esses são os fundamentos. Há alguns casos especiais, no entanto, descritos a seguir..."
     },
     {
       "type": "text",
       "title": "Widgets de Controle de Fluxo",
-      "text": "$(li)O widget $(l:programming/label)Rótulo/$ funciona como um ponto no programa para o qual se pode pular.$(li)O widget $(l:programming/jump)Pulo/$ dispara um pulo imediato e incondicional para um widget $(thing)Rótulo/$ correspondente.$(li)Os widgets $(l:programming/conditions)Condição/$ podem disparar um pulo, com base na condição que estão testando.$(li)Os widgets avançados $(l:programming/for_each_item)Para Cada Item/$ e $(l:programming/for_each_coordinate)Para Cada Coordenada/$ pulam repetidamente para um $(thing)Rótulo/$, para sua lista de entradas."
+      "text": "$(li)O widget $(l:programming/label)Rótulo/$ funciona como um ponto do programa para o qual saltar.$(li)O widget $(l:programming/jump)Pulo/$ dispara um salto imediato e incondicional para um widget de $(thing)Rótulo/$ correspondente.$(li)Widgets de $(l:programming/conditions)Condição/$ podem disparar um salto, com base na condição que estão testando.$(li)Os widgets avançados $(l:programming/for_each_item)Para Cada Item/$ e $(l:programming/for_each_coordinate)Para Cada Coordenada/$ saltam repetidamente para um $(thing)Rótulo/$, para sua lista de entradas."
     },
     {
       "type": "text",
-      "text": "Existem mais alguns widgets especiais que afetam o controle de fluxo:$(li)O widget $(l:programming/standby)Em Espera/$, que coloca o drone para 'dormir' até que outro widget realmente tenha algo para fazer.$(li)O widget $(l:programming/suicide)Autodestruição/$, que derruba o $(thing)Drone/$ como item, terminando a execução imediatamente."
+      "text": "Existem mais alguns widgets especiais, que afetam o controle de fluxo:$(li)O widget $(l:programming/standby)Em Espera/$, que põe o drone para dormir até que outro widget realmente tenha algo a fazer.$(li)O widget $(l:programming/suicide)Suicídio/$, que derruba o $(thing)Drone/$ como item, terminando a execução imediatamente."
     }
   ]
 }

@@ -1,27 +1,17 @@
 {
-
-"name": "Receita de Fabricação do Livro",
-    "icon": "merrymaking:merrymanual",
-    "category": "merrymaking:book",
-    "pages": [
-	
-		{
-			"type": "spotlight",
-			"item": "merrymaking:merrymanual",			
-			"text": "Se você perder este livro ou precisar fazer outro por qualquer motivo, basta: 1 livro, 1 corante verde e uma bengala doce."
-		},			
-		
-		{
-			"type": "crafting",
-			"title": "Manual do Criador Alegre",
-			"recipe": "merrymaking:merrymanual_recipe"
-		}
-		
-		
-		
-		
-		
-		]
-	
-	
+  "name": "Receita de Fabricação do Livro",
+  "icon": "merrymaking:merrymanual",
+  "category": "merrymaking:book",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "merrymaking:merrymanual",
+      "text": "Se você perder este livro, ou precisar fazer outro por qualquer motivo, basta: 1 livro, 1 corante verde e uma bengala doce."
+    },
+    {
+      "type": "crafting",
+      "title": "Manual do Criador Alegre",
+      "recipe": "merrymaking:merrymanual_recipe"
+    }
+  ]
 }

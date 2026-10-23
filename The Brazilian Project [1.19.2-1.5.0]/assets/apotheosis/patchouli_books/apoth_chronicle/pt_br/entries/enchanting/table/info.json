@@ -1,0 +1,64 @@
+{
+    "name": "O Menu de Informações",
+    "icon": "apotheosis:textures/gui/book/question_mark.png",
+    "category": "apotheosis:enchanting/table",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A mesa de encantamentos tem uma tela útil para você aprender quais encantamentos estão disponíveis.$(p)Para acessá-la, coloque um item na mesa de encantamentos e clique no ponto de interrogação no canto superior direito."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O objetivo deste capítulo é apresentar essa tela e ajudá-lo a navegá-la.$(p)Se você entendê-la por completo, nunca mais ficará confuso ao encantar."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "O Seletor de Espaço",
+            "images": [
+                "apotheosis:textures/gui/book/slot_selector.png"
+            ],
+            "text": "Permite selecionar qual espaço de encantamento inspecionar."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O espaço selecionado ficará destacado, e os espaços indisponíveis ficarão acinzentados.$(p)Passar o mouse sobre o espaço mostrará o nível, o $(4)Poder Mínimo$() e o $(9)Poder Máximo$()."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Janela de Encantamentos",
+            "images": [
+                "apotheosis:textures/gui/book/enchantments_window.png"
+            ],
+            "text": "Mostra quais encantamentos estão disponíveis."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Dado o item atual e o nível de poder selecionado, um certo conjunto de encantamentos fica disponível.$(p)Esta janela mostra cada encantamento, seu nível, raridade e chance de ser selecionado.$(p)Também mostra quais encantamentos são exclusivos entre si."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "O Controle Deslizante de Poder",
+            "images": [
+                "apotheosis:textures/gui/book/power_slider.png"
+            ],
+            "text": "Permite alterar o nível de poder simulado."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Ao selecionar um espaço, o Controle Deslizante de Poder seleciona automaticamente o nível de poder bem no meio do intervalo.$(p)O controle só pode descer até o $(4)Poder Mínimo$() e subir até o $(9)Poder Máximo$() do espaço atual."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Pesos de Raridade",
+            "images": [
+                "apotheosis:textures/gui/book/weights.png"
+            ],
+            "text": "Mostra o peso de cada raridade."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Todo encantamento tem uma raridade, e cada raridade tem um peso.$(p)A chance de selecionar um encantamento é seu peso individual dividido pelo total (da soma dos pesos de todos os encantamentos disponíveis).$(p)A $(arcana) pode alterar os pesos de raridade."
+        }
+    ]
+}

@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Com este widget você pode fazer um $(l:tools/drone)Drone/$ emitir um $(#f00)sinal de redstone/$. Você pode especificar os lados pelos quais ele emite $(thing)clicando com o botão direito/$ no widget e configurando na GUI de configuração. O nível do sinal de redstone a emitir é especificado anexando um widget $(l:programming/text)Texto/$ com um número (de 0 - 15)."
+      "text": "Com este widget você pode fazer um $(l:tools/drone)Drone/$ emitir um $(#f00)sinal de redstone/$. Você pode especificar os lados de onde ele emite $(thing)clicando com o botão direito/$ no widget e configurando na GUI de setup. O nível do sinal de redstone a emitir é especificado anexando um widget de $(l:programming/text)Texto/$ com um número nele (de 0 a 15)."
     },
     {
       "type": "image",

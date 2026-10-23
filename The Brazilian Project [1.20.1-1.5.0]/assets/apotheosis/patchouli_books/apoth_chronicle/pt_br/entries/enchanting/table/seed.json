@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Tudo no encantamento (e em algumas outras mecânicas) é baseado na sua $(9)Semente de Encantamento$().$(p)A semente muda sempre que você encanta um item numa mesa de encantamentos."
+            "text": "Tudo no encantamento (e em algumas outras mecânicas) se baseia na sua $(9)Semente de Encantamento$().$(p)A semente muda sempre que você encanta um item em uma mesa de encantamentos."
         },
         {
             "type": "patchouli:text",
-            "text": "A menos que sua semente mude, todos os resultados aleatórios baseados na semente permanecerão os mesmos.$(p)Por exemplo, quais encantamentos são selecionados para um slot específico é um resultado aleatório baseado na semente."
+            "text": "Enquanto sua semente não mudar, todos os resultados aleatórios baseados nela permanecerão os mesmos.$(p)Por exemplo, quais encantamentos são selecionados para um espaço específico é um resultado aleatório baseado na semente."
         }
     ]
 }

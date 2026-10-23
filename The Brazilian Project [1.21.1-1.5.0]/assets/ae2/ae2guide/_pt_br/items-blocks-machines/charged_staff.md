@@ -14,10 +14,10 @@ item_ids:
 
 <ItemImage id="charged_staff" scale="4" />
 
-O Cajado Carregado é um graveto com um <ItemLink id="charged_certus_quartz_crystal" /> na ponta. Ele causa 6 de dano, usando 300 AE
+O Cajado Carregado é um bastão com um <ItemLink id="charged_certus_quartz_crystal" /> na ponta. Ele causa 6 de dano, usando 300 AE
 por ataque.
 
-Sua energia pode ser recarregada num <ItemLink id="charger" />.
+Sua energia pode ser recarregada em um <ItemLink id="charger" />.
 
 ## Receita
 

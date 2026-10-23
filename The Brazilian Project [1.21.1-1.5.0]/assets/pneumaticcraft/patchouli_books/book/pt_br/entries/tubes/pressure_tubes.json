@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Tubos de Pressão são o dispositivo principal do $(pncr) para transportar ar comprimido entre compressores e máquinas.$(p)Tubos desconectados vazam ar! Porém, os lados de um tubo podem ser alternados entre aberto e fechado clicando com o botão direito com uma $(l:tools/pneumatic_wrench)Chave-Inglesa Pneumática/$. Chaves de outros mods também podem funcionar."
+      "text": "Tubos de Pressão são o principal dispositivo no $(pncr) para transportar ar comprimido entre compressores e máquinas.$(p)Tubos desconectados vazam ar! Porém, os lados de um tubo podem ser abertos ou fechados clicando com o botão direito usando uma $(l:tools/pneumatic_wrench)Chave-Inglesa Pneumática/$. Chaves de outros mods também podem funcionar."
     },
     {
       "type": "image",
@@ -20,15 +20,15 @@
     },
     {
       "type": "text",
-      "text": "Tubos de Pressão podem ser equipados com $(l:tubes/tube_modules)Módulos de Tubo/$, componentes anexáveis que adicionam vários tipos de funcionalidade ao tubo. Veja as páginas individuais de cada módulo para mais informações.$(p)Tubos de Pressão podem ser ocultados com um $(l:tools/camo_applicator)Aplicador de Camuflagem/$."
+      "text": "Tubos de Pressão podem receber $(l:tubes/tube_modules)Módulos de Tubo/$, componentes acopláveis que adicionam vários tipos de funcionalidade ao tubo. Veja as páginas individuais de cada módulo para mais informações.$(p)Tubos de Pressão podem ser ocultados com um $(l:tools/camo_applicator)Aplicador de Camuflagem/$."
     },
     {
       "type": "text",
-      "text": "Há três $(l:base_concepts/pressure_tiers)níveis/$ de tubo:$(br)$(li)Tubos de nível 1 podem conter até 5 bar de pressão e têm capacidade de 1000mL de ar.$(li)Tubos de nível 1,5 (Reforçados) suportam até 10 bar de pressão e também têm capacidade de 1000mL.$(li)Tubos de nível 2 (Avançados) suportam até 20 bar de pressão e têm capacidade de 4000mL de ar."
+      "text": "Há três $(l:base_concepts/pressure_tiers)níveis/$ de tubo:$(br)$(li)Tubos de nível 1 comportam até 5 bar de pressão e têm capacidade de 1000mL de ar.$(li)Tubos de nível 1.5 (Reforçados) comportam até 10 bar de pressão e também têm capacidade de 1000mL.$(li)Tubos de nível 2 (Avançados) comportam até 20 bar de pressão e têm capacidade de 4000mL de ar."
     },
     {
       "type": "crafting",
-      "text": "Fabricando um Tubo de Pressão",
+      "text": "Fabricando Tubo de Pressão",
       "recipe": "pneumaticcraft:pressure_tube"
     },
     {

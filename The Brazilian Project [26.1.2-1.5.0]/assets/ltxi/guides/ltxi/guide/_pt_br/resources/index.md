@@ -7,7 +7,7 @@ navigation:
 
 # Materiais e Recursos
 
-Há muitos recursos naturais para você descobrir na LTX Industries. Alguns você poderá encontrar na natureza, mas
-a maioria você terá que refinar ou até fazer do zero.
+Há muitos recursos naturais para você descobrir na LTX Industries. Alguns você poderá achar na natureza, mas a maioria
+você terá que refinar ou até mesmo fazer do zero.
 
 <SubPages />

@@ -2,18 +2,18 @@
     "name": "Pressa",
     "icon": "minecraft:textures/mob_effect/haste.png",
     "category": "apotheosis:potion/recipes",
-	"flag": "apotheosis:potion",
-	"sortnum": 1,
+    "flag": "apotheosis:potion",
+    "sortnum": 1,
     "pages": [
         {
             "type": "patchouli:text",
             "text": "$(9)Pressa$() é outro efeito útil que não tem receita no vanilla.$(p)Cada nível dá +20% de velocidade de mineração."
         },
-		{
+        {
             "type": "patchouli:spotlight",
-			"title": "Receita de Preparo",
-			"item": "minecraft:mushroom_stew",
-            "text": "Esta poção pode ser fabricada com uma Poção Estranha e um Ensopado de Cogumelos.$(p)Ela pode ser prolongada, fortalecida ou transformada numa poção de arremesso com os ingredientes habituais."
+            "title": "Receita de Preparo",
+            "item": "minecraft:mushroom_stew",
+            "text": "Esta poção pode ser fabricada com uma Poção Esquisita e um Ensopado de Cogumelos.$(p)Pode ser prolongada, fortalecida ou transformada em poção arremessável com os ingredientes usuais."
         }
-	]
+    ]
 }

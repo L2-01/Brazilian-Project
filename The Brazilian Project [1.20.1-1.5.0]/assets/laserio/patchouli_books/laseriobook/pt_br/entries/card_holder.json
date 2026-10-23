@@ -1,29 +1,29 @@
 {
-  "name": "Porta-Cartões",
-  "icon": "laserio:card_holder",
-  "sortnum": 2,
-  "category": "laserio:items",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "O porta-cartões é a solução para todos os seus problemas de inventário! Pelo menos, os causados por este mod....Simplesmente fabrique um Porta-Cartões e clique com o botão direito nele para abrir a UI. Cartões colocados nesta UI podem empilhar até 64, desde que seus dados NBT correspondam. (Lembrete: Você pode fabricar os cartões sozinhos para redefinir seu NBT)"
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Os cartões podem ser modificados de dentro do porta-cartões — clicando com o botão direito numa pilha de cartões (Assim como num nó a laser).$(br2)NOTA: Se o tamanho da pilha do cartão for maior que 1, isso desabilitará os espaços de Filtro e Overclocker para prevenir duplicação de itens. #CulpemOSoaryn"
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Segurando shift e clicando com o botão direito no Porta-cartões, ele começará a puxar cartões automaticamente do seu inventário! Você sabe que isso está ativado porque o porta-cartões começa a brilhar como se estivesse encantado. Shift+clique direito novamente para desligar. Se você tiver o porta-cartões no seu inventário ao abrir um nó, verá os cartões dele exibidos"
-    },
-    {
-      "type": "patchouli:text",
-      "text": "NOTA: Filtros e Overclockers agora podem ser armazenados no porta-cartões!  Filtros só serão adicionados automaticamente ao porta-cartões se não tiverem dados armazenados. Fabrique-os sozinhos para limpar quaisquer dados salvos.$(br2)Filtros com dados armazenados ainda podem ser adicionados manualmente ao porta-cartões."
-    },
-    {
-      "type": "patchouli:crafting",
-      "title": "Porta-Cartões",
-      "recipe": "laserio:card_holder"
-    }
-  ]
+    "name": "Porta-Cartões",
+    "icon": "laserio:card_holder",
+    "sortnum": 2,
+    "category": "laserio:items",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O porta-cartões é a solução para todos os seus problemas de inventário! Pelo menos, os causados por este mod... Simplesmente fabrique um Porta-Cartões e clique com o botão direito para abrir a interface. Cartões colocados nesta interface podem empilhar até 64, desde que seus dados NBT correspondam. (Lembrete: você pode fabricar cartões sozinhos para resetar seu NBT)"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Cartões podem ser modificados de dentro do porta-cartões — clicando com o botão direito numa pilha de cartões (igual num nó a laser).$(br2)NOTA: Se o tamanho da pilha do cartão for maior que 1, os espaços de Filtro e Overclocker serão desativados para prevenir duplicação de itens. #CulpeoSoaryn"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Ao segurar shift e clicar com o botão direito no Porta-Cartões, ele começará a puxar cartões automaticamente do seu inventário! Você saberá que está ativado porque o porta-cartões começa a brilhar como se estivesse encantado. Shift+clique direito novamente para desativar. Se você tiver o porta-cartões no seu inventário ao abrir um nó, verá seus cartões exibidos"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "NOTA: Filtros e Overclockers agora podem ser guardados no porta-cartões! Os filtros só serão adicionados automaticamente ao porta-cartões se não tiverem dados armazenados. Fabrique-os sozinhos para limpar qualquer dado salvo.$(br2)Filtros com dados armazenados ainda podem ser adicionados manualmente ao porta-cartões."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Porta-Cartões",
+            "recipe": "laserio:card_holder"
+        }
+    ]
 }

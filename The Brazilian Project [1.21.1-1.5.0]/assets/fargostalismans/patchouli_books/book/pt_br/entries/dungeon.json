@@ -6,33 +6,36 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A Masmorra do Fargo, localizada no Nether, é o único lugar para obter Energia Abominável, um dos componentes essenciais de fabricação das Bases de Talismã. Ela pode ser saqueada de baús nesta masmorra."
+      "text": "A Masmorra de Fargo, localizada no Nether, é o único lugar para obter Energia Abominável, um dos componentes de fabricação essenciais para as Bases de Talismã.  Elas podem ser saqueadas de baús nesta masmorra."
     },
     {
       "type": "patchouli:image",
-      "images": ["fargostalismans:textures/images/dungeon2_256.png","fargostalismans:textures/images/dungeon_256.png"],
+      "images": [
+        "fargostalismans:textures/images/dungeon2_256.png",
+        "fargostalismans:textures/images/dungeon_256.png"
+      ],
       "text": "Uma pequena amostra da aparência da masmorra."
     },
     {
       "title": "Itens Saqueados",
       "type": "patchouli:text",
-      "text": "Os baús têm chance de conter um item de fabricação usado na Alma do Colosso."
+      "text": "Baús têm chance de conter um item de fabricação usado na Alma do Colosso."
     },
     {
       "type": "patchouli:spotlight",
       "item": "fargostalismans:soul_of_colossus",
-      "text": "A alma é fabricada usando itens encontrados nos baús da Masmorra do Fargo.",
+      "text": "A alma é fabricada usando itens encontrados em baús da Masmorra de Fargo.",
       "link_recipe": true
     },
     {
-      "title": "Itens Coletados",
+      "title": "Itens de Criaturas",
       "type": "patchouli:text",
-      "text": "Zumbis, esqueletos, creepers e aranhas têm 5% de chance de derrubar um item usado na Alma do Supersônico. O encantamento Saque adiciona 2% por nível. Os itens largados são aleatórios, então você pode obter itens repetidos."
+      "text": "Zumbis, Esqueletos, Creepers e Aranhas têm 5% chance de largar um item usado na Alma do Supersônico.  Saque adiciona 2% fixo por nível.  Os drops são aleatórios, então podem vir repetidos."
     },
     {
       "type": "patchouli:spotlight",
       "item": "fargostalismans:soul_of_supersonic",
-      "text": "A alma é fabricada usando itens derrubados por criaturas dentro da Masmorra do Fargo.",
+      "text": "A alma é fabricada usando itens largados por criaturas dentro da Masmorra de Fargo.",
       "link_recipe": true
     }
   ],

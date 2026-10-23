@@ -1,0 +1,27 @@
+{
+  "name": "Blaze Ancestral",
+  "icon": "livingthings:ancient_blaze_spawn_egg",
+  "category": "livingthings:hostile_mobs_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Outro chefe do Nether!$(br2)$(bold)Vida: $()125 Corações$(br)$(bold)Dano de Ataque: $()3 Corações$(br2)$(bold)Ataques: $()$(li)6 Bolas de Fogo Grandes$(li)\u221e Bolas de Fogo Pequenas"
+    },
+    {
+      "type": "entity",
+      "entity": "livingthings:ancient_blaze{Shoots:6}",
+      "rotate": false,
+      "scale": 1.0,
+      "default_rotation": 35,
+      "text": "pode ser criado com um ritual (próxima página)"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Invocação$()$(br2)Para invocar o blaze ancestral, você precisa colocar uma$(br)Abóbora de Halloween em cima de dois blocos de pedra luminosa.$(br2)Uma vez invocado, o blaze ancestral ficará invulnerável até carregar suas 6 bolas de fogo grandes.$(br2)A quantidade de bolas de fogo grandes pode ser vista pela quantidade de bastões voando ao redor."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Morte$()$(br2)Ao morrer, ele largará seu capacete.$(br2)O blaze ancestral gerará 4 blazes normais para vingar sua morte."
+    }
+  ]
+}

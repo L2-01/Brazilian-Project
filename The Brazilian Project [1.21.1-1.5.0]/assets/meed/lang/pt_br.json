@@ -135,7 +135,7 @@
     "effect.simplyswords.fatal_flicker": "Clarão Fatal",
     "effect.simplyswords.fatal_flicker.description": "Reinicia a recarga da habilidade de avanço do Whisperwind.",
 
-    "effect.mutantmonsters.chemical_x.description": "50% de chance de se transformar em uma criatura mutante ao fim do efeito (se disponível). Caso contrário, morte. Não afeta jogadores.",
+    "effect.mutantmonsters.chemical_x.description": "50% chance de se transformar em uma criatura mutante ao fim do efeito (se disponível). Caso contrário, morte. Não afeta jogadores.",
 
     "effect.enderzoology.displacement.description": "Teleporta para um lugar aleatório próximo. Tem chance de gerar um endermite.",
 
@@ -337,7 +337,7 @@
     "effect.monobank.thief.description": "Impede o usuário de negociar com aldeões e chama a polícia nele (Golems de Ferro ficarão agressivos).",
 
     "effect.born_in_chaos_v1.magic_depletion.description": "Impede o usuário de usar certas magias.",
-    "effect.born_in_chaos_v1.stun.description": "Diminui a velocidade de movimento em 90% e o dano de ataque em 8.",
+    "effect.born_in_chaos_v1.stun.description": "Diminui em 90% a velocidade de movimento e o dano de ataque em 8.",
     "effect.born_in_chaos_v1.light_rampage.description": "Aumenta velocidade de movimento e dano de ataque.",
     "effect.born_in_chaos_v1.medium_rampage.description": "Aumenta mais a velocidade de movimento e o dano de ataque.",
     "effect.born_in_chaos_v1.strong_rampage.description": "Aumenta a velocidade de movimento e o dano de ataque ao máximo.",
@@ -372,7 +372,7 @@
     "effect.born_in_chaos_v1.fish_breath.description": "Fedido.",
     "effect.born_in_chaos_v1.aim.description": "O Lorde Cabeça-de-Abóbora está vindo...",
 
-    "effect.seasonals.rooted.description": "Concede 100% de Resistência a Repulsão, mais pontos de armadura e impede saltos.",
+    "effect.seasonals.rooted.description": "Concede 100% Knockback — resistência a repulsão —, mais pontos de armadura e impede saltos.",
     "effect.seasonals.stuffed.description": "Desativa o consumo de comida, e a fome e a saturação encherão rapidamente. Ao fim do efeito, toda a fome e saturação se perderão rapidamente.",
 
     "effect.unusualprehistory.prevent_click.description": "Impede o usuário de fazer ações com as mãos, exceto minerar.",
@@ -466,7 +466,7 @@
     "effect.terramity.misprogrammed.description": "Faz o dano causado não dar invulnerabilidade à vítima.",
     "effect.terramity.ocarina_playing.description": "Indica que as partituras na ocarina do usuário acionarão seus efeitos ao fim do efeito.",
     "effect.terramity.mortal_flight.description": "Concede ao usuário a habilidade de voar como se tivesse uns élitros.",
-    "effect.terramity.resourceful_rounds.description": "Concede ao usuário a habilidade de economizar munição ao recarregar. Cada nível adiciona mais 10% de chance de acionar.",
+    "effect.terramity.resourceful_rounds.description": "Concede ao usuário a habilidade de economizar munição ao recarregar. Cada nível adiciona mais 10% mais chance de acionar.",
 
     "effect.vinery.trading.description": "Concede ao usuário 10% de desconto nas trocas com aldeões.",
     "effect.vinery.shiraaz_effect.description": "Efeito não utilizado.",
@@ -625,7 +625,7 @@
     "effect.biomancy.drowsy.description": "Reinicia o contador de insônia e impede fantasmas de atacarem/mirarem o usuário.",
     "effect.biomancy.libido.description": "Faz animais se reproduzirem repetidamente em pouco tempo. Mas use com cautela! Pode levar a mutações indesejáveis na prole...",
     "effect.biomancy.frenzy.description": "Aumenta velocidade de movimento, velocidade de ataque e dano de ataque. Aumenta hostilidade e agressão em criaturas. Transforma coelhos no Coelho Assassino. Causa abstinência ao fim do efeito.",
-    "effect.biomancy.withdrawal.description": "Diminui velocidade de movimento, velocidade de ataque e dano de ataque. Inflige náusea. Tente comer algumas comidas açucaradas ou tomar mais dru- quer dizer, “Soro de Frenesi” para anulá-la!",
+    "effect.biomancy.withdrawal.description": "Diminui velocidade de movimento, velocidade de ataque e dano de ataque. Inflige náusea. Tente comer algumas comidas açucaradas ou tomar mais dru- quer dizer, \"Soro de Frenesi\" para anulá-la!",
     "effect.biomancy.primordial_infestation.description": "Faz o usuário usar a fonte Caro Invitica no chat, na bigorna ao renomear itens e etiquetas, e ao editar placas. Ao morrer, veias e blocos malignos se espalharão do local da morte.",
 
     "effect.ars_additions.marked.description": "Indica que o usuário está atado a um Relicário, que contém uma referência a ele.",
@@ -646,7 +646,7 @@
     "effect.trials.winded.description": "Emite uma rajada de vento ao morrer.",
     "effect.trials.weaving.description": "Gera 2-3 teias ao morrer.",
     "effect.trials.oozing.description": "Gera 2 slimes ao morrer.",
-    "effect.trials.infested.description": "Tem 10% de chance de gerar 1-2 traças quando o usuário é atingido.",
+    "effect.trials.infested.description": "Tem 10% chance de gerar 1-2 traças quando o usuário é atingido.",
 
     "effect.hearthandharvest.pungent.description": "Repele a maioria das criaturas.",
     "effect.hearthandharvest.tempting.description": "Atrai algumas criaturas.",
@@ -703,14 +703,14 @@
 
     "effect.terra_curio.confused.description": "Inverte os controles de jogadores e faz criaturas se moverem na direção oposta à pretendida.",
     "effect.terra_curio.gravitation.description": "Inverte a gravidade quando a tecla de seta para cima é pressionada.",
-    "effect.terra_curio.paladins_shield.description": "Absorve 25% do dano feito a jogadores da equipe do usuário quando acima de 25% de vida.",
+    "effect.terra_curio.paladins_shield.description": "Absorve 25% do dano feito a jogadores da equipe do usuário quando acima de 25% hp.",
     "effect.terra_curio.cerebral_mindtrick.description": "Impede o usuário de esquivar outro ataque e aumenta a chance de crítico.",
     "effect.terra_curio.honey.description": "Aumenta a regeneração de vida.",
 
     "effect.kaleidoscope_cookery.hinder.description": "Inflige lentidão aos alvos quando o usuário os atinge.",
     "effect.kaleidoscope_cookery.projectile_dodge.description": "Anula o dano e teleporta o usuário para um local aleatório próximo quando atingido por um projétil (cada vez usa 10 segundos da duração do efeito).",
     "effect.kaleidoscope_cookery.instant_smelting.description": "Funde minério cru em sua versão fundida ao obtê-lo de blocos de minério minerados.",
-    "effect.kaleidoscope_cookery.vitality.description": "Faz abates gerarem o filhote correspondente no local da morte da criatura (Zumbis Adultos têm 5% de chance de gerar adicionalmente um Aldeão Filhote).",
+    "effect.kaleidoscope_cookery.vitality.description": "Faz abates gerarem o filhote correspondente no local da morte da criatura (Zumbis Adultos têm 5% chance de gerar adicionalmente um Aldeão Filhote).",
 
     "effect.netherdepthsupgrade.lava_vision.description": "Concede ao usuário a habilidade de ver na lava.",
 

@@ -14,12 +14,12 @@ item_ids:
 
 ## Sobre
 
-Esta fundição digital de alta temperatura pode ligar metais e outros compósitos elementais como luzes de neon à base de fósforo.
-Ela também pode fundir pós de metal como Aço-Ardósia Revestido de Tungstênio ou Rênio, que requerem gás de proteção e muito mais calor
-do que uma fornalha comum consegue fornecer.
+Esta fundição digital de alta temperatura pode ligar metais e outros compostos elementais como luzes de neon à base de
+fósforo. Também pode fundir pós de metal como Aço-Ardósia Revestido de Tungstênio ou Rênio, que exigem gás de blindagem
+e muito mais calor do que uma fornalha comum consegue fornecer.
 
-## Especificação de Receita
+## Especificação da Receita
 
-- Tempo base de fabricação: varia, por padrão 10 segundos
+- Tempo base de fabricação: varia, 10 segundos por padrão
 - Entradas: 1-3 itens, 0-1 fluido(s)
 - Saídas: 1 item

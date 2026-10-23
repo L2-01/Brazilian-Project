@@ -1,0 +1,19 @@
+{
+  "name": "Módulo Lançador",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:flinger_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este módulo se comporta como o $(l:modules/dropper)Módulo Ejetor/$, exceto que também imprime uma velocidade configurável ao item solto, potencialmente arremessando o item a uma distância considerável. Você pode ajustar a velocidade, pitch e yaw do item via GUI do módulo.$(li)Pitch e Yaw são em graus, relativos a um pitch ou yaw base."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Se o módulo ejeta para Cima ou para Baixo, o pitch base é +90° ou -90°, respectivamente. Caso contrário, o pitch base é 0°.$(li)Se o módulo ejeta para Cima ou para Baixo, o yaw base é a direção que o roteador está virado. Caso contrário, o yaw base é tirado da direção do módulo.$(li)Exemplo: uma velocidade de 1,0, pitch/yaw de 0° e uma direção horizontal do módulo lançarão um item pelo chão por uma distância de cerca de 7 blocos."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:flinger_module"
+    }
+  ]
+}

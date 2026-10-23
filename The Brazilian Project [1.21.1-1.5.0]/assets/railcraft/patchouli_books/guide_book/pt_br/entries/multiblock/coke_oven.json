@@ -1,20 +1,20 @@
 {
-  "name": "Forno de Coque",
-  "icon": "railcraft:coke_oven_bricks",
-  "category": "railcraft:multiblock",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "O Forno de Coque é uma estrutura de tijolos 3x3x3, oca no meio, para converter Carvão em Coque de Carvão ou Madeira em Carvão Vegetal e produzir Óleo de Creosoto como subproduto.$(br2)O Forno é construído com 26 tijolos especiais feitos de Tijolo e Areia. Se desmontado, são necessários 104 Argilas e 130 Areias para construir um Forno de Coque. Eles não podem ser construídos adjacentes uns aos outros, deve haver pelo menos um quadrado entre os fornos."
-    },
-    {
-      "type": "patchouli:multiblock",
-      "name": "Forno de Coque",
-      "multiblock_id": "railcraft:coke_oven"
-    },
-    {
-      "type": "patchouli:text",
-      "text": "O Forno de Coque pode guardar 64.000 unidades de Óleo de Creosoto, que pode ser extraído e mantido em Baldes ou Frascos de Vidro. Cada Balde ou Frasco pode guardar 1.000 unidades de Óleo de Creosoto. Os Baldes cheios não empilham. Os Frascos cheios empilham.$(br2)Converter Carvão em Coque é um processo lento. Você provavelmente vai querer construir vários Fornos se planeja fazer muitos trilhos."
-    }
-  ]
+    "name": "Forno de Coque",
+    "icon": "railcraft:coke_oven_bricks",
+    "category": "railcraft:multiblock",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O Forno de Coque é uma estrutura de tijolos 3x3x3, oca no meio, para converter Carvão em Coque de Carvão ou Madeira em Carvão Vegetal, produzindo Óleo de Creosoto como subproduto.$(br2)O Forno é construído com 26 tijolos especiais feitos de Tijolo e Areia. Desmontado, são necessários 104 Argilas e 130 Areias para construir um Forno de Coque. Eles não podem ser construídos adjacentes um ao outro; deve haver ao menos um espaço entre os fornos."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Forno de Coque",
+            "multiblock_id": "railcraft:coke_oven"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O Forno de Coque comporta 64.000 unidades de Óleo de Creosoto, que podem ser extraídas e guardadas em Baldes ou Frascos de Vidro. Cada Balde ou Frasco comporta 1.000 unidades de Óleo de Creosoto. Os Baldes cheios não empilham. Os Frascos cheios empilham.$(br2)Converter Carvão em Coque é um processo lento. Você provavelmente vai querer construir vários Fornos se planeja fazer muitos trilhos."
+        }
+    ]
 }

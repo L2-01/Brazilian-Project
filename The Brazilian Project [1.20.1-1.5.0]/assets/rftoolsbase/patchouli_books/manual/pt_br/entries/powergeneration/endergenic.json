@@ -10,7 +10,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "A energia endergênica é baseada em tempo. Um Injetor de Pérolas cria uma pérola endergênica, os geradores a capturam e disparam, e um bom tempo transforma a chegada da pérola em FE."
+      "text": "A energia endergênica é baseada em sincronia. Um Injetor de Pérolas cria uma pérola endergênica, os geradores a capturam e disparam, e uma boa sincronia transforma a chegada da pérola em FE."
     },
     {
       "type": "crafting",
@@ -19,7 +19,7 @@
     },
     {
       "type": "text",
-      "text": "Uma configuração básica precisa de pelo menos dois Geradores Endergênicos, um Injetor de Pérolas, temporização de redstone e um destino definido com a chave-inglesa."
+      "text": "Uma instalação básica precisa de pelo menos dois Geradores Endergênicos, um Injetor de Pérolas, sincronia de redstone e um destino definido com uma chave-inglesa."
     },
     {
       "type": "image",
@@ -37,19 +37,19 @@
     },
     {
       "type": "text",
-      "text": "Passo 3: emita um pulso no gerador receptor para colocá-lo em Carregando antes que a pérola chegue. O ponto ideal de captura é o tique 10 do seu ciclo de carga de 15 tiques."
+      "text": "Passo 3: emita um pulso no gerador receptor para colocá-lo em Carregamento antes que a pérola chegue. O ponto ideal de captura é o tick 10 do seu ciclo de carregamento de 15 ticks."
     },
     {
       "type": "text",
-      "text": "Passo 4: dispare a pérola adiante rapidamente. Uma pérola segurada custa FE a cada tique e pode ser perdida se retida por muito tempo ou se o gerador ficar sem energia."
+      "text": "Passo 4: dispare a pérola adiante rapidamente. Uma pérola segurada custa FE a cada tick e pode se perder se for segurada por muito tempo ou se o gerador ficar sem energia."
     },
     {
       "type": "text",
-      "text": "Use uma chave-inglesa para parear geradores. A mensagem no chat mostra o tempo de viagem em tiques, até 4 tiques. Esse tempo de viagem é o valor-chave para sua temporização de redstone."
+      "text": "Use uma chave-inglesa para parear os geradores. A mensagem no chat mostra o tempo de viagem em ticks, até 4 ticks. Esse tempo de viagem é o valor-chave para a sua sincronia de redstone."
     },
     {
       "type": "text",
-      "text": "Os Monitores Ender ajudam a automatizar a temporização observando o estado do gerador. Mesmo configurações bem ajustadas podem perder pérolas, então mantenha em mente o suprimento de pérolas e a lógica de partida."
+      "text": "Monitores Ender ajudam a automatizar a sincronia observando o estado do gerador. Mesmo instalações bem ajustadas podem perder pérolas, então lembre do suprimento de pérolas e da lógica de partida."
     }
   ]
 }

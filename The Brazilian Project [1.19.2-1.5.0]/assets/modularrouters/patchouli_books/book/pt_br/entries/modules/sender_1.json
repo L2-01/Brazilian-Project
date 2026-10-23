@@ -1,0 +1,16 @@
+{
+  "name": "Módulo Enviador Mk1",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:sender_module_1",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este módulo tenta enviar um item do buffer do roteador para um inventário na $(l:intro/modules#direction)direção configurada/$ do módulo:$(li)O inventário alvo pode estar a até 8 blocos de distância (até 16 com $(l:augments/range_up)Melhorias de Aumento de Alcance/$)$(li)O inventário alvo $(italic)deve/$ estar diretamente ao longo do eixo X, Y ou Z.$(li)O roteador $(italic)deve/$ ter linha de visão livre até o alvo; sem blocos opacos, mas blocos como vidro, cercas, grades de ferro etc. estão OK."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:sender_module_1",
+      "recipe2": "modularrouters:sender_module_1_alt"
+    }
+  ]
+}

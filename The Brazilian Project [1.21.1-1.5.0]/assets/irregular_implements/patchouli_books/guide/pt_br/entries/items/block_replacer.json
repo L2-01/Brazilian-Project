@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O $(d)Substituidor de Blocos$() permite substituir rapidamente blocos no mundo por blocos armazenados nele.$(br2)Para armazenar um bloco no Substituidor de Blocos, $(3)clique com o botão direito na pilha de blocos do seu inventário sobre o Substituidor de Blocos$(), como numa trouxa.$(br2)Você pode remover o bloco armazenado clicando com o botão direito na pilha do Substituidor de Blocos sobre qualquer espaço vazio do inventário.",
+      "text": "O $(d)Substituidor de Blocos$() permite substituir rapidamente blocos no mundo por blocos guardados nele.$(br2)Para guardar um bloco no Substituidor de Blocos, $(3)clique com o botão direito na pilha de blocos do seu inventário sobre o Substituidor$(), como um Sacolejo.$(br2)Você pode remover o bloco guardado clicando com o botão direito na pilha do Substituidor sobre qualquer espaço vazio do inventário.",
       "title": "Substituidor de Blocos"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:block_replacer",
       "link_recipe": true,
-      "text": "Usar o item num bloco do mundo quebrará aquele bloco e colocará um bloco armazenado aleatório em seu lugar.$(br2)Blocos com a tag de bloco $(c)#irregular_implements:block_replacer_blacklist$() não podem ser substituídos pelo Substituidor de Blocos."
+      "text": "Usar o item num bloco do mundo quebrará aquele bloco e colocará um bloco guardado aleatório em seu lugar.$(br2)Blocos com a tag de bloco $(c)#irregular_implements:block_replacer_blacklist$() não podem ser substituídos com o Substituidor de Blocos."
     }
   ]
 }

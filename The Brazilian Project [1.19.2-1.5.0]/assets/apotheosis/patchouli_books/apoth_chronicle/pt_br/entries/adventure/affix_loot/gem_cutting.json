@@ -1,0 +1,19 @@
+{
+    "name": "Lapidação de Gema",
+    "icon": "apotheosis:gem_cutting_table",
+    "category": "apotheosis:adventure/affix_loot",
+    "flag": "apotheosis:adventure",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:gem_cutting_table",
+            "text": "A $(9)Bancada de Lapidação de Gema$() é usada para aprimorar $(l:apotheosis:adventure/affix_loot/gems)Gemas$().$(p)Aprimorar uma gema custa $(9)Pó de Gema$(), $(9)Materiais de Raridade$() e uma segunda Gema da mesma raridade."
+        },
+        {
+            "title": "Custos de Aprimoramento",
+            "type": "patchouli:text",
+            "text": "O custo de aprimorar uma Gema aumenta com sua Raridade.$(p)Gemas mais fortes exigem mais $(9)Pó de Gema$() e $(9)Materiais de Raridade$() de nível mais alto.$(p)O custo exato será mostrado na interface."
+        }
+    ]
+}

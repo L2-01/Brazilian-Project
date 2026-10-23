@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Mais rápida que a $(l:justdirethings:tool_ferricore_pickaxe)Picareta de Ferricoro$(/l) e inclui \"Reparo em Lava\" — repara-se quando jogada na lava."
+      "text": "Mais rápida que a $(l:justdirethings:tool_ferricore_pickaxe)Picareta de Ferricoro$(/l) e inclui 'Reparo à Lava' — repara-se ao ser solta na lava."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "justdirethings:blazegold_pickaxe",
-      "text": "Fabricação da Picareta de Ouro de Blaze"
+      "text": "Fabricação: Picareta de Ouro de Blaze"
     }
   ]
 }

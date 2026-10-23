@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Painel Solar de Liga de Eclipse
+  title: Painel Solar de Liga Eclipse
   icon: "justdynathings:eclipse_alloy_solar_panel"
   position: 4
   parent: justdynathings:solar_panels.md
@@ -8,19 +8,19 @@ item_ids:
   - justdynathings:eclipse_alloy_solar_panel
 ---
 
-# Painel Solar de Liga de Eclipse
+# Painel Solar de Liga Eclipse
 
-Um painel solar que gera Energia Forge
+Um painel solar que gera Forge Energy.
 
-Taxa padrão de FE Máx : **11520**
+Taxa máxima de FE padrão : **11520**
 
-**Condições Padrão:**
+**Condições padrão:**
 
-- Quanto mais painéis solares estiverem próximos uns dos outros, mais produzirão
-- Nível Y Alto/Baixo aumentará o multiplicador, nível Y médio diminuirá o multiplicador
+- Quanto mais painéis solares próximos uns dos outros, mais produzem
+- Nível Y alto/baixo aumenta o multiplicador; nível Y médio o diminui
 
 <BlockImage id="justdynathings:eclipse_alloy_solar_panel" scale="4.0"/>
 
 <Recipe id="justdynathings:eclipse_alloy_solar_panel" />
 
-_Nota: Tudo pode ser modificado via configs, então não confie totalmente!_
+_Nota: tudo pode ser modificado via configurações, então não confie totalmente!_

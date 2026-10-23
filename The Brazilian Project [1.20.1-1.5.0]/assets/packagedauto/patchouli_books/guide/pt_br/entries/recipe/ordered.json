@@ -5,7 +5,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "$(thing)Processamento Ordenado/$ é um tipo de receita de processamento que preserva a ordem dos ingredientes.$(p)Ao codificar, as saídas serão ordenadas e empilhadas.$(p)Ao desempacotar, os itens serão inseridos em inventários adjacentes na ordem codificada e só serão inseridos em espaços vazios."
+			"text": "$(thing)Processamento Ordenado/$ é um tipo de receita de processamento que preserva a ordem dos ingredientes.$(p)Ao codificar, as saídas serão ordenadas e empilhadas.$(p)Ao desempacotar, os itens serão inseridos nos inventários adjacentes na ordem codificada e só serão inseridos em espaços vazios."
 		}
 	],
 	"read_by_default": true,

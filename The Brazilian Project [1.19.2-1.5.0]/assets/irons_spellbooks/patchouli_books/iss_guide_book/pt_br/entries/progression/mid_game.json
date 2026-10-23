@@ -1,0 +1,50 @@
+{
+  "name": "Meio de Jogo",
+  "icon": "irons_spellbooks:scroll_forge",
+  "category": "irons_spellbooks:root",
+  "sortnum": -2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Forja de Pergaminhos",
+      "text": "Ao alcançar recursos de nível nether, você desbloqueará uma dinâmica totalmente nova de ganhar poder: a Forja de Pergaminhos$(br2)A Forja de Pergaminhos é usada para fabricar pergaminhos usando tinta, papel e um foco. A tinta determina a raridade (e portanto o nível), e o foco determina a escola do feitiço."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:scroll_forge"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Novos Livros de Feitiços",
+      "text": "Além disso, livros de feitiços intermediários podem ser fabricados usando recursos do nether",
+      "recipe": "irons_spellbooks:gold_spell_book"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:diamond_spell_book",
+      "text": "A Pele de Hoglin é largada por hoglins"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:magic_cloth",
+      "title": "Novos Materiais",
+      "text": "Você também deve começar a fabricar armaduras mais fortes usando tecido arcano. Para obter grandes quantidades de essência arcana, você precisará focar em invadir estruturas mágicas."
+    },
+    {
+      "type": "patchouli:entity",
+      "name": "Armadura de Espantalho",
+      "entity": "minecraft:armor_stand{ArmorItems:[{id:'irons_spellbooks:pumpkin_boots',Count:1b},{id:'irons_spellbooks:pumpkin_leggings',Count:1b},{id:'irons_spellbooks:pumpkin_chestplate',Count:1b},{id:'irons_spellbooks:pumpkin_helmet',Count:1b}],NoBasePlate:1b}"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:blank_rune",
+      "title": "Materiais Raros",
+      "text": "Para continuar progredindo, fique de olho em pedras rúnicas nas estruturas mágicas. Pedras rúnicas são usadas para fabricar armaduras ainda mais poderosas. Magos de classe sempre largam uma runa da sua escola."
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    }
+  ]
+}

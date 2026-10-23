@@ -9,18 +9,18 @@
             "type": "spotlight",
             "item": "bigreactors:reinforced_reactorfluidaccessport",
             "link_recipe": true,
-            "title" : "Porta de Injeção de Combustível",
-            "text": "A Porta de Injeção de Combustível permite inserir ou extrair reagentes fluidos que encherão suas $(l:bigreactors:reactor/part-fuelrod)Barras de Combustível$(/l) e alimentarão seu Reator.$(br2)Na interface gráfica você pode definir o modo da Porta: no $(bold)modo entrada$() a Porta aceita combustível fluido, no $(bold)modo saída$() ela emite resíduos fluidos."
+            "title": "Porta de Injeção de Combustível",
+            "text": "A Porta de Injeção de Combustível permite inserir ou extrair reagentes fluidos que preencherão suas $(l:bigreactors:reactor/part-fuelrod)Barras de Combustível$(/l) e alimentarão seu Reator.$(br2)Na interface gráfica você pode definir o modo da Porta: no $(bold)modo de entrada$() a Porta aceitará combustível fluido, no $(bold)modo de saída$() ela emitirá resíduos fluidos."
         },
         {
             "type": "crafting-text",
-            "text": "Uma $(l:bigreactors:misc/wrench)chave$(/l) pode ser usada para mudar o modo da Porta.$(br2)Diferente da Porta de Acesso Sólido, não há perda de material ao usar a Porta de Injeção de Combustível.",
-            "title1": "Reinforced",
+            "text": "Uma $(l:bigreactors:misc/wrench)chave-inglesa$(/l) pode ser usada para mudar o modo da Porta.$(br2)Diferente da Porta de Acesso Sólido, não há perda de material ao usar a Porta de Injeção de Combustível.",
+            "title1": "Reforçado",
             "recipe": "bigreactors:reactor/reinforced/fluidaccessport"
         },
         {
             "type": "part_usage",
-            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() Reforçada$(br)$(l)Interface gráfica:$() sim$(br)$(l)Chave:$() uma $(l:bigreactors:misc/wrench)chave$(/l) pode ser usada para alternar o modo da Porta"
+            "text": "$(l)Obrigatória:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() Reforçada$(br)$(l)Interface gráfica:$() sim$(br)$(l)Chave-inglesa:$() uma $(l:bigreactors:misc/wrench)chave-inglesa$(/l) pode ser usada para alternar o modo da Porta"
         }
     ]
 }

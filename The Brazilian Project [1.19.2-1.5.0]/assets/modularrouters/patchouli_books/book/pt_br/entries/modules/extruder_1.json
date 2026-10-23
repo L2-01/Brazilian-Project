@@ -1,0 +1,31 @@
+{
+  "name": "Módulo Extrusor Mk1",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:extruder_module_1",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este módulo estende e retrai uma fileira de blocos (do buffer do roteador) na direção configurada do módulo.$(p)Por padrão, o módulo estende os blocos quando o roteador tem um sinal de redstone e os retrai quando o roteador não tem sinal, mas uma Melhoria de Redstone pode ser adicionada ao módulo para personalizar esse comportamento."
+    },
+    {
+      "type": "text",
+      "text": "Usando este módulo, é possível construir grandes pontes e portas extensíveis. (Se você já usou a Tinker's Drawbridge do mod Tinker's Mechworks na 1.7.10, a funcionalidade será familiar).$(li)Veja também a $(l:upgrades/camouflage)Melhoria de Camuflagem/$, que pode ser útil para esconder o roteador.$(li)O alcance padrão (ou seja, número de blocos que podem ser colocados) é 12, mas pode ser aumentado até 24 com $(l:augments/range_up)Melhorias de Aumento de Alcance/$."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Se você mudar a direção do módulo enquanto ele tem blocos estendidos, o roteador pode ficar um pouco confuso. Nesse caso, quebrar e recolocar o roteador ajudará.$(li)Se você quebrar o roteador enquanto os blocos estiverem estendidos, ele não se lembrará disso, e você precisará remover esses blocos manualmente."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Se você tiver vários roteadores juntos com Módulos Extrusores instalados (ex.: para uma porta ou ponte larga), a $(l:upgrades/sync)Melhoria de Sincronia/$ pode ser útil para garantir que todos funcionem no mesmo tique.$(li)O Extrusor (assim como o $(l:modules/placer)Colocador/$) também pode plantar sementes de plantações em terras aradas e sementes de cacau num tronco de selva adjacente."
+    },
+    {
+      "type": "text",
+      "text": "É importante notar que o $(l:modules/breaker)Módulo Quebrador/$ usado para fabricar este módulo transferirá seu nível de colheita (e encantamentos) para este módulo. Então, se você quiser que seu Módulo Extrusor possa quebrar $(item)Obsidiana/$, por exemplo, certifique-se de usar um Módulo Quebrador fabricado com uma $(item)Picareta de Diamante/$!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:extruder_module_1"
+    }
+  ]
+}

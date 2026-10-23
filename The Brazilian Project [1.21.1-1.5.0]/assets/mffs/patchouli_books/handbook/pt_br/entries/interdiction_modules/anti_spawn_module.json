@@ -1,18 +1,18 @@
 {
-    "name": "Módulo Antigeração",
-    "icon": "mffs:anti_spawn_module",
-    "category": "mffs:interdiction_modules",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:anti_spawn_module",
-            "link_recipe": true,
-            "text": "O $(5)Módulo Antigeração$() é um módulo opcional para a $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$(). Com este módulo instalado, a Matriz impedirá que entidades hostis ou amigáveis sejam geradas dentro de sua área de ação. Se um jogador possuir um ovo gerador, ficar fora do alcance de ação da Matriz permitirá gerar a entidade dentro da região protegida."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:anti_spawn_module",
-            "text": "Fabricando o $(5)Módulo Antigeração$()."
-        }
-    ]
+  "name": "Módulo Antigeração",
+  "icon": "mffs:anti_spawn_module",
+  "category": "mffs:interdiction_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:anti_spawn_module",
+      "link_recipe": true,
+      "text": "O $(5)Módulo Antigeração$() é um módulo opcional para a $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$(). Com este módulo instalado, a Matriz impedirá que entidades hostis ou amistosas sejam geradas dentro de sua área de ação. Se um jogador possuir um ovo gerador, ficar fora do alcance de ação da Matriz permitirá gerar a entidade dentro da região protegida."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:anti_spawn_module",
+      "text": "Fabricando o $(5)Módulo Antigeração$()."
+    }
+  ]
 }

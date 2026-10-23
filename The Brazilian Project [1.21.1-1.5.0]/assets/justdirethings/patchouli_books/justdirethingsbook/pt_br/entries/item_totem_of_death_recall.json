@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O Totem de Retorno da Morte oferece uma segunda chance após um erro fatal. Mantenha-o no seu inventário e ele se ativará automaticamente na morte, vinculando-se à posição onde você morreu.$(br2)Segure o clique direito com o totem ativado para se teletransportar de volta ao seu ponto de morte. O totem é consumido ao uso."
+      "text": "O Totem de Retorno da Morte oferece uma segunda chance após um erro fatal. Mantenha-o no inventário, e ele ativará automaticamente ao morrer, vinculando-se à posição onde você morreu.$(br2)Segure o botão direito com o totem ativado para se teletransportar de volta ao seu ponto de morte. O totem é consumido ao ser usado."
     },
     {
       "type": "patchouli:crafting",
-      "title": "Fabricação do Totem de Retorno da Morte",
+      "title": "Fabricação: Totem de Retorno da Morte",
       "recipe": "justdirethings:totem_of_death_recall"
     }
   ]

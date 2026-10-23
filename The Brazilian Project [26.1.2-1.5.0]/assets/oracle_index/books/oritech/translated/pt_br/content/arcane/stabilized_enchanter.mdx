@@ -1,0 +1,38 @@
+---
+id: oritech:stabilized_enchanter
+type: block
+title: Encantador Estabilizado
+custom:
+    RF/t: "512"
+    Multiplicador de custo: "5x o nível do encantamento"
+    Alcance do catalisador: "16 blocos"
+---
+
+O Encantador Estabilizado é usado para aplicar encantamentos padrão em equipamentos e ferramentas.
+Diferente de uma mesa de encantamentos comum, ele permite que você selecione o encantamento específico
+que deseja a partir da sua interface.
+
+## Requisitos
+
+Para operar, o encantador precisa tanto de energia quanto de almas de
+[catalisadores arcanos](@oritech:arcane_catalyst) próximos.
+
+- **Energia**: consome **512 RF/t** enquanto ativo.
+- **Almas**: o encantador não armazena almas. Ele precisa estar a até **16 blocos** de
+um ou mais catalisadores que contenham almas.
+- **Quantidade de Catalisadores**: encantamentos de nível mais alto exigem mais catalisadores ativos por perto e consomem mais almas.
+O número de catalisadores necessários é o custo base do encantamento mais o nível-alvo.
+
+<center>
+<ModAsset location="oritech:area/enchanting" width={640} />
+</center>
+
+## Operação
+
+1. Coloque o item a ser encantado no espaço da esquerda.
+2. Abra a interface e selecione o encantamento desejado.
+3. Se houver energia e catalisadores próximos suficientes, o processo começará.
+4. Ao terminar, o item encantado será movido para o espaço de saída da direita.
+
+O tempo necessário para completar um encantamento aumenta com o nível
+e a raridade do encantamento.

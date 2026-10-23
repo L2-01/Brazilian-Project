@@ -100,12 +100,12 @@ Módulos Undying legados são convertidos em Proteção contra Sobrecarga, prese
 O Módulo de Trava de Fase usa o peitoral como controlador e expõe quatro recursos alternáveis independentemente no Hub de Dispositivos:
 
 * **Trava de Armadura:** Move o conjunto Celestweave atualmente vestido para quatro espaços privados de fase vinculados ao jogador; cada espaço de armadura exibe uma Projeção com Trava de Fase para indicar que a armadura correspondente está segura no armazenamento de fase privado. A armadura real continua funcionando dentro dos espaços privados, e novas peças Celestweave vestidas entram na trava automaticamente. Projeções não têm brilho de encantamento e não podem ser extraídas ou negociadas; substituir ou remover uma projeção custa 1.000.000 FE e 16 Raios de Altíssima Tensão para reconstruí-la no lugar, e um pagamento falho libera a trava e reequipa todo o conjunto real.
-`Pense nisso como um vínculo de alma.`
+`Think of this as soulbinding.`
 * **Trava de Voo:** Congela o estado de voo atual, mantém o voo ativo após pousar e rejeita mudanças externas de estado. Ela reconhece módulos ativos de Voo Criativo/de Fase, voo de modo de jogo e a permissão `mayfly` restaurada por outros mods Forge, mas nunca concede voo por conta própria.
 * **Bloqueio de Forças Externas:** Bloqueia mudanças de velocidade vindas de água, ventiladores, repulsão e sistemas externos semelhantes, enquanto a entrada do jogador e o movimento gerado pela armadura continuam funcionando.
-`Por exemplo: ignora o empurrão e a sucção do Ventilador Encaixotado do Create.`
+`For example: ignores pushing and pulling from Create's Encased Fan.`
 * **Bloqueio de Teletransportes Externos:** Bloqueia reescritas externas de coordenadas, teletransportes e mudanças de dimensão, enquanto o movimento normal do jogador não é afetado.
-`Por exemplo: ignora o teletransporte forçado do Guardião do Caos do Draconic Evolution.`
+`For example: ignores forced teleportation by Draconic Evolution's Chaos Guardian.`
 
 ## Módulos das Calças
 

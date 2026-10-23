@@ -14,9 +14,9 @@ item_ids:
   <BlockImage id="me_temperature_interface" scale="4" />
 </Row>
 
-A Interface de Temperatura ME ajusta sua temperatura interna ao valor desejado consumindo ar e energia armazenados na **Rede ME**.  
-Para cada 1 J de calor alterado, ela consome aproximadamente **25 de energia AE** e **19 mL de ar**.
+A Interface de Temperatura ME ajusta sua temperatura interna ao valor desejado consumindo ar e energia armazenados na **rede ME**.
+Para cada 1 J de calor alterado, ela consome aproximadamente **25 AE de energia** e **19 mL de ar**.
 
-## Cartões de Upgrade Disponíveis
-- **Cartão de Aceleração**: Aumenta a variação máxima de temperatura por tique.
+## Cartões de Melhoria Disponíveis
+- **Cartão de Aceleração**: Aumenta a mudança máxima de temperatura por tique.
 - **Cartão de Volume**: Aumenta a capacidade térmica base da interface.

@@ -1,0 +1,18 @@
+{
+  "name": "Sopro da Deusa",
+  "icon": "enchanted:breath_of_the_goddess",
+  "category": "enchanted:collecting_fumes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A bétula é uma árvore de cura e proteção. Devido à sua aparência prateada, esta árvore às vezes é chamada de \"A Dama Branca da Floresta\" e é associada à deusa Brigid."
+    },
+    {
+      "type": "enchanted:witch_oven_recipe_single",
+      "recipe": "enchanted:byproduct/breath_of_the_goddess_birch_sapling",
+      "itemIn": "minecraft:birch_sapling",
+      "resultItem": "enchanted:wood_ash"
+    }
+  ],
+  "read_by_default": true
+}

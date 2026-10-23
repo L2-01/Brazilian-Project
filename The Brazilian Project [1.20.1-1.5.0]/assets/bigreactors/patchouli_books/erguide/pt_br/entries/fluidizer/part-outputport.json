@@ -9,14 +9,14 @@
             "type": "spotlight",
             "item": "bigreactors:fluidizeroutputport",
             "link_recipe": true,
-            "title" : "Porta de Saída",
-            "text": "A Porta de Saída permite extrair o combustível fluido do Fluidificador.$(br2)Você pode conectar algum tipo de tubo para extrair o combustível automaticamente."
+            "title": "Porta de Saída",
+            "text": "A Porta de Saída permite extrair o combustível fluido do Fluidificador.$(br2)Você pode conectar um cano de qualquer tipo para extrair o combustível automaticamente."
         },
         {
             "type": "crafting-part_usage",
             "crafting.title1": "Porta de Saída",
             "crafting.recipe1": "bigreactors:fluidizer/outputport",
-            "usage.text": "$(l)Obrigatório:$() pelo menos uma é necessária$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Interface gráfica:$() não"
+            "usage.text": "$(l)Obrigatória:$() pelo menos uma é exigida$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Interface gráfica:$() não"
         }
     ]
 }

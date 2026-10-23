@@ -63,7 +63,7 @@ Por padrão, a Porta da Matriz é instalada oposta ao Controlador. Ela pode em v
 
 O número de execuções de padrão que a matriz realiza a cada tique é determinado em três passos:
 
-1. **Capacidade base**: o Estável usa valores dedicados: cada Unidade de Thread T1 fornece `1.024`, cada T2 fornece `3.584`, e o total é limitado a `4.096`. Quântico e de Sobrecarga usam `256 × pontos de thread × fator de amplificação`; T1 fornece 1 ponto de thread e T2 fornece 2. O fator de amplificação é `R²` para o Quântico e `R³` para o de Sobrecarga, onde `R = 1 + o número de Unidades Amplificadoras Tianshu`.
+1. **Capacidade base**: o Estável usa valores dedicados: cada Unidade de Thread T1 fornece `1,024`, cada T2 fornece `3,584`, e o total é limitado a `4,096`. Quântico e de Sobrecarga usam `256 × thread points × amplification factor`; T1 fornece 1 ponto de thread e T2 fornece 2. O fator de amplificação é `R²` para o Quântico e `R³` para o de Sobrecarga, onde `R = 1 + the number of Tianshu Amplifier Units`.
 2. A capacidade base além do teto por tique do Núcleo Principal é cortada no teto.
 3. O resultado é multiplicado pela eficiência térmica atual para dar a taxa de transferência real.
 
@@ -98,29 +98,29 @@ As Unidades de Controle Térmico escalam sua potência efetiva pela distância d
 
 Primeiro calcule os pontos de resfriamento efetivos de todas as Unidades de Controle Térmico:
 
-`C = Σ(pontos de resfriamento da unidade × multiplicador de distância)`
+`C = Σ(unit cooling points × distance multiplier)`
 
-Uma unidade T1 fornece 1 ponto e uma T2 fornece 2 pontos. O multiplicador de distância vem da tabela acima. Por exemplo, uma unidade T2 a 2 blocos do Núcleo Principal contribui `2 × 75% = 1,5` pontos de resfriamento efetivos.
+Uma unidade T1 fornece 1 ponto e uma T2 fornece 2 pontos. O multiplicador de distância vem da tabela acima. Por exemplo, uma unidade T2 a 2 blocos do Núcleo Principal contribui `2 × 75% = 1.5` pontos de resfriamento efetivos.
 
 Os pontos de resfriamento efetivos determinam tanto a capacidade de calor quanto a taxa de resfriamento por tique:
 
 * **Capacidade de calor:** `K = 2048 + 150 × C`
-* **Taxa de resfriamento:** `r = 0,00008 + 0,000025 × C`
+* **Taxa de resfriamento:** `r = 0.00008 + 0.000025 × C`
 * **Calor exibido:** `h = clamp(H ÷ K, 0, 1)`
 
-Aqui, `H` é o calor atualmente armazenado na matriz e `h` é o calor de 0%–100% mostrado pelo Controlador. A taxa de resfriamento é proporcional, não fixa: enquanto ociosa, o calor restante após cada tique é `H_prox = H_atual × (1 - r)`. Por exemplo, quando `C = 20`, a capacidade de calor é `5.048` e a matriz dissipa `0,058%` do seu calor atual a cada tique.
+Aqui, `H` é o calor atualmente armazenado na matriz e `h` é o calor de 0%–100% mostrado pelo Controlador. A taxa de resfriamento é proporcional, não fixa: enquanto ociosa, o calor restante após cada tique é `H_next = H_current × (1 - r)`. Por exemplo, quando `C = 20`, a capacidade de calor é `5,048` e a matriz dissipa `0.058%` do seu calor atual a cada tique.
 
 Enquanto a matriz trabalha, ela gera calor da sua carga real antes de aplicar o resfriamento daquele tique:
 
-`H_prox = (H_atual + P × g × L) × (1 - r)`
+`H_next = (H_current + P × g × L) × (1 - r)`
 
 * `P` é a contagem total de pontos de thread: cada Unidade de Thread T1 fornece 1 ponto e cada T2 fornece 2
 * `L` é a quantidade de execuções de padrão aceitas pela matriz neste tique dividida pelas execuções disponíveis, limitada a 0–1; é 0 enquanto ociosa
-* Núcleos Principais Estável e Quântico usam o coeficiente de geração de calor `g = 0,256`
-* O Núcleo Principal de Sobrecarga usa `g = 1,2032`
+* Núcleos Principais Estável e Quântico usam o coeficiente de geração de calor `g = 0.256`
+* O Núcleo Principal de Sobrecarga usa `g = 1.2032`
 
 O calor então afeta a taxa de transferência real através da eficiência térmica:
 
-* **Estável e Quântico:** `eficiência = clamp(1 - h, 0,45, 1)`, então a eficiência nunca cai abaixo de 45%
-* **Sobrecarga:** `eficiência = 0,05 + 0,95 × [4h(1 - h)]⁵`, com pico em `h = 50%`
+* **Estável e Quântico:** `efficiency = clamp(1 - h, 0.45, 1)`, então a eficiência nunca cai abaixo de 45%
+* **Sobrecarga:** `efficiency = 0.05 + 0.95 × [4h(1 - h)]⁵`, com pico em `h = 50%`
 * **Multidimensional:** fixada em 100%; ele não lê nem acumula calor

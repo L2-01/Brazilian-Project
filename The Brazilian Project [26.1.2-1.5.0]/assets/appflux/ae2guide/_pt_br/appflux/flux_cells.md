@@ -48,22 +48,22 @@ item_ids:
   </Row>
 </Column>
 
-A Célula de Armazenamento FE ME é o principal método de armazenamento de energia do Applied Flux. Suas capacidades são baseadas em bytes, assim como as
+A Célula de Armazenamento FE ME é o método principal de armazenamento de energia com o Applied Flux. Suas capacidades são baseadas em bytes, assim como as
 [células de armazenamento de itens/fluidos](ae2:items-blocks-machines/storage_cells.md).
 
 # Capacidades das Células
 
-Cada byte comporta 1.048.576 FE por padrão, o que pode ser alterado na configuração do Appflux.
+Cada byte pode guardar 1.048.576 FE por padrão, o que pode ser alterado na configuração do Appflux.
 
 | Célula                                 | Capacidade de FE da Célula (Padrão) |
-|----------------------------------------|------------------------------------:|
-| <ItemLink id="appflux:fe_1k_cell" />   |                       1.073.741.824 |
-| <ItemLink id="appflux:fe_4k_cell" />   |                       4.294.967.296 |
-| <ItemLink id="appflux:fe_16k_cell" />  |                      17.179.869.184 |
-| <ItemLink id="appflux:fe_64k_cell" />  |                      68.719.476.736 |
-| <ItemLink id="appflux:fe_256k_cell" /> |                     274.877.906.944 |
-| <ItemLink id="appflux:fe_1m_cell" />   |                   1.099.511.627.776 |
-| <ItemLink id="appflux:fe_4m_cell" />   |                   4.398.046.511.104 |
-| <ItemLink id="appflux:fe_16m_cell" />  |                  17.592.186.044.416 |
-| <ItemLink id="appflux:fe_64m_cell" />  |                  70.368.744.177.664 |
-| <ItemLink id="appflux:fe_256m_cell" /> |                 281.474.976.710.656 |
+|----------------------------------------|------------------------------:|
+| <ItemLink id="appflux:fe_1k_cell" />   |                 1,073,741,824 |
+| <ItemLink id="appflux:fe_4k_cell" />   |                 4,294,967,296 |
+| <ItemLink id="appflux:fe_16k_cell" />  |                17,179,869,184 |
+| <ItemLink id="appflux:fe_64k_cell" />  |                68,719,476,736 |
+| <ItemLink id="appflux:fe_256k_cell" /> |               274,877,906,944 |
+| <ItemLink id="appflux:fe_1m_cell" />   |             1,099,511,627,776 |
+| <ItemLink id="appflux:fe_4m_cell" />   |             4,398,046,511,104 |
+| <ItemLink id="appflux:fe_16m_cell" />  |            17,592,186,044,416 |
+| <ItemLink id="appflux:fe_64m_cell" />  |            70,368,744,177,664 |
+| <ItemLink id="appflux:fe_256m_cell" /> |           281,474,976,710,656 |

@@ -1,26 +1,26 @@
 {
-  "name": "Bancada de Trabalho de Marcaçõe",
-  "icon": "pneumaticcraft:tag_workbench",
-  "category": "pneumaticcraft:machines",
-  "advancement": "pneumaticcraft:logistics_frame",
-  "pages": [
-    {
-      "type": "text",
-      "text": "A $(item)Bancada de Trabalho de Marcações/$ é usada para produzir $(item)Filtros de Marcação/$, que são usados para filtrar itens pelas suas $(l:https://minecraft.gamepedia.com/Tag)tags de item/$. Ex.: tratar todas as toras como o mesmo item ao filtrar. Filtros de Marcação podem ser colocados em filtros de $(l:logistics/frames)Moldura de Logística/$, assim como em widgets de programação $(l:programming/item_filter)Filtro de Item/$ usados por Drones, e corresponderão a qualquer item que tenha uma tag de item da lista do Filtro de Marcação."
-    },
-    {
-      "type": "text",
-      "title": "Uso",
-      "text": "Clique com o botão direito na bancada para abrir sua GUI.$(li)Insira qualquer item no espaço mais à esquerda; se ele tiver tags de item, elas serão exibidas na lista à esquerda, logo abaixo do item.$(li)Selecione uma ou mais tags clicando duas vezes nelas (ou clicando no botão '>'), e elas serão adicionadas à lista à direita.$(li)Adicione um pouco de papel no espaço do meio."
-    },
-    {
-      "type": "text",
-      "text": "$(li)Clique no botão de Livro e Pena para escrever as tags selecionadas. Uma folha de papel será usada e um $(item)Filtro de Marcação/$ será produzido no espaço à direita.$(p)O espaço de papel também aceitará um Filtro de Marcação já escrito; isso pode ser útil se você quiser editar as tags de um Filtro de Marcação existente."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando uma Bancada de Trabalho de Marcações",
-      "recipe": "pneumaticcraft:tag_workbench"
-    }
-  ]
+    "name": "Bancada de Trabalho de Marcaçõe",
+    "icon": "pneumaticcraft:tag_workbench",
+    "category": "pneumaticcraft:machines",
+    "advancement": "pneumaticcraft:logistics_frame",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A $(item)Bancada de Trabalho de Marcações/$ é usada para produzir $(item)Filtros de Marcação/$, que servem para filtrar itens pelas suas $(l:https://minecraft.gamepedia.com/Tag)tags de item/$. Ex.: tratar todas as toras como o mesmo item ao filtrar. Filtros de Marcação podem ser colocados em filtros de $(l:logistics/frames)Molduras de Logística/$, bem como em widgets de programação de $(l:programming/item_filter)Filtro de Item/$ usados por Drones, e corresponderão a qualquer item que tenha uma tag de item da lista do Filtro de Marcação."
+        },
+        {
+            "type": "text",
+            "title": "Uso",
+            "text": "Clique com o botão direito na bancada de trabalho para abrir sua GUI.$(li)Insira qualquer item no espaço mais à esquerda; se ele tiver tags de item, elas serão exibidas na lista à esquerda, logo abaixo do item.$(li)Selecione uma ou mais tags com clique duplo (ou clicando no botão '>'), e elas serão adicionadas à lista à direita.$(li)Adicione um pouco de papel no espaço do meio."
+        },
+        {
+            "type": "text",
+            "text": "$(li)Clique no botão de Livro e Pena para gravar as tags selecionadas. Uma folha de papel será usada e um $(item)Filtro de Marcação/$ será produzido no espaço à direita.$(p)O espaço de papel também aceita um Filtro de Marcação já escrito; útil se você quiser editar as tags de um Filtro de Marcação existente."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Bancada de Trabalho de Marcaçõe",
+            "recipe": "pneumaticcraft:tag_workbench"
+        }
+    ]
 }

@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Desfazer reverterá a última tarefa que seu dispositivo fez, seja removendo o último conjunto de blocos construído ou trocando o último conjunto de blocos de volta.$(br2)Se estiver trocando de volta, certifique-se de que ainda tem os itens necessários no seu inventário!$(br2)Desfazer lembra das últimas 10 ações que o dispositivo fez."
+      "text": "Desfazer reverterá a última tarefa que seu dispositivo fez, seja removendo o último conjunto de blocos construído, seja trocando o último conjunto de blocos de volta.$(br2)Se for desfazer uma troca, garanta que ainda tenha os itens necessários no inventário!$(br2)Desfazer lembra as últimas 10 ações do dispositivo."
     },
     {
       "type": "patchouli:text",
-      "text": "Desfazer pode ser acessado pela tecla de atalho ou pelo Menu de Configurações do seu dispositivo.$(br2)O dispositivo de recortar e colar não tem funcionalidade de desfazer!"
+      "text": "Desfazer pode ser acessado via tecla de atalho ou pelo Menu de Configurações do seu dispositivo.$(br2)O dispositivo de recortar e colar não tem a funcionalidade de desfazer!"
     }
   ]
 }

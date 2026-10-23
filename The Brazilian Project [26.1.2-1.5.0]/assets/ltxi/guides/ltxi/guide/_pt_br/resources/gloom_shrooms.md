@@ -12,22 +12,24 @@ navigation:
 
 <ItemImage id="gloom_shroom" scale="2" />
 
-As sinistras Profundezas Sombrias parecem incompatíveis com toda a vida que você conhece. Ainda assim, se você se aventurar nessas
-cavernas sombrias, encontrará os estranhamente belos <Color id="blue">Cogumelos Sombrios</Color> crescendo e se alimentando da energia
-de almas do Sculk.
+As misteriosas Profundezas sombrias parecem incompatíveis com toda a vida que você conhece. Ainda assim, se você se
+aventurar nessas cavernas lúgubres, encontrará os estranhamente belos <Color id="blue">Cogumelos Sombrios</Color>
+crescendo e se alimentando da energia das almas no Sculk.
 
 ## Geração Natural
 
-Cogumelos Sombrios geram esparsamente no bioma Profundezas Sombrias em cima de Sculk. Só cerca de 1 a 2 surgem por chunk. Você
-saberá quando os vir. Eles são bioluminescentes, mas não emitem luz para os arredores.
+Cogumelos Sombrios geram esparsamente no bioma Profundezas sombrias, em cima de Sculk. Apenas 1 a 2 surgem por chunk.
+Você saberá quando os vir. Eles são bioluminescentes, mas não emitem luz ao redor.
 
 ## Cultivo
 
-Você pode quebrar Cogumelos Sombrios instantaneamente com a mão. Não são necessárias ferramentas nem encantamentos especiais.
+Você pode quebrar Cogumelos Sombrios instantaneamente com a mão. Não são necessárias ferramentas ou encantamentos
+especiais.
 
 ### Ambiente adequado
 
-Cogumelos Sombrios só podem ser plantados em cima de Sculk. Além disso, não podem ser expostos à luz do céu, ou quebrarão.
+Cogumelos sombrios só podem ser plantados em cima de Sculk. Além disso, não podem ser expostos à luz do céu, senão
+quebram.
 
 ### Propagação
 
@@ -36,10 +38,11 @@ Cogumelos Sombrios só podem ser plantados em cima de Sculk. Além disso, não p
 <Block id="gloom_shroom" y="1" />
 </GameScene>
 
-Esses cogumelos famintos por vida nunca crescerão nem se espalharão naturalmente, e pó de osso é ineficaz. Para produzir mais, primeiro reúna
-um Catalisador de Sculk e um pouco de Sculk, e então plante seus cogumelos iniciais perto do Catalisador. Quando o Catalisador de Sculk ativa
-e uma carga de sculk passa por um Cogumelo Sombrio, há 33% de chance de ele espalhar 1 novo cogumelo numa *área de 3x3x3*
-ao seu redor. O espaço deve ser um bloco substituível como ar ou água corrente.
+Esses cogumelos famintos por vida nunca crescem nem se espalham naturalmente, e farinha de osso é ineficaz. Para
+produzir mais, primeiro consiga um Catalisador de Sculk e um pouco de Sculk, depois plante seus cogumelos iniciais
+perto do Catalisador. Quando o Catalisador de Sculk ativar e uma carga de sculk passar por um Cogumelo Sombrio, há 33%
+de chance de ele espalhar 1 cogumelo novo numa *área de 3x3x3* ao redor. O espaço precisa ser um bloco substituível
+como ar ou água corrente.
 
 ## Produtos
 
@@ -47,16 +50,16 @@ ao seu redor. O espaço deve ser um bloco substituível como ar ou água corrent
 
 <ItemImage id="sculk_chemical" scale="2" />
 
-Dissolver Cogumelos Sombrios em [Ácido Sulfúrico](acids.md#sulfuric-acid) usando o [Misturador](../machines/processing/mixer.md)
-produz Soro de Eco.
+Dissolver Cogumelos Sombrios em [Ácido Sulfúrico](acids.md#sulfuric-acid) usando o
+[Misturador](../machines/processing/mixer.md) produz Soro de Eco.
 
-### Essência Sombria Concentrada
+### Soro Sombrio de Grau Bélico
 
 <ItemImage id="gloom_weapon_chemical" scale="2" />
 
-Pegar uma grande quantidade de Soro de Eco e reduzi-la com [Amônia](elements_compound.md#ammonia) produzirá Essência Sombria
-Concentrada. Esta substância não é muito útil industrialmente, mas é útil para criar armamento debilitante.
+Tomar uma grande quantidade de Soro de Eco e reduzi-la com [Amônia](elements_compound.md#ammonia) produz Soro Sombrio
+de Grau Bélico. Esta substância não é muito útil industrialmente, mas serve para criar armamento de debilitação.
 
-Para quem prefere uma abordagem mais voltada ao combate, matar o Sentinela com um golpe final das
-[Cápsulas Ácidas](../weapons/hanabi.md#acid) da *Hanabi* **OU** enquanto ele estiver sob o efeito de status
-[Corrosão](../fundamentals/mob_effects.md#corroding) garante o item largado de 1 Essência Sombria Concentrada.
+Para quem prefere uma abordagem mais voltada ao combate, matar a Sentinela com o golpe final de uma
+[Munição de Ácido](../weapons/hanabi.md#acid) da *Hanabi* **OU** enquanto ela estiver sob o efeito de status
+[Corrosão](../fundamentals/mob_effects.md#corroding) garante o drop de 1 Soro Sombrio de Grau Bélico.

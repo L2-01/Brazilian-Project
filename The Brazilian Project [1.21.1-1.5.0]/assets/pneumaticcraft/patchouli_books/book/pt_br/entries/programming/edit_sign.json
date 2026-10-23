@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "text",
-      "text": "Isso editará todas as $(item)Placas/$ e/ou $(l:machines/aphorism_tile)Ladrilhos de Aforismo/$ na $(l:programming/area)Área/$ conectada com o texto especificado pelo(s) widget(s) $(l:programming/text)Texto/$ conectado(s).$(p)Cada widget $(thing)Texto/$ conectado representa uma linha; conectando vários widgets $(thing)Texto/$, você pode definir uma mensagem multilinha."
+      "text": "Isto editará todas as $(item)Placas/$ e/ou $(l:machines/aphorism_tile)Ladrilhos de Aforismo/$ na $(l:programming/area)Área/$ conectada para o texto especificado pelo(s) widget(s) de $(l:programming/text)Texto/$ conectado(s).$(p)Cada widget de $(thing)Texto/$ conectado representa uma linha; conectando vários widgets de $(thing)Texto/$, você pode definir uma mensagem de várias linhas."
     },
     {
       "type": "text",
       "title": "Variáveis",
-      "text": "Você também pode inserir o valor de uma $(l:programming/variables)variável/$, incluindo $(thing)${<nome_da_var>}/$ no texto, ex.:$(p)  $(formula)Contador: ${counter}/$$(p)se expandiria para $(thing)Contador: 1, 2, 3/$ se a variável $(thing)counter/$ estivesse definida como $(thing)x=1,y=2,z=3/$. Variáveis $(l:programming/variables#special)Especiais/$ e $(l:programming/variables#global)Globais/$ também podem ser usadas aqui."
+      "text": "Você também pode inserir o valor de uma $(l:programming/variables)variável/$, incluindo $(thing)${<var_name>}/$ no texto, ex.:$(p)  $(formula)Counter: ${counter}/$(p)expandiria para $(thing)Counter: 1, 2, 3/$ se a variável $(thing)counter/$ estivesse definida como $(thing)x=1,y=2,z=3/$. Variáveis $(l:programming/variables#special)Especiais/$ e $(l:programming/variables#global)Globais/$ também podem ser usadas aqui."
     },
     {
       "type": "image",

@@ -14,11 +14,11 @@ item_ids:
 
 ## Sobre
 
-Nosso departamento de pesquisa descobriu que água corrente melhora o rendimento, a eficiência e a automação de peneiras em comparação com
-esquemas secos tradicionais.
+Nosso departamento de pesquisa descobriu que água corrente melhora o rendimento, a eficiência e a automação das
+peneiras em comparação com os setups secos tradicionais.
 
-## Especificação de Receita
+## Especificação da Receita
 
-- Tempo base de fabricação: varia, por padrão 10s
+- Tempo base de fabricação: varia, 10s por padrão
 - Entradas: 1 item, 1 fluido
 - Saídas: 1-6 itens

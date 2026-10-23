@@ -1,17 +1,17 @@
 {
-  "name": "Suporte de Plantação",
-  "icon": "pneumaticcraft:crop_support",
-  "category": "pneumaticcraft:semiblocks",
-  "advancement": "pneumaticcraft:root",
-  "pages": [
-    {
-      "type": "text",
-      "text": "Quando posicionado em terra arada com uma $(thing)plantação/$, este melhora a velocidade de crescimento dessa plantação. $(thing)Partículas verdes/$ são emitidas para mostrar quando o $(item)Suporte de Plantação/$ acelera o crescimento.$(p)Para remover um $(item)Suporte de Plantação/$, quebre o bloco abaixo dele ou $(thing)agache e clique com o botão direito/$ no bloco com um $(l:tools/logistics_configurator)Configurador de Logística/$ ou outro $(item)Suporte de Plantação/$."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando um Suporte de Plantação",
-      "recipe": "pneumaticcraft:crop_support"
-    }
-  ]
+    "name": "Suporte de Plantação",
+    "icon": "pneumaticcraft:crop_support",
+    "category": "pneumaticcraft:semiblocks",
+    "advancement": "pneumaticcraft:root",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Quando colocado em terra arada com um $(thing)cultivo/$, isto melhorará a velocidade de crescimento daquele cultivo. $(thing)Partículas verdes/$ são emitidas para mostrar quando o $(item)Suporte de Plantação/$ acelera o crescimento.$(p)Para remover um $(item)Suporte de Plantação/$, quebre o bloco embaixo dele ou $(thing)agache+clique com o botão direito/$ no bloco com um $(l:tools/logistics_configurator)Configurador de Logística/$ ou outro $(item)Suporte de Plantação/$."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Suporte de Plantação",
+            "recipe": "pneumaticcraft:crop_support"
+        }
+    ]
 }

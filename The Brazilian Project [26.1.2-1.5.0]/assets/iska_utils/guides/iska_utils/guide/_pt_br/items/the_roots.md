@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:the_roots
 categories:
-  - Entrega Suspeita
+  - Suspicious Delivery
 ---
 <iska_utils:TheRootsTitle />
 
@@ -15,7 +15,7 @@ categories:
 
 ## O que faz
 
-A natureza delas é mutável. Vestidas no **Curios**, sua **velocidade de mineração** muda imprevisivelmente — às vezes um pouco mais rápida, às vezes muito mais rápida.
+A natureza delas é mutável. Usadas no **Curios**, sua **velocidade de mineração** muda de forma imprevisível — às vezes um pouco mais rápida, às vezes muito mais rápida.
 
 ## Como obter
 

@@ -1,0 +1,43 @@
+---
+title: Extrator de Rocha Matriz
+id: oritech:bedrock_extractor
+type: block
+custom:
+    Capacidade de RF: "20,000"
+    RF por etapa: "1,024"
+    Etapas por minério: "20"
+    Núcleos necessários: "26"
+---
+O Extrator de Rocha Matriz é uma máquina grande
+usada para extrair recursos de baixo da camada de rocha matriz.
+
+<center>
+<ModAsset location="oritech:area/bedrock_extraction" width={800} />
+</center>
+
+Ele só pode operar quando colocado diretamente acima de
+[nós de recurso](@oritech:redstone_resource_node).
+
+---
+
+**Extração de Recursos da Rocha Matriz**
+
+O extrator varre uma área de 3x3 abaixo dele e minera os primeiros
+nós de minério visíveis encontrados em até 3 blocos de profundidade.
+Ao clicar com o botão direito, a máquina destaca os nós de recurso
+alvejados abaixo.
+
+Por causa dos seus altos requisitos de energia, ele não pode ser alimentado por
+cabos comuns e precisa ser energizado por
+[lasers endéricos](@oritech:enderic_laser).
+
+Os nós de recurso são fontes infinitas de material e nunca serão
+esgotados pelo extrator.
+
+**Detalhes de Operação**
+
+Durante a operação, o extrator seleciona aleatoriamente um bloco da
+área 3x3 abaixo dele a cada ciclo bem-sucedido.
+Nem todos os blocos da área precisam ser nós de minério, mas para o melhor
+rendimento, você deve tentar posicionar o extrator sobre um ponto com o
+número máximo de nós de minério.

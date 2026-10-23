@@ -18,9 +18,9 @@ item_ids:
 
 ![](./energy_hopper.png)
 
-O Funil de Energia é um bloco usado para carregar itens carregáveis dentro de um inventário adjacente, como um baú ou qualquer bloco com um inventário acessível e não tem energia de forja. 
+O Funil de Energia é um bloco usado para carregar itens carregáveis dentro de um inventário adjacente, como um baú ou qualquer bloco com inventário acessível que ainda não tenha Forge Energy. 
 
-|                                                | Capacidade                                                 | I/O Máximo                                              |
+|                                                | Capacidade                                                   | E/S Máx.                                                 |
 | ---------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------- |
 | <ItemLink id="powah:energy_hopper_starter" />  | <powah:EnergyCapacity id="powah:energy_hopper_starter" />  | <powah:EnergyMaxIO id="powah:energy_hopper_starter" />  |
 | <ItemLink id="powah:energy_hopper_basic" />    | <powah:EnergyCapacity id="powah:energy_hopper_basic" />    | <powah:EnergyMaxIO id="powah:energy_hopper_basic" />    |

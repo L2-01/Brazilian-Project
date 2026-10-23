@@ -12,7 +12,7 @@ navigation:
 
   <ItemImage id="draconicevolution:crafting_core" scale="2"/>
 
-  Executa a Fabricação por Fusão como um passo de fabricação automática ME, num Núcleo de Fusão real com seus Injetores ou numa Matriz que substitui o multibloco inteiro.
+  Executa a Fabricação por Fusão como etapa de fabricação automática ME, num Núcleo de Fabricação real com seus Injetores ou numa Matriz que substitui o multibloco inteiro.
 </Column>
 
 <Recipe id="nep:module_status/draconicevolution"/>
@@ -27,9 +27,9 @@ navigation:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-| Processo | Configuração | Padrão |
+| Processo | Preparação | Padrão |
 |---|---|---|
-| <ItemImage id="draconicevolution:crafting_core" scale="0.5"/> Fabricação por Fusão | Núcleo de Fusão com Injetores | Padrão de Fabricação por Fusão |
+| <ItemImage id="draconicevolution:crafting_core" scale="0.5"/> Fabricação por Fusão | Núcleo de Fabricação com Injetores | Padrão de Fabricação por Fusão |
 | <ItemImage id="nep:fusion_matrix" scale="0.5"/> Fabricação por Fusão | Uma única Matriz, sem multibloco | Padrão de Fabricação por Fusão |
 
 <ItemImage id="minecraft:air" scale="0.5"/>
@@ -44,7 +44,7 @@ navigation:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Num servidor que liga **Require Decoder**, os padrões do Draconic Evolution só codificam numa rede cujo [Decodificador de Padrões](/nep/pattern-decoder.md) carregue este módulo. Sem ele, codificam como Padrões de Processamento comuns.
+Num servidor que ativa **Exigir Decodificador**, padrões do Draconic Evolution só codificam numa rede cujo [Decodificador de Padrões](/nep/pattern-decoder.md) carrega este módulo. Sem ele, codificam como Padrões de Processamento comuns.
 
 <Recipe id="nep:draconic_evolution_encoding_module"/>
 

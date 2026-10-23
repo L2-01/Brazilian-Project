@@ -45,7 +45,7 @@ item_ids:
   <ItemImage id="nether_quartz_sword" scale="4" />
 </Row>
 
-Ferramentas de quartzo são funcionalmente idênticas a ferramentas de ferro, com o mesmo dano, durabilidade, velocidade de mineração, etc.
+Ferramentas de quartzo são funcionalmente idênticas às ferramentas de ferro, com o mesmo dano, durabilidade, velocidade de mineração etc.
 Há variantes de quartzo do nether e de [quartzo certus](fluix_crystal.md).
 
 ## Receitas

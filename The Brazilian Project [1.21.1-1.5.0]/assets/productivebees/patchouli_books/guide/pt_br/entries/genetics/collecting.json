@@ -5,11 +5,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O engarrafador junto com um pistão pode ser usado para engarrafar abelhas. Coloque uma abelha no meio e puxe a alavanca. Certifique-se de que o engarrafador tenha frascos vazios dentro. Jogue a abelha engarrafada numa centrífuga para separar o material útil do resto."
+      "text": "O engarrafador junto com um pistão pode ser usado para engarrafar abelhas. Coloque uma abelha no meio e puxe a alavanca. Certifique-se de que o engarrafador tenha garrafas vazias dentro. Jogue a abelha engarrafada numa centrífuga para separar o que é útil do lixo."
     },
     {
       "type": "multiblock",
-      "name": "Bee Bottler",
+      "name": "Engarrafador de Abelhas",
       "multiblock": {
         "mapping": {
           "P": "minecraft:piston[facing=down]",

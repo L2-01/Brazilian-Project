@@ -1,0 +1,17 @@
+{
+  "name": "Alimentador de Animais",
+  "icon": "industrialforegoing:animal_feeder",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 8,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uma máquina usada para $(6)alimentar$() animais para que possam produzir filhotes quando a máquina é abastecida com o item de alimentação animal."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:animal_feeder"
+    }
+  ]
+}

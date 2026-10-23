@@ -1,49 +1,49 @@
 {
-    "name": "Módulo de Estabilização",
-    "icon": "mffs:stabilization_module",
-    "category": "mffs:projector_modules",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:stabilization_module",
-            "link_recipe": true,
-            "text": "O $(5)Módulo de Estabilização$() pode ser usado num $(l:mffs:machines/projector)Projetor de Campo de Força$() para cristalizar o campo numa forma sólida. Em vez de criar uma barreira de campo de energia que desaparece quando desligada, o Projetor substitui o campo por blocos reais fornecidos pelo jogador."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Dessa forma, o $(5)Módulo de Estabilização$() torna possível produzir uma réplica física exata de um padrão de campo de força que permanece depois que o Projetor é desativado. Como o campo é construído usando blocos reais, sua durabilidade corresponde à dos blocos. No entanto, enquanto o Projetor estiver suficientemente energizado e suprido com blocos de reposição suficientes, ele regenerará continuamente a estrutura do campo se ela for quebrada."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "O processo de estabilização (transposição) requer mais $(l:mffs:getting_started/fortron)Fortron$() e é mais lento que a projeção de campo normal; mas se usado em combinação com o recurso de $(l:mffs:projector_modes/custom_mode)$(2)Modo Personalizado$() de um Projetor, suas aplicações concebíveis são virtualmente ilimitadas. Por exemplo, um jogador poderia criar uma estrutura que fosse automaticamente reparada sempre que um $(2)Creeper$() tentasse explodi-la. Adicionar $(l:mffs:upgrade_modules/speed_module)$(5)Módulos de Velocidade$() num Projetor permite que múltiplos blocos sejam estabilizados de uma vez."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:stabilization_module",
-            "text": "Fabricando o $(5)Módulo de Estabilização$()."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Uso",
-            "text": "$(li)Coloque um baú ao lado do $(l:mffs:machines/projector)Projetor de Campo de Força$() (qualquer lado) e certifique-se de que ele contém os blocos necessários para erguer o campo.$(li)Insira um Módulo de Estabilização de Campo nos espaços de matriz do Projetor. Configure o campo como desejar e depois ative o Projetor.$(li)O Projetor consumirá blocos dos baús adjacentes na ordem em que aparecem. Se um baú contiver uma mistura de blocos diferentes, a estrutura alvo também será composta por uma mistura de blocos.$()"
-        },
-        {
-            "type": "patchouli:image",
-            "images": [
-                "mffs:textures/gui/handbook/stabilization_module.png"
-            ],
-            "border": true,
-            "title": "Projeção",
-            "text": "Um Projetor de Campo de Força estabilizando uma parede usando o $(5)Módulo de Estabilização$()."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Uso do Modo Personalizado",
-            "text": "Diferente dos outros modos disponíveis para o $(l:mffs:machines/projector)Projetor de Campo de Força$(), o item $(l:mffs:projector_modes/custom_mode)$(2)Modo Personalizado$() armazena a posição precisa e o tipo de cada bloco que analisa. Como resultado, o processo de estabilização para o $(l:mffs:projector_modes/custom_mode)$(2)Modo Personalizado$() não funciona da mesma forma. Em vez de consumir blocos na ordem em que aparecem e transpô-los para locais arbitrários, o Projetor usará apenas os tipos de bloco que correspondem ao padrão original."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Cada bloco é colocado exatamente como deveria ser de acordo com seu tipo e posição. Se um Projetor ficar sem os tipos de bloco correspondentes necessários para replicar um padrão, ele pausará até que sejam fornecidos."
-        }
-    ]
+  "name": "Módulo de Estabilização",
+  "icon": "mffs:stabilization_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:stabilization_module",
+      "link_recipe": true,
+      "text": "O $(5)Módulo de Estabilização$() pode ser usado num $(l:mffs:machines/projector)Projetor de Campo de Força$() para cristalizar o campo numa forma sólida. Em vez de criar uma barreira de energia que desaparece quando desligada, o Projetor substitui o campo por blocos reais fornecidos pelo jogador."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Dessa forma, o $(5)Módulo de Estabilização$() torna possível produzir uma réplica física exata de um padrão de campo de força que permanece após o Projetor ser desativado. Como o campo é construído com blocos reais, sua durabilidade corresponde à dos blocos. No entanto, enquanto o Projetor estiver suficientemente energizado e abastecido com blocos de reposição suficientes, ele regenerará continuamente a estrutura do campo se ela for quebrada."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O processo de estabilização (transposição) requer mais $(l:mffs:getting_started/fortron)Fortron$() e é mais lento que a projeção normal de campo; mas se usado em combinação com o recurso $(l:mffs:projector_modes/custom_mode)$(2)Modo Personalizado$() de um Projetor, suas aplicações concebíveis são praticamente ilimitadas. Por exemplo, um jogador poderia criar uma estrutura que fosse reparada automaticamente sempre que um $(2)Creeper$() tentasse explodi-la. Adicionar $(l:mffs:upgrade_modules/speed_module)$(5)Módulos de Velocidade$() a um Projetor permite estabilizar vários blocos de uma vez."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:stabilization_module",
+      "text": "Fabricando o $(5)Módulo de Estabilização$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(li)Coloque um baú ao lado do $(l:mffs:machines/projector)Projetor de Campo de Força$() (qualquer lado) e certifique-se de que ele contenha os blocos necessários para construir o campo.$(li)Insira um Módulo de Estabilização de Campo nos slots de matriz do Projetor. Configure o campo como desejar e então ative o Projetor.$(li)O Projetor consumirá blocos dos baús adjacentes na ordem em que aparecem. Se um baú contiver uma mistura de blocos diferentes, a estrutura resultante também será composta por uma mistura de blocos.$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/stabilization_module.png"
+      ],
+      "border": true,
+      "title": "Projeção",
+      "text": "Um Projetor de Campo de Força estabilizando uma parede usando o $(5)Módulo de Estabilização$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso do Modo Personalizado",
+      "text": "Diferente dos outros modos disponíveis para o $(l:mffs:machines/projector)Projetor de Campo de Força$(), o item $(l:mffs:projector_modes/custom_mode)$(2)Modo Personalizado$() armazena a posição exata e o tipo de cada bloco que analisa. Como resultado, o processo de estabilização para o $(l:mffs:projector_modes/custom_mode)$(2)Modo Personalizado$() não funciona da mesma forma. Em vez de consumir blocos na ordem em que aparecem e transpô-los para locais arbitrários, o Projetor pegará apenas os tipos de bloco que correspondem ao padrão original."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Cada bloco é colocado exatamente como deveria ser, de acordo com seu tipo e posição. Se um Projetor ficar sem os tipos de bloco correspondentes necessários para replicar um padrão, ele pausará até que sejam fornecidos."
+    }
+  ]
 }

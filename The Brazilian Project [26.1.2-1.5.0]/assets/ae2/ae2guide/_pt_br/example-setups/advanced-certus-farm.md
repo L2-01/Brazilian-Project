@@ -1,23 +1,23 @@
 ---
 navigation:
   parent: example-setups/example-setups-index.md
-  title: Farm de Certus Avançada
+  title: Farm Avançada de Certus
   icon: certus_quartz_crystal
   position: 120
 ---
 
-# Farm de Certus Avançada
+# Farm Avançada de Certus
 
-Isto é basicamente só a [Farm de Certus Semiautomática](semiauto-certus-farm.md), só que totalmente integrada ao seu
+Esta é basicamente a [Farm de Certus Semiautomática](semiauto-certus-farm.md), exceto que ela foi totalmente integrada ao seu
 sistema ME.
 
-Em vez de ter um grande estoque de blocos de drusa e renová-los manualmente de tempos em tempos,
-este esquema usa a [Automação do Carregador](charger-automation.md) e a [Automação de Jogar na Água](throw-in-water-automation.md)
+Em vez de manter um grande estoque de blocos em brotamento e renová-los manualmente de tempos em tempos,
+esta configuração usa a [Automação do Carregador](charger-automation.md) e a [Automação de Jogar na Água](throw-in-water-automation.md)
 para fazer isso automaticamente.
 
-Veja [Crescimento do Certus](../ae2-mechanics/certus-growth.md) para velocidades estimadas.
+Veja [Crescimento de Certus](../ae2-mechanics/certus-growth.md) para velocidades estimadas.
 
-**ESTA É UMA CONSTRUÇÃO COMPLEXA COM COISAS ESCONDIDAS ATRÁS DE OUTRAS COISAS, GIRE A CÂMERA PARA VÊ-LA DE TODOS OS ÂNGULOS**
+**ESTA É UMA CONSTRUÇÃO COMPLEXA COM COISAS ESCONDIDAS ATRÁS DE OUTRAS, GIRE A CÂMERA PARA VÊ-LA DE TODOS OS ÂNGULOS**
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/advanced_certus_farm.snbt" />
@@ -45,20 +45,20 @@ Veja [Crescimento do Certus](../ae2-mechanics/certus-growth.md) para velocidades
   </BoxAnnotation>
 
   <DiamondAnnotation pos="3 1.5 1.5" color="#00ff00">
-    Sub-rede Quebradora de Blocos de Certus
+    Sub-rede Quebradora de Bloco de Certus
   </DiamondAnnotation>
 
   <BoxAnnotation color="#ffddaa" min="4 0.7 1" max="5 1 2">
-        (5) Plano de Formação: Na sua configuração padrão.
+        (5) Formation Plane: Em sua configuração padrão.
   </BoxAnnotation>
 
   <BoxAnnotation color="#ffddaa" min="2 0.7 2" max="3 1 3">
-        (6) Ponto de Importação: Filtrado para Drusa de Quartzo Certus Imperfeita.
+        (6) Import Bus: Filtrado para Drusa de Quartzo Certus Imperfeita.
         <BlockImage id="flawed_budding_quartz" scale="2" />
   </BoxAnnotation>
 
   <DiamondAnnotation pos="3 0.5 1.5" color="#ddcc00">
-    Sub-rede Colocadora de Blocos de Drusa
+    Sub-rede Colocadora de Bloco em Brotamento
   </DiamondAnnotation>
 
   <BoxAnnotation color="#aaaadd" min="1.7 2 2" max="2 3 3">
@@ -67,7 +67,7 @@ Veja [Crescimento do Certus](../ae2-mechanics/certus-growth.md) para velocidades
   </BoxAnnotation>
 
   <BoxAnnotation color="#aaaadd" min="2 1 2" max="3 2 3">
-        (8) Interface: Configurada para manter 1 Drusa de Quartzo Certus Imperfeita em si, tem um Cartão de Fabricação.
+        (8) Interface: Configurada para manter 1 Drusa de Quartzo Certus Imperfeita dentro de si, tem um Cartão de Fabricação.
         <Row><BlockImage id="flawed_budding_quartz" scale="2" /> <ItemImage id="crafting_card" scale="2" /></Row>
   </BoxAnnotation>
 
@@ -90,60 +90,60 @@ Veja [Crescimento do Certus](../ae2-mechanics/certus-growth.md) para velocidades
 
 ## Configurações
 
-### Quebradora de Agregados:
+### Quebrador de Agregados:
 
 * O primeiro <ItemLink id="annihilation_plane" /> (1) não tem GUI e não pode ser configurado, mas pode ser encantado com Fortuna.
 * O primeiro <ItemLink id="storage_bus" /> (2) está filtrado para <ItemLink id="certus_quartz_crystal" />.
 
-### Quebradora de Blocos de Certus:
+### Quebrador de Bloco de Certus:
 
-* O segundo <ItemLink id="annihilation_plane" /> (3) não tem GUI e não pode ser configurado, mas deve ser encantado com Toque Suave.
+* O segundo <ItemLink id="annihilation_plane" /> (3) não tem GUI e não pode ser configurado, mas precisa ser encantado com Toque Suave.
 * O segundo <ItemLink id="storage_bus" /> (4) está filtrado para <ItemLink id="quartz_block" />.
 
-### Colocadora de Blocos de Drusa:
+### Colocador de Bloco em Brotamento:
 
-* O <ItemLink id="formation_plane" /> (5) está na sua configuração padrão.
+* O <ItemLink id="formation_plane" /> (5) está em sua configuração padrão.
 * O <ItemLink id="import_bus" /> (6) está filtrado para <ItemLink id="flawed_budding_quartz" />.
 
 ### Na Rede Principal:
 
 * O terceiro <ItemLink id="storage_bus" /> (7) está filtrado para <ItemLink id="certus_quartz_crystal" />, e tem sua
   [prioridade](../ae2-mechanics/import-export-storage.md#storage-priority) definida acima do seu armazenamento principal.
-* A <ItemLink id="interface" /> (8) está configurada para manter 1 Drusa de Quartzo Certus Imperfeita em si, e tem um <ItemLink id="crafting_card" />.
+* A <ItemLink id="interface" /> (8) está configurada para manter 1 Drusa de Quartzo Certus Imperfeita dentro de si, e tem um <ItemLink id="crafting_card" />.
 
 ## Como Funciona
 
-### Quebradora de Agregados:
+### Quebrador de Agregados:
 
-A sub-rede quebradora de agregados funciona de forma muito semelhante à sub-rede da [farm simples de certus](simple-certus-farm.md).
+A sub-rede quebradora de agregados funciona de forma bem parecida com a sub-rede da [farm simples de certus](simple-certus-farm.md).
 
 1. O <ItemLink id="annihilation_plane" /> tenta quebrar o que está à sua frente, mas só consegue quebrar <ItemLink id="quartz_cluster" />
-   porque o único armazenamento na sub-rede é o <ItemLink id="storage_bus" />, filtrado para <ItemLink id="certus_quartz_crystal" />.
+   porque o único armazenamento da sub-rede é o <ItemLink id="storage_bus" />, filtrado para <ItemLink id="certus_quartz_crystal" />.
 2. O <ItemLink id="storage_bus" /> armazena os cristais de quartzo certus no barril.
 
-### Quebradora de Blocos de Certus
+### Quebrador de Bloco de Certus
 
-A sub-rede quebradora de blocos de certus serve para quebrar o bloco de drusa esgotado quando ele vira um simples <ItemLink id="quartz_block" />.
-Ela funciona de forma semelhante à quebradora de agregados.
+A sub-rede quebradora de bloco de certus serve para quebrar o bloco em brotamento esgotado quando ele vira um <ItemLink id="quartz_block" /> comum.
+Ela funciona de forma parecida com a quebradora de agregados.
 
 1. O <ItemLink id="annihilation_plane" /> tenta quebrar o que está à sua frente, mas só consegue quebrar <ItemLink id="quartz_block" />
-   porque o único armazenamento na sub-rede é o <ItemLink id="storage_bus" />, filtrado para <ItemLink id="quartz_block" />.
-   O plano precisa ter Toque Suave, para que o bloco de drusa não degrade ao ser quebrado, e assim o plano não o quebre prematuramente.
+   porque o único armazenamento da sub-rede é o <ItemLink id="storage_bus" />, filtrado para <ItemLink id="quartz_block" />.
+   O plano precisa ter toque suave, para que o bloco em brotamento não degrade ao ser quebrado e o plano não o quebre prematuramente.
 2. O <ItemLink id="storage_bus" /> armazena o bloco de quartzo certus na <ItemLink id="interface" />, permitindo que a
-   [Automação de Jogar na Água](throw-in-water-automation.md) o use para fazer uma nova <ItemLink id="flawed_budding_quartz" />.
+   [Automação de Jogar na Água](throw-in-water-automation.md) o use para criar uma nova <ItemLink id="flawed_budding_quartz" />.
 
-### Colocadora de Blocos de Drusa
+### Colocador de Bloco em Brotamento
 
-A sub-rede colocadora de blocos de drusa serve para colocar uma nova <ItemLink id="flawed_budding_quartz" /> quando a sub-rede quebradora quebra a antiga esgotada.
+A sub-rede colocadora de bloco em brotamento serve para colocar uma nova <ItemLink id="flawed_budding_quartz" /> quando a sub-rede quebradora quebra a antiga esgotada.
 
-1. O <ItemLink id="import_bus" /> importa um bloco de drusa da <ItemLink id="interface" /> para o [armazenamento da rede](../ae2-mechanics/import-export-storage.md)
-2. O único armazenamento na sub-rede é o <ItemLink id="formation_plane" />, que coloca o bloco de drusa.
+1. O <ItemLink id="import_bus" /> importa um bloco em brotamento da <ItemLink id="interface" /> para o [armazenamento de rede](../ae2-mechanics/import-export-storage.md)
+2. O único armazenamento da sub-rede é o <ItemLink id="formation_plane" />, que coloca o bloco em brotamento.
 
 ### Na Rede Principal
 
-* O <ItemLink id="storage_bus" /> dá à rede principal (e também à [Automação do Carregador](charger-automation.md)) acesso a todos os cristais de quartzo certus no barril. Está configurado com
-  [prioridade](../ae2-mechanics/import-export-storage.md#storage-priority) alta para que cristais de quartzo certus sejam preferencialmente
-  colocados de volta no barril em vez de no seu armazenamento principal.
-* A <ItemLink id="interface" /> dá à sub-rede colocadora de blocos de drusa acesso a uma <ItemLink id="flawed_budding_quartz" />, e
-    dá à sub-rede quebradora de blocos de certus uma forma de devolver os blocos esgotados à rede principal. O
-    <ItemLink id="crafting_card" /> permite à interface pedir novos blocos de drusa à [autofabricação](../ae2-mechanics/autocrafting.md) da rede principal.
+* O <ItemLink id="storage_bus" /> dá à rede principal (e também à [Automação do Carregador](charger-automation.md)) acesso a todos os cristais de quartzo certus do barril. Ele está configurado com
+  alta [prioridade](../ae2-mechanics/import-export-storage.md#storage-priority) para que os cristais de quartzo certus sejam preferencialmente
+  devolvidos ao barril em vez de irem para o seu armazenamento principal.
+* A <ItemLink id="interface" /> dá à sub-rede colocadora de bloco em brotamento acesso a uma <ItemLink id="flawed_budding_quartz" /> e
+    dá à sub-rede quebradora de bloco de certus uma forma de devolver os blocos esgotados à rede principal. O
+    <ItemLink id="crafting_card" /> permite que a interface requisite novos blocos em brotamento da [fabricação automática](../ae2-mechanics/autocrafting.md) da rede principal.

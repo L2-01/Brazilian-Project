@@ -7,13 +7,13 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(thing)Módulos de tubo/$ são componentes que podem ser anexados aos $(l:tubes/pressure_tubes)Tubos de Pressão/$, na lateral do tubo ou $(thing)em linha/$ com o tubo.$(p)Módulos anexados podem ser removidos $(thing)agachando e clicando com o botão direito/$ com uma $(l:tools/pneumatic_wrench)Chave-Inglesa Pneumática/$."
+      "text": "$(thing)Módulos de tubo/$ são componentes que podem ser anexados a $(l:tubes/pressure_tubes)Tubos de Pressão/$, seja na lateral do tubo, seja $(thing)em linha/$ com o tubo.$(p)Módulos anexados podem ser removidos $(thing)agachando e clicando com o botão direito/$ com uma $(l:tools/pneumatic_wrench)Chave-Inglesa Pneumática/$."
     },
     {
       "anchor": "inline",
       "type": "text",
-      "title": "Módulos em Linha",
-      "text": "$(thing)Módulos em linha/$ são um pouco especiais, pois:$(li)Um Tubo de Pressão pode ter apenas um módulo em linha.$(li)Um Tubo de Pressão com um módulo em linha não pode ter nenhum outro módulo.$(li)Um Tubo de Pressão com um módulo em linha só pode ser conectado em dois lados: as duas extremidades do módulo em linha.$(li)Módulos em linha podem $(italic)somente/$ ser posicionados na extremidade aberta de um Tubo de Pressão."
+      "title": "Módulos Internos",
+      "text": "$(thing)Módulos internos/$ são um pouco especiais:$(li)Um Tubo de Pressão pode ter apenas um módulo interno.$(li)Um Tubo de Pressão com módulo interno não pode ter nenhum outro módulo.$(li)Um Tubo de Pressão com módulo interno só pode ser conectado em dois lados: as duas extremidades do módulo interno.$(li)Módulos internos $(italic)só/$ podem ser colocados na extremidade aberta de um Tubo de Pressão."
     },
     {
       "type": "relations",

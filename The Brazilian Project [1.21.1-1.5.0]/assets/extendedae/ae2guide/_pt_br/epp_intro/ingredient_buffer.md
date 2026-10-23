@@ -13,4 +13,4 @@ item_ids:
 
 <BlockImage id="extendedae:ingredient_buffer" scale="8"></BlockImage>
 
-A Reserva de Ingredientes ME é um bloco de armazenamento que pode guardar 36 tipos de recursos, variando de itens a fluidos.
+Um bloco de armazenamento que comporta 36 tipos de conteúdo, de itens a fluidos.

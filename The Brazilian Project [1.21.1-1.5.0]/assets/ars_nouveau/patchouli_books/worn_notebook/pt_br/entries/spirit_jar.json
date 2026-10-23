@@ -1,23 +1,23 @@
 {
-  "name": "Jarras de Espíritos",
-  "icon": "occultism:book_of_binding_bound_foliot",
-  "category": "ars_nouveau:ars_ocultas",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Os Espíritos do Occultism podem trabalhar dentro de $(l:machines/mob_jar)Jarras de Contenção$(/l). Eles mantêm o comportamento original e $(thing)não decaem$(), o que os torna perfeitos para automações! $(br2)A Jarra de Espíritos coleta automaticamente qualquer item num raio de 7x7 centrado nela que corresponda ao filtro do espírito (para espíritos trituradores, ela coleta automaticamente qualquer minério que ele possa processar)."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Itens também podem ser empurrados para dentro da jarra de contenção usando um funil ou starbuncles (qualquer tubo também deve funcionar!). Jogadores também podem clicar com o botão direito em qualquer item diretamente na jarra. $(br2)Espíritos em Jarras exibem o comportamento padrão, o que significa que um $(thing)Espírito Triturador$() processará e lançará a saída automaticamente em uma das direções."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": {
-        "item": "occultism:brush"
-      },
-      "title": "Espíritos Zeladores",
-      "text": "Espíritos Zeladores dentro de jarras têm uma propriedade especial. Eles tentam automaticamente coletar itens próximos e empurrá-los para o inventário ao lado. Isso torna a automação super fácil!"
-    }
-  ]
+    "name": "Jarras de Espírito",
+    "icon": "occultism:book_of_binding_bound_foliot",
+    "category": "ars_nouveau:ars_ocultas",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Espíritos do Occultism podem trabalhar dentro de $(l:machines/mob_jar)Jarras de Contenção$(/l). Eles mantêm seu comportamento original e $(thing)não decaem$(), tornando-os perfeitos para automações! $(br2)A Jarra de Espírito coletará automaticamente qualquer item numa área 7x7 centrada nela que corresponda ao filtro do espírito (para espíritos trituradores, ela coletará automaticamente qualquer minério que possa processar)."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Itens também podem ser empurrados para dentro da jarra de contenção usando um funil ou starbuncles (qualquer cano também deve funcionar!). Jogadores também podem clicar com o botão direito com qualquer item diretamente na jarra. $(br2)Espíritos em Jarras exibem seu comportamento padrão, o que significa que um $(thing)Espírito Triturador$() processará automaticamente e lançará o produto em uma das direções"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": {
+                "item": "occultism:brush"
+            },
+            "title": "Espíritos Zeladores",
+            "text": "Espíritos Zeladores dentro de jarras têm uma propriedade especial. Eles tentam automaticamente coletar itens próximos e empurrá-los para o inventário ao lado. Isso torna a automação superfácil!"
+        }
+    ]
 }

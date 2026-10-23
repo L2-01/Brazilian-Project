@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: introduction/index.md
-  title: Torre de Indução de Energia Sem Fio
+  title: Torre de Energia Sem Fio
   position: 4
   icon: me_beam_former:wireless_energy_tower
 categories:
@@ -10,7 +10,7 @@ item_ids:
   - me_beam_former:wireless_energy_tower
 ---
 
-# Torre de Indução de Energia Sem Fio
+# Torre de Energia Sem Fio
 
 <Row gap="20">
 <ItemImage id="me_beam_former:wireless_energy_tower" scale="4" />
@@ -19,7 +19,7 @@ item_ids:
 </GameScene>
 </Row>
 
-Um retransmissor de energia sem fio.
+Um relé de energia sem fio.
 
 ## Vinculação
 
@@ -28,5 +28,5 @@ Um retransmissor de energia sem fio.
 
 ## Alcance
 
-- Alcance horizontal: dentro de 20 blocos (X/Z).
-- Alcance vertical: dentro de 256 blocos (Y).
+- Alcance horizontal: até 20 blocos (X/Z).
+- Alcance vertical: até 256 blocos (Y).

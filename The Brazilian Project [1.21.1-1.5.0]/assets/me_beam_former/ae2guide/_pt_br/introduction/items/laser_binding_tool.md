@@ -18,6 +18,6 @@ Usada para vincular Formadores de Feixe Omni e Torres de Energia Sem Fio.
 
 ## Controles
 
-- Agachar + clique direito: selecionar uma origem (torre / omni).
-- Clique direito: vincular/desvincular (torre-a-torre ou omni-a-omni).
-- Agachar + clique esquerdo (no ar): limpar a origem selecionada.
+- Agache + clique com o botão direito: seleciona uma origem (torre / omni).
+- Clique com o botão direito: vincula/desvincula (torre-para-torre ou omni-para-omni).
+- Agache + clique com o botão esquerdo (no ar): limpa a origem selecionada.

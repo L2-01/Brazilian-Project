@@ -2,23 +2,23 @@
     "name": "Poder de Encantamento",
     "icon": "minecraft:experience_bottle",
     "category": "apotheosis:enchanting/table",
-	"flag": "apotheosis:enchanting",
+    "flag": "apotheosis:enchanting",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Durante o processo de encantamento, você gasta experiência e Lápis-Lazúli para encantar um item.$(p)A partir disso, os encantamentos são selecionados aleatoriamente usando fórmulas complexas.$(p)Este capítulo explica esse processo."
+            "text": "Durante o processo de encantamento, você gasta experiência e Lápis-Lazúli para encantar um item.$(p)A partir disso, os encantamentos são selecionados aleatoriamente por fórmulas complexas.$(p)Este capítulo explica esse processo."
         },
-		{
+        {
             "type": "patchouli:text",
             "text": "Primeiro, veremos como os encantamentos são selecionados.$(p)Cada encantamento tem uma $(5)Função de Poder$(), que controla qual $(fpower) tornará um nível específico disponível.$(p)Depois que todos os encantamentos disponíveis são reunidos, alguns são selecionados aleatoriamente com base em seus pesos."
         },
-		{
-			"type": "patchouli:text",
-			"text": "O $(fpower) é calculado pelos seguintes passos:$(p)Inicialmente, você tem um $(bpower), que é o nível que você gastou ao encantar.$(p)Em seguida, $(quanta) e Retificação modificam seu $(bpower) para produzir seu $(fpower)."
-		},
-		{
-			"type": "patchouli:text",
-			"text": "Os detalhes de como cada atributo modifica seu $(bpower) podem ser encontrados nas entradas de $(l:apotheosis:enchanting/table/stats#quanta)$(quanta) e $(l:apotheosis:enchanting/table/stats#rectification)Retificação$().$(p)Normalmente, um $(fpower) maior dará acesso a encantamentos de nível mais alto."
-		}
-	]
+        {
+            "type": "patchouli:text",
+            "text": "O $(fpower) é calculado usando as seguintes etapas:$(p)Inicialmente, você tem um $(bpower), que é o nível que você gastou ao encantar.$(p)Então, $(quanta) e Rectificação modificam seu $(bpower) para produzir seu $(fpower)."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Os detalhes de como cada atributo modifica seu $(bpower) estão nas entradas de $(l:apotheosis:enchanting/table/stats#quanta)$(quanta) e $(l:apotheosis:enchanting/table/stats#rectification)Retificação$().$(p)Normalmente, um $(fpower) maior dá acesso a encantamentos de nível mais alto."
+        }
+    ]
 }

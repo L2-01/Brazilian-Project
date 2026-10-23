@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A $(d)Estação de Impregnação$() é usada para fabricar $(l:items/imbue_fire)Imbuements$(/l).$(br2)Os ingredientes dos espaços externos podem ir em qualquer espaço externo, mas o ingrediente central deve ir no espaço central.",
+      "text": "A $(d)Estação de Impregnação$() é usada para fabricar $(l:items/imbue_fire)Imbuements$(/l).$(br2)Ingredientes que vão nos espaços externos podem ir em qualquer espaço externo, mas o ingrediente central deve ir no espaço central.",
       "title": "Estação de Impregnação"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:imbuing_station",
       "link_recipe": true,
-      "text": "Para automação, o espaço central pode ser acessado pela face superior, os outros espaços de entrada pelas laterais e o espaço de saída pela parte inferior."
+      "text": "Para automação, o espaço central pode ser acessado pela face de cima, os outros espaços de entrada pelos lados, e o espaço de saída por baixo."
     }
   ]
 }

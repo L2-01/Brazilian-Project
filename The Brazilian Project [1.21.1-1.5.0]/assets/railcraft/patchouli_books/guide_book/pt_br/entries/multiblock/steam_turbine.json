@@ -1,16 +1,16 @@
 {
-  "name": "Turbina a Vapor",
-  "icon": "railcraft:steam_turbine",
-  "category": "railcraft:multiblock",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Talvez você tenha chegado ao ponto em que tem Vapor de sobra, mas nada para fazer com ele? Bem, nós podemos ajudar. Oferecemos a você a poderosa Turbina a Vapor, um dispositivo capaz de transformar Vapor em Energia Elétrica.$(br2)Ela é construída num padrão 2x3x2, igual ao do Triturador. Além disso, ela exige que um Rotor de Turbina esteja instalado para operar. Um Rotor deve durar vários dias de uso constante (tempo real). Você pode então reparar o rotor combinando dois rotores usando a mecânica de reparo do vanilla."
-    },
-    {
-      "type": "patchouli:multiblock",
-      "name": "Turbina a Vapor",
-      "multiblock_id": "railcraft:steam_turbine"
-    }
-  ]
+    "name": "Turbina a Vapor",
+    "icon": "railcraft:steam_turbine",
+    "category": "railcraft:multiblock",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Talvez você tenha chegado ao ponto em que tem muito Vapor e nada para fazer com ele? Bem, podemos ajudar. Apresentamos a poderosa Turbina a Vapor, um dispositivo capaz de transformar Vapor em Energia Elétrica.$(br2)Ela é construída num padrão 2x3x2, igual ao Triturador. Além disso, é preciso ter um Rotor de Turbina instalado para operar. Um Rotor deve durar vários dias de uso constante (tempo real). Você pode então reparar o rotor combinando dois rotores usando a mecânica de reparo do vanilla."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Turbina a Vapor",
+            "multiblock_id": "railcraft:steam_turbine"
+        }
+    ]
 }

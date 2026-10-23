@@ -1,24 +1,24 @@
 {
-    "name": "Conselhos",
+    "name": "Dicas",
     "icon": "minecraft:book",
-    "category": "dimdungeons:introduction",	
-	"sortnum": 3,
+    "category": "dimdungeons:introduction",
+    "sortnum": 3,
     "pages": [
         {
             "type": "text",
-            "text": "$(li)Embora a maioria dos enigmas não exija uma Pérola de Ender, elas costumam ser a solução mais fácil.$(li)Há dispensadores de conselhos literais espalhados pela masmorra. Preste atenção neles!$(li)As chaves podem ser renomeadas numa bigorna sem mudar sua função ou estado.$(li)Criaturas não aparecem nas masmorras, exceto perto de geradores."
+            "text": "$(li)Embora a maioria dos quebra-cabeças não exija uma Pérola do Ender, elas costumam ser a solução mais fácil.$(li)Há literalmente dispensadores de dicas espalhados pela masmorra. Preste atenção neles!$(li)As chaves podem ser renomeadas numa bigorna sem mudar sua função ou status.$(li)Criaturas não surgem nas masmorras, exceto perto de geradores."
         },
         {
             "type": "text",
-            "text": "$(li)Se você estiver usando um mod do tipo lápides, certifique-se de configurar a lista-branca do servidor para poder quebrar aquele bloco.$(li)Mesmo que algumas das armadilhas sejam cruéis, eu $(l)realmente$() quero que você tenha sucesso!$(li)Cima Cima Baixo Baixo Esquerda Direita Esquerda Direita$(li)Tijolos rachados são uma pista enorme.$(li)Usar um mapa vanilla é muito mais divertido que usar um minimapa."
-		},
+            "text": "$(li)Se você estiver usando um mod de lápides, certifique-se de configurar a lista de permissões do servidor para poder quebrar aquele bloco.$(li)Mesmo que algumas das armadilhas sejam cruéis, eu $(l)realmente$() quero que você tenha sucesso!$(li)Cima Cima Baixo Baixo Esquerda Direita Esquerda Direita$(li)Tijolos rachados são uma pista enorme.$(li)Usar um mapa vanilla é muito mais divertido que usar um minimapa."
+        },
         {
             "type": "text",
-            "text": "$(li)Essas masmorras existem num espaço de bolso extradimensional! Então é possível que saque de $(o)outras dimensões$() tenha vindo parar aqui também.$(li)Eu me importo com o seu feedback, sugestões e relatórios de bugs! Você pode contatar o autor do mod pelo curseforge, github ou Discord.$(li)Algumas salas de masmorra presumem regras de jogo padrão, como doFireTick=true."
-		},
+            "text": "$(li)Estas masmorras existem num espaço de bolso extradimensional! Então é possível que saques de $(o)outras dimensões$() tenham parado aqui também.$(li)Eu me importo com seu feedback, sugestões e relatórios de bug! Você pode contatar o autor do mod pelo curseforge, github ou Discord.$(li)Algumas salas de masmorra assumem regras de jogo padrão, como doFireTick=true."
+        },
         {
             "type": "text",
-            "text": "$(li)Guarde as suas chaves! Pelo menos até ter certeza de que encontrou tudo numa masmorra.$(li)Poções de Sorte podem ser usadas para melhorar a qualidade do saque em baús 'fáceis'.$(li)Obrigado por Jogar"
-		}
+            "text": "$(li)Guarde suas chaves! Pelo menos até ter certeza de que encontrou tudo numa masmorra.$(li)Poções de Sorte podem ser usadas para melhorar a qualidade do saque em baús 'fáceis'.$(li)Obrigado por Jogar"
+        }
     ]
 }

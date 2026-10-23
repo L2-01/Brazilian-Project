@@ -8,12 +8,12 @@ navigation:
 ---
 
 Para fabricar, clique com o botão direito na <ItemLink
-id="certus_quartz_cutting_knife"/> ou na <ItemLink
-id="nether_quartz_cutting_knife"/> e insira um
+id="certus_quartz_cutting_knife"/> ou <ItemLink
+id="nether_quartz_cutting_knife"/> e insira uma
 
-<ItemLink id="minecraft:iron_ingot" />; você terá então que digitar o nome que
-deseja gravar na placa, e simplesmente extrair a placa pronta. Você pode usar
+<ItemLink id="minecraft:iron_ingot" />; depois você precisará digitar o nome que
+deseja gravar na placa e simplesmente extrair a placa pronta. Você pode usar
 a <ItemLink id="name_press" /> no <ItemLink id="inscriber" /> para renomear
-qualquer um dos seus itens; você pode usar uma ou duas placas por vez — se usar duas
-placas, ela imprimirá o nome usando a combinação dos dois nomes: slot de cima,
-depois slot de baixo.
+qualquer um dos seus itens; pode usar uma ou duas placas por vez — se usar duas
+placas, ele imprimirá o nome combinando os dois nomes, espaço
+superior, depois espaço inferior.

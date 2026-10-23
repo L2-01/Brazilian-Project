@@ -1,21 +1,21 @@
 {
-  "name": "Sensor Sísmico",
-  "icon": "pneumaticcraft:seismic_sensor",
-  "category": "pneumaticcraft:tools",
-  "advancement": "pneumaticcraft:root",
-  "pages": [
-    {
-      "type": "text",
-      "text": "Um Sensor Sísmico é um item de início de jogo usado para rastrear $(l:base_concepts/oil)Óleo/$. Diferente da maioria das ferramentas, o sensor não requer $(l:base_concepts/pressure)pressão/$ para operar. Quando $(thing)clicado com o botão direito/$, ele mostrará se Óleo foi encontrado ou não em algum lugar diretamente abaixo do bloco em que o sensor foi clicado."
-    },
-    {
-      "type": "text",
-      "text": "Um Sensor Sísmico pode ter dois resultados:$(p)$(#008)  Nenhum Óleo encontrado./$$(p)Nenhum Óleo foi encontrado bem abaixo deste bloco. Continue procurando.$(p)$(#008)  Óleo encontrado <distância>m abaixo. Contém cerca de <quantidade> baldes de Óleo./$$(p)Óleo encontrado! O bloco clicado seria um lugar adequado para colocar um $(l:machines/gas_lift)Elevador a Gás/$ para bombear o Óleo para fora."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando um Sensor Sísmico",
-      "recipe": "pneumaticcraft:seismic_sensor"
-    }
-  ]
+    "name": "Sensor Sísmico",
+    "icon": "pneumaticcraft:seismic_sensor",
+    "category": "pneumaticcraft:tools",
+    "advancement": "pneumaticcraft:root",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Um Sensor Sísmico é um item do início do jogo usado para localizar $(l:base_concepts/oil)Petróleo/$. Diferente da maioria das ferramentas, o sensor não requer $(l:base_concepts/pressure)pressão/$ para operar. Ao $(thing)clicar com o botão direito/$, ele mostrará se Petróleo foi ou não encontrado em algum ponto diretamente abaixo do bloco clicado."
+        },
+        {
+            "type": "text",
+            "text": "Um Sensor Sísmico pode ter dois resultados:$(p)$(#008)  Nenhum Petróleo encontrado./$$(p)Não foi encontrado Petróleo logo abaixo deste bloco. Continue procurando.$(p)$(#008)  Petróleo encontrado a <distance>m abaixo. Contém cerca de <amount> baldes de Petróleo./$$(p)Petróleo encontrado! O bloco clicado seria um lugar adequado para colocar um $(l:machines/gas_lift)Elevador a Gás/$ para bombear o Petróleo."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Sensor Sísmico",
+            "recipe": "pneumaticcraft:seismic_sensor"
+        }
+    ]
 }

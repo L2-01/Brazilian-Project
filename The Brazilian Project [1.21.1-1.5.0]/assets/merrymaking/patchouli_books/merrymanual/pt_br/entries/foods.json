@@ -1,156 +1,105 @@
 {
-
-"name": "Doces, Guloseimas e Bebidas",
-    "icon": "merrymaking:fruitcake",
-    "category": "merrymaking:foods",
-    "pages": [
-	
-	{
-		"type": "spotlight",
-		"title": "Bebidas Posicionáveis",
-		"item": "merrymaking:hot_cocoa",
-		"text": "Chocolate Quente, Chocolate Quente com Hortelã e Gemada podem ser colocados como decoração.$(br2)Para pegá-los, use shift+clique. Para bebê-los, use-os normalmente. Eles devolverão uma caneca vazia quando você terminar de beber."
-	},
-	
-	{
-		
+	"name": "Doces, Guloseimas e Golinhos",
+	"icon": "merrymaking:fruitcake",
+	"category": "merrymaking:foods",
+	"pages": [
+		{
+			"type": "spotlight",
+			"title": "Bebidas Colocáveis",
+			"item": "merrymaking:hot_cocoa",
+			"text": "Chocolate Quente, Chocolate Quente com Hortelã e Gemada podem ser colocados como decoração.$(br2)Para recolhê-los, shift + clique. Para bebê-los, use normalmente. Eles devolvem uma caneca vazia quando você terminar de beber."
+		},
+		{
 			"type": "crafting",
 			"title": "Bebidas",
 			"recipe": "merrymaking:mug",
 			"recipe2": "merrymaking:egg_nog"
-			
 		},
-		
 		{
-		
 			"type": "smelting",
 			"title": "Bebidas",
 			"recipe": "merrymaking:hot_cocoa_smelting",
 			"text": "Aqueça uma Caneca de Chocolate para fazer Chocolate Quente."
-			
-			
 		},
-		
 		{
-		
 			"type": "crafting",
 			"title": "Bebidas",
 			"recipe": "merrymaking:mug_cocoa",
 			"recipe2": "merrymaking:peppermint_cocoa"
-			
 		},
-	
 		{
-		
 			"type": "crafting",
 			"title": "Receitas de Ingredientes",
 			"recipe": "merrymaking:ground_ginger",
 			"recipe2": "merrymaking:gingerbread_dough"
-			
 		},
-	
 		{
-		
 			"type": "crafting",
 			"title": "Receitas de Ingredientes",
 			"recipe": "merrymaking:cookie_dough",
 			"recipe2": "merrymaking:icing"
-			
 		},
-				
 		{
-		
 			"type": "crafting",
 			"title": "Receitas de Ingredientes",
 			"recipe": "merrymaking:mint_bottle",
 			"text": "Para fazer Extrato de Hortelã-Pimenta, use um Frasco de Hortelã na Água."
-			
-			
 		},
-		
 		{
-		
 			"type": "crafting",
 			"title": "Receitas de Biscoitos",
 			"recipe": "merrymaking:tree_cookie",
 			"recipe2": "merrymaking:stocking_cookie"
-			
 		},
-		
 		{
-		
 			"type": "crafting",
 			"title": "Receitas de Ingredientes",
 			"recipe": "merrymaking:mitten_cookie",
 			"recipe2": "merrymaking:gingerbread_cookie"
-			
 		},
-		
-			{
-		
-			"type": "crafting",			
-			"recipe": "merrymaking:candy_cane"
-			
-		},
-		
 		{
-		
+			"type": "crafting",
+			"recipe": "merrymaking:candy_cane"
+		},
+		{
 			"type": "crafting",
 			"title": "Outras Sobremesas",
 			"recipe": "merrymaking:fudge",
 			"recipe2": "merrymaking:fruitcake"
-			
 		},
-		
-		
-		
-		{
-		"type": "spotlight",
-		"item": "merrymaking:ham",
-		"text": "Presunto é um novo item largado de Porcos e pode ser cozido numa Fornalha ou num Defumador.$(br2)Coma-o como está, ou prepare-o como uma ceia chique para compartilhar com quem está ao seu redor."
-	},
-	
-	{
-		"type": "patchouli:smelting",
-		"title": "Presunto Cozido",
-		"recipe": "merrymaking:ham_smelting"
-	},
-		
 		{
 			"type": "spotlight",
-			"title": "Ceias",
-			"item":"merrymaking:ham_dinner",
-			"text": "A Ceia de Presunto Festivo e a Ceia de Ave Recheada agora são decorações consumíveis. $(br2)Coma-as da mesma forma que um Bolo e, quando não sobrar nada, você pode pegar sua Travessa de volta para a próxima porção."
+			"item": "merrymaking:ham",
+			"text": "Presunto é um novo drop de Porcos, e pode ser cozido numa Fornalha ou Defumador.$(br2)Coma-o como está, ou prepare-o como uma ceia elegante para compartilhar com quem estiver por perto."
 		},
-		
+		{
+			"type": "patchouli:smelting",
+			"title": "Presunto Cozido",
+			"recipe": "merrymaking:ham_smelting"
+		},
+		{
+			"type": "spotlight",
+			"title": "Jantares",
+			"item": "merrymaking:ham_dinner",
+			"text": "A Ceia de Presunto Festivo e a Ceia de Ave Recheada agora são decorações consumíveis. $(br2)Coma-as da mesma forma que um Bolo e, quando não sobrar nada, você pode pegar sua Travessa de volta para usar na próxima porção."
+		},
 		{
 			"type": "spotlight",
 			"title": "Bandejas de Comida",
-			"item":"merrymaking:cookie_tray",
-			"text": "A Bandeja de Biscoitos e a Bandeja de Colheita agora são decorações interativas. $(br2)Cada vez que você clicar na bandeja, receberá o item do topo. Quando não houver mais itens, você pode pegá-la de volta para a próxima porção."
+			"item": "merrymaking:cookie_tray",
+			"text": "A Bandeja de Biscoitos e a Bandeja de Colheita agora são decorações interativas. $(br2)Cada vez que você clica na bandeja, recebe o item do topo. Quando não houver mais itens, você pode pegá-la de volta para a próxima porção."
 		},
-		
 		{
-			"type": "crafting",	
+			"type": "crafting",
 			"title": "Bandejas de Comida",
 			"recipe": "merrymaking:cookie_tray",
 			"recipe2": "merrymaking:harvest_tray"
 		},
-		
 		{
-			"type": "crafting",	
-			"title": "Ceias",
+			"type": "crafting",
+			"title": "Cejas",
 			"recipe": "merrymaking:poultry_dinner",
 			"recipe2": "merrymaking:ham_dinner"
 		}
-		
-		
-		
-		
-		
-		
-		
-		]
-	
-	
+	]
 }

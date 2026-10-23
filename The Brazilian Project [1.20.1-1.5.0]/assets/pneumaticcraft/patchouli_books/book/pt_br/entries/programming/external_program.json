@@ -10,14 +10,14 @@
     },
     {
       "type": "text",
-      "text": "Este widget pode ser usado para depurar programas de $(item)Drone/$, já que $(l:programming/programmer)Programadores/$ também contam como inventário. Basta programar um $(item)Drone/$ com o widget $(thing)Programa Externo/$ com uma área contendo (apenas) o $(item)Programador/$ e posicioná-lo.$(p)Agora coloque um $(item)Drone/$ ou $(item)API de Rede/$ no programador e crie seu programa. Quando você apertar o botão $(thing)⟶ (exportar)/$ no $(item)Programador/$, o $(item)Drone/$ implantado executará seu programa imediatamente."
+      "text": "Este widget pode ser usado para depurar programas de $(item)Drone/$, já que $(l:programming/programmer)Programadores/$ também contam como um inventário. Basta programar um $(item)Drone/$ com o widget de $(thing)Programa Externo/$ com uma área de (somente) o $(item)Programador/$, e posicioná-lo.$(p)Agora coloque um $(item)Drone/$ ou $(item)API de Rede/$ no programador e crie seu programa. Quando você clicar no botão $(thing)⟶ (exportar)/$ no $(item)Programador/$, o $(item)Drone/$ posicionado executará imediatamente seu programa."
     },
     {
       "type": "image",
       "images": [
         "pneumaticcraft:textures/progwidgets/external_program_piece.png"
       ],
-      "text": "$(italic)Programception/$"
+      "text": "$(italic)Programação-ception/$"
     }
   ]
 }

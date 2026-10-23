@@ -1,28 +1,28 @@
 {
-  "category": "irregular_implements:blocks",
-  "icon": "irregular_implements:oak_platform",
-  "name": "Plataformas",
-  "pages": [
-    {
-      "type": "patchouli:spotlight",
-      "item": "irregular_implements:oak_platform,irregular_implements:oak_platform,irregular_implements:spruce_platform,irregular_implements:birch_platform,irregular_implements:jungle_platform,irregular_implements:acacia_platform,irregular_implements:dark_oak_platform,irregular_implements:crimson_platform,irregular_implements:warped_platform,irregular_implements:mangrove_platform,irregular_implements:bamboo_platform,irregular_implements:cherry_platform",
-      "link_recipe": true,
-      "text": "As $(d)Plataformas$() são $(3)sólidas por cima, mas não por baixo ou pelas laterais$().$(br2)Além disso, agachar permite atravessá-las para baixo.",
-      "title": "Plataformas"
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": "irregular_implements:super_lubricant_platform",
-      "link_recipe": true,
-      "text": "A $(d)Plataforma Super Lubrificante$() funciona da mesma forma, mas anula totalmente o atrito, assim como os outros $(l:blocks/super_lubricant_stone)blocos Super Lubrificados$(/l).$(br2)Isso a torna muito útil para transportar itens, especialmente quando usada com $(l:blocks/plates)chapas$(/l).",
-      "title": "Plataforma Super Lubrificante"
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": "irregular_implements:filtered_super_lubricant_platform",
-      "link_recipe": true,
-      "text": "A $(d)Plataforma de Super Lubrificante Filtrada$() funciona da mesma forma, mas aceita um $(l:items/item_filter)Filtro de Item$(/l).$(br2)Quaisquer itens correspondentes ao filtro atravessarão a plataforma.",
-      "title": "Plataforma de Super Lubrificante Filtrada"
-    }
-  ]
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:oak_platform",
+    "name": "Plataformas",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "irregular_implements:oak_platform,irregular_implements:oak_platform,irregular_implements:spruce_platform,irregular_implements:birch_platform,irregular_implements:jungle_platform,irregular_implements:acacia_platform,irregular_implements:dark_oak_platform,irregular_implements:crimson_platform,irregular_implements:warped_platform,irregular_implements:mangrove_platform,irregular_implements:bamboo_platform,irregular_implements:cherry_platform",
+            "link_recipe": true,
+            "text": "As $(d)Plataformas$() são $(3)sólidas por cima, mas não por baixo nem pelos lados$().$(br2)Além disso, agachar permite cair através delas.",
+            "title": "Plataformas"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "irregular_implements:super_lubricant_platform",
+            "link_recipe": true,
+            "text": "A $(d)Plataforma Super Lubrificante$() age da mesma forma, mas anula totalmente o atrito, assim como os outros $(l:blocks/super_lubricant_stone)blocos Super Lubrificantes$(/l).$(br2)Isso a torna muito útil para transportar itens, especialmente quando usada com $(l:blocks/plates)Chapas$(/l).",
+            "title": "Plataforma Super Lubrificante"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "irregular_implements:filtered_super_lubricant_platform",
+            "link_recipe": true,
+            "text": "A $(d)Plataforma de Super Lubrificante Filtrada$() funciona da mesma forma, mas pode aceitar um $(l:items/item_filter)Filtro de Item$(/l).$(br2)Quaisquer itens que correspondam ao Filtro cairão através da Plataforma.",
+            "title": "Plataforma de Super Lubrificante Filtrada"
+        }
+    ]
 }

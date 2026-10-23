@@ -3,8 +3,10 @@
     "icon": "allthemodium:other_vibranium_ore",
     "category": "allthemodium:dimensions",
     "sortnum": 3,
-    "pages": [{
-        "type": "text",
-        "text": "O Outro é uma dimensão muito hostil. Para se teletransportar para a dimensão, use a $(l:dimensions/teleport_pad)Plataforma de Teletransporte$(/c) no Nether. Pouco se sabe sobre esse lugar, mas parece ser de onde os Piglins vêm; existem enormes cidades subterrâneas em qualquer bioma com cobertura de árvores na superfície, assim como masmorras e pirâmides ancestrais cheias de monstros e tesouros"
-    }]
+    "pages": [
+        {
+            "type": "text",
+            "text": "O Outro é uma dimensão muito hostil. Para se teletransportar até ela, use a $(l:dimensions/teleport_pad)Plataforma de Teletransporte$(/c) no Nether. Pouco se sabe sobre esse lugar, mas parece ser de onde vêm os Piglins. Existem enormes cidades subterrâneas em todos os biomas com cobertura de árvores na superfície, além de masmorras e pirâmides antigas cheias de monstros e espólios"
+        }
+    ]
 }

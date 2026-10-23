@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Gosma Energizado
+  title: Gosma Energizada
   icon: "justdynathings:energized_goo"
   parent: goo.md
   position: 1
@@ -10,11 +10,11 @@ item_ids:
   - justdynathings:energized_goo
 ---
 
-# Gosma Energizado
+# Gosma Energizada
 
-Um novo Gosma que requer **Forge Energy** para permanecer vivo
+Uma nova gosma que exige **Forge Energy** para se manter viva.
 
-Nível do nível : **5**
+Nível : **5**
 
 <BlockImage id="justdynathings:energized_goo" scale="4.0" p:alive="false"/>
 <BlockImage id="justdynathings:energized_goo" scale="4.0" p:alive="true"/>

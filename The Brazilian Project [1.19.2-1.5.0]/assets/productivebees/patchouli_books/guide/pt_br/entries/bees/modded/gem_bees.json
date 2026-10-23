@@ -1,0 +1,680 @@
+{
+    "name": "Abelhas de Gema",
+    "icon": "minecraft:diamond",
+    "read_by_default": true,
+    "sortnum": 2,
+    "category": "productivebees:bees_modded",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Se você tiver mods que adicionam gemas, provavelmente encontrará uma abelha para elas."
+        },
+        {
+            "type": "patchouli:empty",
+            "draw_filler": false
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Ágata",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de agate.",
+            "anchor": "agate",
+            "flag": "productivebees:agate"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Ágata",
+            "entity": "productivebees:configurable_bee{type:'productivebees:agate'}",
+            "flag": "productivebees:agate"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Alexandrita",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de alexandrite.",
+            "anchor": "alexandrite",
+            "flag": "productivebees:alexandrite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Alexandrita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:alexandrite'}",
+            "flag": "productivebees:alexandrite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Âmbar",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de amber.",
+            "anchor": "amber",
+            "flag": "productivebees:amber"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Âmbar",
+            "entity": "productivebees:configurable_bee{type:'productivebees:amber'}",
+            "flag": "productivebees:amber"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Ametista",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de amethyst.",
+            "anchor": "amethyst",
+            "flag": "productivebees:amethyst"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Ametista",
+            "entity": "productivebees:configurable_bee{type:'productivebees:amethyst'}",
+            "flag": "productivebees:amethyst"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Ametrino",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de ametrine.",
+            "anchor": "ametrine",
+            "flag": "productivebees:ametrine"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Ametrino",
+            "entity": "productivebees:configurable_bee{type:'productivebees:ametrine'}",
+            "flag": "productivebees:ametrine"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Amolita",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de ammolite.",
+            "anchor": "ammolite",
+            "flag": "productivebees:ammolite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Amolita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:ammolite'}",
+            "flag": "productivebees:ammolite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Apatita",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de apatite.",
+            "anchor": "apatite",
+            "flag": "productivebees:apatite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Apatita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:apatite'}",
+            "flag": "productivebees:apatite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Água-Marinha",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de aquamarine.",
+            "anchor": "aquamarine",
+            "flag": "productivebees:aquamarine"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Água-Marinha",
+            "entity": "productivebees:configurable_bee{type:'productivebees:aquamarine'}",
+            "flag": "productivebees:aquamarine"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Benitoíta",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de benitoite.",
+            "anchor": "benitoite",
+            "flag": "productivebees:benitoite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Benitoíta",
+            "entity": "productivebees:configurable_bee{type:'productivebees:benitoite'}",
+            "flag": "productivebees:benitoite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Diamante Negro",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de black diamond.",
+            "anchor": "black_diamond",
+            "flag": "productivebees:black_diamond"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Diamante Negro",
+            "entity": "productivebees:configurable_bee{type:'productivebees:black_diamond'}",
+            "flag": "productivebees:black_diamond"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Opala Negra",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de black opal.",
+            "anchor": "black_opal",
+            "flag": "productivebees:black_opal"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Opala Negra",
+            "entity": "productivebees:configurable_bee{type:'productivebees:black_opal'}",
+            "flag": "productivebees:black_opal"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Cornalina",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de carnelian.",
+            "anchor": "carnelian",
+            "flag": "productivebees:carnelian"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Cornalina",
+            "entity": "productivebees:configurable_bee{type:'productivebees:carnelian'}",
+            "flag": "productivebees:carnelian"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Olho de Gato",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de cats eye.",
+            "anchor": "cats_eye",
+            "flag": "productivebees:cats_eye"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Olho de Gato",
+            "entity": "productivebees:configurable_bee{type:'productivebees:cats_eye'}",
+            "flag": "productivebees:cats_eye"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Crisoprásio",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de chrysoprase.",
+            "anchor": "chrysoprase",
+            "flag": "productivebees:chrysoprase"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Crisoprásio",
+            "entity": "productivebees:configurable_bee{type:'productivebees:chrysoprase'}",
+            "flag": "productivebees:chrysoprase"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Cinábrio",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de cinnabar.",
+            "anchor": "cinnabar",
+            "flag": "productivebees:cinnabar"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Cinábrio",
+            "entity": "productivebees:configurable_bee{type:'productivebees:cinnabar'}",
+            "flag": "productivebees:cinnabar"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Citrino",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de citrine.",
+            "anchor": "citrine",
+            "flag": "productivebees:citrine"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Citrino",
+            "entity": "productivebees:configurable_bee{type:'productivebees:citrine'}",
+            "flag": "productivebees:citrine"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Coral",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de coral.",
+            "anchor": "coral",
+            "flag": "productivebees:coral"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Coral",
+            "entity": "productivebees:configurable_bee{type:'productivebees:coral'}",
+            "flag": "productivebees:coral"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Euclásio",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de euclase.",
+            "anchor": "euclase",
+            "flag": "productivebees:euclase"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Euclásio",
+            "entity": "productivebees:configurable_bee{type:'productivebees:euclase'}",
+            "flag": "productivebees:euclase"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Fluorita",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de fluorite.",
+            "anchor": "fluorite",
+            "flag": "productivebees:fluorite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Fluorita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:fluorite'}",
+            "flag": "productivebees:fluorite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Granada",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de garnet.",
+            "anchor": "garnet",
+            "flag": "productivebees:garnet"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Granada",
+            "entity": "productivebees:configurable_bee{type:'productivebees:garnet'}",
+            "flag": "productivebees:garnet"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Safira Verde",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de green sapphire.",
+            "anchor": "green_sapphire",
+            "flag": "productivebees:green_sapphire"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Safira Verde",
+            "entity": "productivebees:configurable_bee{type:'productivebees:green_sapphire'}",
+            "flag": "productivebees:green_sapphire"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Heliodoro",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de heliodor.",
+            "anchor": "heliodor",
+            "flag": "productivebees:heliodor"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Heliodoro",
+            "entity": "productivebees:configurable_bee{type:'productivebees:heliodor'}",
+            "flag": "productivebees:heliodor"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Iolito",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de iolite.",
+            "anchor": "iolite",
+            "flag": "productivebees:iolite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Iolito",
+            "entity": "productivebees:configurable_bee{type:'productivebees:iolite'}",
+            "flag": "productivebees:iolite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Jade",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de jade.",
+            "anchor": "jade",
+            "flag": "productivebees:jade"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Jade",
+            "entity": "productivebees:configurable_bee{type:'productivebees:jade'}",
+            "flag": "productivebees:jade"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Jasper",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de jasper.",
+            "anchor": "jasper",
+            "flag": "productivebees:jasper"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Jasper",
+            "entity": "productivebees:configurable_bee{type:'productivebees:jasper'}",
+            "flag": "productivebees:jasper"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Kunzita",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de kunzite.",
+            "anchor": "kunzite",
+            "flag": "productivebees:kunzite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Kunzita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:kunzite'}",
+            "flag": "productivebees:kunzite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Cianita",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de kyanite.",
+            "anchor": "kyanite",
+            "flag": "productivebees:kyanite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Cianita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:kyanite'}",
+            "flag": "productivebees:kyanite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Lepidolita",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de lepidolite.",
+            "anchor": "lepidolite",
+            "flag": "productivebees:lepidolite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Lepidolita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:lepidolite'}",
+            "flag": "productivebees:lepidolite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Malaquita",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de malachite.",
+            "anchor": "malachite",
+            "flag": "productivebees:malachite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Malaquita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:malachite'}",
+            "flag": "productivebees:malachite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Moldavita",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de moldavite.",
+            "anchor": "moldavite",
+            "flag": "productivebees:moldavite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Moldavita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:moldavite'}",
+            "flag": "productivebees:moldavite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Pedra da Lua",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de moonstone.",
+            "anchor": "moonstone",
+            "flag": "productivebees:moonstone"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Pedra da Lua",
+            "entity": "productivebees:configurable_bee{type:'productivebees:moonstone'}",
+            "flag": "productivebees:moonstone"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Morganita",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de morganite.",
+            "anchor": "morganite",
+            "flag": "productivebees:morganite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Morganita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:morganite'}",
+            "flag": "productivebees:morganite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Ônix",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de onyx.",
+            "anchor": "onyx",
+            "flag": "productivebees:onyx"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Ônix",
+            "entity": "productivebees:configurable_bee{type:'productivebees:onyx'}",
+            "flag": "productivebees:onyx"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Opala",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de opal.",
+            "anchor": "opal",
+            "flag": "productivebees:opal"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Opala",
+            "entity": "productivebees:configurable_bee{type:'productivebees:opal'}",
+            "flag": "productivebees:opal"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Pérola",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de pearl.",
+            "anchor": "pearl",
+            "flag": "productivebees:pearl"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Pérola",
+            "entity": "productivebees:configurable_bee{type:'productivebees:pearl'}",
+            "flag": "productivebees:pearl"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Peridoto",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de peridot.",
+            "anchor": "peridot",
+            "flag": "productivebees:peridot"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Peridoto",
+            "entity": "productivebees:configurable_bee{type:'productivebees:peridot'}",
+            "flag": "productivebees:peridot"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Fosfofilita",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de phosphophyllite.",
+            "anchor": "phosphophyllite",
+            "flag": "productivebees:phosphophyllite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Fosfofilita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:phosphophyllite'}",
+            "flag": "productivebees:phosphophyllite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Piropro",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de pyrope.",
+            "anchor": "pyrope",
+            "flag": "productivebees:pyrope"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Piropro",
+            "entity": "productivebees:configurable_bee{type:'productivebees:pyrope'}",
+            "flag": "productivebees:pyrope"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Quartzo Rosa",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de rose quartz.",
+            "anchor": "rose_quartz",
+            "flag": "productivebees:rose_quartz"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Quartzo Rosa",
+            "entity": "productivebees:configurable_bee{type:'productivebees:rose_quartz'}",
+            "flag": "productivebees:rose_quartz"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "RuBee",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de ruby.",
+            "anchor": "ruby",
+            "flag": "productivebees:ruby"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "RuBee",
+            "entity": "productivebees:configurable_bee{type:'productivebees:ruby'}",
+            "flag": "productivebees:ruby"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Safira",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de sapphire.",
+            "anchor": "sapphire",
+            "flag": "productivebees:sapphire"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Safira",
+            "entity": "productivebees:configurable_bee{type:'productivebees:sapphire'}",
+            "flag": "productivebees:sapphire"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Sodalita",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de sodalite.",
+            "anchor": "sodalite",
+            "flag": "productivebees:sodalite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Sodalita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:sodalite'}",
+            "flag": "productivebees:sodalite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Espinélio",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de spinel.",
+            "anchor": "spinel",
+            "flag": "productivebees:spinel"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Espinélio",
+            "entity": "productivebees:configurable_bee{type:'productivebees:spinel'}",
+            "flag": "productivebees:spinel"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha da Pedra do Sol",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de sunstone.",
+            "anchor": "sunstone",
+            "flag": "productivebees:sunstone"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha da Pedra do Sol",
+            "entity": "productivebees:configurable_bee{type:'productivebees:sunstone'}",
+            "flag": "productivebees:sunstone"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Tanzanita",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de tanzanite.",
+            "anchor": "tanzanite",
+            "flag": "productivebees:tanzanite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Tanzanita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:tanzanite'}",
+            "flag": "productivebees:tanzanite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Tectita",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de tektite.",
+            "anchor": "tektite",
+            "flag": "productivebees:tektite"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Tectita",
+            "entity": "productivebees:configurable_bee{type:'productivebees:tektite'}",
+            "flag": "productivebees:tektite"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Topázio",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de topaz.",
+            "anchor": "topaz",
+            "flag": "productivebees:topaz"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Topázio",
+            "entity": "productivebees:configurable_bee{type:'productivebees:topaz'}",
+            "flag": "productivebees:topaz"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Turmalina",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de tourmaline.",
+            "anchor": "tourmaline",
+            "flag": "productivebees:tourmaline"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Turmalina",
+            "entity": "productivebees:configurable_bee{type:'productivebees:tourmaline'}",
+            "flag": "productivebees:tourmaline"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Turquesa",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de turquoise.",
+            "anchor": "turquoise",
+            "flag": "productivebees:turquoise"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Turquesa",
+            "entity": "productivebees:configurable_bee{type:'productivebees:turquoise'}",
+            "flag": "productivebees:turquoise"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Yellow Abelha de Diamante",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de yellow diamond.",
+            "anchor": "white_diamond",
+            "flag": "productivebees:white_diamond"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Yellow Abelha de Diamante",
+            "entity": "productivebees:configurable_bee{type:'productivebees:white_diamond'}",
+            "flag": "productivebees:white_diamond"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Abelha de Zircão",
+            "text": "Convertida de uma $(l:bees/hive/diamond)Abelha de Diamante$(/l) usando uma gema de zircon.",
+            "anchor": "zircon",
+            "flag": "productivebees:zircon"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Abelha de Zircão",
+            "entity": "productivebees:configurable_bee{type:'productivebees:zircon'}",
+            "flag": "productivebees:zircon"
+        }
+    ]
+}

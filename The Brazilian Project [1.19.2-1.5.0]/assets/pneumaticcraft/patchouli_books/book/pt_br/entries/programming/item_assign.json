@@ -1,23 +1,23 @@
 {
-  "name": "Widget de Atribuir Item",
-  "icon": "pneumaticcraft:textures/progwidgets/item_assign_piece.png",
-  "category": "pneumaticcraft:widget_other",
-  "advancement": "pneumaticcraft:programmer",
-  "pages": [
-    {
-      "type": "text",
-      "text": "O widget $(thing)Atribuir Item/$ é um widget avançado que permite armazenar um item numa $(l:programming/variables)variável/$. Variáveis podem ser coordenadas ou itens; aqui estamos falando da segunda.$(p)Veja o widget $(l:programming/coordinate_operator)Operador de Coordenadas/$ para informações sobre variáveis de coordenada e uma explicação geral sobre variáveis."
-    },
-    {
-      "type": "text",
-      "text": "Para armazenar um item numa $(thing)variável/$ dada, posicione um widget $(l:programming/item_filter)Filtro de Item/$ no lado $(italic)direito/$ do widget $(thing)Atribuir Item/$ com o item desejado. Este item será atribuído à variável, que você especifica $(thing)clicando com o botão direito/$ no widget $(thing)Atribuir Item/$. Apenas o item em si será transferido do filtro; as configurações de filtro não são.$(p)Se você omitir o widget $(thing)Filtro de Item/$, o item segurado pelo drone será atribuído à variável em vez disso."
-    },
-    {
-      "type": "image",
-      "images": [
-        "pneumaticcraft:textures/progwidgets/item_assign_piece.png"
-      ],
-      "text": "$(italic)Widget de Atribuir Item/$"
-    }
-  ]
+    "name": "Widget de Atribuição de Item",
+    "icon": "pneumaticcraft:textures/progwidgets/item_assign_piece.png",
+    "category": "pneumaticcraft:widget_other",
+    "advancement": "pneumaticcraft:programmer",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O widget de $(thing)Atribuição de Item/$ é um widget avançado que permite armazenar um item numa $(l:programming/variables)variável/$. Variáveis podem ser coordenadas ou itens; aqui estamos falando do segundo caso.$(p)Veja o widget $(l:programming/coordinate_operator)Operador de Coordenada/$ para informações sobre variáveis de coordenada e uma explicação geral sobre variáveis."
+        },
+        {
+            "type": "text",
+            "text": "Para armazenar um item numa determinada $(thing)variável/$, coloque um widget de $(l:programming/item_filter)Filtro de Item/$ no lado $(italic)direito/$ do widget de $(thing)Atribuição de Item/$ com o item desejado. Este item será atribuído à variável, que você especifica $(thing)clicando com o botão direito/$ no widget de $(thing)Atribuição de Item/$. Apenas o item em si será transferido do filtro; as configurações do filtro não.$(p)Se você omitir o widget de $(thing)Filtro de Item/$, o item segurado pelo drone será atribuído à variável."
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/progwidgets/item_assign_piece.png"
+            ],
+            "text": "$(italic)Widget de Atribuição de Item/$"
+        }
+    ]
 }

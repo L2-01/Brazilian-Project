@@ -1,24 +1,24 @@
 {
-	"name": "Pacote de Receita",
-	"category": "packagedauto:core",
-	"icon": "packagedauto:package",
-	"pages": [
-		{
-			"type": "patchouli:text",
-			"text": "Os $(item)Pacotes de Receita/$ são criados por $(l:core/packager)Empacotadores/$ e podem ser desempacotados em conjunto nos $(l:core/unpackager)Desempacotadores/$.$(p)Você pode $(thing)$(k:sneak) + $(k:use)/$ num $(item)Pacote de Receita/$ para desempacotá-lo manualmente."
-		},
-		{
-			"type": "patchouli:spotlight",
-			"item": "packagedauto:package",
-			"link_recipe": true
-		},
-		{
-			"type": "patchouli:text",
-			"flag": "&mod:jei,!mod:emi",
-			"title": "Integração com JEI",
-			"text": "Você pode pressionar $(thing)$(k:jei.showUses)/$ num $(item)Pacote de Receita/$ para mostrar seu conteúdo e o que o conjunto de pacotes deve criar."
-		}
-	],
-	"read_by_default": true,
-	"sortnum": 2
+    "name": "Pacote de Receita",
+    "category": "packagedauto:core",
+    "icon": "packagedauto:package",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Os $(item)Pacotes de Receita/$ são criados pelos $(l:core/packager)Empacotadores/$ e podem ser desempacotados em conjunto nos $(l:core/unpackager)Desempacotadores/$.$(p)Você pode $(thing)$(k:sneak) + $(k:use)/$ um $(item)Pacote de Receita/$ para desempacotá-lo manualmente."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "packagedauto:package",
+            "link_recipe": true
+        },
+        {
+            "type": "patchouli:text",
+            "flag": "&mod:jei,!mod:emi",
+            "title": "Integração com JEI",
+            "text": "Você pode pressionar $(thing)$(k:jei.showUses)/$ num $(item)Pacote de Receita/$ para mostrar seu conteúdo e o que o conjunto de pacotes deve criar."
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 2
 }

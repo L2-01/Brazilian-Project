@@ -7,7 +7,7 @@ navigation:
 
 # Máquinas de Processamento
 
-Se você precisa de processamento de recursos, fabricação ou defesa, nós temos a solução.
+Seja para processamento de recursos, fabricação ou defesa, nós temos o que você precisa.
 
 ## Subcategorias
 <SubPages />

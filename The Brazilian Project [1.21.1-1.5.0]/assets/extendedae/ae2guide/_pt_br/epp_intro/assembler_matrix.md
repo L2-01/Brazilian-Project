@@ -27,8 +27,8 @@ item_ids:
 <BlockImage id="extendedae:assembler_matrix_speed" scale="5"></BlockImage>
 </Row>
 
-A Matriz de Montagem é uma estrutura multibloco. Ela é uma combinação de um <ItemLink id="ae2:molecular_assembler" /> e um <ItemLink id="ae2:pattern_provider" />.
-Ela pode executar muitos trabalhos de fabricação ao mesmo tempo (com <ItemLink id="ae2:crafting_accelerator" />s suficientes na sua rede ME) e economizar canais de rede.
+A Matriz de Montagem é uma estrutura multibloco. Ela é uma combinação de <ItemLink id="ae2:molecular_assembler" /> e <ItemLink id="ae2:pattern_provider" />.
+Ela pode executar muitos trabalhos de fabricação ao mesmo tempo (com <ItemLink id="ae2:crafting_accelerator" />s suficientes na sua rede ME) e economizar canais para você.
 
 ## Estrutura
 
@@ -36,32 +36,31 @@ Ela pode executar muitos trabalhos de fabricação ao mesmo tempo (com <ItemLink
   <ImportStructure src="../structure/assembler_matrix.snbt"></ImportStructure>
 </GameScene>
 
-É um prisma retangular com comprimentos de aresta entre 3 e 7.
+É um paralelepípedo retangular, com arestas entre 3 e 7. 
+- As arestas são compostas de Estrutura da Matriz de Montagem.
+- As faces são compostas de Parede da Matriz de Montagem ou Vidro da Matriz de Montagem.
+- O interior é composto de Núcleo de Padrões/Fabricação/Velocidade da Matriz de Montagem.
 
-- Suas arestas são compostas de Estruturas da Matriz de Montagem.
-- Suas faces são compostas de blocos de Parede da Matriz de Montagem ou Vidro da Matriz de Montagem.
-- Seu interior é composto de Núcleos de Padrões, de Fabricação ou de Velocidade da Matriz de Montagem.
-
-Uma Matriz de Montagem válida deve conter pelo menos um Núcleo de Padrões e um Núcleo de Fabricação.
-Ela deve estar completamente preenchida e não pode ser oca.
-Quando a Matriz de Montagem está corretamente formada e energizada, as linhas em suas estruturas ficam azuis.
+Uma Matriz de Montagem válida precisa conter pelo menos um Núcleo de Padrões e um Núcleo de Fabricação.
+Ela precisa estar completamente preenchida e não pode ser oca.
+Quando a Matriz de Montagem está corretamente formada e energizada, as linhas da Estrutura da Matriz de Montagem ficam azuis.
 
 ## Núcleo da Matriz de Montagem
 
-Há três Núcleos da Matriz de Montagem diferentes.
+Há 3 Núcleos da Matriz de Montagem diferentes.
 
 - Núcleo de Padrões da Matriz de Montagem
 
-A Matriz de Montagem só aceita padrões de seus Núcleos de Padrões. Cada Núcleo de Padrões fornece 36 espaços de padrões para a Matriz de Montagem.
+A Matriz de Montagem só aceita padrões pelo seu Núcleo de Padrões. Cada Núcleo de Padrões fornece 36 espaços de padrão para a Matriz de Montagem.
 
 - Núcleo de Fabricação da Matriz de Montagem
 
-A Matriz de Montagem atribui os trabalhos de fabricação recebidos aos seus Núcleos de Fabricação. Cada Núcleo de Fabricação pode executar oito trabalhos de fabricação ao mesmo tempo.
+A Matriz de Montagem distribui os trabalhos de fabricação recebidos aos seus Núcleos de Fabricação. Cada Núcleo de Fabricação pode executar 8 trabalhos de fabricação ao mesmo tempo.
 
 - Núcleo de Velocidade da Matriz de Montagem
 
-Ele atua como o <ItemLink id="ae2:speed_card" /> da Matriz de Montagem. Cinco Núcleos de Velocidade permitem que a Matriz de Montagem opere em velocidade máxima.
-Instalar mais de cinco Núcleos de Velocidade não fornecerá aumento de velocidade adicional.
+Ele é o <ItemLink id="ae2:speed_card" /> da Matriz de Montagem. 5 núcleos de velocidade permitem que a Matriz de Montagem rode na velocidade máxima.
+Instalar mais de 5 núcleos de velocidade não dá um impulso extra.
 
 ## GUI
 
@@ -69,4 +68,4 @@ Clicar com o botão direito numa Matriz de Montagem formada e online abre sua GU
 
 ![GUI](../pic/assembler_matrix.png)
 
-Você pode inserir ou buscar padrões nela e ver quantos trabalhos de fabricação ela está executando.
+Você pode adicionar ou pesquisar padrões nela e ver quantos trabalhos de fabricação ela está executando.

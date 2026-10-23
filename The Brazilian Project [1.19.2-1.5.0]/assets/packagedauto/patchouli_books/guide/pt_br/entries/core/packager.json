@@ -1,48 +1,48 @@
 {
-	"name": "Empacotador",
-	"category": "packagedauto:core",
-	"icon": "packagedauto:packager",
-	"pages": [
-		{
-			"type": "patchouli:text",
-			"text": "O $(item)Empacotador/$ empacota itens em $(l:core/package)Pacotes de Receita/$, que então podem ser desempacotados num $(l:core/unpackager)Desempacotador/$.$(p)Esta máquina requer energia."
-		},
-		{
-			"type": "patchouli:spotlight",
-			"item": "packagedauto:packager",
-			"link_recipe": true,
-			"title": "Uso",
-			"text": "Para usar o $(item)Empacotador/$, coloque um $(l:core/recipe_holder)Suporte de Receita de Pacotes/$ codificado dentro. A máquina então poderá criar $(l:core/package)Pacotes de Receita/$ para as receitas codificadas. Os pacotes criados serão ejetados para inventários adjacentes.$(p)Você pode extrair as entradas pelo lado de cima."
-		},
-		{
-			"type": "patchouli:text",
-			"title": "Modos",
-			"text": "$(thing)Exigir Exato/$: Faz o primeiro pacote que corresponde exatamente ao conteúdo do inventário.$(p)$(thing)Exigir Disjunto/$: Verifica se os pacotes não têm sobreposição e faz o pacote que pode ser feito do conteúdo do inventário; caso contrário, recorre ao $(thing)Exigir Exato/$.$(p)$(thing)Primeira Correspondência/$: Faz o primeiro pacote que pode ser feito do conteúdo do inventário."
-		},
-		{
-			"type": "patchouli:text",
-			"title": "Clonagem de Ajustes",
-			"text": "Usando o $(l:core/settings_cloner)Clonador de Ajustes de Empacotamento/$, você pode copiar e colar o ajuste de modo e as receitas atualmente disponíveis.$(p)Para colar receitas, o $(item)Empacotador/$ de destino não deve ter receitas, e você deve ter um $(l:core/recipe_holder)Suporte de Receita de Pacotes/$ vazio no inventário."
-		},
-		{
-			"type": "patchouli:text",
-			"flag": "mod:ae2",
-			"title": "Integração com AE2",
-			"text": "O $(item)Empacotador/$ pode ser conectado a uma $(thing)Rede ME/$, exigindo um canal.$(p)Ele vai extrair energia para usar, fornecer empacotamento como fabricação automática, e em vez disso ejetar os $(l:core/package)Pacotes de Receita/$ criados na rede."
-		},
-		{
-			"type": "patchouli:crafting",
-			"flag": "!mod:ae2",
-			"recipe": "packagedauto:packager",
-			"title": "Fabricação"
-		},
-		{
-			"type": "patchouli:crafting",
-			"flag": "mod:ae2",
-			"recipe": "packagedauto:packager_ae",
-			"title": "Fabricação"
-		}
-	],
-	"read_by_default": true,
-	"sortnum": 7
+    "name": "Empacotador",
+    "category": "packagedauto:core",
+    "icon": "packagedauto:packager",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(item)Empacotador/$ empacota itens em $(l:core/package)Pacotes de Receita/$, que então podem ser desempacotados num $(l:core/unpackager)Desempacotador/$.$(p)Esta máquina requer energia."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "packagedauto:packager",
+            "link_recipe": true,
+            "title": "Uso",
+            "text": "Para usar o $(item)Empacotador/$, coloque um $(l:core/recipe_holder)Suporte de Receita de Pacotes/$ codificado dentro. A máquina então poderá criar $(l:core/package)Pacotes de Receita/$ para as receitas codificadas. Os pacotes criados serão ejetados para inventários adjacentes.$(p)Você pode extrair as entradas pelo lado de cima."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Modos",
+            "text": "$(thing)Exigir Exato/$: Faz o primeiro pacote que corresponde exatamente ao conteúdo do inventário.$(p)$(thing)Exigir Disjunto/$: Verifica se os pacotes não têm sobreposição e faz o pacote que pode ser feito com o conteúdo do inventário; caso contrário, recorre ao $(thing)Exigir Exato/$.$(p)$(thing)Primeira Correspondência/$: Faz o primeiro pacote que pode ser feito com o conteúdo do inventário."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Clonagem de Ajustes",
+            "text": "Usando o $(l:core/settings_cloner)Clonador de Ajustes de Empacotamento/$, você pode copiar e colar o ajuste de modo e as receitas atualmente disponíveis.$(p)Para colar receitas, o $(item)Empacotador/$ alvo não deve ter receitas e você precisa ter um $(l:core/recipe_holder)Suporte de Receita de Pacotes/$ vazio no seu inventário."
+        },
+        {
+            "type": "patchouli:text",
+            "flag": "mod:ae2",
+            "title": "Integração com AE2",
+            "text": "O $(item)Empacotador/$ pode ser conectado a uma $(thing)Rede ME/$, exigindo um canal.$(p)Ele extrairá energia para usar, fornecerá empacotamento como autofabricação e, em vez disso, ejetará os $(l:core/package)Pacotes de Receita/$ criados para a rede."
+        },
+        {
+            "type": "patchouli:crafting",
+            "flag": "!mod:ae2",
+            "recipe": "packagedauto:packager",
+            "title": "Fabricação"
+        },
+        {
+            "type": "patchouli:crafting",
+            "flag": "mod:ae2",
+            "recipe": "packagedauto:packager_ae",
+            "title": "Fabricação"
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 7
 }

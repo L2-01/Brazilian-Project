@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "A Poção de $(c)Ruptura$() é um efeito negativo.$(p)Enquanto estiver sob seus efeitos, todo dano recebido é aumentado em 20% por nível."
+            "text": "A Poção de $(c)Ruptura$() é um efeito negativo.$(p)Sob seus efeitos, todo dano recebido aumenta em 20% por nível."
         },
         {
             "type": "patchouli:text",
-            "text": "Ela serve como um contraponto direto à resistência e é aditiva com ela.$(p)Se você tivesse Ruptura II e Resistência II, receberia dano normal."
+            "text": "Serve como contrapartida direta da resistência, somando-se a ela.$(p)Com Ruptura II e Resistência II, você sofreria dano normal."
         }
     ]
 }

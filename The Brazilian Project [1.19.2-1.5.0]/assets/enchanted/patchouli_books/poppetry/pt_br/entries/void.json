@@ -1,0 +1,17 @@
+{
+  "name": "Vazio",
+  "icon": "enchanted:void_poppet",
+  "category": "enchanted:infusing_poppets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Bonecos de vazio protegem o beneficiário da morte por dano de vazio (fora do mundo) e o teletransportam para o alto do céu.$(br2)$(bold)Resistente$() Um uso extra.$(br)$(bold)Infundido$() Concede 7.5 segundos de resistência a queda."
+    },
+    {
+      "type": "enchanted:spinning_wheel_recipe",
+      "recipe": "enchanted:spinning/void_poppet"
+    }
+  ],
+  "read_by_default": true,
+  "priority": false
+}

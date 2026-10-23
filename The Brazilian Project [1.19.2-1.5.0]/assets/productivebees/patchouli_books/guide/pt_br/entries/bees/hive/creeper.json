@@ -1,0 +1,19 @@
+{
+    "name": "Abelha Creeper",
+    "icon": "minecraft:gunpowder",
+    "read_by_default": true,
+    "category": "productivebees:bees_hive",
+    "flag": "productivebees:creeper",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Abelha Creeper",
+            "text": "Obtida alimentando um bloco de TNT a uma abelha do jogo padrão.",
+            "anchor": "creeper"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:creeper_bee"
+        }
+    ]
+}

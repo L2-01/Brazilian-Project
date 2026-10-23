@@ -5,20 +5,20 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "As $(d)Botas de Caminhada na Água$() permitem $(3)andar sobre a água$() quando usadas.$(br2)Elas não funcionam enquanto você está agachado ou já debaixo d’água.$(br2)Note que poder $(o)ficar de pé$() na água significa que você também pode $(c)aterrissar$() nela!",
+      "text": "As $(d)Botas de Caminhada na Água$() permitem $(3)andar sobre a água$() quando usadas.$(br2)Não funcionam enquanto agachado, nem quando você já está debaixo d'água.$(br2)Note que poder $(o)ficar de pé$() sobre a água significa que você também pode $(c)aterrissar$() nela!",
       "title": "Botas de Caminhada na Água"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:water_walking_boots",
       "link_recipe": true,
-      "text": "As Botas de Caminhada na Água podem ser encontradas em $(3)Baús de Água$(), que surgem em monumentos oceânicos."
+      "text": "Botas de Caminhada na Água podem ser encontradas em $(3)Baús de Água$(), que aparecem em Monumentos Oceânicos."
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:obsidian_water_walking_boots",
       "link_recipe": true,
-      "text": "As $(d)Botas de Caminhada na Água de Obsidiana$() combinam os efeitos das Botas de Caminhada na Água e do $(l:items/obsidian_skull)Crânio de Obsidiana$(/l).$(br2)Obtenha-as combinando os dois numa bigorna.$(br2)Lembre-se de que o Crânio de Obsidiana $(c)não permite andar sobre lava$()! Para isso, você precisará das $(l:items/lava_waders)Botas de Lava$(/l).",
+      "text": "As $(d)Botas de Caminhada na Água de Obsidiana$() combinam os efeitos das Botas de Caminhada na Água e do $(l:items/obsidian_skull)Crânio de Obsidiana$(/l).$(br2)Obtenha-as combinando os dois numa Bigorna.$(br2)Lembre-se de que o Crânio de Obsidiana $(c)não permite andar sobre lava$()! Para isso, você precisará das $(l:items/lava_waders)Botas de Lava$(/l).",
       "title": "Botas de Caminhada na Água de Obsidiana"
     }
   ]

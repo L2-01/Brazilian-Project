@@ -6,18 +6,18 @@
   "pages": [
     {
       "type": "text",
-      "text": "O $(thing)Widget de Importar Fluido/$ fará o $(l:tools/drone)Drone/$ ir até o tanque mais próximo dentro da $(l:programming/area)área/$ especificada, extrair fluido daquele tanque e colocá-lo no seu próprio tanque.$(p)Ele também pode sugar fluidos de blocos de fluido no mundo, fazendo o $(item)Drone/$ agir como uma bomba portátil."
+      "text": "O $(thing)Widget de Importação de Fluido/$ fará o $(l:tools/drone)Drone/$ ir até o tanque mais próximo dentro da $(l:programming/area)área/$ especificada, extrair fluido daquele tanque e colocá-lo no seu próprio tanque.$(p)Ele também pode sugar fluidos de blocos de fluido no mundo, fazendo o $(item)Drone/$ agir como uma bomba portátil."
     },
     {
       "type": "text",
-      "text": "$(thing)Clique com o botão direito/$ no widget para abrir a GUI de configuração, onde você pode especificar de qual(is) lado(s) o Drone deve extrair os fluidos e a quantidade máxima de fluido importado por operação (em mB).$(p)Você pode $(ttcolor)$(t:Conecte à direita para lista-branca, à esquerda para lista-negra)conectar/$ um $(l:programming/liquid_filter)Filtro de Fluido/$ para limitar o que pode ser importado pelo Drone.$(p)Este widget termina quando o tanque do $(item)Drone/$ está cheio ou quando não há mais líquidos (aplicáveis) a serem encontrados nos tanques."
+      "text": "$(thing)Clique com o botão direito/$ no widget para abrir a GUI de configuração, onde você pode especificar de qual(is) lado(s) o Drone deve extrair os fluidos e a quantidade máxima de fluido importado por operação (em mB).$(p)Você pode $(ttcolor)$(t:Conecte à direita para lista-branca, à esquerda para lista-negra)conectar/$ um $(l:programming/liquid_filter)Filtro de Fluido/$ para limitar o que pode ser importado pelo Drone.$(p)Este widget é concluído quando o tanque do $(item)Drone/$ está cheio ou quando não há mais líquidos (aplicáveis) nos tanques."
     },
     {
       "type": "image",
       "images": [
         "pneumaticcraft:textures/progwidgets/liquid_import_piece.png"
       ],
-      "text": "$(italic)Glup/$"
+      "text": "$(italic)Glub/$"
     }
   ]
 }

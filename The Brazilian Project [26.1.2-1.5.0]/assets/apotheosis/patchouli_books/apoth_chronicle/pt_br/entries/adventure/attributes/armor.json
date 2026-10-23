@@ -1,25 +1,25 @@
 {
-    "name": "Armadura",
-    "icon": "minecraft:iron_chestplate",
-    "category": "apotheosis:adventure/attributes",
-    "flag": "apotheosis:adventure",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "$(9)Armadura$() é a medida de quão resistente você é a dano físico.$(p)Normalmente fornecida por itens de armadura e escudos.$(p)Quanto dano você recebe é uma função do dano recebido e da sua armadura."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "O primeiro componente da fórmula é o $(br)valor A, igual a $(9)10 + (dano - 20) / 2$(), com valor mínimo de $(9)10$().$(p)Você então reduz o dano em $(br)$(9)A / (A + armadura)$().$(p)A fórmula mencionada não é a usada pelo Minecraft Vanilla, já que o Apothic Attributes a substitui."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Para valores de armadura e dano do vanilla, você receberá um pouco menos de dano.$(p)Para valores altos de armadura e dano, a armadura será significativamente menos eficaz.$(p)Armadura negativa aumenta o dano recebido em 1.5% por ponto."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "O objetivo desta mudança é reduzir a invulnerabilidade em níveis altos e tornar $(9)Proteção$() e $(9)Resistência$() mais impactantes.$(p)Também torna lutas em que ambos os lados estão fortemente armadurados significativamente mais ativas."
-        }
-    ]
+	"name": "Armadura",
+	"icon": "minecraft:iron_chestplate",
+	"category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "A $(9)Armadura$() mede o quanto você é resistente a dano físico.$(p)Geralmente fornecida por itens de armadura e escudos.$(p)O dano que você sofre é uma função do dano recebido e da sua armadura."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "O primeiro componente da fórmula é o $(br)valor A, igual a $(9)10 + (dano - 20) / 2$(), com valor mínimo de $(9)10$().$(p)Você então reduz o dano igual a $(br)$(9)A / (A + armadura)$().$(p)A fórmula mencionada não é a usada pelo Minecraft vanilla, pois o Apothic Attributes a substitui (embora seja configurável)."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Para valores de armadura e dano do vanilla, você receberá um pouco menos de dano.$(p)Para valores altos de armadura e dano, a armadura será significativamente menos eficaz.$(p)Armadura negativa aumenta o dano recebido em 1,5% por ponto."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "O objetivo desta mudança é reduzir a invulnerabilidade em níveis altos e tornar $(9)Proteção$() e $(9)Resistência$() mais impactantes.$(p)Também torna lutas em que ambas as partes estão fortemente armaduras significativamente mais ativas."
+		}
+	]
 }

@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Como um Reator $(l:bigreactors/passive)gera energia$(/l) ou $(l:bigreactors/active)vaporiza refrigerantes$(/l)?$(br2)Com calor.$(br2)O $(l:bigreactors/reactants)combustível$(/l) irradiado esquenta, os $(l:bigreactors/moderators)moderadores$(/l) absorvem parte da radiação e movem o calor para longe das $(l:bigreactors/part-fuelrod)Barras de Combustível$(/l) e em direção ao $(l:bigreactors/part-casing)Revestimento$(/l).$(br2)O Calor do Revestimento é o que, no final, gera energia ou vaporiza $(l:bigreactors/coolantsystem)refrigerantes$(/l)."
+            "text": "Como um Reator $(l:bigreactors/passive)gera energia$(/l) ou $(l:bigreactors/active)vaporiza refrigerantes$(/l)?$(br2)Com calor.$(br2)O $(l:bigreactors/reactants)combustível$(/l) irradiado esquenta, os $(l:bigreactors/moderators)moderadores$(/l) absorvem parte da radiação e levam o calor para longe das $(l:bigreactors/part-fuelrod)Barras de Combustível$(/l) e em direção ao $(l:bigreactors/part-casing)Revestimento$(/l).$(br2)O Calor do Revestimento é o que, no fim, gera energia ou vaporiza os $(l:bigreactors/coolantsystem)refrigerantes$(/l)."
         },
         {
             "type": "patchouli:text",
-            "text": "Mover o calor para longe das $(l:bigreactors/part-fuelrod)Barras de Combustível$(/l) é um aspecto muito importante do design do seu Reator, e os $(l:bigreactors/moderators)moderadores$(/l) têm papel fundamental nisso. Também é importante mencionar que a radiação viaja em todas as direções perpendiculares ao eixo da pilha de $(l:bigreactors/part-fuelrod)Barras de Combustível$(/l).$(br2)$(italic)Note que, embora seja próximo o suficiente para permitir criar os melhores Reatores possíveis, isso é uma simplificação exagerada do que realmente acontece dentro do seu Reator.$()"
+            "text": "Levar o calor para longe das $(l:bigreactors/part-fuelrod)Barras de Combustível$(/l) é um aspecto muito importante do design do seu Reator, e os $(l:bigreactors/moderators)moderadores$(/l) têm papel fundamental nisso. Também é importante mencionar que a radiação viaja em toda direção perpendicular ao eixo da pilha de $(l:bigreactors/part-fuelrod)Barras de Combustível$(/l).$(br2)$(italic)Note que, embora próxima o suficiente para permitir criar os melhores Reatores possíveis, esta é uma simplificação do que realmente acontece dentro do seu Reator.$()"
         }
     ]
 }

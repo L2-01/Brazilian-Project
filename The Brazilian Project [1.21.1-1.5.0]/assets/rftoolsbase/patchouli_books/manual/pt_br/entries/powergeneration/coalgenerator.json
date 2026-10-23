@@ -9,7 +9,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "O Gerador a Carvão é um gerador de FE simples do início do jogo. Insira carvão ou blocos de carvão e ele os queimará em energia para máquinas próximas ou cabos conectados."
+      "text": "O Gerador a Carvão é um gerador de FE simples do início do jogo. Insira carvão ou blocos de carvão e ele os queimará, gerando energia para máquinas próximas ou cabos conectados."
     },
     {
       "type": "crafting",
@@ -17,7 +17,7 @@
     },
     {
       "type": "text",
-      "text": "Ele tem um buffer interno, então pode continuar queimando enquanto a saída está temporariamente bloqueada. Blocos de carvão são convenientes para longos períodos sem supervisão."
+      "text": "Ele tem um buffer interno, então pode continuar queimando enquanto a saída estiver temporariamente bloqueada. Blocos de carvão são convenientes para funcionamento prolongado sem supervisão."
     }
   ]
 }

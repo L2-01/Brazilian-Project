@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: Bússola de Meteorito
+  title: Bússola de Meteoritos
   icon: meteorite_compass
   position: 410
 categories:
@@ -10,7 +10,7 @@ item_ids:
 - ae2:meteorite_compass
 ---
 
-# A Bússola de Meteorito
+# A Bússola de Meteoritos
 
 <ItemImage id="meteorite_compass" scale="4" />
 

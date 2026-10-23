@@ -19,7 +19,7 @@ sem armazenamento no meio). Temos que ser um pouco mais indiretos.
 a rede reiniciar sempre que fazem isso. Há uma solução simples: coloque o ponto interruptor numa [sub-rede](../ae2-mechanics/subnetworks.md)
 de modo que ele só reinicie a sub-rede.
 
-Podemos ter uma [sub-rede](../ae2-mechanics/subnetworks.md) autocontida de <ItemLink id="annihilation_plane" /> e <ItemLink id="storage_bus" />
+Podemos ter um <ItemLink id="annihilation_plane" /> e um <ItemLink id="storage_bus" /> autocontidos numa [sub-rede](../ae2-mechanics/subnetworks.md)
 empurrando para uma <ItemLink id="interface" /> na rede principal. O ponto interruptor conectará e desconectará a sub-rede de uma
 <ItemLink id="quartz_fiber" />, cortando a energia dos planos.
 

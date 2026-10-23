@@ -99,7 +99,7 @@
     "gui.computercraft.config.http.bandwidth.global_upload.tooltip": "O número de bytes que podem ser enviados por segundo. Compartilhado entre todos os computadores. (bytes/s).",
     "gui.computercraft.config.http.bandwidth.tooltip": "Limita a largura de banda usada pelos computadores.",
     "gui.computercraft.config.http.enabled": "Ativar a API HTTP",
-    "gui.computercraft.config.http.enabled.tooltip": "Ativa a API \"http\" nos Computadores. Desativar isso também desativa os programas\n\"pastebin\" e \"wget\", dos quais muitos usuários dependem. É recomendado deixar ativado e usar\na opção de config \"rules\" para impor um controle mais refinado.",
+    "gui.computercraft.config.http.enabled.tooltip": "Ativa a API \"http\" nos Computadores. Desativar isso também desativa os programas \"pastebin\" e\n\"wget\", dos quais muitos usuários dependem. É recomendado deixar ativado e usar\na opção de config \"rules\" para impor um controle mais refinado.",
     "gui.computercraft.config.http.max_requests": "Máximo de requisições simultâneas",
     "gui.computercraft.config.http.max_requests.tooltip": "O número de requisições http que um computador pode fazer por vez. Requisições adicionais\nserão enfileiradas e enviadas quando as em execução terminarem. Defina como 0 para\nilimitado.",
     "gui.computercraft.config.http.max_websockets": "Máximo de websockets simultâneos",

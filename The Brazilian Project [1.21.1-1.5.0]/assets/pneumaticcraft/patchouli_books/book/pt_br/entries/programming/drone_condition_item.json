@@ -1,19 +1,19 @@
 {
-  "name": "Widget de Condição de Drone: Item",
+  "name": "Widget de Condição do Drone: Item",
   "icon": "pneumaticcraft:textures/progwidgets/condition_drone_inventory_piece.png",
   "category": "pneumaticcraft:widget_cond",
   "advancement": "pneumaticcraft:programmer",
   "pages": [
     {
       "type": "text",
-      "text": "O widget $(thing)Condição de Drone: Item/$ permite verificar o inventário deste $(l:tools/drone)Drone/$ por uma certa quantidade de itens. Ele contará todos os itens correspondentes (especificados por um $(l:programming/item_filter)Filtro de Item/$ conectado, ou sem filtro para contar todos os itens)."
+      "text": "O widget $(thing)Condição de Drone: Item/$ permite verificar o inventário deste $(l:tools/drone)Drone/$ em busca de uma certa quantidade de itens. Ele contará todos os itens correspondentes (especificados por um $(l:programming/item_filter)Filtro de Item/$ conectado, ou sem filtro para contar todos os itens)."
     },
     {
       "type": "image",
       "images": [
         "pneumaticcraft:textures/progwidgets/condition_drone_inventory_piece.png"
       ],
-      "text": "$(italic)Widget de Condição de Drone: Item/$"
+      "text": "$(italic)Widget de Condição do Drone: Item/$"
     }
   ]
 }

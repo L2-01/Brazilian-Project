@@ -1,0 +1,20 @@
+{
+  "name": "Visão Geral",
+  "icon": "minecraft:cake",
+  "category": "modularrouters:intro",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Bem-vindo ao Modular Routers!$(p)Este é um mod altamente flexível para mover itens pelo mundo de várias formas. Com um único bloco — o $(thing)Roteador Modular/$ — e um ou mais $(thing)módulos/$ encaixáveis, você pode puxar itens de qualquer inventário, enviá-los para outros inventários próximos e distantes, colocar itens como blocos, quebrar blocos, soltar itens no mundo, ordenar itens e muito mais."
+    },
+    {
+      "type": "image",
+      "text": "$(italic)Pense nele como um Funil superconfigurável turbinado.../$",
+      "images": [
+        "modularrouters:textures/patchouli/modular_router.png"
+      ],
+      "border": "true"
+    }
+  ]
+}

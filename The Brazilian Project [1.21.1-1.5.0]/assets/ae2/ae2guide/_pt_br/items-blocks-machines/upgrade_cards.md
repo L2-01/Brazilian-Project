@@ -42,8 +42,8 @@ item_ids:
   <ItemImage id="energy_card" scale="2" />
 </Row>
 
-Cartões de melhoria mudam o comportamento de [dispositivos](../ae2-mechanics/devices.md) e máquinas do AE2, aumentando sua velocidade, melhorando sua
-capacidade de filtro, habilitando controle por redstone, etc.
+Cartões de melhoria mudam o comportamento dos [dispositivos](../ae2-mechanics/devices.md) e máquinas do AE2, aumentando sua velocidade, melhorando sua
+capacidade de filtro, habilitando controle por redstone etc.
 
 ## Componentes de Cartão
 
@@ -53,7 +53,7 @@ capacidade de filtro, habilitando controle por redstone, etc.
   <ItemImage id="advanced_card" scale="2" />
 </Row>
 
-Cartões são fabricados com bases de cartão básicas ou avançadas
+Cartões são fabricados com bases de cartão básico ou avançado
 
 <Row>
   <RecipeFor id="basic_card" />
@@ -65,7 +65,7 @@ Cartões são fabricados com bases de cartão básicas ou avançadas
 
 <ItemImage id="redstone_card" scale="2" />
 
-Cartões de redstone adicionam controle por redstone, adicionando um botão de alternância na GUI do dispositivo para trocar entre várias condições de redstone.
+Cartões de redstone adicionam controle por redstone, incluindo um botão na GUI do dispositivo para alternar entre várias condições de redstone.
 
 <RecipeFor id="redstone_card" />
 
@@ -82,8 +82,8 @@ Cartões de capacidade aumentam a quantidade de slots de filtro em pontos de imp
 <ItemImage id="void_card" scale="2" />
 
 Cartões de destruição de sobras podem ser aplicados a [células de armazenamento](storage_cells.md) numa <ItemLink id="cell_workbench" />
-e deletarão itens recebidos se a célula estiver cheia. (não esqueça de [particionar](cell_workbench.md) suas células!) Combinado com um cartão de distribuição igualitária,
-itens serão destruídos se a seção daquele item específico da célula estiver cheia, mesmo se as seções de outros itens estiverem vazias.
+e deletam itens que chegam se a célula estiver cheia. (não esqueça de [particionar](cell_workbench.md) suas células!) Combinado com um cartão de distribuição igualitária,
+itens serão descartados se a seção daquele item específico na célula estiver cheia, mesmo que as seções de outros itens estejam vazias.
 
 <RecipeFor id="void_card" />
 
@@ -92,35 +92,35 @@ itens serão destruídos se a seção daquele item específico da célula estive
 <ItemImage id="fuzzy_card" scale="2" />
 
 Cartões de imprecisão permitem que dispositivos e ferramentas com filtros filtrem por nível de dano e/ou ignorem o NBT do item, permitindo exportar
-todos os machados de ferro não importando nível de dano e encantamentos, ou exportar apenas espadas de diamante danificadas, não as totalmente reparadas.
+todos os machados de ferro independente do nível de dano e encantamentos, ou exportar apenas espadas de diamante danificadas, não as totalmente reparadas.
 
-Abaixo há um exemplo de como os modos de comparação de dano impreciso funcionam: o lado esquerdo é a
-config do ponto, o topo é o item comparado.
+Abaixo está um exemplo de como os modos de comparação de dano por imprecisão funcionam; o lado esquerdo é a
+configuração do ponto e o topo é o item comparado.
 
-| 25%                     | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Reparada |
-| ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------- |
-| Picareta Quase Quebrada | ✅                       | \*\*\*\*                | \*\*\*\*                | \*\*\*\*          |
-| Picareta Reparada       | \*\*\*\*                | ✅                       | ✅                       | ✅                 |
+| 25%                    | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta de Reparo Total |
+| ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
+| Picareta Quase Quebrada | ✅                   | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            |
+| Picareta Totalmente Reparada | \*\*\*\*            | ✅                   | ✅                   | ✅                   |
 
-| 50%                     | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Reparada |
-| ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------- |
-| Picareta Quase Quebrada | ✅                       | ✅                       | \*\*\*\*                | \*\*\*\*          |
-| Picareta Reparada       | \*\*\*\*                | \*\*\*\*                | ✅                       | ✅                 |
+| 50%                    | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta de Reparo Total |
+| ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
+| Picareta Quase Quebrada | ✅                   | ✅                   | \*\*\*\*            | \*\*\*\*            |
+| Picareta Totalmente Reparada | \*\*\*\*            | \*\*\*\*            | ✅                   | ✅                   |
 
-| 75%                     | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Reparada |
-| ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------- |
-| Picareta Quase Quebrada | ✅                       | ✅                       | \*\*\*\*                | \*\*\*\*          |
-| Picareta Reparada       | \*\*\*\*                |                         | ✅                       | ✅                 |
+| 75%                    | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta de Reparo Total |
+| ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
+| Picareta Quase Quebrada | ✅                   | ✅                   | \*\*\*\*            | \*\*\*\*            |
+| Picareta Totalmente Reparada | \*\*\*\*            |                     | ✅                   | ✅                   |
 
-| 99%                     | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Reparada |
-| ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------- |
-| Picareta Quase Quebrada | ✅                       | ✅                       | ✅                       | \*\*\*\*          |
-| Picareta Reparada       | \*\*\*\*                | \*\*\*\*                | \*\*\*\*                | ✅                 |
+| 99%                    | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta de Reparo Total |
+| ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
+| Picareta Quase Quebrada | ✅                   | ✅                   | ✅                   | \*\*\*\*            |
+| Picareta Totalmente Reparada | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            | ✅                   |
 
-| Ignorar                 | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Reparada |
-| ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------- |
-| Picareta Quase Quebrada | ✅                       | ✅                       | ✅                       | **✅**             |
-| Picareta Reparada       | **✅**                   | **✅**                   | **✅**                   | ✅                 |
+| Ignorar               | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta de Reparo Total |
+| ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
+| Picareta Quase Quebrada | ✅                   | ✅                   | ✅                   | **✅**               |
+| Picareta Totalmente Reparada | **✅**               | **✅**               | **✅**               | ✅                   |
 
 <RecipeFor id="fuzzy_card" />
 
@@ -128,7 +128,7 @@ config do ponto, o topo é o item comparado.
 
 <ItemImage id="speed_card" scale="2" />
 
-Cartões de aceleração fazem as coisas irem mais rápido, fazendo pontos de importação e exportação moverem mais itens por operação e fazendo inscritores
+Cartões de aceleração fazem as coisas andarem mais rápido, fazendo pontos de importação e exportação moverem mais itens por operação e fazendo inscritores
 e montadores trabalharem mais rápido.
 
 <RecipeFor id="speed_card" />
@@ -137,7 +137,7 @@ e montadores trabalharem mais rápido.
 
 <ItemImage id="inverter_card" scale="2" />
 
-Cartões inversores trocam filtros em dispositivos e ferramentas de lista de permissão para lista de bloqueio.
+Cartões inversores trocam os filtros em dispositivos e ferramentas de lista branca para lista negra.
 
 <RecipeFor id="inverter_card" />
 
@@ -145,8 +145,8 @@ Cartões inversores trocam filtros em dispositivos e ferramentas de lista de per
 
 <ItemImage id="crafting_card" scale="2" />
 
-Cartões de fabricação permitem que o dispositivo envie pedidos de fabricação ao seu sistema de [autofabricação](../ae2-mechanics/autocrafting.md)
-para conseguir os itens que deseja.
+Cartões de fabricação permitem que o dispositivo envie requisições de fabricação ao seu sistema de
+[fabricação automática](../ae2-mechanics/autocrafting.md) para obter os itens desejados.
 
 <RecipeFor id="crafting_card" />
 
@@ -155,8 +155,8 @@ para conseguir os itens que deseja.
 <ItemImage id="equal_distribution_card" scale="2" />
 
 Cartões de distribuição igualitária podem ser aplicados a [células de armazenamento](storage_cells.md) numa <ItemLink id="cell_workbench" /> e
-dividem a célula em seções de tamanho igual baseadas no que o cartão está [particionado](cell_workbench.md). Isso impede que um tipo de item encha completamente
-a célula.
+dividem a célula em seções de tamanho igual com base em para o que o cartão está [particionado](cell_workbench.md). Isso impede que um tipo de item encha
+completamente a célula.
 
 <RecipeFor id="equal_distribution_card" />
 

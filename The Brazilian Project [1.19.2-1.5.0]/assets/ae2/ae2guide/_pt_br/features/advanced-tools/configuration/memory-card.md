@@ -23,13 +23,13 @@ navigation:
   title: Cartão de Memória
 ---
 
-Um pequeno item que pode ser usado para guardar, copiar e colar configurações. Shift +
-clique direito num objeto configurável para salvar as configurações no cartão
-de memória; depois, clique com o botão direito em qualquer outro bloco do mesmo tipo para colar as
+Um pequeno item que pode ser usado para armazenar, copiar e colar configurações. Shift +
+Clique com o botão direito num objeto configurável para salvar as configurações no cartão
+de memória, depois clique com o botão direito em qualquer outro bloco do mesmo tipo para colar as
 configurações.
 
-Eles também são usados para vincular a entrada do <ItemLink
-id="me_p2p_tunnel"/> à saída correta do
+Também são usados para vincular o <ItemLink
+id="me_p2p_tunnel"/> de entrada à saída correta
 
 <ItemLink id="me_p2p_tunnel" />.
 

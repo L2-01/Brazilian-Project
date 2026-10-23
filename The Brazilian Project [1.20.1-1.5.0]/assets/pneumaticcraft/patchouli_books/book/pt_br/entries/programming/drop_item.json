@@ -1,23 +1,23 @@
 {
-  "name": "Widget de Largar Item",
+  "name": "Widget de Derrubar Item",
   "icon": "pneumaticcraft:textures/progwidgets/item_drop_piece.png",
   "category": "pneumaticcraft:widget_interact",
   "advancement": "pneumaticcraft:programmer",
   "pages": [
     {
       "type": "text",
-      "text": "Isso fará o $(l:tools/drone)Drone/$ largar itens do seu inventário na $(l:programming/area)Área/$ conectada. Ao $(thing)clicar com o botão direito/$ no widget $(thing)Largar Item/$, você pode especificar quantos itens por posição na área podem ser largados. Você também pode alternar entre os modos $(thing)Aleatório/$ e $(thing)Reto/$, que significam que ele largará o item com um pequeno desvio aleatório (como um $(item)Liberador/$ vanilla) ou largará o item direto para baixo, respectivamente."
+      "text": "Isto fará o $(l:tools/drone)Drone/$ derrubar itens do seu inventário na $(l:programming/area)Área/$ conectada. $(thing)Clicando com o botão direito/$ no widget de $(thing)Derrubar Item/$ você pode especificar quantos itens por posição na área podem ser derrubados. Você também pode alternar entre os modos $(thing)Aleatório/$ e $(thing)Reto/$, que significam que ele derrubará o item com um pequeno desvio aleatório (como um $(item)Liberador/$ vanilla), ou derrubará o item direto para baixo, respectivamente."
     },
     {
       "type": "text",
-      "text": "Você também pode conectar um $(l:programming/item_filter)Filtro de Item/$. Com um filtro, apenas itens permitidos pelo filtro serão largados.$(p)O widget termina a execução quando nenhum dos itens aplicáveis resta no inventário do $(item)Drone/$ ou quando o $(item)Drone/$ visitou cada posição da área."
+      "text": "Você também pode conectar um $(l:programming/item_filter)Filtro de Item/$. Com um filtro, apenas os itens permitidos pelo filtro serão derrubados.$(p)O widget termina de executar quando nenhum dos itens aplicáveis restar no inventário do $(item)Drone/$ ou quando o $(item)Drone/$ tiver visitado todas as posições da área."
     },
     {
       "type": "image",
       "images": [
         "pneumaticcraft:textures/progwidgets/item_drop_piece.png"
       ],
-      "text": "$(italic)Widget de Largar Item/$"
+      "text": "$(italic)Widget de Derrubar Item/$"
     }
   ]
 }

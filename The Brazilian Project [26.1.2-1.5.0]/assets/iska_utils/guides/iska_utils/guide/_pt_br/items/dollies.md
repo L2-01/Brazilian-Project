@@ -8,7 +8,7 @@ item_ids:
   - iska_utils:dolly
   - iska_utils:dolly_hard
 categories:
-  - Ferramentas úteis
+  - Useful tools
 ---
 # Carrinhos de Mão
 
@@ -16,8 +16,8 @@ categories:
 
 ## Carrinho de Mão / Carrinho de Mão Reforçado
 
-- **Shift + usar** num bloco para erguê-lo (respeitando nível de mineração, lista de bloqueio/permissão e regras de dureza por nível).
-- Use de novo para colocar. O conteúdo é preservado para blocos suportados.
+- **Shift + usar** num bloco para pegá-lo (respeitando nível de mineração, lista negra/lista branca e regras de dureza por nível).
+- Use de novo para colocar. O conteúdo é preservado em blocos suportados.
 
 <ItemGrid>
   <ItemIcon id="iska_utils:dolly" />

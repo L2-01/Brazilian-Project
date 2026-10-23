@@ -19,11 +19,11 @@ item_ids:
 
 # Células de Armazenamento de Raios
 
-As Células de Armazenamento de Raios são o meio de armazenamento dedicado a guardar Raios numa rede ME. Assim como células de armazenamento comuns de itens / fluidos, basta largar uma num <ItemLink id="ae2:drive" /> para começar a usá-la.
+Células de Armazenamento de Raios são o meio de armazenamento dedicado a guardar Raios numa rede ME. Assim como células comuns de itens / fluidos, basta colocar uma num <ItemLink id="ae2:drive" /> para começar a usar.
 
-## Categorias
+## Tiers
 
-As Células de Armazenamento de Raios vêm em cinco categorias com capacidade progressivamente maior. Uma única célula armazena Raios de **Ambas** Alta Tensão e Altíssima Tensão ao mesmo tempo.
+Células de Armazenamento de Raios vêm em cinco tiers com capacidade progressivamente maior. Uma única célula armazena **ambos** os Raios de Alta e de Altíssima Tensão ao mesmo tempo.
 
 <ItemGrid>
   <ItemIcon id="ae2lt:lightning_storage_component_i" />
@@ -33,7 +33,7 @@ As Células de Armazenamento de Raios vêm em cinco categorias com capacidade pr
   <ItemIcon id="ae2lt:lightning_storage_component_v" />
 </ItemGrid>
 
-| Categoria | Capacidade Efetiva | Consumo Ocioso |
+| Tier | Capacidade Efetiva | Consumo em Repouso |
 |------|--------------------|------------|
 | Célula de Armazenamento de Raios I | 256 | 32 AE/t |
 | Célula de Armazenamento de Raios II | 1.024 | 128 AE/t |
@@ -45,8 +45,8 @@ As Células de Armazenamento de Raios vêm em cinco categorias com capacidade pr
 
 <ItemImage id="ae2lt:infinite_storage_cell" scale="2" float="left" />
 
-A **Célula de Armazenamento Infinita** não tem limite de capacidade e pode guardar qualquer quantidade de qualquer tipo de item de uma vez. Devido ao seu custo de fabricação e à tecnologia exigida, ela **não pode ser produzida em massa**.
+A **Célula de Armazenamento Infinita** não tem limite de capacidade e pode guardar qualquer quantidade de qualquer tipo de item ao mesmo tempo. Devido ao seu custo de fabricação e à tecnologia exigida, ela **não pode ser produzida em massa**.
 
 ## Apêndice
 
-> Guardado no fim de um registro de varredura: "Uma célula não está no registro — leia uma vez e ela fica em branco, fora isso tudo lê normal." Fonte e interpretação não registradas.
+> Escondida no fim de um log de varredura: "Uma célula não está no registro — só pode ser lida uma vez e não aceita escrita; fora isso tudo lê normal." Origem e interpretação não registradas.

@@ -1,17 +1,17 @@
 {
-    "name": "Repulsão de Ataque",
-    "icon": "minecraft:piston",
-    "category": "apotheosis:adventure/attributes",
-    "flag": "apotheosis:adventure",
-    "sortnum": 0,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "A $(9)Repulsão de Ataque$() é a distância que você empurra os inimigos ao atacá-los.$(p)Cada ponto fará os inimigos atingidos serem empurrados meio bloco para trás.$(p)Armas corpo a corpo podem fornecer este atributo."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "O encantamento Repulsão fornece um bônus equivalente a este atributo, mas não conta para o teto do valor máximo."
-        }
-    ]
+	"name": "Repulsão de Ataque",
+	"icon": "minecraft:piston",
+	"category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(9)Repulsão de Ataque$() é a distância que você empurra os inimigos ao atacá-los.$(p)Cada ponto fará inimigos atingidos serem empurrados meio bloco para trás.$(p)Armas corpo a corpo podem fornecer este atributo."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "O encantamento Repulsão fornece um bônus equivalente a esse atributo, mas não conta para o limite máximo."
+		}
+	]
 }

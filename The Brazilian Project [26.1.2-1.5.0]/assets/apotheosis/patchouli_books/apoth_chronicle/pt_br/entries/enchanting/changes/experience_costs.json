@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "No Vanilla, coisas que custam níveis (mesas de encantamento e bigornas) tiram de você uma quantidade fixa de níveis, não importa quantos níveis você tenha.$(p)O Apotheosis muda ambas para custar a quantidade \"ideal\" de experiência."
+            "text": "No vanilla, coisas que custam níveis (mesas de encantamento e bigornas) tiram uma quantidade fixa de níveis, não importa quantos você tenha.$(p)O Apotheosis muda ambos para custar a quantidade \"ideal\" de experiência."
         },
         {
             "type": "patchouli:text",
-            "text": "Para mesas de encantamento, será cobrada a quantidade de experiência como se você sempre tivesse a quantidade exata de níveis necessária para fazer aquele encantamento.$(p)Semelhante para bigornas, exceto que o custo é a partir de zero (em vez de apenas os N níveis do topo)."
+            "text": "Nas mesas de encantamento, será cobrada a quantidade de experiência como se você sempre tivesse exatamente os níveis necessários para aquele encantamento.$(p)Semelhante nas bigornas, exceto que o custo é calculado a partir do zero (em vez de apenas dos N níveis do topo)."
         }
     ]
 }

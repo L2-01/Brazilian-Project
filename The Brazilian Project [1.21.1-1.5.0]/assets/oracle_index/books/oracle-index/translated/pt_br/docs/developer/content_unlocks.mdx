@@ -1,0 +1,30 @@
+---
+title: Sistema de Progressão de Conteúdo
+---
+
+O Oracle Index também tem um recurso em que o conteúdo precisa ser desbloqueado antes que o jogador possa acessá-lo. Páginas bloqueadas são apresentadas de forma ofuscada e não aparecem na pesquisa.
+Se todas as entradas de uma pasta estiverem bloqueadas, a pasta inteira fica oculta.
+
+<Callout variant="warning">
+    Esse recurso obviamente só está disponível na wiki dentro do jogo, não na wiki online. O público-alvo principal aqui são os criadores de modpacks que não querem revelar tudo de uma vez.
+</Callout>
+
+Para controlar os desbloqueios, o frontmatter da página precisa de uma seção *unlock*. Ela pode ter o seguinte formato:
+
+```
+---
+title: Ingame Mod View Setup
+unlock: advancement:minecraft:oritech/pulverizer
+---
+"unlock" is always the same
+"advancement" is the name of the progress validator
+anything after the "advancement:" part is passed to the validator
+```
+
+# Validadores
+Os modders podem registrar validadores personalizados na **Oracle Progress API**. Consulte os javadocs da classe da API para mais detalhes.
+
+O Oracle Index não armazena quais entradas foram desbloqueadas; ele apenas chama os validadores sob demanda.
+
+## Validador de Progresso
+Por padrão, apenas um validador acompanha o mod: o validador de progresso (advancement). Ele verifica se o jogador concluiu um progresso específico para poder visualizar a página.

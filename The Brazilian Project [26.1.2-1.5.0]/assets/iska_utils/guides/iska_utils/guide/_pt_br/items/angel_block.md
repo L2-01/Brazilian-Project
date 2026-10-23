@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:angel_block
 categories:
-  - Mundo e máquinas
+  - World and machines
 ---
 # Bloco Anjo
 
@@ -15,6 +15,6 @@ categories:
 
 ## O que faz
 
-- Um **bloco sólido de tamanho normal** que **não precisa de apoio**: fica suspenso no ar como um andaime temporário.
-- **Clique direito no ar** (use o item sem mirar noutro bloco) para colocá-lo **cerca de dois blocos à frente** na direção do seu olhar — ideal para cobrir vãos ou subir construindo.
-- Você ainda pode **colocá-lo normalmente** contra superfícies como qualquer outro item de bloco.
+- Um **bloco sólido de tamanho normal** que **não precisa de apoio**: fica flutuando no ar como um andaime temporário.
+- **Clique direito no ar** (use o item sem mirar outro bloco) para colocá-lo **cerca de dois blocos à frente** na direção do olhar — ideal para atravessar vãos ou ficar de pé sobre ele enquanto constrói para cima.
+- Você ainda pode **colocá-lo normalmente** encostado em superfícies como qualquer item de bloco.

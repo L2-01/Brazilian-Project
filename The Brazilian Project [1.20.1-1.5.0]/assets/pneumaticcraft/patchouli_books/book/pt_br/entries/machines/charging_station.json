@@ -6,22 +6,22 @@
   "pages": [
     {
       "type": "text",
-      "text": "A $(item)Estação de Carga/$ é uma máquina na qual $(l:base_concepts/pressure)itens pneumáticos/$ podem ser carregados (ou descarregados). A interação entre a $(item)Estação de Carga/$ e os itens pneumáticos é a mesma que a interação entre tubos/máquinas: diferenças de pressão serão equalizadas. Isso significa que você precisará de uma $(item)Estação de Carga/$ bem pressurizada para carregar itens totalmente."
+      "text": "A $(item)Estação de Carga/$ é uma máquina na qual $(l:base_concepts/pressure)itens pneumáticos/$ podem ser carregados (ou descarregados). A interação entre a $(item)Estação de Carga/$ e itens pneumáticos é a mesma que entre tubos/máquinas: diferenças de pressão serão equalizadas. Isso significa que você precisará de uma $(item)Estação de Carga/$ bem pressurizada para carregar itens completamente."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:charging_station",
-      "text": "A maioria dos itens carregáveis tem pressão máxima de 10 bar. Não se preocupe com explosões, porém; os itens não explodirão por sobrecarga, apenas pararão de carregar além de 10 bar.$(p)A $(thing)Plataforma de Carga/$ pode ser camuflada com um $(l:tools/camo_applicator)Aplicador de Camuflagem/$."
+      "text": "A maioria dos itens carregáveis tem pressão máxima de 10 bar. Não se preocupe com explosões, porém; os itens não explodem por sobrecarga, apenas param de carregar além de 10 bar.$(p)A $(thing)Plataforma de Carga/$ pode ser camuflada com um $(l:tools/camo_applicator)Aplicador de Camuflagem/$."
     },
     {
       "type": "text",
       "title": "Plataforma de Carga",
-      "text": "Você pode transformar a $(item)Estação de Carga/$ numa $(thing)Plataforma de Carga/$ inserindo uma $(l:base_concepts/upgrades#dispenser)Melhoria de Ejetor/$. Isso (des)pressurizará:$(li)itens no chão em cima da Estação de Carga$(li)itens carregados por jogadores de pé na Estação de Carga$(li)todos os tipos de $(l:tools/drone)Drone/$ que estiverem diretamente acima da Estação de Carga"
+      "text": "Você pode transformar a $(item)Estação de Carga/$ numa $(thing)Plataforma de Carga/$ inserindo uma $(l:base_concepts/upgrades#dispenser)Melhoria de Ejetor/$. Isso (des)pressurizará:$(li)itens no chão em cima da Estação de Carga$(li)itens carregados por jogadores em pé sobre a Estação de Carga$(li)todos os tipos de $(l:tools/drone)Drone/$ que estiverem diretamente acima da Estação de Carga"
     },
     {
       "type": "text",
       "title": "Gerenciamento de Melhorias",
-      "text": "A $(item)Estação de Carga/$ também funciona como um sistema de gerenciamento para itens que aceitam $(l:base_concepts/upgrades)melhorias/$. Para melhorar um item, coloque-o na $(item)Estação de Carga/$ como de costume e clique no botão de $(thing)seta para cima/$ logo acima do espaço do item. Isso abre uma nova GUI onde melhorias podem ser inseridas; cada melhoria aplicável ao item em questão está documentada numa aba lateral da GUI."
+      "text": "A $(item)Estação de Carga/$ também funciona como um sistema de gerenciamento para itens que aceitam $(l:base_concepts/upgrades)melhorias/$. Para aprimorar um item, coloque-o na $(item)Estação de Carga/$ normalmente e clique no botão de $(thing)seta para cima/$ logo acima do espaço do item. Isso abre uma nova GUI onde melhorias podem ser inseridas; cada melhoria aplicável ao item em questão está documentada numa aba lateral da GUI."
     },
     {
       "type": "relations",
@@ -53,7 +53,7 @@
     },
     {
       "type": "crafting",
-      "text": "Fabricando uma Estação de Carga",
+      "text": "Fabricando Estação de Carga",
       "recipe": "pneumaticcraft:charging_station"
     }
   ]

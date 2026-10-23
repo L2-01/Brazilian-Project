@@ -1,11 +1,11 @@
 {
-  "name": "Melhorias",
-  "icon": "modularrouters:speed_upgrade",
-  "category": "modularrouters:intro",
-  "pages": [
-    {
-      "type": "text",
-      "text": "$(thing)Melhorias/$ aprimoram a funcionalidade de um $(l:intro/modular_router)Roteador Modular/$ de várias formas. Existem 8 tipos diferentes de melhoria e 5 espaços de melhoria num Roteador Modular.$(p)Você pode colocar múltiplas melhorias num espaço de melhoria, embora haja um limite de quantas melhorias de um tipo específico podem ser inseridas; veja as páginas individuais das melhorias ou os tooltips dos itens de melhoria para mais informações."
-    }
-  ]
+    "name": "Melhorias",
+    "icon": "modularrouters:speed_upgrade",
+    "category": "modularrouters:intro",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Melhorias/$ aprimoram a funcionalidade de um $(l:intro/modular_router)Roteador Modular/$ de várias formas. Existem 8 tipos diferentes de melhoria e 5 espaços de melhoria em um Roteador Modular.$(p)Você pode colocar várias melhorias em um espaço de melhoria, embora haja um limite de quantas melhorias de um tipo específico podem ser inseridas; veja as páginas individuais das melhorias ou as dicas dos itens de melhoria para mais informações."
+        }
+    ]
 }

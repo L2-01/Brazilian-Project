@@ -1,0 +1,29 @@
+{
+  "name": "Sinhos de Neve",
+  "icon": "minecraft:textures/item/snowball.png",
+  "category": "enchanted:common_plants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Sininho de Neve, ou Styrax, é um gênero de grandes arbustos da família Styracaceae. Apesar do nome, são nativos de climas quentes da Ásia.$(br2)Sua resina é usada para purificação, dissipar raiva ou acalmar tensões.$(br2)$(bold)Obtenção:$()$(br)Sabe-se que são derrubados por Grama Alta"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "enchanted:snowbell[age=4]"
+        },
+        "pattern": [
+          [
+            "0"
+          ],
+          [
+            " "
+          ]
+        ]
+      }
+    }
+  ],
+  "read_by_default": true
+}

@@ -12,11 +12,11 @@ item_ids:
 
 # Célula ME Infinita
 
-Uma fonte e um depósito convenientes de água e pedregulho ilimitados em forma de célula de armazenamento.
+Uma fonte e um ralo convenientes de água e pedregulho ilimitados em formato de célula de armazenamento.
 
 <Row>
 <ItemImage id="extendedae:infinity_water_cell" scale="4"></ItemImage>
 <ItemImage id="extendedae:infinity_cobblestone_cell" scale="4"></ItemImage>
 </Row>
 
-Cada célula tem capacidade de 2,1 bilhões de unidades, e você pode extrair ou inserir quantidades ilimitadas de pedregulho ou água.
+Cada célula comporta 2,1 bilhões de unidades, e você pode extrair ou inserir quantidades ilimitadas de pedregulho ou água.

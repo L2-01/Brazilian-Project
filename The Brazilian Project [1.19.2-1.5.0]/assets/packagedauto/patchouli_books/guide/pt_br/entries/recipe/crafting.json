@@ -1,33 +1,33 @@
 {
-	"name": "Fabricação",
-	"category": "packagedauto:recipe",
-	"icon": "packagedauto:crafter",
-	"pages": [
-		{
-			"type": "patchouli:text",
-			"text": "$(thing)Fabricação/$ é um tipo de receita de fabricação que usa a $(item)Fabricadora de Pacotes/$ para fabricar receitas fabricáveis numa bancada de trabalho.$(p)Itens fabricados pela $(item)Fabricadora de Pacotes/$ serão ejetados para inventários adjacentes.$(p)A $(item)Fabricadora de Pacotes/$ requer energia."
-		},
-		{
-			"type": "patchouli:spotlight",
-			"flag": "mod:ae2",
-			"item": "packagedauto:crafter",
-			"link_recipe": true,
-			"title": "Integração com AE2",
-			"text": "A $(item)Fabricadora de Pacotes/$ pode ser conectada a uma $(thing)Rede ME/$.$(p)Ela vai extrair energia para usar e, em vez disso, ejetar os itens fabricados na rede."
-		},
-		{
-			"type": "patchouli:crafting",
-			"flag": "!mod:ae2",
-			"recipe": "packagedauto:crafter",
-			"title": "Fabricação"
-		},
-		{
-			"type": "patchouli:crafting",
-			"flag": "mod:ae2",
-			"recipe": "packagedauto:crafter_ae",
-			"title": "Fabricação"
-		}
-	],
-	"read_by_default": true,
-	"sortnum": 104
+    "name": "Fabricação",
+    "category": "packagedauto:recipe",
+    "icon": "packagedauto:crafter",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(thing)Fabricação/$ é um tipo de receita de fabricação que usa a $(item)Fabricadora de Pacotes/$ para fabricar receitas possíveis numa bancada de trabalho.$(p)Itens fabricados pela $(item)Fabricadora de Pacotes/$ serão ejetados para inventários adjacentes.$(p)A $(item)Fabricadora de Pacotes/$ requer energia."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "flag": "mod:ae2",
+            "item": "packagedauto:crafter",
+            "link_recipe": true,
+            "title": "Integração com AE2",
+            "text": "A $(item)Fabricadora de Pacotes/$ pode ser conectada a uma $(thing)Rede ME/$.$(p)Ela extrairá energia para usar e, em vez disso, ejetará os itens fabricados para a rede."
+        },
+        {
+            "type": "patchouli:crafting",
+            "flag": "!mod:ae2",
+            "recipe": "packagedauto:crafter",
+            "title": "Fabricação"
+        },
+        {
+            "type": "patchouli:crafting",
+            "flag": "mod:ae2",
+            "recipe": "packagedauto:crafter_ae",
+            "title": "Fabricação"
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 104
 }

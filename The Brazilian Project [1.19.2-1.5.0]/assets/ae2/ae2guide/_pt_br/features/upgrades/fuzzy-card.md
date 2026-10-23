@@ -14,37 +14,36 @@ id="import_bus"/>, <ItemLink
 id="level_emitter"/>, <ItemLink
 id="storage_bus"/>, <ItemLink
 id="view_cell"/> e à <ItemLink
-id="item_storage_cell_1k"/>, assim como outras
-[células de armazenamento](../me-network/storage-cells.md) não espaciais.
+id="item_storage_cell_1k"/>, bem como a outras [células de armazenamento](../me-network/storage-cells.md) não espaciais.
 
 ### Detalhes da Comparação Imprecisa
 
-Abaixo há um exemplo de como os modos de comparação de dano impreciso funcionam: o lado esquerdo é a
-config do ponto, o topo é o item comparado.
+Abaixo há um exemplo de como funcionam os modos de comparação imprecisa de dano: o lado esquerdo é a
+configuração do ponto; o topo é o item comparado.
 
-| 25%                     | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Reparada |
-| ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------- |
-| Picareta Quase Quebrada | ✅                  | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            |
+| 25%                    | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Totalmente Reparada |
+| ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
+| Picareta Quase Quebrada  | ✅                  | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            |
 | Picareta Totalmente Reparada | \*\*\*\*            | ✅                  | ✅                  | ✅                  |
 
-| 50%                     | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Reparada |
-| ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------- |
-| Picareta Quase Quebrada | ✅                  | ✅                  | \*\*\*\*            | \*\*\*\*            |
+| 50%                    | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Totalmente Reparada |
+| ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
+| Picareta Quase Quebrada  | ✅                  | ✅                  | \*\*\*\*            | \*\*\*\*            |
 | Picareta Totalmente Reparada | \*\*\*\*            | \*\*\*\*            | ✅                  | ✅                  |
 
-| 75%                     | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Reparada |
-| ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------- |
-| Picareta Quase Quebrada | ✅                  | ✅                  | \*\*\*\*            | \*\*\*\*            |
+| 75%                    | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Totalmente Reparada |
+| ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
+| Picareta Quase Quebrada  | ✅                  | ✅                  | \*\*\*\*            | \*\*\*\*            |
 | Picareta Totalmente Reparada | \*\*\*\*            |                     | ✅                  | ✅                  |
 
-| 99%                     | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Reparada |
-| ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------- |
-| Picareta Quase Quebrada | ✅                  | ✅                  | ✅                  | \*\*\*\*            |
+| 99%                    | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Totalmente Reparada |
+| ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
+| Picareta Quase Quebrada  | ✅                  | ✅                  | ✅                  | \*\*\*\*            |
 | Picareta Totalmente Reparada | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            | ✅                  |
 
-| Ignorar                 | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Reparada |
-| ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------- |
-| Picareta Quase Quebrada | ✅                  | ✅                  | ✅                  | **✅**              |
+| Ignorar                | Picareta 10% Danificada | Picareta 30% Danificada | Picareta 80% Danificada | Picareta Totalmente Reparada |
+| ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
+| Picareta Quase Quebrada  | ✅                  | ✅                  | ✅                  | **✅**              |
 | Picareta Totalmente Reparada | **✅**              | **✅**              | **✅**              | ✅                  |
 
 <RecipeFor id="fuzzy_card" />

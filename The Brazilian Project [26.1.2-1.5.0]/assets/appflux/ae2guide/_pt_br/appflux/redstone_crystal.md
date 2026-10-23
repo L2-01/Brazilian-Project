@@ -21,9 +21,9 @@ item_ids:
 <BlockImage id="appflux:charged_redstone_block" scale="4"></BlockImage>
 </Row>
 
-*"Pow, ah!!"*
+*"Pow ah!!"*
 
-A redstone é um ótimo meio para armazenar energia, mas é solta demais para colocar numa célula.
+Redstone é um bom meio de armazenar energia, mas é solta demais para colocar numa célula.
 
-Combinada com cristal de fluix e pedra-luminosa, a redstone em bloco é cristalizada em cristais de redstone. Eles podem armazenar uma grande quantidade
-de energia ocupando muito pouco espaço.
+Combinada com cristal de fluix e pedra luminosa, a redstone é cristalizada em cristais de redstone. Eles podem armazenar uma grande quantidade
+de energia, ocupando muito pouco espaço.

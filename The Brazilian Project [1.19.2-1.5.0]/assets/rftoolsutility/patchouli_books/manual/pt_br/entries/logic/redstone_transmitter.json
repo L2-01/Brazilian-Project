@@ -1,0 +1,15 @@
+{
+    "name": "Transmissor de Redstone",
+    "icon": "rftoolsutility:redstone_transmitter",
+    "category": "rftoolsutility:category_rftoolsutility_logic",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Este bloco enviará sem fio um sinal de redstone num canal específico quando receber um sinal de redstone. Use-o em combinação com o bloco receptor de redstone. Se você colocar este bloco, ele criará um canal. Você também pode vincular este transmissor a canais existentes clicando com o botão direito em outro transmissor ou receptor"
+        },
+        {
+            "type": "text",
+            "text": "Use um $(l:rftoolsutility:logic/redstone_receiver)Receptor de Redstone$(/l) para receber sinais de redstone.$(br2)Usando a GUI deste bloco você pode dar um nome a este canal, o que facilita reconhecê-lo"
+        }
+    ]
+}

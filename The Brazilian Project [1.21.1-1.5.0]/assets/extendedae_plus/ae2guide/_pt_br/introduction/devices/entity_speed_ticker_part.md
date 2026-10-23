@@ -20,11 +20,11 @@ O **Acelerador de Entidade** consome energia da rede AE2 para acelerar entidades
 
 ## Mecanismo de Operação
 
-1. **Requisito de Ativação:** O acelerador deve conter pelo menos um **<ItemLink id="extendedae_plus:entity_speed_card" tag="{'EAS:mult':2}" />** para habilitar a aceleração.
+1. **Requisito de Ativação:** O acelerador precisa conter pelo menos um **<ItemLink id="extendedae_plus:entity_speed_card" tag="{'EAS:mult':2}" />** para ativar a aceleração.
 2. **Efeito de Aceleração:** Pode acelerar entidades de bloco em até **1024×**.
 3. **Fornecimento de Energia:** A aceleração consome energia da rede AE continuamente. Quando a energia AE é insuficiente, a aceleração pausa automaticamente até a energia ser restaurada.
-    - Se o mod *Applied Flux* estiver instalado, a energia FE armazenada nos discos da rede pode ser consumida para continuar a aceleração quando a energia AE for insuficiente (prioridade configurável).
-4. **Opções de Configuração:** O consumo base de energia, a lista-negra de entidades e o multiplicador de energia por entidade podem ser ajustados no arquivo de configuração.
+    - Se o mod *Applied Flux* estiver instalado, a energia FE armazenada em discos da rede pode ser consumida para continuar a aceleração quando a energia AE for insuficiente (prioridade configurável).
+4. **Opções de Configuração:** Consumo base de energia, lista-negra de entidades e multiplicador de energia por entidade podem ser ajustados no arquivo de configuração.
 
 ![Interface do Acelerador de Entidade](../../picture/entity_speed_ticker_en.png)
 
@@ -32,11 +32,11 @@ O **Acelerador de Entidade** consome energia da rede AE2 para acelerar entidades
 
 ### Cálculo de Energia Base
 
-O consumo de energia do Acelerador de Entidade é determinado pelo valor de configuração base `baseCost` e pelo multiplicador de aceleração alvo.
+O consumo de energia do Acelerador de Entidade é determinado pelo valor base da configuração `baseCost` e pelo multiplicador de aceleração alvo.
 
 Sendo:
 - \( M \) = multiplicador alvo (2, 4, 8, ..., 1024)
-- \( B \) = energia base da configuração (padrão 512)
+- \( B \) = configuração de energia base (padrão 512)
 - \( L \) = log₂(M)
 
 **Fórmula de consumo base de energia:**
@@ -56,15 +56,15 @@ Sendo:
 | 128        | 131.072        |
 | 256        | 524.288        |
 | 512        | 268.435.456    |
-| 1024       | 2.147.483.648  |
+| 1024       | 2.147.483.648 |
 
-### Eficiência do Cartão de Energia
+### Eficiência dos Cartões de Energia
 
 Instalar Cartões de Energia reduz o consumo de energia. O efeito aumenta com o número de cartões, mas com retornos decrescentes.
 
 Sendo \( N \) = número de cartões de energia instalados
 
-**Fórmula da Proporção de Energia:**  
+**Fórmula da Proporção de Energia:**
 ![eformula1](../../picture/eformula2.png)
 
 **Tabela de Eficiência dos Cartões de Energia:**
@@ -83,7 +83,7 @@ Sendo \( N \) = número de cartões de energia instalados
 
 ### Cálculo Final de Energia
 
-**Fórmula da Energia Final:**
+**Fórmula de Energia Final:**
 
 **energiaFinal = energiaBase × proporcaoEnergia**
 
@@ -95,4 +95,4 @@ Sendo \( N \) = número de cartões de energia instalados
 - Proporção de Energia: 82,85%
 - **Consumo Final de Energia:** 65.536 × 0,8285 ≈ 54.267 AE
 
-> O consumo real de energia pode variar dependendo da configuração específica de cada entidade.
+> O consumo real de energia pode variar conforme a configuração específica de cada entidade.

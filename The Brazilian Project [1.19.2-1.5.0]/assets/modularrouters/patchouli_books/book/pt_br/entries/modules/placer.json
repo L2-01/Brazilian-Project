@@ -1,0 +1,19 @@
+{
+  "name": "Módulo Colocador",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:placer_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este módulo tenta colocar um item do buffer do roteador como um bloco, adjacente ao roteador na $(l:intro/modules#direction)direção configurada/$ do módulo.$(li)Se o item não for um bloco ou o espaço do bloco de destino estiver obstruído, nada será feito.$(li)As regras normais de colocação do Minecraft são seguidas; ex.: cana-de-açúcar só pode ser colocada ao lado de água em areia/terra."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Blocos de fluido serão substituídos, assim como blocos substituíveis como grama alta.$(li)O módulo Colocador pode plantar sementes em terras aradas e sementes de cacau num tronco de selva adjacente."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:placer_module"
+    }
+  ]
+}

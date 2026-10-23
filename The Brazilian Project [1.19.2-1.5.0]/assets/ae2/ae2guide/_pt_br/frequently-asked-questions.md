@@ -3,18 +3,18 @@ navigation:
   title: Perguntas Frequentes
 ---
 
-Abaixo estão várias perguntas frequentes.
+Abaixo estão algumas perguntas frequentes.
 
-### Como eu instalo o AE2?
+### Como instalo o AE2?
 
-Simplesmente coloque o arquivo jar na pasta `mods` do seu Minecraft com Fabric ou Forge instalado.
+Basta colocar o arquivo jar na pasta `mods` do seu Minecraft com Fabric ou Forge instalado.
 
-### Posso usar isto no meu modpack privado/público?
+### Posso usar isso no meu modpack privado/público?
 
 Sim, não precisa pedir permissão. Como prova, mande as pessoas para este FAQ.
 
-### Meu jogo crashou ou estou tendo outros problemas com o Applied Energistics 2.
+### Meu jogo travou ou estou tendo outros problemas com o Applied Energistics 2.
 
-Se você já tentou tudo que conseguiu pensar e acha que algo está se
-comportando estranhamente ou crashando seu jogo, a melhor forma de nos enviar relatórios de bug é
-o [bug tracker](https://github.com/AppliedEnergistics/Applied-Energistics-2/issues).
+Se você já tentou de tudo e acha que algo está se
+comportando estranhamente ou travando seu jogo, a melhor forma de nos enviar relatórios de bug é o
+[rastreador de bugs](https://github.com/AppliedEnergistics/Applied-Energistics-2/issues).

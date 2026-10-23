@@ -1,0 +1,21 @@
+---
+title: Melhoria de Busca em Largura
+id: excessive_utilities:breadth_first_search_upgrade
+related_items: [excessive_utilities:breadth_first_search_upgrade]
+type: item
+---
+A **Melhoria de Busca em Largura** pode ser colocada dentro de [Nós de Transferência e Recuperação](@excessive_utilities:transfer_nodes) para fazer o Ping deles procurar uma rede de Tubos de Transferência do mais próximo ao mais distante.
+
+Em cada junção, o Ping procura um cano em cada ramo válido antes de procurar dois canos em qualquer ramo. Ele continua esse processo um passo de cada vez, efetivamente procurando todos os ramos simultaneamente.
+
+Isso garante que o inventário, tanque ou armazenamento de energia válido mais próximo seja sempre encontrado primeiro. Se vários destinos válidos estiverem à mesma distância do Nó, a ordem de busca entre eles é aleatória.
+
+Cada cano visitado ainda custa uma operação. Redes com muitos ramos e sub-ramos podem demorar bem mais para serem pesquisadas. A Busca em Largura é mais indicada para redes com vários ramos curtos, como uma linha de Tubos de Transferência ao lado de uma linha de inventários.
+
+Uma vez que um ramo tenha sido pesquisado, o Nó não o pesquisa de novo até o Ping reiniciar. Um Nó de Transferência normalmente reinicia seu Ping quando seu buffer esvazia. Uma [Melhoria Pseudo Round-Robin](@excessive_utilities:pseudo_round_robin_upgrade) impede esse reinício.
+
+A Melhoria muda apenas a ordem de busca. Ela não aumenta a velocidade de transferência nem a quantidade movida por operação.
+
+Apenas uma Melhoria de Busca em Largura pode ser instalada num Nó. Ela não pode ser instalada junto com uma [Melhoria de Busca em Profundidade](@excessive_utilities:depth_first_search_upgrade).
+
+<PrefabObtaining/>

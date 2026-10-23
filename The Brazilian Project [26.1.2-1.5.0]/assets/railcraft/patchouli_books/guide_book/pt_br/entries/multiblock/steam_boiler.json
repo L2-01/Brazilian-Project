@@ -1,32 +1,32 @@
 {
-  "name": "Caldeira a Vapor",
-  "icon": "railcraft:solid_fueled_firebox",
-  "category": "railcraft:multiblock",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "No coração de muitos centros industriais você encontrará um monstro tentacular de máquina chamado Caldeira a Vapor. Essas máquinas podem produzir Vapor suficiente para atender às necessidades de energia de qualquer complexo. Elas podem parecer intimidadoras a princípio, mas nossos especialistas estão aqui para ajudar você a instalar a sua!$(br2)Ao construir uma Caldeira a Vapor, a primeira camada colocada deve ser a Fornalha. Atualmente oferecemos dois tipos de Fornalhas. A de Combustível Sólido, que queima combustíveis normais de forno como Carvão Vegetal ou Coque de Carvão, e a de Combustível Líquido, que usa combustíveis líquidos como Óleo de Creosoto, Biocombustível e o bom e velho Combustível."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Há três tamanhos base de Caldeira a Vapor: a pequena Caldeira 1×1, a trabalhadora Caldeira 2×2, e a excessiva Caldeira 3×3.$(br2)Depois de colocar a Fornalha, você deve construir um Tanque de Caldeira acima dela. Os Tanques de Caldeira vêm em duas variedades: Baixa Pressão e Alta Pressão. A diferença é que os Tanques de Caldeira de Alta Pressão produzem o dobro de vapor, mas os Tanques de Caldeira de Baixa Pressão são geralmente mais eficientes."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Quanto maior a Caldeira a Vapor, mais eficiente ela é em termos de uso de combustível. Você geralmente sai ganhando construindo uma única Caldeira grande em vez de várias pequenas. A ressalva é que é melhor construir Caldeiras de Baixa Pressão em vez de Alta Pressão se você quiser máxima eficiência de combustível em corridas curtas (onde a caldeira não atinge a temperatura máxima). Se você mantiver suas caldeiras funcionando sem parar, obtém exatamente a mesma quantidade de vapor por unidade de combustível.$(br2)O tamanho do tanque que você pode construir depende do tamanho da Fornalha. Uma Fornalha 1×1 só pode suportar um único tanque de metro cúbico. A 2×2 pode suportar 8 ou 12 metros cúbicos de Tanque de Caldeira. E finalmente, a gigantesca 3×3 pode suportar 18, 27 ou 36 metros cúbicos de Tanque de Caldeira."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Depois de construir sua Caldeira a Vapor, você precisará fornecer água e combustível a ela. Um aviso: você deve fornecer um fluxo constante e estável de água para a Fornalha (não para os Tanques) ou corre o risco de uma explosão massiva da Caldeira. Introduzir água numa Caldeira quente e seca é excepcionalmente perigoso. Dito isso, as Caldeiras são bem seguras desde que o suprimento de água seja constante."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Ao aquecer uma caldeira pela primeira vez, elas são muito ineficientes e usarão até 8x mais combustível do que quando no calor máximo. Geralmente é recomendado que você deixe sua caldeira funcionando o tempo todo em vez de desligá-la quando não estiver em uso. Especialmente as Caldeiras maiores, já que o tempo de aquecimento depende do tamanho."
-    },
-    {
-      "type": "patchouli:multiblock",
-      "name": "Caldeira a Vapor",
-      "multiblock_id": "railcraft:boiler"
-    }
-  ]
+    "name": "Caldeira a Vapor",
+    "icon": "railcraft:solid_fueled_firebox",
+    "category": "railcraft:multiblock",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "No coração de muitos centros industriais você encontrará um monstro de máquina cheio de tentáculos chamado Caldeira a Vapor. Essas máquinas podem produzir Vapor suficiente para atender às necessidades de energia de qualquer complexo. Podem parecer intimidadores no início, mas nossos especialistas estão aqui para ajudá-lo a instalar a sua!$(br2)Ao construir uma Caldeira a Vapor, a primeira camada colocada deve ser a Fornalha. Oferecemos dois tipos de Fornalhas: a Combustível Sólido, que queima combustíveis comuns de fornalha como Carvão Vegetal ou Coque de Carvão, e a Combustível Líquido, que usa combustíveis líquidos como Óleo de Creosoto, Biocombustível e o bom e velho Combustível."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Há três tamanhos básicos de Caldeira a Vapor: a pequena Caldeira 1×1, a trabalhadora Caldeira 2×2 e a imensa Caldeira 3×3.$(br2)Depois de colocar a Fornalha, você deve construir um Tanque de Caldeira acima dela. Os Tanques de Caldeira vêm em duas variedades: Baixa Pressão e Alta Pressão. A diferença é que os Tanques de Alta Pressão produzem o dobro de vapor, mas os de Baixa Pressão são geralmente mais eficientes."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Quanto maior a Caldeira a Vapor, mais eficiente ela é no uso de combustível. Em geral, é melhor construir uma única Caldeira grande em vez de várias pequenas. A ressalva é que é melhor construir Caldeiras de Baixa Pressão em vez de Alta Pressão se você quer eficiência máxima de combustível em percursos curtos (quando a caldeira não atinge a temperatura máxima). Se suas caldeiras funcionam sem parar, você obtém exatamente a mesma quantidade de vapor por unidade de combustível.$(br2)O tamanho do tanque que você pode construir depende do tamanho da Fornalha. Uma Fornalha 1×1 só comporta um tanque de um metro cúbico. A 2×2 comporta 8 ou 12 metros cúbicos de Tanque de Caldeira. E, por fim, a imensa 3×3 comporta 18, 27 ou 36 metros cúbicos de Tanque de Caldeira."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Depois de construir sua Caldeira a Vapor, você precisará fornecer água e combustível. Um aviso: você deve suprir um fluxo constante e contínuo de água para a Fornalha (não para os Tanques), ou corre o risco de uma explosão massiva da Caldeira. Introduzir água numa Caldeira quente e seca é excepcionalmente perigoso. Dito isso, as Caldeiras são bem seguras desde que o suprimento de água seja constante."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Ao aquecer uma caldeira pela primeira vez, elas são muito ineficientes e usam até 8 vezes mais combustível do que quando estão no calor máximo. Em geral, recomenda-se deixar a caldeira funcionando o tempo todo em vez de desligá-la quando não estiver em uso. Especialmente as Caldeiras maiores, já que o tempo de aquecimento depende do tamanho."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Caldeira a vapor",
+            "multiblock_id": "railcraft:boiler"
+        }
+    ]
 }

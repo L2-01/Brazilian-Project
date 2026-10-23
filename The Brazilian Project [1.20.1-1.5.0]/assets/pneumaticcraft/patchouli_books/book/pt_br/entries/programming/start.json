@@ -6,14 +6,14 @@
   "pages": [
     {
       "type": "text",
-      "text": "O widget $(thing)Início/$ é o primeiro widget do seu programa e é onde a $(l:programming/flow_control)execução do programa/$ começa.$(p)Ele $(italic)deve/$ existir e só pode haver um."
+      "text": "O widget $(thing)Início/$ é o primeiro widget do seu programa, e é onde a $(l:programming/flow_control)execução do programa/$ começa.$(p)Ele $(italic)deve/$ existir, e só pode haver um."
     },
     {
       "type": "image",
       "images": [
         "pneumaticcraft:textures/progwidgets/start_piece.png"
       ],
-      "text": "$(italic)Pode me chamar de MacLeod/$"
+      "text": "$(italic)Me chame de MacLeod/$"
     }
   ]
 }

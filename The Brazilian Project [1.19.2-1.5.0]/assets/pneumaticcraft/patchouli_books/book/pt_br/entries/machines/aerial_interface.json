@@ -1,51 +1,51 @@
 {
-  "name": "Interface Aérea",
-  "icon": "pneumaticcraft:aerial_interface",
-  "category": "pneumaticcraft:machines",
-  "advancement": "pneumaticcraft:advanced_pressure_tube",
-  "pages": [
-    {
-      "type": "text",
-      "text": "A $(item)Interface Aérea/$ é um dispositivo muito poderoso que pode se conectar diretamente ao inventário de um jogador. Quando suficientemente $(l:base_concepts/pressure)pressurizada/$, ela pode ser usada como qualquer outro inventário. Em vez de parar na Interface, os itens são enviados $(italic)diretamente/$ para o jogador dono. Você poderia usar uma $(l:logistics/frames#requester)Moldura Solicitante de Logística/$ na Interface para se manter abastecido com 64 tochas, por exemplo."
-    },
-    {
-      "type": "text",
-      "text": "Por padrão, seu inventário principal é acessado por qualquer face lateral da Interface e seus espaços de armadura são acessados pelas faces de cima/baixo. Porém, isso pode ser reconfigurado via a aba lateral $(bold)Configuração de Lados/$ da GUI.$(p)Você pode conectar qualquer face a qualquer um de:$(li)Inventário principal$(li)Espaços de armadura$(li)Espaço de mão secundária$(li)Inventário de Ender (como acessado por $(item)Baús de Ender/$ vanilla)."
-    },
-    {
-      "type": "text",
-      "title": "Respiração na Água",
-      "text": "Obviamente, já que temos algo que pode se ligar a um jogador, que é alimentado por $(l:base_concepts/pressure)ar/$, deveria haver algo que nos permita transferir esse ar quando necessário - certo? Ao custo de 80mL/tique, você pode respirar indefinidamente debaixo d'água.$(p)Isso é um pouco mais eficiente que um $(l:armor/pneumatic_helmet)Capacete Pneumático/$ com $(l:base_concepts/upgrades#scuba)Melhoria de Mergulho/$, mas não fornece a visão subaquática clara."
-    },
-    {
-      "type": "text",
-      "title": "Interface de Energia Forge",
-      "text": "Uma $(item)Interface Aérea/$ aceita $(thing)Energia Forge/$ (compatível com energia RF e a energia de muitos outros mods). A energia armazenada no seu buffer interno (100.000) é usada para carregar qualquer item carregável por FE no inventário do jogador (e espaços de armadura)."
-    },
-    {
-      "type": "text",
-      "title": "Auto-Alimentação",
-      "text": "Ao inserir uma $(l:base_concepts/upgrades#dispenser)Melhoria de Ejetor/$, você pode fazer a $(item)Interface Aérea/$ agir como um auto-alimentador remoto. Apenas itens de comida serão aceitos pela Interface, e apenas quando você estiver com fome o suficiente para aproveitar totalmente a refeição fornecida. Note que quando um inventário oferece uma pilha de >1, a Interface espera até que você consiga consumir aquela quantidade. Para garantir que a menor quantidade de comida seja aproveitada, use inseridores lentos como $(item)Funis/$."
-    },
-    {
-      "type": "text",
-      "title": "Manipulação de Experiência",
-      "text": "A $(l:base_concepts/upgrades#dispenser)Melhoria de Ejetor/$ também permite bombear $(thing)fluidos de XP/$ para dentro ou para fora da Interface. Quando existem vários tipos de fluido de XP, você pode escolher qual usar via a aba $(bold)Experiência/$ na GUI.  Esta aba também mostra quais fluidos de experiência de mods foram detectados e estão disponíveis para uso. A $(l:base_concepts/memory_essence)Essência de Memória/$ está sempre disponível para uso."
-    },
-    {
-      "type": "text",
-      "title": "Manipulação de Experiência (cont.)",
-      "text": "Note que a Interface não tem um buffer de líquido interno; ela usa sua experiência diretamente como um 'tanque'. Isso significa que, ao bombear XP para dentro ou fora, você precisa de um dispositivo que possa transportar líquidos a uma taxa maior que a quantidade de XP líquido por ponto de XP. Essa taxa é de 20mB/tique para todos os fluidos de XP conhecidos até o momento."
-    },
-    {
-      "type": "text",
-      "title": "Carga Automática",
-      "text": "Ao apontar um $(l:tubes/charging_module)Módulo de Carga/$ para a $(item)Interface Aérea/$, você pode carregar quaisquer itens $(l:base_concepts/pressure)pressurizáveis/$ no seu inventário.$(p)Note que para carregar quaisquer itens de $(l:armor/overview)Armadura Pneumática/$ vestidos, o Módulo de Carga deve estar apontado para um lado da Interface que esteja conectado aos seus espaços de armadura."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando uma Interface Aérea",
-      "recipe": "pneumaticcraft:aerial_interface"
-    }
-  ]
+    "name": "Interface Aérea",
+    "icon": "pneumaticcraft:aerial_interface",
+    "category": "pneumaticcraft:machines",
+    "advancement": "pneumaticcraft:advanced_pressure_tube",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A $(item)Interface Aérea/$ é um dispositivo muito poderoso que pode se conectar diretamente ao inventário de um jogador. Quando suficientemente $(l:base_concepts/pressure)pressurizada/$, ela pode ser usada como qualquer outro inventário. Em vez de cair na Interface, os itens são enviados $(italic)diretamente/$ ao jogador dono. Você poderia usar uma $(l:logistics/frames#requester)Moldura Solicitante de Logística/$ na Interface para se manter abastecido com 64 tochas, por exemplo."
+        },
+        {
+            "type": "text",
+            "text": "Por padrão, seu inventário principal é acessado por qualquer face lateral da Interface, e seus espaços de armadura são acessados pelas faces superior/inferior. Porém, isso pode ser reconfigurado na aba lateral $(bold)Configuração de Lados/$ da GUI.$(p)Você pode conectar qualquer face a qualquer um de:$(li)Inventário principal$(li)Espaços de armadura$(li)Espaço da mão secundária$(li)Inventário do Ender (acessado por $(item)Baús de Ender/$ do jogo padrão)."
+        },
+        {
+            "type": "text",
+            "title": "Respiração Aquática",
+            "text": "Obviamente, já que temos algo que pode se vincular a um jogador e é alimentado por $(l:base_concepts/pressure)ar/$, deve haver algo que nos permita transferir esse ar quando necessário — certo? Ao custo de 80mL/tick, você pode respirar indefinidamente debaixo d'água.$(p)Isso é um pouco mais eficiente que um $(l:armor/pneumatic_helmet)Capacete Pneumático/$ com $(l:base_concepts/upgrades#scuba)Melhoria de Mergulho/$, mas não oferece a visão subaquática clara."
+        },
+        {
+            "type": "text",
+            "title": "Interface de Forge Energy",
+            "text": "Uma $(item)Interface Aérea/$ aceita $(thing)Forge Energy/$ (compatível com energia RF e a energia de muitos outros mods). A energia armazenada em seu buffer interno (100.000) é usada para carregar qualquer item carregável por FE no inventário do jogador (e nos espaços de armadura)."
+        },
+        {
+            "type": "text",
+            "title": "Auto-Alimentação",
+            "text": "Ao inserir uma $(l:base_concepts/upgrades#dispenser)Melhoria de Ejetor/$, você pode fazer a $(item)Interface Aérea/$ agir como um alimentador automático remoto. Apenas itens de comida serão aceitos pela Interface, e apenas quando você estiver com fome o bastante para aproveitar totalmente a refeição fornecida. Note que quando um inventário oferece uma pilha de >1, a Interface espera até você conseguir consumir aquela quantidade. Para garantir que a menor quantidade de comida seja aproveitada, use inseridores lentos como $(item)Funis/$."
+        },
+        {
+            "type": "text",
+            "title": "Manipulação de Experiência",
+            "text": "A $(l:base_concepts/upgrades#dispenser)Melhoria de Ejetor/$ também permite bombear $(thing)fluidos de XP/$ para dentro ou para fora da Interface. Quando existem vários tipos de fluido de XP, você pode escolher qual usar na aba $(bold)Experiência/$ da GUI. Essa aba também mostra quais fluidos de experiência de mods foram detectados e estão disponíveis para uso. A $(l:base_concepts/memory_essence)Essência de Memória/$ está sempre disponível."
+        },
+        {
+            "type": "text",
+            "title": "Manipulação de Experiência (cont.)",
+            "text": "Note que a Interface não tem um buffer interno de líquido; ela usa sua experiência diretamente como tanque. Isso significa que, ao bombear XP para dentro ou para fora, você precisa de um dispositivo que consiga transportar líquidos a uma taxa maior que a quantidade de XP líquido por ponto de XP. Essa taxa é de 20mB/tick para todos os fluidos de XP conhecidos até o momento."
+        },
+        {
+            "type": "text",
+            "title": "Auto-Carregamento",
+            "text": "Ao apontar um $(l:tubes/charging_module)Módulo de Carga/$ para a $(item)Interface Aérea/$, você pode carregar quaisquer itens $(l:base_concepts/pressure)pressurizáveis/$ do seu inventário.$(p)Note que, para carregar itens de $(l:armor/overview)Armadura Pneumática/$ vestidos, o Módulo de Carga deve estar apontado para um lado da Interface que esteja conectado aos seus espaços de armadura."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Interface Aérea",
+            "recipe": "pneumaticcraft:aerial_interface"
+        }
+    ]
 }

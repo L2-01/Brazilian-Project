@@ -1,34 +1,34 @@
 ---
 navigation:
-  title: Configurações do Canal
+  title: Configurações de Canal
   parent: nodes/index.md
   position: 2
 ---
 
-# Configurações do Canal
+# Configurações de Canal
 
-Este painel controla o canal que você selecionou no [Cabeçalho](header.md). Todo nó tem 9 canais e cada um tem sua própria cópia independente de todas as configurações abaixo — mudar uma configuração aqui afeta apenas o canal que você está olhando.
+Este painel controla o canal que você selecionou no [Cabeçalho](header.md). Todo nó tem 9 canais e cada um tem sua própria cópia independente de todas as configurações abaixo — mudar uma configuração aqui só afeta o canal que você está vendo.
 
-Segure a **Tecla Modificadora 3 (padrão: Alt)** e use a **Interação Primária (padrão: Botão Esquerdo)** para definir uma configuração no valor máximo, ou a **Interação Secundária (padrão: Botão Direito)** para defini-la no valor mínimo.
+Segure a **Tecla Modificadora 3 (padrão: Alt)** e use a **Interação Primária (padrão: Botão Esquerdo)** para definir uma configuração em seu valor máximo, ou a **Interação Secundária (padrão: Botão Direito)** para defini-la em seu valor mínimo.
 
-Use a Interação Primária nos botões de número de canal no topo da tela para trocar a qual canal estas configurações se aplicam.
+Use a Interação Primária nos botões de número de canal no topo da tela para trocar a qual canal essas configurações se aplicam.
 
-## Estado
+## Status
 
-![Estado: Ativado](images/channel-status-enabled.png)
+![Status: Ativado](images/channel-status-enabled.png)
 
-![Estado: Desativado](images/channel-status-disabled.png)
+![Status: Desabilitado](images/channel-status-disabled.png)
 
 **O que é:** interruptor liga/desliga do canal.
 
 **O que faz:**
 
-- **Ativado** — o canal está vivo. Ele é processado a cada tique (sujeito a Atraso, Redstone e assim por diante).
-- **Desativado** — o canal é completamente pulado pelo motor de transferência. Sem extração, sem inserção, sem verificação de redstone. Nada.
+- **Ativado** — o canal está ativo. Ele é processado a cada tick (sujeito a Atraso, Redstone etc.).
+- **Desabilitado** — o canal é completamente ignorado pelo motor de transferência. Sem extração, sem inserção, sem verificação de redstone. Nada.
 
-**Como mudar:** use a Interação Primária na pílula de valor para alternar entre Ativado e Desativado.
+**Como alterar:** use a Interação Primária na pílula de valor para alternar entre Ativado e Desabilitado.
 
-**Pegadinha:** um canal desativado mantém todas as outras configurações (filtros, lote, atraso, etc.). Você não está excluindo nada — apenas pausando-o. Reative para continuar exatamente de onde parou.
+**Detalhe:** um canal desabilitado mantém todas as outras configurações (filtros, lote, atraso etc.). Você não está apagando nada — apenas pausando. Reative para continuar de onde parou.
 
 ## Modo
 
@@ -40,12 +40,12 @@ Use a Interação Primária nos botões de número de canal no topo da tela para
 
 **O que faz:**
 
-- **Emissor** — puxa recursos **para fora** do bloco ao qual este nó está preso. Os Emissores são os que dirigem as transferências: eles procuram Receptores correspondentes no mesmo número de canal pela rede e empurram recursos para eles.
-- **Receptor** — aceita recursos **para dentro** do bloco ao qual este nó está preso. Os Receptores são passivos — esperam um Emissor no mesmo número de canal entregar.
+- **Emissor** — puxa recursos **de dentro** do bloco ao qual este nó está anexo. Emissores são quem dirige as transferências: eles procuram Receptores correspondentes no mesmo número de canal pela rede e empurram recursos para eles.
+- **Receptor** — aceita recursos **para dentro** do bloco ao qual este nó está anexo. Receptores são passivos — esperam um Emissor no mesmo número de canal entregar.
 
-**Como mudar:** use a Interação Primária na pílula de valor para alternar entre Emissor e Receptor.
+**Como alterar:** use a Interação Primária na pílula de valor para alternar entre Emissor e Receptor.
 
-**Pegadinha:** uma rede com apenas Receptores (ou apenas Emissores) não faz nada. Você precisa de pelo menos um de cada no mesmo número de canal para que algo se mova.
+**Detalhe:** uma rede só com Receptores (ou só com Emissores) não faz nada. Você precisa de pelo menos um de cada no mesmo número de canal para algo se mover.
 
 ## Tipo
 
@@ -57,21 +57,21 @@ Use a Interação Primária nos botões de número de canal no topo da tela para
 
 **O que é:** o tipo de recurso que este canal move.
 
-**O que faz:** diz ao motor qual capacidade procurar no bloco anexo:
+**O que faz:** diz ao motor qual capacidade procurar no bloco anexado:
 
-- **Item** — pilhas de itens de um inventário (baús, fornalhas, funis, interfaces do AE2, interfaces do Refined Storage, etc.).
+- **Item** — pilhas de itens de um inventário (baús, fornalhas, funis, interfaces do AE2, interfaces do Refined Storage etc.).
 - **Fluido** — milibaldes (mB) de um tanque.
-- **Energia** — Forge Energy / RF de um buffer de energia.
+- **Energia** — Forge Energy / RF de um acumulador de energia.
 
-**Como mudar:** use a Interação Primária na pílula de valor para percorrer os tipos disponíveis.
+**Como alterar:** use a Interação Primária na pílula de valor para alternar entre os tipos disponíveis.
 
-**Pegadinha:** nem todo bloco suporta todo tipo. Se o bloco não tem a capacidade correspondente no lado escolhido, o canal silenciosamente não faz nada. Coloque um nó de item num tanque de fluido e ele não transferirá — porque o tanque não tem inventário de itens.
+**Detalhe:** nem todo bloco suporta todo tipo. Se o bloco não tiver a capacidade correspondente no lado escolhido, o canal simplesmente não fará nada. Coloque um nó de itens em um tanque de fluido e ele não transferirá — porque o tanque não tem inventário de itens.
 
 ### Interfaces do AE2 e do Refined Storage
 
-Nós com uma [Melhoria de Rede](upgrades-special.md) em Interfaces do Applied Energistics 2 e do Refined Storage transferem itens e fluidos diretamente pela rede de armazenamento conectada. Sem a melhoria, a Interface é tratada como qualquer outro inventário: o nó só vê os itens e tanques estocados na própria Interface. Os recursos de exportação configurados da Interface decidem o que um Emissor pode puxar, incluindo sua configuração fuzzy nativa, mas a quantidade configurada não limita o lote do Logistics. Receptores podem inserir qualquer recurso aceito pelos filtros de canal do Logistics.
+Nós com uma [Melhoria de Rede](upgrades-special.md) em Interfaces do Applied Energistics 2 e do Refined Storage transferem itens e fluidos diretamente pela rede de armazenamento conectada. Sem a melhoria, a Interface é tratada como qualquer outro inventário: o nó só vê os itens e tanques estocados na própria Interface. Os recursos de exportação configurados na Interface decidem o que um Emissor pode puxar, incluindo sua configuração fuzzy nativa, mas a quantidade configurada não limita o lote da Logistics. Receptores podem inserir qualquer recurso aceito pelos filtros de canal da Logistics deles.
 
-Para Emissores de itens, o caminho direto puxa da rede de armazenamento primeiro, depois usa itens estocados naquela Interface para completar qualquer lote restante. Itens exclusivos do buffer ficam disponíveis para transferências posteriores, permitindo que a Interface esvazie. Transferências diretas de fluido ainda ignoram tanques expostos. Adicionar um mapeamento de espaço explícito do Logistics muda aquele canal de item de volta para o inventário exposto da Interface. Uma rede de armazenamento desconectada ou inativa espera sem usar o buffer da Interface, e transferências diretas nunca solicitam autofabricação.
+Para Emissores de itens, o caminho direto puxa da rede de armazenamento primeiro e depois usa itens estocados naquela Interface para completar qualquer lote restante. Itens de buffer continuam disponíveis para transferências posteriores, permitindo que a Interface se esvazie. Transferências diretas de fluido ainda ignoram tanques expostos. Adicionar um mapeamento explícito de espaço da Logistics volta aquele canal de itens para o inventário exposto da Interface. Uma rede de armazenamento desconectada ou inativa espera sem usar o buffer da Interface, e transferências diretas nunca solicitam autofabricação.
 
 Dois tipos extras — Químico (Mekanism) e Fonte (Ars Nouveau) — existem, mas exigem melhorias específicas para desbloquear. Eles são cobertos na página de Melhorias.
 
@@ -81,16 +81,16 @@ Dois tipos extras — Químico (Mekanism) e Fonte (Ars Nouveau) — existem, mas
 
 ![Lado: Todos](images/channel-side-all.png)
 
-**O que é:** qual face do bloco anexo este canal interage.
+**O que é:** qual face do bloco anexado este canal usa para interagir.
 
-**O que faz:** alguns blocos se comportam diferente dependendo de qual lado você insere ou extrai. Fornalhas são o exemplo clássico: o lado de cima aceita combustível, o lado da frente aceita/dá o item fundido, o lado de baixo só dá saída. Lado permite escolher exatamente qual face usar.
+**O que faz:** alguns blocos se comportam de forma diferente dependendo de em qual lado você insere ou extrai. Fornalhas são o exemplo clássico: o lado de cima recebe combustível, o lado da frente recebe/entrega o item fundido, o lado de baixo só entrega a saída. Lado permite escolher exatamente qual face usar.
 
-- **Cima / Baixo / Norte / Leste / Sul / Oeste** — apenas aquela face. O motor sonda o inventário (ou tanque, ou buffer de energia) do bloco naquele lado específico e usa quaisquer espaços que o bloco expõe ali.
-- **Todos** — toda face do bloco é mesclada num único manipulador combinado. O canal vê o bloco como um único poço de espaços/tanques/buffers feito de todo armazenamento exposto de cada lado. Se duas faces expõem exatamente o mesmo manipulador (comum — a maioria dos blocos expõe um inventário em todo lado), a duplicata é removida para que você não conte em dobro.
+- **Cima / Baixo / Norte / Leste / Sul / Oeste** — apenas aquela face. O motor sonda o inventário do bloco (ou tanque, ou acumulador de energia) naquele lado específico e usa os espaços que o bloco expõe ali.
+- **Todos** — todas as faces do bloco são mescladas em um único manipulador combinado. O canal vê o bloco como um único conjunto de espaços/tanques/acumuladores formado pelo armazenamento exposto de todos os lados. Se duas faces expuserem exatamente o mesmo manipulador (comum — a maioria dos blocos expõe um inventário em todos os lados), a duplicata é removida para não contar em dobro.
 
-**Como mudar:** use a Interação Primária para avançar à próxima face (a ordem é Cima → Baixo → N → L → S → O → Todos → Cima ...).
+**Como alterar:** use a Interação Primária para alternar para a próxima face (a ordem é Cima → Baixo → N → L → S → O → Todos → Cima ...).
 
-**Pegadinha:** em blocos com inventários sensíveis a lado (fornalhas, suportes de poções, algumas máquinas), cada face expõe um conjunto *diferente* de espaços. Escolher **Todos** numa fornalha deixa o canal ver os espaços de entrada, combustível e saída de uma vez, o que normalmente não é o que você quer. Escolha a face específica para que os filtros se apliquem apenas aos espaços que importam.
+**Detalhe:** em blocos com inventários sensíveis a lado (fornalhas, suportes de poções, algumas máquinas), cada face expõe um conjunto *diferente* de espaços. Escolher **Todos** em uma fornalha faz o canal ver os espaços de entrada, combustível e saída de uma vez, o que geralmente não é o que você quer. Escolha a face específica para que os filtros só se apliquem aos espaços que interessam.
 
 ## Redstone
 
@@ -98,17 +98,17 @@ Dois tipos extras — Químico (Mekanism) e Fonte (Ars Nouveau) — existem, mas
 
 ![Redstone: Sinal Baixo](images/channel-redstone-low-signal.png)
 
-**O que é:** controle de redstone para este canal.
+**O que é:** controle por redstone deste canal.
 
-**O que faz:** o motor verifica o sinal de redstone **no bloco ao qual este nó está preso** (de qualquer vizinho — alavanca, tocha de redstone, pó, comparador, qualquer coisa). Com base naquele sinal, o canal roda ou é bloqueado:
+**O que faz:** o motor verifica o sinal de redstone **no bloco ao qual este nó está anexo** (de qualquer vizinho — alavanca, tocha de redstone, pó, comparador, o que for). Com base nesse sinal, o canal roda ou é bloqueado:
 
 - **Ignorado** (padrão) — roda independentemente de redstone. O sinal nem é verificado.
-- **Sinal Alto** — roda apenas quando um sinal de redstone está presente (força > 0).
+- **Sinal Alto** — roda apenas quando há um sinal de redstone presente (força > 0).
 - **Sinal Baixo** — roda apenas quando não há sinal de redstone (força = 0).
 
-**Como mudar:** use a Interação Primária para avançar ao próximo modo.
+**Como alterar:** use a Interação Primária para alternar para o próximo modo.
 
-O controle por redstone se aplica tanto a Emissores quanto a Receptores.
+O bloqueio por redstone se aplica tanto a Emissores quanto a Receptores.
 
 ## Distribuição
 
@@ -118,72 +118,72 @@ O controle por redstone se aplica tanto a Emissores quanto a Receptores.
 
 ![Distribuição: Mais Distante Primeiro](images/channel-distribution-farthest-first.png)
 
-![Distribuição: Rodízio](images/channel-distribution-round-robin.png)
+![Distribuição: Distribuição Igual](images/channel-distribution-round-robin.png)
 
 **O que é:** como um Emissor escolhe entre vários Receptores correspondentes no mesmo número de canal.
 
-**O que faz:** quando há apenas um Receptor, esta configuração não faz nada. Quando há vários, decide a ordem em que são servidos:
+**O que faz:** quando há apenas um Receptor, esta configuração não faz nada. Quando há vários, ela decide a ordem em que são atendidos:
 
-- **Prioridade** — ordena pelo valor de **Prioridade** de cada Receptor. Números maiores são servidos primeiro. Empates são quebrados sem ordem particular.
-- **Mais Próximo Primeiro** — serve primeiro os Receptores mais próximos do Emissor (por distância em linha reta).
-- **Mais Distante Primeiro** — o oposto do Mais Próximo Primeiro: serve o Receptor mais distante primeiro.
-- **Rodízio** — divide o lote de itens de cada operação o mais uniformemente possível entre os Receptores correspondentes.
-- **Rodízio por Prioridade** — cada operação vai para um Receptor, depois o próximo. Os Receptores são visitados da **Prioridade** mais alta para a mais baixa, e então o ciclo se repete. Um Receptor cheio é pulado.
+- **Prioridade** — ordena pelo valor de **Prioridade** de cada Receptor. Números maiores são atendidos primeiro. Empates são resolvidos sem ordem definida.
+- **Mais Próximo Primeiro** — atende primeiro os Receptores mais próximos do Emissor (por distância em linha reta).
+- **Mais Distante Primeiro** — o oposto do Mais Próximo Primeiro: atende primeiro o Receptor mais distante.
+- **Distribuição Igual** — divide o lote de itens de cada operação o mais uniformemente possível entre os Receptores correspondentes.
+- **Rodízio por Prioridade** — cada operação vai para um Receptor, depois o próximo. Os Receptores são visitados da maior para a menor **Prioridade**, e o ciclo se repete. Um Receptor cheio é ignorado.
 
-**Como mudar:** use a Interação Primária para avançar ao próximo modo.
+**Como alterar:** use a Interação Primária para alternar para o próximo modo.
 
-**Pegadinha:** o Rodízio não mantém um ponteiro de rotação, e as parcelas não usadas fluem para Receptores com espaço. Ele só divide lotes de itens; em canais de fluido, energia, produto químico e Fonte ele se comporta como **Prioridade**.
+**Detalhe:** a Distribuição Igual não mantém um ponteiro de rotação, e as porções não usadas fluem para Receptores com espaço. Ela só divide lotes de itens; em canais de fluido, energia, químicos e Fonte ela se comporta como **Prioridade**.
 
-**Pegadinha:** a posição do Rodízio por Prioridade reseta para o Receptor de maior prioridade quando o mundo ou o chunk do Emissor recarrega. Se o Receptor escolhido aceita apenas parte de um lote, o resto espera a próxima operação. Ele funciona em todo tipo de canal.
+**Detalhe:** a posição do Rodízio por Prioridade volta ao Receptor de maior prioridade quando o mundo ou o chunk do Emissor recarrega. Se o Receptor escolhido aceitar só parte de um lote, o resto espera a próxima operação. Funciona em todo tipo de canal.
 
-**Desativado em Receptores:** esta linha fica acinzentada quando o Modo é Receptor. Distribuição só faz sentido no lado do Emissor.
+**Desabilitado em Receptores:** esta linha fica cinza quando o Modo é Receptor. A distribuição só faz sentido no lado do Emissor.
 
 ## Prioridade
 
 ![Linha de Prioridade](images/channel-priority.png)
 
-**O que é:** um pequeno inteiro preso a este canal. Faixa: **–99 a +99**.
+**O que é:** um pequeno número inteiro ligado a este canal. Faixa: **–99 a +99**.
 
-**O que faz:** o Emissor ordena seus Receptores alvo por este número, o maior primeiro. Sob **Prioridade**, Receptores com prioridade maior recebem recursos antes dos de prioridade menor. Sob **Rodízio por Prioridade**, ele define a ordem em que os Receptores se alternam.
+**O que faz:** o Emissor ordena seus Receptores alvo por este número, do maior primeiro. Em **Prioridade**, Receptores de prioridade mais alta recebem recursos antes dos de prioridade mais baixa. Em **Rodízio por Prioridade**, define a ordem em que os Receptores se alternam.
 
-**Como mudar:** use a Interação Primária no campo de número para abrir uma caixa de texto, digite um número entre –99 e 99 e pressione Enter.
+**Como alterar:** use a Interação Primária no campo numérico para abrir uma caixa de texto, digite um número entre –99 e 99 e pressione Enter.
 
-**Pegadinha:** a Prioridade define a ordem de serviço sob Prioridade, Rodízio por Prioridade e Rodízio em canais que não são de itens. Sob Mais Próximo/Mais Distante ela é ignorada — o ordenador nunca a lê. Defina Prioridade nos **Receptores** que você quer servidos primeiro, não no Emissor.
+**Detalhe:** a Prioridade define a ordem de atendimento em Prioridade, Rodízio por Prioridade e Distribuição Igual em canais que não são de itens. Em Mais Próximo/Mais Distante ela é ignorada — o ordenador nem a lê. Defina a Prioridade nos **Receptores** que você quer atendidos primeiro, não no Emissor.
 
 ## Lote
 
 ![Linha de Lote](images/channel-batch.png)
 
-**O que é:** a quantidade máxima de recurso movida numa operação de transferência.
+**O que é:** a quantidade máxima de recurso movida em uma operação de transferência.
 
 **O que faz:** limita uma única tentativa de transferência. As unidades dependem do Tipo:
 
-- **Item** — número de itens (ex.: Lote 64 = até uma pilha completa por operação).
+- **Item** — número de itens (ex.: Lote 64 = até uma pilha cheia por operação).
 - **Fluido** — milibaldes (ex.: Lote 1000 = até 1 balde por operação).
 - **Energia** — Forge Energy / RF por operação.
 
-**Como mudar:** use a Interação Primária no campo de número para abrir uma caixa de texto, digite o novo valor e pressione Enter. O mínimo é 1. A caixa também aceita matemática simples com `+ - * /` e parênteses, então `64*7` salva como 448. Prioridade e Atraso funcionam do mesmo jeito.
+**Como alterar:** use a Interação Primária no campo numérico para abrir uma caixa de texto, digite o novo valor e pressione Enter. O mínimo é 1. A caixa também aceita contas simples com `+ - * /` e parênteses, então `64*7` salva como 448. Prioridade e Atraso funcionam da mesma forma.
 
-**Pegadinha:** o Lote é limitado pelas melhorias instaladas no nó. Você pode digitar 10.000, mas se seu nível de melhoria só permite 500, o motor usa 500. Instale melhorias de nível mais alto para elevar o teto — veja [Melhorias de Desempenho](upgrades-performance.md).
+**Detalhe:** o Lote é limitado pelas melhorias instaladas no nó. Você pode digitar 10.000, mas se seu nível de melhoria só permite 500, o motor usa 500. Instale melhorias de nível mais alto para elevar o teto — veja [Melhorias de Desempenho](upgrades-performance.md).
 
-**Desativado em Receptores:** esta linha fica acinzentada quando o Modo é Receptor. O tamanho do lote é decidido pelo Emissor.
+**Desabilitado em Receptores:** esta linha fica cinza quando o Modo é Receptor. O tamanho do lote é decidido pelo Emissor.
 
 ## Atraso
 
 ![Linha de Atraso](images/channel-delay.png)
 
-**O que é:** recarga entre operações de transferência neste canal, medida em **tiques**. `20t` significa 20 tiques, que é 1 segundo de tempo real.
+**O que é:** tempo de recarga entre operações de transferência neste canal, medido em **ticks**. `20t` significa 20 ticks, que é 1 segundo de tempo real.
 
-**O que faz:** após uma transferência bem-sucedida, o canal espera essa quantidade de tiques antes de tentar de novo. Usado para estrangular canais para que não transfiram em spam a cada tique quando você não precisa.
+**O que faz:** após uma transferência bem-sucedida, o canal espera essa quantidade de ticks antes de tentar de novo. Serve para estrangular canais para que não transfiram a cada tick quando você não precisa.
 
-**Como mudar:** use a Interação Primária no campo de número para abrir uma caixa de texto, digite o novo valor e pressione Enter. O mínimo é 1 tique.
+**Como alterar:** use a Interação Primária no campo numérico para abrir uma caixa de texto, digite o novo valor e pressione Enter. O mínimo é 1 tick.
 
-**Pegadinha:** canais de Energia **ignoram o Atraso**. O motor força as transferências de Energia para 1 tique (instantâneo) independentemente do que você colocar aqui. A linha de Atraso fica acinzentada em canais do tipo Energia por essa razão.
+**Detalhe:** canais de Energia **ignoram o Atraso**. O motor força transferências de Energia a 1 tick (instantâneas) independentemente do que você colocar aqui. A linha de Atraso fica cinza em canais do tipo Energia por isso.
 
-**Pegadinha (melhorias):** o Atraso também é limitado pelo atraso mínimo do seu nível de melhoria. Você pode digitar 1, mas se suas melhorias só permitem 10, o motor usa 10. Melhorias melhores significam um piso menor.
+**Detalhe (melhorias):** o Atraso também é limitado pelo atraso mínimo do seu nível de melhoria. Você pode digitar 1, mas se suas melhorias só permitem 10, o motor usa 10. Melhorias melhores significam um piso menor.
 
-**Desativado em Receptores:** esta linha fica acinzentada quando o Modo é Receptor. O Emissor decide a que velocidade empurra.
+**Desabilitado em Receptores:** esta linha fica cinza quando o Modo é Receptor. O Emissor decide com que velocidade ele empurra.
 
 ---
 
-Toda linha desta página vive apenas no canal atualmente selecionado. Troque de canal no [Cabeçalho](header.md), ou configure filtros e melhorias compartilhados em [Filtros e Melhorias](filters-upgrades.md).
+Toda linha desta página vale apenas para o canal atualmente selecionado. Troque de canal no [Cabeçalho](header.md), ou configure filtros e melhorias compartilhados em [Filtros e Melhorias](filters-upgrades.md).

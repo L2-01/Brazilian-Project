@@ -1,0 +1,47 @@
+---
+id: oritech:smart_splitter
+type: block
+title: Divisor Inteligente
+---
+
+O Divisor Inteligente é um pequeno amortecedor de itens que distribui os itens igualmente entre suas saídas horizontais. Ele armazena um pacote por vez, então não pode misturar tipos diferentes de itens.
+
+Ele usa a API padrão de transação de itens e não está preso aos tubos de itens do Oritech. Tubos, funis e outros sistemas de transferência de itens de outros mods podem interagir com ele, desde que usem a mesma API de transferência de itens.
+
+## Configuração automática dos lados
+
+O divisor aprende como cada lado horizontal está sendo usado:
+
+* Um lado se torna uma **entrada** depois que uma inserção por aquele lado é confirmada.
+* Um lado se torna uma **saída** assim que um tubo o inspeciona para extração ou tenta extrair por ele. A saída é detectada mesmo quando o divisor está vazio, o item solicitado está indisponível ou a extração é apenas simulada e nunca confirmada.
+* Lados não utilizados permanecem **fechados**.
+
+Itens também podem ser inseridos por cima ou por baixo, mas apenas os lados horizontais podem ser saídas.
+
+Clique com o botão direito em uma face horizontal para alterná-la entre saída e fechada. Clique agachado com o botão direito no bloco para alternar entre os modos de distribuição. O modo selecionado é mostrado no chat.
+
+## Modos de distribuição
+
+### Estrito
+
+Os itens são reservados da forma mais equitativa possível para cada saída configurada. Um tubo só pode extrair a parte reservada para o seu lado. Os itens restantes alternam entre as saídas nas inserções seguintes.
+
+Este modo garante uma divisão equilibrada, mas os itens reservados para uma saída bloqueada ou não utilizada permanecem no divisor.
+
+### Transbordo
+
+Os itens recebem inicialmente as mesmas reservas equilibradas do modo Estrito. Se uma saída não progride por cerca de um segundo, os itens reservados a ela ficam disponíveis para as outras saídas ativas.
+
+Use este modo quando a divisão equilibrada for preferível, mas manter o fluxo de itens em movimento for mais importante do que preservar partes bloqueadas indefinidamente.
+
+### Round Robin
+
+Apenas uma saída pode extrair por vez. Após uma operação de extração confirmada com sucesso, a próxima saída configurada ganha a vez. Extrações simuladas ou revertidas não consomem uma vez.
+
+A quantidade movida durante uma vez é determinada pelo tubo que extrai, então tubos acelerados ainda podem transferir lotes maiores sem forçar cada item por uma operação de taxa fixa.
+
+Se a saída atual estiver bloqueada, o Round Robin espera por ela. Use o modo Transbordo quando saídas bloqueadas devem ser contornadas automaticamente.
+
+<Callout variant="info">
+O divisor equilibra oportunidades de extração e reservas. Ele não pode fazer um inventário receptor aceitar itens, então o modo Estrito pode intencionalmente reter itens para uma saída indisponível.
+</Callout>

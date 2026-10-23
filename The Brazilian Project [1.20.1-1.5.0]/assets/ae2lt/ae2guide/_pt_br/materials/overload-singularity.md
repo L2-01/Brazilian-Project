@@ -8,7 +8,7 @@ item_ids:
   - ae2lt:ultimate_overload_core
 ---
 
-# Singularidade de Sobrecarga e Núcleo de Sobrecarga Ultimate
+# Singularidade de Sobrecarga e Núcleo de Sobrecarga Supremo
 
 <ItemGrid>
   <ItemIcon id="ae2lt:overload_singularity" />
@@ -21,10 +21,10 @@ Estes são os materiais de fabricação de mais alto nível do AE2 Lightning Tec
 
 <ItemImage id="ae2lt:overload_singularity" scale="2" float="left" />
 
-A **Singularidade de Sobrecarga** é um material de fabricação de alto nível produzido na Câmara de Simulação de Raios ou na Fábrica de Processamento de Sobrecarga. Ela é consumida em grandes quantidades por receitas de nível final, incluindo o Cristal Eletrosonoro Perfeito e o Núcleo de Sobrecarga Ultimate.
+A **Singularidade de Sobrecarga** é um material de fabricação de alto nível produzido na Câmara de Simulação de Raios ou na Fábrica de Processamento de Sobrecarga. Ela é consumida em grandes quantidades por receitas de nível final, incluindo o Cristal Eletrosonoro Perfeito e o Núcleo de Sobrecarga Supremo.
 
-## Núcleo de Sobrecarga Ultimate
+## Núcleo de Sobrecarga Supremo
 
 <ItemImage id="ae2lt:ultimate_overload_core" scale="2" float="left" />
 
-O **Núcleo de Sobrecarga Ultimate** é o componente mais avançado do mod. É fabricado a partir de Chapas de Liga de Sobrecarga, Singularidades de Sobrecarga e Fragmentos de Eco na Câmara de Simulação de Raios. É um ingrediente-chave da **Matriz de Colapso de Raios**, do equipamento Celestweave e do Canhão Elétrico Eletromagnético.
+O **Núcleo de Sobrecarga Supremo** é o componente mais avançado do mod. É fabricado a partir de Chapas de Liga de Sobrecarga, Singularidades de Sobrecarga e Fragmentos de Eco na Câmara de Simulação de Raios. É um ingrediente-chave da **Matriz de Colapso de Raios**, do equipamento Celestweave e do Canhão Elétrico Eletromagnético.

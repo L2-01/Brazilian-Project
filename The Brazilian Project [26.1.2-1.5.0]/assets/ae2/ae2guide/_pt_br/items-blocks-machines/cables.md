@@ -101,44 +101,44 @@ item_ids:
   <IsometricCamera yaw="180" pitch="30" />
 </GameScene>
 
-Embora redes ME também sejam criadas por máquinas ME adjacentes, cabos são a forma primária de
+Embora redes ME também sejam criadas por máquinas compatíveis com ME adjacentes, os cabos são a forma principal de
 estender uma rede ME por áreas maiores.
 
 Cabos de cores diferentes podem ser usados para garantir que cabos adjacentes não se conectem entre si,
-permitindo que [canais](../ae2-mechanics/channels.md) sejam distribuídos de forma mais eficiente. Eles também afetam a cor dos terminais conectados a eles,
+permitindo distribuir [canais](../ae2-mechanics/channels.md) com mais eficiência. Eles também afetam a cor dos terminais conectados a eles,
 então você não precisa ter todos os seus terminais roxos. Cabos fluix se conectam a todas as outras cores.
 
-Vale notar que **CANAIS NÃO TÊM NADA A VER COM A COR DO CABO**. Tudo que a cor do cabo faz é impedir que cabos se conectem.
+Vale notar que **CANAIS NÃO TÊM NADA A VER COM A COR DO CABO**. A cor do cabo só impede que cabos se conectem.
 
 ## Uma Nota Importante
 
-**Se você é novo no AE2 e não conhece canais, use Cabo ME Inteligente e Cabo ME Denso Inteligente onde puder.
-Eles mostrarão como os canais são roteados pela sua rede, tornando seu comportamento mais compreensível.**
+**Se você é novo no AE2 e não conhece canais, use cabo inteligente e cabo inteligente denso onde puder.
+Eles mostram como os canais são roteados pela sua rede, tornando o comportamento mais compreensível.**
 
 ## Outra Nota
 
-**Estes não são canos para itens, fluido, energia, etc.** Eles não têm inventário interno, provedores de padrões e máquinas não "empurram"
-para dentro deles; tudo que fazem é conectar [dispositivos](../ae2-mechanics/devices.md) AE2 entre si numa rede.
+**Estes não são tubos de itens, fluidos, energia etc.** Eles não têm inventário interno, provedores de padrões e máquinas não "empurram"
+para dentro deles; tudo o que fazem é conectar [dispositivos](../ae2-mechanics/devices.md) do AE2 entre si em uma rede.
 
-## Cabo ME
+## Cabo de Vidro
 
 <GameScene zoom="6" background="transparent">
 <ImportStructure src="../assets/assemblies/fluix_glass_cable.snbt" />
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-<ItemLink id="fluix_glass_cable" /> é o cabo mais simples de fazer, e transfere energia
-e até 8 [canais](../ae2-mechanics/channels.md). Vem em 17 cores diferentes, sendo a padrão
-Fluix, e pode ser tingido de qualquer cor usando qualquer um dos 16 corantes.
+O <ItemLink id="fluix_glass_cable" /> é o cabo mais simples de fazer, transfere energia
+e até 8 [canais](../ae2-mechanics/channels.md). Ele vem em 17 cores diferentes, sendo Fluix a padrão,
+e pode ser tingido de qualquer cor usando qualquer um dos 16 corantes.
 
 Para fabricar cabos coloridos, cerque um corante de qualquer tipo com 8 cabos do mesmo
-tipo (a cor dos cabos não importa, mas eles devem ser do mesmo tipo:
-ME, Inteligente, etc.). Você também pode pintar cabos com qualquer pincel de tinta
-compatível com Forge no mundo.
+tipo (a cor dos cabos não importa, mas eles precisam ser do mesmo tipo —
+vidro, inteligente etc.). Você também pode pintar cabos com qualquer pincel de pintura
+compatível com forge no mundo.
 
-Você pode fabricar qualquer cabo colorido com um balde de água para remover o corante.
+Você pode combinar qualquer cabo colorido com um balde de água para remover o corante.
 
-Você pode cobrir o cabo com lã para criar <ItemLink id="fluix_covered_cable" />, e fabricar <ItemLink id="fluix_smart_cable" /> para ter uma ideia melhor do que está acontecendo com
+Você pode cobrir o cabo com lã para criar o <ItemLink id="fluix_covered_cable" />, e fabricar o <ItemLink id="fluix_smart_cable" /> para ter uma ideia melhor do que está acontecendo com
 seus [canais](../ae2-mechanics/channels.md).
 
 <RecipeFor id="fluix_glass_cable" />
@@ -152,11 +152,11 @@ seus [canais](../ae2-mechanics/channels.md).
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-A variante de cabo coberto não oferece benefícios de gameplay sobre sua contraparte <ItemLink id="fluix_glass_cable" />. Ela pode, no entanto, ser usada
+A variante de cabo coberto não oferece vantagens de gameplay sobre sua contraparte <ItemLink id="fluix_glass_cable" />. Ela pode, porém, ser usada
 como uma escolha estética alternativa se você preferir o visual coberto.
 
-Pode ser colorido da mesma maneira que o <ItemLink id="fluix_glass_cable" />. Quatro <ItemLink id="fluix_covered_cable" /> podem ser fabricados com
-redstone e pedra-luminosa para fazer <ItemLink id="fluix_covered_dense_cable" />.
+Pode ser colorido da mesma forma que o <ItemLink id="fluix_glass_cable" />. Quatro <ItemLink id="fluix_covered_cable" /> podem ser fabricados com
+redstone e glowstone para fazer o <ItemLink id="fluix_covered_dense_cable" />.
 
 <Recipe id="network/cables/covered_fluix" />
 
@@ -169,13 +169,13 @@ redstone e pedra-luminosa para fazer <ItemLink id="fluix_covered_dense_cable" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-Cabo de maior capacidade. Pode carregar 32 canais, ao contrário dos cabos padrão que só carregam 8.
-No entanto, ele não suporta pontos, então você deve primeiro descer de denso para um
+Cabo de maior capacidade, pode transportar 32 canais, ao contrário do cabo padrão que só transporta 8;
+porém ele não suporta pontos, então você precisa primeiro reduzir de denso para um
 cabo menor (como <ItemLink id="fluix_glass_cable" /> ou <ItemLink id="fluix_smart_cable" />) antes de usar pontos ou
-paineis.
+painéis.
 
-Cabos densos substituem levemente o comportamento de "caminho mais curto" dos canais: canais tomarão o caminho mais curto até um
-cabo denso, e então o caminho mais curto através daquele cabo denso até um controlador.
+Cabos densos alteram levemente o comportamento de "caminho mais curto" dos canais: os canais pegam o caminho mais curto até um
+cabo denso e depois o caminho mais curto através desse cabo denso até um controlador.
 
 <Recipe id="network/cables/dense_covered_fluix" />
 
@@ -194,18 +194,18 @@ cabo denso, e então o caminho mais curto através daquele cabo denso até um co
 </GameScene>
 </Row>
 
-Embora tenham alguma semelhança com o <ItemLink id="fluix_covered_cable" /> na aparência, eles
-fornecem função de diagnóstico ao visualizar o uso de canais nos cabos;
+Embora se pareçam um pouco com o <ItemLink id="fluix_covered_cable" /> na aparência, eles
+oferecem função de diagnóstico ao visualizar o uso de canais nos cabos:
 os canais aparecem como linhas coloridas acesas que correm ao longo da faixa preta nos
-cabos, dando a você uma compreensão de como seus canais estão sendo usados na
-sua rede. Em Cabos Inteligentes comuns, os primeiros quatro canais aparecem como linhas na cor do
-cabo, os quatro seguintes aparecem como linhas brancas. No Cabo Denso Inteligente, cada faixa representa 4 canais.
+cabos, dando a você uma noção de como seus canais estão sendo usados na
+sua rede. Nos cabos inteligentes comuns, os quatro primeiros canais aparecem como linhas da cor do
+cabo, os quatro seguintes aparecem como linhas brancas. No cabo inteligente denso, cada faixa representa 4 canais.
 
 Em redes com um <ItemLink id="controller" />, as linhas nos cabos mostram o caminho exato que os canais percorrem.
 
-Cabos inteligentes em redes ad hoc, em vez disso, mostram o número de canais em uso na rede toda em vez do número de canais fluindo por aquele cabo específico.
+Cabos inteligentes em redes ad-hoc mostram, em vez disso, o número de canais em uso na rede inteira, e não o número de canais fluindo por aquele cabo específico.
 
-Estes também podem ser coloridos da mesma maneira que o <ItemLink id="fluix_glass_cable" />.
+Estes também podem ser coloridos da mesma forma que o <ItemLink id="fluix_glass_cable" />.
 
 <Recipe id="network/cables/smart_fluix" />
 

@@ -15,6 +15,7 @@ item_ids:
   <ImportStructure src="../structure/cable_tag_export_bus.snbt"></ImportStructure>
 </GameScene>
 
-O Ponto de Exportação ME por Marcador é um <ItemLink id="ae2:export_bus" /> que pode ser filtrado por tags de item ou fluido.
+O Ponto de Exportação ME por Marcador é um <ItemLink id="ae2:export_bus" /> que pode ser filtrado por marcadores de item ou fluido.
 
-Suas regras de filtro são as mesmas do <ItemLink id="extendedae:tag_storage_bus" />.
+Sua regra de filtro é a mesma do <ItemLink id="extendedae:tag_storage_bus" />.
+

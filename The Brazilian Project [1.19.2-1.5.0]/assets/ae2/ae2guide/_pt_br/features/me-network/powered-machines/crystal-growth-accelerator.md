@@ -12,9 +12,9 @@ id="certus_quartz_crystal"/> e
 
 <ItemLink id="fluix_crystal" /> a partir de pó de cristal.
 
-Deve ser energizado por uma Rede ME pelo topo ou pela base, e consome
-8 AE/t constantes enquanto conectado. Sementes de Cristal devem estar num bloco de água adjacente para
-serem afetadas; as sementes tremeluzem mais rapidamente na presença de um
+Deve ser alimentado por uma Rede ME pelo topo ou pela base, e consome
+8 AE/t constantes enquanto conectado. As Sementes de Cristal precisam estar num bloco de água adjacente para
+serem afetadas; as sementes cintilam mais rapidamente na presença de um
 <ItemLink id="quartz_growth_accelerator"/> energizado.
 
 Só pode se conectar a cabos ou outras máquinas de rede pelo topo e pela base

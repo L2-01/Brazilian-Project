@@ -9,14 +9,14 @@
       "type": "spotlight",
       "item": "bigreactors:energizerpowerport_fe_active",
       "link_recipe": true,
-      "title" : "Porta de Energia FE Ativa",
-      "text": "A Porta de Energia FE Ativa permite inserir e extrair energia do Energizador.$(br2)Qualquer cabo ou máquina compatível com Forge Energy pode ser conectado à Porta de Energia FE Ativa. A porta transferirá energia automaticamente para o bloco conectado, se ele suportar."
+      "title": "Porta de Energia FE Ativa",
+      "text": "A Porta de Energia FE Ativa permite inserir e extrair energia do Energizador.$(br2)Qualquer cabo ou máquina compatível com Forge Energy pode ser conectado à Porta de Energia FE Ativa. A porta transfere energia automaticamente ao bloco conectado, se ele suportar."
     },
     {
       "type": "crafting-part_usage",
       "crafting.title1": "Porta de Energia FE Ativa",
       "crafting.recipe1": "bigreactors:energizer/powerport_fe_active",
-      "usage.text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Interface gráfica:$() sim"
+      "usage.text": "$(l)Obrigatória:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Interface gráfica:$() sim"
     }
   ]
 }

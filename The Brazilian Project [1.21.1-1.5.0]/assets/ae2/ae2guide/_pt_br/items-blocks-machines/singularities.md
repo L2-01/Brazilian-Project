@@ -23,9 +23,9 @@ Feita com 256.000 itens ou baldes num <ItemLink id="condenser" /> no modo singul
 
 <ItemImage id="quantum_entangled_singularity" scale="4" />
 
-Necessária para criar uma conexão entre duas [Pontes de Rede Quântica](quantum_bridge.md), elas são sempre produzidas em pares
-correspondentes. Para criar uma conexão, coloque 1 do par de singularidades quanticamente entrelaçadas no <ItemLink id="quantum_link" /> da
-ponte de cada lado.
+Necessárias para criar uma conexão entre duas [Pontes de Rede Quânticas](quantum_bridge.md), elas são sempre produzidas em pares
+correspondentes. Para criar uma conexão, coloque 1 do par de singularidades quanticamente entrelaçadas na <ItemLink id="quantum_link" /> de
+cada lado da ponte.
 
 Elas são fabricadas causando uma reação entre uma <ItemLink id="minecraft:ender_pearl" /> ou <ItemLink id="ender_dust" />\
 e uma <ItemLink id="singularity" />. Qualquer força explosiva deve ser suficiente para disparar a reação.
@@ -36,4 +36,4 @@ e uma <ItemLink id="singularity" />. Qualquer força explosiva deve ser suficien
 
 Sempre produzidas em pares, mas só requerem uma única <ItemLink id="singularity" />.
 
-Pode ser uma boa ideia rotulá-las com nomes ao criá-las usando a bigorna do vanilla.
+Pode ser uma boa ideia etiquetá-las com nomes quando você as criar, usando a bigorna do vanilla.

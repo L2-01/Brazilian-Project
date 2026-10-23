@@ -6,9 +6,9 @@ navigation:
 
 # Itens, Blocos e Máquinas
 
-Uma lista de coisas do mod para outras páginas linkarem, e uma descrição de sua função.
+Uma lista das coisas do mod para outras páginas linkarem, com uma descrição de suas funções.
 
-## Ingredientes e Blocos Diverso
+## Ingredientes e Blocos Diversos
 
 <CategoryIndex category="misc ingredients blocks" />
 

@@ -10,7 +10,7 @@ navigation:
   title: Componente Espacial de 128³
 ---
 
-Maior componente de armazenamento espacial, usado para fazer a <ItemLink 
+O maior componente de armazenamento espacial, usado para fazer a <ItemLink 
 id="spatial_storage_cell_128"/>.
 
 <RecipeFor id="spatial_cell_component_128" />

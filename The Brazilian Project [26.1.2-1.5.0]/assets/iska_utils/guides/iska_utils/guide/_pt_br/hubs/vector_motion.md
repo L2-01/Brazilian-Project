@@ -1,13 +1,13 @@
 ---
 navigation:
-  title: Movimento vetorial
+  title: Movimento Vetorial
   icon: iska_utils:vector_charm
   parent: index.md
   position: 20
 categories:
-  - Movimento vetorial
+  - Vector motion
 ---
-# Movimento vetorial
+# Movimento Vetorial
 
 Amuleto Vetorial, Mochila-Ventilador, placas vetoriais e componentes relacionados. As fabricações dos módulos de velocidade estão documentadas em **Módulos** → **Módulos vetoriais**.
 

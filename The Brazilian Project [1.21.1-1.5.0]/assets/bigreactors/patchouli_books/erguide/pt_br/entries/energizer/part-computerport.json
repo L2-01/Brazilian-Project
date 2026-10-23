@@ -9,14 +9,14 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:energizercomputerport",
             "link_recipe": true,
-            "title" : "Porta de Computador",
-            "text": "A Porta de Computador permite conectar seu Energizador a um computador, possibilitando coletar informações sobre o status do Energizador.$(br2)Um conjunto padrão de métodos é exposto ao computador conectado, e você pode usá-los para consultar o status do Energizador."
+            "title": "Porta de Computador",
+            "text": "A Porta de Computador permite conectar seu Energizador a um computador, permitindo coletar informações sobre o status do Energizador.$(br2)Um conjunto padrão de métodos é exposto ao computador conectado, e você pode usá-los para consultar o status do Energizador."
         },
         {
             "type": "crafting-part_usage",
             "crafting.title1": "Porta de Computador",
             "crafting.recipe1": "bigreactors:energizer/computerport",
-            "usage.text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Interface gráfica:$() não"
+            "usage.text": "$(l)Obrigatória:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Interface gráfica:$() não"
         }
     ]
 }

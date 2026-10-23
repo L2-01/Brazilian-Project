@@ -1,0 +1,19 @@
+{
+  "name": "Caracol",
+  "icon": "livingthings:snail_spawn_egg",
+  "category": "livingthings:passive_mobs_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(br2)$(bold)Vida: $()2 Corações$(br2)$(bold)Itens de Reprodução: $()$(li)Cenouras$(li)Maçãs$(br2)pode ser recolorido clicando nele (agachado ou não) com qualquer corante$(br2)$(bold)Drops:$()$(li)1-2 Bolas de Slime"
+    },
+    {
+      "type": "entity",
+      "entity": "livingthings:snail",
+      "rotate": false,
+      "scale": 1.0,
+      "default_rotation": 45,
+      "text": "Pode ser encontrado em quase todos os vários biomas, como $(bold)Florestas$(), $(bold)Pântanos$() ou $(bold)Planícies$()."
+    }
+  ]
+}

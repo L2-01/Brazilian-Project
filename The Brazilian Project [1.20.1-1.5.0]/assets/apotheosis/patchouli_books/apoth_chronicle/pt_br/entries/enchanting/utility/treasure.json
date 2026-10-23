@@ -7,13 +7,13 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Encantamentos de tesouro são encantamentos especiais que normalmente não estão disponíveis na Mesa de Encantamento.$(p)Porém, isso pode ser resolvido com uma $(9)Estante das Profundezas de Tesouros Arcanos$()."
+            "text": "Encantamentos de tesouro são encantamentos especiais que normalmente não estão disponíveis na Mesa de Encantamentos.$(p)Porém, isso pode ser resolvido com uma $(9)Estante das Profundezas de Tesouros Arcanos$()."
         },
         {
             "type": "patchouli:crafting",
             "recipe": "apotheosis:treasure_shelf",
             "title": "Tesouros Arcanos",
-            "text": "Colocar esta estante em uma posição válida fará com que encantamentos de tesouro apareçam ao encantar.$(p)Lembre-se de que a maioria das $(4)Maldições$() são encantamentos de tesouro."
+            "text": "Colocar esta estante num espaço válido fará com que encantamentos de tesouro apareçam ao encantar.$(p)Lembre-se de que a maioria das $(4)Maldições$() são encantamentos de tesouro."
         }
     ]
 }

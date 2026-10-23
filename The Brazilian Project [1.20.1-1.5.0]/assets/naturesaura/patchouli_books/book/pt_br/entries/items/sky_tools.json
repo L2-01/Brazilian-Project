@@ -6,30 +6,31 @@
     "pages": [
         {
             "type": "text",
-            "text": "O poder dos Deuses é obviamente imenso e talvez nunca seja compreendido pelos botânicos mágicos. Porém, uma forma muito simples de ter uma pequena amostra dele são as $(item)ferramentas do Buscador dos Céus$(). Além de funcionarem como ferramentas comuns, cada uma tem uma $(thing)habilidade especial$() adicional que as distingue de suas contrapartes de $(item)diamante$().$(br)Além disso, essas ferramentas podem ser $(thing)reparadas$() da mesma forma que as $(l:items/infused_iron_tools)ferramentas do Botânico$()."
+            "text": "O poder dos Deuses é obviamente imenso e talvez nunca seja compreendido pelos botânicos mágicos. No entanto, uma forma muito simples de ter um pequeno gostinho dele são as $(item)ferramentas do Buscador dos Céus$(). Além de funcionarem como ferramentas comuns, cada uma tem uma $(thing)habilidade especial$() adicional que as diferencia de suas contrapartes de $(item)diamante$().$(br)Além disso, essas ferramentas podem ser $(thing)reparadas$() da mesma forma que as $(l:items/infused_iron_tools)ferramentas do Botânico$()."
         },
         {
             "type": "crafting",
-            "text": "A $(item)Picareta do Buscador dos Céus$() faz com que quaisquer itens minerados entrem imediatamente no inventário do usuário, removendo a chance de diamantes preciosos despencarem na lava abaixo.",
+            "text": "A $(item)Picareta do Buscador dos Céus$() faz com que quaisquer itens minerados entrem imediatamente no inventário do usuário, eliminando a chance de diamantes preciosos despencarem na lava abaixo.",
             "recipe": "naturesaura:sky_pickaxe"
         },
         {
             "type": "crafting",
-            "text": "A $(item)Machadinha do Buscador dos Céus$(), quando ativada ao $(thing)interagir agachado$() com ela, é muito eficiente em derrubar $(thing)árvores pequenas$(), fazendo isso de uma vez só.",
+            "text": "A $(item)Machadinha do Buscador dos Céus$(), quando ativada $(thing)interagindo agachado$() com ela, é muito eficiente em derrubar $(thing)árvores pequenas$(), fazendo isso de uma só vez.",
             "recipe": "naturesaura:sky_axe"
         },
         {
             "type": "crafting",
-            "text": "A $(item)Pá do Buscador dos Céus$() torna criar caminhos variados muito mais fácil: ao segurar quaisquer $(thing)blocos$() na mão secundária, usar a pá fará com que o bloco alvejado seja $(thing)substituído$() pelo bloco segurado.",
+            "text": "A $(item)Pá do Buscador dos Céus$() torna muito mais fácil criar caminhos variados: ao segurar quaisquer $(thing)blocos$() na mão secundária, usar a pá fará com que o bloco alvo seja $(thing)substituído$() pelo bloco segurado.",
             "recipe": "naturesaura:sky_shovel"
         },
         {
             "type": "crafting",
-            "text": "A $(item)Enxada do Buscador dos Céus$() ajuda fazendeiros duplamente: primeiro, ela ara uma $(thing)área maior$() de terra. Além disso, destruir um pedaço de $(item)grama alta$() faz com que todos os outros blocos arbustivos numa área grande sejam destruídos junto.",
+            "text": "A $(item)Enxada do Buscador dos Céus$() ajuda os fazendeiros em dobro: primeiro, ela ara uma $(thing)área maior$() de terra. Além disso, destruir um bloco de $(item)grama alta$() faz com que todos os outros blocos de arbusto numa área bem grande sejam destruídos junto.",
             "recipe": "naturesaura:sky_hoe"
-        }, {
+        },
+        {
             "type": "crafting",
-            "text": "A $(item)Lâmina do Buscador dos Céus$() é uma excelente forma de lidar com monstros: quando atacados, eles serão brevemente afetados pelo efeito de $(item)Levitação$(), fazendo-os subir ao céu e despencar de volta pouco depois.",
+            "text": "A $(item)Lâmina do Buscador dos Céus$() é uma excelente forma de lidar com monstros: ao serem atacados, eles serão brevemente atingidos pelo efeito de $(item)Levitação$(), fazendo-os subir ao céu e despencar de volta pouco depois.",
             "recipe": "naturesaura:sky_sword"
         }
     ]

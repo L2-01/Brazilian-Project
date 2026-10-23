@@ -48,6 +48,6 @@ Cada Núcleo Híbrido combina o efeito de um Núcleo de Padrões, um Núcleo de 
 
 A **Super Matriz de Montagem Definitiva** é uma estrutura fixa de **14x16x14**. Seu layout exato contém 312 Núcleos Híbridos e quatro Núcleos de Carregamento da Matriz de Montagem.
 
-Quando formada, ela fornece **22.464 espaços de padrões** e um orçamento de fabricação paralela efetivamente ilimitado (`2.147.483.647`). O layout exato deve ser colocado com o <ItemLink id="extendedae_plus:ultimate_super_assembler_matrix_builder" />.
+Quando formada, ela fornece **22.464 espaços de padrões** e um orçamento de fabricação paralela efetivamente ilimitado (`2,147,483,647`). O layout exato deve ser colocado com o <ItemLink id="extendedae_plus:ultimate_super_assembler_matrix_builder" />.
 
 > As posições vazias do layout fixo não são partes estruturais. Elas podem conter outros blocos sem impedir a formação da Matriz Definitiva.

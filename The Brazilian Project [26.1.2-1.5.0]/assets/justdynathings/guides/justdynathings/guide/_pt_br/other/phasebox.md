@@ -10,11 +10,11 @@ item_ids:
 
 # Caixa de Fase
 
-_também conhecido como Vidro Etéreo_
+_também conhecida como Vidro Etéreo_
 
 Um bloco que pode ser alternado para desativar/ativar o estado sólido
 
-Também pode ser CTM quando o **Fusão** ~~ConnectedTexturesMod~~ estiver instalado
+Ele também usa CTM quando o **Fusion** está instalado ~~ConnectedTexturesMod~~
 
 <BlockImage id="justdynathings:phase_box" scale="4.0"/>
 

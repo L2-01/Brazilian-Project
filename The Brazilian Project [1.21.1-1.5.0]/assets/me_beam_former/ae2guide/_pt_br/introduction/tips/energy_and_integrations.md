@@ -11,4 +11,4 @@ categories:
 
 ## AppFlux
 
-Se o AppFlux estiver instalado, a Torre de Energia Sem Fio pode extrair FE armazenada na rede ME.
+Se o AppFlux estiver instalado, a Torre de Energia Sem Fio pode extrair FE armazenado na rede ME.

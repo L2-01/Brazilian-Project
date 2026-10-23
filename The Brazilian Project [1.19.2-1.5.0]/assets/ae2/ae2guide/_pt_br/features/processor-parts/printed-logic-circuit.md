@@ -16,7 +16,7 @@ id="printed_logic_processor"/>.
 
 <RecipeFor id="printed_logic_processor" />
 
-### Prensas de Processador
+### Placas de Prensa de Processador
 
 <CategoryIndex category="Processor Press Plates" />
 
@@ -24,6 +24,6 @@ id="printed_logic_processor"/>.
 
 <CategoryIndex category="Processors" />
 
-### Peças de Processador
+### Componentes de Processador
 
 <CategoryIndex category="Processor Parts" />

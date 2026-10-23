@@ -8,7 +8,7 @@ item_ids:
   - iska_utils:treetap
   - iska_utils:electric_treetap
 categories:
-  - Borracha e processamento
+  - Rubber and processing
 ---
 # Drenador e Drenador Elétrico
 
@@ -16,10 +16,10 @@ categories:
 
 <ItemImage id="iska_utils:treetap" />
 
-- Ferramenta com durabilidade usada em troncos de seringueira cheios para extrair **Seiva**.
+- Ferramenta de durabilidade usada em troncos de borracha cheios para extrair **Seiva**.
 
 ## Drenador Elétrico
 
 <ItemImage id="iska_utils:electric_treetap" />
 
-- Variante energizada; veja a dica para o uso de energia.
+- Variante energizada; veja o tooltip para o consumo de energia.

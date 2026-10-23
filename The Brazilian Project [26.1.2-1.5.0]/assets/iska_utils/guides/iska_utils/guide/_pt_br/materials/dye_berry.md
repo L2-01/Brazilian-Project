@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:dye_berry
 categories:
-  - Materiais
+  - Materials
 ---
 # Frutas Corantes
 
@@ -15,7 +15,7 @@ categories:
 
 ## Obtenção
 
-- Colha de blocos de **Arbusto de Corante** quando estiverem cheios (arbustos se enchem de novo com o tempo).
+- Colha de blocos de **Arbusto de Corante** quando estiverem cheios (os arbustos se reabastecem com o tempo).
 - Plante novos arbustos com folhas, redstone, lápis-lazúli e **Lodo Verde**.
 
 ## Usos

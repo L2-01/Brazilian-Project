@@ -1,25 +1,35 @@
 {
-  "name": "Eu não gosto de alimentar Gosma",
-  "sortnum": 10,
-  "category": "justdirethings:justdynathings",
-  "icon": "justdynathings:stabilizer",
-  "pages": [
-    {
-      "type": "patchouli:crafting",
-      "title": "Estabilizador",
-      "recipe": "justdynathings:stabilizer",
-      "text": "Ele pode reviver qualquer gosma em cima dele usando Forge Energy$(br) Também pode ser usado para manter um Misturador de Paradoxo vivo"
-    },
-    {
-      "type": "patchouli:multiblock",
-      "multiblock": {
-        "pattern": [["G"], ["R"], ["0"]],
-        "mapping": {
-          "G": "justdirethings:gooblock_tier2[alive=true]",
-          "R": "justdynathings:stabilizer[active=true,facing=down,goo_found=true,energized=false]"
+    "name": "Eu não gosto de alimentar Gosma",
+    "sortnum": 10,
+    "category": "justdirethings:justdynathings",
+    "icon": "justdynathings:stabilizer",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "title": "Estabilizador",
+            "recipe": "justdynathings:stabilizer",
+            "text": "Ele pode reviver qualquer gosma em cima dele usando Forge Energy $(br) Também pode ser usado para manter um Misturador de Paradoxo vivo"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                    [
+                        "G"
+                    ],
+                    [
+                        "R"
+                    ],
+                    [
+                        "0"
+                    ]
+                ],
+                "mapping": {
+                    "G": "justdirethings:gooblock_tier2[alive=true]",
+                    "R": "justdynathings:stabilizer[active=true,facing=down,goo_found=true,energized=false]"
+                }
+            },
+            "enable_visualize": false
         }
-      },
-      "enable_visualize": false
-    }
-  ]
+    ]
 }

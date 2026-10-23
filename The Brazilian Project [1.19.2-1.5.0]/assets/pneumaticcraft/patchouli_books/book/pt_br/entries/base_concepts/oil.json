@@ -1,31 +1,31 @@
 {
-  "name": "Óleo Bruto",
-  "icon": "pneumaticcraft:oil_bucket",
-  "category": "pneumaticcraft:base_concepts",
-  "pages": [
-    {
-      "type": "text",
-      "text": "No $(pncr), a única geração de mundo é o $(thing)Óleo Bruto/$. Ele é gerado de forma similar aos lagos de água; a diferença é que lagos de Óleo são muito mais propensos a surgir nas profundezas do que na superfície. Por causa disso, a assistência de ferramentas como um $(l:tools/seismic_sensor)Sensor Sísmico/$ é altamente recomendada."
-    },
-    {
-      "type": "text",
-      "text": "O Óleo Bruto tem dois propósitos: ser $(l:manufacturing/refinery)refinado/$ em combustíveis de alta qualidade que podem ser usados em $(l:compressors/liquid_compressor)Compressores de Líquidos/$ e para fazer $(l:components/plastic)Plástico/$ e $(l:components/lubricant)Lubrificante/$.$(p)O $(item)Plástico/$ é usado em muitas receitas no $(pncr) e o $(item)Lubrificante/$ é necessário para fazer $(l:base_concepts/upgrades#speed)Melhorias de Velocidade/$."
-    },
-    {
-      "type": "text",
-      "text": "Depois de encontrar um pouco de Óleo Bruto, você precisará extraí-lo e transportá-lo. A forma recomendada do $(pncr) de extrair óleo é com um $(l:machines/gas_lift)Elevador a Gás/$, embora bombas de fluido de outros mods também possam ser usadas. Se você estiver bombeando longe da sua base, uma solução de transporte de início de jogo é um simples $(l:machines/tanks)Tanque de Fluidos Pequeno/$, que pode conter até 32.000mB de fluido e mantém seu conteúdo quando quebrado. (Até o Elevador a Gás pode ser usado para isso, já que também mantém seu conteúdo de fluido)."
-    },
-    {
-      "type": "image",
-      "images": [
-          "pneumaticcraft:textures/patchouli/oil_pumping.png"
-      ],
-      "text": "$(italic)Bombeando Óleo com um Elevador a Gás, com um Funil de Líquidos acima/$"
-    },
-    {
-      "type": "text",
-      "title": "Integração de Mods",
-      "text": "O $(pncr) obviamente não é o único mod a adicionar $(thing)Óleo/$; vários outros mods também adicionam (incluindo $(thing)BuildCraft/$ e $(thing)Immersive Petroleum/$).$(p)Dependendo das suas configurações de geração de mundo, o Óleo do $(pncr) pode não estar disponível; porém, a $(l:manufacturing/refinery)Refinaria/$ é capaz de lidar com o fluido \"óleo\" de outros mods."
-    }
-  ]
+    "name": "Óleo Bruto",
+    "icon": "pneumaticcraft:oil_bucket",
+    "category": "pneumaticcraft:base_concepts",
+    "pages": [
+        {
+            "type": "text",
+            "text": "No $(pncr), a única geração de mundo é o $(thing)Petróleo Bruto/$. Ele é gerado de forma semelhante aos lagos de água; a diferença é que lagos de Petróleo são muito mais propensos a surgir no subsolo profundo do que na superfície. Por isso, a ajuda de ferramentas como o $(l:tools/seismic_sensor)Sensor Sísmico/$ é altamente recomendada."
+        },
+        {
+            "type": "text",
+            "text": "O Petróleo Bruto tem duas finalidades: ser $(l:manufacturing/refinery)refinado/$ em combustíveis de alta qualidade que podem ser usados em $(l:compressors/liquid_compressor)Compressores de Líquidos/$, e para fazer $(l:components/plastic)Plástico/$ e $(l:components/lubricant)Lubrificante/$.$(p)O $(item)Plástico/$ é usado em muitas receitas no $(pncr), e o $(item)Lubrificante/$ é necessário para fazer $(l:base_concepts/upgrades#speed)Melhorias de Velocidade/$."
+        },
+        {
+            "type": "text",
+            "text": "Depois de encontrar Petróleo Bruto, você precisará extraí-lo e transportá-lo. A forma recomendada do $(pncr) para extrair petróleo é com um $(l:machines/gas_lift)Elevador a Gás/$, embora bombas de fluido de outros mods também possam ser usadas. Se você estiver bombeando longe da sua base, uma solução de transporte do início do jogo é um simples $(l:machines/tanks)Tanque Pequeno/$, que comporta até 32.000mB de fluido e mantém o conteúdo ao ser quebrado. (Até o Elevador a Gás pode ser usado para isso, já que também mantém seu conteúdo de fluido)."
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/patchouli/oil_pumping.png"
+            ],
+            "text": "$(italic)Bombeando Petróleo com um Elevador a Gás, com um Funil de Líquidos acima/$"
+        },
+        {
+            "type": "text",
+            "title": "Integração de Mods",
+            "text": "O $(pncr) claro que não é o único mod a adicionar $(thing)Petróleo/$; vários outros também adicionam (incluindo $(thing)BuildCraft/$ e $(thing)Immersive Petroleum/$).$(p)Dependendo das suas configurações de geração de mundo, o Petróleo do $(pncr) pode não estar disponível; porém, a $(l:manufacturing/refinery)Refinaria/$ consegue processar o fluido \"oil\" de outros mods."
+        }
+    ]
 }

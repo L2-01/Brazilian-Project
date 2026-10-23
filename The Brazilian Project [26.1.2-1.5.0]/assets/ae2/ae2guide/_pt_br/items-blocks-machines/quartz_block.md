@@ -14,7 +14,7 @@ item_ids:
 
 <BlockImage id="quartz_block" scale="8" />
 
-O bloco de armazenamento para <ItemLink id="certus_quartz_crystal" />. Pode ser usado para fazer [blocos de drusa de certus](budding_certus.md)
+O bloco de armazenamento do <ItemLink id="certus_quartz_crystal" />. Pode ser usado para fazer [blocos de certus em brotamento](budding_certus.md)
 ou [blocos decorativos de certus](decorative_certus.md).
 
 ## Receita

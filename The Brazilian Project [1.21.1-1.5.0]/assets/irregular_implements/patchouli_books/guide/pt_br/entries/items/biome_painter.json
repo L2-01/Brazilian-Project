@@ -7,13 +7,13 @@
       "type": "patchouli:spotlight",
       "item": "irregular_implements:biome_capsule",
       "link_recipe": true,
-      "text": "A $(d)Cápsula de Bioma$() permite capturar um bioma do mundo.$(br2)Jogue-a no chão e, se a cápsula não tiver bioma, ela será definida para o bioma daquele local.$(br2)Enquanto estiver naquele bioma, ela ganhará pontos. Passe o cursor sobre ela no inventário para ver a quantidade atual."
+      "text": "A $(d)Cápsula de Bioma$() permite capturar um bioma do mundo.$(br2)Jogue-a no chão e, se a Cápsula não tiver bioma, ela será definida para o bioma daquela localização.$(br2)Enquanto permanece nesse bioma, ela ganha pontos. Passe o mouse sobre ela no inventário para ver a quantidade atual."
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:biome_painter",
       "link_recipe": true,
-      "text": "O $(d)Pintor de Bioma$() permite mudar o bioma num raio ao redor do bloco selecionado.$(br2)Enquanto estiver na mão, ele mostrará os blocos próximos que $(o)não$() são iguais aos da primeira Cápsula de Bioma preenchida do seu inventário. Usar o pintor nesses blocos mudará o bioma ali."
+      "text": "O $(d)Pintor de Bioma$() permite mudar o bioma num raio ao redor do bloco selecionado.$(br2)Enquanto segurado, ele mostra os blocos próximos que $(o)não são$() do mesmo bioma da primeira Cápsula de Bioma cheia do seu inventário. Usar o Pintor nesses blocos mudará o bioma ali."
     }
   ]
 }

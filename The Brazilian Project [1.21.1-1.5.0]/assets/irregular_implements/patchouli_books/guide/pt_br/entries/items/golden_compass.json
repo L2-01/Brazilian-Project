@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A $(d)Bússola de Ouro$() pode ser vinculada a uma localização específica e $(3)aponta na direção dela$().$(br2)Claro, só funciona se você estiver na mesma dimensão que a localização.$(br2)Isso é funcionalmente idêntico a simplesmente usar uma magnetita? Talvez!",
+      "text": "A $(d)Bússola de Ouro$() pode ser vinculada a uma localização específica e $(3)aponta para ela$().$(br2)Claro, só funciona se você estiver na mesma dimensão da localização.$(br2)Isso é funcionalmente idêntico a simplesmente usar uma Magnetita? Talvez!",
       "title": "Bússola de Ouro"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:golden_compass",
       "link_recipe": true,
-      "text": "Para vincular a bússola a uma localização, fabrique-a junto com um $(l:items/location_filter)Filtro de Localização$(/l) definido."
+      "text": "Para vincular a Bússola a uma localização, fabrique-a junto com um $(l:items/location_filter)Filtro de Localização$(/l) definido."
     }
   ]
 }

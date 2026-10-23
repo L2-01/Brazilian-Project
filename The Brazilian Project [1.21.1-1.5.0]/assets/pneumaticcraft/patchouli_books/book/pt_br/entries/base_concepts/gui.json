@@ -9,15 +9,15 @@
     },
     {
       "type": "text",
-      "text": "$(li)$(bold)Comportamento de redstone/$: Aqui você pode selecionar como a máquina responde a redstone ou quando ela deve emitir redstone.$(li)$(bold)Informações /$: A aba de informações mostra informações (estáticas) sobre para que a máquina é usada.$(li)$(bold)Melhorias /$: Aqui você pode ler sobre as melhorias que esta máquina aceita e o que elas fazem no contexto da máquina."
+      "text": "$(li)$(bold)Comportamento de redstone/$: Aqui você seleciona como a máquina responde à redstone ou quando ela deve emitir redstone.$(li)$(bold)Informações /$: A aba de informações mostra informações (estáticas) sobre para que a máquina serve.$(li)$(bold)Melhorias /$: Aqui você lê sobre as melhorias que esta máquina aceita e o que elas fazem no contexto da máquina."
     },
     {
       "type": "text",
-      "text": "$(li)$(bold)Estado da pressão/$: Aqui você encontra a pressão atual sob a qual a máquina está e o volume da máquina.$(li)$(bold)Problemas /$: Se a máquina não funciona, esta aba apontará na direção certa sobre o que está errado."
+      "text": "$(li)$(bold)Estado da Pressão/$: Aqui você encontra a pressão atual a que a máquina está submetida e o volume da máquina.$(li)$(bold)Problemas /$: Se a máquina não funcionar, esta aba apontará a direção certa sobre o que há de errado."
     },
     {
       "type": "image",
-      "text": "Uma GUI mostrando 3 abas laterais: Estado da Pressão, Problemas (nenhum aqui) e um Estado de Controlador de Montagem específico da máquina",
+      "text": "Uma GUI mostrando 3 abas laterais: Estado da Pressão, Problemas (nenhum aqui) e um Estado do Controlador de Montagem específico da máquina",
       "images": [
         "pneumaticcraft:textures/patchouli/gui_tabs.png"
       ],

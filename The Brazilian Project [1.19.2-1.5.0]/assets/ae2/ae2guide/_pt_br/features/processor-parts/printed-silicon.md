@@ -13,7 +13,7 @@ navigation:
 
 <RecipeFor id="printed_silicon" />
 
-### Prensas de Processador
+### Placas de Prensa de Processador
 
 <CategoryIndex category="Processor Press Plates" />
 
@@ -21,6 +21,6 @@ navigation:
 
 <CategoryIndex category="Processors" />
 
-### Peças de Processador
+### Componentes de Processador
 
 <CategoryIndex category="Processor Parts" />

@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O $(d)Acendedor$() pode acender um fogo quando recebe um sinal de redstone.$(br2)Ele tem 3 modos, que você pode alternar na sua interface.",
+      "text": "O $(d)Acendedor$() pode ser usado para acender fogo ao receber um sinal de Redstone.$(br2)Ele tem 3 modos, que você pode alternar em sua interface.",
       "title": "Acendedor"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:igniter",
       "link_recipe": true,
-      "text": "$(li)Alternar - Acende o fogo quando energizado e o apaga quando desenergizado.$(li)Manter Aceso - Mantém o fogo aceso enquanto energizado e não faz nada quando desenergizado.$(li)Acender - Acende o fogo quando energizado e não faz nada quando desenergizado."
+      "text": "$(li)Alternar - Acende fogo quando energizado e o apaga quando desenergizado.$(li)Manter Aceso - Mantém o fogo aceso enquanto energizado e não faz nada desenergizado.$(li)Acender - Acende fogo quando energizado e não faz nada desenergizado."
     }
   ]
 }

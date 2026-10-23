@@ -1,167 +1,141 @@
 {
-    "name": "Luzes Festivas",
-    "icon": "minecraft:writable_book",
-    "category": "merrymaking:lights",
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Ilumine seu mundo com luzes festivas e brilhantes. Essas luzes vêm em 4 estilos: $(li)Clássicas (lâmpadas grandes) $(li)Mini (lâmpadas pequenas) $(li)Estalactite $(li)Estalactite Cintilante" 
-        },
-		
-		{
-			"type": "patchouli:text",
-			"text": "Todas as versões de luz vêm em um conjunto branco ou um conjunto multicolorido. Para os estilos Clássico e Mini, há 8 formatos: $(li)Horizontal $(li)Diagonal (Esquerda) $(li)Diagonal (Direita) $(li)Vertical (Esquerda) $(li)Vertical (Direita) $(li)Canto Vertical (Esquerdo) $(li)Canto Vertical (Direito) $(li)Cobertura (Pico do Telhado)"
-		},
-		
-		{
-			"type": "patchouli:text",
-			"text": "Para as luzes de Estalactite e Estalactite Cintilante, há 4 formatos: $(li)Horizontal $(li)Diagonal (Esquerda) $(li)Diagonal (Direita) $(li)Cobertura (Pico do Telhado)"
-		},
-		
-		{
-		"type": "spotlight",
-		"title": "Luzes Horizontais",
-		"item": "merrymaking:classic_lights_horizontal",
-		"text": "As luzes horizontais se conectam dentro e ao redor de cantos. São colocadas de forma semelhante a trepadeiras."
-		},
-		
-		{
-		"type": "spotlight",
-		"title": "Luzes Diagonais",
-		"item": "merrymaking:icicle_multi_diagonal_left",
-		"text": "As Luzes de Estalactite/Estalactite Cintilante diagonais têm um posicionamento um tanto estranho e se estendem sob o bloco em que são colocadas. Isso é feito para que se conectem melhor ao serem colocadas."
-		},
-		
-		{
-		"type": "spotlight",
-		"title": "Luzes Verticais",
-		"item": "merrymaking:classic_lights_vertical_right",
-		"text": "As Luzes Verticais se alinharão com o lado esquerdo ou direito de um bloco."
-		},
-		
-		{
-		"type": "spotlight",
-		"title": "Luzes de Canto Vertical",
-		"item": "merrymaking:mini_corner_lights_vertical_left",
-		"text": "As Luzes de Canto Vertical criarão duas seções de luzes em um ângulo de 90 graus, alinhando-se com o lado esquerdo ou direito de um bloco."
-		},
-		{
-		"type": "spotlight",
-		"title": "Luzes de Cobertura",
-		"item": "merrymaking:icicle_lights_cap",
-		"text": "As luzes de cobertura podem ser usadas para preencher a lacuna que sobra quando um pico de telhado tem um número ímpar de blocos. $(br2) Continue lendo para ver as receitas..."
-		},
-		
-		{
-			"type": "patchouli:text",
-			"text": "Para fabricar as luzes, você começará com o fio. Fio Verde é usado para Luzes Clássicas e Miniluzes, e Fio Branco é usado para Luzes de Estalactite e Luzes de Estalactite Cintilantes. $(br2) As receitas dos 2 tipos de fio são mostradas aqui:"
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Fios",
-			"recipe": "merrymaking:green_wires",
-			"recipe2": "merrymaking:white_wires"	
-		},
-		
-		{
-			"type": "patchouli:text",
-			"text": "Em seguida, você fabricará as lâmpadas para as luzes, usando as receitas aqui:"
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Lâmpadas",
-			"recipe": "merrymaking:white_bulbs",
-			"recipe2": "merrymaking:multi_bulbs"	
-		},
-		
-		{
-			"type": "patchouli:text",
-			"text": "Agora você fabricará o tipo base das luzes. É o que você usará para criar os formatos de posicionamento mencionados anteriormente.$(br2)Há um tipo base diferente para cada estilo de luz: Clássico, Mini, Estalactite e Estalactite Cintilante.$(br2)Nota especial: os tipos base Mini também são usados para as Árvores de Natal e são nomeados como tal."
-		},		
-		
-		{
-			"type": "crafting",
-			"title": "Luzes Clássicas",
-			"recipe": "merrymaking:classic_lights_white",
-			"recipe2": "merrymaking:classic_lights_multi"	
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Miniluzes (de Árvore)",
-			"recipe": "merrymaking:tree_lights_white",
-			"recipe2": "merrymaking:tree_lights_multi"	
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Luzes de Estalactite",
-			"recipe": "merrymaking:icicle_lights_white",
-			"recipe2": "merrymaking:icicle_lights_multi"	
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Luzes de Estalactite Cintilantes",
-			"recipe": "merrymaking:twinkling_icicle_lights_white",
-			"recipe2": "merrymaking:twinkling_icicle_lights_multi"	
-		},
-		
-		{
-			"type": "patchouli:text",
-			"text": "Você tem suas luzes base, agora está pronto para fabricar os blocos de luz.$(br2)Os formatos Horizontal e Cobertura têm receitas de fabricação padrão. Formatos definidos como \"Esquerdo\" ou \"Direito\" exigirão um modelo para fabricar.$(br2)Para fabricar uma receita de luz com modelo, basta colocar 3 das suas luzes base junto com o modelo correto na bancada de trabalho."
-		},	
-		
-		{
-			"type": "patchouli:text",
-			"text": "Apenas um exemplo de cada tipo será mostrado aqui, mas os formatos de receita são os mesmos para todas as luzes.$(br2)As únicas exceções são as de Estalactite e Estalactite Cintilante, que não têm versões verticais ou de canto."
-		},
-			
-		
-		{
-			"type": "crafting",
-			"title": "Luzes Horizontais",
-			"recipe": "merrymaking:classic_lights",
-			"recipe2": "merrymaking:mini_multi_lights"	
-		},
-		
-			{
-			"type": "crafting",
-			"title": "Luzes Diagonais",
-			"recipe": "merrymaking:icicle_lights_diag_left",
-			"recipe2": "merrymaking:twinkling_icicle_lights_diag_right"	
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Luzes Verticais (Direita)",
-			"recipe": "merrymaking:classic_lights_vert_right",
-			"recipe2": "merrymaking:mini_multi_vert_right"	
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Canto Vertical (Esquerdo)",
-			"recipe": "merrymaking:classic_lights_vert_corner_left",
-			"recipe2": "merrymaking:mini_lights_vert_corner_left"	
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Canto Vertical (Direito)",
-			"recipe": "merrymaking:classic_multi_vert_corner_right",
-			"recipe2": "merrymaking:mini_lights_vert_corner_right"	
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Luzes de Cobertura",
-			"recipe": "merrymaking:icicle_multi_cap",
-			"recipe2": "merrymaking:mini_lights_cap"	
-		}
-	
-		
-    ]
+  "name": "Luzes Festivas",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:lights",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ilumine seu mundo com luzes festivas e brilhantes. Essas luzes vêm em 4 estilos: $(li)Clássicas (lâmpadas grandes) $(li)Mini (lâmpadas pequenas) $(li)Estalactite $(li)Estalactite Cintilante"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Todas as versões de luzes vêm num conjunto branco ou num conjunto multicolorido. Para os estilos Clássico e Mini, há 8 formatos: $(li)Horizontal $(li)Diagonal (Esquerda) $(li)Diagonal (Direita) $(li)Vertical (Esquerda) $(li)Vertical (Direita) $(li)Canto Vertical (Esquerda) $(li)Canto Vertical (Direita) $(li)Ponta (Pico de Telhado)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para as luzes de Estalactite e Estalactite Cintilante, há 4 formatos: $(li)Horizontal $(li)Diagonal (Esquerda) $(li)Diagonal (Direita) $(li)Ponta (Pico de Telhado)"
+    },
+    {
+      "type": "spotlight",
+      "title": "Luzes Horizontais",
+      "item": "merrymaking:classic_lights_horizontal",
+      "text": "Luzes horizontais se conectam dentro e ao redor de cantos. São colocadas de forma parecida com trepadeiras."
+    },
+    {
+      "type": "spotlight",
+      "title": "Luzes Diagonais",
+      "item": "merrymaking:icicle_multi_diagonal_left",
+      "text": "Luzes de Estalactite/Estalactite Cintilante Diagonais têm uma colocação um tanto estranha e se estendem por baixo do bloco em que são colocadas. Isso é feito para que se conectem melhor ao serem colocadas."
+    },
+    {
+      "type": "spotlight",
+      "title": "Luzes Verticais",
+      "item": "merrymaking:classic_lights_vertical_right",
+      "text": "Luzes Verticais se alinham ao lado esquerdo ou direito de um bloco."
+    },
+    {
+      "type": "spotlight",
+      "title": "Luzes de Canto Verticais",
+      "item": "merrymaking:mini_corner_lights_vertical_left",
+      "text": "Luzes de Canto Verticais criam duas seções de luzes num ângulo de 90 graus, alinhando-se ao lado esquerdo ou direito de um bloco."
+    },
+    {
+      "type": "spotlight",
+      "title": "Luzes de Ponta",
+      "item": "merrymaking:icicle_lights_cap",
+      "text": "Luzes de ponta podem ser usadas para preencher o vão que sobra quando um pico de telhado tem um número ímpar de blocos. $(br2) Continue lendo para as receitas..."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para fabricar as luzes, você começa com o fio. Fio Verde é usado para Luzes Clássicas e Miniluzes, e Fio Branco é usado para Luzes de Estalactite e Estalactite Cintilante. $(br2) As receitas dos 2 tipos de fio são mostradas aqui:"
+    },
+    {
+      "type": "crafting",
+      "title": "Fios",
+      "recipe": "merrymaking:green_wires",
+      "recipe2": "merrymaking:white_wires"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Em seguida, você fabricará as lâmpadas das luzes, usando as receitas aqui:"
+    },
+    {
+      "type": "crafting",
+      "title": "Lâmpadas",
+      "recipe": "merrymaking:white_bulbs",
+      "recipe2": "merrymaking:multi_bulbs"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Agora você fabricará o tipo-base das luzes. É com eles que você criará os formatos de colocação mencionados antes.$(br2)Há um tipo-base diferente para cada estilo de luzes: Clássica, Mini, Estalactite e Estalactite Cintilante.$(br2)Nota especial: os tipos-base Mini também são usados para as Árvores de Natal e são nomeados como tal."
+    },
+    {
+      "type": "crafting",
+      "title": "Luzes Clássicas",
+      "recipe": "merrymaking:classic_lights_white",
+      "recipe2": "merrymaking:classic_lights_multi"
+    },
+    {
+      "type": "crafting",
+      "title": "Luzes Mini (de Árvore)",
+      "recipe": "merrymaking:tree_lights_white",
+      "recipe2": "merrymaking:tree_lights_multi"
+    },
+    {
+      "type": "crafting",
+      "title": "Luzes de Estalactite",
+      "recipe": "merrymaking:icicle_lights_white",
+      "recipe2": "merrymaking:icicle_lights_multi"
+    },
+    {
+      "type": "crafting",
+      "title": "Luzes de Estalactite Cintilantes",
+      "recipe": "merrymaking:twinkling_icicle_lights_white",
+      "recipe2": "merrymaking:twinkling_icicle_lights_multi"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Com suas luzes-base, você já pode fabricar os blocos de luz.$(br2)Formatos Horizontal e de Ponta têm receitas padrão. Formatos definidos como 'Esquerdo' ou 'Direito' exigirão um modelo para fabricar.$(br2)Para fabricar uma receita de luz com modelo, basta colocar 3 das suas luzes-base junto com o modelo correto na bancada de trabalho."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Apenas um exemplo de cada tipo será mostrado aqui, mas os formatos de receita são os mesmos para todas as luzes.$(br2)As únicas exceções são Estalactite e Estalactite Cintilante, que não têm versões verticais nem de canto."
+    },
+    {
+      "type": "crafting",
+      "title": "Luzes Horizontais",
+      "recipe": "merrymaking:classic_lights",
+      "recipe2": "merrymaking:mini_multi_lights"
+    },
+    {
+      "type": "crafting",
+      "title": "Luzes Diagonais",
+      "recipe": "merrymaking:icicle_lights_diag_left",
+      "recipe2": "merrymaking:twinkling_icicle_lights_diag_right"
+    },
+    {
+      "type": "crafting",
+      "title": "Luzes Verticais (Direita)",
+      "recipe": "merrymaking:classic_lights_vert_right",
+      "recipe2": "merrymaking:mini_multi_vert_right"
+    },
+    {
+      "type": "crafting",
+      "title": "Canto Vertical (Esquerda)",
+      "recipe": "merrymaking:classic_lights_vert_corner_left",
+      "recipe2": "merrymaking:mini_lights_vert_corner_left"
+    },
+    {
+      "type": "crafting",
+      "title": "Canto Vertical (Direita)",
+      "recipe": "merrymaking:classic_multi_vert_corner_right",
+      "recipe2": "merrymaking:mini_lights_vert_corner_right"
+    },
+    {
+      "type": "crafting",
+      "title": "Luzes de Ponta",
+      "recipe": "merrymaking:icicle_multi_cap",
+      "recipe2": "merrymaking:mini_lights_cap"
+    }
+  ]
 }

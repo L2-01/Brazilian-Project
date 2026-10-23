@@ -9,23 +9,23 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:reinforced_reactorcontrolrod",
             "link_recipe": true,
-            "title" : "Haste de Controle",
-            "text": "As Hastes de Controle podem ser inseridas em sua respectiva pilha de $(l:bigreactors:reactor/part-fuelrod)Barras de Combustível$(/l) e são feitas de um material capaz de absorver a radiação de nêutrons que, de outra forma, atingiria os reagentes armazenados nas $(l:bigreactors:reactor/part-fuelrod)Barras de Combustível$(/l), desacelerando ou parando o consumo de combustível e a geração de calor e resíduos."
+            "title": "Haste de Controle",
+            "text": "As Hastes de Controle podem ser inseridas em suas respectivas pilhas de $(l:bigreactors:reactor/part-fuelrod)Barras de Combustível$(/l) e são feitas de um material que pode absorver a radiação de nêutrons que, de outra forma, atingiria os reagentes armazenados nas $(l:bigreactors:reactor/part-fuelrod)Barras de Combustível$(/l), desacelerando ou interrompendo o consumo de combustível e a geração de calor e resíduos."
         },
         {
             "type": "patchouli:text",
-            "text": "Clique com o botão direito numa Haste de Controle para abrir sua interface gráfica.$(br2)Na interface você pode atribuir um nome à Haste de Controle que poderá ser usado depois para referenciar esta Haste de Controle específica ao usar a $(l:bigreactors:reactor/part-computerport)Porta de Computador$(/l) para gerenciar o Reator.$(br2)A porcentagem de inserção especifica o quanto a Haste de Controle está inserida na sua pilha de $(l:bigreactors:reactor/part-fuelrod)Barras de Combustível$(/l). Você pode mudar o valor apenas desta Haste de Controle ou de todas elas."
+            "text": "Clique com o botão direito numa Haste de Controle para abrir sua interface gráfica.$(br2)Na interface você pode atribuir um nome à Haste de Controle, que poderá ser usado depois para referenciar esta Haste de Controle específica ao usar a $(l:bigreactors:reactor/part-computerport)Porta de Computador$(/l) para gerenciar o Reator.$(br2)A porcentagem de inserção especifica o quanto a Haste de Controle está inserida na sua pilha de $(l:bigreactors:reactor/part-fuelrod)Barras de Combustível$(/l). Você pode mudar o valor apenas para esta Haste de Controle ou para todas elas."
         },
         {
             "type": "bigreactors:crafting1x",
-            "title1": "Basic",
+            "title1": "Básico",
             "recipe1": "bigreactors:reactor/basic/controlrod",
-            "title2": "Reinforced",
+            "title2": "Reforçado",
             "recipe2": "bigreactors:reactor/reinforced/controlrod"
         },
         {
             "type": "bigreactors:part_usage",
-            "text": "$(l)Obrigatório:$() sim$(br)$(l)Posições válidas:$() todas numa única face, seguindo uma Barra de Combustível$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim"
+            "text": "$(l)Obrigatória:$() sim$(br)$(l)Posições válidas:$() todas numa única face, seguindo uma Barra de Combustível$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim"
         }
     ]
 }

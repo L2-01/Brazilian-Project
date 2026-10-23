@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:entropic_clock
 categories:
-  - Módulos
+  - Modules
 ---
 # Relógio Entrópico
 
@@ -17,15 +17,15 @@ Item de melhoria usado como **módulo** em máquinas que o aceitam. A lore de ar
 
 ## Acelerador Temporal
 
-- **Espaço de melhoria** (à esquerda do botão de Aceleração): insira um Relógio Entrópico para aumentar o **fator máximo de aceleração**.
-- Enquanto instalado, acelerar blocos ligados consome **entropia armazenada** a cada tique.
-- **Espaço de combustível** (à direita do botão de Aceleração): insira **Gota de Entropia** para recarregar (porcentagem mostrada abaixo do espaço).
+- **Slot de melhoria** (à esquerda do botão de Aceleração): insira um Relógio Entrópico para elevar o **fator máximo de aceleração**.
+- Enquanto instalado, acelerar blocos vinculados consome **entropia armazenada** a cada tique.
+- **Slot de combustível** (à direita do botão de Aceleração): insira **Gota de Entropia** para recarregar (porcentagem mostrada abaixo do slot).
 
 ## Gerador Entropizado
 
-- Coloque no espaço de **Relógio** para **encurtar o atraso** entre ciclos de geração (acumula no espaço).
-- Acumula com a carga de **combustível de entropia**, que também acelera a contagem quando presente.
-- Combustível **não** é necessário para gerar; relógios só afetam o tempo.
+- Coloque no slot de **Relógio** para **encurtar o atraso** entre ciclos de spawn (empilha no slot).
+- Acumula com a carga de **combustível de entropia**, que também acelera a contagem regressiva quando presente.
+- O combustível **não** é necessário para gerar; os relógios só afetam o tempo.
 
 ## Como obter
 

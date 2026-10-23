@@ -1,17 +1,17 @@
 {
-    "name": "Dádiva da Terra",
-    "icon": "minecraft:enchanted_book",
-    "category": "apotheosis:enchanting/enchantments",
-    "flag": "apotheosis:enchanting",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "$(2)Dádiva da Terra$() é um encantamento de Obra-prima para picaretas.$(p)Ao minerar pedras simples, há uma chance de largar um minério bruto ou outro mineral junto da queda normal."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Toque Suave rende o bloco de minério, e Fortuna multiplica a queda.$(p)O Netherrack tem seu próprio conjunto, e algumas quedas dependem da profundidade ou do bioma."
-        }
-    ]
+	"name": "Dádiva da Terra",
+	"icon": "minecraft:enchanted_book",
+	"category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(2)Dádiva da Terra$() é um encantamento de Obra-prima para picaretas.$(p)Ao minerar pedras simples, há chance de derrubar um minério bruto ou outro mineral junto do drop normal."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Toque de Seda rende o bloco de minério em vez disso, e Fortuna multiplica o drop.$(p)Netherrack tem sua própria tabela, e alguns drops dependem da profundidade ou do bioma."
+		}
+	]
 }

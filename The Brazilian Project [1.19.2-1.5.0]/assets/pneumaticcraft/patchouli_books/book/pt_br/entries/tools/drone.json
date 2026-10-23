@@ -1,42 +1,42 @@
 {
-  "name": "Drone",
-  "icon": "pneumaticcraft:drone",
-  "category": "pneumaticcraft:tools",
-  "advancement": "pneumaticcraft:printed_circuit_board",
-  "pages": [
-    {
-      "type": "text",
-      "text": "Drones são poderosos robôs voadores programáveis, que podem ser usados para todo tipo de automação. Eles precisam ser programados antes de fazer qualquer coisa; para isso você também precisará de um $(l:programming/programmer)Programador/$ e algumas $(l:programming/puzzle_pieces)Peças de Quebra-Cabeça/$.$(p)Quando você posiciona um Drone programado e $(l:base_concepts/pressure)pressurizado/$, ele executará suas tarefas programadas."
-    },
-    {
-      "type": "entity",
-      "entity": "pneumaticcraft:drone",
-      "offset": -0.3
-    },
-    {
-      "type": "text",
-      "anchor": "charging",
-      "title": "Recarga Automática",
-      "text": "Drones são espertos: quando estão com pouco ar, eles param seu programa principal e procuram uma $(l:machines/charging_station)Estação de Carga/$ que tenha uma $(l:base_concepts/upgrades#dispenser)Melhoria de Ejetor/$ e pelo menos 1 bar de pressão, a menos de $(ttcolor)$(t:Veja 'max_drone_charging_station_search_range' na configuração do mod)80 blocos/$ de distância.$(p)Quando encontrada, o $(item)Drone/$ irá até essa $(item)Estação de Carga/$ e ficará carregando até a estação não conseguir mais fornecer ar. Depois disso, o $(item)Drone/$ retomará seu programa principal."
-    },
-    {
-      "type": "text",
-      "title": "Recarga Automática (cont.)",
-      "text": "Num servidor multiplayer você pode querer permitir que apenas seus Drones carreguem na(s) sua(s) Estação(ões) de Carga. Você pode tornar sua $(item)Estação de Carga/$ privada cobrindo-a com uma $(l:machines/security_station)Estação de Segurança/$.$(p)Agora apenas os $(item)Drones/$ posicionados por jogadores na lista-branca da sua $(item)Estação de Segurança/$ poderão carregar."
-    },
-    {
-      "type": "text",
-      "text": "Quando o ar do $(item)Drone/$ acaba, suas hélices param e ele cai direto no chão. Cuidado: drones podem sofrer dano de queda! Um $(item)Drone/$ destruído deixará cair a si mesmo em forma de item.$(p)Você pode tingir um $(item)Drone/$ fabricando-o com um $(item)corante/$. Você também pode tingir um $(item)Drone/$ no mundo, $(thing)clicando com o botão direito/$ nele com um $(item)corante/$. Essa coloração é apenas cosmética, mas pode ajudar a distinguir drones num relance."
-    },
-    {
-      "type": "text",
-      "title": "Depuração",
-      "text": "Hmm, por que aquele $(item)Drone/$ age como age? Por que ele não faz nada? Você pode depurar seu programa usando um $(l:armor/pneumatic_helmet)Capacete Pneumático/$ com Melhorias de $(l:base_concepts/upgrades#dispenser)Ejetor/$ e $(l:base_concepts/upgrades#entity_tracker)Rastreamento de Entidades/$ instaladas. Com o $(item)Drone/$ como alvo e o $(thing)Rastreamento de Entidades/$ ativo, pressione a tecla $(thing)$(k:pneumaticcraft.helmet.debugging.drone)/$."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando um Drone",
-      "recipe": "pneumaticcraft:drone"
-    }
-  ]
+    "name": "Drone",
+    "icon": "pneumaticcraft:drone",
+    "category": "pneumaticcraft:tools",
+    "advancement": "pneumaticcraft:printed_circuit_board",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Drones são poderosos robôs voadores programáveis, que podem ser usados para todo tipo de automação. Eles precisam ser programados antes de fazer qualquer coisa; para isso você também precisará de um $(l:programming/programmer)Programador/$ e algumas $(l:programming/puzzle_pieces)Peças de Quebra-Cabeça/$.$(p)Quando você coloca um Drone programado e $(l:base_concepts/pressure)pressurizado/$, ele executa suas tarefas programadas."
+        },
+        {
+            "type": "entity",
+            "entity": "pneumaticcraft:drone",
+            "offset": -0.3
+        },
+        {
+            "type": "text",
+            "anchor": "charging",
+            "title": "Carregamento Automático",
+            "text": "Drones são espertos: quando ficam com pouco ar, eles param o programa principal e procuram uma $(l:machines/charging_station)Estação de Carga/$ que tenha uma $(l:base_concepts/upgrades#dispenser)Melhoria de Ejetor/$ e pelo menos 1 bar de pressão, a menos de $(ttcolor)$(t:Veja 'max_drone_charging_station_search_range' na config do mod)80 blocos/$ de distância.$(p)Ao encontrá-la, o $(item)Drone/$ vai até essa $(item)Estação de Carga/$ e fica carregando até a estação não conseguir mais fornecer ar. Depois disso, o $(item)Drone/$ retoma seu programa principal."
+        },
+        {
+            "type": "text",
+            "title": "Carregamento Automático (cont.)",
+            "text": "Num servidor multijogador você pode querer permitir que apenas seus Drones carreguem na(s) sua(s) Estação(ões) de Carga. Você pode tornar sua $(item)Estação de Carga/$ privada cobrindo-a com uma $(l:machines/security_station)Estação de Segurança/$.$(p)Agora só os $(item)Drones/$ colocados por jogadores na lista-branca da sua $(item)Estação de Segurança/$ poderão carregar."
+        },
+        {
+            "type": "text",
+            "text": "Quando o ar do $(item)Drone/$ acaba, suas hélices param e ele cai direto no chão. Cuidado: drones podem sofrer dano de queda! Um $(item)Drone/$ destruído se derrubará em forma de item.$(p)Você pode tingir um $(item)Drone/$ fabricando-o com um $(item)corante/$. Você também pode tingir um $(item)Drone/$ no mundo, $(thing)clicando com o botão direito/$ nele com um $(item)corante/$. Essa coloração é só cosmética, mas pode ajudar a distinguir drones rapidamente."
+        },
+        {
+            "type": "text",
+            "title": "Depuração",
+            "text": "Hmm, por que aquele $(item)Drone/$ age desse jeito? Por que ele não faz nada? Você pode depurar seu programa usando um $(l:armor/pneumatic_helmet)Capacete Pneumático/$ com as Melhorias de $(l:base_concepts/upgrades#dispenser)Ejetor/$ e $(l:base_concepts/upgrades#entity_tracker)Rastreador de Entidades/$ instaladas. Com o $(item)Drone/$ na mira e o $(thing)Rastreador de Entidades/$ ativo, pressione a tecla $(thing)$(k:pneumaticcraft.helmet.debugging.drone)/$."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando um Drone",
+            "recipe": "pneumaticcraft:drone"
+        }
+    ]
 }

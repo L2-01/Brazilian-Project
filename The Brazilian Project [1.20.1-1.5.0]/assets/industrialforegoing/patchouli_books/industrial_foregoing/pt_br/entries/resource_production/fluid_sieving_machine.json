@@ -1,0 +1,17 @@
+{
+  "name": "Máquina de Peneirar Fluido",
+  "icon": "industrialforegoing:fluid_sieving_machine",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 21,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Usando carne de minério fermentada e areia, esta máquina transformará essa carne em pó do minério do qual ela foi criada originalmente."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_sieving_machine"
+    }
+  ]
+}

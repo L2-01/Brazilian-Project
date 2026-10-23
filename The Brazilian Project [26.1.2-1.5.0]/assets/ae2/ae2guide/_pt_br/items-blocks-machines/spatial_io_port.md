@@ -17,7 +17,7 @@ item_ids:
 O Porto de Entrada/Saída Espacial é usado na [E/S espacial](../ae2-mechanics/spatial-io.md) para segurar a [célula espacial](spatial_cells.md)
 e controlar a operação de E/S espacial.
 
-A célula pode ser inserida e extraída por qualquer logística de itens, como funis ou pontos do AE2, caso você queira automatizá-lo.
+A célula pode ser inserida e extraída por qualquer logística de itens, como funis ou pontos do AE2, se você quiser automatizá-la.
 
 ## Receita
 

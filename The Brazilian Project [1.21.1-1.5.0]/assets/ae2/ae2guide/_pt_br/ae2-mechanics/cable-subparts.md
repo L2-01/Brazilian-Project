@@ -12,6 +12,6 @@ icon: fluix_glass_cable
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-No AE2, certos [dispositivos](devices.md) e componentes podem ser colocados em cabos no mesmo bloco. Isso é útil para configurações compactas.
-Shift-clicar com o botão direito usando uma <ItemLink id="certus_quartz_wrench" /> ou uma <ItemLink id="network_tool" /> pode quebrar uma única
-subparte (ou o cabo) sem quebrar tudo naquele bloco.
+No AE2, certos [dispositivos](devices.md) e componentes podem ser colocados em cabos no mesmo bloco. Isso é útil para montagens compactas.
+Shift+clique com o botão direito usando uma <ItemLink id="certus_quartz_wrench" /> ou a <ItemLink id="network_tool" /> quebra uma única
+subparte (ou o cabo) sem quebrar tudo que há naquele bloco.

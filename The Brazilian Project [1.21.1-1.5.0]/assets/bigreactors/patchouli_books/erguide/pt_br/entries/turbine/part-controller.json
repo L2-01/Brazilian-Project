@@ -9,23 +9,23 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:reinforced_turbinecontroller",
             "link_recipe": true,
-            "title" : "Controlador",
-            "text": "O Controlador é sua interface principal com a Turbina.$(br2)Clique com o botão direito no Controlador para abrir sua interface gráfica. De lá, você pode ligar ou desligar a Turbina, verificar quanto vapor e refrigerante há nos tanques internos, ver quão rápido o $(l:bigreactors/rotor)Rotor$(/l) está girando e acompanhar quanta energia está sendo gerada."
+            "title": "Controlador",
+            "text": "O Controlador é sua interface principal com a Turbina.$(br2)Clique com o botão direito no Controlador para abrir sua interface gráfica. A partir dela, você pode ligar ou desligar a Turbina, verificar quanto vapor e refrigerante há nos tanques internos, ver a que velocidade o $(l:bigreactors/rotor)Rotor$(/l) está girando e monitorar quanta energia está sendo gerada."
         },
         {
             "type": "patchouli:text",
-            "text": "Você também pode regular quanto vapor está fluindo ao redor do $(l:bigreactors/rotor)Rotor$(/l), decidir o que fazer com o vapor quando ele se condensar de volta ao refrigerante original e engatar ou desengatar as $(l:bigreactors/coils)Bobinas Indutoras$(/l).$(br2)Se você passar o mouse sobre um controle na interface, uma dica será exibida com informações adicionais ou um texto explicativo para aquele controle."
+            "text": "Você também pode regular quanto vapor flui ao redor do $(l:bigreactors/rotor)Rotor$(/l), decidir o que fazer com o vapor quando ele se condensar de volta ao refrigerante original e acoplar ou desacoplar as $(l:bigreactors/coils)Bobinas de Indução$(/l).$(br2)Se você passar o cursor sobre um controle na interface, um tooltip será exibido com informações adicionais ou texto explicativo sobre ele."
         },
         {
             "type": "bigreactors:crafting1x",
-            "title1": "Basic",
+            "title1": "Básico",
             "recipe1": "bigreactors:turbine/basic/controller",
-            "title2": "Reinforced",
+            "title2": "Reforçado",
             "recipe2": "bigreactors:turbine/reinforced/controller"
         },
         {
             "type": "bigreactors:part_usage",
-            "text": "$(l)Obrigatório:$() pelo menos um é necessário$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim"
+            "text": "$(l)Obrigatória:$() pelo menos uma é exigida$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim"
         }
     ]
 }

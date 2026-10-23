@@ -5,20 +5,20 @@
     "pages": [
         {
             "type": "text",
-            "text": "O $(pncr) não gera nenhum minério extra no solo. Para começar, você só precisa de $(item)Barras de Ferro/$, que converterá em $(item)Barras de Ferro Comprimido$(), usadas em muitas receitas do mod.$(p)Para isso, jogue suas $(item)Barras de Ferro/$ no chão e cause uma explosão por perto. $(item)TNT/$ resolve, mas qualquer outra explosão também funciona."
+            "text": "O $(pncr) não gera minérios extras no chão. Para começar, você só precisa de $(item)Lingotes de Ferro/$, que converterá em $(item)Lingotes de Ferro Comprimido$(), usados em muitas receitas do mod.$(p)Para isso, jogue seus $(item)Lingotes de Ferro/$ no chão e provoque uma explosão por perto. $(item)TNT/$ resolve, mas qualquer outra explosão também funciona."
         },
         {
             "type": "image",
             "images": [
                 "pneumaticcraft:textures/patchouli/compressed_iron.png"
             ],
-            "text": "$(italic)      Afaste-se/$"
+            "text": "$(italic)      Um passo para trás/$"
         },
         {
             "type": "spotlight",
             "anchor": "compressed_iron_ingot",
             "item": "pneumaticcraft:ingot_iron_compressed",
-            "text": "Aviso: como efeito colateral da explosão, você perderá cerca de 20% das suas barras. Para evitar isso, você também pode fabricar $(item)Barras de Ferro Comprimido/$ numa $(l:manufacturing/pressure_chamber)Câmara de Pressão/$. Porém, para poder fabricar a própria $(thing)Câmara de Pressão/$ você precisará de algumas $(item)Barras de Ferro Comprimido/$, então uma pequena perda inicial é inevitável."
+            "text": "Aviso: como efeito colateral da explosão você perderá cerca de 20% oriundos dos seus lingotes. Para evitar isso, você também pode fabricar $(item)Lingotes de Ferro Comprimido/$ numa $(l:manufacturing/pressure_chamber)Câmara de Pressão/$. Porém, para poder fabricar a própria $(thing)Câmara de Pressão/$ você precisará de alguns $(item)Lingotes de Ferro Comprimido/$, então uma pequena perda inicial é inevitável."
         },
         {
             "type": "pneumaticcraft:pressure_chamber",
@@ -28,7 +28,7 @@
             "type": "crafting",
             "anchor": "compressed_iron_block",
             "recipe": "pneumaticcraft:compressed_iron_block_from_ingot",
-            "text": "O $(item)Bloco de Ferro Comprimido/$ é um excelente $(l:base_concepts/heat)Condutor de Calor/$ e pode ser usado para fornecer mais faces onde anexar $(l:machines/heat_sink)Dissipadores de Calor/$ a máquinas produtoras de calor. Porém, veja também $(l:machines/heat_pipe)Tubos de Calor/$."
+            "text": "O $(item)Bloco de Ferro Comprimido/$ é um excelente $(l:base_concepts/heat)Condutor de Calor/$ e pode ser usado para fornecer mais faces para acoplar $(l:machines/heat_sink)Dissipadores de Calor/$ a máquinas que produzem calor. Porém, veja também os $(l:machines/heat_pipe)Tubos de Calor/$."
         },
         {
             "type": "pneumaticcraft:pressure_chamber",

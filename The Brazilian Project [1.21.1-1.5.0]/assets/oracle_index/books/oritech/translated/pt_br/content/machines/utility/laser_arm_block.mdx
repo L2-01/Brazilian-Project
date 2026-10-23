@@ -1,0 +1,74 @@
+---
+title: Laser Endérico
+id: oritech:laser_arm_block
+type: block
+custom:
+    Capacidade de RF: "20,000"
+    RF/t: "128"
+    Alcance: "128 blocos"
+    Núcleos necessários: "1"
+    Espaços de complemento: "1"
+---
+O laser endérico usa grandes quantidades de energia para disparar um feixe de
+alta potência numa direção específica.
+Ele é usado principalmente para mineração rápida a longa distância ou como um
+sistema de transmissão de energia de longo alcance.
+
+<center>
+<ModAsset location="oritech:area/fluxite_mining" width={512} />
+</center>
+
+---
+
+**Controle e Mira**
+
+Para definir a direção alvo, use um [designador de alvo](@oritech:target_designator)
+no bloco do laser. O laser tem alcance máximo de 128 blocos
+e continua disparando até ser obstruído ou desativado por um sinal de
+redstone. Note que você define uma direção alvo, não um bloco alvo. Ele tentará destruir todos os blocos nessa direção.
+
+Ao minerar, o laser coleta automaticamente os itens largados para seu inventário
+interno.
+
+<Callout variant="warning">
+    Itens que não couberem no inventário interno serão destruídos.
+    Use [tubos de item](@oritech:item_pipe) para extrair os recursos
+    continuamente.
+    Cuidado: o laser destrói quase tudo em seu caminho,
+    embora atravesse vidro.
+</Callout>
+
+---
+
+**Interações Avançadas**
+
+- **Transferência de Energia**: quando apontado para máquinas ou armazenamentos de energia, o
+laser os carrega, ignorando os limites normais de entrada. Isso é necessário
+para a [Forja Atômica](@oritech:atomic_forge_block) e o
+[Extrator de Rocha Matriz](@oritech:deep_drill_block).
+- **Colheita de Fluxita**: apontar o laser para aglomerados de ametista
+os transforma em [fluxita](@oritech:fluxite) ao serem minerados.
+- **Aceleração de Crescimento**: apontar para uma **Ametista em Brotamento** acelera
+enormemente sua taxa de crescimento sem destruí-la.
+- **Combate**: equipado com um [complemento de caçador](@oritech:machine_hunter_addon),
+o laser rastreia e ataca entidades ativamente.
+Complementos como velocidade também se aplicam ao combate.
+- **Carregamento de Exo-Armadura**: o laser pode carregar sem fio o
+[Exo-Peitoral](@oritech:exo_chestplate) de um jogador se ele for o alvo (apenas com um complemento de caçador instalado).
+
+**Complementos e Melhorias**
+
+O laser tem um único espaço de complemento na parte inferior, que altera
+significativamente seu comportamento para operações em larga escala.
+
+- **Complemento de Pedreira**: converte o laser numa ferramenta de escavação em massa.
+Ele aumenta a largura do feixe, permitindo limpar grandes túneis
+ou áreas com eficiência, em vez de apenas uma linha.
+- **Complemento de Rendimento**: funciona como Fortuna, aumentando os itens largados
+dos blocos minerados.
+- **Complemento de Velocidade**: aumenta a velocidade de mineração (ou a quantidade de energia transferida) ao custo de maior
+consumo de energia.
+- **Complemento de Eficiência**: diminui o consumo de energia ao minerar ou acelerar blocos.
+- **Complemento de Caçador**: alterna o laser para o modo de combate.
+Você pode alternar os modos de mira (Criaturas, Animais, Comerciantes) usando
+o [Designador de Alvo](@oritech:target_designator) no bloco do laser.

@@ -5,7 +5,7 @@ navigation:
   parent: little_big_redstone:logic.md
   position: 12
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:tag
 ---
@@ -14,37 +14,37 @@ item_ids:
 
 <FloatingColumn width="100" align="right">
 	### Analógico
-	As Etiquetas emitem um valor de sinal de saída igual ao valor do sinal de entrada. No caso de múltiplas entradas
-	(como com um limite > 1), o maior valor de sinal é usado.
+	As Etiquetas produzem um valor de sinal de saída igual ao valor do sinal de entrada. No caso de múltiplas
+	entradas (como com um limiar > 1), o maior valor de sinal é usado.
 </FloatingColumn>
-
 
 <RecipeFor id="tag" />
 
-As Etiquetas permitem enviar sinais sem fio entre circuitos. As Etiquetas têm dois modos: sensor e emissor. Sensores 
-são como você recebe sinais, e emissores são como você transmite sinais.
+As etiquetas permitem enviar sinais entre circuitos sem fios. As etiquetas têm dois modos, sensor e emissor. Os
+sensores são como você recebe sinais, e os emissores são como você transmite sinais.
 
 <br />
 
-Cada etiqueta pode ter um rótulo definido. Para que um sensor possa detectar um emissor, ambos devem ter o mesmo rótulo.
-Rótulos **diferenciam maiúsculas de minúsculas**. Rótulos não são obrigatórios e, se deixados vazios, coincidirão apenas 
-com outras etiquetas que também tenham um rótulo vazio.
+Cada etiqueta pode ter um rótulo definido. Para que um sensor consiga detectar um emissor, ambos devem ter o
+mesmo rótulo. Os rótulos **diferenciam maiúsculas de minúsculas**. Os rótulos não são obrigatórios e, se deixados
+vazios, só corresponderão a outras etiquetas que também tenham um rótulo vazio.
 
-Um sensor possui uma configuração de limiar, que determina quantos emissores ele deve detectar para produzir uma saída
-LIGADA. Por exemplo, se você tiver um sensor com um limiar de 2 e um rótulo de "something", você deve ter 2 emissores 
-também com o rótulo "something" que estejam LIGADOS para que o sensor tenha uma saída LIGADA.
+Um sensor tem uma configuração de limiar, que determina quantos emissores ele deve detectar para produzir uma
+saída LIGADA. Por exemplo, se você tem um sensor com limiar 2 e um rótulo "something", precisa ter 2 emissores
+também com o rótulo "something" LIGADOS para que o sensor tenha uma saída LIGADA.
 
-Observe que os sensores podem detectar emissores no mesmo circuito.
-
-<br />
-
-Sensores também podem escolher se são globais ou não. Em outras palavras, se ele detecta emissores colocados por outra 
-pessoa em um servidor multijogador. Por padrão, sensores não são globais - significando que eles detectarão apenas seus emissores.
+Note que os sensores podem detectar emissores no mesmo circuito.
 
 <br />
 
-Abaixo está um exemplo de um emissor e um sensor de etiqueta, ambos com o mesmo rótulo. Como eles compartilham um rótulo 
-e o sensor tem apenas um limiar de 1, quando o emissor está LIGADO, o sensor também está LIGADO.
+Os sensores também podem escolher se são globais ou não. Em outras palavras, se detectam emissores colocados por
+outra pessoa num servidor multiplayer. Por padrão, os sensores não são globais — ou seja, só detectarão os seus
+emissores.
+
+<br />
+
+Abaixo está um exemplo de um emissor e um sensor de etiqueta com o mesmo rótulo. Como compartilham um rótulo e o
+sensor tem limiar de apenas 1, quando o emissor está LIGADO, o sensor também fica LIGADO.
 
 <Row>
 	<Column>
@@ -67,7 +67,7 @@ e o sensor tem apenas um limiar de 1, quando o emissor está LIGADO, o sensor ta
 	</Column>
 </Row>
 
-Observe que, abaixo, as duas etiquetas têm rótulos diferentes. Por causa disso, o sensor não detecta o emissor.
+Note que abaixo as duas etiquetas têm rótulos diferentes. Por isso, o sensor não detecta o emissor.
 
 <Row>
 	<Column>

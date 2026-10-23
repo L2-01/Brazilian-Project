@@ -14,7 +14,7 @@ item_ids:
 
 <BlockImage id="sky_stone_tank" scale="8" />
 
-É um tanque de fluido que armazena 16 baldes de fluido. Não retém seu conteúdo ao ser coletado. Não há muito mais a dizer.
+É um tanque de fluido que armazena 16 baldes de fluido. Não retém seu conteúdo ao ser pego. Não há muito mais a dizer.
 
 ## Receita
 

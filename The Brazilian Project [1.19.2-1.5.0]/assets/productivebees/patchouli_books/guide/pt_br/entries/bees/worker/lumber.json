@@ -1,0 +1,18 @@
+{
+    "name": "Abelha Lenhadora",
+    "icon": "minecraft:wooden_axe",
+    "read_by_default": true,
+    "sortnum": 3,
+    "category": "productivebees:bees_worker",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Abelha Lenhadora",
+            "text": "Morde madeira próxima e coleta lascas de madeira em sua colmeia. As lascas de madeira podem ser transformadas em troncos."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "productivebees:lumber_bee"
+        }
+    ]
+}

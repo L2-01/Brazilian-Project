@@ -1,36 +1,36 @@
 {
-    "name": "Modo Pirâmide",
-    "icon": "mffs:pyramid_mode",
-    "category": "mffs:projector_modes",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:pyramid_mode",
-            "link_recipe": true,
-            "text": "Por padrão, o $(2)Modo Pirâmide$() define o Projetor para gerar um campo de força em formato de pirâmide. A espessura do formato de pirâmide depende de seu tamanho. Cada $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() aumenta o tamanho do campo em 1 bloco em todas as direções."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:pyramid_mode",
-            "text": "Fabricando o $(2)Modo Pirâmide$()."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Ajuste do Campo",
-            "text": "Colocar um $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() num espaço de item marcado por uma seta direcional tem um efeito diferente. Um módulo colocado nos espaços de item esquerdo, direito, frontal ou traseiro expandirá o campo em 1 bloco em ambas as direções opostas ao mesmo tempo. Colocar um módulo nos espaços de item superior ou inferior expandirá o campo em 1 bloco apenas naquela direção."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Por exemplo, para aumentar a altura de um campo de força em 1 bloco, adicione um $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() num espaço de item marcado por uma seta direcional apontando para o topo-esquerdo ou topo-direito da tela de GUI."
-        },
-        {
-            "type": "patchouli:image",
-            "images": [
-                "mffs:textures/gui/handbook/pyramid_mode.png"
-            ],
-            "border": true,
-            "title": "Projeção",
-            "text": "Um campo de $(2)Modo Pirâmide$() expandido sendo projetado."
-        }
-    ]
+  "name": "Modo Pirâmide",
+  "icon": "mffs:pyramid_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:pyramid_mode",
+      "link_recipe": true,
+      "text": "Por padrão, o $(2)Modo Pirâmide$() define o Projetor para gerar um campo de força em formato de pirâmide. A espessura do formato de pirâmide depende de seu tamanho. Cada $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() aumenta o tamanho do campo em 1 bloco em todas as direções."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:pyramid_mode",
+      "text": "Fabricando o $(2)Modo Pirâmide$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ajuste de Campo",
+      "text": "Colocar um $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() num slot de item marcado por uma seta direcional tem um efeito diferente. Um módulo colocado nos slots de item esquerdo, direito, frontal ou traseiro escalará o campo em 1 bloco nas duas direções opostas ao mesmo tempo. Colocar um módulo nos slots de item superior ou inferior escalará o campo em 1 bloco apenas naquela direção."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Por exemplo, para aumentar a altura de um campo de força em 1 bloco, adicione um $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() num slot de item marcado por uma seta apontando para o canto superior esquerdo ou direito da interface."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/pyramid_mode.png"
+      ],
+      "border": true,
+      "title": "Projeção",
+      "text": "Um campo de $(2)Modo Pirâmide$() escalado sendo projetado."
+    }
+  ]
 }

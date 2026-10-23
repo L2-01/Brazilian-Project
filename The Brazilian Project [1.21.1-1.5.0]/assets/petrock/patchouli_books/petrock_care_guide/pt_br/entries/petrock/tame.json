@@ -1,25 +1,31 @@
 {
-  "name": "O que as caras da Pedra de Estimação significam",
+  "name": "O que os rostos da Pedra de Estimação significam",
   "icon": "petrock:petrockbox",
   "category": "petrock:petrock_category",
   "pages": [
     {
       "type": "image",
-      "images": ["petrock:textures/patchouli/untamed.png"],
+      "images": [
+        "petrock:textures/patchouli/untamed.png"
+      ],
       "border": true,
-      "text": "Uma Pedra de Estimação Não Domada"
+      "text": "Uma Pedra de Estimação não domesticada"
     },
     {
       "type": "image",
-      "images": ["petrock:textures/patchouli/tamed.png"],
+      "images": [
+        "petrock:textures/patchouli/tamed.png"
+      ],
       "border": true,
-      "text": "Uma Pedra de Estimação Domada"
+      "text": "Uma Pedra de Estimação domesticada"
     },
     {
       "type": "image",
-      "images": ["petrock:textures/patchouli/tamed_sit.png"],
+      "images": [
+        "petrock:textures/patchouli/tamed_sit.png"
+      ],
       "border": true,
-      "text": "Uma Pedra de Estimação domada que está sentada"
+      "text": "Uma Pedra de Estimação domesticada que está sentada"
     }
   ]
 }

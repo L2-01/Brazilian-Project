@@ -1,0 +1,21 @@
+{
+    "name": "Verificador de Inventário",
+    "icon": "rftoolsutility:invchecker",
+    "category": "rftoolsutility:category_rftoolsutility_logic",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O $(item)Verificador de Inventário$() emite um $(thing)sinal de redstone$() se o inventário atrás dele tiver mais que um certo número de itens num espaço especificado. Tanto o espaço quanto o item podem ser definidos na GUI, junto com uma $(thing)Tag de Item$() opcional e se deve ignorar ou corresponder o dano do item especificado. Eles também podem ser deixados em branco para corresponder a qualquer item que entre no espaço."
+        },
+        {
+            "type": "text",
+            "text": "[TODO: foto da GUI do verificador de inventário aqui]"
+        },
+        {
+            "type": "crafting",
+            "heading": "Dígito",
+            "recipe": "rftoolsutility:invchecker",
+            "text": "Lembre-se, a contagem dos espaços começa em zero!"
+        }
+    ]
+}

@@ -15,11 +15,11 @@ item_ids:
 
 <BlockImage id="mysterious_cube" scale="8" />
 
-Lembra de quando você tinha que encontrar um monte de meteoros para achar todas as prensas inscritoras? Não mais! Agora os meteoritos vêm com um Cubo Misterioso.
+Lembra quando você tinha que achar vários meteoros para encontrar todas as prensas? Não mais! Agora os meteoritos vêm com um Cubo Misterioso.
 
-Imagino o que acontece quando você o quebra (sem Toque Suave)...
+Imagino o que acontece quando você o quebra (sem toque suave)...
 
-Você também pode fazer uma réplica: o Cubo Não Tão Misterioso.
+Você também pode fazer uma réplica, o Cubo Não Tão Misterioso
 
 ## Receita
 

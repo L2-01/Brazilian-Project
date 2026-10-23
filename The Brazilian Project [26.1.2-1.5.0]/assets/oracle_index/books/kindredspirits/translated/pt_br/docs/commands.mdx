@@ -1,0 +1,39 @@
+---
+title: Comandos
+icon: minecraft:command_block
+related_items: []
+---
+
+Todos os comandos ficam sob `/kindredspirits`.
+
+## Para todos
+
+- `/kindredspirits info` mostra o nível, as estrelas, a experiência,
+  o vínculo, a saturação, a experiência de descanso, o equipamento e as habilidades do seu espírito vinculado, com o requisito
+  de qualquer uma que ele não tenha aprendido.
+- `/kindredspirits release` desfaz seu vínculo, igual ao botão da
+  tela do amuleto.
+- `/kindredspirits smelt` aciona o Sopro de Fornalha num Dragão Bebê que
+  o tenha aprendido.
+- `/kindredspirits skin <player>` veste seu Minijogador vinculado com a
+  skin daquele jogador, igual à caixa de skin da tela do amuleto. Omita o nome
+  para voltar à sua própria skin. Funciona também enquanto o Minijogador está descansando.
+
+## Para operadores
+
+- `/kindredspirits xp <amount>` concede experiência ao seu espírito vinculado.
+- `/kindredspirits bond <points>` concede pontos de vínculo ao seu espírito vinculado.
+- `/kindredspirits resetrevive <players>` zera o temporizador de recuperação do amuleto
+  desses jogadores.
+- `/kindredspirits minime [mc_name] ["custom name"] [adult|baby]` invoca um
+  Minijogador ao seu lado, domesticado por você mas sem vínculo, configurado para vagar. Ele veste a
+  skin de `mc_name` (a sua, se omitido) e carrega `custom name` acima da
+  cabeça, que por padrão é `mc_name`. Coloque nomes com espaços entre aspas. Termine com
+  `baby` para o corpo de filhote cabeçudo, que pode vir depois de qualquer nome ou sozinho
+  (`/kindredspirits minime baby`); caso contrário, é um adulto. Defina
+  `minime_permission_level` na config comum para 0 para liberá-lo a todos.
+
+## Atalho
+
+**Alternar Ordens do Companheiro** (G por padrão, na categoria Kindred Spirits da
+tela de controles) alterna Seguir, Ficar e Vagar no seu espírito vinculado.

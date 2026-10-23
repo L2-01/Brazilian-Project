@@ -16,35 +16,35 @@ item_ids:
   <ImportStructure src="../assets/blocks/drive.snbt" />
 </GameScene>
 
-O Gabinete é o [dispositivo](../ae2-mechanics/devices.md) em que você encaixa suas [células de armazenamento](storage_cells.md) para usá-las como
-[armazenamento da rede](../ae2-mechanics/import-export-storage.md). Ele tem 10 slots, cada um aceitando uma célula.
+O Gabinete é o [dispositivo](../ae2-mechanics/devices.md) no qual você encaixa suas [células de armazenamento](storage_cells.md) para usá-las como
+[armazenamento de rede](../ae2-mechanics/import-export-storage.md). Ele tem 10 slots, cada um aceitando uma célula.
 
-Você pode empurrar e puxar as células do seu inventário usando qualquer logística de itens, como funis ou pontos do AE2.
+Você pode empurrar e puxar as células de seu inventário usando qualquer logística de itens, como funis ou pontos do AE2.
 
 Ele pode ser girado com uma <ItemLink id="certus_quartz_wrench" />.
 
-## LEDs de Status da Célula
+## LEDs de Estado da Célula
 
-As células no gabinete têm um LED que mostra seu status:
+As células no gabinete têm um LED que mostra seu estado:
 
-| Cor    | Status                                                                           |
+| Color  | Status                                                                           |
 | :----- | :------------------------------------------------------------------------------- |
 | Verde  | Vazia                                                                            |
-| Azul   | Tem algum conteúdo                                                               |
-| Laranja| [Tipos](../ae2-mechanics/bytes-and-types.md) cheios, nenhum tipo novo pode ser adicionado |
-| Vermelho| [Bytes](../ae2-mechanics/bytes-and-types.md) cheios, nenhum item a mais pode ser inserido |
-| Preto  | Sem energia ou o gabinete não tem [canal](../ae2-mechanics/channels.md)            |
+| Azul   | Tem algum conteúdo                                                                |
+| Laranja | [Tipos](../ae2-mechanics/bytes-and-types.md) cheios, não é possível adicionar novos tipos     |
+| Vermelho | [Bytes](../ae2-mechanics/bytes-and-types.md) cheios, não é possível inserir mais itens |
+| Preto  | Sem energia ou o gabinete não tem [canal](../ae2-mechanics/channels.md)                 |
 
 ## Prioridade
 
-Prioridades podem ser definidas clicando na chave-inglesa no canto superior direito da GUI.
-Itens entrando na rede começarão pelo armazenamento de maior prioridade como
+As prioridades podem ser definidas clicando na chave no canto superior direito da GUI.
+Itens que entram na rede começam pelo armazenamento de maior prioridade como
 seu primeiro destino. No caso de dois armazenamentos ou células terem a mesma prioridade,
-se um já contiver o item, eles preferirão aquele armazenamento a qualquer
+se um já contém o item, ele será preferido sobre qualquer
 outro. Quaisquer células [particionadas](cell_workbench.md) serão tratadas como se já contivessem o item
-quando estiverem no mesmo grupo de prioridade que outros armazenamentos. Itens sendo removidos do armazenamento serão
-removidos do armazenamento com a menor prioridade. Este sistema de prioridade significa que, conforme itens são inseridos e removidos
-do armazenamento da rede, armazenamentos de maior prioridade serão enchidos e armazenamentos de menor prioridade serão esvaziados.
+quando estiverem no mesmo grupo de prioridade que outros armazenamentos. Itens removidos do armazenamento serão
+removidos do armazenamento de menor prioridade. Esse sistema de prioridade significa que, à medida que itens são inseridos e removidos
+do armazenamento de rede, armazenamentos de maior prioridade serão preenchidos e os de menor prioridade serão esvaziados.
 
 ## Receita
 

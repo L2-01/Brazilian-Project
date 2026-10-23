@@ -7,25 +7,25 @@ navigation:
 
 # ComputerCraft
 
-Com o [CC: Tweaked](https://modrinth.com/mod/cc-tweaked) instalado, o Computador funciona também como periférico. Os scripts podem ler tudo que as telas do Computador mostram — redes, canais, nós, o grafo de nós e a telemetria de E/S ao vivo — e desenhá-la em monitores.
+Com o [CC: Tweaked](https://modrinth.com/mod/cc-tweaked) instalado, o Computador também funciona como periférico. Scripts podem ler tudo o que as telas do Computador mostram — redes, canais, nós, o grafo de nós e a telemetria de E/S ao vivo — e desenhar isso em monitores.
 
 ## Conectando
 
-Coloque um computador do CC ao lado do Computador, ou vincule-os com um modem com fio. O tipo de periférico é `logistics_computer`:
+Posicione um computador CC ao lado do Computador, ou vincule-os com um modem com fio. O tipo de periférico é `logistics_computer`:
 
 ```lua
 local lc = peripheral.find("logistics_computer")
 ```
 
-## Posse
+## Propriedade
 
-Um Computador pertence ao jogador que o colocou. Os scripts veem exatamente as redes que aquele jogador pode abrir, seguindo as regras de acesso a nós do servidor e o FTB Teams. Qualquer um que conectar um computador de CC a ele pode ler essas redes, então mantenha-o onde só você alcança.
+Um Computador pertence ao jogador que o posicionou. Scripts veem exatamente as redes que aquele jogador pode abrir, seguindo as regras de acesso a nós do servidor e o FTB Teams. Qualquer um que conectar um computador CC a ele pode ler essas redes, então mantenha-o onde só você alcança.
 
-Um Computador colocado antes desta atualização não tem dono. Quebre-o e coloque-o de novo para usá-lo com o ComputerCraft.
+Um Computador posicionado antes desta atualização não tem dono. Quebre-o e posicione-o de novo para usá-lo com ComputerCraft.
 
 ## Métodos
 
-`net` é um id de rede ou seu nome exato. As listas de canais estão na ordem da tela e o `index` de cada entrada é o número `CH` mostrado no [Monitor de E/S](../computer/io-monitor.md), que começa em 0 — então CH0 é `channels[1]`. As `channels` das arestas do grafo também guardam números CH.
+`net` é um id de rede ou seu nome exato. As listas de canais estão na ordem da tela e o `index` de cada entrada é o número `CH` mostrado no [Monitor de E/S](../computer/io-monitor.md), que começa em 0 — então CH0 é `channels[1]`. O campo `channels` das arestas do grafo também guarda números CH.
 
 | Método | Retorna |
 |---|---|
@@ -33,13 +33,13 @@ Um Computador colocado antes desta atualização não tem dono. Quebre-o e coloq
 | `getChannels(net)` | `{ {index, name, type, nodeCount}, ... }` — `type` é nil quando um canal não tem nós ativados |
 | `getNodes(net)` | `{ {id, label, block, pos, attachedPos, dimension, visible, highlighted}, ... }` — só nós carregados |
 | `getGraph(net)` | `{ name, totalNodes, vertices, edges }` — vértices têm `key, label, x, y, nodes`; arestas têm `from, to, type, channels` |
-| `watch(net)` | Inicia a telemetria ao vivo para este computador |
-| `unwatch(net)` | Para ela |
+| `watch(net)` | Inicia telemetria ao vivo para este computador |
+| `unwatch(net)` | Para a telemetria |
 | `getFlow(net)` | Última amostra de telemetria, ou nil antes do primeiro segundo; dá erro se a rede não estiver sendo observada |
 
 Os tipos são `item`, `fluid` e `energy`.
 
-## Telemetria ao Vivo
+## Telemetria ao vivo
 
 Depois do `watch`, um evento `logistics_flow` chega a cada segundo:
 
@@ -48,13 +48,13 @@ local _, side, networkId, sample = os.pullEvent("logistics_flow")
 -- sample.channels[1].total, sample.channels[1].resources[1].displayName
 ```
 
-Cada canal tem `index`, `type`, `total` (quantidade movida naquele segundo, nas unidades do Monitor de E/S) e `resources` — os 16 principais itens ou fluidos com `kind`, `name`, `displayName` e `amount`. Os canais de energia têm uma lista de recursos vazia.
+Cada canal tem `index`, `type`, `total` (quantidade movida naquele segundo, nas unidades do Monitor de E/S) e `resources` — os 16 principais itens ou fluidos com `kind`, `name`, `displayName` e `amount`. Canais de energia têm lista de recursos vazia.
 
-As observações terminam quando o computador reinicia ou é desconectado, então chame `watch` no seu script `startup`. Elas também param sem erro se o dono perder acesso à rede ou se a rede for apagada.
+As observações terminam quando o computador reinicia ou é desconectado, então chame `watch` no seu script `startup`. Elas também param sem erro se o dono perder acesso à rede ou a rede for apagada.
 
 ## Exemplo
 
-Mostra a taxa ao vivo de cada canal num monitor conectado:
+Mostra a taxa ao vivo de cada canal num monitor anexado:
 
 ```lua
 local lc = peripheral.find("logistics_computer")

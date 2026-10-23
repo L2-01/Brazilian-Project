@@ -1,0 +1,16 @@
+{
+    "name": "Tristeza Temporal",
+    "icon": "twilightdelight:teardrop_sword",
+    "category": "twilightdelight:effects",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Este efeito reduzirá o ataque em 10 pontos e diminuirá pela metade a velocidade de movimento da entidade alvo."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "twilightdelight:teardrop_sword",
+            "text": "Inflige ao inimigo ao usar a Espada Lacrimosa."
+        }
+    ]
+}

@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:ice_diamond
 categories:
-  - Entrega Suspeita
+  - Suspicious Delivery
 ---
 # Diamante de Gelo
 

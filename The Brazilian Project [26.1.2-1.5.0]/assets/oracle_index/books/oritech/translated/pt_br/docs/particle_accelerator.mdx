@@ -1,0 +1,154 @@
+---
+title: Acelerador de Partículas
+icon: oritech:area/accelerator_ring_area
+---
+
+O acelerador de partículas serve para, como você pode imaginar, acelerar partículas. Quando partículas de itens diferentes colidem, elas podem criar novos itens.
+A partícula parte do bloco do acelerador de partículas, onde você pode inserir qualquer item para ser usado como partícula.
+Um anel guia reto precisa ser colocado logo atrás do controlador, virado para o lado, com o visual alinhado corretamente.
+
+<Callout variant="info">
+    TL;DR: construa um anel com anéis guia e motores. Quando uma partícula inserida atingir velocidade, medida por um sensor de velocidade de partícula,
+    insira uma segunda partícula no mesmo anel para criar uma colisão, com uma partícula muito rápida e uma praticamente parada.
+    Se precisar de velocidades maiores, aumente o anel em todos os lados.
+</Callout>
+
+<center>
+<ModAsset location="oritech:area/accelerator_ring_area" width={500} />
+</center>
+
+Uma vez inserida, a partícula percorre uma rota definida pelos anéis guia. Eles podem receber clique com o botão direito para adicionar uma curva de 45 graus em um lado.
+Outro anel guia precisa estar no caminho da partícula, conforme definido pelos anéis guia. Dependendo da velocidade, a distância permitida entre os blocos guia aumenta.
+
+A distância máxima é calculada com a seguinte fórmula:
+
+> clamp(sqrt(speed) / 2, 2, 10)
+
+Isso significa que, em velocidades mais altas, a distância entre os blocos guia pode ser maior.
+
+---
+
+## Colisões de Partículas
+
+Quando 2 partículas de controladores de acelerador de partículas diferentes colidem entre si, elas podem resultar em um item diferente. Dependendo da receita,
+a energia de colisão necessária será diferente. A energia de colisão é a soma das velocidades das duas partículas. O tipo do item é irrelevante aqui, só importam as velocidades.
+
+<Callout variant="info">
+    Em altas velocidades, a interferência quântica torna os pontos de colisão imprevisíveis e ocasionalmente erra quando ambas as partículas estão em alta velocidade.
+    Certifique-se de colocar a partícula no mesmo anel na direção oposta ao colidir.
+</Callout>
+
+Por exemplo, se 2 partículas se chocam enquanto se movem em direções opostas, cada uma a 500 m/s, a energia de colisão será de 1000 J.
+Se uma partícula viaja a 1000 m/s e a outra a apenas 1 m/s, a energia resultante será de 1001 J.
+Isso significa que você não precisa acelerar ambas as partículas para uma colisão. Na maioria dos casos, é mais fácil acelerar apenas uma partícula
+e depois inserir uma segunda partícula lenta no mesmo anel.
+
+---
+
+## Chaves de Redstone
+
+Quando um sinal de redstone é aplicado a um bloco guia não reto, ele se torna um bloco de chave. Quando ligado, ele conduz as partículas em linha reta; quando desligado, as guia para a direção curva original.
+Uma partícula também pode entrar pela outra direção, visualizada pelo tubo de vidro vermelho menor, seguindo o caminho do tubo branco, e entrando tanto pelo tubo vermelho quanto pelo branco.
+
+<center>
+<ModAsset location="oritech:area/accelerator_switch_area" width={500} />
+</center>
+
+Em velocidades mais altas, a partícula não consegue fazer curvas fechadas. Se a última curva completa de 90 graus estiver perto demais, ela sai do caminho guiado e dispara para o mundo.
+Se a distância entre os blocos guia for grande demais, ou se nenhum próximo guia for encontrado, ela também dispara para fora. A distância mínima entre curvas é calculada assim:
+
+> sqrt(speed) / 2.5
+
+A imagem a seguir mostra como a distância da curva é calculada no jogo. Para permitir velocidades maiores, aumente a distância entre os cantos ou alongue os próprios cantos:
+
+<center>
+<ModAsset location="oritech:area/particle_dist_calc" width={800} />
+</center>
+
+---
+
+## Interações
+
+Entidades atingidas pela partícula sofrem dano baseado na velocidade da partícula. Ao sair do caminho guiado, ela também fere entidades em sua trajetória
+e destrói blocos até que o momento se esgote. Quando duas partículas colidem, elas podem criar novos itens.
+
+Passar por um motor de acelerador acelera a partícula em 1 m/s, exigindo que o motor esteja energizado.
+O requisito de energia aumenta com a velocidade. Cada vez que um motor acelera uma partícula, ele consome a velocidade atual da partícula * 10 RF.
+Tanto os motores de partículas quanto os sensores podem ser usados como guias retos.
+
+---
+
+## Táquions
+
+Quando partículas colidem em alta velocidade, elas emitem táquions densos em energia. Quanto maior a energia de colisão, mais energia será ejetada com os táquions.
+Eles também voam mais longe, e haverá mais táquions em velocidades maiores.
+
+Absorvedores de táquions podem ser usados para capturar essas partículas e transformá-las em energia. Os táquions sempre saem em direções aleatórias no ponto de colisão. Cercar
+toda a área com absorvedores garante que você capture todos eles. Se todos os táquions forem coletados, você pode obter até 4x a quantidade de energia usada para acelerar
+as partículas.
+
+No entanto, em colisões grandes, muitos táquions de alta energia serão emitidos, o que pode fazer os absorvedores atingirem seu limite, e qualquer energia excedente será desperdiçada.
+Colocar os absorvedores mais atrás permite que os táquions se espalhem por múltiplos absorvedores, para que não encham rápido demais e fiquem sobrecarregados. Em velocidades muito altas,
+aproximadamente acima de 10000, até absorvedores mais atrás geralmente ficam sobrecarregados, e a energia não pode ser totalmente coletada.
+
+<center>
+<ModAsset location="oritech:area/tachyon_catcher" width={500} />
+</center>
+
+A distância que os táquions podem alcançar é calculada assim:
+> (sqrt(collisionEnergy) / 2 + 1) / 3
+
+Basicamente, isso significa que em colisões maiores, os táquions viajam mais longe do ponto de colisão.
+
+---
+
+## Sensores de Velocidade
+
+A velocidade de uma partícula pode ser medida com um sensor de partículas. Um comparador pode então fornecer um sinal de redstone baseado na velocidade da partícula. A tabela a seguir mostra a velocidade necessária para cada nível de redstone:
+
+1. 0
+2. 10
+3. 50
+4. 75
+5. 100
+6. 150
+7. 250
+8. 500
+9. 750
+10. 1000
+11. 2500
+12. 5000
+13. 7500
+14. 10000
+15. 15000
+
+<center>
+<ModAsset location="oritech:area/accelerator_speed_area" width={600} />
+</center>
+
+---
+
+## Design do Acelerador
+
+Aceleradores de partículas podem ser construídos de várias formas, dependendo de seus objetivos. Uma linha reta de motores pode disparar partículas contra algo,
+mas velocidades mais altas são alcançadas de forma mais eficiente com um design circular. Anéis muito grandes podem ser necessários para alcançar certos elementos. Partículas lentas exigem anéis guia próximos uns dos outros,
+então começar em um anel pequeno e depois usar redstone para mover para um anel maior costuma fazer sentido.
+
+Múltiplos estágios de anel podem ser necessários em alguns casos.
+
+---
+
+## Incursões Dimensionais
+
+<Callout variant="warning">
+    Esta seção é baseada em notas de pesquisadores experimentais e não é oficialmente endossada pela Oritech Inc.
+</Callout>
+
+Quando certos elementos colidem com energia excessiva, eles podem rasgar um buraco no espaço-tempo, levando a uma pequena incursão dimensional.
+A energia necessária para isso é imensa, e pouco se sabe sobre essas incursões e seus gatilhos.
+Pesquisadores notaram que colidir cargas de fogo com uma energia de colisão acima de 5000 J parece aproximar o Nether.
+Pérolas de ender com mais de 10000 J aparentemente fazem o mesmo pela dimensão do End.
+
+Há rumores inquietantes de cientistas imprudentes tentando bombardear esses pontos de incursão com velocidades que desafiam os métodos de medição conhecidos,
+visando criar suas próprias singularidades. No entanto, nenhum retornou para compartilhar suas descobertas, deixando seus destinos envoltos em mistério. Desde então,
+os sensores registram um misterioso fluxo de táquions vindo do local do experimento.

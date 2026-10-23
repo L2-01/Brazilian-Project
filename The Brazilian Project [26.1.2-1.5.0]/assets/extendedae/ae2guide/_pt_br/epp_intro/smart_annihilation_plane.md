@@ -15,7 +15,7 @@ item_ids:
   <ImportStructure src="../structure/cable_smart_annihilation_plane.snbt"></ImportStructure>
 </GameScene>
 
-O Plano de Aniquilação ME Inteligente é um <ItemLink id="ae2:annihilation_plane" /> que pode quebrar blocos ou absorver itens de acordo com seu inventário de configuração.
+O Plano de Aniquilação ME Inteligente é um <ItemLink id="ae2:annihilation_plane" /> que pode quebrar blocos ou absorver itens conforme seu inventário de configuração.
 
 Você não precisa montar uma sub-rede para ele. Ele funciona como um <ItemLink id="ae2:import_bus" />, mas quebra blocos em vez de
-importar itens de um baú.
+importá-los de um baú.

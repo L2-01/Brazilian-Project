@@ -1,29 +1,12 @@
 {
-
-"name": "Meia de Natal",
-    "icon": "merrymaking:stocking",
-    "category": "merrymaking:mantels",
-    "pages": [
-	
-		{
-		
-			"type": "crafting",
-			
-			"recipe": "merrymaking:stocking",
-			"text": "As meias de Natal foram penduradas na Moldura de Lareira com carinho..." 
-			
-		}
-				
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		]
-	
-	
+  "name": "Meia",
+  "icon": "merrymaking:stocking",
+  "category": "merrymaking:mantels",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "merrymaking:stocking",
+      "text": "As meias foram penduradas na Moldura de Lareira com carinho..."
+    }
+  ]
 }

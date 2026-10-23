@@ -1,0 +1,29 @@
+{
+  "name": "Musgo Espanhol",
+  "icon": "enchanted:textures/block/spanish_moss.png",
+  "category": "enchanted:mutated_plants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Uma planta florífera epifítica, semelhante a um musgo ou líquen, encontrada crescendo em árvores em climas tropicais ou subtropicais. O Musgo Espanhol é frequentemente usado na criação de Bonecos.$(br2)Deve ser colhido com tesoura para ser mantido intacto.$(br2)$(bold)Obtenção:$()$(br)Mutado de plantas pequenas."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "enchanted:spanish_moss[south=true]"
+        },
+        "pattern": [
+          [
+            "0"
+          ],
+          [
+            " "
+          ]
+        ]
+      }
+    }
+  ],
+  "read_by_default": true
+}

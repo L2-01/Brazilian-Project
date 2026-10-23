@@ -1,34 +1,34 @@
 {
-	"name": "Pacote de Volume",
-	"category": "packagedauto:core",
-	"icon": "packagedauto:volume_package",
-	"pages": [
-		{
-			"type": "patchouli:text",
-			"text": "Os $(item)Pacotes de Volume/$ podem conter certos materiais a granel como fluidos, e podem ser inseridos ou desempacotados em recipientes correspondentes."
-		},
-		{
-			"type": "patchouli:spotlight",
-			"item": "packagedauto:volume_package",
-			"link_recipe": true,
-			"title": "Criação",
-			"text": "$(item)Pacotes de Volume/$ de materiais específicos podem ser criados em máquinas especiais correspondentes, como nos $(l:core/fluid_package_filler)Enchedores de Pacotes de Fluido/$ para $(item)Pacotes de Volume/$ que contêm fluidos."
-		},
-		{
-			"type": "patchouli:text",
-			"flag": "&mod:jei,!mod:emi",
-			"item": "packagedauto:volume_package",
-			"title": "Integração com JEI",
-			"text": "Você pode pressionar $(thing)$(k:jei.showUses)/$ num $(item)Pacote de Volume/$ para mostrar seu conteúdo."
-		},
-		{
-			"type": "patchouli:text",
-			"flag": "mod:ae2",
-			"item": "packagedauto:volume_package",
-			"title": "Integração com AE2",
-			"text": "Máquinas que fornecem fabricação automática para $(thing)Redes ME/$ podem tratar o conteúdo dos $(thing)Pacotes de Volume/$ como entradas/saídas de fabricação automática e podem criá-los diretamente."
-		}
-	],
-	"read_by_default": true,
-	"sortnum": 3
+    "name": "Pacote de Volume",
+    "category": "packagedauto:core",
+    "icon": "packagedauto:volume_package",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Os $(item)Pacotes de Volume/$ podem conter certos materiais a granel como fluidos e podem ser inseridos ou desempacotados nos recipientes correspondentes."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "packagedauto:volume_package",
+            "link_recipe": true,
+            "title": "Criação",
+            "text": "$(item)Pacotes de Volume/$ de materiais específicos podem ser criados em máquinas especiais correspondentes, como nos $(l:core/fluid_package_filler)Enchedores de Pacotes de Fluido/$ para $(item)Pacotes de Volume/$ que contêm fluidos."
+        },
+        {
+            "type": "patchouli:text",
+            "flag": "&mod:jei,!mod:emi",
+            "item": "packagedauto:volume_package",
+            "title": "Integração com JEI",
+            "text": "Você pode pressionar $(thing)$(k:jei.showUses)/$ num $(item)Pacote de Volume/$ para mostrar seu conteúdo."
+        },
+        {
+            "type": "patchouli:text",
+            "flag": "mod:ae2",
+            "item": "packagedauto:volume_package",
+            "title": "Integração com AE2",
+            "text": "Máquinas que fornecem autofabricação a $(thing)Redes ME/$ podem tratar o conteúdo dos $(thing)Pacotes de Volume/$ como entradas/saídas de autofabricação e podem criá-los diretamente."
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 3
 }

@@ -5,11 +5,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "Esta melhoria pode ser usada para suprimir sons e efeitos de partícula feitos por roteadores de itens, e pode ser útil se um módulo barulhento estiver executando regularmente num lugar onde um jogador costuma estar.$(li)Uma ou mais Melhorias de Silenciador num roteador desativarão todos os efeitos audíveis$(li)Duas ou mais também desativarão todos os efeitos de partícula (feixes e itens voadores)"
+      "text": "Esta melhoria pode ser usada para suprimir sons e efeitos de partícula feitos pelos roteadores, e pode ser útil se um módulo barulhento estiver funcionando regularmente num lugar onde um jogador costuma estar.$(li)Uma ou mais Melhorias de Silenciador num roteador desativarão todos os efeitos audíveis$(li)Duas ou mais também desativarão todos os efeitos de partícula (feixes e itens voando)"
     },
     {
       "type": "text",
-      "text": "$(li)Três melhorias também desativarão a animação ativa do roteador; a textura pulsante na face frontal do bloco do roteador$(p)Note que todos os sons e efeitos de partícula também podem ser desativados na config do mod; esta melhoria só é útil se sons/efeitos não tiverem sido desativados."
+      "text": "$(li)Três melhorias também desativarão a animação ativa do roteador: a textura pulsante na face frontal do bloco do roteador$(p)Note que todos os sons e efeitos de partícula também podem ser desativados na configuração do mod; esta melhoria só é útil se sons/efeitos não tiverem sido desativados."
     },
     {
       "type": "crafting",

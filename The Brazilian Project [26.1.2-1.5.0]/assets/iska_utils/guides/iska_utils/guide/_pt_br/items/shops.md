@@ -9,7 +9,7 @@ item_ids:
   - iska_utils:portable_shop
   - iska_utils:auto_shop
 categories:
-  - Mundo e máquinas
+  - World and machines
 ---
 # Loja, Loja Portátil e Loja Automática
 
@@ -24,14 +24,14 @@ categories:
 
 <ItemImage id="iska_utils:portable_shop" />
 
-- A mesma interface de loja do seu inventário (clique direito) — sem bloco para colocar.
+- A mesma interface de loja a partir do seu inventário (clique direito) — sem bloco para colocar.
 
 ## Loja Automática
 
 <ItemImage id="iska_utils:auto_shop" />
 
-- Automatiza compra e venda para a oferta de loja selecionada (itens, líquidos, gases e energia).
+- Automatiza a compra e a venda para a oferta de loja selecionada (itens, líquidos, gases e energia).
 - Escolha uma oferta do catálogo, selecione o modo de compra ou venda e use a gaveta para itens.
 - Líquidos e gases usam as barras de tanque; energia usa a barra sob o botão de fechar.
-- Os botões manuais de compra/venda funcionam quando a automação está pausada (por exemplo com redstone desligada).
-- Posse da equipe: só a sua equipe pode usar uma Loja Automática colocada; quebre-a para recuperá-la se ficar trancado para fora.
+- Os botões de compra/venda manual funcionam quando a automação está pausada (por exemplo com a redstone desativada).
+- Propriedade da equipe: só a sua equipe pode usar uma Loja Automática colocada; quebre-a para recuperá-la se ficar trancada do lado de fora.

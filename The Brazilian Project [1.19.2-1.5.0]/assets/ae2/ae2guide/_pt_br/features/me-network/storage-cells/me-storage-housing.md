@@ -11,9 +11,9 @@ navigation:
   title: Cápsula de Armazenamento ME
 ---
 
-Um recipiente de armazenamento vazio; você pode inserir nele qualquer um dos vários componentes
-de célula de armazenamento para criar uma célula de armazenamento utilizável, correspondente ao tipo da cápsula
-e ao tamanho do componente.
+Um contêiner de armazenamento vazio: você pode inserir nele qualquer um dos vários
+componentes de célula de armazenamento para criar uma célula de armazenamento utilizável,
+correspondente ao tipo da cápsula e ao tamanho do componente.
 
 <RecipeFor id="item_cell_housing" />
 <RecipeFor id="fluid_cell_housing" />

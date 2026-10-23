@@ -9,30 +9,30 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:reinforced_reactorpowertapfe_passive",
             "link_recipe": true,
-            "title" : "Saída de Energia Forge",
-            "text": "A Saída de Energia Forge permite extrair energia de um Reator com $(l:bigreactors:reactor/passive)resfriamento passivo$(/l).$(br2)Como o nome indica, esta Saída de Energia emite energia usando o $(l:bigreactors:misc/powersystem)sistema de energia$(/l) Forge Energy e, portanto, só pode ser conectada a tubos ou máquinas compatíveis com esse sistema."
+            "title": "Saída de Energia Forge",
+            "text": "A Saída de Energia Forge permite extrair energia de um Reator $(l:bigreactors:reactor/passive)resfriado passivamente$(/l).$(br2)Como o nome indica, esta Saída de Energia emite energia usando o $(l:bigreactors:misc/powersystem)sistema de energia$(/l) Forge Energy e, portanto, só pode ser conectada a tubos ou máquinas compatíveis com esse sistema."
         },
         {
             "type": "patchouli:text",
-            "text": "Apenas um $(l:bigreactors:misc/powersystem)sistema de energia$(/l) pode ser usado por Reator e, portanto, apenas um tipo de Saída de Energia pode ser usado para construir um único Reator.$(br2)A Saída de Energia está disponível nas formas $(l:bigreactors:misc/passiveactiveparts)passiva e ativa$(/l)."
+            "text": "Apenas um $(l:bigreactors:misc/powersystem)sistema de energia$(/l) pode ser usado para cada Reator e, portanto, apenas um tipo de Saída de Energia pode ser usado para construir um único Reator.$(br2)A Saída de Energia está disponível nas formas $(l:bigreactors:misc/passiveactiveparts)passiva e ativa$(/l)."
         },
         {
             "type": "bigreactors:crafting1x",
-            "title1": "Basic (Passive)",
+            "title1": "Básico (Passivo)",
             "recipe1": "bigreactors:reactor/basic/passivetap_fe",
-            "title2": "Reinforced (Passive)",
+            "title2": "Reforçado (Passivo)",
             "recipe2": "bigreactors:reactor/reinforced/passivetap_fe"
         },
         {
             "type": "bigreactors:crafting1x",
-            "title1": "Basic (Active)",
+            "title1": "Básico (Ativo)",
             "recipe1": "bigreactors:reactor/basic/activetap_fe",
-            "title2": "Reinforced (Active)",
+            "title2": "Reforçado (Ativo)",
             "recipe2": "bigreactors:reactor/reinforced/activetap_fe"
         },
         {
             "type": "bigreactors:part_usage",
-            "text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não$(br)$(l)Sistema de energia:$() Forge Energy"
+            "text": "$(l)Obrigatória:$() não$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não$(br)$(l)Sistema de energia:$() Forge Energy"
         }
     ]
 }

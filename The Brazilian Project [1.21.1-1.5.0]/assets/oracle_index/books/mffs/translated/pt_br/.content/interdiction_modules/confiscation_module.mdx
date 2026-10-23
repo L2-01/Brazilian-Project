@@ -1,0 +1,37 @@
+---
+id: mffs:confiscation_module
+type: item
+---
+
+# Módulo de Confisco
+
+O Módulo de Confisco é um módulo opcional para a [](@mffs:interdiction_matrix) que lhe dá a capacidade de
+tomar itens de um jogador automaticamente.
+
+<PrefabObtaining />
+
+## Efeito
+
+Se um jogador estiver na área de ação de uma Matriz de Interdição, ela vasculha o inventário dele e confisca qualquer item
+proibido que encontrar. Isso vale para todos os itens, não importa se estão sendo carregados, vestidos ou guardados no inventário.
+
+## Modo de filtro
+
+A configuração Modo de filtro e os 9 espaços associados ao longo da parte inferior da GUI da Matriz de Interdição são usados para
+configurar o comportamento do módulo. A configuração Modo de filtro tem dois estados: Banido (padrão) e Permitido.
+
+Os itens confiscados são recolhidos para inventários adjacentes à Matriz de Interdição.
+
+### Banido
+
+Quando o botão de alternância mostra 'Banido', a Matriz de Interdição trata os 9 espaços (vermelhos) como uma lista de itens proibidos
+que devem ser confiscados. Apenas esses itens serão confiscados; o jogador pode ficar com quaisquer outros itens que
+tenha. Se todos os 9 espaços de item estiverem vazios, a Matriz presume que todo item deve ser confiscado de um jogador.
+
+### Permitido
+
+Se o botão de alternância mostra 'Permitido', a Matriz trata os 9 espaços (verdes) como uma lista de itens que o jogador pode
+guardar. Qualquer outro item será confiscado. Quando todos os 9 espaços estão vazios, a Matriz de Interdição presume que todos os itens são
+permitidos e não confisca nada.
+
+<PrefabUsage />

@@ -141,7 +141,7 @@
     "relics.description.reflective_necklace.ability.reflection.rank_modifier.piercing": "A esfera não desaparece mais ao atingir o primeiro alvo que encontra e, em vez disso, atravessa até %4$s alvos em seu caminho.",
     "relics.description.reflective_necklace.ability.reflection.rank_modifier.stun": "Ao causar dano a alvos, a esfera também os atordoa por %5$s segundos.",
     "relics.description.reflective_necklace.ability.reflection.rank_modifier.bounce": "A esfera quica até %6$s vezes em superfícies sólidas ou ao se mover a mais de 16 blocos de distância do portador da relíquia.",
-    "relics.description.reflective_necklace.ability.reflection.experience_source.construct": "+1 ponto de experiência para cada 10% da vida máxima do portador da relíquia como dano armazenado em uma esfera gerada.",
+    "relics.description.reflective_necklace.ability.reflection.experience_source.construct": "+1 ponto de experiência para cada 10% obtidos da vida máxima do portador da relíquia como dano armazenado em uma esfera gerada.",
     "relics.description.reflective_necklace.ability.reflection.experience_source.impact": "+1 ponto de experiência para cada ataque bem-sucedido de uma esfera.",
     "relics.description.reflective_necklace.ability.reflection.statistic.total_orbs": "Esferas Criadas",
     "relics.description.reflective_necklace.ability.reflection.statistic.total_damage": "Dano Causado por Esferas",
@@ -151,7 +151,7 @@
     "item.relics.jellyfish_necklace": "Colar de Água-Viva",
     "relics.description.jellyfish_necklace.description": "A relíquia só ganha vida onde há água. Na chuva ou em líquido, ela mantém seu usuário mais firme sobre seus pés e fecha suas feridas. Quando arcos elétricos aparecem em seus tentáculos, é melhor não tocar nela: encoste nela e um deles se separa,  picando todos em seu caminho.",
     "relics.description.jellyfish_necklace.ability.regeneration": "Regeneração Aquática",
-    "relics.description.jellyfish_necklace.ability.regeneration.description": "Aumenta a vida máxima do portador da relíquia em %1$s% e sua regeneração em %2$s%, mas apenas enquanto ele estiver em líquidos ou na chuva.",
+    "relics.description.jellyfish_necklace.ability.regeneration.description": "Aumenta a vida máxima do portador da relíquia em %1$s% ademais a regeneração em %2$s%, bem apenas enquanto ele estiver em líquidos ou na chuva.",
     "relics.description.jellyfish_necklace.ability.regeneration.rank_modifier.retention": "Ao sair da água, o bônus de vida máxima adicional é substituído por corações de absorção, que são consumidos à medida que o dano é recebido.",
     "relics.description.jellyfish_necklace.ability.regeneration.experience_source.health_regeneration": "+1 ponto de experiência para cada unidade de vida restaurada.",
     "relics.description.jellyfish_necklace.ability.regeneration.statistic.health_regenerated": "Vida Restaurada",
@@ -386,7 +386,7 @@
     "item.relics.sphere_of_self_sacrifice": "Esfera de Autossacrifício",
     "relics.description.sphere_of_self_sacrifice.description": "A relíquia toma saúde com tão boa vontade quanto a devolva depois. O usuário abre acesso ao seu próprio sangue e o que foi perdido lentamente é devolvido com juros.",
     "relics.description.sphere_of_self_sacrifice.ability.sacrifice": "Sacrifício",
-    "relics.description.sphere_of_self_sacrifice.ability.sacrifice.description": "Ao ser usado, consome 33% da vida máxima do jogador, restaurando o dobro dessa quantia ao longo dos próximos 10 segundos. Até %1$s efeitos de restauração de vida podem existir simultaneamente. Reusar a habilidade reinicia a duração de todos os efeitos de restauração de vida ativos.",
+    "relics.description.sphere_of_self_sacrifice.ability.sacrifice.description": "Ao ser usado, consome 33% obtidos da vida máxima do jogador, restaurando o dobro dessa quantia ao longo dos próximos 10 segundos. Até %1$s efeitos de restauração de vida podem existir simultaneamente. Reusar a habilidade reinicia a duração de todos os efeitos de restauração de vida ativos.",
     "relics.description.sphere_of_self_sacrifice.ability.sacrifice.rank_modifier.resistance": "Reduz o dano recebido em %2$s%% para cada efeito de restauração de vida ativo.",
     "relics.description.sphere_of_self_sacrifice.ability.sacrifice.rank_modifier.salvo": "Enquanto agachado, clicar com o botão direito anula todos os efeitos de restauração de vida ativos, lançando-os como projéteis de sangue teleguiados no alvo à sua frente. Cada projétil causa dano igual à quantidade restante de vida que seu efeito correspondente ainda tinha a restaurar.",
     "relics.description.sphere_of_self_sacrifice.ability.sacrifice.rank_modifier.salvation": "Se o número de efeitos de restauração de vida não atingiu o máximo e o dano recebido excede o dano causado pela habilidade, o dano é reduzido ao valor de dano da habilidade, e o número atual de efeitos de restauração de vida é aumentado em 1.",
@@ -543,7 +543,7 @@
     "relics.description.ghostly_mantle.ability.spectral_escape.description": "Uma vez a cada %1$s segundos, cancela dano letal, levando o usuário da relíquia em fuga espectral e concendendo imortalidade por %2$s segundos.",
     "relics.description.ghostly_mantle.ability.spectral_escape.rank_modifier.reprisal": "A criatura que deu dano letal receberá %3$s%% mais dano do próximo ataque do usuário da relíquia.",
     "relics.description.ghostly_mantle.ability.spectral_escape.experience_source.spectral_form": "+1 de experiência para cada segundo gasto na forma espectral.",
-    "relics.description.ghostly_mantle.ability.spectral_escape.experience_source.death_prevention": "+5% de epxeriência do máximo do nível atual para cada morte evitada.",
+    "relics.description.ghostly_mantle.ability.spectral_escape.experience_source.death_prevention": "+5% experiência do máximo do nível atual para cada morte evitada.",
     "relics.description.ghostly_mantle.ability.spectral_escape.experience_source.reprisal_damage": "+uma quantia aleatória de experiência dentro do dano extra dado no modo vingativo da forma espectral.",
     "relics.description.ghostly_mantle.ability.spectral_escape.statistic.spectral_form_duration": "Tempo Gasto na Forma Espectral",
     "relics.description.ghostly_mantle.ability.spectral_escape.statistic.prevented_deaths": "Mortes Evitadas",
@@ -553,7 +553,7 @@
     "relics.description.shield_of_retaliation.description": "O escudo demanda não força, mas uma escolha perfeita do momento. Um ataque bloqueado no instante correto morre diante do usuário da relíquia, deixando o inimigo com nada.",
     "relics.description.shield_of_retaliation.ability.retaliation": "Retaliação",
     "relics.description.shield_of_retaliation.ability.retaliation.description": "Segure o botão direito do mouse para abrir uma janela de defesa por %1$s segundos. Dano recebido é bloqueado se sua fonte está diante do jogador; dano sem uma posição de fonte é boqueado independente da direção da vista. Se o escudo bloquear nada durante a janela, o próximo ataque contra o jogador dentro de %3$s segundos dá %2$s% mais dano. Após soltar o botão direito, um bloqueio bem-sucedido, ou a janela fechar, o escudo entra em recarga por %4$s segundos.",
-    "relics.description.shield_of_retaliation.ability.retaliation.rank_modifier.projectile": "Enquanto o escudo está ativo, projéteis que voam em sua direção congelam diante do jogador e seguem seu olhar. Cada projétil pego estende a janela de defesa em %6$s segundos. Quando o botão direito é solto ou a janela acaba, todos os projéteis pegos são disparados de suas posições atuais em direção ao alvo sob a mira, dando %5$s% de dano a mais.",
+    "relics.description.shield_of_retaliation.ability.retaliation.rank_modifier.projectile": "Enquanto o escudo está ativo, projéteis que voam em sua direção congelam diante do jogador e seguem seu olhar. Cada projétil pego estende a janela de defesa em %6$s segundos. Quando o botão direito é solto ou a janela acaba, todos os projéteis pegos são disparados de suas posições atuais em direção ao alvo sob a mira, dando %5$s% mais de dano.",
     "relics.description.shield_of_retaliation.ability.retaliation.rank_modifier.stun": "Ao bloquear dano com sucesso, todos os alvos dentro de %7$s blocos diante do jogador são atordoados por %8$s segundos.",
     "relics.description.shield_of_retaliation.ability.retaliation.rank_modifier.guard": "O escudo bloqueia dano ao longo da janela de defesa inteira, não só o primeiro ataque bem-sucedido.",
     "relics.description.shield_of_retaliation.ability.retaliation.experience_source.block": "+uma quantidade aleatória de experiência até o dano bloqueado",
@@ -602,6 +602,6 @@
 
     "info.relics.researching.wrong_container": "Trabalhar com a relíquia neste inventário não é possível. Mova o item para o inventário principal do jogador e tente novamente.",
 
-    "key.relics.research_relic": "Pesquisar a Relíquia Sob o Cursor",
+    "key.relics.research_relic": "Pesquisar a Relíquia sob o Cursor",
     "key.relics.active_abilities_list": "Ativar o Menu de Habilidades"
 }

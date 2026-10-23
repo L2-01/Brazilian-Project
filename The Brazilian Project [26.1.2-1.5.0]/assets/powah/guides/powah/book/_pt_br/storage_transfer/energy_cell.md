@@ -21,9 +21,9 @@ item_ids:
 
 A Célula de Energia é um bloco usado para armazenar energia (FE). 
 
-Também pode ser usado para adicionar capacidade a um canal da Rede Ender clicando com o Shift pressionado em uma GUI da Célula do Ender, se a Célula de Energia contiver energia, então também será aplicada ao canal da rede final. 
+Também pode ser usada para adicionar capacidade a um canal da Rede Ender ao clicar com Shift nela dentro da GUI de uma Célula do Ender; se a Célula de Energia contiver energia, ela também será aplicada ao canal da rede ender. 
 
-|                                              | Capacidade                                               | I/O Máximo                                            |
+|                                              | Capacidade                                                 | E/S Máx.                                               |
 | -------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------- |
 | <ItemLink id="powah:energy_cell_starter" />  | <powah:EnergyCapacity id="powah:energy_cell_starter" />  | <powah:EnergyMaxIO id="powah:energy_cell_starter" />  |
 | <ItemLink id="powah:energy_cell_basic" />    | <powah:EnergyCapacity id="powah:energy_cell_basic" />    | <powah:EnergyMaxIO id="powah:energy_cell_basic" />    |

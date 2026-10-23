@@ -7,44 +7,44 @@
     {
       "type": "patchouli:text",
       "title": "Melhorias",
-      "text": "O $(2)Controlador$() tem cinco espaços de melhoria. A maioria aceita as melhorias comuns do $(2)Productive Bees$(), mais um espaço para a melhoria de Centrífuga do próprio apiário.$(br2)Basta largar as melhorias nos espaços do Controlador."
+      "text": "O $(2)Controlador$() tem cinco espaços de melhoria. A maioria aceita as melhorias comuns do $(2)Productive Bees$(), mais um espaço para a melhoria de Centrífuga do próprio apiário.$(br2)É só colocar as melhorias nos espaços do Controlador."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "mystianapiary:upgrade_block",
       "title": "Fabricando o Controlador",
-      "text": "$(o)Estas páginas mostram a receita que seu jogo realmente carregou, então um modpack que a reajustou mostra a própria versão aqui. Se uma receita abaixo parecer vazia, seu pack a substituiu por algo que uma grade de fabricação não consegue exibir.$()"
+      "text": "$(o)Estas páginas mostram a receita que o seu jogo realmente carregou, então um modpack que a reajuste exibe aqui a sua própria versão. Se uma receita abaixo parecer vazia, seu pack a substituiu por algo que uma grade de fabricação não consegue exibir.$()"
     },
     {
       "type": "patchouli:text",
       "title": "Velocidade",
-      "text": "A melhoria de $(2)Velocidade$() faz suas abelhas terminarem seus lotes mais rápido.$(br2)Empilhe até $(2)4$() no espaço para um aumento de velocidade maior."
+      "text": "A melhoria de $(2)Velocidade$() faz suas abelhas terminarem as levas mais rápido.$(br2)Empilhe até $(2)4$() no espaço para um aumento de velocidade maior."
     },
     {
       "type": "patchouli:text",
       "title": "Produtividade",
-      "text": "A melhoria de $(2)Produtividade$() faz as abelhas produzirem mais a cada lote. Ela vem em quatro forças: $(2)Alfa, Beta, Gama e Ômega$().$(br2)Empilhe até $(2)4$() no espaço; ela se soma ao $(l:mystianapiary:gene_attributes)gene de Produtividade$() da abelha."
+      "text": "A melhoria de $(2)Produtividade$() faz as abelhas produzirem mais por leva. Vem em quatro intensidades: $(2)Alfa, Beta, Gama e Ômega$().$(br2)Empilhe até $(2)4$() no espaço — e ela se soma ao $(l:mystianapiary:gene_attributes)gene de Produtividade$() da abelha."
     },
     {
       "type": "patchouli:text",
       "title": "Bloco",
-      "text": "A melhoria de $(2)Bloco$() faz as abelhas entregarem $(2)blocos de favo$() em vez de favos de mel soltos, o que é bem mais arrumado de armazenar e carregar."
+      "text": "A melhoria de $(2)Bloco$() faz as abelhas entregarem $(2)blocos de favo$() em vez de favos soltos — muito mais prático para guardar e transportar."
     },
     {
       "type": "patchouli:text",
-      "title": "Amostrador de Genes",
-      "text": "O $(2)amostrador de genes cutuca-cutuca$() de tempos em tempos extrai um $(2)gene$() de uma abelha trabalhadora e o larga no Armazenamento.$(br2)Adicione mais de um para uma chance melhor."
+      "title": "Amostrador Genético",
+      "text": "O $(2)amostrador genético Cutuca-Cutuca$() de tempos em tempos extrai um $(2)gene$() de uma abelha trabalhando e o deposita no Armazenamento.$(br2)Adicione mais de um para uma chance maior."
     },
     {
       "type": "patchouli:spotlight",
       "item": "mystianapiary:upgrade_centrifuge",
       "title": "Centrífuga",
       "anchor": "centrifuge",
-      "text": "A melhoria de $(2)Centrífuga$() passa automaticamente cada favo pela receita de centrífuga, então você coleta os produtos finais (itens e fluidos) em vez de favos crus.$(br2)Favos que não têm receita de centrífuga passam direto, inalterados."
+      "text": "A melhoria de $(2)Centrífuga$() passa automaticamente cada favo pela sua receita de centrifugação, então você coleta os produtos prontos (itens e fluidos) em vez de favos crus.$(br2)Favos sem receita de centrífuga passam direto, inalterados."
     },
     {
       "type": "patchouli:text",
-      "title": "Níveis de Centrífuga",
+      "title": "Níveis da Centrífuga",
       "text": "A melhoria de Centrífuga vem em $(2)quatro níveis$() que multiplicam sua saída:$(br2)$(li)Base: 1x$(li)Nível 1: 2x$(li)Nível 2: 4x$(li)Nível 3: 8x$(br2)Favos que passam sem receita $(4)nunca$() são multiplicados. As quantidades podem ser alteradas na configuração."
     },
     {
@@ -57,7 +57,7 @@
       "type": "patchouli:crafting",
       "recipe": "mystianapiary:upgrade_centrifuge_t2",
       "recipe2": "mystianapiary:upgrade_centrifuge_t3",
-      "title": "Níveis 2 e 3 da Centrífuga"
+      "title": "Centrífuga Níveis 2 e 3"
     }
   ]
 }

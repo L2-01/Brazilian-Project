@@ -5,13 +5,13 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "$(#822)PackagedAuto/$ usa $(thing)pacotes/$ de itens para facilitar certas tarefas de fabricação.$(p)Para começar, você vai precisar codificar $(l:core/recipe_holder)Suportes de Receita de Pacotes/$ com um $(l:core/encoder)Codificador de Receitas de Pacotes/$.$(br)Você pode então usar os suportes codificados para dizer aos $(l:core/packager)Empacotadores/$ quais $(l:core/package)Pacotes de Receita/$ eles podem fazer, e esses pacotes podem ser desempacotados no $(l:core/unpackager)Desempacotador/$."
+			"text": "O $(#822)PackagedAuto/$ usa $(thing)pacotes/$ de itens para facilitar certas tarefas de fabricação.$(p)Para começar, você precisará codificar $(l:core/recipe_holder)Suportes de Receita de Pacotes/$ com um $(l:core/encoder)Codificador de Receitas de Pacotes/$.$(br)Você pode então usar os suportes codificados para dizer aos $(l:core/packager)Empacotadores/$ quais $(l:core/package)Pacotes de Receita/$ eles podem fazer, e esses pacotes podem ser desempacotados no $(l:core/unpackager)Desempacotador/$."
 		},
 		{
 			"type": "patchouli:text",
 			"flag": "mod:ae2",
 			"title": "Integração com AE2",
-			"text": "Grande parte do $(#822)PackagedAuto/$ foi projetada pensando em integração com AE2; confira as entradas das máquinas para ver que funcionalidade é adicionada quando conectadas a $(thing)Redes ME/$."
+			"text": "Grande parte do $(#822)PackagedAuto/$ foi projetada com a integração ao AE2 em mente; verifique as entradas das máquinas para ver quais funcionalidades são adicionadas quando conectadas a $(thing)Redes ME/$."
 		}
 	],
 	"read_by_default": true,

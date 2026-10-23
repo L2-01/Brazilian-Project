@@ -3,10 +3,12 @@
     "icon": "allthemodium:unobtainium_block",
     "category": "allthemodium:links",
     "sortnum": 1,
-    "pages": [{
-        "type": "link",
-        "url": "https://github.com/AllTheMods",
-        "link_text": "Github Link",
-        "text": "No Github você pode ver os problemas atuais e as atualizações do pacote de mods."
-    }]
+    "pages": [
+        {
+            "type": "link",
+            "url": "https://github.com/AllTheMods",
+            "link_text": "Link do Github",
+            "text": "No Github você pode ver os problemas atuais e as atualizações do modpack."
+        }
+    ]
 }

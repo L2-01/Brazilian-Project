@@ -1,0 +1,20 @@
+{
+    "name": "Sorte",
+    "icon": "minecraft:textures/mob_effect/luck.png",
+    "category": "apotheosis:potion/recipes",
+    "flag": "apotheosis:potion",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(6)Sorte$() é um efeito bem peculiar.$(p)Ter mais sorte significa poder receber espólios melhores de certas fontes.$(p)Infelizmente, não há como saber quais fontes de espólio são afetadas pela $(6)Sorte$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Receita de Preparo",
+            "item": "apotheosis:lucky_foot",
+            "link_recipe": true,
+            "text": "Esta poção pode ser fabricada com uma Poção Esquisita e um Pé de Coelho da Sorte.$(p)O Pé de Coelho da Sorte é largado raramente por coelhos."
+        }
+    ]
+}

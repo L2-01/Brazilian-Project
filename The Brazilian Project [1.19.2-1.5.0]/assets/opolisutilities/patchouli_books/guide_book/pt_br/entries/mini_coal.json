@@ -1,0 +1,17 @@
+{
+	"name": "Mini Carvão",
+	"icon": "opolisutilities:textures/item/mini_coal.png",
+	"category": "opolisutilities:basic_items",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "text",
+			"text": "O mini carvão pode ser usado para fundir um item numa fornalha."
+		},
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:mini_coal",
+			"text": "Usado para fundir um item."
+		}
+	]
+}

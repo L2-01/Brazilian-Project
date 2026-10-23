@@ -1,5 +1,5 @@
 {
-    "name": "Perfuração de Proteção",
+    "name": "Penetração de Proteção",
     "icon": "apothic_attributes:textures/mob_effect/sundering.png",
     "category": "apotheosis:adventure/attributes",
     "flag": "apotheosis:adventure",
@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "A $(9)Perfuração de Proteção$() permite ignorar uma quantidade fixa dos pontos de proteção do seu alvo ao atacar.$(p)Perfuração de Proteção extra não deixa a proteção do seu alvo negativa."
+            "text": "A $(9)Penetração de Proteção$() permite ignorar uma quantidade fixa dos pontos de proteção do alvo ao atacar.$(p)Penetração de Proteção extra não deixa a proteção do alvo negativa."
         }
     ]
 }

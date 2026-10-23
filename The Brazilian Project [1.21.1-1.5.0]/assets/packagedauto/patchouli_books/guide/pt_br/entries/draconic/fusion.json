@@ -5,25 +5,25 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "$(thing)Fabricação por Fusão/$ é um tipo de receita de fabricação que usa a $(item)Fabricadora de Pacotes por Fusão/$ para fabricar receitas fabricáveis num $(item)Núcleo de Fusão/$."
+			"text": "A $(thing)Fabricação por Fusão/$ é um tipo de receita de fabricação que usa a $(item)Fabricadora de Pacotes por Fusão/$ para fabricar receitas fabricáveis num $(item)Núcleo de Fusão/$."
 		},
 		{
 			"type": "packagedauto:spotlight2",
 			"item1": "packageddraconic:fusion_crafter",
 			"item2": "packageddraconic:marked_draconium_injector,packageddraconic:marked_wyvern_injector,packageddraconic:marked_draconic_injector,packageddraconic:marked_chaotic_injector",
 			"title": "Uso",
-			"text": "Para usar a $(item)Fabricadora de Pacotes por Fusão/$, coloque $(item)Injetores de Fabricação por Fusão Marcados/$ de tier suficiente em quantidade necessária a pelo menos 3 blocos de distância, virados para a fabricadora, sem obstruções e conectados à energia.$(p)A $(item)Fabricadora de Pacotes por Fusão/$ em si também requer energia."
+			"text": "Para usar a $(item)Fabricadora de Pacotes por Fusão/$, coloque $(item)Injetores Marcados/$ de nível suficiente e em quantidade adequada a pelo menos 3 blocos de distância, de frente para a fabricadora, desobstruídos e conectados à energia.$(p)A $(item)Fabricadora de Pacotes por Fusão/$ em si também requer energia."
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Uso (cont.)",
-			"text": "Você pode usar $(thing)$(k:sneak) + $(k:use)/$ com a mão vazia numa $(item)Fabricadora de Pacotes por Fusão/$ ociosa para conferir a quantidade e o tier de $(item)Injetores de Fabricação por Fusão Marcados/$ atualmente utilizáveis e necessários.$(p)Itens fabricados pela $(item)Fabricadora de Pacotes por Fusão/$ serão ejetados em inventários adjacentes."
+			"text": "Você pode $(thing)$(k:sneak) + $(k:use)/$ com a mão vazia num $(item)Altar de Fabricação de Pacotes por Fusão/$ ocioso para verificar a quantidade e o nível de $(item)Injetores Marcados/$ atualmente utilizáveis e exigidos.$(p)Os itens fabricados pela $(item)Fabricadora de Pacotes por Fusão/$ serão ejetados em inventários adjacentes."
 		},
 		{
 			"type": "patchouli:text",
 			"flag": "mod:ae2",
 			"title": "Integração com AE2",
-			"text": "A $(item)Fabricadora de Pacotes por Fusão/$ e os $(item)Injetores de Fabricação por Fusão Marcados/$ podem ser conectados a uma $(thing)Rede ME/$.$(p)A fabricadora extrairá energia para uso, e tanto a fabricadora quanto os injetores ejetarão os itens fabricados e restantes na rede."
+			"text": "A $(item)Fabricadora de Pacotes por Fusão/$ e os $(item)Injetores Marcados/$ podem ser conectados a uma $(thing)Rede ME/$.$(p)A fabricadora extrairá energia para usar, e tanto a fabricadora quanto os injetores ejetarão os itens fabricados e restantes diretamente na rede."
 		},
 		{
 			"type": "patchouli:crafting",

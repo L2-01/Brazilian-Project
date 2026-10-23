@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(item)Fogos de artifício$() são lindos de se ver, embora seja um pouco caro criar os que ficam realmente bonitos. O $(item)Olhar de Fogos de Artifício$() aparentemente compartilha dessa opinião: consumindo quaisquer fogos de artifício $(thing)jogados$() no chão ao seu redor, ele os lançará ao ar. Quando explodem, sua energia explosiva e colorida é absorvida e, com base na complexidade do fogo de artifício,"
+            "text": "Os $(item)Fogos de Artifício$() são lindos de se ver, embora seja um pouco caro criar os que ficam realmente bons. O $(item)Olhar de Fogos de Artifício$() parece compartilhar especialmente dessa opinião: consumindo quaisquer fogos que sejam $(thing)soltos$() no chão ao seu redor, ele os lançará ao ar. Quando explodem, sua energia explosiva e colorida é absorvida e, com base na complexidade do fogo de artifício,"
         },
         {
             "type": "text",
@@ -14,7 +14,7 @@
         },
         {
             "type": "text",
-            "text": "Além disso, vale notar que, enquanto um fogo de artifício já está sendo lançado ao ar pelo $(item)Olhar de Fogos de Artifício$(), ou enquanto ele está consumindo a energia de uma explosão, jogar mais fogos na sua área de coleta fará com que eles sejam consumidos, mas nenhuma $(aura) será criada a partir deles. Isso implica que seria sábio configurar algum tipo de $(thing)temporizador$() para sua automação."
+            "text": "Além disso, deve-se notar que, enquanto um fogo de artifício já estiver sendo lançado ao ar pelo $(item)Olhar de Fogos de Artifício$(), ou enquanto ele estiver consumindo a energia de uma explosão, soltar mais fogos na sua área de coleta fará com que os fogos sejam consumidos, mas nenhuma $(aura) será criada a partir deles. Isso implica que seria sensato configurar algum tipo de $(thing)temporizador$() para sua automação."
         },
         {
             "type": "crafting",

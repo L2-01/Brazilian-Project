@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "Tendo conhecimento dos poderes das $(l:items/infused_iron_tools)ferramentas de Ferro Infundido$(), poderia se desejar que uma dessas habilidades fosse aplicada a outras ferramentas, especificamente o $(thing)reparo$() auxiliado por Aura. O encantamento $(item)Remendo da Natureza$() dá a qualquer ferramenta ou peça de armadura a capacidade de ser reparada, desde que o usuário carregue um $(l:items/aura_cache)Cache de Aura$() ou dispositivo de armazenamento similar."
+            "text": "Tendo adquirido conhecimento dos poderes das $(l:items/infused_iron_tools)ferramentas de Ferro Infundido$(), poder-se-ia desejar que uma dessas habilidades fosse aplicada a outras ferramentas, especificamente seu $(thing)reparo$() auxiliado por Aura. O encantamento $(item)Remendo da Natureza$() dá a qualquer ferramenta ou peça de armadura a capacidade de ser reparada, desde que o usuário carregue um $(l:items/aura_cache)Cache de Aura$() ou dispositivo de armazenamento similar."
         },
         {
             "type": "text",
-            "text": "Para que as ferramentas sejam reparadas, o requisito adicional de $(thing)agachar$() enquanto segura o item também deve ser cumprido.$(p)Vale notar que, embora não seja excessivamente raro, este encantamento tem uma chance de aparecer semelhante à, digamos, do encantamento $(item)Saque$()."
+            "text": "Para que ferramentas sejam reparadas, o requisito adicional de estar $(thing)agachado$() segurando o item também precisa ser atendido.$(p)Deve-se notar que, embora não seja excessivamente raro, este encantamento tem uma chance de aparecer semelhante à do encantamento de $(item)Pilhagem$(), digamos."
         }
     ]
 }

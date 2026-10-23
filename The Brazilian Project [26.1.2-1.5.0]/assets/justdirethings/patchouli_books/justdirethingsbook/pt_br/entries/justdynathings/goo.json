@@ -1,39 +1,39 @@
 {
-  "name": "Novas Gosmas e Mais",
-  "sortnum": 3,
-  "category": "justdirethings:justdynathings",
-  "icon": "justdynathings:creative_goo",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Novos níveis de Gosma e Gosma movida a FE"
-    },
-    {
-      "type": "patchouli:crafting",
-      "title": "Gosma Energizada",
-      "recipe": "justdynathings:energized_goo",
-      "text": "Uma nova gosma que requer $(bold)Forge Energy$() para se manter viva$(br)Nível : $(bold)5$()"
-    },
-    {
-      "type": "patchouli:crafting",
-      "title": "Gosma Criativa",
-      "recipe": "justdynathings:creative_goo",
-      "text": "Uma gosma simples que não pode morrer$(br)Pode ser alternada usando qualquer chave$(br)Nível : $(bold)MAX$()"
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Gosma Antiga Carregada",
-      "text": "Além disso, toda Gosma antiga de Nível 1-4 pode ser convertida para a 'forma Carregada', feita principalmente para criadores de conteúdo"
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "justdynathings:charged_primogel_goo",
-      "recipe2": "justdynathings:charged_blazebloom_goo"
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "justdynathings:charged_voidshimmer_goo",
-      "recipe2": "justdynathings:charged_shadowpulse_goo"
-    }
-  ]
+    "name": "Novas Gosmas e Mais",
+    "sortnum": 3,
+    "category": "justdirethings:justdynathings",
+    "icon": "justdynathings:creative_goo",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Novos níveis de Gosma e Gosma movida a FE"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Gosma Energizada",
+            "recipe": "justdynathings:energized_goo",
+            "text": "Uma nova gosma que exige $(bold)Forge Energy$() para se manter viva$(br)Nível : $(bold)5$()"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Gosma Criativa",
+            "recipe": "justdynathings:creative_goo",
+            "text": "Uma gosma simples que não pode morrer$(br)Pode ser alternada usando qualquer chave$(br)Nível : $(bold)MAX$()"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Gosma Antiga Carregada",
+            "text": "Além disso, toda Gosma antiga de nível 1–4 pode ser convertida para a 'forma Carregada', feita principalmente para criadores de conteúdo"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "justdynathings:charged_primogel_goo",
+            "recipe2": "justdynathings:charged_blazebloom_goo"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "justdynathings:charged_voidshimmer_goo",
+            "recipe2": "justdynathings:charged_shadowpulse_goo"
+        }
+    ]
 }

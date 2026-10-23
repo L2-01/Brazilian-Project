@@ -14,7 +14,7 @@ item_ids:
 
 <BlockImage id="crystal_resonance_generator" scale="8" />
 
-Este dispositivo gera energia para sua rede ME sem precisar de combustível. Por causa das vibrações de cristal que este dispositivo gera, apenas um pode ser usado em cada rede. Essas vibrações passam até mesmo por <ItemLink id="quartz_fiber" />.
+Este dispositivo gera energia para sua rede ME sem precisar de combustível. Por causa das vibrações cristalinas que este dispositivo gera, apenas um pode ser usado em cada rede. Essas vibrações passam até pela <ItemLink id="quartz_fiber" />.
 
 **Taxa de Geração:** <ae2:ConfigValue name="crystalResonanceGeneratorRate"/> AE/t
 

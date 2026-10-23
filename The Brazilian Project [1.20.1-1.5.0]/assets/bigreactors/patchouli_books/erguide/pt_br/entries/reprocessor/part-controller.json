@@ -9,18 +9,18 @@
             "type": "spotlight",
             "item": "bigreactors:reprocessorcontroller",
             "link_recipe": true,
-            "title" : "Controlador",
-            "text": "O Controlador é sua interface principal com o Reprocessador.$(br2)Clique com o botão direito no Controlador para abrir sua interface gráfica. De lá, você pode ligar ou desligar o Reprocessador, verificar as quantidades de fluidos e energia presentes na máquina e acompanhar o status do trabalho de reprocessamento atual."
+            "title": "Controlador",
+            "text": "O Controlador é sua interface principal com o Reprocessador.$(br2) Clique com o botão direito no Controlador para abrir sua interface gráfica. A partir dela, você pode ligar ou desligar o Reprocessador, verificar as quantidades de fluidos e energia na máquina e monitorar o status do trabalho de reprocessamento atual."
         },
         {
             "type": "crafting-text",
-            "text": "Se você passar o mouse sobre um controle na interface, uma dica será exibida, fornecendo informações adicionais ou um texto explicativo para aquele controle.$(br2)",
+            "text": "Se você passar o cursor sobre um controle na interface, um tooltip aparecerá com informações adicionais ou texto explicativo sobre ele.$(br2)",
             "title": "Controlador",
             "recipe": "bigreactors:reprocessor/controller"
         },
         {
             "type": "part_usage",
-            "text": "$(l)Obrigatório:$() pelo menos um é necessário$(br)$(l)Posições válidas:$() qualquer face vertical (não na moldura)$(br)$(l)Interface gráfica:$() sim"
+            "text": "$(l)Obrigatória:$() pelo menos uma é exigida$(br)$(l)Posições válidas:$() qualquer face vertical (não na moldura)$(br)$(l)Interface gráfica:$() sim"
         }
     ]
 }

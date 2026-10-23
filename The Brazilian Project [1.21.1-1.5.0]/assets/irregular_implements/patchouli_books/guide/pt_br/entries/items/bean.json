@@ -1,14 +1,14 @@
 {
-  "category": "irregular_implements:items",
-  "icon": "irregular_implements:bean",
-  "name": "Feijão",
-  "pages": [
-    {
-      "type": "patchouli:spotlight",
-      "item": "irregular_implements:bean",
-      "link_recipe": true,
-      "text": "Um simples $(d)Feijão$() que pode ser usado em certas receitas.$(br2)Você pode encontrar feijões crescendo pelo mundo, em qualquer bioma da Superfície que não seja quente, frio, seco ou escasso.$(br2)Plante mais usando-os em qualquer bloco de terra!",
-      "title": "Feijão"
-    }
-  ]
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:bean",
+    "name": "Feijão",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "irregular_implements:bean",
+            "link_recipe": true,
+            "text": "Um simples $(d)Feijão$() que pode ser usado em certas receitas.$(br2)Você pode encontrar Feijões crescendo pelo mundo, em qualquer bioma da Superfície que não seja quente, frio, seco nem escasso.$(br2)Plante mais usando-os em qualquer bloco de terra!",
+            "title": "Feijão"
+        }
+    ]
 }

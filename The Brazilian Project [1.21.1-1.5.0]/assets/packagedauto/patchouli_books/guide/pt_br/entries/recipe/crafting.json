@@ -5,7 +5,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "$(thing)Fabricação/$ é um tipo de receita de fabricação que usa a $(item)Fabricadora de Pacotes/$ para fabricar receitas fabricáveis numa bancada de trabalho.$(p)Itens fabricados pela $(item)Fabricadora de Pacotes/$ serão ejetados para inventários adjacentes.$(p)A $(item)Fabricadora de Pacotes/$ requer energia."
+			"text": "$(thing)Fabricação/$ é um tipo de receita de fabricação que usa a $(item)Fabricadora de Pacotes/$ para fabricar receitas possíveis numa bancada de trabalho.$(p)Itens fabricados pela $(item)Fabricadora de Pacotes/$ serão ejetados para inventários adjacentes.$(p)A $(item)Fabricadora de Pacotes/$ requer energia."
 		},
 		{
 			"type": "patchouli:spotlight",
@@ -13,7 +13,7 @@
 			"item": "packagedauto:crafter",
 			"link_recipe": true,
 			"title": "Integração com AE2",
-			"text": "A $(item)Fabricadora de Pacotes/$ pode ser conectada a uma $(thing)Rede ME/$.$(p)Ela vai extrair energia para usar e, em vez disso, ejetar os itens fabricados na rede."
+			"text": "A $(item)Fabricadora de Pacotes/$ pode ser conectada a uma $(thing)Rede ME/$.$(p)Ela extrairá energia para usar e, em vez disso, ejetará os itens fabricados para a rede."
 		},
 		{
 			"type": "patchouli:crafting",

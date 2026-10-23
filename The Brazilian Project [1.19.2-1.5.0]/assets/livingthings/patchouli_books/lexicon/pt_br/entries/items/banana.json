@@ -1,0 +1,16 @@
+{
+  "name": "Banana",
+  "icon": "livingthings:banana",
+  "category": "livingthings:item_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(br)$(bold)Obtenção:$()$(br)pode ser obtida quebrando folhas da selva"
+    },
+    {
+      "type": "spotlight",
+      "item": "livingthings:banana",
+      "text": "$(br)$(bold)Uso:$()$(li)pode ser comida"
+    }
+  ]
+}

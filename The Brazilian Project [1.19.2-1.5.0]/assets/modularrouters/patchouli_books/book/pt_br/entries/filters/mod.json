@@ -1,0 +1,19 @@
+{
+  "name": "Filtro de Mod",
+  "category": "modularrouters:filters",
+  "icon": "modularrouters:mod_filter",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este filtro permite corresponder itens pelo mod ao qual pertencem. Até 6 mods podem ser adicionados por filtro instalado.$(li)$(thing)Clique com o botão direito/$ no filtro para abrir sua GUI (ou $(thing)clique com o botão do meio/$ / pressione $(bold)$(4)[$(k:modularrouters.configure)]/$ num filtro instalado num módulo)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Solte qualquer item no espaço de item no canto superior esquerdo da GUI. O nome do mod do item será exibido à direita. Clique no botão $(bold)$(2)+/$ para adicioná-lo à lista de mods abaixo.$(li)Clique no botão vermelho $(bold)$(4)X/$ ao lado de uma entrada para remover aquele mod da lista.$(p)Itens vanilla também podem ser adicionados, e seu \"mod\" será mostrado como $(italic)Minecraft/$."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:mod_filter"
+    }
+  ]
+}

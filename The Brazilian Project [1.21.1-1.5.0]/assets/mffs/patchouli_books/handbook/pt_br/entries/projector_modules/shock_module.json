@@ -1,18 +1,18 @@
 {
-    "name": "Módulo de Choque",
-    "icon": "mffs:shock_module",
-    "category": "mffs:projector_modules",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:shock_module",
-            "link_recipe": true,
-            "text": "Colocar um $(5)Módulo de Choque$() num $(l:mffs:machines/projector)Projetor de Campo de Força$() faz o campo de força ficar eletrificado. Quando um jogador ou entidade entra em contato com um campo eletrificado, recebe um choque que causa dano. Cada $(5)Módulo de Choque$() adicionado ao Projetor aumenta o dano causado a um jogador ou entidade em meio coração."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:shock_module",
-            "text": "Fabricando o $(5)Módulo de Choque$()."
-        }
-    ]
+  "name": "Módulo de Choque",
+  "icon": "mffs:shock_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:shock_module",
+      "link_recipe": true,
+      "text": "Colocar um $(5)Módulo de Choque$() num $(l:mffs:machines/projector)Projetor de Campo de Força$() torna o campo de força eletrificado. Quando um jogador ou entidade entra em contato com um campo eletrificado, recebe um choque que causa dano. Cada $(5)Módulo de Choque$() adicionado ao Projetor aumenta o dano causado a um jogador ou entidade em meio coração."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:shock_module",
+      "text": "Fabricando o $(5)Módulo de Choque$()."
+    }
+  ]
 }

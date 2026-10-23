@@ -1,32 +1,32 @@
 {
-    "name": "Módulo de Camuflagem",
-    "icon": "mffs:camouflage_module",
-    "category": "mffs:projector_modules",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:camouflage_module",
-            "link_recipe": true,
-            "text": "O $(5)Módulo de Camuflagem$() pode ser usado num $(l:mffs:machines/projector)Projetor de Campo de Força$() para alterar a aparência do próprio campo de força. Com um $(5)Módulo de Camuflagem$() instalado, campos de força podem ser disfarçados de blocos comuns. Por exemplo, um campo de força pode ser mascarado como uma parede de Pedra. O $(5)Módulo de Camuflagem$() pode ser usado em combinação com todos os Modos do Projetor."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:camouflage_module",
-            "text": "Fabricando o $(5)Módulo de Camuflagem$()."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Uso",
-            "text": "Este recurso do Projetor pode ajudar jogadores a esconder coisas de outras pessoas ou camuflar a entrada de uma base secreta. Selecione um bloco que deseja usar como camuflagem e coloque-o em outro espaço vazio da matriz de itens do lado esquerdo do Projetor (a mesma matriz do $(5)Módulo de Camuflagem$()). Ative o Projetor da forma usual."
-        },
-        {
-            "type": "patchouli:image",
-            "images": [
-                "mffs:textures/gui/handbook/pyramid_camo.png"
-            ],
-            "border": true,
-            "title": "Projeção",
-            "text": "Um campo de força Pirâmide camuflado como Madeira de Carvalho Descascada."
-        }
-    ]
+  "name": "Módulo de Camuflagem",
+  "icon": "mffs:camouflage_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:camouflage_module",
+      "link_recipe": true,
+      "text": "O $(5)Módulo de Camuflagem$() pode ser usado num $(l:mffs:machines/projector)Projetor de Campo de Força$() para alterar a aparência do próprio campo de força. Com um $(5)Módulo de Camuflagem$() instalado, campos de força podem ser disfarçados de blocos comuns. Por exemplo, um campo de força pode ser mascarado como uma parede de Pedra. O $(5)Módulo de Camuflagem$() pode ser usado em combinação com todos os Modos de Projetor."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:camouflage_module",
+      "text": "Fabricando o $(5)Módulo de Camuflagem$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "Esse recurso do Projetor pode ajudar os jogadores a esconder coisas de outras pessoas ou camuflar a entrada de uma base secreta. Selecione um bloco que deseja usar como camuflagem e coloque-o em outro slot vazio da matriz de itens do lado esquerdo do Projetor (a mesma matriz do $(5)Módulo de Camuflagem$()). Ative o Projetor da forma usual."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/pyramid_camo.png"
+      ],
+      "border": true,
+      "title": "Projeção",
+      "text": "Um campo de força de Pirâmide camuflado como Madeira de Carvalho Descortiçada."
+    }
+  ]
 }

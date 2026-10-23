@@ -15,5 +15,5 @@ item_ids:
 <ItemImage id="extendedae:entro_shard" scale="4"></ItemImage>
 </Row>
 
-Você obterá um Fragmento de Entro se quebrar um [Fluix Entroizado Brotante](./entro_budding.md) antes que ele esteja totalmente crescida. Oito Fragmentos de Entro podem ser fabricados de volta em um
+Você obtém um Fragmento de Entro ao quebrar um [Cristal de Entro](./entro_budding.md) que não está totalmente crescido. Oito Fragmentos de Entro podem ser fabricados de volta em um
 <ItemLink id="extendedae:entro_crystal" />.

@@ -7,11 +7,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "O $(item)Compressor Elétrico/$ pode gerar ar comprimido a partir de $(thing)EU do IndustrialCraft 2/$. Por padrão ele tem eficiência de 40%, mas isso pode ser $(ttcolor)$(t:Veja 'I:electricCompressorEfficiency')alterado na configuração/$.$(p)Ele se comporta como uma máquina IC2 de nível 1, então explodirá se receber >32 EU/t. Porém, você pode adicionar $(item)Melhorias de Transformador/$ do IC2 para permitir voltagens maiores, como nas máquinas IC2 normais."
+      "text": "O $(item)Compressor Elétrico/$ pode gerar ar comprimido a partir de EU do $(thing)IndustrialCraft 2/$. Por padrão ele tem eficiência de 40%, bem passível de alteração $(ttcolor)$(t:Veja 'I:electricCompressorEfficiency')alterado na configuração/$.$(p)Ele se comporta como uma máquina IC2 de nível 1, então explodirá se receber >32 EU/t. Porém, você pode adicionar $(item)Melhorias de Transformador/$ do IC2 para permitir voltagens maiores, como nas máquinas IC2 normais."
     },
     {
       "type": "text",
-      "text": "A produção de energia em mL/tique é:$(p)  $(formula)taxa de entrada / E * 400/$$(p)onde $(formula)E/$ é a eficiência.$(p)Por exemplo, com a eficiência padrão de 40% e uma entrada de 32EU/tique, a produção de ar comprimido equivale a $(formula)32 / 40 * 400 = 320mL/tique./$"
+      "text": "A produção de energia em mL/tick é:$(p)  $(formula)input rate / E * 400/$(p)onde $(formula)E/$ é a eficiência.$(p)Por exemplo, com a eficiência padrão de 40% assim como uma entrada de 32EU/tick, a produção de ar comprimido é igual a $(formula)32 / 40 * 400 = 320mL/tick./$"
     },
     {
       "type": "text",

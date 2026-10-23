@@ -8,44 +8,44 @@
     {
       "type": "spotlight",
       "item": "industrialforegoing:conveyor_extraction_upgrade",
-      "title": "Extração",
+      "title": "Melhoria de Extração",
       "text": "Extrai itens e fluidos de inventários. Pode extrair itens de inventários de jogadores também. $(br2)Itens e fluidos que precisam ser extraídos podem ser filtrados na GUI."
     },
     {
       "type": "spotlight",
       "item": "industrialforegoing:conveyor_insertion_upgrade",
-      "title": "Inserção",
+      "title": "Melhoria de Inserção",
       "text": "Insere itens e fluidos em inventários. Tem 2 modos: inserir itens que tocam a esteira ou inserir itens que tocam diretamente a melhoria. $(br2)Itens e fluidos que precisam ser inseridos podem ser filtrados na GUI."
     },
     {
       "type": "spotlight",
       "item": "industrialforegoing:conveyor_detection_upgrade",
-      "title": "Detecção",
+      "title": "Melhoria de Detecção",
       "text": "Detecta itens e entidades que estão em cima da esteira. $(br2)Itens e entidades que precisam ser detectados podem ser filtrados na GUI. Entidades podem ser filtradas usando uma FAC com a entidade dentro."
     },
     {
       "type": "spotlight",
       "item": "industrialforegoing:conveyor_bouncing_upgrade",
-      "title": "Salto",
+      "title": "Melhoria de Salto",
       "text": "Lança itens e entidades que estão em cima da esteira. A força vertical e horizontal pode ser alterada na GUI.$(br2)Itens e entidades que precisam ser lançados podem ser filtrados na GUI. Entidades podem ser filtradas usando uma FAC com a entidade dentro."
     },
     {
       "type": "spotlight",
       "item": "industrialforegoing:conveyor_dropping_upgrade",
-      "title": "Queda",
-      "text": "Derruba itens e entidades que estão em cima da esteira diretamente abaixo dela. $(br2)Itens e entidades que precisam ser derrubados podem ser filtrados na GUI. Entidades podem ser filtradas usando uma FAC com a entidade dentro."
+      "title": "Melhoria de Queda",
+      "text": "Deixa cair itens e entidades que estão em cima da esteira diretamente abaixo dela. $(br2)Itens e entidades que precisam ser derrubados podem ser filtrados na GUI. Entidades podem ser filtradas usando uma FAC com a entidade dentro."
     },
     {
       "type": "spotlight",
       "item": "industrialforegoing:conveyor_blinking_upgrade",
-      "title": "Teleporte",
+      "title": "Melhoria de Teleporte",
       "text": "Teleporta itens e entidades que estão em cima da esteira. A distância vertical e horizontal pode ser alterada na GUI.$(br2)Itens e entidades que precisam ser teleportados podem ser filtrados na GUI. Entidades podem ser filtradas usando uma FAC com a entidade dentro."
     },
     {
       "type": "spotlight",
       "item": "industrialforegoing:conveyor_splitting_upgrade",
       "title": "Divisão",
-      "text": "Divide itens e entidades que estão em cima da esteira com a proporção definida na GUI. Precisa de melhorias em todos os lados que devem receber distribuição."
+      "text": "Divide itens e entidades que estão em cima da esteira com a proporção definida na GUI. Precisa de melhorias em todos os lados para onde será feita a distribuição."
     }
   ]
 }

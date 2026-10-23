@@ -10,9 +10,9 @@ navigation:
 
 ## Sobre
 
-Às vezes, os níveis de deposição mineral são altos o suficiente para criar grandes porções de minério bruto presas a superfícies sólidas. As
-condições para isso ocorrer são muito mais restritas, e o perfil de localização das porções minerais pode ser até
-totalmente incompatível.
+Às vezes, os níveis de deposição mineral são altos o bastante para criar grandes pedaços de minério bruto grudados em
+superfícies sólidas. As condições para isso acontecer são bem mais restritas, e o perfil de localização dos pedaços de
+minério pode até ser completamente desencontrado.
 
 ## Geração Natural
 
@@ -26,26 +26,27 @@ totalmente incompatível.
 
 </GameScene>
 
-Inconvenientemente, aglomerados de minério bruto surgem em locais muito mais perigosos que seus equivalentes normais.
+Inconvenientemente, os aglomerados de minério bruto surgem em locais bem mais perigosos que seus equivalentes normais.
 
 ### Titânio
 
-- Localização: Deltas de Basalto, Nether
-- Faixa de Altura: Qualquer
-- Restrições: Somente em faces *superiores* de blocos resistentes
+- Local: Deltas de basalto, Nether
+- Faixa de altura: Qualquer
+- Restrições: Apenas em faces de bloco de *topo* firmes
 
 ### Prata
 
-- Localização: Minas abandonadas
-- Faixa de Altura: Fundo do mundo até Y=64
+- Local: Minas abandonadas
+- Faixa de altura: Da base do mundo até Y=64
 
 ### Nióbio
 
-- Localização: Cidades do End
-- Faixa de Altura: Y=50-150
+- Local: Cidades do End
+- Faixa de altura: Y=50-150
 
 ## Mineração
 
-Aglomerados de minério seguem os mesmos requisitos de mineração do seu equivalente normal. Aglomerados largam 3-5 itens de minério bruto, que
-**não** são afetados por Fortuna. Aglomerados largam a si mesmos se minerados com <Color id="light_purple">Toque Suave</Color>.
-Itens de Aglomerado de Minério podem ser processados no [Moedor](../machines/processing/grinder.md), que sempre produzirá 5 itens de minério bruto.
+Aglomerados de minério seguem os mesmos requisitos de mineração do seu equivalente normal. Aglomerados dropam 3-5
+itens de minério bruto, que **não** são afetados por Fortuna. Aglomerados dropam a si mesmos se minerados com
+<Color id="light_purple">Toque Suave</Color>. Itens de Aglomerado de Minério podem ser processados no
+[Moedor](../machines/processing/grinder.md), que sempre produz 5 itens de minério bruto.

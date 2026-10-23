@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:rubber_chunk
 categories:
-  - Materiais
+  - Materials
 ---
 # Pedaço de Borracha
 
@@ -20,4 +20,4 @@ categories:
 ## Usos
 
 - Fundido em **Lingote de Plástico** (fornalha / alto-forno).
-- Usado quando a borracha é processada adiante em máquinas.
+- Usado quando a borracha é processada mais a fundo em máquinas.

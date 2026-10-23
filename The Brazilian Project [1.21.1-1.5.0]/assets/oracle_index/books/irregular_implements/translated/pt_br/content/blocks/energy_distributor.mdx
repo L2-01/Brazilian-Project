@@ -1,0 +1,22 @@
+---
+title: Distribuidor de Energia
+id: irregular_implements:energy_distributor
+related_items: [irregular_implements:energy_distributor, irregular_implements:ender_energy_distributor]
+type: block
+---
+
+## Distribuidor de Energia
+
+O **Distribuidor de Energia** permite distribuir FE uniformemente ao longo de uma linha de máquinas adjacentes para as quais ele aponta.
+
+Começando pelo bloco à sua frente, ele avança por um caminho reto até alcançar um bloco que não possa armazenar FE. Todos os blocos encontrados são adicionados ao seu cache.
+
+O Distribuidor de Energia simula ter um armazenamento de energia, que na verdade é composto por todas as máquinas do seu cache. Qualquer FE inserido nele é, na realidade, inserido nos blocos em cache; o mesmo vale para qualquer FE removido.
+
+<ProjectRecipe id="irregular_implements:energy_distributor"/>
+
+## Distribuidor de Energia do Ender
+
+O **Distribuidor de Energia do Ender** funciona de forma semelhante, mas usa 8 [Filtros de Localização](@irregular_implements:location_filter) para especificar as máquinas do seu cache.
+
+<ProjectRecipe id="irregular_implements:ender_energy_distributor"/>

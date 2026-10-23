@@ -1,25 +1,35 @@
 {
-  "name": "O Paradoxo simplifica a vida!",
-  "sortnum": 12,
-  "category": "justdirethings:justdynathings",
-  "icon": "justdynathings:paradox_mixer",
-  "pages": [
-    {
-      "type": "patchouli:crafting",
-      "title": "Misturador de Paradoxo",
-      "recipe": "justdynathings:paradox_mixer",
-      "text": "Um bloco instável que permite fabricar em massa receitas de itens largados de fluido$(br)Requer pelo menos um Estabilizador energizado$(br)$(br)$(italic)*A renderização personalizada não funciona no renderizador do Patchouli*$()"
-    },
-    {
-      "type": "patchouli:multiblock",
-      "multiblock": {
-        "pattern": [["G"], ["R"], ["0"]],
-        "mapping": {
-          "G": "justdynathings:paradox_mixer[alive=false]",
-          "R": "justdynathings:stabilizer[active=true,facing=down,goo_found=true,energized=true]"
+    "name": "Paradoxo simplifica a vida!",
+    "sortnum": 12,
+    "category": "justdirethings:justdynathings",
+    "icon": "justdynathings:paradox_mixer",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "title": "Misturador de Paradoxo",
+            "recipe": "justdynathings:paradox_mixer",
+            "text": "Um bloco instável que permite fabricar receitas de gotas de fluido em massa$(br)Exige ao menos um Estabilizador energizado$(br)$(br)$(italic)*A renderização personalizada não funciona na renderização do Patchouli*$()"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                    [
+                        "G"
+                    ],
+                    [
+                        "R"
+                    ],
+                    [
+                        "0"
+                    ]
+                ],
+                "mapping": {
+                    "G": "justdynathings:paradox_mixer[alive=false]",
+                    "R": "justdynathings:stabilizer[active=true,facing=down,goo_found=true,energized=true]"
+                }
+            },
+            "enable_visualize": false
         }
-      },
-      "enable_visualize": false
-    }
-  ]
+    ]
 }

@@ -14,11 +14,12 @@ item_ids:
 
 ## Sobre
 
-Esta máquina se especializa em misturar químicos, materiais e extratos que não requerem a precisão de um sistema de
-laboratório químico completo. Ela também pode misturar concreto, se você preferir isso aos nossos painéis de polímero.
+Esta máquina é especializada em misturar produtos químicos, materiais e extratos que não exigem a precisão de um
+sistema completo de laboratório químico. Ela também mistura concreto, se você preferir isso aos nossos painéis de
+polímero.
 
-## Especificação de Receita
+## Especificação da Receita
 
-- Tempo base de fabricação: varia, por padrão 10 segundos
+- Tempo base de fabricação: varia, 10 segundos por padrão
 - Entradas: 0-4 itens, 0-2 fluidos
 - Saídas: 0-1 itens, 0-1 fluidos

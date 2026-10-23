@@ -14,7 +14,7 @@ item_ids:
 
 <ItemImage id="fluix_pearl" scale="4" />
 
-Uma pérola de ender revestida de <ItemLink id="fluix_crystal" />, usada na produção de
+Uma ender pearl revestida de <ItemLink id="fluix_crystal" />, usada na produção de
 vários componentes do AE2.
 
 ## Receita

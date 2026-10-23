@@ -15,8 +15,8 @@ item_ids:
   <ImportStructure src="../structure/cable_mod_storage_bus.snbt"></ImportStructure>
 </GameScene>
 
-O Ponto de Armazenamento ME por Mod é um <ItemLink id="ae2:storage_bus" /> que pode ser filtrado por nome de mod ou ID de mod.
+O Ponto de Armazenamento ME por Mod é um <ItemLink id="ae2:storage_bus" /> que pode ser filtrado por nome ou ID de mod.
 
-Use vírgulas para separar múltiplos IDs de mod ao filtrar por vários mods.
+Use vírgulas para separar vários IDs de mod quando quiser filtrar múltiplos mods.
 
 ![PIC](../pic/mod_bus_name.png)

@@ -1,16 +1,16 @@
 {
-  "name": "Forno a Vapor",
-  "icon": "railcraft:steam_oven",
-  "category": "railcraft:multiblock",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "O Forno a Vapor é uma estrutura 2x2x2 que, quando alimentada com Vapor, cozinha itens para você. Ele pode cozinhar até 9 itens de uma vez no curto tempo de 256 tiques (que são 12,8 segundos)!"
-    },
-    {
-      "type": "patchouli:multiblock",
-      "name": "Forno a Vapor",
-      "multiblock_id": "railcraft:steam_oven"
-    }
-  ]
+    "name": "Forno a Vapor",
+    "icon": "railcraft:steam_oven",
+    "category": "railcraft:multiblock",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O Forno a Vapor é uma estrutura 2x2x2 que, alimentada com Vapor, cozinha itens para você. Ele pode cozinhar até 9 itens de uma vez em apenas 256 ticks (o que são 12,8 segundos)!"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Forno a Vapor",
+            "multiblock_id": "railcraft:steam_oven"
+        }
+    ]
 }

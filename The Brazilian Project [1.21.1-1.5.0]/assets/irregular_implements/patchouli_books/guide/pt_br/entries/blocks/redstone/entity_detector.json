@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O $(d)Detector de Entidades$() emite um sinal de redstone quando uma entidade que corresponde ao seu filtro está dentro da sua área de detecção.$(br2)Na sua interface, você pode definir o raio em cada eixo, se o detector está invertido ou não, e especificar que tipo de entidade detectar.",
+      "text": "O $(d)Detector de Entidades$() emite um sinal de Redstone quando uma entidade que corresponde ao seu filtro está dentro de sua área de detecção.$(br2)Em sua interface você pode definir o raio em cada dimensão, se o Detector está invertido ou não, e especificar que tipo de entidade detectar.",
       "title": "Detector de Entidades"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:entity_detector",
       "link_recipe": true,
-      "text": "Você pode escolher detectar$(li)Todas as Entidades$(li)Entidades Vivas$(li)Animais$(li)Monstros$(li)Jogadores$(li)Itens$(li)Personalizado$(br2)No modo Personalizado, você pode colocar um $(l:items/entity_filter)Filtro de Entidade$(/l) no detector para especificar exatamente o que detectar."
+      "text": "Você pode escolher detectar$(li)Todas as Entidades$(li)Entidades Vivas$(li)Animais$(li)Monstros$(li)Jogadores$(li)Itens$(li)Personalizado$(br2)No modo Personalizado, você pode colocar um $(l:items/entity_filter)Filtro de Entidade$(/l) no Detector para especificar exatamente o que detectar."
     }
   ]
 }

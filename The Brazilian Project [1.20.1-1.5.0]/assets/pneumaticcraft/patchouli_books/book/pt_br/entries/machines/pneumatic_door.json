@@ -6,24 +6,24 @@
   "pages": [
     {
       "type": "text",
-      "text": "Esta porta especial abrirá automaticamente se houver um jogador por perto, desde que tenha $(l:base_concepts/pressure)pressão de ar/$ suficiente. Ela tem um alcance de detecção base de 2 blocos, mas isso pode ser aumentado inserindo $(l:base_concepts/upgrades#range)Melhorias de Alcance/$.$(p)Para construir uma $(thing)Porta Pneumática/$, você deve posicionar uma $(thing)Base de Porta Pneumática/$ de modo que fique no nível da $(italic)metade superior/$ da porta em si."
+      "text": "Esta porta especial abrirá automaticamente se houver um jogador por perto, desde que tenha $(l:base_concepts/pressure)pressão de ar/$ suficiente. Ela tem um alcance base de detecção de 2 blocos, que pode ser aumentado inserindo $(l:base_concepts/upgrades#range)Melhorias de Alcance/$.$(p)Para construir uma $(thing)Porta Pneumática/$, você deve colocar uma $(thing)Base de Porta Pneumática/$ de modo que fique nivelada com a $(italic)metade superior/$ da porta em si."
     },
     {
       "type": "image",
       "images": [
         "pneumaticcraft:textures/patchouli/pneumatic_door.png"
       ],
-      "text": "$(italic)Uma Porta Pneumática dupla; o lado esquerdo está $(l:tools/camo_applicator)camuflado/$$(italic), o direito não/$"
+      "text": "$(italic)Uma Porta Pneumática dupla; o lado esquerdo está $(l:tools/camo_applicator)camuflado/$(italic), o direito não/$"
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:security_station",
-      "text": "Quando a $(item)Base de Porta Pneumática/$ está no alcance de uma $(l:machines/security_station)Estação de Segurança/$ em operação, ela só abrirá a porta para jogadores confiáveis pela $(thing)Estação de Segurança/$."
+      "text": "Quando a $(item)Base de Porta Pneumática/$ está dentro do alcance de uma $(l:machines/security_station)Estação de Segurança/$ em funcionamento, ela só abrirá a porta para jogadores confiáveis da $(thing)Estação de Segurança/$."
     },
     {
       "type": "text",
       "title": "Modos de Operação",
-      "text": "A $(thing)Porta Pneumática/$ opera em um de três modos, selecionáveis via a GUI da base da porta:$(li)$(thing)Jogador Próximo/$: a porta abrirá quando um jogador estiver no alcance.$(li)$(thing)Próximo e Olhando/$: a porta abrirá quando um jogador estiver próximo $(italic)e/$ olhando para a porta$(li)$(thing)Porta de Madeira/$: a porta se comporta como uma $(item)Porta de Carvalho/$ vanilla."
+      "text": "A $(thing)Porta Pneumática/$ opera em um de três modos, selecionáveis na GUI da base da porta:$(li)$(thing)Jogador por Perto/$: a porta abrirá quando um jogador estiver ao alcance.$(li)$(thing)Perto e Olhando/$: a porta abrirá quando um jogador estiver por perto $(italic)e/$ olhando para a porta$(li)$(thing)Porta de Madeira/$: a porta se comporta como uma $(item)Porta de Madeira/$ vanilla."
     },
     {
       "type": "crafting",

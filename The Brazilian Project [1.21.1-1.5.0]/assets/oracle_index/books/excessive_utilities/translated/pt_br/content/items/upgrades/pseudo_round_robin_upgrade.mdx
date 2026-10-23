@@ -1,0 +1,17 @@
+---
+title: Melhoria Pseudo Round-Robin
+id: excessive_utilities:pseudo_round_robin_upgrade
+related_items: [excessive_utilities:pseudo_round_robin_upgrade]
+type: item
+---
+A **Melhoria Pseudo Round-Robin** pode ser colocada dentro de [Nós de Transferência e Recuperação](@excessive_utilities:transfer_nodes) para distribuir seu trabalho por uma rede de Tubos de Transferência.
+
+Normalmente, um Nó mantém seu Ping num destino enquanto esse destino aceitar itens, fluido ou energia. Ele também reinicia o Ping para o Nó sempre que seu buffer esvazia.
+
+Com essa Melhoria instalada, o Ping avança após cada transferência bem-sucedida, mesmo que o destino pudesse aceitar mais. Ele lembra sua rota como uma [Melhoria de Busca em Profundidade](@excessive_utilities:depth_first_search_upgrade), voltando a junções anteriores em vez de reiniciar em becos sem saída.
+
+Esvaziar o buffer não reinicia a busca. Se a fonte secar, o Nó de Transferência permanece em seu ponto atual da busca e retoma de lá quando mais recursos estiverem disponíveis. O Ping só volta ao Nó depois que toda a rede de canos alcançável tiver sido pesquisada.
+
+O Nó ainda transfere o máximo do seu buffer que puder em cada destino. A distribuição, portanto, não é garantidamente perfeitamente uniforme. Ela funciona melhor com itens não empilháveis, lotes de tamanho consistente de uma [Melhoria de Agrupamento](@excessive_utilities:stack_upgrade), ou uma rede cujos destinos estejam dispostos a distâncias iguais.
+
+<PrefabObtaining/>

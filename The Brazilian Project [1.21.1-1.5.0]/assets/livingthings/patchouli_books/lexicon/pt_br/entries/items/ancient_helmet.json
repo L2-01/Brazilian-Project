@@ -1,1 +1,16 @@
-{"name":"Capacete Ancestral","icon":"livingthings:ancient_helmet","category":"livingthings:item_category","pages":[{"type":"text","text":"$(br)$(bold)Obtenção:$()$(br)Pode ser largado por um Blaze Ancestral."},{"type":"spotlight","item":"livingthings:ancient_helmet","text":"$(br)$(bold)Uso:$()$(li)concede o efeito Resistência ao Fogo ao vestir"}]}
+{
+    "name": "Capacete Ancestral",
+    "icon": "livingthings:ancient_helmet",
+    "category": "livingthings:item_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(br)$(bold)Obtenção:$()$(br)Pode ser largado por um Blaze Ancestral."
+        },
+        {
+            "type": "spotlight",
+            "item": "livingthings:ancient_helmet",
+            "text": "$(br)$(bold)Uso:$()$(li)concede o Efeito de Resistência ao Fogo quando vestido"
+        }
+    ]
+}

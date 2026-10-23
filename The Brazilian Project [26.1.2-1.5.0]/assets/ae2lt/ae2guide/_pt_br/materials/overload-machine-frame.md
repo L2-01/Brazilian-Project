@@ -8,7 +8,7 @@ item_ids:
   - ae2lt:silicon_block
 ---
 
-# Chassi de Máquina de Sobrecarga e Bloco de Silício
+# Chassi de Máquina de Sobrecarga & Bloco de Silício
 
 <ItemGrid>
   <ItemIcon id="ae2lt:overload_machine_frame" />
@@ -17,12 +17,12 @@ item_ids:
 
 ## Chassi de Máquina de Sobrecarga
 
-O **Chassi de Máquina de Sobrecarga** é a base estrutural compartilhada usada para fabricar a maioria das máquinas de processamento do AE2 Lightning Tech, incluindo a Câmara de Simulação de Raios, a Câmara de Montagem de Raios, a Fábrica de Processamento de Sobrecarga, o Ionizador Atmosférico e o Catalisador de Cristais.
+O **Chassi de Máquina de Sobrecarga** é um produto intermediário de fabricação e a base estrutural compartilhada usada para fabricar a maioria das máquinas de processamento do AE2 Lightning Tech, incluindo a Câmara de Simulação de Raios, a Câmara de Montagem de Raios, a Fábrica de Processamento de Sobrecarga, o Ionizador Atmosférico e o Catalisador de Cristais.
 
 <RecipeFor id="ae2lt:overload_machine_frame" />
 
 ## Bloco de Silício
 
-O **Bloco de Silício** é um bloco de armazenamento compacto para silício (9 silícios para fabricar; pode ser desmanchado de volta em 9 silícios). Ele também é usado como material de construção em certas receitas de fabricação, incluindo o Chassi de Máquina de Sobrecarga.
+O **Bloco de Silício** é um bloco compacto de armazenamento de silício (9 silícios para fabricar; pode ser desfeito de volta em 9 silícios). Também é usado como material de construção em certas receitas de fabricação, incluindo o Chassi de Máquina de Sobrecarga.
 
 <RecipeFor id="ae2lt:silicon_block" />

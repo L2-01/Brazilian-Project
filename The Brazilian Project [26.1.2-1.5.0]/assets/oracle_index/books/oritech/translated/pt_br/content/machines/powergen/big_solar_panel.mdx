@@ -1,0 +1,37 @@
+---
+id: oritech:big_solar_panel
+type: block
+title: Painel Solar Grande
+custom:
+    Capacidade de RF: "250,000"
+    RF/t: "64"
+    Condição de geração: "Durante o dia com luz do céu >= 12"
+
+---
+Um multibloco grande que gera energia a partir da luz solar.
+Possui uma animação de dobramento que é ativada conforme o horário do dia e os níveis de luz.
+
+## Uso
+Construa a estrutura multibloco 3x3 usando [núcleos de máquina]($multiblocks).
+O painel gera energia automaticamente durante o dia, quando tem visão livre do céu.
+
+### Mecânica de Dobramento
+O painel dobra e desdobra conforme as condições:
+*   **Desdobrado (Ativo)**: durante o dia, com nível de luz >= 12
+*   **Dobrado (Inativo)**: à noite ou com pouca luz
+
+A qualidade dos núcleos afeta diretamente a taxa de geração de energia.
+
+A taxa base de geração é de 64 RF/t, multiplicada pela qualidade dos núcleos. Na prática, isso significa que o painel escala de 64 RF/t até 448 RF/t dependendo dos núcleos instalados.
+
+<Callout variant="info">
+    Certifique-se de que o painel tenha visão livre do céu para obter os melhores resultados.
+</Callout>
+
+## Construção
+
+Requer uma área de 3x3. Coloque o controlador e adicione os núcleos necessários.
+
+A energia solar é boa como energia de fundo porque não consome combustível, mas normalmente deve ser combinada com energia armazenada ou reserva a combustível para a operação noturna.
+
+A energia sai pelos lados **Norte**, **Sul** e **Baixo**.

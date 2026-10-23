@@ -12,8 +12,8 @@ item_ids:
 
 <BlockImage id="energy_cell_array" scale="4" />
 
-O **Conjunto de Células de Energia** é o bloco primário de armazenamento de energia. Ele possui E/S lateral configurável para itens e energia.
-Tem 1 espaço de entrada de item de energia e 4 espaços de carregamento.
+O **Conjunto de Células de Energia** é o bloco principal de armazenamento de energia. Ele tem E/S de lados configurável
+para itens e energia. Tem 1 espaço de item de entrada de energia e 4 espaços de carregamento.
 
-Tecnologia de automação inteligente impede que itens sejam removidos via canos/cabos/etc. até estarem totalmente carregados. Eles sempre podem
-ser removidos manualmente pelo jogador, no entanto.
+Tecnologia de automação inteligente impede que itens sejam removidos por tubos/cabos/etc. até estarem totalmente
+carregados. Eles sempre podem ser removidos manualmente pelo jogador, porém.

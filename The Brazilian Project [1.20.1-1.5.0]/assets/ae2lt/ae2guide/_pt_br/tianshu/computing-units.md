@@ -76,7 +76,7 @@ Fabrique o Núcleo Principal Básico numa bancada de trabalho com 4 blocos de Ar
 
 Instale o Núcleo Principal Básico e preencha as outras 26 células com Unidades em Branco Tianshu para obter **1 MiB de armazenamento, 128 despachos bem-sucedidos/t e 256 cópias máximas/t**. O despacho interno não é contado como uma Unidade Paralela instalada. Uma Unidade Paralela eleva o despacho para 256/t; três atingem o teto Básico de 512/t.
 
-Unidades em Branco são a base de fabricação compartilhada das duas estruturas e não consomem mais Revestimentos do Supercomputador. Cada Unidade Amplificadora consome um Núcleo de Sobrecarga Ultimate na Câmara de Montagem de Raios, junto com uma Unidade em Branco, Processadores de Sobrecarga, Chapas de Liga de Sobrecarga, Redes Topológicas Densas e Singularidades. Unidades Paralelas e de Armazenamento mantêm suas etapas avançadas de fabricação como expansões posteriores.
+Unidades em Branco são a base de fabricação compartilhada das duas estruturas e não consomem mais Revestimentos do Supercomputador. Cada Unidade Amplificadora consome um Núcleo de Sobrecarga Supremo na Câmara de Montagem de Raios, junto com uma Unidade em Branco, Processadores de Sobrecarga, Chapas de Liga de Sobrecarga, Redes Topológicas Densas e Singularidades. Unidades Paralelas e de Armazenamento mantêm suas etapas avançadas de fabricação como expansões posteriores.
 
 ## Parâmetros de Desempenho
 
@@ -112,11 +112,11 @@ Sejam **S**, **P** e **A** as contagens de Unidades de Armazenamento, Paralelas 
 
 Os parâmetros resultantes são calculados da seguinte forma:
 
-* Despachos bem-sucedidos igualam `128 × (1 + P) × ganho de despacho`, limitados pelo Núcleo Principal.
-* O armazenamento de fabricação total é o armazenamento interno mais `64 MiB × S × ganho de armazenamento externo`.
+* Despachos bem-sucedidos igualam `128 × (1 + P) × dispatch gain`, limitados pelo Núcleo Principal.
+* O armazenamento de fabricação total é o armazenamento interno mais `64 MiB × S × external-storage gain`.
 * O máximo de cópias é igual aos despachos bem-sucedidos vezes o ganho de cópias, limitado pelo teto de cópias do Núcleo Principal.
 
-Por exemplo, um núcleo Quântico com 3 Unidades Paralelas, 5 Unidades Amplificadoras, 1 Unidade de Armazenamento e 17 Unidades em Branco: o ganho de despacho é ×12, então a fórmula dá `128 × (1 + 3) × 12 = 6.144` despachos, atingindo exatamente o teto Quântico de **6.144**; o armazenamento externo é `64 MiB × 1 × 12 = 768 MiB`, dando **1 GiB** com os 256 MiB de armazenamento interno; o ganho de cópias é ×6, então a fórmula dá `6.144 × 6 = 36.864` cópias, limitado a **20.480**. A tela do controlador indica quando um parâmetro atingiu seu teto.
+Por exemplo, um núcleo Quântico com 3 Unidades Paralelas, 5 Unidades Amplificadoras, 1 Unidade de Armazenamento e 17 Unidades em Branco: o ganho de despacho é ×12, então a fórmula dá `128 × (1 + 3) × 12 = 6,144` despachos, atingindo exatamente o teto Quântico de **6.144**; o armazenamento externo é `64 MiB × 1 × 12 = 768 MiB`, dando **1 GiB** com os 256 MiB de armazenamento interno; o ganho de cópias é ×6, então a fórmula dá `6,144 × 6 = 36,864` cópias, limitado a **20.480**. A tela do controlador indica quando um parâmetro atingiu seu teto.
 
 Para ilustrar como os dois orçamentos se relacionam, considere uma configuração com 512 despachos bem-sucedidos e 1.024 cópias máximas por tique: enviar apenas padrões de cópia única usa no máximo 512 dessas cópias por tique, enquanto alvos compatíveis com lotes podem combinar várias execuções do mesmo padrão dentro das mesmas 512 chamadas aceitas e usar as 1.024 cópias completas. O fornecedor e a máquina alvo determinam o agrupamento real; uma única máquina não é garantida de aceitar o orçamento completo.
 

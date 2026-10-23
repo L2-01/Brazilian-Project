@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:chosen_cheese
 categories:
-  - Entrega Suspeita
+  - Suspicious Delivery
 ---
 # O Queijo Escolhido
 
@@ -15,7 +15,7 @@ categories:
 
 ## O que faz
 
-Depois de prová-lo, você se sente revigorado. Vestido no **Curios**, ele aumenta lentamente sua **vida máxima** quanto mais tempo você o mantém.
+Depois de prová-lo, você se sente revigorado. Usado no **Curios**, ele aumenta lentamente sua **vida máxima** quanto mais tempo você o mantém.
 
 **Shift + clique direito** com outro queijo no seu inventário para fundir o progresso dele neste (o outro queijo é consumido).
 

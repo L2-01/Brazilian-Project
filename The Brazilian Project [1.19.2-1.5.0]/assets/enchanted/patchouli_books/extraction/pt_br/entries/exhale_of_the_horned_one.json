@@ -1,0 +1,18 @@
+{
+  "name": "Exalação do Chifrudo",
+  "icon": "enchanted:exhale_of_the_horned_one",
+  "category": "enchanted:collecting_fumes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Deus Chifrudo, às vezes chamado de Rei Carvalho, é uma divindade wiccaniana baseada em Cernunnos, simbolizando sabedoria, juventude e força. $(br2)Diz-se que as fumaças produzidas pelos carvalhos são a exalação do Deus Chifrudo, carregando algumas das propriedades associadas a ele."
+    },
+    {
+      "type": "enchanted:witch_oven_recipe_single",
+      "recipe": "enchanted:byproduct/exhale_of_the_horned_one_oak_sapling",
+      "itemIn": "minecraft:oak_sapling",
+      "resultItem": "enchanted:wood_ash"
+    }
+  ],
+  "read_by_default": true
+}

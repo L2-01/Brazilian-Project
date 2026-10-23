@@ -10,19 +10,19 @@
         },
         {
             "type": "patchouli:text",
-            "text": "O propósito deste capítulo é apresentar esta tela e ajudá-lo a navegá-la.$(p)Se você a entender completamente, nunca mais ficará confuso com encantamentos."
+            "text": "O objetivo deste capítulo é apresentar essa tela e ajudá-lo a navegá-la.$(p)Se você entendê-la por completo, nunca mais ficará confuso ao encantar."
         },
         {
             "type": "patchouli:image",
-            "title": "O Seletor de Slots",
+            "title": "O Seletor de Espaço",
             "images": [
                 "apotheosis:textures/gui/book/slot_selector.png"
             ],
-            "text": "Isso permite selecionar qual slot de encantamento inspecionar."
+            "text": "Permite selecionar qual espaço de encantamento inspecionar."
         },
         {
             "type": "patchouli:text",
-            "text": "O slot selecionado atualmente será destacado, e slots indisponíveis ficarão acinzentados.$(p)Passar o mouse sobre o slot mostrará o nível, o $(4)Poder Mín$() e o $(9)Poder Máx$()."
+            "text": "O espaço selecionado ficará destacado, e os espaços indisponíveis ficarão acinzentados.$(p)Passar o mouse sobre o espaço mostrará o nível, o $(4)Poder Mínimo$() e o $(9)Poder Máximo$()."
         },
         {
             "type": "patchouli:image",
@@ -30,23 +30,23 @@
             "images": [
                 "apotheosis:textures/gui/book/enchantments_window.png"
             ],
-            "text": "Isso mostra quais encantamentos estão disponíveis."
+            "text": "Mostra quais encantamentos estão disponíveis."
         },
         {
             "type": "patchouli:text",
-            "text": "Dado o item atual e o nível de poder selecionado, um certo conjunto de encantamentos fica disponível.$(p)Esta janela mostra cada encantamento, seu nível, raridade e chance de ser selecionado.$(p)Ela também mostra quais encantamentos são exclusivos entre si."
+            "text": "Dado o item atual e o nível de poder selecionado, um certo conjunto de encantamentos fica disponível.$(p)Esta janela mostra cada encantamento, seu nível, raridade e chance de ser selecionado.$(p)Também mostra quais encantamentos são exclusivos entre si."
         },
         {
             "type": "patchouli:image",
-            "title": "O Controle de Poder",
+            "title": "O Controle Deslizante de Poder",
             "images": [
                 "apotheosis:textures/gui/book/power_slider.png"
             ],
-            "text": "Isso permite mudar o nível de poder simulado."
+            "text": "Permite alterar o nível de poder simulado."
         },
         {
             "type": "patchouli:text",
-            "text": "Quando você seleciona um slot, o Controle de Poder seleciona automaticamente o nível de poder exatamente no meio da faixa de poder.$(p)O controle só pode descer até o $(4)Poder Mín$() e subir até o $(9)Poder Máx$() do slot atual."
+            "text": "Ao selecionar um espaço, o Controle Deslizante de Poder seleciona automaticamente o nível de poder bem no meio do intervalo.$(p)O controle só pode descer até o $(4)Poder Mínimo$() e subir até o $(9)Poder Máximo$() do espaço atual."
         },
         {
             "type": "patchouli:image",
@@ -54,11 +54,11 @@
             "images": [
                 "apotheosis:textures/gui/book/weights.png"
             ],
-            "text": "Isso mostra o peso de cada raridade."
+            "text": "Mostra o peso de cada raridade."
         },
         {
             "type": "patchouli:text",
-            "text": "Todo encantamento tem uma raridade, e cada raridade tem um peso.$(p)A chance de selecionar um encantamento é seu peso individual dividido pelo total (dos pesos de todos os encantamentos disponíveis).$(p)$(arcana) pode mudar os pesos de raridade."
+            "text": "Todo encantamento tem uma raridade, e cada raridade tem um peso.$(p)A chance de selecionar um encantamento é seu peso individual dividido pelo total (da soma dos pesos de todos os encantamentos disponíveis).$(p)A $(arcana) pode alterar os pesos de raridade."
         }
     ]
 }

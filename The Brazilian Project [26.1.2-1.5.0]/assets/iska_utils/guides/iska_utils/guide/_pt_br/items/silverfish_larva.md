@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:silverfish_larva
 categories:
-  - Materiais de Entropia
+  - Entropy materials
 ---
 <iska_utils:UnlessSilverfishLarva>
 
@@ -25,26 +25,26 @@ Esta página só se aplica quando a **Larva de Traça** está registrada: carreg
 
 ## Disponibilidade
 
-Registrada quando o **Ex Deorum** está carregado, ou quando **`dev.030_force_silverfish_larva`** está habilitado na config.
+Registrada quando o **Ex Deorum** está carregado, ou quando **`dev.030_force_silverfish_larva`** está ativada na config.
 
 ## Usos
 
 **Infestar pedra**
 
-- **Use** num bloco que pode ficar infestado (regras vanilla de pedra infestada) → converte o bloco na sua variante **infestada** e consome uma larva.
+- **Use** num bloco que pode virar infestado (regras vanilla de pedra infestada) → converte o bloco na sua variante **infestada** e consome uma larva.
 
 **Barril do Ex Deorum**
 
-- **Use** num **barril do Ex Deorum** que contenha **água de bruxa** → consome uma larva e dá **1** <ItemImage id="iska_utils:drop_of_entropy" /> **Gota de Entropia** (adicionada ao seu inventário).
+- **Use** num **barril do Ex Deorum** que esteja com **água de bruxa** → consome uma larva e dá **1** <ItemImage id="iska_utils:drop_of_entropy" /> **Gota de Entropia** (adicionada ao seu inventário).
 
-## Obtendo
+## Obtenção
 
-Com o **Ex Deorum**, peneire **pó** com uma **peneira de ferro ou superior** para uma chance de **5%** de **Larva de Traça**.
+Com o **Ex Deorum**, peneire **pó** com uma **malha de ferro ou superior** para **5%** de chance de **Larva de Traça**.
 
 **Água de bruxa → endermite**
 
 - Com o **Ex Deorum** carregado, uma **traça** (por exemplo de blocos infestados) parada em **água de bruxa** é substituída por um **endermite**.
-- Endermites largam **2–3** Gotas de Entropia (veja **Gota de Entropia**).
+- Endermites derrubam **2–3** Gotas de Entropia (veja **Gota de Entropia**).
 
 ## Páginas relacionadas
 

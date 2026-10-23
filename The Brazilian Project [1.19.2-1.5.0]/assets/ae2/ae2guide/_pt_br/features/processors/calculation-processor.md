@@ -13,14 +13,14 @@ Processador de nível médio.
 
 <RecipeFor id="calculation_processor" />
 
-### Prensas de Processador
+### Placas de Prensa de Processador
 
 <CategoryIndex category="Processor Press Plates" />
 ### Outros Processadores
 
-TODO EXCETO ESTE
+TODO EXCEPT SELF
 
 <CategoryIndex category="Processors" />
-### Peças de Processador
+### Componentes de Processador
 
 <CategoryIndex category="Processor Parts" />

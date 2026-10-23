@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:ghost_brazier
 categories:
-  - Combate e viagem
+  - Combat and travel
 ---
 # Braseiro Fantasma
 
@@ -15,4 +15,4 @@ categories:
 
 ## O que faz
 
-- Alterna ou interage com regras de movimento relacionadas ao modo espectador (veja a dica e a tecla específicas da versão).
+- Alterna ou interage com regras de movimento relacionadas a espectador (veja o tooltip e a tecla específicos da versão).

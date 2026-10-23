@@ -1,0 +1,27 @@
+{
+  "name": "Esteiras",
+  "icon": "industrialforegoing:conveyor",
+  "category": "industrialforegoing:transport",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esteiras podem ser usadas para transportar itens, entidades e fluidos. Elas podem interagir com o mundo usando $(l:conveyor_upgrades)melhorias$(). Itens e entidades podem subir e descer nas esteiras, mas fluidos só podem ir na horizontal. $(br2)Esteiras podem ser coloridas clicando nelas com um corante."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:conveyor"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:glowstone_dust",
+      "text": "Usar pedra luminosa pode fazer as esteiras moverem itens e entidades muito rápido."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:plastic",
+      "text": "Usar plástico impedirá que itens sejam coletados quando estiverem em cima de uma esteira."
+    }
+  ]
+}

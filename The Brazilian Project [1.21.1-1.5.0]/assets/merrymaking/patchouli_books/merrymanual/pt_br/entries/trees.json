@@ -1,97 +1,73 @@
 {
-
-"name": "Árvores de Natal",
-    "icon": "merrymaking:christmas_tree_spruce",
-    "category": "merrymaking:trees",
-    "pages": [
-	
-		{
-		
-			"type": "spotlight",
-			"title": "Abetos Pequenos",
-			"item": "merrymaking:christmas_tree_spruce",			
-			"text": "Para decorar uma Árvore de Natal, primeiro você precisará localizar e cortar um Abeto Pequeno. Eles podem ser encontrados crescendo em biomas frios, e às vezes suas mudas caem das Folhas de Abeto." 
-			
-		},
-		
-		{
-			"type": "patchouli:image",
-			
-			"images": ["merrymaking:textures/gui/small_spruce.png"],
-			"text": "Abetos Pequenos"
-		},
-		
-		
-		{
-			"type": "patchouli:text",
-			"text": "Depois de conseguir sua árvore, você pode deixá-la como está ou pintá-la com Corante Branco para obter uma Árvore de Natal Nevada. $(br2) Em seguida, você precisará fabricar um suporte para colocar a Árvore:"
-		},
-		
-		{
-			"type": "crafting",			
-			"recipe": "merrymaking:snowy_christmas_tree",
-			"recipe2": "merrymaking:tree_stand"			
-		},
-		
-		
-		
-		{
-			"type": "patchouli:image",			
-			"images": ["merrymaking:textures/gui/trees_stands.png"],
-			"text": "Árvores em Suportes de Árvore"
-		},
-		
-		{
-			"type": "patchouli:text",
-			"text": "Agora você está pronto para decorar sua árvore. $(br2)As Decorações de Árvore são: $(li)Luzes $(li)Enfeites $(li)Festão de Bagas Doces $(li)Topo de Árvore$(br2)Há duas opções de cores para Luzes de Árvore e Enfeites: Branco e Colorido Brilhante, e você pode escolher entre uma Estrela ou um Laço como Topo de Árvore."
-		},
-		
-		{
-			"type": "patchouli:text",
-			"text": " As Árvores têm 3 seções, e cada seção pode receber um conjunto de Luzes de Árvore, um conjunto de Enfeites e um conjunto de Festão de Bagas Doces. Clicar na seção do Topo com um Topo de Árvore colocará o Bloco de Topo acima da árvore. Para remover/trocar o topo, interaja com o próprio topo.$(br2)Para decorar, coloque o item na seção desejada da Árvore. Para remover um item que você colocou na árvore, clique nele com a mão vazia."
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Enfeites",
-			"recipe": "merrymaking:ornaments_white",
-			"recipe2": "merrymaking:ornaments_multi"
-			
-		},
-		
-		{
-			"type": "patchouli:smelting",
-			"title": "Festão de Bagas Doces",
-			"recipe": "merrymaking:dried_berries_smelting"
-			
-		},
-		
-		
-		{
-			"type": "crafting",
-			"title": "Festão de Bagas Doces",
-			"recipe": "merrymaking:tree_garland"
-			
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Topos de Árvore",
-			"recipe": "merrymaking:bow",
-			"recipe2": "merrymaking:star"
-			
-		},
-		
-		
-		{
-			"type": "patchouli:image",			
-			"images": ["merrymaking:textures/gui/tree_with_presents.png"],
-			"text": "Árvore de Natal Decorada"
-		}
-		
-		
-		
-		]
-	
-	
+  "name": "Árvores de Natal",
+  "icon": "merrymaking:christmas_tree_spruce",
+  "category": "merrymaking:trees",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Pequenas Árvores de Abeto",
+      "item": "merrymaking:christmas_tree_spruce",
+      "text": "Para decorar uma Árvore de Natal, você primeiro precisará localizar e derrubar uma Pequena Árvore de Abeto. Elas podem ser encontradas crescendo em biomas frios, e às vezes suas mudas caem de Folhas de Abeto."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/small_spruce.png"
+      ],
+      "text": "Pequenas Árvores de Abeto"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Com sua árvore em mãos, você pode deixá-la como está ou tingi-la com Corante Branco para obter uma Árvore de Natal Nevada. $(br2) Em seguida, você precisará fabricar um suporte para colocar a Árvore:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "merrymaking:snowy_christmas_tree",
+      "recipe2": "merrymaking:tree_stand"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/trees_stands.png"
+      ],
+      "text": "Árvores em Suportes de Árvore"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Agora você está pronto para decorar sua árvore. $(br2)As Decorações de Árvore são: $(li)Luzes $(li)Enfeites $(li)Festão de Bagas Doces $(li)Topo de Árvore$(br2)Há duas opções de cor para Luzes de Árvore e Enfeites: Branco e Colorido Brilhante, e você pode escolher entre uma Estrela ou um Laço para o Topo de Árvore."
+    },
+    {
+      "type": "patchouli:text",
+      "text": " As Árvores têm 3 seções, e cada seção aceita um conjunto de Luzes de Árvore, um conjunto de Enfeites e um conjunto de Festão de Bagas Doces. Clicar na seção de cima com um Topo colocará o Bloco de Topo acima da árvore. Para remover/trocar o topo, interaja com o próprio topo.$(br2)Para decorar, você coloca o item na seção desejada da Árvore. Para remover um item que colocou na árvore, clique nele com a mão vazia."
+    },
+    {
+      "type": "crafting",
+      "title": "Enfeites",
+      "recipe": "merrymaking:ornaments_white",
+      "recipe2": "merrymaking:ornaments_multi"
+    },
+    {
+      "type": "patchouli:smelting",
+      "title": "Festão de Bagas Doces",
+      "recipe": "merrymaking:dried_berries_smelting"
+    },
+    {
+      "type": "crafting",
+      "title": "Festão de Bagas Doces",
+      "recipe": "merrymaking:tree_garland"
+    },
+    {
+      "type": "crafting",
+      "title": "Topos",
+      "recipe": "merrymaking:bow",
+      "recipe2": "merrymaking:star"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/tree_with_presents.png"
+      ],
+      "text": "Árvore de Natal Decorada"
+    }
+  ]
 }

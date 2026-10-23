@@ -11,7 +11,7 @@ navigation:
 <ImportStructure src="../assets/building_sample.nbt" />
 </GameScene>
 
-A melhor tecnologia merece ser abrigada nas melhores instalações e não num campo aberto, não concorda? A LTXI oferece
+A melhor tecnologia merece ser abrigada nas melhores instalações, e não num campo aberto, não concorda? A LTXI oferece
 uma grande variedade de blocos de construção para criar laboratórios e bases de alta tecnologia.
 
 <SubPages />

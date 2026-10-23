@@ -20,9 +20,9 @@ item_ids:
 </GameScene>
 </Row>
 
-O Provedor de Padrões ME Estendido é um <ItemLink id="ae2:pattern_provider" /> com um inventário
-de padrões maior.
+O Provedor de Padrões ME Estendido é um <ItemLink id="ae2:pattern_provider" /> com um inventário de
+padrões maior.
 
-*Quem precisa de uma sub-rede quando você pode colocar todos os seus padrões num único bloco?*
+*Quem precisa de sub-rede quando dá para colocar todos os padrões num único bloco?*
 
 ![EPPGui](../pic/epp_gui.png)

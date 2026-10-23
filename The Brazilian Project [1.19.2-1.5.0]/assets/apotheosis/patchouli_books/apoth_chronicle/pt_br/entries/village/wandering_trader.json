@@ -1,0 +1,21 @@
+{
+    "name": "Vendedor Ambulante",
+    "icon": "minecraft:emerald",
+    "category": "apotheosis:village/village",
+    "flag": "apotheosis:village",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Já encontrou um daqueles comerciantes suspeitos que simplesmente aparecem no seu jardim?$(p)Eles são chamados de $(9)Vendedores Ambulantes$().$(p)Normalmente só vendem porcaria."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Porém, o Apotheosis adiciona um monte de trocas novas às tabelas deles, então vale a pena interagir.$(p)Essas trocas incluem itens como $(9)Sinalizadores$() ou $(9)Totens da Imortalidade$(), e equipamentos de diamante fortemente encantados."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O Apotheosis também melhora as taxas de geração dos Vendedores Ambulantes e permite que surjam no subterrâneo, em vez de só na superfície."
+        }
+    ]
+}

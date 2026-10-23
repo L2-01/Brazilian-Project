@@ -5,6 +5,6 @@ navigation:
   title: Núcleo de Aniquilação
 ---
 
-Um componente capaz de converter matéria em energia.
+Um componente que pode converter matéria em energia.
 
 <RecipeFor id="annihilation_core" />

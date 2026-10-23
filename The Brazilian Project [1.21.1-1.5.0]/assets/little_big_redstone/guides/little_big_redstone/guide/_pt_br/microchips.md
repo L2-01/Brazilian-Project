@@ -39,27 +39,26 @@ item_ids:
 	</PaddedBox>
 </FloatingColumn>
 
-Microchips são blocos que podem ter [lógica](logic/introduction.md) colocada dentro deles para criar sistemas complexos.
-[Fios](redstone_bits.md) podem ser colocados entre lógicas para permitir que os sinais sejam transportados de um componente lógico para
-outro.
+Os microchips são blocos onde se pode colocar [lógica](logic/introduction.md) para criar sistemas complexos.
+[Fios](redstone_bits.md) podem ser colocados entre as lógicas para levar sinais de um componente lógico a outro.
 
-Enquanto estiver no menu do microchip, você pode aumentar e diminuir o zoom usando o scroll do mouse. Segurar o clique esquerdo e arrastar moverá
-a área de visualização do circuito.
+Enquanto estiver no menu do microchip, você pode aproximar e afastar o zoom com a roda de rolagem. Segurar o botão
+esquerdo e arrastar move a área de visão do circuito.
 
 ### Direções
 
-Ao usar componentes lógicos que recebem ou emitem sinal para o mundo, você precisará definir a direção que ele utiliza.
-O microchip usa direções cardeais, significando <Color color="#4CFF00">norte</Color>,
-<Color color="#0094FF">sul</Color>, <Color color="#FF0000">leste</Color>, e <Color color="#FF6A00">oeste</Color>,
-assim como <Color color="#FFFFFF">para cima</Color> e <Color color="#FFD800">para baixo</Color>. A cor de uma direção pode ser vista
-na lateral de um microchip pressionando **<KeyBind id="key.sneak" />** e olhando para ele.
+Ao usar componentes lógicos que recebem entrada do mundo ou emitem saída para ele, você precisará definir a
+direção usada. O microchip usa direções cardeais, ou seja, <Color color="#4CFF00">norte</Color>,
+<Color color="#0094FF">sul</Color>, <Color color="#FF0000">leste</Color> e <Color color="#FF6A00">oeste</Color>,
+além de <Color color="#FFFFFF">acima</Color> e <Color color="#FFD800">abaixo</Color>. A cor de cada direção pode ser
+vista na lateral de um microchip pressionando **<KeyBind id="key.sneak" />** e olhando para ele.
 
 ### Coloração
 
-Microchips podem ser tingidos com qualquer uma das 16 cores de corante padrão, e o menu refletirá a cor. Componentes lógicos podem ser
-tingidos separadamente do microchip, mas por padrão eles herdarão a cor do microchip em que são colocados.
-Para tingir componentes lógicos, você pode fazê-lo em sua grade de criação, como faria normalmente, ou pode clicar com o botão direito no
-componente lógico no menu com o corante para aplicá-lo.
+Os microchips podem ser tingidos em qualquer uma das 16 cores de corante padrão, e o menu refletirá a cor. Os
+componentes lógicos podem ser tingidos separadamente do microchip, mas por padrão herdam a cor do microchip em que
+são colocados. Para tingir componentes lógicos, você pode fazê-lo na sua grade de fabricação como de costume, ou
+clicar com o botão direito na lógica no menu segurando o corante para aplicá-lo.
 
-Similarmente, você pode usar um balde de água ou bolas de neve para remover a cor do componente lógico. Observe que as bolas de neve
-serão consumidas, enquanto os baldes de água não.
+Da mesma forma, você pode usar um balde de água ou bolas de neve para remover a cor do componente lógico. Note
+que as bolas de neve são consumidas, enquanto os baldes de água não.

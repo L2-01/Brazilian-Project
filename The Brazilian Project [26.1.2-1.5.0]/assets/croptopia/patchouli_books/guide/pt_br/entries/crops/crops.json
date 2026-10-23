@@ -1,11 +1,11 @@
 {
-  "name": "Plantações",
-  "icon": "croptopia:eggplant_seed",
-  "category": "croptopia:crops",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "As plantações podem ser encontradas pelo mundo. Elas têm biomas específicos onde aparecem. Na 2.0.0, a geração de plantações agora é determinada por datapacks em vez da \"categoria\" do bioma — agora é determinada pelo nome do bioma. Se quiser certas plantações adicionadas a biomas de mods, abra uma issue na minha página do github."
-    }
-  ]
+    "name": "Plantas",
+    "icon": "croptopia:eggplant_seed",
+    "category": "croptopia:crops",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Plantações podem ser encontradas pelo mundo. Elas têm biomas específicos em que aparecem. Na 2.0.0, a geração de plantações passou a ser determinada por datapacks, em vez da 'categoria' do bioma — agora é determinada pelo nome do bioma. Se quiser que certas plantações sejam adicionadas a biomas de mods, abra uma issue na minha página do github."
+        }
+    ]
 }

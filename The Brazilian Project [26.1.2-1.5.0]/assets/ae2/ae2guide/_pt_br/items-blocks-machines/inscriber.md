@@ -15,13 +15,13 @@ item_ids:
 <BlockImage id="inscriber" scale="8" />
 
 O inscritor é usado para inscrever circuitos e [processadores](processors.md) usando [prensas](presses.md), e para triturar vários itens em pó.
-Ele pode aceitar tanto a energia do AE2 (AE) quanto Fabric/Forge Energy (E/FE). Ele pode ser dividido em lados, de modo que inserir itens por lados diferentes
-os insere em slots diferentes do seu inventário. Para facilitar isso, ele pode ser girado com uma <ItemLink id="certus_quartz_wrench" />.
+Ele pode aceitar tanto a energia do AE2 (AE) quanto Fabric/Forge Energy (E/FE). Ele pode ser direcionado por face, de modo que inserir itens por lados diferentes
+os coloca em slots diferentes de seu inventário. Para facilitar isso, ele pode ser girado com uma <ItemLink id="certus_quartz_wrench" />.
 Ele também pode ser configurado para empurrar os resultados das fabricações para inventários adjacentes.
 
-O tamanho do buffer de entrada pode ser ajustado. Por exemplo, se você quer alimentar de um inventário para uma grande matriz de inscritores,
+O tamanho do buffer de entrada pode ser ajustado. Por exemplo, se você quer alimentar um grande conjunto de inscritores a partir de um inventário,
 você quer um buffer pequeno para que os materiais sejam distribuídos entre os inscritores de forma mais otimizada (em vez do primeiro
-inscritor encher até 64 e o resto ficar vazio).
+inscritor encher até 64 e os demais ficarem vazios).
 
 As 4 prensas de circuito são usadas para fabricar [processadores](processors.md)
 
@@ -35,42 +35,42 @@ As 4 prensas de circuito são usadas para fabricar [processadores](processors.md
   <ItemImage id="engineering_processor_press" scale="4" />
 </Row>
 
-Enquanto a prensa de nome pode ser usada para nomear blocos semelhante a uma bigorna, útil para rotular coisas num <ItemLink id="pattern_access_terminal" />.
+Já a prensa de nome pode ser usada para nomear blocos, parecido com uma bigorna — útil para etiquetar coisas num <ItemLink id="pattern_access_terminal" />.
 
 <ItemImage id="name_press" scale="4" />
 
 ## Configurações
 
-* O inscritor pode ser configurado para ter lados (como explicado abaixo) ou permitir entradas em qualquer slot por qualquer lado, com um filtro interno decidindo
-    o que vai para onde. Enquanto no modo sem lados, itens não podem ser extraídos dos slots de cima e de baixo.
+* O inscritor pode ser configurado para ser direcionado por face (como explicado abaixo) ou permitir entradas em qualquer slot por qualquer lado, com um filtro interno decidindo
+    o que vai para onde. No modo não direcionado, itens não podem ser extraídos dos slots de cima e de baixo.
 * O inscritor pode ser configurado para empurrar itens para inventários adjacentes.
-* O tamanho do buffer de entrada pode ser ajustado: a opção grande é para um inscritor solitário que você alimenta manualmente, a
-opção pequena serve para tornar grandes esquemas paralelizados mais viáveis.
+* O tamanho do buffer de entrada pode ser ajustado: a opção grande é para um inscritor isolado que você alimenta manualmente, a
+opção pequena torna grandes configurações paralelizadas mais viáveis.
 
-## A GUI e os Lados
+## A GUI e o Direcionamento por Face
 
-Quando no modo com lados, o inscritor filtra o que vai para onde por qual lado você insere ou extrai.
+No modo direcionado, o inscritor filtra o que vai para onde pelo lado pelo qual você insere ou extrai.
 
-![Inscriber GUI](../assets/diagrams/inscriber_gui.png) ![Inscriber Sides](../assets/diagrams/inscriber_sides.png)
+![GUI do Inscritor](../assets/diagrams/inscriber_gui.png) ![Lados do Inscritor](../assets/diagrams/inscriber_sides.png)
 
-A. **Entrada de Cima** acessada pelo lado de cima do inscritor (itens podem ser tanto empurrados para quanto puxados deste slot)
+A. **Entrada Superior** acessada pelo lado de cima do inscritor (itens podem ser tanto empurrados para quanto puxados deste slot)
 
-B. **Entrada Central** inserida pelos lados esquerdo, direito, frontal e traseiro do inscritor (itens só podem ser empurrados para este slot, não puxados dele)
+B. **Entrada Central** inserida pelos lados esquerdo, direito, frontal e traseiro do inscritor (itens só podem ser empurrados para este slot, não puxados)
 
-C. **Entrada de Baixo** acessada pelo lado de baixo do inscritor (itens podem ser tanto empurrados para quanto puxados deste slot)
+C. **Entrada Inferior** acessada pelo lado de baixo do inscritor (itens podem ser tanto empurrados para quanto puxados deste slot)
 
-D. **Saída** puxada pelos lados esquerdo, direito, frontal e traseiro do inscritor (itens só podem ser puxados deste slot, não empurrados para ele)
+D. **Saída** puxada pelos lados esquerdo, direito, frontal e traseiro do inscritor (itens só podem ser puxados deste slot, não empurrados)
 
 ## Automação Simples
 
-Como exemplo, os lados e a capacidade de girar significam que você pode semiautomatizar inscritores assim:
+Como exemplo, o direcionamento e a capacidade de rotação permitem semiautomatizar inscritores assim:
 
 <GameScene zoom="4" background="transparent">
   <ImportStructure src="../assets/assemblies/inscriber_hopper_automation.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-Ou simplesmente ligue canos para dentro e para fora do inscritor quando estiver no modo sem lados.
+Ou simplesmente use tubos para dentro e para fora do inscritor no modo não direcionado.
 
 ## Melhorias
 

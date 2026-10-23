@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A $(d)Pedra Branca$() tem o poder de $(3)impedir sua morte uma vez$() enquanto estiver carregada. Ao fazer isso, o item descarrega totalmente.$(br2)Para recarregá-la, $(3)exponha-a à lua cheia$(). Ela ganhará carga sob o céu noturno enquanto a lua cheia estiver no auge, seja derrubada no chão ou no seu inventário.",
+      "text": "A $(d)Pedra Branca$() tem o poder de $(3)impedir sua morte uma vez$() enquanto carregada. Isso descarrega totalmente o item.$(br2)Para recarregá-la, $(3)exponha-a à lua cheia$(). Ela ganhará carga enquanto estiver sob o céu noturno durante o pico da lua cheia, tanto largada no chão quanto no seu inventário.",
       "title": "Pedra Branca"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:white_stone",
       "link_recipe": true,
-      "text": "A Pedra Branca pode ser encontrada raramente em baús de masmorras."
+      "text": "A Pedra Branca pode ser raramente encontrada em baús de masmorra."
     }
   ]
 }

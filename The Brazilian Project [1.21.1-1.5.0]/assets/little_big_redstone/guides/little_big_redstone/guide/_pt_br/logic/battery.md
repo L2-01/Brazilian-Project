@@ -5,7 +5,7 @@ navigation:
   parent: little_big_redstone:logic.md
   position: 13
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:battery
 ---
@@ -14,8 +14,7 @@ item_ids:
 
 <FloatingColumn width="100" align="right">
 	### Analógico
-	O sinal de saída da bateria será igual à força de sinal configurada. O sinal não excederá a faixa de
-	0 a 15.
+	O sinal de saída da bateria será igual à força de sinal configurada. O sinal não excederá a faixa de 0 a 15.
 </FloatingColumn>
 
 <Row>
@@ -31,8 +30,8 @@ item_ids:
 	</Column>
 </Row>
 
-A bateria é um componente lógico bem simples. A força do sinal de saída será sempre igual ao valor de força de sinal
-configurado.
+A bateria é um componente lógico bem simples. A força do sinal de saída será sempre igual ao valor de força de
+sinal configurado.
 
 <MicrochipScene color="red" includeToolbar={true}>
 	<Logic name="battery" x="0" y="0" type="battery" />

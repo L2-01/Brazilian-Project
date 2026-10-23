@@ -1,0 +1,67 @@
+---
+title: Níveis
+icon: minecraft:experience_bottle
+related_items: [kindredspirits:kindred_charm]
+---
+
+Um espírito vinculado sobe do nível 1 ao 30. Cada nível aumenta seus atributos base: vida,
+ataque, armadura e velocidade, com espécies de crescimento rápido ganhando mais por nível que as
+lentas.
+
+## De onde vem a experiência
+
+Seu espírito aprende com você. Sempre que você pega orbes de experiência e seu espírito
+vinculado está fora e num raio de 32 blocos, ele recebe **metade dessa quantia** como
+própria. Mate coisas, minere, funda, crie animais: o que render orbes para você rende
+progresso para ele. Frascos de Encantamento são a exceção: a experiência deles é só sua. Experiência que chega a você sem orbe, como níveis devolvidos por uma
+sepultura, retirada de um bloco de armazenamento de experiência, concedida por um progresso ou um
+comando, também é só sua.
+Alimentá-lo também concede um pouco (4 pontos por refeição).
+
+Um vínculo maior acelera isso, multiplicando cada ganho em até 2,5x no vínculo 30.
+Cada estrela adiciona mais 20% em cima disso, então um espírito de cinco estrelas aprende duas
+vezes mais rápido que um novo, e 5x no vínculo 30. A linha Taxa de XP no popup
+de Atributos mostra a taxa combinada.
+
+O primeiro nível custa 93 de experiência e cada nível seguinte custa 46 a mais
+que o anterior, então a subida completa ao nível 30 leva cerca de 21.400 pontos.
+
+## Saturação
+
+Um espírito se cansa da mesma luta. Cada ponto que ele ganha adiciona um a um contador
+de saturação que drena a um por segundo:
+
+- Abaixo de 200 de saturação ele aprende na taxa cheia.
+- A partir de 200 ele aprende na **metade** da taxa.
+- A partir de 500 ele aprende a um **décimo** da taxa.
+
+Ficar parado numa farm de criaturas esbarra nisso rápido. A saturação zera por completo
+quando você se afasta **três chunks** de onde ela começou, então a resposta é simplesmente
+ir para outro lugar por um tempo.
+
+## Experiência de descanso
+
+O tempo longe não é desperdiçado. Após cinco minutos sem um ganho, seu espírito começa
+a acumular experiência de descanso a um ponto por segundo, até 1.200, e continua
+fazendo isso enquanto descansa no amuleto. Enquanto tiver algo acumulado, todo ganho é
+**dobrado**, com o bônus descontado da reserva até ela secar.
+
+## Crescimento de atributos
+
+Cada nível adiciona uma quantia fixa aos atributos do nível 1, escalonada pela taxa de
+crescimento da espécie:
+
+- Vida: +1 por nível
+- Ataque: +0,35 por nível
+- Armadura: +0,125 por nível
+- Velocidade: +0,002 por nível
+
+Uma espécie 1,5x como o Dragão Bebê ganha metade a mais de cada; uma espécie 0,5x
+como o Minijogador ganha metade. As estrelas aumentam isso ainda mais, veja
+[Estrelas e Prestígio](./stars).
+
+## Bônus de atributos que não são níveis
+
+Algumas coisas aumentam atributos além do crescimento: estrelas, certas habilidades (Impulso Alfa)
+e equipamentos (Luvas de Boxe, Tênis de Corrida). Todas aparecem nos números
+da tela do amuleto.

@@ -1,19 +1,19 @@
 {
-    "name": "Componentes de Fabricação",
-    "icon": "mffs:focus_matrix",
-    "category": "mffs:getting_started",
-    "sortnum": 2,
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:focus_matrix",
-            "link_recipe": true,
-            "text": "Uma placa de aço resistente usada para fabricar $(l:mffs:projector_modes)Modos do Projetor$(), $(l:mffs:projector_modules)Módulos do Projetor$() e $(l:mffs:machines)Máquinas$(). Sempre bom ter alguns à mão."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:focus_matrix",
-            "text": "Fabricando a Matriz de Foco."
-        }
-    ]
+  "name": "Componentes de Fabricação",
+  "icon": "mffs:focus_matrix",
+  "category": "mffs:getting_started",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:focus_matrix",
+      "link_recipe": true,
+      "text": "Uma placa de aço resistente usada para fabricar $(l:mffs:projector_modes)Modos de Projetor$(), $(l:mffs:projector_modules)Módulos de Projetor$() e $(l:mffs:machines)Máquinas$(). Sempre bom ter algumas à mão."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:focus_matrix",
+      "text": "Fabricando a Matriz de Foco."
+    }
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "name": "Melhoria de Coleta Rápida",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:fast_pickup_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Esta melhoria só pode ser adicionada ao $(l:modules/vacuum)Módulo de Vácuo/$. Ela permite que o Módulo de Vácuo ignore o atraso normal de coleta de itens soltos — 40 tiques para itens soltos por jogadores e 10 tiques para itens soltos por outros meios (ex.: tosquia de ovelhas) — e colete itens assim que os vê.$(p)Um máximo de uma Melhoria de Coleta Rápida pode ser adicionada."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:fast_pickup_augment"
+    }
+  ]
+}

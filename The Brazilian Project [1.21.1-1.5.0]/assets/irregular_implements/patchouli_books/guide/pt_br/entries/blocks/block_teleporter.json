@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O $(d)Teletransportador de Blocos$() permite $(3)teletransportar o bloco à sua frente para outro Teletransportador de Blocos$() quando energizado por redstone.$(br2)Use um $(l:items/location_filter)Filtro de Localização$(/l) num Teletransportador de Blocos para salvar sua localização e depois insira esse filtro num segundo Teletransportador de Blocos.",
+      "text": "O $(d)Teletransportador de Blocos$() permite $(3)teleportar o bloco à sua frente para outro Teletransportador de Blocos$() quando energizado por Redstone.$(br2)Use um $(l:items/location_filter)Filtro de Localização$(/l) num Teletransportador de Blocos para salvar sua localização, e então insira esse Filtro num segundo Teletransportador de Blocos.",
       "title": "Teletransportador de Blocos"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:block_teleporter",
       "link_recipe": true,
-      "text": "Quando esse segundo Teletransportador de Blocos é energizado, ele tentará trocar o bloco à frente do primeiro Teletransportador de Blocos pelo bloco à sua própria frente.$(br2)Se o Teletransportador de Blocos funciona entre dimensões pode ser configurado, mas o padrão é verdadeiro."
+      "text": "Quando esse segundo Teletransportador de Blocos é energizado, ele tentará trocar o bloco à frente do primeiro Teletransportador pelo bloco à sua própria frente.$(br2)Se o Teletransportador funciona ou não entre dimensões pode ser configurado, mas o padrão é verdadeiro."
     }
   ]
 }

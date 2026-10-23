@@ -1,37 +1,37 @@
 {
-    "name": "Derivador de Coerção",
-    "icon": "mffs:coercion_deriver",
-    "category": "mffs:machines",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:coercion_deriver",
-            "link_recipe": true,
-            "text": "O $(9)Derivador de Coerção$() é um membro da família de máquinas do MFFS. Ele é usado principalmente para gerar $(l:mffs:getting_started/fortron)Fortron$() a partir de energia FE, que outras máquinas MFFS requerem para funcionar. Um $(9)Derivador de Coerção$() é projetado para trabalhar em conjunto com um $(l:mffs:machines/fortron_capacitor)Capacitor de Fortron$() para carregá-lo com $(l:mffs:getting_started/fortron)Fortron$(). O $(l:mffs:getting_started/fortron)Fortron$() é então distribuído às outras máquinas pelo Capacitor."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:coercion_deriver",
-            "text": "Fabricando o $(9)Derivador de Coerção$()."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Uso",
-            "text": "Para gerar $(l:mffs:getting_started/fortron)Fortron$(), conecte o $(9)Derivador de Coerção$() a uma fonte de FE e ative-o usando um sinal de Redstone. Uma vez energizado e ativado, o $(9)Derivador de Coerção$() mudará de vermelho para azul e começará a gerar $(l:mffs:getting_started/fortron)Fortron$(). Um $(9)Derivador de Coerção$() pode ser vinculado a outras máquinas MFFS, como um $(l:mffs:machines/fortron_capacitor)Capacitor de Fortron$(), definindo seu número de frequência para o mesmo das outras máquinas."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Isso pode ser feito:$(li)Clicando com o botão direito no Derivador e inserindo o número de frequência desejado na sua tela de GUI$(li)Agachando e clicando com o botão direito no Derivador de Coerção enquanto segura um Cartão de Frequência$(p)A habilidade do $(9)Derivador de Coerção$() de gerar $(l:mffs:getting_started/fortron)Fortron$() pode ser amplificada usando $(2)Lápis-Lazúli$() ou $(2)Quartzo do Nether$(). Para isso, coloque um deles no espaço ao lado da seta. Isso deve aumentar a produção de $(l:mffs:getting_started/fortron)Fortron$() em cerca de 20x."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Modos de Operação",
-            "text": "O $(9)Derivador de Coerção$() tem dois modos de operação: Derivar e Integrar. Por padrão, ele está definido como Derivar - significando que ele converte continuamente o FE fornecido em $(l:mffs:getting_started/fortron)Fortron$(). Clicar no botão $(2)Derivar$() no meio da tela de GUI alterna seu modo de operação para $(2)Integrar$() e vice-versa. No modo Integrar, o Derivador opera em reverso, convertendo o $(l:mffs:getting_started/fortron)Fortron$() disponível de volta em FE."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Melhorias",
-            "text": "Um Derivador de Coerção pode ser melhorado com vários módulos para melhorar seu desempenho.$(li)$(l:mffs:upgrade_modules/speed_module)$(5)Módulo de Velocidade$(): Aumenta o efeito de reforço obtido ao inserir $(2)Lápis-Lazúli$() ou $(2)Quartzo do Nether$() no Derivador.$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)Módulo de Capacidade$(): Aumenta a quantidade de $(l:mffs:getting_started/fortron)Fortron$() que o Derivador consegue armazenar.$()"
-        }
-    ]
+  "name": "Derivador de Coerção",
+  "icon": "mffs:coercion_deriver",
+  "category": "mffs:machines",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:coercion_deriver",
+      "link_recipe": true,
+      "text": "O $(9)Derivador de Coerção$() é um membro da família de máquinas MFFS. É usado principalmente para gerar $(l:mffs:getting_started/fortron)Fortron$() a partir de energia FE, que as outras máquinas MFFS precisam para funcionar. Um $(9)Derivador de Coerção$() foi feito para trabalhar em conjunto com um $(l:mffs:machines/fortron_capacitor)Capacitor de Fortron$() para carregá-lo com $(l:mffs:getting_started/fortron)Fortron$(). O $(l:mffs:getting_started/fortron)Fortron$() é então distribuído às outras máquinas pelo Capacitor."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:coercion_deriver",
+      "text": "Fabricando o $(9)Derivador de Coerção$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "Para gerar $(l:mffs:getting_started/fortron)Fortron$(), conecte o $(9)Derivador de Coerção$() a uma fonte de FE e ative-o com um sinal de Redstone. Uma vez energizado e ativado, o $(9)Derivador de Coerção$() mudará de vermelho para azul e começará a gerar $(l:mffs:getting_started/fortron)Fortron$(). Um $(9)Derivador de Coerção$() pode ser vinculado a outras máquinas MFFS, como um $(l:mffs:machines/fortron_capacitor)Capacitor de Fortron$(), definindo seu número de frequência igual ao das outras máquinas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Isso pode ser feito de duas formas:$(li)Clicando com o botão direito no Derivador e digitando o número de frequência desejado em sua interface$(li)Usando shift + clique direito no Derivador de Coerção segurando um Cartão de Frequência$(p)A capacidade do $(9)Derivador de Coerção$() de gerar $(l:mffs:getting_started/fortron)Fortron$() pode ser amplificada usando $(2)Lápis-Lazúli$() ou $(2)Quartzo do Nether$(). Para isso, coloque um deles no slot ao lado da seta. Isso deve aumentar a produção de $(l:mffs:getting_started/fortron)Fortron$() em cerca de 20x."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Modos de Operação",
+      "text": "O $(9)Derivador de Coerção$() tem dois modos de operação: Derivar e Integrar. Por padrão, está definido como Derivar — ou seja, converte continuamente a FE fornecida em $(l:mffs:getting_started/fortron)Fortron$(). Clicar no botão $(2)Derivar$() no meio da interface alterna seu modo de operação para $(2)Integrar$() e vice-versa. No modo Integrar, o Derivador opera ao contrário, convertendo o $(l:mffs:getting_started/fortron)Fortron$() disponível de volta em FE."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Aprimoramento",
+      "text": "Um Derivador de Coerção pode ser aprimorado com vários módulos para melhorar seu desempenho.$(li)$(l:mffs:upgrade_modules/speed_module)$(5)Módulo de Velocidade$(): Aumenta o efeito de impulso obtido ao inserir $(2)Lápis-Lazúli$() ou $(2)Quartzo do Nether$() no Derivador.$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)Módulo de Capacidade$(): Aumenta a quantidade de $(l:mffs:getting_started/fortron)Fortron$() que o Derivador pode armazenar.$()"
+    }
+  ]
 }

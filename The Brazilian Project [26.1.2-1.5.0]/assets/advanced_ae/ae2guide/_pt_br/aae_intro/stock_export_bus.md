@@ -16,7 +16,6 @@ item_ids:
 </GameScene>
 
 O Ponto de Exportação de Estoque pode ser configurado para exportar uma quantidade exata das pilhas filtradas. Ele acompanha a quantidade
-atualmente presente no inventário-alvo e não insere acima desse número. Para configurá-lo, você abre a GUI, arrasta
-o item desejado para o espaço de filtro e, com um clique do meio, configura a quantidade. Note que ele não
-regula a saída, ou seja, não extrai itens/fluidos extras do inventário se eles passarem da quantidade
-configurada.
+atualmente presente no inventário-alvo e não insere acima desse número. Para configurá-lo, abra a GUI, arraste
+o item desejado para o espaço de filtro e, usando o botão do meio, você pode configurar a quantidade. Note que ele não
+regulará a saída, o que significa que não extrairá itens/fluidos extras do inventário se passarem da quantidade configurada.

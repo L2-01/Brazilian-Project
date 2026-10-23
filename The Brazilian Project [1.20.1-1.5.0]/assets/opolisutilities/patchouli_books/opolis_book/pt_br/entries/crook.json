@@ -6,12 +6,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "Um gancho pode ser usado para aumentar os itens largados das folhas.$(br2)Também faz as folhas quebrarem instantaneamente.$(br2)As ovelhas também seguem o jogador quando ele segura este item.$(br2)O número de usos pode ser ajustado no arquivo de configuração."
+			"text": "Um gancho pode ser usado para aumentar os drops de folhas.$(br2)Também faz as folhas quebrarem instantaneamente.$(br2)Ovelhas também seguirão o jogador quando ele segurar este item.$(br2)O número de rolos pode ser ajustado no arquivo de configuração."
 		},
 		{
-        	"type": "crafting",
-        	"recipe": "opolisutilities:crook",
-        	"text": "Detonando essas folhas."
-        }
+			"type": "crafting",
+			"recipe": "opolisutilities:crook",
+			"text": "Esmagando aquelas folhas."
+		}
 	]
 }

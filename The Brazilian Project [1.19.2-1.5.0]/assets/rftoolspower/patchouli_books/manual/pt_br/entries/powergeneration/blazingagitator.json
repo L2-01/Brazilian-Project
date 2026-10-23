@@ -1,0 +1,16 @@
+{
+    "name": "Agitador Ardente",
+    "icon": "rftoolspower:blazing_agitator",
+    "category": "rftoolspower:category_rftoolspower_powergeneration",
+    "sortnum": 23,
+    "pages": [
+        {
+            "type": "text",
+            "text": "As varetas de blaze precisam ser processadas pelo agitador ardente antes de poderem ser usadas no $(l:rftoolspower:powergeneration/blazinggenerator)Gerador Ardente$(/l). Usando um pouco de energia, o agitador aumentará lentamente a potência das varetas de blaze colocadas na área de entrada. Note que varetas de blaze adjacentes a outras melhorarão a qualidade e a velocidade com que isso acontece"
+        },
+        {
+            "type": "text",
+            "text": "Vale a pena gastar algum tempo melhorando varetas ardentes até ter varetas de alta qualidade que você possa usar para melhorar a qualidade de outras varetas ardentes produzidas por este agitador. Por isso existem 9 botões que você pode usar para impedir que varetas ardentes totalmente processadas vão para a área de saída"
+        }
+    ]
+}

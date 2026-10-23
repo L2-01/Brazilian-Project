@@ -1,0 +1,41 @@
+---
+title: Gerador de Desencantamento
+id: excessive_utilities:disenchantment_generator
+related_items: [excessive_utilities:disenchantment_generator]
+type: block
+---
+O **Gerador de Desencantamento** destrói itens encantados para gerar FE.
+
+Encantamentos mais raros geram mais FE, usando as fórmulas:
+
+```kt
+		fun getPowerFromStack(itemStack: ItemStack): Int {
+			val enchantments = EnchantmentHelper.getEnchantmentsForCrafting(itemStack)
+
+			var totalPower = 0
+
+			for ((enchantment, enchantLevel) in enchantments.entrySet()) {
+				totalPower += getPowerFromEnchantment(enchantment.value(), enchantLevel)
+			}
+
+			return totalPower
+		}
+
+		fun getPowerFromEnchantment(enchantment: Enchantment, level: Int): Int {
+			val minLevel = enchantment.minLevel
+			val maxLevel = enchantment.maxLevel
+			val weight = enchantment.weight
+
+			val a = sqrt(min(level + 1, maxLevel) / maxLevel.toDouble())
+			val b = (maxLevel * maxLevel) * (level + 1)
+			val c = minLevel / sqrt(weight.toDouble())
+
+			return Mth.ceil(a * b * c) * 400
+		}
+```
+
+## Configuração
+
+O Gerador de Desencantamento atualmente não pode ser configurado.
+
+<PrefabObtaining/>

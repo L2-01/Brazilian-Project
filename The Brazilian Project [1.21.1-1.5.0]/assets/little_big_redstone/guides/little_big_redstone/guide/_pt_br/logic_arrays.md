@@ -59,19 +59,20 @@ item_ids:
 	</PaddedBox>
 </FloatingColumn>
 
-Matrizes lógicas podem armazenar [lógica](logic/introduction.md) e [Bits de Redstone](redstone_bits.md) para economizar espaço no inventário
-e permitir fácil acesso ao construir seus circuitos.
+As matrizes lógicas podem guardar [lógica](logic/introduction.md), [Bits de Redstone](redstone_bits.md) e
+[Notas Adesivas](sticky_notes.md) para economizar espaço no inventário e dar acesso fácil ao montar seus circuitos.
 
 ### Inventário
 
-Matrizes lógicas possuem 28 slots. O inventário pode ser aberto segurando a matriz lógica na mão e pressionando
-**<KeyBind id="key.use" />**. Enquanto estiver no menu de um [Microchip](microchips.md), você pode visualizar o conteúdo de qualquer
-uma das matrizes lógicas em seu inventário. Por padrão, ele selecionará a primeira matriz lógica em seu inventário para exibir. A
-qualquer momento no menu do microchip, você pode clicar com o botão esquerdo em uma de suas matrizes lógicas para selecioná-la. Dessa forma, você pode
-ter múltiplas matrizes lógicas e acessar todas elas enquanto trabalha em seu circuito.
+As matrizes lógicas têm 28 espaços. O inventário pode ser aberto segurando a matriz lógica na mão e pressionando
+**<KeyBind id="key.use" />**. Enquanto estiver no menu de um [Microchip](microchips.md), você pode ver o conteúdo de
+qualquer matriz lógica do seu inventário. Por padrão, a primeira matriz lógica do inventário é selecionada para
+exibição. A qualquer momento dentro do menu do microchip, você pode clicar com o botão esquerdo numa das suas
+matrizes lógicas para selecioná-la. Assim, você pode ter várias matrizes lógicas e acessar todas elas enquanto
+trabalha no circuito.
 
-Abaixo estão dois exemplos do que você pode esperar do menu da matriz lógica. À esquerda está quando você abre a matriz lógica sozinha,
-e à direita é quando você abre a matriz lógica estando dentro do microchip.
+Abaixo estão dois exemplos do que esperar do menu da matriz lógica. À esquerda está a matriz lógica aberta
+sozinha, e à direita a matriz lógica aberta dentro do microchip.
 
 <FloatingImage src="assets/logic_array_menu.png" />
 

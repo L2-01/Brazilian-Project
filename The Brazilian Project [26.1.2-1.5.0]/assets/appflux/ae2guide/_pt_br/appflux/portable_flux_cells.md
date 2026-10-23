@@ -37,6 +37,6 @@ item_ids:
   </Row>
 </Column>
 
-As células de FE portáteis têm apenas um quarto do tamanho das [células de FE](./flux_cells.md) normais.
+As células FE portáteis têm apenas um quarto do tamanho das [células FE](./flux_cells.md) normais.
 
-No entanto, você pode instalar um <ItemLink id="appflux:induction_card"/> numa célula de FE portátil, e ela carregará automaticamente os itens do seu inventário.
+No entanto, você pode instalar um <ItemLink id="appflux:induction_card"/> nas células FE portáteis, e elas carregarão automaticamente os itens do seu inventário.

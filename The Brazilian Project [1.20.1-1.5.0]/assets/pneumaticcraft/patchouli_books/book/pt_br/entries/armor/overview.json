@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "E se você misturar o $(pncr) com o HUD do $(thing)Homem de Ferro/$? Você obtém a $(thing)Armadura Pneumática/$!$(p)Embora esta armadura tenha sido inspirada no brinquedo do Tony Stark, isso não significa que ela seja invencível de forma alguma: por padrão, a armadura tem proteção e durabilidade apenas levemente melhores que a peça equivalente de $(thing)Armadura de Ferro/$. "
+      "text": "E se você misturar $(pncr) com o HUD do $(thing)Homem de Ferro/$? Você obtém a $(thing)Armadura Pneumática/$!$(p)Embora esta armadura tenha sido inspirada no brinquedo do Tony Stark, isso não significa que ela seja invencível de forma alguma: por padrão, a armadura tem proteção e durabilidade apenas um pouco melhores que a peça de $(thing)Armadura de Ferro/$ equivalente. "
     },
     {
       "type": "image",
@@ -19,60 +19,60 @@
     },
     {
       "type": "text",
-      "text": "Porém, esta armadura é altamente aprimorável. Para usar melhorias (e para pressurizar a armadura), coloque a armadura numa $(l:machines/charging_station)Estação de Carga/$.$(p)As melhorias comuns a todas as peças são descritas nas páginas seguintes. As melhorias específicas de cada peça são descritas separadamente nas páginas de cada peça da armadura."
+      "text": "Porém, esta armadura é altamente aprimorável. Para usar melhorias (e para pressurizar a armadura), coloque a armadura numa $(l:machines/charging_station)Estação de Carga/$.$(p)As melhorias comuns a todas as peças são descritas nas páginas seguintes. Melhorias específicas de cada peça são descritas separadamente nas páginas de cada peça de armadura."
     },
     {
       "type": "text",
-      "text": "Quando você equipa uma peça da armadura, ela $(thing)inicializa/$ em alguns segundos. Você pode pressionar $(thing)$(k:pneumaticcraft.armor.options)/$ para abrir uma GUI que permite configurar as melhorias instaladas e ajustar o HUD da armadura. Com mais melhorias instaladas, mais opções aparecerão na GUI.$(p)Note que todas as melhorias podem ser ativadas/desativadas via as caixas de seleção da GUI, e você pode até vincular uma tecla a cada caixa para alternar recursos rapidamente fora da GUI."
+      "text": "Quando você equipa uma peça de armadura, ela $(thing)inicializará/$ em alguns segundos. Você pode pressionar $(thing)$(k:pneumaticcraft.armor.options)/$ para abrir uma GUI, que permite configurar as melhorias instaladas e ajustar o HUD da armadura. Com mais melhorias instaladas, mais opções aparecerão na GUI.$(p)Note que todas as melhorias podem ser ligadas/desligadas pelas caixas de seleção da GUI, e você pode até vincular uma tecla a cada caixa para alternar recursos rapidamente fora da GUI."
     },
     {
       "type": "spotlight",
       "item": "minecraft:anvil",
       "title": "Reparando",
-      "text": "Há algumas formas de manter sua valiosa armadura em bom estado:$(li)Ela pode ser reparada numa $(thing)Bigorna/$ com Barras de Ferro Comprimido$(li)Adicione $(thing)Melhorias de Vida de Item/$ a cada peça para que ela se repare sozinha$(li)Aplique o encantamento $(thing)Remendo/$ em cada peça"
+      "text": "Há algumas formas de manter sua valiosa armadura em boas condições:$(li)Ela pode ser reparada numa $(thing)Bigorna/$ com Lingotes de Ferro Comprimido$(li)Adicione $(thing)Melhorias de Vida de Item/$ a cada peça para que ela se repare sozinha$(li)Aplique o encantamento $(thing)Remendo/$ em cada peça"
     },
     {
       "type": "text",
       "title": "Coloração",
-      "text": "Cada peça da armadura pode ser recolorida dinamicamente a partir da textura cinza padrão; cada peça tem uma cor $(thing)primária/$ e uma $(thing)secundária/$ que podem ser ajustadas independentemente, e a $(thing)lente/$ do Capacete também pode ter sua própria cor.$(p)Para ajustar as cores, basta usar a tela $(bold)Cores.../$ na tela principal da GUI da armadura. Nenhuma melhoria especial é necessária para isso; é funcionalidade embutida!"
+      "text": "Toda peça de armadura pode ser recolorida dinamicamente a partir da textura cinza padrão; cada peça tem uma cor $(thing)primária/$ e uma $(thing)secundária/$ que podem ser ajustadas independentemente, e a $(thing)lente/$ do Capacete também pode ter sua própria cor.$(p)Para ajustar as cores, basta usar a tela $(bold)Cores.../$ na tela principal da GUI da armadura. Nenhuma melhoria especial é necessária para isso; é funcionalidade embutida!"
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:speed_upgrade",
-      "text": "As $(l:base_concepts/upgrades#speed)Melhorias de Velocidade/$ reduzem o tempo de inicialização de cada peça da armadura. Além disso, elas reduzem o tempo de mira do $(l:armor/pneumatic_helmet)Capacete/$ para o $(l:base_concepts/upgrades#entity_tracker)Rastreamento de Entidades/$ e o $(l:base_concepts/upgrades#block_tracker)Rastreamento de Blocos/$ e aumentam a velocidade de corrida das $(l:armor/pneumatic_leggings)Calças/$, mas com um $(l:base_concepts/pressure)custo de ar/$."
+      "text": "$(l:base_concepts/upgrades#speed)Melhorias de Velocidade/$ reduzem o tempo de inicialização de cada peça de armadura. Além disso, reduzem o tempo de travamento de alvo do $(l:armor/pneumatic_helmet)Capacete/$ para o $(l:base_concepts/upgrades#entity_tracker)Rastreador de Entidades/$ e o $(l:base_concepts/upgrades#block_tracker)Rastreador de Blocos/$, e aumentam a velocidade de corrida das $(l:armor/pneumatic_leggings)Calças/$, mas com $(l:base_concepts/pressure)custo de ar/$."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:volume_upgrade",
-      "text": "As $(l:base_concepts/upgrades#volume)Melhorias de Volume/$ aumentam a $(l:base_concepts/pressure)capacidade de armazenamento de ar/$ de cada peça da armadura, fazendo-as demorar mais para carregar, mas perder pressão mais devagar quando em uso. As Melhorias de Volume são limitadas a 25 e há retornos decrescentes conforme você adiciona mais e mais melhorias."
+      "text": "$(l:base_concepts/upgrades#volume)Melhorias de Volume/$ aumentam a $(l:base_concepts/pressure)capacidade de armazenamento de ar/$ de cada peça de armadura, fazendo-as demorar mais para carregar, mas perder pressão mais devagar em uso. As Melhorias de Volume são limitadas a 25, e há retornos decrescentes conforme você adiciona mais e mais melhorias."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:armor_upgrade",
-      "text": "As $(l:base_concepts/upgrades#armor)Melhorias de Armadura/$ aumentam a proteção e a resistência de cada peça da armadura. Com 2 melhorias instaladas, cada peça é tão boa quanto a peça correspondente de $(thing)Armadura de Diamante/$.  Com o máximo de 4 melhorias, a proteção é então superior à $(thing)Armadura de Diamante/$."
+      "text": "$(l:base_concepts/upgrades#armor)Melhorias de Armadura/$ aumentam a proteção e a resistência de cada peça de armadura. Com 2 melhorias instaladas, cada peça é tão boa quanto a peça correspondente de $(thing)Armadura de Diamante/$. Com o máximo de 4 melhorias, a proteção fica superior à de $(thing)Armadura de Diamante/$."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:item_life_upgrade",
-      "text": "As $(l:base_concepts/upgrades#item_life)Melhorias de Vida de Item/$ reparam lentamente a peça da armadura, ao custo de $(l:base_concepts/pressure)ar/$. Até 5 melhorias podem ser instaladas em cada peça, fornecendo reparo incrementalmente mais rápido (porém menos eficiente em ar)."
+      "text": "$(l:base_concepts/upgrades#item_life)Melhorias de Vida Útil/$ reparam lentamente a peça de armadura, ao custo de $(l:base_concepts/pressure)ar/$. Até 5 melhorias podem ser instaladas em cada peça, fornecendo reparo progressivamente mais rápido (mas menos eficiente em ar)."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:gilded_upgrade",
-      "text": "Uma $(l:base_concepts/upgrades#gilded)Melhoria Dourada/$ pode ser instalada em qualquer peça da armadura e engana os $(thing)Piglins/$, fazendo-os acreditar que você está usando $(thing)Armadura de Ouro/$ de verdade. Piglins bobos."
+      "text": "Uma $(l:base_concepts/upgrades#gilded)Melhoria Dourada/$ pode ser instalada em qualquer peça de armadura e engana os $(thing)Piglins/$, fazendo-os acreditar que você está usando $(thing)Armadura de Ouro/$. Piglins bobos."
     },
     {
       "type": "spotlight",
       "flag": "mod:mekanism",
       "title": "Radiação do Mekanism",
       "item": "pneumaticcraft:radiation_shielding_upgrade",
-      "text": "A $(l:base_concepts/upgrades#radiation_shielding)Melhoria de Escudo de Radiação/$ fornece proteção contra os efeitos nocivos da radiação do Mekanism, igual à própria $(l:https://wiki.aidancbrady.com/wiki/Radiation_Shielding_Unit)Unidade de Proteção contra Radiação/$ do Mekanism. Note que você precisa de uma Melhoria de Escudo em cada peça da armadura para receber proteção total."
+      "text": "A $(l:base_concepts/upgrades#radiation_shielding)Melhoria de Escudo de Radiação/$ fornece proteção contra os efeitos nocivos da radiação do Mekanism, igual à própria $(l:https://wiki.aidancbrady.com/wiki/Radiation_Shielding_Unit)Unidade de Blindagem contra Radiação/$ do Mekanism. Note que você precisa de uma Melhoria de Blindagem em cada peça de armadura para receber proteção total."
     },
     {
       "type": "text",
       "title": "Thaumcraft",
       "flag": "mod:thaumcraft",
-      "text": "As $(l:base_concepts/upgrades#thaumcraft)Melhorias do Thaumcraft/$ fornecem à peça da armadura o desconto de vis equivalente da $(thing)armadura de Taumaturgo/$ correspondente.  Além disso, uma Melhoria do Thaumcraft instalada no $(l:armor/helmet)Capacete/$ age como $(item)Óculos da Revelação/$, mostrando $(thing)nós de aura/$ e exibindo quantidades de $(thing)aspectos/$ em contêineres."
+      "text": "$(l:base_concepts/upgrades#thaumcraft)Melhorias do Thaumcraft/$ dão à peça de armadura o desconto de vis equivalente à $(thing)armadura do Taumaturgo/$ correspondente. Além disso, uma Melhoria do Thaumcraft instalada no $(l:armor/helmet)Capacete/$ age como uns $(item)Óculos de Revelação/$, mostrando $(thing)nós de aura/$ e exibindo quantidades de $(thing)aspectos/$ em recipientes."
     }
   ]
 }

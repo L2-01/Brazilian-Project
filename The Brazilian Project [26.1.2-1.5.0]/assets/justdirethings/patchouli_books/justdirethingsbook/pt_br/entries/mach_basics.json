@@ -1,16 +1,16 @@
 {
-  "name": "Noções de Máquina",
+  "name": "Básico de Máquinas",
   "sortnum": 0,
   "category": "justdirethings:machines",
   "icon": "justdirethings:blockbreakert1",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A maioria das máquinas do Just Dire Things tem duas variantes, uma versão simples e uma avançada.$(br2)Versões simples não requerem energia, mas geralmente só afetam um bloco ou entidade diretamente à frente delas. O jogador controla a velocidade de operação com o botão Velocidade(tiques)."
+      "text": "A maioria das máquinas do Just Dire Things tem duas variantes: uma versão simples e uma avançada.$(br2)As versões simples não requerem energia, mas geralmente só podem afetar um bloco ou entidade diretamente à frente. O jogador pode controlar a velocidade de operação com o botão Velocidade(ticks)."
     },
     {
       "type": "patchouli:text",
-      "text": "As formas avançadas dos blocos são bem mais poderosas, mas requerem energia para operar.$(br2)Elas geralmente podem afetar uma área grande (configurável na UI) e têm filtros para o jogador controlar o que é afetado por elas.$(br2)Além disso, elas carregam automaticamente qualquer item de Forge Energy colocado nelas."
+      "text": "As formas avançadas dos blocos são muito mais poderosas, mas requerem energia para operar.$(br2)Elas geralmente podem afetar uma grande área (configurável na interface) e têm filtros para o jogador controlar o que é afetado.$(br2)Além disso, elas carregam automaticamente qualquer item de Forge Energy colocado nelas."
     }
   ]
 }

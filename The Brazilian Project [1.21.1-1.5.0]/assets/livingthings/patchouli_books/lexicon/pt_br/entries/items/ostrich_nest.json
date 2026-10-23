@@ -1,1 +1,16 @@
-{"name":"Ninho de Avestruz","icon":"livingthings:ostrich_nest","category":"livingthings:item_category","pages":[{"type":"text","text":"$(br)$(bold)Obtenção:$()$(br)Se minerado sem uma ferramenta de Toque Suave, o ninho se desfaz e você ganha alguns gravetos."},{"type":"spotlight","item":"livingthings:ostrich_nest","text":"$(br)$(bold)Uso:$()$(br)pode ser colocado$(br)um avestruz pode botar um ovo nele"}]}
+{
+    "name": "Ninho de Avestruz",
+    "icon": "livingthings:ostrich_nest",
+    "category": "livingthings:item_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(br)$(bold)Obtenção:$()$(br)Se minerado sem uma ferramenta de toque sedoso, o ninho se desfará e você ganhará alguns gravetos."
+        },
+        {
+            "type": "spotlight",
+            "item": "livingthings:ostrich_nest",
+            "text": "$(br)$(bold)Uso:$()$(br)pode ser colocado$(br)um avestruz pode botar um ovo nele"
+        }
+    ]
+}

@@ -23,16 +23,16 @@ item_ids:
 </Row>
 
 O Provedor de Padrões Avançado ME é um novo tipo de <ItemLink id="ae2:pattern_provider" /> que melhora
-uma versão padrão ou um <ItemLink id="extendedae:ex_pattern_provider" /> com a capacidade de configurar a face para a
-qual cada item individual de um padrão será empurrado. Essa adição poderosa permite automatizar máquinas que exigem
-lados específicos para entradas específicas com um único bloco e sem tubos!
+uma versão padrão ou um <ItemLink id="extendedae:ex_pattern_provider" /> com a capacidade de configurar a face para
+a qual qualquer item individual num padrão será empurrado. Essa poderosa adição permite automatizar máquinas que
+exigem lados específicos para entradas específicas com um único bloco e sem tubos!
 
-*Estou olhando para você, Mekanism.*
+*Olhando para você, Mekanism.*
 
 Para poder usar esse recurso, você precisará inserir um <ItemLink id="advanced_ae:adv_processing_pattern" /> criado
-ao inserir um padrão codificado em um <ItemLink id="advanced_ae:adv_pattern_encoder" /> e retirar a versão
+inserindo um padrão codificado num <ItemLink id="advanced_ae:adv_pattern_encoder" /> e retirando a versão
 avançada.
 
-Também existe uma versão estendida, capaz de comportar até 36 padrões em um único provedor de padrões.
+Há também uma versão estendida, capaz de abrigar até 36 padrões num único provedor de padrões.
 
 ![AAEGui](../pic/app_gui.png)

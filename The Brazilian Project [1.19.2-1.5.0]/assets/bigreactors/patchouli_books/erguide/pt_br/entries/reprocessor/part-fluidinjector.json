@@ -9,14 +9,14 @@
             "type": "spotlight",
             "item": "bigreactors:reprocessorfluidinjector",
             "link_recipe": true,
-            "title" : "Injetor de Fluidos",
-            "text": "O Injetor de Fluidos permite inserir no Reprocessador o fluido necessário para reprocessar resíduos.$(br2)Tipos diferentes de resíduos podem exigir fluidos diferentes."
+            "title": "Injetor de Fluidos",
+            "text": "O Injetor de Fluido permite inserir no Reprocessador o fluido necessário para reprocessar resíduos.$(br2)Diferentes tipos de resíduos podem exigir fluidos diferentes."
         },
         {
             "type": "crafting-part_usage",
             "crafting.title1": "Injetor de Fluidos",
             "crafting.recipe1": "bigreactors:reprocessor/fluidinjector",
-            "usage.text": "$(l)Mandatory:$() one, and only one, is required$(br)$(l)Valid positions:$() any vertical face (not on frame)$(br)$(l)Graphical interface:$() no"
+            "usage.text": "$(l)Obrigatória:$() uma, e apenas uma, é exigida$(br)$(l)Posições válidas:$() qualquer face vertical (não na moldura)$(br)$(l)Interface gráfica:$() não"
         }
     ]
 }

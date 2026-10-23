@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O Recipiente de Fluido pode guardar até 8 baldes de líquido. Clique direito para colocar ou coletar líquidos, como um balde.$(br2)Shift + clique direito ativa o preenchimento automático de outros recipientes de fluido no seu inventário. Há três configurações: \"Nenhum\", somente itens do Just Dire Things e \"TODOS\" (preenche todos os recipientes de fluido, inclusive de outros mods)."
+      "text": "O Recipiente de Fluido comporta até 8 baldes de líquido. Clique com o botão direito para colocar ou coletar líquidos, como um balde.$(br2)Shift + clique direito ativa o preenchimento automático de outros recipientes de fluido no seu inventário. Há três opções: 'Nenhum', somente itens do Just Dire Things, e 'TODOS' (preenche todos os recipientes de fluido, inclusive de outros mods)."
     },
     {
       "type": "patchouli:crafting",
-      "title": "Fabricação do Recipiente de Fluido",
+      "title": "Fabricação: Recipiente de Fluido",
       "recipe": "justdirethings:fluid_canister"
     }
   ]

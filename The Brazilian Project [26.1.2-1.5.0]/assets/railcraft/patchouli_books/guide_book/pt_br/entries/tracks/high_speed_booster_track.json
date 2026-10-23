@@ -1,11 +1,11 @@
 {
-  "name": "Trilho Impulsor de A.V.",
-  "icon": "railcraft:high_speed_booster_track",
-  "category": "railcraft:tracks",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Esses trilhos impulsionarão o carrinho para alta velocidade quando energizados, ou o desacelerarão e manterão a velocidade normal de carrinho se não estiverem.$(br2)Você precisa deles ou de Trilhos de Transição de A.V. para alcançar a velocidade máxima permitida pelos Trilhos de Alta Velocidade."
-    }
-  ]
+    "name": "Trilho Impulsor de Alta Velocidade",
+    "icon": "railcraft:high_speed_booster_track",
+    "category": "railcraft:tracks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Esses trilhos impulsionam o carrinho para alta velocidade quando energizados, ou o desaceleram até a velocidade normal de carrinho quando não estão.$(br2)Você precisa destes ou de Trilhos de Transição de Alta Velocidade para atingir a velocidade máxima permitida pelos Trilhos de Alta Velocidade."
+        }
+    ]
 }

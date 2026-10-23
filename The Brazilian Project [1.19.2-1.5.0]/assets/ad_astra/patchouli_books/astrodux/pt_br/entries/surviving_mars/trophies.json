@@ -1,0 +1,20 @@
+{
+  "name": "Troféus",
+  "icon": "ad_astra:mars_globe",
+  "sortnum": 0,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Globos",
+      "item": "ad_astra:earth_globe",
+      "text": "Os globos são blocos de troféu encontrados como recompensa no fim de uma masmorra. Eles não têm função prática e servem como bloco decorativo. Podem ser girados com o botão direito ou girar para sempre quando energizados por redstone."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Pinturas Espaciais",
+      "item": "ad_astra:space_painting",
+      "text": "As pinturas espaciais são encontradas em baús pelas masmorras. Funcionam exatamente como pinturas normais, mas só colocam pinturas deste mod. São 14 peças para procurar."
+    }
+  ]
+}

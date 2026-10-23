@@ -1,11 +1,11 @@
 {
-  "name": "Trilho de Mão Única",
-  "icon": "railcraft:iron_one_way_track",
-  "category": "railcraft:tracks",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Enquanto desenergizado, o comportamento deste trilho é idêntico ao de trilhos normais. No entanto, quando recebem energia, eles inverterão o momento de qualquer carrinho viajando na direção oposta à da seta no trilho. Parte do momento é perdida, claro."
-    }
-  ]
+    "name": "Trilho de Mão Única",
+    "icon": "railcraft:iron_one_way_track",
+    "category": "railcraft:tracks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Desenergizado, o comportamento deste trilho é idêntico ao dos trilhos normais. Porém, ao receber energia, ele inverte o momentum de qualquer carrinho viajando na direção oposta à seta do trilho. Parte do momentum se perde, claro."
+        }
+    ]
 }

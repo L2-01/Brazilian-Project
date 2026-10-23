@@ -14,12 +14,12 @@ item_ids:
 
 ## Sobre
 
-Nossos funcionários novatos quase sempre aprendem da pior forma que fabricar tecnologia à mão atinge seu limite bem rápido. Por sorte,
-o Montador é capaz de manufaturar quase todos os componentes básicos como células voltaicas, circuitos e
-carcaças de máquinas.
+Nossos funcionários novatos quase sempre aprendem da pior forma que a fabricação manual de tecnologia estagna bem rápido.
+Por sorte, o Montador é capaz de manufaturar quase todo componente estrutural, como células voltaicas, circuitos e
+carcaças de máquina.
 
-## Especificação de Receita
+## Especificação da Receita
 
-- Tempo base de fabricação: varia, por padrão 10 segundos
+- Tempo base de fabricação: varia, 10 segundos por padrão
 - Entradas: 1-6 itens, 1 fluido opcional
 - Saída: 1 item

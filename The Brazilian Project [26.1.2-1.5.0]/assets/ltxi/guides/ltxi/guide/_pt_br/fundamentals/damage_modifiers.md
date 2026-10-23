@@ -7,8 +7,8 @@ navigation:
 ---
 
 # Modificadores Globais de Dano
-Nem toda arma vai ter bom desempenho em todo cenário. Algumas armas terão dificuldade contra certos tipos de inimigos.
-Por exemplo, armas do tipo primário causarão dano reduzido a inimigos de ameaça média e alta.
+Nem toda arma vai se sair bem em todo cenário. Algumas armas vão ter dificuldade contra certos tipos de inimigos.
+Por exemplo, armas do tipo primário causam dano reduzido a inimigos de ameaça média e alta.
 
 ## Ordem de aplicação
 Os modificadores globais de dano se aplicam **depois de todas as melhorias**.
@@ -17,7 +17,7 @@ Os modificadores globais de dano se aplicam **depois de todas as melhorias**.
 
 | Arma(s)     | Tipo de Alvo  | Modificador |
 |-------------|---------------|-------------|
-| Leve        | Ameaça Alta   | -80%        |
-| Leve        | Ameaça Média  | -50%        |
-| Especialista| Ameaça Alta   | -40%        |
-| Especialista| Ameaça Média  | -25%        |
+| Leves       | Ameaça Alta   | -80%        |
+| Leves       | Ameaça Média  | -50%        |
+| Especialistas | Ameaça Alta | -40%        |
+| Especialistas | Ameaça Média | -25%       |

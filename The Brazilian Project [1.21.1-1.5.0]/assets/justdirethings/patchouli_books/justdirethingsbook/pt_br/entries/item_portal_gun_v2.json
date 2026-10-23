@@ -6,15 +6,15 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A Arma de Portais Avançada aprimora a funcionalidade da arma de portais comum adicionando um menu de favoritos. Ative o menu com a tecla padrão \"v\".$(br2)No menu, você pode adicionar locais, salvando a posição onde seu jogador está. Dispare um projétil que abre um portal para o local salvo de qualquer lugar."
+      "text": "A Arma de Portais Avançada aprimora a arma de portais comum adicionando um menu de favoritos. Ative o menu com a tecla de atalho padrão 'v'.$(br2)No menu, você pode adicionar localizações, salvando a posição onde seu jogador está. Dispare um projétil que abre um portal para a localização salva de qualquer lugar."
     },
     {
       "type": "patchouli:text",
-      "text": "Você pode manter vários favoritos, editar seus nomes e removê-los conforme necessário. Além disso, pode alternar a opção \"Permanecer Aberto\" para controlar se o menu fica aberto ou exige segurar a tecla.$(br2)Você deve encher a arma com $(l:justdirethings:res_portal_fluid)Fluido de Portal$(/l), clicando com o botão direito num bloco de origem, ou usando um $(l:justdirethings:item_fluid_canister)Recipiente de Fluido$(/l)."
+      "text": "Você pode guardar vários favoritos, editar seus nomes e removê-los conforme necessário. Além disso, pode alternar a opção 'Permanecer Aberto' para controlar se o menu fica aberto ou exige segurar a tecla.$(br2)Você precisa abastecer a arma com $(l:justdirethings:res_portal_fluid)Fluido de Portal$(/l), clicando com o botão direito em um bloco-fonte ou usando um $(l:justdirethings:item_fluid_canister)Recipiente de Fluido$(/l)."
     },
     {
       "type": "patchouli:crafting",
-      "title": "Fabricação da Arma de Portais Avançada",
+      "title": "Fabricação: Arma de Portais Avançada",
       "recipe": "justdirethings:portalgun_v2"
     }
   ]

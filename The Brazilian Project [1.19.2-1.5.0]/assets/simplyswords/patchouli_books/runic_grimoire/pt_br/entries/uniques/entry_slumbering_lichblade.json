@@ -1,0 +1,22 @@
+{
+    "name": "Lâmina do Lich Adormecida",
+    "icon": "simplyswords:slumbering_lichblade",
+    "advancement": "simplyswords:slumbering_lichblade",
+    "category": "simplyswords:category_unique_weapons",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:slumbering_lichblade",
+            "text": "A Lâmina do Lich Adormecida é uma espada grande que exala uma aura de almas atormentadas que causa dano a inimigos que chegam perto demais. Diz-se que a espada é forjada dos restos de um Lich poderoso e imbuída com o poder das almas que ele consumiu. Às vezes, um sussurro sinistro pode ser ouvido emanando da lâmina."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "A espada, porém, está atualmente num estado dormente e seu verdadeiro poder está trancado. Através de um ritual especial ou processo de fabricação, o portador pode despertar a espada e desbloquear suas habilidades maiores. Uma vez desperta, a aura da espada pode ser comandada a atacar um inimigo, sugando sua força vital e concedendo-a ao portador. É uma arma de grande poder e deve ser usada com cautela."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:waking_lichblade",
+            "recipe2": "simplyswords:awakened_lichblade"
+        }
+    ]
+}

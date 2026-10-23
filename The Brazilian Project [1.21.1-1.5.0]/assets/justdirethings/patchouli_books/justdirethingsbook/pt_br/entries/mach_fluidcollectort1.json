@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O Coletor de Fluido Simples automatiza a coleta de fluidos do mundo. Ele tentará coletar qualquer fluido à sua frente e encher seu buffer interno com aquele fluido. Note que ele só pode conter 1 fluido por vez.$(br2)O espaço de item pode ser usado para encher um balde vazio ou outro item de fluido como o recipiente de fluido."
+      "text": "O Coletor de Fluido Simples automatiza a coleta de fluidos do mundo. Ele tentará coletar qualquer fluido à sua frente e encher seu buffer interno com ele. Note que só comporta 1 fluido por vez.$(br2)O espaço de item pode ser usado para encher um balde vazio ou outro item contém-fluido, como o recipiente de fluido."
     },
     {
       "type": "patchouli:crafting",

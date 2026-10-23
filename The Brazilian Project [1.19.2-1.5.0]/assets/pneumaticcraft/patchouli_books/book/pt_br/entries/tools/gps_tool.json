@@ -1,33 +1,33 @@
 {
-  "name": "Ferramenta GPS",
-  "icon": "pneumaticcraft:gps_tool",
-  "category": "pneumaticcraft:tools",
-  "advancement": "pneumaticcraft:plastic",
-  "pages": [
-    {
-      "type": "text",
-      "text": "A $(item)Ferramenta GPS/$ é um item que, quando $(thing)clicada com o botão direito/$ contra um bloco, salva a coordenada do bloco. Esses dados são usados em vários lugares no $(pncr); veja adiante.$(p)$(thing)Clicar com o botão direito/$ com a $(item)Ferramenta GPS/$ no ar abre uma GUI que permite ajustar as coordenadas diretamente.$(p)Uma $(item)Ferramenta GPS/$ segurada destaca seu bloco selecionado."
-    },
-    {
-      "type": "text",
-      "anchor": "variables",
-      "title": "Vinculando Variáveis Globais",
-      "text": "As $(l:programming/variables#global)Variáveis Globais/$ são um recurso avançado do $(l:base_concepts/drone)Drone/$, acessado via o $(l:programming/coordinate_operator)Operador de Coordenadas/$.$(p)$(thing)Clicar com o botão direito/$ com uma $(item)Ferramenta GPS/$ no ar permite inserir um nome de variável.$(p)Agora, essa $(thing)Variável Global/$ rastreará o valor da coordenada selecionada da $(item)Ferramenta GPS/$. Isso pode ser usado para fazer $(thing)programas de Drone/$ que usam áreas dinâmicas."
-    },
-    {
-      "type": "relations",
-      "entries": [
-        "pneumaticcraft:machines/air_cannon",
-        "pneumaticcraft:machines/universal_sensor",
-        "pneumaticcraft:programming/programmer",
-        "pneumaticcraft:tools/amadron_tablet"
-      ],
-      "text": "Máquinas e ferramentas que usam a $(item)Ferramenta GPS/$."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando uma Ferramenta GPS",
-      "recipe": "pneumaticcraft:gps_tool"
-    }
-  ]
+    "name": "Ferramenta GPS",
+    "icon": "pneumaticcraft:gps_tool",
+    "category": "pneumaticcraft:tools",
+    "advancement": "pneumaticcraft:plastic",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A $(item)Ferramenta GPS/$ é um item que, ao ser usada com $(thing)clique direito/$ num bloco, salva a coordenada do bloco. Esse dado é usado em vários lugares no $(pncr); veja a página seguinte.$(p)$(thing)Clicar com o botão direito/$ com a $(item)Ferramenta GPS/$ no ar abre uma GUI que permite ajustar coordenadas diretamente.$(p)Uma $(item)Ferramenta GPS/$ em mãos destaca o bloco selecionado."
+        },
+        {
+            "type": "text",
+            "anchor": "variables",
+            "title": "Vinculando Variáveis Globais",
+            "text": "$(l:programming/variables#global)Variáveis Globais/$ são um recurso avançado do $(l:base_concepts/drone)Drone/$, acessado via $(l:programming/coordinate_operator)Operador de Coordenada/$.$(p)$(thing)Clicar com o botão direito/$ com uma $(item)Ferramenta GPS/$ no ar permite digitar um nome de variável.$(p)A partir daí, essa $(thing)Variável Global/$ rastreará o valor da coordenada selecionada da $(item)Ferramenta GPS/$. Isso pode ser usado para criar $(thing)programas de Drone/$ que usam áreas dinâmicas."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "pneumaticcraft:machines/air_cannon",
+                "pneumaticcraft:machines/universal_sensor",
+                "pneumaticcraft:programming/programmer",
+                "pneumaticcraft:tools/amadron_tablet"
+            ],
+            "text": "Máquinas e ferramentas que fazem uso da $(item)Ferramenta GPS/$."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Ferramenta GPS",
+            "recipe": "pneumaticcraft:gps_tool"
+        }
+    ]
 }

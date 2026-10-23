@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Nova Gosma
+  title: Novas Gosmas
   icon: "justdirethings:gooblock_tier1"
   position: 3
 ---
@@ -11,7 +11,7 @@ Novos níveis de Gosma!
 
 <CategoryIndex category="goo"></CategoryIndex>
 
-_Pode ser uma boa ideia ter qualquer nível de Gosma com a mesma lógica de <ItemLink id="justdynathings:energized_goo"/> Então eu fiz isso!
+_Achei que seria uma boa ideia ter qualquer nível de gosma com a mesma lógica da <ItemLink id="justdynathings:energized_goo"/>, então fiz isso!
 -DevDyna_
 
 <CategoryIndex category="energy_goo"></CategoryIndex>

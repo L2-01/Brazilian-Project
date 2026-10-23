@@ -6,10 +6,10 @@ categories:
 - flux tricks
 ---
 
-# Como marcar FE num espaço de configuração
+# Como marcar FE no espaço de configuração
 
-Você pode querer enviar energia com um <ItemLink id="ae2:export_bus"/>; para isso, é preciso marcar FE no espaço de configuração dele.
+Você pode querer enviar energia com um <ItemLink id="ae2:export_bus"/>, e precisa marcar FE no seu espaço de configuração.
 
-Clique com o botão direito no espaço com um contêiner de energia para marcar FE.
+Clique com o botão direito no espaço com um recipiente de energia para marcar FE.
 
 ![FE_MARK](../pic/fe_mark.png)

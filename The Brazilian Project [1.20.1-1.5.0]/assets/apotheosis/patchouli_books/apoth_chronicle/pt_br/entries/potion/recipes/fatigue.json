@@ -1,19 +1,19 @@
 {
-    "name": "Fadiga de Mineração",
+    "name": "Cansaço",
     "icon": "minecraft:textures/mob_effect/mining_fatigue.png",
     "category": "apotheosis:potion/recipes",
-	"flag": "apotheosis:potion",
-	"sortnum": 0,
+    "flag": "apotheosis:potion",
+    "sortnum": 0,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(c)Fadiga de Mineração$() é um efeito negativo que normalmente só é aplicado por Guardiões.$(p)Enquanto ativo, sua velocidade de mineração é reduzida em 20% por nível.$(p)É o oposto direto de $(9)Pressa$()."
+            "text": "$(c)Cansaço$() é um efeito negativo normalmente aplicado apenas por Guardiões.$(p)Enquanto ativo, sua velocidade de mineração é reduzida em 20% por nível.$(p)É o oposto direto de $(9)Pressa$()."
         },
-		{
+        {
             "type": "patchouli:spotlight",
-			"title": "Receita de Preparo",
-			"item": "minecraft:fermented_spider_eye",
-            "text": "Esta poção pode ser fabricada com uma $(9)Poção de Pressa$() e um Olho de Aranha Fermentado.$(p)Ela pode ser prolongada, fortalecida ou transformada numa poção de arremesso com os ingredientes habituais."
+            "title": "Receita de Preparo",
+            "item": "minecraft:fermented_spider_eye",
+            "text": "Esta poção pode ser fabricada com uma $(9)Poção de Pressa$() e um Olho de Aranha Fermentado.$(p)Pode ser prolongada, fortalecida ou transformada em poção arremessável com os ingredientes usuais."
         }
-	]
+    ]
 }

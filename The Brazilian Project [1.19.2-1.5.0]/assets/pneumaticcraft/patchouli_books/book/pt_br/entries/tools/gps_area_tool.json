@@ -1,21 +1,21 @@
 {
-  "name": "Ferramenta de Área GPS",
-  "icon": "pneumaticcraft:gps_area_tool",
-  "category": "pneumaticcraft:tools",
-  "advancement": "pneumaticcraft:plastic",
-  "pages": [
-    {
-      "type": "text",
-      "text": "A $(item)Ferramenta de Área GPS/$ é uma versão avançada da $(l:tools/gps_tool)Ferramenta GPS/$, que pode armazenar $(italic)duas/$ coordenadas no mundo. $(thing)Clique com o botão esquerdo/$ num bloco (ou no ar) para mudar a primeira coordenada e $(thing)clique com o botão direito/$ para a segunda coordenada. Ao $(thing)clicar com o botão direito/$ ou $(thing)esquerdo/$ no ar, você pode configurar as posições numa GUI. Além disso, você pode mudar o $(thing)tipo de Área/$, permitindo pré-visualizar a área em diferentes configurações. "
-    },
-    {
-      "type": "text",
-      "text": "A $(item)Ferramenta de Área GPS/$ suporta $(l:programming/variables#global)Variáveis Globais/$ como a $(l:tools/gps_tool#variables)Ferramenta GPS/$ básica.$(p)Num $(l:programming/programmer)Programador/$, $(thing)clique com o botão esquerdo/$ no fundo da área de programação com a $(item)Ferramenta de Área GPS/$ para criar uma nova peça de quebra-cabeça $(l:programming/area)Área/$, ou $(thing)clique com o botão esquerdo/$ numa peça $(l:programming/area)Área/$ existente para sobrescrevê-la."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando uma Ferramenta de Área GPS",
-      "recipe": "pneumaticcraft:gps_area_tool"
-    }
-  ]
+    "name": "Ferramenta de Área GPS",
+    "icon": "pneumaticcraft:gps_area_tool",
+    "category": "pneumaticcraft:tools",
+    "advancement": "pneumaticcraft:plastic",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A $(item)Ferramenta de Área GPS/$ é uma versão avançada da $(l:tools/gps_tool)Ferramenta GPS/$, que pode armazenar $(italic)duas/$ coordenadas no mundo. $(thing)Clique com o botão esquerdo/$ num bloco (ou no ar) para mudar a primeira coordenada, e $(thing)clique com o botão direito/$ para a segunda coordenada. $(thing)Clicando com o botão direito/$ ou $(thing)esquerdo/$ no ar, você pode configurar as posições numa GUI. Além disso, você pode mudar o $(thing)tipo de Área/$, permitindo pré-visualizar a área em diferentes configurações. "
+        },
+        {
+            "type": "text",
+            "text": "A $(item)Ferramenta de Área GPS/$ suporta $(l:programming/variables#global)Variáveis Globais/$ como a $(l:tools/gps_tool#variables)Ferramenta GPS/$ básica.$(p)Num $(l:programming/programmer)Programador/$, $(thing)clique com o botão esquerdo/$ no fundo da área de programação com a $(item)Ferramenta de Área GPS/$ para criar uma nova peça de $(l:programming/area)Área/$, ou $(thing)clique com o botão esquerdo/$ numa peça de $(l:programming/area)Área/$ existente para sobrescrevê-la."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Ferramenta de Área GPS",
+            "recipe": "pneumaticcraft:gps_area_tool"
+        }
+    ]
 }

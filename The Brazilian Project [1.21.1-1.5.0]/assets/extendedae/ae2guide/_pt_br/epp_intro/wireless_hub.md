@@ -15,11 +15,11 @@ item_ids:
 <BlockImage id="extendedae:wireless_hub" scale="6"></BlockImage>
 </Row>
 
-A Central ME sem Fio funciona exatamente como um <ItemLink id="extendedae:wireless_connect" />, mas pode se conectar a até 8 centrais ou conectores
+A Central ME sem Fio funciona exatamente como o <ItemLink id="extendedae:wireless_connect" />, mas pode conectar até 8 centrais ou conectores
 ao mesmo tempo.
 
-## Configuração de Conexão
+## Configuração de conexão
 
-A Central ME sem Fio tem 8 portas. Ela encontra automaticamente uma porta disponível quando você a vincula com um <ItemLink id="extendedae:wireless_tool" />.
+A Central ME sem Fio tem 8 portas. Ela encontra automaticamente uma porta disponível quando você a vincula usando o <ItemLink id="extendedae:wireless_tool" />.
 
-Quando todas as suas portas estiverem ocupadas, você deve desconectar uma manualmente clicando no botão 'X' antes de configurar uma nova conexão.
+Porém, quando todas as portas estão ocupadas, você precisa desconectar uma conexão existente manualmente clicando no botão 'X' antes de criar uma nova conexão.

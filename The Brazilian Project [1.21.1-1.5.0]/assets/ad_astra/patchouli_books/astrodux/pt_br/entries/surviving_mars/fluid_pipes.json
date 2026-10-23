@@ -8,11 +8,11 @@
       "type": "patchouli:spotlight",
       "title": "Tubos de Fluido",
       "item": "ad_astra:ostrum_fluid_pipe",
-      "text": "Os tubos de fluido são semelhantes aos cabos, mas com transferência de fluido em vez de transferência de energia. Para usá-los, fabrique alguns tubos de fluido e uma chave-inglesa. Depois, clique com o botão direito em um dos tubos com a chave-inglesa para alternar entre os modos do tubo: 'nenhum', 'normal', 'inserir' e 'extrair'."
+      "text": "Os tubos de fluido são semelhantes aos cabos, mas transferem fluido em vez de energia. Para usá-los, fabrique alguns tubos de fluido e uma chave-inglesa. Em seguida, clique com o botão direito em um dos tubos com a chave-inglesa para alternar entre os modos do tubo: 'nenhum', 'padrão', 'inserir' e 'extrair'."
     },
     {
       "type": "patchouli:crafting",
-      "text": "Tubos com 'inserir' definido receberão fluido da rede, enquanto tubos com 'extrair' definido bombearão fluido para a rede.",
+      "text": "Os tubos definidos como 'inserir' receberão fluido da rede, enquanto os definidos como 'extrair' bombearão fluido para a rede.",
       "recipe": "ad_astra:desh_fluid_pipe"
     },
     {
@@ -23,7 +23,7 @@
     {
       "type": "patchouli:crafting",
       "recipe": "ad_astra:fluid_pipe_duct",
-      "text": "Como os cabos, os tubos de fluido também têm um bloco de duto para transferir fluidos com segurança para dentro e para fora de estruturas seladas."
+      "text": "Como os cabos, os tubos de fluido também têm um bloco de duto para transferir fluidos com segurança para dentro e fora de estruturas seladas."
     }
   ]
 }

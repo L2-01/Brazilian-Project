@@ -5,10 +5,10 @@
 	"sortnum": 3,
 	"pages": [
 		{
-    		"type": "spotlight",
-    		"item": "opolisutilities:drying_table",
-    		"text": "Pode ser usada para secar itens."
-    	},
+			"type": "spotlight",
+			"item": "opolisutilities:drying_table",
+			"text": "Pode ser usada para secar itens."
+		},
 		{
 			"type": "crafting",
 			"recipe": "opolisutilities:drying_table",
@@ -16,7 +16,7 @@
 		},
 		{
 			"type": "text",
-			"text": "A Mesa de Secagem também pode ficar alagada; quando alagada, receitas de Encharcamento podem ser feitas na Mesa de Secagem."
+			"text": "A Mesa de Secagem também pode ser embebida em água; quando embebida, receitas de Imersão podem ser feitas na Mesa de Secagem."
 		}
 	]
 }

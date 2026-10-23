@@ -1,0 +1,29 @@
+---
+id: oritech:steel_ingot
+title: Aço
+type: item
+related_items: ["oritech:steel_dust", "oritech:steel"]
+---
+
+O aço é uma liga de nível médio usada para criar [estruturas de máquina](@oritech:machine_frame),
+[tubos de item](@oritech:item_pipe) e vários outros componentes.
+
+O aço pode ser feito na grade de trabalho usando ferro e carvão:
+
+<CraftingRecipe
+    slots={[
+        'minecraft:iron_ingot',
+        'minecraft:iron_ingot',
+        '',
+        'minecraft:coal',
+        'minecraft:coal',
+        '',
+        '',
+        '',
+        ''
+    ]}
+    result="oritech:steel_ingot"
+    count={1}
+/>
+
+A [fundição](@oritech:foundry) pode produzir mais aço com menos ferro e carvão.

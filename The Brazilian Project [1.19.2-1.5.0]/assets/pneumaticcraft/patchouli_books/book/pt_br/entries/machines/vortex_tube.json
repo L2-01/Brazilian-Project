@@ -1,22 +1,22 @@
 {
-  "name": "Tubo de Vórtice",
-  "icon": "pneumaticcraft:vortex_tube",
-  "category": "pneumaticcraft:machines",
-  "advancement": "pneumaticcraft:pressure_tube",
-  "pages": [
-    {
-      "type": "text",
-      "text": "O $(thing)Tubo de Vórtice/$ é um dispositivo baseado em $(l:https://en.wikipedia.org/wiki/vortex_tube)física do mundo real/$. Ele divide o $(l:base_concepts/pressure)ar/$ que flui para dentro dele em partes $(l:base_concepts/heat)quente e fria/$, aquecendo um lado do tubo e resfriando o lado oposto. Esteja ciente de que os lados quente e frio têm uma conexão térmica entre si, então é mais eficiente ventilar o lado frio quando você quiser aproveitar o calor, e vice-versa se quiser usar o frio. Isso pode ser feito com um $(l:machines/heat_sink)Dissipador de Calor/$."
-    },
-    {
-      "type": "spotlight",
-      "item": "pneumaticcraft:vortex_tube",
-      "text": "Quando você posiciona ou gira um $(thing)Tubo de Vórtice/$, a extremidade quente ficará voltada para você. Note que cada extremidade tem uma faixa estreita vermelha ou azul indicando qual é qual.$(p)Ar pressurizado é necessário para o $(thing)Tubo de Vórtice/$ funcionar. Pressão maior leva a diferenciais de temperatura maiores, mas o ar também será usado a uma taxa maior."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando um Tubo de Vórtice",
-      "recipe": "pneumaticcraft:vortex_tube"
-    }
-  ]
+    "name": "Tubo de Vórtice",
+    "icon": "pneumaticcraft:vortex_tube",
+    "category": "pneumaticcraft:machines",
+    "advancement": "pneumaticcraft:pressure_tube",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O $(thing)Tubo de Vórtice/$ é um dispositivo baseado em $(l:https://en.wikipedia.org/wiki/vortex_tube)física do mundo real/$. Ele divide o $(l:base_concepts/pressure)ar/$ que entra nele em partes $(l:base_concepts/heat)quente e fria/$, aquecendo um lado do tubo e resfriando o lado oposto. Saiba que os lados quente e frio têm uma conexão térmica, então é mais eficiente ventilar o lado frio quando você quiser aproveitar o calor, e vice-versa se quiser usar o frio. Isso pode ser feito com um $(l:machines/heat_sink)Dissipador de Calor/$."
+        },
+        {
+            "type": "spotlight",
+            "item": "pneumaticcraft:vortex_tube",
+            "text": "Quando você coloca ou gira um $(thing)Tubo de Vórtice/$, a extremidade quente ficará virada para você. Note que cada extremidade tem uma faixa estreita vermelha ou azul indicando qual é qual.$(p)Ar pressurizado é necessário para o $(thing)Tubo de Vórtice/$ funcionar. Pressão maior leva a diferenciais de temperatura maiores, mas o ar também será usado a uma taxa maior."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Tubo de Vórtice",
+            "recipe": "pneumaticcraft:vortex_tube"
+        }
+    ]
 }

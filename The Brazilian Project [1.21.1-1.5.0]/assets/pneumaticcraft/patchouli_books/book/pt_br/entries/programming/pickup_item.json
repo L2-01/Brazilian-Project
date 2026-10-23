@@ -6,18 +6,18 @@
   "pages": [
     {
       "type": "text",
-      "text": "O $(l:tools/drone)Drone/$ pegará entidades de item no mundo e as colocará no seu inventário. Tenha em mente que quaisquer widgets $(l:programming/area)Área/$ conectados a este widget devem ter o tipo de área $(thing)Caixa/$; esta é a única forma suportada. É possível criar formas mais complexas, porém, usando lista-branca/lista-negra de múltiplas áreas."
+      "text": "O $(l:tools/drone)Drone/$ pegará entidades de itens no mundo e as colocará no seu inventário. Tenha em mente que quaisquer widgets de $(l:programming/area)Área/$ conectados a este widget devem ter o tipo de área $(thing)Caixa/$; é a única forma suportada. É possível criar formas mais complexas, porém, usando lista-branca/lista-negra de várias áreas."
     },
     {
       "type": "text",
-      "text": "Você pode adicionar um widget $(l:programming/item_filter)Filtro de Item/$ para limitar quais itens podem ser pegos (lembre-se, um filtro de lista-negra é posicionado à $(thing)esquerda/$).$(p)Este widget termina a execução quando nenhum item no chão (que passe pelo filtro de item) consegue caber no inventário do Drone ou quando não há mais itens para pegar."
+      "text": "Você pode adicionar um widget de $(l:programming/item_filter)Filtro de Item/$ para limitar quais itens podem ser pegos (lembre-se, um filtro de lista-negra é colocado à $(thing)esquerda/$).$(p)Este widget termina de executar quando nenhum item no chão (que passe pelo filtro de item) couber no inventário do Drone ou quando não houver mais itens para pegar."
     },
     {
       "type": "image",
       "images": [
         "pneumaticcraft:textures/progwidgets/item_pick_piece.png"
       ],
-      "text": "$(italic)Meu. Meu. Meu./$"
+      "text": "$(italic)Minha. Minha. Minha./$"
     }
   ]
 }

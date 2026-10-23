@@ -1,13 +1,13 @@
 {
-    "name": "Roubo de Vida",
+    "name": "Vampirismo",
     "icon": "attributeslib:textures/mob_effect/bleeding.png",
     "category": "apotheosis:adventure/attributes",
-	"flag": "apotheosis:adventure",
-	"sortnum": 0,
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Seu $(9)Roubo de Vida$() é a porcentagem do seu dano físico causado que é adicionada diretamente à sua vida.$(p)Geralmente, apenas armas fornecem esse atributo."
+            "text": "Seu $(9)Vampirismo$() é a porcentagem do dano físico causado que é adicionada diretamente à sua vida.$(p)Geralmente, só armas fornecem esse atributo."
         }
-	]
+    ]
 }

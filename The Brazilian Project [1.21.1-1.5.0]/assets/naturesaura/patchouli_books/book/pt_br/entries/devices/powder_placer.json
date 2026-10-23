@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "Usar $(l:effects/effect_powder)Pó de Efeito$() pode ser bastante útil ao tentar inibir ou iniciar certos efeitos de $(thing)Desequilíbrio de Aura$(). O $(item)Manipulador de Pó$() ajuda muito nisso: colocar um baú em qualquer lado dele e colocar qualquer tipo de $(item)Pó de Efeito$() dentro fará com que ele, ao receber um $(thing)pulso de redstone$(), coloque aquele pó no mundo."
+            "text": "Usar $(l:effects/effect_powder)Pó de Efeito$() pode se provar bem útil ao tentar inibir ou iniciar certos efeitos de $(thing)Desequilíbrio de Aura$(). O $(item)Manipulador de Pó$() ajuda muito nisso: colocar um baú em qualquer lado dele e colocar qualquer tipo de $(item)Pó de Efeito$() nele fará com que, ao receber um $(thing)pulso de redstone$(), ele coloque aquele pó no mundo."
         },
         {
             "type": "crafting",
-            "text": "Similarmente, ao receber outro pulso, ele coletará o pó que colocou em cima dele novamente e o depositará num baú próximo.",
+            "text": "Da mesma forma, ao receber outro pulso, ele coletará o pó que colocou sobre si e o depositará num baú próximo.",
             "recipe": "naturesaura:powder_placer"
         }
     ]

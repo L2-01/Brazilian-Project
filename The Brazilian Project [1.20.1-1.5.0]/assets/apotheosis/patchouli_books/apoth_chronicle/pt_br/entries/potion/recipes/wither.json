@@ -1,19 +1,19 @@
 {
-    "name": "Wither",
+    "name": "Decomposição",
     "icon": "minecraft:textures/mob_effect/wither.png",
     "category": "apotheosis:potion/recipes",
-	"flag": "&apotheosis:potion,!apotheosis:wstloaded",
-	"sortnum": 0,
+    "flag": "&apotheosis:potion,!apotheosis:wstloaded",
+    "sortnum": 0,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(c)Wither$() é um efeito hostil que normalmente não pode ser fabricado.$(p)Enquanto estiver sob seu efeito, você receberá dano a cada tique.$(p)Ao contrário de Veneno, esse dano é letal."
+            "text": "$(c)Decomposição$() é um efeito hostil que normalmente não pode ser fabricado.$(p)Sob seu efeito, você sofre dano a cada tique.$(p)Diferente do Veneno, esse dano é letal."
         },
-		{
+        {
             "type": "patchouli:spotlight",
-			"title": "Receita de Preparo",
-			"item": "minecraft:wither_skeleton_skull",
-            "text": "Esta poção pode ser fabricada com uma Poção Estranha e uma Caveira de Esqueleto Wither.$(p)Ela pode ser prolongada, fortalecida ou transformada numa poção de arremesso com os ingredientes habituais."
+            "title": "Receita de Preparo",
+            "item": "minecraft:wither_skeleton_skull",
+            "text": "Esta poção pode ser fabricada com uma Poção Esquisita e um Crânio de Esqueleto Wither.$(p)Pode ser prolongada, fortalecida ou transformada em poção arremessável com os ingredientes usuais."
         }
-	]
+    ]
 }

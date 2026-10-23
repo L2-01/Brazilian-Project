@@ -1,0 +1,16 @@
+{
+  "name": "Fardo de Vime",
+  "icon": "enchanted:wicker_bundle",
+  "category": "enchanted:crafting_materials",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mudas podem ser reunidas num fardo para criar um fardo de vime."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:wicker_bundle"
+    }
+  ],
+  "read_by_default": true
+}

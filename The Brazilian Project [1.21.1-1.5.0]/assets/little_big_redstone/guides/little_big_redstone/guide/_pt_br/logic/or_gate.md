@@ -1,26 +1,29 @@
 ---
 navigation:
-  title: "Porta OR"
+  title: "Porta OU"
   icon: "or_gate"
   parent: little_big_redstone:logic.md
   position: 16
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:or_gate
 ---
 
-# Porta OR
+# Porta OU
 
 <FloatingColumn width="100" align="right">
-	### Tabela-verdade
+	### Analógico
+	As Portas OU produzem um sinal de saída igual ao maior sinal de entrada.
+
+	### Tabela-Verdade
 	<TruthTable inputs="2" outputs="1">
 		<TruthState input="0,0" output="0" />
 		<TruthState input="0,1" output="1" />
 		<TruthState input="1,0" output="1" />
 		<TruthState input="1,1" output="1" />
 	</TruthTable>
-	*Para detalhes sobre tabela-verdade, veja a página [aqui](introduction.md).*
+	*Para detalhes sobre tabelas-verdade, veja a página [aqui](introduction.md).*
 </FloatingColumn>
 
 <Row>
@@ -36,13 +39,13 @@ item_ids:
 	</Column>
 </Row>
 
-Portas OR são componentes lógicos que exigem que pelo menos uma entrada esteja LIGADA para que a saída esteja LIGADA. Este é o inverso de
-uma [Porta NOR](nor_gate.md).
+As portas OU são componentes lógicos que exigem que pelo menos uma entrada esteja LIGADA para a saída ficar
+LIGADA. É o inverso de uma [porta NÃO OU](nor_gate.md).
 
-Como as portas de entrada só podem aceitar um fio, uma porta OR deve ser usada quando você precisar combinar múltiplos fios em uma
-porta.
+Como as portas de entrada só aceitam um fio, uma porta OU deve ser usada quando você precisar combinar vários
+fios numa única porta.
 
-Portas OR podem ser configuradas para ter entre 2 e 10 entradas.
+As portas OU podem ser configuradas para ter entre 2 e 10 entradas.
 
 <Row>
 	<Column>

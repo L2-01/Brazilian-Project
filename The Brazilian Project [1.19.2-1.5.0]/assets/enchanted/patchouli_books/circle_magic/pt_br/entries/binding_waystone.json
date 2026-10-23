@@ -1,0 +1,62 @@
+{
+  "name": "Obelisco",
+  "icon": "enchanted:bound_waystone",
+  "category": "enchanted:binding",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Obelisco",
+      "text": "Realize este rito para vincular a localização do círculo usado a um obelisco, para ser usada em outros ritos baseados em localização."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:binding_waystone"
+    },
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Obelisco",
+      "text": "Realize este rito para vincular a localização do círculo usado a um obelisco, para ser usada em outros ritos baseados em localização."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:binding_waystone_charged"
+    },
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Duplicação de Obelisco",
+      "text": "Transfere a localização vinculada de um obelisco para outro obelisco, criando dois obeliscos idênticos."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:binding_waystone_duplicate"
+    },
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Duplicação de Obelisco",
+      "text": "Transfere a localização vinculada de um obelisco para outro obelisco, criando dois obeliscos idênticos."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:binding_waystone_duplicate_charged"
+    },
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Obelisco Sanguíneo",
+      "text": "Este rito vincula um obelisco à localização de um jogador, que se moverá conforme o jogador se move."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:binding_waystone_player"
+    },
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Obelisco Sanguíneo",
+      "text": "Este rito vincula um obelisco à localização de um jogador, que se moverá conforme o jogador se move."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:binding_waystone_player_charged"
+    }
+  ],
+  "read_by_default": true
+}

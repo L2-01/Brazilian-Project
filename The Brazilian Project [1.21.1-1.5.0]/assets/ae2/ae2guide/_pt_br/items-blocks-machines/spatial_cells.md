@@ -25,12 +25,12 @@ item_ids:
     <ItemImage id="spatial_storage_cell_128" scale="4" />
   </Row>
 
-Células de Armazenamento Espacial são usadas para [armazenar volumes físicos de espaço](../ae2-mechanics/spatial-io.md). 
+Células de Armazenamento Espacial são usadas para [armazenar volumes físicos de espaço](../ae2-mechanics/spatial-io.md).
 Elas são usadas num <ItemLink id="spatial_io_port" />.
 
-Ao contrário das [Células de Armazenamento](../items-blocks-machines/storage_cells.md), células espaciais não podem ser reformatadas.
+Diferente das [Células de Armazenamento](../items-blocks-machines/storage_cells.md), células espaciais não podem ser reformatadas.
 
-De novo, **VOCÊ NÃO PODE REINICIAR, REFORMATAR OU REDIMENSIONAR UMA CÉLULA ESPACIAL DEPOIS DE USÁ-LA.** Faça uma célula nova se quiser usar dimensões diferentes.
+Novamente, **VOCÊ NÃO PODE REDEFINIR, REFORMATAR OU REDIMENSIONAR UMA CÉLULA ESPACIAL DEPOIS QUE ELA FOI USADA.** Faça uma nova célula se quiser usar dimensões diferentes.
 
 
 ## Receitas
@@ -43,7 +43,7 @@ De novo, **VOCÊ NÃO PODE REINICIAR, REFORMATAR OU REDIMENSIONAR UMA CÉLULA ES
     <Recipe id="network/cells/spatial_storage_cell_128_cubed_storage" />
   </Row>
 
-# Cápsulas
+# Housings
 
 Células podem ser feitas com um componente espacial e uma cápsula, ou com a receita de cápsula ao redor de um componente espacial:
 

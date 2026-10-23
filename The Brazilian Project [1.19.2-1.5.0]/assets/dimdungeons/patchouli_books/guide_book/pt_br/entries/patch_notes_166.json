@@ -1,0 +1,16 @@
+{
+	"name": "Versão 166",
+	"icon": "minecraft:book",
+	"category": "dimdungeons:patch_notes",
+	"sortnum": 166,
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(li)Mudada a estrutura de trapaças para \"/dimdungeons <cheats>\", com todas as trapaças sob um comando global. $(li)Adicionada uma nova trapaça: /dimdungeons givepersonal [recipient] [whose_key] $(li)Correção de bug para masmorras não gerarem completamente se o servidor for fechado durante a geração."
+		},
+		{
+			"type": "text",
+			"text": "$(li)Correção de bug para jogadores ocasionalmente obtendo chaves de dimensão pessoal de outros jogadores. $(li)Correção de bug de uma falha rara ou falha de portal que podia ocorrer ao tiquejar a Pedra Angular depois que uma masmorra terminava de ser construída."
+		}
+	]
+}

@@ -11,7 +11,7 @@ item_ids:
   - iska_utils:extreme_module
   - iska_utils:ultra_module
 categories:
-  - Módulos
+  - Modules
 ---
 # Módulos vetoriais (aceleração)
 
@@ -25,7 +25,7 @@ categories:
   - **Fabricador de Padrões** — tempo de fabricação menor.
 - Eles **não** são instalados em placas vetoriais.
 
-Níveis maiores significam efeito de velocidade mais forte.
+Níveis maiores significam um efeito de velocidade mais forte.
 
 ## Itens
 
@@ -39,4 +39,4 @@ Níveis maiores significam efeito de velocidade mais forte.
 
 ## Material
 
-<ItemImage id="iska_utils:base_module" /> O **Módulo Base** é apenas um intermediário de fabricação para esses módulos. Não tem efeito de máquina por si só.
+<ItemImage id="iska_utils:base_module" /> O **Módulo Base** é apenas um intermediário de fabricação para estes módulos. Ele não tem efeito de máquina por si só.

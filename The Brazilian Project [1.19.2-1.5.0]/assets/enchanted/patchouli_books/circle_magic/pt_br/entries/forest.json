@@ -1,0 +1,17 @@
+{
+  "name": "Floresta",
+  "icon": "minecraft:oak_sapling",
+  "category": "enchanted:world",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Floresta",
+      "text": "Cria uma floresta de árvores ao redor do círculo usando qualquer muda que tenha sido solta dentro do círculo durante a conjuração."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:forest"
+    }
+  ],
+  "read_by_default": true
+}

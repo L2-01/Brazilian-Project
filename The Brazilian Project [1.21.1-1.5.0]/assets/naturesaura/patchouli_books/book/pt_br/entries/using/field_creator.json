@@ -6,19 +6,19 @@
     "pages": [
         {
             "type": "text",
-            "text": "Uma das duas atividades mais feitas pelos humanos é $(thing)quebrar$() blocos. Isso exige bastante força e esforço e, se feita por muito tempo, pode se tornar bem cansativa.$(br)O $(item)Criador de Campo de Aura$() cria um campo denso de $(aura) em movimento forte o suficiente para $(thing)destruir blocos$() dentro dele."
+            "text": "Uma das duas atividades mais feitas por humanos é $(thing)quebrar$() blocos. Isso requer bastante força e esforço e, se feito por longos períodos, pode se tornar bem cansativo.$(br)O $(item)Criador de Campo de Aura$() cria um campo denso de $(aura) em movimento que é forte o suficiente para $(thing)destruir blocos$() dentro dele."
         },
         {
             "type": "text",
-            "text": "Para montar um campo assim, dois $(item)Criadores de Campo de Aura$() precisam ser colocados a alguns blocos de distância um do outro. Então, interagir com um deles agachado e com o outro sem agachar criará uma conexão entre os dois.$(br)Ao alimentar um deles com um $(thing)sinal de redstone$(), e após um breve tempo de canalização, o campo será criado entre os dois, permitindo que quaisquer blocos colocados ali sejam quebrados e seus itens largados no mundo."
+            "text": "Para montar um campo assim, dois $(item)Criadores de Campo de Aura$() precisam ser colocados a alguns blocos de distância. Então, interagir com um deles agachado e com o outro sem agachar fará uma conexão se formar entre os dois.$(br)Ao fornecer a um deles um $(thing)sinal de redstone$(), e após um curto tempo de canalização, o campo será criado entre os dois, permitindo que quaisquer blocos colocados ali sejam quebrados e seus itens soltos no mundo."
         },
         {
             "type": "text",
-            "text": "Claro que quebrar blocos, e principalmente o tempo de canalização inicial, vai exigir um pouco de $(aura) do ambiente. Além disso, enquanto o campo estiver ativo, uma pequena quantidade é consumida como custo de manutenção.$(br)Qualquer botânico que precise que blocos sejam quebrados de maneira específica não precisa se preocupar: colocar uma $(item)Moldura$() com $(item)Tesouras$() ou uma $(item)ferramenta encantada$() em qualquer um dos dois $(item)Criadores de Campo de Aura$() fará com que todos os blocos entre eles sejam quebrados como se estivessem usando aquela ferramenta."
+            "text": "Claro, quebrar blocos — e especialmente o tempo de canalização inicial — exigirá um pouco de $(aura) do ambiente. Além disso, enquanto o campo estiver ativo, uma pequena quantidade é consumida como custo de manutenção.$(br)Qualquer botânico que precise que os blocos sejam quebrados de forma específica não precisa se preocupar: colocar um $(item)Quadro$() com $(item)Tesoura$() ou uma $(item)ferramenta encantada$() em qualquer um dos dois $(item)Criadores de Campo de Aura$() fará com que todos os blocos entre eles sejam quebrados como se usassem aquela ferramenta."
         },
         {
             "type": "crafting",
-            "text": "Fabricando dois $(item)Criadores de Campo de Aura$()",
+            "text": "Criando dois $(item)Criadores de Campo de Aura$()",
             "recipe": "naturesaura:field_creator"
         }
     ]

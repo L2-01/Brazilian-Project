@@ -6,15 +6,15 @@
     "pages": [
         {
             "type": "text",
-            "text": "Alguns mecanismos de $(thing)redstone$(), especialmente os mais complicados, podem exigir a construção de um dispositivo que ative num certo $(thing)intervalo$() - um $(item)temporizador$(). Para o engenheiro inexperiente, isso pode parecer uma tarefa intimidadora, mas o $(item)Vaporizador de Aura de Redstone$() simplifica bastante.$(br)A tigela de ferro infundido no centro do dispositivo pode conter qualquer tipo de $(l:practices/aura_bottle)Aura Engarrafada$(),"
+            "text": "Alguns mecanismos de $(thing)redstone$(), especialmente os mais complicados, podem exigir a construção de um dispositivo que ative num certo $(thing)intervalo$() — um $(item)temporizador$(). Para o engenheiro inexperiente, isso pode parecer uma tarefa intimidante, mas o $(item)Vaporizador de Aura de Redstone$() simplifica bastante.$(br)A tigela de ferro infundido no centro do dispositivo pode conter qualquer tipo de $(l:practices/aura_bottle)Aura Engarrafada$(),"
         },
         {
             "type": "text",
-            "text": "que será vaporizada numa velocidade precisa. Toda vez que uma vaporização termina, um $(thing)sinal de redstone$() é emitido por um breve instante e a $(aura) flui de volta à tigela.$(br)O tipo de $(aura) inserida, assim como a quantidade de garrafas, determina o tempo entre ativações: uma garrafa de $(thing)luz solar$() dura um segundo, uma garrafa de $(thing)fantasmas$() um minuto e uma garrafa de $(thing)escuridão$() uma hora. Isso significa que um sinal de redstone pode ser emitido tão raramente quanto uma vez a cada sessenta e quatro horas, se necessário."
+            "text": "que será vaporizada numa velocidade precisa. Cada vez que uma vaporização termina, um $(thing)sinal de redstone$() é emitido por um breve momento, e a $(aura) flui de volta para a tigela.$(br)O tipo de $(aura) inserida, bem como a quantidade de garrafas, determina o tempo entre ativações: uma garrafa de $(thing)luz solar$() dura um segundo, uma garrafa de $(thing)fantasmas$() um minuto e uma garrafa de $(thing)escuridão$() uma hora. Isso significa que um sinal de redstone pode ser emitido tão raramente quanto uma vez a cada sessenta e quatro horas, se necessário."
         },
         {
             "type": "text",
-            "text": "Inserir as garrafas à mão deve ser suficiente na maioria das situações, mas se necessário, as garrafas também podem ser inseridas e extraídas através de qualquer tipo de $(thing)automação$().$(br)O progresso de vaporização do dispositivo pode ser facilmente reiniciado fornecendo um $(thing)sinal de redstone$().$(br)Além disso, o tempo total, assim como o tempo restante de cada vaporização, pode ser visto olhando o dispositivo com um $(l:items/eye)Olho Ambiental$() equipado."
+            "text": "Inserir as garrafas manualmente deve ser suficiente na maioria das situações, mas se necessário, as garrafas também podem ser inseridas e extraídas por qualquer tipo de $(thing)automação$().$(br)O progresso de vaporização do dispositivo pode ser facilmente reiniciado fornecendo um $(thing)sinal de redstone$().$(br)Além disso, o tempo total e o tempo restante de cada vaporização podem ser vistos olhando para o dispositivo com um $(l:items/eye)Olho Ambiental$() equipado."
         },
         {
             "type": "crafting",

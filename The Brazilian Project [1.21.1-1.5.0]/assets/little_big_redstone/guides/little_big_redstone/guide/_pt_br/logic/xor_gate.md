@@ -1,19 +1,22 @@
 ---
 navigation:
-  title: "Porta XOR"
+  title: "Porta OU Exclusivo"
   icon: "xor_gate"
   parent: little_big_redstone:logic.md
   position: 18
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:xor_gate
 ---
 
-# Porta XOR
+# Porta OU Exclusivo
 
 <FloatingColumn width="100" align="right">
-	### Tabela-verdade
+	### Analógico
+	As Portas OU Exclusivo produzem um sinal de saída igual ao maior sinal de entrada.
+
+	### Tabela-Verdade
 	<TruthTable inputs="2" outputs="1">
 		<TruthState input="0,0" output="0" />
 		<TruthState input="0,1" output="1" />
@@ -36,10 +39,11 @@ item_ids:
 	</Column>
 </Row>
 
-Portas XOR são componentes lógicos que só têm uma saída LIGADA quando um número ímpar de entradas estão LIGADAS. No caso de uma
-Porta XOR simples de duas entradas, isso significa que a saída só estará LIGADA quando exatamente uma das entradas estiver LIGADA.
+As portas OU Exclusivo são componentes lógicos que só têm saída LIGADA quando um número ímpar de entradas está
+LIGADO. No caso de uma porta OU Exclusivo simples de duas entradas, isso significa que a saída só ficará LIGADA
+quando exatamente uma das entradas estiver LIGADA.
 
-Portas XOR podem ser configuradas para ter entre 2 e 10 entradas.
+As portas OU Exclusivo podem ser configuradas para ter entre 2 e 10 entradas.
 
 <Row>
 	<Column>

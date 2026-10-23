@@ -5,12 +5,12 @@
   "pages": [
     {
       "type": "text",
-      "text": "A $(item)Essência de Memória/$ é um fluido que representa as memórias e experiências de um jogador em forma líquida. Ela pode ser extraída e armazenada para uso posterior, seja para encantamento vanilla ou para certos processos de fabricação do $(pncr).$(p)Há duas formas de obter $(item)Essência de Memória/$:$(li)1. Com um $(l:tools/memory_stick)Cartão de Memória/$(li)2. Com uma $(l:machines/aerial_interface)Interface Aérea/$."
+      "text": "$(item)Essência de Memória/$ é um fluido que representa as memórias e experiências de um jogador em forma líquida. Pode ser extraída e armazenada para uso posterior, seja no encantamento do jogo padrão, seja em certos processos de fabricação do $(pncr).$(p)Há duas formas de obter $(item)Essência de Memória/$:$(li)1. Com um $(l:tools/memory_stick)Cartão de Memória/$$(li)2. Com uma $(l:machines/aerial_interface)Interface Aérea/$."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:memory_essence_bucket",
-      "text": "$(italic)Tem experiência?/$"
+      "text": "$(italic)Você é experiente?/$"
     }
   ]
 }

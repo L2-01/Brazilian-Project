@@ -1,0 +1,17 @@
+{
+  "name": "Coletor de Fluido",
+  "icon": "industrialforegoing:fluid_collector",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 7,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Drena um bloco-fonte de fluido à sua frente.$(br2)Ele colocará o fluido do recipiente interno e usará $(6)1000$()RF."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_collector"
+    }
+  ]
+}

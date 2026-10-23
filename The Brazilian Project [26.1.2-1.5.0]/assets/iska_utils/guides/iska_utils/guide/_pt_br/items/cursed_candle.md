@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:cursed_candle
 categories:
-  - Entrega Suspeita
+  - Suspicious Delivery
 ---
 # Vela Arcana
 
@@ -15,9 +15,9 @@ categories:
 
 ## O que faz
 
-**Artefato arcano** que funciona como um braseiro portátil. Coloca blocos de **Chama Ardente Amaldiçoada** embaixo de você quando a colocação automática está ativada (veja a tecla na dica). **Não** perde durabilidade ao colocar chamas.
+**Artefato arcano** que funciona como um braseiro portátil. Coloca blocos de **Chama Ardente Amaldiçoada** sob você quando a colocação automática está ativada (veja a tecla no tooltip). **Não** perde durabilidade ao colocar chamas.
 
-Diferente da maioria dos artefatos, você pode usá-la da sua **barra rápida ou inventário** — um espaço de **Curios** é opcional.
+Diferente da maioria dos artefatos, você pode usá-la da sua **hotbar ou inventário** — um slot **Curios** é opcional.
 
 ## Como obter
 

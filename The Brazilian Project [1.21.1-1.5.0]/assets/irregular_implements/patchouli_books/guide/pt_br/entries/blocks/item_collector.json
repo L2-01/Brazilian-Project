@@ -7,14 +7,14 @@
       "type": "patchouli:spotlight",
       "item": "irregular_implements:item_collector",
       "link_recipe": true,
-      "text": "O $(d)Coletor de Itens$() pode ser colocado sobre um inventário e coleta entidades de itens num raio de 3 blocos ao seu redor.$(br2)Isso equivale a um cubo de 7x7x7 centrado no coletor.",
+      "text": "O $(d)Coletor de Itens$() pode ser colocado num inventário e coletará entidades de item num raio de 3 blocos ao seu redor.$(br2)Isso é um cubo 7x7x7 centrado no Coletor.",
       "title": "Coletor de Itens"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:advanced_item_collector",
       "link_recipe": true,
-      "text": "O $(d)Coletor de Itens Avançado$() funciona da mesma forma, mas tem um raio configurável de 0 a 10 blocos.$(br2)Cada eixo (X/Y/Z) tem seu próprio raio também.$(br2)Opcionalmente, você também pode colocar um $(l:items/item_filter)Filtro de Item$(/l) nele, e ele só coletará itens que correspondam ao filtro.",
+      "text": "O $(d)Coletor de Itens Avançado$() funciona igual, mas tem um raio configurável de 0 a 10 blocos.$(br2)Cada dimensão (X/Y/Z) também tem seu próprio raio.$(br2)Você também pode opcionalmente colocar um $(l:items/item_filter)Filtro de Item$(/l) nele, e ele só coletará itens que correspondam a ele.",
       "title": "Coletor de Itens Avançado"
     }
   ]

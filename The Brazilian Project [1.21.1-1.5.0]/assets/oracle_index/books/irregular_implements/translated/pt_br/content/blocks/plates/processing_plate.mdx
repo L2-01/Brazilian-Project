@@ -1,0 +1,60 @@
+---
+title: Chapa de Processamento
+id: irregular_implements:processing_plate
+related_items: [irregular_implements:processing_plate, irregular_implements:collection_plate, irregular_implements:extraction_plate]
+type: block
+---
+
+A **Chapa de Processamento** combina as funções da [Chapa de Coleta](./collection_plate) e da [Chapa de Extração](./extraction_plate). Ela pode coletar itens soltos para o inventário abaixo dela enquanto move, de forma independente, itens de outro inventário adjacente em direção à sua saída configurada.
+
+Como as outras Chapas, ela é colocada sobre um bloco de suporte e não tem caixa de colisão. Entidades podem passar pela Chapa fina, e itens soltos são processados ao tocá-la.
+
+## Coletando itens soltos
+
+Quando um item solto toca a Chapa de Processamento, a Chapa tenta inserir a pilha no inventário diretamente abaixo dela.
+
+Essa direção de coleta é sempre **Baixo**. Ela é separada dos lados de extração e saída configuráveis descritos abaixo.
+
+Se o inventário só puder aceitar parte da pilha, os itens aceitos são inseridos e o restante permanece no mundo. Se não puder aceitar nada da pilha, o item permanece inalterado. Se a pilha inteira for inserida, o item solto é removido.
+
+## Extraindo itens de um inventário
+
+A Chapa de Processamento também realiza uma transferência automática de inventário duas vezes por segundo. Cada tentativa de transferência verifica o inventário no **lado de extração** configurado.
+
+O lado de extração pode ser Baixo, Norte, Leste, Sul, Oeste ou Cima. A Chapa acessa a face desse inventário que aponta para ela, então as regras de inserção e extração por face de máquinas e outros inventários são respeitadas.
+
+A Chapa verifica os espaços do inventário em ordem. Quando encontra uma pilha de itens que pode ser extraída e enviada à saída, move até 64 itens e encerra aquela tentativa de transferência. Portanto, ela transfere de no máximo um espaço por tentativa.
+
+## Enviando itens extraídos à saída
+
+O **lado de saída** pode ser Norte, Leste, Sul ou Oeste.
+
+Se houver um inventário adjacente ao lado de saída, a Chapa insere os itens extraídos na face que aponta para ela. Ela extrai apenas a quantidade de itens que a saída consegue aceitar.
+
+Se não houver inventário no lado de saída, a pilha extraída é solta logo além da borda da Chapa e empurrada suavemente na direção de saída. Se um inventário de saída inesperadamente deixar um restante durante a transferência, esse restante é solto e empurrado da mesma forma.
+
+A marcação no topo da Chapa indica sua direção de saída atual.
+
+## Configuração
+
+A Chapa de Processamento não tem menu. Configure-a com a mão vazia:
+
+- **Clique com o botão direito** para alternar o lado de extração.
+- **Agache e clique com o botão direito** para alternar o lado de saída horizontal.
+
+Uma mensagem de status exibe o lado recém-selecionado após cada interação.
+
+Ao ser colocada, a saída aponta na direção para a qual o jogador estava olhando. O lado de extração aponta na direção oposta.
+
+## Exemplo
+
+Coloque uma Chapa de Processamento sobre um baú, com uma fornalha ao norte e outro baú ao leste. Defina o lado de extração como Norte e o lado de saída como Leste.
+
+A Chapa agora executa duas tarefas independentes:
+
+1. Itens soltos que passam sobre a Chapa são inseridos no baú abaixo.
+2. Itens são extraídos da fornalha ao norte e inseridos no baú ao leste.
+
+Mudar o lado de extração ou de saída não muda para onde os itens soltos são coletados; itens soltos sempre vão para o inventário abaixo.
+
+<PrefabObtaining/>

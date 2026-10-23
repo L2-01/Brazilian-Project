@@ -1,19 +1,19 @@
 {
-  "name": "Pé de Cabra",
-  "icon": "railcraft:iron_crowbar",
-  "category": "railcraft:tools",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "O Pé de Cabra é uma ferramenta multiuso que todo engenheiro ferroviário deveria carregar. Ele torna a remoção de trilhos modernos moleza e funciona até em Blocos Detectores e Carregadores. Além disso, clicar com o botão direito num trilho permitirá ajustá-lo. Na maioria das vezes isso significa inverter a direção do trilho, mas alguns trilhos abrirão uma GUI. Clicar com o botão direito num Bloco Detector, Ejetor de Carrinhos ou Carregador Avançado girará o bloco para encarar o lado clicado."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "O Pé de Cabra também pode interagir com carrinhos de várias formas. De interesse está a habilidade de dar aos carrinhos um pequeno impulso simplesmente batendo neles com o Pé de Cabra (clique direito). Em Locomotivas, isso na verdade inverte a direção da locomotiva. Além disso, o Pé de Cabra pode ser usado para vincular carrinhos entre si com shift+clique direito, veja Vinculação de Carrinhos para mais informações."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Os Pés de Cabra de Diamante são feitos para aparecer em baús de cidades do End.$(br2)O Pé de Cabra de Estações não pode vincular carrinhos; em vez disso, ele pode quebrar portas. Ele só pode ser obtido em Oficinas."
-    }
-  ]
+    "name": "Pé de Cabra",
+    "icon": "railcraft:iron_crowbar",
+    "category": "railcraft:tools",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O Pé de Cabra é uma ferramenta multiuso que todo engenheiro ferroviário deve carregar. Ele torna a remoção de trilhos modernos moleza e funciona até em Blocos Detectores e Carregadores. Além disso, clicar com o botão direito num trilho permite ajustá-lo. Na maioria das vezes isso significa inverter a direção do trilho, mas alguns trilhos abrem uma interface. Clicar com o botão direito num Bloco Detector, Ejetor de Carrinhos ou Carregador Avançado girará o bloco para a face clicada."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O Pé de Cabra também pode interagir com carrinhos de várias formas. Vale destacar a capacidade de dar um pequeno impulso aos carrinhos apenas batendo neles com o Pé de Cabra (botão direito). Em Locomotivas, isso na verdade inverte a direção da locomotiva. Além disso, o Pé de Cabra pode ser usado para vincular carrinhos entre si com shift + botão direito; veja Vinculação de Carrinhos para mais informações."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Pés de Cabra de Diamante foram pensados para aparecer em baús de cidades do End.$(br2)O Pé de Cabra de Estações não pode vincular carrinhos; em vez disso, ele pode quebrar portas. Só pode ser obtido em Oficinas."
+        }
+    ]
 }

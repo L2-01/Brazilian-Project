@@ -1,0 +1,17 @@
+{
+    "name": "Resguardo",
+    "icon": "simplyswords:runic_tablet",
+    "category": "simplyswords:category_rune_etching",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:runic_tablet",
+            "title": "Resguardo",
+            "text": "O Resguardo é uma habilidade poderosa mas arriscada que fornece ao portador um escudo temporário para proteger contra ataques recebidos. Quando ativado, o portador sacrifica metade de sua vida atual para criar uma barreira pulsante de energia ao seu redor que absorve o dano recebido."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O escudo dura seis segundos e pulsa periodicamente, fornecendo uma nova camada de absorção a cada pulso. A força do escudo escala com a quantidade de vida restante, tornando-o uma poderosa opção defensiva para quem está disposto a correr o risco."
+        }
+    ]
+}

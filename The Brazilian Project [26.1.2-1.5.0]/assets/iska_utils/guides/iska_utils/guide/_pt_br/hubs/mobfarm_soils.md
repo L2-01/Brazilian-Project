@@ -5,16 +5,16 @@ navigation:
   parent: index.md
   position: 16
 categories:
-  - Solos de Farm de Criaturas
+  - MobFarm Soils
 ---
 # Solos de Farm de Criaturas
 
-Blocos de chão para esquemas de farm de criaturas (estilo Mob Grinding Utils):
+Blocos de solo para construções de farm de criaturas (estilo Mob Grinding Utils):
 
-- **Solo Entrópico** — corruptivo; a escuridão gera hostis empoderados; a luz decai para Terra Entrópica; espalha-se naturalmente sobre grama/terra, mais rápido nas bordas da mancha.
-- **Podzol Druídico** — abençoado; gera animais com luz; espalha-se naturalmente apenas sobre terra/podzol; não decai na escuridão.
-- **Solo de Cemitério** — cura mortos-vivos em cima; separado do espalhamento e da aglomeração.
-- **Aglomerações** — conversão instantânea de manchas (raio 7); sobrepõem as regras naturais e podem substituir os outros tipos de solo do mod; o solo de cemitério bloqueia a mancha.
-- **Ovo Entrópico** — use numa criatura para coletar seu ovo gerador; veja a página.
+- **Solo Entrópico** — corruptivo; a escuridão gera hostis fortalecidos; a luz o degrada em Terra Entrópica; propagação natural sobre grama/terra, mais rápida nas bordas do núcleo.
+- **Podzol Druídico** — abençoado; gera animais na luz; propagação natural apenas sobre terra/podzol; não degrada na escuridão.
+- **Solo de Cemitério** — cura mortos-vivos sobre ele; separado da propagação e da aglomeração.
+- **Aglomerações** — conversão instantânea de núcleo (raio 7); ignoram as regras naturais e podem substituir os outros solos do mod; o solo de cemitério bloqueia o núcleo.
+- **Ovo Entrópico** — use numa criatura para coletar seu ovo gerador; veja essa página.
 
 <SubPages icons={true} alphabetical={false} />

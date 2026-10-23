@@ -1,0 +1,16 @@
+{
+  "name": "Filtro Básico",
+  "sortnum": 1,
+  "category": "laserio:filters",
+  "icon": "laserio:filter_basic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O filtro básico pode ser usado para limitar quais itens são permitidos num inventário.$(br2)Estes espaços são 'espaços fantasmas', o que significa que eles NÃO guardam itens de verdade, apenas uma imagem de um item."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se o JEI estiver instalado, você pode arrastar itens do JEI para estes 'espaços fantasmas'. Simplesmente clique com o botão esquerdo e arraste do JEI para a interface do filtro."
+    }
+  ]
+}

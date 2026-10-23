@@ -1,0 +1,31 @@
+---
+id: oritech:schrodingers_safe
+type: block
+title: Cofre de Schrödinger
+custom:
+    Capacidade de RF: "20,000,000 base"
+---
+
+O Cofre de Schrödinger é usado para armazenar quantidades muito grandes de RF. Clique com o botão direito usando o item em um bloco instável, como TNT ou um explosivo nuclear
+(veja a descrição no jogo para a lista completa).
+Esse bloco então fica contido dentro do Cofre de Schrödinger. Quanto mais perigoso for o bloco original, maior fica a capacidade de armazenamento
+de energia do cofre.
+Nenhum núcleo de máquina é necessário para este multibloco. Ele se monta sozinho.
+
+A energia sai pelos blocos centrais do topo e da base. Ela pode ser inserida em qualquer outro lugar. A interface mostra o bloco contido,
+o bônus de laser e os dados de E/S.
+
+<center>
+<ModAsset location="oritech:area/unstable_container" width={512} />
+</center>
+
+## Sobrecarga
+
+Para aumentar ainda mais a quantidade de energia que o cofre pode armazenar, aponte lasers endéricos para ele. Os lasers não transferem
+energia para o cofre. Em vez disso,
+eles aumentam a capacidade de armazenamento dele. Quanto mais lasers estiverem disparando no cofre, e quanto mais rápido dispararem, mais energia ele pode guardar. Isso escala
+exponencialmente, então o armazenamento pode ficar muito grande.
+
+A capacidade extra só existe enquanto os lasers estiverem apontados para o cofre e disparando ativamente. Se os lasers ficarem sem
+energia ou pararem de disparar, a
+capacidade de armazenamento volta lentamente ao valor original.

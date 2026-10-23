@@ -2,54 +2,54 @@
     "name": "Atributos de Encantamento",
     "icon": "minecraft:bookshelf",
     "category": "apotheosis:enchanting/table",
-	"flag": "apotheosis:enchanting",
+    "flag": "apotheosis:enchanting",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Com o Apotheosis, o encantamento depende de mais que apenas níveis.$(p)Existem atualmente cinco novos atributos de encantamento.$(p)Blocos que fornecem atributos de encantamento os terão em sua dica de ferramenta."
+            "text": "Com o Apotheosis, encantar depende de mais do que apenas níveis.$(p)Atualmente existem cinco novos atributos de encantamento.$(p)Blocos que fornecem atributos de encantamento os exibem na dica de ferramenta."
         },
-		{
-			"type": "patchouli:text",
-			"title": "Eterna",
-			"text": "$(eterna) é o atributo principal do encantamento.$(p)Cada ponto de $(eterna) aumenta o nível máximo de encantamento em dois.$(p)Alguns blocos só podem fornecer $(eterna) até um certo valor máximo."
-		},
-		{
-			"type": "patchouli:text",
-			"title": "Quanta",
-			"anchor": "quanta",
-			"text": "$(quanta) é um atributo secundário. Ela controla a variância do encantamento.$(p)Durante o encantamento, você tem um $(bpower), que é o nível gasto para encantar, e então um $(fpower), após todas as modificações.$(p)$(quanta) é um dos fatores no processo de modificação."
-		},
-		{
-			"type": "patchouli:text",
-			"text": "Um valor é selecionado, entre $(4)1 - Quanta$() e $(9)1 + Quanta$().$(p)Seu $(fpower) é igual a esse valor multiplicado pelo seu $(bpower).$(p)Valores maiores de $(quanta) aumentam a faixa de poder, o que significa que seus encantamentos são menos consistentes no $(fpower)."
-		},
-		{
-			"type": "patchouli:text",
-			"title": "Arcana",
-			"text": "$(arcana) é um atributo secundário. Ela controla os pesos de raridade e, em certos limiares, garantirá que você receba encantamentos adicionais.$(p)Com 25% de $(arcana), você sempre receberá pelo menos dois encantamentos. Com 75%, você sempre receberá três."
-		},
-		{
-			"type": "patchouli:text",
-			"text": "Por padrão, as raridades têm os seguintes pesos:$(p)Comum: 10$(br)Incomum: 5$(br)Raro: 3$(br)Muito Raro: 1$(p)A cada 10% de $(arcana), os pesos mudam, eventualmente ficando totalmente invertidos.$(p)Passar o cursor sobre a barra de $(arcana) mostrará os pesos atuais."
-		},
-		{
-			"type": "patchouli:text",
-			"title": "Retificação",
-			"anchor": "rectification",
-			"text": "A Retificação é um atributo terciário. Ela impacta diretamente o limite inferior das modificações de $(quanta).$(p)Lembre-se de que seu $(4)Poder Mínimo$() é igual a $(4)1 - Quanta$().$(p)Com a Retificação (R), seu $(4)Poder Mínimo$() é igual a $(4)1 - (1 - R) * Quanta$()."
-		},
-		{
-			"type": "patchouli:text",
-			"text": "Se isso não fez muito sentido, não se preocupe.$(p)Saiba apenas que valores mais altos de Retificação são sempre uma coisa boa.$(p)Você também pode ter Retificação negativa, que é sempre ruim."
-		},
-		{
-			"type": "patchouli:text",
-			"title": "Pistas",
-			"text": "Pistas são outro atributo terciário.$(p)Cada pista permite ver um item adicional na janela de pré-visualização.$(p)Quando você puder ver todos os encantamentos disponíveis, o texto mudará levemente."
-		},
-		{
-			"type": "patchouli:text",
-			"text": "Você também pode cair para zero pistas e não conseguir ver nada."
-		}
-	]
+        {
+            "type": "patchouli:text",
+            "title": "Eterna",
+            "text": "A $(eterna) é o atributo principal do encantamento.$(p)Cada ponto de $(eterna) aumenta o nível máximo de encantamento em dois.$(p)Alguns blocos só podem fornecer $(eterna) até certo valor máximo."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Quanta",
+            "anchor": "quanta",
+            "text": "A $(quanta) é um atributo secundário. Ela controla a variância do encantamento.$(p)Ao encantar, você tem um $(bpower), que é o nível gasto para encantar, e depois um $(fpower), após todas as modificações.$(p)A $(quanta) é um dos fatores do processo de modificação."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Um valor é selecionado entre $(4)1 - Quanta$() e $(9)1 + Quanta$().$(p)Seu $(fpower) é igual a esse valor multiplicado pelo seu $(bpower).$(p)Valores maiores de $(quanta) aumentam o intervalo de poder, o que torna seus encantamentos menos consistentes em $(fpower)."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Arcana",
+            "text": "A $(arcana) é um atributo secundário. Ela controla os pesos de raridade e, em certos limites, garante encantamentos adicionais.$(p)Com 25% de $(arcana), você sempre receberá pelo menos dois encantamentos. Com 75%, sempre receberá três."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Por padrão, as raridades têm os seguintes pesos:$(p)Comum: 10$(br)Incomum: 5$(br)Raro: 3$(br)Muito Raro: 1$(p)A cada 10% de $(arcana) os pesos mudam, até se inverterem por completo.$(p)Passar o mouse sobre a Barra de $(arcana) mostrará os pesos atuais."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Retificação",
+            "anchor": "rectification",
+            "text": "A Retificação é um atributo terciário. Ela impacta diretamente o limite inferior das modificações de $(quanta).$(p)Lembre-se de que seu $(4)Poder Mínimo$() é igual a $(4)1 - Quanta$().$(p)Com Retificação (R), seu $(4)Poder Mínimo$() é igual a $(4)1 - (1 - R) * Quanta$()."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Se isso não fizer muito sentido, não se preocupe.$(p)Basta saber que valores maiores de Retificação são sempre bons.$(p)Você também pode ter Retificação negativa, o que é sempre ruim."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Pistas",
+            "text": "As Pistas são outro atributo terciário.$(p)Cada pista permite ver um item adicional na janela de pré-visualização.$(p)Quando você puder ver todos os encantamentos disponíveis, o texto mudará levemente."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Você também pode ficar com zero pistas e não conseguir ver nada."
+        }
+    ]
 }

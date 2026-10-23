@@ -8,9 +8,8 @@ navigation:
 
 # Materiais e Armazenamento
 
-A cadeia de materiais avança dos fragmentos estelares, passando pela contenção
-e pelas matrizes de componentes, até células ME grandes ou limitadas a um
-recurso. Use o JEI para as receitas exatas e esta seção para o comportamento e
-o papel de cada item na progressão.
+A cadeia de materiais progride de fragmentos estelares através da contenção e das
+matrizes de componentes até grandes células ME ou células travadas a recursos. Use o JEI para
+receitas exatas e esta seção para comportamento e papéis de progressão.
 
 <SubPages />

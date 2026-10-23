@@ -1,23 +1,23 @@
 {
-  "name": "Widget de Importar do Inventário",
+  "name": "Widget de Importação de Inventário",
   "icon": "pneumaticcraft:textures/progwidgets/inventory_import_piece.png",
   "category": "pneumaticcraft:widget_interact",
   "advancement": "pneumaticcraft:programmer",
   "pages": [
     {
       "type": "text",
-      "text": "Isso fará o $(l:tools/drone)Drone/$ ir até o inventário mais próximo dentro da $(l:programming/area)área/$ especificada, extrair itens daquele inventário e inseri-los no inventário do $(item)Drone/$.$(p)$(thing)Clique com o botão direito/$ no widget para uma GUI de configuração onde você pode especificar o lado de onde o $(item)Drone/$ deve extrair os itens. Você também pode especificar o número máximo de itens a importar."
+      "text": "Isto fará o $(l:tools/drone)Drone/$ ir até o inventário mais próximo dentro da $(l:programming/area)área/$ especificada, extrair itens daquele inventário e inseri-los no inventário do $(item)Drone/$.$(p)$(thing)Clique com o botão direito/$ no widget para abrir uma GUI de configuração onde você pode especificar o lado do qual o $(item)Drone/$ deve extrair os itens. Você também pode especificar o número máximo de itens a importar."
     },
     {
       "type": "text",
-      "text": "Você também pode conectar qualquer número (incluindo zero) de widgets $(l:programming/item_filter)Filtro de Item/$ para limitar os itens que podem ser importados. Lembre-se, filtros à $(italic)direita/$ agem como lista-branca e filtros à $(italic)esquerda/$ agem como lista-negra.$(p)Este widget termina a execução quando o inventário do $(item)Drone/$ está cheio ou quando não há mais itens (aplicáveis) a serem encontrados no(s) inventário(s) relevante(s)."
+      "text": "Você também pode conectar qualquer número (incluindo zero) de widgets de $(l:programming/item_filter)Filtro de Item/$ para limitar os itens que podem ser importados. Lembre-se, filtros à $(italic)direita/$ agem como lista-branca, e filtros à $(italic)esquerda/$ agem como lista-negra.$(p)Este widget termina de executar quando o inventário do $(item)Drone/$ estiver cheio, ou quando não houver mais itens (aplicáveis) no(s) inventário(s) relevante(s)."
     },
     {
       "type": "image",
       "images": [
         "pneumaticcraft:textures/progwidgets/inventory_import_piece.png"
       ],
-      "text": "$(italic)Eu aceito, obrigado/$"
+      "text": "$(italic)Vou querer isso, obrigado/$"
     }
   ]
 }

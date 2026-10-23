@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:unstable_entropy_catalyst
 categories:
-  - Materiais de Entropia
+  - Entropy materials
 ---
 # Catalisador de Entropia Instável
 
@@ -17,13 +17,13 @@ Um material de entropia altamente instável fabricado na <ItemImage id="iska_uti
 
 ## Decaimento
 
-Enquanto fica no seu inventário, ele **decai** ao longo do tempo (cerca de meio minuto por padrão). A dica mostra uma **barra de estabilidade**; o ícone muda conforme piora.
+Enquanto fica no seu inventário, ele **decai** com o tempo (cerca de meio minuto por padrão). O tooltip mostra uma **barra de estabilidade**; o ícone muda conforme piora.
 
-Quando decai por completo, o item **some**. Em alguns servidores, o decaimento pode ser letal — leia o aviso vermelho na dica.
+Quando decai por completo, o item **some**. Em alguns servidores, o decaimento pode ser letal — leia o aviso vermelho no tooltip.
 
 ## Usos
 
-- Fabrique o <ItemImage id="iska_utils:entropic_smithing_template" /> **Molde de Ferraria Entrópico** (use-o logo após fazer o catalisador).
-- Fabrique a <ItemImage id="iska_utils:entropy_tnt" /> **Dinamite de Entropia** com <ItemImage id="iska_utils:entropy_crystal" /> **Cristal de Entropia**.
+- Fabricar <ItemImage id="iska_utils:entropic_smithing_template" /> **Molde de Ferraria Entrópico** (use-o logo após fazer o catalisador).
+- Fabricar <ItemImage id="iska_utils:entropy_tnt" /> **Dinamite de Entropia** com <ItemImage id="iska_utils:entropy_crystal" /> **Cristal de Entropia**.
 
-Para entropia fácil de armazenar, prefira o <ItemImage id="iska_utils:entropy_crystal" /> **Cristal de Entropia**.
+Para entropia amigável ao armazenamento, prefira o <ItemImage id="iska_utils:entropy_crystal" /> **Cristal de Entropia**.

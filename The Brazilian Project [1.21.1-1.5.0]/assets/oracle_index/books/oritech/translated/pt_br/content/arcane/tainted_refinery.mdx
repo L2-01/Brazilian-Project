@@ -1,0 +1,100 @@
+---
+title: Refinaria Maculada
+id: oritech:tainted_refinery_block
+type: block
+---
+
+A Refinaria Maculada é uma versão corrompida da [Refinaria](@oritech:refinery_block) padrão, criada por um processo de transformação volátil.
+Ela processa as mesmas receitas da refinaria, mas opera em um modo de energia fundamentalmente diferente.
+Ela aceita energia praticamente ilimitada com retornos decrescentes, e sua saída e eficiência energética podem ser dramaticamente aumentadas ao cercá-la com os blocos certos.
+
+<center>
+<ModAsset location="oritech:area/tainted_refinery_area" width={500} />
+</center>
+
+---
+
+## Criação
+
+A Refinaria Maculada não pode ser fabricada. Ela é criada no mundo ao **explodir uma Refinaria** enquanto um
+[Catalisador Arcano](@oritech:enchantment_catalyst_block) carregado estiver por perto (dentro de 6 blocos).
+
+O catalisador precisa conter pelo menos uma alma. Quando a explosão atinge a refinaria, o catalisador detona, a refinaria é consumida e uma Refinaria Maculada aparece em seu lugar.
+A orientação da refinaria é preservada. A estrutura multibloco se monta automaticamente, sem necessidade de colocação manual de núcleos.
+
+<Callout variant="warning">
+    A área ao redor da explosão deve estar livre. Se as posições dos núcleos da Refinaria Maculada estiverem obstruídas, a construção pode falhar parcialmente.
+</Callout>
+
+---
+
+## Modelo de Energia
+
+Diferente de máquinas normais com consumo fixo de RF/t, a Refinaria Maculada tem uma **entrada de energia dinâmica**.
+
+- Ela só aceita energia enquanto processa ativamente uma receita. Quando ociosa, sua entrada é zero.
+- Ela consome **toda a energia armazenada a cada tique** e a converte em progresso de processamento.
+- Uma entrada de energia maior dá mais progresso por tique, mas com **retornos decrescentes**. A relação segue uma curva de potência:
+
+> progress = 0.2 * energy^0.45
+
+Isso significa que dobrar sua entrada de energia não dobra sua velocidade. A máquina recompensa energia estável de alta vazão, mas não te pune severamente por flutuações.
+Sua entrada máxima é de 500M RF/t, então você pode alimentá-la com o quanto sua infraestrutura permitir. Talvez você queira limitar a entrada de energia usando um armazenamento de energia portátil.
+
+---
+
+## Seleção de Saída
+
+A Refinaria Maculada opera com as receitas padrão de refinaria, que podem produzir múltiplos fluidos diferentes. No entanto, ela **só extrai um fluido por vez**.
+
+O espaço de saída desejado pode ser selecionado por um botão na interface (espaço 1, 2 ou 3). Quaisquer fluidos produzidos que não correspondam ao espaço selecionado são descartados.
+Escolha a saída que você precisa antes de começar a produção.
+
+---
+
+## Bônus de Ambiente
+
+A Refinaria Maculada escaneia seus arredores (dentro de 16 blocos, distância Manhattan) em busca de tipos específicos de bloco. Esses blocos precisam ter **linha de visão** para a refinaria.
+Blocos sólidos no caminho os obstruem.
+
+Existem duas categorias de blocos de bônus:
+
+### Blocos de Sculk -> Bônus de Rendimento
+
+Blocos temáticos de sculk aumentam o **multiplicador de saída**, variando de 1x a 3x. Isso afeta tanto saídas de itens quanto de fluidos.
+
+Blocos válidos incluem: Sculk, Catalisador de Sculk, Sensor de Sculk, Sensor de Sculk Calibrado, Emissor de Sculk, Veio de Sculk, Gerador de Criaturas, variantes de Pedra Infestada,
+Gaiola de Gerador e Controlador de Gerador.
+
+### Blocos Arcanos -> Eficiência Energética
+
+Blocos temáticos arcanos aumentam o **fator de escala de energia**, variando de 1x a 9x. Esse multiplicador é aplicado à energia antes da curva de retornos decrescentes,
+fazendo cada RF valer muito mais.
+
+Blocos válidos incluem: Mesa de Encantamentos, Estante, Estante Talhada, Vara do End, Bloco de Ametista, Drusa de Ametista, Cristais e Agregados de Ametista, Tocha das Almas,
+Lampião das Almas, Fogueira das Almas, Obsidiana Chorona, Âncora de Renascimento, Estação de Aumento Arcano, Encantador e Catalisador Arcano.
+
+<Callout variant="info">
+    Os blocos válidos para essas categorias podem ser vistos/verificados no jogo usando um visualizador de receitas como JEI, REI ou EMI.
+</Callout>
+
+### Otimização
+
+Para efeito máximo, você quer **16 blocos** de cada tipo, distribuídos em **pelo menos 4 tipos de bloco diferentes** dentro de cada categoria.
+Ter menos de 4 tipos aplica uma penalidade, embora você possa compensar colocando mais blocos.
+
+> factor = min(1, blockCount / 16 * typeCount / 4)
+
+O ambiente é escaneado quando o multibloco é montado pela primeira vez. Quebrar e remontar a refinaria dispara um novo escaneamento.
+
+<Callout variant="info">
+    Ambas as categorias de bônus e sua força atual são exibidas na interface da refinaria como barras medidoras.
+    Você também pode ver o multiplicador de saída atual e os valores de escala de energia nas tooltips.
+</Callout>
+
+---
+
+## Quebrando
+
+Quando qualquer parte do multibloco da Refinaria Maculada é quebrada, a estrutura inteira é desmontada.
+Um item de [Refinaria](@oritech:refinery_block) comum é largado. Não existe item de Refinaria Maculada obtível no survival. A única forma de conseguir uma nova é pelo ritual de explosão novamente.

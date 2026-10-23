@@ -8,12 +8,12 @@
   "pages": [
     {
       "type": "text",
-      "text": "O $(item)Verificador de Inventário$() emite um $(thing)sinal de redstone$() se o inventário atrás dele tiver mais do que um determinado número de itens em um espaço especificado. Tanto o espaço quanto o item podem ser definidos na interface, junto com uma $(thing)Etiqueta de Item$() opcional, e se o dano do item especificado deve ser ignorado ou correspondido. Também podem ser deixados em branco para corresponder a qualquer item que vá para o espaço."
+      "text": "O $(item)Verificador de Inventário$() emite um $(thing)sinal de redstone$() se o inventário atrás dele tiver mais que um certo número de itens num espaço especificado. Tanto o espaço quanto o item podem ser definidos na GUI, junto com uma $(thing)Tag de Item$() opcional e se deve ignorar ou corresponder o dano do item especificado. Eles também podem ser deixados em branco para corresponder a qualquer item que entre no espaço."
     },
     {
       "type": "text",
-      "title": "Interface",
-      "text": "A interface seleciona o espaço, a pilha, a etiqueta de item opcional, o modo de dano e o limite. Deixe a correspondência de item ou etiqueta vazia quando qualquer item válido naquele espaço deve contar."
+      "title": "GUI",
+      "text": "A GUI seleciona o espaço, a pilha, a tag de item opcional, o modo de dano e o limiar. Deixe a correspondência de item ou tag vazia quando qualquer item válido naquele espaço deve contar."
     },
     {
       "type": "crafting",

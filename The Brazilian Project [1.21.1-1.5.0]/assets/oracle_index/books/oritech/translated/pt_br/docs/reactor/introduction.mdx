@@ -1,0 +1,53 @@
+---
+title: Introdução
+icon: oritech:area/reactor
+---
+
+<Callout variant="warning">
+    Bem-vindo ao mundo dos reatores nucleares, onde dominar o poder do átomo é tão empolgante quanto perigoso.
+    Lembre-se: com grandes poderes vêm grandes responsabilidades — e consequências potencialmente explosivas. Certifique-se de que todos os protocolos de segurança
+    sejam seguidos para evitar transformar seu laboratório em uma cratera brilhante.
+</Callout>
+
+## Visão Geral
+
+Os reatores do Oritech são uma ótima forma de gerar grandes quantidades de energia.
+Eles consomem pastilhas de urânio ou plutônio e produzem RF com base no número de varetas de reator e refletores de nêutrons ao lado das varetas.
+No entanto, é importante mantê-los suficientemente resfriados.
+
+<center>
+<ModAsset location="oritech:area/reactor" width={1000} />
+</center>
+
+Queimar combustível no reator gera calor, e há múltiplos componentes para gerenciar o calor do reator:
+- Os tubos de calor retiram calor das varetas e o movem ao longo dos tubos.
+- Os respiros de calor do reator retiram parte do calor do componente vizinho mais quente, como varetas de combustível ou tubos de calor, e o dissipam para fora do reator.
+- Os absorvedores de calor absorvem uma quantidade fixa de calor de todos os componentes vizinhos, mas exigem um suprimento constante de itens refrigerantes para funcionar.
+
+O reator permite que um pouco de calor se acumule. Idealmente, um reator devidamente resfriado não produz vazamento de calor. No entanto, alguns componentes,
+como os respiros de calor, são mais eficientes em ambientes mais quentes. Se for criado calor demais que não possa ser removido, as varetas de combustível podem superaquecer,
+resultando em uma fusão nuclear. Se uma vareta atingir uma temperatura acima de 2000 C por um período prolongado, ela desencadeará uma fusão.
+Sirenes de alerta tocarão antes que o reator atinja essas temperaturas. Dependendo do tamanho do reator e do número de varetas,
+a fusão resultará em uma explosão maior ou menor.
+
+<Callout variant="info">
+    Para os cientistas aprendizes da Oritech Inc. que querem explorar com segurança novos designs e variantes de reatores, há uma opção de configuração disponível
+    chamada Reatores Seguros, que fará os reatores entrarem em um período de resfriamento em vez de explodirem ao superaquecer.
+</Callout>
+
+<center>
+<ModAsset location="oritech:area/reactor_interior_sample" width={500} />
+</center>
+
+O reator precisa ser feito de paredes retangulares, onde as bordas são feitas de blocos de parede do reator. O tamanho máximo de um reator é de 66 blocos por direção.
+Um controlador de reator precisa ser colocado em algum ponto das paredes. Portas de energia também podem ser colocadas nas paredes laterais.
+Todos os outros componentes que não são portas devem ser colocados no interior do reator. O reator pode ter qualquer altura, mas o interior precisa ser idêntico
+no eixo vertical. Isso significa que você pode projetar seu reator em um espaço 2D e depois escalá-lo verticalmente como desejar. Qualquer reator que funcione com
+uma altura interna de 1 também funcionará de forma similar com uma altura interna de 10. No entanto, a produção de energia, assim como o consumo de refrigerante e combustível,
+será escalada de acordo.
+
+É assim que uma coluna de componentes pode ficar:
+
+<center>
+<ModAsset location="oritech:area/port_show" width={500} />
+</center>

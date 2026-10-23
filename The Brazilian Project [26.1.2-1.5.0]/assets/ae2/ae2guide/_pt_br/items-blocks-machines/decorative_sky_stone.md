@@ -34,7 +34,7 @@ item_ids:
   <BlockImage id="smooth_sky_stone_chest" scale="4" />
 </Row>
 
-Blocos de <ItemLink id="sky_stone_block" /> podem ser fabricados e cortados em pedra em alguns blocos de construção decorativos
+Blocos de <ItemLink id="sky_stone_block" /> podem ser fabricados e cortados em pedra em vários blocos de construção decorativos
 
 ## Receitas
 

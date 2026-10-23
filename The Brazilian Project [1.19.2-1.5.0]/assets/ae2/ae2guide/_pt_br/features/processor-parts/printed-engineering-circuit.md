@@ -16,7 +16,7 @@ id="engineering_processor"/>.
 
 <RecipeFor id="printed_engineering_processor" />
 
-### Prensas de Processador
+### Placas de Prensa de Processador
 
 <CategoryIndex category="Processor Press Plates" />
 
@@ -24,6 +24,6 @@ id="engineering_processor"/>.
 
 <CategoryIndex category="Processors" />
 
-### Peças de Processador
+### Componentes de Processador
 
 <CategoryIndex category="Processor Parts" />

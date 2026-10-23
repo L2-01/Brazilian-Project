@@ -6,31 +6,31 @@
   "pages": [
     {
       "type": "text",
-      "text": "O $(thing)Elevador/$ é uma máquina que pode ser usada para transportar verticalmente quaisquer entidades, seja um item, criatura, animal ou jogador.$(p)Você precisa posicionar uma $(item)Base do Elevador/$ embaixo. Você pode empilhar várias bases uma em cima da outra.$(p)Em cima disso, posicione $(item)Estruturas de Elevador/$, que servem de suporte para o elevador."
+      "text": "O $(thing)Elevador/$ é uma máquina que pode ser usada para transportar verticalmente quaisquer entidades, seja um item, criatura, animal ou jogador.$(p)Você precisa colocar uma $(item)Base do Elevador/$ na parte de baixo. Você pode empilhar várias bases umas sobre as outras.$(p)Em cima disso, coloque $(item)Estruturas de Elevador/$, que servem de suporte para o elevador."
     },
     {
       "type": "text",
-      "text": "Tanto o número de $(item)Bases do Elevador/$ quanto o número de $(item)Estruturas de Elevador/$ determinam a que altura o $(thing)Elevador/$ pode se estender. A altura máxima de um $(thing)Elevador/$ é o menor entre:$(li)1 x o número de $(item)Estruturas de Elevador/$ empilhadas verticalmente, ou$(li)$(ttcolor)$(t:Você pode mudar este multiplicador na configuração do mod - veja 'I:elevatorBaseBlocksPerBase')6 x/$ o número de $(item)Bases do Elevador/$ empilhadas verticalmente"
+      "text": "Tanto o número de $(item)Bases do Elevador/$ quanto o número de $(item)Estruturas de Elevador/$ determinam a altura que o $(thing)Elevador/$ pode alcançar. A altura máxima de um $(thing)Elevador/$ é o menor entre:$(li)1 x o número de $(item)Estruturas de Elevador/$ empilhadas verticalmente, ou$(li)$(ttcolor)$(t:Você pode mudar esse multiplicador na config do mod - veja 'I:elevatorBaseBlocksPerBase')6 x/$ o número de $(item)Bases do Elevador/$ empilhadas verticalmente"
     },
     {
       "type": "text",
-      "text": "O $(thing)Elevador/$ pode operar em um de dois modos:$(li)$(bold)Redstone/$: um $(#f00)sinal de redstone/$ aplicado a qualquer $(item)Base do Elevador/$ controla a altura do elevador, proporcional à força do sinal (sem sinal = 0% de extensão, sinal cheio = 100% de extensão).$(li)$(bold)Chamador de Elevador/$: O $(l:machines/elevators#caller)Chamador de Elevador/$ pode fornecer um controle mais sofisticado sobre o elevador."
+      "text": "O $(thing)Elevador/$ pode operar em um de dois modos:$(li)$(bold)Redstone/$: um $(#f00)sinal de redstone/$ aplicado a qualquer $(item)Base do Elevador/$ controla a altura do elevador, proporcional à força do sinal (sem sinal = 0% de extensão, sinal máximo = 100% de extensão).$(li)$(bold)Chamador de Elevador/$: O $(l:machines/elevators#caller)Chamador de Elevador/$ pode oferecer um controle mais sofisticado sobre o elevador."
     },
     {
       "type": "text",
       "title": "Elevadores Multibloco",
-      "text": "Você pode criar $(thing)Elevadores/$ maiores posicionando mais $(item)Bases do Elevador/$ lado a lado horizontalmente. Quando a $(item)Base do Elevador/$ de cima de cada $(thing)Elevador/$ conectado estiver na mesma altura, os $(thing)Elevadores/$ compartilharão os andares (definidos por $(l:machines/elevators#caller)Chamadores de Elevador/$), a entrada de redstone e, portanto, agirão como um único multibloco."
+      "text": "Você pode criar $(thing)Elevadores/$ maiores colocando mais $(item)Bases do Elevador/$ lado a lado na horizontal. Quando a $(item)Base do Elevador/$ do topo de cada $(thing)Elevador/$ conectado estiver na mesma altura, os $(thing)Elevadores/$ compartilharão os andares (definidos pelos $(l:machines/elevators#caller)Chamadores de Elevador/$), a entrada de redstone, e portanto agirão como um único multibloco."
     },
     {
       "type": "text",
       "title": "Economizando Ar",
-      "text": "A $(item)Base do Elevador/$ pode aceitar até quatro $(l:base_concepts/upgrades#charging)Melhorias de Carga/$, que permitem recuperar ar usado quando o elevador desce (normalmente a descida não custa ar, mas também não regenera ar).$(p)Isso vem ao custo de uma descida mais lenta; com 4 melhorias instaladas, o ar é recuperado a 60% do custo de subir aquela distância, mas a descida será 40% mais lenta."
+      "text": "A $(item)Base do Elevador/$ pode aceitar até quatro $(l:base_concepts/upgrades#charging)Melhorias de Carga/$, que permitem recuperar o ar usado quando o elevador desce (normalmente a descida não custa ar, mas também não regenera ar).$(p)Isso custa uma descida mais lenta; com 4 melhorias instaladas, o ar é recuperado a 60% do custo de subir aquela distância, mas a descida será 40% mais lenta."
     },
     {
       "type": "text",
       "anchor": "caller",
       "title": "Chamador de Elevador",
-      "text": "Os $(item)Chamadores de Elevador/$ posicionados ao lado das $(item)Estruturas de Elevador/$ são usados para controlar a altura do $(thing)Elevador/$. Quando você posiciona uma $(item)Estrutura de Elevador/$, ela calcula quantos $(thing)andares/$ existem, definidos por outros $(item)Chamadores de Elevador/$.$(p)Os $(thing)andares/$ podem ser nomeados na GUI da $(item)Base do Elevador/$; os nomes dos andares serão exibidos como botões em cada $(item)Chamador de Elevador/$. Eles podem ser clicados para chamar o $(thing)Elevador/$ até aquele andar."
+      "text": "$(item)Chamadores de Elevador/$ colocados ao lado de $(item)Estruturas de Elevador/$ são usados para controlar a altura do $(thing)Elevador/$. Ao colocar uma $(item)Estrutura de Elevador/$, ela calculará quantos $(thing)andares/$ existem, definidos pelos outros $(item)Chamadores de Elevador/$.$(p)Os $(thing)andares/$ podem ser nomeados na GUI da $(item)Base do Elevador/$; os nomes dos andares aparecerão como botões em cada $(item)Chamador de Elevador/$. Eles podem ser clicados para chamar o $(thing)Elevador/$ até aquele andar."
     },
     {
       "type": "text",

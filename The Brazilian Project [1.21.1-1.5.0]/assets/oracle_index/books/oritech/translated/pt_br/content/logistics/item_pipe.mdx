@@ -1,0 +1,39 @@
+---
+id: oritech:item_pipe
+type: block
+related_items: ["oritech:framed_item_pipe", "oritech:item_pipe_duct_block", "oritech:transparent_item_pipe"]
+title: Tubo de Item
+custom:
+    Quantidade de transferência: "8 itens por pulso"
+    Intervalo de transferência: "5 tiques"
+---
+
+O Oritech inclui tubos de itens e blocos de filtro de itens para a logística de itens. Tubos de item se conectam entre si e a inventários vizinhos.
+
+Diferente de outros tubos, tubos de item não têm inventário. Isso significa que outros blocos, como funis, não podem inserir itens
+na rede de tubos por conta própria. Em vez disso, um tubo de item pode ser configurado para extrair de um inventário próximo.
+
+## Variantes
+*   **Padrão**: tubo básico
+*   **Com Estrutura**: versão de bloco inteiro
+*   **Transparente**: mostra os itens se movendo dentro. Só funciona se todo o caminho do tubo for de tubos transparentes.
+*   **Duto**: estilo estético alternativo. Variantes em duto não se conectam diretamente a máquinas, apenas a outros tubos.
+
+Para alternar o modo de extração, clique com o botão direito na seção do tubo conectada ao bloco do qual você quer extrair.
+A extração só será ativada se o tubo estiver conectado a um bloco que suporte extração. Cada conexão de tubo pode ser alternada independentemente.
+Use uma chave de tubo para desativar conexões em direções específicas.
+
+Os itens extraídos são colocados no inventário disponível **mais próximo** mais adiante na rede, com base na distância no mundo.
+
+<Callout variant="warning">
+    Os tubos sempre extraem do primeiro espaço não vazio de um inventário.
+    Se o item não puder ser colocado em nenhum inventário da rede de tubos, ele bloqueará a extração do tubo daquele inventário.
+
+    Você pode instalar um motor no tubo (clicando nele com o botão direito) para aprimorar o tubo de extração, fazendo-o extrair de todos os espaços. Esse não é o comportamento padrão por questões de desempenho.
+</Callout>
+
+<center>
+<ModAsset location="oritech:area/item_pipes" width={512} />
+</center>
+
+A taxa de transferência padrão é de 8 itens a cada 5 tiques.

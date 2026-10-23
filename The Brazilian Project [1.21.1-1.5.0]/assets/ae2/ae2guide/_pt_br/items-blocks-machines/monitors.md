@@ -28,15 +28,15 @@ Eles são [subpartes de cabo](../ae2-mechanics/cable-subparts.md).
 
 # Monitor de Armazenamento
 
-Mostrará um item ou fluido e sua quantidade. Coloque-os ao lado das suas farms ou algo assim...
+Mostra um item ou fluido e sua quantidade. Coloque-os perto das suas farms ou algo assim...
 
 *Não* requer um [canal](../ae2-mechanics/channels.md).
 
 Atalhos:
 
-*   Clique com o botão direito com um item ou clique duas vezes com o botão direito com um recipiente de fluido para definir o monitor para aquele item/fluido.
-*   Clique com o botão direito com a mão vazia para limpar o monitor.
-*   Shift-clique com o botão direito com a mão vazia para travar o monitor.
+*   Clique direito com um item ou clique direito duplo com um recipiente de fluido para definir o monitor para aquele item/fluido.
+*   Clique direito com a mão vazia para limpar o monitor.
+*   Shift+clique direito com a mão vazia para travar o monitor.
 
 ## Receita
 
@@ -44,18 +44,18 @@ Atalhos:
 
 # Monitor de Conversão
 
-O Monitor de Conversão é semelhante a um monitor de armazenamento, mas permite inserir ou extrair seu item configurado.
+O Monitor de Conversão é parecido com um monitor de armazenamento, mas permite inserir ou extrair seu item configurado.
 
-Se o item configurado for [autofabricável](../ae2-mechanics/autocrafting.md) e não houver nenhum em estoque, tentar pegar um
-item abrirá em vez disso uma UI para especificar a quantidade a fabricar.
+Se o item configurado for [fabricável automaticamente](../ae2-mechanics/autocrafting.md) e não houver nenhum no armazenamento, tentar pegar um
+item abrirá uma UI para especificar a quantidade a fabricar.
 
 *Requer* um [canal](../ae2-mechanics/channels.md).
 
 Atalhos adicionais:
 
-*   Clique com o botão esquerdo para extrair um monte do item configurado, ou pedir a fabricação daquele item se não houver nenhum em estoque.
-*   Clique com o botão direito com qualquer item para inserir aquele item.
-*   Clique com o botão direito com a mão vazia para inserir todo o item configurado do seu inventário.
+*   Clique esquerdo para extrair uma pilha do item configurado, ou requisitar a fabricação desse item se não houver nenhum no armazenamento.
+*   Clique direito com qualquer item para inserir aquele item.
+*   Clique direito com a mão vazia para inserir todo o item configurado do seu inventário.
 
 ## Receita
 

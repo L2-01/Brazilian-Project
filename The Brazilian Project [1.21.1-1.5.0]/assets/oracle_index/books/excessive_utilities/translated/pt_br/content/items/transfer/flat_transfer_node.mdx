@@ -1,0 +1,40 @@
+---
+title: Nós de Transferência Planos
+id:
+  - excessive_utilities:flat_transfer_node_items
+  - excessive_utilities:flat_transfer_node_fluids
+icon: excessive_utilities:item/flat_transfer_node_items
+type: item
+infobox:
+  title: Nós de Transferência Planos
+  tabs:
+    - name: Nós de Transferência Planos
+      display:
+        - excessive_utilities:item/flat_transfer_node_items
+        - excessive_utilities:item/flat_transfer_node_fluids
+---
+
+**Nós de Transferência Planos** vêm em duas variantes: uma para itens e outra para fluidos. Eles funcionam de forma parecida com os [Nós de Transferência](@excessive_utilities:transfer_nodes) comuns, mas transferem entre blocos adjacentes.
+
+Clique com o botão direito com o Nó de Transferência Plano num bloco para colocá-lo. Itens/Fluidos serão transferidos para fora do bloco onde ele foi colocado e para dentro do bloco adjacente na direção para a qual o Nó está virado.
+
+<Callout>
+Nós de Transferência Planos colocados são na verdade entidades (não entidades de bloco!), então tenha isso em mente.
+	</Callout>
+
+Clicar com o botão direito num Nó de Transferência Plano colocado (ou melhor, clicar no *bloco e na face* onde ele está) com um item que tenha a tag de item `#excessive_utilities:interact_with_flat_transfer_nodes` abrirá sua GUI, onde você pode inserir um [Filtro de Itens](@excessive_utilities:item_filter) ou um [Filtro de Fluidos](@excessive_utilities:fluid_filter). Clicar com o botão esquerdo, em vez disso, retira o Nó de Transferência do bloco.
+
+O Nó de Transferência também é derrubado se o bloco ao qual está preso for quebrado.
+
+## Configuração
+
+Essa tag de item contém o seguinte por padrão:
+- `#c:tools/wrench`
+- `excessive_utilities:pipe_wrench`,
+- `excessive_utilities:flat_transfer_node_items`
+- `excessive_utilities:flat_transfer_node_fluids`
+
+## Receitas
+
+<ProjectRecipe id="excessive_utilities:flat_transfer_node_items" />
+<ProjectRecipe id="excessive_utilities:flat_transfer_node_fluids" />

@@ -1,17 +1,17 @@
 {
-    "name": "Sangramento",
-    "icon": "apothic_attributes:textures/mob_effect/bleeding.png",
-    "category": "apotheosis:potion/effects",
-    "flag": "apotheosis:potion",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "$(c)Sangramento$() é um efeito negativo aplicado por alguns afixos e bônus de gema.$(p)Ele faz você receber dano a cada dois segundos."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "O dano aumenta com o nível de $(c)Sangramento$().$(p)O dano de $(c)Sangramento$() ignora a armadura."
-        }
-    ]
+	"name": "Sangramento",
+	"icon": "apothic_attributes:textures/mob_effect/bleeding.png",
+	"category": "apotheosis:potion/effects",
+	"flag": "apotheosis:potion",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(c)Sangramento$() é um efeito negativo aplicado por alguns afixos e bônus de gema.$(p)Ele faz você receber dano a cada dois segundos."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "O dano aumenta com o nível de $(c)Sangramento$().$(p)O dano de $(c)Sangramento$() ignora armadura."
+		}
+	]
 }

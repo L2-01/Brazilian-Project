@@ -3,14 +3,14 @@
   "icon": "twilightforest:torchberries",
   "category": "twilightdelight:effects",
   "pages": [
-	{
-	  "type": "patchouli:text",
-	  "text": "Este efeito impede que o jogador seja incendiado e incendeia todos os inimigos ao seu redor. Note que este efeito não protege você de dano de fogo.$(br2)O alcance do efeito é marcado com partículas de chama."
-	},
-	{
-	  "type": "patchouli:spotlight",
-	  "item": "twilightforest:torchberries",
-	  "text": "Obtível a partir de bebidas e sobremesas feitas de Bagalumes"
-	}
+    {
+      "type": "patchouli:text",
+      "text": "Este efeito impedirá o jogador de ser incendiado e incendiará todos os inimigos ao seu redor. Note que este efeito não protege contra dano de fogo.$(br2)O alcance do efeito é marcado com partículas de chama."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightforest:torchberries",
+      "text": "Obtido de bebidas e sobremesas feitas com Bagalumes"
+    }
   ]
 }

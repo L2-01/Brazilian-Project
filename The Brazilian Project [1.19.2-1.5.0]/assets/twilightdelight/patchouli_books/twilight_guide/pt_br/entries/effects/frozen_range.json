@@ -1,0 +1,16 @@
+{
+    "name": "Gelo à Distância",
+    "icon": "twilightforest:ice_bomb",
+    "category": "twilightdelight:effects",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Este efeito protegerá o jogador do efeito Gélido e aplicará Gélido V a todos os inimigos ao redor, efetivamente imobilizando-os.$(br2)O alcance do efeito é marcado com partículas de floco de neve."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "twilightforest:ice_bomb",
+            "text": "Obtido de bebidas e sobremesas feitas com Bomba Gelada.$(br2)Se você tiver este efeito, pode congelar itens ao redor no chão. Veja o JEI sobre o Chá Gelado das Geleiras para mais informações."
+        }
+    ]
+}

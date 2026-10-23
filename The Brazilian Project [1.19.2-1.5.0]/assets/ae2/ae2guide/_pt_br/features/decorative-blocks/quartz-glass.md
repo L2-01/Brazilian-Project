@@ -12,7 +12,7 @@ navigation:
 
 ![Uma imagem de Vidro de Quartzo](../../assets/large/quartz_glass.png)
 
-Vidro quase totalmente transparente feito com <ItemLink id="certus_quartz_dust"/>.
+Vidro quase transparente feito com <ItemLink id="certus_quartz_dust"/>.
 Pode ser usado para fazer vidro vibrante de quartzo e outros itens.
 
 <RecipeFor id="quartz_glass" />

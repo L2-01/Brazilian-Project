@@ -51,13 +51,13 @@ item_ids:
 
 # Células de Armazenamento de Alta Capacidade
 
-Bem-vindo à tecnologia de armazenamento celular do **UFO Future**!
-Nossas células de armazenamento transcendem as capacidades do Applied Energistics 2 vanilla, quebrando os limites padrão de bits para guardar quantidades astronômicas de matéria.
+Bem-vindo à tecnologia de armazenamento celular do **UFO Future**! 
+Nossas células de armazenamento transcendem as capacidades do Applied Energistics 2 vanilla, rompendo os limites padrão de bits para guardar quantidades astronômicas de matéria.
 
 ## Células Cósmicas de Múltiplos Tiers
 
 Essas células são forjadas com matéria astronômica intensa, permitindo capacidades de bytes extremas!
-Cada tipo de célula armazena capacidades de itens/fluidos extremamente grandes com núcleos de LED de cores diferentes indicando seu tier.
+Cada tipo de célula armazena capacidades de itens/fluidos extremamente grandes, com núcleos de LED de cores diferentes indicando seu tier.
 
 <div style="display: flex; gap: 10px;">
   <ItemImage id="ufo:white_dwarf_cell_echo" scale="2" />
@@ -73,9 +73,9 @@ Cada tipo de célula armazena capacidades de itens/fluidos extremamente grandes 
 - **Células de 750M** *(Núcleo)*: Contenção massiva de Horizonte de Eventos
 - **Células de Singularidade** *(Núcleo Verde)*: Armazenamento ilimitado de 65k tipos usando Linhas Cósmicas.
 
-## Células Cósmicas de Fluido
+## Células Cósmicas de Fluidos
 
-Semelhantes aos componentes de itens, as células de fluido utilizam a **Carcaça de Estrela de Nêutrons** azul-escura, feita especificamente para manter temperaturas extremas de fluido sem perder integridade ao longo do tempo.
+Assim como os componentes de itens, as células de fluidos utilizam a **Carcaça de Estrela de Nêutrons** azul-escura, especialmente feita para manter temperaturas extremas de fluidos sem perder integridade com o tempo.
 
 <div style="display: flex; gap: 10px;">
   <ItemImage id="ufo:neutron_star_reservoir_echo" scale="2" />
@@ -93,12 +93,12 @@ Semelhantes aos componentes de itens, as células de fluido utilizam a **Carcaç
   <ItemImage id="ufo:infinity_sky_stone_cell" scale="2" />
 </div>
 
-As **Células da Infinidade** são artefatos de fim de jogo que representam o auge absoluto da manipulação de matéria. Uma vez fabricadas, elas inserem quantidades virtualmente **infinitas de um único recurso** diretamente na sua rede sem consumir armazenamento real.
+As **Células da Infinidade** são artefatos de fim de jogo que representam o ápice absoluto da manipulação de matéria. Uma vez fabricadas, elas inserem **quantidades virtualmente infinitas de um único recurso** diretamente na sua rede sem consumir armazenamento real.
 
 ### Processo de Fabricação
-As Células da Infinidade **só podem ser fabricadas no Montador de Matéria Dimensional (DMA)**!
+Células da Infinidade só podem ser **fabricadas dentro do Montador de Matéria Dimensional (DMA)**!
 A pressão intensa necessária para forjar matéria infinita exige condições extremas:
-1. Obtenha um **Componente de Linha Cósmica** e uma **Anomalia Quântica**.
-2. Forneça grandes quantidades da matéria-prima (ex.: 64x Baldes de Água, 64x Pedregulho).
-3. Injete **Fluido de Matéria Transcendente**.
-4. O DMA vai sintetizar a singularidade num nó permanente estável.
+1. Obtenha um **Componente da Linha Cósmica** e uma **Anomalia Quântica**.
+2. Forneça grandes quantidades da matéria-prima (ex.: 64x Baldes d'Água, 64x Pedregulho).
+3. Injete **Matéria Transcendente**.
+4. O DMA sintetizará a singularidade em um nó permanente estável.

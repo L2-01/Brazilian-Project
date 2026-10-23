@@ -1,0 +1,17 @@
+{
+  "name": "Fome",
+  "icon": "enchanted:hunger_poppet",
+  "category": "enchanted:infusing_poppets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Bonecos de fome protegem o beneficiário da morte por fome.$(br2)$(bold)Resistente$() Um uso extra.$(br)$(bold)Infundido$() Concede 5 segundos de saciedade."
+    },
+    {
+      "type": "enchanted:spinning_wheel_recipe",
+      "recipe": "enchanted:spinning/hunger_poppet"
+    }
+  ],
+  "read_by_default": true,
+  "priority": false
+}

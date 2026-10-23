@@ -7,8 +7,8 @@ navigation:
 
 # Torretas A/DS
 
-A linha de produtos Sistema de Defesa Automatizado, A/DS, se especializa em manter uma área livre de ameaças. Todas as torretas são
-[máquinas melhoráveis](../fundamentals/upgrade_system.md).
+A linha de produtos Sistema de Defesa Automatizado, A/DS, é especializada em manter uma área livre de ameaças. Todas as
+torretas são [máquinas melhoráveis](../fundamentals/upgrade_system.md).
 
 ## Torretas Disponíveis
 
@@ -18,31 +18,31 @@ A linha de produtos Sistema de Defesa Automatizado, A/DS, se especializa em mant
 
 ## Operação
 
-As torretas funcionam apenas com <Color id="energy">Energia</Color>, sem itens adicionais necessários. O inventário dentro das torretas
-é um inventário de saída usado apenas se uma melhoria de captura de itens largados estiver instalada.
+Torretas funcionam exclusivamente com <Color id="energy">Energia</Color>, sem itens adicionais. O inventário dentro das
+torretas é um inventário de saída, usado apenas se uma melhoria de captura de drops de saque estiver instalada.
 
 ## Mira
 
-Cada torreta tem seu próprio filtro de alvos padrão, algumas sendo mais seletivas que outras. Essa lógica de alvos pode ser
-sobrescrita por módulos de melhoria.
+Cada torreta tem seu próprio filtro de alvos padrão, algumas sendo mais seletivas que outras. Essa lógica de alvos pode
+ser sobrescrita por módulos de melhoria.
 
-## Estados das torretas
+## Estados da torreta
 
-As torretas têm 5 estados distintos em que podem estar a qualquer momento: **Inativa**, **Buscando**, **Carregando**, **Disparando** e
-**Recarga**. Cada estado executa sua própria lógica, a maioria autoexplicativa.
+Torretas têm 5 estados distintos em que podem estar a qualquer momento: **Inativa**, **Buscando**, **Carregando**,
+**Atirando** e **Resfriamento**. Cada estado executa sua própria lógica, sendo a maioria autoexplicativa.
 
 ### Inativa
 
-O estado de uma torreta recém-fabricada ou de uma torreta que ficou sem energia. Uma vez por segundo, ela verificará seu
-buffer de energia para ver se tem energia suficiente para pelo menos uma operação. Se tiver, ela muda para Buscando.
+O estado de uma torreta recém-fabricada ou de uma que ficou sem energia. Uma vez por segundo, ela verifica seu buffer
+de energia para ver se tem energia suficiente para ao menos uma operação. Se tiver, muda para Buscando.
 
 ### Buscando
 
-Torretas ativas passam a maior parte do tempo neste estágio. A torreta buscará alvos válidos na sua área de busca
-num intervalo de tempo determinado pelo tipo de torreta. Se alvos forem encontrados, eles são carregados na fila e a
-torreta muda para o estado **Carregando**.
+Torretas ativas passam a maior parte do tempo neste estágio. A torreta busca alvos válidos na sua área de busca num
+intervalo de tempo determinado pelo tipo de torreta. Se alvos forem encontrados, são carregados na fila e a torreta
+muda para o estado **Carregando**.
 
-### Carregando/Recarga
+### Carregando/Resfriamento
 
-Esses 2 estados se comportam de forma idêntica, a única diferença sendo o tempo gasto no estado. Considere isso a preparação
-ou a recarga entre disparos. Cada torreta tem seus próprios tempos de carregamento/recarga.
+Esses 2 estados se comportam de forma idêntica; a única diferença é o tempo gasto no estado. Considere-o o preparo ou
+o resfriamento entre tiros. Cada torreta tem seus próprios tempos de carregamento/resfriamento.

@@ -1,0 +1,21 @@
+---
+title: Ponte do Ender
+id: irregular_implements:ender_bridge
+icon: irregular_implements:item/ender_bridge
+related_items: [irregular_implements:ender_bridge, irregular_implements:prismarine_ender_bridge, irregular_implements:ender_anchor]
+type: block
+---
+
+A **Ponte do Ender** e a **Ponte do Ender de Prismarinho**, quando energizadas por redstone, teleportam as entidades acima delas em direção à **Âncora do Ender** para a qual estão apontando.
+
+Funciona através de blocos e a qualquer distância (incluindo chunks descarregados), desde que a Âncora esteja carregada. Ela também precisa estar apontando DIRETAMENTE para a Âncora.
+
+Quando energizada, ela verifica todas as Âncoras carregadas e encontra a mais próxima para a qual está apontando. Se não houver nenhuma, ela falha com um som audível.
+
+Se *houver* uma Âncora, ela carrega antes de ativar. Seu tempo de carga depende da distância, bem como do nível da Ponte.
+
+A Ponte comum leva 1 tique por bloco para carregar, e a Ponte do Ender de Prismarinho é duas vezes mais rápida.
+
+<ProjectRecipe id="irregular_implements:ender_bridge"/>
+<ProjectRecipe id="irregular_implements:prismarine_ender_bridge"/>
+<ProjectRecipe id="irregular_implements:ender_anchor"/>

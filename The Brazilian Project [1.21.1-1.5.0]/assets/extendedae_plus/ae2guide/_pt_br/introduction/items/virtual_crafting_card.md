@@ -16,22 +16,22 @@ item_ids:
   <ItemImage id="extendedae_plus:virtual_crafting_card" scale="4" />
 </Row>
 
-O Cartão de Fabricação Virtual é um upgrade especializado para Provedores de Padrões que conclui instantaneamente o "despacho final" de tarefas cujos produtos não precisam ser devolvidos ao armazenamento.
+O Cartão de Fabricação Virtual é uma melhoria especializada para Provedores de Padrões que conclui instantaneamente o "despacho final" de tarefas cujos produtos não precisam ser devolvidos ao armazenamento.
 
 ## Recursos e Efeitos
 
-- **Conclusão Automática**: Marca instantaneamente uma tarefa como concluída quando o provedor está prestes a despachar o lote final e a receita não exige a devolução de produtos à Rede ME.
+- **Conclusão Automática**: Marca a tarefa como concluída instantaneamente quando o provedor está prestes a despachar o lote final e a receita não exige devolver produtos à rede ME.
 - **Liberação de Fila**: Libera a memória de fabricação imediatamente, sem esperar a devolução dos produtos, permitindo o agendamento seguinte.
-- **Limite de um Cartão**: Apenas 1 cartão pode ser instalado por Provedor de Padrões (incluindo versões estendidas).
+- **Limite de Um Cartão**: Apenas 1 cartão pode ser instalado por Provedor de Padrões (incluindo versões estendidas).
 
 ## Cenários de Uso
 
 | Cenário | Efeito |
 | :--- | :--- |
-| Construção de Multiblocos | Os materiais são marcados automaticamente como entregues assim que despachados ao local de destino, sem precisar esperar a confirmação de devolução |
-| Auxílio a Fabricação Manual | Materiais não automatizáveis (como Estrelas do Nether, livros encantados, etc.) são despachados a um baú perto da bancada de trabalho, concluindo a tarefa automaticamente após a coleta manual |
-| Posicionamento de Blocos em Massa | Despacha grandes quantidades de blocos de construção diretamente para a barra de acesso rápido, concluindo automaticamente após o posicionamento |
-| Suprimento de Linha de Produção Automatizada | Conclui automaticamente após reabastecer consumíveis (como combustível de fornalha, frascos de experiência, etc.) de linhas de produção automatizadas |
+| Construção de Multibloco | Materiais são marcados automaticamente como entregues ao serem despachados ao local alvo, sem esperar confirmação de devolução |
+| Auxílio à Fabricação Manual | Materiais não automatizáveis (como Estrelas do Nether, livros encantados etc.) são despachados a um baú perto da bancada de trabalho, concluindo a tarefa após a coleta manual |
+| Colocação de Blocos em Massa | Despacha grandes quantidades de blocos de construção direto para a hotbar, concluindo automaticamente após a colocação |
+| Suprimento de Linha de Produção Automatizada | Conclui automaticamente após reabastecer insumos (como combustível de fornalha, frascos de experiência etc.) de linhas de produção automatizadas |
 
 ## Dispositivos Suportados
 

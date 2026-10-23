@@ -1,1 +1,35 @@
-{"name":"Mangue","icon":"minecraft:mangrove_propagule","category":"bonsaitrees4:minecraft","pages":[{"type":"bonsaitrees4:tree","tree_name":"Mangue","tree_sapling":"minecraft:mangrove_propagule"},{"type":"patchouli:link","title":"No Minecraft","text":"O mangue é uma árvore de grandes copas e raízes aéreas, encontrada nos manguezais. Pode crescer na água ou em terra, e sua madeira tem cor vermelho-vivo.","url":"https://minecraft.wiki/w/Mangrove","link_text":"Minecraft Wiki"},{"type":"patchouli:link","title":"Na Terra","text":"O mangue é um arbusto ou árvore que cresce principalmente em águas costeiras salinas ou salobras. Os mangues crescem em clima equatorial, tipicamente ao longo de litorais e rios de maré. Possuem adaptações especiais para absorver oxigênio extra e remover sal, o que lhes permite tolerar condições que matariam a maioria das plantas.","url":"https://en.wikipedia.org/wiki/Mangrove","link_text":"Wikipedia"},{"type":"patchouli:image","border":true,"images":["bonsaitrees4:textures/patchouli/mangrove_tree.png","bonsaitrees4:textures/patchouli/mangrove_roots.png","bonsaitrees4:textures/patchouli/mangrove_leaves.png"]}]}
+{
+    "name": "Mangue",
+    "icon": "minecraft:mangrove_propagule",
+    "category": "bonsaitrees4:minecraft",
+    "pages": [
+        {
+            "type": "bonsaitrees4:tree",
+            "tree_name": "Mangue",
+            "tree_sapling": "minecraft:mangrove_propagule"
+        },
+        {
+            "type": "patchouli:link",
+            "title": "No Minecraft",
+            "text": "O mangue é uma árvore de grandes copas e sistemas de raízes aéreas, encontrada em pântanos de mangue. Elas podem crescer na água ou em terra, e sua madeira tem cor vermelha.",
+            "url": "https://minecraft.wiki/w/Mangrove",
+            "link_text": "Minecraft Wiki"
+        },
+        {
+            "type": "patchouli:link",
+            "title": "No Mundo Real",
+            "text": "O mangue é um arbusto ou árvore que cresce principalmente em águas costeiras salinas ou salobras. Mangues crescem em clima equatorial, tipicamente ao longo de litorais e rios de maré. Eles têm adaptações especiais para captar oxigênio extra e remover sal, o que lhes permite tolerar condições que matariam a maioria das plantas.",
+            "url": "https://en.wikipedia.org/wiki/Mangrove",
+            "link_text": "Wikipedia"
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "images": [
+                "bonsaitrees4:textures/patchouli/mangrove_tree.png",
+                "bonsaitrees4:textures/patchouli/mangrove_roots.png",
+                "bonsaitrees4:textures/patchouli/mangrove_leaves.png"
+            ]
+        }
+    ]
+}

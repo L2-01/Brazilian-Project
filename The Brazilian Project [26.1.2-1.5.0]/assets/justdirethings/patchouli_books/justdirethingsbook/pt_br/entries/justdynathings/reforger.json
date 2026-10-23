@@ -1,14 +1,14 @@
 {
-  "name": "Pague para Vencer",
-  "sortnum": 6,
-  "category": "justdirethings:justdynathings",
-  "icon": "justdynathings:reforger",
-  "pages": [
-    {
-      "type": "patchouli:crafting",
-      "title": "Reforjador",
-      "recipe": "justdynathings:reforger",
-      "text": "Uma máquina poderosa que permite converter um bloco de entrada colocado na face vermelha num bloco de saída ao custo de um catalisador"
-    }
-  ]
+    "name": "Pague para Vencer",
+    "sortnum": 6,
+    "category": "justdirethings:justdynathings",
+    "icon": "justdynathings:reforger",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "title": "Reforjador",
+            "recipe": "justdynathings:reforger",
+            "text": "Uma máquina poderosa que converte um bloco de entrada colocado na face vermelha num bloco de saída ao custo de um catalisador"
+        }
+    ]
 }

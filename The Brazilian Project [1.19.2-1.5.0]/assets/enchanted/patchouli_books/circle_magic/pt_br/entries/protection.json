@@ -1,0 +1,35 @@
+{
+  "name": "Proteção",
+  "icon": "minecraft:shield",
+  "category": "enchanted:creature",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Proteção",
+      "text": "Invoca um domo impenetrável por onde só podem passar jogadores agachados. $(br2)Um obelisco vinculado ou sanguíneo pode ser usado para mirar uma posição diferente. $(br2)Requer 4 de poder adicionais por tique."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:protection"
+    },
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Proteção (Grande)",
+      "text": "Invoca um domo impenetrável por onde só podem passar jogadores agachados. $(br2)Um obelisco vinculado ou sanguíneo pode ser usado para mirar uma posição diferente.  $(br2)Requer 6 de poder adicionais por tique."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:protection_large"
+    },
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Proteção (Temporária)",
+      "text": "Invoca um domo impenetrável por onde nada pode passar por 60 segundos. $(br2)Um obelisco vinculado ou sanguíneo pode ser usado para mirar uma posição diferente. "
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:protection_temporary"
+    }
+  ],
+  "read_by_default": true
+}

@@ -19,12 +19,12 @@ O **Super Cortador de Circuitos** é um cortador de circuitos acelerado que proc
 ## Operação
 
 - Insira a entrada da receita no espaço de entrada.
-- Cada ciclo determina automaticamente uma contagem paralela de 1 a 8 de acordo com a entrada e o espaço de saída disponíveis.
+- Cada ciclo determina automaticamente uma contagem paralela de 1 a 8 conforme a entrada disponível e o espaço de saída.
 - Entradas e energia AE são consumidas a cada operação paralela, e todos os resultados são combinados no espaço de saída.
-- Quando o espaço de saída é limitado, apenas a quantidade de receitas que couber será processada.
+- Quando o espaço de saída é limitado, apenas o número de receitas que couber será processado.
 
-## Energia e Upgrades
+## Energia e Melhorias
 
-A máquina armazena **64.000 AE** e suporta até 4 Cartões de Velocidade do AE2. Os Cartões de Velocidade reduzem o tempo por ciclo sem alterar o limite paralelo de 8 receitas.
+A máquina armazena **64.000 AE** e suporta até 4 Cartões de Aceleração do AE2. Os Cartões de Aceleração reduzem o tempo por ciclo sem alterar o limite paralelo de 8 receitas.
 
-Ative a **Autoexportação** na interface da máquina para enviar os produtos prontos aos inventários adjacentes.
+Ative a **Exportação Automática** na interface da máquina para enviar os produtos prontos aos inventários adjacentes.

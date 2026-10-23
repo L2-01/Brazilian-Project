@@ -3,14 +3,14 @@
   "icon": "twilightforest:aurora_block",
   "category": "twilightdelight:effects",
   "pages": [
-	{
-	  "type": "patchouli:text",
-	  "text": "Este efeito faz você e todas as entidades que você vê ganharem uma camada brilhante de arco-íris, incluindo itens.$(br2)É útil para achar inimigos atrás de paredes, itens deixados para trás e cavernas subterrâneas."
-	},
-	{
-	  "type": "patchouli:spotlight",
-	  "item": "twilightforest:aurora_block",
-	  "text": "Obtível a partir de bebidas e sobremesas feitas de Bloco de Aurora."
-	}
+    {
+      "type": "patchouli:text",
+      "text": "Este efeito fará você e todas as entidades que vê terem uma camada brilhante arco-íris, incluindo itens.$(br2)É útil para encontrar inimigos atrás de paredes, itens deixados para trás e cavernas subterrâneas."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightforest:aurora_block",
+      "text": "Obtido de bebidas e sobremesas feitas com Bloco da Aurora."
+    }
   ]
 }

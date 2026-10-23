@@ -6,12 +6,12 @@
     "pages": [
         {
             "type": "text",
-            "text": "Se $(aura) suficiente estiver presente no ambiente, a ponto da barra do $(l:items/eye)Olho Ambiental$() estar cheia cerca da metade acima da quantidade normal, o $(item)Armazenamento Natural$() começará a ocorrer: para quaisquer jogadores ao redor de uma área saturada que carreguem um $(l:items/aura_cache)Cache de Aura$() consigo, ele começará a $(thing)encher$() lentamente, drenando da $(aura) supersaturada."
+            "text": "Se houver $(aura) suficiente no ambiente, a ponto de a barra do $(l:items/eye)Olho Ambiental$() encher-se cerca de metade acima da quantidade normal, o $(item)Armazenamento Natural$() começará a ocorrer: para quaisquer jogadores ao redor de uma área saturada que carreguem um $(l:items/aura_cache)Cache de Aura$(), ele começará lentamente a $(thing)encher$(), drenando da $(aura) supersaturada."
         },
         {
             "type": "naturesaura:tree_ritual",
             "recipe": "naturesaura:cache_powder",
-            "text": "Este efeito pode ser inibido usando $(l:effects/effect_powder)Pó de Sem Armazenamento$()."
+            "text": "Este efeito pode ser inibido usando o $(l:effects/effect_powder)Pó de Sem Armazenamento$()."
         }
     ]
 }

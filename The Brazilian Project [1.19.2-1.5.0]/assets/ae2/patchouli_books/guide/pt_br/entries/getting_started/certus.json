@@ -1,50 +1,50 @@
 {
-  "name": "4) Quartzo Certus",
-  "category": "ae2:getting_started",
-  "icon": "ae2:quartz_cluster",
-  "sortnum": 40,
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "O $(thing)Quartzo Certus$() é um material maravilhoso encontrado em $(l:ae2:getting_started/compass)Meteoritos$(/l). Ele é cultivado de forma parecida com a $(item)Ametista$(), embora a maioria dos seus $(l:ae2:getting_started/certus#budding)blocos de drusa$(/l) pareça decair com o tempo.$(br2)É usado em muitas receitas do $(thing)AE2$() como ingrediente de fabricação, pode ser usado para fazer $(l:ae2:equipment/quartz_tools)ferramentas de nível ferro$(/l), triturado em $(item)pó$(), usado para decorar e mais."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": "ae2:quartz_cluster",
-      "text": "O $(thing)Quartzo Certus$() em crescimento tem 3 estágios de $(thing)broto$() e depois um estágio de $(thing)drusa$() totalmente crescida. Quebrá-lo em qualquer estágio de $(thing)broto$() larga apenas um $(thing)Pó de Quartzo Certus$() (não afetado por $(item)Fortuna$()). Quebrar uma $(thing)drusa$() totalmente crescida larga 4 $(thing)Cristais de Quartzo Certus$(), e isso é afetado por $(item)Fortuna$()."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "anchor": "budding",
-      "item": "ae2:flawless_budding_quartz",
-      "title": "Drusa de Quartzo Certus",
-      "text": "A $(thing)Drusa de Quartzo Certus$() vem em 4 níveis.$(br2)A $(thing)Infalível$() é a melhor e nunca decai, mas só pode ser encontrada em Meteoritos.$(br2)Os próximos 3 níveis, em qualidade decrescente, são $(thing)Imperfeita$(), $(thing)Barata$() e $(thing)Danificada$()."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Quando um desses blocos de $(thing)Drusa$() faz crescer um $(thing)Broto de Quartzo Certus$(), há uma chance de ele decair para um nível inferior, com a $(thing)Danificada$() decaindo para um $(thing)Bloco de Quartzo Certus$() normal.$(br2)Convenientemente, esses $(thing)Blocos de Drusa$() decadentes podem ser fabricados jogando um deles (ou um $(thing)Bloco de Quartzo Certus$()), junto com um $(l:ae2:getting_started/charger)Quartzo Certus Carregado$() numa poça de água, para subir 1 nível (o máximo é $(thing)Imperfeita$())."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Quando quebrada normalmente, qualquer $(thing)Drusa de Quartzo Certus$() vira um $(thing)Bloco de Quartzo Certus$() normal. Se for quebrada com $(item)Toque Suave$(), o $(thing)Bloco de Drusa$() decai um nível. Se você quiser a $(thing)Drusa de Quartzo Infalível$() na sua base, vai precisar descobrir outro jeito de movê-la."
-    },
-    {
-      "type": "patchouli:crafting",
-      "anchor": "cga",
-      "recipe": "ae2:network/blocks/crystal_processing_quartz_growth_accelerator",
-      "text": "Os $(thing)Aceleradores de Crescimento de Cristais$() aumentam significativamente a velocidade com que o $(thing)Quartzo Certus$() cresce. Também funcionam na Ametista. Os $(thing)ACCs$() são colocados adjacentes ao $(l:ae2:getting_started/certus#budding)Bloco de Drusa$() raiz."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Os $(thing)ACCs$() precisam de energia para operar. Eles aceitam $(l:ae2:concepts/power)Energia da Rede$(/l) ou a $(l:ae2:getting_started/crank)Manivela de Madeira$(/l). Não aceitam $(item)Energia Externa$(). A energia só se conecta a dois lados opostos do $(thing)ACC$().$(br2)Os $(thing)ACCs$() podem ser $(l:ae2:equipment/wrench)Girados$(/l). Isso só afeta onde a energia pode se conectar; os $(thing)Blocos de Drusa$() adjacentes serão $(thing)acelerados no crescimento$() por qualquer lado do $(thing)ACC$(). Além disso, vários $(thing)ACCs$() podem acelerar um mesmo $(thing)Bloco de Drusa$() ao mesmo tempo."
-    },
-    {
-      "type": "patchouli:image",
-      "images": [
-        "ae2:textures/patchouli/images/crystal_growth_accelerator_setup.png"
-      ],
-      "border": true,
-      "title": "Configuração de Exemplo"
-    }
-  ]
+    "name": "4) Quartzo Certus",
+    "category": "ae2:getting_started",
+    "icon": "ae2:quartz_cluster",
+    "sortnum": 40,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(thing)Quartzo Certus$() é um material maravilhoso encontrado em $(l:ae2:getting_started/compass)Meteoritos$(/l). Ele cresce de forma semelhante à $(item)Ametista$(), embora a maioria dos seus $(l:ae2:getting_started/certus#budding)blocos de Drusa$(/l) pareça se degradar com o tempo.$(br2)É usado em muitas receitas do $(thing)AE2$() como ingrediente de fabricação, pode virar $(l:ae2:equipment/quartz_tools)ferramentas de nível ferro$(/l), ser triturado em $(item)Pó$(), usado para decorar e mais."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "ae2:quartz_cluster",
+            "text": "O $(thing)Quartzo Certus$() cresce em 3 estágios de $(thing)Cristal$() e depois num estágio de $(thing)Agregado$() maduro. Quebrá-lo em qualquer estágio de $(thing)Cristal$() larga apenas um $(thing)Pó de Quartzo Certus$() (não afetado por $(item)Fortuna$()). Quebrar um $(thing)Agregado$() maduro larga 4 $(thing)Cristais de Quartzo Certus$(), e isso é afetado por $(item)Fortuna$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "anchor": "budding",
+            "item": "ae2:flawless_budding_quartz",
+            "title": "Drusa de Quartzo Certus",
+            "text": "A $(thing)Drusa de Quartzo Certus$() vem em 4 níveis.$(br2)A $(thing)Infalível$() é a melhor e nunca se degrada, mas só pode ser encontrada em Meteoros.$(br2)Os 3 níveis seguintes, em ordem decrescente de qualidade, são $(thing)Imperfeita$(), $(thing)Barata$() e $(thing)Danificada$()."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Quando um desses blocos de $(thing)Drusa$() gera um $(thing)Cristal de Quartzo Certus$(), há uma chance de ele se degradar para um nível inferior, com a $(thing)Danificada$() virando um $(thing)Bloco de Quartzo Certus$() normal.$(br2)Convenientemente, esses $(thing)Blocos de Drusa$() degradados podem ser fabricados jogando um deles (ou um $(thing)Bloco de Quartzo Certus$()), junto com um $(l:ae2:getting_started/charger)Quartzo Certus Carregado$() numa poça de água, para aumentar seu nível em 1 (o máximo é $(thing)Imperfeita$())."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Quando quebrada normalmente, qualquer $(thing)Drusa de Quartzo Certus$() vira um $(thing)Bloco de Quartzo Certus$() comum. Se quebrada usando $(item)Toque Suave$(), o $(thing)Bloco de Drusa$() se degrada um nível. Se você quiser uma $(thing)Drusa de Quartzo Infalível$() na sua base, precisará descobrir outra forma de movê-la."
+        },
+        {
+            "type": "patchouli:crafting",
+            "anchor": "cga",
+            "recipe": "ae2:network/blocks/crystal_processing_quartz_growth_accelerator",
+            "text": "Os $(thing)Aceleradores de Crescimento de Cristais$() aumentam significativamente a velocidade de crescimento do $(thing)Quartzo Certus$(). Também funcionam na Ametista. Os $(thing)CGAs$() são colocados adjacentes ao $(l:ae2:getting_started/certus#budding)Bloco de Drusa$() raiz."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Os $(thing)CGAs$() precisam de energia para operar. Aceitam $(l:ae2:concepts/power)Energia da Rede$(/l) ou a $(l:ae2:getting_started/crank)Manivela de madeira$(/l). Não aceitam $(item)Energia Externa$(). A energia só se conecta a dois lados opostos do $(thing)CGA$().$(br2)Os $(thing)CGAs$() podem ser $(l:ae2:equipment/wrench)Girados$(/l). Isso só afeta onde a energia se conecta; $(thing)Blocos de Drusa$() adjacentes serão $(thing)Acelerados$() por qualquer lado do $(thing)CGA$(). Além disso, vários $(thing)CGAs$() podem acelerar um $(thing)Bloco de Drusa$() ao mesmo tempo."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "ae2:textures/patchouli/images/crystal_growth_accelerator_setup.png"
+            ],
+            "border": true,
+            "title": "Exemplo de Montagem"
+        }
+    ]
 }

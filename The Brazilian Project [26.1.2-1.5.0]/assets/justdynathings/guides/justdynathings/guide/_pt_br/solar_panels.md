@@ -7,6 +7,6 @@ navigation:
 
 # O Poder do Sol
 
-Um novo conjunto de geradores que geram Forge Energy com base em situações ambientais
+Um novo conjunto de geradores que gera Forge Energy com base em condições ambientais
 
 <SubPages />

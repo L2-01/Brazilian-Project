@@ -1,0 +1,17 @@
+{
+    "name": "Itens de Chefe",
+    "icon": "minecraft:ender_chest",
+    "category": "apotheosis:adventure/bosses",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Todo chefe é fortalecido com exatamente um item de afixo, além do resto do equipamento totalmente encantado.$(p)Esse item de afixo tem queda garantida ao morrer e tem chance maior de ser de raridade mais alta do que outras fontes de espólios de afixo."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Esse item é o troféu que você leva ao matar um chefe, e provavelmente vale a pena.$(p)Como lembrança do dono original, todo item de chefe terá o nome do chefe como prefixo no nome do item."
+        }
+    ]
+}

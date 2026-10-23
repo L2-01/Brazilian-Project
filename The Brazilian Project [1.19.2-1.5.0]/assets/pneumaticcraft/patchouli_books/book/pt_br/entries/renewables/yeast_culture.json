@@ -1,43 +1,43 @@
 {
-  "name": "Cultura de Levedura",
-  "icon": "pneumaticcraft:yeast_culture_bucket",
-  "category": "pneumaticcraft:renewables",
-  "advancement": "pneumaticcraft:tp_plant",
-  "pages": [
-    {
-      "type": "text",
-      "text": "A $(thing)Cultura de Levedura/$ é necessária para a produção de $(l:renewables/ethanol)Etanol/$, assim como de $(l:renewables/sourdough)Massa Fermentada/$, e pode ser produzida de duas formas:"
-    },
-    {
-      "type": "spotlight",
-      "item": "minecraft:red_mushroom",
-      "title": "Método 1",
-      "text": "Este será o único método disponível para você inicialmente. Encha uma $(l:manufacturing/thermopneumatic_processing_plant)Planta de Processamento Termopneumática/$ com $(thing)Água/$ e adicione alguns cogumelos. Este método é um pouco lento (e exigirá um bom estoque de cogumelos), mas produzirá facilmente um estoque inicial de Cultura de Levedura."
-    },
-    {
-      "type": "text",
-      "title": "Método 1 (cont.)",
-      "text": "Este processo é sensível à temperatura: você precisará manter a temperatura da Planta de Processamento Termopneumática entre 30°C e 60°C. Isso é muito fácil em biomas mais quentes, mas pode exigir algum esforço em áreas mais frias - algo a notar é que a temperatura ambiente tende a subir conforme você cava mais fundo, então biomas temperados podem servir se você fizer o processamento num nível Y mais baixo."
-    },
-    {
-      "type": "pneumaticcraft:thermo_plant",
-      "recipe": "pneumaticcraft:thermo_plant/yeast_culture"
-    },
-    {
-      "type": "text",
-      "flag": "!pneumaticcraft:inWorldYeastCrafting",
-      "title": "Nota Importante",
-      "text": "$(italic)A fabricação de Levedura no mundo descrita nas páginas seguintes foi desativada na configuração desta instância./$"
-    },
-    {
-      "type": "text",
-      "title": "Método 2",
-      "text": "A $(thing)Cultura de Levedura/$, sendo um organismo vivo, é capaz de se replicar. Para isso, despeje um balde da cultura numa poça no mundo e jogue um pouco de $(thing)Açúcar/$ na poça.$(p)Agora, despeje um balde de $(thing)Água/$ num espaço de bloco adjacente à cultura; você verá a água ser convertida em mais cultura após um ou dois segundos."
-    },
-    {
-      "type": "text",
-      "title": "Método 2 (cont.)",
-      "text": "É importante notar que a cultura se espalhará quando a água for posicionada, não quando o açúcar for adicionado.$(p)Este método pode ser automatizado com um pouco de raciocínio e planejamento, mesmo no início do jogo (dica: Funis $(l:machines/omnidirectional_hopper)Omnidirecional/$ e de $(l:machines/liquid_hopper)Líquidos/$ com $(l:base_concepts/upgrades#dispenser)Melhorias de Ejetor/$ podem ser muito úteis)."
-    }
-  ]
+    "name": "Cultura de Levedura",
+    "icon": "pneumaticcraft:yeast_culture_bucket",
+    "category": "pneumaticcraft:renewables",
+    "advancement": "pneumaticcraft:tp_plant",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Cultura de Levedura/$ é necessária para a produção de $(l:renewables/ethanol)Etanol/$ e também de $(l:renewables/sourdough)Massa Fermentada/$, e pode ser produzida de duas formas:"
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:red_mushroom",
+            "title": "Método 1",
+            "text": "Este será o único método disponível para você inicialmente. Encha uma $(l:manufacturing/thermopneumatic_processing_plant)Planta de Processamento Termopneumático/$ com $(thing)Água/$ e adicione alguns cogumelos. Este método é um pouco lento (e exigirá um bom estoque de cogumelos), mas produzirá facilmente um estoque inicial de Cultura de Levedura."
+        },
+        {
+            "type": "text",
+            "title": "Método 1 (cont.)",
+            "text": "Este processo é sensível à temperatura: você precisará manter a temperatura da Planta de Processamento Termopneumático entre 30°C e 60°C. Isso é muito fácil em biomas mais quentes, mas pode exigir algum esforço em áreas mais frias — uma coisa a notar é que a temperatura ambiente tende a subir conforme você cava mais fundo, então biomas temperados podem servir se você fizer o processamento num nível Y mais baixo."
+        },
+        {
+            "type": "pneumaticcraft:thermo_plant",
+            "recipe": "pneumaticcraft:thermo_plant/yeast_culture"
+        },
+        {
+            "type": "text",
+            "flag": "!pneumaticcraft:inWorldYeastCrafting",
+            "title": "Nota Importante",
+            "text": "$(italic)A Fabricação de Levedura no Mundo descrita nas páginas seguintes foi desativada na configuração desta instância./$"
+        },
+        {
+            "type": "text",
+            "title": "Método 2",
+            "text": "$(thing)A Cultura de Levedura/$, por ser um organismo vivo, consegue se replicar. Para isso, despeje um balde da cultura numa poça no mundo e jogue um pouco de $(thing)Açúcar/$ na poça.$(p)Agora, despeje um balde de $(thing)Água/$ num espaço de bloco adjacente à cultura; você verá a água se converter em mais cultura depois de um ou dois segundos."
+        },
+        {
+            "type": "text",
+            "title": "Método 2 (cont.)",
+            "text": "É importante notar que a cultura se espalhará quando a água for colocada, não quando o açúcar for adicionado.$(p)Este método pode ser automatizado com um pouco de planejamento, mesmo no início do jogo (dica: Funis $(l:machines/omnidirectional_hopper)Omnidirecionais/$ e $(l:machines/liquid_hopper)de Líquidos/$ com $(l:base_concepts/upgrades#dispenser)Melhorias de Ejetor/$ podem ajudar muito)."
+        }
+    ]
 }

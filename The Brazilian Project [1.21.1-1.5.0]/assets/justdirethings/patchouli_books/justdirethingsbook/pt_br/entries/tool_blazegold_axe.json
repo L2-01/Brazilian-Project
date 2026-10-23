@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Corta mais rápido que o $(l:justdirethings:tool_ferricore_axe)Machado de Ferricoro$(/l). Possui \"Reparo em Lava\", reparando-se automaticamente na lava."
+      "text": "Corta mais rápido que o $(l:justdirethings:tool_ferricore_axe)Machado de Ferricoro$(/l). Possui 'Reparo à Lava', reparando-se automaticamente na lava."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "justdirethings:blazegold_axe",
-      "text": "Fabricação do Machado de Ouro de Blaze"
+      "text": "Fabricação: Machado de Ouro de Blaze"
     }
   ]
 }

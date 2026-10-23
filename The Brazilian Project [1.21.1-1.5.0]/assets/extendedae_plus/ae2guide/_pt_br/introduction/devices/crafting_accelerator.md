@@ -16,7 +16,7 @@ item_ids:
 
 # Unidade de Processamento Paralelo
 
-Este mod introduz cinco **Unidades de Processamento Paralelo** de nível superior, que são upgrades compactados das unidades vanilla, oferecendo capacidades de processamento paralelo significativamente aprimoradas.
+Este mod apresenta cinco **Unidades de Processamento Paralelo** de nível superior, que são melhorias comprimidas das unidades vanilla, oferecendo capacidades de processamento paralelo significativamente maiores.
 
 <Row>
   <BlockImage id="extendedae_plus:4x_crafting_accelerator" scale="5" />

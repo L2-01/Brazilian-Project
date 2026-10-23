@@ -6,15 +6,15 @@
   "pages": [
     {
       "type": "text",
-      "text": "Um $(item)Gerador de Criaturas Pressurizado/$ é um dispositivo poderoso que usa $(l:base_concepts/pressure)pressão/$ para gerar criaturas. Ele não se importa com níveis de luz ou proximidade de jogadores e pode ser ativado/desativado via redstone.$(p)Para usar um Gerador de Criaturas Pressurizado, você precisará de um $(l:spawning/spawner_core)Núcleo de Gerador de Criaturas/$ contendo essência de criatura capturada e pelo menos 10 bar de pressão."
+      "text": "Um $(item)Gerador de Criaturas Pressurizado/$ é um dispositivo poderoso que usa $(l:base_concepts/pressure)pressão/$ para gerar criaturas. Ele não liga para níveis de luz nem para proximidade de jogadores, e pode ser ativado/desativado via redstone.$(p)Para usar um Gerador de Criaturas Pressurizado, você precisará de um $(l:spawning/spawner_core)Núcleo de Gerador de Criaturas/$ contendo essência de criatura capturada, e pelo menos 10 bar de pressão."
     },
     {
       "type": "text",
-      "text": "Quando um Núcleo contém múltiplas essências de criatura, uma criatura aleatória será escolhida. Ex.: se o seu Núcleo for 50% zumbi, 25% creeper e 25% vazio, então a cada tentativa de geração você tem 50% de chance de um zumbi, 25% de um creeper e 25% de nada.$(p)O ar ainda é usado se nada surgir, então Núcleos parcialmente vazios não são muito eficientes (mas, por outro lado, um Núcleo com 50% de chance de uma criatura rara é melhor que nenhum Núcleo...)"
+      "text": "Quando um Núcleo contém essências de várias criaturas, uma criatura aleatória será escolhida. Ex.: se seu Núcleo é 50% zumbi, 25% creeper e 25% em branco, então a cada tentativa de geração você tem 50% chance de um zumbi, 25% favorável a um creeper e 25% favorável a nada.$(p)Ar ainda é consumido se nada for gerado, então Núcleos parcialmente vazios não são muito eficientes (mas ainda assim, um Núcleo com 50% chance de uma criatura rara é melhor que nenhum Núcleo...)"
     },
     {
       "type": "crafting",
-      "text": "Fabricando um Gerador de Criaturas Pressurizado.",
+      "text": "Fabricando Gerador de Criaturas Pressurizado",
       "recipe": "pneumaticcraft:pressurized_spawner"
     }
   ]

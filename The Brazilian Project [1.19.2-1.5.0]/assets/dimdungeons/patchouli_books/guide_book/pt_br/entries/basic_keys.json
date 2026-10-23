@@ -1,0 +1,29 @@
+{
+	"name": "Chaves de Portal",
+	"icon": "dimdungeons:textures/item/item_key_level1.png",
+	"category": "dimdungeons:keys",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Depois de criar seu portal, você precisará de uma chave, para a qual vai precisar de: $(li)Uma Vara de Blaze$(li)Uma Etiqueta de Nome$(br)Você quase certamente vai querer várias chaves, então fabrique quantas puder agora."
+		},
+		{
+			"type": "crafting",
+			"recipe": "dimdungeons:recipe_item_blank_key",
+			"text": "Isso cria uma chave em branco."
+		},
+		{
+			"type": "text",
+			"text": "Chaves em branco não podem ser usadas para entrar numa masmorra até serem ativadas. Ativar uma chave inscreve nela o nome e a localização de uma masmorra gerada aleatoriamente.$(br2)O ritual de ativação exige que você 'use' ($(k:use)) a $(item)chave em branco$() no buraco de uma moldura do portal do End. A moldura do portal do End não precisa fazer parte de um portal do End válido."
+		},
+		{
+			"type": "text",
+			"text": "Se todas as molduras do portal do End estiverem ocupadas, você pode usar a chave para quebrar o $(item)olho de ender$() de uma das molduras. Isso não quebra o portal para o End.$(br2)Depois de ativar uma chave, você pode 'colocá-la' ($(k:use)) na Pedra Angular do Portal da sua construção. 'Usar' ($(k:use)) a Pedra Angular de um portal ativo removerá a chave e fechará o portal."
+		},
+		{
+			"type": "text",
+			"text": "As chaves só podem ser ativadas e inscritas uma vez; então você precisará fabricar e ativar uma nova chave para cada nova masmorra que explorar. Mas as chaves não são consumidas pela Pedra Angular, e chaves antigas podem ser reutilizadas para reabrir portais que levam de volta à mesma masmorra de antes. Às vezes você pode encontrar um bom motivo para voltar a uma masmorra antiga!"
+		}
+	]
+}

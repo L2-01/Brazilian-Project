@@ -1,18 +1,18 @@
 {
-    "name": "Módulo de Esponja",
-    "icon": "mffs:sponge_module",
-    "category": "mffs:projector_modules",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:sponge_module",
-            "link_recipe": true,
-            "text": "Colocar um $(5)Módulo de Esponja$() num $(l:mffs:machines/projector)Projetor de Campo de Força$() faz com que ele detecte e remova continuamente quaisquer fluidos contidos dentro do campo. A taxa na qual fluidos são removidos pode ser aumentada instalando $(l:mffs:upgrade_modules/speed_module)$(5)Módulos de Velocidade$(). Taxas maiores podem ser necessárias para remover fluidos infinitos, como Água."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:sponge_module",
-            "text": "Fabricando o $(5)Módulo de Esponja$()."
-        }
-    ]
+  "name": "Módulo de Esponja",
+  "icon": "mffs:sponge_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:sponge_module",
+      "link_recipe": true,
+      "text": "Colocar um $(5)Módulo de Esponja$() num $(l:mffs:machines/projector)Projetor de Campo de Força$() faz com que ele detecte e remova continuamente quaisquer fluidos contidos no campo. A taxa de remoção de fluidos pode ser aumentada instalando $(l:mffs:upgrade_modules/speed_module)$(5)Módulos de Velocidade$(). Taxas maiores podem ser necessárias para remover fluidos infinitos, como Água."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:sponge_module",
+      "text": "Fabricando o $(5)Módulo de Esponja$()."
+    }
+  ]
 }

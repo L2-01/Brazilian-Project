@@ -1,0 +1,47 @@
+---
+id: oritech:deepslate_uranium_ore
+title: Veios de Urânio
+type: block
+related_items: ["oritech:uranium_ore", "oritech:uranium_crystal"]
+---
+
+<center>
+<ModAsset location="oritech:area/uranium_cave" width={700} />
+</center>
+
+O urânio é uma fonte de energia de alto rendimento encontrada nas regiões mais profundas do mundo.
+Diferente dos depósitos minerais comuns, o urânio é gerado em **veios de urânio** distintos que
+se prendem às superfícies das cavernas subterrâneas.
+
+### Geração
+
+Os veios de urânio são gerados principalmente nas profundezas do mundo, tipicamente entre **Y -64 e Y -24**.
+Esses veios têm uma regra especial de geração: só aparecem em paredes ou pisos de caverna
+onde haja **ar exposto**.
+
+Além dos blocos de minério comuns, esses veios costumam ter **Cristais de Uranita** brilhantes que
+iluminam a área ao redor.
+
+### Coleta e Cristais
+
+O minério de urânio pode ser minerado normalmente, mas os **Cristais de Uranita** desses veios oferecem
+opções extras:
+
+*   **Mineração Padrão**: quebrar os cristais dropa urânio bruto, que pode ser processado em combustível.
+*   **Laser Endérico**: destruir um cristal com um [Laser Endérico](@oritech:laser_arm_block)
+produz **pó de plutônio** em vez disso. O plutônio é uma fonte de combustível muito mais forte
+para os [Reatores Nucleares]($reactor/introduction).
+*   **Não Renovável**: diferente da ametista, os Cristais de Uranita não voltam a crescer.
+Uma vez que um veio se esgota, você precisa encontrar outro.
+
+<Callout variant="warning">
+    O urânio é altamente energético. Embora os veios em si não sejam perigosos de se ficar
+    perto em sua forma bruta, as pastilhas e as varetas de combustível derivadas deles exigem manuseio
+    cuidadoso em um [Reator]($reactor/introduction) para evitar derretimentos catastróficos.
+</Callout>
+
+### Nós de Recurso
+
+Se você precisar de um suprimento mais sustentável de urânio, procure
+[Nós de Recurso de Urânio](@oritech:resource_nodes). Eles são encontrados perto da camada
+de rocha matriz e podem ser colhidos indefinidamente usando um [Extrator de Rocha Matriz](@oritech:deep_drill_block).

@@ -17,20 +17,19 @@ item_ids:
 
 O Ponto de E/S Avançado é uma ferramenta muito poderosa para interagir com inventários externos. Ele é criado fundindo um
 <ItemLink id="advanced_ae:import_export_bus_part"/> e um <ItemLink id="advanced_ae:stock_export_bus_part"/>. Ele herda
-as funções dos dois pais. Além disso, a velocidade base do Ponto de E/S Avançado é 8 vezes maior que a velocidade
-base de um <ItemLink id="ae2:export_bus"/>. Ele leva um tempo para ganhar velocidade, mas fica extremamente rápido
+as funções de ambos os seus pais. Além disso, a velocidade base do Ponto de E/S Avançado é 8 vezes maior que a velocidade base
+de um <ItemLink id="ae2:export_bus"/>. Ele leva algum tempo para ganhar velocidade, mas fica incrivelmente rápido
 quando totalmente melhorado.
 
 ## Exportando
 
-O Ponto de E/S Avançado exporta conforme seu filtro, até uma quantidade fixa, e para ali. No lado esquerdo da UI
-há também uma configuração que permite ao usuário optar por regular o estoque de itens.
+O Ponto de E/S Avançado exportará de acordo com seu filtro, até uma quantidade fixa, e parará aí. No lado esquerdo da UI
+há também uma configuração que permite ao usuário escolher regular o estoque de itens.
 
 ## Importando
 
-O Ponto de E/S Avançado também importa qualquer coisa que não esteja filtrada para exportação. As operações de
-importação e exportação são contadas separadamente, então o barramento não fica preso fazendo uma ou outra. Quando o
-barramento está configurado para regular, ele prioriza importar qualquer coisa acima da quantidade definida. Se sobrar
-alguma operação, ele importa o que não está filtrado.
+O Ponto de E/S Avançado também importará qualquer coisa que não esteja filtrada para exportação. As operações de importação e
+exportação são contadas separadamente, então o ponto não ficará preso fazendo uma ou outra. Quando o ponto está configurado para regular, ele
+priorizará importar qualquer coisa que esteja acima da quantidade definida. Se sobrar alguma operação, ele importará o que não estiver filtrado.
 
 <RecipeFor id="advanced_ae:advanced_io_bus_part"/>

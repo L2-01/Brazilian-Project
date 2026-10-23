@@ -8,7 +8,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Uma forma rudimentar, porém eficaz, de coletar $(aura) no início é o $(item)Altar Natural$(). Após criar a configuração mostrada na página seguinte, o altar começará a drenar $(aura) lentamente nas proximidades. Porém, ele não é forte o suficiente para causar grandes danos, fazendo-o drenar apenas até não restar nenhuma na área.$(br)A $(aura) coletada pode então ser usada como mostrado nas páginas seguintes."
+            "text": "Uma forma rudimentar, porém eficaz, de coletar $(aura) no início é o $(item)Altar Natural$(). Após criar a montagem mostrada na página seguinte, o altar começará a drenar lentamente a $(aura) na vizinhança. No entanto, ele não é forte o suficiente para causar grandes danos, drenando apenas até não sobrar nenhuma na área.$(br)A $(aura) coletada pode então ser usada como mostrado nas páginas seguintes."
         },
         {
             "type": "multiblock",
@@ -23,20 +23,20 @@
         {
             "type": "crafting",
             "recipe": "naturesaura:gold_brick",
-            "text": "Criando os $(item)Tijolos de Pedra Dourada$() usados no multibloco do $(item)Altar Natural$(). Alternativamente, $(item)Tijolos do Nether Dourados$() podem ser criados de forma similar."
+            "text": "Criando os $(item)Tijolos de Pedra Dourada$() que são usados no multibloco do $(item)Altar Natural$(). Alternativamente, $(item)Tijolos do Nether Dourados$() podem ser criados de forma semelhante."
         },
         {
             "type": "text",
-            "text": "Quando o $(item)Altar Natural$() tiver coletado uma quantidade suficiente de $(aura), ele poderá infundir itens de certos materiais. Para isso, basta colocar qualquer material no altar e esperar a infusão ser completada."
+            "text": "Quando o $(item)Altar Natural$() tiver coletado uma quantidade suficiente de $(aura), ele poderá infundir itens de certos materiais. Para fazer isso, simplesmente coloque qualquer material sobre o altar e espere a infusão ser completada."
         },
         {
             "type": "naturesaura:altar",
-            "text": "Criando $(item)Ferro Infundido$(), um material abençoado com os poderes da $(aura), permitindo que seja usado em vários $(thing)itens naturais$() mágicos.$(br)Note que a mesma infusão é possível usando a forma de bloco do material.",
+            "text": "Criando $(item)Ferro Infundido$(), um material abençoado com os poderes da $(aura), permitindo que seja usado em vários $(thing)itens naturais$() mágicos.$(br)Note que a mesma infusão é possível usando a forma de bloco dos materiais.",
             "recipe": "naturesaura:infused_iron"
         },
         {
             "type": "naturesaura:altar",
-            "text": "Criando $(item)Ouro Corrompido$(), um material abençoado com os aspectos mais profundos e sombrios da $(aura), o que significa que leva muito mais tempo para infundir, usando menos $(aura) no processo.$(br)Note que a mesma infusão é possível usando a forma de bloco do material.",
+            "text": "Criando $(item)Ouro Corrompido$(), um material abençoado com os aspectos mais profundos e sombrios da $(aura), o que significa que leva muito mais tempo para infundir enquanto usa menos $(aura) no processo.$(br)Note que a mesma infusão é possível usando a forma de bloco dos materiais.",
             "recipe": "naturesaura:tainted_gold"
         },
         {

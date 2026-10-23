@@ -10,18 +10,18 @@ item_ids:
 
 # Painel Solar de Ferricoro
 
-Um painel solar que gera Energia Forge
+Um painel solar que gera Forge Energy.
 
-Taxa padrão de FE Máx : **240**
+Taxa máxima de FE padrão : **240**
 
-**Condições Padrão:**
+**Condições padrão:**
 
-- Dimensões = Mundo Superior
-- Ver o céu = true
-- Dia = true
+- Dimensões = Superfície
+- Ver o céu = verdadeiro
+- Dia = verdadeiro
 
 <BlockImage id="justdynathings:ferricore_solar_panel" scale="4.0"/>
 
 <Recipe id="justdynathings:ferricore_solar_panel" />
 
-_Nota: Tudo pode ser modificado via configs, então não confie totalmente!_
+_Nota: tudo pode ser modificado via configurações, então não confie totalmente!_

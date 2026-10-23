@@ -7,8 +7,8 @@ navigation:
   title: Cartão Básico
 ---
 
-Usado para fabricar o <ItemLink id="capacity_card"/> e o
+Usado para fabricar o <ItemLink id="capacity_card"/> e
 
-<ItemLink id="redstone_card" />
+o <ItemLink id="redstone_card" />
 
 <RecipeFor id="basic_card" />

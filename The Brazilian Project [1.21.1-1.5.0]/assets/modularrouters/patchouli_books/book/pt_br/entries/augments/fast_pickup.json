@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Esta melhoria só pode ser adicionada ao $(l:modules/vacuum)Módulo de Vácuo/$. Ela permite que o Módulo de Vácuo ignore o atraso normal de coleta de itens largados - 40 tiques para itens largados por jogadores e 10 tiques para itens largados por outros meios (ex.: tosquia de ovelhas) - e colete itens assim que os vir.$(p)No máximo uma Melhoria de Coleta Rápida pode ser adicionada."
+      "text": "Esta melhoria só pode ser adicionada ao $(l:modules/vacuum)Módulo de Vácuo/$. Ela permite que o Módulo de Vácuo ignore o atraso normal de coleta de itens soltos — 40 tiques para itens soltos por jogadores e 10 tiques para itens soltos por outros meios (ex.: tosquia de ovelhas) — e colete itens assim que os vê.$(p)Um máximo de uma Melhoria de Coleta Rápida pode ser adicionada."
     },
     {
       "type": "crafting",

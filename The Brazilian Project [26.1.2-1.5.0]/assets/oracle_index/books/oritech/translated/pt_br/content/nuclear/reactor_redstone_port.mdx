@@ -1,0 +1,20 @@
+---
+title: Porta de Redstone do Reator
+id: oritech:reactor_redstone_port
+type: block
+---
+
+Um sinal de redstone em uma porta de redstone desativa a entrada de novos combustíveis.
+
+Qualquer pastilha de combustível que já tenha começado a queimar precisa terminar antes que o reator desligue totalmente
+com um sinal de redstone em uma porta.
+
+A porta também pode ser usada com um comparador para emitir dados. Ela tem 3 modos:
+
+*   **Temperatura**: emite um sinal com base na temperatura do componente mais quente (relativa ao calor máximo do reator)
+*   **Contagem de Varetas Ativas**: indica o número de varetas queimando combustível (por exemplo, o número real de varetas por camada atualmente ativas. Varetas duplas e quádruplas contam como uma.)
+*   **Energia**: mede o RF atualmente armazenado
+
+Para alternar entre os modos, basta clicar com o botão direito na porta.
+
+Para informações detalhadas sobre a mecânica do reator, veja o [guia do reator nuclear]($reactor/introduction).

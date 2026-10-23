@@ -14,7 +14,7 @@ item_ids:
 
 A **Matriz de Colapso de Raios** é um dos componentes-chave de nível final do AE2 Lightning Tech. Ela não é um consumível — em vez disso, age como um **catalisador de substituição / paralelismo**. Manter uma matriz no espaço de matriz de uma máquina desbloqueia o modo de operação de nível superior daquela máquina.
 
-`Uma liga de alta resistência comprime e confina raios imensos numa forma estável; sua forma de onda é a inversa da volátil TNT de Sobrecarga.`
+`A high-strength alloy compresses and confines immense lightning into a stable form; its waveform is the inverse of volatile Overload TNT.`
 
 ~~Talvez essas energias possam se neutralizar mutuamente?~~
 
@@ -25,7 +25,7 @@ A **Matriz de Colapso de Raios** é um dos componentes-chave de nível final do 
 | Material | Quantidade |
 |----------|--------|
 | Cristal Eletrosonoro Perfeito | 1 |
-| Núcleo de Sobrecarga Ultimate | 16 |
+| Núcleo de Sobrecarga Supremo | 16 |
 | **Raios de Altíssima Tensão** | 128 |
 | Energia | 50.000.000 AE |
 
@@ -42,6 +42,6 @@ A Matriz de Colapso de Raios **não é consumida** durante o processamento, mas 
 
 ## Notas de Campo
 
-> Uma equipe de campo certa vez registrou um relatório de experimento adicional: quando a matriz é **larga no mundo**, uma reação não intencional pode ocorrer; o caso em que essa reação foi acesa está registrado na página da [TNT de Sobrecarga](../lightning/overload-tnt.md).
+> Uma equipe de campo certa vez registrou um relatório de experimento adicional: quando a matriz é **jogada no mundo**, uma reação não intencional pode ocorrer; o caso em que essa reação foi acesa está registrado na página da [TNT de Sobrecarga](../lightning/overload-tnt.md).
 
 O produto é uma célula não registrada que pode ser colocada num <ItemLink id="ae2:drive" /> para decodificação. Ela só pode ser lida uma vez e não pode ser gravada. O relatório diz que os padrões decodificados são distribuídos de forma extremamente irregular. Após muitos experimentos, a equipe compilou um relatório especial.

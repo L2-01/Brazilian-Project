@@ -1,0 +1,13 @@
+{
+    "name": "Dano por Vida Atual",
+    "icon": "minecraft:dragon_head",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(9)Dano por Vida Atual$() é um tipo de dano por acerto. A cada acerto, você causa uma porcentagem da vida atual do alvo como dano físico adicional.$(p)Esse atributo só é encontrado em armas pesadas."
+        }
+    ]
+}

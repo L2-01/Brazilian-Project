@@ -5,26 +5,26 @@
   "pages": [
     {
       "type": "text",
-      "text": "É uma mecânica fundamental do Minecraft que apenas partes do mundo são carregadas na memória por vez. Isso é essencial para o desempenho; nenhum computador acessível conseguiria manter um mundo inteiro (especialmente um com mods) carregado e processando de uma vez. O mundo é então dividido em $(thing)chunks/$ de 16x16 (nos eixos horizontais), dos quais apenas alguns são carregados por vez."
+      "text": "É uma mecânica fundamental do Minecraft que apenas partes do mundo ficam carregadas na memória por vez. Isso é essencial para o desempenho; nenhum computador acessível conseguiria manter um mundo inteiro (especialmente com mods) carregado e processando de uma vez. O mundo é então dividido em $(thing)chunks/$ de 16x16 (nos eixos horizontais), dos quais apenas alguns ficam carregados por vez."
     },
     {
       "type": "text",
-      "text": "Isso tem ramificações importantes para projetar construções confiáveis com mods; se você quer que o processamento aconteça quando não está na sua base, precisa fazer $(thing)chunkload/$ nas máquinas relevantes. As informações a seguir destinam-se principalmente como dicas para conseguir construções confiáveis do $(pncr), mas muito disso também se aplica a outros mods."
+      "text": "Isso tem implicações importantes para projetar construções de mods confiáveis; se você quer que o processamento aconteça quando não estiver na sua base, precisa $(thing)carregar os chunks/$ das máquinas relevantes. As informações a seguir servem principalmente como dicas para construções confiáveis de $(pncr), mas boa parte se aplica a outros mods também."
     },
     {
       "type": "text",
       "title": "Métodos de Carregamento de Chunks",
-      "text": "$(li)O vanilla tem um comando $(thing)/forceload/$ para forçar um ou mais chunks a permanecerem sempre carregados, mas isso requer privilégios de operador$(li)Muitos mods oferecem soluções de carregamento de chunks utilizáveis pelo jogador, ex.: $(thing)FTB Chunks/$, $(thing)Chicken Chunks/$, $(thing)Weirding Gadgets/$ e mais.$(li)O $(l:programming/programmable_controller)Controlador Programável/$ deste mod também oferece alguma funcionalidade limitada de carregamento de chunks."
+      "text": "$(li)O jogo padrão tem o comando $(thing)/forceload/$ para forçar um ou mais chunks a ficarem sempre carregados, mas isso exige privilégios de operador$(li)Muitos mods oferecem soluções de carregamento de chunks usáveis por jogadores, ex.: $(thing)FTB Chunks/$, $(thing)Chicken Chunks/$, $(thing)Weirding Gadgets/$ e mais.$(li)O $(l:programming/programmable_controller)Controlador Programável/$ deste mod também oferece funcionalidade limitada de carregamento de chunks."
     },
     {
       "type": "text",
-      "title": "Segurança no Carregamento de Chunks",
-      "text": "As dicas a seguir ajudarão a construir sistemas confiáveis com chunks carregados:$(li)$(thing)Tente manter suas construções dentro dos limites dos chunks/$. Se parte da sua construção estiver carregada e parte não, os resultados podem ser altamente imprevisíveis. Tenha ou tudo ou nada carregado.$(li)$(thing)Use Melhorias de Segurança nas máquinas./$ Isso previne explosões; mesmo com bom controle de redstone, carregamento de chunks ou problemas de desempenho do servidor podem ser problemáticos."
+      "title": "Segurança do Carregamento de Chunks",
+      "text": "As dicas a seguir ajudarão a construir sistemas confiáveis com chunks carregados:$(li)$(thing)Tente manter suas construções dentro dos limites de chunks/$. Se parte da construção estiver carregada e parte não, os resultados podem ser altamente imprevisíveis. Tenha ou tudo carregado, ou nada.$(li)$(thing)Use Melhorias de Segurança nas máquinas./$ Isso previne explosões; mesmo com bom controle de redstone, problemas de carregamento de chunks ou desempenho do servidor podem ser problemáticos."
     },
     {
       "type": "text",
-      "title": "Segurança no Carregamento de Chunks (cont.)",
-      "text": "$(li)$(thing)Mantenha multiblocos dentro de um único chunk se possível./$ Mesmo quando todos os chunks relevantes estão carregados, não é ideal ter multiblocos como a $(l:manufacturing/pressure_chamber)Câmara de Pressão/$ ocupando dois ou mais chunks."
+      "title": "Segurança do Carregamento de Chunks (cont.)",
+      "text": "$(li)$(thing)Mantenha multiblocos dentro de um único chunk quando possível./$ Mesmo quando todos os chunks relevantes estão carregados, não é ideal que multiblocos como a $(l:manufacturing/pressure_chamber)Câmara de Pressão/$ abranjam dois ou mais chunks."
     }
   ]
 }

@@ -15,46 +15,46 @@ item_ids:
   <BlockImage id="ae2lt:lightning_collector" scale="4" />
 </Row>
 
-O **Coletor de Raios** é o ponto de partida do sistema de Raios. Quando um raio cai dentro da sua área de coleta, o coletor injeta energia de Raios diretamente na rede ME.
+O **Coletor de Raios** é o ponto de partida do sistema de Raios. Quando um raio cai dentro de sua área de coleta, o coletor injeta a energia de Raios diretamente na rede ME.
 
-*`"Emprestando dos outros, buscando a si mesmo."`*
+*`"Borrowing from others, seeking oneself."`*
 
-`— Bloco Misterioso`
+`— Mysterious Block`
 
 ## Uso Básico
 
-Coloque um **Para-Raios vanilla diretamente em cima do coletor** e conecte o coletor a uma rede ME. Raios naturais e artificiais são verificados usando o bloco que contém a posição do impacto. A área de coleta é um **cubo 3×3×3 centrado no bloco do para-raios superior**, estendendo um bloco em todas as direções. Mantenha o para-raios exposto ao céu para tempestades naturais.
+Coloque um **Para-raios do vanilla diretamente em cima do coletor** e conecte o coletor a uma rede ME. Raios naturais e artificiais são verificados pelo bloco que contém a posição do impacto. A área de coleta é um **cubo 3×3×3 centrado no bloco do para-raios superior**, estendendo um bloco em cada direção. Mantenha o para-raios exposto ao céu para tempestades naturais.
 
-Quando áreas de coleta se sobrepõem, os coletores são tentados na ordem da distância dos seus para-raios superiores ao bloco atingido. Um coletor que não consegue armazenar energia permite que o próximo tente. **Cada raio pode ser coletado com sucesso por no máximo um coletor, uma vez.** Mesmo uma inserção parcial consome o raio; relâmpagos posteriores ou um save/reload não podem produzir mais energia dele.
+Quando áreas de coleta se sobrepõem, os coletores são tentados na ordem da distância de seus para-raios superiores ao bloco do impacto. Um coletor que não consegue armazenar energia permite que o próximo tente. **Cada raio pode ser coletado com sucesso por no máximo um coletor, uma única vez.** Mesmo uma inserção parcial consome o raio; clarões posteriores ou um save/recarregamento não produzem mais energia dele.
 
-Três condições precisam ser atendidas para que uma descarga seja produtiva:
+Três condições devem ser atendidas para um impacto ser produtivo:
 
-* Um Para-Raios deve estar colocado no bloco diretamente acima do coletor
+* Um Para-raios deve estar colocado no bloco diretamente acima do coletor
 * A rede deve estar online
-* A rede deve ter capacidade de armazenamento suficiente para aceitar os Raios prestes a serem produzidos (caso contrário, a descarga é desperdiçada)
+* A rede deve ter capacidade de armazenamento suficiente para aceitar os Raios prestes a ser produzidos (caso contrário o impacto é desperdiçado)
 
-O nível de Raio produzido depende do raio coletado:
+O tier de Raios produzido depende do raio coletado:
 
-* **Raio artificial** (por exemplo, invocado por um Cristal de Sobrecarga carregado ou largado) → **Raio de Alta Tensão**
-* **Raio natural** (um raio de tempestade real) → **Raio de Altíssima Tensão**
+* **Raio artificial** (por exemplo, invocado por um Cristal de Sobrecarga carregado ou jogado) → **Raio de Alta Tensão**
+* **Raio natural** (um raio real de tempestade) → **Raio de Altíssima Tensão**
 
-Após cada coleta bem-sucedida, o coletor entra numa breve recarga (padrão 0 tiques, configurável). Cada coletor pode coletar com sucesso no máximo um raio por tique.
+Após cada coleta bem-sucedida o coletor entra numa curta recarga (padrão 0 ticks, configurável). Cada coletor pode coletar com sucesso no máximo um raio por tick.
 
 ## Cristal Eletrosonoro e Rendimento
 
 <ItemImage id="ae2lt:electro_chime_crystal" scale="2" float="left" />
 
-O coletor tem um **espaço de cristal** dedicado onde você pode inserir um **Cristal Eletrosonoro**. Se um cristal está instalado e o progresso do seu cultivo determinam o rendimento de cada descarga.
+O coletor tem um **slot de cristal** dedicado onde você pode inserir um **Cristal Eletrosonoro**. Se um cristal está instalado e o quanto seu cultivo avançou determinam o rendimento de cada impacto.
 
 | Estado do Cristal | Rendimento |
 |---------------|-------|
 | Sem cristal | Aleatório dentro de uma **faixa base** fixa (padrão HV 1~2, EHV 1~4) |
-| Cristal Eletrosonoro em cultivo | Escala linearmente entre "rendimento inicial" e "rendimento final" conforme o progresso do cultivo, mais uma pequena variação aleatória |
-| Cristal Eletrosonoro Perfeito | **Rendimento fixo** (padrão 16 tanto para HV quanto EHV), sem aleatoriedade |
+| Cristal Eletrosonoro em cultivo | Escala linearmente entre o "rendimento inicial" e o "rendimento final" com o progresso de cultivo, mais uma pequena variação aleatória |
+| Cristal Eletrosonoro Perfeito | **Rendimento fixo** (padrão 16 para HV e EHV), sem aleatoriedade |
 
 ## Cultivando o Cristal Eletrosonoro
 
-O Cristal Eletrosonoro progride por quatro estágios conforme o valor de cultivo:
+O Cristal Eletrosonoro avança por quatro estágios conforme o valor de cultivo:
 
 | Estágio | Progresso |
 |-------|----------|
@@ -63,12 +63,12 @@ O Cristal Eletrosonoro progride por quatro estágios conforme o valor de cultivo
 | Ressonante | 55% ~ 85% |
 | Sobrecarregado | ≥ 85% |
 
-* O cristal só ganha valor de cultivo quando o coletor é atingido por **raio natural** (as descargas que produzem Raios de Altíssima Tensão) e a rede tem capacidade suficiente para armazenar os Raios produzidos. Raios artificiais não contribuem para o cultivo
-* Quando o valor de cultivo atinge o máximo, o Cristal Eletrosonoro se transforma automaticamente num **Cristal Eletrosonoro Perfeito**
+* O cristal só ganha valor de cultivo quando o coletor é atingido por **raios naturais** (os impactos que produzem Raio de Altíssima Tensão) e a rede tem capacidade suficiente para armazenar os Raios produzidos. Raios artificiais não contribuem para o cultivo
+* Quando o valor de cultivo atinge o máximo, o Cristal Eletrosonoro transforma-se automaticamente num **Cristal Eletrosonoro Perfeito**
 * O Cristal Eletrosonoro Perfeito não cultiva mais, mas fornece um rendimento máximo estável
 
 ## Dicas de Automação
 
-* O coletor precisa ter um Para-Raios diretamente acima e estar conectado a uma rede ME online, caso contrário as descargas são desperdiçadas
-* Se não quiser esperar por tempestades naturais, use o [Ionizador Atmosférico](../machines/atmospheric-ionizer.md) com Condensado de Tempestade para forçar clima de tempestade
+* O coletor deve ter um Para-raios diretamente acima e estar conectado a uma rede ME online, caso contrário os impactos são desperdiçados
+* Se você não quiser esperar tempestades naturais, use o [Ionizador Atmosférico](../machines/atmospheric-ionizer.md) com Condensado de Tempestade para forçar o clima de tempestade
 * Para uma solução totalmente independente do clima, use a [Bobina de Tesla](tesla-coil.md) para produzir Raios HV / EHV sob demanda

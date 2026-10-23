@@ -1,0 +1,17 @@
+{
+  "name": "Bruxaria: Fermentação",
+  "icon": "patchouli:textures/items/book_purple.png",
+  "category": "enchanted:additional_resources",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fermentação é uma habilidade essencial para qualquer Bruxa ou Bruxo, mas é profunda demais para cobrir neste livro. Consulte o livro Bruxaria: Fermentação, como mostrado na receita de fabricação."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:book_brewing"
+    }
+  ],
+  "read_by_default": false,
+  "sortnum": 2
+}

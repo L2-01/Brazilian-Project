@@ -1,0 +1,13 @@
+{
+  "name": "Biocombustível (Fluido)",
+  "icon": "industrialforegoing:biofuel_bucket",
+  "category": "industrialforegoing:generators",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Um fluido roxo feito de plantas, corantes e algumas coisas questionáveis como crânios num $(l:generators/bioreactor)Biorreator$(). $(br2)Usado num $(l:generators/biofuel_generator)Gerador de Biocombustível$() ou nas $(l:tools/infinity_tools)Ferramentas do Infinito$()."
+    }
+  ]
+}

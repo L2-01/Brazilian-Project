@@ -7,12 +7,12 @@
     {
       "type": "patchouli:text",
       "title": "Visão Geral",
-      "text": "O Mystian Apiary é um $(2)multibloco 3x3x3$() que opera suas abelhas do Productive Bees no lugar, então nenhuma abelha jamais sai dele.$(br2)No coração está um $(2)Bloco de Favo de Mel$(), envolto num cubo de $(2)troncos$(), com as quatro caixas embutidas nas laterais."
+      "text": "O Mystian Apiary é um $(2)multibloco 3x3x3$() que mantém suas abelhas do Productive Bees trabalhando no lugar, sem que nenhuma saia.$(br2)No coração está um $(2)Bloco de Favo de Mel$(), envolto num cubo de $(2)troncos$(), com as quatro caixas encaixadas em suas faces."
     },
     {
       "type": "patchouli:text",
-      "title": "A Montagem",
-      "text": "Do centro para fora:$(br2)$(li)$(2)Centro$(): um Bloco de Favo de Mel$(li)$(2)Norte, sul, leste e oeste$() dele: uma de cada, a $(l:mystianapiary:modules#input)Caixa de Abelhas$(), a $(l:mystianapiary:modules#flower)Caixa de Flores$(), o $(l:mystianapiary:modules#output)Armazenamento$() e o $(l:mystianapiary:modules#upgrade)Controlador$(), em qualquer disposição$(li)$(2)Todos os outros lugares$() do cubo: quaisquer troncos, normais ou desbastados"
+      "title": "A Construção",
+      "text": "De dentro para fora:$(br2)$(li)$(2)Centro$(): um Bloco de Favo de Mel$(li)$(2)Norte, sul, leste e oeste$() dele: uma de cada — $(l:mystianapiary:modules#input)Caixa de Abelhas$(), $(l:mystianapiary:modules#flower)Caixa de Flores$(), $(l:mystianapiary:modules#output)Armazenamento$() e $(l:mystianapiary:modules#upgrade)Controlador$(), em qualquer arranjo$(li)$(2)Todos os outros pontos$() do cubo: quaisquer troncos, normais ou descascados"
     },
     {
       "type": "patchouli:multiblock",
@@ -51,7 +51,7 @@
     {
       "type": "patchouli:text",
       "title": "Segundo Armazenamento",
-      "text": "Precisa de mais espaço? O tronco $(2)diretamente acima do Bloco de Favo de Mel$() pode ser substituído por uma $(2)segunda caixa de Armazenamento$() de qualquer nível.$(br2)Os produtos enchem primeiro a caixa lateral principal e só transbordam para a segunda quando ela estiver cheia, embora uma pilha parcialmente cheia na segunda caixa sempre seja completada antes. Fluidos transbordam da mesma forma. Um tronco ali também é perfeitamente válido; a segunda caixa é totalmente opcional."
+      "text": "Precisa de mais espaço? O tronco $(2)diretamente acima do Bloco de Favo de Mel$() pode ser substituído por uma $(2)segunda Caixa de Armazenamento$() de qualquer nível.$(br2)A produção enche primeiro a caixa lateral principal e só transborda para a segunda quando ela estiver cheia — embora uma pilha parcialmente cheia na segunda caixa sempre seja completada primeiro. Fluidos transbordam da mesma forma. Um tronco ali também funciona perfeitamente: a segunda caixa é totalmente opcional."
     },
     {
       "type": "patchouli:multiblock",

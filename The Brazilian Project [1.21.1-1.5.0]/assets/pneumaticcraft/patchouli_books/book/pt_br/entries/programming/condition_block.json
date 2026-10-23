@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "Este é um widget de $(l:programming/conditions)Condição/$.$(p)O widget $(thing)Condição: Bloco/$ permite verificar uma $(l:programming/area)área/$ por certos blocos. Com isso você pode verificar se uma área contém uma plantação madura, por exemplo. Você pode filtrar quais blocos são válidos anexando um $(l:programming/item_filter)Filtro de Item/$."
+      "text": "Este é um widget de $(l:programming/conditions)Condição/$.$(p)O widget $(thing)Condição: Bloco/$ permite verificar uma $(l:programming/area)área/$ em busca de certos blocos. Com isso você pode verificar se uma área contém um cultivo completamente crescido, por exemplo. Você pode filtrar quais blocos são válidos anexando um $(l:programming/item_filter)Filtro de Item/$."
     },
     {
       "type": "text",
-      "text": "O drone verificará se o bloco pode ser coletado com Toque Suave; se puder, verificará se o filtro de item corresponde ao bloco coletado com Toque Suave. Se não puder ser coletado com Toque Suave, os itens largados do bloco serão usados para filtrar.$(p)Por exemplo, você pode definir o filtro para Trigo, e ele corresponderá ao filtro assim que a plantação largar o trigo (= totalmente madura)."
+      "text": "O drone verificará se o bloco pode ser obtido com Toque Suave; se puder, verificará se o filtro de item corresponde ao bloco obtido com Toque Suave. Se não puder, os drops do bloco serão usados para filtrar.$(p)Por exemplo, você pode definir o filtro para Trigo, e ele corresponderá ao filtro assim que o cultivo derrubar trigo (= crescimento completo)."
     },
     {
       "type": "image",

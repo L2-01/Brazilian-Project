@@ -1,0 +1,18 @@
+{
+  "name": "Bonecos",
+  "icon": "enchanted:poppet",
+  "category": "enchanted:creating_poppets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um boneco é um boneco feito para representar outra pessoa. Esse boneco pode então ser tecido junto com itens mágicos para obter um efeito, antes de ser vinculado a um jogador usando o boneco enquanto um kit de taglock está na mão secundária.$(br2)$(bold)Bonecos básicos têm 30% de chance de falhar.$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:poppet"
+    }
+  ],
+  "read_by_default": false,
+  "priority": false,
+  "sortnum": -1
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Repulsão de Ataque",
+    "icon": "minecraft:piston",
+    "category": "apotheosis:adventure/attributes",
+    "flag": "apotheosis:adventure",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(9)Repulsão de Ataque$() é o quanto você empurra os inimigos ao atacá-los.$(p)Cada ponto faz os inimigos atingidos serem empurrados meio bloco para trás.$(p)Armas e escudos podem fornecer esse atributo."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O encantamento Repulsão fornece um bônus equivalente a esse atributo, mas não conta para o limite máximo."
+        }
+    ]
+}

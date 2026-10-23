@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "text",
-      "text": "O widget $(thing)Texto/$ é usado apenas como parâmetro para outros widgets. Ele é usado para fornecer dados textuais para os widgets que precisam.$(p)As páginas seguintes listam os widgets que o usam."
+      "text": "O widget de $(thing)Texto/$ só é usado como parâmetro para outros widgets. Ele serve para fornecer dados textuais aos widgets que precisam deles.$(p)As páginas seguintes listam os widgets que o usam."
     },
     {
       "type": "relations",
       "anchor": "entity_filter",
-      "title": "Como Filtros de Entidade",
+      "title": "Como Filtros de Entidades",
       "entries": [
         "pneumaticcraft:programming/entity_attack",
         "pneumaticcraft:programming/entity_right_click",
@@ -19,7 +19,7 @@
         "pneumaticcraft:programming/entity_export",
         "pneumaticcraft:programming/drone_condition_entity"
       ],
-      "text": "Você pode posicionar o widget $(thing)Texto/$ à $(italic)esquerda/$ desses widgets para criar um filtro de lista-negra."
+      "text": "Você pode colocar o widget de $(thing)Texto/$ à $(italic)esquerda/$ desses widgets para criar um filtro de lista-negra."
     },
     {
       "type": "relations",

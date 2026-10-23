@@ -5,7 +5,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Os $(item)Pacotes de Receita/$ são criados por $(l:core/packager)Empacotadores/$ e podem ser desempacotados em conjunto nos $(l:core/unpackager)Desempacotadores/$.$(p)Você pode $(thing)$(k:sneak) + $(k:use)/$ num $(item)Pacote de Receita/$ para desempacotá-lo manualmente."
+			"text": "Os $(item)Pacotes de Receita/$ são criados pelos $(l:core/packager)Empacotadores/$ e podem ser desempacotados em conjunto nos $(l:core/unpackager)Desempacotadores/$.$(p)Você pode $(thing)$(k:sneak) + $(k:use)/$ um $(item)Pacote de Receita/$ para desempacotá-lo manualmente."
 		},
 		{
 			"type": "patchouli:spotlight",

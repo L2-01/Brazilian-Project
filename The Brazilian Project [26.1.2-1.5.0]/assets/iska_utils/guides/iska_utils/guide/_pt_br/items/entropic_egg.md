@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:entropic_egg
 categories:
-  - Solos de Farm de Criaturas
+  - MobFarm Soils
 ---
 # Ovo Entrópico
 
@@ -19,5 +19,5 @@ Use numa **criatura** no mundo. Em caso de sucesso, você recebe o **ovo gerador
 
 ## Relacionados
 
-- **Solo Entrópico** — gerações na escuridão com empoderamento; veja aquela página para regras de espalhamento e luz.
-- **Aglomeração Entrópica** — conversão instantânea de manchas de solo.
+- **Solo Entrópico** — spawns na escuridão com fortalecimento; veja essa página para regras de propagação e luz.
+- **Aglomeração Entrópica** — conversão instantânea de trechos de solo.

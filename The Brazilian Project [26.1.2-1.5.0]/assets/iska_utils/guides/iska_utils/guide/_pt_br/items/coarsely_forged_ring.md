@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:coarsely_forged_ring
 categories:
-  - Entrega Suspeita
+  - Suspicious Delivery
 ---
 # Anel Grosseiramente Forjado
 
@@ -15,8 +15,8 @@ categories:
 
 ## O que faz
 
-Um anel rústico aguardando refinamento entrópico. Sozinho não tem poderes — é a **base** para forjar o **Anel Entrópico**.
+Um anel bruto esperando refinamento entrópico. Sozinho não tem poderes — é a **base** para forjar o **Anel Entrópico**.
 
 ## Como obter
 
-Apenas da **Entrega Suspeita**. Melhore-o numa **Bancada de Ferraria** com um **Molde de Ferraria Entrópico** e um **Cristal de Entropia**.
+Somente da **Entrega Suspeita**. Melhore-o numa **Mesa de Ferraria** com um **Molde de Ferraria Entrópico** e um **Cristal de Entropia**.

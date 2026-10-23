@@ -1,0 +1,16 @@
+{
+	"name": "Versão 168",
+	"icon": "minecraft:book",
+	"category": "dimdungeons:patch_notes",
+	"sortnum": 168,
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(li)Implementada uma nova opção de configuração para escalonamento de dano. Esta opção multiplica o dano causado a jogadores (antes da armadura) de todas as fontes numa masmorra básica ou avançada. Padrões: 1.0x e 1.5x. $(li)Implementada uma forma de limitar quem pode entrar na sua dimensão pessoal. Para mais informações, veja aquela seção deste livro."
+		},
+		{
+			"type": "text",
+			"text": "$(li)Criaturas cujos nomes falharem ao traduzir não receberão etiquetas de nome. $(li)Corrigida uma falha quando uma criatura vanilla falha ao surgir. (Como ao ser impedida pelo Bad Mobs.) $(li)Removidas as máquinas de lag de duas salas infames. $(li)Corrigido um bug que impedia o modo hardcore de funcionar nos ports 1.18 e 1.19."
+		}
+	]
+}

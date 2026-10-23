@@ -59,7 +59,7 @@
     "advancement.aether.the_aether.desc": "Ele não está morto!",
     "advancement.aether.valkyrie_hoe": "Sorte Grande",
     "advancement.aether.valkyrie_hoe.desc": "Eu derrotei a Masmorra de Prata e tudo que consegui foi essa Enxada idiota",
-    "advancement.aether.valkyrie_loot": "Ganhando Suas Asas",
+    "advancement.aether.valkyrie_loot": "Ganhando suas Asas",
     "advancement.aether.valkyrie_loot.desc": "Obtenha qualquer peça de equipamento das Valquírias da Masmorra de Prata",
     "advancement.aether.zanite": "Pedras Exóticas",
     "advancement.aether.zanite.desc": "Tenha uma Gema de Zanita em seu inventário",
@@ -535,7 +535,7 @@
     "gui.aether.jei.biome.tooltip.biomes": "Biomas na Etiqueta",
     "gui.aether.jei.biome.tooltip.tag": "Etiqueta de Bioma",
     "gui.aether.jei.block_placement_ban": "Prevenção de Colocar Bloco",
-    "gui.aether.jei.bypass": "Exceto Em:",
+    "gui.aether.jei.bypass": "Exceto em:",
     "gui.aether.jei.freezing": "Congelamento",
     "gui.aether.jei.fuel": "Combustível do Aether",
     "gui.aether.jei.icestone_freezable": "Congelável com Pedra-Glacial",
@@ -912,7 +912,7 @@
     "lore.block.aether.mossy_holystone_wall": "Feito de Pedrasanta Musgosa. Pode ser usado para cercados decorativos e defesas. Ótimo para impedir intrusos de chegarem perto!",
     "lore.block.aether.pillar": "A parte principal das pilastras decorativas da Masmorra de Prata; elas aparecem ao redor da masmorra e são excelentes para construção.",
     "lore.block.aether.pillar_top": "O topo das pilastras decorativas da Masmorras de Prata; ele é bacana e é excelente para construção.",
-    "lore.block.aether.present": "Quebre isso para ganhar um presente festivo maravilhoso! Tome cuidado, você pode ser sssssssurpreso!",
+    "lore.block.aether.present": "Abra isso para ganhar um presente festivo maravilhoso! Tome cuidado, você pode ser sssssssurpreso!",
     "lore.block.aether.purple_flower": "Estas flores roxas bonitas podem ser encontradas em grandes quantidades pelo Aether. Elas podem ser transformadas em Corante Roxo quando colocadas em uma Bancada de Trabalho.",
     "lore.block.aether.quicksoil": "Uma areia sedosa com propriedades extremamente escorregadias. Ele pode ser vista flutuando nos cantos das ilhas do Aether. Tome cuidado com ele, ou você pode cair.",
     "lore.block.aether.quicksoil_glass": "Após encantar Solo Movediço, você fica com esse vidro tingido. Ele é levemente escorregadio e serve perfeitamente de janela.",
@@ -1054,7 +1054,7 @@
     "lore.item.aether.skyroot_stick": "Feito ussando Tábuas de Aerorraiz. Utilizado para criar diversas ferramentas e itens. Não há nada mais muito especial sobre ele.",
     "lore.item.aether.skyroot_sword": "Uma das ferramentas de madeira do Aether. Ela tem baixa durabilidade e dobra itens resultantes de criaturas. Ela é uma arma excelente para coletar comida quando combinada com encantamentos tais como Saque e Aspecto Flamejante.",
     "lore.item.aether.skyroot_tadpole_bucket": "Um Balde de Aerorraiz com um Girino dentro. Transportar um Girino para um novo bioma pode mudar que tipo de Sapo ele irá virar!",
-    "lore.item.aether.skyroot_tropical_fish_bucket": "Um Balde de Aerorraiz contendo um Peixe Tropical, Uma forma útil de transportar e catalogar diversas variedades de Peixes Tropicais.",
+    "lore.item.aether.skyroot_tropical_fish_bucket": "Um Balde de Aerorraiz contendo um Peixe Tropical, uma forma útil de transportar e catalogar diversas variedades de Peixes Tropicais.",
     "lore.item.aether.skyroot_water_bucket": "Um Balde de Aerorraiz cheio de água.",
     "lore.item.aether.swet_ball": "Uma bola gosmenta obtida de um Slime Doce Azul. Ela pode ser utilizada para fertilizar solo. Outro uso é combiná-la com Linhas para produzir uma Corda.",
     "lore.item.aether.swet_banner": "Um estandarte decorativo com a imagem de um Slime Doce. Colocar ele impede Slimes Doces de aparecerem ao redor da sua casa.",
@@ -1620,8 +1620,8 @@
     "accessories.lines.toggle.disabled.tooltip": "Mostrar toda a Renderização de Linhas",
     "accessories.crafting_grid.toggle.enabled": "☒",
     "accessories.crafting_grid.toggle.disabled": "☐",
-    "accessories.crafting_grid.toggle.enabled.tooltip": "Ocultar a pequena grade de criação",
-    "accessories.crafting_grid.toggle.disabled.tooltip": "Mostrar a pequena grade de criação",
+    "accessories.crafting_grid.toggle.enabled.tooltip": "Ocultar a pequena grade de fabricação",
+    "accessories.crafting_grid.toggle.disabled.tooltip": "Mostrar a pequena grade de fabricação",
     "accessories.widget_type.scrollable.tooltip": "Um Layout Rolável para Espaços de Acessórios",
     "accessories.selection_screen.message": [
     "Abaixo está um conjunto de opções de tela que você \n",
@@ -1717,7 +1717,7 @@
     "caso contrário, permite a rotação manual da entidade."
   ],
 
-    "text.config.accessories.option.screenOptions.allowSideBarCraftingGrid": "Permitir Grade de Criação na Barra Lateral",
+    "text.config.accessories.option.screenOptions.allowSideBarCraftingGrid": "Permitir Grade de Fabricação na Barra Lateral",
     "text.config.accessories.option.screenOptions.allowSideBarCraftingGrid.tooltip": [
     "Se os filtros de grupo não estiverem presentes, tentará colocar\n",
     "a grade de criação na barra lateral em vez de abaixo."

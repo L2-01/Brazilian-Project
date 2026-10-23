@@ -5,22 +5,22 @@
   "pages": [
     {
       "type": "text",
-      "text": "Este módulo poderoso age como um $(italic)jogador falso/$ que pode usar um item do buffer do roteador contra blocos ou entidades próximos. Existem três modos, que podem ser selecionados pelos controles à direita da GUI. Cada modo é detalhado nas páginas seguintes."
+      "text": "Este poderoso módulo age como um $(italic)jogador falso/$ que pode usar um item no buffer do roteador contra blocos ou entidades próximos. Há três modos, que podem ser selecionados pelos controles à direita da GUI. Cada modo é detalhado nas páginas seguintes."
     },
     {
       "type": "text",
-      "title": "Botão direito",
-      "text": "Este modo executa um clique com o botão direito com o item do buffer do roteador, como se um jogador o tivesse feito. A lógica usada é a mesma dos cliques de jogador, ex.: clicar com o botão direito numa $(item)Pederneira/$ numa porta abrirá a porta, não iniciará um fogo.$(p)O bloco alvo (se houver) depende da orientação do roteador, da direção do módulo e também da configuração de Olhar Acima/Abaixo/Nível do módulo."
+      "title": "Clique Direito",
+      "text": "Este modo executa um clique direito com o item no buffer do roteador, como se um jogador o tivesse feito. A lógica usada é a mesma dos cliques de jogador, ex.: clicar com o botão direito numa $(item)Pederneira/$ numa porta abrirá a porta, não iniciará um fogo.$(p)O bloco alvo (se houver) depende do sentido do roteador, da direção do módulo e também da configuração Olhar para Cima/Baixo/Nível do módulo."
     },
     {
       "type": "text",
-      "title": "Botão direito em entidade",
-      "text": "Este modo executa um clique com o botão direito com o item do buffer do roteador numa $(thing)entidade/$ próxima. Você poderia usar isso para ordenhar uma vaca, por exemplo, ou tosquiar uma ovelha.$(p)Isso pode resultar em itens sendo largados no chão, ex.: se uma vaca for clicada com uma pilha de mais de um balde no buffer do roteador."
+      "title": "Clique Direito em Entidade",
+      "text": "Este modo executa um clique direito com o item no buffer do roteador numa $(thing)entidade/$ próxima. Você poderia usar isso para ordenhar uma vaca, por exemplo, ou tosquiar uma ovelha.$(p)Isso pode resultar em itens sendo soltos no chão, ex.: se uma vaca for clicada com uma pilha de mais de um balde no buffer do roteador."
     },
     {
       "type": "text",
-      "title": "Atacar entidade",
-      "text": "Este modo executa um clique com o botão esquerdo com o item do buffer do roteador numa $(thing)entidade/$ próxima, atacando-a. Este modo custa $(l:upgrades/energy)Forge Energy/$ por padrão, diferente dos outros módulos.$(p)Nota: embora $(l:upgrades/speed)Melhorias de Velocidade/$ possam ser úteis aqui, as recargas de arma se aplicam, então Melhorias de Velocidade excessivas só acabarão desperdiçando energia e durabilidade da arma."
+      "title": "Atacar Entidade",
+      "text": "Este modo executa um clique esquerdo com o item no buffer do roteador numa $(thing)entidade/$ próxima, atacando-a. Este modo custa $(l:upgrades/energy)Forge Energy/$ por padrão, diferente dos outros módulos.$(p)Nota: embora $(l:upgrades/speed)Melhorias de Velocidade/$ possam ser úteis aqui, os tempos de recarga da arma se aplicam, então Melhorias de Velocidade excessivas só acabarão desperdiçando energia e durabilidade da arma."
     },
     {
       "type": "text",

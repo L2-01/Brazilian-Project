@@ -1,0 +1,39 @@
+---
+title: Armas Únicas
+icon: simplyswords:flamewind
+---
+
+<center>
+<ModAsset location="simplyswords:uniques/caelestis" width={256} />
+</center>
+
+# O que são armas Únicas?
+
+Armas Únicas são as armas mecanicamente mais elaboradas do Simply Swords. Cada uma tem um tipo de arma fixo e uma habilidade passiva, acionada ou ativa característica. Seus atributos listados são padrões totalmente despertos e podem ser alterados pela configuração.
+
+# Encontrando armas Únicas
+
+Baús elegíveis, incluindo muitos baús de estruturas de mods, podem sortear saque Único. A chance base padrão de Única é **0.05%**. A piedade por jogador começa após **25** falhas elegíveis, aumenta a chance em **0.2 pontos percentuais** por falha adicional e garante uma Única até a 75ª falha elegível. O progresso de piedade pertence ao jogador individual, tornando-o adequado para servidores multiplayer com jogadores em estágios diferentes de progressão.
+
+O Wither e o Dragão Ender têm chances separadas padrão de Única de **5%** e **50%**. A injeção de saque em vilas vem desativada por padrão. Todas as chances, tabelas elegíveis, armas desativadas e limites de piedade são configuráveis.
+
+As Únicas de obtenção natural começam no nível de Despertar 0 quando o despertar está habilitado. Restaure-as com até oito Tábuas Rúnicas numa Forja Rúnica.
+
+# Remanescentes Contidos
+
+Usar um Remanescente Contido num bloco temático correspondente produz uma arma Única determinística. Segure o remanescente para receber dicas próximas. Exemplos incluem um Bloco de Ferro para a Mjolnir, uma Lâmpada de Cobre para o Fio da Tempestade, uma Moldura de Portal do End para a Caelestis e Fogo de Almas para uma Lâmina do Lich Adormecida.
+
+# Reparo e testes
+
+As armas Únicas nativas usam Tábuas Rúnicas para reparo. Operadores podem testar o fluxo de saque configurado sem alterar a piedade dos jogadores executando:
+
+```
+/simplyswords loot_test <loot_table_id> <rolls>
+```
+
+Para testes em recipientes ao vivo, `/simplyswords loot_test_chest <loot_table_id> [count]`
+fornece baús alimentados por tabela de itens. `/simplyswords pity ignore_regions true` permite
+que baús novos colocados repetidamente num mesmo local avancem a piedade durante a
+sessão de login atual; `/simplyswords pity status` exibe os contadores ao vivo.
+
+Habilidades Únicas e poderes de gema encaixados escalam com o despertar. A habilidade fica selada até o nível de Despertar 4 por padrão; consulte a seção Despertar e Forja Rúnica para detalhes completos.

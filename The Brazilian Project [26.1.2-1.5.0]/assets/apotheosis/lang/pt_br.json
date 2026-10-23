@@ -96,7 +96,7 @@
     "misc.apotheosis.affix_name.two": "%s %s",
     "misc.apotheosis.affix_name.three": "%s %s %s",
     "misc.apotheosis.affix_name.four": "%s %s %s %s",
-    "misc.apotheosis.affix_bounds": "[%s - %s]",
+    "misc.apotheosis.affix_bounds": "[%s\u00A0-\u00A0%s]",
 
     "misc.apotheosis.attribute_toggle.updated": "Os bônus de %s agora estão %s",
     "misc.apotheosis.attribute_toggle.none": "Suas botas não têm um afixo de alternância de atributos.",
@@ -884,7 +884,7 @@
     "advancements.apotheosis.epic": "Épico!",
     "advancements.apotheosis.epic.desc": "Encontre um item de Afixo Épico.",
 
-    "advancements.apotheosis.mythic": "Forjado Pelos Titãs",
+    "advancements.apotheosis.mythic": "Forjado pelos Titãs",
     "advancements.apotheosis.mythic.desc": "Encontre um item de Afixo Mítico.",
 
     "advancements.apotheosis.ancient": "Tesouros Perdidos dos Deuses",
@@ -962,8 +962,8 @@
     "name.apotheosis.eternal_vigilance": "Vigilância Eterna",
 
     "info.apoth.modifier_disabled": "Este Modificador está desativado",
-    "itemGroup.apotheosis.adventure": "Apotheosis: Adventure Module",
-    "itemGroup.apotheosis.ench": "Apotheosis: Enchanting Module",
+    "itemGroup.apotheosis.adventure": "Apotheosis: Módulo de Aventura",
+    "itemGroup.apotheosis.ench": "Apotheosis: Módulo de Encantamento",
     "config.jade.plugin_apotheosis.spawner": "Módulo de Gerador Apótico",
     "config.jade.plugin_apotheosis.ench": "Módulo de Encan. Apótico",
     "config.jade.plugin_apotheosis.adventure": "Módulo de Aventura Apótico",
@@ -979,16 +979,16 @@
     "subtitle.apotheosis.music_disc.glimmer": "Caner Crebes - Glimmer",
 
     "item.apotheosis.music_disc_shimmer": "Disco Musical",
-    "jukebox_song.apotheosis.shimmer": "Camareiro Kaifry - Shimmer",
+    "jukebox_song.apotheosis.shimmer": "Chamberlain Kaifry - Shimmer",
     "subtitle.apotheosis.music_disc.shimmer": "Camareiro Kaifry - Shimmer",
 
-    "painting.apotheosis.gems.title": "Gemas",
+    "painting.apotheosis.gems.title": "Gems",
     "painting.apotheosis.gems.author": "Faellynna",
 
-    "painting.apotheosis.craig.title": "Craig o Eterno",
+    "painting.apotheosis.craig.title": "Craig the Eternal",
     "painting.apotheosis.craig.author": "Astrel",
 
-    "painting.apotheosis.tower.title": "A Torre",
+    "painting.apotheosis.tower.title": "The Tower",
     "painting.apotheosis.tower.author": "Faellynna",
 
     "painting.apotheosis.enchanting_table.title": "Apothic Enchanting",

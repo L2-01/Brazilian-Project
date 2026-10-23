@@ -6,47 +6,65 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "O Gerador de Líquidos é um bloco que cria líquidos e os envia para um tanque abaixo. Funciona tanto para Lava quanto para Água.$(br2)A lã azul precisa ser de um líquido compatível e o bloco de vidro precisa ser um tanque válido (qualquer bloco que possa armazenar líquidos deve funcionar)."
+			"text": "O gerador de líquidos é um bloco que cria fluidos e os ejeta num tanque abaixo. Funciona tanto para Lava quanto para Água.$(br2)A lã azul precisa ser de um fluido compatível e o bloco de vidro precisa ser um tanque válido (qualquer bloco que armazene fluidos deve funcionar)."
 		},
 		{
-        	"type": "multiblock",
-        	"multiblock": {
-        		"pattern": [
-        			["S"],
-        			["R"],
-        			["0"],
-        			[" "]
-        		],
-        		"mapping": {
-        			"S": "minecraft:blue_wool",
-        			"R": "opolisutilities:fluid_generator",
-        			"0": "#forge:glass"
-        		}
-        	},
-        	"text": "Configuração básica do Gerador de Líquidos. Produz uma quantidade de líquido a cada 11 segundos."
-        },
+			"type": "multiblock",
+			"multiblock": {
+				"pattern": [
+					[
+						"S"
+					],
+					[
+						"R"
+					],
+					[
+						"0"
+					],
+					[
+						" "
+					]
+				],
+				"mapping": {
+					"S": "minecraft:blue_wool",
+					"R": "opolisutilities:fluid_generator",
+					"0": "#forge:glass"
+				}
+			},
+			"text": "Configuração básica do Gerador de Líquidos. Produz uma quantidade de fluido a cada 11 segundos."
+		},
 		{
-        	"type": "multiblock",
-        	"multiblock": {
-        		"pattern": [
-        		    ["B"],
-        			["S"],
-        			["R"],
-        			["0"],
-        			[" "]
-        		],
-        		"mapping": {
-        		    "B": "minecraft:gold_block",
-        			"S": "minecraft:blue_wool",
-        			"R": "opolisutilities:fluid_generator",
-        			"0": "#forge:glass"
-        		}
-        	},
-        	"text": "Blocos de velocidade podem ser colocados em cima para aumentar a velocidade de produção do líquido."
-        },
-        {
-        	"type": "text",
-        	"text": "Pressionar U no Gerador de Líquidos mostra todos os líquidos que ele pode criar, assim como os blocos que podem afetar a velocidade com que produz líquidos."
-        }
+			"type": "multiblock",
+			"multiblock": {
+				"pattern": [
+					[
+						"B"
+					],
+					[
+						"S"
+					],
+					[
+						"R"
+					],
+					[
+						"0"
+					],
+					[
+						" "
+					]
+				],
+				"mapping": {
+					"B": "minecraft:gold_block",
+					"S": "minecraft:blue_wool",
+					"R": "opolisutilities:fluid_generator",
+					"0": "#forge:glass"
+				}
+			},
+			"text": "Blocos de velocidade podem ser colocados em cima para aumentar a velocidade de produção de fluido."
+		},
+		{
+			"type": "text",
+			"text": "Pressionando U no gerador de líquidos, ele mostrará todos os fluidos que pode criar, além de quaisquer blocos que possam afetar a velocidade de produção de fluidos."
+		}
 	]
 }

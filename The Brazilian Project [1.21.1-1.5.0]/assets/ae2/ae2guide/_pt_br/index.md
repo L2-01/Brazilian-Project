@@ -8,18 +8,18 @@ navigation:
 
 # O que é o Applied Energistics 2?
 
-# Como Usar Este Guia
+# Como Usar Este Manual
 
 * Acesse a barra lateral à esquerda para encontrar um sumário
-* Muitas páginas têm cenas interativas. Se uma cena tiver ![Plus](assets/diagrams/plus.png)
+* Muitas páginas têm cenas interativas. Se uma cena tiver botões de ![Plus](assets/diagrams/plus.png)
 e ![Minus](assets/diagrams/minus.png) (zoom) ao lado, você pode girar e mover a câmera.
-Clique com o botão esquerdo e arraste para girar, clique com o botão direito e arraste para transladar.
+Clique com o esquerdo e arraste para girar, clique com o direito e arraste para mover.
 
 # O que é o Applied Energistics 2?
 
-O Applied Energistics 2 adiciona componentes e mecânicas para fornecer soluções de logística e armazenamento. Você pode substituir sua
-enorme sala cheia de baús por uma compacta Rede ME, mas isso é só o começo das coisas.
-O Applied Energistics foi feito para funcionar com e permitir a automação de outros mods num modpack. Você pode configurar seu sistema para,
+Applied Energistics 2 adiciona componentes e mecânicas para fornecer soluções de logística e armazenamento. Você pode substituir sua
+sala gigante cheia de baús por uma Rede ME compacta, mas isso é só o começo.
+Applied Energistics foi feito para funcionar com outros mods de um modpack e permitir automatizá-los. Você pode configurar seu sistema para,
 com um único clique, fabricar todos os pré-requisitos (e o resultado final) de uma cadeia de fabricação complexa, ou manter certas
 quantidades de itens em estoque, fabricando mais conforme necessário, ou simplesmente transferir itens pela sua base.
 

@@ -45,8 +45,8 @@ uma conversão transgressora de fronteiras para você, e depois voltará a ser u
 | Para-Raios | Célula de Raios de Alta Tensão Infinita |
 | Condensado de Tempestade | Célula de Raios de Altíssima Tensão Infinita |
 | Matriz de Colapso de Raios | Célula de Matriz de Colapso de Raios Infinita |
-| Célula de Armazenamento de Raios em Massa | Célula de Armazenamento Infinita |
-| Núcleo Principal de Sobrecarga do Vetor de Supercomputação Tianshu | Núcleo Principal Multidimensional Tianshu |
+| Componente de Armazenamento de Raios em Massa | Célula de Armazenamento Infinita |
+| Núcleo Principal de Sobrecarga Tianshu | Núcleo Principal Multidimensional Tianshu |
 | Núcleo Principal de Sobrecarga da Matriz de Deformação da Matéria Tianshu | Núcleo Principal Multidimensional da Matriz de Deformação da Matéria Tianshu |
 | Módulo de Execução de Sobrecarga | Módulo de Execução Multidimensional |
 | Módulo de Proteção contra Sobrecarga | Módulo de Proteção Multidimensional |

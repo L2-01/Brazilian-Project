@@ -1,21 +1,21 @@
 {
-  "name": "Aplicador de Camuflagem",
-  "icon": "pneumaticcraft:camo_applicator",
-  "category": "pneumaticcraft:tools",
-  "advancement": "pneumaticcraft:pressure_tube",
-  "pages": [
-    {
-      "type": "text",
-      "text": "O $(item)Aplicador de Camuflagem/$ pode ser usado para camuflar certos blocos do $(pncr):$(li)$(l:tubes/pressure_tubes)Tubos de Pressão/$(li)$(l:machines/pneumatic_door)Base de Porta Pneumática/$(li)$(l:machines/elevators)Base e Chamador de Elevador/$(li)$(l:machines/charging_station)Estação de Carga/$(li)$(l:machines/heat_pipe)Tubo de Calor/$(p)$(thing)Clique com o botão direito/$ em qualquer bloco sólido para copiar sua aparência para a ferramenta Aplicador, ou $(thing)agache e clique com o botão direito/$ para limpar o bloco copiado. "
-    },
-    {
-      "type": "text",
-      "text": "Então, $(thing)clique com o botão direito/$ em qualquer bloco camuflável (veja acima) para aplicar ou remover a camuflagem.$(p)Você precisará de um bloco de verdade no seu inventário para aplicá-lo como camuflagem, que é consumido (mas você o recupera quando remove a camuflagem).$(p)Você também pode descamuflar um bloco camuflado quebrando-o com uma picareta ou outra ferramenta adequada; a camuflagem será quebrada em vez disso."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando um Aplicador de Camuflagem",
-      "recipe": "pneumaticcraft:camo_applicator"
-    }
-  ]
+    "name": "Aplicador de Camuflagem",
+    "icon": "pneumaticcraft:camo_applicator",
+    "category": "pneumaticcraft:tools",
+    "advancement": "pneumaticcraft:pressure_tube",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O $(item)Aplicador de Camuflagem/$ pode ser usado para camuflar certos blocos do $(pncr):$(li)$(l:tubes/pressure_tubes)Tubos de Pressão/$(li)$(l:machines/pneumatic_door)Base de Porta Pneumática/$(li)$(l:machines/elevators)Base do Elevador e Chamador de Elevador/$(li)$(l:machines/charging_station)Estação de Carga/$(li)$(l:machines/heat_pipe)Tubo de Calor/$(p)$(thing)Clique com o botão direito/$ em qualquer bloco sólido para copiar sua aparência para a ferramenta Aplicador, ou $(thing)agache+clique com o botão direito/$ para limpar o bloco copiado. "
+        },
+        {
+            "type": "text",
+            "text": "Depois, $(thing)clique com o botão direito/$ em qualquer bloco camuflável (veja acima) para aplicar ou remover camuflagem.$(p)Você precisará de um bloco de verdade no seu inventário para aplicá-lo como camuflagem, que é consumido (mas você o recebe de volta ao remover a camuflagem).$(p)Você também pode remover a camuflagem de um bloco camuflado quebrando-o com uma picareta ou outra ferramenta adequada; a camuflagem será quebrada em vez disso."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Aplicador de Camuflagem",
+            "recipe": "pneumaticcraft:camo_applicator"
+        }
+    ]
 }

@@ -1,0 +1,20 @@
+{
+    "name": "Tridentes",
+    "icon": "minecraft:trident",
+    "category": "apotheosis:enchanting/changes",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Junto aos novos encantamentos, os Tridentes agora também podem receber $(9)Afiada$(), $(9)Saque$() e $(9)Perfuração$().$(p)Afiada e Saque funcionam como em espadas.$(p)Perfuração faz tridentes arremessados poderem atingir inimigos adicionais."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Criando Tridentes",
+            "item": "apotheosis:inert_trident",
+            "link_recipe": true,
+            "text": "O Apotheosis também adiciona um método de criar tridentes.$(p)Basta criar um $(9)Tridente Inerte$() e aprimorá-lo através do $(l:apotheosis:enchanting/table/infusion)Encantamento por Infusão$()."
+        }
+    ]
+}

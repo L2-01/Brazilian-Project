@@ -3,18 +3,18 @@
   "icon": "twilightdelight:twilight_rich_soil",
   "category": "twilightdelight:tricks",
   "pages": [
-	{
-	  "type": "patchouli:text",
-	  "text": "O Solo Rico do Crepúsculo acelera plantas acima e abaixo dele várias vezes por tique aleatório. O número de tentativas pode ser alterado na configuração.$(br2)Are-o com uma enxada para obter Terra Arada de Solo Rico do Crepúsculo, que acelera plantações quando totalmente úmida."
-	},
-	{
-	  "type": "patchouli:crafting",
-	  "recipe": "twilightdelight:twilight_rich_soil"
-	},
-	{
-	  "type": "patchouli:spotlight",
-	  "item": "twilightdelight:witchcraft_bone_meal",
-	  "text": "Alternativamente, use Farinha de Ossos de Feitiçaria no Solo Fértil para convertê-lo em Solo Rico do Crepúsculo.$(br2)Assim como o solo rico, ele também converte Coguvernas e Brotos de Samambaia acima dele em colônias."
-	}
+    {
+      "type": "patchouli:text",
+      "text": "O Solo Rico do Crepúsculo acelera plantas acima e abaixo dele várias vezes por tick aleatório. O número de tentativas pode ser alterado na configuração.$(br2)Are-o com uma enxada para obter Terra Arada de Solo Rico do Crepúsculo, que acelera plantações quando totalmente úmida."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "twilightdelight:twilight_rich_soil"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightdelight:witchcraft_bone_meal",
+      "text": "Alternativamente, use Farinha de Ossos de Feitiçaria em Solo Fértil para convertê-lo em Solo Rico do Crepúsculo.$(br2)Como o solo rico, ele também converte Coguvernas e Brotos de Samambaia acima dele em colônias."
+    }
   ]
 }

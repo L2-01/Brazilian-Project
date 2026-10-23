@@ -1,18 +1,18 @@
 {
-    "name": "Módulo de Aviso",
-    "icon": "mffs:warn_module",
-    "category": "mffs:interdiction_modules",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:warn_module",
-            "link_recipe": true,
-            "text": "O $(5)Módulo de Aviso$() pode ser colocado nos espaços de módulo de uma $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$() para enviar periodicamente um aviso a todos os jogadores não autorizados dentro de seu Alcance de Ação."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:warn_module",
-            "text": "Fabricando o $(5)Módulo de Aviso$()."
-        }
-    ]
+  "name": "Módulo de Aviso",
+  "icon": "mffs:warn_module",
+  "category": "mffs:interdiction_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:warn_module",
+      "link_recipe": true,
+      "text": "O $(5)Módulo de Aviso$() pode ser colocado nos slots de matriz de uma $(l:mffs:machines/interdiction_matrix)Matriz de Interdição$() para enviar periodicamente um aviso a todos os jogadores não autorizados dentro de seu Alcance de Ação."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:warn_module",
+      "text": "Fabricando o $(5)Módulo de Aviso$()."
+    }
+  ]
 }

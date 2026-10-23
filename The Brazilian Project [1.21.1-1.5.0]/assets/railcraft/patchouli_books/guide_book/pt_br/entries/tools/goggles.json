@@ -1,15 +1,15 @@
 {
-  "name": "Óculos de Ferroviário",
-  "icon": "railcraft:goggles",
-  "category": "railcraft:tools",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Às vezes, o mundo que você vê não é realmente tudo o que está lá. Para ajudar com esse problema trazemos a você os últimos avanços em Realidade Aumentada, os Óculos de Ferroviário! Essas lentes práticas permitem ver coisas do mundo normalmente ocultas, como os Campos do End que Ancoram nosso mundo no lugar ou os sinais que vinculam um Controlador e um Receptor. Também é possível rastrear o movimento de jogadores nos últimos 30 minutos, até mesmo de outros jogadores."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Os Óculos devem ser sintonizados na aura precisa que você deseja ver e só podem exibir uma aura por vez. Para mudar a aura atual, você precisa colocar os óculos na sua mão e clicar com o botão direito, ou mantê-los equipados e pressionar a tecla $(k:railcraft.change_aura)."
-    }
-  ]
+    "name": "Óculos de Ferroviário",
+    "icon": "railcraft:goggles",
+    "category": "railcraft:tools",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Às vezes, o mundo que você vê não é tudo o que realmente existe. Para ajudar nisso, trazemos os mais recentes avanços em Realidade Aumentada: os Óculos de Ferroviário! Essas práticas lentes permitem ver coisas do mundo normalmente escondidas, como os Campos Ender que ancoram nosso mundo no lugar ou os sinais que ligam um Controlador a um Receptor. Também é possível rastrear o movimento de jogadores nos últimos 30 minutos, até de outros jogadores."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Os Óculos devem ser sintonizados na aura exata que você deseja ver e só podem exibir uma aura por vez. Para mudar a aura atual, coloque os óculos na mão e clique com o botão direito, ou mantenha-os equipados e pressione a tecla $(k:railcraft.change_aura)."
+        }
+    ]
 }

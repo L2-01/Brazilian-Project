@@ -1,0 +1,17 @@
+{
+    "name": "Congelar",
+    "icon": "simplyswords:runic_tablet",
+    "category": "simplyswords:category_rune_etching",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:runic_tablet",
+            "title": "Congelar",
+            "text": "Congelar é um poder rúnico que imbui a arma do portador com a $(#38caff)$(l)essência de frio e gelo$(). $(br2)Concede ao portador uma chance de resfriar ou congelar seus alvos a cada golpe bem-sucedido."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Congelar é um poder rúnico poderoso que pode atrapalhar muito o fluxo da batalha e dar ao portador uma vantagem estratégica. $(br2)É ideal para personagens focados em controle de multidão e suporte, como magos, bruxos e invocadores, que podem usar o poder para imobilizar seus inimigos e dar aos aliados uma brecha para atacar."
+        }
+    ]
+}

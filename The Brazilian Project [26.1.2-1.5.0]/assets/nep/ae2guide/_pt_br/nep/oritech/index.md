@@ -12,7 +12,7 @@ navigation:
 
   <ItemImage id="oritech:particle_accelerator" scale="2"/>
 
-  Codifica as receitas de colisão do Acelerador de Partículas como padrões, e as executa num anel real através do Controlador de Colisão de Partículas, ou sem anel nenhum na Matriz de Colisão de Partículas. As outras máquinas do Oritech recebem itens por inventários comuns, então Padrões de Processamento simples já as dirigem.
+  Codifica as receitas de colisão do Acelerador de Partículas como padrões, e as executa num anel real através do Controlador de Colisão de Partículas, ou sem anel algum na Matriz de Colisão de Partículas. As outras máquinas do Oritech recebem itens por inventários comuns, então Padrões de Processamento comuns já as dirigem.
 </Column>
 
 <Recipe id="nep:module_status/oritech"/>
@@ -27,7 +27,7 @@ navigation:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-| Processo | Configuração | Padrão |
+| Processo | Preparação | Padrão |
 |---|---|---|
 | <ItemImage id="nep:particle_collision_controller" scale="0.5"/> Colisão de Partículas | Um Controlador dirigindo um Acelerador de Partículas | Padrão de Colisão de Partículas |
 | <ItemImage id="nep:particle_collision_matrix" scale="0.5"/> Colisão de Partículas | Matriz de Colisão de Partículas | Padrão de Colisão de Partículas |
@@ -44,7 +44,7 @@ navigation:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Num servidor que liga **Require Decoder**, os padrões do Oritech só codificam numa rede cujo [Decodificador de Padrões](/nep/pattern-decoder.md) carregue este módulo. Sem ele, codificam como Padrões de Processamento comuns.
+Num servidor que ativa **Exigir Decodificador**, padrões do Oritech só codificam numa rede cujo [Decodificador de Padrões](/nep/pattern-decoder.md) carrega este módulo. Sem ele, codificam como Padrões de Processamento comuns.
 
 <Recipe id="nep:oritech_encoding_module"/>
 

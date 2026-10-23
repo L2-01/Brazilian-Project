@@ -1,0 +1,17 @@
+{
+    "name": "Instável",
+    "icon": "simplyswords:runic_tablet",
+    "category": "simplyswords:category_rune_etching",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:runic_tablet",
+            "title": "Instável",
+            "text": "O Instável é um poder rúnico que imbui a arma do portador com a $(#9243a3)$(l)essência de caos$(). $(br2)Concede ao portador uma chance de aplicar periodicamente efeitos aleatórios a si mesmo."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Tenha em mente que este poder é altamente imprevisível, pois também pode ter efeitos negativos. $(br2)É ideal para jogadores que gostam de correr riscos e ser surpreendidos pelo resultado, mas não é recomendado para jogadores que preferem consistência em batalha."
+        }
+    ]
+}

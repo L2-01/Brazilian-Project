@@ -6,15 +6,15 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "As máquinas simples geralmente têm os seguintes controles.$(br2)$(l)Botão de Redstone$()$(br2)O botão de redstone controla quando a máquina roda. Por padrão, a redstone é ignorada, ou seja, a máquina sempre roda.$(br2)Baixo significa que a máquina só rodará quando NÃO estiver recebendo sinal de redstone."
+      "text": "As máquinas simples normalmente têm os seguintes controles.$(br2)$(l)Botão de Redstone$()$(br2)O botão de redstone controla quando a máquina funciona. Por padrão, a redstone é ignorada, ou seja, a máquina funciona sempre.$(br2)Baixo significa que a máquina só funciona quando NÃO está recebendo sinal de redstone."
     },
     {
       "type": "patchouli:text",
-      "text": "Alto significa que a máquina só rodará quando estiver recebendo sinal de redstone.$(br2)Por fim, pulso fará a máquina realizar uma única operação por pulso de redstone. Para máquinas simples, isso geralmente significa fazer 1 coisa, como quebrar 1 bloco. Para máquinas avançadas, pode significar quebrar todos os blocos na sua área."
+      "text": "Alto significa que a máquina só funciona quando está recebendo sinal de redstone$(br2)Por fim, pulso faz a máquina executar uma única operação por pulso de redstone. Para máquinas simples, isso geralmente significa fazer 1 coisa, como quebrar 1 bloco. Para máquinas avançadas, pode significar quebrar todos os blocos da área."
     },
     {
       "type": "patchouli:text",
-      "text": "$(l)Botão Velocidade(tiques)$()$(br2)É a frequência com que a máquina roda enquanto ativa. Quando definido no padrão (20), ela opera uma vez por segundo (ou 20 tiques).$(br2)Pode ser reduzido até 1, significando que ela operará a cada tique (ou 20 vezes por segundo), mas evite fazer isso a menos que seja estritamente necessário, pois pode contribuir para travamentos."
+      "text": "$(l)Botão Velocidade(ticks)$()$(br2)Define com que frequência a máquina opera enquanto ativa. No padrão (20), ela opera uma vez por segundo (ou 20 ticks).$(br2)Pode ser reduzido até 1, fazendo-a operar a cada tick (20 vezes por segundo), mas evite isso a menos que seja realmente necessário, pois pode contribuir para lag."
     }
   ]
 }

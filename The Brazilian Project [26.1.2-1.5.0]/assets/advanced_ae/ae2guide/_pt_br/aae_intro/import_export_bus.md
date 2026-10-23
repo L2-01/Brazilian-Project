@@ -16,4 +16,4 @@ item_ids:
 </GameScene>
 
 O Ponto de Importação/Exportação é uma mistura de um <ItemLink id="ae2:import_bus" /> e um <ItemLink id="ae2:export_bus" />. O
-filtro pode ser definido para configurar as pilhas exportadas. Qualquer coisa fora do filtro é uma pilha válida para ser importada.
+filtro pode ser configurado para definir as pilhas exportadas. Qualquer coisa que não esteja no filtro é uma pilha válida para ser importada.

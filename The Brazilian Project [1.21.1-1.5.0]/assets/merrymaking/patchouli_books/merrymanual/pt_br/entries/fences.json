@@ -1,45 +1,35 @@
 {
-
-"name": "Cercas de Estacas e Portões",
-    "icon": "minecraft:writable_book",
-    "category": "merrymaking:fences",
-    "pages": [
-	
-	{
-			"type": "patchouli:image",
-			
-			"images": ["merrymaking:textures/gui/fence.png"],
-			"text": "Cerca de Estacas de Carvalho Decorada!"
-		},
-	
-		{
-			"type": "spotlight",
-			"item": "merrymaking:oak_picket_fence",			
-			"text": "A Cerca de Estacas é um tipo especial de bloco de cerca decorativo. Ela tem um portão correspondente e vem em todas as cores de madeira vanilla.$(br2)Essas belas cercas podem ser decoradas com vegetação e luzes para enfeitá-las para as festas."
-		},
-		
-		{
-			"type": "text",
-			"text": "Para decorar uma Cerca de Estacas, combine-a com qualquer tipo de Festão Horizontal numa bancada de trabalho. $(br2)O Portão de Cerca de Estacas pode ser combinado com uma guirlanda de sua escolha como decoração."
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Cercas de Estacas",
-			"recipe": "merrymaking:oak_picket_fence",
-			"recipe2": "merrymaking:cherry_picket_fence_gate"	
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Cercas de Estacas Decoradas",
-			"recipe": "merrymaking:jungle_wreath_lights_multi_fence",
-			"recipe2": "merrymaking:birch_wreath_fence_gate"	
-		}
-		
-		
-		
-		]
-	
-	
+  "name": "Cercas de Estacas e Portões",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:fences",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/fence.png"
+      ],
+      "text": "Cerca de Estacas de Carvalho Decorada!"
+    },
+    {
+      "type": "spotlight",
+      "item": "merrymaking:oak_picket_fence",
+      "text": "A Cerca de Estacas é um tipo decorativo especial de bloco de cerca. Tem um portão combinando e vem em todas as cores de madeira vanilla.$(br2)Essas belas cercas podem ser decoradas com verde e luzes para enfeitá-las para as festas."
+    },
+    {
+      "type": "text",
+      "text": "Para decorar uma Cerca de Estacas, combine-a com qualquer tipo de Festão Horizontal numa bancada de trabalho. $(br2)O Portão de Cerca de Estacas pode ser combinado com uma guirlanda à sua escolha para decoração."
+    },
+    {
+      "type": "crafting",
+      "title": "Cercas de Estacas",
+      "recipe": "merrymaking:oak_picket_fence",
+      "recipe2": "merrymaking:cherry_picket_fence_gate"
+    },
+    {
+      "type": "crafting",
+      "title": "Cercas de Estacas Decoradas",
+      "recipe": "merrymaking:jungle_wreath_lights_multi_fence",
+      "recipe2": "merrymaking:birch_wreath_fence_gate"
+    }
+  ]
 }

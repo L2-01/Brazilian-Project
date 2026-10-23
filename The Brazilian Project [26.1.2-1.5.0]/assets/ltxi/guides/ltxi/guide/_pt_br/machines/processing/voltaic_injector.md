@@ -14,10 +14,10 @@ item_ids:
 
 ## Sobre
 
-Bombardeia material com um feixe de voltagem extremamente alta. Ele pode forçar mutações de certos corantes em pigmentos especiais,
-cortar materiais de minério limpos e tornar o vidro de titânio azul.
+Bombardeia material com um feixe de voltagem extremamente alta. Pode forçar mutações de certos corantes em pigmentos
+especiais, cortar materiais de minério limpos e azular vidro de titânio.
 
-## Especificação de Receita
-- Tempo base de fabricação: varia, por padrão 10 segundos
+## Especificação da Receita
+- Tempo base de fabricação: varia, 10 segundos por padrão
 - Entradas: 1 item
 - Saídas: 1-3 itens

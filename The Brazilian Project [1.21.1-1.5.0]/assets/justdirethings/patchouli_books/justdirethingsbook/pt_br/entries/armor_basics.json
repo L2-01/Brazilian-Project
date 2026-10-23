@@ -1,24 +1,24 @@
 {
-  "name": "Noções de Armadura",
+  "name": "Básico de Armadura",
   "sortnum": 0,
   "category": "justdirethings:armor",
   "icon": "justdirethings:ferricore_chestplate",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Cada nível de recurso tem um conjunto equivalente de Armadura. Cada uma dessas armaduras tem um conjunto de $(l:justdirethings:upgrades)Melhorias$(/l) disponíveis.$(br2)Confira quais melhorias estão disponíveis para as ferramentas olhando a dica delas enquanto segura \"shift\"."
+      "text": "Cada nível de recurso tem um conjunto equivalente de Armadura. Essas armaduras têm um conjunto de $(l:justdirethings:upgrades)Melhorias$(/l) disponíveis.$(br2)Veja quais melhorias estão disponíveis olhando a dica de ferramenta da peça enquanto segura 'Shift'."
     },
     {
       "type": "patchouli:text",
-      "text": "Para instalar melhorias, fabrique o item de melhoria apropriado e coloque sua armadura e o item de melhoria numa bancada de ferraria.$(br2)Use os moldes de melhoria para avançar de um nível ao próximo, mantendo suas melhorias instaladas."
+      "text": "Para instalar melhorias, fabrique o item de melhoria adequado e depois coloque sua armadura e o item de melhoria em uma mesa de ferraria.$(br2)Use os moldes de melhoria para subir de um nível para o próximo, mantendo as melhorias instaladas."
     },
     {
       "type": "patchouli:text",
-      "text": "Shift + clique em qualquer ferramenta na sua mão para configurá-la. Você pode então clicar na sua armadura nessa tela para acessar as melhorias dela. Daí, você pode ativar ou desativar melhorias específicas clicando nelas.$(br2)Clique com o botão direito na melhoria para mudar algumas configurações (se houver) ou atribuir uma tecla de atalho. Se a habilidade for passiva, o atalho alterna sua ativação. Se for ativa, o atalho a dispara."
+      "text": "Dê Shift-Clique em qualquer ferramenta na sua mão para configurá-la. Você pode então clicar na sua armadura nessa tela para acessar as melhorias dela. Daqui, você pode ligar ou desligar melhorias específicas clicando nelas.$(br2)Clique com o botão direito na melhoria para alterar algumas configurações (se houver) ou atribuir uma tecla de atalho. Se a habilidade for passiva, a tecla alterna sua ativação. Se for ativa, a tecla a dispara."
     },
     {
       "type": "patchouli:text",
-      "text": "Habilidades ativas, como invulnerabilidade, precisam ser atribuídas a uma tecla de atalho. Veja a entrada $(l:justdirethings:upgrade_basics)Noções de Melhoria$(/l) para mais detalhes sobre esse sistema.$(br2)A armadura pode ser melhorada na bancada de ferraria (confira a receita no JEI) e manterá as melhorias instaladas quando fabricada dessa forma."
+      "text": "Habilidades ativas, como a invulnerabilidade, precisam ser atribuídas a uma tecla de atalho. Veja a entrada $(l:justdirethings:upgrade_basics)Básico de Melhorias$(/l) para mais detalhes sobre esse sistema.$(br2)A armadura pode ser melhorada na mesa de ferraria (confira a receita no JEI) e manterá as melhorias instaladas ao ser fabricada dessa forma."
     }
   ]
 }

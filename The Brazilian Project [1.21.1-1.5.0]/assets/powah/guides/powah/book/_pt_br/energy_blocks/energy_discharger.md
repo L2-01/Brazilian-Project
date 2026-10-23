@@ -18,9 +18,9 @@ item_ids:
 
 ![](./energy_discharger.png)
 
-O Descarregador de Energia é um bloco usado para drenar energia (FE) de itens carregados e, em seguida, armazená-la em uma reserva interna se conectado por meio de cabos para extrair a energia armazenada e reutilizá-la novamente. 
+O Descarregador de Energia é um bloco usado para drenar energia (FE) de itens carregados e armazená-la num buffer interno; quando conectado por cabos, essa energia armazenada pode ser extraída e reutilizada. 
 
-|                                                    | Capacidade                                                     | E/S Máximo                                                  |
+|                                                    | Capacidade                                                       | E/S Máx.                                                     |
 | -------------------------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------- |
 | <ItemLink id="powah:energy_discharger_starter" />  | <powah:EnergyCapacity id="powah:energy_discharger_starter" />  | <powah:EnergyMaxIO id="powah:energy_discharger_starter" />  |
 | <ItemLink id="powah:energy_discharger_basic" />    | <powah:EnergyCapacity id="powah:energy_discharger_basic" />    | <powah:EnergyMaxIO id="powah:energy_discharger_basic" />    |

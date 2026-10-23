@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "O $(item)Compressor de Líquidos Avançado/$ é a versão $(l:base_concepts/pressure_tiers)nível 2/$ do $(l:compressors/liquid_compressor)Compressor de Líquidos/$, com pressão máxima segura de 20 bar. Ele gera 50mL de ar/tique base e pode ser aprimorado com $(l:base_concepts/upgrades#speed)Melhorias de Velocidade/$.$(p)Porém, este gerador precisa ser $(l:base_concepts/heat)resfriado/$, pois sua eficiência cairá conforme a temperatura sobe, até o ponto em que nenhum ar é gerado."
+      "text": "O $(item)Compressor de Líquidos Avançado/$ é a versão $(l:base_concepts/pressure_tiers)nível 2/$ do $(l:compressors/liquid_compressor)Compressor de Líquidos/$, com pressão máxima segura de 20 bar. Ele gera uma base de 50mL de ar/tick, e pode ser aprimorado com $(l:base_concepts/upgrades#speed)Melhorias de Velocidade/$.$(p)Porém, este gerador precisa ser $(l:base_concepts/heat)resfriado/$, pois sua eficiência cai conforme a temperatura sobe, até o ponto em que nenhum ar é gerado."
     },
     {
       "type": "crafting",

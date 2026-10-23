@@ -38,7 +38,7 @@ Ela pode executar muitos trabalhos de fabricação ao mesmo tempo (com <ItemLink
 
 É um prisma retangular, com arestas de comprimento entre 3 e 7. 
 - As arestas são compostas de Estrutura da Matriz de Montagem.
-- As faces são compostas de Parede/Vidro da Matriz de Montagem.
+- As faces são compostas de Parede da Matriz de Montagem ou Vidro da Matriz de Montagem.
 - O interior é composto de Núcleo de Padrões/Fabricação/Velocidade da Matriz de Montagem.
 
 Uma Matriz de Montagem válida deve conter pelo menos um núcleo de padrões e um núcleo de fabricação.

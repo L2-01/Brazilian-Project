@@ -1,0 +1,37 @@
+{
+    "name": "Modificadores de Geradores",
+    "icon": "minecraft:clock",
+    "category": "apotheosis:spawner/spawner",
+    "flag": "apotheosis:spawner",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Depois de ler sobre os $(l:apotheosis:spawner/stats)Atributos de Gerador$(), você pode estar se perguntando como alterá-los.$(p)Entram em cena os $(9)Modificadores de Geradores$(), um sistema para editar geradores.$(p)Um modificador consiste em até dois itens e produz uma certa mudança nos atributos do gerador."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Vendo Modificadores",
+            "text": "Todos os modificadores são visíveis no JEI.$(p)Podem ser acessados olhando os usos e as receitas dos $(9)Geradores de Criaturas$(), ou os usos dos itens modificadores.$(p)Há muitas dicas de ferramenta lá, então explore."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Notação",
+            "text": "No JEI, as mudanças de atributos são anotadas como$(br)$(9)+/- X Atributo$().$(p)Alguns atributos não têm valores numéricos, então aparecem como $(9)+/- Atributo$().$(p)Nas dicas de ferramenta, atributos não numéricos só aparecem quando habilitados."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Limites dos Modificadores",
+            "text": "Certos modificadores não podem reduzir ou aumentar atributos além de certo valor.$(p)Isso será anotado na dica de ferramenta daquele atributo no JEI.$(p)Esses limites são específicos de cada modificador, então um modificador pode ter um limite diferente de outro para o mesmo atributo."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Aplicando Modificadores",
+            "text": "Para aplicar um modificador, basta segurar os itens correspondentes nas mãos e clicar com o botão direito no $(9)Gerador de Criaturas$().$(p)Se a modificação for bem-sucedida, os itens serão consumidos.$(p)O item principal sempre é consumido, mas o secundário pode não ser."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Embora o JEI diga que os itens devem ser segurados em mãos específicas, isso não é necessário.$(p)Você pode aplicar um modificador segurando os itens em qualquer mão."
+        }
+    ]
+}

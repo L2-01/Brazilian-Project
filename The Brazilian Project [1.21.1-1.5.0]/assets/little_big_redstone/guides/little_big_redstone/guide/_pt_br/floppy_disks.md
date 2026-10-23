@@ -59,20 +59,21 @@ item_ids:
 	</PaddedBox>
 </FloatingColumn>
 
-Disquetes permitem que você armazene o programa em um [Microchip](microchips.md) e o instale em outro microchip
+Os disquetes permitem guardar o programa de um [Microchip](microchips.md) e depois instalá-lo em outro microchip
 com facilidade.
 
-Pressionando **<KeyBind id="key.sneak" />** + **<KeyBind id="key.use" />** em um microchip enquanto segura um disquete,
-ele armazenará o programa do microchip no disquete.
+Ao pressionar **<KeyBind id="key.sneak" />** + **<KeyBind id="key.use" />** num microchip segurando um disquete,
+o programa do microchip será guardado no disquete.
 
-Depois que um programa for armazenado no disquete, você pode pressionar **<KeyBind id="key.use" />** em um microchip para instalá-lo,
-desde que você tenha os componentes lógicos e os bits de redstone necessários. Os itens em [Matrizes Lógicas](logic_arrays.md)
-contam como itens em seu inventário para fins de instalação de programas. Os itens necessários para instalar o programa serão
-exibidos acima da barra de acesso rápido ao olhar para um microchip com um disquete na mão.
+Depois que um programa for guardado no disquete, você pode pressionar **<KeyBind id="key.use" />** num microchip para
+instalá-lo, desde que tenha os componentes lógicos e os bits de redstone necessários. Isso também pode ser feito ao
+segurar um disquete na mão secundária enquanto coloca um microchip. Itens em [Matrizes Lógicas](logic_arrays.md)
+contam como itens do seu inventário para instalar programas. Os itens necessários para instalar o programa são
+exibidos acima da hotbar ao olhar para um microchip com um disquete na mão.
 
-Os programas podem ser salvos e carregados de e para o seu computador local também! Abra o menu para isso pressionando
-**<KeyBind id="key.use" />** enquanto segura um disquete (e não estiver olhando para um microchip). O botão "Salvar" salvará
-o programa atualmente armazenado em um arquivo com o nome que você fornecer na caixa de texto "Nome do Programa". Da mesma forma, o botão
-"Carregar" carregará o programa do arquivo com o nome fornecido. Se não houver um arquivo existente com este nome, o botão
-"Carregar" não poderá ser clicado. Programas salvos são armazenados no diretório **/little_big_redstone/microchips**
-do seu diretório do jogo. Esses arquivos são acessíveis entre mundos e servidores.
+Os programas também podem ser salvos e carregados do seu computador local! Abra o menu para isso pressionando
+**<KeyBind id="key.use" />** segurando um disquete (sem olhar para um microchip). O botão "Salvar" salvará o
+programa atualmente guardado num arquivo com o nome que você digitar na caixa de texto "Nome do Programa". Da mesma
+forma, o botão "Carregar" carregará o programa do arquivo com o nome informado. Se não existir um arquivo com esse
+nome, o botão "Carregar" não ficará clicável. Os programas salvos ficam no diretório **/little_big_redstone/microchips**
+do diretório do seu jogo. Esses arquivos são acessíveis entre mundos e servidores.

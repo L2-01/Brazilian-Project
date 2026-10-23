@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: Guia
+  title: Manual
   icon: guide
 categories:
 - tools

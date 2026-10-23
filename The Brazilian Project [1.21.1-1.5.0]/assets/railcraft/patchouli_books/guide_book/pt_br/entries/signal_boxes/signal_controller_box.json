@@ -1,15 +1,15 @@
 {
-  "name": "Caixa Controladora de Sinal",
-  "icon": "railcraft:signal_controller_box",
-  "category": "railcraft:signal_boxes",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Esta caixa pode ser colocada ao lado de uma Caixa Receptora de Sinal e então enviará o Aspecto de Sinal da Caixa Receptora para um Receptor emparelhado. Múltiplas Caixas Controladoras podem ser colocadas ao lado de uma única Caixa Receptora. Isso permite que um único Sinal de Bloco controle múltiplos Motores de Desvio ou Sinais Distantes.$(br2)Colocar duas Caixas Receptoras ao lado de uma Caixa Controladora fará com que a Caixa Controladora envie o Aspecto de Sinal mais restritivo entre os dois. Além disso, ela pode ser energizada via Redstone para emitir um Aspecto escolhido via GUI."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Ela não ativará com a corrente de Redstone emitida diretamente de uma Caixa Receptora de Sinal. No entanto, ela sempre emitirá o Aspecto mais restritivo entre o escolhido na GUI e o recebido de uma Caixa Receptora. Você não pode vincular um controlador a dois receptores. Colocar um receptor ao lado de um controlador fará o receptor dar informações ao controlador, mas não os vinculará de fato."
-    }
-  ]
+    "name": "Caixa Controladora de Sinal",
+    "icon": "railcraft:signal_controller_box",
+    "category": "railcraft:signal_boxes",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Esta caixa pode ser colocada ao lado de uma Caixa Receptora de Sinal e enviará o Aspecto de Sinal da Caixa Receptora para um Receptor pareado. Várias Caixas Controladoras podem ser colocadas ao lado de uma única Caixa Receptora. Isso permite que um único Sinal de Bloco controle vários Motores de Mudança ou Sinais Distantes.$(br2)Colocar duas Caixas Receptoras ao lado de uma Caixa Controladora fará a Controladora enviar o Aspecto de Sinal mais restritivo entre as duas. Além disso, ela pode ser energizada via Redstone para emitir um Aspecto escolhido na interface."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Ela não se ativa com a corrente de redstone emitida diretamente por uma Caixa Receptora de Sinal. Porém, sempre emitirá o Aspecto mais restritivo entre o escolhido na interface e o recebido de uma Caixa Receptora. Você não pode vincular um controlador a dois receptores. Colocar um receptor ao lado de um controlador fará o receptor fornecer informação ao controlador, mas não os vinculará de fato."
+        }
+    ]
 }

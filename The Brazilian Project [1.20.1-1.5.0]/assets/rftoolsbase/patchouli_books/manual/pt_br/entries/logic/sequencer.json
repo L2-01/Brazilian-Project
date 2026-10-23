@@ -8,11 +8,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "O Sequenciador é um bloco versátil que pode gerar sequências específicas de sinal de redstone com base em outras entradas de redstone. Ele funciona selecionando 64 saídas de redstone diferentes. Sempre que uma sequência é executada, ele define a saída de redstone deste bloco para esse padrão em sequência$(br2)Existem 7 modos diferentes:"
+      "text": "O Sequenciador é um bloco versátil que pode gerar sequências específicas de sinal de redstone baseadas em outras entradas de redstone. Ele funciona selecionando 64 saídas de redstone diferentes. Sempre que uma sequência roda, ele define a saída de redstone deste bloco para esse padrão em sequência$(br2)Existem 7 modos diferentes:"
     },
     {
       "type": "text",
-      "text": "$(li)$(d)Once1: $()Cicla uma vez. Ignora sinais até terminar$(/li)$(li)$(d)Once2: $()Cicla uma vez. Reinicia o ciclo com um novo sinal$(/li)$(li)$(d)Loop1: $()Loop contínuo. Ignora sinais de redstone$(/li)$(li)$(d)Loop2: $()Loop contínuo. Um sinal reinicia o ciclo para o início$(/li)$(li)$(d)Loop3: $()Loop contínuo enquanto habilitado. Permanece no passo atual se desabilitado$(/li)$(li)$(d)Loop4: $()Loop contínuo enquanto habilitado. Volta ao início se desabilitado$(/li)$(li)$(d)Step: $()Executa um passo do ciclo a cada sinal$(/li)"
+      "text": "$(li)$(d)Once1: $()Executa o ciclo uma vez. Ignora sinais até terminar$(/li)$(li)$(d)Once2: $()Executa o ciclo uma vez. Reinicia o ciclo em novo sinal$(/li)$(li)$(d)Loop1: $()Loop contínuo. Ignora sinais de redstone$(/li)$(li)$(d)Loop2: $()Loop contínuo. Sinal reinicia o ciclo do início$(/li)$(li)$(d)Loop3: $()Loop contínuo enquanto ativado. Permanece no passo atual se desativado$(/li)$(li)$(d)Loop4: $()Loop contínuo enquanto ativado. Reinicia do início se desativado$(/li)$(li)$(d)Step: $()Executa um passo do ciclo a cada sinal$(/li)"
     }
   ]
 }

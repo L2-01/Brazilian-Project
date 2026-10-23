@@ -1,0 +1,91 @@
+---
+title: Centro de Aumentação Cibernética
+id: oritech:cybernetic_augmentation_center
+type: block
+custom:
+    Capacidade de RF: "500,000,000"
+    Entrada máx. de RF: "50,000,000"
+    Núcleos necessários: "10"
+    Espaços de estação de pesquisa: "3"
+---
+
+O Centro de Aumentação Cibernética é a principal instalação para
+pesquisar e instalar melhorias permanentes no seu corpo.
+Essas aumentações fornecem vários benefícios, desde
+bônus passivos de atributos até habilidades totalmente novas.
+
+<Callout variant="warning">
+    Parabéns! Se **a partir do momento em que você compreendeu a fraqueza da sua carne, ela o enojou**,
+    então você é o nosso cliente ideal. Você anseia pela força e pela certeza do aço, e a *Oritech Inc*
+    terá prazer em atendê-lo.
+
+    Lembre-se de que, uma vez que você aspire à pureza da máquina abençoada, não há mais volta.
+    Todas as aumentações são permanentes e podem causar um impulso inexplicável de se referir aos
+    seus antigos semelhantes como "biomassa bruta".
+</Callout>
+
+
+---
+
+# Pesquisa e Desenvolvimento
+
+Para começar, entre no **Centro de Aumentação Cibernética** montado.
+Isso abre a interface de pesquisa, onde você pode explorar e iniciar projetos.
+Cada aumentação exige energia e recursos específicos, retirados do seu inventário pessoal ou
+do armazenamento interno da máquina (acessível pela interface).
+
+Muitas melhorias de nível alto exigem pesquisas anteriores, como mostrado na árvore tecnológica.
+
+O centro funciona como um núcleo para as **Estações de Pesquisa**, construídas como extensões multibloco. A unidade principal suporta
+até **três estações**, permitindo processamento paralelo.
+*   Cada estação requer **3 Núcleos de Máquina**.
+*   Uma estação conduz uma tarefa de pesquisa ativa por vez.
+
+<center>
+<ModAsset location="oritech:area/cyborg_research_ui" width={700} />
+</center>
+
+<Callout variant="info">
+    Os aumentos pesquisados ficam armazenados localmente na memória da máquina. Se o centro for
+    destruído, todo o progresso de pesquisa e os projetos não aplicados serão perdidos.
+</Callout>
+
+---
+
+# Aplicação e Controle
+
+Quando uma pesquisa é concluída, a aumentação fica disponível para instalação. O procedimento exige um custo único de recursos
+para fundir permanentemente a tecnologia ao seu jogador.
+
+Se você já tiver aumentações instaladas, pode carregá-las na máquina usando a função **Importar**
+(botão inferior esquerdo da interface).
+
+**Gerenciamento de Aumentações**:
+Suas melhorias foram feitas para serem permanentes: elas não exigem manutenção nem custo contínuo de energia.
+Porém, se uma habilidade se mostrar inconveniente (como **Visão dos Minérios** ou **Hipervelocidade**), ela pode ser alternada à vontade.
+
+*   **Menu de Alternância**: segure a tecla de aumentação (**[G]** por padrão) para abrir a interface radial. Passe o mouse sobre o
+aumento desejado e solte para alternar o estado dele.
+*   **Remoção**: embora as aumentações sejam feitas para serem permanentes, elas podem ser removidas se necessário.
+Note que os recursos investidos na instalação não são reembolsáveis.
+
+<center>
+<ModAsset location="oritech:area/cyborg_ui" width={700} />
+</center>
+
+---
+
+**Informações para Desenvolvedores de Modpacks**
+
+As aumentações do Oritech são totalmente orientadas a dados e configuráveis, permitindo ampla personalização por datapacks.
+
+*   **Aumentos de Modificador**: alteram atributos de entidades (ex.: velocidade, alcance, vida).
+*   **Aumentos de Efeito**: aplicam efeitos de status semelhantes a poções.
+*   **Aumentos Personalizados**: implementam lógica única (ex.: Visão dos Minérios). Eles podem ser referenciados em datapacks, mas exigem um mod
+Java para a lógica subjacente.
+
+Os aumentos existentes podem ser modificados ou desativados, e novos podem ser definidos via JSON.
+*   **Exemplo de Definição**: [Aumento de Dano de Ataque (GitHub)](https://github.com/Rearth/Oritech/blob/1.21/fabric/src/main/generated/data/oritech/recipe/augment/attackdamage.json)
+*   **Local das Texturas**: `oritech/textures/gui/augment`
+
+Lembre-se de incluir entradas de tradução para quaisquer adições personalizadas.

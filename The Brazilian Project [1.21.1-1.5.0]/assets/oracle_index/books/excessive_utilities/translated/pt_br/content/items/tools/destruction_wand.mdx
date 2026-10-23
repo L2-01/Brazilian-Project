@@ -1,0 +1,19 @@
+---
+title: Varinha da Destruição
+id: excessive_utilities:destruction_wand
+related_items: excessive_utilities:destruction_wand
+type: item
+---
+A **Varinha da Destruição**, quando segurada em qualquer mão, permite quebrar vários blocos de uma vez. Ela usa o item da sua mão principal para isso, então é melhor usada na mão secundária com uma ferramenta de verdade na mão principal.
+
+Ela só quebra blocos do mesmo tipo daquele para o qual você está olhando. Ela também só procura ao longo da mesma face para a qual você está olhando, a menos que esteja agachado.
+
+Enquanto segura a Varinha da Destruição, ela renderiza uma estrutura de arame de todos os outros blocos que serão quebrados.
+
+Ela pode quebrar até 9 blocos de uma vez, com base nos blocos mais próximos daquele para o qual você está olhando.
+
+## Configuração
+
+A quantidade máxima de blocos quebrados é definida pelo Componente de Dados `excessive_utilities:amount_blocks` do item, em vez de uma opção de configuração.
+
+Por exemplo, `/give @s excessive_utilities:destruction_wand[excessive_utilities:amount_blocks=9999]` daria a você uma Varinha da Destruição capaz de quebrar até 9999 blocos de uma vez.

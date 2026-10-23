@@ -10,17 +10,17 @@ item_ids:
 
 # Painel Solar de Celestigema
 
-Um painel solar que gera Energia Forge
+Um painel solar que gera Forge Energy.
 
-Taxa padrão de FE Máx : **3840**
+Taxa máxima de FE padrão : **3840**
 
-**Condições Padrão:**
+**Condições padrão:**
 
-- Ver o céu = true
-- Quanto mais painéis solares estiverem próximos uns dos outros, mais produzirão
+- Ver o céu = verdadeiro
+- Quanto mais painéis solares próximos uns dos outros, mais produzem
 
 <BlockImage id="justdynathings:celestigem_solar_panel" scale="4.0"/>
 
 <Recipe id="justdynathings:celestigem_solar_panel" />
 
-_Nota: Tudo pode ser modificado via configs, então não confie totalmente!_
+_Nota: tudo pode ser modificado via configurações, então não confie totalmente!_

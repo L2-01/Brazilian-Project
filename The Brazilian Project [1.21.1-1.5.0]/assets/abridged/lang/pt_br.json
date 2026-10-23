@@ -3,5 +3,18 @@
     "config.abridged.option.frequency": "Frequência",
     "config.abridged.option.frequency.tooltip": "A chance de uma ponte ser posicionada quando uma posição válida é encontrada.",
     "config.abridged.option.directly_sample_heightmap": "Amostrar Diretamente o Mapa de Altura",
-    "config.abridged.option.directly_sample_heightmap.tooltip": "Amostra diretamente o mapa de altura ao verificar uma configuração de ponte válida.\n\nPor padrão, isto está desativado e uma aproximação do mapa de altura é usada com o campo `depth` no roteador de ruído.\n\nA aproximação é muito mais eficiente e aumenta os posicionamentos de ponte bem-sucedidos, mas pode falhar em circunstâncias estranhas (p. ex., ao usar Tectonic ou o tipo de mundo Amplificado)."
+    "config.abridged.option.directly_sample_heightmap.tooltip": "Amostra diretamente o mapa de altura ao verificar uma configuração de ponte válida.\n\nPor padrão, isto está desativado e uma aproximação do mapa de altura é usada com o campo `depth` no roteador de ruído.\n\nA aproximação é muito mais eficiente e aumenta os posicionamentos de ponte bem-sucedidos, mas pode falhar em circunstâncias estranhas (p. ex., ao usar Tectonic ou o tipo de mundo Amplificado).",
+
+
+
+
+
+
+    "config.apollib.default": "Padrão: ",
+    "config.apollib.done": "Salvar e Fechar",
+    "config.apollib.done.tooltip": "Salva suas alterações e fecha a tela.",
+    "config.apollib.export": "Exportar",
+    "config.apollib.export.tooltip": "Exporta o arquivo de configuração atual para a área de transferência.",
+    "config.apollib.back": "Voltar",
+    "config.apollib.back.tooltip": "Fecha esta tela sem salvar nenhuma alteração."
 }

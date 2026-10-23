@@ -8,11 +8,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "Ao começar como botânico mágico, é benéfico usar os poderes da natureza num nível mais direto antes de mergulhar diretamente na $(aura). O $(item)Ritual da Floresta$() usa propriedades do $(l:practices/gold_trees)Pó de Ouro$() para incorporar o poder de ingredientes naturais diretamente numa árvore fresca e em crescimento, devorando-a no processo, mas ao mesmo tempo, transformando-a em ferramentas e itens úteis."
+            "text": "Ao começar como botânico mágico, prova-se benéfico usar os poderes da natureza num nível mais direto antes de mergulhar diretamente na própria $(aura). O $(item)Ritual da Floresta$() usa propriedades do $(l:practices/gold_trees)Pó de Ouro$() para incorporar o poder de ingredientes naturais diretamente numa árvore nova e crescente, devorando-a no processo, mas ao mesmo tempo, transformando-a em ferramentas e itens úteis."
         },
         {
             "type": "text",
-            "text": "Para construir este $(thing)ritual$(), deve-se colocar $(item)Pó de Ouro$() na configuração mostrada na próxima página, com alguns $(item)Suportes de Madeira$() ao redor que segurarão os ingredientes.$(br)Então, a $(item)Muda$() correta deve ser colocada no meio e, seja por algum tipo de fertilizante ou pela inevitabilidade do tempo, seu crescimento fará o ritual começar.$(br)Note que é preciso cuidado, pois rituais exigem $(bold)tipos específicos de mudas$()."
+            "text": "Para construir este $(thing)ritual$(), é preciso colocar $(item)Pó de Ouro$() na configuração mostrada na próxima página, com alguns $(item)Suportes de Madeira$() ao redor que segurarão os ingredientes.$(br)Então, a $(item)Muda$() correta deve ser colocada no meio e, seja por algum tipo de fertilizante ou pela inevitabilidade do tempo, seu crescimento fará o ritual começar.$(br)Note que é preciso cuidado, pois os rituais requerem $(bold)tipos específicos de mudas$()."
         },
         {
             "type": "multiblock",
@@ -26,12 +26,12 @@
         },
         {
             "type": "text",
-            "text": "Junto com o ritual, o conhecimento dos $(item)Símbolos$() pode ser obtido: estatuetas de madeira, representando emoções-chave - criadas de árvores infundidas com seus respectivos símbolos. Essas estatuetas contêm uma combinação do vasto poder da própria $(aura) e o poder das emoções que representam.$(p)Daqui em diante, esses $(item)Símbolos$() serão um ingrediente-chave de construção."
+            "text": "Junto com o ritual, pode-se obter conhecimento dos $(item)Símbolos$(): estatuetas de madeira, representando emoções-chave — criadas de árvores infundidas com seus respectivos símbolos. Essas estatuetas contêm uma combinação do vasto poder da própria $(aura) e do poder das emoções que representam.$(p)Daqui em diante, esses $(item)Símbolos$() serão um ingrediente-chave de construção."
         },
         {
             "type": "naturesaura:tree_ritual",
             "recipe": "naturesaura:token_joy",
-            "text": "Criando o $(item)Símbolo de Alegria$(), infundido com itens que despertam alegria, encontrados na natureza, na exploração e na beleza"
+            "text": "Criando o $(item)Símbolo de Alegria$(), infundido com itens que evocam alegria, encontrados na natureza, exploração e beleza"
         },
         {
             "type": "naturesaura:tree_ritual",
@@ -41,7 +41,7 @@
         {
             "type": "naturesaura:tree_ritual",
             "recipe": "naturesaura:token_anger",
-            "text": "Criando o $(item)Símbolo de Ira$(), infundido com componentes sombrios - explosividade, fogo, escuridão"
+            "text": "Criando o $(item)Símbolo de Ira$(), infundido com componentes sombrios — explosividade, fogo, escuridão"
         },
         {
             "type": "naturesaura:tree_ritual",

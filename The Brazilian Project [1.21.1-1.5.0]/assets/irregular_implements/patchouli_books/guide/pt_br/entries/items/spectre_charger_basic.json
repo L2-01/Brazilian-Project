@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Os $(d)Carregadores de Espectro$() são usados para carregar itens do seu inventário usando FE do seu $(l:blocks/spectre_energy_injector)Buffer de Energia de Espectro$(/l).$(br2)Eles carregam todos os itens carregáveis do seu inventário, incluindo sua armadura e quaisquer Curios equipados.",
+      "text": "Os $(d)Carregadores de Espectro$() são usados para carregar itens no seu inventário usando FE do seu $(l:blocks/spectre_energy_injector)buffer de Energia de Espectro$(/l).$(br2)Ele carregará todo item do seu inventário que possa ser carregado, incluindo sua armadura e quaisquer Curios equipados.",
       "title": "Carregadores de Espectro"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:spectre_charger_basic,irregular_implements:spectre_charger_redstone,irregular_implements:spectre_charger_ender,irregular_implements:spectre_charger_genesis",
       "link_recipe": true,
-      "text": "Cada nível carrega mais rápido que o anterior.$(br2)O Carregador de Espectro Genesis é exclusivo do modo criativo e não usa energia do seu buffer.",
+      "text": "Cada nível carrega mais rápido que o anterior.$(br2)O Carregador de Espectro Genesis é somente-criativo e não usa energia do seu buffer.",
       "title": " "
     }
   ]

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: expandedae-index.md
-  title: Terminal de Codificação de Padrões Expandido
+  title: Terminal de Codificação Expandido
   icon: exp_encoding_terminal
   position: 7
 categories:
@@ -17,7 +17,7 @@ item_ids:
 </GameScene>
 
 ## O Terminal de Codificação de Padrões Expandido é uma melhoria do terminal original, adicionando os seguintes recursos
- - Clicar com Shift ao codificar um padrão o move para o seu inventário
+ - Shift+clique ao codificar um padrão o move para o seu inventário
  - Botões de multiplicação dentro do terminal
 
 ![pattern_mult_screen.png](assets/pattern_mult_screen.png)

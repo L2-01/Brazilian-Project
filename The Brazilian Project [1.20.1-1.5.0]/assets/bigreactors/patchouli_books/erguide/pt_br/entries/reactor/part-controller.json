@@ -9,23 +9,23 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:reinforced_reactorcontroller",
             "link_recipe": true,
-            "title" : "Controlador",
-            "text": "O Controlador é sua interface principal com o Reator.$(br2)Clique com o botão direito no Controlador para abrir sua interface gráfica; de lá você pode ligar ou desligar o Reator, verificar quanto reagente está presente nas Barras de Combustível, quão quente está o Reator e assim por diante."
+            "title": "Controlador",
+            "text": "O Controlador é sua interface principal com o Reator.$(br2)Clique com o botão direito no Controlador para abrir sua interface gráfica e, a partir dela, ligar ou desligar o Reator, verificar quanto reagente há nas Barras de Combustível, quão quente está o Reator, e assim por diante."
         },
         {
             "type": "patchouli:text",
-            "text": "Dependendo do modo de operação do Reator, você também pode verificar o status do buffer interno de energia e a taxa de produção em Reatores com $(l:bigreactors/passive)resfriamento passivo$(/l), ou a quantidade de refrigerante e vapor presente num Reator com $(l:bigreactors/active)resfriamento ativo$(/l).$(br2)Se você passar o mouse sobre um controle na interface, uma dica será exibida com informações adicionais ou um texto explicativo para aquele controle."
+            "text": "Dependendo do modo de operação do Reator, você também pode verificar o status do buffer interno de energia e a taxa de produção em Reatores $(l:bigreactors/passive)resfriados passivamente$(/l), ou a quantidade de refrigerante e vapor presente num Reator $(l:bigreactors/active)resfriado ativamente$(/l).$(br2)Se você passar o cursor sobre um controle na interface, um tooltip será exibido com informações adicionais ou texto explicativo sobre ele."
         },
         {
             "type": "bigreactors:crafting1x",
-            "title1": "Basic",
+            "title1": "Básico",
             "recipe1": "bigreactors:reactor/basic/controller_ingots_yellorium",
-            "title2": "Reinforced",
+            "title2": "Reforçado",
             "recipe2": "bigreactors:reactor/reinforced/controller_ingots_yellorium"
         },
         {
             "type": "bigreactors:part_usage",
-            "text": "$(l)Obrigatório:$() pelo menos um é necessário$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim"
+            "text": "$(l)Obrigatória:$() pelo menos uma é exigida$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim"
         }
     ]
 }

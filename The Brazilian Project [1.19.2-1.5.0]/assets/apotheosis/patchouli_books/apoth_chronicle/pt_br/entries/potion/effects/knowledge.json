@@ -1,0 +1,17 @@
+{
+    "name": "Conhecimento das Eras",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:potion/effects",
+    "flag": "apotheosis:potion",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A Poção de $(9)Conhecimento das Eras$() é um efeito benéfico.$(p)Sob seus efeitos, qualquer experiência gerada por criaturas que você matar é multiplicada."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "No Nível I, quadruplica os espólios de experiência.$(p)No Nível II, multiplica por 8."
+        }
+    ]
+}

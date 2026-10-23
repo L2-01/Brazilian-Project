@@ -1,28 +1,28 @@
 {
-    "name": "Tipos de Encantamento",
-    "icon": "minecraft:emerald",
-    "category": "apotheosis:enchanting/enchantments",
-    "flag": "apotheosis:enchanting",
-    "sortnum": -1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Você pode notar que alguns encantamentos têm nomes de cores diferentes.$(p)Isso porque o Apotheosis introduz três novas subcategorias de encantamentos.$(p)Cada subcategoria compartilha um tema."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Obra-prima",
-            "text": "Encantamentos de $(2)Obra-prima$() representam os encantamentos mais fortes e raros.$(p)Eles normalmente exigem um $(fpower) alto para serem obtidos."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Distorcido",
-            "text": "Encantamentos $(5)Distorcidos$() sempre têm um efeito bom e um ruim."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Corrompido",
-            "text": "Encantamentos $(4)Corrompidos$() têm um custo de vida associado ao seu efeito.$(p)Eles são considerados $(c)maldições$()."
-        }
-    ]
+	"name": "Tipos de Encantamento",
+	"icon": "minecraft:emerald",
+	"category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": -1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Você pode notar que alguns encantamentos têm nomes de cores diferentes.$(p)Isso porque o Apotheosis introduz três novas subcategorias de encantamentos.$(p)Cada subcategoria compartilha um tema."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Obra-Prima",
+			"text": "Encantamentos de $(2)Obra-prima$() representam os encantamentos mais fortes e raros.$(p)Eles geralmente exigem um $(fpower) alto para serem obtidos."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Distorcido",
+			"text": "Encantamentos $(5)Distorcidos$() sempre têm um efeito bom e um ruim."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Corrompido",
+			"text": "Encantamentos $(4)Corrompidos$() têm um custo de vida associado ao seu efeito.$(p)Eles são considerados $(c)maldições$()."
+		}
+	]
 }

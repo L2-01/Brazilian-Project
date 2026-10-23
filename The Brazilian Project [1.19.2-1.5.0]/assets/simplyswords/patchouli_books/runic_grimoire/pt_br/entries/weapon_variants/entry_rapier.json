@@ -1,0 +1,26 @@
+{
+    "name": "Rapieira",
+    "icon": "simplyswords:iron_rapier",
+    "category": "simplyswords:category_weapon_variants",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:iron_rapier",
+            "text": "As rapieiras eram populares entre a classe alta durante os séculos XVI e XVII e eram usadas em duelos e autodefesa civil. As rapieiras são conhecidas por sua velocidade, precisão e elegância em combate. Devido à lâmina fina e longa, exige um alto nível de habilidade e fineza para ser empunhada efetivamente."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:iron_rapier",
+            "recipe2": "simplyswords:gold_rapier"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:diamond_rapier"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "simplyswords:netherite_rapier",
+            "recipe2": "simplyswords:runic_rapier"
+        }
+    ]
+}

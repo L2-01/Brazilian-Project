@@ -1,9 +1,9 @@
 ---
 navigation:
-  title: Vídeos em Destaque
+  title: Vídeos Destacados
 ---
 
-Abaixo está um conjunto de vários vídeos em destaque sobre o mod.
+Abaixo está uma seleção de vários vídeos destacados sobre o mod.
 
 ## rv0 : Direwolf 20 - Parte 1 / 3
 
@@ -11,7 +11,7 @@ Abaixo está um conjunto de vários vídeos em destaque sobre o mod.
 
 **Versão** | **Youtuber** | **Vídeo  
 **  
----|---|---  
+|---|---|---  
 31-03-15 **rv2** | Nonsanity | [Getting
 Started](https://www.youtube.com/watch?v=-sEiNbm1DdU)  
 23-01-15 **rv2** | iskal85 | [Channels, Tunnels and Auto-
@@ -54,36 +54,36 @@ features](https://www.youtube.com/watch?v=6ktv7iKN5pI)
 05-02-14 **rv0** | BevoLJ | [AE2
 preview](https://www.youtube.com/watch?v=XEIHvG_4EsA)
 
-## Não-Inglês
+## Outros Idiomas
 
 **Versão** | **Youtuber** | **Vídeo  
 **  
----|---|---  
-08-15-14 **rv1** | Galvas Play (Portuguese) | [Spotlight
+|---|---|---  
+08-15-14 **rv1** | Galvas Play (Português) | [Spotlight
 2/x](https://www.youtube.com/watch?v=_CfHb9Y6RRY)  
-06-08-14 **rv1** | Galvas Play (Portuguese) | [Spotlight
+06-08-14 **rv1** | Galvas Play (Português) | [Spotlight
 1/x](https://www.youtube.com/watch?v=9dtcy17dciE)  
-27-06-14 **rv0** | Nedrek (Spanish) | [Spotlight
+27-06-14 **rv0** | Nedrek (Espanhol) | [Spotlight
 6/6](https://www.youtube.com/watch?v=XqSpqvbu5vk)  
-23-06-14 **rv0** | Nedrek (Spanish) | [Spotlight
+23-06-14 **rv0** | Nedrek (Espanhol) | [Spotlight
 5/6](https://www.youtube.com/watch?v=E37kkdX6_Vw)  
-19-06-14 **rv0** | Nedrek (Spanish) | [Spotlight
+19-06-14 **rv0** | Nedrek (Espanhol) | [Spotlight
 4/6](https://www.youtube.com/watch?v=wF61RPWrX_c)  
-17-06-14 **rv0** | Nedrek (Spanish) | [Spotlight
+17-06-14 **rv0** | Nedrek (Espanhol) | [Spotlight
 3/6](https://www.youtube.com/watch?v=Ko8Td-PzRO8)  
-14-06-14 **rv0** | Nedrek (Spanish) | [Spotlight
+14-06-14 **rv0** | Nedrek (Espanhol) | [Spotlight
 2/6](https://www.youtube.com/watch?v=V-y-rzs-cEA)  
-12-06-14 **rv0** | Nedrek (Spanish) | [Spotlight
+12-06-14 **rv0** | Nedrek (Espanhol) | [Spotlight
 1/6](https://www.youtube.com/watch?v=lFWRzpDX64w)  
-10-06-14 **rv0** | Tuberizing (Portuguese) | [Spotlight
+10-06-14 **rv0** | Tuberizing (Português) | [Spotlight
 3/3](https://www.youtube.com/watch?v=cI039ZiTCA0)  
-10-06-14 **rv0** | Tuberizing (Portuguese) | [Spotlight
+10-06-14 **rv0** | Tuberizing (Português) | [Spotlight
 2/3](https://www.youtube.com/watch?v=sO27NyhY3Jc)  
-10-06-14 **rv0** | Tuberizing (Portuguese) | [Spotlight
+10-06-14 **rv0** | Tuberizing (Português) | [Spotlight
 1/3](https://www.youtube.com/watch?v=TxmM09zm4A8)  
-10-04-14 **rv0** | iFebag (Italian) |
+10-04-14 **rv0** | iFebag (Italiano) |
 [Showcase](https://www.youtube.com/watch?v=Y5xHenMcRmc)  
-06-04-14 **rv0** | GorohCraft (Russian) | [Mod overview
+06-04-14 **rv0** | GorohCraft (Russo) | [Mod overview
 1/x](https://www.youtube.com/watch?v=PKemuHMxwNQ)  
-05-04-14 **rv0** | AlFox (Russian) |
+05-04-14 **rv0** | AlFox (Russo) |
 [Overview](https://www.youtube.com/watch?v=9GyZJDOjwvE)

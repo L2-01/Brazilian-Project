@@ -1,0 +1,88 @@
+# Tags de Datapack
+
+## Acúmulo Infinito de Encantamentos
+
+Itens na tag de item `#excessive_utilities:infinite_enchant_stacking` podem aceitar qualquer encantamento de um Livro Encantado numa Bigorna, incluindo encantamentos que normalmente são incompatíveis com o item ou com seus outros encantamentos.
+
+Quando o nível atual do encantamento no item está abaixo do máximo normal daquele encantamento, os níveis se combinam usando as regras vanilla da Bigorna. Níveis iguais aumentam em um, enquanto níveis diferentes mantêm o nível mais alto. Uma vez que o nível atual alcance o máximo normal, o nível do livro é somado diretamente, sem máximo.
+
+Por exemplo, ao aplicar livros de Afiação:
+
+- Afiação IV + Afiação III vira Afiação IV
+- Afiação IV + Afiação IV vira Afiação V
+- Afiação IV + Afiação V vira Afiação V
+- Afiação V + Afiação III vira Afiação VIII
+
+Por padrão, esta tag contém:
+
+- [Kikoku](@excessive_utilities:kikoku)
+- [Arco Composto](@excessive_utilities:compound_bow)
+- [Machado de Fogo](@excessive_utilities:fire_axe)
+
+## Tags de Item
+
+### Interação com Nós de Transferência Planos
+
+Itens em `#excessive_utilities:interact_with_flat_transfer_nodes` podem abrir e remover Nós de Transferência Planos. Ela contém a Chave-Inglesa de Tubo, os dois itens de Nó de Transferência Plano e `#c:tools/wrench` por padrão.
+
+### Ingredientes da Inversão do Símbolo da Divisão
+
+O ritual de inversão do Símbolo da Divisão exige quatro inventários ao redor de seu sinalizador. Cada inventário deve conter 12 itens únicos correspondentes, exceto Descendentes da Água, que exige 12 pilhas correspondentes.
+
+- Norte usa `#excessive_utilities:children_of_fire`. Seus padrões incluem pedras, blocos de vidro, terracota, carvão, lingotes de ferro e ouro, comida cozida, tijolos, pão e corante verde.
+- Sul usa `#excessive_utilities:gifts_of_earth`. Seus padrões incluem terra, areia, cascalho, vários minérios da Superfície, obsidiana, blocos de grama e argila.
+- Leste usa `#excessive_utilities:descendants_of_water`. Ela contém poções por padrão.
+- Oeste usa `#excessive_utilities:spices_of_air`. Ela contém `#c:music_discs` por padrão.
+
+## Tags de Bloco
+
+### Alvos de Ferramentas
+
+- `#excessive_utilities:mineable/fire_axe` controla quais blocos conectados o Machado de Fogo pode derrubar. Ela contém `#minecraft:logs` por padrão.
+- `#excessive_utilities:mineable/glass_cutter` controla quais blocos o Cortador de Vidro pode minerar rapidamente. Ela contém `#c:glass_blocks` e `#c:glass_panes` por padrão.
+- `#excessive_utilities:destruction_pickaxe_target` define blocos de enchimento que a Picareta da Destruição destrói. Ela contém `#c:stones` e `#c:netherracks` por padrão.
+- `#excessive_utilities:erosion_shovel_target` define blocos de enchimento que a Pá da Erosão destrói. Ela contém terra, areia, cascalho e Areia das Almas por padrão.
+- `#excessive_utilities:collectable_by_boomereaperang` controla quais blocos o Bumerangue Ceifador quebra e coleta. Ela contém flores, grama e samambaias por padrão.
+
+### Substituição de Terra Amaldiçoada
+
+`#excessive_utilities:cursed_earth_replaceable` controla quais blocos podem ser convertidos em Terra Amaldiçoada por uma Gota do Mal ou pelo ritual de ativação do Símbolo da Divisão. Ela contém `#minecraft:dirt`, excluindo a própria Terra Amaldiçoada, por padrão.
+
+### Listas Negras de Máquinas
+
+- `#excessive_utilities:creative_harvest_blacklist` impede que o Colhedor do Criativo imite os blocos listados. Ela contém o próprio Colhedor do Criativo por padrão.
+- `#excessive_utilities:ender_quarry_blacklist` impede que a Escavadeira Ender mine os blocos listados. Seus padrões incluem blocos de enchimento comuns, fluidos, plantas, troncos, areia e Rocha-Mãe.
+- `#excessive_utilities:ender_quarry_world_hole_blacklist` impede que a Melhoria de Buraco no Mundo remova os blocos listados mesmo quando configurada para ignorar a lista negra comum da Escavadeira Ender. Ela contém Rocha-Mãe por padrão.
+- `#excessive_utilities:ender_porcupine_blacklist` impede que o Porco-Espinho Ender interaja com os blocos listados. Ela contém o próprio Porco-Espinho Ender por padrão.
+- `#excessive_utilities:fe_transmitter_blacklist` impede que o Transmissor FE Sem Fio envie energia aos blocos listados. Ela contém Baterias FE Sem Fio e Transmissores FE Sem Fio por padrão.
+
+### Lista Negra do Pincel
+
+Blocos em `#excessive_utilities:paintbrush_blacklist` não podem ser recoloridos com o Pincel. A tag é vazia por padrão.
+
+### Fontes do Moinho do Ovo de Dragão
+
+Blocos em `#excessive_utilities:valid_for_dragon_egg_mill` permitem que um Moinho do Ovo de Dragão abaixo deles gere Força da Rede. Ela contém o Ovo de Dragão por padrão.
+
+## Tags de Tipo de Entidade
+
+### Lista Negra da Terra Amaldiçoada
+
+Tipos de entidade em `#excessive_utilities:cursed_earth_blacklist` não podem ser selecionados pela lógica de geração adicional da Terra Amaldiçoada. A tag é vazia por padrão.
+
+### Entidades da Inversão do Símbolo da Divisão
+
+- `#excessive_utilities:inversion_ritual_sacrifice` define sacrifícios válidos para o ritual de inversão. Ela contém Golems de Ferro por padrão.
+- `#excessive_utilities:inversion_ritual_despawn_on_start` define entidades removidas quando o ritual de inversão começa. Ela contém Endermen por padrão.
+
+## Tags de Efeito de Criatura
+
+### Lista Negra da Purificação
+
+Efeitos de criatura em `#excessive_utilities:purging_blacklist` não podem ser removidos pelo efeito Purificação. Ela contém a própria Purificação por padrão.
+
+## Tags de Bioma
+
+### Lista Negra do Marcador de Bioma
+
+Biomas em `#excessive_utilities:biome_marker_blacklist` não recebem uma variante de Marcador de Bioma. A tag é vazia por padrão.

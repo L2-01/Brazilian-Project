@@ -1,44 +1,44 @@
 {
-    "name": "Níveis 30 - 60",
-    "icon": "apothic_enchanting:hellshelf",
-    "category": "apotheosis:enchanting/progression",
-    "flag": "apotheosis:enchanting",
-    "pages": [
-        {
-            "type": "patchouli:crafting",
-            "title": "Alcançando o Nível 45",
-            "recipe": "apothic_enchanting:hellshelf",
-            "text": "Para alcançar o nível 45, você vai querer criar algumas $(9)Estantes Infernais$() e adicioná-las às suas Estantes existentes."
-        },
-        {
-            "type": "patchouli:crafting",
-            "title": "Alcançando o Nível 45",
-            "recipe": "apothic_enchanting:seashelf",
-            "text": "Se você não for fã do Nether, também pode se aventurar no Oceano e criar $(9)Estantes Marinhas$() no lugar."
-        },
-        {
-            "type": "patchouli:spotlight",
-            "title": "Alcançando o Nível 60",
-            "item": "apothic_enchanting:infused_hellshelf",
-            "text": "Ao alcançar o Nível 45, você precisará explorar o $(l:apotheosis:enchanting/table/infusion)Encantamento de Infusão$() para melhorar suas estantes."
-        },
-        {
-            "type": "patchouli:spotlight",
-            "title": "Alcançando o Nível 60",
-            "item": "apothic_enchanting:infused_seashelf",
-            "text": "Crie mais algumas do tipo de estante que você estava usando, imbua-as e melhore-as.$(p)Essas novas estantes, junto das suas antigas, permitirão alcançar o Nível 60."
-        },
-        {
-            "type": "patchouli:spotlight",
-            "title": "Pistas de Encantamento",
-            "item": "apothic_enchanting:sightshelf",
-            "text": "Agora você tem acesso a opções melhores para aumentar outros atributos.$(p)Além dos bônus das Estantes Infernais e Marinhas, agora você também pode criar a $(9)Estante Infernal da Visão$() para aumentar suas $(clues)."
-        },
-        {
-            "type": "patchouli:crafting",
-            "title": "Estabilidade Quântica",
-            "recipe": "apothic_enchanting:geode_shelf",
-            "text": "Ao realizar a infusão para criar uma Ametista em Geminação, você pode fabricar uma $(9)Estante de Livros de Estabilidade$().$(p)Isso impedirá que você receba rolagens de Quanta negativas."
-        }
-    ]
+	"name": "Níveis 30 - 60",
+	"icon": "apothic_enchanting:hellshelf",
+	"category": "apotheosis:enchanting/progression",
+	"flag": "apotheosis:enchanting",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"title": "Alcançando o Nível 45",
+			"recipe": "apothic_enchanting:hellshelf",
+			"text": "Para alcançar o nível 45, crie algumas $(9)Estantes Infernais$() e adicione-as às suas Estantes de Livros existentes."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Alcançando o Nível 45",
+			"recipe": "apothic_enchanting:seashelf",
+			"text": "Se você não gosta do Nether, também pode se aventurar no Oceano e criar $(9)Estantes Marinhas$()."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Alcançando o Nível 60",
+			"item": "apothic_enchanting:infused_hellshelf",
+			"text": "Ao alcançar o Nível 45, você precisará explorar o $(l:apotheosis:enchanting/table/infusion)Encantamento por Infusão$() para aprimorar suas estantes."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Alcançando o Nível 60",
+			"item": "apothic_enchanting:infused_seashelf",
+			"text": "Crie mais algumas do tipo de estante que você usava, infunda-as e aprimore-as.$(p)Essas novas estantes, somadas às antigas, permitirão alcançar o Nível 60."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Pistas de Encantamento",
+			"item": "apothic_enchanting:sightshelf",
+			"text": "Agora você tem acesso a melhores opções para aumentar outros atributos.$(p)Além dos bônus das Estantes Infernais e Estantes Marinhas, agora você também pode fabricar a $(9)Estante Infernal da Visão$() para aumentar suas $(clues)."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Estabilidade Quântica",
+			"recipe": "apothic_enchanting:geode_shelf",
+			"text": "Ao realizar a infusão para criar uma Ametista em Brotamento, você pode fabricar uma $(9)Estante de Livros de Estabilidade$().$(p)Isso impedirá que você receba rolagens negativas de Quanta."
+		}
+	]
 }

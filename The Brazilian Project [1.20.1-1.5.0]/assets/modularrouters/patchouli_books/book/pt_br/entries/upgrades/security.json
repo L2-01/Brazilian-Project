@@ -10,27 +10,27 @@
     {
       "type": "text",
       "title": "Proteção",
-      "text": "Um Roteador com uma Melhoria de Segurança instalada só pode ser aberto por jogadores na lista de permissão dessa melhoria. A melhoria não impede que o roteador seja quebrado; mas como as melhorias e módulos permanecem num roteador quebrado, jogadores não podem quebrar um roteador para roubar módulos/melhorias ou reconfigurá-lo. Se quiser impedir que um roteador seja quebrado, explore os recursos de proteção de blocos de outros mods."
+      "text": "Um Roteador com uma Melhoria de Segurança instalada pode $(italic)somente/$ ser aberto por jogadores na lista-branca daquela melhoria. A melhoria não impede que um roteador seja quebrado; mas como melhorias e módulos permanecem num roteador quebrado, jogadores não podem quebrar um roteador para roubar módulos/melhorias ou reconfigurar o roteador. Se você quiser impedir que um roteador seja quebrado, talvez queira explorar as capacidades de proteção de blocos de outros mods."
     },
     {
       "type": "text",
       "title": "Jogadores Falsos",
-      "text": "Vários módulos ($(l:modules/placer)Colocador/$, $(l:modules/breaker)Quebrador/$, $(l:modules/activator)Ativador/$) fazem seu trabalho como um $(thing)jogador falso/$. Por padrão é um jogador com o nome de usuário $(thing)[Modular Routers]/$, mas quando uma melhoria de segurança está instalada, esses módulos operam como o dono da melhoria. Isso é muito mais seguro em servidores multiplayer com proteção de terreno do que simplesmente permitir que o $(thing)[Modular Routers]/$ faça qualquer coisa com seus terrenos."
+      "text": "Vários módulos ($(l:modules/placer)Colocador/$, $(l:modules/breaker)Quebrador/$, $(l:modules/activator)Ativador/$) fazem seu trabalho como um $(thing)jogador falso/$. Por padrão, é um jogador com o nome de usuário $(thing)[Modular Routers]/$, mas quando uma melhoria de segurança está instalada, esses módulos operam como o dono da melhoria. Isso é muito mais seguro em servidores multiplayer com proteção de terreno do que simplesmente permitir que $(thing)[Modular Routers]/$ faça qualquer coisa com seus terrenos."
     },
     {
       "type": "text",
       "title": "Modo de Ataque do Ativador",
-      "text": "Quando o $(l:modules/activator)Módulo Ativador/$ está no $(thing)Modo de Ataque/$, ele ignora qualquer jogador na lista de permissão de uma Melhoria de Segurança instalada no Roteador. Isso geralmente é uma boa ideia para evitar dor e sofrimento se você tiver uma arma de alto dano no seu Roteador..."
+      "text": "Quando o $(l:modules/activator)Módulo Ativador/$ está no $(thing)Modo de Ataque/$, ele ignorará quaisquer jogadores na lista-branca de uma Melhoria de Segurança instalada no Roteador. Isso geralmente é uma boa ideia para evitar dor e sofrimento se você tiver uma arma de alto dano no seu Roteador..."
     },
     {
       "type": "spotlight",
       "item": "modularrouters:override_card",
       "anchor": "override",
-      "text": "$(li)Existe um item não fabricável chamado $(thing)Cartão de Sobreposição de Segurança/$ — pode ser obtido no modo criativo ou conseguindo o item via JEI etc. Um jogador que segura um desses em qualquer mão não é afetado por nenhuma Melhoria de Segurança e pode acessar qualquer roteador."
+      "text": "$(li)Existe um item não fabricável chamado $(thing)Cartão de Substituição de Segurança/$ — ele pode ser obtido no modo criativo ou trapaceando o item via JEI etc. Um jogador que segurar um destes em qualquer mão não é afetado por nenhuma Melhoria de Segurança e pode acessar qualquer roteador."
     },
     {
       "type": "text",
-      "text": "Você pode adicionar jogadores extras a uma Melhoria de Segurança $(thing)clicando com o botão direito/$ no jogador com a melhoria na mão principal.$(p)Você pode remover jogadores de uma Melhoria de Segurança $(thing)agachando e clicando com o botão direito/$ no jogador.$(p)Há um máximo de 6 jogadores adicionais por Melhoria de Segurança (7 no total, incluindo o criador), mas você pode instalar mais de uma Melhoria de Segurança num roteador se necessário."
+      "text": "Você pode adicionar jogadores extras a uma Melhoria de Segurança $(thing)clicando com o botão direito/$ no jogador com a melhoria na sua mão principal.$(p)Você pode remover jogadores de uma Melhoria de Segurança $(thing)agachando e clicando com o botão direito/$ no jogador.$(p)Há um máximo de 6 jogadores adicionais por Melhoria de Segurança (ou seja, 7 no total, incluindo o criador), mas você pode instalar mais de uma Melhoria de Segurança num roteador se necessário."
     },
     {
       "type": "crafting",

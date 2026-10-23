@@ -7,13 +7,13 @@ item_ids:
 ---
 # Transceptor Sem Fio ME
 
-## O que ele faz?
+## O que isso pode fazer?
 
-Este bloco permite estender a sua rede sem fio por qualquer distância, mas não entre dimensões. Ele pode carregar 32 canais no total. Quanto mais distantes os transceptores estiverem um do outro, maior a demanda de energia.
+Este bloco permite estender sua rede sem fio por qualquer distância, mas não entre dimensões. Eles podem transportar 32 canais no total. Quanto mais distantes os transceptores estiverem um do outro, maior será a demanda de energia.
 
-O que o diferencia da ponte quântica é que você pode vincular transceptores a um canal nomeado. Uma vez que um transceptor esteja vinculado a um canal como transmissor, você pode se inscrever nesse canal em qualquer transceptor que quiser, na mesma dimensão.
+O que o diferencia da ponte quântica é que você pode vincular transceptores a um canal nomeado. Uma vez que um transceptor esteja vinculado a um canal como transmissor, você pode assinar esse canal em qualquer transceptor que quiser, na mesma dimensão.
 
-Se quiser transmitir entre dimensões, a ponte quântica deve ser usada.
+Se você quiser transmitir entre dimensões, a ponte quântica deve ser usada.
 
 ![](assets/wirelesstransceiver/transceiver_diagram.png)
 
@@ -33,7 +33,7 @@ Se quiser transmitir entre dimensões, a ponte quântica deve ser usada.
         ![](assets/wirelesstransceiver/basic_setup_subscriber.png)
     </BoxAnnotation>
     <BoxAnnotation color="#dddddd" min="10.1 1.1 6.1" max="10.9 1.9 6">
-        Este terminal agora está conectado ao controlador, desde que haja energia e os canais máximos não estejam ocupados.
+        Este terminal agora está conectado ao controlador, desde que haja energia e o máximo de canais não esteja ocupado.
     </BoxAnnotation>
 </GameScene>
 

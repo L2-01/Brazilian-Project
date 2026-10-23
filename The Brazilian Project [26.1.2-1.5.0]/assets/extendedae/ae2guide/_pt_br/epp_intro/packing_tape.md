@@ -1,7 +1,7 @@
 ---
 navigation:
     parent: epp_intro/epp_intro-index.md
-    title: Fita de Embalagem ME
+    title: Fita de Empacotamento ME
     icon: extendedae:me_packing_tape
 categories:
 - extended items
@@ -10,26 +10,26 @@ item_ids:
 - extendedae:package
 ---
 
-# Fita de Embalagem ME
+# Fita de Empacotamento ME
 
-A Fita de Embalagem ME pode embalar um dispositivo ME do mundo num item de Dispositivo Embalado.
+A Fita de Empacotamento ME pode empacotar um Dispositivo ME no mundo num item Dispositivo Empacotado.
 
 <Row>
 <ItemImage id="extendedae:me_packing_tape" scale="4"></ItemImage>
 <ItemImage id="extendedae:package" scale="4"></ItemImage>
 </Row>
 
-## Embalando
+## Empacotando
 
-Agache e clique com o botão direito num dispositivo ME com a fita para transformá-lo num item embalado. Todos os ajustes e o conteúdo do inventário
-do dispositivo são preservados. Isso é útil ao mover sua configuração de ME.
+Agache + clique com o botão direito num dispositivo ME com a fita para transformá-lo num item empacotado. Todas as configurações e o conteúdo do inventário
+do dispositivo são mantidos. Isso é útil ao mudar sua instalação de ME de lugar.
 
-A Fita de Embalagem ME suporta apenas dispositivos da lista. Essa lista de dispositivos é configurável.
+Note que a Fita de Empacotamento ME suporta apenas os dispositivos da lista; a lista de dispositivos é configurável.
 
-### Lista Padrão
+### Lista padrão
 
 |                                     Dispositivo                                    |                                 Nome                                  |
-|:----------------------------------------------------------------------------------:|:---------------------------------------------------------------------:|
+|:---------------------------------------------------------------------------------:|:---------------------------------------------------------------------:|
 |    <ItemImage id="extendedae:ex_interface_part" scale="3"></ItemImage>     |    <ItemLink id="extendedae:ex_interface_part"></ItemLink>     |
 | <ItemImage id="extendedae:ex_pattern_provider_part" scale="3"></ItemImage> | <ItemLink id="extendedae:ex_pattern_provider_part"></ItemLink> |
 |       <ItemImage id="extendedae:ex_interface" scale="3"></ItemImage>       |       <ItemLink id="extendedae:ex_interface"></ItemLink>       |
@@ -40,7 +40,7 @@ A Fita de Embalagem ME suporta apenas dispositivos da lista. Essa lista de dispo
 |            <ItemImage id="ae2:pattern_provider" scale="3"></ItemImage>            |            <ItemLink id="ae2:pattern_provider"></ItemLink>            |
 |                 <ItemImage id="ae2:drive" scale="3"></ItemImage>                  |                 <ItemLink id="ae2:drive"></ItemLink>                  |
 
-## Desembalando
+## Desempacotando
 
-Clique com o botão direito com o item embalado como se estivesse colocando o bloco ou parte do dispositivo original. O dispositivo embalado será então restaurado
-a partir do pacote.
+Clique com o botão direito segurando o item empacotado como se estivesse colocando o bloco ou a parte do dispositivo original. O dispositivo empacotado será então restaurado
+do pacote.

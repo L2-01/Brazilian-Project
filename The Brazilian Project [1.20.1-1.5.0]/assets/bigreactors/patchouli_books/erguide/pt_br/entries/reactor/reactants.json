@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "O Extreme Reactors registra, por padrão, quatro reagentes: os combustíveis Yellório e Blutônio e seus resíduos associados, Cianita e Magentita.$(br2)Cada reagente tem uma lista de itens que podem ser usados para produzir aquele reagente, por exemplo, inserindo-os numa $(l:bigreactors:reactor/part-solidaccessport)Porta de Acesso Sólido$(/l).$(br2)O Yellório, por exemplo, pode ser obtido a partir de $(l:bigreactors:intro/ores)Lingotes de Yellório$(/l). A Cianita, quando ejetada do Reator, vira Lingotes de Cianita."
+            "text": "O Extreme Reactors registra, por padrão, quatro reagentes: os combustíveis chamados Yellório e Blutônio e seus resíduos associados, Cianita e Magentita.$(br2)Cada reagente tem uma lista de itens que podem ser usados para produzir aquele reagente, por exemplo, inserindo-os numa $(l:bigreactors:reactor/part-solidaccessport)Porta de Acesso Sólido$(/l).$(br2)O Yellório, por exemplo, pode ser obtido de $(l:bigreactors:intro/ores)Lingotes de Yellório$(/l). A Cianita, quando ejetada do Reator, transforma-se em Lingotes de Cianita."
         },
         {
             "type": "patchouli:text",
@@ -19,7 +19,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Itens que podem ser usados para produzir um reagente do tipo combustível são marcados com uma dica especial que você pode ver, se quiser se dar spoilers, ativando o recurso $(italic)Dicas de Ferramentas Avançadas$() do Minecraft (F3 + H)."
+            "text": "Itens que podem ser usados para produzir um reagente do tipo combustível são marcados com uma dica especial que você pode ver, se quiser se dar spoilers, ao ativar o recurso $(italic)Dicas Avançadas$() do Minecraft (F3 + H)."
         }
     ]
 }

@@ -1,16 +1,16 @@
 {
-  "name": "Mira em Fluidos",
+  "name": "Raytracing de Fluidos",
   "sortnum": 1,
   "category": "buildinggadgets2:mechanics",
   "icon": "buildinggadgets2:textures/book/icons/raytrace_fluid.png",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Mira em Fluidos permite que o(s) dispositivo(s) interajam com fluidos. Quando ativado, os trocadores podem trocar fluidos e os construtores podem construir por cima de fluidos. $(br2)Quando desativado, esses dispositivos ignorarão os fluidos e construirão nos blocos atrás deles.$(br2)Veja o capítulo sobre $(l:buildinggadgets2:mech_fluid_handling)Manipulação de Fluidos$(/l) para mais detalhes."
+      "text": "Raytracing de Fluidos permite que o(s) dispositivo(s) interajam com fluidos. Quando ligado, trocadores podem trocar fluidos, e construtores podem construir sobre fluidos. $(br2)Quando desligado, esses dispositivos ignorarão fluidos e construirão nos blocos atrás deles.$(br2)Veja o capítulo sobre $(l:buildinggadgets2:mech_fluid_handling)Lida com Fluidos$(/l) para mais detalhes."
     },
     {
       "type": "patchouli:image",
-      "title": "Mira em Fluidos",
+      "title": "Raytracing de Fluidos",
       "images": [
         "buildinggadgets2:textures/book/images/raytracefluids.png"
       ],

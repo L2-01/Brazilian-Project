@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Drusas Ecoantes
+  title: Florações Ecoantes
   icon: "justdynathings:echoing_budding_amethyst"
   position: 1
 item_ids:
@@ -40,9 +40,9 @@ item_ids:
   - justdynathings:echoing_budding_zinc
 ---
 
-# Uma nova maneira de cultivar recursos de drusas
+# Uma nova forma de cultivar recursos de floração
 
-Drusas que requerem **Fluido do Tempo** (100mb/wk) e **Energia** (100fe/wk) para crescer agregados
+Florações que exigem **Fluido do Tempo** (100 mb/wk) e **Energia** (100 fe/wk) para cultivar aglomerados.
 
 <GameScene zoom="2" interactive={true}>
   <Block id="justdynathings:echoing_budding_time" p:alive="true"/>
@@ -57,14 +57,14 @@ Drusas que requerem **Fluido do Tempo** (100mb/wk) e **Energia** (100fe/wk) para
   <Block x="3" y="1" id="justdirethings:time_crystal_cluster" />
 </GameScene>
 
-Suporte básico:
+Suporte base:
 
 - <ItemLink id="justdynathings:echoing_budding_amethyst"/> (Minecraft)
 - <ItemLink id="justdynathings:echoing_budding_time"/> (JustDireThings)
 
-Suporte para todos os Mods:
+Suporte a todos os mods:
 
 - <ItemLink id="justdynathings:echoing_budding_certus"/> ([Applied Energistics 2](https://legacy.curseforge.com/minecraft/mc-mods/applied-energistics-2))
 - <ItemLink id="justdynathings:echoing_budding_entro"/> ([Extended AE](https://legacy.curseforge.com/minecraft/mc-mods/ex-pattern-provider))
 - <ItemLink id="justdynathings:echoing_budding_phasorite"/> ([Phasorite Networks](https://legacy.curseforge.com/minecraft/mc-mods/phasorite-networks))
-- _Qualquer drusa [GeOre](https://legacy.curseforge.com/minecraft/mc-mods/geore)_
+- _Qualquer floração do [GeOre](https://legacy.curseforge.com/minecraft/mc-mods/geore)_

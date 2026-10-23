@@ -8,26 +8,26 @@
   "pages": [
     {
       "type": "text",
-      "text": "O $(item)Análogo$() pode fazer cálculos sobre um sinal de entrada com base no resultado da comparação das entradas A e B. $(br2)Clicar com o botão direito no bloco abre sua interface, com uma imagem da Saída (O), da Entrada (I) e das duas entradas laterais (A) e (B)."
+      "text": "O $(item)Análogo$() pode fazer cálculos num sinal de entrada com base no resultado da comparação das entradas A e B. $(br2)Clicar com o botão direito no bloco abrirá sua GUI, com uma figura da Saída (O), da Entrada (I) e das duas entradas laterais (A) e (B)."
     },
     {
       "type": "crafting",
       "heading": "Análogo",
       "recipe": "rftoolsutility:analog",
-      "text": "veja a página seguinte para uma imagem e explicação da interface."
+      "text": "veja a página seguinte para uma figura e explicação da GUI."
     },
     {
       "type": "text",
-      "title": "Interface",
-      "text": "A interface mostra o lado de saída, o lado de entrada e as entradas de comparação A/B. Para cada resultado de comparação você configura um multiplicador e um deslocamento aplicados ao sinal de entrada."
+      "title": "GUI",
+      "text": "A GUI mostra o lado de saída, o lado de entrada e as entradas de comparação A/B. Para cada resultado de comparação você configura um multiplicador e um deslocamento aplicados ao sinal de entrada."
     },
     {
       "type": "text",
-      "text": "Abaixo da imagem do Análogo, temos três condições possíveis: A = B, A é Menor que B e A é Maior que B. $(br2)Nas três condições, podemos fazer aritmética básica sobre a entrada, permitindo multiplicar a força da entrada e também somar a ela. Por exemplo, você poderia pegar a força da entrada, dobrá-la e somar 10."
+      "text": "Abaixo da figura do Análogo, temos três condições possíveis: A = B, A é Menor que B e A é Maior que B. $(br2)Nas três condições, podemos fazer aritmética básica na entrada, permitindo multiplicar a força da entrada e também somar a ela. Por exemplo, você poderia pegar a força da entrada, dobrá-la e somar 10."
     },
     {
       "type": "text",
-      "text": "Se quiser dividir o sinal, ou subtrair pontos, você pode multiplicá-lo por um número menor que 1, ou somar um número negativo, respectivamente. Por exemplo, multiplicar a força por '0,5' equivale a dividi-la por dois, e somar '-10' é o mesmo que tirar 10. $(br2)Como estamos trabalhando com sinais de redstone, qualquer coisa acima de 15 ou abaixo de 0 é limitada a sinal de força total ou nenhum sinal, respectivamente. $(br2)$(i)Matemática não é divertida?$()"
+      "text": "Se você quiser dividir o sinal ou subtrair pontos, pode multiplicá-lo por um número menor que 1 ou somar um número negativo, respectivamente. Por exemplo, multiplicar a força por '0.5' equivale a dividi-la por dois, e somar '-10' é o mesmo que subtrair 10. $(br2)Como estamos trabalhando com sinais de redstone aqui, qualquer coisa acima de 15 ou abaixo de 0 é limitada ao sinal de força total ou nenhum sinal, respectivamente. $(br2)$(i)Matemática não é divertida?$()"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "name": "Medidor de Carga",
-  "icon": "railcraft:charge_meter",
-  "category": "railcraft:tools",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "O Medidor de Carga é uma ferramenta do Railcraft, usada para medir a Carga do Railcraft nas várias máquinas, fios ou trilhos que a usam/transferem, incluindo a Locomotiva Elétrica, a Unidade Alimentadora Elétrica e vários Trilhos Elétricos. Ele registra o uso da rede ao longo de um período de 5 segundos."
-    }
-  ]
+    "name": "Medidor de Carga",
+    "icon": "railcraft:charge_meter",
+    "category": "railcraft:tools",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O Medidor de Carga é uma ferramenta do Railcraft usada para medir a Carga do Railcraft nas várias máquinas, fios ou trilhos que a usam/transferem, incluindo a Locomotiva elétrica, a Unidade Alimentadora Elétrica e vários Trilhos Elétricos. Ele registra o uso da rede num período de 5 segundos."
+        }
+    ]
 }

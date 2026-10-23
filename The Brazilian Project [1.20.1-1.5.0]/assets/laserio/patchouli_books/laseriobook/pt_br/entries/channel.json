@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Os cartões só podem interagir com outros cartões que estejam no mesmo canal. Isso permite que um jogador tenha múltiplos conjuntos de lógica de roteamento na mesma rede.$(br2)Por exemplo, cartões Extratores no canal 'Laranja' só tentarão inserir em Cartões de Inserção de cor 'Laranja', e ignorarão todos os outros cartões."
+      "text": "Cartões só podem interagir com outros cartões que estejam no mesmo canal. Isso permite ao jogador ter múltiplos conjuntos de lógica de roteamento na mesma rede.$(br2)Por exemplo, cartões Extratores no canal 'Laranja' só tentarão inserir em Cartões de Inserção de cor 'Laranja', e ignorarão todos os outros cartões."
     },
     {
       "type": "patchouli:text",
-      "text": "Por exemplo, defina um Cartão de Extração no 'Canal Laranja' com um filtro para pedregulho, e outro cartão de extração no 'Canal Preto' com um filtro para carvão. Depois coloque-os no mesmo nó. $(br2)Um inseridor do canal Laranja pode ficar acima de uma fornalha, com um inseridor do canal preto abaixo. Isso garantirá que só pedregulho entre no topo da fornalha, enquanto o carvão vai por baixo."
+      "text": "Por exemplo, defina um Cartão Extrator para o 'Canal Laranja' com um filtro de pedregulho, e outro cartão extrator para o 'Canal Preto' com um filtro de carvão. Depois coloque-os no mesmo nó. $(br2)Um inseridor de canal laranja pode ficar acima de uma fornalha, com um inseridor de canal preto abaixo. Isso garantirá que apenas pedregulho entre no topo da fornalha, enquanto o carvão vai para baixo."
     }
   ]
 }

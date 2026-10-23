@@ -14,10 +14,10 @@ item_ids:
 
 <ItemImage id="sky_dust" scale="4" />
 
-Um bloco de <ItemLink id="sky_stone_block" /> que foi triturado por um <ItemLink id="inscriber" />. Usado na produção de
-<ItemLink id="cell_component_256k" /> e <ItemLink id="sky_stone_block" />.
+Um bloco de <ItemLink id="sky_stone_block" /> triturado por um <ItemLink id="inscriber" />. Usado na produção do
+<ItemLink id="cell_component_256k" /> e do <ItemLink id="sky_stone_block" />.
 
-Também pode ser obtido apontando um <ItemLink id="annihilation_plane" /> para cima na altura máxima de construção do mundo.
+Também pode ser obtido apontando um <ItemLink id="annihilation_plane" /> para cima no limite de altura do mundo.
 
 ## Receita
 

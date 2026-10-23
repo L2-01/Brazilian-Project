@@ -1,26 +1,26 @@
 {
-  "name": "Módulo de Tubo de Segurança",
-  "icon": "pneumaticcraft:safety_tube_module",
-  "category": "pneumaticcraft:tubes",
-  "advancement": "pneumaticcraft:pressure_tube",
-  "pages": [
-    {
-      "type": "text",
-      "text": "Este módulo de tubo é usado para limitar a $(l:base_concepts/pressure)pressão/$ num tubo a um certo valor, prevenindo $(thing)explosões/$; qualquer pressão excedente será dispersa na atmosfera, o que significa $(thing)perda de energia/$. Portanto, este módulo é melhor usado em conjunto com o $(l:tubes/pressure_gauge_module)Módulo de Tubo Medidor de Pressão/$, que pode emitir redstone para desligar compressores."
-    },
-    {
-      "type": "text",
-      "text": "O nível de limiar padrão do $(item)Módulo de Tubo de Segurança/$ é 0,1 bar abaixo do nível de perigo do tubo:$(li)4,9 bar para $(item)Tubos de Pressão/$ básicos$(li)19,9 bar para $(item)Tubos de Pressão Avançados/$(p)Note que isso mudou desde a 1.12.2, onde um sinal de redstone era necessário para definir o limiar."
-    },
-    {
-      "type": "spotlight",
-      "item": "pneumaticcraft:module_expansion_card",
-      "text": "Quando você aplica um $(l:tubes/module_expansion_card)Cartão de Expansão de Módulo/$ ao Módulo de Tubo de Segurança, o módulo ganha uma GUI (clique com o botão direito) que oferece muito mais controle sobre o nível de limiar. Você pode definir um limiar preciso na GUI ou, com a caixa de seleção $(bold)Configuração Avançada/$, configurar níveis de limiar interpolados com base no sinal. Isso funciona de forma muito parecida com a $(l:tubes/pressure_gauge_module#img)GUI do Medidor de Pressão/$, mas invertida."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando um Módulo de Tubo de Segurança",
-      "recipe": "pneumaticcraft:safety_tube_module"
-    }
-  ]
+    "name": "Módulo de Tubo de Segurança",
+    "icon": "pneumaticcraft:safety_tube_module",
+    "category": "pneumaticcraft:tubes",
+    "advancement": "pneumaticcraft:pressure_tube",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Este módulo de tubo é usado para limitar a $(l:base_concepts/pressure)pressão/$ num tubo a um certo valor, prevenindo $(thing)explosões/$; qualquer pressão excedente será dispersada na atmosfera, o que significa $(thing)perda de energia/$. Portanto, este módulo é melhor usado junto com o $(l:tubes/pressure_gauge_module)Módulo de Tubo Medidor de Pressão/$, que pode emitir redstone para desligar compressores."
+        },
+        {
+            "type": "text",
+            "text": "O nível de limite padrão do $(item)Módulo de Tubo de Segurança/$ é 0,1 bar abaixo do nível de perigo do tubo:$(li)4,9 bar para $(item)Tubos de Pressão/$ básicos$(li)19,9 bar para $(item)Tubos de Pressão Avançados/$(p)Note que isso mudou desde o 1.12.2, onde um sinal de redstone era necessário para definir o limite."
+        },
+        {
+            "type": "spotlight",
+            "item": "pneumaticcraft:module_expansion_card",
+            "text": "Quando você aplica um $(l:tubes/module_expansion_card)Cartão de Expansão de Módulo/$ ao Módulo de Tubo de Segurança, o módulo ganha uma GUI (clique com o botão direito) que oferece bem mais controle sobre o nível de limite. Você pode definir um limite preciso na GUI, ou, com a caixa de seleção $(bold)Configuração Avançada/$, configurar níveis de limite interpolados com base no sinal. Isso funciona de forma muito parecida com a $(l:tubes/pressure_gauge_module#img)GUI do Medidor de Pressão/$, mas ao contrário."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando um Módulo de Tubo de Segurança",
+            "recipe": "pneumaticcraft:safety_tube_module"
+        }
+    ]
 }

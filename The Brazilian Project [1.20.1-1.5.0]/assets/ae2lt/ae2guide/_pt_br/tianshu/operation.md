@@ -40,7 +40,7 @@ Use o <ItemLink id="ae2lt:tianshu_supercomputer_controller" /> para ver:
 
 * O estado de formação e o primeiro problema detectado quando desformada
 * O nível atual do Núcleo Principal Tianshu
-* As contagens de Unidades Paralelas, Amplificadoras e de Armazenamento, mais as contagens de Armazenamento de Padrões e de Sementes de Circuito Fechado
+* As contagens de Unidades Paralelas, Amplificadoras e de Armazenamento, mais as contagens de Armazenamento de Padrões de Circuito Fechado e de Sementes
 * O fator de amplificação `R` e os resultantes ganho de despacho `Gd` e ganho de armazenamento `Gs` (a tela usa esses símbolos)
 * O valor bruto de despacho e o orçamento efetivo de despachos bem-sucedidos `D`, com um indicador quando o teto do Núcleo Principal é atingido
 * A capacidade interna, a capacidade externa amplificada e o armazenamento de fabricação total

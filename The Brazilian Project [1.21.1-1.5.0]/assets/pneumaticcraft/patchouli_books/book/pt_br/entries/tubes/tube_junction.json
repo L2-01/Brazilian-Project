@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "Uma $(thing)Junção de Tubos/$ é um dispositivo muito simples que permite que dois $(l:tubes/pressure_tubes)Tubos de Pressão/$ (de qualquer $(l:base_concepts/pressure_tiers)nível de pressão/$) se cruzem sem se conectar."
+      "text": "Uma $(thing)Junção de Tubo/$ é um dispositivo muito simples que permite que dois $(l:tubes/pressure_tubes)Tubos de Pressão/$ (de qualquer $(l:base_concepts/pressure_tiers)nível de pressão/$) se cruzem sem se conectar."
     },
     {
       "type": "crafting",
-      "text": "Fabricando uma Junção de Tubos",
+      "text": "Fabricando Junção de Tubos",
       "recipe": "pneumaticcraft:tube_junction"
     }
   ]

@@ -5,7 +5,7 @@ navigation:
   parent: hubs/artifacts.md
   position: 13
 categories:
-  - Entrega Suspeita
+  - Suspicious Delivery
 ---
 # Relógio Entrópico
 
@@ -15,9 +15,9 @@ Artefato de entrega que também funciona como **módulo** de máquina. O uso com
 
 ## O que faz
 
-Módulo de melhoria para o **Acelerador Temporal**. Abra a GUI do acelerador e coloque-o no **espaço de melhoria** à esquerda do botão de Aceleração. Quando instalado, o acelerador pode atingir um **fator máximo de aceleração maior**, mas consome **entropia armazenada** a cada tique enquanto acelera. Reabasteça com **Gota de Entropia** no **espaço de combustível** à direita do botão de Aceleração (a porcentagem de carga é mostrada abaixo do espaço).
+Módulo de melhoria para o **Acelerador Temporal**. Abra a GUI do acelerador e coloque-o no **slot de melhoria** à esquerda do botão de Aceleração. Quando instalado, o acelerador pode alcançar um **fator máximo de aceleração maior**, mas consome **entropia armazenada** a cada tique enquanto acelera. Reabasteça com **Gota de Entropia** no **slot de combustível** à direita do botão de Aceleração (porcentagem de carga mostrada abaixo do slot).
 
-Também se acumula no espaço de relógio do **Gerador Entropizado** para encurtar o atraso do ciclo de geração.
+Também pode ser empilhado no slot de relógio do **Gerador Entropizado** para encurtar o atraso do ciclo de spawn.
 
 ## Como obter
 

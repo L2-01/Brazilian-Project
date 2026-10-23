@@ -9,6 +9,6 @@ navigation:
 
 Usado para fabricar o <ItemLink id="fuzzy_card"/>,
 
-<ItemLink id="inverter_card" /> e o <ItemLink id="speed_card" />
+o <ItemLink id="inverter_card" /> e o <ItemLink id="speed_card" />
 
 <RecipeFor id="advanced_card" />

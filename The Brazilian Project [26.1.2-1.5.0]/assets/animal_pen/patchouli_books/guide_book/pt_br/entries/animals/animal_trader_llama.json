@@ -1,5 +1,5 @@
 {
-  "name": "Lhama de Comerciante",
+  "name": "Lhama de Mercador",
   "icon": "minecraft:trader_llama_spawn_egg",
   "category": "animal_pen:category_animal_pen",
   "pages": [
@@ -11,12 +11,12 @@
     {
       "type": "patchouli:spotlight",
       "item": "tag:minecraft:llama_food",
-      "text": "Alimente as lhamas de comerciante com trigo para procriá-las e aumentar seu número no cercado."
+      "text": "Alimente as lhamas de mercador com trigo para procriá-las e aumentar seu número no cercado."
     },
     {
       "type": "patchouli:spotlight",
       "item": "tag:minecraft:swords,tag:minecraft:axes",
-      "text": "Usar uma espada ou machado no Cercado de Animais matará a lhama de comerciante e largará seu saque."
+      "text": "Usar uma espada ou machado no Cercado de Animais matará a lhama de mercador e derrubará seu saque."
     }
   ]
 }

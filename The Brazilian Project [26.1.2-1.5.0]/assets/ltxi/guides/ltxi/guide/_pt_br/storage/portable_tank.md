@@ -14,12 +14,12 @@ item_ids:
 
 <BlockImage id="portable_tank" scale="4" />
 
-**Tanques Portáteis** serão sua opção de armazenamento de fluidos de uso geral. Eles têm E/S configurável e podem ser
-[melhorados](../fundamentals/upgrade_system.md). Tanques retêm seu conteúdo quando quebrados e têm **capacidade de manuseio de fluidos**
-tanto como itens quanto como entidades de bloco. Como itens, não têm limite de transferência. Como entidades de bloco, seu limite de transferência é 1/10
-da sua capacidade total.
+**Tanques Portáteis** serão sua opção de armazenamento de fluidos de uso geral. Eles têm E/S configurável e podem
+receber [melhorias](../fundamentals/upgrade_system.md). Os tanques retêm seu conteúdo ao serem quebrados e têm
+**capacidade de manipulação de fluido** tanto como itens quanto como entidades de bloco. Como itens, não têm limite de
+transferência. Como entidades de bloco, seu limite de transferência é 1/10 da capacidade total.
 
-> Cuidado ao remover melhorias que concedem capacidade! Se o fluido armazenado exceder a nova capacidade, o excesso será destruído.
+> Cuidado ao remover melhorias de capacidade! Se o fluido armazenado exceder a nova capacidade, qualquer excesso será destruído.
 
 ## Variantes Infinitas Especiais
 
@@ -28,5 +28,6 @@ da sua capacidade total.
 <BlockImage id="infinite_lava_tank" scale="2" />
 </Row>
 
-Estes tanques portáteis têm nome e aparência únicos. Eles fornecem uma fonte funcionalmente infinita (`Integer.MAX_VALUE` se precisarmos
-ser exatos) e limite de transferência de fluido. Sua saída automática também é mais rápida que a da variante normal: 5 tiques contra 20.
+Estes tanques portáteis têm nome e aparência únicos. Eles fornecem uma fonte e um limite de transferência de fluido
+funcionalmente infinitos (`Integer.MAX_VALUE`, se precisarmos ser exatos). Sua saída automática também é mais rápida
+que a da variante normal: 5 tiques contra 20.

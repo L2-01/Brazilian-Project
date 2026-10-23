@@ -19,6 +19,6 @@ O Inscritor Estendido é um <ItemLink id="ae2:inscriber" /> avançado.
 
 Ele pode executar 4 trabalhos de inscrição ao mesmo tempo.
 
-Há um botão que permite mudar o tamanho máximo de pilha do inventário dele, como no normal.
+Há um botão que permite mudar o tamanho máximo de pilha do seu inventário, como no Inscritor normal.
 
-É recomendado definir o tamanho de pilha para 1 ao usá-lo com um <ItemLink id="ae2:pattern_provider" /> para evitar possíveis problemas.
+Recomenda-se definir o tamanho da pilha para 1 ao usá-lo com um <ItemLink id="ae2:pattern_provider" /> para evitar possíveis problemas.

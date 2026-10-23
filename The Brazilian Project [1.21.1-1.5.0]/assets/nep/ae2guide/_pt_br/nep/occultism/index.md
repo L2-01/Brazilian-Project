@@ -12,7 +12,7 @@ navigation:
 
   <ItemImage id="occultism:golden_sacrificial_bowl" scale="2"/>
 
-  Leva o trabalho com espíritos do Occultism para a fabricação automática ME: fogo espiritual, trituração e cristalização dentro de uma única Matriz, espíritos operários reais alimentados direto de um Provedor de Padrões, e rituais de fabricação executados no seu próprio pentáculo.
+  Põe o trabalho espiritual do Occultism na fabricação automática ME: fogo espiritual, trituração e cristalização dentro de uma única Matriz, espíritos trabalhadores reais alimentados direto de um Provedor de Padrões, e rituais de fabricação executados no seu próprio pentáculo.
 </Column>
 
 <Recipe id="nep:module_status/occultism"/>
@@ -27,10 +27,10 @@ navigation:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-| Processo | Configuração | Padrão |
+| Processo | Preparação | Padrão |
 |---|---|---|
 | <ItemImage id="nep:bound_spirit_matrix" scale="0.5"/> Fogo espiritual, trituração e cristalização | Uma única Matriz, com um Livro Infundido com Espírito para trituração ou cristalização | Padrão de Processamento |
-| <ItemImage id="nep:spirit_provider" scale="0.5"/> Trituração, cristalização, fundição e troca | Um Provedor de Espíritos dentro da área de trabalho de um espírito operário | Padrão de Processamento |
+| <ItemImage id="nep:spirit_provider" scale="0.5"/> Trituração, cristalização, fundição e comércio | Um Provedor de Espíritos dentro da área de trabalho de um espírito trabalhador | Padrão de Processamento |
 | <ItemImage id="nep:ritual_controller" scale="0.5"/> Rituais de fabricação | Um Controlador de Rituais ao lado da tigela dourada de um pentáculo, com um Livro Infundido com Espírito | Padrão de Ritual |
 
 <ItemImage id="minecraft:air" scale="0.5"/>
@@ -45,7 +45,7 @@ navigation:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
-Num servidor que liga **Require Decoder**, os Padrões de Ritual só codificam numa rede cujo [Decodificador de Padrões](/nep/pattern-decoder.md) carregue este módulo. Sem ele, codificam como Padrões de Processamento comuns.
+Num servidor que ativa **Exigir Decodificador**, Padrões de Ritual só codificam numa rede cujo [Decodificador de Padrões](/nep/pattern-decoder.md) carrega este módulo. Sem ele, codificam como Padrões de Processamento comuns.
 
 <Recipe id="nep:occultism_encoding_module"/>
 

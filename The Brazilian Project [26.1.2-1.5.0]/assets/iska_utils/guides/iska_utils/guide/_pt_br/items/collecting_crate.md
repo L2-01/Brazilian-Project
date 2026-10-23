@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:collecting_crate
 categories:
-  - Mundo e máquinas
+  - World and machines
 ---
 # Caixa Coletora
 
@@ -19,34 +19,34 @@ Aspira **entidades de itens** e **orbs de experiência** dentro de uma caixa ao 
 
 ## Área de coleta
 
-- A caixa se estende para a **esquerda**, **direita**, **cima** e **trás** em relação à face do bloco (não na frente da face da caixa).
-- **Módulo de Alcance** no espaço de módulo aumenta as extensões máximas (empilhe módulos até o limite). Veja **Módulos** → **Módulo de Alcance**.
-- **Prévia** alterna um contorno no cliente da caixa ativa.
+- A caixa se estende para a **esquerda**, **direita**, **cima** e **atrás** em relação à direção do bloco (não à frente da face da caixa).
+- Um **Módulo de Alcance** no slot de módulo aumenta os limites máximos (empilhe módulos para alcançar o limite). Veja **Módulos** → **Módulo de Alcance**.
+- **Prévia** alterna um contorno do lado do cliente da caixa ativa.
 
-Ajuste as extensões com os botões **+ / −** (Cima, Esquerda, Direita, Trás). Modificadores:
+Ajuste os limites com os botões **+ / −** (Cima, Esquerda, Direita, Atrás). Modificadores:
 
-- **Clique esquerdo**: +1  
-- **Clique direito**: −1  
-- **Shift**: ±10  
-- **Alt / Ctrl**: ±5  
+- **Clique esquerdo**: +1
+- **Clique direito**: −1
+- **Shift**: ±10
+- **Alt / Ctrl**: ±5
 
 ## Modo de coleta
 
 Alterna com o botão de modo:
 
 - **XP e itens** (padrão)
-- **Só XP**
-- **Só itens**
+- **Somente XP**
+- **Somente itens**
 
 ## Tanque de XP
 
-- XP é armazenado como fluido; a GUI mostra os **níveis armazenados**.
-- **Coletar todo XP para o jogador** — puxa o XP armazenado para você.
-- **Depositar todo XP do jogador** — despeja seu XP no tanque (respeitando a capacidade).
+- O XP é armazenado como fluido; a GUI mostra os **níveis armazenados**.
+- **Coletar todo o XP para o jogador** — puxa o XP armazenado para você.
+- **Depositar todo o XP do jogador** — esvazia seu XP no tanque (respeitando a capacidade).
 
 ## Armazenamento e automação
 
-- Handlers de **item** e **fluido** no bloco para funis e tubos.
+- Manipuladores de **itens** e **fluidos** no bloco para funis e canos.
 
 ## Redstone
 
@@ -54,5 +54,5 @@ Mesmos modos das outras máquinas: **Ignorar**, **Baixo**, **Alto**, **Desativad
 
 ## Dicas
 
-- Coloque a caixa **atrás** da câmara de abate em relação à sua face para que a caixa cubra a zona de itens largados.
-- Use **só itens** se o XP for encaminhado por tubos para outro lugar; use **só XP** para farms de experiência sem bagunça de itens.
+- Coloque a caixa **atrás** da zona de abate em relação à sua direção para que a caixa cubra a área de drops.
+- Use **somente itens** se o XP for encanado para outro lugar; use **somente XP** para farms de experiência sem poluição de itens.

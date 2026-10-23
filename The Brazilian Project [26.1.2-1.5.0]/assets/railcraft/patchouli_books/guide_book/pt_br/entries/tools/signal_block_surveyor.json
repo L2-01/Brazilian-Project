@@ -1,11 +1,11 @@
 {
-  "name": "Topógrafo de Bloco de Sinal",
-  "icon": "railcraft:signal_block_surveyor",
-  "category": "railcraft:tools",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Esta ferramenta de vistoria é usada para emparelhar dois Sinais de Bloco para criar um Bloco de Sinal. Para começar a vistoria, clique com o botão direito num Sinal de Bloco. Para completar o Bloco de Sinal, vá até o sinal na outra extremidade e clique com o botão direito nele também. Se o Bloco de Sinal for válido, uma mensagem aparecerá na tela dizendo que o emparelhamento foi bem-sucedido. Se o emparelhamento falhar, uma mensagem também deve aparecer dizendo por que falhou."
-    }
-  ]
+    "name": "Topógrafo de Bloco de Sinal",
+    "icon": "railcraft:signal_block_surveyor",
+    "category": "railcraft:tools",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Esta ferramenta de topografia é usada para parear dois Sinais de Bloco e criar um Bloco de Sinal. Para começar a medição, clique com o botão direito num Sinal de Bloco. Para completar o Bloco de Sinal, vá até o sinal na outra extremidade e clique com o botão direito nele também. Se o Bloco de Sinal for válido, uma mensagem aparecerá na tela informando que o pareamento foi bem-sucedido. Se falhar, uma mensagem também aparecerá explicando o motivo."
+        }
+    ]
 }

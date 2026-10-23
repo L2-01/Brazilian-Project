@@ -1,7 +1,7 @@
 ---
 navigation:
     parent: epp_intro/epp_intro-index.md
-    title: ME Caner
+    title: Envasadora ME
     icon: expatternprovider:caner
 categories:
 - extended devices
@@ -9,11 +9,11 @@ item_ids:
 - expatternprovider:caner
 ---
 
-# ME Caner
+# Envasadora ME
 
 <BlockImage id="expatternprovider:caner" scale="8"></BlockImage>
 
-O ME Caner é uma máquina que envasa recursos, incluindo fluidos, gás do Mekanism, mana do Botania e até energia!
+A Envasadora ME é uma máquina que envasa recursos, incluindo fluidos, gás do Mekanism, mana do Botania e até energia!
 
 O primeiro espaço é para o que encher, e o segundo espaço é para o que deve ser enchido.
 
@@ -28,7 +28,7 @@ Por padrão ele só enche fluidos. Você precisa instalar o addon correspondente
 - Applied Mekanistics
 - Applied Botanics Addon
 
-## Autofabricação com o ME Caner
+## Autofabricação com a Envasadora ME
 
 Apenas os lados de cima e de baixo podem aceitar energia e se conectar à rede.
 
@@ -36,7 +36,7 @@ Apenas os lados de cima e de baixo podem aceitar energia e se conectar à rede.
   <ImportStructure src="../structure/caner_example.snbt"></ImportStructure>
 </GameScene>
 
-Uma configuração simples para o ME Caner. O ME Caner ejeta automaticamente o item enchido quando aceita os ingredientes do <ItemLink id="ae2:pattern_provider" />.
+Uma configuração simples para a Envasadora ME. A Envasadora ME ejeta automaticamente o item enchido quando aceita os ingredientes do <ItemLink id="ae2:pattern_provider" />.
 
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../structure/caner_auto.snbt"></ImportStructure>
@@ -55,4 +55,4 @@ Carregar um Tablet de Energia (requer Applied Flux):
 
 ## Desenvasar
 
-O ME Caner também pode drenar recursos de recipientes no modo Esvaziar. Você precisa trocar as entradas e saídas no padrão.
+A Envasadora ME também pode drenar recursos de recipientes no modo Esvaziamento. Você precisa trocar as entradas e saídas no padrão.

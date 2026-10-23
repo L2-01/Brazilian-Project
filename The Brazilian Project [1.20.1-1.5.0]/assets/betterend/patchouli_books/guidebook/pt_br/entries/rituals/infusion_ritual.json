@@ -10,13 +10,13 @@
         },
         {
             "type": "crafting",
-            "title": "Preparando a estrutura",
-            "text": "Primeiro, você precisa fabricar um $(bold)Pedestal de Infusão$() e 8 pedestais de $(bold)qualquer$() outro tipo.",
+            "title": "Preparando a Estrutura",
+            "text": "Primeiro, você precisa fabricar o $(bold)Pedestal de Infusão$() e 8 pedestais de $(bold)qualquer$() outro tipo.",
             "recipe": "betterend:infusion_pedestal"
         },
         {
             "type": "image",
-            "text": "Depois, você precisa colocar o Pedestal de Infusão no centro e os outros pedestais ao redor.",
+            "text": "Depois você precisa colocar o Pedestal de Infusão no centro e os outros pedestais ao redor.",
             "border": true,
             "images": [
                 "betterend:textures/images/infusion_ritual/infusion_ritual_start.png",
@@ -26,7 +26,7 @@
         {
             "type": "image",
             "title": "Infusão",
-            "text": "Quando a estrutura do ritual estiver pronta, você pode começar a infusão.",
+            "text": "Quando a estrutura do ritual estiver pronta, você pode iniciar a infusão.",
             "border": false,
             "images": [
                 "betterend:textures/images/infusion_ritual/ritual_structure.png"
@@ -54,7 +54,7 @@
         },
         {
             "type": "image",
-            "text": "E pegar o resultado.",
+            "text": "E pegue o resultado.",
             "border": false,
             "images": [
                 "betterend:textures/images/infusion_ritual/ritual_finished.png"

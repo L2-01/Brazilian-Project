@@ -5,7 +5,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "Os $(item)Pacotes de Volume/$ podem conter certos materiais a granel como fluidos, e podem ser inseridos ou desempacotados em recipientes correspondentes."
+			"text": "Os $(item)Pacotes de Volume/$ podem conter certos materiais a granel como fluidos e podem ser inseridos ou desempacotados nos recipientes correspondentes."
 		},
 		{
 			"type": "patchouli:spotlight",
@@ -26,7 +26,7 @@
 			"flag": "mod:ae2",
 			"item": "packagedauto:volume_package",
 			"title": "Integração com AE2",
-			"text": "Máquinas que fornecem fabricação automática para $(thing)Redes ME/$ podem tratar o conteúdo dos $(thing)Pacotes de Volume/$ como entradas/saídas de fabricação automática e podem criá-los diretamente."
+			"text": "Máquinas que fornecem autofabricação a $(thing)Redes ME/$ podem tratar o conteúdo dos $(thing)Pacotes de Volume/$ como entradas/saídas de autofabricação e podem criá-los diretamente."
 		}
 	],
 	"read_by_default": true,

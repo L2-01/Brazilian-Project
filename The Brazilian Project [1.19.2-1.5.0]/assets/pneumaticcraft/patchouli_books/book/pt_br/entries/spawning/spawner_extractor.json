@@ -1,25 +1,25 @@
 {
-  "name": "Extrator de Gerador de Criaturas",
-  "icon": "pneumaticcraft:spawner_extractor",
-  "category": "pneumaticcraft:spawning",
-  "advancement": "pneumaticcraft:pressure_tube",
-  "pages": [
-    {
-      "type": "text",
-      "text": "Um $(item)Extrator de Gerador de Criaturas/$ é uma das duas formas de obter um $(l:spawning/spawner_core)Núcleo de Gerador de Criaturas/$, necessário se você quiser usar um $(l:spawning/pressurized_spawner)Gerador de Criaturas Pressurizado/$.$(p)Para usar o Extrator de Gerador de Criaturas, posicione-o em cima de um $(item)Gerador de Criaturas/$ vanilla, que você precisará encontrar em algum lugar do mundo."
-    },
-    {
-      "type": "text",
-      "text": "Então, forneça ao Extrator de Gerador de Criaturas $(thing)-0,5 bar/$ de vácuo ou menos e prepare-se para uma luta. Acontece que os Geradores $(italic)realmente/$ não gostam de ser extraídos e geram criaturas numa taxa muito maior para se defender. Algumas dicas úteis:$(li)O tempo base de extração é de cerca de 60 segundos.$(li)Porém, criaturas defensoras próximas retardarão a extração, e muitas delas a paralisarão."
-    },
-    {
-      "type": "text",
-      "text": "$(li)Deve haver pelo menos um jogador por perto ou a extração paralisará.$(li)Se o $(thing)Gerador/$ não conseguir gerar defensores (ex.: níveis de luz ruins, chão faltando...), o processo também desacelerará e eventualmente paralisará.$(p)Quando a extração termina, um $(thing)Núcleo de Gerador de Criaturas/$ é ejetado e o Gerador vira um $(item)Gerador de Criaturas Vazio/$. Este bloco pode (e deve) ser recolhido, pois é usado para fabricar um $(l:spawning/pressurized_spawner)Gerador de Criaturas Pressurizado/$."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando um Extrator de Gerador de Criaturas.",
-      "recipe": "pneumaticcraft:spawner_extractor"
-    }
-  ]
+    "name": "Extrator de Gerador de Criaturas de Criaturas",
+    "icon": "pneumaticcraft:spawner_extractor",
+    "category": "pneumaticcraft:spawning",
+    "advancement": "pneumaticcraft:pressure_tube",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Um $(item)Extrator de Gerador de Criaturas de Criaturas/$ é uma das duas formas de obter um $(l:spawning/spawner_core)Núcleo de Gerador de Criaturas/$, de que você precisará se quiser usar um $(l:spawning/pressurized_spawner)Gerador de Criaturas Pressurizado/$.$(p)Para usar o Extrator de Gerador de Criaturas de Criaturas, coloque-o em cima de um $(item)Gerador/$ do jogo padrão, que você precisará encontrar em algum lugar do mundo."
+        },
+        {
+            "type": "text",
+            "text": "Depois, forneça ao Extrator de Gerador de Criaturas $(thing)-0,5 bar/$ de vácuo ou menos, e prepare-se para uma luta. Acontece que Geradores $(italic)realmente/$ não gostam de ser extraídos, e geram criaturas a uma taxa muito maior para se defender. Algumas dicas úteis:$(li)O tempo base de extração é de cerca de 60 segundos.$(li)Porém, quaisquer criaturas defensoras por perto retardarão a extração, e muitas delas a travarão por completo."
+        },
+        {
+            "type": "text",
+            "text": "$(li)Deve haver pelo menos um jogador por perto ou a extração parará.$(li)Se o $(thing)Gerador/$ não conseguir gerar defensores (ex.: níveis de luz ruins, chão faltando...), o processo também desacelerará e eventualmente parará.$(p)Quando a extração termina, um $(thing)Núcleo de Gerador de Criaturas/$ é ejetado e o Gerador se torna um $(item)Gerador de Criaturas Vazio/$. Esse bloco pode (e deve) ser recolhido, pois é usado para fabricar um $(l:spawning/pressurized_spawner)Gerador de Criaturas Pressurizado/$."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Extrator de Gerador de Criaturas de Criaturas",
+            "recipe": "pneumaticcraft:spawner_extractor"
+        }
+    ]
 }

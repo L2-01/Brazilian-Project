@@ -54,55 +54,55 @@ item_ids:
   </Row>
 </Column>
 
-Células de Armazenamento são um dos métodos primários de armazenamento no Applied Energistics. Elas vão em <ItemLink id="drive" />s
+Células de Armazenamento são um dos principais métodos de armazenamento no Applied Energistics. Elas vão em <ItemLink id="drive" />s
 ou <ItemLink id="chest" />s.
 
 Veja [Bytes e Tipos](../ae2-mechanics/bytes-and-types.md) para uma explicação de suas capacidades em bytes e tipos.
 
-Componentes de armazenamento podem ser removidos da cápsula se a célula estiver vazia, shift-clicando com o botão direito com a célula na mão.
+Componentes de armazenamento podem ser removidos da cápsula se a célula estiver vazia, dando shift+clique direito com a célula na mão.
 
 <Row>
     <Recipe id="upgrade/item_storage_cell_1k_to_4k" />
 
-    Você pode melhorar células de armazenamento para níveis superiores combinando-as com componentes de armazenamento de nível superior numa grade de fabricação. O conteúdo será retido, e o componente de nível inferior é devolvido.
+    Você pode melhorar células de armazenamento para níveis superiores combinando-as com componentes de armazenamento de nível maior numa grade de fabricação. O conteúdo é mantido e o componente de nível menor é devolvido.
 </Row>
 
-## Capacidade de Armazenamento com Contagem de Tipos Variável
+## Capacidade de Armazenamento com Número Variável de Tipos
 
-O [custo inicial dos tipos](../ae2-mechanics/bytes-and-types.md) é tal que uma célula com 1 tipo comporta 2x mais que uma célula com todos os 63 tipos em uso.
+O [custo inicial de tipos](../ae2-mechanics/bytes-and-types.md) é tal que uma célula com 1 tipo pode guardar 2x mais que uma célula com os 63 tipos em uso.
 
 | Célula                                   | Capacidade Total da Célula com 1 Tipo em Uso | Capacidade Total da Célula com 63 Tipos em Uso |
-| ---------------------------------------- | -----------------------------------------: | -------------------------------------------: |
-| <ItemLink id="item_storage_cell_1k" />   |                                      8.128 |                                        4.160 |
-| <ItemLink id="item_storage_cell_4k" />   |                                     32.512 |                                       16.640 |
-| <ItemLink id="item_storage_cell_16k" />  |                                    130.048 |                                       66.560 |
-| <ItemLink id="item_storage_cell_64k" />  |                                    520.192 |                                      266.240 |
-| <ItemLink id="item_storage_cell_256k" /> |                                  2.080.768 |                                    1.064.960 |
+| ---------------------------------------- | ----------------------------------------: | ------------------------------------------: |
+| <ItemLink id="item_storage_cell_1k" />   |                                     8,128 |                                       4,160 |
+| <ItemLink id="item_storage_cell_4k" />   |                                    32,512 |                                      16,640 |
+| <ItemLink id="item_storage_cell_16k" />  |                                   130,048 |                                      66,560 |
+| <ItemLink id="item_storage_cell_64k" />  |                                   520,192 |                                     266,240 |
+| <ItemLink id="item_storage_cell_256k" /> |                                 2,080,768 |                                   1,064,960 |
 
 
 ## Particionamento
 
-Células podem ser filtradas para aceitar apenas certos itens, semelhante a como <ItemLink id="storage_bus" />s podem ser filtrados. Isso é
+Células podem ser filtradas para aceitar apenas certos itens, parecido com como <ItemLink id="storage_bus" />es podem ser filtrados. Isso é
 feito numa <ItemLink id="cell_workbench" />.
 
-Itens podem ser arrastados aos slots a partir do JEI/REI mesmo que você não tenha de fato nenhum daquele item.
+Itens podem ser arrastados para os slots a partir do JEI/REI mesmo que você não tenha nenhum daquele item.
 
 ## Melhorias
 
-Células de armazenamento suportam as seguintes [melhorias](upgrade_cards.md), inseridas numa <ItemLink id="cell_workbench" />:
+Células de armazenamento suportam as seguintes [melhorias](upgrade_cards.md), inseridas via uma <ItemLink id="cell_workbench" />:
 
 *   <ItemLink id="fuzzy_card" /> (não disponível em células de fluido) permite particionar a célula por nível de dano e/ou ignorar o NBT do item
-*   <ItemLink id="inverter_card" /> troca o filtro de lista de permissão para lista de bloqueio
-*   <ItemLink id="equal_distribution_card" /> aloca a mesma quantidade de espaço de bytes da célula para cada tipo, de modo que um tipo não consiga encher a célula inteira
-*   <ItemLink id="void_card" /> destrói itens inseridos se a célula estiver cheia (ou o espaço alocado daquele tipo específico no
-    caso de um cartão de distribuição igualitária), útil para impedir que farms congestionem. Cuidado para particionar isto!
+*   <ItemLink id="inverter_card" /> troca o filtro de lista branca para lista negra
+*   <ItemLink id="equal_distribution_card" /> aloca a mesma quantidade de espaço de bytes da célula para cada tipo, para que um tipo não possa encher a célula inteira
+*   <ItemLink id="void_card" /> descarta itens inseridos se a célula estiver cheia (ou o espaço alocado daquele tipo específico,
+    no caso de um cartão de distribuição igualitária) — útil para impedir que farms entupam. Tenha cuidado para particionar isso!
 *   Células portáteis podem aceitar <ItemLink id="energy_card" /> para aumentar sua capacidade de bateria
 
 ## Coloração
 
-Células portáteis de itens e de fluidos podem ser coloridas de forma semelhante à armadura de couro, fabricando-as junto com corantes.
+Células portáteis de itens e fluidos podem ser coloridas parecido com armadura de couro, fabricando-as junto com corantes.
 
-# Cápsulas
+# Housings
 
 Células podem ser feitas com um componente de armazenamento e uma cápsula, ou com a receita de cápsula ao redor de um componente de armazenamento:
 
@@ -143,7 +143,7 @@ em 4x e custa 3 do nível anterior.
 
 # Células de Armazenamento de Itens
 
-Células de armazenamento de itens podem comportar até 63 tipos distintos de itens, e estão disponíveis em todas as capacidades padrão.
+Células de armazenamento de itens podem guardar até 63 tipos distintos de itens e estão disponíveis em todas as capacidades padrão.
 
 <Column>
   <Row>
@@ -163,9 +163,9 @@ Células de armazenamento de itens podem comportar até 63 tipos distintos de it
 
 ## Armazenamento Portátil de Itens
 
-Estas agem como um <ItemLink id="chest" /> minúsculo no seu bolso, ou como uma espécie de mochila. Podem ser carregadas num <ItemLink id="charger" />
+Estas agem como um pequeno <ItemLink id="chest" /> no seu bolso, ou como uma forma de mochila. Elas podem ser carregadas num <ItemLink id="charger" />
 
-Ao contrário das células de armazenamento padrão, estas de fato *reduzem* em capacidade de tipos conforme a capacidade de bytes aumenta, e têm metade da
+Diferente das células de armazenamento padrão, estas na verdade *reduzem* a capacidade de tipos conforme a capacidade de bytes aumenta, e têm metade da
 capacidade total de bytes.
 
 Além dos cartões de melhoria que todas as células podem receber, estas também aceitam <ItemLink id="energy_card" />s para melhorar suas baterias internas.
@@ -188,7 +188,7 @@ Além dos cartões de melhoria que todas as células podem receber, estas també
 
 # Células de Armazenamento de Fluidos
 
-Células de armazenamento de fluidos podem comportar até 5 tipos distintos de fluidos, e estão disponíveis em todas as capacidades padrão.
+Células de armazenamento de fluidos podem guardar até 5 tipos distintos de fluidos e estão disponíveis em todas as capacidades padrão.
 
 <Column>
   <Row>
@@ -208,9 +208,9 @@ Células de armazenamento de fluidos podem comportar até 5 tipos distintos de f
 
 ## Armazenamento Portátil de Fluidos
 
-Estas agem como um <ItemLink id="chest" /> minúsculo no seu bolso, ou como uma espécie de mochila. Podem ser carregadas num <ItemLink id="charger" />
+Estas agem como um pequeno <ItemLink id="chest" /> no seu bolso, ou como uma forma de mochila. Elas podem ser carregadas num <ItemLink id="charger" />
 
-Ao contrário das células de armazenamento padrão, estas de fato *reduzem* em capacidade de tipos conforme a capacidade de bytes aumenta, e têm metade da
+Diferente das células de armazenamento padrão, estas na verdade *reduzem* a capacidade de tipos conforme a capacidade de bytes aumenta, e têm metade da
 capacidade total de bytes.
 
 Além dos cartões de melhoria que todas as células podem receber, estas também aceitam <ItemLink id="energy_card" />s para melhorar suas baterias internas.

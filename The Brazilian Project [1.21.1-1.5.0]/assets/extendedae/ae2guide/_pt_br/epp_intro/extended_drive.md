@@ -15,4 +15,4 @@ item_ids:
 <BlockImage id="extendedae:ex_drive" scale="8"></BlockImage>
 </Row>
 
-O Gabinete ME Estendido é um <ItemLink id="ae2:drive" /> com um inventário de células maior. Ele pode guardar 20 células de armazenamento.
+O Gabinete ME Estendido é um <ItemLink id="ae2:drive" /> com um inventário de células maior. Ele comporta 20 células de armazenamento.

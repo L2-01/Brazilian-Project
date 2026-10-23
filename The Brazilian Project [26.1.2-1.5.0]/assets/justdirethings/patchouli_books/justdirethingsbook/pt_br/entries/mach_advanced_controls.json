@@ -6,19 +6,19 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "As máquinas avançadas geralmente têm os mesmos controles das suas contrapartes simples, e mais alguns.$(br2)$(l)Área de Efeito$()$(br2)Máquinas avançadas podem afetar uma área grande, que pode ser visualizada clicando no botão \"Renderizar área\", para ver no mundo qual área o bloco afetará."
+      "text": "As máquinas avançadas normalmente têm os mesmos controles de suas contrapartes simples, além de vários outros.$(br2)$(l)Área de Efeito$()$(br2)As máquinas avançadas podem afetar uma grande área, que pode ser visualizada clicando no botão 'Renderizar área', para ver no mundo qual área o bloco afetará."
     },
     {
       "type": "patchouli:text",
-      "text": "Os botões RAD e OFF ajustam onde essa área de efeito se aplica.$(br2)RAD afeta o raio, aumentando a área afetada.$(br2)OFF afeta o deslocamento do bloco, movendo o centro da área para outra posição.$(br2)Teste esses botões com \"renderizar área\" ativo."
+      "text": "Os botões RAD e OFF ajustam onde essa área de efeito se aplica.$(br2)RAD afeta o raio, aumentando a área afetada.$(br2)OFF afeta o deslocamento do bloco, movendo o centro da área para uma posição diferente.$(br2)Teste esses botões com 'renderizar área' ativo."
     },
     {
       "type": "patchouli:text",
-      "text": "$(l)Filtros$()$(br2)A maioria das máquinas avançadas tem uma fileira de espaços de filtro, que permitem filtrar o que a máquina afeta. Podem ser itens, blocos ou entidades!$(br2)Você pode arrastar do JEI para preenchê-los, ou clicar neles com uma pilha de itens na mão dentro da GUI.$(br2)Para filtrar entidades, use um ovo gerador ou o capturador de criaturas."
+      "text": "$(l)Filtros$()$(br2)A maioria das máquinas avançadas tem uma fileira de espaços de filtro, que permite filtrar o que a máquina afeta — itens, blocos ou entidades!$(br2)Você pode arrastar do JEI para preenchê-los, ou clicar neles com uma pilha de itens na mão dentro da interface.$(br2)Para filtrar entidades, use um ovo gerador ou um capturador de criaturas."
     },
     {
       "type": "patchouli:text",
-      "text": "Você também pode alternar o botão de lista \"permitir vs bloquear\". No modo permitir, apenas itens listados serão afetados, enquanto no modo bloquear, qualquer coisa EXCETO os itens listados será afetada.$(br2)Comparar NBT pode ser usado para filtros mais específicos, como exigir encantamentos ou dano iguais numa ferramenta, ou filtrar uma cor específica de ovelha se estiver usando um capturador de criaturas."
+      "text": "Você também pode alternar o botão de lista 'permitir vs negar'. No modo permitir, apenas os itens listados serão afetados; no modo negar, tudo EXCETO os itens listados será afetado.$(br2)O Comparar NBT pode ser usado para filtros mais específicos, como exigir encantamentos ou durabilidade iguais em uma ferramenta, ou filtrar uma cor específica de ovelha ao usar um capturador de criaturas."
     }
   ]
 }

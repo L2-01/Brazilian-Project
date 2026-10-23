@@ -1,0 +1,16 @@
+{
+  "name": "Vassoura",
+  "icon": "enchanted:broom",
+  "category": "enchanted:tools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Uma vassoura pode ser usada para varrer o giz rapidamente, sem precisar gastar tempo apagando-o."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:broom"
+    }
+  ],
+  "read_by_default": true
+}

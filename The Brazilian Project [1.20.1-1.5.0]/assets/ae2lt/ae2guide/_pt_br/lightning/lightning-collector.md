@@ -17,9 +17,9 @@ item_ids:
 
 O **Coletor de Raios** é o ponto de partida do sistema de Raios. Quando um raio cai dentro da sua área de coleta, o coletor injeta energia de Raios diretamente na rede ME.
 
-*`"Emprestando dos outros, buscando a si mesmo."`*
+*`"Borrowing from others, seeking oneself."`*
 
-`— Bloco Misterioso`
+`— Mysterious Block`
 
 ## Uso Básico
 

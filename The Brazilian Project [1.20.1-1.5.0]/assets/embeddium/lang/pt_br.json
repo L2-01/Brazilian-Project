@@ -76,5 +76,178 @@
     "sodium.console.pojav_launcher": "PojavLauncher não é suportado ao usar o Embeddium.\n  * É muito provável que você encontre problemas extremos de desempenho, erros gráficos e falhas.\n  * Você estará por sua conta se decidir continuar -- não ajudaremos com quaisquer bugs ou falhas!",
     "sodium.console.core_shaders_error": "Os seguintes pacotes de recursos são incompatíveis com o Embeddium:",
     "sodium.console.core_shaders_warn": "Os seguintes pacotes de recursos podem ser incompatíveis com o Embeddium:",
-    "sodium.console.core_shaders_info": "Verifique o log do jogo para informações detalhadas."
+    "sodium.console.core_shaders_info": "Verifique o log do jogo para informações detalhadas.",
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "xenon.extras.options.common.slow": "Lento",
+    "xenon.extras.options.common.normal": "Normal",
+    "xenon.extras.options.common.fast": "Rápido",
+    "xenon.extras.options.common.superfast": "Super Rápido",
+    "xenon.extras.options.common.fastest": "O Mais Rápido",
+    "xenon.extras.options.common.realtime": "Tempo real",
+    "xenon.extras.options.common.off": "Desligado",
+    "xenon.extras.options.common.on": "Ligado",
+    "xenon.extras.options.common.simple": "Simples",
+    "xenon.extras.options.common.advanced": "Avançado",
+    "xenon.extras.options.common.frametime": "Tempo de Quadro",
+    "xenon.extras.options.common.attach": "Anexar",
+    "xenon.extras.options.common.replace": "Substituir",
+    "xenon.extras.options.common.experimental": "[EXPERIMENTAL]",
+    "xenon.extras.options.common.millis": "ms",
+
+    "xenon.extras.options.clouds.height.title": "Altura das Nuvens",
+    "xenon.extras.options.clouds.height.desc": "Aumenta a altura das nuvens.\nConfigura a altura das nuvens",
+
+    "xenon.extras.options.culling.page": "Descarte de Entidades",
+    "xenon.extras.options.culling.entity.title": "Usar Distância Máxima de Entidade",
+    "xenon.extras.options.culling.entity.desc": "Se ativado, as Entidades serão escondidas com base no limite de distância configurado",
+    "xenon.extras.options.culling.entity.distance.horizontal.title": "Distância Máxima de Entidades (Horizontal)",
+    "xenon.extras.options.culling.entity.distance.horizontal.desc": "Esconde e não processa (tiques) entidades além desta quantidade de blocos. Grande aumento de desempenho, especialmente perto de fazendas de mods.",
+    "xenon.extras.options.culling.entity.distance.vertical.title": "Distância Máxima de Entidades (Vertical)",
+    "xenon.extras.options.culling.entity.distance.vertical.desc": "Esconde e não processa (tiques) entidades abaixo desta quantidade de blocos, melhorando o desempenho acima de cavernas. Este valor deve ser menor que a distância horizontal.",
+    "xenon.extras.options.culling.tiles.title": "Usar Distância Máxima de Entidade de Bloco",
+    "xenon.extras.options.culling.tiles.desc": "Se ativado, as Entidades de Bloco serão escondidas com base no limite de distância configurado",
+    "xenon.extras.options.culling.tile.distance.horizontal.title": "Distância Máxima de Entidades de Bloco (Horizontal)",
+    "xenon.extras.options.culling.tile.distance.horizontal.desc": "Esconde entidades de bloco além desta quantidade de blocos. Grande aumento de desempenho, especialmente perto de muitas máquinas de mods.",
+    "xenon.extras.options.culling.tile.distance.vertical.title": "Distância Máxima de Entidades de Bloco (Vertical)",
+    "xenon.extras.options.culling.tile.distance.vertical.desc": "Esconde entidades de bloco abaixo desta quantidade de blocos, melhorando o desempenho acima de cavernas (se você tiver suas máquinas em cavernas, por algum motivo). Este valor deve ser menor que a distância horizontal.",
+
+    "xenon.extras.options.culling.entity.distance.hostile.title": "Modificador de Entidade Hostil",
+    "xenon.extras.options.culling.entity.distance.hostile.desc": "Permite controle separado sobre a distância na qual entidades hostis vs. passivas são descartadas",
+
+    "xenon.extras.options.darkness.page": "Escuridão Real",
+    "xenon.extras.options.darkness.mode.title": "Modo de Escuridão",
+    "xenon.extras.options.darkness.mode.desc": "Torna o resto do mundo mais realisticamente escuro. Não afeta a luz do dia ou das tochas.\nControla o quão escuro é considerado a escuridão real.",
+    "xenon.extras.options.darkness.mode.pitchblack": "Breu Total",
+    "xenon.extras.options.darkness.mode.reallydark": "Muito Escuro",
+    "xenon.extras.options.darkness.mode.dark": "Escuro",
+    "xenon.extras.options.darkness.mode.dim": "Fraco",
+    "xenon.extras.options.darkness.others.title": "Ativar em Outras Dimensões",
+    "xenon.extras.options.darkness.others.desc": "Se ativado, a escuridão real será aplicada em outras dimensões\n\n[AVISO] Esta opção será removida em um futuro próximo em favor de uma lista-negra",
+    "xenon.extras.options.darkness.overworld.title": "Ativar no Mundo Superior",
+    "xenon.extras.options.darkness.overworld.desc": "Se ativado, a escuridão real será aplicada no Mundo Superior.",
+    "xenon.extras.options.darkness.noskylight.title": "Ativar em Dimensões sem Luz do Céu",
+    "xenon.extras.options.darkness.noskylight.desc": "Se ativado, a escuridão real será aplicada em dimensões sem luz do céu",
+    "xenon.extras.options.darkness.nether.title": "Ativar no Nether",
+    "xenon.extras.options.darkness.nether.desc": "Se ativado, a escuridão real será aplicada no Nether.",
+    "xenon.extras.options.darkness.nether.brightness.title": "Brilho da Neblina do Nether",
+    "xenon.extras.options.darkness.nether.brightness.desc": "Configura o brilho da neblina no Nether quando a escuridão está ativada.",
+    "xenon.extras.options.darkness.end.title": "Ativar no End",
+    "xenon.extras.options.darkness.end.desc": "Se ativado, a escuridão real será aplicada no End.",
+    "xenon.extras.options.darkness.end.brightness.title": "Brilho da Neblina do End",
+    "xenon.extras.options.darkness.end.brightness.desc": "Configura o brilho da neblina no End quando a escuridão está ativada.",
+    "xenon.extras.options.darkness.blocklightonly.title": "Apenas luz de bloco",
+    "xenon.extras.options.darkness.blocklightonly.desc": "Se ativado, desativa o brilho do céu, neblina e lua, tornando os blocos a única fonte de luz",
+    "xenon.extras.options.darkness.moonphase.title": "Usar Fases da Lua",
+    "xenon.extras.options.darkness.moonphase.desc": "Se ativado, a Escuridão será afetada pelas Fases da Lua",
+    "xenon.extras.options.darkness.moonphase.fresh.title": "Brilho da Lua Nova (mín)",
+    "xenon.extras.options.darkness.moonphase.fresh.desc": "Configura o brilho em uma lua nova, ou nível de brilho mínimo na fase de lua negra",
+    "xenon.extras.options.darkness.moonphase.full.title": "Brilho da Lua Cheia (máx)",
+    "xenon.extras.options.darkness.moonphase.full.desc": "Configura o brilho em uma lua cheia, ou nível de brilho máximo na fase de lua negra",
+
+    "xenon.extras.options.displayfps.title": "Mostrar FPS",
+    "xenon.extras.options.displayfps.desc": "Exibe o FPS atual. O modo avançado também exibe o FPS mínimo, bem como a média de FPS de 15 segundos, útil para avaliar o desempenho.",
+
+    "xenon.extras.options.displayfps.gravity.title": "Gravidade do Texto",
+    "xenon.extras.options.displayfps.gravity.desc": "Posição de canto da exibição do FPS",
+    "xenon.extras.options.displayfps.gravity.left": "Esquerda",
+    "xenon.extras.options.displayfps.gravity.center": "Centro",
+    "xenon.extras.options.displayfps.gravity.right": "Direita",
+
+    "xenon.extras.options.displayfps.system.title": "Exibir Métricas",
+    "xenon.extras.options.displayfps.system.desc": "Exibe o uso de memória e o uso da GPU ao lado do contador de FPS",
+    "xenon.extras.options.displayfps.system.gpu": "Apenas Gráficos",
+    "xenon.extras.options.displayfps.system.ram": "Apenas Memória",
+
+    "xenon.extras.options.displayfps.margin.title": "Margem do Texto",
+    "xenon.extras.options.displayfps.margin.desc": "Deslocamento da exibição do FPS",
+
+    "xenon.extras.options.displayfps.shadow.title": "Usar Caixa de Sombra de Texto",
+    "xenon.extras.options.displayfps.shadow.desc": "Adiciona uma caixa de sombra na exibição do FPS, no estilo puro do F3",
+
+    "xenon.extras.options.displayfps.fps": "FPS",
+    "xenon.extras.options.displayfps.min": "MÍN",
+    "xenon.extras.options.displayfps.avg": "MÉD",
+    "xenon.extras.options.displayfps.gpu": "GPU",
+    "xenon.extras.options.displayfps.mem": "MEM",
+
+    "xenon.extras.options.dynlights.page": "Luzes Dinâmicas",
+    "xenon.extras.options.dynlights.tiles.title": "Usar em Entidades de Bloco",
+    "xenon.extras.options.dynlights.tiles.desc": "Se ativado, a iluminação dinâmica será exibida em entidades de bloco (fornalhas, máquinas de mods, etc).\n\nIsso pode aumentar drasticamente a quantidade de atualizações de iluminação, mesmo quando você não estiver perto de fornalhas",
+    "xenon.extras.options.dynlights.entities.title": "Usar em Entidades",
+    "xenon.extras.options.dynlights.entities.desc": "Se ativado, a iluminação dinâmica será exibida em entidades (itens jogados, criaturas, etc).\n\nIsso pode aumentar drasticamente a quantidade de atualizações de iluminação, mesmo quando você não estiver segurando uma tocha.",
+    "xenon.extras.options.dynlights.speed.title": "Velocidade de Atualização de Luz",
+    "xenon.extras.options.dynlights.speed.desc": "Controla a frequência com que as luzes dinâmicas serão atualizadas.\n\nO recálculo de iluminação pode ser pesado, portanto, valores mais lentos proporcionarão melhor desempenho.",
+    "xenon.extras.options.fadein.title": "Qualidade da Transição de Entrada de Chunks",
+    "xenon.extras.options.fadein.desc": "Controla a rapidez com que os chunks aparecem. Sem impacto no desempenho, o modo 'Detalhado' apenas demora mais, mas fica um pouco mais bonito. Atualmente não está funcionando",
+    "xenon.extras.options.fastchest.title": "Usar Baús Rápidos",
+    "xenon.extras.options.fastchest.desc": "Se ativado, substitui o modelo dos baús por um modelo estático, como um bloco normal. Quebra a animação do baú, mas é muito mais rápido em salas de baús\n\nEsta opção não tem efeito com o Flywheel instalado e executando backend de batching ou instancing",
+    "xenon.extras.options.fastbeds.title": "Usar Camas Rápidas",
+    "xenon.extras.options.fastbeds.desc": "Se ativado, substitui o modelo dinâmico da cama por um modelo estático, como um bloco normal. Aumenta o desempenho e também permite usar modelos personalizados com pacotes de recursos",
+    "xenon.extras.options.fog.title": "Usar Névoa",
+    "xenon.extras.options.fog.desc": "Se desativado, remove o efeito de névoa apenas no Mundo Superior",
+    "xenon.extras.options.fontshadow.title": "Sombras de Fonte",
+    "xenon.extras.options.fontshadow.desc": "Se desativado, o texto deixará de renderizar sombras, dando um estilo plano.\nAumenta o FPS dependendo de quanto texto há na tela, especialmente com mods BetterF3",
+    "xenon.extras.options.jei.title": "Ocultar JEI até buscar",
+    "xenon.extras.options.jei.desc": "Se ativado, a lista de itens do JEI ficará oculta a menos que você pesquise algo. Pressione espaço para buscar por tudo.",
+    "xenon.extras.options.screen.title": "Modo de Tela",
+    "xenon.extras.options.screen.desc": "Janela - o jogo será exibido em uma janela pequena.\nSem Bordas - o jogo ficará em tela cheia e bloqueado na taxa de atualização do seu monitor, mas permitirá que você saia da tela facilmente (Alt+Tab).\nTela Cheia - o jogo será exibido no modo de tela cheia nativo.",
+    "xenon.extras.options.screen.borderless": "Sem Bordas",
+    "xenon.extras.options.screen.windowed": "Janela",
+
+    "xenon.extras.options.zoom.page": "Zoom",
+    "xenon.extras.options.zoom.cinematic.title": "Zoom Cinemático",
+    "xenon.extras.options.zoom.cinematic.desc": "Ativa a Câmera Cinemática ao usar o zoom.\nSe você desativar isso, também deve tentar definir `zoomSmoothnessMs` como `0`",
+    "xenon.extras.options.zoom.sensitive.title": "Sensibilidade do Mouse",
+    "xenon.extras.options.zoom.sensitive.desc": "A sensibilidade do mouse não será reduzida abaixo deste valor durante o zoom.\nDefina como `1.0` para evitar que ela seja alterada (não recomendado sem `enableCinematicZoom`)",
+    "xenon.extras.options.zoom.speed.title": "Velocidade do Zoom",
+    "xenon.extras.options.zoom.speed.desc": "Velocidade das teclas de ampliar/reduzir o zoom e da rolagem de zoom (se ativada).",
+    "xenon.extras.options.zoom.scrolling.title": "Rolagem de Zoom",
+    "xenon.extras.options.zoom.scrolling.desc": "Permite aumentar e diminuir o zoom girando a roda do mouse para cima e para baixo enquanto o zoom está ativo.\nIsso impedirá que você percorra sua barra de itens enquanto faz o zoom, se estiver ativado.",
+    "xenon.extras.options.zoom.smoothness.title": "Suavidade do Zoom em Milissegundos",
+    "xenon.extras.options.zoom.smoothness.desc": "As alterações de FOV serão espalhadas por estes milissegundos.\nDefina como `0` para desativar as animações.",
+    "xenon.extras.options.zoom.easing.title": "Expoente de Suavização",
+    "xenon.extras.options.zoom.easing.desc": "O progresso da animação de suavização será elevado a este expoente. Números mais altos parecerão mais rápidos.\nRecomenda-se aumentar também o `zoomSmoothnessMs` ao aumentar este valor.\nDefina como `1` para desativar.",
+    "xenon.extras.options.zoom.quadratics.title": "Usar Quadráticos",
+    "xenon.extras.options.zoom.quadratics.desc": "A porcentagem de zoom será elevada ao quadrado antes de ser aplicada se for `true`.\nTorna as diferenças no FOV mais uniformes. Você provavelmente deve manter isso ativado se não entender o que faz.",
+    "xenon.extras.options.zoom.default.title": "Zoom Padrão",
+    "xenon.extras.options.zoom.default.desc": "Porcentagem inicial padrão do zoom.",
+    "xenon.extras.options.zoom.toggle.title": "Modo Alternar",
+    "xenon.extras.options.zoom.toggle.desc": "Se for `true`, a tecla de Zoom funcionará como um botão de alternar. Se for `false`, o Zoom só estará ativo enquanto a tecla for mantida pressionada.",
+    "xenon.extras.options.zoom.max.title": "FOV Máximo",
+    "xenon.extras.options.zoom.max.desc": "FOV máximo do zoom.",
+    "xenon.extras.options.zoom.min.title": "FOV Mínimo",
+    "xenon.extras.options.zoom.min.desc": "FOV mínimo do zoom.",
+
+    "xenon.extras.options.others.page": "Outros",
+    "xenon.extras.options.others.borderless.attachmode.title": "Tela Cheia Sem Bordas no F11",
+    "xenon.extras.options.others.borderless.attachmode.desc": "Configura como a Tela Cheia Sem Bordas deve ser anexada\n\nANEXAR - Adiciona entre o modo janela e Tela Cheia\nSUBSTITUIR - Substitui a Tela Cheia por Tela Cheia Sem Bordas\nDESLIGADO - Desativa o anexo da Tela Cheia Sem Bordas à tecla F11",
+    "xenon.extras.options.others.languagescreen.fastreload.title": "Recarregamento Rápido de Idioma",
+    "xenon.extras.options.others.languagescreen.fastreload.desc": "Se ativado, as atualizações de idioma recarregam apenas o idioma em vez de todos os recursos, um ganho extra de 99.9% de velocidade",
+    "xenon.extras.options.leaf_culling.name": "Modo de Descarte de Folhas",
+    "xenon.extras.options.leaf_culling.tooltip": "Se ativado, folhas atrás de outras folhas serão descartadas para melhorar o desempenho. Oco descartará faces agressivamente, e o modo Sólido ativará a renderização rápida de bloco sólido das folhas atrás de outras folhas.",
+
+    "options.leaf_culling.none": "Nenhum",
+    "options.leaf_culling.hollow": "Oco",
+    "options.leaf_culling.solid": "Sólido",
+    "options.leaf_culling.solid_aggressive": "Sólido Agressivo",
+
+
+
+
+
+
+    "xenon.conflicting_mod": "O Xenon detectou a presença de mods conhecidos por causar problemas de renderização/falhas. Recomenda-se desinstalá-los. Veja a lista abaixo.",
+    "xenon.conflicting_mod_list": "[{2}]"
 }

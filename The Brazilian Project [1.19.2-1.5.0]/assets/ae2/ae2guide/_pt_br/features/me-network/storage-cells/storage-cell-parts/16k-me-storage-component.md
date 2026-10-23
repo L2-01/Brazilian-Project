@@ -10,11 +10,12 @@ navigation:
   title: Componente de Armazenamento de 16k
 ---
 
-Segundo maior componente de armazenamento, usado para fazer a <ItemLink
-id="item_storage_cell_16k"/>, ou pode ser melhorado para
+O segundo maior componente de armazenamento, usado para fazer a <ItemLink
+id="item_storage_cell_16k"/>, ou pode ser aprimorado para
 fazer o <ItemLink id="cell_component_64k"/>.
 
-Pode ser recuperado de uma <ItemLink id="item_storage_cell_16k"/> fabricada esvaziando completamente a
-[célula de armazenamento](../../storage-cells.md) e usando shift + clique nela na sua mão.
+Pode ser recuperado de uma <ItemLink id="item_storage_cell_16k"/> fabricada esvaziando totalmente a
+[célula de armazenamento](../../storage-cells.md) e Shift+clicando com ela na
+mão.
 
 <RecipeFor id="cell_component_16k" />

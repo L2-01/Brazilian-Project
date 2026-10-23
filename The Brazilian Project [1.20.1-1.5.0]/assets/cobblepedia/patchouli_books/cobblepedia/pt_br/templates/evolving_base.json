@@ -2,7 +2,7 @@
     "processor": "com.gitlab.vinnystalck.cobblepedia.book.template.EvolvingProcessor",
     "components": [
         {
-            "type": "patchouli:item",         
+            "type": "patchouli:item",
             "item": "#pokemon_item",
             "guard": "#holding_item->exists",
             "framed": true,
@@ -29,7 +29,9 @@
         },
         {
             "type": "patchouli:tooltip",
-            "tooltip": ["Enquanto #pokemon_item->iname# carrega #holding_item->iname#"],
+            "tooltip": [
+                "Enquanto #pokemon_item->iname# segura #holding_item->iname#"
+            ],
             "guard": "#holding_item->exists",
             "width": 16,
             "height": 16,
@@ -56,7 +58,9 @@
         },
         {
             "type": "patchouli:tooltip",
-            "tooltip": ["Ao usar #using_item->iname# em #pokemon_item->iname#"],
+            "tooltip": [
+                "Ao usar #using_item->iname# em #pokemon_item->iname#"
+            ],
             "guard": "#using_item->exists",
             "width": 16,
             "height": 16,

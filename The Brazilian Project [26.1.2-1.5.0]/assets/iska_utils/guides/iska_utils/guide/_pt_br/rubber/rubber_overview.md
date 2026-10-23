@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:rubber
 categories:
-  - Borracha e processamento
+  - Rubber and processing
 ---
 # Borracha: visão geral
 
@@ -17,12 +17,12 @@ categories:
 
 - Seringueiras e extração de seiva.
 - Opções de automação.
-- Materiais centrais usados ao longo da progressão da borracha.
+- Materiais centrais usados em toda a progressão de borracha.
 
 ## Início rápido
 
 1. Consiga uma **Muda de Seringueira Sagrada** e cultive uma seringueira.
-2. Encontre uma variante de tronco de borracha drenável e use um **Drenador** para extrair **Seiva de Seringueira**.
+2. Ache uma variante de tronco de borracha drenável e use um **Drenador** para extrair **Seiva**.
 3. Processe a seiva em **Borracha**.
 
 <ItemGrid>

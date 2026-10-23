@@ -24,7 +24,7 @@ item_ids:
 ***
 
 <Column alignItems="center" fullWidth={true}>
-  ## <Color id="gold">Configuração</Color>
+  ## <Color id="gold">Preparação</Color>
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -38,10 +38,10 @@ item_ids:
   <Block id="actuallyadditions:display_stand" x="0" y="1" z="-3"/>
 </GameScene>
 
-* Construa o Fortalecedor exatamente como o Actually Additions pede: quatro Suportes de Exibição, a três blocos em cada eixo horizontal, todos na mesma altura.
-* Coloque um Provedor de Padrões contra qualquer face do **Fortalecedor** e largue padrões <ItemLink id="nep:empowering_pattern"/> nele.
-* Mantenha os quatro suportes energizados. Eles ainda são a única fonte de energia que a fabricação tem, e o próprio Fortalecedor não armazena nenhuma.
-* Adicione um <ItemLink id="nep:import_card"/> ao Provedor se quiser que o item fabricado volte direto ao sistema quando a fabricação terminar; caso contrário, o item concluído ficará no Fortalecedor.
+* Monte o Fortalecedor exatamente como o Actually Additions pede: quatro Suportes de Exibição, a três blocos em cada eixo horizontal, todos na mesma altura.
+* Coloque um Provedor de Padrões contra qualquer face do **Fortalecedor** e insira nele padrões de <ItemLink id="nep:empowering_pattern"/>.
+* Mantenha os quatro suportes energizados. Eles ainda são a única fonte de energia que a fabricação tem, e o próprio Fortalecedor não guarda nenhuma.
+* Adicione um <ItemLink id="nep:import_card"/> ao Provedor se quiser que o item fabricado volte direto ao sistema quando a fabricação terminar; caso contrário, o item pronto fica no Fortalecedor.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -54,8 +54,8 @@ item_ids:
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 * Abra um Terminal de Codificação de Padrões, escolha uma receita de fortalecimento no JEI e pressione **+**. Os cinco ingredientes caem na grade e o padrão codifica como um Padrão de Fortalecimento.
-* Qual suporte recebe qual modificador não importa. A Matriz e o Fortalecedor descobrem isso a partir da receita.
-* Um padrão é uma fabricação. Todo espaço que o Fortalecedor usa comporta um único item, então um padrão ampliado para duas ou mais fabricações é recusado em vez de preparado pela metade.
+* Qual suporte recebe qual modificador não importa. A Matriz e o Fortalecedor resolvem isso pela receita.
+* Um padrão é uma fabricação. Cada espaço que o Fortalecedor usa comporta um único item, então um padrão escalado para duas ou mais fabricações é recusado em vez de preparado pela metade.
 
 <ItemImage id="minecraft:air" scale="0.5"/>
 
@@ -68,6 +68,6 @@ item_ids:
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 * **Um suporte está faltando ou ocupado.** Os quatro precisam estar no lugar e vazios antes de uma fabricação ser preparada. Qualquer coisa deixada num suporte à mão bloqueia o envio.
-* **Os suportes estão descarregados.** Cada suporte paga sua parte a cada tique, e um suporte que seca pausa a fabricação com os itens ainda dentro. O Actually Additions nunca devolve esses itens por conta própria, então mantenha os suportes num fornecimento que aguente.
-* **O resultado nunca volta.** O Actually Additions só deixa a automação tirar um item de um Fortalecedor quando aquele item não é ele mesmo a base de outra receita de fortalecimento. Nenhuma receita oficial faz isso, mas um datapack poderia, e tal resultado precisa ser retirado à mão.
-* **O padrão é recusado de cara.** Codifique-o de novo a partir do JEI. Um padrão de processamento que nunca correspondeu a uma receita de fortalecimento fica marcado como inutilizável até o próximo `/reload`.
+* **Os suportes estão descarregados.** Cada suporte paga sua parte a cada tick, e um suporte que seca pausa a fabricação com os itens ainda nele. O Actually Additions nunca devolve esses itens sozinho, então mantenha os suportes num suprimento que aguente.
+* **O resultado nunca volta.** O Actually Additions só deixa a automação tirar um item de um Fortalecedor quando esse item não é ele mesmo a base de outra receita de fortalecimento. Nenhuma receita embutida faz isso, mas um datapack poderia, e tal resultado precisa ser tirado à mão.
+* **O padrão é recusado de cara.** Recodifique-o pelo JEI. Um padrão de processamento que nunca casou com uma receita de fortalecimento é lembrado como inutilizável até o próximo `/reload`.

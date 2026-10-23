@@ -1,42 +1,42 @@
 {
-	"name": "Proxy de Fabricação",
-	"category": "packagedauto:recipe",
-	"icon": "packagedauto:crafting_proxy",
-	"pages": [
-		{
-			"type": "patchouli:text",
-			"text": "O $(item)Proxy de Máquina de Fabricação de Pacotes/$ permite que $(l:core/unpackager)Desempacotadores/$ enviem itens para máquinas especializadas de fabricação de pacotes à distância."
-		},
-		{
-			"type": "packagedauto:spotlight2",
-			"item1": "packagedauto:proxy_marker",
-			"item2": "packagedauto:crafting_proxy",
-			"title": "Uso",
-			"text": "Para usar, vincule um $(item)Marcador de Proxy/$ a uma máquina de fabricação de pacotes e coloque o marcador no proxy."
-		},
-		{
-			"type": "patchouli:text",
-			"title": "Uso (cont.)",
-			"text": "Você pode $(thing)$(k:sneak) + $(k:use)/$ num $(item)Marcador de Proxy/$ vinculado ou colocá-lo numa grade de fabricação para desvincular.$(p)Você pode $(thing)$(k:sneak) + $(k:use)/$ com a mão vazia num $(item)Proxy de Máquina de Fabricação de Pacotes/$ para mostrar seu alcance e alvo atuais.$(p)Você pode combinar um $(item)Marcador de Proxy/$ vinculado com desvinculados numa grade de fabricação para copiar o conteúdo."
-		},
-		{
-			"type": "patchouli:text",
-			"title": "Clonagem de Ajustes",
-			"text": "Usando o $(l:core/settings_cloner)Clonador de Ajustes de Empacotamento/$, você pode copiar e colar o ajuste de alvo atual de um $(item)Proxy de Máquina de Fabricação de Pacotes/$.$(p)Para colar os ajustes de alvo, você deve ter um $(item)Marcador de Proxy/$ vazio no inventário."
-		},
-		{
-			"type": "patchouli:text",
-			"flag": "mod:ae2",
-			"title": "Integração com AE2",
-			"text": "O $(item)Proxy de Máquina de Fabricação de Pacotes/$ pode ser conectado a uma $(thing)Rede ME/$."
-		},
-		{
-			"type": "patchouli:crafting",
-			"recipe": "packagedauto:proxy_marker",
-			"recipe2": "packagedauto:crafting_proxy",
-			"title": "Fabricação"
-		}
-	],
-	"read_by_default": true,
-	"sortnum": 100
+    "name": "Proxy de Máquina de Fabricação de Pacotes",
+    "category": "packagedauto:recipe",
+    "icon": "packagedauto:crafting_proxy",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(item)Proxy de Máquina de Fabricação de Pacotes/$ permite que $(l:core/unpackager)Desempacotadores/$ enviem itens para máquinas de fabricação de pacotes especializadas à distância."
+        },
+        {
+            "type": "packagedauto:spotlight2",
+            "item1": "packagedauto:proxy_marker",
+            "item2": "packagedauto:crafting_proxy",
+            "title": "Uso",
+            "text": "Para usar, vincule um $(item)Marcador de Proxy/$ a uma máquina de fabricação de pacotes e ponha o marcador no proxy."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Uso (cont.)",
+            "text": "Você pode usar $(thing)$(k:sneak) + $(k:use)/$ num $(item)Marcador de Proxy/$ vinculado ou colocá-lo numa grade de fabricação para desvincular.$(p)Você pode usar $(thing)$(k:sneak) + $(k:use)/$ com a mão vazia num $(item)Proxy de Máquina de Fabricação de Pacotes/$ para ver seu alcance e alvo atuais.$(p)Você pode combinar um $(item)Marcador de Proxy/$ vinculado com desvinculados numa grade de fabricação para copiar o conteúdo."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Clonagem de Ajustes",
+            "text": "Usando o $(l:core/settings_cloner)Clonador de Ajustes de Empacotamento/$, você pode copiar e colar o ajuste de alvo atual de um $(item)Proxy de Máquina de Fabricação de Pacotes/$.$(p)Para colar os ajustes de alvo, você precisa ter um $(item)Marcador de Proxy/$ vazio no inventário."
+        },
+        {
+            "type": "patchouli:text",
+            "flag": "mod:ae2",
+            "title": "Integração com AE2",
+            "text": "O $(item)Proxy de Máquina de Fabricação de Pacotes/$ pode ser conectado a uma $(thing)Rede ME/$."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "packagedauto:proxy_marker",
+            "recipe2": "packagedauto:crafting_proxy",
+            "title": "Fabricação"
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 100
 }

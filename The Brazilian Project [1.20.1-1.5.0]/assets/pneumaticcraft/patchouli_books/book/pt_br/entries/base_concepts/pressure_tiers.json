@@ -5,16 +5,16 @@
   "pages": [
     {
       "type": "text",
-      "text": "O $(pncr) tem atualmente três $(thing)níveis/$ para máquinas pneumáticas:$(li)Máquinas de $(thing)nível um/$ conseguem resistir nominalmente a 5 bar de pressão.$(li)Máquinas de $(thing)nível um e meio/$ conseguem resistir a até 10 bar.$(li)Máquinas de $(thing)nível dois/$ conseguem resistir a até 20 bar."
+      "text": "O $(pncr) atualmente tem três $(thing)níveis/$ de máquinas pneumáticas:$(li)Máquinas de $(thing)nível um/$ resistem nominalmente a 5 bar de pressão.$(li)Máquinas de $(thing)nível um e meio/$ resistem a até 10 bar.$(li)Máquinas de $(thing)nível dois/$ resistem a até 20 bar."
     },
     {
       "type": "text",
-      "text": "O nível 1,5 é um novo \"nível\" adicionado na versão MC 1.18 do $(pncr). É um nível opcional, destinado principalmente a acessar algumas funcionalidades que antes eram exclusivas do nível 2:$(li)Carregar ferramentas até 10 bar$(li)Obter uma $(item)Broca de Diamante/$ (que permite quebrar blocos 3x3; isso antes exigia uma $(item)Broca de Netherita/$)"
+      "text": "O nível 1.5 é um novo \"nível\" adicionado na versão MC 1.18 do $(pncr). É um nível opcional, destinado principalmente a acessar funcionalidades que antes eram exclusivas do nível 2:$(li)Carregar ferramentas até 10 bar$(li)Obter uma $(item)Broca de Diamante/$ (que permite quebrar blocos 3x3; antes exigia uma $(item)Broca de Netherita/$)"
     },
     {
       "type": "text",
       "title": "Pressão Manométrica",
-      "text": "Note que o $(thing)bar/$ usado pelo $(pncr) representa a pressão $(bold)acima/$ da pressão atmosférica normal, então 0 bar é ar não pressurizado e -1 bar é vácuo. Isso também é conhecido como $(thing)Pressão Manométrica/$."
+      "text": "Note que $(thing)bar/$, como usado pelo $(pncr), representa a pressão $(bold)acima/$ da pressão atmosférica normal, então 0 bar é ar não pressurizado e -1 bar é vácuo. Isso também é conhecido como $(thing)Pressão Manométrica/$."
     }
   ]
 }

@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "O $(item)Compressor Eletrostático/$ é um $(l:base_concepts/pressure)compressor/$ de ar de $(l:base_concepts/pressure_tiers)nível 2/$ que usa $(thing)raios/$ como energia para produzir ar comprimido.$(p)Quando é atingido por um raio, ele produz instantaneamente 200.000mL de ar. Parece muito, mas com que frequência você vê um Creeper Carregado rondando por aí? Você precisa fazer com que ele seja atingido."
+      "text": "O $(item)Compressor Eletrostático/$ é um compressor de $(l:base_concepts/pressure_tiers)nível 2/$ de $(l:base_concepts/pressure)ar comprimido/$, que usa $(thing)raios/$ como energia para produzir ar comprimido.$(p)Quando é atingido por um raio, ele produz instantaneamente 200.000mL de ar. Parece muito, mas com que frequência você vê um Creeper Carregado rondando por aí? Ele precisa ser atingido."
     },
     {
       "type": "text",
-      "text": "Para aumentar a chance disso acontecer, você pode conectar $(item)Barras de Ferro/$ a esta máquina, que funcionam como condutor para o raio.$(p)O conselho seria criar uma grande $(thing)grade/$ de Barras de Ferro: elas podem ficar a até 5 blocos de distância horizontalmente (raio circular) e até 5 blocos acima ou abaixo, mas todas devem estar conectadas ao $(item)Compressor Eletrostático/$ umas às outras."
+      "text": "Para aumentar a chance disso acontecer, você pode conectar $(item)Grades de Ferro/$ a esta máquina, que funcionam como condutor para o raio.$(p)O conselho seria criar uma grande $(thing)grade/$ de Grades de Ferro: elas podem ficar a até 5 blocos de distância na horizontal (raio circular) e até 5 blocos acima ou abaixo, mas todas devem estar conectadas ao $(item)Compressor Eletrostático/$ umas pelas outras."
     },
     {
       "type": "image",
@@ -20,23 +20,23 @@
     },
     {
       "type": "text",
-      "text": "Note que na imagem à esquerda, apenas o compressor central tem uma grade grande o suficiente ao redor para máxima eficiência; os outros compressores terão uma chance menor de acionar um raio (embora isso ainda seja mais eficaz que ter apenas um único compressor no meio da grade)."
+      "text": "Note que na imagem à esquerda, apenas o compressor central tem uma grade grande o suficiente ao redor para eficiência máxima; os outros compressores terão uma chance menor de disparar um raio (embora ainda seja mais eficaz do que ter apenas um único compressor no meio da grade)."
     },
     {
       "type": "text",
-      "text": "Com múltiplos $(item)Compressores Eletrostáticos/$ numa $(thing)grade/$, o ar de um raio é compartilhado igualmente entre eles.$(p)Para impedir que um compressor exploda quando a pressão ficar alta demais após um raio, você pode conectar $(item)Barras de Ferro/$ na face inferior do compressor. Assim, a energia pode ser dissipada para o solo em vez de entrar na máquina."
+      "text": "Com vários $(item)Compressores Eletrostáticos/$ numa $(thing)grade/$, o ar de um raio é compartilhado igualmente entre eles.$(p)Para impedir que um compressor expluda quando a pressão fica alta demais depois de um raio, você pode conectar $(item)Grades de Ferro/$ na parte de baixo do compressor. Assim a energia pode ser dissipada para o chão em vez de entrar na máquina."
     },
     {
       "type": "text",
-      "text": "Essa dissipação só acontece quando a pressão de perigo do compressor é alcançada, não antes. Cada $(item)Barra de Ferro/$ $(italic)diretamente/$ abaixo do compressor (no mesmo eixo Y) dissipará 10.000mL de ar excedente. $(p)Assim, com 10 compressores numa $(thing)grade/$ compartilhada, $(ttcolor)$(t:200000 / 10 = 20000 de ar produzido por compressor; 10000 x 2 = 20000 de ar dissipado)só 2 Barras de Ferro/$ são necessárias abaixo de cada compressor. (Você também poderia adicionar $(l:base_concepts/upgrades#security)Melhorias de Segurança/$ ao compressor, mas isso é mais caro e menos eficaz)"
+      "text": "Essa dissipação só acontece quando a pressão de perigo do compressor é atingida, não antes. Cada $(item)Grade de Ferro/$ $(italic)diretamente/$ abaixo do compressor (no mesmo eixo Y) dissipará 10.000mL de ar excedente. $(p)Assim, com 10 compressores numa $(thing)grade/$ compartilhada, $(ttcolor)$(t:200000 / 10 = 20000 de ar produzido por compressor; 10000 x 2 = 20000 de ar dissipado)apenas 2 Grades de Ferro/$ são necessárias abaixo de cada compressor. (Você também poderia adicionar $(l:base_concepts/upgrades#security)Melhorias de Segurança/$ ao compressor, mas isso é mais caro e menos eficaz)"
     },
     {
       "type": "text",
-      "text": "Para melhorar a chance de um raio, você também pode colocar até 10 $(item)Barras de Ferro/$ diretamente $(italic)acima/$ do compressor para formar um $(thing)para-raios/$. Cada barra melhorará levemente a chance de um raio."
+      "text": "Para melhorar a chance de um raio, você também pode colocar até 10 $(item)Grades de Ferro/$ diretamente $(italic)acima/$ do compressor para formar um $(thing)pára-raios/$. Cada grade melhorará levemente a chance do raio."
     },
     {
       "type": "text",
-      "text": "$(bold)Nota:/$ diferente de versões anteriores do $(pncr), raios naturais $(italic)não/$ adicionam ar ao compressor (isso era muito explorável usando outros mods para criar raios). Em vez disso, o compressor tem uma pequena chance de criar um raio \"falso\". Essa chance é $(italic)muito/$ pequena em tempo limpo, mas melhora quando está $(thing)chovendo/$ e melhora muito numa $(thing)tempestade/$."
+      "text": "$(bold)Nota:/$ diferente das versões anteriores do $(pncr), relâmpagos naturais $(italic)não/$ adicionam ar ao compressor (isso era muito explorável usando outros mods para criar relâmpagos). Em vez disso, o compressor tem uma pequena chance de criar um raio \"falso\". Essa chance é $(italic)muito/$ pequena com tempo limpo, mas melhora quando está $(thing)chovendo/$ e melhora muito numa $(thing)tempestade/$."
     },
     {
       "type": "crafting",

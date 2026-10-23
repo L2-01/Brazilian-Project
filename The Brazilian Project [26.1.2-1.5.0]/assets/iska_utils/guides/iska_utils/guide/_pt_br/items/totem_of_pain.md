@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:totem_of_pain
 categories:
-  - Entrega Suspeita
+  - Suspicious Delivery
 ---
 # Totem da Dor
 
@@ -15,7 +15,7 @@ categories:
 
 ## O que faz
 
-**Artefato arcano.** Até pequenos cortes viram feridas sangrando — seus ataques podem aplicar **Maldição da Dor** nos inimigos.
+**Artefato arcano.** Até cortes pequenos viram feridas sangrando — seus ataques podem aplicar **Maldição da Dor** nos inimigos.
 
 Use no **Curios** para o efeito.
 

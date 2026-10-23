@@ -1,0 +1,19 @@
+{
+  "name": "Módulo Extrusor Mk2",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:extruder_module_2",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este módulo se comporta de forma parecida com o $(l:modules/extruder_1)Módulo Extrusor Mk1/$, mas com algumas diferenças importantes:$(li)O módulo Mk2 não coloca itens do buffer do roteador, mas sim de um modelo definido dentro do próprio módulo.$(li)Este modelo aparece no lado direito da GUI do módulo, tem 9 espaços e pode ter múltiplos itens por espaço. Itens colocados no modelo são itens \"fantasmas\"."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Os blocos extrudados são \"virtuais\" — efetivamente criados do nada, mas não largam nada quando quebrados e não podem ser fabricados normalmente.$(li)Portanto, este módulo não é adequado para farms como o Extrusor Mk1, mas pode ser usado para colocar portas/pontes etc. com padrões mais complexos do que o Mk1 permitia.$(li)O alcance padrão do Extrusor Mk2 é de 24 blocos, que pode ser aumentado para 48 com Melhorias de Alcance."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:extruder_module_2"
+    }
+  ]
+}

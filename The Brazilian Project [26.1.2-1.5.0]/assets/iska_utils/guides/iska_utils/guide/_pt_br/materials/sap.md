@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:sap
 categories:
-  - Materiais
+  - Materials
 ---
 # Seiva de Seringueira
 
@@ -16,7 +16,7 @@ categories:
 ## Obtenção
 
 - Drene **troncos de borracha cheios** com um **Drenador** ou **Drenador Elétrico**.
-- Automatize com um **Extrator de Seiva de Seringueira** (veja **Borracha e processamento**).
+- Automatize com um **Extrator de Seiva de Seringueira** (veja **Borracha e Processamento**).
 
 ## Usos
 

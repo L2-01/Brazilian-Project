@@ -7,14 +7,14 @@
       "type": "patchouli:spotlight",
       "item": "irregular_implements:energy_distributor",
       "link_recipe": true,
-      "text": "O $(d)Distribuidor de Energia$() permite distribuir FE igualmente entre todos os blocos de armazenamento de energia adjacentes em uma linha.$(br2)A partir do bloco à sua frente, ele verifica cada bloco nessa direção em busca de armazenamento de energia e os adiciona ao seu cache.",
+      "text": "O $(d)Distribuidor de Energia$() permite distribuir FE uniformemente entre todos os blocos de armazenamento de energia adjacentes numa linha.$(br2)Começando pelo bloco à sua frente, ele verifica cada bloco nessa direção quanto a armazenamento de energia e os adiciona ao seu cache.",
       "title": "Distribuidor de Energia"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:ender_energy_distributor",
       "link_recipe": true,
-      "text": "O armazenamento de energia do Distribuidor de Energia é, na verdade, a soma de todos esses blocos. Inserir no Distribuidor insere nos blocos, e o mesmo vale para extrair.$(br2)O $(d)Distribuidor de Energia do Ender$() funciona de forma parecida, mas usa 8 $(l:items/location_filter)Filtros de Localização$(/l) para especificar as máquinas no cache.",
+      "text": "O armazenamento de energia do Distribuidor de Energia é, na verdade, todos aqueles blocos combinados. Inserir no Distribuidor insere nos blocos, e o mesmo para extrair.$(br2)O $(d)Distribuidor de Energia do Ender$() funciona de forma parecida, mas usa 8 $(l:items/location_filter)Filtros de Localização$(/l) para especificar as máquinas no cache.",
       "title": "Distribuidor de Energia do Ender"
     }
   ]

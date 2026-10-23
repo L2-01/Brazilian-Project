@@ -1,0 +1,44 @@
+---
+title: Nós de Transferência
+id:
+  - excessive_utilities:item_transfer_node
+  - excessive_utilities:fluid_transfer_node
+  - excessive_utilities:energy_transfer_node
+icon: excessive_utilities:item/item_transfer_node
+type: block
+infobox:
+  title: Nós de Transferência
+  tabs:
+    - name: Nós de Transferência
+      display:
+        - excessive_utilities:item/item_transfer_node
+        - excessive_utilities:item/fluid_transfer_node
+        - excessive_utilities:item/energy_transfer_node
+---
+
+**Nós de Transferência** são usados para mover itens, fluidos e energia de um lugar para outro. Coloque o Nó de Transferência no bloco do qual você quer puxar e, em seguida, coloque uma linha de [Tubos de Transferência](@excessive_utilities:transfer_pipe) levando aos destinos.
+
+Nós de Transferência não funcionam como outros canos. Itens etc. nunca realmente viajam pelos Tubos de Transferência. Em vez disso, os Nós de Transferência trabalham em várias etapas:
+
+- Puxa do bloco onde está colocado, armazenando os itens/fluidos/energia em um buffer interno.
+- Procura ao longo dos Tubos de Transferência conectados por qualquer destino válido. Isso é chamado de Ping.
+- Se não houver nada no buffer, reinicia o ping e espera o próximo tique.
+- Tenta esvaziar o buffer nos blocos ao redor do Ping.
+- Se nada foi movido, move o Ping e espera o próximo tique.
+- Se algo foi movido, mantém o Ping onde estava e espera o próximo tique. Isso permite que o Nó de Transferência continue enchendo o mesmo destino, em vez de recomeçar toda vez.
+
+## Melhorias
+
+Um [Filtro de Itens](@excessive_utilities:item_filter) ou [Filtro de Fluidos](@excessive_utilities:fluid_filter) pode ser instalado nos respectivos Nós de Transferência para limitar o que pode entrar em seus buffers.
+
+[Melhorias de Velocidade](@excessive_utilities:speed_upgrades) aumentam a quantidade de vezes que os Nós de Transferência trabalham a cada tique.
+
+[Melhorias de Agrupamento](@excessive_utilities:stack_upgrade) aumentam a quantidade inserida no buffer.
+
+[Melhorias de Interação com Entidade do Mundo](@excessive_utilities:world_interaction_upgrade) podem ser instaladas em Nós de Transferência de Itens e Fluidos para permitir que eles façam certas coisas.
+
+## Receitas
+
+<ProjectRecipe id="excessive_utilities:item_transfer_node" />
+<ProjectRecipe id="excessive_utilities:fluid_transfer_node" />
+<ProjectRecipe id="excessive_utilities:energy_transfer_node" />

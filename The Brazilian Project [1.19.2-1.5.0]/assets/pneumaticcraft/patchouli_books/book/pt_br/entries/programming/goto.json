@@ -1,19 +1,19 @@
 {
-  "name": "Widget de Ir Para Localização",
-  "icon": "pneumaticcraft:textures/progwidgets/goto_piece.png",
-  "category": "pneumaticcraft:widget_interact",
-  "advancement": "pneumaticcraft:programmer",
-  "pages": [
-    {
-      "type": "text",
-      "text": "O $(thing)Ir Para Localização/$ é bem direto: o $(l:tools/drone)Drone/$ irá até a localização alcançável mais próxima dentro da $(l:programming/area)Área/$ especificada.$(p)Este widget termina $(ttcolor)$(t:Você pode configurar o widget para 'terminar' imediatamente; clique com o botão direito para a GUI de configuração)quando o Drone alcança a área/$, ou quando esta área não é alcançável."
-    },
-    {
-      "type": "image",
-      "images": [
-        "pneumaticcraft:textures/progwidgets/goto_piece.png"
-      ],
-      "text": "$(italic)Widget de Ir Para Localização/$"
-    }
-  ]
+    "name": "Widget de Ir para o Local",
+    "icon": "pneumaticcraft:textures/progwidgets/goto_piece.png",
+    "category": "pneumaticcraft:widget_interact",
+    "advancement": "pneumaticcraft:programmer",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Ir para o Local/$ é bem direto: o $(l:tools/drone)Drone/$ irá para a localização alcançável mais próxima dentro da $(l:programming/area)Área/$ especificada.$(p)Este widget é concluído $(ttcolor)$(t:Você pode configurar o widget para 'concluir' imediatamente; clique com o botão direito para a GUI de configuração)quando o Drone alcança a área/$, ou quando essa área não é alcançável."
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/progwidgets/goto_piece.png"
+            ],
+            "text": "$(italic)Widget de Ir para o Local/$"
+        }
+    ]
 }

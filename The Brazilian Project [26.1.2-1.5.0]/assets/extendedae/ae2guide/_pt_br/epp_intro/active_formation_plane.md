@@ -15,7 +15,7 @@ item_ids:
   <ImportStructure src="../structure/cable_active_formation_plane.snbt"></ImportStructure>
 </GameScene>
 
-O Plano de Formação ME Ativo é um <ItemLink id="ae2:formation_plane" /> que pode colocar blocos ou largar itens ativamente.
+O Plano de Formação ME Ativo é um <ItemLink id="ae2:formation_plane" /> que pode colocar blocos ou soltar itens ativamente.
 
 Você não precisa montar uma sub-rede para ele. Ele funciona como um <ItemLink id="ae2:export_bus" />, mas coloca blocos em vez de
-enviar itens para um baú.
+despejá-los num baú.

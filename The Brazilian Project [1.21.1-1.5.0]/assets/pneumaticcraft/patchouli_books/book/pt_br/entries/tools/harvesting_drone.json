@@ -6,13 +6,13 @@
   "pages": [
     {
       "type": "text",
-      "text": "Um $(item)Drone Colheitadeiro/$ é um tipo especializado e não programável de $(l:tools/drone)Drone/$ que executará tarefas de $(l:programming/harvest)colheita de plantações/árvores/$ num cubo de 17x17x17 centrado no bloco onde foi implantado. O Drone $(italic)não/$ recolherá os itens colhidos."
+      "text": "Um $(item)Drone Colheitadeiro/$ é um tipo especializado e não programável de $(l:tools/drone)Drone/$ que executa tarefas de $(l:programming/harvest)colheita de cultivos/árvores/$ num cubo 17x17x17 centrado no bloco onde foi posicionado. O Drone $(italic)não/$ recolhe os itens colhidos."
     },
     {
       "type": "spotlight",
-      "title": "Recarga Automática",
+      "title": "Carregamento Automático",
       "item": "pneumaticcraft:charging_station",
-      "text": "Como todos os tipos de Drone, esses drones requerem $(l:base_concepts/pressure)pressão/$ para operar e procurarão automaticamente $(l:tools/drone#charging)uma Estação de Carga com Melhoria de Ejetor/$ se estiverem com pouco ar."
+      "text": "Como todos os tipos de Drone, esses drones requerem $(l:base_concepts/pressure)pressão/$ para operar e procurarão automaticamente $(l:tools/drone#charging)uma Estação de Carga com uma Melhoria de Ejetor/$ se estiverem com pouco ar."
     },
     {
       "type": "entity",
@@ -21,8 +21,8 @@
     },
     {
       "type": "text",
-      "title": "Uso de Ferramenta",
-      "text": "Se você implantar o $(item)Drone Colheitadeiro/$ $(thing)agachando e clicando com o botão direito/$ com ele contra um inventário contendo (apenas) uma $(item)Enxada/$ de qualquer tipo, o drone usará essa enxada para replantar plantações automaticamente e não tentará fazer nenhum trabalho sem uma enxada equipada. Se você não se importa com replantio, basta implantar o drone contra qualquer outro bloco."
+      "title": "Uso de Ferramentas",
+      "text": "Se você posicionar o $(item)Drone Colheitadeiro/$ $(thing)agachando e clicando com o botão direito/$ contra um inventário contendo (somente) uma $(item)Enxada/$ de qualquer tipo, o drone usará essa enxada para replantar cultivos automaticamente e não tentará trabalhar sem uma enxada equipada. Se você não se importa com o replantio, basta posicionar o drone contra qualquer outro bloco."
     },
     {
       "type": "crafting",

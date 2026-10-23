@@ -15,6 +15,6 @@ item_ids:
 <ItemImage id="extendedae:entro_ingot" scale="4"></ItemImage>
 </Row>
 
-*"Um Cristal de Entro é frágil demais para usar numa estrutura de máquina, mas pode ser fundido com uma barra de ouro para melhorar sua ductilidade."*
+*"O Cristal de Entro é friável demais para usar numa estrutura de máquina, mas podemos fundi-lo com um lingote de ouro para melhorar sua ductilidade."*
 
-Ele é usado para fabricar a <ItemLink id="extendedae:machine_frame" /> e vários outros itens do ExtendedAE.
+Ele é usado para fabricar a <ItemLink id="extendedae:machine_frame" /> e alguns outros itens do ExtendedAE.

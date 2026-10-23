@@ -3,10 +3,12 @@
     "icon": "allthemodium:allthemodium_block",
     "category": "allthemodium:links",
     "sortnum": 3,
-    "pages": [{
-        "type": "link",
-        "url": "https://www.reddit.com/r/allthemods/",
-        "link_text": "Reddit Link",
-        "text": "O Reddit é um bom lugar para ver as listas de servidores, e também para pedir ajuda e mostrar construções."
-    }]
+    "pages": [
+        {
+            "type": "link",
+            "url": "https://www.reddit.com/r/allthemods/",
+            "link_text": "Link do Reddit",
+            "text": "O Reddit é um bom lugar para ver as listas de servidores, pedir ajuda e mostrar construções."
+        }
+    ]
 }

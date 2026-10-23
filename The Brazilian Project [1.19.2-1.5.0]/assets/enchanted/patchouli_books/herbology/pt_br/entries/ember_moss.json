@@ -1,0 +1,29 @@
+{
+  "name": "Musgo de Brasa",
+  "icon": "enchanted:textures/block/ember_moss.png",
+  "category": "enchanted:mutated_plants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Musgo de Brasa, do gênero Takakia, é uma planta com um mecanismo de defesa muito peculiar e único: ela entra em chamas ao menor toque ou perturbação.$(br2)Deve ser colhido com tesoura para evitar destruição.$(br)$(br2)$(bold)Obtenção:$()$(br)Mutado de plantas pequenas."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "enchanted:ember_moss"
+        },
+        "pattern": [
+          [
+            "0"
+          ],
+          [
+            " "
+          ]
+        ]
+      }
+    }
+  ],
+  "read_by_default": true
+}

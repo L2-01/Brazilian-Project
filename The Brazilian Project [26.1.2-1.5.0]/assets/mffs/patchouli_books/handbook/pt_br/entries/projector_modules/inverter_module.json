@@ -1,18 +1,18 @@
 {
-    "name": "Módulo Inversor",
-    "icon": "mffs:inverter_module",
-    "category": "mffs:projector_modules",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:inverter_module",
-            "link_recipe": true,
-            "text": "O $(5)Módulo Inversor$() pode ser colocado nos espaços de matriz de $(l:mffs:machines/projector)Projetores de Campo de Força$() para inverter a forma projetada, criando uma área de campo de força preenchida."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:inverter_module",
-            "text": "Fabricando o $(5)Módulo Inversor$()."
-        }
-    ]
+  "name": "Módulo Inversor",
+  "icon": "mffs:inverter_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:inverter_module",
+      "link_recipe": true,
+      "text": "O $(5)Módulo Inversor$() pode ser colocado nos slots de matriz de $(l:mffs:machines/projector)Projetores de Campo de Força$() para inverter o formato projetado do avesso, criando uma área de campo de força preenchida."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:inverter_module",
+      "text": "Fabricando o $(5)Módulo Inversor$()."
+    }
+  ]
 }

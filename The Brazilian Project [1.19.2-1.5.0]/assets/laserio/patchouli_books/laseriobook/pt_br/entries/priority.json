@@ -1,0 +1,20 @@
+{
+  "name": "Prioridade",
+  "sortnum": 3,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/modeinserter.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Prioridade só está disponível no Modo Inseridor.$(br2)A prioridade permite controlar a ordem em que os cartões inseridores são operados. Por padrão, os cartões Inseridores operam num modo 'mais próximo primeiro', o que significa que os extratores tentam inserir no inventário mais próximo primeiro."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao mudar a configuração de prioridade de um Cartão Inseridor, você pode ajustar qual inventário deve receber itens primeiro. O inseridor de maior prioridade será o primeiro da lista, por exemplo: Prioridade 10 é maior que 0, que é maior que -10. $(br2)Se vários inventários tiverem a mesma prioridade, eles serão 'Mais Próximo Primeiro'."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clique com o botão esquerdo neste valor para aumentá-lo em 1. Clique com o botão direito para diminuí-lo. Segurar shift multiplicará a mudança por 10, enquanto segurar control multiplicará por 64.$(br2)Eles podem ser combinados, ou seja, segurar shift+ctrl multiplicará por 640.$(br2)Por exemplo, shift+clique direito diminuirá em 10."
+    }
+  ]
+}

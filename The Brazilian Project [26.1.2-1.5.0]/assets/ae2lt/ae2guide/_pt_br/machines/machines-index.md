@@ -8,7 +8,7 @@ navigation:
 
 # Máquinas de Processamento
 
-O AE2 Lightning Tech oferece várias máquinas de processamento que cobrem diferentes necessidades de produção de materiais. Exceto pelo Ionizador Atmosférico (que consome energia AE da rede ME), toda máquina se conecta à rede ME enquanto também usa FE externo, e puxa Raios da rede ME durante o processamento.
+O AE2 Lightning Tech fornece várias máquinas de processamento que cobrem diferentes necessidades de produção de materiais. Exceto pelo Ionizador Atmosférico (que consome energia AE da rede ME), toda máquina se conecta à rede ME enquanto também usa FE externo e puxa Raios da rede ME durante o processamento.
 
 <SubPages />
 
@@ -16,12 +16,12 @@ O AE2 Lightning Tech oferece várias máquinas de processamento que cobrem difer
 
 ### Exportação Automática
 
-A maioria das máquinas suporta **Exportação Automática**. Quando ligada, uma máquina empurra suas saídas para contêineres adjacentes nos lados permitidos assim que o processamento termina. Os lados permitidos são definidos na tela "Configurar Lados de Saída" da GUI da máquina.
+A maioria das máquinas suporta **Exportação Automática**. Quando habilitada, a máquina empurra suas saídas para recipientes adjacentes nos lados permitidos ao fim do processamento. Os lados permitidos são definidos na tela "Configurar Lados de Saída" da GUI da máquina.
 
-### Cartões de Velocidade
+### Cartões de Aceleração
 
-Exceto pelo Catalisador de Cristais, toda máquina de processamento aceita **Cartões de Velocidade** vanilla do AE2 para aumentar a velocidade de processamento, até 4 cartões.
+Exceto pelo Catalisador de Cristais e pela Fábrica de Mineração, as máquinas de processamento aceitam **Cartões de Aceleração** do AE2 vanilla para aumentar a velocidade de processamento, até 4 cartões.
 
 ### Substituição de Raios
 
-Algumas receitas que exigem Raio de Altíssima Tensão suportam uma mecânica de **substituição de matriz**: quando uma **Matriz de Colapso de Raios** está instalada na máquina, a receita pode ser cumprida consumindo várias vezes a quantidade de Raio de Alta Tensão em vez disso. A proporção de substituição é definida por receita.
+Algumas receitas que exigem Raio de Altíssima Tensão suportam a mecânica de **substituição por matriz**: quando uma **Matriz de Colapso de Raios** está instalada na máquina, a receita pode ser atendida consumindo várias vezes a quantidade de Raio de Alta Tensão. A razão de substituição é definida por receita.

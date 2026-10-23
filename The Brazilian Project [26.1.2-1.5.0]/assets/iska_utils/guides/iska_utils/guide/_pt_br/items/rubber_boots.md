@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:rubber_boots
 categories:
-  - Borracha e processamento
+  - Rubber and processing
 ---
 # Botas de Borracha
 
@@ -15,4 +15,4 @@ categories:
 
 ## O que fazem
 
-- Negam dano de queda; as botas perdem durabilidade ao absorver uma queda.
+- Anulam dano de queda; as botas sofrem durabilidade ao absorver uma queda.

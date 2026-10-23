@@ -1,0 +1,17 @@
+{
+  "name": "Colocador de Fluido",
+  "icon": "industrialforegoing:fluid_placer",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Coloca fluidos.$(br2)Ele colocará o fluido do recipiente interno e usará $(6)1000$()RF."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_placer"
+    }
+  ]
+}

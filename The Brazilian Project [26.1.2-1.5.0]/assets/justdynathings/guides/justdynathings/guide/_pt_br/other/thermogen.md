@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Termogerador
+  title: Gerador Térmico
   icon: "justdynathings:thermo_generator"
   position: 6
   parent: justdynathings:other.md
@@ -10,7 +10,7 @@ item_ids:
 
 # O Poder da Terra
 
-Um novo gerador que gera Energia Forge baseado em blocos de fonte térmica e um fluido refrigerante
+Um novo gerador que gera Forge Energy com base em blocos de fonte de calor e um fluido refrigerante
 
 <BlockImage id="justdynathings:thermo_generator" scale="4.0" p:facing="down" p:active="true"/>
 
@@ -18,8 +18,8 @@ Um novo gerador que gera Energia Forge baseado em blocos de fonte térmica e um 
 
 ## Olhando por dentro
 
-Geração de FE = 125 x Eficiência do Refrigerante x Eficiência Térmica
+FE gerado = 125 x EficienciaDoRefrigerante x EficienciaDoCalor
 
-Custo de mB = 125 / Eficiência do Refrigerante
+Custo em MB = 125 / EficienciaDoRefrigerante
 
 _provavelmente será simplificado no futuro_

@@ -15,7 +15,7 @@ item_ids:
 
 <ItemImage id="fluix_dust" scale="4" />
 
-Um <ItemLink id="fluix_crystal" /> que foi triturado por um <ItemLink id="inscriber" />. Usado na produção de
+Um <ItemLink id="fluix_crystal" /> triturado por um <ItemLink id="inscriber" />. Usado na produção de
 várias máquinas e componentes do AE2.
 
 ## Receita

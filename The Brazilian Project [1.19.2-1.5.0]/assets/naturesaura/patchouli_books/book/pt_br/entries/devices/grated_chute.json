@@ -6,19 +6,19 @@
     "pages": [
         {
             "type": "text",
-            "text": "Muitas vezes, ao lidar com dispositivos mecânicos, $(thing)transportar itens$() é de grande importância e pode virar um incômodo em grande escala, especialmente pela falta de habilidades de $(thing)filtragem$(). O $(item)Funil Habilidoso$() cria a capacidade de filtrar itens que passam por $(item)Funis$() com facilidade."
+            "text": "Muitas vezes, ao lidar com dispositivos mecânicos, $(thing)transportar itens$() é de grande importância e pode se tornar um incômodo se feito em grande escala, especialmente pela falta de habilidades de $(thing)filtragem$(). O $(item)Funil Habilidoso$() cria a capacidade de filtrar itens que passam por $(item)Funis$() com facilidade."
         },
         {
             "type": "text",
-            "text": "O $(item)Funil Habilidoso$() funciona exatamente como um $(item)Funil$() normal, exceto que é um pouco mais rápido e pode filtrar itens da seguinte forma: anexar qualquer número de $(item)Molduras de Item$() em qualquer lado dele e colocar itens dentro fará com que $(thing)apenas aqueles itens$() passem. Isso vale tanto para puxar itens de baús e do mundo quanto para itens inseridos nele.$(p)Vale notar adicionalmente que o $(l:using/hopper_upgrade)Aprimoramento de Funil$() pode ser combinado com isso para coletar apenas itens filtrados."
+            "text": "O $(item)Funil Habilidoso$() funciona igual a um $(item)Funil$() normal, exceto que é um pouco mais rápido e pode filtrar itens da seguinte forma: anexar qualquer número de $(item)Porta-Retratos$() em qualquer lado dele e colocar itens dentro fará com que $(thing)apenas esses itens$() passem. Isso vale tanto para puxar itens de baús e do mundo quanto para ter itens inseridos nele.$(p)Também deve-se notar que o $(l:using/hopper_upgrade)Aprimoramento de Funil$() pode ser combinado com isso para coletar apenas itens filtrados."
         },
         {
             "type": "text",
-            "text": "Além disso, a funcionalidade do $(item)Funil Habilidoso$() pode ser $(thing)invertida$() simplesmente interagindo com ele enquanto agachado: isso fará com que não os itens $(italic)nas$() molduras sejam aceitos, mas todos os itens que $(italic)não$() estão nas molduras. Isso, adicionalmente, permite a passagem de qualquer item, simplesmente não colocando moldura alguma."
+            "text": "Além disso, a funcionalidade do $(item)Funil Habilidoso$() pode ser $(thing)invertida$() simplesmente interagindo com ele agachado: isso fará com que não sejam os itens $(italic)nos$() porta-retratos que serão aceitos, mas todos os itens que $(italic)não$() estiverem nos porta-retratos. Isso, adicionalmente, permite a passagem de qualquer item, simplesmente não colocando porta-retrato algum."
         },
         {
             "type": "crafting",
-            "text": "Criando o $(item)Funil Habilidoso$()$(p)Vale notar que, ao equipar um $(l:items/eye)Olho Ambiental$(), a quantidade de itens atualmente armazenados no funil pode ser vista.",
+            "text": "Criando o $(item)Funil Habilidoso$()$(p)Deve-se notar que, ao equipar um $(l:items/eye)Olho Ambiental$(), a quantidade de itens atualmente armazenados no funil pode ser vista.",
             "recipe": "naturesaura:grated_chute"
         }
     ]

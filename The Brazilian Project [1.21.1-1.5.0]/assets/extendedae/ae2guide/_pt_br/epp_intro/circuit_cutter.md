@@ -15,8 +15,8 @@ item_ids:
 <BlockImage id="extendedae:circuit_cutter" scale="8"></BlockImage>
 </Row>
 
-Cansado da velocidade lenta do Inscritor? Experimente o Cortador de Circuitos! Ele pode fatiar blocos de material diretamente em
-[impressões](ae2:items-blocks-machines/processors.md) de processador, tornando-o até nove vezes mais rápido que um Inscritor na maioria dos casos.
+Não aguenta a velocidade lenta de um Inscritor? O Cortador de Circuitos pode fatiar blocos de material diretamente em circuitos
+[impressos](ae2:items-blocks-machines/processors.md) de processador, tornando-o até nove vezes mais rápido que um Inscritor.
 
-**Aviso: Faces de vidro sem portas não podem se conectar à rede.**
+**Nota: faces de vidro sem porta não podem se conectar à rede.**
 

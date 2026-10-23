@@ -18,3 +18,4 @@ item_ids:
 O Ponto de Exportação ME por Marcador é um <ItemLink id="ae2:export_bus" /> que pode ser filtrado por marcadores de item ou fluido.
 
 Sua regra de filtro é a mesma do <ItemLink id="extendedae:tag_storage_bus" />.
+

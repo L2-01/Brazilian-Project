@@ -11,15 +11,15 @@ item_ids:
 
 # Modificador de Padrões
 
-O Modificador de Padrões é uma ferramenta para modificar padrões em massa.
+O Modificador de Padrões é uma ferramenta para modificações de padrões em massa.
 
 <ItemImage id="extendedae:pattern_modifier" scale="4"></ItemImage>
 
-Clique com o botão direito nele para abrir sua GUI.
+Clique nele com o botão direito para abrir a GUI.
 
-## Modo Multiplicar
+## Modo de Multiplicação
 
-Você pode multiplicar ou dividir as quantidades de entrada e saída de padrões de processamento por x clicando no botão correspondente.
+Você pode multiplicar ou dividir as quantidades de entrada e saída de um padrão de processamento por um fator x clicando no botão correspondente.
 
 ![PM](../pic/pm.png)
 
@@ -27,45 +27,46 @@ Padrão original:
 
 ![PM1](../pic/pm1.png)
 
-Depois de x10:
+Após ×10:
 
 ![PM2](../pic/pm2.png)
 
-Você também pode limpar o conteúdo de todos os padrões e transformá-los em padrões em branco clicando no botão Limpar.
+Ele também pode limpar o conteúdo de todos os padrões e transformá-los em padrões em branco clicando no botão Limpar.
 
 ### Notas
 
-- O botão de divisão só funciona quando a quantidade é divisível de forma exata. Por exemplo, o botão ÷2 não funciona quando um padrão requer 3
-pedregulhos como entrada porque 3÷2 é 1,5.
+ - O botão de divisão só funciona quando a quantidade é divisível de forma exata. Por exemplo, o botão ÷2 não funciona quando um padrão exige 3
+ pedregulhos como entrada, porque 3 ÷ 2 é 1,5.
 
-- O botão de multiplicação tem um teto de 999999. Ele não pode aumentar a quantidade de um único ingrediente além deste número.
+ - O botão de multiplicação tem um teto de 999999. Ele não pode aumentar a quantidade de um ingrediente além desse número.
 
-## Modo Substituir
+## Modo de Troca
 
-Substitui um ingrediente de entrada ou saída específico nos padrões por outro item.
+Troca um ingrediente de entrada ou saída específico de um padrão por outro item.
 
 ![PM3](../pic/pm4.png)
 
-O espaço A contém o ingrediente a substituir, e o espaço B contém seu substituto.
+O espaço A é o item a ser trocado, e o espaço B é o item substituto.
 
-Por exemplo, o ajuste a seguir substitui a tábua por carvão.
+Por exemplo, a configuração a seguir trocará a tábua por carvão.
 
 ![PM4](../pic/pm6.png)
 
 ![PM5](../pic/pm5.png)
 
-Clique no botão Substituir para realizar a substituição.
+Clique no botão Trocar para realizar a troca.
 
 ![PM6](../pic/pm7.png)
 
-## Modo Propriedade
+## Modo de Propriedade
 
-Modifica os ajustes de Substituições e Substituições de Fluido dos padrões de fabricação.
+Modifica os modos de Substituição e Substituição de Fluido de um padrão de fabricação.
 
 ![PM8](../pic/pm8.png)
 
-## Modo Clonar
+## Modo de Clonagem
 
-Você pode copiar qualquer padrão dado neste modo.
+Você pode fazer uma cópia de qualquer padrão neste modo.
 
 ![PM7](../pic/pm3.png)
+

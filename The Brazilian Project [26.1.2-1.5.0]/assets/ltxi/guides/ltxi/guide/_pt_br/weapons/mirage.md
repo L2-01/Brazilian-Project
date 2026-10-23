@@ -10,10 +10,14 @@ navigation:
 
 <ItemImage id="mirage" scale="3" />
 
+### Melhoria padrão
+
+<UpgradeEntry id="default/mirage" />
+
 ## Atributos
 
-- Dano base: 4,5
-- Alcance: 45,0
+- Dano base: 4.5
+- Alcance: 45.0
 - Projétil: [LightFrag](index.md#lightfrags)
 - Gatilho: Automático
 - Cadência de tiro: 600 RPM

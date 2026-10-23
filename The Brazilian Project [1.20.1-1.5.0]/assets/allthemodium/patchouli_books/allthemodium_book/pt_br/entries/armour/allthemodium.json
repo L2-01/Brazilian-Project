@@ -3,15 +3,15 @@
     "icon": "allthemodium:allthemodium_chestplate",
     "category": "allthemodium:armour",
     "sortnum": 1,
-    "pages": [{
+    "pages": [
+        {
             "type": "text",
-            "text": "A armadura de Allthemodium tem vários benefícios além de apenas armadura, resistência da armadura e resistência a repulsão:$(li)Respiração Aquática$(li)Sem dano de colisão ao voar com Élitros$(li)Imune a dano de fogo$(li)Sem dano de queda$(li)Quando você melhora a armadura a partir de Netherita, ela mantém os encantamentos"
+            "text": "A armadura de Allthemodium tem vários benefícios além da armadura, da resistência e da resistência a repulsão:$(li)Respiração Aquática$(li)Sem dano de colisão ao voar com élitro$(li)Imunidade a dano de fogo$(li)Sem dano de queda$(li)Ao melhorar a armadura a partir de netherita, ela mantém os encantamentos"
         },
         {
             "type": "smithing",
             "recipe": "allthemodium:smithing/allthemodium_helmet_smithing"
         },
-
         {
             "type": "smithing",
             "recipe": "allthemodium:smithing/allthemodium_chestplate_smithing"

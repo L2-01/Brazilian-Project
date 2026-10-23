@@ -1,17 +1,17 @@
 {
-    "name": "Fúria do Berserker",
-    "icon": "minecraft:enchanted_book",
-    "category": "apotheosis:enchanting/enchantments",
-    "flag": "apotheosis:enchanting",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "$(4)Fúria do Berserker$() é um encantamento Corrompido que pode ser aplicado a peitorais.$(p)Ao usar este encantamento, se você receber dano, receberá dano adicional e obterá Resistência, Velocidade e Força."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "O acionamento exige dano de um atacante e tem tempo de recarga.$(p)Você recebe dano exponencialmente maior por nível, que ignora armadura e Resistência.$(p)Os bônus duram 25 segundos, com força igual ao nível."
-        }
-    ]
+	"name": "Fúria do Berserker",
+	"icon": "minecraft:enchanted_book",
+	"category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(4)Fúria do Berserker$() é um encantamento Corrompido que pode ser aplicado a peitorais.$(p)Com esse encantamento, ao sofrer dano, você recebe dano adicional e ganha Resistência, Velocidade e Força."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "O acionamento exige dano de um atacante e tem tempo de recarga.$(p)Você recebe exponencialmente mais dano por nível, que ignora armadura e Resistência.$(p)Os bônus duram 25 segundos, com força igual ao nível."
+		}
+	]
 }

@@ -18,9 +18,9 @@ item_ids:
 
 ![](./thermo_generator.png)
 
-O Gerador Térmico é um gerador FE que gera energia quando colocado no topo de um bloco/fluido de alta temperatura como lava, requer um fluido refrigerante como água para funcionar. 
+O Gerador Térmico é um gerador de FE que gera energia quando colocado sobre um bloco/fluido de alta temperatura, como lava; requer um fluido refrigerante, como água, para funcionar. 
 
-|                                                   | Capacidade                                                    | Gera                                                            | Extração Máxima                                            |
+|                                                   | Capacidade                                                      | Gera                                                       | Extração Máx.                                                |
 | ------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------- | ---------------------------------------------------------- |
 | <ItemLink id="powah:thermo_generator_starter" />  | <powah:EnergyCapacity id="powah:thermo_generator_starter" />  | <powah:EnergyGeneration id="powah:thermo_generator_starter" />  | <powah:EnergyMaxIO id="powah:thermo_generator_starter" />  |
 | <ItemLink id="powah:thermo_generator_basic" />    | <powah:EnergyCapacity id="powah:thermo_generator_basic" />    | <powah:EnergyGeneration id="powah:thermo_generator_basic" />    | <powah:EnergyMaxIO id="powah:thermo_generator_basic" />    |

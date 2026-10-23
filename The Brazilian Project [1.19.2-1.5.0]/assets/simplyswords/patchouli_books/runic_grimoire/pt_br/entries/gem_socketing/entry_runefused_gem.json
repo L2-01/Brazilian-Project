@@ -1,0 +1,20 @@
+{
+    "name": "Gema Rúnica",
+    "icon": "simplyswords:runefused_gem",
+    "category": "simplyswords:category_gem_socketing",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:runefused_gem",
+            "text": "As Gemas Rúnicas podem ser obtidas combinando um Remanescente Fortalecido e uma Tábua Rúnica numa bancada de ferraria. Uma vez identificadas, essas gemas revelam um poder rúnico aleatório guardado dentro delas."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "As Gemas Rúnicas podem ser engastadas em armas Únicas que contenham um [ engaste rúnico ] vazio. Essas gemas só são capazes de abrigar Poderes Rúnicos do tipo 'ao atingir'."
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "simplyswords:runefused_gem"
+        }
+    ]
+}

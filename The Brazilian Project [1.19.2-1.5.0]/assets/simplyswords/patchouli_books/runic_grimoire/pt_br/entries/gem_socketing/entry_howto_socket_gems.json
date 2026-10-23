@@ -1,0 +1,16 @@
+{
+    "name": "Engastando Gemas",
+    "icon": "simplyswords:netherfused_gem",
+    "category": "simplyswords:category_gem_socketing",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:netherfused_gem",
+            "text": "Para engastar uma gema você precisa ter no inventário tanto a gema quanto uma arma única com um engaste vazio do mesmo tipo (rúnico / nether)."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Com seu inventário aberto, clique com o botão esquerdo na gema para que ela se prenda ao seu cursor. Depois, simplesmente clique com o botão esquerdo na arma na qual você gostaria de engastá-la. A gema desaparecerá do seu cursor e sua arma única estará engastada."
+        }
+    ]
+}

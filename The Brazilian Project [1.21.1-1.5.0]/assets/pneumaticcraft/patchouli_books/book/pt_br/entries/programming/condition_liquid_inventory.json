@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Este é um widget de $(l:programming/conditions)Condição/$.$(p)O widget $(thing)Condição: Fluido/$ permite verificar (remotamente) tanque(s) ou bloco(s) de fluido no widget $(l:programming/area)Área/$ conectado por uma certa quantidade de fluido. Ele só contará o fluido permitido por um widget $(l:programming/liquid_filter)Filtro de Fluido/$ conectado (omita o filtro para permitir qualquer fluido)."
+      "text": "Este é um widget de $(l:programming/conditions)Condição/$.$(p)O widget $(thing)Condição: Fluido/$ permite verificar (remotamente) tanque(s) ou bloco(s) de fluido no widget de $(l:programming/area)Área/$ conectado em busca de uma certa quantidade de fluido. Ele só contará o fluido permitido por um widget de $(l:programming/liquid_filter)Filtro de Fluido/$ conectado (omita o filtro para permitir qualquer fluido)."
     },
     {
       "type": "image",

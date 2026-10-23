@@ -1,0 +1,20 @@
+{
+  "name": "Filtro de Contagem",
+  "sortnum": 2,
+  "category": "laserio:filters",
+  "icon": "laserio:filter_count",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Filtro de Contagem pode designar um número específico de itens e desempenha um papel diferente com base no modo do cartão.$(br2)Os tamanhos de pilha dos itens podem ir de 1 a 4096. Clique esquerdo aumentará o tamanho da pilha, enquanto clique direito o diminuirá. Segurar shift ou control modificará essa quantidade em 10 ou 64 respectivamente."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se um filtro de contagem for usado num cartão de modo de estoque, ele tentará manter a quantidade especificada de recursos em estoque. Por exemplo, manter 64 pedregulho num baú é feito usando um Filtro de Contagem com 64 pedregulho.$(br2)Se um filtro de contagem for usado num cartão Inseridor, ele limitará quantos itens os cartões extratores podem enviar para aquele inventário."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se um filtro de contagem for usado num cartão de modo extrator, ele deixará a quantidade designada de itens para trás. Por exemplo, se você definir um cartão extrator com um filtro de 8 pedregulho, ele tirará tudo menos os últimos 8 pedregulho de um baú.$(br2)Filtros de contagem não têm um botão Permitir vs Negar — pois o modo negar não faria sentido para um filtro de contagem. Todos os filtros de contagem são 'modo permitir'. A interação com o JEI funciona da mesma forma que num $(l:laserio:filter_basic)Filtro Básico$(/l)."
+    }
+  ]
+}

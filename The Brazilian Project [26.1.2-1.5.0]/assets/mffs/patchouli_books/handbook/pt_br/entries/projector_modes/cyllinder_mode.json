@@ -1,32 +1,32 @@
 {
-    "name": "Modo Cilindro",
-    "icon": "mffs:cylinder_mode",
-    "category": "mffs:projector_modes",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:cylinder_mode",
-            "link_recipe": true,
-            "text": "Por padrão, o $(2)Modo Cilindro$() define o Projetor para gerar um campo de força em formato de cilindro com exatamente 1 bloco de espessura. Cada $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() aumenta o tamanho do campo de força em 1 bloco na direção alvo."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:cylinder_mode",
-            "text": "Fabricando o $(2)Modo Cilindro$()."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Ajuste do Campo",
-            "text": "Colocar um $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() num espaço de item marcado por uma seta direcional expandirá o campo em 1 bloco apenas naquela direção. Por exemplo, para aumentar a altura de um campo de força em 1 bloco, adicione um $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() num espaço de item marcado por uma seta direcional apontando para o topo-esquerdo ou topo-direito da tela de GUI."
-        },
-        {
-            "type": "patchouli:image",
-            "images": [
-                "mffs:textures/gui/handbook/cylinder_mode.png"
-            ],
-            "border": true,
-            "title": "Projeção",
-            "text": "Um campo de $(2)Modo Cilindro$() expandido sendo projetado."
-        }
-    ]
+  "name": "Modo Cilindro",
+  "icon": "mffs:cylinder_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:cylinder_mode",
+      "link_recipe": true,
+      "text": "Por padrão, o $(2)Modo Cilindro$() define o Projetor para gerar um campo de força em formato de cilindro com exatamente 1 bloco de espessura. Cada $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() aumenta o tamanho do campo de força em 1 bloco na direção alvo."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:cylinder_mode",
+      "text": "Fabricando o $(2)Modo Cilindro$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ajuste de Campo",
+      "text": "Colocar um $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() num slot de item marcado por uma seta direcional escalará o campo em 1 bloco apenas naquela direção. Por exemplo, para aumentar a altura de um campo de força em 1 bloco, adicione um $(l:mffs:upgrade_modules/scale_module)$(5)Módulo de Escala$() num slot de item marcado por uma seta apontando para o canto superior esquerdo ou direito da interface."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/cylinder_mode.png"
+      ],
+      "border": true,
+      "title": "Projeção",
+      "text": "Um campo de $(2)Modo Cilindro$() escalado sendo projetado."
+    }
+  ]
 }

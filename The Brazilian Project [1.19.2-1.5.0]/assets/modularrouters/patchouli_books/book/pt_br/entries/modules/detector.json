@@ -1,0 +1,15 @@
+{
+  "name": "Módulo Detector",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:detector_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Este módulo não manipula itens de fato, mas detecta itens específicos no buffer do roteador. Se o conteúdo do buffer corresponder ao filtro do módulo, ele fará o roteador emitir um sinal de redstone na $(l:intro/modules#direction)direção configurada/$.$(p)O nível do sinal (padrão: 15) e o tipo de sinal (padrão: fraco) podem ser ajustados via GUI do módulo."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:detector_module"
+    }
+  ]
+}

@@ -1,16 +1,16 @@
 {
-    "name": "Fortron",
-    "icon": "mffs:battery",
-    "category": "mffs:getting_started",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Fortron é uma forma de energia que as máquinas MFFS usam como fonte de poder. Ela é produzida e armazenada inicialmente pelo $(l:mffs:machines/coercion_deriver)Derivador de Coerção$() para então ser transferida a outras máquinas pelo $(l:mffs:machines/fortron_capacitor)Capacitor de Fortron$()."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Outra fonte de energia Fortron é um item exclusivo do criativo conhecido como $(5)Cartão de Energia Infinita$(). Ele pode ser colocado diretamente num $(l:mffs:machines/fortron_capacitor)Capacitor de Fortron$() (espaço de item mais à esquerda) para fornecer um suprimento infinito de Fortron. O Fortron consegue existir como líquido. Ele pode ser bombeado diretamente de um Capacitor e manipulado da mesma forma que Água ou Lava."
-        }
-    ]
+  "name": "Fortron",
+  "icon": "mffs:battery",
+  "category": "mffs:getting_started",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fortron é uma forma de energia que as máquinas MFFS usam como fonte de poder. É produzido e armazenado inicialmente pelo $(l:mffs:machines/coercion_deriver)Derivador de Coerção$() para então ser transferido a outras máquinas pelo $(l:mffs:machines/fortron_capacitor)Capacitor de Fortron$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Outra fonte de energia Fortron é um item exclusivo do criativo conhecido como $(5)Cartão de Energia Infinita$(). Ele pode ser colocado diretamente num $(l:mffs:machines/fortron_capacitor)Capacitor de Fortron$() (slot de item mais à esquerda) para fornecer um suprimento infinito de Fortron. O Fortron pode existir como líquido. Pode ser bombeado diretamente de um Capacitor e manipulado da mesma forma que Água ou Lava."
+    }
+  ]
 }

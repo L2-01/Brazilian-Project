@@ -10,10 +10,14 @@ navigation:
 
 <ItemImage id="aurora" scale="3" />
 
+### Melhoria padrão
+
+<UpgradeEntry id="default/aurora" />
+
 ## Atributos
 
-- Dano base: 9,0 x esfera, 63,0 máx.
-- Alcance: 13,0
-- Projétil: 7 esferas de [LightFrag](index.md#lightfrags)
+- Dano base: 9.0 x projétil, 63.0 máx
+- Alcance: 13.0
+- Projétil: 7 projéteis [LightFrag](index.md#lightfrags)
 - Gatilho: Semiautomático
-- Recarga do gatilho: 0,5 s
+- Resfriamento do gatilho: 0.5 seg

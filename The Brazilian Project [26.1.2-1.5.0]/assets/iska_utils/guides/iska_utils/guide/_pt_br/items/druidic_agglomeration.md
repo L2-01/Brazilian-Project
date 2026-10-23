@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:druidic_agglomeration
 categories:
-  - Solos de Farm de Criaturas
+  - MobFarm Soils
 ---
 # Aglomeração Druídica
 
@@ -15,10 +15,10 @@ categories:
 
 ## Uso
 
-Clique direito no **chão conectado** para converter uma mancha ligada em **Podzol Druídico** (área circular, raio 7). Consome uma aglomeração por uso.
+Clique com o botão direito em **solo conectado** para converter um trecho ligado em **Podzol Druídico** (área circular, raio 7). Consome uma aglomeração por uso.
 
 ## Efeito
 
-- Ignora as regras de espalhamento natural: converte chão conectado incluindo blocos do mod **entrópicos** e **druídicos** já na mancha.
-- O **Solo de Cemitério** não faz parte da mancha (bloqueia a conversão através dele).
-- Para gerações com luz, comportamento na escuridão e aceleração por redstone, veja **Podzol Druídico**.
+- Ignora as regras de propagação natural: converte solo conectado incluindo blocos **entrópicos** e **druídicos** do mod já presentes no trecho.
+- **Solo de Cemitério** não faz parte do trecho (bloqueia a conversão através dele).
+- Para spawns na luz, comportamento na escuridão e aceleração por redstone, veja **Podzol Druídico**.

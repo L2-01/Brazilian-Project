@@ -1,0 +1,17 @@
+{
+  "name": "Refinador de Lodo",
+  "icon": "industrialforegoing:sludge_refiner",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 10,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uma máquina que transforma $(6)lodo$() em algo útil.$(br2)Quando abastecida com $(6)Lodo$(), obtido do $(l:agriculture_n_husbandry/plant_gatherer)Coletor de Plantas$(), ela gerará $(6)algo$().$(br)Este processo requer $(6)1000$()RF/t, então certifique-se de ter energia armazenada."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:sludge_refiner"
+    }
+  ]
+}

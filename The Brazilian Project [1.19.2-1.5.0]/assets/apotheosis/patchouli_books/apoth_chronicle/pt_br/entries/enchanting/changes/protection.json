@@ -1,0 +1,25 @@
+{
+    "name": "Proteção",
+    "icon": "minecraft:netherite_chestplate",
+    "category": "apotheosis:enchanting/changes",
+    "flag": "apotheosis:enchanting",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(9)Proteção$() não é mais exclusiva dos subtipos de proteção.$(p)Isso significa que agora você pode ter $(9)Proteção$() e outro encantamento defensivo normalmente exclusivo."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Para compensar, a eficácia dos encantamentos de proteção é levemente modificada.$(p)Entender como exige aprender um pouco sobre como a proteção funciona, e um pouco de matemática.$(p)Para começar, apresentamos o conceito de ponto de Redução de Dano (RD), o atributo que beneficia todos os encantamentos defensivos."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O encantamento $(9)Proteção$() fornece 1 ponto contra todos os tipos de dano.$(p)Encantamentos especializados fornecem 2 pontos contra um tipo específico.$(p)$(9)Queda Suave$() fornece 3 pontos contra dano de queda."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "No Apotheosis, cada ponto de Proteção fornece 2,5% de redução de dano, até 85%.$(p)No vanilla, cada ponto fornece 4% de redução de dano, até 80%."
+        }
+    ]
+}

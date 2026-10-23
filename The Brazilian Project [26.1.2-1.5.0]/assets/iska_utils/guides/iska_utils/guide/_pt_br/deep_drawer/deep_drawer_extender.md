@@ -14,18 +14,18 @@ item_ids:
 
 <BlockImage id="deep_drawer_extender" scale="8" />
 
-O Extensor de Gaveta Profunda é um módulo que estende a presença de uma Gaveta Profunda, tornando-a acessível somente para inserção por funis, canos de itens e outros blocos de automação que precisam interagir diretamente com a gaveta.
+O Extensor de Gaveta Profunda é um módulo que estende a presença de uma Gaveta Profunda, tornando-a acessível somente para inserção a funis, canos de itens e outros blocos de automação que precisam interagir diretamente com a gaveta.
 
 ## Recursos Principais
 
-- **Estende a Presença da Gaveta**: Torna a gaveta visível a blocos que precisam de interação direta de inserção (funis, canos de itens, etc.)
+- **Estende a Presença da Gaveta**: Torna a gaveta visível para blocos que precisam de interação direta na inserção (funis, canos de itens etc.)
 - **Inserção de Itens**: Você pode inserir itens diretamente na gaveta através do Extensor
 - **Extração Bloqueada**: Permite apenas inserção
-- **Descoberta de Rede**: Encontra automaticamente a gaveta através de módulos conectados a até 16 blocos de distância
+- **Descoberta em Rede**: Encontra a gaveta automaticamente através de módulos conectados a até 16 blocos de distância
 
 ## Casos de Uso
 
-- **Integração com Funis**: Coloque um Extensor ao lado de um funil para permitir inserção automática de itens na gaveta
-- **Roteamento de Canos de Itens**: Conecte canos de itens ao Extensor para rotear itens para a gaveta a partir de múltiplas fontes
-- **Alcance Estendido**: Encadeie vários Extensores para estender a área acessível da gaveta
-- **Automação Somente de Entrada**: Perfeito para cenários em que você só quer inserir itens
+- **Integração com Funis**: Coloque um Extensor ao lado de um funil para permitir a inserção automática de itens na gaveta
+- **Roteamento por Canos de Itens**: Conecte canos de itens ao Extensor para rotear itens de várias fontes para dentro da gaveta
+- **Alcance Estendido**: Encadeie vários Extensores para ampliar a área acessível da gaveta
+- **Automação Só de Entrada**: Perfeito para cenários em que você só quer inserir itens

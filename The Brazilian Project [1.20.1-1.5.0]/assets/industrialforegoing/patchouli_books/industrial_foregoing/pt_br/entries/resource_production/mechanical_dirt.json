@@ -7,11 +7,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "Imbuído de tecnologia desconhecida, este bloco gera $(6)criaturas$() numa taxa rápida quando certas condições são atendidas.$(br2)Primeiro, ele requer $(6)1000$()RF e $(6)20mb$() de $(6)Carne Líquida$() por operação; segundo, as condições normais de geração de criaturas precisam ser atendidas (isso significa que o nível de luz tem que ser $(6)7$() ou menor e o bloco tem que estar carregado)$(br2)"
+      "text": "Imbuído de tecnologia desconhecida, este bloco gerará $(6)criaturas$() numa taxa rápida quando certas condições forem atendidas.$(br2)Primeiro, requer $(6)1000$()RF e $(6)20mb$() de $(6)Carne Líquida$() por operação; segundo, as condições normais de geração de criaturas devem ser atendidas (o nível de luz deve ser $(6)7$() ou menor e o bloco deve estar carregado)$(br2)"
     },
     {
       "type": "text",
-      "text": "Quando um bloco é abastecido com $(6)Energia$() ou $(6)Carne Líquida$(), ela será dividida igualmente e automaticamente por quaisquer blocos conectados."
+      "text": "Quando um bloco é abastecido com $(6)Energia$() ou $(6)Carne Líquida$(), ela será automaticamente dividida igualmente entre quaisquer blocos conectados."
     }
   ]
 }

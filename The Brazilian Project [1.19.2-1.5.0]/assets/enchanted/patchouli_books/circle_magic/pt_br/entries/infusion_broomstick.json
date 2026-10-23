@@ -1,0 +1,17 @@
+{
+  "name": "Infusão de Vassoura",
+  "icon": "enchanted:enchanted_broomstick",
+  "category": "enchanted:infusion",
+  "pages": [
+    {
+      "type": "enchanted:rite_description",
+      "rite_name": "Infusão de Vassoura",
+      "text": "Imbui uma vassoura comum com o poder do voo, permitindo que a bruxa ou o bruxo a monte.$(br2)Os controles padrão são WASD, Espaço/Ctrl Esquerdo e C/V."
+    },
+    {
+      "type": "enchanted:rite_requirements",
+      "rite": "enchanted:infusion_broom"
+    }
+  ],
+  "read_by_default": true
+}

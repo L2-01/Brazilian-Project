@@ -1,0 +1,158 @@
+---
+title: Referência de Markdown e MDX
+---
+
+O Oracle Index renderiza um subconjunto prático da sintaxe suportada pelo ModdedMC Wiki. A mesma página pode ser usada online e dentro do jogo, desde que sua apresentação no jogo se mantenha dentro dos recursos abaixo.
+
+## Markdown Padrão
+
+O Markdown suportado inclui:
+
+- cabeçalhos
+- parágrafos e quebras de linha
+- **negrito**, *itálico* e `código inline`
+- listas ordenadas e não ordenadas, incluindo listas aninhadas
+- links relativos, de ID de conteúdo, de referência de página, de item vanilla e de sites
+- blocos de código cercados, com linguagem e nome de arquivo opcionais
+- citações em bloco
+- tabelas no estilo GitHub
+- imagens com legendas de texto alternativo e atributos de tamanho
+
+O renderizador do jogo não executa HTML, JSX, JavaScript ou CSS arbitrários. Blocos HTML e componentes personalizados não suportados são ignorados em vez de renderizados como texto.
+
+## Links
+
+Links relativos normais são resolvidos a partir da página atual. O Oracle Index também entende estas formas de link de wiki:
+
+```md
+[Relative page](../machines/generator)
+[](@minecraft:diamond_pickaxe)
+[](+custom_page_ref)
+[]($getting_started)
+[Website](https://example.com)
+```
+
+`@namespace:id` abre a página de conteúdo indexada para esse ID de registro. `+ref` usa o valor `ref` do frontmatter de uma página de conteúdo. `$slug` aponta para uma página de documentação. Rótulos de link vazios usam o título da página de destino ou o nome traduzido do item vanilla, quando aplicável.
+
+Links para âncoras de cabeçalho não são suportados no jogo no momento. Um bloco de atributos de cabeçalho ao final é ocultado do cabeçalho exibido por compatibilidade, mas IDs e atributos como `{#details}` ou `{clear}` não afetam o layout nem fornecem um destino de rolagem.
+
+## Imagens e recursos
+
+Imagens Markdown, elementos HTML `<img>` simples e os aliases `<Asset>`/`<ModAsset>` são suportados:
+
+```md
+![](@example:machine_layout)
+![Machine layout](@example:machine_layout){center width=160}
+![Small icon](@example:icon){item}
+<img src="@example:machine_layout" width="160" />
+<Asset location="example:machine_layout.png" width="50%" />
+```
+
+As imagens são centralizadas por padrão. `{left}` ativa alinhamento à esquerda. `{center}` centraliza explicitamente. `{right}` é aceito por compatibilidade, mas o Oracle Index não consegue flutuar conteúdo ao lado do texto e, por isso, o centraliza no jogo. Atributos de largura e altura usam pixels de tela; larguras em porcentagem usam a largura disponível do conteúdo. As imagens são limitadas a essa largura disponível.
+
+O atributo `{item}` sempre renderiza em 32×32 e serve para ícones no estilo de item. IDs de registro de item como `@minecraft:diamond` usam o modelo real do item no jogo. Imagens Markdown isoladas com texto alternativo exibem esse texto como legenda.
+
+Recursos de schema 1 são carregados de `assets/<namespace>/` dentro da wiki. As extensões de arquivo usam `.png` para imagens e `.ogg` para áudio por padrão. Wikis legadas usam `.assets/<namespace>/`.
+
+## Alertas e callouts
+
+Alertas no estilo GitHub suportam `NOTE`, `TIP`, `IMPORTANT`, `WARNING` e `CAUTION`:
+
+```md
+> [!TIP] Optional custom title
+> Helpful content.
+
+> [!WARNING]+
+> Expanded by default and collapsible.
+
+> [!CAUTION]- At your own risk
+> Collapsed by default and expandable.
+```
+
+O marcador `+` torna um alerta recolhível e inicialmente expandido. O marcador `-` o torna recolhível e inicialmente recolhido.
+
+O componente equivalente suporta as variantes `note`/`info`, `tip`, `important`, `warning` e `caution`/`danger`:
+
+```mdx
+<Callout variant="warning" title="Back up first" collapsible>
+    Callout content can contain supported Markdown.
+</Callout>
+
+<Callout variant="danger" collapsed>
+    This starts collapsed.
+</Callout>
+```
+
+`collapsible` começa expandido. `collapsed` implica recolhível e começa fechado. Os nomes das variantes internas são traduzidos pelo Oracle Index; títulos personalizados são conteúdo da página e pertencem a cada arquivo MDX traduzido.
+
+## Blocos de código e abas
+
+Um bloco de código cercado pode incluir uma linguagem e um nome de arquivo:
+
+````md
+```json recipe.json
+{"type": "minecraft:crafting_shaped"}
+```
+````
+
+Abas de código contêm blocos de código cercados como filhos diretos. Coloque `!!tabs` após a linguagem seguido do título visível da aba:
+
+````mdx
+<CodeTabs>
+```js !!tabs main.js
+console.log("Hello");
+```
+
+```css !!tabs styles.css
+body { margin: 0; }
+```
+</CodeTabs>
+````
+
+Destaque de sintaxe e uma fonte monoespaçada dedicada não são fornecidos no momento. A linguagem é apenas metadado, e cada aba exibe texto puro usando a fonte do Minecraft. Wrappers aninhados dentro de `<CodeTabs>` não são inspecionados.
+
+## Outros componentes suportados
+
+`CraftingRecipe` renderiza uma receita 3×3 com forma. Seu array `slots` deve conter exatamente nove IDs de item ou strings vazias. Ele não consulta o gerenciador de receitas nem suporta receitas de outras dimensões.
+
+```mdx
+<CraftingRecipe
+    slots={['', 'minecraft:stick', '', '', 'minecraft:stick', '', '', 'minecraft:diamond', '']}
+    result="minecraft:diamond_shovel"
+    count={1}
+/>
+```
+
+`Audio` toca um recurso `.ogg` através de um controle de reproduzir/parar dentro do jogo:
+
+```mdx
+<Audio controls src="example:sounds/notification.ogg" />
+```
+
+`VideoEmbed` cria um botão que abre o vídeo no YouTube. O Oracle Index não transmite nem incorpora o vídeo dentro do jogo:
+
+```mdx
+<VideoEmbed id="Y_WnAEKoeA4" />
+```
+
+Texto ao passar o mouse usa `?[label](description)`:
+
+```md
+Uma picareta é necessária para ?[minerar](quebrar e ainda largar um item) este bloco.
+```
+
+O rótulo e a descrição são texto puro. Formatação aninhada e parênteses de fechamento dentro da descrição não são suportados.
+
+## Comportamento de tradução
+
+No schema 1, os arquivos traduzidos espelham seus caminhos base abaixo de `translated/<locale>/`. Por exemplo:
+
+```text
+docs/machines/generator.mdx
+translated/de_de/docs/machines/generator.mdx
+translated/de_de/docs/machines/_meta.json
+```
+
+Wikis legadas usam `.translated/<locale>/`. A correspondência de locale usa o código exato do idioma ativo do Minecraft. Locales em inglês usam os recursos base. Arquivos traduzidos ausentes recorrem à página ou aos metadados base.
+
+Os títulos de página são lidos do frontmatter `title` da página traduzida, do primeiro cabeçalho de nível um ou do nome traduzido do item no jogo. A pesquisa indexa apenas o texto do corpo no idioma base, mas abre resultados traduzidos e exibe títulos cientes do locale.

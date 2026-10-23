@@ -1,0 +1,31 @@
+---
+title: Melhoria de Interação com Entidade do Mundo
+id: excessive_utilities:world_interaction_upgrade
+related_items: [excessive_utilities:world_interaction_upgrade]
+type: item
+---
+**Melhorias de Interação com Entidade do Mundo** podem ser colocadas dentro de [Nós de Transferência de Itens e Fluidos](@excessive_utilities:transfer_nodes) para fazê-los interagir com o mundo de várias formas.
+
+## Nós de Transferência de Itens
+
+Se o Nó estiver colocado em nada, ele pega itens do chão e os armazena em seu buffer.
+
+Há várias receitas `excessive_utilities:world_interaction_item`, que aceitam o seguinte como "ingredientes":
+
+- O estado de bloco onde o Nó está colocado
+- Os estados de bloco ao redor daquele bloco
+- O estado de bloco atrás daquele bloco
+
+Em Pedregulho adjacente a fontes de Lava e Água, o Nó gerará Pedregulho.
+
+Em Terra das Almas adjacente a Gelo Azul e uma fonte de Lava, o Nó gerará Basalto.
+
+Em Pedra adjacente a uma fonte de Lava com Água atrás, o Nó gerará Pedra.
+
+## Nós de Transferência de Fluidos
+
+Se o Nó estiver colocado num bloco-fonte de Água que tenha pelo menos dois outros blocos-fonte de Água adjacentes, o Nó de Transferência se encherá continuamente de Água.
+
+Esta é a única receita `excessive_utilities:world_interaction_fluid` padrão.
+
+<PrefabObtaining/>

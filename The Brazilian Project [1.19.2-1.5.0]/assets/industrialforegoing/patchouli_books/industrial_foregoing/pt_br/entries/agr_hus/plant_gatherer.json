@@ -1,0 +1,21 @@
+{
+  "name": "Coletor de Plantas",
+  "icon": "industrialforegoing:plant_gatherer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uma máquina usada para $(6)cortar$() árvores e $(6)colher$() plantações. Cada operação cria um pouco de $(l:agr_hus/sludge)Lodo$(). $(br2)Se o Coletor de Plantas começar a colher uma árvore dentro da área de trabalho, ele continuará a colher qualquer tronco ou folhas conectados ao bloco de tronco base."
+    },
+    {
+      "type": "text",
+      "text": "O Coletor de Plantas quebrará as plantações ao colher, mesmo quando a planta puder ser colhida com clique direito. Mas se estiver sendo abastecido com pequenas quantidades de éter, ele replantará automaticamente."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:plant_gatherer"
+    }
+  ]
+}

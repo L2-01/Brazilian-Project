@@ -6,24 +6,24 @@
   "pages": [
     {
       "type": "text",
-      "text": "Um $(item)Drone Guarda/$ é um tipo especializado e não programável de $(l:tools/drone)Drone/$ que deve ser implantado contra qualquer bloco de inventário. Ele importará um item para usar como arma e atacará quaisquer criaturas no alcance com ela."
+      "text": "Um $(item)Drone Guarda/$ é um tipo especializado e não programável de $(l:tools/drone)Drone/$ que deve ser posicionado contra qualquer bloco de inventário. Ele importará um item para usar como arma e atacará com ele qualquer criatura ao alcance."
     },
     {
       "type": "spotlight",
-      "title": "Recarga Automática",
+      "title": "Carregamento Automático",
       "item": "pneumaticcraft:charging_station",
-      "text": "Como todos os tipos de Drone, esses drones requerem $(l:base_concepts/pressure)pressão/$ para operar e procurarão automaticamente $(l:tools/drone#charging)uma Estação de Carga com Melhoria de Ejetor/$ se estiverem com pouco ar."
+      "text": "Como todos os tipos de Drone, esses drones requerem $(l:base_concepts/pressure)pressão/$ para operar e procurarão automaticamente $(l:tools/drone#charging)uma Estação de Carga com uma Melhoria de Ejetor/$ se estiverem com pouco ar."
     },
     {
       "type": "text",
       "title": "Alcance",
-      "text": "O $(thing)Drone Guarda/$ mirará qualquer criatura hostil num raio de 16 blocos horizontais da sua posição de implantação, 8 blocos para cima e 5 blocos para baixo.$(p)A razão para o alcance vertical menor é minimizar a detecção de criaturas em cavernas bem abaixo e o teleporte até elas, o que desperdiça ar e o deixa se perguntando o que aconteceu com seu Drone."
+      "text": "O $(thing)Drone Guarda/$ mirará quaisquer criaturas hostis num raio de 16 blocos na horizontal a partir da sua posição de implantação, 8 blocos para cima e 5 blocos para baixo.$(p)O motivo do alcance vertical menor é minimizar a detecção de criaturas em cavernas bem abaixo e o teleporte até elas, o que desperdiça ar e deixa você se perguntando o que aconteceu com seu Drone."
     },
     {
       "type": "spotlight",
       "title": "Arma",
       "item": "minecraft:netherite_sword",
-      "text": "O $(thing)Drone Guarda/$ não se importa com o que está no inventário, então tome cuidado para colocar uma arma corpo a corpo útil lá. Se e quando a arma quebrar e não houver substitutas no inventário, o drone continuará lutando desarmado, o que é muito ineficaz."
+      "text": "O $(thing)Drone Guarda/$ não se importa com o que há no inventário, então tome cuidado para colocar uma arma corpo a corpo útil nele. Se e quando a arma quebrar e não houver substitutas no inventário, o drone continuará lutando desarmado, o que é muito ineficaz."
     },
     {
       "type": "spotlight",
@@ -38,7 +38,7 @@
     },
     {
       "type": "crafting",
-      "text": "Fabricando um Drone Guarda",
+      "text": "Fabricando Drone Guarda",
       "recipe": "pneumaticcraft:guard_drone"
     }
   ]

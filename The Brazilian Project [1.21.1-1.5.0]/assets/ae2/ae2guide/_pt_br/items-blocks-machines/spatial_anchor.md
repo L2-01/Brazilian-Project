@@ -14,20 +14,20 @@ item_ids:
 
 <BlockImage id="spatial_anchor" p:powered="true" scale="8"/>
 
-Uma rede AE2 precisa ter os chunks carregados para que qualquer um dos seus [dispositivos](../ae2-mechanics/devices.md) consiga funcionar, e se apenas parte dela estiver carregada,
-ela pode não funcionar corretamente. A Âncora Espacial resolve este problema. Ela força o carregamento dos chunks que a sua rede ocupa.
-Um único cabo atravessando uma fronteira de chunk é suficiente para carregar aquele novo chunk.
+Uma rede do AE2 precisa estar carregada para que qualquer um de seus [dispositivos](../ae2-mechanics/devices.md) funcione, e se só parte dela estiver carregada,
+ela pode não funcionar corretamente. A Âncora Espacial resolve esse problema. Ela força o carregamento dos chunks que sua rede ocupa.
+Um único cabo cruzando uma borda de chunk já é suficiente para carregar o novo chunk.
 
-Ela propagará seu "carregamento" através de [pontes quânticas](quantum_bridge.md), mas não entre dimensões, então se você
-tiver uma ponte quântica para o Nether, você precisa de uma âncora espacial na rede na sua base e na rede no Nether.
+Ela propaga seu "carregamento" através de [pontes quânticas](quantum_bridge.md), mas não entre dimensões, então se você
+tiver uma ponte quântica para o nether, precisará de uma âncora espacial na rede da sua base e na rede do nether.
 
-Por padrão, ela também habilitará tiques aleatórios nos seus chunks carregados; isso pode ser desligado na config do AE2.
+Por padrão, ela também ativa ticks aleatórios nos seus chunks carregados; isso pode ser desligado na configuração do AE2.
 
-Ela pode ser girada com uma <ItemLink id="certus_quartz_wrench" /> se, por algum motivo, você quiser fazer isso.
+Ela pode ser girada com uma <ItemLink id="certus_quartz_wrench" /> se por algum motivo você quiser fazer isso.
 
 ## Configurações
 
-*   A âncora espacial dá acesso à configuração global de ver energia em AE ou E/FE.
+*   A âncora espacial dá acesso à configuração global de exibir energia em AE ou E/FE.
 *   Um holograma no mundo pode ser exibido mostrando os chunks sendo carregados.
 
 ## Energia

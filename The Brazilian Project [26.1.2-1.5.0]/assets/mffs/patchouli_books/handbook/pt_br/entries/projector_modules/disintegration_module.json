@@ -1,32 +1,32 @@
 {
-    "name": "Módulo de Desintegração",
-    "icon": "mffs:disintegration_module",
-    "category": "mffs:projector_modules",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:disintegration_module",
-            "link_recipe": true,
-            "text": "O $(5)Módulo de Desintegração$() pode ser usado num $(l:mffs:machines/projector)Projetor de Campo de Força$() para alterar o efeito que um campo de força tem sobre seu entorno. Colocar um $(5)Módulo de Desintegração$() nos espaços de matriz de um Projetor fará com que o campo que ele gera quebre quaisquer blocos que o estejam obstruindo. Blocos quebrados são largados como itens e podem ser recolhidos."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:disintegration_module",
-            "text": "Fabricando o $(5)Módulo de Desintegração$()."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Uso",
-            "text": "O $(5)Módulo de Desintegração$() é compatível com todos os modos de projetor e pode ser usado para reverter o efeito do $(l:mffs:projector_modules/stabilization_module)$(5)Módulo Estabilizador de Campo$(). Adicionar $(l:mffs:upgrade_modules/speed_module)$(5)Módulos de Velocidade$() num Projetor permite que múltiplos blocos sejam desintegrados de uma vez. Também pode ser combinado com um $(l:mffs:projector_modules/collection_module)$(5)Módulo de Coleta$() para recolher blocos quebrados automaticamente."
-        },
-        {
-            "type": "patchouli:image",
-            "images": [
-                "mffs:textures/gui/handbook/disintegration_module.png"
-            ],
-            "border": true,
-            "title": "Projeção",
-            "text": "Um Projetor de Campo de Força destruindo uma parede usando o $(5)Módulo de Desintegração$()."
-        }
-    ]
+  "name": "Módulo de Desintegração",
+  "icon": "mffs:disintegration_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:disintegration_module",
+      "link_recipe": true,
+      "text": "O $(5)Módulo de Desintegração$() pode ser usado num $(l:mffs:machines/projector)Projetor de Campo de Força$() para alterar o efeito que um campo de força tem sobre os arredores. Colocar um $(5)Módulo de Desintegração$() nos slots de matriz de um Projetor fará o campo que ele gera quebrar quaisquer blocos que o estejam obstruindo. Blocos quebrados são largados como itens e podem ser recolhidos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:disintegration_module",
+      "text": "Fabricando o $(5)Módulo de Desintegração$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "O $(5)Módulo de Desintegração$() é compatível com todos os modos de projetor e pode ser usado para reverter o efeito do $(l:mffs:projector_modules/stabilization_module)$(5)Módulo de Estabilização de Campo$(). Adicionar $(l:mffs:upgrade_modules/speed_module)$(5)Módulos de Velocidade$() a um Projetor permite desintegrar vários blocos de uma vez. Também pode ser combinado com um $(l:mffs:projector_modules/collection_module)$(5)Módulo de Coleta$() para recolher blocos quebrados automaticamente."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/disintegration_module.png"
+      ],
+      "border": true,
+      "title": "Projeção",
+      "text": "Um Projetor de Campo de Força destruindo uma parede usando o $(5)Módulo de Desintegração$()."
+    }
+  ]
 }

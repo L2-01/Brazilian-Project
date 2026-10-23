@@ -1,11 +1,11 @@
 {
-  "name": "Caixa Receptora de Sinal",
-  "icon": "railcraft:signal_receiver_box",
-  "category": "railcraft:signal_boxes",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Esta caixa pode ser emparelhada com qualquer Controlador. Quando emparelhada, você pode abrir uma GUI para escolher quais Aspectos de Sinal devem emitir uma corrente de Redstone da Caixa. Se colocada ao lado de uma Caixa Controladora de Sinal, ela transmitirá o Aspecto para ela também."
-    }
-  ]
+    "name": "Caixa Receptora de Sinal",
+    "icon": "railcraft:signal_receiver_box",
+    "category": "railcraft:signal_boxes",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Esta caixa pode ser pareada com qualquer Controlador. Quando pareada, você pode abrir uma interface para escolher quais Aspectos de Sinal devem emitir corrente de redstone da Caixa. Se colocada ao lado de uma Caixa Controladora de Sinal, ela também transmitirá o Aspecto para ela."
+        }
+    ]
 }

@@ -1,43 +1,30 @@
 {
-
-"name": "Poste de Luz",
-    "icon": "minecraft:writable_book",
-    "category": "merrymaking:lamp_post",
-    "pages": [
-	
-	
-	{
-			"type": "patchouli:image",
-			
-			"images": ["merrymaking:textures/gui/lamp.png"],
-			"text": "Poste de Luz com Decoração de Laço!"
-		},
-	
-		{
-			"type": "spotlight",
-			"title": "Poste de Luz",
-			"item": "merrymaking:lamp_post",			
-			"text": "O bloco Poste de Luz se estende para cima quando colocado sobre si mesmo e tem orientação direcional para fins de decoração. $(br)O topo de um Poste de Luz se acenderá se você usar uma Tocha nele. $(br2)Remova a tocha e \"desligue\" o Poste de Luz clicando nele com a mão vazia."
-		},
-
-		{
-			"type": "patchouli:text",
-			"title": "Decorando o Poste",
-			"text": "Quando um bloco de Poste de Luz tem 3 blocos de altura, a seção fina do poste pode ser decorada usando um laço ou qualquer tipo de guirlanda. $(br2)Remova a decoração clicando no poste com a mão vazia." 
-		},
-		
-		{
-			"type": "crafting",
-			"title": "Poste de Luz",
-			"recipe": "merrymaking:lamp_post"
-				
-		}
-		
-		
-		
-		
-		
-		]
-	
-	
+  "name": "Poste de Luz",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:lamp_post",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/lamp.png"
+      ],
+      "text": "Poste de Luz com Decoração de Laço!"
+    },
+    {
+      "type": "spotlight",
+      "title": "Poste de Luz",
+      "item": "merrymaking:lamp_post",
+      "text": "O bloco de Poste de Luz se estende para cima quando colocado sobre outro e tem direção para fins de decoração. $(br)O topo de um Poste de Luz acende se você usar uma Tocha nele. $(br2)Remova a tocha e \"desligue\" o Poste de Luz clicando nele com a mão vazia."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Decorando o Poste",
+      "text": "Quando um Bloco de Poste de Luz tem 3 blocos de altura, a seção fina do poste pode ser decorada usando um laço ou qualquer tipo de guirlanda nele. $(br2)Remova a decoração clicando no poste com a mão vazia."
+    },
+    {
+      "type": "crafting",
+      "title": "Poste de Luz",
+      "recipe": "merrymaking:lamp_post"
+    }
+  ]
 }

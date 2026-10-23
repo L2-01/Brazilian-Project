@@ -1,27 +1,27 @@
 {
-    "name": "Módulo de Brilho",
-    "icon": "mffs:glow_module",
-    "category": "mffs:projector_modules",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:glow_module",
-            "link_recipe": true,
-            "text": "O $(5)Módulo de Brilho$() pode ser usado num $(l:mffs:machines/projector)Projetor de Campo de Força$() para iluminar a área ao redor do campo. Instalar $(5)Módulos de Brilho$() num Projetor faz o campo de força emitir luz. Conforme mais $(5)Módulos de Brilho$() são adicionados (até um máximo de 64), o brilho do campo aumenta - até se tornar igual ao da Pedra-Luminosa."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:glow_module",
-            "text": "Fabricando o $(5)Módulo de Brilho$()."
-        },
-        {
-            "type": "patchouli:image",
-            "images": [
-                "mffs:textures/gui/handbook/glow_module.png"
-            ],
-            "border": true,
-            "title": "Projeção",
-            "text": "Um Projetor de Campo de Força projetando um campo com $(5)Módulos de Brilho$() instalados."
-        }
-    ]
+  "name": "Módulo de Brilho",
+  "icon": "mffs:glow_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:glow_module",
+      "link_recipe": true,
+      "text": "O $(5)Módulo de Brilho$() pode ser usado num $(l:mffs:machines/projector)Projetor de Campo de Força$() para iluminar a área ao redor do campo. Instalar $(5)Módulos de Brilho$() num Projetor faz o campo de força emitir luz. Conforme mais $(5)Módulos de Brilho$() são adicionados (até um máximo de 64), o brilho do campo aumenta — até ficar igual ao da Pedra Luminosa."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:glow_module",
+      "text": "Fabricando o $(5)Módulo de Brilho$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/glow_module.png"
+      ],
+      "border": true,
+      "title": "Projeção",
+      "text": "Um Projetor de Campo de Força projetando um campo com $(5)Módulos de Brilho$() instalados."
+    }
+  ]
 }

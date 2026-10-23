@@ -5,49 +5,49 @@
     "pages": [
         {
             "type": "text",
-            "text": "As $(thing)Melhorias/$ são itens fabricáveis que podem ser inseridos em máquinas e algumas ferramentas para melhorar suas funcionalidades de alguma forma. Para adicionar melhorias a ferramentas, você precisará de uma $(l:machines/charging_station)Estação de Carga/$.$(p)O efeito preciso de cada melhoria varia por dispositivo; está documentado na GUI da máquina ou (para itens) na GUI de melhorias da Estação de Carga."
+            "text": "$(thing)Melhorias/$ são itens fabricáveis que podem ser inseridos em máquinas e algumas ferramentas para aprimorar sua funcionalidade de alguma forma. Para adicionar melhorias a ferramentas, você precisará de uma $(l:machines/charging_station)Estação de Carga/$.$(p)O efeito exato de cada melhoria varia conforme o dispositivo; está documentado na GUI da máquina ou (para itens) na GUI de melhorias da Estação de Carga."
         },
         {
             "type": "crafting",
             "anchor": "volume",
             "recipe": "pneumaticcraft:volume_upgrade",
-            "text": "Fabricando uma Melhoria de Volume"
+            "text": "Fabricando Melhoria de Volume"
         },
         {
             "type": "crafting",
             "anchor": "dispenser",
             "recipe": "pneumaticcraft:dispenser_upgrade",
-            "text": "Fabricando uma Melhoria de Ejetor"
+            "text": "Fabricando Melhoria de Ejetor"
         },
         {
             "type": "crafting",
             "anchor": "inventory",
             "recipe": "pneumaticcraft:inventory_upgrade",
-            "text": "Fabricando uma Melhoria de Inventário"
+            "text": "Fabricando Melhoria de Inventário"
         },
         {
             "type": "crafting",
             "anchor": "item_life",
             "recipe": "pneumaticcraft:item_life_upgrade",
-            "text": "Fabricando uma Melhoria de Vida de Item"
+            "text": "Fabricando Melhoria de Vida de Item"
         },
         {
             "type": "crafting",
             "anchor": "entity_tracker",
             "recipe": "pneumaticcraft:entity_tracker_upgrade",
-            "text": "Fabricando uma Melhoria de Rastreamento de Entidades"
+            "text": "Fabricando Melhoria de Rastreamento de Entidades"
         },
         {
             "type": "crafting",
             "anchor": "block_tracker",
             "recipe": "pneumaticcraft:block_tracker_upgrade",
-            "text": "Fabricando uma Melhoria de Rastreamento de Blocos"
+            "text": "Fabricando Melhoria de Rastreamento de Blocos"
         },
         {
             "type": "crafting",
             "anchor": "speed",
             "recipe": "pneumaticcraft:speed_upgrade",
-            "text": "Fabricando uma Melhoria de Velocidade$(p)$(bold)Dica:/$ você também pode usar um $(l:machines/liquid_hopper)Funil de Líquidos/$ (ou outro tanque de mod) de $(l:components/lubricant)Lubrificante/$ para fabricar várias melhorias de uma vez!"
+            "text": "Fabricando uma Melhoria de Velocidade$(p)$(bold)Dica:/$ você também pode usar um $(l:machines/liquid_hopper)Funil de Líquidos/$ (ou outro tanque de mods) de $(l:components/lubricant)Lubrificante/$ para fabricar várias melhorias de uma vez!"
         },
         {
             "type": "crafting",
@@ -65,104 +65,104 @@
             "type": "crafting",
             "anchor": "coordinate_tracker",
             "recipe": "pneumaticcraft:coordinate_tracker_upgrade",
-            "text": "Fabricando uma Melhoria de Rastreamento de Coordenadas"
+            "text": "Fabricando Melhoria de Rastreamento de Coordenadas"
         },
         {
             "type": "crafting",
             "anchor": "range",
             "recipe": "pneumaticcraft:range_upgrade",
-            "text": "Fabricando uma Melhoria de Alcance"
+            "text": "Fabricando Melhoria de Alcance"
         },
         {
             "type": "crafting",
             "anchor": "security",
             "recipe": "pneumaticcraft:security_upgrade",
-            "text": "Fabricando uma Melhoria de Segurança"
+            "text": "Fabricando Melhoria de Segurança"
         },
         {
             "type": "crafting",
             "anchor": "magnet",
             "recipe": "pneumaticcraft:magnet_upgrade",
-            "text": "Fabricando uma Melhoria de Ímã"
+            "text": "Fabricando Melhoria de Ímã"
         },
         {
             "type": "crafting",
             "anchor": "thaumcraft",
             "flag": "mod:thaumcraft",
             "recipe": "pneumaticcraft:thaumcraft_upgrade",
-            "text": "Fabricando uma Melhoria do Thaumcraft"
+            "text": "Fabricando Melhoria do Thaumcraft"
         },
         {
             "type": "crafting",
             "anchor": "charging",
             "recipe": "pneumaticcraft:charging_upgrade",
-            "text": "Fabricando uma Melhoria de Carga"
+            "text": "Fabricando Melhoria de Carga"
         },
         {
             "type": "crafting",
             "anchor": "armor",
             "recipe": "pneumaticcraft:armor_upgrade",
-            "text": "Fabricando uma Melhoria de Armadura"
+            "text": "Fabricando Melhoria de Armadura"
         },
         {
             "type": "crafting",
             "anchor": "jet_boots_1",
             "recipe": "pneumaticcraft:jet_boots_upgrade_1",
-            "text": "Fabricando uma Melhoria de Botas a Jato: Nível I"
+            "text": "Fabricando Melhoria de Botas a Jato: Nível I"
         },
         {
             "type": "crafting",
             "anchor": "jet_boots_2",
             "recipe": "pneumaticcraft:jet_boots_upgrade_2",
-            "text": "Fabricando uma Melhoria de Botas a Jato: Nível II"
+            "text": "Fabricando Melhoria de Botas a Jato: Nível II"
         },
         {
             "type": "crafting",
             "anchor": "jet_boots_3",
             "recipe": "pneumaticcraft:jet_boots_upgrade_3",
-            "text": "Fabricando uma Melhoria de Botas a Jato: Nível III"
+            "text": "Fabricando Melhoria de Botas a Jato: Nível III"
         },
         {
             "type": "crafting",
             "anchor": "jet_boots_4",
             "recipe": "pneumaticcraft:jet_boots_upgrade_4",
-            "text": "Fabricando uma Melhoria de Botas a Jato: Nível IV"
+            "text": "Fabricando Melhoria de Botas a Jato: Nível IV"
         },
         {
             "type": "crafting",
             "anchor": "jet_boots_5",
             "recipe": "pneumaticcraft:jet_boots_upgrade_5",
-            "text": "Fabricando uma Melhoria de Botas a Jato: Nível V"
+            "text": "Fabricando Melhoria de Botas a Jato: Nível V"
         },
         {
             "type": "crafting",
             "anchor": "jumping_1",
             "recipe": "pneumaticcraft:jumping_upgrade_1",
-            "text": "Fabricando uma Melhoria de Salto: Nível I"
+            "text": "Fabricando Melhoria de Salto: Nível I"
         },
         {
             "type": "crafting",
             "anchor": "jumping_2",
             "recipe": "pneumaticcraft:jumping_upgrade_2",
-            "text": "Fabricando uma Melhoria de Salto: Nível II"
+            "text": "Fabricando Melhoria de Salto: Nível II"
         },
         {
             "type": "crafting",
             "anchor": "jumping_3",
             "recipe": "pneumaticcraft:jumping_upgrade_3",
-            "text": "Fabricando uma Melhoria de Salto: Nível III"
+            "text": "Fabricando Melhoria de Salto: Nível III"
         },
         {
             "type": "crafting",
             "anchor": "jumping_4",
             "recipe": "pneumaticcraft:jumping_upgrade_4",
-            "text": "Fabricando uma Melhoria de Salto: Nível IV"
+            "text": "Fabricando Melhoria de Salto: Nível IV"
         },
         {
             "type": "crafting",
             "anchor": "night_vision",
             "recipe": "pneumaticcraft:night_vision_upgrade",
-            "text": "Fabricando uma Melhoria de Visão Noturna"
+            "text": "Fabricando Melhoria de Visão Noturna"
         },
         {
             "type": "crafting",
@@ -174,57 +174,57 @@
             "type": "crafting",
             "anchor": "flippers",
             "recipe": "pneumaticcraft:flippers_upgrade",
-            "text": "Fabricando uma Melhoria de Pés de Pato"
+            "text": "Fabricando Melhoria de Pés de Pato"
         },
         {
             "type": "crafting",
             "anchor": "standby",
             "recipe": "pneumaticcraft:standby_upgrade",
-            "text": "Fabricando uma Melhoria de Espera"
+            "text": "Fabricando Melhoria de Espera"
         },
         {
             "type": "crafting",
             "anchor": "minigun",
             "recipe": "pneumaticcraft:minigun_upgrade",
-            "text": "Fabricando uma Melhoria de Minigun"
+            "text": "Fabricando Melhoria de Minigun"
         },
         {
             "type": "crafting",
             "flag": "mod:toughasnails",
             "anchor": "air_conditioning",
             "recipe": "pneumaticcraft:air_conditioning_upgrade",
-            "text": "Fabricando uma Melhoria de Ar Condicionado"
+            "text": "Fabricando Melhoria de Ar Condicionado"
         },
         {
             "type": "crafting",
             "flag": "mod:mekanism",
             "anchor": "radiation_shielding",
             "recipe": "pneumaticcraft:radiation_shielding_upgrade",
-            "text": "Fabricando uma Melhoria de Escudo de Radiação"
+            "text": "Fabricando Melhoria de Escudo de Radiação"
         },
         {
             "type": "crafting",
             "anchor": "gilded",
             "recipe": "pneumaticcraft:gilded_upgrade",
-            "text": "Fabricando uma Melhoria Dourada"
+            "text": "Fabricando Melhoria Dourada"
         },
         {
             "type": "crafting",
             "anchor": "ender_visor",
             "recipe": "pneumaticcraft:ender_visor_upgrade",
-            "text": "Fabricando uma Melhoria de Visor de Ender"
+            "text": "Fabricando Melhoria de Visor de Ender"
         },
         {
             "type": "crafting",
             "anchor": "stomp",
             "recipe": "pneumaticcraft:stomp_upgrade",
-            "text": "Fabricando uma Melhoria de Pisão"
+            "text": "Fabricando Melhoria de Pisão"
         },
         {
             "type": "crafting",
             "anchor": "chunkloader",
             "recipe": "pneumaticcraft:chunkloader_upgrade",
-            "text": "Fabricando uma Melhoria de Carregador de Chunks"
+            "text": "Fabricando Melhoria de Carregador de Chunks"
         }
     ]
 }

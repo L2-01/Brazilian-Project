@@ -1,0 +1,16 @@
+{
+    "name": "Cura",
+    "icon": "petrock:kibble",
+    "category": "petrock:care_category",
+    "pages": [
+        {
+            "type": "text",
+            "title": "Ração",
+            "text": "Use Ração para curar sua Pedra de Estimação ferida"
+        },
+        {
+            "type": "crafting",
+            "recipe": "petrock:kibble"
+        }
+    ]
+}

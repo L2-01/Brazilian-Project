@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "O Módulo de Tubo Detector de Fluxo é um módulo $(l:tubes/tube_modules#inline)em linha/$ que mede o $(thing)fluxo de ar/$ através de um tubo. Ele emite um $(#f00)sinal de redstone/$ como resultado, usando a seguinte fórmula:$(p)  $(formula)0,2 * fluxo (mL/tique)/$$(p)Ex.: com 20mL/tique de ar fluindo, o nível do sinal será 20*0,2=4."
+      "text": "O Módulo de Tubo Detector de Fluxo é um módulo $(l:tubes/tube_modules#inline)interno/$ que mede o $(thing)fluxo de ar/$ através de um tubo. Ele emite um $(#f00)sinal de redstone/$ como resultado, usando a seguinte fórmula:$(p)  $(formula)0.2 * flow (mL/tick)/$(p)Ex.: com 20mL/tick de ar fluindo, o nível do sinal será 20*0,2=4."
     },
     {
       "type": "text",
-      "text": "Note que $(thing)fluxo/$ é uma grandeza física diferente de $(l:base_concepts/pressure)pressão/$. Fluxo é a quantidade de ar viajando através de um tubo por tique. Então, se você tiver (digamos) um $(l:machines/elevators)Elevador/$ que não está funcionando, o fluxo será 0, mas quando ele funcionar estará consumindo ar, então o fluxo será diferente de zero. Assim, este módulo pode ser usado para detectar se uma máquina está usando ar.$(p)O Módulo Detector de Fluxo não aceita um $(l:tubes/module_expansion_card)Cartão de Expansão de Módulo/$."
+      "text": "Note que $(thing)fluxo/$ é uma grandeza física diferente de $(l:base_concepts/pressure)pressão/$. Fluxo é a quantidade de ar viajando por um tubo por tick. Então, se você tem (digamos) um $(l:machines/elevators)Elevador/$ parado, o fluxo será 0, mas quando ele funcionar estará consumindo ar, então o fluxo será diferente de zero. Assim, este módulo pode ser usado para detectar se uma máquina está usando ar.$(p)O Módulo de Detecção de Fluxo não aceita um $(l:tubes/module_expansion_card)Cartão de Expansão de Módulo/$."
     },
     {
       "type": "crafting",

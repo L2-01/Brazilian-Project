@@ -17,10 +17,10 @@ O UFO Future inclui ferramentas de energia transformáveis e itens utilitários 
 
 ## Linha de Ferramentas
 
-- Alimentadas por energia em vez de baseadas em durabilidade
+- Movidas a energia em vez de durabilidade
 - Podem alternar entre várias formas
 - Mantêm a energia armazenada durante a transformação
-- Ganham vantagens como mineração em área, fundição automática ou escalonamento de combate
+- Ganham vantagens como mineração em área, auto-fundição ou escalonamento de combate
 
 ## Formas Principais
 
@@ -35,5 +35,5 @@ O UFO Future inclui ferramentas de energia transformáveis e itens utilitários 
 
 - Clique com o botão direito num controlador suportado para validar a estrutura
 - Destaca blocos faltantes ou inválidos
-- Imprime posições exatas e peças esperadas no chat
-- No Criativo, **Shift + Botão Direito** constrói automaticamente a carcaça da estrutura
+- Imprime posições exatas e partes esperadas no chat
+- No Criativo, **Shift + clique direito** constrói automaticamente o casco da estrutura

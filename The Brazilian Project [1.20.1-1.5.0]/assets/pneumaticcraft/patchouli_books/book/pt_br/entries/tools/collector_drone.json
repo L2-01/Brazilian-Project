@@ -6,22 +6,22 @@
   "pages": [
     {
       "type": "text",
-      "text": "Um $(item)Drone Coletor/$ é um tipo especializado e não programável de $(l:tools/drone)Drone/$ que deve ser implantado contra, ou ao lado de, qualquer bloco de inventário (baú etc.). Ele coletará itens próximos e os colocará nesse inventário."
+      "text": "Um $(item)Drone Coletor/$ é um tipo especializado e não programável de $(l:tools/drone)Drone/$ que deve ser posicionado contra, ou ao lado de, qualquer bloco de inventário (baú etc.). Ele coletará itens próximos e os colocará nesse inventário."
     },
     {
       "type": "spotlight",
-      "title": "Recarga Automática",
+      "title": "Carregamento Automático",
       "item": "pneumaticcraft:charging_station",
-      "text": "Como todos os tipos de Drone, esses drones requerem $(l:base_concepts/pressure)pressão/$ para operar e procurarão automaticamente $(l:tools/drone#charging)uma Estação de Carga com Melhoria de Ejetor/$ se estiverem com pouco ar."
+      "text": "Como todos os tipos de Drone, esses drones requerem $(l:base_concepts/pressure)pressão/$ para operar e procurarão automaticamente $(l:tools/drone#charging)uma Estação de Carga com uma Melhoria de Ejetor/$ se estiverem com pouco ar."
     },
     {
       "type": "text",
       "title": "Filtragem de Itens",
-      "text": "O $(thing)Drone Coletor/$ tem uma funcionalidade básica de filtragem de itens. Se implantado $(italic)contra/$ um bloco de inventário, ele filtrará por quaisquer itens já presentes nesse inventário. Se implantado no chão $(italic)ao lado/$ de um inventário (ou num bloco de inventário vazio), ele $(italic)não/$ filtrará itens.$(p)Se você quiser mudar o filtro do drone, precisará usar a chave inglesa nele e reimplantá-lo."
+      "text": "O $(thing)Drone Coletor/$ tem uma funcionalidade básica de filtragem de itens. Se posicionado $(italic)contra/$ um bloco de inventário, ele filtrará pelos itens que já estiverem naquele inventário. Se posicionado no chão $(italic)ao lado de/$ um inventário (ou num bloco de inventário vazio), ele $(italic)não/$ filtrará itens.$(p)Se você quiser mudar o filtro do drone, precisará usar a chave nele e reposicioná-lo."
     },
     {
       "type": "text",
-      "text": "O $(thing)Drone Coletor/$ tem um alcance padrão de um cubo de 17x17x17, centrado no bloco onde foi posicionado. Este alcance pode ser aumentado adicionando até 16 $(l:base_concepts/upgrades#range)Melhorias de Alcance/$."
+      "text": "O $(thing)Drone Coletor/$ tem um alcance padrão de um cubo de 17x17x17, centrado no bloco onde foi colocado. Esse alcance pode ser aumentado adicionando até 16 $(l:base_concepts/upgrades#range)Melhorias de Alcance/$."
     },
     {
       "type": "entity",
@@ -30,7 +30,7 @@
     },
     {
       "type": "crafting",
-      "text": "Fabricando um Drone Coletor",
+      "text": "Fabricando Drone Coletor",
       "recipe": "pneumaticcraft:collector_drone"
     }
   ]

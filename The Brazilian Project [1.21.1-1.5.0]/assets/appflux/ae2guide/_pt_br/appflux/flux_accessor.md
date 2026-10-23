@@ -19,11 +19,11 @@ item_ids:
 </GameScene>
 </Row>
 
-O Acessor de Fluxo pode enviar/receber a energia armazenada na sua rede ME. Por padrão, eles não têm limitações de E/S, o que pode ser
+O Acessor de Fluxo pode inserir/extrair energia armazenada na sua rede ME. Eles não têm limitações de E/S por padrão, o que pode ser
 alterado na configuração do Appflux.
 
-Eles têm modo rápido e normal. No modo rápido, o acessor envia energia a cada tique, o que pode causar lag se for muito usado.
-No modo normal, ele envia energia conforme a energia armazenada do alvo, o que não causa problemas de lag.
+Eles têm modo rápido e normal. No modo rápido, ele envia energia a cada tique, o que pode causar lag se for muito usado.
+No modo normal, ele envia energia dependendo da energia armazenada do alvo, o que não causa problemas de lag.
 
-* Atenção: a "energia" mencionada aqui é o FE armazenado nas suas [Células de Armazenamento de FE](./flux_cells.md), não a energia das
+* Observação: a "energia" mencionada aqui é a FE armazenada nas suas [Células de Armazenamento FE](./flux_cells.md), não a energia das
 [Células de Energia](ae2:items-blocks-machines/energy_cells.md).

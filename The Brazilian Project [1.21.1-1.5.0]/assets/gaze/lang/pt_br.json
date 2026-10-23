@@ -6,7 +6,7 @@
 
 
     "item.gaze.adaptive_wheel": "Rélica do Dharmachakra",
-    "malum.effect.curio.wheel_of_adaptive_resistance": "Até 30% de resistência adaptativa a dano",
+    "malum.effect.curio.wheel_of_adaptive_resistance": "Até 30% adicional de resistência adaptativa a dano",
 
     "malum.gui.book.entry.page.headline.gaze.bestiary": "Bestiário Anima",
     "malum.gui.book.entry.page.text.gaze.bestiary.description": "§k3d9f§rMatá,§k1xq8§kmyst§rregistro \n §kz7p§rspírito \n \n §k5l2v §robservar,§k8r1§k8r1§rdesaparecer, §k0t9§rrecarregar, §k4j6 §rfugir\n§k9q3§k9q3 §ka2 §rrenovar, §kb8 §kquebra-cabeça, §kc4 §rassistir, §kd7 \n\n§r§lOlha para o teu caminho ",
@@ -58,7 +58,7 @@
     "malum.gui.book.entry.page.headline.spirit_saber.scribbled_notes": "Sabres & Espíritos - Conclusão #5",
     "malum.gui.book.entry.spirit_saber.scribbled_notes.description": "Uma adição apressada",
     "malum.gui.book.entry.page.text.spirit_saber.scribbled_notes.1": "Fogo - Queima através de toda resistência; quanto maior a resistência do inimigo, mais feroz a chama \n \n Água - canaliza a água próxima para aprimorar o gume do sabre \n \n Terra - Estilhaça defesas com força inflexível, certos artifícios se tornam pesados enquanto os metais buscam retornar à terra",
-    "malum.gui.book.entry.page.text.spirit_saber.scribbled_notes.2": "Perverso - Cada golpe rasga a carne como se empunhado por espíritos irados \n  \n Sagrado - Com cada golpe, purifica feridas e rouba bênçãos \n \n ",
+    "malum.gui.book.entry.page.text.spirit_saber.scribbled_notes.2": "Perverso - Cada golpe rasga a carne como se empunhado por espíritos irados \n  \n Sagrado - com cada golpe, purifica feridas e rouba bênçãos \n \n ",
     "malum.gui.book.entry.page.text.spirit_saber.scribbled_notes.3": "Após algumas tentativas e erros, cheguei a uma conclusão sobre alguns dos efeitos que Espíritos Manifestados Fisicamente têm quando canalizados através do Sabre Espiritual.\nAs propriedades espirituais manifestadas são interessantes e farei uma entrada completa em uma data posterior.\n Por enquanto, apenas adicionarei esta nota, pois há mais a ser descoberto antes de eu terminar meu último experimento.",
 
 
@@ -179,23 +179,23 @@
 
     "item.gaze.geas": "Geas",
     "gaze.gui.geas.pact_of_encroaching": "Pacto da Malícia Invasora",
-    "gaze.gui.geas.pact_of_encroaching.tooltip": "Retorne a Ti",
-    "gaze.gui.geas.pact_of_encroaching.pros": "$m0.69/$Seu corpo, um conduíte. Sua alma, exposta. \n -Armadura e resistência convertidas em Capacidade e Integridade da Proteção da Alma \n -Cura Adicional Recebida é convertida em Recuperação da Proteção da Alma \n -Dano de Ataque convertido em Dano Mágico \n",
-    "gaze.gui.geas.pact_of_encroaching.cons": "Imaculado pela Malignidade, O receptáculo sagrado. \n -Reduz a Conversão Maligna",
+    "gaze.gui.geas.pact_of_encroaching.tooltip": "Retorne a ti",
+    "gaze.gui.geas.pact_of_encroaching.pros": "$m0.69/$Seu corpo, um conduíte. Sua alma, exposta. \n -Armadura e resistência convertidas em Capacidade e Integridade da Proteção da Alma \n -Cura Adicional Recebida é convertida em Recuperação da Proteção da Alma \n -50% Ataque Físico convertido em Dano Mágico \n",
+    "gaze.gui.geas.pact_of_encroaching.cons": "Imaculado pela Malignidade, o receptáculo sagrado. \n -Reduz a Conversão Maligna",
     "malum.effect.geas.armour_convert_soul_ward": "Armadura para Proteção da Alma",
     "malum.effect.geas.toughness_convert_soul_integrity": "Resistência para Integridade da Alma",
     "malum.effect.geas.healing_convert_soul_recovery": "Taxa de Cura para Recuperação de Alma",
-    "malum.effect.geas.damage_convert_magic": "Material para Imaterial",
+    "malum.effect.geas.damage_convert_magic": "50% Porção Física do Dano para Mágico",
     "malum.effect.geas.malignant_reduction": "Desconverte sua Malignidade",
     "itemGroup.gaze_geas": "Gaze: Pactos Forçados",
 
     "gaze.gui.geas.domain_of_swords": "Domínio das Espadas",
     "gaze.gui.geas.domain_of_swords.tooltip": "Você está cortejando a morte!",
-    "gaze.gui.geas.domain_of_swords.pros": "$m0.75/$Corpo, Alma e Espada como Um. \n -Ataque os inimigos para invocar Construtos de Espada \n -Imbua sua Espada com seu Espírito para causar dano aumentado \n",
+    "gaze.gui.geas.domain_of_swords.pros": "$m0.75/$Corpo, Alma e Espada como um. \n -Ataque os inimigos para invocar Construtos de Espada \n -Imbua sua Espada com seu Espírito para causar dano aumentado \n",
     "gaze.gui.geas.domain_of_swords.cons": "Quando o Coração se quebra, a Espada se fragmenta. \n -Reduz o Dano Mágico \n -Reduz o Dano Não Relacionado à Espada",
     "malum.effect.geas.sword_summon": "Invoca Construtos de Espada",
-    "malum.effect.geas.sword_energy": "30% de dano com Espada",
-    "malum.effect.geas.sword_purist": "50% de dano de ataque não relacionado à espada",
+    "malum.effect.geas.sword_energy": "30% Sabre de dano",
+    "malum.effect.geas.sword_purist": "50% Não-espada de dano de ataque",
 
     "itemGroup.gaze_items": "Gaze: Um Addon para Malum",
     "item.gaze.soul_rapier": "Rapieira da Alma",

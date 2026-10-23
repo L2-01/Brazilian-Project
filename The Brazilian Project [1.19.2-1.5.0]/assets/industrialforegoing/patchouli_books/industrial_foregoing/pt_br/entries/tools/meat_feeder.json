@@ -1,0 +1,17 @@
+{
+  "name": "Alimentador de Carne",
+  "icon": "industrialforegoing:meat_feeder",
+  "category": "industrialforegoing:tools",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Quando no seu inventário, o Alimentador de Carne alimentará você com a carne líquida armazenada dentro da ferramenta."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:meat_feeder"
+    }
+  ]
+}

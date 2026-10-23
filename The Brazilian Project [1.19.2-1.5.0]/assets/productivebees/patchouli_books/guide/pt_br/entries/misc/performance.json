@@ -1,0 +1,19 @@
+{
+    "name": "Desempenho",
+    "icon": "productivebees:upgrade_time",
+    "category": "productivebees:misc",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Algumas coisas deste mod podem consumir muitos recursos se não forem configuradas corretamente. Esta seção dará alguns conselhos sobre como aproveitar ao máximo suas abelhas sem sobrecarregar seu computador."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Abelhas, por serem entidades no mundo e não apenas um bloco ou item, usarão inerentemente mais recursos. Um grande devorador de recursos de entidades é o pathing e a IA, na qual as abelhas não são leves. Para evitar cálculos de IA desnecessários, garanta que todas as abelhas tenham um lugar para morar e seu bloco de flor necessário. Também mantenha as abelhas num cercado que não seja muito grande, ou elas começarão a vagar. Alternativamente, você pode usar uma melhoria de simulador na colmeia para evitar que as entidades de abelha fiquem no mundo."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Outro devorador de recursos pode ser a renderização de favos nas centrífugas. Se você tiver muitas centrífugas rodando, considere desligar a renderização de favos. A opção está em config/productivebees-client.toml"
+        }
+    ]
+}

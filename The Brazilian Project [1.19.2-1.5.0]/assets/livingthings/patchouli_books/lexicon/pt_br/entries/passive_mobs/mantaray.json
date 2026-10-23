@@ -1,0 +1,20 @@
+{
+  "name": "Arraia",
+  "icon": "livingthings:mantaray_spawn_egg",
+  "category": "livingthings:passive_mobs_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Animal aquático que parece estar voando pelo mar.$(br2)$(bold)Vida: $()5 Corações$(br2)$(bold)Drops:$()$(li)1-2 Bacalhau Cru"
+    },
+    {
+      "type": "entity",
+      "entity": "livingthings:mantaray",
+      "rotate": false,
+      "scale": 0.8,
+      "default_rotation": 37,
+      "offset": -0.1,
+      "text": "Pode ser encontrado em todos os biomas de $(bold)Oceano$()."
+    }
+  ]
+}

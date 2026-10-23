@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Ticker
+  title: Pulsador
   icon: "justdynathings:ticker"
   position: 8
   parent: justdynathings:other.md
@@ -10,7 +10,7 @@ item_ids:
 
 # O tempo é relativo
 
-Ele usa Fluido Temporal e Energia para acelerar (Padrão 16x) o bloco na face destacada
+Ele usa Fluido do Tempo e Energia para acelerar (padrão 16x) o bloco na face destacada.
 
 <BlockImage id="justdynathings:ticker" scale="4.0"/>
 

@@ -12,8 +12,8 @@ item_ids:
 
 <BlockImage id="ufo:ufo_energy_cell" scale="4"></BlockImage>
 
-A **Célula de Energia do Horizonte de Eventos** armazena **1G de AE** e funciona como a grande reserva de energia dos sistemas UFO avançados.
+A **Célula de Energia do Horizonte de Eventos** armazena **1G AE** e funciona como o grande buffer de energia dos sistemas finais do UFO.
 
 <BlockImage id="ufo:quantum_energy_cell" scale="4"></BlockImage>
 
-A **Célula de Energia Quântica** é a célula de energia AE de nível infinito e sempre indica energia armazenada cheia na sua descrição.
+A **Célula de Energia Quântica** é a célula de energia AE de tier infinito e sempre reporta energia armazenada cheia em sua tooltip.

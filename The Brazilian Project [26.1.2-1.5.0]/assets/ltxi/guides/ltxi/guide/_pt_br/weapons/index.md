@@ -5,23 +5,23 @@ navigation:
     icon: hanabi
 ---
 
-# Armamento da série assinatura
+# Armamento da série signature
 
-A combinação perfeita de beleza eficiente e elegante com letalidade. Todas as nossas armas são
+A combinação perfeita de beleza elegante e eficiente com letalidade. Todas as nossas armas são
 [equipamentos melhoráveis](../fundamentals/upgrade_system.md).
 
 ## Controles
 
-- **Clique Esquerdo**: Disparar arma.
-- **Clique Direito**: Focar retícula, se aplicável.
-- **Tecla <KeyBind id="key.ltxi.reload_weapon" />**: Recarregar arma.
-- **SHIFT+Roda do Mouse para cima/baixo**: Alternar modo de equipamento, se aplicável.
+- **Clique Esquerdo**: Atirar.
+- **Clique Direito**: Focar a mira, se aplicável.
+- Tecla **<KeyBind id="key.ltxi.reload_weapon" />**: Recarregar a arma.
+- **SHIFT+Roda do Mouse para cima/baixo**: Trocar o modo de equipamento, se aplicável.
 
 ## LightFrags
 
-**LightFrags** (fragmentos de luz) são fragmentos solidificados de luz volátil. Armas que usam LightFrags como projéteis
-são 'hitscan', ou seja, trajetória e impacto acontecem instantaneamente. As distorções ópticas ao longo de sua trajetória
-são apenas estéticas.
+**LightFrags** (fragmentos de luz) são estilhaços solidificados de luz volátil. Armas que usam LightFrags como
+projéteis são 'hitscan', ou seja, o trajeto e o impacto acontecem instantaneamente. As distorções ópticas ao longo da
+trajetória são apenas estéticas.
 
 ---
 

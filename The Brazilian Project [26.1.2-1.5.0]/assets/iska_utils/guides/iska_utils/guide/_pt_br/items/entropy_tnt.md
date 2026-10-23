@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:entropy_tnt
 categories:
-  - Materiais de Entropia
+  - Entropy materials
 ---
 # Dinamite de Entropia
 
@@ -17,7 +17,7 @@ Um bloco de explosivo de entropia altamente instável. Manuseie com extremo cuid
 
 ## Comportamento
 
-Quando colocada, ela detona se o bloco receber energia de **redstone** (inclusive quando já é colocada energizada). Uma mudança de sinal de vizinho também pode dispará-la.
+Quando colocada, ela detona se o bloco receber energia de **redstone** (inclusive se já for colocada energizada). Uma mudança de sinal num vizinho também pode dispará-la.
 
 A explosão é um **elipsoide progressivo**:
 
@@ -26,4 +26,4 @@ A explosão é um **elipsoide progressivo**:
 | Horizontal (X / Z) | **250** |
 | Vertical (Y) | **50** |
 
-Ela destrói o terreno nesse volume, incluindo blocos normalmente inquebráveis (como a rocha-mãe). A explosão se expande ao longo do tempo em vez de limpar a área toda instantaneamente.
+Ela destrói o terreno nesse volume, incluindo blocos normalmente indestrutíveis (como rocha-mãe). A explosão se expande ao longo do tempo em vez de limpar a área inteira instantaneamente.

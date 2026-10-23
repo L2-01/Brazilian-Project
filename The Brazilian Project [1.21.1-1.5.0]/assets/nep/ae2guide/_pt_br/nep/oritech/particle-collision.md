@@ -30,8 +30,8 @@ item_ids:
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 * Abra um Terminal de Codificação de Padrões, escolha uma receita de colisão no JEI e pressione **+**.
-* Dois itens entram, um item sai. O padrão sempre promete um único resultado, porque o acelerador adiciona um item à sua saída por colisão, diga o que disser a receita.
+* Dois itens entram, um item sai. O padrão sempre promete um único resultado, porque o acelerador adiciona um item à sua saída por colisão diga a receita o que disser.
 * O padrão empurra seus ingredientes para inventários adjacentes como um padrão de processamento comum.
-* Uma colisão precisa de uma partícula acelerada antes que a outra seja solta, algo que um Provedor de Padrões não consegue cronometrar. Execute esses padrões através de um [Controlador de Colisão de Partículas](/nep/oritech/particle-collision-controller.md), ou pule o anel com uma [Matriz de Colisão de Partículas](/nep/oritech/particle-collision-matrix.md), que produz a contagem completa da receita.
+* Uma colisão precisa de uma partícula acelerada antes da outra ser solta, o que um Provedor de Padrões não consegue cronometrar. Execute esses padrões num [Controlador de Colisão de Partículas](/nep/oritech/particle-collision-controller.md), ou pule o anel com uma [Matriz de Colisão de Partículas](/nep/oritech/particle-collision-matrix.md), que faz a contagem completa da receita.
 
 <ItemImage id="minecraft:air" scale="0.5"/>

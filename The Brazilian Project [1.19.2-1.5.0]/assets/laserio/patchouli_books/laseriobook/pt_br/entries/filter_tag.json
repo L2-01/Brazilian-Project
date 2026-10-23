@@ -1,0 +1,29 @@
+{
+  "name": "Filtro de Marcação",
+  "sortnum": 2,
+  "category": "laserio:filters",
+  "icon": "laserio:filter_tag",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O filtro de marcação permite ao jogador filtrar por tags em recursos.$(br2)Tags são uma forma do Minecraft agrupar recursos semelhantes. Por exemplo, à direita podemos ver que um Lingote de Ferro tem a tag 'forge:ingots'. Ouro, cobre, estanho etc. também têm.$(br2)O filtro de marcação permitiria ordenar todos os lingotes com uma única entrada!"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "IU de Marcação",
+      "images": [
+        "laserio:textures/book/entries/filter_tag.png"
+      ],
+      "border": true,
+      "text": "IU de Marcação"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Primeiro, comece colocando um item no espaço do canto superior direito. Uma lista de tags deste item aparecerá em $(#0000ff)azul$(). Clique na tag que deseja adicionar e pressione o botão +. Segurar shift e pressionar o botão + adicionará todas as tags à lista.$(br2)Para remover uma tag da lista, selecione-a e pressione o botão -. $(br2)Alternativamente, você pode usar shift+clique para adicionar/remover a tag automaticamente."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O botão X limpará a lista inteira.$(br2)A lista é tratada como uma lista 'ou' — ou seja, um item que corresponda a qualquer uma das tags da lista será filtrado.$(br2)Filtros de Marcação não suportam comparações de NBT, pois isso não faria sentido."
+    }
+  ]
+}

@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O pedestal tem melhorias de alcance. Por padrão, o raio do pedestal é de 5 blocos, mas pode chegar a 20 blocos!"
+      "text": "O pedestal tem melhorias de alcance.  Por padrão o raio do pedestal é de 5 blocos, mas pode chegar a 20 blocos!"
     },
     {
       "type": "patchouli:multiblock",
@@ -21,7 +21,7 @@
           ]
         ],
         "mapping": {
-          "0":"fargostalismans:pedestal"
+          "0": "fargostalismans:pedestal"
         },
         "symmetrical": true
       }
@@ -44,8 +44,8 @@
           ]
         ],
         "mapping": {
-          "0":"fargostalismans:pedestal",
-          "A":"minecraft:amethyst_block"
+          "0": "fargostalismans:pedestal",
+          "A": "minecraft:amethyst_block"
         },
         "symmetrical": true
       }
@@ -68,15 +68,15 @@
           ]
         ],
         "mapping": {
-          "0":"fargostalismans:pedestal",
-          "B":"minecraft:beacon"
+          "0": "fargostalismans:pedestal",
+          "B": "minecraft:beacon"
         },
         "symmetrical": true
       }
     },
     {
       "type": "patchouli:multiblock",
-      "text": "Com uma flor de chorus sob o pedestal, o raio de efeito aumenta para 20 blocos. A flor ainda pode crescer!",
+      "text": "Com uma flor do coro sob o pedestal, o raio de efeito aumenta para 20 blocos.  A flor ainda pode crescer!",
       "name": "Raio de 20 Blocos",
       "multiblock": {
         "pattern": [
@@ -97,9 +97,9 @@
           ]
         ],
         "mapping": {
-          "0":"fargostalismans:pedestal",
-          "C":"minecraft:chorus_flower",
-          "E":"minecraft:end_stone"
+          "0": "fargostalismans:pedestal",
+          "C": "minecraft:chorus_flower",
+          "E": "minecraft:end_stone"
         },
         "symmetrical": true
       }

@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Painel solar
+  title: Painel Solar
   parent: generators/index.md
   icon: powah:solar_panel_starter
   position: 3
@@ -14,13 +14,13 @@ item_ids:
   - powah:solar_panel_starter
 ---
 
-# Painel solar
+# Painel Solar
 
 ![](./solar_panel.png)
 
-O Painel Solar é um gerador de FE que gera energia quando exposto ao sol, os Tiers mais altos geram mais FE/t, qualquer bloco que parar de luz acima do Painel Solar irá interromper sua produção. 
+O Painel Solar é um gerador de FE que gera energia quando exposto à luz solar; os tiers mais altos geram mais FE/t, e qualquer bloco que bloqueie a luz acima do Painel Solar interromperá sua produção. 
 
-|                                              | Capacidade                                               | Gera                                                       | Extração Máxima                                       |
+|                                              | Capacidade                                                 | Gera                                                  | Extração Máx.                                           |
 | -------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------- |
 | <ItemLink id="powah:solar_panel_starter" />  | <powah:EnergyCapacity id="powah:solar_panel_starter" />  | <powah:EnergyGeneration id="powah:solar_panel_starter" />  | <powah:EnergyMaxIO id="powah:solar_panel_starter" />  |
 | <ItemLink id="powah:solar_panel_basic" />    | <powah:EnergyCapacity id="powah:solar_panel_basic" />    | <powah:EnergyGeneration id="powah:solar_panel_basic" />    | <powah:EnergyMaxIO id="powah:solar_panel_basic" />    |

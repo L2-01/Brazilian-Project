@@ -1,18 +1,18 @@
 {
-    "name": "Módulo de Coleta",
-    "icon": "mffs:collection_module",
-    "category": "mffs:projector_modules",
-    "pages": [
-        {
-            "type": "patchouli:spotlight",
-            "item": "mffs:collection_module",
-            "link_recipe": true,
-            "text": "Quando colocado nos espaços de matriz de um $(l:mffs:machines/projector)Projetor de Campo de Força$(), em combinação com um $(l:mffs:projector_modules/disintegration_module)$(5)Módulo de Desintegração$(), o $(5)Módulo de Coleta$() coleta os itens largados de blocos destruídos para dentro dos inventários ao redor do Projetor."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "mffs:collection_module",
-            "text": "Fabricando o $(5)Módulo de Coleta$()."
-        }
-    ]
+  "name": "Módulo de Coleta",
+  "icon": "mffs:collection_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:collection_module",
+      "link_recipe": true,
+      "text": "Quando colocado nos slots de matriz de um $(l:mffs:machines/projector)Projetor de Campo de Força$(), em combinação com um $(l:mffs:projector_modules/disintegration_module)$(5)Módulo de Desintegração$(), o $(5)Módulo de Coleta$() coleta itens largados de blocos destruídos para inventários ao redor do Projetor."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:collection_module",
+      "text": "Fabricando o $(5)Módulo de Coleta$()."
+    }
+  ]
 }

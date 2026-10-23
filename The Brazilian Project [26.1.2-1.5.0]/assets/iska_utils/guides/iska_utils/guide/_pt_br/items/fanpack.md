@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:fanpack
 categories:
-  - Movimento vetorial
+  - Vector motion
 ---
 # Mochila-Ventilador
 
@@ -15,7 +15,7 @@ categories:
 
 ## O que faz
 
-- Estende o comportamento do Amuleto Vetorial e pode conceder **voo criativo** para jogadores em sobrevivência quando há energia suficiente.
+- Estende o comportamento do Amuleto Vetorial e pode conceder **voo criativo** a jogadores do sobrevivência quando há energia suficiente.
 
 ## Energia
 

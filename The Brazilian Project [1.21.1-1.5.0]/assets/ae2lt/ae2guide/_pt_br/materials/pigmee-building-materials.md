@@ -80,7 +80,7 @@ item_ids:
   <BlockImage id="ae2lt:white_pigmee_framed_building_panel" scale="4" />
 </Row>
 
-Os **Materiais de Construção Pigmee** são um conjunto de construção tingido feito de blocos básicos, painéis coloridos e lajes, com os mesmos requisitos de material e ferramenta que os blocos de pedra vanilla.
+**Materiais de Construção Pigmee** são um conjunto de construção tingido feito de blocos básicos, painéis coloridos e lajes, com os mesmos requisitos de material e ferramentas dos blocos de pedra do vanilla.
 
 ## Blocos básicos
 
@@ -88,18 +88,18 @@ Cerque um **Pigmee Arco-Íris** com 8 pedregulhos para fabricar 8 Blocos de Cons
 
 ## Painéis e lajes coloridos
 
-Um bloco básico é cortado em pedra na proporção 1:1 em todos os 32 painéis coloridos (16 cores × liso/emoldurado) sem nenhum corante, e painéis lisos, painéis emoldurados e lajes também se recortam 1:1 entre si.
+Um bloco básico corta em pedra 1:1 em todos os 32 painéis coloridos (16 cores × simples/emoldurado) sem corante, e painéis simples, painéis emoldurados e lajes também se recortam 1:1 entre si.
 
 | Receita | Resultado |
 | --- | --- |
-| Corte: bloco básico → painel | 1 |
-| Corte: bloco básico → laje | 2 |
-| Fabricação: 3 painéis numa fileira | 6 lajes |
-| Corte: qualquer painel ou laje → outro estilo | 1 |
+| Corte em pedra: bloco básico → painel | 1 |
+| Corte em pedra: bloco básico → laje | 2 |
+| Fabricação: 3 painéis em fileira | 6 lajes |
+| Corte em pedra: qualquer painel ou laje → outro estilo | 1 |
 | Fabricação: quaisquer 2 lajes | 1 bloco básico |
 | Fabricação: qualquer 1 painel | 1 bloco básico |
 
-Painéis lisos e emoldurados da mesma cor conectam seus padrões automaticamente. Cada estilo está listado no JEI ou EMI.
+Painéis simples e emoldurados da mesma cor conectam seus padrões automaticamente. Todos os estilos estão listados no JEI ou EMI.
 
 <ItemGrid>
   <ItemIcon id="ae2lt:pigmee_building_block" />

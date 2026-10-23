@@ -14,11 +14,11 @@ item_ids:
 
 ## Sobre
 
-Uma das nossas invenções mais valiosas, uma máquina completa de Eletrólise e Centrifugação. Esta máquina se especializa em
-extrair elementos base de todos os tipos de materiais.
+Uma de nossas invenções mais premiadas, uma máquina tudo-em-um de Eletrólise e Centrifugação. Esta máquina é
+especializada em extrair elementos base de todos os tipos de materiais.
 
-## Especificação de Receita
+## Especificação da Receita
 
-- Tempo base de fabricação: varia, por padrão 10 segundos
+- Tempo base de fabricação: varia, 10 segundos por padrão
 - Entradas: 0-1 itens, 0-1 fluidos
 - Saídas: 0-4 itens, 0-2 fluidos

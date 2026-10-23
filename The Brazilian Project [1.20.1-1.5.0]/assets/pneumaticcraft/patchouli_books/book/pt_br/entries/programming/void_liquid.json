@@ -1,19 +1,19 @@
 {
-  "name": "Widget de Destruir Fluido",
+  "name": "Widget de Anular Fluido",
   "icon": "pneumaticcraft:textures/progwidgets/void_fluid_piece.png",
   "category": "pneumaticcraft:widget_interact",
   "advancement": "pneumaticcraft:programmer",
   "pages": [
     {
       "type": "text",
-      "text": "Como o widget $(l:programming/void_item)Destruir Item/$, isto destruirá imediata e permanentemente qualquer fluido no tanque do drone - cuidado! Recomenda-se fortemente usar isto junto com um $(l:programming/liquid_filter)Filtro de Líquido/$. Com um filtro, apenas o fluido permitido pelo filtro será destruído."
+      "text": "Como o widget $(l:programming/void_item)Anular Item/$, este destruirá imediata e permanentemente qualquer fluido no tanque do drone — cuidado! É fortemente recomendado usar isto junto com um $(l:programming/liquid_filter)Filtro de Líquido/$. Com um filtro, apenas o fluido permitido pelo filtro será anulado."
     },
     {
       "type": "image",
       "images": [
         "pneumaticcraft:textures/progwidgets/void_fluid_piece.png"
       ],
-      "text": "$(italic)Tudo sequinho/$"
+      "text": "$(italic)Tudo seco/$"
     }
   ]
 }

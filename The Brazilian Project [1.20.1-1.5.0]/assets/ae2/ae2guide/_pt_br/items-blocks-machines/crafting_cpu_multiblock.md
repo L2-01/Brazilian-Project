@@ -55,7 +55,7 @@ CPUs de fabricação são multiblocos e devem ser prismas retangulares sólidos 
 
 Cada CPU deve conter pelo menos 1 bloco de armazenamento de fabricação (e a CPU mínima viável é de fato apenas um único armazenamento de fabricação de 1k).
 
-# Unidade de Fabricação
+# Unidade de fabricação
 
 <BlockImage id="crafting_unit" scale="4" />
 
@@ -98,7 +98,7 @@ com mais ingredientes.
   </Row>
 </Column>
 
-# Unidade de Co-Processamento de Fabricação
+# Unidade de Co Processamento de Fabricação
 
 <BlockImage id="crafting_accelerator" scale="4" />
 

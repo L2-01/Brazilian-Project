@@ -1,17 +1,17 @@
 {
-  "name": "1) Carregador",
-  "category": "ae2:getting_started",
-  "icon": "ae2:charger",
-  "sortnum": 10,
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "O $(thing)Carregador$() é usado para carregar $(l:ae2:catalog/chargeable)vários itens do AE2$(/l), e para algumas fabricações. Notavelmente, é usado para fabricar a $(l:ae2:getting_started/compass)Bússola de Meteoritos$(/l) e o $(thing)Quartzo Certus Carregado$().$(br2)O $(thing)Carregador$() aceita $(l:ae2:concepts/power)Energia da Rede e a maioria das formas de energia externa$(/l), ou pode ser alimentado manualmente com uma $(l:ae2:getting_started/crank)Manivela de Madeira$(/l)."
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "ae2:network/blocks/crystal_processing_charger",
-      "text": "Ele só aceita $(thing)energia$() pelos lados de \"cima\" ou de \"baixo\". Note que ele pode ser $(l:ae2:equipment/wrench)girado$(/l).$(br2)Você pode usar [$(k:use)] para colocar ou tirar itens dele, ou usar automação como $(item)Funis$(), $(item)Canos$(), $(l:ae2:examples/subnets/pipe)Sub-Redes$(), etc."
-    }
-  ]
+    "name": "1) Carregador",
+    "category": "ae2:getting_started",
+    "icon": "ae2:charger",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(thing)Carregador$() é usado para carregar $(l:ae2:catalog/chargeable)vários itens do AE2$(/l) e para algumas fabricações. Notavelmente, é usado para fabricar a $(l:ae2:getting_started/compass)Bússola de Meteoritos$(/l) e o $(thing)Quartzo Certus Carregado$().$(br2)O $(thing)Carregador$() aceita $(l:ae2:concepts/power)Energia da Rede e a maioria das formas externas de energia$(/l), ou pode ser alimentado manualmente usando uma $(l:ae2:getting_started/crank)Manivela de madeira$(/l)."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "ae2:network/blocks/crystal_processing_charger",
+            "text": "Ele só aceita $(thing)energia$() pelos lados \"topo\" ou \"base\". Note que ele pode ser $(l:ae2:equipment/wrench)girado$(/l).$(br2)Você pode [$(k:use)] itens segurados para dentro ou fora dele, ou usar automação como $(item)Funis$(), $(item)Tubos$(), $(l:ae2:examples/subnets/pipe)Sub-Redes$() etc."
+        }
+    ]
 }

@@ -14,7 +14,7 @@ item_ids:
 
 # MEGA Cells: Extras
 
-Com a premissa principal do add-on abordada, concluímos agora com alguns dos recursos e adições extras menores
+Com a premissa principal do add-on abordada, concluímos agora com alguns dos recursos e adições menores
 fornecidos pelo MEGA, tanto por completude quanto por um pouco mais de experimentação.
 
 ## Interface MEGA
@@ -27,7 +27,7 @@ fornecidos pelo MEGA, tanto por completude quanto por um pouco mais de experimen
 </Row>
 
 Como complemento do <ItemLink id="megacells:mega_pattern_provider" />, a **Interface MEGA** serve como uma
-versão de capacidade dobrada da <ItemLink id="ae2:interface" />. O dobro dos espaços, o dobro de E/S e de vazão, e o dobro
+versão de capacidade dupla da <ItemLink id="ae2:interface" />. O dobro de espaços, o dobro de E/S e taxa de transferência, e o dobro
 de manutenção de estoque.
 
 <RecipeFor id="mega_interface" />
@@ -37,11 +37,11 @@ de manutenção de estoque.
 
 <ItemImage id="portable_cell_workbench" scale="4" />
 
-Meio fora do padrão do resto do add-on, a **Bancada de Células Portátil** é uma versão... *menor* da
-<ItemLink id="ae2:cell_workbench" />. Pequena o bastante, na verdade, para caber na palma da sua mão, enquanto ainda
+Um tanto fora do padrão do resto do add-on, a **Bancada de Células Portátil** é uma versão... *menor* da
+<ItemLink id="ae2:cell_workbench" />. Pequena o suficiente, na verdade, para caber na palma da sua mão, enquanto ainda
 é capaz de configurar qualquer célula de armazenamento normalmente.
 
-Só resta imaginar como uma bancada inteira conseguiu caber nessa coisa.
+Só se pode imaginar como uma bancada inteira coube nessa coisa.
 
 <RecipeFor id="portable_cell_workbench" />
 
@@ -52,36 +52,34 @@ Só resta imaginar como uma bancada inteira conseguiu caber nessa coisa.
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-Por fim, temos outra coisa que, mais uma vez, é menor em vez de maior — e é por isso que chamá-la de item "MEGA" parecia
-mais fora de lugar do que qualquer outra coisa.
+Por fim, temos outra coisa que é mais uma vez menor em vez de maior — por isso parecia mais deslocado do que qualquer coisa
+chamá-lo de item "MEGA".
 
-O **Encaixe de Célula ME** é, de certa forma, como uma versão mais compacta do <ItemLink id="ae2:chest" />, capaz de manter
-dentro de si uma célula de armazenamento por vez. Embora possa carecer de algumas das funcionalidades extras do Baú — a saber,
-seu terminal embutido — ele ainda é um ótimo provedor de armazenamento compacto. Em particular, por vir na forma de uma
-[peça de cabo](ae2:ae2-mechanics/cable-subparts.md) "achatada", um único cabo pode abrigar vários Encaixes de Célula dentro do
-mesmo espaço de um bloco. Talvez alguém o ache útil no caso de uma sub-rede compacta que precise de algum tipo de armazenamento
-temporário em buffer.
+O **Encaixe de Célula ME** é, em certo sentido, como uma versão mais compacta do <ItemLink id="ae2:chest" />, capaz de guardar
+dentro de si uma célula de armazenamento por vez. Embora possa faltar a ele algumas das funcionalidades extras do Baú — a saber, seu
+terminal embutido — ele ainda serve como um ótimo provedor de armazenamento compacto. Em particular, como vem na forma de uma
+[parte de cabo](ae2:ae2-mechanics/cable-subparts.md) "plana", um único cabo pode segurar vários Encaixes de Célula no mesmo
+espaço de um bloco. Talvez seja útil no caso de uma sub-rede compacta que precise de algum tipo de armazenamento temporário em buffer.
 
 <RecipeFor id="cell_dock" />
 
-## "Cores Clássicas de Célula"
+## "Cores Clássicas de Células"
 
-Como uma referência visual opcional, o MEGA fornece o seguinte pacote de recursos embutido que o usuário pode escolher ativar.
+Como uma releitura visual opcional, o MEGA fornece o seguinte resource pack embutido que o usuário pode optar por ativar.
 
-![Pacote de recursos Cores Clássicas de Célula](assets/diagrams/cell_colours_pack.png)
+![Resource pack Classic Cell Colours](assets/diagrams/cell_colours_pack.png)
 
-Em lançamentos do AE2 e de seus add-ons anteriores ao Minecraft 1.21, as texturas antigas de todos os conjuntos de células de
-armazenamento seguiam um esquema de cores de 5 pontos, começando de um marrom avermelhado para as células de 1k e passando por
-amarelo, verde e azul até um tom final de violeta/lavanda claro para a de 256k. O MEGA também seguiu essa tendência com seus
-próprios níveis de célula, começando de um vermelho profundo no 1M e terminando num violeta mais profundo no 256M.
+Nas versões do AE2 e seus add-ons anteriores ao Minecraft 1.21, as texturas antigas de qualquer conjunto de células de armazenamento seguiam
+um esquema de cores de 5 pontos, começando num marrom avermelhado para as células 1k e passando por amarelo, verde e azul até
+um tom final de violeta claro/lavanda para 256k. O MEGA também seguiu essa tendência com seus próprios níveis de células, começando num
+vermelho profundo em 1M e terminando num violeta mais profundo em 256M.
 
 ![Texturas antigas das células](assets/diagrams/cell_colours_old.png)
 
-Com a ampla reformulação de texturas introduzida no AE2 pós-1.20.x, as células de armazenamento também foram adaptadas para
-seguir uma paleta de cores um pouco mais ampla, com as células de armazenamento base do AE2 seguindo uma transição de matiz de
-azul para verde ao longo da progressão de níveis, e o MEGA pretendendo continuar a progressão do amarelo para o vermelho e o
-rosa. Embora isso também seja bem legal, não pareceu uma má ideia incluir a opção do sistema de cores antigo para quem pudesse
-preferi-lo ao atual.
+Com a reforma de texturas mais ampla introduzida no AE2 pós-1.20.x, as células de armazenamento também foram adaptadas para seguir uma
+paleta de cores um pouco mais ampla, com as células de armazenamento base do AE2 seguindo uma transição de azul para verde ao longo da progressão de níveis e o
+MEGA pretendendo continuar a progressão de amarelo para vermelho para rosa. Embora isso também seja muito bonito, não parecia uma má ideia
+incluir também a opção do sistema de cores antigo para quem preferisse em vez do atual.
 
-![Cores das células do AE2](assets/diagrams/cell_colours_ae2.png)
-![Cores das células do MEGA](assets/diagrams/cell_colours_mega.png)
+![Cores de células do AE2](assets/diagrams/cell_colours_ae2.png)
+![Cores de células do MEGA](assets/diagrams/cell_colours_mega.png)

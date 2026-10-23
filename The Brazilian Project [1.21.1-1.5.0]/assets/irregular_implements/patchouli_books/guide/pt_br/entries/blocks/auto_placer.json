@@ -7,7 +7,7 @@
       "type": "patchouli:spotlight",
       "item": "irregular_implements:auto_placer",
       "link_recipe": true,
-      "text": "O $(d)Auto-Colocador$() tentará colocar o bloco do seu inventário à sua frente.$(br2)Ele tenta fazer isso a cada tique em que não recebe um sinal de redstone.",
+      "text": "O $(d)Auto-Colocador$() tentará colocar o bloco do seu inventário à sua frente.$(br2)Ele tenta fazer isso a cada tick em que não tem sinal de Redstone.",
       "title": "Auto-Colocador"
     }
   ]

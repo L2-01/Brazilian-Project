@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:sharpened_bone
 categories:
-  - Entrega Suspeita
+  - Suspicious Delivery
 ---
 # Osso Afiado
 

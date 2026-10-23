@@ -10,4 +10,4 @@ navigation:
 
 ![](./dry_ice.png)
 
-Gelo Seco é usado principalmente para resfriar reatores, pode ser encontrado no subsolo nos níveis 1 - 64, você também pode obtê-lo energizando dois pedaços de gelo azul. 
+O Gelo Seco é usado principalmente para resfriar reatores; pode ser encontrado no subsolo em níveis abaixo de 64, e você também pode obtê-lo energizando dois pedaços de gelo azul. 

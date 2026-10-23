@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "text",
-      "text": "Este widget avançado percorrerá cada coordenada na $(l:programming/area)Área/$ especificada. Para cada coordenada, ele definirá a $(ttcolor)$(t:Clique com o botão direito no widget para configurar a variável)variável especificada/$ para aquela coordenada e pulará para o $(l:programming/label)Rótulo/$ que corresponde ao widget $(l:programming/text)Texto/$ conectado. Quando aquela rotina terminar de executar (quando alcançar o fim de um programa onde normalmente pularia de volta para $(l:programming/start)Início/$), ele retornará a este widget e repetirá para a próxima coordenada."
+      "text": "Este widget avançado percorrerá cada coordenada da $(l:programming/area)Área/$ especificada. Para cada coordenada, ele definirá a $(ttcolor)$(t:Clique com o botão direito no widget para configurar a variável)variável especificada/$ para aquela coordenada e pulará para o $(l:programming/label)Rótulo/$ que corresponde ao widget de $(l:programming/text)Texto/$ conectado. Quando essa rotina terminar de executar (ao chegar ao fim de um programa onde normalmente voltaria para $(l:programming/start)Início/$), ele retornará a este widget e repetirá para a próxima coordenada."
     },
     {
       "type": "text",
-      "title": "Interrompendo",
-      "text": "Você pode sair do loop definindo a variável de coordenada usada pelo $(thing)Para Cada Coordenada/$ para qualquer posição de bloco fora da altura de construção do mundo atual. Na próxima vez, quando o programa pular de volta para o $(thing)Para Cada Coordenada/$, ele notará isso e cancelará o restante da travessia de coordenadas.$(p)$(italic)Este comportamento mudou no MC 1.18+ devido à nova funcionalidade de altura do mundo; (0,0,0) era considerado inválido, o que sempre foi duvidoso (mundos de vazio), mas ainda mais agora./$"
+      "title": "Quebrando",
+      "text": "Você pode sair do loop definindo a variável de coordenada usada pelo $(thing)Para Cada Coordenada/$ para qualquer blockpos fora da altura de construção atual do mundo. Na próxima vez, quando o programa voltar ao $(thing)Para Cada Coordenada/$, ele notará isso e cancelará a travessia de coordenadas.$(p)$(italic)Este comportamento mudou no MC 1.18+ devido à nova funcionalidade de altura do mundo; (0,0,0) costumava ser considerado inválido, o que sempre foi questionável (mundos de vazio), mas ainda mais agora./$"
     },
     {
       "type": "image",

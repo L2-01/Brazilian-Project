@@ -1,0 +1,17 @@
+{
+  "name": "Estação de Fermentação",
+  "icon": "industrialforegoing:fermentation_station",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 20,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Usando carne de minério crua, esta máquina selará seu conteúdo quando o nível configurado for atingido e fermentará essa carne usando o tipo de produção selecionado."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fermentation_station"
+    }
+  ]
+}

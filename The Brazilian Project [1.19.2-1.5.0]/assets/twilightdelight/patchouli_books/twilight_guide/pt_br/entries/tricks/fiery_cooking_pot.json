@@ -1,0 +1,15 @@
+{
+    "name": "Panela Ardente",
+    "icon": "twilightdelight:fiery_cooking_pot",
+    "category": "twilightdelight:tricks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Se aquece por conta própria. Cozinha refeições adicionadas pelo Twilight Forest ou Twilight's Flavor & Delight por 10 segundos se precisarem de mais tempo. Cozinha-as em 5 segundos no Fogão do Labirinto."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "twilightdelight:fiery_cooking_pot"
+        }
+    ]
+}

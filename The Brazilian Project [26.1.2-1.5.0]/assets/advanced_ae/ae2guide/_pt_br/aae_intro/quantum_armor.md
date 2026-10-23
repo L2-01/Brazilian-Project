@@ -53,20 +53,20 @@ item_ids:
 <ItemIcon id="advanced_ae:quantum_boots" components="ae2:stored_energy=2.0E8d"></ItemIcon>
 </ItemGrid>
 
-Você já se perguntou como seria vestir o seu Sistema AE? Bem, não precisa mais imaginar. O conjunto de
-armadura quântica é um traje furtivo de alta tecnologia que se conecta ao sistema AE2 para fornecer acesso conveniente a
-tudo em qualquer lugar! Por padrão, é um traje movido a energia com defesas comparáveis ao equipamento de Netherita. Ele é capaz
-de usar seu reservatório para criar um escudo de energia, fornecendo uma boa quantidade de absorção de dano. As botas também oferecem
-anulação de dano de queda, enquanto o peitoral pode eliminar as penalidades de mineração voando. No entanto, o verdadeiro poder deste traje só
-é liberado quando você o enche de melhorias!
+Você já se perguntou como seria vestir seu Sistema AE? Bem, você não precisa mais se perguntar. O conjunto de armadura
+quântica é um traje furtivo altamente tecnológico que se conecta ao sistema AE2 para fornecer acesso conveniente a
+tudo em qualquer lugar! Por padrão, é um traje movido a energia com defesas comparáveis a equipamentos de Netherita. Ele é capaz
+de usar seu buffer para criar um escudo de energia, fornecendo uma quantidade saudável de absorção de dano. As botas também fornecem
+anulação de dano de queda, enquanto o peitoral pode eliminar penalidades de mineração ao voar. No entanto, o verdadeiro poder deste traje só
+é desbloqueado quando você o enche de melhorias!
 
 <br/>
 
 ## Vinculando a Armadura
 
-As peças da armadura podem ser vinculadas individualmente ao sistema inserindo-as nos espaços apropriados de um
-<ItemLink id="ae2:wireless_access_point" />. Isso desbloqueia vantagens diferentes conforme a peça do equipamento e os cartões de melhoria
-instalados. Mais sobre eles adiante. Note que, para essas funcionalidades extras funcionarem direito, você também precisa estar no alcance do
+As peças de armadura podem ser vinculadas individualmente ao sistema inserindo-as nos espaços apropriados de um
+<ItemLink id="ae2:wireless_access_point" />. Isso desbloqueia diferentes vantagens com base na peça de equipamento e nas melhorias instaladas.
+Mais sobre elas depois. Note que para essas funcionalidades extras funcionarem corretamente, você também precisa estar ao alcance do
 ponto de acesso conectado.
 
 <br/>
@@ -78,7 +78,7 @@ pressionando a tecla de atalho (N por padrão).
 
 ![QAGUI](../pic/quantum_armor_config.png)
 
-Nesta tela você poderá adicionar/remover melhorias, assim como ligá-las/desligá-las e configurar opções para as
+Nesta tela você poderá adicionar/remover melhorias, assim como ativá-las/desativá-las e configurar opções para as
 melhorias que as têm.
 
 <br/>
@@ -96,8 +96,8 @@ ingrediente de fabricação para todos os cartões de melhoria.
 
 <ItemImage id="advanced_ae:auto_feeding_card" scale="2"></ItemImage>
 
-O <ItemLink id="advanced_ae:auto_feeding_card" /> permite selecionar itens específicos para alimentar o
-jogador. Simplesmente arraste os itens desejados para os espaços de filtro e, se o equipamento estiver vinculado à rede do AE2, ele tentará
+O <ItemLink id="advanced_ae:auto_feeding_card" /> permite a seleção de itens específicos para alimentar o
+jogador. Basta arrastar os itens desejados para os espaços de filtro e, se o equipamento estiver vinculado à rede AE2, ele tentará
 encontrá-los no sistema para alimentar o jogador quando estiver com fome.
 
 <br/>
@@ -106,9 +106,9 @@ encontrá-los no sistema para alimentar o jogador quando estiver com fome.
 
 <ItemImage id="advanced_ae:auto_stock_card" scale="2"></ItemImage>
 
-O <ItemLink id="advanced_ae:auto_stock_card" /> também exige que a peça de equipamento esteja vinculada ao sistema AE2 e
-dentro do alcance do ponto de acesso. Ele permite configurar algumas pilhas para serem sempre mantidas em quantidades
-específicas no inventário do usuário. Os espaços não se limitam a uma pilha, então você pode configurá-los para manter mais de um espaço preenchido no
+O <ItemLink id="advanced_ae:auto_stock_card" /> também requer que a peça de equipamento esteja vinculada ao sistema AE2 e
+dentro do alcance do ponto de acesso. Ele permite a configuração de algumas pilhas para serem sempre mantidas em quantidades específicas
+no inventário do usuário. Os espaços não são limitados a uma pilha, então você pode configurá-los para ter mais de um espaço preenchido no
 inventário o tempo todo, se desejar.
 
 <br/>
@@ -125,9 +125,9 @@ inventário o tempo todo, se desejar.
 * <ItemLink id="advanced_ae:sprint_speed_card" />
 * <ItemLink id="advanced_ae:swim_speed_card" />
 
-Estes cartões de melhoria aumentam a velocidade de movimento de quem veste o conjunto. Todos têm valores configuráveis de velocidade
-e também afetam o movimento ao agachar e ao voar. Importante notar que essas melhorias também podem ser usadas para
-diminuir a velocidade, permitindo mais controle quando outros efeitos de aumento de velocidade estiverem ativos.
+Esses cartões de melhoria melhoram a velocidade de movimento do usuário do conjunto. Todos têm valores configuráveis para a velocidade desejada
+e também afetam o movimento ao agachar e voar. Importante notar que essas melhorias também podem ser usadas para
+diminuir a velocidade para permitir mais controle quando outros efeitos de aceleração estiverem ativos.
 
 <br/>
 
@@ -141,7 +141,7 @@ diminuir a velocidade, permitindo mais controle quando outros efeitos de aumento
 * <ItemLink id="advanced_ae:jump_height_card" />
 * <ItemLink id="advanced_ae:step_assist_card" />
 
-Estas melhorias mudam o movimento vertical, permitindo alturas de salto configuráveis ou assistência de passo.
+Essas melhorias mudam o movimento vertical, permitindo alturas de salto maiores configuráveis ou assistência de passo.
 
 <br/>
 
@@ -154,7 +154,7 @@ Estas melhorias mudam o movimento vertical, permitindo alturas de salto configur
 
 ### Cartão de Voo
 
-O <ItemLink id="advanced_ae:flight_card" /> habilita voo criativo quando instalado. A velocidade de voo pode ser configurada
+O <ItemLink id="advanced_ae:flight_card" /> ativa o voo criativo quando instalado. A velocidade de voo pode ser configurada
 usando o controle deslizante na UI. Ela também é afetada aditivamente pelas melhorias de velocidade de caminhada/corrida.
 
 ### Cartão de Desvio de Voo
@@ -169,9 +169,9 @@ instantaneamente quando o valor é definido como 0.
 
 <ItemImage id="advanced_ae:recharging_card" scale="2"></ItemImage>
 
-O <ItemLink id="advanced_ae:recharging_card" /> habilita recarga sem fio para a peça equipada. Isso requer um
-vínculo com a rede e estar no alcance do ponto de acesso. Instalar esta melhoria no peitoral tem o benefício
-adicional de também carregar os espaços do inventário.
+O <ItemLink id="advanced_ae:recharging_card" /> permite a recarga sem fio da peça equipada. Isso requer um
+vínculo com a rede e estar ao alcance do ponto de acesso. Instalar essa melhoria no peitoral tem o benefício adicional
+de também carregar os espaços do inventário.
 
 <br/>
 
@@ -179,7 +179,7 @@ adicional de também carregar os espaços do inventário.
 
 <ItemImage id="advanced_ae:portable_workbench_card" scale="2"></ItemImage>
 
-O <ItemLink id="advanced_ae:portable_workbench_card" /> adiciona uma bancada portátil de células ao traje quântico. Para abri-la,
+O <ItemLink id="advanced_ae:portable_workbench_card" /> adiciona uma bancada portátil de célula ao traje quântico. Para abri-la,
 você precisa pressionar a tecla de atalho configurada. Ela funciona da mesma forma que a versão em bloco.
 
 <br/>
@@ -189,9 +189,9 @@ você precisa pressionar a tecla de atalho configurada. Ela funciona da mesma fo
 <ItemImage id="advanced_ae:pick_craft_card" scale="2"></ItemImage>
 
 O <ItemLink id="advanced_ae:pick_craft_card" /> adiciona um novo recurso de tecla de atalho à armadura. Pressioná-la tentará
-fabricar o bloco atualmente mirado pelo jogador. Este recurso requer um vínculo com a rede e um padrão
-que corresponda ao alvo. Uma janela aparecerá pedindo a quantidade desejada e o processo segue exatamente o mesmo de um
-pedido normal de fabricação automática.
+fabricar o bloco atualmente mirado pelo jogador. Esse recurso requer um vínculo com a rede e um padrão
+que corresponda ao alvo. Um popup aparecerá pedindo a quantidade desejada e o processo segue exatamente o mesmo de uma
+solicitação de autofabricação normal.
 
 <br/>
 
@@ -211,8 +211,8 @@ pedido normal de fabricação automática.
 * <ItemLink id="advanced_ae:magnet_card" />
 * <ItemLink id="advanced_ae:camo_card" />
 
-Estes cartões fornecem várias utilidades para quem veste o conjunto, trazendo imunidade a alguns tipos de dano e concedendo visão
-noturna. O cartão de ímã, em particular, tem uma tela de configuração onde você pode definir filtros do que pegar ou não
+Esses cartões fornecem várias utilidades ao usuário do conjunto, trazendo imunidade a alguns tipos de dano e concedendo visão
+noturna. O cartão de ímã, em particular, tem uma tela de configuração onde você pode definir filtros para o que pegar ou não
 e configurar seu alcance.
 
 <br/>
@@ -229,9 +229,9 @@ e configurar seu alcance.
 * <ItemLink id="advanced_ae:regeneration_card" />
 * <ItemLink id="advanced_ae:evasion_card" />
 
-Estas melhorias fornecem benefícios defensivos a quem veste o conjunto, de várias formas. O cartão de PV aumenta a vida
+Essas melhorias fornecem benefícios defensivos ao usuário do conjunto, de várias formas. O buffer de PV aumenta a vida
 máxima, enquanto o cartão de regeneração aumenta a velocidade com que ela se recupera. O cartão de esquiva fornece
-imunidade total a qualquer fonte de dano, por chance.
+imunidade total a qualquer fonte de dano com uma chance.
 
 <br/>
 
@@ -245,7 +245,7 @@ imunidade total a qualquer fonte de dano, por chance.
 * <ItemLink id="advanced_ae:strength_card" />
 * <ItemLink id="advanced_ae:attack_speed_card" />
 
-Estas melhorias aumentam as capacidades ofensivas de quem veste o conjunto. Elas dão um bônus ao dano de ataque e à velocidade de ataque.
+Essas melhorias aumentam as capacidades ofensivas do usuário. Elas fornecem um bônus ao dano de ataque e à velocidade de ataque.
 
 <br/>
 
@@ -259,11 +259,11 @@ Estas melhorias aumentam as capacidades ofensivas de quem veste o conjunto. Elas
 * <ItemLink id="advanced_ae:luck_card" />
 * <ItemLink id="advanced_ae:reach_card" />
 
-Estes cartões de melhoria fornecem aumentos fixos de atributos a quem veste o conjunto, afetando a sorte para rolagens de saque melhores e a distância
-de alcance de blocos. O cartão de alcance pode ser configurado para um valor desejado específico.
+Esses cartões de melhoria fornecem aumentos fixos de atributos ao usuário, afetando a sorte para melhores rolagens de saque e a
+distância de alcance de blocos. O cartão de alcance pode ser configurado para um valor específico desejado.
 
 <br/>
 
 ## Mais por vir
 
-Este conjunto de equipamento foi lançado como uma base com uma porção de outros recursos planejados, então fique ligado!
+Este conjunto de equipamento foi lançado como base com vários outros recursos planejados para lançamento, então fique ligado!

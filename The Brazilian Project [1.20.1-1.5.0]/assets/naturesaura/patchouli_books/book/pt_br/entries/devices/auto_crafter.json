@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "Uma grande parte da vida de qualquer botânico é a $(thing)construção$() de itens, especificamente numa $(item)Bancada de Trabalho$(). Isso, porém, pode facilmente se tornar tedioso e demorado, especialmente para receitas criadas e usadas regularmente. Para isso, o $(item)Construtor Automático$() é útil: ele criará, sem a ajuda de ninguém, qualquer item que possa ser feito por fabricação comum."
+            "text": "Uma grande parte da vida de qualquer botânico é a $(thing)fabricação$() de itens, especificamente numa $(item)Bancada de Trabalho$(). Isso, no entanto, pode facilmente se tornar tedioso e demorado, especialmente para receitas criadas e usadas regularmente. Para isso, o $(item)Construtor Automático$() é útil: ele criará, sem ajuda de ninguém, qualquer item que possa ser feito normalmente por fabricação."
         },
         {
             "type": "text",
-            "text": "Para isso, primeiro, a $(thing)estrutura$() da página seguinte precisa ser construída com o $(item)Construtor Automático$() no centro. Quando colocado, a direção da seta indica o $(thing)topo da receita$(), como se apontasse para a fileira superior de espaços numa $(item)Bancada de Trabalho$(). Os ingredientes necessários então devem ser jogados nos $(item)Troncos Ancestrais$() na sua configuração normal. Uma vez no lugar, após alguns segundos, o item resultante sairá $(thing)pela base$() do $(item)Construtor Automático$()."
+            "text": "Para alcançar isso, primeiro, a $(thing)estrutura$() na página seguinte precisa ser construída com o $(item)Construtor Automático$() no centro. Quando colocada, a direção da seta indica o $(thing)topo da receita$(), como se apontasse para a fileira mais alta de espaços numa $(item)Bancada de Trabalho$(). Os ingredientes necessários então precisam ser soltos sobre os $(item)Troncos Ancestrais$() na sua configuração normal. Uma vez no lugar, após alguns segundos, o item resultante cairá pela $(thing)parte de baixo$() do $(item)Construtor Automático$()."
         },
         {
             "type": "multiblock",

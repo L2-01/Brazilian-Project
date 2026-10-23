@@ -11,7 +11,7 @@ item_ids:
 
 # Modificador de Configuração
 
-O Modificador de Configuração é uma ferramenta para modificar inventários de configuração em massa.
+O Modificador de Configuração é uma ferramenta para modificação em massa de inventários de configuração.
 
 <ItemImage id="extendedae:config_modifier" scale="4"></ItemImage>
 
@@ -19,21 +19,21 @@ Clique com o botão direito nele para abrir sua GUI.
 
 ## Uso
 
-O Modificador de Configuração pode modificar rapidamente inventários de configuração, como o inventário de configuração de uma interface, de acordo com seus ajustes. Por exemplo, ele pode definir as quantidades de itens
-configurados para o valor máximo ou removê-los todos.
+O Modificador de Configuração pode modificar rapidamente inventários de configuração, como o de uma Interface, conforme suas definições; por exemplo,
+definindo as quantidades configuradas de itens para o valor máximo ou removendo-as todas.
 
-Use o Modificador de Configuração num dispositivo alvo (bloco ou subparte) no mundo para modificar sua configuração.
+Você pode clicar num dispositivo-alvo (bloco ou subparte) no mundo com o Modificador de Configuração para modificar sua configuração.
 
-## Ajustes
+## Definições
 
-Ele tem dois ajustes principais: o **modo de modificação** e a **quantidade de modificação (X)**.
+Ele tem duas definições principais, o **modo de modificação** e a **quantidade de modificação (X)**.
 
-Clique no botão para mudar o modo.
+Você pode clicar num botão para mudar o modo.
 
 ![GUI](../pic/cm.png)
 
-- Adicionar/Subtrair/Multiplicar/Dividir: Adiciona, subtrai, multiplica ou divide cada quantidade configurada por X.
-- Maximizar: Define cada quantidade configurada para o valor máximo.
-- Minimizar: Define cada quantidade configurada para o valor mínimo.
-- Definir: Define cada quantidade configurada para X.
-- Limpar: Limpa toda a configuração.
+- Adicionar/Subtrair/Multiplicar/Dividir: soma, subtrai, multiplica ou divide a quantidade configurada por X.
+- Maximizar: define a quantidade configurada para o valor máximo.
+- Minimizar: define a quantidade configurada para o valor mínimo.
+- Definir: define a quantidade configurada para X.
+- Limpar: remove todos os itens configurados.

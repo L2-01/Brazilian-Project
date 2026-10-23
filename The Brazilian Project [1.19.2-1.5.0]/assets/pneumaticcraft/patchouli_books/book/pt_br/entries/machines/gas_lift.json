@@ -1,30 +1,30 @@
 {
-  "name": "Elevador a Gás",
-  "icon": "pneumaticcraft:gas_lift",
-  "category": "pneumaticcraft:machines",
-  "advancement": "pneumaticcraft:pressure_tube",
-  "pages": [
-    {
-      "type": "text",
-      "text": "Um $(item)Elevador a Gás/$ é uma bomba, basicamente. Ele usa $(l:base_concepts/pressure)pressão/$ para diminuir a densidade de um fluido e forçá-lo para cima.$(p)Quando pressurizado, ele estende $(l:components/drill_pipe)Tubos de Perfuração/$ (que você deve fornecer) para baixo até atingir qualquer bloco de fluido, ponto em que o bombeará. Isso o torna perfeito para extração de $(l:base_concepts/oil)Óleo/$, já que o Óleo pode estar bem no fundo."
-    },
-    {
-      "type": "text",
-      "text": "Qualquer bloco sólido no caminho será quebrado, sem rendimento. Quebrar blocos consome ar; é uma quantidade muito pequena para blocos macios como terra ou areia, mas muito maior para blocos duros como obsidiana.$(p)A pressão mínima necessária para bombear fluidos escala linearmente com a profundidade em que está bombeando, ou seja, o número de $(item)Tubos de Perfuração/$ atualmente estendidos, até um máximo de 4,9 bar."
-    },
-    {
-      "type": "text",
-      "title": "Aba de Modo",
-      "text": "O Elevador a Gás pode ser alternado entre um de 3 modos:$(li)$(#00f)Bombear e permitir tanque vazio/$ estende Tubos de Perfuração, bombeando fluidos quando os encontra.$(li)$(#00f)Bombear e deixar fluido no filtro/$ faz o mesmo que acima, mas sempre manterá 1000mB de fluido no tanque. Isso é útil ao bombear um fluido específico, para garantir que nenhum outro fluido seja bombeado."
-    },
-    {
-      "type": "text",
-      "text": "$(li)$(#00f)Retrair Tubos de Perfuração/$ fará o $(thing)Elevador a Gás/$ parar de bombear e recolher quaisquer Tubos de Perfuração que tenha estendido de volta ao seu inventário."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando um Elevador a Gás",
-      "recipe": "pneumaticcraft:gas_lift"
-    }
-  ]
+    "name": "Elevador a Gás",
+    "icon": "pneumaticcraft:gas_lift",
+    "category": "pneumaticcraft:machines",
+    "advancement": "pneumaticcraft:pressure_tube",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Um $(item)Elevador a Gás/$ é basicamente uma bomba. Ele usa $(l:base_concepts/pressure)pressão/$ para diminuir a densidade de um fluido e forçá-lo para cima.$(p)Quando pressurizado, extrude $(l:components/drill_pipe)Tubos de Perfuração/$ (que você deve fornecer) para baixo até atingir algum bloco de fluido, momento em que passa a bombear. Isso o torna perfeito para extração de $(l:base_concepts/oil)Petróleo/$, já que o Petróleo pode estar bem fundo."
+        },
+        {
+            "type": "text",
+            "text": "Qualquer bloco sólido no caminho será quebrado, sem produzir itens. Quebrar blocos consome ar; é uma quantidade muito pequena para blocos macios como terra ou areia, mas bem maior para blocos duros como obsidiana.$(p)A pressão mínima necessária para bombear fluidos escala linearmente com a profundidade do bombeamento, ou seja, o número de $(item)Tubos de Perfuração/$ atualmente extrudados, até o máximo de 4,9 bar."
+        },
+        {
+            "type": "text",
+            "title": "Aba de Modo",
+            "text": "O Elevador a Gás pode ser alternado entre um de 3 modos:$(li)$(#00f)Bombear e permitir tanque vazio/$ estende os Tubos de Perfuração, bombeando fluidos quando os encontra.$(li)$(#00f)Bombear e deixar fluido no filtro/$ faz o mesmo que acima, mas sempre manterá 1000mB de fluido no tanque. Isso é útil ao bombear um certo fluido, para garantir que nenhum outro fluido seja bombeado."
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(#00f)Recolher Tubos de Perfuração/$ fará o $(thing)Elevador a Gás/$ parar de bombear e recolher para o inventário os Tubos de Perfuração que extrudou."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Elevador a Gás",
+            "recipe": "pneumaticcraft:gas_lift"
+        }
+    ]
 }

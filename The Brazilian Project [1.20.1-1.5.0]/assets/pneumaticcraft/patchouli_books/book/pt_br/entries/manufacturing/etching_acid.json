@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "O Ácido de Corrosão é usado para revelar quimicamente as $(l:components/pcb)PCIs/$. O Ácido de Corrosão é feito numa $(l:manufacturing/pressure_chamber)Câmara de Pressão/$ e usado no $(l:manufacturing/etching_tank)Tanque de Corrosão/$.$(p)Veja a entrada das $(l:components/pcb)PCIs/$ para mais informações sobre a produção de PCI."
+      "text": "O Ácido de Corrosão é usado para desenvolver quimicamente $(l:components/pcb)PCIs/$. O Ácido de Corrosão é feito numa $(l:manufacturing/pressure_chamber)Câmara de Pressão/$ e usado no $(l:manufacturing/etching_tank)Tanque de Corrosão/$.$(p)Veja a entrada de $(l:components/pcb)PCIs/$ para mais informações sobre produção de PCI."
     },
     {
       "type": "pneumaticcraft:pressure_chamber",

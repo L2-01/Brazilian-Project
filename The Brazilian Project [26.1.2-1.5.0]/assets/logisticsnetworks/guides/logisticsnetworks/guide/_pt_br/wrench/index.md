@@ -8,61 +8,61 @@ navigation:
 
 # Chave-Inglesa
 
-A Chave-Inglesa é a ferramenta que você usa para tudo relacionado a nós — abrir suas configurações, removê-los, copiar ajustes entre nós e colocar muitos nós de uma vez.
+A Chave-Inglesa é a ferramenta que você usa para tudo relacionado a nós — abrir sua configuração, removê-los, copiar setups entre nós e posicionar muitos nós de uma vez.
 
-Ela tem três modos. Segure **R** com a chave na mão para abrir a roda de modos, aponte para um modo e solte para selecioná-lo. Solte no centro ou pressione Escape para cancelar. Remapeie a tecla da roda no menu de Controles do Minecraft.
+Ela tem três modos. Segure **R** com a chave na mão para abrir a roda de modos, aponte para um modo e solte para selecioná-lo. Solte no centro ou pressione Escape para cancelar. Remapeie a tecla da roda no menu Controles do Minecraft.
 
-Você também pode alternar os modos com **Tecla Modificadora 1 (padrão: Shift) + Roda do Mouse**. A interface ao lado da barra de atalhos mostra o modo ativo: azul para Chave, verde para Copiar / Colar e dourado para Colocação em Massa.
+Você também pode percorrer os modos com **Tecla Modificadora 1 (padrão: Shift) + Roda do Mouse**. O HUD ao lado da hotbar mostra o modo ativo: azul para Chave, verde para Copiar / Colar e dourado para Posicionamento em Massa.
 
-## Modos em Resumo
+## Modos num relance
 
-- [Chave](wrench-mode.md) — o padrão. Abra ou remova nós, coloque nós e vincule uma rede do AE2 ou do Refined Storage.
-- [Copiar / Colar](copy-paste.md) — clone toda a configuração de um nó — canais, filtros, melhorias, rótulo — para outro nó. Permite colar em massa em todos os nós conectados do mesmo tipo de bloco.
-- [Colocação em Massa](mass-placement.md) — selecione uma área de dois cantos, escolha um tipo de bloco-alvo e coloque nós configurados nos blocos correspondentes com **Interação Primária (padrão: Botão Esquerdo)**.
+- [Chave](wrench-mode.md) — o padrão. Abrir ou remover nós, posicionar nós e vincular uma rede de AE2 ou Refined Storage.
+- [Copiar / Colar](copy-paste.md) — clonar o setup inteiro de um nó — canais, filtros, melhorias, rótulo — para outro nó. Suporta colagem em massa para todos os nós conectados do mesmo tipo de bloco.
+- [Posicionamento em Massa](mass-placement.md) — selecionar uma área de dois cantos, escolher um tipo de bloco alvo e posicionar nós configurados nos blocos correspondentes com **Interação Primária (padrão: Clique Esquerdo)**.
 
 ## Configurações da Chave
 
-Pressione **G** com a chave na mão para abrir suas configurações. Cada chave guarda as próprias configurações, então uma chave pode mostrar a base inteira enquanto outra foca numa única rede.
+Pressione **G** segurando a chave para abrir suas configurações. Cada chave guarda suas próprias configurações, então uma chave pode mostrar a base inteira enquanto outra foca numa única rede.
 
-**Cores** muda a cor da carcaça e da tela da chave.
+**Cores** recolore a caixa e a tela da chave.
 
-**Linhas de Fluxo** controla as linhas desenhadas entre remetentes e destinatários enquanto você segura a chave.
+**Linhas de Fluxo** controla as linhas desenhadas entre emissores e receptores enquanto você segura a chave.
 
 - *Simples*:
-  - liga ou desliga as linhas
-  - mostra só alguns tipos de recurso (Itens, Fluidos, Energia)
-  - mostra só alguns canais (1–9)
-  - limita as linhas a uma rede próxima
-  - escolhe se nós fora da tela, ou longe demais para renderizar, ainda recebem linhas. Isso alcança todos os nós que seu jogo está rastreando, cerca de 64 blocos.
+  - ligar ou desligar as linhas
+  - mostrar só alguns tipos de recurso (Itens, Fluidos, Energia)
+  - mostrar só alguns canais (1–9)
+  - limitar as linhas a uma rede próxima
+  - escolher se nós fora da tela, ou longe demais para renderizar, ainda ganham linhas. Isso alcança todo nó que seu jogo está rastreando, cerca de 64 blocos.
 - *Avançado*:
-  - escolha o estilo de linha: **Roteada** (caminhos agrupados em ângulo reto) ou **Direta** (uma linha reta de cada remetente a cada destinatário)
-  - ajuste espessura, velocidade, opacidade e os pulsos
-  - escolha se as linhas aparecem através de blocos
-  - defina a cor de cada tipo de recurso
+  - escolher o estilo de linha: **Roteado** (caminhos em ângulo reto agrupados) ou **Direto** (uma linha reta de cada emissor a cada receptor)
+  - definir espessura, velocidade, opacidade e os pulsos
+  - escolher se as linhas aparecem através de blocos
+  - definir a cor de cada tipo de recurso
 
 Pressione **Aplicar** para salvar. **Redefinir** restaura os padrões da aba em que você está.
 
-## Referência Rápida
+## Referência rápida
 
-| Modo | Interação Secundária (padrão: Botão Direito) | Tecla Modificadora 1 + Interação Secundária | Tecla Modificadora 2 (padrão: Ctrl) + Interação Secundária |
+| Modo | Interação Secundária (padrão: Clique Direito) | Tecla Modificadora 1 + Interação Secundária | Tecla Modificadora 2 (padrão: Ctrl) + Interação Secundária |
 |------|-------------|---------------------|--------------------|
-| Chave | Abrir config do nó | Remover um nó, colocar um nó ou alternar um vínculo de armazenamento | — |
-| Copiar / Colar | Copiar nó → área de transferência (ou abrir o Editor de Área de Transferência no ar) | Colar área de transferência → nó | Colar em todo nó conectado do mesmo tipo de bloco |
-| Colocação em Massa | Definir cantos da área (ou abrir o Menu de Colocação no ar) | Abrir Menu de Colocação | — |
+| Chave | Abrir config do nó | Remover um nó, posicionar um nó ou alternar um vínculo de armazenamento | — |
+| Copiar / Colar | Copiar nó → área de transferência (ou abrir o Editor da Área de Transferência no ar) | Colar área de transferência → nó | Colar em todos os nós conectados do mesmo tipo de bloco |
+| Posicionamento em Massa | Definir cantos da área (ou abrir o Menu de Posicionamento no ar) | Abrir Menu de Posicionamento | — |
 
-## Usando Rótulos com a Chave
+## Usando rótulos com a Chave
 
-Os rótulos combinam muito bem com a chave. Quando você cola uma configuração num nó, o rótulo da origem também é copiado — então o nó colado entra imediatamente naquele grupo de rótulo e fica sincronizado com todos os outros nós que compartilham o rótulo.
+Os rótulos combinam muito bem com a chave. Quando você cola um setup num nó, o rótulo da origem é copiado junto — então o nó colado entra imediatamente naquele grupo de rótulo e fica em sincronia com todos os outros nós que compartilham o rótulo.
 
 Fluxo de trabalho típico:
 
-1. Configure um nó com o ajuste que você quer.
+1. Configure um nó com o setup que você quer.
 2. Dê um rótulo a ele (veja [Cabeçalho → Definir Rótulo](../nodes/header.md)).
-3. Copie sua configuração para a área de transferência da chave.
-4. Cole (ou coloque em massa) em todos os outros nós que devem compartilhar este ajuste.
+3. Copie sua config para a área de transferência da chave.
+4. Cole (ou posicione em massa) em todos os outros nós que devem compartilhar este setup.
 
-Todo nó agora carrega o mesmo rótulo. Edições futuras em qualquer um deles se propagam ao grupo inteiro automaticamente. Você não precisa recopiar e colar ao ajustar.
+Todos os nós agora carregam o mesmo rótulo. Edições posteriores em qualquer um propagam para o grupo inteiro automaticamente. Você não precisa recopiar e colar ao ajustar.
 
-## Receita de Criação
+## Receita de fabricação
 
 <RecipeFor id="logisticsnetworks:wrench" />

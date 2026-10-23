@@ -16,7 +16,7 @@ Antes de começar, certifique-se de já ter uma rede ME de AE2 funcionando que i
 
 * Um <ItemLink id="ae2:controller" />, ou uma pequena rede sem controlador
 * Alguns <ItemLink id="ae2:certus_quartz_crystal" />, <ItemLink id="ae2:fluix_crystal" /> e <ItemLink id="ae2:fluix_block" />
-* Um <ItemLink id="minecraft:lightning_rod" /> e algumas Drusas de Certus de AE2 de vários níveis
+* Um <ItemLink id="minecraft:lightning_rod" /> e algumas Drusas de Quartzo Certus de AE2 de vários níveis
 
 ## Passo 1: Obter Cristais de Sobrecarga
 
@@ -24,19 +24,19 @@ Antes de começar, certifique-se de já ter uma rede ME de AE2 funcionando que i
 
 O **Cristal de Sobrecarga** é o material mais fundamental deste mod — quase toda receita depende dele ou de um de seus derivados.
 
-Você o obtém cultivando blocos de **Drusa de Cristal de Sobrecarga**, que são produzidos a partir de Drusas de Certus de AE2 via um ritual de raios multibloco:
+Você o obtém cultivando blocos de **Drusa de Cristal de Sobrecarga**, que são produzidos a partir de Drusas de Quartzo Certus de AE2 via um ritual de raios multibloco:
 
 1. Monte uma estrutura 3×3 com a drusa de quartzo no centro. A variante rica usa <ItemLink id="ae2lt:overload_crystal_block" /> nos quatro cantos e <ItemLink id="ae2:fluix_block" /> nos quatro lados cardinais; a variante simples troca os cantos por <ItemLink id="ae2:quartz_block" /> (Bloco de Quartzo Certus) mantendo o fluix nas laterais
 2. Coloque um <ItemLink id="minecraft:lightning_rod" /> diretamente acima do centro
 3. Espere por uma descarga de raio — raio natural é obrigatório para a variante rica; qualquer raio funciona para a variante simples só de fluix
 4. Coloque a **Drusa de Cristal de Sobrecarga** resultante no mundo e espere brotos crescerem na sua superfície
 
-A Drusa de Cristal de Sobrecarga se comporta da mesma forma que a Drusa de Certus:
+A Drusa de Cristal de Sobrecarga se comporta da mesma forma que a Drusa de Quartzo Certus:
 
-* Os brotos crescem em ordem: Pequeno → Médio → Grande → **Aglomerado de Cristais de Sobrecarga**
+* Os brotos crescem em ordem: Pequeno → Médio → Grande → **Agregado de Cristal de Sobrecarga**
 * O <ItemLink id="ae2:growth_accelerator" /> também funciona nos brotos de Cristal de Sobrecarga
 * Quebrar um broto **ainda não totalmente crescido** deixa cair **Pó de Cristal de Sobrecarga**
-* Quebrar um Aglomerado de Cristais de Sobrecarga **totalmente crescido** deixa cair **Cristais de Sobrecarga**, e Fortuna se aplica
+* Quebrar um Agregado de Cristal de Sobrecarga **totalmente crescido** deixa cair **Cristais de Sobrecarga**, e Fortuna se aplica
 * Blocos de drusa imperfeitos podem decair um nível a cada broto que cresce. Ao minerar, Toque Suave preserva os níveis Imperfeita, Rachada e Danificada; a Perfeita cai como Imperfeita
 
 Veja [Cristal de Sobrecarga](materials/overload-crystal.md) para todos os detalhes.

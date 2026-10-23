@@ -1,0 +1,33 @@
+---
+id: oritech:power_pole_block
+type: block
+title: Poste de Transmissão de Energia
+custom:
+    Capacidade de RF: "1,000,000"
+    Alcance: "50-1,000 blocos"
+---
+Os postes de transmissão de energia enviam energia por grandes distâncias.
+Eles costumam ser construídos em plataformas elevadas e só podem ser vinculados a outros postes de transmissão.
+<center>
+<ModAsset location="oritech:area/power_pole" width={512} />
+</center>
+
+Para vinculá-los, use um item [designador de alvo](@oritech:target_designator), clicando agachado no primeiro poste
+e depois no segundo. Um único poste pode ser vinculado a qualquer número de postes.
+Quaisquer postes interconectados também compartilham energia, permitindo construir grandes redes.
+
+Energia pode ser inserida e extraída de qualquer poste dentro de uma rede de postes de transmissão interconectados.
+A energia entra pela porta verde e sai pela porta vermelha.
+A taxa máxima de transmissão pela rede é limitada a 1M RF/t.
+
+<Callout variant="info">
+    Os Postes de Transmissão são projetados apenas para transporte de energia a longa distância, mas também não têm alcance infinito.
+    Eles precisam ser construídos a pelo menos 50 blocos de distância para conectar, e têm alcance máximo de 1000 blocos.
+</Callout>
+
+Uma [chave de tubo](@oritech:wrench) pode ser usada para deslizar em tirolesa pelos cabos dos postes.
+Para isso, clique num cabo segurando a chave.
+
+<center>
+<ModAsset location="oritech:area/cable_ziplining" width={800} />
+</center>

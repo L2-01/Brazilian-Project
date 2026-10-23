@@ -1,4 +1,12 @@
 {
+    "options.accessibility.menu_background_blurriness": "Desfoque de fundo do menu",
+    "options.accessibility.menu_background_blurriness.tooltip": "Altera o desfoque dos fundos de menus.\nAdaptado pela biblioteca Neo Backports",
+
+
+
+
+
+
     "selling_bin.configuration.always_show_selling_bin_price": "Sempre Mostrar Preços da Caixa de Venda",
     "selling_bin.configuration.selling_in_multiplier": "Multiplicador da Caixa de Venda",
 
@@ -54,5 +62,16 @@
     "block.selling_bin.selling_bin": "Caixa de Venda",
 
     "item.minecraft.emerald.plural": "Esmeraldas",
-    "block.minecraft.emerald_block.plural": "Blocos de Esmeralda"
+    "block.minecraft.emerald_block.plural": "Blocos de Esmeralda",
+
+
+
+
+
+
+    "tinymultiblocklib.configuration.title": "Tiny Multiblock Lib",
+    "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml.title": "Configuração de Cliente do TMBL",
+    "tinymultiblocklib.configuration.section.tinymultiblocklib.client.toml": "Configuração de Cliente do TMBL",
+    "tinymultiblocklib.configuration.disable_multiblock_previews": "Desativar Pré-visualizações de Multiblocos",
+    "tinymultiblocklib.configuration.disable_multiblock_previews.tooltip": "Desativa as pré-visualizações fantasma ao tentar posicionar um multibloco"
 }

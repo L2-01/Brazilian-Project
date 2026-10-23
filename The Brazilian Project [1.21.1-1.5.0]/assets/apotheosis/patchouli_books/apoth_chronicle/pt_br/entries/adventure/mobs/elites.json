@@ -1,17 +1,17 @@
 {
-    "name": "Elites",
-    "icon": "minecraft:skeleton_skull",
-    "category": "apotheosis:adventure/mobs",
-    "flag": "apotheosis:adventure",
-    "sortnum": 3,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Ocasionalmente, você pode ver criaturas nomeadas ou fortalecidas pelo seu mundo.$(p)Elas provavelmente são $(9)Elites Apóticas$()."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Essas criaturas aparecerão aleatoriamente no lugar de suas contrapartes normais.$(p)Elas não têm entradas chamativas como os Invasores, então fique de guarda.$(p)Elas também podem largar Itens com Afixos."
-        }
-    ]
+	"name": "Elites",
+	"icon": "minecraft:skeleton_skull",
+	"category": "apotheosis:adventure/mobs",
+	"flag": "apotheosis:adventure",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Ocasionalmente, você pode ver criaturas nomeadas ou fortalecidas pelo seu mundo.$(p)Essas provavelmente são $(9)Elites Apóticas$()."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Essas criaturas aparecerão aleatoriamente no lugar de suas contrapartes normais.$(p)Elas não têm entradas chamativas como os Invasores, então fique de guarda.$(p)Elas também podem derrubar Itens com Afixo."
+		}
+	]
 }

@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Neste ponto, você pode lançar seu foguete; porém, provavelmente morrerá muito rápido, pois não há oxigênio na lua. Para sobreviver na lua, você precisará de um traje espacial oxigenado e um suprimento amplo de oxigênio."
+      "text": "Neste ponto, você já pode lançar seu foguete; porém, provavelmente morrerá muito rápido, pois não há oxigênio na Lua. Para sobreviver na Lua, você precisará de um traje espacial oxigenado e um bom suprimento de oxigênio."
     },
     {
       "type": "patchouli:crafting",
@@ -22,13 +22,13 @@
       "type": "patchouli:spotlight",
       "title": "Oxigênio",
       "item": "ad_astra:oxygen_bucket",
-      "text": "Para obter oxigênio, ele deve ser extraído da água. Um carregador de oxigênio é necessário para isso. Fabrique um, depois coloque água no tanque esquerdo e observe-a se converter em oxigênio. Você deve repetir esse processo muitas vezes até ter oxigênio suficiente."
+      "text": "Para obter oxigênio, ele deve ser extraído da água. É preciso um carregador de oxigênio para isso. Fabrique um, coloque água no tanque esquerdo e observe a conversão em oxigênio. Você terá que repetir esse processo várias vezes até ter oxigênio suficiente."
     },
     {
       "type": "patchouli:crafting",
       "title": "Carregador de Oxigênio",
       "recipe": "ad_astra:oxygen_loader",
-      "text": "O oxigênio pode então ser extraído coletando-o em um balde, traje espacial ou tanque de gás. Depois de ter oxigênio suficiente, você está a poucos passos de lançar seu primeiro foguete!"
+      "text": "O oxigênio pode então ser extraído coletando-o num balde, traje espacial ou tanque de gás. Depois de ter oxigênio suficiente, você está a momentos de lançar seu primeiro foguete!"
     }
   ]
 }

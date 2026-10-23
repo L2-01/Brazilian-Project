@@ -14,7 +14,7 @@ item_ids:
 
 O Vetor de Supercomputação Tianshu ocupa um volume fixo de **7×7×7**. Seu controlador fica no centro da borda inferior de um dos lados. A partir do controlador, a estrutura se estende seis blocos para frente, seis blocos para cima e três blocos para cada lado.
 
-A cena abaixo mostra uma estrutura completa usando um Núcleo Principal Básico do Vetor de Supercomputação Tianshu. Arraste para girar a cena. Os centros das faces inferior e superior são as duas posições possíveis da porta.
+A cena abaixo mostra uma estrutura completa usando um Núcleo Principal Básico Tianshu. Arraste para girar a cena. Os centros das faces inferior e superior são as duas posições possíveis da porta.
 
 <GameScene zoom="2.8" background="transparent" interactive={true}>
   <ImportStructure src="../assets/assemblies/tianshu_supercomputer.snbt" />

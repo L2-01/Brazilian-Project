@@ -1,0 +1,24 @@
+---
+title: Varinha de Radiestesia
+id: irregular_implements:divining_rod
+related_items: [irregular_implements:divining_rod]
+type: item
+---
+
+Existe uma **Varinha de Radiestesia** para cada minério (ou seja, qualquer bloco/item que tenha uma tag começando com `#c:ores/`). Quando segurada na mão, minérios próximos daquele tipo ficam visíveis através das paredes.
+
+<Callout variant="danger">
+	O tipo de renderização personalizado que isso usa atualmente não é compatível com o Sodium! Não causa crash, mas os minérios não ficarão destacados.
+	</Callout>
+
+A mesma receita pode ser usada para qualquer tipo de minério, apenas substituindo o minério em si. Ela segue este padrão:
+
+```
+OSO
+SES
+S S
+```
+
+onde `O` é o bloco de minério, `S` é um Graveto, e `E` é um Olho de Aranha.
+
+Você também pode criar uma Varinha de Radiestesia universal que funciona para todos os minérios!

@@ -1,21 +1,21 @@
 {
-    "name": "Aumento de Vegetação",
+    "name": "Aumento Vegetacional",
     "icon": "minecraft:wheat_seeds",
     "category": "naturesaura:effects",
     "advancement": "naturesaura:positive_imbalance",
     "pages": [
         {
             "type": "text",
-            "text": "Quando a quantidade de $(aura) numa área é alta o suficiente para se tornar instável, ela começa a migrar para partes da vegetação próxima, especificamente plantas como $(item)Trigo$(), $(item)Batatas$() e afins. Isso fará com que elas tenham $(thing)surtos de crescimento$(), enquanto, ao mesmo tempo, a $(aura) na área diminui levemente como resultado."
+            "text": "Quando a quantidade de $(aura) numa área é alta o suficiente para se tornar instável, ela começa a migrar para partes da vegetação próxima, especificamente plantas como $(item)Trigo$(), $(item)Batatas$() e afins. Isso fará com que elas tenham $(thing)picos de crescimento$(), enquanto, ao mesmo tempo, causa uma leve diminuição da $(aura) na área como resultado."
         },
         {
             "type": "text",
-            "text": "Efeitos como esse se tornam aparentes quando o medidor do $(l:items/eye)Olho Ambiental$() se enche cerca de três quartos.$(br)Sabe-se que este efeito só ocorre na $(thing)superfície$()."
+            "text": "Efeitos como estes se tornam aparentes quando o medidor do $(l:items/eye)Olho Ambiental$() se enche em cerca de três quartos.$(br)Este efeito é conhecido por ocorrer apenas no $(thing)Superfície$()."
         },
         {
             "type": "naturesaura:tree_ritual",
             "recipe": "naturesaura:plant_powder",
-            "text": "Este efeito pode ser inibido usando $(l:effects/effect_powder)Pó de Crescimento Constante$()."
+            "text": "Este efeito pode ser inibido usando o $(l:effects/effect_powder)Pó de Crescimento Constante$()."
         }
     ]
 }

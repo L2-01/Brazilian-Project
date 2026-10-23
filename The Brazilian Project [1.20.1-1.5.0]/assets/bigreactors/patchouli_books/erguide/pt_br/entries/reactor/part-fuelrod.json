@@ -9,23 +9,23 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:reinforced_reactorfuelrod",
             "link_recipe": true,
-            "title" : "Barra de Combustível",
-            "text": "As Barras de Combustível são colocadas dentro do seu Reator em longas pilhas horizontais ou verticais. Elas servem como um reservatório de reagentes — combustível, resíduos ou uma mistura dos dois — e são irradiadas enquanto o Reator está ativo, gerando calor que pode ser convertido em energia ou usado para vaporizar refrigerantes."
+            "title": "Barra de Combustível",
+            "text": "As Barras de Combustível são colocadas dentro do seu Reator em longas pilhas horizontais ou verticais. Elas servem de reservatório para os reagentes — combustível, resíduos ou uma mistura de ambos — e são irradiadas enquanto o Reator está ativo, gerando calor que pode ser convertido em energia ou usado para vaporizar refrigerantes."
         },
         {
             "type": "patchouli:text",
-            "text": "A primeira Barra de Combustível de cada pilha deve ser colocada adjacente a um $(l:bigreactors/part-casing)bloco de Revestimento$(/l), e a última Barra de Combustível deve ser seguida por uma $(l:bigreactors/part-controlrod)Haste de Controle$(/l). Você pode optar por organizar todas as suas pilhas de Barras de Combustível verticalmente (ao longo do eixo Y) ou horizontalmente (ao longo do eixo X ou Z), mas misturar orientações não é permitido. Como resultado desse requisito, todas as Hastes de Controle devem ser colocadas na mesma face do Reator."
+            "text": "A primeira Barra de Combustível de cada pilha deve ser colocada adjacente a um $(l:bigreactors/part-casing)bloco de Revestimento$(/l), e a última Barra de Combustível deve ser seguida por uma $(l:bigreactors/part-controlrod)Haste de Controle$(/l). Você pode dispor todas as suas pilhas de Barras de Combustível na vertical (ao longo do eixo Y) ou na horizontal (ao longo do eixo X ou Z), mas misturar orientações não é permitido. Como consequência, todas as Hastes de Controle devem ficar na mesma face do Reator."
         },
         {
             "type": "bigreactors:crafting1x",
-            "title1": "Basic",
+            "title1": "Básico",
             "recipe1": "bigreactors:reactor/basic/fuelrod_ingots_yellorium",
-            "title2": "Reinforced",
+            "title2": "Reforçado",
             "recipe2": "bigreactors:reactor/reinforced/fuelrod_ingots_yellorium"
         },
         {
             "type": "bigreactors:part_usage",
-            "text": "$(l)Obrigatório:$() sim$(br)$(l)Posições válidas:$() dentro do Reator$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não"
+            "text": "$(l)Obrigatória:$() sim$(br)$(l)Posições válidas:$() dentro do Reator$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não"
         }
     ]
 }

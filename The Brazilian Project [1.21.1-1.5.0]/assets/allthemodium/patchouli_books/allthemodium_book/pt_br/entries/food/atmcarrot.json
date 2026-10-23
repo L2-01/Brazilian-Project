@@ -2,14 +2,15 @@
     "name": "Cenoura de Allthemodium",
     "icon": "allthemodium:allthemodium_carrot",
     "category": "allthemodium:food",
-    "pages": [{
+    "pages": [
+        {
             "type": "crafting",
             "recipe": "allthemodium:allthemodium_carrot",
             "title": "Cenoura de Allthemodium"
         },
         {
             "type": "text",
-            "text": "A Cenoura de Allthemodium dá 40 de fome e 320 de saturação. A cenoura tem os seguintes efeitos:$(li)Rápida de Comer$(li)Sempre Comestível$(li)Absorção X por 30 s$(li)Regeneração X por 30 s"
+            "text": "A Cenoura de Allthemodium fornece 40 de fome e 320 de saturação. A cenoura tem os seguintes efeitos:$(li)Rápida de comer$(li)Pode ser comida a qualquer momento$(li)Absorção X por 30 s$(li)Regeneração X por 30 s"
         }
     ]
 }

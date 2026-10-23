@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O Trocador Avançado é uma versão melhorada do $(l:justdirethings:mach_blockswappert1)Trocador Simples$(/l).$(br2)Suas principais melhorias incluem área de efeito e filtragem de entidades/blocos.$(br2)Quando vinculado a outro trocador, as configurações de \"Raio\" se replicam entre eles, ou seja, se você mudar o raio num bloco, ele será copiado para o parceiro."
+      "text": "O Trocador Avançado é uma versão aprimorada do $(l:justdirethings:mach_blockswappert1)Trocador Simples$(/l).$(br2)Suas principais melhorias incluem área de efeito e filtragem de entidades/blocos.$(br2)Quando vinculado a outro trocador, as configurações de 'Raio' se replicam entre eles — mudar o raio em um bloco copia para o parceiro."
     },
     {
       "type": "patchouli:text",
-      "text": "O trocador de blocos avançado pode teleportar casas inteiras, e seus conteúdos, de um lugar para outro. Ou pode ser usado para mandar todos os animais filhotes para outro local.$(br2)Filtrar usando o Capturador de Criaturas permite mais precisão. Capture uma ovelha azul (ou Axolote) e marque \"comparar NBT\" nas configurações de filtro. Isso garantirá que só ovelhas azuis sejam teleportadas. Se definir o modo \"bloquear\", todas as ovelhas exceto as azuis serão teleportadas."
+      "text": "O trocador avançado pode teleportar casas inteiras, com seu conteúdo, de um lugar para outro. Ou pode ser usado para enviar todos os filhotes para outra localização.$(br2)Filtrar com o Capturador de Criaturas permite mais precisão. Capture uma ovelha azul (ou um Axolote) e marque 'comparar NBT' nas configurações do filtro. Isso garante que apenas ovelhas azuis sejam teleportadas. No modo 'negar', todas as ovelhas exceto as azuis serão teleportadas."
     },
     {
       "type": "patchouli:crafting",

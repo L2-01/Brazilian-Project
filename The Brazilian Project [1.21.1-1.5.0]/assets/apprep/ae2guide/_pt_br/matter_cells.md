@@ -36,18 +36,18 @@ item_ids:
   <IsometricCamera yaw="195" pitch="30" />
 
   <BoxAnnotation color="#dddddd" min="0 0 0" max="1 1 0.3">
-    Para fazê-la aparecer, use um Tanque de Matéria cheio duas vezes.
+    Para fazê-lo aparecer, use um Tanque de Matéria cheio duas vezes.
   </BoxAnnotation>
 </GameScene>
 
 
-As especificações básicas são as mesmas das [Células de Armazenamento](ae2:items-blocks-machines/storage_cells.md), mas ela consome 1 byte a cada 256 de matéria.
+As especificações básicas são as mesmas das [Células de Armazenamento](ae2:items-blocks-machines/storage_cells.md), mas ela consome 1 byte por 256 de matéria.
 
 Como parte da integração com o MEGA Cells, Células de Armazenamento MEGA também estão disponíveis.
 
 ---
 
-## Observação
+## Nota
 
-Para trocar matéria com uma rede de Replicação, você precisa do <ItemLink id="replication_connector" />.
-Note que ele não é compatível com blocos de outros mods que exercem funções semelhantes.
+Para trocar matéria com uma rede do Replication, você precisa do <ItemLink id="replication_connector" />.
+Note que ele não é compatível com blocos de outros mods que executam funções semelhantes.

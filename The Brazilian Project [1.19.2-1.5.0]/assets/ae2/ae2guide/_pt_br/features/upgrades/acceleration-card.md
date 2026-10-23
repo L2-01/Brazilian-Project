@@ -10,12 +10,12 @@ navigation:
 Pode ser instalado no <ItemLink id="io_port"/>,
 
 <ItemLink id="import_bus" /> e <ItemLink id="export_bus" /> para aumentar a velocidade
-de transferência dos itens; isso também aumenta o consumo em repouso da máquina em 1
-AE/t por melhoria.
+dos itens transferidos; isso também aumenta o consumo ocioso da máquina em 1
+AE/t por aprimoramento.
 
-Você também pode inserir <ItemLink id="speed_card"/>
+Você também pode inserir o <ItemLink id="speed_card"/>
 no <ItemLink id="matter_cannon"/> para aumentar
-o número de projéteis disparados por uso; porém, isso faz o dispositivo consumir
-energia adicional para cada projétil.
+o número de projéteis disparados por uso, mas isso faz o dispositivo consumir
+energia adicional por projétil.
 
 <RecipeFor id="speed_card" />

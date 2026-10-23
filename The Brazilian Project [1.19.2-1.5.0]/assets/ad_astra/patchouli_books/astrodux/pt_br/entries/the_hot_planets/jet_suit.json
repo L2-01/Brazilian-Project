@@ -1,0 +1,28 @@
+{
+  "name": "Traje a Jato",
+  "icon": "ad_astra:jet_suit_helmet",
+  "sortnum": 0,
+  "category": "ad_astra:the_hot_planets",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Traje a Jato",
+      "item": "ad_astra:jet_suit_helmet",
+      "text": "O traje a jato é uma versão aprimorada do Traje Espacial de Netherita, com mais proteção, armazenamento extra de oxigênio e voo. É caro de fabricar, mas oferece voo de alta velocidade, tornando as viagens fáceis."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ele tem dois modos de voo: ascendente ($(k:jump)) e impulsionado ($(k:jump) + $(k:sprint)). O ascendente faz quem o veste voar para cima, enquanto o impulsionado é semelhante a um élitro constantemente propulsionado por fogos de artifício. O traje a jato funciona com energia e precisa ser carregado para voar. Pode ser carregado com um energizador, clicando com o botão direito nele segurando o traje a jato."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:recipes/jet_suit_helmet",
+      "recipe2": "ad_astra:recipes/jet_suit"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:recipes/jet_suit_pants",
+      "recipe2": "ad_astra:recipes/jet_suit_boots"
+    }
+  ]
+}

@@ -15,14 +15,14 @@ item_ids:
   <ImportStructure src="../structure/cable_precise_export_bus.snbt"></ImportStructure>
 </GameScene>
 
-O Ponto de Exportação ME Preciso exporta itens ou fluidos em quantidades especificadas. Ele só exporta quando o recipiente pode aceitar toda a saída.
+O Ponto de Exportação ME Preciso exporta itens ou fluidos em quantidades específicas. Ele só exporta se o recipiente puder aceitar a saída inteira por completo.
 
 ## Exemplo
 
 ![GUI](../pic/pre_bus_gui1.png)
 
-Este ajuste exporta 3 unidades de pedregulho por operação. Ele para de exportar quando a rede contém menos de 3 unidades.
+Isso exporta 3 pedregulhos por operação. Ele para de exportar quando a quantidade de pedregulho na rede é menor que 3.
 
 ![GUI](../pic/pre_bus_gui2.png)
 
-Ele também para de exportar quando o recipiente de destino não pode conter toda a saída. O baú só pode conter mais 2 unidades de pedregulho, então o ponto de exportação para.
+Ele também para de exportar quando o recipiente-alvo não comporta a saída inteira. O baú só comporta mais 2 pedregulhos, então o ponto de exportação para.

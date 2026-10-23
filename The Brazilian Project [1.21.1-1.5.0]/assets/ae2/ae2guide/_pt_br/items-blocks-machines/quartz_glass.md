@@ -18,7 +18,7 @@ item_ids:
 Vidro quase transparente feito com <ItemLink id="certus_quartz_dust" />.
 Usado para fazer muitas máquinas e itens do AE2.
 
-Há uma variante, o vidro vibrante de quartzo, que emite luz.
+Há uma variante, o vidro de quartzo vibrante, que emite luz.
 
 ## Receitas
 

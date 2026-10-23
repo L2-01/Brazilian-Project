@@ -21,7 +21,7 @@ item_ids:
 
 Facas de corte são usadas para fazer <ItemLink id="name_press" />s e <ItemLink id="cable_anchor" />s.
 
-Para fabricar uma prensa inscritora de nome, clique com o botão direito na faca de corte e insira uma barra de metal; você então terá que digitar o nome que
+Para fabricar uma prensa inscritora de nome, clique com o botão direito na faca de corte e insira um lingote de metal; você então terá que digitar o nome que
 deseja escrever na prensa, e então simplesmente retirar a prensa pronta.
 
 ## Receitas

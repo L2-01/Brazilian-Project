@@ -1,60 +1,44 @@
 {
-
-"name": "Escadas e Lajes de Telhado",
-    "icon": "minecraft:writable_book",
-    "category": "merrymaking:roofs",
-    "pages": [
-	
-	{
-			"type": "patchouli:image",
-			
-			"images": ["merrymaking:textures/gui/stairs.png"],
-			"text": "Escadas/Lajes de Telhado após a neve"
-		},
-	
-		{
-			"type": "spotlight",
-			"title": "Escadas e Lajes de Telhado",
-			"item": "merrymaking:roof_acacia_stairs",			
-			"text": "Escadas e Lajes de Telhado são blocos especiais que mudam para ficar cobertos de neve.$(br2)Vêm em todas as cores de madeira vanilla, além das variedades de Tijolos de Pedra, Tijolos de Pedra-Negra Polida e Tijolos de Ardosiabissal."
-		},
-		
-		
-		{
-			"type": "patchouli:text",			
-			"text": " $(br2)Para fabricar as Escadas e Lajes de Telhado, combine as escadas ou lajes vanilla com Ladrilhos de Telhado numa bancada de trabalho.$(br2) A receita dos Ladrilhos de Telhado é mostrada aqui:"
-		},
-		
-		{
-			"type": "crafting",
-			"recipe": "merrymaking:roof_tiles"
-		},
-		
-				
-		{
-			"type": "crafting",			
-			"recipe": "merrymaking:roof_jungle_stairs",
-			"recipe2": "merrymaking:roof_bamboo_slab"
-				
-		},
-		
-		{
-			"type": "patchouli:text",
-			"text": "Se estiver nevando, as lajes e escadas mudarão automaticamente para uma versão nevada com o tempo. $(br2)Se você estiver num lugar sem neve, não tema: você pode mudá-las manualmente atingindo-as com uma bola de neve."
-		},
-		
-		{
-			"type": "patchouli:image",
-			
-			"images": ["merrymaking:textures/gui/change.png"],
-			"text": "Escadas de Telhado transformadas por um ataque de bolas de neve"
-		}
-		
-		
-		
-		
-		
-		]
-	
-	
+  "name": "Escadas e Lajes de Telhado",
+  "icon": "minecraft:writable_book",
+  "category": "merrymaking:roofs",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/stairs.png"
+      ],
+      "text": "Escadas/Lajes de Telhado que foram nevadas"
+    },
+    {
+      "type": "spotlight",
+      "title": "Escadas e Lajes de Telhado",
+      "item": "merrymaking:roof_acacia_stairs",
+      "text": "Escadas e Lajes de Telhado são blocos especiais que mudam para ficar cobertos de neve.$(br2)Vêm em todas as cores de madeira vanilla, além das variedades de Tijolos de Pedra, Tijolos de Pedra-Negra Polida e Tijolos de Ardosiabissal."
+    },
+    {
+      "type": "patchouli:text",
+      "text": " $(br2)Para fabricar as Escadas e Lajes de Telhado, combine as escadas ou lajes vanilla com alguns Ladrilhos de Telhado numa bancada de trabalho.$(br2) A receita dos Ladrilhos de Telhado é mostrada aqui:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "merrymaking:roof_tiles"
+    },
+    {
+      "type": "crafting",
+      "recipe": "merrymaking:roof_jungle_stairs",
+      "recipe2": "merrymaking:roof_bamboo_slab"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se estiver nevando, as lajes e escadas mudarão automaticamente para a versão nevada com o tempo. $(br2)Se você estiver num lugar sem neve, não tema: pode mudá-las manualmente acertando-as com uma bola de neve."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "merrymaking:textures/gui/change.png"
+      ],
+      "text": "Escadas de Telhado transformadas por ataque de bolas de neve"
+    }
+  ]
 }

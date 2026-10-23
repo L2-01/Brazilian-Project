@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Este módulo tenta enviar FE (Forge Energy) do Roteador para um bloco adjacente que receba energia, na sua direção configurada. O módulo pode extrair energia do buffer interno de energia do roteador (se alguma $(l:upgrades/energy)Melhoria de Energia/$ estiver instalada) ou de um item contendo energia no buffer de itens do roteador. O buffer interno de energia é usado preferencialmente."
+      "text": "Este módulo tenta enviar FE (Forge Energy) do Roteador para um bloco receptor de energia adjacente, na sua direção configurada. O módulo pode extrair energia do buffer interno de energia do roteador (se alguma $(l:upgrades/energy)Melhoria de Energia/$ estiver instalada) ou de um item contendo energia no buffer de itens do roteador. O buffer interno de energia é usado preferencialmente."
     },
     {
       "type": "crafting",

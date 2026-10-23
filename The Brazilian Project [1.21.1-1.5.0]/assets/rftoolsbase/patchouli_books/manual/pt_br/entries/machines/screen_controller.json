@@ -8,7 +8,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Com o Controlador de Tela você pode energizar $(l:rftoolsbase:machines/screen)telas$(/l) próximas. Usando o botão 'Escanear' na interface você pode conectar todas as telas num raio de 32x32x32.$(br2)$(5)Infundir$() esta máquina aumenta esse alcance"
+      "text": "Com o Controlador de Tela você pode energizar $(l:rftoolsbase:machines/screen)telas$(/l) próximas. Usando o botão 'Escanear' na GUI você pode conectar a todas as telas num raio de 32x32x32.$(br2)$(5)Infundir$() esta máquina aumentará esse alcance"
     },
     {
       "type": "crafting",
@@ -18,7 +18,7 @@
     {
       "type": "text",
       "title": "Escaneando",
-      "text": "Coloque o controlador dentro do alcance, forneça FE e pressione Escanear. Escaneie novamente depois de adicionar, remover ou mover telas."
+      "text": "Coloque o controlador dentro do alcance, forneça FE e pressione Escanear. Reescaneie após adicionar, remover ou mover telas."
     },
     {
       "type": "text",

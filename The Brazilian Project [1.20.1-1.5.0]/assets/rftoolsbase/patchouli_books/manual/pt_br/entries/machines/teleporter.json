@@ -10,7 +10,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Transportadores Carregados são ferramentas portáteis de teletransporte que usam $(l:rftoolsbase:machines/matter_receiver)Receptores de Matéria$(/l) como destinos. Eles precisam ser carregados com FE antes do uso."
+      "text": "Transportadores Carregados são ferramentas de teletransporte portáteis que usam $(l:rftoolsbase:machines/matter_receiver)Receptores de Matéria$(/l) como destinos. Eles precisam ser carregados com FE antes do uso."
     },
     {
       "type": "crafting",
@@ -20,18 +20,18 @@
     },
     {
       "type": "text",
-      "title": "Alvos",
-      "text": "Clique com o botão direito com um transportador em um Receptor de Matéria para armazenar esse destino. O transportador básico armazena um alvo; o transportador avançado pode armazenar vários alvos e alternar entre eles."
+      "title": "Destinos",
+      "text": "Clique com o botão direito num Receptor de Matéria com o transportador para gravar aquele destino. O transportador básico grava um destino; o avançado pode gravar vários destinos e alternar entre eles."
     },
     {
       "type": "text",
       "title": "Uso",
-      "text": "Use o transportador carregado para iniciar o teletransporte. O receptor ainda precisa existir e estar utilizável. O transportador avançado é melhor para jogadores que viajam entre várias bases."
+      "text": "Use o transportador carregado para iniciar o teletransporte. O receptor precisa ainda existir e estar utilizável. O transportador avançado é melhor para jogadores que viajam entre várias bases."
     },
     {
       "type": "text",
       "title": "Sonda de Teletransporte",
-      "text": "A Sonda de Teletransporte ajuda a inspecionar informações do receptor e alvos do transportador, o que é útil ao depurar uma rede de teletransporte maior."
+      "text": "A Sonda de Teletransporte ajuda a inspecionar informações de receptores e destinos de transportadores, útil ao depurar uma rede de teletransporte maior."
     }
   ]
 }

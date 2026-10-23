@@ -112,7 +112,7 @@ não passará canais por um lado.
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/assemblies/pattern_provider_network_connection_2.snbt" />
 
-  <BoxAnnotation color="#915dcd" min="0 0 0" max="1.98 2 2">
+  <BoxAnnotation color="#915dcd" min="0 0 0" max="2 2 2">
         Rede 1
   </BoxAnnotation>
 
@@ -134,7 +134,7 @@ não passará canais por um lado.
 </GameScene>
 </Row>
 
-Outras partes que não fornecem conexões de rede direcionais são a maioria dos [dispositivos](../ae2-mechanics/devices.md) de
+Outras partes que não fornecem conexões de rede direcionais são a maioria das [subpartes](../ae2-mechanics/cable-subparts.md),
 [dispositivos](../ae2-mechanics/devices.md) como <ItemLink id="import_bus" />s, <ItemLink id="storage_bus" />s e
 <ItemLink id="cable_interface" />s.
 

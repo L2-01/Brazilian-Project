@@ -2,16 +2,16 @@
     "name": "Divisão",
     "icon": "minecraft:enchanted_book",
     "category": "apotheosis:enchanting/anvil",
-	"flag": "apotheosis:enchanting",
-	"sortnum": -1,
+    "flag": "apotheosis:enchanting",
+    "sortnum": -1,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(9)Divisão$() é um encantamento novo exclusivo de bigorna.$(p)Uma bigorna de divisão é capaz de \"dividir\" livros encantados com múltiplos encantamentos em uma série de livros individuais."
+            "text": "$(9)Divisão$() é um encantamento inédito exclusivo de bigornas.$(p)Uma bigorna de divisão é capaz de \"dividir\" livros encantados com vários encantamentos em uma série de livros individuais."
         },
-		{
-			"type": "patchouli:text",
-			"text": "Para usar uma bigorna de divisão, jogue um livro encantado no mundo e coloque a bigorna de modo que ela caia em cima do livro.$(p)Um livro com Afiação III e Saque II que é dividido viraria dois livros, um com Afiação III e outro com Saque II."
-		}
-	]
+        {
+            "type": "patchouli:text",
+            "text": "Para usar uma bigorna de divisão, jogue um livro encantado no mundo e posicione a bigorna de modo que ela caia sobre o livro.$(p)Um livro com Afiada III e Saque II dividido se tornaria dois livros, um com Afiada III e outro com Saque II."
+        }
+    ]
 }

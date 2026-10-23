@@ -15,15 +15,15 @@ item_ids:
   <ImportStructure src="../structure/cable_tag_storage_bus.snbt"></ImportStructure>
 </GameScene>
 
-O Ponto de Armazenamento ME por Marcador é um <ItemLink id="ae2:storage_bus" /> que pode ser filtrado por tags de item ou fluido e suporta operadores lógicos básicos.
+O Ponto de Armazenamento ME por Marcador é um <ItemLink id="ae2:storage_bus" /> que pode ser filtrado por marcadores de item ou fluido e suporta alguns operadores lógicos básicos.
 
-Aqui estão alguns exemplos:
+Aqui vão alguns exemplos:
 
 - Aceitar apenas minério bruto
 
 `c:raw_materials/*`
 
-- Aceitar todas as barras e gemas
+- Aceitar todos os lingotes e gemas
 
 `c:ingots/* | c:gems/*`
 

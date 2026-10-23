@@ -14,10 +14,10 @@ item_ids:
 
 ## Sobre
 
-Mói muitos materiais diferentes em produtos mais valiosos ou produtos intermediários para processamento adicional.
+Tritura muitos materiais diferentes em produtos mais valiosos ou produtos intermediários para processamento adicional.
 
-## Especificação de Receita
+## Especificação da Receita
 
-- Tempo base de fabricação: varia, por padrão 10 segundos
+- Tempo base de fabricação: varia, 10 segundos por padrão
 - Entradas: 1 item
 - Saídas: 0-3 itens, 0-1 fluidos

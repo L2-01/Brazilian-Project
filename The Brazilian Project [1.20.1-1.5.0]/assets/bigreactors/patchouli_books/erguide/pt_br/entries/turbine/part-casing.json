@@ -9,19 +9,19 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:reinforced_turbinecasing",
             "link_recipe": true,
-            "title" : "Carcaça",
-            "text": "Os blocos de Carcaça são os blocos de construção da Turbina.$(br2)São necessários para construir sua moldura, sustentar o $(l:bigreactors/rotor)Rotor$(/l) e também são usados para fabricar as outras peças. Blocos de Carcaça podem preencher as faces da Turbina, se você preferir não usar vidro.$(br2)Você vai fabricar muitos deles."
+            "title": "Carcaça",
+            "text": "Os blocos de Carcaça são os blocos de construção da Turbina.$(br2)Eles são necessários para montar sua estrutura, sustentar o $(l:bigreactors/rotor)Rotor$(/l) e também são usados para fabricar as outras peças. Os blocos de Carcaça podem preencher as faces da Turbina, se você preferir não usar vidro.$(br2)Você vai fabricar muitos deles."
         },
         {
             "type": "bigreactors:crafting1x",
-            "title1": "Basic",
+            "title1": "Básico",
             "recipe1": "bigreactors:turbine/basic/casing",
-            "title2": "Reinforced",
+            "title2": "Reforçado",
             "recipe2": "bigreactors:turbine/reinforced/casing"
         },
         {
             "type": "bigreactors:part_usage",
-            "text": "$(l)Obrigatório:$() são necessários para construir a moldura e o $(l:bigreactors:turbine/rotor)Rotor$(/l)$(br)$(l)Posições válidas:$() qualquer$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não"
+            "text": "$(l)Obrigatória:$() são exigidas para construir a moldura e o $(l:bigreactors:turbine/rotor)Rotor$(/l)$(br)$(l)Posições válidas:$() qualquer uma$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() não"
         }
     ]
 }

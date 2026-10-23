@@ -274,7 +274,7 @@
     "waystones.configuration.worldGen": "Geração de Mundo",
     "waystones.configuration.worldGen.wildWaystoneStyle": "Estilo de Obeliscos Selvagens",
     "waystones.configuration.worldGen.wildWaystoneStyle.tooltip": "Defina como 'DEFAULT' para gerar apenas obeliscos com textura normal. Defina como 'MOSSY' ou 'SANDY' para gerar todos como musgoso ou arenoso, respectivamente. Defina como 'BIOME' para fazer o estilo depender do bioma onde é gerado.",
-    "waystones.configuration.worldGen.chunksBetweenWildWaystones": "Chunks Entre Obeliscos Selvagens",
+    "waystones.configuration.worldGen.chunksBetweenWildWaystones": "Chunks entre Obeliscos Selvagens",
     "waystones.configuration.worldGen.chunksBetweenWildWaystones.tooltip": "Distância aproximada em chunks entre obeliscos selvagens gerados. Defina como 0 para desativar a geração.",
     "waystones.configuration.worldGen.wildWaystonesDimensionAllowList": "Lista de Dimensões Permitidas",
     "waystones.configuration.worldGen.wildWaystonesDimensionAllowList.tooltip": "Lista de dimensões em que obeliscos selvagens podem aparecer. Se ficar vazia, eles poderão aparecer em todas as dimensões, exceto nas incluídas em wildWaystonesDimensionDenyList, desde que os biomas tenham a marcação `has_structure/waystone`.",

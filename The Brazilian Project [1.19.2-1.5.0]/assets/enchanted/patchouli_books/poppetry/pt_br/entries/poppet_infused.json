@@ -1,0 +1,17 @@
+{
+  "name": "Bonecos Infundidos",
+  "icon": "enchanted:poppet_infused",
+  "category": "enchanted:creating_poppets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O boneco infundido é uma versão aprimorada de um boneco que fortalece os efeitos do boneco. Eles podem ser usados no lugar de um boneco normal numa roda de fiar.$(br2)Bonecos infundidos não têm chance de falha."
+    },
+    {
+      "type": "enchanted:spinning_wheel_recipe",
+      "recipe": "enchanted:spinning/poppet_infused"
+    }
+  ],
+  "read_by_default": false,
+  "priority": false
+}

@@ -7,15 +7,15 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "O Rotor é o componente mais importante da sua Turbina, pois seu design terá impacto direto na $(l:bigreactors:turbine/innerworking)produção de energia$(/l) da Turbina.$(br2)Um Rotor é construído usando quatro tipos de blocos:$(li)um único $(l:bigreactors:turbine/part-rotorbearing)Rolamento do Rotor$(/l)$(li)alguns blocos de $(l:bigreactors:turbine/part-rotorshaft)Eixo do Rotor$(/l)$(li)uma quantidade de $(l:bigreactors:turbine/part-rotorblade)Lâminas do Rotor$(/l)$(li)um único bloco de $(l:bigreactors:turbine/part-casing)Carcaça$(/l)."
+            "text": "O Rotor é o componente mais importante da sua Turbina, pois seu design impacta diretamente a $(l:bigreactors:turbine/innerworking)produção de energia$(/l) da Turbina.$(br2)Um Rotor é construído com quatro tipos de blocos:$(li)um único $(l:bigreactors:turbine/part-rotorbearing)Rolamento do Rotor$(/l)$(li)alguns blocos de $(l:bigreactors:turbine/part-rotorshaft)Eixo do Rotor$(/l)$(li)várias $(l:bigreactors:turbine/part-rotorblade)Lâminas do Rotor$(/l)$(li)um único bloco de $(l:bigreactors:turbine/part-casing)Carcaça$(/l)."
         },
         {
             "type": "bigreactors:zcmultiblock",
-            "multiblock_id" : "bigreactors:bookturbinerotor"
+            "multiblock_id": "bigreactors:bookturbinerotor"
         },
         {
             "type": "patchouli:text",
-            "text": "$(bold)Construindo o Rotor$()$(br2)O Rotor pode ser construído seguindo qualquer um dos três eixos (X, Y ou Z) da Turbina.$(br2)O primeiro bloco do seu Rotor deve ser um $(l:bigreactors:turbine/part-rotorbearing)Rolamento do Rotor$(/l) colocado numa das faces da Turbina, geralmente no meio.$(br2)A partir do rolamento, coloque quantos blocos de $(l:bigreactors:turbine/part-rotorshaft)Eixo do Rotor$(/l) forem necessários para alcançar a face oposta da Turbina, onde ele deve encontrar um bloco de $(l:bigreactors:turbine/part-casing)Carcaça$(/l)."
+            "text": "$(bold)Construindo o Rotor$()$(br2)O Rotor pode ser construído seguindo qualquer um dos três eixos (X, Y ou Z) da Turbina.$(br2)O primeiro bloco do seu Rotor deve ser um $(l:bigreactors:turbine/part-rotorbearing)Rolamento do Rotor$(/l) colocado numa das faces da Turbina, geralmente no meio.$(br2)A partir do rolamento, coloque quantos blocos de $(l:bigreactors:turbine/part-rotorshaft)Eixo do Rotor$(/l) forem necessários até alcançar a face oposta da Turbina, onde deve encontrar uma $(l:bigreactors:turbine/part-casing)Carcaça$(/l)."
         },
         {
             "type": "patchouli:text",
@@ -23,19 +23,19 @@
         },
         {
             "type": "patchouli:text",
-            "text": "$(bold)Quantas Lâminas?$()$(br2)Cada variante de Lâmina vem com uma capacidade máxima de vapor — a quantidade máxima de vapor que ela pode capturar e $(italic)usar$() para girar o Rotor.$(br2)Passe o mouse sobre uma Lâmina no seu inventário para ver sua capacidade.$(br2)Use esse valor para calcular quantas Lâminas você precisa para lidar com a taxa de fluxo de vapor definida para a sua Turbina (na interface gráfica do Controlador)."
+            "text": "$(bold)Quantas Lâminas?$()$(br2)Cada variante de Lâmina tem uma capacidade máxima de vapor, a quantidade máxima de vapor que elas podem capturar e $(italic)usar$() para girar o Rotor.$(br2)Passe o mouse sobre uma Lâmina no seu inventário para ver sua capacidade.$(br2)Use esse valor para calcular quantas Lâminas você precisa para lidar com a taxa de fluxo de vapor definida para a sua Turbina (na interface gráfica do Controlador)."
         },
         {
             "type": "patchouli:text",
-            "text": "$(bold)Bobinas Indutoras$()$(br2)Para gerar energia de fato, você precisa colocar pelo menos algumas $(l:bigreactors:turbine/coils)Bobinas Indutoras$(/l) no final do seu Rotor (perto do bloco de $(l:bigreactors:turbine/part-casing)Carcaça$(/l) de fechamento).$(br2)$(italic)E lembre-se de engatá-las na interface gráfica do $(l:bigreactors:turbine/part-controller)Controlador$(/l)!$()$(br2)Você pode colocar até três anéis de bobinas, cada anel consistindo de até oito blocos de bobina."
+            "text": "$(bold)Bobinas Indutoras$()$(br2)Para realmente gerar energia, você precisa colocar pelo menos algumas $(l:bigreactors:turbine/coils)Bobinas Indutoras$(/l) no final do seu Rotor (perto do bloco de $(l:bigreactors:turbine/part-casing)Carcaça$(/l) de fechamento).$(br2)$(italic)E lembre-se de ativá-las na interface gráfica do $(l:bigreactors:turbine/part-controller)Controlador$(/l)!$()$(br2)Você pode colocar até três anéis de bobinas, cada anel consistindo em até oito blocos de bobina."
         },
         {
             "type": "patchouli:text",
-            "text": "Misturar tipos de bobina é permitido e, se você fizer isso, a Turbina calculará a média dos valores das propriedades delas.$(br2)Isso permite começar com bobinas facilmente disponíveis, ou baratas, e depois substituí-las gradualmente em vez de esperar ter as bobinas mais raras ou caras em mãos.$(br2)Na página seguinte você pode ver o Rotor de exemplo mostrado antes com algumas $(l:bigreactors:turbine/coils)Bobinas Indutoras$(/l) adicionadas."
+            "text": "Misturar tipos de bobinas é permitido e, se você o fizer, a Turbina fará a média dos valores de suas propriedades.$(br2)Isso permite começar com bobinas facilmente disponíveis, ou baratas, e depois substituí-las gradualmente em vez de esperar ter as bobinas mais raras ou caras em mãos.$(br2)Na página seguinte você pode ver o Rotor de exemplo mostrado anteriormente com algumas $(l:bigreactors:turbine/coils)Bobinas Indutoras$(/l) adicionadas."
         },
         {
             "type": "bigreactors:zcmultiblock",
-            "multiblock_id" : "bigreactors:bookturbinerotor_coil"
+            "multiblock_id": "bigreactors:bookturbinerotor_coil"
         }
     ]
 }

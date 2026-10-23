@@ -1,0 +1,62 @@
+---
+title: Configuração da Visualização do Mod no Jogo
+---
+
+Esta página é voltada a desenvolvedores que querem que sua wiki seja acessível pelo mod Oracle Index.
+
+## Configuração do Projeto
+1. Crie seu diretório de wiki / layout de conteúdo normalmente, seguindo as instruções do moddedmc.wiki
+2. Certifique-se de ter arquivos _meta.json com entradas para **todo** o seu conteúdo. O Oracle Index usa os arquivos meta.json para montar a
+barra de navegação.
+3. Copie a wiki inteira para a pasta de recursos do seu mod. Isso pode ser automatizado, veja [sincronização automática com Gradle](../developer/gradle_task). O caminho correto é: "resources/assets/oracle_index/books/your-mod-id/".
+4. O Oracle Index carregará automaticamente os recursos do seu mod.
+
+A árvore de diretórios resultante deve ficar assim:
+
+<center>
+<ModAsset location="oracle-index:folder_layout" width={600} />
+</center>
+
+Não há hot-reloading. Use a pré-visualização ao vivo do moddedmc.wiki para criar o conteúdo da sua wiki. No entanto, um reload de recursos atualiza o conteúdo no jogo.
+
+Os recursos da wiki do jogo podem ser adicionados por resource packs (que também podem estar contidos dentro de mods). Dê uma olhada no repositório do oritech para ver um exemplo
+de como configurar tudo. Um exemplo de resource pack está no github, no repositório do Oracle Index:
+https://github.com/Rearth/Oracle-Index/tree/26.1.2/example_resource_pack
+
+### Compatibilidade com Markdown
+
+O Oracle Index suporta os recursos de Markdown e MDX comumente necessários nas wikis do ModdedMC, incluindo tabelas, alertas, imagens, abas de código, callouts, receitas, áudio e links de vídeo. Veja a [referência de Markdown e MDX](./markdown) para a sintaxe e as limitações exatas.
+
+Este é um renderizador dedicado dentro do jogo, não um navegador web. HTML, JSX, JavaScript, CSS e componentes React personalizados arbitrários não são avaliados. Blocos HTML não suportados são ignorados. Um `<img>` simples é suportado, enquanto tags de wrapper como `<center>`, `<div>` e `<span>` são descartadas quando usadas em suas formas simples.
+
+Em wikis de schema 1, arquivos de imagem e áudio ficam em `assets/<namespace>/` dentro do diretório da wiki. Wikis de formato legado usam `.assets/<namespace>/`. O antigo diretório `.assets/item/<namespace>/` é desnecessário porque um ID de registro de item é renderizado usando seu modelo do jogo.
+
+Páginas de conteúdo com um `id` válido também recebem um painel de propriedades no jogo. Tamanho de pilha, durabilidade, informações de mineração, nível de luz e valores similares vêm dos registros ativos do jogo.
+
+### Links de Itens
+Um recurso extra adicionado pelo Oracle Index é a capacidade de vincular itens relevantes a uma página da wiki. Para isso, um novo parâmetro é adicionado ao frontmatter do mdx: "related_items", que contém um array
+de IDs de itens do jogo. Pode ter o seguinte formato:
+```
+---
+title: Generators
+icon: oritech:basic_generator_block
+related_items: [oritech:basic_generator_block, oritech:bio_generator_block, oritech:lava_generator_block, oritech:fuel_generator_block, oritech:big_solar_panel_block]
+---
+Here would be your content.
+```
+
+Esses links são gerados automaticamente para as entradas de conteúdo da wiki.
+
+### Livro Personalizado / Abrindo as Telas
+O Oracle Index não vem com um livro-guia por padrão. No entanto, no seu mod, você pode facilmente adicionar um novo item de livro e abrir a tela desejada quando o livro for usado.
+Você também pode abrir o livro por outros mecanismos, como um botão em outra tela.
+
+Chame o seguinte código no lado do cliente:
+```java
+// Oritech is the wiki name here.
+// Entry resources always use the oracle_index namespace.
+Identifier entry = Identifier.fromNamespaceAndPath(
+    "oracle_index", "books/oritech/docs/intro.mdx"
+);
+OracleClient.openScreen("oritech", entry, Minecraft.getInstance().screen);
+```

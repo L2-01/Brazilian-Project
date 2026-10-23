@@ -8,17 +8,17 @@ navigation:
 
 # Infraestrutura
 
-Esta seção cobre os blocos que integram as máquinas UFO a uma fábrica de AE2:
-níveis de campo, despacho de padrões, escotilhas direcionais, CPUs de
-fabricação grandes e reservas de energia.
+Esta seção cobre os blocos que tornam as máquinas UFO parte de uma fábrica AE2:
+tiers de campo, despacho de padrões, escotilhas direcionais, grandes CPUs de fabricação e
+buffers de energia.
 
 <SubPages />
 
-## Lista de Verificação de Fábrica Confiável
+## Checklist de Fábrica Confiável
 
 1. Conecte cada escotilha direcional na face indicada pela orientação do bloco.
-2. Mantenha o controlador e as escotilhas na mesma rede energizada.
-3. Forneça armazenamento de fabricação suficiente para o pedido completo.
-4. Deixe espaço de armazenamento para as saídas prometidas e os subprodutos probabilísticos.
-5. Melhore todas as posições de campo exigidas; um único campo inferior pode
-   reduzir o nível de toda a máquina universal.
+2. Mantenha o controlador e as escotilhas na mesma grade energizada.
+3. Forneça armazenamento de fabricação grande o bastante para a requisição completa.
+4. Deixe espaço de armazenamento para saídas prometidas e subprodutos probabilísticos.
+5. Melhore toda posição de campo exigida; um campo mais baixo pode reduzir o tier de
+   toda a máquina universal.

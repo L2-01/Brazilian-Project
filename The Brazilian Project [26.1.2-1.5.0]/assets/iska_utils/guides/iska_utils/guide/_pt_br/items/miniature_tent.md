@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:miniature_tent
 categories:
-  - Artefatos
+  - Artifacts
 ---
 # Barraca Miniatura
 
@@ -15,9 +15,9 @@ categories:
 
 ## O que faz
 
-Curio arcano do tipo **amuleto**. Enquanto equipada, aumenta a chance de ativação de outros artefatos do **Iskandert's Utilities** (multiplicador mostrado na dica do item).
+Curio arcano de **amuleto**. Enquanto equipada, aumenta a chance de ativação de outros artefatos do **Iskandert's Utilities** (multiplicador mostrado no tooltip do item).
 
-## Obtendo
+## Obtenção
 
 Frequentemente encontrada dentro de pacotes de <ItemImage id="iska_utils:suspicious_delivery" /> **Entrega Suspeita**.
 

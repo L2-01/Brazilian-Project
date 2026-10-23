@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "text",
-      "text": "A $(thing)Massa Fermentada/$ pode ser fabricada com $(l:renewables/yeast_culture)Cultura de Levedura/$ e $(thing)Farinha de Trigo/$. Ela pode ser assada em $(item)Pão de Massa Fermentada/$, que é superior em qualidade nutricional (e sabor!) ao entediante $(item)Pão/$ vanilla, ou usada para fazer $(item)Tempurá de Salmão/$."
+      "text": "$(thing)Massa Fermentada/$ pode ser fabricada com $(l:renewables/yeast_culture)Cultura de Levedura/$ e $(thing)Farinha de Trigo/$. Pode ser assada em $(item)Pão de Massa Fermentada/$, superior em qualidade nutricional (e sabor!) ao velho e sem graça $(item)Pão/$ do jogo padrão, ou usada para fazer $(item)Tempurá de Salmão/$."
     },
     {
       "type": "crafting",
       "recipe": "pneumaticcraft:sourdough",
-      "text": "$(italic)Você precisa sovar isto/$"
+      "text": "$(italic)Você precisa sovar isso/$"
     },
     {
       "type": "pneumaticcraft:pressure_chamber",

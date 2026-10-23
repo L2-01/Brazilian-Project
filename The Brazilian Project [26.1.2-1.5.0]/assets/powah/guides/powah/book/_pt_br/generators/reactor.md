@@ -18,11 +18,11 @@ item_ids:
 
 ![](./reactor.png)
 
-O Reator é um gerador multibloco (FE) que usa uraninita como combustível principal. 
+O Reator é um gerador multibloco de FE que usa Uraninita como combustível principal. 
 
-Para construí-lo, você precisará de 36 blocos de reator em sua mão e colocá-los em uma área substituível de 3X4, então o Reator completará a construção automaticamente. 
+Para construí-lo você precisará de 36 blocos de Reator na mão e colocá-los numa área substituível de 3X4; depois, o reator terminará de se construir automaticamente. 
 
-|                                          | Capacidade                                           | Fator de Geração                                       | Extração Máxima                                   |
+|                                          | Capacidade                                             | Fator de Geração                                      | Extração Máx.                                       |
 | ---------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------- |
 | <ItemLink id="powah:reactor_starter" />  | <powah:EnergyCapacity id="powah:reactor_starter" />  | <powah:EnergyGeneration id="powah:reactor_starter" />  | <powah:EnergyMaxIO id="powah:reactor_starter" />  |
 | <ItemLink id="powah:reactor_basic" />    | <powah:EnergyCapacity id="powah:reactor_basic" />    | <powah:EnergyGeneration id="powah:reactor_basic" />    | <powah:EnergyMaxIO id="powah:reactor_basic" />    |

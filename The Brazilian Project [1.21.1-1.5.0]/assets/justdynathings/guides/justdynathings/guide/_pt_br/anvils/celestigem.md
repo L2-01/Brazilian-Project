@@ -10,7 +10,7 @@ item_ids:
 
 # Bigorna de Celestigema
 
-Uma bigorna que repara itens usando Forge Energy (FE)
+Uma bigorna que repara itens usando Forge Energy (FE).
 
 <BlockImage id="justdynathings:celestigem_anvil" scale="4.0"/>
 

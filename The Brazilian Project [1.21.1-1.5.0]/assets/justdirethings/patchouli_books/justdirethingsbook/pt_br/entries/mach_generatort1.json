@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O Gerador a Carvão Simples é uma máquina básica para gerar energia. Embora você possa usar combustíveis simples, como qualquer combustível de fornalha, ele também pode usar vários níveis de carvão especializado para gerar Forge Energy (FE). Níveis maiores de carvão, como $(l:justdirethings:res_coal_t1)Carvão Primordial$(/l), $(l:justdirethings:res_coal_t2)Brasa de Blaze$(/l), $(l:justdirethings:res_coal_t3)Carvão de Voidflama$(/l) e $(l:justdirethings:res_coal_t4)Brasa de Eclipse$(/l), aumentam tanto o FE por tique (FE/T) quanto o FE total gerado."
+      "text": "O Gerador a Carvão Simples é uma máquina básica para gerar energia. Embora você possa usar combustíveis simples, como qualquer combustível de fornalha, ele também aceita vários níveis de carvão especializado para gerar Forge Energy (FE). Níveis superiores de carvão, como $(l:justdirethings:res_coal_t1)Carvão Primordial$(/l), $(l:justdirethings:res_coal_t2)Brasa de Blaze$(/l), $(l:justdirethings:res_coal_t3)Carvão de Voidflama$(/l) e $(l:justdirethings:res_coal_t4)Brasa de Eclipse$(/l), aumentam tanto o FE por tick (FE/T) quanto o FE total gerado."
     },
     {
       "type": "patchouli:text",
-      "text": "Cada melhoria de nível de carvão resulta numa produção de energia mais eficiente, permitindo operações mais longas e mais saída de energia com a mesma quantidade de carvão."
+      "text": "Cada nível superior de carvão resulta em uma produção de energia mais eficiente, permitindo operações mais longas e mais potência a partir da mesma quantidade de carvão."
     },
     {
       "type": "patchouli:crafting",

@@ -14,10 +14,10 @@ item_ids:
 
 ## Sobre
 
-Um sistema completo para reações químicas reguladas automáticas. Um item essencial de qualquer laboratório de ciências ou
-planta de processamento industrial.
+Um sistema tudo-em-um para reações automáticas e reguladas de produtos químicos. Peça essencial de qualquer laboratório
+de ciência ou planta de processamento industrial.
 
-## Especificação de Receita
-- Tempo base de fabricação: varia, por padrão 10 segundos
+## Especificação da Receita
+- Tempo base de fabricação: varia, 10 segundos por padrão
 - Entradas: 0-3 itens, 0-3 fluidos
 - Saídas: 0-3 itens, 0-3 fluidos

@@ -12,32 +12,32 @@ item_ids:
   - iska_utils:entropic_hoe
   - iska_utils:entropic_paxel
 categories:
-  - Materiais de Entropia
-  - Equipamento entrópico
+  - Entropy materials
+  - Entropic gear
 ---
 # Ferramentas entrópicas
 
-Melhorias de netherita **indestrutíveis** com poderes extras. Melhore numa bancada de ferraria com <ItemImage id="iska_utils:entropic_smithing_template" /> **Molde de Ferraria Entrópico** e <ItemImage id="iska_utils:entropy_crystal" /> **Cristal de Entropia**.
+Melhorias de netherita **indestrutíveis** com poderes extras. Melhore numa mesa de ferraria com <ItemImage id="iska_utils:entropic_smithing_template" /> **Molde de Ferraria Entrópico** e <ItemImage id="iska_utils:entropy_crystal" /> **Cristal de Entropia**.
 
 ## Espada
 
 <ItemImage id="iska_utils:entropic_sword" />
 
-Chance ao atingir de **ignorar parcialmente** a **armadura e a resistência** do alvo (valores na dica do item).
+Chance ao acertar de **ignorar parcialmente** a **armadura e a resistência** do alvo (valores no tooltip do item).
 
 ## Machado
 
 <ItemImage id="iska_utils:entropic_axe" />
 
 - Mesma **penetração de armadura** da espada.
-- **Clique direito** com um tronco na **mão secundária** para desbastá-lo.
-- **Agachar + clique direito** para desbastar toda pilha do **mesmo tipo de tronco** da sua mão secundária (mão secundária + inventário apenas).
+- **Clique direito** com um tronco na **mão secundária** para descascá-lo.
+- **Agachar + clique direito** para descascar todas as pilhas do **mesmo tipo de tronco** da sua mão secundária (mão secundária + inventário apenas).
 
 ## Picareta
 
 <ItemImage id="iska_utils:entropic_pickaxe" />
 
-Ao minerar, os itens largados por blocos sempre usam **+1 nível de Fortuna** além de qualquer encantamento de Fortuna na ferramenta. **Toque Suave** na ferramenta desativa esse bônus para que a mineração com toque funcione normalmente.
+Ao minerar, os drops de blocos sempre usam **+1 nível de Fortuna** sobre qualquer encantamento de Fortuna da ferramenta. **Toque Suave** na ferramenta desativa esse bônus, então a mineração com toque suave continua funcionando normalmente.
 
 ## Pá
 
@@ -49,15 +49,15 @@ Ao minerar, os itens largados por blocos sempre usam **+1 nível de Fortuna** al
 
 <ItemImage id="iska_utils:entropic_hoe" />
 
-**Clique direito** numa **plantação madura** para largar uma semente e reiniciar o crescimento para idade 0 (pode exigir plantações totalmente crescidas).
+**Clique direito** numa **plantação madura** para derrubar uma semente e zerar o crescimento (pode exigir plantações totalmente crescidas).
 
 ## Paxel
 
 <ItemImage id="iska_utils:entropic_paxel" />
 
-Combina os poderes da <ItemImage id="iska_utils:entropic_pickaxe" /> picareta, do <ItemImage id="iska_utils:entropic_axe" /> machado e da <ItemImage id="iska_utils:entropic_shovel" /> pá (não da enxada), mais **penetração de armadura** ao atingir.
+Combina os poderes de <ItemImage id="iska_utils:entropic_pickaxe" /> picareta, <ItemImage id="iska_utils:entropic_axe" /> machado e <ItemImage id="iska_utils:entropic_shovel" /> pá (não da enxada), mais **penetração de armadura** ao acertar.
 
 ## Dicas
 
-- As dicas listam as chances de ativação atuais.
-- O paxel é a melhor ferramenta entrópica de "um espaço só" para exploração e combate.
+- Os tooltips listam as chances de ativação atuais.
+- O paxel é a melhor ferramenta entrópica "de um slot só" para exploração e combate.

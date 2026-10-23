@@ -1,36 +1,36 @@
 {
-	"name": "Provedor de Empacotamento ME",
-	"category": "packagedauto:core",
-	"icon": "packagedauto:packaging_provider",
-	"pages": [
-		{
-			"type": "patchouli:text",
-			"text": "O $(item)Provedor de Empacotamento ME/$ combina a função do $(l:core/packager)Empacotador/$ e do $(l:core/unpackager)Desempacotador/$.$(p)Esta máquina deve estar conectada a uma $(thing)Rede ME/$, exigindo um canal."
-		},
-		{
-			"type": "patchouli:spotlight",
-			"item": "packagedauto:packaging_provider",
-			"link_recipe": true,
-			"title": "Uso",
-			"text": "Para usar o $(item)Provedor de Empacotamento ME/$, coloque um $(l:core/recipe_holder)Suporte de Receita de Pacotes/$ codificado dentro. A máquina então vai fornecer receitas Diretas, de Empacotamento e/ou Desempacotamento dependendo dos ajustes."
-		},
-		{
-			"type": "patchouli:text",
-			"title": "Ajustes",
-			"text": "$(thing)Direta/$: Fornece receitas de pacote como uma grande receita de processamento, pulando as etapas de empacotamento e desempacotamento.$(p)$(thing)Empacotamento/$: Fornece receitas de empacotamento como um $(l:core/packager)Empacotador/$.$(p)$(thing)Desempacotamento/$: Fornece receitas de desempacotamento como um $(l:core/unpackager)Desempacotador/$."
-		},
-		{
-			"type": "patchouli:text",
-			"title": "Clonagem de Ajustes",
-			"text": "Usando o $(l:core/settings_cloner)Clonador de Ajustes de Empacotamento/$, você pode copiar e colar os ajustes de provimento e as receitas atualmente disponíveis.$(p)Para colar receitas, o $(item)Provedor de Empacotamento ME/$ de destino não deve ter receitas, e você deve ter um $(l:core/recipe_holder)Suporte de Receita de Pacotes/$ no inventário."
-		},
-		{
-			"type": "patchouli:crafting",
-			"recipe": "packagedauto:packaging_provider",
-			"title": "Fabricação"
-		}
-	],
-	"flag": "mod:ae2",
-	"read_by_default": true,
-	"sortnum": 10
+    "name": "Provedor de Empacotamento ME",
+    "category": "packagedauto:core",
+    "icon": "packagedauto:packaging_provider",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(item)Provedor de Empacotamento ME/$ combina a função do $(l:core/packager)Empacotador/$ e do $(l:core/unpackager)Desempacotador/$.$(p)Esta máquina precisa estar conectada a uma $(thing)Rede ME/$, exigindo um canal."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "packagedauto:packaging_provider",
+            "link_recipe": true,
+            "title": "Uso",
+            "text": "Para usar o $(item)Provedor de Empacotamento ME/$, coloque um $(l:core/recipe_holder)Suporte de Receita de Pacotes/$ codificado dentro. A máquina então fornecerá receitas Diretas, de Empacotamento e/ou de Desempacotamento, dependendo dos ajustes."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Ajustes",
+            "text": "$(thing)Direto/$: Fornece receitas de pacotes como uma grande receita de processamento, pulando as etapas de empacotamento e desempacotamento.$(p)$(thing)Empacotamento/$: Fornece receitas de empacotamento como um $(l:core/packager)Empacotador/$.$(p)$(thing)Desempacotamento/$: Fornece receitas de desempacotamento como um $(l:core/unpackager)Desempacotador/$."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Clonagem de Ajustes",
+            "text": "Usando o $(l:core/settings_cloner)Clonador de Ajustes de Empacotamento/$, você pode copiar e colar os ajustes de provisão e as receitas atualmente disponíveis.$(p)Para colar receitas, o $(item)Provedor de Empacotamento ME/$ alvo não deve ter receitas e você precisa ter um $(l:core/recipe_holder)Suporte de Receita de Pacotes/$ no seu inventário."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "packagedauto:packaging_provider",
+            "title": "Fabricação"
+        }
+    ],
+    "flag": "mod:ae2",
+    "read_by_default": true,
+    "sortnum": 10
 }

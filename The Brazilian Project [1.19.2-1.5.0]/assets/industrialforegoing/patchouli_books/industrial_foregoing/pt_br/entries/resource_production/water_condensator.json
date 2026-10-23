@@ -1,0 +1,17 @@
+{
+  "name": "Condensador de Água",
+  "icon": "industrialforegoing:water_condensator",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 11,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uma máquina que gera $(6)água$() a partir de blocos-fonte ao redor.$(br2)Quando adjacente a pelo menos $(6)2 blocos-fonte de água$(), ela começará a funcionar.$(br)Adicionar mais blocos-fonte e fornecer $(6)1000()RF por operação deixará a máquina significativamente mais rápida."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:water_condensator"
+    }
+  ]
+}

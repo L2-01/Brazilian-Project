@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:entropic_ring
 categories:
-  - Entrega Suspeita
+  - Suspicious Delivery
 ---
 # Anel Entrópico
 
@@ -15,8 +15,8 @@ categories:
 
 ## O que faz
 
-Um **anel arcano** para o espaço de **anel** do Curios. Enquanto você tiver **menos PV que seu alvo**, seus golpes ganham **dano bônus fixo** baseado na diferença de PV. Com o **Apotheosis** carregado, o bônus escala com o seu **nível de mundo**.
+Um **anel arcano** para o slot **anel** do Curios. Enquanto você tiver **menos PV que seu alvo**, seus golpes ganham **bônus fixo de dano** baseado na diferença de PV. Com **Apotheosis** carregado, o bônus escala com seu **nível de mundo**.
 
 ## Como obter
 
-Forje um **Anel Grosseiramente Forjado** numa **Bancada de Ferraria** (molde Entrópico + Cristal de Entropia). O anel rústico em si vem da **Entrega Suspeita**.
+Forje um **Anel Grosseiramente Forjado** numa **Mesa de Ferraria** (molde Entrópico + Cristal de Entropia). O anel bruto vem da **Entrega Suspeita**.

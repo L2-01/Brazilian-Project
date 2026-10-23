@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "O $(item)Dínamo Pneumático/$ converte $(l:base_concepts/pressure)ar comprimido/$ em $(thing)Energia Forge/$, que é compatível com $(thing)Redstone Flux/$ e os sistemas de energia de outros mods. Ele produz 40 FE/tique por padrão, mas pode ser aprimorado com $(l:base_concepts/upgrades#speed)Melhorias de Velocidade/$. A taxa de saída de FE do $(item)Dínamo Pneumático/$ é o dobro da produção de FE atual; 80 FE/tique por padrão, mas pode ser aumentada via Melhorias de Velocidade."
+      "text": "O $(item)Dínamo Pneumático/$ converte $(l:base_concepts/pressure)ar comprimido/$ em $(thing)Forge Energy/$, que é compatível com $(thing)Redstone Flux/$ e sistemas de energia de outros mods. Ele produz 40 FE/tick por padrão, mas pode ser aprimorado com $(l:base_concepts/upgrades#speed)Melhorias de Velocidade/$. A taxa de saída de FE do $(item)Compressor de Fluxo/$ é o dobro da produção atual de FE; 80 FE/tick por padrão, mas pode ser aumentada via Melhorias de Velocidade."
     },
     {
       "type": "spotlight",
@@ -15,7 +15,7 @@
     },
     {
       "type": "crafting",
-      "text": "Fabricando um Dínamo Pneumático",
+      "text": "Fabricando Dínamo Pneumático",
       "recipe": "pneumaticcraft:pneumatic_dynamo"
     }
   ]

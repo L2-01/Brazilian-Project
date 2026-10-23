@@ -1,0 +1,16 @@
+{
+	"name": "Versão 154",
+	"icon": "minecraft:book",
+	"category": "dimdungeons:patch_notes",
+	"sortnum": 154,
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(li)Velocidade de construção de masmorras muito melhorada!$(li)Praticamente eliminado o pico de lag que ocorre quando uma nova masmorra é construída.$(li)Corrigida uma grande falha envolvendo quebrar o bloco da Pedra Angular enquanto uma construção está em andamento."
+		},
+		{
+			"type": "text",
+			"text": "$(li)Portais voltam a se recusar a abrir se levarem a um vazio.$(li)Aumentada a velocidade de construção padrão de 2 tiques pulados por chunk para 5.$(li)Portanto, verifique a configuração do seu servidor se ainda estiver com lag.$(li)Portais agora abrem mais rápido se a masmorra já estiver construída."
+		}
+	]
+}

@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(thing)Slimes$() e $(thing)Cubos de Magma$() são seres peculiares. Ao serem feridos o suficiente, eles se $(thing)dividem$() em versões menores de si mesmos, de forma semelhante a como as células se multiplicam no corpo. Esse processo natural pode ser explorado pelo $(item)Observador de Ramificações$(): quando tal criatura se divide nas proximidades, a entropia criada será consumida e $(aura) será dispersa no ambiente."
+            "text": "$(thing)Slimes$() e $(thing)Cubos de Magma$() são seres peculiares. Ao serem feridos o suficiente, eles se $(thing)dividem$() em versões menores de si mesmos, semelhante a como as células se multiplicam no corpo. Esse processo natural pode ser explorado pelo $(item)Observador de Ramificações$(): quando tal criatura se divide em sua vizinhança, a entropia criada será consumida e $(aura) será dispersa no ambiente."
         },
         {
             "type": "text",
-            "text": "Nem precisa dizer que a quantidade de $(aura) criada é baseada no $(thing)tamanho$() e na $(thing)raridade$() da criatura.$(br)Vale notar também que, enquanto o $(item)Observador de Ramificações$() estiver no processo de dispersar $(aura), fazer uma criatura adicional se dividir não criará mais $(aura)."
+            "text": "Nem é preciso dizer que a quantidade de $(aura) criada é baseada no $(thing)tamanho$() e na $(thing)raridade$() da criatura.$(br)Também deve-se notar que, enquanto o $(item)Observador de Ramificações$() estiver em processo de dispersar $(aura), fazer outra criatura se dividir não criará mais $(aura)."
         },
         {
             "type": "crafting",

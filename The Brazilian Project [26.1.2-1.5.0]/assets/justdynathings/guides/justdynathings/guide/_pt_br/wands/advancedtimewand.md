@@ -12,13 +12,13 @@ item_ids:
 
 Uma versão melhorada da <ItemLink id="justdirethings:time_wand"/> com mais capacidade e modos para configurar a ação de clique
 
-Modos Padrão:
+Modos padrão:
 
 _podem ser modificados/desativados na config!_
 
 - Normal:
 
-Funciona da mesma forma que uma <ItemLink id="justdirethings:time_wand"/> regular
+Funciona igual a uma <ItemLink id="justdirethings:time_wand"/> comum
 
 - Velocidade 2x:
 

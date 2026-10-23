@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Furnador
+  title: Fornador
   parent: generators/index.md
   icon: powah:furnator_starter
   position: 0
@@ -14,15 +14,15 @@ item_ids:
   - powah:furnator_starter
 ---
 
-# Furnador
+# Fornador
 
 ![](./furnator.png)
 
-O Fornador é um gerador FE que gera energia a partir de combustíveis sólidos de fornalha como carvão, madeira ... 
+O Fornador é um gerador de FE que gera energia a partir de combustível sólido de fornalha, como carvão, madeira... 
 
-Os Tiers mais altos geram mais FE/t e têm maior saida de energia, além de queimarem o combustível mais rápido e com o mesmo de ganho energia por tique de combustível. 
+Os tiers mais altos geram mais FE/t e têm maior saída de energia; além disso, queimam o combustível mais rápido com a mesma energia ganha por tique de combustível. 
 
-|                                           | Capacidade                                            | Gera                                                    | Extração Máxima                                    |
+|                                           | Capacidade                                              | Gera                                               | Extração Máx.                                        |
 | ----------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------- |
 | <ItemLink id="powah:furnator_starter" />  | <powah:EnergyCapacity id="powah:furnator_starter" />  | <powah:EnergyGeneration id="powah:furnator_starter" />  | <powah:EnergyMaxIO id="powah:furnator_starter" />  |
 | <ItemLink id="powah:furnator_basic" />    | <powah:EnergyCapacity id="powah:furnator_basic" />    | <powah:EnergyGeneration id="powah:furnator_basic" />    | <powah:EnergyMaxIO id="powah:furnator_basic" />    |

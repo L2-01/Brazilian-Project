@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "Muitas atividades exigem que uma pessoa esteja por perto, a maioria delas para $(thing)colocar$() blocos no mundo. Isso, na verdade, é um desperdício de mão de obra numa época em que a $(aura) pode trabalhar em seu lugar. O $(item)Construtor Imperceptível$() colocará quaisquer blocos que você fornecer em troca de uma pequena quantidade de $(aura).$(br)O construtor pega os blocos para colocação de qualquer $(thing)contêiner de itens$() colocado em cima dele."
+            "text": "Muitas atividades exigem a presença de uma pessoa, a maioria delas para $(thing)colocar$() blocos no mundo. Isso, na verdade, é um desperdício de pessoal numa época em que a $(aura) pode trabalhar em seu lugar. O $(item)Construtor Imperceptível$() colocará quaisquer blocos que você fornecer em troca de uma pequena quantidade de $(aura).$(br)O construtor pega os blocos para colocação de qualquer $(thing)recipiente de itens$() colocado em cima dele."
         },
         {
             "type": "text",
-            "text": "Para especificar sobre quais blocos ele deve colocá-los, é preciso pendurar uma $(item)Moldura de Item$() no construtor e colocar o bloco desejado dentro dela. Ele então colocará os blocos do baú numa área de cerca de $(thing)cinco blocos$().$(br)Por exemplo, colocar um pedregulho na moldura e uma pilha de tábuas no baú fará com que as tábuas sejam colocadas em cima de qualquer pedregulho por perto.$(p)Fornecer um sinal de redstone desativará a colocação."
+            "text": "Para especificar em quais blocos ele deve colocá-los, é preciso pendurar um $(item)Porta-Retrato$() no construtor e colocar o bloco desejado dentro dele. Ele então colocará os blocos do baú numa área de cerca de $(thing)cinco blocos$().$(br)Como exemplo, colocar um pedregulho no porta-retrato e uma pilha de tábuas no baú fará com que as tábuas sejam colocadas em cima de qualquer pedregulho próximo.$(p)Fornecer um sinal de redstone desativará a colocação."
         },
         {
             "type": "crafting",
@@ -19,7 +19,7 @@
         },
         {
             "type": "crafting",
-            "text": "O $(item)Molde de Cultivo$() pode ser usado com o construtor para permitir que ele coloque coisas em $(item)Terra Arada$(). Basta colocá-lo numa das molduras de item como você faria com um bloco normal.",
+            "text": "O $(item)Molde de Cultivo$() pode ser usado com o construtor para permitir que ele coloque coisas em $(item)Terras Aradas$(). Basta colocá-lo num dos porta-retratos como você faria com um bloco normal.",
             "recipe": "naturesaura:farming_stencil"
         }
     ]

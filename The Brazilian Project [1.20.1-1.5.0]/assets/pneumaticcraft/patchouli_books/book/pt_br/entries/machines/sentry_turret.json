@@ -6,17 +6,17 @@
   "pages": [
     {
       "type": "text",
-      "text": "A $(thing)Torreta Sentinela/$ é uma arma defensiva autônoma. Ela usa uma $(l:tools/minigun)Minigun/$ integrada e $(l:tools/minigun_ammo)Munição/$ (que você deve fornecer) para atirar em entidades no alcance. Seu alcance é de 16 blocos por padrão, mas pode ser aumentado com $(l:base_concepts/upgrades#range)Melhorias de Alcance/$ até um máximo de 32 blocos.$(p)Você não precisa fornecer $(l:base_concepts/pressure)pressão/$ para a Torreta Sentinela funcionar, mas precisa fornecer $(l:tools/minigun_ammo)munição/$."
+      "text": "A $(thing)Torreta Sentinela/$ é uma arma defensiva autônoma. Ela usa uma $(l:tools/minigun)Minigun/$ integrada e $(l:tools/minigun_ammo)Munição/$ (que você deve fornecer) para atirar em entidades ao alcance. Seu alcance é de 16 blocos por padrão, mas pode ser aumentado com $(l:base_concepts/upgrades#range)Melhorias de Alcance/$ até um máximo de 32 blocos.$(p)Você não precisa fornecer $(l:base_concepts/pressure)pressão/$ para a Torreta Sentinela funcionar, mas precisa fornecer $(l:tools/minigun_ammo)munição/$."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:sentry_turret",
-      "text": "Os alvos potenciais da $(thing)Torreta Sentinela/$ podem ser filtrados inserindo um $(l:base_concepts/entity_filter)Filtro de Entidade/$ na GUI da Torreta; você pode pressionar e segurar $(thing)F1/$ para uma página pop-up de ajuda sobre filtros.$(p)Torretas recém-posicionadas têm um filtro padrão de $(thing)@mob/$ para evitar dor e sofrimento."
+      "text": "Alvos potenciais da $(thing)Torreta Sentinela/$ podem ser filtrados inserindo um $(l:base_concepts/entity_filter)Filtro de Entidades/$ na GUI da Torreta; você pode pressionar e segurar $(thing)F1/$ para uma página de ajuda de filtros.$(p)Torretas recém-colocadas têm um filtro padrão de $(thing)@mob/$ para evitar dor e sofrimento."
     },
     {
       "type": "spotlight",
       "item": "pneumaticcraft:security_station",
-      "text": "Quando a $(thing)Torreta Sentinela/$ está coberta por uma ou mais $(l:machines/security_station)Estações de Segurança/$, ela nunca mirará jogadores que estejam na lista de confiáveis de $(italic)todas/$ as Estações de Segurança, independentemente de como o filtro de entidade esteja configurado."
+      "text": "Quando a $(thing)Torreta Sentinela/$ está coberta por uma ou mais $(l:machines/security_station)Estações de Segurança/$, ela nunca mirará em jogadores que estejam na lista de confiáveis de $(italic)todas/$ as Estações de Segurança, independentemente de como o filtro de entidades esteja configurado."
     },
     {
       "type": "image",
@@ -27,7 +27,7 @@
     },
     {
       "type": "crafting",
-      "text": "Fabricando uma Torreta Sentinela",
+      "text": "Fabricando Torreta Sentinela",
       "recipe": "pneumaticcraft:sentry_turret"
     }
   ]

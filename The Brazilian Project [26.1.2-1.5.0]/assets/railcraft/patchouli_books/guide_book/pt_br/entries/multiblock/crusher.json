@@ -1,16 +1,16 @@
 {
-  "name": "Triturador",
-  "icon": "railcraft:crusher",
-  "category": "railcraft:multiblock",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "O Triturador de Rochas é uma estrutura 3x2x2 para processar vários materiais. O Triturador é construído com 12 blocos especiais feitos de um Bloco de Aço, Pistões e Diamantes. Se desmontado, são necessários 3 Blocos de Aço, 12 Pistões e 12 Diamantes para construir um Triturador de Rochas. Trituradores de Rochas não podem ser construídos adjacentes uns aos outros — deve haver pelo menos um quadrado entre os Trituradores de Rochas."
-    },
-    {
-      "type": "patchouli:multiblock",
-      "name": "Triturador",
-      "multiblock_id": "railcraft:crusher"
-    }
-  ]
+    "name": "Triturador",
+    "icon": "railcraft:crusher",
+    "category": "railcraft:multiblock",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O Triturador é uma estrutura 3x2x2 para processar vários materiais. O Triturador é construído com 12 blocos especiais feitos de um Bloco de Aço, Pistões e Diamantes. Desmontado, são necessários 3 Blocos de Aço, 12 Pistões e 12 Diamantes para construir um Triturador. Trituradores não podem ser construídos adjacentes um ao outro — deve haver ao menos um espaço entre eles."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Triturador",
+            "multiblock_id": "railcraft:crusher"
+        }
+    ]
 }

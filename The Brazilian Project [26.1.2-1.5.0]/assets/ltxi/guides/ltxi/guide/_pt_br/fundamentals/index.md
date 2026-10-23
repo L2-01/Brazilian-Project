@@ -7,7 +7,7 @@ navigation:
 
 # Mecânicas Fundamentais
 
-A LTX Industries adiciona várias mecânicas que você deveria conhecer. Revise-as, especialmente o *sistema de melhorias*
+A LTX Industries adiciona várias mecânicas que você deve conhecer. Revise-as, especialmente o *sistema de melhorias*
 e os *modificadores de dano*, para evitar confusão mais adiante.
 
 <SubPages />

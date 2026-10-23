@@ -15,8 +15,8 @@ item_ids:
 <BlockImage id="extendedae:crystal_assembler" scale="8"></BlockImage>
 </Row>
 
-A maioria dos dispositivos do ExtendedAE é complexa demais para fabricar usando uma bancada de trabalho, então você precisará de um Montador de Cristais para fabricá-los.
+Esses dispositivos estendidos são complexos demais para fabricar numa bancada de trabalho, então você precisará de um Montador de Cristais para fabricar a maioria deles.
 
-**Aviso: A face da tela não pode se conectar à rede.**
+**Nota: a face com a tela não pode se conectar à rede.**
 
-Ele também pode executar certas receitas de transformação no mundo, como a transformação em Fluix.
+Ele também pode executar certas receitas de transformação no mundo, como a transformação de fluix.

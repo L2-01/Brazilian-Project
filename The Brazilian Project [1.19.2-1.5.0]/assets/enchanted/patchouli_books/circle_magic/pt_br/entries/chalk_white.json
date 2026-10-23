@@ -1,0 +1,16 @@
+{
+  "name": "Giz de Ritual",
+  "icon": "enchanted:chalk_white",
+  "category": "enchanted:performing_rites",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O giz de ritual é a forma mais básica de giz usada na mágica de círculo; é obtido com bastante facilidade e usado em muitas aplicações simples, além de ritos mais complexos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "enchanted:chalk_white"
+    }
+  ],
+  "read_by_default": true
+}

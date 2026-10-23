@@ -1,18 +1,18 @@
 {
-  "name": "Gema Sintonizada com Espírito",
-  "icon": "occultism:spirit_attuned_gem",
-  "category": "ars_nouveau:ars_ocultas",
-  "pages": [
-    {
-      "type": "patchouli:spotlight",
-      "item": {
-        "item": "occultism:spirit_attuned_gem"
-      },
-      "text": "Receita alternativa para quando os diamantes estão escassos."
-    },
-    {
-      "type": "ars_nouveau:apparatus_recipe",
-      "recipe": "ars_ocultas:spirit_attuned_gem"
-    }
-  ]
+    "name": "Gema Sintonizada com Espírito",
+    "icon": "occultism:spirit_attuned_gem",
+    "category": "ars_nouveau:ars_ocultas",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": {
+                "item": "occultism:spirit_attuned_gem"
+            },
+            "text": "Receita alternativa para quando os diamantes estão escassos."
+        },
+        {
+            "type": "ars_nouveau:apparatus_recipe",
+            "recipe": "ars_ocultas:spirit_attuned_gem"
+        }
+    ]
 }

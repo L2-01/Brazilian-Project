@@ -1,17 +1,17 @@
 {
-    "name": "Amuletos Inquebráveis",
-    "icon": "minecraft:enchanting_table",
-    "category": "apotheosis:potion/charms",
-    "flag": "&apotheosis:potion,apotheosis:enchanting",
-    "sortnum": -1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Através do $(l:apotheosis:enchanting/table/infusion)Encantamento de Infusão$(), amuletos podem se tornar Inquebráveis.$(p)Com isso, você pode ter duração ilimitada de qualquer efeito de poção."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "A receita de infusão para amuletos Inquebráveis é bem difícil.$(p)Você precisará de um entendimento firme dos $(l:apotheosis:enchanting/table/stats)Atributos de Encantamento$() para completá-la. Também precisará estar no Nível Mundial: $(9)Pináculo$()."
-        }
-    ]
+	"name": "Amuletos Inquebráveis",
+	"icon": "minecraft:enchanting_table",
+	"category": "apotheosis:potion/charms",
+	"flag": "&apotheosis:potion,apotheosis:enchanting",
+	"sortnum": -1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Através do $(l:apotheosis:enchanting/table/infusion)Encantamento por Infusão$(), os amuletos podem se tornar Inquebráveis.$(p)Assim, você pode ter duração ilimitada de qualquer efeito de poção."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "A receita de infusão para amuletos Inquebráveis é bem difícil.$(p)Você precisará entender bem os $(l:apotheosis:enchanting/table/stats)Atributos de Encantamento$() para conseguir completá-la. Você também precisará estar no Nível de Mundo: $(9)Pináculo$()."
+		}
+	]
 }

@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O dispositivo de copiar e colar torna replicar estruturas muito mais fácil! Para começar, certifique-se de estar no modo 'copiar' no menu de configurações. $(br2)Clique com o botão direito em um canto de uma estrutura e depois Shift + clique com o botão direito no canto oposto. Se feito corretamente, um contorno verde cercará sua estrutura."
+      "text": "O dispositivo de copiar e colar torna replicar estruturas muito mais fácil! Para começar, garanta que você esteja no modo 'copiar' no menu de configurações. $(br2)Clique com o botão direito num canto de uma estrutura e depois agache e clique com o botão direito no canto oposto. Se feito corretamente, um contorno verde cercará sua estrutura."
     },
     {
       "type": "patchouli:image",
@@ -19,20 +19,20 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Mude o dispositivo para o modo 'colar' e você verá uma prévia fantasma da estrutura que copiou. O bloco em que você clicou com o botão direito durante a cópia é o ponto inicial da estrutura. $(br2)Para colocar a estrutura no mundo, basta clicar com o botão direito! Todos os itens necessários para a construção serão removidos do seu inventário, e quaisquer blocos para os quais você não tenha itens serão pulados."
+      "text": "Mude o dispositivo para o modo 'colar' e você verá uma prévia fantasma da estrutura copiada. O bloco em que você clicou com o botão direito durante a cópia é o ponto de partida da estrutura. $(br2)Para colocar a estrutura no mundo, basta clicar com o botão direito! Todos os itens necessários para a construção serão removidos do seu inventário, e quaisquer blocos para os quais você não tenha itens serão pulados."
     },
     {
       "type": "patchouli:image",
-      "title": "Prévia de Colagem",
+      "title": "Prévia da Colagem",
       "images": [
         "buildinggadgets2:textures/book/images/paste.png"
       ],
       "border": true,
-      "text": "Pré-visualizando uma colagem"
+      "text": "Prevendo uma colagem"
     },
     {
       "type": "patchouli:text",
-      "text": "Para ver uma lista dos itens necessários, abra o menu de configurações e escolha a opção 'lista de materiais'. $(br2)É uma lista rolável que mostra quais itens você tem ou não tem, e pode ser ordenada de várias formas. Experimente!"
+      "text": "Para ver a lista de itens necessários, abra o menu de configurações e escolha a opção 'lista de materiais'. $(br2)É uma lista rolável mostrando quais itens você tem ou não tem, e pode ser ordenada de várias formas. Experimente!"
     },
     {
       "type": "patchouli:image",
@@ -45,7 +45,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "É possível fazer ajustes finos na área de cópia abrindo a janela Ajustar Posicionamento no menu de configurações.$(br2)A partir daí, você pode ajustar a posição do bloco inicial e do bloco final. Clique nos botões de mais e menos para ver a caixa verde mudar em tempo real.$(br2)Você também pode alternar para o modo de coordenadas 'absolutas' e inserir coordenadas do mundo do jogo."
+      "text": "É possível fazer ajustes finos na área copiada abrindo a janela Ajustar Posição no menu de configurações.$(br2)Daqui, você pode ajustar a posição do bloco inicial e do bloco final. Clique nos botões de mais e menos para ver a caixa verde mudar em tempo real.$(br2)Você também pode mudar para o modo de coordenadas 'absolutas' e digitar as coordenadas do mundo do jogo."
     },
     {
       "type": "patchouli:image",
@@ -58,7 +58,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Há uma opção semelhante para o modo de colar. $(br2)Nessa interface, você ajustará a localização do bloco inicial. Clique nos botões e a renderização deve atualizar no mundo em tempo real."
+      "text": "Há uma opção semelhante para o modo colar. $(br2)Nesta UI, você ajustará a posição do bloco inicial. Clique nos botões e a renderização deve atualizar no mundo em tempo real."
     },
     {
       "type": "patchouli:image",
@@ -67,7 +67,7 @@
         "buildinggadgets2:textures/book/images/paste_adjustment.png"
       ],
       "border": true,
-      "text": "Mudando a localização da colagem"
+      "text": "Mudando a posição da colagem"
     }
   ]
 }

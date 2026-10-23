@@ -16,5 +16,5 @@ item_ids:
 </Row>
 
 Uma mistura de quartzo, carvão e areia. Fundi-la produz mais <ItemLink id="ae2:silicon" /> do que fundir
-pó de quartzo certus diretamente.
+Pó de Quartzo Certus diretamente.
 

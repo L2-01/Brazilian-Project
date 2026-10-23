@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "Usar $(thing)cores$() como meio de deixar construções bonitas é uma técnica reconhecida entre construtores. Porém, às vezes pode ser difícil encontrar todas as cores necessárias. O $(item)Balde de Cor Infinita$(), usando apenas os três tons primários do mundo, pode criar qualquer cor desde que tenha entrado em contato com elas, e então transferi-la para qualquer bloco tingível."
+            "text": "Usar $(thing)cores$() como meio de deixar construções bonitas é uma técnica reconhecida entre construtores. No entanto, às vezes pode ser difícil encontrar todas as cores necessárias. O $(item)Balde de Cor Infinita$(), usando apenas os três tons primários do mundo, pode criar qualquer cor desde que tenha entrado em contato com elas, e então transferi-la para qualquer bloco tingível."
         },
         {
             "type": "text",
-            "text": "Para usar o balde, basta agachar e interagir com qualquer bloco tingível. Para então transferir aquela cor para um bloco, basta interagir com ele.$(br)Agachar e interagir com o próprio item fará com que ele mude para o $(thing)modo de preenchimento$(), o que significa que, ao tingir um bloco, todos os blocos ao redor com a mesma cor também serão alterados.$(br)É claro, isso custa um pouco de $(thing)Aura$(), que precisa ser fornecida na forma de um $(l:items/aura_cache)Cache de Aura$() no inventário."
+            "text": "Para usar o balde, simplesmente agache e interaja com qualquer bloco tingível. Para então transferir aquela cor para um bloco, simplesmente interaja com ele.$(br)Agachar e interagir com o próprio item fará com que ele mude para o $(thing)modo de preenchimento$(), o que significa que, ao tingir um bloco, todos os blocos ao redor com a mesma cor também serão mudados.$(br)Claro, isso tem o custo de um pouco de $(thing)Aura$(), que precisa ser fornecida na forma de um $(l:items/aura_cache)Cache de Aura$() no inventário."
         },
         {
             "type": "crafting",

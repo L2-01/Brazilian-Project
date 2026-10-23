@@ -1,5 +1,5 @@
 {
-  "name": "Allay",
+  "name": "Sereno",
   "icon": "minecraft:allay_spawn_egg",
   "category": "animal_pen:category_aviary",
   "pages": [
@@ -7,12 +7,12 @@
       "type": "patchouli:entity",
       "entity": "minecraft:allay",
       "scale": 1,
-      "text": "Allays são apenas decorativos."
+      "text": "Os serenos são apenas decorativos."
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:amethyst_shard",
-      "text": "Alimente o allay com um fragmento de ametista e ele se duplicará."
+      "text": "Alimente um sereno com fragmento de ametista e ele se duplicará."
     }
   ]
 }

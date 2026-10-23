@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O Liberador Avançado é uma versão melhorada do $(l:justdirethings:mach_droppert1)Liberador Simples$(/l).$(br2)Diferente da maioria das máquinas Avançadas, você não pode mudar o raio, mas pode mudar o deslocamento, ou seja, pode largar itens mais longe do próprio liberador."
+      "text": "O Liberador Avançado é uma versão aprimorada do $(l:justdirethings:mach_droppert1)Liberador Simples$(/l).$(br2)Diferente da maioria das máquinas avançadas, você não pode mudar o raio, mas pode mudar o deslocamento — ou seja, pode largar itens mais longe do próprio liberador."
     },
     {
       "type": "patchouli:text",
-      "text": "Há uma grade 3x3 para preencher com itens soltáveis.$(br2)Os espaços de filtro na parte de baixo podem especificar quais itens podem ser largados e, mais importante, em qual ORDEM eles são largados! Por exemplo, se você colocar pedregulho seguido de redstone, ele largará pedregulho primeiro, depois redstone.$(br2)Se a redstone acabar, ele para de largar até receber mais."
+      "text": "Há uma grade 3x3 para preencher com itens largáveis.$(br2)Os espaços de filtro embaixo servem para especificar quais itens podem ser largados e, mais importante, em que ORDEM! Por exemplo, se você colocar pedregulho e depois redstone, ele largará pedregulho primeiro, depois redstone.$(br2)Se a redstone acabar, ele para de largar até receber mais."
     },
     {
       "type": "patchouli:crafting",

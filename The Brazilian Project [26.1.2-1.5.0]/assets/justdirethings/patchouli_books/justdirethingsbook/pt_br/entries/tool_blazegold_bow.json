@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Mais forte que o $(l:justdirethings:tool_ferricore_bow)Arco de Ferricoro$(/l). Apresenta \"Reparo em Lava\".$(br2)Além disso, tem 2 espaços para $(l:justdirethings:item_potion_canister)Recipiente de Poção$(/l)"
+      "text": "Mais forte que o $(l:justdirethings:tool_ferricore_bow)Arco de Ferricoro$(/l). Traz 'Reparo à Lava'.$(br2)Além disso, tem 2 espaços para $(l:justdirethings:item_potion_canister)Recipiente de Poção$(/l)"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "justdirethings:bow_blazegold",
-      "text": "Fabricação do Arco de Ouro de Blaze"
+      "text": "Fabricação: Arco de Ouro de Blaze"
     }
   ]
 }

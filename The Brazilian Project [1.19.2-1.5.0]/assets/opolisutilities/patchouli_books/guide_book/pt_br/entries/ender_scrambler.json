@@ -1,0 +1,17 @@
+{
+	"name": "Embaralhador do Ender",
+	"icon": "opolisutilities:ender_scrambler",
+	"category": "opolisutilities:advanced_items",
+	"sortnum": 7,
+	"pages": [
+		{
+			"type": "text",
+			"text": "O Embaralhador do Ender, quando colocado no mundo, impede que Endermen se teletransportem.$(br2)O Embaralhador pode ser ligado clicando com o botão direito no bloco."
+		},
+		{
+			"type": "crafting",
+			"recipe": "opolisutilities:ender_scrambler",
+			"text": "Usado para impedir que Endermen se teletransportem."
+		}
+	]
+}

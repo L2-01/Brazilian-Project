@@ -1,38 +1,38 @@
 {
-  "name": "Bomba de Vácuo",
-  "icon": "pneumaticcraft:vacuum_pump",
-  "category": "pneumaticcraft:machines",
-  "advancement": "pneumaticcraft:pressure_chamber",
-  "pages": [
-    {
-      "type": "text",
-      "text": "A $(thing)Bomba de Vácuo/$ é uma máquina usada para criar... um vácuo. Para isso, a máquina consome $(l:base_concepts/pressure)ar pressurizado/$.$(p)Pressão positiva deve ser aplicada no $(#0c0)lado '+'/$; quando a pressão mínima de operação é alcançada, a $(item)Bomba de Vácuo/$ começa a bombear e a pressão no $(#c00)lado '-'/$ cai, até um mínimo de -1,0 bar, que é um vácuo."
-    },
-    {
-      "type": "image",
-      "images": [
-        "pneumaticcraft:textures/patchouli/vacuum_pump.png"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "Aplicações",
-      "text": "Os seguintes usos existem para pressão negativa (vácuo):$(li)Desencantamento: coloque um $(item)item encantado/$ ou $(item)Livro Encantado/$ com mais de um encantamento e um $(item)Livro/$ vanilla numa $(l:manufacturing/pressure_chamber)Câmara de Pressão/$ e dê à câmara pressão negativa suficiente. Um encantamento aleatório será transferido do item para o livro.$(li)O $(l:tubes/air_grate_module)Módulo de Tubo de Grade de Ar/$, quando recebe pressão negativa, atrairá entidades para si."
-    },
-    {
-      "type": "text",
-      "title": "Aplicações (cont.)",
-      "text": "$(li)Tanto a $(l:spawning/vacuum_trap)Armadilha de Vácuo/$ quanto o $(l:spawning/spawner_extractor)Extrator de Gerador de Criaturas/$, dispositivos necessários para fazer e usar $(l:spawning/pressurized_spawner)Geradores de Criaturas Pressurizados/$, precisam de pressão negativa para operar."
-    },
-    {
-      "type": "crafting",
-      "text": "Fabricando uma Bomba de Vácuo",
-      "recipe": "pneumaticcraft:vacuum_pump"
-    },
-    {
-      "type": "pneumaticcraft:pressure_chamber",
-      "header": "Vacuum Disenchanting",
-      "recipe": "pneumaticcraft:pressure_chamber/pressure_chamber_disenchanting"
-    }
-  ]
+    "name": "Bomba de Vácuo",
+    "icon": "pneumaticcraft:vacuum_pump",
+    "category": "pneumaticcraft:machines",
+    "advancement": "pneumaticcraft:pressure_chamber",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A $(thing)Bomba de Vácuo/$ é uma máquina usada para criar... um vácuo. Para isso, a máquina consome $(l:base_concepts/pressure)ar pressurizado/$.$(p)Pressão positiva deve ser aplicada no lado $(#0c0)'+'/$; quando a pressão mínima de funcionamento é atingida, a $(item)Bomba de Vácuo/$ começa a bombear e a pressão no lado $(#c00)'-'/$ cai, até um mínimo de -1,0 bar, que é um vácuo."
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/patchouli/vacuum_pump.png"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Aplicações",
+            "text": "Existem os seguintes usos para pressão negativa (vácuo):$(li)Desencantamento: coloque um $(item)item encantado/$ ou $(item)Livro Encantado/$ com mais de um encantamento e um $(item)Livro/$ vanilla numa $(l:manufacturing/pressure_chamber)Câmara de Pressão/$ e dê à câmara pressão negativa suficiente. Um encantamento aleatório será transferido do item para o livro.$(li)O $(l:tubes/air_grate_module)Módulo de Tubo de Grade de Ar/$, quando recebe pressão negativa, atrai entidades para si."
+        },
+        {
+            "type": "text",
+            "title": "Aplicações (cont.)",
+            "text": "$(li)Tanto a $(l:spawning/vacuum_trap)Armadilha de Vácuo/$ quanto o $(l:spawning/spawner_extractor)Extrator de Gerador de Criaturas de Criaturas/$, dispositivos necessários para fabricar e usar $(l:spawning/pressurized_spawner)Geradores de Criaturas Pressurizados/$, precisam de pressão negativa para operar."
+        },
+        {
+            "type": "crafting",
+            "text": "Fabricando Bomba de Vácuo",
+            "recipe": "pneumaticcraft:vacuum_pump"
+        },
+        {
+            "type": "pneumaticcraft:pressure_chamber",
+            "header": "Desencantamento a Vácuo",
+            "recipe": "pneumaticcraft:pressure_chamber/pressure_chamber_disenchanting"
+        }
+    ]
 }

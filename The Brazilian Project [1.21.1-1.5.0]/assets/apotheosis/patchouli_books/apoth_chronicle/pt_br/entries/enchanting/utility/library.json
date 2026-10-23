@@ -1,36 +1,36 @@
 {
-    "name": "Biblioteca de Encantamentos",
-    "icon": "apothic_enchanting:library",
-    "category": "apotheosis:enchanting/utility",
-    "flag": "apotheosis:enchanting",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "Uma Biblioteca de Encantamentos é um sistema de armazenamento para Encantamentos.$(p)Basta inserir livros encantados, e cada encantamento do livro será armazenado como pontos."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Cada biblioteca tem uma $(6)Capacidade de Nível$(), representando o nível mais alto de encantamento que ela pode armazenar.$(p)Encantamentos excedentes são anulados."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Clicar num encantamento armazenado extrairá um nível daquele encantamento.$(p)Shift-clicar num encantamento armazenado extrairá o máximo de níveis possível.$(p)Livros são gerados no slot de saída conforme necessário."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Você também pode colocar um $(9)Livro Encantado$() no slot de saída para adicionar encantamentos a ele.$(p)A biblioteca registra o nível máximo que já foi inserido para cada encantamento e só pode extrair até aquele nível."
-        },
-        {
-            "type": "patchouli:crafting",
-            "recipe": "apothic_enchanting:library",
-            "text": "A $(9)Biblioteca de Encantamentos$() padrão tem uma $(6)Capacidade de Nível$() de dezesseis (XVI)."
-        },
-        {
-            "type": "patchouli:spotlight",
-            "item": "apothic_enchanting:ender_library",
-            "link_recipe": true,
-            "text": "A $(9)Biblioteca de Alexandria$() tem uma $(6)Capacidade de Nível$() de trinta e um (XXXI).$(p)Não pode ser fabricada diretamente e precisa ser criada usando $(l:apotheosis:enchanting/table/infusion)Encantamento de Infusão$()."
-        }
-    ]
+	"name": "Biblioteca de Encantamentos",
+	"icon": "apothic_enchanting:library",
+	"category": "apotheosis:enchanting/utility",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Uma Biblioteca de Encantamentos é um sistema de armazenamento de Encantamentos.$(p)Basta inserir livros encantados e cada encantamento do livro será armazenado como pontos."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Cada biblioteca tem uma $(6)Capacidade de Nível$(), que representa o nível mais alto de encantamento que ela pode armazenar.$(p)Encantamentos excedentes são descartados."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Clicar em um encantamento armazenado extrai um nível dele.$(p)Clicar com Shift extrai o máximo de níveis possível.$(p)Livros são gerados no espaço de saída conforme necessário."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Você também pode colocar um $(9)Livro Encantado$() no espaço de saída para adicionar encantamentos a ele.$(p)A biblioteca registra o nível máximo que já foi inserido para cada encantamento e só pode extrair até aquele nível."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "apothic_enchanting:library",
+			"text": "A $(9)Biblioteca de Encantamentos$() padrão tem uma $(6)Capacidade de Nível$() de dezesseis (XVI)."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "apothic_enchanting:ender_library",
+			"link_recipe": true,
+			"text": "A $(9)Biblioteca de Alexandria$() tem uma $(6)Capacidade de Nível$() de trinta e um (XXXI).$(p)Ela não pode ser fabricada diretamente e deve ser criada usando o $(l:apotheosis:enchanting/table/infusion)Encantamento por Infusão$()."
+		}
+	]
 }

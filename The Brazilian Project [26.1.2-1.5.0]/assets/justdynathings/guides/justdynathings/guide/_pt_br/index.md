@@ -7,6 +7,6 @@ navigation:
 
 # Just Dyna Things
 
-Um complemento do JustDireThings que adiciona novas coisas
+Um complemento do JustDireThings que adiciona coisas novas
 
 <SubPages />

@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Clima, tempo e ambiente
+  title: Clima, tempo e ambiência
   icon: iska_utils:weather_detector
   parent: hubs/world_and_machines.md
   position: 50
@@ -9,31 +9,31 @@ item_ids:
   - iska_utils:weather_alterer
   - iska_utils:time_alterer
 categories:
-  - Mundo e máquinas
+  - World and machines
 ---
-# Clima, tempo e ambiente
+# Clima, tempo e ambiência
 
-Esses blocos leem ou mudam o **clima do mundo** e a **hora do dia**. O áudio voltado ao jogador é uma questão separada (**Silenciador de Som**, guia próprio).
+Estes blocos leem ou mudam o **clima do mundo** e a **hora do dia**. O áudio para o jogador é um assunto separado (**Silenciador de Som**, guia próprio).
 
-## Detector de Clima
+## Sensor de clima
 
 <ItemImage id="iska_utils:weather_detector" />
 
-- Emite **redstone** conforme o modo ativo (alinhado ao estado do clima / céu).
+- Emite **redstone** conforme o modo ativo (alinhado com o clima / estado do céu).
 - **Clique direito** no bloco para **alternar os modos**.
 
 ## Alterador de Clima
 
 <ItemImage id="iska_utils:weather_alterer" />
 
-- Muda o **clima do mundo** dependendo do modo selecionado.
+- Muda o **clima do mundo** conforme o modo selecionado.
 - **Clique direito** no bloco para **alternar os modos**.
-- **Entrada de redstone:** dispara o modo selecionado numa **borda de subida** (desenergizado → energizado), como outras máquinas controladas por redstone deste mod. Poeira de redstone conecta em todas as faces.
+- **Entrada de redstone:** dispara o modo selecionado numa **borda subindo** (desenergizado → energizado), como outras máquinas controladas por redstone deste mod. O pó de redstone conecta em todas as faces.
 
 ## Alterador de Tempo
 
 <ItemImage id="iska_utils:time_alterer" />
 
-- Muda a **hora do dia** dependendo do modo selecionado.
+- Muda a **hora do dia** conforme o modo selecionado.
 - **Clique direito** no bloco para **alternar os modos**.
-- **Entrada de redstone:** dispara o modo selecionado numa **borda de subida** (desenergizado → energizado), como outras máquinas controladas por redstone deste mod. Poeira de redstone conecta em todas as faces.
+- **Entrada de redstone:** dispara o modo selecionado numa **borda subindo** (desenergizado → energizado), como outras máquinas controladas por redstone deste mod. O pó de redstone conecta em todas as faces.

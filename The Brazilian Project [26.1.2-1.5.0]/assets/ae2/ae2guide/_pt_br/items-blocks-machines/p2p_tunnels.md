@@ -23,20 +23,20 @@ item_ids:
 </GameScene>
 
 Túneis P2P são uma forma de mover coisas como itens, fluidos, sinais de redstone, energia, luz e [canais](../ae2-mechanics/channels.md)
-por uma rede sem que interajam diretamente com a rede. Há muitas variantes de túnel P2P, mas cada uma
+pela rede sem que interajam diretamente com ela. Há muitas variantes de túnel P2P, mas cada uma
 só transporta seu tipo específico de coisa. Elas essencialmente agem como portais que conectam diretamente
 duas faces de bloco à distância. Não são bidirecionais — há entradas e saídas definidas.
 
 ![Portal](../assets/assemblies/p2p_portal.png)
 
-Por exemplo, o funil virado para o P2P de Itens agirá como se estivesse diretamente conectado ao barril, e os itens fluirão.
+Por exemplo, o funil apontado para o P2P de Itens agirá como se estivesse diretamente conectado ao barril, e os itens fluirão.
 
 <GameScene zoom="4" background="transparent">
   <ImportStructure src="../assets/assemblies/p2p_hopper_barrel.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-No entanto, dois barris lado a lado não transferirão itens entre si.
+Porém, dois barris lado a lado não transferirão itens entre si.
 
 <GameScene zoom="4" background="transparent">
   <ImportStructure src="../assets/assemblies/p2p_barrel_barrel.snbt" />
@@ -67,26 +67,26 @@ E o P2P ME, que move canais.
 Há muitos tipos de túnel P2P. Apenas o túnel P2P ME é fabricável diretamente; os outros são feitos clicando com o botão direito em outros
 túneis P2P com certos itens:
 - Túneis P2P ME são selecionados clicando com o botão direito com qualquer [cabo](../items-blocks-machines/cables.md).
-- Túneis P2P de Redstone são selecionados clicando com o botão direito com uma variedade de componentes de redstone.
+- Túneis P2P de Redstone são selecionados clicando com o botão direito com vários componentes de redstone.
 - Túneis P2P de Itens são selecionados clicando com o botão direito com um baú ou funil.
 - Túneis P2P de Fluidos são selecionados clicando com o botão direito com um balde ou frasco.
 - Túneis P2P de Energia são selecionados clicando com o botão direito com quase qualquer item que contenha energia.
-- Túneis P2P de Luz são selecionados clicando com o botão direito com uma tocha ou pedra-luminosa.
+- Túneis P2P de Luz são selecionados clicando com o botão direito com uma tocha ou glowstone
 
-Alguns tipos de túnel têm peculiaridades. Por exemplo, os canais dos túneis P2P ME não podem passar por outros túneis P2P ME, e
-túneis P2P de Energia cobram indiretamente um imposto de 2,5% sobre a FE fluindo por eles ao aumentar seu
+Alguns tipos de túnel têm peculiaridades. Por exemplo, os canais de túneis P2P ME não podem passar por outros túneis P2P ME, e
+túneis P2P de Energia extraem indiretamente uma taxa de 2,5% do FE que passa por eles, aumentando seu
 consumo de [energia](../ae2-mechanics/energy.md).
 
 ## A Forma Mais Usada de P2P
 
 O caso de uso mais comum dos túneis P2P é usar um túnel P2P ME para compactar a densidade do transporte de [canais](../ae2-mechanics/channels.md).
-Em vez de um feixe de cabos densos, um único cabo denso pode ser usado para carregar muitos canais por aí.
+Em vez de um feixe de cabos densos, um único cabo denso pode ser usado para transportar muitos canais.
 
-Neste exemplo, 8 entradas de P2P ME pegam 256 canais (8*32) do <ItemLink id="controller" /> da rede principal e 8 saídas de P2P ME
-os emitem em outro lugar. Observe como cada entrada ou saída de túnel P2P toma 1 canal. Podemos assim passar muitos canais
+Neste exemplo, 8 entradas P2P ME pegam 256 canais (8*32) do <ItemLink id="controller" /> da rede principal e 8 saídas P2P ME
+os enviam para outro lugar. Observe como cada entrada ou saída de túnel P2P ocupa 1 canal. Podemos assim passar muitos canais
 por um cabo fino. E como nossos túneis P2P estão numa [sub-rede](../ae2-mechanics/subnetworks.md) dedicada, nem estamos
 gastando canais da rede principal para isso! Observe também que, embora os túneis P2P possam ser colocados diretamente
-contra um controlador, um [cabo denso inteligente](../items-blocks-machines/cables.md#smart-cable) pode ser colocado no meio para visualizar os canais mais facilmente.
+contra um controlador, um [cabo inteligente denso](../items-blocks-machines/cables.md#smart-cable) pode ser colocado no meio para visualizar os canais mais facilmente.
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/assemblies/p2p_compact_channels.snbt" />
@@ -96,7 +96,7 @@ contra um controlador, um [cabo denso inteligente](../items-blocks-machines/cabl
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4.1 0 5.7" max="5 2.3 6.4">
-        Você pode tanto colocar a entrada do túnel diretamente num controlador quanto ligar um cabo nele.
+        Você pode colocar a entrada do túnel diretamente num controlador ou ligar um cabo a ela.
   </BoxAnnotation>
 
   <IsometricCamera yaw="225" pitch="30" />
@@ -109,10 +109,10 @@ de retocar:
 
 ## Aninhamento
 
-No entanto, você não pode usar isso para mandar canais infinitos por um único cabo. O canal de um túnel P2P ME não
-passará por outro túnel P2P ME, então você não pode aninhá-los recursivamente. Observe como a camada externa de túneis P2P ME
+Porém, você não pode usar isso para enviar canais infinitos por um único cabo. O canal de um túnel P2P ME não
+passa por outro túnel P2P ME, então você não pode aninhá-los recursivamente. Observe como a camada externa de túneis P2P ME
 nos cabos vermelhos está offline. Note que isso só se aplica a túneis P2P ME; outros tipos de túnel P2P podem passar por um túnel P2P ME,
-como se vê pelos túneis P2P de Redstone funcionando normalmente.
+como visto pelos túneis P2P de Redstone funcionando normalmente.
 
 <GameScene zoom="4" background="transparent">
   <ImportStructure src="../assets/assemblies/p2p_nesting.snbt" />
@@ -127,12 +127,12 @@ como se vê pelos túneis P2P de Redstone funcionando normalmente.
 </GameScene>
 
 As pontas de uma conexão de túnel P2P podem ser vinculadas usando um <ItemLink id="memory_card" />. A frequência será exibida
-como uma matriz 2x2 de cores no verso do túnel.
-- Shift-clique com o botão direito para gerar uma nova frequência de vínculo P2P.
-- Clique com o botão direito para colar as configurações, cartões de melhoria ou frequência de vínculo.
+como uma matriz 2x2 de cores na parte de trás do túnel.
+- Shift+clique direito para gerar uma nova frequência de vínculo P2P.
+- Clique direito para colar as configurações, cartões de melhoria ou frequência de vínculo.
 
-O túnel em que você shift-clicar será a entrada e o túnel em que você clicar será a saída. Você pode ter múltiplas saídas,
-mas com túneis P2P ME, os canais fluindo na entrada serão divididos entre as saídas, então você não pode duplicar canais.
+O túnel em que você dá shift+clique direito será a entrada e o túnel em que você clica com o direito será a saída. Você pode ter várias saídas,
+mas com túneis P2P ME, os canais que entram pela entrada serão divididos entre as saídas, então você não pode duplicar canais.
 
 ## Receita
 

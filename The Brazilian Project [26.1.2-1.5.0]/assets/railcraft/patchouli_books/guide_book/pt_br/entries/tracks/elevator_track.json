@@ -1,11 +1,11 @@
 {
-  "name": "Trilho Elevador",
-  "icon": "railcraft:elevator_track",
-  "category": "railcraft:tracks",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "Este trilho é único por poder ser colocado verticalmente. Quando energizado, ele energizará todos os trilhos abaixo dele. Trilhos energizados erguerão carrinhos para cima, trilhos desenergizados baixarão carrinhos para baixo. Quando um carrinho alcança o topo, ele será empurrado para qualquer trilho normal localizado no bloco acima. O trilho também funciona como uma escada de mão."
-    }
-  ]
+    "name": "Trilho Elevador",
+    "icon": "railcraft:elevator_track",
+    "category": "railcraft:tracks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Este trilho é único porque pode ser colocado verticalmente. Quando energizado, energiza todos os trilhos abaixo dele. Trilhos energizados sobem carrinhos de mina; trilhos desenergizados os descem. Quando um carrinho chega ao topo, é empurrado para qualquer trilho normal no bloco acima. O trilho também funciona como escada."
+        }
+    ]
 }

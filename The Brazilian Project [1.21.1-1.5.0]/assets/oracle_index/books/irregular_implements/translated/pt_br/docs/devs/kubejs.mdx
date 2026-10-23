@@ -1,0 +1,65 @@
+# Suporte a KubeJS
+
+Várias funções de lógica do mod podem ser alteradas usando KubeJS.
+
+## Interface do Jogador
+
+A [Interface do Jogador](@irregular_implements:player_interface) permite conectar-se sem fios ao inventário do seu jogador como se fosse o inventário de um bloco.
+
+Ela tem um predicado que usa para verificar se tem permissão de se conectar a um dado jogador. Por padrão, o predicado é
+
+```kt PlayerInterfaceBlockEntity.kt
+(Player, BlockEntity) -> Boolean = { _, _ -> true }
+```
+
+Ou seja, ela sempre permite conexões. Você pode mudar o predicado usando KubeJS para chamar [este método](https://github.com/Berry-Club/Irregular-Implements/blob/main/src/main/kotlin/dev/aaronhowser/mods/irregular_implements/block/block_entity/PlayerInterfaceBlockEntity.kt#L156):
+
+```js example.js
+const $PlayerInterfaceBE = Java.loadClass('dev.aaronhowser.mods.irregular_implements.block_entity.PlayerInterfaceBlockEntity')
+
+$PlayerInterfaceBE.setPlayerPredicate((player, blockEntity) => player.level == blockEntity.level)
+```
+
+Com esse exemplo, a Interface do Jogador só conseguirá se conectar ao seu dono se ele estiver na mesma dimensão.
+
+## Crescimento do Pé de Feijão
+
+O [Pé de Feijão Mágico](@irregular_implements:bean_pod), por padrão, cresce para cima quebrando blocos constantemente até alcançar a altura máxima de construção, antes de colocar uma Vagem de Feijão.
+
+Ele faz isso usando um predicado. Quando o predicado retorna verdadeiro, o bloco de Pé de Feijão mais alto atual se transforma numa Vagem de Feijão em vez de crescer outro Pé de Feijão acima dele. O predicado padrão que ele usa é este:
+
+```kt BeanStalkBlock.kt
+		private fun defaultStrongIsDonePredicate(level: Level, pos: BlockPos): Boolean {
+			// If it cannot grow above the current block without exceeding the build height, it's done
+			if (pos.y + 1 >= level.maxBuildHeight) {
+				return true
+			}
+
+			// If the block directly above it is indestructible, it cannot grow any farther
+			val posAbove = pos.above()
+			return level.getBlockState(posAbove).getDestroySpeed(level, posAbove) == -1.0f
+		}
+```
+
+Você pode mudar esse predicado usando KubeJS chamando [este método](https://github.com/Berry-Club/Irregular-Implements/blob/main/src/main/kotlin/dev/aaronhowser/mods/irregular_implements/block/BeanStalkBlock.kt#L148):
+
+```js example.js
+const $BeanStalkBlock = Java.loadClass('dev.aaronhowser.mods.irregular_implements.block.BeanStalkBlock')
+
+$BeanStalkBlock.setMagicBeanStalkIsDoneGrowingPredicate((level, pos) => pos.y >= 100)
+```
+
+## Cores da Varinha de Radiestesia
+
+A [Varinha de Radiestesia](@irregular_implements:divining_rod) pode suportar qualquer item com uma tag começando com `#c:ores/`. No entanto, apenas minérios do vanilla e do Mekanism têm cores por padrão.
+
+Ela faz isso usando um mapa de Resource Location para inteiro de cor RRGGBB. Você pode adicionar a esse mapa usando KubeJS e reflection:
+
+```js example.js
+const $DiviningRodItem = Java.loadClass('dev.aaronhowser.mods.irregular_implements.item.DiviningRodItem')
+const $ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
+
+$DiviningRodItem.COLORS_PER_TAG.put($ResourceLocation.fromNamespaceAndPath('c', 'ores/mythril'), 0xFF00FF)
+```
+
+Isso dará à Varinha de Radiestesia de Mythril a cor `0xFF00FF`, que é magenta.

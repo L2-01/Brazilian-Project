@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "O Colocador de Blocos Avançado é uma versão melhorada do $(l:justdirethings:mach_blockplacert1)Colocador de Blocos Simples$(/l).$(br2)Use os filtros para especificar sobre quais blocos é permitido colocar. Por exemplo, filtrar pedra só permitirá ao colocador colocar sobre blocos de pedra. Esse filtro também respeita a configuração de direção: se definida como \"baixo\", ele só colocará no TOPO de blocos de pedra."
+      "text": "O Colocador de Blocos Avançado é uma versão aprimorada do $(l:justdirethings:mach_blockplacert1)Colocador de Blocos Simples$(/l).$(br2)Use os filtros para especificar sobre quais blocos ele pode colocar. Por exemplo, filtrar pedra só permitirá colocar sobre blocos de pedra. Esse filtro também respeita a configuração de direção: se definida como 'baixo', ele só colocará em CIMA de blocos de pedra."
     },
     {
       "type": "patchouli:crafting",

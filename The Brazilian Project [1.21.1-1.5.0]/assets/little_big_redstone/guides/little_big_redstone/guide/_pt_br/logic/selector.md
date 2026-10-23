@@ -5,7 +5,7 @@ navigation:
   parent: little_big_redstone:logic.md
   position: 21
 categories:
-  - Lógica
+  - logic
 item_ids:
   - little_big_redstone:selector
 ---
@@ -14,26 +14,25 @@ item_ids:
 
 <FloatingColumn width="100" align="right">
 	### Analógico
-	Os Seletores emitem um valor de sinal de saída igual ao valor do sinal de entrada. No caso do Modo Contador,
-	a maior força de sinal entre as entradas de incremento e decremento é usada para a força do sinal de saída.
+	Os Seletores produzem um valor de sinal de saída igual ao valor do sinal de entrada. No caso do uso do modo
+	Contador, a maior força de sinal entre as entradas de incremento e decremento é usada como força do sinal de saída.
 	
-	Alternativamente, quando o seletor está configurado para não passar o sinal, a força do sinal de saída será igual
-	ao índice (base 1). Por exemplo, a primeira saída emitirá um sinal de 1, a segunda 2, a terceira 3,
-	e assim por diante.
+	Alternativamente, quando o seletor está configurado para não deixar o sinal passar, a força do sinal de saída será
+	igual ao índice (base 1). Por exemplo, a primeira saída produzirá um sinal de saída 1, a segunda 2, a terceira 3, e
+	assim por diante.
 </FloatingColumn>
-
 
 <RecipeFor id="selector" />
 
-O seletor pode ter de 2 a 10 saídas, e apenas uma das saídas estará LIGADA em um dado momento. Existem
-dois modos para o seletor: Contador e Definidor (veja as seções abaixo para mais informações).
+O seletor pode ter de 2 a 10 saídas, e apenas uma das saídas ficará LIGADA por vez. Há dois modos para o seletor:
+Contador e Definidor (veja as seções abaixo para mais informações).
 
 ### Modo Contador
 
-Quando no modo contador, o seletor terá duas entradas. Quando LIGADA, a entrada superior moverá a saída LIGADA para a porta
-acima dela, ou saltará para a porta inferior se a saída LIGADA atual for a superior. A entrada inferior fará o oposto,
-o que significa que moverá a saída LIGADA para a porta abaixo dela, ou saltará para a porta superior se a saída LIGADA atual for a
-inferior.
+No modo contador, o seletor terá duas entradas. Quando LIGADA, a entrada de cima moverá a saída LIGADA para a
+porta acima dela, ou saltará para a porta de baixo se a saída LIGADA atual for a de cima. A entrada de baixo fará o
+oposto, ou seja, moverá a saída LIGADA para a porta abaixo dela, ou saltará para a porta de cima se a saída LIGADA
+atual for a de baixo.
 
 <Row>
 	<Column>
@@ -87,8 +86,9 @@ inferior.
 
 ### Modo Definidor
 
-Quando no modo definidor, o seletor terá tantas entradas quanto saídas. Cada entrada, quando LIGADA, definirá a
-saída correspondente para ser a saída LIGADA. Quando múltiplas entradas estão LIGADAS ao mesmo tempo, a saída mais baixa é selecionada.
+No modo definidor, o seletor terá tantas entradas quanto saídas. Cada entrada, quando LIGADA, definirá a saída
+correspondente como a saída LIGADA. Quando várias entradas estão LIGADAS ao mesmo tempo, a saída mais baixa é
+selecionada.
 
 <Row>
 	<Column>
@@ -135,11 +135,11 @@ saída correspondente para ser a saída LIGADA. Quando múltiplas entradas estã
 			<Wire from="east" fromPort="0" to="selector" toPort="2" />
 			<Wire from="west" fromPort="0" to="selector" toPort="3" />
 			<Wire from="up" fromPort="0" to="selector" toPort="4" />
-			<Wire from="selector" fromPort="0" to="output" to="0" />
-			<Wire from="selector" fromPort="1" to="output" to="1" />
-			<Wire from="selector" fromPort="2" to="output" to="2" />
-			<Wire from="selector" fromPort="3" to="output" to="3" />
-			<Wire from="selector" fromPort="4" to="output" to="4" />
+			<Wire from="selector" fromPort="0" to="output" toPort="0" />
+			<Wire from="selector" fromPort="1" to="output" toPort="1" />
+			<Wire from="selector" fromPort="2" to="output" toPort="2" />
+			<Wire from="selector" fromPort="3" to="output" toPort="3" />
+			<Wire from="selector" fromPort="4" to="output" toPort="4" />
 		
 			<RedstoneSignal step="0" direction="north" strength="15" />
 			<RedstoneSignal step="0" direction="south" strength="15" />

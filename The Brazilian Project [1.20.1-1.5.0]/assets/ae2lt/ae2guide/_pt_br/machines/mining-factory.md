@@ -11,7 +11,7 @@ item_ids:
 
 <BlockImage id="ae2lt:mining_factory" scale="4" />
 
-A **Fábrica de Mineração** produz os itens largados de mineração da tabela de saque de cada bloco sem colocar nem quebrar blocos. Insira itens de bloco junto com uma ferramenta com durabilidade ou um Plano de Aniquilação de AE2, depois conecte uma rede ME contendo Raios HV e forneça FE.
+A **Fábrica de Mineração** produz os itens largados de mineração da tabela de itens de cada bloco sem colocar nem quebrar blocos. Insira itens de bloco junto com uma ferramenta com durabilidade ou um Plano de Aniquilação de AE2, depois conecte uma rede ME contendo Raios HV e forneça FE.
 
 ## Processamento e custo
 

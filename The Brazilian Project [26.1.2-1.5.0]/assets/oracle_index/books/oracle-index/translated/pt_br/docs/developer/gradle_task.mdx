@@ -1,0 +1,20 @@
+---
+title: (Opcional) Sincronização Automática da Wiki com Gradle
+---
+
+É recomendado adicionar uma task do Gradle para sincronizar automaticamente o conteúdo do seu diretório "wiki" para o mod compilado. Uma task simples de Gradle do Architectury pode ter o seguinte formato:
+
+```
+tasks.named('processResources') {
+    from("$rootDir/wiki") {
+        into "assets/oracle_index/books/oritech"
+        exclude 'assets/item/**'   // items are rendered ingame as actual item components, no need to include them here
+    }
+    doLast {
+        println "processResources executed: wiki folder copied into assets/oracle_index"
+    }
+}
+```
+
+Os arquivos são adicionados à pasta "common/build/resources".
+Note que este exemplo foi feito para projetos multiplataforma do Architectury e adicionado ao arquivo build.gradle do projeto "common". Dependendo da configuração do seu mod, pode ser necessário ajustar isso.

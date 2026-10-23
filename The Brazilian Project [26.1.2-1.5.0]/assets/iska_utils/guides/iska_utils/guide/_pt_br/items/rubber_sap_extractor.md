@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:rubber_sap_extractor
 categories:
-  - Borracha e processamento
+  - Rubber and processing
 ---
 # Extrator de Seiva de Seringueira
 
@@ -15,8 +15,8 @@ categories:
 
 ## Automação
 
-- Extrai seiva de troncos de seringueira adjacentes; pode exigir energia.
+- Extrai seiva de troncos de borracha adjacentes; pode exigir energia.
 
 ## Saída
 
-- Encaminha a saída para inventários adjacentes ou a larga (veja o comportamento do bloco no mundo).
+- Encaminha a saída para inventários adjacentes ou a derruba (veja o comportamento do bloco no mundo).

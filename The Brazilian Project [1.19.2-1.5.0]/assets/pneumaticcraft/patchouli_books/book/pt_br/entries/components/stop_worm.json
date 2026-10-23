@@ -1,17 +1,17 @@
 {
-  "name": "Verme PARE!",
-  "icon": "pneumaticcraft:stop_worm",
-  "category": "pneumaticcraft:components",
-  "advancement": "pneumaticcraft:root",
-  "pages": [
-    {
-      "type": "text",
-      "text": "Este é um componente especial, usado apenas ao tentar hackear $(l:machines/security_station)Estações de Segurança/$. Ele não é fabricável e só pode ser encontrado em saque de masmorras ou (raramente) como troca de aldeão."
-    },
-    {
-      "type": "spotlight",
-      "item": "pneumaticcraft:stop_worm",
-      "text": "Aplicar um $(thing)Verme PARE!/$ durante uma invasão congelará temporariamente a $(l:components/network_components#diagnostic)Sub-rotina de Diagnóstico/$ da estação, impedindo que ela rastreie você."
-    }
-  ]
+    "name": "Verme PARE!",
+    "icon": "pneumaticcraft:stop_worm",
+    "category": "pneumaticcraft:components",
+    "advancement": "pneumaticcraft:root",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Este é um componente especial, usado apenas ao tentar hackear $(l:machines/security_station)Estações de Segurança/$. Não é fabricável e só pode ser encontrado em saque de masmorras ou (raramente) como troca de aldeão."
+        },
+        {
+            "type": "spotlight",
+            "item": "pneumaticcraft:stop_worm",
+            "text": "Aplicar um $(thing)Worm STOP!/$ durante o hack congelará temporariamente a $(l:components/network_components#diagnostic)Sub-rotina de Diagnóstico/$ da estação, impedindo-a de rastrear você."
+        }
+    ]
 }

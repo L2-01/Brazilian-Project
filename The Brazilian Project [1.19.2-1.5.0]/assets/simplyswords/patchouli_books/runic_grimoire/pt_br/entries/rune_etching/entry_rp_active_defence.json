@@ -1,0 +1,17 @@
+{
+    "name": "Defesa Ativa",
+    "icon": "simplyswords:runic_tablet",
+    "category": "simplyswords:category_rune_etching",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:runic_tablet",
+            "title": "Defesa Ativa",
+            "text": "A Defesa Ativa é um poder rúnico que imbui a arma do portador com a $(#389fff)$(l)essência de proteção$(). $(br2)Concede ao portador uma chance de disparar flechas periodicamente em inimigos próximos, desde que o portador tenha flechas no inventário."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Tenha em mente que este poder exige que o portador tenha flechas no inventário; se as flechas acabarem, o poder desativará e o portador terá que reabastecer antes de usá-lo novamente. $(br2)É ideal para personagens que dependem de kiting e controle de multidão, pois as flechas podem manter os inimigos à distância enquanto o portador se reposiciona."
+        }
+    ]
+}

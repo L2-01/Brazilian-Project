@@ -9,23 +9,23 @@
             "type": "patchouli:spotlight",
             "item": "bigreactors:reinforced_reactorsolidaccessport",
             "link_recipe": true,
-            "title" : "Porta de Acesso Sólido",
-            "text": "A Porta de Acesso Sólido converte materiais sólidos (geralmente lingotes) em reagentes combustíveis que encherão suas $(l:bigreactors:reactor/part-fuelrod)Barras de Combustível$(/l) e alimentarão seu Reator.$(br2)Na interface gráfica você pode definir o modo da Porta: no $(bold)modo entrada$() a Porta aceita materiais fonte de combustível, no $(bold)modo saída$() ela emite resíduos."
+            "title": "Porta de Acesso Sólido",
+            "text": "A Porta de Acesso Sólido converte materiais sólidos (geralmente lingotes) em reagentes de combustível que preencherão suas $(l:bigreactors:reactor/part-fuelrod)Barras de Combustível$(/l) e alimentarão seu Reator.$(br2)Na interface gráfica você pode definir o modo da Porta: no $(bold)modo de entrada$() a Porta aceitará materiais-fonte de combustível, no $(bold)modo de saída$() ela emitirá resíduos."
         },
         {
             "type": "patchouli:text",
-            "text": "Uma $(l:bigreactors:misc/wrench)chave$(/l) pode ser usada para mudar o modo da Porta.$(br2)A interface gráfica também pode ser usada para inserir e extrair materiais manualmente.$(br2)A Porta de Acesso Sólido é uma solução rápida para adicionar combustível ao seu Reator mas, como toda solução rápida, não é perfeita e uma pequena perda de material é inevitável."
+            "text": "Uma $(l:bigreactors:misc/wrench)chave-inglesa$(/l) pode ser usada para mudar o modo da Porta.$(br2)A interface gráfica também pode ser usada para inserir e extrair materiais manualmente.$(br2)A Porta de Acesso Sólido é uma solução rápida para adicionar combustível ao seu Reator mas, como toda solução rápida, não é perfeita e uma pequena perda de material é inevitável."
         },
         {
             "type": "bigreactors:crafting1x",
-            "title1": "Basic",
+            "title1": "Básico",
             "recipe1": "bigreactors:reactor/basic/solidaccessport",
-            "title2": "Reinforced",
+            "title2": "Reforçado",
             "recipe2": "bigreactors:reactor/reinforced/solidaccessport"
         },
         {
             "type": "bigreactors:part_usage",
-            "text": "$(l)Obrigatório:$() não, mas você vai precisar de algumas mesmo assim$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim$(br)$(l)Chave:$() uma $(l:bigreactors:misc/wrench)chave$(/l) pode ser usada para alternar o modo da Porta."
+            "text": "$(l)Obrigatória:$() não, mas você vai precisar de algumas de qualquer forma$(br)$(l)Posições válidas:$() qualquer face (não na moldura)$(br)$(l)Variantes:$() todas$(br)$(l)Interface gráfica:$() sim$(br)$(l)Chave-inglesa:$() uma $(l:bigreactors:misc/wrench)chave-inglesa$(/l) pode ser usada para alternar o modo da Porta."
         }
     ]
 }

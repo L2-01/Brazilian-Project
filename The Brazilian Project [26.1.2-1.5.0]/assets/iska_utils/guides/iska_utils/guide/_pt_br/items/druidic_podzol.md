@@ -7,29 +7,29 @@ navigation:
 item_ids:
   - iska_utils:druidic_podzol
 categories:
-  - Solos de Farm de Criaturas
+  - MobFarm Soils
 ---
 # Podzol Druídico
 
 <ItemImage id="iska_utils:druidic_podzol" />
 
-Use <ItemImage id="iska_utils:druidic_agglomeration" /> **Aglomeração Druídica** para conversão instantânea de manchas — veja aquela página.
+Use <ItemImage id="iska_utils:druidic_agglomeration" /> **Aglomeração Druídica** para conversão instantânea de trechos — veja essa página.
 
 ## Comportamento
 
-- Na **luz**, **cada** bloco de podzol roda seu próprio temporizador de geração para **animais do bioma**. Animais muito resistentes são pulados.
-- Na **escuridão**, o bloco **não faz nada** — sem gerações, **sem** mudança de bloco (diferente do Solo Entrópico → Terra Entrópica).
-- **Redstone** numa **mancha conectada** (um relógio na borda basta) coloca todo podzol iluminado daquela mancha em temporizadores rápidos de geração (como a terra deliciosa do Mob Grinding Utils): cada célula válida tenta com recarga própria de **20–60 tiques** (máx. **8** animais por perto por bloco). Atualizações de vizinhos renovam a marca da mancha e podem disparar uma tentativa imediata.
+- Na **luz**, **cada** bloco de podzol roda seu próprio temporizador de spawn para **animais do bioma**. Animais muito fortes são pulados.
+- Na **escuridão**, o bloco não faz **nada** — sem spawns, **sem** mudança de bloco (diferente de Solo Entrópico → Terra Entrópica).
+- **Redstone** num **trecho conectado** (um relógio na borda basta) coloca todo podzol iluminado daquele trecho em temporizadores rápidos de spawn (como a terra deliciosa do Mob Grinding Utils): cada bloco válido tenta no seu próprio cooldown de **20–60 tiques** (máx. **8** animais próximos por bloco). Atualizações de vizinhos renovam a marca do trecho e podem disparar uma tentativa imediata.
 
-## Espalhamento natural
+## Propagação natural
 
 - Converte lentamente apenas **terra e podzol** adjacentes — não grama, não solo/terra entrópica.
-- Não se espalha sobre podzol druídico já colocado.
+- Não se propaga para podzol druídico já colocado.
 
-## Itens Largados
+## Drops
 
-Quebra como podzol: larga **terra** a menos que minerado com **Toque Suave** (aí larga o bloco de podzol).
+Quebra como podzol: derruba **terra** a menos que minerado com **Toque Suave** (aí derruba o bloco de podzol).
 
 ## Contraste com o Solo Entrópico
 
-Veja **Solo Entrópico** para gerações na escuridão, decaimento na luz e restauração com **Gota de Entropia**. Espalhamento natural e aglomeração seguem as regras corruptivo vs. abençoado descritas em **Solos de Farm de Criaturas**.
+Veja **Solo Entrópico** para spawns na escuridão, degradação pela luz e restauração com **Gota de Entropia**. A propagação natural e a aglomeração seguem as regras corruptivo vs. abençoado descritas em **Solos de Farm de Criaturas**.

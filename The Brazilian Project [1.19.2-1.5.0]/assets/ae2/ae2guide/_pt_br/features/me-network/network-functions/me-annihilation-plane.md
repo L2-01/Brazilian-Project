@@ -4,13 +4,13 @@ categories:
 item_ids:
   - ae2:annihilation_plane
 navigation:
-  title: Plano de Aniquilação
+  title: Plano de Aniquilação ME
 ---
 
 O <ItemLink id="annihilation_plane"/> é uma
-parte feita para destruir qualquer bloco colocado à sua frente. Ele consegue armazenar em buffer uma única
-operação. Itens em buffer são automaticamente guardados no Armazenamento da [Rede ME](../../me-network.md)
-conforme o espaço fica disponível.
+parte projetada para destruir qualquer bloco colocado à sua frente. Ele pode armazenar em buffer uma única
+operação. Os itens em buffer serão armazenados automaticamente no armazenamento da
+[Rede ME](../../me-network.md) conforme houver espaço.
 
 Exige um [canal](../channels.md) para funcionar.
 

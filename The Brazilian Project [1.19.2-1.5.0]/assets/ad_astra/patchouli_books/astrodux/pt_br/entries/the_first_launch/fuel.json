@@ -1,0 +1,30 @@
+{
+  "name": "Combustível",
+  "icon": "ad_astra:fuel_bucket",
+  "sortnum": 2,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mesmo depois de colocar seu foguete, você ainda não poderá voar. Para voar, será preciso abastecer o foguete com combustível."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Obtendo Combustível",
+      "item": "ad_astra:oil_bucket",
+      "text": "O petróleo é encontrado em grandes quantidades jorrando sobre a superfície do oceano. Colete o máximo de petróleo que puder, pois ele não é renovável e você precisa de bastante para cada lançamento de foguete."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Obtendo Combustível",
+      "item": "ad_astra:fuel_bucket",
+      "text": "Depois de coletar petróleo suficiente (pelo menos seis baldes para a ida e a volta), será preciso refiná-lo em combustível. Para isso, fabrique uma refinaria de combustível. Energize-a, coloque o petróleo no espaço esquerdo e ele será refinado em combustível."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Refinaria de Combustível",
+      "recipe": "ad_astra:recipes/fuel_refinery",
+      "text": "Pressione Shift e clique no foguete para abrir seu inventário, depois coloque três baldes de combustível no espaço de entrada. Coloque os outros três baldes no inventário do foguete para a viagem de volta."
+    }
+  ]
+}

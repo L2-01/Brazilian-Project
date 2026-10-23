@@ -8,12 +8,12 @@
   "pages": [
     {
       "type": "text",
-      "text": "O $(item)Infundidor de Máquinas$() usa $(l:rftoolsbase:basics/dimensional_shards)Fragmentos Dimensionais$() para $(thing)melhorar a eficiência$() de muitas máquinas. Para a maioria das coisas, infundi-las reduzirá seu consumo de energia. Alguns dispositivos terão benefícios adicionais com a infusão. $(br2)$(thing)Infundir$() o Infundidor fará com que ele use menos energia."
+      "text": "O $(item)Infundidor de Máquinas$() usa $(l:rftoolsbase:basics/dimensional_shards)Fragmentos Dimensionais$() para $(thing)melhorar a eficiência$() de muitas máquinas. Para a maioria das coisas, infundi-las reduzirá seus requisitos de energia. Alguns dispositivos terão benefícios adicionais da infusão. $(br2)$(thing)Infundir$() o Infundidor fará com que ele use menos energia."
     },
     {
       "type": "crafting",
       "recipe": "rftoolsbase:machine_infuser",
-      "text": "Veja na página seguinte usos adicionais para o Infundidor de Máquinas, dependendo de quais outros mods você tem instalados."
+      "text": "Veja a página seguinte para usos adicionais do Infundidor de Máquinas, dependendo de quais outros mods você tem instalados."
     },
     {
       "type": "text",
@@ -36,7 +36,7 @@
     {
       "type": "text",
       "flag": "mod:rftoolsdim",
-      "title": "RFTools Dimensions",
+      "title": "Dimensões do RFTools",
       "text": "$(li)$(l:rftoolsdim:dimlets/researcher)Pesquisador$() (+Velocidade) $(li)$(l:rftoolsdim:dimensions/dimension_builder)Construtor de Dimensões$() (+Velocidade)"
     },
     {

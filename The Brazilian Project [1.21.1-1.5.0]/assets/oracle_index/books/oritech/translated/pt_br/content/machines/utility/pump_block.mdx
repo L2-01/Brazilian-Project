@@ -1,0 +1,26 @@
+---
+title: Bomba
+id: oritech:pump_block
+type: block
+---
+
+A Bomba é usada para extrair grandes volumes de líquido do
+mundo.
+Quando colocada, ela estende um corpo para baixo até encontrar uma fonte
+de líquido, momento em que começa a varrer e drenar todo o
+corpo de fluido conectado.
+
+<center>
+<ModAsset location="oritech:area/pump" width={512} />
+</center>
+
+---
+
+**Drenagem de Grandes Corpos**
+
+A bomba pode drenar reservatórios de líquido de até 100.000
+blocos de tamanho. Para reservatórios maiores, ela pode não drenar tudo.
+Ela processa fluidos para o seu armazenamento interno a uma taxa de 4 baldes
+por segundo, com um consumo de energia de 512 RF por bloco removido.
+O processo de varredura para corpos de líquido muito grandes pode levar
+vários segundos para inicializar.

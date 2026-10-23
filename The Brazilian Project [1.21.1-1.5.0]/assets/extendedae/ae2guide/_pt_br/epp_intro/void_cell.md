@@ -11,12 +11,12 @@ item_ids:
 
 # Célula ME do Vazio
 
-Um condensador de bolso no gabinete.
+Um condensador de bolso para usar num gabinete.
 
 <ItemImage id="extendedae:void_cell" scale="4"></ItemImage>
 
-Uma Célula do Vazio deve ser particionada numa <ItemLink id="ae2:cell_workbench" /> antes do uso. Ela apaga tudo que
-corresponde ao seu filtro ou o condensa em <ItemLink id="ae2:matter_ball" />s ou <ItemLink id="ae2:singularity" />s, como um <ItemLink id="ae2:condenser" />.
+A Célula do Vazio precisa ser particionada na <ItemLink id="ae2:cell_workbench" /> antes do uso. Ela apaga tudo que
+corresponder ao seu filtro ou condensa os itens correspondentes em <ItemLink id="ae2:matter_ball" />s ou <ItemLink id="ae2:singularity" />s como um <ItemLink id="ae2:condenser" />.
 
 Clique com o botão direito nela para abrir a GUI de configuração.
 

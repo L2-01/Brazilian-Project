@@ -1,0 +1,25 @@
+{
+    "name": "Bases de Máquina",
+    "icon": "rftoolsbase:machine_base",
+    "category": "rftoolsbase:category_basics",
+    "pages": [
+        {
+            "type": "text",
+            "text": "As $(item)Bases de Máquina$() são semelhantes às $(l:rftoolsbase:basics/machine_frames)Estruturas de Máquina$() por serem um material de fabricação, porém as máquinas resultantes são um pouco diferentes. $(br2)As Bases de Máquina produzem máquinas com um quarto de bloco de altura e geralmente têm alguma forma de entrada ou saída de $(thing)redstone$()."
+        },
+        {
+            "type": "text",
+            "text": "Quando você coloca uma dessas máquinas, a direção para a qual ela fica virada é determinada por $(thing)qual borda do bloco seu cursor está mais próxima$(). $(br2)Pode ajudar imaginar um X no lado do bloco onde você está colocando a máquina e pensar em qual 'quarto' do X você está olhando. $(br2)A saída ficará virada para essa direção e a entrada virá da direção oposta."
+        },
+        {
+            "type": "text",
+            "text": "Isso é particularmente útil para colocar essas máquinas em espaços apertados ou em paredes — que é uma das características mais convenientes desses blocos. $(br2)Claro, se você não gostar da direção para a qual o bloco está virado, sempre pode usar a $(l:rftoolsbase:tools/smartwrench)Chave$() nele — basta clicar com o botão direito com a chave no Modo Chave para mudar a direção."
+        },
+        {
+            "type": "crafting",
+            "heading": "Base de Máquina",
+            "recipe": "rftoolsbase:machine_base",
+            "text": "A $(item)Base de Máquina$() não faz nada sozinha, mas é usada em muitas receitas como base para outros blocos."
+        }
+    ]
+}

@@ -9,25 +9,25 @@
       "item": "mystianapiary:input_block",
       "title": "Caixa de Abelhas",
       "anchor": "input",
-      "text": "A $(2)Caixa de Abelhas$() guarda suas abelhas, 27 no início e até 108 nos níveis mais altos. Largue gaiolas cheias do Productive Bees dentro dela.$(br2)Cada espaço mostra a abelha e uma $(#55ff55)barra verde$() de progresso. Suas abelhas ficam seguras mesmo se a estrutura quebrar."
+      "text": "A $(2)Caixa de Abelhas$() abriga suas abelhas — 27 no início e até 108 em níveis maiores. Solte gaiolas do Productive Bees cheias nela.$(br2)Cada espaço mostra a abelha e uma $(#55ff55)barra verde$() do progresso dela. Suas abelhas ficam seguras mesmo se a estrutura quebrar."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "mystianapiary:input_block",
       "title": "Fabricando a Caixa de Abelhas",
-      "text": "$(o)Estas páginas mostram a receita que o seu jogo realmente carregou, então um modpack que ajuste uma receita mostra a própria versão aqui. Se uma receita abaixo parecer vazia, seu pack a substituiu por algo que uma grade de fabricação não consegue exibir.$()"
+      "text": "$(o)Estas páginas mostram a receita que seu jogo realmente carregou, então um modpack que a ajuste mostra a própria versão aqui. Se uma receita abaixo parecer vazia, seu pack a substituiu por algo que uma grade de fabricação não consegue exibir.$()"
     },
     {
       "type": "patchouli:text",
       "title": "Dicas da Caixa de Abelhas",
-      "text": "$(li)Clique em um espaço com uma $(2)gaiola cheia$() para adicionar uma abelha$(li)Clique com uma $(2)gaiola vazia$() para tirar uma de volta$(li)Passe o cursor sobre uma abelha para ver seu nome e seus $(l:mystianapiary:gene_attributes)genes$()"
+      "text": "$(li)Clique num espaço com uma $(2)gaiola cheia$() para adicionar uma abelha$(li)Clique com uma $(2)gaiola vazia$() para tirar uma de volta$(li)Passe o mouse sobre uma abelha para ver seu nome e $(l:mystianapiary:gene_attributes)genes$()"
     },
     {
       "type": "patchouli:spotlight",
       "item": "mystianapiary:flower_block",
       "title": "Caixa de Flores",
       "anchor": "flower",
-      "text": "A $(2)Caixa de Flores$() guarda as flores e os blocos de que suas abelhas precisam, 27 espaços no início e até 108. Cada abelha procura aqui pela sua flor.$(br2)As flores $(2)nunca são consumidas$(), então uma de cada basta. Uma abelha sem flor válida apenas espera até você adicionar uma."
+      "text": "A $(2)Caixa de Flores$() guarda as flores e blocos que suas abelhas precisam — 27 espaços no início e até 108. Cada abelha procura sua flor aqui.$(br2)As flores $(2)nunca são consumidas$(), então uma de cada basta. Uma abelha sem flor válida só espera até você adicionar uma."
     },
     {
       "type": "patchouli:crafting",
@@ -37,14 +37,14 @@
     {
       "type": "patchouli:text",
       "title": "Dicas de Flores",
-      "text": "$(li)Algumas abelhas, como as lenhadoras e as de pedreira, escolhem um bloco válido aleatório a cada lote, então oferecer vários resulta numa mistura de produtos$(li)Muitas abelhas querem um bloco específico em vez de uma flor, como o minério da abelha de minério"
+      "text": "$(li)Algumas abelhas, como as lenhadoras e as mineradoras, escolhem um bloco válido aleatório a cada lote, então oferecer vários dá uma mistura de produtos$(li)Muitas abelhas querem um bloco específico em vez de uma flor, como o minério da abelha de minério"
     },
     {
       "type": "patchouli:spotlight",
       "item": "mystianapiary:output_block",
       "title": "Armazenamento",
       "anchor": "output",
-      "text": "O $(2)Armazenamento$() coleta tudo o que suas abelhas produzem, 27 espaços no início e até 108. Níveis mais altos também comportam muito mais por espaço.$(br2)Se encher, as abelhas pausam até haver espaço, então nada se perde."
+      "text": "O $(2)Armazenamento$() coleta tudo que suas abelhas produzem — 27 espaços no início e até 108. Níveis maiores também guardam bem mais por espaço.$(br2)Se encher, as abelhas pausam até haver espaço, então nada se perde."
     },
     {
       "type": "patchouli:crafting",
@@ -54,19 +54,19 @@
     {
       "type": "patchouli:spotlight",
       "item": "mystianapiary:input_block_t3",
-      "title": "Níveis das Caixas",
+      "title": "Níveis de Caixa",
       "anchor": "tiers",
-      "text": "As caixas de Abelhas, de Flores e de Armazenamento vêm cada uma em $(2)quatro níveis$(). Cada nível adiciona mais 27 espaços, até $(2)108$().$(br2)Você reconhece o nível de uma caixa pelo acabamento: simples, depois prata, ouro e ciano brilhante no topo."
+      "text": "As caixas de Abelhas, Flores e Armazenamento vêm cada uma em $(2)quatro níveis$(). Cada nível adiciona mais 27 espaços, até $(2)108$().$(br2)Você reconhece o nível de uma caixa pelo acabamento: simples, depois prata, ouro e ciano brilhante no topo."
     },
     {
       "type": "patchouli:text",
       "title": "Melhorando uma Caixa",
-      "text": "Duas formas de subir um nível:$(br2)$(li)Fabrique a caixa de nível superior e a coloque$(li)Use um item de $(2)Melhoria de Caixa$() numa caixa já colocada; ela sobe um nível e mantém tudo dentro$(br2)As melhorias sobem um nível por vez."
+      "text": "Duas formas de subir um nível:$(br2)$(li)Fabrique a caixa superior e coloque-a$(li)Use um item $(2)Melhoria de Caixa$() numa caixa já colocada — ele sobe um nível e mantém tudo dentro$(br2)As melhorias sobem um nível por vez."
     },
     {
       "type": "patchouli:text",
       "title": "Capacidade de Armazenamento",
-      "text": "Níveis mais altos de $(2)Armazenamento$() também comportam mais em cada espaço:$(br2)$(li)Itens: 64, depois 256, 1.024 e 4.096$(li)Fluido: 32k, 128k, 512k e 1 milhão de mB$(br2)As caixas de Abelhas e de Flores apenas ganham espaços extras."
+      "text": "Níveis maiores de $(2)Armazenamento$() também guardam mais em cada espaço:$(br2)$(li)Itens: 64, depois 256, 1.024 e 4.096$(li)Fluido: 32k, 128k, 512k e 1 milhão de mB$(br2)As caixas de Abelhas e Flores só ganham espaços extras."
     },
     {
       "type": "patchouli:crafting",
@@ -90,7 +90,7 @@
       "type": "patchouli:crafting",
       "recipe": "mystianapiary:output_block_t1",
       "recipe2": "mystianapiary:output_block_t2",
-      "title": "Níveis de Armazenamento"
+      "title": "Níveis do Armazenamento"
     },
     {
       "type": "patchouli:crafting",
@@ -100,7 +100,7 @@
     {
       "type": "patchouli:text",
       "title": "Itens de Melhoria de Caixa",
-      "text": "Os itens de melhoria abaixo sobem um nível de uma caixa já colocada, mantendo tudo dentro.$(br2)Cada um é construído em torno do item em torno do qual sua caixa é construída, então não há duas com a mesma receita."
+      "text": "Os itens de melhoria abaixo sobem um nível numa caixa já colocada, mantendo tudo dentro.$(br2)Cada um é construído em torno do item em torno do qual sua caixa é construída, então nenhum par compartilha receita."
     },
     {
       "type": "patchouli:crafting",
@@ -124,24 +124,24 @@
       "type": "patchouli:crafting",
       "recipe": "mystianapiary:output_upgrade_1",
       "recipe2": "mystianapiary:output_upgrade_2",
-      "title": "Melhorias de Armazenamento"
+      "title": "Melhorias do Armazenamento"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "mystianapiary:output_upgrade_3",
-      "title": "Melhoria de Armazenamento 3"
+      "title": "Melhoria do Armazenamento 3"
     },
     {
       "type": "patchouli:spotlight",
       "item": "mystianapiary:upgrade_block",
       "title": "Controlador",
       "anchor": "upgrade",
-      "text": "O $(2)Controlador$() opera o apiário e guarda as melhorias. Sua tela mostra quantas abelhas estão trabalhando e se a estrutura está inteira.$(br2)Seus cinco espaços aceitam:$(br)$(li)Velocidade$(li)Produtividade$(li)Bloco$(li)Amostrador de Genes$(li)Centrífuga"
+      "text": "O $(2)Controlador$() comanda o apiário e abriga as melhorias. Sua tela mostra quantas abelhas estão trabalhando e se a estrutura está inteira.$(br2)Seus cinco espaços aceitam:$(br)$(li)Velocidade$(li)Produtividade$(li)Bloco$(li)Amostrador de Genes$(li)Centrífuga"
     },
     {
       "type": "patchouli:text",
       "title": "Melhorias",
-      "text": "Veja $(l:mystianapiary:upgrades)Melhorias$() para saber o que cada uma faz.$(br2)Elas são separadas dos níveis das caixas: uma melhora como as abelhas trabalham, a outra lhe dá mais espaço."
+      "text": "Veja $(l:mystianapiary:upgrades)Melhorias$() para o que cada uma faz.$(br2)Elas são separadas dos níveis de caixa — uma melhora como as abelhas trabalham, a outra dá mais espaço."
     },
     {
       "type": "patchouli:spotlight",
@@ -149,7 +149,7 @@
       "title": "Interface de Armazenamento ME",
       "anchor": "me_interface",
       "flag": "mod:ae2",
-      "text": "A $(2)Interface de Armazenamento ME$()$(br)ocupa uma das posições de Armazenamento e envia itens e fluidos diretamente para uma rede ME energizada. Apenas uma pode ser usada. Ela sempre tem prioridade na saída; as Caixas de Armazenamento físicas recebem tudo o que a rede rejeitar.$(br2)Clique nela agachado para alternar entre seus três modos de redstone. O excedente existente permanece na Caixa de Armazenamento depois que a rede se recuperar."
+      "text": "A $(2)Interface de Armazenamento ME$()$(br)ocupa qualquer posição de Armazenamento e envia itens e fluidos direto para uma rede ME energizada. Apenas uma pode ser usada. Ela sempre tem a primeira chance na saída; Caixas de Armazenamento físicas guardam tudo que a rede rejeitar.$(br2)Agache e use para alternar seus três modos de redstone. O excedente existente permanece na Caixa de Armazenamento depois que a rede se recuperar."
     },
     {
       "type": "patchouli:crafting",

@@ -1,18 +1,18 @@
 {
-	"name": "Pérola do Retorno",
-	"icon": "dimdungeons:item_homeward_pearl",
-	"category": "dimdungeons:artifacts",
-	"sortnum": 30,
-	"pages": [
-		{
-			"type": "spotlight",
-			"item": "dimdungeons:item_homeward_pearl",
-			"text": "A Pérola do Retorno é uma ferramenta útil que te teletransporta de volta à entrada da masmorra. Ela quebra depois de usada."
-		},
-		{
-			"type":   "crafting",
-			"recipe": "dimdungeons:recipe_item_homeward_pearl",
-			"text":   "Fabricar Pérolas do Retorno é um bom uso para chaves indesejadas!"
-		}
-	]
+    "name": "Pérola do Retorno",
+    "icon": "dimdungeons:item_homeward_pearl",
+    "category": "dimdungeons:artifacts",
+    "sortnum": 30,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "dimdungeons:item_homeward_pearl",
+            "text": "A Pérola do Retorno é uma ferramenta útil que teletransporta você de volta à entrada da masmorra. Ela quebra após o uso."
+        },
+        {
+            "type": "crafting",
+            "recipe": "dimdungeons:recipe_item_homeward_pearl",
+            "text": "Fabricar Pérolas do Retorno é um bom uso para chaves indesejadas!"
+        }
+    ]
 }

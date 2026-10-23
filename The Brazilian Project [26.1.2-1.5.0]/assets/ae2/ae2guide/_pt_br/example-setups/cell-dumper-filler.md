@@ -7,21 +7,21 @@ navigation:
 
 # Esvaziador ou Enchedor de Células
 
-Alguém pode perguntar "Como eu esvazio rapidamente uma célula num baú ou fileira de gavetas ou mochila, ou, inversamente, encho uma célula a partir dos mesmos?"
+Alguém pode perguntar: "Como eu esvazio rapidamente uma célula em um baú, um conjunto de gavetas ou uma mochila — ou, inversamente, encho uma célula a partir deles?"
 
-A resposta é o uso de um <ItemLink id="io_port" /> e um pouco de sub-rede para restringir onde ele pode colocar os itens, ou de onde puxá-los.
+A resposta é usar um <ItemLink id="io_port" /> e um pouco de sub-redes para restringir onde ele pode colocar os itens ou de onde puxá-los.
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/cell_dumper_filler.snbt" />
 
 <BoxAnnotation color="#dddddd" min="1 1 0" max="2 2 1">
-        (1) Porto de Entrada/Saída para Itens e Fluidos: Pode ser configurado para "Transferir dados para a Rede" ou "Transferir dados para a Célula de Armazenamento" usando o botão de seta
+        (1) Porto de E/S: Pode ser configurado para "Transferir dados à rede" ou "Transferir dados à Célula de Armazenamento" usando o botão de seta
         no meio da GUI. Tem 3 Cartões de Aceleração.
         <ItemImage id="speed_card" scale="2" />
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="0 0.7 0" max="1 1 1">
-        (2) Ponto de Armazenamento: Na sua configuração padrão.
+        (2) Storage Bus: Em sua configuração padrão.
   </BoxAnnotation>
 
 <BoxAnnotation color="#33dd33" min="0 1 0" max="1 2 1">
@@ -33,7 +33,7 @@ A resposta é o uso de um <ItemLink id="io_port" /> e um pouco de sub-rede para 
   </BoxAnnotation>
 
 <DiamondAnnotation pos="3 0.5 0.5" color="#00ff00">
-        Para alguma fonte de energia, como outra rede, ou um aceitador de energia.
+        Para alguma fonte de energia, como outra rede ou um aceitador de energia.
     </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
@@ -41,26 +41,26 @@ A resposta é o uso de um <ItemLink id="io_port" /> e um pouco de sub-rede para 
 
 ## Configurações
 
-* O <ItemLink id="io_port" /> (1) pode ser configurado para "Transferir dados para a Rede" ou "Transferir dados para a Célula de Armazenamento" usando o botão de seta
-  no meio da GUI. Tem 3 cartões de aceleração para velocidade máxima.
-* O <ItemLink id="storage_bus" /> (2) está na sua configuração padrão.
+* O <ItemLink id="io_port" /> (1) pode ser configurado para "Transferir dados à rede" ou "Transferir dados à Célula de Armazenamento" usando o botão de seta
+  no meio da GUI. Ele tem 3 cartões de aceleração para velocidade máxima.
+* O <ItemLink id="storage_bus" /> (2) está em sua configuração padrão.
 
 ## Como Funciona
 
-### No Modo "Transferir para a Rede"
+### No Modo "Transferir à Rede"
 
 1. O <ItemLink id="io_port" /> tenta despejar o conteúdo da [célula de armazenamento](../items-blocks-machines/storage_cells.md) inserida
-    no [armazenamento da rede](../ae2-mechanics/import-export-storage.md).
-2. O único armazenamento na sub-rede é o <ItemLink id="storage_bus" />, que armazena os itens ou fluidos ou etc. no que quer que
-    você tenha colocado à frente dele.
+    no [armazenamento de rede](../ae2-mechanics/import-export-storage.md).
+2. O único armazenamento da sub-rede é o <ItemLink id="storage_bus" />, que armazena os itens, fluidos etc. em o que quer que
+    você coloque à frente dele.
 * A <ItemLink id="energy_cell" /> fornece um buffer de [energia](../ae2-mechanics/energy.md) grande o suficiente para que a rede não
-    se esgote pelo consumo de energia de transferir tantos itens por tique de jogo.
+    fique sem energia pelo consumo de transferir tantos itens por tick.
 
-### No Modo "Transferir para a Célula de Armazenamento"
+### No Modo "Transferir à Célula de Armazenamento"
 
 1. O <ItemLink id="io_port" /> tenta despejar o conteúdo do [armazenamento da rede](../ae2-mechanics/import-export-storage.md)
    na [célula de armazenamento](../items-blocks-machines/storage_cells.md) inserida.
-2. O único armazenamento na sub-rede é o <ItemLink id="storage_bus" />, que puxa os itens ou fluidos ou etc. do que quer que
-   você tenha colocado à frente dele.
+2. O único armazenamento da sub-rede é o <ItemLink id="storage_bus" />, que puxa os itens, fluidos etc. para fora do que quer que
+   você coloque à frente dele.
 * A <ItemLink id="energy_cell" /> fornece um buffer de [energia](../ae2-mechanics/energy.md) grande o suficiente para que a rede não
-  se esgote pelo consumo de energia de transferir tantos itens por tique de jogo.
+  fique sem energia pelo consumo de transferir tantos itens por tick.

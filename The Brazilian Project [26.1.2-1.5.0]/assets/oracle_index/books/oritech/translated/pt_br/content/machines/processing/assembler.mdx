@@ -1,0 +1,36 @@
+---
+title: Montadora
+id: oritech:assembler
+type: block
+custom:
+    Capacidade de RF: "50,000"
+    RF/t: "128"
+    Núcleos necessários: "3"
+    Espaços de complemento: "3"
+---
+
+A montadora possui uma grade de fabricação 2x2 e monta
+itens automaticamente, desde que tenha energia, itens nos espaços de entrada
+e espaço para o produto final no espaço de saída.
+
+Alguns componentes de máquina podem ser fabricados sem uma montadora,
+mas fazer isso consome significativamente mais recursos.
+
+A ordem dos componentes nos espaços de entrada não importa. Se uma máquina precisa de 2 unidades do mesmo item, ela também pode pegar ambas
+do mesmo espaço.
+
+## Automação
+
+Para controle fino da entrada de itens, um complemento de proxy de inventário pode ser usado para controlar quais itens vão para onde. Alternativamente,
+a montadora também tem diferentes modos de entrada. As variantes "Preencher Uniformemente" ou "Por Lados" podem facilitar muito a automação em algumas configurações.
+
+A automação também pode ser feita via AE2 / RS2. Os fornecedores de padrões funcionam diretamente com a montadora.
+
+
+## Eficiência
+
+Usar a montadora é a forma recomendada de produzir componentes
+complexos como [motores](@oritech:motor) ou
+[bobinas magnéticas](@oritech:magnetic_coil).
+Fabricar esses componentes manualmente é possível, mas consome mais
+recursos do que usar a montadora.

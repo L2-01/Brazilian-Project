@@ -1,0 +1,43 @@
+{
+    "name": "Níveis 60 - 80",
+    "icon": "apotheosis:dormant_deepshelf",
+    "category": "apotheosis:enchanting/progression",
+    "flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "title": "Alcançando o Nível 70",
+            "recipe": "apotheosis:dormant_deepshelf",
+            "text": "Alcançar o Nível 70 exige uma Mesa de Encantamentos de Nível 60 e acesso à Ardosiabissal."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Alcançando o Nível 70",
+            "text": "Depois de fabricar uma $(9)Estante das Profundezas Adormecida$(), você precisa infundi-la.$(p)Essa receita de infusão exigirá alguns blocos extras para atingir o limite de atributos.$(p)Concluir a infusão produzirá uma $(9)Estante das Profundezas$(), que pode levá-lo ao Nível 70."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Alcançando o Nível 75",
+            "text": "Para chegar ao nível 75, você precisará aprimorar suas Estantes das Profundezas.$(p)Isso exige materiais encontrados apenas nas $(9)Profundezas Sombrias$().$(p)$(9)Fragmentos de Eco$() podem ser saqueados na Cidade Ancestral, e $(9)Sculk$() pode ser coletado com Toque Suave."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Alcançando o Nível 75",
+            "recipe": "apotheosis:echoing_deepshelf",
+            "recipe2": "apotheosis:soul_touched_deepshelf"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:warden",
+            "title": "Alcançando o Nível 80",
+            "scale": 0.95,
+            "text": "O último passo para o Nível 80 exige matar o $(9)Sentinela$(), o que permite fabricar $(9)Estantes de Sculk$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Alcançando o Nível 80",
+            "recipe": "apotheosis:echoing_sculkshelf",
+            "recipe2": "apotheosis:soul_touched_sculkshelf"
+        }
+    ]
+}

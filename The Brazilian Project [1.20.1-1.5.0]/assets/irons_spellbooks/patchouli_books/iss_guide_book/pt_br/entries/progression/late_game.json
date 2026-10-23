@@ -8,7 +8,7 @@
     {
       "type": "patchouli:text",
       "title": "Bigorna Arcana",
-      "text": "O fim de jogo é alcançado ao obter netherita e vastas quantidades de recursos básicos, e é movido pela Bigorna Arcana.$(br2)A Bigorna Arcana é a estação de fabricação mais poderosa, usada para subir o nível dos seus pergaminhos, melhorar armaduras e livros de feitiços, e imbuir armas com feitiços."
+      "text": "O fim de jogo é alcançado obtendo netherita e vastas quantidades de recursos básicos, e é impulsionado pela Bigorna Arcana.$(br2)A Bigorna Arcana é a estação de fabricação mais poderosa, usada para aprimorar seus pergaminhos, melhorar armaduras e livros de feitiços, e imbuir armas com feitiços."
     },
     {
       "type": "patchouli:crafting",
@@ -17,7 +17,7 @@
     {
       "type": "patchouli:crafting",
       "title": "Mais Livros de Feitiços",
-      "text": "Os melhores livros de feitiços fabricáveis estão aqui. O livro arruinado é encontrado nas Cidades Antigas",
+      "text": "Os melhores livros de feitiços fabricáveis são mostrados aqui. O livro arruinado é encontrado em Cidades Ancestrais",
       "recipe": "irons_spellbooks:netherite_spell_book"
     },
     {
@@ -29,19 +29,19 @@
       "type": "patchouli:crafting",
       "recipe": "irons_spellbooks:cryomancer_helmet",
       "recipe2": "irons_spellbooks:pyromancer_helmet",
-      "title": "Armaduras de Escola"
+      "title": "Armadura de Escola"
     },
     {
       "type": "patchouli:entity",
-      "name": "Ex.: Armadura de Criomante",
+      "name": "Ex: Armadura de Criomante",
       "entity": "minecraft:armor_stand{ArmorItems:[{id:'irons_spellbooks:cryomancer_boots',Count:1b},{id:'irons_spellbooks:cryomancer_leggings',Count:1b},{id:'irons_spellbooks:cryomancer_chestplate',Count:1b},{id:'irons_spellbooks:cryomancer_helmet',Count:1b}],NoBasePlate:1b}",
-      "text": "A armadura de escola é feita de Tecido Arcano e uma runa de escola específica, seguindo este modelo"
+      "text": "A armadura de escola é feita de tecido arcano e uma runa de escola específica, seguindo este modelo"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irons_spellbooks:upgrade_orb",
       "title": "Melhorias",
-      "text": "As melhorias são a forma final de progressão. Por padrão, qualquer armadura, assim como livros de feitiços, pode ser melhorada.$(br2)Orbes de melhoria de um atributo específico são feitos a partir de um Orbe de Melhoria Vazio e 8 runas do atributo desejado."
+      "text": "Melhorias são a forma final de progressão. Por padrão, qualquer armadura, assim como livros de feitiços, pode ser melhorada.$(br2)Orbes de melhoria de um atributo específico são feitos de um orbe de melhoria base e 8 runas do atributo desejado."
     },
     {
       "type": "patchouli:crafting",
@@ -67,12 +67,12 @@
           "F": "minecraft:soul_fire"
         }
       },
-      "text": "O mithril é um minério raro da Superfície, encontrado abaixo de y = -38 e sem exposição ao ar. Requer uma picareta de netherita."
+      "text": "Mithril é um minério raro da Superfície, encontrado abaixo de y = -38 e sem exposição ao ar. Requer uma picareta de netherita."
     },
     {
       "type": "patchouli:entity",
       "entity": "irons_spellbooks:citadel_keeper",
-      "text": "A Essência de Cinzas é largada pelos Cavaleiros Ancestrais, que podem ser despertados ao quebrar Pilhas de Armaduras no Nether."
+      "text": "A Essência de Cinzas é largada por Cavaleiros Ancestrais, que podem ser despertados quebrando pilhas de armaduras no nether."
     }
   ]
 }

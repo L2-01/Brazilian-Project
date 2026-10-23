@@ -1,0 +1,17 @@
+# Componentes de Dados Úteis
+
+Há vários componentes de dados úteis que podem ser aplicados a itens que não os têm por padrão.
+
+## Caminhar sobre Fluidos
+
+As [Botas de Caminhada na Água](@irregular_implements:water_walking_boots) e similares não têm, na verdade, nenhum código especial exclusivo delas. Em vez disso, elas apenas usam o componente de dados `irregular_implements:can_stand_on_fluids`, que aceita uma lista de Tags de Fluido.
+
+O mod procura qualquer armadura vestida e itens de Curio que tenham esse componente de dados, e obtém todas as tags especificadas nos seus componentes. Se o jogador estiver sobre um fluido com qualquer uma dessas tags, ele é tratado como se estivesse em solo firme.
+
+Isso significa que você pode dar a um Cavalo uma `minecraft:diamond_horse_armor[irregular_implements:can_stand_on_fluids=["minecraft:water"]]` e ele conseguirá andar sobre a água.
+
+## Varinha de Radiestesia
+
+As [Varinhas de Radiestesia](@irregular_implements:divining_rod) usam o componente de dados `irregular_implements:divine_blocks`, que aceita uma tag de bloco. Enquanto segurada em qualquer uma das mãos, blocos próximos com aquela tag brilham através das paredes.
+
+Você pode adicionar esse componente a qualquer item para dar a ele o mesmo efeito.

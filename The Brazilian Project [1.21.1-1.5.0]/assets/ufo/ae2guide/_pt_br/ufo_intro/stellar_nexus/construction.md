@@ -1,16 +1,16 @@
 ---
 navigation:
   parent: ufo_intro/stellar_nexus.md
-  title: Estrutura e Núcleo de Campo
+  title: Estrutura e Núcleo de Campos
   icon: ufo:entropy_singularity_casing
   position: 10
 ---
 
-# Estrutura e Núcleo de Campo do Nexus Estelar
+# Estrutura e Núcleo de Campos do Nexus Estelar
 
 A topologia atual do Nexus abrange **35×34×35**. A cena é gerada diretamente
-do padrão de produção; nenhum mockup conceitual é usado. Cenas grandes podem levar
-um momento para inicializar. Arraste para girar e dar zoom.
+do padrão de produção; nenhuma maquete conceitual é usada. Cenas grandes podem demorar
+um instante para inicializar. Arraste para girar e aproximar.
 
 <GameScene zoom="1.25" background="transparent" interactive={true}>
   <ImportStructure src="../../assets/assemblies/stellar_nexus.snbt" />
@@ -30,4 +30,4 @@ um momento para inicializar. Arraste para girar e dar zoom.
 
 Algumas posições de carcaça aceitam os papéis de escotilha exigidos em vez da
 Carcaça de Singularidade padrão. O Nexus não faz parte da nova família universal 5×5; use
-seu próprio visualizador JEI/resultado de varredura e não transplante outra topologia.
+seu próprio visualizador JEI/resultado de escaneamento e não transplante outra topologia.

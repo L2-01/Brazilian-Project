@@ -19,13 +19,13 @@ item_ids:
   <ItemImage id="extendedae_plus:entity_speed_card" tag="{'EAS:mult':16}" scale="3" />
 </Row>
 
-O **Cartão de Velocidade de Entidade** é um componente de upgrade que pode ser inserido no <ItemLink id="extendedae_plus:entity_speed_ticker" /> para fornecer vários níveis de aceleração.  
+O **Cartão de Velocidade de Entidade** é um componente de melhoria que pode ser inserido no <ItemLink id="extendedae_plus:entity_speed_ticker" /> para fornecer vários níveis de aceleração.
 O nível do cartão determina diretamente o **limite máximo do multiplicador de aceleração** que o Acelerador de Entidade pode alcançar.
 
-## Níveis de Cartão e Efeitos
+## Níveis e Efeitos dos Cartões
 
-Um Acelerador de Entidade pode conter até **4 cartões de velocidade** simultaneamente.  
-O multiplicador de aceleração final é igual ao **produto dos multiplicadores base de todos os cartões inseridos**, mas **não pode exceder** o **limite máximo de velocidade** definido pelo **cartão de maior nível** instalado.
+Um Acelerador de Entidade comporta até **4 cartões de velocidade** simultaneamente.
+O multiplicador final de aceleração é o **produto dos multiplicadores base de todos os cartões inseridos**, mas **não pode exceder** o **limite máximo de velocidade** definido pelo **cartão de maior nível** instalado.
 
 | Tipo de Cartão | Multiplicador Base | Limite Máximo de Velocidade (por cartão) |
 | :--- | :--- | :--- |
@@ -34,7 +34,7 @@ O multiplicador de aceleração final é igual ao **produto dos multiplicadores 
 | Cartão de Velocidade de Entidade (x8) | ×8 | ×256 |
 | Cartão de Velocidade de Entidade (x16) | ×16 | ×1024 |
 
-> **Regra de Inserção Mista**:  
+> **Regra de Inserção Mista**:
 > Ao misturar cartões de níveis diferentes, o multiplicador total é o produto de todos os multiplicadores base, mas o resultado final **não pode exceder** o **limite máximo de velocidade** do cartão de maior nível instalado.
 >
 > **Exemplo**: Insira um **cartão x2** e três **cartões x4**.

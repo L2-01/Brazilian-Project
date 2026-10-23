@@ -1,0 +1,12 @@
+{
+    "name": "Injetor de Pérolas",
+    "icon": "rftoolspower:pearl_injector",
+    "category": "rftoolspower:category_rftoolspower_powergeneration",
+    "sortnum": 40,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Este bloco precisa ser colocado virado para um $(l:rftoolspower:powergeneration/endergenic)Gerador Endergênico$(/l) ou então diretamente abaixo dele. Esta máquina fornece a única forma de injetar uma pérola do ender no sistema de energia. Quando recebe um sinal de redstone, ela converte a pérola do ender numa pérola endergênica e a insere imediatamente no Gerador Endergênico adjacente. Se aquele gerador já estiver segurando uma pérola, nada acontece e a pérola se perde"
+        }
+    ]
+}

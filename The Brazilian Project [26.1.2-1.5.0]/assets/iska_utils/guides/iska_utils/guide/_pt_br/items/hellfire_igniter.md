@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:hellfire_igniter
 categories:
-  - Mundo e máquinas
+  - World and machines
 ---
 # Ignitor de Fogo Infernal
 
@@ -15,4 +15,4 @@ categories:
 
 ## Uso
 
-- Incendeia grandes áreas com segurança conforme as regras do mod; veja a dica no jogo para detalhes de uso.
+- Acende grandes áreas com segurança seguindo as regras do mod; veja o tooltip no jogo para detalhes de uso.

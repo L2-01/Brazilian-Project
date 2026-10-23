@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "Com um Controle Remoto você pode criar sua própria GUI para controlar remotamente $(l:tools/drone)Drones/$ ou $(l:machines/universal_sensor)Sensores Universais/$ via manipulação de $(l:programming/variables#global)variáveis globais/$. Note que com $(item)Sensores Universais/$, você pode usar o $(item)Controle Remoto/$ para criar redstone sem fio!$(p)Para começar a criar sua própria GUI, $(thing)agache e clique com o botão direito/$ no $(item)Controle Remoto/$ para abrir a janela do editor."
+      "text": "Com um Controle Remoto você pode criar sua própria GUI para controlar remotamente $(l:tools/drone)Drones/$ ou $(l:machines/universal_sensor)Sensores Universais/$ via manipulação de $(l:programming/variables#global)variáveis globais/$. Note que com $(item)Sensores Universais/$, você pode usar o $(item)Controle Remoto/$ para criar redstone sem fio!$(p)Para começar a criar sua própria GUI, $(thing)agache+clique com o botão direito/$ no $(item)Controle Remoto/$ para abrir a janela do editor."
     },
     {
       "type": "text",
-      "text": "Preencher a janela funciona de forma similar a como programar num $(l:programming/programmer)Programador/$ funciona; basta clicar e arrastar widgets do painel da direita para o painel principal à esquerda.$(p)Para copiar um widget, $(thing)clique com o botão do meio/$ e arraste um widget existente. Para editar as propriedades de um widget, $(thing)clique com o botão direito/$ no widget. Por exemplo, para um botão, isso abrirá a seguinte janela:"
+      "text": "Preencher a janela funciona de forma parecida com a programação num $(l:programming/programmer)Programador/$; basta clicar e arrastar widgets do painel direito para o painel principal à esquerda.$(p)Para copiar um widget, $(thing)clique com o botão do meio/$ e arraste um widget existente. Para editar as propriedades de um widget, $(thing)clique com o botão direito/$ nele. Por exemplo, para um botão, isso abrirá a seguinte janela:"
     },
     {
       "type": "image",
@@ -21,42 +21,42 @@
     },
     {
       "type": "text",
-      "text": "As seguintes propriedades são comuns a $(italic)todos/$ os widgets:$(li)$(thing)Texto/$ - o texto exibido no widget$(li)$(thing)Tooltip/$ - tooltip exibida ao passar o cursor sobre o widget$(li)$(thing)Variável de Ativação/$ - você pode controlar se o widget é exibido ou não vinculando-o a uma $(l:programming/coordinate_operator)variável/$. Ao dar valores aos campos X/Y/Z, você pode garantir que o widget só seja exibido se a variável vinculada for igual aos valores que você especificar."
+      "text": "As seguintes propriedades são comuns a $(italic)todos/$ os widgets:$(li)$(thing)Texto/$ - o texto exibido no widget$(li)$(thing)Tooltip/$ - dica exibida ao passar o mouse sobre o widget$(li)$(thing)Variável de Ativação/$ - você pode controlar se o widget é mostrado ou não vinculando-o a uma $(l:programming/coordinate_operator)variável/$. Dando valores aos campos X/Y/Z, você pode garantir que o widget só seja mostrado se a variável vinculada for igual aos valores especificados."
     },
     {
       "type": "text",
       "title": "Widget de Rótulo",
       "anchor": "label",
-      "text": "Este widget simplesmente exibe um texto, com uma tooltip opcional, para fins informativos. Embora o rótulo não possa $(italic)mudar/$ variáveis, ele pode $(italic)exibir/$ uma variável, usando a sintaxe $(thing)${#globalvarname}/$, o que pode ser útil para fins de depuração.$(p)O widget de Rótulo não tem campos além dos campos padrão."
+      "text": "Este widget simplesmente exibe um texto, com uma dica opcional, para fins informativos. Embora o rótulo não possa $(italic)mudar/$ variáveis, ele pode $(italic)exibir/$ uma variável, usando a sintaxe $(thing)${#globalvarname}/$, o que pode ser útil para depuração.$(p)O widget de Rótulo não tem campos além dos campos padrão."
     },
     {
       "type": "text",
       "title": "Widget de Botão",
-      "text": "O widget de Botão define o valor da variável vinculada quando pressionado.$(li)$(thing)Nome da Variável/$ - a $(l:programming/variables#global)variável global/$ vinculada.$(li)$(thing)Valor de Definição/$ - os valores X/Y/Z a atribuir à variável vinculada quando o botão é pressionado.$(li)$(thing)Largura/Altura/$ - dimensões do botão."
+      "text": "O widget de Botão define o valor da variável vinculada quando pressionado.$(li)$(thing)Nome da Variável/$ - a $(l:programming/variables#global)variável global/$ vinculada.$(li)$(thing)Valor a Definir/$ - os valores X/Y/Z a atribuir à variável vinculada quando o botão é pressionado.$(li)$(thing)Largura/Altura/$ - dimensões do botão."
     },
     {
       "type": "text",
       "title": "Widget de Caixa de Seleção",
-      "text": "O widget de Caixa de Seleção define o valor X da variável vinculada para 1 quando marcada e para 0 caso contrário.$(li)$(thing)Nome da Variável/$ - a $(l:programming/variables#global)variável global/$ vinculada."
+      "text": "O widget de Caixa de Seleção define o valor X da variável vinculada para 1 quando marcada, e para 0 caso contrário.$(li)$(thing)Nome da Variável/$ - a $(l:programming/variables#global)variável global/$ vinculada."
     },
     {
       "type": "text",
-      "title": "Widget de Lista Suspensa",
-      "text": "O widget de Lista Suspensa define o valor X da variável vinculada para o índice do elemento selecionado.$(li)$(thing)Elementos da lista suspensa/$ - uma lista de rótulos de texto separados por vírgula.$(li)$(thing)Nome da Variável/$ - a $(l:programming/variables#global)variável global/$ vinculada.$(li)$(thing)Ordenado/$ - se marcado, os elementos da lista serão ordenados alfabeticamente. Caso contrário, os elementos aparecerão na ordem em que você os forneceu."
+      "title": "Widget de Menu Suspenso",
+      "text": "O widget de Menu Suspenso define o valor X da variável vinculada para o índice do elemento selecionado.$(li)$(thing)Elementos do Menu/$ - uma lista de rótulos de texto separados por vírgula.$(li)$(thing)Nome da Variável/$ - a $(l:programming/variables#global)variável global/$ vinculada.$(li)$(thing)Ordenado/$ - se marcado, os elementos da lista serão ordenados alfabeticamente. Caso contrário, aparecerão na ordem em que você os forneceu."
     },
     {
       "type": "text",
       "title": "Exemplo",
-      "text": "Usando o botão $(thing)Pastebin/$ à esquerda da GUI do Editor, importe $(l:https://pastebin.com/4yxKG5Jc)este layout/$.$(p)Isso adiciona três caixas de seleção, definindo as variáveis globais $(thing)signal1, signal2 e signal3/$.$(p)Agora posicione três $(l:machines/universal_sensor)Sensores Universais/$ e dê um pouco de pressão a eles. Coloque uma $(l:base_concepts/upgrades#dispenser)Melhoria de Ejetor/$ em cada $(item)Sensor/$. Passe redstone de cada $(item)Sensor/$ (posicione-os a um bloco de distância para manter a redstone separada)."
+      "text": "Usando o botão $(thing)Pastebin/$ à esquerda da GUI do Editor, importe $(l:https://pastebin.com/4yxKG5Jc)este layout/$.$(p)Isso adiciona três caixas de seleção, definindo as variáveis globais $(thing)signal1, signal2 e signal3/$.$(p)Agora coloque três $(l:machines/universal_sensor)Sensores Universais/$ e dê um pouco de pressão a eles. Ponha uma $(l:base_concepts/upgrades#dispenser)Melhoria de Ejetor/$ em cada $(item)Sensor/$. Passe um pouco de redstone a partir de cada $(item)Sensor/$ (coloque-os a um bloco de distância para manter a redstone separada)."
     },
     {
       "type": "text",
       "title": "Exemplo (cont.)",
-      "text": "Na GUI de cada $(item)Sensor/$:$(li)Selecione o botão $(thing)Ejetor/$(li)Selecione $(thing)Mundo/$(li)Selecione $(thing)Variável Global/$(li)No campo de texto $(thing)Nome da Variável/$, insira 'signal1', 'signal2' e 'signal3' respectivamente.$(p)Agora, $(thing)clique com o botão direito/$ no seu $(item)Controle Remoto/$ e tente marcar/desmarcar cada caixa de seleção. O $(item)Sensor/$ correspondente emitirá um sinal de redstone conforme apropriado: redstone sem fio!"
+      "text": "Em cada GUI de $(item)Sensor/$:$(li)Selecione o botão $(thing)Ejetor/$(li)Selecione $(thing)Mundo/$(li)Selecione $(thing)Variável Global/$(li)No campo de texto $(thing)Nome da Variável/$, digite 'signal1', 'signal2' e 'signal3' respectivamente.$(p)Agora, $(thing)clique com o botão direito/$ no seu $(item)Controle Remoto/$ e tente marcar/desmarcar cada caixa de seleção. O $(item)Sensor/$ correspondente emitirá um sinal de redstone conforme o caso: redstone sem fio!"
     },
     {
       "type": "crafting",
-      "text": "Fabricando um Controle Remoto",
+      "text": "Fabricando Controle Remoto",
       "recipe": "pneumaticcraft:remote"
     }
   ]

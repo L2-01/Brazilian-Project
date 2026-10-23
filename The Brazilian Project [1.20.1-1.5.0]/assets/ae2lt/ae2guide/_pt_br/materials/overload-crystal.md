@@ -54,10 +54,10 @@ Toda vez que um broto cresce num bloco de drusa imperfeito, há uma chance de o 
 
 Os brotos de Cristal de Sobrecarga crescem por quatro estágios:
 
-1. **Broto de Cristal de Sobrecarga Pequeno** → deixa cair Pó de Cristal de Sobrecarga ao quebrar
-2. **Broto de Cristal de Sobrecarga Médio** → deixa cair Pó de Cristal de Sobrecarga ao quebrar
-3. **Broto de Cristal de Sobrecarga Grande** → deixa cair Pó de Cristal de Sobrecarga ao quebrar
-4. **Aglomerado de Cristais de Sobrecarga** (totalmente crescido) → deixa cair **Cristais de Sobrecarga** ao quebrar (Fortuna se aplica)
+1. **Cristal de Sobrecarga Pequeno** → deixa cair Pó de Cristal de Sobrecarga ao quebrar
+2. **Cristal de Sobrecarga Médio** → deixa cair Pó de Cristal de Sobrecarga ao quebrar
+3. **Cristal de Sobrecarga Grande** → deixa cair Pó de Cristal de Sobrecarga ao quebrar
+4. **Agregado de Cristal de Sobrecarga** (totalmente crescido) → deixa cair **Cristais de Sobrecarga** ao quebrar (Fortuna se aplica)
 
 ### Crescimento Acelerado
 

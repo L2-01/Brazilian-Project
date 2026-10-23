@@ -1,0 +1,15 @@
+{
+    "name": "Temporizador",
+    "icon": "rftoolsutility:timer",
+    "category": "rftoolsutility:category_rftoolsutility_logic",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O temporizador é um portão simples que enviará repetidamente um pulso de redstone. Você pode inserir qualquer valor para o atraso, podendo ser usado para timeouts muito longos"
+        },
+        {
+            "type": "text",
+            "text": "O especial deste temporizador é que ele reinicia quando ele mesmo recebe um pulso de redstone na entrada. Então, dados pulsos de entrada pontuais, este bloco nunca emitirá um pulso por conta própria. Usando esse recurso, este bloco pode ser usado para detectar que certa atividade está atrasada"
+        }
+    ]
+}

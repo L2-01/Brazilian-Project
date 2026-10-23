@@ -5,14 +5,14 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A $(d)Chave de Espectro$() pode ser usada para $(3)teletransportar-se a uma sala privada em outra dimensão$(), única para cada jogador.$(br2)Uma vez lá, você pode construir e guardar itens com segurança, e eles permanecerão lá sempre que você voltar. Saia usando a chave novamente ou clicando num dos blocos de Núcleo de Espectro no chão da sala.",
+      "text": "A $(d)Chave de Espectro$() pode ser usada para $(3)teleportar a uma sala privada em outra dimensão$(), única para cada jogador.$(br2)Lá, você pode construir e armazenar itens com segurança, e eles permanecerão lá sempre que você voltar. Saia usando a Chave novamente, ou clicando num dos blocos de Núcleo de Espectro no chão da sala.",
       "title": "Chave de Espectro"
     },
     {
       "type": "patchouli:spotlight",
       "item": "irregular_implements:spectre_key",
       "link_recipe": true,
-      "text": "A sala tem um piso de 16x16 blocos e começa com apenas 2 blocos de altura.$(br2)Você pode expandi-la verticalmente usando $(l:items/ectoplasm)Ectoplasma$(/l) nos blocos de Núcleo de Espectro.$(br2)Cada Ectoplasma aumenta a altura da sala em 1 bloco, e a pilha inteira será usada ao clicar."
+      "text": "A sala tem um chão de 16x16 blocos e começa com apenas 2 blocos de altura.$(br2)Você pode expandi-la verticalmente usando $(l:items/ectoplasm)Ectoplasma$(/l) nos blocos de Núcleo de Espectro.$(br2)Cada Ectoplasma aumenta a altura da sala em 1 bloco, e usará a pilha inteira ao ser clicado."
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+    "name": "Formulário de Pedido",
+    "icon": "petrock:orderform",
+    "category": "petrock:order_category",
+    "pages": [
+        {
+            "type": "text",
+            "title": "Formulário de Pedido",
+            "text": "Este é um formulário que você preenche automaticamente para obter sua pedra de estimação!"
+        },
+        {
+            "type": "crafting",
+            "recipe": "petrock:orderform",
+            "text": "Isso lhe dará uma Pedra de Estimação numa caixa!"
+        }
+    ]
+}

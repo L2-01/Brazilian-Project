@@ -9,14 +9,14 @@
             "type": "spotlight",
             "item": "bigreactors:reprocessorglass",
             "link_recipe": true,
-            "title" : "Vidro",
-            "text": "Os blocos de Vidro são blocos decorativos que podem ser usados no lugar de blocos de Revestimento para exibir o interior do Reprocessador."
+            "title": "Vidro",
+            "text": "Os blocos de Vidro são decorativos e podem ser usados no lugar de blocos de Revestimento para exibir o interior do Reprocessador."
         },
         {
             "type": "crafting-part_usage",
             "crafting.title1": "Vidro",
             "crafting.recipe1": "bigreactors:reprocessor/glass",
-            "usage.text": "$(l)Obrigatório:$() não$(br)$(l)Posições válidas:$() qualquer face vertical (não na moldura)$(br)$(l)Interface gráfica:$() não"
+            "usage.text": "$(l)Obrigatória:$() não$(br)$(l)Posições válidas:$() qualquer face vertical (não na moldura)$(br)$(l)Interface gráfica:$() não"
         }
     ]
 }

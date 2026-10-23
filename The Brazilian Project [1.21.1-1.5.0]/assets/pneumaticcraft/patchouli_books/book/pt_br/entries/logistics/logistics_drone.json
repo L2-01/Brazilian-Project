@@ -6,13 +6,13 @@
   "pages": [
     {
       "type": "text",
-      "text": "Os $(item)Drones de Logística/$ são um tipo especial de $(l:tools/drone)drone/$. Eles são um $(thing)Drone/$ de nível inferior, pois não são programáveis e ficam limitados a executar $(italic)somente/$ tarefas de logística."
+      "text": "$(item)Drones de Logística/$ são um tipo especial de $(l:tools/drone)drone/$. São um $(thing)Drone/$ de nível inferior, pois não são programáveis e se limitam a executar $(italic)apenas/$ tarefas de logística."
     },
     {
       "type": "spotlight",
-      "title": "Recarga Automática",
+      "title": "Carregamento Automático",
       "item": "pneumaticcraft:charging_station",
-      "text": "Como todos os tipos de Drone, esses drones requerem $(l:base_concepts/pressure)pressão/$ para operar e procurarão automaticamente $(l:tools/drone#charging)uma Estação de Carga com Melhoria de Ejetor/$ se estiverem com pouco ar."
+      "text": "Como todos os tipos de Drone, esses drones requerem $(l:base_concepts/pressure)pressão/$ para operar e procurarão automaticamente $(l:tools/drone#charging)uma Estação de Carga com uma Melhoria de Ejetor/$ se estiverem com pouco ar."
     },
     {
       "type": "entity",
@@ -21,12 +21,12 @@
     },
     {
       "type": "text",
-      "text": "Uma vez implantado, um $(item)Drone de Logística/$ operará em qualquer inventário/tanque com uma $(l:logistics/frames)Moldura de Logística/$ num cubo de 33x33x33 centrado no bloco onde o drone foi implantado.$(p)Como esses Drones frequentemente precisam mover itens, melhorias de $(l:base_concepts/upgrades#speed)Velocidade/$ e $(l:base_concepts/upgrades#inventory)Inventário/$ são recomendadas para velocidade de movimento e capacidade de carga."
+      "text": "Uma vez posicionado, um $(item)Drone de Logística/$ operará em qualquer inventário/tanque com uma $(l:logistics/frames)Moldura de Logística/$ num cubo de 33x33x33 centrado no bloco onde o drone foi posicionado.$(p)Como esses Drones frequentemente precisam mover itens, melhorias de $(l:base_concepts/upgrades#speed)Velocidade/$ e de $(l:base_concepts/upgrades#inventory)Inventário/$ são recomendadas para velocidade de movimento e capacidade de carga."
     },
     {
       "type": "crafting",
       "recipe": "pneumaticcraft:logistics_drone",
-      "text": "Fabricando um Drone de Logística"
+      "text": "Fabricando Drone de Logística"
     }
   ]
 }

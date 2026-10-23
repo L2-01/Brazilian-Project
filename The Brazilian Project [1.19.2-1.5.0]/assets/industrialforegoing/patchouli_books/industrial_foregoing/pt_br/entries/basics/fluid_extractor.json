@@ -1,0 +1,18 @@
+{
+  "name": "Extrator de Fluido",
+  "icon": "industrialforegoing:fluid_extractor",
+  "category": "industrialforegoing:basics",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O extrator de fluido extrairá $(l:basics/latex)látex$() da madeira colocada em frente à máquina. Vários extratores podem ser usados para extrair do mesmo tronco ao mesmo tempo. $(br2)A máquina começará a consumir o tronco e, uma vez consumido, removerá sua casca e o substituirá pela variante descascada; quando ela for consumida, desaparecerá. "
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_extractor",
+      "text": "$(br2)$(6)Cada tronco produzirá quantidades diferentes de látex; consulte o JEI para as taxas. $(6)Energia opcional: fornecer energia fará a máquina trabalhar mais rápido"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - iska_utils:sap
 categories:
-  - Borracha e processamento
+  - Rubber and processing
 ---
 # Extração de seiva
 
@@ -15,8 +15,8 @@ categories:
 
 ## Extração manual
 
-- Use um **Drenador** num tronco de borracha cheio para extrair **Seiva de Seringueira**.
-- O **Drenador Elétrico** é a variante movida a energia (veja a dica do item para uso).
+- Use um **Drenador** num tronco de borracha cheio para extrair **Seiva**.
+- O **Drenador Elétrico** é a variante energizada (veja o tooltip do item para o uso).
 
 ## Automação
 

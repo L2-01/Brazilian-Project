@@ -1,0 +1,48 @@
+---
+id: mffs:coercion_deriver
+type: block
+---
+
+# Derivador de Coerção
+
+O Derivador de Coerção é um membro da família de máquinas do MFFS.
+Ele é usado principalmente para gerar []($fortron) a partir de energia FE, da qual as outras máquinas do MFFS precisam para funcionar.
+O Derivador de Coerção foi projetado para trabalhar em conjunto com um [](@mffs:fortron_capacitor), carregando-o com
+[]($fortron).
+
+O []($fortron) é então distribuído às outras máquinas pelo [Capacitor](@mffs:fortron_capacitor).
+
+<PrefabObtaining />
+
+## Uso
+
+Para gerar []($fortron), conecte o Derivador de Coerção a uma fonte de FE e ative-o com um sinal de [Redstone](@redstone).
+Uma vez energizado e ativado, o Derivador de Coerção muda de vermelho para azul e começa a gerar []($fortron).
+
+Um Derivador de Coerção pode ser vinculado a outras máquinas do MFFS, como um [](@mffs:fortron_capacitor), definindo seu
+número de frequência igual ao das outras máquinas.
+
+Isso pode ser feito de duas formas:
+
+- Clicando com o botão direito no Derivador e digitando o número de frequência desejado na sua tela de GUI
+- Clicando com o botão direito agachado no Derivador de Coerção enquanto segura um [](@mffs:frequency_card)
+
+A capacidade do Derivador de Coerção de gerar []($fortron) pode ser amplificada com [Lápis-Lazúli](@lapis_lazuli) ou
+[Quartzo do Nether](@nether_quartz).
+Para isso, coloque um deles no espaço ao lado da seta. Isso deve aumentar a produção de []($fortron) em cerca de 20x.
+
+## Modos de operação
+
+O Derivador de Coerção tem dois modos de operação: Derivar e Integrar.
+Por padrão, ele vem em Derivar — ou seja, converte continuamente o FE fornecido em []($fortron).
+
+Clicar no botão de alternância Derivar no meio da tela de GUI troca seu modo de operação para Integrar
+e vice-versa. No modo Integrar, o Derivador funciona ao contrário, convertendo []($fortron) disponível de volta em FE.
+
+## Melhorias
+
+Um Derivador de Coerção pode ser aprimorado com vários módulos para melhorar seu desempenho.
+
+- [](@mffs:speed_module): Aumenta o efeito de impulso obtido ao inserir [Lápis-Lazúli](@lapis_lazuli) ou
+[Quartzo do Nether](@nether_quartz) no Derivador
+- [](@mffs:capacity_module): Aumenta a quantidade de []($fortron) que o Derivador consegue armazenar

@@ -1,0 +1,84 @@
+---
+title: Habilidades
+icon: minecraft:blaze_powder
+related_items: [kindredspirits:kindred_charm]
+---
+
+As habilidades são o que torna cada espécie digna de ser criada. Seu espírito **vinculado**
+as usa onde quer que vá, e qualquer outro espírito domesticado as usa enquanto
+recebe ordem de **Ficar** (veja Espíritos em Ficar abaixo). A tela do amuleto e a
+tooltip do amuleto listam todas as habilidades da sua espécie, em verde quando aprendidas e cinza
+com o requisito quando não, e seu espírito avisa no chat no momento em que
+aprende uma.
+
+## Como as habilidades desbloqueiam
+
+Cada habilidade tem um requisito, um **nível** ou um **nível de vínculo**. Toda
+espécie segue o mesmo formato:
+
+- **Nível 1**: seu ataque, mais um bônus base que funciona sempre para você.
+- **Vínculo 5**: uma especial que recompensa o tempo passado junto.
+- **Níveis intermediários**: alguns extras que variam por espécie.
+- **Nível 30**: sua ultimate.
+
+## Temporizadas, reativas e ativas
+
+A maioria das habilidades roda por tempo enquanto o espírito está fora. O vínculo acelera apenas o
+**bônus base**, a habilidade que cada espécie tem desde o nível 1: um bônus base temporizado roda
+**duas vezes mais vezes a partir do vínculo 15** e **quatro vezes mais no vínculo 30**, e o
+Sopro de Forja do Dragão Bebê alcança um bloco a mais em cada passo. Especiais
+e ultimates mantêm seu próprio ritmo.
+
+Algumas reagem a algo que você faz: acertar um golpe, fabricar, comer. Essas precisam do
+espírito por perto, geralmente num raio de 16 blocos.
+
+Um tipo você aciona por conta própria. Uma habilidade **ativa** mostra um botão sob o
+retrato na tela do amuleto, rotulado com os segundos restantes quando está em
+recarga. O Sopro de Fornalha é a única até agora, e `/kindredspirits smelt` faz o
+mesmo que o botão.
+
+## Desativando habilidades
+
+O botão Habilidades na tela do amuleto abre uma lista com um botão Sim / Não para
+cada habilidade que você desbloqueou. Não é não: a habilidade para de contar,
+para de reagir, deixa de contar como sua habilidade ativa e qualquer bônus de atributo que
+dava é removido. A Luz de Espírito e a Luz Noturna também removem as luzes que
+colocaram. A configuração fica com o espírito através de descanso, reviver e prestígio, e
+`/kindredspirits info` mostra uma habilidade desativada como "(off)".
+
+<Callout variant="info">
+    Desative a Luz de Espírito se preferir que sua Nightfox não decore sua
+    base, ou Alfa se estiver farmando criaturas perto do seu T-Rex.
+</Callout>
+
+## Espíritos em Ficar
+
+Um espírito domesticado sem vínculo com você usa suas habilidades enquanto está em Ficar, então
+você pode sentar espíritos pela base e deixá-los trabalhar: um Dragão Bebê junto às
+fornalhas, um T-Rex impedindo monstros de aparecer, um Gremlin junto às suas máquinas.
+Agache e clique nele com a mão vazia para mudar suas ordens. Ele usa as
+habilidades que aprendeu enquanto tinha vínculo e não ganha nível nem vínculo, e
+ainda não luta, então ataques como Bola Sombria e Sopro de Dragão não fazem
+nada. Habilidades que dão bônus a você funcionam quando você entra no alcance delas.
+
+**Clique nele com a mão vazia** para abrir sua lista de habilidades, com os mesmos
+botões Sim / Não da tela do amuleto, sem precisar de amuleto. A lista fica aberta enquanto
+você está num raio de 8 blocos. Quando sai de Ficar, suas habilidades param e ele remove
+quaisquer luzes que colocou.
+
+Quando vários espíritos poderiam responder à mesma habilidade reativa (fabricar perto de um
+Minijogador, comer perto de um Gremlin), só um responde: seu espírito vinculado primeiro;
+senão, o mais próximo em Ficar.
+
+## Alcance
+
+Qualquer coisa que dê bônus a você precisa de você perto, geralmente num raio de 12 ou 16 blocos. Seu
+espírito segue você de qualquer forma, então na prática isso só importa quando você o deixa
+em Ficar.
+
+<Callout variant="info">
+    As habilidades podem ser desativadas por completo na config comum, o que deixa
+    os espíritos como bichos decorativos.
+</Callout>
+
+Veja a página de cada espírito para a lista completa com números.

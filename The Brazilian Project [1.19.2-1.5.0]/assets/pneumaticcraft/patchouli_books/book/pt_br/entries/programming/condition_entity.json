@@ -1,23 +1,23 @@
 {
-  "name": "Widget de Condição: Entidade",
-  "icon": "pneumaticcraft:textures/progwidgets/condition_entity_piece.png",
-  "category": "pneumaticcraft:widget_cond",
-  "advancement": "pneumaticcraft:programmer",
-  "pages": [
-    {
-      "type": "text",
-      "text": "Este é um widget de $(l:programming/conditions)Condição/$.$(p)O widget $(thing)Condição: Entidade/$ permite contar entidades no widget $(l:programming/area)Área/$ conectado. Elas podem ser filtradas conectando um widget $(l:programming/text)Texto/$ opcional usado como $(l:base_concepts/entity_filter)Filtro de Entidade/$."
-    },
-    {
-      "type": "text",
-      "text": "Tenha em mente que quaisquer widgets $(l:programming/area)Área/$ conectados a este widget devem ter o tipo de área $(thing)Caixa/$; esta é a única forma suportada. É possível criar formas diferentes, porém, usando lista-branca/lista-negra de áreas."
-    },
-    {
-      "type": "image",
-      "images": [
-        "pneumaticcraft:textures/progwidgets/condition_entity_piece.png"
-      ],
-      "text": "$(italic)Widget de Condição: Entidade/$"
-    }
-  ]
+    "name": "Widget de Condição: Entidade",
+    "icon": "pneumaticcraft:textures/progwidgets/condition_entity_piece.png",
+    "category": "pneumaticcraft:widget_cond",
+    "advancement": "pneumaticcraft:programmer",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Este é um widget de $(l:programming/conditions)Condição/$.$(p)O widget $(thing)Condição: Entidade/$ permite contar entidades no widget de $(l:programming/area)Área/$ conectado. Elas podem ser filtradas conectando um widget de $(l:programming/text)Texto/$ opcional usado como $(l:base_concepts/entity_filter)Filtro de Entidades/$."
+        },
+        {
+            "type": "text",
+            "text": "Tenha em mente que quaisquer widgets de $(l:programming/area)Área/$ conectados a este widget devem ter o tipo de área $(thing)Caixa/$; é a única forma suportada. É possível criar formas diferentes, porém, usando lista-branca/lista-negra de áreas."
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/progwidgets/condition_entity_piece.png"
+            ],
+            "text": "$(italic)Widget de Condição: Entidade/$"
+        }
+    ]
 }

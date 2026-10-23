@@ -1,20 +1,20 @@
 {
-  "name": "Widget de Controle por Computador",
-  "icon": "pneumaticcraft:textures/progwidgets/computer_control_piece.png",
-  "category": "pneumaticcraft:widget_other",
-  "flag": "|mod:computercraft,mod:opencomputers",
-  "advancement": "pneumaticcraft:programmer",
-  "pages": [
-    {
-      "type": "text",
-      "text": "O widget $(thing)Controle por Computador/$ permite que $(l:tools/drone)Drones/$ sejam controlados via computadores $(thing)ComputerCraft/$ ou $(thing)OpenComputers/$. Veja a $(l:machines/drone_interface)Interface de Drone/$ para mais informações sobre como fazer isso."
-    },
-    {
-      "type": "image",
-      "images": [
-        "pneumaticcraft:textures/progwidgets/computer_control_piece.png"
-      ],
-      "text": "$(italic)Onde está minha mente/$"
-    }
-  ]
+    "name": "Widget de Controle de Computador",
+    "icon": "pneumaticcraft:textures/progwidgets/computer_control_piece.png",
+    "category": "pneumaticcraft:widget_other",
+    "flag": "|mod:computercraft,mod:opencomputers",
+    "advancement": "pneumaticcraft:programmer",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O widget de $(thing)Controle por Computador/$ permite que $(l:tools/drone)Drones/$ sejam controlados por computadores $(thing)ComputerCraft/$ ou $(thing)OpenComputers/$. Veja a $(l:machines/drone_interface)Interface de Drone/$ para mais informações sobre como fazer isso."
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/progwidgets/computer_control_piece.png"
+            ],
+            "text": "$(italic)Onde está minha mente/$"
+        }
+    ]
 }

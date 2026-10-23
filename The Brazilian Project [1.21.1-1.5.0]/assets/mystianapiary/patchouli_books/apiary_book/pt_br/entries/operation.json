@@ -7,27 +7,27 @@
     {
       "type": "patchouli:text",
       "title": "Adicionando Abelhas",
-      "text": "Coloque $(2)gaiolas do Productive Bees$() cheias na $(2)Caixa de Abelhas$(). Cada gaiola é uma abelha, e o apiário a opera ali mesmo, então nenhuma abelha jamais sai voando.$(br2)Tire uma abelha de volta clicando no espaço dela com uma gaiola vazia."
+      "text": "Coloque gaiolas cheias de $(2)Productive Bees$() na $(2)Caixa de Abelhas$(). Cada gaiola é uma abelha, e o apiário a trabalha ali mesmo, sem que nenhuma saia voando.$(br2)Retire uma abelha clicando em seu espaço com uma gaiola vazia."
     },
     {
       "type": "patchouli:text",
       "title": "Fornecendo Flores",
-      "text": "A maioria das abelhas precisa de uma certa flor ou bloco para trabalhar. Coloque o que elas querem na $(2)Caixa de Flores$().$(br2)Se a flor de uma abelha estiver faltando, ela simplesmente espera e recomeça no instante em que você adicionar uma."
+      "text": "A maioria das abelhas precisa de uma flor ou bloco específico para trabalhar. Coloque o que elas querem na $(2)Caixa de Flores$().$(br2)Se a flor de uma abelha estiver faltando, ela simplesmente espera e recomeça no instante em que você adicionar uma."
     },
     {
       "type": "patchouli:text",
       "title": "Produzindo",
-      "text": "Cada abelha leva um tempinho para fazer seu produto. Uma $(#55ff55)barra verde$() no espaço dela mostra o andamento.$(br2)Adicione $(l:mystianapiary:upgrades)melhorias de Velocidade$() ao Controlador para fazê-las trabalhar mais rápido."
+      "text": "Cada abelha leva um tempinho para fazer seu produto. Uma $(#55ff55)barra verde$() em seu espaço mostra o andamento.$(br2)Adicione $(l:mystianapiary:upgrades)melhorias de Velocidade$() ao Controlador para fazê-las trabalhar mais rápido."
     },
     {
       "type": "patchouli:text",
       "title": "Coletando",
-      "text": "Tudo o que as abelhas produzem cai no $(2)Armazenamento$(). Retire à mão ou com funis e tubos.$(br2)Se o Armazenamento encher, as abelhas simplesmente pausam até haver espaço de novo; nada jamais se perde."
+      "text": "Tudo o que as abelhas produzem cai no $(2)Armazenamento$(). Retire à mão ou com funis e canos.$(br2)Se o Armazenamento encher, as abelhas simplesmente pausam até haver espaço de novo — nada se perde."
     },
     {
       "type": "patchouli:text",
       "title": "Automação",
-      "text": "Funis, tubos e similares podem alimentar as caixas de $(2)Abelhas$() e de $(2)Flores$() e esvaziar o $(2)Armazenamento$(), então o apiário inteiro pode funcionar sozinho.$(br2)Quer mais de cada abelha? Veja $(l:mystianapiary:upgrades)Melhorias$()."
+      "text": "Funis, canos e similares podem alimentar as caixas de $(2)Abelhas$() e de $(2)Flores$() e esvaziar o $(2)Armazenamento$(), então o apiário inteiro pode operar sozinho.$(br2)Quer mais de cada abelha? Veja $(l:mystianapiary:upgrades)Melhorias$()."
     }
   ]
 }

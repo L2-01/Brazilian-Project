@@ -1,17 +1,17 @@
 {
-    "name": "Defesas Refletoras",
-    "icon": "minecraft:enchanted_book",
-    "category": "apotheosis:enchanting/enchantments",
-    "flag": "apotheosis:enchanting",
-    "sortnum": 1,
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "$(9)Defesas Refletoras$() é um encantamento de escudo.$(p)Cada ataque bloqueado tem uma chance de refletir uma porção do dano bloqueado de volta ao atacante.$(p)Cada reflexão custa um pouco de durabilidade do escudo."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "O dano refletido é transformado em dano mágico.$(p)Níveis suficientemente altos de $(9)Defesas Refletoras$() infligirão mais que o dano original."
-        }
-    ]
+	"name": "Defesas Refletoras",
+	"icon": "minecraft:enchanted_book",
+	"category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(9)Defesas Refletoras$() é um encantamento de escudo.$(p)Cada ataque bloqueado tem chance de refletir parte do dano bloqueado de volta ao atacante.$(p)Cada reflexão custa um pouco de durabilidade do escudo."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "O dano refletido é transformado em dano mágico.$(p)Níveis suficientemente altos de $(9)Defesas Refletoras$() infligirão mais que o dano original."
+		}
+	]
 }

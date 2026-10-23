@@ -19,8 +19,8 @@ item_ids:
   <ItemImage id="annihilation_core" scale="4" />
 </Row>
 
-Estes são os componentes primários dos [dispositivos](../ae2-mechanics/devices.md) de entrada e saída do AE2. Usando o poder do <ItemLink id="fluix_crystal" /> e
-de um [processador lógico](processors.md), eles permitem que dispositivos insiram e retirem itens, blocos, fluidos, etc. (Sem função real, apenas
+Estes são os componentes principais dos [dispositivos](../ae2-mechanics/devices.md) de entrada e saída do AE2. Usando o poder do <ItemLink id="fluix_crystal" /> e
+de um [processador lógico](processors.md), eles permitem que dispositivos insiram e retirem itens, blocos, fluidos etc. (Sem função real, apenas
 um intermediário de fabricação)
 
 ## Receitas

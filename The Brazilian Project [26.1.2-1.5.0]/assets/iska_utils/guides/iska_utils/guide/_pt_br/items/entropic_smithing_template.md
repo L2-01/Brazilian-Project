@@ -7,8 +7,8 @@ navigation:
 item_ids:
   - iska_utils:entropic_smithing_template
 categories:
-  - Materiais de Entropia
-  - Equipamento entrópico
+  - Entropy materials
+  - Entropic gear
 ---
 # Molde de Ferraria Entrópico
 
@@ -16,7 +16,7 @@ categories:
 
 ## O que faz
 
-Um **molde de ferraria** usado para melhorar ferramentas, armas e armaduras de **netherita** para versões **entrópicas**. **Consumido** quando você aplica uma melhoria numa bancada de ferraria (mesma ideia dos moldes de melhoria de netherita).
+Um **molde de ferraria** usado para melhorar ferramentas, armas e armaduras de **netherita** para versões **entrópicas**. **Consumido** ao aplicar uma melhoria numa mesa de ferraria (mesma ideia dos moldes de melhoria de netherita).
 
 ## Como obter
 
@@ -24,10 +24,10 @@ Feito de materiais avançados de entropia. Moldes existentes podem ser copiados 
 
 ## Como usar
 
-Numa **bancada de ferraria**:
+Numa **mesa de ferraria**:
 
-1. Coloque este molde no espaço de molde.
+1. Coloque este molde no slot de molde.
 2. Adicione o item base de **netherita** (espada, picareta, peça de armadura etc.).
-3. Adicione <ItemImage id="iska_utils:entropy_crystal" /> **Cristal de Entropia** no espaço de adição.
+3. Adicione <ItemImage id="iska_utils:entropy_crystal" /> **Cristal de Entropia** no slot de adição.
 
 O resultado é o item **entrópico** correspondente.
