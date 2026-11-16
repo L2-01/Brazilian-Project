@@ -1,0 +1,19 @@
+{
+  "name": "Forja do Fogo Infernal",
+  "icon": "bloodmagic:soulforge",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Forja do Fogo Infernal$() é uma das mecânicas centrais de criação do $(blood)Blood Magic$(), junto do próprio $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(/l). Aqui, você pode trabalhar com a $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will Demoníaca$() que colheu de criaturas, para criar $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Ferramentas Conscientes$(), incluindo a $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Espada Consciente$(), $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gemas Tartáricas$(), vários $(item)reagentes$(), $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Cinzas Arcanas$(), e muitas outras coisas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:soul_forge"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Todos os slots da $(item)Forja do Fogo Infernal$() são acessíveis por qualquer lado, mas ela prioriza certos slots sobre outros ao aceitar itens de lados diferentes. Cada uma das quatro direções cardeais"
+    }
+  ]
+}

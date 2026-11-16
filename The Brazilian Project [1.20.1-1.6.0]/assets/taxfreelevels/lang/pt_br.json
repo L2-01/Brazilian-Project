@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.taxfreelevels.title": "Tax Free Levels",
+  "text.autoconfig.taxfreelevels.option.levelBase": "Nível Base",
+  "text.autoconfig.taxfreelevels.option.levelBase.@Tooltip": "O nível do jogador a partir do qual a estabilização de custo começa.\nQuanto menor a base, maior a redução de taxa.\n\n0 remove toda a taxa.\n30 é uma base razoável se os custos do início do jogo não devem mudar.\n\nNote que para a Mesa de Encantamentos, a base nunca\nficará abaixo do requisito de nível da mesa.",
+  "text.autoconfig.taxfreelevels.option.removeAnvilLimit": "Remover Limite da Bigorna",
+  "text.autoconfig.taxfreelevels.option.removeAnvilLimit.@Tooltip": "Remove o limite de custo de 40 da Bigorna e a\nmensagem \"Muito Caro!\" correspondente."
+}

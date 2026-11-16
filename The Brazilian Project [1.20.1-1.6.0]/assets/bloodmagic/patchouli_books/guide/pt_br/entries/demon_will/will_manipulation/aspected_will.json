@@ -1,0 +1,55 @@
+{
+  "name": "Aspectos de Will Demoníaca",
+  "icon": "bloodmagic:vengefulcrystal",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:steadfastdemoncrystal": 2,
+    "bloodmagic:corrosivedemoncrystal": 2,
+    "bloodmagic:destructivedemoncrystal": 2,
+    "bloodmagic:vengefuldemoncrystal": 2,
+    "bloodmagic:steadfastcrystal": 2,
+    "bloodmagic:corrosivecrystal": 2,
+    "bloodmagic:destructivecrystal": 2,
+    "bloodmagic:vengefulcrystal": 2,
+    "bloodmagic:basemonstersoul_vengeful": 2,
+    "bloodmagic:basemonstersoul_corrosive": 2,
+    "bloodmagic:basemonstersoul_steadfast": 2,
+    "bloodmagic:basemonstersoul_destructive": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Soltar $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will Demoníaca$() na atmosfera foi definitivamente uma excelente ideia. Ela não só se provou utilíssima para fortalecer $(item)Rituais$(), como você também conseguiu condensá-la num $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Aglomerado de Cristais$(), e está se perguntando para onde virar seus olhos a seguir. $(br2)Esses $(item)Cristais$() parecem de alguma forma... conflitantes para você. Um certo $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)Ritual$() pode ajudar a extraí-los em formas mais puras..."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/will_splitting.png"
+      ],
+      "title": "Aspectos de Will",
+      "border": true,
+      "text": "O ritual $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)Ressonância do Cristal Facetado$() em ação."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Agora temos $(item)Will Cristalizada$() em quatro novos sabores apimentados! Na $(water)Runa de Água$() temos a $(steadfast)Will Resoluta$(), na $(air)Runa de Ar$() temos a $(destructive)Will Destrutiva$(), na $(fire)Runa de Fogo$() vem a $(vengeful)Will Vingativa$() e na $(earth)Runa de Terra$() achamos a $(corrosive)Will Corrosiva.$() $(br2)Esses vários novos tipos de Will podem ser queimados no $(item)Crisol Demoníaco$() assim como a Will Bruta, e de lá podem alimentar vários Rituais com efeitos grandes e fascinantes."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "sentient_aspects",
+      "text": "No entanto, elas também mudam como suas Ferramentas Conscientes se comportam, tornando-as mais poderosas.$(br) $(li)$(raw)Will Bruta$(): Aumenta o dano. $(corrosive)$(li)Will Corrosiva$(): Ataques têm chance de aplicar veneno ou decomposição aos inimigos, fora isso igual à $(raw)Bruta$(). $(vengeful)$(li)Will Vingativa$(): aumenta o dano, mas não tanto quanto a $(raw)Bruta$(). Aumenta a velocidade de ataque. Dá um buff de velocidade de movimento que cresce com maiores quantidades de Will."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(steadfast)$(li)Will Resoluta$(): Aumenta o dano (mas não tanto quanto a $(raw)Bruta$()) e concede Absorção após um abate. $(destructive)$(li)Will Destrutiva$(): Aumenta o dano mais que qualquer outro tipo de will, mas diminui a velocidade de ataque."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você pode estar se perguntando: \"Como diabos eu coloco essa will numa forma utilizável?\" Bem, a resposta é simples. Basta colocar uma $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$() VAZIA numa $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Forja do Fogo Infernal$() no mesmo chunk que um $(item)Crisol Demoníaco$(), e então alimentar o Crisol Demoníaco com Cristais de Will do aspecto desejado. Sua $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$() encherá com aquele aspecto de will. Você pode mudar qual tipo de will suas $(raw)Ferramentas Conscientes$() usam pressionando [$(k:use)] enquanto as segura."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Note que suas $(item)Ferramentas Conscientes$() assumirão o aspecto da maior quantidade de $(raw)Will$() no seu inventário. Se você carrega 10 $(corrosive)Will Corrosiva$() numa $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$(), e 1.000 $(raw)Will Bruta$() noutra, sua espada permanecerá $(raw)Bruta$(). $(br2)A $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Forja do Fogo Infernal$() pode aceitar qualquer tipo de $(raw)will$() para criar, então não se preocupe em ter que malabarar múltiplos tipos de will entre diferentes $(item)Gemas Tartáricas$()."
+    }
+  ]
+}

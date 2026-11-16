@@ -1,0 +1,22 @@
+{
+  "name": "Martelo de Cabeça de Osso",
+  "icon": "goety:bonehead_hammer",
+  "category": "goety:crafts/equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Feito à semelhança de um crânio, este martelo puxa criaturas próximas em direção ao alvo do impacto quando brandido com força total."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:bonehead_hammer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ele pode executar as mesmas funcionalidades de seu equivalente mundano. O martelo pode ser reparado em uma bigorna com um $(l:intro/magical_components)Lingote de Metal Amaldiçoado$()."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:bonehead_hammer": 1
+  }
+}

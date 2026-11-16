@@ -1,0 +1,12 @@
+{
+    "name": "Detector de Veículos",
+    "icon": "littlelogistics:vessel_detector",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:vessel_detector",
+            "text": "Emite um sinal de redstone quando uma embarcação está a 3 blocos numa direção definida. Precisa de uma linha reta de água."
+        }
+    ]
+}

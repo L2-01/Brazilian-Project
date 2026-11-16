@@ -1,0 +1,64 @@
+{
+  "name": "Outros Usos do Caldeirão",
+  "icon": "goety:witch_cauldron",
+  "category": "goety:brewing",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Nossos Caldeirões não servem só para fazer poções! Às vezes dá para fazer um ensopado ou uns unguentos para passar no corpo e ganhar alguns efeitos!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:nightshade_blossom",
+      "text": "Para começar a fazer coisas que não são poções, em vez de jogar uma Flor de Meimendro, você joga a boa e velha Erva-Moura! Assim como o Meimendro, você consegue as sementes quebrando grama e samambaias com a $(l:brewing/brewing_steps#boline)Boline Maléfica$(), e as cultiva em terra arada!"
+    },
+    {
+      "type": "goety:cauldron",
+      "recipe": "goety:cauldron/resilience_lotion"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Esta loção fortalece sua pele e seus ossos quando aplicada, fazendo você sofrer menos dano dos ataques recebidos!"
+    },
+    {
+      "type": "goety:cauldron",
+      "recipe": "goety:cauldron/aging_cream"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Juro que algumas das outras vovós do coven não são tão velhas quanto parecem! Com certeza estão usando esse creme para deixar a pele mais enrugada!"
+    },
+    {
+      "type": "goety:cauldron",
+      "anchor": "flying_ointment",
+      "recipe": "goety:cauldron/flying_ointment"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "HAHAHAHAHA! O bom e velho Unguento de Voo! Faz você sentir que está voando de verdade e te enche de energia! Funciona muito bem com uma vassoura, hahaha!"
+    },
+    {
+      "type": "goety:cauldron",
+      "recipe": "goety:cauldron/mushroom_stew"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Eu te disse que dava para fazer ensopado nisso!"
+    },
+    {
+      "type": "goety:cauldron",
+      "recipe": "goety:cauldron/candle"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Algumas bruxas precisam de uma parafernália mais chique para fazer velas no caldeirão, mas aqui a gente só usa um pedaço de linha e, de algum jeito, tira uns cilindros de cera perfeitamente moldados disso!"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:nightshade_blossom": 1,
+    "goety:resilience_lotion": 2,
+    "goety:aging_cream": 4,
+    "goety:flying_ointment": 6
+  }
+}

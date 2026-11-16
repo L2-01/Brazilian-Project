@@ -1,0 +1,43 @@
+{
+    "name": "Usando Dispositivos MIDI",
+    "icon": "mimi:settingssync",
+    "category": "mimi:2instruments",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Instrumentos no MIMI também podem ser tocados usando um Dispositivo de Entrada MIDI (como um piano digital ou sintetizador) conectado ao seu PC.$(br2)Para configurar de qual Dispositivo de Entrada MIDI os Instrumentos do MIMI devem receber notas, você pode usar a Tela de Configuração de Dispositivo, que pode ser aberta a qualquer momento com uma tecla de atalho ($(l)$(k:key.mimi.midi.gui.settings)$()) ou executando o comando $(l)/mimi config$()."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "A Tela de Configuração de Dispositivo mostra uma lista de Dispositivos de Entrada MIDI detectados pelo seu sistema na parte inferior. Use as setas para percorrer os dispositivos e o botão salvar para selecionar o dispositivo ao qual você quer se conectar.$(br2)Depois que um dispositivo for selecionado, você precisará reiniciar o jogo para selecionar um novo dispositivo."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O dispositivo que você selecionou aparecerá no topo da Tela de Configuração de Dispositivo junto com o status do dispositivo."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Conectando Instrumentos",
+            "text": "Quando você tiver um Dispositivo de Entrada MIDI selecionado e pronto para uso, poderá enviar notas do dispositivo ao MIMI ativando a opção \"Sys MIDI Device\" nas Configurações MIDI do instrumento.$(br2)Você também precisará ativar os Canais MIDI no instrumento para os quais seu Dispositivo de Entrada MIDI envia suas notas (normalmente canal 1 ou 2), ou simplesmente ativar todos para garantir. :)"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Agora você já deve conseguir tocar notas no seu Dispositivo de Entrada MIDI e ouvi-las pelo seu instrumento.$(br2)Assim como com os Transmissores, seu instrumento do MIMI continuará tocando as notas do Dispositivo de Entrada MIDI quando você fechar a Tela do Instrumento, desde que continue segurando-o ou permaneça sentado nele."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Modificador de Velocity",
+            "text": "Você também pode usar as setas de Velocity para definir um modificador de velocity que será aplicado a todas as notas recebidas do Dispositivo de Entrada MIDI selecionado. Isso pode ser usado para aumentar ou diminuir o volume das notas tocadas pelo dispositivo."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Solução de Problemas",
+            "text": "Às vezes, MIDI e Minecraft não se dão muito bem, então aqui estão algumas coisas para tentar se simplesmente não funcionar.$(br2)$(l)Dispositivo Não Aparece$()$(br2)1. Conecte-o e certifique-se de que é detectado pelo seu PC antes de iniciar o Minecraft.$(br2)2. Reinicie-o e/ou desconecte-o e conecte-o de novo. Sério, isso resolve a maioria dos problemas para mim, tipo 70% das vezes!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Erro de Status do Dispositivo$()$(br2)1. As mesmas coisas de \"Dispositivo Não Aparece\".$(br2)2. Certifique-se de que o dispositivo ainda não está sendo usado por outro programa no seu PC. A maioria dos Dispositivos de Entrada MIDI só pode ser usada por um programa por vez."
+        }
+    ],
+    "sortnum": 7
+}

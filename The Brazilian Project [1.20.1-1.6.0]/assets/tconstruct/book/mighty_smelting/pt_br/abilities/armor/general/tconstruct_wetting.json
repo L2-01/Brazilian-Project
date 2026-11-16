@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:wetting",
+  "text": [
+    {
+      "text": "Tudo bem se molhar um pouco quando se machuca. Espera, você não pôs esse modificador nas calças?"
+    },
+    {
+      "text": "O botão direito num tanque com a ferramenta o enche",
+      "paragraph": true
+    }
+  ],
+  "effects": [
+    "Chance por nível de aplicar efeitos de fluido ao ser ferido",
+    "Vários efeitos conforme o fluido, incluindo cura ou força",
+    "Exige 1 espaço de habilidade por nível"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Triturador",
+  "icon": "railcraft:crusher",
+  "category": "railcraft:multiblock",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Triturador de Pedra é uma estrutura 3x2x2 para processar vários materiais. O Triturador é construído com 12 blocos especiais feitos de um Bloco de Aço, Pistões e Diamantes. Se desmontado, são necessários 3 Blocos de Aço, 12 Pistões e 12 Diamantes para construir um Triturador de Pedra. Trituradores de Pedra não podem ser construídos adjacentes um ao outro – deve haver pelo menos um bloco entre eles."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Triturador",
+      "multiblock_id": "railcraft:crusher"
+    }
+  ]
+}

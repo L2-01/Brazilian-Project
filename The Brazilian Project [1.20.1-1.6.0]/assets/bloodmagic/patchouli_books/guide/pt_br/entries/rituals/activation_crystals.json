@@ -1,0 +1,21 @@
+{
+  "name": "Cristais de Ativação",
+  "icon": "bloodmagic:activationcrystalweak",
+  "category": "bloodmagic:rituals",
+  "extra_recipe_mappings": {
+    "bloodmagic:activationcrystalcreative": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Seus rituais exigem mais do que simplesmente o arranjo correto de blocos e Selos. É preciso um esforço de vontade para abrir um canal da sua Soul Network até o ritual, e o $(item)Cristal de Ativação$() permitirá que você se concentre o bastante para ativar seus rituais."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Cristal de Ativação Fraco",
+      "recipe": "bloodmagic:weak_activation_crystal",
+      "text": "Basta pressionar [$(k:use)] com um Cristal de Ativação vinculado numa Pedra de Ritual Mestre para ativar o ritual do qual faz parte — assumindo que esteja devidamente montado, claro.",
+      "anchor": "weak"
+    }
+  ]
+}

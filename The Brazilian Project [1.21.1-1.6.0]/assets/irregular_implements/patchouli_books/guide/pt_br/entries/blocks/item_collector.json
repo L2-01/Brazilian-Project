@@ -1,0 +1,11 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:item_collector",
+    "name": "Coletor de Itens",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Coletor de Itens$() pode ser colocado num inventário e coletará entidades de item num raio de 3 blocos ao seu redor.$(br2)Isso é um cubo 7x7x7 centrado no Coletor."
+        }
+    ]
+}

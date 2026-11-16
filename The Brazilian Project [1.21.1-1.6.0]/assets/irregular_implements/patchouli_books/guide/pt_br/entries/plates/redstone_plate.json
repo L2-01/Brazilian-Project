@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:plates",
+    "icon": "irregular_implements:redstone_plate",
+    "name": "Chapa de Redstone",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Chapa de Redstone$() redireciona entidades que entram pelo seu lado de entrada para um de dois lados de saída.$(br2)Quando a Chapa recebe um sinal de redstone, as entidades seguem pela saída energizada. Caso contrário, seguem pela saída desenergizada."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Clique com o botão direito num lado não usado da Chapa para definir a saída energizada. Agache e clique com o botão direito para definir a saída desenergizada."
+        }
+    ]
+}

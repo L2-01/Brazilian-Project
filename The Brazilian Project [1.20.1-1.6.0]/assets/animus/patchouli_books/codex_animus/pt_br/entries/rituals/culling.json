@@ -1,0 +1,27 @@
+{
+  "name": "guide.animus.entry.ritual_culling",
+  "icon": "bloodmagic:masterritualstone",
+  "category": "animus:rituals",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um poderoso ritual de morte que destrói todas as coisas vivas em seu domínio. O Ritual do Abate mata silenciosamente entidades dentro do seu alcance, adicionando a força vital delas ao seu Altar de Sangue."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos e Detalhes",
+      "text": "$(bold)Ativação:$() 50.000 LP$(br)$(bold)Renovação:$() 75 LP por entidade$(br)$(bold)Tempo de Renovação:$() 25 tiques$(br2)$(bold)Alcance do Efeito:$() blocos 21x21x10; configurável$(br)$(italic)Horizontal:$() raio de 10 blocos$(br)$(italic)Vertical:$() 10 blocos para cima a partir de 1 bloco acima da pedra de ritual$(br)$(bold)Alcance do Altar:$() Busca um Altar de Sangue em 11x21x11$(br2)Cada morte fornece 200 LP (configurável) ao altar. Funciona em todas as entidades que não são chefes."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Matando Chefes",
+      "text": "$(bold)Entidades Chefes:$()$(br)Pode matar entidades chefes com $(will)Vontade Destrutiva$() suficiente!$(br2)$(li)Requer 99+ de Vontade Destrutiva$(li)Custo extra de LP (configurável)$(li)Torna chefes vulneráveis$(br2)$(bold)Proteção:$() Entidades com a tag $(#888888)animus:disallow_culling$() não podem ser mortas."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Vontade e TNT",
+      "text": "$(bold)Vontade Demoníaca:$() Gera $(will)Vontade Destrutiva$() das mortes (3%% de chance por ciclo, máx 100 de vontade).$(br2)$(bold)Destruição de TNT:$() Se configurado, este ritual também pode destruir entidades de TNT detonada, tornando-o útil para defesa.$(br2)$(italic)Com grandes poderes vêm grandes responsabilidades.$()"
+    }
+  ]
+}

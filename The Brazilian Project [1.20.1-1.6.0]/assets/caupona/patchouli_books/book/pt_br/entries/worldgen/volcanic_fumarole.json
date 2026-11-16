@@ -1,0 +1,26 @@
+{
+  "name": "Fumarola Vulcânica",
+  "icon": "caupona:pumice",
+  "category": "caupona:worldgen",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Fumarolas vulcânicas são encontradas em desertos e montanhas. Algumas estão ativas com lava no fundo, outras estão esfriando com blocos de magma, e as demais esfriaram completamente."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:fumarole_vent",
+      "text": "Fumarolas vulcânicas contêm um bloco de abertura na parte central. Se dois blocos abaixo dele forem lava, ela está ativa, incendiando entidades sobre ela e gerando gradualmente flores de pedra-pomes na água ao redor. Se o bloco abaixo for bloco de magma ou obsidiana, nenhuma flor de pedra-pomes será gerada."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:pumice_bloom",
+      "text": "Minerar flores de pedra-pomes derruba pedra-pomes, um importante material de construção. Quebre-as com toque suave para obter a própria flor de pedra-pomes."
+    },
+    {
+      "type": "text",
+      "text": "Aberturas ativas ou esfriando são fontes de calor gratuitas, que fornecem calor num fluxo menor que a maioria dos fogões. Mas se estiverem $(l:tweaks/water_interaction)alagadas$(/l), não fornecem calor nem geram flores de pedra-pomes."
+    }
+  ]
+}

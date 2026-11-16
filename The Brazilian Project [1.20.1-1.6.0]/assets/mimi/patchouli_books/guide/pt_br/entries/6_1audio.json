@@ -1,0 +1,20 @@
+{
+    "name": "Saída de Áudio",
+    "icon": "mimi:trumpet",
+    "category": "mimi:6settings",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Para configurar as opções de Saída de Áudio do MIMI, incluindo volume global e dispositivo de saída, você pode usar a Tela de Configuração de Dispositivo, que pode ser aberta a qualquer momento com uma tecla de atalho ($(l)$(k:key.mimi.midi.gui.settings)$()) ou executando o comando $(l)/mimi config$().$(br2)A Tela de Configuração de Dispositivo mostra uma lista de Dispositivos de Saída de Áudio detectados pelo seu sistema na parte inferior."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Use as setas para percorrer os dispositivos e o botão salvar para selecionar o dispositivo para o qual você quer que o MIMI emita o áudio. Normalmente você pode deixar em 'Automatic' (mesmo dispositivo do Minecraft), mas se estiver jogando no Mac ou Linux, isso pode não funcionar."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "A Tela de Configuração de Dispositivo também permite definir um volume global para as notas do MIMI.$(br2)O volume das notas do MIMI também é afetado pelos controles deslizantes de volume 'Jukebox/Blocos Musicais' e 'Volume-mestre' nas configurações do Minecraft."
+        }
+    ],
+    "sortnum": 1
+}

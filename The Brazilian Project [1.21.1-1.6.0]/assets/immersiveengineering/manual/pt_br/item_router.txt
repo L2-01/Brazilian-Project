@@ -1,0 +1,11 @@
+Roteador de Itens
+Pé esquerdo amarelo, mão direita verde
+<&recipe>O Roteador de Itens é projetado para distribuir e ordenar itens em inventários como baús, máquinas e <link;conveyor_belts;esteiras>.<br>
+Itens inseridos no roteador serão emitidos pelos lados configurados correspondentes ou pelos lados abertos, nessa ordem.<np>
+Os itens podem entrar por qualquer lado e serão emitidos por um dos outros cinco lados, ou a entrada será recusada se não puderem ser ordenados.<br>
+Os roteadores extraem de roteadores e inventários a que estão conectados quando eles mesmos são extraídos.<br>
+As cores correspondem a uma direção cardinal e a um conjunto de filtros com os quais o roteador ordenará.<np>
+Os botões acima de cada filtro podem ser usados para ajustar ainda mais como o filtro funciona:<br>
+§2Filtragem por tag§r permite itens pelo filtro se eles combinarem uma tag do item especificado. A tag específica pode ser selecionada com a roda do mouse. Isso pode ser usado para filtrar juntos lingotes, minérios ou outros itens com propriedades semelhantes.<br>
+A opção §2Filtro de Dano§r permite ao filtro ignorar o valor de dano de uma ferramenta ou arma.<np>
+A opção §2Filtro de Componentes§r permite respeitar propriedades adicionais e especiais do item, como encantamentos ou cor.

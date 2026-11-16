@@ -1,0 +1,19 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:block_of_sticks",
+    "name": "Bloco de Gravetos",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Bloco de Gravetos$() quebra a si mesmo pouco depois de ser colocado.$(br2)O $(d)Bloco de Gravetos Retornável$() teleportará a si mesmo para o jogador mais próximo quando quebrado."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:block_of_sticks"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:returning_block_of_sticks"
+        }
+    ]
+}

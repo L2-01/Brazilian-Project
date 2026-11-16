@@ -1,0 +1,32 @@
+{
+  "fastquit.toast.title": "FastQuit concluído!",
+  "fastquit.toast.description": "Salvamento de \"%s\" concluído",
+  "fastquit.toast.deleted": "\"%s\" foi excluído",
+
+  "fastquit.screen.waiting": "Aguardando \"%s\" terminar de salvar...",
+
+  "fastquit.config.general.showSavingTime.toastsOnly": "Apenas toasts",
+  "fastquit.config.performance.backgroundPriority.1": "1 (Mínimo)",
+  "fastquit.config.performance.backgroundPriority.2": "2 (Recomendado)",
+  "fastquit.config.performance.backgroundPriority.5": "5 (Padrão)",
+  "fastquit.config.performance.backgroundPriority.10": "10 (Máximo)",
+  "fastquit.config.compat.allowMultipleServers.disabledForCompat": "§cEsta opção está desativada para evitar problemas com os seguintes mods:\n%s",
+
+  "text.autoconfig.fastquit.title": "FastQuit",
+  "text.autoconfig.fastquit.category.default": "Geral",
+  "text.autoconfig.fastquit.option.renderSavingScreen": "Renderizar Tela de \"Salvando mundo\"",
+  "text.autoconfig.fastquit.option.renderSavingScreen.@Tooltip": "Ao jogar com distância de renderização alta, sair do mundo ainda pode demorar um pouco porque o armazenamento de chunks do cliente precisa ser limpo.\nAo ativar esta configuração, a tela de \"Salvando mundo\" será renderizada.",
+  "text.autoconfig.fastquit.option.showToasts": "Mostrar Avisos",
+  "text.autoconfig.fastquit.option.showToasts.@Tooltip": "Determina se um toast é exibido quando um mundo termina de salvar.",
+  "text.autoconfig.fastquit.option.showSavingTime": "Mostrar Tempo de Salvamento",
+  "text.autoconfig.fastquit.option.showSavingTime.@Tooltip": "Determina se o tempo que levou/leva para salvar o mundo é exibido nos toasts e na lista de mundos.",
+  "text.autoconfig.fastquit.category.performance": "Desempenho",
+  "text.autoconfig.fastquit.option.backgroundPriority": "Prioridade da Thread em Segundo Plano",
+  "text.autoconfig.fastquit.option.backgroundPriority.@Tooltip": "Define a prioridade da thread do servidor ao salvar mundos em segundo plano.\nIsso melhora o desempenho do cliente durante o salvamento, mas fará o salvamento demorar mais no total.",
+  "text.autoconfig.fastquit.category.compat": "Compatibilidade de Mods",
+  "text.autoconfig.fastquit.option.allowMultipleServers": "Permitir vários mundos em execução",
+  "text.autoconfig.fastquit.option.allowMultipleServers.@Tooltip": "Quando esta opção está ativada, você pode entrar em um novo mundo enquanto o antigo ainda está salvando.\nIsso é seguro no Minecraft vanilla, mas alguns mods podem ter problemas quando 2 servidores rodam ao mesmo tempo.",
+
+  "fastquit.modmenu.summaryTranslation.fastquit": "Volte à Tela de Título enquanto o mundo ainda está salvando!",
+  "fastquit.modmenu.descriptionTranslation.fastquit": "Este mod permite voltar à Tela de Título antes da hora enquanto seu mundo ainda está salvando em segundo plano."
+}

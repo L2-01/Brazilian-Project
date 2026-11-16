@@ -1,0 +1,15 @@
+{
+  "name": "Palmas Resistentes",
+  "icon": "bloodmagic:sacrificialdagger",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Efeito: Concede um bônus a Auto-sacrifício, até 150% adicional. $(br2)Treinado por: Sacrificar Sangue com a Faca Sacrificial. $(br2)Nível máximo: 10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:self_sacrifice"
+    }
+  ]
+}

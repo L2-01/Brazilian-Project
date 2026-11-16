@@ -1,0 +1,16 @@
+{
+  "name": "Óleo",
+  "icon": "caupona:gravy_boat",
+  "category": "caupona:resting",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Óleo é necessário ao saltear, e é produzido deixando $(l:worldgen/plants)nozes$(/l) e uma bigorna (não consumida) em repouso em dólios. 8 nozes rendem uma garrafa de óleo, que pode ser usada 5 vezes."
+    },
+    {
+      "type": "text",
+      "text": "Você pode colocar garrafas de óleo no mundo como molheiras, que fornecem óleo para frigideiras adjacentes. A direção que as molheiras encaram não importa."
+    }
+  ]
+}

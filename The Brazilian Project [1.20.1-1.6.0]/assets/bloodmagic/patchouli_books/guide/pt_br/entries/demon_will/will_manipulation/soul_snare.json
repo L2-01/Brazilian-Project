@@ -1,0 +1,27 @@
+{
+  "name": "Sua Primeira Will",
+  "icon": "bloodmagic:soulsnare",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Alçapão de Almas",
+      "recipe": "bloodmagic:altar/soul_snare",
+      "text": "$(item)Alçapões de Almas$() são seu portão de entrada à porção de $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will Demoníaca$() do $(blood)Blood Magic$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Usar o $(item)Alçapão de Almas$() é simples o bastante — faça uma boa quantidade deles e os arremesse em $(thing)criaturas hostis$(). Efeitos de partículas brancas aparecerão ao redor delas; então é hora de ir para o abate. Ao morrer, elas soltarão uma $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will Demoníaca$(). Antes que pergunte, sim, o encantamento Saque aumenta a quantidade de $(raw)Will$() solta. Depois de juntar algumas, você pode trabalhar na criação da sua $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Espada Consciente$() e da $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$() — elas facilitarão muito a coleta de $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will Demoníaca$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/snare_particles.png"
+      ],
+      "title": "Alçapão em Esqueleto",
+      "border": true,
+      "text": "Um esqueleto com partículas brancas após ser atingido por um alçapão."
+    }
+  ]
+}

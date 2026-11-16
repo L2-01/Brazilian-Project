@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Vento Cortante",
+  "icon": "goety:razor_wind_focus",
+  "category": "goety:focuses/wind",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O foco afia o vento numa lâmina fina e cortante, disparando-a para fatiar qualquer criatura não aliada em seu caminho em alta velocidade."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/razor_wind_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/wind_staff)Cetro dos Ventos$() aumenta a largura inicial da lâmina."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:razor_wind_focus": 1
+  }
+}

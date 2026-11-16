@@ -1,0 +1,23 @@
+{
+  "name": "Cetro dos Ventos",
+  "icon": "goety:wind_staff",
+  "category": "goety:crafts/staff",
+  "advancement": "goety:goety/read_mistral_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você ouviu contos de um santuário e de seu controle e experimentação dos ventos, e de como podiam controlá-lo até certo ponto através de seus cetros. Após algumas pesquisas e experimentos, você descobriu um jeito de replicar seus cetros ancestrais."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:wind_staff"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Cetro dos Ventos, obviamente, potencializa feitiços de Vento, concedendo maior controle sobre os próprios ventos."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:wind_staff": 1
+  }
+}

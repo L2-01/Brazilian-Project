@@ -1,0 +1,19 @@
+{
+	"name": "Progressão Diária de Trocas",
+	"icon": "lightmanscurrency:textures/gui/trader_guide/trade_rules/daily_trades/icon.png",
+	"category": "lightmanscurrency:trade_rules",
+	"pages": [
+		"A regra \"Progressão Diária de Trocas\" é uma regra de troca que só pode ser aplicada a todas as trocas.$(br2)Quando ativada, os clientes só poderão interagir com cada troca em ordem, e não poderão interagir com a próxima troca da lista até que o tempo definido tenha passado.",
+		{
+			"type": "lightmanscurrency:wide_image",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/daily_trades/input.png",
+			"text": "A regra tem um Campo de Tempo que permite definir o tempo de espera exigido entre trocas sequenciais. Fiel ao nome da regra, o valor padrão é 1 dia, mas pode ser personalizado de no mínimo 1 minuto a no máximo 30 dias."
+		},
+		"Você também pode redefinir manualmente a memória da regra para forçar todos os jogadores a recomeçar da primeira troca.$(br2)Um aviso: esta regra funciona com base no índice das trocas, então se houver uma troca indefinida entre duas trocas totalmente definidas, os clientes não conseguirão progredir além da troca faltante.",
+		{
+			"type": "lightmanscurrency:wide_image",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/daily_trades/example_trades.png",
+			"text": "Acima você vê um exemplo de configuração com 4 trocas sob esta regra. Todas as trocas, exceto a primeira, ficam bloqueadas até que interajam com ela, e alertas serão exibidos conforme o caso, informando ao cliente quanto tempo falta até poder interagir com a próxima troca."
+		}
+	]
+}

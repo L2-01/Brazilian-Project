@@ -1,0 +1,20 @@
+{
+  "name": "Mooshroom",
+  "icon": "minecraft:red_mushroom",
+  "category": "goety:mutations",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com alguns cogumelos vermelhos e uma vaca, você consegue transformar tal vaca numa Mooshroom vermelha."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_cow_to_mooshroom"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:mooshroom",
+      "scale": 0.75
+    }
+  ]
+}

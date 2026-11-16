@@ -1,0 +1,59 @@
+{
+  "name": "Servos Enderling",
+  "icon": "minecraft:ender_pearl",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Subespécies dos Enderman, essas criaturas estranhas são muito mais sustentáveis de vincular ao seu invocador que seu primo quase impossível de controlar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Todos os Enderlings são capazes de se teleportar, mas, ao contrário do Enderman, não se teleportam com tanta frequência e alguns deles desapareceriam do combate por alguns segundos para confundir seus inimigos. Eles também são vulneráveis à água."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_watchling_thrall"
+    },
+    {
+      "anchor": "watchling",
+      "type": "patchouli:entity",
+      "entity": "goety:watchling_servant",
+      "text": "Infelizmente, o livro é incapaz de mostrar os olhos deles adequadamente por alguma razão arcana."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Servos Vigilantes são brutamontes simples que atacam se teleportando à frente do inimigo e balançando os braços contra ele. Podem ser invocados por um ritual ou conjurando com um $(l:focuses/void/watching_focus)Foco de Vigia$()."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_blastling_thrall"
+    },
+    {
+      "anchor": "blastling",
+      "type": "patchouli:entity",
+      "entity": "goety:blastling_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Servos Detonantes são os enderlings mais resistentes em vida, e atacam disparando uma salva de gosma quente nos inimigos, embora fujam ou se teleportem temporariamente se um inimigo chegar perto. Podem ser invocados por um ritual ou conjurando com um $(l:focuses/void/blasting_focus)Foco Detonante$()."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_snareling_thrall"
+    },
+    {
+      "anchor": "snareling",
+      "type": "patchouli:entity",
+      "entity": "goety:snareling_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Servos Laçadores são estranhos, porém ardilosos. Eles primeiro tentam disparar sua Gosma de Laçador no inimigo, que o enreda por um tempo ao acertar, depois se teleportam ou correm até o inimigo e o atacam com os braços. Eles tentam temporariamente fugir ou se teleportar se um inimigo chegar perto, desde que não esteja enredado. Podem ser invocados por um ritual ou conjurando com um $(l:focuses/void/snaring_focus)Foco de Laço$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Eles podem ser curados alimentando-os com Frutas do Coro ou vestindo $(l:crafts/garment/void_robe)Mantos do Vazio com energia de almas$()."
+    }
+  ]
+}

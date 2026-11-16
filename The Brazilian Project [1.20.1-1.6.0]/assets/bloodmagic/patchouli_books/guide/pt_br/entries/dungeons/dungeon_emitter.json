@@ -1,0 +1,15 @@
+{
+  "name": "Emissor de Masmorra",
+  "icon": "bloodmagic:dungeon_emitter",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:dungeon_emitter": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:dungeon_emitter",
+      "text": "O $(thing)Emissor de Masmorra$() emite um sinal de redstone constante, similar a um $(thing)Bloco de Redstone$(). Ao contrário de um $(l:bloodmagic:dungeons/dungeon_alternator)Alternador de Masmorra$(), o sinal é estável e imutável."
+    }
+  ]
+}

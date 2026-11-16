@@ -1,0 +1,22 @@
+{
+  "name": "guide.animus.entry.ritual_reparare",
+  "icon": "bloodmagic:masterritualstone",
+  "category": "animus:rituals",
+  "sortnum": 22,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Ritual do Reparare conserta itens danificados armazenados num inventário acima da pedra de ritual. Coloque um baú diretamente acima da pedra de ritual mestra e os itens dentro dela se repararão lentamente."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mecânicas",
+      "text": "$(bold)Ativação:$() 5.000 LP$(br)$(bold)Custo de LP:$() Por ponto de durabilidade reparado (configurável)$(br)$(bold)Taxa de Reparo:$() 20%% da durabilidade máx por ciclo$(br)$(bold)Intervalo:$() A cada 5 segundos (configurável)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Configuração",
+      "text": "$(bold)Inventário:$() Coloque qualquer recipiente com capacidade de itens diretamente acima da pedra de ritual mestra.$(br2)$(bold)Lista Negra:$() Itens com a tag $(thing)animus:disallow_repair$() serão ignorados.$(br2)$(italic)O que o sangue quebra, o sangue conserta.$()"
+    }
+  ]
+}

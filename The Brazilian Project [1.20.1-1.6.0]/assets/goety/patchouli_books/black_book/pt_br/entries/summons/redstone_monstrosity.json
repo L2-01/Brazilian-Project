@@ -1,0 +1,48 @@
+{
+  "name": "Monstruosidade de Redstone",
+  "icon": "goety:redstone_monstrosity_head",
+  "category": "goety:summons",
+  "advancement": "goety:goety/read_terminus_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Em tempos antigos, um monarca forjou uma arma poderosa, mais forte e aterradora que os Golems de Redstone, com a orientação de uma força externa, antes de bani-la por razões desconhecidas. Porém, o processo de criação foi registrado, talvez em segredo, permitindo que você replique esta monstruosidade aterradora."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:redstone_monstrosity",
+      "scale": 0.75
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety:redstone_monstrosity",
+      "text": "Clique com o botão direito no $(l:goety:crafts/monstrous_core)Núcleo Monstruoso$() central com um Núcleo de Animação."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:reinforced_redstone_block"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os Tijolos de Pedra podem ser substituídos por outros blocos semelhantes, como Tijolos de Ardosiabissal, para o molde. A Monstruosidade é talvez um dos seres mais fortes que você criou, seu poder inigualável entre os servos. Eles podem ser reparados clicando neles com o botão direito usando Blocos de Redstone."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:redstone_monstrosity_head",
+      "text": "Caso a Monstruosidade caia em batalha ou por comando, ela largará sua cabeça. A Cabeça pode ser usada para reviver a Monstruosidade de forma mais barata. Porém, a Cabeça se lembra de seu criador e mestre originais, e a Monstruosidade revivida só seguirá os comandos dele."
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety:redstone_monstrosity_revive",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Monstruosidades de Redstone podem fazer parte de um $(l:goety:mutations/illager_servants)grupo de invasão$(), embora não possam ser líderes."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:reinforced_redstone_block": 3
+  }
+}

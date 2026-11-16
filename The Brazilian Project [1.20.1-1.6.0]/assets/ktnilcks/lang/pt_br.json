@@ -1,0 +1,37 @@
+{
+  "_comment": "Base data",
+  "config.ktnilcks.base.modname": "ItemLocks",
+  "config.ktnilcks.base.config_title": "Configuração do ItemLocks",
+
+  "_comment": "Config Sections",
+  "config.ktnilcks.section.versions": "Notificações de Versão",
+  "config.ktnilcks.section.actions": "Ações",
+  "config.ktnilcks.section.hotbar": "Barra de acesso rápido",
+
+  "_comment": "Config Options",
+  "config.ktnilcks.notify.global.long": "Quando ativado, permite que o mod dê retorno dependendo das mudanças de versão.",
+  "config.ktnilcks.notify.global.short": "Ativar notificações",
+  "config.ktnilcks.notify.chat.long": "Quando ativado, envia retorno de versão no chat ao entrar em um mundo ou servidor.",
+  "config.ktnilcks.notify.chat.short": "Ativar notificação no chat",
+  "config.ktnilcks.notify.hud.long": "Quando ativado, mostra retorno de versão na interface do jogo.",
+  "config.ktnilcks.notify.hud.short": "Ativar indicador na HUD",
+  "config.ktnilcks.action.bypassheld.long": "Quando ativado, segurar um item em um inventário sempre ignora os trancos",
+  "config.ktnilcks.action.bypassheld.short": "Ignorar trancos automaticamente em itens segurados",
+  "config.ktnilcks.action.bypassoffhand.long": "Quando ativado, trocar itens com a mão secundária sempre ignora os trancos",
+  "config.ktnilcks.action.bypassoffhand.short": "Ignorar trancos automaticamente ao trocar com a mão secundária",
+  "config.ktnilcks.action.bypassall.long": "Quando ativado, ignorar trancos fica sempre ativo, exceto ao largar itens com a tecla de largar",
+  "config.ktnilcks.action.bypassall.short": "Ignorar trancos em todos os itens",
+  "config.ktnilcks.hotbar.visible.long": "Quando desativado, os trancos não aparecem na barra de acesso rápido.",
+  "config.ktnilcks.hotbar.visible.short": "Mostrar trancos na barra de acesso rápido",
+
+  "_comment": "Key Bindings",
+  "key.categories.ktnilcks": "ItemLocks",
+  "key.ktnilcks.lock.toggle.hold": "Alternar Tranco (Segurar)",
+  "key.ktnilcks.lock.bypass.hold": "Ignorar Trancos (Segurar)",
+  "key.ktnilcks.options.show": "Mostrar opções",
+
+  "_comment": "Key Binding Error Messages",
+  "error.key.ktnilcks.lock.toggle": "\u00a76ItemLocks\u00a78: \u00a77A tecla de alternar tranco foi redefinida para o padrão para evitar crash!",
+  "error.key.ktnilcks.lock.bypass": "\u00a76ItemLocks\u00a78: \u00a77A tecla de ignorar trancos foi redefinida para o padrão para evitar crash!",
+  "error.key.ktnilcks.options.show": "\u00a76ItemLocks\u00a78: \u00a77A tecla de mostrar opções foi redefinida para o padrão para evitar crash!"
+}

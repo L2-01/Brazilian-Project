@@ -1,0 +1,22 @@
+{
+  "name": "Ignitor Nitrático",
+  "icon": "thermal_extra:nitratic_igniter",
+  "category": "thermal:machines",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Ignitor Nitrático é uma máquina que usa várias TNT para detonar itens em novos itens. Os itens largados podem ser aumentados usando ampliações e $(l:thermal:world/materials/catalysts)catalisadores$(/l) melhores.$(br2)As receitas do Ignitor Nitrático EXIGEM um catalisador."
+    },
+    {
+      "type": "thermal:double_crafting_page",
+      "A.recipe": "thermal_extra:crafting/nitratic_igniter",
+      "title": "Ignitor Nitrático"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Compatibilidade de Ampliações",
+      "text": "$(li)$(l:thermal:technology/augments/integral_components)Componentes Integrais$(/l)$(li)$(l:thermal:technology/augments/item_filter)Filtro de Itens$(/l)$(li)$(l:thermal:technology/augments/xp_storage)Concentrador de Conhecimento$(/l)$(li)$(l:thermal:technology/augments/rf_coil)Bobina de RF Expandida$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)Bobina de RF Estabilizada$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)Bobina de RF de Alto Fluxo$(/l)$(li)$(l:thermal:technology/augments/machine_speed)Amplificador de Ligação de Fluxo$(/l)$(li)$(l:thermal:technology/augments/machine_efficiency)Eficiência de Fluxo$(/l)$(li)$(l:thermal:technology/augments/machine_output)Peneira de Processo Auxiliar$(/l)$(li)$(l:thermal:technology/augments/machine_null)Cacto Auxiliar$(/l)$(li)$(l:thermal:technology/augments/machine_catalyst)Câmara de Recuperação Catalítica$(/l)"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "guide.animus.entry.sigil_consumption",
+  "icon": "animus:sigil_consumption",
+  "category": "animus:sigils",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "animus:crafting_array",
+      "recipe": "animus:array/sigil_consumption",
+      "text": "Criado num $(blood)Círculo de Alquimia$() combinando um $(l:animus:items/reagentconsumption)Reagente: Consumo$() com uma $(item)Ardósia Imbuída$(). O reagente deve ser forjado primeiro na Forja Infernal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_consumption",
+      "text": "Corrompa o próprio mundo. Este sigilo sinistro converte blocos em $(blood)AntiVida$(); uma substância corruptora que se propaga e destrói. Use com extrema cautela."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Custo de LP:$() 25 LP por bloco (configurável)$(br2)$(bold)Alcance:$() 8 blocos (configurável)$(br2)Clique com o botão direito para converter blocos próximos em AntiVida. A corrupção se propagará para fora, consumindo tudo que toca.$(br2)$(bold)Aviso:$() A AntiVida não pode ser revertida. Planeje com cuidado."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Blocos Protegidos",
+      "text": "Blocos com a tag $(#888888)animus:disallow_antilife$() não podem ser convertidos:$(li)Barreira, Luz$(li)Blocos de comando$(li)Blocos de estrutura$(li)Portais do End$(li)A própria AntiVida$(br2)Veja $(l:animus:blocks/antilife)AntiVida$() para detalhes completos sobre esta corrupção."
+    }
+  ]
+}

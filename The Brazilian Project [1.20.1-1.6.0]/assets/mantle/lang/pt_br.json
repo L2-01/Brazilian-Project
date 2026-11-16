@@ -1,0 +1,97 @@
+{
+  "mantle:tooltip.cooktime": "Tempo de Cozimento: %ds",
+  "config.mantle.extraHeartRenderer": "Renderizador de Coração Extra",
+  "config.mantle.enableFluidFogFix": "Ativar Correção de Névoa de Fluido",
+  "config.mantle.fluidFallbackUseTextShader": "Usar Shader de Texto como Fallback de Fluido",
+
+  "command.mantle.view_tag.success": "Valores para a tag %s '%s':",
+
+  "command.mantle.tags_for.success": "Tags %s para '%s':",
+  "command.mantle.tags_for.not_found": "Valor de registro %s desconhecido '%s'",
+  "command.mantle.tags_for.no_held_block": "O item na mão não é um bloco",
+  "command.mantle.tags_for.no_held_entity": "O item na mão não é um ovo gerador",
+  "command.mantle.tags_for.no_held_potion": "O item na mão não é uma poção",
+  "command.mantle.tags_for.no_held_fluid": "Não foi possível obter fluido do item na mão",
+  "command.mantle.tags_for.no_held_enchantment": "O item na mão não está encantado",
+  "command.mantle.tags_for.no_targeted_entity": "Nenhuma entidade ao alcance",
+  "command.mantle.tags_for.no_targeted_block": "Nenhum bloco alvejado",
+  "command.mantle.tags_for.no_targeted_fluid": "Nenhum fluido alvejado",
+  "command.mantle.tags_for.no_targeted_block_entity": "Nenhuma entidade de bloco alvejada",
+  "command.mantle.tags_for.no_tags": "Sem tags",
+
+  "command.mantle.book_test.not_found": "Livro desconhecido com ID %s",
+  "command.mantle.book.export.success": "Imagens do livro exportadas para '%s'",
+  "command.mantle.book.export.html.success": "Imagens do livro exportadas para '%s' e HTML para '%s'",
+  "command.mantle.book.export.error_generic": "Falha ao exportar imagens do livro, veja o registro para detalhes",
+  "command.mantle.book.export.error_io": "Falha ao criar diretório para imagens do livro '%s'",
+
+  "command.mantle.dump_tag.success": "Impressa a tag %s combinada '%s' no registro do console",
+  "command.mantle.dump_tag.success_log": "Tag %s combinada '%s' despejada em '%s'",
+  "command.mantle.dump_all_tags.success": "Todas as tags despejadas em '%s'",
+  "command.mantle.dump_all_tags.type_success": "Todas as tags %s despejadas em '%s'",
+
+  "command.mantle.modify_tag.success.add": "Adicionado '%s' à tag %s '%s' com sucesso. Execute /reload para ativar o pacote em %s.",
+  "command.mantle.modify_tag.success.remove": "Removido '%s' da tag %s '%s' com sucesso. Execute /reload para ativar o pacote em %s.",
+  "command.mantle.modify_tag.success.clear": "Limpeza da tag %s '%s' com sucesso. Execute /reload para ativar o pacote em %s.",
+  "command.mantle.modify_tag.read_error": "Erro ao ler a tag %s '%s'",
+  "command.mantle.modify_tag.write_error": "Erro ao escrever a tag %s '%s'",
+
+  "command.mantle.dump_loot_modifiers.success_log": "Modificadores de saque globais combinados impressos no registro do console",
+  "command.mantle.dump_loot_modifiers.success_save": "Modificadores de saque globais combinados despejados em '%s'",
+  "command.mantle.dump_loot_modifiers.read_error": "Erro ao ler modificadores de saque globais",
+
+  "command.mantle.harvest_tiers.success_log": "Tiers ordenados impressos no registro do console",
+  "command.mantle.harvest_tiers.success_save": "Tiers ordenados despejados em '%s'",
+  "command.mantle.harvest_tiers.success_list": "Tiers de colheita:",
+  "command.mantle.harvest_tiers.tag": "%s: Tag de bloco %s",
+  "command.mantle.harvest_tiers.no_tag": "%s: Sem tag",
+
+  "command.mantle.hunger.set.single": "Fome de %s definida para %d",
+  "command.mantle.hunger.set.multiple": "Fome de %d jogadores definida para %d",
+  "command.mantle.hunger.add.single": "Deu a %s +%d de fome",
+  "command.mantle.hunger.add.multiple": "Deu a %d jogadores +%d de fome",
+  "command.mantle.hunger.subtract.single": "Deu a %s -%d de fome",
+  "command.mantle.hunger.subtract.multiple": "Deu a %d jogadores -%d de fome",
+
+  "command.mantle.remove_recipes": "Removidas %s receitas em %s segundos com sucesso. Execute /reload para ativar o pacote em %s",
+  "command.mantle.remove_recipes.preset_not_found": "O preset de remoção de receitas '%s' estava ausente ou inválido. Verifique o registro para mais informações.",
+  "command.mantle.remove.failed_save": "Falha ao salvar JSON em '%s'.",
+
+  "command.mantle.key.wrong_registry": "Esperava-se que a chave de recurso '%s' pertencesse ao registro '%s'.",
+  "command.mantle.remove_data.structure.success": "Conjunto de estruturas '%s' esvaziado com sucesso em %s segundos. Execute /reload para ativar o pacote em %s",
+  "command.mantle.remove_data.biome_modifier.success": "Modificador de bioma '%s' removido com sucesso em %s segundos. Execute /reload para ativar o pacote em %s",
+
+  "command.mantle.sources.success": "Fontes para %s:",
+  "command.mantle.sources.not_found": "'%s' não encontrado:",
+
+  "command.mantle.tag.empty": "Vazio",
+  "command.mantle.item.not_found": "Item desconhecido '%s'",
+  "command.mantle.registry.not_found": "Registro desconhecido '%s'",
+  "command.mantle.tag_source.not_found": "Fonte de tag desconhecida '%s'",
+  "command.mantle.tag.not_found": "Tag %s desconhecida '%s'",
+
+  "command.mantle.tag_preference.empty_tag": "Sem preferência para a tag %s %s",
+  "command.mantle.tag_preference.preference": "Valor preferido para a tag %s %s é %s",
+
+  "book.mantle.section_list": "Lista de Seções",
+
+  "gui.mantle.fluid.capacity": "Capacidade: %s mb",
+  "gui.mantle.fluid.contents": "Contém: %s",
+  "gui.mantle.fluid.format": "%s / %s mb %s",
+
+  "gui.mantle.fluid.hold_shift": "Segure §e§oShift§r§7 para baldes",
+  "gui.mantle.fluid.kilobucket": "%s kb",
+  "gui.mantle.fluid.bucket": "%s baldes",
+  "gui.mantle.fluid.millibucket": "%s mb",
+
+  "gui.mantle.fluid.bowl": "%s tigelas",
+  "gui.mantle.fluid.bottle": "%s frascos",
+  "gui.mantle.fluid.drop": "%s gotas",
+  "gui.mantle.fluid.sip": "%s goles",
+
+  "block.mantle.tank.drained": "Drenados %s mb de %s",
+  "block.mantle.tank.filled": "Enchidos %s mb de %s",
+  "block.mantle.retextured.id": "ID de Textura: %s",
+
+  "item.mantle.book.click_to_open": "Clique direito para abrir"
+}

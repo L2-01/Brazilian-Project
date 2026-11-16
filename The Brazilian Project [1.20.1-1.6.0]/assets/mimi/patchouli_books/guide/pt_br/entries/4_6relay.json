@@ -1,0 +1,25 @@
+{
+    "name": "Relé",
+    "icon": "mimi:relay",
+    "category": "mimi:4redstone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Relé",
+            "item": "mimi:relay",
+            "text": "O Relé é um bloco que pode ser vinculado a um Transmissor (ou a outro Relé) e então retransmite quaisquer notas que lhe sejam transmitidas com um alcance muito maior.$(br2)Usando as configurações do Relé, as notas podem ser remapeadas para canais diferentes."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Receita",
+            "recipe": "mimi:relay",
+            "text": "Configurações podem ser copiadas de um Relé para outro colocando dois diretamente lado a lado numa grade de criação. As configurações daquele à esquerda serão copiadas para aquele à direita."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Configurações",
+            "text": "$(li)$(l)Channel Map$(): De quais canais o Relé deve receber notas e para quais canais deve transmitir essas notas.$(br)$(li)$(l)Transmission Source$(): O Transmissor ou Relé ao qual este Relé está vinculado. Vincule definindo para si mesmo na Tela do Receptor ou clicando com o botão direito num jogador / bloco com o Receptor."
+        }
+    ],
+    "sortnum": 6
+}

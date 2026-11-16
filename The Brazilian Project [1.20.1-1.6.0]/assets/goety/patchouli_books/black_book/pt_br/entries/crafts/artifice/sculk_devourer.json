@@ -1,0 +1,20 @@
+{
+  "name": "Devorador de Sculk",
+  "icon": "goety:sculk_devourer",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/get_sculk_catalyst",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Catalisador de Sculk é uma coisa fascinante. Ele converte Experiência em Sculk que se espalha pelo mundo, mas com alguns ajustes, você conseguiu transformar o Catalisador em um coletor de Energia de Almas que converte Experiência direto em Energia de Almas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:sculk_devourer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A quantidade de Energia de Almas entregue é a mesma quantidade de experiência largada. O Devorador pode ser encantado com Devorador de Almas e Raio. Raio multiplica a área da qual a Experiência é absorvida, ou seja, Raio I dobra a área, Raio II triplica. Devorador de Almas multiplica a quantidade de Energia de Almas coletada da Experiência."
+    }
+  ]
+}

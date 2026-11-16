@@ -1,0 +1,19 @@
+{
+    "name": "Locomotiva a Vapor",
+    "icon": "littlelogistics:steam_locomotive",
+    "category": "littlelogistics:trains",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:steam_locomotive",
+            "scale": 0.4,
+            "offset": 0.5,
+            "text": "Uma locomotiva básica que pode operar com qualquer combustível de fornalha."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:steam_locomotive",
+            "text": "O combustível pode ser carregado com funis colocados ao lado de trilhos de atracação."
+        }
+    ]
+}

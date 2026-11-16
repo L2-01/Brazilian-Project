@@ -1,0 +1,19 @@
+{
+    "name": "Barcaça de Pesca Automática",
+    "icon": "littlelogistics:fishing_barge",
+    "category": "littlelogistics:vessels",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:fishing_barge",
+            "scale": 0.6,
+            "offset": 0.5,
+            "text": "Realiza pesca passivamente, usa a tabela de loot de vara de pesca vanilla."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:fishing_barge",
+            "text": "Precisa estar em águas abertas para as redes serem lançadas. Use em rotas longas em oceanos abertos para evitar penalidades de \"água rasa\" e \"pesca excessiva\". Conecte uma Barcaça de Baú atrás da Barcaça de Pesca Automática, pois ela não possui inventário próprio."
+        }
+    ]
+}

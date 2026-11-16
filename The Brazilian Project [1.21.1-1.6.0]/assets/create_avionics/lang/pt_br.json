@@ -1,0 +1,22 @@
+{
+    "itemGroup.create_avionics": "Create: Avionics",
+    "block.create_avionics.thermometer": "Termômetro",
+    "block.create_avionics.hygrometer": "Higrômetro",
+    "block.create_avionics.barometer": "Barômetro",
+    "block.create_avionics.rain_gauge": "Pluviômetro",
+    "block.create_avionics.almanac": "Almanaque",
+    "block.create_avionics.avionics_controller": "Controlador de Aviônica",
+    "create_avionics.controller.bow_set": "Proa do navio definida: a direção que este controlador aponta",
+    "create_avionics.controller.bow_followed": "Seguindo a proa do navio: veja a seta no topo",
+    "create_avionics.controller.bow_changed": "A proa do navio foi movida para a direção deste controlador; os nomes dos periféricos a seguem",
+    "block.create_avionics.radar_mk1": "Radar Mk.1",
+    "create_avionics.controller.transponder_on": "Transponder ligado: radares podem identificar este navio",
+    "create_avionics.controller.transponder_off": "Transponder desligado: silêncio de rádio",
+    "create_avionics.announce.updated": "Create: Avionics %s: %s.",
+    "create_avionics.announce.summary": "instrumentos meteorológicos, um controlador que conecta um navio inteiro aos seus computadores, e radar",
+    "create_avionics.announce.whats_new": "Novidades",
+    "create_avionics.announce.guides": "Guias",
+    "create_avionics.announce.community": "Discord",
+    "create_avionics.announce.community_url": "https://discord.gg/yZxktK59ux",
+    "create_avionics.announce.turn_off": "Exibido uma vez por versão. Para desativar, defina announceUpdates = false em create_avionics-client.toml."
+}

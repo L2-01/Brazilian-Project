@@ -1,0 +1,31 @@
+{
+  "name": "Foco do Elipsoide",
+  "icon": "minecraft:bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Foco do Elipsoide",
+      "multiblock_id": "bloodmagic:ellipsoid",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "ellipsoid"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Este ritual é puramente estético por natureza, projetado para o construtor iniciante, porém preguiçoso, que habita em todos nós. É particularmente bom para construir formas complicadas, como a majestosa cúpula de ouro acima do seu Covil do Mal. ...Você tem um desses, certo?"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "ellipsoid",
+      "page_type": "chest"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "ellipsoid",
+      "page_type": "spheroidRange"
+    }
+  ]
+}

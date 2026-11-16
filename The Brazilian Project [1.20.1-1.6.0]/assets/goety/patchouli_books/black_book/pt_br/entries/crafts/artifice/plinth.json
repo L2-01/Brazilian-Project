@@ -1,0 +1,35 @@
+{
+  "name": "Pedestal Amaldiçoado",
+  "icon": "goety:plinth",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/read_haunting_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um Pedestal Amaldiçoado é uma plataforma baixa de pedra na qual golems e $(l:world/bestiary/haunted_armor)Armaduras Assombradas$() podem repousar e agir como se fossem estátuas. Nesse estado, eles recuperam 2%% da vida a cada segundo, consertam suas armaduras e armas no mesmo ritmo, não fazem som nem movimento e não podem ser feridos."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:plinth"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A criatura fica virada para a direção em que o Pedestal foi colocado, então um $(l:focuses/geomancy/rotation_focus)Foco de Rotação$() pode ser usado para girar a plataforma, e a criatura junto. Para vincular um golem ou armadura assombrada a ele, use um $(l:crafts/waystone)Obelisco$() vinculado a um Pedestal vazio nele, e ele caminhará até lá e assumirá o estado de estátua. Um servo simplesmente ordenado a proteger um Pedestal também o adota assim que ficar sobre ele."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando um inimigo se aproxima a até 4 blocos do Pedestal Amaldiçoado, o servo sai de seu estado de estátua e ataca. Após ficar cinco segundos sem alvo, ele retorna ao Pedestal e repousa de novo. O Pedestal também pode ser encantado com o encantamento Raio, onde cada nível adiciona 6 blocos à distância que um alvo válido pode estar para o servo despertar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Um único Pedestal Amaldiçoado pode comportar uma única Armadura Assombrada e golems menores. Golems maiores, como de Rajada e de Gelo, precisam de um quadrado de 3x3 Pedestais, e os maiores golems exigem um quadrado de 5x5. No caso de vários pedestais, o servo repousa no pedestal do meio, e um Obelisco vinculado a qualquer pedestal do quadrado o leva até lá. O quadrado pode ser feito de pedestais de materiais diferentes. Um Pedestal brilha enquanto conserta o servo sobre ele."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pedestais Amaldiçoados são forjados da mesma forma a partir de qualquer uma das pedras usadas para Pedestais: Pedra, Ardosiabissal, Pedra-Negra, Tijolos do Nether, Pedra do End, Prismarinho, Pedra Sinistra, Rocha Alta, Mármore, Pedra de Cripta e Pedra de Sombra."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:plinth": 1
+  }
+}

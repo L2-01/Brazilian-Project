@@ -1,0 +1,17 @@
+{
+  "name": "guide.animus.entry.imperfect_ritual_neptune_blessing",
+  "icon": "minecraft:prismarine",
+  "category": "animus:rituals",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um ritual imperfeito que concede a bênção de Netuno, permitindo ao usuário respirar embaixo d'água e nadar com a graça dos golfinhos.$(br2)$(bold)Configuração:$()$(br)Coloque um Bloco de Prismarinho em cima de uma Pedra de Ritual Imperfeita.$(br2)$(bold)Custo:$() 2000 LP por uso$(br2)$(bold)Duração:$() 15 minutos$(br2)$(bold)Nota:$() O ritual ativa uma vez e completa imediatamente. A pedra pode ser reutilizada."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Efeitos",
+      "text": "$(bold)Ativação:$()$(br)Clique com o botão direito na Pedra de Ritual Imperfeita para receber:$(li)$(thing)Respiração Aquática$() por 15 minutos$(li)$(thing)Graça do Golfinho$() por 15 minutos$(li)Ambos os efeitos sem partículas visíveis$(br2)$(bold)Casos de Uso:$()$(li)Exploração subaquática prolongada$(li)Invasão de monumentos oceânicos$(li)Projetos de construção subaquática$(li)Busca por naufrágios$(br2)$(italic)O mar lhe dá as boas-vindas.$()"
+    }
+  ]
+}

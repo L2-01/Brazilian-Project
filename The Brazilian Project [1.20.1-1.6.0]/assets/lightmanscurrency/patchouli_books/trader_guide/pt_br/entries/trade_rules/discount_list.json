@@ -1,0 +1,14 @@
+{
+	"name": "Descontos",
+	"icon": "lightmanscurrency:textures/gui/trader_guide/trade_rules/discount_list/icon.png",
+	"category": "lightmanscurrency:trade_rules",
+	"pages": [
+		"A regra \"Descontos\" permite dar a uma lista definida de jogadores um desconto em porcentagem na(s) troca(s). Pense nela como uma versão mais direta da regra $(l:trade_rules/discount_codes)Códigos de Desconto$(), porém mais segura e bem menos flexível.",
+		{
+			"type": "lightmanscurrency:wide_image",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/discount_list/inputs.png",
+			"text": "Esta regra tem apenas dois campos dignos de nota. A caixa de texto no canto superior esquerdo permite definir a porcentagem de desconto (por ex., inserir 10 dá 10% de desconto).$(br2)Abaixo dela fica a lista de jogadores que têm direito ao desconto."
+		},
+		"Basta digitar o nome de usuário do jogador na caixa de texto e clicar no botão + assim que o jogo encontrar o perfil dele para adicioná-lo à lista.$(br)Você também pode ver e remover jogadores da lista abaixo clicando no botão X ao lado do nome de um jogador."
+	]
+}

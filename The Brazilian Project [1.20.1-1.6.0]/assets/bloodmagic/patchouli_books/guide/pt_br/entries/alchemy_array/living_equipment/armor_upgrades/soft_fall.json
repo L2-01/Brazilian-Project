@@ -1,0 +1,15 @@
+{
+  "name": "Peso-Pena",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Efeito: Reduz o dano de queda, até imunidade completa. $(br2)Treinado por: Se machucar em quedas. $(br2)Nível máximo: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:fall_protect"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Quadro Calmante",
+  "icon": "complicated_bees:soothing_frame",
+  "category": "complicated_bees:frames",
+  "advancement": "complicated_bees:frame",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ao tentar replicar o ambiente de seus estados larvais, este quadro tem um efeito extremamente positivo na vida útil das abelhas. No entanto, ele também as torna muito mais preguiçosas..."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:soothing_frame"
+    }
+  ]
+}

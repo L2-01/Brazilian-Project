@@ -1,0 +1,20 @@
+{
+  "name": "Suspenso",
+  "icon": "minecraft:cobweb",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Suspenso$() impede o alvo de pular, cair ou ser afetado pela gravidade de qualquer forma. Ainda podem se mover, porém, deslizando como se estivessem num plano liso e infinito de gelo. $(br2)É feita a partir de uma poção de $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/gravity)Gravidade$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Suspenso (3:00)",
+      "a.recipe": "bloodmagic:flask/gravity_to_suspended",
+      "b.heading": "Suspenso (8:00)",
+      "b.recipe": "bloodmagic:flask/length_suspended",
+      "c.heading": "Suspenso (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_suspended"
+    }
+  ]
+}

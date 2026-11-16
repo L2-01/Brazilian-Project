@@ -1,0 +1,146 @@
+{
+	"symlink_warning.more_info": "Mais Informações",
+	"gui.abuseReport.type.name": "Nome do Jogador",
+
+	"betterstats": "Better Statistics Screen",
+
+	"betterstats.translators.title": "Tradutores",
+	"betterstats.contributors.title": "Contribuidores",
+	"betterstats.coming_soon": "Em breve...",
+
+
+	"commands.statistics.edit.output": "Estatística %s editada para %s jogador(es).",
+	"commands.statistics.clear.kick": "Suas estatísticas foram limpas, o que exige que você desconecte e entre novamente.",
+	"commands.statistics.clear.output": "Estatísticas de %s jogador(es) limpas.",
+	"commands.statistics.query.output": "O valor da estatística %s de %s é %s.",
+
+
+	"betterstats.stattype_phrase.minecraft.killed": "Matou",
+	"betterstats.stattype_phrase.minecraft.killed_by": "Morto por",
+	"betterstats.stattype_phrase.morestats.damaged": "Dano causado (x10)",
+	"betterstats.stattype_phrase.morestats.damaged_by": "Dano recebido (x10)",
+	"betterstats.stattype_phrase.morestats.totem_popped_by": "Totens estourados por",
+
+
+	"betterstats.gui.menu_bar.menu_file": "Arquivo",
+	"betterstats.gui.menu_bar.menu_file.new": "Novo",
+	"betterstats.gui.menu_bar.menu_file.open": "Abrir",
+	"betterstats.gui.menu_bar.menu_file.save": "Salvar",
+	"betterstats.gui.menu_bar.menu_file.save_as": "Salvar como",
+	"betterstats.gui.menu_bar.menu_view": "Exibir",
+	"betterstats.gui.menu_bar.menu_view.vanilla_stats": "Mostrar estatísticas vanilla",
+	"betterstats.gui.menu_bar.menu_about": "Sobre",
+	"betterstats.gui.menu_bar.menu_about.source": "Código-fonte",
+	"betterstats.gui.menu_bar.menu_about.curseforge": "CurseForge",
+	"betterstats.gui.menu_bar.menu_about.modrinth": "Modrinth",
+	"betterstats.gui.menu_bar.menu_about.website": "TheCSDev",
+	"betterstats.gui.menu_bar.menu_about.youtube": "YouTube",
+	"betterstats.gui.menu_bar.menu_about.kofi": "Ko-Fi",
+	"betterstats.gui.menu_bar.menu_about.discord": "Discord",
+	"betterstats.gui.menu_bar.menu_stats_sharing": "Compartilhamento de estatísticas",
+
+	"betterstats.api.client.gui.stats.panel.gameprofilepanel.uuid": "UUID",
+
+	"betterstats.api.client.gui.stats.panel.statfilterspanel.filters": "Filtros",
+	"betterstats.api.client.gui.stats.panel.statfilterspanel.show_empty_stats": "Mostrar estatísticas vazias",
+	"betterstats.api.client.gui.stats.panel.statfilterspanel.no_filters_question": "Sem filtros?",
+
+	"betterstats.api.util.enumerations.filtergroupby.default": "Padrão",
+	"betterstats.api.util.enumerations.filtergroupby.mod": "Mod",
+
+	"betterstats.api.client.gui.stats.widget.mobstatwidget.kills": "Matou",
+	"betterstats.api.client.gui.stats.widget.mobstatwidget.deaths": "Morto por",
+	"betterstats.api.client.gui.stats.widget.playerbadgestatwidget.obtained": "Obtido",
+	"betterstats.api.client.gui.stats.widget.generalstatwidget.value": "Valor",
+
+	"betterstats.client.gui.stats.panel.statstabpanel.no_stats_yet": "Ainda não há estatísticas para mostrar...",
+	"betterstats.client.gui.stats.panel.statstabpanel.seed_sha256": "Seed (SHA-256)",
+
+	"betterstats.config.debug_mode": "Modo de depuração",
+	"betterstats.config.gui_smooth_scroll": "Ativar rolagem suave da GUI",
+	"betterstats.config.gui_smooth_scroll.tooltip": "Quando ativada, a rolagem dos painéis de estatísticas será 'suavemente animada'. Desative se você joga em dispositivos mais fracos ou se a rolagem pela roda do mouse não funciona para você.",
+	"betterstats.config.gui_mob_follow_cursor": "Criaturas da GUI seguem o cursor",
+	"betterstats.config.trust_all_servers_bss_net": "Alternar rede 'betterstats' automaticamente",
+	"betterstats.config.trust_all_servers_bss_net.tooltip": "Quando este mod está instalado num servidor, ele oferece mais recursos. O protocolo de rede 'betterstats' é como um servidor 'betterstats' se comunica com o cliente 'betterstats'. Com isto ativado, o cliente informará automaticamente ao servidor que tem o 'betterstats' instalado quando aplicável. Com isto desativado, você terá que fazer isso manualmente toda vez que entrar num servidor.",
+	"betterstats.config.allow_stats_sharing": "Permitir compartilhamento de estatísticas",
+	"betterstats.config.allow_stats_sharing.tooltip": "Permite que o servidor compartilhe suas estatísticas com terceiros, como outros jogadores no servidor. Note que quem administra o servidor é capaz de modificar o servidor de forma a ignorar esta preferência. Embora isso não deva acontecer, desejo informar que é possível.",
+	"betterstats.config.register_commands": "Registrar comandos",
+	"betterstats.config.enable_sas": "Ativar sistema de anúncio de estatísticas",
+	"betterstats.config.wide_stats_panel": "Painel de estatísticas amplo",
+	"betterstats.config.wide_stats_panel.tooltip": "Eu paguei pelo monitor inteiro, vou usar o monitor inteiro.",
+	"betterstats.config.centered_stats_panel": "Painel de estatísticas centralizado",
+	"betterstats.config.centered_stats_panel.tooltip": "Quando ativado, o painel de estatísticas (ou seja, a GUI inteira) fica centralizado na tela.\nNão tem efeito e não faz nada quando \"Painel de estatísticas amplo\" está ativado.",
+
+	"betterstats.player_badge.dedication.title": "Dedicação",
+	"betterstats.player_badge.dedication.description": "Você mostrou verdadeira dedicação! Você jogou neste mundo por pelo menos 12 dias (288 horas).",
+	"betterstats.player_badge.loyalty.title": "Lealdade",
+	"betterstats.player_badge.loyalty.description": "Sua lealdade é admirável! Você jogou neste mundo por pelo menos 24 dias (576 horas).",
+	"betterstats.player_badge.the_next_generation.title": "A Próxima Geração",
+	"betterstats.player_badge.the_next_generation.description": "Você segurou o símbolo do triunfo supremo — o Ovo do Dragão.",
+	"betterstats.player_badge.adventurous_traveler.title": "Viajante Aventureiro",
+	"betterstats.player_badge.adventurous_traveler.description": "Por montanhas altas e vales baixos, você viajou longe, com muito a mostrar. Buscando uma visão, um conto inédito, a medida de uma jornada em blocos de ouro. E então você viu...\n\nVocê viajou pelo menos 727.000 blocos.",
+	"betterstats.player_badge.perennial_survivor.title": "Sobrevivente Perene",
+	"betterstats.player_badge.perennial_survivor.description": "Você conseguiu enganar a morte, por enquanto. Continuará a evitar o inevitável?\n\nVocê sobreviveu por pelo menos 12 horas.",
+
+
+	"betterstats.gui.hud_screen": "HUD de estatísticas",
+	"betterstats.gui.hud_screen.pin_stat": "Fixar na HUD",
+	"betterstats.gui.hud_screen.live_stats_toggle": "Alternar atualizações ao vivo de estatísticas na HUD",
+	"betterstats.gui.hud_screen.tutorial_1": "Clique com o botão direito numa estatística ([Shift]+RMB) para adicioná-la aqui.",
+	"betterstats.gui.hud_screen.tutorial_2": "Clique com o botão direito numa entrada da HUD para modificá-la ou removê-la.",
+	"betterstats.gui.hud_screen.tutorial_3": "Pressione Escape (ESC) para fechar esta tela.",
+
+	"betterstats.network.betterstatsnetworkhandler.toggle_tooltip": "Alternar conexão com servidor 'betterstats'",
+	"betterstats.network.betterstatsnetworkhandler.consent_warning": "IMPORTANTE:\nAo ativar este recurso, o servidor descobrirá que você está usando um cliente modificado com 'betterstats' instalado. Para proteger sua privacidade, não use este recurso em servidores que possam não permitir clientes modificados ou este mod.\n\nAtivar este recurso adiciona alguns recursos extras disponíveis quando o mod também está instalado no servidor.",
+	"betterstats.network.betterstatsnetworkhandler.s3ps_tooltip": "Ver estatísticas de outras fontes",
+
+
+	"betterstats.sas.first_mine": "%s acabou de minerar seu primeiro %s.",
+	"betterstats.sas.first_craft": "%s acabou de fabricar seu primeiro %s.",
+	"betterstats.sas.first_death": "%s acabou de morrer pela primeira vez.",
+	"betterstats.sas.first_death.hc1": "%s acabou de morrer pela primeira vez. Pelo lado bom, provavelmente não vai acontecer de novo.",
+	"betterstats.sas.first_kill": "%s acabou de matar um %s pela primeira vez.",
+	"betterstats.sas.first_death_to": "%s acabou de morrer para um %s pela primeira vez.",
+	"betterstats.sas.custom": "%s acabou de aumentar seu valor da estatística '%s' para %s.",
+
+
+	"betterstats.gui.tpsbs": "Navegador de estatísticas de terceiros",
+	"betterstats.gui.tpsbs.description": "Uma interface GUI que permite ver estatísticas de outras fontes, como, por exemplo, estatísticas de outros jogadores.",
+	"betterstats.gui.tpsbs.tab.ssps": "Busca de jogador no mesmo servidor",
+	"betterstats.gui.tpsbs.tab.ssps.description": "Permite navegar pelos jogadores presentes no servidor em que você está conectado e requisitar as estatísticas deles do servidor.",
+	"betterstats.gui.tpsbs.tab.ssps.requirements": "Este recurso requer que você e o servidor tenham a versão mais recente (ou melhor, a mesma) deste mod instalada.",
+	"betterstats.gui.tpsbs.tab.ssps.player_not_found": "O servidor não encontrou um jogador com o nome solicitado.\n\nCertifique-se de que os seguintes critérios são atendidos antes de tentar novamente:\n1. A grafia e a capitalização do nome estão corretas\n2. O jogador solicitado está online\n3. O jogador solicitado tem este mod instalado\n4. O jogador solicitado ativou 'compartilhamento de estatísticas' na configuração deste mod",
+
+	"betterstats.gui.tpsbs.tab.qs": "Compartilhamento rápido",
+	"betterstats.gui.tpsbs.tab.qs.description": "Com apenas um clique de botão, permite compartilhar rapidamente suas estatísticas com qualquer pessoa usando este mod, não importa onde ela esteja.",
+	"betterstats.gui.tpsbs.tab.qs.tos_notice": "O compartilhamento rápido é um recurso que funciona usando meus servidores (do desenvolvedor do mod). Como tal, está sujeito aos meus TOS e à minha Política de Privacidade.",
+	"betterstats.gui.tpsbs.tab.qs.abuse_notice": "Para prevenir spam e abuso, limites de taxa e outras limitações podem se aplicar.",
+	"betterstats.gui.tpsbs.tab.qs.step_1": "§ePasso 1:\n§7Clique no botão para compartilhar rapidamente o arquivo de estatísticas que você está vendo. Depois disso, as estatísticas são enviadas e você recebe um 'código de compartilhamento rápido'.",
+	"betterstats.gui.tpsbs.tab.qs.step_2": "§ePasso 2:\n§7A pessoa que deve ver as estatísticas compartilhadas então digita o 'código de compartilhamento rápido' e clica no botão para baixar e ver as estatísticas compartilhadas.",
+	"betterstats.gui.tpsbs.tab.qs.step_2.enter_qscode": "Digite o código de compartilhamento rápido aqui",
+
+
+	"betterstats.gui.qs_screen.upload.title": "Enviando estatísticas de compartilhamento rápido...",
+	"betterstats.gui.qs_screen.upload.stage_n1": "Falha ao enviar as estatísticas",
+	"betterstats.gui.qs_screen.upload.stage_0": "Preparando para enviar as estatísticas...",
+	"betterstats.gui.qs_screen.upload.stage_1": "Buscando URLs do endpoint da API better-stats...",
+	"betterstats.gui.qs_screen.upload.stage_2": "Buscando URL do endpoint da API de carregamento na nuvem...",
+	"betterstats.gui.qs_screen.upload.stage_3": "Enviando estatísticas para a nuvem...",
+	"betterstats.gui.qs_screen.upload.stage_4": "Pronto. Seu código de compartilhamento rápido é: %s",
+
+	"betterstats.gui.qs_screen.download.title": "Baixando estatísticas de compartilhamento rápido...",
+	"betterstats.gui.qs_screen.download.stage_n1": "Falha ao baixar as estatísticas",
+	"betterstats.gui.qs_screen.download.stage_0": "Preparando para baixar as estatísticas...",
+	"betterstats.gui.qs_screen.download.stage_1": "Buscando URLs do endpoint da API better-stats...",
+	"betterstats.gui.qs_screen.download.stage_2": "Buscando URL do endpoint da API de download na nuvem...",
+	"betterstats.gui.qs_screen.download.stage_3": "Baixando estatísticas da nuvem...",
+	"betterstats.gui.qs_screen.download.stage_4": "Pronto. Carregando as estatísticas baixadas...",
+
+	"betterstats.gui.qs_screen.err.cmmn.fau.generic": "Falha ao buscar as URLs da API BSS.",
+	"betterstats.gui.qs_screen.err.cmmn.fau.missing_url": "As URLs da API BSS estão indefinidas/ausentes no momento.\nQuaisquer notas adicionais estão escritas abaixo (apenas en_us):\n%s",
+	"betterstats.gui.qs_screen.err.cmmn.fau.http_non200": "Falha ao buscar as URLs da API BSS porque o servidor respondeu com:\n%s",
+	"betterstats.gui.qs_screen.err.upld.guu.http_non200": "Falha ao gerar uma URL de carregamento de estatísticas porque o servidor respondeu com:\n%s",
+	"betterstats.gui.qs_screen.err.upld.act.http_non200": "Falha ao enviar o arquivo de estatísticas porque o servidor respondeu com:\n%s",
+	"betterstats.gui.qs_screen.err.dwnl.gdu.http_non200": "Falha ao gerar uma URL de download de estatísticas porque o servidor respondeu com:\n%s",
+	"betterstats.gui.qs_screen.err.dwnl.act.http_non200": "Falha ao baixar o arquivo de estatísticas porque o servidor respondeu com:\n%s"
+}

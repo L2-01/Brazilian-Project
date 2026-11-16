@@ -1,0 +1,22 @@
+{
+  "name": "guide.animus.entry.ritual_natures_leach",
+  "icon": "minecraft:oak_sapling",
+  "category": "animus:rituals",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Drene a força vital das plantas para encher seu Altar de Sangue. Este ritual busca matéria vegetal e a consome, convertendo energia orgânica em Essência Vital."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos e Detalhes",
+      "text": "$(bold)Ativação:$() 3.000 LP$(br)$(bold)Renovação:$() 10 LP$(br)$(bold)Tempo de Renovação:$() 80 tiques (configurável), caindo para 16 conforme a $(will)Vontade Corrosiva$() se acumula$(br2)$(bold)Alcance do Efeito:$() raio de 8 blocos, expansível para 32 com o Mexedor de Rituais$(br)$(bold)Alcance do Altar:$() Busca 32 blocos na horizontal (±10 blocos na vertical)$(br2)Consome 1-3 plantas por ciclo, gerando 50 LP (configurável) por planta consumida. A localização do altar é armazenada em cache por desempenho."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Geração de Vontade",
+      "text": "$(bold)Vontade Demoníaca:$() Este ritual gera $(will)Vontade Corrosiva$() conforme consome plantas.$(br2)$(li)0,5-1.5 de vontade por planta$(li)Máx 100 de vontade na área$(br2)$(bold)Velocidade:$() Mais vontade corrosiva = operação mais rápida. O ritual alimenta o próprio estoque de vontade conforme come, então ele se acelera quanto mais tempo funciona.$(br2)Perfeito para geração automatizada de LP a partir de fazendas de árvores!"
+    }
+  ]
+}

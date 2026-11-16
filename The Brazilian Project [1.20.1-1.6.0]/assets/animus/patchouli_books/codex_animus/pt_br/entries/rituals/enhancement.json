@@ -1,0 +1,17 @@
+{
+  "name": "guide.animus.entry.imperfect_ritual_enhancement",
+  "icon": "minecraft:amethyst_block",
+  "category": "animus:rituals",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um ritual imperfeito que marca um item encantado como $(#5500AA)Aprimorado por Sangue$(), elevando todos os níveis de encantamento em +1. O aprimoramento é aplicado dinamicamente — os dados reais de encantamento do item nunca são modificados, apenas como são lidos.$(br2)$(bold)Configuração:$()$(br)Coloque um Bloco de Ametista em cima de uma Pedra de Ritual Imperfeita.$(br2)$(bold)Custo:$() 5.000 LP por uso$(br2)$(bold)Nota:$() O ritual não tem efeito persistente; ativa uma vez e completa imediatamente. A pedra pode ser reutilizada."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Ativação:$()$(br)1. Segure um item encantado na mão principal$(br)2. Clique com o botão direito na Pedra de Ritual Imperfeita$(br)3. O item é marcado como $(#5500AA)Aprimorado por Sangue$()$(br)4. Todos os encantamentos exibem e funcionam em +1 nível$(br)5. A pedra permanece para uso futuro$(br2)$(bold)Limitações:$()$(li)Itens só podem ser aprimorados uma vez$(li)O item deve ter encantamentos$(li)Use o Ritual de Redução para remover$(br2)$(bold)Nota:$() Remover encantamentos (ex.: rebolo) não renderá níveis elevados. A marca de aprimoramento persiste e elevará quaisquer novos encantamentos aplicados.$(br2)$(italic)Empurre os encantamentos além de seus limites.$()"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "name": "Serenata do Nether",
+  "icon": "minecraft:lava_bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Serenata do Nether",
+      "multiblock_id": "bloodmagic:lava",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner)Adivinhador de Ritual$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "lava",
+      "text_overrides": [
+        [
+          "master ritual stone",
+          "l:bloodmagic:rituals/ritual_stones"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "raw",
+      "text_overrides": [
+        [
+          "LP",
+          "blood"
+        ],
+        [
+          "tank",
+          "item"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "corrosive",
+      "text": "Particularmente útil contra habitantes do Nether."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "vengeful",
+      "text_overrides": [
+        [
+          "Fire Fuse",
+          "thing"
+        ]
+      ],
+      "text": "Quando o debuff acabar, eles farão uma bela imitação de um fogo de artifício."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "destructive",
+      "text_overrides": [
+        [
+          "Will Destrutiva",
+          "destructive"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "steadfast",
+      "text_overrides": [
+        [
+          "Resistência ao Fogo",
+          "thing"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "lavaRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireDamage",
+      "text_overrides": [
+        [
+          "Will Corrosiva",
+          "corrosive"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireFuse",
+      "text_overrides": [
+        [
+          "Fire Fuse",
+          "thing"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireResist",
+      "text_overrides": [
+        [
+          "Resistência ao Fogo",
+          "thing"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "lavaTank",
+      "text_overrides": [
+        [
+          "tank",
+          "item"
+        ]
+      ]
+    }
+  ]
+}

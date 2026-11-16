@@ -1,0 +1,53 @@
+{
+  "name": "Poço do Sofrimento",
+  "icon": "bloodmagic:life_essence_bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Poço do Sofrimento",
+      "multiblock_id": "bloodmagic:well_of_suffering",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "well_of_suffering",
+      "text_overrides": [
+        [
+          "LP",
+          "blood"
+        ],
+        [
+          "blood altar",
+          "l:bloodmagic:altar/blood_altar"
+        ]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Este ritual ataca criaturas dentro da sua zona de dano e coloca o $(blood)Sangue$() colhido num $(l:bloodmagic:altar/blood_altar)Altar de Sangue$() próximo. Ponha um $(l:bloodmagic:altar/soul_network)Orbe de Sangue$() no Altar, talvez adicione algumas $(l:bloodmagic:altar/blood_rune/sacrifice_rune)Runas de Sacrifício$() por garantia e você nunca mais precisará se preocupar com seu suprimento de LP... Contanto que consiga suprir criaturas suficientes."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "well_of_suffering",
+      "page_type": "altar",
+      "text": "O Ritual só pode se ligar a um altar por vez.",
+      "text_overrides": [
+        [
+          "Blood Altar",
+          "l:bloodmagic:altar/blood_altar"
+        ],
+        [
+          " Blood",
+          "blood"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "well_of_suffering",
+      "page_type": "damage",
+      "text": "criaturas ainda derrubarão itens largados normais de abate não-jogador."
+    }
+  ]
+}

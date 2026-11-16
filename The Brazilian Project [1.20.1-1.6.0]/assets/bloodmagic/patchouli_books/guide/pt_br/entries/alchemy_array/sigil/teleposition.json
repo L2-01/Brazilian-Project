@@ -1,0 +1,19 @@
+{
+  "name": "Selo de Teleposição",
+  "icon": "bloodmagic:telepositionsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Teleporta o usuário para um Telepositor vinculado ao custo de $(blood)1.000 LP$() por uso. Ao shift-clicar num Telepositor com o selo na mão, a localização e a dimensão do Telepositor podem ser registradas, permitindo uma rápida fuga de volta para casa. $(br2)Só não mova o Telepositor por acidente..."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Reagente de Teleposição",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_teleposition",
+      "array.heading": "Selo de Teleposição",
+      "array.recipe": "bloodmagic:array/telepositionsigil",
+      "array.text": "$(italic)Agora você me vê...!$()"
+    }
+  ]
+}

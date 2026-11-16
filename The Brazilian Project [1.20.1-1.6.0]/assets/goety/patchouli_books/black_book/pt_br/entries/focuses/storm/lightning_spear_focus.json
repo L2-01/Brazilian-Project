@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Lança de Raios",
+  "icon": "goety_cataclysm:lightning_spear_focus",
+  "category": "goety:cataclysm/focuses/storm",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O feitiço dispara uma lança de raios que deixa uma pequena nuvem de tempestade onde atinge, danificando os inimigos que estiverem sobre ela."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/lightning_spear_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/storm_staff)Cajado de Tempestade$() dispara duas lanças."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:lightning_spear_focus": 1
+  }
+}

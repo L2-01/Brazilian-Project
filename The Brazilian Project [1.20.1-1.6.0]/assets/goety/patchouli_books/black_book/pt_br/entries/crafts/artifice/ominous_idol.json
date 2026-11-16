@@ -1,0 +1,27 @@
+{
+  "name": "Ídolo Sinistro",
+  "icon": "goety:ominous_idol",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/kill_a_evoker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Uma estátua sinistra que pode salvar as vidas de Illagers e tipos semelhantes que estejam vinculados a ela."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:ominous_idol"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Em vez de morrer, os vinculados ao ídolo serão teletransportados de volta a ele à beira da morte, a menos que tenha sido seu mestre os dispensando com uma Varinha/Cajado, ou se o ídolo a que estão vinculados estiver em outra dimensão. Eles ficarão, no entanto, gravemente feridos, incapazes de serem revividos por um dia de Minecraft, e ficarão aleijados por 5 minutos até estarem suficientemente curados."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para vincular seu servo ao ídolo, basta usar um Obelisco, vinculá-lo à estátua e clicar no seu servo com o botão direito. O ídolo só pode comportar até 16 servos (por padrão) e não aceitará mais depois disso. Como outros artifícios, o ídolo requer Energia de Almas para funcionar, que obtém ao ser colocado em cima de uma $(l:intro/cursed_cage)Jaula Amaldiçoada$() cheia."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:ominous_idol": 1
+  }
+}

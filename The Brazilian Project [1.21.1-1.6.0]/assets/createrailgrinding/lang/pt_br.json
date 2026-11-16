@@ -1,0 +1,47 @@
+{
+    "createrailgrinding.dismount_prompt": "Pressione %1$s para descer",
+    "createrailgrinding.catch_prompt": "Segure %1$s para capturar trilhos",
+    "key.categories.createrailgrinding": "Deslizar em Trilhos",
+    "key.createrailgrinding.catch": "Capturar Trilho",
+    "key.createrailgrinding.grind_jump": "Saltar do Trilho",
+    "key.createrailgrinding.grind_crouch": "Agachar (acelerar no trilho)",
+    "effect.createrailgrinding.railgrindboost": "Vento Sônico",
+    "effect.createrailgrinding.railgrindboost.description": "Aumenta a mobilidade ao deslizar em trilhos",
+    "effect.createrailgrinding.railgrindboost.summary": "Um doce motivador que _Aumenta_ suas _Habilidades de Deslizar em Trilhos._",
+    "effect.createrailgrinding.railgrindboost.condition": "Ao Consumir",
+    "effect.createrailgrinding.railgrindboost.behaviour": "Concede _Vento_ _Sônico_, aumentando _velocidade_, _aceleração_ e _força de salto_ enquanto _desliza em trilhos._",
+
+    "item.createrailgrinding.diving_boots.tooltip.condition1": "Ao estar perto de trilhos",
+    "item.createrailgrinding.diving_boots.tooltip.behaviour1": "Concede a habilidade de _deslizar_ nos _Trilhos de Trem._ _Interaja (botão direito)_ com _Trilhos de Trem_ com a mão vazia, ou segure _%1$s_ próximo aos _Trilhos de Trem._",
+    "item.createrailgrinding.diving_boots.tooltip.condition2": "Ao deslizar em trilhos",
+    "item.createrailgrinding.diving_boots.tooltip.behaviour2": "Segure _%1$s_ para acelerar. Segure _%2$s_ para saltar do trilho. _Interaja (botão direito)_ com _Trilhos de Trem_ para parar.",
+
+    "enchantment.createrailgrinding.railgrind_enchantment": "Surfista de Trilho",
+    "enchantment.createrailgrinding.railgrind_enchantment.desc": "Permite deslizar em Trilhos de Trem",
+
+    "advancement.createrailgrinding.railgrind_advancement": "Equipamento extremo",
+    "advancement.createrailgrinding.railgrind_advancement.desc": "Ande sobre Trilhos de Trem usando Botas de Mergulho ou o encantamento Surfista de Trilho",
+
+    "advancement.createrailgrinding.railgrind_effect_advancement": "Explodindo na velocidade sônica",
+    "advancement.createrailgrinding.railgrind_effect_advancement.desc": "Acelere seu deslizamento em trilhos comendo Chocolate",
+
+    "advancement.createrailgrinding.custom_boots_advancement": "Rolando na velocidade do som",
+    "advancement.createrailgrinding.custom_boots_advancement.desc": "Obtenha Botas de Deslizar em Trilhos com a aparência de um velocista especial",
+
+    "advancement.createrailgrinding.falldamage_negate_advancement": "Isso é que são voos de baixo orçamento",
+    "advancement.createrailgrinding.falldamage_negate_advancement.desc": "Salve-se de uma queda letal agarrando-se a trilhos",
+
+    "subtitles.createrailgrinding.grind_collide": "Clank",
+    "subtitles.createrailgrinding.grind_slow_loop": "Deslizando",
+    "subtitles.createrailgrinding.grind_fast_loop": "Raspando",
+
+    "createrailgrinding.ponder.rail_grinding_intro.header": "Deslizar em Trilhos",
+    "createrailgrinding.ponder.rail_grinding_intro.text_1": "Botas de Mergulho são calçados adequados para deslizar e podem ser usadas para deslizar em trilhos",
+    "createrailgrinding.ponder.rail_grinding_intro.text_2": "Clique com o botão direito em Trilhos de Trem com a mão vazia para começar a deslizar",
+    "createrailgrinding.ponder.rail_grinding_intro.text_3": "Clique com o botão direito em Trilhos de Trem com a mão vazia para parar de deslizar",
+    "createrailgrinding.ponder.rail_grinding_intro.text_4": "Segure %1$s para capturar trilhos",
+    "createrailgrinding.ponder.rail_grinding_intro.text_5": "Segure %1$s para acelerar",
+    "createrailgrinding.ponder.rail_grinding_intro.text_6": "Segure %1$s para saltar de trilhos",
+    "createrailgrinding.ponder.rail_grinding_intro.text_7": "Segurar %1$s fará com que você se prenda automaticamente a trilhos próximos",
+    "createrailgrinding.ponder.rail_grinding_intro.text_8": "Dano de queda é anulado e o impulso é mantido ao capturar trilhos"
+}

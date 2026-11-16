@@ -1,0 +1,32 @@
+{
+    "name": "Dispositivos",
+    "icon": "mimi:settingssync",
+    "category": "mimi:7midi",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Existem várias categorias de dispositivos MIDI que executam diferentes tipos de ações. Alguns dispositivos se encaixam em várias categorias de dispositivos MIDI, enquanto outros podem se encaixar em apenas uma."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Controladores",
+            "text": "Esses dispositivos produzem dados MIDI com base na entrada do usuário (como um piano digital) para serem enviados a outros dispositivos MIDI.$(br2)Controladores geralmente são sinônimo de instrumentos, porém alguns controladores são projetados para modificar dados MIDI recebidos em vez de produzir dados totalmente novos."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Sintetizadores",
+            "text": "Esses dispositivos recebem dados MIDI e produzem som a partir deles. Geralmente existem dois tipos de Sintetizadores:$(br2)$(l)Sintetizadores de Hardware$() — Um dispositivo físico construído especificamente para gerar som a partir de dados MIDI.$(br2)$(l)Sintetizadores de Software$() — Um programa construído para gerar som a partir de dados MIDI (como o Windows Media Player ou este mod)."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Sequenciadores",
+            "text": "Esses dispositivos criam, modificam, salvam e tocam sequências de notas MIDI (como um arquivo .mid).$(br2)A maioria dos sequenciadores MIDI são programas de software usados para compor música; porém, também existem sequenciadores de hardware, frequentemente usados em apresentações ao vivo para gravar e depois reproduzir sequências curtas."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Dispositivos de Rede",
+            "text": "Esses dispositivos são usados para ajudar a conectar outros tipos de dispositivos MIDI entre si.$(br2)Em geral, eles recebem um ou mais fluxos de dados MIDI e os dividem ou combinam, e depois os enviam para um ou mais dispositivos MIDI a jusante."
+        }
+    ],
+    "sortnum": 1
+}

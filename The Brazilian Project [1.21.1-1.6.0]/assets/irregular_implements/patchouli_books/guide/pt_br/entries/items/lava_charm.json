@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:lava_charm",
+    "name": "Amuleto de Lava",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Amuleto de Lava$() pode ser usado como Curio e adiciona um escudo de lava temporário. Ele fica visível acima da sua barra de armadura.$(br2)Enquanto o escudo estiver cheio, você ficará completamente imune a dano de lava. Note que ele não o protege de dano de fogo, apenas de dano de lava."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Pode ser sábio investir também num $(l:irregular_implements:items/obsidian_skull)Crânio de Obsidiana$(/l) para se proteger de dano de fogo.$(br2)Amuletos de Lava podem ser encontrados raramente em baús de masmorra, e mais comumente em baús de fortalezas do Nether."
+        }
+    ]
+}

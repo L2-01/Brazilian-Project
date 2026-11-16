@@ -1,0 +1,132 @@
+{
+  "name": "Processamento de Minérios",
+  "icon": "bloodmagic:basiccuttingfluid",
+  "category": "bloodmagic:utility",
+  "extra_recipe_mappings": {
+    "bloodmagic:copperfragment": 7,
+    "bloodmagic:goldfragment": 7,
+    "bloodmagic:fragment_netherite_scrap": 7,
+    "bloodmagic:coppergravel": 9,
+    "bloodmagic:goldgravel": 9,
+    "bloodmagic:gravel_netherite_scrap": 9,
+    "bloodmagic:coppersand": 7,
+    "bloodmagic:sand_netherite": 7
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(l:bloodmagic:alchemy_table/alchemy_table)Mesa de Alquimia$() pode ser usada, entre outras coisas, para duplicação de minérios, enquanto a $(l:bloodmagic:utility/alchemical_reaction_chamber)Câmara de Reação Alquímica$() pode dar 2,5 lingotes por peça de $(item)Minério Bruto$(), ou 4,5 lingotes por $(item)Bloco de Minério$(). Tire mais minério das suas expedições de mineração com o poder do sangue!"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Fluido de Corte Básico",
+      "anchor": "cutting_fluid",
+      "recipe": "bloodmagic:alchemytable/basic_cutting_fluid_sigil",
+      "text": "O $(item)Fluido de Corte$() é o penúltimo passo de todas as formas de Processamento de Minérios. Pode ser usado na $(l:bloodmagic:utility/alchemical_reaction_chamber)Câmara de Reação Alquímica$(/l) para obter 3 Areias de Minério de um Bloco de Minério, ou 1,5 Areia de Minério de um Minério Bruto (em média). Embora um $(l:bloodmagic:alchemy_array/sigil/water)Selo de Água$() seja usado nesta demonstração, uma simples $(water)Frasco de Água$() serve."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Fluido de Corte Intermediário",
+      "anchor": "intermediate_cutting_fluid",
+      "recipe": "bloodmagic:alchemytable/intermediate_cutting_fluid_sigil",
+      "text": "O Fluido de Corte Intermediário é uma versão melhorada que dura oito vezes mais e aumenta a velocidade de criação em 50%. Mas você terá que ir $(l:bloodmagic:dungeons/lobby)Explorar Masmorras$() pelo $(l:bloodmagic:dungeons/tau_fruit)Óleo Tau$()."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Fluido de Corte Avançado",
+      "anchor": "advanced_cutting_fluid",
+      "recipe": "bloodmagic:alchemytable/advance_cutting_fluid_sigil",
+      "text": "O Fluido de Corte Avançado dura dezesseis vezes mais, dobra a velocidade de criação e dobra a chance de obter saídas bônus de qualquer receita em que for usado. Você terá que fazer uma $(l:bloodmagic:dungeons/endless_realm)Exploração de Masmorra$() bem funda pela $(l:bloodmagic:dungeons/demonite)Areia Forjada no Inferno$() de que ele precisa."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_alchemy_table",
+      "a.heading": "Areia de Ferro",
+      "a.recipe": "bloodmagic:alchemytable/sand_iron",
+      "b.heading": "Areia de Ouro",
+      "b.recipe": "bloodmagic:alchemytable/sand_gold"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "Minério para 3 Areias de Metal",
+      "recipe": "bloodmagic:arc/dustsfrom_ore_iron",
+      "text": "Assim que tiver acesso à $(l:bloodmagic:utility/alchemical_reaction_chamber)Câmara de Reação Alquímica$(/l), você pode obter 3 areias de cada minério que minerar."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "bloodmagic:smelting/ingot_iron",
+      "recipe2": "bloodmagic:smelting/ingot_gold"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Pó Explosivo",
+      "anchor": "ore_processing",
+      "recipe": "bloodmagic:alchemytable/explosive_powder",
+      "text": "O $(item)Pó Explosivo$() na $(item)ARC$() é usado para transformar $(item)Minérios$() em 4,5 $(item)Fragmentos de Minério$() em média, ou $(item)Minérios Brutos$() em 2,25 minérios em média, ou transformar $(item)Lingotes$() na sua variante $(item)Areia$(). Também pode transformar $(fire)Netherrack$() em $(air)Enxofre$() e 50mb de $(fire)Lava$(). Tem 2 variantes melhoradas, a seguir."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_alchemy_table",
+      "a.heading": "Célula Explosiva Reforçada",
+      "a.recipe": "bloodmagic:alchemytable/explosive_cell",
+      "b.heading": "Célula Explosiva Forjada no Inferno",
+      "b.recipe": "bloodmagic:alchemytable/hellforged_explosive_cell",
+      "text": "as Células Explosivas Reforçada e Forjada no Inferno duram mais e criam mais rápido que a variante básica."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "Minério Bruto para Fragmentos",
+      "a.recipe": "bloodmagic:arc/fragmentsiron",
+      "b.heading": "Minério para Fragmentos",
+      "b.recipe": "bloodmagic:arc/fragmentsfrom_ore_iron",
+      "c.heading": "Enxofre e Lava",
+      "c.recipe": "bloodmagic:arc/netherrack_to_sulfer",
+      "c.fluid_output": "minecraft:lava_bucket"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Ressonador",
+      "recipe": "bloodmagic:soulforge/resonator",
+      "anchor": "resonator",
+      "text": "O $(item)Ressonador$() é usado para transformar $(item)Fragmentos de Minério$() no $(item)Cascalho$() correspondente para o processamento contínuo de minérios, e cria $(item)Pó Corrompido Minúsculo$(). O Ressonador Reforçado tem 4x de durabilidade, e o ressonador Forjado no Inferno tem 16x de durabilidade e dobra quaisquer saídas bônus."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Ressonador Reforçado",
+      "a.recipe": "bloodmagic:soulforge/primitive_resonator",
+      "b.heading": "Ressonador Forjado no Inferno",
+      "b.recipe": "bloodmagic:soulforge/hellforged_resonator"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_arc",
+      "a.heading": "Fragmento para Cascalho",
+      "a.recipe": "bloodmagic:arc/gravelsiron",
+      "b.heading": "Cascalho para Areia",
+      "b.recipe": "bloodmagic:arc/dustsfrom_gravel_iron"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Pó Corrompido",
+      "anchor": "corrupted_dust",
+      "recipe": "bloodmagic:corrupted_dust",
+      "text": "O Pó Corrompido Minúsculo pode ser combinado em $(item)Pó Corrompido$(), que pode ser usado para aumentar ainda mais o rendimento de outros minérios. Veja a seguir alguns exemplos."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "Carvão Corrompido",
+      "a.recipe": "bloodmagic:alchemytable/corrupted_coal",
+      "b.heading": "Ferro Corrompido",
+      "b.recipe": "bloodmagic:alchemytable/corrupted_iron",
+      "c.heading": "Detritos Corrompidos",
+      "c.recipe": "bloodmagic:alchemytable/corrupted_netherite"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Célula de Combustível (Fornalha)",
+      "recipe": "bloodmagic:primitive_furnace_cell",
+      "text": "A $(item)ARC$() também funciona como uma $(thing)Fornalha$(), mas as únicas fontes de combustível que aceita são a $(item)Célula de Combustível Primitiva$() ou um $(l:bloodmagic:utility/lava_crystal)Cristal de Lava$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Célula de Combustível Primitiva$() serve para 128 usos individuais. Isso é mais que o $(item)Bloco de Carvão$() usado para criá-la (60 itens), e como só perde durabilidade quando a criação termina, não desperdiça combustível."
+    }
+  ]
+}

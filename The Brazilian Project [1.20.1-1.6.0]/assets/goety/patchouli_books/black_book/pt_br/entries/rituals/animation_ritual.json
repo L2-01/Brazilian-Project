@@ -1,0 +1,24 @@
+{
+  "name": "Ritual de Animação",
+  "icon": "goety:animation_core",
+  "category": "goety:rituals",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Requisitos: $(li)15 Escadas $(li)15 Trilhos $(li)1 Abóbora Esculpida"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety:textures/gui/entries/animalis_ritual.png"
+      ],
+      "border": true,
+      "text": "Um exemplo de como o ritual pode ser disposto."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Com seus estudos, você descobriu um jeito de fazer rituais que envolvem invocar e controlar criaturas. Os trilhos e as escadas significam movimento, e a abóbora significa vida, pois uma Abóbora Esculpida é o que dá vida à Neve e ao Ferro. Curiosamente, por meio de suas pesquisas, você descobriu que, além de dar vida, as abóboras também têm uma propriedade mágica que impede os Enderman de ficarem furiosos se você olhar para eles enquanto a veste, e não porque você está enganando-os."
+    }
+  ]
+}

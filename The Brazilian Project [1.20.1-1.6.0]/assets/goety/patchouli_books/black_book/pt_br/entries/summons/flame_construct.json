@@ -1,0 +1,27 @@
+{
+  "name": "Constructo de Chamas",
+  "icon": "minecraft:magma_block",
+  "category": "goety:summons",
+  "advancement": "goety:goety/read_warred_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os textos antigos anotaram um método de criar uma estranha criatura tipo golem feita de chama e ardosiabissal. A criatura se prova mortal com seu sopro de fogo e saltos explosivos."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:flame_construct",
+      "scale": 0.75
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety:flame_construct",
+      "text": "Clique com o botão direito no Bloco de Magma central com um Núcleo de Animação."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Braseiro pode ser substituído por outros tipos de braseiros decorativos, e a Ardosiabissal pode ser substituída por outros blocos completos que tenham Ardosiabissal no nome. Eles podem ser reparados clicando neles com o botão direito usando Blocos de Magma ou combustíveis de Fornalha. Quando agachado, clicar com o botão direito fará com que gire na sua direção; agachar e clicar fará com que se mova para o centro do bloco em que está."
+    }
+  ]
+}

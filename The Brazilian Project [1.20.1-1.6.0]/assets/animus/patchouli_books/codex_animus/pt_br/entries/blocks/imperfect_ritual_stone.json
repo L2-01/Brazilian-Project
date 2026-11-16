@@ -1,0 +1,37 @@
+{
+  "name": "guide.animus.entry.imperfect_ritual_stone",
+  "icon": "animus:imperfect_ritual_stone",
+  "category": "animus:blocks",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Pedra de Ritual Imperfeita é um bloco de ativação de rituais reutilizável. Diferente da Pedra de Ritual Mestra do Blood Magic, esses rituais não têm efeito persistente nem custo de manutenção.$(br2)Coloque um bloco específico em cima da pedra e clique com o botão direito para ativar o ritual correspondente.$(br2)Cada ativação de ritual consome LP da sua soul network, mas a pedra permanece para uso futuro."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Rituais Disponíveis",
+      "text": "$(bold)Ritual de Regressão$()$(br)Bloco: Estante$(br)Custo: 3.000 LP$(br)Efeito: Remove o custo de reparo do item segurado$(br2)$(bold)Ritual da Fome$()$(br)Bloco: Bloco de Ossos$(br)Custo: 500 LP$(br)Efeito: Deixa você muito faminto$(br2)Veja a categoria Rituais para informações detalhadas sobre cada ritual."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mais Rituais",
+      "text": "$(bold)Ritual de Aprimoramento$()$(br)Bloco: Bloco de Ametista$(br)Custo: 5.000 LP$(br)Efeito: +1 nível em todos os encantamentos do item da mão principal$(br2)$(bold)Ritual de Redução$()$(br)Bloco: Bloco de Quartzo$(br)Custo: 1.000 LP$(br)Efeito: -1 nível em todos os encantamentos, remove aprimoramento"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ainda Mais Rituais",
+      "text": "$(bold)Ritual de Céus Ilimitados$()$(br)Bloco: Detritos Ancestrais$(br)Custo: 10.000 LP$(br)Efeito: 15 minutos de voo criativo$(br2)$(bold)Ritual de Céus Limpos$()$(br)Bloco: Pedra-luminosa$(br)Custo: 1.000 LP$(br)Efeito: Limpa o clima por ~5 minutos"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bênçãos",
+      "text": "$(bold)Ritual da Bênção de Netuno$()$(br)Bloco: Prismarinho$(br)Custo: 2000 LP$(br)Efeito: Respiração Aquática e Graça do Golfinho$(br2)$(bold)Ritual do Sentinela$()$(br)Bloco: Sculk$(br)Custo: 3.000 LP$(br)Efeito: Redução de dano do Manto de Obsidiana"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "animus:imperfect_ritual_stone",
+      "title": "Fabricação"
+    }
+  ]
+}

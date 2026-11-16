@@ -1,0 +1,956 @@
+{
+  "itemGroup.tinkers_advanced.tiac_misc": "Tinkers' Advanced | Diversos",
+
+  "item.tinkers_advanced.ultra_dense_book": "O Livro Ultra Denso",
+
+  "tooltip.tinkers_advanced.ultra_dense_book1": "Um livro super denso",
+  "tooltip.tinkers_advanced.ultra_dense_book2": "-Tinkers' Advanced // Livro Guia-",
+
+  "tooltip.tinkers_advanced.material_story": "Pressione Shift para revelar mais...",
+  "tooltip.tinkers_advanced.material_banned": "Este material não pode ser obtido!",
+
+  "info.tinkers_advanced.hidden_material": "Materiais ocultos não podem ser fabricados normalmente. É por isso que você não encontra a receita. Você precisa segurar Shift e resolver o enigma apresentado. Se Shift não funcionar, o material pode estar banido e você nunca poderá obtê-lo, que pena :(",
+
+
+  "tooltip.tinkers_advanced.energy": "Energia Máx.: ",
+  "tooltip.tinkers_advanced.power_multiplier": "Multiplicador de Potência: ",
+  "tool_stat.tinkers_advanced.flux_core.capacity_factor.description": "Multiplicador de energia máxima que será multiplicado à capacidade base.",
+  "tool_stat.tinkers_advanced.flux_core.generate_factor.description": "A taxa de geração/consumo para as características do Módulo de Energia.",
+  "tool_stat.tinkers_advanced.capacity_factor": "Energia Máxima",
+  "tool_stat.tinkers_advanced.generate_factor": "Multiplicador de Potência",
+
+  "modifier.tinkers_advanced.plasma_proof_goggles": "Óculos à Prova de Plasma",
+  "modifier.tinkers_advanced.plasma_proof_goggles.flavor": "Óculos de natação projetados para lava.",
+  "modifier.tinkers_advanced.plasma_proof_goggles.description": "Remove a névoa de fluido e o efeito de tela de fogo quando usado como capacete.",
+
+
+
+
+
+
+  "itemGroup.tinkers_advanced.tiac_material": "Tinkers' Advanced Materials",
+  "itemGroup.tinkers_advanced.tiac_block": "Tinkers' Advanced Blocks",
+
+
+
+  "modifier.tinkers_advanced.fragile": "Frágil",
+  "modifier.tinkers_advanced.fragile.flavor": "Material frágil não dura muito.",
+  "modifier.tinkers_advanced.fragile.description": "Para cada nível, aumenta 10% a chance de gastar 1 de durabilidade extra ao receber dano.",
+
+  "modifier.tinkers_advanced.tetanus": "Tétano",
+  "modifier.tinkers_advanced.tetanus.flavor": "Deixando fragmentos no corpo do inimigo.",
+  "modifier.tinkers_advanced.tetanus.description": "Inflige o efeito tétano ao inimigo.\nReduz levemente sua armadura e faz com que receba 20% a mais de dano ao ser ferido.",
+
+  "modifier.tinkers_advanced.sculk_resonance": "Ressonância de Sculk",
+  "modifier.tinkers_advanced.sculk_resonance.flavor": "*Zumbido...",
+  "modifier.tinkers_advanced.sculk_resonance.description": "Converte o dano causado em explosão sônica.",
+
+  "modifier.tinkers_advanced.annihilate": "Aniquilar",
+  "modifier.tinkers_advanced.annihilate.flavor": "Nem poeira sobra.",
+  "modifier.tinkers_advanced.annihilate.description": "Causa dano de explosão a você e a alvos num raio.\nFaz seu ataque ignorar a maioria das defesas vanilla.",
+
+  "modifier.tinkers_advanced.reactive_explosive_armor": "Armadura Explosiva Reativa",
+  "modifier.tinkers_advanced.reactive_explosive_armor.flavor": "Armadura Explosiva Reativa",
+  "modifier.tinkers_advanced.reactive_explosive_armor.description": "Bloqueia 25% do dano recebido e o libera em forma de explosão. Concede imunidade a explosão e fogo.",
+
+  "modifier.tinkers_advanced.atom_grade": "Tecnologia de Nível Atômico",
+  "modifier.tinkers_advanced.atom_grade.flavor": "Embora ainda seja menos complexa que um cérebro humano.",
+  "modifier.tinkers_advanced.atom_grade.description": "Adiciona 1 espaço de defesa ou de melhoria à sua ferramenta, dependendo do tipo de ferramenta.",
+
+  "modifier.tinkers_advanced.edging_technology": "Tecnologia de Borda",
+  "modifier.tinkers_advanced.edging_technology.flavor": "Nada é mais exótico que isto.",
+  "modifier.tinkers_advanced.edging_technology.description": "Adiciona 1 espaço de melhoria e habilidade à sua ferramenta.",
+
+  "modifier.tinkers_advanced.quantum_technology": "Tecnologia Quântica",
+  "modifier.tinkers_advanced.quantum_technology.flavor": "Tem QUÂNTICA dentro.",
+  "modifier.tinkers_advanced.quantum_technology.description": "Adiciona 1 espaço de melhoria e habilidade à sua ferramenta.",
+
+  "modifier.tinkers_advanced.radioactive_armor": "Armadura Radioativa",
+  "modifier.tinkers_advanced.radioactive_armor.flavor": "Já usou uma calça de chumbo?",
+  "modifier.tinkers_advanced.radioactive_armor.description": "Inflige radiação ao atacante e recebe menos dano de atacantes irradiados.\nGanha 50% de resistência a radiação por nível.",
+
+  "modifier.tinkers_advanced.air_slash": "Golpe de Ar",
+  "modifier.tinkers_advanced.air_slash.flavor": "Ejeção de ar pressurizado.",
+  "modifier.tinkers_advanced.air_slash.description": "Dispara um golpe poderoso ao brandir com a mão principal. Consome ar.",
+
+  "modifier.tinkers_advanced.aerial_protection": "Proteção Aérea",
+  "modifier.tinkers_advanced.aerial_protection.flavor": "Escudo gasoso.",
+  "modifier.tinkers_advanced.aerial_protection.description": "Bloqueia %1$s de dano; aumenta o nível de proteção conforme a pressão sobe.",
+
+  "modifier.tinkers_advanced.sensor_interrupt": "Interrupção Visual",
+  "modifier.tinkers_advanced.sensor_interrupt.flavor": "Distorção de raio.",
+  "modifier.tinkers_advanced.sensor_interrupt.description": "Torna você menos visível para inimigos hostis.",
+
+  "modifier.tinkers_advanced.metamorphium": "Metamorphium",
+  "modifier.tinkers_advanced.metamorphium.flavor": "Está se remodelando...",
+  "modifier.tinkers_advanced.metamorphium.description": "Cada dano recebido pela ferramenta aumenta sua força.",
+
+  "modifier.tinkers_advanced.basalz_defense": "Defesa de Basalz",
+  "modifier.tinkers_advanced.basalz_defense.flavor": "Sólido como pedra.",
+  "modifier.tinkers_advanced.basalz_defense.description": "Aumenta levemente o dano. Concede resistência a explosão.",
+
+  "modifier.tinkers_advanced.basalz_inflict": "Estilhaçado",
+  "modifier.tinkers_advanced.basalz_inflict.flavor": "Estilhaçado",
+  "modifier.tinkers_advanced.basalz_inflict.description": "Inflige o efeito fendido ao acertar.",
+
+  "modifier.tinkers_advanced.blitz_defense": "Defesa de Blitz",
+  "modifier.tinkers_advanced.blitz_defense.flavor": "Rápido como um arco.",
+  "modifier.tinkers_advanced.blitz_defense.description": "Concede resistência a raio. Tem 5% de chance de cancelar o dano e chocar o atacante.",
+
+  "modifier.tinkers_advanced.blitz_inflict": "Chocado",
+  "modifier.tinkers_advanced.blitz_inflict.flavor": "É \"chocante\".",
+  "modifier.tinkers_advanced.blitz_inflict.description": "Causa arcos atingindo outros alvos num raio.",
+
+  "modifier.tinkers_advanced.blizz_inflict": "Blindagem Gélida",
+  "modifier.tinkers_advanced.blizz_inflict.flavor": "Esfria sozinho. O que a primeira lei da termodinâmica está fazendo?",
+  "modifier.tinkers_advanced.blizz_inflict.description": "Congela o alvo ao acertar. Causa 2x de dano a inimigos incendiados.",
+
+  "modifier.tinkers_advanced.blizz_defense": "Defesa de Blizz",
+  "modifier.tinkers_advanced.blizz_defense.flavor": "Processo nitro.",
+  "modifier.tinkers_advanced.blizz_defense.description": "Concede resistência a gelo. Congela o atacante.",
+
+  "modifier.tinkers_advanced.flame_adaptive": "Adaptação às Chamas",
+  "modifier.tinkers_advanced.flame_adaptive.flavor": "Tem sede de chamas.",
+  "modifier.tinkers_advanced.flame_adaptive.description": "Concede resistência a fogo quando equipado. Recupera durabilidade lentamente quando o usuário está em chamas.",
+
+  "modifier.tinkers_advanced.flux_infused": "Infundido em Flux",
+  "modifier.tinkers_advanced.flux_infused.flavor": "Energizado pela Team CoFH.",
+  "modifier.tinkers_advanced.flux_infused.description": "+1MFE de armazenamento de energia por nível. Alterna o modo ao pressionar a tecla de modo CoFH.",
+
+  "modifier.tinkers_advanced.thermal_enhance": "Aprimoramento Térmico",
+  "modifier.tinkers_advanced.thermal_enhance.flavor": "Ferramentas aprimoradas por elementos!",
+  "modifier.tinkers_advanced.thermal_enhance.description": "Todos os efeitos de Defesa de Basalz, Fendido, Defesa de Blitz, Chocado, Blindagem Gélida, Defesa de Blizz e Adaptação às Chamas.",
+
+  "modifier.tinkers_advanced.flux_arrow": "Flecha de Fluxo",
+  "modifier.tinkers_advanced.flux_arrow.flavor": "Energizado pela Team CoFH.",
+  "modifier.tinkers_advanced.flux_arrow.description": "No Modo Ativado, consome energia para criar flechas. No Modo Energizado, flechas de poção podem ser criadas e explodem ao acertar.",
+
+  "modifier.tinkers_advanced.thermal_slash": "Golpe de Fluxo",
+  "modifier.tinkers_advanced.thermal_slash.flavor": "Energizado pela Team CoFH.",
+  "modifier.tinkers_advanced.thermal_slash.description": "+1 nível de Fortuna e Saque. No Modo Ativado, consome energia para aumentar velocidade de mineração e dano de ataque. No Modo Energizado, dispara Golpe Elemental ao brandir.",
+
+  "modifier.tinkers_advanced.flux_defense": "Escudo de Flux",
+  "modifier.tinkers_advanced.flux_defense.flavor": "Energizado pela Team CoFH.",
+  "modifier.tinkers_advanced.flux_defense.description": "No Modo Ativado, 5% de chance de bloquear o dano. No Modo Energizado, consome energia para aumentar o nível de proteção.",
+  "modifier.tinkers_advanced.flux_defense.resistance": "Resistência de Flux",
+
+  "modifier.tinkers_advanced.supreme_density": "Densidade Suprema",
+  "modifier.tinkers_advanced.supreme_density.flavor": "Quase colapsou num buraco negro.",
+  "modifier.tinkers_advanced.supreme_density.description": "Melhora o efeito da maioria dos modificadores corpo a corpo e à distância.",
+
+  "modifier.tinkers_advanced.supreme_density_armor": "Densidade Suprema",
+  "modifier.tinkers_advanced.supreme_density_armor.flavor": "Quase colapsou num buraco negro.",
+  "modifier.tinkers_advanced.supreme_density_armor.description": "Melhora o efeito da maioria dos modificadores de armadura.",
+
+  "modifier.tinkers_advanced.ionized": "Ionizando",
+  "modifier.tinkers_advanced.ionized.flavor": "Divide tudo em íons.",
+  "modifier.tinkers_advanced.ionized.description": "Inflige o efeito Ionizado, causando dano e redução de atributos.",
+
+  "modifier.tinkers_advanced.disintegrate": "Desintegrar",
+  "modifier.tinkers_advanced.disintegrate.flavor": "Quebrando tudo.",
+  "modifier.tinkers_advanced.disintegrate.description": "Aumenta a velocidade de mineração e o custo de durabilidade na mineração constante.",
+
+  "modifier.tinkers_advanced.electric": "Elétrico",
+  "modifier.tinkers_advanced.electric.flavor": "Descarga estática!",
+  "modifier.tinkers_advanced.electric.description": "Invoca arcos ao atacar.",
+
+  "modifier.tinkers_advanced.echo_locating": "Localização de Eco",
+  "modifier.tinkers_advanced.echo_locating.flavor": "Não interrompa...",
+  "modifier.tinkers_advanced.echo_locating.description": "Sua ferramenta recebe vibrações e marca a criatura causadora. Atacar a criatura marcada causa dano sônico extra.",
+
+  "modifier.tinkers_advanced.elastic": "Elástico",
+  "modifier.tinkers_advanced.elastic.flavor": "Maciez nem sempre é ruim.",
+  "modifier.tinkers_advanced.elastic.description": "Quando a ferramenta recebe dano, tem chance de recuperar durabilidade em vez de ser danificada.",
+
+  "modifier.tinkers_advanced.shaping": "Moldagem",
+  "modifier.tinkers_advanced.shaping.flavor": "Esculpindo mudanças.",
+  "modifier.tinkers_advanced.shaping.description": "Adiciona espaços de melhoria (ou espaços de defesa em armaduras) à sua ferramenta após ela ser danificada muitas vezes.",
+
+  "modifier.tinkers_advanced.radiation_burning": "Queima de Radiação",
+  "modifier.tinkers_advanced.radiation_burning.flavor": "Quantidade perigosa de radiação ionizante.",
+  "modifier.tinkers_advanced.radiation_burning.description": "Inflige radiação ao alvo. Aumenta o dano ao atacar alvos irradiados.",
+
+  "modifier.tinkers_advanced.proto_refining": "Refino Proto",
+  "modifier.tinkers_advanced.proto_refining.flavor": "Refinando com veneno proto.",
+  "modifier.tinkers_advanced.proto_refining.description": "Concede níveis maiores de Fortuna e Saque após minerar ou atacar constantemente.",
+
+  "modifier.tinkers_advanced.proto_defense": "Pacote de Energia Proto",
+  "modifier.tinkers_advanced.proto_defense.flavor": "Pacote de energia que não precisa de energia.",
+  "modifier.tinkers_advanced.proto_defense.description": "Concede imunidade a efeitos maléficos. Quando usado no espaço do peito, concede Pressa, Supersalto e Velocidade.",
+
+  "modifier.tinkers_advanced.return_to_slime": "Retorno ao Slime",
+  "modifier.tinkers_advanced.return_to_slime.flavor": "Analisar e devorar.",
+  "modifier.tinkers_advanced.return_to_slime.description": "Ganha superslime após minerar ou matar; a quantidade depende dos itens obtidos.",
+
+  "modifier.tinkers_advanced.nutritive_slime": "Slime Nutritivo",
+  "modifier.tinkers_advanced.nutritive_slime.flavor": "Mas não é gostoso...",
+  "modifier.tinkers_advanced.nutritive_slime.description": "Consome superslime para recuperar o nível de fome quando equipado.",
+
+  "modifier.tinkers_advanced.unstable": "Instável",
+  "modifier.tinkers_advanced.unstable.flavor": "Manuseie com cuidado!",
+  "modifier.tinkers_advanced.unstable.description": "Randomiza dano de ataque, resistência, velocidade de escavação e custo de durabilidade.",
+  "modifier.tinkers_advanced.unstable.resistance": "Resistência Instável",
+
+  "modifier.tinkers_advanced.plague": "Praga",
+  "modifier.tinkers_advanced.plague.flavor": "O patógeno.",
+  "modifier.tinkers_advanced.plague.description": "Inflige o efeito Praga, causando dano e reduzindo a regeneração de vida.",
+
+  "modifier.tinkers_advanced.poison_defense": "Defesa contra Veneno",
+  "modifier.tinkers_advanced.poison_defense.flavor": "Defesa contra Veneno",
+  "modifier.tinkers_advanced.poison_defense.description": "Concede imunidade a Veneno e Wither.",
+
+  "modifier.tinkers_advanced.void_dodging": "Esquiva do Vazio",
+  "modifier.tinkers_advanced.void_dodging.flavor": "Mande-os para o vazio!",
+  "modifier.tinkers_advanced.void_dodging.description": "Concede chance de esquivar e depois destruir a flecha recebida.",
+
+  "modifier.tinkers_advanced.stabilize": "Estabilizar",
+  "modifier.tinkers_advanced.stabilize.flavor": "Ainda assim, manuseie com cuidado.",
+  "modifier.tinkers_advanced.stabilize.description": "Aumenta levemente o dano corpo a corpo ou a armadura. Estabiliza minério de stibnite próximo após minerar.",
+
+  "modifier.tinkers_advanced.iso_chrome": "Iso Chrome",
+  "modifier.tinkers_advanced.iso_chrome.flavor": "Material mágico.",
+  "modifier.tinkers_advanced.iso_chrome.description": "+1 espaço de Melhoria, Habilidade e Defesa.",
+
+  "modifier.tinkers_advanced.extra_enhance": "Aprimoramento Extra",
+  "modifier.tinkers_advanced.extra_enhance.flavor": "Infusão profunda!",
+  "modifier.tinkers_advanced.extra_enhance.description": "+1 espaço de Habilidade.",
+
+  "modifier.tinkers_advanced.annihilating_slime": "Slime Aniquilador",
+  "modifier.tinkers_advanced.annihilating_slime.flavor": "Slime impossível!",
+  "modifier.tinkers_advanced.annihilating_slime.description": "Superslime máx. x%1$s. Consome %2$s de superslime e libera Explosão Aniquiladora com x%3$s de dano por nível.",
+
+  "modifier.tinkers_advanced.annihilating_slime_armor": "Slime Aniquilador",
+  "modifier.tinkers_advanced.annihilating_slime_armor.flavor": "Slime impossível!",
+  "modifier.tinkers_advanced.annihilating_slime_armor.description": "Superslime máx. x%1$s. Ganha 100%% de redução de dano quando o superslime passa de %2$s, consumindo-o.",
+
+  "modifier.tinkers_advanced.neutronium_assemble": "Montagem de Neutronium",
+  "modifier.tinkers_advanced.neutronium_assemble.flavor": "Ele se autoduplica...",
+  "modifier.tinkers_advanced.neutronium_assemble.description": "Clique com botão direito na ferramenta com Anti-Neutronium no inventário para carregar. Ganha %1$s de carga por lingote. A ferramenta consome carga para regenerar superslime, %2$s por carga.",
+
+  "modifier.tinkers_advanced.heavy_material": "Material Pesado",
+  "modifier.tinkers_advanced.heavy_material.flavor": "Consegue levantar?",
+  "modifier.tinkers_advanced.heavy_material.description": "+%1$s de Dano de Ataque, -%2$s de Velocidade de Movimento, -%3$s de Velocidade de Ataque por nível.",
+
+  "modifier.tinkers_advanced.thermal_foundation": "Fundação Térmica",
+  "modifier.tinkers_advanced.thermal_foundation.flavor": "Thermal é o melhor!",
+  "modifier.tinkers_advanced.thermal_foundation.description": "Adiciona 1 espaço de melhoria.",
+
+  "modifier.tinkers_advanced.basalz_enhance": "Aprimoramento Basalz",
+  "modifier.tinkers_advanced.basalz_enhance.flavor": "Elemental da terra.",
+  "modifier.tinkers_advanced.basalz_enhance.description": "Adiciona 1 espaço de defesa.",
+
+  "modifier.tinkers_advanced.blitz_enhance": "Aprimoramento Blitz",
+  "modifier.tinkers_advanced.blitz_enhance.flavor": "Elemental do ar.",
+  "modifier.tinkers_advanced.blitz_enhance.description": "Adiciona 1 espaço de melhoria.",
+
+  "modifier.tinkers_advanced.blizz_enhance": "Aprimoramento Blizz",
+  "modifier.tinkers_advanced.blizz_enhance.flavor": "Elemental do gelo.",
+  "modifier.tinkers_advanced.blizz_enhance.description": "Adiciona 1 espaço de habilidade.",
+
+  "modifier.tinkers_advanced.energy_reinforced": "Reforço Energético",
+  "modifier.tinkers_advanced.energy_reinforced.flavor": "Reforçado, mas com Redstone Flux.",
+  "modifier.tinkers_advanced.energy_reinforced.description": "Consome energia para reduzir a perda de durabilidade.",
+
+  "modifier.tinkers_advanced.super_conduct": "Supercondutor",
+  "modifier.tinkers_advanced.super_conduct.flavor": "Supercondutor em temperatura ambiente!",
+  "modifier.tinkers_advanced.super_conduct.description": "Consome energia para aumentar a capacidade de perfurar armadura.",
+
+  "modifier.tinkers_advanced.add_invulnerable_time.description": "Aumenta %1$ss de Tempo de Invulnerabilidade após ser atingido.",
+
+  "modifier.tinkers_advanced.add_mob_effect.description": "Inflige %1$s ao atacar.",
+
+  "modifier.tinkers_advanced.life_melody": "Melodia da Vida",
+  "modifier.tinkers_advanced.life_melody.flavor": "O fim chegou ~",
+  "modifier.tinkers_advanced.life_melody.description": "Aumenta o dano em %1$s da vida perdida do alvo.",
+
+  "modifier.tinkers_advanced.blazing": "Incandescente",
+  "modifier.tinkers_advanced.blazing.flavor": "Estou em chamas!",
+  "modifier.tinkers_advanced.blazing.description": "Se auto-incendeia e põe fogo em criaturas próximas. Funciona no inventário.",
+
+  "modifier.tinkers_advanced.obsidianite": "Obsidianita",
+  "modifier.tinkers_advanced.obsidianite.flavor": "Obsidiana mais forte.",
+  "modifier.tinkers_advanced.obsidianite.description": "Aumenta levemente os atributos. Permite reparo com obsidiana.",
+
+  "modifier.tinkers_advanced.rainbow_kit": "Arco-íris",
+  "modifier.tinkers_advanced.rainbow_kit.flavor": "Aprimorado pelo arco-íris",
+  "modifier.tinkers_advanced.rainbow_kit.description": "Aumenta atributos, inflige brilho em combate e permite que a armadura aja como Kit Arco-íris.",
+
+  "modifier.tinkers_advanced.frosted_attack": "Ataque Gélido",
+  "modifier.tinkers_advanced.frosted_attack.flavor": "Solidifica ao esfriar.",
+  "modifier.tinkers_advanced.frosted_attack.description": "Quando o usuário está congelado, a ferramenta inflige mais dano de Congelamento ao longo do tempo.",
+
+  "modifier.tinkers_advanced.frosted_shield": "Escudo Gélido",
+  "modifier.tinkers_advanced.frosted_shield.flavor": "Solidifica ao esfriar.",
+  "modifier.tinkers_advanced.frosted_shield.description": "Quando o usuário está congelado, a armadura bloqueia mais dano ao longo do tempo.",
+
+  "modifier.tinkers_advanced.oceanic_whirl": "Redemoinho Oceânico",
+  "modifier.tinkers_advanced.oceanic_whirl.flavor": "Oceano, abençoa-me!",
+  "modifier.tinkers_advanced.oceanic_whirl.description": "Concede efeito Correnteza mais forte.",
+
+  "modifier.tinkers_advanced.prismatic": "Prismático",
+  "modifier.tinkers_advanced.prismatic.flavor": "Seja água, meu amigo.",
+  "modifier.tinkers_advanced.prismatic.description": "Não atrai a atenção de criaturas na água.",
+
+  "modifier.tinkers_advanced.defense_melody": "Melodia de Defesa",
+  "modifier.tinkers_advanced.defense_melody.flavor": "Rola e rola.",
+
+  "modifier.tinkers_advanced.ender_supress": "Supressão Ender",
+  "modifier.tinkers_advanced.ender_supress.flavor": "",
+  "modifier.tinkers_advanced.ender_supress.description": "Impede que inimigos ender que o miram se teletransportem e revidem.",
+
+  "modifier.tinkers_advanced.respiration_enhanced": "Respiração Aprimorada",
+  "modifier.tinkers_advanced.respiration_enhanced.flavor": "Respirar água.",
+  "modifier.tinkers_advanced.respiration_enhanced.description": "Equivalente a Respiração V.",
+
+  "modifier.tinkers_advanced.ender_pearl": "Pérola de Ender",
+  "modifier.tinkers_advanced.ender_pearl.flavor": "Literalmente uma pérola de ender.",
+  "modifier.tinkers_advanced.ender_pearl.description": "Botão direito para lançar uma pérola de ender; custa 10 de durabilidade.",
+
+  "modifier.tinkers_advanced.ender_protocol": "Protocolo Ender",
+  "modifier.tinkers_advanced.ender_protocol.flavor": "Acordo com o enderman",
+  "modifier.tinkers_advanced.ender_protocol.description": "Permaneça neutro com endermans, mesmo olhando nos olhos deles.",
+
+  "modifier.tinkers_advanced.flash_attack": "Ataque Relâmpago",
+  "modifier.tinkers_advanced.flash_attack.flavor": "Ataque num lampejo.",
+  "modifier.tinkers_advanced.flash_attack.description": "Não redefine a força de ataque ao trocar.",
+
+  "modifier.tinkers_advanced.neuro_excitement": "Excitação Neural",
+  "modifier.tinkers_advanced.neuro_excitement.flavor": "Bioelétrico.",
+  "modifier.tinkers_advanced.neuro_excitement.description": "Torna seu ataque crítico logo após equipar.",
+
+  "modifier.tinkers_advanced.star_gazing": "Contemplação Estelar",
+  "modifier.tinkers_advanced.star_gazing.flavor": "Veja as estrelas caírem",
+  "modifier.tinkers_advanced.star_gazing.description": "Às vezes derruba estrelas ao atacar; apanhá-las concede certo efeito.",
+
+  "modifier.tinkers_advanced.netherstar_blessing": "Bênção do Nether",
+  "modifier.tinkers_advanced.netherstar_blessing.flavor": "Um pouco de poder do Nether.",
+  "modifier.tinkers_advanced.netherstar_blessing.description": "Concede imunidade a dano de fogo, raio e explosão. Fornece Proteção Mágica X.",
+  "modifier.tinkers_advanced.netherstar_blessing.resistance": "Proteção Mágica",
+
+  "modifier.tinkers_advanced.night_slayer": "Assassino Noturno",
+  "modifier.tinkers_advanced.night_slayer.flavor": "Assassino no escuro",
+  "modifier.tinkers_advanced.night_slayer.description": "Aumenta dano e proteção no escuro.",
+  "modifier.tinkers_advanced.night_slayer.resistance": "Resistência no Escuro",
+
+  "modifier.tinkers_advanced.luminous_piercer": "Perfurador Luminoso",
+  "modifier.tinkers_advanced.luminous_piercer.flavor": "Fótons letais",
+  "modifier.tinkers_advanced.luminous_piercer.description": "Aumenta dano e proteção na luz.",
+  "modifier.tinkers_advanced.luminous_piercer.resistance": "Resistência na Luz",
+
+  "modifier.tinkers_advanced.ender_breathe": "Sopro Ender",
+  "modifier.tinkers_advanced.ender_breathe.flavor": "Sopro triplo!",
+  "modifier.tinkers_advanced.ender_breathe.description": "Causa dano mágico em área ao atacar.",
+
+  "modifier.tinkers_advanced.star_heal": "Cura Estelar",
+  "modifier.tinkers_advanced.star_heal.flavor": "Veja as estrelas caírem",
+  "modifier.tinkers_advanced.star_heal.description": "Espalha estrelas curativas ao receber dano alto. Concede uma chance de reviver.",
+
+  "modifier.tinkers_advanced.slimeful": "Cheio de Slime",
+  "modifier.tinkers_advanced.slimeful.flavor": "Cheio de SLIME!!!",
+  "modifier.tinkers_advanced.slimeful.description": "Larga bola de slime extra ao usar.",
+
+  "modifier.tinkers_advanced.semiconductor": "Semicondutor",
+  "modifier.tinkers_advanced.semiconductor.flavor": "Conduz pela metade!",
+  "modifier.tinkers_advanced.semiconductor.description": "Aumenta o dano crítico e diminui o dano não crítico.",
+
+  "modifier.tinkers_advanced.photoelectric": "Fotoelétrico",
+  "modifier.tinkers_advanced.photoelectric.flavor": "Plantas à base de silício?",
+  "modifier.tinkers_advanced.photoelectric.description": "Gera energia quando há luz. Precisa de armazenamento de energia para funcionar.",
+
+  "modifier.tinkers_advanced.capacitor_capable": "Compatível com Capacitor",
+  "modifier.tinkers_advanced.capacitor_capable.flavor": "Ele \"capacita\" capacitor.",
+  "modifier.tinkers_advanced.capacitor_capable.description": "Botão direito na ferramenta com um capacitor para instalá-lo e melhorar atributos. Botão direito com uma chave yeti para desinstalar.",
+
+  "modifier.tinkers_advanced.redstone_plated": "Chapeado em Redstone",
+  "modifier.tinkers_advanced.redstone_plated.flavor": "Ligando com redstone.",
+  "modifier.tinkers_advanced.redstone_plated.description": "Permite reparo com liga de redstone.",
+
+  "modifier.tinkers_advanced.aerial_unstable": "Instabilidade Aérea",
+  "modifier.tinkers_advanced.aerial_unstable.flavor": "Não é bom em viagens longas.",
+  "modifier.tinkers_advanced.aerial_unstable.description": "Randomiza a direção do projétil logo após o disparo.",
+
+  "modifier.tinkers_advanced.chemical_unstable": "Instabilidade Química",
+  "modifier.tinkers_advanced.chemical_unstable.flavor": "Super sensível!",
+  "modifier.tinkers_advanced.chemical_unstable.description": "Some e explode aleatoriamente antes de 2 segundos.",
+
+  "modifier.tinkers_advanced.radiation_removal": "Decaimento Acelerado",
+  "modifier.tinkers_advanced.radiation_removal.flavor": "Deixe o tempo curar você.",
+  "modifier.tinkers_advanced.radiation_removal.description": "Aumenta a velocidade de decaimento da radiação quando equipado.",
+
+
+
+  "material.tinkers_advanced.bismuth": "Bismuto",
+  "material.tinkers_advanced.bismuth.flavor": "O bismuto é conhecido pela bela forma de seu cristal.",
+  "material.tinkers_advanced.bismuth.encyclopedia": "Cada nível de tétano reduz 2 de armadura.",
+  "material.tinkers_advanced.bismuth.ranged": "Cada nível de tétano reduz 2 de armadura.",
+  "material.tinkers_advanced.bismuth.armor": "Cada nível de tétano reduz 2 de armadura.",
+
+  "material.tinkers_advanced.bismuthinite": "Bismutinita",
+  "material.tinkers_advanced.bismuthinite.flavor": "Forma básica do minério de bismuto na natureza.",
+  "material.tinkers_advanced.bismuthinite.encyclopedia": "Aumenta/reduz 20% de dano com durabilidade cheia.",
+  "material.tinkers_advanced.bismuthinite.ranged": "Aumenta/reduz 10% de dano com durabilidade cheia.",
+  "material.tinkers_advanced.bismuthinite.armor": "Reduz 20% de dano abaixo de 5; caso contrário aumenta 10%, após o cálculo da armadura.",
+
+  "material.tinkers_advanced.certus_quartz": "Quartzo Certus",
+  "material.tinkers_advanced.certus_quartz.flavor": "Misterioso cristal branco do espaço sideral.",
+  "material.tinkers_advanced.certus_quartz.encyclopedia": "Aumenta/reduz 20% de dano com durabilidade cheia.",
+  "material.tinkers_advanced.certus_quartz.ranged": "Aumenta/reduz 10% de dano com durabilidade cheia.",
+  "material.tinkers_advanced.certus_quartz.armor": "Reduz 20% de dano abaixo de 5; caso contrário aumenta 10%, após o cálculo da armadura.",
+
+  "material.tinkers_advanced.fluix_crystal": "Fluix",
+  "material.tinkers_advanced.fluix_crystal.flavor": "Cristais artificiais.",
+  "material.tinkers_advanced.fluix_crystal.encyclopedia": "Causa 3 + nível do modificador de dano mágico. Cada perda de durabilidade requer 25 AE para reparar. Repara mais rápido com nível maior.",
+  "material.tinkers_advanced.fluix_crystal.ranged": "Causa 3 + nível do modificador de dano mágico. Cada perda de durabilidade requer 25 AE para reparar. Repara mais rápido com nível maior.",
+  "material.tinkers_advanced.fluix_crystal.armor": "Causa 3 + nível do modificador de dano mágico. Cada perda de durabilidade requer 25 AE para reparar. Repara mais rápido com nível maior.",
+
+  "material.tinkers_advanced.alloy_atomic": "Liga Atômica",
+  "material.tinkers_advanced.alloy_atomic.flavor": "Tecnologia de nível atômico",
+
+  "material.tinkers_advanced.antimatter": "Antimatéria",
+  "material.tinkers_advanced.antimatter.flavor": "É engraçado ver como a antimatéria pode ser colocada com segurança numa fundição.",
+
+  "material.tinkers_advanced.refined_obsidian": "Obsidiana Refinada",
+  "material.tinkers_advanced.refined_obsidian.flavor": "Denso, forte e durável.",
+  "material.tinkers_advanced.refined_obsidian.encyclopedia": "Aumenta 5% de velocidade de ataque por nível ao usar, com máximo de 50% por nível.",
+
+  "material.tinkers_advanced.refined_glowstone": "Pedra-Luminosa Refinada",
+  "material.tinkers_advanced.refined_glowstone.flavor": "Tesouros brilhantes e reluzentes.",
+
+  "material.tinkers_advanced.irradium": "Irradium",
+  "material.tinkers_advanced.irradium.flavor": "Duro e radioativo. O melhor material para pregar peças no inimigo!",
+  "material.tinkers_advanced.irradium.encyclopedia": "Cada Sv de radiação aumenta 5% de dano. Máximo de 75%",
+  "material.tinkers_advanced.irradium.ranged": "Cada Sv de radiação aumenta 5% de dano. Máximo de 75%",
+  "material.tinkers_advanced.irradium.armor": "Cada Sv de radiação reduz 5% de dano. Máximo de 75%",
+
+  "material.tinkers_advanced.pneumatic_steel": "Aço Pneumático",
+  "material.tinkers_advanced.pneumatic_steel.flavor": "Material de fase composta. Fortalecido por resfriamento rápido.",
+  "material.tinkers_advanced.pneumatic_steel.encyclopedia": "São necessários 100mL de ar para um golpe.",
+  "material.tinkers_advanced.pneumatic_steel.armor": "Cada dano consome 100mL de ar.",
+
+  "material.tinkers_advanced.basalz_signalum": "Signalum Basalz",
+  "material.tinkers_advanced.basalz_signalum.flavor": "Material mágico com relação próxima à terra.",
+  "material.tinkers_advanced.basalz_signalum.encyclopedia": "O efeito fendido reduz 25% de armadura por nível.",
+  "material.tinkers_advanced.basalz_signalum.ranged": "O efeito fendido reduz 25% de armadura por nível.",
+  "material.tinkers_advanced.basalz_signalum.armor": "Alcance de detecção reduzido para 5/nível.",
+
+  "material.tinkers_advanced.blitz_lumium": "Lumium Blitz",
+  "material.tinkers_advanced.blitz_lumium.flavor": "Material radiante que envia impulsos elétricos constantemente.",
+  "material.tinkers_advanced.blitz_lumium.encyclopedia": "O efeito chocado reduz 3 de dano por nível. O arco causa 2+0,5*nível de dano.",
+  "material.tinkers_advanced.blitz_lumium.ranged": "O efeito chocado reduz 3 de dano por nível. O arco causa 2+0,5*nível de dano.",
+
+  "material.tinkers_advanced.blizz_enderium": "Enderium Blizz",
+  "material.tinkers_advanced.blizz_enderium.flavor": "Parece frio; ao tocar, gélido.",
+  "material.tinkers_advanced.blizz_enderium.encyclopedia": "Cada dano recebido pela ferramenta tem 10% de chance de aumentar a maioria dos atributos. Com amplificador máximo de 25%.",
+  "material.tinkers_advanced.blizz_enderium.armor": "Cada dano recebido pela ferramenta tem 10% de chance de aumentar a maioria dos atributos. Com amplificador máximo de 25%.",
+  "material.tinkers_advanced.blizz_enderium.ranged": "Cada dano recebido pela ferramenta tem 10% de chance de aumentar a maioria dos atributos. Com amplificador máximo de 25%.",
+
+  "material.tinkers_advanced.blaze_netherite": "Netherita Blaze",
+  "material.tinkers_advanced.blaze_netherite.flavor": "Metal infernalmente quente que se autorrepara quando aquecido.",
+
+  "material.tinkers_advanced.activated_chromatic_steel": "Aço Cromático Ativado",
+  "material.tinkers_advanced.activated_chromatic_steel.activated": "Aço Cromático Ativado",
+  "material.tinkers_advanced.activated_chromatic_steel.empowered": "Aço Cromático Ativado",
+  "material.tinkers_advanced.activated_chromatic_steel.flavor": "Liga altamente reativa feita de metais mágicos e energia elemental.",
+  "material.tinkers_advanced.activated_chromatic_steel.encyclopedia": "Cada perda de durabilidade custa 500FE. Quando Ativado: velocidade de escavação +100% (consome 100FE), consome 250FE ao atacar. Quando Energizado: consome 500FE para criar um golpe.",
+  "material.tinkers_advanced.activated_chromatic_steel.ranged": "Cada perda de durabilidade custa 500FE. Quando Ativado: consome 500FE para criar uma flecha, aumenta 1 de dano da flecha. Quando Energizado: consome 1000FE extra para explosão da flecha.",
+  "material.tinkers_advanced.activated_chromatic_steel.armor": "Cada perda de durabilidade custa 500FE. Quando Ativado: cada bloqueio consome 20kFE. Quando Energizado: cada dano leva 2kFE para ser cancelado.",
+
+  "material.tinkers_advanced.iridium": "Irídio",
+  "material.tinkers_advanced.iridium.flavor": "Metal extremamente raro com baixa reatividade química.",
+
+  "material.tinkers_advanced.densium": "Densium",
+  "material.tinkers_advanced.densium.flavor": "Densium é muito denso.",
+
+  "material.tinkers_advanced.neutronite": "Neutronita",
+  "material.tinkers_advanced.neutronite.flavor": "Aglomerações de matéria de estrelas de nêutrons.",
+
+  "material.tinkers_advanced.osgloglas": "Osgloglas",
+  "material.tinkers_advanced.osgloglas.flavor": "Um vislumbre do passado.",
+
+  "material.tinkers_advanced.silicon": "Silício",
+  "material.tinkers_advanced.diamond": "Diamante",
+
+  "material.tinkers_advanced.plastic": "Plástico",
+  "material.tinkers_advanced.plastic.flavor": "Um presente da tecnologia moderna.",
+
+  "material.tinkers_advanced.resonance_crystal": "Cristal de Ressonância",
+  "material.tinkers_advanced.resonance_crystal.flavor": "Sentinela™ Inside",
+
+  "material.tinkers_advanced.voltaic_crystal": "Cristal Voltaico",
+  "material.tinkers_advanced.voltaic_crystal.flavor": "Um material elétrico que dá choques.",
+
+  "material.tinkers_advanced.protocite": "Protocita",
+  "material.tinkers_advanced.protocite.flavor": "Contém veneno de outro mundo.",
+  "material.tinkers_advanced.protocite.encyclopedia": "Concede 3 níveis de Fortuna e Saque após 5 minerações ou ataques, no máximo 3 * nível do traço.",
+
+  "material.tinkers_advanced.compressed_iron": "Ferro Comprimido",
+  "material.tinkers_advanced.compressed_iron.flavor": "Ferro Comprimido é o ferro comprimido.",
+
+  "material.tinkers_advanced.pink_slime_metal": "Metal de Slime Rosa",
+  "material.tinkers_advanced.pink_slime_metal.flavor": "Me lembra o rosado.",
+
+  "material.tinkers_advanced.nutritive_slime": "Slimaço Nutritivo",
+  "material.tinkers_advanced.nutritive_slime.flavor": "Totalmente livre de metais pesados, seguro para comer.",
+
+  "material.tinkers_advanced.antimony": "Antimônio",
+  "material.tinkers_advanced.antimony.flavor": "Não se preocupe, ele não aniquila seu dinheiro.",
+
+  "material.tinkers_advanced.stibnite": "Estibnita",
+  "material.tinkers_advanced.stibnite.flavor": "Um minério explosivo do Nether, parece familiar...",
+
+  "material.tinkers_advanced.void_steel": "Aço do Vazio",
+  "material.tinkers_advanced.void_steel.flavor": "Capaz de transportar.",
+  "material.tinkers_advanced.void_steel.encyclopedia": "Cada dano recebido pela ferramenta tem 10% de chance de aumentar a maioria dos atributos. Com amplificador máximo de 25%.",
+  "material.tinkers_advanced.void_steel.armor": "Cada dano recebido pela ferramenta tem 10% de chance de aumentar a maioria dos atributos. Com amplificador máximo de 25%. 25% de chance de esquivar de flechas.",
+  "material.tinkers_advanced.void_steel.ranged": "Cada dano recebido pela ferramenta tem 10% de chance de aumentar a maioria dos atributos. Com amplificador máximo de 25%.",
+
+  "material.tinkers_advanced.anti_neutronium": "Anti-Neutronium",
+  "material.tinkers_advanced.anti_neutronium.flavor": "Cuidado, não derrube!",
+
+  "material.tinkers_advanced.signalum": "Signalum",
+  "material.tinkers_advanced.lumium": "Lumium",
+  "material.tinkers_advanced.enderium": "Enderium",
+
+  "material.tinkers_advanced.prismalic_alloy": "Prismalium",
+  "material.tinkers_advanced.melodium": "Melodium",
+  "material.tinkers_advanced.stellarium": "Stellarium",
+
+  "material.tinkers_advanced.frostite": "Frostita",
+  "material.tinkers_advanced.glowstoneite": "Glowstoneíta",
+  "material.tinkers_advanced.blazeite": "Blazeíta",
+  "material.tinkers_advanced.enderite": "Enderíta",
+  "material.tinkers_advanced.netherwartite": "Netherwartíta",
+  "material.tinkers_advanced.warpedite": "Distortíta",
+  "material.tinkers_advanced.netherstar_alloy": "Liga de Netherstar",
+  "material.tinkers_advanced.shadow_steel": "Aço Sombrio",
+  "material.tinkers_advanced.refined_radiance": "Luz Refinada",
+  "material.tinkers_advanced.chorusite": "Chorusíta",
+  "material.tinkers_advanced.slimeite": "Slimeíta",
+
+  "material.tinkers_advanced.copper_alloy": "Liga de Cobre",
+  "material.tinkers_advanced.redstone_alloy": "Liga de Redstone",
+
+
+  "item.tinkers_advanced.bismuth_ingot": "Lingote de Bismuto",
+  "item.tinkers_advanced.bismuthinite": "Bismutinita",
+  "item.tinkers_advanced.irradium_ingot": "Pelota de Irradium",
+  "item.tinkers_advanced.hot_reinforced_steel": "Aço Reforçado Superaquecido",
+  "item.tinkers_advanced.penumatic_reinforced_steel": "Aço Reforçado Pneumático",
+  "item.tinkers_advanced.basalz_signalum": "Signalum Basalz",
+  "item.tinkers_advanced.blitz_lumium": "Lumium Blitz",
+  "item.tinkers_advanced.blizz_enderium": "Enderium Blizz",
+  "item.tinkers_advanced.activated_chromatic_steel": "Placa de Aço Cromático Ativado",
+  "item.tinkers_advanced.blaze_netherite": "Netherita Blaze",
+  "item.tinkers_advanced.iridium_chunk": "Pedaço de Irídio",
+  "item.tinkers_advanced.densium_ingot": "Lingote de Densium",
+  "item.tinkers_advanced.neutronite_ingot": "Lingote de Neutronita",
+  "item.tinkers_advanced.osgloglas_ingot": "Lingote de Osgloglas",
+  "item.tinkers_advanced.protocite_pellet": "Pelota de Protocita",
+  "item.tinkers_advanced.nutrition_slime_ingot": "Lingote de Slimaço Nutritivo",
+  "item.tinkers_advanced.antimony_ingot": "Lingote de Antimônio",
+  "item.tinkers_advanced.stibnite": "Estibnita",
+  "item.tinkers_advanced.blitz_lumium_nugget": "Pepita de Lumium Blitz",
+  "item.tinkers_advanced.antimony_nugget": "Pepita de Antimônio",
+  "item.tinkers_advanced.bismuth_nugget": "Pepita de Bismuto",
+  "item.tinkers_advanced.anti_neutronium_ingot": "Lingote de Anti-Neutronium",
+  "item.tinkers_advanced.signalum_reinforcement": "Reforço de Signalum",
+
+  "block.tinkers_advanced.iridium_lean_ore": "Minério Pobre de Irídio",
+  "block.tinkers_advanced.bismuthinite_ore": "Minério de Bismutinita",
+  "block.tinkers_advanced.stibnite_ore": "Minério de Stibnite",
+
+
+
+  "fluid.tinkers_advanced.molten_bismuth": "Bismuto Fundido",
+  "item.tinkers_advanced.molten_bismuth_bucket": "Balde de Bismuto Fundido",
+  "fluid.tinkers_advanced.molten_bismuth.fluid_effect": "Reduz armadura e aumenta o dano recebido.",
+
+  "fluid.tinkers_advanced.molten_antimony": "Antimônio Fundido",
+  "item.tinkers_advanced.molten_antimony_bucket": "Balde de Antimônio Fundido",
+  "fluid.tinkers_advanced.molten_antimony.fluid_effect": "Ninguém sabe por que um metal tão pesado poderia estar ligado à praga.",
+
+  "fluid.tinkers_advanced.molten_antimatter": "Antimatéria Fundida",
+  "item.tinkers_advanced.molten_antimatter_bucket": "Balde de Antimatéria Fundida",
+  "fluid.tinkers_advanced.molten_antimatter.fluid_effect": "A antimatéria é altamente explosiva. Não derrame!",
+
+  "fluid.tinkers_advanced.molten_irradium": "Irradium Fundido",
+  "item.tinkers_advanced.molten_irradium_bucket": "Balde de Irradium Fundido",
+  "fluid.tinkers_advanced.molten_irradium.fluid_effect": "Fluido radioativo.",
+
+  "fluid.tinkers_advanced.molten_basalz_signalum": "Signalum Basalz Fundido",
+  "item.tinkers_advanced.molten_basalz_signalum_bucket": "Balde de Signalum Basalz Fundido",
+  "fluid.tinkers_advanced.molten_basalz_signalum.fluid_effect": "Signalum Basalz é o melhor fluido para perfurar a armadura dos inimigos. Também bom para mineração.",
+
+  "fluid.tinkers_advanced.molten_biltz_lumium": "Lumium Blitz Fundido",
+  "item.tinkers_advanced.molten_biltz_lumium_bucket": "Balde de Lumium Blitz Fundido",
+  "fluid.tinkers_advanced.molten_biltz_lumium.fluid_effect": "Lumium Blitz pode incapacitar inimigos e reduzir o dano deles.",
+
+  "fluid.tinkers_advanced.molten_blizz_enderium": "Enderium Blizz Fundido",
+  "item.tinkers_advanced.molten_blizz_enderium_bucket": "Balde de Enderium Blizz Fundido",
+  "fluid.tinkers_advanced.molten_blizz_enderium.fluid_effect": "Enderium Blizz é extremamente frio, capaz de congelar alvos.",
+
+  "fluid.tinkers_advanced.molten_activated_chromatic_steel": "Aço Cromático Ativado Fundido",
+  "item.tinkers_advanced.molten_activated_chromatic_steel_bucket": "Balde de Aço Cromático Ativado Fundido",
+  "fluid.tinkers_advanced.molten_activated_chromatic_steel.fluid_effect": "O fluido de todos os elementos. Altamente reativo e agressivo.",
+
+  "fluid.tinkers_advanced.pyrotheum": "Pyrotheum",
+  "item.tinkers_advanced.pyrotheum_bucket": "Balde de Pyrotheum",
+  "fluid.tinkers_advanced.pyrotheum.fluid_effect": "A forma implementada do pirogênio. Um dos assuntos mais \"quentes\".",
+
+  "fluid.tinkers_advanced.molten_blaze_netherite": "Netherita Blaze Fundida",
+  "item.tinkers_advanced.molten_blaze_netherite_bucket": "Balde de Netherita Blaze Fundida",
+
+  "fluid.tinkers_advanced.molten_iridium": "Irídio Derretido",
+  "item.tinkers_advanced.molten_iridium_bucket": "Balde de Molten Iridium Fundido",
+
+  "fluid.tinkers_advanced.over_heated_lava": "Lava Superaquecida",
+  "item.tinkers_advanced.over_heated_lava_bucket": "Balde de Lava Superaquecida",
+  "fluid.tinkers_advanced.over_heated_lava.fluid_effect": "Este fluido superquente pode causar dano de fogo a entidades.",
+
+  "fluid.tinkers_advanced.gaseous_lava": "Lava Gasosa",
+  "item.tinkers_advanced.gaseous_lava_bucket": "Balde de Lava Gasosa",
+  "fluid.tinkers_advanced.gaseous_lava.fluid_effect": "Temperatura maior, dano maior, muito razoável!",
+
+  "fluid.tinkers_advanced.plasmatic_lava": "Lava Ionizada",
+  "item.tinkers_advanced.plasmatic_lava_bucket": "Balde de Lava Ionizada",
+  "fluid.tinkers_advanced.plasmatic_lava.fluid_effect": "Como você fabricou isto?",
+
+  "fluid.tinkers_advanced.molten_densium": "Densium Fundido",
+  "item.tinkers_advanced.molten_densium_bucket": "Balde de Densium Fundido",
+
+  "fluid.tinkers_advanced.molten_neutronite": "Neutronita Fluida",
+  "item.tinkers_advanced.molten_neutronite_bucket": "Balde de Neutronita Fluida",
+  "fluid.tinkers_advanced.molten_neutronite.fluid_effect": "Neutronita em forma fluida pode despedaçar seu alvo em partículas instantaneamente.",
+
+  "fluid.tinkers_advanced.molten_osgloglas": "Osgloglas Fundido",
+  "item.tinkers_advanced.molten_osgloglas_bucket": "Balde de Osgloglas Fundido",
+
+  "material.tinkers_advanced.disintegrate_crystal": "Cristal Desintegrador",
+  "material.tinkers_advanced.disintegrate_crystal.flavor": "Material energético que irradia energia destrutiva.",
+
+  "fluid.tinkers_advanced.molten_protocite": "Protocita Fundida",
+  "item.tinkers_advanced.molten_protocite_bucket": "Balde de Protocita Fundida",
+  "fluid.tinkers_advanced.molten_protocite.fluid_effect": "Veneno Proto pode reduzir permanentemente 25% da vida do alvo e -20% de regeneração de vida por nível durante o efeito.",
+
+  "fluid.tinkers_advanced.molten_nutritive_slime": "Slimaço Nutritivo Fundido",
+  "item.tinkers_advanced.molten_nutritive_slime_bucket": "Balde de Slimaço Nutritivo Fundido",
+
+  "fluid.tinkers_advanced.molten_pink_slime": "Slime Rosa Fundido",
+  "item.tinkers_advanced.molten_pink_slime_bucket": "Balde de Slime Rosa Fundido",
+
+  "fluid.tinkers_advanced.molten_void_steel": "Aço do Vazio Fundido",
+  "item.tinkers_advanced.molten_void_steel_bucket": "Balde de Aço do Vazio Fundido",
+
+  "fluid.tinkers_advanced.molten_anti_neutronium": "Anti-Neutronium Fundido",
+  "item.tinkers_advanced.molten_anti_neutronium_bucket": "Balde de Anti-Neutronium Fundido",
+
+  "fluid.tinkers_advanced.molten_melodium": "Melodium Fundido",
+  "item.tinkers_advanced.molten_melodium_bucket": "Balde de Melodium Fundido",
+
+  "fluid.tinkers_advanced.molten_prismalium": "Prismalium Fundido",
+  "item.tinkers_advanced.molten_prismalium_bucket": "Balde de Prismalium Fundido",
+
+  "fluid.tinkers_advanced.molten_frostite": "Frostita Fundida",
+  "item.tinkers_advanced.molten_frostite_bucket": "Balde de Frostita Fundida",
+
+  "fluid.tinkers_advanced.molten_blazeite": "Blazeíta Fundida",
+  "item.tinkers_advanced.molten_blazeite_bucket": "Balde de Blazeíta Fundida",
+
+  "fluid.tinkers_advanced.molten_glowstoneite": "Glowstoneíta Fundida",
+  "item.tinkers_advanced.molten_glowstoneite_bucket": "Balde de Glowstoneíta Fundida",
+
+  "fluid.tinkers_advanced.molten_enderite": "Enderíta Fundida",
+  "item.tinkers_advanced.molten_enderite_bucket": "Balde de Enderíta Fundida",
+
+  "fluid.tinkers_advanced.molten_slimeite": "Slimeíta Fundida",
+  "item.tinkers_advanced.molten_slimeite_bucket": "Balde de Slimeíta Fundida",
+
+  "fluid.tinkers_advanced.molten_chorusite": "Chorusíta Fundida",
+  "item.tinkers_advanced.molten_chorusite_bucket": "Balde de Chorusíta Fundida",
+
+  "fluid.tinkers_advanced.molten_refined_radiance": "Radiance Refinado Fundido",
+  "item.tinkers_advanced.molten_refined_radiance_bucket": "Balde de Radiance Refinado Fundido",
+
+  "fluid.tinkers_advanced.molten_shadow_steel": "Aço Sombrio Fundido",
+  "item.tinkers_advanced.molten_shadow_steel_bucket": "Balde de Aço Sombrio Fundido",
+
+  "fluid.tinkers_advanced.molten_netherstar_alloy": "Liga de Netherstar Fundida",
+  "item.tinkers_advanced.molten_netherstar_alloy_bucket": "Balde de Liga de Netherstar Fundida",
+
+  "fluid.tinkers_advanced.molten_stellarium": "Liga Estelar Fundida",
+  "item.tinkers_advanced.molten_stellarium_bucket": "Balde de Liga Estelar Fundida",
+
+  "fluid.tinkers_advanced.molten_redstone_alloy": "Liga de Redstone Derretida",
+  "item.tinkers_advanced.molten_redstone_alloy_bucket": "Balde de Molten Redstone Alloy Fundido",
+
+  "fluid.tinkers_advanced.molten_copper_alloy": "Liga de Cobre Fundida",
+  "item.tinkers_advanced.molten_copper_alloy_bucket": "Balde de Liga de Cobre Fundida",
+
+
+
+  "effect.tinkers_advanced.tetanus": "Tétano",
+  "effect.tinkers_advanced.ionized": "Ionizado",
+  "effect.tinkers_advanced.proto_poison": "Veneno Proto",
+  "effect.tinkers_advanced.plague": "Praga",
+  "effect.tinkers_advanced.frozen": "Congelado",
+
+
+
+  "pattern.tinkers_advanced.ae2_circuit": "Processador Impresso",
+
+
+  "death.attack.plasma": "%1$s foi decomposto em íons.",
+  "death.attack.electric": "%1$s levou um choque.",
+
+
+  "fluid_effect.tconstruct.damage.explosion": "%s de Dano de Explosão",
+  "fluid_effect.tconstruct.damage.mekanism.radiation": "%s de Dano de Radiação",
+
+
+  "msg.tinkers_advanced.flux_mode.thermal_slash.0": "Amortecido",
+  "msg.tinkers_advanced.flux_mode.thermal_slash.1": "Ativado",
+  "msg.tinkers_advanced.flux_mode.thermal_slash.2": "Energizado",
+  "msg.tinkers_advanced.global_traveler.container_bind": "Recipiente vinculado",
+
+
+  "tooltip.tinkers_advanced.hidden_material_mek": "% Material Oculto-Mekanism %",
+  "tooltip.tinkers_advanced.neutronite_1": "Estrelas de nêutrons são núcleos de estrelas mortas deixados por supernovas.",
+  "tooltip.tinkers_advanced.neutronite_2": "§bFusão§f é a vida da estrela. A formação de§c ferro§f marca o fim de uma estrela.",
+  "tooltip.tinkers_advanced.neutronite_3": "Embora seja impossível pousar numa estrela de nêutrons, criar uma estrela é bem possível.",
+
+  "tooltip.tinkers_advanced.stibnite_ore": "É importante ter cuidado ao minerar este minério...",
+  "tooltip.tinkers_advanced.found_in_nether": "Encontrado no Nether.",
+  "tooltip.tinkers_advanced.found_in_overworld": "Encontrado no End.",
+  "tooltip.tinkers_advanced.found_in_end": "Encontrado na Superfície.",
+
+
+  "tooltip.tinkers_advanced.modifiers.shaping": "Bônus de espaço atual:",
+  "tooltip.tinkers_advanced.modifiers.frosted_charge": "Carga de Gelo: ",
+
+  "tooltip.tinkers_advanced.modifiers.capacitor_capable.energy_use": "Bônus geral do capacitor",
+  "tooltip.tinkers_advanced.modifiers.capacitor_capable.energy_capacity": "Bônus de capacidade do capacitor",
+  "tooltip.tinkers_advanced.modifiers.capacitor_capable.burning_energy_generation": "Bônus de potência do capacitor",
+  "tooltip.tinkers_advanced.modifiers.capacitor_capable.fuel_efficiency": "Bônus de eficiência do capacitor",
+
+
+
+  "entity_ticker.tinkers_advanced.ionized": "Ionizado",
+  "entity_ticker.tinkers_advanced.sculk_marked": "Marcado pelo Sculk",
+
+
+
+
+
+
+  "itemGroup.tinkers_advanced.tiac_tool": "Tinkers' Advanced Tools&Parts",
+
+
+
+
+  "modifier.tinkers_advanced.auto_shot": "Tiro Automático",
+  "modifier.tinkers_advanced.auto_shot.flavor": "Tiro Automático",
+  "modifier.tinkers_advanced.auto_shot.description": "Permite disparo automático com carga total.",
+
+  "modifier.tinkers_advanced.deep_catalysis": "Catálise Profunda",
+  "modifier.tinkers_advanced.deep_catalysis.flavor": "Ecológico.",
+  "modifier.tinkers_advanced.deep_catalysis.description": "Reduz 10% do consumo de fluido por nível.",
+
+  "modifier.tinkers_advanced.focusing_array": "Arranjo Focalizador",
+  "modifier.tinkers_advanced.focusing_array.flavor": "Parecido com a antena parabólica da sua casa.",
+  "modifier.tinkers_advanced.focusing_array.description": "Aumenta 100% do alcance do efeito de fluido por nível.",
+
+  "modifier.tinkers_advanced.resonance_amplifier": "Amplificador de Ressonância",
+  "modifier.tinkers_advanced.resonance_amplifier.flavor": "Como você usa ondas estacionárias para medir distância?",
+  "modifier.tinkers_advanced.resonance_amplifier.description": "Aumenta 10m de alcance por nível.",
+
+  "modifier.tinkers_advanced.over_hold": "Sobrecapacidade",
+  "modifier.tinkers_advanced.over_hold.flavor": "Isso não está certo.",
+  "modifier.tinkers_advanced.over_hold.description": "+900% de capacidade de fluido.",
+
+
+  "modifier.tinkers_advanced.ender_tuner": "Ajuste Ender",
+  "modifier.tinkers_advanced.ender_tuner.flavor": "Um equipamento ajustável.",
+  "modifier.tinkers_advanced.ender_tuner.description": "Inflige Endervigor, concede 50kFE de armazenamento de energia. Shift + botão direito abre um menu para ajustar sua ferramenta.",
+
+  "modifier.tinkers_advanced.combustion_generator": "Módulo Gerador de Combustão",
+  "modifier.tinkers_advanced.combustion_generator.flavor": "O começo de tudo.",
+  "modifier.tinkers_advanced.combustion_generator.description": "Sua ferramenta pode produzir energia consumindo Combustíveis de Fornalha. Velocidade base +200 FE/t.",
+
+  "modifier.tinkers_advanced.overslime_generator": "Gerador de Overslime",
+  "modifier.tinkers_advanced.overslime_generator.flavor": "Slime é um meio natural de troca iônica.",
+  "modifier.tinkers_advanced.overslime_generator.description": "Sua ferramenta pode produzir energia consumindo Overslime. Velocidade base +250 FE/t, cada overslime produz 5kFE.",
+
+  "modifier.tinkers_advanced.piezoelectric_effect": "Efeito Piezoelétrico",
+  "modifier.tinkers_advanced.piezoelectric_effect.flavor": "Um sinal de deformação de cristal.",
+  "modifier.tinkers_advanced.piezoelectric_effect.description": "Gera energia ao atingir alvos. Velocidade base +100FE/t, cada dano gera 10FE.",
+
+  "modifier.tinkers_advanced.electric_food": "Comida Elétrica",
+  "modifier.tinkers_advanced.electric_food.flavor": "Faz você ser alimentado diretamente por eletricidade.",
+  "modifier.tinkers_advanced.electric_food.description": "Consome energia para recuperar o nível de fome. Velocidade base +100FE/t, cada nível de fome requer 25kFE.",
+
+  "modifier.tinkers_advanced.platinoid_catalyst": "Catalisador Platinoide",
+  "modifier.tinkers_advanced.platinoid_catalyst.flavor": "Catalisador caro.",
+  "modifier.tinkers_advanced.platinoid_catalyst.description": "Aumenta a velocidade de geração/consumo de energia, mas reduz a quantidade gerada e aumenta a consumida. 25% por nível.",
+
+  "modifier.tinkers_advanced.transition_catalyst": "Catalisador de Transição",
+  "modifier.tinkers_advanced.transition_catalyst.flavor": "Catalisador comum.",
+  "modifier.tinkers_advanced.transition_catalyst.description": "Aumenta a quantidade de energia gerada ou reduz a consumida. 25% por nível.",
+
+  "modifier.tinkers_advanced.smeltery_generator": "Gerador de Fundição",
+  "modifier.tinkers_advanced.smeltery_generator.flavor": "Esquente!",
+  "modifier.tinkers_advanced.smeltery_generator.description": "Sua ferramenta pode produzir energia consumindo Combustíveis de Fundição. Velocidade base +250 FE/t, afetada pela temperatura (Lava = 1x).",
+
+  "modifier.tinkers_advanced.extra_capacity": "Capacidade Extra",
+  "modifier.tinkers_advanced.extra_capacity.flavor": "Pela fórmula W=0.5CU²: com maior capacidade, você armazena mais energia na mesma tensão.",
+  "modifier.tinkers_advanced.extra_capacity.description": "Aumenta 20% da Energia Máxima por nível.",
+
+  "modifier.tinkers_advanced.compressed_air_generator": "Gerador de Ar Comprimido",
+  "modifier.tinkers_advanced.compressed_air_generator.flavor": "dW=-d(pV)",
+  "modifier.tinkers_advanced.compressed_air_generator.description": "Sua ferramenta pode consumir ar comprimido para gerar energia. Velocidade base +Pressão*50FE/t, a eficiência de conversão é a ideal para o Dínamo de Ar Comprimido.",
+
+  "modifier.tinkers_advanced.swift_strike_ex": "Golpe Veloz Ex",
+  "modifier.tinkers_advanced.swift_strike_ex.flavor": "Rápido, mano.",
+  "modifier.tinkers_advanced.swift_strike_ex.description": "+25% de velocidade de ataque por nível",
+  "modifier.tinkers_advanced.swift_strike_ex.requirements": "Golpe Veloz EX exige Golpe Veloz V para aplicar",
+
+  "modifier.tinkers_advanced.energy_bin": "Lixeira de Energia",
+  "modifier.tinkers_advanced.energy_bin.flavor": "Não sei se energia pode ser jogada na lava...",
+  "modifier.tinkers_advanced.energy_bin.description": "Limpa toda a energia armazenada na ferramenta a cada tique.",
+
+  "modifier.tinkers_advanced.player_locating": "Localizador de Jogador",
+  "modifier.tinkers_advanced.player_locating.flavor": "Mas, qual é o propósito?",
+  "modifier.tinkers_advanced.player_locating.description": "Clique com o botão direito com um papel no inventário para gravar sua ID na ferramenta.",
+
+  "modifier.tinkers_advanced.energy_distributor": "Distribuidor de Energia",
+  "modifier.tinkers_advanced.energy_distributor.flavor": "Como um power bank.",
+  "modifier.tinkers_advanced.energy_distributor.description": "Distribui a energia armazenada para a barra de atalhos, mão secundária e itens de armadura.",
+
+  "modifier.tinkers_advanced.inverted_polarity": "Reconstrutor de Íons",
+  "modifier.tinkers_advanced.inverted_polarity.flavor": "Polaridade invertida!",
+  "modifier.tinkers_advanced.inverted_polarity.description": "O Canhão Ionizado não causa mais dano sônico, mas faz o dano ignorar resistência mágica.",
+
+  "modifier.tinkers_advanced.sweeping_ex": "Varredura EX",
+  "modifier.tinkers_advanced.sweeping_ex.flavor": "Não ajuda a varrer o chão.",
+  "modifier.tinkers_advanced.sweeping_ex.description": "Aumenta o nível do modificador de varredura.",
+  "modifier.tinkers_advanced.sweeping_ex.requirements": "Varredura EX exige Varredura III para aplicar",
+
+
+
+  "item.tinkers_advanced.disintegrate_crystal": "Cristal de Desmontagem",
+  "item.tinkers_advanced.resonance_crystal": "Cristal de Ressonância",
+  "item.tinkers_advanced.voltaic_crystal": "Cristal Voltaico",
+
+
+  "item.tinkers_advanced.ionize_chamber": "Câmara de Íons",
+  "item.tinkers_advanced.ionized_cannon": "Canhão Ionizado",
+  "item.tinkers_advanced.ionized_cannon.description": "O Canhão Ionizado é uma arma corpo a corpo de médio alcance que consome fluido para atacar. Dispara um raio de plasma que causa dano sônico após carregar. Aplica efeitos de fluido a alvos próximos ao acertar (efeitos semelhantes ao modificador derramamento).",
+  "tooltip.tinkers_advanced.fluid_consumption": "Dreno de Fluido",
+  "tooltip.tinkers_advanced.range": "Alcance de Ataque",
+  "tooltip.tinkers_advanced.scale": "Alcance do Efeito",
+  "tooltip.tinkers_advanced.pierce": "Nível de Perfuração",
+  "pattern.tinkers_advanced.ionize_chamber": "Câmara de Íons",
+
+  "item.tinkers_advanced.particle_container": "Recipiente de Partículas",
+  "item.tinkers_advanced.matter_manipulator": "Manipulador de Matéria",
+  "item.tinkers_advanced.matter_manipulator.description": "O Manipulador de Matéria é uma ferramenta de mineração eficiente, dispara laser de mineração ao usar. Pode simplesmente minerar blocos ou executar efeitos de bloco durante o combate. Clique com o botão direito no inventário para trocar de modo.",
+  "tooltip.tinkers_advanced.speed_addup": "Bônus de Velocidade de Mineração",
+  "tooltip.tinkers_advanced.expand_mining": "Modo de Interação-AOE | Alcance: ",
+  "tooltip.tinkers_advanced.single_mining": "Modo de Interação-Único",
+  "tooltip.tinkers_advanced.mining_mode": "Modo Principal-Mineração",
+  "tooltip.tinkers_advanced.splashing_mode": "Modo Principal-Esguicho",
+  "tooltip.tinkers_advanced.primary_mode_info": "Clique com o botão direito com um cabo de ferramenta para trocar de modo.",
+  "tooltip.tinkers_advanced.secondary_mode_info": "Clique com o botão direito para trocar de modo.",
+  "pattern.tinkers_advanced.particle_container": "Recipiente de Partículas",
+
+  "item.tinkers_advanced.flux_core": "Núcleo de Flux",
+  "item.tinkers_advanced.flux_core_none_stat": "Núcleo de Fluxo (sem stats)",
+  "stat.tinkers_advanced.flux_core": "Núcleo de Flux",
+  "item.tinkers_advanced.electron_tuner": "Afinador de Elétrons",
+  "item.tinkers_advanced.electron_tuner.description": "O Afinador de Elétrons é uma arma corpo a corpo ajustável com velocidade de ataque ajustável. Shift-Botão direito abre sua interface.",
+  "tooltip.tinkers_advanced.energy_gen_remain": "Geração de Energia Restante: ",
+  "tooltip.tinkers_advanced.energy_cost_remain": "Consumo de Energia Restante: ",
+  "tooltip.tinkers_advanced.disallow_insert": "Recebimento de energia desativado. Clique com o botão direito para ativar.",
+  "tooltip.tinkers_advanced.allow_insert": "Recebimento de energia ativado. Clique com o botão direito para desativar.",
+  "pattern.tinkers_advanced.flux_core": "Núcleo de Flux",
+
+  "info.tinkers_advanced.electron_tuner.rapier": "Modo Rapieira",
+  "info.tinkers_advanced.electron_tuner.sword": "Modo Espada",
+  "info.tinkers_advanced.electron_tuner.cleaver": "Modo Cutelo",
+
+  "info.tinkers_advanced.electron_tuner.rapier.bonus": "Alcance de ataque +3, ataque ignora armadura.",
+  "info.tinkers_advanced.electron_tuner.sword.bonus": "Causa dano em área ao brandir (mão principal).",
+  "info.tinkers_advanced.electron_tuner.cleaver.bonus": "Causa dano em área ao acertar, +3 níveis de Decapitação.",
+
+
+  "info.tinkers_advanced.tool_parts.material_with_no_stat": "O material desta peça não fornece nenhum stat.",
+
+
+
+
+
+
+
+
+  "itemGroup.tinkers_advanced.tiac_utilities": "Tinkers' Advanced Utilities",
+  "itemGroup.tinkers_advanced.tiac_fuel_lens": "Tinkers' Advanced Fuel Lens",
+
+  "block.tinkers_advanced.exchanger": "Trocador de Átomos",
+
+  "block.tinkers_advanced.rose_gold_faucet": "Torneira de Ouro Rosé",
+  "block.tinkers_advanced.hepatizon_faucet": "Torneira de Hepatizon",
+  "block.tinkers_advanced.rose_gold_casting_table": "Mesa de Fundição de Ouro Rosé",
+  "block.tinkers_advanced.rose_gold_casting_basin": "Bacia de Fundição de Ouro Rosé",
+  "block.tinkers_advanced.hepatizon_casting_table": "Mesa de Fundição de Hepatizon",
+  "block.tinkers_advanced.hepatizon_casting_basin": "Bacia de Fundição de Hepatizon",
+  "block.tinkers_advanced.advanced_alloyer": "Ligador Avançado",
+  "block.tinkers_advanced.fuel_engraver": "Gravador de Combustível",
+
+  "item.tinkers_advanced.simple_quartz_lens": "Lente de Combustível de Quartzo Simples",
+  "item.tinkers_advanced.simple_amethyst_lens": "Lente de Combustível de Ametista Simples",
+  "item.tinkers_advanced.simple_diamond_lens": "Lente de Combustível de Diamante Simples",
+  "item.tinkers_advanced.simple_emerald_lens": "Lente de Combustível de Esmeralda Simples",
+
+  "item.tinkers_advanced.simple_quartz_lens.description": "Lentes de Combustível são itens que funcionam com o Gravador de Combustível.\nLentes Simples não contêm material mas podem ser aprimoradas. Inclui variantes de Diamante, Esmeralda, Quartzo e Ametista.",
+
+
+  "tooltip.tinkers_advanced.exchanger1": "Permite interações entre a ferramenta colocada dentro e outros blocos.",
+  "tooltip.tinkers_advanced.exchanger3": "Botão Direito para inserir ferramenta, Botão Direito com o cabo da ferramenta para alternar ejeção de energia.",
+  "tooltip.tinkers_advanced.advanced_alloyer1": "Funciona de forma similar ao Ligador Chamuscado (mas sem GUI).",
+  "tooltip.tinkers_advanced.advanced_alloyer2": "Utiliza drenos de fundição em vez de tanques de fundição.",
+
+  "tooltip.tinkers_advanced.rose_gold_casting": "Velocidade de resfriamento x%2$s quando a velocidade original <%1$ss. Caso contrário, velocidade de resfriamento x%3$s.",
+  "tooltip.tinkers_advanced.hepatizon_casting": "x%1$s de velocidade de resfriamento.",
+
+  "tooltip.tinkers_advanced.fuel_engraver1": "Pode aplicar na ferramenta que você está fabricando os modificadores da lente, consumindo combustível derretido.",
+  "tooltip.tinkers_advanced.fuel_engraver2": "Requer uma Estação do Tinker (ou bigorna) 2 blocos abaixo. Botão Direito na parte de baixo para colocar a Lente de Combustível.",
+
+  "tooltip.tinkers_advanced.lens_melee": "Pode ser aplicada a ferramentas comuns corpo a corpo e de colheita.",
+  "tooltip.tinkers_advanced.lens_ranged": "Pode ser aplicada a ferramentas comuns à distância.",
+  "tooltip.tinkers_advanced.lens_ammo": "Pode ser aplicada a munições comuns.",
+  "tooltip.tinkers_advanced.lens_armor": "Pode ser aplicada a armaduras comuns.",
+
+  "tooltip.tinkers_advanced.lens_consumption": "Consumo Estimado de Combustível: ",
+  "tooltip.tinkers_advanced.lens_temp": "Temperatura de Combustível Necessária: ",
+  "tooltip.tinkers_advanced.lens_warn": "Avisos: ",
+  "tooltip.tinkers_advanced.lens_consumption_warn": " >Consumo de combustível muito alto.",
+  "tooltip.tinkers_advanced.lens_temp_warn": " >Requisito de temperatura muito alto.",
+  "tooltip.tinkers_advanced.lens_warn2": "O processo de gravação pode não ser totalmente concluído.",
+
+  "message.tinkers_advanced.no_tinkers_station": "Nenhuma Estação do Tinker 2 blocos abaixo.",
+  "message.tinkers_advanced.engrave_fail_with_low_temp": "Gravação falhou por temperatura de combustível insuficiente!",
+  "message.tinkers_advanced.engrave_fail_with_low_fuel": "Gravação falhou por combustível insuficiente!",
+  "message.tinkers_advanced.engrave_fail_with_modifiers": "Gravação falhou com a mensagem: ",
+
+
+  "modifier.tinkers_advanced.fuel_engraved": "Gravado a Combustível",
+  "modifier.tinkers_advanced.fuel_engraved.flavor": "Marcado por combustíveis ionizados.",
+  "modifier.tinkers_advanced.fuel_engraved.description": "Contém modificadores extras.",
+
+  "modifier.tinkers_advanced.water_washed": "Lavado a Água",
+  "modifier.tinkers_advanced.water_washed.flavor": " ",
+  "modifier.tinkers_advanced.water_washed.description": "SEM efeito.",
+
+  "modifier.tinkers_advanced.lens_efficiency": "Eficiência da Lente",
+  "modifier.tinkers_advanced.lens_efficiency.flavor": "Perda de íons reduzida.",
+  "modifier.tinkers_advanced.lens_efficiency.description": "Aumenta a eficiência de fluido da lente de combustível; não será gravada pelo Gravador de Combustível."
+}

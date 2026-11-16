@@ -1,0 +1,16 @@
+{
+    "name": "Rota da Locomotiva",
+    "icon": "littlelogistics:locomotive_route",
+    "category": "littlelogistics:items",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:locomotive_route",
+            "text": "Este item armazena destinos/waypoints para locomotivas. As locomotivas sempre tentarão ir ao destino mais próximo que ainda não foi visitado no ciclo atual. Precisa ser usado em combinação com $(l:auto_switch_rails)Trilhos de Mudança Automática$()."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Clique com o botão direito em trilhos para adicioná-los/removê-los como destinos. Pode ser copiado ou redefinido numa grade de fabricação."
+        }
+    ]
+}

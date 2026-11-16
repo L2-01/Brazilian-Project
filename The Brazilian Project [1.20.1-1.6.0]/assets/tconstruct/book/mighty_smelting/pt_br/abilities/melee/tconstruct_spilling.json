@@ -1,0 +1,18 @@
+{
+  "modifier_id": "tconstruct:spilling",
+  "text": [
+    {
+      "text": "Meio nojento sua ferramenta estar vazando. Mas também muito eficaz!"
+    },
+    {
+      "text": "O botão direito num tanque com a ferramenta o enche",
+      "paragraph": true
+    }
+  ],
+  "tool_filter": "tconstruct:modifiable/held",
+  "effects": [
+    "Drena o tanque ao atacar",
+    "Vários efeitos conforme o fluido, incluindo fogo e veneno",
+    "Exige 1 espaço de habilidade por nível"
+  ]
+}

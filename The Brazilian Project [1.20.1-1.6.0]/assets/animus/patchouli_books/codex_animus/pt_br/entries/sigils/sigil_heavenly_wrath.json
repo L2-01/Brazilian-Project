@@ -1,0 +1,23 @@
+{
+  "name": "guide.animus.entry.sigil_heavenly_wrath",
+  "icon": "animus:sigil_heavenly_wrath",
+  "category": "animus:sigils",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_heavenly_wrath",
+      "text": "Um sigilo devastador que invoca o julgamento dos céus. Inimigos são erguidos ao céu antes de serem arremessados de volta à terra com força letal."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mecânicas",
+      "text": "$(bold)Ativação:$() Botão direito$(br)$(bold)Custo de LP:$() 1.000 LP$(br)$(bold)Alcance:$() 16 blocos$(br2)Todos os inimigos no alcance recebem $(effect)Levitação II$() por 3 segundos com um impulso de velocidade ascendente adicional. Quando o efeito acaba, são arremessados para baixo."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dano de Queda",
+      "text": "$(bold)Coração Pesado:$() Os alvos recebem o efeito $(effect)Heavy Heart$() do Blood Magic por 2 segundos, impedindo voo.$(br2)$(bold)Escala de Velocidade:$() Criaturas voadoras ou já no alto recebem velocidade descendente maior baseada na altura do chão.$(br2)$(italic)O que sobe tem que descer... violentamente.$()"
+    }
+  ]
+}

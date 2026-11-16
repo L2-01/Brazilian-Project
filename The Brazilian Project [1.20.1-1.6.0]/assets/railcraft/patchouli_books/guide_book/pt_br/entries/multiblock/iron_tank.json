@@ -1,0 +1,20 @@
+{
+  "name": "Tanque de Ferro",
+  "icon": "railcraft:white_iron_tank_valve",
+  "category": "railcraft:multiblock",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Nadando em Óleo de Creosoto? Afogando em Biocombustível? Coberto de mel... bem, melhor nem ir por aí. De qualquer forma, temos uma solução para você!$(br2)Hoje trazemos estes novos e brilhantes baluartes da indústria, o Tanque de Ferro! Seu horizonte nunca mais será o mesmo!$(br2)Eles vêm em quatro variedades, 3×3, 5×5, 7×7 e 9×9. Além disso, a altura pode ser encomendada de 4 a 8 blocos de altura! Para construir uma dessas maravilhas, você precisa montar uma moldura de blocos de Parede de Tanque de Ferro nas dimensões desejadas."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Tanque de Ferro",
+      "multiblock_id": "railcraft:iron_tank"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você deve então preencher o topo, a base e os lados com qualquer combinação de Parede, Medidor ou Válvula que preferir.$(br2)Mas espere, tem mais! Você também pode empilhar tanques! Basta colocar alguns blocos de Válvula no centro onde os tanques se tocam e pronto!"
+    }
+  ]
+}

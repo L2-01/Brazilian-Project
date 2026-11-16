@@ -1,0 +1,6 @@
+Turbina a Gás
+GÁS GÁS GÁS!
+<&multiblock>A Turbina a Gás usa um combustível e uma fonte de ignição dos combustores dentro da turbina para produzir gás quente em alta velocidade. O gás quente em alta velocidade gira as pás da turbina para criar energia rotacional.
+
+
+O §lCombustível Líquido§r entra pelo cano. O §lGás de Exaustão§r sai abaixo do rotor. O lado com entrada de energia MV é a vela de ignição, que pode ficar sempre ligada. O lado com entrada de energia HV é o motor de partida, que precisa de energia até a vela acender o combustível. Uma vez aceso, você deve remover a energia do motor de partida. É preciso acoplar ao rotor um multibloco que use energia mecânica para a turbina funcionar. O gás de exaustão pode ser alimentado a um <link;heat_exchanger;§n§oTrocador de Calor§r> para recuperar mais energia. Um comparador ligado a qualquer bloco externo emite sinal proporcional à velocidade atual do rotor.

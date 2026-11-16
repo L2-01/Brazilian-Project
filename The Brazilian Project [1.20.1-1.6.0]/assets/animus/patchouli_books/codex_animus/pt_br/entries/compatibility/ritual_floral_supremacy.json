@@ -1,0 +1,23 @@
+{
+  "name": "guide.animus.entry.ritual_floral_supremacy",
+  "icon": "bloodmagic:masterritualstone",
+  "category": "animus:compatibility",
+  "flag": "mod:botania",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Ritual da Supremacia Floral sobrecarrega flores geradoras de mana do Botania próximas, dobrando sua taxa de produção como se estivessem plantadas em solo encantado. Requer $(thing)Botania$() para funcionar."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos",
+      "text": "$(bold)Ativação:$() 10.000 LP$(br)$(bold)Manutenção:$() 50 LP por flor (configurável)$(br)$(bold)Alcance:$() 8 blocos (configurável)$(br)$(bold)Intervalo:$() A cada segundo"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Efeitos",
+      "text": "$(bold)Flores Geradoras:$() Todas as flores geradoras de mana no alcance processam duas vezes por segundo, efetivamente dobrando sua produção.$(br2)$(bold)Espalhadores de Mana:$() Espalhadores no alcance são acelerados para velocidade 2x usando domínio temporal.$(br2)$(italic)A floração da natureza alimenta-se de sacrifício.$()"
+    }
+  ]
+}

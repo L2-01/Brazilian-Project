@@ -1,0 +1,37 @@
+{
+    "name": "Programas",
+    "icon": "mimi:microphone",
+    "category": "mimi:7midi",
+    "pages": [    
+        {
+            "type": "patchouli:text",
+            "text": "Ao ouvir música, você ouve uma enorme variedade de tipos diferentes de sons produzidos por muitos instrumentos diferentes. No MIDI, esses sons são chamados de Programas e são um componente importante dos dados MIDI."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Controladores",
+            "text": "Muitos controladores MIDI são projetados para lidar com apenas um único programa. Um piano digital, por exemplo, pode só conseguir produzir sons de piano.$(br2)Outros controladores MIDI podem conseguir produzir dados para vários programas diferentes, como um sintetizador de ondas digital."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Sintetizadores",
+            "text": "De forma semelhante aos controladores MIDI, sintetizadores MIDI podem conseguir produzir som em um ou mais programas diferentes. Um piano digital, por exemplo, pode só conseguir produzir sons de piano.$(br2)Muitos Sintetizadores conseguem produzir um grande número de programas diferentes. Isso permite que dados MIDI enviados num programa sejam transformados em som por um sintetizador usando o mesmo programa ou outro programa."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Sintetizadores",
+            "text": "Essa capacidade dos Sintetizadores de remapear dados MIDI de um programa para outro é um dos aspectos mais poderosos do MIDI.$(br2)Ela permite produzir dados MIDI usando qualquer controlador que você tiver disponível, mas depois emiti-los em qualquer tipo de som, como um piano gerando sons de guitarra ou $(l:https://youtu.be/SAcYxc1M55s?t=467)um Aspirador tocando um monte de flautas doces.$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "General MIDI",
+            "text": "Para que muitos tipos diferentes de dispositivos MIDI funcionassem corretamente juntos, um conjunto padrão de dados MIDI foi desenvolvido no início dos anos 1990, conhecido como General MIDI 1.0 (GM / GM1).$(br2)Um aspecto do GM foi a criação de um conjunto padrão de 128 programas MIDI (também chamados de programas), cada um mapeado para um número específico, de modo que qualquer sintetizador MIDI soubesse qual programa os dados estão tentando usar."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "General MIDI",
+            "text": "Os 128 programas do GM são divididos em várias categorias genéricas, de Piano a Metais e Percussão. A especificação completa do General MIDI pode ser encontrada $(l:https://en.wikipedia.org/wiki/General_MIDI)aqui$(/l)."
+        }
+    ],
+    "sortnum": 2
+}

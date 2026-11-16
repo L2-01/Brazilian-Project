@@ -1,0 +1,23 @@
+{
+  "name": "Fundidor",
+  "icon": "deepresonance:smelter",
+  "category": "rftoolsbase:category_deepresonance_machines",
+  "extra_recipe_mappings": {
+    "deepresonance:smelter": 1
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Fundidor transforma minério ressonante em cristal líquido. Precisa de FE, minério no seu espaço, lava num tanque abaixo e um tanque de saída acima."
+    },
+    {
+      "type": "text",
+      "text": "Para melhor qualidade, mantenha o tanque de lava abaixo o mais próximo de 50% cheio possível. Qualquer coisa entre 40% e 60% ainda é bom."
+    },
+    {
+      "type": "crafting",
+      "recipe": "deepresonance:smelter"
+    }
+  ]
+}

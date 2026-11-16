@@ -1,0 +1,30 @@
+{
+  "name": "Avançado",
+  "icon": "rftoolsbuilder:red_shield_template_block",
+  "category": "rftoolsbase:category_rftoolsbuilder_shield",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:blue_shield_template_block": 0,
+    "rftoolsbuilder:red_shield_template_block": 0,
+    "rftoolsbuilder:green_shield_template_block": 0,
+    "rftoolsbuilder:yellow_shield_template_block": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Um Projetor de Escudo pode formar um escudo a partir de blocos de modelo próximos ou de um Cartão de Forma inserido na GUI. Escudos modelados ignoram blocos de modelo."
+    },
+    {
+      "type": "text",
+      "text": "Os modos de visibilidade são Invisível, Escudo, Transparente, Sólido e Mímico. O Mímico usa o bloco inserido no espaço de mímica como textura do escudo."
+    },
+    {
+      "type": "text",
+      "text": "Os filtros decidem o que acontece com as entidades: passar, bloquear, causar dano, ou bloquear e causar dano. Os tipos de filtro incluem Todos, Passivos, Hostis, Itens e Jogadores."
+    },
+    {
+      "type": "text",
+      "text": "A ordem dos filtros importa. Mova regras específicas para cima das regras amplas, para que jogadores nomeados ou regras de itens sejam tratados antes de uma regra geral de Todos."
+    }
+  ]
+}

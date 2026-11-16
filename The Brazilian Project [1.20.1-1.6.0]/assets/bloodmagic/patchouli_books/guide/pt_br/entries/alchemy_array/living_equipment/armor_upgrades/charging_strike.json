@@ -1,0 +1,15 @@
+{
+  "name": "Golpe de Investida",
+  "icon": "minecraft:golden_axe",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Efeito: Aumenta o dano e a repulsão de ataques correndo, até +50%. $(br2)Treinado por: Causar dano enquanto corre. $(br2)Nível máximo: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:sprint_attack"
+    }
+  ]
+}

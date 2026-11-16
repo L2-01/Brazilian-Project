@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Espeto de Gelo",
+  "icon": "goety:ice_spike_focus",
+  "category": "goety:focuses/frost",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Dispara um espeto de gelo na direção do olhar do conjurador. Criaturas atingidas pelo espeto recebem Congelamento de 1 a 3 segundos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/ice_spike_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/frost_staff)Cajado de Gelo$() disparará uma Lança de Gelo, uma variante maior que perfura inimigos."
+    }
+  ]
+}

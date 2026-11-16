@@ -1,0 +1,109 @@
+{
+  "name": "Criação de Poções",
+  "icon": "bloodmagic:alchemy_flask",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os fundamentos da $(thing)Criação de Poções$() são conhecidos por todos por toda a terra. Até Clerigos e Bruxas comuns dominam bem o básico da fermentação — pegue um punhado de ingredientes semirraro, misture-os num"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A adição de $(blood)Essência Vital$() e uma Sanguimancia francamente engenhosa permitiu turbinar a prática, porém. $(br2)Ao imbuir $(item)Frascos de Vidro$() comuns com seus poderes, você consegue guardar bem mais que um único gole de líquido, e com o uso de vários $(item)Catalisadores$() você descobriu como combinar múltiplos efeitos num só frasco sem que se misturem e se anulem."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Frasco Alquímico",
+      "recipe": "bloodmagic:altar/alchemy_flask",
+      "text": "Um Frasco robusto bem mais espaçoso que qualquer garrafa mixuruca!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Claro, uma garrafa, por mais avançada que seja, é praticamente inútil sem algo para enchê-la. $(br2)Junto com todos os $(thing)Efeitos$() conhecidos de sempre, como $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/water_breathing)Respiração Aquática$(), $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/regeneration)Regeneração$(), ou $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Visão Noturna$(), também aperfeiçoamos uma variedade de outras receitas mais especializadas, como $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)Voo$(), $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/obsidian_cloak)Capa de Obsidiana$(), ou até $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/passive)Passivo$(). Essas poções e muitas outras estão documentadas mais adiante no livro."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:alchemy_flask",
+      "text": "Assim que esvaziar qualquer frasco alquímico, basta lavá-lo e reenchê-lo com água para obter um frasco novinho pronto para uso."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Frascos também têm seu equivalente a Poções $(thing)Arremessáveis$() e $(thing)Prolongadas$(), veja a seguir. $(br2)Poções $(thing)Prolongadas$() podem ser combinadas com 8 $(l:bloodmagic:demon_will/demonic_items/throwing_daggers#amethyst_throwing_dagger)Adagas de Arremesso de Ametista$() na $(item)Câmara de Reação Alquímica$() para criar $(item)Adagas de Arremesso de Ametista com Ponta$(). Qualquer entidade atingida por uma dessas adagas terá os efeitos da poção transferidos para si."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Frasco Alquímico Arremessável",
+      "a.recipe": "bloodmagic:flask/flask_splash",
+      "b.heading": "Frasco Alquímico Prolongado",
+      "b.recipe": "bloodmagic:flask/flask_lingering"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você deve lembrar que mencionei a capacidade de fazer múltiplos $(thing)efeitos$() num único $(item)Frasco$(). Por sorte, esse processo não poderia ser mais fácil. Basta fermentar uma poção e usar o Frasco resultante no lugar do seu Frasco vazio na segunda fermentação. Por exemplo, se você fez um Frasco de $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)Salto$(), depois pegou esse frasco e usou como ingrediente num frasco de $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Visão Noturna$(), você acabaria com um Frasco de 8 doses que dá $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)Salto$() e $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Visão Noturna$() a cada gole!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A seguir, temos os $(item)Catalisadores$(). Há alguns tipos de catalisador, com alguns efeitos diferentes, então vamos começar pelos três mais simples — $(item)Catalisador Simples$(), $(item)Catalisador de Poder Pequeno$(), e $(item)Catalisador de Prolongamento Pequeno$(). Destes, o primeiro é o mais direto — fornece uma base para quase toda Poção Alquímica, assim como a $(item)Fungo do Nether$() faz para as Poções comuns."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Catalisador Simples",
+      "recipe": "bloodmagic:alchemytable/simple_catalyst",
+      "text": "Uma boa base para quase qualquer efeito. Faça estoque, você vai querer muitos destes."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Catalisador de Poder Pequeno",
+      "recipe": "bloodmagic:alchemytable/mundane_power",
+      "text": "Catalisadores de Potência aumentam a potência do efeito do topo dentro do Frasco, enquanto diminuem a duração do efeito. É aproximadamente análogo à $(item)Pedra-Luminosa$() em poções mais comuns. Se o efeito aplicado mais recentemente"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Catalisador de Prolongamento Pequeno",
+      "recipe": "bloodmagic:alchemytable/mundane_lengthening",
+      "text": "Catalisadores de Prolongamento aumentam a duração do efeito do topo dentro do Frasco. É aproximadamente análogo à $(item)Redstone$() em poções mais comuns. Se o efeito aplicado mais recentemente não aceitar o catalisador, ele at"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Catalisador Combinacional",
+      "recipe": "bloodmagic:alchemytable/combinational",
+      "text": "$(item)Catalisadores Combinacionais$() são um pouco mais de nicho — pegam dois efeitos definidos e sintetizam um terceiro efeito relacionado a partir deles. Por exemplo, um Frasco com $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)Suspenso$() e $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation)Levitação$() produziria, quando fermentado com este catalisador, um Frasco de $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)Voo$()."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Agente de Enchimento Fraco",
+      "recipe": "bloodmagic:alchemytable/weak_filling",
+      "text": "Agentes de Enchimento podem ser usados para recarregar o conteúdo de um Frasco, ao custo de perder alguns dos efeitos — o Agente de Enchimento Fraco só consegue preservar o efeito do topo do Frasco. Se quiser preservar um efeito diferente, considere usar o $(item)Catalisador de Ciclagem Simples.$()"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Catalisador de Ciclagem Simples",
+      "recipe": "bloodmagic:alchemytable/cycling_catalyst",
+      "text": "O Catalisador de Ciclagem pode ser usado para alterar a ordem dos efeitos dentro do Frasco, e assim mudar qual efeito é alterado por outro Catalisador ou Agente."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Criação de Poções 201",
+      "anchor": "average_potions",
+      "text": "Se as poções que você criou até agora simplesmente não bastam, talvez você precise explorar um pouco? Com algumas $(item)Bagas Luminosas$(), um pouco de $(item)Ardósia$() e uma pitada de $(l:bloodmagic:dungeons/demonite)Areia Forjada no Inferno$(), você pode turbinar a duração e o poder dos seus frascos significativamente."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Catalisador Fortalecido",
+      "recipe": "bloodmagic:alchemytable/strengthened_catalyst",
+      "text": "Uma base mais potente para catalisadores mais potentes."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Prolongamento Padrão",
+      "recipe": "bloodmagic:alchemytable/average_lengthening",
+      "text": "O Catalisador de Prolongamento Padrão aumentará a duração do efeito do topo de 3:00 para 21:20. Multiplique isso pelas 8 doses que cada frasco fornece, e dá um tempão!"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Catalisador de Poder Padrão",
+      "recipe": "bloodmagic:alchemytable/average_power",
+      "text": "O Catalisador de Poder Padrão é uma versão turbinada do Catalisador de Poder Pequeno, permitindo chegar a efeitos de poção de nível III no seu frasco, enquanto reduz a duração para só 45 segundos por dose."
+    }
+  ]
+}

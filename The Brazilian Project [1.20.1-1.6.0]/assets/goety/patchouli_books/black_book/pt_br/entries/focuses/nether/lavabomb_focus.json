@@ -1,0 +1,23 @@
+{
+  "name": "Foco de Bomba de Lava",
+  "icon": "goety:lavaball_focus",
+  "category": "goety:focuses/nether",
+  "advancement": "minecraft:story/enter_the_nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você sente o poder do Nether tomando conta de você. Ao contrário dos Ghasts, você não chora. Afinal, é uma dor boa. Suas Bombas de Lava não causam dano ambiental quando conjuradas agachado."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/lavaball_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/nether_staff)Cajado do Nether$() disparará duas bombas de lava extras."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:lavaball_focus": 1
+  }
+}

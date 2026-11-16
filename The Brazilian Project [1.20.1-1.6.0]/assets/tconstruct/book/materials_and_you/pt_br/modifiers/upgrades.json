@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:showcase",
+  "title": "Aprimoramentos",
+  "item": {
+    "type": "forge:nbt",
+    "item": "tconstruct:creative_slot",
+    "nbt": {
+      "slot": "upgrades"
+    }
+  },
+  "tooltip": [
+    "Ícone de Espaço de Aprimoramento"
+  ],
+  "text": [
+    {
+      "text": "Aprimoramentos são melhorias padrão de uma ferramenta. Normalmente feitos aplicando um item e 'transferindo' parte de suas qualidades mágicas, como redstone deixando ferramentas mais rápidas. "
+    },
+    {
+      "text": "A maioria das ferramentas começa com cerca de 3 espaços de aprimoramento, mas dá para obter mais com outros tipos de modificadores."
+    },
+    {
+      "text": "O Puny Smelting de Thruul M'Gon tem a lista completa de aprimoramentos das ferramentas, junto com a Enciclopédia de Tinkering.",
+      "paragraph": true
+    }
+  ]
+}

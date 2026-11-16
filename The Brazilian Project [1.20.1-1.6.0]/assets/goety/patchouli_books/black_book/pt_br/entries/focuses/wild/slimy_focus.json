@@ -1,0 +1,22 @@
+{
+  "name": "Foco Viscoso",
+  "icon": "goety:slimy_focus",
+  "category": "goety:focuses/wild",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Conjura $(l:summons/slime_servants)Servos Slime$() leais ao seu redor para fazerem sua vontade."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/slimy_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/wild_staff)Cajado Selvagem$() invoca mais Servos Slime. Conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() invocará Slimes Tropicais, com o $(l:crafts/staff/nether_staff)Cajado do Nether$() invocará Cubos de Magma, e com o $(l:crafts/staff/necro_staff)Cajado Necrótico$() invocará Slimes de Cripta."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:slimy_focus": 1
+  }
+}

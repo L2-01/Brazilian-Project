@@ -1,0 +1,17 @@
+{
+  "name": "Cauterizar Feridas",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_cauterizewounds",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aumente suas chances de sobrevivência com a melhoria Cauterizar Feridas. Ela lhe dá a capacidade de se curar rapidamente após sofrer dano, usando o calor da batalha para selar feridas.$(br2)Ative essa habilidade com o botão direito — ela o curará instantaneamente e gastará um pouco de durabilidade. Note que há um período de recarga antes de poder usá-la de novo."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria: Cauterizar Feridas",
+      "recipe": "justdirethings:upgrade_cauterizewounds"
+    }
+  ]
+}

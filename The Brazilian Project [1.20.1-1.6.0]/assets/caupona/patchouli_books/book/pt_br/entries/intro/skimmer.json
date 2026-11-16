@@ -1,0 +1,28 @@
+{
+  "name": "Espumadeira",
+  "icon": "caupona:bamboo_skimmer",
+  "category": "caupona:intro",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/bamboo_skimmer",
+      "text": "Espumadeiras são usadas para remover ingredientes sólidos da sopa, diminuindo a concentração em 0,5 a cada vez, até atingir a concentração desejada."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "caupona:scraps",
+      "link_recipe": true,
+      "text": "Ingredientes desnatados viram restos, cuja única utilidade é compostagem."
+    },
+    {
+      "type": "text",
+      "text": "Espumadeiras de ferro e bambu funcionam igual, apesar de as de ferro serem mais duráveis."
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/iron_skimmer",
+      "recipe2": "caupona:crafting/iron_skimmer_alt"
+    }
+  ]
+}

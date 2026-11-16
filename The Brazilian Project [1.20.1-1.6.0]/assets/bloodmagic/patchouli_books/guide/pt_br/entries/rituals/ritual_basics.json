@@ -1,0 +1,32 @@
+{
+  "name": "Rituais 101",
+  "icon": "bloodmagic:activationcrystalcreative",
+  "category": "bloodmagic:rituals",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Assim que levar seu $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(/l) ao Tier 3, você pode mergulhar no maravilhoso mundo dos Rituais. $(br2)Para trabalhar com rituais, você precisará do seguinte: $(li)Um $(l:bloodmagic:rituals/activation_crystals)Cristal de Ativação$(). No tier 3 só o $(item)Cristal Fraco$() está disponível. $(li)Uma $(item)Pedra de Ritual Mestre$(). Todo ritual exige exatamente uma dessas no centro."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Pedras de Ritual suficientes para construir o Ritual. $(li)(Recomendado) Um $(l:bloodmagic:rituals/ritual_diviner)Adivinhador de Ritual$(). Embora não seja obrigatório, facilitará significativamente a construção do ritual. $(br2)Construir um ritual é relativamente direto. Basta pressionar [$(k:sneak)] + [$(k:use)] com o Adivinhador de Ritual na mão até ele exibir o nome do ritual desejado. Confira o número de runas exigidas passando o mouse sobre ele no seu"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "inventário e segurando [$(k:sneak)]. $(br2)Coloque uma Pedra de Ritual Mestre, e segure [$(k:use)] até que todas as pedras tenham sido colocadas e pintadas com o elemento correto. Por fim, pressione [$(k:use)] na Pedra de Ritual Mestre com seu Cristal de Ativação na mão. Se fez tudo certo, deve aparecer a mensagem 'Uma onda de energia flui pelo ritual!'. O ritual agora está ativo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se isso não ocorrer, algumas coisas podem ter dado errado. Se em vez disso aparecer o texto 'Você sente um empurrão, mas é fraco demais para completar este ritual', então você não tem $(blood)LP$() suficiente na sua $(thing)Soul Network$() para ativar o ritual. $(br2)Se a mensagem disser 'Você sente que estas runas não estão configuradas corretamente...', então algo deu errado no posicionamento das runas. Verifique a área por obstruções e tente montar o ritual de novo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Lembre-se de que alguns rituais se estendem vários blocos acima e abaixo da Pedra de Ritual Mestre. Se não houver erro, certifique-se de que o cristal de ativação está vinculado à sua soul network — isso pode ser feito pressionando [$(k:use)] enquanto o segura. $(br2) É importante notar que o cristal não precisa estar vinculado à SUA network — se você conseguir o cristal de outro jogador, pode ativar rituais usando o $(blood)LP$() dele. Guarde bem o seu!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "uma última nota; todos os rituais respondem a um sinal de $(fire)redstone$(), então colar uma alavanca na lateral da Pedra de Ritual Mestre é uma boa forma de desativá-lo. Você pode combinar esse conhecimento com algumas das informações em $(l:bloodmagic:altar/redstone_automation)Redstone e Automação$() para garantir que seus rituais desliguem automaticamente bem antes da sua $(thing)Soul Network$() secar."
+    }
+  ]
+}

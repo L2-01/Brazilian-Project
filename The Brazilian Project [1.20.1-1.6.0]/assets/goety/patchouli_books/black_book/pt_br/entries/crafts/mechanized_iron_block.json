@@ -1,0 +1,15 @@
+{
+  "name": "Bloco de Ferro Mecanizado",
+  "icon": "goety_cataclysm:mechanized_iron_block",
+  "category": "goety:cataclysm/crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As máquinas da Fábrica Ancestral parecem ser feitas principalmente de Ferro e Redstone, com o Wither Robô-Mecânico tendo grandes quantidades de Witherita. Embora a Witherita permaneça fora do seu alcance, o metal que compõe o resto das máquinas não está."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:mechanized_iron_block"
+    }
+  ]
+}

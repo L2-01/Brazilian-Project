@@ -1,0 +1,17 @@
+{
+  "name": "guide.animus.entry.imperfect_ritual_warden",
+  "icon": "minecraft:sculk",
+  "category": "animus:rituals",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um ritual imperfeito que canaliza o poder defensivo do Sentinela, concedendo ao usuário um manto de obsidiana impenetrável.$(br2)$(bold)Configuração:$()$(br)Coloque um Bloco de Sculk em cima de uma Pedra de Ritual Imperfeita.$(br2)$(bold)Custo:$() 3.000 LP por uso$(br2)$(bold)Duração:$() 15 minutos$(br2)$(bold)Nota:$() O ritual ativa uma vez e completa imediatamente. A pedra pode ser reutilizada."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Efeitos",
+      "text": "$(bold)Ativação:$()$(br)Clique com o botão direito na Pedra de Ritual Imperfeita para receber:$(li)$(thing)Manto de Obsidiana$() por 15 minutos$(br2)$(bold)Manto de Obsidiana:$()$(br)Reduz drasticamente o dano recebido, tornando você quase invulnerável à maioria dos ataques.$(br2)$(bold)Casos de Uso:$()$(li)Lutas contra chefes$(li)Exploração perigosa$(li)Combate PvP$(li)Mineração em áreas perigosas$(br2)$(italic)As trevas protegem.$()"
+    }
+  ]
+}

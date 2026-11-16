@@ -1,0 +1,84 @@
+{
+  "name": "Servos Deepling",
+  "icon": "cataclysm:lionfish",
+  "category": "goety:cataclysm/summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Seguidores do Leviatã, criaturas estranhas que lembram os habitantes do End, mas incapazes de se teletransportar e que prosperam dentro d'água."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:deepling_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_deepling_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Um Deepling comum, capaz tanto de arremessar suas lanças de coral a longas distâncias quanto de usá-las corpo a corpo. Eles podem receber uma Lança de Coral, se necessário."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:deepling_angler_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_deepling_angler_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Deeplings que empunham varas de pesca e têm um Peixe-Leão preso a si por uma coleira. Sua coloração e a habilidade de envenenar inimigos fazem pensar como os dois se relacionam."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Usar a Tesoura no Peixe-Leão deles o libertará, fazendo com que ele siga e obedeça a você. Se ficar sem Peixe-Leão, o pescador capturará outro após 10 minutos, por padrão, se estiver na água e ainda tiver sua vara de pesca. Capturar outro desgasta lentamente a durabilidade da vara, embora se possa dar outra a ele."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:deepling_brute_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_deepling_servant_to_deepling_brute"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Deeplings poderosos que possuem mais sutileza e força que seus equivalentes comuns. Eles podem receber um Berdiche de Coral, se necessário"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:deepling_priest_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_deepling_servant_to_deepling_priest"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Mesmo com eles sob seu comando, você não faz ideia se esses portadores de luzes cegantes adoram o Leviatã ou qualquer ser que alimente o Altar de Ametista. Eles podem receber um Atame, se necessário"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:deepling_warlock_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_deepling_servant_to_deepling_warlock"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Diferente de seus primos Sacerdotes, esses Deeplings canalizam o poder do Leviatã para invocar feixes de energia abissal do chão. Porém, não têm fascinação por fungos ou aracnídeos verrucosos. Eles podem receber um Atame, se necessário"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Todas as variantes de Deepling podem ser curadas vestindo um Manto Abissal ou alimentando-as com peixe."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Fisiculturista",
+  "icon": "minecraft:cooked_beef",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Efeito: Concede Resistência a Repulsão e vida bônus. Máximo de 100% de Resistência e 10 meios-corações de vida. $(br2)Treinado por: Comer comida. $(br2)Nível máximo: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:knockback_resist"
+    }
+  ]
+}

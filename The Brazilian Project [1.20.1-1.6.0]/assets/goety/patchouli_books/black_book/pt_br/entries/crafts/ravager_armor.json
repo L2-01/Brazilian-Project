@@ -1,0 +1,39 @@
+{
+  "name": "Armadura de Devastador",
+  "icon": "goety:iron_ravager_armor",
+  "category": "goety:crafts",
+  "advancement": "goety:goety/read_ravaging_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ao ler o pergaminho sobre os segredos dos $(l:mutations/ravaged)Devastadores$(), você teve a ideia de criar uma armadura especializada que aumenta suas já $(l:crafts/ominous_saddle)selas blindadas$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Criar armadura para a fera enorme requer muito Ferro e metal, mas fornecerá uma grande quantidade de proteção para o recém-transformado $(l:mutations/ravaged)Devastador$(). Porém, o $(l:mutations/ravaged)Devastador$() deve estar $(l:crafts/ominous_saddle)Selado$() antes de aplicar a armadura. Você ouviu boatos de que não é o primeiro a pensar em blindar Devastadores..."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:iron_ravager_armor"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:gold_ravager_armor"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:diamond_ravager_armor"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:netherite_ravager_armor"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:iron_ravager_armor": 2,
+    "goety:gold_ravager_armor": 3,
+    "goety:diamond_ravager_armor": 4,
+    "goety:netherite_ravager_armor": 5
+  }
+}

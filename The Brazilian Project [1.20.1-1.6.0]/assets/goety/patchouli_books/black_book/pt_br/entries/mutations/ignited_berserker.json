@@ -1,0 +1,33 @@
+{
+  "name": "Cavaleiro Flamejante",
+  "icon": "cataclysm:dying_ember",
+  "category": "goety:cataclysm/mutations",
+  "advancement": "goety:goety/read_bygone_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fazer o espírito de um berserker ancestral possuir um elemental de fogo, surpreendentemente, não acabou em desastre."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_blazes_to_ignited_berserker"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:ignited_berserker",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O berserker pode ser curado alimentando-o com ossos, varas de blaze ou pó de blaze, e pode se curar passivamente se seu dono vestir uma Capa Necrótica."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_cataclysm:ignited_soul",
+      "text": "Quando extintos, esses revenants flamejantes derrubam seus núcleos incandescentes, que podem possuir um Blaze para voltar dos mortos."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:ignited_soul": 4
+  }
+}

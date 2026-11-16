@@ -1,0 +1,28 @@
+{
+  "name": "Ervas",
+  "icon": "caupona:silphium_block",
+  "category": "caupona:worldgen",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Silphia agora é gerada no mundo. Esta erva não pode ser plantada e só pode ser renovada usando farinha de osso."
+    },
+    {
+      "type": "empty"
+    },
+    {
+      "type": "image",
+      "images": [
+        "caupona:textures/gui/entries/silphium.png"
+      ],
+      "anchor": "silphium",
+      "title": "Silphium"
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:silphium",
+      "text": "Silphia só cresce em planícies de girassol. Asafétida, uma especiaria rara, pode ser produzida deixando silphia e uma bigorna (não consumida) num $(l:intro/counter_with_dolium)dólio$(/l)."
+    }
+  ]
+}

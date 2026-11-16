@@ -1,0 +1,20 @@
+{
+  "name": "Sprites",
+  "icon": "minecraft:glass",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você ouviu contos de luzes dançando em pântanos, atraindo viajantes para a morte. A princípio, você achou que elas simplesmente atraíam as vítimas em círculos até elas cansarem e morrerem de fome. Acontece que, em vez de deixá-las famintas, elas simplesmente as eletrocutam até a morte."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:sprite",
+      "scale": 0.75
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_sprite_thrall"
+    }
+  ]
+}

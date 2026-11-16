@@ -1,0 +1,26 @@
+{
+    "name": "Minérios",
+    "icon": "bigreactors:yellorite_ore",
+    "category": "bigreactors:intro",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "bigreactors:spotlight-smelting",
+            "spotlightItem": "bigreactors:yellorite_ore",
+            "spotlightText": "A fonte habitual de combustível para alimentar seus Reatores é o Minério de Yellório.$(br2)O Minério de Yellório pode ser encontrado em quase todos os biomas e pode ser derretida para produzir lingotes de Yellório.",
+            "recipe": "bigreactors:smelting/yellorium_from_ore"
+        },
+        {
+            "type": "bigreactors:spotlight-item",
+            "spotlightItem": "bigreactors:benitoite_ore",
+            "spotlightText": "Encontrada apenas nos recessos extremos do inferno, os cristais de Benitoíta têm propriedades incomuns para as quais você ainda não encontrou uso.",
+            "smallItem": "bigreactors:benitoite_crystal"
+        },
+        {
+            "type": "bigreactors:spotlight-item",
+            "spotlightItem": "bigreactors:anglesite_ore",
+            "spotlightText": "Você precisa chegar ao fim da sua jornada para encontrar esses cristais elusivos, mesmo que ainda não saiba como usá-los a seu favor.",
+            "smallItem": "bigreactors:anglesite_crystal"
+        }
+    ]
+}

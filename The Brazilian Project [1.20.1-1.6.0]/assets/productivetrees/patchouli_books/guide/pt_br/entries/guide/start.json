@@ -1,0 +1,22 @@
+{
+  "name": "Primeiros Passos",
+  "icon": "minecraft:writable_book",
+  "category": "productivetrees:guide",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "flag": "mod:productivebees",
+      "text": "Coloque uma árvore ao lado de outra perto de abelhas e lucre.$(br)A colmeia pode ser simulada, e melhorias de alcance aumentam a área de trabalho em 2 blocos por melhoria. O alcance base é 4.$(br2)Note que este mod está em beta e ainda não tem todos os recursos.$(br)Em específico, os recursos de crescimento das árvores (como ficam quando crescem) estão em desenvolvimento."
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "!mod:productivebees",
+      "text": "Colete folhas e passe-as por uma peneira de pólen para extrair pólen. Use as bolas de pólen numa folha para polinizá-la e obter uma nova espécie de árvore.$(br2)Note que este mod está em beta e ainda não tem todos os recursos.$(br1)Em específico, os recursos de crescimento das árvores (como ficam quando crescem) estão em desenvolvimento."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:spyglass",
+      "text": "Você pode usar uma luneta para ver melhor quais folhas foram polinizadas."
+    }
+  ]
+}

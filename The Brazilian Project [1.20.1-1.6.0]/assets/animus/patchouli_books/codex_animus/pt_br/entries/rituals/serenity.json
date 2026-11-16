@@ -1,0 +1,22 @@
+{
+  "name": "guide.animus.entry.ritual_serenity",
+  "icon": "bloodmagic:masterritualstone",
+  "category": "animus:rituals",
+  "sortnum": 21,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Ritual da Serenidade cria uma zona de paz onde criaturas hostis não podem surgir. Perfeito para proteger sua base sem depender de tochas ou outra iluminação."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos",
+      "text": "$(bold)Ativação:$() 10.000 LP$(br)$(bold)Manutenção:$() 50 LP por tique (configurável)$(br)$(bold)Alcance:$() 48 blocos (configurável)$(br2)O surgimento de criaturas hostis é completamente impedido dentro do alcance esférico do ritual."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Notas",
+      "text": "$(bold)Criaturas Existentes:$() Não remove criaturas já presentes — só impede novos surgimentos.$(br2)$(bold)Acúmulo:$() Múltiplos rituais podem se sobrepor para cobrir áreas maiores.$(br2)$(italic)No sangue há paz.$()"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Tiers & Começando",
+  "icon": "bloodmagic:sacrificialdagger",
+  "category": "bloodmagic:utility",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A progressão do $(blood)Blood Magic 3$() ainda está sendo retrabalhada, e os primeiros passos são significativamente diferentes dos do $(blood)Blood Magic 2$(). $(br2)Ainda estamos reescrevendo nossa orientação, mas aguardamos a progressão ser finalizada. Enquanto isso, aqui vai uma visão rápida de como progredir no $(blood)Blood Magic 3$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:altar",
+      "title": "Altar de Sangue (Tier-1)",
+      "text": "O primeiro passo do $(blood)Blood Magic$() é construir um $(l:bloodmagic:altar/blood_altar)Altar de Sangue$() e uma $(l:bloodmagic:altar/blood_altar#knife)Faca Sacrificial$(). Use-os para gerar $(blood)LP$() por Autossacrifício.$(br2)Use esse $(blood)LP$() para criar um $(l:bloodmagic:altar/soul_network)Orbe de Sangue Fraco$(), várias $(l:bloodmagic:altar/slates)Ardósias em Branco$(), e alguns $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Alçapões de Almas$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:alchemytable",
+      "title": "Mesa de Alquimia (Tier-1)",
+      "text": "A $(l:bloodmagic:alchemy_table/alchemy_table)Mesa de Alquimia$() usa $(blood)LP$() da $(thing)Soul Network$() de um jogador (retirado do $(l:bloodmagic:altar/soul_network)Orbe de Sangue vinculado$() nela) para criar vários objetos diferentes, como:$(li)$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Cinzas Arcanas$()$(li)$(item)Reagentes para Selos$()$(li)$(l:bloodmagic:alchemy_table/anointments)Unções$()$(li)$(thing)Processamento de Minérios 2x$()$(li)e várias outras coisas."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:arcaneashes",
+      "title": "Arranjo de Alquimia (Tier-1)",
+      "text": "Um $(thing)Arranjo de Alquimia$() é feito colocando algumas $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Cinzas Arcanas$() no chão. O Arranjo de Alquimia pode ter 2 $(item)itens$() inseridos via [$(k:use)], e ou criará um $(item)item$() (como um $(l:bloodmagic:alchemy_array/sigil/divination)Selo de Adivinhação$()) ou executará $(thing)algum tipo de função$() (como $(l:bloodmagic:alchemy_array/functional_arrays/time_arrays)transformar dia em noite$())."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:soulforge",
+      "title": "Forja do Fogo Infernal (Tier-1)",
+      "text": "A $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Forja do Fogo Infernal$() cria usando $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will Demoníaca$(). Você obtém sua primeira $(raw)Will$() usando $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Alçapões de Almas$(), embora melhorar para uma $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Espada Consciente$() seja recomendado. A $(item)Forja do Fogo Infernal$() é usada para coisas diretamente ligadas à $(raw)Will Demoníaca$() (como $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gemas Tartáricas$() e $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Ferramentas Conscientes$()), e consumíveis (como $(l:bloodmagic:demon_will/demonic_items/explosive_charges)Cargas Explosivas$() e $(l:bloodmagic:demon_will/demonic_items/throwing_daggers)Adagas de Arremesso$())."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:daggerofsacrifice",
+      "title": "Tier Dois",
+      "text": "Neste ponto, você poderá criar uma $(l:bloodmagic:altar/blood_altar#dagger_of_sacrifice)Adaga de Sacrifício$() para abater criaturas por mais $(blood)LP$(). Várias $(item)Runas de Upgrade$() devem estar disponíveis para seu $(item)Altar de Sangue$(), e mais alguns $(item)Selos$() estarão disponíveis. Como antes, foque em melhorar ainda mais seu $(l:bloodmagic:altar/blood_altar)Altar$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:alchemy_flask",
+      "title": "Criação de Poções (Tier-2)",
+      "text": "Se construir seu $(l:bloodmagic:altar/blood_altar)Altar$() está ficando cansativo e você sente necessidade de uma distração, que tal experimentar o recém-disponível sistema de $(l:bloodmagic:alchemy_table/potions)Criação de Poções$()? Você poderá criar $(thing)Frascos Alquímicos$() ou $(l:bloodmagic:demon_will/demonic_items/throwing_daggers#amethyst_throwing_dagger)Adagas de Arremesso de Ametista com Ponta$() e imbuí-los com literalmente dezenas de efeitos."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:ritualdiviner",
+      "title": "Tier Três",
+      "text": "A essa altura, você terá capacidade de criar alguns $(l:bloodmagic:rituals/ritual_basics)Rituais$() básicos e $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$() também. Essa armadura é bem versátil, embora você precise trabalhar duro para liberar todo o seu potencial. Neste ponto você deve pensar em melhorar seu $(l:bloodmagic:altar/blood_altar)Altar$() e seu $(l:bloodmagic:rituals/ritual_diviner)Adivinhador de Ritual$() para desbloquear $(thing)Rituais$() mais poderosos. Como, você pergunta?"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:simplekey",
+      "title": "Exploração de Masmorras (Tier-3)",
+      "text": "Executando a $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Orla do Reino Oculto$(), é assim! Isso dará acesso limitado ao $(thing)Reino Demoníaco$(), e com sorte à $(l:bloodmagic:dungeons/tau_fruit)Fruta Tau$(), que pode ser cultivada em $(thing)Tau Saturado$() e depois convertida em $(item)Fragmentos de Sangue Fracos$() na $(l:bloodmagic:utility/alchemical_reaction_chamber)Câmara de Reação Alquímica$(). Estes podem ser usados para fazer o Altar Tier IV, $(l:bloodmagic:alchemy_table/anointments)Unções$() mais poderosas, e $(l:bloodmagic:alchemy_table/potions#average_potions)Catalisadores de Poção$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:duskscribetool",
+      "title": "Tier Quatro",
+      "text": "no Tier 4, você terá acesso ao $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l), e com ele, uma infinidade de $(thing)Rituais$() mais avançados, permitindo feitos como $(l:bloodmagic:rituals/ritual_list/ritual_well_of_suffering)automatizar seu suprimento de LP$(), $(l:bloodmagic:rituals/ritual_list/ritual_condor)voo de criativo ilimitado na sua base$(), e até $(l:bloodmagic:rituals/ritual_list/ritual_meteor)invocar um meteoro devastador$() dos céus, recheado de coisas boas!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:upgradetome",
+      "title": "Armadura Melhor (Tier-4)",
+      "text": "Você pode ter experimentado a $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$() até aqui, mas o limite de pontos relativamente baixo pode ter começado a incomodar. Com o $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l), você agora pode aprimorar sua armadura como nunca antes. Primeiro, o $(l:bloodmagic:rituals/ritual_list/ritual_armour_evolve)Ritual da Evolução Viva$() permitirá elevar seu limite de pontos de 100 para 300."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se isso não bastar, você pode usar o $(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)Som da Alma Purificada$() para remover os upgrades da sua armadura. Esses tomos podem ser copiados numa $(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)Pulseira de Treinamento$(), ou reaplicados à sua armadura para garantir que você só treine os Upgrades que realmente quer. $(br2)Quaisquer $(thing)Tomos de Upgrade$() sobrando podem ser guardados como combustível para a $(l:bloodmagic:rituals/ritual_list/ritual_living_downgrade)Penitência da Alma Enchumbada$(). Esse ritual permite aplicar $(thing)Downgrades$() à sua Armadura."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Embora sejam caros (e cada um venha com uma penalidade pesada), seu custo de pontos negativo dará mais espaço para melhorar ainda mais seus upgrades. $(br2)Quer ser incrivelmente resistente e saudável, e não se importa de ser lento? Tente combinar $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/body_builder)Body Builder$() V, $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/brilliance)Brilliance$() V, $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/healthy)Healthy$() X, e $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/tough)Tough$() X com $(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/dig_slowdown)Leadened Pick$() X e $(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/speed_decreas e)Limp Leg$() X."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Prefere explorar e correr rápido? Talvez não ligue para a mão secundária? Talvez $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/strong_legs)Strong Legs$() X, $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/quick_feet)Quick Feet$() X, e $(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/crippled_arm)Crippled Arm$() sejam mais a sua cara. $(br2)Quer ter os dois em momentos diferentes? Faça vários peitorais e troque entre eles! Há dezenas de upgrades e downgrades, então misture e combine para achar suas combinações favoritas."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:vengefulcrystal",
+      "title": "Will Aspectada (Tier-4)",
+      "text": "Talvez valha olhar o $(l:bloodmagic:rituals/ritual_tinkerer)Ajustador de Ritual$() e os vários tipos de $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Aspectos de Will$() disponíveis, e pensar em como usá-los para refinar seus rituais existentes e alterar como suas $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Ferramentas Conscientes$() e $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Armas$() funcionam. Para progredir além deste ponto, porém, será preciso uma incursão no $(thing)Reino Demoníaco$()..."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:mineentrancekey",
+      "title": "O Reino Demoníaco (Tier-4)",
+      "text": "Ao executar o $(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)Caminho para o Reino Infinito$(), você ganha acesso ao $(thing)Reino Demoníaco$() propriamente dito, com todos os seus tesouros e terrores. Venha equipado para lutar! Explore fundo e você pode achar uma fonte rica de $(l:bloodmagic:dungeons/demonite)Minério de Demonita$(), que pode ser combinada em forma de bloco e usada nos capitéis do seu altar, junto com o $(item)Orbe de Sangue de Arquimago$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:ingot_hellforged",
+      "title": "Tier Cinco",
+      "text": "Este é o tier máximo. A essa altura você tem acesso a tudo que o $(blood)Blood Magic$() tem a oferecer. Continue explorando o Reino Demoníaco em busca de tesouros raros, e você pode ter a sorte de achar $(item)Peças Intrincadas Forjadas no Inferno$(), que podem ser usadas junto com $(item)Fragmentos de Netherita$() para dobrar o poder de cada uma das Runas do seu altar!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:barrier",
+      "title": "Tier Seis?",
+      "text": "O quê? Não. Olha, mesmo no 1.12 isso só existia como favor aos criadores de packs e não era implementado. Você já foi longe demais. Volte uma página."
+    }
+  ]
+}

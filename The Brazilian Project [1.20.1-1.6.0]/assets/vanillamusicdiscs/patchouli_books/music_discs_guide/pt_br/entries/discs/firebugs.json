@@ -1,0 +1,19 @@
+{
+    "name": "Firebugs",
+    "category": "vanillamusicdiscs:discs",
+    "icon": "vanillamusicdiscs:firebugs_music_disc",
+    "sortnum": 17,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "vanillamusicdiscs:firebugs_music_disc",
+            "text": "Fabrique Firebugs usando a $(bold)Mesa de Discos de Música$(). Coloque qualquer disco de música vanilla no espaço da esquerda e o material mostrado abaixo no espaço do meio."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:campfire",
+            "title": "Material Necessário",
+            "text": "$(item)Fogueira$() $(#808080)$()Coloque-o no espaço do meio da Mesa de Discos de Música junto a qualquer disco de música vanilla.$()"
+        }
+    ]
+}

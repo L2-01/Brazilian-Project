@@ -1,0 +1,27 @@
+{
+  "name": "Mantos do Vazio",
+  "icon": "goety:void_robe",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Manto do Vazio imbui o usuário com o poder do End. Os usuários terão chance de desviar de ataques por teletransporte, serão imunes a Tocado pelo Vazio e poderão se mover livremente através de Blocos do Vazio. O Manto também torna os Feitiços do Vazio mais baratos."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:void_robe"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:void_crown"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Coroa do Vazio reduz pela metade o tempo para conjurar feitiços do Vazio e impede que certos servos do vazio morram como Obsessores. Ela também permite ao usuário encarar Endermen sem enfurecê-los."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:void_robe": 1,
+    "goety:void_crown": 2
+  }
+}

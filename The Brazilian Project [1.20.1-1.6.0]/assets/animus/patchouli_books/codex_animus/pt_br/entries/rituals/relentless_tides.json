@@ -1,0 +1,22 @@
+{
+  "name": "guide.animus.entry.ritual_relentless_tides",
+  "icon": "bloodmagic:masterritualstone",
+  "category": "animus:rituals",
+  "sortnum": 25,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Ritual das Marés Implacáveis é o inverso da Sifão — ele extrai fluido de um tanque acima e o coloca no mundo abaixo. Crie lagos, inunde cavernas ou encha fossos com qualquer fluido."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Configuração",
+      "text": "$(bold)Tanque:$() Coloque qualquer recipiente de fluido diretamente acima da pedra de ritual mestra.$(br2)$(bold)Ativação:$() 5.000 LP$(br)$(bold)Por Balde:$() 50 LP (configurável)$(br)$(bold)Alcance:$() 32 blocos na horizontal, 128 de profundidade (configurável)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Comportamento",
+      "text": "$(bold)Colocação:$() Coloca blocos-fonte de fluido, deixando a física do Minecraft cuidar do fluxo.$(br2)$(bold)Lugares Válidos:$() Só coloca em ar, blocos substituíveis ou fluido corrente do mesmo tipo.$(br2)$(bold)Padrão de Busca:$() Começa diretamente abaixo, expande para fora. Pula posições já preenchidas.$(br2)$(italic)As marés obedecem à vontade do sangue.$()"
+    }
+  ]
+}

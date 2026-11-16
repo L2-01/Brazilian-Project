@@ -1,0 +1,28 @@
+{
+  "name": "guide.animus.entry.blood_trees",
+  "icon": "animus:blood_sapling",
+  "category": "animus:bloodtrees",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:blood_sapling",
+      "text": "Árvores infundidas com magia de sangue. Mudas Sangrentas crescem em árvores únicas coroadas por um Núcleo de Sangue que pode se propagar para criar florestas sangrentas inteiras."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cultivando Árvores Sangrentas",
+      "text": "$(bold)Muda Sangrenta:$()$(br)Plante e espere crescer (ou use farinha de osso). Cresce numa árvore de 4-6 blocos de altura.$(br2)$(bold)Estrutura:$()$(li)Tronco de Madeira Sangrenta$(li)Copa de Folhas Sangrentas$(li)Núcleo de Sangue no topo$(br2)Colha a madeira para materiais de construção. Veja $(l:animus:bloodtrees/decorative_blocks)Blocos Decorativos$() para opções de fabricação."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Núcleo de Sangue",
+      "text": "$(bold)Núcleo Ativo:$()$(br)O coração da árvore sangrenta. Quando ativo (botão direito para alternar), o núcleo propagará automaticamente árvores sangrentas na área!$(br2)$(bold)Propagação:$()$(li)Procura grama/terra próxima$(li)Coloca Mudas Sangrentas$(li)Cresce-as instantaneamente em árvores$(li)Cria uma floresta sangrenta com o tempo"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dicas",
+      "text": "$(bold)Farinha de osso:$() você pode usar farinha de osso em núcleos ativos para disparar propagação imediata!$(br2)$(bold)Folhas:$() Folhas Sangrentas largam Mudas Sangrentas ao quebrar, como árvores normais.$(br2)$(bold)Automação:$() Combine com fazendas de árvores para produção automatizada de madeira sangrenta.$(br2)$(italic)Deixe a floresta sangrenta crescer.$()"
+    }
+  ]
+}

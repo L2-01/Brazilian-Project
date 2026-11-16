@@ -1,0 +1,42 @@
+{
+  "name": "Caracóis",
+  "icon": "caupona:snail",
+  "category": "caupona:intro",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "caupona:snail_bait",
+      "link_recipe": true,
+      "text": "Você pode deixar em repouso 1x pão, 2x açúcares ou favos de mel, 2x nozes e 500 mB de gelatina de osso (fluido) num $(l:intro/counter_with_dolium)dólio$(/l) para obter ovos de caracol."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "caupona:snail_block",
+      "text": "Caracóis nascem de ovos (exceto os atraídos por iscas) e crescem, consumindo um bloco de folha ou uma fruta a cada estágio."
+    },
+    {
+      "type": "image",
+      "images": [
+        "caupona:textures/gui/entries/snail.png"
+      ],
+      "anchor": "snail",
+      "title": "Caracóis crescendo"
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/snail_roes",
+      "text": "Blocos de caracol nascidos soltam só itens de caracol, enquanto ovos soltam ovas de caracol. As ovas contam como Ovos na culinária."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "caupona:snail",
+      "text": "Caracóis são considerados crustáceos na culinária, apesar de serem caracóis terrestres."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "caupona:plump_snail",
+      "text": "Um caracol fica gordo se consumir qualquer fruta durante o crescimento. Caracóis gordos restauram mais fome e dão mais saciedade."
+    }
+  ]
+}

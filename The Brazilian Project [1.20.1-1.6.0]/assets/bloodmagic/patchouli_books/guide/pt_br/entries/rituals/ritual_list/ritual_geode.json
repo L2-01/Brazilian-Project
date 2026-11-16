@@ -1,0 +1,62 @@
+{
+  "name": "Ritual da Recompensa do Geodo",
+  "icon": "minecraft:amethyst_cluster",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ritual da Recompensa do Geodo",
+      "multiblock_id": "bloodmagic:geode",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner)Adivinhador de Ritual$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "geode"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "raw"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "corrosive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "vengeful"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "destructive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "chest"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "harvest"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "harm"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "geode",
+      "page_type": "acceleration"
+    }
+  ]
+}

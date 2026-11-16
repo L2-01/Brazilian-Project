@@ -1,0 +1,24 @@
+{
+  "name": "Selo de Retenção",
+  "icon": "bloodmagic:sigilofholding",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Este Selo pode guardar até 5 outros $(item)Selos$() por vez, fornecendo seus efeitos passivos e permitindo ativá-los num estalar de dedos.$(br)Pressione [$(k:bloodmagic.keybind.open_holding)] segurando o Selo para abrir seu inventário.$() $(br)Pressione [$(k:bloodmagic.keybind.cycle_holding_pos)] para avançar,$() ou [$(k:bloodmagic.keybind.cycle_holding_neg)] para voltar.$() segurar [$(k:sneak)] e usar a roda do mouse também funciona."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Reagente de Retenção",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_holding",
+      "array.heading": "Selo de Retenção",
+      "array.recipe": "bloodmagic:array/holdingsigil",
+      "array.text": "$(italic)Sigil-ception"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Como você tem a $(thing)Curios API$() instalada, pode equipar este $(item)Selo$() como amuleto. Se quiser usar mais curios de uma vez, considere usar o Upgrade $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Encaixado$() da sua $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$()."
+    }
+  ]
+}

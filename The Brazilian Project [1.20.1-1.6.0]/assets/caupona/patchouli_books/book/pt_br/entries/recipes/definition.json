@@ -1,0 +1,16 @@
+{
+  "name": "Interpretação das Imagens de Receitas",
+  "icon": "minecraft:bowl",
+  "category": "caupona:cook_recipes",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O canto superior esquerdo da imagem indica a base necessária e a exigência de densidade (unidade: itens por tigela de sopa). A parte inferior da imagem, dividida em dois painéis, especifica as exigências de ingredientes. As exigências do painel esquerdo devem ser cumpridas, enquanto as do direito devem ser evitadas."
+    },
+    {
+      "type": "text",
+      "text": "Há vários termos que você pode encontrar nas descrições de exigências. $(l)Maioria$() significa que a quantidade dos ingredientes especificados (geralmente categorias) deve exceder um terço de todos os ingredientes e ser maior que qualquer outra categoria.$(br) $(l)Metade$() significa que os ingredientes especificados devem ser mais da metade de todos os ingredientes.$(br) $(l)Qualquer$() significa que pelo menos um dos ingredientes especificados deve existir."
+    }
+  ]
+}

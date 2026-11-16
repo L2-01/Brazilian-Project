@@ -1,0 +1,18 @@
+{
+  "name": "Foco de Enfraquecimento",
+  "icon": "goety:weakening_focus",
+  "category": "goety:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Este feitiço solta um zumbido ameaçador que enfraquece criaturas não aliadas numa grande área ao redor do conjurador, diminuindo seu dano e suas defesas."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/weakening_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:weakening_focus": 1
+  }
+}

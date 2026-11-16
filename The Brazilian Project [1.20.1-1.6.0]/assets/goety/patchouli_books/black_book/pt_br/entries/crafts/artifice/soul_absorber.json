@@ -1,0 +1,23 @@
+{
+  "name": "Absorvedor de Almas",
+  "icon": "goety:soul_absorber",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/get_arca",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com a $(l:crafts/artifice/arca)Arca$(), você se pergunta o que deveria fazer com seu velho Totem das Almas. Guardá-lo é uma opção, mas você pensou se poderia, de alguma forma, transferir toda a Energia de Almas dentro dele para sua Arca."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Com o Absorvedor de Almas, você consegue sugar as Energias de Almas não só do seu Totem das Almas, mas também de outros itens, como os Totens dos Invocadores e Areia das Almas, para colocar na sua $(l:crafts/artifice/arca)Arca$(). Enquanto o Absorvedor de Almas drena o Totem das Almas lentamente, outros itens simplesmente queimam e desaparecem depois que a Energia de Almas é absorvida."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:soul_absorber"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:soul_absorber": 2
+  }
+}

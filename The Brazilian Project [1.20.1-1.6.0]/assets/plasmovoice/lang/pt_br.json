@@ -1,0 +1,185 @@
+{
+    "key.category.plasmovoice.name": "Plasmo Voice",
+    "key.plasmovoice.settings": "Configurações de Voz",
+
+    "key.plasmovoice.general": "Geral",
+    "key.plasmovoice.general.mute_microphone": "Silenciar Microfone",
+    "key.plasmovoice.general.disable_voice": "Desativar Chat de Voz",
+    "key.plasmovoice.general.action": "Botão de Ação",
+
+    "key.plasmovoice.distance": "Distância de Voz de %s",
+    "key.plasmovoice.distance.increase": "Aumentar Distância de Voz",
+    "key.plasmovoice.distance.decrease": "Diminuir Distância de Voz",
+
+    "key.plasmovoice.occlusion": "Oclusão de Som",
+    "key.plasmovoice.occlusion.toggle": "Alternar Oclusão de Som",
+
+
+    "gui.plasmovoice.title": "Configurações de %1$s %2$s",
+    "gui.plasmovoice.toggle.microphone": "Alternar Microfone\n%s",
+    "gui.plasmovoice.toggle.voice": "Alternar Chat de Voz\n%s",
+    "gui.plasmovoice.toggle.currently": "Atualmente: %s",
+    "gui.plasmovoice.toggle.enabled": "ATIVADO",
+    "gui.plasmovoice.toggle.disabled": "DESATIVADO",
+
+
+    "gui.plasmovoice.devices": "Dispositivos",
+
+    "gui.plasmovoice.devices.microphone": "Microfone",
+    "gui.plasmovoice.devices.activation_threshold": "Limiar de Ativação",
+    "gui.plasmovoice.devices.activation_threshold.tooltip": "Só relevante se o tipo de ativação for “Ativação por voz”.\n\nMova o controle até um ponto onde o volume só o ultrapasse quando você estiver falando.\n\nVocê também pode pressionar o ícone para ativar o teste de microfone e ouvir sua voz",
+    "gui.plasmovoice.devices.not_available": "Indisponível",
+    "gui.plasmovoice.devices.failed_to_initialize_microphone.tooltip": "Falha ao inicializar o microfone\n%s\n\nTente selecionar outro dispositivo ou clique neste botão para visitar nossa wiki para possíveis soluções",
+    "gui.plasmovoice.devices.default": "Padrão do Sistema",
+    "gui.plasmovoice.devices.microphone_volume": "Volume do Microfone",
+    "gui.plasmovoice.devices.noise_suppression": "Supressão de Ruído",
+    "gui.plasmovoice.devices.noise_suppression.tooltip": "Supressão de ruído RNNoise.\n\nUsa redes neurais. Funciona muito bem, mas pode ser pesado para a CPU.\n\nAplica-se ao seu microfone.",
+    "gui.plasmovoice.devices.stereo_capture": "Captura Estéreo",
+    "gui.plasmovoice.devices.stereo_capture.tooltip": "Captura o som em estéreo e depois converte para mono.\nPode melhorar a qualidade do som capturado.",
+    "gui.plasmovoice.devices.disable_input_device": "Desativar Dispositivo de Entrada",
+    "gui.plasmovoice.devices.disable_input_device.tooltip": "Desativa completamente o uso de qualquer microfone no sistema operacional.\n\nÚtil quando você precisa desativar o uso do microfone para modo estéreo em fones Bluetooth.",
+    "gui.plasmovoice.devices.output": "Saída",
+
+    "gui.plasmovoice.devices.output_device": "Dispositivo de Saída",
+    "gui.plasmovoice.devices.volume": "Volume",
+    "gui.plasmovoice.devices.volume.tooltip": "Aumentar o volume para mais de 100% mesmo pode causar distorção.",
+    "gui.plasmovoice.devices.occlusion": "Oclusão de Som",
+    "gui.plasmovoice.devices.occlusion.tooltip": "Lança um raio do jogador até cada fonte sonora e abafa o som se houver blocos no caminho.\n\nÚtil se você não quiser ouvir pessoas de outras salas, mas às vezes não funciona direito, então é melhor manter desativado quando não precisar.",
+    "gui.plasmovoice.devices.directional_sources": "Fontes Direcionais",
+    "gui.plasmovoice.devices.directional_sources.tooltip": "Torna o som levemente mais baixo se a fonte sonora não estiver olhando diretamente para você e estiver fora do ângulo especificado.\n\nAplica-se aos jogadores que você ouve.",
+    "gui.plasmovoice.devices.hrtf": "HRTF",
+    "gui.plasmovoice.devices.hrtf.tooltip": "Melhora a precisão do posicionamento de áudio, facilitando entender de onde o som vem no espaço 3D.\n\nPode piorar levemente a qualidade do áudio.\n\nAplica-se aos jogadores que você ouve.",
+
+    "gui.plasmovoice.activation": "Ativação",
+
+    "gui.plasmovoice.activation.type": "Tipo de Ativação",
+    "gui.plasmovoice.activation.type_ptt": "Push-To-Talk",
+    "gui.plasmovoice.activation.type_voice": "Voz",
+    "gui.plasmovoice.activation.type_inherit": "Herdar",
+    "gui.plasmovoice.activation.ptt_button": "Botão Push-To-Talk",
+    "gui.plasmovoice.activation.toggle_button": "Botão de Alternar",
+    "gui.plasmovoice.activation.toggle": "Alternar \"%s\"\n%s",
+    "gui.plasmovoice.activation.distance": "Distância de %s",
+    "gui.plasmovoice.activation.conflict": "\"%s\" pode ser bloqueado pela ativação não transitiva de prioridade maior \"%s\"\n\nEsta ativação ainda pode ser usada se a ativação de prioridade maior for desativada\n\n- Se todas usarem PTT com a mesma tecla: mude uma para uma tecla diferente\n- Se todas usarem Voz/Herdar: mude uma para um tipo de ativação diferente",
+
+
+    "gui.plasmovoice.advanced": "Avançado",
+
+    "gui.plasmovoice.advanced.visual": "Visual e IU",
+    "gui.plasmovoice.advanced.visualize_voice_distance": "Visualizar Distância de Voz",
+    "gui.plasmovoice.advanced.visualize_voice_distance_on_join": "Visualizar ao Entrar",
+
+    "gui.plasmovoice.advanced.audio_engine": "Motor de Áudio",
+    "gui.plasmovoice.advanced.directional_sources_angle": "Ângulo das Fontes Direcionais",
+    "gui.plasmovoice.advanced.directional_sources_angle.tooltip": "Um ângulo no qual você ouvirá a fonte a 100% imediatamente se a opção de fontes direcionais estiver ativada.\n\n360 é como se a opção estivesse desativada.",
+    "gui.plasmovoice.advanced.stereo_sources_to_mono": "Fontes Estéreo Mono",
+    "gui.plasmovoice.advanced.stereo_sources_to_mono.tooltip": "Addons usam fontes estéreo para melhor qualidade de áudio. A qualidade é muito melhor, mas a direção não afeta o panning. O som só diminui com a distância.\n\nQuando esta opção está ativada, fontes estéreo são convertidas para as fontes mono usuais. A qualidade é pior, mas elas terão panning.",
+    "gui.plasmovoice.advanced.panning": "Posicionamento Estéreo",
+    "gui.plasmovoice.advanced.source_types_overlap": "Sobreposição de Tipos de Fonte",
+    "gui.plasmovoice.advanced.source_types_overlap.tooltip": "Resolve sobreposições quando um jogador tem fontes de proximidade e diretas ativas\n\n- Silenciar Direta: silencia fontes diretas quando a proximidade está ativa\n- Silenciar Proximidade: silencia fontes de proximidade quando a direta está ativa\n- Desligado: sem resolução de sobreposição",
+    "gui.plasmovoice.advanced.source_types_overlap.mute_direct": "Silenciar Direta",
+    "gui.plasmovoice.advanced.source_types_overlap.mute_proximity": "Silenciar Proximidade",
+    "gui.plasmovoice.advanced.source_types_overlap.off": "Desligado",
+    "gui.plasmovoice.advanced.adaptive_jitter_buffer": "Buffer de Jitter Adaptativo",
+    "gui.plasmovoice.advanced.adaptive_jitter_buffer.tooltip": "Buffer de jitter de rede baseado em tempo com atraso adaptativo conforme a qualidade da conexão.\n\nTente ativar esta opção se você ouvir artefatos de áudio causados por conexão ruim.",
+
+    "gui.plasmovoice.advanced.exponential_volume": "Volume Exponencial",
+    "gui.plasmovoice.advanced.exponential_volume.volume_slider": "Controle de Volume",
+    "gui.plasmovoice.advanced.exponential_volume.distance_gain": "Ganho de Distância",
+
+
+    "gui.plasmovoice.hotkeys": "Teclas de Atalho",
+
+
+    "gui.plasmovoice.volume": "Volume",
+
+    "gui.plasmovoice.volume.sources": "Volume das Fontes",
+    "gui.plasmovoice.volume.players": "Volume dos Jogadores",
+    "gui.plasmovoice.volume.players_search": "Buscar...",
+
+
+    "gui.plasmovoice.about.made_by": "%s é feito por",
+    "gui.plasmovoice.about.huix": "Conceito e Design",
+    "gui.plasmovoice.about.programming": "Programação",
+    "gui.plasmovoice.about.artist": "Artista",
+
+    "gui.plasmovoice.about.support": "Obrigado pelo Apoio",
+
+    "gui.plasmovoice.about.links": "%s no",
+    "gui.plasmovoice.about.copyright": "Use apenas fontes oficiais e não redistribua o mod sem nossa permissão. Você pode nos contatar no Discord para dúvidas, ajuda, sugestões ou propostas.",
+
+
+    "gui.plasmovoice.overlay": "Sobreposição",
+
+    "gui.plasmovoice.overlay.activation_icon": "Ícone do HUD",
+    "gui.plasmovoice.overlay.activation_icon_show": "Mostrar Ícone do HUD",
+    "gui.plasmovoice.overlay.activation_icon_position": "Posição do Ícone do HUD",
+    "gui.plasmovoice.overlay.activation_icon_position.choose": "Escolher Posição do Ícone",
+    "gui.plasmovoice.overlay.hud_position.top_left": "Topo Esquerdo",
+    "gui.plasmovoice.overlay.hud_position.top_center": "Topo Central",
+    "gui.plasmovoice.overlay.hud_position.top_right": "Topo Direito",
+    "gui.plasmovoice.overlay.hud_position.bottom_left": "Baixo Esquerdo",
+    "gui.plasmovoice.overlay.hud_position.bottom_center": "Baixo Central",
+    "gui.plasmovoice.overlay.hud_position.bottom_right": "Baixo Direito",
+
+    "gui.plasmovoice.overlay.source_icons": "Ícones de Entidade",
+    "gui.plasmovoice.overlay.show_source_icons": "Mostrar Ícones de Entidade",
+    "gui.plasmovoice.overlay.show_source_icons.hud": "Somente GUI",
+    "gui.plasmovoice.overlay.show_source_icons.always": "Sempre",
+    "gui.plasmovoice.overlay.show_source_icons.hidden": "Ocultos",
+    "gui.plasmovoice.overlay.show_static_source_icons": "Mostrar em Fontes Estáticas",
+
+    "gui.plasmovoice.overlay.enable": "Ativar Sobreposição",
+    "gui.plasmovoice.overlay.position": "Posição da Sobreposição",
+    "gui.plasmovoice.overlay.position.choose": "Escolher Posição da Sobreposição",
+    "gui.plasmovoice.overlay.style": "Estilo da Sobreposição",
+    "gui.plasmovoice.overlay.style.name_skin": "Nome e Skin",
+    "gui.plasmovoice.overlay.style.skin": "Somente Skin",
+    "gui.plasmovoice.overlay.style.name": "Somente Nome",
+
+    "gui.plasmovoice.overlay.sources": "Fontes da Sobreposição",
+    "gui.plasmovoice.overlay.sources.when_talking": "Ao Falar",
+    "gui.plasmovoice.overlay.sources.always": "Sempre",
+    "gui.plasmovoice.overlay.sources.never": "Nunca",
+
+
+    "gui.plasmovoice.addons": "Addons",
+
+
+    "gui.plasmovoice.not_available": "O Plasmo Voice não está instalado neste servidor",
+    "gui.plasmovoice.connecting": "Conectando ao servidor UDP...",
+    "gui.plasmovoice.cannot_connect_to_udp": "Não foi possível conectar ao servidor UDP,\nprovavelmente a porta UDP está fechada. Leia a wiki:\n%s",
+
+
+    "pv.activation.parent": "Pai",
+
+
+    "message.plasmovoice.close": "Fechar",
+    "message.plasmovoice.on": "Ligado",
+    "message.plasmovoice.off": "Desligado",
+
+    "message.plasmovoice.occlusion_changed": "Oclusão de Som: %s",
+    "message.plasmovoice.distance_changed": "Distância de Voz de %s: %d",
+
+    "message.plasmovoice.activation.toggle": "%s: %s",
+
+    "message.plasmovoice.macos_incompatible_launcher": "Você não pode usar o microfone porque seu Minecraft Launcher não suporta permissões de microfone no MacOS. Você deve trocar para %s.",
+
+    "message.plasmovoice.update_available": "Nova versão %1$s do Plasmo Voice disponível: %2$s",
+    "message.plasmovoice.update_available.click": "Baixar",
+    "message.plasmovoice.update_available.hover": "%s",
+
+    "modmenu.descriptionTranslation.plasmovoice": "Um mod de chat de voz por proximidade com posicionamento de áudio e muitos recursos.",
+    "modmenu.summaryTranslation.plasmovoice": "Um mod de chat de voz por proximidade com posicionamento de áudio e muitos recursos.",
+
+    "clothconfig.plasmovoice.devices": "Dispositivos",
+    "clothconfig.plasmovoice.devices.use_javax_input": "Dispositivo de Entrada Javax",
+    "clothconfig.plasmovoice.devices.use_javax_input.tooltip": "Às vezes o dispositivo de entrada OpenAL não funciona direito em alguns sistemas, então você pode tentar usar a implementação Javax.",
+
+    "clothconfig.plasmovoice.advanced": "Avançado",
+    "clothconfig.plasmovoice.advanced.check_for_updates": "Verificar Atualizações",
+    "clothconfig.plasmovoice.advanced.debug_logger": "Registrador de Depuração",
+    "clothconfig.plasmovoice.advanced.camera_sound_listener": "Ouvinte de Som da Câmera",
+    "clothconfig.plasmovoice.advanced.camera_sound_listener.tooltip": "Define o ouvinte de som para a entidade da câmera.\nO ouvinte de som determina a posição no mundo de onde você ouve o áudio. Por exemplo, se você estiver usando freecam e esta opção estiver desativada, você ouvirá o áudio como se não estivesse em freecam.\n\nEm alguns servidores, isso pode ser desativado pela permissão pv.allow_freecam.",
+    "clothconfig.plasmovoice.advanced.jitter_buffer_packet_delay": "Atraso do Buffer de Jitter"
+}

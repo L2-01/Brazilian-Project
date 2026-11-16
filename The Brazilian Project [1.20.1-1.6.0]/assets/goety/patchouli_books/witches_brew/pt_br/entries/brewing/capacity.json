@@ -1,0 +1,20 @@
+{
+  "name": "Capacidade",
+  "icon": "minecraft:nether_wart",
+  "category": "goety:brewing",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Uma Poção da Bruxa pode conter mais efeitos e aprimoramentos do que as velhas poções comuns, mas precisa de capacidade suficiente para comportá-los! Coloque mais ingredientes do que a capacidade da poção e você vai acabar com uma baita bagunça fervente! Normalmente, uma poção simples comporta um único ingrediente! Mas existem jeitos de aumentar a capacidade da poção!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Vou deixar bem claro! Esses ingredientes devem ser colocados em ordem para aumentar a capacidade da poção, então nada de querer cortar caminho jogando só o último ingrediente! E lembre-se: a primeira coisa que você precisa jogar no Caldeirão é uma $(item)Flor de Meimendro$() para começar o preparo!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Ordem de Capacidade$()$(br)$(li)$(item)Flor de Meimendro$() - +1 $(li)$(item)Fungo do Nether$() - +2 $(li)$(item)Fungo Mordedor$() - +2 $(li)$(item)Esmeralda Desperta$() - +2 $(li)$(item)Esmeralda Concentrada$() - +2 $(li)$(item)Manuscrito Definhado$() - +4 $(li)$(item)Rubi de Almas$() - +6"
+    }
+  ]
+}

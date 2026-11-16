@@ -1,0 +1,47 @@
+{
+  "name": "guide.animus.entry.sanguine_scrolls",
+  "category": "animus:compatibility",
+  "icon": "animus:sanguine_scroll_imbued",
+  "flag": "mod:irons_spellbooks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Pergaminhos Sanguíneos são pergaminhos de feitiço reutilizáveis que consomem Essência Vital em vez de serem destruídos. Diferente de pergaminhos comuns, esses pergaminhos infusos de sangue podem conjurar feitiços dezenas ou centenas de vezes, limitados apenas pela durabilidade."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sanguine_scroll_imbued",
+      "text": "$(blood)Pergaminho de Feitiço Reutilizável$()$(br2)Pergaminhos Sanguíneos armazenam um único feitiço e podem ser usados repetidamente. Cada conjuração consome LP da sua Soul Network e danifica levemente o pergaminho. A durabilidade do pergaminho determina quantas vezes ele pode ser usado."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Criando Pergaminhos",
+      "text": "Para criar um Pergaminho Sanguíneo:$(br2)1. Obtenha um $(item)Pergaminho do Iron's Spells$() contendo o feitiço desejado$(br)2. Coloque uma $(blood)Ardósia do Blood Magic$() na mão secundária$(br)3. Clique com o botão direito num $(blood)Altar de Sangue$() com o pergaminho$(br)4. O altar consumirá LP e ambos os itens$(br)5. Receba um Pergaminho Sanguíneo com o feitiço vinculado$(br2)$(italic)O nível da ardósia determina a durabilidade do pergaminho.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Níveis de Ardósia",
+      "text": "Tipos diferentes de ardósia produzem pergaminhos com durabilidades variadas:$(br2)$(li)$(blood)Ardósia Vazia:$() 50 usos$(li)$(blood)Ardósia Reforçada:$() 100 usos$(li)$(blood)Ardósia Imbuída:$() 200 usos$(li)$(blood)Ardósia Demoníaca:$() 400 usos$(li)$(blood)Ardósia Etérea:$() 600 usos$(br2)Pergaminhos de nível maior podem conjurar mais feitiços antes de quebrar. Escolha conforme a frequência de uso do feitiço."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos de LP",
+      "text": "Pergaminhos Sanguíneos consomem mais LP que a conjuração normal de feitiços:$(br2)$(bold)Custo Base:$() Custo de mana × taxa de LP × 1,5$(br)$(italic)(Padrão: 150 LP por ponto de mana)$()$(br2)$(bold)Custo de Criação:$() Com base na raridade e nível do feitiço$(li)Comum: 5.000 LP × nível$(li)Incomum: 10.000 LP × nível$(li)Raro: 25.000 LP × nível$(li)Épico: 50.000 LP × nível$(li)Lendário: 100.000 LP × nível"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Usos Estratégicos",
+      "text": "Pergaminhos Sanguíneos se destacam para:$(br2)$(li)$(blood)Feitiços de emergência$() — Acesso rápido sem livros$(li)$(blood)Feitiços poderosos$() — Conjure feitiços lendários a qualquer hora$(li)$(blood)Builds com LP de sobra$() — Converta LP excedente em magia$(li)$(blood)Conjuração reserva$() — Quando sem mana$(br2)O prêmio de 50%% de LP vale a pena pela conveniência e confiabilidade. Guarde vários pergaminhos para situações diferentes."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dicas e Truques",
+      "text": "$(bold)Gerenciamento de Durabilidade:$()$(li)Confira usos restantes na tooltip$(li)Ardósias de nível maior para feitiços frequentes$(li)Mantenha reservas de feitiços importantes$(br2)$(bold)Sinergias:$()$(li)Combine com o $(l:animus:compatibility/sigil_crimson_will)Sigilo da Vontade Carmesim$() para dano massivo$(li)Use o $(l:animus:compatibility/blood_infused_spellbook)Livro de Feitiços Infuso de Sangue$() para reduzir custos de LP$(br2)$(italic)Pergaminhos Sanguíneos funcionam de qualquer slot do inventário.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Requisitos",
+      "text": "Para usar Pergaminhos Sanguíneos:$(li)$(blood)O Iron's Spellbooks deve estar instalado$()$(li)$(l:bloodmagic:altar/binding)Soul Network$() ativa$(li)Altar de Sangue para criação$(li)Ardósias do Blood Magic$(li)Pergaminhos do Iron's Spells para converter$(br2)Pergaminhos Sanguíneos respeitam recargas de feitiços e não podem contornar restrições de conjuração."
+    }
+  ]
+}

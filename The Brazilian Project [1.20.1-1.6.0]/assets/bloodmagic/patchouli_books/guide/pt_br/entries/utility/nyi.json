@@ -1,0 +1,40 @@
+{
+  "name": "AINDA NÃO IMPLEMENTADO",
+  "icon": "minecraft:barrier",
+  "category": "bloodmagic:utility",
+  "extra_recipe_mappings": {
+    "bloodmagic:lightritualstone": 0,
+    "bloodmagic:etherealslate": 0,
+    "bloodmagic:nether_soil": 0,
+    "bloodmagic:growing_doubt": 0,
+    "bloodmagic:doubt_bucket": 0,
+    "bloodmagic:activationcrystalawakened": 0,
+    "bloodmagic:will_power_anointment": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "OK. Quebrando a quarta parede aqui. O $(blood)Blood Magic$() não está totalmente completo em recursos, e algumas coisas que você talvez lembre de versões anteriores Ainda Não Foram Implementadas. Algumas delas podem voltar no futuro, outras já eram. (Estou olhando para você, Armadura e Armas Vinculadas...)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Rituais de Cinza Arcana. Alguns destes voltam em breve(tm), por enquanto aguarde. $(li)Ritual de Vínculo. Esse saiu com o 1.7.10, parem de pedir. $(li)Rituais Imperfeitos (Lápis etc.) - alguns foram implementados como Arranjos de Cinza Arcana. $(li)Selo de Elasticidade. $(li)Selo de Afinidade Elemental. $(li)Selo da Garra. $(li)Ritual de Interdição. $(li)Ritual de Contenção. $(li)Le Vulcano Frigius."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Ritual de Supressão. $(li)Desmontador de Ritual. $(li)Adivinhador de Ritual (Amanhecer). $(li)Gema Tartárica Grande. $(li)Armas e Ferramentas Espectrais. $(li)Selo de Transposição. $(li)Selo de Ruptura do Ender. $(li)Selo de Compressão. $(li)Selo da Ponte Fantasma. $(li)Assembleia do Altar Maior. $(li)Chamado da Alma Eterna. $(li)Hino da Sifonagem."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)O Portal da Dobra. $(li)Ritual da Terra Emplumada. $(li)Ritual de Expulsão. $(li)Cristal de Ativação Desperto."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Outras coisas podem aparecer ou desaparecer conforme o mod avança. $(br2)Para mais informações, confira o seguinte: $(li)$(l:https://github.com/WayofTime/BloodMagic)Blood Magic no Github$(), $(li)a $(l:https://www.curseforge.com/minecraft/mc-mods/blood-magic)Página do Blood Magic no Curseforge$(), $(li)e o $(l:https://discord.gg/VtNrGrs)Discord do Blood Magic$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Este manual foi montado por Wrincewind e VT-14, sobre o manual original de Way, com ajuda do Patchouli e do MinecraftGuides.net. Obrigado por jogar! :)"
+    }
+  ]
+}

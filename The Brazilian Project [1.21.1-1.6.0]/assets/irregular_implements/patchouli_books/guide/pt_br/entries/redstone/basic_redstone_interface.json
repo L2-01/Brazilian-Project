@@ -1,0 +1,11 @@
+{
+    "category": "irregular_implements:redstone",
+    "icon": "irregular_implements:basic_redstone_interface",
+    "name": "Interface de Redstone Básica",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Interface de Redstone Básica$() transmitirá a força do sinal de redstone que recebeu para o bloco ao qual está vinculada.$(br2)Use uma $(l:irregular_implements:items/redstone_tool)Ferramenta de Redstone$(/l) para vinculá-la a um bloco."
+        }
+    ]
+}

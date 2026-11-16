@@ -1,0 +1,5 @@
+Dispositivos de Limite e Controle
+Vazão é superestimada
+O §lLimitador de Pilha§r, o §lControlador de Carga§r e a §lVálvula de Fluido§r limitam itens, energia e fluidos que passam por eles.
+
+A GUI define um limite de total acumulado ao longo do tempo, um limite de quanto o destino pode conter antes de parar de ser alimentado e um limite por transferência individual; esses limites podem ser combinados. Também pode ser reduzida por intensidade do sinal de redstone: um modo reduz a vazão conforme o sinal aumenta (sinal 15 = desligado), o outro aumenta a vazão conforme o sinal aumenta. O modo ativo é definido na GUI. Ative o Modo Redstone agachando com um Martelo.

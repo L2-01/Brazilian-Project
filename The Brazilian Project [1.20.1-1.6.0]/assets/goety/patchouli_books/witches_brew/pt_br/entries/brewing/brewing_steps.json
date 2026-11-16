@@ -1,0 +1,46 @@
+{
+  "name": "Etapas do Preparo",
+  "icon": "goety:henbane_flower",
+  "category": "goety:brewing",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Para realmente começar a preparar, você deve jogar uma $(item)Flor de Meimendro$() no caldeirão fervente! Então, quando ele começar a soltar faíscas roxas, poderemos finalmente começar, nhêhahahaha!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:wicked_boline",
+      "anchor": "boline",
+      "text": "Como se consegue uma Flor de Meimendro, você pergunta? Cultivando, é assim! Agora seja um bom aprendiz de bruxa: fabrique, ou roube, uma Boline Maléfica e comece a colher grama ou samambaia atrás das sementes, junto de outras plantas maravilhosas!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O processo de preparo é o seguinte,$(br2)$()$(l)Capacidade -> Catalisador -> Aprimoramento -> Conclusão!$()$(br2)Lembre-se dessas etapas, pirralho! Troque a ordem delas e sua poção estará arruinada! Agora você deve estar se perguntando: Vovó, o que essas palavras significam? Bom, feche o bico que eu te conto!"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "goety:brewing/capacity",
+        "goety:brewing/catalysts",
+        "goety:brewing/augmentation"
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando a Capacidade, o Catalisador e o Aprimoramento tiverem sido adicionados, e sua poção não estiver soltando fumaça preta aos borbotões, ela estará pronta para o processo de Conclusão! Você deve clicar com o botão direito no Caldeirão com a Concha de Caldeirão para começar, então nem pense em engarrafar a poção ainda!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Antes de começar, certifique-se de que seus Castiçais de Almas consigam transferir a quantidade de energia necessária, que você confere olhando para o Caldeirão enquanto agachado! O Caldeirão emitirá Partículas de Efeito quando o processo for concluído, e é aí que você pode começar a engarrafar sua poção!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Não se esqueça de vestir seu traje de Bruxa adequado na hora de engarrafar! Todo mundo sabe que um Chapéu de Bruxa e Mantos dão uma chance de poções extras! Ah, e aqui vai um segredinho da velha Vovó! Maçãs podem ser bem... receptivas a absorver poções. Lembra da Branca de Neve? Hehehehahaha!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "E não se esqueça de que seu caldeirão precisa estar cheio da poção para usar seu $(bold)Kit de Taglock$(), ou um $(bold)Obelisco$() nele! Se não sabe o que essas coisas são, paciência! A velha Vovó está falando de preparo de poções! Arranje outra Vovó para te mostrar os outros caminhos das velhas artes! Hahahahaha!"
+    }
+  ]
+}

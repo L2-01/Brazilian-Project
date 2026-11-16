@@ -1,0 +1,11 @@
+{
+    "category": "irregular_implements:redstone",
+    "icon": "irregular_implements:advanced_redstone_interface",
+    "name": "Interface de Redstone Avançada",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Interface de Redstone Avançada$() transmitirá a força do sinal de redstone que recebeu para até 9 blocos vinculados.$(br2)Insira $(l:irregular_implements:filter/location_filter)Filtros de Localização$(/l) para vinculá-la a esses blocos."
+        }
+    ]
+}

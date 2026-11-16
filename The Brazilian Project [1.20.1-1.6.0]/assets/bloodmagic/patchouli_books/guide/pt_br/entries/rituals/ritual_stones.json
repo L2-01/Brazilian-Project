@@ -1,0 +1,23 @@
+{
+  "name": "Pedras de Ritual",
+  "icon": "bloodmagic:waterritualstone",
+  "category": "bloodmagic:rituals",
+  "extra_recipe_mappings": {
+    "bloodmagic:airritualstone": 0,
+    "bloodmagic:fireritualstone": 0,
+    "bloodmagic:waterritualstone": 0,
+    "bloodmagic:earthritualstone": 0,
+    "bloodmagic:duskritualstone": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Pedras de Ritual$() são a tela sobre a qual você desenhará seus $(item)Rituais$(). Elas também têm um visual bem legal, e podem ser pintadas manualmente com as várias $(l:bloodmagic:rituals/ritual_diviner)Ferramentas de Inscrição Elemental$(). $(br2)Note que as Ferramentas de Inscrição tinham durabilidade, mas agora duram para sempre! Alegre-se, você pode decorar sua base com $(fire)Pedras de Ritual de Fogo$() à vontade."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ritual_stone_blank",
+      "recipe2": "bloodmagic:ritual_stone_master"
+    }
+  ]
+}

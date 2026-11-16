@@ -1,0 +1,44 @@
+{
+  "name": "Infusão Amaldiçoada",
+  "icon": "goety:cursed_infuser",
+  "category": "goety:intro",
+  "sortnum": 4,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Criar itens usando o seu Totem já ajuda bastante, mas alguns itens podem exigir muitos recursos, então você se perguntou se haveria um jeito de obtê-los mais barato. Ao longo de sua pesquisa, você descobriu que Lápis-Lazúlis podem ser usados para criar uma espécie de sifão. Uma forma de atrair certa energia mágica para si."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Com alguns experimentos e pesquisas, você teve a ideia de um dispositivo, chamado 'Infusor Amaldiçoado'. Esse dispositivo suga as energias mágicas vindas de baixo e infunde qualquer item colocado sobre ele. Embora existam certos objetos que guardam alguma energia mágica, há um que parece ter uma quantidade infinita dela: os Geradores de Criaturas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:cursed_infuser",
+      "text": "Ao colocar o Infusor Amaldiçoado em cima de um Gerador de Criaturas, ele começará a sugar a energia do Gerador e a infundir certos itens com ela. Você não faz ideia do que alimenta essas máquinas monstruosas, mas talvez o infusor forneça algumas pistas."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "C"
+          ],
+          [
+            "S"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "C": "goety:cursed_infuser",
+          "S": "minecraft:spawner"
+        },
+        "symmetrical": true
+      },
+      "enable_visualize": false
+    }
+  ]
+}

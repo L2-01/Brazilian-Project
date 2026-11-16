@@ -1,0 +1,17 @@
+{
+  "name": "Armadilha de Chama de Gelo",
+  "icon": "goety:ice_bouquet_trap",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/kill_a_wraith",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com o ectoplasma deixado por aquelas Aparições, você consegue aproveitar as místicas não-chamas delas em uma máquina que queima qualquer criatura viva sobre ela. As não-chamas parecem drenar Energia de Almas ao queimar a criatura acima; a Esmeralda Desperta permite que a energia seja transferida para quem colocou o bloco."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:ice_bouquet_trap",
+      "text": "A máquina se ativa com um sinal de redstone. O fogo não machuca quem a colocou."
+    }
+  ]
+}

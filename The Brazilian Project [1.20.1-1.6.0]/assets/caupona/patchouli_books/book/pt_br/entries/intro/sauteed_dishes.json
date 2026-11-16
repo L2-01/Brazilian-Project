@@ -1,0 +1,20 @@
+{
+  "name": "Comidas Salteadas",
+  "icon": "caupona:sauteed_seafood",
+  "category": "caupona:intro",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Pratos salteados são outra classe de culinária customizada fornecida pela Caupona. São cozidos nas $(l:intro/frying_pans)frigideiras$(/l) e chapas de pedra."
+    },
+    {
+      "type": "text",
+      "text": "Como nas $(l:intro/soup)sopas e ensopados$(/l), ingredientes crus e suas versões cozidas não são distinguidos nos salteados."
+    },
+    {
+      "type": "text",
+      "text": "Use shift + clique direito para colocar pratos salteados no mundo."
+    }
+  ]
+}

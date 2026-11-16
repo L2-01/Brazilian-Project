@@ -1,0 +1,31 @@
+{
+  "name": "Filtro de Itens Padrão",
+  "icon": "bloodmagic:itemrouterfilterexact",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Filtro de Itens Padrão permite selecionar até 9 itens para retirar de, ou inserir no, inventário adjacente quando inserido num $(l:bloodmagic:demon_will/item_routing/routing_nodes)Nó de Roteamento$(). $(br2)Cada item tem uma quantidade — deixar em branco assume 'tudo'. $(br2)O Filtro também tem uma função Permitir e Negar. No modo Negar, quantidades são ignoradas. "
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Filtro de Itens Padrão",
+      "recipe": "bloodmagic:alchemytable/router_filter",
+      "text": "$(br)Quando usado num $(item)Nó de Roteamento de Entrada$(), a quantidade diz ao nó quantos daquele item deixar no inventário selecionado. Qualquer coisa acima dessa quantia será importada para a rede."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando usado num $(item)Nó de Roteamento de Saída$(), a quantidade diz ao nó com quantos daquele item encher o inventário selecionado. Qualquer coisa acima dessa quantia ficará na rede — ou passada para outro inventário válido, ou deixada onde está."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/standard_item_filter_gui.png",
+        "bloodmagic:images/entries/routing/standard_item_filter_mouseover.png"
+      ],
+      "title": "GUI do Filtro de Itens Padrão",
+      "border": true,
+      "text": "A GUI e o texto de mouseover de um filtro configurado."
+    }
+  ]
+}

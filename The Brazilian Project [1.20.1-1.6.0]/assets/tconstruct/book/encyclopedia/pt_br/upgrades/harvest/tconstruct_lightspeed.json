@@ -1,0 +1,15 @@
+{
+  "modifier_id": "tconstruct:lightspeed",
+  "text": [
+    {
+      "text": "Concede +1 de velocidade de mineração por nível em luz 5, +3 em luz 10 e +9 em luz 15."
+    }
+  ],
+  "more_text_space": true,
+  "tool_filter": "tconstruct:modifiable/harvest",
+  "effects": [
+    "Pode aplicar níveis incrementalmente",
+    "Máximo de 5 níveis",
+    "Exige 1 espaço de aprimoramento por nível"
+  ]
+}

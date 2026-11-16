@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Vapor",
+  "icon": "goety:steaming_focus",
+  "category": "goety:focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O feitiço permite disparar uma torrente de mísseis ferventes na direção para a qual você está olhando, danificando e empurrando criaturas atingidas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/steaming_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() permite ao conjurador disparar mais torrentes de mísseis."
+    }
+  ]
+}

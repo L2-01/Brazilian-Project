@@ -1,0 +1,22 @@
+{
+  "name": "guide.animus.entry.ritual_nolite_ignem",
+  "icon": "bloodmagic:masterritualstone",
+  "category": "animus:rituals",
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "\"Nolite Ignem\" — Não Queime. Este ritual extingue continuamente todos os fogos dentro do seu alcance, protegendo suas construções de destruição acidental (ou intencional) por chamas."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos",
+      "text": "$(bold)Ativação:$() 5.000 LP$(br)$(bold)Custo de LP:$() 10 LP por fogo extinto$(br)$(bold)Alcance:$() 64 blocos (configurável)$(br)$(bold)Intervalo:$() A cada segundo"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cobertura",
+      "text": "$(bold)Tipos de Fogo:$() Extingue fogo normal e fogo de alma.$(br2)$(bold)Alcance Esférico:$() O ritual verifica todos os blocos numa esfera, não num cubo.$(br2)$(bold)Pagamento Parcial:$() Se o LP acabar, o ritual extingue quantos fogos conseguir pagar.$(br2)$(italic)As chamas curvam-se ao comando do sangue.$()"
+    }
+  ]
+}

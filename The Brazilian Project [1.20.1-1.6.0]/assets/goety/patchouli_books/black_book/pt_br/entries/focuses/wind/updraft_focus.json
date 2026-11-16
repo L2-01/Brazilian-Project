@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Corrente Ascendente",
+  "icon": "goety:updraft_focus",
+  "category": "goety:focuses/wind",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Foco permite invocar uma poderosa corrente de ar num local ou aos pés de criaturas que, após um segundo, as arremessará para o ar, danificando-as."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/updraft_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/wind_staff)Cetro dos Ventos$() aumenta a área de efeito."
+    }
+  ]
+}

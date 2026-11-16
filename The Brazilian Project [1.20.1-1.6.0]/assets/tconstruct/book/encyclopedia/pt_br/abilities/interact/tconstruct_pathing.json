@@ -1,0 +1,18 @@
+{
+  "modifier_id": "tconstruct:pathing",
+  "text": [
+    {
+      "text": "Permite que a ferramenta crie trilhas, como picaretas-enxada ou escavadeiras. Usa a área normal de mineração para trilhas."
+    },
+    {
+      "text": "Ativa antes do descascar ou arar nativo da ferramenta, se houver.",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "tool_filter": "tconstruct:modifiable/interactable",
+  "effects": [
+    "Máximo de 1 nível",
+    "Exige 1 espaço de habilidade"
+  ]
+}

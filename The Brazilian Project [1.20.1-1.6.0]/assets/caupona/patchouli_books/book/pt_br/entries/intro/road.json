@@ -1,0 +1,25 @@
+{
+  "name": "Estradas",
+  "icon": "caupona:stone_road",
+  "category": "caupona:intro",
+  "sortnum": 29,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Obras de estrada são projetos importantes. Construindo estradas fornecidas pela Caupona, o custo de tempo para viajar entre lugares pode ser significativamente reduzido."
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/stone_road"
+    },
+    {
+      "type": "text",
+      "text": "Estradas de três materiais são fornecidas: tijolos de pedra, tijolos de tufo félsico e arenito. Não há diferenças práticas além dos materiais.$(br)Estradas aumentam muito a velocidade de corrida, mas não reduzem a fome causada pelo movimento, então recomenda-se preparar comida suficiente se você viajar longas distâncias nelas.$(br)Estradas não aceleram a caminhada."
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/stone_road_side",
+      "text": "Estradas com meio-fio são comumente postas nas bordas das estradas. Os meio-fios impedem você de cair acidentalmente da estrada."
+    }
+  ]
+}

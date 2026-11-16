@@ -1,0 +1,36 @@
+{
+  "name": "Decreto Sinistro",
+  "icon": "goety:ominous_decree",
+  "category": "goety:crafts/artifice",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Lidar com uma grande quantidade de Servos pode ser complicado, então você criou um Santuário de Parede especial que ordena a seus Servos que protejam uma área específica quando se aproximam dela."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:ominous_decree"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Há várias maneiras de registrar o local e o tipo de servo que será afetado. Uma é simplesmente agachar e clicar com o botão direito no bloco para onde você quer que seus servos vão, com o próprio decreto, e 'bater' no seu servo para registrar seu tipo. A segunda é colocar o decreto em uma parede e clicar nele com o botão direito usando um Obelisco gravado para o local, ou um Kit de Taglock preenchido para registrar o único tipo que ele afeta (o tipo deve ser de um servo). Ele não afeta servos que estão $(l:goety:crafts/grimoire_of_grounding)aterrados$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clicar com o botão direito em um decreto colocado sem agachar, ou clicar no ar com ele na mão principal, fará com que ele entre em um de três modos, alternando entre eles. O primeiro modo afeta servos de todas as idades, o segundo só afeta servos bebês, o terceiro só servos adultos, e então volta ao primeiro. Ao clicar nele com o botão direito usando uma Varinha/Cajado, porém, o alcance da influência do decreto pode ser ajustado, aumentando até 8 blocos, ou diminuindo até 1 se agachado ao clicar, em todas as direções. Agachar e clicar sem uma varinha/cajado, kit de taglock ou obelisco mostrará o local vinculado e o alcance de influência do decreto."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:ominous_pyre",
+      "text": "O decreto pode registrar a localização de uma Pira Sinistra, o que pode levar a interações especiais com $(l:goety:mutations/illager_servants)Neollagers$(). Se a Pira estiver acesa, os Neollagers ordenados a ela treinarão se possível. Ele também distingue o tipo de Neollager que ordena treinar: se a Pira estiver treinando para uma função não mágica, ele não ordenará os Neollagers com aptidão mágica a treinar nela, e não ordenará os sem magia se a pira treinar uma função mágica."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:raiding_chest",
+      "text": "O decreto também tem outras interações especiais com servos invasores, mas somente se esses servos não estiverem seguindo um $(l:goety:mutations/illager_servants#captain)capitão$(). O decreto pode registrar $(l:goety:mutations/illager_servants#chest)baús$() e $(l:goety:crafts/artifice/ominous_idol)ídolos$() para Illagers e outros Invasores se vincularem, mas apenas se ainda não estiverem vinculados a nenhum. Ao se vincular, o invasor não será comandado nem ordenado a proteger o local vinculado."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:ominous_decree": 1
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Conversor de Sculk",
+  "icon": "goety:sculk_converter",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/get_sculk_catalyst",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Catalisador de Sculk converte os mortos em Sculk, mas parece devorar as Energias de Almas da criatura para convertê-los. Com o uso do Absorvedor de Almas, você consegue fazer o Catalisador absorver Energia de Almas da $(l:intro/cursed_cage)Jaula Amaldiçoada$() e espalhar Sculk ao redor dela."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:sculk_converter",
+      "text": "O Conversor de Sculk requer um Sinal de Redstone para absorver Energia de Almas e espalhar Sculk."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "C"
+          ],
+          [
+            "S"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "C": "goety:cursed_cage",
+          "S": "goety:sculk_converter"
+        },
+        "symmetrical": true
+      },
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Conversor de Sculk também pode ser encantado com Potência, o que o fará absorver mais Energia de Almas e espalhar mais Sculk. Parece que sua mexerica com este objeto estranho faz com que ele pare de espalhar Sculk quando uma criatura próxima morre."
+    }
+  ]
+}

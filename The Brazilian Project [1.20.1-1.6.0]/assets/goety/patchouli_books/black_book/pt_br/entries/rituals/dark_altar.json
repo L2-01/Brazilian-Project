@@ -1,0 +1,99 @@
+{
+  "name": "Realizando Rituais",
+  "icon": "goety:dark_altar",
+  "category": "goety:rituals",
+  "sortnum": 0,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Altar Sombrio é a peça central da maioria dos Rituais. Antes de tudo, o Altar deve ser colocado acima de uma $(l:intro/cursed_cage)Jaula Amaldiçoada$(), e a Jaula deve ter Energia de Almas para que o Altar funcione."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_altar",
+      "recipe2": "goety:pedestal"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_altar_stone",
+      "recipe2": "goety:pedestal_stone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_altar_deepslate",
+      "recipe2": "goety:pedestal_deepslate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_altar_ominous_stone",
+      "recipe2": "goety:pedestal_ominous_stone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_altar_nether_brick",
+      "recipe2": "goety:pedestal_nether_brick"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_altar_blackstone",
+      "recipe2": "goety:pedestal_blackstone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_altar_end_stone",
+      "recipe2": "goety:pedestal_end_stone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_altar_highrock",
+      "recipe2": "goety:pedestal_highrock"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_altar_marble",
+      "recipe2": "goety:pedestal_marble"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_altar_prismarine",
+      "recipe2": "goety:pedestal_prismarine"
+    },
+    {
+      "type": "patchouli:crafting",
+      "advancement": "goety:goety/read_haunting_scroll",
+      "recipe": "goety:dark_altar_crypt_stone",
+      "recipe2": "goety:pedestal_crypt_stone"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao usar um Altar Sombrio, você pode criar certo item ou invocar uma criatura, dependendo dos blocos e itens ao redor do Altar. Diferente de outras escolas de magia, esses blocos $(l)não$() precisam ser dispostos em uma ordem específica para que o ritual funcione. O que importa é que certa quantidade de certos blocos esteja $(l)dentro$() do raio de $(l)8 blocos do Altar, por padrão.$() Agachar e clicar com o botão direito no Altar Sombrio com a mão vazia mostrará a área de efeito; fazê-lo de novo a ocultará."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para começar o ritual, você deve preencher os pedestais com os itens exigidos $(l)antes$() de colocar o item do Altar. Enquanto o ritual estiver em andamento, o Altar sugará Energia de Almas da Jaula, então é bom garantir que ela tenha o suficiente antes de executar um Ritual! Os Pedestais podem ser usados como decoração."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "C"
+          ],
+          [
+            "S"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "C": "goety:dark_altar",
+          "S": "goety:cursed_cage"
+        },
+        "symmetrical": true
+      },
+      "enable_visualize": false
+    }
+  ]
+}

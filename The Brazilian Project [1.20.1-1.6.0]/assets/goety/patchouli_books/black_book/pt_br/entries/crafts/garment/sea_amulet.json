@@ -1,0 +1,18 @@
+{
+  "name": "Amuleto do Mar",
+  "icon": "goety:sea_amulet",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Amuleto do Mar fornece o efeito Proteção do Mar ao usuário sempre que ele estiver submerso, gastando suas cargas internas. Para carregar o amuleto, o usuário deve estar a até 8 blocos de um Conduto ativo submerso. O amuleto só fornecerá seu efeito se o usuário não o tiver ou quando o efeito anterior estiver a 5 segundos de expirar."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:sea_amulet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:sea_amulet": 1
+  }
+}

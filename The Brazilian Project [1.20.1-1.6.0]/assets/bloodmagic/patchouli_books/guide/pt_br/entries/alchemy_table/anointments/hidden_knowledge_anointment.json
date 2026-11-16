@@ -1,0 +1,37 @@
+{
+  "name": "Segredos do Minerador",
+  "icon": "bloodmagic:hidden_knowledge_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Segredos do Minerador",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment",
+      "text": "Blocos que dão exp dão exp extra na colheita bem-sucedida. Derruba +2exp por bloco. Consumido quando exp extra é derrubada.$(br2)Itens válidos: Ferramentas, Espadas.$(br2)Aplica: Segredos do Minerador I (256 blocos que dão exp)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Segredos do Minerador L",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_l",
+      "text": "Esta versão melhorada da unção dura quatro vezes mais. $(br2)Aplica: Segredos do Minerador I (1024 blocos que dão exp)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Segredos do Minerador II",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_2",
+      "text": "Esta versão melhorada da unção aumenta o rendimento para +4exp por bloco. $(br2)Aplica: Segredos do Minerador II (256 blocos que dão exp)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Segredos do Minerador XL",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_xl",
+      "text": "Esta versão melhorada da unção dura dezesseis vezes mais. $(br2)Aplica: Segredos do Minerador I (4096 blocos que dão exp)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Segredos do Minerador III",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_3",
+      "text": "Esta versão melhorada da unção aumenta o rendimento para +6exp por bloco. $(br2)Aplica: Segredos do Minerador III (256 blocos que dão exp)"
+    }
+  ]
+}

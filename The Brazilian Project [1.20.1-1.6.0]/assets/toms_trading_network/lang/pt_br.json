@@ -1,0 +1,50 @@
+{
+	"block.toms_trading_network.vending_machine": "Máquina de Vendas",
+
+	"item.toms_trading_network.tag_filter": "Combina com marcador:",
+
+	"itemGroup.toms_trading_network.tab": "Tom's Trading Network",
+
+	"tooltip.toms_trading_network.hold_shift_for_info": "Segure SHIFT para mais informações.",
+	"tooltip.toms_trading_network.side.bottom": "Inferior",
+	"tooltip.toms_trading_network.side.top": "Superior",
+	"tooltip.toms_trading_network.side.front": "Frente",
+	"tooltip.toms_trading_network.side.left": "Esquerda",
+	"tooltip.toms_trading_network.side.back": "Traseira",
+	"tooltip.toms_trading_network.side.right": "Direita",
+	"tooltip.toms_trading_network.side_config0": "Sem acesso",
+	"tooltip.toms_trading_network.side_config1": "Somente inserção",
+	"tooltip.toms_trading_network.side_config2": "Somente extração",
+	"tooltip.toms_trading_network.side_config3": "Inserir e extrair",
+	"tooltip.toms_trading_network.match_nbt": "Corresponder NBT: %s",
+	"tooltip.toms_trading_network.textfield": "%s: %s",
+	"tooltip.toms_trading_network.item_count": "Quantidade de itens",
+	"tooltip.toms_trading_network.ignoredNBT": "Aceita item correspondente com quaisquer dados NBT",
+	"tooltip.toms_trading_network.to_tag_filter": "Converter em filtro de marcador",
+	"tooltip.toms_trading_network.side_config.auto0": "Empurrar/Puxar automático desativado (Shift)",
+	"tooltip.toms_trading_network.side_config.auto1": "Empurrar/Puxar automático ativado (Shift)",
+	"tooltip.toms_trading_network.creative_mode0": "Vendas criativas desativadas",
+	"tooltip.toms_trading_network.creative_mode1": "Vendas criativas ativadas",
+
+	"narrator.toms_trading_network.vending_machine_name": "Nome da Máquina de Vendas",
+	"narrator.toms_trading_network.vending_machine.trade_amount": "Quantidade da troca",
+
+	"button.toms_trading_network.vending_machine.open_trading": "Visão de Trocas",
+	"button.toms_trading_network.vending_machine.trade": "Trocar",
+
+	"label.toms_trading_network.vending_machine.cost": "Custo",
+	"label.toms_trading_network.vending_machine.result": "Resultado",
+	"label.toms_trading_network.vending_machine.input": "Entrada",
+	"label.toms_trading_network.vending_machine.output": "Saída",
+	"label.toms_trading_network.vending_machine.noItems": "Itens insuficientes em estoque",
+
+	"chat.toms_trading_network.vending_machine.trade_error": "Erro de transação da máquina de vendas (%d concluídas de %d): %s",
+	"chat.toms_trading_network.vending_machine.trade_error.1": "Itens insuficientes no seu inventário",
+	"chat.toms_trading_network.vending_machine.trade_error.2": "Itens insuficientes na máquina de vendas",
+	"chat.toms_trading_network.vending_machine.trade_error.3": "Espaço insuficiente no seu inventário",
+	"chat.toms_trading_network.vending_machine.trade_error.4": "Espaço insuficiente na máquina de vendas",
+
+	"config.jade.plugin_toms_trading_network.vending_machine": "Informações da Máquina de Vendas",
+
+	"jade.toms_trading_network.noServerInfo": "Detalhes não disponíveis"
+}

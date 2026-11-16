@@ -1,0 +1,54 @@
+{
+  "name": "O Reino Infinito",
+  "icon": "bloodmagic:special_dungeon_seal",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:special_dungeon_seal": 0,
+    "bloodmagic:bleedingedge": 0,
+    "bloodmagic:hellforgedparts": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Assim como com seu irmãozinho, o ritual $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Orla do Reino Oculto$(), você pode acessar o $(thing)Reino Demoníaco$() de verdade com o $(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)Caminho para o Reino Infinito$(). Você mais uma vez se verá diante de um $(thing)Pilar de Inversão$(). Assim como na $(thing)Antecâmara$(), você encontrará um baú de loot simples deixado por um demônio descuidado (ou talvez um sanguimante menos sortudo) e várias portas, além de"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "outro Pilar de Inversão para te levar de volta. $(br2)Essas salas de masmorra estarão cheias de inimigos mais temíveis que os da antecâmara, e terão loot à altura. Fique de olho em quaisquer $(thing)Distorções Espaciais$(), assim como $(l:bloodmagic:dungeons/keys)chaves$() raras como a $(item)Chave do Encarregado$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Distorções Espaciais se anunciam com uma mensagem no chat — se você vir uma dessas mensagens, significa que a sala em que está tem uma fechadura muito especial. Atualmente, será a entrada para $(thing)As Minas$(), ou a entrada de uma pequena sala contendo $(thing)a Chave do Encarregado$(), que pode ser aberta com uma $(thing)Chave de Ferro$(). A entrada das Minas sempre surgirá antes da chave, então pode ser preciso voltar um pouco. "
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/dungeon/mine_key.png"
+      ],
+      "title": "A Chave do Encarregado",
+      "border": true,
+      "text": "Esta porta pode ser aberta com uma Chave de Ferro, e esconde a Chave do Encarregado atrás dela."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/dungeon/mine_entrance.png"
+      ],
+      "title": "A Entrada das Minas",
+      "border": true,
+      "text": "Esta porta só pode ser aberta com a Chave do Encarregado. Talvez você precise voltar!"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "mines",
+      "text": "A Chave do Encarregado permitirá a entrada em $(thing)As Minas$(), que são outro degrau tanto em dificuldade quanto em recompensas. Além do $(l:bloodmagic:dungeons/demonite)Minério de Demonita$(), essencial para $(l:bloodmagic:alchemy_table/potions)poções$() de alto tier e para o $(l:bloodmagic:altar/blood_altar)Altar de Sangue Tier-5$() e seu $(l:bloodmagic:altar/soul_network)Orbe$() correspondente, você encontrará montes de loot mais mundano, armas e ferramentas encantadas, unções, poções e mais."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:hellforgedparts",
+      "title": "Peças Intrincadas Forjadas no Inferno",
+      "anchor": "hellforged_parts",
+      "text": "Explore o suficiente e você pode ter a sorte de achar $(item)Peças Intrincadas Forjadas no Inferno$(), que podem ser usadas para dobrar o poder das suas $(item)Runas$() existentes. É como ter dois $(blood)Altares de Sangue$() em um!"
+    }
+  ]
+}

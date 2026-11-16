@@ -1,0 +1,17 @@
+{
+    "name": "Arquivos MIDI",
+    "icon": "minecraft:music_disc_mellohi",
+    "category": "mimi:3transmitter",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Encontrando Arquivos MIDI",
+            "text": "Para usar o Transmissor, você deve primeiro obter alguns arquivos MIDI para ele tocar.$(br2)Arquivos MIDI não são como músicas comuns que você ouviria no seu computador (como arquivos MP3) e o MIMI não suporta tocar nenhum outro tipo de arquivo de música. Arquivos de música normais são uma gravação de instrumentos tocando notas, mas arquivos MIDI são as próprias notas, com instruções de como elas devem ser tocadas."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O MIDI existe há muito tempo, então há muitas músicas disponíveis online, mas pode ser difícil encontrar músicas mais recentes que tenham tido arquivos MIDI criados para elas. Aqui estão alguns links para sites que têm muitos arquivos MIDI gratuitos:$(br2)1. $(l:https://bitmidi.com/)BitMidi.com$()$(br)2. $(l:https://freemidi.org/)FreeMidi.org$()$(br)3. $(l:https://www.midiworld.com/files/)MidiWorld.com$()$(br)4. $(l:https://freemidis.net)FreeMidis.net$()$(br)5. $(l:https://midifind.com/)MidiFind.com$()$(br2)Mais podem ser encontrados facilmente pelo Google!"
+        }
+    ],
+    "sortnum": 1
+}

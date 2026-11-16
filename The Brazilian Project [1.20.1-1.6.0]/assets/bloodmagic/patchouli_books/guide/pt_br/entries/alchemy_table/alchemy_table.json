@@ -1,0 +1,102 @@
+{
+  "name": "Mesa de Alquimia",
+  "icon": "bloodmagic:alchemytable",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Mesa de Alquimia$() cria itens usando $(blood)LP$() de uma $(l:bloodmagic:altar/soul_network)Soul Network$(/l). A $(thing)Soul Network$() usada e o Tier de receitas disponíveis são determinados pelo $(item)Orbe de Sangue$() inserido no lado direito da GUI. $(br2)A $(item)Mesa de Alquimia$() é usada para criar vários componentes do $(6)Blood Magic$(), e também oferece receitas alternativas para alguns itens vanilla."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:alchemy_table",
+      "text": "Ao olhar receitas da $(item)Mesa de Alquimia$() neste livro (ou no $(thing)JEI$()), passe o mouse sobre a seta com o rótulo \"LP\" para ver informações de Tempo, dreno de $(blood)LP$() e Tier."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_table/alchemy_table_gui.png"
+      ],
+      "title": "GUI da Mesa de Alquimia",
+      "border": true,
+      "text": "A Mesa de Alquimia pode receber inserção ou extração usando estes botões."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Mesa de Alquimia$() tem vários botões no seu lado direito. São, em ordem, $(bold)B$()aixo, $(bold)C$()ima, $(bold)N$()orte, $(bold)S$()ul, $(bold)O$()este e $(bold)L$()este. Para usá-los, primeiro clique em qualquer slot da Mesa de Alquimia. (Aqui, selecionamos o slot central de 'item pronto', para demonstração.) Depois, clique num desses seis botões para alternar se a $(item)Mesa de Alquimia$() deve permitir $(item)Funis$(), tubos ou outra interferência externa por essa face. Para voltar à função normal da mesa,"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "basta clicar no slot de novo para desselecioná-lo. O ícone exibido no slot mostra se está aceitando entradas ou fornecendo saídas. Na imagem de exemplo, estamos permitindo que tubos tirem do nosso slot central apenas pelo lado de $(bold)B$()aixo, e quaisquer tentativas de extrair itens por outros lados falharão."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_table/alchemy_table_orb_error.png",
+        "bloodmagic:images/entries/alchemy_table/alchemy_table_soul_error.png"
+      ],
+      "title": "Erros da Mesa de Alquimia",
+      "anchor": "errors",
+      "border": true,
+      "text": "A Mesa de Alquimia dirá quando algo estiver errado."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os dois motivos mais comuns para uma receita não funcionar na Mesa de Alquimia são: $(li)$(bold)Erro de Orbe$(): Ou não há Orbe de Sangue no slot relevante, ou o Orbe que você está tentando usar não tem nível alto o bastante para esta receita. $(li)$(bold)Erro de Soul Network$(): O orbe tem nível válido, mas ou você não o vinculou a si mesmo (botão direito segurando-o), ou sua Soul Network não tem LP suficiente. $(br2)As páginas seguintes documentam várias receitas atualmente disponíveis para a Mesa de Alquimia."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "Grama",
+      "a.recipe": "bloodmagic:alchemytable/grass_block",
+      "b.heading": "Couro",
+      "b.recipe": "bloodmagic:alchemytable/leather_from_flesh",
+      "c.heading": "Pão",
+      "c.recipe": "bloodmagic:alchemytable/bread"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "Argila",
+      "a.recipe": "bloodmagic:alchemytable/clay_from_sand",
+      "b.heading": "Linha",
+      "b.recipe": "bloodmagic:alchemytable/string",
+      "c.heading": "Teia de Aranha",
+      "c.recipe": "bloodmagic:alchemytable/cobweb"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "Óleo Vegetal",
+      "a.recipe": "bloodmagic:alchemytable/plantoil_from_wheat",
+      "b.recipe": "bloodmagic:alchemytable/plantoil_from_carrots",
+      "c.recipe": "bloodmagic:alchemytable/plantoil_from_taters"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "Óleo Vegetal Cont.",
+      "a.recipe": "bloodmagic:alchemytable/plantoil_from_beets",
+      "b.heading": "Areia de Carvão",
+      "b.recipe": "bloodmagic:alchemytable/sand_coal",
+      "c.heading": "Pó Explosivo",
+      "c.recipe": "bloodmagic:alchemytable/explosive_powder"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "Sílex",
+      "a.recipe": "bloodmagic:alchemytable/flint_from_gravel",
+      "b.heading": "Salitre",
+      "b.recipe": "bloodmagic:alchemytable/saltpeter",
+      "c.heading": "Pólvora",
+      "c.recipe": "bloodmagic:alchemytable/gunpowder"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_alchemy_table",
+      "a.heading": "Balde de Lava",
+      "a.recipe": "bloodmagic:alchemytable/sigil_lava_bucket",
+      "b.heading": "Balde de Água",
+      "b.recipe": "bloodmagic:alchemytable/sigil_water_bucket"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os Selos de $(l:bloodmagic:alchemy_array/sigil/lava)Lava$() e $(l:bloodmagic:alchemy_array/sigil/water)Água$() não são consumidos em nenhuma dessas receitas. Mais ainda, o $(item)Selo de Água$() pode ser usado no lugar de um $(water)Balde de Água$() em qualquer Receita da Mesa de Alquimia."
+    }
+  ]
+}

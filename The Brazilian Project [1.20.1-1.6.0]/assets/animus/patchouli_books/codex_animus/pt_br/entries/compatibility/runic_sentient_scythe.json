@@ -1,0 +1,32 @@
+{
+  "name": "guide.animus.entry.runic_sentient_scythe",
+  "category": "animus:compatibility",
+  "icon": "animus:runic_sentient_scythe",
+  "flag": "mod:malum",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Foice Senciente Rúnica combina o poder demoníaco da Foice Senciente do Blood Magic com aprimoramentos rúnicos e a colheita de almas do Malum. Esta arma mortal ataca 30%% mais rápido que sua predecessora enquanto colhe almas para o altar de espíritos."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:runic_sentient_scythe",
+      "text": "$(will)Arma de Vontade Demoníaca$()$(br2)Como a Foice Senciente, esta arma escala com a vontade demoníaca no chunk. Herda todos os efeitos de vontade demoníaca enquanto adiciona as capacidades de colheita de espíritos do Malum."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Velocidade Aprimorada",
+      "text": "As modificações rúnicas concedem $(bold)velocidade de ataque 30%% maior$() comparada à Foice Senciente base. Isso permite golpes mais rápidos e melhor geração de vontade demoníaca em combate.$(br2)$(italic)A velocidade de ataque maior sinergiza bem com a colheita de almas do Malum, permitindo colher mais espíritos por encontro.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Colheita de Almas",
+      "text": "Quando o $(blood)Malum$() está instalado, matar criaturas com esta foice colhe seus espíritos diretamente:$(br2)$(li)Espíritos largam como ao usar uma foice do Malum$(li)Funciona com todos os tipos de espírito$(li)Não requer dados de alma adicionais$(li)Compatível com bolsas de espíritos$(br2)Isso a torna uma excelente ferramenta tanto para coletar vontade demoníaca do Blood Magic quanto para coletar espíritos do Malum."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fabricação",
+      "text": "A Foice Senciente Rúnica é fabricada no $(blood)Círculo de Alquimia$() usando:$(br2)$(li)$(item)Foice Senciente$()$(li)$(item)Componentes de Espírito do Malum$()$(li)$(blood)Essência Vital$()$(br2)Veja a receita para os requisitos exatos. O processo de fabricação infunde a magia de espíritos do Malum na arma do Blood Magic."
+    }
+  ]
+}

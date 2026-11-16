@@ -1,0 +1,15 @@
+{
+  "name": "Caixa Controladora de Sinal",
+  "icon": "railcraft:signal_controller_box",
+  "category": "railcraft:signal_boxes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esta caixa pode ser colocada ao lado de uma Caixa Receptora de Sinal e então enviará o Aspecto de Sinal da Caixa Receptora para um Receptor pareado. Várias Caixas de Controlador podem ser colocadas ao lado de uma única Caixa Receptora. Isso permite que um único Sinal de Bloco controle vários Motores de Desvio ou Sinais Distantes.$(br2)Colocar duas Caixas Receptoras ao lado de uma Caixa de Controlador fará com que a Caixa de Controlador envie o Aspecto de Sinal mais restritivo entre as duas. Além disso, ela pode ser alimentada por Redstone para emitir um Aspecto escolhido via GUI."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ela não ativa com a corrente de Redstone emitida diretamente de uma Caixa Receptora de Sinal. Porém, sempre emitirá o Aspecto mais restritivo entre o escolhido na GUI e o recebido de uma Caixa Receptora. Você não pode ligar um controlador a dois receptores. Colocar um receptor ao lado de um controlador fará o receptor passar informação ao controlador, mas não os vinculará de fato."
+    }
+  ]
+}

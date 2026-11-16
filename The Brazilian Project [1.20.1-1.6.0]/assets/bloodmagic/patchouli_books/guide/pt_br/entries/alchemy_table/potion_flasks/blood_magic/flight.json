@@ -1,0 +1,31 @@
+{
+  "name": "Voo",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Voo$() dá ao alvo uma dose temporária de voo estilo criativo, como se estivesse dentro do alcance do ritual $(l:bloodmagic:rituals/ritual_list/ritual_condor)Reverência do Condor$(). Níveis maiores aumentam a velocidade de voo. $(br2)É criado a partir de um frasco contendo os efeitos $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)Suspenso$() e $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation)Levitação$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Voo (3:00)",
+      "a.recipe": "bloodmagic:flask/suspended_to_flight",
+      "b.heading": "Voo (8:00)",
+      "b.recipe": "bloodmagic:flask/length_flight",
+      "c.heading": "Voo II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_flight"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "adicionar $(l:bloodmagic:alchemy_table/potions#average_potions)Catalisadores Padrão$() pode turbinar ainda mais suas poções."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Voo III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_flight",
+      "b.heading": "Voo (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_flight"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config.client.renderAlertIcon": "Os ícones de alerta só serão exibidos se definido como verdadeiro",
+  "config.client.renderRange": "Somente criaturas dentro do alcance exibirão ícones de alerta",
+  "config.client.xOffset": "Ajusta a posição horizontal dos ícones de alerta",
+  "config.client.yOffset": "Ajusta a posição vertical dos ícones de alerta",
+  "config.client.alertIconSize": "Ajusta o tamanho dos ícones de alerta",
+  "config.client.scaleWithMobSize": "Redimensiona os ícones de alerta com o tamanho da criatura",
+  "config.client.clientMobBlacklist": "O cliente não renderiza ícones de alerta acima destas criaturas",
+  "config.client.treatBlacklistAsWhitelist": "Trata a lista negra de criaturas como lista de permissão se definido como verdadeiro",
+  "config.client.clientAggroIconStyle": "Controla a textura usada para desenhar o ícone de aggro",
+  "config.server.clientMobBlacklist": "O servidor não verifica aquisição de alvo para estas criaturas",
+  "config.server.clientHideAlertAfterTicks": "Oculta o ícone de alerta para criaturas visíveis por X tiques; defina como <= 0 para desativar este recurso",
+  "config.client.clientAlertColorHex": "Controla a cor do ícone de alerta; deve estar em formato hexadecimal",
+  "config.server.clientPlayAlertSound": "Toca um som de alerta quando criaturas miram o jogador, se definido como verdadeiro"
+}

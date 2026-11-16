@@ -1,0 +1,36 @@
+{
+    "ui.inline.nothingtoshowoff": "Nada para exibir",
+
+    "config.inline.title": "Inline",
+    "config.inline.category.matchers": "Correspondências",
+    "config.inline.category.extras": "Extras",
+
+    "config.inline.extras.modicon": "Ícone de Mod no Tooltip do Item",
+    "config.inline.extras.modicon.desc": "Adiciona ícones de mod ao lado dos nomes de mod nos tooltips de itens, geralmente adicionados por jei/emi",
+
+    "config.inline.extras.chatcap": "Limite de Escala do Chat",
+    "config.inline.extras.chatcap.desc": "1: [item:diamond_sword] 1.5: [item!diamond_sword] 2: [item+diamond_sword] Evita que renderizações grandes bloqueiem seu chat",
+
+    "config.inline.extras.createinterop": "Interop do Quadro de Exibição do Create [mod:create]",
+    "config.inline.extras.createinterop.desc": "Permite que renderizações inline funcionem em quadros de exibição.",
+
+    "matcher.inline.modicon.title": "Ícone de Mod",
+    "matcher.inline.modicon.title.styled": "Ícone de Mod [mod:inline]",
+    "matcher.inline.modicon.description": "Exibe o ícone do mod",
+    "matcher.inline.modicon.example": "[mod:inline]",
+
+    "matcher.inline.item.title": "Item",
+    "matcher.inline.item.title.styled": "Item [item:writable_book]",
+    "matcher.inline.item.description": "Exibe um item com base em seu id",
+    "matcher.inline.item.example": "[item:diamond_sword][item:book]",
+
+    "matcher.inline.entity.title": "Entidade",
+    "matcher.inline.entity.title.styled": "Entidade [entity:pig]",
+    "matcher.inline.entity.description": "Exibe uma entidade com base em seu id de tipo",
+    "matcher.inline.entity.example": "[entity:pig]",
+
+    "matcher.inline.playerface.title": "Cabeça de Jogador",
+    "matcher.inline.playerface.title.styled": "Cabeça de Jogador [face:MHF_Steve]",
+    "matcher.inline.playerface.description": "Exibe a cabeça de um jogador",
+    "matcher.inline.playerface.example": "[face:MHF_Steve]"
+}

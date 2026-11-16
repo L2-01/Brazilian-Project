@@ -1,0 +1,17 @@
+{
+  "name": "Bolsa de Poções",
+  "icon": "goety:brew_bag",
+  "category": "goety:brewing",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Poções demais para carregar nas mãos?! Bem, que tal fazer uma bolsa para elas? Uma Bolsa de Poções! Vou te mostrar como fazer uma, já que estou me sentindo generosa, mas fica o aviso: a bolsa só comporta $(bold)poções arremessáveis$()!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:brew_bag",
+      "text": "Pressione a tecla Abrir Bolsa de Poções (padrão: H) para abrir o inventário da bolsa e a tecla Abrir Círculo de Poções (padrão: J) para arremessar uma poção dela."
+    }
+  ]
+}

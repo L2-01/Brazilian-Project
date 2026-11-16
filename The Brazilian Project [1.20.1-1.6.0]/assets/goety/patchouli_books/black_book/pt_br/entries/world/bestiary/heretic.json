@@ -1,0 +1,21 @@
+{
+  "name": "Hereges",
+  "icon": "goety:infernal_tome",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_heretic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Primos das Bruxas, esses partidários gritam cânticos profanos contra seus alvos, invocando explosões de chamas sob seus pés e invocando uma criatura do Nether do último suspiro de uma criatura próxima."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:heretic",
+      "text": "Eles são resistentes à magia assim como suas primas Bruxas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se um Aldeão dormir perto de um Portal do Nether ativo, ele tem chance de se transformar num Herege."
+    }
+  ]
+}

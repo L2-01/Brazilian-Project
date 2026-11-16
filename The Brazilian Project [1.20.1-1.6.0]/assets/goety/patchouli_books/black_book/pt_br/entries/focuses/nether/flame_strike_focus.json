@@ -1,0 +1,23 @@
+{
+  "name": "Foco de Golpe de Chamas",
+  "icon": "goety:flame_strike_focus",
+  "category": "goety:focuses/nether",
+  "advancement": "minecraft:story/enter_the_nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O poder do Nether permite invocar pilares de chamas que cercam você ou, se estiver olhando diretamente para um alvo válido, seu inimigo."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/flame_strike_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/nether_staff)Cajado do Nether$() dobrará o raio dos pilares de fogo."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:flame_strike_focus": 1
+  }
+}

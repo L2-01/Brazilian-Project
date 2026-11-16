@@ -1,0 +1,21 @@
+{
+  "name": "Unções",
+  "icon": "bloodmagic:melee_anointment",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Unções$() são essencialmente $(item)poções$() para suas ferramentas, armas e até suas $(l:bloodmagic:demon_will/demonic_items/explosive_charges)Cargas$(). Ao pressionar [$(k:use)] com a $(item)unção$() numa mão, ela será aplicada ao item na sua outra mão, se possível. Nem todas as unções funcionam em todos os equipamentos! $(br2)Ao contrário das $(item)poções$(), as $(item)unções$() não têm tempo; em vez disso, desgastam aos poucos conforme sua ferramenta ou arma é usada."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Frasco Infundido com Ardósia",
+      "recipe": "bloodmagic:alchemytable/slate_vial",
+      "text": "Um Frasco robusto que pode conter misturas de outra forma incontíveis."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Também é possível aplicar uma $(item)unção$() a um item aplicável usando uma mesa de ferraria. Isso é particularmente útil para armas de duas mãos ou $(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/crippled_arm)outras situações em que você não tenha mãos suficientes$(). A $(item)unção$() assume o papel de molde de ferraria nesse processo."
+    }
+  ]
+}

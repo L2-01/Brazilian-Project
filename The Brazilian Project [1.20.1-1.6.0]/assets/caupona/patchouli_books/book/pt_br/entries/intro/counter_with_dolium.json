@@ -1,0 +1,29 @@
+{
+  "name": "Balcão com Dólio",
+  "icon": "caupona:brick_counter_with_dolium",
+  "category": "caupona:intro",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/brick_counter_with_dolium",
+      "text": "Balcões com Dólios (ou só dólios, no contexto de armazenamento/transferência de fluidos) são instalações de cozinha. Como outras, têm variantes de diferentes $(l:intro/kitchen_materials)materiais$(/l)."
+    },
+    {
+      "type": "text",
+      "text": "Balcões com Dólios podem armazenar fluido e oferecem receitas de repouso. Não há diferença entre balcões feitos de materiais diferentes"
+    },
+    {
+      "type": "text",
+      "text": "Balcões com Dólios têm três espaços de entrada e um de saída na GUI."
+    },
+    {
+      "type": "text",
+      "text": "Para armazenar fluido, só devem ser usados os tanques de fluido dentro da GUI. Você pode drenar ou encher os dólios com líquidos, como se faz com panelas de ensopado. Especiarias também podem ser adicionadas ao retirar sopas."
+    },
+    {
+      "type": "text",
+      "text": "Há 3 espaços de entrada para receitas de repouso: basta pôr todos os materiais dentro e deixá-los por um período relativamente longo, e eles se converterão em algo diferente. Veja as páginas de Repouso para detalhes."
+    }
+  ]
+}

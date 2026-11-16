@@ -1,0 +1,19 @@
+{
+	"name": "Limites de Troca",
+	"icon": "lightmanscurrency:textures/gui/trader_guide/trade_rules/trade_limits/icon.png",
+	"category": "lightmanscurrency:trade_rules",
+	"pages": [
+		"As regras \"Limite de Trocas\" e \"Limite de Trocas por Jogador\" permitem limitar o número de interações que seus clientes podem ter com uma determinada troca ou comerciante.",
+		{
+			"type": "lightmanscurrency:wide_image",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/trade_limits/global_inputs.png",
+			"text": "Ambas as regras têm dois campos principais. O primeiro é a contagem de \"limite\", que define quantas interações são permitidas antes que a regra bloqueie a troca.$(br)O segundo é um botão que permite esquecer interações anteriores, efetivamente redefinindo a regra."
+		},
+		"É aí que as semelhanças terminam. A regra normal \"Limite de Trocas\" se aplica a todos os jogadores igualmente e só permite o número dado de interações com a troca/comerciante, e ponto. Uma vez atingido esse limite, nenhum jogador poderá mais interagir com a troca/comerciante.$(br2) Já a regra \"Limite de Trocas por Jogador\" é um pouco mais flexível e só impede cada cliente de interagir com a troca mais do que o número de vezes definido.",
+		{
+			"type": "lightmanscurrency:wide_image",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/trade_limits/timer_input.png",
+			"text": "Ela também tem um campo de temporizador adicional que permite esquecer as interações anteriores de um jogador depois que determinado tempo se passa. Isso pode ser usado para limitar interações, de modo que outros clientes tenham a oportunidade de comprar um item com estoque limitado."
+		}
+	]
+}

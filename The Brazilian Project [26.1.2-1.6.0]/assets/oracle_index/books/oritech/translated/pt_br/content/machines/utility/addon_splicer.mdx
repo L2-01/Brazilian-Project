@@ -1,0 +1,71 @@
+---
+title: Emendador de Complementos
+id: oritech:addon_splicer
+type: block
+custom:
+    Capacidade de RF: "50,000,000"
+    Entrada máx. de RF: "833,333"
+    Núcleos necessários: "4"
+    Espaços de complemento: "1"
+---
+
+O Emendador de Complementos é um multibloco usado para
+comprimir vários complementos de máquina em um único bloco.
+Ele permite combinar vários complementos em um
+[Coração da Máquina](@oritech:heart_of_the_machine_addon).
+
+<center>
+<ModAsset location="oritech:area/shrinker_area" width={512} />
+</center>
+
+---
+
+**Processo de Compactação**
+
+Para usar o emendador, você deve acoplar os complementos que deseja combinar
+por meio de extensores. A máquina precisa estar cheia de energia para operar.
+Uma vez ativado pela interface ou energizando o **centro** com
+redstone, o emendador consumirá os blocos físicos no mundo
+e produzirá um único bloco combinado no seu inventário.
+
+<center>
+<ModAsset location="oritech:area/shrinker_setup_area" width={512} />
+</center>
+
+<Callout variant="warning">
+    A compactação é irreversível. Apenas complementos que afetam as
+    estatísticas da máquina (como velocidade, eficiência ou rendimento) podem ser emendados.
+    Complementos que exigem interação direta (Caldeira a Vapor, Redstone,
+    Proxy de Inventário, Caçador) não podem ser compactados.
+    Além disso, um "Coração da Máquina" não pode ser combinado com
+    outros complementos — ele precisa ser o único complemento instalado.
+</Callout>
+
+---
+
+**Informações para Desenvolvedores de Mods**
+
+Outros mods podem adicionar seus próprios alvos de compactação ao emendador registrando um
+`SplicerBehavior` (pacote `rearth.oritech.api.splicer`) durante a configuração comum:
+
+```java
+SplicerBehaviors.register(Identifier.fromNamespaceAndPath("mymod", "my_target"), 10, context -> {
+    // inspect context.level(), context.targetPos(), context.facing() or context.splicer()
+    return Optional.empty(); // or Optional.of(new MySplicerOperation(...))
+});
+```
+
+Os comportamentos são consultados da prioridade mais alta para a mais baixa, e o primeiro
+`SplicerOperation` retornado é usado. A compactação de complementos embutida é registrada como
+`oritech:machine_addons` com prioridade 0.
+
+Um `SplicerOperation` fornece:
+- `getTooltip()`: linhas mostradas no botão de compactação
+- `getPreviewResult()`: o item que será criado, exibido esmaecido no espaço de saída vazio
+- `getEnergyCost()`: RF usado (padrão: a capacidade do emendador na configuração, limitada ao tamanho do buffer)
+- `getBlockingReason()`: mensagem opcional mostrada quando a operação não é possível no momento
+- `getAffectedPositions()`: posições usadas para as partículas
+- `execute(level)`: executa a compactação (ex.: remove os blocos) e retorna o item resultante
+
+As operações são resolvidas novamente logo antes da compactação e periodicamente enquanto a
+tela do emendador está aberta, então elas podem guardar um instantâneo do mundo.

@@ -1,0 +1,15 @@
+{
+  "name": "Saudável",
+  "icon": "minecraft:golden_apple",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Efeito: Concede vida adicional, até 50 meios-corações. $(br2)Treinado por: Restaurar vida (Cura comum, ou via $(item)Poções de Cura$() ou $(item)Poções de Regeneração$().) $(br2)Nível máximo: 10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:health"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+	"command.solonion.no_permissions": "Você não tem as permissões necessárias para aplicar este comando a outros jogadores!",
+
+	"command.solonion.clear.success": "Lista de alimentos reiniciada!",
+	"command.solonion.diversity_feedback": "Diversidade Alimentar: %.2f",
+	"command.solonion.sync.success": "Lista de alimentos sincronizada!",
+	"command.solonion.origin.invalidated": "Origem em cache do jogador redefinida!",
+	"command.solonion.origin.cleared": "Todas as origens em cache foram limpas!",
+	"command.solonion.origin.inapplicable": "Mod Origins não instalado. Dados de origem limpos mesmo assim.",
+
+	"item.solonion.food_book": "Livro de Alimentos",
+	"item.solonion.lunchbox": "Marmita",
+	"item.solonion.container.lunchbox": "Marmita",
+    "item.solonion.golden_lunchbox": "Marmita Dourada",
+    "item.solonion.container.golden_lunchbox": "Marmita Dourada",
+	"item.solonion.lunchbag": "Lancheira",
+	"item.solonion.container.lunchbag": "Lancheira",
+
+	"item.solonion.container.open": "%s + %s para abrir",
+
+	"key.solonion.open_food_book": "Abrir Livro de Comidas",
+	"key.solonion.category": "Spice of Life Onion",
+
+	"gui.solonion.food_book.stats": "Visão Geral",
+	"gui.solonion.food_book.stats.current_diversity": "Diversidade Alimentar Atual",
+	"gui.solonion.food_book.stats.min_warning1": "É preciso comer mais %d vezes",
+	"gui.solonion.food_book.stats.min_warning2": "para ativar os benefícios",
+	"gui.solonion.food_book.active_benefits_header": "Benefícios Ativos",
+	"gui.solonion.food_book.inactive_benefits_header": "Benefícios Inativos",
+	"gui.solonion.food_book.benefits.threshold_label": "Limite",
+	"gui.solonion.food_book.benefits.active_tooltip": "Como sua diversidade alimentar é maior que este limite, este benefício está ativo.",
+	"gui.solonion.food_book.benefits.inactive_tooltip": "Se sua diversidade alimentar ficar maior que este limite, este benefício será ativado.",
+	"gui.solonion.food_book.food_queue_label": "Comidas Consumidas",
+	"gui.solonion.food_book.food_queue_tooltip": "Uma lista de todas as comidas consumidas no passado que contribuem para sua diversidade alimentar.",
+
+	"gui.solonion.food_book.fraction": "%1$s/%2$s",
+
+    "gui.solonion.tooltip.disabled": "Esta comida não contribui para a diversidade alimentar.",
+	"gui.solonion.tooltip.diversity": "Diversidade",
+	"gui.solonion.tooltip.last_eaten": "Última vez comida: há %d refeições",
+	"gui.solonion.tooltip.last_eaten_singular": "Última vez comida: há %d refeição",
+
+	"config.solonion.att": "Atributo",
+	"config.solonion.eff": "Efeito de Criatura",
+
+	"config.solonion.addition": "Adicionar",
+	"config.solonion.multiply_base": "Multiplicar Base",
+	"config.solonion.multiply_total": "Multiplicar Total",
+
+	"config.solonion.trackCount.comment": "Quantas comidas devem ser rastreadas.\nNote que quanto maior este valor, maior pode ser sua diversidade potencial, então tenha isso em mente\nse estiver definindo limites/benefícios personalizados acima.",
+    "config.solonion.minFoodsToActivate.comment": "O número mínimo de comidas que um jogador precisa comer antes que qualquer benefício seja aplicado.",
+
+    "config.solonion.complexityStandardNutrition.comment": "Por padrão este é o valor nutricional do pão.\nCada comida é comparada a ele e calculada de acordo.",
+    "config.solonion.complexityStandardSaturation.comment": "Por padrão este é o valor de saturação do pão.\nCada comida é comparada a ele e calculada de acordo.",
+    "config.solonion.complexityBenefitEffectModifier.comment": "Quanta complexidade é adicionada por efeito positivo (incluindo nível) à comida.\nA chance do efeito será considerada.",
+    "config.solonion.complexityNeutralEffectModifier.comment": "Quanta complexidade é adicionada por efeito neutro (incluindo nível) à comida.\nA chance do efeito será considerada.",
+    "config.solonion.complexityHarmEffectModifier.comment": "Quanta complexidade é adicionada por efeito negativo (incluindo nível) à comida.\nA chance do efeito será considerada."
+}

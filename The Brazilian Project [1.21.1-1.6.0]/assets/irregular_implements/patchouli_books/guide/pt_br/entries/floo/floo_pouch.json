@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:floo",
+    "icon": "irregular_implements:floo_pouch",
+    "name": "Bolsa de Pó de Flu",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Bolsa de Pó de Flu$() pode armazenar até 128 $(l:irregular_implements:floo/floo_powder)Pós de Flu$(/l).$(br2)Diferente do Pó de Flu, ela funciona de qualquer lugar do seu inventário, e não apenas na sua mão."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Agache e clique com o botão direito na Bolsa para enchê-la com todo o Pó do seu inventário."
+        }
+    ]
+}

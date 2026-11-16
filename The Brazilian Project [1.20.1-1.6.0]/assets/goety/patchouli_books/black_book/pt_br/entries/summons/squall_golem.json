@@ -1,0 +1,40 @@
+{
+  "name": "Golem de Rajada",
+  "icon": "goety:jade_block",
+  "category": "goety:summons",
+  "advancement": "goety:goety/read_mistral_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os santuários nos picos parecem guardar uma cópia de uma planta para fazer golems movidos a vento. De fato, esses golems parecem bem diferentes dos outros de sua espécie, pois aparentam exigir energia externa para funcionar."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:squall_golem",
+      "scale": 0.75
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety:squall_golem",
+      "text": "Clique com o botão direito no Bloco de Jade central com um Núcleo de Animação."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando criado, o golem ficará inativo, imóvel e de alguma forma impossível de ferir. O golem precisa de energia de um bloco chamado $(l:goety:crafts/artifice/resonance_crystal)Cristal de Ressonância$() para funcionar."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:resonance_crystal",
+      "text": "Para ativar o golem, deve-se registrá-lo clicando nele com o cristal usando o botão esquerdo. Uma vez registrado, o $(l:goety:crafts/artifice/resonance_crystal)cristal$() deve então ser energizado por um Soprador de Vento, soprando vento nele."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando energizado, o cristal ativará o golem. Caso o cristal seja quebrado ou desativado, o golem desligará e ficará inativo de novo.$(br2)O golem só pode Seguir ou ficar Aguardando; ele não pode Vaguear como outros servos. Se danificado, o golem pode ser reparado usando Jade ou Blocos de Jade."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando desativado, clicar no golem com a mão vazia o girará na sua direção em certo ângulo."
+    }
+  ]
+}

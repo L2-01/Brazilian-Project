@@ -1,0 +1,26 @@
+{
+  "name": "Megeras",
+  "icon": "goety:crone_hat",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_crone",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Bruxas mais velhas e sábias, porém ainda maliciosas, que criaram e utilizam poções bem mais potentes que suas parentas menores. Diz-se que seus Chapéus ajudam a fazer poções da bruxa extras."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:crone",
+      "scale": 0.5,
+      "text": "Causam dano ao serem atingidas."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:crone_hat",
+      "text": "O chapéu de uma Megera é um objeto poderoso que, quando usado, dá 25%% de chance de não gastar uma Poção, e 10%% de chance de não gastar uma Poção da Bruxa. Ele também dá chance de engarrafar até três poções extras se quem o usa vestir um Manto de Bruxa, em vez de duas se vestir um Chapéu de Bruxa comum."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:crone_hat": 2
+  }
+}

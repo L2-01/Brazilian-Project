@@ -1,0 +1,15 @@
+{
+  "modifier_id": "tconstruct:haste",
+  "text": [
+    {
+      "text": "Em ferramentas de colheita, concede +4 de velocidade de mineração por nível."
+    }
+  ],
+  "more_text_space": true,
+  "tool_filter": "tconstruct:modifiable/harvest",
+  "effects": [
+    "Pode aplicar níveis incrementalmente",
+    "Máximo de 5 níveis",
+    "Exige 1 espaço de aprimoramento por nível"
+  ]
+}

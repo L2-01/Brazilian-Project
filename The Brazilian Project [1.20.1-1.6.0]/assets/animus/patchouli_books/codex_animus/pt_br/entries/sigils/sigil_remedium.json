@@ -1,0 +1,23 @@
+{
+  "name": "guide.animus.entry.sigil_remedium",
+  "icon": "animus:sigil_remedium",
+  "category": "animus:sigils",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_remedium",
+      "text": "Um sigilo alternável que purifica continuamente seu corpo de aflições nocivas. Enquanto ativo, efeitos de status negativos são removidos a um custo estável de LP."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Alternar:$() Botão direito para ativar/desativar$(br)$(bold)Custo de LP:$() 50 LP por efeito removido$(br)$(bold)Intervalo:$() Uma vez por segundo$(br2)Enquanto ativo, todos os efeitos negativos (nocivos) são removidos automaticamente. O sigilo desativa se o LP acabar."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Notas",
+      "text": "$(bold)Efeitos Benéficos:$() Só efeitos nocivos são removidos; efeitos benéficos como Regeneração ou Força permanecem.$(br2)$(bold)Eficiência:$() O custo escala com o número de efeitos — purificar 3 efeitos custa 150 LP.$(br2)$(italic)Pureza através do sacrifício.$()"
+    }
+  ]
+}

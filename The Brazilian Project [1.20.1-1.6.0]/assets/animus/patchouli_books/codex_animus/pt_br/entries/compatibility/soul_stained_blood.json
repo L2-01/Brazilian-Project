@@ -1,0 +1,18 @@
+{
+  "name": "guide.animus.entry.imperfect_ritual_soul_stained_blood",
+  "icon": "malum:block_of_hallowed_gold",
+  "category": "animus:compatibility",
+  "flag": "mod:malum",
+  "sortnum": 21,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um ritual imperfeito que canaliza a essência protetora do ouro sagrado do Malum, concedendo ao portador a poderosa bênção defensiva de Gaia.$(br2)$(bold)Requer:$() Malum$(br2)$(bold)Configuração:$()$(br)Coloque um Bloco de Ouro Sagrado em cima de uma Pedra de Ritual Imperfeita.$(br2)$(bold)Custo:$() 2000 LP por uso$(br2)$(bold)Duração:$() 15 minutos"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Efeitos",
+      "text": "$(bold)Ativação:$()$(br)Clique com o botão direito na Pedra de Ritual Imperfeita para receber:$(li)$(thing)Gaia's Bulwark$() por 15 minutos$(li)O efeito não tem partículas visíveis$(br2)$(bold)Gaia's Bulwark:$()$(br)O efeito Gaia's Bulwark do Malum fornece redução de dano significativa e proteção contra várias fontes de dano.$(br2)$(bold)Casos de Uso:$()$(li)Preparação defensiva para combate$(li)Exploração perigosa$(li)Encontros com chefes$(br2)$(italic)Sangue e espírito unem-se como um.$()"
+    }
+  ]
+}

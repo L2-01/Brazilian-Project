@@ -1,0 +1,17 @@
+{
+  "name": "Espada Consciente",
+  "icon": "bloodmagic:soulsword",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Espada Consciente$() é uma ferramenta bem mais eficaz para coletar $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will Demoníaca$() do que $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Alçapões de Almas$() poderiam esperar ser. Pode parecer fraca no início, mas é alimentada pelas Wills que você carrega, então criar uma $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$() é essencial. $(br2) Note que a espada, assim como todas as $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Ferramentas Conscientes$(), pode ser reparada com $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Will Cristalizada$() numa Bigorna."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Espada Consciente",
+      "recipe": "bloodmagic:soulforge/sentientsword",
+      "text": "Esta espada servirá você bem.$(br2)Note que você pode atualizar os atributos da espada pressionando [$(k:use)] enquanto a tem equipada — se você adquiriu recentemente uma grande quantidade de $(raw)Will$(), ou talvez esteja experimentando um novo Aspecto de Will pela primeira vez, isso pode ser uma boa ideia."
+    }
+  ]
+}

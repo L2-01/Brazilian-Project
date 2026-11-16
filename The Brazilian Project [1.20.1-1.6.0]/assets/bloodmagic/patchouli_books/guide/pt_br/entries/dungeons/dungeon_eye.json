@@ -1,0 +1,25 @@
+{
+  "name": "Olhos Demoníacos",
+  "icon": "bloodmagic:dungeon_eye",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:dungeon_eye": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:dungeon_eye",
+      "text": "Um $(thing)Olho Demoníaco$() é um bloco emissor de luz frequentemente encontrado nas profundezas do $(l:bloodmagic:dungeons/endless_realm)Reino Infinito$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:dungeon_eye_corrosive",
+      "recipe2": "bloodmagic:dungeon_eye_destructive"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:dungeon_eye_steadfast",
+      "recipe2": "bloodmagic:dungeon_eye_vengeful"
+    }
+  ]
+}

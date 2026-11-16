@@ -1,0 +1,16 @@
+{
+  "name": "Dominância",
+  "icon": "minecraft:potion",
+  "category": "complicated_bees:genetics",
+  "advancement": "complicated_bees:apiary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Todos os valores de um gene (chamados 'alelos') são dominantes ou recessivos, exibidos em $(l:complicated_bees:genetics/analyzer)o analisador$() como vermelho ou azul. Quando dois alelos diferentes estão presentes no genótipo de uma abelha, um alelo dominante ficará ativo sobre um alelo recessivo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Isso significa que, para ter um alelo recessivo ativo em uma abelha, você precisa reproduzir de forma a produzir dois alelos recessivos nela.$(br2)Quando há dois alelos ambos dominantes ou ambos recessivos, o alelo ativo é escolhido aleatoriamente."
+    }
+  ]
+}

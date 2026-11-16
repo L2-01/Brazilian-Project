@@ -1,0 +1,20 @@
+{
+  "name": "Jaula Geradora de Fogo",
+  "icon": "goety:flame_capture",
+  "category": "goety:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A menos que se construa uma base ao redor de um Gerador de Criaturas, ir e voltar do bloco pode ser bem tedioso. É uma pena que não se possa simplesmente pegar o dispositivo arcano e levá-lo para onde for. A menos que..."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:flame_capture",
+      "text": "A jaula pode capturar o núcleo flamejante do Gerador, quebrando o bloco no processo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Uma vez que a jaula capture o núcleo do Gerador, ela pode ser clicada com o botão direito numa $(l:intro/cursed_cage)Jaula Amaldiçoada$() vazia, onde o converterá numa cópia do Gerador original, tornando o processo de Infusão Amaldiçoada e a Fazenda de Criaturas mais convenientes! Embora fazer isso destrua o item no processo."
+    }
+  ]
+}

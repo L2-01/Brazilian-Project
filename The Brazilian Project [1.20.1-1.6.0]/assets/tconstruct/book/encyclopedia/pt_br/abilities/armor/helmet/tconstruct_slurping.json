@@ -1,0 +1,19 @@
+{
+  "modifier_id": "tconstruct:slurping",
+  "text": [
+    {
+      "text": "Permite beber fluido do capacete para usar efeitos com o atalho do capacete, como se incendiar, limpar efeitos de status ou restaurar fome."
+    },
+    {
+      "text": "Níveis maiores consomem mais fluido para efeitos mais fortes",
+      "paragraph": true
+    }
+  ],
+  "tool_filter": "tconstruct:modifiable/armor/helmets",
+  "more_text_space": true,
+  "effects": [
+    "Sem nível máximo",
+    "Exige 1 espaço de habilidade por nível",
+    "Enche usando a ferramenta num tanque de fluido"
+  ]
+}

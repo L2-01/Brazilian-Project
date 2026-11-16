@@ -1,0 +1,19 @@
+{
+  "name": "Cristalizador",
+  "icon": "deepresonance:crystallizer",
+  "category": "rftoolsbase:category_deepresonance_machines",
+  "extra_recipe_mappings": {
+    "deepresonance:crystallizer": 1
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Cristalizador consome cristal líquido e FE para criar cristais ressonantes gerados. As estatísticas do cristal líquido são copiadas para o cristal."
+    },
+    {
+      "type": "crafting",
+      "recipe": "deepresonance:crystallizer"
+    }
+  ]
+}

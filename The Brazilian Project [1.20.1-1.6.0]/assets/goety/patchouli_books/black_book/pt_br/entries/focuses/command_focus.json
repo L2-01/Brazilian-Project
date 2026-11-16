@@ -1,0 +1,23 @@
+{
+  "name": "Foco de Comando",
+  "icon": "goety:command_focus",
+  "category": "goety:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O foco de comando permite ao conjurador ordenar que um servo se mova até uma posição. Se usado numa criatura, ele se move até a localização dela, mas se a criatura for uma montaria, a maioria dos servos pode montar nela."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/command_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para usar o foco de comando, ele deve estar equipado numa varinha/cajado. Então o conjurador deve clicar com o botão esquerdo da varinha/cajado num servo para começar a comandá-lo. O conjurador pode agachar e clicar no ar para remover o servo do foco de comando."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O servo ainda pode se mover, mesmo no modo Aguardando. Para desmontar um servo montado, agache e clique na própria montaria."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Núcleo Monstruoso",
+  "icon": "goety:monstrous_core",
+  "category": "goety:crafts",
+  "advancement": "goety:goety/read_terminus_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você inscreveu no bloco palavras de obediência e runas complexas para agir como o cérebro e a fonte de poder da futura arma de destruição em massa. Porém, ele precisa de uma grande quantidade de poder mágico para realmente ganhar vida."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:monstrous_core"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:monstrous_core": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Dissidentes",
+  "icon": "goety:wicked_boline",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_maverick",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mais práticos que seus primos, eles aplicam efeitos de poções através de suas lâminas, antes de fugir e beber uma poção para se fortalecer."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:maverick",
+      "text": "Eles são resistentes à magia assim como suas primas Bruxas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se um Mercador Ambulante estiver sob um Bloco de Obsidiana Chorona, ele tem chance de se transformar num Dissidente."
+    }
+  ]
+}

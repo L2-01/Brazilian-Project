@@ -1,0 +1,29 @@
+{
+    "name": "Ouvinte",
+    "icon": "mimi:listener",
+    "category": "mimi:4redstone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Ouvinte",
+            "item": "mimi:listener",
+            "text": "O Ouvinte é um bloco que escuta notas tocadas ao seu redor e emite um sinal de Redstone se uma nota corresponder aos critérios de filtro configurados no Ouvinte."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Receita",
+            "link_recipe": true,
+            "recipe": "mimi:listener"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Configurações",
+            "text": "$(li)$(l)Filter Note$(): A quais notas o Ouvinte deve responder. O valor pode ser todas, uma nota específica (EX: C5), qualquer nota de uma oitava (EX: *5) ou qualquer oitava de uma nota (EX: C*).$(br)$(li)$(l)Filter Instrument$(): A quais instrumentos o ouvinte deve responder. O valor pode ser um instrumento específico ou qualquer instrumento $(italic)exceto$() um instrumento específico."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(l)Trigger Mode$(): Se o ouvinte deve emitir um sinal de Redstone durante todo o tempo em que a nota estiver sustentada ou apenas quando a nota começar."
+        }
+    ],
+    "sortnum": 1
+}

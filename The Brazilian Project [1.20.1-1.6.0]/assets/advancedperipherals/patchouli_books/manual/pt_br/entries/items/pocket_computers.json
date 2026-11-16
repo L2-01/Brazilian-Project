@@ -1,0 +1,15 @@
+{
+  "name": "Addons para Pocket Computer",
+  "icon": "computercraft:pocket_computer_advanced",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Fornecemos upgrades para Pocket Computer para os seguintes periféricos:$(li)$(9)$(l:peripherals/environment_detector)Detector de Ambiente$(/l)$()$(li)$(9)$(l:peripherals/player_detector)Detector de Jogadores$(/l)$()$(li)$(9)$(l:peripherals/chat_box)Caixa de Chat$(/l)$()$(p)Para a documentação completa, veja a $(9)$(l:https://docs.intelligence-modding.de/items/pocket_computer/)página oficial da wiki$(/l)$()!"
+    },
+    {
+      "type": "text",
+      "text": "Simplesmente combine-os com um pocket computer para adicionar o periférico a ele. Note que você não pode usar os eventos associados."
+    }
+  ]
+}

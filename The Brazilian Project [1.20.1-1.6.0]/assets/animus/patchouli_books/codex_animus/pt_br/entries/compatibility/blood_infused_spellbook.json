@@ -1,0 +1,47 @@
+{
+  "name": "guide.animus.entry.blood_infused_spellbook",
+  "category": "animus:compatibility",
+  "icon": "animus:blood_infused_spellbook",
+  "flag": "mod:irons_spellbooks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Livro de Feitiços Infuso de Sangue combina o poder do Iron's Spells com as artes sacrifíciais do Blood Magic. Este tomo único pode ser aprimorado progressivamente através de $(blood)seis níveis de infusão de sangue$(), cada um concedendo habilidades poderosas novas.$(br2)Diferente de livros de feitiços comuns, este tomo híbrido fica mais forte conforme você o alimenta com mais Essência Vital no Altar de Sangue."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:blood_infused_spellbook",
+      "text": "$(blood)Livro de Feitiços Movido a Sangue$()$(br2)Um livro de feitiços infundido com o poder da magia de sangue. Coloque qualquer livro do Iron's Spells no Altar de Sangue para criar um, depois clique com o botão direito para aprimorá-lo.$(br2)$(bold)Atributos Base:$() 5 slots de feitiço$(br)$(bold)Nível Máx:$() 6 (12 slots, +300 mana)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Infusão Inicial",
+      "text": "Para criar um Livro de Feitiços Infuso de Sangue:$(br2)1. Obtenha qualquer $(item)Livro de Feitiços$() do Iron's Spells$(br)2. $(bold)Coloque o livro no Altar de Sangue$()$(br)3. Garanta que o altar tenha $(blood)5.000 LP$() armazenados$(br)4. Espere o altar fabricá-lo$(br2)O livro se transforma num $(blood)Livro de Feitiços Infuso de Sangue Nível 1$(). $(thing)Todos os seus feitiços equipados são preservados!$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Progressão de Níveis",
+      "text": "Cada nível concede $(thing)+50 Mana Máx$() e mais slots de feitiço:$(br2)$(bold)Níveis 1-3: Bônus de Slot e Mana$()$(li)$(blood)Nível 1:$() Orbe Fraco, 5k LP $(thing)6 slots, +50 mana$()$(li)$(blood)Nível 2:$() Orbe de Aprendiz, 10k LP $(thing)7 slots, +100 mana$()$(li)$(blood)Nível 3:$() Orbe de Mago, 25k LP $(thing)8 slots, +150 mana$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Níveis Avançados",
+      "text": "$(bold)Níveis 4-6: Custo de LP e Roubo de Vida$()$(li)$(blood)Nível 4:$() Orbe de Mestre, 50k LP $(thing)10 slots, +200 mana, -10%% LP$()$(li)$(blood)Nível 5:$() Orbe de Arquimago, 100k LP $(thing)11 slots, +250 mana, -20%% LP$()$(li)$(blood)Nível 6:$() Orbe Transcendente, 175k LP $(thing)12 slots, +300 mana, +5%% roubo de vida$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Aprimorando",
+      "text": "Para aprimorar seu livro para o próximo nível:$(br2)1. Coloque o nível de Orbe de Sangue exigido (ou superior) no altar$(br)2. Garanta que o altar tenha LP suficiente$(br)3. Clique com o botão direito no altar segurando seu Livro de Feitiços Infuso de Sangue$(br2)A tooltip do livro mostra seu nível atual, bônus e os requisitos do próximo upgrade. O JEI também exibe todas as receitas de upgrade."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Conjuração com LP",
+      "text": "Quando você não tem mana suficiente, o Livro de Feitiços Infuso de Sangue pode $(blood)consumir LP em vez disso$()!$(br2)$(bold)Requisitos:$()$(li)Um $(item)Orbe de Sangue$() no seu inventário ou slot de curio$(li)LP suficiente na sua Soul Network$(br2)O custo de LP é $(thing)100 LP por mana$() por padrão. Livros de nível maior reduzem este custo em até 20%%. Isso pode ser configurado ou desativado nas configurações do mod."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Requisitos",
+      "text": "Para usar o Livro de Feitiços Infuso de Sangue:$(br2)$(li)$(mod)Iron's Spellbooks$() deve estar instalado$(li)Uma $(l:bloodmagicnv:altar/binding)Soul Network$() ativa$(li)Um Altar de Sangue com o nível de orbe apropriado$(br2)A raridade e o brilho de encantamento do livro mudam conforme seu nível de infusão, facilitando ver quão poderoso seu tomo ficou."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Servo Aranha",
+  "icon": "minecraft:cobweb",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Criaturas simples, porém vorazes, esses artrópodes gigantes podem ser ótimos aliados em combate, embora fiquem bem cegos sob luz intensa."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os textos a seguir detalharão as variantes de aranhas que um Ninho de Aranhas pode treinar."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:spider_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Aranha básica encontrada no escuro, leal apenas a você. Faz tudo o que uma Aranha faz."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:cave_spider_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Uma subespécie menor e venenosa de Aranhas. Vestir Mantos Selvagens fará essas aranhas infligirem Veneno Ácido em vez de Veneno comum."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:web_spider_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao contrário de suas contrapartes brutas, as Aranhas Tecelãs não atacam imediatamente seus inimigos; em vez disso, disparam uma bola de teia que, ao acertar, os enreda por um tempo, após o qual avançam sobre eles em alta velocidade."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:icy_spider_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Esses aracnídeos geladíssimos retardam seu alvo a cada mordida e podem andar sobre Neve em Pó sem problemas. Se o dono vestir um Manto de Gelo, suas mordidas congelam o alvo em vez disso."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:bone_spider_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Uma aranha coberta de ossos que dispara Fragmentos de Osso nos inimigos de longe, só indo ao corpo a corpo se o alvo estiver perto."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Cada aranha leal pode ser curada clicando nela com o botão direito usando um pedaço de carne."
+    }
+  ]
+}

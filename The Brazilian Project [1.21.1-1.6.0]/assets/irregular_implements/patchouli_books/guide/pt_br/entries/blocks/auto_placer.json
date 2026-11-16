@@ -1,0 +1,11 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:auto_placer",
+    "name": "Auto-Colocador",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Auto-Colocador$() tentará colocar o bloco do seu inventário à sua frente.$(br2)Ele tenta fazer isso a cada tick em que não tem sinal de Redstone."
+        }
+    ]
+}

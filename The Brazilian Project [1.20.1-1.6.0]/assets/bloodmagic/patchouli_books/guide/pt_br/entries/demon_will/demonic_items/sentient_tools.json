@@ -1,0 +1,48 @@
+{
+  "name": "Ferramentas Conscientes",
+  "icon": "bloodmagic:soulpickaxe",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Espada Consciente$() provou ser um sucesso retumbante. Você se pega imaginando como outras ferramentas reagiriam a um tratamento similar... $(br2) Note que essas ferramentas, assim como a $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Espada Consciente$(), podem ser reparadas com $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Will Cristalizada$() numa Bigorna. $(br2)Mencionamos que Ferramentas e Armas Conscientes são todas altamente encantáveis?"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Picareta Consciente",
+      "recipe": "bloodmagic:soulforge/sentientpickaxe",
+      "text": "Esta picareta melhora com Will, cortando pedra com facilidade. Sem Will para alimentá-la, é só um pouco melhor que a $(item)Picareta de Ferro$() de que foi criada; porém, com uma $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$() cheia o bastante, você prevê que ela supere até uma $(item)Picareta de Netherita$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Foice Consciente$() é uma ferramenta um pouco diferente da sua contraparte de ferro. Infundi-la com will a transmutou numa arma temível. Embora lenta e não tão poderosa quanto as outras armas, seus golpes amplos causam dano total a todos os inimigos no seu alcance, tornando-a uma excelente escolha para controle de multidões."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Foice Consciente",
+      "recipe": "bloodmagic:soulforge/sentientscythe",
+      "anchor": "scythe",
+      "text": "Assim como a picareta, sem Will para alimentar sua foice, ela é comparativamente cega e desajeitada; porém, com uma $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$() cheia o bastante, você prevê que ela se torne uma ferramenta devastadora. $(br)Mencionamos que ela ainda funciona como enxada?"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Assim como a $(item)Picareta Consciente$(), o $(item)Machado Consciente$() é uma melhoria notável sobre sua contraparte de Ferro. Além disso, ganha um buff significativo no dano, tornando-o uma arma temível para quem não se importa com sua natureza desajeitada."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Machado Consciente",
+      "recipe": "bloodmagic:soulforge/sentientaxe",
+      "text": "Assim como a picareta, sem Will para alimentar seu machado, ele é só um pouco melhor que o $(item)Machado de Ferro$() de que foi criado; porém, com uma $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$() cheia o bastante, você prevê que ele supere até um $(item)Machado de Netherita$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Assim como a $(item)Picareta Consciente$(), a $(item)Pá Consciente$() é uma melhoria notável sobre sua contraparte de Ferro, mesmo sem $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will Demoníaca$() adicional para alimentá-la."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Pá Consciente",
+      "recipe": "bloodmagic:soulforge/sentientshovel",
+      "text": "Assim como a picareta, sem Will para alimentar sua pá, ela é só um pouco melhor que a $(item)pá de ferro$() de que foi criada; porém, com uma $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$() cheia o bastante, você prevê que ela supere até uma $(item)Pá de Netherita$()."
+    }
+  ]
+}

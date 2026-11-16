@@ -1,0 +1,20 @@
+{
+  "name": "Invisibilidade",
+  "icon": "minecraft:glass_pane",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Invisibilidade$() faz o alvo desaparecer da vista, tornando-o mais difícil de ser avistado. Este efeito não se estende a qualquer $(item)Armadura$() ou itens segurados, que podem entregar a localização do alvo.$(br2)É feita a partir de uma poção de $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Visão Noturna$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Invisibilidade(3:00)",
+      "a.recipe": "bloodmagic:flask/night_to_invis",
+      "b.heading": "Invisibilidade(8:00)",
+      "b.recipe": "bloodmagic:flask/length_invisibility",
+      "c.heading": "Invisibilidade(21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_invisibility"
+    }
+  ]
+}

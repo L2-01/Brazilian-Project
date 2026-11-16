@@ -1,0 +1,27 @@
+{
+  "name": "Ritual do Estômago Saciado",
+  "icon": "minecraft:cake",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ritual do Estômago Saciado",
+      "multiblock_id": "bloodmagic:full_stomach",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner)Adivinhador de Ritual$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "full_stomach"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "full_stomach",
+      "page_type": "fillRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "full_stomach",
+      "page_type": "chest"
+    }
+  ]
+}

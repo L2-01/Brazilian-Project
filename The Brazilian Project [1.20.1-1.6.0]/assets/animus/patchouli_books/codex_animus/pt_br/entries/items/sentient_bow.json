@@ -1,0 +1,23 @@
+{
+  "name": "guide.animus.entry.sentient_bow",
+  "icon": "animus:sentient_bow",
+  "category": "animus:items",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sentient_bow",
+      "text": "Um arco infundido com vontade demoníaca que dispara flechas espectrais alimentadas por energia demoníaca bruta. Diferente de arcos comuns, não requer flechas físicas — apenas a vontade de demônios."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Combate Movido a Vontade",
+      "text": "$(bold)Consumo de Vontade:$() Usa vontade demoníaca em vez de flechas$(br)$(bold)Sintonia:$() Corresponde automaticamente ao seu maior tipo de vontade$(br2)$(bold)Efeitos de Vontade:$()$(li)$(#900)Bruta:$() Dano equilibrado$(li)$(#0a0)Corrosiva:$() +Veneno ao atingir$(li)$(#f00)Destrutiva:$() Dano máximo$(li)$(#0af)Vingativa:$() Flechas rápidas$(li)$(#888)Firme:$() +Lentidão ao atingir"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Recursos Adicionais",
+      "text": "$(bold)Soul Snare:$() Todas as flechas aplicam Soul Snare, garantindo itens de vontade demoníaca largados  dos inimigos mortos.$(br2)$(bold)Escala de Dano:$() O dano da flecha aumenta com suas reservas de vontade demoníaca, similar às armas sencientes corpo a corpo.$(br2)$(bold)Flechas Evanescentes:$() Flechas espectrais desaparecem após o impacto e não podem ser recolhidas.$(br2)$(italic)Compatível com encantamentos Força, Repulsão e Chama.$()"
+    }
+  ]
+}

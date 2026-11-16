@@ -1,0 +1,38 @@
+{
+  "name": "guide.animus.entry.sigil_transposition",
+  "icon": "animus:sigil_transposition",
+  "category": "animus:sigils",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "animus:crafting_array",
+      "recipe": "animus:array/sigil_transposition",
+      "text": "Criado num $(blood)Círculo de Alquimia$() combinando um $(l:animus:items/reagenttransposition)Reagente: Transposição$() com uma $(item)Ardósia Demoníaca$(). O reagente deve ser forjado primeiro na Forja Infernal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_transposition",
+      "text": "Mova blocos e teleporte entidades pelo próprio espaço. O Sigilo da Transposição permite realocar blocos sem quebrá-los e transportar entidades para Teleposers vinculados."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Transposição de Blocos",
+      "text": "$(bold)Custo de LP:$() 5.000 por transposição$(br2)$(bold)Passo 1:$() Clique com o botão direito num bloco para selecioná-lo como origem. O sigilo ativará.$(br2)$(bold)Passo 2:$() Clique com o botão direito na face de outro bloco para mover o bloco selecionado adjacente a ele.$(br2)$(bold)Limpar:$() Clique com o botão direito no ar para limpar a seleção."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Teletransporte de Entidades",
+      "text": "$(bold)Custo de LP:$() 2000 por teletransporte$(br2)$(bold)Vincular:$() Agache + botão direito num $(l:bloodmagic:utility/teleposer)Teleposer$() para vincular sua localização.$(br2)$(bold)Teleportar:$() Ataque uma entidade para teleportá-la 1 bloco acima do Teleposer vinculado.$(br2)$(bold)Restrição de Jogador:$() Só é possível teleportar jogadores se estiverem agachados.$(br2)$(italic)O Teleposer deve ainda existir no local vinculado para o teletransporte funcionar.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Restrições",
+      "text": "$(bold)Proteção:$() Respeita proteção de chunks (FTB Chunks, etc.)$(br2)$(bold)Tag de Realocação:$() Não pode mover blocos com a tag $(#888888)forge:relocation_not_supported$()$(br2)$(bold)Destino:$() O local alvo deve ser ar$(br2)$(bold)Teleposer:$() Deve estar vinculado a um Teleposer válido para teletransporte de entidades$(br2)O sigilo carrega o chunk da área de origem durante a transposição para garantir segurança."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Aplicações",
+      "text": "Perfeito para:$(li)Mover maquinário complexo$(li)Realocar baús cheios$(li)Rearranjar sua base$(li)Mover geradores$(li)Transportar blocos-entidade$(li)Teleportar criaturas para fazendas$(li)Criar sistemas de armadilha$(br2)$(italic)Cuidado: com grandes poderes vêm grandes responsabilidades. Sempre verifique se você tem permissão antes de mover blocos ou teleportar entidades.$()"
+    }
+  ]
+}

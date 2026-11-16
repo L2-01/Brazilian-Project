@@ -1,0 +1,41 @@
+{
+  "name": "Frigideiras",
+  "icon": "caupona:stone_griddle",
+  "category": "caupona:intro",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/stone_griddle",
+      "text": "Frigideiras e chapas de pedra servem para $(l:intro/sauteed_dishes)salteados / frituras$(/l). Chapas de pedra são mais baratas que frigideiras e, pela baixa condutividade térmica, cozinham bem mais devagar que frigideiras de metal."
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/copper_frying_pan",
+      "text": "Frigideiras de metal podem ser de cobre, ferro ou (l:intro/lead_cookwares)cobre chapeado de chumbo$(/l). Devem ser postas numa fonte de calor, como $(l:intro/stove)fogões$(/l) ou $(l:worldgen/volcanic_fumarole)aberturas de fumarola$(/l)."
+    },
+    {
+      "type": "text",
+      "text": "Frigideiras são parecidas com panelas de ensopado, exceto que não há exigência de fluido. Os botões à esquerda iniciam o cozimento e alternam o controle de redstone. Por padrão, frigideiras são inativas a sinais de redstone. Tigela e $(l:intro/spices)especiaria$(/l) vão nos espaços à direita. Há também um espaço para pratos prontos."
+    },
+    {
+      "type": "text",
+      "text": "Antes de começar o cozimento, deve haver $(l:resting/oil)óleo$(/l) e tigelas suficientes na frigideira. O óleo é retirado automaticamente de molheiras próximas."
+    },
+    {
+      "type": "text",
+      "text": "Sem líquido, pratos salteados não têm o conceito de concentração. Em vez disso, cada dois ingredientes produzem um prato de comida (o número resultante é arredondado para cima)."
+    },
+    {
+      "type": "text",
+      "text": "Com o controle de redstone ligado, se a frigideira não está trabalhando e há sinal de redstone, ela fica tentando começar. Útil para automação."
+    },
+    {
+      "type": "image",
+      "images": [
+        "caupona:textures/gui/entries/frying_pan.png"
+      ],
+      "text": "Uma forma de usar frigideiras. Veja também $(l:resting/oil)óleo$(/l) e $(l:tweaks/dispenser)automação com ejetor$(/l)."
+    }
+  ]
+}

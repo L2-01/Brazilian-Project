@@ -1,0 +1,23 @@
+{
+  "name": "Anel do Dragão",
+  "icon": "goety:ring_of_the_dragon",
+  "category": "goety:crafts/garment",
+  "advancement": "minecraft:end/dragon_breath",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Anel do Dragão, quando usado, faz você emitir uma explosão, ao se teleportar com feitiços, pérolas de ender ou frutas-do-coro, sobre sua localização anterior antes de entrar numa pequena recarga."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:ring_of_the_dragon"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O anel pode ser encantado com Raio para aumentar o tamanho da explosão."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:ring_of_the_dragon": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Pomada de Reparo",
+  "icon": "bloodmagic:weapon_repair_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Pomada de Reparo",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment",
+      "text": "Repara ferramentas danificadas em 1 ponto quando a ferramenta é usada. $(br2)Itens válidos: Ferramentas, Espadas.$(br2)Aplica: Manutenção Regular I (256 blocos)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Pomada de Reparo L",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_l",
+      "text": "Esta versão melhorada da unção dura quatro vezes mais. $(br2)Aplica: Manutenção Regular I (1024 blocos)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Pomada de Reparo II",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_2",
+      "text": "Esta versão melhorada da unção repara a ferramenta em 2 pontos para cada ponto de dano sofrido. Não ativa se isso desperdiçar parte do bônus de reparo. $(br2)Aplica: Manutenção Regular II (256 blocos)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Pomada de Reparo XL",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_xl",
+      "text": "Esta versão melhorada da unção dura dezesseis vezes mais. $(br2)Aplica: Manutenção Regular I (4096 blocos)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Pomada de Reparo III",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_3",
+      "text": "Esta versão melhorada da unção repara a ferramenta em 3 pontos para cada ponto de dano sofrido. Não ativa se isso desperdiçar parte do bônus de reparo. $(br2)Aplica: Manutenção Regular III (256 blocos)"
+    }
+  ]
+}

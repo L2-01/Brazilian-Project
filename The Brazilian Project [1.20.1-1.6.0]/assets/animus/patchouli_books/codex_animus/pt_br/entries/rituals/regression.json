@@ -1,0 +1,17 @@
+{
+  "name": "guide.animus.entry.imperfect_ritual_regression",
+  "icon": "minecraft:bookshelf",
+  "category": "animus:rituals",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um ritual imperfeito que remove custos de reparo de bigorna de ferramentas e armas. Este ritual zera a penalidade de reparo acumulada, tornando itens caros reparáveis novamente.$(br2)$(bold)Configuração:$()$(br)Coloque uma Estante em cima de uma Pedra de Ritual Imperfeita.$(br2)$(bold)Custo:$() 3.000 LP por uso$(br2)$(bold)Nota:$() O ritual não tem efeito persistente; ativa uma vez e completa imediatamente. A pedra pode ser reutilizada."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Ativação:$()$(br)1. Segure o item que você quer zerar$(br)2. Clique com o botão direito na Pedra de Ritual Imperfeita$(br)3. A tag RepairCost do item será removida$(br)4. A pedra permanece para uso futuro$(br2)$(bold)Aplicações:$()$(li)Zerar penalidades de bigorna$(li)Tornar itens reparáveis de novo$(li)Preparar itens para encantamento$(br2)$(italic)Volte o relógio das suas ferramentas.$()"
+    }
+  ]
+}

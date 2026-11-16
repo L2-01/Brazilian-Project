@@ -1,0 +1,9 @@
+Célula de Estado de Redstone
+Armazenamento de 4 bits
+Uma célula de estado é um componente para uso com <link;redstone_wiring;Fios de Redstone>. Ela armazena um valor de entrada e emite o mesmo valor até ser reiniciada.<br>
+Onde antes tais montagens exigiam vários blocos comparadores ou até pistões, agora é possível armazenar o valor num único <link;crafting_components;tubo de elétrons;tubes>.<np>
+Usar a Chave de Fenda de Engenheiro na célula de estado abre a tela para configurar as cores dos sinais de Set, Reset e Saída.<br>
+§lSet: §rUm sinal desta cor é armazenado na célula até ser reiniciada.
+§lReset: §rUm sinal desta cor reinicia a célula, permitindo que seja definida de novo.
+§lSaída: §rEsta é a cor de sinal na qual a célula emite seu valor.<br>
+Quando os sinais de Set e Reset são configurados para a mesma cor, a célula funciona como um sistema de alternância, onde a cada pulso daquela cor recebido, a célula alterna entre ter uma saída ou não ter nenhuma.

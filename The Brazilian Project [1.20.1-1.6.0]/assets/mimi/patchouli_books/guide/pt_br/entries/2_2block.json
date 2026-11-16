@@ -1,0 +1,17 @@
+{
+    "name": "Instrumentos de Bloco",
+    "icon": "mimi:drums",
+    "category": "mimi:2instruments",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Instrumentos de bloco no MIMI são instrumentos que precisam ser colocados no mundo como blocos, e o jogador deve sentar-se neles para poder tocar.$(br2)Você só pode tocar um instrumento de bloco por vez, e apenas um jogador pode tocar um determinado instrumento de bloco ao mesmo tempo."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Tocando",
+            "text": "Coloque o instrumento como um bloco no mundo. Depois, clique com o botão direito no bloco do instrumento para sentar-se nele (como num bote) e novamente para abrir a Tela do Instrumento.$(br2)Ao segurar um instrumento e estar sentado num instrumento, pode ser confuso saber qual Tela do Instrumento será aberta ao clicar. Usando uma tecla de atalho ($(bold)$(k:key.mimi.midi.gui.seat)$()), você pode abrir diretamente o instrumento onde está sentado."
+        }
+    ],
+    "sortnum": 2
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Sapatos de Concreto",
+  "icon": "minecraft:water_bucket",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Reduz sua velocidade de nado significativamente. Máximo de 80% de redução."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/swim_decrease",
+      "b.upgrade": "bloodmagic:swim_decrease"
+    }
+  ]
+}

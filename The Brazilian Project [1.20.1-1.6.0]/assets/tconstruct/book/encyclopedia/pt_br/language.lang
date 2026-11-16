@@ -1,0 +1,69 @@
+intro=Introdução
+
+tools=Ferramentas
+tools.group_small=Pequenas
+tools.group_large=Amplas
+tools.group_ranged=Longo Alcance
+tools.group_ancient=Antigas
+tools.group_staff=Cajados
+tools.tconstruct.earth_staff=Slime da Terra
+tools.tconstruct.sky_staff=Slime do Céu
+tools.tconstruct.ichor_staff=Icor
+tools.tconstruct.ender_staff=Slime do End
+armor=Armadura
+
+materials_harvest=Materiais Gerais
+materials_harvest.subtext=Materiais usados para criar armas corpo a corpo ou ferramentas de colheita.
+materials_ranged=Materiais de Longo Alcance
+materials_ranged.subtext=Materiais usados para criar armas de longo alcance.
+materials_ammo=Materiais de Munição
+materials_ammo.subtext=Materiais usados para criar flechas e shurikens.
+materials_armor=Materiais de Armadura
+materials_armor.subtext=Materiais usados para criar armaduras e escudos.
+materials_slime=Materiais do Traje de Slime
+materials_slime.subtext=Esta seção descreve os efeitos de todos os materiais usados na criação de um traje de slime.
+
+upgrades=Aprimoramentos
+upgrades.subtext=Cada ferramenta recebe um número total limitado de espaços de aprimoramento.
+upgrades.group_general=Geral
+upgrades.group_harvest=Colheita
+upgrades.group_weapon=Corpo a Corpo
+upgrades.group_ranged=Longo Alcance
+upgrades.group_damage=Aumento de Dano
+upgrades.group_armor=Armadura
+upgrades.group_armor.helmet=Capacete
+upgrades.group_armor.chestplate=Peitoral
+upgrades.group_armor.leggings=Calças
+upgrades.group_armor.boots=Botas
+upgrades.boots.tconstruct.feather_fall=Peso-Pena
+# can add other modifiers using [section].[prefix].[mod_id].[modifier_id], we just use this for long names
+# you should also be able to leave off feather falling in your language and it will fallback to the language .json
+# see the section json to find the prefix, any modifier type that defines that can use it
+
+defense=Defesa
+defense.subtext=Em vez de traços de material, a armadura incluirá espaços de defesa para melhorar a proteção.
+defense.group_protection=Proteção
+defense.group_special=Especial
+
+slotless=Sem Espaço
+slotless.subtext=Modificadores sem espaço não exigem nenhum espaço.
+slotless.group_general=Geral
+slotless.group_bonus=Bônus
+slotless.group_cosmetic=Cosmético
+
+abilities=Habilidades
+abilities.subtext=Modificadores de habilidade têm menos espaços que aprimoramentos, mas são mais fortes por espaço.
+abilities.group_general=Geral
+abilities.group_harvest=Colheita
+abilities.group_melee=Corpo a Corpo
+abilities.group_ranged=Longo Alcance
+abilities.group_interact=Interação
+abilities.group_armor=Armadura
+abilities.group_armor.helmet=Capacete
+abilities.group_armor.chestplate=Peitoral
+abilities.group_armor.leggings=Calças
+abilities.group_armor.boots=Botas
+abilities.group_armor.shield=Escudo
+
+fluid_effects=Efeitos de Fluido
+fluid_effects.subtext=Efeitos de fluido definem o comportamento quando um fluido atinge um bloco ou entidade através de vários modificadores como cuspir, derramar e respingar.

@@ -1,0 +1,17 @@
+{
+  "name": "Arco de Liga Eclipse",
+  "sortnum": 25,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:bow_eclipsealloy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Arco de Liga Eclipse representa o máximo em armamento à distância, oferecendo vastas reservas de energia para uso prolongado. $(br2)Possui 4 espaços para Recipientes de Poção, aprimorando as flechas com vários efeitos. $(l:justdirethings:item_potion_canister)Recipiente de Poção$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:bow_eclipsealloy",
+      "text": "Fabricação: Arco de Liga Eclipse"
+    }
+  ]
+}

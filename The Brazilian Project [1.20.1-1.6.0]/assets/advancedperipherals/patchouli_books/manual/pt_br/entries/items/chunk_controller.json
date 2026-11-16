@@ -1,0 +1,15 @@
+{
+  "name": "Controlador de Chunk",
+  "icon": "advancedperipherals:chunk_controller",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Controlador de Chunk é um ingrediente de fabricação para a Tartaruga Chunky.$(p)Combine com uma tartaruga ou tartaruga avançada para torná-la carregadora de chunks!$(p)Para a documentação completa, veja a $(9)$(l:https://docs.intelligence-modding.de/items/chunk_controller/)página oficial da wiki$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:chunk_controller"
+    }
+  ]
+}

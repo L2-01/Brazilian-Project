@@ -1,0 +1,21 @@
+{
+  "name": "Minérios de Jade",
+  "icon": "goety:jade_ore",
+  "category": "goety:world",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Jades são um dos minérios mais ilusórios de se encontrar no mundo. Elas guardam o poder dos ventos dentro de si e só podem ser encontradas em lugares de grande altitude como Montanhas, especificamente nos picos delas."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety:textures/gui/entries/jade_ore.png"
+      ],
+      "border": true
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:jade_ore": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Lingotes de Aço Pálido",
+  "icon": "goety:pale_steel_ingot",
+  "category": "goety:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você ficou confuso sobre o metal encontrado nas ombreiras e no cinto dos Saqueadores e na armadura dos Devastadores. Seria Prata? Platina? Ferro de cor estranha? Diamante dessaturado? Após alguns testes e 'negociações', você descobriu que é, de certa forma, tudo isso."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Alguns são prata, outros platina, outros só ferro colorido e assim por diante. Eles simplesmente parecem e, em alguns casos, agem da mesma forma para você. Você decidiu recriar o tipo mais comum do metal illager, já que prata e platina podem não estar disponíveis, ou ser valiosas demais, para usar em fins sombrios."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:pale_steel_ingot",
+      "recipe2": "goety:pale_steel_block"
+    }
+  ]
+}

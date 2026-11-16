@@ -1,0 +1,31 @@
+{
+  "name": "Supersalto",
+  "icon": "minecraft:rabbit_foot",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Supersalto$() aumenta a altura do pulo do alvo em 50% por nível. Também reduz o dano de queda em 1 ponto por nível."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Supersalto(3:00)",
+      "a.recipe": "bloodmagic:flask/jump_boost",
+      "b.heading": "Supersalto(8:00)",
+      "b.recipe": "bloodmagic:flask/length_jump_boost",
+      "c.heading": "Supersalto II(1:30)",
+      "c.recipe": "bloodmagic:flask/potency_jump_boost"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "adicionar $(l:bloodmagic:alchemy_table/potions#average_potions)Catalisadores Padrão$() pode turbinar ainda mais suas poções."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Supersalto III(0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_jump_boost",
+      "b.heading": "Supersalto(21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_jump_boost"
+    }
+  ]
+}

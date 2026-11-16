@@ -1,0 +1,47 @@
+{
+  "name": "guide.animus.entry.living_armor_ars_nouveau",
+  "category": "animus:compatibility",
+  "icon": "bloodmagic:livinghelmet",
+  "flag": "mod:ars_nouveau",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Armadura Viva se adapta às suas práticas mágicas. Ao praticar a magia de glifos do Ars Nouveau, sua armadura aprende e evolui, desbloqueando o caminho de upgrade $(bold)Sintonia de Source$() feito especialmente para magos de source."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:livinghelmet",
+      "text": "$(blood)Armadura Infusa de Source$()$(br2)Conjure feitiços do Ars Nouveau vestindo Armadura Viva para ganhar experiência. Sua armadura se sintoniza com o fluxo de energia Source, ficando mais forte a cada glifo que você conjura."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "XP de Glifos",
+      "text": "Todo feitiço do Ars Nouveau que você conjura concede XP à sua Armadura Viva com base na complexidade:$(br2)$(bold)Fórmula:$()$(br)XP Base (5) × Número de Glifos$(br2)$(italic)Exemplo: um feitiço com 6 glifos concede 5 × 6 = 30 XP$()$(br2)Feitiços mais complexos com muitos glifos evoluem sua armadura mais rápido. Experimente combinações elaboradas de feitiços para maximizar sua progressão!"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Sintonia de Source",
+      "text": "A árvore de upgrade Sintonia de Source fornece cinco níveis de aprimoramentos poderosos de feitiço:$(br2)$(blood)Nível 1:$() +5%% Dano de Feitiço$(br2)$(blood)Nível 2:$() +10%% Dano de Feitiço$(br2)$(blood)Nível 3:$() +15%% Dano de Feitiço$(br2)$(blood)Nível 4:$() +20%% Dano de Feitiço$(br)buff Mana Regen (4s)$(br2)$(blood)Nível 5:$() +25%% Dano de Feitiço$(br)Custo de Mana -20%%$(br)buff Dano de Feitiço III (5s)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos de Melhoria",
+      "text": "Cada nível requer pontos de Armadura Viva:$(br2)$(li)$(blood)Nível 1:$() 5 pontos$(li)$(blood)Nível 2:$() 10 pontos$(li)$(blood)Nível 3:$() 15 pontos$(li)$(blood)Nível 4:$() 20 pontos$(li)$(blood)Nível 5:$() 25 pontos$(br2)$(bold)Total:$() 75 pontos para todos os níveis$(br2)Esses pontos são ganhos pelo sistema normal de progressão da Armadura Viva — vista a armadura, ganhe XP de conjuração e outras fontes."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Detalhes de Nível",
+      "text": "$(bold)Níveis 1-3: Aumento de Dano de Feitiço$()$(br)Cada nível adiciona +5%% de dano de feitiço. No nível 3, você causa 15%% mais dano com todos os feitiços do Ars Nouveau.$(br2)$(bold)Nível 4: Dano e Regen$()$(br)O dano de feitiço aumenta para +20%%. Além disso, cada feitiço conjurado concede o efeito $(effect)Regeneração de Mana$() por 4 segundos, ajudando a recuperar mana mais rápido.$(br2)$(bold)Nível 5: Poder Supremo$()$(br)Desempenho máximo com +25%% de dano de feitiço. Conjurar feitiços concede $(effect)Dano de Feitiço III$() por 5 segundos E reembolsa 20%% do custo de mana!"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Sinergias",
+      "text": "$(bold)Sinergias:$()$(li)Acumule Dano de Feitiço III com os buffs de dano nativos do Ars Nouveau$(li)O Mana Regen do nível 4 ajuda na conjuração sustentada$(li)O reembolso de 20%% de mana do nível 5 viabiliza feitiços caros$(li)Combine com equipamento gerador de mana para conjuração infinita$(li)Emparelhe com encantamentos de velocidade para conjurar mais frequentemente$(li)Use com outros upgrades de Armadura Viva para combate equilibrado$(br2)No nível máximo, você é uma potência de conjuração com dano massivo e uso eficiente de mana!"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dicas e Estratégia",
+      "text": "$(bold)Maximize o Ganho de XP:$()$(li)Crie feitiços mais longos e complexos$(li)Cada glifo conta para o XP$(li)Pratique novas combinações de feitiços$(li)Conjure frequentemente enquanto explora$(br2)$(bold)Caminhos de Build:$()$(li)Mago de Source Puro: Maximize Sintonia de Source primeiro$(li)Battlemage: Equilibre com upgrades corpo a corpo$(li)Mago Tank: Combine com upgrades defensivos$(br2)$(italic)Lembre-se: XP só é concedido vestindo a Armadura Viva!$()"
+    }
+  ]
+}

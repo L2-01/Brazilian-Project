@@ -1,0 +1,52 @@
+{
+    "name": "Arquivo de Configuração do Cliente",
+    "icon": "minecraft:writable_book",
+    "category": "mimi:6settings",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Além da configuração dentro do jogo para o dispositivo MIDI selecionado e das teclas de atalho, o MIMI também inclui um arquivo de configuração com vários ajustes adicionais.$(br2)Como outros mods, o arquivo de configuração do MIMI pode ser encontrado na pasta $(#0046ff)config$() da sua instância do Minecraft e pode ser modificado com qualquer editor de texto ou IDE."
+        },
+        {
+            "type": "text",
+            "title": "Layout de Teclado",
+            "text": "$(l)Parâm.:$() instrumentKeyboardLayout$(br)$(l)Tipo:$() Nome de Layout$(br)$(l)Padrão:$() MIMI$(br2)Este parâmetro armazena o layout de teclado a ser usado na GUI do Instrumento. O valor pode ser definido usando os controles dentro do jogo na GUI do Instrumento ou pelo arquivo de configuração.$(br2)Valores Válidos: MIMI, VPiano"
+        },
+        {
+            "type": "text",
+            "title": "Buffer Local em MS",
+            "text": "$(l)Parâm.:$() localBufferMs$(br)$(l)Tipo:$() Inteiro$(br)$(l)Padrão:$() 10$(br2)Este parâmetro armazena por quanto tempo as notas do servidor devem ficar em buffer local antes de tocar. Valores maiores podem diminuir travamentos em conexões de alta latência, mas farão os efeitos de redstone parecerem fora de tempo.$(br2)Valores Válidos: 0-100."
+        },
+        {
+            "type": "text",
+            "title": "Dispositivo MIDI Padrão",
+            "text": "$(l)Parâm.:$() defaultMidiInputDevice$(br)$(l)Tipo:$() Inteiro$(br)$(l)Padrão:$() -1$(br2)Este parâmetro guarda o ID do dispositivo que deve ser usado pelo MIMI para Entrada de Dispositivo MIDI. Se um valor for definido, o MIMI tentará usar aquele dispositivo quando o Minecraft iniciar. O valor pode ser definido usando a tela de Dispositivo MIDI dentro do jogo.$(br2)Para não ter dispositivo padrão, defina como -1."
+        },
+        {
+            "type": "text",
+            "title": "Correção de Jitter do Synth",
+            "text": "$(l)Parâm.:$() synthJitterCorrection$(br)$(l)Tipo:$() Booleano$(br)$(l)Padrão:$() true$(br2)Este parâmetro define se o sintetizador MIDI do MIMI deve corrigir o jitter. Ativar a correção de jitter melhora a precisão do tempo das notas em troca de uma latência levemente maior.$(br2)Recomenda-se manter isso ativado, a menos que você tenha latência severa."
+        },
+        {
+            "type": "text",
+            "title": "Latência Base do Synth",
+            "text": "$(l)Parâm.:$() synthBaselineLatency$(br)$(l)Tipo:$() Inteiro$(br)$(l)Padrão:$() 250ms$(br2)Este parâmetro define a latência base do sintetizador MIDI do MIMI (em milissegundos). Valores menores diminuirão o tempo entre uma nota ser tocada e você realmente ouvi-la; porém, isso também reduz o tamanho do buffer de áudio, o que pode resultar em travamentos ou silêncio completo em alguns casos."
+        },
+        {
+            "type": "text",
+            "title": "Taxa de Bits do Synth",
+            "text": "$(l)Parâm.:$() synthBitRate$(br)$(l)Tipo:$() Inteiro$(br)$(l)Padrão:$() 16$(br2)Este parâmetro define a taxa de bits do sintetizador MIDI do MIMI (essencialmente, quantos dados gerar por segundo de áudio). Valores menores podem diminuir travamentos ou latência de áudio, mas também diminuirão a qualidade do áudio."
+        },
+        {
+            "type": "text",
+            "title": "Taxa de Amostragem do Synth",
+            "text": "$(l)Parâm.:$() synthSampleRate$(br)$(l)Tipo:$() Inteiro$(br)$(l)Padrão:$() 44.100$(br2)Este parâmetro define a taxa de amostragem do sintetizador MIDI do MIMI (essencialmente, quantas amostras de áudio capturar por segundo). Valores menores podem diminuir travamentos ou latência de áudio, mas também diminuirão a qualidade do áudio."
+        },
+        {
+            "type": "text",
+            "title": "Soundfont do Synth",
+            "text": "$(l)Parâm.:$() soundfontPath$(br)$(l)Tipo:$() Caminho de Arquivo$(br)$(l)Padrão:$() não definido$(br2)Este parâmetro define o caminho completo no seu sistema para um arquivo $(l:11_6soundfont)Soundfont$(/l) que deve ser usado pelo sintetizador MIDI do MIMI. Se uma soundfont for definida, ela será carregada e usada para quaisquer $(l:11_2programs)IDs de programa MIDI GM$(/l) que contenha, enquanto a Soundfont integrada servirá como reserva."
+        }
+    ],
+    "sortnum": 3
+}

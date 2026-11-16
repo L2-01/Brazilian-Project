@@ -1,0 +1,36 @@
+{
+  "name": "Hipocausto e Banho",
+  "icon": "caupona:opus_incertum_hypocaust_firebox",
+  "category": "caupona:intro",
+  "sortnum": 46,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Hipocaustos são sistemas antigos de calefação. Num sistema de hipocausto, o calor vem de um bloco central (fornalha) e se espalha por uma área relativamente grande."
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/opus_incertum_hypocaust_firebox"
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/opus_incertum_caliduct",
+      "text": "$(l:intro/kitchen_materials)Materiais de cozinha$(/l) podem ser usados para construir hipocaustos, exceto lama e pedra seca, que seria instável e não é à prova d'água."
+    },
+    {
+      "type": "text",
+      "text": "Ao construir um sistema de hipocausto, a fornalha central e os calidutos devem ser conectados horizontalmente, e a fornalha deve ficar sobre uma fonte de calor, como $(l:intro/stove)fogões$(/l) ou $(l:worldgen/volcanic_fumarole)abertura de fumarola$(/l). Um sistema de hipocausto pode ser aquecido por várias fornalhas, mas o alcance do calor não se soma."
+    },
+    {
+      "type": "text",
+      "text": "O sistema de hipocausto aquecido, por sua vez, aquece a água acima dele, tornando-a água de banho com partículas de vapor. Dentro da água de banho, você ganha experiência gradualmente, mas bem devagar. Uma fornalha aquece uma área 9x9 ao seu redor."
+    },
+    {
+      "type": "image",
+      "images": [
+        "caupona:textures/gui/entries/bath.png"
+      ],
+      "text": "Um exemplo de banho aquecido por hipocausto."
+    }
+  ]
+}

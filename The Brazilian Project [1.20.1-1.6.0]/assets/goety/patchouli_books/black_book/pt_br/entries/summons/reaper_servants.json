@@ -1,0 +1,28 @@
+{
+  "name": "Servo Ceifador",
+  "icon": "goety:reaper_servant_spawn_egg",
+  "category": "goety:summons",
+  "advancement": "goety:goety/kill_a_reaper",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esses espectros são chamados e vinculados pela sua vontade a ponto de suas gadanhas não cortarem nem você nem seus aliados."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:reaper_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pode-se invocar essas criaturas através de um $(l:focuses/necromancy/reaping_focus)Foco Ceifador$(), ou por um ritual que invoca um sem vida limitada."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_reaper_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ceifadores podem ser curados clicando neles com o botão direito usando Ectoplasma."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Runa de Velocidade",
+  "icon": "bloodmagic:speedrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Runa de Velocidade$() aumenta todas as operações de criação do Altar de Sangue. A velocidade de criação (e a velocidade com que o progresso é perdido quando vazio) aumenta em +20% aditivo por runa."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_speed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_speed_2",
+      "text": "Com um pouco de $(item)Fragmentos de Netherita$() e algumas $(item)Peças Intrincadas Forjadas no Inferno$() saqueadas do $(l:bloodmagic:dungeons/endless_realm)Reino Demoníaco$(), você pode dobrar o poder da sua $(item)Runa de Velocidade$(), aumentando a taxa de criação em +40% aditivo por runa."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/speed",
+      "text": "Se mudar de ideia, você pode desfazer a receita na ARC."
+    }
+  ]
+}

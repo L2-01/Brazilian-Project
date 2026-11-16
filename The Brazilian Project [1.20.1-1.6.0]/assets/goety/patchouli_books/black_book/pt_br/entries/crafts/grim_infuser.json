@@ -1,0 +1,20 @@
+{
+  "name": "Infusor Tenebroso",
+  "icon": "goety:grim_infuser",
+  "category": "goety:crafts",
+  "advancement": "goety:goety/read_haunting_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Uma versão aprimorada do humilde $(l:intro/cursed_infuser)Infusor Amaldiçoado$(), que não só pode transformar Obsidiana em Pedra de Cripta, como também aceita e infunde mais de um item. Funciona da mesma forma que seu equivalente anterior."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:grim_infuser"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:grim_infuser": 1
+  }
+}

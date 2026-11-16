@@ -1,0 +1,123 @@
+{
+  "dynamic_resource_bars.configuration.textScalingFactor": "Fator de Escala do Texto",
+  "dynamic_resource_bars.configuration.textScalingFactor.tooltip": "A quantidade para escalar o tamanho do texto renderizado nas barras.",
+  "dynamic_resource_bars.configuration.title": "Configuração do Dynamic Resource Bars",
+  "dynamic_resource_bars.configuration.client.tooltip": "Configurações específicas do cliente para barras de recursos.",
+  "dynamic_resource_bars.configuration.section.dynamic.resource.bars.client.toml": "Configuração do Cliente",
+  "dynamic_resource_bars.configuration.section.dynamic.resource.bars.client.toml.title": "Configuração do Cliente",
+
+  "gui.dynamic_resource_bars.common.on": "LIGADO",
+  "gui.dynamic_resource_bars.common.off": "DESLIGADO",
+
+  "gui.dynamic_resource_bars.element.health": "Barra de Vida",
+  "gui.dynamic_resource_bars.element.mana": "Barra de Mana",
+  "gui.dynamic_resource_bars.element.stamina": "Barra de Vigor",
+  "gui.dynamic_resource_bars.element.armor": "Barra de Armadura",
+  "gui.dynamic_resource_bars.element.air": "Barra de Ar",
+
+  "gui.dynamic_resource_bars.hud_editor.title_main": "Editor de Elementos do HUD",
+  "gui.dynamic_resource_bars.hud_editor.title_focused": "Configurações de %s",
+  "gui.dynamic_resource_bars.hud_editor.help.main.line1": "Clique e arraste barras para mover. ESC para salvar e sair.",
+  "gui.dynamic_resource_bars.hud_editor.help.main.line2": "Clique duplo numa barra para ajustes de subelementos.",
+  "gui.dynamic_resource_bars.hud_editor.help.main.line3.armor_air": "Use 'Alternar Comportamento' para barras de Armadura/Ar.",
+  "gui.dynamic_resource_bars.hud_editor.help.main.line4": "Botão de redefinição global abaixo.",
+  "gui.dynamic_resource_bars.hud_editor.help.focus.line1": "Arraste a barra para mover. Clique duplo para sair do foco.",
+  "gui.dynamic_resource_bars.hud_editor.help.focus.line2.sub_element": "Arraste subelementos para ajustar deslocamentos (não funciona em algumas barras).",
+  "gui.dynamic_resource_bars.hud_editor.help.focus.line3": "Use os botões para outras configurações.",
+  "gui.dynamic_resource_bars.hud_editor.help.focus.line4": "ESC para salvar configurações e fechar o editor.",
+
+  "gui.dynamic_resource_bars.hud_editor.button.health_toggle_format": "Vida: %s",
+  "gui.dynamic_resource_bars.hud_editor.button.mana_toggle_format": "Mana: %s",
+  "gui.dynamic_resource_bars.hud_editor.button.stamina_toggle_format": "Vigor: %s",
+  "gui.dynamic_resource_bars.hud_editor.button.armor_behavior_format": "Armadura: %s",
+  "gui.dynamic_resource_bars.hud_editor.button.air_behavior_format": "Ar: %s",
+
+  "bar_behavior.vanilla": "Vanilla",
+  "bar_behavior.custom": "Personalizada",
+  "bar_behavior.hidden": "Oculta",
+
+  "gui.dynamic_resource_bars.behavior.off": "Desligada/Vanilla",
+  "gui.dynamic_resource_bars.behavior.custom_simple": "Personalizada",
+  "gui.dynamic_resource_bars.behavior.vanilla_simple": "Vanilla",
+
+  "gui.dynamic_resource_bars.hud_editor.button.health_settings": "Configurações de Vida",
+  "gui.dynamic_resource_bars.hud_editor.button.mana_settings": "Configurações de Mana",
+  "gui.dynamic_resource_bars.hud_editor.button.stamina_settings": "Configurações de Vigor",
+  "gui.dynamic_resource_bars.hud_editor.button.armor_settings": "Configurações de Armadura",
+  "gui.dynamic_resource_bars.hud_editor.button.air_settings": "Configurações de Ar",
+  "gui.dynamic_resource_bars.hud_editor.button.reset_all_bars": "Redefinir Todas as Barras ao Padrão",
+
+  "gui.dynamic_resource_bars.hud_editor.button.cycle_fill_direction_format": "Preenchimento: %s",
+  "fill_direction.horizontal": "Horizontal",
+  "fill_direction.vertical": "Vertical",
+  "gui.dynamic_resource_bars.hud_editor.button.toggle_background_format": "Fundo: %s",
+  "gui.dynamic_resource_bars.hud_editor.button.toggle_foreground_format": "Frente: %s",
+  "gui.dynamic_resource_bars.hud_editor.button.toggle_fade_full_format": "Esmaecer Quando Cheia: %s",
+  "gui.dynamic_resource_bars.hud_editor.button.cycle_text_behavior_format": "Texto: %s",
+  "gui.dynamic_resource_bars.hud_editor.button.cycle_text_align_format": "Alinhamento do Texto: %s",
+  "gui.dynamic_resource_bars.hud_editor.button.cycle_anchor_format": "Âncora: %s",
+  "gui.dynamic_resource_bars.hud_editor.button.mana_behavior_format": "Mana: %s",
+  "gui.dynamic_resource_bars.hud_editor.button.resize_bar": "Mudar Tamanhos",
+  "gui.dynamic_resource_bars.hud_editor.button.stop_resizing_bar": "Parar Redimensionamento",
+  "gui.dynamic_resource_bars.hud_editor.button.reset_position": "Redefinir Posição",
+  "gui.dynamic_resource_bars.hud_editor.button.reset_size": "Redefinir Tamanho",
+
+  "gui.dynamic_resource_bars.confirm.reset_all.title": "Redefinir Todas as Configurações de Barra?",
+  "gui.dynamic_resource_bars.confirm.reset_all.explanation": "Isso redefinirá posições, tamanhos e âncoras de todas as barras.",
+  "gui.dynamic_resource_bars.confirm.reset_position.title": "Redefinir Posição de %s?",
+  "gui.dynamic_resource_bars.confirm.reset_position.explanation": "Redefine Âncora e todos os Deslocamentos X/Y desta barra.",
+  "gui.dynamic_resource_bars.confirm.reset_size.title": "Redefinir Tamanho de %s?",
+  "gui.dynamic_resource_bars.confirm.reset_size.explanation": "Redefine tamanhos de Fundo, Barra e Sobreposição desta barra.",
+
+  "gui.dynamic_resource_bars.config.button.open_hud_editor": "Abrir Editor de HUD",
+  "gui.dynamic_resource_bars.config.tooltip.hud_editor_disabled": "As Configurações do HUD só podem ser modificadas no jogo (entre num mundo).",
+
+  "gui.dynamic_resource_bars.hud_editor.tooltip.no_mana_provider": "Nenhum mod compatível que forneça mana está instalado atualmente.",
+  "gui.dynamic_resource_bars.hud_editor.tooltip.air_tied_to_stamina": "O comportamento de Ar está vinculado ao Vigor no Fabric nesta versão.",
+
+  "text_behavior.always": "Sempre",
+  "text_behavior.never": "Nunca",
+  "text_behavior.when_not_full": "Quando Não Cheia",
+
+  "horizontal_alignment.left": "Esquerda",
+  "horizontal_alignment.center": "Centro",
+  "horizontal_alignment.right": "Direita",
+
+  "bar_placement.health": "Vida",
+  "bar_placement.hunger": "Fome",
+  "bar_placement.armor": "Armadura",
+  "bar_placement.air": "Ar",
+  "bar_placement.above_utilities": "Topo Central",
+
+  "gui.dynamic_resource_bars.resize.title_format": "Redimensionar: %s",
+  "gui.dynamic_resource_bars.resize.label.background_width": "Largura do Fundo:",
+  "gui.dynamic_resource_bars.resize.label.background_height": "Altura do Fundo:",
+  "gui.dynamic_resource_bars.resize.label.background_x_offset": "Deslocamento X do Fundo:",
+  "gui.dynamic_resource_bars.resize.label.background_y_offset": "Deslocamento Y do Fundo:",
+  "gui.dynamic_resource_bars.resize.label.bar_width": "Largura da Barra (Máx 256):",
+  "gui.dynamic_resource_bars.resize.label.bar_height": "Altura da Barra (Máx 32):",
+  "gui.dynamic_resource_bars.resize.label.overlay_width": "Largura da Sobreposição:",
+  "gui.dynamic_resource_bars.resize.label.overlay_height": "Altura da Sobreposição:",
+
+  "gui.dynamic_resource_bars.config.label.text_color": "Cor do Texto:",
+  "gui.dynamic_resource_bars.config.label.text_opacity": "Opacidade Máxima do Texto:",
+  "gui.dynamic_resource_bars.config.label.text_size": "Escala do Texto:",
+
+  "gui.dynamic_resource_bars.mana_behavior.off": "Desligada",
+  "gui.dynamic_resource_bars.mana_behavior.rpg_mana": "RPGMana",
+  "gui.dynamic_resource_bars.mana_behavior.ars_nouveau": "Ars Nouveau",
+  "gui.dynamic_resource_bars.mana_behavior.irons_spellbooks": "Iron's Spellbooks",
+  "gui.dynamic_resource_bars.mana_behavior.mana_attributes": "Mana Attributes",
+
+  "gui.dynamic_resource_bars.stamina_bar_behavior.food": "Fome",
+  "gui.dynamic_resource_bars.stamina_bar_behavior.stamina_attributes": "Stamina Attributes",
+  "gui.dynamic_resource_bars.stamina_bar_behavior.off": "Desligada",
+
+  "gui.dynamic_resource_bars.stamina_source.food": "Fome",
+  "gui.dynamic_resource_bars.stamina_source.stamina_attributes": "Stamina Attributes",
+
+  "gui.dynamic_resource_bars.merge_mount_health": "Mesclar Vida da Montaria",
+
+  "gui.dynamic_resource_bars.mana_format": "Mana: %s",
+  "gui.dynamic_resource_bars.stamina_format": "Vigor: %s"
+}

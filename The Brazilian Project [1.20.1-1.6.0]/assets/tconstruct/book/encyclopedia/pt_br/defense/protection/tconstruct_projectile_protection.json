@@ -1,0 +1,17 @@
+{
+  "modifier_id": "tconstruct:projectile_protection",
+  "text": [
+    {
+      "text": "Concede +8% de resistência a dano de projéteis, como flechas de esqueletos. Máximo de 80% no conjunto, ou 10 níveis."
+    },
+    {
+      "text": "Concede +5% de resistência à repulsão por nível da peça de maior nível.",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Pode aplicar níveis incrementalmente",
+    "Exige 1 espaço de defesa por nível"
+  ]
+}

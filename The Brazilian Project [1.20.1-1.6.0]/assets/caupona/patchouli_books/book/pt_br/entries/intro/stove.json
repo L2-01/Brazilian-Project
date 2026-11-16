@@ -1,0 +1,26 @@
+{
+  "name": "Fogão de Cozinha",
+  "icon": "caupona:brick_kitchen_stove",
+  "category": "caupona:intro",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Fogões de Cozinha podem ser usados para aquecer utensílios de cozinha."
+    },
+    {
+      "type": "text",
+      "text": "Fogões de Cozinha param de funcionar depois de ficar ociosos por um tempo."
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:mud_kitchen_stove",
+      "text": "Fogões de lama e pedra seca são baratos, mas produzem calor duas vezes mais devagar que outras variedades, a par com a $(l:worldgen/volcanic_fumarole)fumarola$(/l)."
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/brick_kitchen_stove",
+      "text": "Há também fogões de $(l:intro/kitchen_materials)outros materiais$(/l), que são mais rápidos mas consomem mais combustível."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+---
+id: mffs:custom_mode
+type: item
+---
+
+# Modo Personalizado
+
+O Modo Personalizado é o mais versátil de todos os modos, pois permite que um campo de força de qualquer formato ou estrutura seja
+projetado. Uma vez que um padrão de blocos definido pelo usuário tenha sido analisado e armazenado pelo próprio item Modo Personalizado,
+o [Projetor](@mffs:projector) consegue gerar um campo de força que é uma réplica exata do original.
+Dessa forma, campos de força podem ser construídos no formato de qualquer coisa que possa ser fabricada — incluindo uma ponte,
+uma casa ou até uma fortaleza inteira!
+
+<PrefabObtaining />
+
+## Uso
+
+Segure o item Modo Personalizado e use-o em dois blocos do mundo. Esses dois blocos (primário e secundário) definirão
+um espaço 3D que o Modo Personalizado pode analisar. Conforme cada bloco é clicado, suas coordenadas no mundo são armazenadas
+como 'Primary pos' e 'Secondary pos'. Use-o agachado para instruir o item Modo Personalizado a analisar e salvar todos os
+blocos que existem entre os pontos selecionados.
+
+Quando o Projetor detecta que um item Modo Personalizado foi inserido no espaço correto, hologramas aleatórios
+aparecerão continuamente acima dele para indicar que o padrão de campo não corresponde a nenhum dos formatos de modo conhecidos
+(isso é intencional, não um bug). Se desejado, defina onde o campo de força deve aparecer (em relação ao Projetor)
+adicionando [Módulos de Translação](@mffs:translation_module) aos espaços de item marcados por setas direcionais.
+
+## Ajuste de Campo
+
+Assim como os outros modos de projetor, os campos de força do Modo Personalizado podem ser girados e escalados usando os
+[Rotação](@mffs:rotation_module) e [Módulos de Escala](@mffs:scale_module), respectivamente.

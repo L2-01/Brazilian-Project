@@ -1,0 +1,29 @@
+{
+  "name": "A Antecâmara",
+  "icon": "bloodmagic:dungeon_seal",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:inversion_pillar": 0,
+    "bloodmagic:dungeon_seal": 0,
+    "bloodmagic:dungeon_controller": 0,
+    "bloodmagic:inversion_pillar_cap": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ao executar o ritual $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Orla do Reino Oculto$(), você se verá diante de um $(thing)Pilar de Inversão$(). Clique com o botão direito neste pilar para ser transportado para a Antecâmara, sua primeira incursão no $(thing)Reino Demoníaco.$() $(br)Há algumas coisas de nota nesta primeira sala: $(li)Um único baú de tesouro contendo loot básico e, se tiver sorte, algumas $(l:bloodmagic:dungeons/keys)Chaves de Ferro$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Segundo, várias $(thing)Portas$(), cada uma trancada com um $(thing)Selo de Masmorra.$() Use uma $(item)Chave$() nesses selos para destrancar a próxima sala. $(li)Terceiro, um $(item)Pilar de Inversão$(), espelho do que você invocou antes. [$(k:use)] nele para voltar ao seu mundo. $(br2)Há também um grande número de blocos decorativos aqui, caso sinta que sua base precisa de um charme."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quaisquer salas adicionais que você abrir a partir desta antecâmara conterão alguma combinação de loot, monstros, armadilhas e possivelmente alguns rituais não ativados. Fique de olhos bem abertos! $(br2)Alguns exemplos de loot que você pode achar: $(li)Livros Encantados $(li)Armas e Armaduras Encantadas $(li)$(l:bloodmagic:alchemy_table/anointments)Várias Unções$() $(li)$(l:bloodmagic:demon_will/will_manipulation/demon_will)Will Demoníaca$() $(li)Ingredientes de Poção"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Fruta Tau $(li)Tau Saturado $(li)Óleo Tau$(br2)Então saia caçando e fique atento tanto a tesouros quanto a armadilhas!"
+    }
+  ]
+}

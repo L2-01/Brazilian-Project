@@ -1,0 +1,27 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:spectre_coil_basic",
+    "name": "Bobinas de Espectro",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(d)Bobinas Comuns$()$(br2)As $(d)Bobinas de Espectro$() permitem extrair energia da sua $(l:irregular_implements:blocks/spectre_energy_injector)Reserva de Energia de Espectro$(/l) sem fio.$(br2)Cada nível puxa uma taxa de RF/t maior. Coloque a Bobina diretamente sobre a máquina que você quer carregar."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(d)Bobinas Geradoras$()$(br2)A $(d)Bobina de Espectro N.º 245$() gera uma pequena quantidade de RF/t gratuitamente, em vez de usar sua Reserva de Energia de Espectro. Pode ser encontrada raramente em baús de masmorras.$(br2)A $(d)Bobina de Espectro Gênesis$() é exclusiva do criativo e gera uma quantidade infinita de RF/t."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:spectre_coil_basic"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:spectre_coil_redstone"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:spectre_coil_ender"
+        }
+    ]
+}

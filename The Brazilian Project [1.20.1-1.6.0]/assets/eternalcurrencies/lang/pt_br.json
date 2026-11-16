@@ -1,0 +1,49 @@
+{
+  "commands.eternalcurrencies.setbalance.result": "Saldo de %1$s definido para %3$s como %2$s",
+  "commands.eternalcurrencies.addcurrency.result": "Adicionado %2$s ao Saldo de %1$s para %3$s",
+  "commands.eternalcurrencies.removecurrency.result": "Removido %2$s do Saldo de %1$s para %3$s",
+  "commands.eternalcurrencies.checkbalance.result": "Saldo de %1$s para %3$s: %2$s",
+  "commands.eternalcurrencies.pay.success": "Pago %2$s %1$s para %3$s",
+  "commands.eternalcurrencies.pay.insufficient_balance": "Não foi possível pagar %2$s %1$s para %3$s, saldo insuficiente. (%4$s)",
+  "commands.eternalcurrencies.pay.receive": "Recebido %2$s %1$s de %3$s",
+  "commands.eternalcurrencies.pay.untransferable_currency": "%1$s não pode ser transferido.",
+  "commands.eternalcurrencies.error.unregistered_currency": "A moeda \"%s\" não existe.",
+  "commands.eternalcurrencies.createreferrableholder.success": "Novo Titular Referenciável criado no endereço %1$s",
+  "commands.eternalcurrencies.createreferrableholder.address_already_exists": "O endereço %1$s já existe!",
+  "commands.eternalcurrencies.setholderaddress.success": "%2$s conectado ao Titular Referenciável no endereço %1$s!",
+  "commands.eternalcurrencies.setholderaddress.already_set_to_this": "%2$s já está conectado a este Endereço!",
+  "commands.eternalcurrencies.setholderaddress.target_does_not_have_reference_capability": "A implementação de moeda de %2$s não pode ser conectada a um Titular Referenciável.",
+  "commands.eternalcurrencies.setholderaddress.address_does_not_exist": "Nenhum titular referenciável no endereço %1$s!",
+  "commands.eternalcurrencies.resetreference.success": "Referência de Conta redefinida para %1$s.",
+  "commands.eternalcurrencies.resetreference.failure": "Não foi possível redefinir a Referência de Conta de %1$s. Faltando capacidade de Moeda, ou não é uma capacidade de Referência.",
+  "commands.eternalcurrencies.resetreference.already_default": "A Referência de Conta de %1$s já é padrão!",
+
+  "message.eternalcurrencies.added_currency": "+%2$s (%1$s)",
+
+  "currency.eternalcurrencies:coins.name": "Moedas",
+  "currency.eternalcurrencies:coins.name.with_amount": "%s Moedas",
+
+  "item.eternalcurrencies.currency_item": "Item de Moeda",
+  "item.eternalcurrencies.debit_card": "Cartão de Débito",
+  "item.eternalcurrencies.debit_card.tooltip.linked": "Vinculado à Conta: %1$s",
+  "item.eternalcurrencies.debit_card.tooltip.unlinked": "Não vinculado. Use para vinculá-lo à sua Conta atual!",
+  "item.eternalcurrencies.debit_card.connected_you_to_account": "Conectou você à conta %1$s.",
+  "item.eternalcurrencies.debit_card.already_connected_to_this_account": "Você já está conectado a esta conta!",
+  "item.eternalcurrencies.debit_card.connected_card_to_account": "Cartão vinculado à conta %1$s",
+
+  "mod.eternalcurrencies.name": "Eternal Currencies",
+
+  "screen.eternalcurrencies.shop.name": "Loja",
+
+  "keys.eternalcurrencies.category": "Eternal Currencies",
+  "key.eternalcurrencies.open_shop": "Abrir Loja",
+
+
+  "ftbquests.reward.eternalcurrencies.currency": "Recompensa de Moeda",
+  "ftbquests.reward.eternalcurrencies.currency.currency": "Moeda",
+  "ftbquests.reward.eternalcurrencies.currency.amount": "Quantidade de Moeda",
+
+  "ftbquests.task.eternalcurrencies.currency": "Moeda",
+  "ftbquests.task.eternalcurrencies.currency.currency": "Moeda",
+  "ftbquests.task.eternalcurrencies.currency.amount": "Quantidade de Moeda"
+}

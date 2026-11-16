@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Onda Elétrica",
+  "icon": "goety:surging_focus",
+  "category": "goety:focuses/storm",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O feitiço sacrifica o tamanho dos Orbes Elétricos para permitir ao conjurador disparar rapidamente orbes menores que podem arquejar até um alvo para o qual o conjurador está olhando após carregar."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/surging_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/storm_staff)Cajado de Tempestade$() fará seus disparos terem maior chance de infligir Espasmos e ter leve efeito de raio em cadeia."
+    }
+  ]
+}

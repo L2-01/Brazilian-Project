@@ -1,0 +1,13 @@
+{
+  "gui.darkmodeeverywhere.dark_mode": "Modo Escuro",
+  "gui.darkmodeeverywhere.light_mode": "Modo Claro",
+  "gui.darkmodeeverywhere.perfect_dark": "Escuro Perfeito",
+  "gui.darkmodeeverywhere.less_perfect_dark": "Escuro Menos Perfeito",
+  "gui.darkmodeeverywhere.toasted_light": "Modo Claro Tostado",
+  "gui.tooltip.darkmodeeverywhere.shader_switch_tooltip": " * Use Shift para pular para o Modo Claro",
+  "config.darkemodeeverywhere.method_shader_blacklist": "Uma lista de strings classe:método (métodos de renderização) aos quais o sombreador escuro não será aplicado.\\nCada string consiste na classe e no método (ou qualquer substring) para bloquear o sombreador escuro.\\nPor exemplo, 'renderHunger' é suficiente para bloquear 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood' (qualquer um funciona)",
+  "config.darkemodeeverywhere.method_shader_dump": "Ativar esta config fará (a cada 5 segundos) um despejo de quais métodos foram usados para renderizar GUIs às quais o sombreador escuro foi aplicado\\nO despejo consistirá numa lista de strings classe:método, ex.: 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood'\\nUse este recurso para ajudar a encontrar as strings de método de renderização das GUIs que você gostaria de sombrear",
+  "config.darkemodeeverywhere.button_position_x": "Pixels de distância da esquerda da GUI no eixo x",
+  "config.darkemodeeverywhere.button_position_y": "Pixels de distância da base da GUI no eixo y",
+  "config.darkmodeeverywhere.enabled": "Ativado"
+}

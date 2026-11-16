@@ -1,0 +1,31 @@
+{
+  "name": "Cabos",
+  "icon": "xnet:netcable_red",
+  "category": "rftoolsbase:category_xnet_simple",
+  "extra_recipe_mappings": {
+    "xnet:netcable_red": 0,
+    "xnet:netcable_green": 0,
+    "xnet:netcable_blue": 0,
+    "xnet:netcable_yellow": 0,
+    "xnet:netcable_routing": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Cabos coloridos formam redes locais. Cabos vermelhos, verdes, azuis e amarelos não se conectam entre si, mesmo colocados lado a lado."
+    },
+    {
+      "type": "text",
+      "text": "Cabos de roteamento são diferentes: eles são usados por Roteadores e Roteadores Sem Fio para interligar múltiplas redes de controladores."
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:netcable_red"
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:netcable_routing"
+    }
+  ]
+}

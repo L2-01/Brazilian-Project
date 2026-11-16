@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:redstone",
+    "icon": "irregular_implements:entity_detector",
+    "name": "Detector de Entidades",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Detector de Entidades$() emite um sinal de Redstone quando uma entidade que corresponde ao seu filtro está dentro de sua área de detecção.$(br2)Em sua interface você pode definir o raio em cada dimensão, se o Detector está invertido ou não, e especificar que tipo de entidade detectar."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Você pode escolher detectar:$(br)$(li)Todas as Entidades$(br)$(li)Entidades Vivas$(br)$(li)Animais$(br)$(li)Monstros$(br)$(li)Jogadores$(br)$(li)Itens$(br)$(li)Personalizado$(br2)No modo Personalizado, ele usará um $(l:irregular_implements:filter/entity_filter)Filtro de Entidade$(/l) inserido."
+        }
+    ]
+}

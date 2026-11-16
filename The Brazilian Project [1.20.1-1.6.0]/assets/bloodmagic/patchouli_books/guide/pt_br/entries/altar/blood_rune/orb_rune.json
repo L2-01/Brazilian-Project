@@ -1,0 +1,25 @@
+{
+  "name": "Runa do Orbe",
+  "icon": "bloodmagic:orbcapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Runa do Orbe$() aumenta a capacidade do $(item)Orbe de Sangue$() que está dentro do Altar em +2% aditivo por runa enquanto estiver dentro do Altar."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_orb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_orb_2",
+      "text": "Com um pouco de $(item)Fragmentos de Netherita$() e algumas $(item)Peças Intrincadas Forjadas no Inferno$() saqueadas do $(l:bloodmagic:dungeons/endless_realm)Reino Demoníaco$(), você pode dobrar o poder da sua $(item)Runa do Orbe$(), aumentando a capacidade do orbe em +4% aditivo por runa."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/orb_rune",
+      "text": "Se mudar de ideia, você pode desfazer a receita na ARC."
+    }
+  ]
+}

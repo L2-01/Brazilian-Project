@@ -1,0 +1,18 @@
+{
+  "modifier_id": "tconstruct:knockback",
+  "text": [
+    {
+      "text": "Concede 1 de repulsão por nível, lançando o mob cerca de 2 blocos. A maioria das ferramentas começa com 0,4."
+    },
+    {
+      "text": "Arremesso, salto e pancada ganham +0,5 de poder efetivo por nível, escalado pela resistência à repulsão e ricochete em vez de velocidade.",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "tool_filter": "tconstruct:modifiable/melee",
+  "effects": [
+    "Máximo de 3 níveis",
+    "Exige 1 espaço de aprimoramento por nível"
+  ]
+}

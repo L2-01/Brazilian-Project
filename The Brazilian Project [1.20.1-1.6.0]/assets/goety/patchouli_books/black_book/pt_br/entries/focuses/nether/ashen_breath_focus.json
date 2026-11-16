@@ -1,0 +1,15 @@
+{
+  "name": "Foco de Sopro de Cinzas",
+  "icon": "goety_cataclysm:ashen_breath_focus",
+  "category": "goety:cataclysm/focuses/nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Em vez de chamas ardentes, você exala uma curta rajada de cinzas incandescentes sobre seus inimigos, causando mais dano e cegando-os."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:focus/ashen_breath_focus"
+    }
+  ]
+}

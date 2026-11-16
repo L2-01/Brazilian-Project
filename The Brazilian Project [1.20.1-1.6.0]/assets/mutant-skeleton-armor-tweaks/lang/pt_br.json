@@ -1,0 +1,32 @@
+{
+  "msat.config_screen.title": "Mutant Skeleton Armor Tweaks",
+
+  "msat.config_screen.category.general": "Configuração Geral",
+
+  "msat.config_screen.group.armor_effects": "Efeitos de Armadura",
+  "msat.config_screen.group.armor_effects.description": "Configure os efeitos de armadura fornecidos pelo conjunto de Esqueleto Mutante.",
+  "msat.config_screen.op_required": "\n§4§lAviso:§r §cVocê precisa ser um operador do servidor para editar isto.§r",
+
+  "msat.config_screen.enable_skull_multishot": "Ativar Multidisparo de Crânio",
+  "msat.config_screen.enable_skull_multishot.description": "Ativa a habilidade de multidisparo ao usar o §6Crânio de Esqueleto Mutante§r.\n\n§7Esta habilidade ativa multidisparo para arcos, com flechas disparadas com dispersão mais cerrada que o encantamento de multidisparo para bestas.§r",
+
+  "msat.config_screen.enable_chestplate_draw_speed": "Ativar Velocidade de Puxada do Peitoral",
+  "msat.config_screen.enable_chestplate_draw_speed.description": "Ativa puxada de arco mais rápida ao usar o §6Peitoral de Esqueleto Mutante§r.",
+
+  "msat.config_screen.enable_chestplate_crossbow_compat": "Ativar Compatibilidade com Besta do Peitoral",
+  "msat.config_screen.enable_chestplate_crossbow_compat.description": "Ativa bestas para serem compatíveis com a puxada mais rápida do §6Peitoral de Esqueleto Mutante§r §c(se ativada)§r ao usá-lo.",
+
+  "msat.config_screen.enable_leggings_effect": "Ativar Efeito das Calças",
+  "msat.config_screen.enable_leggings_effect.description": "Ativa Velocidade II ao usar as §6Calças de Esqueleto Mutante§r.",
+
+  "msat.config_screen.enable_boots_effect": "Ativar Efeito das Botas",
+  "msat.config_screen.enable_boots_effect.description": "Ativa Supersalto II ao usar as §6Botas de Esqueleto Mutante§r.",
+
+  "msat.tooltip.speed": " II (∞)",
+  "msat.tooltip.jump_boost": " II (∞)",
+  "msat.tooltip.skull_multishot": "Ativa Multidisparo para Arcos",
+  "msat.tooltip.chestplate_draw_speed.enabled": "§a- Puxada Mais Rápida",
+  "msat.tooltip.chestplate_draw_speed.disabled": "§7- Puxada Mais Rápida",
+  "msat.tooltip.chestplate_crossbow.enabled": "§a- Compatibilidade com besta",
+  "msat.tooltip.chestplate_crossbow.disabled": "§7- Compatibilidade com besta"
+}

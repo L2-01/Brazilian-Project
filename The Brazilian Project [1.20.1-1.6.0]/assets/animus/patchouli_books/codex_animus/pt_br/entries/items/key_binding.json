@@ -1,0 +1,28 @@
+{
+  "name": "guide.animus.entry.key_binding",
+  "icon": "animus:key_binding",
+  "category": "animus:items",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:key_binding",
+      "text": "A Chave de Vínculo é uma chave mística vinculada à Soul Network de um mago de sangue. Seu propósito principal é compartilhar seu LP com amigos — dê uma chave vinculada a um aliado e ele poderá vincular seus itens à SUA Soul Network, consumindo das suas reservas de LP.$(br2)$(bold)Fabricação:$() Coloque uma $(item)Chave Simples$() num Altar de Sangue Nível 1 com 1.500 LP."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Compartilhando LP",
+      "text": "$(blood)Cooperação Multijogador$()$(br2)1. Vincule a chave a você mesmo (botão direito)$(br)2. Dê a chave vinculada a um amigo$(br)3. Seu amigo a segura na mão secundária$(br)4. Quaisquer itens que ele vincular usarão a SUA Soul Network$(br2)Isso permite alimentar os sigilos e ferramentas vinculadas dos seus aliados sem que eles precisem de infraestrutura própria de LP!"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Vínculo:$() Clique com o botão direito segurando para vincular à sua Soul Network$(br2)$(bold)Mão Secundária:$() Segure na mão secundária ao vincular itens para usar a rede do dono da chave$(br2)$(bold)Slot de Curio:$() Pode ser equipada no slot de curio \"key\" para o mesmo efeito$(br2)$(bold)Fabricação:$() Usada em receitas que exigem vínculo de jogador"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Usos Estratégicos",
+      "text": "$(animus)Estratégias de Equipe:$()$(br)$(li)Designe um jogador como o gerador de LP$(li)Compartilhe chaves com companheiros focados em combate$(li)Alimente rituais caros pela rede de um amigo$(li)Deixe novos jogadores usarem sigilos avançados imediatamente$(br2)$(italic)A chave para desbloquear a cooperação nas artes sanguíneas.$()"
+    }
+  ]
+}

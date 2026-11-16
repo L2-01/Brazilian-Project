@@ -1,0 +1,17 @@
+{
+  "name": "Temperatura e Umidade",
+  "icon": "complicated_bees:meter",
+  "category": "complicated_bees:started",
+  "advancement": "complicated_bees:apiary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As abelhas precisam de condições específicas para trabalhar, que variam por espécie — em geral, as abelhas preferem trabalhar em ambientes semelhantes aos de sua origem; por exemplo, uma abelha Selvática preferiria um ambiente quente e úmido. Você pode usar um medidor para medir a temperatura e a umidade das áreas ao redor."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:meter",
+      "text": "$(thing)Use$() um medidor para medir um ambiente.$(br2)As faixas de umidade são Seco, Normal e Úmido.$(br2)As faixas de temperatura são Congelante, Gélido, Frio, Normal, Morno, Quente e Infernal."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Foco de Corrupção",
+  "icon": "goety:corruption_focus",
+  "category": "goety:focuses",
+  "advancement": "goety:goety/gain_night_beacon",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Sinalizador da Noite guarda um poder tremendo; você acredita que, alimentando-o com Energia de Almas, conseguirá transformar seu feixe trazedor de noite em algo mais devastador!"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/corruption_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:corruption_focus": 1
+  }
+}

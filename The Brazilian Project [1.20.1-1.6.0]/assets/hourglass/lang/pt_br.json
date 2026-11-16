@@ -1,0 +1,23 @@
+{
+  "commands.hourglass.config.query": "A config %s está atualmente definida como: %s",
+  "commands.hourglass.config.set": "A config %s agora está definida como: %s",
+  "commands.hourglass.config.failure": "Falha ao definir a config: %s",
+  "commands.hourglass.query.levelNotApplicable": "O Hourglass não controla esta dimensão.",
+  "commands.hourglass.query.timeSpeed.success": "A velocidade do tempo é %s",
+  "commands.hourglass.query.sleeperCount.success": "%s%% dos jogadores estão dormindo. [%s/%s]",
+  "hourglass.configgui.title": "Configuração do Hourglass",
+  "hourglass.configgui.preventClockWobble": "Prevenir Oscilação do Relógio",
+  "hourglass.configgui.clockAlignment": "Alinhamento do Relógio",
+  "hourglass.configgui.clockScale": "Tamanho do Relógio",
+  "hourglass.configgui.clockMargin": "Margem do Relógio",
+  "hourglass.configgui.pixels": "%s px",
+  "hourglass.configgui.screenAlignment.topLeft": "Superior Esquerdo",
+  "hourglass.configgui.screenAlignment.topCenter": "Superior Central",
+  "hourglass.configgui.screenAlignment.topRight": "Superior Direito",
+  "hourglass.configgui.screenAlignment.centerRight": "Centro direito",
+  "hourglass.configgui.screenAlignment.bottomRight": "Inferior Direito",
+  "hourglass.configgui.screenAlignment.bottomCenter": "Inferior Central",
+  "hourglass.configgui.screenAlignment.bottomLeft": "Inferior Esquerdo",
+  "hourglass.configgui.screenAlignment.centerLeft": "Centro esquerdo",
+  "hourglass.configgui.screenAlignment.centerCenter": "Centro"
+}

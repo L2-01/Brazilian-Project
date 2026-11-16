@@ -1,0 +1,39 @@
+{
+  "name": "Básicos do Arranjo Alquímico",
+  "icon": "bloodmagic:arcaneashes",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Cinzas Arcanas$() são um item essencial na criação de Arranjos Alquímicos. $(item)Cinzas Arcanas$() podem ser criadas na $(l:bloodmagic:alchemy_table/alchemy_table)Mesa de Alquimia$() usando alguns itens do começo do jogo."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Cinzas Arcanas",
+      "recipe": "bloodmagic:alchemytable/arcane_ash"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para criar um Arranjo Alquímico, pressione [$(k:use)] olhando para um bloco com as $(item)Cinzas Arcanas$() na mão. Isso consumirá 1 de durabilidade das 20 das $(item)Cinzas Arcanas$() e desenhará um $(thing)Arranjo Alquímico$() simples, que por si só não tem efeitos. $(br2)Quando você clica no $(thing)Arranjo Alquímico$(), ele consome um único $(item)item$() da pilha na sua mão e o segura no arranjo. Esses itens são então usados para determinar o efeito do $(thing)Arranjo Alquímico$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_array/simple_array.png",
+        "bloodmagic:images/entries/alchemy_array/divination_array_1.png",
+        "bloodmagic:images/entries/alchemy_array/divination_array_2.png"
+      ],
+      "title": "Arranjo Alquímico",
+      "border": true,
+      "text": "$(thing)Arranjo Alquímico$() mostrando o arranjo com: sem entradas; só o $(item)item base$(); tanto $(item)base$() quanto $(item)catalisador$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Cada efeito exige dois itens: uma $(item)base$() e um $(item)catalisador$(). A $(item)base$() é o primeiro item com que você clica no arranjo após ele ser desenhado, e o $(item)catalisador$() é o segundo item. Quando você aplica o item base, o desenho do arranjo mudará se for válido, e o arranjo ativará assim que você aplicar o catalisador."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Embora só alguns arranjos estejam implementados atualmente, eventualmente você terá arranjos que vão de simples $(l:bloodmagic:alchemy_array/functional_arrays/crafting_array)arranjos de criação$(/l) até arranjos de teletransporte."
+    }
+  ]
+}

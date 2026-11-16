@@ -1,0 +1,32 @@
+{
+    "name": "Mensagens",
+    "icon": "minecraft:paper",
+    "category": "mimi:7midi",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A comunicação via MIDI acontece por meio de mensagens discretas que geralmente incluem um único comando ou status.$(br2)Embora a maioria das mensagens se destine a aplicar-se a apenas um único canal, algumas se aplicam a todos eles."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Note On",
+            "text": "Essas mensagens se aplicam a um único canal e ativam a nota especificada.$(br2)Uma mensagem Note On inclui a nota a ser ativada e a velocity a ser usada (quão forte a nota foi tocada).$(br2)Quando um sintetizador recebe uma mensagem Note On, ele geralmente mantém aquela nota ativada até receber uma mensagem Note Off correspondente."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Note Off",
+            "text": "Essas mensagens se aplicam a um único canal e desativam a nota especificada."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Program Change",
+            "text": "Essas mensagens se aplicam a um único canal e informam ao sintetizador que quaisquer dados de nota seguintes devem ser tocados usando o programa especificado.$(br2)Nem todos os sintetizadores, como os instrumentos deste mod, lidam com mensagens de program change, já que podem suportar apenas um único programa."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "All Sounds Off",
+            "text": "Essas mensagens se aplicam a todos os canais e instruem o sintetizador a parar imediatamente todos os sons que está produzindo.$(br2)Uma mensagem semelhante, All Notes Off, aplica-se a apenas um único canal."
+        }
+    ],
+    "sortnum": 4
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Besta Negra",
+  "icon": "minecraft:chain",
+  "category": "goety:mutations",
+  "advancement": "goety:goety/read_haunting_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fazer uma Aparição possuir devidamente um Lobo Preto resulta numa criatura poderosa e antinatural que pode dilacerar seus inimigos com suas garras murchas e maldições ou, se o inimigo estiver fora de alcance, invocando aparições de suas cabeças para mordê-lo."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_black_wolf_to_black_beast"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:black_beast",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A besta pode ser curada alimentando-a com carne, assim como lobos domesticados, e pode se curar passivamente se seu dono vestir um Manto Selvagem. Clicar nela com o botão direito usando um Kit de Taglock que tenha uma criatura marcada fará com que ela cace tal criatura antes de retornar ao dono após matar sua presa."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:howling_soul",
+      "text": "Ao morrer, a besta se reduz a uma alma, que pode ser usada com o botão direito num Lobo Preto, leal ou não, para que ela o possua e o transforme de volta à sua forma original."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Criatura baseada em 'Nightmare Stalker' do mod 'Born In Chaos', de 'mongoose_artist'."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:howling_soul": 5
+  }
+}

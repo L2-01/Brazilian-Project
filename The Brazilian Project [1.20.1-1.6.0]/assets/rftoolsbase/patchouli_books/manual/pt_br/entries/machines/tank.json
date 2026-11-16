@@ -1,0 +1,19 @@
+{
+  "name": "Tanque",
+  "icon": "deepresonance:tank",
+  "category": "rftoolsbase:category_deepresonance_machines",
+  "extra_recipe_mappings": {
+    "deepresonance:tank": 1
+  },
+  "sortnum": 50,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Os tanques do Deep Resonance armazenam cristal líquido e podem formar multiblocos maiores. Um tanque quebrado mantém seu fluido armazenado e comparadores mostram o nível de enchimento."
+    },
+    {
+      "type": "crafting",
+      "recipe": "deepresonance:tank"
+    }
+  ]
+}

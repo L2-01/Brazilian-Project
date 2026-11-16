@@ -1,0 +1,27 @@
+{
+  "name": "Moradia de Abelhas",
+  "icon": "complicated_bees:apiary",
+  "category": "complicated_bees:started",
+  "advancement": "complicated_bees:recipes/misc/apiary",
+  "turnin": "complicated_bees:apiary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Agora que você tem abelhas, vai querer acomodá-las em uma casa própria, para que comecem a produzir aquele mel doce, doce! Um apiário é perfeitamente adequado para essa tarefa — com espaço de fácil acesso para abelhas, quadros e produtos, este pequeno bloco maravilhoso é o melhor amigo de um apicultor (ou, se preferir, de um apiarista)!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:apiary",
+      "title": "O Humilde Apiário",
+      "text": "Você pode usar qualquer tipo de favo para fabricar um apiário!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Depois de encontrar um bom lugar para se estabelecer, basta colocar seu apiário, posicionar sua princesa no espaço superior e um zangão no inferior, e pronto! Uma princesa e um zangão se combinam em uma rainha, que produzirá favos se estiver satisfeita. Se a barra à esquerda ficar vermelha, passe o cursor sobre ela para ver o que mais a rainha precisa."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando a rainha morre, ela produz descendência: sempre uma princesa e uma quantidade variável de zangões (com base em seu gene de fertilidade!). Esses zangões terão uma combinação semialeatória de genes de ambos os pais. Para mais informações, confira o capítulo $(l:complicated_bees:genetics/genetics)Visão Geral da Genética.$()"
+    }
+  ]
+}

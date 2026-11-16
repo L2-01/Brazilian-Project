@@ -1,0 +1,16 @@
+{
+  "name": "Aura do Crepúsculo",
+  "icon": "twilightdelight:twilight_cake",
+  "category": "twilightdelight:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Uma vez por segundo, este efeito transforma aleatoriamente um mob comum ao seu redor em sua contraparte do crepúsculo, seguindo as receitas de pó de transformação do Twilight Forest.$(br2)Mobs transformados são marcados para nunca serem transformados de novo. O alcance do efeito é marcado com partículas de portal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightdelight:twilight_cake",
+      "text": "Obtível do Bolo do Twilight Forest e suas fatias."
+    }
+  ]
+}

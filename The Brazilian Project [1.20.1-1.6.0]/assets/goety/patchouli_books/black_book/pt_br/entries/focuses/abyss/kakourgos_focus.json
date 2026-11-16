@@ -1,0 +1,22 @@
+{
+  "name": "Foco Kakoúrgos",
+  "icon": "goety_cataclysm:kakourgos_focus",
+  "category": "goety:cataclysm/focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Do mar, você invoca pequenos sujeitos espinhosos para rolar e envenenar seus inimigos com seus corpos cheios de espinhos e atitude grosseira."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/kakourgos_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() invoca mais sujeitos espinhosos de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:kakourgos_focus": 1
+  }
+}

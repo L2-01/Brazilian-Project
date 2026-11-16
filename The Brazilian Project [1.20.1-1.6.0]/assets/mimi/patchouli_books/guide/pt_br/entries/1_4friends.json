@@ -1,0 +1,16 @@
+{
+    "name": "Toque com Amigos",
+    "icon": "minecraft:player_head",
+    "category": "mimi:1overview",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Se você quiser tocar uma música com mais de 3 instrumentos de uma vez, uma forma de fazer isso é tocar com um amigo!$(br2)Se você vincular um instrumento ao seu Transmissor, ele continuará tocando notas do seu Transmissor mesmo quando usado por outro jogador, desde que ele esteja por perto."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Outros jogadores também podem vincular seus instrumentos ao seu Transmissor ao segurar shift + clicar com o botão direito em você enquanto seguram o instrumento que querem vincular."
+        }
+    ],
+    "sortnum": 4
+}

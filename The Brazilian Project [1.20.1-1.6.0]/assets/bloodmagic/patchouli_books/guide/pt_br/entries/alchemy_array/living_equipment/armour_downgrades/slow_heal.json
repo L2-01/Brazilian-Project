@@ -1,0 +1,16 @@
+{
+  "name": "Doente",
+  "icon": "minecraft:ghast_tear",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Reduz a eficácia de todas as fontes de cura. Máximo de 80%, então uma fonte que normalmente curaria 10 corações só curará 2."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/slow_heal",
+      "b.upgrade": "bloodmagic:slow_heal"
+    }
+  ]
+}

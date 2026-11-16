@@ -1,0 +1,18 @@
+{
+    "name": "Transmissor",
+    "icon": "mimi:transmitter",
+    "category": "mimi:3transmitter",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O Transmissor é usado para transmitir notas de um Arquivo MIDI para instrumentos no MIMI.$(br2)Para usar um Transmissor, crie um, coloque-o na sua mão principal ou secundária e clique com o botão direito para abrir a Tela do Transmissor.$(br2)O Transmissor funciona um pouco como um Baú de Ender: cada jogador só tem um, e todo item Transmissor será o mesmo para aquele jogador."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mimi:transmitter",
+            "link_recipe": true,
+            "text": "Quando uma música estiver tocando, ela continuará tocando enquanto um Transmissor estiver em uma das suas mãos ou na sua barra de acesso rápido.$(br2)Para abrir um Transmissor na sua barra de acesso rápido sem selecioná-lo, você pode usar uma tecla de atalho ($(l)$(k:key.mimi.midi.gui.transmitter)$())."
+        }
+    ],
+    "sortnum": 2
+}

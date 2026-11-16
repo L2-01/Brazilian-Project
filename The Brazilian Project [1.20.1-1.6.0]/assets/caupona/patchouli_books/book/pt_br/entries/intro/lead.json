@@ -1,0 +1,25 @@
+{
+  "name": "Chumbo",
+  "icon": "caupona:lead_ingot",
+  "category": "caupona:intro",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "caupona:leaden_walnut",
+      "link_recipe": true,
+      "text": "Há uma chance de $(l:worldgen/plants#walnut_tree)nogueiras$(/l) crescendo no Nether produzirem nozes de chumbo, em vez das normais."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "caupona:litharge_cake",
+      "link_recipe": true,
+      "text": "Deixar nozes de chumbo em repouso com uma bigorna (não consumida) em $(l:intro/counter_with_dolium)dólios$(/l) produz bolos de litargírio."
+    },
+    {
+      "type": "smelting",
+      "recipe": "caupona:smelting/lead_nugget",
+      "text": "Bolos de litargírio podem ser fundidos em pepitas de chumbo."
+    }
+  ]
+}

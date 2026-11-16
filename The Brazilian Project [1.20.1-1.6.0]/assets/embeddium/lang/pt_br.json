@@ -1,0 +1,9 @@
+{
+  "embeddium.conflicting_mod": "O Embeddium detectou a presença de mods conhecidos por causar problemas de renderização/falhas. Recomenda-se desinstalá-los. Veja a lista abaixo.",
+  "embeddium.conflicting_mod_list": "[{2}]",
+  "embeddium.search_bar_empty": "Buscar opções...",
+  "embeddium.options.added_by_mod_string": "Adicionado pelo mod: %s",
+  "embeddium.options.fullscreen.resolution.tooltip": "Controla a resolução do jogo no modo tela cheia.",
+  "embeddium.options.use_quad_normals_for_lighting.name": "Usar Sombreamento de Quad Preciso",
+  "embeddium.options.use_quad_normals_for_lighting.tooltip": "Quando ativado, o Embeddium aplicará sombreamento às faces de blocos não-vanilla com base na direção real para a qual estão voltadas, e não na direção alinhada ao eixo. Isso pode melhorar a qualidade da iluminação quando o pipeline de luz experimental do Forge está desativado (o que é recomendado para melhor desempenho).\n\nNão tem efeito se o pipeline de luz experimental estiver ativado."
+}

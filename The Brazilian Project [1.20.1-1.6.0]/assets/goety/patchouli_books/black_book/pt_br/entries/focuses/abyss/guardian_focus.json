@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Guardião",
+  "icon": "goety:guardian_focus",
+  "category": "goety:focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "De alguma forma, você consegue criar um feitiço que invoca e vincula os guardiões dos monumentos sob seu comando."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/guardian_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() invocará dois guardiões de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:guardian_focus": 1
+  }
+}

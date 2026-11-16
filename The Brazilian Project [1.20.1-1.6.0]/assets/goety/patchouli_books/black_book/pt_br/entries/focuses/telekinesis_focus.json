@@ -1,0 +1,18 @@
+{
+  "name": "Foco de Telecinesia",
+  "icon": "goety:telekinesis_focus",
+  "category": "goety:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Faz um item ou criatura alvo flutuar até a mira do conjurador, mas apenas se o alvo for igual ou menor que o tamanho do conjurador, se o foco não estiver encantado com Potência."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/telekinesis_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:telekinesis_focus": 1
+  }
+}

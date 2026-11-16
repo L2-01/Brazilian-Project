@@ -1,0 +1,21 @@
+{
+  "name": "Bruxos",
+  "icon": "goety:snap_fungus",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_warlock",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Primos das Bruxas, os Bruxos são criaturas hostis que atacam invocando Verrugosos sobre seus inimigos. Se o alvo chegar perto deles, eles arremessarão um monte de Fungos Mordedores no ar, que podem atingir tal alvo."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:warlock",
+      "text": "Eles são resistentes à magia assim como suas primas Bruxas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se um Aldeão estiver sob um Bloco de Obsidiana Chorona, ele tem chance de se transformar num Bruxo."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:ender_letter",
+    "name": "Carta Ender",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Carta Ender$() permite enviar itens a outros jogadores com mais facilidade. Ela pode armazenar até 9 pilhas dentro de si.$(br2)Em sua interface, digite o nome de usuário do destinatário. Depois, basta usá-la em qualquer $(l:irregular_implements:blocks/ender_mailbox)Caixa de Correio do Ender$(/l). Se a Caixa de Correio do destinatário não estiver cheia, ela será colocada dentro dela."
+        }
+    ]
+}

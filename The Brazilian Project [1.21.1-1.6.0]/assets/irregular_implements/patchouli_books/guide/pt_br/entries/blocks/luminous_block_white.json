@@ -1,0 +1,23 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:luminous_block_white",
+    "name": "Blocos Luminosos",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Os $(d)Blocos Luminosos$() estão sempre acesos."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:luminous_block_white"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:translucent_luminous_block_white"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:stained_bricks_white"
+        }
+    ]
+}

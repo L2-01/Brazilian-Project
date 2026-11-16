@@ -1,0 +1,25 @@
+{
+  "name": "Ritual Experiente do Nether",
+  "icon": "minecraft:nether_bricks",
+  "category": "goety:rituals",
+  "advancement": "minecraft:story/enter_the_nether",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Requisitos: $(li)Estar no Nether $(li)4 Crânios de Esqueleto-Wither $(li)32 Tijolos do Nether/Tijolos Vermelhos do Nether $(li)8 Fungos do Nether"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety:textures/gui/entries/expert_nether.png"
+      ],
+      "border": true,
+      "text": "Um exemplo de como o ritual pode ser disposto."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os Esqueletos-Wither são os restos carbonizados dos habitantes originais da Fortaleza, outrora Cultistas do Nether chamados 'Nephilim', traídos por suas próprias criações flamejantes. Mesmo na morte, eles ainda guardam poder mágico e talvez tenham conservado algum conhecimento arcano de magias avançadas. Talvez os Fungos que crescem da angústia dos condenados também guardem parte do conhecimento de suas vítimas."
+    }
+  ]
+}

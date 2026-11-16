@@ -1,0 +1,30 @@
+{
+  "name": "Suporte de Armaduras Assombrado",
+  "icon": "goety:haunted_armor_stand",
+  "category": "goety:crafts",
+  "advancement": "goety:goety/read_haunting_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os Suportes de Armaduras Assombrados são um pouco diferentes dos Suportes de Armadura comuns, pois, ao contrário destes, o suporte vem com braços para segurar armas ou itens. Por ser feito de Tábuas Assombradas, o suporte é imune ao fogo."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:haunted/haunted_armor_stand"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:animation_core",
+      "title": "Armadura Assombrada",
+      "text": "O que realmente torna o suporte especial é que, se ele estiver totalmente vestido de armadura, clicar nele com o botão direito usando um Núcleo de Animação transformará o suporte numa Armadura Assombrada leal."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Armaduras Assombradas podem ser curadas clicando nelas com o botão direito usando Ectoplasma."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:haunted_armor_stand": 1
+  }
+}

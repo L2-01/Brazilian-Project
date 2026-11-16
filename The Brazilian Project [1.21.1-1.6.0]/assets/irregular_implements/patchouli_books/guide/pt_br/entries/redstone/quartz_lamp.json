@@ -1,0 +1,11 @@
+{
+    "category": "irregular_implements:redstone",
+    "icon": "irregular_implements:quartz_lamp",
+    "name": "Lâmpada de Quartzo",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Lâmpada de Quartzo$(), ao receber um sinal de redstone, emitirá luz que não pode ser vista.$(br2)Ou seja, a geração de criaturas e outras lógicas do jogo tratarão a área como se estivesse iluminada, mas os jogadores não verão nenhuma luz."
+        }
+    ]
+}

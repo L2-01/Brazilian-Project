@@ -1,0 +1,40 @@
+{
+  "name": "Vassoura Assombrada",
+  "icon": "goety:haunted_broom",
+  "category": "goety:crafts/equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As lendas falam de bruxas cavalgando vassouras e voando pelos céus. Após algumas pesquisas, você descobriu um jeito de fazer uma para você."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:haunted/haunted_broom"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Vassoura Assombrada é essencialmente uma Varinha destituída da capacidade de conjurar feitiços, mas que recebeu a força e a habilidade de carregar você pelos ares. A vassoura só responde a comandos para frente e voará na direção para a qual você está olhando, embora seja preciso olhar para trás para diminuir a velocidade. Cuidado para não voar rápido demais, pois bater num bloco sólido pode causar dano a você e quebrar sua vassoura com o impacto."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Infelizmente, há um custo. A cada 8 blocos, por padrão, na vertical ou na horizontal, a vassoura precisa se alimentar da Energia de Almas de quem a monta. Se for privada da quantidade de Energia de Almas necessária para voar, a vassoura quebrará, derrubando você e ela do céu. Se você tiver uma quantidade insuficiente de Energia de Almas, não conseguirá montar na Vassoura Assombrada."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_book",
+      "title": "Encantamentos de Vassoura",
+      "text": "As Vassouras Assombradas têm seus próprios encantamentos exclusivos. Destemida faz com que elas quebrem com menos facilidade, e Fidelidade fará com que retornem a quem as colocou quando quebrarem, além de impedir que outros as usem uma vez colocadas depois de receber o encantamento."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "As Vassouras Assombradas podem, surpreendentemente, ser encantadas com dois $(l:focuses/focus_enchantments)encantamentos de foco$(). Velocidade, claro, aumenta a velocidade da vassoura. Ardência, porém, tem um efeito especial: se a vassoura quebrar ao colidir com um bloco sólido, ela explodirá! O tamanho da explosão depende da velocidade em que a vassoura estava."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Segundo algumas de suas pesquisas, as vassouras eram, na verdade, o cajado da bruxa disfarçado com uma escova na ponta. Além disso, elas provavelmente a montavam com a escova para a frente, mas isso me parece uma moda antiga e ultrapassada neste mundo."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:haunted_broom": 1
+  }
+}

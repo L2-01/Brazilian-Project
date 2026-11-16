@@ -1,0 +1,18 @@
+{
+  "name": "Roteador de Nó",
+  "icon": "bloodmagic:noderouter",
+  "category": "bloodmagic:demon_will/item_routing",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(item)Roteador de Nó$() é usado para ligar Nós entre si numa Rede. Sua funcionalidade é direta — basta segurar [$(k:sneak)] e [$(k:use)] mirando num nó, depois fazer o mesmo noutro nó a até 16 blocos. Esses dois nós agora estão ligados. Se quiser desselecionar um nó, [$(k:use)] em qualquer outro bloco. Veja a entrada sobre $(l:bloodmagic:demon_will/item_routing/routing_nodes)Nó de Roteamento$() para mais informações."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Roteador de Nó",
+      "recipe": "bloodmagic:soulforge/node_router",
+      "text": "$(italic)Uma varinha levemente mágica.$()"
+    }
+  ]
+}

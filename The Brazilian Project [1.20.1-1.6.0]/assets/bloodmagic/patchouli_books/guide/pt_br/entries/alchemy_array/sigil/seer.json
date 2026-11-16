@@ -1,0 +1,32 @@
+{
+  "name": "Selo do Vidente",
+  "icon": "bloodmagic:seersigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(item)Selo do Vidente$() é uma forma mais avançada do $(l:bloodmagic:alchemy_array/sigil/divination)Selo de Adivinhação$(). Além de mostrar a quantidade de LP na $(l:bloodmagic:altar/soul_network)Soul Network$(/l) do jogador vinculado, também mostra mais informações ao olhar para um $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(/l). $(br2)Como o $(item)Selo de Adivinhação$(), também pode ser usado para editar sua GUI. (Veja a entrada do Selo de Adivinhação para mais informações)"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Reagente de Visão",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_sight",
+      "array.heading": "Selo do Vidente",
+      "array.recipe": "bloodmagic:array/seersigil",
+      "array.text": "$(italic)Quando ver tudo não basta"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "De cima para baixo, temos: $(li)O Tier atual do $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(/l). $(li)A quantidade de sangue atualmente dentro do Altar, e a capacidade total atual do Altar. (O padrão é 10.000mb, mas pode ser aumentada com $(l:bloodmagic:altar/blood_rune/capacity_rune)Runas de Capacidade$() e $(l:bloodmagic:altar/blood_rune/aug_capacity_rune)Runas de Capacidade Aumentada.$() $(li)O progresso de criação atual, se houver. $(li)Consumo de LP/Tique — quanto LP o Altar usará por tique ao criar. $(li) Armazenamento de LP atual de quaisquer $(l:bloodmagic:altar/blood_rune/charging_rune)Runas de Carga$() que você tenha."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/seer_sigil_info.png"
+      ],
+      "title": "Selo do Vidente Display",
+      "border": true,
+      "text": "O Selo do Vidente exibe este HUD quando você olha para um Altar de Sangue."
+    }
+  ]
+}

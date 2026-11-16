@@ -1,0 +1,23 @@
+{
+  "fastload.screen.buildingTerrain.building": "Construindo Chunks Visíveis",
+  "fastload.screen.buildingTerrain.preparing": "Preparando Todos os Chunks",
+  "fastload.buildingTerrain.starting": "Iniciando Sessão",
+  "fastload.screen.buildingTerrain.template": "Concluído / Meta",
+  "fastload.screen.config": "Configuração do Fastload",
+  "fastload.button.debug": "Modo de Depuração",
+  "fastload.button.debug.tooltip": "As mensagens de depuração devem ser registradas nos registros?",
+  "fastload.button.instant_load": "Carregamento Instantâneo",
+  "fastload.button.instant_load.tooltip": "Está impaciente? Odeia telas de carregamento? Basta ativar, carregar um mundo, e você vai se arrepender. -_-",
+  "fastload.button.local_render_chunk_radius": "Raio Local",
+  "fastload.button.local_render_chunk_radius.tooltip": "Raio de quantos chunks em círculo devem ser renderizados no Building Terrain do Fastload para o modo um jogador.",
+  "fastload.button.local_render_chunk_radius.min": "Desativado",
+  "fastload.button.local_render_chunk_radius.max": "WTF",
+  "fastload.button.server_render_chunk_radius": "Raio do Servidor",
+  "fastload.button.server_render_chunk_radius.tooltip": "Raio de quantos chunks em círculo devem ser renderizados no Building Terrain do Fastload para Servidores.",
+  "fastload.button.server_render_chunk_radius.min": "Desativado",
+  "fastload.button.server_render_chunk_radius.max": "WTF",
+  "fastload.button.chunk_try_limit": "Limite de Tentativas de Chunks",
+  "fastload.button.chunk_try_limit.tooltip": "Quantas vezes a mesma contagem de chunks pode ser retornada em sequência antes de desistir da pré-renderização",
+  "fastload.button.chunk_try_limit.min": "PC da NASA",
+  "fastload.button.chunk_try_limit.max": "Caracol"
+}

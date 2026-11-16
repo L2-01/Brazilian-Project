@@ -1,0 +1,17 @@
+{
+  "name": "Arma de Portal",
+  "sortnum": 10,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:portal_gun_v2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Arma de Portal é um dispositivo revolucionário que permite a criação de portais. Clique esquerdo para disparar um projétil que cria um portal azul, e clique direito para um portal laranja. Atravesse um para emergir do outro, aplicável tanto a jogadores quanto a itens."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Arma de Portal",
+      "recipe": "justdirethings:portal_gun_v2"
+    }
+  ]
+}

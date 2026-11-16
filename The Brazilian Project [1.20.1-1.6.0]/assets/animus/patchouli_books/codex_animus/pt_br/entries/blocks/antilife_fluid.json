@@ -1,0 +1,23 @@
+{
+  "name": "guide.animus.entry.antilife_fluid",
+  "icon": "animus:antilife_bucket",
+  "category": "animus:blocks",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:antilife_bucket",
+      "text": "Um líquido corruptor que espalha destruição. O fluido AntiVida é criado quando um raio atinge a Essência Vital do Blood Magic, transformando-a numa força sombria e consumidora."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Criação",
+      "text": "$(bold)Como Criar:$()$(br)Coloque o fluido Essência Vital do Blood Magic e atinja-o com um raio (use um $(item)Para-raios$() ou o $(l:animus:sigils/sigil_storm)Sigilo da Tempestade$()).$(br2)A Essência Vital se transformará instantaneamente em fluido AntiVida, que:$(li)Propaga-se como água$(li)Consome blocos que toca$(li)Não pode ser revertida$(li)Pode ser coletada em baldes"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Comportamento",
+      "text": "$(bold)Propagação:$()$(br)Quando o fluido AntiVida toca blocos, converte-os em $(l:animus:blocks/antilife)blocos de AntiVida$(), que continuam propagando a corrupção.$(br2)$(bold)Interação com Essência Vital:$()$(br)Quando o fluido AntiVida toca fluido Essência Vital, propaga-se como fluido em vez de converter em blocos, corrompendo rapidamente grandes volumes.$(br2)$(bold)Aviso:$() Manuseie com extremo cuidado!"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Martelo",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_hammer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Expanda suas capacidades de mineração com a melhoria Martelo. Essa poderosa melhoria de ferramenta permite quebrar vários blocos de uma vez, tornando a mineração mais rápida e eficiente.$(br2)Na picareta de ouro de blaze, minera 3x3. Celestigema permite melhorar para 5x5, e picaretas de liga eclipse fazem 7x7. Clique no botão da melhoria na interface para alternar os modos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria: Martelo",
+      "recipe": "justdirethings:upgrade_hammer"
+    }
+  ]
+}

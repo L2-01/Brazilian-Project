@@ -1,0 +1,20 @@
+{
+  "name": "Resistência ao Fogo",
+  "icon": "minecraft:magma_cream",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Resistência ao Fogo$() torna o alvo imune à maioria dos danos baseados em fogo."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Resistência ao Fogo(3:00)",
+      "a.recipe": "bloodmagic:flask/fire_resist",
+      "b.heading": "Resistência ao Fogo(8:00)",
+      "b.recipe": "bloodmagic:flask/length_fire_resist",
+      "c.heading": "Resistência ao Fogo(21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_fire_resist"
+    }
+  ]
+}

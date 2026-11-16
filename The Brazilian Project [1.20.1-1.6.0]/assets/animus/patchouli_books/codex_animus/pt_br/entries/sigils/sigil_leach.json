@@ -1,0 +1,28 @@
+{
+  "name": "guide.animus.entry.sigil_leach",
+  "icon": "animus:sigil_leach",
+  "category": "animus:sigils",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "animus:crafting_array",
+      "recipe": "animus:array/sigil_leach",
+      "text": "Criado num $(blood)Círculo de Alquimia$() combinando um $(l:animus:items/reagentleach)Reagente: Lixiviação$() com uma $(item)Ardósia Reforçada$(). O reagente deve ser forjado primeiro na Forja Infernal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_leach",
+      "text": "Drene a vida da própria natureza para sustentar a sua. Este sigilo alternável consome automaticamente matéria vegetal do seu inventário ou do mundo para restaurar a fome."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Custo de LP:$() 5 LP por consumo$(br2)$(bold)Ativação:$() Agache + botão direito para ligar/desligar$(br2)Quando ativo e você pode comer:$(li)Consome plantas do inventário primeiro$(li)Depois varre blocos próximos (alcance de 8 blocos por padrão)$(li)Destrói blocos consumíveis$(li)Restaura 1-3 de fome + saturação"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Detalhes",
+      "text": "$(bold)Blocos Consumíveis:$()$(li)Troncos, folhas, mudas$(li)Flores, plantações, grama$(li)Alga, capim-marinho, trepadeiras$(li)A maioria das plantas que aceitam farinha de osso$(br2)$(bold)Geração de Vontade:$() Gera $(will)Vontade Corrosiva$() (0,3-0.8 por bloco) no chunk.$(br2)$(italic)O mago faminto nunca mais precisa cultivar.$()"
+    }
+  ]
+}

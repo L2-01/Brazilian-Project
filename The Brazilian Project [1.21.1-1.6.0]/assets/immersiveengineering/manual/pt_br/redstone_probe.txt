@@ -1,0 +1,20 @@
+Conector de Sonda de Redstone
+Comparativamente empolgante
+Conectores de Sonda são um dispositivo compacto com muitas funções do §2comparador de redstone§r.<br>
+Os níveis de sinal do comparador são emitidos no fio de redstone conectado. Além disso, um §llimite de sinal§r pode ser definido para que a sonda só emita se o sinal estiver acima do limite dado.<br>
+Essas sondas podem operar em dois canais, enviando seu sinal de leitura num enquanto recebe e emite sinais em outro. Todas essas configurações são feitas usando a Chave de Fenda de Engenheiro.<br>
+Note que muitos multiblocos têm suporte a comparador, como descrito nas páginas seguintes. Onde disponível, a superfície de controle de redstone do multibloco é o ponto designado para conectar um comparador ou conector de sonda.<np>
+§lTanque: §rconforme detalhado em sua <link;tank;entrada do manual>
+§lSilo: §rconforme detalhado em sua <link;silo;entrada do manual>
+§lMontadora: §rEmite sinal relativo ao enchimento do inventário.
+§lBancada Automatizada: §rEmite sinal relativo ao enchimento do inventário.
+§lTriturador: §rEmite sinal relativo ao enchimento do inventário.
+§lSerraria: §rEmite sinal relativo à integridade da lâmina.<np>
+§lForno a Arco: §rEmite sinal relativo ao enchimento do inventário.
+Um comparador nos eletrodos do topo emite sinal refletindo a integridade do eletrodo mais danificado.
+§lPrensadora: §rEmite sinal relativo ao enchimento do inventário.
+§lFermentador: §rEmite sinal relativo ao enchimento do inventário.
+§lMisturadora: §rEmite sinal relativo ao enchimento do inventário.<np>
+§lEscavadeira: §rEmite sinal relativo ao minério restante no veio.<br>
+<br>
+Para uma análise mais detalhada dos vários multiblocos, seus inventários e armazenamentos de energia e fluido, considere usar a <link;machine_interface;Interface de Máquina> em vez disso.

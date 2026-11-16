@@ -1,0 +1,40 @@
+{
+  "name": "Ponta de Ferro",
+  "icon": "bloodmagic:bow_power_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "extra_recipe_mappings": {
+    "bloodmagic:bow_power_anointment_strong": 0
+  },
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ponta de Ferro",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment",
+      "text": "Aumenta o dano das flechas disparadas em 25%. Também acumula com encantamentos Vanilla. $(br2)Itens válidos: Arcos, Bestas.$(br2)Aplica: Tiro Pesado I (256 tiros)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ponta de Ferro L",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_l",
+      "text": "Esta versão melhorada da unção dura quatro vezes mais. $(br2)Aplica: Tiro Pesado I (1024 tiros)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ponta de Ferro II",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_2",
+      "text": "Esta versão melhorada da unção aumenta o dano em 50% em vez disso. $(br2)Aplica: Tiro Pesado II (256 tiros)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ponta de Ferro XL",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_xl",
+      "text": "Esta versão melhorada da unção dura dezesseis vezes mais. $(br2)Aplica: Tiro Pesado I (4096 tiros)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ponta de Ferro III",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_3",
+      "text": "Esta versão melhorada da unção aumenta o dano em 75% em vez disso. $(br2)Aplica: Tiro Pesado III (256 tiros)"
+    }
+  ]
+}

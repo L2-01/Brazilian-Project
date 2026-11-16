@@ -1,0 +1,21 @@
+{
+ "name": "Stargate do Universo",
+ "icon": "sgjourney:universe_stargate",
+ "sortnum": 1,
+ "category": "sgjourney:stargates",
+ "pages": [
+  {
+   "title": "Stargate do Universo",
+   "type": "patchouli:image",
+   "images": [
+    "sgjourney:textures/gui/patchouli/universe_stargate.png"
+   ],
+   "text": "Stargate de Geração 1 com 36 símbolos."
+  },
+  {
+   "title": "Peculiaridades",
+   "type": "patchouli:text",
+   "text": "A Stargate inteira sempre gira enquanto está sendo discada. Esta Stargate pode ser discada manualmente."
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+---
+title: Acelerador de Partículas
+id: oritech:particle_accelerator
+type: block
+---
+
+O controlador do acelerador de partículas é o ponto de entrada das partículas. Itens inseridos neste bloco são transformados em partículas.
+Os resultados das colisões podem ser coletados no espaço de saída.
+
+Um [anel guia](@oritech:accelerator_ring) reto precisa ser colocado logo atrás do controlador, virado para o lado,
+com o visual alinhado corretamente. Qualquer item pode ser inserido no controlador para ser usado como partícula.
+
+Uma vez inserida, a partícula viaja por uma rota definida pelos anéis guia.
+
+Para informações detalhadas sobre a mecânica de aceleração de partículas, veja o [guia do acelerador de partículas]($particle_accelerator).
+
+---
+
+**Informações para Desenvolvedores de Mods**
+
+Outros mods podem reagir a partículas que saem do anel (sem próximo portão, ou uma curva feita rápido demais) registrando um
+`ParticleImpactBehavior` (pacote `rearth.oritech.api.accelerator`) durante a configuração comum:
+
+```java
+ParticleImpactBehaviors.register(Identifier.fromNamespaceAndPath("mymod", "my_target"), 10, context -> {
+    // inspect context.hitPos(), context.hitState(), context.speed() or context.particleItem()
+    return Optional.empty(); // or Optional.of(ParticleImpactResult.absorbed(context, true))
+});
+```
+
+Os comportamentos são chamados para cada bloco que não seja ar ao longo do caminho de saída, da prioridade mais alta para a mais baixa, e o
+primeiro `ParticleImpactResult` retornado é usado. Entidades no caminho são atingidas primeiro e reduzem a velocidade restante.
+O comportamento embutido (buracos negros de portais, quebra de blocos) é registrado como `oritech:block_impact` com prioridade 0.
+
+Um `ParticleImpactResult` contém:
+- `usedMomentum`: momento absorvido pelo bloco. A partícula para quando não sobra nada.
+- `consumedItem`: se o comportamento ficou com o item da partícula. Os blocos seguintes no caminho então veem um item vazio.

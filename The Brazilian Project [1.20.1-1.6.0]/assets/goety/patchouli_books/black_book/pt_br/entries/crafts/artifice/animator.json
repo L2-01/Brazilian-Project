@@ -1,0 +1,27 @@
+{
+  "name": "Animador",
+  "icon": "goety:animator",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/craft_animation_core",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Invocar golems e constructos usando um $(l:crafts/cores)Núcleo de Animação$() pode ser uma tarefa bem tediosa, principalmente quando feita com frequência. Após algumas pesquisas e experimentos, você conseguiu criar um dispositivo que anima golems para você."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:animator"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Animador não só precisa ser colocado em cima de uma $(l:intro/cursed_cage)Jaula Amaldiçoada$() cheia, como também exige um $(l:crafts/waystone)Obelisco$() vinculado colocado nele. Animar um golem ou constructo requer energia de almas, cuja quantidade depende da distância entre o local vinculado e o Animador. O local vinculado deve ser onde o invocador teria usado um Núcleo de Animação para invocar um golem. É preciso um sinal de redstone para ativar a máquina, desde que ambos os requisitos tenham sido atendidos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os Obeliscos são colocados na máquina da mesma forma que os Totens são colocados nas Jaulas Amaldiçoadas. Olhar para um Animador cheio enquanto agachado mostrará as coordenadas, o dono e o custo de energia de almas. Clicar nele com o botão direito, de mão vazia e agachado, mostrará o local vinculado."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:animator": 1
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "title.modpack-update-checker": "Modpack Update Checker",
+
+  "screen.modpack-update-checker.modpack-update.title": "Registro de alterações",
+  "screen.modpack-update-checker.info.title": "Informações",
+
+  "screen.modpack-update-checker.hotfix.downloading-text": "Baixando %s/%s %s %s%% concluído",
+  "screen.modpack-update-checker.hotfix.title": "Correções rápidas",
+  "screen.modpack-update-checker.hotfix.estimated-time": "Tempo estimado restante: %s:%s:%s",
+  "screen.modpack-update-checker.hotfix.select-all": "Selecionar tudo",
+  "screen.modpack-update-checker.hotfix.deselect-all": "Desmarcar tudo",
+  "screen.modpack-update-checker.hotfix.apply-hotfix": "Aplicar correção",
+  "screen.modpack-update-checker.hotfix.hotfix-applied": "Correção aplicada",
+  "screen.modpack-update-checker.hotfix.hotfix-applied.description": "Você pode precisar reiniciar o jogo.",
+  "screen.modpack-update-checker.hotfix.no-leaving": "Você não pode sair desta tela até que a correção seja aplicada.",
+
+  "screen.modpack-update-checker.editor.title": "Editor",
+  "screen.modpack-update-checker.editor.migrate-config": "Migrar configuração",
+  "screen.modpack-update-checker.editor.debug": "Informações de depuração",
+  "screen.modpack-update-checker.editor.reload": "Recarregar configuração",
+  "screen.modpack-update-checker.editor.reload.info": "Recarrega a configuração e busca novamente as informações e correções online.",
+  "screen.modpack-update-checker.editor.reload-hotfixes": "Recarregar correções",
+  "screen.modpack-update-checker.editor.add-modpack-mods": "Adicionar mods do modpack",
+  "screen.modpack-update-checker.editor.add-modpack-mods.info": "WIP: Dá a todos os mods atualmente carregados o selo [Modpack] no Mod Menu. (Somente Fabric/Quilt).",
+
+  "screen.modpack-update-checker.scrollable-flow.title": "Fluxo rolável",
+
+  "toast.modpack-update-checker.modpack-update-available": "Atualização de Modpack Disponível",
+  "toast.modpack-update-checker.modpack-update-available.description": "%s -> %s",
+
+  "toast.modpack-update-checker.hotfix-available": "Correção de modpack disponível",
+  "toast.modpack-update-checker.hotfix-available.description": "Instale no menu do modpack.",
+
+  "button.modpack-update-checker.changelog-button": "Registro de alterações",
+  "button.modpack-update-checker.changelog-button.update-available": "Atualização Disponível",
+  "button.modpack-update-checker.changelog-button.info": "Informações do Modpack",
+
+  "screen.modpack-update-checker.changelog.date-time-format": "ISO_LOCAL_DATE",
+  "screen.modpack-update-checker.changelog.to-be-announced": "Data de lançamento: a anunciar",
+  "screen.modpack-update-checker.changelog.releasingOn": "Lançamento em: %s",
+  "screen.modpack-update-checker.changelog.releasedAt": "Lançado em: %s",
+  "screen.modpack-update-checker.changelog.modpackInfo": "Informações do Modpack",
+  "screen.modpack-update-checker.changelog.modpackAuthors": "Por %s",
+
+  "screen.modpack-update-checker.select-world.modpack-backup": "Este mundo foi jogado pela última vez em %s %s; você está em %s %s. Faça um backup caso ocorra corrupção de mundo!",
+  "screen.modpack-update-checker.select-world.modpack-backup.incompatible": "Este mundo foi jogado pela última vez em %s %s, que não é compatível com a versão atual, %s %s.",
+  "screen.modpack-update-checker.select-world.incompatible-modpack-version": "Este mundo não é compatível com o modpack atual.",
+
+  "screen.modpack-update-checker.missing-mods.title": "Mods ausentes!",
+  "screen.modpack-update-checker.missing-mods.auto-download": "Download automático",
+  "screen.modpack-update-checker.missing-mods.downloaded.client-launch": "Baixado automaticamente",
+  "screen.modpack-update-checker.missing-mods.downloaded.automatic": "Baixado automaticamente",
+  "screen.modpack-update-checker.missing-mods.downloaded.manual": "Encontrado!",
+
+  "command.mpuc.error.invalid-hotfix": "%s não é válido",
+  "command.mpuc.error.hotfix-already-queued": "%s já está na fila",
+
+  "fancymenu.modpack-update-checker.helper.ui.dynamicvariabletextfield.categories.modpack-update-checker": "Modpack Update Checker",
+  "fancymenu.modpack-update-checker.placeholder.current-modpack-version": "Versão atual do modpack",
+  "fancymenu.modpack-update-checker.placeholder.current-modpack-version.description": "A versão atualmente instalada do modpack.",
+  "fancymenu.modpack-update-checker.placeholder.latest-modpack-version": "Versão mais recente do modpack",
+  "fancymenu.modpack-update-checker.placeholder.latest-modpack-version.description": "A versão mais recente disponível do modpack.",
+
+  "modpack-update-checker.markdown.renderer.builtin.basic.title": "Básico",
+  "modpack-update-checker.markdown.renderer.builtin.basic.description": "Renderizador básico com suporte a URLs e links Markdown",
+  "modpack-update-checker.markdown.renderer.builtin.mpuc_lavendermd.title": "Lavender",
+  "modpack-update-checker.markdown.renderer.builtin.mpuc_lavendermd.description": "Renderizador Markdown do Lavender com suporte a imagens, cabeçalhos etc."
+}

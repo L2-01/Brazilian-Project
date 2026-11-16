@@ -1,0 +1,28 @@
+{
+  "name": "Mãe de Ninhada",
+  "icon": "minecraft:cobweb",
+  "category": "goety:mutations",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com alguns reagentes e magia sombria, você conseguiu transformar uma aranha numa terrível Mãe de Ninhada."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_spider_to_brood_mother"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:brood_mother_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "As Mães de Ninhada não só são poderosas montarias cavalgáveis, como também disparam vários disparos de teia e põem ovos de aranha que eclodirão em servos aranha leais. O servo resultante surgirá em variedades diferentes dependendo de onde está seu ovo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O aracnídeo pode ser curado alimentando-o com carne, assim como outros servos aranha, e pode se curar passivamente se seu dono vestir um Manto Selvagem."
+    }
+  ]
+}

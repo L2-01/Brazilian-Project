@@ -1,0 +1,28 @@
+{
+  "name": "guide.animus.entry.sigil_storm",
+  "icon": "animus:sigil_storm",
+  "category": "animus:sigils",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "animus:crafting_array",
+      "recipe": "animus:array/sigil_storm",
+      "text": "Criado num $(blood)Círculo de Alquimia$() combinando um $(l:animus:items/reagentstorm)Reagente: Tempestade$() com uma $(item)Ardósia Reforçada$(). O reagente deve ser forjado primeiro na Forja Infernal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_storm",
+      "text": "Domine a fúria dos céus. O Sigilo da Tempestade invoca raios sobre seus inimigos e pode até invocar peixes das profundezas ao mirar na água."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Custo de LP:$() 500 por uso$(br2)Clique com o botão direito para invocar um raio no local mirado (até 64 blocos de distância).$(br2)$(bold)Especial:$() Ao mirar na água, o raio renderá saque de pesca ($(#)2-5 rolagens$() por padrão).$(br2)$(bold)Bônus de Chuva:$() Durante a chuva, causa dano em área a entidades a até 5 blocos do ponto de impacto."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Configuração",
+      "text": "O surgimento de saque de peixe pode ser configurado:$(li)Rolagens mínimas: 2 (padrão)$(li)Rolagens máximas: 5 (padrão)$(li)Defina ambos como 0 para desativar$(br2)O saque surge 1 segundo após o raio para evitar queimar.$(br2)Este sigilo é perfeito para pescar, combater, ou simplesmente exibir sua maestria dos elementos."
+    }
+  ]
+}

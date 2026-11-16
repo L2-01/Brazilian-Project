@@ -1,0 +1,32 @@
+{
+  "name": "Cobóleto Gladiador",
+  "icon": "cataclysm:kobolediator_skull",
+  "category": "goety:cataclysm/mutations",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Através de um simples Koboleton, você conseguiu reviver um poderoso Cobóleto Gladiador e colocá-lo sob o seu domínio."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_koboleton_to_kobolediator_servant"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:kobolediator",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O gladiador morto-vivo pode ser curado alimentando-o com ossos, e pode se curar passivamente se seu dono vestir uma Capa Necrótica."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_cataclysm:warrior_spirit",
+      "text": "Quando caem, esses guerreiros ancestrais derrubam seu espírito, que pode possuir um Koboleton para voltar dos mortos."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:warrior_spirit": 4
+  }
+}

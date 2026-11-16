@@ -1,0 +1,43 @@
+{
+  "name": "Soul Network",
+  "icon": "bloodmagic:weakbloodorb",
+  "category": "bloodmagic:altar",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(thing)Soul Network$() é a rede que conecta sua $(thing)Alma$() a todos os seus itens, rituais e blocos vinculados. Funcionalmente, é um armazenamento global de $(blood)LP$() único para cada jogador, que pode receber e perder carga, usando os itens vinculados do jogador como intermediário. Quando você pressiona [$(k:use)] pela primeira vez com um item que pode ser vinculado a uma $(thing)Soul Network$(), ele se vincula a você e passa a ser rotulado como"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "de sua \"propriedade\". Assim, qualquer ação que o item faça que tenha $(blood)custo de LP$() drenará da sua $(thing)Soul Network$(). Em alguns casos, se o item não conseguir obter $(blood)LP$() da $(thing)Soul Network$(), ele tirará o custo de $(blood)LP$() diretamente da sua vida.$(br2)Em outros casos (como quando um $(thing)Ritual$() em curso drena sua network por completo), eles apenas causarão náusea incessante até que o Ritual seja desativado ou sua $(thing)Soul Network$() seja reabastecida. "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para encher sua $(thing)Soul Network$(), você precisará construir um $(item)Orbe de Sangue$(). $(br2)Orbes de Sangue podem ser carregados com $(blood)LP$() de duas formas. $(li)Um jogador pode sacrificar 1 coração de vida pressionando [$(k:use)] com o $(item)Orbe de Sangue$(), fornecendo à $(thing)Soul Network$() vinculada $(blood)200 LP$(). $(li)O $(item)Orbe de Sangue$() pode ser colocado dentro de um $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(/l) com um pouco de $(blood)Essência Vital$() dentro. O Orbe a absorverá tão rápido quanto puder, limitado pelas suas $(item)Runas de Velocidade$() do Altar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Existe um $(item)Orbe de Sangue$() separado que pode ser criado para cada Tier do $(item)Altar de Sangue$(). Suas receitas estão documentadas adiante. $(li)$(item)Orbe de Sangue Fraco$() — Capacidade máx.: $(blood)5k LP$(). $(li)$(item)Orbe de Sangue de Aprendiz$() — Capacidade máx.: $(blood)25k LP$(). $(li)$(item)Orbe de Sangue de Mago$() — Capacidade máx.: $(blood)150k LP$(). $(li)$(item)Orbe de Sangue Mestre$() — Capacidade máx.: $(blood)1M LP$(). $(li)$(item)Orbe de Sangue de Arquimago$() — Capacidade máx.: $(blood)10M LP$()."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Orbe de Sangue Fraco",
+      "a.recipe": "bloodmagic:altar/weakbloodorb",
+      "b.heading": "Orbe de Sangue de Aprendiz",
+      "b.recipe": "bloodmagic:altar/apprenticebloodorb"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Orbe de Sangue de Mago",
+      "a.recipe": "bloodmagic:altar/magicianbloodorb",
+      "b.heading": "Orbe de Sangue Mestre",
+      "b.recipe": "bloodmagic:altar/masterbloodorb"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Orbe de Sangue de Arquimago",
+      "recipe": "bloodmagic:altar/archmagebloodorb",
+      "text": "Se ainda assim $(blood)o armazenamento de LP$() não for suficiente para você, considere usar $(l:bloodmagic:altar/blood_rune/orb_rune)Runas do Orbe$()."
+    }
+  ]
+}

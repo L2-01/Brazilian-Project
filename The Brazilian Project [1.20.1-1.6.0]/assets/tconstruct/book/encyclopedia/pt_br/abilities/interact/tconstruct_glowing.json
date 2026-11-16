@@ -1,0 +1,18 @@
+{
+  "modifier_id": "tconstruct:glowing",
+  "text": [
+    {
+      "text": "Coloca brilhos ao custo de 5 de durabilidade, que emitem luz até serem quebrados. Podem ser colocados ao interagir ou lançando um projétil."
+    },
+    {
+      "text": "Também pode ser usado no lugar de blocos para troca ou efeitos de fluido, colocando brilhos quando está na mão secundária ou ela está vazia.",
+      "paragraph": true
+    }
+  ],
+  "more_text_space": true,
+  "tool_filter": "tconstruct:modifiable/interactable",
+  "effects": [
+    "Máximo de 1 nível",
+    "Exige 1 espaço de habilidade"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Retorno",
+  "icon": "goety:recall_focus",
+  "category": "goety:focuses/void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Foco de Retorno permite ao conjurador teleportar-se de volta a um local salvo pelo Foco. Para usar o Foco, é preciso ter um local salvo clicando com o botão direito numa $(l:crafts/artifice/arca)Arca$() de sua propriedade, numa Cama ou numa Âncora de Renascimento com ele. Agachar e clicar com o botão direito no Foco apagará qualquer local salvo."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/recall_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O feitiço também permite ao conjurador teleportar seu servo até o local armazenado, onde ele aguardará se puder, clicando nele com o botão direito."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:recall_focus": 1
+  }
+}

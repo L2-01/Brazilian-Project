@@ -1,0 +1,47 @@
+{
+  "name": "A Arca",
+  "icon": "goety:arca",
+  "category": "goety:crafts/artifice",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Após algumas pesquisas, você encontrou um jeito de criar uma versão mais poderosa e versátil da $(l:intro/cursed_cage)Jaula Amaldiçoada$(). A Arca armazenará e distribuirá sua Energia de Almas, fazendo com que você não precise mais usar nem carregar um Totem das Almas."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:arca"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Arca é um dos blocos mais resistentes que você já encontrou; com a preservação da água e Obsidiana extra, sua força e Resistência a Explosões superam a maioria dos materiais, exceto a Rocha Matriz."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando você coloca uma Arca, ela reconhece você como seu dono. Como dono, você pode quebrar sua Arca instantaneamente clicando nela com o botão direito enquanto agachado, o que é bem útil considerando o quão dura ela é. Além disso, a Arca agora guarda toda a Energia de Almas que o dono coleta e usa, e prevalece sobre qualquer Totem das Almas que o Dono tenha."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Por isso, deve-se usar $(l:crafts/soul_transfer_gem)Gemas de Transferência$() para alimentar suas Jaulas Amaldiçoadas, pois tentar encher um Totem com uma Arca pode ser um processo complicado."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety:textures/gui/entries/arca.png"
+      ],
+      "border": true,
+      "text": "Runas mostram qual Arca está sendo usada."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você só pode ter UMA Arca; colocar outra fará a nova Arca substituir a anterior. Se a Arca for quebrada, a Energia de Almas armazenada evaporará lentamente, causando Fome de Almas, que enfraquece e retarda você, até que toda a Energia se esgote ou outra Arca seja colocada. Se houver várias Arcas, clicar com o botão direito em uma não utilizada, de mão vazia, transferirá qual Arca está em uso."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:waystone",
+      "text": "Você pode ajustar onde a Arca colocará você ao salvá-lo da morte. Clique na Arca com o botão direito segurando um Obelisco que tenha registrado uma posição a até 8 blocos da Arca, e ela tentará reviver você naquele local em vez de perto dela."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:arca": 1
+  }
+}

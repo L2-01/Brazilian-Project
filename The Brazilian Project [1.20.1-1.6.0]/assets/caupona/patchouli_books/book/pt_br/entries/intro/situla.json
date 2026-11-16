@@ -1,0 +1,17 @@
+{
+  "name": "Sítula",
+  "icon": "caupona:situla",
+  "category": "caupona:intro",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/situla",
+      "text": "O volume dentro de uma sítula é 1.250 mB, o mesmo das panelas de ensopado e dólios. Sítulas são dedicadas a transferir fluidos."
+    },
+    {
+      "type": "text",
+      "text": "Sítulas interagem com fluidos no mundo. Uma sítula pela metade ainda será enchida mesmo se o espaço restante for menor que o líquido."
+    }
+  ]
+}

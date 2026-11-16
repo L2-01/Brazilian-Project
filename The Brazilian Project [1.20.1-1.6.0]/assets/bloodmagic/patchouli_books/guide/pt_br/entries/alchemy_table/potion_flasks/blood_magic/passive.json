@@ -1,0 +1,20 @@
+{
+  "name": "Passivo",
+  "icon": "minecraft:honeycomb",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Passivo$() impede o alvo afetado de atacar. Jogadores não são afetados, porém."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Passivo (3:00)",
+      "a.recipe": "bloodmagic:flask/passivity",
+      "b.heading": "Passivo (8:00)",
+      "b.recipe": "bloodmagic:flask/length_passivity",
+      "c.heading": "Passivo (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_passivity"
+    }
+  ]
+}

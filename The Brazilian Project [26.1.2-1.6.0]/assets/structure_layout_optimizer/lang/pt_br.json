@@ -1,0 +1,8 @@
+{
+  "config.structure_layout_optimizer.title": "Structure Layout Optimizer",
+  "config.structure_layout_optimizer.desc": "Tentando otimizar geração de estruturas",
+  "config.structure_layout_optimizer.link.bug_report": "Reportar um Bug",
+  "config.structure_layout_optimizer.link.license": "Licença",
+  "config.structure_layout_optimizer.deduplicate_shuffled_template_pool_element_list": "Desduplicar a lista de elementos de conjuntos de modelos embaralhada",
+  "config.structure_layout_optimizer.deduplicate_shuffled_template_pool_element_list.desc": "Dita se deve ser utilizada uma estratégia alternativa para fazer estruturas gerarem levemente mais rápido do que a otimização padrão que este mod tem para pesos de conjuntos de modelos. Essa estratégia alternativa altera a lista de pedaços que estruturam coletam do conjunto de modelos de modo a não ter entradas duplicadas.\nIsso não quebrará a geração de estruturas, mas fará com que estruturas tenham composições diferentes das que teriam caso esta configuração estivesse desligada (quebrando paridade com sementes do jogo padrão). O custo de velocidade pode valer a pena em modpacks grandes onde múltiplos mods de estrutura podem estar usando valores bem altos nos pesos de seus Conjuntos de Modelos.\n\nPrós: Ganhe um pouco de performance adicional de pesos altos em Estruturas de Conjuntos de Modelos.\nContras: Perde paridade com sementes do jogo padrão no que diz respeito à composição da estrutura. (A composição da estrutura não é quebrada, só fica diferente)"
+}

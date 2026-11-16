@@ -1,0 +1,16 @@
+{
+  "name": "Carga do Lich",
+  "icon": "twilightdelight:chaos_ink_drink",
+  "category": "twilightdelight:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Este efeito restaura lentamente a durabilidade dos cetros de lich na sua hotbar e na mão secundária. Cetros com durabilidade máxima maior recarregam mais rápido."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightdelight:chaos_ink_drink",
+      "text": "Obtível de Bebida de Tinta do Caos, Caldo de Ossos de Feitiçaria, Pergaminho de Bolo Mágico e Ensopado do Caos."
+    }
+  ]
+}

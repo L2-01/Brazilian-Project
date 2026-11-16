@@ -1,0 +1,27 @@
+{
+  "name": "Upgrades",
+  "icon": "bloodmagic:mastercore",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "há dois upgrades atualmente disponíveis para a Rede de Roteamento. $(br2)Primeiro, o $(item)Upgrade de Lógica de Roteamento Básico$() aumenta a quantidade total de itens transferidos por operação. (uma por segundo, mas veja a seguir). Por padrão, a rede transferirá 16 itens por vez, mas cada um destes elevará esse limite em 8."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Upgrade de Lógica de Roteamento Básico",
+      "recipe": "bloodmagic:soulforge/master_node_upgrade",
+      "text": "Esses upgrades acumulam até 16, permitindo um total de 144 itens transferidos por segundo. Note que isso pode ser dividido entre múltiplas pilhas, caso muitos itens diferentes precisem ser transferidos de uma vez."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O segundo upgrade é o $(item)Upgrade de Velocidade de Roteamento Básico$(), que aumenta a taxa com que itens são transferidos. A taxa padrão é uma operação a cada 20 tiques (1 segundo), mas cada upgrade de velocidade reduz isso em 1 tique, até um máximo de um por tique com 19 upgrades."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Upgrade de Velocidade de Roteamento Básico",
+      "recipe": "bloodmagic:soulforge/master_node_upgrade_speed",
+      "text": "$(italic)eles acumulam até 19? isso parece... $(underline)errado$()$(italic), de alguma forma, mas era isso ou alterar o universo para que tudo tique 65 vezes por segundo, e isso teria deixado as pessoas ainda mais irritadas.$()"
+    }
+  ]
+}

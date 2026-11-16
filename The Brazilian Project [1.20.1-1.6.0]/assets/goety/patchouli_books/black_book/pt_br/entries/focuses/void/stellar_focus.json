@@ -1,0 +1,23 @@
+{
+  "name": "Foco Estelar",
+  "icon": "goety:stellar_focus",
+  "category": "goety:focuses/void",
+  "advancement": "goety:goety/kill_an_ender_keeper",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os ecos do vazio permitem criar um feitiço que, quando concentrado, invoca continuamente projéteis que, um segundo após serem conjurados, perseguem a localização de um inimigo e explodem numa onda de energia do vazio."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/stellar_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/void_staff)Cajado do Vazio$() invoca mais projéteis."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:stellar_focus": 1
+  }
+}

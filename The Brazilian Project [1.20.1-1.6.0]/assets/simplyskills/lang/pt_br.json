@@ -1,0 +1,1631 @@
+{
+  "key.category.simplyskills": "Simply Skills",
+  "key.simplyskills.ability1": "Habilidade Característica",
+  "key.simplyskills.ability2": "Habilidade de Ascendência",
+  "system.simplyskills.unlock": "§6Você desbloqueou uma especialização. Reabra a árvore de habilidades para ver sua aba de especialização.",
+
+
+  "effect.simplyskills.berserking": "Fúria Berserker",
+  "effect.simplyskills.berserking.desc": "Concede bônus ofensivos acumuláveis cada vez que você acerta um inimigo.",
+  "effect.simplyskills.berserking.description": "Concede bônus ofensivos acumuláveis cada vez que você acerta um inimigo.",
+
+  "effect.simplyskills.bloodthirsty": "Sede de Sangue",
+  "effect.simplyskills.bloodthirsty.desc": "Recupera PV quando você derrota um inimigo.",
+  "effect.simplyskills.bloodthirsty.description": "Recupera PV quando você derrota um inimigo.",
+
+  "effect.simplyskills.elemental_arrows": "Flechas Elementais",
+  "effect.simplyskills.elemental_arrows.desc": "Seu próximo ataque de arco totalmente carregado dispara flechas teleguiadas imbuídas de magia elemental.",
+  "effect.simplyskills.elemental_arrows.description": "Seu próximo ataque de arco totalmente carregado dispara flechas teleguiadas imbuídas de magia elemental.",
+
+  "effect.simplyskills.evasion": "Evasão",
+  "effect.simplyskills.evasion.desc": "Chance de evitar dano recebido.",
+  "effect.simplyskills.evasion.description": "Chance de evitar dano recebido.",
+
+  "effect.simplyskills.rampage": "Arremetida",
+  "effect.simplyskills.rampage.desc": "Concede bônus aleatórios quando você recebe dano.",
+  "effect.simplyskills.rampage.description": "Concede bônus aleatórios quando você recebe dano.",
+
+  "effect.simplyskills.siphoning_strikes": "Golpes de Dreno",
+  "effect.simplyskills.arrow_rain": "Chuva de Flechas",
+  "effect.simplyskills.arrow_rain.desc": "Seu próximo ataque de arco totalmente carregado invoca uma chuva de flechas no local alvo.",
+  "effect.simplyskills.arrow_rain.description": "Seu próximo ataque de arco totalmente carregado invoca uma chuva de flechas no local alvo.",
+
+  "effect.simplyskills.arcane_volley": "Salva Arcana",
+  "effect.simplyskills.arcane_volley.desc": "Dispara periodicamente raios arcanos no seu alvo.",
+  "effect.simplyskills.arcane_volley.description": "Dispara periodicamente raios arcanos no seu alvo.",
+
+  "effect.simplyskills.frost_volley": "Salva de Gelo",
+  "effect.simplyskills.frost_volley.desc": "Dispara periodicamente raios de gelo no seu alvo.",
+  "effect.simplyskills.frost_volley.description": "Dispara periodicamente raios de gelo no seu alvo.",
+
+  "effect.simplyskills.meteoric_wrath": "Ira Meteórica",
+  "effect.simplyskills.meteoric_wrath.desc": "Invoca periodicamente meteoros sobre hostis próximos.",
+  "effect.simplyskills.meteoric_wrath.description": "Invoca periodicamente meteoros sobre hostis próximos.",
+
+  "effect.simplyskills.static_charge": "Carga Estática",
+  "effect.simplyskills.disenchantment": "Desencantamento",
+  "effect.simplyskills.disenchantment.desc": "Perde bônus periodicamente.",
+  "effect.simplyskills.disenchantment.description": "Perde bônus periodicamente.",
+
+  "effect.simplyskills.leapslam": "Salto Esmagador",
+  "effect.simplyskills.elemental_impact": "Impacto Elemental",
+  "effect.simplyskills.fanofblades": "Leque de Lâminas",
+  "effect.simplyskills.bullrush": "Arremetida de Touro",
+  "effect.simplyskills.immobilize": "Imobilizar",
+  "effect.simplyskills.immobilize.desc": "Inflige dano e lentidão ao tentar se mover.",
+  "effect.simplyskills.immobilize.description": "Inflige dano e lentidão ao tentar se mover.",
+
+  "effect.simplyskills.elemental_surge": "Surto Elemental",
+  "effect.simplyskills.spellweaver": "Tecelão de Feitiços",
+  "effect.simplyskills.spellweaver.desc": "Chance aumentada de Tecer Feitiços.",
+  "effect.simplyskills.spellweaver.description": "Chance aumentada de Tecer Feitiços.",
+
+  "effect.simplyskills.immobilizing_aura": "Aura Imobilizante",
+  "effect.simplyskills.immobilizing_aura.desc": "Inflige Imobilizar em inimigos próximos.",
+  "effect.simplyskills.immobilizing_aura.description": "Inflige Imobilizar em inimigos próximos.",
+
+  "effect.simplyskills.spellbreaking": "Quebra de Feitiços",
+  "effect.simplyskills.spellbreaking_desc": "Explode projéteis mágicos hostis recebidos.",
+  "effect.simplyskills.spellbreaking_description": "Explode projéteis mágicos hostis recebidos.",
+
+  "effect.simplyskills.earthshaker": "Abalo Sísmico",
+  "effect.simplyskills.earthshaker.desc": "Causa dano em área ao aterrissar.",
+  "effect.simplyskills.earthshaker.description": "Causa dano em área ao aterrissar.",
+
+  "effect.simplyskills.arcane_attunement": "Sintonia Arcana",
+  "effect.simplyskills.arcane_attunement.desc": "Concede 2% de Poder Mágico Arcano por acúmulo.",
+  "effect.simplyskills.arcane_attunement.description": "Concede 2% de Poder Mágico Arcano por acúmulo.",
+
+  "effect.simplyskills.soul_attunement": "Sintonia de Almas",
+  "effect.simplyskills.soul_attunement.desc": "Concede 2% de Poder Mágico de Almas por acúmulo.",
+  "effect.simplyskills.soul_attunement.description": "Concede 2% de Poder Mágico de Almas por acúmulo.",
+
+  "effect.simplyskills.holy_attunement": "Sintonia Sagrada",
+  "effect.simplyskills.holy_attunement.desc": "Concede 2% de Poder Mágico de Cura por acúmulo.",
+  "effect.simplyskills.holy_attunement.description": "Concede 2% de Poder Mágico de Cura por acúmulo.",
+
+  "effect.simplyskills.fire_attunement": "Sintonia de Fogo",
+  "effect.simplyskills.fire_attunement.desc": "Concede 2% de Poder Mágico de Fogo por acúmulo.",
+  "effect.simplyskills.fire_attunement.description": "Concede 2% de Poder Mágico de Fogo por acúmulo.",
+
+  "effect.simplyskills.frost_attunement": "Sintonia de Gelo",
+  "effect.simplyskills.frost_attunement.desc": "Concede 2% de Poder Mágico de Gelo por acúmulo.",
+  "effect.simplyskills.frost_attunement.description": "Concede 2% de Poder Mágico de Gelo por acúmulo.",
+
+  "effect.simplyskills.lightning_attunement": "Sintonia de Relâmpago",
+  "effect.simplyskills.lightning_attunement.desc": "Concede 2% de Poder Mágico de Relâmpago por acúmulo.",
+  "effect.simplyskills.lightning_attunement.description": "Concede 2% de Poder Mágico de Relâmpago por acúmulo.",
+
+  "effect.simplyskills.precision": "Precisão",
+  "effect.simplyskills.precision.desc": "Concede 2% de dano crítico mágico e chance de crítico por acúmulo.",
+  "effect.simplyskills.precision.description": "Concede 2% de dano crítico mágico e chance de crítico por acúmulo.",
+
+  "effect.simplyskills.death_mark": "Marca da Morte",
+  "effect.simplyskills.death_mark.desc": "Cura e Resistência reduzidas em %25 por acúmulo.",
+  "effect.simplyskills.death_mark.description": "Cura e Resistência reduzidas em %25 por acúmulo.",
+
+  "effect.simplyskills.marksman": "Atirador",
+  "effect.simplyskills.marksman.desc": "Seu próximo ataque de arco totalmente carregado dispara uma flecha de atirador.",
+  "effect.simplyskills.marksman.description": "Seu próximo ataque de arco totalmente carregado dispara uma flecha de atirador.",
+
+  "effect.simplyskills.stealth": "Furtividade",
+  "effect.simplyskills.stealth.desc": "Concede invisibilidade total. O efeito termina ao receber ou causar dano.",
+  "effect.simplyskills.stealth.description": "Concede invisibilidade total. O efeito termina ao receber ou causar dano.",
+
+  "effect.simplyskills.might": "Pujança",
+  "effect.simplyskills.might.desc": "Concede 10% de Dano Corpo a Corpo aumentado por acúmulo.",
+  "effect.simplyskills.might.description": "Concede 10% de Dano Corpo a Corpo aumentado por acúmulo.",
+
+  "effect.simplyskills.exhaustion": "Exaustão",
+  "effect.simplyskills.exhaustion.desc": "Perde 1% de dano de ataque, velocidade de ataque e velocidade de movimento por acúmulo.",
+  "effect.simplyskills.exhaustion.description": "Perde 1% de dano de ataque, velocidade de ataque e velocidade de movimento por acúmulo.",
+
+  "effect.simplyskills.revealed": "Revelado",
+  "effect.simplyskills.revealed.desc": "Você não pode entrar em Furtividade.",
+  "effect.simplyskills.revealed.description": "Você não pode entrar em Furtividade.",
+
+  "effect.simplyskills.barrier": "Barreira",
+  "effect.simplyskills.barrier.desc": "Nega completamente o próximo dano recebido.",
+  "effect.simplyskills.barrier.description": "Nega completamente o próximo dano recebido.",
+
+  "effect.simplyskills.soulshock": "Choque de Almas",
+  "effect.simplyskills.soulshock.desc": "Concede +1 de Poder Mágico de Almas e Relâmpago por acúmulo.",
+  "effect.simplyskills.soulshock.description": "Concede +1 de Poder Mágico de Almas e Relâmpago por acúmulo.",
+
+  "effect.simplyskills.spellforged": "Forja Mágica",
+  "effect.simplyskills.spellforged.desc": "Concede +0,25 a todo Poder Mágico por acúmulo.",
+  "effect.simplyskills.spellforged.description": "Concede +0,25 a todo Poder Mágico por acúmulo.",
+
+  "effect.simplyskills.divine_adjudication": "Adjudicação Divina",
+  "effect.simplyskills.divine_adjudication.desc": "Conjura periodicamente Julgamento em hostis próximos.",
+  "effect.simplyskills.divine_adjudication.description": "Conjura periodicamente Julgamento em hostis próximos.",
+
+  "effect.simplyskills.sacred_onslaught": "Investida Sagrada",
+  "effect.simplyskills.consecration": "Consagração",
+  "effect.simplyskills.consecration.desc": "Consagra o chão sob seus pés.",
+  "effect.simplyskills.consecration.description": "Consagra o chão sob seus pés.",
+
+  "effect.simplyskills.taunted": "Provocado",
+  "effect.simplyskills.taunted.desc": "Só e capaz de mirar a entidade provocadora.",
+  "effect.simplyskills.taunted.description": "Só e capaz de mirar a entidade provocadora.",
+
+  "effect.simplyskills.undying": "Imortal",
+  "effect.simplyskills.undying.desc": "Você não pode cair abaixo de 1 PV. Se estiver abaixo de 65% de PV quando o efeito terminar, recebe dano fatal.",
+  "effect.simplyskills.undying.description": "Você não pode cair abaixo de 1 PV. Se estiver abaixo de 65% de PV quando o efeito terminar, recebe dano fatal.",
+
+  "effect.simplyskills.rage": "Fúria",
+  "effect.simplyskills.rage.desc": "Ganha 0,5% de dano de ataque, velocidade de ataque e dano recebido por acúmulo.",
+  "effect.simplyskills.rage.description": "Ganha 0,5% de dano de ataque, velocidade de ataque e dano recebido por acúmulo.",
+
+  "effect.simplyskills.overload": "Sobrecarga",
+  "effect.simplyskills.overload.desc": "Concede 75% de dano crítico mágico aumentado e 10% de chance de crítico mágico por acúmulo.\nAo exceder 5 acúmulos você sobrecarrega, causando dano significativo a si mesmo e a inimigos próximos.\n\nO dano causado aos inimigos escala com seu PV máximo e Poder Mágico de Almas.",
+  "effect.simplyskills.overload.description": "Concede 75% de dano crítico mágico aumentado e 10% de chance de crítico mágico por acúmulo.\nAo exceder 5 acúmulos você sobrecarrega, causando dano significativo a si mesmo e a inimigos próximos.\n\nO dano causado aos inimigos escala com seu PV máximo e Poder Mágico de Almas.",
+
+  "effect.simplyskills.bladestorm": "Tempestade de Lâminas",
+  "effect.simplyskills.bladestorm.desc": "Faz adagas girarem ao seu redor, causando dano a inimigos próximos. Cada acúmulo de Tempestade de Lâminas aumenta sua frequência de ataque e concede 1% de chance adicional de evasão.",
+  "effect.simplyskills.bladestorm.description": "Faz adagas girarem ao seu redor, causando dano a inimigos próximos. Cada acúmulo de Tempestade de Lâminas aumenta sua frequência de ataque e concede 1% de chance adicional de evasão.",
+
+  "effect.simplyskills.anointed": "Ungido",
+  "effect.simplyskills.anointed.desc": "Ataques corpo a corpo curam aliados próximos e causam dano em área escalado pelo seu Poder Mágico de Cura.",
+  "effect.simplyskills.anointed.description": "Ataques corpo a corpo curam aliados próximos e causam dano em área escalado pelo seu Poder Mágico de Cura.",
+
+  "effect.simplyskills.vitality_bond": "Vínculo Vital",
+  "effect.simplyskills.vitality_bond.desc": "PV sincronizado com a outra entidade afetada.",
+  "effect.simplyskills.vitality_bond.description": "PV sincronizado com a outra entidade afetada.",
+
+  "effect.simplyskills.marksmanship": "Pontária",
+  "effect.simplyskills.marksmanship.desc": "Concede 10% de Dano a Distância aumentado por acúmulo.",
+  "effect.simplyskills.marksmanship.description": "Concede 10% de Dano a Distância aumentado por acúmulo.",
+
+  "effect.simplyskills.agile": "Agilidade",
+  "effect.simplyskills.agile.desc": "Concede 5% de aumento em velocidade de ataque, velocidade de movimento, aceleração mágica e dano a distância por acúmulo.",
+  "effect.simplyskills.agile.description": "Concede 5% de aumento em velocidade de ataque, velocidade de movimento, aceleração mágica e dano a distância por acúmulo.",
+
+  "effect.simplyskills.bone_armor": "Armadura Óssea",
+  "effect.simplyskills.bone_armor.desc": "Concede +1 de armadura aumentada e 10% de resistência de armadura por osso. Um osso é perdido ao ser atingido",
+  "effect.simplyskills.bone_armor.description": "Concede +1 de armadura aumentada e 10% de resistência de armadura por osso. Um osso é perdido ao ser atingido",
+
+  "effect.simplyskills.righteous_hammers": "Martelos Justos",
+  "effect.simplyskills.righteous_hammers.desc": "Concede 2% de dano corpo a corpo aumentado por martelo e causa dano a inimigos próximos.",
+  "effect.simplyskills.righteous_hammers.description": "Concede 2% de dano corpo a corpo aumentado por martelo e causa dano a inimigos próximos.",
+
+  "effect.simplyskills.cyclonic_cleave": "Cutilada Ciclônica",
+  "effect.simplyskills.cyclonic_cleave.desc": "Executando uma Cutilada Ciclônica.",
+  "effect.simplyskills.cyclonic_cleave.description": "Executando uma Cutilada Ciclônica.",
+
+  "effect.simplyskills.cataclysm": "Cataclisma",
+  "effect.simplyskills.cataclysm.desc": "Conjurando um feitiço poderoso.",
+  "effect.simplyskills.cataclysm.description": "Conjurando um feitiço poderoso.",
+
+  "effect.simplyskills.rapidfire": "Tiro Rápido",
+  "effect.simplyskills.rapidfire.desc": "Executando Tiro Rápido.",
+  "effect.simplyskills.rapidfire.description": "Executando Tiro Rápido.",
+
+  "effect.simplyskills.torment": "Tormento",
+  "effect.simplyskills.torment.desc": "Amaldiçoado com Tormento.",
+  "effect.simplyskills.torment.description": "Amaldiçoado com Tormento.",
+
+  "effect.simplyskills.agony": "Agonia",
+  "effect.simplyskills.agony.desc": "Amaldiçoado com Agonia.",
+  "effect.simplyskills.agony.description": "Amaldiçoado com Agonia.",
+
+  "effect.simplyskills.arcane_slash": "Corte Arcano",
+  "effect.simplyskills.arcane_slash.desc": "Executando um Corte Arcano.",
+  "effect.simplyskills.arcane_slash.description": "Executando um Corte Arcano.",
+
+  "effect.simplyskills.magic_circle": "Círculo Mágico",
+  "effect.simplyskills.magic_circle.desc": "Potencializado por um círculo mágico.",
+  "effect.simplyskills.magic_circle.description": "Potencializado por um círculo mágico.",
+
+  "effect.simplyskills.golden_aegis": "Égide Dourada",
+  "effect.simplyskills.golden_aegis.desc": "Gerando poder sagrado.",
+  "effect.simplyskills.golden_aegis.description": "Gerando poder sagrado.",
+
+  "effect.simplyskills.righteous_shield": "Escudo Justo",
+  "effect.simplyskills.righteous_shield.desc": "Executando Escudo Justo.",
+  "effect.simplyskills.righteous_shield.description": "Executando Escudo Justo.",
+
+  "effect.simplyskills.shadow_aura": "Aura Sombria",
+  "effect.simplyskills.shadow_aura.desc": "Ataca inimigos próximos, mas drena o PV do usuário.",
+  "effect.simplyskills.shadow_aura.description": "Ataca inimigos próximos, mas drena o PV do usuário.",
+
+  "effect.simplyskills.focus": "Foco",
+  "effect.simplyskills.focus.desc": "Seu próximo ataque de arco carrega mais devagar e causa mais dano.",
+  "effect.simplyskills.focus.description": "Seu próximo ataque de arco carrega mais devagar e causa mais dano.",
+
+  "effect.simplyskills.titans_grip": "Punho do Tita",
+  "effect.simplyskills.titans_grip.desc": "Ataque mais devagar e cause dano aumentado ao empunhar uma única arma.",
+  "effect.simplyskills.titans_grip.description": "Ataque mais devagar e cause dano aumentado ao empunhar uma única arma.",
+
+  "effect.simplyskills.melody_of_war": "Melodia da Guerra",
+  "effect.simplyskills.melody_of_war.desc": "Ganha dano e regeneração aumentados.",
+  "effect.simplyskills.melody_of_war.description": "Ganha dano e regeneração aumentados.",
+
+  "effect.simplyskills.melody_of_swiftness": "Melodia da Ligeireza",
+  "effect.simplyskills.melody_of_swiftness.desc": "Ganha velocidade de movimento aumentada e Dádiva Marinha.",
+  "effect.simplyskills.melody_of_swiftness.description": "Ganha velocidade de movimento aumentada e Dádiva Marinha.",
+
+  "effect.simplyskills.melody_of_protection": "Melodia da Proteção",
+  "effect.simplyskills.melody_of_protection.desc": "Ganha Força e recebe 10% menos dano.",
+  "effect.simplyskills.melody_of_protection.description": "Ganha Força e recebe 10% menos dano.",
+
+  "effect.simplyskills.melody_of_safety": "Melodia da Segurança",
+  "effect.simplyskills.melody_of_safety.desc": "Recupera %10 do PV máximo por segundo.",
+  "effect.simplyskills.melody_of_safety.description": "Recupera %10 do PV máximo por segundo.",
+
+  "effect.simplyskills.melody_of_concentration": "Melodia da Concentração",
+  "effect.simplyskills.melody_of_concentration.desc": "Ganha velocidade de ataque e de movimento aumentadas.",
+  "effect.simplyskills.melody_of_concentration.description": "Ganha velocidade de ataque e de movimento aumentadas.",
+
+  "effect.simplyskills.melody_of_bloodlust": "Melodia da Sed de Sangue",
+  "effect.simplyskills.melody_of_bloodlust.desc": "Ganha velocidade de ataque e dano aumentados.",
+  "effect.simplyskills.melody_of_bloodlust.description": "Ganha velocidade de ataque e dano aumentados.",
+
+  "effect.simplyskills.raging_javelin": "Dardo Enfurecido",
+  "effect.simplyskills.raging_javelin.desc": "Arremessa periodicamente seu item segurado em inimigos.",
+  "effect.simplyskills.raging_javelin.description": "Arremessa periodicamente seu item segurado em inimigos.",
+
+
+
+  "item.simplyskills.malevolent_manuscript": "Manuscrito Malevolo",
+  "item.simplyskills.gracious_manuscript": "Manuscrito Gracioso",
+  "item.simplyskills.skill_chronicle": "Crônica de Habilidades",
+
+  "entity.simplyskills.dreadglare": "Dreadglare",
+  "entity.simplyskills.greater_dreadglare": "Dreadglare Superior",
+  "entity.simplyskills.wraith": "Espectro",
+
+  "item.simplyskills.malevolent_manuscript.tooltip1": "Devolve todos os pontos investidos ",
+  "item.simplyskills.malevolent_manuscript.tooltip2": "na sua árvore de habilidades básica, ",
+  "item.simplyskills.malevolent_manuscript.tooltip3": "permitindo você re-especializar-se.",
+  "item.simplyskills.malevolent_manuscript.tooltip4": "Isso também devora todo o conhecimento ",
+  "item.simplyskills.malevolent_manuscript.tooltip5": "das suas especializações, ",
+  "item.simplyskills.malevolent_manuscript.tooltip6": "consumindo toda a experiência investida.",
+  "item.simplyskills.malevolent_manuscript.tooltip7": "Isso não pode ser desfeito.",
+
+  "item.simplyskills.gracious_manuscript.tooltip1": "Desbloqueia todas as especializações ",
+  "item.simplyskills.gracious_manuscript.tooltip2": "e concede uma grande quantidade ",
+  "item.simplyskills.gracious_manuscript.tooltip3": "de experiência em cada uma.",
+  "item.simplyskills.gracious_manuscript.tooltip4": "Obtenível apenas no criativo.",
+
+  "item.simplyskills.skill_chronicle.tooltip1": "§7Capaz de armazenar seus pontos",
+  "item.simplyskills.skill_chronicle.tooltip2": "§7de habilidade gastos e suas",
+  "item.simplyskills.skill_chronicle.tooltip3": "§7especializações desbloqueadas.",
+  "item.simplyskills.skill_chronicle.tooltip4": "§7Você pode recuperar sua build armazenada",
+  "item.simplyskills.skill_chronicle.tooltip5": "§7livremente, desde que não tenha",
+  "item.simplyskills.skill_chronicle.tooltip6": "§7pontos gastos nas suas árvores.",
+  "item.simplyskills.skill_chronicle.tooltip7": "§f◇ §7Vazio§f",
+  "item.simplyskills.skill_chronicle.tooltip8": "§f◆ §6Cheio§f",
+  "item.simplyskills.skill_chronicle.tooltip9": "§7Segure o botão direito para armazenar.",
+  "item.simplyskills.skill_chronicle.tooltip10": "§7Segure o botão direito para restaurar.",
+  "item.simplyskills.skill_chronicle.tooltip11": "§fVocê perderá §c◇ %d §f pontos não gastos",
+  "item.simplyskills.skill_chronicle.tooltip12": "§fao restaurar esta build.",
+  "item.simplyskills.skill_chronicle.tooltip13": "§fao armazenar esta build.",
+  "item.simplyskills.skill_chronicle.tooltip14": "§6Especializações",
+  "item.simplyskills.skill_chronicle.tooltip15": "§bTotal de Pontos de Habilidade",
+  "item.simplyskills.skill_chronicle.tooltip16": "§7- Segure §2ALT§7 para mais info -",
+
+  "text.autoconfig.simplyskills.title": "Simply Skills",
+  "text.autoconfig.simplyskills.category.general": "Geral",
+  "text.autoconfig.simplyskills.category.wayfarer": "Andarilho",
+  "text.autoconfig.simplyskills.category.warrior": "Guerreiro",
+  "text.autoconfig.simplyskills.category.initiate": "Iniciado",
+  "text.autoconfig.simplyskills.category.berserker": "Berserker",
+  "text.autoconfig.simplyskills.category.wizard": "Mago",
+  "text.autoconfig.simplyskills.category.spellblade": "Lâmina Mágica",
+  "text.autoconfig.simplyskills.category.rogue": "Ladino",
+  "text.autoconfig.simplyskills.category.ranger": "Patrulheiro",
+  "text.autoconfig.simplyskills.category.crusader": "Cruzado",
+  "text.autoconfig.simplyskills.category.cleric": "Clérigo",
+  "text.autoconfig.simplyskills.category.necromancer": "Necromante",
+  "text.autoconfig.simplyskills.category.misc": "Diversos",
+
+
+  "text.autoconfig.simplyskills.option.client.enableAscendancy": "Ativar a Árvore de Habilidades de Ascendência",
+  "text.autoconfig.simplyskills.option.client.enableAscendancy.@Tooltip": "Ativada por padrão, a árvore de Ascendência e\ndesbloqueada após gastar o máximo de pontos na\nárvore básica e permite progressão a longo prazo.",
+  "text.autoconfig.simplyskills.option.client.treeResetOnDeath": "Zerar árvores de habilidade ao morrer",
+  "text.autoconfig.simplyskills.option.client.treeResetOnDeath.@Tooltip": "Zera todas as árvores de habilidade do Simply Skills ao morrer. \nIsso apaga todos os pontos e experiência investidos.",
+  "text.autoconfig.simplyskills.option.client.treeExpLossOnDeath": "Perder experiência da árvore de habilidade ao morrer",
+  "text.autoconfig.simplyskills.option.client.treeExpLossOnDeath.@Tooltip": "Subtrai uma porcentagem da experiência atual ao morrer, de todas as árvores. \nO valor e subtraído da experiência atual e nunca subtrairá além dela.",
+  "text.autoconfig.simplyskills.option.client.disableDefaultPuffishTrees": "Desativar árvores padrão do Puffish Skills",
+  "text.autoconfig.simplyskills.option.client.disableDefaultPuffishTrees.@Tooltip": "Desativa as árvores 'Mineração' e 'Combate' padrão\nque vem com o Puffish Skills.",
+  "text.autoconfig.simplyskills.option.client.enableBuildSharing": "Ativar compartilhamento de builds",
+  "text.autoconfig.simplyskills.option.client.enableBuildSharing.@Tooltip": "Permite que jogadores usem Crônicas de Habilidades feitas\npor outros jogadores.",
+  "text.autoconfig.simplyskills.option.client.skillChronicleCooldown": "Recarga da Crônica de Habilidades",
+  "text.autoconfig.simplyskills.option.client.skillChronicleCooldown.@Tooltip": "O tempo de recarga do item Crônica de Habilidades, em tiques (20 tiques = 1 segundo).",
+  "text.autoconfig.simplyskills.option.client.removeUnlockRestrictions": "Remover restrições de desbloqueio",
+  "text.autoconfig.simplyskills.option.client.removeUnlockRestrictions.@Tooltip": "Permite desbloquear Especializações sem \nchegar até elas na árvore de habilidades.\nTambém permite desbloquear mais de uma especialização.\n\nNão recomendado, exceto para testes.",
+  "text.autoconfig.simplyskills.option.client.spellHasteCooldownReductionModifier": "Modificador de Redução de Recarga da Aceleração Mágica",
+  "text.autoconfig.simplyskills.option.client.spellHasteCooldownReductionModifier.@Tooltip": "Controla o quanto a Aceleração Mágica impacta as recargas.\nUm valor maior reduz ainda mais as recargas.",
+  "text.autoconfig.simplyskills.option.client.minimumAchievableCooldown": "Recarga mínima alcançável (em segundos)",
+  "text.autoconfig.simplyskills.option.client.minimumAchievableCooldown.@Tooltip": "Limita o quão curta uma duração pode ser reduzida pela Aceleração Mágica.",
+  "text.autoconfig.simplyskills.option.client.minimumTimeBetweenAbilityUse": "Tempo mínimo entre uso de habilidade (em segundos)",
+  "text.autoconfig.simplyskills.option.client.minimumTimeBetweenAbilityUse.@Tooltip": "Limita a frequência com que um cliente pode pedir uso de habilidade ao servidor.\n Valor muito baixo pode permitir spam de pacotes e afetar o desempenho do servidor.",
+  "text.autoconfig.simplyskills.option.client.signatureHudX": "Deslocamento X do HUD",
+  "text.autoconfig.simplyskills.option.client.signatureHudX.@Tooltip": "Deslocamento X do HUD da Habilidade Característica em pixels.",
+  "text.autoconfig.simplyskills.option.client.signatureHudY": "Deslocamento Y do HUD",
+  "text.autoconfig.simplyskills.option.client.signatureHudY.@Tooltip": "Deslocamento Y do HUD da Habilidade Característica em pixels.",
+  "text.autoconfig.simplyskills.option.client.enableDDR": "Ativar Resistência a Dano Dinâmica (DDR)",
+  "text.autoconfig.simplyskills.option.client.enableDDR.@Tooltip": "A Resistência a Dano Dinâmica (DDR) e usada para mitigar o powercreep do jogador num cenário\nem que muitos mods podem interagir de formas que levam a números de dano absurdos.\n\nO DDR funciona reduzindo o dano que uma entidade recebe quando o DPS relativo ao seu PV máximo\nexcede um certo limiar.",
+  "text.autoconfig.simplyskills.option.client.enableDDRDebugLog": "Ativar Registro de Debug do DDR",
+  "text.autoconfig.simplyskills.option.client.enableDDRDebugLog.@Tooltip": "Fornece um registro com analises do DDR.",
+  "text.autoconfig.simplyskills.option.client.DDRHealthRequirement": "Requisito de Vida do DDR",
+  "text.autoconfig.simplyskills.option.client.DDRHealthRequirement.@Tooltip": "O PV máximo que uma entidade precisa ter para se beneficiar do DDR.",
+  "text.autoconfig.simplyskills.option.client.DDRHealthThreshold": "Limiar de Vida do DDR",
+  "text.autoconfig.simplyskills.option.client.DDRHealthThreshold.@Tooltip": "A porcentagem do PV máximo que uma entidade precisa sofrer em dano para se beneficiar do DDR.",
+  "text.autoconfig.simplyskills.option.client.DDRAmount": "Quantidade do DDR",
+  "text.autoconfig.simplyskills.option.client.DDRAmount.@Tooltip": "A quantidade base de mitigação de dano fornecida pelo DDR (maior = mais mitigação).",
+  "text.autoconfig.simplyskills.option.client.DDRAttackSpeedWeight": "Peso da Velocidade de Ataque do DDR",
+  "text.autoconfig.simplyskills.option.client.DDRAttackSpeedWeight.@Tooltip": "A influência que alta velocidade de ataque tem no DDR (maior = mais mitigação).",
+  "text.autoconfig.simplyskills.option.client.DDRAffectsPlayers": "DDR também afeta jogadores",
+  "text.autoconfig.simplyskills.option.client.DDRAffectsPlayers.@Tooltip": "Permite que o DDR afete jogadores. Útil quando necessário em PvP.",
+  "text.autoconfig.simplyskills.option.client.enableDAS": "Ativar Escalonamento Dinâmico de Atributos (DAS)",
+  "text.autoconfig.simplyskills.option.client.enableDAS.@Tooltip": "O Escalonamento Dinâmico de Atributos faz entidades ganharem atributos aumentados\ndependendo do número de jogadores por perto e dos seus pontos de habilidade investidos acumulados.\nO DAS pode ser usado sozinho ou junto com a Resistência a Dano Dinâmica.\n\nOS VALORES São MUITO SENSíveis!",
+  "text.autoconfig.simplyskills.option.client.enableDASDebugLog": "Ativar Registro de Debug do DAS",
+  "text.autoconfig.simplyskills.option.client.enableDASDebugLog.@Tooltip": "Fornece um registro com analises do DAS.",
+  "text.autoconfig.simplyskills.option.client.DASHealth": "Vida Máxima do DAS",
+  "text.autoconfig.simplyskills.option.client.DASHealth.@Tooltip": "A quantidade de vida a adicionar (multiplicada pelos pontos de habilidade gastos)",
+  "text.autoconfig.simplyskills.option.client.DASHealthAddMulti": "Multiplicador adicional de Vida Máxima do DAS",
+  "text.autoconfig.simplyskills.option.client.DASHealthAddMulti.@Tooltip": "Um multiplicador adicional que só terá efeito se a vida base da entidade for maior que o valor definido em 'Requisito de PV do Multiplicador Adicional do DAS'",
+  "text.autoconfig.simplyskills.option.client.DASRadius": "Raio do DAS",
+  "text.autoconfig.simplyskills.option.client.DASRadius.@Tooltip": "O raio máximo em que o DAS verifica jogadores a partir da posição da entidade.(Números altos podem afetar o desempenho)",
+  "text.autoconfig.simplyskills.option.client.DASUpdateFrequency": "Frequência de Atualização do DAS (em segundos)",
+  "text.autoconfig.simplyskills.option.client.DASUpdateFrequency.@Tooltip": "A frequência em segundos com que o DAS atualiza. (Valores menores podem afetar o desempenho)",
+  "text.autoconfig.simplyskills.option.client.DASPlayerScalingWeight": "Peso de Escalonamento por Jogador do DAS",
+  "text.autoconfig.simplyskills.option.client.DASPlayerScalingWeight.@Tooltip": "Controla o peso que cada jogador sucessivo tem no escalonamento de atributos. Quanto menor o número, menor o impacto de cada jogador sucessivo no escalonamento.",
+  "text.autoconfig.simplyskills.option.client.DASScaleWithPointsSpent": "DAS escala com pontos gastos",
+  "text.autoconfig.simplyskills.option.client.DASScaleWithPointsSpent.@Tooltip": "Se verdadeiro, o DAS escala com pontos gastos. Se falso, escala com o total de pontos (gastos e não gastos).",
+  "text.autoconfig.simplyskills.option.client.DASPassiveEntityModifier": "Modificador de Entidades Passivas do DAS",
+  "text.autoconfig.simplyskills.option.client.DASPassiveEntityModifier.@Tooltip": "Modifica o escalonamento total do DAS para Entidades Passivas (vacas, galinhas, ovelhas etc). Valor menor = menos escalonamento. Faixa: 0.0 -> 1.0",
+  "text.autoconfig.simplyskills.option.client.addMultiHealthRequirement": "Requisito de PV do Multiplicador Adicional do DAS",
+  "text.autoconfig.simplyskills.option.client.addMultiHealthRequirement.@Tooltip": "Se a vida base da entidade for maior que este valor, multiplicadores de atributo adicionais serão ativados. Isso permite escalar entidades chefes além do comum.",
+  "text.autoconfig.simplyskills.option.client.DASAttack": "Ataque do DAS",
+  "text.autoconfig.simplyskills.option.client.DASAttack.@Tooltip": "A quantidade de ataque a adicionar (multiplicada pelos pontos de habilidade gastos)",
+  "text.autoconfig.simplyskills.option.client.DASAttackAddMulti": "Multiplicador adicional de Ataque do DAS",
+  "text.autoconfig.simplyskills.option.client.DASAttackAddMulti.@Tooltip": "Um multiplicador adicional que só terá efeito se a vida base da entidade for maior que o valor definido em 'Requisito de PV do Multiplicador Adicional do DAS'",
+  "text.autoconfig.simplyskills.option.client.DASArmor": "Armadura do DAS",
+  "text.autoconfig.simplyskills.option.client.DASArmor.@Tooltip": "A quantidade de armadura a adicionar (multiplicada pelos pontos de habilidade gastos)",
+  "text.autoconfig.simplyskills.option.client.DASArmorAddMulti": "Multiplicador adicional de Armadura do DAS",
+  "text.autoconfig.simplyskills.option.client.DASArmorAddMulti.@Tooltip": "Um multiplicador adicional que só terá efeito se a vida base da entidade for maior que o valor definido em 'Requisito de PV do Multiplicador Adicional do DAS'",
+  "text.autoconfig.simplyskills.option.client.DASArmorToughness": "Resistência de Armadura do DAS",
+  "text.autoconfig.simplyskills.option.client.DASArmorToughness.@Tooltip": "A quantidade de resistência de armadura a adicionar (multiplicada pelos pontos de habilidade gastos)",
+  "text.autoconfig.simplyskills.option.client.DASToughnessAddMulti": "Multiplicador adicional de Resistência de Armadura do DAS",
+  "text.autoconfig.simplyskills.option.client.DASToughnessAddMulti.@Tooltip": "Um multiplicador adicional que só terá efeito se a vida base da entidade for maior que o valor definido em 'Requisito de PV do Multiplicador Adicional do DAS'",
+  "text.autoconfig.simplyskills.option.client.DASSpeed": "Velocidade de Movimento do DAS",
+  "text.autoconfig.simplyskills.option.client.DASSpeed.@Tooltip": "A quantidade de velocidade de movimento a adicionar (multiplicada pelos pontos de habilidade gastos)",
+  "text.autoconfig.simplyskills.option.client.DASSpeedAddMulti": "Multiplicador adicional de Velocidade de Movimento do DAS",
+  "text.autoconfig.simplyskills.option.client.DASSpeedAddMulti.@Tooltip": "Um multiplicador adicional que só terá efeito se a vida base da entidade for maior que o valor definido em 'Requisito de PV do Multiplicador Adicional do DAS'",
+  "text.autoconfig.simplyskills.option.client.DASKnockbackResist": "Resistência a Empurrão do DAS",
+  "text.autoconfig.simplyskills.option.client.DASKnockbackResist.@Tooltip": "A quantidade de resistência a empurrão a adicionar (multiplicada pelos pontos de habilidade gastos)",
+  "text.autoconfig.simplyskills.option.client.DASResistAddMulti": "Multiplicador adicional de Resistência a Empurrão do DAS",
+  "text.autoconfig.simplyskills.option.client.DASResistAddMulti.@Tooltip": "Um multiplicador adicional que só terá efeito se a vida base da entidade for maior que o valor definido em 'Requisito de PV do Multiplicador Adicional do DAS'",
+
+  "text.autoconfig.simplyskills.option.client.innerLineR": "Cor interna da conexão VERMELHO",
+  "text.autoconfig.simplyskills.option.client.innerLineR.@Tooltip": "A cor interna VERMELHA da linha de conexão renderizada entre nos de habilidade. Valores em RGB.",
+  "text.autoconfig.simplyskills.option.client.innerLineR.@PrefixText": "§aOpções de renderização do cliente§7",
+  "text.autoconfig.simplyskills.option.client.innerLineG": "Cor interna da conexão VERDE",
+  "text.autoconfig.simplyskills.option.client.innerLineG.@Tooltip": "A cor interna VERDE da linha de conexão renderizada entre nos de habilidade. Valores em RGB.",
+  "text.autoconfig.simplyskills.option.client.innerLineB": "Cor interna da conexão AZUL",
+  "text.autoconfig.simplyskills.option.client.innerLineB.@Tooltip": "A cor interna AZUL da linha de conexão renderizada entre nos de habilidade. Valores em RGB.",
+  "text.autoconfig.simplyskills.option.client.innerLineA": "Alfa interno da conexão",
+  "text.autoconfig.simplyskills.option.client.innerLineA.@Tooltip": "O Alfa da linha de conexão interna renderizada entre nos de habilidade. 0.0 -> 1.0",
+
+  "text.autoconfig.simplyskills.option.client.outerLineR": "Cor externa da conexão VERMELHO",
+  "text.autoconfig.simplyskills.option.client.outerLineR.@Tooltip": "A cor externa VERMELHA da linha de conexão renderizada entre nos de habilidade. Valores em RGB.",
+  "text.autoconfig.simplyskills.option.client.outerLineG": "Cor externa da conexão VERDE",
+  "text.autoconfig.simplyskills.option.client.outerLineG.@Tooltip": "A cor externa VERDE da linha de conexão renderizada entre nos de habilidade. Valores em RGB.",
+  "text.autoconfig.simplyskills.option.client.outerLineB": "Cor externa da conexão AZUL",
+  "text.autoconfig.simplyskills.option.client.outerLineB.@Tooltip": "A cor externa AZUL da linha de conexão renderizada entre nos de habilidade. Valores em RGB.",
+  "text.autoconfig.simplyskills.option.client.outerLineA": "Alfa externo da conexão",
+  "text.autoconfig.simplyskills.option.client.outerLineA.@Tooltip": "O Alfa da linha de conexão externa renderizada entre nos de habilidade. 0.0 -> 1.0",
+
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorArmorMasteryArmorThreshold.@PrefixText": "§aAlterar estes valores pode levar a instabilidade/crashes do jogo. Use por sua conta e risco.§7,",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorArmorMasteryArmorThreshold": "§a[Passivo]§7 limiar de Domínio de Armadura",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorArmorMasteryChance": "§a[Passivo]§7 chance de Domínio de Armadura",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorHeavyArmorMasteryDuration": "§a[Passivo]§7 duração de Domínio de Armadura Pesada",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorHeavyArmorMasteryAmplifier": "§a[Passivo]§7 amplificador de Domínio de Armadura Pesada",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorMediumArmorMasteryDuration": "§a[Passivo]§7 duração de Domínio de Armadura Média",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorMediumArmorMasteryAmplifier": "§a[Passivo]§7 amplificador de Domínio de Armadura Média",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorShieldMasteryFrequency": "§a[Passivo]§7 frequência de Domínio do Escudo",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorShieldMasteryWeaknessAmplifier": "§a[Passivo]§7 amplificador de Domínio do Escudo Fraqueza",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorShieldMasteryResistanceAmplifier": "§a[Passivo]§7 amplificador de Domínio do Escudo Resistência",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorShieldMasteryResistanceAmplifierPerTier": "§a[Passivo]§7 amplificador por nível de Domínio do Escudo Resistência",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorRebukeChance": "§a[Passivo]§7 chance de Repreensão",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorRebukeWeaknessDuration": "§a[Passivo]§7 duração de Repreensão",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorRebukeWeaknessAmplifier": "§a[Passivo]§7 amplificador de Repreensão",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorSpellbreakerChance": "§a[Passivo]§7 chance de Quebra-feitiços",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorSpellbreakerDuration": "§a[Passivo]§7 duração de Quebra-feitiços",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorSpellbreakerRadius": "§a[Passivo]§7 raio de Quebra-feitiços",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorSpellbreakerFrequency": "§a[Passivo]§7 frequência de Quebra-feitiços",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorGoliathFallDistance": "§a[Passivo]§7 distância de queda de Golias",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorHeavyWeightDamageIncreasePerTick": "§a[Passivo]§7 aumento de dano por tique de Peso Pesado",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorDeathDefyFrequency": "§a[Passivo]§7 frequência de Desafiar a Morte",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorDeathDefyHealthThreshold": "§a[Passivo]§7 limiar de vida de Desafiar a Morte frequency",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorDeathDefyAmplifierPerTenPercentHealth": "§a[Passivo]§7 amplificador por 10% de vida de Desafiar a Morte",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorFrenzyExhaustionDuration": "§a[Passivo]§7 duração de Frenesi Exaustão",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorFrenzyExhaustionStacks": "§a[Passivo]§7 acúmulos de Frenesi Exaustão",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorTwinstrikeChance": "§a[Passivo]§7 chance de Golpe Duplo",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorTwinstrikeChance.@Tooltip": "A chance do efeito Golpe Duplo ocorrer.",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorSwordfallChance": "§a[Passivo]§7 chance de Chuva de Espadas",
+  "text.autoconfig.simplyskills.option.warrior.passiveWarriorSwordfallChance.@Tooltip": "A chance do efeito Chuva de Espadas ocorrer.",
+
+  "text.autoconfig.simplyskills.option.wayfarer.passiveWayfarerSlenderArmorThreshold.@PrefixText": "§aAlterar estes valores pode levar a instabilidade/crashes do jogo. Use por sua conta e risco.§7",
+  "text.autoconfig.simplyskills.option.wayfarer.passiveWayfarerSlenderArmorThreshold": "§a[Passivo]§7 limiar de armadura de Esbelto",
+  "text.autoconfig.simplyskills.option.wayfarer.passiveWayfarerSneakSpeedAmplifier": "§a[Passivo]§7 amplificador de Agachamento Velocidade",
+  "text.autoconfig.simplyskills.option.wayfarer.passiveWayfarerReflexiveEvasionDuration": "§a[Passivo]§7 duração de Reflexo Evasion",
+  "text.autoconfig.simplyskills.option.wayfarer.passiveWayfarerReflexiveChance": "§a[Passivo]§7 chance de Reflexo",
+  "text.autoconfig.simplyskills.option.wayfarer.passiveWayfarerGuardingBarrierFrequency": "§a[Passivo]§7 frequência de Guarda Barreira",
+  "text.autoconfig.simplyskills.option.wayfarer.passiveWayfarerGuardingBarrierDuration": "§a[Passivo]§7 duração de Guarda Barreira",
+  "text.autoconfig.simplyskills.option.wayfarer.passiveWayfarerGuardingBarrierStacks": "§a[Passivo]§7 acúmulos de Guarda Barreira",
+  "text.autoconfig.simplyskills.option.wayfarer.passiveWayfarerGuardingBarrierMaxStacks": "§a[Passivo]§7 acúmulos máximos de Guarda Barreira",
+
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateFrailArmorThreshold.@PrefixText": "§aAlterar estes valores pode levar a instabilidade/crashes do jogo. Use por sua conta e risco.§7",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateFrailArmorThreshold": "§a[Passivo]§7 limiar de armadura de Frágil",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateFrailAttackThreshold": "§a[Passivo]§7 limiar de ataque de Frágil",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateFrailWeaknessAmplifier": "§a[Passivo]§7 amplificador de Frágil Fraqueza",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateFrailMiningFatigueAmplifier": "§a[Passivo]§7 amplificador de Frágil Exaustão",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateNullificationFrequency": "§a[Passivo]§7 frequência de Anulação",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateNullificationRadius": "§a[Passivo]§7 raio de Anulação",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateSlowFallDistanceToActivate": "§a[Passivo]§7 distância para ativar de Queda Lenta",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateEmpowerChance": "§a[Passivo]§7 chance de Potencializar",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateEmpowerDuration": "§a[Passivo]§7 duração de Potencializar",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateEmpowerStacks": "§a[Passivo]§7 acúmulos de Potencializar",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateEmpowerMaxStacks": "§a[Passivo]§7 acúmulos máximos de Potencializar",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateAttunedDuration": "§a[Passivo]§7 duração de Sintonizado",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateAttunedStackThreshold": "§a[Passivo]§7 limiar de acúmulos de Sintonizado",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateAttunedStacks": "§a[Passivo]§7 acúmulos de Sintonizado",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateAttunedMaxStacks": "§a[Passivo]§7 acúmulos máximos de Sintonizado",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateAttunedFrequency": "§a[Passivo]§7 frequência de Sintonizado",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateLightningRodDuration": "§a[Passivo]§7 duração de Para-Raios",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateLightningRodStacks": "§a[Passivo]§7 acúmulos de Para-Raios",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateLightningRodMaxStacks": "§a[Passivo]§7 acúmulos máximos de Para-Raios",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateLightningRodFrequency": "§a[Passivo]§7 frequência de Para-Raios",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateHastyStacks": "§a[Passivo]§7 acúmulos de Apressado Lentidão",
+  "text.autoconfig.simplyskills.option.initiate.passiveInitiateHastyDuration": "§a[Passivo]§7 duração de Apressado Lentidão",
+
+
+
+
+  "text.autoconfig.simplyskills.option.ranger.enableRangerSpecialisation": "Ativar Especialização de Patrulheiro",
+  "text.autoconfig.simplyskills.option.ranger.enableRangerSpecialisation.@Tooltip": "Ativa/Desativa a capacidade de desbloquear esta especialização.\nNão trava retroativamente a especialização se já desbloqueada.",
+  "text.autoconfig.simplyskills.option.ranger.enableRangerSpecialisation.@PrefixText": "§aAlterar estes valores pode levar a instabilidade/crashes do jogo. Use por sua conta e risco.§7",
+
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerRevealRadius": "§a[Passivo]§7 raio de Revelar",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerRevealFrequency": "§a[Passivo]§7 frequência de Revelar",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerTamerRadius": "§a[Passivo]§7 raio de Domador",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerTamerFrequency": "§a[Passivo]§7 frequência de Domador",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerTamerResistanceAmplifier": "§a[Passivo]§7 amplificador de Domador Resistência",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerTamerRegenerationAmplifier": "§a[Passivo]§7 amplificador de Domador Regeneração",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerBondedRadius": "§a[Passivo]§7 raio de Vinculado",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerBondedFrequency": "§a[Passivo]§7 frequência de Vinculado",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerBondedPetMinimumHealthPercent": "§a[Passivo]§7 porcentagem mínima de vida do pet de Vinculado",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerBondedHealthTransferAmount": "§a[Passivo]§7 quantidade de transferência de vida de Vinculado",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerTrainedRadius": "§a[Passivo]§7 raio de Treinado",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerTrainedFrequency": "§a[Passivo]§7 frequência de Treinado",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerTrainedStrengthAmplifier": "§a[Passivo]§7 amplificador de Treinado Força",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerTrainedSpeedAmplifier": "§a[Passivo]§7 amplificador de Treinado Velocidade",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerTrainedMinimumHealthPercent": "§a[Passivo]§7 porcentagem mínima de vida de Treinado",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerIncognitoRadius": "§a[Passivo]§7 raio de Incógnito",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerIncognitoFrequency": "§a[Passivo]§7 frequência de Incógnito",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerElementalArrowsRenewalChance": "§a[Passivo]§7 chance de Flechas Elementais Renovação",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerElementalArrowsRenewalDuration": "§a[Passivo]§7 duração de Flechas Elementais Renovação",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerElementalArrowsRenewalStacks": "§a[Passivo]§7 acúmulos de Flechas Elementais Renovação",
+  "text.autoconfig.simplyskills.option.ranger.passiveRangerElementalArrowsRenewalMaximumStacks": "§a[Passivo]§7 acúmulos máximos de Flechas Elementais Renovação",
+
+  "text.autoconfig.simplyskills.option.ranger.signatureRangerDisengageRadius": "§6[Assinatura]§7 raio de Desengajar",
+  "text.autoconfig.simplyskills.option.ranger.signatureRangerDisengageCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Desengajar",
+  "text.autoconfig.simplyskills.option.ranger.signatureRangerDisengageVelocity": "§6[Assinatura]§7 velocidade de Desengajar",
+  "text.autoconfig.simplyskills.option.ranger.signatureRangerDisengageHeight": "§6[Assinatura]§7 altura de Desengajar",
+  "text.autoconfig.simplyskills.option.ranger.signatureRangerDisengageSlownessDuration": "§6[Assinatura]§7 duração de Desengajar Lentidão",
+  "text.autoconfig.simplyskills.option.ranger.signatureRangerDisengageSlownessAmplifier": "§6[Assinatura]§7 amplificador de Desengajar Lentidão",
+  "text.autoconfig.simplyskills.option.ranger.signatureRangerDisengageSlowFallDuration": "§6[Assinatura]§7 duração de Desengajar Queda Lenta",
+  "text.autoconfig.simplyskills.option.ranger.signatureRangerDisengageSlowFallAmplifier": "§6[Assinatura]§7 amplificador de Desengajar Queda Lenta",
+  "text.autoconfig.simplyskills.option.ranger.signatureRangerDisengageRecuperateRadius": "§6[Assinatura]§7 raio de Desengajar Recuperate",
+  "text.autoconfig.simplyskills.option.ranger.signatureRangerDisengageExploitationRadius": "§6[Assinatura]§7 raio de Desengajar Exploração",
+  "text.autoconfig.simplyskills.option.ranger.signatureRangerDisengageExploitationDuration": "§6[Assinatura]§7 duração de Desengajar Exploração",
+  "text.autoconfig.simplyskills.option.ranger.signatureRangerDisengageMarksmanDuration": "§6[Assinatura]§7 duração de Desengajar Atirador",
+  "text.autoconfig.simplyskills.option.ranger.signatureRangerDisengageMarksmanStacks": "§6[Assinatura]§7 acúmulos de Desengajar Atirador",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerElementalArrowsRadius": "§6[Assinatura]§7 raio de Flechas Elementais",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerElementalArrowsCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Flechas Elementais",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerElementalArrowsDuration": "§6[Assinatura]§7 duração de Flechas Elementais",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerElementalArrowsStacks": "§6[Assinatura]§7 acúmulos de Flechas Elementais",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerElementalArrowsStacksIncreasePerTier": "§6[Assinatura]§7 aumento de acúmulos por nível de Flechas Elementais",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerElementalArrowsRadiusIncreasePerTier": "§6[Assinatura]§7 aumento de raio por nível de Flechas Elementais",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerElementalArrowsTargetingRange": "§6[Assinatura]§7 alcance de mira de Flechas Elementais",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerArrowRainRadius": "§6[Assinatura]§7 raio de Chuva de Flechas",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerArrowRainCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Chuva de Flechas",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerArrowRainDuration": "§6[Assinatura]§7 duração de Chuva de Flechas",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerArrowRainRadiusIncreasePerTier": "§6[Assinatura]§7 aumento de raio por nível de Chuva de Flechas",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerArrowRainArrowDensity": "§6[Assinatura]§7 densidade de Chuva de Flechas",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerArrowRainVolleys": "§6[Assinatura]§7 salvas de Chuva de Flechas",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerArrowRainVolleyIncreasePerTier": "§6[Assinatura]§7 aumento de salvas por nível da Chuva de Flechas",
+  "text.autoconfig.simplyskills.option.ranger.effectRangerArrowRainRange": "§6[Assinatura]§7 alcance de Chuva de Flechas",
+
+  "text.autoconfig.simplyskills.option.rogue.enableRogueSpecialisation": "Ativar Especialização de Ladino",
+  "text.autoconfig.simplyskills.option.rogue.enableRogueSpecialisation.@Tooltip": "Ativa/Desativa a capacidade de desbloquear esta especialização.\nNão trava retroativamente a especialização se já desbloqueada.",
+  "text.autoconfig.simplyskills.option.rogue.enableRogueSpecialisation.@PrefixText": "§aAlterar estes valores pode levar a instabilidade/crashes do jogo. Use por sua conta e risco.§7",
+
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueBackstabWeaknessDuration": "§a[Passivo]§7 duração de Apunhalada Fraqueza",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueBackstabWeaknessAmplifier": "§a[Passivo]§7 amplificador de Apunhalada Fraqueza",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueBackstabStealthChancePerEnemy": "§a[Passivo]§7 chance por inimigo enfraquecido próximo de Apunhalada Furtividade",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueBackstabStealthDuration": "§a[Passivo]§7 duração de Apunhalada Furtividade",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueSmokeBombRadius": "§a[Passivo]§7 raio de Bomba de Fumaça",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueSmokeBombChance": "§a[Passivo]§7 chance de Bomba de Fumaça",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueSmokeBombAuraDuration": "§a[Passivo]§7 duração de Bomba de Fumaça Immobilizing Aura",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueSmokeBombBlindnessDuration": "§a[Passivo]§7 duração de Bomba de Fumaça Blindness",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueSmokeBombBlindnessAmplifier": "§a[Passivo]§7 amplificador de Bomba de Fumaça Blindness",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueEvasionMasteryChance": "§a[Passivo]§7 chance de Maestria de Evasão",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueEvasionMasteryChanceIncreasePerTier": "§a[Passivo]§7 aumento de chance por nível de Maestria de Evasão",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueEvasionMasterySignatureMultiplier": "§a[Passivo]§7 multiplicador de chance da Assinatura de Maestria de Evasão",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueOpportunisticMasteryPoisonDuration": "§a[Passivo]§7 duração de Maestria Oportunista Poison",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueOpportunisticMasteryPoisonAmplifier": "§a[Passivo]§7 amplificador de Maestria Oportunista Poison",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueOpportunisticMasteryPoisonDurationIncreasePerTier": "§a[Passivo]§7 aumento de duração por nível de Maestria Oportunista",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueDeflectionIncreasedChance": "§a[Passivo]§7 chance aumentada % de Deflexão",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueRecoveryRegenerationFrequency": "§a[Passivo]§7 frequência de Recuperação Regeneração",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueRecoveryRegenerationAmplifier": "§a[Passivo]§7 amplificador de Recuperação Regeneração",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueShadowVeilResistanceFrequency": "§a[Passivo]§7 frequência de Véu Sombrio Resistência",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueShadowVeilResistanceStacks": "§a[Passivo]§7 acúmulos de Véu Sombrio Resistência",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueShadowVeilResistanceMaxStacks": "§a[Passivo]§7 acúmulos máximos de Véu Sombrio Resistência",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueExploitationDeathMarkDuration": "§a[Passivo]§7 duração de Exploração Marca da Morte",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueExploitationDeathMarkStacks": "§a[Passivo]§7 acúmulos de Exploração Marca da Morte",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueFleetfootedSpeedDuration": "§a[Passivo]§7 duração de Pés Ligeiros Velocidade",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueFleetfootedSpeedStacks": "§a[Passivo]§7 acúmulos de Pés Ligeiros Velocidade",
+  "text.autoconfig.simplyskills.option.rogue.passiveRogueFleetfootedSpeedMaxStacks": "§a[Passivo]§7 acúmulos máximos de Pés Ligeiros Velocidade",
+
+
+  "text.autoconfig.simplyskills.option.rogue.signatureRoguePreparationDuration": "§6[Assinatura]§7 duração de Preparação",
+  "text.autoconfig.simplyskills.option.rogue.signatureRoguePreparationCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Preparação",
+  "text.autoconfig.simplyskills.option.rogue.signatureRoguePreparationSpeedAmplifier": "§6[Assinatura]§7 amplificador de Preparação Velocidade",
+  "text.autoconfig.simplyskills.option.rogue.signatureRoguePreparationShadowstrikeRange": "§6[Assinatura]§7 alcance de Preparação Golpe Sombrio",
+  "text.autoconfig.simplyskills.option.rogue.signatureRoguePreparationShadowstrikeRadius": "§6[Assinatura]§7 raio de Preparação Golpe Sombrio",
+  "text.autoconfig.simplyskills.option.rogue.signatureRoguePreparationShadowstrikeDamageModifier": "§6[Assinatura]§7 modificador de dano de Preparação Golpe Sombrio",
+  "text.autoconfig.simplyskills.option.rogue.signatureRogueSiphoningStrikesDuration": "§6[Assinatura]§7 duração de Golpes de Dreno",
+  "text.autoconfig.simplyskills.option.rogue.signatureRogueSiphoningStrikesCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Golpes de Dreno",
+  "text.autoconfig.simplyskills.option.rogue.signatureRogueSiphoningStrikesStacks": "§6[Assinatura]§7 acúmulos de Golpes de Dreno",
+  "text.autoconfig.simplyskills.option.rogue.signatureRogueSiphoningStrikesLeechMultiplier": "§6[Assinatura]§7 multiplicador de dreno de vida de Golpes de Dreno",
+  "text.autoconfig.simplyskills.option.rogue.signatureRogueSiphoningStrikesMightyStacks": "§6[Assinatura]§7 acúmulos de Golpes de Dreno Pujança",
+  "text.autoconfig.simplyskills.option.rogue.signatureRogueEvasionDuration": "§6[Assinatura]§7 duração de Evasão",
+  "text.autoconfig.simplyskills.option.rogue.signatureRogueEvasionCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Evasão",
+  "text.autoconfig.simplyskills.option.rogue.signatureRogueFanOfBladesDuration": "§6[Assinatura]§7 duração de Leque de Lâminas",
+  "text.autoconfig.simplyskills.option.rogue.signatureRogueFanOfBladesStacks": "§6[Assinatura]§7 acúmulos de Leque de Lâminas",
+  "text.autoconfig.simplyskills.option.rogue.signatureRogueFanOfBladesBaseFrequency": "§6[Assinatura]§7 frequência de Leque de Lâminas",
+  "text.autoconfig.simplyskills.option.rogue.signatureRogueFanOfBladesEnhancedFrequency": "§6[Assinatura]§7 frequência de Leque de Lâminas enhanced",
+  "text.autoconfig.simplyskills.option.rogue.signatureRogueFanOfBladesRange": "§6[Assinatura]§7 alcance de Leque de Lâminas",
+  "text.autoconfig.simplyskills.option.rogue.signatureRogueFanOfBladesRadius": "§6[Assinatura]§7 raio de Leque de Lâminas",
+  "text.autoconfig.simplyskills.option.rogue.signatureRogueFanOfBladesDisenchantDuration": "§6[Assinatura]§7 duração de Leque de Lâminas Disenchant",
+
+  "text.autoconfig.simplyskills.option.spellblade.enableSpellbladeSpecialisation": "Ativar Especialização de Lâmina Mágica",
+  "text.autoconfig.simplyskills.option.spellblade.enableSpellbladeSpecialisation.@Tooltip": "Ativa/Desativa a capacidade de desbloquear esta especialização.\nNão trava retroativamente a especialização se já desbloqueada.",
+  "text.autoconfig.simplyskills.option.spellblade.enableSpellbladeSpecialisation.@PrefixText": "§aAlterar estes valores pode levar a instabilidade/crashes do jogo. Use por sua conta e risco.§7",
+
+  "text.autoconfig.simplyskills.option.spellblade.passiveSpellbladeSpellweavingChance": "§a[Passivo]§7 chance de Tecer Feitiços",
+
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeElementalSurgeDuration": "§6[Assinatura]§7 duração de Surto Elemental",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeElementalSurgeCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Surto Elemental",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeElementalSurgeFrequency": "§6[Assinatura]§7 frequência de Surto Elemental",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeElementalSurgeRadius": "§6[Assinatura]§7 raio de Surto Elemental",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeElementalSurgeChance": "§6[Assinatura]§7 chance de Surto Elemental",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeElementalImpactDuration": "§6[Assinatura]§7 duração de Impacto Elemental",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeElementalImpactCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Impacto Elemental",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeElementalImpactResistanceAmplifier": "§6[Assinatura]§7 amplificador de Impacto Elemental Resistência",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeElementalImpactRadius": "§6[Assinatura]§7 raio de Impacto Elemental",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeElementalImpactVelocity": "§6[Assinatura]§7 velocidade de Impacto Elemental",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeElementalImpactSlownessDuration": "§6[Assinatura]§7 duração de Impacto Elemental Lentidão",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeElementalImpactSlownessAmplifier": "§6[Assinatura]§7 amplificador de Impacto Elemental Lentidão",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeElementalImpactChance": "§6[Assinatura]§7 chance de Impacto Elemental",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeSpellweaverChance": "§6[Assinatura]§7 chance de Tecelão de Feitiços",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeSpellweaverCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Tecelão de Feitiços",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeSpellweaverDuration": "§6[Assinatura]§7 duração de Tecelão de Feitiços",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeSpellweaverStacks": "§6[Assinatura]§7 acúmulos de Tecelão de Feitiços",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeSpellweaverHasteDuration": "§6[Assinatura]§7 duração de Tecelão de Feitiços Rapidez",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeSpellweaverHasteStacks": "§6[Assinatura]§7 acúmulos de Tecelão de Feitiços Rapidez",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeSpellweaverHasteMaxStacks": "§6[Assinatura]§7 acúmulos máximos de Tecelão de Feitiços Rapidez",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeSpellweaverRegenerationDuration": "§6[Assinatura]§7 duração de Tecelão de Feitiços Regeneração",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeSpellweaverRegenerationChance": "§6[Assinatura]§7 chance de Tecelão de Feitiços Regeneração",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeSpellweaverRegenerationStacks": "§6[Assinatura]§7 acúmulos de Tecelão de Feitiços Regeneração",
+  "text.autoconfig.simplyskills.option.spellblade.signatureSpellbladeSpellweaverRegenerationMaxStacks": "§6[Assinatura]§7 acúmulos máximos de Tecelão de Feitiços Regeneração",
+
+  "text.autoconfig.simplyskills.option.wizard.enableWizardSpecialisation": "Ativar Especialização de Mago",
+  "text.autoconfig.simplyskills.option.wizard.enableWizardSpecialisation.@Tooltip": "Ativa/Desativa a capacidade de desbloquear esta especialização.\nNão trava retroativamente a especialização se já desbloqueada.",
+  "text.autoconfig.simplyskills.option.wizard.enableWizardSpecialisation.@PrefixText": "§aAlterar estes valores pode levar a instabilidade/crashes do jogo. Use por sua conta e risco.§7",
+
+  "text.autoconfig.simplyskills.option.wizard.passiveWizardSpellEchoChance": "§a[Passivo]§7 chance de Eco Mágico",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardMeteorShowerRange": "§6[Assinatura]§7 alcance de Chuva de Meteoros",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardMeteorShowerCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Chuva de Meteoros",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardMeteoricWrathDuration": "§6[Assinatura]§7 duração de Ira Meteórica",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardMeteoricWrathStacks": "§6[Assinatura]§7 acúmulos de Ira Meteórica",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardMeteoricWrathFrequency": "§6[Assinatura]§7 frequência de Ira Meteórica",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardMeteoricWrathChance": "§6[Assinatura]§7 chance de Ira Meteórica",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardMeteoricWrathRadius": "§6[Assinatura]§7 raio de Ira Meteórica",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardMeteoricWrathRenewalBaseChance": "§6[Assinatura]§7 chance de Ira Meteórica Renovação",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardMeteoricWrathRenewalChanceIncreasePerTier": "§6[Assinatura]§7 aumento de chance por nível de Ira Meteórica Renovação",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardIceCometRange": "§6[Assinatura]§7 alcance de Cometa de Gelo",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardIceCometCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Cometa de Gelo",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardIceCometLeapVelocity": "§6[Assinatura]§7 velocidade de Cometa de Gelo Salto",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardIceCometLeapHeight": "§6[Assinatura]§7 altura de Cometa de Gelo Salto",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardIceCometLeapSlowfallDuration": "§6[Assinatura]§7 duração de Cometa de Gelo Salto Queda Lenta",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardIceCometVolleyDuration": "§6[Assinatura]§7 duração de Cometa de Gelo Salva",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardIceCometVolleyStacks": "§6[Assinatura]§7 acúmulos de Cometa de Gelo Salva",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardIceCometVolleyFrequency": "§6[Assinatura]§7 frequência de Cometa de Gelo Salva",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardIceCometVolleyRange": "§6[Assinatura]§7 alcance de Cometa de Gelo Salva",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardStaticDischargeRange": "§6[Assinatura]§7 alcance de Descarga Estática",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardStaticDischargeCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Descarga Estática",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardStaticDischargeBaseLeaps": "§6[Assinatura]§7 Descarga Estática leaps",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardStaticDischargeLeapsPerTier": "§6[Assinatura]§7 Descarga Estática leaps per tier",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardStaticDischargeBaseSpeedChance": "§6[Assinatura]§7 chance de Descarga Estática Velocidade",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardStaticDischargeSpeedChancePerTier": "§6[Assinatura]§7 chance por nível de Descarga Estática Velocidade",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardStaticDischargeSpeedDuration": "§6[Assinatura]§7 duração de Descarga Estática",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardStaticDischargeSpeedStacks": "§6[Assinatura]§7 acúmulos de Descarga Estática",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardStaticDischargeSpeedMaxAmplifier": "§6[Assinatura]§7 amplificador de Descarga Estática max",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardStaticChargeDuration": "§6[Assinatura]§7 duração de Carga Estática",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardStaticChargeLeapFrequency": "§6[Assinatura]§7 frequência de Carga Estática leap",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardStaticChargeLeapChance": "§6[Assinatura]§7 chance de salto de Carga Estática",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardStaticChargeWeaknessDuration": "§6[Assinatura]§7 duração de Carga Estática Fraqueza",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardStaticChargeWeaknessAmplifier": "§6[Assinatura]§7 amplificador de Carga Estática Fraqueza",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardLightningOrbBuffRadius": "§6[Assinatura]§7 raio do Bônus de Orbe de Relâmpago",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardLightningOrbBuffRadius.@Tooltip": "O raio do efeito de Bônus do Orbe de Relâmpago.",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardLightningOrbBuffFrequency": "§6[Assinatura]§7 frequência do Bônus de Orbe de Relâmpago",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardLightningOrbBuffFrequency.@Tooltip": "A frequência do efeito de Bônus do Orbe de Relâmpago.",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardLightningOrbBuffChance": "§6[Assinatura]§7 chance do Bônus de Orbe de Relâmpago",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardLightningOrbBuffChance.@Tooltip": "A chance do efeito de Bônus do Orbe de Relâmpago ocorrer.",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardArcaneBoltRange": "§6[Assinatura]§7 alcance de Raio Arcano",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardArcaneBoltCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Raio Arcano",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardLesserArcaneBoltRadius": "§6[Assinatura]§7 raio de Raio Arcano",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardArcaneBoltVolleyDuration": "§6[Assinatura]§7 duração de Raio Arcano Salva",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardArcaneBoltVolleyStacks": "§6[Assinatura]§7 acúmulos de Raio Arcano Salva",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardArcaneBoltVolleyFrequency": "§6[Assinatura]§7 frequência de Raio Arcano Salva",
+  "text.autoconfig.simplyskills.option.wizard.signatureWizardArcaneBoltVolleyRange": "§6[Assinatura]§7 alcance de Raio Arcano Salva",
+
+  "text.autoconfig.simplyskills.option.berserker.enableBerserkerSpecialisation": "Ativar Especialização de Berserker",
+  "text.autoconfig.simplyskills.option.berserker.enableBerserkerSpecialisation.@Tooltip": "Ativa/Desativa a capacidade de desbloquear esta especialização.\nNão trava retroativamente a especialização se já desbloqueada.",
+  "text.autoconfig.simplyskills.option.berserker.enableBerserkerSpecialisation.@PrefixText": "§aAlterar estes valores pode levar a instabilidade/crashes do jogo. Use por sua conta e risco.§7",
+
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerSwordMasteryFrequency": "§a[Passivo]§7 frequência de Domínio da Espada",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerSwordMasteryBaseSpeedAmplifier": "§a[Passivo]§7 amplificador de Domínio da Espada Velocidade",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerSwordMasterySpeedAmplifierPerTier": "§a[Passivo]§7 amplificador por nível de Domínio da Espada Velocidade",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerAxeMasteryFrequency": "§a[Passivo]§7 frequência de Domínio do Machado",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerAxeMasteryBaseStrengthAmplifier": "§a[Passivo]§7 amplificador de Domínio do Machado Força",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerAxeMasteryStrengthAmplifierPerTier": "§a[Passivo]§7 amplificador por nível de Domínio do Machado Força",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerIgnorePainFrequency": "§a[Passivo]§7 frequência de Ignorar a Dor",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerIgnorePainHealthThreshold": "§a[Passivo]§7 limiar de vida de Ignorar a Dor",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerIgnorePainBaseResistanceAmplifier": "§a[Passivo]§7 amplificador de Ignorar a Dor Resistência",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerIgnorePainResistanceAmplifierPerTier": "§a[Passivo]§7 amplificador por nível de Ignorar a Dor Resistência",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerRecklessnessFrequency": "§a[Passivo]§7 frequência de Temeridade",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerRecklessnessHealthThreshold": "§a[Passivo]§7 limiar de vida de Temeridade",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerRecklessnessWeaknessAmplifier": "§a[Passivo]§7 amplificador de Temeridade Fraqueza",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerChallengeFrequency": "§a[Passivo]§7 frequência de Desafio",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerChallengeRadius": "§a[Passivo]§7 raio de Desafio",
+  "text.autoconfig.simplyskills.option.berserker.passiveBerserkerChallengeMaxAmplifier": "§a[Passivo]§7 amplificador de Desafio maximum",
+
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerRampageDuration": "§6[Assinatura]§7 duração de Arremetida",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerRampageCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Arremetida",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerRampageSubEffectDuration": "§6[Assinatura]§7 duração de Arremetida sub effect",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerRampageSubEffectMaxAmplifier": "§6[Assinatura]§7 amplificador de Arremetida sub effect max",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBullrushDuration": "§6[Assinatura]§7 duração de Arremetida de Touro",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBullrushVelocity": "§6[Assinatura]§7 velocidade de Arremetida de Touro",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBullrushRadius": "§6[Assinatura]§7 raio de Arremetida de Touro",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBullrushDamageModifier": "§6[Assinatura]§7 modificador de dano de Arremetida de Touro",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBullrushHitFrequency": "§6[Assinatura]§7 frequência de Arremetida de Touro hit",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBullrushImmobilizeDuration": "§6[Assinatura]§7 duração de Arremetida de Touro Imobilizar",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBullrushRelentlessExhaustPerStrength": "§6[Assinatura]§7 Arremetida de Touro Exaustão por Força",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBullrushRelentlessDuration": "§6[Assinatura]§7 duração de Arremetida de Touro Força",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBloodthirstyDuration": "§6[Assinatura]§7 duração de Sede de Sangue",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBloodthirstyCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Sede de Sangue",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBloodthirstyHealPercent": "§6[Assinatura]§7 Sede de Sangue cura percent",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBloodthirstyTirelessChance": "§6[Assinatura]§7 chance de Sede de Sangue Incansável",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBloodthirstyTremorChance": "§6[Assinatura]§7 chance de Sede de Sangue Tremor",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBloodthirstyMightyStacks": "§6[Assinatura]§7 acúmulos de Sede de Sangue Poderoso",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBerserkingSacrificeAmount": "§6[Assinatura]§7 Fúria Berserker sacrifice amount",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBerserkingCooldown": "§6[Assinatura]§7 recarga base (em segundos) de Fúria Berserker",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBerserkingSecondsPerSacrifice": "§6[Assinatura]§7 Fúria Berserker seconds per amount sacrificed",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBerserkingSubEffectDuration": "§6[Assinatura]§7 duração de Fúria Berserker sub effect",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerBerserkingSubEffectMaxAmplifier": "§6[Assinatura]§7 amplificador de Fúria Berserker sub effect max",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerLeapSlamDuration": "§6[Assinatura]§7 duração de Salto Esmagador",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerLeapSlamRadius": "§6[Assinatura]§7 raio de Salto Esmagador",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerLeapSlamVelocity": "§6[Assinatura]§7 velocidade de Salto Esmagador",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerLeapSlamHeight": "§6[Assinatura]§7 altura de Salto Esmagador",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerLeapSlamDescentVelocity": "§6[Assinatura]§7 velocidade de Salto Esmagador descent",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerLeapSlamDamageModifier": "§6[Assinatura]§7 modificador de dano de Salto Esmagador",
+  "text.autoconfig.simplyskills.option.berserker.signatureBerserkerLeapSlamImmobilizeDuration": "§6[Assinatura]§7 duração de Salto Esmagador Immobilise",
+
+  "text.autoconfig.simplyskills.option.crusader.enableCrusaderSpecialisation": "Ativar Especialização de Cruzado",
+  "text.autoconfig.simplyskills.option.crusader.enableCrusaderSpecialisation.@Tooltip": "Ativa/Desativa a capacidade de desbloquear esta especialização.\nNão trava retroativamente a especialização se já desbloqueada.",
+  "text.autoconfig.simplyskills.option.crusader.enableCrusaderSpecialisation.@PrefixText": "§aAlterar estes valores pode levar a instabilidade/crashes do jogo. Use por sua conta e risco.§7",
+
+  "text.autoconfig.simplyskills.option.crusader.passiveCrusaderRetributionChance": "§a[Passivo]§7 chance de Retribuição",
+  "text.autoconfig.simplyskills.option.crusader.passiveCrusaderExhaustiveRecoveryChance": "§a[Passivo]§7 chance de Recuperação Exaustiva",
+  "text.autoconfig.simplyskills.option.crusader.passiveCrusaderExhaustiveRecoveryExhaustionStacks": "§a[Passivo]§7 acúmulos de Recuperação Exaustiva Exaustão",
+  "text.autoconfig.simplyskills.option.crusader.passiveCrusaderAegisFrequency": "§a[Passivo]§7 frequência de Égide",
+  "text.autoconfig.simplyskills.option.crusader.passiveCrusaderAegisStacksRemoved": "§a[Passivo]§7 acúmulos removidos de Égide",
+
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderHeavensmithsCallRange": "§6[Assinatura]§7 alcance de Chamado do Ferreiro Celestial",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderHeavensmithsCallDADuration": "§6[Assinatura]§7 duração de Chamado do Ferreiro Celestial Adjudicação Divina",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderHeavensmithsCallTauntMarkDuration": "§6[Assinatura]§7 Chamado do Ferreiro Celestial Provocação & Marca da Morte durações",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderHeavensmithsCallDAFrequency": "§6[Assinatura]§7 frequência de Chamado do Ferreiro Celestial Adjudicação Divina",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderHeavensmithsCallDAChance": "§6[Assinatura]§7 chance de Chamado do Ferreiro Celestial Adjudicação Divina",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderHeavensmithsCallDARadius": "§6[Assinatura]§7 raio de Chamado do Ferreiro Celestial Adjudicação Divina",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderHeavensmithsCallDAExhaustStacks": "§6[Assinatura]§7 acúmulos removidos de Chamado do Ferreiro Celestial Adjudicação Divina exaustão",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderHeavensmithsCallDAMightDuration": "§6[Assinatura]§7 duração de Chamado do Ferreiro Celestial Adjudicação Divina Pujança",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderHeavensmithsCallDAMightStacksMax": "§6[Assinatura]§7 acúmulos máximos de Chamado do Ferreiro Celestial Adjudicação Divina Pujança",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderHeavensmithsCallCooldown": "§6[Assinatura]§7 recarga de Chamado do Ferreiro Celestial",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderSacredOnslaughtDashDuration": "§6[Assinatura]§7 duração de Investida Sagrada avanço",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderSacredOnslaughtDPDuration": "§6[Assinatura]§7 duração de Investida Sagrada Proteção Divina",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderSacredOnslaughtVelocity": "§6[Assinatura]§7 velocidade de Investida Sagrada",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderSacredOnslaughtRadius": "§6[Assinatura]§7 raio de Investida Sagrada",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderSacredOnslaughtDMGMultiplier": "§6[Assinatura]§7 multiplicador de Investida Sagrada dano",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderSacredOnslaughtStunDuration": "§6[Assinatura]§7 duração de Investida Sagrada atordoamento",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderSacredOnslaughtCooldown": "§6[Assinatura]§7 recarga de Investida Sagrada",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderConsecrationDuration": "§6[Assinatura]§7 duração de Consagração",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderConsecrationExtendDuration": "§6[Assinatura]§7 duração de Consagração estendida",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderConsecrationRadius": "§6[Assinatura]§7 raio de Consagração",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderConsecrationDMGMultiplier": "§6[Assinatura]§7 multiplicador de Consagração dano",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderConsecrationHitFrequency": "§6[Assinatura]§7 frequência de Consagração",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderConsecrationMightStacks": "§6[Assinatura]§7 acúmulos de Consagração Pujança",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderConsecrationMightStacksMax": "§6[Assinatura]§7 acúmulos de Consagração max Pujança",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderConsecrationSpellforgedStacks": "§6[Assinatura]§7 acúmulos de Consagração Spellforged",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderConsecrationSpellforgedStacksMax": "§6[Assinatura]§7 acúmulos de Consagração max Spellforged",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderConsecrationTauntDuration": "§6[Assinatura]§7 duração de Consagração Taunted",
+  "text.autoconfig.simplyskills.option.crusader.signatureCrusaderConsecrationCooldown": "§6[Assinatura]§7 recarga de Consagração",
+
+  "text.autoconfig.simplyskills.option.cleric.enableClericSpecialisation": "Ativar Especialização de Clérigo",
+  "text.autoconfig.simplyskills.option.cleric.enableClericSpecialisation.@Tooltip": "Ativa/Desativa a capacidade de desbloquear esta especialização.\nNão trava retroativamente a especialização se já desbloqueada.",
+  "text.autoconfig.simplyskills.option.cleric.enableClericSpecialisation.@PrefixText": "§aAlterar estes valores pode levar a instabilidade/crashes do jogo. Use por sua conta e risco.§7",
+
+  "text.autoconfig.simplyskills.option.cleric.signatureClericDivineInterventionCooldown": "§6[Assinatura]§7 recarga (em segundos) de Intervenção Divina",
+  "text.autoconfig.simplyskills.option.cleric.signatureClericSacredOrbCooldown": "§6[Assinatura]§7 recarga (em segundos) de Orbe Sagrada",
+  "text.autoconfig.simplyskills.option.cleric.signatureClericAnointWeaponCooldown": "§6[Assinatura]§7 recarga (em segundos) de Ungir Arma",
+
+  "text.autoconfig.simplyskills.option.necromancer.enableNecromancerSpecialisation": "Ativar Especialização de Necromante",
+  "text.autoconfig.simplyskills.option.necromancer.enableNecromancerSpecialisation.@Tooltip": "Ativa/Desativa a capacidade de desbloquear esta especialização.\nNão trava retroativamente a especialização se já desbloqueada.",
+  "text.autoconfig.simplyskills.option.necromancer.enableNecromancerSpecialisation.@PrefixText": "§aAlterar estes valores pode levar a instabilidade/crashes do jogo. Use por sua conta e risco.§7",
+
+  "text.autoconfig.simplyskills.option.necromancer.signatureNecromancerSummoningRitualCooldown": "§6[Assinatura]§7 recarga (em segundos) de Summoning Pool",
+
+  "text.autoconfig.simplyskills.option.misc.promWarriorsDevotionAttackMulti": "Multiplicador de dano de ataque do Punho do Tita",
+  "text.autoconfig.simplyskills.option.misc.promWarriorsDevotionAttackMulti.@Tooltip": "O atributo generic_attack_damage e multiplicado por este número.\n1.0 = +100%",
+  "text.autoconfig.simplyskills.option.misc.promWarriorsDevotionAttackMulti.@PrefixText": "§aConfig de Compatibilidade com Prominence§7",
+
+  "text.autoconfig.simplyskills.option.misc.promWarriorsDevotionAttackSpeedMulti": "Multiplicador de velocidade de ataque do Punho do Tita",
+  "text.autoconfig.simplyskills.option.misc.promWarriorsDevotionAttackSpeedMulti.@Tooltip": "O atributo generic_attack_speed e multiplicado negativamente por este número.\n0.9 = -90% NOTA: exceder 0.9 parece quebrar ataques do Better Combat.",
+  "text.autoconfig.simplyskills.option.misc.promSkellaksCallPhysDmgMulti": "Multiplicador de dano físico do Chamado de S'kellak",
+  "text.autoconfig.simplyskills.option.misc.promSkellaksCallPhysDmgMulti.@Tooltip": "A quantidade de generic_attack_damage usada como dano físico com o Chamado de S'kellak.\nAlém desta configuração, a habilidade também causa dano mágico de fogo não configurável.",
+  "text.autoconfig.simplyskills.option.misc.promCorruptionMax": "Corrupção máxima",
+  "text.autoconfig.simplyskills.option.misc.promCorruptionMax.@Tooltip": "O nível máximo de corrupção do qual as habilidades devem se beneficiar. Qualquer corrupção acima deste nível não dará benefícios adicionais as habilidades.",
+  "text.autoconfig.simplyskills.option.misc.promCorruptionMulti": "Multiplicador de corrupção",
+  "text.autoconfig.simplyskills.option.misc.promCorruptionMulti.@Tooltip": "Reduzir este multiplicador reduzirá os benefícios que as habilidades ganham do nível de corrupção.",
+
+  "text.skills.berserker_category.title": "§7§bEspecialização de Berserker§7",
+  "text.skills.wizard_category.title": "§7§bEspecialização de Mago§7",
+  "text.skills.spellblade_category.title": "§7§bEspecialização de Lâmina Mágica§7",
+  "text.skills.cleric_category.title": "§7§bEspecialização de Clérigo§7",
+  "text.skills.crusader_category.title": "§7§bEspecialização de Cruzado§7",
+  "text.skills.ranger_category.title": "§7§bEspecialização de Patrulheiro§7",
+  "text.skills.rogue_category.title": "§7§bEspecialização de Ladino§7",
+  "text.skills.necromancer_category.title": "§7§bEspecialização de Necromante§7",
+  "text.skills.base_category.title": "§7§aÁrvore de Habilidades§7",
+  "text.skills.ascendancy_category.title": "§7§6Árvore de Ascendência§7",
+
+  "text.category.tree.title": "simply skills",
+  "text.skills.pathWayfarer.title": "Caminho do §bAndarilho",
+  "text.skills.pathWayfarer.description": "§a+10% §f[+]§7 Velocidade de Movimento",
+
+  "text.skills.initiate.title": "Caminho do §bIniciado§7",
+  "text.skills.initiate.description": "§a+1§7 Para todas as escolas de magia",
+
+  "text.skills.warrior.title": "Caminho do §bGuerreiro§7",
+  "text.skills.warrior.description": "§a+10%§f [+] §7Dano Corpo a Corpo",
+
+  "text.skills.spell_fire_damage_additive+1%.title": "§a+3%§f [+] §7Dano Mágico de Fogo",
+  "text.skills.spell_fire_damage_multi+1%.title": "§a+5%§f [+] §7Dano Mágico de Fogo",
+  "text.skills.spell_arcane_damage_additive+1%.title": "§a+3%§f [+] §7Dano Mágico Arcano",
+  "text.skills.spell_arcane_damage_multi+1%.title": "§a+5%§f [+] §7Dano Mágico Arcano",
+  "text.skills.spell_frost_damage_additive+1%.title": "§a+3% §f[+] §7Dano Mágico de Gelo",
+  "text.skills.spell_frost_damage_multi+1%.title": "§a+5% §f[+] §7Dano Mágico de Gelo",
+  "text.skills.spell_healing_power_additive+1%.title": "§a+3% §f[+] §7Poder de Cura",
+  "text.skills.spell_healing_power_multi+1%.title": "§a+5% §f[+] §7Poder de Cura",
+  "text.skills.spell_lightning_damage_additive+1%.title": "§a+3%§f [+] §7Dano Mágico de Relâmpago",
+  "text.skills.spell_lightning_damage_multi+1%.title": "§a+5% §f[+] §7Dano Mágico de Relâmpago",
+  "text.skills.spell_soul_damage_additive+1%.title": "§a+3% §f[+] §7Dano Mágico de Almas",
+  "text.skills.spell_soul_damage_multi+1%.title": "§a+5% §f[+] §7Dano Mágico de Almas",
+  "text.skills.spell_crit_damage_additive+1%.title": "§a+3% §f[+] §7Dano Crítico Mágico",
+  "text.skills.spell_crit_damage_multi+1%.title": "§a+5%§f [+] §7Dano Crítico Mágico",
+  "text.skills.spell_crit_chance_additive+1%.title": "§a+1% §f[+] §7Chance de Crítico Mágico",
+  "text.skills.spell_crit_chance_multi+1%.title": "§a+2% §f[+] §7Chance de Crítico Mágico",
+  "text.skills.spell_haste_additive+1%.title": "§a+3% §f[+] §7Aceleração Mágica",
+  "text.skills.spell_haste_multi+1%.title": "§a+5% §f[+] §7Aceleração Mágica",
+  "text.skills.health+2.title": "§a+10% §f[+] §7Vida Máxima",
+  "text.skills.resistance+1%.title": "§a+3% §f[+] §7Resistência",
+  "text.skills.resistance_multi+2%.title": "§a+5% §f[+] §7Resistência",
+  "text.skills.melee_damage+1%.title": "§a+2% §f[+] §7Dano Corpo a Corpo",
+  "text.skills.melee_damage_multi+2%.title": "§a+3% §f[+] §7Dano Corpo a Corpo",
+  "text.skills.ranged_damage+1%.title": "§a+3% §f[+] §7Dano a Distância",
+  "text.skills.ranged_damage_multi+2%.title": "§a+5% §f[+] §7Dano a Distância",
+  "text.skills.attack_speed+1%.title": "§a+2% §f[+] §7Velocidade de Ataque",
+  "text.skills.attack_speed_multi+2%.title": "§a+3% §f[+] §7Velocidade de Ataque",
+  "text.skills.movement_speed+1%.title": "§a+2% §f[+] §7Velocidade de Movimento",
+  "text.skills.movement_speed_multi+1.5%.title": "§a+3% §f[+] §7Velocidade de Movimento",
+  "text.skills.luck+0.25.title": "§a+0,25 §7Sorte",
+  "text.skills.stamina+5%.title": "§a+3% §f[+] §7Vigor",
+  "text.skills.stamina_multi+7%.title": "§a+5% §f[+] §7Vigor",
+  "text.skills.healing+1%.title": "§a+1% §7Cura [OBSOLETO]",
+  "text.skills.jump+1%.title": "§a+3% §f[+] §7Salto",
+  "text.skills.jump_multi+2%.title": "§a+5%§f [+] §7Salto",
+  "text.skills.spell_power_additive.title": "§a+3%§f [+] §7Todo o Dano Mágico",
+
+  "text.skills.spell_fire_damage_additive+0.8%.title": "§a+0,8%§f [+] §7Dano Mágico de Fogo",
+  "text.skills.spell_arcane_damage_additive+0.8%.title": "§a+0,8%§f [+] §7Dano Mágico Arcano",
+  "text.skills.spell_frost_damage_additive+0.8%.title": "§a+0,8%§f [+] §7Dano Mágico de Gelo",
+  "text.skills.spell_healing_power_additive+0.8%.title": "§a+0,8%§f [+] §7Poder de Cura",
+  "text.skills.spell_lightning_damage_additive+0.8%.title": "§a+0,8%§f [+] §7Dano Mágico de Relâmpago",
+  "text.skills.spell_soul_damage_additive+0.8%.title": "§a+0,8%§f [+] §7Dano Mágico de Almas",
+  "text.skills.spell_crit_damage_additive+0.5%.title": "§a+0,5%§f [+] §7Dano Crítico Mágico",
+  "text.skills.spell_crit_chance_additive+0.1%.title": "§a+0,1%§f [+] §7Chance de Crítico Mágico",
+  "text.skills.spell_haste_additive+0.5%.title": "§a+0,5%§f [+] §7Aceleração Mágica",
+  "text.skills.spell_power_additive+0.5%.title": "§a+0,5%§f [+] §7Todo o Dano Mágico",
+  "text.skills.health+0.5%.title": "§a+0,5%§f [+] §7Vida Máxima",
+  "text.skills.resistance+0.5%.title": "§a+0,5%§f [+] §7Resistência",
+  "text.skills.melee_damage+0.5%.title": "§a+0,5%§f [+] §7Dano Corpo a Corpo",
+  "text.skills.ranged_damage+0.5%.title": "§a+0,5%§f [+] §7Dano a Distância",
+  "text.skills.attack_speed+0.3%.title": "§a+0,3%§f [+] §7Velocidade de Ataque",
+  "text.skills.movement_speed+0.2%.title": "§a+0,2%§f [+] §7Velocidade de Movimento",
+  "text.skills.stamina+0.5%.title": "§a+0,5%§f [+] §7Vigor",
+  "text.skills.jump+0.2%.title": "§a+0,2%§f [+] §7Salto",
+
+  "text.skills.hardy.title": "§7§a[Resistente]§7\nAo receber dano, ganha regeneração por uma duração igual ao dano recebido.",
+  "text.skills.initiateSlowfall.title": "§7§a[Queda Lenta Inata]§7",
+  "text.skills.initiateSlowfall.description": "§7Ao cair de longas distâncias você ganha Queda Lenta.",
+
+  "text.skills.fervour.title": "§7§a[Fervor]§7",
+  "text.skills.fervour.description": "§7Desferir o golpe fatal concede rapidez por uma curta duração.",
+
+  "text.skills.wayfarerStealth.title": "§7§a[Furtividade]§7",
+  "text.skills.wayfarerStealth.description": "§7Ganha Furtividade ao agachar.\n\nVocê não pode entrar em Furtividade quando mirado por criaturas ou jogadores próximos.\n\n§f(Furtividade)§7 faz você se misturar às sombras, evitando completamente a detecção de monstros. Causar ou receber dano remove a Furtividade.",
+
+  "text.skills.wayfarerSneak.title": "§7§a[Agachamento]§7",
+  "text.skills.wayfarerSneak.description": "§7Ganha velocidade ao agachar. Agachar-se enquanto tem Furtividade concede acúmulos crescentes de Pujança.\n\n§f(Pujança)§7 concede §a+10% §f[x]§7 de dano de ataque aumentado por acúmulo.",
+
+  "text.skills.wayfarerReflexive.title": "§7§a[Reflexo]§7",
+  "text.skills.wayfarerReflexive.description": "§7Quando sua Furtividade é quebrada à força, você tem chance de ativar a habilidade característica Maestria de Evasão do Ladino.\n\nQuando sua furtividade é quebrada ao atacar, ganha Pujança e Pontária.\n\n§f(Pontária)§7 concede §a+10% §f[x]§7 de dano a distância aumentado por acúmulo.\n\n§f(Pujança)§7 concede §a+10% §f[x]§7 de dano de ataque aumentado por acúmulo.",
+
+  "text.skills.wayfarerUnseen.title": "§7§a[Invisível]§7",
+  "text.skills.wayfarerUnseen.description": "§7Ao recarregar uma Besta, ganha Furtividade momentânea.\nSe você já tiver furtividade, em vez disso ganha Pontária.\n\n§f(Pontária)§7 concede §a+10% §f[x]§7 de dano a distância aumentado por acúmulo.",
+
+  "text.skills.wayfarerGuarding.title": "§7§a[Guarda]§7",
+  "text.skills.wayfarerGuarding.description": "§7Enquanto tiver uma Besta na mão secundária, você ganha periodicamente Barreira.\n\n§f(Barreira)§7 O próximo dano que você receber e completamente negado.",
+
+  "text.skills.wayfarerQuickfire.title": "§7§a[Disparo Veloz]§7",
+  "text.skills.wayfarerQuickfire.description": "§7Ao usar um arco, disparar flechas totalmente carregadas em rápida sucessão concede Pontária acumulável.\n\n§f(Pontária)§7 concede §a+10% §f[x]§7 de dano a distância aumentado por acúmulo.",
+
+  "text.skills.initiateNullification.title": "§7§a[Anulação]§7",
+  "text.skills.initiateNullification.description": "§7Remove periodicamente bônus de hostis próximos.",
+
+  "text.skills.initiateGambit.title": "§7§a[Gambito]",
+  "text.skills.initiateGambit.description": "§7Seu dano mágico é reduzido em §c25% §f[x]§7, mas seu dano crítico mágico é aumentado em §a+75% §f[x]§7.",
+
+  "text.skills.initiateEmpower.title": "§7§a[Potencializar]§7",
+  "text.skills.initiateEmpower.description": "§7Chance ao conjurar feitiço de ganhar um acúmulo de Sintonia.\n\n§f(Sintonia)§7 Aumenta o dano mágico de uma escola de magia específica em §a+2% §f[x]§7 por acúmulo.",
+
+  "text.skills.initiateAttuned.title": "§7§a[Sintonizado]§7",
+  "text.skills.initiateAttuned.description": "§7Quando você tem 5 ou mais acúmulos de sintonia, converte-os periodicamente em acúmulos de Precisão.\n\n§f(Precisão)§7 Aumenta o dano crítico mágico e a chance de crítico em §a+2% §f[x]§7 por acúmulo.",
+
+  "text.skills.initiateLightningRod.title": "§7§a[Para-Raios]§7",
+  "text.skills.initiateLightningRod.description": "§7Enquanto sob efeito de Choque de Almas, você descarrega periodicamente energia elétrica, causando dano e infligindo fraqueza em inimigos próximos.\n\nDurante tempestades, você ganha periodicamente acúmulos de Sintonia de Relâmpago.\n\n§f(Sintonia de Relâmpago)§7 Aumenta o dano de magia de relâmpago em §a+2% §f[x]§7 por acúmulo.",
+
+  "text.skills.initiateEldritchEnfeeblement.title": "§7§a[Enfraquecimento Arcano]§7",
+  "text.skills.initiateEldritchEnfeeblement.description": "§7Seu dano mágico é aumentado em §a+5% §f[x]§7, mas sua velocidade de movimento é reduzida em §c10% §f[x]§7.\n\nGanha uma chance igual a sua Chance de Crítico Mágico de restaurar vida ao conjurar feitiço.\nA quantidade restaurada escala com seu Dano Crítico Mágico.",
+
+  "text.skills.initiateHasty.title": "§7§a[Apressado]§7",
+  "text.skills.initiateHasty.description": "§7Sua velocidade de movimento é aumentada em §a+15% §f[x]§7, mas você e §cinfligido com Lentidão§7 ao receber dano.",
+
+  "text.skills.initiatePerilousPrecision.title": "§7§a[Precisão Arriscada]§7",
+  "text.skills.initiatePerilousPrecision.description": "§7Sua chance de crítico mágico é aumentada em §a+5% §f[x]§7, mas sua vida máxima é reduzida em §c15% §f[x]§7.\n\nVocê tem 50% de chance ao conjurar feitiço de ganhar Barreira acumulável.\nEssa chance é reduzida por uma porcentagem igual a sua vida máxima.",
+
+  "text.skills.cleric.title": "§7§a[Clérigo]§7",
+  "text.skills.cleric.description": "§7Purifica periodicamente malefícios de aliados próximos.",
+
+  "text.skills.cleansing.title": "§7§a[Purificação]§7",
+  "text.skills.cleansing.description": "§7Purifica periodicamente malefícios de você mesmo.",
+
+  "text.skills.rangerReveal.title": "§7§a[Revelar]§7",
+  "text.skills.rangerReveal.description": "§7Revela periodicamente inimigos furtivos próximos.",
+
+  "text.skills.rangerTamer.title": "§7§a[Domador]§7",
+  "text.skills.rangerTamer.description": "§7Quando seus pets estão perto de você, eles ganham Regeneração e Resistência.",
+
+  "text.skills.rangerBonded.title": "§7§a[Vinculado]§7",
+  "text.skills.rangerBonded.description": "§7Quando seus pets estão perto de você e mais saudáveis que você, eles trocam a vida deles com a sua. Só pode ativar quando seu pet estiver acima de 30% de PV.",
+
+  "text.skills.rangerTrained.title": "§7§a[Treinado]§7",
+  "text.skills.rangerTrained.description": "§7Quando seus pets estão perto de você e tem pelo menos 70% de PV, eles ganham Força e Velocidade.",
+
+  "text.skills.rangerIncognito.title": "§7§a[Incógnito]§7",
+  "text.skills.rangerIncognito.description": "§7Quando seus pets estão perto de você e você ganha Furtividade, eles ganham Invisibilidade.",
+
+  "text.skills.rogueBackstab.title": "§7§a[Apunhalada]§7",
+  "text.skills.rogueBackstab.description": "§7Atacar inimigos por trás inflige neles fraqueza.\nAlém disso, na proximidade de inimigos enfraquecidos, você tem chance de ganhar Furtividade por uma curta duração.",
+
+  "text.skills.warriorHeavyArmorMastery.title": "§7§a[Domínio de Armadura Pesada]§7",
+  "text.skills.warriorHeavyArmorMastery.description": "§7Enquanto seu valor de armadura estiver acima de 15, você tem chance de ganhar Força ao ser atingido.",
+
+  "text.skills.warriorMediumArmorMastery.title": "§7§a[Domínio de Armadura Média]§7",
+  "text.skills.warriorMediumArmorMastery.description": "§7Enquanto seu valor de armadura estiver abaixo de 15, você tem chance de ganhar Absorção ao ser atingido.",
+
+  "text.skills.warriorSpellbreaker.title": "§7§a[Quebra-feitiços]§7",
+  "text.skills.warriorSpellbreaker.description": "§7Ao receber dano, você tem chance de ganhar Quebra de Feitiços por uma curta duração.\n\nAlém disso, seus golpes corpo a corpo tem chance de conceder Dardo Enfurecido por uma curta duração.\n\n§f(Quebra de Feitiços)§7 faz projéteis mágicos hostis explodirem quando estão muito perto de você.\n\n§f(Dardo Enfurecido)§7 faz você arremessar periodicamente seu item segurado em inimigos próximos.",
+
+  "text.skills.warriorGoliath.title": "§7§a[Golias]§7",
+  "text.skills.warriorGoliath.description": "§7Ao cair de longas distâncias, ganha Abalo Sísmico.\n\n§f(Abalo Sísmico)§7 faz você causar dano e empurrar inimigos ao redor ao aterrissar no chão. Esse dano escala com seu valor de armadura.",
+
+  "text.skills.warriorHeavyWeight.title": "§7§a[Peso Pesado]§7",
+  "text.skills.warriorHeavyWeight.description": "§7Seus efeitos de Abalo Sísmico são aprimorados, fazendo-os causar dano adicional quanto mais tempo você ficar no ar.",
+
+  "text.skills.warriorBound.title": "§7§a[Impulso]§7",
+  "text.skills.warriorBound.description": "§7Após ativar Abalo Sísmico, você ganha Supersalto e Dardo Enfurecido por uma curta duração.\n\n§f(Dardo Enfurecido)§7 faz você arremessar periodicamente seu item segurado em inimigos próximos.",
+
+  "text.skills.warriorDeathDefy.title": "§7§a[Desafiar a Morte]§7",
+  "text.skills.warriorDeathDefy.description": "§7Com PV baixo, você ganha Regeneração e Exaustão relativas a sua porcentagem de vida restante.\n\n§f(Exaustão)§7 reduz seu Ataque Corpo a Corpo, Velocidade de Movimento e Velocidade de Ataque em §c1% §f[x]§7 por acúmulo.\n\nVocê perde vários acúmulos de Exaustão por segundo, relativos ao seu atributo de Vigor.",
+
+  "text.skills.warriorFrenzy.title": "§7§a[Frenesi]§7",
+  "text.skills.warriorFrenzy.description": "§7Ganha 35% de Dano Corpo a Corpo aumentado, mas cada vez que acerta um inimigo você ganha um acúmulo de exaustão.\n\n§f(Exaustão)§7 reduz seu Ataque Corpo a Corpo, Velocidade de Movimento e Velocidade de Ataque em §c1% §f[x]§7 por acúmulo.\n\nVocê perde vários acúmulos de Exaustão por segundo, relativos ao seu atributo de Vigor.",
+
+  "text.skills.warriorCarnage.title": "§7§a[Carnificina]§7",
+  "text.skills.warriorCarnage.description": "§7Enquanto estiver em ou acima de 75 acúmulos de Fúria ou Exaustão, ganha Vida Extra e Aura Imobilizante.\n\n§f(Aura Imobilizante)§7 inflige periodicamente Imobilizar em inimigos próximos.\n\n§f(Imobilizar)§7 reduz muito a velocidade e causa dano a vítima quando ela tenta se mover.",
+
+  "text.skills.warriorTwinstrike.title": "§7§a[Golpe Duplo]§7",
+  "text.skills.warriorTwinstrike.description": "§7Seus golpes corpo a corpo têm chance de atingir duas vezes.\nEssa chance é dobrada sob efeito de Vida Extra.",
+
+  "text.skills.warriorSwordfall.title": "§7§a[Chuva de Espadas]§7",
+  "text.skills.warriorSwordfall.description": "§7Seus golpes corpo a corpo têm chance de derrubar uma espada do céu, causando dano ao seu alvo e a todos os inimigos próximos.\n\nEssa chance é dobrada sob efeito de Pujança.",
+
+  "text.skills.berserkerpath.title": "Caminho do §bBerserker§7",
+  "text.skills.berserkerpath.description": "\n§7§a[Temeridade]§7\nQuando seu PV sobe acima de 70% você é infligido com fraqueza pulsante.\n\nAlém disso, ao causar ou receber dano você ganha um acúmulo de Fúria.\n\n§f(Fúria)§7 Concede §a+0,5% §f[x]§7 de dano corpo a corpo, velocidade de ataque e dano recebido aumentados por acúmulo, até um máximo de 100 acúmulos.\nAcima de 25 acúmulos de Fúria você perde rapidamente acúmulos de Exaustão.§7\n\nSegure §f[SHIFT] §7para mais info:",
+  "text.skills.berserkerpath.extra_description": "\n§7O §bBerserker§7 e movido por uma sede insaciável de destruição e um total desprezo pela própria segurança. São mestres do §acombate corpo a corpo§7 e adoram causar dano devastador, mesmo que isso signifique §apor a própria vida em risco§7.",
+
+  "text.skills.berserkerSwordMastery.title": "§7§a[Domínio da Espada]§7",
+  "text.skills.berserkerSwordMastery.description": "§7Ganha Velocidade pulsante ao empunhar uma espada na mão principal.",
+
+  "text.skills.berserkerSwordMasteryProficient.title": "§7§a[Domínio da Espada +]§7",
+  "text.skills.berserkerSwordMasteryProficient.description": "§7Ganha Velocidade pulsante aumentada ao empunhar uma espada na mão principal.",
+
+  "text.skills.berserkerSwordMasterySkilled.title": "§7§a[Domínio da Espada ++]§7",
+  "text.skills.berserkerSwordMasterySkilled.description": "§7Quando não estiver empunhando duas armas, ganha Pujança pulsante.\n\n§f(Pujança)§7 concede §a+10% §f[x]§7 de dano de ataque aumentado por acúmulo.",
+
+  "text.skills.berserkerAxeMastery.title": "§7§a[Domínio do Machado]§7",
+  "text.skills.berserkerAxeMastery.description": "§7Ganha Força pulsante ao empunhar um machado na mão principal.",
+
+  "text.skills.berserkerAxeMasteryProficient.title": "§7§a[Domínio do Machado +]§7",
+  "text.skills.berserkerAxeMasteryProficient.description": "§7Ganha Força pulsante aumentada ao empunhar um machado na mão principal.",
+
+  "text.skills.berserkerAxeMasterySkilled.title": "§7§a[Domínio do Machado ++]§7",
+  "text.skills.berserkerAxeMasterySkilled.description": "§7Ganha Força pulsante aumentada ao empunhar um machado na mão principal.",
+
+  "text.skills.berserkerIgnorePain.title": "§7§a[Ignorar a Dor]§7",
+  "text.skills.berserkerIgnorePain.description": "§7Quando seu PV cai abaixo de 40% você ganha resistência pulsante.",
+
+  "text.skills.berserkerIgnorePainProficient.title": "§7§a[Ignorar a Dor +]§7",
+  "text.skills.berserkerIgnorePainProficient.description": "§7Quando seu PV cai abaixo de 40% você ganha resistência pulsante aumentada.",
+
+  "text.skills.berserkerIgnorePainSkilled.title": "§7§a[Ignorar a Dor ++]§7",
+  "text.skills.berserkerIgnorePainSkilled.description": "§7Quando seu PV cai abaixo de 40% você ganha resistência pulsante aumentada.",
+
+  "text.skills.berserkerRecklessness.title": "§7§a[Temeridade]§7",
+  "text.skills.berserkerRecklessness.description": "§7Quando seu PV sobe acima de 70% você é infligido com fraqueza pulsante.\n\nAlém disso, ao causar ou receber dano você ganha um acúmulo de Fúria.\n\n§f(Fúria)§7 Concede §a+0,5% §f[x]§7 de dano corpo a corpo, velocidade de ataque e dano recebido aumentados por acúmulo, até um máximo de 100 acúmulos.\nAcima de 25 acúmulos de Fúria você perde rapidamente acúmulos de Exaustão.",
+
+  "text.skills.berserkerChallenge.title": "§7§a[Desafio]§7",
+  "text.skills.berserkerChallenge.description": "§7Ganha um acúmulo de rapidez para cada inimigo próximo.",
+
+  "text.skills.berserkerExploit.title": "§7§a[Explorar]§7",
+  "text.skills.berserkerExploit.description": "§7Acertar inimigos imobilizados inflige neles fraqueza.",
+
+  "text.skills.bulwarkPath.title": "Caminho do §bBastião§7",
+
+  "text.skills.bulwarkShieldMastery.title": "§7§a[Domínio do Escudo]§7",
+  "text.skills.bulwarkShieldMastery.description": "§7Ganha fraqueza e resistência ao empunhar um escudo.",
+
+  "text.skills.bulwarkShieldMasteryProficient.title": "§7§a[Domínio do Escudo +]§7",
+  "text.skills.bulwarkShieldMasteryProficient.description": "§7Ganha fraqueza e resistência aumentada ao empunhar um escudo.",
+
+  "text.skills.bulwarkShieldMasterySkilled.title": "§7§a[Domínio do Escudo ++]§7",
+  "text.skills.bulwarkShieldMasterySkilled.description": "§7Ganha fraqueza e resistência aumentada ao empunhar um escudo.",
+
+  "text.skills.bulwarkRebuke.title": "§7§a[Repreensão]§7",
+  "text.skills.bulwarkRebuke.description": "§725% de chance ao bloquear de infligir fraqueza no seu atacante.",
+
+  "text.skills.wayfarerSlender.title": "§7§a[Esbelto]§7",
+  "text.skills.wayfarerSlender.description": "§7Ganha Agilidade. Quanto menos armadura você tiver, maiores os acúmulos de Agilidade ganhos.\n\n§f(Agilidade)§7 concede §a+5% §f[x]§7 de aumento em velocidade de ataque, velocidade de movimento, aceleração mágica e dano a distância por acúmulo.",
+
+  "text.skills.roguePath.title": "Caminho do §bLadino§7",
+  "text.skills.roguePath.description": "§7\n§7§a[Esbelto]§7\n§7Ganha Agilidade. Quanto menos armadura você tiver, maiores os acúmulos de Agilidade ganhos.\n\n§f(Agilidade)§7 concede §a+5% §f[x]§7 de aumento em velocidade de ataque, velocidade de movimento, aceleração mágica e dano a distância por acúmulo.§7\n\nSegure §f[SHIFT] §7para mais info:",
+  "text.skills.roguePath.extra_description": "\n§7O §bLadino§7 e mestre da §afurtividade§7 e do subterfugio. Próspera nas sombras, usando suas habilidades excepcionais para permanecer invisível e pegar seus inimigos desprevenidos com §agolpes precisos§7. Se pego a céu aberto, e mais que capaz de §aesquivar§7 ataques inimigos e escapar de volta a segurança das sombras.",
+
+  "text.skills.rogueSmokeBomb.title": "§7§a[Bomba de Fumaça]§7",
+  "text.skills.rogueSmokeBomb.description": "§7Chance de cegar inimigos próximos e ganhar Aura Imobilizante ao ser atingido.\n\n§f(Aura Imobilizante)§7 inflige periodicamente Imobilizar em inimigos próximos.",
+
+  "text.skills.rogueOpportunisticMastery.title": "§7§a[Maestria Oportunista]§7",
+  "text.skills.rogueOpportunisticMastery.description": "§7Atacar sob efeito de Furtividade faz você envenenar seu alvo por uma curta duração.",
+
+  "text.skills.rogueOpportunisticMasteryProficient.title": "§7§a[Maestria Oportunista +]§7",
+  "text.skills.rogueOpportunisticMasteryProficient.description": "§7Atacar sob efeito de Furtividade faz você envenenar seu alvo por uma duração moderada.",
+
+  "text.skills.rogueOpportunisticMasterySkilled.title": "§7§a[Maestria Oportunista ++]§7",
+  "text.skills.rogueOpportunisticMasterySkilled.description": "§7Atacar sob efeito de Furtividade faz você envenenar seu alvo por uma longa duração.",
+
+  "text.skills.rogueEvasionMastery.title": "§7§a[Maestria de Evasão]§7",
+  "text.skills.rogueEvasionMastery.description": "§7Enquanto tiver pelo menos 1 acúmulo de Agilidade, você tem 15% de chance de evitar completamente o dano recebido.",
+
+  "text.skills.rogueEvasionMasteryProficient.title": "§7§a[Maestria de Evasão +]§7",
+  "text.skills.rogueEvasionMasteryProficient.description": "§7Enquanto tiver pelo menos 1 acúmulo de Agilidade, você tem 20% de chance de evitar completamente o dano recebido.",
+
+  "text.skills.rogueEvasionMasterySkilled.title": "§7§a[Maestria de Evasão ++]§7",
+  "text.skills.rogueEvasionMasterySkilled.description": "§7Enquanto tiver pelo menos 1 acúmulo de Agilidade, você tem 25% de chance de evitar completamente o dano recebido.",
+
+  "text.skills.rogueExploitation.title": "§7§a[Exploração]§7",
+  "text.skills.rogueExploitation.description": "§7Sob efeito de furtividade, seus ataques pelas costas infligem Marca da Morte.\n\n§f(Marca da Morte)§7 Reduz a resistência e a cura da vítima em §c+25% §f[x]§7 por acúmulo.",
+
+  "text.skills.rogueRecovery.title": "§7§a[Recuperação]§7",
+  "text.skills.rogueRecovery.description": "§7Quando você ganha Furtividade, você também ganha Regeneração.",
+
+  "text.skills.rogueShadowVeil.title": "§7§a[Véu Sombrio]§7",
+  "text.skills.rogueShadowVeil.description": "§7Enquanto sob efeito de Furtividade, você ganha periodicamente Resistência crescente.",
+
+  "text.skills.rogueDeflection.title": "§7§a[Deflexão]§7",
+  "text.skills.rogueDeflection.description": "§7Ao empunhar duas armas §f(machados não contam)§7, a chance base de evasão da sua passiva Maestria de Evasão é aumentada em 10%.",
+
+  "text.skills.rogueFleetfooted.title": "§7§a[Pés Ligeiros]§7",
+  "text.skills.rogueFleetfooted.description": "§7Quando você é removido à força da Furtividade, ganha Velocidade momentânea.",
+
+  "text.skills.rangerPath.title": "Caminho do §bPatrulheiro§7",
+  "text.skills.rangerPath.description": "\n§7§a[Esbelto]§7 \n§7Ganha Agilidade. Quanto menos armadura você tiver, maiores os acúmulos de Agilidade ganhos.\n\n§f(Agilidade)§7 concede §a+5% §f[x]§7 de aumento em velocidade de ataque, velocidade de movimento, aceleração mágica e dano a distância por acúmulo.§7\n\nSegure §f[SHIFT] §7para mais info:",
+  "text.skills.rangerPath.extra_description": "\n§7O §bPatrulheiro§7 e renomado por sua inigualável §aproficiência com arcos§7 e sua habilidade única de infundir §amagia elemental§7 em seus ataques a distância. Também compartilha um vínculo profundo e simbiótico com seus §acompanheiros animais§7, tornando-se umà força formidável no campo de batalha.",
+
+  "text.skills.initiateFrail.title": "§7§a[Frágil]§7",
+  "text.skills.initiateFrail.description": "§7Você não pode usar efetivamente armas com mais de 6 de poder de ataque.\n\nGanha Agilidade. Quanto menos armadura você tiver, maiores os acúmulos de Agilidade ganhos.\n\n§f(Agilidade)§7 concede §a+5% §f[x]§7 de aumento em velocidade de ataque, velocidade de movimento, aceleração mágica e dano a distância por acúmulo.",
+
+  "text.skills.initiateWhisperedWizardry.title": "§7§a[Feiticária Sussurrada]§7",
+  "text.skills.initiateWhisperedWizardry.description": "§7Conjurar um feitiço enquanto tem Furtividade concede vários acúmulos de Forja Mágica por alguns segundos.\n\n§f(Forja Mágica)§7 concede §a+0,25 §f[x]§7 de Poder Mágico por acúmulo.",
+
+  "text.skills.initiateSpellcloak.title": "§7§a[Manto Mágico]§7",
+  "text.skills.initiateSpellcloak.description": "§7Conjurar um feitiço concede breve Furtividade, desde que você não esteja Revelado.\n\n§f(Furtividade)§7 faz você se misturar às sombras, evitando completamente a detecção de monstros. Causar ou receber dano remove a Furtividade.",
+
+  "text.skills.initiateOverload.title": "§7§a[Sobrecarga]§7",
+  "text.skills.initiateOverload.description": "§7Conjurar um feitiço concede um acúmulo de Sobrecarga por uma curta duração.\n\n§f(Sobrecarga)§7 concede §a+45% §f[x]§7 de dano crítico mágico aumentado e §a+10% §f[x]§7 de chance de crítico mágico por acúmulo.\nAo exceder 5 acúmulos você sobrecarrega, causando §cdano mágico significativo a si mesmo§7 e a inimigos próximos.\n\nO dano causado aos inimigos escala com seu PV máximo e Poder Mágico de Almas.",
+
+  "text.skills.crusaderPath.title": "Caminho do §bCruzado§7",
+  "text.skills.crusaderPath.description": "\nConcede §a+1§7 ao poder mágico de Cura\n§e[Requer §nPaladins & Priests§r§e instalado]§7\n\nSegure §f[SHIFT] §7para mais info:",
+  "text.skills.crusaderPath.extra_description": "\n§7O §bCruzado§7 costuma ser escolhido por quem não se contenta em apenas §adefender seus aliados§7, mas busca ser um farol de esperança no campo de batalha. Combinam o fervor de um §acurandeiro§7 com à força de um §aguerreiro§7, tornando-se campeões formidáveis tanto no §aataque quanto na defesa§7.",
+
+  "text.skills.frostguardPath.title": "Caminho do §bGuarda de Gelo§7",
+  "text.skills.frostguardPath.description": "\n§eAINDA Não IMPLEMENTADO§7",
+  "text.skills.frostguardPath.extra_description": "\n§eAINDA Não IMPLEMENTADO§7",
+
+  "text.skills.spellbladePath.title": "Caminho do §bLâmina Mágica§7",
+  "text.skills.spellbladePath.description": "\nSegure §f[SHIFT] §7para mais info:",
+  "text.skills.spellbladePath.extra_description": "\n§7A §bLâmina Mágica§7 e uma guerreira versátil e formidável que funde perfeitamente o poder da magia com o combate marcial. Sua marca registrada e a fusão de §aconjuração§7 e §aataques corpo a corpo§7, tornando-a umà força excepcional no campo de batalha.",
+
+  "text.skills.spellbladeWeaponExpert.title": "§7§a[Especialista em Armas]§7",
+  "text.skills.spellbladeWeaponExpert.description": "§7Ganha um acúmulo de Pujança ao conjurar um feitiço. Ocasionalmente também ganha um acúmulo de Forja Mágica.\n\n§f(Pujança)§7 concede §a+10% §f[x]§7 de dano de ataque aumentado por acúmulo.\n\n§f(Forja Mágica)§7 concede §a+0,25§7 de Poder Mágico por acúmulo.",
+
+  "text.skills.spellbladeSpellweaving.title": "§7§a[Tecer Feitiços]§7",
+  "text.skills.spellbladeSpellweaving.description": "§7Você agora tem 15% de chance de invocar um feitiço aleatório ao acertar um inimigo.",
+
+  "text.skills.spellbladeSignatureElementalSurge.title": "Habilidade Característica: §6[Surto Elemental]§7",
+  "text.skills.spellbladeSignatureElementalSurge.description": "\nConcede Surto Elemental por 15s.\n\n§f(Surto Elemental)§7 faz você liberar periodicamente novas elementais.\n\n§a30s de recarga§7",
+
+  "text.skills.spellbladeSignatureElementalSurgeNoFrost.title": "§f[Remover Gelo]",
+  "text.skills.spellbladeSignatureElementalSurgeNoFrost.description": "§7Remove Novas de Gelo do seu grupo de feitiços §6[Surto Elemental]§7.\nSe nenhum elemento restar no grupo, o Surto Elemental liberará Novas Arcanas.",
+
+  "text.skills.spellbladeSignatureElementalSurgeNoFire.title": "§f[Remover Fogo]",
+  "text.skills.spellbladeSignatureElementalSurgeNoFire.description": "§7Remove Novas de Fogo do seu grupo de feitiços §6[Surto Elemental]§7.\nSe nenhum elemento restar no grupo, o Surto Elemental liberará Novas Arcanas.",
+
+  "text.skills.spellbladeSignatureElementalSurgeRenewal.title": "§f[Renovação]",
+  "text.skills.spellbladeSignatureElementalSurgeRenewal.description": "§7Acertar inimigos enquanto você tem §6[Surto Elemental]§7 tem 15% de chance de estender sua duração em 3 segundos.",
+
+  "text.skills.spellbladeSignatureElementalSurgeNoLightning.title": "§f[Remover Relâmpago]",
+  "text.skills.spellbladeSignatureElementalSurgeNoLightning.description": "§7Remove Novas de Relâmpago do seu grupo de feitiços §6[Surto Elemental]§7.\nSe nenhum elemento restar no grupo, o Surto Elemental liberará Novas Arcanas.",
+
+  "text.skills.spellbladeSignatureElementalImpact.title": "Habilidade Característica: §6[Impacto Elemental]§7",
+  "text.skills.spellbladeSignatureElementalImpact.description": "\nFaz você avançar para frente com poder extremo, liberando explosões elementais enquanto se move.\n\n§a30s de recarga§7",
+
+  "text.skills.spellbladeSignatureElementalImpactMagnet.title": "§f[Ímã]",
+  "text.skills.spellbladeSignatureElementalImpactMagnet.description": "§7Seu §6[Impacto Elemental]§7 agora puxa inimigos próximos para o caminho do impacto.",
+
+  "text.skills.spellbladeSignatureElementalImpactResistance.title": "§f[Resistência]",
+  "text.skills.spellbladeSignatureElementalImpactResistance.description": "§7Seu §6[Impacto Elemental]§7 agora também concede breve resistência.",
+
+  "text.skills.spellbladeSignatureSpellweaver.title": "Habilidade Característica: §6[Tecelão de Feitiços]§7",
+  "text.skills.spellbladeSignatureSpellweaver.description": "\nDobra a chance da sua passiva Tecer Feitiços por 25s.\n\nSob efeito do Tecelão de Feitiços, feitiços adicionais são adicionados ao seu grupo de Tecer Feitiços.\n\n§a40s de recarga§7",
+
+  "text.skills.spellbladeSignatureSpellweaverHaste.title": "§f[Rapidez]",
+  "text.skills.spellbladeSignatureSpellweaverHaste.description": "§7Suas ativações de Tecer Feitiços agora concedem 5s de Rapidez, acumulando até 5 vezes.",
+
+  "text.skills.spellbladeSignatureSpellweaverRegeneration.title": "§f[Regeneração]",
+  "text.skills.spellbladeSignatureSpellweaverRegeneration.description": "§7Suas ativações de Tecer Feitiços agora tem 50% de chance de conceder regeneração por 5s.",
+
+  "text.skills.wizardPath.title": "Caminho do §bMago§7",
+  "text.skills.wizardPath.description": "\n§7§a[Frágil]§7\n§7você não pode usar efetivamente armas com mais de 6 de poder de ataque.\n\nGanha Agilidade. Quanto menos armadura você tiver, maiores os acúmulos de Agilidade ganhos.\n\n§f(Agilidade)§7 concede §a+5% §f[x]§7 de aumento em velocidade de ataque, velocidade de movimento, aceleração mágica e dano a distância por acúmulo.§7\n\nSegure §f[SHIFT] §7para mais info:",
+  "text.skills.wizardPath.extra_description": "\n§7A especialização de §bMago§7 e para quem busca dominar o poder das magias. São §aconjuradores§7 implacáveis e destrutivos, capazes de liberar energia mágica cataclísmica sobre seus inimigos. Porém, sua sede de poder arcano os leva a §anegligenciar a forma física§7, enfraquecendo suas defesas e capacidades ofensivas físicas.",
+
+  "text.skills.shamanPath.title": "Caminho do §bXamã§7",
+  "text.skills.shamanPath.description": "\n§eAINDA Não IMPLEMENTADO§7",
+  "text.skills.shamanPath.extra_description": "\n§eAINDA Não IMPLEMENTADO§7",
+
+  "text.skills.clericPath.title": "Caminho do §bClérigo§7",
+  "text.skills.clericPath.description": "\nConcede §a+1§7 ao poder mágico de Cura\n§e[Requer §nPaladins & Priests§r§e instalado]§7\n\nSegure §f[SHIFT] §7para mais info:",
+  "text.skills.clericPath.extra_description": "\n§7Os da especialização de §bClérigo§7 são conhecidos por seu compromisso inabalável em proteger e nutrir seus aliados. Possuem uma combinação única de §acura§7, §asuporte§7 e a capacidade de §acarregar os fardos§7 daqueles que protegem.",
+
+  "text.skills.necromancerPath.title": "Caminho do §bNecromante§7",
+  "text.skills.necromancerPath.description": "\n§7Segure §f[SHIFT] §7para mais info:",
+  "text.skills.necromancerPath.extra_description": "\n§7Os da especialização de §bNecromante§7 praticam a vil feiticária necrótica, conjurando §alacaios mortos-vivos§7 de carne e osso.\n\nEspecializados em Poder Mágico de Gelo e Almas, são capazes de causar dano significativo indiretamente através de seus lacaios, e de afastar a própria garra da morte.",
+
+  "text.skills.wizardPassiveSpellEcho.title": "§7§a[Eco Mágico]§7",
+  "text.skills.wizardPassiveSpellEcho.description": "§7Seus acertos de feitiço tem chance de ecoar, conjurando um feitiço aleatório adicional no alvo.",
+
+  "text.skills.wizardSignatureMeteorShower.title": "Habilidade Característica: §6[Chuva de Meteoros]§7",
+  "text.skills.wizardSignatureMeteorShower.description": "§7\nInvoca meteoros sobre inimigos próximos.\n\n§8[Requer Alvos Próximos]\n\n§a40s de recarga§7",
+
+  "text.skills.wizardSignatureMeteorShowerGreater.title": "§f[Maior]§7",
+  "text.skills.wizardSignatureMeteorShowerGreater.description": "§7§6[Chuva de Meteoros]§7 agora invoca um único meteoro maior que causa significativamente mais dano numa área maior.\n\n§8[Requer Alvo]",
+
+  "text.skills.wizardSignatureMeteorShowerWrath.title": "§f[Ira]",
+  "text.skills.wizardSignatureMeteorShowerWrath.description": "§7Conjurar §6[Chuva de Meteoros]§7 agora concede 10 acúmulos de Ira Meteórica.\n\n§f(Ira Meteórica)§7 invoca periodicamente meteoros sobre inimigos próximos.",
+
+  "text.skills.wizardSignatureMeteorShowerRenewingWrath.title": "§f[Renovação]",
+  "text.skills.wizardSignatureMeteorShowerRenewingWrath.description": "§7Quando a Ira Meteórica ativa, ela tem 10% de chance de não consumir um acúmulo.",
+
+  "text.skills.wizardSignatureMeteorShowerRenewingWrath++.title": "§f[Renovação +]",
+  "text.skills.wizardSignatureMeteorShowerRenewingWrath++.description": "§7Quando a Ira Meteórica ativa, ela tem 30% de chance de não consumir um acúmulo.",
+
+  "text.skills.wizardSignatureMeteorShowerRenewingWrath+++.title": "§f[Renovação ++]",
+  "text.skills.wizardSignatureMeteorShowerRenewingWrath+++.description": "§7Quando a Ira Meteórica ativa, ela tem 50% de chance de não consumir um acúmulo.",
+
+  "text.skills.wizardSignatureIceComet.title": "Habilidade Característica: §6[Cometa de Gelo]§7",
+  "text.skills.wizardSignatureIceComet.description": "§7\nInvoca um Cometa de Gelo que causa dano e retarda inimigos num grande raio.\n\n§a30s de recarga§7",
+
+  "text.skills.wizardSignatureIceCometLeap.title": "§f[Salto]",
+  "text.skills.wizardSignatureIceCometLeap.description": "§7Conjurar §6[Cometa de Gelo]§7 agora faz você saltar para trás e ganhar queda lenta momentânea.",
+
+  "text.skills.wizardSignatureIceCometVolley.title": "§f[Salva]",
+  "text.skills.wizardSignatureIceCometVolley.description": "§7Conjurar §6[Cometa de Gelo]§7 agora concede 6 acúmulos de Salva de Gelo.\n\n§f(Salva de Gelo)§7 faz você invocar periodicamente Raios de Gelo em inimigos próximos ou mirados.",
+
+  "text.skills.wizardSignatureIceCometDamage.title": "§f[Maior]",
+  "text.skills.wizardSignatureIceCometDamage.description": "§7§6[Cometa de Gelo]§7 agora é maior e causa mais dano e empurrão.",
+
+  "text.skills.wizardSignatureIceCometDamage++.title": "§f[Maior +]",
+  "text.skills.wizardSignatureIceCometDamage++.description": "§7§6[Cometa de Gelo]§7 agora é maior e causa muito mais dano e empurrão.",
+
+  "text.skills.wizardSignatureIceCometDamage+++.title": "§f[Maior ++]",
+  "text.skills.wizardSignatureIceCometDamage+++.description": "§7§6[Cometa de Gelo]§7 agora é maior e causa significativamente mais dano e empurrão.",
+
+  "text.skills.wizardSignatureStaticDischarge.title": "Habilidade Característica: §6[Descarga Estática]§7",
+  "text.skills.wizardSignatureStaticDischarge.description": "§7\nLibera uma descarga elétrica de alto dano no seu alvo, infligindo nele fraqueza.\n\n§8[Requer Alvo]\n\n§a16s de recarga§7",
+
+  "text.skills.wizardSignatureStaticDischargeLightningBall.title": "§f[Esfera Relâmpago]",
+  "text.skills.wizardSignatureStaticDischargeLightningBall.description": "§6[Descarga Estática]§7 não salta mais, mas invoca uma esfera de relâmpago lenta que descarrega eletricidade periodicamente em hostis próximos.\n\nTodas as passivas que normalmente ativariam com um salto agora ativam quando a Esfera Relâmpago descarrega nos inimigos.",
+
+  "text.skills.wizardSignatureStaticDischargeLeap.title": "§f[Salto]",
+  "text.skills.wizardSignatureStaticDischargeLeap.description": "§7Sua §6[Descarga]§7 agora pode saltar entre inimigos próximos.",
+
+  "text.skills.wizardSignatureStaticDischargeLeap++.title": "§f[Salto +]",
+  "text.skills.wizardSignatureStaticDischargeLeap++.description": "§7Sua §6[Descarga Estática]§7 ganha saltos adicionais antes de expirar.",
+
+  "text.skills.wizardSignatureStaticDischargeLeap+++.title": "§f[Salto ++]",
+  "text.skills.wizardSignatureStaticDischargeLeap+++.description": "§7Sua §6[Descarga Estática]§7 ganha significativamente mais saltos antes de expirar.",
+
+  "text.skills.wizardSignatureStaticDischargeSpeed.title": "§f[Velocidade]",
+  "text.skills.wizardSignatureStaticDischargeSpeed.description": "§7Cada vez que a §6[Descarga Estática]§7 salta ou e conjurada, você tem 5% de chance de ganhar velocidade.",
+
+  "text.skills.wizardSignatureStaticDischargeSpeed++.title": "§f[Velocidade +]",
+  "text.skills.wizardSignatureStaticDischargeSpeed++.description": "§7Cada vez que a §6[Descarga Estática]§7 salta ou e conjurada, você tem 10% de chance de ganhar velocidade.",
+
+  "text.skills.wizardSignatureStaticDischargeSpeed+++.title": "§f[Velocidade ++]",
+  "text.skills.wizardSignatureStaticDischargeSpeed+++.description": "§7Cada vez que a §6[Descarga Estática]§7 salta ou e conjurada, você tem 15% de chance de ganhar velocidade.",
+
+  "text.skills.wizardSignatureStaticDischargeLightningOrb.title": "§f[Orbe de Relâmpago]",
+  "text.skills.wizardSignatureStaticDischargeLightningOrb.description": "§7Além de ganhar velocidade, você também tem chance de invocar um Orbe de Relâmpago que órbita você erraticamente, causando dano aos inimigos que atravessa.\n\nPara cada Orbe de Relâmpago na sua vizinhança, ganha um acúmulo de Choque de Almas.\n\n§f(Choque de Almas)§7 concede §a+1 §f[x]§7 de poder mágico de Almas e Relâmpago por acúmulo.",
+
+  "text.skills.wizardSignatureStaticDischargeLightningOrbOnHit.title": "§f[Ao Acertar]",
+  "text.skills.wizardSignatureStaticDischargeLightningOrbOnHit.description": "§7Seus acertos do Orbe de Relâmpago agora podem ativar efeitos de feitiço ao conjurar, como Eco Mágico.",
+
+  "text.skills.wizardSignatureArcaneBolt.title": "Habilidade Característica: §6[Raio Arcano]§7",
+  "text.skills.wizardSignatureArcaneBolt.description": "§7\nDispara um raio concentrado de energia arcana no seu alvo.\n\n§a35s de recarga§7",
+
+  "text.skills.wizardSignatureArcaneBoltLesser.title": "§f[Menor]",
+  "text.skills.wizardSignatureArcaneBoltLesser.description": "§7Seu §6[Raio Arcano]§7 agora dispara um Raio Arcano Menor que causa menos dano e provoca reações em cadeia.",
+
+  "text.skills.wizardSignatureArcaneBoltVolley.title": "§f[Salva]",
+  "text.skills.wizardSignatureArcaneBoltVolley.description": "§7Conjurar §6[Raio Arcano]§7 agora concede 10 acúmulos de Salva Arcana. \n \n§f(Salva Arcana)§7 faz você conjurar rapidamente Raios Arcanos Menores em inimigos mirados.",
+
+  "text.skills.wizardSignatureArcaneBoltGreater.title": "§f[Maior]",
+  "text.skills.wizardSignatureArcaneBoltGreater.description": "§7Você agora conjura um §6[Raio Arcano Maior]§7 que causa dano aumentado e perfura.",
+
+  "text.skills.shamanSignatureAstralTotem.title": "Habilidade Característica: §6[Totem Astral]§7",
+  "text.skills.shamanSignatureAstralTotem.description": "§7Invoca um Totem que conjura periodicamente cometas elementais em inimigos próximos.\n\n§a30s de recarga§7",
+
+  "text.skills.shamanSignatureNovaTotem.title": "Habilidade Característica: §6[Totem Nova]§7",
+  "text.skills.shamanSignatureNovaTotemdescription": "§7Invoca um Totem que conjura periodicamente novas elementais.\n\n§a30s de recarga§7",
+
+  "text.skills.shamanSignatureBoltTotem.title": "Habilidade Característica: §6[Totem de Raios]§7",
+  "text.skills.shamanSignatureBoltTotem.description": "§7Invoca um Totem que dispara periodicamente raios elementais em inimigos próximos.\n\n§a30s de recarga§7",
+
+  "text.skills.rogueSignatureEvasion.title": "Habilidade Característica: §6[Evasão]§7",
+  "text.skills.rogueSignatureEvasion.description": "§7\nOs efeitos da sua passiva Maestria de Evasão são dobrados por 8s.\n\n§a25s de recarga§7",
+
+  "text.skills.rogueSignatureEvasionFanOfBlades.title": "§f[Leque de Lâminas]",
+  "text.skills.rogueSignatureEvasionFanOfBlades.description": "§7§6[Evasão]§7 agora também concede 10 acúmulos de Leque de Lâminas.\n\n§f(Leque de Lâminas)§7 faz você arremessar adagas nos inimigos a sua frente.\n\n§8[Requer Alvo]",
+
+  "text.skills.rogueSignatureEvasionFanOfBladesDisenchantment.title": "§f[Desencantar]",
+  "text.skills.rogueSignatureEvasionFanOfBladesDisenchantment.description": "§7Seu Leque de Lâminas agora também inflige Desencantamento nos inimigos.\n\n§f(Desencantamento)§7 remove periodicamente os bônus da vítima.",
+
+  "text.skills.rogueSignatureEvasionFanOfBladesAssault.title": "§f[Assalto]",
+  "text.skills.rogueSignatureEvasionFanOfBladesAssault.description": "§7Você agora ganha 20 acúmulos de Leque de Lâminas com frequência de arremesso aumentada, mas dano reduzido.",
+
+  "text.skills.rogueSignatureEvasionFanOfBladesRenewal.title": "§f[Renovação]",
+  "text.skills.rogueSignatureEvasionFanOfBladesRenewal.description": "§7Ganha dois acúmulos de Leque de Lâminas ao matar.",
+
+  "text.skills.rogueSignatureEvasionFanOfBladesBladestorm.title": "§f[Tempestade de Lâminas]",
+  "text.skills.rogueSignatureEvasionFanOfBladesBladestorm.description": "§7Para cada inimigo atingido pelo Leque de Lâminas, ganha um acúmulo de Tempestade de Lâminas, até 20 acúmulos.\n\n§f(Tempestade de Lâminas)§7 faz adagas girarem ao seu redor, causando dano a inimigos próximos.\nCada acúmulo de Tempestade de Lâminas aumenta sua frequência de ataque e concede 1% de chance adicional de evasão.",
+
+  "text.skills.rogueSignatureEvasionFanOfBladesBladestormSiphon.title": "§f[Sifão]",
+  "text.skills.rogueSignatureEvasionFanOfBladesBladestormSiphon.description": "§7A Tempestade de Lâminas agora tem chance de drenar vida ao acertar.\n\n§f(Tempestade de Lâminas)§7 faz adagas girarem ao seu redor, causando dano a inimigos próximos.\nCada acúmulo de Tempestade de Lâminas aumenta sua frequência de ataque e concede 1% de chance adicional de evasão.",
+
+  "text.skills.rogueSignaturePreparation.title": "Habilidade Característica: §6[Preparação]§7",
+  "text.skills.rogueSignaturePreparation.description": "§7\nGanha Furtividade e Velocidade 3 por 4s.\n\n§a15s de recarga§7",
+
+  "text.skills.rogueSignaturePreparationShadowstrike.title": "§f[Golpe Sombrio]",
+  "text.skills.rogueSignaturePreparationShadowstrike.description": "§7§6[Preparação]§7 agora faz você avançar velozmente para frente, causando dano da mão principal aos inimigos no seu caminho.",
+
+  "text.skills.rogueSignaturePreparationShadowstrikeVampire.title": "§f[Vampiro]",
+  "text.skills.rogueSignaturePreparationShadowstrikeVampire.description": "§7Você rouba bônus dos inimigos apanhados no caminho do seu avanço e inflige neles Marca da Morte.\n\n§f(Marca da Morte)§7 Reduz a resistência e a cura da vítima em §c+25% §f[x]§7 por acúmulo.",
+
+  "text.skills.rogueSignaturePreparationShadowstrikeShield.title": "§f[Escudo]",
+  "text.skills.rogueSignaturePreparationShadowstrikeShield.description": "§7§6[Preparação]§7 agora concede Barreira momentânea e purifica quaisquer acúmulos de Revelado.\n\n§f(Barreira)§7 O próximo dano que você receber e completamente negado.",
+
+  "text.skills.rogueSignatureSiphoningStrikes.title": "Habilidade Característica: §6[Golpes de Dreno]§7",
+  "text.skills.rogueSignatureSiphoningStrikes.description": "§7\nGanha 10 acúmulos de Golpes de Dreno.\n\n§f(Golpes de Dreno)§7 faz você drenar vida e remover bônus dos seus inimigos ao acertar.\n\n§a25s de recarga§7",
+
+  "text.skills.rogueSignatureSiphoningStrikesMighty.title": "§f[Poderoso]",
+  "text.skills.rogueSignatureSiphoningStrikesMighty.description": "§7Quando você ganha §6[Golpes de Dreno]§7 você também ganha Pujança.\n\n§f(Pujança)§7 concede §a+10% §f[x]§7 de dano de ataque aumentado por acúmulo.",
+
+  "text.skills.rogueSignatureSiphoningStrikesAura.title": "§f[Aura]",
+  "text.skills.rogueSignatureSiphoningStrikesAura.description": "§7Quando você ganha §6[Golpes de Dreno]§7 você também ganha Aura Imobilizante.\n\n§f(Aura Imobilizante)§7 inflige periodicamente Imobilizar em inimigos próximos.",
+
+  "text.skills.rogueSignatureSiphoningStrikesVanish.title": "§f[Sumir]",
+  "text.skills.rogueSignatureSiphoningStrikesVanish.description": "§7Seus §6[Golpes de Dreno]§7 também purificam de você todos os acúmulos de Revelado ao acertar.",
+
+  "text.skills.rangerSignatureArrowRain.title": "Habilidade Característica: §6[Chuva de Flechas]§7",
+  "text.skills.rangerSignatureArrowRain.description": "§7\nGanha um acúmulo de Chuva de Flechas. \n \n§f(Chuva de Flechas)§7 faz seu próximo ataque de arco totalmente carregado invocar uma chuva de flechas na área mirada.\n\n§a14s de recarga§7",
+
+  "text.skills.rangerSignatureArrowRainElemental.title": "§f[Elemental]",
+  "text.skills.rangerSignatureArrowRainElemental.description": "§7Sua §6[Chuva de Flechas]§7 agora e aprimorada elementalmente e causa dano elemental adicional.\nEsse efeito é reduzido quando os inimigos estão muito próximos.",
+
+  "text.skills.rangerSignatureArrowRainElementalArtillery.title": "§f[Artilhária]",
+  "text.skills.rangerSignatureArrowRainElementalArtillery.description": "§7Sua §6[Chuva de Flechas]§7 agora cria flechas elementais adicionais que perseguem inimigos perto da área de impacto.",
+
+  "text.skills.rangerSignatureArrowRainEplosive.title": "§f[Campo Minado]",
+  "text.skills.rangerSignatureArrowRainEplosive.description": "§7Sua §6[Chuva de Flechas]§7 agora deixa para trás flechas explosivas de proximidade.",
+
+  "text.skills.rangerSignatureArrowRainVolley+.title": "§f[Salva]",
+  "text.skills.rangerSignatureArrowRainVolley+.description": "§7Sua §6[Chuva de Flechas]§7 agora dispara uma salva adicional.",
+
+  "text.skills.rangerSignatureArrowRainVolley++.title": "§f[Salva +]",
+  "text.skills.rangerSignatureArrowRainVolley++.description": "§7Sua §6[Chuva de Flechas]§7 agora dispara duas salvas adicionais.",
+
+  "text.skills.rangerSignatureArrowRainVolley+++.title": "§f[Salva ++]",
+  "text.skills.rangerSignatureArrowRainVolley+++.description": "§7Sua §6[Chuva de Flechas]§7 agora dispara três salvas adicionais.",
+
+  "text.skills.rangerSignatureArrowRainRadius+.title": "§f[Raio]",
+  "text.skills.rangerSignatureArrowRainRadius+.description": "§7Sua §6[Chuva de Flechas]§7 agora tem +1 de raio.",
+
+  "text.skills.rangerSignatureArrowRainRadius++.title": "§f[Raio +]",
+  "text.skills.rangerSignatureArrowRainRadius++.description": "§7Sua §6[Chuva de Flechas]§7 agora tem +2 de raio.",
+
+  "text.skills.rangerSignatureArrowRainRadius+++.title": "§f[Raio ++]",
+  "text.skills.rangerSignatureArrowRainRadius+++.description": "§7Sua §6[Chuva de Flechas]§7 agora tem +3 de raio.",
+
+  "text.skills.rangerSignatureDisengage.title": "Habilidade Característica: §6[Desengajar]§7",
+  "text.skills.rangerSignatureDisengage.description": "§7\nRetarda inimigos próximos e salta para trás.\n\n§a15s de recarga§7",
+
+  "text.skills.rangerSignatureDisengageRecuperate.title": "§f[Recuperar]",
+  "text.skills.rangerSignatureDisengageRecuperate.description": "§7§6[Desengajar]§7 agora cura todos os pets próximos até a vida cheia.",
+
+  "text.skills.rangerSignatureDisengageExploitation.title": "§f[Aura]",
+  "text.skills.rangerSignatureDisengageExploitation.description": "§7§6[Desengajar]§7 agora concede a todos os pets próximos Aura Imobilizante por uma curta duração. \n\n§f(Aura Imobilizante)§7 inflige periodicamente Imobilizar em inimigos próximos.",
+
+  "text.skills.rangerSignatureDisengageMarksman.title": "§f[Atirador]",
+  "text.skills.rangerSignatureDisengageMarksman.description": "§7Ativar §6[Desengajar]§7 enquanto empunha um arco na mão principal agora concede Atirador. Caso contrário, ganha Barreira.\n\n§f(Barreira)§7 O próximo dano que você receber e completamente negado.\n\n§f(Atirador)§7 Faz seu próximo ataque a distância totalmente carregado disparar uma flecha de atirador, causando alto dano e infligindo Marca da Morte no alvo. \n\n§f(Marca da Morte)§7 Reduz a resistência e a cura da vítima em §c+25% §f[x]§7 por acúmulo.",
+
+  "text.skills.rangerSignatureElementalArrows.title": "Habilidade Característica: §6[Flechas Elementais]§7",
+  "text.skills.rangerSignatureElementalArrows.description": "§7\nGanha 5 acúmulos de Flechas Elementais.\n\n§f(Flechas Elementais)§7 Faz seu próximo ataque a distância totalmente carregado disparar várias flechas elementais nos inimigos da área mirada.\n\n§a40s de recarga§7",
+
+  "text.skills.rangerSignatureElementalArrowsFrostAttuned.title": "§f[Sintonia de Gelo]",
+  "text.skills.rangerSignatureElementalArrowsFrostAttuned.description": "§7Suas §6[Flechas Elementais]§7 serão sempre sintonizadas em gelo.",
+
+  "text.skills.rangerSignatureElementalArrowsFireAttuned.title": "§f[Sintonia de Fogo]",
+  "text.skills.rangerSignatureElementalArrowsFireAttuned.description": "§7Suas §6[Flechas Elementais]§7 serão sempre sintonizadas em fogo.",
+
+  "text.skills.rangerSignatureElementalArrowsLightningAttuned.title": "§f[Sintonia de Relâmpago]",
+  "text.skills.rangerSignatureElementalArrowsLightningAttuned.description": "§7Suas §6[Flechas Elementais]§7 serão sempre sintonizadas em relâmpago.",
+
+  "text.skills.rangerSignatureElementalArrowsRadius+.title": "§f[Raio]",
+  "text.skills.rangerSignatureElementalArrowsRadius+.description": "§7O raio das suas §6[Flechas Elementais]§7 é aumentado em 2.",
+
+  "text.skills.rangerSignatureElementalArrowsRadius++.title": "§f[Raio +]",
+  "text.skills.rangerSignatureElementalArrowsRadius++.description": "§7O raio das suas §6[Flechas Elementais]§7 é aumentado em 4.",
+
+  "text.skills.rangerSignatureElementalArrowsRadius+++.title": "§f[Raio ++]",
+  "text.skills.rangerSignatureElementalArrowsRadius+++.description": "§7O raio das suas §6[Flechas Elementais]§7 é aumentado em 6.",
+
+  "text.skills.rangerSignatureElementalArrowsStacks+.title": "§f[Quantidade]",
+  "text.skills.rangerSignatureElementalArrowsStacks+.description": "§7Você ganha um acúmulo adicional de §6[Flechas Elementais]§7.",
+
+  "text.skills.rangerSignatureElementalArrowsStacks++.title": "§f[Quantidade +]",
+  "text.skills.rangerSignatureElementalArrowsStacks++.description": "§7Você ganha dois acúmulos adicionais de §6[Flechas Elementais]§7.",
+
+  "text.skills.rangerSignatureElementalArrowsStacks+++.title": "§f[Quantidade ++]",
+  "text.skills.rangerSignatureElementalArrowsStacks+++.description": "§7Você ganha três acúmulos adicionais de §6[Flechas Elementais]§7.",
+
+  "text.skills.rangerSignatureElementalArrowsRenewal.title": "§f[Renovação]",
+  "text.skills.rangerSignatureElementalArrowsRenewal.description": "§7Você tem 35% de chance ao matar de ganhar um acúmulo de §6[Flechas Elementais]§7.",
+
+  "text.skills.necromancerSignatureEnrage.title": "Habilidade Característica: §6[Enfurecer]§7",
+  "text.skills.necromancerSignatureEnrage.description": "§7\nManda lacaios próximos entrarem em frenesi, concedendo-lhes velocidade, força e resistência.\n\n§a30s de recarga§7",
+
+  "text.skills.necromancerSignatureSacrifice.title": "Habilidade Característica: §6[Sacrifício]§77",
+  "text.skills.necromancerSignatureSacrifice.description": "§7\nSacrifica lacaios próximos, ganhando um acúmulo de força, rapidez e resistência para cada lacaio sacrificado.\n\n§a30s de recarga§7",
+
+  "text.skills.necromancerSignatureSpectralGrasp.title": "Habilidade Característica: §6[Garra Espectral]§7",
+  "text.skills.necromancerSignatureSpectralGrasp.description": "§7\nCausa dano ao seu alvo e o puxa em sua direção, infligindo lentidão e exaustão.\n\n§a30s de recarga§7",
+
+  "text.skills.frostguardSignatureConjuringStrikes.title": "Habilidade Característica: §6[Golpes Conjurados]§7",
+  "text.skills.frostguardSignatureConjuringStrikes.description": "§7\nGanha 6 acúmulos de Golpes Conjurados.\n\n§a30s de recarga§7",
+
+  "text.skills.frostguardSignatureFrostNova.title": "Habilidade Característica: §6[Nova de Gelo]§7",
+  "text.skills.frostguardSignatureFrostNova.description": "§7\nLibera uma Nova de Gelo, causando dano e retardando inimigos próximos.\n\n§a30s de recarga§7",
+
+  "text.skills.frostguardSignatureIceBlock.title": "Habilidade Característica: §6[Bloco de Gelo]§7",
+  "text.skills.frostguardSignatureIceBlock.description": "§7\nGanha Bloco de Gelo por 6s.\n\n§a30s de recarga§7",
+
+  "text.skills.crusaderAegis.title": "§7§a[Égide]§7",
+  "text.skills.crusaderAegis.description": "§7Consome periodicamente acúmulos de exaustão para ganhar um acúmulo de Proteção Divina.",
+
+  "text.skills.crusaderRetribution.title": "§7§a[Retribuição]§7",
+  "text.skills.crusaderRetribution.description": "§7Chance ao bloquear com escudo de conjurar Julgamento no seu atacante.",
+
+  "text.skills.crusaderExhaustiveRecovery.title": "§7§a[Recuperação Exaustiva]§7",
+  "text.skills.crusaderExhaustiveRecovery.description": "§7Chance ao bloquear com escudo de conjurar instantaneamente Cura Rápida em si mesmo e ganhar vários acúmulos de exaustão.\n\n§f(Exaustão)§7 reduz seu Ataque Corpo a Corpo, Velocidade de Movimento e Velocidade de Ataque em §c1% §f[x]§7 por acúmulo.\n\nVocê perde vários acúmulos de Exaustão por segundo, relativos ao seu atributo de Vigor.",
+
+  "text.skills.crusaderSignatureConsecration.title": "Habilidade Característica: §6[Consagração]§7",
+  "text.skills.crusaderSignatureConsecration.description": "§7\nGanha Consagração por 15s.\n\n§f(Consagração)§7 consagra o chão sob seus pés, causando dano a inimigos enquanto cura aliados. Dano e cura escalam com o Poder Mágico de Cura.\n\n§a30s de recarga§7",
+
+  "text.skills.crusaderSignatureConsecrationDuration.title": "§f[Duração]",
+  "text.skills.crusaderSignatureConsecrationDuration.description": "Sua §6[Consagração]§7 agora dura mais.",
+
+  "text.skills.crusaderSignatureConsecrationWard.title": "§f[Proteção]",
+  "text.skills.crusaderSignatureConsecrationWard.description": "Sua §6[Consagração]§7 agora afasta hostis mortos-vivos.",
+
+  "text.skills.crusaderSignatureConsecrationTaunt.title": "§f[Provocar]",
+  "text.skills.crusaderSignatureConsecrationTaunt.description": "Sua §6[Consagração]§7 agora provoca os hostis afetados.\n\n§f(Provocado)§7 inimigos provocados são forçados a atacar a entidade provocadora.",
+
+  "text.skills.crusaderSignatureConsecrationMighty.title": "§f[Poderoso]",
+  "text.skills.crusaderSignatureConsecrationMighty.description": "Sua §6[Consagração]§7 agora concede periodicamente Pujança a aliados próximos.\n\n§f(Pujança)§7 concede §a+10% §f[x]§7 de dano de ataque aumentado por acúmulo.",
+
+  "text.skills.crusaderSignatureConsecrationSpellforged.title": "§f[Forja Mágica]",
+  "text.skills.crusaderSignatureConsecrationSpellforged.description": "Sua §6[Consagração]§7 agora concede periodicamente Forja Mágica a aliados próximos.\n\n§f(Forja Mágica)§7 concede §a+0,25 §f[x]§7 de Poder Mágico por acúmulo.",
+
+  "text.skills.crusaderSignatureSacredOnslaught.title": "Habilidade Característica: §6[Investida Sagrada]§7",
+  "text.skills.crusaderSignatureSacredOnslaught.description": "§7\nAvanca para frente. Se estiver bloqueando durante o avanço, você causa dano baseado no seu valor de armadura e empurra os inimigos.\n\n§a15s de recarga§7",
+
+  "text.skills.crusaderSignatureSacredOnslaughtHeal.title": "§f[Cura]",
+  "text.skills.crusaderSignatureSacredOnslaughtHeal.description": "Sua §6[Investida Sagrada]§7 cura aliados pelos quais passa e concede a eles Proteção Divina.\n\nA cura escala com o Poder Mágico de Cura",
+
+  "text.skills.crusaderSignatureSacredOnslaughtDefend.title": "§f[Defesa]",
+  "text.skills.crusaderSignatureSacredOnslaughtDefend.description": "Sua §6[Investida Sagrada]§7 também concede a você Proteção Divina por uma duração.",
+
+  "text.skills.crusaderSignatureSacredOnslaughtMighty.title": "§f[Poderoso]",
+  "text.skills.crusaderSignatureSacredOnslaughtMighty.description": "Sua §6[Investida Sagrada]§7 também concede a você Pujança por uma duração.",
+
+  "text.skills.crusaderSignatureSacredOnslaughtStun.title": "§f[Atordoar]",
+  "text.skills.crusaderSignatureSacredOnslaughtStun.description": "Sua §6[Investida Sagrada]§7 também atordoa inimigos, desde que você mantenha o bloqueio enquanto avança.",
+
+  "text.skills.crusaderSignatureHeavensmithsCall.title": "Habilidade Característica: §6[Chamado do Ferreiro Celestial]§7",
+  "text.skills.crusaderSignatureHeavensmithsCall.description": "§7\nDerruba uma bigorna dos céus para esmagar seus inimigos.\n\n§a55s de recarga§7",
+
+  "text.skills.crusaderSignatureHeavensmithsCallTaunt.title": "§f[Provocar]",
+  "text.skills.crusaderSignatureHeavensmithsCallTaunt.description": "§6[Chamado do Ferreiro Celestial]§7 agora Provoca o alvo principal.§7\n\n§f(Provocado)§7 inimigos provocados são forçados a atacar a entidade provocadora.",
+
+  "text.skills.crusaderSignatureHeavensmithsCallMark.title": "§f[Marca da Morte]",
+  "text.skills.crusaderSignatureHeavensmithsCallMark.description": "§6[Chamado do Ferreiro Celestial]§7 agora inflige Marca da Morte no alvo principal.\n\n§f(Marca da Morte)§7 Reduz a resistência e a cura da vítima em §c+25% §f[x]§7 por acúmulo.",
+
+  "text.skills.crusaderSignatureHeavensmithsCallEffect.title": "§f[Adjudicação Divina]",
+  "text.skills.crusaderSignatureHeavensmithsCallEffect.description": "§6[Chamado do Ferreiro Celestial]§7 agora concede a você Adjudicação Divina por uma duração.§7\n\n§f(Adjudicação Divina)§7 conjura periodicamente Julgamento em inimigos próximos.",
+
+  "text.skills.crusaderSignatureHeavensmithsCallEffectExhaust.title": "§f[Recuperar]",
+  "text.skills.crusaderSignatureHeavensmithsCallEffectExhaust.description": "§7A Adjudicação Divina concedida a você pelo §6[Chamado do Ferreiro Celestial]§7 agora purifica seus acúmulos de Exaustão quando ativa.",
+
+  "text.skills.crusaderSignatureHeavensmithsCallEffectMighty.title": "§f[Poderoso]",
+  "text.skills.crusaderSignatureHeavensmithsCallEffectMighty.description": "§7A Adjudicação Divina concedida a você pelo §6[Chamado do Ferreiro Celestial]§7 agora concede acúmulos de Pujança quando ativa.",
+
+  "text.skills.clericAltruism.title": "§7§a[Altruismo]§7",
+  "text.skills.clericAltruism.description": "§7Ao vestir menos de 10 pontos de armadura, você gera periodicamente acúmulos de Forja Mágica.\n\n§f(Forja Mágica)§7 concede §a+0,25 §f[x]§7 de Poder Mágico por acúmulo.",
+
+  "text.skills.clericMutualMending.title": "§7§a[Cura Mútua]§7",
+  "text.skills.clericMutualMending.description": "§7Ao conjurar um feitiço de cura, você tem chance de também conjura-lo em si mesmo.",
+
+  "text.skills.clericHealingWard.title": "§7§a[Proteção Curativa]§7",
+  "text.skills.clericHealingWard.description": "§7Ao conjurar um feitiço de cura, concede ao seu alvo Barreira.\n\n§f(Barreira)§7 O próximo dano que você receber e completamente negado.",
+
+  "text.skills.clericSignatureSacredOrb.title": "Habilidade Característica: §6[Orbe Sagrada]§7",
+  "text.skills.clericSignatureSacredOrb.description": "§7\nLibera uma orbe de energia sagrada que voa para frente antes de buscar um aliado próximo.\nQuando essa orbe se conecta a um aliado, ela o cura e concede Vínculo Vital a ambos.\n\n§f(Vínculo Vital)§7 iguala o PV das entidades afetadas durante sua duração.\n\n§a30s de recarga§7",
+
+  "text.skills.clericSignatureSacredOrbSpeed.title": "§f[Velocidade]",
+  "text.skills.clericSignatureSacredOrbSpeed.description": "§7O Vínculo Vital concedido pela sua §6[Orbe Sagrada]§7 agora também fortalece o recipiente com ataque e velocidade de movimento, mas inflige a você Exaustão.",
+
+  "text.skills.clericSignatureSacredOrbDebuffs.title": "§f[Compaixão]",
+  "text.skills.clericSignatureSacredOrbDebuffs.description": "§7O Vínculo Vital concedido pela sua §6[Orbe Sagrada]§7 agora também faz malefícios que afetam o recipiente serem periodicamente transferidos para você.",
+
+  "text.skills.clericSignatureSacredOrbBuffs.title": "§f[Benevolência]",
+  "text.skills.clericSignatureSacredOrbBuffs.description": "§7O Vínculo Vital concedido pela sua §6[Orbe Sagrada]§7 agora também concede periodicamente cópias dos seus bônus ao recipiente.",
+
+  "text.skills.clericSignatureDivineIntervention.title": "Habilidade Característica: §6[Intervenção Divina]§7",
+  "text.skills.clericSignatureDivineIntervention.description": "§7\nDerruba um raio de energia celestial dos céus, curando seu alvo e concedendo-lhe Imortal.\n\n§8[Requer Alvo]\n\n§f(Imortal)§7 Imbuída de energia celestial, a entidade não pode ser morta.\nPorém, se a entidade estiver abaixo de 60% de PV quando o efeito terminar, ela receberá dano fatal.\n\n§a45s de recarga§7",
+
+  "text.skills.clericSignatureDivineInterventionFireResistance.title": "§f[Resistência ao Fogo]",
+  "text.skills.clericSignatureDivineInterventionFireResistance.description": "§7Sua §6[Intervenção Divina]§7 também concede ao alvo Resistência ao Fogo durante sua duração.",
+
+  "text.skills.clericSignatureDivineInterventionMight.title": "§f[Poderoso]",
+  "text.skills.clericSignatureDivineInterventionMight.description": "§7Sua §6[Intervenção Divina]§7 também concede ao alvo Pujança durante sua duração.\n\n§f(Pujança)§7 concede §a+10% §f[x]§7 de dano de ataque aumentado por acúmulo.",
+
+  "text.skills.clericSignatureDivineInterventionSpellforged.title": "§f[Forja Mágica]",
+  "text.skills.clericSignatureDivineInterventionSpellforged.description": "§7Sua §6[Intervenção Divina]§7 também concede ao alvo Forja Mágica durante sua duração.\n\n§f(Forja Mágica)§7 concede §a+0,25 §f[x]§7 de Poder Mágico por acúmulo.",
+
+  "text.skills.clericSignatureAnointWeapon.title": "Habilidade Característica: §6[Ungir Arma]§7",
+  "text.skills.clericSignatureAnointWeapon.description": "§7\nUnge sua arma com um óleo sagrado.\n\n§f(Ungir Arma)§7 faz seus ataques causarem dano sagrado em área e curarem periodicamente aliados próximos.\nO dano em área escala com o Poder de Cura.\n\n§a35s de recarga§7",
+
+  "text.skills.clericSignatureAnointWeaponResistance.title": "§f[Resistência]",
+  "text.skills.clericSignatureAnointWeaponResistance.description": "§7Seu §6[Ungir Arma]§7 agora também concede Resistência ao acertar.",
+
+  "text.skills.clericSignatureAnointWeaponUndying.title": "§f[Imortal]",
+  "text.skills.clericSignatureAnointWeaponUndying.description": "§7Enquanto seu §6[Ungir Arma]§7 estiver ativo, receber dano estando abaixo de 30% de PV tem chance de conceder Imortal.\n\n§f(Imortal)§7 Imbuída de energia celestial, a entidade não pode ser morta.\nPorém, se a entidade estiver abaixo de 60% de PV quando o efeito terminar, ela receberá dano fatal.",
+
+  "text.skills.clericSignatureAnointWeaponCleanse.title": "§f[Purificar]",
+  "text.skills.clericSignatureAnointWeaponCleanse.description": "§7Enquanto seu §6[Ungir Arma]§7 estiver ativo, você periodicamente se purifica de malefícios.",
+
+  "text.skills.berserkerSignatureRampage.title": "Habilidade Característica: §6[Arremetida]§7",
+  "text.skills.berserkerSignatureRampage.description": "§7\nGanha Arremetida por 15s.\n\n§f(Arremetida)§7 concede bônus aleatórios cada vez que você recebe dano.\n\n§a30s de recarga§7",
+
+  "text.skills.berserkerSignatureRampageCharge.title": "§f[Carga]",
+  "text.skills.berserkerSignatureRampageCharge.description": "§7§6[Arremetida]§7 agora concede imediatamente regeneração e resistência e faz você avançar impetuosamente, causando dano e empurrando inimigos.",
+
+  "text.skills.berserkerSignatureRampageChargeRelentless.title": "§f[Implacável]",
+  "text.skills.berserkerSignatureRampageChargeRelentless.description": "§7Quando sua investida causa dano, você converte seus acúmulos de Exaustão em Força.",
+
+  "text.skills.berserkerSignatureRampageChargeImmob.title": "§f[Imobilizar]",
+  "text.skills.berserkerSignatureRampageChargeImmob.description": "§7Inimigos atingidos pela sua investida também são infligidos com Imobilizar. \n\n§f(Imobilizar)§7 reduz muito a velocidade e causa dano a vítima quando ela tenta se mover.",
+
+  "text.skills.berserkerSignatureBloodthirsty.title": "Habilidade Característica: §6[Sede de Sangue]§7",
+  "text.skills.berserkerSignatureBloodthirsty.description": "§7\nGanha Sede de Sangue por 20s.\n\n§f(Sede de Sangue)§7 concede 25% da sua vida máxima cada vez que você derrota um inimigo.\n\n§a25s de recarga§7",
+
+  "text.skills.berserkerSignatureBloodthirstyMighty.title": "§f[Poderoso]",
+  "text.skills.berserkerSignatureBloodthirstyMighty.description": "§7§6[Sede de Sangue]§7 agora concede Pujança ao usar.\n\n§f(Pujança)§7 concede §a+10% §f[x]§7 de dano de ataque aumentado por acúmulo.",
+
+  "text.skills.berserkerSignatureBloodthirstyTireless.title": "§f[Incansável]",
+  "text.skills.berserkerSignatureBloodthirstyTireless.description": "§7Enquanto §6[Sede de Sangue]§7 estiver ativa, você tem chance de remover acúmulos de Exaustão ao acertar.",
+
+  "text.skills.berserkerSignatureBloodthirstyTremor.title": "§f[Tremor]",
+  "text.skills.berserkerSignatureBloodthirstyTremor.description": "§7Enquanto §6[Sede de Sangue]§7 estiver ativa, você tem chance de ganhar Abalo Sísmico ao acertar.\n\n§f(Abalo Sísmico)§7 faz você causar dano e empurrar inimigos ao redor ao aterrissar no chão. Esse dano escala com seu valor de armadura.",
+
+  "text.skills.berserkerSignatureBerserking.title": "Habilidade Característica: §6[Fúria Berserker]§7",
+  "text.skills.berserkerSignatureBerserking.description": "§7\nSacrifica 30% do PV total. Ganha Fúria Berserker por uma duração igual a quantidade de corações perdidos.\n\n§f(Fúria Berserker)§7 concede bônus ofensivos acumuláveis cada vez que você acerta um inimigo.\n\n§a25s de recarga§7",
+
+  "text.skills.berserkerSignatureBerserkingLeap.title": "§f[Salto Esmagador]",
+  "text.skills.berserkerSignatureBerserkingLeap.description": "§7§6[Fúria Berserker]§7 agora faz você executar um salto esmagador para frente, causando dano e empurrando inimigos no local de aterrissagem.",
+
+  "text.skills.berserkerSignatureBerserkingLeapImmob.title": "§f[Imobilizar]",
+  "text.skills.berserkerSignatureBerserkingLeapImmob.description": "§7O Salto Esmagador agora também inflige Imobilizar nos inimigos.\n\n§f(Imobilizar)§7 reduz muito a velocidade e causa dano a vítima quando ela tenta se mover.",
+
+  "text.skills.berserkerSignatureBerserkingLeapPull.title": "§f[Ímã]",
+  "text.skills.berserkerSignatureBerserkingLeapPull.description": "§7O Salto Esmagador agora puxa inimigos próximos em vez de empurra-los.",
+
+  "text.skills.necromancerSignatureSummoningRitual.title": "Habilidade Característica: §6[Ritual de Invocação]§7",
+  "text.skills.necromancerSignatureSummoningRitual.description": "§7\nExecuta um ritual para invocar um lacaio morto-vivo.\n\nPor padrão, esta habilidade invoca um §fDreadglare§7. Um lacaio aéreo que enxameia seus inimigos, causando dano físico corpo a corpo e usando ataques sônicos a distância.\n\nO dano dos lacaios escala com seu Poder Mágico de Almas. Lacaios herdam uma porção da sua vida máxima.\n\nLacaios expiram após 120s e precisam ser reinvocados.\n\n§a120s de recarga§7",
+
+  "text.skills.necromancerNecroticFortification.title": "§f[Fortificação Necrótica]",
+  "text.skills.necromancerNecroticFortification.description": "§7Lacaios agora herdam metade dos seus atributos de Armadura e Resistência de Armadura.",
+
+  "text.skills.necromancerUndeadLegion.title": "§f[Legião de Mortos-vivos]",
+  "text.skills.necromancerUndeadLegion.description": "§7Seu §6[Ritual de Invocação]§7 agora invoca um lacaio adicional.",
+
+  "text.skills.necromancerSummonWraith.title": "§f[Invocar Espectro]",
+  "text.skills.necromancerSummonWraith.description": "§7Seu §6[Ritual de Invocação]§7 agora também tem chance de invocar um lacaio §fEspectro§7. Um lacaio aéreo que o segue de perto enquanto conjura feitiços de alma em inimigos próximos.\n\nFeiticos conjurados pelos seus lacaios §fEspectro§7 contam como conjurações do jogador e se beneficiam de quaisquer passivas ativadas por tais conjurações.",
+
+  "text.skills.necromancerWitherWraiths.title": "§f[Espectros do Wither]",
+  "text.skills.necromancerWitherWraiths.description": "§7Seus lacaios §fEspectro§7 agora infligem Wither em acertos de feitiço.",
+
+  "text.skills.necromancerFrostWraiths.title": "§f[Espectros do Gelo]",
+  "text.skills.necromancerFrostWraiths.description": "§7Seus lacaios §fEspectro§7 agora infligem Lentidão em acertos de feitiço.",
+
+  "text.skills.necromancerBloodHarvest.title": "§f[Colheita de Sangue]",
+  "text.skills.necromancerBloodHarvest.description": "§7Seus lacaios Dreadglare agora roubam vida ao atacar inimigos. Uma porção da vida roubada também retorna para você.\n\nEsse efeito e dobrado para §fDreadglares Superiores§7.",
+
+  "text.skills.necromancerGreaterDreadglare.title": "§f[Dreadglare Superior]",
+  "text.skills.necromancerGreaterDreadglare.description": "§7Seu §6[Ritual de Invocação]§7 não invoca mais múltiplos lacaios e em vez disso invoca um único §fDreadglare Superior§7.\n\nO §fDreadglare Superior§7 ganha bônus em toda a herança de atributos, provoca inimigos que atinge e ganha Pujança ao acertar para cada efeito nocivo que possui.",
+
+  "text.skills.necromancerDeathEssence.title": "§f[Essência da Morte]",
+  "text.skills.necromancerDeathEssence.description": "§7Sempre que um lacaio morre, você ganha um acúmulo de Armadura Óssea.\n\n§f(Armadura Óssea)§7 Proteja-se em uma camada de ossos, concedendo +1 de Armadura aumentada e 10% de Resistência de Armadura por osso.\nReceber dano remove uma camada.",
+
+  "text.skills.necromancerDeathWarden.title": "§f[Vigia da Morte]",
+  "text.skills.necromancerDeathWarden.description": "§7Ao receber dano estando abaixo de 50% de PV, você drena vida de lacaios próximos para se recuperar.",
+
+  "text.skills.necromancerEnrage.title": "§f[Enfurecer]",
+  "text.skills.necromancerEnrage.description": "§7Quando um dos seus lacaios morre, todos os outros lacaios próximos ganham Força e Resistência.",
+
+  "text.skills.necromancerWinterborn.title": "§f[Nascido no Inverno]",
+  "text.skills.necromancerWinterborn.description": "§7Para cada 1 de Poder Mágico de Gelo que você tiver, ganha um acúmulo de Choque de Almas.\n\n§f(Choque de Almas)§7 concede §a+1 §f[x]§7 de poder mágico de Almas e Relâmpago por acúmulo.",
+
+  "text.skills.necromancerPlague.title": "§f[Praga]",
+  "text.skills.necromancerPlague.description": "§7Quaisquer efeitos nocivos infligidos em você são periodicamente transferidos para lacaios próximos.",
+
+  "text.skills.necromancerPestilence.title": "§f[Pestilência]",
+  "text.skills.necromancerPestilence.description": "§7Quando seus lacaios executam um ataque corpo a corpo, eles transferem um efeito nocivo de si mesmos para o alvo.",
+
+  "text.skills.necromancerDelightfulSuffering.title": "§f[Sofrimento Prazeroso]",
+  "text.skills.necromancerDelightfulSuffering.description": "§7Ao conjurar feitiços, §cvocê é infligido com efeitos nocivos§7.\n\nSeu limite de invocação também é aumentado em 1.",
+
+  "text.skills.necromancerShadowAura.title": "§f[Aura Sombria]",
+  "text.skills.necromancerShadowAura.description": "§7Seus lacaios ganham Aura Sombria. Um efeito que faz sombras atacarem e causarem dano de Almas a alvos próximos, mas também §cdrena a vida do lacaio§7.\n\nEsse efeito e triplicado para §fDreadglares Superiores§7.",
+
+  "text.skills.necromancerShadowCombust.title": "§f[Combustão Sombria]",
+  "text.skills.necromancerShadowCombust.description": "§7Quando seus lacaios morrem eles entram em combustão numa explosão sombria, causando dano de Almas significativo em alvos próximos.\n\nEsse efeito e dobrado para §fDreadglares Superiores§7",
+
+  "text.skills.necromancerEndlessServitude.title": "§f[Servidão Eterna]",
+  "text.skills.necromancerEndlessServitude.description": "§7Quando seus lacaios morrem eles tem 20% de chance de se reinvocar.\n\nEssa chance é aumentada em 5% por efeito de status nocivo no lacaio no momento da sua morte.\nChance máxima de 60%.",
+
+  "text.skills.necromancerWraithLegion.title": "§f[Legião de Espectros]",
+  "text.skills.necromancerWraithLegion.description": "§7Remove Dreadglares do seu grupo de invocação, permitindo invocar apenas Espectros.\n\nSeu limite de invocação também é aumentado em 1.\n\nAlém disso, as conjurações de feitiço dos seus §fEspectros§7 tem 5% de chance por efeito nocivo neles de infligir Agonia no alvo.\n\n§f(Agonia)§7 faz uma entidade receber dano adicional cada vez que e atingida por um projétil mágico.",
+
+  "text.skills.portalSapphire.title": "§7§6[Junção: §fSafira§6]§7",
+  "text.skills.portalSapphire.description": "§7\nDesbloqueia nos de Junção do mesmo tipo, permitindo atravessar a árvore de habilidades com mais facilidade.",
+
+  "text.skills.portalRuby.title": "§7§6[Junção: §fRubi§6]§7",
+  "text.skills.portalRuby.description": "§7\nDesbloqueia nos de Junção do mesmo tipo, permitindo atravessar a árvore de habilidades com mais facilidade.",
+
+
+  "text.skills.ascendancyRighteousHammers.title": "Habilidade de Ascendência: §6[Martelos Justos]§7",
+  "text.skills.ascendancyRighteousHammers.description": "§7\nInvoca martelos que orbitam você por uma duração, causando dano corpo a corpo a inimigos próximos e concedendo 2% de ataque corpo a corpo aumentado por martelo.\n\n§6[A cada 10 de Ascendência]§7\nInvoca um martelo adicional.\n\n§6[Com 30+ de Ascendência]§7\nCria periodicamente martelos adicionais que buscam e atingem alvos próximos.\n\n§a60s de recarga§7",
+
+  "text.skills.ascendancyBoneArmor.title": "Habilidade de Ascendência: §6[Armadura Óssea]§7",
+  "text.skills.ascendancyBoneArmor.description": "§7\nProteja-se em uma camada de ossos, concedendo +1 de Armadura aumentada e 10% de Resistência de Armadura por osso.\nReceber dano remove uma camada.\n\n§6[A cada 10 de Ascendência]§7\nInvoca um osso adicional.\n\n§6[Com 30+ de Ascendência]§7\nQuando sua última camada de Armadura Óssea for removida, ganha Imortal e Regeneração por 8s.\n\n§a70s de recarga§7\n\n§f(Imortal)§7 Imbuída de energia celestial, a entidade não pode ser morta.\nPorém, se a entidade estiver abaixo de 60% de PV quando o efeito terminar, ela receberá dano fatal.",
+
+  "text.skills.ascendancyCyclonicCleave.title": "Habilidade de Ascendência: §6[Cutilada Ciclônica]§7",
+  "text.skills.ascendancyCyclonicCleave.description": "§7\nGira violentamente sua arma ao seu redor enquanto avança, causando dano a inimigos próximos.\nEste ataque escala com o maior dos seus atributos de ataque ou magia.\n\n§6[A cada 1 de Ascendência]§7\nAumenta o dano da habilidade.\n\n§6[Com 30+ de Ascendência]§7\nA Cutilada Ciclônica agora puxa os inimigos atingidos em sua direção.\n\n§a15s de recarga§7",
+
+  "text.skills.ascendancyMagicCircle.title": "Habilidade de Ascendência: §6[Círculo Mágico]§7",
+  "text.skills.ascendancyMagicCircle.description": "§7\nImobiliza você mesmo para invocar um círculo mágico sob seus pés, concedendo 30% de aumento a todo Poder Mágico por 12s.\n\n§6[A cada 1 de Ascendência]§7\nAumenta a duração do efeito.\n\n§6[Com 30+ de Ascendência]§7\nO Círculo Mágico agora também concede a passiva Eco Mágico do Mago.\nSe você já tiver Eco Mágico desbloqueado, aumenta sua chance de ocorrer em 10%.\n\n§a40s de recarga§7",
+
+  "text.skills.ascendancyArcaneSlash.title": "Habilidade de Ascendência: §6[Corte Arcano]§7",
+  "text.skills.ascendancyArcaneSlash.description": "§7\nConcentra energia arcana na sua lâmina e executa um corte para frente, liberando um projétil arcano que perfura até 5 alvos.\nO Corte Arcano tem 80% de chance de se conjurar novamente.\n\n§6[A cada 10 de Ascendência]§7\nGanha +1 acúmulo de Sintonia Arcana ao usar.\n\n§6[Com 30+ de Ascendência]§7\nO Corte Arcano agora é maior, causa mais dano e perfura até 10 alvos.\n\n§a10s de recarga§7",
+
+  "text.skills.ascendancyAgony.title": "Habilidade de Ascendência: §6[Agonia]§7",
+  "text.skills.ascendancyAgony.description": "§7\nAmaldiçoa o inimigo mais próximo com Agonia, fazendo-o receber dano adicional cada vez que e atingido por um projétil mágico.\nDura 8s.\n\n§6[A cada 1 de Ascendência]§7\nAumenta a duração do efeito.\n\n§6[Com 30+ de Ascendência]§7\nQuando a Agonia ativa, ela também cura o conjurador que causou a ativação.\nEssa cura escala com seu Poder Mágico de Cura.\n\n§a40s de recarga§7",
+
+  "text.skills.ascendancyTorment.title": "Habilidade de Ascendência: §6[Tormento]§7",
+  "text.skills.ascendancyTorment.description": "§7\nAmaldiçoa o inimigo mais próximo com Tormento.\nEnquanto atormentado, todo o dano que o inimigo causaria a você é redirecionado para ele.\nDura 8s.\n\n§6[A cada 1 de Ascendência]§7\nAumenta a duração do efeito.\n\n§6[Com 30+ de Ascendência]§7\nAlém de atormentar seu inimigo, você também o provoca.\n\n§a40s de recarga§7",
+
+  "text.skills.ascendancyRapidfire.title": "Habilidade de Ascendência: §6[Tiro Rápido]§7",
+  "text.skills.ascendancyRapidfire.description": "§7\nEntra numa postura de disparo e solta uma rajada de flechas.\nVocê pode se mover livremente nesta postura, mas não pode realizar outras ações.\nRequer um Arco ou Besta na mão principal.\nDura 6s.\n\n§6[A cada 1 de Ascendência]§7\nAumenta a duração do efeito.\n\n§6[Com 30+ de Ascendência]§7\nCada terceira flecha disparada agora concede um acúmulo de Pontária.\n\n§a30s de recarga§7",
+
+  "text.skills.ascendancyCataclysm.title": "Habilidade de Ascendência: §6[Cataclisma]§7",
+  "text.skills.ascendancyCataclysm.description": "§7\nTrava-se no lugar para canalizar um feitiço poderoso que faz vários cometas descerem ao longo de uma linha a sua frente.\n\nEscala com o maior dos seus atributos de poder mágico de Gelo ou Fogo.\nDura 3,5s.\n\n§6[A cada 1 de Ascendência]§7\nAumenta a frequência de cometas, permitindo mais cometas por conjuração.\n\n§6[Com 30+ de Ascendência]§7\nPara cada cometa invocado, ganha um acúmulo de Forja Mágica.\n\n§a60s de recarga§7",
+
+  "text.skills.ascendancyGhostwalk.title": "Habilidade de Ascendência: §6[Passo Espectral]§7",
+  "text.skills.ascendancyGhostwalk.description": "§7\nEntra numa forma espectral e se projeta para frente, tornando-se invulnerável a dano e enviando almas para atacar inimigos próximos. \n\nO dano escala com o poder mágico de Almas.\nDura 3,0s.\n\n§6[A cada 10 de Ascendência]§7\nGanha +1 acúmulo de Choque de Almas ao usar.\n\n§6[Com 30+ de Ascendência]§7\nvocê agora cura metade do dano causado pelo Passo Espectral.\n\n§a30s de recarga§7",
+
+  "text.skills.ascendancySkywardSunder.title": "Habilidade de Ascendência: §6[Fenda Celeste]§7",
+  "text.skills.ascendancySkywardSunder.description": "§7\nGanha um acúmulo de Barreira por acúmulo de Pujança em você e avança, empurrando inimigos e executando um golpe ascendente, lançando você e seus alvos ao ar antes de arremessa-los de volta ao chão.\n\nEste ataque escala com o maior dos seus atributos de ataque ou magia.\nDura 3,0s.\n\n§6[A cada 1 de Ascendência]§7\nAumenta o dano da habilidade.\n\n§6[Com 30+ de Ascendência]§7\nA Fenda Celeste agora inflige Marca da Morte nos inimigos atingidos durante a fase de investida.\n\n§a16s de recarga§7",
+
+  "text.skills.ascendancyRighteousShield.title": "Habilidade de Ascendência: §6[Escudo Justo]§7",
+  "text.skills.ascendancyRighteousShield.description": "§7\nEnquanto esta habilidade está equipada, você gera um acúmulo de §aÉgide Dourada§7 sempre que bloqueia um ataque. §aÉgide Dourada§7 aumenta o Poder Mágico de Cura, Armadura e Resistência de Armadura em 1% por acúmulo. Max. 15 acúmulos.\n\nAtivar esta habilidade consome todos os acúmulos de §aÉgide Dourada§7 para manifestar um escudo de energia sagrada que pode ser arremessado para vários efeitos dependendo dos acúmulos consumidos.\n\n§7§bMenos de 5 acúmulos:§7 O escudo causa dano aos inimigos e ricocheteia 2 vezes.\n§b5 acúmulos:§7 O escudo causa dano aumentado aos inimigos e ricocheteia 5 vezes.\n§b10 acúmulos:§7 O escudo não causa mais dano nem ricocheteia, e em vez disso perfura e cura aliados que atravessa.\n§b15 acúmulos:§7 O escudo é maior, causa significativamente mais dano e inflige Marca da Morte, mas não ricocheteia mais.§7\n\n§6[A cada 10 de Ascendência]§7\nAumenta o máximo de acúmulos de §aÉgide Dourada§7 em 1.\n\n§6[Com 30+ de Ascendência]§7\nEnquanto equipada, esta habilidade agora gera passivamente acúmulos de §aÉgide Dourada§7.\n\nO dano escala com o Poder Mágico de Cura.\n\n§a6s de recarga§7",
+
+  "text.skills.ascendancyChainbreaker.title": "Habilidade de Ascendência: §6[Quebra-correntes]§7",
+  "text.skills.ascendancyChainbreaker.description": "§7\nPurifica imediatamente todos os efeitos negativos e ganha Pujança e Pontária.\n\n§6[A cada 10 de Ascendência]§7\n+ 1 acúmulo de Pujança e Pontária.\n\n§6[Com 30+ de Ascendência]§7\nAgora também concede Imortal.\n\n§a35s de recarga§7\n\n§f(Imortal)§7 Imbuída de energia celestial, a entidade não pode ser morta.\nPorém, se a entidade estiver abaixo de 60% de PV quando o efeito terminar, ela receberá dano fatal."
+}

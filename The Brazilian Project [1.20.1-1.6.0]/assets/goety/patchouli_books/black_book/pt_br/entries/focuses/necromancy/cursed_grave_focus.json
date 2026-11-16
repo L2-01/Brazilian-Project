@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Túmulo Amaldiçoado",
+  "icon": "goety_cataclysm:cursed_grave_focus",
+  "category": "goety:cataclysm/focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cadáveres de guerreiros valentes podem ser encontrados em muitos biomas frios e gelados. Com a necromancia, você consegue reviver esses cadáveres de forma semelhante à maldição do Maledictus sobre seus carcereiros."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/cursed_grave_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/necro_staff)Cajado Necrótico$() invoca mais Draugrs de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:cursed_grave_focus": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Suporte a comparador de redstone",
+  "icon": "minecraft:comparator",
+  "category": "caupona:tweaks",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Comparadores detectam o estado de trabalho das panelas de ensopado. Panelas trabalhando têm saída fixa 0, enquanto ociosas emitem 1. Além disso, cada tigela de ensopado e cada pilha de ingredientes na panela aumenta a saída."
+    },
+    {
+      "type": "text",
+      "text": "$(l:resting/oil)Molheiras$(/l) também podem ser detectadas por comparadores. Cada uso restante aumenta o sinal de saída em 3, enquanto vazias emitem 0."
+    },
+    {
+      "type": "text",
+      "text": "Como as panelas, frigideiras também enviam sinais pelos comparadores indicando seu estado, 0 para trabalhando e 1 para ociosa. Cada pilha de ingredientes aumenta o sinal de saída."
+    },
+    {
+      "type": "text",
+      "text": "Pratos e sopas colocados emitem 15 se ainda não consumidos, enquanto tigelas e pratos vazios emitem 0."
+    },
+    {
+      "type": "text",
+      "text": "$(l:intro/wolf_statue)Estátuas de lobo$(/l) emitem sinais de 3 ou 6 conforme a temperatura. Se aquecidas por fogões, o sinal de saída aumenta em 9."
+    }
+  ]
+}

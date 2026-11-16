@@ -1,0 +1,108 @@
+{
+  "name": "Decorações Diversas",
+  "icon": "goety:gold_candlestick",
+  "category": "goety:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As artes sombrias são um caminho para muitas habilidades que alguns consideram... bonitas? Sua jornada pelas artes sombrias levou você a descobrir várias decorações que o fazem sentir-se mais como um verdadeiro mago sombrio."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ironicamente, uma das coisas que você encontrou são jeitos melhores de iluminar seu covil."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:gold_candlestick",
+      "recipe2": "goety:gold_candelabra"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:iron_dungeon_torch",
+      "recipe2": "goety:gold_dungeon_torch"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:steep/steep_sconce",
+      "recipe2": "goety:jade_light"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:pine/pine_lantern"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:gold_chandelier"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:iron_dungeon_chain",
+      "recipe2": "goety:gold_dungeon_chain"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:royal_carpet_corner",
+      "text": "Tapetes comuns não servem para você. O chão do seu covil precisa ser mais opulento para seus pés pisarem. Infelizmente, seus tapetes precisam ser cortados em pedaços para você combinar num tapete como deve ser."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:royal_carpet",
+      "recipe2": "goety:royal_carpet_corner"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:royal_carpet_edge",
+      "recipe2": "goety:royal_carpet_inner_corner"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:frosty_carpet",
+      "recipe2": "goety:frosty_carpet_corner"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:frosty_carpet_edge",
+      "recipe2": "goety:frosty_carpet_inner_corner"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:royal_throne",
+      "text": "De que serve um covil sem um trono para sentar? Você pode até fazer um Servo sentar num, seja ordenando que ele vá até lá, ou fazendo-o proteger, por obelisco ou comando, a posição do trono. Para tirá-los de lá, você pode ordenar que saiam, fazê-los proteger outra posição ou simplesmente dispensá-los."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:shade_throne",
+      "recipe2": "goety:stone_throne"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:deepslate_throne",
+      "recipe2": "goety:ominous_throne"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:blackstone_throne",
+      "recipe2": "goety:highrock_throne"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:blackstone_throne",
+      "recipe2": "goety:marble_throne"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:royal_throne",
+      "recipe2": "goety:frosted_throne"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_book",
+      "title": "Realeza",
+      "text": "Tronos de todos os tipos podem ser encantados com Realeza através de um Ritual. Além de ninguém além de você ou seus aliados poderem sentar no trono, sentar nele fará até 4 aliados próximos receberem o dano direcionado a você. Se outra pessoa quebrar o trono, ele perderá seu encantamento."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:enchant/royalty"
+    }
+  ]
+}

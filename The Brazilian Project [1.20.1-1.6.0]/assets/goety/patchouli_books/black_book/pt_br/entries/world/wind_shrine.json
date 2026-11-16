@@ -1,0 +1,23 @@
+{
+  "name": "Santuários do Vento",
+  "icon": "goety:slate_patterned_marble",
+  "category": "goety:world",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você ouviu falar de nômades, viajando do santuário mais alto, erguendo santuários aos próprios ventos nos picos. Quem sabe que tipos de tesouro estão guardados lá dentro?"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety:textures/gui/entries/wind_shrine.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "goety:ritual",
+      "advancement": "goety:goety/get_crystal_ball",
+      "recipe": "goety:locate/wind_shrine"
+    }
+  ]
+}

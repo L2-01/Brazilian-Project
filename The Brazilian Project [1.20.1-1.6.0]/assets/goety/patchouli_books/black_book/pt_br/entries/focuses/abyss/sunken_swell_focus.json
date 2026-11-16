@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Ondulação Submersa",
+  "icon": "goety_cataclysm:sunken_swell_focus",
+  "category": "goety:cataclysm/focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com a autoridade dada a você por dar fim ao Leviatã, você consegue invocar os servos dela sob o seu comando. Tem 25%% de chance de invocar um Deepling Pescador."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/sunken_swell_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() invoca mais Deeplings e/ou Deeplings Pescadores de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:sunken_swell_focus": 1
+  }
+}

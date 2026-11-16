@@ -1,0 +1,27 @@
+{
+  "name": "Cultivador de Sculk",
+  "icon": "goety:sculk_grower",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/get_sculk_catalyst",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com o modo como o Sculk cresce usando Energia de Almas, você se pergunta se pode usá-lo para cultivar plantações em vez de mais dele mesmo. Eis o Cultivador de Sculk."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:sculk_grower"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Cultivador de Sculk requer uma $(l:intro/cursed_cage)Jaula Amaldiçoada$() em cima dele, assim como o Conversor de Sculk. Diferente do Conversor, ele permanecerá ativo com um sinal de Redstone constante e absorve Energia de Almas em massa, em vez de sugá-la aos poucos. Ao absorver uma porção de Energia de Almas, ele ganha 'Cargas', usadas para acelerar o crescimento das plantações ao redor."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Normalmente, o Cultivador de Sculk faz crescer plantações aleatórias numa área de 8 x 4 x 8 Blocos ao seu redor, mas o Cultivador pode ser encantado com Raio (embora, diferente do, digamos, Devorador de Sculk, o Raio some em vez de multiplicar). Se não for alimentado com Redstone, o Cultivador ainda fará as plantações crescerem até acabarem suas Cargas. Se não houver plantações ao redor do Cultivador (ou a configuração de Crescimento Contínuo estiver desativada), suas Cargas decairão dentro dele."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:sculk_grower": 1
+  }
+}

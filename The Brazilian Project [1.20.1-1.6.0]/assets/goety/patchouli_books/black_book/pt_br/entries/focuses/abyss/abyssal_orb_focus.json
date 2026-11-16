@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Orbe Abissal",
+  "icon": "goety_cataclysm:abyssal_orb_focus",
+  "category": "goety:cataclysm/focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esses orbes de energia abissal perseguem quaisquer alvos próximos — ou o alvo, se o feitiço for conjurado olhando para uma entidade válida — e explodem sobre eles, aplicando o efeito Medo Abissal."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/abyssal_orb_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() invoca mais orbes."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:abyssal_orb_focus": 1
+  }
+}

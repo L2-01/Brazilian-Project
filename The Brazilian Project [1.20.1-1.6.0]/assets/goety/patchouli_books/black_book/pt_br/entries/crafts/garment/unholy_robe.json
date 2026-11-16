@@ -1,0 +1,34 @@
+{
+  "name": "Mantos Profanos",
+  "icon": "goety:unholy_robe",
+  "category": "goety:crafts/garment",
+  "advancement": "goety:goety/kill_a_apostle",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Usando o $(l)sangue mais puro$() do emissário das trevas, $(l)que só pode ser obtido matando-os dentro do Nether$(), você fez uma réplica das vestimentas deles. O Manto lhe dá imunidade ao fogo e a Maldições de Chamas, e tanto o manto quanto o chapéu potencializam alguns feitiços com fogo infernal."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:unholy_fabric"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:unholy_robe"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:unholy_hat"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Chapéu Profano reduz todo o dano recebido pelo usuário enquanto estiver no Nether, além de limitar a quantidade máxima configurável de dano que o usuário pode sofrer, assim como os Apóstolos. O Manto Profano concede resistência a dano de fogo infernal."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:unholy_fabric": 1,
+    "goety:unholy_robe": 2,
+    "goety:unholy_hat": 3,
+    "goety:unholy_hat_halo": 3
+  }
+}

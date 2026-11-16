@@ -1,0 +1,23 @@
+{
+  "name": "Foco de Ruptura",
+  "icon": "goety:rupture_focus",
+  "category": "goety:focuses/void",
+  "advancement": "minecraft:end/kill_dragon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com energia de almas suficiente, o foco abre uma fenda no mundo até o próprio vazio, sugando todas as criaturas não aliadas próximas para dentro, danificando-as ao serem sugadas, antes de fechar numa explosão enorme."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/rupture_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/void_staff)Cajado do Vazio$() fará a explosão da fenda aplicar o efeito Tocado pelo Vazio."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:rupture_focus": 1
+  }
+}

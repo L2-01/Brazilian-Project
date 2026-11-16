@@ -1,0 +1,16 @@
+{
+  "name": "Upgrades de Equipamento Vivo",
+  "icon": "bloodmagic:upgradetome",
+  "priority": true,
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Enquanto vestia esta nova armadura, você a sentiu crescer, tentando te ajudar com várias tarefas que viu você realizar. $(br2)Ela parece capaz de atuar em várias áreas, mas seu crescimento é limitado, e tentar fazer tudo de uma vez é bem infrutífero."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Talvez múltiplos conjuntos especializados sejam uma boa ideia? Claro, você terá que treiná-la cuidadosamente se quiser mais que uma poeira de benefícios mal direcionados. $(br2)Felizmente, você criou um $(l:rituals/ritual_list/ritual_upgrade_remove)Ritual$() que ajudará no treino, e $(l:rituals/ritual_list/ritual_armour_evolve)outro$() que imbuirá sua armadura com uma capacidade maior de crescer."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Golem Sepulcral",
+  "icon": "goety:skull_pile",
+  "category": "goety:summons",
+  "advancement": "goety:goety/read_warred_and_haunting_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com os esquemas de uma antiga máquina de guerra e um jeito de possuir Armadura, você começou a pensar. Após algumas tentativas e erros, você descobriu um jeito de criar o Servo Morto-vivo supremo: o Golem Sepulcral."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:grave_golem",
+      "scale": 0.75
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety:grave_golem",
+      "text": "Clique com o botão direito na Pilha de Crânios central com um Núcleo de Animação."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os Tijolos de Pedra podem ser substituídos por outros blocos semelhantes, como Tijolos de Ardosiabissal. O Golem tem um repertório de habilidades, desde esmagar as mãos no chão, disparar Crânios Assombrados e invocar Assombros para ajudá-lo. O Golem pode ser comandado a seguir, vaguear ou ficar em posição através de uma varinha/cajado. Eles podem ser reparados clicando neles com o botão direito usando Blocos de Osso ou Ossos, mas podem se regenerar se o invocador vestir uma Capa Necrótica."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_mold_block",
+      "text": "Liga Sombria e Pedras de Cripta são usadas para criar um molde poderoso."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Há também outra habilidade especial que o Golem possui: caso seu Invocador morra num raio de 64 blocos dele, seus itens e equipamentos serão absorvidos pelo Golem. O Golem brilhará em laranja-avermelhado para mostrar que contém itens. Para recuperá-los, o Invocador só precisa clicar nele com o botão direito usando uma Pá. Ele também largará tais itens ao ser morto. Claro, isso exige que o Invocador realmente derrube seus itens ao morrer. (Sugerido por JoTurtleGuy21)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:grave_golem_skull",
+      "text": "Caso o Golem caia em batalha ou por comando, ele largará seu 'crânio'. O Crânio pode ser usado para reviver o Golem de forma mais barata. Porém, o Crânio se lembra de seu criador e mestre originais, e o Golem revivido só seguirá os comandos dele."
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety:grave_golem_revive",
+      "enable_visualize": false
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:grave_golem_skull": 6
+  }
+}

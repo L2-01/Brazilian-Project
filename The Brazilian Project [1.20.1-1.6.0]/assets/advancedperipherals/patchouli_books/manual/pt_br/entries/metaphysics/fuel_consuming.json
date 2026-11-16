@@ -1,0 +1,21 @@
+{
+  "name": "Cooldowns e combustível",
+  "icon": "minecraft:coal",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Todas as operações que mudam o mundo consumirão combustível da tartaruga (claro, se você não desativar o uso de combustível na configuração do CC:Tweaked).$(p)Além disso, a maioria dessas operações tem cooldowns, então você deve considerar isso no seu código. Felizmente, todo cooldown ativo pode ser obtido via métodos do periférico."
+    },
+    {
+      "type": "text",
+      "text": "Acha que os cooldowns são grandes demais? É quando a taxa de consumo de combustível vem ajudar!$(p)Uma taxa maior de consumo reduzirá o cooldown, mas obviamente aumentará o consumo de combustível. Por exemplo, se a operação de clique requer 1 ponto de combustível para executar e tem 5 segundos de cooldown, com consumo de combustível 2 você pode executar a operação de clique a cada 2,5 segundos, ao custo de 2 pontos de combustível."
+    },
+    {
+      "type": "text",
+      "text": "Porém, a taxa de consumo de combustível não é tão simples! Todo núcleo de autômato tem uma limitação máxima de consumo de combustível, que pode ser obtida via método $(l)getConfiguration$().$(p)Além disso, o ponto de combustível crescerá mais rápido que a queda do cooldown. Consumo de combustível 3 exigirá 4 pontos de combustível, consumo de combustível 4 exigirá mais pontos de combustível, etc."
+    }
+  ]
+}

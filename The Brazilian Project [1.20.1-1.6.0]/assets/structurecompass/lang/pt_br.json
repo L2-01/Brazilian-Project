@@ -1,0 +1,37 @@
+{
+  "_comment": "Creative Tab Name",
+  "itemGroup.structurecompass": "Bússola de Estruturas",
+
+  "_comment": "Screen",
+  "structurecompass.screen.selection.title": "Seleção de Estrutura",
+  "structurecompass.screen.selection.select": "Selecionar",
+  "structurecompass.screen.selection.selected": "Estrutura selecionada, clique com o botão direito na bússola para localizá-la",
+  "structurecompass.screen.search": "Pesquisar",
+  "structurecompass.screen.search.a_to_z": "A-Z",
+  "structurecompass.screen.search.z_to_a": "Z-A",
+  "structurecompass.screen.search.show_tags": "Mostrar Tags",
+  "structurecompass.screen.search.hide_tags": "Ocultar Tags",
+
+  "_comment": "Item names",
+  "item.structurecompass.structure_compass": "Bússola de Estruturas",
+
+  "_comment": "Messages",
+  "structurecompass.locate.invalid": "Estrutura vinculada inválida. Vincule novamente",
+  "structurecompass.locate.fail": "A estrutura vinculada não pôde ser localizada por perto",
+  "structurecompass.locate.distance": "A estrutura vinculada está a %s blocos de distância",
+  "structurecompass.locate.toggled": "HUD da Bússola de Estruturas alternado %s",
+  "structurecompass.locate.structure_prohibited": "Você não tem permissão para localizar esta estrutura",
+
+  "_comment": "tooltips",
+  "structurecompass.structure.locating": "Tentando localizar %s, aguarde...",
+  "structurecompass.structure.found": "%s foi localizada a %s blocos de distância, a bússola está apontando para a estrutura",
+  "structurecompass.structure.found.tooltip": "%s foi localizada, a bússola está apontando para a estrutura",
+  "structurecompass.structure.failed": "%s não pode ser localizada num raio de %s blocos. Explore mais e tente novamente depois",
+  "structurecompass.structure.failed.tooltip": "%s não pode ser localizada, talvez tente novamente depois",
+  "structurecompass.structure.wrong_dimension.tooltip": "Você não está na dimensão em que %s foi encontrada",
+  "structurecompass.structure.unset.tooltip": "Nenhuma estrutura foi definida, shift+clique direito para selecionar uma estrutura",
+
+  "_comment": "keybinds",
+  "category.structurecompass.main": "Bússola de Estruturas",
+  "key.structurecompass.hide": "Ocultar HUD da Bússola de Estruturas"
+}

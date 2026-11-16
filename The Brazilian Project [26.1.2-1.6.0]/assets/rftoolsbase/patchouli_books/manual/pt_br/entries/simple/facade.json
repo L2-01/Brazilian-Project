@@ -1,0 +1,23 @@
+{
+  "name": "Fachada",
+  "icon": "xnet:facade",
+  "category": "rftoolsbase:category_xnet_simple",
+  "extra_recipe_mappings": {
+    "xnet:facade": 0
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Fachadas escondem cabos XNet imitando outro bloco. Use o item de fachada num bloco para copiá-lo e depois coloque-o sobre um cabo XNet."
+    },
+    {
+      "type": "text",
+      "text": "Conectores também podem ser escondidos com fachadas. Quebrar a fachada revela ou restaura a instalação de cabos por trás dela."
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:facade"
+    }
+  ]
+}

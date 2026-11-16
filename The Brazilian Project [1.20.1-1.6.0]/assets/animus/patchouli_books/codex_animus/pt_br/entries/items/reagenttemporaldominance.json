@@ -1,0 +1,18 @@
+{
+    "name": "guide.animus.entry.reagent_temporal_dominance",
+    "icon": "animus:reagenttemporaldominance",
+    "category": "animus:items",
+    "sortnum": 16,
+    "pages": [
+        {
+            "type": "animus:crafting_soulforge",
+            "heading": "Reagente: Domínio Temporal",
+            "recipe": "animus:soulforge/reagenttemporaldominance",
+            "text": "Um reagente que dobra o próprio tempo."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Este catalisador pode ser combinado com uma $(item)Ardósia Demoníaca$() num Círculo de Alquimia para criar o $(l:animus:sigils/sigil_temporal_dominance)Sigilo do Domínio Temporal$()."
+        }
+    ]
+}

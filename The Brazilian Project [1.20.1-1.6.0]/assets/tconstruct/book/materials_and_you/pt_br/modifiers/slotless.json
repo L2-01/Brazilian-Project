@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:showcase",
+  "title": "Modificadores sem Espaço",
+  "item": {
+    "type": "forge:nbt",
+    "item": "tconstruct:creative_slot",
+    "nbt": {
+      "slot": "slotless"
+    }
+  },
+  "tooltip": [
+    "Ícone sem Espaço"
+  ],
+  "text": [
+    {
+      "text": "Modificadores sem espaço não exigem espaços, ao contrário de todos os outros tipos. Isso normalmente significa que o modificador tem alguma desvantagem ou o efeito é menor. "
+    },
+    {
+      "text": "Um tipo notável de modificador sem espaço é o modificador bônus, que concede espaços de modificador extras. Muitos dão aprimoramentos, e dizem que alguns dão até habilidades."
+    },
+    {
+      "text": "O Puny Smelting de Thruul M'Gon tem a lista completa de modificadores sem espaço disponíveis nas ferramentas, junto com a Enciclopédia de Tinkering.",
+      "paragraph": true
+    }
+  ]
+}

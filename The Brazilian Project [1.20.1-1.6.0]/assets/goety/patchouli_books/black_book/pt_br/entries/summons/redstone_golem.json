@@ -1,0 +1,49 @@
+{
+  "name": "Golem de Redstone",
+  "icon": "minecraft:redstone_block",
+  "category": "goety:summons",
+  "advancement": "goety:goety/read_warred_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Saqueando arquiteturas antigas, você encontrou uma espécie de planta de um Golem poderoso usado em guerras de dias antigos. O Golem parece imponente, embora exija um molde feito de Diamantes e Tijolos de Pedra para criar tal fera terrível."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:redstone_golem",
+      "scale": 0.75
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety:redstone_golem",
+      "text": "Clique com o botão direito no Bloco de Redstone central com um Núcleo de Animação."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os Tijolos de Pedra podem ser substituídos por outros blocos semelhantes, como Tijolos de Ardosiabissal. O Golem resultante se prova bem superior aos Golems de Ferro, pois não só é mais forte, como pode ser comandado a seguir, vaguear ou ficar em posição através de uma varinha/cajado. Eles podem ser reparados clicando neles com o botão direito usando Pós ou Blocos de Redstone."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:diamond_mold_block",
+      "text": "Diamantes e pedras são usados para criar um molde poderoso."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:redstone_golem_skull",
+      "text": "Caso o Golem caia em batalha ou por comando, ele largará seu 'crânio'. O Crânio pode ser usado para reviver o Golem de forma mais barata. Porém, o Crânio se lembra de seu criador e mestre originais, e o Golem revivido só seguirá os comandos dele."
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety:redstone_golem_revive",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Golems de Redstone podem fazer parte de um $(l:goety:mutations/illager_servants)grupo de invasão$(), embora não possam ser líderes."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:redstone_golem_skull": 6
+  }
+}

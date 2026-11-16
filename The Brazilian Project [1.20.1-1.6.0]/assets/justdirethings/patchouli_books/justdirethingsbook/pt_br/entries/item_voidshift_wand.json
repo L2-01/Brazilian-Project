@@ -1,0 +1,21 @@
+{
+  "name": "Varinha de Deslocamento do Vazio",
+  "sortnum": 6,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:voidshift_wand",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Evoluindo a partir da $(l:justdirethings:item_blazejet_wand)Varinha de Blazejet$(/l), a Varinha de Deslocamento do Vazio utiliza energias dimensionais para operações mais complexas.$(br2)A nova habilidade Deslocamento do Vazio permite se teletransportar para onde você estiver olhando — até certa distância"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Acesse a tela de configurações da ferramenta para personalizar a tecla de atalho ou o botão do mouse necessário para ativá-la. Eu, pessoalmente, gosto do Impulso Aéreo no clique direito e do Deslocamento do Vazio no esquerdo.$(br2)Você também pode reduzir a distância máxima percorrida e ligar ou desligar a renderização do jogador."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação: Varinha de Deslocamento do Vazio",
+      "recipe": "justdirethings:voidshift_wand"
+    }
+  ]
+}

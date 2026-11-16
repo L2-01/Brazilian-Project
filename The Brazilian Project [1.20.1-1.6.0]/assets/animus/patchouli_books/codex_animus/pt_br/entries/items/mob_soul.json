@@ -1,0 +1,18 @@
+{
+  "name": "guide.animus.entry.mob_soul",
+  "icon": "animus:mob_soul",
+  "category": "animus:items",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:mob_soul",
+      "text": "Um recipiente que guarda a essência de uma criatura capturada. Criado pelo $(l:animus:sigils/sigil_chains)Sigilo da Corrente Espectro$(), este item preserva o estado completo de uma entidade."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Liberação:$() Clique com o botão direito num bloco para invocar a entidade capturada$(br2)$(bold)Dados Preservados:$()$(li)Tipo de entidade e vida$(li)Equipamento e inventário$(li)Nomes personalizados$(li)Estado de IA e atributos$(br2)$(bold)Nota:$() A Alma de Criatura é consumida quando a entidade é liberada.$(br2)$(italic)Almas vinculadas à sua vontade.$()"
+    }
+  ]
+}

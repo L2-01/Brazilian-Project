@@ -1,0 +1,37 @@
+{
+  "name": "Óleo de Amolar",
+  "icon": "bloodmagic:melee_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Óleo de Amolar",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment",
+      "text": "Aumenta temporariamente o dano corpo a corpo causado em +3. $(br2)Itens válidos: Ferramentas, Espadas.$(br2)Aplica: Amolador I (256 golpes)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Óleo de Amolar L",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_l",
+      "text": "Esta versão melhorada da unção dura quatro vezes mais. $(br2)Aplica: Amolador I (1024 golpes)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Óleo de Amolar II",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_2",
+      "text": "Esta versão melhorada da unção aumenta o dano corpo a corpo causado em +6. $(br2)Aplica: Amolador II (256 golpes)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Óleo de Amolar XL",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_xl",
+      "text": "Esta versão melhorada da unção dura dezesseis vezes mais. $(br2)Aplica: Amolador I (4096 golpes)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Óleo de Amolar III",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_3",
+      "text": "Esta versão melhorada da unção aumenta o dano corpo a corpo causado em +9. $(br2)Aplica: Amolador III (256 golpes)"
+    }
+  ]
+}

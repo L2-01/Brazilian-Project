@@ -1,0 +1,52 @@
+---
+id: mffs:biometric_identifier
+type: block
+---
+
+# Identificador Biométrico
+
+O Identificador Biométrico é um membro da família de máquinas MFFS. Ele usa bioassinaturas emitidas pelos jogadores para
+governar quais permissões eles têm ao interagir com campos de força e máquinas MFFS.
+
+Por exemplo, pode permitir que um jogador atravesse um campo de força ativo, ou isentá-lo dos efeitos da
+[](@mffs:interdiction_matrix).
+
+<PrefabObtaining />
+
+## Uso
+
+Para configurar o Identificador Biométrico para reconhecer um jogador, abra sua tela GUI e coloque um [](@mffs:id_card) no
+espaço de item superior esquerdo rotulado Rights. Se o [](@mffs:id_card) estiver em branco e ainda não tiver sido atribuído, você pode
+agache e clique com o botão direito segurando-o na mão para atribuí-lo a você, ou agache e clique com o botão direito em outro jogador
+para atribuí-lo a ele.
+
+Em seguida, defina quais permissões o jogador deve ter alternando os botões no lado direito da GUI.
+
+Cada botão atribui a seguinte permissão:
+- **Warp**: Permite ao jogador atravessar campos de força agachando-se através deles.
+- **Block Alter**: Permite ao jogador colocar ou quebrar blocos enquanto estiver dentro da área protegida pela Matriz de
+Interdição.
+- **Block Access**: Permite ao jogador abrir a tela GUI de qualquer coisa enquanto estiver dentro do alcance operacional da Matriz.
+- **Configure**: Concede ao jogador acesso para configurar o Identificador Biométrico e alterar permissões de usuário.
+- **Bypass Defense**: Permite ao jogador ignorar as restrições impostas pela Matriz de Interdição.
+- **Bypass Confiscation**: Isenta o jogador do efeito de confisco da Matriz de Interdição.
+- **Remote Control**: Permite ao jogador usar um controle remoto nas máquinas vinculadas ao Identificador.
+
+Com os direitos do jogador agora atribuídos, mova o cartão dele para qualquer um dos 9 espaços ao longo da parte inferior da tela GUI para
+completar o processo. Para se definir como mestre de um Identificador Biométrico, coloque um [](@mffs:id_card) atribuído
+a você no espaço de item rotulado Master.
+
+O usuário mestre de um Identificador Biométrico recebe automaticamente todas as permissões. Ative o Identificador Biométrico
+aplicando um sinal de Redstone ou clicando no botão de Tocha de Redstone no canto superior esquerdo de sua GUI. Uma vez ativado,
+o Identificador Biométrico acenderá e passará a valer.
+
+## Observações
+
+Ao atravessar um campo de força, o jogador deve continuar agachado até sair completamente da barreira do campo,
+caso contrário, será morto.
+
+[Cartões de Identificação](@mffs:id_card) não podem ser removidos do Identificador enquanto ele estiver ativo.
+
+Atravessar um campo de força pode causar Náusea IV temporária.
+
+Um jogador no modo criativo sempre pode atravessar um campo de força.

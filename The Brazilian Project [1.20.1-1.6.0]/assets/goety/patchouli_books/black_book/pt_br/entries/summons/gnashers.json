@@ -1,0 +1,28 @@
+{
+  "name": "Trincadores",
+  "icon": "minecraft:cod",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Tubarões não são tão cruéis quanto a maioria pensa e muito raramente atacam pessoas por conta própria. Esses demônios subaquáticos são outra história, dilacerando e rasgando inimigos com seus dentes afiados. Também servem como boa montaria subaquática sem precisar de sela."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pode-se invocar um trincador leal através de um $(l:focuses/wild/mauling_focus)Foco de Dilaceração$() debaixo d'água ou através do $(l:crafts/staff/abyss_staff)Cajado Abissal$(), ou por um ritual que invoca um sem vida limitada."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_gnasher_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:gnasher",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clicar num Trincador leal com o botão direito usando peixe o curará. Se o Trincador foi invocado por ritual, ele pode acasalar com outro Trincador invocado da mesma forma clicando neles com o botão direito usando carne enquanto agachado."
+    }
+  ]
+}

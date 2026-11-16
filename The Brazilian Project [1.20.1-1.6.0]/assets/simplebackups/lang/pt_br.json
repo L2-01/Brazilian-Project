@@ -1,0 +1,12 @@
+{
+  "simplebackups.backup_started": "Backup iniciado...",
+  "simplebackups.backup_finished": "Backup concluído em %s (%s | %s)",
+  "simplebackups.backup_errors": "%s erro(s) ocorreram durante o backup",
+  "simplebackups.backup_failed_delete": "Falha no backup (excluindo arquivo incompleto) — verifique seu arquivo de registro para mais informações",
+  "simplebackups.backup_failed_continue": "A criação do backup falhou cedo, alguns arquivos podem não ter sido salvos — verifique seu arquivo de registro para mais informações para evitar perda de dados",
+  "simplebackups.backups_paused": "Backups pausados",
+  "simplebackups.commands.only_modified": "Não apenas arquivos modificados estão sendo salvos; verifique seu arquivo de configuração",
+  "simplebackups.commands.is_merging": "Uma operação de mesclagem já está em andamento",
+  "simplebackups.commands.finished": "Mesclagem de backups concluída",
+  "simplebackups.not_enough_space": "Espaço insuficiente no disco para criar o backup. Abortado!"
+}

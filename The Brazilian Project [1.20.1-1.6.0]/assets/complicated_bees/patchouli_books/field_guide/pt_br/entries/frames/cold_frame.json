@@ -1,0 +1,16 @@
+{
+  "name": "Quadro Gélido",
+  "icon": "complicated_bees:cold_frame",
+  "category": "complicated_bees:frames",
+  "advancement": "complicated_bees:frame",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O gelo azul pode ajudar a diminuir a temperatura ambiente sem derreter — embora tenda a matar as abelhas mais rápido."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:cold_frame"
+    }
+  ]
+}

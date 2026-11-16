@@ -1,0 +1,47 @@
+{
+  "name": "Trepadeiras de Crescimento Rápido",
+  "icon": "minecraft:vine",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Essas trepadeiras grossas e conscientes podem bloquear o caminho de qualquer criatura que tente passar."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:quick_growing_vine{ActiveTick:15,Animation:1}",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando invocadas ou plantadas debaixo d'água, em vez de virar trepadeiras, elas crescem como algas aquáticas."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:quick_growing_kelp{ActiveTick:15,Animation:1}",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Monstruosas e venenosas, essas criaturas florais disparam espinhos venenosos contra os inimigos de seu mestre."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:poison_quill_vine{ActiveTick:15,Animation:1}",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Assim como suas primas simples, invocar essas plantas venenosas debaixo d'água gerará uma variante aquática, embora, ao contrário das terrestres, seus espinhos não sejam afetados pela água."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:poison_anemone{ActiveTick:15,Animation:1}",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Essas plantas podem ser curadas usando Farinha de Osso nelas. Se já estiverem totalmente curadas, elas têm chance de gerar uma nova semente."
+    }
+  ]
+}

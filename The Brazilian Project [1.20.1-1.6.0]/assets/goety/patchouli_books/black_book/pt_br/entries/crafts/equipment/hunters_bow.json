@@ -1,0 +1,22 @@
+{
+  "name": "Arco do Caçador",
+  "icon": "goety:hunters_bow",
+  "category": "goety:crafts/equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um Arco feito para abater caça; qualquer animal morto por uma flecha disparada deste arco derrubará mais espólios do que até uma arma com Saque III."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:hunters_bow"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O arco pode ser reparado em uma bigorna ao ser combinado com qualquer arco."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:hunters_bow": 1
+  }
+}

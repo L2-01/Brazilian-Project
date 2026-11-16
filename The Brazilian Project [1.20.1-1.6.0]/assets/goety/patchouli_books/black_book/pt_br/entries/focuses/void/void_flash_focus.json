@@ -1,0 +1,23 @@
+{
+  "name": "Foco de Lampejo do Vazio",
+  "icon": "goety:void_flash_focus",
+  "category": "goety:focuses/void",
+  "advancement": "goety:goety/kill_an_ender_keeper",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Em vez de invocar continuamente vários projéteis, este feitiço dispara uma enorme bola de energia do vazio que explodirá em chamas mágicas e lançará várias bolas de vazio teleguiadas em inimigos próximos."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/void_flash_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/void_staff)Cajado do Vazio$() invoca mais projéteis."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:void_flash_focus": 1
+  }
+}

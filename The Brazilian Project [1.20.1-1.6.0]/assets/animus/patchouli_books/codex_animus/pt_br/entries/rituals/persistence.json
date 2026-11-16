@@ -1,0 +1,22 @@
+{
+  "name": "guide.animus.entry.ritual_persistence",
+  "icon": "bloodmagic:masterritualstone",
+  "category": "animus:rituals",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Ritual da Persistência força o mundo a permanecer ciente de seus arredores, mantendo chunks carregados mesmo sem jogadores por perto. Essencial para automação e bases remotas."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos",
+      "text": "$(bold)Ativação:$() 50.000 LP$(br)$(bold)Manutenção:$() 100 LP por tique (configurável)$(br)$(bold)Alcance:$() raio de 3 chunks (configurável)$(br2)O ritual mantém o carregamento de chunks numa área quadrada ao seu redor. Os chunks descarregam imediatamente se o LP acabar."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Notas de Uso",
+      "text": "$(bold)Raio de Chunks:$() Um raio de 3 significa uma área de 7x7 chunks (49 chunks no total).$(br2)$(bold)Persistência:$() Os chunks permanecem carregados mesmo através de reinícios do servidor enquanto o ritual estiver ativo.$(br2)$(italic)O mundo se lembra do que o sangue exige.$()"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Reatores: Uma Visão Geral",
+  "icon": "alchemistry:reactor_casing",
+  "category": "alchemistry:reactor_category",
+  "sortnum": 0,
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Os reatores de fissão e fusão são parte integral da manipulação de matéria para formar elementos para o que você precisar criar. São máquinas multibloco complexas com muitos requisitos para começar.$(br2)Todo reator precisará de alguns destes blocos:$(li)Carcaça do Reator$(li)Vidro do Reator$(li)Controlador do Reator$(li)Núcleo do Reator$(li)Entrada de Energia$(li)Entrada de Itens$(li)Saída de Itens"
+    },
+    {
+      "type": "crafting",
+      "title": "Carcaça do Reator",
+      "recipe": "alchemistry:reactor_casing",
+      "text": "A Carcaça do Reator forma a maior parte da estrutura do reator. A carcaça tem a força necessária para aguentar a pressão de dividir e fundir elementos. Você precisará de muitas delas para fazer um único reator."
+    },
+    {
+      "type": "spotlight",
+      "title": "Vidro do Reator",
+      "item": "alchemistry:reactor_glass",
+      "text": "O vidro de reator permite ver o interior do seu reator. É revestido de chumbo, o que com sorte manterá a radiação sob controle -- talvez. É feito no combinador, verifique o JEI para a receita."
+    },
+    {
+      "type": "crafting",
+      "title": "Energia do Reator",
+      "recipe": "alchemistry:reactor_energy",
+      "text": "Seus reatores precisam de energia -- $(bold)muita$() energia. Este bloco pode ser conectado a cabos de energia que, esperamos, estejam à altura do desafio."
+    },
+    {
+      "type": "crafting",
+      "title": "Entrada do Reator",
+      "recipe": "alchemistry:reactor_input",
+      "text": "Você pode colocar seus elementos no reator à mão, mas onde está a graça nisso? Automatize seus reatores conectando-os aos seus tubos de itens."
+    },
+    {
+      "type": "crafting",
+      "title": "Saída do Reator",
+      "recipe": "alchemistry:reactor_output",
+      "text": "Basicamente o mesmo que a entrada do reator, mas ao contrário."
+    }
+  ]
+}

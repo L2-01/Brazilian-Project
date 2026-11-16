@@ -1,0 +1,62 @@
+{
+  "itemGroup.aiotbotania": "AIOT Botania",
+  "aiotbotania.mythicbotany.disabled": "Por favor instale o MythicBotany!",
+  "aiotbotania.toggleMode": "\u00A76Modo:",
+  "aiotbotania.hoeMode": "\u00A73Arar terra",
+  "aiotbotania.hoeModePath": "\u00A73Arar terra e criar trilhas de grama",
+  "aiotbotania.utilityMode": "\u00A7eColocar tochas e mudas",
+
+  "item.aiotbotania.livingwood_shears": "Tesoura de Lenho Vivo",
+  "item.aiotbotania.livingwood_sword": "Espada de Lenho Vivo",
+  "item.aiotbotania.livingwood_axe": "Machado de Lenho Vivo",
+  "item.aiotbotania.livingwood_pickaxe": "Picareta de Lenho Vivo",
+  "item.aiotbotania.livingwood_shovel": "Pá de Lenho Vivo",
+  "item.aiotbotania.livingwood_hoe": "Enxada de Lenho Vivo",
+  "item.aiotbotania.livingwood_aiot": "AIOT de Lenho Vivo",
+
+  "item.aiotbotania.livingrock_shears": "Tesoura de Rocha Viva",
+  "item.aiotbotania.livingrock_sword": "Espada de Rocha Viva",
+  "item.aiotbotania.livingrock_axe": "Machado de Rocha Viva",
+  "item.aiotbotania.livingrock_pickaxe": "Picareta de Rocha Viva",
+  "item.aiotbotania.livingrock_shovel": "Pá de Rocha Viva",
+  "item.aiotbotania.livingrock_hoe": "Enxada de Rocha Viva",
+  "item.aiotbotania.livingrock_aiot": "AIOT de Rocha Viva",
+
+  "item.aiotbotania.manasteel_aiot": "AIOT de Manasteel",
+
+  "item.aiotbotania.elementium_aiot": "AIOT de Elementium",
+
+  "item.aiotbotania.terra_shovel": "Pá de Terra",
+  "item.aiotbotania.terra_hoe": "Enxada de Terra",
+  "item.aiotbotania.terra_aiot": "AIOT de Terrasteel",
+
+  "item.aiotbotania.alfsteel_shovel": "Pá de Alfsteel",
+  "item.aiotbotania.alfsteel_hoe": "Enxada de Alfsteel",
+  "item.aiotbotania.alfsteel_aiot": "AIOT de Alfsteel",
+
+  "botania.entry.livingwoodTools": "Ferramentas de Lenho Vivo",
+  "botania.entry.livingrockTools": "Ferramentas de Rocha Viva",
+
+  "botania.page.livingwoodTools0": "$(1)Lenho Vivo$(0) pode ser transformado em ferramentas pelo AIOT Botania.<br>As ferramentas têm propriedades como as de $(1)Madeira$(0), embora um pouco superiores em encantabilidade e durabilidade. Sempre que um item de $(1)Lenho Vivo$(0) for sofrer dano, se houver $(4)Mana$(0) disponível no inventário (como uma $(1)Tabuleta de Mana$(0)), ele usará isso em vez.<br>Fora o dano, são como as ferramentas vanilla.",
+  "botania.page.livingwoodTools1": "A $(1)Espada de Lenho Vivo$(0)",
+  "botania.page.livingwoodTools2": "O $(1)Machado de Lenho Vivo$(0)",
+  "botania.page.livingwoodTools3": "A $(1)Picareta de Lenho Vivo$(0)",
+  "botania.page.livingwoodTools4": "A $(1)Pá de Lenho Vivo$(0)",
+  "botania.page.livingwoodTools5": "A $(1)Tesoura de Lenho Vivo$(0)",
+  "botania.page.livingwoodTools6": "A $(1)Enxada de Lenho Vivo$(0)",
+  "botania.page.livingwoodTools7": "A $(1)AIOT de Lenho Vivo$(0)",
+  "botania.page.livingrockTools0": "$(1)Rocha Viva$(0) pode ser transformada em ferramentas pelo AIOT Botania.<br>As ferramentas têm propriedades como as de $(1)Pedra$(0), embora um pouco superiores em encantabilidade, durabilidade e alguns ajustes. Sempre que um item de $(1)Rocha Viva$(0) for sofrer dano, se houver $(4)Mana$(0) disponível no inventário (como uma $(1)Tabuleta de Mana$(0)), ele usará isso em vez.<br>As ferramentas são como ferramentas vanilla melhoradas.",
+  "botania.page.livingrockTools1": "A $(1)Espada de Rocha Viva$(0)",
+  "botania.page.livingrockTools2": "O $(1)Machado de Rocha Viva$(0)",
+  "botania.page.livingrockTools3": "A $(1)Picareta de Rocha Viva$(0)",
+  "botania.page.livingrockTools4": "A $(1)Pá de Rocha Viva$(0)",
+  "botania.page.livingrockTools5": "A $(1)Tesoura de Rocha Viva$(0)",
+  "botania.page.livingrockTools6": "A $(1)Enxada de Rocha Viva$(0)",
+  "botania.page.livingrockTools7": "A $(1)AIOT de Rocha Viva$(0)",
+  "botania.page.manaGear11": "Como o $(2)AIOT Botania$(0) está instalado há mais um item. A $(1)Enxada$(0) do Botania também pode converter Terra Arada de volta em terra.<br>A $(1)AIOT$(0) é como uma fusão de $(1)Espada de Manasteel$(0), $(1)Picareta$(0), $(1)Machado$(0), $(1)Pá$(0) e $(1)Enxada$(0) e combina todos os seus recursos.",
+  "botania.page.manaGear12": "A $(1)AIOT de Manasteel$(0)",
+  "botania.page.elfGear10": "A $(1)Espada de Elementium$(0) aumentará a chance de uma $(4)Pixie$(0) gerar ao ser atingida (vale quando nenhuma $(1)Armadura de Elementium$(0) é vestida) e aumenta a força de quaisquer $(4)Pixies$(0) geradas.",
+  "botania.page.elfGear16": "A $(1)Enxada de Elementium$(0) do Botania agora ara um bloco de terra ou similar num bloco de terra arada que não quebra ao pular nele. Com essa terra arada você não precisa de água por perto, o bloco fica molhado sempre. Essa terra arada aumenta a velocidade de crescimento das plantações. Ao clicar com o botão direito na terra arada ela volta a ser grama.",
+  "botania.page.elfGear17": "Por fim, a $(1)AIOT de Elementium$(0) funde todos os efeitos especiais das outras ferramentas de $(1)Elementium$(0). <br>Como você pode colocar $(4)mudas$(0) e $(4)tochas$(0) com machado e picareta, há um modo que pode ser alternado com $(4)shift + botão direito$(0). Um modo é para arar e criar trilhas de grama, o outro modo é para colocar mudas e tochas.",
+  "botania.page.elfGear18": "A $(1)AIOT de Elementium$(0)"
+}

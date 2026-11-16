@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Bomba Fulgurante",
+  "icon": "goety_cataclysm:flare_bomb_focus",
+  "category": "goety:cataclysm/focuses/nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O feitiço replica as bombas fulgurantes da máquina infernal, que não só explodem com o impacto, mas também lançam ondas de lâminas flamejantes que jorram do chão."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/flare_bomb_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/nether_staff)Cajado do Nether$() dispara mais bombas fulgurantes."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:flare_bomb_focus": 1
+  }
+}

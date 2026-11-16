@@ -1,0 +1,16 @@
+{
+  "name": "Quadro Úmido",
+  "icon": "complicated_bees:wet_frame",
+  "category": "complicated_bees:frames",
+  "advancement": "complicated_bees:frame",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A evaporação pode aumentar a umidade, mas água e abelhas geralmente não se misturam muito bem."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:wet_frame"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Stormtrooper",
+  "icon": "minecraft:arrow",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Torna você amplamente impreciso ao atirar arcos e bestas."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/storm_trooper",
+      "b.upgrade": "bloodmagic:storm_trooper"
+    }
+  ]
+}

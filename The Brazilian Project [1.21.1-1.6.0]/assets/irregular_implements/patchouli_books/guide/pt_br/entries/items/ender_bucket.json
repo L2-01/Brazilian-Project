@@ -1,0 +1,19 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:ender_bucket",
+    "name": "Balde de Ender",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Balde de Ender$() pode ser usado num fluido corrente, e ele coletará a fonte de fluido mais próxima à distância.$(br2)O $(d)Balde de Ender Reforçado$() funciona igual, mas também pode armazenar até 10 fontes de fluido de uma vez."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:ender_bucket"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:reinforced_ender_bucket"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "guide.animus.entry.ritual_steadfast_heart",
+  "icon": "minecraft:golden_apple",
+  "category": "animus:rituals",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fortaleça seus aliados. O Ritual do Coração Firme concede efeitos de Absorção cada vez mais poderosos a todos os jogadores próximos, fornecendo vida extra que se regenera com o tempo. Também pode bufar jogadores remotamente via orbes de sangue vinculados."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos e Detalhes",
+      "text": "$(bold)Ativação:$() 20.000 LP$(br)$(bold)Renovação:$() 100 LP por jogador$(br)$(bold)Tempo de Renovação:$() 60 tiques (3 segundos); configurável$(br2)$(bold)Alcance do Efeito:$() raio de 128 blocos; configurável$(br2)Cada vez que o ritual roda, ele estende e fortalece o efeito de absorção nos jogadores próximos."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Buff Remoto",
+      "text": "$(bold)Vínculo de Orbe de Sangue:$()$(br)Coloque um baú diretamente acima da Pedra de Ritual Mestra e encha-o com $(blood)orbes de sangue vinculados$() de qualquer nível.$(br2)O ritual bufará o jogador vinculado independente da localização dele no mundo, desde que esteja online.$(br2)$(bold)Benefícios:$()$(li)Bufe aliados em qualquer lugar do mundo$(li)Cada jogador só é bufado uma vez por ciclo$(li)Funciona com orbe de sangue de qualquer nível$(li)O custo de LP se aplica por jogador bufado$(br2)$(italic)Perfeito para proteger sua equipe através de dimensões!$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Escala do Efeito",
+      "text": "$(bold)Escala de Absorção:$()$(br)O ritual acumula duração e amplificador com o tempo:$(li)Duração aumenta a cada ciclo$(li)Duração máx: 30.000 tiques$(li)Amplificador máx: 4 (10 corações de absorção); configurável$(br2)$(bold)Geração de Vontade:$() Gera $(will)Vontade Firme$() (máx 100).$(br2)$(italic)Permaneça firme diante da adversidade.$()"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Primeiros Passos",
+  "icon": "minecraft:glass_bottle",
+  "category": "goety:brewing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Saudações, verme! Se está lendo isto, você deve ser um molequinho de muita sorte ou um verdadeiro buscador de conhecimento! Tenho muitos nomes, mas pode me chamar de Vovó, ou de Sra. Fungodepé se estiver se sentindo educado, ehehehehe! Então quer ser um mestre na arte de preparar poções, é? Bom, então não vá confiando naqueles Suportes de Poções! Uma Bruxa de verdade usa seus Caldeirões para fazer sua arte!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:witch_cauldron",
+      "text": "Mas não serve qualquer Caldeirão! Você precisa de um Caldeirão de Bruxa de verdade! Coloque-o sobre uma lareira, uma fogueira ou aqueles blocos de magma ou sei lá o quê, e encha-o de água!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Caldeirão também precisa do poder do mundo espiritual para preparar direito, então ele deve ter alguns Castiçais de Almas por perto, capazes de absorver as energias dos mortos ao redor."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:cauldron_ladle",
+      "text": "Você também precisa de uma Concha de Caldeirão para preparar direito! Durante o preparo, você precisa clicar com o botão direito no Caldeirão com a concha para começar a etapa de Conclusão!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se a sua poção falhou ou você não está satisfeito com ela, agachar e clicar com o botão direito no Caldeirão com uma Varinha ou Cajado mágico limpa todo o conteúdo dele!"
+    }
+  ]
+}

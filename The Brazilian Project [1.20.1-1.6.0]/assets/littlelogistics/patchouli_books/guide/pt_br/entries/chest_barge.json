@@ -1,0 +1,19 @@
+{
+    "name": "Barcaça de Baú",
+    "icon": "littlelogistics:barge",
+    "category": "littlelogistics:vessels",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:barge",
+            "scale": 0.6,
+            "offset": 0.5,
+            "text": "Uma barcaça simples que guarda itens, semelhante ao carrinho de baú."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:barge",
+            "text": "A barcaça deve estar atracada e fazer parte de um trem de rebocadores para interagir com funis."
+        }
+    ]
+}

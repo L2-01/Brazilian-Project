@@ -1,0 +1,5 @@
+Bateria de Cadinho Eletrolítico
+Eletrólise Avançada
+<&multiblock>A Bateria de Cadinho Eletrolítico realiza eletrólise em sais fundidos e outros fluidos, produzindo múltiplas saídas ao mesmo tempo. Pode processar até 3 lotes em paralelo.
+
+§lFluido§r e §lEnergia§r são fornecidos pela lateral. O buffer interno armazena <config;i;electrolytic_crucible_battery.energy_capacity> Flux. Os dois fluidos separados saem pelas portas do topo na traseira; itens e eletrólito usado saem pela base. Até 3 lotes são processados em paralelo, então a vazão pode superar o que o tempo de um único lote sugeriria. Um comparador ligado a qualquer bloco externo emite sinal proporcional ao nível do primeiro tanque de saída de fluido.

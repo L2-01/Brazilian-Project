@@ -1,0 +1,36 @@
+{
+  "name": "Conjunto sem Nome",
+  "icon": "goety:nameless_cape",
+  "category": "goety:crafts/garment",
+  "advancement": "goety:goety/read_forbidden_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Após descobrir os caminhos mais ocultos da necromancia, você criou um novo conjunto de vestes para exibir sua maestria sobre as artes sombrias."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:nameless_cape"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:nameless_crown"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O conjunto funciona igual ao antigo Conjunto Necrótico, com algumas melhorias, e não dá ao usuário penalidades sob a luz do sol."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:haunted_mirror",
+      "title": "Mudando de Cor",
+      "advancement": "goety:goety/read_haunting_scroll",
+      "text": "Você também pode mudar a cor das gemas e dos adornos da sua Coroa ou da sua Capa clicando com o botão direito em um Espelho Assombrado com um corante enquanto a segura na mão secundária. Para remover a cor personalizada, clique no espelho com o botão direito usando um balde de água, também segurando-o na mão secundária."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:nameless_cape": 1,
+    "goety:nameless_crown": 2
+  }
+}

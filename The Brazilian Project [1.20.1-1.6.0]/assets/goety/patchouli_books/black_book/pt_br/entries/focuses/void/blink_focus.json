@@ -1,0 +1,18 @@
+{
+  "name": "Foco de Translação",
+  "icon": "goety:blink_focus",
+  "category": "goety:focuses/void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Este foco permite teleportar-se até um local para o qual você está olhando, desde que tal local esteja no alcance."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/blink_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:blink_focus": 1
+  }
+}

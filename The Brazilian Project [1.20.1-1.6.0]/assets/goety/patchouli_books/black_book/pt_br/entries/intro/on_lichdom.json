@@ -1,0 +1,43 @@
+{
+  "name": "Ressalvas de ser um Lich",
+  "icon": "minecraft:skeleton_skull",
+  "category": "goety:intro",
+  "advancement": "goety:goety/become_lich",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você finalmente se tornou o Morto-Vivo supremo. Como deve ter imaginado, você tem as forças e as fraquezas da morte-vida. Para começar, sua fome não aumenta nem diminui. Quando ferido, você consumirá a Energia de Almas do seu Totem para curar todos os ferimentos (a menos que esteja em chamas)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Segundo, você não pode receber os efeitos de Veneno, Regeneração, Fome nem Saturação. Você queima sob a luz do sol, a menos que tenha algo na cabeça, e sofre mais ferimentos do encantamento Julgamento. Além disso, os Aldeões odeiam você, a não ser que você tenha curado muitos deles de sua condição de Zumbis."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Por outro lado, a maioria das criaturas mortas-vivas não ataca mais você, você nunca se afoga e pode ficar sob a luz do sol o dia inteiro, desde que esteja usando um Capacete ou tenha Resistência ao Fogo! Ser um morto-vivo também significa que Poções de Dano curam você, enquanto Poções de Cura o ferem, assim como acontece com seus irmãos mortos-vivos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "As ressurreições da $(l:crafts/artifice/arca)Arca$() são iniciadas não importa a quantidade de Energia de Almas dentro dela. Porém, se a quantidade de Energia de Almas for menor que o número necessário para reviver você, ou se a sua Arca tiver sido destruída, você perderá sua condição de lich ao morrer."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você também pode recuperar sua forma viva pressionando a tecla Forma de Lich (padrão: N). A forma, de algum modo, não engana ninguém, mas pelo menos você recupera sua aparência de antes."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:haunted_mirror",
+      "title": "Mudando de Cor",
+      "advancement": "goety:goety/read_haunting_scroll",
+      "text": "Você também pode mudar a cor da sua Forma de Lich clicando com o botão direito em um Espelho Assombrado com um corante. Para remover a cor personalizada, clique no espelho com o botão direito usando um balde de água."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:haunted_mirror",
+      "title": "Pernas",
+      "advancement": "goety:goety/read_haunting_scroll",
+      "text": "Você também pode adicionar ou remover suas pernas clicando com o botão direito no Espelho Assombrado com um Osso."
+    }
+  ]
+}

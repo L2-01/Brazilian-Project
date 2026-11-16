@@ -1,0 +1,35 @@
+{
+  "name": "Separador de Abelhas",
+  "icon": "complicated_bees:bee_sorter",
+  "category": "complicated_bees:machines",
+  "advancement": "complicated_bees:recipes/misc/bee_sorter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Separador de Abelhas é capaz de classificar e organizar as abelhas canalizadas para dentro dele.$(br2)Ele pode aceitar itens de qualquer lado, colocando-os em seu buffer de espaço único, e enviará automaticamente esse item para os lados que tiverem filtros configurados correspondentes, seguindo algumas regras explicadas nas próximas páginas:"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:bee_sorter",
+      "title": "Separador de Abelhas",
+      "text": "$(o)Cérebro numa caixa$(br2)$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Cada lado do bloco tem uma cor — interaja com o bloco para abrir a GUI.$(br2)À esquerda estão os filtros de tipo — clique neles para alternar entre zangão, princesa, rainha, qualquer abelha, não-abelha e nenhum item permitido.$(br2)Os seis espaços restantes de cada linha são filtros de espécie, onde 0 é a primária e 1 é a secundária. Você pode defini-los clicando com o botão esquerdo/direito no espaço com uma abelha ou arrastando a partir de um navegador de receitas."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "complicated_bees:textures/gui/patchouli/machines/bee_sorter.png"
+      ],
+      "title": "Colmeias",
+      "border": true,
+      "text": "Um lado é selecionado com base na especificidade do filtro..."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "...por exemplo, o separador de abelhas configurado na última página enviará quaisquer zangões Florestal-Planície para o lado branco, outros zangões com Florestal como espécie primária para o lado preto, e quaisquer outros zangões serão divididos aleatoriamente entre os lados vermelho e azul.$(br2)Por padrão, o separador exporta automaticamente — você pode desativar isso com redstone."
+    }
+  ]
+}

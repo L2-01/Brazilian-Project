@@ -1,0 +1,27 @@
+{
+  "name": "Conjunto de Necromante",
+  "icon": "goety:necro_cape",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O poder de comandar Zumbis e Esqueletos parece maravilhoso, mas com o poder da Capa Necrótica, suas habilidades necrotúrgicas melhoram ainda mais. Vestir a capa faz com que as flechas dos seus Esqueletos atravessem criaturas aliadas, e os Zumbis podem transformar Zumbis selvagens em mais Servos que obedecem a você."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:necro_cape"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:necro_crown"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Coroa Necrótica impede que sua horda de mortos-vivos se decomponha como Obsessores e reduz pela metade o tempo para conjurar feitiços de Necromancia. Cuidado: vestir uma Coroa Necrótica à luz do dia fará o usuário ganhar Fraqueza e Fome enquanto veste a Capa."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:necro_cape": 1,
+    "goety:necro_crown": 2
+  }
+}

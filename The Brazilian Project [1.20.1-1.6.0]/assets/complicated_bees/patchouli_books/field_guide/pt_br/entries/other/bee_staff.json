@@ -1,0 +1,18 @@
+{
+  "name": "Cajado de Abelha",
+  "icon": "complicated_bees:bee_staff",
+  "category": "complicated_bees:other",
+  "advancement": "complicated_bees:recipes/bee_staff",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Usando os poderes da geleia real, você pode criar um cajado que dispara um rastro de feromônio, atraindo abelhas para ele e envenenando qualquer tolo que ficar no caminho."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:bee_staff",
+      "title": "Cajado de Abelha",
+      "text": "$(o)Com grandes poderes, vêm grandes responsabilidades."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Gyrofuge",
+  "icon": "complicated_bees:gyrofuge_base",
+  "category": "complicated_bees:machines",
+  "advancement": "complicated_bees:advanced_products",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um $(l:complicated_bees:machines/mellarium)Mellarium$() pode produzir milhares de favos a cada tick de abelha. Você vai precisar de algo um pouco mais poderoso que uma centrífuga comum (ou até várias!) para processar tudo isso.$(br2)É aí que entra a Gyrofuge — uma solução multibloco para seus problemas de superprodução."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Gyrofuge (sem melhorias) processa favos na metade do tempo e fornece um multiplicador base de 1.5x para a chance de produto. A Gyrofuge pode ser aprimorada com módulos, assim como o Mellarium.$(br2)Também é importante notar que $(l)blocos de gyrofuge não-base não podem ser colocados na camada superior$() da Gyrofuge.$(br2)A Gyrofuge também consome um fio de energia mesmo quando não está fazendo nada."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "BBB",
+            "BBB",
+            "BBB"
+          ],
+          [
+            "###",
+            "#B#",
+            "###"
+          ],
+          [
+            "###",
+            "#0#",
+            "###"
+          ]
+        ],
+        "mapping": {
+          "B": "complicated_bees:gyrofuge_base",
+          "#": "#complicated_bees:multiblock/gyrofuge",
+          "0": "#complicated_bees:multiblock/gyrofuge"
+        }
+      },
+      "text": "Tente não construí-las cruzando bordas de chunks nem lado a lado."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:gyrofuge_base",
+      "text": "Os painéis da Gyrofuge podem ser feitos na bancada de ferraria, combinando um lingote de ferro, um painel de Mellarium e uma tocha de redstone."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:gyrofuge_energy_cell",
+      "title": "Célula de Energia",
+      "text": "Para que uma Gyrofuge aceite energia, você precisará de pelo menos uma delas.$(br2)As comportas de entrada e saída tentam transferir tantos itens quanto a Gyrofuge comportar a cada 4 ticks."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:gyrofuge_input_hatch",
+      "recipe2": "complicated_bees:gyrofuge_output_hatch",
+      "title": "Comportas"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:gyrofuge_basic_processing_unit",
+      "text": "As unidades de processamento aumentam o número de itens processados por vez.",
+      "title": "Unidades de Processamento"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:gyrofuge_processing_unit",
+      "recipe2": "complicated_bees:gyrofuge_advanced_processing_unit",
+      "title": "Unidades de Processamento"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:gyrofuge_basic_speed_unit",
+      "text": "As unidades de velocidade aumentam a velocidade com que uma gyrofuge processa itens.",
+      "title": "Unidades de Velocidade"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:gyrofuge_speed_unit",
+      "recipe2": "complicated_bees:gyrofuge_advanced_speed_unit",
+      "title": "Unidades de Velocidade"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:gyrofuge_basic_efficiency_unit",
+      "text": "As unidades de eficiência aumentam a eficiência energética de uma gyrofuge.",
+      "title": "Unidades de Eficiência"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:gyrofuge_efficiency_unit",
+      "recipe2": "complicated_bees:gyrofuge_advanced_efficiency_unit",
+      "title": "Unidades de Eficiência"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:gyrofuge_basic_extraction_unit",
+      "text": "As unidades de extração aumentam a chance de saída de itens processados em uma gyrofuge.",
+      "title": "Unidades de Extração"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:gyrofuge_extraction_unit",
+      "recipe2": "complicated_bees:gyrofuge_advanced_extraction_unit",
+      "title": "Unidades de Extração"
+    }
+  ]
+}

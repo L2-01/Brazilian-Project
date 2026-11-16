@@ -1,0 +1,86 @@
+{
+	"name": "Carteiras",
+	"icon": "lightmanscurrency:wallet_gold",
+	"category": "lightmanscurrency:basics",
+	"pages": [
+		"As carteiras são um dos itens mais importantes do Lightman's Currency, e é altamente recomendável que você fabrique uma o quanto antes.$(br2)As carteiras servem para guardar quaisquer moedas e interagem automaticamente com qualquer máquina de comércio, extraindo e inserindo moedas com facilidade sempre que você tentar fazer ou receber um pagamento.",
+		"Isso permite um jeito livre de guardar dinheiro e fazer interações monetárias sem perder espaços do inventário para as moedas.$(br2)Por padrão, carteiras de maior qualidade têm habilidades melhores que as inferiores e também possuem um espaço de inventário maior.$(br2)Vale notar também que as carteiras são uma parte central do mod, e alguns métodos de compra $(l)exigem$() que você tenha uma carteira equipada para fazer o pagamento.",
+		{
+			"type": "patchouli:crafting",
+			"recipe": "lightmanscurrency:wallet/wallet_leather",
+			"text": "$(br) * Tamanho Padrão: $(lightmanscurrency_wallet_slots:wallet_leather) espaços$(br)$(l:basics/wallets#coin_exchange)$(lightmanscurrency_wallet_exchange:lightmanscurrency-wallet_leather; * Troca de Moedas)$()$(br)$(l:basics/wallets#coin_pickup)$(lightmanscurrency_wallet_pickup:lightmanscurrency-wallet_leather; * Coleta de Moedas)$()$(br)$(l:basics/wallets#bank_access)$(lightmanscurrency_wallet_bank:lightmanscurrency-wallet_leather; * Acesso Bancário Limitado)$()$(br2)Pode ser tingida de qualquer cor, assim como a armadura de couro do vanilla."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "lightmanscurrency:wallet/wallet_copper",
+			"text": "$(br) * Tamanho Padrão: $(lightmanscurrency_wallet_slots:wallet_copper) espaços$(br)$(l:basics/wallets#coin_exchange)$(lightmanscurrency_wallet_exchange:lightmanscurrency-wallet_copper; * Troca de Moedas)$()$(br)$(l:basics/wallets#coin_pickup)$(lightmanscurrency_wallet_pickup:lightmanscurrency-wallet_copper; * Coleta de Moedas)$()$(br)$(l:basics/wallets#bank_access)$(lightmanscurrency_wallet_bank:lightmanscurrency-wallet_copper; * Acesso Bancário Limitado)$()"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "lightmanscurrency:wallet/wallet_iron",
+			"text": "$(br) * Tamanho Padrão: $(lightmanscurrency_wallet_slots:wallet_iron) espaços$(br)$(l:basics/wallets#coin_exchange)$(lightmanscurrency_wallet_exchange:lightmanscurrency-wallet_iron; * Troca de Moedas)$()$(br)$(l:basics/wallets#coin_pickup)$(lightmanscurrency_wallet_pickup:lightmanscurrency-wallet_iron; * Coleta de Moedas)$()$(br)$(l:basics/wallets#bank_access)$(lightmanscurrency_wallet_bank:lightmanscurrency-wallet_iron; * Acesso Bancário Limitado)$()"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "lightmanscurrency:wallet/wallet_gold",
+			"text": "$(br) * Tamanho Padrão: $(lightmanscurrency_wallet_slots:wallet_gold) espaços$(br)$(l:basics/wallets#coin_exchange)$(lightmanscurrency_wallet_exchange:lightmanscurrency-wallet_gold; * Troca de Moedas)$()$(br)$(l:basics/wallets#coin_pickup)$(lightmanscurrency_wallet_pickup:lightmanscurrency-wallet_gold; * Coleta de Moedas)$()$(br)$(l:basics/wallets#bank_access)$(lightmanscurrency_wallet_bank:lightmanscurrency-wallet_gold; * Acesso Bancário Limitado)$()"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "lightmanscurrency:wallet/wallet_emerald",
+			"text": "$(br) * Tamanho Padrão: $(lightmanscurrency_wallet_slots:wallet_emerald) espaços$(br)$(l:basics/wallets#coin_exchange)$(lightmanscurrency_wallet_exchange:lightmanscurrency-wallet_emerald; * Troca de Moedas)$()$(br)$(l:basics/wallets#coin_pickup)$(lightmanscurrency_wallet_pickup:lightmanscurrency-wallet_emerald; * Coleta de Moedas)$()$(br)$(l:basics/wallets#bank_access)$(lightmanscurrency_wallet_bank:lightmanscurrency-wallet_emerald; * Acesso Bancário Limitado)$()"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "lightmanscurrency:wallet/wallet_diamond",
+			"text": "$(br) * Tamanho Padrão: $(lightmanscurrency_wallet_slots:wallet_diamond) espaços$(br)$(l:basics/wallets#coin_exchange)$(lightmanscurrency_wallet_exchange:lightmanscurrency-wallet_diamond; * Troca de Moedas)$()$(br)$(l:basics/wallets#coin_pickup)$(lightmanscurrency_wallet_pickup:lightmanscurrency-wallet_diamond; * Coleta de Moedas)$()$(br)$(l:basics/wallets#bank_access)$(lightmanscurrency_wallet_bank:lightmanscurrency-wallet_diamond; * Acesso Bancário Limitado)$()"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "lightmanscurrency:wallet/wallet_netherite",
+			"text": "$(br) * Tamanho Padrão: $(lightmanscurrency_wallet_slots:wallet_netherite) espaços$(br)$(l:basics/wallets#coin_exchange)$(lightmanscurrency_wallet_exchange:lightmanscurrency-wallet_netherite; * Troca de Moedas)$()$(br)$(l:basics/wallets#coin_pickup)$(lightmanscurrency_wallet_pickup:lightmanscurrency-wallet_netherite; * Coleta de Moedas)$()$(br)$(l:basics/wallets#bank_access)$(lightmanscurrency_wallet_bank:lightmanscurrency-wallet_netherite; * Acesso Bancário Limitado)$()$(br3)Imune a dano de fogo"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "lightmanscurrency:wallet/wallet_nether_star",
+			"text": "$(br) * Tamanho Padrão: $(lightmanscurrency_wallet_slots:wallet_nether_star) espaços$(br)$(l:basics/wallets#coin_exchange)$(lightmanscurrency_wallet_exchange:lightmanscurrency-wallet_nether_star; * Troca de Moedas)$()$(br)$(l:basics/wallets#coin_pickup)$(lightmanscurrency_wallet_pickup:lightmanscurrency-wallet_nether_star; * Coleta de Moedas)$()$(br)$(l:basics/wallets#bank_access)$(lightmanscurrency_wallet_bank:lightmanscurrency-wallet_nether_star; * Acesso Bancário Limitado)$()$(br) * $(lightmanscurrency_wallet_magnet:wallet_nether_star) Bônus de níveis de $(item)Ímã de Moedas$()$(br2)Completamente invulnerável"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "lightmanscurrency:wallet_ender_dragon",
+			"link_recipe": true,
+			"text": "10% de chance de aparecer num baú de Cidade do End.$(br)Não pode ser fabricada.$(br2) * Tamanho Padrão: $(lightmanscurrency_wallet_slots:wallet_ender_dragon) espaços$(br)$(l:basics/wallets#coin_exchange)$(lightmanscurrency_wallet_exchange:lightmanscurrency-wallet_ender_dragon; * Troca de Moedas)$()$(br)$(l:basics/wallets#coin_pickup)$(lightmanscurrency_wallet_pickup:lightmanscurrency-wallet_ender_dragon; * Coleta de Moedas)$()$(br)$(l:basics/wallets#bank_access)$(lightmanscurrency_wallet_bank:lightmanscurrency-wallet_ender_dragon; * Acesso Bancário Limitado)$()$(br) * $(lightmanscurrency_wallet_magnet:wallet_ender_dragon) Bônus de níveis de $(item)Ímã de Moedas$()$(br)Pode ser aprimorada mais 2 vezes$(br)    Imune a dano de fogo"
+		},
+		"Além da receita básica de fabricação, a maioria das carteiras também pode ser aprimorada a partir de suas versões de qualidade inferior usando os materiais extras.$(br2)Elas também podem ser aprimoradas um número limitado de vezes ao usar um $(item)Diamante$() na carteira dentro de qualquer menu que não seja relacionado a carteiras.",
+		{
+			"type": "lightmanscurrency:wide_image",
+			"flag": "!mod:curios",
+			"image": "lightmanscurrency:textures/gui/trader_guide/basics/wallets/wallet_slot_normal.png",
+			"text": "Embora a carteira $(o)possa$() ser aberta ao usar o item de carteira, a maioria das habilidades dela (coleta automática e uso em pagamentos) só funciona quando ela está equipada no Espaço de Carteira, como mostrado acima."
+		},
+		{
+			"type": "lightmanscurrency:wide_image",
+			"flag": "mod:curios",
+			"image": "lightmanscurrency:textures/gui/trader_guide/basics/wallets/wallet_slot_curios.png",
+			"text": "Embora a carteira $(o)possa$() ser aberta ao usar o item de carteira, a maioria das habilidades dela (coleta automática e uso em pagamentos) só funciona quando ela está equipada no espaço de Carteira do Curios, como mostrado acima."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "coin_exchange",
+			"title": "Troca de Moedas",
+			"text": "Carteiras com a habilidade $(l)Troca de Moedas$() ganham um novo botão no menu da carteira que permite trocar manualmente todas as moedas dentro dela pelas de maior valor (e, portanto, menor quantidade de itens).$(br2)Essa habilidade é essencial para usar com eficiência o espaço físico da sua carteira."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "coin_pickup",
+			"title": "Coleta de Moedas",
+			"text": "Carteiras com a habilidade $(l)Coleta de Moedas$() agora redirecionam automaticamente os itens de moeda direto para a sua carteira sempre que você os pegar do chão. Carteiras com essa habilidade também passam a poder ser encantadas com o encantamento Ímã de Moedas.$(br)Como essa habilidade é desbloqueada depois da habilidade de Troca, as moedas coletadas também são trocadas automaticamente pela moeda de maior valor para economizar espaço na carteira."
+		},
+		{
+			"type": "patchouli:text",
+			"anchor": "bank_access",
+			"title": "Acesso Bancário",
+			"text": "Carteiras com Acesso Bancário ganham a habilidade de depositar ou sacar dinheiro diretamente de suas Contas Bancárias pelo Menu da Carteira.$(br2)Usuários dessas carteiras ganham acesso a um segundo menu ao pressionar um botão no canto superior esquerdo do menu normal da carteira, que tem versões mais simples das abas de seleção e interação de contas bancárias do Caixa Eletrônico."
+		}
+	]
+}

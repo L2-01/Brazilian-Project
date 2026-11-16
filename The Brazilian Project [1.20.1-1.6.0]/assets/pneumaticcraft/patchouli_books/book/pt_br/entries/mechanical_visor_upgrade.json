@@ -1,0 +1,17 @@
+{
+  "name": "Aprimoramento de Visor Mecânico",
+  "icon": "compressedcreativity:mechanical_visor_upgrade",
+  "category": "pneumaticcraft:compressed_creativity",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O $(item)Visor Mecânico$() é um aprimoramento que permite verificar as estatísticas mecânicas das máquinas, parecido com o que os $(item)Óculos de Engenheiro$() fazem.$(br2)Com a $(l:base_concepts/upgrades#block_tracker)Melhoria de Rastreamento de Blocos$() instalada, você ganha um widget separado para sua armadura e pode ver as dicas de ferramenta no mundo!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "compressedcreativity:crafting/mechanical_visor_upgrade",
+      "text": "Fabricando um $(item)Visor Mecânico$()"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Cabras Crepusculares",
+  "icon": "minecraft:goat_horn",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Contrapartes escuras e cruéis das cabras comuns, esses presságios sombrios darão cabeçadas nos inimigos de seus mestres ou os espetarão com seus chifres, ou os morderão se os perderem."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pode-se invocar cabras crepusculares através de um $(l:focuses/wild/hunting_focus)Foco de Caça$() enquanto estiver numa montanha, ou conjurando com um $(l:crafts/staff/wind_staff)Cetro dos Ventos$(), ou por um ritual que invoca uma sem vida limitada."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_twilight_goat_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:twilight_goat",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clicar numa Cabra Crepuscular leal com o botão direito usando qualquer tipo de comida comestível a curará."
+    }
+  ]
+}

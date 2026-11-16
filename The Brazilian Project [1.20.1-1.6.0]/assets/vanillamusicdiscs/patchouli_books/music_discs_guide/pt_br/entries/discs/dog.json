@@ -1,0 +1,19 @@
+{
+    "name": "Dog",
+    "category": "vanillamusicdiscs:discs",
+    "icon": "vanillamusicdiscs:dog_music_disc",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "vanillamusicdiscs:dog_music_disc",
+            "text": "Fabrique Dog usando a $(bold)Mesa de Discos de Música$(). Coloque qualquer disco de música vanilla no espaço da esquerda e o material mostrado abaixo no espaço do meio."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:bone",
+            "title": "Material Necessário",
+            "text": "$(item)Osso$() $(#808080)$()Coloque-o no espaço do meio da Mesa de Discos de Música junto a qualquer disco de música vanilla.$()"
+        }
+    ]
+}

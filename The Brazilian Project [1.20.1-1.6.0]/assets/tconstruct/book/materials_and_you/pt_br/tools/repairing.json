@@ -1,0 +1,55 @@
+{
+  "title": "Reparando",
+  "grid_size": "small",
+  "grid": [
+    [
+      {
+        "type": "forge:nbt",
+        "item": "tconstruct:pickaxe",
+        "nbt": {
+          "tic_broken": false,
+          "tic_display": true,
+          "Damage": 70,
+          "tic_materials": [
+            "tconstruct:ui_render#head",
+            "tconstruct:ui_render#handle",
+            "tconstruct:ui_render#extra"
+          ],
+          "tic_stats": {
+            "tconstruct:durability": 100
+          }
+        }
+      },
+      {
+        "type": "forge:nbt",
+        "item": "tconstruct:repair_kit",
+        "nbt": {
+          "tic_display": true,
+          "Material": "tconstruct:ui_render#head"
+        }
+      }
+    ]
+  ],
+  "result": {
+    "type": "forge:nbt",
+    "item": "tconstruct:pickaxe",
+    "nbt": {
+      "tic_broken": false,
+      "tic_display": true,
+      "Damage": 10,
+      "tic_materials": [
+        "tconstruct:ui_render#head",
+        "tconstruct:ui_render#handle",
+        "tconstruct:ui_render#extra"
+      ],
+      "tic_stats": {
+        "tconstruct:durability": 100
+      }
+    }
+  },
+  "description": [
+    {
+      "text": "Para reparar ferramentas, basta colocar a ferramenta na Estação de Tinkers ou Bigorna de Tinkers com o material da cabeça. Alternativamente, use kits de reparo, que funcionam tanto em bancadas quanto clicando com o botão direito na ferramenta!"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:imbue_fire",
+    "name": "Impregnações",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "As $(d)Impregnações$() são poções especiais criadas na $(l:irregular_implements:blocks/imbuing_station)Estação de Impregnação$(/l). Elas fornecem efeitos poderosos e duradouros quando consumidas.$(br2)Porém, você só pode ter uma única Impregnação por vez. Beber uma nova Impregnação substituirá a atual."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(d)Impregnações Disponíveis$()$(br2)$(li)$(d)Impregnação de Fogo$(): Ataques corpo a corpo incendeiam os alvos.$(br)$(li)$(d)Impregnação de Veneno$(): Ataques corpo a corpo infligem Veneno II.$(br)$(li)$(d)Impregnação de Wither$(): Ataques corpo a corpo infligem Wither II.$(br)$(li)$(d)Impregnação de Experiência$(): Experiência em dobro de criaturas mortas.$(br)$(li)$(d)Impregnação de Espectro$(): 10% de chance de anular completamente o dano recebido.$(br)$(li)$(d)Impregnação de Colapso$(): Ataques corpo a corpo infligem $(l:irregular_implements:blocks/sakanade_spores)Colapso$(/l)."
+        }
+    ]
+}

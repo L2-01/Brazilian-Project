@@ -1,0 +1,19 @@
+{
+  "name": "Coletor de Energia",
+  "icon": "deepresonance:energy_collector",
+  "category": "rftoolsbase:category_deepresonance_generator",
+  "extra_recipe_mappings": {
+    "deepresonance:energy_collector": 1
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Coloque exatamente um Coletor de Energia em cima da rede de peças do gerador. Ele drena cristais ressonantes próximos e alimenta a FE gerada no multibloco."
+    },
+    {
+      "type": "crafting",
+      "recipe": "deepresonance:energy_collector"
+    }
+  ]
+}

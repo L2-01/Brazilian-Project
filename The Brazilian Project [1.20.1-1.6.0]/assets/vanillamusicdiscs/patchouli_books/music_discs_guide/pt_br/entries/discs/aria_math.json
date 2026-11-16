@@ -1,0 +1,19 @@
+{
+    "name": "Aria Math",
+    "category": "vanillamusicdiscs:discs",
+    "icon": "vanillamusicdiscs:aria_math_music_disc",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "vanillamusicdiscs:aria_math_music_disc",
+            "text": "Fabrique Aria Math usando a $(bold)Mesa de Discos de Música$(). Coloque qualquer disco de música vanilla no espaço da esquerda e o material mostrado abaixo no espaço do meio."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:diamond",
+            "title": "Material Necessário",
+            "text": "$(item)Diamante$() $(#808080)$()Coloque-o no espaço do meio da Mesa de Discos de Música junto a qualquer disco de música vanilla.$()"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Adagas de Arremesso",
+  "icon": "bloodmagic:throwing_dagger",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "extra_recipe_mappings": {
+    "bloodmagic:slate_ampoule": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Arcos$() e $(item)Bestas$() cumprem seu papel, mas peneirar $(item)Cascalho$() por $(item)Sílex$() e depenar galinhas por suas $(item)Penas$() é, francamente, indigno de você. Essas $(item)Adagas de Arremesso$() brilhantes (e extremamente afiadas) também têm efeitos bem ardilosos, se é que posso dizer."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Adaga de Arremesso de Ferro",
+      "recipe": "bloodmagic:soulforge/throwing_dagger",
+      "anchor": "iron_throwing_dagger",
+      "text": "A $(item)Adaga de Arremesso de Ferro$() é um ataque de golpes rápidos, causando 10 de dano com um cooldown decente. Não só isso, mas se você tiver $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will Demoníaca$() com você (seja na forma bruta, ou armazenada numa $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$(), ela derrubará $(raw)Will$() como uma $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Espada Consciente$() faria."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Adaga de Arremesso de Seringa",
+      "recipe": "bloodmagic:soulforge/throwing_dagger_syringe",
+      "anchor": "syringe_throwing_dagger",
+      "text": "A $(item)Adaga de Arremesso de Seringa$() é para o Sanguimante mais interessado na aquisição de $(blood)Essência Vital$() do que $(raw)Will$(). Embora cause um pouco menos de dano, é notavelmente mais barata, e inimigos mortos por essa arma têm chance de derrubar uma $(item)Ampola de Ardósia$() — ou mais, se forem saudáveis o bastante."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:slate_ampoule",
+      "title": "Ampola de Ardósia",
+      "text": "Esses deliciosos frasquinhos podem ser quebrados perto de um $(l:bloodmagic:altar/blood_altar)Altar de Sangue$() para transferir $(blood)500 LP$() para dentro dele, destruindo a $(item)Ampola$() no processo. Esses ganhos não são afetados por nenhuma $(item)Runa$() que você tenha."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Adaga de Arremesso de Ametista",
+      "recipe": "bloodmagic:soulforge/throwing_dagger_copper",
+      "anchor": "amethyst_throwing_dagger",
+      "text": "A $(item)Adaga de Arremesso de Ametista$() causa tanto dano quanto uma $(item)Adaga de Arremesso de Ferro$(), mas criaturas não derrubam $(raw)Will$() quando mortos. Em vez disso, oito delas podem ser criadas com um $(l:bloodmagic:alchemy_table/potions)Frasco Alquímico Prolongado$() na $(item)Câmara de Reação Alquímica$() para criar $(item)Adagas de Arremesso de Ametista com Ponta$()."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "Adaga de Arremesso com Ponta",
+      "recipe": "bloodmagic:arc/tipped_copper",
+      "text": "Estas transmitirão seu efeito a qualquer criatura que atinjam, assim como se eles tivessem entrado na nuvem deixada por um $(item)Frasco Alquímico Prolongado$(). Experimente combinar efeitos para criar as adagas mais debilitantes e diabólicas que puder!"
+    }
+  ]
+}

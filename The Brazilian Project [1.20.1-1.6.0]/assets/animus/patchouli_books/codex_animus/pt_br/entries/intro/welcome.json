@@ -1,0 +1,22 @@
+{
+  "name": "guide.animus.entry.welcome",
+  "icon": "animus:sigil_transposition",
+  "category": "animus:intro",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Bem-vindo, praticante das artes sanguíneas.$(br2)O $(animus)Codex Animus$() contém o conhecimento das aplicações mais sombrias da magia de sangue; a manipulação da vida, da morte e da corrupção da própria natureza.$(br2)Nestas páginas, você encontrará rituais para invocar e destruir, sigilos para comandar os elementos, e os segredos de criar vida a partir do sangue."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Pré-requisitos",
+      "text": "Este tomo presume que você domina o básico do $(l:https://www.curseforge.com/minecraft/mc-mods/blood-magic)Blood Magic$(). Você deve estar familiarizado com:$(li)O Altar de Sangue e LP$(li)Orbes de Sangue Fracos$(li)Rituais básicos$(li)Soul Network$(br)Se você é novo no Blood Magic, consulte o $(l:bloodmagic:guide)Guia do Blood Magic$() primeiro."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Organização",
+      "text": "Este codex está organizado em capítulos:$(li)$(l:animus:sigils)Sigilos$(); Ferramentas portáteis$(li)$(l:animus:rituals)Rituais$(); Magia cerimonial$(li)$(l:animus:items)Itens e Ferramentas$()$(li)$(l:animus:blocks)Corrupção e Fluidos$()$(li)$(l:animus:bloodtrees)Árvores Sangrentas$(); Madeira viva$(br2)Use o índice ou a função de busca para encontrar tópicos específicos."
+    }
+  ]
+}

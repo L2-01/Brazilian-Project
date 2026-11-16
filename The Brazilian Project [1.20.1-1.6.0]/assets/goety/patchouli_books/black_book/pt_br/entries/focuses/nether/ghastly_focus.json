@@ -1,0 +1,28 @@
+{
+  "name": "Foco Medonho",
+  "icon": "goety:ghastly_focus",
+  "category": "goety:focuses/nether",
+  "advancement": "minecraft:story/enter_the_nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O foco permite invocar Ghasts em miniatura que, embora menos destrutivos, ainda são potentes cuspidores de fogo."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/ghastly_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/nether_staff)Cajado do Nether$() invoca mais Ghasts de uma vez."
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "goety:goety/read_bygone_scroll",
+      "text": "Vestir um Manto do Nether ao conjurar este feitiço invocará Servos Ghast em vez de Mini-Ghasts, embora em quantidade menor mesmo ao conjurar com o Cajado do Nether."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:ghastly_focus": 1
+  }
+}

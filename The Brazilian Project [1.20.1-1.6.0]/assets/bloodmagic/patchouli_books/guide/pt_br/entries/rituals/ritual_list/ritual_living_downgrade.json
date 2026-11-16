@@ -1,0 +1,48 @@
+{
+  "name": "Penitência da Alma Enchumbada",
+  "icon": "bloodmagic:upgradescraps",
+  "category": "bloodmagic:rituals/ritual_list",
+  "extra_recipe_mappings": {
+    "bloodmagic:upgradescraps": 7
+  },
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Penitência da Alma Enchumbada",
+      "multiblock_id": "bloodmagic:downgrade",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "downgrade"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "downgrades",
+      "text": "Este ritual consome $(thing)Pontos de Upgrade$() excedentes (na forma de $(item)Tomos$(), $(item)Sucatas$() e $(item)Pontos de Upgrade Sintéticos$()) junto com um $(item)Item-chave$() por nível, para aplicar Downgrades à sua $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$() vestida. O item-chave é diferente para cada downgrade, e está ilustrado em cada Entrada de Downgrade. Esses downgrades limitarão fortemente suas habilidades, mas lhe darão uma riqueza de $(thing)Pontos de Upgrade$() adicionais para brincar, permitindo muito mais especialização do que estava disponível antes."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:synthetic_point",
+      "text": "Se você não tiver pontos suficientes disponíveis, pode criar Pontos de Upgrade Sintéticos. Cada um destes vale um único Ponto de Upgrade. "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para usar o ritual, basta colocar seus tomos (ou outras fontes de Pontos de Upgrade) e o(s) Item(ns) exigido(s) para o downgrade específico que você tem em mente no baú anexado (veja a página anterior), enquanto veste sua Armadura Viva. O ritual consumirá os pontos e aplicará o downgrade à sua armadura. A ordem de consumo é $(item)Restos de Upgrade de Armadura Viva$(), depois $(item)Tomos de Upgrade de Armadura Viva$(), e por fim $(item)Pontos de Upgrade Sintéticos$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os downgrades aplicados à sua armadura dependem de qual(is) Item(ns) você colocar no baú. Cada item que corresponda a um downgrade específico aumentará o nível do downgrade desejado em um. Dessa forma, múltiplos downgrades podem ser aplicados de uma vez com uma única ativação de ritual. Então se você quisesse, digamos, Battle Hungry nível 3, colocaria 3 $(item)Carne Podre$() e itens valendo 35 $(thing)Pontos de Upgrade$() no baú, e ativaria o ritual vestindo um conjunto completo de $(thing)Armadura Viva$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O ritual respeitará quaisquer configurações que você tiver feito na sua $(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)Pulseira de Treinamento de Armadura Viva$(), então se estiver configurada para 'não permitir outros upgrades', o ritual falhará em aplicar os downgrades em você. Na dúvida, guarde sua Pulseira de Treinamento!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:upgradescraps",
+      "title": "Restos de Upgrade de Armadura Viva",
+      "text": "Pontos excedentes serão devolvidos na forma de $(item)Restos de Upgrade de Armadura Viva$(), que podem ser usadas em rituais subsequentes."
+    }
+  ]
+}

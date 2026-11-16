@@ -1,0 +1,30 @@
+{
+  "name": "Filtro de Itens de Encantamentos",
+  "icon": "bloodmagic:itemrouterfilterenchant",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(item)Filtro de Itens de Encantamentos$() permite separar itens por quaisquer $(thing)Encantamentos$() que tenham (ou não tenham). Funciona similarmente ao $(l:bloodmagic:demon_will/item_routing/standard_item_filter)Filtro de Itens Padrão$(), particularmente"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Filtro de Itens de Encantamentos",
+      "recipe": "bloodmagic:alchemytable/enchant_router_filter",
+      "text": "Qualquer livro encantado serve para esta receita."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/enchant_item_filter_gui.png"
+      ],
+      "title": "GUI do Filtro de Encantamentos",
+      "border": true,
+      "text": "Note os dois novos botões à direita do botão 'Permitir'."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O primeiro botão permite selecionar se corresponde $(thing)Cada Encantamento$() num item encantado, $(thing)Qualquer Encantamento$(), ou $(thing)um encantamento específico$(). O segundo botão permite especificar se deve prestar atenção ao nível ou não. (Ex.: 'Proteção III' versus 'Proteção'). $(br2)Se você inserir $(thing)um item não encantado$() no filtro, pode efetivamente Permitir ou Negar $(thing)qualquer tipo de encantamento$() para ser inserido ou removido do inventário especificado."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	"name": "Lista Branca/Lista Negra",
+	"icon": "lightmanscurrency:textures/gui/trader_guide/trade_rules/whitelist_blacklist/icon.png",
+	"category": "lightmanscurrency:trade_rules",
+	"pages": [
+		"A regra \"Lista Branca/Lista Negra\" permite limitar quais clientes podem interagir com uma determinada troca/comerciante.",
+		{
+			"type": "lightmanscurrency:wide_image",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/whitelist_blacklist/inputs.png",
+			"text": "A regra tem dois campos principais: o primeiro é o alternador de \"Modo\" bem no topo, que muda a regra entre o modo Lista Branca (permite apenas jogadores da lista) e o modo Lista Negra (nega jogadores da lista)."
+		},
+		"O segundo campo é a lista propriamente dita de Jogadores que você deseja colocar na Lista Branca ou na Lista Negra. Basta digitar o nome de usuário do jogador na caixa de texto e clicar no botão + assim que o jogo encontrar o perfil dele para adicioná-lo à lista.$(br)Você também pode ver e remover jogadores da lista abaixo clicando no botão X ao lado do nome de um jogador."
+	]
+}

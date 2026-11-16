@@ -1,0 +1,15 @@
+{
+  "name": "Crânio Assombrada",
+  "icon": "goety:haunted_skull_spawn_egg",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Assim como os Obsessores, os Crânios Assombrados podem atravessar o terreno, mas são mais frágeis e só podem causar dano explodindo nos inimigos. Suas explosões não afetam seu invocador nem suas invocações."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:haunted_skull"
+    }
+  ]
+}

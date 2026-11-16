@@ -1,0 +1,16 @@
+{
+  "name": "Grilhões Ameaçadores",
+  "icon": "goety:ominous_shackles",
+  "category": "goety:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aldeões podem ser difíceis de lidar, e a técnica comum de colocá-los num bote faz você parecer bobo ao andar em terra. Com estes grilhões, você não terá muita dificuldade para movê-los."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:ominous_shackles",
+      "text": "Usá-los em Aldeões ou Mercadores Ambulantes os transformará em $(l:mutations/prisoners)Prisioneiros$()."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Servo Aparição",
+  "icon": "goety:wraith_servant_spawn_egg",
+  "category": "goety:summons",
+  "advancement": "goety:goety/kill_a_wraith",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esses espectros são chamados e vinculados pela sua vontade a ponto de seus próprios Buquês de Gelo não tocarem nem você nem seus aliados."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:wraith_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pode-se invocar essas criaturas através de um $(l:focuses/necromancy/spooky_focus)Foco Arrepiante$(), ou por um ritual que invoca um sem vida limitada."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_wraith_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Aparições podem ser curadas clicando nelas com o botão direito usando Ectoplasma."
+    },
+    {
+      "type": "patchouli:entity",
+      "advancement": "goety:goety/kill_a_muck_wraith",
+      "entity": "goety:muck_wraith_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "goety:goety/kill_a_muck_wraith",
+      "text": "Uma variante da aparição, esses fantasmas invocadores de gás ácido são chamados quando invocados num bioma de Pântano."
+    },
+    {
+      "type": "patchouli:entity",
+      "advancement": "goety:goety/kill_a_border_wraith",
+      "entity": "goety:border_wraith_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "goety:goety/kill_a_border_wraith",
+      "text": "Uma variante da aparição, essas criaturas vomitadoras de gelo são chamadas quando invocadas dentro de uma $(l:world/crypts)Cripta$()."
+    }
+  ]
+}

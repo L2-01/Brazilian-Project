@@ -1,0 +1,15 @@
+{
+  "name": "Dourado",
+  "icon": "minecraft:golden_chestplate",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Efeito: Pacifica Piglins como se você estivesse vestindo Armadura de Ouro.$(br2)Treinado por: Dar um $(item)Lingote de Ouro$() a um Piglin. Você deve entregá-lo diretamente, não pode ser jogado no chão.$(br2)Nível máximo: 1"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:gilded"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Comandos",
+  "icon": "minecraft:command_block",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:command_block",
+      "title": "Comandos",
+      "text": "para admins de servidor e quem tem modo cheat ativado, o $(6)Blood Magic$() agora tem alguns comandos úteis: $(li)$(l)/bloodmagic network <username> add [quantia]$() adiciona a quantia de LP à $(l:bloodmagic:altar/soul_network)Soul Network$() do jogador indicado$(li)$(l)/bloodmagic network <username> query$() lista o total atual"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "da Soul Network daquele jogador (similar a usar um $(l:bloodmagic:alchemy_array/sigil/divination)Selo de Adivinhação$() vinculado a ele)$(li)$(l)/bloodmagic network <username> reset$() esvazia a Soul Network dele$(li)$(l)/bloodmagic network <username> set [quantia]$() define o LP total na soul network dele para a quantia dada."
+    }
+  ]
+}

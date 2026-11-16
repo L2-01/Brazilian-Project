@@ -1,0 +1,23 @@
+{
+    "name": "Trilhos de Atracação",
+    "icon": "littlelogistics:locomotive_dock_rail",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Existem dois trilhos de atracação: de locomotiva e de vagão. Um trilho de atracação de locomotiva deve estar sempre presente em qualquer configuração, e as docas de vagões precisam estar alinhadas em linha reta depois. Esses trilhos não transferem itens por si, mas comunicam à locomotiva se há coisas a transferir e se ela precisa esperar. Alternativamente, a locomotiva pode ser forçada a esperar aplicando um sinal de redstone."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Trilho de Atracação de Locomotivas",
+            "recipe": "littlelogistics:locomotive_dock_rail",
+            "text": "A doca de locomotivas só pode inserir no vagão (modo laranja/saída), coloque um funil ao lado do trilho para inserir. Deve estar voltada para a mesma direção do movimento da locomotiva. Veja a próxima página para a doca de vagões >>>"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Trilho de Atracação de Vagões",
+            "recipe": "littlelogistics:car_dock_rail",
+            "text": "A doca de vagões pode facilitar tanto a saída (modo laranja) quanto a entrada (modo azul) de/para os vagões, shift+clique-direito para alternar o modo. Coloque um funil embaixo do trilho para extrair recursos."
+        }
+    ]
+}

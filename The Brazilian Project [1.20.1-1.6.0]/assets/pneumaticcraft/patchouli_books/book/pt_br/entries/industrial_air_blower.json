@@ -1,0 +1,21 @@
+{
+  "name": "Soprador de Ar Industrial",
+  "icon": "compressedcreativity:industrial_air_blower",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O $(item)Soprador de Ar Industrial$() é uma versão mais avançada do seu equivalente comum.$(br)Ele suporta pressão maior e pode alcançar velocidade de processamento maior, mas as desvantagens são maior uso de ar e menor distância.$(br2)Outro recurso é que, em certas temperaturas, ele produz uma Corrente de Ar de Defumação ou de Fundição."
+    },
+    {
+      "type": "text",
+      "text": "Você pode instalar diferentes $(l:pneumaticcraft:industrial_air_blower_meshes)Malhas$() para alterar esse comportamento.$(br2)Por padrão, o $(item)Soprador de Ar Industrial$() produz Corrente de Ar de Defumação acima de 100°C e de Fundição acima de 300°C"
+    },
+    {
+      "type": "crafting",
+      "recipe": "compressedcreativity:crafting/industrial_air_blower",
+      "text": "Fabricando um $(item)Soprador de Ar Industrial$()$(br2)"
+    }
+  ]
+}

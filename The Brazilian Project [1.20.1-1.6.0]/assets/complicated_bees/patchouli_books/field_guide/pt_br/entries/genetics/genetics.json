@@ -1,0 +1,30 @@
+{
+  "name": "Visão Geral da Genética",
+  "icon": "complicated_bees:drone",
+  "category": "complicated_bees:genetics",
+  "advancement": "complicated_bees:apiary",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As abelhas têm genes, que controlam cada aspecto delas — produtividade, preferências e tolerâncias ambientais, efeitos etc. Cruzar uma princesa e um zangão de espécies diferentes produzirá descendentes híbridos ou, raramente, uma mutação."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "complicated_bees:textures/gui/patchouli/genetics/punnettsquare.png"
+      ],
+      "border": true,
+      "text": "Use um quadro de Punnett para ajudar a visualizar os possíveis resultados de um cruzamento!",
+      "title": "Quadro de Punnett"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "No exemplo anterior, o cruzamento de uma princesa Florestal-Planície com um zangão Florestal-Planície tem três descendentes possíveis — Florestal pura, um híbrido Florestal-Planície e Planície pura. Cada quadrado tem chance igual de ser selecionado; portanto, ao cruzá-los, 50% das vezes você obterá um híbrido, 25% das vezes Florestal pura e 25% das vezes Planície pura."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Este processo acontece para cada gene que uma abelha possui — para realmente ver os genes de uma abelha, você terá que $(l:complicated_bees:genetics/analyzer)fazer um analisador."
+    }
+  ]
+}

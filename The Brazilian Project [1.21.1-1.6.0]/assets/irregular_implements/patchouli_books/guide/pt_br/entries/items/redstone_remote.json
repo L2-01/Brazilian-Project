@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:redstone_remote",
+    "name": "Controle Remoto de Redstone",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Controle Remoto de Redstone$() funciona como o $(l:irregular_implements:items/redstone_activator)Ativador de Redstone$(/l), mas em vez disso energiza até 9 localizações selecionáveis.$(br2)Agache + clique direito para abrir sua interface. Coloque um $(l:irregular_implements:filter/location_filter)Filtro de Localização$(/l) preenchido num dos espaços superiores para adicioná-lo. Opcionalmente, coloque qualquer item no espaço abaixo para adicionar um ícone ao botão da localização."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Use sem estar agachado para acessar os botões de localização. Clicar num deles energizará aquela localização por um curto período."
+        }
+    ]
+}

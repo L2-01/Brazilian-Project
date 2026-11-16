@@ -1,0 +1,25 @@
+{
+  "name": "Ritual Adepto do Nether",
+  "icon": "minecraft:blackstone",
+  "category": "goety:rituals",
+  "advancement": "minecraft:story/enter_the_nether",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Requisitos: $(li)Estar no Nether $(li)8 Basaltos de qualquer tipo $(li)16 Pedras-Negras de qualquer tipo $(li)4 Pedras-Luminosas"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety:textures/gui/entries/adept_nether.png"
+      ],
+      "border": true,
+      "text": "Um exemplo de como o ritual pode ser disposto."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Nether é uma dimensão repleta de Energia de Almas, como mostra a quantidade infinita de Areia das Almas espalhada pelo reino. Porém, ainda é preciso uma estrutura para criar artefatos ligados ao Nether, que concentre a abundância em um só lugar. A Pedra-Negra e o Basalto podem ser de qualquer tipo."
+    }
+  ]
+}

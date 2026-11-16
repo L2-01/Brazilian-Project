@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:stable_ender_pearl",
+    "name": "Pérola do Ender Estável",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Pérola do Ender Estável$() é usada para teleportar um jogador vinculado de forma mais controlada.$(br2)Clique com o botão direito na Pérola para vinculá-la a você. Após sete segundos no chão como entidade de item, ela teleportará o jogador vinculado até sua localização, e quebrará."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Se não houver jogador vinculado, ela teleportará em vez disso uma entidade aleatória próxima num raio de 10 blocos."
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+  "custommachinerymekanism.requirements.chemical.error.input": "Não há %s suficiente, %smB necessários!",
+  "custommachinerymekanism.requirements.chemical.error.output": "Não há espaço suficiente para armazenar %smb de %s!",
+  "custommachinerymekanism.requirements.heat.error.input": "Não há calor armazenado suficiente, %s necessário, mas %s encontrado!",
+  "custommachinerymekanism.requirements.temp.error": "Temperatura necessária: %s",
+  "custommachinerymekanism.requirements.radiation.error": "Não há radiações suficientes: %s, %s necessárias!",
+  "custommachinerymekanism.requirements.radiation.info.input": "Remove %s em um raio de %s blocos",
+  "custommachinerymekanism.requirements.radiation.info.output": "Emite %s",
+  "custommachinerymekanism.requirements.radiation.info.tick.input": "Remove %s/t em um raio de %s blocos",
+  "custommachinerymekanism.requirements.radiation.info.tick.output": "Emite %s/t",
+
+  "custommachinerymekanism.gui.creation.components.heat.title": "Componente de calor",
+  "custommachinerymekanism.gui.creation.components.heat.capacity": "Capacidade",
+  "custommachinerymekanism.gui.creation.components.heat.capacity.tooltip": "A quantidade de calor (em Kelvin) necessária para aquecer a máquina a partir de 1K",
+  "custommachinerymekanism.gui.creation.components.heat.base": "Temperatura base",
+  "custommachinerymekanism.gui.creation.components.heat.base.tooltip": "A temperatura (em Kelvin) que a máquina terá quando nenhum calor for fornecido",
+  "custommachinerymekanism.gui.creation.components.heat.conduction": "Condução",
+  "custommachinerymekanism.gui.creation.components.heat.conduction.tooltip": "Um coeficiente que determina quanto calor pode ser inserido ou extraído\nValores mais altos significam que mais calor pode ser extraído, mas menos calor inserido",
+  "custommachinerymekanism.gui.creation.components.heat.insulation": "Isolamento",
+  "custommachinerymekanism.gui.creation.components.heat.insulation.tooltip": "Um coeficiente que determina quanto calor será dissipado no ambiente (perdido)\nValores mais altos significam menos perda de calor",
+  "custommachinerymekanism.gui.creation.components.chemical.title": "Componente químico",
+  "custommachinerymekanism.gui.creation.components.chemical.radiations": "Radiações",
+  "custommachinerymekanism.gui.creation.components.chemical.radiations.tooltip": "Emite radiações quando a máquina é quebrada e contém produto químico radioativo",
+
+  "custommachinerymekanism.gui.creation.gui.heat.min": "Mín",
+  "custommachinerymekanism.gui.creation.gui.heat.min.tooltip": "Temperatura mínima exibida pela barra",
+  "custommachinerymekanism.gui.creation.gui.heat.max": "Máx",
+  "custommachinerymekanism.gui.creation.gui.heat.max.tooltip": "Temperatura máxima exibida pela barra",
+
+  "custommachinerymekanism.jei.ingredient.heat": "Calor:  %s",
+  "custommachinerymekanism.jei.ingredient.heat.input": "Consome %s de Calor",
+  "custommachinerymekanism.jei.ingredient.heat.output": "Produz %s de Calor",
+  "custommachinerymekanism.jei.ingredient.heat.pertick.input": "Consome %s de Calor/t",
+  "custommachinerymekanism.jei.ingredient.heat.pertick.output": "Produz %s de Calor/t",
+
+  "custommachinery.machine.component.heat": "Calor",
+  "custommachinery.machine.component.chemical": "Químico",
+  "custommachinery.machine.component.radiation": "Radiação",
+
+  "custommachinery.machine.guielement.heat": "Calor",
+  "custommachinery.machine.guielement.chemical": "Químico",
+  "custommachinery.machine.guielement.radiation": "Radiação"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Mantos Selvagens",
+  "icon": "goety:wild_robe",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Manto Selvagem permite que você aproveite o poder da natureza com muito mais eficiência e eficácia. Servos que cospem veneno, por exemplo, passarão a dar Veneno Ácido, que afeta até os Mortos-Vivos. Consequentemente, o Manto também fornece imunidade a veneno e a esse veneno!"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:wild_robe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Criaturas nascidas de magia Selvagem podem se curar lentamente usando a energia de almas de seu invocador, caso ele vista este manto."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:wild_crown"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Coroa Selvagem reduz pela metade o tempo para conjurar feitiços Selvagens e impede que seus servos selvagens morram como Obsessores."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:wild_robe": 1,
+    "goety:wild_crown": 3
+  }
+}

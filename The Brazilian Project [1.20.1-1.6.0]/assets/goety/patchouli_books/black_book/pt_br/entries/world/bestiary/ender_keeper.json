@@ -1,0 +1,39 @@
+{
+  "name": "Guardião de Ender",
+  "icon": "goety:void_shrine",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_an_ender_keeper",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Uma entidade poderosa do End, chamada para guardar os segredos da dimensão e do vazio."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:ender_keeper",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O ser detém maestria tanto em esgrima quanto em magia do vazio, perfurando seus inimigos com sua lâmina enorme e invocando orbes de magia do vazio que disparam em direção aos alvos. Sua lâmina e ataques infligem Tocado pelo Vazio."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "É melhor manter distância do Guardião de Ender, usando feitiços de mobilidade como $(l:goety:focuses/wind/launch_focus)Lançamento$() ou $(l:goety:focuses/wild/grapple_focus)Gancho$() para se afastar. Seja vigilante ao invocar Servos para enfrentar esse inimigo, pois um de seus ataques arrastará criaturas próximas até ele, absorvendo sua vida, antes de soltar uma explosão de vazio."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:shrouded_blueprint",
+      "text": "Quando morto, o santuário de onde foi chamado revelará seu tesouro, uma planta misteriosa... que, com a ajuda de magia sombria, revelará seu conteúdo."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:void_echo",
+      "text": "O Guardião também derruba alguns ecos do próprio vazio, que podem ser usados para criar feitiços e itens poderosos."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:shrouded_blueprint": 4,
+    "goety:void_echo": 5
+  }
+}

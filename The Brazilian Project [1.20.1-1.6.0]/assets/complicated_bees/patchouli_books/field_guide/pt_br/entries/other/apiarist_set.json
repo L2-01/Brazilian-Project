@@ -1,0 +1,28 @@
+{
+  "name": "Armadura de Apiarista",
+  "icon": "complicated_bees:apiarist_helmet",
+  "category": "complicated_bees:other",
+  "advancement": "complicated_bees:propolis",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Certas abelhas têm efeitos muito negativos em qualquer coisa próxima — um conjunto de armadura feito especialmente pode ajudar a lidar com isso. Quem veste um conjunto completo de armadura de apiarista fica amplamente imune a qualquer efeito de abelha nas proximidades."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:woven_mesh",
+      "title": "Malha de Seda",
+      "text": "Você vai precisar de um material base especial — seda, obtida centrifugando $(l:complicated_bees:other/propolis)própolis,$() deve funcionar perfeitamente aqui."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:apiarist_helmet",
+      "recipe2": "complicated_bees:apiarist_chestplate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:apiarist_leggings",
+      "recipe2": "complicated_bees:apiarist_boots"
+    }
+  ]
+}

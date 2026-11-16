@@ -1,0 +1,22 @@
+{
+  "name": "Visão Geral da Fissão",
+  "icon": "alchemistry:fission_chamber_controller",
+  "category": "alchemistry:reactor_category",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Reator de Fissão permite separar o próprio tecido que mantém os elementos unidos. Todos os elementos exceto Hidrogênio podem ser divididos com o multibloco de fissão. Veja o JEI para receitas.$(br2)$(o)Das notas do Professor Warren: As varetas soltas pelos blazes voláteis me inspiraram a criar uma nova máquina.$()$(br2)O Reator de Fissão é uma estrutura cúbica 5x5x5, com teto, piso e pilares de canto de carcaças de reator. Há três blocos de núcleo de fissão no centro. As paredes são preenchidas com carcaça de reator ou vidro de reator. A câmara é totalmente inerte, porém, sem o controlador da câmara de fissão, a entrada de energia e os blocos de entrada/saída de itens."
+    },
+    {
+      "type": "crafting",
+      "recipe": "alchemistry:fission_chamber_controller",
+      "text": "Embora não seja o núcleo, o controlador da câmara é o coração do reator de fissão. Esta máquina controla tudo o que acontece no núcleo. Recebe energia e pode ter entrada e saída de itens."
+    },
+    {
+      "type": "crafting",
+      "recipe": "alchemistry:fission_core",
+      "text": "O núcleo e o ar ao seu redor são onde a fissão acontece. Itens são colocados dentro do núcleo e então o átomo se divide, deixando para trás elementos para usar em seus experimentos."
+    }
+  ]
+}

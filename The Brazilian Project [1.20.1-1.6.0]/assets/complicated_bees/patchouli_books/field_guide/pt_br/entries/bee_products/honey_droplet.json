@@ -1,0 +1,20 @@
+{
+  "name": "Gotas de Mel",
+  "icon": "complicated_bees:honey_droplet",
+  "category": "complicated_bees:bee_products",
+  "advancement": "complicated_bees:apiary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Gotas de mel são gotículas semissólidas do precioso mel, usadas na fabricação de alimentos e também no $(l:complicated_bees:genetics/analyzer)Analisador$() para acalmar as abelhas durante a análise."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:honeyed_slice"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "complicated_bees:honey_porkchop"
+    }
+  ]
+}

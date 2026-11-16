@@ -1,0 +1,16 @@
+{
+  "name": "Recipiente de Poção",
+  "sortnum": 20,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:potion_canister",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Recipiente de Poção pode ser clicado com o botão direito para abrir uma interface onde você insere frascos de poção. Eles preencherão o recipiente de fluido interno. $(br2) Esse recipiente pode ser encaixado em arcos, e os efeitos de poção se aplicarão às flechas que você atirar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Garanta que o arco tenha a(s) melhoria(s) adequada(s) instalada(s) para aproveitar esse recipiente.$(br2) Verifique se o recipiente está encaixado no espaço apropriado nas configurações da ferramenta do arco."
+    }
+  ]
+}

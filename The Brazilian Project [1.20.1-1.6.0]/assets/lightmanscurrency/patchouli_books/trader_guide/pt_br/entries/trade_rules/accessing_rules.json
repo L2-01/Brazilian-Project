@@ -1,0 +1,24 @@
+{
+	"name": "Acessando as Regras de Troca",
+	"icon": "minecraft:book",
+	"category": "lightmanscurrency:trade_rules",
+	"pages": [
+		"Regras de Troca são regras especiais que você pode aplicar a um comerciante ou a uma troca, usadas para manipular o preço da troca ou sua acessibilidade para certos clientes.$(br2)A maioria dos comerciantes tem dois tipos de listas de Regras de Troca: uma que se aplica a todas as trocas do comerciante de uma vez, e várias que se aplicam apenas à troca selecionada (uma lista para cada troca).",
+		{
+			"type": "lightmanscurrency:wide_image",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/accessing_rules/all_trades_rule_button.png",
+			"text": "As Regras de Troca que se aplicam a $(bold)Todas as Trocas$() do comerciante podem ser acessadas pela aba \"Regras do Comerciante\" no menu de Armazenamento do Comerciante."
+		},
+		{
+			"type": "lightmanscurrency:wide_image",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/accessing_rules/targeted_trade_rule_button.png",
+			"text": "As Regras de Troca que se aplicam apenas à $(bold)Troca Selecionada$() podem ser acessadas ao clicar no botão \"Regras da Troca Específica\" que aparece na aba de detalhes de uma troca."
+		},
+		"Depois de acessar a lista de Regras de Troca do(s) alvo(s) desejado(s), você pode ativar e desativar cada regra disponível.$(br2)Quando uma regra é ativada, uma nova aba aparece à direita, permitindo modificar as configurações específicas daquela regra.$(br2)Apenas regras de troca ativas são de fato aplicadas às trocas alvo, e algumas regras se aplicam exclusivamente a uma única troca, enquanto outras podem se aplicar exclusivamente a todas as trocas.",
+		{
+			"type": "lightmanscurrency:image",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/accessing_rules/rule_list.png"
+		},
+		"Cada regra tem seu próprio conjunto de configurações e funções, todas detalhadas na seção $(l:trade_rules)Regras de Troca$() deste guia."
+	]
+}

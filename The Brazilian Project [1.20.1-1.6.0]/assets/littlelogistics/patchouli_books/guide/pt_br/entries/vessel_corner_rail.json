@@ -1,0 +1,16 @@
+{
+    "name": "Trilho-Guia de Canto de Embarcações",
+    "icon": "littlelogistics:guide_rail_corner",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:guide_rail_corner",
+            "text": "Auxilia embarcações em curvas fechadas, deve ser sempre usado em curvas fechadas ou perto de entradas de vias fluviais estreitas (como as de docas). Afeta tanto rebocadores quanto barcaças. Shift+clique-direito para inverter a direção."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Não pode ter um bloco sólido completo diretamente em cima (ou seja, sem pedra, tábuas etc.; postes de cerca, placas etc. estão OK)."
+        }
+    ]
+}

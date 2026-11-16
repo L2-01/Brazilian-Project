@@ -1,0 +1,34 @@
+{
+  "name": "Fogo Selvagem",
+  "icon": "minecraft:blaze_rod",
+  "category": "goety:mutations",
+  "advancement": "goety:goety/read_bygone_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com alguns testes e estudos, você conseguiu recriar uma das maiores loucuras dos Nephilim, embora sem toda aquela parte da traição, é claro."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_blazes_to_wildfire"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:wildfire",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O mestre dos blazes pode ser curado clicando nele com o botão direito usando Pós ou Varas de Blaze, e pode se curar passivamente se seu dono vestir um Manto do Nether, assim como seus irmãos menores. Tão sintonizado com o fogo, ele se regenera ao pisar nele e se cura ao ser atingido por ataques ígneos (com algumas... exceções)."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:blazing_helm",
+      "text": "Quando extintos, esses senhores ígneos largarão seus elmos, que podem elevar um Blaze ao nível deles."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:blazing_helm": 4
+  }
+}

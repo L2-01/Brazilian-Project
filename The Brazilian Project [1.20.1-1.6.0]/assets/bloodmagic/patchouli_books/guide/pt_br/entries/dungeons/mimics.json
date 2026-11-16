@@ -1,0 +1,20 @@
+{
+  "name": "Mímicos Etéreos",
+  "icon": "bloodmagic:ethereal_mimic",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:mimic": 0,
+    "bloodmagic:ethereal_mimic": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Mímicos Etéreos$() são um bloco que pode facilmente assumir a aparência de qualquer outro, enquanto permanece completamente intangível. Isso os torna bem úteis para esconder armadilhas de queda e entradas secretas. Fique de olho e você pode encontrá-los no $(l:bloodmagic:dungeons/endless_realm)Reino Infinito$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ethereal_mimic",
+      "text": "Basta clicar com o botão direito no mímico colocado com qualquer outro bloco para incentivá-lo a assumir sua forma."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:inventory_rerouter",
+    "name": "Redirecionador de Inventário",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Redirecionador de Inventário$() expõe os lados de um inventário adjacente a partir de uma posição mais conveniente.$(br2)Posicione-o de modo que sua face verde aponte para o inventário alvo. Cada uma das outras cinco faces pode acessar independentemente qualquer lado desse inventário."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Clique com o botão direito numa das faces expostas para alternar qual lado do inventário ela acessa. A sobreposição colorida mostra o lado selecionado.$(br2)Isso é útil quando uma máquina precisa interagir com uma face específica de um inventário que de outro modo seria inacessível."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Por exemplo, posicione-o de modo que o bloco fique de frente para a parte de trás de uma Fornalha. Alterne o lado do Redirecionador até exibir um U, de \"Up\" (Cima). Quaisquer itens inseridos nessa face serão de fato inseridos na face superior da Fornalha."
+        }
+    ]
+}

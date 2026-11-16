@@ -1,0 +1,8 @@
+Tanque de Caldeira
+Esquentando por Aqui!
+<&multiblock>O Tanque de Caldeira é o núcleo do sistema de Caldeira — ele armazena água e a transforma em vapor, mas não produz calor sozinho. Acople um queimador §lCaldeira (Combustível Líquido)§r ou §lCaldeira (Combustível Sólido)§r para supri-lo.
+
+
+
+
+§lÁgua§r ou §lÁgua Destilada§r entra perto do tanque no §llado esquerdo§r; o §lVapor§r sai pelo topo. Armazena até <config;i;boiler_tank.tank_capacity> mB de água. Executa um lote quando o calor do queimador acoplado atinge a temperatura de trabalho. Se o calor cair no meio do lote, o progresso drena gradualmente em vez de zerar de uma vez — uma breve interrupção custa parte do progresso, não todo ele. Um comparador ligado a qualquer bloco externo emite sinal proporcional ao nível de calor atual.

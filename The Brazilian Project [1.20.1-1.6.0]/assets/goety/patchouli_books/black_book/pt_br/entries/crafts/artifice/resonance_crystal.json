@@ -1,0 +1,28 @@
+{
+  "name": "Cristal de Ressonância",
+  "icon": "goety:resonance_crystal",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/read_mistral_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um bloco místico que se energiza quando ventos fortes sopram sobre ele, como os feitos por $(l:goety:crafts/artifice/wind_blower)Sopradores de Vento$(). O cristal pode armazenar $(l:goety:summons/squall_golem)Golems de Rajada$() em si, ao clicar nele com o botão esquerdo sobre um deles, e os ativará quando energizado."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:resonance_crystal"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Eles não só energizam Golems de Rajada, como também energizam outros Cristais de Ressonância. Clicar em um com o botão direito usando um $(l:goety:crafts/waystone)Obelisco$() que tenha registrado um local com um cristal diferente fará com que ele armazene o local. Isso não gasta o obelisco, e ele pode armazenar vários locais de cristais de uma vez, mas apenas se o cristal estiver a até 64 blocos dele."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se tiver locais armazenados, clicar no cristal com o botão direito de mão vazia mostrará as posições a que está conectado; agachar e clicar, porém, removerá todas as posições do cristal. Quebrar o cristal também remove todos os locais registrados. Quando ativo, ele emite sinal de Redstone."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:resonance_crystal": 1
+  }
+}

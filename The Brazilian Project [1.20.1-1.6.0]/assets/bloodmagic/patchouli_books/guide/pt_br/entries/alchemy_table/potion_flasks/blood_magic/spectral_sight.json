@@ -1,0 +1,31 @@
+{
+  "name": "Visão Espectral",
+  "icon": "minecraft:glowstone_dust",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Visão Espectral$() ilumina criaturas próximas como se tivessem o buff Brilho. O alcance base é de 24 blocos, e níveis maiores aumentam o alcance em 32 blocos adicionais por nível.$(br2)É feita a partir de uma poção de $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Visão Noturna$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Visão Espectral (3:00)",
+      "a.recipe": "bloodmagic:flask/night_to_spectral",
+      "b.heading": "Visão Espectral (8:00)",
+      "b.recipe": "bloodmagic:flask/length_spectral_sight",
+      "c.heading": "Visão Espectral II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_spectral_sight"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "adicionar $(l:bloodmagic:alchemy_table/potions#average_potions)Catalisadores Padrão$() pode turbinar ainda mais suas poções."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Visão Espectral III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_spectral_sight",
+      "b.heading": "Visão Espectral (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_spectral_sight"
+    }
+  ]
+}

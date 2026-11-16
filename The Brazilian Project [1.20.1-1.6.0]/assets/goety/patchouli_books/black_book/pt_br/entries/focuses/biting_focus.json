@@ -1,0 +1,15 @@
+{
+  "name": "Foco Mordedor",
+  "icon": "goety:biting_focus",
+  "category": "goety:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Invoca uma fileira de Presas mágicas à sua frente que causa dano ignorando a armadura dos alvos (a menos que seja encantada). Ao agachar, um círculo de Presas é invocado ao seu redor."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/biting_focus"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Enxame",
+  "icon": "goety:swarm_focus",
+  "category": "goety:focuses/wild",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você conjura e invoca um enxame de insetos sobre seus alvos, causando dano que, ao matar, faz um enxame leal de insetos erguer-se do cadáver e atacar outros alvos independentemente."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/swarm_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/wild_staff)Cajado Selvagem$() fará os alvos serem envenenados."
+    }
+  ]
+}

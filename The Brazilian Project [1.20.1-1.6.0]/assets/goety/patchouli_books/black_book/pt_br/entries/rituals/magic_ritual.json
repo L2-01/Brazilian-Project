@@ -1,0 +1,24 @@
+{
+  "name": "Ritual Mágico",
+  "icon": "minecraft:enchanting_table",
+  "category": "goety:rituals",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Requisitos: $(li)16 Estantes/Poder de Encantamento $(li)1 Mesa de Encantamentos $(li)1 Atril com Livro"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety:textures/gui/entries/magic_ritual.png"
+      ],
+      "border": true,
+      "text": "Um exemplo de como o ritual pode ser disposto."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Cercar o Altar com grandes quantidades de livros ajudará a criar certos Itens Mágicos."
+    }
+  ]
+}

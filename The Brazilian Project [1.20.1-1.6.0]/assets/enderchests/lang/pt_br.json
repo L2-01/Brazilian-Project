@@ -1,0 +1,48 @@
+{
+    "_comment": "-------------------------------------- EnderChests en_us.json Localization --------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.enderchests": "EnderChests",
+
+    "key.enderchests.open.bag": "Abrir Bolsa do End Carregada",
+    "key.enderchests.open.pouch": "Abrir Bolsa de Ender Carregada",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "error.enderchests.bag.nolink1": "Não é possível vincular a bolsa, você não é dono deste baú",
+    "error.enderchests.bag.nolink2": "Não é possível vincular a bolsa, o dono do baú é desconhecido",
+    "error.enderchests.bag.nolink3": "Não é possível vincular a bolsa, você não está na mesma equipe",
+    "error.enderchests.bag.corrupted": "Não é possível abrir a bolsa; dados NBT da pilha ausentes",
+
+    "error.enderchests.chest.public.disabled": "Baús públicos estão desativados, os baús precisam de melhoria para uso",
+    "error.enderchests.chest.private.disabled": "A criação de baús privados está desativada",
+    "error.enderchests.chest.team.disabled": "A criação de baús de equipe está desativada",
+    "error.enderchests.chest.private.denied": "Somente o dono pode executar essa ação",
+    "error.enderchests.chest.team.denied": "Somente membros da equipe podem executar essa ação",
+    "error.enderchests.chest.upgrade_used": "Esse item de melhoria só pode ser aplicado uma vez por baú",
+    "error.enderchests.bag.public.disabled": "Bolsas públicas estão desativadas",
+    "error.enderchests.bag.private.disabled": "A criação de bolsas privadas está desativada",
+    "error.enderchests.bag.team.disabled": "A criação de bolsas de equipe está desativada",
+
+    "info.enderchests.chest.public": "Uso Público",
+    "info.enderchests.chest.code": "Código:",
+    "info.enderchests.chest.capacity": "Capacidade do baú aumentada para",
+
+    "info.enderchests.craftingmaterial": "Material de Fabricação",
+
+    "_comment": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
+    "item.enderchests.ender_pouch": "Bolsa de Ender",
+
+    "item.enderchests.bag.public": "Bolsa do End",
+    "item.enderchests.bag.private": "Bolsa do End",
+    "item.enderchests.bag.team": "Bolsa do End",
+
+    "block.enderchests.chest.public": "Baú de Ender",
+    "block.enderchests.chest.private": "Baú de Ender",
+    "block.enderchests.chest.team": "Baú de Ender",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.enderchests.server_data_missing": " §6⚠ §4Nenhum Dado de HUD Recebido do Servidor §6⚠",
+
+    "config.jade.plugin_enderchests.hud": "Ativar Plugin"
+}

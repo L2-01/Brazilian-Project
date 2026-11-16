@@ -1,0 +1,16 @@
+{
+  "name": "Quadro Restritivo",
+  "icon": "complicated_bees:restrictive_frame",
+  "category": "complicated_bees:frames",
+  "advancement": "complicated_bees:frame",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Uma malha de corrente reduz drasticamente o território das abelhas, mas tem um impacto psicológico negativo nelas, diminuindo a vida útil e reduzindo a produtividade."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:restrictive_frame"
+    }
+  ]
+}

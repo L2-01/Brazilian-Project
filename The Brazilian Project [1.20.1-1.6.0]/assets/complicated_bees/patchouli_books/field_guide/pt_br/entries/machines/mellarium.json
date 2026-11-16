@@ -1,0 +1,109 @@
+{
+  "name": "Mellarium",
+  "icon": "complicated_bees:mellarium_base",
+  "category": "complicated_bees:machines",
+  "advancement": "complicated_bees:advanced_products",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Agora que você já tem um pouco mais de experiência apícola, deve procurar uma forma melhor de abrigar abelhas.$(br2)O Mellarium é um apiário de tamanho industrial, capaz de abrigar módulos especiais que podem impulsionar sua produção ao máximo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Mellarium fornece um multiplicador base de 1.25x à produtividade, que pode ser aumentado por meio de módulos.$(br2)Também é importante notar que $(l)blocos de mellarium não-base não podem ser colocados na camada superior$() do Mellarium."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "BBB",
+            "BBB",
+            "BBB"
+          ],
+          [
+            "###",
+            "#B#",
+            "###"
+          ],
+          [
+            "###",
+            "#0#",
+            "###"
+          ]
+        ],
+        "mapping": {
+          "B": "complicated_bees:mellarium_base",
+          "#": "#complicated_bees:multiblock/mellarium",
+          "0": "#complicated_bees:multiblock/mellarium"
+        }
+      },
+      "text": "Tente não construí-las cruzando bordas de chunks nem lado a lado."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:mellarium_panel",
+      "recipe2": "complicated_bees:mellarium_base"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:mellarium_frame_housing_1",
+      "title": "Alojamentos de Quadro",
+      "text": "Os Alojamentos de Quadro podem conter quadros conforme seu nível — o básico comporta um, o comum dois e o grande três. Esses quadros se acumulam multiplicativamente, com retornos decrescentes até um teto de 50.000x."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:mellarium_frame_housing_2",
+      "recipe2": "complicated_bees:mellarium_frame_housing_3",
+      "title": "Alojamentos de Quadro"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:mellarium_mutator",
+      "title": "Mutador",
+      "text": "Consome um catalisador toda vez que uma rainha morre para aumentar a chance de ela produzir descendentes mutados — confira seu navegador de receitas para ver os catalisadores possíveis."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:mellarium_temp_unit",
+      "title": "Unidade de Temperatura",
+      "text": "A cada tick do ciclo de vida das abelhas, tem chance de consumir itens específicos para aumentar ou diminuir a temperatura do Mellarium — confira seu navegador de receitas para ver os combustíveis possíveis."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:mellarium_hydroregulator",
+      "title": "Hidrorregulador",
+      "text": "A cada tick do ciclo de vida das abelhas, tem chance de consumir itens específicos para aumentar ou diminuir a umidade do Mellarium, com chance de produzir uma sobra — confira seu navegador de receitas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:mellarium_rain_shield",
+      "title": "Escudo de Chuva",
+      "text": "Usando o poder de um coração do mar, protege as abelhas de intempéries."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:mellarium_energy_cell",
+      "title": "Célula de Energia",
+      "text": "Armazena energia para os módulos que usam energia."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:mellarium_skybox",
+      "title": "Skybox",
+      "text": "Usa energia para simular um céu para as abelhas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:mellarium_temporal_simulator",
+      "title": "Simulador Temporal",
+      "text": "Usa energia para manter as abelhas acordadas sem parar."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:mellarium_output_hatch",
+      "title": "Comporta de Saída",
+      "text": "Despeja itens muito rapidamente em inventários adjacentes."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Gemas Tartáricas",
+  "icon": "bloodmagic:soulgemgreater",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will Demoníaca$() é um recurso bem útil, mas os fragmentos que você vem obtendo até agora são decididamente fracos em poder. O que você precisa é de um item de armazenamento; uma $(item)Gema Tartárica$() parece perfeita. Mais ainda, ela pode absorver qualquer $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will Demoníaca$() sobrando que você tenha por aí. Basta derrubá-las no chão e sua gema novinha as absorverá."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Gema Tartárica Inferior",
+      "recipe": "bloodmagic:soulforge/pettytartaricgem",
+      "text": "Sua primeira gema segurará um máximo de 64 $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will$(). Bem mais compacto que antes! $(br2)Se um dia quiser transferir $(raw)Will$() de uma gema para outra, basta segurar [$(k:use)] segurando a gema que quer esvaziar, e ela transferirá sua will para a primeira gema válida que encontrar no seu inventário."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Sua $(item)Gema Tartárica Inferior$() é uma ferramenta útil, mas claramente carece de poder. Trabalhando-a cuidadosamente com $(item)Diamante$(), $(item)Lápis$() e $(item)Redstone$(), você encontrou uma forma de quadruplicar sua capacidade de armazenamento."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Gema Tartárica Menor",
+      "recipe": "bloodmagic:soulforge/lessertartaricgem",
+      "text": "Esta gema reforçada pode segurar até 256 $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will$(). $(br2)Nota: você só precisa de uma gema ao melhorar — a $(item)Forja do Fogo Infernal$() tirará $(raw)Will$() da gema que está criando antes de tentar usar will da gema em seu Slot de Gema. Não se preocupe, a gema recém-criada segurará qualquer $(raw)Will$() sobrando do processo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Sua $(item)Gema Tartárica Menor$() é uma melhoria notável, mas mais uma vez você sofre com suas limitações. Para progredir será preciso focar no seu $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(), pois você requer os poderes de uma $(l:bloodmagic:altar/slates)Ardósia Imbuída$(). Combinando esta ardósia com sua gema e refinando-a ainda mais com outro $(item)Diamante$() e um $(item)Bloco de Ouro$(), você encontrou uma forma de mais uma vez quadruplicar sua capacidade de armazenamento."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Gema Tartárica Comum",
+      "recipe": "bloodmagic:soulforge/commontartaricgem",
+      "text": "Esta gema intrincada pode segurar impressionantes 1.024 $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você claramente se superou com a criação da $(item)Gema Tartárica Comum$(), mas sente que ainda há mais que pode fazer. No entanto, extrair mais da sua gema envolverá a culminação de todo o seu trabalho até agora. Você não só precisa de uma $(l:bloodmagic:altar/slates)Ardósia Demoníaca$(), como também requer um $(l:bloodmagic:utility/alchemical_reaction_chamber#blood_shard)Fragmento de Sangue Fraco$() $(o)e$() um $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Cristal de Will Demoníaca$(). Claro, virá com recompensas à altura, alimentando suas $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Ferramentas Conscientes$() como nada que você já tenha visto..."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Gema Tartárica Maior",
+      "recipe": "bloodmagic:soulforge/greatertartaricgem",
+      "text": "Esta obra-prima de artifício pode segurar espantosas 4.096 $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will$()."
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Como você tem a $(thing)Curios API$() instalada, pode equipar $(item)Gemas Tartáricas$() como um colar. Se quiser usar mais curios de uma vez, considere usar um $(l:bloodmagic:alchemy_array/sigil/holding)Selo de Retenção$(), ou o $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Upgrade Engastado$() para sua $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$()."
+    }
+  ]
+}

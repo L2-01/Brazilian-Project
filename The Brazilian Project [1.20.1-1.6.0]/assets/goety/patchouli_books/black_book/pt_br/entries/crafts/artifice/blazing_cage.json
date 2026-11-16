@@ -1,0 +1,24 @@
+{
+  "name": "Jaula Flamejante",
+  "icon": "goety:blazing_cage",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/read_bygone_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Embora você não consiga recriar os Geradores de Blaze encontrados nas Fortalezas, conseguiu descobrir um jeito de criar um simulacro que produz devidamente um Blaze leal, ainda que com um preço."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:blazing_cage"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A jaula precisa que um Bloco de Magma seja adicionado para invocar um Servo Blaze. Assim como no Ninho de Aranha, clicar no ninho com o botão direito usando uma Varinha ou Cajado fará com que ele só gere um servo se um alvo válido estiver perto dele. Agachado, porém, ele alternará entre o servo surgir protegendo o bloco ou seguindo o dono."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:blazing_cage": 1
+  }
+}

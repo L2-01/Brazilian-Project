@@ -1,0 +1,17 @@
+{
+  "name": "Experimentos com Âncoras",
+  "icon": "minecraft:respawn_anchor",
+  "category": "goety:rumors",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Essas Âncoras de Renascimento têm a capacidade de trazer os mortos de volta ao Nether sem consequências catastróficas. Você começa a se perguntar que outras habilidades esses blocos possuem..."
+    },
+    {
+      "type": "patchouli:quest",
+      "trigger": "goety:goety/respawn_miniboss",
+      "text": "O que aconteceria se alguém usasse a âncora em um $(l)pote saqueado$() de um senhor da cripta, ou em uma $(l)bola de cristal$() em seus $(l)locais originais$()?"
+    }
+  ]
+}

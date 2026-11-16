@@ -1,0 +1,27 @@
+{
+  "name": "Tomos de Upgrade",
+  "icon": "bloodmagic:upgradetome",
+  "priority": true,
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "extra_recipe_mappings": {
+    "bloodmagic:upgradetome": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ao ativar o $(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)Som da Alma Purificada$(), uma série de $(item)Tomos$() mágicos se manifestará ao seu redor. $(br2)Ao pressionar [$(k:use)] enquanto segura um destes, você pode 'ensinar' ao seu peitoral um nível dessa habilidade (Assumindo que ele tenha pontos de sobra para aprendê-la). Segurar [$(k:sneak)] e [$(k:use)] consumirá o máximo de XP do tomo possível."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Fazer isso consumirá o $(item)Tomo$() e aplicará todo o EXP dele ao seu peitoral — a menos que não haja $(thing)Pontos de Upgrade$() suficientes disponíveis. $(br2)Nesse caso, o Tomo aplicará o máximo de EXP que puder e guardará o restante — a menos que sobre menos de 1 nível, caso em que o tomo será destruído."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Esta é uma excelente forma de focar o treino nas habilidades que você quer ver mais, enquanto convenientemente esquece as que acha menos úteis. $(br2)Alternativamente, você pode ensinar habilidades diferentes a peitorais diferentes, para ter um peitoral para mineração, um para combate, e ainda outro para exploração."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para gerenciar melhor esses $(item)Tomos$(), você pode colocar dois ou mais do mesmo upgrade ou downgrade numa grade de criação para combinar o EXP que armazenam"
+    }
+  ]
+}

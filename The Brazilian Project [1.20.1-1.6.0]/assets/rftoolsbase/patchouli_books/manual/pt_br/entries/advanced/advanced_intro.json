@@ -1,0 +1,20 @@
+{
+  "name": "Avançado",
+  "icon": "minecraft:nether_star",
+  "category": "rftoolsbase:category_rftoolscontrol_advanced",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A automação do RFTools Control geralmente começa com um Programador, um Cartão de Programa e um Processador. Adicione expansões e blocos de suporte conforme o programa precisar de mais alcance ou recursos."
+    },
+    {
+      "type": "text",
+      "text": "Use Nós para interação com o mundo, Bancadas de Trabalho e Estações de Fabricação para fluxos de fabricação, e módulos de tela para exibir ou controlar o estado do Processador."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolscontrol:card_base"
+    }
+  ]
+}

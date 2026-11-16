@@ -1,0 +1,15 @@
+{
+  "name": "Armadilha de Espinhos",
+  "icon": "bloodmagic:dungeon_spike_trap",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:spike_trap": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:dungeon_spike_trap",
+      "text": "$(thing)Armadilhas de espinhos$() parecem só levemente suspeitas até receberem um sinal de redstone, quando lâminas cruéis saltam para cima de quem estiver no caminho. Quem (ou talvez o quê) as projetou claramente queria manter intrusos do lado de fora."
+    }
+  ]
+}

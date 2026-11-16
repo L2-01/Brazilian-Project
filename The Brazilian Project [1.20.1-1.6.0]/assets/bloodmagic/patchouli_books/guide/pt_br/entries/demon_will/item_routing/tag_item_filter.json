@@ -1,0 +1,27 @@
+{
+  "name": "Filtro de Itens por Etiqueta",
+  "icon": "bloodmagic:itemrouterfilteroredict",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(item)Filtro de Itens por Etiqueta$() permite selecionar até 9 itens e filtrar pelas suas $(thing)Etiquetas$() associadas. Similar ao $(l:bloodmagic:demon_will/item_routing/standard_item_filter)Filtro de Itens Padrão$(), tem um seletor de quantidade e uma função permitir/bloquear. Deixar a quantidade em branco assume 'tudo'. $(br2)Para cada item que você colocar neste filtro, pode escolher se corresponde itens baseado em $(thing)uma etiqueta específica$(), ou $(thing)qualquer uma de suas etiquetas$()."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Filtro de Itens por Etiqueta",
+      "recipe": "bloodmagic:alchemytable/tag_router_filter",
+      "text": "Isso permite bloquear/permitir categorias de itens, então você pode especificar que todos os itens com a etiqueta $(thing)forge:ores$() sejam mandados para sua fornalha, por exemplo."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/tag_item_filter_gui.png",
+        "bloodmagic:images/entries/routing/tag_item_filter_mouseover.png"
+      ],
+      "title": "GUI do Filtro de Itens por Etiqueta",
+      "border": true,
+      "text": "A GUI e o texto de mouseover de um filtro configurado."
+    }
+  ]
+}

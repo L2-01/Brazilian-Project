@@ -1,0 +1,34 @@
+{
+  "name": "Primeiros Passos",
+  "icon": "complicated_bees:scoop",
+  "category": "complicated_bees:started",
+  "priority": true,
+  "turnin": "complicated_bees:first_bee",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Para começar, você vai querer encontrar alguns colmeias. Os do vanilla só são gerados em florestas, mas as colmeias adicionadas pelo Complicated Bees podem ser geradas em praticamente qualquer lugar — na selva, no deserto, no subterrâneo e até no Nether e no End!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "complicated_bees:textures/gui/patchouli/started/hiveloc_1.png",
+        "complicated_bees:textures/gui/patchouli/started/hiveloc_2.png",
+        "complicated_bees:textures/gui/patchouli/started/hiveloc_3.png"
+      ],
+      "title": "Colmeias",
+      "border": true,
+      "text": "Os colmeias também brilham, então talvez você os encontre mais facilmente à noite!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:scoop",
+      "title": "A Todo-Poderosa Colher de Captura",
+      "text": "Mas cuidado — você vai precisar de uma ferramenta especial chamada Colher de Captura para coletar as abelhas, se quiser evitar esmagá-las e ser picado em retaliação por destruir suas casas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Basta usar a colher de captura para quebrar um colmeias, e você obterá uma princesa, alguns zangões e talvez até um ou dois favos!"
+    }
+  ]
+}

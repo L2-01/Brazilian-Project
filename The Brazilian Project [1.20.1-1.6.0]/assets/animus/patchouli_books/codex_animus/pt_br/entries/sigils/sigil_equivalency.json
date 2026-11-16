@@ -1,0 +1,28 @@
+{
+  "name": "guide.animus.entry.sigil_equivalency",
+  "icon": "animus:sigil_equivalency",
+  "category": "animus:sigils",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_equivalency",
+      "text": "Um sigilo de troca equivalente para substituição rápida de blocos. Selecione os blocos que quer usar, depois troque blocos conectados do mesmo tipo dentro de um raio configurável."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Modo de Seleção",
+      "text": "$(bold)Adicionar Bloco:$() Agache + botão direito num bloco$(br)$(bold)Limpar Seleção:$() Agache + botão direito no ar$(br)$(bold)Seleção Máx:$() 20 tipos de bloco diferentes$(br2)Monte sua paleta de blocos de substituição. Só blocos que você tem no inventário (sobrevivência) ou selecionou (criativo) serão usados."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Modo de Substituição",
+      "text": "$(bold)Substituir:$() Clique com o botão direito num bloco$(br)$(bold)Raio:$() Role enquanto agachado para ajustar (1-32)$(br)$(bold)Custo de LP:$() Por bloco substituído (configurável)$(br2)Preenche em flood os blocos conectados do mesmo tipo no plano da face clicada, substituindo-os por blocos aleatórios da sua seleção."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Recursos",
+      "text": "$(bold)Toque Suave:$() Blocos substituídos largam como se minerados com Toque Suave.$(br2)$(bold)Preso ao Plano:$() Só substitui blocos no mesmo plano da face clicada (chão, parede ou teto).$(br2)$(bold)Gradual:$() As substituições acontecem com o tempo para reduzir lag.$(br2)$(italic)A troca é o fundamento de toda alquimia.$()"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:plates",
+    "icon": "irregular_implements:extraction_plate",
+    "name": "Chapa de Extração",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Chapa de Extração$() move itens de um inventário em seu lado de entrada para seu lado de saída.$(br2)Se houver um inventário no lado de saída, os itens são inseridos nele. Caso contrário, são soltos no mundo nessa direção."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Clique com o botão direito num lado da Chapa para definir a direção de saída. Agache e clique com o botão direito em qualquer parte da Chapa para alternar a direção de entrada."
+        }
+    ]
+}

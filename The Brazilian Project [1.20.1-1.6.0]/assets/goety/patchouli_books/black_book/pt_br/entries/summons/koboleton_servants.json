@@ -1,0 +1,24 @@
+{
+  "name": "Servo Koboleton",
+  "icon": "cataclysm:koboleton_bone",
+  "category": "goety:cataclysm/summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Servos do Remanescente Ancestral, invocados de sua Pirâmide Amaldiçoada para servir sob seu comando, com suas habilidades de desarme úteis apenas contra seres como você."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:koboleton_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_koboleton_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os Koboletons podem ser curados alimentando-os com ossos, e podem se curar passivamente se seu dono vestir uma Capa Necrótica."
+    }
+  ]
+}

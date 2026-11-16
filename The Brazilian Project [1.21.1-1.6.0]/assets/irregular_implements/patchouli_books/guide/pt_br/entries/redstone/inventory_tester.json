@@ -1,0 +1,19 @@
+{
+    "category": "irregular_implements:redstone",
+    "icon": "irregular_implements:inventory_tester",
+    "name": "Testador de Inventário",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Testador de Inventário$() deve ser colocado num inventário e armazena um item dentro de si.$(br2)Ele emitirá um sinal de redstone se o inventário for capaz de aceitar aquele item."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Ele também verifica a *face* do inventário à qual está acoplado. Se colocado em cima de uma Fornalha, só funcionará se a Fornalha puder aceitar o item pelo topo.$(br2)Por isso, você pode querer usar também o $(l:irregular_implements:blocks/inventory_rerouter)Redirecionador de Inventário$(/l)."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Você pode invertê-lo em sua interface, para que emita um sinal quando o inventário *não puder* aceitar o item."
+        }
+    ]
+}

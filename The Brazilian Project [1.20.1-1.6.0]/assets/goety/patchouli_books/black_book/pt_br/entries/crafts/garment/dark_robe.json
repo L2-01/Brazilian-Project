@@ -1,0 +1,29 @@
+{
+  "name": "Mantos Sombrios",
+  "icon": "goety:dark_robe",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os Invocadores vestem mantos tão estilosos que você se pergunta se são só enfeite ou se têm algo de especial. Utilizando Tecidos Sombrios e Mágicos, você conseguiu não só replicar os Mantos deles, mas também fazer algumas novidades, e descobriu que eles possuem propriedades especiais."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_robe",
+      "text": "Os Mantos vestidos pelos Invocadores ajudam a canalizar a magia deles com mais eficiência, utilizando 15%% do Custo de Almas necessário para conjurar o feitiço."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_hat",
+      "text": "O Chapéu Sombrio ajuda você a se concentrar nos seus feitiços, reduzindo o tempo necessário para conjurá-los."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_crown",
+      "text": "A Coroa Sombria também reduz o tempo necessário para conjurar feitiços. Um adorno de cabeça mais condizente com a futura realeza."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:dark_robe_fancy": 1
+  }
+}

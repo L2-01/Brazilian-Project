@@ -1,0 +1,50 @@
+{
+  "name": "guide.animus.entry.sigil_monk",
+  "icon": "animus:sigil_monk",
+  "category": "animus:sigils",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_monk",
+      "text": "Um sigilo de curio que canaliza poder demoníaco em combate desarmado devastador. Domine o caminho do punho, fortalecido por vontade demoníaca."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Habilidades Básicas",
+      "text": "$(bold)Ativação:$() Botão direito para alternar$(br2)Enquanto ativo, concede:$(br)$(li)$(thing)+10 de Dano Desarmado$() com repulsão$(br)$(li)$(thing)Mineração Netherita + Eficiência V$() com as mãos nuas$(br)$(li)Ao matar: $(effect)Resistência II$() (5s) + $(effect)Regeneração$() (2s)$(br)$(li)Aplica $(effect)Soul Snare II$() (2s) ao atingir$(br)$(li)$(thing)Imunidade a dano de queda$() (25 LP por queda)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos de LP",
+      "text": "O sigilo consome LP da sua Soul Network por várias ações:$(br2)$(li)$(red)5 LP$() por ataque desarmado$(br)$(li)$(red)5 LP$() por bloco minerado$(br)$(li)$(red)25 LP$() por dano de queda negado$(br)$(li)$(red)50 LP$() por projétil capturado$(br2)Garanta que sua Soul Network tenha LP suficiente antes de engajar em combate ou sessões de mineração prolongadas."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Captura de Projéteis",
+      "text": "Projéteis recebidos podem ser capturados em vez de te ferir quando sua mão principal está $(thing)vazia$() ou $(thing)segurando um projétil capturável$():$(br2)$(li)$(bold)Flechas$() — normais e espectrais$(br)$(li)$(bold)Tridentes$()$(br)$(li)$(bold)Foguetes de Fogos de Artifício$()$(br2)Projéteis capturados vão para sua mão principal, ou empilham se estiver segurando o mesmo tipo. Custa $(red)50 LP$() por captura."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bônus de Vontade Demoníaca",
+      "text": "O sigilo fica mais forte com vontade demoníaca. Seus ataques desarmados causam $(thing)dano bônus$() igual a uma porcentagem da vida máxima do alvo:$(br2)$(li)$(bold)1 de Vontade:$() +1%% de dano de vida máx$(li)$(bold)4.096 de Vontade:$() +15%% de dano de vida máx$(br2)O dano escala linearmente entre esses valores. Todos os tipos de vontade (Bruta, Corrosiva, etc.) são combinados."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Execução",
+      "text": "Se seu ataque deixaria um inimigo abaixo do $(thing)limite de execução$() (mesma %% do seu dano bônus), você realiza uma $(bold)Execução$():$(br2)$(li)$(gold)Morte instantânea$() do alvo$(li)$(green)+200 LP$() adicionados à soul network$(li)$(red)-5 de Vontade$() consumida do inventário$(br2)Requer pelo menos 5 de vontade para ativar. Uma explosão de partículas de alma marca a morte."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Reagente: Punho",
+      "recipe": "animus:alchemytable/reagentfist",
+      "text": "Primeiro, fabrique o Reagente do Punho numa Mesa de Alquimia."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação",
+      "recipe": "animus:array/sigil_monk",
+      "text": "Combine com uma Ardósia Reforçada num Círculo de Alquimia para criar o sigilo."
+    }
+  ]
+}

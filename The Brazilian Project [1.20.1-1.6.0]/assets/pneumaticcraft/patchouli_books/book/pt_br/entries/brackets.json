@@ -1,0 +1,18 @@
+{
+  "name": "Suportes",
+  "icon": "create:metal_bracket",
+  "category": "pneumaticcraft:compressed_creativity",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Já quis colocar um $(item)Suporte de Madeira$() ou um $(item)Suporte de Metal$() num $(item)Tubo de Pressão$()? Agora você pode!"
+    },
+    {
+      "type": "crafting",
+      "title": "Suportes de Plástico",
+      "recipe": "compressedcreativity:crafting/orange_plastic_bracket",
+      "text": "Você também pode fabricar $(item)Suportes de Plástico$()! Eles funcionam de forma idêntica aos equivalentes de madeira e metal e vêm em todas as 16 cores."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Escaneador de Criaturas",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_mobscanner",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A melhoria Escaneador de Criaturas é uma habilidade ativada, instalável em espadas a partir de Ferricoro. Ao ativá-la, inimigos próximos aparecerão com partículas que você pode ver através de blocos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria: Escaneador de Criaturas",
+      "recipe": "justdirethings:upgrade_mobscanner"
+    }
+  ]
+}

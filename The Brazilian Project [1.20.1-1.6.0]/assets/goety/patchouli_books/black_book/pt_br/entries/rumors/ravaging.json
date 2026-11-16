@@ -1,0 +1,17 @@
+{
+  "name": "Segredo dos Devastadores",
+  "icon": "goety:savage_tooth",
+  "category": "goety:rumors",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você refletiu sobre os Devastadores e sobre como os Illagers os obtêm. Corre o boato de que são resultado da abominável magia sombria. Talvez as $(l)Mansões da Floresta$() guardem a resposta para essa pergunta."
+    },
+    {
+      "type": "patchouli:quest",
+      "trigger": "goety:goety/read_ravaging_scroll",
+      "text": "Procure nas $(l)Mansões da Floresta$() por qualquer informação."
+    }
+  ]
+}

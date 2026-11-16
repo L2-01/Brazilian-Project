@@ -1,0 +1,16 @@
+{
+  "modifier_id": "tconstruct:fiery",
+  "text": [
+    {
+      "text": "Faz flechas disparadas se incendiarem, queimando os alvos por 5 segundos por nível."
+    }
+  ],
+  "more_text_space": true,
+  "tool_filter": "tconstruct:modifiable/ranged",
+  "effects": [
+    "Pode aplicar níveis incrementalmente",
+    "Máximo de 5 níveis",
+    "Não funciona bem com Congelamento",
+    "Exige 1 espaço de aprimoramento por nível"
+  ]
+}

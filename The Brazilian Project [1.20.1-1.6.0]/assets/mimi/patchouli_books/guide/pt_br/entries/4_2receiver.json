@@ -1,0 +1,29 @@
+{
+    "name": "Receptor",
+    "icon": "mimi:receiver",
+    "category": "mimi:4redstone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Receptor",
+            "item": "mimi:receiver",
+            "text": "O Receptor é um bloco que recebe notas transmitidas ao seu redor e emite um sinal de Redstone se uma nota corresponder aos critérios de filtro configurados no Receptor."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Receita",
+            "link_recipe": true,
+            "recipe": "mimi:receiver"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Configurações",
+            "text": "$(li)$(l)Filter Note$(): A quais notas o Receptor deve responder. O valor pode ser todas, uma nota específica (EX: C5), qualquer nota de uma oitava (EX: *5) ou qualquer oitava de uma nota (EX: C*).$(br)$(li)$(l)Transmission Source$(): O Transmissor ou Relé ao qual este Receptor está vinculado. Vincule definindo para si mesmo na Tela do Receptor ou clicando com o botão direito num jogador / bloco com o Receptor."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(l)Enabled MIDI Channels$(): De quais canais MIDI este Receptor deve responder a notas.$(br)$(li)$(l)Trigger Mode$(): Se o ouvinte deve emitir um sinal de Redstone durante todo o tempo em que a nota estiver sustentada ou apenas quando a nota começar."
+        }
+    ],
+    "sortnum": 2
+}

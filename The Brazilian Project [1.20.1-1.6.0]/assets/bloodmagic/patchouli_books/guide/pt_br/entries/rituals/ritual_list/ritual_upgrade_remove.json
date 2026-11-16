@@ -1,0 +1,27 @@
+{
+  "name": "Som da Alma Purificada",
+  "icon": "bloodmagic:upgradetome",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Som da Alma Purificada",
+      "multiblock_id": "bloodmagic:upgrade_remove",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "upgrade_remove",
+      "text_overrides": [
+        [
+          "Armadura Viva",
+          "l:bloodmagic:alchemy_array/living_equipment/living_basics"
+        ],
+        [
+          "Upgrade Tomes",
+          "l:bloodmagic:alchemy_array/living_equipment/living_tomes"
+        ]
+      ]
+    }
+  ]
+}

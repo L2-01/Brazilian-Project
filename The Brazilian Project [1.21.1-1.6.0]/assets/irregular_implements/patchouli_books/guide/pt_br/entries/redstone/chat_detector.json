@@ -1,0 +1,27 @@
+{
+    "category": "irregular_implements:redstone",
+    "icon": "irregular_implements:chat_detector",
+    "name": "Detector de Chat",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(d)Detector de Chat$()$(br2)O $(d)Detector de Chat$() emite um pulso de redstone quando o jogador que o colocou diz uma frase específica no chat.$(br2)Defina a frase em sua interface. Na verdade é um campo de RegEx, então você pode fazer filtros mais avançados. Apenas digitar a frase exata já é suficiente, no entanto."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Você também pode alternar se a mensagem é cancelada ou não.$(br2)$(d)Detector de Chat Global$()$(br2)O $(d)Detector de Chat Global$() funciona da mesma forma, mas escuta mensagens de chat de todos os jogadores em vez de apenas do seu dono."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Porém, ele só pode cancelar mensagens do seu dono."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:chat_detector"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:global_chat_detector"
+        }
+    ]
+}

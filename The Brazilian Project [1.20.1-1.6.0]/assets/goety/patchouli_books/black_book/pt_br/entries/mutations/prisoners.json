@@ -1,0 +1,55 @@
+{
+  "name": "Prisioneiros",
+  "icon": "goety:ominous_shackles",
+  "category": "goety:mutations",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Não é bem uma mutação, a menos que se considere ser acorrentado e capturado parte do conceito."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:prisoner"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Prisioneiros que seguem criaturas as seguem como quaisquer outros servos, mas quando seguem você diretamente, como visto por estarem acorrentados a você, eles o seguem como se estivessem presos por uma coleira. Prisioneiros, quando no modo 'Vigiando', não andarão pela área como outros servos, mas ficarão parados, embora ainda possam se mover para interagir com certos objetos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para libertar um Prisioneiro, clique nele com o botão direito enquanto agachado. Prisioneiros também podem ser libertados se sofrerem dano suficiente enquanto longe de seu captor ou dono."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:iron_pickaxe",
+      "anchor": "mining",
+      "title": "Minas de Prisioneiros",
+      "text": "Clicar num Prisioneiro com o botão direito usando uma Picareta de qualquer tipo permite que ele entre no Modo de Mineração. Primeiro, ele deve estar perto de minérios, e depois não pode estar no modo Seguindo para começar a minerar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Prisioneiros coletarão itens largados por minério de tempos em tempos, mas pararão de minerar quando sua picareta se desgastar, se ficarem com fome ou se o inventário estiver cheio. Eles entregarão seus bens minerados a um Illager ou, se vinculados a um baú, os colocarão nele. Clicar neles com a mão vazia enquanto mineram fará com que se virem para você, ângulo que manterão ao voltar a minerar se tiverem parado antes. Clique neles com um Graveto para fazê-los largar a picareta."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:cooked_beef",
+      "title": "Fome",
+      "text": "Ao minerar, os Prisioneiros ficarão com fome e pararão de minerar quando começarem a passar fome."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para alimentá-los, dê-lhes comida diretamente ou a coloque num baú ao qual estejam vinculados. Seus servos Illager também alimentarão os prisioneiros se tiverem comida em excesso, curiosamente."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:chest",
+      "title": "Interação com Baús",
+      "text": "Clicar num Prisioneiro com o botão direito usando um Obelisco que leva a um Baú destrancado fará com que ele registre o baú como um contêiner válido para guardar seus itens largados. Se o baú ao qual está vinculado tiver picaretas, e um Servo ou seu Mestre estiver por perto, eles a pegarão se não estiverem segurando nada."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:raiding_chest",
+      "text": "Um Prisioneiro também pode registrar outro baú além dos comuns. Quando registrado neste, os Prisioneiros tentarão depositar nele qualquer saque que tenham, antes dos outros baús, e não pegarão itens dele."
+    }
+  ]
+}

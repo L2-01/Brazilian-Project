@@ -1,0 +1,20 @@
+{
+  "name": "Bússola da Arca",
+  "icon": "goety:arca_compass",
+  "category": "goety:crafts",
+  "advancement": "goety:goety/craft_arca",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Lutar contra um inimigo que tem sua própria Arca pode ser uma verdadeira luta, pois encontrá-la pode tomar muito tempo e adivinhação. Felizmente, você criou um jeito de localizar a Arca do seu inimigo com uma bússola especializada."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:arca_compass"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Matar seu inimigo segurando a bússola em qualquer uma das mãos fará com que ela se vincule ao jogador. Se o jogador se mover, colocar ou se vincular a uma Arca, a bússola apontará automaticamente para sua localização."
+    }
+  ]
+}

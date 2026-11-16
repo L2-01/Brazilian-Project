@@ -1,0 +1,17 @@
+{
+  "name": "guide.animus.entry.imperfect_ritual_reduction",
+  "icon": "minecraft:quartz_block",
+  "category": "animus:rituals",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um ritual imperfeito que remove a marca $(#5500AA)Aprimorado por Sangue$() de um item, retornando todos os níveis de encantamento aos seus valores base.$(br2)$(bold)Configuração:$()$(br)Coloque um Bloco de Quartzo em cima de uma Pedra de Ritual Imperfeita.$(br2)$(bold)Custo:$() 1.000 LP por uso$(br2)$(bold)Nota:$() O ritual não tem efeito persistente; ativa uma vez e completa imediatamente. A pedra pode ser reutilizada."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Ativação:$()$(br)1. Segure um item Aprimorado por Sangue na mão principal$(br)2. Clique com o botão direito na Pedra de Ritual Imperfeita$(br)3. A marca de Aprimorado por Sangue é removida$(br)4. Os encantamentos retornam aos níveis base$(br)5. A pedra permanece para reuso$(br2)$(bold)Aplicações:$()$(li)Reverter o ritual de Aprimoramento$(li)Remover o bônus de +1 nível$(br2)$(bold)Nota:$() Só funciona em itens que têm a marca Aprimorado por Sangue. Não tem efeito em itens não aprimorados.$(br2)$(italic)Equilibre a balança do poder.$()"
+    }
+  ]
+}

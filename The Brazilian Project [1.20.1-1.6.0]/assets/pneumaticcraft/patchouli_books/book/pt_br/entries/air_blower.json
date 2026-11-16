@@ -1,0 +1,17 @@
+{
+  "name": "Soprador de Ar",
+  "icon": "compressedcreativity:air_blower",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O $(item)Soprador de Ar$() é uma máquina que usa ar pressurizado para criar uma Corrente de Ar, parecida com a de um $(item)Ventilador Revestido$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "compressedcreativity:crafting/air_blower",
+      "text": "Fabricando um $(item)Soprador de Ar$()"
+    }
+  ]
+}

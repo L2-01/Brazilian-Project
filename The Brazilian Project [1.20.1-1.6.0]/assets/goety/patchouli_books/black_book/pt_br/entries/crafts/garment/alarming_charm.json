@@ -1,0 +1,19 @@
+{
+  "name": "Talismã Alarmante",
+  "icon": "goety:alarming_charm",
+  "category": "goety:crafts/garment",
+  "advancement": "goety:goety/kill_a_envioker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ao caçar você, os Illagers costumam sinalizar sua aproximação com fileiras de presas sob seus pés, ou um Atormentador avançando contra você. Com o quão furtivos eles são, você conseguiu criar um talismã que sinaliza a chegada deles até você."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:alarming_charm"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:alarming_charm": 1
+  }
+}

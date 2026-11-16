@@ -1,0 +1,17 @@
+{
+    "name": "Transmissor de Servidor",
+    "icon": "mimi:transmitterblock",
+    "category": "mimi:3transmitter",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O Transmissor de Servidor é uma forma de bloco do Transmissor que não precisa ser segurado por um jogador para tocar arquivos MIDI. Porém, ele só pode tocar músicas fornecidas pelo servidor.$(br2)Arquivos MIDI podem ser adicionados ao Transmissor de Servidor colocando-os na pasta \"server_midi_files\" dentro da pasta de configuração do MIMI (também funciona para um jogador e para o anfitrião em LAN) e clicando no botão de recarregar."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mimi:transmitterblock",
+            "text": "Diferente do Transmissor de mão, onde as configurações são salvas uma vez por jogador, as configurações do Transmissor de Servidor são salvas separadamente em cada bloco.$(br2)Enquanto estiver tocando uma música, o bloco Transmissor de Servidor emitirá um sinal de redstone."
+        }
+    ],
+    "sortnum": 3
+}

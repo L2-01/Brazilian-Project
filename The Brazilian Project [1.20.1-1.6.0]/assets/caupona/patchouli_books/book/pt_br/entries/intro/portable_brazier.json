@@ -1,0 +1,30 @@
+{
+  "name": "Braseiro Portátil",
+  "icon": "caupona:portable_brazier",
+  "category": "caupona:intro",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/clay_portable_brazier"
+    },
+    {
+      "type": "smelting",
+      "recipe": "caupona:smelting/portable_brazier",
+      "text": "Braseiros portáteis podem ser carregados no inventário e abertos ao segurá-los com clique direito. Sua única função é descongelar $(l:resting/aspics)aspiques$(/l) em sopas."
+    },
+    {
+      "type": "text",
+      "text": "Há um espaço de entrada, um de tigela de água, um de saída e um de combustível na GUI do braseiro. Embora água não seja necessária nas panelas de ensopado para descongelar aspiques, uma tigela de água é sempre necessária aqui."
+    },
+    {
+      "type": "text",
+      "text": "Braseiros portáteis consomem um item de combustível a cada trabalho. Carvão vívido e creme de magma são aceitos como combustível."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:vivid_charcoal",
+      "text": "Há dois jeitos de obter carvão vívido: fabricar com creme de magma e carvão, ou deixar bolas de slime, carvão e lava em repouso juntos. Carvão vívido é mais barato que creme de magma e só pode ser usado em braseiros portáteis."
+    }
+  ]
+}

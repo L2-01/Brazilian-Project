@@ -1,0 +1,54 @@
+{
+  "name": "guide.animus.entry.decorative_blocks",
+  "icon": "animus:blood_wood_planks",
+  "category": "animus:bloodtrees",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:blood_wood",
+      "text": "A Madeira Sangrenta colhida das Árvores Sangrentas pode ser processada em vários blocos decorativos de construção. A madeira carmesim é um destaque arquitetônico marcante."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:blood_wood_stripped",
+      "title": "Madeira Sangrenta Descascada",
+      "text": "Use um machado em troncos de Madeira Sangrenta para descascar a casca, revelando uma textura mais lisa. Funciona como descascar troncos vanilla."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:blood_wood_planks",
+      "title": "Tábuas de Madeira Sangrenta",
+      "text": "Fabrique troncos de Madeira Sangrenta em tábuas (4 tábuas por tronco). Essas tábuas servem de base para todas as outras variantes decorativas."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:blood_wood_stairs",
+      "title": "Escada de Madeira Sangrenta",
+      "text": "Fabrique 6 tábuas no padrão de escada para criar Escadas de Madeira Sangrenta. Perfeitas para grandes escadarias no seu santuário de magia de sangue."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:blood_wood_slab",
+      "title": "Laje de Madeira Sangrenta",
+      "text": "Fabrique 3 tábuas em fileira para criar Lajes de Madeira Sangrenta. Use para pisos, prateleiras ou acabamento decorativo."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:blood_wood_fence",
+      "title": "Cerca de Madeira Sangrenta",
+      "text": "Fabrique tábuas e gravetos no padrão de cerca padrão. Use para cercar seus sacrifícios ou decorar seus campos de ritual."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:blood_wood_fence_gate",
+      "title": "Portão de Madeira Sangrenta",
+      "text": "Fabrique gravetos e tábuas no padrão de portão. Permite passagem pelas cercas de Madeira Sangrenta mantendo as criaturas contidas."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dicas de Construção",
+      "text": "$(bold)Resumo de Fabricação:$()$(li)Tronco → 4 Tábuas$(li)6 Tábuas → 4 Escadas$(li)3 Tábuas → 6 Lajes$(li)4 Tábuas + 2 Gravetos → 3 Cercas$(li)2 Tábuas + 4 Gravetos → 1 Portão$(br2)Todos os blocos de Madeira Sangrenta funcionam com receitas padrão de madeira e podem ser usados como combustível.$(br2)$(italic)Construa seu império sombrio em carmesim.$()"
+    }
+  ]
+}

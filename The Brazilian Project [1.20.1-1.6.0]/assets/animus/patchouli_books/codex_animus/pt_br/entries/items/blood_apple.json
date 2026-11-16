@@ -1,0 +1,23 @@
+{
+  "name": "guide.animus.entry.blood_apple",
+  "icon": "animus:blood_apple",
+  "category": "animus:items",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:blood_apple",
+      "text": "Uma fruta carmesim infundida com magia de sangue. Consumir esta maçã fornece Essência Vital à sua soul network, ou a um Altar de Sangue próximo se houver um no alcance."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Valor Alimentar:$() 3 de fome, baixa saturação$(br)$(bold)Efeito:$() Breve confusão (75%% de chance)$(br2)$(bold)Geração de LP:$()$(li)Perto de altar: 2x LP adicionado ao altar$(li)Sem altar: LP adicionado à soul network$(br2)$(bold)Busca de Altar:$() área 11x21x11 centrada no jogador$(br2)$(italic)Um gosto agridoce de poder.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Chave de Vínculo",
+      "text": "Se você carregar uma $(l:animus:items/key_binding)Chave de Vínculo$() vinculada no seu inventário ou slot de Curios ao comer uma Maçã Sangrenta (sem altar por perto), o LP será depositado na soul network do $(bold)dono da chave$() em vez da sua.$(br2)Isso permite que jogadores coletem LP para outros — basta carregar a chave vinculada deles e comer maçãs para encher a rede deles remotamente."
+    }
+  ]
+}

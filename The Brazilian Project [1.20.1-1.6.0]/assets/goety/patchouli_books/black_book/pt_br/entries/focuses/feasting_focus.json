@@ -1,0 +1,18 @@
+{
+  "name": "Foco de Banquete",
+  "icon": "goety:feast_focus",
+  "category": "goety:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com o poder das Pérolas de Ender e do Núcleo de Fome, você consegue invocar Presas sob qualquer criatura ao seu redor. Mais preciso que o Foco Mordedor comum, desde que tal criatura não se mova."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/feast_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:feast_focus": 1
+  }
+}

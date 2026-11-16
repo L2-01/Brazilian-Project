@@ -1,0 +1,23 @@
+{
+  "name": "guide.animus.entry.sigil_reparare",
+  "icon": "animus:sigil_reparare",
+  "category": "animus:sigils",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_reparare",
+      "text": "Um sigilo alternável que conserta seu equipamento com o tempo. Enquanto ativo, itens danificados no seu inventário se reparam lentamente ao custo de LP."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Alternar:$() Botão direito para ativar/desativar$(br)$(bold)Custo de LP:$() Configurável por ponto de durabilidade$(br)$(bold)Escopo:$() Todos os slots do inventário, armadura e mão secundária$(br2)O sigilo varre periodicamente itens danificados e os repara. Desativa se o LP acabar."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Limitações",
+      "text": "$(bold)Lista Negra:$() Itens com a tag $(thing)animus:disallow_repair$() não podem ser reparados por este sigilo.$(br2)$(bold)Taxa de Reparo:$() Quantidade de reparo por intervalo configurável.$(br2)$(italic)O sangue conserta o que o tempo quebra.$()"
+    }
+  ]
+}

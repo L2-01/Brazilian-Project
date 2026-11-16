@@ -1,0 +1,22 @@
+{
+  "name": "guide.animus.entry.ritual_unmaking",
+  "icon": "minecraft:enchanted_book",
+  "category": "animus:rituals",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Quebre os laços da magia. O Ritual do Desfazer extrai encantamentos de itens e os transfere para livros, permitindo reaproveitar ou duplicar encantamentos."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos e Detalhes",
+      "text": "$(bold)Ativação:$() 3.000 LP$(br)$(bold)Renovação:$() 0 LP (uso único)$(br)$(bold)Tempo de Renovação:$() 20 tiques$(br2)$(bold)Alcance do Efeito:$() blocos 5x5x5 ao redor do ritual$(br2)$(bold)Uso:$() Arremesse livros e itens encantados perto do ritual. Ele se desativará automaticamente após extrair os encantamentos."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mecânicas",
+      "text": "$(bold)Itens Encantados Comuns:$()$(br)Usa um livro vazio por encantamento extraído. Se os livros acabarem, os encantamentos restantes ficam no item.$(br2)$(bold)Livros Encantados:$()$(br)Cria $(bold)duas cópias$() de cada encantamento em nível reduzido (nível -1, mínimo 1). O livro original fornece uma saída; forneça um livro vazio para cada outra saída (um vazio para um encantamento único, três para dois). Se houver poucos vazios, o livro original fica intacto.$(br2)$(bold)Itens Aprimorados por Sangue:$()$(br)Itens aprimorados podem ser processados normalmente. Os livros de encantamento conterão os níveis base (sem bônus). A marca de Aprimorado por Sangue permanece no item.$(br2)$(italic)Desfaça e refaça à vontade.$()"
+    }
+  ]
+}

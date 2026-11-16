@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:showcase",
+  "title": "Habilidades",
+  "item": {
+    "type": "forge:nbt",
+    "item": "tconstruct:creative_slot",
+    "nbt": {
+      "slot": "abilities"
+    }
+  },
+  "tooltip": [
+    "Ícone de Espaço de Habilidade"
+  ],
+  "text": [
+    {
+      "text": "Habilidades são modificadores poderosos que mudam drasticamente uma ferramenta. Modificadores como sedoso e fundição automática são notáveis pois ambos mudam os efeitos de minerar blocos, enquanto empunhadura dupla facilita o manejo. "
+    },
+    {
+      "text": "Quase todas as ferramentas começam com um único espaço de habilidade e só podem receber até 2 a mais — escolha as habilidades com sabedoria."
+    },
+    {
+      "text": "O Mighty Smelting de Thruul M'Gon tem a lista completa de habilidades disponíveis nas ferramentas, junto com a Enciclopédia de Tinkering.",
+      "paragraph": true
+    }
+  ]
+}

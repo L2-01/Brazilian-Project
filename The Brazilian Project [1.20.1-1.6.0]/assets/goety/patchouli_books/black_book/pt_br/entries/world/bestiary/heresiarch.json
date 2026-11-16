@@ -1,0 +1,25 @@
+{
+  "name": "Heresiarcas",
+  "icon": "goety:malefic_helm",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_heresiarch",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esses sacerdotes profanos lideram uma congregação daqueles que adoravam a Grande Chama. Seu conhecimento sobre o reino sombrio lhes concede habilidades infernais."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:heresiarch",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:malefic_helm",
+      "text": "Ao morrerem, eles largam seu elmo de osso com galhadas, que fornece alguns benefícios a quem o usa, desde que não esteja quebrado. Um deles inclui fazer Hereges e Dissidentes recém-convertidos servirem você. Outro é fazer Bruxas, Bruxos, Réprobos e outros Cultistas ficarem neutros a quem o usa. Ele também pode ser reparado usando Ossos. Devido ao seu tamanho, não pode ser usado como Curio."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:malefic_helm": 2
+  }
+}

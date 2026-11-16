@@ -1,0 +1,34 @@
+---
+id: mffs:fortron_capacitor
+type: block
+---
+
+# Capacitor de Fortron
+
+O Capacitor de Fortron serve como um dispositivo de armazenamento e gerenciamento de energia para máquinas MFFS.
+Ele foi projetado para coletar []($fortron) gerado por [Derivadores de Coerção](@mffs:coercion_deriver) e transferi-lo para outras
+máquinas que precisam de []($fortron) para operar, atuando essencialmente como um "hub".
+
+<PrefabObtaining />
+
+## Uso
+
+Coloque o Capacitor e defina qual frequência ele deve usar. Por padrão, Capacitores usam a frequência número 0, mas isso pode
+ser alterada por meio de:
+
+- Clicando com o botão direito no Capacitor e digitando o número de frequência desejado em sua GUI
+- Agachando e clicando com o botão direito no Capacitor segurando um [](@mffs:frequency_card)
+
+Ative o Capacitor de Fortron fornecendo-lhe um sinal de Redstone. Uma vez ativado, o Capacitor mudará de
+vermelho para azul e começará a transferir Fortron entre outros dispositivos MFFS que usem a mesma frequência e estejam ao alcance
+(15 blocos por padrão).
+
+## Capacidade de Melhoria
+
+Um Capacitor de Fortron pode ser aprimorado com vários módulos para ampliar suas capacidades:
+
+- [](@mffs:scale_module): Permite ao Capacitor vincular-se a outras máquinas MFFS a uma distância maior. Cada módulo aumenta o
+alcance em 1 bloco a partir do padrão de 15 blocos
+- [](@mffs:speed_module): Permite ao Capacitor transferir []($fortron) de e para máquinas mais rapidamente. Cada módulo aumenta a
+taxa de transferência em 50 FE
+- [](@mffs:capacity_module): Aumenta a quantidade de []($fortron) que o Capacitor consegue armazenar

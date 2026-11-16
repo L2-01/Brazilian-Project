@@ -1,0 +1,29 @@
+{
+  "name": "Dano Instantâneo",
+  "icon": "minecraft:iron_sword",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Dano Instantâneo$() inflige 6 pontos de $(thing)Dano Mágico$() ao alvo por nível. Se o alvo for $(thing)Morto-vivo$(), será curado em 6 pontos por nível em vez disso.$(br2)É feito a partir de uma poção de $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/instant_health)Vida Instantânea$() ou $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/poison)Veneno$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Dano a partir de Vida",
+      "a.recipe": "bloodmagic:flask/health_to_harm",
+      "b.heading": "Dano a partir de Veneno",
+      "b.recipe": "bloodmagic:flask/poison_to_harm",
+      "c.heading": "Dano Instantâneo II",
+      "c.recipe": "bloodmagic:flask/potency_harm"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "adicionar $(l:bloodmagic:alchemy_table/potions#average_potions)Catalisadores Padrão$() pode turbinar ainda mais suas poções."
+    },
+    {
+      "type": "bloodmagic:crafting_flask",
+      "heading": "Dano Instantâneo III",
+      "recipe": "bloodmagic:flask/potency_average_harm"
+    }
+  ]
+}

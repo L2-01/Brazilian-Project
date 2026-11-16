@@ -1,0 +1,40 @@
+{
+	"modmenu.descriptionTranslation.dawn": "API que facilita a criação de recursos.\nTambém inclui comandos, entidades e ferramentas úteis para criadores.",
+
+	"itemGroup.dawn.creative_tools": "Ferramentas Criativas",
+
+	"entity.dawn.custom_tnt": "TNT Personalizada",
+	"entity.dawn.flying_block": "Bloco Voador",
+
+	"commands.health.add.success.single": "%s pontos de vida dados a %s",
+	"commands.health.add.success.multiple": "%s pontos de vida dados a %s entidades",
+	"commands.health.set.success.single": "%s pontos de vida definidos em %s",
+	"commands.health.set.success.multiple": "%s pontos de vida definidos em %s entidades",
+	"commands.health.query.success": "%s tem %s pontos de vida",
+	"commands.health.query.failed": "O alvo não é uma entidade viva",
+	"commands.foodbar.add.food.success.single": "%s pontos de comida dados a %s",
+	"commands.foodbar.add.food.success.multiple": "%s pontos de comida dados a %s entidades",
+	"commands.foodbar.set.food.success.single": "%s pontos de comida definidos em %s",
+	"commands.foodbar.set.food.success.multiple": "%s pontos de comida definidos em %s entidades",
+	"commands.foodbar.add.saturation.success.single": "%s pontos de saturação dados a %s",
+	"commands.foodbar.add.saturation.success.multiple": "%s pontos de saturação dados a %s entidades",
+	"commands.foodbar.set.saturation.success.single": "%s pontos de saturação definidos em %s",
+	"commands.foodbar.set.saturation.success.multiple": "%s pontos de saturação definidos em %s entidades",
+	"commands.foodbar.query.food": "%s tem %s pontos de comida",
+	"commands.foodbar.query.saturation": "%s tem %s pontos de saturação",
+	"commands.motion.add.success.single": "%s, %s, %s adicionados ao movimento de %s",
+	"commands.motion.add.success.multiple": "%s, %s, %s adicionados ao movimento de %s entidades",
+	"commands.motion.set.success.single": "%s, %s, %s definidos para o movimento de %s",
+	"commands.motion.set.success.multiple": "%s, %s, %s definidos para o movimento de %s entidades",
+	"commands.export.start": "Iniciando exportação; espere lag no servidor e alto uso de RAM...",
+	"commands.export.success": "Exportação bem-sucedida! Veja os arquivos aqui: %s",
+	"commands.export.fail.already_exists": "Já existe uma pasta para esta exportação! Veja-a aqui: %s e exclua-a se quiser exportar novamente.",
+	"commands.export.fail.unknown": "Algo estranho aconteceu durante a exportação; para mais informações, verifique seus arquivos de registro.",
+	"commands.export.dynamic.fail.multiplayer": "Você não pode exportar conteúdo dinâmico em multijogador!",
+	"commands.shape.fail.invalid_id": "Não há forma configurada com o ID \"%s\"",
+	"commands.shape.fail.too_complex": "A forma configurada é complexa demais para a memória alocada ao jogo; tente reduzir a complexidade da forma (como a quantidade de processadores) ou aumente a memória alocada ao jogo.",
+	"commands.shape.fail.too_much": "A forma configurada retornou posições demais para iterar (máx. %s, especificado %s)",
+	"commands.shape.fill.success": "Forma configurada \"%s\" preenchida com sucesso com %sx %s",
+
+	"chat.fileExplorer.click": "Clique para abrir no Explorador de Arquivos"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Ritual do Pastor",
+  "icon": "minecraft:white_wool",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ritual do Pastor",
+      "multiblock_id": "bloodmagic:animal_growth",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "animal_growth"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "raw",
+      "text_overrides": [
+        [
+          "Will Bruta",
+          "raw"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "vengeful"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "destructive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "steadfast",
+      "text_overrides": [
+        [
+          "chest",
+          "item"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "growing"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "chest",
+      "text": "Requer $(steadfast)Will Resoluta$()."
+    }
+  ]
+}

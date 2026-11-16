@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Sopro de Gelo",
+  "icon": "goety:frost_breath_focus",
+  "category": "goety:focuses/frost",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com um sopro gelado, as criaturas à sua frente tremerão até a sepultura."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/frost_breath_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/frost_staff)Cajado de Gelo$() não só aumentará o dano, como também nevará e congelará o terreno."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Trilhos de Mudança",
+    "icon": "littlelogistics:switch_rail",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Esses tipos de trilhos de mudança precisam de um sinal de redstone para alternar. Funciona bem com trilhos detectores."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Trilho de Mudança",
+            "recipe": "littlelogistics:switch_rail",
+            "text": "Alterna entre reto ou esquerda/direita."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Trilho de Junção em T",
+            "recipe": "littlelogistics:tee_junction_rail",
+            "text": "Alterna entre esquerda/direita."
+        }
+    ]
+}

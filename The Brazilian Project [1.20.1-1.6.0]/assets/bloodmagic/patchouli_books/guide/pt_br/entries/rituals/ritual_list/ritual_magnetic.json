@@ -1,0 +1,32 @@
+{
+  "name": "Ritual do Magnetismo",
+  "icon": "minecraft:iron_ore",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ritual do Magnetismo",
+      "multiblock_id": "bloodmagic:magnetism",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner)Adivinhador de Ritual$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "magnetism"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Por padrão, o $()Ritual do Magnetismo$() busca até a rocha matriz num raio de 3 blocos da $(item)Pedra de Ritual Mestre$() por minérios para coletar. Isso pode ser aumentado colocando um bloco caro diretamente embaixo da PRM, assim: $(br)$(li)$(item)Bloco de Ferro$() - 7 blocos. $(li)$(item)Bloco de Ouro$() - 15 blocos. $(li)$(item)Bloco de Diamante$() - 31 blocos."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "magnetism",
+      "page_type": "placementRange",
+      "text_overrides": [
+        [
+          "ores",
+          "item"
+        ]
+      ]
+    }
+  ]
+}

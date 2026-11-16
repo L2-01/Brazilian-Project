@@ -1,0 +1,22 @@
+{
+  "name": "Visão Geral da Fusão",
+  "icon": "alchemistry:fusion_chamber_controller",
+  "category": "alchemistry:reactor_category",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Reator de Fusão permite fundir dois elementos para criar novos elementos. A saída será decidida pela soma dos números atômicos das duas entradas. Veja o JEI para receitas.$(br2)$(o)Das notas do Professor Warren: A fusão requer o uso de uma estrela e alguns elementos encontrados apenas nas profundezas do Nether. Usando-os para fazer algumas mudanças nos componentes do Reator de Fissão, tenho um reator mais poderoso, capaz de fundir dois elementos em um com a soma de seus números atômicos. Com aplicações cuidadosas de fissão e fusão, agora posso transformar literalmente qualquer elemento em qualquer outro."
+    },
+    {
+      "type": "crafting",
+      "recipe": "alchemistry:fusion_chamber_controller",
+      "text": "O núcleo da câmara de fusão controla o processo de esmagar elementos juntos. Recebe energia e pode ter entrada e saída de itens."
+    },
+    {
+      "type": "crafting",
+      "recipe": "alchemistry:fusion_core",
+      "text": "O lugar onde dois viram um: no núcleo do reator e no ar ao redor. Itens são colocados dentro do núcleo e esmagados a altas velocidades para fundir elementos menores em maiores para seus outros experimentos."
+    }
+  ]
+}

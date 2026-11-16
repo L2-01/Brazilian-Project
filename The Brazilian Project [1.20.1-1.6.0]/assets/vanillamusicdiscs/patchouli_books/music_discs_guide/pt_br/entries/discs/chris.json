@@ -1,0 +1,19 @@
+{
+    "name": "Chris",
+    "category": "vanillamusicdiscs:discs",
+    "icon": "vanillamusicdiscs:chris_music_disc",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "vanillamusicdiscs:chris_music_disc",
+            "text": "Fabrique Chris usando a $(bold)Mesa de Discos de Música$(). Coloque qualquer disco de música vanilla no espaço da esquerda e o material mostrado abaixo no espaço do meio."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:blue_orchid",
+            "title": "Material Necessário",
+            "text": "$(item)Orquídea-Azul$() $(#808080)$()Coloque-o no espaço do meio da Mesa de Discos de Música junto a qualquer disco de música vanilla.$()"
+        }
+    ]
+}

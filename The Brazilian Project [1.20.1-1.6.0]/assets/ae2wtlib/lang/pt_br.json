@@ -1,0 +1,56 @@
+{
+  "gui.ae2wtlib.creativetab": "Terminais sem Fio do AE2 (AE2WTLib)",
+
+  "gui.ae2wtlib.trash": "Lixo",
+
+  "item.ae2wtlib.quantum_bridge_card": "Cartão de Ponte Quântica",
+  "item.ae2wtlib.quantum_bridge_card.desc": "Permite que terminais sem fio se conectem a uma ponte quântica, possibilitando alcance ilimitado",
+  "item.ae2wtlib.magnet_card": "Cartão de Ímã",
+  "item.ae2wtlib.magnet_card.desc": "Melhoria de ímã para o Terminal de Fabricação sem Fio",
+
+  "gui.ae2wtlib.magnetcard": "Cartão de Ímã",
+  "gui.ae2wtlib.magnetcard.desc.off": "Desativado",
+  "gui.ae2wtlib.magnetcard.desc.inv": "Coletar para o Inventário",
+  "gui.ae2wtlib.magnetcard.desc.me": "Coletar para o ME",
+  "gui.ae2wtlib.magnetcard.desc.me_no_magnet": "Ímã Desativado, Coletar para o ME",
+  "gui.ae2wtlib.cycle_terminal.desc": "Abrir próximo Terminal",
+  "gui.ae2wtlib.magnetcard.hotkey": "Cartão de Ímã: ",
+  "gui.ae2wtlib.restock": "Reabastecer: ",
+  "gui.ae2wtlib.off": "Desativado",
+  "gui.ae2wtlib.on": "Ativado",
+  "gui.ae2wtlib.slot.magnetcard.desc": "Cartão de Ímã",
+
+  "gui.ae2wtlib.wireless_terminal_settings_title": "Configurações do Terminal sem Fio",
+  "gui.ae2wtlib.magnet_settings_title": "Configurações do Ímã",
+  "gui.ae2wtlib.pick_block.text": "Ativar Escolher bloco",
+  "gui.ae2wtlib.craft_if_missing.text": "Fabricar se Faltando",
+  "gui.ae2wtlib.restock.text": "Reabastecer",
+  "gui.ae2wtlib.magnet.text": "Ímã",
+  "gui.ae2wtlib.pickup_to_me.text": "Coletar para o Sistema ME",
+
+  "gui.ae2wtlib.Magnet": "Filtro de Ímã",
+  "gui.ae2wtlib.whitelist": "Lista-branca",
+  "gui.ae2wtlib.blacklist": "Lista-negra",
+  "gui.ae2wtlib.pickup_filter": "Filtro de Coleta: ",
+  "gui.ae2wtlib.insert_filter": "Filtro de Inserção: ",
+  "gui.ae2wtlib.copy_pickup": "Copiar para Coleta",
+  "gui.ae2wtlib.copy_insert": "Copiar para Inserção",
+  "gui.ae2wtlib.switch": "Trocar Filtros",
+
+  "item.ae2wtlib.wireless_pattern_encoding_terminal": "Terminal de Codificação de Padrões sem Fio",
+  "item.ae2wtlib.wireless_pattern_access_terminal": "Terminal de Acesso a Padrões sem Fio",
+  "item.ae2wtlib.wireless_universal_terminal": "Terminal Universal sem Fio",
+  "item.ae2wtlib.wireless_universal_terminal.desc": "Terminais Instalados:",
+
+  "key.ae2.wireless_pattern_access_terminal": "Abrir Terminal de Acesso a Padrões sem Fio",
+  "key.ae2.wireless_pattern_encoding_terminal": "Abrir Terminal de Codificação de Padrões sem Fio",
+  "key.ae2.ae2wtlib_restock": "Alternar Reabastecimento",
+  "key.ae2.ae2wtlib_magnet": "Alternar Cartão de Ímã",
+  "key.ae2.ae2wtlib_stow": "Guardar pilha da mão no Sistema ME",
+
+  "chat.ae2wtlib.NetworkNotPowered": "Rede sem Energia",
+
+  "text.autoconfig.de/mari_023/ae2wtlib.title": "AE2 Wireless Terminals",
+
+  "text.autoconfig.de/mari_023/ae2wtlib.option.magnetCardRange": "Alcance do Cartão de Ímã"
+}

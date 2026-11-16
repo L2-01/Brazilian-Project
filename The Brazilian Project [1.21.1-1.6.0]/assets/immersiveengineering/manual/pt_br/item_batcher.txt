@@ -1,0 +1,9 @@
+Distribuidor de Itens
+Venham juntos, agora
+<&recipe>O Distribuidor de Itens é projetado para coletar um conjunto de itens de uma esteira de entrada antes de enviá-los adiante, de forma a transferir lotes de tamanho otimizado para o maquinário.<np>
+Em §2modo em lote§r, itens recebidos são aceitos no inventário diretamente abaixo dos filtros, e o lote coletado só é emitido quando todos os filtros estiverem satisfeitos.<br>
+Quando o modo de saída do dispositivo for ajustado para §2modo único§r, qualquer item que satisfaça sua quantidade filtrada será emitido em vez disso.<br>
+As conexões abaixo dos filtros do reservatório definem a cor alvo do <link;redstone_wiring;fio de redstone> através dos <link;redstone_wiring;Conectores de Interface de Redstone;bundled> anexados.<br>
+Quando cada filtro individual estiver satisfeito, um sinal alto em sua cor configurada será enviado pelo conector.<br>
+Note que, se vários filtros usarem a mesma cor, todos devem estar satisfeitos para emitir sinal.<br>
+Esses sinais podem ser usados para configurar máquinas, visores ou outros aparatos para controlar fábricas inteiras.

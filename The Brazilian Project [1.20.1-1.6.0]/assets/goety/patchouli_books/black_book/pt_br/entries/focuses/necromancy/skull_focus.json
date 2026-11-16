@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Crânio",
+  "icon": "goety:skull_focus",
+  "category": "goety:focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com este foco, você consegue invocar Crânios Assombrados por espíritos do além que o seguirão e avançarão sobre qualquer criatura hostil próxima, explodindo no impacto."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/skull_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/necro_staff)Cajado Necrótico$() invoca mais crânios de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:skull_focus": 1
+  }
+}

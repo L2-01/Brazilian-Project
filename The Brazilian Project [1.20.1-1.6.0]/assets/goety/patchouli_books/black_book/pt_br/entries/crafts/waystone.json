@@ -1,0 +1,20 @@
+{
+  "name": "Obeliscos",
+  "icon": "goety:waystone",
+  "category": "goety:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os Obeliscos permitem vinculá-los a um local específico simplesmente clicando num bloco com o botão direito, o que pode ser usado para realizar todos os tipos de magia sombria nele, supondo que tal local esteja na mesma dimensão."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:waystone",
+      "text": "A pedra também marca quem a segura como seu dono quando usada."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clicar com o botão direito num obelisco vinculado em certos servos fará com que eles comecem a vigiar ao redor daquele local, colocando-os no modo Vigiando, desde que o local esteja na mesma dimensão. Agachar e clicar com o botão direito num obelisco vinculado apagará as informações que ele armazenou."
+    }
+  ]
+}

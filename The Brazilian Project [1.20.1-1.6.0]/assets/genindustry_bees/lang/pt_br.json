@@ -1,0 +1,47 @@
+{
+  "item.genindustry_bees.gene_sample": "Amostra de Gene",
+  "item.genindustry_bees.gene_sample.dominance.true": "Dominância: Dominante",
+  "item.genindustry_bees.gene_sample.dominance.false": "Dominância: Recessivo",
+  "item.genindustry_bees.gene_sample.blank": "Amostra de Gene Vazia",
+  "item.genindustry_bees.genetic_template.blank": "Modelo Genético Vazio",
+  "item.genindustry_bees.genetic_template.complete": "Modelo Genético Completo",
+  "item.genindustry_bees.genetic_template.incomplete": "Modelo Genético Incompleto",
+  "item.genindustry_bees.genetic_template": "Modelo Genético",
+  "item.genindustry_bees.genetic_template.empty": "Falta Amostra de Gene",
+  "item.genindustry_bees.genetic_template.dominance.true": "Amostra de Gene Dominante",
+  "item.genindustry_bees.genetic_template.dominance.false": "Amostra de Gene Recessivo",
+  "item.genindustry_bees.genetic_template.more_info": "Segure <Shift> para mais informações",
+
+  "block.genindustry_bees.genome_extractor": "Extrator de Genoma",
+  "block.genindustry_bees.genetic_imprinter": "Impressor Genético",
+
+  "item.genindustry_bees.basic_labware": "Equipamento de Laboratório Básico",
+  "item.genindustry_bees.improved_labware": "Equipamento de Laboratório Aprimorado",
+  "item.genindustry_bees.advanced_labware": "Equipamento de Laboratório Avançado",
+
+  "item.genindustry_bees.labware.labware_tooltip": "Chance de Extração de Gene: %s",
+  "item.genindustry_bees.honey_comb_ingot": "Lingote de Favo de Mel",
+  "item.genindustry_bees.royal_ingot": "Lingote Real",
+
+  "creativeTab.genindustry_bees.modItems": "Complicated Bees: Genetic Industry",
+  "creativeTab.genindustry_bees.possibleSamples": "Amostras de Gene",
+
+  "gui.genindustry_bees.jei.genome_extractor": "Extrator de Genoma",
+
+  "gui.genindustry_bees.gui.genome_extractor.errors.no_rf": "RF insuficiente!",
+  "gui.genindustry_bees.gui.genome_extractor.errors.no_bees": "Falta Princesa ou Zangão para extrair!",
+  "gui.genindustry_bees.gui.genome_extractor.errors.no_genes": "Faltam Amostras de Gene em Branco!",
+  "gui.genindustry_bees.gui.genome_extractor.errors.no_labware": "É necessário qualquer Equipamento de Laboratório válido para extrair Amostras de Gene!",
+  "gui.genindustry_bees.gui.genome_extractor.errors.output_full": "Os espaços de saída estão todos cheios!",
+
+  "gui.genindustry_bees.gui.genetic_imprinter.errors.no_rf": "RF insuficiente!",
+  "gui.genindustry_bees.gui.genetic_imprinter.errors.no_bees": "Falta Princesa ou Zangão para imprimir Genes!",
+  "gui.genindustry_bees.gui.genetic_imprinter.errors.no_template": "É necessário um Modelo Genético Completo para Impressão!",
+  "gui.genindustry_bees.gui.genetic_imprinter.errors.output_full": "O espaço de saída está cheio!",
+
+  "gui.genindustry_bees.jei.genetic_imprinter": "Exemplos do Impressor Genético",
+  "genindustry_bees.jei.info.recycle": "Amostras de Gene e Modelos Genéticos indesejados podem ser \"reciclados\" fundindo-os em uma fornalha para obter um em branco de volta.",
+  "genindustry_bees.jei.info.add_gene_data": "Coloque uma Amostra de Gene com a Característica desejada na grade de fabricação com um Modelo Genético para colocar essa Característica nele.",
+  "genindustry_bees.jei.info.genetic_imprinter.examples": "As receitas deste bloco no JEI são apenas exemplos para mostrar como funciona.\nUm Modelo Genético PODE ter qualquer combinação de genes, não apenas as mostradas aqui!",
+  "genindustry_bees.jei.info.genome_extractor.examples": "As receitas deste bloco no JEI só mostram as características padrão de cada Espécie de Abelha. Os Genes obtidos dependem inteiramente das Princesas/Zangões que você colocar.\nTodos os Genes têm chance igual de serem extraídos!"
+}

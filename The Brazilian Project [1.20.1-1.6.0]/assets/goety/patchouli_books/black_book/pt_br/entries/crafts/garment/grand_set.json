@@ -1,0 +1,37 @@
+{
+  "name": "Conjunto Grandioso",
+  "icon": "goety:grand_turban",
+  "category": "goety:crafts/garment",
+  "advancement": "goety:goety/get_ruby",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Vizir também tem uns mantos bem estilosos, e um turbante muito bonito. Com o Rubi dele, você pode replicar essas vestimentas e obter algumas de suas habilidades especiais!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você sente que muito bem poderia! Você já pegou o estilo do Invocador, por que não subir na vida?"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:grand_turban"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao sofrer dano vestindo o Turbante, você terá 50%%, ou 100%% se estiver com metade ou menos da sua vida máxima, de chance de invocar um Irk leal que o defenderá. Se você usar o Feitiço de Obsessores agachado, ele matará seus Irks, curando você em um coração por morto."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:grand_robe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "À primeira vista, o Manto parece ser apenas mais uma recoloração dos Mantos Sombrios, mas ao conjurar um feitiço com sua varinha você descobriu que isso lhe concede o escudo do Vizir, reduzindo pela metade todo o dano recebido enquanto estiver conjurando."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:grand_turban": 2,
+    "goety:grand_robe": 4
+  }
+}

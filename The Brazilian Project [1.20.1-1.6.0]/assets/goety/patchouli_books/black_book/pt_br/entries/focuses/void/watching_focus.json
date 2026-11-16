@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Vigia",
+  "icon": "goety:watching_focus",
+  "category": "goety:focuses/void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você sente este foco olhando de volta para você. Com ele, você invocará uma criatura do End, uma $(l:summons/enderling_servants#watchling)massa humanoide grotesca de olhos e escuridão$()."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/watching_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/void_staff)Cajado do Vazio$() invoca mais vigilantes de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:watching_focus": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Runa de Aceleração",
+  "icon": "bloodmagic:accelerationrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Runa de Aceleração$() aumenta a taxa de algumas operações. Enquanto normalmente as operações da $(l:bloodmagic:altar/blood_rune/charging_rune)Runa de Carga$(/l) e da $(l:bloodmagic:altar/blood_rune/dislocation_rune)Runa de Deslocamento$(/l) ocorrem a cada 20 tiques, um tique do atraso é removido por runa, até um mínimo de 1 operação por tique."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_acceleration"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_acceleration_2",
+      "text": "Com um pouco de $(item)Fragmentos de Netherita$() e algumas $(item)Peças Intrincadas Forjadas no Inferno$() saqueadas do $(l:bloodmagic:dungeons/endless_realm)Reino Demoníaco$(), você pode dobrar o poder da sua $(item)Runa de Aceleração$(), removendo dois tiques por runa em vez de um, liberando outros slots ao redor do seu altar."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/acceleration",
+      "text": "Se mudar de ideia, você pode desfazer a receita na ARC."
+    }
+  ]
+}

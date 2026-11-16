@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Nova de Gelo",
+  "icon": "goety:frost_nova_focus",
+  "category": "goety:focuses/frost",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você solta uma explosão de gelo na sua posição, ou na posição de um alvo ao agachar, ferindo e congelando todas as criaturas próximas. A explosão causa dano de congelamento e não fere o conjurador."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/frost_nova_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/frost_staff)Cajado de Gelo$() aumentará um pouco o raio da explosão e fará os alvos congelarem um pouco mais rápido."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:frost_nova_focus": 1
+  }
+}

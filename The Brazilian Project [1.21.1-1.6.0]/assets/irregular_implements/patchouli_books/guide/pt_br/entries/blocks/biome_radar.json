@@ -1,0 +1,57 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:biome_radar",
+    "name": "Radar de Bioma",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Radar de Bioma$() é uma estrutura multibloco que ajuda você a encontrar biomas no mundo.$(br2)Construa a estrutura mostrada na próxima página."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "irregular_implements:biome_radar",
+                    "C": "minecraft:iron_bars[east=true,north=true,south=true,west=true]",
+                    "E": "minecraft:iron_bars[east=true,north=false,south=false,west=false]",
+                    "I": "minecraft:iron_bars[east=false,north=false,south=false,west=false]",
+                    "N": "minecraft:iron_bars[east=false,north=true,south=false,west=false]",
+                    "S": "minecraft:iron_bars[east=false,north=false,south=true,west=false]",
+                    "W": "minecraft:iron_bars[east=false,north=false,south=false,west=true]"
+                },
+                "pattern": [
+                    [
+                        " I ",
+                        "I I",
+                        " I "
+                    ],
+                    [
+                        " E ",
+                        "SCN",
+                        " W "
+                    ],
+                    [
+                        "   ",
+                        " I ",
+                        "   "
+                    ],
+                    [
+                        "   ",
+                        " 0 ",
+                        "   "
+                    ]
+                ]
+            },
+            "name": "Radar de Bioma",
+            "text": "Blocos necessários:$(br2)$(li)1 Radar de Bioma$(br)$(li)10 Barras de Ferro"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Insira um $(d)Cristal de Bioma$() no radar. Há um para cada bioma do jogo, e eles podem ser encontrados em quase qualquer baú com espólios.$(br2)Se o bioma existir no mundo, as chamas acima das Barras de Ferro soprarão na direção dele."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Você também pode usar um $(l:irregular_implements:filter/location_filter)Filtro de Localização$(/l) no Radar de Bioma para salvar a localização do bioma no Filtro.$(br2)Com isso, você pode fabricá-lo com uma $(l:irregular_implements:items/golden_compass)Bússola de Ouro$(/l) para chegar ao bioma!"
+        }
+    ]
+}

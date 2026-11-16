@@ -1,0 +1,19 @@
+{
+    "name": "Rubedo",
+    "category": "vanillamusicdiscs:discs",
+    "icon": "vanillamusicdiscs:rubedo_music_disc",
+    "sortnum": 29,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "vanillamusicdiscs:rubedo_music_disc",
+            "text": "Fabrique Rubedo usando a $(bold)Mesa de Discos de Música$(). Coloque qualquer disco de música vanilla no espaço da esquerda e o material mostrado abaixo no espaço do meio."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:pink_dye",
+            "title": "Material Necessário",
+            "text": "$(item)Corante Rosa$() $(#808080)$()Coloque-o no espaço do meio da Mesa de Discos de Música junto a qualquer disco de música vanilla.$()"
+        }
+    ]
+}

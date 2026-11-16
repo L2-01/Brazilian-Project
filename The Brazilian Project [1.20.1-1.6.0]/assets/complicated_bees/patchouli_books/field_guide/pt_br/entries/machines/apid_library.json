@@ -1,0 +1,18 @@
+{
+  "name": "Biblioteca Ápida",
+  "icon": "complicated_bees:apid_library",
+  "category": "complicated_bees:machines",
+  "advancement": "complicated_bees:recipes/misc/apid_library",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Biblioteca Ápida permite examinar as abelhas em sua posse e determinar se elas podem ou não sofrer mutação para novas espécies.$(br2)Basta colocar uma abelha no espaço superior direito e selecionar uma mutação à esquerda (se houver) para ver mais informações sobre ela."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:apid_library",
+      "title": "Biblioteca Ápida",
+      "text": "$(o)Pelo menos os livros são à prova d'água...?$(br2)$()"
+    }
+  ]
+}

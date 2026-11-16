@@ -1,0 +1,58 @@
+{
+  "name": "Aura de Will Demoníaca",
+  "icon": "bloodmagic:demoncrucible",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Como já $(l:bloodmagic:demon_will/will_manipulation/demon_will)estabelecemos$(), a $(raw)Will Demoníaca$() coalesce ao redor de certas criaturas e as impele com força malevolente. No entanto, este não é o único lugar onde a $(raw)Will$() pode existir. Ao queimar $(raw)Will$() num $(item)Crisol Demoníaco$(), é possível soltá-la na $(thing)Aura$(), com efeitos grandes e fascinantes."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Crisol Demoníaco",
+      "recipe": "bloodmagic:soulforge/demon_crucible",
+      "text": "Coloque uma $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$() carregada ou qualquer aspecto de $(item)Will Demoníaca$() ou $(item)Cristal Demoníaco$() dentro e deixe rodando. $(item)Cristais$() serão consumidos quando a $(raw)Will$() do chunk cair abaixo de 50, enquanto a $(raw)Will Demoníaca$() (em forma de item ou da $(item)Gema Tartárica$()) será consumida aos poucos, conforme necessário."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_crucible.png"
+      ],
+      "title": "Crisol Demoníaco",
+      "border": true,
+      "text": "O $(item)Crisol Demoníaco$(), com uma $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$() dentro."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Agora temos $(raw)Will Bruta$() na atmosfera. Ótimo, e agora? $(br2)Alguns $(thing)Rituais$() $(l:bloodmagic:rituals/ritual_tinkerer)se beneficiam$() da $(raw)Will Bruta$(), mas o benefício principal disso é a capacidade de criar $(item)Cristais de Will Demoníaca$() refinados e, a partir deles, $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)dividi-los$() em seus $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Aspectos$(). $(br2)Assim que tiver alguns desses $(item)Cristais de Will Aspectada$(), você pode queimá-los de novo no $(item)Cadinho$() para soltá-los na $(thing)Aura$() para seus rituais se beneficiarem."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "É importante mencionar que a $(thing)Aura$() é baseada em chunks. Ou seja, qualquer $(raw)Will$() que você queimar encherá o chunk onde foi queimada, até um limite total de 100 para cada tipo. Você pode medir isso usando um $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Medidor de Aura de Will Demoníaca$(). $(br2)Para mover Will Demoníaca, basta colocar um $(item)Pilão Demoníaco$() em qualquer chunk adjacente, e a $(raw)Will$() será atraída para ele."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Pilão Demoníaco",
+      "recipe": "bloodmagic:soulforge/demon_pylon",
+      "anchor": "pylon",
+      "text": "O Pilão atrairá todos os tipos de will de todos os chunks adjacentes (não incluindo diagonais). Múltiplos Pilões podem ser encadeados para transferir Will por distâncias maiores."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se você colocar uma $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$() dentro de uma $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Forja do Fogo Infernal$(), ela absorverá rapidamente $(raw)Will$() do chunk em que está. $(br2)Com um Aspecto de $(raw)Will$() no chunk, como $(raw)Bruta$() ou $(corrosive)Corrosiva$(), e uma $(item)Gema Tartárica$() vazia, é possível encher a Gema com aquele Aspecto. $(br2)Isso permite modificar suas $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Ferramentas Conscientes$() e $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Espada$() de acordo. Os efeitos estão definidos $(l:bloodmagic:demon_will/will_manipulation/aspected_will#sentient_aspects)aqui$()."
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Links Relacionados",
+      "entries": [
+        "bloodmagic:rituals/ritual_tinkerer",
+        "bloodmagic:demon_will/will_manipulation/crystallized_will",
+        "bloodmagic:demon_will/will_manipulation/aspected_will",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_split",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_catalyst",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_harvest"
+      ],
+      "text": "Há mais que eu posso fazer, eu sinto..."
+    }
+  ]
+}

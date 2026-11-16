@@ -1,0 +1,22 @@
+{
+  "name": "Foco Ósseo",
+  "icon": "goety:osseous_focus",
+  "category": "goety:focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esqueletos podem ser bem irritantes para quem não tem paciência de carregar um Escudo. Agora você tem o poder de invocar e comandar um para transformar os outros em almofadas de agulhas."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/osseous_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/necro_staff)Cajado Necrótico$() invoca mais esqueletos de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:osseous_focus": 1
+  }
+}

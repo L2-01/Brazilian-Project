@@ -1,0 +1,134 @@
+{
+    "_comment": "------------------------------------- ShetiPhianCore en_us.json Localization -------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.shetiphiancore": "ShetiPhianCore",
+
+    "info.down": "Baixo",
+    "info.up": "Cima",
+    "info.north": "Norte",
+    "info.south": "Sul",
+    "info.west": "Oeste",
+    "info.east": "Leste",
+    "info.bottom": "Fundo",
+    "info.top": "Topo",
+    "info.back": "Trás",
+    "info.front": "Frente",
+    "info.left": "Esquerda",
+    "info.right": "Direita",
+
+    "gui.side_disabled": "Desativado",
+
+    "color.white": "Branco",
+    "color.orange": "Laranja",
+    "color.magenta": "Magenta",
+    "color.light_blue": "Azul-claro",
+    "color.yellow": "Amarelo",
+    "color.lime": "Verde-limão",
+    "color.pink": "Rosa",
+    "color.gray": "Cinza",
+    "color.light_gray": "Cinza-claro",
+    "color.cyan": "Ciano",
+    "color.purple": "Roxo",
+    "color.blue": "Azul",
+    "color.brown": "Marrom",
+    "color.green": "Verde",
+    "color.red": "Vermelho",
+    "color.black": "Preto",
+
+    "key.shetiphiancore.tool.next": "Item na Mão; Modo/Seleção Próximo",
+    "key.shetiphiancore.tool.previous": "Item na Mão; Modo/Seleção Anterior",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "info.shetiphian.holdshift": "§2Segure SHIFT para mais informações",
+    "info.shetiphian.creativeolny": "§eItem Somente no Modo Criativo",
+    "info.shetiphian.guide": "Guia do Fruzstrated",
+    "info.shetiphian.unused": "§5§o  item não usado/obsoleto",
+
+    "error.shetiphian.team.noteam": "Você não está numa equipe",
+    "error.shetiphian.team.wrong": "Objeto pertencente a outra equipe",
+
+    "info.shetiphian.texture.missing": "Dados de Textura Ausentes",
+    "info.shetiphian.texture.invalid": "Bloco de Textura Ausente",
+    "info.shetiphian.texture.defaulted": "Usando Padrão",
+
+    "info.shetiphian.mode_change": "§3Mudar Modo:§o",
+    "info.shetiphian.sneak_scroll": "Agachar+Rolar",
+
+    "_comment": "--------------------------------------------------- TEAMS -----------------------------------------------------!",
+    "shetiphiancore.team.create.success": "Equipe Criada com Sucesso",
+    "shetiphiancore.team.create.fail.inteam": "Você precisa sair da sua equipe atual primeiro",
+    "shetiphiancore.team.create.fail.exists": "Uma equipe com esse nome já existe",
+
+    "shetiphiancore.team.rename.success": "'%1$s' foi renomeada para '%2$s'",
+    "shetiphiancore.team.rename.fail.same": "Renomeação abortada; nomes novo e antigo iguais",
+
+    "shetiphiancore.team.invite.send.success": "O convite foi enviado",
+    "shetiphiancore.team.invite.send.fail.member": "O jogador já é membro",
+    "shetiphiancore.team.invite.send.fail.pending": "O jogador já tem um convite pendente para '%1$s'",
+    "shetiphiancore.team.invite.receive.notice": "Você foi convidado para entrar em '%1$s' (use %2$s nos próximos %3$s minutos para aceitar)",
+    "shetiphiancore.team.invite.accept.success": "Você agora é membro de '%1$s'",
+    "shetiphiancore.team.invite.accept.success.notice": "%1$s entrou na equipe",
+    "shetiphiancore.team.invite.accept.fail.permissions": "Não foi possível entrar pois o jogador que o convidou não tem mais permissões para adicionar membros",
+    "shetiphiancore.team.invite.accept.fail.member": "Você já é membro desta equipe",
+    "shetiphiancore.team.invite.accept.fail.inteam": "Não é possível aceitar um convite enquanto estiver numa equipe",
+    "shetiphiancore.team.invite.accept.fail.noinvite": "Não há convites de equipe abertos para aceitar",
+
+    "shetiphiancore.team.leave.success": "Você saiu da equipe",
+    "shetiphiancore.team.leave.success.notice": "%1$s saiu da equipe",
+    "shetiphiancore.team.leave.fail.leader": "Você precisa transferir a liderança primeiro ou dissolver a equipe",
+
+    "shetiphiancore.team.kick.success": "Jogador foi expulso da equipe",
+    "shetiphiancore.team.kick.success.notice": "Você foi expulso da sua equipe",
+    "shetiphiancore.team.kick.fail.rank": "Você só pode expulsar jogadores de patente inferior",
+    "shetiphiancore.team.kick.fail.team": "Esse jogador não é membro da sua equipe",
+
+    "shetiphiancore.team.rank.promote.success": "Membro promovido com sucesso",
+    "shetiphiancore.team.rank.promote.success.notice": "Você foi promovido a gerente da equipe",
+    "shetiphiancore.team.rank.promote.fail.manager": "O membro já tem acesso de gerência",
+    "shetiphiancore.team.rank.promote.fail.not_member": "Não é possível promover um jogador que não é membro",
+
+    "shetiphiancore.team.rank.demote.success": "Membro rebaixado com sucesso",
+    "shetiphiancore.team.rank.demote.success.notice": "Você foi rebaixado e não é mais gerente da equipe",
+    "shetiphiancore.team.rank.demote.success.self": "Você se rebaixou com sucesso",
+
+    "shetiphiancore.team.transfer.success": "Liderança transferida com sucesso",
+    "shetiphiancore.team.transfer.success.notice": "Você agora é o líder de '%1$s'",
+    "shetiphiancore.team.transfer.fail.same": "Transferência abortada: o usuário já é líder",
+
+    "shetiphiancore.team.disband.success": "'%1$s' foi dissolvida",
+
+    "shetiphiancore.team.no_teams": "Não há equipes",
+    "shetiphiancore.team.members.empty": "A equipe não tem membros",
+    "shetiphiancore.team.members.error.noteam": "A equipe não existe",
+
+    "shetiphiancore.team.error.no_team": "Você não está numa equipe",
+    "shetiphiancore.team.error.not_leader": "Você não é o líder da equipe",
+    "shetiphiancore.team.error.not_manager.self": "Você não é um gerente da equipe",
+    "shetiphiancore.team.error.not_manager.other": "O jogador não é um gerente da equipe",
+
+    "shetiphiancore.team.sysadmin.create.success": "'%1$s'['%2$s'] Criada",
+    "shetiphiancore.team.sysadmin.rename.success": "Nome de exibição de '%1$s' mudado de '%2$s' para '%3$s'",
+    "shetiphiancore.team.sysadmin.kick.success": "%1$s jogador(es) foram removidos de suas equipes",
+    "shetiphiancore.team.sysadmin.kick.inform": "Um admin removeu você de '%1$s'",
+    "shetiphiancore.team.sysadmin.add.success": "%1$s jogador(es) foram adicionados a '%2$s'",
+    "shetiphiancore.team.sysadmin.add.inform": "Um admin adicionou você a '%1$s'",
+    "shetiphiancore.team.sysadmin.transfer.success": "Liderança de '%1$s' foi transferida para '%2$s'",
+    "shetiphiancore.team.sysadmin.disband.success": "'%1$s' foi dissolvida, todos os jogadores foram expulsos",
+    "shetiphiancore.team.sysadmin.disband.inform": "Um admin dissolveu '%1$s', você não está mais numa equipe",
+
+    "_comment": "------------------------------------------------ NAME CORRECTIONS ------------------------------------------------!",
+    "fluid.tile.lava": "Lava",
+    "fluid.tile.water": "Água",
+    "item.dyePowder.green": "Corante Verde",
+    "item.dyePowder.red": "Corante Vermelho",
+    "item.dyePowder.yellow": "Corante Amarelo",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.shetiphiancore.extended_power": "Energia Estendida:",
+
+    "config.jade.plugin_shetiphiancore.hud": "Ativar Plugin",
+    "config.jade.plugin_shetiphiancore.hud.rgb16": "Valores do Bloco RGB16",
+    "config.jade.plugin_shetiphiancore.hud.redstone": "Redstone Estendida"
+}

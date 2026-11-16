@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Tempestade de Areia",
+  "icon": "goety_cataclysm:sandstorm_focus",
+  "category": "goety:cataclysm/focuses/wind",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Em vez de disparar um simples ciclone, o feitiço conjura vários ciclones arenosos que orbitam o conjurador, danificando quaisquer alvos não aliados capturados por eles."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/sandstorm_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/wind_staff)Cetro dos Ventos$() invoca mais tempestades de areia."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:sandstorm_focus": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Orla do Reino Oculto",
+  "icon": "bloodmagic:simplekey",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Orla do Reino Oculto",
+      "multiblock_id": "bloodmagic:simple_dungeon",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner)Adivinhador de Ritual$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "simple_dungeon",
+      "text_overrides": [
+        [
+          "Demon Realm",
+          "thing"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Extrato de Fortuna",
+  "icon": "bloodmagic:fortune_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Extrato de Fortuna",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment",
+      "text": "Aumenta o rendimento de alguns blocos colhidos. Também acumula com o encantamento Fortuna. $(br2)Itens válidos: Ferramentas, Espadas, Cargas. $(br2)Aplica: Afortunado I (256 blocos)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Extrato de Fortuna L",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_l",
+      "text": "Esta versão melhorada da unção dura quatro vezes mais. $(br2)Aplica: Afortunado I (1024 blocos)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Extrato de Fortuna II",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_2",
+      "text": "Esta versão melhorada da unção aumenta o rendimento. $(br2)Aplica: Afortunado II (256 blocos)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Extrato de Fortuna XL",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_xl",
+      "text": "Esta versão melhorada da unção dura dezesseis vezes mais. $(br2)Aplica: Afortunado I (4096 blocos)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Extrato de Fortuna III",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_3",
+      "text": "Esta versão melhorada da unção aumenta o rendimento. $(br2)Aplica: Afortunado III (256 blocos)"
+    }
+  ]
+}

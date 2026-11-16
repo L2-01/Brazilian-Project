@@ -1,0 +1,28 @@
+{
+  "name": "Chifre de Comando",
+  "icon": "goety:command_horn",
+  "category": "goety:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Chifre de Comando permite mudar as posturas de movimento dos seus servos que estiverem a até 4 blocos de você, e vem com vários modos que podem ser alternados agachando e clicando com o botão direito enquanto o segura."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:command_horn"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "No modo Nenhum, o chifre faz os servos alternarem entre Aguardando e Seguindo. Nos outros, ele fará todos os servos próximos entrarem no modo em que o chifre está configurado."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você também pode clicar com o botão direito em um bloco para que eles se movam até ele, a menos que os servos estejam vigiando e o chifre não esteja no modo Vigiando. Porém, servos que já foram comandados ou que fazem parte de um $(l:crafts/grimoire_of_grounding)Grimório de Aterramento$() não são afetados pelo chifre."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:patrol_plan",
+      "text": "Usar um Chifre de Comando no modo Nenhum enquanto segura um $(l:crafts/patrol_plan)Plano de Patrulha$() preenchido na mão secundária fará todos os servos selecionados patrulharem as posições. Tocá-lo enquanto agacha e clica com o botão direito fará os servos selecionados pararem de patrulhar."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Lentidão",
+  "icon": "minecraft:soul_sand",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Lentidão$() diminui a velocidade de movimento do alvo em 15% por nível. $(br2)É feita a partir de uma poção de $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/speed)Velocidade$() ou $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/jump_boost)Supersalto$(). $(br2)Veja a seguir as Combinações de Catalisadores."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Lentidão a partir de Velocidade",
+      "a.recipe": "bloodmagic:flask/speed_to_slow",
+      "b.heading": "Lentidão de Supersalto",
+      "b.recipe": "bloodmagic:flask/jump_to_slow"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Lentidão(8:00)",
+      "a.recipe": "bloodmagic:flask/length_slowness",
+      "b.heading": "Lentidão II(1:30)",
+      "b.recipe": "bloodmagic:flask/potency_slowness"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Lentidão III(0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_slowness",
+      "b.heading": "Lentidão(21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_slowness"
+    }
+  ]
+}

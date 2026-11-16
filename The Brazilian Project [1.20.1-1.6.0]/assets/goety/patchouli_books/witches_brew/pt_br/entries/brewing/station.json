@@ -1,0 +1,26 @@
+{
+  "name": "Estação de Trabalho",
+  "icon": "goety:witch_pole",
+  "category": "goety:brewing",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Existem jeitos de melhorar sua estação de preparo para gastar menos energia! Primeiro, certifique-se de que está preparando num Pântano! É uma terra boa e úmida, cheia de insetos maravilhosos!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:witch_pole",
+      "text": "Um Poste de Bruxa ajuda a reduzir a quantidade de energia necessária para fazer uma poção quando colocado a até 8 blocos de um Caldeirão de Bruxa. Só até 3 Postes concedem o efeito. Se estiver usando um Kit de Taglock ou um Obelisco no seu caldeirão, cada um deles também aumenta o alcance do caldeirão! Ora, com 3 deles, você pode fazer a poção cair em qualquer lugar! Contanto que esse lugar esteja na mesma dimensão, é claro."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cat{variant:all_black}",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Já se perguntou por que às vezes temos gatos pretos por perto? Além de fazer companhia, ter um gato preto perto de um Caldeirão de Bruxa adiciona 25%% de chance de conceder uma poção extra!"
+    }
+  ]
+}

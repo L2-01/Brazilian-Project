@@ -1,0 +1,25 @@
+Esteiras
+Quem precisa de trilhos mesmo?
+<&conveyor_recipes>Esteiras são um método fácil e sem energia de mover coisas pelo mundo.<br>
+Esteiras movem qualquer coisa que outras criaturas possam empurrar e várias que não podem, sendo itens seu objetivo principal. Outras criaturas como vacas e ovelhas também podem ser movidas, mas não interagirão com alguns designs específicos de itens.<br>
+Itens derrubados sobre esteiras se movem pela esteira, e itens podem ser soltos sobre elas por dispositivos como funis ou tubos.<br>
+Se itens forem empurrados contra um inventário com espaço, serão inseridos nele. Caso contrário, acumularão do lado de fora.<br>
+Acúmulos de itens em esteiras podem deixar comida apodrecer ou comportamentos semelhantes, disparados por itens parados na esteira sem espaço para novos itens se moverem.<br>
+O Martelo de Engenheiro pode ser usado para girar as esteiras (botão direito) ou ajustar se devem subir ou descer (agachar + botão direito).<br>
+Clicar numa esteira com qualquer corante colore as paredes da esteira para identificação.<np>
+<&conveyor_redstone_recipe>Esteiras Controladas por Redstone são as que podem ser desativadas com um sinal de redstone.<br>
+Essas esteiras se movem sem sinal de redstone e não podem ser alteradas com a Chave de Fenda de Engenheiro.<np>
+<&conveyor_dropper_recipe>Esteiras Despejadoras têm uma abertura no meio e permitem que itens caiam para baixo.<br>
+Os itens serão inseridos em inventários abaixo ou simplesmente derrubados se houver espaço vazio sob a esteira.<br>
+A abertura pode ser fechada com um sinal de redstone.<np>
+<&conveyor_extract_recipe>Esteiras Extratoras extraem itens de um inventário de forma semelhante a funis.<br>
+Agachar + clicar com o Martelo de Engenheiro muda seu lado de entrada.<br>
+Use a Chave de Fenda de Engenheiro para ajustar a velocidade de extração.<np>
+<&conveyor_vertical_recipe>Esteiras Verticais podem carregar materiais direto para cima, não só em ângulos como as esteiras comuns.<br>
+Usando as caçambas presas à esteira, ela ergue objetos direto para cima. Apesar do uso do termo "caçamba", ela não ergue fluidos.<br>
+Esta esteira pode inserir em inventários acima dela ou simplesmente expelir itens pela borda no topo sobre outras esteiras.<np>
+<&conveyor_splitter_recipe>Esteiras Divisoras alternam entre redirecionar objetos e criaturas para a esquerda e direita.<br>
+Ela não divide pilhas de itens coletados juntos, apenas direciona pilhas para a esquerda ou direita, assim como outras entidades.<np>
+<&conveyor_covered_recipe>Esteiras Cobertas funcionam exatamente como esteiras normais, mas são cobertas por uma peça de andaime, que impede entidades de recolher itens dela.<br>
+Você pode clicar nela com outros tipos de andaime ou vidro para mudar a aparência da cobertura.<np>
+<&conveyor_other_covered_recipes>Da mesma forma, as Esteiras Despejadoras, Extratoras, Divisoras e Verticais também podem ser cobertas com andaime para obter os mesmos benefícios de "prevenção de coleta" enquanto funcionam normalmente.

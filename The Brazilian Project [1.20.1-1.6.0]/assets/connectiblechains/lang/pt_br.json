@@ -1,0 +1,20 @@
+{
+  "entity.connectiblechains.chain_knot": "Nó de Corrente",
+  "message.connectiblechains.connectible_chain": "Compatível com Catenária [Shift]",
+  "message.connectiblechains.connectible_chain_detailed": "Clique em cercas/muros para criar uma catenária!",
+  "entity.connectiblechains.chain_collision": "Colisão de Corrente",
+  "text.autoconfig.connectiblechains.option.chainHangAmount": "Curvatura da Corrente",
+  "text.autoconfig.connectiblechains.option.maxChainRange": "Distância Máxima da Corrente",
+  "text.autoconfig.connectiblechains.option.quality": "Qualidade da Corrente",
+  "text.autoconfig.connectiblechains.option.chainHangAmount.@Tooltip[0]": "Afeta o quanto a corrente fica suspensa.",
+  "text.autoconfig.connectiblechains.option.chainHangAmount.@Tooltip[1]": "Números menores resultam em uma curva maior.",
+  "text.autoconfig.connectiblechains.option.chainHangAmount.@Tooltip[2]": "A colisão será atualizada em correntes novas ou no carregamento do mundo.",
+  "text.autoconfig.connectiblechains.option.showToolTip": "Mostrar Tooltip de Compatibilidade de Catenária",
+  "text.autoconfig.connectiblechains.option.showToolTip.@Tooltip": "Mostra tooltip sobre itens de corrente compatíveis com este mod.",
+
+  "text.autoconfig.connectiblechains.option.maxChainRange.@Tooltip[0]": "Afeta o comprimento máximo de uma corrente.",
+  "text.autoconfig.connectiblechains.option.maxChainRange.@Tooltip[1]": "§nAviso§r: correntes longas às vezes podem ficar invisíveis!",
+  "text.autoconfig.connectiblechains.option.quality.@Tooltip": "Afeta a qualidade visual da corrente.",
+  "text.autoconfig.connectiblechains.title": "Configurações do Connectible Chains",
+  "tag.item.connectiblechains.catenary_items": "Itens de catenária"
+}

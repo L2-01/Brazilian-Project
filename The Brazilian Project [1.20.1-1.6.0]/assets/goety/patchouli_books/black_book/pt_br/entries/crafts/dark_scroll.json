@@ -1,0 +1,21 @@
+{
+  "name": "Pergaminho Sombrio",
+  "icon": "goety:dark_scroll",
+  "category": "goety:crafts",
+  "advancement": "goety:goety/get_totem",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você ouviu sussurros de um Illager de Alta Patente, e de como ele ocasionalmente chama ou atende aos chamados de outros Illagers para dar comandos e conselhos. Você acredita que eles guardam algo muito poderoso que pode aumentar seus poderes mágicos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_scroll",
+      "text": "Com o Totem do Invocador, você pode enganar um desses Illagers para que atenda ao seu chamado."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "(Equipamento recomendado: Armadura Encantada)"
+    }
+  ]
+}

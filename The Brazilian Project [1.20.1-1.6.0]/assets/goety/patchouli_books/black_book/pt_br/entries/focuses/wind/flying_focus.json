@@ -1,0 +1,23 @@
+{
+  "name": "Foco de Voo",
+  "icon": "goety:flying_focus",
+  "category": "goety:focuses/wind",
+  "advancement": "minecraft:end/elytra",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com o poder do gracioso dragão e o domínio da Élitro, você conseguiu refinar o Foco de Lançamento para voar de verdade com sua varinha ou cajado (segurando o botão direito do mouse)."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/flying_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/wind_staff)Cetro dos Ventos$() fará você voar mais rápido."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:flying_focus": 1
+  }
+}

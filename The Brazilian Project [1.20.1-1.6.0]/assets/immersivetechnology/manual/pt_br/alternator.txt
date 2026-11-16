@@ -1,0 +1,10 @@
+Alternador
+Grande e Potente!
+<&multiblock>O Alternador converte energia mecânica em Flux e pode alimentar muito mais do que um único Gerador a Diesel.
+
+
+
+Precisa de entrada rotacional de uma fonte de energia mecânica — uma §lTurbina a Vapor§r ou §lTurbina a Gás§r — conectada na parte traseira. A saída fica na frente à esquerda e à direita; produz até <config;i;alternator.alternator_max_output> Flux/t dependendo da velocidade do rotor. O buffer interno armazena <config;i;alternator.alternator_energy_capacity> Flux. Um comparador ligado a qualquer bloco externo emite sinal proporcional ao nível de energia atual.
+
+Turbina a Vapor com Alternador
+<&diagram>

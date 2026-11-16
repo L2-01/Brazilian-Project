@@ -1,0 +1,18 @@
+{
+  "name": "Autolyzer",
+  "icon": "complicated_bees:autolyzer",
+  "category": "complicated_bees:machines",
+  "advancement": "complicated_bees:analyzer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O autolyzer é a forma em bloco de um $(l:complicated_bees:genetics/analyzer)Analisador.$() Ele pode interagir com funis e outras opções de transporte de itens e só permite que espécimes analisados sejam extraídos dele."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:autolyzer",
+      "title": "Autolyzer",
+      "text": "$(o)Já rodei muito por aí$()"
+    }
+  ]
+}

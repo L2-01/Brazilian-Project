@@ -1,0 +1,15 @@
+{
+  "name": "Compactador Químico",
+  "icon": "alchemistry:compactor",
+  "category": "alchemistry:compactor_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O compactador é uma máquina energizada que permite formar itens simples compactando seus componentes.$(br2)$(o)Das notas do Professor Warren: A forma mais simples de manipulação atômica é montar um elemento ou composto numa forma mais conveniente: pós, e afins. Mais pistões, e tudo se espreme junto."
+    },
+    {
+      "type": "crafting",
+      "recipe": "alchemistry:compactor"
+    }
+  ]
+}

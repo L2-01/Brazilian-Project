@@ -1,0 +1,38 @@
+{
+  "name": "Colunas",
+  "icon": "caupona:calcite_ionic_column_capital",
+  "category": "caupona:intro",
+  "sortnum": 31,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Colunas são onipresentes na arquitetura greco-romana. A Caupona oferece três ordens compostas de colunas, em quatro materiais: quartzo, calcita, pedra e tufo félsico."
+    },
+    {
+      "type": "text",
+      "text": "Colunas são compostas de três partes: capitel, fuste e plinto. Podem ser feitas dos respectivos materiais no cortador de pedra. Em especial, colunas de quartzo exigem blocos de quartzo liso."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:calcite_ionic_column_capital",
+      "text": "Uma coluna jônica tem capitel espiralado clássico e fuste canelado."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:calcite_tuscan_column_capital",
+      "text": "Uma coluna toscana não tem entalhes complicados no capitel, e o fuste não é canelado. Seu efeito visual é relativamente simples."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:calcite_acanthine_column_capital",
+      "text": "Esta ordem de coluna não existe na realidade, tendo como protótipo a ordem coríntia. Uma coluna acantina tem fuste canelado e padrão em relevo que lembra folhas no capitel."
+    },
+    {
+      "type": "image",
+      "images": [
+        "caupona:textures/gui/entries/columns.png"
+      ],
+      "text": "Exemplo de colunas"
+    }
+  ]
+}

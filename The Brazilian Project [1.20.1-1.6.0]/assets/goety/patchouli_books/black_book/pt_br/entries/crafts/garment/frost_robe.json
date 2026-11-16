@@ -1,0 +1,28 @@
+{
+  "name": "Vestes de Gelo",
+  "icon": "goety:frost_robe",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As Vestes de Gelo imbuem o usuário com o poder de tudo que é frio. Os usuários nunca congelarão, serão resistentes a ataques de Congelamento e poderão se mover livremente pela Neve em Pó. As Vestes também tornam os Feitiços de Gelo mais baratos."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:frost_robe"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:frost_crown"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Coroa de Gelo reduz pela metade o tempo para conjurar feitiços de Gelo e impede que certos servos de gelo morram como Obsessores."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:frost_robe": 1,
+    "goety:frost_robe_cryo": 1,
+    "goety:frost_crown": 2
+  }
+}

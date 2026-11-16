@@ -1,0 +1,35 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:biome_stone",
+    "name": "Blocos de Bioma",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Os $(d)Blocos de Bioma$() mudam de cor para combinar com o bioma em que estão."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:biome_stone"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:biome_cobblestone"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:biome_bricks"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:biome_bricks_cracked"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:biome_bricks_chiseled"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:biome_glass"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "guide.animus.entry.ritual_endless_greed",
+  "icon": "bloodmagic:masterritualstone",
+  "category": "animus:rituals",
+  "sortnum": 22,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(thing)Ritual da Ganância Infinita$() é o companheiro perfeito para qualquer fazenda de criaturas. Ele intercepta os itens largados por criaturas mortas e os transfere diretamente para um recipiente, mantendo sua fazenda limpa e eficiente."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Configuração do Recipiente",
+      "text": "Coloque um $(thing)recipiente$() (baú, barril, funil, etc.) $(bold)diretamente em cima$() da Pedra de Ritual Mestra — exatamente um bloco acima.$(br2)Qualquer bloco com capacidade de armazenamento de itens funciona, incluindo armazenamento de mods.$(br2)$(bold)Dica:$() Conecte a um sistema de armazenamento maior via funil ou cano embaixo."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Coleta de Itens",
+      "text": "Quando uma criatura morre dentro do alcance, seus itens largados são $(bold)imediatamente$() transferidos para o recipiente em vez de surgirem no mundo.$(br2)$(li)$(bold)Recipiente presente:$() Itens inseridos$(br)$(li)$(bold)Recipiente cheio:$() Excesso destruído$(br)$(li)$(bold)Sem recipiente:$() Todos os itens destruídos$(br2)Itens já no chão também são coletados periodicamente."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Coleta de XP",
+      "text": "Orbes de experiência dentro do alcance são coletados automaticamente a cada segundo.$(br2)Se um $(thing)Tomo de Peritia$() estiver presente no recipiente, todo o XP coletado é armazenado no primeiro tomo encontrado.$(br2)Se não houver tomo, os orbes de XP são simplesmente removidos para evitar acúmulo de lag."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos e Alcance",
+      "text": "$(bold)Ativação:$() 5.000 LP$(br)$(bold)Manutenção:$() 5 LP por segundo$(br)$(bold)Por Item:$() 1 LP por item coletado$(br2)$(bold)Alcance:$() 15 blocos horizontais$(br)$(bold)Altura:$() 5 blocos acima do ritual$(br2)Todos os valores são configuráveis."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Runas Necessárias",
+      "text": "Este ritual usa uma configuração plana $(bold)sem runas de Crepúsculo$():$(br2)$(li)4x $(thing)Runas de Terra$() — cruz interna$(br)$(li)4x $(thing)Runas de Fogo$() — diagonais$(br)$(li)4x $(thing)Runas de Água$() — cardeais externas$(br)$(li)4x $(thing)Runas de Ar$() — cantos externos$(br2)$(italic)A ganância consome tudo que cai em seu alcance.$()"
+    }
+  ]
+}

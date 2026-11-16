@@ -1,0 +1,25 @@
+{
+  "name": "Bigorna Sombria",
+  "icon": "goety:dark_anvil",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/craft_dark_ingot",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Lidar com bigornas pode ser bem irritante. Além de poderem quebrar, elas exigem muita experiência e têm um limite de quanto podem receber. Com a Liga Sombria, você consegue criar uma Bigorna muito melhor."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark/dark_anvil"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Bigorna Sombria pode se autorreparar quando colocada sobre uma $(l:intro/cursed_cage)Jaula Amaldiçoada$(), da qual ocasionalmente tira uma grande quantidade de Energia de Almas para se consertar. Usar a Bigorna Sombria não multiplica o custo de reparo do item por 2, apenas soma 1. Em vez de impedir que você repare/encante itens se o custo de níveis for alto demais, o custo ficará no limite de níveis, permitindo usar o item na bigorna de qualquer forma."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:chipped_dark_anvil": 1,
+    "goety:damaged_dark_anvil": 1
+  }
+}

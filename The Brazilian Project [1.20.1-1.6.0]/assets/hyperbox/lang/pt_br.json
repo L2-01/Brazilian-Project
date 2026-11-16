@@ -1,0 +1,15 @@
+{
+	"block.hyperbox.hyperbox": "Hyperbox",
+	"block.hyperbox.hyperbox_preview": "Hyperbox",
+	"block.hyperbox.aperture": "Abertura",
+	"menu.hyperbox": "Criar Dimensão Hyperbox",
+	"menu.hyperbox.edit_dimension": "ID da Dimensão",
+	"menu.hyperbox.edit_name": "Nome da Hyperbox",
+	"menu.hyperbox.use_default_name_checkbox": "Usar Nome Padrão",
+	"menu.hyperbox.save_and_enter": "Salvar e Entrar",
+	"menu.hyperbox.save_and_exit": "Salvar e Sair",
+	"menu.hyperbox.dimension_id_in_use": "O ID da dimensão já está em uso",
+	"menu.hyperbox.message.no_id": "Falha ao criar a dimensão hyperbox: ID de dimensão ausente ou vazio",
+	"menu.hyperbox.message.invalid_id": "Falha ao criar a dimensão hyperbox: caractere fora de [a-z0-9/._-] no caminho do local: %s",
+	"menu.hyperbox.message.existing_id": "Falha ao criar a dimensão hyperbox: o ID de dimensão já existe: %s"
+}

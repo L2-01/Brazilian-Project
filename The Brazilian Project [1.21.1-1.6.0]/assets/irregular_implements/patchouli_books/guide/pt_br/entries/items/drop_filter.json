@@ -1,0 +1,19 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:drop_filter",
+    "name": "Filtro de Itens Largados",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Filtro de Itens Largados$() pode conter um $(l:irregular_implements:filter/item_filter)Filtro de Item$(/l) e impedirá que itens correspondentes ao filtro entrem no seu inventário.$(br2)O $(d)Filtro de Itens Largados Aniquilador$() faz o mesmo, mas em vez disso exclui por completo os itens correspondentes ao filtro."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:drop_filter"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:voiding_drop_filter"
+        }
+    ]
+}

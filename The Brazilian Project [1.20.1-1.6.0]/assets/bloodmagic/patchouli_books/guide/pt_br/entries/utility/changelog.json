@@ -1,0 +1,461 @@
+{
+  "name": "Registro de Alterações",
+  "icon": "minecraft:map",
+  "category": "bloodmagic:utility",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Todos os changelogs do $(6)Blood Magic$() até hoje, do mais recente ao mais antigo."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.3.8",
+      "text": "Corrigido: $(li)$(thing)Meteoros$() devem cair um pouco mais suavemente agora, e são menos propensos a atravessar espontaneamente blocos que estiverem no caminho."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.3.7",
+      "text": "Corrigido: $(li)Mudanças recentes na lógica do $(l:bloodmagic:alchemy_array/sigil/holding)Selo de Retenção$() faziam com que ele pudesse às vezes se transformar num dos selos que estava segurando. O $(thing)Selo de Retenção$() agora é melhor em segurar $(thing)Selos, particularmente o $(l:bloodmagic:alchemy_array/sigil/lava)Selo de Lava$() e o $(l:bloodmagic:alchemy_array/sigil/water)Selo de Água$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.3.6",
+      "text": "Adicionado:$(li)$(l:alchemy_array/living_equipment/living_tomes)Tomos de Upgrade$() com o mesmo Upgrade ou Downgrade agora podem ser combinados numa grade de criação para somar seus pontos$(li)$(l:bloodmagic:utility/commands)Comandos$() para manipular a $(l:bloodmagic:altar/soul_network)Soul Network$() de um jogador$(li2)Atualmente \"bloodmagic network <username> <add/query/reset/set> [amount]\" para ler ou escrever a LP de um jogador.$(li2)$(thing)Add$() adiciona uma quantidade, $(thing)Query$() retorna o valor atual, $(thing)Reset$() zera, $(thing)Set$() define uma quantidade"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)O tanque de entrada da $(l:bloodmagic:utility/alchemical_reaction_chamber)ARC$() pode ser esvaziado colocando $(thing)baldes$() ou outros itens de manuseio de fluido no slot de balde de entrada. Ele também tentará transferir o máximo possível em vez de só 1 balde por vez$(li)Os tanques da ARC agora podem ser interagidos diretamente no mundo. Ordem de operações tentada: Encher tanque de entrada > Esvaziar tanque de saída > Esvaziar tanque de entrada > Abrir GUI$(li)O $(l:bloodmagic:alchemy_array/sigil/ice)Selo do Lago Congelado$() agora é criável$(li2)Por padrão, este tier-3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "a receita usa gelo compactado, um bloco de neve, uma bola de neve e água para fazer o $(item)Reagente de Gelo$(), e uma ardósia infundida para fazer o próprio Selo.$(li2)Funciona como o encantamento Andar Congelante quando ativo.$(li)$(item)Tau Fraco$() e $(item)Tau Saturado$() agora contam para a tranquilidade ao construir o $(l:bloodmagic:utility/incense_altar)Altar de Incenso$()$(li)As $(item)variantes de froglight$() agora são válidas no lugar de $(item)pedra-luminosa$() para o altar$(li)opções de configuração em bloodmagic-common.toml para o custo de LP de todos os selos"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Traduções da comunidade! Atualmente implementamos Chinês Simplificado (zh_CN), obrigado a Rain-Flying. Se você quiser ajudar a contribuir com um idioma para o pack, ou melhorar um idioma existente, entre no nosso $(l:https://discord.gg/VtNrGrs)Discord$()!$(li)Compatibilidade com proteção de blocos (ex.: ftbchunks e afins). As $(l:bloodmagic:demon_will/demonic_items/explosive_charges)cargas de mineração$(), o $(l:bloodmagic:rituals/ritual_list/ritual_magnetic)Ritual do Magnetismo$(), e outras coisas que afetam ou modificam blocos agora respeitam times e claims. Donos de servidor, comemorem!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionado suporte a alagamento no $(l:bloodmagic:alchemy_array/sigil/water)Selo de Água$(), e impedido que os Selos de Água e $(l:bloodmagic:alchemy_array/sigil/lava)Lava$() apaguem blocos em certos casos de canto"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Corrigido:$(li)corrigido um crash que quebrava o mundo com o ritual $(l:bloodmagic:rituals/ritual_list/ritual_harvest)Ceifa da Lua da Colheita$() se encontrasse um TileEntity no seu alcance quando o $(thing)AgriCraft$() *não* estiver instalado$(li2)Se seu mundo foi afetado por isso, vá em 'forge-server.toml' e defina 'removeErroringBlockEntities' como 'true'. Inicie seu mundo e confirme que está rodando, depois defina isso"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)O efeito de poção '$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)voo$()' agora desaparece corretamente quando jogadores bebem um balde de $(item)leite$() (ou o encerram prematuramente)$(li)O $(l:bloodmagic:rituals/ritual_list/ritual_crafting)Ritmo da Bigorna Batente$() não verificava se a receita era válida e simplesmente produzia o resultado. A verificação de receita foi adicionada, então agora você precisa mesmo dos ingredientes corretos$(li)Os $(l:bloodmagic:demon_will/item_routing/composite_item_filter)Filtros de Itens Compostos$() não funcionavam, agora funcionam"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Aparentemente o $(thing)Oculus$() entende _s como 'shader' e ajudadamente remove tais instâncias do mapa de texturas. Infelizmente todos os nossos blocos da variante $(steadfast)Resoluta$() terminavam em _s. Renomeamos para _steadfast como resultado$(li)$(l:bloodmagic:altar/soul_network)Orbes de Sangue$() podiam ser usados sem sofrer dano enquanto durasse a proteção de surgimento. Agora faz a mesma coisa que o resto das coisas de sacrifício e primeiro remove a invulnerabilidade"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)melhoradas as interações de automação de itens para a Forja do Fogo Infernal. Mais sobre isso $(l:bloodmagic:demon_will/will_manipulation/soul_forge)aqui$()$(li)Aglomerados totalmente crescidos do $(thing)MagiChem$() foram adicionados à etiqueta geode_harvestable para funcionar com o $(l:bloodmagic:rituals/ritual_list/ritual_geode)Ritual da Recompensa do Geodo$() de fábrica, em vez de exigir um datapack. Os blocos brotantes já estão na etiqueta forge:budding que já faz parte de geode_acceleratable"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)forge:storage_blocks/hellforged — etiquetas de bloco e item foram adicionadas à respectiva etiqueta forge:storage_blocks$(li)impede um crash ao abrir a tela de posição do HUD Editado enquanto se olha para uma entidade$(li)$(l:bloodmagic:alchemy_table/anointments/silk_touch_anointment)Revestimento Suave$() não anula mais o conteúdo de $(item)caixas de shulker$() (ou outras tile-entities)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l:bloodmagic:alchemy_array/sigil/teleposition)Selo de Teleposição$() agora te teleporta ao clicar num bloco que não seja um $(l:bloodmagic:utility/teleposer)telepositor$() também. Ele agora também se verifica em busca de um destino quando dentro de um $(l:bloodmagic:alchemy_array/sigil/holding)Selo de Retenção$()$(li)$(l:bloodmagic:rituals/ritual_diviner)adivinhador de ritual$() e $(l:bloodmagic:rituals/ritual_tinkerer)ajustador$() agora podem ser alternados mesmo olhando para um bloco (que não seja pedra de ritual mestre)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionada uma verificação para impedir que arranjos de alquimia dupliquem itens$(li)bloodmagic:geode_harvestable agora adiciona forge:clusters como etiqueta em vez de um bloco, ou seja, o $(l:bloodmagic:rituals/ritual_list/ritual_geode)Ritual da Recompensa do Geodo$() vai funcionar de verdade com eles$(li)O ritual agora usa um jogador falso, então o quartzo certus realmente larga, em vez de ser anulado por não haver entidade passada à geração de itens largados"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.3.5",
+      "text": "$(li)Um Serializador de Receita faltante impedia jogadores de entrar em servidores. Foi encontrado e colocado onde pertence"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.3.4",
+      "text": "Preparem-se, esse é grande...Adicionado:$(li)Um novo ritual!$(li2)O $(l:bloodmagic:rituals/ritual_list/ritual_geode)Ritual da Recompensa do Geodo$() acelerará o crescimento de $(thing)blocos brotantes$() próximos e colherá automaticamente seus cristais, derrubando-os no chão.$(li)mais $(thing)opções de configuração$()!$(li2)LP por coração de sacrifício / autossacrifício pode ser ajustado"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li3)criaturas específicas também podem dar mais ou menos LP por coração de dano$(li3)criaturas específicas também podem ser bloqueados do $(l:bloodmagic:rituals/ritual_list/ritual_well_of_suffering)Poço do Sofrimento$() (se quiser permitir que sejam sacrificados manualmente)$(li2)O total de pontos de upgrade da $(l:bloodmagic:alchemy_array/living_equipment/living_basics)armadura viva$() agora pode ser configurado (padrão e evoluída)$(li2)adicionadas opções de configuração para o novo $(l:bloodmagic:rituals/ritual_list/ritual_geode)Ritual do Geodo$()$(li)esperem mais disso no 1.21"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Os $(l:bloodmagic:demon_will/item_routing/standard_item_filter)Filtros$() agora têm receitas para copiar ou limpar suas configurações$(li)A $(l:bloodmagic:rituals/ritual_list/ritual_harvest)Ceifa da Lua da Colheita$() agora suporta mais coisas!$(li2)Vanilla: bambu, alga, cana-de-açúcar, cacto e trepadeiras (normais, retorcidas e choronas)$(li2)Modded: $(l:https://github.com/AgriCraft/AgriCraft)Agricraft$(), $(l:https://github.com/BlakeBr0/MysticalAgriculture)Mystical Agriculture$()$(li)O ritual $(l:bloodmagic:rituals/ritual_list/ritual_green_grove)Bosque Verde$() e o $(l:bloodmagic:alchemy_array/sigil/grove)selo$() agora suportam $(thing)Agricraft$() (e funcionam como herbicida [altamente não-]natural!)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Receitas melhoradas no JEI para exibir melhor os requisitos da $(l:bloodmagic:alchemy_table/alchemy_table)Mesa de Alquimia$(), da $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Forja do Fogo Infernal$(), e do $(l:bloodmagic:altar/blood_altar)Altar de Sangue$() (com tooltips)$(li2)A $(thing)Mesa de Alquimia$() exibe a LP necessária para uma criação num tooltip$(li2)A $(thing)Forja do Fogo Infernal$() exibe a $(raw)Will$() necessária e consumida num tooltip$(li2)O $(thing)Altar de Sangue$() exibe o tier e a LP necessários$(li2)Todos dizem 'info' sob a seta para indicar ao jogador que passe o mouse"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)A $(thing)Forja do Fogo Infernal$() agora tem uma bandeirola que aparece quando você não tem will suficiente para criar uma receita$(li)Adicionadas mensagens de erro ao ritual $(l:bloodmagic:rituals/ritual_list/ritual_living_downgrade)Penitência da Alma Enchumbada$() para cobrir problemas comuns$(li2)Downgrade bloqueado pela $(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)pulseira de treinamento$(), item-chave insuficiente / pontos de upgrade no baú, nenhum baú presente"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionado comportamento de ejetor para $(l:bloodmagic:utility/life_essence_bucket)Baldes de Vida$()$(li2)Agora você pode Carregar pessoas no Minecraft!$(li)$(l:bloodmagic:alchemy_table/anointments)Unções$() agora podem ser aplicadas na $(thing)mesa de ferraria$(), para armas de duas mãos e outras situações em que você não consegue aplicar a unção do jeito previsto.$(li)Retrabalhado o $(thing)Meteoro do AE2$() no ritual $(l:bloodmagic:rituals/ritual_list/ritual_meteor)Marca da Torre Cadente$() para gerar $(thing)blocos de quartzo em brotamento$() (incluindo impecáveis, se você tiver sorte!)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionadas receitas para todos os $(l:bloodmagic:dungeons/demon_stone)blocos de masmorra$(), mais receitas para suas contrapartes aspectadas. Agora você também pode usar a feroz estética vermelha da masmorra!$(li)Adicionados alguns blocos de masmorra funcionais, incluindo o $(l:bloodmagic:dungeons/dungeon_eye)olho de masmorra$(), o $(l:bloodmagic:dungeons/dungeon_emitter)emissor de masmorra$(), o $(l:bloodmagic:dungeons/dungeon_alternator)alternador de masmorra$(), e a $(l:bloodmagic:dungeons/spike_trap)PLACA DE ESPINHOS ESMAGADORA$().$(li)Adicionados $(l:bloodmagic:demon_will/item_routing/upgrades)upgrades de velocidade$() para os nós de roteamento. Agora você pode mover mais itens E movê-los mais rápido!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionados mais usos para a $(l:bloodmagic:utility/hydration)célula de hidratação$(), incluindo deixar cobre mais estragado e cimento menos poeirento.$(li)Ejetores agora podem arremessar $(l:bloodmagic:demon_will/will_manipulation/soul_snare)alçapões de almas$()$(li)As $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Ferramentas Conscientes$() agora têm 2 tiers superiores, desbloqueados em 2k e 4k de $(raw)Will$() respectivamente, que melhoram ainda mais seus atributos, deixando-as alinhadas com a $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Espada Consciente$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Corrigido:$(li)$(l:bloodmagic:dungeons/mimics)Blocos mímicos$() agora renderizam corretamente quando não receberam um bloco para imitar$(li)Adicionados modelos para $(thing)capitéis de pilar de inversão$()$(li)Corrigida uma interação com os $(l:bloodmagic:dungeons/endless_realm)rituais de masmorra$() e certos mods de otimização (como Better Chunk Loading) que impedia as masmorras de funcionar.$(li)Corrigido um crash com o $(l:bloodmagic:rituals/ritual_list/ritual_placer)Domínio do Preenchedor$()$(li)Corrigida uma falha de duplicação com o $(thing)Altar de Sangue$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l:bloodmagic:utility/lava_crystal)Cristais de lava$() não perdem mais seu vínculo quando usados na $(l:bloodmagic:utility/alchemical_reaction_chamber)ARC$() em modo fornalha$(li2)$(thing)cristais de lava$() desvinculados não são mais uma fonte de combustível gratuita para a $(thing)ARC$(). Desculpe!$(li2)Itens também não ficam mais com durabilidade negativa ao serem usados na $(thing)ARC$().$(li)Comparadores não têm mais um valor de redstone > 15 ao medir o nível de preenchimento da sua soul network."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li2)Corrige um crash ao colocar / olhar para comparadores ao lado de $(thing)Altares de Sangue$() com certos mods estilo WALIA/TOP.$(li)O $(l:bloodmagic:alchemy_array/sigil/suppression)Selo de Supressão$() não deixa mais $(thing)Blocos Espectrais$() espalhados por aí$(li2)Estava causando crashes e potencial corrupção de mundo$(li2)Pode ser corrigido usando 'setblock' para transformar quaisquer blocos espectrais remanescentes em ar$(li)Dummies do mod dummmmmmy estão na blacklist por padrão e dão 0 LP quando sacrificados."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Corrigido um problema de logspam / crash ao morrer vestindo $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$() com $(thing)Curios$() instalado$(li)$(thing)Runas reforçadas$() agora podem ser mineradas corretamente.$(li)Corrigido um crash ao ativar um $(l:bloodmagic:utility/teleposer)telepositor$() com um foco desvinculado dentro.$(li)A $(thing)ARC$() agora respeita a etiqueta 'unbreakable' ao usar itens com durabilidade.$(li2) Isso inclui a $(thing)Eternal Stella$()!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Configurar o HUD com o $(l:bloodmagic:alchemy_array/sigil/seer)Selo do Vidente$() / $(l:bloodmagic:alchemy_array/sigil/divination)Selo de Adivinhação$() / etc. agora deve salvar corretamente suas mudanças$(li)Adicionados alguns nomes faltantes, p.ex. $(l:bloodmagic:utility/life_essence_bucket)baldes de essência vital$()$(li)$(l:bloodmagic:dungeons/tau_fruit)Fruta Tau / Tau Saturado$() agora cresce corretamente (em vez de exigir farinha de osso)$(li)Reimplementado o efeito de poção $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/spectral_sight)Visão Espectral$()$(li)A estrutura do $(thing)Altar de Sangue$() agora é mais permissiva sobre o que conta como 'bloco sólido'"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "para fins de suportar seus blocos de pedra-luminosa/pedra-de-sangue.$(li2)Escadas, muros, cercas, até pilhas de placas agora funcionam para isso.$(li)A LP às vezes não salvava consistentemente no modo um jogador$(li)$(l:bloodmagic:alchemy_table/anointments/fortune_anointment)Extrato de Fortuna$() / $(l:bloodmagic:alchemy_table/anointments/silk_touch_anointment)Revestimento Suave$() não aniquilam mais $(thing)Caixas de Shulker$()$(li)$(l:bloodmagic:demon_will/demonic_items/explosive_charges#fungal_charge)Cargas fúngicas$() não usam mais uma etiqueta vazia na sua receita de criação"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)A $(l:bloodmagic:demon_will/demonic_items/sentient_tools#scythe)Foice Consciente$() está oficialmente 20% mais Foice-na. (e etiquetada como uma, também!)$(li)Retrabalhado o upgrade do $(l:bloodmagic:rituals/ritual_list/ritual_green_grove)Bosque Verde$() para $(steadfast)Will Resoluta$(), agora deve replantar sementes corretamente na colheita.$(li)Corrigidos os $(l:bloodmagic:demon_will/item_routing/standard_item_filter)filtros$() não salvando quantidades de itens corretamente$(li)$(l:bloodmagic:demon_will/demonic_items/explosive_charges)Cargas explosivas$() não perdem mais suas unções se seguradas na mão ao quebrar um bloco$(li)A $(raw)Will$() armazenada na $(thing)Aura$() do chunk não é mais perdida ao descarregar o chunk."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.3.3",
+      "text": "$(li)Atualizada a descrição do disco de música para creditar corretamente $(l:https://www.youtube.com/watch?v=lVwp8Z8eFYc)Firel$().$(li)Adicionado o upgrade de Armadura Viva $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/gilded)Dourado$(), que pacifica Piglins quando equipado. Treinado dando Lingotes de Ouro diretamente a piglins.$(li)Atualizadas as mensagens de morte ao morrer para o $(l:bloodmagic:rituals/ritual_list/ritual_well_of_suffering)Poço do Sofrimento$() ou a $(l:bloodmagic:altar/blood_altar#knife)Faca Sacrificial$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Desregistrado o item do $(l:bloodmagic:alchemy_array/sigil/suppression)Bloco Espectral$().$(li2)Parem de colocar coisas aleatórias fora dos seus mundos de teste! ;-;$(li)Modificadas algumas coisas diversas do $(thing)Curios$().$(li)Removido o fato de que dano sacrificial parava o momento."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.3.2",
+      "text": "$(li)Corrigidos o $(l:bloodmagic:alchemy_table/anointments/silk_touch_anointment)Revestimento Suave$() e o $(l:bloodmagic:alchemy_table/anointments/fortune_anointment)Extrato de Fortuna$(); aniquilar os itens largados não faz parte do \"preço final\"!$(li)Corrigida a caixa de texto do $(l:bloodmagic:demon_will/item_routing/routing_nodes)Nó de Roteamento$() para que possa ser editada corretamente.$(li2)Funcionalidade atualizada; agora você pode clicar com o botão direito na caixa de texto quando um item está selecionado no filtro para definir o filtro como \"Tudo\"."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Atualizada a implementação do Curios.$(li)Corrigido o guia não aparecer na aba de Criativo e no JEI.$(li)Removido um pouco de spam inútil no log."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.3.1",
+      "text": "$(li)Corrigido um crash que impedia o mod de funcionar em servidores."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.3.0",
+      "text": "$(li)Atualização inicial para MC 1.20.x! Esperem algumas quebras. Podem agradecer/culpar o chonky pelo lançamento!$(li)Verificações de renderização Curios/Elytra não checam mais especificamente por ItemLivingArmor. "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.2.6",
+      "text": "$(li)Alterada a renderização do $(l:bloodmagic:alchemy_array/sigil/holding)Selo de Retenção$() para exibir o Selo selecionado na mão.$(li)Adicionado um $(thing)novo disco de música$(), obtido nas $(l:bloodmagic:dungeons/endless_realm#mines)Minas$()!$(li)Modificadas várias texturas, e ajustadas as receitas das $(thing)Runas Reforçadas$() de acordo.$(li)Corrigido o ritual $(l:bloodmagic:rituals/ritual_list/ritual_harvest)Lua da Colheita$() para funcionar corretamente com $(thing)Fungo do Nether."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Modificado o framework de receitas da $(l:bloodmagic:rituals/ritual_list/ritual_meteor)Marca da Torre Cadente$() para facilitar melhor a criação de receitas customizadas.$(li2) Agora inclui suporte a fluidos!$(li)Adicionada documentação Patchouli para o ritual $(l:bloodmagic:rituals/ritual_list/ritual_crushing)Ritmo da Bigorna Batente$() (Ritual de Autocriação).$(li2)Desculpe a demora. Foi difícil, ok? — Wrince"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.2.5",
+      "text": "$(li)Corrigido para que a $(thing)Vara de Pesca$() realmente funcione.$(li)Não perguntem."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.2.4",
+      "text": "$(li)Implementado o ritual $(l:bloodmagic:dungeons/endless_realm)Caminho para o Reino Infinito$(), que dá acesso a uma versão maior das Masmorras Demoníacas! $(li2)$(thing)O Reino Infinito$() é uma masmorra extensa e proceduralmente gerada, cheia de baús repletos de loot e monstros que batem pesado! $(li2)Quem conseguir navegar por suas muitas câmaras pode encontrar $(l:bloodmagic:dungeons/demonite)Demonita$(), um minério que"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "não pode ser encontrado em nenhum outro lugar. $(li2)As masmorras atualmente têm duas regiões distintas: $(li3)A \"Zona de Entrada\", que contém uma ampla variedade de loot e monstros $(li3)As \"Minas Ocultas\", contendo uma reserva abundante de $(thing)Demonita$(), usada para alquimia avançada e para fortalecer o $(l:bloodmagic:altar/blood_altar)Altar de Sangue$() ao Tier 5. Acessível encontrando a \"Chave do Encarregado\" na Zona de Entrada."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li2)Se você cavar fundo o bastante na masmorra, uma \"Distorção Espacial\" pode ocasionalmente se formar; isso transforma uma das portas da sala numa que leva a uma sala rara da masmorra. $(li)Mais salas, tipos de salas e salas especiais virão para a Masmorra (eventualmente (em breve (tm)))! $(li)Adicionada a $(l:bloodmagic:dungeons/demonite)Demonita$(), que pode ser processada em Areia Forjada no Inferno e Lingotes Forjados no Inferno."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionadas $(l:bloodmagic:alchemy_table/anointments)unções$() mais avançadas, que oferecem duração aumentada (XL) ou efeito mais forte (III). $(li)Adicionados o \"Catalisador de Prolongamento Padrão\" e o \"Catalisador de Poder Padrão\", que aumentam ainda mais os efeitos das poções no Frasco Alquímico. $(li)Adicionadas ferramentas mais fortes para a $(l:bloodmagic:utility/alchemical_reaction_chamber)Câmara de Reação Alquímica$(), mais rápidas e duradouras que as anteriores. $(li2)Ressonador Forjado no Inferno $(li2)Célula Explosiva Forjada no Inferno $(li2)Fluido de Corte Avançado"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li2)Essas ferramentas também aumentam a chance de saídas bônus ao serem usadas. Por exemplo, um Fluido de Corte Intermediário dá 1,5x Areia de Ferro por Ferro Bruto, enquanto o Fluido de Corte Avançado dá 1,67x.$(br2)$(li)Adicionadas Cargas Explosivas Aprimoradas e ajustado o poder das versões anteriores. $(li2)$(l:bloodmagic:demon_will/demonic_items/explosive_charges#shaped_charge_2)Carga Modelada Aumentada$() — quebra um cubo de 7x7x7 blocos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li2)$(l:bloodmagic:demon_will/demonic_items/explosive_charges#shaped_charge_tunneling)Carga Modelada Escavadeira$() — quebra um trecho longo de 5x5x20 blocos. $(li2)$(l:bloodmagic:demon_will/demonic_items/explosive_charges#controlled_charge_2)Carga Controlada Aumentada$() — quebra até 8x64 blocos do mesmo tipo. $(li2)$(l:bloodmagic:demon_will/demonic_items/explosive_charges#deforester_charge_2)Carga Desflorestadora Aumentada$() — quebra até 8x64 troncos, limpando as folhas conectadas. $(li2)$(l:bloodmagic:demon_will/demonic_items/explosive_charges#fungal_charge_2)Carga Fúngica Aumentada$() — quebra até 8x64 blocos relacionados a cogumelos gigantes da Superfície e do Nether."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionadas $(l:bloodmagic:dungeons/endless_realm#hellforged_parts)Peças Forjadas no Inferno$(), que só podem ser encontradas como loot nas $(l:bloodmagic:dungeons/endless_realm#mines)Minas Ocultas$(). $(li2)Usadas para reforçar $(l:bloodmagic:altar/blood_rune)Runas de Sangue$(), dobrando o efeito da runa dada. $(li)Aumentada a taxa de $(l:bloodmagic:utility/ore_processing#corrupted_dust)Pó Corrompido Minúsculo$() ao usar o $(l:bloodmagic:utility/ore_processing#resonator)Ressonador$() na $(l:bloodmagic:utility/alchemical_reaction_chamber)Câmara de Reação Alquímica$(). $(li2)O $(thing)Pó Corrompido$() pode ser usado para aumentar o rendimento do minério desejado."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionado um novo recurso aos Selos de $(l:bloodmagic:alchemy_array/sigil/divination)Adivinhação$() e do $(l:bloodmagic:alchemy_array/sigil/seer)Vidente$(): ao agachar e ativar o selo, uma GUI se abre permitindo arrastar elementos individuais do HUD e salvar suas novas posições. $(li)Adicionadas novas unções: $(li2)$(l:bloodmagic:alchemy_table/anointments/weapon_repair_anointment)Pomada de Reparo$(), que repara levemente uma ferramenta danificada quando a ferramenta é usada.$(li2)$(l:bloodmagic:alchemy_table/anointments/voiding_anointment)Essência do Vazio$(), que destrói blocos mundanos minerados."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Também ajustado o $(l:bloodmagic:alchemy_table/anointments/hidden_knowledge_anointment)Segredos do Minerador$() para funcionar só em blocos que dão experiência, e só ser consumido quando experiência adicional é fornecida. $(li)Atualizadas várias texturas relacionadas ao processamento de minérios vanilla. $(li)Corrigido o atraso do $(l:bloodmagic:altar/blood_altar)Altar de Sangue$() após uma criação. O atraso entre o altar terminar uma criação e tentar iniciar outra agora é de 30 tiques. $(li)Corrigido o $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/body_builder)Fisiculturista$() para ser obtido corretamente."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Corrigido o manejo do $(thing)Fungo do Nether$() no ritual da $(l:bloodmagic:rituals/ritual_list/ritual_harvest)Colheita$(). $(li)Corrigida a $(l:bloodmagic:demon_will/demonic_items/sentient_tools#scythe)Foice Consciente$() para não ser feita de papel. Também causa dano de verdade agora! $(li)Permitido que a Foice Consciente receba o encantamento $(thing)Afiação$() ao encantar. $(li)Alterado o $(l:bloodmagic:rituals/ritual_list/ritual_feathered_knife)Ritual da Faca Emplumada$() para interagir com o upgrade vivo $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/tough_palms)Palmas Resistentes$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionadas $(l:bloodmagic:demon_will/demonic_items/throwing_daggers#amethyst_throwing_dagger)Adagas de Arremesso de Ametista$(), que causam o mesmo dano das $(l:bloodmagic:demon_will/demonic_items/throwing_daggers#iron_throwing_dagger)Adagas de Arremesso de Ferro$(). $(li2)Podem ser combinadas numa $(l:bloodmagic:utility/alchemical_reaction_chamber)ARC$() com um $(l:bloodmagic:alchemy_table/potions)Frasco Alquímico Prolongado$() para adicionar $(thing)efeitos de poção$() às adagas arremessadas. $(li)Adicionado o ritual retrabalhado $(l:bloodmagic:rituals/ritual_list/ritual_crafting)Ritmo da Bigorna Batente$(), que pode autocriar receitas vanilla. Quando aumentado, também simplifica a automação de receitas da $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Forja do Fogo Infernal$() e da $(l:bloodmagic:alchemy_table/alchemy_table)Mesa de Alquimia$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Alterada a $(l:bloodmagic:rituals/ritual_list/ritual_living_downgrade)Penitência da Alma Enchumbada$() para respeitar quaisquer $(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)Pulseiras de Treinamento$() equipadas no momento.$(li)Reimplementada a receita dos $(l:bloodmagic:utility/incense_altar)Caminhos de Obsidiana$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.2.3",
+      "text": "$(li)Corrigido o $(l:bloodmagic:alchemy_table/anointments/fortune_anointment)Extrato de Fortuna$() para aplicar corretamente sua $(thing)Fortuna$() adicional sob certas condições.$(li)Corrigido um crash com o $(l:bloodmagic:utility/teleposer)Telepositor$() que impedia $(thing)Entidades de Bloco$() de se moverem.$(li)Adicionada receita de fundição de areia de cobre > lingote de cobre, e receitas de alto-forno para todos os pós."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.2.2",
+      "text": "$(li)Corrigido o guia in-game de verdade dessa vez."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.2.1",
+      "text": "$(li)Corrigido o guia in-game para que as receitas carreguem corretamente.$(li)Corrigidos os $(thing)Arranjos de Alquimia$() não-criativos.$(li)Corrigidas a $(l:bloodmagic:rituals/ritual_list/ritual_meteor)Marca da Torre Cadente$() e o $(l:bloodmagic:rituals/ritual_list/ritual_magnetic)Ritual do Magnetismo$() para respeitar o limite de construção do mundo atual.$(li)Alteradas algumas texturas, como os $(thing)fragmentos de minério$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.2.0",
+      "text": "$(li)Lançamento inicial da 1.18.2.$(li)Alterada a $(l:bloodmagic:utility/alchemical_reaction_chamber)ARC$() para que a textura mude conforme a ferramenta usada e quando está ativa.$(li)Rebalanceadas algumas receitas devido às $(thing)Matérias-Primas$() que caem dos minérios base.$(li)Adicionado processamento de minério de cobre.$(li)Adicionado manejo de $(thing)Bagas Luminosas$() e $(thing)arbusto de bagas$() à $(l:bloodmagic:rituals/ritual_list/ritual_harvest)Ceifa da Lua da Colheita$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Problemas conhecidos:$(li)O guia in-game está quebrado em alguns pontos, principalmente ao ver receitas do mod como a criação do $(l:bloodmagic:altar/blood_altar)Altar de Sangue$().$(li)Blocos de $(l:bloodmagic:utility/life_essence_bucket)Essência Vital$() não têm o overlay adequado quando submersos em líquido."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.1.11",
+      "text": "$(li)Retrabalhado e implementado o sistema de $(l:bloodmagic:alchemy_table/potions)Frasco de Poção$()! Bem diferente das versões anteriores, então confira o guia. $(li)Novos (e antigos) efeitos de poção não-Vanilla incluem: $(li2)$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)Salto$()$(li2)$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/gravity)Gravidade$()$(li2)$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/grounded)Aterrado$()$(li2)$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)Suspenso$()$(li2)$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/heavy_heart)Coração Pesado$()$(li2)$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/passive)Passivo$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li2)$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/spectral_sight)Visão Espectral$()$(li2)$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/hard_cloak)Capa Dura$()$(li2)$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/obsidian_cloak)Capa de Obsidiana$()$(li2)$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)Voo$()$(li)Corrigido crash de servidor do ritual $(l:bloodmagic:rituals/ritual_list/ritual_condor)Reverência do Condor$(). $(li)Reimplementados os $(l:bloodmagic:utility/teleposer)Telepositores$(). Urra! $(li)Reimplementado o $(l:bloodmagic:alchemy_array/sigil/teleposition)Selo de Teleposição$(). $(li)Reimplementado o $(l:bloodmagic:alchemy_array/sigil/suppression)Selo de Supressão$(). $(li)Reimplementado o $(l:bloodmagic:demon_will/will_manipulation/aura#pylon)Pilão Demoníaco$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionados $(l:bloodmagic:demon_will/will_manipulation/will_catalysts)Catalisadores de Will$(), que podem ser aplicados a $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Aglomerados de Will Demoníaca$() para aumentar drasticamente sua taxa de crescimento. $(li)Alterada a $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Forja do Fogo Infernal$() para poder usar $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Will Aspectada$() em operações de criação. $(li)Modificado o $(l:bloodmagic:rituals/ritual_diviner)Adivinhador de Ritual$() para poder percorrer a lista de rituais ao contrário clicando com o botão esquerdo no ar. $(li)Adicionado um novo item, $(l:bloodmagic:demon_will/item_routing/upgrades)Upgrade de Lógica de Roteamento Básico$(), que aumenta a vazão total do sistema do $(l:bloodmagic:demon_will/item_routing/routing_nodes)Nó de Roteamento Mestre$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Reimplementados vários rituais: $(li2)$(l:bloodmagic:rituals/ritual_list/ritual_felling)Impacto do Lenhador$()$(li2)$(l:bloodmagic:rituals/ritual_list/ritual_sphere_create)Aurora da Lua Nova$()$(li2)$(l:bloodmagic:rituals/ritual_list/ritual_full_stomach)Ritual do Estômago Saciado$()$(li2)$(l:bloodmagic:rituals/ritual_list/ritual_speed)Ritual da Velocidade$()$(li2)$(l:bloodmagic:rituals/ritual_list/ritual_jump)Ritual do Salto Alto$()$(li2)$(l:bloodmagic:rituals/ritual_list/ritual_placer)Colocação do Preenchedor$()$(li2)$(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Convocação dos Condenados$() (retrabalhado) $(li2)$(l:bloodmagic:rituals/ritual_list/ritual_grounding)O Fardo do Pecador$() (renomeado de \"Ritual de Aterramento\")"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li2)$(l:bloodmagic:rituals/ritual_list/ritual_meteor)Marca da Torre Cadente$() (Novo sistema de meteoro! Oooh, brilhante~!) $(li)Adicionado um novo ritual, $(l:bloodmagic:rituals/ritual_list/ritual_yawning_void)Bocejo do Vazio$(). Usado para limpar completamente grandes áreas de blocos. $(li)Ajustada a receita das $(l:bloodmagic:demon_will/item_routing/filter_parts)Partes de Moldura$() para ficarem mais baratas."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.1.10-32",
+      "text": "$(li)Corrigida a receita para o Living Upgrade $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/brilliance)Brilliance$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.1.10",
+      "text": "$(li)Corrigido problema no lado do servidor que impedia receitas de carregar para certos tipos."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.1.9",
+      "text": "$(li)Adicionadas as receitas faltantes para alguns dos $(thing)Downgrades de Armadura Viva$(). $(li2)Sim, o Way é mesmo cego."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.1.8",
+      "text": "$(li)Tornado o $(thing)Patchouli$() uma biblioteca obrigatória. $(li)Reimplementado o ritual $(l:bloodmagic:rituals/ritual_list/ritual_living_downgrade)Penitência da Alma Enchumbada$(). Funciona de forma levemente diferente de antes. $(li)Reimplementados os seguintes Downgrades de Armadura Viva: $(li2)$(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/storm_trooper)Stormtrooper$() $(li2)$(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/battle_hungry)Fome de Batalha$() $(li2)$(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/quenched)Temperado$() $(li2)$(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/melee_decrease)Lâmina Cega$() $(li2)$(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/dig_slowdown)Picareta Enfraquecida$() $(li2)$(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/slow_heal)Doente$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li2)$(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/crippled_arm)Braço Aleijado$()$(li2)$(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/speed_decrease)Perna Manca$() $(li)Reimplementada a $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/repair)Reparação$() $(li)Adicionados os seguintes Upgrades/Downgrades de Armadura Viva: $(li2)$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/brilliance)Brilhância$() (Aumenta os valores de armadura e resistência da Armadura Viva) $(li2)$(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/swim_decrease)Sapatos de Concreto$() (Diminui a velocidade de nado) $(li)Diminuída a dureza das $(l:bloodmagic:demon_will/demonic_items/explosive_charges#shaped_charge)cargas modeladas$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Problema conhecido: Dessincronia entre servidor e cliente para o peitoral da $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$() sob certas condições. Ocorre quando o item é shift-clicado para fora do slot de peitoral do jogador. Não ocorre quando clicado sem shift. $(li)Apenas faz um item fantasma aparecer no inventário do cliente. Não afeta o desempenho da armadura."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.1.7",
+      "text": "$(li)Corrigido outro crash com a $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$(). Talvez eu tenha acertado dessa vez!"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.1.6",
+      "text": "$(li)Aumentado o alcance da $(l:bloodmagic:dungeons/tau_fruit)Planta Tau$() para 3x1x3 centrada na planta, facilitando o cultivo da versão Saturada. $(li)Corrigido crash com a $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$() sob certas condições.$(li)Corrigida a $(l:bloodmagic:altar/blood_altar#knife)Faca Sacrificial$() para respeitar mods de lápide e outros efeitos que ocorrem na morte. $(li)Corrigida a $(l:bloodmagic:altar/blood_altar#dagger_of_sacrifice)Adaga de sacrifício$() para respeitar eventos de morte da mesma forma."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.1.5",
+      "text": "$(li)Corrige crash no lado do cliente para a $(l:bloodmagic:alchemy_table/alchemy_table)Mesa de Alquimia$() em servidores. $(li)Feito o $(l:bloodmagic:alchemy_array/sigil/water)Selo de Água$() não funcionar no nether (ainda drena LP ao usar)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.1.4",
+      "text": "$(li)Corrigido um bug ao remover upgrades de nível máximo da $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$(). $(li)Corrigida uma dessincronia cliente-servidor com a contagem do $(item)filtro de itens$() $(li)Adicionada uma indicação sonora e visual para quando uma $(l:bloodmagic:alchemy_table/anointments)unção$() numa $(item)ferramenta$() se esgota. $(li)Incluídos avisos na $(l:bloodmagic:alchemy_table/alchemy_table#errors)GUI da Mesa de Alquimia$() que indicam se não há LP suficiente ou se o orbe está desvinculado/do tier errado."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionado o upgrade de Armadura Viva $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/elytra)Él litros$()! Él litros não incluídos. $(li)Adicionada a $(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)Pulseira de Treinamento$() para a $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$()! Agora você pode treinar os upgrades que quiser! $(li)Aumentada a durabilidade da $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$() ao nível de diamante, mas permitido que todas as peças exceto o peitoral quebrem."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.1.3",
+      "text": "$(li)A $(l:bloodmagic:utility/alchemical_reaction_chamber)Câmara de Reação Alquímica$() agora consumirá menos durabilidade de ferramentas com Inquebrável. A durabilidade é consumida com $(br)(1/(nivelInquebravel+1)) de chance. $(li)Corrigidas as capacidades de fluido da ARC. $(li)Feita com que a caixa de texto dos $(item)Filtros$() só aceite números. Também permitido que a tecla 'Delete' apague valores do campo de texto."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.1.2",
+      "text": "$(li)Reimplementados os $(l:bloodmagic:demon_will/item_routing/routing_nodes)Nó de Roteamento$()!$(li)Adicionado suporte a Curios para certos itens $(li)Adicionadas receitas para baldes de água e lava usando seus respectivos Selos (assim como alguns outros usos de Selos na Mesa de Alquimia) $(li)Corrigido o $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/gift_of_ignis)Dom de Ignis$() não reduzindo sua recarga quando não está em chamas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Permitido que os elementos de HUD do $(l:bloodmagic:alchemy_array/sigil/divination)Selo de Adivinhação$() e do $(l:bloodmagic:alchemy_array/sigil/seer)Selo do Vidente$() funcionem tanto na mão secundária quanto no $(l:bloodmagic:alchemy_array/sigil/holding)Selo de Retenção$(). Também permite que o $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Medidor de Aura Demoníaca$() funcione na mão secundária (por que você o teria na mão secundária, não sei dizer). $(li)Adicionadas as configs! Eba! $(li)Adicionado o Ritual '$(l:bloodmagic:rituals/ritual_list/ritual_zephyr)Chamado do Zéfiro$()'."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.1.1-16",
+      "text": "$(li)Corrigidas as $(l:bloodmagic:demon_will/demonic_items/throwing_daggers)Adagas de Arremesso$() para agirem como o tipo apropriado. $(li)Corrigido o alcance do $(l:bloodmagic:alchemy_array/sigil/magnetism)Selo de Magnetismo$() para ficar centrado no jogador. $(li)Corrigido o upgrade de $(l:bloodmagic:alchemy_array/living_equipment/living_upgrades)Armadura Viva$() 'Resistente' para ser obtido agora. Agora você pode se machucar por um motivo real! $(li)Corrigido um crash de NPE devido ao $(l:bloodmagic:rituals/ritual_list/ritual_armour_evolve)Ritual da Evolução Viva$(). O crash ocorria se um jogador equipasse um recém-criado"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)conjunto de Armadura Viva enquanto no ritual ativado. $(li)Adicionada a receita para o $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Medidor de Aura de Will Demoníaca.$() $(li)Alterado o comportamento dos $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)Tomos de Upgrade Vivo$(): $(li2)Os $(item)Tomos$() agora tentarão aplicar sua $(thing)EXP$() contida (não níveis) independentemente do nível atual ou do nível do $(item)Tomo$(). $(li2)Se a $(thing)EXP$() do $(item)Tomo$() o levaria além do limite de pontos da $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$(), a $(thing)EXP$() é adicionada até o máximo possível para aquele $(thing)Upgrade Vivo$(), menos um."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li2)A $(thing)EXP$() aplicada à $(item)Armadura Viva$() é drenada do $(item)Tomo$(), e a $(thing)EXP$() restante não é perdida. $(li2)Se a $(thing)EXP$() restante no $(item)Tomo de Upgrade Vivo$() estiver abaixo da quantidade necessária para ao menos um nível do respectivo upgrade, o $(item)Tomo$() é destruído. $(li)Blocos alagados agora contam como \"água\" para o Altar de Incenso. $(li)As $(l:bloodmagic:altar/blood_rune/aug_capacity_rune)Runas de Capacidade Aumentada$() usam sua fórmula anterior (o Livro voltou a estar correto)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Corrigido glitch de duplicação na $(l:bloodmagic:utility/alchemical_reaction_chamber)Câmara de Reação Alquímica$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.1.0-15",
+      "text": "$(li)Refatorada fortemente a progressão do mod. Em vez de começar com um $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Alçapão$(), você agora começa criando o $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(). As mudanças estão documentadas no guia, e você pode seguir a entrada $(l:bloodmagic:utility/getting_started)Primeiros Passos$()!$(li)Alterados os tooltips para cinza, diferenciando-os mais facilmente do nome do item."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionado o $(l:bloodmagic:alchemy_array/holding)Selo de Retenção$().$(li)Alterada a criação das $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gemas Tartáricas$() para que você não precise mais usar a gema do tier anterior no slot de gema.$(li2)A $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Forja do Fogo Infernal$() agora drena primeiro da gema na mesa de criação, e toda will não usada da gema consumida será colocada na gema criada."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Alterada a GUI da $(l:bloodmagic:alchemy_table/alchemy_table)Mesa de Alquimia$(). Veja a seção atualizada.$(li)Corrigido o $(l:bloodmagic:alchemy_table/anointments/looting_anointment)Brilho do Saqueador$() não aplicando corretamente o nível de Saque.$(li)Também corrigido um crash de NPE devido ao $(l:bloodmagic:alchemy_table/anointments/bow_power_anointment)Ponta de Ferro$(). Corrige alguns crashes devido a mods usando o evento ItemUsedFinish.$(li)Corrigido o $(l:bloodmagic:blood_altar/blood_altar)Altar de Sangue$() não conseguindo receber fluidos. Já era hora, Way!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionadas novas $(l:bloodmagic:demon_will/demonic_items/explosive_charges)Cargas Explosivas.$()$(li2)$(item)Carga Fúngica$(), muito útil para cogumelos gigantes e cogumelos do nether.$(li2)$(item)Carga Controlada$(), que destrói apenas blocos que correspondem ao bloco em que é colocada.$(li)Adicionada a capacidade de aplicar algumas Unções selecionadas às cargas. Apenas uma pode ser aplicada a uma carga por vez.$(li2)$(l:bloodmagic:alchemy_table/anointments/silk_touch_anointment)Revestimento Suave$()$(li2)$(l:bloodmagic:alchemy_table/anointments/fortune_anointment)Extrato de Fortuna$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li2)$(l:bloodmagic:alchemy_table/anointments/smelting_anointment)Óleo de Queima Lenta$()$(li)Corrigida a $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$() para que você não possa usar um tomo de upgrade para usurpar o limite de pontos.$(li2)Corrigidas as $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/strong_legs)Pernas Fortes$() para não rodarem mais o programa \"CrunchyLegs.exe\" — como resultado, você não sofre mais dano de queda ao pular no mesmo nível. Removida a mitigação direta de dano de queda das Pernas Fortes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionados dois tipos de $(l:bloodmagic:demon_will/demonic_items/throwing_daggers)Adagas de Arremesso$() ao arsenal ofensivo do Mago de Sangue.$(li2)$(item)Adaga de Arremesso de Ferro$()$(li2)$(item)Adaga de Arremesso de Seringa$()$(li)Refatorado o guia para fornecer +2 de awesomeness.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.0.6-11",
+      "text": " $(li)Reimplementado o $(l:bloodmagic:rituals/ritual_list/ritual_well_of_suffering)Poço do Sofrimento$(). $(li)Adicionados vários novos itens, chamados \"$(l:bloodmagic:alchemy_table/anointments)Unções$()\"! São itens que fornecem buffs temporários às suas ferramentas e armas, como toque suave, dano maior, e mais! Procure-os na seção Utilidade do livro. Incluem: $(li2)Óleo de Amolar $(li2)Revestimento Suave $(li2)Extrato de Fortuna $(li2)Água Benta"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li2)Segredos do Minerador $(li2)Alcaesto de Destreza $(li2)Ponta de Ferro $(li2)Brilho do Saqueador $(li2)Óleo de Queima Lenta $(li)Tornadas arremessáveis a $(l:bloodmagic:demon_will/demonic_items/explosive_charges#shaped_charge)Carga Modelada$() e a $(l:bloodmagic:demon_will/demonic_items/explosive_charges#deforester_charge)Carga Desflorestadora$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.0.5-10",
+      "text": "Corrigido um crash com o $(l:bloodmagic:altar/blood_altar)Altar de Sangue$() ao descarregar e ajustada a receita do $(l:bloodmagic:alchemy_array/functional_arrays/time_arrays)arranjo de Dia$() para usar $(item)Carvão$() em vez de $(item)Relógios$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.0.4-9",
+      "text": "$(li)Adicionados dois novos $(l:bloodmagic:demon_will/demonic_items/explosive_charges)explosivos$(): $(li2)A $(l:bloodmagic:demon_will/demonic_items/explosive_charges#shaped_charge)Carga Modelada$(), que quebra um volume de 5x5x5 quando colocada. $(li2)A $(l:bloodmagic:demon_will/demonic_items/explosive_charges#deforester_charge)Carga Desflorestadora$(), que pode derrubar uma árvore de até 128 troncos. $(li)(Ambos os explosivos largam todos os blocos afetados, e não causam dano ambiental adicional nem a entidades.)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionados novos arranjos de alquimia: $(li2)$(l:bloodmagic:alchemy_array/functional_arrays/time_arrays)Dois arranjos$(), que mudam o ciclo atual de luz do dia para dia e noite. Receitas temporárias. $(li)Corrigidos os seguintes $(l:bloodmagic:alchemy_array/living_equipment/living_upgrades)upgrades de Armadura Viva$() para serem obtidos agora: $(li2)Experiente $(li2)Fisiculturista"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.0.3-8",
+      "text": "$(li)Atualizado o $(item)Sanguine Scientiem$() — está muito bem escrito! Agradecimentos especiais a $(fire)VT-14$() e $(raw)Wrincewind$() pelas longas horas de esforço para tornar este livro melhor do que eu conseguiria! $(li)Corrigido um crash com a $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$() quando criada e vestida logo após encantar."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.0.2-7",
+      "text": "Readicionada a $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$(). Atualmente só com alguns $(l:bloodmagic:alchemy_array/living_equipment/living_upgrades)upgrades$(), e sem downgrades. $(li)Almofada de Alfinetes $(li)Peso-Pena $(li)Resistente $(li)Pernas Fortes (Agora podem ser temporariamente desativadas ao pular agachando) $(li)Saudável $(li)Experiente $(li)Golpe de Investida $(li)Palmas Resistentes $(li)Pés Ligeiros $(li)Resistência a Veneno"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Dom de Ignis $(li)Força Anã $(li)Fisiculturista $(br2)Reimplementados os seguintes rituais: $(li)$(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)Ressonância do Cristal Facetado$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_crystal_harvest)Fenda do Cristal Fraturado$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_harvest)Ceifa da Lua da Colheita$() (Principalmente cultivos vanilla) $(li)$(l:bloodmagic:rituals/ritual_list/ritual_animal_growth)Ritual do Pastor$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_green_grove)Ritual do Bosque Verde$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_ellipse)Foco do Elipsoide$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)Som da Alma Purificada$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l:bloodmagic:rituals/ritual_list/ritual_armour_evolve)Ritual da Evolução Viva$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.0.1-6",
+      "text": "$(li)Reimplementado o $(l:bloodmagic:utility/incense_altar)Altar de Incenso$() com todos os blocos apropriados. $(li)Adicionadas entradas de guia para o $(l:bloodmagic:utility/incense_altar)Altar de Incenso$() e o $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(). Outras entradas diversas adicionadas também. $(li)Corrigido um crash relacionado a servidor no cliente no $(l:bloodmagic:alchemy_array/sigil/grove)Selo do Bosque Verde$(). $(li)Adicionado $(l:bloodmagic:utility/alchemical_reaction_chamber#ore_processing)processamento de minério$() aos $(item)Detritos Ancestrais.$() $(li)Readicionados os outros tipos de $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Ferramenta Consciente$() (com mais um a caminho)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionados alguns itens em desenvolvimento que ainda não podem ser usados — fazem parte do sistema D*$)@ D*#@(@* que estou adicionando para o Tier 4. $(li)Adicionada a API — ainda está em fluxo, então espere que mude em breve! $(li)Provavelmente esqueci algo importante. $(li)Corrigido um crash do $(l:bloodmagic:utility/lava_crystal)Cristal de Lava$() que fazia o Cliente explodir se usado num servidor. Não, essa não era a intenção!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adicionado o $(l:bloodmagic:rituals/ritual_tinkerer)Ajustador de Ritual$() para Rituais. $(li)Readicionado o \"$(l:bloodmagic:utility/book_experience)Tomo de Peritia$()\" — armazena EXP."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.0.0-3",
+      "text": "$(li)Correção para um problema com o Will Handler, que causava lag massivo. $(li)Reimplementadas algumas receitas que... não estavam implementadas corretamente. Incluindo as receitas de $(l:bloodmagic:alchemy_table/alchemy_table#cutting_fluid)Fluido de Corte$() na $(l:bloodmagic:alchemy_table/alchemy_table)Mesa de Alquimia$(). Opa! $(li)Reduzido o custo da $(l:bloodmagic:altar/blood_altar#blank_rune)Runa em Branco$(), trocando uma das $(l:bloodmagic:altar/slates)Ardósias em Branco$() por $(item)Pedra Lisa$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "3.0.0-1",
+      "text": "Primeira atualização para $(item)Minecraft 1.16.3$()! Supostamente deve funcionar no 1.16.4 também, mas foi compilado para 1.16.3. $(br2)Este lançamento é o que posso melhor descrever como \"alfa inicial\" — muitos dos sistemas estão no lugar e funcionando, mas algumas co"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "não será adicionada para dar espaço a outro sistema. $(br2)Algumas das coisas que atualmente faltam nesta versão do Blood Magic são: $(li)$(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$(), que precisará ser completamente reescrita para corrigir alguns bugs cliente-servidor. $(li)Vários rituais. Rituais ESTÃO nesta versão, mas só alguns. A maioria dos rituais SERÁ readicionada. $(li)O $(l:bloodmagic:utility/incense_altar)Altar de Incenso$(). Será reimplementado em breve."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)O Sistema de Roteamento de Itens. Talvez precise ser reimplementado? E vai precisar de bastante inseticida, já que ouvi falar de uns bugs. $(li)Tier 5 - atualmente não há muito em T5 das versões anteriores, então está temporariamente desativado até eu decidir completamente o caminho de upgrade até lá. Embora eu não vá entregar muito, envolverá demônios. E *^$%@)$#. $(li)Tier 6 - Por que as pessoas ainda perguntam sobre isso?"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "E outros sistemas e itens que não mencionei especificamente. $(br2)Novo conteúdo notável que está sendo experimentado e/ou ajustado: $(li)O $(item)Guia do Blood Magic$()! Está sendo completamente reescrito e atualmente usa o mod Patchouli! $(strike)É um mod bem legal da Vazkii$() Está nos estágios iniciais de escrita, mas por ora o plano é ser puramente informativo — o principal motivo de eu estar abandonando temporariamente o guia narrativo"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "é que preciso de alguma forma de guia in-game que conte ao usuário sobre todos os sistemas novos e melhorados do mod. E construir uma narrativa abrangente torna isso lento. $(li)A $(l:bloodmagic:utility/alchemical_reaction_chamber)Câmara de Reação Alquímica$()! É um bloco de múltiplos usos que pode processar minérios e é essencial para alcançar o Tier 4. Ainda está sendo balanceada, então qualquer feedback é muito bem-vindo. $(br2)Espero que aproveitem o mod! $(br)                — WayofTime"
+    }
+  ]
+}

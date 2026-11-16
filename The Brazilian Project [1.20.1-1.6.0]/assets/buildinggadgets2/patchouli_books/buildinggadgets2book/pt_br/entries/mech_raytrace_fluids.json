@@ -1,0 +1,21 @@
+{
+  "name": "Detectar Fluidos",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/raytrace_fluid.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Detectar Fluidos permite que o(s) gadget(s) interajam com fluidos. Quando ligado, trocadores podem trocar fluidos, e construtores podem construir em cima de fluidos. $(br2)Quando desligado, esses gadgets ignorarão fluidos e construirão nos blocos atrás deles.$(br2)Veja o capítulo sobre $(l:buildinggadgets2:mech_fluid_handling)Manipulação de Fluidos$(/l) para mais detalhes."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Detectar Fluidos",
+      "images": [
+        "buildinggadgets2:textures/book/images/raytracefluids.png"
+      ],
+      "border": true,
+      "text": "Afetando Fluidos!"
+    }
+  ]
+}

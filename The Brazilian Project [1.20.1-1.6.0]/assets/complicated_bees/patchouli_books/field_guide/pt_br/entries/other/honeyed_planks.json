@@ -1,0 +1,16 @@
+{
+  "name": "Tábuas Açucaradas",
+  "icon": "complicated_bees:honeyed_planks",
+  "category": "complicated_bees:other",
+  "advancement": "complicated_bees:recipes/building_blocks/honeyed_planks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Usar mel para envernizar a madeira muda sua cor, permitindo adicionar um toque de dourado à sua construção.$(br2)Ela pode ser fabricada nas variedades comuns de lajes, escadas, portas e afins."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:honeyed_planks"
+    }
+  ]
+}

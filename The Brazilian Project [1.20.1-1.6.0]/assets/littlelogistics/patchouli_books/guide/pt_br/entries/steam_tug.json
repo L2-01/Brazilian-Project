@@ -1,0 +1,19 @@
+{
+    "name": "Rebocador a Vapor",
+    "icon": "littlelogistics:tug",
+    "category": "littlelogistics:vessels",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:tug",
+            "scale": 0.4,
+            "offset": 0.5,
+            "text": "Um rebocador básico que pode operar com qualquer combustível de fornalha."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:tug",
+            "text": "O combustível pode ser carregado com funis colocados em cima de docas de rebocadores."
+        }
+    ]
+}

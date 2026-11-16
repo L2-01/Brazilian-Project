@@ -1,0 +1,18 @@
+{
+  "modifier_id": "tconstruct:pierce",
+  "text": [
+    {
+      "text": "A ferramenta ganha o poder do cacto, atacando através da armadura."
+    },
+    {
+      "text": "Não confundir com empalar",
+      "paragraph": true
+    }
+  ],
+  "tool_filter": "tconstruct:modifiable/ranged",
+  "effects": [
+    "Flechas anulam uma pequena porção de armadura",
+    "Vários níveis, cada nível aumenta o efeito",
+    "Exige 1 espaço de aprimoramento por nível"
+  ]
+}

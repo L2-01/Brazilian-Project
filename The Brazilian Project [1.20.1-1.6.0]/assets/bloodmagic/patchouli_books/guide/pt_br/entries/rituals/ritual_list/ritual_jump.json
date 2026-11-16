@@ -1,0 +1,27 @@
+{
+  "name": "Ritual do Salto Alto",
+  "icon": "minecraft:diamond_boots",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "name": "Ritual do Salto Alto",
+      "multiblock_id": "bloodmagic:jumping",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner)Adivinhador de Ritual$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "jumping"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "jumping",
+      "page_type": "jumpRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "jumping",
+      "page_type": "jumpPower"
+    }
+  ]
+}

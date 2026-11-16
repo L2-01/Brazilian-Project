@@ -1,0 +1,24 @@
+{
+  "name": "Servos Blaze",
+  "icon": "minecraft:blaze_rod",
+  "advancement": "goety:goety/read_bygone_scroll",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O que causou a rebelião dos Blazes contra seus criadores? Decifrar o manuscrito mostrou possíveis falhas, mas nada concreto. De qualquer forma, você encontrou um jeito de criar seus próprios Blazes que de fato seguem comandos e defendem seu mestre."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:blaze_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clicar num Servo Blaze leal com o botão direito usando um Pó de Blaze ou Vara de Blaze o curará."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_blaze_servant_thrall"
+    }
+  ]
+}

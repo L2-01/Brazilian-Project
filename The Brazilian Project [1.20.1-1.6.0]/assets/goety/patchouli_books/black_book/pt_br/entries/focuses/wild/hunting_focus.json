@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Caça",
+  "icon": "goety:hunting_focus",
+  "category": "goety:focuses/wild",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:summons/black_wolves)Lobos negros$() são cães sobrenaturais, ou demoníacos, mencionados no folclore e ditos serem vistos por todo a Superfície. Com o foco, você consegue invocá-los ou conjurá-los em auxílio. No topo de montanhas, você invocará $(l:summons/twilight_goats)Cabras Crepusculares$(), primas cruéis das cabras comuns. Debaixo d'água, você invocará $(l:summons/snappers)Mordedores$(), criaturas ferozes parecidas com piranhas que roerão seus inimigos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/hunting_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao conjurar com o $(l:crafts/staff/wild_staff)Cajado Selvagem$(), mais lobos são invocados; vestir um Manto Selvagem os fortalecerá, fazendo suas garras e mordidas Amaldiçoarem o alvo. Ao conjurar com o $(l:crafts/staff/wind_staff)Cetro dos Ventos$(), você chamará Cabras Crepusculares. Ao conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() você invocará Mordedores... até em terra. Mordedores só se teleportam até você se conjurar agachado debaixo d'água."
+    }
+  ]
+}

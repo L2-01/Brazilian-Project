@@ -1,0 +1,24 @@
+{
+  "name": "Ritual de Necroturgia",
+  "icon": "goety:rotting_focus",
+  "category": "goety:rituals",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Requisitos: $(li)16 Lajes Não Lenhosas $(li)16 Blocos de Sculk ou $(l:goety:crafts/grave_soil)Terras de Sepultura$() $(li)8 Vasos de Flores Ocupados $(li)Deve ser feito à Noite"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety:textures/gui/entries/necroturgy_ritual.png"
+      ],
+      "border": true,
+      "text": "Um exemplo de como o ritual pode ser disposto."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao construir sepulturas com Sculk ou Terras de Sepultura, você encontrou um jeito de reunir mais energias necrotúrgicas para usar em Rituais. Porém, enquanto o Sculk guarda uma vasta quantidade de energia necrótica, a Terra de Sepultura é mais frágil e tem grande chance de virar Terra Sombria quando um ritual termina."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Devastado",
+  "icon": "goety:savage_tooth",
+  "category": "goety:mutations",
+  "advancement": "goety:goety/read_ravaging_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os segredos da criação dos Devastadores foram revelados a você. Como você suspeitava há muito tempo, Devastadores são feitos de Aldeões comuns através de meios mágicos. A conversão, porém, não é instantânea. O Aldeão se transforma no que é chamado de Devastado, e precisará consumir uma grande quantidade de carne antes de poder se tornar um Devastador completo."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_villager_to_ravaged"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Devastado pode ser alimentado jogando Carne Podre nele, ou lançando-o sobre qualquer Aldeão, ou Illager surpreendentemente, e fazendo-o matar o último. Como esperado, Aldeões fornecem a maior quantidade de carne. Uma vez que o Devastado se transformou, ele precisará de uma sela especializada que o tornará não só cavalgável, mas também mais forte."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:ravaged",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Devastadores totalmente crescidos podem fazer parte de um $(l:goety:mutations/illager_servants)grupo de invasão$(), embora não possam ser líderes."
+    }
+  ]
+}

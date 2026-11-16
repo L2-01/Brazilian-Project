@@ -1,0 +1,37 @@
+{
+  "name": "Alcaesto de Destreza",
+  "icon": "bloodmagic:quick_draw_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Alcaesto de Destreza",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment",
+      "text": "Reduz o tempo de puxada de arcos e bestas em 33%. $(br2)Itens válidos: Arcos, Bestas.$(br2)Aplica: Mãos Ligeiras I (256 tiros)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Alcaesto de Destreza L",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_l",
+      "text": "Esta versão melhorada da unção dura quatro vezes mais. $(br2)Aplica: Mãos Ligeiras I (1024 tiros)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Alcaesto de Destreza II",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_2",
+      "text": "Esta versão melhorada da unção reduz o tempo de puxada de arcos e bestas em 50%. $(br2)Aplica: Mãos Ligeiras II (256 tiros)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Alcaesto de Destreza XL",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_xl",
+      "text": "Esta versão melhorada da unção dura dezesseis vezes mais. $(br2)Aplica: Mãos Ligeiras I (4096 tiros)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Alcaesto de Destreza III",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_3",
+      "text": "Esta versão melhorada da unção reduz o tempo de puxada de arcos e bestas em 67%. $(br2)Aplica: Mãos Ligeiras III (256 tiros)"
+    }
+  ]
+}

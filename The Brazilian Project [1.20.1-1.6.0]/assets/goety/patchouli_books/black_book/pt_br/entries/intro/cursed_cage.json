@@ -1,0 +1,23 @@
+{
+  "name": "Diversos",
+  "icon": "goety:cursed_cage",
+  "category": "goety:intro",
+  "sortnum": 7,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ao explorar as artes sombrias, encontram-se todos os tipos de artifícios mágicos que precisam de Energia de Almas para funcionar. A Jaula Amaldiçoada ajuda a enviar Energia de Almas a esses dispositivos, desde que tenha um Totem ou alguma conexão com um portador de Energia de Almas inserido nela."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:cursed_cage"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_book",
+      "title": "Devorador de Almas",
+      "text": "Você também descobriu um novo encantamento: Devorador de Almas. Qualquer arma ou ferramenta encantada com ele aumentará a quantidade de Energia de Almas obtida ao matar uma criatura com ela."
+    }
+  ]
+}

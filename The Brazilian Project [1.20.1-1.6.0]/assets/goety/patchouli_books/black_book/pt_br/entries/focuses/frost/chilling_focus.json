@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Calafrio",
+  "icon": "goety:chilling_focus",
+  "category": "goety:focuses/frost",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O foco não só aumenta seus pontos de armadura, como também faz qualquer ser que o ataque corpo a corpo congelar. O feitiço também pode ser conjurado numa criatura aliada olhando para ela enquanto conjura agachado."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/chilling_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/frost_staff)Cajado de Gelo$() aplicará o efeito aos aliados próximos ao redor do conjurador ou do alvo."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Capacete de Liga Eclipse",
+  "sortnum": 20,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:eclipsealloy_helmet",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Capacete de Liga Eclipse é o auge da tecnologia de armaduras, usando Forge Energy com grande capacidade de 500.000 FE. Lembre-se de mantê-lo carregado, de preferência com um $(l:justdirethings:item_pocket_generator)Gerador Portátil$(/l), para utilizar todo o seu potencial."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação: Capacete de Liga Eclipse",
+      "recipe": "justdirethings:eclipsealloy_helmet"
+    }
+  ]
+}

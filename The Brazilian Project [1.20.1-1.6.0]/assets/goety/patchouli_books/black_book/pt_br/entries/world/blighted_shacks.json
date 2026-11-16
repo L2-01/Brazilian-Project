@@ -1,0 +1,23 @@
+{
+  "name": "Cabanas Arruinadas",
+  "icon": "goety:rotten_log",
+  "category": "goety:world",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Boatos de cabanas velhas e apodrecidas chegaram aos seus ouvidos. Aparentemente, bruxas velhas e poderosas vivem dentro daqueles covis decrépitos, estudando e preparando todos os tipos de magia sombria. Porém, quando você encontra essas cabanas, não avista nenhuma bruxa antiga, mas uma bola de cristal peculiar... você se pergunta o que aconteceria se a usasse..."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety:textures/gui/entries/blighted_shack.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "goety:ritual",
+      "advancement": "goety:goety/get_crystal_ball",
+      "recipe": "goety:locate/blighted_shack"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Necromante Wither",
+  "icon": "goety:withered_manuscript",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_wither_necromancer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Em tempos antigos, esses necromantes eram os supervisores das Fortalezas do Nether, empunhando grandes poderes mágicos. Infelizmente, quando os Blazes se voltaram contra seus mestres, transformando os habitantes vivos em restos carbonizados e murcharos, os necromantes, apesar de todo seu poder, foram derrubados seja por números e ajuda do que foi chamado de 'Fogos Selvagens'... e talvez até dos Piglins."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:wither_necromancer",
+      "scale": 0.95
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao contrário de quando vivos, esses necromantes são imunes a chamas e ainda detêm grande poder. Seus pilares flamejantes que cercam a si ou ao alvo queimam até inimigos resistentes ao fogo, e eles frequentemente invocam Esqueletos-Wither para ajudá-lo. Felizmente para você e outros magos sombrios, esses necromantes ainda guardam seus, reconhecidamente decaídos e murcharos, manuscritos que contêm algum conhecimento de suas práticas mágicas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Assim como os Esqueletos-Wither comuns, seu ódio pelos Piglins arde quente mesmo na morte."
+    }
+  ]
+}

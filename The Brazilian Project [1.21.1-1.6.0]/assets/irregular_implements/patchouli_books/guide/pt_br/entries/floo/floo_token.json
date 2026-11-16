@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:floo",
+    "icon": "irregular_implements:floo_token",
+    "name": "Símbolo de Flu",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Os $(d)Símbolos de Flu$() permitem usar o teletransporte de Flu de qualquer lugar do mundo.$(br2)Jogue-o no chão e espere alguns segundos. Ele criará uma Lareira de Flu Temporária, que permitirá teleportar para qualquer Lareira de Flu nomeada."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Embora isso não consuma $(l:irregular_implements:floo/floo_powder)Pó de Flu$(/l), ele *consumirá* o Símbolo."
+        }
+    ]
+}

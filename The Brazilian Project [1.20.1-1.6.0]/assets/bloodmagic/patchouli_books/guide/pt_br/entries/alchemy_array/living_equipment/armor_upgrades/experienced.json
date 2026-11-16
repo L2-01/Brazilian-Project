@@ -1,0 +1,15 @@
+{
+  "name": "Experiente",
+  "icon": "minecraft:experience_bottle",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Efeito: Aumenta o XP largado  ao matar criaturas, até 150%. $(br2)Treinado por: Coletar XP. $(br2)Nível máximo: 10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:experienced"
+    }
+  ]
+}

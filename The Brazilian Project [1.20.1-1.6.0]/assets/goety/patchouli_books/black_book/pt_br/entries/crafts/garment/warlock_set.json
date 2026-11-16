@@ -1,0 +1,31 @@
+{
+  "name": "Conjunto de Bruxo",
+  "icon": "goety:warlock_robe",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os Bruxos são conhecidos por seus mantos marrons bem fúngicos com uma bela faixa em volta. Com um pouco de Lã Vermelha, um par de Ovos Verrugosos e Fungos do Nether, você descobriu como fazer sua própria faixa de Bruxo, que faz com que usar um Ovo Verrugoso não machuque mais você."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:warlock_sash"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:warlock_robe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Manto de Bruxo torna o usuário resistente a dano mágico e fornece 10%% de chance de não consumir Ovos Verrugosos nem Fungos Mordedores, e dá 25%% de chance de um Fungo Mordedor extra ser derrubado de Verrugas Mordedoras crescidas. A Faixa e o Manto também fazem Aranhas terem mais chance de derrubar Ovos de Aranha. Se o usuário tiver um efeito negativo, a vestimenta usará automaticamente qualquer Ovo Verrugoso no inventário dele."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Assim como vestir um Chapéu e um Manto de Bruxa, vestir Mantos de Bruxo faz com que todas as Bruxas e Bruxos fiquem neutros e aceitem trocas."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:warlock_robe": 2,
+    "goety:warlock_robe_dark": 2
+  }
+}

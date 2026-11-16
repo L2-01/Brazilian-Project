@@ -1,0 +1,26 @@
+{
+  "name": "Energia de Almas",
+  "icon": "goety:totem_of_roots",
+  "category": "goety:intro",
+  "sortnum": 2,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você pesquisou os segredos dos poderes mágicos dos Illagers, a Energia de Almas, e refletiu sobre como utilizar e coletar essa energia."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:totem_of_roots",
+      "text": "Com alguns gravetos, um Ectoplasma e um pouco de Lápis-Lazúli, você conseguiu criar o seu primeiro Totem!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao matar um ser com o Totem na Hotbar ou em um Espaço de Amuleto, ele se encherá de Energia de Almas. A quantidade depende da criatura morta, mas, considerando a disposição dos Illagers contra os Aldeões, não é difícil descobrir qual criatura tem a maior quantidade de Energia de Almas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Energia de Almas é o que alimenta a magia deles, e parece ter relação com a Experiência, embora a Experiência seja usada para encantar itens e repará-los com Remendo; você descobriu que a Energia de Almas pode ser usada para propósitos mais exóticos."
+    }
+  ]
+}

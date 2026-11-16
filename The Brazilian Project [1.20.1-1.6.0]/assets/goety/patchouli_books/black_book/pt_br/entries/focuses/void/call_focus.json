@@ -1,0 +1,18 @@
+{
+  "name": "Foco de Chamado",
+  "icon": "goety:call_focus",
+  "category": "goety:focuses/void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Embora certos focos possam invocar todos os servos associados até você, certos servos não têm isso e/ou você quer invocar um servo específico. O Foco de Chamado permite fazer exatamente isso. Basta clicar com o botão esquerdo no servo e ele será salvo, permitindo invocá-lo ao conjurar com ele. Para remover o registro, basta clicar no ar com o botão direito enquanto agachado."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/call_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:call_focus": 1
+  }
+}

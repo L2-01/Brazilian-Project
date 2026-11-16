@@ -1,0 +1,61 @@
+{
+  "name": "Encantamentos de Foco",
+  "icon": "minecraft:enchanting_table",
+  "category": "goety:focuses",
+  "sortnum": 0,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os Focos têm seus próprios encantamentos especializados, mas nem todos os Focos podem ser encantados nem aceitam todos os encantamentos. Há muitos encantamentos aplicáveis apenas a certos Focos. Focos Encantados dobram a quantidade de Energia de Almas necessária para conjurar."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_book",
+      "title": "Potência",
+      "text": "Potência aumenta o dano dos seus feitiços."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_book",
+      "title": "Duração",
+      "text": "Seus feitiços e suas invocações duram mais."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_book",
+      "title": "Raio",
+      "text": "Aumenta o raio dos seus feitiços; geralmente significa que feitiços explosivos têm maior raio de explosão. Para certos feitiços, o raio permite que encontrem com mais precisão o inimigo mais próximo para atingir."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_book",
+      "title": "Ardência",
+      "text": "Seus feitiços incendeiam alvos ou prolongam o tempo que o alvo permanece em chamas."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_book",
+      "title": "Alcance",
+      "text": "Seus feitiços vão 2 blocos mais longe por nível. O mais comum dos encantamentos."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_book",
+      "title": "Absorção de Vida",
+      "text": "Seus feitiços absorvem vida dos alvos ao atingi-los. Muito Raro e incompatível com Potência."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_book",
+      "title": "Magnetismo",
+      "text": "Seus feitiços puxam imediatamente para o seu inventário os blocos quebrados por eles. Muito Raro."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_book",
+      "title": "Velocidade",
+      "text": "Projéteis feitos pelos seus feitiços se movem mais rápido."
+    }
+  ]
+}

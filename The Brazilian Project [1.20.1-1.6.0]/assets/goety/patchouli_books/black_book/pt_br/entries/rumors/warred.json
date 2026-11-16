@@ -1,0 +1,17 @@
+{
+  "name": "Tecnologia Antiga",
+  "icon": "minecraft:redstone",
+  "category": "goety:rumors",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Sussurros sobre máquinas de guerra usadas em tempos antigos, detentoras de grande poder, chegaram aos seus ouvidos. Dizem que essas feras eram feitas de rocha e redstone e foram usadas dentro de estruturas $(l)antigas$() para defender e atacar."
+    },
+    {
+      "type": "patchouli:quest",
+      "trigger": "goety:goety/read_warred_scroll",
+      "text": "Dizem que essas máquinas monstruosas eram utilizadas em $(l)cidades antigas$() e $(l)fortalezas enterradas.$()"
+    }
+  ]
+}

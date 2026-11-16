@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Pedra Esmagadora",
+  "icon": "goety:smack_stone_focus",
+  "category": "goety:focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Já ouviu a expressão 'matar dois coelhos com uma pedrada só'? Embora essas pedras sejam frágeis demais para atingir mais de um alvo, elas não só dificultam o alvo pular ou voar, como também causam mais dano a ele se não estiver no chão."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/smack_stone_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/geo_staff)Cajado Geomante$() dispara três pedras em vez de uma."
+    }
+  ]
+}

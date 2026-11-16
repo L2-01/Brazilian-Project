@@ -1,0 +1,134 @@
+{
+  "block.crust.feature_generator": "Gerador de Recursos",
+
+  "effect.crust.vulnerability": "Vulnerabilidade",
+  "effect.crust.weight": "Peso",
+
+  "menu.crust.feature_generator.edit_box.feature": "ID de recurso / marcador de recurso",
+  "menu.crust.feature_generator.edit_box.turns_into": "Transforma-se em",
+  "menu.crust.feature_generator.edit_box.fallback": "ID alternativo",
+  "menu.crust.feature_generator.edit_box.y_offset": "Deslocamento Y",
+  "menu.crust.feature_generator.edit_box.chance": "Chance",
+  "menu.crust.feature_generator.button.force_generation": "Gerar forçado: %s",
+  "menu.crust.feature_generator.button.force_generation.tooltip": "Usado principalmente para forçar que recursos do mod Deadly World sejam gerados à força sem verificações de posicionamento. Se o recurso que este Gerador de Recursos tentar gerar não for do Deadly World, ativar esta opção provavelmente não fará nada.",
+
+  "menu.crust.config.open_folder": "Abrir Pasta",
+  "menu.crust.config.save_changes": "SALVAR Alterações",
+  "menu.crust.config.confirm_changes": "CONFIRMAR Alterações",
+  "menu.crust.config.discard_changes": "DESCARTAR Alterações",
+  "menu.crust.config.edit": "Editar...",
+  "menu.crust.config.add_entry": "Adicionar nova entrada",
+
+  "menu.crust.config.select.mod.title": "Configurações de Mods...",
+  "menu.crust.config.select.file.title": "Configurações de %s...",
+  "menu.crust.config.select.file.subtitle": "Pasta: %s",
+  "menu.crust.config.select.button.spec_error": "Falha ao carregar a configuração; verifique os registros para detalhes",
+
+  "menu.crust.config.file.title": "Configuração de %s: %s",
+  "menu.crust.config.file.subtitle": "Arquivo: %s",
+
+  "menu.crust.config.search_bar.hint": "Pesquisar...",
+
+  "menu.crust.broken_configs.title": "Configurações corrompidas detectadas!",
+  "menu.crust.broken_configs.message": "As configurações listadas abaixo falharam ao carregar e provavelmente estão malformadas. As coisas podem não funcionar como esperado e o jogo pode até travar.",
+  "menu.crust.broken_configs.proceed": "Prosseguir",
+
+  "inventory.buttons.fullheal.tooltip": "Recuperação total",
+  "inventory.buttons.cleareffects.tooltip": "Limpar todos os efeitos de poção",
+  "inventory.buttons.destroyonpointer.tooltip": "Destruir item no cursor",
+  "inventory.buttons.killall.tooltip": "Matar todas as entidades",
+  "inventory.buttons.netherportal.tooltip": "Criar um portal do Nether",
+  "inventory.buttons.endportal.tooltip": "Criar um portal do End",
+
+  "inventory.buttons.day.tooltip": "Definir tempo para dia",
+  "inventory.buttons.night.tooltip": "Definir tempo para noite",
+  "inventory.buttons.toggleday.tooltip": "Alternar o tempo entre dia e noite",
+
+  "inventory.buttons.weatherclear.tooltip": "Limpar o clima",
+  "inventory.buttons.weatherrain.tooltip": "Definir clima para chuva",
+  "inventory.buttons.weatherstorm.tooltip": "Definir clima para tempestade",
+  "inventory.buttons.togglerain.tooltip": "Alternar o clima entre limpo e chuva",
+
+  "inventory.buttons.gamemode.tooltip": "Alternar o modo de jogo",
+  "inventory.buttons.magnetmode.tooltip": "Alternar o modo ímã",
+  "inventory.buttons.multiminemode.tooltip": "Alternar o modo de mineração múltipla",
+  "inventory.buttons.godmode.tooltip": "Alternar o modo deus",
+  "inventory.buttons.supervisionmode.tooltip": "Alternar o modo de super visão",
+  "inventory.buttons.superspeedmode.tooltip": "Alternar o modo de super velocidade",
+  "inventory.buttons.nopickupmode.tooltip": "Alternar o modo destruir-ao-pegar",
+
+  "commands.crustclean.pointer.success": "Item no cursor de %s destruído",
+  "commands.crustclean.pointer.failure": "%s não tem item no cursor",
+
+  "commands.crustclean.single.success": "Inventário de %s redefinido para o inicial",
+  "commands.crustclean.multiple.success": "Inventário de %s jogadores redefinido para o inicial",
+
+  "commands.crustmode.query.success": "Modos ativos para %s: %s",
+
+  "commands.crustmode.disable.single.success": "Modo \"%s\" desativado para %s",
+  "commands.crustmode.disable.multiple.success": "Modo \"%s\" desativado para %s jogadores",
+  "commands.crustmode.enable.single.success": "Modo \"%s\" ativado para %s",
+  "commands.crustmode.enable.multiple.success": "Modo \"%s\" ativado para %s jogadores",
+
+  "commands.crustportal.success": "Portal \"%s\" colocado em [%s, %s, %s]",
+  "commands.crustportal.portaltype.failure": "Tipo de portal não encontrado",
+  "commands.crustportal.dimension.failure": "Dimensão inválida para o portal",
+  "commands.crustportal.failure": "Não foi possível encontrar posição válida para o portal",
+
+  "commands.crustrecover.single.all.success": "%s totalmente recuperado",
+  "commands.crustrecover.multiple.all.success": "%s entidades totalmente recuperadas",
+  "commands.crustrecover.single.health.success": "Vida de %s recuperada",
+  "commands.crustrecover.multiple.health.success": "Vida de %s entidades recuperada",
+  "commands.crustrecover.single.hunger.success": "Fome de %s recuperada",
+  "commands.crustrecover.multiple.hunger.success": "Fome de %s entidades recuperada",
+  "commands.crustrecover.single.effects.success": "Limpou efeitos negativos de %s",
+  "commands.crustrecover.multiple.effects.success": "Limpou efeitos negativos de %s entidades",
+
+  "key.categories.crust": "Crust",
+
+  "key.crust.configs": "Abrir Editor de Configurações",
+  "key.crust.equip": "Equipar item",
+
+  "key.categories.crust.buttons": "Botões de Inventário Adicionados do Crust",
+
+  "key.crust.buttons.fullheal": "Recuperar Totalmente",
+  "key.crust.buttons.cleareffects": "Limpar Todos os Efeitos",
+  "key.crust.buttons.destroyonpointer": "Destruir Item no Cursor",
+  "key.crust.buttons.killall": "Matar Todos Não-Jogadores",
+  "key.crust.buttons.netherportal": "Colocar Portal do Nether",
+  "key.crust.buttons.endportal": "Colocar Portal do End",
+
+  "key.crust.buttons.day": "Hora do Dia",
+  "key.crust.buttons.night": "Hora da Noite",
+  "key.crust.buttons.toggleday": "Alternar Dia/Noite",
+
+  "key.crust.buttons.weatherclear": "Limpar o clima",
+  "key.crust.buttons.weatherrain": "Iniciar Tempestade de Chuva",
+  "key.crust.buttons.weatherstorm": "Iniciar Tempestade de Raios",
+  "key.crust.buttons.togglerain": "Alternar chuva",
+
+  "key.crust.buttons.gamemode": "Alternar Modo de Jogo (Também tente F3+F4)",
+  "key.crust.buttons.magnetmode": "Alternar Modo Ímã",
+  "key.crust.buttons.multiminemode": "Alternar Multi-Mine",
+  "key.crust.buttons.godmode": "Alternar Modo Deus",
+  "key.crust.buttons.supervisionmode": "Alternar Super Visão",
+  "key.crust.buttons.superspeedmode": "Alternar Super Velocidade",
+  "key.crust.buttons.nopickupmode": "Alternar Destruir-ao-Pegar",
+
+  "key.crust.buttons.custom1": "Botão Personalizado 1",
+  "key.crust.buttons.custom2": "Botão Personalizado 2",
+  "key.crust.buttons.custom3": "Botão Personalizado 3",
+  "key.crust.buttons.custom4": "Botão Personalizado 4",
+  "key.crust.buttons.custom5": "Botão Personalizado 5",
+  "key.crust.buttons.custom6": "Botão Personalizado 6",
+  "key.crust.buttons.custom7": "Botão Personalizado 7",
+  "key.crust.buttons.custom8": "Botão Personalizado 8",
+  "key.crust.buttons.custom9": "Botão Personalizado 9",
+  "key.crust.buttons.custom10": "Botão Personalizado 10",
+  "key.crust.buttons.custom11": "Botão Personalizado 11",
+  "key.crust.buttons.custom12": "Botão Personalizado 12",
+  "key.crust.buttons.custom13": "Botão Personalizado 13",
+  "key.crust.buttons.custom14": "Botão Personalizado 14",
+  "key.crust.buttons.custom15": "Botão Personalizado 15",
+  "key.crust.buttons.custom16": "Botão Personalizado 16"
+}

@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:imbuing_station",
+    "name": "Estação de Impregnação",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Estação de Impregnação$() é usada para criar Impregnações.$(br2)Ingredientes que vão nos espaços externos podem ir em qualquer ordem, mas o ingrediente central deve sempre ir no espaço central."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Para automação, o espaço central pode ser acessado pela face de cima, os outros espaços de entrada pelos lados, e o espaço de saída por baixo."
+        }
+    ]
+}

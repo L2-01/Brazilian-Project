@@ -1,0 +1,17 @@
+{
+  "name": "Arranjo de Espinhos",
+  "icon": "minecraft:iron_ingot",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Arranjo de Espinhos é um arranjo bem simples com um único propósito. Quando uma entidade viva pisa no arranjo, é atingida por um coração cheio de dano. Isso é bom para armadilhas de criaturas, ou para deixar sua base um pouco mais espinhosa para jogadores."
+    },
+    {
+      "type": "bloodmagic:functional_array",
+      "heading": "Arranjo de Espinhos",
+      "recipe": "bloodmagic:array/spike",
+      "image": "spikearray.png"
+    }
+  ]
+}

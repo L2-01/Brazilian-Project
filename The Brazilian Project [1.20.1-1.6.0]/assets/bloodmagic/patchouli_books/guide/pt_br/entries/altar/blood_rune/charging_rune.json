@@ -1,0 +1,29 @@
+{
+  "name": "Runa de Carga",
+  "icon": "bloodmagic:chargingrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Runa de Carga$() é um upgrade de Runa único. Quando o $(l:bloodmagic:altar/blood_altar)Altar de Sangue$() não está criando nem enchendo um $(l:bloodmagic:altar/soul_network)Orbe de Sangue$(), ele sifona $(blood)LP$() do Altar para carregar um buffer interno. Quando um item for colocado no Altar em seguida, ele consumirá instantaneamente a carga armazenada e a aplicará à criação do item na proporção de 1:1."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Altar de Sangue faz um tique de carga a cada 20 tiques de jogo, reduzido em 1 por $(l:bloodmagic:altar/blood_rune/acceleration_rune)Runa de Aceleração.$(/l) $(br2)A velocidade de carga do Altar de Sangue por tique de carga é: [$(blood)10LP$() x $(l:bloodmagic:altar/blood_rune/charging_rune)Runas de Carga$() x (1 + $(l:bloodmagic:altar/blood_rune/speed_rune)Runas de Velocidade$()/10)] $(br2)A carga máxima que um Altar de Sangue pode segurar é $(blood)1.000 LP$() por $(item)Runa de Carga$(), multiplicada então por: [(capacidade do tanque principal do Altar de Sangue)/20000] se esse valor for maior que 1."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_charging"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_charging_2",
+      "text": "Com um pouco de $(item)Fragmentos de Netherita$() e algumas $(item)Peças Intrincadas Forjadas no Inferno$() saqueadas do $(l:bloodmagic:dungeons/endless_realm)Reino Demoníaco$(), você pode dobrar o poder da sua $(item)Runa de Carga$(), tanto em capacidade quanto em velocidade."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/charging",
+      "text": "Se mudar de ideia, você pode desfazer a receita na ARC."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Toque seu Instrumento",
+    "icon": "mimi:ocarina",
+    "category": "mimi:1overview",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A Tela do Instrumento permite gerenciar as configurações MIDI do instrumento (abordadas mais à frente) e tocar notas usando seu Teclado ou clicando nelas.$(br2)O layout do teclado pode ser alternado entre os layouts MIMI e Virtual Piano ('VPiano'), e as notas visíveis na tela podem ser ajustadas usando os controles de deslocamento."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "De Mão",
+            "text": "Selecione um instrumento de mão na sua barra de acesso rápido ou coloque-o no slot da mão secundária (escudo). Clique com o botão direito enquanto segura o instrumento para abrir a Tela do Instrumento.$(br2)Ao segurar instrumentos nas duas mãos, clicar com o botão direito abrirá a Tela do Instrumento da sua mão principal. Usando teclas de atalho, você pode abrir diretamente os instrumentos na mão principal ($(bold)$(k:key.mimi.midi.gui.main)$()) ou secundária ($(bold)$(k:key.mimi.midi.gui.off)$())."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "De Bloco",
+            "text": "Coloque o instrumento como um bloco no mundo. Clique com o botão direito no bloco do instrumento para sentar-se nele (como num bote) e depois novamente para abrir a Tela do Instrumento.$(br2)Ao segurar um instrumento e estar sentado num instrumento, pode ser confuso saber qual Tela do Instrumento será aberta ao clicar. Usando uma tecla de atalho, você pode abrir diretamente o instrumento onde está sentado ($(bold)$(k:key.mimi.midi.gui.seat)$()).$(br2)"
+        }
+    ],
+    "sortnum": 2
+}

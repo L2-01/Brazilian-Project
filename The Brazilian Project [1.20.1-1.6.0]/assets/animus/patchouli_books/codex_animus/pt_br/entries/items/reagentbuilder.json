@@ -1,0 +1,18 @@
+{
+  "name": "guide.animus.entry.reagent_builder",
+  "icon": "animus:reagentbuilder",
+  "category": "animus:items",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "animus:crafting_soulforge",
+      "heading": "Reagent: Builder",
+      "recipe": "animus:soulforge/reagentbuilder",
+      "text": "Um reagente infundido com energia construtiva."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Este catalisador pode ser combinado com uma $(item)Ardósia Reforçada$() num Círculo de Alquimia para criar o $(l:animus:sigils/sigil_builder)Sigilo do Construtor Veloz$()."
+    }
+  ]
+}

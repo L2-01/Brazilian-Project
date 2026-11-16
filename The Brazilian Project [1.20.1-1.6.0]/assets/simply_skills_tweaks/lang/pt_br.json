@@ -1,0 +1,55 @@
+{
+  "simply_skills_tweaks.config_screen.title": "Configuração do Simply Skills Tweaks",
+  "simply_skills_tweaks.config_screen.op_required": "\n§4§lAviso:§f §cVocê precisa ser operador do servidor para editar isto.§f",
+
+  "simply_skills_tweaks.category.righteous_hammers": "Martelos Justos",
+  "simply_skills_tweaks.category.righteous_hammers.desc": "Configuração para a escala da habilidade de ascendência Martelos Justos.",
+
+  "simply_skills_tweaks.group.general": "Configurações gerais",
+  "simply_skills_tweaks.group.general.desc": "Alterna a fórmula de escala personalizada e a depuração.",
+
+  "simply_skills_tweaks.group.physical": "Escala Física",
+  "simply_skills_tweaks.group.physical.desc": "Escala para builds de §6Dano Físico§f.",
+
+  "simply_skills_tweaks.group.tank": "Escala de Tanque",
+  "simply_skills_tweaks.group.tank.desc": "Escala para builds de §6Tanque§f com base em §cVida Máxima§f, §7Armadura§f e §eEscudos§f.",
+
+  "simply_skills_tweaks.group.holy_lightning": "Escala Sagrada e de Raios",
+  "simply_skills_tweaks.group.holy_lightning.desc": "Escala para builds de poder §6Sagrado§f e de §eRaios§f.",
+
+  "simply_skills_tweaks.option.toggleNewHammerFormula": "Ativar nova fórmula",
+  "simply_skills_tweaks.option.toggleNewHammerFormula.desc": "Alterna a nova fórmula para Martelos Justos. Se desativado, volta à escala vanilla do SimplySkills.",
+
+  "simply_skills_tweaks.option.debugLogging": "Ativar registro de depuração",
+  "simply_skills_tweaks.option.debugLogging.desc": "Registra cálculos detalhados de dano no console para cada jogador.",
+
+  "simply_skills_tweaks.option.physicalAttackMultiplier": "Multiplicador de Ataque Físico",
+  "simply_skills_tweaks.option.physicalAttackMultiplier.desc": "Multiplicador de dano de ataque até o limiar do teto suave (escala original: 0.80).",
+
+  "simply_skills_tweaks.option.physicalSoftCapThreshold": "Limiar de Teto Suave Físico",
+  "simply_skills_tweaks.option.physicalSoftCapThreshold.desc": "Limiar de dano de ataque onde o teto suave físico começa.",
+
+  "simply_skills_tweaks.option.physicalExcessMultiplier": "Multiplicador de Excesso Físico",
+  "simply_skills_tweaks.option.physicalExcessMultiplier.desc": "Multiplicador decrescente para o dano de ataque que excede o limiar do teto suave.",
+
+  "simply_skills_tweaks.option.tankAttackMultiplier": "Multiplicador de Ataque de Tanque",
+  "simply_skills_tweaks.option.tankAttackMultiplier.desc": "Multiplicador de dano de ataque para tanques.",
+
+  "simply_skills_tweaks.option.tankHealthMultiplier": "Multiplicador de Vida Máx. de Tanque",
+  "simply_skills_tweaks.option.tankHealthMultiplier.desc": "Multiplicador de §cVida Máxima§f para tanques.",
+
+  "simply_skills_tweaks.option.tankArmorMultiplier": "Multiplicador de Armadura de Tanque",
+  "simply_skills_tweaks.option.tankArmorMultiplier.desc": "Multiplicador de §7Armadura§f para tanques.",
+
+  "simply_skills_tweaks.option.shieldBonusMultiplier": "Bônus de Escudo na Mão Secundária",
+  "simply_skills_tweaks.option.shieldBonusMultiplier.desc": "Multiplicador de dano ao segurar um §eEscudo§f na mão secundária.",
+
+  "simply_skills_tweaks.option.holyLightningAttackMultiplier": "Multiplicador de Ataque Híbrido",
+  "simply_skills_tweaks.option.holyLightningAttackMultiplier.desc": "Multiplicador de dano de ataque para builds híbridas de §6Sagrado§f/§eRaios§f.",
+
+  "simply_skills_tweaks.option.holyLightningSpellMultiplier": "Multiplicador de Poder de Feitiço",
+  "simply_skills_tweaks.option.holyLightningSpellMultiplier.desc": "Multiplicador para o maior entre o Poder de Feitiço de §6Cura§f e de §eRaios§f.",
+
+  "simply_skills_tweaks.option.holyLightningArmorMultiplier": "Multiplicador de Armadura Híbrida",
+  "simply_skills_tweaks.option.holyLightningArmorMultiplier.desc": "Multiplicador de armadura para builds de §6Sagrado§f/§eRaios§f."
+}

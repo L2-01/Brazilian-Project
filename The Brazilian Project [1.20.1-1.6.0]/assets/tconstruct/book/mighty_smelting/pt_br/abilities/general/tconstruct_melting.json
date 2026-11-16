@@ -1,0 +1,18 @@
+{
+  "modifier_id": "tconstruct:melting",
+  "text": [
+    {
+      "text": "A forja não é portátil o bastante? Tente transformar sua ferramenta numa forja de mão! "
+    },
+    {
+      "text": "O botão direito num tanque segurando a ferramenta esvazia fluido.",
+      "paragraph": true
+    }
+  ],
+  "effects": [
+    "Derrete mobs atacados para o tanque da ferramenta",
+    "Itens derrubados também são derretidos se possível",
+    "A ferramenta pode ser esvaziada num tanque ou no dreno da fundição",
+    "Exige 1 espaço de habilidade, nível único"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Catalisadores de Will",
+  "icon": "bloodmagic:rawcatalyst",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "se a $(raw)Will Demoníaca$() tem uma desvantagem, é que coletá-la é um processo lento e tedioso. Mesmo com uma $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$() quase cheia e uma $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Espada Consciente$() encantada com $(thing)Saque III$() e ainda buffada com $(l:bloodmagic:alchemy_table/anointments/looting_anointment)Brilho do Saqueador II$(), ainda é um processo manual, e você tem coisas melhores para fazer com seu gênio do que sair correndo esmagando aranhas e abatendo esqueletos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Felizmente, é possível automatizar completamente esse procedimento, deixando você com mais tempo livre para expandir seu império maligno. (Ou voltar a cultivar beterrabas, se preferir.) $(br2)O primeiro passo é obter alguns $(l:bloodmagic/demon_will/will_manipulation/crystallized_will)Cristais de Will$(). Podemos usar qualquer tipo — Will $(raw)Bruta$(), $(steadfast)Resoluta$(), $(destructive)Destrutiva$(), $(vengeful)Vingativa$() ou $(corrosive)Corrosiva$(), desde que tenhamos 4 do mesmo tipo de cristal."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Aglomerado de Cristal Bruto",
+      "a.recipe": "bloodmagic:soulforge/raw_crystal_block",
+      "b.heading": "Aglomerado Resoluto",
+      "b.recipe": "bloodmagic:soulforge/steadfast_crystal_block",
+      "c.heading": "Aglomerado Destrutivo",
+      "c.recipe": "bloodmagic:soulforge/destructive_crystal_block"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Aglomerado Vingativo",
+      "a.recipe": "bloodmagic:soulforge/vengeful_crystal_block",
+      "b.heading": "Aglomerado Corrosivo",
+      "b.recipe": "bloodmagic:soulforge/corrosive_crystal_block"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "assim que tiver este aglomerado, basta colocá-lo em qualquer chunk, abastecer o chunk com will do tipo correspondente, e esperar. Eventualmente, novas agulhas crescerão, assim como aglomerados crescendo sobre um $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Cristalizador Demoníaco$(). $(br2)Você pode até automatizar a quebra dessas agulhas adicionais com o ritual $(l:bloodmagic:rituals/ritual_list/ritual_crystal_harvest)Fenda do Cristal Fraturado$(), e a coleta dos cristais resultantes com o $(l:bloodmagic:rituals/ritual_list/ritual_zephyr)Chamado do Zéfiro$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Com um sistema básico de $(l:bloodmagic:demon_will/item_routing/routing_nodes)Nó de Roteamento$(), você pode até realimentar esses cristais excedentes num $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Crisol Demoníaco$() para um loop totalmente automático e líquido positivo. $(br2)Você pode ter notado um probleminha, no entanto — esta montagem é lenta. Muito, muito lenta. Cada cristal só brota uma nova agulha a cada poucos minutos, e leva quase tanta will para gerar quanto você ganha ao queimá-la — em média, dá cerca de 1 will / minuto / agulha."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Catalisador de Will Bruta",
+      "a.recipe": "bloodmagic:soulforge/raw_catalyst",
+      "b.heading": "Catalisador de Will Resoluta",
+      "b.recipe": "bloodmagic:soulforge/steadfast_catalyst",
+      "c.heading": "Catalisador de Will Destrutiva",
+      "c.recipe": "bloodmagic:soulforge/destructive_catalyst"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Catalisador de Will Vingativa",
+      "a.recipe": "bloodmagic:soulforge/vengeful_catalyst",
+      "b.heading": "Catalisador de Will Corrosiva",
+      "b.recipe": "bloodmagic:soulforge/corrosive_catalyst"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Felizmente, é aqui que nossos novos amigos, os $(item)Catalisadores de Will$(), entram em cena. Segurando um desses Catalisadores, basta pressionar [$(k:use)] num $(thing)Aglomerado de Cristais$() do mesmo tipo para turbinar seu crescimento! Cada catalisador reduz a quantidade de will exigida para crescer uma agulha de 45 para só 25, e acelera o crescimento dez vezes. Cada dose vale por dez agulhas de crescimento, o que dá um bônus líquido de 200 will por Catalisador."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você pode até aplicar dose dupla nos seus aglomerados — embora isso só faça o efeito durar 20 crescimentos em vez de 10 e não tenha outro benefício. $(br2)Claro, o Sanguimante esperto já percebeu que isso substituiu um problema manual — correr por aí batendo em monstros com uma espada — por outro — correr por aí batendo em cristais com um catalisador."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Felizmente, há um ritual para isso também! O $(l:bloodmagic:rituals/ritual_list/ritual_crystal_catalyst)Reunião das Almas Abandonadas$() aplicará catalisadores automaticamente a quaisquer cristais na sua área de efeito. Com algumas fazendas e uma montagem de $(thing)Nó de Roteamento$() muito, muito esperta, você pode automatizar tudo, de ponta a ponta... Mas como dizem, isso fica como exercício para o leitor."
+    }
+  ]
+}

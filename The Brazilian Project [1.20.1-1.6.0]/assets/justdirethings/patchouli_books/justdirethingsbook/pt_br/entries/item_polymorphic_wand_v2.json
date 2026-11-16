@@ -1,0 +1,21 @@
+{
+  "name": "Varinha Polimórfica Av.",
+  "sortnum": 22,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:polymorphic_wand",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A varinha polimórfica avançada é uma melhoria da Varinha Polimórfica. A habilidade 'polimorfia aleatória' ainda existe, mas uma nova habilidade, 'polimorfia direcionada', agora está disponível!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Basta shift-clicar direito em qualquer criatura para salvar esse tipo na varinha, depois ative a habilidade de polimorfia direcionada para converter qualquer criatura naquele tipo automaticamente!$(br2)Algumas criaturas não podem ser salvas na varinha (você pode editá-las com Tags).$(br2)É recomendado configurar as duas habilidades para cliques ou teclas diferentes."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Varinha Polimórfica Av.",
+      "recipe": "justdirethings:polymorphic_wand"
+    }
+  ]
+}

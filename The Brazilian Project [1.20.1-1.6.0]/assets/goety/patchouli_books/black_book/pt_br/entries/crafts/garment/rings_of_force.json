@@ -1,0 +1,22 @@
+{
+  "name": "Anel da Força",
+  "icon": "goety:ring_of_force",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O feitiço de Telecinesia é divertido e tal, mas e se você quiser ferir quem está segurando sem ficar arremessando-o ao chão o tempo todo?"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:ring_of_force"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar o feitiço usando este anel fará o ser que você segura perder fôlego aos poucos, sufocando até perecer ou até você perder o controle sobre ele."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:ring_of_force": 1
+  }
+}

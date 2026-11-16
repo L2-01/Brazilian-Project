@@ -1,0 +1,61 @@
+{
+  "config.jade.plugin_mana_jade.mana_storage": "Armazenamento de Mana",
+  "config.jade.plugin_mana_jade.misc_flora_info": "Informações de Flora Diversa",
+  "config.jade.plugin_mana_jade.generating_flora_info": "Informações de Flora Geradora",
+
+  "config.jade.plugin_mana_jade.mana_storage.mana_pool": "Armazenamento da Piscina de Mana",
+  "config.jade.plugin_mana_jade.mana_storage.mana_spreader": "Armazenamento do Espalhador de Mana",
+  "config.jade.plugin_mana_jade.mana_storage.special_flora": "Armazenamento de Flora",
+
+  "config.jade.plugin_mana_jade.mana_pool_catalyst": "Catalisador da Piscina de Mana",
+  "config.jade.plugin_mana_jade.mana_spreader_burst_info": "Informações de Rajada do Espalhador de Mana",
+  "config.jade.plugin_mana_jade.runic_altar_recipe_progress": "Progresso de Receita do Altar Rúnico",
+  "config.jade.plugin_mana_jade.terra_plate_recipe_progress": "Progresso de Receita da Placa de Terra",
+
+  "config.jade.plugin_mana_jade.misc_flora_info.pure_daisy_info": "Informações da Margarida Pura",
+  "config.jade.plugin_mana_jade.misc_flora_info.mana_star_info": "Informações da Estrela de Mana",
+
+  "config.jade.plugin_mana_jade.generating_flora_info.hydroangeas_info": "Informações da Hydroangeas",
+  "config.jade.plugin_mana_jade.generating_flora_info.endoflame_info": "Informações da Endoflame",
+  "config.jade.plugin_mana_jade.generating_flora_info.thermalily_info": "Informações da Thermalily",
+  "config.jade.plugin_mana_jade.generating_flora_info.rosa_arcana_info": "Informações da Rosa Arcana",
+  "config.jade.plugin_mana_jade.generating_flora_info.munchdew_info": "Informações da Munchdew",
+  "config.jade.plugin_mana_jade.generating_flora_info.entropinnyum_info": "Informações da Entropinnyum",
+
+  "tooltip.mana_jade.mana_receiver_storage": "Mana: %d/%d",
+  "tooltip.mana_jade.creative_mana_pool_storage": "Mana: ∞",
+
+  "tooltip.mana_jade.mana_pool_catalyst": "Catalisador: %s",
+  "tooltip.mana_jade.mana_spreader_burst_starting_mana": "Mana Inicial da Rajada: %d",
+  "tooltip.mana_jade.mana_spreader_burst_velocity": "Velocidade da Rajada: %s, %s, %s",
+  "tooltip.mana_jade.mana_spreader_burst_ticks_before_mana_loss": "Tiques da Rajada Antes da Perda de Mana: %d",
+  "tooltip.mana_jade.mana_spreader_burst_mana_loss": "Perda de Mana da Rajada por Tique: %d",
+
+  "tooltip.mana_jade.pure_daisy_recipe_progress": "%s Progresso: %s/%s s",
+  "tooltip.mana_jade.mana_star_info": "Mana: %s/s",
+
+  "tooltip.mana_jade.hydroangeas_mana_per_second": "Mana: %s/s",
+  "tooltip.mana_jade.hydroangeas_decay_time": "Tempo de decaimento: %ss",
+  "tooltip.mana_jade.endoflame_mana_per_second": "Mana: %s/s",
+  "tooltip.mana_jade.endoflame_burn_time": "Tempo de queima: %ss",
+  "tooltip.mana_jade.thermalily_mana_per_second": "Mana: %s/s",
+  "tooltip.mana_jade.thermalily_burn_time": "Tempo de queima: %ss",
+  "tooltip.mana_jade.thermalily_cooldown_time": "Recarga: %ss/%ss",
+  "tooltip.mana_jade.rosa_arcana_mana_per_xp": "Mana: %d/xp",
+  "tooltip.mana_jade.rosa_arcana_xp_per_second": "XP do Jogador: %d/s",
+  "tooltip.mana_jade.munchdew_mana_per_leaf": "Mana: %d/folha",
+  "tooltip.mana_jade.munchdew_leaves_per_second": "Folhas: %d/s",
+  "tooltip.mana_jade.munchdew_cooldown": "Recarga: %s/%s",
+  "tooltip.mana_jade.entropinnyum_can_absorb_explosion": "Pode Absorver Explosão: %s",
+
+  "tooltip.mana_jade.true": "Sim",
+  "tooltip.mana_jade.false": "Não",
+  "tooltip.mana_jade.direction.west": "Oeste",
+  "tooltip.mana_jade.direction.southwest": "Sudoeste",
+  "tooltip.mana_jade.direction.south": "Sul",
+  "tooltip.mana_jade.direction.southeast": "Sudeste",
+  "tooltip.mana_jade.direction.east": "Leste",
+  "tooltip.mana_jade.direction.northeast": "Nordeste",
+  "tooltip.mana_jade.direction.north": "Norte",
+  "tooltip.mana_jade.direction.northwest": "Noroeste"
+}

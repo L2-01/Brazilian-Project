@@ -1,0 +1,19 @@
+{
+  "name": "Cartão de Vazio",
+  "icon": "rftoolsbuilder:shape_card_void",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_void": 1
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Cartão de Vazio faz o Construtor remover os blocos da área selecionada sem produzir itens largados. Use-o para limpar espaço rapidamente."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_void"
+    }
+  ]
+}

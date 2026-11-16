@@ -1,0 +1,18 @@
+{
+    "name": "Sincronizador de Configurações",
+    "icon": "mimi:settingssync",
+    "category": "mimi:5other",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O Sincronizador de Configurações é um item que permite copiar e colar configurações entre blocos do MIMI do mesmo tipo.$(br2)Para usar um Sincronizador de Configurações, crie um e depois segure shift + clique com o botão direito num bloco para copiar suas configurações para o Sincronizador. Depois, clique com o botão direito em quaisquer outros blocos do mesmo tipo para colar as configurações copiadas."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mimi:settingssync",
+            "link_recipe": true,
+            "text": ""
+        }
+    ],
+    "sortnum": 1
+}

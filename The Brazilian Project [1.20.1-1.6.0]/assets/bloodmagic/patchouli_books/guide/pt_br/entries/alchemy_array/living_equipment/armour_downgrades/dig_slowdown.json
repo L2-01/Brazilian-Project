@@ -1,0 +1,16 @@
+{
+  "name": "Picareta Enfraquecida",
+  "icon": "minecraft:stone_pickaxe",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Efeito: Reduz sua velocidade de escavação. Máximo de 80% de redução."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/dig_slowdown",
+      "b.upgrade": "bloodmagic:dig_slowdown"
+    }
+  ]
+}

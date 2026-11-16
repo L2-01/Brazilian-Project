@@ -1,0 +1,17 @@
+{
+  "name": "Necromantes de Cairn",
+  "icon": "goety:crypt_stone",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_cairn_necromancer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Antigos oficiais mortos há muito tempo, erguidos à morte-vida para manter e guardar a Cripta com seus servos mortos-vivos. Eles parecem ser um ramo dos antigos Necromantes do deserto, utilizando o poder do frio."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:cairn_necromancer",
+      "text": "Invocam vários Errantes e disparam Espinhos de Gelo."
+    }
+  ]
+}

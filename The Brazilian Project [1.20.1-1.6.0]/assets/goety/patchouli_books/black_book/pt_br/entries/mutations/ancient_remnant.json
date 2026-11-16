@@ -1,0 +1,26 @@
+{
+  "name": "Remanescente Ancestral",
+  "icon": "cataclysm:remnant_skull",
+  "category": "goety:cataclysm/mutations",
+  "advancement": "goety:goety/read_terminus_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com o Creme de Envelhecimento e as Essências do Primordial, você consegue transformar o Remanescente Moderno numa força tão poderosa quanto seu progenitor."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_modern_remnant_to_ancient_remnant_servant"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:ancient_remnant",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O monarca morto-vivo pode ser curado alimentando-o com ossos, e pode se curar passivamente se seu dono vestir uma Capa Necrótica. Na segunda fase, ele consegue se curar passivamente mesmo em chamas e sem intervalo por segundo."
+    }
+  ]
+}

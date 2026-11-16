@@ -1,0 +1,19 @@
+{
+  "name": "Purificador",
+  "icon": "deepresonance:purifier",
+  "category": "rftoolsbase:category_deepresonance_machines",
+  "extra_recipe_mappings": {
+    "deepresonance:purifier": 1
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Purificador melhora a pureza do cristal líquido. Coloque cristal líquido num tanque acima, um tanque de saída abaixo e material de filtro na máquina."
+    },
+    {
+      "type": "crafting",
+      "recipe": "deepresonance:purifier"
+    }
+  ]
+}

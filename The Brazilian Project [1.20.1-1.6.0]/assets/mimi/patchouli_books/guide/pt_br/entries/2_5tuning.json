@@ -1,0 +1,166 @@
+{
+    "name": "Afinando Instrumentos",
+    "icon": "mimi:tuningtable",
+    "category": "mimi:2instruments",
+    "extra_recipe_mappings": {
+        "mimi:accordion2": 3,
+        "mimi:acguitar2": 4,
+        "mimi:acguitar3": 4,
+        "mimi:bassguitar2": 5,
+        "mimi:bassguitar3": 5,
+        "mimi:drums2": 6,
+        "mimi:drums3": 6,
+        "mimi:drums4": 6,
+        "mimi:drums5": 6,
+        "mimi:edrums2": 7,
+        "mimi:elecguitar2": 8,
+        "mimi:elecguitar3": 8,
+        "mimi:elecguitar4": 8,
+        "mimi:elecguitar5": 8,
+        "mimi:keyboard2": 9,
+        "mimi:keyboard3": 9,
+        "mimi:keyboard4": 9,
+        "mimi:keyboard5": 9,
+        "mimi:microphone2": 10,
+        "mimi:microphone3": 10,
+        "mimi:microphone4": 10,
+        "mimi:microphone5": 10,
+        "mimi:microphone6": 10,
+        "mimi:organ2": 11,
+        "mimi:organ3": 11,
+        "mimi:organ4": 11,
+        "mimi:organ5": 11,
+        "mimi:piano2": 12,
+        "mimi:piano3": 12,
+        "mimi:piano4": 12,
+        "mimi:prophet2": 13,
+        "mimi:prophet3": 13,
+        "mimi:prophet4": 13,
+        "mimi:prophet5": 13,
+        "mimi:prophet6": 13,
+        "mimi:prophet7": 14,
+        "mimi:prophet8": 14,
+        "mimi:prophet9": 14,
+        "mimi:saxophone2": 15,
+        "mimi:saxophone3": 15,
+        "mimi:saxophone4": 15,
+        "mimi:synlead2": 16,
+        "mimi:synlead3": 16,
+        "mimi:synlead4": 16,
+        "mimi:trumpet2": 17,
+        "mimi:violin2": 18
+    },
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Muitos instrumentos podem ser $(o)afinados$() para ter um som levemente (ou, em alguns casos, significativamente) diferente do som original.$(br2)Para afinar um instrumento afinável, você primeiro precisará criar uma Mesa de Afinação:"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Receita",
+            "recipe": "mimi:tuningtable"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Usando a Mesa",
+            "text": "Para usar a Mesa de Afinação, insira um instrumento afinável no slot esquerdo e o modificador de afinação correspondente no slot direito. O instrumento afinado resultante pode então ser removido do slot de saída (ele manterá suas Configurações MIDI e cor de corante).$(br2)Uma lista de instrumentos afináveis e seus modificadores suportados pode ser encontrada na próxima página, ou no JEI se estiver instalado."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:accordion",
+            "title": "Acordeão",
+            "text": "$(l)Standard$() — Graveto$(br2)$(l)Bandoneon$() — Grãos de Cacau"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:acguitar",
+            "title": "Violão",
+            "text": "$(l)Nylon$() — Graveto$(br2)$(l)Aço$() — Corrente$(br2)$(l)Baixo$() — Laço"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:bassguitar",
+            "title": "Baixo",
+            "text": "$(l)Dedos$() — Graveto$(br2)$(l)Slap$() — Couro$(br2)$(l)Palheta$() — Sílex"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:drums",
+            "title": "Bateria",
+            "text": "$(l)Standard$() — Graveto$(br2)$(l)Sala$() — Tábuas$(br2)$(l)Power$() — Pedregulho$(br2)$(l)Jazz$() — Pepita de Ouro$(br2)$(l)Vassoura$() — Pena"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:edrums",
+            "title": "E-Drums",
+            "text": "$(l)Standard$() — Graveto$(br2)$(l)TR-808$() — Quartzo do Nether"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:elecguitar",
+            "title": "Guitarra",
+            "text": "$(l)Power$() — Graveto$(br2)$(l)Jazz$() — Pepita de Ouro$(br2)$(l)Havaiana$() — Alga$(br2)$(l)Clean$() — Bola de Neve$(br2)$(l)Driven$() — Pó de Blaze"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:keyboard",
+            "title": "Teclado",
+            "text": "$(l)Rhodes$() — Graveto$(br2)$(l)Coral$() — Fruta-do-Coro$(br2)$(l)Clavinet$() — Pepita de Ferro$(br2)$(l)Órgão$() — Lágrima de Ghast$(br2)$(l)E-Piano$() — Linha"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:microphone",
+            "title": "Microfone",
+            "text": "$(l)Doo$() — Graveto$(br2)$(l)Ahh$() — Favo de Mel$(br2)$(l)Ooh$() — Membrana de Espectro$(br2)$(l)Synth$() — Pó de Redstone$(br2)$(l)Espaço$() — Pérola de Ender$(br2)$(l)Coral$() — Fruta-do-Coro"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:organ",
+            "title": "Órgão",
+            "text": "$(l)Igreja$() — Graveto$(br2)$(l)Drawbar$() — Barras de Ferro$(br2)$(l)Percussivo$() — Osso$(br2)$(l)Rock$() — Granito$(br2)$(l)Palheta$() — Cana-de-Açúcar"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:piano",
+            "title": "Piano",
+            "text": "$(l)Cauda$() — Graveto$(br2)$(l)Brilhante$() — Pó de Pedra-Luminosa$(br2)$(l)Elétrico$() — Pó de Redstone$(br2)$(l)Honky-Tonk$() — Pepino-do-Mar"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:prophet",
+            "title": "Prophet-5 (1/2)",
+            "text": "$(l)Poly$() — Graveto$(br2)$(l)Brass$() — Pepita de Ouro$(br2)$(l)Brass-M$() — Lingote de Cobre$(br2)$(l)Chiffer$() — Frasco de Vidro$(br2)$(l)Strings$() — Linha$(br2)$(l)Sweep$() — Bolsa de Tinta"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:prophet",
+            "title": "Prophet-5 (2/2)",
+            "text": "$(l)Chorus$() — Fruta-do-Coro$(br2)$(l)Mallet$() — Tijolo$(br2)$(l)Dr. Solo$() — Batata Venenosa"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:saxophone",
+            "title": "Saxofone",
+            "text": "$(l)Alto$() — Graveto$(br2)$(l)Soprano$() — Pena$(br2)$(l)Tenor$() — Bola de Slime$(br2)$(l)Barítono$() — Creme de Magma"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:synlead",
+            "title": "Onda Synth",
+            "text": "$(l)Quadrada$() — Graveto$(br2)$(l)Serra$() — Sílex$(br2)$(l)Seno$() — Escama (Gosma de Tartaruga)$(br2)$(l)Quintas$() — Fragmento de Prismarinho"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:trumpet",
+            "title": "Trompete",
+            "text": "$(l)Standard$() — Graveto$(br2)$(l)Surdina$() — Bola de Argila"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:violin",
+            "title": "Violino",
+            "text": "$(l)Standard$() — Graveto$(br2)$(l)Trio$() — Bambu"
+        }
+    ],
+    "sortnum": 5
+}

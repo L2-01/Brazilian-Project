@@ -1,0 +1,25 @@
+{
+  "name": "Ceifadores",
+  "icon": "goety:spirit_fabric",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_reaper",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aparições encapuzadas proficientes em empunhar gadanhas com fome de almas."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:reaper"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:grave_dust",
+      "title": "Pó de Túmulo",
+      "text": "Ceifadores têm chance de derrubar Pós de Túmulo, que são úteis para fabricar certos objetos necromânticos."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:grave_dust": 2
+  }
+}

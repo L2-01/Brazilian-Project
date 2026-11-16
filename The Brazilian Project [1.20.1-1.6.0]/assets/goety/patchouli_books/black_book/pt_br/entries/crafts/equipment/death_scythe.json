@@ -1,0 +1,20 @@
+{
+  "name": "Gadanha Mortal",
+  "icon": "goety:death_scythe",
+  "category": "goety:crafts/equipment",
+  "advancement": "goety:goety/kill_a_apostle",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Gadanha Mortal é a mais poderosa de sua espécie, com lâminas tão afiadas que seus golpes não só podem viajar pelo ar, atingindo seres distantes de seu portador, como também os tornam mais vulneráveis. Ela se repara usando a Energia de Almas do portador."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:death_scythe"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:death_scythe": 1
+  }
+}

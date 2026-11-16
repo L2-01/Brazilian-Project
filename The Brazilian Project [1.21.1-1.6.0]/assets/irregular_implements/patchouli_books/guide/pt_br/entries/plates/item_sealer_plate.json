@@ -1,0 +1,11 @@
+{
+    "category": "irregular_implements:plates",
+    "icon": "irregular_implements:item_sealer_plate",
+    "name": "Chapa Seladora de Itens",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Qualquer entidade de item que tocar a $(d)Chapa Seladora de Itens$() será impedida de ser coletada por 30 segundos."
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Processador",
+  "icon": "rftoolscontrol:processor",
+  "category": "rftoolsbase:category_rftoolscontrol_processor",
+  "extra_recipe_mappings": {
+    "rftoolscontrol:processor": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Processador executa Cartões de Programa. Ele precisa de FE, pelo menos um núcleo de CPU, RAM suficiente e um Cartão de Programa num dos espaços de cartão."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolscontrol:processor"
+    },
+    {
+      "type": "text",
+      "text": "Os espaços de cartão superiores guardam programas. Espaços de expansão guardam cartões de CPU, RAM, rede e vídeo. Espaços de buffer são armazenamento geral para operações do programa."
+    },
+    {
+      "type": "text",
+      "text": "Programas podem ser ativados na GUI do Processador. Erros de execução são mostrados na GUI para que você possa voltar ao Programador e corrigir o cartão."
+    }
+  ]
+}

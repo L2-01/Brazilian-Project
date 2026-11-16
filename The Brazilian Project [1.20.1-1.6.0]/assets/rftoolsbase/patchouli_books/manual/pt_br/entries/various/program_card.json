@@ -1,0 +1,23 @@
+{
+  "name": "Cartão de Programa",
+  "icon": "rftoolscontrol:program_card",
+  "category": "rftoolsbase:category_rftoolscontrol_programmer",
+  "extra_recipe_mappings": {
+    "rftoolscontrol:program_card": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Cartões de Programa armazenam programas feitos no Programador. Coloque um num espaço de cartão do Processador para executá-lo."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolscontrol:program_card"
+    },
+    {
+      "type": "text",
+      "text": "Um cartão pode ter um nome e um grafo de opcodes. Copie cartões antes de mudanças arriscadas para que uma versão funcional permaneça disponível."
+    }
+  ]
+}

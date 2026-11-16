@@ -1,0 +1,17 @@
+{
+  "name": "Integração com Mods",
+  "icon": "minecraft:grass_block",
+  "category": "caupona:intro",
+  "sortnum": 101,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Os valores de dieta (fome, saciedade etc.) das comidas da Caupona são dinâmicos de um jeito especial, o que pode dificultar que alguns mods de informação os exibam corretamente. Fique atento a isso se tiver tais mods instalados."
+    },
+    {
+      "type": "text",
+      "text": "Os valores de dieta de sopas ou pratos são a soma de todos os ingredientes convertidos numa porção.",
+      "flag": "mod:diet"
+    }
+  ]
+}

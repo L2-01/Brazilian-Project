@@ -1,0 +1,294 @@
+{
+	"itemGroup.immersivepetroleum": "Immersive Petroleum",
+
+	"_comment": "################## Blocks ##################",
+
+	"block.immersivepetroleum.fluid_diesel": "Diesel",
+	"block.immersivepetroleum.fluid_crude_oil": "Petróleo Bruto",
+	"block.immersivepetroleum.fluid_lubricant": "Lubrificante",
+	"block.immersivepetroleum.fluid_gasoline": "Gasolina",
+	"block.immersivepetroleum.fluid_napalm": "Napalm",
+
+	"block.immersivepetroleum.asphalt": "Concreto Asfáltico",
+	"block.immersivepetroleum.asphalt_slab": "Laje de Concreto Asfáltico",
+	"block.immersivepetroleum.asphalt_stair": "Escadas de Concreto Asfáltico",
+	"block.immersivepetroleum.petcoke_block": "Bloco de Coque de Petróleo",
+	"block.immersivepetroleum.paraffin_wax_block": "Bloco de Cera de Parafina",
+
+	"block.immersivepetroleum.auto_lubricator": "Lubrificador Automático",
+	"block.immersivepetroleum.gas_generator": "Gerador Portátil",
+	"block.immersivepetroleum.flarestack": "Chaminé de Combustão",
+	"block.immersivepetroleum.seismic_survey": "Ferramenta de Levantamento Sísmico",
+
+	"block.immersivepetroleum.pumpjack": "Cavalo de Pau",
+	"block.immersivepetroleum.distillation_tower": "Torre de Destilação",
+	"block.immersivepetroleum.coker_unit": "Coqueadora",
+	"block.immersivepetroleum.hydrotreater": "Unidade de Refino de Alta Pressão",
+	"block.immersivepetroleum.derrick": "Torre de Perfuração",
+	"block.immersivepetroleum.oiltank": "Tanque de Petróleo",
+
+	"fluid_type.immersivepetroleum.diesel": "Diesel",
+	"fluid_type.immersivepetroleum.diesel_sulfur": "Diesel Sulfurizado",
+	"fluid_type.immersivepetroleum.crudeoil": "Petróleo Bruto",
+	"fluid_type.immersivepetroleum.lubricant": "Lubrificante",
+	"fluid_type.immersivepetroleum.gasoline": "Gasolina",
+	"fluid_type.immersivepetroleum.napalm": "Napalm",
+	"fluid_type.immersivepetroleum.naphtha": "Nafta",
+	"fluid_type.immersivepetroleum.benzol": "Benzol",
+	"fluid_type.immersivepetroleum.petroleum_gas": "Gás de Petróleo",
+	"fluid_type.immersivepetroleum.kerosene": "Querosene",
+
+	"_comment": "################## Items ##################",
+
+	"item.immersivepetroleum.projector": "Projetor",
+	"item.immersivepetroleum.projector.specific": "Projetor de %s",
+	"item.immersivepetroleum.speedboat": "Lancha",
+	"item.immersivepetroleum.oil_can": "Lata de Lubrificante",
+	"item.immersivepetroleum.survey_result": "Resultado do Levantamento",
+	"item.immersivepetroleum.gasoline_bottle": "Garrafa de Gasolina",
+	"item.immersivepetroleum.molotov": "Molotov",
+	"item.immersivepetroleum.molotov_lit": "Molotov Aceso",
+
+	"item.immersivepetroleum.bitumen": "Betume",
+	"item.immersivepetroleum.petcoke": "Coque de Petróleo",
+	"item.immersivepetroleum.petcoke_dust": "Pó de Coque de Petróleo",
+	"item.immersivepetroleum.diesel_bucket": "Balde de Diesel",
+	"item.immersivepetroleum.diesel_sulfur_bucket": "Balde de Diesel Sulfurizado",
+	"item.immersivepetroleum.crudeoil_bucket": "Balde de Petróleo Bruto",
+	"item.immersivepetroleum.lubricant_bucket": "Balde de Lubrificante",
+	"item.immersivepetroleum.gasoline_bucket": "Balde de Gasolina",
+	"item.immersivepetroleum.napalm_bucket": "Balde de Napalm",
+	"item.immersivepetroleum.naphtha_bucket": "Balde de Nafta",
+	"item.immersivepetroleum.benzol_bucket": "Balde de Benzol",
+	"item.immersivepetroleum.petroleum_gas_bucket": "Balde de Gás de Petróleo",
+	"item.immersivepetroleum.kerosene_bucket": "Balde de Querosene",
+	"item.immersivepetroleum.paraffin_wax": "Cera de Parafina",
+
+	"item.immersivepetroleum.upgrade_reinforced_hull": "Casco Reforçado",
+	"item.immersivepetroleum.upgrade_icebreaker": "Proa Quebra-Gelo",
+	"item.immersivepetroleum.upgrade_tank": "Tanque de Combustível Expandido",
+	"item.immersivepetroleum.upgrade_rudders": "Lemes de Manobra",
+	"item.immersivepetroleum.upgrade_paddles": "Remos de Emergência",
+
+	"_comment": "################# Entities ################",
+
+	"entity.immersivepetroleum.speedboat": "Lancha",
+
+	"_comment": "################## Descriptions ##################",
+
+	"desc.immersivepetroleum.info.survey_result.amount": "Quantidade: %1$s Baldes. (%2$s%%)",
+	"desc.immersivepetroleum.info.survey_result.expected": "Pressão esperada de %1$s mB/t.",
+
+	"desc.immersivepetroleum.info.oiltank.input": "Entrada",
+	"desc.immersivepetroleum.info.oiltank.output": "Saída",
+
+	"desc.immersivepetroleum.info.reservoir.oil": "Reservatório de Petróleo",
+	"desc.immersivepetroleum.info.reservoir.aquifer": "Aquífero",
+	"desc.immersivepetroleum.info.reservoir.lava": "Câmara de Magma",
+
+	"desc.immersivepetroleum.flavour.upgrade_reinforced_hull": "Torna a Lancha resistente ao fogo e aumenta sua vida",
+	"desc.immersivepetroleum.flavour.upgrade_icebreaker": "Permite à Lancha destruir gelo e ferir criaturas",
+	"desc.immersivepetroleum.flavour.upgrade_tank": "Aumenta a capacidade do tanque de combustível da Lancha",
+	"desc.immersivepetroleum.flavour.upgrade_rudders": "Permite curvas mais fechadas na Lancha",
+	"desc.immersivepetroleum.flavour.upgrade_paddles": "Pode remar a Lancha quando sem combustível",
+
+	"desc.immersivepetroleum.flavour.asphalt": "Aumenta a velocidade de caminhada em %1$s",
+	"desc.immersivepetroleum.flavour.paraffin_wax": "Diminui a velocidade de caminhada em 5%%. Escorregadio.",
+
+	"_comment": "This is for the upgrade list of the speedboat tooltip",
+	"desc.immersivepetroleum.flavour.speedboat.prefix": "Melhorada ",
+	"desc.immersivepetroleum.flavour.speedboat.upgrade": "Melhoria %d: ",
+
+	"desc.immersivepetroleum.flavour.surveytool.rightclickme": "Clique Direito para Abrir.",
+	"desc.immersivepetroleum.flavour.surveytool.location": "Amostra coletada em %d, %d",
+
+	"desc.immersivepetroleum.info.projector.noMultiblock": "Clique Direito para abrir o Menu",
+	"desc.immersivepetroleum.info.projector.size": "Tamanho: %d x %d x %d",
+	"desc.immersivepetroleum.info.projector.build0": "Exibe instruções",
+	"desc.immersivepetroleum.info.projector.build1": "para fazer um %s",
+	"desc.immersivepetroleum.info.projector.center": "Centrado em [%d, %d, %d]",
+
+	"desc.immersivepetroleum.info.projector.flipped.true": "Espelhado: Sim.",
+	"desc.immersivepetroleum.info.projector.flipped.false": "Espelhado: Não.",
+
+	"desc.immersivepetroleum.info.projector.rotated.north": "Rotacionado ao Norte",
+	"desc.immersivepetroleum.info.projector.rotated.east": "Rotacionado ao Leste",
+	"desc.immersivepetroleum.info.projector.rotated.south": "Rotacionado ao Sul",
+	"desc.immersivepetroleum.info.projector.rotated.west": "Rotacionado ao Oeste",
+
+	"desc.immersivepetroleum.info.projector.mode_0": "Modo de Seleção",
+	"desc.immersivepetroleum.info.projector.mode_1": "Modo de Projeção",
+
+	"desc.immersivepetroleum.info.projector.holdshift": "Shift",
+	"desc.immersivepetroleum.info.projector.holdshift.text": "Estatísticas",
+
+	"desc.immersivepetroleum.info.projector.holdctrl": "Ctrl",
+	"desc.immersivepetroleum.info.projector.holdctrl.text": "Atalhos",
+
+	"desc.immersivepetroleum.info.projector.control1": "Shift + Rolar para Cima/Baixo para Rotacionar",
+	"desc.immersivepetroleum.info.projector.control2": "%s para Espelhar",
+	"desc.immersivepetroleum.info.projector.control3": "Agachar + Clique Direito no ar para Mudar de Modo",
+
+	"desc.immersiveengineering.info.shader.immersivepetroleum:projector": "Projetor",
+
+	"_comment": "################## Item-Shaders ##################",
+
+	"item.immersivepetroleum.shader.name.blue": "ASHPD Azul",
+	"item.immersivepetroleum.shader.name.orange": "ASHPD Laranja",
+	"item.immersivepetroleum.shader.name.cube0": "Cubo de Armazenamento",
+	"item.immersivepetroleum.shader.name.cube1": "Cubo Companheiro",
+
+	"_comment": "################## GUI ##################",
+
+	"gui.immersivepetroleum.projector.search": "Buscar",
+	"gui.immersivepetroleum.projector.button.confirm": "Confirmar",
+	"gui.immersivepetroleum.projector.button.cancel": "Cancelar",
+	"gui.immersivepetroleum.projector.button.mirror": "Espelhar",
+	"gui.immersivepetroleum.projector.button.rcw": "Girar Horário",
+	"gui.immersivepetroleum.projector.button.rccw": "Girar Anti-horário",
+
+	"gui.immersivepetroleum.derrick.msg.disabled": "Desativado via Controlador",
+	"gui.immersivepetroleum.derrick.msg.drilling": "Perfurando... %1$s",
+	"gui.immersivepetroleum.derrick.msg.out_of_pipes": "Sem Tubos",
+	"gui.immersivepetroleum.derrick.msg.not_enough_power": "Energia Insuficiente",
+	"gui.immersivepetroleum.derrick.msg.missing": "Faltando %1$s",
+	"gui.immersivepetroleum.derrick.msg.completed": "Perfuração Concluída!<br>Tenha um bom dia :3",
+	"gui.immersivepetroleum.derrick.msg.safety_valve": "! AVISO!<br>VÁLVULA DE SEGURANÇA ABERTA<br>PRESSÃO MUITO ALTA",
+	"gui.immersivepetroleum.derrick.msg.water_table": "! AVISO!<br>Abaixo do lençol freático!<br>Inundado com água!",
+	"gui.immersivepetroleum.derrick.msg.set_in_stone": "Definido na Pedra",
+	"gui.immersivepetroleum.derrick.msg.config": "Config",
+
+	"gui.immersivepetroleum.derrick.settings.button.set": "Definir",
+	"gui.immersivepetroleum.derrick.settings.button.set.desc": "Aplica o caminho à Torre de Perfuração.",
+	"gui.immersivepetroleum.derrick.settings.button.reset": "Redefinir",
+	"gui.immersivepetroleum.derrick.settings.button.reset.desc": "Restaura a última config se possível.",
+	"gui.immersivepetroleum.derrick.settings.button.close": "Fechar",
+	"gui.immersivepetroleum.derrick.settings.button.close.desc": "Retorna à Torre de Perfuração.",
+	"gui.immersivepetroleum.derrick.settings.derrickishere": "Centro (Torre de Perfuração)",
+	"gui.immersivepetroleum.derrick.settings.pipe.normal": "Tubo Normal §7(Clique para Mudar)§r",
+	"gui.immersivepetroleum.derrick.settings.pipe.perforated": "Tubo Perfurado §7(Clique para Mudar)§r",
+	"gui.immersivepetroleum.derrick.settings.pipe.perforated_fixed": "Tubo Perfurado §c(Fixo)§r",
+
+	"_comment": "These are general purpose",
+	"gui.immersivepetroleum.dirs.north": "Norte",
+	"gui.immersivepetroleum.dirs.east": "Leste",
+	"gui.immersivepetroleum.dirs.south": "Sul",
+	"gui.immersivepetroleum.dirs.west": "Oeste",
+
+	"gui.immersivepetroleum.seismicsurvey.worldcoords": "Mundo: x%1$d z%2$d",
+	"gui.immersivepetroleum.seismicsurvey.takenhere": "A amostra foi coletada aqui.",
+	"gui.immersivepetroleum.seismicsurvey.possibility": "Possível reservatório de tipo desconhecido",
+	"gui.immersivepetroleum.seismicsurvey.awaitingresponse": "Aguardando Dados do Servidor...",
+
+	"_comment": "################## Effects ##################",
+
+	"effect.immersivepetroleum.anti_fire": "",
+
+	"_comment": "################## IE-Manual ##################",
+
+	"manual.immersivepetroleum.petroleum": "Processamento de Petróleo",
+
+	"ie.manual.entry.blank_text": "",
+
+	"ie.manual.entry.reservoirs.title": "Reservatórios de Fluido",
+	"ie.manual.entry.reservoirs.subtitle": "Ouro negro",
+
+	"ie.manual.entry.reservoirs.oil0": "Enquanto minerava perto da rocha matriz, você ocasionalmente notou uma substância negra viscosa e inflamável: <link;immersivepetroleum:fluids;§o§npetróleo bruto§r>. O Petróleo Bruto é apenas um dos muitos fluidos que podem ser encontrados sob a rocha impenetrável, mas você não conseguirá penetrar essas reservas sozinho.\n\nCom a ajuda de uma <link;immersivepetroleum:derrick;§o§nmáquina §o§nespecialmente §o§nprojetada§r> você poderá acessá-las.",
+	"ie.manual.entry.reservoirs.oil1": "A §o§nFerramenta §o§nde §o§nLevantamento Sísmico§r pode ser usada para prospectar reservatórios de fluido ouvindo as ondas infrassônicas refletidas de uma explosão de um <link;bullets;§o§nCartucho de Chumbo Grosso§r;buckshot>. O chumbo grosso deve ser carregado e a ferramenta clicada com o botão direito para produzir um mapa dos reservatórios ao redor que pode ser usado para triangular uma localização exata.<np>",
+	"ie.manual.entry.reservoirs.oil2": "Apenas um tipo de fluido pode vir de um único reservatório, cujos tipos estão listados nas páginas seguintes.<np>",
+
+	"_comment": "Below are used for Dynamic page generation of all reservoirs",
+	"ie.manual.entry.reservoirs.consonant": "Um",
+	"ie.manual.entry.reservoirs.vowel": "Um",
+
+	"ie.manual.entry.reservoirs.dim.valid": "%3$s §l%1$s§r é um tipo de reservatório de fluido que pode ser encontrado em %2$s.",
+	"ie.manual.entry.reservoirs.dim.invalid": "%3$s §l%1$s§r é um tipo de reservatório de fluido que pode ser encontrado em qualquer lugar menos em %2$s.",
+	"ie.manual.entry.reservoirs.dim.any": "%2$s §l%1$s§r é um tipo de reservatório de fluido que pode ser encontrado em qualquer Dimensão.",
+
+	"ie.manual.entry.reservoirs.bio.valid": "Este reservatório gerará em biomas de %s.",
+	"ie.manual.entry.reservoirs.bio.invalid": "Este reservatório não gerará em biomas de %s.",
+	"ie.manual.entry.reservoirs.bio.any": "Este reservatório gerará em qualquer bioma.",
+
+	"ie.manual.entry.reservoirs.content": "%1$s %6$s\nContém %3$s a %4$s baldes de %2$s.%5$s",
+	"ie.manual.entry.reservoirs.replenish": "\nDepois que o reservatório estiver abaixo de %3$dB, %1$dmB/tique de %2$s residual será reposto até a pressão de equilíbrio.",
+	"ie.manual.entry.reservoirs.replenish_depleted": "\nDepois que o reservatório estiver esgotado, %1$dmB/tique de %2$s residual pode ser extraído pelo Cavalo de Pau.",
+
+	"_comment": "################## Chat ##################",
+
+	"chat.immersivepetroleum.command.reservoir.notfound": "Nenhum reservatório encontrado.",
+	"chat.immersivepetroleum.command.reservoir.locate": "%1$s encontrado em %2$s",
+	"chat.immersivepetroleum.command.reservoir.set.amount.success": "Quantidade do reservatório definida para: %1$s",
+	"chat.immersivepetroleum.command.reservoir.set.capacity.success": "Capacidade do reservatório definida para: %1$s",
+	"chat.immersivepetroleum.command.reservoir.set.type.success": "Tipo do reservatório definido para: %1$s",
+	"chat.immersivepetroleum.command.reservoir.set.type.fail": "§cReservatório inválido, '%1$s' não é um identificador válido.§r",
+	"chat.immersivepetroleum.command.reservoir.get": "%1$s (%2$s%%) de %3$s",
+
+	"key.categories.immersivepetroleum": "Immersive Petroleum",
+	"key.immersivepetroleum.projector.flip": "Espelhar Projeção",
+
+	"death.attack.ipFlarestack": "Chamas queimaram %1$s até a inexistência",
+	"death.attack.ipFlarestack.player": "Chamas de %2$s queimaram %1$s até a inexistência",
+
+	"_comment": "################## Advancements ##################",
+
+	"advancement.immersivepetroleum.root": "Immersive Petroleum",
+	"advancement.immersivepetroleum.root.desc": "Encontre um Reservatório de Petróleo usando o Levantamento Sísmico",
+	"advancement.immersivepetroleum.projector": "Como eu construo essa coisa?",
+	"advancement.immersivepetroleum.projector.desc": "Fabrique o Projetor",
+	"advancement.immersivepetroleum.flarestack": "Seu Monstro!",
+	"advancement.immersivepetroleum.flarestack.desc": "Mate uma Cabra com a Chaminé de Combustão",
+	"advancement.immersivepetroleum.napalm": "Filho Afortunado",
+	"advancement.immersivepetroleum.napalm.desc": "Misture um pouco de Napalm",
+	"advancement.immersivepetroleum.mb_derrick": "Explosão de Baku",
+	"advancement.immersivepetroleum.mb_derrick.desc": "Forme a Torre de Perfuração",
+	"advancement.immersivepetroleum.mb_oiltank": "Glória Auto-Nivelante!",
+	"advancement.immersivepetroleum.mb_oiltank.desc": "Forme o Tanque de Petróleo",
+	"advancement.immersivepetroleum.mb_pumpjack": "Isso é uma droga!",
+	"advancement.immersivepetroleum.mb_pumpjack.desc": "Forme o Cavalo de Pau",
+	"advancement.immersivepetroleum.mb_distillationtower": "Isso é só o Começo",
+	"advancement.immersivepetroleum.mb_distillationtower.desc": "Forme a Torre de Destilação",
+	"advancement.immersivepetroleum.bitumen": "É tão pegajoso!",
+	"advancement.immersivepetroleum.bitumen.desc": "Pegue um pouco de Betume",
+	"advancement.immersivepetroleum.asphalt": "Me acelere, Scotty",
+	"advancement.immersivepetroleum.asphalt.desc": "Corra-Salte sobre Asfalto",
+	"advancement.immersivepetroleum.mb_cokerunit": "Essa coisa é Enorme!",
+	"advancement.immersivepetroleum.mb_cokerunit.desc": "Forme a Unidade Coqueadora",
+	"advancement.immersivepetroleum.petcoke": "Podemos ficar com ele, por favor?",
+	"advancement.immersivepetroleum.petcoke.desc": "Pegue um pouco de Coque de Petróleo",
+	"advancement.immersivepetroleum.mb_hydrotreater": "Diesel Limpo™",
+	"advancement.immersivepetroleum.mb_hydrotreater.desc": "Forme a Unidade de Refino de Alta Pressão",
+	"advancement.immersivepetroleum.gas_generator": "Energia para Levar",
+	"advancement.immersivepetroleum.gas_generator.desc": "Insira Gasolina no Gerador Portátil",
+	"advancement.immersivepetroleum.motorboat": "Aventura Relaxante",
+	"advancement.immersivepetroleum.motorboat.desc": "Encha uma Lancha com Gasolina",
+	"advancement.immersivepetroleum.ice_breaker": "O Titanic teria Inveja",
+	"advancement.immersivepetroleum.ice_breaker.desc": "Quebre gelo com a Lancha. (Melhoria Quebra-Gelo instalada)",
+	"advancement.immersivepetroleum.paddles": "De Volta à Estaca Zero",
+	"advancement.immersivepetroleum.paddles.desc": "Fique sem Combustível na Lancha. (Melhoria Remos de Emergência instalada)",
+	"advancement.immersivepetroleum.reinforced_hull": "Isso é realmente seguro?",
+	"advancement.immersivepetroleum.reinforced_hull.desc": "Zarpe no Nether. (Melhoria Casco Reforçado Instalada)",
+	"advancement.immersivepetroleum.rudders": "360 No-Scope",
+	"advancement.immersivepetroleum.rudders.desc": "Mate um Esqueleto com um Arco enquanto Gira em círculo. (Melhoria Lemes de Manobra Instalada)",
+	"advancement.immersivepetroleum.tank": "Acumulador de Gasolina",
+	"advancement.immersivepetroleum.tank.desc": "Tenha a Lancha cheia até a Borda com Gasolina. (Melhoria Tanque de Combustível Expandido instalada)",
+	"advancement.immersivepetroleum.auto_lubricator": "Esguichos automatizados",
+	"advancement.immersivepetroleum.auto_lubricator.desc": "Coloque um Lubrificador Automático ao lado de uma Máquina",
+	"advancement.immersivepetroleum.oil_can": "Alguns esguichos aqui e ali",
+	"advancement.immersivepetroleum.oil_can.desc": "Lubrifique uma Máquina manualmente",
+	"advancement.immersivepetroleum.cracking": "Sauna Mortal",
+	"advancement.immersivepetroleum.cracking.desc": "Use a URAP para craquear um pouco de Nafta",
+	"advancement.immersivepetroleum.duroplast": "Materiais Nu-Modernos",
+	"advancement.immersivepetroleum.duroplast.desc": "Produza blocos de duroplast a partir de petróleo",
+	"advancement.immersivepetroleum.kerosene": "O Passo de Shukhov",
+	"advancement.immersivepetroleum.kerosene.desc": "Converta Querosene em Benzol e Diesel Sulfurizado",
+	"advancement.immersivepetroleum.gasoline": "Octanagem Avassaladora",
+	"advancement.immersivepetroleum.gasoline.desc": "Melhore um pouco de Nafta para Gasolina",
+
+	"_comment": "################## Subtitles ##################",
+
+	"subtitle.immersivepetroleum.projector": "Projetor zumbindo",
+	"subtitle.immersivepetroleum.flarestack_fire": "Fogo da chaminé sibilando",
+
+	"_comment": "##################### JEI #####################",
+	"desc.immersivepetroleum.compat.jei.distillation.byproduct": "Saída Secundária"
+}

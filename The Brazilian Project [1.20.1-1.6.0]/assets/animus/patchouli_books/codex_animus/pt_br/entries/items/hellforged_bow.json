@@ -1,0 +1,28 @@
+{
+  "name": "guide.animus.entry.hellforged_bow",
+  "icon": "animus:hellforged_bow",
+  "category": "animus:items",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:hellforged_bow",
+      "text": "A evolução final do Arco Senciente, forjada em fogo infernal e vinculada por sangue. Esta arma devastadora extrai poder da sua Essência Vital enquanto ainda se beneficia da sintonia de vontade demoníaca. Suas flechas $(#f00)perfuram todos os alvos$() em linha!"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mecânica de Tiro Carregado",
+      "text": "$(bold)Consumo de LP:$() Consome LP em vez de flechas$(br)$(bold)Sistema de Carga:$() Segure para carregar além do tempo normal de puxada$(br)$(bold)LP Por Tique:$() Drena 50 LP por tique enquanto carrega$(br2)Com carga total (3,5 segundos), o arco drena $(#f00)3.500 LP$() e pode causar até $(#f00)40 de dano$() por tiro."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mecânica de Execução",
+      "text": "$(bold)Execução:$() Com carga total, as flechas podem $(#f00)matar instantaneamente$() qualquer alvo abaixo de 15%% de vida.$(br2)$(bold)Efeitos de Vontade:$() Como o Arco Senciente, as flechas ganham efeitos baseados no seu tipo dominante de vontade demoníaca.$(br2)$(bold)Autorreparo:$() O arco se repara automaticamente usando LP da sua rede (100 LP por durabilidade)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fabricação e Vínculo",
+      "text": "$(bold)Receita:$() Fabricado na Forja Infernal usando um Arco Senciente, Lingote de Netherita, Lingote Forjado no Inferno e Fragmento de Sangue Fraco. Requer mínimo de 2048 de vontade.$(br2)$(bold)Vínculo:$() Como outros itens de magia de sangue, o arco deve ser vinculado à sua Soul Network antes do uso. Agache + botão direito para vincular.$(br2)$(italic)Uma arma para quem dominou tanto o sangue quanto a vontade.$()"
+    }
+  ]
+}

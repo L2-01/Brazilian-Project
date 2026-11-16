@@ -1,0 +1,16 @@
+{
+  "name": "Fabricação",
+  "icon": "minecraft:crafting_table",
+  "category": "animal_pen:category_aquarium",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você pode fabricar um Aquário com materiais simples: vidro, um balde de água e pedra."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "animal_pen:aquarium_block"
+    }
+  ]
+}

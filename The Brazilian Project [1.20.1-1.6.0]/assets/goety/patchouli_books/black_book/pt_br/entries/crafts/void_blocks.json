@@ -1,0 +1,142 @@
+{
+  "name": "Blocos e Líquido do Vazio",
+  "icon": "goety:void_block",
+  "category": "goety:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você ouviu falar de blocos e líquidos interessantes encontrados no End que são nocivos para quem pisa neles, a menos que sejam nativos do próprio End..."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:void_bottle",
+      "text": "Para obter um Frasco de Vazio, você deve usar um Frasco de Vidro vazio abaixo da altura mínima de construção da dimensão, -64 Y para a Superfície, 0 tanto para o Nether quanto para o End, embora se possa dizer que é mais fácil de obter no End, já que não há Rocha Matriz bloqueando o Vazio."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:void_block"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:void_bucket",
+      "text": "Para obter um Balde de Vazio Líquido, encha um Caldeirão com Frascos de Vazio e use um Balde nele."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Tanto os Blocos do Vazio quanto o Líquido infligirão dano igual a 5%% da vida máxima por segundo, além de dar e amplificar o efeito Tocado pelo Vazio em criaturas que passam por eles. Enderman, Endermites e Enderlings são imunes aos efeitos, mas os Shulkers não, estranhamente."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:void_barrel"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Um Barril do Vazio é um bloco volátil que soltará uma explosão de vazio quando detonado, se quebrando no processo. Para detonar o barril, clique nele com o botão direito, ative-o com redstone ou atire um projétil nele."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Vazio Líquido também pode criar blocos decorativos quando interage com Água ou Lava. Despejar Água numa fonte de Vazio Líquido o transformará em Bloco do Vazio."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:end/end_basalt_slab",
+      "recipe2": "goety:end/end_basalt_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:end/end_basalt_bricks",
+      "recipe2": "goety:end/end_basalt_brick_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:end/end_basalt_brick_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:end/end_rock_slab",
+      "recipe2": "goety:end/end_rock_bricks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:end/end_rock_brick_slab",
+      "recipe2": "goety:end/end_rock_brick_wall"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:end/end_rock_brick_fence",
+      "recipe2": "goety:end/end_rock_chiseled"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:end_soil",
+      "text": "Quando água corrente encontra vazio corrente, cria-se Solo do End. Não só Flores-do-Coro podem crescer nele, como fazer lava escorrer sobre ele com Gelo Azul adjacente criará Obsidiana renovável. Usar farinha de osso nele criará algumas plantas que parecem ser parentes das Plantas-do-Coro."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:chorus/chorus_sapling",
+      "text": "Também é possível criar uma muda a partir do vazio, que fornece um novo conjunto de blocos tipo madeira que não queimam. Elas só podem ser plantadas em Solo do End."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:chorus_sapling",
+      "text": "Cultivar 4 Mudas do Coro numa área 2x2 criará uma Árvore do Coro gigantesca que tem Troncos do Coro Corrompidos, que também fornecem outro conjunto de blocos tipo madeira, ou Vazio Líquido dentro de si."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:chorus/chorus_growth",
+      "text": "Você descobriu um jeito de criar um ecossistema usando este broto. Ele pode ser usado para criar, ou clicado com o botão direito em certos blocos relacionados ao End, para criar folhagem."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:chorus/chorus_grass_block",
+      "recipe2": "goety:chorus/chorus_grass_block2"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:chorus/chorus_grass_block_slab",
+      "recipe2": "goety:chorus/chorus_grass_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:chorus/cobbled_chorus_grass_block"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:bone_meal",
+      "text": "Usar farinha de osso nesses blocos fará crescer Samambaias do Coro e Grama Alta do Coro em cima deles. Blocos de Grama do Coro podem se espalhar para Pedras do End Lisas adjacentes."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:end/end_growth_block",
+      "text": "Você também descobriu outro tipo de folhagem que pode ser introduzida no End, uma que parece carnuda e faz crescer trepadeiras quando se aplica farinha de osso, semelhantes às Trepadeiras-Retorcidas do Nether. Blocos de Vegetação do End podem se espalhar para Rochas do End adjacentes."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:end/end_dirt",
+      "text": "Aplicar Vazio diretamente na terra parece torná-la roxa e não cultivável por enxada, mas ela pode fazer crescer algumas Hastes do Coro quando se aplica farinha de osso e ser usada como decoração de terreno. Ela pode se espalhar para outra terra."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:chorus_blossom_leaves",
+      "text": "Mudas do Coro podem ser plantadas tanto em Blocos de Vegetação do End quanto em Terra do End mas, quando totalmente crescidas, em vez de folhas amarelas, crescem folhas que se parecem mais com Flores-do-Coro."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:end_mud",
+      "text": "Aplicar um Frasco de Água num Solo do End o transformará em Lama do End. Usar um Frasco de Vidro nele o transformará de volta em Solo do End, mas lhe dará um Frasco de Lodo do End, que pode ser despejado num Caldeirão para fazer um Caldeirão de Lama do End."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:end_mud_bucket",
+      "text": "Encher um Balde com o conteúdo de um caldeirão cheio dará um Balde de Lodo Líquido do End, que funciona de forma semelhante à Água, exceto que não causa dano a seres do End e se espalha um pouco mais devagar."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:void_bottle": 1,
+    "goety:void_bucket": 3,
+    "goety:end_soil": 11,
+    "goety:chorus_blossom_leaves": 21,
+    "goety:end_mud_bottle": 22,
+    "goety:end_mud_bucket": 23
+  }
+}

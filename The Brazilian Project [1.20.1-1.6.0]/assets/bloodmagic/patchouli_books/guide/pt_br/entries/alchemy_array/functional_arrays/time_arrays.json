@@ -1,0 +1,20 @@
+{
+  "name": "Arranjos de Dia/Noite",
+  "icon": "minecraft:clock",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Arranjos baseados em tempo são arranjos diretos que controlam a hora do dia. Os itens serão consumidos assim que o arranjo começar a mudar a hora. Essas receitas são temporárias e mudarão no futuro.$(br2)O arranjo de Dia mudará a hora do dia para o próximo nascer do sol. O arranjo de Noite mudará a hora do dia para o próximo pôr do sol."
+    },
+    {
+      "type": "bloodmagic:2x_functional_array",
+      "a.heading": "Nova Alvorada",
+      "a.recipe": "bloodmagic:array/day",
+      "a.image": "sunarray.png",
+      "b.heading": "Crepúsculo Verdadeiro",
+      "b.recipe": "bloodmagic:array/night",
+      "b.image": "moonarray.png"
+    }
+  ]
+}

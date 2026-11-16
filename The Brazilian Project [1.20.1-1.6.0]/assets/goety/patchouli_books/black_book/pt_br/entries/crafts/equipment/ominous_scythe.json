@@ -1,0 +1,33 @@
+{
+  "name": "Gadanha Ameaçadora",
+  "icon": "goety:dark_scythe",
+  "category": "goety:crafts/equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Gadanha Ameaçadora é uma arma poderosa capaz de atingir vários seres por golpe. Ela não só bate forte, como o portador ganha Energia de Almas a cada acerto. Se o medidor de recarga de ataque do portador estiver cheio, a gadanha atingirá seres num raio maior, embora demore bastante para o medidor se recuperar, o que pode ser mitigado se o portador não segurar nada na mão secundária."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:dark_scythe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A gadanha pode ser reparada em uma bigorna com um $(l:intro/magical_components)Lingote de Metal Amaldiçoado$() ou um $(l:crafts/pale_steel_ingot)Lingote de Aço Pálido$(). Ela também pode ser usada como ferramenta para limpar grama ou colher plantações numa área grande, ou para coletar blocos de Sculk sem Toque Suave."
+    },
+    {
+      "type": "goety:ritual",
+      "advancement": "goety:goety/craft_necro_brazier",
+      "recipe": "goety:dark/dark_metal_scythe"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "goety:goety/craft_necro_brazier",
+      "text": "Uma versão aprimorada da Gadanha Ameaçadora, possuindo as qualidades dos outros equipamentos de $(l:crafts/dark_alloy_ingot)Liga Sombria$()."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:dark_scythe": 1,
+    "goety:dark_metal_scythe": 3
+  }
+}

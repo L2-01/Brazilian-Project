@@ -1,0 +1,22 @@
+{
+    "name": "Arquivo de Configuração Comum",
+    "icon": "minecraft:player_head",
+    "category": "mimi:6settings",
+    "pages": [
+        {
+            "type": "text",
+            "text": "O MIMI também inclui um arquivo de configuração comum com vários ajustes adicionais que se aplicam ao cliente em um jogador e ao servidor em multijogador.$(br2)Como outros mods, o arquivo de configuração do MIMI pode ser encontrado na pasta $(#0046ff)config$() da sua instância do Minecraft e pode ser modificado com qualquer editor de texto ou IDE."
+        },
+        {
+            "type": "text",
+            "title": "Loja do Instrumentista",
+            "text": "$(l)Parâm.:$() enableInstrumentalistShop$(br)$(l)Tipo:$() Booleano$(br)$(l)Padrão:$() true$(br2)Este parâmetro armazena se Lojas de Instrumentista devem ou não ser geradas em aldeias."
+        },
+        {
+            "type": "text",
+            "title": "Criaturas com Instrumentos",
+            "text": "$(l)Parâm.:$() allowedInstrumentMobs$(br)$(l)Tipo:$() Lista Separada por Vírgulas$(br)$(l)Padrão:$() minecraft:zombie,minecraft:husk,minecraft:skeleton,minecraft:stray,minecraft:wither_skeleton$(br2)Este parâmetro armazena uma lista separada por vírgulas de criaturas que devem poder segurar instrumentos."
+        }
+    ],
+    "sortnum": 4
+}

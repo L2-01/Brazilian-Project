@@ -1,0 +1,17 @@
+{
+ "name": "DHD de Pegasus",
+ "icon": "sgjourney:pegasus_dhd",
+ "sortnum": 5,
+ "category": "sgjourney:stargates",
+ "pages": [
+  {
+   "title": "DHD de Pegasus",
+   "type": "patchouli:crafting",
+   "recipe": "sgjourney:pegasus_dhd"
+  },
+  {
+   "type": "patchouli:text",
+   "text": "O DHD de Pegasus pode usar Cristais Avançados, mas não pode usar Cristais comuns."
+  }
+ ]
+}

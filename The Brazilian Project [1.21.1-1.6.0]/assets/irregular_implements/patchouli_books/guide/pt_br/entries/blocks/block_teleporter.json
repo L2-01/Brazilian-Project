@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:block_teleporter",
+    "name": "Teletransportador de Blocos",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Teletransportador de Blocos$() permite teleportar o bloco à sua frente para outro Teletransportador de Blocos quando energizado.$(br2)Use um Filtro de Localização para salvar a localização de um Teletransportador de Blocos e insira-o no inventário de um segundo Teletransportador de Blocos."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Quando esse segundo Teletransportador de Blocos é energizado, ele tentará trocar o bloco à frente do primeiro Teletransportador pelo bloco à sua própria frente.$(br2)Se o Teletransportador funciona ou não entre dimensões pode ser configurado, mas o padrão é verdadeiro."
+        }
+    ]
+}

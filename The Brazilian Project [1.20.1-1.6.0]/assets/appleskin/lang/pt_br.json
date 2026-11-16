@@ -1,0 +1,26 @@
+{
+  "text.autoconfig.appleskin.title": "AppleSkin",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltip": "Mostrar valores de alimento no tooltip",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltip.@Tooltip": "Se verdadeiro, mostra os valores de fome e saturação do alimento no tooltip ao segurar SHIFT",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltipAlways": "Sempre mostrar valores de alimento no tooltip",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltipAlways.@Tooltip": "Se verdadeiro, mostra os valores de fome e saturação do alimento no tooltip automaticamente (sem precisar segurar SHIFT)",
+  "text.autoconfig.appleskin.option.showFoodValuesHudOverlay": "Mostrar fome restaurada pelo alimento na mão",
+  "text.autoconfig.appleskin.option.showFoodValuesHudOverlay.@Tooltip": "Se verdadeiro, mostra a fome (e saturação se showSaturationHudOverlay estiver ativo) que seria restaurada pelo alimento que você está segurando",
+  "text.autoconfig.appleskin.option.showFoodValuesHudOverlayWhenOffhand": "Mostrar sobreposições para alimento na mão secundária",
+  "text.autoconfig.appleskin.option.showFoodValuesHudOverlayWhenOffhand.@Tooltip": "Se verdadeiro, ativa as sobreposições de fome/saturação/vida para o alimento na sua mão secundária",
+  "text.autoconfig.appleskin.option.showFoodHealthHudOverlay": "Mostrar sobreposição de vida estimada",
+  "text.autoconfig.appleskin.option.showFoodHealthHudOverlay.@Tooltip": "Se verdadeiro, mostra a vida estimada restaurada pelo alimento na barra de vida",
+  "text.autoconfig.appleskin.option.showFoodExhaustionHudUnderlay": "Mostrar subcamada de exaustão",
+  "text.autoconfig.appleskin.option.showFoodExhaustionHudUnderlay.@Tooltip": "Se verdadeiro, mostra sua exaustão alimentar como uma barra de progresso atrás da barra de fome",
+  "text.autoconfig.appleskin.option.showSaturationHudOverlay": "Mostrar sobreposição de saturação",
+  "text.autoconfig.appleskin.option.showSaturationHudOverlay.@Tooltip": "Se verdadeiro, mostra seu nível atual de saturação sobreposto na barra de fome",
+  "text.autoconfig.appleskin.option.showFoodDebugInfo": "Mostrar valores de alimento na tela de depuração",
+  "text.autoconfig.appleskin.option.showFoodDebugInfo.@Tooltip": "Se verdadeiro, mostra seus níveis de fome, saturação e exaustão na tela de depuração",
+  "text.autoconfig.appleskin.option.showVanillaAnimationsOverlay": "Animar ícones da HUD para combinar com o Minecraft",
+  "text.autoconfig.appleskin.option.showVanillaAnimationsOverlay.@Tooltip": "Se verdadeiro, a sobreposição de vida/fome tremerá para combinar com as animações de ícones do Minecraft",
+  "text.autoconfig.appleskin.option.maxHudOverlayFlashAlpha": "Alfa máximo dos ícones piscantes da HUD",
+  "text.autoconfig.appleskin.option.maxHudOverlayFlashAlpha.@Tooltip": "Valor alfa dos ícones piscantes em seu ponto mais visível (1.0 = totalmente opaco, 0.0 = totalmente transparente)",
+
+  "modmenu.summaryTranslation.appleskin": "Adiciona várias melhorias de HUD relacionadas a alimentos",
+  "modmenu.descriptionTranslation.appleskin": "Adiciona várias melhorias de HUD relacionadas a alimentos"
+}

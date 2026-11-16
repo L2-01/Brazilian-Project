@@ -1,0 +1,21 @@
+{
+  "name": "Pergaminho do Término",
+  "icon": "goety:terminus_scroll",
+  "category": "goety:crafts",
+  "advancement": "goety:goety/get_shrouded_blueprint",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A planta compartilha algumas semelhanças com o Pergaminho da Guerra, fazendo você pensar que transcrevê-la num esquema legível requer algo que venha de uma criação semelhante."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:terminus_scroll"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:shrouded_blueprint": 0,
+    "goety:terminus_scroll": 1
+  }
+}

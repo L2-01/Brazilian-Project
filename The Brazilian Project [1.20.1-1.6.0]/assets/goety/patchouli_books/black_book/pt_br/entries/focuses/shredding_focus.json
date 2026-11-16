@@ -1,0 +1,16 @@
+{
+  "name": "Foco Triturador",
+  "icon": "goety:shredding_focus",
+  "category": "goety:focuses",
+  "advancement": "goety:goety/get_ruby",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Invoca uma fileira de espinhos reais e mágicos à sua frente que causa dano constante, que ignora armadura (a menos que seja encantada), a quaisquer alvos presos neles. Ao agachar, um círculo de Espinhos é invocado ao seu redor."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/shredding_focus"
+    }
+  ]
+}

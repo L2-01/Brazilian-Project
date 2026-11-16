@@ -1,0 +1,28 @@
+{
+  "name": "guide.animus.entry.sigil_free_soul",
+  "icon": "animus:sigil_free_soul",
+  "category": "animus:sigils",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_free_soul",
+      "text": "Um poderoso sigilo protetor que concede modo espectador temporário e pode prevenir a morte. Funciona como um Totem da Imortalidade reutilizável alimentado por LP."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso Manual",
+      "text": "$(bold)Ativação:$() Botão direito$(br)$(bold)Custo de LP:$() 5.000 LP (configurável)$(br)$(bold)Duração:$() 10 segundos (configurável)$(br2)Concede modo espectador temporário, permitindo explorar áreas ou escapar do perigo. Você é teleportado de volta à sua posição original antes do efeito acabar."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Prevenção de Morte",
+      "text": "$(bold)Gatilho Automático:$() Quando você morreria com este sigilo no inventário, ele ativa automaticamente se você tiver LP suficiente.$(br2)$(bold)Cura:$() Quando disparado pela morte, você recebe 5 corações de cura após retornar do modo espectador.$(br2)$(bold)Recarga:$() 60 segundos (configurável) entre gatilhos de prevenção de morte."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Anti-Exploit",
+      "text": "$(bold)Trava de Posição:$() você é teleportado de volta à sua posição original 0,5 segundos antes do modo espectador acabar, prevenindo exploits de atravessar paredes.$(br2)$(italic)A alma escapa do aperto da morte... por um preço.$()"
+    }
+  ]
+}

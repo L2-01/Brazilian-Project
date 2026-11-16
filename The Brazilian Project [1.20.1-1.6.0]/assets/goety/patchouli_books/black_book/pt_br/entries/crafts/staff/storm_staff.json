@@ -1,0 +1,18 @@
+{
+  "name": "Cajado de Tempestade",
+  "icon": "goety:storm_staff",
+  "category": "goety:crafts/staff",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O poder das tempestades e dos raios repousa dentro deste cajado. Com ele, feitiços de tempestade não são mais afetados por Para-Raios e podem encadear relâmpagos em várias criaturas não aliadas."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:storm_staff"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:storm_staff": 1
+  }
+}

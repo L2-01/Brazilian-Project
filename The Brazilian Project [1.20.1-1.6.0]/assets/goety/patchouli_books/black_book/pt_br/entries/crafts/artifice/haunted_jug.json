@@ -1,0 +1,31 @@
+{
+  "name": "Jarro Assombrado",
+  "icon": "goety:haunted_jug",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/craft_dark_altar",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Às vezes, um mago sombrio precisa de mais do que apenas dois blocos de fonte de água para obter água infinita; algo mais compacto e prático, talvez."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:haunted/haunted_jug"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Jarro Assombrado contém um suprimento infinito de água que qualquer um pode retirar com baldes, frascos e até canos! Porém, o que realmente torna este jarro especial é que, como seu nome sugere, ele é assombrado por energias espirituais."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O jarro tentará encher de água qualquer recipiente válido próximo, como caldeirões, e até apagará qualquer criatura em chamas perto dele."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clicar no jarro com o botão direito usando uma Varinha/Cajado colocará uma tampa nele, desativando a função, ou a removerá se já estiver tampado."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:haunted_jug": 1
+  }
+}

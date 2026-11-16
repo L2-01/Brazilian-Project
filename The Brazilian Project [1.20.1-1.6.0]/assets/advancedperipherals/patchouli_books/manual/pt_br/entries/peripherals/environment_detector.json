@@ -1,0 +1,30 @@
+{
+  "name": "Detector de Ambiente",
+  "icon": "advancedperipherals:environment_detector",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Detector de Ambiente pode receber informações do ambiente como o horário atual, a fase da lua atual, o nível de luz do bloco e muito mais.$(p)Para a documentação completa, veja a $(9)$(l:https://docs.intelligence-modding.de/peripherals/environment_detector/)página oficial da wiki$(/l)$()!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:environment_detector"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:environment_detector"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "Conecte seu Detector de Ambiente a um computador para usá-lo!"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "text.structurecredits.message": "§7Bem-vindo a: %1$s §7- Por: %2$s",
+  "text.structurecredits.message_dimensional_dungeon": "§7Bem-vindo a: %1$s §7- Por: %2$s",
+  "text.structurecredits.message_no_creator": "§7Bem-vindo a: %1$s",
+  "text.structurecredits.message_no_creator_dimensional_dungeon": "§7Bem-vindo a: %1$s",
+
+  "text.structurecredits.overlay.welcome": "Bem-vindo a: ",
+  "text.structurecredits.overlay.by": " - Por: ",
+
+  "category.structurecredits.keys": "Structure Credits",
+
+  "key.structurecredits.toggle_active": "Alternar Mensagens de Estrutura",
+  "text.structurecredits.deactivated": "§7Mensagens de estrutura desativadas.",
+  "text.structurecredits.activated": "§7Mensagens de estrutura ativadas.",
+
+  "key.structurecredits.toggle_only_one_time": "Alternar Mostrar Apenas uma Vez",
+  "text.structurecredits.only_one_time_enabled": "§7Mensagens de estrutura serão exibidas apenas uma vez por estrutura.",
+  "text.structurecredits.only_one_time_disabled": "§7Mensagens de estrutura serão exibidas todas as vezes.",
+
+  "key.structurecredits.toggle_chat_message": "Alternar Modo de Mensagem no Chat",
+  "text.structurecredits.chat_message_enabled": "§7Mensagens de estrutura aparecerão no chat.",
+  "text.structurecredits.chat_message_disabled": "§7Mensagens de estrutura aparecerão como sobreposição.",
+
+  "key.structurecredits.toggle_show_creator": "Alternar Mostrar Criador",
+  "text.structurecredits.show_creator_enabled": "§7Nomes de criadores serão exibidos.",
+  "text.structurecredits.show_creator_disabled": "§7Nomes de criadores serão ocultados.",
+
+  "key.structurecredits.toggle_continuous_display": "Alternar Exibição Contínua",
+  "text.structurecredits.continuous_display_enabled": "§7Mensagens ficarão visíveis enquanto estiver na estrutura.",
+  "text.structurecredits.continuous_display_disabled": "§7Mensagens desaparecerão após a duração.",
+
+  "key.structurecredits.toggle_require_different": "Alternar Exigir Estrutura Diferente",
+  "text.structurecredits.require_different_enabled": "§7É preciso visitar outra estrutura antes de ver a mensagem novamente.",
+  "text.structurecredits.require_different_disabled": "§7É possível ver a mensagem imediatamente ao reentrar na estrutura.",
+
+  "key.structurecredits.show_again_key": "Mostrar Última Mensagem de Estrutura",
+  "key.structurecredits.dont_show_key": "Nunca Mostrar Esta Estrutura Novamente",
+  "text.structurecredits.dont_show": "§7Esta estrutura não exibirá uma mensagem.",
+  "text.structurecredits.already_dont_show": "§7Esta estrutura já está configurada para não exibir mensagem."
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Fruta Tau",
+  "icon": "bloodmagic:weak_tau",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:weak_tau": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Fruta Tau pode ser encontrada dentro de $(l:bloodmagic:dungeons/lobby)Masmorras Simples$(), após o que pode ser cultivada. Sendo uma habitante nativa do $(thing)Reino Demoníaco$(), seu ciclo de vida é infelizmente um tanto mais complexo que o da humilde $(item)Batata$(). $(br2)A Fruta Tau amadurecerá em uma de duas variedades, dependendo das condições em que foi criada. Por padrão, crescerá em $(item)Fruta Tau$(), que pode ser convertida em $(item)Óleo Tau$()."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Óleo Tau",
+      "recipe": "bloodmagic:alchemytable/tau_oil",
+      "text": "$(italic)Tem gosto de Laranja Sanguínea, só que diferente.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Óleo Tau atualmente tem dois usos principais. Pode estender a duração de qualquer $(l:bloodmagic:alchemy_table/anointments)unção$() por um fator de quatro, ou pode ser usado para criar $(item)Fluido de Corte Intermediário$(), que funciona similarmente ao $(l:bloodmagic:utility/alchemical_reaction_chamber#basic_cutting_fluid)Fluido de Corte Básico$(), mas dura oito vezes mais e dá um bônus de velocidade de 25%."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:strong_tau",
+      "link_recipe": "true",
+      "text": "No entanto, a $(item)Fruta Tau$() tem uma rota alternativa e mais desafiadora de crescimento. Se a planta amadurecer enquanto um $(thing)criatura$() (uma vaca, por exemplo) estiver em cima dela, ela drenará vida da entidade para saciar suas fomes sombrias. Dessa forma, o $(item)Tau Saturado$() pode ser cultivado."
+    }
+  ]
+}

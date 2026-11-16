@@ -1,0 +1,21 @@
+{
+  "name": "Réprobos",
+  "icon": "minecraft:crimson_planks",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_reprobate",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ao contrário das Bruxas, esses pagãos arremessam um barril inteiro de poções que se misturam numa poça ácida. Diz-se que eles também entregam essas poções a forças sombrias."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:reprobate",
+      "text": "Eles são resistentes à magia assim como suas primas Bruxas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se um Mercador Ambulante for atingido por um raio, ele se transformará num Réprobo."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Calças de Liga Eclipse",
+  "sortnum": 22,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:eclipsealloy_leggings",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Feitas para resistência máxima, estas calças são alimentadas por 500.000 FE de Forge Energy. Use um $(l:justdirethings:item_pocket_generator)Gerador Portátil$(/l) para manter seus níveis de energia e funcionalidade."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação: Calças de Liga Eclipse",
+      "recipe": "justdirethings:eclipsealloy_leggings"
+    }
+  ]
+}

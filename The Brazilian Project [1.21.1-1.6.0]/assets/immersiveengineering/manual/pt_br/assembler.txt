@@ -1,0 +1,9 @@
+Montadora
+Montagem necessária
+<&multiblock>A Montadora é uma máquina complexa capaz de fabricar itens, como um jogador.<br>
+Para formar a estrutura, construa-a como demonstrado acima e use o Martelo de Engenheiro na esteira virada para dentro.<np>
+A Montadora permite que até 3 receitas sejam armazenadas dentro dela e serão executadas em ordem. As saídas de receitas anteriores podem ser usadas como entradas das seguintes.<br>
+As 3 grades de fabricação armazenam as receitas, e os 18 espaços abaixo delas são o inventário para materiais.<br>
+O lado de entrada, além de uma entrada de itens, também tem uma entrada de fluido para encher os três tanques internos da máquina.<br>
+O fluido nesses tanques pode ser usado para substituir recipientes de fluido como baldes d'água em receitas. As receitas que usam fluidos são especificadas pelos mesmos baldes que na bancada de fabricação.<br>
+A energia da máquina entra pelo plugue no bloco central do topo, e o controle de redstone pode ser feito pelas duas portas nas laterais da máquina.

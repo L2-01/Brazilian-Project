@@ -1,0 +1,17 @@
+{
+  "name": "Lingote de Ferricoro",
+  "sortnum": 1,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:ferricore_ingot",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Lingotes de Ferricoro são obtidos fundindo Ferricoro Bruto, extraído de $(l:justdirethings:res_ferricore_raw)Minérios de Ferricoro Bruto$(/l). Esses lingotes são aprimorados em durabilidade e resistência, servindo como alternativa superior ao ferro comum."
+    },
+    {
+      "type": "patchouli:smelting",
+      "title": "Fundição: Ferricoro Bruto",
+      "recipe": "justdirethings:ferricore_ingot_smelted"
+    }
+  ]
+}

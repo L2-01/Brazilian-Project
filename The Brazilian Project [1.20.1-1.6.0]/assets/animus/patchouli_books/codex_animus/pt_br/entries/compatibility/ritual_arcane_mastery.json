@@ -1,0 +1,47 @@
+{
+  "name": "guide.animus.entry.ritual_arcane_mastery",
+  "category": "animus:compatibility",
+  "icon": "bloodmagic:masterritualstone",
+  "flag": "mod:irons_spellbooks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Ritual da Maestria Arcana une o sistema de rituais do Blood Magic às mecânicas de aprendizado do Iron's Spells. Este ritual poderoso pode te ensinar novos feitiços ou aprimorar os existentes consumindo pergaminhos colocados em baús próximos."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:masterritualstone",
+      "text": "$(blood)Ritual de Aprendizado de Feitiços$()$(br2)Coloque pergaminhos de feitiço em baús a até 5 blocos da Pedra de Ritual Mestra. O ritual processará os pergaminhos automaticamente, ensinando novos feitiços ou aprimorando os que você já conhece."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Como Funciona",
+      "text": "O ritual procura $(item)Pergaminhos do Iron's Spells$() em baús num raio de 5 blocos (horizontal e vertical).$(br2)$(bold)Se você não conhece o feitiço:$()$(br)• Consome o pergaminho$(br)• Ensina o feitiço no nível 1$(br)• Custa LP com base na raridade do feitiço$(br2)$(bold)Se você já conhece o feitiço:$()$(br)• Consome o pergaminho$(br)• Aprimora o nível do feitiço em +1$(br)• Custo de LP = Custo base × Nível atual"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos de LP",
+      "text": "Os custos de LP escalam com a raridade do feitiço:$(br2)• $(item)Comum:$() 5.000 LP$(br)• $(item)Incomum:$() 10.000 LP$(br)• $(item)Raro:$() 25.000 LP$(br)• $(item)Épico:$() 50.000 LP$(br)• $(item)Lendário:$() 100.000 LP$(br2)$(bold)Fórmula de Custo de Upgrade:$()$(br)Custo base × Nível atual do feitiço$(br2)$(italic)Exemplo: aprimorar um feitiço Raro do nível 2 para 3 custa 25.000 × 2 = 50.000 LP$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Configuração",
+      "text": "1. Construa o padrão do ritual (veja a próxima página)$(br)2. Ative com $(blood)10.000 LP$()$(br)3. Coloque baú(s) a até 5 blocos$(br)4. Ponha pergaminhos de feitiço no baú$(br)5. Espere o ritual processar$(br2)$(bold)Processamento:$()$(br)• Verifica a cada 2 segundos$(br)• Processa um pergaminho por vez$(br)• Emite fumaça se não achar pergaminhos$(br)• Partículas de encantamento ao suceder"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Padrão da Runa",
+      "text": "O Ritual da Maestria Arcana usa um padrão temático de conhecimento:$(br2)$(bold)Círculo Interno$() (2 blocos):$(br)• 4 Runas de Crepúsculo (direções cardeais)$(br2)$(bold)Anel do Meio$() (2 blocos na diagonal):$(br)• 4 Runas de Ar (diagonais)$(br2)$(bold)Anel Externo$() (3 blocos):$(br)• 4 Runas de Crepúsculo (cardeais)$(br)• 4 Runas de Ar (cantos)$(br2)Total: 8 de Crepúsculo, 8 de Ar"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dicas e Estratégias",
+      "text": "$(bold)Aprendizado Eficiente:$()$(br)• Agrupe feitiços comuns juntos$(br)• Mantenha pergaminhos valiosos separados$(br)• Monitore os níveis de LP$(br)• Use cristais de ativação para ligar/desligar$(br2)$(bold)Processamento em Massa:$()$(br)• Encha vários baús com pergaminhos$(br)• O ritual processa continuamente$(br)• Volte periodicamente$(br2)$(italic)O ritual respeita os níveis máximos dos feitiços — você não pode aprimorar além do máximo natural de um feitiço.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Requisitos",
+      "text": "Para usar este ritual:$(br)• $(blood)O Iron's Spellbooks deve estar instalado$()$(br)• $(l:bloodmagic:altar/binding)Soul Network$() ativa$(br)• LP suficiente para ativação e aprendizado$(br)• Pergaminhos do Iron's Spells$(br)• Baú(s) para armazenar pergaminhos$(br2)$(bold)Ativação:$()$(br)• 10.000 LP de custo inicial$(br)• $(item)Cristal de Ativação Fraco$() para ativar$(br)• Sem custo de renovação contínuo"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Luvas Sepulcrais",
+  "icon": "goety:grave_glove",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Gadanhas são divertidas e tal, mas são muito lentas de empunhar, o que dificulta que sejam uma arma viável. Usando os restos dos mortos e a Necroturgia, você conseguiu criar luvas que permitem empunhar as Gadanhas com mais eficiência, aumentando a velocidade de ataque em 50%%."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:grave_glove"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:grave_glove": 1
+  }
+}

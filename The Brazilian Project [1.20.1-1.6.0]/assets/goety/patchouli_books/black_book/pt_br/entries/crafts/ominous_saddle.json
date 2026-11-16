@@ -1,0 +1,17 @@
+{
+  "name": "Sela Ameaçadora",
+  "icon": "goety:ominous_saddle",
+  "category": "goety:crafts",
+  "advancement": "goety:goety/read_ravaging_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(l:mutations/ravaged)Devastador$() é uma fera poderosa, mas o que você tem carece de sua armadura prateada e de sua sela. Com um pouco de $(l:intro/magical_components)Metal Amaldiçoado$(), você consegue recriar a sela blindada. Clicar com o botão direito no pobre $(l:mutations/ravaged)Devastador$() nu fará com que ele a equipe, tornando-o montável e mais forte."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:ominous_saddle"
+    }
+  ]
+}

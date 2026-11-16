@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:pitcher_plant",
+    "name": "Planta Ancestral",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Planta Ancestral$() gera uma quantidade infinita de água. Ela pode ser encontrada em biomas úmidos da Superfície.$(br2)Clicar com um balde ou outro recipiente de fluido o encherá de Água."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Colocá-la adjacente a um tanque encherá o tanque com água, numa velocidade configurável. Você também pode extrair água dela com tubos, também numa velocidade configurável."
+        }
+    ]
+}

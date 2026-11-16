@@ -1,0 +1,12 @@
+{
+    "name": "Carregador de Veículos",
+    "icon": "littlelogistics:vessel_charger",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:vessel_charger",
+            "text": "Um carregador para o $(l:energy_tug)Rebocador a Energia$() e a $(l:energy_locomotive)Locomotiva a Energia$(), conecte a qualquer cabo de forge energy para alimentar o carregador. Coloque em cima de uma doca para carregar a embarcação ao atracar, ou ao lado do trilho de atracação para trens."
+        }
+    ]
+}

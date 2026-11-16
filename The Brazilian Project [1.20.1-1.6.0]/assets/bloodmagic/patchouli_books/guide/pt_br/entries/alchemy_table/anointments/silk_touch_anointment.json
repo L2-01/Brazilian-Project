@@ -1,0 +1,25 @@
+{
+  "name": "Revestimento Suave",
+  "icon": "bloodmagic:silk_touch_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Revestimento Suave",
+      "recipe": "bloodmagic:alchemytable/silk_touch_anointment",
+      "text": "Aplica Toque Suave a blocos colhidos. Não acumula com o encantamento vanilla.$(br2)Itens válidos: Ferramentas, Espadas, Cargas.$(br2)Aplica: Toque Suave I (256 blocos)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Revestimento Suave L",
+      "recipe": "bloodmagic:alchemytable/silk_touch_anointment_l",
+      "text": "Esta versão melhorada da unção dura quatro vezes mais. $(br2)Aplica: Toque Suave I (1024 blocos)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Revestimento Suave XL",
+      "recipe": "bloodmagic:alchemytable/silk_touch_anointment_xl",
+      "text": "Esta versão melhorada da unção dura dezesseis vezes mais. $(br2)Aplica: Toque Suave I (4096 blocos)"
+    }
+  ]
+}

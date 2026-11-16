@@ -1,0 +1,9 @@
+Tanque
+Cheio até a borda!
+O Tanque é um multibloco que oferece espaço para grandes quantidades de fluido.<br>
+Armazena até 512 baldes de qualquer fluido, que podem ser encanados pela porta do topo ou da base.<np>
+A estrutura pode ser construída de qualquer chapa metálica; não é limitada ao uso de ferro.<br>
+Os fluidos só podem ser extraídos pelo bloco central da base.<br>
+Aplicar um sinal de redstone ao bloco central da base faz o tanque emitir automaticamente; um comparador colocado ali emite sinal de redstone proporcional ao nível de enchimento.<np>
+Ligar o comparador a uma das 4 camadas superiores resulta em sinal proporcional à altura do comparador.<br>
+Por exemplo, um comparador ligado à segunda camada de um tanque não emitirá sinal até o tanque estar 1/4 cheio e terá intensidade 15 se o tanque estiver pela metade ou mais.

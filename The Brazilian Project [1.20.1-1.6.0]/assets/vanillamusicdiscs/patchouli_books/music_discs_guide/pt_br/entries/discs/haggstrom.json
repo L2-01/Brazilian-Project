@@ -1,0 +1,19 @@
+{
+    "name": "Haggstrom",
+    "category": "vanillamusicdiscs:discs",
+    "icon": "vanillamusicdiscs:haggstrom_music_disc",
+    "sortnum": 19,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "vanillamusicdiscs:haggstrom_music_disc",
+            "text": "Fabrique Haggstrom usando a $(bold)Mesa de Discos de Música$(). Coloque qualquer disco de música vanilla no espaço da esquerda e o material mostrado abaixo no espaço do meio."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:brown_bed",
+            "title": "Material Necessário",
+            "text": "$(item)Cama Marrom$() $(#808080)$()Coloque-o no espaço do meio da Mesa de Discos de Música junto a qualquer disco de música vanilla.$()"
+        }
+    ]
+}

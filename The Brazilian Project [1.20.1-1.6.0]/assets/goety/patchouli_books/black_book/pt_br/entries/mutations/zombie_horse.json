@@ -1,0 +1,20 @@
+{
+  "name": "Cavalo-Zumbi",
+  "icon": "minecraft:zombie_horse_spawn_egg",
+  "category": "goety:mutations",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um corcel podre para um mago podre; esses cavalos mortos-vivos são bem mais dóceis e rápidos que qualquer Zumbi que você conheça."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_zombify_horse"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:zombie_horse",
+      "scale": 0.75
+    }
+  ]
+}

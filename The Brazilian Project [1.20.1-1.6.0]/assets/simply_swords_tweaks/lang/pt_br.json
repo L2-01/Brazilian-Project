@@ -1,0 +1,61 @@
+{
+  "sst.config_screen.title": "Configuração do Simply Swords Tweaks",
+  "sst.config_screen.op_required": "\n§4§lAviso:§f §cVocê precisa ser operador do servidor para editar isto.§f",
+
+  "sst.category.battle_standards": "Estandartes de Batalha",
+  "sst.category.battle_standards.desc": "Ajustes, multiplicadores de efeitos e configurações de alcance para entidades de §6Estandarte de Batalha§f.",
+
+  "sst.group.banner_general": "Configurações gerais de estandarte",
+  "sst.option.banner_healing_allowed": "Permitir cura de estandarte",
+  "sst.option.banner_healing_allowed.desc": "Permite que entidades de §6Estandarte de Batalha§f recebam cura de qualquer fonte.\n\nSe desativado, os estandartes não podem ser curados.",
+
+  "sst.group.galeforce": "Galeforce (Enigma)",
+  "sst.option.galeforce_haste_amplifier": "Amplificador de Pressa",
+  "sst.option.galeforce_haste_amplifier.desc": "O amplificador do efeito §6Pressa§f concedido ao dono enquanto estiver perto de §6Galeforce§f.",
+  "sst.option.galeforce_haste_radius": "Raio de Pressa",
+  "sst.option.galeforce_haste_radius.desc": "Raio em blocos ao redor de §6Galeforce§f em que o dono recebe o efeito §6Pressa§f.",
+  "sst.option.galeforce_aoe_radius": "Raio de puxão em área",
+  "sst.option.galeforce_aoe_radius.desc": "Raio em blocos ao redor de §6Galeforce§f para puxar inimigos próximos e aplicar efeitos de aura.",
+  "sst.option.galeforce_pain_amplifier": "Amplificador de Dor",
+  "sst.option.galeforce_pain_amplifier.desc": "O amplificador do efeito §6Dor§f aplicado aos alvos capturados no vórtice de §6Galeforce§f.",
+
+  "sst.group.abyssal_standard": "Estandarte Abissal (Harbinger)",
+  "sst.option.abyssal_standard_haste_amplifier": "Amplificador de Pressa",
+  "sst.option.abyssal_standard_haste_amplifier.desc": "O amplificador do efeito §6Pressa§f concedido ao dono enquanto estiver perto do §6Estandarte Abissal§f.",
+  "sst.option.abyssal_standard_haste_radius": "Raio de Pressa",
+  "sst.option.abyssal_standard_haste_radius.desc": "Raio em blocos ao redor do §6Estandarte Abissal§f em que o dono recebe o efeito §6Pressa§f.",
+  "sst.option.abyssal_standard_aoe_radius": "Raio de efeito em área",
+  "sst.option.abyssal_standard_aoe_radius.desc": "Raio em blocos ao redor do §6Estandarte Abissal§f para bônus de equipe, dano de aura e efeitos negativos para inimigos.",
+  "sst.option.abyssal_standard_aoe_haste_amplifier": "Amplificador de Pressa para aliados em área",
+  "sst.option.abyssal_standard_aoe_haste_amplifier.desc": "O amplificador do efeito §6Pressa§f concedido a aliados próximos dentro do alcance.",
+  "sst.option.abyssal_standard_aoe_slowness_amplifier": "Amplificador de Lentidão em área",
+  "sst.option.abyssal_standard_aoe_slowness_amplifier.desc": "O amplificador do efeito §6Lentidão§f aplicado a inimigos dentro do alcance.",
+
+  "sst.group.sunfire": "Estandarte Justo (Sunfire)",
+  "sst.option.sunfire_aoe_radius": "Raio de efeito em área",
+  "sst.option.sunfire_aoe_radius.desc": "Raio em blocos ao redor de §6Sunfire§f para Força de equipe, cura e dano de aura.",
+  "sst.option.sunfire_strength_amplifier": "Amplificador de Força",
+  "sst.option.sunfire_strength_amplifier.desc": "O amplificador do efeito §6Força§f concedido a aliados próximos dentro do alcance.",
+
+  "sst.group.nullification": "Estandarte de Anulação (Gema Infundida do Nether)",
+  "sst.option.nullification_aoe_radius": "Raio de efeito em área",
+  "sst.option.nullification_aoe_radius.desc": "Raio em blocos ao redor do §6Estandarte de Anulação§f para remover bônus de inimigos e penalidades de aliados.",
+  "sst.option.nullification_prevent_battle_fatigue": "Prevenir Fadiga de Batalha",
+  "sst.option.nullification_prevent_battle_fatigue.desc": "Impede que o efeito prejudicial Fadiga de Batalha seja aplicado ao invocador ao invocar um §6Estandarte de Anulação§f.\n\nEm vez disso, ativa um sistema interno de recarga, impedindo jogadores de zerar a recarga bebendo leite ou usando efeitos de purificação.",
+  "sst.option.nullification_cooldown": "Recarga (segundos)",
+  "sst.option.nullification_cooldown.desc": "Duração da recarga em segundos antes que o §6Estandarte de Anulação§f possa ser invocado novamente.\n\nAtiva apenas quando §6Prevenir Fadiga de Batalha§f está ativado.",
+
+  "sst.category.bug_fixes": "Correções de bugs",
+  "sst.category.bug_fixes.desc": "Correções para vários bugs do §6Simply Swords§f.",
+  "sst.option.fix_status_effect_stacking": "Corrigir bug de acúmulo de efeitos",
+  "sst.option.fix_status_effect_stacking.desc": "Corrige o bug de acúmulo de efeitos em que um estandarte de batalha mantém um amplificador maior que o configurado se concedido por uma fonte externa (ex.: §6Enigma§f retendo a Pressa XV da §6Twisted Blade§f enquanto perto de §6Galeforce§f).",
+  "sst.option.fix_elemental_vortex_leak": "Corrigir vazamento de estado do Vórtice Elemental",
+  "sst.option.fix_elemental_vortex_leak.desc": "Corrige §6Galeforce§f atacando seu dono enquanto sob o efeito §6Vórtice Elemental§f.",
+  "sst.option.icewhisper_slowness_cap": "Teto de Lentidão do Icewhisper",
+  "sst.option.icewhisper_slowness_cap.desc": "Limita o amplificador máximo de §6Lentidão§f que §6Icewhisper§f pode acumular nos alvos.\n\nCorrige o bug do Simply Swords em que a Lentidão podia acumular infinitamente.\n\n§6-1§f: Desativa a correção (mantém o acúmulo infinito)",
+
+  "sst.category.compatibility": "Compatibilidade",
+  "sst.category.compatibility.desc": "Integrações e balanceamento com outros mods.",
+  "sst.option.rebalance_compat_enabled": "Ativar escala do ReBalance",
+  "sst.option.rebalance_compat_enabled.desc": "Aplica o multiplicador de dano PvP e o limiar de redução global do §6ReBalance§f ao dano de aura do §6Estandarte de Batalha§f causado a jogadores."
+}

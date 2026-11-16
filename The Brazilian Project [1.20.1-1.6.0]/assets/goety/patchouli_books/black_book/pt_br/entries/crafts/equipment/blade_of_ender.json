@@ -1,0 +1,32 @@
+{
+  "name": "Lâmina de Ender",
+  "icon": "goety:blade_of_ender",
+  "category": "goety:crafts/equipment",
+  "advancement": "goety:goety/kill_an_ender_keeper",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Inspirado pelo seu inimigo, você forjou uma lâmina usando os poderes do vazio e adicionou um pouco de Liga Sombria para conceder a ela a capacidade de se autorreparar com Energia de Almas."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:blade_of_ender"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A lâmina permite avançar em uma direção clicando com o botão direito enquanto corre, ou recuar rapidamente clicando com o botão direito sem correr, embora isso faça a lâmina entrar em recarga. A lâmina causa Tocado pelo Vazio e é afiada o bastante para lançar um vento cortante movido a vazio quando brandida com força total, desde que não esteja em recarga."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ela pode ser reparada com Lingotes de Netherita em uma bigorna."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(o)Ao forjar esta lâmina, as energias lhe deram visões, do que parecia ser o passado, de pessoas fabricando artefatos, um deles parecendo uma espada, outro um orbe. Você vê a espada sendo usada muitas vezes, por muitos portadores... até que era como se ela própria portasse a si mesma. Você vê alguém, ou algo, colocando o orbe dentro de um cristal... e se transformando em outra coisa.$()"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:blade_of_ender": 1
+  }
+}

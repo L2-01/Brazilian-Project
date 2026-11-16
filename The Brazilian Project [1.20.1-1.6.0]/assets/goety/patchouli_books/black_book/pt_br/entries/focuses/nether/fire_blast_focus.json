@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Explosão de Fogo",
+  "icon": "goety:fire_blast_focus",
+  "category": "goety:focuses/nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você emite uma explosão ígnea na sua posição, ferindo todas as criaturas próximas e incendiando-as. A explosão causa dano de fogo e não fere o conjurador nem seus aliados."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/fire_blast_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/nether_staff)Cajado do Nether$() aumenta um pouco o alcance da explosão."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:fire_blast_focus": 1
+  }
+}

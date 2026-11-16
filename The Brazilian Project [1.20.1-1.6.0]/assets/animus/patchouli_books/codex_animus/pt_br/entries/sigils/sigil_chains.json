@@ -1,0 +1,28 @@
+{
+  "name": "guide.animus.entry.sigil_chains",
+  "icon": "animus:sigil_chains",
+  "category": "animus:sigils",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "animus:crafting_array",
+      "recipe": "animus:array/sigil_chains",
+      "text": "Criado num $(blood)Círculo de Alquimia$() combinando um $(l:animus:items/reagentchains)Reagente: Correntes$() com uma $(item)Ardósia Imbuída$(). O reagente deve ser forjado primeiro na Forja Infernal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_chains",
+      "text": "Capture a essência de criaturas vivas. O Sigilo da Corrente Espectro permite vincular entidades em itens $(l:animus:items/mob_soul)Alma de Criatura$(), preservando sua forma e estado."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Custo de LP:$() Varia por entidade$(br2)$(bold)Captura:$() Clique com o botão direito numa entidade para tentar capturá-la. A entidade será armazenada num item $(l:animus:items/mob_soul)Alma de Criatura$(), preservando:$(li)Vida e efeitos$(li)Equipamento$(li)Nomes personalizados$(li)Estado de IA$(br2)$(bold)Proteção de Chefes:$() Entidades chefes e criaturas muito poderosas não podem ser capturadas."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Aplicações",
+      "text": "Perfeito para:$(li)Realocar aldeões$(li)Preservar criaturas raras$(li)Criar exposições de criaturas$(li)Montar fazendas de criaturas$(li)Transporte seguro$(br2)Libere a entidade capturada clicando com o botão direito com a $(l:animus:items/mob_soul)Alma de Criatura$() num bloco.$(br2)$(italic)Vincule os vivos à sua vontade.$()"
+    }
+  ]
+}

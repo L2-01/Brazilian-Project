@@ -1,0 +1,15 @@
+{
+  "name": "Resistente",
+  "icon": "minecraft:shield",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Efeito: Protege você de dano não-projétil. $(br2)Treinado por: Sofrer dano de qualquer coisa exceto projéteis. $(br2)Nível máximo: 10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:physical_protect"
+    }
+  ]
+}

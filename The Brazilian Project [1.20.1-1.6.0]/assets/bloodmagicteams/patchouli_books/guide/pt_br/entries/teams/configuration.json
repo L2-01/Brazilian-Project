@@ -1,0 +1,24 @@
+{
+  "name": "Configuração",
+  "icon": "minecraft:writable_book",
+  "category": "bloodmagicteams:teams",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O BloodMagic Teams pode ser configurado pelo arquivo $(thing)bloodmagicteams-common.toml$() na sua pasta config e pelas configurações do FTB Teams.$(br2)$(l)Opções do Arquivo de Configuração:$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)enableTeamBinding$()$(br)Padrão: $(#080)true$()$(br)Ativa ou desativa completamente o recurso de vínculo de rede de almas por equipe.$(br2)$(l)showBindingUI$()$(br)Padrão: $(#080)true$()$(br)Mostra a interface de seleção de vínculo ao vincular itens. Se falso, usa o modo de vínculo padrão."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)allowBindingModeCommand$()$(br)Padrão: $(#080)true$()$(br)Permite aos jogadores usar o comando /bloodmagicteams para definir sua preferência de vínculo.$(br2)$(l)defaultBindingMode$()$(br)Padrão: $(thing)ASK$()$(br)Padrão do servidor quando o jogador não tem preferência definida."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Configurações do FTB Team$()$(br2)Donos e oficiais da equipe podem configurar restrições de vínculo nas configurações da equipe:$(br2)$(thing)Acesso ao Vínculo da Rede de Almas$()$(li)$(#080)Todos os Membros$() — Qualquer um da equipe pode vincular itens$(li)$(#080)Somente Oficiais$() — Somente oficiais e o dono podem vincular$(br2)Encontre isso no menu de configurações do FTB Teams."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+Observador de Resonância
+Uma canção para a qual todos dançamos, ...
+§o...mas poucos conseguem ouvir§r<br>
+Há uma curiosidade sobre este mundo, não facilmente descrita. Parece que qualquer máquina e ser vivo simplesmente para de se mover quando ninguém está perto o suficiente para percebê-lo.<br>
+Mas nenhum engenheiro pode se dar ao luxo de perder tempo parado ao lado da máquina para mantê-la funcionando — então um observador artificial fará isso em seu lugar!<np>
+<&structure>
+O observador de resonância depende das estranhas qualidades dos cacos de eco e do sensível sensor sculk para manter uma área de aproximadamente §o<config;i;machines.resonanz_observer_radius> blocos§r ao seu redor ativa e funcionando, mesmo que ninguém esteja por perto.<np>
+Para operar, o observador precisa de energia, inserida pela porta do §llado direito§r da estrutura.<br>
+Para registrar suas observações, ele também precisa de um suprimento de §2papel§r, inserido pela porta do §llado esquerdo§r.<br>
+Aplicar um sinal de redstone ao painel de controle frontal desativa a máquina; esse comportamento pode ser invertido com a Chave de Fenda de Engenheiro.<np>
+Interagir com a máquina abre sua interface.<br>
+A leitura à esquerda mostra todos os blocos que o observador está mantendo ativos.
+Clicar numa entrada da lista envia uma vibração para indicar os blocos.<br>
+§2Papel§r também pode ser inserido aqui, com a duração restante exibida ao lado do espaço.
+Um único papel dura §o<config;i;machines.resonanz_observer_paper_duration> segundos§r de gravação.

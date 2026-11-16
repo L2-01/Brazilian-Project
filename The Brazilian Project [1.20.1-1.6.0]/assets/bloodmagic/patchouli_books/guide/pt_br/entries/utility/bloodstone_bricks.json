@@ -1,0 +1,16 @@
+{
+  "name": "Tijolos de Pedra de Sangue",
+  "icon": "bloodmagic:largebloodstonebrick",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Tijolos de Pedra de Sangue$() são um bloco decorativo, usados como $(thing)capitéis$() do $(l:bloodmagic:altar/blood_altar)Altar de Sangue$() de Tier-4. Requerem $(item)Fragmentos de Sangue Fracos$(), que podem ser feitos colocando um $(l:bloodmagic:dungeons/tau_fruit)Tau Saturado$() numa $(l:bloodmagic:utility/alchemical_reaction_chamber)Câmara de Reação Alquímica$() com um $(l:bloodmagic:utility/alchemical_reaction_chamber#blood_shard)Reversor Sanguíneo$() dentro."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:largebloodstonebrick",
+      "recipe2": "bloodmagic:bloodstonebrick"
+    }
+  ]
+}

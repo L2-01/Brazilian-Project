@@ -1,0 +1,47 @@
+{
+  "category.smart_tooltip_scroll.keys": "Smart Tooltip Scroll",
+  "key.smart_tooltip_scroll.bypass_scroll": "Ignorar rolagem de tooltip",
+
+  "sts.tooltip_dimensions_screen.title": "Dimensões de Rolagem e Tooltip Personalizado",
+
+  "sts.tooltip_dimensions_screen.category.custom_dimensions": "Configuração de Dimensões Personalizadas",
+  "sts.tooltip_dimensions_screen.max_width_percentage": "Porcentagem máxima de largura",
+  "sts.tooltip_dimensions_screen.max_width_percentage.description": "Porcentagem máxima da janela do Minecraft permitida como a §6Largura do Tooltip§r.",
+  "sts.tooltip_dimensions_screen.max_height_percentage": "Porcentagem máxima de altura",
+  "sts.tooltip_dimensions_screen.max_height_percentage.description": "Porcentagem máxima da janela do Minecraft permitida como a §6Altura do Tooltip§r.",
+  "sts.tooltip_dimensions_screen.enable_custom_dimensions": "Ativar dimensões personalizadas de tooltip",
+  "sts.tooltip_dimensions_screen.enable_custom_dimensions.description": "Ativa definir §6dimensões máximas personalizadas§r para tooltips e §6rolagem de tooltip§r.",
+
+  "sts.tooltip_dimensions_screen.category.title_options": "Configuração de Opções de Título",
+  "sts.tooltip_dimensions_screen.title_overflow_mode": "Modo de Transbordo de Título",
+  "sts.tooltip_dimensions_screen.title_overflow_mode.description": "Seleciona o comportamento quando o nome do item sob o cursor é maior que a largura máxima de um tooltip.\n\n§6Quebrar:§r quebra o nome (separa-o em várias linhas)\n§6Truncar:§r trunca o nome na largura máxima do tooltip e adiciona '...' no final.\n§6Rolagem Horizontal:§r rola suavemente o texto horizontalmente para frente e depois para trás para mostrar o nome inteiro em uma linha.",
+  "sts.tooltip_dimensions_screen.title_overflow_mode.wrap": "Quebrar",
+  "sts.tooltip_dimensions_screen.title_overflow_mode.truncate": "Truncar",
+  "sts.tooltip_dimensions_screen.title_overflow_mode.scroll": "Rolagem Horizontal",
+  "sts.tooltip_dimensions_screen.enable_title_centering": "Centralizar título do tooltip",
+  "sts.tooltip_dimensions_screen.enable_title_centering.description": "Se ativado, centraliza automaticamente o §6título do item§r horizontalmente no espaço do tooltip.",
+  "sts.tooltip_dimensions_screen.title_scroll_speed": "Velocidade de rolagem do título",
+  "sts.tooltip_dimensions_screen.title_scroll_speed.description": "Ajusta a velocidade da animação de rolagem horizontal do texto quando o §6Modo de Transbordo de Título§r está em §6Rolagem Horizontal§r.",
+  "sts.tooltip_dimensions_screen.title_scroll_pause_time": "Duração da pausa da rolagem do título (ms)",
+  "sts.tooltip_dimensions_screen.title_scroll_pause_time.description": "A duração em milissegundos da pausa antes e depois da rolagem horizontal do título quando o §6Modo de Transbordo de Título§r está em §6Rolagem Horizontal§r.",
+
+  "sts.tooltip_dimensions_screen.category.scrolling": "Configuração de Rolagem",
+  "sts.tooltip_dimensions_screen.lock_container_scrolling": "Travar rolagem de contêineres",
+  "sts.tooltip_dimensions_screen.lock_container_scrolling.description": "Define se a rolagem em contêineres diferentes simultaneamente fica travada ou desativada. Isso impede rolar um tooltip enquanto está no menu criativo, por exemplo. Se desativado, ambos rolam ao mesmo tempo.",
+  "sts.tooltip_dimensions_screen.lock_container_scrolling.warning": "\n§4§lAviso:§r §cVocê provavelmente não quer desativar isto.§r",
+  "sts.tooltip_dimensions_screen.scroll_smoothness": "Suavidade da Rolagem",
+  "sts.tooltip_dimensions_screen.scroll_smoothness.description": "Ajusta a suavidade da animação de rolagem do tooltip.\n\n§60.00§r: Rolagem instantânea (sem animação)\n§61.00§r: Suavidade máxima",
+  "sts.tooltip_dimensions_screen.scroll_easing_style": "Estilo de Animação de Rolagem",
+  "sts.tooltip_dimensions_screen.scroll_easing_style.description": "Seleciona o estilo de animação usado ao rolar tooltips.\n\n§6Clássico:§r velocidade de rolagem constante.\n§6Suave:§r rolagem natural com desaceleração suave.\n§6Ágil:§r rolagem rápida e responsiva.",
+  "sts.tooltip_dimensions_screen.scroll_easing_style.classic": "Clássico",
+  "sts.tooltip_dimensions_screen.scroll_easing_style.smooth": "Suave",
+  "sts.tooltip_dimensions_screen.scroll_easing_style.snappy": "Ágil",
+  "sts.tooltip_dimensions_screen.lines_per_scroll": "Linhas por rolagem",
+  "sts.tooltip_dimensions_screen.lines_per_scroll.description": "O número de linhas roladas verticalmente a cada giro da roda do mouse.",
+
+  "sts.tooltip_dimensions_screen.category.compatibility": "Configuração de Compatibilidade",
+  "sts.tooltip_dimensions_screen.obscure_compat": "Compatibilidade com Obscure Tooltips",
+  "sts.tooltip_dimensions_screen.obscure_compat.description": "Ativa dimensões dinâmicas, cabeçalhos fixos, suporte a modelo de item e rolagem suave em compatibilidade com §6Obscure Tooltips§r.",
+  "sts.tooltip_dimensions_screen.tooltip_overhaul_compat": "Compatibilidade com Tooltip Overhaul",
+  "sts.tooltip_dimensions_screen.tooltip_overhaul_compat.description": "Ativa dimensões dinâmicas, cabeçalhos fixos, suporte a modelo de item e rolagem suave em compatibilidade com §6Tooltip Overhaul§r."
+}

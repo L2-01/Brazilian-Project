@@ -1,0 +1,15 @@
+{
+  "name": "Foco de Dentes",
+  "icon": "goety:teeth_focus",
+  "category": "goety:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Invoca um dente poderoso acima de um local, de um alvo ou do conjurador, se agachado, que desaba no chão e invoca lanças ao redor, fazendo criaturas voarem para o ar e ficarem extremamente lentas por 5 segundos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/teeth_focus"
+    }
+  ]
+}

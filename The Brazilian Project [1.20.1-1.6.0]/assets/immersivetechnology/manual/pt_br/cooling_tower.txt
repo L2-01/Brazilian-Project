@@ -1,0 +1,10 @@
+Torre de Resfriamento
+Gelinho!
+<&multiblock>A Torre de Resfriamento resfria o §lVapor de Exaustão§r de volta à água e pode processar até 3 lotes simultâneos.
+
+
+
+
+
+
+§lÁgua§r e §lVapor de Exaustão§r podem entrar por qualquer entrada — a ordem não importa. §lÁgua§r sai por todas as saídas. Até 3 lotes são processados em paralelo, então a vazão pode superar o que o tempo de um único lote sugeriria. A eficiência depende do diferencial de temperatura com o ambiente e de obstruções próximas. Um comparador ligado ao bloco usado para formar a estrutura (o golpeado pelo Martelo) emite sinal proporcional ao nível da fila de 3 lotes. A Torre de Resfriamento não tem painel de controle de redstone, então este é o único ponto fixo onde ela responde.

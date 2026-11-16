@@ -1,0 +1,30 @@
+{
+  "name": "Will Demoníaca",
+  "icon": "bloodmagic:basemonstersoul",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:basemonstersoul": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Assim que tiver um $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(), você precisará juntar algumas $(item)Wills Demoníacas$(). Há duas formas de obter Will Demoníaca:$(br)$(li)Matando um criatura que foi atingido por um $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Alçapão de Almas$(/l) e é morto quando efeitos de partículas brancas aparecem.$(li)Matando um criatura hostil com uma $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Espada Consciente$().$(br)Como você está só começando a usar o mod, ainda não terá uma $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Espada Consciente$(),"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "e portanto precisará usar um $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Alçapão de Almas$(). $(br2)$(item)Will Demoníaca$() é um recurso recorrente no $(blood)Blood Magic$(), usada para alimentar a $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Forja do Fogo Infernal$(). $(br2)Na lore do $(blood)Blood Magic$(), $(raw)Will Demoníaca$() é o efeito residual de quando um demônio imbui sua vontade nos corpos dos mortos ou outros monstros."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_will.png"
+      ],
+      "title": "Will Demoníaca",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Assim que tiver um pouco de $(raw)Will$(), você pode usá-la para criar ferramentas úteis na $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Forja do Fogo Infernal$(). Se elas estiverem entulhando seu inventário, talvez uma $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$() ajude."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	"name": "Amostra Grátis",
+	"icon": "lightmanscurrency:textures/gui/trader_guide/trade_rules/free_sample/icon.png",
+	"category": "lightmanscurrency:trade_rules",
+	"pages": [
+		"A regra \"Amostra Grátis\" permite dar aos clientes um número limitado de interações de troca gratuitas antes que o preço normalmente definido seja utilizado.",
+		{
+			"type": "lightmanscurrency:wide_image",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/free_sample/inputs.png",
+			"text": "A regra tem campos bem básicos, e a maioria deve ser autoexplicativa. A caixa de texto no canto superior esquerdo permite definir quantas amostras grátis eles podem resgatar antes que a regra os ignore."
+		},
+		"O Campo de Tempo na parte inferior permite mandar a regra esquecer interações anteriores, para que os jogadores possam resgatar uma nova amostra grátis de tempos em tempos.$(br2)Há também um botão Redefinir no meio, que limpa a memória da regra, permitindo que jogadores que já resgataram sua amostra grátis a resgatem novamente."
+	]
+}

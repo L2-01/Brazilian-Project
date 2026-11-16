@@ -1,0 +1,64 @@
+{
+  "name": "Apóstolos do Nether",
+  "icon": "goety:unholy_blood",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_apostle",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os seguidores mais próximos do primeiro Cultista do Nether, Apollyon, esses seres aterradores espalhavam a palavra da Grande Chama ao lado de seu mestre quando ele caminhava pela Superfície. Alguns Apóstolos já foram Reis, Senhores ou Nobres, enquanto outros variam de Aldeões comuns aos mais obtusos Tontos. Quando o emissário aparece, a água ao redor dele ferve e o céu escurece."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:apostle",
+      "scale": 0.95
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Um Apóstolo não se digna a usar seu verdadeiro poder quando confrontado por um pagão violento. Ele dispara flechas contra ele, ocasionalmente lançando uma Explosão Infernal ou invocando servos diabólicos para se defender. O demônio se teleporta, deixando uma nuvem de fumaça, ao ser atingido várias vezes ou após conjurar um feitiço."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando reduzido à metade de sua vida máxima, o Apóstolo regenerará sua vida e revelará seu verdadeiro poder. Quando enfrentado na Superfície ou dimensões semelhantes, uma tempestade cairá sobre o mundo assim que ele se revelar em sua forma horrenda. Meteoros cairão ao seu redor e a verdadeira batalha começará. O Apóstolo tentará se teleportar com mais frequência, e suas flechas serão muito mais potentes em dano e efeitos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao longo da batalha, ele lançará feitiços horrendos sobre seu alvo, de uma chuva de lava a arremessar almas condenadas aos fogos do Nether contra seu inimigo. Se o alvo estiver perto dele, o Apóstolo invocará um círculo de fogo que, após um breve momento, explode lançando qualquer criatura próxima para o céu. As explosões e o tornado de chamas amaldiçoam o alvo com Maldição de Chamas, que impede a Resistência ao Fogo de funcionar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Apóstolo regenera vida quando suas flechas perfuram suas vítimas. Porém, quando atingido por uma arma encantada com Julgamento, ele não conseguirá regenerar vida por um tempo dependendo do nível do Encantamento."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:unholy_blood",
+      "text": "O sangue de um Apóstolo corre com Energias Necróticas e do Nether. Com ele, pode-se enganar a morte ou criar milagres. Parece que um Apóstolo não possui muito sangue e só matando-o se pode extrair uma quantidade considerável. Ao ser morto, a tempestade amainará e os meteoros pararão de cair."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:inferno",
+      "scale": 0.95
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Infernos são primos dos blazes, mas encantados para não se intimidarem com simples água, e suas chamas queimam até quem é imune ao fogo."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:malghast",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Menores, porém muito superiores aos ghasts, esses monstros angustiados arrotam bolas de chamas profanas que queimam tudo. Ocasionalmente, essas criaturas disparam uma bola de lava comum, que pode ser rebatida contra eles."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:unholy_blood{Pure: 1b}",
+      "text": "Há sussurros de que seu sangue permanece Puro quando derramado dentro do Nether..."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:unholy_blood": 6
+  }
+}

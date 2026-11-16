@@ -1,0 +1,40 @@
+{
+    "name": "A Tela do Instrumento",
+    "icon": "minecraft:oak_sign",
+    "category": "mimi:2instruments",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A Tela do Instrumento é a tela que você vê ao clicar com o botão direito num instrumento de mão ou de bloco, e que permite tocar o instrumento diretamente e configurar seus ajustes MIDI."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Tocando",
+            "text": "Você pode tocar diretamente o instrumento que abriu usando o teclado, conforme mostrado nas teclas de piano na tela, ou simplesmente clicando nas teclas de piano.$(br2)Se você segurar a Barra de Espaço enquanto toca, as notas serão sustentadas da mesma forma que o pedal de sustain de um piano.$(br2)Você pode mudar o layout do teclado de piano com o botão no canto superior direito."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Layouts de Teclas",
+            "text": "$(li)$(l)MIMI$() — As teclas do teclado são atribuídas apenas às teclas de piano atualmente visíveis e não diferenciam maiúsculas de minúsculas.$(br)$(li)$(l)VPiano$() — Baseado no $(o)virtualPiano.net$(), atribui cada tecla do teclado a uma tecla de piano específica, o que significa que você pode tocar teclas que $(o)não$() estão visíveis no momento, mas não pode tocar notas muito agudas ou muito graves. As teclas do teclado neste layout diferenciam maiúsculas de minúsculas."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Deslocamento",
+            "text": "As notas atualmente visíveis na tela podem ser deslocadas usando os botões de 'Visible Note Shift'. Você também pode deslocar notas da mesma forma usando o Teclado:$(br)$(li)Por Nota: Setas Esquerda/Direita$(br)$(li)Por Oitava: Setas Cima/Baixo$(br2)As barras coloridas nas teclas de piano correspondem aos indicadores de nota na seção de deslocamento para mostrar quais notas estão visíveis."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Configurações MIDI",
+            "text": "Instrumentos do MIMI também podem ser tocados por um arquivo MIDI (vinculando-os a um Transmissor) ou com um Dispositivo de Entrada MIDI conectado ao seu PC.$(br2)Clicar no botão Editar (ícone de lápis) abrirá um menu que permite modificar as configurações MIDI do instrumento. Clicar no botão Editar novamente enquanto o menu estiver aberto fechará o menu."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(l)System MIDI Device$() — Se este instrumento deve ou não tocar notas de um Dispositivo de Entrada MIDI conectado ao seu PC.$(br)$(li)$(l)Volume$() — Quão alto as notas deste instrumento devem ser tocadas.$(br)$(li)$(l)Transmission Source$() — A qual Transmissor ou Relé este instrumento está vinculado (de quem tocará notas). Você pode vincular a si mesmo ou desvincular com os botões \"ME\" e \"X\"."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(l)Enabled MIDI Channels$() — De quais Canais MIDI este instrumento deve tocar notas, se vinculado a um transmissor ou dispositivo de entrada MIDI do sistema.$(br2)Canais MIDI representam partes separadas da música (como piano, guitarra e bateria). Arquivos MIDI podem ter até 16 Canais, mas podem ter apenas 1. O Canal 10 normalmente é para bateria e provavelmente soará mal em outros instrumentos. Dispositivos de entrada MIDI normalmente usam os Canais 1 ou 2."
+        }
+    ],
+    "sortnum": 3
+}

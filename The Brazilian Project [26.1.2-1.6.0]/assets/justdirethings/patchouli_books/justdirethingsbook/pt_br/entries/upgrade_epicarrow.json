@@ -1,0 +1,17 @@
+{
+  "name": "Flecha de Yondu",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_epicarrow",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A melhoria Flecha de Yondu permite que suas flechas busquem alvos, encadeando dano entre vários inimigos. Ideal para controle de multidões.$(br2)É uma habilidade ativada. Uma vez ativada, a próxima flecha disparada ricocheteará de uma criatura para outra, até 10 vezes!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação: Flecha de Yondu",
+      "recipe": "justdirethings:upgrade_epicarrow"
+    }
+  ]
+}

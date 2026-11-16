@@ -1,0 +1,19 @@
+{
+  "name": "Verrugosos",
+  "icon": "minecraft:nether_wart",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Verrugosos têm as mesmas propriedades das Aranhas, embora sejam bem menores e mais fracos. Um Verrugoso só pode existir por 9 segundos antes de morrer ou retornar ao usuário, onde desaparecerá e curará o usuário na quantidade de vida que tinha."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:wartling"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Caso o usuário tenha um efeito negativo, o próximo Verrugoso pegará e 'armazenará' tal efeito em si, o que fará com que deixe uma nuvem do efeito armazenado ao perecer. O efeito armazenado não os afeta e eles não podem ser afetados pelo mesmo efeito que armazenaram. Esses Verrugosos não retornam ao usuário."
+    }
+  ]
+}

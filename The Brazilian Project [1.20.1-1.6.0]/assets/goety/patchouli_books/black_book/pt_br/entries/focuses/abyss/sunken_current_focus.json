@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Corrente Submersa",
+  "icon": "goety_cataclysm:sunken_current_focus",
+  "category": "goety:cataclysm/focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você aprimorou o foco para invocar Deeplings Brutos, uma versão superior e mais poderosa do humilde Deepling."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/sunken_current_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() invoca mais Deeplings Brutos de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:sunken_current_focus": 1
+  }
+}

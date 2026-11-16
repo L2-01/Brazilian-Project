@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Gelologia",
+  "icon": "goety:iceology_focus",
+  "category": "goety:focuses/frost",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você aprendeu um ramo da Magia Illager chamado Gelologia. Com este foco, você consegue invocar um bloco de gelo flutuante acima de um alvo que despencará sobre ele após um breve tempo, atordoando-o por alguns segundos."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/iceology_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/frost_staff)Cajado de Gelo$() diminuirá o tempo de flutuação dos Pedaços de Gelo."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:iceology_focus": 1
+  }
+}

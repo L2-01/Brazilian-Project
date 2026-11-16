@@ -1,0 +1,19 @@
+{
+  "name": "Curandeiro de Almas",
+  "icon": "goety:soul_healer",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um item comum entre os Illagers das Mansões da Floresta; estes artefatos curam o usuário da mesma forma que conjurar o $(l:focuses/soul_heal_focus)feitiço Cura de Almas$() faz."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:soul_healer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você também pode dar um Curandeiro de Almas a um servo Illager; ele passará a pegar e armazenar metade da energia de almas por abate no utensílio, e a usará assim que tiver o suficiente e estiver abaixo de metade da vida máxima, não podendo usá-la novamente durante a recarga do feitiço."
+    }
+  ]
+}

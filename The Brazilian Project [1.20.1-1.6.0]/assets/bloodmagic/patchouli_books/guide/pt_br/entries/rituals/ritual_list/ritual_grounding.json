@@ -1,0 +1,60 @@
+{
+  "name": "O Fardo do Pecador",
+  "icon": "minecraft:dirt",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "O Fardo do Pecador",
+      "multiblock_id": "bloodmagic:grounding",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner)Adivinhador de Ritual$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "grounding"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "raw"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "corrosive",
+      "text": "Comporta-se similarmente ao efeito $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)Suspenso$()."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "vengeful",
+      "text_overrides": [
+        [
+          "Levitação",
+          "l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "destructive",
+      "text_overrides": [
+        [
+          "Heavy Heart",
+          "l:bloodmagic:alchemy_table/potion_flasks/blood_magic/heavy_heart"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "groundingRange"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Will Cristalizada",
+  "icon": "bloodmagic:defaultcrystal",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:demoncrucible": 1,
+    "bloodmagic:demoncrystallizer": 1,
+    "bloodmagic:rawdemoncrystal": 1,
+    "bloodmagic:defaultcrystal": 1
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Agora que você tem bastante $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will Demoníaca$() na sua $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica$(), é hora de explorar o que acontece quando você a libera sobre o mundo. $(br2)Primeiro, você precisa colocar $(raw)Will$() na $(l:bloodmagic:demon_will/will_manipulation/aura)Aura$(). Depois, precisa fazer um $(thing)Cristalizador Demoníaco$()."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Cristalizador Demoníaco",
+      "recipe": "bloodmagic:soulforge/demon_crystallizer",
+      "text": "Ele consumirá lentamente $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will Demoníaca$() da $(l:bloodmagic:demon_will/will_manipulation/aura)Aura$() para produzir $(item)Cristais de Will$(). A primeira agulha custa 100 de $(raw)Will$() para se formar, e todas as agulhas seguintes custam 45 cada, mas podem ser queimadas por 50 no $(item)Crisol Demoníaco$(), dando um ganho líquido de 5. O maior $(item)Aglomerado de Cristal$() pode ter até 7 agulhas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se você tiver mais de 512 de $(raw)Will$() no total no inventário (entre qualquer número de $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gemas Tartáricas$() e de qualquer tipo), pode colher esses cristais clicando com o botão direito na agulha com a mão vazia. Isso removerá todas exceto a agulha central. $(br2)Contudo, se você não tiver $(raw)will$() suficiente, $(italic)realmente$() precisar do Cristal da agulha central, ou estiver com pressa, pode colher tudo com uma picareta."
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Links Relacionados",
+      "entries": [
+        "bloodmagic:rituals/ritual_list/ritual_crystal_split",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_catalyst",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_harvest"
+      ],
+      "text": "5 will por cristal colhido não é uma colheita particularmente impressionante, mas os rituais acima (junto com $(l:bloodmagic:demon_will/will_manipulation/will_catalysts)Catalisadores de Will$()) devem permitir que você aum"
+    }
+  ]
+}

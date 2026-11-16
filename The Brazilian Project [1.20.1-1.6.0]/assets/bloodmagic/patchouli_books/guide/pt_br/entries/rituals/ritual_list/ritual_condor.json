@@ -1,0 +1,22 @@
+{
+  "name": "Reverência do Condor",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Reverência do Condor",
+      "multiblock_id": "bloodmagic:condor",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "condor"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "condor",
+      "page_type": "flightRange"
+    }
+  ]
+}

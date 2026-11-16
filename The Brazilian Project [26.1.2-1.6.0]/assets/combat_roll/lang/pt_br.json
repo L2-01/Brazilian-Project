@@ -1,0 +1,38 @@
+{
+  "combat_roll.mod_name": "Combat Roll",
+
+  "keybinds.combat_roll.roll": "Rolagem",
+  "key.category.combat_roll.main": "Combat Roll",
+
+  "gui.combat_roll.config_menu": "Configuração do Combat Roll",
+  "gui.combat_roll.close": "Fechar",
+  "gui.combat_roll.settings": "Configurações",
+  "gui.combat_roll.hud": "Mova a seta",
+  "gui.combat_roll.corner": "Canto",
+  "gui.combat_roll.reset": "Redefinir",
+
+  "enchantment.combat_roll.longfooted": "Pé Grande",
+  "enchantment.combat_roll.longfooted.desc": "Aumenta a distância das suas rolamentos",
+  "enchantment.combat_roll.acrobat": "Acrobata",
+  "enchantment.combat_roll.acrobat.desc": "Reduz o tempo de recarga entre os seus rolamentos",
+  "enchantment.combat_roll.multi_roll": "Rolamento Múltiplo",
+  "enchantment.combat_roll.multi_roll.desc": "Concede rolamentos extras",
+
+  "attribute.name.combat_roll.distance": "Distância de Rolamento",
+  "attribute.name.combat_roll.count": "Rolamento Extra",
+  "attribute.name.combat_roll.recharge": "Recarga de Rolamento",
+
+  "stat.combat_roll.roll": "Rolamentos",
+  "stat.combat_roll.roll_cm": "Distância Rolada",
+
+  "text.autoconfig.combat_roll.title": "Combat Roll",
+  "text.autoconfig.combat_roll.option.client.playCooldownSound": "Reproduzir som de recarga pronta",
+  "text.autoconfig.combat_roll.option.client.playCooldownFlash": "Piscar seta quando a recarga estiver pronta",
+  "text.autoconfig.combat_roll.option.client.playRollSound": "Reproduzir som de rolamento",
+  "text.autoconfig.combat_roll.option.client.hudArrowColor": "Cor da seta",
+  "text.autoconfig.combat_roll.option.client.hudBackgroundOpacity": "Opacidade do fundo da seta",
+  "text.autoconfig.combat_roll.option.client.showHUDInCreative": "Mostrar seta no modo Criativo",
+  "text.autoconfig.combat_roll.option.client.showWhenFull": "Mostrar seta quando cheia",
+  "text.autoconfig.combat_roll.option.client.showKeybinding": "Mostrar atalho de tecla na HUD",
+  "text.autoconfig.combat_roll.option.client.keybindingLabelPosition": "Posição do rótulo do atalho de tecla"
+}

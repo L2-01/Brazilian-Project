@@ -1,0 +1,23 @@
+{
+  "name": "Cajado Ameaçador",
+  "icon": "goety:ominous_staff",
+  "category": "goety:crafts/staff",
+  "advancement": "goety:goety/kill_a_minister",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Após matar aqueles $(l:world/bestiary/minister)Illagers$() de alta patente, você conseguiu obter o orbe poderoso deles e usá-lo para fazer uma réplica do cajado deles."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:ominous_staff"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Cajado Ameaçador potencializa certos feitiços mágicos. Feitiços de Obsessores, Mordedor, Banquete, Triturador e Dentes, para ser exato. Conjurar feitiços Apodrecedores e Ósseos invoca illagers mortos-vivos em vez disso."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:ominous_staff": 1
+  }
+}

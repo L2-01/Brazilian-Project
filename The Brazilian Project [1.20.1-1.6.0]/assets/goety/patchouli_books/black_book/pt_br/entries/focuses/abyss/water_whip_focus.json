@@ -1,0 +1,23 @@
+{
+  "name": "Foco de Chicote de Água",
+  "icon": "goety:water_whip_focus",
+  "category": "goety:focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O feitiço conjura um poderoso tentáculo da mão do conjurador, chicoteando inimigos à frente, embora só em curto alcance."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/water_whip_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() invoca outro tentáculo após o inicial atingir um alvo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Baseado na sugestão de @rangoonruler"
+    }
+  ]
+}

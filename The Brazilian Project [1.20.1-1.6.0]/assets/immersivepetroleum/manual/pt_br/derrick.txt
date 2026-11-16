@@ -1,0 +1,19 @@
+Derrick
+Pesadelo da OSHA
+<&derrick0>
+O Derrick cria cabeças de poço perfurando tubos reforçados até camadas porosas contendo <link;immersivepetroleum:reservoir;§o§nreservatórios de fluido§r> sob a rocha matriz.<np>
+A estrutura é montada como mostrado e formada ao usar o Martelo de Engenheiro no único bloco de engenharia leve.
+
+Os fluidos entram pela porta azul de fluido, e o fluido sai pela única porta laranja de saída. Os tubos de perfuração devem ser inseridos manualmente.
+
+Aplicar um sinal de redstone ao painel de controle interrompe a perfuração, o que pode ser invertido com a Chave de Fenda de Engenheiro.<np>
+O processo de perfuração do derrick ocorre em dois estágios e não pode acontecer abaixo do nível da água, pois a água inundaria o poço em formação e erodiria as paredes.
+
+A primeira fase é a de perfuração reforçada, quando o derrick perfura acima da rocha matriz e deve reforçar os tubos de fluido colocados com <link;immersiveengineering:mixer;§o§nconcreto líquido§r> para estabilizá-los, instalando tubos de poço. Se forem quebrados, esses tubos precisam ser perfurados de novo.<np>
+Quando o derrick atinge a rocha matriz, a segunda fase de perfuração começa e o reforço de concreto é trocado por água de resfriamento. O derrick passa a perfurar a rocha matriz até um ou mais alvos definidos em sua interface, consumindo água e tubos de fluido para isso.
+
+Quando o poço fica completo, a cabeça de poço é aberta e o equipamento de perfuração é expulso do poço pela pressão do fluido vindo de baixo.
+
+A pressão positiva do poço força o fluido à superfície, para dentro do tanque do derrick e para armazenamento externo como o <link;immersivepetroleum:oiltank;§o§nTanque de Petróleo§r>. Se o tanque do derrick estiver cheio e sem saída, a válvula de alívio estoura e o petróleo jorra pelo topo do derrick e se perde.
+
+Quando a pressão positiva do reservatório chega a zero, o derrick não é mais necessário e a extração de fluido pode ser transferida para um <link;immersivepetroleum:pumpjack;§o§nCavalo de Pau§r>.

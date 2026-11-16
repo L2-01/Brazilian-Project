@@ -1,0 +1,15 @@
+{
+  "name": "Reparação",
+  "icon": "minecraft:anvil",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Efeito: Repara uma peça aleatória de armadura vestida a cada 100 tiques $(br2)Treinado por: reparar seu peitoral (numa bigorna, com o encantamento $(thing)Remendo$(), etc.). $(br2)Nível máximo: 1"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:repair"
+    }
+  ]
+}

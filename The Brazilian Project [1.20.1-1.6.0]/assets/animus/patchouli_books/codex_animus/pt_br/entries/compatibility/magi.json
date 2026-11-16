@@ -1,0 +1,18 @@
+{
+  "name": "guide.animus.entry.imperfect_ritual_magi",
+  "icon": "ars_nouveau:source_gem_block",
+  "category": "animus:compatibility",
+  "flag": "mod:ars_nouveau",
+  "sortnum": 22,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um ritual imperfeito que canaliza as energias arcanas das gemas de source do Ars Nouveau, aprimorando muito suas capacidades de regeneração de mana.$(br2)$(bold)Requer:$() Ars Nouveau$(br2)$(bold)Configuração:$()$(br)Coloque um Bloco de Gema de Source em cima de uma Pedra de Ritual Imperfeita.$(br2)$(bold)Custo:$() 2.500 LP por uso$(br2)$(bold)Duração:$() 15 minutos"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Efeitos",
+      "text": "$(bold)Ativação:$()$(br)Clique com o botão direito na Pedra de Ritual Imperfeita para receber:$(li)$(thing)Mana Regen$() por 15 minutos$(li)O efeito não tem partículas visíveis$(br2)$(bold)Mana Regen:$()$(br)O efeito Mana Regen do Ars Nouveau aumenta significativamente sua taxa de regeneração de mana, permitindo conjuração mais frequente.$(br2)$(bold)Casos de Uso:$()$(li)Sessões prolongadas de conjuração$(li)Rituais intensivos em mana$(li)Preparação para combate$(br2)$(italic)O sangue alimenta o fluxo arcano.$()"
+    }
+  ]
+}

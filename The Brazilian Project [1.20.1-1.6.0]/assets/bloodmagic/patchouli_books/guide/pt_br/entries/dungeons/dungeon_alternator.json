@@ -1,0 +1,15 @@
+{
+  "name": "Alternador de Masmorra",
+  "icon": "bloodmagic:dungeon_alternator",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:dungeon_alternator": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:dungeon_alternator",
+      "text": "O $(thing)Alternador de Masmorra$() emite um sinal de redstone constantemente mutável, alternando entre ligado e desligado em intervalos fixos, similar a um $(thing)Relógio de Redstone$(). Compare com o $(l:bloodmagic:dungeons/dungeon_emitter)Emissor de Masmorra$(), cujo sinal é estável e imutável."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+Unidade de Coque
+Material Muito Pegajoso
+<&cokerunit0>A Unidade de Coque é uma máquina enorme que craqueia e carboniza o <link;immersivepetroleum:fluids;§n§obetume§r;bitumen> residual da destilação em <link;immersivepetroleum:fluids;§n§ocoque de petróleo§r;petroleum_coke> e <link;immersivepetroleum:fluids;§n§odiesel §n§osulfurado§r;diesel>.
+
+A energia entra pelos dois conectores de alta amperagem na frente da máquina, e betume e água pelas duas portas de entrada identificadas na frente. O diesel sulfurado sai pela porta laranja na frente, e o coque de petróleo pelos dois funis abaixo dos tambores de coque.
+
+Fornecer um sinal de redstone ao painel de controle interrompe o processo de coquificação, que pode ser invertido com a Chave de Fenda de Engenheiro.
+
+Devido ao ciclo de aquecimento-resfriamento do processo, a Unidade de Coque consome muita energia e exige infraestrutura de média ou alta tensão.
+
+Para construir a máquina, monte-a como mostrado e use o Martelo de Engenheiro no bloco de concreto central do lado do bloco de engenharia de redstone.<np>
+O processo de coquificação é o seguinte:
+O betume é carregado nos tambores de coque. Quando o carregamento termina, os tambores são aquecidos e o betume é convertido em coque de petróleo e diesel sulfurado.
+
+Concluída a conversão, os tambores são drenados do diesel sulfurado, depois esvaziados e lavados com água para resfriar antes que o betume seja carregado novamente.<np>
+Os tambores não precisam estar cheios para o processo começar, e mais betume pode ser inserido durante a primeira fase do ciclo. Quando as fases de saída e lavagem começam, não é possível inserir mais betume até o ciclo terminar.
+
+Os tambores operam independentemente: quando o tambor em carregamento enche de betume, o betume passa a carregar no outro tambor, a menos que ele já esteja operando.

@@ -1,0 +1,35 @@
+{
+  "name": "Selo de Lava",
+  "icon": "bloodmagic:lavasigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O selo irmão do $(l:bloodmagic:alchemy_array/sigil/water)Selo de Água$(/l). Pressione [$(k:use)] segurando o $(item)Selo de Lava$() para criar um bloco de fonte de $(fire)lava$() no chão, ao custo de $(blood)1.000 LP$(). Criado num $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Arranjo Alquímico$(/l) usando um $(item)Reagente de Lava$() e uma $(item)Ardósia em Branco,$() drenará 5 corações seus se você não tiver LP suficiente na sua $(l:bloodmagic:altar/soul_network)Soul Network.$(/l)"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Reagente de Lava",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_lava",
+      "array.heading": "Selo de Lava",
+      "array.recipe": "bloodmagic:array/lavasigil",
+      "array.text": "$(italic)QUENTE! NÃO COMA$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/lava_sigil1.png",
+        "bloodmagic:images/entries/sigil/lava_sigil2.png"
+      ],
+      "title": "Selo de Lava Array",
+      "border": true,
+      "text": "O Selo de Lava, ao lado do seu arranjo de criação, mais seu uso principal."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Balde de Lava",
+      "recipe": "bloodmagic:alchemytable/sigil_lava_bucket",
+      "text": "Mais ainda, pode ser usado na $(l:bloodmagic:alchemy_table/alchemy_table)Mesa de Alquimia$() para automatizar a produção de $(fire)Baldes de Lava$(). O Selo não é consumido nesta receita."
+    }
+  ]
+}

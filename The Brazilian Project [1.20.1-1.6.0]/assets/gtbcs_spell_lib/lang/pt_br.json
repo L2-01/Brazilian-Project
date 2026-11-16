@@ -1,0 +1,46 @@
+{
+  "key.categories.gtbcs_spell_lib": "GTBC's SpellLib/API",
+  "key.gtbcs_spell_lib.lore_item_previous": "Página Anterior do Item de Lore",
+  "key.gtbcs_spell_lib.lore_item_next": "Próxima Página do Item de Lore",
+
+  "attribute.gtbcs_spell_lib.spell_damage": "Dano de Feitiço",
+  "attribute.gtbcs_spell_lib.magic_projectile_damage": "Dano de Projétil Mágico",
+  "attribute.gtbcs_spell_lib.spell_crit_chance": "Chance de Crítico de Feitiço",
+  "attribute.gtbcs_spell_lib.spell_crit_damage": "Dano Crítico de Feitiço",
+  "attribute.gtbcs_spell_lib.elemental_permeability": "Permeabilidade Elemental",
+  "attribute.gtbcs_spell_lib.healing_received": "Cura Recebida",
+  "attribute.gtbcs_spell_lib.damage_taken": "Dano Recebido",
+  "attribute.gtbcs_spell_lib.summon_health": "Vida da Invocação",
+
+  "lore_item.gtbcs_spell_lib.preview.author": "Autor",
+  "lore_item.gtbcs_spell_lib.preview.continue.start": "Pressione [",
+  "lore_item.gtbcs_spell_lib.preview.continue.end": "] ou [Clique] para continuar",
+  "lore_item.gtbcs_spell_lib.credits.title": "Créditos",
+  "lore_item.gtbcs_spell_lib.credits.document": "Nome:",
+  "lore_item.gtbcs_spell_lib.credits.lore_author": "Autor do Lore:",
+  "lore_item.gtbcs_spell_lib.credits.original_author": "Autor Original:",
+  "lore_item.gtbcs_spell_lib.credits.credits": "Créditos:",
+  "lore_item.gtbcs_spell_lib.credits.volume": "Volume:",
+  "lore_item.gtbcs_spell_lib.credits.written_date": "Ano de Escrita:",
+  "lore_item.gtbcs_spell_lib.credits.last_updated": "Último Ano de Atualização:",
+  "lore_item.gtbcs_spell_lib.tooltip.open_prompt": "Clique com o botão direito segurando na mão para abrir",
+
+  "tooltip.gtbcs_spell_lib.painting.size": "%s × %s Blocos",
+  "tooltip.gtbcs_spell_lib.painting.author": "Autor: %s",
+
+  "item.gtbcs_spell_lib.gsl_example_lore_item": "Item de Lore de Exemplo",
+  "item.gtbcs_spell_lib.gsl_example_crit_staff": "Item de Cajado Crítico de Exemplo",
+  "item.gtbcs_spell_lib.treasure_pouch": "Bolsa de Tesouro",
+  "item.gtbcs_spell_lib.painting_spell_lib": "Quadro",
+
+  "painting.gtbcs_spell_lib.spell_lib.title": "SpellLib/API",
+  "painting.gtbcs_spell_lib.spell_lib.author": "GameTechBC",
+
+  "item.gtbcs_spell_lib.treasure_pouch.open": "[Clique com o botão direito para abrir]",
+  "item.gtbcs_spell_lib.treasure_pouch.more": "+%s a mais",
+
+  "item.gtbcs_spell_lib.spell_imbuing_curio.already_assigned.message": "Não é possível imbuir o mesmo eco com outro feitiço!",
+  "item.gtbcs_spell_lib.spell_imbuing_curio.not_enough_xp.message": "Pontos de experiência insuficientes!",
+  "item.gtbcs_spell_lib.spell_imbuing_curio.success": "Feitiço Imbuído!",
+  "item.gtbcs_spell_lib.random_imbue_curio.ex_required.tooltip": "Requer Pontos de Experiência!"
+}

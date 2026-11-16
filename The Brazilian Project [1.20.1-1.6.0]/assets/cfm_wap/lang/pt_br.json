@@ -1,0 +1,18 @@
+{
+  "block.cfm_wap.light_circuit_breaker": "Disjuntor de Luz",
+  "block.cfm_wap.dark_circuit_breaker": "Disjuntor Escuro",
+
+  "container.cfm_wap.circuit_breaker": "Disjuntor",
+
+  "gui.cfm_wap.circuit_breaker": "Disjuntor",
+  "gui.cfm_wap.connect_to_power": "Garanta que o bloco esteja recebendo energia de um %s ou de um %s. Ele pode ser conectado usando um %s.",
+  "gui.cfm_wap.requires_power": "Requer energia de um %s ou de um %s",
+
+  "gui.cfm_wap.node_count": "%s / %s",
+  "gui.cfm_wap.status.online": "Online",
+  "gui.cfm_wap.status.offline": "Offline",
+  "gui.cfm_wap.status.overloaded": "Sobrecarregado",
+  "gui.cfm_wap.status.energy": "Sem Energia",
+
+  "gui.cfm_wap.progress": "%sFE / %sFE"
+}

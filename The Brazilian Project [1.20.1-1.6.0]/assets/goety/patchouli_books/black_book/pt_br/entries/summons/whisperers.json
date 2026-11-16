@@ -1,0 +1,30 @@
+{
+  "name": "Sussurradores",
+  "icon": "minecraft:vine",
+  "category": "goety:summons",
+  "advancement": "goety:goety/read_floral_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Apesar do nome, os Sussurradores são criaturas barulhentas e esquisitas que podem conjurar trepadeiras de crescimento rápido para bloquear o caminho do alvo, invocar duas Trepadeiras de Espinhos Venenosos e raízes enredantes nas pernas do alvo."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:whisperer",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pode-se invocar essas criaturas através de um $(l:focuses/wild/whispering_focus)Foco de Sussurro$(), ou clicando com o botão direito nas Folhas de Selva centrais desta configuração com um Núcleo de Animação para um sem vida limitada."
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety:whisperer",
+      "text": "Clique com o botão direito no Bloco de Musgo com um Núcleo de Animação."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A criatura pode ser curada clicando nela com o botão direito usando Farinhas de Osso."
+    }
+  ]
+}

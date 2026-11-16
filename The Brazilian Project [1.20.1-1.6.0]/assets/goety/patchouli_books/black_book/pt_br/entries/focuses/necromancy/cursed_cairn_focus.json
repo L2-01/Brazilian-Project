@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Cairn Amaldiçoado",
+  "icon": "goety_cataclysm:cursed_cairn_focus",
+  "category": "goety:cataclysm/focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O feitiço invoca altos besteiros tombados que bombardeiam seus inimigos com flechas."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/cursed_cairn_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/necro_staff)Cajado Necrótico$() invoca mais Draugrs de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:cursed_cairn_focus": 1
+  }
+}

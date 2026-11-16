@@ -1,0 +1,29 @@
+{
+  "name": "Editando Filtros",
+  "icon": "minecraft:writable_book",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Se você está configurando um grande número de $(thing)filtros$(), ou quer expandir suas montagens de filtros existentes, basta colocar entre dois e 9 filtros numa mesa de trabalho para copiar o filtro do slot um para todos os outros filtros."
+    },
+    {
+      "type": "bloodmagic:manual_recipe",
+      "input1": "bloodmagic:itemrouterfilterexact{Items: [{Slot: 0b, id: \"minecraft:leather\", Count: 1b, tag: {stackSize: 1}}], \"button:blackwhitelist\": 0}",
+      "input2": "bloodmagic:itemrouterfilterexact",
+      "input9": "bloodmagic:itemrouterfilterexact",
+      "output": "bloodmagic:itemrouterfilterexact#3{Items: [{Slot: 0b, id: \"minecraft:leather\", Count: 1b, tag: {stackSize: 1}}], \"button:blackwhitelist\": 0}"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Similarmente, se quiser limpar um filtro, coloque-o sozinho na mesa de trabalho, assim."
+    },
+    {
+      "type": "bloodmagic:manual_recipe",
+      "input1": "bloodmagic:itemrouterfilterexact{Items: [{Slot: 0b, id: \"minecraft:leather\", Count: 1b, tag: {stackSize: 1}}], \"button:blackwhitelist\": 0}",
+      "input2": "minecraft:air",
+      "input9": "minecraft:air",
+      "output": "bloodmagic:itemrouterfilterexact"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Preço por Demanda",
+	"icon": "lightmanscurrency:textures/gui/trader_guide/trade_rules/demand_pricing/icon.png",
+	"category": "lightmanscurrency:trade_rules",
+	"pages": [
+		"A regra \"Preço por Demanda\" é uma regra de troca que só pode ser aplicada a uma única troca.$(br2)Quando ativada, o preço muda de forma linear dependendo do estoque atual da troca, dando um preço maior quando o estoque está baixo e um preço menor quando há bastante estoque disponível.",
+		{
+			"type": "lightmanscurrency:wide_image_2",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/demand_pricing/inputs.png",
+			"text": "Os campos principais desta regra são os de estoque mínimo/máximo, que determinam os limites superior e inferior da faixa de estoque.$(br)Ela também inclui um campo de preço adicional, que define o 2º preço da faixa."
+		},
+		"Esta regra também usa o campo de preço embutido da troca e, combinando-o com seu próprio campo de preço, cria a \"Faixa de Preço\" que limita o preço conforme os limites de estoque definidos adiante. Esses dois campos são flexíveis e permitem que o preço da troca seja maior ou menor que o definido nos campos da regra, desde que ambos usem o mesmo tipo de moeda.$(br)Também é possível usar \"Grátis\" como o preço menor",
+		"Os campos de estoque superior/inferior definem em quais níveis de estoque os preços serão utilizados, bem como como o preço é escalonado. Quando o estoque for menor que o estoque inferior, a troca receberá o maior dos preços da faixa de preço e, quando o estoque for maior que o estoque superior, receberá o menor dos preços da faixa. Entre os dois valores de estoque, um preço intermediário será calculado de forma linear ",
+		"dependendo de qual limite de estoque ele estiver mais próximo.$(br2)Se um dia você ficar confuso sobre por que os campos não estão funcionando, a aba de informações acima dos campos da regra dirá o que há de errado com os valores atuais.$(br2)As modificações de preço desta regra se aplicam diretamente ao preço base, então outras regras que modifiquem o preço em porcentagem serão calculadas sobre o novo preço, e não sobre o preço definido pela troca."
+	]
+}

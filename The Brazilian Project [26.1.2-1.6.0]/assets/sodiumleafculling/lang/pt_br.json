@@ -1,0 +1,15 @@
+{
+  "sodiumleafculling.options.page": "Descarte de Folhas",
+  "sodiumleafculling.options.cull_adjacent_blocks.name": "Descartar Faces de Blocos Atrás de Folhas",
+  "sodiumleafculling.options.cull_adjacent_blocks.tooltip": "No modo Sólido, ignora algumas faces ocultas por folhas já classificadas como opacas. Isso pode reduzir a geometria em folhagens densas. Desativado por padrão.",
+  "sodiumleafculling.options.leaf_culling.name": "Modo de Descarte de Folhas",
+  "sodiumleafculling.options.leaf_culling.tooltip": "Se ativado, folhas atrás de outras folhas serão descartadas para melhorar o desempenho. O modo Oco descartará faces agressivamente, e o modo Sólido ativará a renderização rápida de bloco sólido das folhas atrás de outras folhas.",
+  "sodiumleafculling.options.distance_leaf_culling.name": "Descarte de Folhas por Distância",
+  "sodiumleafculling.options.distance_leaf_culling.tooltip": "Renderiza folhas além da distância configurada como folhas opacas Rápidas, inclusive quando o Modo de Descarte de Folhas é Nenhum. Folhas próximas mantêm o modo selecionado. Desativado por padrão. Atualizações de movimento afetam apenas seções de terreno impactadas.",
+  "sodiumleafculling.options.leaf_culling_distance.name": "Distância de Descarte de Folhas (blocos)",
+  "sodiumleafculling.options.leaf_culling_distance.tooltip": "Distância da câmera ao centro de um bloco de folha, incluindo altura. Folhas dentro desta distância mantêm o modo selecionado; folhas mais distantes usam renderização Rápida. Aplica-se apenas quando o Descarte de Folhas por Distância está ativado. Padrão: 64 blocos. O movimento da câmera é amostrado em incrementos de um bloco.",
+  "options.leaf_culling.none": "Nenhum",
+  "options.leaf_culling.hollow": "Oco",
+  "options.leaf_culling.solid": "Sólido",
+  "options.leaf_culling.solid_aggressive": "Sólido Agressivo"
+}

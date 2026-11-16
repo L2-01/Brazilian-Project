@@ -1,0 +1,201 @@
+{
+  "tooltip.etstlib.energy_storage": "Armazenamento de Energia",
+  "tooltip.etstlib.max_transfer": "Transferência Máx. de FE",
+  "tooltip.etstlib.air": "Armazenamento de Ar",
+  "tooltip.etstlib.base_volume": "Volume de Ar Base",
+  "tooltip.etstlib.max_pressure": "Pressão",
+  "tooltip.etstlib.pressure_bonus": "Bônus Aéreo",
+  "tooltip.etstlib.radiation_shielding": "Proteção contra Radiação",
+  "tooltip.etstlib.faucet_transfer": "Velocidade de Transferência: ",
+
+
+  "tool_stat.etstlib.max_energy": "Energia Máx.: ",
+  "tool_stat.etstlib.max_energy.description": "Capacidade de Forge Energy da sua ferramenta.",
+  "tool_stat.etstlib.max_transfer": "Transferência Máx. de Energia: ",
+  "tool_stat.etstlib.max_transfer.description": "Limita a velocidade de carga ou descarga da ferramenta.",
+  "tool_stat.etstlib.basic_air_capacity": "Capacidade Básica de Ar: ",
+  "tool_stat.etstlib.basic_air_capacity.description": "Capacidade básica de ar do PneumaticCraft.",
+  "tool_stat.etstlib.max_pressure": "Pressão Máxima: ",
+  "tool_stat.etstlib.max_pressure.description": "A pressão máxima que sua ferramenta aguenta.\nNão fará sua ferramenta explodir.",
+  "tool_stat.etstlib.radiation_protect": "Proteção contra Radiação: ",
+  "tool_stat.etstlib.radiation_protect.description": "Capacidade de blindagem contra radiação do Mekanism.",
+  "tool_stat.etstlib.fluid_efficiency": "Eficiência de Fluido: ",
+  "tool_stat.etstlib.range": "Alcance: ",
+  "tool_stat.etstlib.scale": "Escala: ",
+  "tool_stat.etstlib.power_multiplier": "Multiplicador de Potência: ",
+  "tool_stat.etstlib.pierce": "Perfuração: ",
+
+
+  "modifier.etstlib.anti_stun_glasses": "Óculos Anti-Atordoamento",
+  "modifier.etstlib.anti_stun_glasses.flavor": "Previne você de ficar atordoado",
+  "modifier.etstlib.anti_stun_glasses.description": "Cancela tremor de dano e efeito de campo de visão. Imune ao efeito de náusea.",
+
+  "modifier.etstlib.energy_shield": "Escudo de Energia",
+  "modifier.etstlib.energy_shield.flavor": "Gerador de campo de força embutido.",
+  "modifier.etstlib.energy_shield.description": "Bloqueia dano usando FE, drena 10kFE por dano. Se a energia de uma armadura não for suficiente, consome 2x energia de todas as armaduras com este modificador para cancelar o dano.",
+
+  "modifier.etstlib.radiation_shielding": "Blindagem contra Radiação",
+  "modifier.etstlib.radiation_shielding.flavor": "Rad, rad, vai embora!",
+  "modifier.etstlib.radiation_shielding.description": "Ganha 10% de imunidade a radiação por nível.",
+
+  "modifier.etstlib.energy_loaded": "Carregado de Energia",
+  "modifier.etstlib.energy_loaded.flavor": "Ferramenta elétrica!",
+  "modifier.etstlib.energy_loaded.description": "Sua ferramenta consome energia em vez de durabilidade quando energizada.",
+
+  "modifier.etstlib.applied_fixing": "Reparo de Energia Aplicada",
+  "modifier.etstlib.applied_fixing.flavor": "Crescendo como cristais.",
+  "modifier.etstlib.applied_fixing.description": "Auto-repara quando colocada no carregador do AE2.",
+
+  "modifier.etstlib.atomic_decompose": "Decomposição Atômica",
+  "modifier.etstlib.atomic_decompose.flavor": "Decomposição de nível atômico.",
+  "modifier.etstlib.atomic_decompose.description": "Fixa sua velocidade de mineração na da ferramenta. Ignora nível de colheita.",
+
+  "modifier.etstlib.aerial_reinforced": "Dinâmica Aérea",
+  "modifier.etstlib.aerial_reinforced.flavor": "Reforçado por pressão!",
+  "modifier.etstlib.aerial_reinforced.description": "Melhora vários stats quando ar comprimido está carregado. Consome ar em vez de durabilidade ao usar.",
+
+  "modifier.etstlib.clearing": "Limpando",
+  "modifier.etstlib.clearing.flavor": "Limpando a sujeira.",
+  "modifier.etstlib.clearing.description": "Imune aos efeitos de Decomposição e veneno.",
+
+  "modifier.etstlib.energetic_attack": "Ataque Energético",
+  "modifier.etstlib.energetic_attack.flavor": "Zap!",
+  "modifier.etstlib.energetic_attack.description": "Causa dano mágico extra em ataque com carga total.",
+
+  "modifier.etstlib.radiation_inflict": "Radiação Infligida",
+  "modifier.etstlib.radiation_inflict.flavor": "Armas radioativas.",
+  "modifier.etstlib.radiation_inflict.description": "Inflige 100mSv de radiação em ataque com carga total.",
+
+  "modifier.etstlib.momentum_accelerate": "Aceleração de Momento",
+  "modifier.etstlib.momentum_accelerate.flavor": "p=mv",
+  "modifier.etstlib.momentum_accelerate.description": "-20% de velocidade de ataque e mineração, mas acelera ao usar constantemente.",
+
+  "modifier.etstlib.magic_strike": "Golpe Mágico",
+  "modifier.etstlib.magic_strike.flavor": "",
+  "modifier.etstlib.magic_strike.description": "Transfere seu dano para dano mágico em ataque com carga total.",
+
+  "modifier.etstlib.critical": "Ataque Crítico",
+  "modifier.etstlib.critical.flavor": "Ataques que são 'Críticos'",
+  "modifier.etstlib.critical.description": "100% crítico em ataque com carga total.",
+
+  "modifier.etstlib.armor_piercing": "Perfuração de Armadura",
+  "modifier.etstlib.armor_piercing.flavor": "Arma afiada.",
+  "modifier.etstlib.armor_piercing.description": "Cada nível fornece 25% de perfuração de armadura.",
+
+  "modifier.etstlib.mana_repair": "Reparo de Mana",
+  "modifier.etstlib.mana_repair.flavor": "Mana e entropia.",
+  "modifier.etstlib.mana_repair.description": "Sua ferramenta consumirá mana lentamente para se reparar.",
+
+  "modifier.etstlib.terra_beam": "Feixe Terra",
+  "modifier.etstlib.terra_beam.flavor": "Intenção da Terra.",
+  "modifier.etstlib.terra_beam.description": "Consome mana para disparar feixe terra ao brandir.",
+
+  "modifier.etstlib.reality_breaker": "Quebrador da Realidade",
+  "modifier.etstlib.reality_breaker.flavor": "Quebra a realidade de que 'O alvo é invulnerável'",
+  "modifier.etstlib.reality_breaker.description": "Faz seu ataque ignorar a maior parte da defesa vanilla.",
+
+  "modifier.etstlib.photosynthesis_guide": "Guia de Fotossíntese",
+  "modifier.etstlib.photosynthesis_guide.flavor": "Perseguindo os fótons.",
+  "modifier.etstlib.photosynthesis_guide.description": "Suas flechas perseguirão levemente.",
+
+  "modifier.etstlib.warp_attack": "Ataque de Distorção",
+  "modifier.etstlib.warp_attack.flavor": "Mira automática.",
+  "modifier.etstlib.warp_attack.description": "Você atacará alvos próximos quando errar.",
+
+  "modifier.etstlib.anisotropy": "Anisotropia",
+  "modifier.etstlib.anisotropy.flavor": "Característica básica de monocristais.",
+  "modifier.etstlib.anisotropy.description": "Aumenta dano em ataque com carga total. Diminui dano caso contrário.",
+
+  "modifier.etstlib.crystal_armor": "Anisotropia",
+  "modifier.etstlib.crystal_armor.flavor": "Característica básica de monocristais.",
+  "modifier.etstlib.crystal_armor.description": "Aumenta proteção quando a armadura está menos danificada.",
+  "modifier.etstlib.crystal_armor.resistance": "Resistência de Anisotropia",
+
+  "modifier.etstlib.glowing": "Brilho",
+  "modifier.etstlib.glowing.flavor": "Materiais brilhantes.",
+  "modifier.etstlib.glowing.description": "Ganha visão noturna ao vestir. Inflige o efeito Brilho no inimigo.",
+
+  "modifier.etstlib.short_circuit": "Curto-circuito",
+  "modifier.etstlib.short_circuit.flavor": "Bagunça com bioeletricidade.",
+  "modifier.etstlib.short_circuit.description": "Remove o tempo de invulnerabilidade do alvo ao acertar.",
+
+  "modifier.etstlib.rude": "Rude",
+  "modifier.etstlib.rude.flavor": "Sem elegância.",
+  "modifier.etstlib.rude.description": "Causa ataque crítico em alvos com >25 de vida.",
+
+  "modifier.etstlib.executioner": "Executor",
+  "modifier.etstlib.executioner.flavor": "Rápido e limpo, sem piedade.",
+  "modifier.etstlib.executioner.description": "Faz seu ataque ignorar a recarga de golpe do alvo.",
+
+  "modifier.etstlib.global_traveler": "Viajante Global",
+  "modifier.etstlib.global_traveler.flavor": "Viajando pelo mundo.",
+  "modifier.etstlib.global_traveler.description": "Shift-Botão direito vincula um recipiente onde o loot criado pela ferramenta será armazenado. Shift-Botão direito de novo desvincula.",
+
+  "modifier.etstlib.void_insight": "Visão do Vazio",
+  "modifier.etstlib.void_insight.flavor": "Nulo",
+  "modifier.etstlib.void_insight.description": "Impede a maioria das criaturas de gerar no seu mundo.",
+
+  "modifier.etstlib.hardened": "Endurecido",
+  "modifier.etstlib.hardened.flavor": "Muito mais forte que diamante.",
+  "modifier.etstlib.hardened.description": "+10% de durabilidade e redução de dano por nível.",
+
+  "modifier.etstlib.terrafirma": "Terrafirma",
+  "modifier.etstlib.terrafirma.flavor": "Poder da terra.",
+  "modifier.etstlib.terrafirma.description": "Cura o portador a cada segundo.",
+
+  "modifier.etstlib.fatal": "Trauma Fatal",
+  "modifier.etstlib.fatal.flavor": "Eles não podem escapar",
+  "modifier.etstlib.fatal.description": "Impede os alvos de se curarem.",
+
+  "modifier.etstlib.hyper_density": "Hiperdensidade",
+  "modifier.etstlib.hyper_density.flavor": "Vem numa peça só!",
+  "modifier.etstlib.hyper_density.description": "O dano recebido será reduzido duas vezes pelo valor de armadura.",
+
+  "modifier.etstlib.inert_metal": "Metal Inerte",
+  "modifier.etstlib.inert_metal.flavor": "Resiste à corrosão química.",
+  "modifier.etstlib.inert_metal.description": "Às vezes remove um efeito nocivo aleatório ao vestir.",
+
+  "modifier.etstlib.secondary_armor": "Bem Preparado",
+  "modifier.etstlib.secondary_armor.flavor": "Esta é minha segunda armadura!",
+  "modifier.etstlib.secondary_armor.description": "Permite sua armadura bloquear dano perfurante.",
+
+  "modifier.etstlib.extra_dense": "Extradenso",
+  "modifier.etstlib.extra_dense.flavor": "Grande massa vem de alta densidade.",
+  "modifier.etstlib.extra_dense.description": "Melhora alguns stats, mas diminui o fator de reparo.",
+
+  "modifier.etstlib.resonating": "Ressoante",
+  "modifier.etstlib.resonating.flavor": "Você sabe medir distância usando som?",
+  "modifier.etstlib.resonating.description": "Você ouvirá sons do ambiente e ganhará bônus.",
+
+  "modifier.etstlib.static_discharge": "Eletricidade Estática",
+  "modifier.etstlib.static_discharge.flavor": "Ai!",
+  "modifier.etstlib.static_discharge.description": "Mover, atacar e minerar carregarão sua ferramenta e aumentarão o dano ao acertar.",
+
+  "modifier.etstlib.accelerate": "Acelerar",
+  "modifier.etstlib.accelerate.flavor": "Cada vez mais rápido",
+  "modifier.etstlib.accelerate.description": "Velocidade do projétil x1,25 após 0,25s. +0,25 extra por nível.",
+
+  "modifier.etstlib.cheap": "Barato",
+  "modifier.etstlib.cheap.flavor": "Ótimo em quantidades",
+  "modifier.etstlib.cheap.description": "Quantidade de munição fabricada x4, mas se autodestrói ao pousar.",
+
+  "modifier.etstlib.crystaline_arrow": "Anisotropia",
+  "modifier.etstlib.crystaline_arrow.flavor": "Característica básica de monocristais.",
+  "modifier.etstlib.crystaline_arrow.description": "+20% de dano de flecha com carga total, caso contrário -40% de dano.",
+
+
+
+  "fluid_effect.etstlib.radiate_entity": "Irradiar %s à Entidade",
+  "fluid_effect.etstlib.radiate_block": "Irradiar %s ao Mundo",
+  "fluid_effect.etstlib.clear_radiation": "Limpar Fontes de Radiação em %s Chunk",
+  "fluid_effect.etstlib.add_entity_ticker": "Adicionar %s tiques nível %s de ",
+
+
+
+  "entity_ticker.etstlib.freezing": "Congelando",
+
+
+
+  "msg.etstlib.global_traveler.container_bind": "Recipiente vinculado",
+  "msg.etstlib.global_traveler.container_disbound": "Recipiente desvinculado"
+}

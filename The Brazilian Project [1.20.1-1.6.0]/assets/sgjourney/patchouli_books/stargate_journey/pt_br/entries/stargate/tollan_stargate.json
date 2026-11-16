@@ -1,0 +1,21 @@
+{
+ "name": "Stargate Tollan",
+ "icon": "sgjourney:tollan_stargate",
+ "sortnum": 6,
+ "category": "sgjourney:stargates",
+ "pages": [
+  {
+   "title": "Stargate Tollan",
+   "type": "patchouli:image",
+   "images": [
+    "sgjourney:textures/gui/patchouli/tollan_stargate.png"
+   ],
+   "text": "Stargate de Geração 2 sem símbolos visíveis."
+  },
+  {
+   "title": "Peculiaridades",
+   "type": "patchouli:text",
+   "text": "Esta Stargate não pode ter uma Iris, pois ela não cabe dentro do anel. Esta Stargate não pode ser discada manualmente. Embora nenhum símbolo seja visível no anel, o portal em si pode discar 39 símbolos."
+  }
+ ]
+}

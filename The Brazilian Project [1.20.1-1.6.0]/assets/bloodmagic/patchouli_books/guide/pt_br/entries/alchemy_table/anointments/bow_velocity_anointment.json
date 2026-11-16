@@ -1,0 +1,37 @@
+{
+  "name": "Polidura do Arqueiro",
+  "icon": "bloodmagic:bow_velocity_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Polidura do Arqueiro",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment",
+      "text": "Aumenta a velocidade das flechas disparadas em 50%. Isso também aumenta o dano causado pelas suas flechas proporcionalmente. Também acumula com encantamentos Vanilla. $(br2)Itens válidos: Arcos, Bestas.$(br2)Aplica: Precisão I (256 tiros)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Polidura do Arqueiro L",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_l",
+      "text": "Esta versão melhorada da unção dura quatro vezes mais. $(br2)Aplica: Precisão I (1024 tiros)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Polidura do Arqueiro II",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_2",
+      "text": "Esta versão melhorada da unção aumenta a velocidade em 100% em vez disso. $(br2)Aplica: Precisão II (256 tiros)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Polidura do Arqueiro XL",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_xl",
+      "text": "Esta versão melhorada da unção dura dezesseis vezes mais. $(br2)Aplica: Precisão I (4096 tiros)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Polidura do Arqueiro III",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_3",
+      "text": "Esta versão melhorada da unção aumenta a velocidade em 150% em vez disso. $(br2)Aplica: Precisão III (256 tiros)"
+    }
+  ]
+}

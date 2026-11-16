@@ -1,0 +1,23 @@
+{
+  "name": "guide.animus.entry.sigil_boundless_nature",
+  "icon": "animus:sigil_boundless_nature",
+  "category": "animus:sigils",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "animus:crafting_array",
+      "recipe": "animus:array/sigil_boundless_nature",
+      "text": "Criado num $(blood)Círculo de Alquimia$() combinando um $(l:animus:items/reagentboundlessnature)Reagente: Natureza Ilimitada$() com uma $(item)Ardósia Reforçada$(). O reagente deve ser forjado primeiro na Forja Infernal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_boundless_nature",
+      "text": "Uma ponte entre Blood Magic e Botania. Este sigilo age como um tablete de mana que converte Essência Vital em mana, permitindo que magos de sangue alimentem ferramentas e dispositivos do Botania."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Custo de LP:$() 50 LP por segundo quando ativo$(br2)$(bold)Efeito:$() Converte LP em mana numa taxa configurável (padrão: 50 LP = 100 mana por segundo).$(br2)$(bold)Armazenamento de Mana:$() Até 2.500 mana$(br2)Shift + botão direito para alternar a ativação. Quando ativo, o sigilo converte LP em mana continuamente e pode alimentar ferramentas do Botania e exportar para piscinas de mana.$(br2)$(bold)Requer Botania para funcionar.$()$(br)"
+    }
+  ]
+}

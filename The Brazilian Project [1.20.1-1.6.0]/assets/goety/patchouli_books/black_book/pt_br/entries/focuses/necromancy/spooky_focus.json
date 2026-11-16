@@ -1,0 +1,22 @@
+{
+  "name": "Foco Arrepiante",
+  "icon": "goety:spooky_focus",
+  "category": "goety:focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aparições não são exatamente as criaturas mortas-vivas mais comuns; só em tempos recentes elas começaram a aparecer. Com alguns Tecidos Espirituais, você consegue invocar e vincular uma ao seu comando."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/spooky_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/necro_staff)Cajado Necrótico$() invoca mais aparições de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:spooky_focus": 1
+  }
+}

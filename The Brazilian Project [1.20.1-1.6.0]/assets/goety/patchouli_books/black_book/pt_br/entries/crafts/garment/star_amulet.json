@@ -1,0 +1,18 @@
+{
+  "name": "Amuleto de Escudo de Almas",
+  "icon": "goety:star_amulet",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Amuleto de Escudo de Almas imita o escudo do Wither quando seu poder está enfraquecido. Se seu usuário estiver com metade ou menos da vida máxima, as flechas ricochetearão nele. Se alguém for capaz de Voo Criativo sem estar no Criativo, ficará preso ao chão enquanto o escudo estiver erguido."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:star_amulet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:star_amulet": 1
+  }
+}

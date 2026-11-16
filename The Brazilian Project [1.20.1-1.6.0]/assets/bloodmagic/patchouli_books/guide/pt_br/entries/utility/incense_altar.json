@@ -1,0 +1,112 @@
+{
+  "name": "Altar de Incenso",
+  "icon": "bloodmagic:incensealtar",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(item)Altar de Incenso$() é uma estrutura multibloco que pode ser usada para potencializar seu autossacrifício num $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(). Ao ficar perto da sua montagem, o $(item)Altar de Incenso$() acalmará sua alma com base na $(thing)Tranquilidade$() total da área, permitindo aumentar significativamente seus ganhos de $(blood)LP$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:incense_altar"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A montagem básica de Tier 1 de um $(item)Altar de Incenso$() é o próprio Altar; coloque-o em qualquer lugar (você pode querer preparar uma plataforma de blocos 3x3, isso será útil depois) e fique dentro de um raio de 5 blocos do Altar. $(br2)Enquanto o Altar estiver funcionando, ele emitirá partículas de chama do topo e transformará sua $(l:bloodmagic:altar/blood_altar#knife)Faca Sacrificial$(). Quando sua faca começar a brilhar, segurar e soltar o botão direito perto de um $(l:bloodmagic:altar/blood_altar)Altar de Sangue$() sacrificará 90% da sua vida de uma vez."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar1.png"
+      ],
+      "title": "Montagem Básica",
+      "border": true,
+      "text": "Montagem básica mostrando o quadrado 3x3 de blocos antes dos blocos de caminho."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Mais ainda, com base na $(thing)Tranquilidade$() total da área, você receberá um bônus no $(blood)LP$() adicionado ao $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(). Passar o cursor sobre o $(item)Altar de Incenso$() com um $(l:bloodmagic:alchemy_array/sigil/divination)Selo de Adivinhação$(/l) ou $(l:bloodmagic:alchemy_array/sigil/seer)Selo do Vidente$() exibirá a $(thing)Tranquilidade$() total da montagem (número de cima) e o bônus percentual recebido ao sacrificar (número de baixo). Quando você sacrifica, ele pega o $(blood)LP$() que você normalmente ganharia e o multiplica por (1 + bônus/100)."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar2.png"
+      ],
+      "title": "HUD de Incenso",
+      "border": true,
+      "text": "HUD de Incenso, por padrão no canto superior esquerdo, mostrando um bônus de autossacrifício de +20%."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "\"Mas Way, como eu aumento esse bônus?\" Ora, aumentando a $(thing)Tranquilidade$() da área ao redor! ...Isso pode ser um pouco ambíguo. $(br2)Para aumentar a $(thing)Tranquilidade$() da área, você deve colocar caminhos saindo do seu $(item)Altar de Incenso$(). Esses caminhos precisam ser construídos a partir de um conjunto de $(item)Caminhos$() de três blocos de largura, como o $(item)Caminho de Madeira$(), que se estenda do conjunto 3x3 de blocos de referência sólidos em todas as quatro direções cardeais."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:path/path_wood",
+      "recipe2": "bloodmagic:path/path_woodtile"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:path/path_stone",
+      "recipe2": "bloodmagic:path/path_stonetile"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:path/path_wornstone",
+      "recipe2": "bloodmagic:path/path_wornstonetile"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:path/path_obsidian",
+      "recipe2": "bloodmagic:path/path_obsidiantile"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Cada novo \"anel\" de blocos de caminho segue um conjunto de regras: $(li)Todos os blocos de caminho no mesmo anel têm que estar no mesmo nível-y.$(li)O próximo anel de blocos de caminho não pode estar a mais de 5 blocos acima/abaixo do anel anterior.$(li)Os blocos no mesmo nível ou até dois blocos acima do anel de blocos de caminho contam para a $(thing)Tranquilidade$() total — indicados pelos blocos de vidro na imagem."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar.png"
+      ],
+      "title": "Altar de Incenso",
+      "border": true,
+      "text": "Altar de Incenso com diferentes orientações de Caminho."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Além disso:$(li)A eficácia de cada tipo de bloco de caminho só dura uma certa distância: caminhos de madeira só vão três anéis para fora do centro, caminhos de pedra até cinco anéis, caminhos de pedra desgastada até sete anéis, e caminhos de obsidiana até nove anéis.$(bn2)  Ora, obviamente, nem todo tipo de bloco contará para sua $(thing)Tranquilidade$(). Não serve qualquer paralelepípedo velho, não! Precisamos de plantações, terra, e até... lava?"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Há várias categorias de blocos que contam para a $(thing)Tranquilidade$() total. Sem ordem específica, são: Plantas, Plantações, Árvores, Terrestre, Água, Fogo e Lava. O $(item)Altar de Incenso$() examinará todos os blocos dentro do seu alcance (definido pelos blocos de caminho) e tabulará quanto de $(thing)Tranquilidade$() total de cada Tipo existe. Feito isso, calculará a $(thing)Tranquilidade$() total tirando a raiz quadrada da $(thing)Tranquilidade$() de cada tipo e somando-as."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Isso significa que para montagens de fim de jogo, o ideal é ter muitos tipos diferentes de $(thing)Tranquilidade$(). Embora outros mods possam adicionar os seus, e mais serão adicionados depois, os blocos que contribuem para a $(thing)Tranquilidade$() são: Lava, Água (incluindo a maioria dos blocos alagados), Essência Vital, Netherrack, Terra, Terra Arável, Batatas, Cenouras, Trigo, Fungos do Nether, Beterrabas, Folhas, Troncos, Fogo e Grama."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar3.png"
+      ],
+      "title": "Montagem de Altar de Incenso",
+      "border": true,
+      "text": "Montagem de Altar de Incenso de fim de jogo com muitos níveis diferentes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Claro, sua montagem pode ser tão íngreme ou rasa quanto você quiser (dentro do razoável, conforme definido antes nesta entrada). $(br2) É importante notar que o $(thing)bônus de Tranquilidade$() é limitado pelo tamanho do seu Altar (e portanto, pelo tier de caminho que você usa). Os limites são: $(li) Sem Caminho: 20%. $(li) Caminho de Madeira: 60%. $(li) Caminho de Pedra: 120%. $(li) Caminho de Pedra Desgastada: 200%. $(li) Caminho de Obsidiana: 300%."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar4.png"
+      ],
+      "title": "Montagem de Altar de Incenso",
+      "border": true,
+      "text": "Uma montagem de $(item)Altar de Incenso$() bem simples. Note a mistura (opcional) de diferentes blocos de caminho."
+    }
+  ]
+}

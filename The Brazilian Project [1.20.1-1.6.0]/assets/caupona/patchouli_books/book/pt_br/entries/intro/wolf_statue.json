@@ -1,0 +1,16 @@
+{
+  "name": "Estátua de Lobo",
+  "icon": "caupona:wolf_statue",
+  "category": "caupona:intro",
+  "sortnum": 47,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/wolf_statue"
+    },
+    {
+      "type": "text",
+      "text": "Estátuas de lobo funcionam como termômetros: sua aparência muda conforme o calor que recebem. Podem ser aquecidas por fogões ou fumarolas."
+    }
+  ]
+}

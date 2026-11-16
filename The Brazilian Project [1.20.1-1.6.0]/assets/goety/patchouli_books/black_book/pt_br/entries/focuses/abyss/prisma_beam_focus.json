@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Feixe Prisma",
+  "icon": "goety:prisma_beam_focus",
+  "category": "goety:focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O feitiço replica o poder dos Guardiões do Monumento do Oceano, projetando um laser em qualquer criatura não aliada que você esteja olhando diretamente, causando dano após um tempo. Infelizmente, assim como nos Guardiões, o laser para quando o contato visual é quebrado."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/prisma_beam_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() aumenta o dano base do feitiço em um coração."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Microscópio",
+  "icon": "complicated_bees:microscope",
+  "category": "complicated_bees:machines",
+  "advancement": "complicated_bees:recipes/misc/microscope",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O microscópio é uma ferramenta inestimável para pesquisar espécimes.$(br2)Coloque uma abelha no espaço superior direito para começar a analisá-la — um minigame será apresentado para você completar.$(br2)Note que o minigame é completamente aleatório — não existe um padrão."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:microscope",
+      "title": "Microscópio",
+      "text": "$(o)Por qual ponta eu olho?$(br2)$()A dificuldade do minigame é baseada na complexidade da espécie: quanto mais avançada na árvore de mutações, mais complexa a espécie."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para ajudar a completar o minigame, você pode colocar abelhas extras de qualquer tipo ou geleia real nos espaços destacados abaixo do espécime. Esses itens são consumidos quando você clica na seta para fornecer dicas no jogo — quanto mais complexo o espécime, mais abelhas são necessárias para obter uma dica."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao completar o minigame, você $(l)pesquisará$() uma mutação aleatória envolvendo a espécie primária do espécime. Pesquisar uma mutação concede aos apiários $(l)colocados por você$() uma chance fixa de +20% para a mutação ocorrer neles."
+    }
+  ]
+}

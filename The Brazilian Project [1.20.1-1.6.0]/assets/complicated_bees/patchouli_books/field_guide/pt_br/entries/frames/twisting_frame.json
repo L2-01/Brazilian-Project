@@ -1,0 +1,16 @@
+{
+  "name": "Quadro Retorcido",
+  "icon": "complicated_bees:twisting_frame",
+  "category": "complicated_bees:frames",
+  "advancement": "complicated_bees:frame",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Este quadro usa as propriedades mutagênicas da areia das almas para estimular mutações. O uivo constante das almas aprisionadas tende a ter um efeito... negativo nas abelhas ativas, no entanto."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:twisting_frame"
+    }
+  ]
+}

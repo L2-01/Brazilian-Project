@@ -1,0 +1,21 @@
+{
+  "name": "Hoglin",
+  "icon": "minecraft:crimson_fungus",
+  "advancement": "minecraft:story/enter_the_nether",
+  "category": "goety:mutations",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Embora transformar um Porco num Piglin continue um mistério, transformar um num Hoglin só exige um monte de Fungos do Nether e um pouco de selvageria."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_pig_to_hoglin"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:hoglin",
+      "scale": 0.5
+    }
+  ]
+}

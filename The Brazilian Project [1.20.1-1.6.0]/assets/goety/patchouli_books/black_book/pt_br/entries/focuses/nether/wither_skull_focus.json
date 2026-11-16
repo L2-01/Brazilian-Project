@@ -1,0 +1,24 @@
+{
+  "name": "Foco de Crânio de Wither",
+  "icon": "goety:wither_skull_focus",
+  "category": "goety:focuses/nether",
+  "advancement": "goety:goety/kill_a_apostle",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O sangue profano do emissário do Nether permite aprimorar seu Foco de Crânio para replicar os crânios do Wither! Cuidado com suas habilidades destrutivas!"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/wither_skull_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/nether_staff)Cajado do Nether$() dispara mais dois crânios do wither."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:wither_skull_focus": 1
+  }
+}

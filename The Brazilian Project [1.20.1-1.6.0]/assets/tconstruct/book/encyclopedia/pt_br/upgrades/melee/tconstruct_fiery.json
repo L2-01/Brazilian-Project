@@ -1,0 +1,15 @@
+{
+  "modifier_id": "tconstruct:fiery",
+  "text": [
+    {
+      "text": "Faz mobs atacados queimarem por 5 segundos por nível."
+    }
+  ],
+  "more_text_space": true,
+  "tool_filter": "tconstruct:modifiable/melee",
+  "effects": [
+    "Pode aplicar níveis incrementalmente",
+    "Máximo de 5 níveis",
+    "Exige 1 espaço de aprimoramento por nível"
+  ]
+}

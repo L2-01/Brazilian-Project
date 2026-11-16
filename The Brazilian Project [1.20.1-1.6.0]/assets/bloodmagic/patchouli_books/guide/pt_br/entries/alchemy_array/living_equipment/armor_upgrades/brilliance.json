@@ -1,0 +1,17 @@
+{
+  "name": "Brilhância",
+  "icon": "minecraft:diamond",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Brilhância",
+      "recipe": "bloodmagic:alchemytable/upgrade_brilliance",
+      "text": "Efeito: Melhora sua defesa de armadura. Máximo de +5 Armadura e +8 Resistência. $(br2)Treinado por: criar um tomo vivo na Mesa de Alquimia. Cada tomo adiciona 1 nível de Brilhância. $(br2)Nível máximo: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:diamond_protect"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Ritual do Céu",
+  "icon": "minecraft:feather",
+  "category": "goety:rituals",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Requisitos: $(li)Altar na altura de 128 Blocos ou acima $(br)$(l)OU$()$() $(li)8 Blocos de Mármore $(li)16 Azulejos de Jade $(li)4 Blocos de Ouro Recuados"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety:textures/gui/entries/sky_ritual.png"
+      ],
+      "border": true,
+      "text": "Um exemplo de como o ritual pode ser disposto se colocado abaixo do nível de altura."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao pôr o Altar bem alto no ar, você pode dominar os próprios ventos e o céu para alimentar suas magias."
+    }
+  ]
+}

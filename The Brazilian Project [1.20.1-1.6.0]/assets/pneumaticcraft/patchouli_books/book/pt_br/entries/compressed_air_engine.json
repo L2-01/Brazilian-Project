@@ -1,0 +1,17 @@
+{
+  "name": "Motor de Ar Comprimido",
+  "icon": "compressedcreativity:compressed_air_engine",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O $(item)Motor de Ar Comprimido$() é uma máquina que usa ar pressurizado para criar força rotacional. Ele usa ar independentemente da pressão e do seu estado de funcionamento, então garanta que ele não esteja desperdiçando ar!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "compressedcreativity:crafting/compressed_air_engine",
+      "text": "Fabricando um $(item)Motor de Ar Comprimido$()"
+    }
+  ]
+}

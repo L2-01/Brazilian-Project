@@ -1,0 +1,11 @@
+{
+    "category": "irregular_implements:filter",
+    "icon": "irregular_implements:location_filter",
+    "name": "Filtro de Localização",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Filtro de Localização$() permite definir uma localização, que então pode ser usada por outros itens e blocos para referenciá-la.$(br2)Defina a localização usando o Filtro no bloco."
+        }
+    ]
+}

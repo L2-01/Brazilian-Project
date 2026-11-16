@@ -1,0 +1,38 @@
+{
+  "name": "Vizires",
+  "icon": "goety:soul_ruby",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_vizier",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um dos Illagers de mais alta patente, os Vizires parecem possuir um rubi poderoso que amplifica feitiços e magia."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:vizier",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Em batalha, eles avançam sobre seu alvo com uma Espada de Ferro várias vezes antes de invocar Presas sob seus pés. Quando ferido, um Irk será invocado para defender seu mestre, um primo de longa distância do Obsessor."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:irk"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Uma vez ferido o suficiente, ou havendo muitos Irks ao redor, o Vizir lançará um feitiço que drenará a força vital de todos os Irks próximos, curando-o no processo."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:soul_ruby",
+      "title": "Rubi de Almas",
+      "text": "Quando morto, seu assassino será atingido por Mau Presságio em seu nível mais alto. Há boatos de que os Vizires concederiam fragmentos de seu poderoso rubi a certos Invocadores."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:soul_ruby": 5
+  }
+}

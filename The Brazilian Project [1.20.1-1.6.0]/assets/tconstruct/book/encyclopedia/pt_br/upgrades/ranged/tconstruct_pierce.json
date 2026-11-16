@@ -1,0 +1,15 @@
+{
+  "modifier_id": "tconstruct:pierce",
+  "text": [
+    {
+      "text": "Flechas anulam 1 ponto de armadura por nível por 4 segundos após o golpe."
+    }
+  ],
+  "more_text_space": true,
+  "tool_filter": "tconstruct:modifiable/ranged",
+  "effects": [
+    "Pode aplicar níveis incrementalmente",
+    "Máximo de 3 níveis",
+    "Exige 1 espaço de aprimoramento por nível"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Quadro Assombrado",
+  "icon": "goety:haunted_painting",
+  "category": "goety:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Combinar um quadro comum com uma Tábua Assombrada permite a criação de Quadros Assombrados. Apesar do nome, eles parecem ser apenas um novo conjunto de quadros e nada mais."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:haunted_painting"
+    }
+  ]
+}

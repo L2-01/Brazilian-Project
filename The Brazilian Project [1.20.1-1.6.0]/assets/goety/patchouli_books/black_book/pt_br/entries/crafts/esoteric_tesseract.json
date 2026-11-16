@@ -1,0 +1,26 @@
+{
+  "name": "Tesserato Esotérico",
+  "icon": "goety:esoteric_tesseract",
+  "category": "goety:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cansado de Servos se perdendo no caminho até você, e/ou de usar Focos de Chamado e de Tropa de longe, você desejou desesperadamente poder simplesmente colocar seus servos no bolso para soltá-los onde quisesse."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Após incontáveis dias de pesquisa e experimentação, você criou uma caixa estranha que realiza seu desejo. Clicando com o botão esquerdo num dos seus servos com ela, ela o conterá instantaneamente. Segurar o botão direito puxará lentamente seus servos para fora dela, mas consumirá durabilidade, deixando-a inutilizável até ser reparada, o que pode ser feito numa Bigorna com Pérolas de Ender. Ela pode conter vários servos e é imune a queimar em fogo e lava. Se for destruída enquanto estiver em forma arremessada, libertará todos os servos dentro dela."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:esoteric_tesseract"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Há algumas condições quando se trata de armazenar certos tipos de servos. Alguns servos ocupam mais de um espaço dentro do tesserato, dependendo de seu tamanho (e de estarem devidamente etiquetados). Servos de vida limitada terão sua expectativa de vida pausada quando armazenados no tesserato."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:esoteric_tesseract": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Trilho de Desvio",
+  "icon": "railcraft:iron_turnout_track",
+  "category": "railcraft:tracks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Trilhos de Desvio permitem mover carrinhos de uma linha de trilho para outra. Diferem dos desvios do Minecraft vanilla por permitirem ir reto ou virar, em vez de virar só para a esquerda ou direita."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Porém, não podem ser operados diretamente por redstone. Para isso, você precisa de um Motor de Desvio. O Motor de Desvio deve ser colocado no lado oposto do desvio. Alternativamente, se você só quer um desvio manual, pode usar uma Alavanca de Desvio.$(br2)Carrinhos vindo da Linha Divergente farão o desvio abrir temporariamente independentemente de sua configuração atual, permitindo que atravessem o desvio sem precisar realinhá-lo manualmente."
+    }
+  ]
+}

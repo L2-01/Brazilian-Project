@@ -1,0 +1,20 @@
+{
+  "name": "Mutações",
+  "icon": "minecraft:nether_wart",
+  "category": "complicated_bees:genetics",
+  "advancement": "complicated_bees:apiary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Algumas espécies de abelha, quando cruzadas com outras, resultam em uma espécie totalmente nova! Geralmente essas abelhas aparecem como híbridas com uma das espécies-mãe, mas ocasionalmente você pode ter sorte e encontrar uma mutação de raça pura."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando um descendente sofre mutação, um cromossomo inteiro (metade da estrutura genética da abelha) é completamente substituído pelo cromossomo 'puro' da espécie resultante. Isso significa que você pode obter uma geração espontânea de novos traços — novos efeitos de abelha, tolerâncias de temperatura, velocidades de trabalho e muito mais."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Cruze cuidadosamente essas abelhas mutadas com seu estoque genético atual para obter mais! Lembre-se de que algumas espécies são recessivas e exigirão mais esforço para reproduzir com fidelidade.$(br2)Além disso, algumas mutações precisam de condições especiais antes de acontecer! Confira a $(l:complicated_bees:machines/apid_library)Biblioteca Ápida$() ou passe o cursor sobre a chance de mutação em um navegador de receitas para ver quais são essas condições."
+    }
+  ]
+}

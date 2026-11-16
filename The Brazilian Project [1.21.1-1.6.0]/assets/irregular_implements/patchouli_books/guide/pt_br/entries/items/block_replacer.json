@@ -1,0 +1,19 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:block_replacer",
+    "name": "Substituidor de Blocos",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Substituidor de Blocos$() permite substituir rapidamente blocos no mundo por blocos guardados no item.$(br2)Para guardar um bloco no Substituidor, clique com o botão direito na pilha de blocos do seu inventário sobre o espaço em que o Substituidor de Blocos está, da mesma forma que você usaria um Fardo."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Você pode esvaziar o Substituidor clicando com o botão direito na pilha do Substituidor sobre um espaço vazio do inventário.$(br2)Usar o item num bloco do mundo quebrará aquele bloco e colocará um bloco guardado aleatório em seu lugar."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Blocos com a tag de bloco #irregular_implements:block_replacer_blacklist não podem ser substituídos com o Substituidor de Blocos."
+        }
+    ]
+}

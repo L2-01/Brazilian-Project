@@ -1,0 +1,19 @@
+{
+  "name": "Selo de Supressão",
+  "icon": "bloodmagic:sigilofsuppression",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(item)Selo de Supressão$(), quando ativado pressionando [$(k:use)], obliterará temporariamente todos os fluidos num raio de aproximadamente 6 blocos do seu portador. Pouco depois de se afastar do líquido em questão, ele retornará como se nunca tivesse saído. Embora isso facilite muito explorar os oceanos de lava do Nether, cuidado ao pular em poças d'água profundas com ele ativo!"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Reagente de Supressão",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_suppression",
+      "array.heading": "Selo de Supressão",
+      "array.recipe": "bloodmagic:array/suppressionsigil",
+      "array.text": "$(italic)Melhor que um Selo do Vazio!"
+    }
+  ]
+}

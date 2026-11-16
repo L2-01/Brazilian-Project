@@ -1,0 +1,22 @@
+{
+  "name": "Foco Detonante",
+  "icon": "goety:blasting_focus",
+  "category": "goety:focuses/void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Apesar do nome, o foco não detona nada. Porém, ele invoca $(l:summons/enderling_servants#blastling)criaturas que detonam salvas de uma gosma de impacto pesado$()."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/blasting_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/void_staff)Cajado do Vazio$() invoca mais detonantes de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:blasting_focus": 1
+  }
+}

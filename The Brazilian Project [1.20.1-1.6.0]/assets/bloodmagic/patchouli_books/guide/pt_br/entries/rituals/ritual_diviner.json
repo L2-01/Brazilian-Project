@@ -1,0 +1,57 @@
+{
+  "name": "Adivinhador de Ritual",
+  "icon": "bloodmagic:ritualdiviner",
+  "category": "bloodmagic:rituals",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Criar rituais é um trabalho intricado; mesmo tendo as $(item)Ferramentas de Inscrição$() corretas, você não pode simplesmente sair colocando inscrições rúnicas de qualquer jeito e esperar que algo aconteça. Por sorte, o $(item)Adivinhador de Ritual$() está aqui para ajudar. $(br2)Segure [$(k:sneak)] e pressione [$(k:use)] ou [$(k:attack)] para alternar entre os rituais disponíveis em ambas as direções."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você também pode mudar a direção que o ritual completo ficará virado pressionando [$(k:use)]. Isso só afetará um pequeno número de rituais, como o $(l:bloodmagic:rituals/ritual_list/ritual_speed)Ritual da Velocidade$(), pois a maioria dos rituais é simétrica."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ritual_diviner_0",
+      "text": "basta tocar [$(k:use)] enquanto olha para uma $(item)Pedra de Ritual Mestre$() para fazer o Adivinhador construir o ritual atualmente selecionado a partir de quaisquer $(item)Pedras de Ritual$() que você esteja carregando. É quase como mágica!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Adivinhador de Ritual pode quebrar blocos substituíveis (como capim alto, neve, etc.), mas não sólidos como pedra ou terra, então certifique-se de que a área está livre antes de começar a construção, ou o $(l:bloodmagic:rituals/activation_crystals)Cristal de Ativação$() não conseguirá fazer seu trabalho. $(br2)Vale notar também que o adivinhador de ritual básico só consegue criar alguns dos rituais mais básicos. Se quiser o máximo do seu adivinhador, terá que melhorá-lo com $(dusk)Ferramentas de Inscrição do Entardecer$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ritual_diviner_1",
+      "anchor": "dusk",
+      "text": "Ao contrário das Ferramentas de Inscrição Elemental, o Adivinhador de Ritual e o Adivinhador de Ritual [Entardecer] nunca acabam."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Adivinhador de Ritual base exige uma de cada $(item)Ferramenta de Inscrição Elemental$() para sua construção, e portanto um $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(/l) de tier 3. $(br2)As quatro Ferramentas de Inscrição Elemental base podem ser criadas no seu Altar por $(blood)1.000 LP$() cada, conforme definido nas páginas seguintes. O Adivinhador de Ritual [Entardecer] similarmente requer um Altar de Tier 4 para fazer duas Ferramentas de Inscrição Elemental do Entardecer, ao custo de $(blood)2.000 LP$() cada."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você também pode usar essas ferramentas para inscrever runas à mão, mas isso só deveria ser usado seriamente para fins decorativos, pois é lento e impreciso."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Ferramenta de Inscrição: Ar",
+      "a.recipe": "bloodmagic:altar/air_tool",
+      "b.heading": "Ferramenta de Inscrição: Fogo",
+      "b.recipe": "bloodmagic:altar/fire_tool"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Ferramenta de Inscrição: Água",
+      "a.recipe": "bloodmagic:altar/water_tool",
+      "b.heading": "Ferramenta de Inscrição: Terra",
+      "b.recipe": "bloodmagic:altar/earth_tool"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Ferramenta de Inscrição: Entardecer",
+      "recipe": "bloodmagic:altar/dusk_tool"
+    }
+  ]
+}

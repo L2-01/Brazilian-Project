@@ -1,0 +1,22 @@
+{
+    "name": "Canais",
+    "icon": "minecraft:repeater",
+    "category": "mimi:7midi",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A maioria dos dispositivos MIDI pode enviar e receber dados para várias trilhas diferentes — chamadas de Canais — para permitir que toquem vários instrumentos diferentes ao mesmo tempo.$(br2)A maioria dos dispositivos suporta até 16 canais, cada um podendo gerenciar seu próprio programa, notas, volume e mais, independentemente dos outros canais."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Uso de Canais",
+            "text": "Embora o padrão MIDI defina 16 canais, nem todo dispositivo ou sequência usará todos eles.$(br2)Alguns controladores, como um piano digital, podem enviar dados apenas para um único canal. Por outro lado, algumas sequências MIDI podem usar todos os 16 ao mesmo tempo para criar música complexa."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Canal 10",
+            "text": "O padrão MIDI diz que o canal 10 deve ser usado apenas para percussão.$(br2)A percussão tem um número enorme de sons únicos (frequentemente um por nota), em vez do mesmo som com um tom diferente (como um piano), então ela precisa ser tratada de forma especial.$(br2)Como resultado, quase todas as sequências MIDI usam o canal 10 para percussão e nada mais."
+        }
+    ],
+    "sortnum": 3
+}

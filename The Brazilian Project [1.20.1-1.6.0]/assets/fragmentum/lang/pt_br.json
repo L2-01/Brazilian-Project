@@ -1,0 +1,102 @@
+{
+  "config.fragmentum.anyReloadWrapper": "%s\n\n§6⚠ Esta opção requer um recarregamento do mundo ou o comando /reload para ser aplicada!",
+  "config.fragmentum.worldReloadWrapper": "%s\n\n§6⚠ Esta opção requer um recarregamento do mundo para ser aplicada!",
+  "config.fragmentum.format.percentage": "%s%%",
+  "config.fragmentum.format.seconds": "%s segundo(s)",
+  "config.fragmentum.format.minutes": "%s minuto(s)",
+  "config.fragmentum.format.blocks": "%s bloco(s)",
+  "config.fragmentum.format.chunks": "%s chunk(s)",
+  "config.fragmentum.format.potency.0": "I",
+  "config.fragmentum.format.potency.1": "II",
+  "config.fragmentum.format.potency.2": "III",
+  "config.fragmentum.format.potency.3": "VI",
+  "config.fragmentum.format.potency.4": "V",
+  "config.fragmentum.format.potency.5": "VI",
+  "config.fragmentum.format.potency.6": "VII",
+  "config.fragmentum.format.potency.7": "VIII",
+  "config.fragmentum.format.potency.8": "IX",
+  "config.fragmentum.format.potency.9": "X",
+
+
+
+
+
+
+  "item.fragmentum.bladeofthearcaneeclipse": "Lâmina do Eclipse Arcano",
+  "item.fragmentum.datacrystal": "Cristal de Dados",
+  "item.fragmentum.elixiroflife": "Elixir da Vida",
+  "item.fragmentum.finaldraconicmatrix": "Matriz Dracônica Final",
+  "item.fragmentum.floseternum": "Flos Eternum",
+  "item.fragmentum.heartofthevoid": "Coração do Vazio",
+  "item.fragmentum.coreofindustrialperfection": "Núcleo da Perfeição",
+  "item.fragmentum.machinaexastris": "Machina Ex Astris",
+  "item.fragmentum.manuscriptofthevoid": "Manuscrito do Vazio",
+  "item.fragmentum.rocketemblem": "Emblema de Foguete",
+  "item.fragmentum.ultimatecapacitor": "Capacitor Supremo",
+  "advancements.the_void_stares_back.descr": "Em suas mãos está o silêncio de mil mundos.",
+  "advancements.the_void_stares_back.title": "O Vazio te Observa de Volta",
+  "advancements.encrypted_legacy.title": "Legado Criptografado",
+  "advancements.encrypted_legacy.descr": "Um cristal pulsante com dados infinitos.",
+  "advancements.boundto_existence.descr": "O salto final antes da eternidade. ",
+  "advancements.boundto_existence.title": "Preso à Existência",
+  "advancements.singularity_core.descr": "Essência dracônica condensada à perfeição.",
+  "advancements.singularity_core.title": "Núcleo da Singularidade",
+  "advancements.bloom_eternal.descr": "Uma flor intocada pelo tempo. ",
+  "advancements.bloom_eternal.title": "Florescer Eterno",
+  "advancements.pulseof_machines.title": "Pulso Mecânico",
+  "advancements.pulseof_machines.descr": "O melhor circuito conhecido pela indústria.",
+  "advancements.celestial_engine.title": "Motor Celestial",
+  "advancements.celestial_engine.descr": "Feito com os fragmentos de estrelas mortas. ",
+  "advancements.whispersofthe_first.title": "Sussurros dos Primeiros",
+  "advancements.whispersofthe_first.descr": "Seu conhecimento ainda ecoa. ",
+  "advancements.starbound_sigil.title": "Sigilo Estelar",
+  "advancements.starbound_sigil.descr": "A marca daqueles que deixaram a Terra para trás. ",
+  "advancements.beyond_overcharged.descr": "Energia condensada em vontade pura.",
+  "advancements.beyond_overcharged.title": "Mais que Sobrecarregado",
+  "advancements.echo_slash.title": "Corte Ecoante",
+  "advancements.echo_slash.descr": "Feito de magia esquecida e almas.",
+  "item.fragmentum.auraforgeheart": "Coração Forja-Aura",
+  "advancements.coreof_contradiction.descr": "Una forças opostas em uma forma perfeita.",
+  "advancements.coreof_contradiction.title": "Núcleo da Contradição",
+  "item.fragmentum.creativeamalgamation": "Amálgama Criativa",
+  "advancements.ultimate_fusion.title": "Fusão Perfeita",
+  "advancements.ultimate_fusion.descr": "Fabrique a Amálgama Perfeita, o pináculo da criação sem limites.",
+
+
+
+
+
+
+  "yacl.control.boolean.true": "Verdadeiro",
+  "yacl.control.boolean.false": "Falso",
+
+  "yacl.control.action.execute": "EXECUTAR",
+
+  "yacl.control.color.color_picker_title": "Seletor de Cores",
+  "yacl.control.dropdown.dropdown_widget_title": "Seletor Suspenso",
+
+  "yacl.control.text.blank": "<vazio>",
+
+  "yacl.gui.save": "Salvar Mudanças",
+  "yacl.gui.save.tooltip": "Tornar as mudanças permanentes.",
+  "yacl.gui.finished.tooltip": "Fecha a Interface.",
+  "yacl.gui.cancel.tooltip": "Esquece as mudanças pendentes e fecha a Interface.",
+  "yacl.gui.reset.tooltip": "Redefine todas as opções para o valor padrão. (Isso é reversível!)",
+  "yacl.gui.undo": "Desfazer",
+  "yacl.gui.undo.tooltip": "Reverte todas as opções a como elas estavam antes de serem editadas.",
+  "yacl.gui.fail_apply": "Falha ao aplicar",
+  "yacl.gui.fail_apply.tooltip": "Houve um erro e as mudanças não puderam ser aplicadas.",
+  "yacl.gui.save_before_exit": "Salve antes de sair!",
+  "yacl.gui.save_before_exit.tooltip": "Salve ou cancele para sair da Interface.",
+
+  "yacl.list.move_up": "Mover para cima",
+  "yacl.list.move_down": "Mover para baixo",
+  "yacl.list.remove": "Remover",
+  "yacl.list.add_top": "Novo Registro",
+  "yacl.list.empty": "A lista está vazia",
+
+  "yacl.restart.title": "A configuração requer reiniciar o jogo!",
+  "yacl.restart.message": "Uma ou mais das opções necessita que você reinicie o jogo para aplicar as mudanças.",
+  "yacl.restart.yes": "Fechar o Minecraft",
+  "yacl.restart.no": "Ignorar"
+}

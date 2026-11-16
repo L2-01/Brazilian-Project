@@ -1,0 +1,31 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:oak_platform",
+    "name": "Plataformas",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(d)Plataformas$()$(br2)As $(d)Plataformas$() são sólidas por cima, mas não por baixo nem pelas laterais.$(br2)Além disso, agachar permite que você atravesse-as."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(d)Plataforma Super Lubrificante$()$(br2)A $(d)Plataforma Super Lubrificante$() funciona da mesma forma, mas age como os outros $(l:irregular_implements:blocks/super_lubricated_blocks)blocos Super Lubrificantes$(/l) e anula todo o atrito.$(br2)Isso a torna muito útil para transportar itens."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(d)Plataforma de Super Lubrificante Filtrada$()$(br2)A $(d)Plataforma de Super Lubrificante Filtrada$() funciona da mesma forma, mas pode conter um $(l:irregular_implements:filter/item_filter)Filtro de Item$(/l).$(br2)Qualquer coisa que corresponda ao filtro cairá através da plataforma."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:oak_platform"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:super_lubricant_platform"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:filtered_super_lubricant_platform"
+        }
+    ]
+}

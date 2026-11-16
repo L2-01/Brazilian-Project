@@ -1,0 +1,79 @@
+{
+  "name": "Servos da Acrópole",
+  "icon": "cataclysm:lacrima",
+  "category": "goety:cataclysm/summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Uma coleção de criaturas marinhas encontradas no santuário de Scylla que você conseguiu invocar e vincular ao seu comando."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:urchinkin_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_urchinkin_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Cobertas de espinhos venenosos, essas criaturinhas podem ser um enorme estorvo, especialmente se seu invocador vestir um Manto Selvagem, fazendo seus espinhos envenenarem até os mortos-vivos."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:symbiocto_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_drowned_servant_to_drowned_host"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Uma espécie estranha de polvos que tem uma relação simbiótica com os Afogados: eles se agarram às cabeças deles e disparam poderosos jatos de tinta nos inimigos seus e de seus hospedeiros. Se o Symbiocto não estiver preso a um Afogado, ele pode ser ordenado a se prender a outro. Ou, se preferir, clicar num deles com o botão direito e a mão vazia, enquanto agachado, fará com que se prenda a você. Clique neles com o botão direito sem agachar e com a mão vazia para desprendê-los."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:cindaria_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_cindaria_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Essas criaturas régias não só são capazes de disparar lanças de água nos inimigos, como seu ataque corpo a corpo atinge vários alvos e causa muito dano."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:hippocamtus",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_hippocamtus_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Guardiões da Acrópole, esses guerreiros marítimos não só conseguem atacar seus inimigos de distâncias maiores, como também aparam ataques, atordoando-os por tempo suficiente para apunhalá-los rapidamente com suas lanças."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:clawdian",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_clawdian_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Esses poderosos gigantes superam muitos inimigos e servos de calibre semelhante, embora tenham o triste hábito de se lançar de precipícios como seus colegas Aptrgangr. De longe, o crustáceo agarra pedaços do terreno e os arremessa no alvo. Ele também tem a habilidade hidrocinética de invocar ondas contra seus inimigos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Essas criaturas podem ser curadas vestindo um Manto Abissal ou alimentando-as com peixe."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Vida Instantânea",
+  "icon": "minecraft:glistering_melon_slice",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Vida Instantânea$() cura o alvo em 4 pontos por nível. Se o alvo for $(thing)Morto-vivo$(), será ferido em 4 pontos por nível em vez disso."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Vida Instantânea",
+      "a.recipe": "bloodmagic:flask/health",
+      "b.heading": "Vida Instantânea II",
+      "b.recipe": "bloodmagic:flask/potency_health",
+      "c.heading": "Vida Instantânea III",
+      "c.recipe": "bloodmagic:flask/potency_average_health"
+    }
+  ]
+}

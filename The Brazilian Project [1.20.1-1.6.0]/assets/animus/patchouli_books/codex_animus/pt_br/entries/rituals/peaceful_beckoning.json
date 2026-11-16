@@ -1,0 +1,22 @@
+{
+  "name": "guide.animus.entry.ritual_peaceful_beckoning",
+  "icon": "bloodmagic:masterritualstone",
+  "category": "animus:rituals",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Invoque criaturas pacíficas do éter. Este ritual invoca criaturas passivas na área ao redor da Pedra de Ritual Mestra, perfeito para povoar fazendas ou simplesmente encher o mundo de vida."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos e Detalhes",
+      "text": "$(bold)Ativação:$() 5.000 LP$(br)$(bold)Renovação:$() 1.000 LP (configurável)$(br)$(bold)Tempo de Renovação:$() 400 tiques (20 segundos)$(br2)$(bold)Efeito:$() Invoca criaturas pacíficas aleatoriamente num raio de 4-8 blocos da pedra de ritual.$(br2)$(bold)Tipos de Criaturas:$() Todas as criaturas pacíficas (categorias CREATURE, AMBIENT, WATER_CREATURE, WATER_AMBIENT)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Padrão da Runa",
+      "text": "Construa o ritual com estas runas:$(br2)$(bold)Camada 0 (nível do chão):$()$(li)Runas de Terra nas posições$(li)Runas de Água para estabilidade$(br2)$(bold)Camadas 1-2:$()$(li)Mistura de Terra, Água e Ar$(br2)Consulte o adivinhador de rituais ou a documentação do mod para o padrão exato."
+    }
+  ]
+}

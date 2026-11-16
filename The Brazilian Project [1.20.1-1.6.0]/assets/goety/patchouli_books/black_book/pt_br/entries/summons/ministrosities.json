@@ -1,0 +1,35 @@
+{
+  "name": "Mini-Monstruosidades",
+  "icon": "minecraft:stone",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um golemzinho que não só corre por aí empolgado, como também rasga inimigos com sua mandíbula de pedra."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_ministrosity_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:stone_ministrosity"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pode-se invocar essas criaturas através de um $(l:focuses/geomancy/ministrous_focus)Foco de Mini-Monstruosidade$(). Elas podem ser curadas clicando nelas com o botão direito usando Pedra."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_redstone_ministrosity_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:redstone_ministrosity"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Invocadas enquanto veste um $(l:crafts/garment/geo_robe)Manto Geomante$() ou por ritual, essas mini-monstruosidades são mais fortes que suas contrapartes de pedra e são imunes ao fogo."
+    }
+  ]
+}

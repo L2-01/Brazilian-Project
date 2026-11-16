@@ -1,0 +1,28 @@
+{
+  "itemGroup.applied_oritech": "Applied Oritech",
+
+  "block.applied_oritech.me_dock": "Doca ME",
+  "block.applied_oritech.me_pattern_provider_addon": "Complemento de Provedor de Padrões ME",
+  "block.applied_oritech.me_interface_addon": "Complemento de Interface ME",
+  "block.applied_oritech.me_extended_pattern_provider_addon": "Complemento de Provedor de Padrões ME Estendido",
+  "block.applied_oritech.me_extended_interface_addon": "Complemento de Interface ME Estendida",
+  "tooltip.applied_oritech.me_extended_pattern_provider_addon": "Uma versão em complemento de máquina do Oritech do Provedor de Padrões ME Estendido.",
+  "tooltip.applied_oritech.me_extended_interface_addon": "Uma versão em complemento de máquina do Oritech da Interface ME Estendida.",
+
+  "message.applied_oritech.not_attached": "Não conectado a uma máquina.",
+  "message.applied_oritech.no_dock": "Nenhuma Doca ME nesta máquina.",
+  "message.applied_oritech.dock_online": "Doca ME online: %s módulos complementares conectados.",
+  "message.applied_oritech.dock_offline": "Doca ME offline: verifique a energia e os canais da rede.",
+  "gui.applied_oritech.auto_return": "Retorno Automático de Saída",
+  "gui.applied_oritech.auto_return_state": "Retorno Automático de Saída: %s",
+  "message.applied_oritech.auto_return": "Retornar resultados para a rede: %s",
+  "message.applied_oritech.toggle_on": "ligado",
+  "message.applied_oritech.toggle_off": "desligado",
+
+  "tooltip.applied_oritech.me_dock": "Conecta os módulos complementares ME desta máquina a uma rede ME.",
+  "tooltip.applied_oritech.me_pattern_provider_addon": "Uma versão em complemento de máquina do Oritech do Provedor de Padrões ME.",
+  "tooltip.applied_oritech.me_interface_addon": "Uma versão em complemento de máquina do Oritech da Interface ME.",
+  "config.jade.plugin_applied_oritech.grid_node_state": "Estado da Rede do Applied Oritech",
+  "config.jade.plugin_applied_oritech.pattern_provider": "Provedor de Padrões do Applied Oritech",
+  "config.jade.plugin_applied_oritech.auto_return": "Retorno Automático de Saída do Applied Oritech"
+}

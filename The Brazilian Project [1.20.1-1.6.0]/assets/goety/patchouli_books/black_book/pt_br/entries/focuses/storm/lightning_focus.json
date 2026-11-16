@@ -1,0 +1,18 @@
+{
+  "name": "Foco de Relâmpago",
+  "icon": "goety:lightning_focus",
+  "category": "goety:focuses/storm",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Finalmente, com este foco em mãos, você pode invocar a fúria dos céus sobre um inimigo ou um local! Quando não conjurado com o $(l:crafts/staff/storm_staff)Cajado de Tempestade$(), o relâmpago invocado será afetado por Para-Raios."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/lightning_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:lightning_focus": 1
+  }
+}

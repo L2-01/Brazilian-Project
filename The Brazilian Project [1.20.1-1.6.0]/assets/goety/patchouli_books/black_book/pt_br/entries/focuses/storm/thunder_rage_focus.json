@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Fúria do Trovão",
+  "icon": "goety_cataclysm:thunder_rage_focus",
+  "category": "goety:cataclysm/focuses/storm",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Replicando a fúria de Scylla, este feitiço exige conjuração contínua: o conjurador emite turbilhões e nuvens de tempestade ao seu redor, antes de desencadear uma saraivada de lanças de água e de raios das nuvens acima, na direção para onde olha."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/thunder_rage_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/storm_staff)Cajado de Tempestade$() dispara mais lanças de raios e faz com que elas causem dano extra com base na vida máxima do alvo."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:thunder_rage_focus": 1
+  }
+}

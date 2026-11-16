@@ -1,0 +1,17 @@
+{
+  "name": "Balcão",
+  "icon": "caupona:brick_counter",
+  "category": "caupona:intro",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/brick_counter",
+      "text": "Balcões são instalações de cozinha. Como outras instalações, têm variantes de diferentes $(l:intro/kitchen_materials)materiais$(/l)."
+    },
+    {
+      "type": "text",
+      "text": "Servem apenas para decoração, para conectar $(l:intro/stove)fogões$(/l) e $(l:intro/counter_with_dolium)balcões com dólios$(/l), e outras instalações de cozinha."
+    }
+  ]
+}

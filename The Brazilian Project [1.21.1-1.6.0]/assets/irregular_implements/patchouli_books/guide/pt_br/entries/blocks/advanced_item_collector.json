@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:advanced_item_collector",
+    "name": "Coletor de Itens Avançado",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Coletor de Itens Avançado$() é uma versão aprimorada do $(l:irregular_implements:blocks/item_collector)Coletor de Itens$(/l). Seu volume de coleta é configurável, indo de 0 a 10 blocos em cada direção.$(br2)Cada eixo (X/Y/Z) também pode ser configurado independentemente."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Além disso, você pode inserir um $(l:irregular_implements:filter/item_filter)Filtro de Item$(/l), e ele coletará apenas itens que correspondam ao filtro."
+        }
+    ]
+}

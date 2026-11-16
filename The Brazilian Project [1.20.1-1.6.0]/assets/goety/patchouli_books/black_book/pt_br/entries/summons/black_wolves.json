@@ -1,0 +1,84 @@
+{
+  "name": "Lobos Pretos",
+  "icon": "minecraft:bone",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Considerados contos de fadas, esses presságios de morte são bem reais e leais ao seu invocador."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pode-se invocar um lobo preto leal através de um $(l:focuses/wild/hunting_focus)Foco de Caça$(), ou por um ritual que invoca um sem vida limitada."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_black_wolf_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:black_wolf",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clicar num Lobo Preto leal com o botão direito usando carne o curará."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Invocar Lobos Pretos por certos meios também pode gerar variantes da besta ou até outros tipos de cães."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:skeleton_wolf",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Uma versão morta-viva dos lobos comuns, embora, ao contrário deles, esses lobos possam emitir um uivo que aumenta o dano de seus aliados esqueleto. Diferente das outras duas variantes, esses lobos não ficam invisíveis ao caçar sua presa. São invocados conjurando o $(l:focuses/wild/hunting_focus)feitiço de Caça$() com um $(l:crafts/staff/necro_staff)Cajado Necrótico$(), ou por outro ritual."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_skeleton_wolf_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:winter_wolf",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Esses caninos de pelagem branca são um terror para quem vive em áreas frias, com suas presas geladas e resistência ao frio. São invocados conjurando o $(l:focuses/wild/hunting_focus)feitiço de Caça$() com um $(l:crafts/staff/frost_staff)Cajado de Gelo$(), invocados em biomas com neve, ou por outro ritual."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_winter_wolf_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:stormhound",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Lendas de cães diabólicos que aparecem num estalo de trovão são abundantes; agora suas mandíbulas de relâmpago são suas para comandar. São invocados conjurando o $(l:focuses/wild/hunting_focus)feitiço de Caça$() com um $(l:crafts/staff/frost_staff)Cajado de Tempestade$(), invocados numa tempestade a céu aberto, ou por outro ritual."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_stormhound_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:hellhound",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você ouviu contos e mitos de cães arrastando os condenados para os fogos do Nether; talvez seja hora de pôr esses cães na coleira. São invocados conjurando o $(l:focuses/wild/hunting_focus)feitiço de Caça$() com um $(l:crafts/staff/nether_staff)Cajado do Nether$(), invocados em biomas do Nether, ou por outro ritual."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_hellhound_thrall"
+    }
+  ]
+}

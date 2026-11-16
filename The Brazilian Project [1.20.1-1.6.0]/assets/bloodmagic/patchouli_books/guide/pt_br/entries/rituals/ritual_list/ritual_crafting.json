@@ -1,0 +1,120 @@
+{
+  "name": "Ritmo da Bigorna Batente",
+  "icon": "minecraft:crafting_table",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ritmo da Bigorna Batente",
+      "multiblock_id": "bloodmagic:crafting",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crafting",
+      "text_overrides": [
+        [
+          "Item Filter",
+          "l:bloodmagic:demon_will/item_routing/standard_item_filter"
+        ]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O $(thing)Ritmo da Bigorna Batente$() é um ritual poderoso e versátil, permitindo autocriar receitas padrão de criação junto com receitas que usam sua $(l:bloodmagic:alchemy_table/alchemy_table)Mesa de Alquimia$() ou $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Forja do Fogo Infernal$() (se devidamente aumentado). Porém, pode ser um pouco complexo, então segue um tutorial para montá-lo. $(br2)Cada rit"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Primeiro, precisamos especificar a receita que queremos que o ritual crie. Isso é feito usando um Filtro de Itens. $(br2)Múltiplos tipos de Filtro de Itens podem ser usados, porém o ritual só aceitará um filtro por vez; quaisquer filtros adicionais serão ignorados."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os seguintes filtros são aceitos: $(li)Filtro de Itens Padrão: especifica exatamente qual item usar em cada slot. $(li)Filtro de Itens por Etiqueta: Usa $(thing)Etiquetas$() para especificar quais itens usar. Ex.: Se uma receita exige qualquer tipo de pedra (mas funciona com andesito, granito, etc.), você pode usar forge:stone no filtro. $(li)Filtro de Itens de Mod: Este tentará usar qualquer item do mod neste slot."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/ritual/autocraft/filter_pickaxe.png"
+      ],
+      "title": "Filtro de Amostra",
+      "border": true,
+      "text": "Um Filtro de Itens Padrão configurado para autocriar $(item)Picaretas de Pedra$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A seguir, o Filtro de Itens deve ser colocado no ritual. Nesta imagem usamos uma $(item)Moldura$(), porém um baú pode ser usado no lugar. Note que se você colocar múltiplos $(item)filtros$() no baú, só o primeiro será usado. $(br2)Por padrão, o baú de Entrada e o de Saída ficam no mesmo lugar; porém, isso pode ser mudado com o $(l:bloodmagic/rituals/ritual_tinkerer)Ajustador de Ritual.$() Isso pode ser útil para receitas que reutilizam componentes, como o seu $(l:bloodmagic:altar/soul_network)Orbe de Sangue.$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/ritual/autocraft/default_placement.png",
+        "bloodmagic:images/entries/ritual/autocraft/optional_placement.png"
+      ],
+      "title": "O Filtro Colocado",
+      "border": true,
+      "text": "Um filtro e baú em locais normais, e um ritual $(l:bloodmagic/rituals/ritual_tinkerer)Ajustado$() com baús de entrada e saída"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se você abastecer o ritual com Will $(steadfast)Resoluta$() ou $(corrosive)Corrosiva$(), o ritual tentará autocriar com uma $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Forja do Fogo Infernal$() ou $(l:bloodmagic:alchemy_table/alchemy_table)Mesa de Alquimia$() vinculada, respectivamente. Essas receitas são todas sem formato, mas se precisar de 2 de um item, terá que especificá-lo duas vezes n"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/ritual/autocraft/catalyst_recipe.png"
+      ],
+      "title": "Filtro de Alquimia",
+      "border": true,
+      "text": "Um filtro configurado para a criação de $(l:bloodmagic:alchemy_table/potions)Catalisadores Simples$()."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "recipeRange",
+      "text_overrides": [
+        [
+          "Item Filter",
+          "l:bloodmagic:demon_will/item_routing/standard_item_filter"
+        ]
+      ],
+      "text": "Suporta Filtros de Itens $(l:bloodmagic:demon_will/item_routing/standard_item_filter)Padrão$(), $(l:bloodmagic:demon_will/item_routing/tag_item_filter)Etiqueta$(), e $(l:bloodmagic:demon_will/item_routing/mod_item_filter)Mod$()."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "inputRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "outputRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "outputFilterRange",
+      "text_overrides": [
+        [
+          "filter",
+          "l:bloodmagic:demon_will/item_routing/standard_item_filter"
+        ]
+      ],
+      "text": "Suporta Filtros de Itens $(l:bloodmagic:demon_will/item_routing/standard_item_filter)Padrão$(), $(l:bloodmagic:demon_will/item_routing/tag_item_filter)Etiqueta$(), e $(l:bloodmagic:demon_will/item_routing/mod_item_filter)Mod$()."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "hellforgedRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "corrosive"
+    }
+  ]
+}

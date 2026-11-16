@@ -1,0 +1,32 @@
+{
+  "name": "guide.animus.entry.ritual_sol",
+  "icon": "minecraft:torch",
+  "category": "animus:rituals",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Bana as trevas. O Ritual de Sol coloca automaticamente fontes de luz em áreas escuras, prevenindo o surgimento de criaturas e iluminando seus arredores. Coloque blocos emissores de luz num baú acima do ritual."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Como Funciona",
+      "text": "O ritual requer um baú (ou qualquer bloco com armazenamento de itens) colocado diretamente acima da Pedra de Ritual Mestra. A cada 5 tiques, o ritual tenta:$(br)1. Encontrar um item-bloco válido no baú$(br)2. Buscar um ponto escuro (nível de luz < 8) com chão sólido abaixo$(br)3. Colocar o bloco$(br)4. Consumir LP pela operação"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Algoritmo de Busca",
+      "text": "O ritual usa uma busca do centro para fora para encontrar pontos de colocação:$(br)$(li)Começa na Pedra de Ritual Mestra$(li)Busca apenas para baixo (nunca acima)$(li)Expande em anéis quadrados: 0, 1, 2... blocos de distância$(li)Busca cada coluna de cima a baixo$(li)Prioriza colocar perto do centro primeiro$(li)Processa até 64 posições por tique$(li)Retoma de onde parou entre tiques$(br2)Isso garante colocação eficiente começando do centro do ritual e descendo."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Sinergia de Luz de Sangue",
+      "text": "$(bold)Recurso Especial:$()$(br)Se você colocar o $(item)Sigilo da Luz de Sangue$() do Blood Magic no baú, o ritual colocará Luzes de Sangue $(bold)sem consumir o sigilo$()!$(br2)Isso permite colocação infinita de luz de sangue usando apenas LP.$(br2)$(italic)Haja luz!$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos e Detalhes",
+      "text": "$(bold)Ativação:$() 1.000 LP$(br)$(bold)Renovação:$() 1 LP por bloco colocado$(br)$(bold)Tempo de Renovação:$() 5 tiques$(br2)$(bold)Alcance Horizontal:$() Configurável (padrão: 32 blocos)$(br)$(bold)Alcance Vertical:$() Configurável (padrão: 64 blocos, -1 para o fundo do mundo)$(br)$(bold)Baú:$() 1 bloco acima do ritual$(br2)Requer pontos escuros (nível de luz < 8) com chão sólido abaixo para colocar blocos."
+    }
+  ]
+}

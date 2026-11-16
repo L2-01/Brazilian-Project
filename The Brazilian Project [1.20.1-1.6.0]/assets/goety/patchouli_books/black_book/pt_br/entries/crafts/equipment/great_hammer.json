@@ -1,0 +1,22 @@
+{
+  "name": "Grande Martelo",
+  "icon": "goety:great_hammer",
+  "category": "goety:crafts/equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ferreiros e soldados usam o Grande Martelo por sua força na forja e na batalha. Se o medidor de recarga de ataque do portador estiver cheio, o martelo atingirá seres num grande raio, embora demore bastante para o medidor se recuperar, o que pode ser mitigado se o portador não segurar nada na mão secundária."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:great_hammer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O martelo pode minerar uma área de 3x3, mas tem velocidade de mineração menor que a de picaretas. Como o martelo é usado para forjar, clicar com o botão direito em um Bloco de Ferro com ele o transformará numa Bigorna bastante danificada. O martelo pode ser reparado em uma bigorna com um Lingote de Ferro."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:great_hammer": 1
+  }
+}

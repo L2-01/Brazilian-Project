@@ -1,0 +1,33 @@
+{
+  "name": "Fantasma Incendiado",
+  "icon": "cataclysm:burning_ashes",
+  "category": "goety:cataclysm/mutations",
+  "advancement": "goety:goety/read_bygone_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Encontrar um Fantasma Incendiado foi uma surpresa. Quem diria que dava para reviver os mortos pelo fogo? Com seu conhecimento sobre blazes e necromancia, você descobriu como ter seu próprio revenant."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_wildfire_to_ignited_revenant"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:ignited_revenant",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O revenant pode ser curado alimentando-o com ossos, varas de blaze ou pó de blaze, e pode se curar passivamente se seu dono vestir uma Capa Necrótica. Se os escudos dele forem quebrados, dar-lhe um Fragmentos de Netherita os restaurará."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_cataclysm:ignited_helm",
+      "text": "Quando extintos, esses revenants flamejantes derrubam seus elmos, que podem possuir um Fogo Selvagem para voltar dos mortos."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:ignited_helm": 4
+  }
+}

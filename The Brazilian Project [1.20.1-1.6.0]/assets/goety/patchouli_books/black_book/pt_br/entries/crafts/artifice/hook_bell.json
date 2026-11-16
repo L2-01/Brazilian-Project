@@ -1,0 +1,22 @@
+{
+  "name": "Sino de Gancho",
+  "icon": "goety:hook_bell",
+  "category": "goety:crafts/artifice",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ao lidar com Invasões, alguns Invasores têm a péssima tendência de cair em buracos, aparecer em lugares no subterrâneo profundo e por aí vai. Após muitas pesquisas, você conseguiu aprimorar o Sino dos Aldeões para não só ter um raio de efeito muito maior, mas também teletransportar qualquer Invasor para perto do Sino se ele estiver a mais de 16 Blocos de distância!"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:hook_bell"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Infelizmente, o novo Sino de Gancho não responde a nenhum sinal de Redstone e só pode ser tocado manualmente ou por projéteis disparados por seres como você."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:hook_bell": 1
+  }
+}

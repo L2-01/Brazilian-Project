@@ -1,0 +1,26 @@
+{
+  "name": "Braseiro Necrótico",
+  "icon": "goety:necro_brazier",
+  "category": "goety:crafts/artifice",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As Profundezas sombrias guardam muita energia Necrótica, como prova a abundância de Sculk que pontilha o sub-bioma. Ao infundir um Braseiro de Sombra com elementos Necróticos, você criou um dispositivo capaz de canalizar as energias sombrias do bioma para criar todos os tipos de itens."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:necro_brazier"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Braseiro Necrótico arde com uma chama verde que parece não ferir os Mortos-Vivos, e só queima se colocado dentro das Profundezas sombrias. O Braseiro aceita vários itens para criar um só, e os itens podem ser colocados manualmente ou jogados em cima dele. Ele não aceitará itens jogados nele enquanto estiver fabricando."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Braseiro Necrótico tirará lentamente Energia de Almas dos $(l:crafts/artifice/soul_candlestick)Castiçais de Almas$() ao redor, só concluindo e cuspindo o item resultante quando tiver absorvido o suficiente, consumindo todos os itens colocados nele. Quebrar todos os $(l:crafts/artifice/soul_candlestick)Castiçais$(), não ter Energia de Almas suficiente deles, ou tentar colocar ou remover um item do Braseiro fará com que ele cuspa todos os seus itens, desperdiçando qualquer Energia de Almas consumida."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:necro_brazier": 1
+  }
+}

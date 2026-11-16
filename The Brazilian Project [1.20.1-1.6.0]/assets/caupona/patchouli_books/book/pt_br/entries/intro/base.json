@@ -1,0 +1,27 @@
+{
+  "name": "Base de Sopa",
+  "icon": "caupona:water_or_stock_based",
+  "category": "caupona:intro",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "As bases não afetam só os tipos de sopa. Algumas bases podem conceder bônus às sopas."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:water",
+      "text": "Água não tem nada de especial e não concede bônus."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:milk",
+      "text": "Leite fornece saciedade extra."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:stock",
+      "text": "Caldo restaura mais fome e fornece maior saciedade."
+    }
+  ]
+}

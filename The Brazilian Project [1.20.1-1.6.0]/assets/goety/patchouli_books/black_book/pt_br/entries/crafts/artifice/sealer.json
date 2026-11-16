@@ -1,0 +1,31 @@
+{
+  "name": "Selador",
+  "icon": "goety:sealer",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/craft_animation_core",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cansado de ladrões e convidados indesejados revirando seus pertences, você descobriu um jeito de impedir tais intrusões. O Selador é um bloco que mantém um recipiente trancável, como baús ou barris, ou uma $(l:world/crypts)Porta de Aparição$(), fechados enquanto estiver ativo."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:sealer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para começar a usá-lo, vincule um $(l:crafts/waystone)Obelisco$() a um recipiente ou porta e coloque-o no Selador clicando nele com o botão direito. Se o Selador já tiver um Obelisco dentro, você pode clicar no bloco com o botão direito de mão vazia para retirá-lo. O recipiente ou porta vinculado deve estar na mesma dimensão e a até 32 blocos do Selador."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Selador requer um sinal de redstone para selar o recipiente ou a porta. Enquanto selado, o recipiente não pode ser aberto e uma Porta de Aparição não pode ser feita desaparecer nem à mão nem por redstone. Selar uma Porta de Aparição sela todas as portas conectadas a ela. Quando o Selador para de receber sinal de redstone, o selo é desfeito. Quando selado, o bloco também não pode ser minerado, explodido ou quebrado por feitiços. Enquanto ativo, o Selador brilha, o Obelisco dentro dele começa a girar, e nada além de ferramentas do criativo pode quebrá-lo enquanto estiver ativo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Um Selador colocado requer Energia de Almas de uma $(l:intro/cursed_cage)Jaula Amaldiçoada$() cheia diretamente abaixo dele para permanecer ativo."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:sealer": 1
+  }
+}

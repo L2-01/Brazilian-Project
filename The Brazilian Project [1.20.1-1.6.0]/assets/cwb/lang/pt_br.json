@@ -1,0 +1,50 @@
+{
+  "modmenu.nameTranslation.cwb": "Cubes Without Borders",
+  "modmenu.descriptionTranslation.cwb": "Permite jogar Minecraft em uma janela de tela cheia sem bordas.",
+  "neoforge.screen.mods.info.description.cwb": "Permite jogar Minecraft em uma janela de tela cheia sem bordas.",
+
+  "cwb.fullscreenMode.off": "Desativado",
+  "cwb.fullscreenMode.exclusive": "Exclusiva",
+  "cwb.fullscreenMode.borderless": "Sem bordas",
+  "cwb.fullscreenMode.windowed": "Em janela",
+
+  "cwb.options.fullscreenMode": "Modo de Tela Cheia",
+  "cwb.options.fullscreenMode.tooltip": "A tela cheia §lExclusiva§r torna incômodo ou impossível usar outros aplicativos enquanto o jogo está rodando, mas não oferece benefícios de desempenho nesta plataforma.\n\nA tela cheia §lSem bordas§r visa preservar as características de desempenho da tela cheia exclusiva incorporando comportamentos comuns tipicamente associados a aplicativos em janela.\n\nA tela cheia §lEm janela§r preserva as características de um aplicativo em janela enquanto ainda oferece desempenho geral decente. Funciona melhor em sistemas com o dock e/ou a barra de menus desativados ou configurados para se ocultar automaticamente.\n",
+  "cwb.options.fullscreenMode.tooltip.macos": "A tela cheia §lExclusiva§r oferece ótimo desempenho com latência mínima ao custo de usabilidade, tornando incômodo ou impossível usar outros aplicativos enquanto o jogo está rodando.\n\nA tela cheia §lSem bordas§r visa preservar as características de um aplicativo em janela ao custo de maior latência, ainda oferecendo desempenho geral decente.\n\nA tela cheia §lEm janela§r mantém as características da tela cheia sem bordas e também deixa a barra de menus visível o tempo todo, o que pode ser útil para quem não gosta do entalhe dos MacBooks mais novos cobrindo parte do jogo.\n",
+  "cwb.options.fullscreenMode.tooltip.windows": "A tela cheia §lExclusiva§r oferece ótimo desempenho com latência mínima ao custo de usabilidade, tornando incômodo ou impossível usar outros aplicativos enquanto o jogo está rodando.\n\nA tela cheia §lSem bordas§r visa preservar as características de desempenho da tela cheia exclusiva incorporando comportamentos comuns tipicamente associados a aplicativos em janela.\n\nA tela cheia §lEm janela§r prioriza as características de um aplicativo em janela em detrimento do desempenho. Você terá latência maior e pode encontrar degradação significativa de desempenho, dependendo do seu sistema, hardware e drivers.\n",
+
+  "cwb.options.exclusiveFullscreenType": "Tipo de Tela Cheia Exclusiva",
+  "cwb.options.exclusiveFullscreenType.tooltip": "Controla qual modo de tela cheia é ativado quando §oTela cheia§r está em §oExclusiva§r nas §oConfigurações de vídeo§r.",
+
+  "cwb.options.borderlessFullscreenType": "Tipo de Tela Cheia sem Bordas",
+  "cwb.options.borderlessFullscreenType.tooltip": "Controla qual modo de tela cheia é ativado quando §oTela cheia§r está em §oSem bordas§r nas §oConfigurações de vídeo§r.",
+
+  "cwb.options.windowedFullscreenType": "Tipo de Tela Cheia em Janela",
+  "cwb.options.windowedFullscreenType.tooltip": "Controla qual modo de tela cheia é ativado quando §oTela cheia§r está em §oEm janela§r nas §oConfigurações de vídeo§r.",
+
+  "cwb.options.useDelayedFullscreen": "Usar Tela Cheia Atrasada",
+  "cwb.options.useDelayedFullscreen.tooltip": "Especifica se deve adiar a entrada no modo de tela cheia até o Minecraft estar totalmente carregado.\n\nAtivar esta opção pode resultar em uma sequência de inicialização mais suave e pode corrigir problemas raros em sistemas com drivers defeituosos que não permitem imediatamente que certas janelas entrem em modo de tela cheia em uma resolução diferente da padrão.",
+
+  "cwb.options.useScaledFramebuffer": "Usar Framebuffer Redimensionado",
+  "cwb.options.useScaledFramebuffer.tooltip": "Especifica se deve usar um framebuffer de resolução total em plataformas onde as coordenadas de tela podem ser redimensionadas em relação às coordenadas de pixel, como §omacOS§r e §oWayland (Linux)§r.\n\nDesativar esta opção pode levar a um aumento significativo de desempenho ao custo de qualidade de imagem.",
+
+  "cwb.options.autoHideDock": "Ocultar Dock Automaticamente",
+  "cwb.options.autoHideDock.tooltip": "Em plataformas compatíveis (ex.: §omacOS§r), especifica se deve ocultar automaticamente o dock nos modos de tela cheia não exclusivos, para que possa ser revelado movendo o mouse até a borda da tela, em vez de desativá-lo completamente.",
+
+  "cwb.options.autoHideMenuBar": "Ocultar Barra de Menus Automaticamente",
+  "cwb.options.autoHideMenuBar.tooltip": "Em plataformas compatíveis (ex.: §omacOS§r), especifica se deve ocultar automaticamente a barra de menus nos modos de tela cheia não exclusivos, para que possa ser revelada movendo o mouse até a borda da tela, em vez de desativá-la completamente.",
+
+  "cwb.options.pauseOnLostFocus": "Pausar ao Perder Foco",
+  "cwb.options.pauseOnLostFocus.tooltip": "Especifica se o jogo deve ser pausado automaticamente quando sua janela perde o foco.",
+
+  "cwb.options.pauseOnLostFocusDuringMultiplayer": "Pausar ao Perder Foco (Multijogador)",
+  "cwb.options.pauseOnLostFocusDuringMultiplayer.tooltip": "Quando §oPausar ao Perder Foco§r está ativado, especifica se seu efeito também deve se aplicar a sessões multijogador, nas quais o jogo não pode ser pausado de verdade.",
+
+  "cwb.fullscreenTypes.minecraft:maximized.tooltip": "Um modo de tela cheia em janela que transforma o jogo em uma janela maximizada sem bordas.\n\nAs características de desempenho e experiência deste modo podem variar conforme a plataforma, mas você geralmente pode esperar latência um pouco maior que a do modo exclusivo de tela cheia padrão, devido à V-Sync implícita imposta a todos os aplicativos em janela pela maioria dos compositores populares.\n\nCombina melhor com sistemas com o dock e/ou a barra de menus desativados ou configurados para se ocultar automaticamente, ou com jogadores que preferem mantê-los visíveis.",
+  "cwb.fullscreenTypes.minecraft:windowed.tooltip": "Um modo de tela cheia em janela com características de desempenho e experiência que variam conforme a plataforma.\n\nNo §lWindows§r, este modo geralmente é a melhor forma de jogar, pois oferece os benefícios típicos de uma experiência de tela cheia sem bordas com penalidades mínimas ou nulas de desempenho e latência; porém, alguns usuários podem experimentar piscadas incômodas cada vez que a janela do jogo ganha ou perde o foco.\n\nEm §loutras plataformas§r, este modo pode causar degradação significativa de desempenho e/ou problemas de usabilidade, como o dock do sistema permanecer visível ou até ser renderizado por cima do jogo.",
+  "cwb.fullscreenTypes.minecraft:default.tooltip": "O modo exclusivo de tela cheia padrão do Minecraft.\n\nOferece ótimo desempenho com latência mínima ao custo de usabilidade — o jogo é minimizado automaticamente cada vez que sua janela perde o foco.",
+  "cwb.fullscreenTypes.linux:borderless.tooltip": "O modo de tela cheia sem bordas padrão para Linux e outros Unix-like.\n\nOferece ótimo desempenho com latência mínima. Não tem desvantagens conhecidas.",
+  "cwb.fullscreenTypes.macos:windowed.tooltip": "O modo de tela cheia em janela padrão para macOS.\n\nDiferente do §omacos:borderless§r, este modo deixa a barra de menus visível o tempo todo, o que pode ser útil para quem não gosta do entalhe dos MacBooks mais novos cobrindo parte do jogo.\n\nOferece desempenho decente, mas com latência um pouco maior que a do modo exclusivo de tela cheia, devido à V-Sync implícita imposta a todos os aplicativos em janela pelo SO.",
+  "cwb.fullscreenTypes.macos:borderless.tooltip": "O modo de tela cheia sem bordas padrão para macOS.\n\nOferece desempenho decente, mas com latência um pouco maior que a do modo exclusivo de tela cheia padrão, devido à V-Sync implícita imposta a todos os aplicativos em janela pelo SO.",
+  "cwb.fullscreenTypes.windows:windowed.tooltip": "O modo de tela cheia em janela padrão para Windows.\n\nDiferente do §ominecraft:windowed§r, ele não sofre dos problemas de piscada, mas também carece dos benefícios de desempenho do referido modo.\n\nSua latência é maior que a do modo exclusivo de tela cheia padrão, devido à V-Sync implícita imposta a todos os aplicativos em janela pelo SO. Além disso, alguns usuários podem experimentar degradação severa de desempenho, pois o Windows às vezes descarta quadros fornecidos por aplicativos em janela em vez de renderizá-los, especialmente ao executar tarefas de fundo que considera mais importantes, como baixar atualizações ou indexar capturas de tela da sua atividade capturadas pelo Windows Recall."
+}

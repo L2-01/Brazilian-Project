@@ -1,0 +1,23 @@
+{
+  "name": "Cemitérios",
+  "icon": "goety:shade_stone_polished",
+  "category": "goety:world",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Espalhados pelo mundo, houve avistamentos de cemitérios assombrados que dizem ser amaldiçoados com magia sombria, e alguns relataram ter ouvido rosnados pela área. Talvez alguns dos túmulos guardem algum tesouro..."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety:textures/gui/entries/graveyard.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "goety:ritual",
+      "advancement": "goety:goety/get_crystal_ball",
+      "recipe": "goety:locate/graveyard"
+    }
+  ]
+}

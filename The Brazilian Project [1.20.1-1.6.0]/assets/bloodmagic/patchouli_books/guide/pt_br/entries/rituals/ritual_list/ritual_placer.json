@@ -1,0 +1,27 @@
+{
+  "name": "Domínio do Preenchedor",
+  "icon": "minecraft:dispenser",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "name": "Domínio do Preenchedor",
+      "multiblock_id": "bloodmagic:placer",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner)Adivinhador de Ritual$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "placer"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "placer",
+      "page_type": "placerRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "placer",
+      "page_type": "chest"
+    }
+  ]
+}

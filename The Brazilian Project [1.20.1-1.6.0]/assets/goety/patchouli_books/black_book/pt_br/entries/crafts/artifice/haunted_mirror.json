@@ -1,0 +1,27 @@
+{
+  "name": "Espelho Assombrado",
+  "icon": "goety:haunted_mirror",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/read_haunting_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com alguns estudos e experimentos, você descobriu um jeito de transformar um pedaço de Vidro Assombrado em um espelho que permite, essencialmente, teleportar-se de um lugar para outro."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:haunted/haunted_mirror"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para se teleportar usando Espelhos, você deve ter dois deles colocados no mundo no mesmo eixo X e Z ou no eixo Y. Para o eixo X e Z, ou horizontal, dois espelhos devem ser colocados no mesmo eixo Y, cada um virado para o lado oposto do outro, a até 32 blocos, parecendo um túnel ou buraco entre as paredes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para o eixo Y, ou vertical, os Espelhos devem estar virados para a mesma direção e compartilhar as mesmas coordenadas XZ, a 16 blocos abaixo ou acima um do outro. Os espelhos tentarão encontrar outro espelho acima de si antes de procurar abaixo."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:haunted_mirror": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Ritual do End",
+  "icon": "goety:void_block",
+  "category": "goety:rituals",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Requisitos: $(li)Estar no End $(li)16 Blocos do Vazio $(li)64 Variantes de Pedra do End $(li)32 Blocos de Purpur de qualquer tipo"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety:textures/gui/entries/end_ritual.png"
+      ],
+      "border": true,
+      "text": "Um exemplo de como o ritual pode ser disposto."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A essência concentrada do Vazio ajuda a canalizar os poderes do fim de todas as coisas na criação de rituais arcanos."
+    }
+  ]
+}

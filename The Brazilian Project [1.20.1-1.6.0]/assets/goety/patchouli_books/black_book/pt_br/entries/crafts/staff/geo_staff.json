@@ -1,0 +1,22 @@
+{
+  "name": "Cajado Geomante",
+  "icon": "goety:geo_staff",
+  "category": "goety:crafts/staff",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Enquanto os Geomantes usam simples bengalas de madeira para alimentar sua geomancia, você sabia que podia fazer melhor com as Ametistas que tinha espalhadas por aí."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:geo_staff"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Cajado Geomante potencializa vários feitiços de Geomancia, concedendo mais poder sobre a própria terra!"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:geo_staff": 1
+  }
+}

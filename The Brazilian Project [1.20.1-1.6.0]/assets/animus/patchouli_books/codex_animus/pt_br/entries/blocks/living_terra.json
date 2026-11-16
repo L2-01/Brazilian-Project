@@ -1,0 +1,23 @@
+{
+  "name": "guide.animus.entry.living_terra",
+  "icon": "animus:living_terra_bucket",
+  "category": "animus:blocks",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:living_terra_bucket",
+      "text": "Um fluido místico infundido com essência vital. A Terra Viva é um líquido raro criado por processos especiais, irradiando energia vital."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Propriedades",
+      "text": "A Terra Viva exibe propriedades únicas:$(br2)$(li)Flui como água$(li)Brilha com luz interior$(li)Pode ser coletada em baldes$(li)Usada em magia de sangue avançada$(br2)Este fluido representa o aspecto positivo da força vital, contrastando fortemente com a corrupção da $(l:animus:blocks/antilife_fluid)AntiVida$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Aplicações",
+      "text": "A Terra Viva pode ser usada para:$(li)Fins decorativos$(li)Rituais avançados$(li)Componentes de fabricação$(li)Efeitos ambientais$(br2)$(italic)A própria essência da vida, contida.$()"
+    }
+  ]
+}

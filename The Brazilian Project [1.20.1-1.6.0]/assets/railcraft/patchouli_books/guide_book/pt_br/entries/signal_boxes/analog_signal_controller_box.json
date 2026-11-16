@@ -1,0 +1,11 @@
+{
+  "name": "Caixa Controladora de Sinal Analógico",
+  "icon": "railcraft:analog_signal_controller_box",
+  "category": "railcraft:signal_boxes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A caixa controladora de sinal analógico, como sua versão anterior, emite sinal, mas não emite simplesmente uma forma de sinal quando ligada ou uma forma quando desligada. Ela emite um tipo de sinal baseado na força da energia recebida. Você pode configurar na GUI para, por exemplo, emitir VERDE quando a energia de redstone for 5, emitir VERMELHO quando for 0 e desligar quando for 15."
+    }
+  ]
+}

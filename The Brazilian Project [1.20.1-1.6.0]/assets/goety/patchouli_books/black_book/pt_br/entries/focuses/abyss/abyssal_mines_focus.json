@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Mina Abissal",
+  "icon": "goety_cataclysm:abyssal_mine_focus",
+  "category": "goety:cataclysm/focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Embora não deixem nuvens de ácido para trás, essas minas etéreas e roxas não só são mais numerosas como também aplicam Medo Abissal em qualquer vítima sobre a qual explodirem."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/abyssal_mine_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() invoca mais minas roxas."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:abyssal_mine_focus": 1
+  }
+}

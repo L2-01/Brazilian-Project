@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:spectre_key",
+    "name": "Chave de Espectro",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Chave de Espectro$() pode ser usada para teleportar a uma sala privada em outra dimensão, única para cada jogador.$(br2)Lá, você pode construir e armazenar itens com segurança, e eles permanecerão lá. Saia usando a Chave de Espectro novamente ou clicando num dos blocos de Núcleo de Espectro no chão."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "A sala tem 16 blocos de largura e profundidade, e por padrão 2 blocos de altura interna. Você pode expandi-la verticalmente usando $(l:irregular_implements:items/ectoplasm)Ectoplasma$(/l) nos blocos de Núcleo de Espectro.$(br2)Cada Ectoplasma aumenta a altura em um. Ele usará a pilha inteira de uma vez."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Servos Obsessor",
+  "icon": "minecraft:vex_spawn_egg",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Seu próprio grupo de Obsessores. Esses Obsessores agem praticamente igual aos Obsessores do Invocador, só que seguirão você e atacarão em seu nome."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:vex_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao contrário de outros Servos mais carnudos, os Obsessores não vaguearão nem deixarão de segui-lo, e não aceitarão armas/armaduras por serem grandes demais para eles."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "guide.animus.entry.commands",
+  "icon": "bloodmagic:masterritualstone",
+  "category": "animus:intro",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Comandos de Admin",
+      "text": "O Animus fornece um conjunto de comandos de admin $(animus)/animus$() para operadores de servidor (nível de permissão 2+). São úteis para testar rituais, depurar problemas de LP e gerenciar vontade demoníaca.$(br2)Todos os comandos são executados como $(item)/animus <subcomando>$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Comandos de LP",
+      "text": "$(bold)/animus getlp$()$(br)Exibe sua Essência Vital (LP) atual armazenada na sua Soul Network.$(br2)$(bold)/animus setlp <quantia>$()$(br)Define o LP da sua Soul Network para a quantia especificada. Útil para testar rituais e sigilos sem precisar sacrificar.$(br2)Exemplo: $(item)/animus setlp 1.000.000$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Comandos de Vontade Demoníaca",
+      "text": "$(bold)/animus fillwill <tipo>$()$(br)Preenche o chunk atual com vontade demoníaca do tipo especificado (até 100).$(br2)Tipos válidos: $(will)default$(), $(will)corrosive$(), $(will)destructive$(), $(will)vengeful$(), $(will)steadfast$()$(br2)Exemplo: $(item)/animus fillwill destructive$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Comandos de Gema",
+      "text": "$(bold)/animus gemtype <tipo>$()$(br)Muda o tipo de vontade demoníaca da gema tartárica que você está segurando. A quantidade de vontade atual da gema é preservada.$(br2)$(bold)/animus fillgem$()$(br)Enche a gema tartárica que você está segurando até sua capacidade máxima.$(br2)Ambos os comandos exigem segurar uma gema tartárica na mão principal."
+    }
+  ]
+}

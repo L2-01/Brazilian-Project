@@ -1,0 +1,73 @@
+{
+  "name": "Dispositivo de Copiar e Colar",
+  "sortnum": 3,
+  "category": "buildinggadgets2:gadgets",
+  "icon": "buildinggadgets2:gadget_copy_paste{energy:1000000}",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O dispositivo de copiar e colar torna replicar estruturas muito mais fácil! Para começar, certifique-se de estar no modo 'copiar' no menu de configurações. $(br2)Clique com botão direito num canto de uma estrutura, e então Shift+clique com botão direito no canto oposto.  Se feito corretamente, um contorno verde vai cercar sua estrutura."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Copiando",
+      "images": [
+        "buildinggadgets2:textures/book/images/copy.png"
+      ],
+      "border": true,
+      "text": "Copiando uma estrutura"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Mude o dispositivo para o modo 'colar', e você verá uma prévia fantasma da estrutura que copiou. O bloco em que você clicou com botão direito durante a cópia é o ponto inicial da estrutura. $(br2)Para colocar a estrutura no mundo, simplesmente clique com botão direito! Todos os itens necessários para a construção serão removidos do seu inventário, e qualquer bloco para o qual você não tenha itens será pulado."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Prévia de Colar",
+      "images": [
+        "buildinggadgets2:textures/book/images/paste.png"
+      ],
+      "border": true,
+      "text": "Prevendo uma colagem"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para ver a lista de itens necessários, abra o menu de configurações e escolha a opção 'lista de materiais'. $(br2)É uma lista rolável mostrando quais itens você tem ou não, e pode ser ordenada de várias formas. Experimente!"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Lista de Materiais",
+      "images": [
+        "buildinggadgets2:textures/book/images/materiallist.png"
+      ],
+      "border": true,
+      "text": "Itens necessários"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "É possível fazer ajustes finos na área de cópia abrindo a janela Ajustar Posicionamento no menu de configurações.$(br2)A partir daqui, você pode ajustar a posição do bloco inicial e do bloco final. Clique nos botões de mais e menos para ver a caixa verde mudar em tempo real.$(br2)Você também pode mudar para o modo de coordenadas 'absolutas' e inserir coordenadas do mundo do jogo."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Ajustando a Cópia",
+      "images": [
+        "buildinggadgets2:textures/book/images/copy_adjustment.png"
+      ],
+      "border": true,
+      "text": "Mudando a área que você está copiando"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Há uma opção similar para o modo colar. $(br2)Nesta UI, você vai ajustar a localização do bloco inicial. Clique nos botões e a renderização deve atualizar no mundo em tempo real."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Ajustando a Colagem",
+      "images": [
+        "buildinggadgets2:textures/book/images/paste_adjustment.png"
+      ],
+      "border": true,
+      "text": "Mudando a localização da colagem"
+    }
+  ]
+}

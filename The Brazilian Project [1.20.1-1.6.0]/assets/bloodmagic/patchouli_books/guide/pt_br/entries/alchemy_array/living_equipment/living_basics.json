@@ -1,0 +1,34 @@
+{
+  "name": "Básicos do Equipamento Vivo",
+  "icon": "bloodmagic:reagentbinding",
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "extra_recipe_mappings": {
+    "bloodmagic:reagentbinding": 1,
+    "bloodmagic:livinghelmet": 3,
+    "bloodmagic:livingplate": 3,
+    "bloodmagic:livingleggings": 3,
+    "bloodmagic:livingboots": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Para criar $(item)Equipamento Vivo$(), você precisará primeiro de $(item)Armadura de Ferro$() (ou $(item)Armadura de Ferro$(), se preferir), um pouco de $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Cinza Arcana$(), e um pouco de $(item)Reagente de Vínculo$(). Você também precisará de pelo menos uma $(br)$(l:bloodmagic:demon_will/will_manipulation/soul_gem)Gema Tartárica Comum$() para guardar a $(item)Will Demoníaca$() exigida."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Reagente de Vínculo",
+      "recipe": "bloodmagic:alchemytable/reagent_binding",
+      "text": "$(italic)Ela se agarra a mim firmemente...$() $(br2)$(br2)$(item)Equipamento Vivo$() equivale em durabilidade à $(item)Armadura de Diamante$(), e pode ser reparado numa $(thing)Bigorna$() com mais $(thing)Reagente de Vínculo.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "como em qualquer outro Arranjo Alquímico, pressione [$(k:use)] olhando para um bloco com as $(item)Cinzas Arcanas$() na mão, depois aplique o $(item)Reagente de Vínculo$(). Depois coloque seu $(item)Capacete de Ferro$(), $(item)Peitoral de Ferro$(), $(item)Calças de Ferro$() ou $(item)Botas de Ferro$(), afaste-se, e assista ao show.$(br2) O Equipamento Vivo começa equivalente ao de Ferro, mas tem $(thing)Pontos de Upgrade$() que podem, com cuidado, ser gastos para treiná-lo de formas específicas. Ele começa com 100, mas pode haver formas de superar essa limitação..."
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "Ritual de Vinculação",
+      "recipe": "bloodmagic:array/living_helmet",
+      "text": "Está vivo, com certeza... e está aprendendo com você. É melhor ter cuidado com o que ensina a ele. $(br2)Você pode acompanhar de perto o que ele aprendeu até agora segurando [$(k:sneak)] ao olhar para ele."
+    }
+  ]
+}

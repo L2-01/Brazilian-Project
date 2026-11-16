@@ -1,0 +1,35 @@
+{
+  "name": "Selo de Água",
+  "icon": "bloodmagic:watersigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(item)Selo de Água$() é um selo bem simples. Quando você pressiona [$(k:use)] olhando para um bloco, pode drenar 100LP da sua $(l:bloodmagic:altar/soul_network)Soul Network$(/l) para colocar um bloco de fonte de água no mundo. Se não houver LP suficiente, drenará o pedágio da sua vida em vez disso. Criado usando um $(item)Reagente de Água$() e uma $(item)Ardósia em Branco.$()"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Reagente de Água",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_water",
+      "array.heading": "Selo de Água",
+      "array.recipe": "bloodmagic:array/watersigil",
+      "array.text": "$(italic)Água infinita, alguém?"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/water_sigil1.png",
+        "bloodmagic:images/entries/sigil/water_sigil2.png"
+      ],
+      "title": "Arranjo do Selo de Água",
+      "border": true,
+      "text": "O Selo de Água, ao lado do seu arranjo de criação, mais seu uso principal."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Balde de Água",
+      "recipe": "bloodmagic:alchemytable/sigil_water_bucket",
+      "text": "Mais ainda, pode ser usado na $(l:bloodmagic:alchemy_table/alchemy_table)Mesa de Alquimia$() para automatizar a produção de $(water)Baldes de Água$(). O Selo não é consumido nesta receita."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Subwoofer Lullaby",
+    "category": "vanillamusicdiscs:discs",
+    "icon": "vanillamusicdiscs:subwoofer_lullaby_music_disc",
+    "sortnum": 31,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "vanillamusicdiscs:subwoofer_lullaby_music_disc",
+            "text": "Fabrique Subwoofer Lullaby usando a $(bold)Mesa de Discos de Música$(). Coloque qualquer disco de música vanilla no espaço da esquerda e o material mostrado abaixo no espaço do meio."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:lime_bed",
+            "title": "Material Necessário",
+            "text": "$(item)Cama Verde-Limão$() $(#808080)$()Coloque-o no espaço do meio da Mesa de Discos de Música junto a qualquer disco de música vanilla.$()"
+        }
+    ]
+}

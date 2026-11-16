@@ -1,0 +1,24 @@
+{
+  "name": "Multibloco Gerador",
+  "icon": "deepresonance:generator_controller",
+  "category": "rftoolsbase:category_deepresonance_generator",
+  "extra_recipe_mappings": {
+    "deepresonance:generator_controller": 1,
+    "deepresonance:generator_part": 2
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O gerador é um multibloco feito de Peças de Gerador. Coloque um Controlador de Gerador contra a estrutura para ativá-lo e fornecer a saída de FE."
+    },
+    {
+      "type": "crafting",
+      "recipe": "deepresonance:generator_controller"
+    },
+    {
+      "type": "crafting",
+      "recipe": "deepresonance:generator_part"
+    }
+  ]
+}

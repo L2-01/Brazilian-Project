@@ -1,0 +1,36 @@
+{
+  "name": "Chaves de Masmorra",
+  "icon": "bloodmagic:simplekey",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:mineentrancekey": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Chaves$() são a forma inicial de navegar pelas $(thing)Masmorras$(). Podem ser encontradas em baús de Masmorra dentro do $(thing)Reino Demoníaco$(), ou podem ser criadas. O tipo mais básico são as $(item)Chaves de Ferro$(), que surgem dentro da $(thing)Antecâmara$() assim como nos níveis mais próximos do $(thing)Reino Demoníaco$() propriamente dito."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Eventualmente, você pode se deparar com uma $(thing)Distorção Espacial$() ao explorar uma Masmorra. Elas ou levarão a uma chave única e não criável, ou a uma porta que só essa chave pode abrir. Distorções Espaciais só se formam dentro do Reino Demoníaco de verdade, e você nunca as encontrará numa Antecâmara."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:mineentrancekey",
+      "title": "As Minas",
+      "text": "A entrada de $(thing)As Minas$() só pode ser aberta com a não criável $(thing)Chave do Encarregado$(), enquanto todas as outras portas adiante podem ser abertas com $(thing)Chaves do Minerador$(). As minas darão acesso ao $(l:bloodmagic:dungeons/demonite)minério de Demonita$() junto com loot mais raro, mas vêm com desafios à altura."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Chave de Ferro",
+      "recipe": "bloodmagic:soulforge/simple_key",
+      "text": "$(italic)Se é tão simples, por que não podemos simplesmente arrombar a fechadura?$()"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Chave do Minerador",
+      "recipe": "bloodmagic:soulforge/mine_key",
+      "text": "$(italic)É pra lá que vamos trabalhar..!$()"
+    }
+  ]
+}

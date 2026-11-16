@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:spectre_energy_injector",
+    "name": "Injetor de Energia de Espectro",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Todo jogador tem seu próprio Buffer de Energia de Espectro, que funciona mais ou menos como um Baú de Ender para FE. Por padrão, ele pode armazenar 1.000.000 de FE.$(br2)Energia pode ser inserida no Buffer de um jogador pelo $(d)Injetor de Energia de Espectro$(). O Buffer preenchido é o de quem colocou o Injetor."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Você não pode extrair do Injetor. Em vez disso, terá que usar uma Bobina de Espectro ou um $(l:irregular_implements:items/spectre_charger)Carregador de Espectro$(/l)."
+        }
+    ]
+}

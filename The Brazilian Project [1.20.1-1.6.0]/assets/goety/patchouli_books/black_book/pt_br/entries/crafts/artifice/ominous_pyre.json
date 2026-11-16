@@ -1,0 +1,107 @@
+{
+  "name": "Pira Sinistra",
+  "icon": "goety:ominous_pyre",
+  "category": "goety:crafts/artifice",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A pira inspira $(l:goety:mutations/illager_servants)Neollagers$() leais a treinarem a si mesmos. Para fazer um Neollager treinar em uma pira, basta $(l:goety:focuses/command_focus)Comandar$() / $(l:goety:focuses/order_focus)Ordenar$() que ele vá até ela. Se 'illagerServantAutoTrain' estiver ativado, basta deixá-los perto de uma. Dependendo do que a cerca, assim como nos $(l:rituals/dark_altar)Altares$(), o Neollager poderá treinar para um subtipo específico de Illager. Cada pira só pode treinar até 8 Illagers Treináveis."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:ominous_pyre"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Saqueadores",
+      "text": "$(o)Nota: Neollagers treinam mais rápido para Servos Saqueadores$()$(br)Requisitos: $(li)Neollager $(li)2 Fardos de Feno/Alvos $(li)2 Abóboras Esculpidas $(li)16 Cercas de Madeira $(li)20 Lãs"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Guarda Imperial",
+      "advancement": "goety:goety/read_front_scroll",
+      "text": "$(o)Nota: O dono deve ter lido o $(l:goety:rumors/desert)Pergaminho do Front$()$()$(br)Requisitos: $(li)Servo Saqueador $(li)4 Estátuas Sinistras $(li)4 Estandartes $(li)4 Fardos de Feno/Alvos $(li)4 Bancadas de Arco e Flecha $(li)2 Bigornas $(li)8 $(l:goety:crafts/stash_urn)Urnas de Esconderijo$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Lanceiros",
+      "advancement": "goety:goety/read_front_scroll",
+      "text": "$(o)Nota: O dono deve ter lido o $(l:goety:rumors/desert)Pergaminho do Front$()$()$(br)Requisitos: $(li)Neollager $(li)2 Rebolos $(li)2 Bancadas de Ferraria $(li)16 Cercas de Madeira $(li)32 Troncos $(li)4 Barris $(li)4 Camas $(li)2 Bigornas"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Sinalizadores",
+      "text": "Requisitos: $(li)Neollager $(li)2 Fogueiras $(li)4 Camas $(li)4 Barris"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Vindicadores",
+      "text": "Requisitos: $(li)Neollager $(li)1 Estandarte $(li)64 Tábuas de Madeira $(li)60 Blocos de Tijolos de qualquer tipo $(li)10 Muros $(li)10 Cercas $(li)2 Fornalhas $(li)1 Bancada de Trabalho"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Chefes Vindicadores",
+      "text": "Requisitos: $(li)Servo Vindicador $(li)4 Defumadores/Fornalhas $(li)16 Barris $(li)2 Bolos"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Montanhistas",
+      "text": "$(o)Nota: Vindicadores treinam mais rápido para Servos Montanhistas$()$(br)Requisitos: $(li)Servo Vindicador $(li)A Pira deve estar em biomas nevados $(li)16 Cercas de Madeira $(li)20 Lãs $(li)8 Barris $(li)4 Sopradores de Vento Ativados"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Esmagadores",
+      "text": "Requisitos: $(li)Servo Vindicador $(li)8 Alto-Fornos $(li)2 Caldeirões de Lava $(li)2 Caldeirões de Água $(li)4 Bigornas $(li)1 Bancada de Ferraria"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Guarda Real",
+      "advancement": "goety:goety/read_front_scroll",
+      "text": "$(o)Nota: O dono deve ter lido o $(l:goety:rumors/desert)Pergaminho do Front$()$()$(br)Requisitos: $(li)Servo Vindicador $(li)4 Estátuas Sinistras $(li)16 Tapetes Reais/Gélidos $(li)4 Estandartes $(li)4 Bigornas $(li)8 $(l:goety:crafts/stash_urn)Urnas de Esconderijo$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Invocadores",
+      "text": "Requisitos: $(li)Neollager Mágico $(li)32 Estantes/Poder de Encantamento $(li)16 Velas Acesas $(li)4 Cabeças $(li)4 Vasos de Flores Ocupados $(li)2 Estandartes $(li)4 $(l:goety:crafts/stash_urn)Urnas de Esconderijo$() $(li)1 Atril"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Encantadores",
+      "text": "Requisitos: $(li)Neollager Mágico $(li)64 Estantes/Poder de Encantamento $(li)2 Castiçais/Candelabros Acesos $(li)1 Atril $(li)1 Mesa de Encantamentos $(li)4 $(l:goety:crafts/stash_urn)Urnas de Esconderijo$() $(li)4 Estantes Talhadas cheias de Livros Encantados"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Geomantes",
+      "text": "Requisitos: $(li)Neollager Mágico $(li)16 Blocos de Ametista $(li)64 Blocos de Ardosiabissal $(li)16 $(l:goety:crafts/creeper_totem)Totens de Creeper$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Gelomantes",
+      "text": "Requisitos: $(li)Neollager Mágico $(li)16 Gelo Azul $(li)64 Blocos de Neve $(li)4 $(l:goety:crafts/artifice/freezing_lamp)Lâmpadas Congelantes$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Criomantes",
+      "text": "Requisitos: $(li)Servo Gelomante $(li)A Pira deve estar em biomas nevados $(li)16 Estantes/Poder de Encantamento $(li)32 Neve em Pó $(li)16 $(l:goety:crafts/creeper_totem)Totens de Creeper$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Chamadores de Vento",
+      "advancement": "goety:goety/read_mistral_scroll",
+      "text": "Requisitos: $(li)Neollager Mágico $(li)64 Blocos de Mármore $(li)32 Blocos de Jade $(li)4 Blocos de Ouro Recuados"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Conjuradores de Tempestade",
+      "advancement": "goety:goety/read_mistral_scroll",
+      "text": "Requisitos: $(li)Servo Geomante ou Chamador de Vento $(li)A Pira deve estar exposta a uma Tempestade $(li)32 Blocos de Cobre de qualquer tipo $(li)64 Blocos de Tijolos de qualquer tipo $(li)4 Para-Raios"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para impedir que eles treinem, remova a Pira ou afaste-os mais de 10 blocos dela. Se um Illager em treinamento estiver perto de Illagers que ele está treinando para se tornar, ele treinará mais rápido."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:ominous_pyre": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Multi Tanque",
+  "icon": "rftoolscontrol:tank",
+  "category": "rftoolsbase:category_rftoolscontrol_advanced",
+  "extra_recipe_mappings": {
+    "rftoolscontrol:tank": 1
+  },
+  "sortnum": 60,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Multi Tanque armazena vários fluidos num único bloco. É útil como buffer de fluidos compacto para programas do Processador."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolscontrol:tank"
+    },
+    {
+      "type": "text",
+      "text": "A GUI mostra cada fluido armazenado e sua quantidade. Programas podem usar opcodes de fluido com tanques e nós conectados."
+    }
+  ]
+}

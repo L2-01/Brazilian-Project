@@ -1,0 +1,16 @@
+{
+  "name": "Veneno à Distância",
+  "icon": "twilightforest:steeleaf_ingot",
+  "category": "twilightdelight:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Este efeito protege o jogador do efeito Veneno e aplica Veneno a todos os inimigos ao seu redor. Ele causa dano muito mais rápido que o veneno normal.$(br2)O alcance do efeito é marcado com partículas verdes."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "twilightforest:steeleaf_ingot",
+      "text": "Obtível de bebidas e sobremesas feitas de Folha de Aço."
+    }
+  ]
+}

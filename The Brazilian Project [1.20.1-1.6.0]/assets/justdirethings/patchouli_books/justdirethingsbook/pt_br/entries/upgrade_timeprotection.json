@@ -1,0 +1,17 @@
+{
+  "name": "Proteção contra o Tempo",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_time_protection",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:justdirethings:res_time_crystal)Cristais do Tempo$(/l) são incríveis! Porém, às vezes podem ter efeitos colaterais indesejados ao serem carregados por aí. Além disso, podem levar a campos e habilidades de alteração temporal após mais pesquisas.$(br2)Equipar essa melhoria o protegerá de quaisquer efeitos estranhos de brincar com o tempo!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria: Velocidade de Caminhada",
+      "recipe": "justdirethings:upgrade_time_protection"
+    }
+  ]
+}

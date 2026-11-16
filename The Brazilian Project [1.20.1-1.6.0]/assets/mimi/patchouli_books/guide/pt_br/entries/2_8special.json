@@ -1,0 +1,24 @@
+{
+    "name": "Instrumentos Especiais",
+    "icon": "mimi:witchpipe",
+    "category": "mimi:2instruments",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Nem todos os instrumentos no MIMI podem ser criados. Alguns precisam ser obtidos do mundo de outras formas..."
+        },
+        {
+            "type": "spotlight",
+            "item": "mimi:bonelute",
+            "link_recipe": true,
+            "text": "Um alaúde feito de ossos cuidadosamente entalhados, produz um som trêmulo que se desvanece com um coral de tilintares assombrosos. Apenas artesãos esqueléticos altamente habilidosos conseguem criar o Alaúde de Osso e, portanto, a única forma de obter um é por chance ao matar um Esqueleto."
+        },
+        {
+            "type": "spotlight",
+            "item": "mimi:witchpipe",
+            "link_recipe": true,
+            "text": "Uma flauta imbuída de magia negra, a Flauta de Bruxa cria um som sinistro e persistente quando tocada. Os feitiços necessários para criar a flauta são conhecidos por apenas um punhado de Bruxas e, portanto, a única forma de obter uma é por chance ao matar uma Bruxa."
+        }
+    ],
+    "sortnum": 8
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Multibloco de Fusão",
+  "icon": "alchemistry:reactor_casing",
+  "category": "alchemistry:reactor_category",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Multibloco de Fusão",
+      "multiblock": {
+        "pattern": [
+          [
+            "CCCCC",
+            "CCCCC",
+            "CCCCC",
+            "CCCCC",
+            "CCCCC"
+          ],
+          [
+            "CGGGC",
+            "G   G",
+            "G F G",
+            "G   G",
+            "CGGGC"
+          ],
+          [
+            "CGGGC",
+            "G   G",
+            "G F G",
+            "G   G",
+            "CGGGC"
+          ],
+          [
+            "CGGGC",
+            "G   G",
+            "G F X",
+            "G   G",
+            "CGGGC"
+          ],
+          [
+            "CCCCC",
+            "CCCCI",
+            "CC0CE",
+            "CCCCO",
+            "CCCCC"
+          ]
+        ],
+        "mapping": {
+          "X": "alchemistry:fusion_chamber_controller[facing=east]",
+          "F": "alchemistry:fusion_core",
+          "E": "alchemistry:reactor_energy[facing=east]",
+          "I": "alchemistry:reactor_input[facing=east]",
+          "O": "alchemistry:reactor_output[facing=east]",
+          "C": "alchemistry:reactor_casing",
+          "G": "alchemistry:reactor_glass",
+          "0": "alchemistry:reactor_casing"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": "Required Blocks",
+      "text": " 1x Controlador da Câmara de Fusão $(br) 3x Núcleo de Fusão $(br) 1x Entrada de Energia do Reator $(br) 1x Entrada de Itens do Reator $(br) 1x Saída de Itens do Reator $(br) 62x Carcaça do Reator $(br) 36x Vidro do Reator"
+    },
+    {
+      "type": "text",
+      "title": "Optional Blocks",
+      "text": "Blocos de entrada de energia e de entrada/saída de itens do reator podem ser colocados em qualquer lugar que exija carcaça de reator, mas não onde haja vidro de reator.$(br2)O vidro de reator é opcional. Qualquer lugar que exija vidro de reator pode ser substituído por carcaça de reator. Deixe com a aparência que quiser."
+    }
+  ]
+}

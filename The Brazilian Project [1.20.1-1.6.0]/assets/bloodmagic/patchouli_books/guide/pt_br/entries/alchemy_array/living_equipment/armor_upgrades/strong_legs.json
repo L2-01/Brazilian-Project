@@ -1,0 +1,15 @@
+{
+  "name": "Pernas Fortes",
+  "icon": "minecraft:diamond_leggings",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Efeito: Aumenta a altura do pulo e reduz o dano de queda, até um máximo de 7,5 blocos adicionais e 83% de resistência a queda. Pode ser negado segurando [$(k:sneak)] enquanto pula. $(br2)Treinado por: Pular por aí. $(br2)Nível máximo: 10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:jump"
+    }
+  ]
+}

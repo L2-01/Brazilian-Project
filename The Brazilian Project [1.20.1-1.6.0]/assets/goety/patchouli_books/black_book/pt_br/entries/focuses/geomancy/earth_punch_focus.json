@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Soco de Terra",
+  "icon": "goety:earth_punch_focus",
+  "category": "goety:focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O foco conjura um punho da terra sob um alvo ou posição, causando dano a entidades não aliadas e arremessando-as para o ar."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/earth_punch_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/geo_staff)Cajado Geomante$() conjurará vários punhos em inimigos próximos."
+    }
+  ]
+}

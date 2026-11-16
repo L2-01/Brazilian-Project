@@ -1,0 +1,19 @@
+{
+    "name": "Barcaça de Coleta de Itens",
+    "icon": "littlelogistics:vacuum_barge",
+    "category": "littlelogistics:vessels",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:vacuum_barge",
+            "scale": 0.6,
+            "offset": 0.5,
+            "text": "Coleta itens automaticamente num raio."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:vacuum_barge",
+            "text": "Conecte uma Barcaça de Baú atrás da Barcaça de Coleta de Itens, pois ela não possui inventário próprio."
+        }
+    ]
+}

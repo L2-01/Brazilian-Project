@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Descarga",
+  "icon": "goety:discharge_focus",
+  "category": "goety:focuses/storm",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você solta uma explosão de eletricidade na sua posição, ferindo todas as criaturas próximas e chocando-as. A explosão causa dano de choque e não fere o conjurador."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/discharge_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/storm_staff)Cajado de Tempestade$() aumenta a chance de infligir Espasmos e causa efeito de raio em cadeia."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:discharge_focus": 1
+  }
+}

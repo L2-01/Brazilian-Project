@@ -1,0 +1,16 @@
+{
+  "name": "Quadro Açucarado",
+  "icon": "complicated_bees:honeyed_frame",
+  "category": "complicated_bees:frames",
+  "advancement": "complicated_bees:frame",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Feito com gravetos açucarados, este quadro turbinha a produção das abelhas ao custo de uma vida útil um pouco menor."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:honeyed_frame"
+    }
+  ]
+}

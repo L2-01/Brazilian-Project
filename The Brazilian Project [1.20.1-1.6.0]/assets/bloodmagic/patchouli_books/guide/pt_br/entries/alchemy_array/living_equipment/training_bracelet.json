@@ -1,0 +1,30 @@
+{
+  "name": "Pulseira de Treinamento",
+  "icon": "bloodmagic:upgradetrainer",
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Este novo equipamento é uma ajuda incrível, mas seu crescimento sem direção às vezes pode ser... frustrante. Para isso, você criou uma forma de $(item)Pulseira de Treinamento$() para te ajudar nos seus empreendimentos. Uma vez criada, um simples toque de [$(k:use)] ativará seu menu e permitirá especificar em quais habilidades focar sua atenção... ou quais evitar."
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "Pulseira de Treinamento",
+      "recipe": "bloodmagic:array/living_trainer",
+      "text": "$(italic)*Insira Montagem de Treino estilo Rocky aqui*$()$(br2)Só uma dessas pulseiras funcionará por vez. Mão secundária > Curios (se disponível) > Inventário Principal (incluindo mão principal) > inventários de add-ons."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_array/living_equipment/training_bracelet.png"
+      ],
+      "title": "GUI da Pulseira de Treinamento",
+      "border": false,
+      "text": "O Menu da Pulseira de Treinamento — ela pode acompanhar até 16 upgrades diferentes por vez."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A pulseira pode especificar um limite para qualquer upgrade dado (assumindo que você tenha uma cópia do $(item)Tomo$() em mãos). Por exemplo, você pode mandá-la limitar Strong Legs ao nível 3 - assim que atingir esse nível, Strong Legs não ganhará mais experiência. Ela também pode impedir ou permitir o treino de todas as outras habilidades que você não especificou. Se quiser permitir todos os upgrades exceto um, pode adicioná-lo à pulseira no modo 'permitir outros' e definir seu teto de nível para 0."
+    }
+  ]
+}

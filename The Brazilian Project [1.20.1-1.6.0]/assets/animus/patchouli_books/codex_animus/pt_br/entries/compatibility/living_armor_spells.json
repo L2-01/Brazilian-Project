@@ -1,0 +1,47 @@
+{
+  "name": "guide.animus.entry.living_armor_spells",
+  "category": "animus:compatibility",
+  "icon": "bloodmagic:livinghelmet",
+  "flag": "mod:irons_spellbooks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Armadura Viva evolui com você, e agora pode ficar mais forte através da conjuração. Todo feitiço que você conjura concede experiência à sua Armadura Viva, e o novo caminho de upgrade $(bold)Canalização Arcana$() oferece benefícios poderosos para conjuradores."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:livinghelmet",
+      "text": "$(blood)Armadura do Conjurador$()$(br2)Vista Armadura Viva enquanto conjura feitiços para ganhar experiência. A armadura aprende com sua proeza mágica e desbloqueia a árvore de upgrade Canalização Arcana, feita especialmente para magos."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "XP de Conjuração",
+      "text": "Todo feitiço que você conjura concede XP à sua Armadura Viva:$(br2)$(bold)Fórmula:$()$(br)XP Base (10) x Nível do Feitiço x Multiplicador de Raridade$(br2)$(bold)Multiplicadores de Raridade:$()$(li)Comum: x1.0$(li)Incomum: x1.5$(li)Raro: x2.0$(li)Épico: x3.0$(li)Lendário: x5.0"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Canalização Arcana",
+      "text": "$(italic)Exemplo: um feitiço Raro nível 3 concede 10 x 3 x 2,0 = 60 XP$()$(br2)A árvore de upgrade Canalização Arcana fornece cinco níveis:$(br2)Nível 1: -5%% Custo de Mana$(br)Nível 2: -10%% Custo de Mana$(br)Nível 3: -5%% Recarga$(br)Nível 4: -10%% Recarga$(br)Nível 5: Resistência ao Conjurar"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos de Melhoria",
+      "text": "Cada nível requer pontos de Armadura Viva:$(br2)$(li)$(blood)Nível 1:$() 5 pontos$(li)$(blood)Nível 2:$() 10 pontos$(li)$(blood)Nível 3:$() 15 pontos$(li)$(blood)Nível 4:$() 20 pontos$(li)$(blood)Nível 5:$() 25 pontos$(br2)$(bold)Total:$() 75 pontos para todos os níveis$(br2)Os pontos são ganhos pela progressão normal da Armadura Viva — vista a armadura e ganhe XP de conjuração."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Sinergias",
+      "text": "Canalização Arcana funciona bem com:$(br2)$(li)$(l:animus:compatibility/blood_infused_spellbook)Livro de Feitiços Infuso de Sangue$()$(br)Acumula reduções de custo de mana$(br2)$(li)$(l:animus:compatibility/sigil_crimson_will)Sigilo da Vontade Carmesim$()$(br)Bônus de dano + eficiência de mana$(br2)$(li)$(l:animus:compatibility/sanguine_scrolls)Pergaminhos Sanguíneos$()$(br)Conjure por pergaminhos enquanto ganha XP$(br2)$(italic)A armadura ganha XP de qualquer feitiço, incluindo os conjurados com LP!$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Como Funciona",
+      "text": "$(bold)Redução de Custo de Mana (Níveis 1-2):$()$(br)Reduz o custo de mana dos feitiços ao conjurar. No nível 2, você economiza 10%% de mana em todo feitiço, acumulando com outros efeitos de redução de mana.$(br2)$(bold)Redução de Recarga (Níveis 3-4):$()$(br)Aplica o atributo de redução de recarga do Iron's Spellbooks. No nível 4, os feitiços recarregam 10%% mais rápido, deixando você conjurar mais vezes.$(br2)$(bold)Resistência a Dano (Nível 5):$()$(br)Toda vez que você começa a conjurar, ganha $(effect)Resistência I$() por 2 segundos. Esse bônus defensivo ajuda a sobreviver enquanto canaliza."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dicas e Estratégia",
+      "text": "$(bold)Maximize o Ganho de XP:$()$(li)Conjure feitiços de nível maior$(li)Busque feitiços raros/épicos/lendários$(li)Use o $(l:animus:compatibility/ritual_arcane_mastery)Ritual da Maestria Arcana$() para aprimorar feitiços$(br2)$(bold)Caminhos de Build:$()$(li)Foco em Eficiência: Níveis 1-2$(li)Conjurador Rápido: Níveis 3-4$(li)Sobrevivente: Nível 5$(br2)$(italic)Lembre-se: XP só é concedido vestindo a Armadura Viva!$()"
+    }
+  ]
+}

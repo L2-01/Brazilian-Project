@@ -1,0 +1,26 @@
+{
+  "name": "Golem de Coral",
+  "icon": "minecraft:copper_block",
+  "category": "goety:cataclysm/summons",
+  "advancement": "goety:goety/read_floral_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Primos um pouco menos poderosos e mais mecânicos do Coralssus, esses golems ainda assim são servos poderosos de se ter à mão."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:coral_golem",
+      "scale": 0.5
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety_cataclysm:coral_golem",
+      "text": "Clique com o botão direito no Bloco de Cobre central com um Núcleo de Animação."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os corais podem ser de qualquer tipo. Eles podem ser curados clicando neles com o botão direito com corais."
+    }
+  ]
+}

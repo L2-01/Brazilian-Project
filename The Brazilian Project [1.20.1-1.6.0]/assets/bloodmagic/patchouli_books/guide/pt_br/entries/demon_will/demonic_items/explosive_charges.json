@@ -1,0 +1,214 @@
+{
+  "name": "Cargas Explosivas",
+  "icon": "bloodmagic:shaped_charge",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mineração e extração de madeira são ótimas para quem se recusa a sonhar grande, mas que sanguimante que se preze se rebaixaria a isso? $(br2)Com isso em mente, você concebeu alguns dispositivos ardilosos. Basta jogá-los em árvores incômodas, rochas, ou o que quer que você deseje que deixe de existir e espere eles se autoacenderem."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Não só isso, você pode melhorar sua funcionalidade $(item)Ungindo$()-os com certos ingredientes e um pouco de $(raw)Will$(), como descrito após cada entrada.$(br2)As unções atualmente disponíveis são: $(li)Afortunada — blocos quebrados são afetados por $(thing)Fortuna$(). $(li)Ferramenta Aquecida — Blocos quebrados são $(thing)Fundidos$(). $(li)Toque Suave — Blocos quebrados são afetados por $(thing)Toque Suave$(). $(li)Anulação — blocos 'lixo' são anulados em vez de largar como itens."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Carga Modelada",
+      "recipe": "bloodmagic:soulforge/shaped_charge",
+      "anchor": "shaped_charge",
+      "text": "A $(item)Carga Modelada$() destruirá um cubo de 5x5x5 de frente para o lado do bloco em que cair, derrubando todos os blocos como se minerados com picareta. Funciona até em Obsidiana, e faz um $(o)KABUM$() muito satisfatório no processo."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Anulação",
+      "a.recipe": "bloodmagic:soulforge/shaped_charge_voiding",
+      "b.heading": "Ferramenta Aquecida",
+      "b.recipe": "bloodmagic:soulforge/shaped_charge_smelting",
+      "c.heading": "Toque Suave",
+      "c.recipe": "bloodmagic:soulforge/shaped_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Afortunada",
+      "recipe": "bloodmagic:soulforge/shaped_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Carga Modelada Aumentada",
+      "recipe": "bloodmagic:soulforge/aug_shaped_charge",
+      "anchor": "shaped_charge_2",
+      "text": "A $(item)Carga Modelada Aumentada$() é um upgrade direto da Carga Modelada padrão. Destruirá um cubo de 7x7x7 de frente para o lado do bloco em que cair, derrubando todos os blocos como se minerados com picareta. Também pode ser ungida com $(thing)Fortuna II$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Anulação",
+      "a.recipe": "bloodmagic:soulforge/aug_shaped_charge_voiding",
+      "b.heading": "Ferramenta Aquecida",
+      "b.recipe": "bloodmagic:soulforge/aug_shaped_charge_smelting_l",
+      "c.heading": "Toque Suave",
+      "c.recipe": "bloodmagic:soulforge/aug_shaped_charge_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Afortunado",
+      "a.recipe": "bloodmagic:soulforge/aug_shaped_charge_fortune_1_l",
+      "b.heading": "Afortunado II",
+      "b.recipe": "bloodmagic:soulforge/aug_shaped_charge_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Carga Modelada de Escavação",
+      "recipe": "bloodmagic:soulforge/shaped_charge",
+      "anchor": "shaped_charge_tunneling",
+      "text": "A $(item)Carga Modelada de Escavação$() destruirá um túnel de 5x5x20 de frente para o lado do bloco em que cair, derrubando todos os blocos como se minerados com picareta. Boa para minerar."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Anulação",
+      "a.recipe": "bloodmagic:soulforge/shaped_charge_deep_voiding",
+      "b.heading": "Ferramenta Aquecida",
+      "b.recipe": "bloodmagic:soulforge/shaped_charge_deep_smelting_l",
+      "c.heading": "Toque Suave",
+      "c.recipe": "bloodmagic:soulforge/shaped_charge_deep_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Afortunado",
+      "a.recipe": "bloodmagic:soulforge/shaped_charge_deep_fortune_1_l",
+      "b.heading": "Afortunado II",
+      "b.recipe": "bloodmagic:soulforge/shaped_charge_deep_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Carga Desflorestadora",
+      "recipe": "bloodmagic:soulforge/deforester_charge",
+      "anchor": "deforester_charge",
+      "text": "A $(item)Carga Desflorestadora$() serve para derrubar árvores. Pode ser usada em troncos ou folhas, e derrubará todas exceto as mais imponentes das árvores, quebrando até $(item)duas pilhas$() de troncos por vez (e removendo limpemente quaisquer folhas que encontrar no processo!) Até as árvores gigantes da Selva cairão em segundos."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Anulação",
+      "a.recipe": "bloodmagic:soulforge/deforester_charge_voiding",
+      "b.heading": "Ferramenta Aquecida",
+      "b.recipe": "bloodmagic:soulforge/deforester_charge_smelting",
+      "c.heading": "Toque Suave",
+      "c.recipe": "bloodmagic:soulforge/deforester_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Afortunada",
+      "recipe": "bloodmagic:soulforge/deforester_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Carga Desflorestadora II",
+      "recipe": "bloodmagic:soulforge/deforester_charge_2",
+      "anchor": "deforester_charge_2",
+      "text": "A $(item)Carga Desflorestadora II$(), assim como a Carga Desflorestadora padrão, serve para quebrar madeira e árvores. Pode quebrar até 8x64 troncos, removendo quaisquer folhas conectadas. Excelente para fazer uma boa clareira em qualquer Floresta de Carvalho Escuro ou Selva que você goste."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Anulação",
+      "a.recipe": "bloodmagic:soulforge/deforester_charge_voiding",
+      "b.heading": "Ferramenta Aquecida",
+      "b.recipe": "bloodmagic:soulforge/deforester_charge_2_smelting_l",
+      "c.heading": "Toque Suave",
+      "c.recipe": "bloodmagic:soulforge/deforester_charge_2_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Afortunado",
+      "a.recipe": "bloodmagic:soulforge/deforester_charge_2_fortune_1_l",
+      "b.heading": "Afortunado II",
+      "b.recipe": "bloodmagic:soulforge/deforester_charge_2_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Carga Controlada",
+      "recipe": "bloodmagic:soulforge/vein_charge",
+      "anchor": "controlled_charge",
+      "text": "A $(item)Carga Controlada$() só destrói blocos $(thing)idênticos ao bloco em que cai$(). Destruirá até 3 pilhas de blocos, buscando a partir do ponto original. Assim como outras cargas, todos os blocos minerados serão derrubados."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Anulação",
+      "a.recipe": "bloodmagic:soulforge/vein_charge_voiding",
+      "b.heading": "Ferramenta Aquecida",
+      "b.recipe": "bloodmagic:soulforge/vein_charge_smelting",
+      "c.heading": "Toque Suave",
+      "c.recipe": "bloodmagic:soulforge/vein_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Afortunada",
+      "recipe": "bloodmagic:soulforge/vein_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Carga Controlada II",
+      "recipe": "bloodmagic:soulforge/vein_charge_2",
+      "anchor": "controlled_charge_2",
+      "text": "A $(item)Carga Controlada II$() se comporta identicamente à $(item)Carga Controlada$(), porém destruirá até 8 pilhas de blocos por vez."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Anulação",
+      "a.recipe": "bloodmagic:soulforge/vein_charge_2_voiding",
+      "b.heading": "Ferramenta Aquecida",
+      "b.recipe": "bloodmagic:soulforge/vein_charge_2_smelting_l",
+      "c.heading": "Toque Suave",
+      "c.recipe": "bloodmagic:soulforge/vein_charge_2_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Afortunado",
+      "a.recipe": "bloodmagic:soulforge/vein_charge_2_fortune_1_l",
+      "b.heading": "Afortunado II",
+      "b.recipe": "bloodmagic:soulforge/vein_charge_2_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Carga Fúngica",
+      "recipe": "bloodmagic:soulforge/fungal_charge",
+      "anchor": "fungal_charge",
+      "text": "A $(item)Carga Fúngica$() serve para derrubar cogumelos gigantes, tanto na Superfície quanto no Nether. Embora duvidoso que você alcance isso numa só carga, ela pode quebrar até $(item)três pilhas de blocos$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Anulação",
+      "a.recipe": "bloodmagic:soulforge/fungal_charge_voiding",
+      "b.heading": "Ferramenta Aquecida",
+      "b.recipe": "bloodmagic:soulforge/fungal_charge_smelting",
+      "c.heading": "Toque Suave",
+      "c.recipe": "bloodmagic:soulforge/fungal_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Afortunada",
+      "recipe": "bloodmagic:soulforge/fungal_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Carga Fúngica II",
+      "recipe": "bloodmagic:soulforge/fungal_charge",
+      "anchor": "fungal_charge_2",
+      "text": "A $(item)Carga Fúngica II$() serve para derrubar cogumelos gigantes, tanto na Superfície quanto no Nether. Pode destruir até 8 pilhas de cogumelicidade por carga. $(br2)Por que você precisaria disso?"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Anulação",
+      "a.recipe": "bloodmagic:soulforge/fungal_charge_2_voiding",
+      "b.heading": "Ferramenta Aquecida",
+      "b.recipe": "bloodmagic:soulforge/fungal_charge_2_smelting_l",
+      "c.heading": "Toque Suave",
+      "c.recipe": "bloodmagic:soulforge/fungal_charge_2_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Afortunado",
+      "a.recipe": "bloodmagic:soulforge/fungal_charge_2_fortune_1_l",
+      "b.heading": "Afortunado II",
+      "b.recipe": "bloodmagic:soulforge/fungal_charge_2_fortune_2_l"
+    }
+  ]
+}

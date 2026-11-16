@@ -1,0 +1,36 @@
+{
+  "name": "Cajado sem Nome",
+  "icon": "goety:nameless_staff",
+  "category": "goety:crafts/staff",
+  "advancement": "goety:goety/read_forbidden_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com os textos proibidos, você descobriu um jeito de domar o poder da noite, permitindo criar um cajado poderoso que lhe traz supremacia na necromancia."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:heart_of_the_night"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:nameless_staff"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os $(l:focuses/soul_bolt_focus)Dardos de Alma$() disparados deste cajado se transformarão nos mais poderosos Dardos Necróticos. Conjurar o $(l:focuses/illusion_focus)Feitiço Espelho$() enquanto também veste o $(l:crafts/garment/nameless_set)Conjunto Sem Nome$() fará com que eles disparem um único Dardo Necrótico no seu alvo."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:haunted_mirror",
+      "title": "Mudando de Cor",
+      "advancement": "goety:goety/read_haunting_scroll",
+      "text": "Você também pode mudar a cor do orbe do seu cajado clicando com o botão direito em um Espelho Assombrado com um corante enquanto o segura na mão secundária. Para remover a cor personalizada, clique no espelho com o botão direito usando um balde de água, também segurando-o na mão secundária."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:heart_of_the_night": 1,
+    "goety:nameless_staff": 2
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Especiarias",
+  "icon": "caupona:chives_spice_jar",
+  "category": "caupona:intro",
+  "sortnum": 24,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Especiarias podem ser aplicadas a ensopados e pratos salteados quando retirados de panelas ou frigideiras. Especiarias geralmente concedem um efeito."
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/sugar_spice_jar",
+      "text": "Açúcar concede Velocidade."
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/chives_spice_jar",
+      "text": "Cebolinha concede Queda Lenta."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:garum_spice_jar",
+      "text": "Garum é feito de peixe em dólios, concedendo Impulso de Salto."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:vinegar_spice_jar",
+      "text": "Vinagre é feito de bagas ou maçã em dólios, concedendo Visão Noturna."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:sapa_spice_jar",
+      "text": "Defrutum não pode ser produzido sozinho, mas ocorre em comidas cozidas com $(l:intro/lead_cookwares)utensílios de chumbo$(/l), conferindo Hiperativo. Este efeito funciona de forma semelhante à Força, mas dobra o dano que você recebe."
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/asafoetida_spice_jar",
+      "text": "Asafétida vem, em última instância, de $(l:intro/vege#silphium)silphia$(/l), concedendo Resistência."
+    }
+  ]
+}

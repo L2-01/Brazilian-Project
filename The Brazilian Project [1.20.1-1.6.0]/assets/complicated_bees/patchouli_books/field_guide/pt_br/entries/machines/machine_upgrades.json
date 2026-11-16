@@ -1,0 +1,39 @@
+{
+  "name": "Melhorias de Máquina",
+  "icon": "complicated_bees:basic_upgrade",
+  "category": "complicated_bees:machines",
+  "advancement": "complicated_bees:propolis",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com abelhas suficientes produzindo favos, especialmente em escala industrial, você vai querer começar a melhorar suas máquinas. A sempre útil própolis e alguns outros materiais criam módulos especiais que você pode usar para aprimorar suas máquinas!$(br2)Todas as melhorias de máquina se acumulam multiplicativamente, assim como os quadros."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:basic_upgrade",
+      "title": "Melhoria Básica",
+      "text": "Esta melhoria é a base de todas as outras melhorias; sozinha, fornece um pequeno impulso à eficiência e à velocidade."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:waxed_upgrade",
+      "recipe2": "complicated_bees:honeyed_upgrade"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:silky_upgrade",
+      "recipe2": "complicated_bees:twisted_upgrade"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:royal_upgrade",
+      "title": "Melhoria Real",
+      "text": "Esta melhoria é a base de algumas melhorias de nível superior muito poderosas; sozinha, fornece um impulso moderado à eficiência e à velocidade."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:endenic_upgrade",
+      "recipe2": "complicated_bees:withered_upgrade"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Cubo de LED",
+    "icon": "mimi:ledcube_a",
+    "category": "mimi:4redstone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Cubo de LED",
+            "item": "mimi:ledcube_a",
+            "text": "O Cubo de LED é um bloco que pode ser definido para uma de 16 cores diferentes e brilha quando alimentado por Redstone.$(br2)Cubos de LED funcionam bem com Ouvintes e Receptores porque reagem rapidamente à Redstone. Porém, Cubos de LED não alteram o nível de luz ao seu redor e não impedem criaturas de surgirem."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Receita",
+            "recipe": "mimi:ledcube_a",
+            "text": "Os designs de Cubo de LED podem ser trocados colocando 4 cubos com o mesmo design num quadrado numa grade de criação.$(br2)Você também pode colocar duas pilhas de Cubos de LED diretamente lado a lado numa grade de criação para copiar o design, a cor e as configurações de inversão da pilha à esquerda para a pilha à direita."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Para mudar a cor de um Cubo de LED no mundo, basta clicar nele com o botão direito com a mão vazia.$(br2)Você pode inverter um Cubo de LED (fazê-lo acender sem um sinal de redstone) no mundo clicando nele com o botão direito enquanto segura uma tocha de redstone ou um bloco de redstone."
+        }
+    ],
+    "sortnum": 4
+}

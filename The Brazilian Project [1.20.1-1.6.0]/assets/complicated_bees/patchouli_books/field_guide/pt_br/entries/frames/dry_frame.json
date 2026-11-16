@@ -1,0 +1,16 @@
+{
+  "name": "Quadro Seco",
+  "icon": "complicated_bees:dry_frame",
+  "category": "complicated_bees:frames",
+  "advancement": "complicated_bees:frame",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A areia absorve o excesso de umidade do ar, mas tende a entupir os espiráculos das abelhas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:dry_frame"
+    }
+  ]
+}

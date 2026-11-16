@@ -1,0 +1,15 @@
+{
+  "name": "Liquefazedor de Elementos",
+  "icon": "alchemistry:liquifier",
+  "category": "alchemistry:liquifier_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Liquefazedor é uma máquina energizada que pode ser usada para converter elementos e compostos em seus equivalentes fluidos.$(br2)$(o)Das notas do Professor Warren: Claro, todo processo deve ser reversível. A quantidade certa de pressão pode ser usada para forçar os frascos atômicos de volta à forma líquida por compressão contra ferro."
+    },
+    {
+      "type": "crafting",
+      "recipe": "alchemistry:liquifier"
+    }
+  ]
+}

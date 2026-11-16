@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Pulverização",
+  "icon": "goety:pulverize_focus",
+  "category": "goety:focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Equipar este foco numa varinha ou cajado permite pulverizar certos blocos em versões rachadas, ou em cascalho e depois areia, clicando num bloco com o botão direito."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/pulverize_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/geo_staff)Cajado Geomante$() pulverizará blocos 3x3 sem encantamento."
+    }
+  ]
+}

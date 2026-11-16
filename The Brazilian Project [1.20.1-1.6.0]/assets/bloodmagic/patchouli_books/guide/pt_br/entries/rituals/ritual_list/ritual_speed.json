@@ -1,0 +1,59 @@
+{
+  "name": "Ritual da Velocidade",
+  "icon": "minecraft:sugar",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "name": "Ritual da Velocidade",
+      "multiblock_id": "bloodmagic:speed",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "speed"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "speed",
+      "page_type": "raw",
+      "text_overrides": [
+        [
+          "Will Bruta",
+          "raw"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "speed",
+      "page_type": "corrosive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "speed",
+      "page_type": "vengeful"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "speed",
+      "page_type": "destructive",
+      "text_overrides": [
+        [
+          "Will Destrutiva",
+          "destructive"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "speed",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "speed",
+      "page_type": "sanicRange"
+    }
+  ]
+}

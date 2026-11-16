@@ -1,0 +1,107 @@
+{
+  "name": "Servo Zumbi",
+  "icon": "minecraft:zombie_head",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Zumbis são a criatura morta-viva mais comum a rastejar para fora do escuro, e não é surpresa que invocá-los e controlá-los não seja exatamente difícil, seja por feitiço ou ritual."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os textos a seguir detalharão as variantes de zumbis que um necromante pode invocar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pode-se invocar essas criaturas através de um $(l:focuses/necromancy/rotting_focus)Foco Apodrecedor$(), ou por um ritual que invoca um sem vida limitada."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_zombie_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:zombie_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Servos Zumbi são simples em suas funções: matam qualquer um que fira você ou qualquer criatura hostil e o seguem assim como Lobos Domesticados, só que mais altos e fedorentos. "
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:husk_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Servos Zumbi podem ser invocados ou convertidos em diferentes variantes. Conjurar o Foco Apodrecedor num Deserto exposto ao céu invocará um Servo Cascoso."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:drowned_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Tentar invocar um Zumbi debaixo d'água invocaria um Servo Afogado em vez disso. Servos Afogados podem aceitar Tridentes e atacarão da mesma forma que um Afogado comum."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:zombie_villager_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Um simples Aldeão Zumbi, só que mais leal e menos curável. Invocar um zumbi numa Aldeia invocará um Servo Aldeão Zumbi."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:frozen_zombie_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Invocar um Zumbi num ambiente frio e nevado, ou com um $(l:crafts/staff/frost_staff)Cajado de Gelo$(), invocará um Servo Zumbi Congelado. Servos Zumbis Congelados deixarão seus alvos mais lentos com seus punhos ou com as bolas de neve que arremessam. Assim como os Errantes, eles não sofrem dano de Congelamento."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:jungle_zombie_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Enquanto estiver num bioma de Selva, pode haver chance de invocar um Servo Zumbi da Selva em vez disso, 100%% se invocado com um $(l:crafts/staff/wild_staff)Cajado Selvagem$(). Seus ataques infligem Veneno, mas se o invocador vestir os $(l:crafts/garment/wild_robe)Mantos Selvagens$(), infligirão Veneno Ácido."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:frayed_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando exposto a uma tempestade aberta, há 50%% de chance de invocar um Servo Desfiado em vez de um Zumbi comum, 100%% quando invocado com um $(l:crafts/staff/storm_staff)Cajado de Tempestade$(). Eles infligem Espasmos ao atacar e sofrem 50%% menos dano de ataques de choque ou relâmpago."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:zombie_vindicator"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Invocar um zumbi dentro das mansões dos Illagers invocará Vindicadores Zumbis leais em vez disso. Parece que muitos Vindicadores estão enterrados dentro de seus lares, ainda segurando seus machados."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:zpiglin_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Nether é tão cheio de Piglins-Zumbificados que não é surpresa que conjurar o feitiço dentro do reino abominável invocará um que seja leal a você. Resistente ao fogo e assusta Piglins como qualquer outro de sua espécie."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:zpiglin_brute_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os bárbaros guardiões dos bastiões raramente, ou nunca, saem de casa, e a maioria teve seus corpos queimados pela lava ao redor. Mesmo assim, ainda há uma chance de invocar uma versão Zumbificada ao conjurar dentro de suas fortalezas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Servos Zumbi em todas as variantes podem aceitar qualquer Armadura, mas só aceitam Espadas ou Machados."
+    }
+  ]
+}

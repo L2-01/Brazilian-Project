@@ -1,0 +1,37 @@
+{
+  "name": "guide.animus.entry.hand_of_death",
+  "category": "animus:compatibility",
+  "icon": "animus:hand_of_death",
+  "flag": "mod:malum",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Mão da Morte é a evolução final da Foice Senciente Rúnica. Forjada com aço demoníaco e infundida com poder letal, esta arma executa inimigos enfraquecidos e cura seu portador através da força vital dos mortos."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:hand_of_death",
+      "text": "$(will)Ceifador de Almas Supremo$()$(br2)O ápice do armamento demoníaco. Combina todos os recursos da Foice Senciente Rúnica com roubo de vida devastador e mecânicas de execução."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Roubo de Vida",
+      "text": "Cada golpe da Mão da Morte cura você em $(blood)20%%$() do dano causado:$(br2)$(li)Cura mínima de 1 de vida$(li)Funciona com todo dano$(li)Acumula com outras curas$(li)Sem recarga$(br2)$(italic)Combinado com o alto dano da arma, isso fornece sustentação substancial em lutas prolongadas.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Execução",
+      "text": "Quando um inimigo fica abaixo de $(blood)15%%$() de vida, a Mão da Morte pode $(bold)executá-lo instantaneamente$():$(br2)$(li)Ativa no seu próximo golpe$(li)Ignora a vida restante$(li)Mostra mensagem de execução$(li)Drops completos de alma/espírito$(br2)$(will)⚰ EXECUTADO$()$(br2)Isso torna a arma devastadora contra alvos de vida alta e chefes."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Poderes Herdados",
+      "text": "A Mão da Morte mantém todos os recursos da $(l:animus:compatibility/runic_sentient_scythe)Foice Senciente Rúnica$():$(br2)$(li)$(will)+30%% de velocidade de ataque$()$(li)Escala completa de vontade demoníaca$(li)Colheita de espíritos do Malum$(li)Todos os efeitos de arma senciente$(br2)$(bold)+14 de dano base bônus$() sobre a Foice Senciente Rúnica torna esta uma das armas corpo a corpo mais poderosas disponíveis."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fabricação",
+      "text": "A Mão da Morte requer materiais avançados:$(br2)$(li)$(item)Foice Senciente Rúnica$()$(li)$(item)Aço Forjado por Demônio$()$(li)$(blood)Essência Vital significativa$()$(br2)Esta é uma arma de fim de jogo que requer maestria dos sistemas Blood Magic e Malum. Veja a receita para os requisitos exatos de fabricação."
+    }
+  ]
+}

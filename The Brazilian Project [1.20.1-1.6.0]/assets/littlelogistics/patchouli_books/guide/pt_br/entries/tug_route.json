@@ -1,0 +1,16 @@
+{
+    "name": "Rota do Rebocador",
+    "icon": "littlelogistics:tug_route",
+    "category": "littlelogistics:items",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:tug_route",
+            "text": "Este item armazena uma rota para o rebocador. Quando o item é colocado no espaço de rota do rebocador, o rebocador seguirá a rota em ordem a partir do nó 0."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Clique com o botão direito em qualquer coordenada para adicionar um nó ao fim da rota do rebocador (não é possível adicionar no meio). Clique com o botão direito na localização de um nó existente para removê-lo. Os nós serão indicados com feixes quando o item estiver na mão principal."
+        }
+    ]
+}

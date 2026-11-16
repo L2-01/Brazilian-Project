@@ -1,0 +1,20 @@
+{
+  "language.default.tooltip": "O idioma padrão do Minecraft",
+
+  "options.languagereload.title": "Opções do Language Reload",
+  "options.languagereload.multilingualItemSearch": "Busca Multilíngue",
+  "options.languagereload.multilingualItemSearch.tooltip": "Ativa a busca em qualquer um dos idiomas selecionados no inventário criativo e no livro de receitas.",
+  "options.languagereload.removableDefaultLanguage": "Idioma Padrão",
+  "options.languagereload.removableDefaultLanguage.removable": "Removível",
+  "options.languagereload.removableDefaultLanguage.removable.tooltip": "Permite que English (US) seja desmarcado. Pode ser útil para depuração.",
+  "options.languagereload.removableDefaultLanguage.fixed": "Fixo",
+  "options.languagereload.removableDefaultLanguage.fixed.tooltip": "Impede que English (US) seja desmarcado.",
+
+  "debug.reload_languages.help": "F3 + J = Recarregar idiomas (shift para alternar idiomas)",
+  "debug.reload_languages.message": "Idiomas recarregados",
+  "debug.reload_languages.switch.success": "Idioma definido para %s",
+  "debug.reload_languages.switch.failure": "Não foi possível alternar os idiomas. Mude para outro idioma nas configurações e tente novamente",
+
+  "modmenu.summaryTranslation.languagereload": "Reduz os tempos de carregamento e adiciona fallbacks para idiomas.",
+  "modmenu.descriptionTranslation.languagereload": "Acelera a troca de idioma, introduz uma caixa de busca e multisseleção no menu de idiomas, torna a busca de itens multilíngue e adiciona recursos de depuração para alternar idiomas com Shift + F3 + J e recarregá-los com F3 + J."
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Caranguejo de Ametista Zumbi",
+  "icon": "cataclysm:amethyst_crab_shell",
+  "category": "goety:cataclysm/summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Caranguejões de Ametista são raros, e invocar e vincular um parece bem difícil para uma criatura tão perfeita. Quando todo o resto falha, a Necromancia é a solução perfeita para os problemas da vida."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:zombie_amethyst_crab",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_zombie_amethyst_crab_servant_thrall"
+    }
+  ]
+}

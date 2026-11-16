@@ -1,0 +1,15 @@
+{
+  "name": "Atomizador de Fluidos",
+  "icon": "alchemistry:atomizer",
+  "category": "alchemistry:atomizer_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Atomizador é uma máquina energizada usada para converter fluidos em seus elementos ou compostos Alchemistry equivalentes.$(br)$(o)Das notas do Professor Warren: Líquidos são as coisas mais simples de decompor. O mero uso de pistões para expulsá-los dos caldeirões os transforma em frascos atômicos fáceis de guardar."
+    },
+    {
+      "type": "crafting",
+      "recipe": "alchemistry:atomizer"
+    }
+  ]
+}

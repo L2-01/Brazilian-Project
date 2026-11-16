@@ -1,0 +1,34 @@
+{
+  "name": "Fungo Mordedor",
+  "icon": "goety:snap_warts",
+  "category": "goety:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você descobriu um novo tipo de fungo que só cresce em Caules/Hifas Carmesim ou Distorcidos, chamado Fungo Mordedor. O Fungo é uma bola cheia de toxinas que não dá vontade de fazer outra coisa senão arremessá-la para o ar. Ao atingir algo, eles explodem, com chance de deixar para trás uma pequena nuvem de veneno. Curiosamente, a explosão não afeta o arremessador nem seus servos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:snap_warts"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:snap_fungus",
+      "text": "Parece que você só consegue arremessar uma grande quantidade deles por vez. Por um lado, você pode arremessar vários de uma vez; por outro, não pode arremessar mais nenhum por alguns segundos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:blast_fungus",
+      "text": "Você também descobriu um jeito de aumentar a potência dos fungos combinando 4 deles com uma Lágrima de Ghast. As explosões desses fungos têm raio maior, mas não deixam mais nuvens de veneno."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:berserk_fungus",
+      "text": "Ao colocar Fungos Mordedores com um Lírio-do-Vale num Suporte de Poções, você conseguiu criar o Fungo Furioso. Diferente dos outros dois fungos, este é arremessado como Bolas de Neve e Ovos, e concede a quem for atingido Força, Agilidade e, infelizmente para seres como você, Náusea."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:snap_fungus": 2,
+    "goety:berserk_fungus": 4
+  }
+}

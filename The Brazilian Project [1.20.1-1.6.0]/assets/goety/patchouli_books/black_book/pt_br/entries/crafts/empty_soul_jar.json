@@ -1,0 +1,16 @@
+{
+  "name": "Pote de Almas Vazio",
+  "icon": "goety:empty_soul_jar",
+  "category": "goety:crafts",
+  "advancement": "goety:goety/unlock_necromancer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com um pouco de Pedra de Sombra, você consegue criar um pote que pode conter a alma de certos Servos que, quando usado em certas entidades, as revive."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:empty_soul_jar"
+    }
+  ]
+}

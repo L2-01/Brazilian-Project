@@ -1,0 +1,11 @@
+{
+    "category": "irregular_implements:plates",
+    "icon": "irregular_implements:item_rejuvenator_plate",
+    "name": "Chapa de Rejuvenescimento de Itens",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Qualquer entidade de item que tocar a $(d)Chapa de Rejuvenescimento de Itens$() terá seu temporizador de desaparecimento redefinido para 4 minutos e sua idade zerada."
+        }
+    ]
+}

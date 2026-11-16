@@ -1,0 +1,28 @@
+{
+  "name": "Ajustes de ejetor",
+  "icon": "minecraft:dispenser",
+  "category": "caupona:tweaks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Ejetores agora têm algumas funções novas para automatizar o cozimento."
+    },
+    {
+      "type": "text",
+      "text": "Quando há tigelas ou baldes dentro de um ejetor, ele tenta drenar recipientes de fluido à sua frente. Isso pode automatizar a saída de ensopado."
+    },
+    {
+      "type": "text",
+      "text": "Quando há baldes de água ou tigelas de ensopado dentro de um ejetor, ele tenta encher o recipiente de fluido à sua frente. Isso serve para adicionar água às panelas automaticamente."
+    },
+    {
+      "type": "text",
+      "text": "Quando há garrafas de óleo dentro de um ejetor e uma molheira (garrafa de óleo colocada) à frente, ele tenta trocar a molheira por uma do inventário."
+    },
+    {
+      "type": "text",
+      "text": "Além disso, colocar tigelas dentro de um ejetor permite retirar pratos prontos das frigideiras. Colocar potes de especiaria no ejetor substitui outros potes nas GUIs dos utensílios."
+    }
+  ]
+}

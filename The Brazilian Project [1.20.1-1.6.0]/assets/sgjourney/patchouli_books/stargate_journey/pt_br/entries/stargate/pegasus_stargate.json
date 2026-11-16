@@ -1,0 +1,21 @@
+{
+ "name": "Stargate de Pegasus",
+ "icon": "sgjourney:pegasus_stargate",
+ "sortnum": 4,
+ "category": "sgjourney:stargates",
+ "pages": [
+  {
+   "title": "Stargate de Pegasus",
+   "type": "patchouli:image",
+   "images": [
+    "sgjourney:textures/gui/patchouli/pegasus_stargate.png"
+   ],
+   "text": "Stargate de Geração 3 com 36 símbolos."
+  },
+  {
+   "title": "Peculiaridades",
+   "type": "patchouli:text",
+   "text": "Esta Stargate não pode ser discada manualmente. Embora apenas 36 símbolos sejam exibidos no anel, o portal em si pode discar 48 símbolos."
+  }
+ ]
+}

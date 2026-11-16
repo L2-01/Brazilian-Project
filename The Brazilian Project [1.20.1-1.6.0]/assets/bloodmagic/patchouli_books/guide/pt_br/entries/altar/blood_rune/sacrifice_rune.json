@@ -1,0 +1,25 @@
+{
+  "name": "Runa de Sacrifício",
+  "icon": "bloodmagic:sacrificerune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Runa de Sacrifício$() aumenta a quantidade de $(blood)Essência Vital$() obtida no Altar de Sangue por meios que tiram vida de entidades não-jogador. Cada runa dá um bônus de +10% aditivo por runa."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_sacrifice"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_sac_2",
+      "text": "Com um pouco de $(item)Fragmentos de Netherita$() e algumas $(item)Peças Intrincadas Forjadas no Inferno$() saqueadas do $(l:bloodmagic:dungeons/endless_realm)Reino Demoníaco$(), você pode dobrar o poder da sua $(item)Runa de Sacrifício$(), aumentando o bônus para +20% aditivo por runa."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/sac",
+      "text": "Se mudar de ideia, você pode desfazer a receita na ARC."
+    }
+  ]
+}

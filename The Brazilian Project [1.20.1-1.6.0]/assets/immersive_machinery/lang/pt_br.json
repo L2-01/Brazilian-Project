@@ -1,0 +1,56 @@
+{
+  "itemGroup.immersive_machinery.immersive_machinery_tab": "Immersive Machinery",
+
+  "entity.immersive_machinery.tunnel_digger": "Escavadora de Túneis",
+  "entity.immersive_machinery.bamboo_bee": "Abelha de Bambu",
+  "entity.immersive_machinery.redstone_sheep": "Ovelha de Redstone",
+  "entity.immersive_machinery.copperfin": "Barbatana de Cobre",
+
+  "item.immersive_machinery.tunnel_digger": "Escavadora de Túneis",
+  "item.immersive_machinery.tunnel_digger.description": "Uma máquina que pode cavar túneis com facilidade.",
+
+  "item.immersive_machinery.bamboo_bee": "Abelha de Bambu",
+  "item.immersive_machinery.bamboo_bee.description": "Um pequeno drone programável que movimenta itens.",
+
+  "item.immersive_machinery.redstone_sheep": "Ovelha de Redstone",
+  "item.immersive_machinery.redstone_sheep.description": "Colhe plantações ao redor e retorna ao ponto de origem quando cheia ou ociosa.",
+
+  "item.immersive_machinery.copperfin": "Barbatana de Cobre",
+  "item.immersive_machinery.copperfin.description": "Alimentada por um conduíte, permite viagem e trabalho subaquático mais fáceis.",
+
+  "item.immersive_machinery.redstone_mechanism": "Mecanismo de Redstone",
+  "item.immersive_machinery.iron_drill": "Broca de Ferro",
+  "item.immersive_machinery.diamond_drill": "Broca de Diamante",
+  "item.immersive_machinery.netherite_drill": "Broca de Netherita",
+
+  "gui.immersive_machinery.bamboo_bee.tooltip.help1": "Agache + botão direito em um contêiner para adicionar.",
+  "gui.immersive_machinery.bamboo_bee.tooltip.help2": "Agache + botão direito em qualquer outro bloco para redefinir.",
+  "gui.immersive_machinery.bamboo_bee.tooltip.header": "Tem %s contêineres:",
+  "gui.immersive_machinery.bamboo_bee.tooltip.input": "→ %s",
+  "gui.immersive_machinery.bamboo_bee.tooltip.output": "← %s",
+  "gui.immersive_machinery.bamboo_bee.positions_cleared": "Posições limpas",
+  "gui.immersive_machinery.bamboo_bee.position_removed": "Removido",
+  "gui.immersive_machinery.bamboo_bee.position_output": "Definir como saída",
+  "gui.immersive_machinery.bamboo_bee.position_input": "Definir como entrada",
+
+  "gui.immersive_machinery.bamboo_bee.help": "Abrir página de ajuda",
+
+  "gui.immersive_machinery.tunnel_digger.drill": "Alternar broca (%s)",
+
+  "gui.immersive_machinery.copperfin.sonar": "Sonar (%s)",
+
+  "gui.immersive_machinery.bamboo_bee.whitelist": "Lista Branca",
+  "gui.immersive_machinery.bamboo_bee.blacklist": "Lista Negra",
+  "gui.immersive_machinery.bamboo_bee.filter.name": "Filtrar por nome",
+  "gui.immersive_machinery.bamboo_bee.filter.tag": "Filtrar por Marcador NBT",
+  "gui.immersive_machinery.bamboo_bee.order.round_robin": "Rodízio",
+  "gui.immersive_machinery.bamboo_bee.order.first": "Pegar primeiro",
+
+  "immersive_machinery.tunnel_digger.drill_on": "Broca ligada",
+  "immersive_machinery.tunnel_digger.drill_off": "Broca desligada",
+
+  "immersive_aircraft.upgrade.drillingspeed": "%s%% de velocidade de perfuração",
+
+  "gui.immersive_machinery.slot.im_shards": "Fragmentos de Ametista para perfuração mais rápida",
+  "gui.immersive_machinery.slot.im_filter": "Filtro de Itens"
+}

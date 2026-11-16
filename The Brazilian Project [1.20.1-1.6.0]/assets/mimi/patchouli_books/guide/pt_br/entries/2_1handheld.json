@@ -1,0 +1,22 @@
+{
+    "name": "Instrumentos de Mão",
+    "icon": "mimi:violin",
+    "category": "mimi:2instruments",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Instrumentos de mão no MIMI são aqueles que podem ser tocados enquanto segurados na sua mão principal ou na sua mão secundária.$(br2)Você pode segurar instrumentos nas duas mãos e tocá-los simultaneamente quando eles estiverem tocando notas de um Transmissor vinculado."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Tocando",
+            "text": "Selecione um instrumento na sua barra de acesso rápido com sua mão principal ou coloque-o no slot da mão secundária. Depois, clique com o botão direito enquanto segura o instrumento para abrir a Tela do Instrumento.$(br2)Ao segurar um instrumento em cada mão, clicar com o botão direito abrirá a Tela do Instrumento do instrumento da sua mão principal. Usando teclas de atalho, você pode abrir diretamente os instrumentos da sua mão principal ($(bold)$(k:key.mimi.midi.gui.main)$()) ou secundária ($(bold)$(k:key.mimi.midi.gui.off)$())."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Criaturas",
+            "text": "Certas criaturas também podem receber instrumentos de mão ao clicar com o botão direito na criatura com o instrumento. Criaturas segurando instrumentos vinculados a um transmissor tocarão notas do transmissor.$(br2)A lista de criaturas que podem usar instrumentos pode ser configurada, mas por padrão inclui:$(br2)Zumbis (e variantes), Esqueletos (e variantes) e Serenos."
+        }
+    ],
+    "sortnum": 1
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Panelas de Ensopado",
+  "icon": "caupona:stew_pot",
+  "category": "caupona:intro",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "smelting",
+      "recipe": "caupona:stew_pot",
+      "text": "Panelas de ensopado são utensílios para cozinhar $(l:intro/soup)sopa$(/l). Devem ser colocadas sobre fontes de calor como $(l:intro/stove)fogões$(/l) ou $(l:worldgen/volcanic_fumarole)aberturas de fumarola$(/l)."
+    },
+    {
+      "type": "text",
+      "text": "Na GUI, os botões à esquerda iniciam o cozimento e alternam o controle de redstone, respectivamente. Os espaços 3x3 centrais guardam ingredientes."
+    },
+    {
+      "type": "text",
+      "text": "Você pode ferver, cozinhar, misturar e concentrar fluidos em panelas de ensopado. Ao cozinhar, os espaços de ingredientes travam, enquanto o fluido circula."
+    },
+    {
+      "type": "text",
+      "text": "Quando uma panela está trabalhando, ela primeiro tenta ferver fluidos. Após ferver, ela começa a cozinhar quando as condições são atendidas."
+    },
+    {
+      "type": "text",
+      "text": "Cozinhar fica disponível quando há mais de uma tigela de fluido e menos de 3 itens para cada tigela de sopa esperada."
+    },
+    {
+      "type": "text",
+      "text": "Quando há sopa na panela, você pode adicionar sua base correspondente, fervida ou não, para diluí-la. Também é possível adicionar água."
+    },
+    {
+      "type": "text",
+      "text": "Você pode adicionar poções (em garrafas) ao cozinhar qualquer ensopado, mas cada tigela de ensopado só aceita três efeitos diferentes."
+    },
+    {
+      "type": "text",
+      "text": "Com o controle de redstone ligado e sinais fornecidos, as panelas tentarão começar a cozinhar, possibilitando automação total."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Instrumentista",
+    "icon": "minecraft:emerald",
+    "category": "mimi:5other",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:villager{VillagerData:{profession:\"mimi:instrumentalist\",level:3,type:plains}}"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:tuningtable",
+            "title": "Estação de Trabalho",
+            "text": "A Estação de Trabalho do Aldeão Instrumentista é a Mesa de Afinação do MIMI.$(br2)Uma Mesa de Afinação surgirá na Casa do Instrumentista quando ela surgir numa aldeia, ou uma pode ser criada usando a $(l:2_5tuning)receita$()."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Trocas",
+            "text": "O Instrumentista pode oferecer os seguintes itens dependendo do seu nível:$(br)$(li)$(l)Nível 1$() - Disco 'cat' ou '13' do Minecraft, Bloco Musical$(br)$(li)$(l)Nível 2$() - Instrumento de Mão Aleatório$(br)$(li)$(l)Nível 3$() - Instrumento de Bloco Aleatório, Transmissor"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(l)Nível 4$() - Instrumento de Mão Aleatório, Bloco de Redstone Aleatório do MIMI$(br)$(li)$(l)Nível 5$() - Instrumento de Bloco Aleatório, Disco Musical Aleatório do Minecraft (exceto 'otherside'), Fragmento de Disco"
+        }
+    ],
+    "sortnum": 1
+}

@@ -1,0 +1,39 @@
+intro=Introdução
+melter=Fundidora
+moving_fluids=Movendo Fluidos
+casting=Fundição
+worktable=Bancada de Modificadores
+melee_harvest_materials=Materiais Gerais de Nível 2
+melee_harvest_materials.subtext=Estes materiais podem ser fundidos em peças de ferramentas corpo a corpo ou de colheita.
+ranged_materials=Materiais de Longo Alcance de Nível 2
+ranged_materials.subtext=Estes materiais podem ser fundidos em peças de ferramentas de longo alcance como arcos.
+armor_materials=Materiais de Armadura de Nível 2
+armor_materials.subtext=Estes materiais podem ser fundidos em armaduras e escudos.
+
+further_reading=Leitura Adicional
+
+armor=Armadura Pequenina
+armor.subtext=Escolha seu caminho com sua armadura; a do viajante oferece armadura altamente modificável com mais espaço para habilidades, enquanto a de placas oferece mais oportunidades de defesa. Se você não tem senso de moda, pode misturar as duas.
+
+upgrades=Aprimoramentos
+upgrades.subtext=Ferramentas podem ser melhoradas com aprimoramentos, embora apenas um número limitado possa ser aplicado por ferramenta.
+upgrades.group_general=Geral
+upgrades.group_harvest=Colheita
+upgrades.group_melee=Corpo a Corpo
+upgrades.group_ranged=Longo Alcance
+upgrades.group_damage=Dano Bônus
+upgrades.group_armor=Armadura
+upgrades.group_armor.helmet=Capacete
+upgrades.group_armor.chestplate=Peitoral
+upgrades.group_armor.leggings=Calças
+upgrades.group_armor.boots=Botas
+upgrades.boots.tconstruct.feather_fall=Peso-Pena
+# can add other modifiers using [section].[prefix].[mod_id].[modifier_id], we just use this for long names
+# you should also be able to leave off feather falling in your language and it will fallback to the language .json
+# see the section json to find the prefix, any modifier type that defines that can use it
+
+slotless=Modificador sem Espaço
+slotless.subtext=Estes modificadores não exigem espaços para aplicar; você pode ter todos se quiser.
+slotless.group_slotless=Geral
+slotless.group_bonus_upgrades=Espaços++
+slotless.group_cosmetic=Cosmético

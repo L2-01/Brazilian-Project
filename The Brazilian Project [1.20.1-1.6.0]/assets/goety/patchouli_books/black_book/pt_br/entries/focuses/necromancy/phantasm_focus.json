@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Espectro",
+  "icon": "goety:phantasm_focus",
+  "category": "goety:focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Espectros são uma verdadeira esquisitice, seres que voam entre a realidade e a irrealidade, aparecendo apenas para quem não dorme. Com este foco, você consegue invocá-los e vinculá-los à sua vontade."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/phantasm_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/necro_staff)Cajado Necrótico$() invoca mais espectros de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:phantasm_focus": 1
+  }
+}

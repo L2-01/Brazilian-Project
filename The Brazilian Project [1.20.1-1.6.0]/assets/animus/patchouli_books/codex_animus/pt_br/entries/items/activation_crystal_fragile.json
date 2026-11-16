@@ -1,0 +1,18 @@
+{
+  "name": "guide.animus.entry.activation_crystal_fragile",
+  "icon": "animus:activation_crystal_fragile",
+  "category": "animus:items",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:activation_crystal_fragile",
+      "text": "Um cristal de ativação delicado que se estilhaça após um único uso. Perfeito para rituais de uso único ou quando você precisa de um ativador descartável."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Vínculo:$() Deve ser vinculado antes do uso$(br2)$(bold)Ativação:$() Clique com o botão direito numa Pedra de Ritual Mestra com um padrão de ritual válido$(br2)$(bold)Aviso:$() $(#f00)Estilhaça após ativação bem-sucedida!$()$(br2)Diferente dos cristais de ativação padrão, esta variante frágil é consumida ao usar. Use com sabedoria.$(br2)$(italic)Poder por um preço.$()"
+    }
+  ]
+}

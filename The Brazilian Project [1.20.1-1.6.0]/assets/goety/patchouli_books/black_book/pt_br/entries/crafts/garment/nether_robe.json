@@ -1,0 +1,30 @@
+{
+  "name": "Mantos do Nether",
+  "icon": "goety:nether_robe",
+  "category": "goety:crafts/garment",
+  "advancement": "goety:goety/read_bygone_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com o conhecimento crescente do Nether, você conseguiu criar um manto que imbui o usuário com suas chamas. Os usuários serão resistentes a ataques de fogo e apagarão o fogo de si mais rapidamente. O Manto também torna os Feitiços do Nether mais baratos e faz os servos do Nether se regenerarem usando a energia de almas de seu invocador."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:nether_robe"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:nether_crown"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Coroa do Nether reduz pela metade o tempo para conjurar feitiços do Nether e impede que seus servos nascidos do Nether morram como Obsessores."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:nether_robe": 1,
+    "goety:nether_robe_warped": 1,
+    "goety:nether_crown": 2
+  }
+}

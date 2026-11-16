@@ -1,0 +1,28 @@
+{
+  "name": "Concha de Redstone",
+  "icon": "caupona:redstone_ladle",
+  "category": "caupona:tweaks",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Embora a Caupona forneça $(l:tweaks/dispenser)automação por ejetores$(/l), tais mecanismos podem ser invalidados por outros mods por compatibilidade, e ainda pode ser inconveniente instalá-los."
+    },
+    {
+      "type": "text",
+      "text": "Resumindo, ejetores instalados com conchas de redstone movem comida ou líquido à sua frente para a posição atrás deles."
+    },
+    {
+      "type": "text",
+      "text": "Se houver blocos de fluido à frente, eles tentarão bombear o fluido para recipientes traseiros. O mesmo ocorre se houver recipientes de fluido em vez de blocos de fluido."
+    },
+    {
+      "type": "text",
+      "text": "Tigelas de sopa colocadas, vazias ou cheias, são vistas como recipientes de fluido e interagem com ejetores equipados com conchas de redstone. Isso também vale para panelas de ensopado."
+    },
+    {
+      "type": "text",
+      "text": "Pratos salteados são transferidos de frigideiras, chapas ou pratos cheios à frente para pratos vazios atrás. Em especial, uma tigela vazia é devolvida às frigideiras/chapas."
+    }
+  ]
+}

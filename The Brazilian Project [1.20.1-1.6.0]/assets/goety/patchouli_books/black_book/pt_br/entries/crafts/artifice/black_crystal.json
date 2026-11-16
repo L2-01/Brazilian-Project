@@ -1,0 +1,19 @@
+{
+  "name": "Cristal Negro",
+  "icon": "goety:black_crystal",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/kill_a_wight",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um cristal faminto por almas que, ao ser colocado, se vincula a você e tenta sugar energia de almas de qualquer entidade próxima que não seja sua aliada, causando dano a elas até que fiquem com pouca vida."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:black_crystal"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:black_crystal": 1
+  }
+}

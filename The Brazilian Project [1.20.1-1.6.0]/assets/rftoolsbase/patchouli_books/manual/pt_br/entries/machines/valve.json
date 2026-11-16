@@ -1,0 +1,19 @@
+{
+  "name": "Válvula",
+  "icon": "deepresonance:valve",
+  "category": "rftoolsbase:category_deepresonance_machines",
+  "extra_recipe_mappings": {
+    "deepresonance:valve": 1
+  },
+  "sortnum": 60,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Válvula move cristal líquido do tanque acima para o tanque abaixo. Sua GUI filtra por pureza mínima, força, eficiência e quantidade de transferência."
+    },
+    {
+      "type": "crafting",
+      "recipe": "deepresonance:valve"
+    }
+  ]
+}

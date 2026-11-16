@@ -1,0 +1,18 @@
+{
+    "name": "Vinculador de Fonte",
+    "icon": "mimi:sourcelinker",
+    "category": "mimi:5other",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O Vinculador de Fonte é um item que pode ser usado para vincular Instrumentos de Bloco, Receptores e Relés a um Transmissor.$(br2)Para usar um Vinculador de Fonte, crie um e depois segure shift + clique com o botão direito numa fonte de Transmissor (Jogador, Transmissor de Servidor ou Relé) para vincular àquele Transmissor. Depois, clique com o botão direito em quaisquer blocos que você queira vincular ao Transmissor."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "mimi:sourcelinker",
+            "link_recipe": true,
+            "text": ""
+        }
+    ],
+    "sortnum": 1
+}

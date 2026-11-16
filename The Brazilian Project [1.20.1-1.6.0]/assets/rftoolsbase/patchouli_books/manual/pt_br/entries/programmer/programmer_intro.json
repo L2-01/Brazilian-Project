@@ -1,0 +1,27 @@
+{
+  "name": "Introdução à Programação",
+  "icon": "rftoolscontrol:programmer",
+  "category": "rftoolsbase:category_rftoolscontrol_programmer",
+  "extra_recipe_mappings": {
+    "rftoolscontrol:programmer": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Programador é onde você cria e edita programas do RFTools Control. Programas são grafos de nós armazenados em Cartões de Programa."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolscontrol:programmer"
+    },
+    {
+      "type": "text",
+      "text": "Coloque um Cartão de Programa no Programador, adicione opcodes, conecte seu fluxo e configure parâmetros. Use comentários e nomes claros para programas maiores."
+    },
+    {
+      "type": "text",
+      "text": "Programas típicos leem inventários, fluidos, redstone, variáveis ou fichas, depois ramificam para ações que movem itens, requisitam fabricações, enviam sinais ou desenham gráficos."
+    }
+  ]
+}

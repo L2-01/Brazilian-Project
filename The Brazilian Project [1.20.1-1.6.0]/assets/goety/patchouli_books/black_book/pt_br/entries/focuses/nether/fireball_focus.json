@@ -1,0 +1,20 @@
+{
+  "name": "Foco de Bola de Fogo",
+  "icon": "goety:fireball_focus",
+  "category": "goety:focuses/nether",
+  "advancement": "minecraft:story/enter_the_nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O poder dos Blazes agora está na ponta dos seus dedos. Você não precisará mais usar um Ejetor e Cargas de Fogo; agora você pode ser o Ejetor!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/fireball_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/nether_staff)Cajado do Nether$() disparará duas bolas de fogo extras."
+    }
+  ]
+}

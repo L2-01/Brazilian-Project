@@ -1,0 +1,86 @@
+{
+  "name": "Nó de Roteamento",
+  "icon": "bloodmagic:masterroutingnode",
+  "category": "bloodmagic:demon_will/item_routing",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Transportar itens à mão pode servir para algumas pessoas, mas nós somos Sanguimantes. Mais ainda, temos acesso à $(raw)Will Demoníaca$()! Certamente há uma forma melhor de fazer as coisas. $(br2)Assim, você conseguiu criar os $(thing)Nó de Roteamento$(). Eles oferecem uma forma poderosa de transportar, separar e filtrar itens, enviando-os magicamente pelo ar conforme você determinar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Redes de Nó de Roteamento$() têm 3 componentes principais: $(item)Nós de Entrada$(), $(item)Nós de Saída$(), e o $(item)Nó de Roteamento Mestre$(). $(br2)Toda rede exige exatamente 1 $(item)Nó de Roteamento Mestre$(), e todo outro Nó na rede deve poder traçar uma rota de volta ao Mestre, seja diretamente, ou via outros Nós. $(br2)Nós de Entrada e Saída podem retirar ou inserir itens de qualquer bloco com um inventário acessível, respectivamente."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Nó de Roteamento Mestre",
+      "recipe": "bloodmagic:soulforge/master_routing_node",
+      "text": "O Nó Mestre poderá aceitar upgrades no futuro, mas por enquanto só serve para controlar e dirigir a rede, agindo como seu 'Cérebro'."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Um $(item)Nó de Roteamento Mestre$() é muito bom, mas sem os outros dois tipos de nó, não é particularmente útil sozinho, então vamos a eles a seguir. $(br2)$(item)Nó de Roteamento de Entrada$() puxam itens para a rede, $(item)Nó de Roteamento de Saída$() os exportam de volta, e os simples $(item)Nó de Roteamento$() servem para estender o alcance da sua rede. Como os nós de Entrada e Saída são atualmente idênticos fora isso, focaremos no Nó de Roteamento de Entrada a menos que especificado o contrário."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Nó de Roteamento",
+      "recipe": "bloodmagic:soulforge/routing_node",
+      "text": "Não faz muita coisa sozinho, mas pode ser usado para estender $(thing)Redes de Roteamento$() além do alcance de 16 blocos de uma única conexão."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Nó de Roteamento de Entrada",
+      "a.recipe": "bloodmagic:soulforge/input_routing_node",
+      "b.heading": "Nó de Roteamento de Saída",
+      "b.recipe": "bloodmagic:soulforge/output_routing_node"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando você coloca um Nó de Entrada ou Saída, ele automaticamente conecta a $(thing)todos os inventários adjacentes$(), mas não fará nada sem um $(item)Filtro$() de algum tipo em pelo menos um dos slots de lado. Por exemplo, você poderia usar um $(l:bloodmagic:demon_will/item_routing/standard_item_filter)Filtro de Itens Padrão$() definido para $(item)Minério de Ferro$() em cima de uma $(item)Fornalha$(), um segundo filtro definido para carvão na lateral da fornalha, e um Nó de Entrada embaixo definido para Lingotes de Ferro."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/node_demo.png"
+      ],
+      "border": true,
+      "text": "Um Nó de Saída no mundo."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/node_gui_right.png"
+      ],
+      "border": true,
+      "text": "Assim que tivermos nossos nós montados, vamos abrir a GUI do Nó."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "À direita, temos nossas direções cardeais — $(bold)B$()aixo, $(bold)C$()ima, $(bold)N$()orte, $(bold)S$()ul, $(bold)O$()este e $(bold)L$()este. Você notará que uma figurinha de um bloco aparece em alguns botões, representando o que há naquele lado do nó. A GUI abrirá no lado que dá para um inventário anexado, ou Baixo se não houver inventário. Os botões em si seguem a direção que o jogador encara, então o botão de cima é 'para frente', o da esquerda é 'esquerda', etc."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/node_gui_left.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "À esquerda, você verá um espaço para inserirmos um Filtro para o lado selecionado, e uma Prioridade. números maiores = mais importante. $(br2)Nós podem ter um filtro por lado - então selecionaremos o lado que queremos e colocaremos nosso filtro nele. (Para mais informações sobre Filtros, veja 'Uma Iniciação aos Filtros')"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Assim que seus Nós de Entrada e Saída tiverem sido montados, tiverem sido ligados com a ajuda de um $(l:bloodmagic:demon_will/item_routing/node_router)Roteador de Nó$() numa rede que inclua exatamente um $(item)Nó de Roteamento Mestre$(), e ambos tiverem filtros de itens inseridos nos lados corretos, você está pronto! Itens serão roteados conforme as prioridades e as regras contidas nos seus filtros."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/network_demo.png"
+      ],
+      "border": true,
+      "text": "Nós não precisam ser ligados diretamente ao $(item)Nó de Roteamento Mestre$(), apenas a qualquer nó da rede."
+    }
+  ]
+}

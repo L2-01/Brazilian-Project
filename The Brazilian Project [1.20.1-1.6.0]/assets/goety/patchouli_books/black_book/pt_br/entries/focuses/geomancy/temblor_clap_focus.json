@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Palma Sísmica",
+  "icon": "goety:temblor_clap_focus",
+  "category": "goety:focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Este feitiço solta uma onda de choque que empurra inimigos para trás e os atordoa por alguns segundos. O raio do feitiço aumenta se o conjurador estiver no chão."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/temblor_clap_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/geo_staff)Cajado Geomante$() aumenta um pouco o raio."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Runa de Cap. Aumentada",
+  "icon": "bloodmagic:bettercapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Runa de Capacidade Aumentada$() aumenta a capacidade do $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(/l) em +7,5% multiplicativo por runa. As runas de Capacidade Aumentada se aplicam $(o)após$() as runas de $(l:bloodmagic:altar/blood_rune/capacity_rune)Capacidade$() comuns."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Runa de Capacidade Aumentada",
+      "recipe": "bloodmagic:blood_rune_aug_capacity"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_aug_capacity_2",
+      "text": "Com um pouco de $(item)Fragmentos de Netherita$() e algumas $(item)Peças Intrincadas Forjadas no Inferno$() saqueadas do $(l:bloodmagic:dungeons/endless_realm)Reino Demoníaco$(), você pode dobrar o poder da sua $(item)Runa de Capacidade Aumentada$(), aumentando a capacidade do $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(/l) em +15% multiplicativo por runa."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/aug_capacity",
+      "text": "Se mudar de ideia, você pode desfazer a receita na ARC."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Coralssus",
+  "icon": "minecraft:horn_coral_block",
+  "category": "goety:cataclysm/summons",
+  "advancement": "goety:goety/read_floral_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Uma criatura poderosa da Cidade Abissal, possivelmente trazida à vida pelos Deeplings por meios que você conseguiu replicar."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:coralssus",
+      "scale": 0.5
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety_cataclysm:coralssus",
+      "text": "Clique com o botão direito no Coral central com um Núcleo de Animação."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Apenas blocos de Coral-de-Fogo, Coral-de-Chifre e Coral-de-Tubo podem criar um Coralssus, e todos os blocos de coral precisam ser do mesmo tipo. Eles podem ser curados clicando neles com o botão direito com coral do mesmo tipo."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Ladrilhos de Mosaico",
+  "icon": "caupona:tessellation_workbench",
+  "category": "caupona:intro",
+  "sortnum": 29,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Ladrilhos de mosaico são blocos ornamentais, feitos colocando pedaços de materiais coloridos num núcleo de concreto em diferentes padrões."
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/tessellation_workbench",
+      "text": "Ladrilhos de mosaico são projetados e feitos usando bancadas de tesselação."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:brick_tesserae",
+      "text": "Para projetar e fazer um ladrilho de mosaico, você precisa de dois pedaços de mosaico diferentes e um bloco de concreto. Claro, você pode usar dois pedaços do mesmo tipo, o que só resulta em ladrilhos monocromáticos qualquer que seja o padrão — ainda útil às vezes."
+    },
+    {
+      "type": "text",
+      "text": "Três tipos de materiais, a saber pedra-pomes ($(#86857b)clara$()), basalto ($(#2b2b35)escuro$()) e tijolo ($(#874a3a)ocre$()), além de 11 padrões, são fornecidos até agora. Combine-os para produzir vários ladrilhos."
+    }
+  ]
+}

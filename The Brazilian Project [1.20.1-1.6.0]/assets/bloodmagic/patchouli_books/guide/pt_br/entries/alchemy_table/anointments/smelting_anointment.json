@@ -1,0 +1,25 @@
+{
+  "name": "Óleo de Queima Lenta",
+  "icon": "bloodmagic:smelting_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Óleo de Queima Lenta",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment",
+      "text": "Usa calor para fundir blocos colhidos. $(br2)Itens válidos: Ferramentas, Espadas, Cargas. $(br2)Aplica: Ferramenta Aquecida I (256 blocos)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Óleo de Queima Lenta L",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment_l",
+      "text": "Esta versão melhorada da unção dura quatro vezes mais. $(br2)Aplica: Ferramenta Aquecida I (1024 blocos)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Óleo de Queima Lenta XL",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment_xl",
+      "text": "Esta versão melhorada da unção dura dezesseis vezes mais. $(br2)Aplica: Ferramenta Aquecida I (4096 blocos)"
+    }
+  ]
+}

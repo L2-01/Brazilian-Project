@@ -1,0 +1,45 @@
+{
+  "name": "Porta-inventário",
+  "sortnum": 2,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:inventoryholder",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Porta-inventário é essencialmente um Suporte de Armadura superavançado!$(br2)Quando colocado no mundo, ele age como um baú — basta clicar direito para acessar o inventário. Você notará que tem uma UI igual ao inventário do seu jogador — com espaços para a Hotbar, itens, Armadura e até sua mão secundária!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Inicialmente você pode inserir o que quiser no inventário. Quando um item é colocado no inventário, você pode control-clicar nele para 'salvar' aquele item, incluindo seu tamanho de pilha.$(br2)Assim, você aplicou um filtro àquele espaço, garantindo que só itens daquele tipo caibam ali. Se quiser que o filtro aplique filtragem de NBT, ative Comparar NBT com o botão no canto superior direito."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando você shift-clica no inventário, a seguinte lógica se aplica nesta ordem:$(br2)$(li)Tenta encontrar um filtro correspondente e insere ali.$(li)Tenta inserir no mesmo espaço do inventário em que estava no do jogador (por exemplo, canto superior direito para canto superior direito).$(li)Por fim, insere normalmente (começando pelo canto superior esquerdo)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se você ativar 'Apenas Itens Filtrados' pelo botão no canto superior direito, itens não poderão ser inseridos em espaços 'sem filtro'. Isso significa que se você tentar colocar um item num espaço sem filtro, não será permitido.$(br2)Se você ativar 'Comparar Tamanhos de Pilha', os espaços filtrados só aceitarão até o tamanho de pilha salvo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "No canto superior esquerdo há botões para controlar como canos, funis etc. podem interagir com esta máquina.$(br2)Quando Apenas Itens Filtrados está ativado, só permite canalizar para espaços com filtro correspondente, e 'Comparar Tamanhos de Pilha' funciona como acima para inserção.$(br2)Ao extrair, espaços com filtro aplicado serão ignorados, e Comparar Tamanhos de Pilha determina se a extração tentará corresponder ao tamanho de pilha do filtro."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O botão 'Mostrar Jogador Falso' no canto superior esquerdo alterna o jogador renderizado acima do bloco.$(br2)Ctrl+Shift+Clicar num dos espaços da hotbar na UI coloca uma borda vermelha ao redor daquele espaço. Isso determina qual espaço do inventário é renderizado na 'mão principal' do jogador falso. É puramente cosmético."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Perto da base da UI há botões Puxar Itens e Empurrar Itens. Empurrar Itens tentará inserir todos os itens do seu inventário no bloco, respeitando os espaços filtrados que você definiu.$(br2)Nota: os botões 'apenas itens filtrados' e 'comparar tamanhos de pilha' no canto superior direito da UI são respeitados ao empurrar.$(br2)Puxar Inventário puxará itens do bloco e os colocará no seu inventário."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O botão trocar inventário tenta trocar cada espaço do inventário do seu jogador com os espaços correspondentes no inventário do bloco.$(br2)É recomendado fazer isso com filtragem mínima, senão os itens não conseguirão trocar — mas você é livre para configurar como quiser, experimente as diferentes opções!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Porta-inventário",
+      "recipe": "justdirethings:inventoryholder"
+    }
+  ]
+}

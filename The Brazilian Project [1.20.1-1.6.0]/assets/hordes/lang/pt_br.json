@@ -1,0 +1,59 @@
+{
+  "message.hordes.EventStart": "Você ouve os uivos de uma horda próxima",
+  "message.hordes.EventEnd": "O ar está quieto, a horda parou",
+  "message.hordes.TrySleep": "Uma sensação de pavor iminente impede você de dormir",
+  "message.hordes.title": "As Hordas",
+  "hordes.subtitle.hordeHowls": "Uivos de Zumbis",
+  "hordes.subtitle.infected": "Jogador Infectado",
+  "hordes.subtitle.immune": "Infecção do Jogador Bloqueada",
+  "entity.hordes.ZombiePlayer.chat": "Zumbi de %1$s",
+  "entity.hordes.DrownedPlayer.chat": "%1$s Afogado",
+  "entity.hordes.HuskPlayer.chat": "Cascoso de %1$s",
+  "entity.hordes.ZombiePlayer.name": "Zumbi de Jogador",
+  "entity.hordes.DrownedPlayer.name": "Jogador Afogado",
+  "entity.hordes.HuskPlayer.name": "Cascoso de Jogador",
+  "entity.hordes.ZombifiedPiglinBrute.name": "Piglin Bárbaro Zumbificado",
+  "entity.hordes.ZombieWanderingTrader.name": "Mercador Ambulante Zumbi",
+  "entity.hordes.ZombiePillager.name": "Saqueador Zumbi",
+  "entity.hordes.ZombieVindicator.name": "Vindicador Zumbi",
+  "entity.hordes.ZombieEvoker.name": "Invocador Zumbi",
+  "entity.hordes.ZombieIllusioner.name": "Ilusionista Zumbi",
+  "entity.hordes.ZombieWitch.name": "Bruxa Zumbi",
+  "effect.hordes.infected": "Infecção",
+  "effect.hordes.immunity": "Imunidade à Infecção",
+  "death.attack.infection": "%1$s sucumbiu à infecção.",
+  "death.attack.infection.zombified": "%1$s virou zumbi.",
+  "tooltip.hordes.cure": "Cura infecção",
+  "tooltip.hordes.wearableProtection": "%1$s de proteção contra infecção",
+  "jei.category.hordes.InfectionCures": "Curas de Infecção",
+
+
+
+
+
+
+	"commands.hordes.SpawnHordeWave.usage": "/hordes spawnWave <número de criaturas a gerar>",
+	"commands.hordes.SpawnHordeWave.success": "Onda de horda invocada com sucesso;",
+	"commands.hordes.SpawnHordeWave.invalidValue": "%1$s não é um argumento válido para <número de criaturas a gerar>",
+	"commands.hordes.SpawnHordeWave.wrongArgCount": "Número errado de argumentos fornecidos para /spawnHordeWave",
+	"commands.hordes.StartHorde.usage": "/hordes start <duração do evento>",
+	"commands.hordes.StartHorde.success": "Evento de horda iniciado por %1$s tiques",
+	"commands.hordes.StartHorde.invalidValue": "%1$s não é um argumento válido para <duração do evento>;",
+	"commands.hordes.StartHorde.wrongArgCount": "Número errado de argumentos fornecidos para /startHordeEvent",
+	"commands.hordes.StopHorde.usage": "/hordes stop",
+	"commands.hordes.StopHorde.success": "Evento de horda ativo interrompido",
+	"commands.hordes.HordeDebug.usage": "/hordes debug",
+	"commands.hordes.HordeDebug.success": "Registro da horda enviado para %1$s",
+	"commands.hordes.HordeClean.usage": "/clearHordeData",
+	"commands.hordes.HordeClean.success": "Todos os dados de horda do mundo foram limpos",
+	"commands.hordes.HordeReset.usage": "/hordes reset <opcional: jogador>",
+	"commands.hordes.HordeReset.success": "Todos os dados de horda do jogador %1$s redefinidos",
+	"commands.hordes.ListEntities.usage": "/hordes listEntities",
+	"commands.hordes.ListEntities.success": "Lista de todas as entidades enviada para %1$s",
+
+	"commands.hordes.SpawnZombie.usage": "/hordes spawnZombie <usuario> <pos> <tipo>",
+
+	"message.hordes.DataError": "Existem erros nos dados carregados, verifique o arquivo %1$s para mais informações.",
+	"message.hordes.DataErrorScripts": "Existem erros nos scripts carregados %1$s, verifique o arquivo %2$s para mais informações."
+
+}

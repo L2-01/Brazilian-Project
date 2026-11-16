@@ -1,0 +1,66 @@
+{
+  "_comment": "========================================================================================================",
+  "_comment": "Thermal Dynamics",
+  "_comment": "========================================================================================================",
+
+  "attachment.thermal.energy_limiter": "Limitador de Fluxo de Redstone",
+  "attachment.thermal.filter": "Filtro de Fluiduct",
+  "attachment.thermal.servo": "Servo de Fluiduct",
+  "attachment.thermal.turbo_servo": "Turbo-Servo de Fluiduct",
+
+  "block.thermal.energy_duct": "Fluxduct",
+  "block.thermal.fluid_duct": "Fluiduct",
+  "block.thermal.fluid_duct_windowed": "Fluiduct (Janelado)",
+
+  "block.thermal.energy_distributor": "Interface de Distribuição de RF",
+  "block.thermal.fluid_distributor": "Interface de Distribuição de Fluido",
+
+  "block.thermal.item_buffer": "Buffer Logístico de Itens",
+
+  "info.thermal.energy_limiter_attachment.0": "Limita a quantidade de energia que flui através dele.",
+  "info.thermal.energy_limiter_attachment.1": "Pode ser configurado para permitir quantidades diferentes em cada direção.",
+  "info.thermal.energy_limiter_attachment.2": "Segure §e§oShift§r e/ou §e§oCtrl§r para ajustar valores.",
+
+  "info.thermal.filter_attachment.mode.0": "Filtragem Bidirecional",
+  "info.thermal.filter_attachment.mode.1": "Filtragem de Saída (do Duct)",
+  "info.thermal.filter_attachment.mode.2": "Filtragem de Entrada (para o Duct)",
+
+  "info.thermal.fluid_filter_attachment.0": "Coloque itens contendo fluido nos espaços para adicionar o fluido à lista de filtros.",
+  "info.thermal.fluid_filter_attachment.1": "Opções adicionais podem ser usadas para ajustar a filtragem.",
+  "info.thermal.fluid_filter_attachment.2": "O Controle de Redstone pode ser usado para desativar temporariamente a filtragem.",
+
+  "info.thermal.fluid_servo_attachment.0": "Coloque itens contendo fluido nos espaços para adicionar o fluido à lista de filtros.",
+  "info.thermal.fluid_servo_attachment.1": "Opções adicionais podem ser usadas para ajustar a filtragem.",
+  "info.thermal.fluid_servo_attachment.2": "O Controle de Redstone é usado para ativar a extração.",
+
+  "info.thermal.fluid_turbo_servo_attachment.0": "Um Servo muito mais rápido, com filtragem limitada.",
+  "info.thermal.fluid_turbo_servo_attachment.1": "Coloque itens contendo fluido no espaço de filtro.",
+  "info.thermal.fluid_turbo_servo_attachment.2": "Opções adicionais podem ser usadas para ajustar a filtragem e a quantidade de extração.",
+  "info.thermal.fluid_turbo_servo_attachment.3": "O Controle de Redstone é usado para ativar a extração.",
+
+  "info.thermal.item_buffer.0": "Restringe a quantidade e o fluxo de itens.",
+  "info.thermal.item_buffer.1": "Defina os itens e quantidades desejados usando a grade à esquerda.",
+  "info.thermal.item_buffer.2": "A roda do mouse pode ser usada para ajustar a quantidade de itens.",
+  "info.thermal.item_buffer.3": "A Trava de E/S requer que todos os itens estejam presentes antes de permitir a extração.",
+  "info.thermal.item_buffer.4": "Muito útil para manter proporções específicas de itens.",
+
+  "info.thermal.item_buffer.mode.0": "E/S: Normal",
+  "info.thermal.item_buffer.mode.1": "E/S: Trava",
+
+  "item.thermal.energy_limiter_attachment": "Anexo: Limitador de Fluxo de Redstone",
+  "item.thermal.filter_attachment": "Anexo: Filtro",
+  "item.thermal.servo_attachment": "Anexo: Servo",
+  "item.thermal.turbo_servo_attachment": "Anexo: Turbo-Servo",
+
+  "_comment": "========================================================================================================",
+  "_comment": "Keywords - These terms help things show up in JEI or other tooltip searches! :)",
+  "_comment": "========================================================================================================",
+
+  "block.thermal.energy_duct.keyword": "energia rf transferência",
+  "block.thermal.fluid_duct.keyword": "energia rf transferência",
+
+  "block.thermal.energy_distributor.keyword": "energia rf transferência",
+  "block.thermal.fluid_distributor.keyword": "fluido transferência",
+
+  "block.thermal.ender_tunnel.keyword": "entangloporter quantum tesseract"
+}

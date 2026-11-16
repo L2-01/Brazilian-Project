@@ -1,0 +1,6 @@
+Forno de Coque Avançado
+Coque Melhor
+<&multiblock>O Forno de Coque Avançado é uma máquina multibloco que processa carvão em §lCoque de Carvão§r e §lÓleo de Creosoto§r mais rápido que um forno de coque comum.
+
+
+Itens de combustível entram pelo §ltopo§r; a saída de fluido (Óleo de Creosoto) é extraída pela §lfrente§r, e o §lCoque de Carvão§r pela §lparte de trás§r. Até dois Aquecedores de Base podem ser acoplados às portas laterais; cada Aquecedor de Base ativo consome <config;i;advanced_coke_oven.baseheater_energy_consumption> Flux/t e aumenta a velocidade de processamento, com benefício decrescente ao empilhar os dois. Um comparador ligado a qualquer bloco externo emite sinal proporcional ao progresso do lote atual.

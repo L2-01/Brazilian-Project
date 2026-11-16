@@ -1,0 +1,22 @@
+{
+  "name": "Mantos Ilusórios",
+  "icon": "goety:illusion_robe",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Usando os Tecidos Ocultos, você consegue criar um conjunto de Mantos Ilusórios que o tornará imune ao efeito de Cegueira e o deixará invisível quando acontecer, tornando-o praticamente indetectável para criaturas e outros da sua espécie."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:illusion_robe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O manto também fortalece o Feitiço Espelho, fazendo com que o ataque dos seus Doppelgangers realmente machuque os alvos, ainda que não muito."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:illusion_robe_mirror": 1
+  }
+}

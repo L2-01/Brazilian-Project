@@ -1,0 +1,42 @@
+{
+    "name": "Teclas de Atalho",
+    "icon": "minecraft:stone_button",
+    "category": "mimi:6settings",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O MIMI suporta várias teclas de atalho diferentes para várias ações. Todas as teclas de atalho podem ser alteradas no menu Controles --> Teclas de Atalho do Minecraft.$(br2)Esta seção lista todas as teclas de atalho e seus valores atuais."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Parar Todas as Notas",
+            "text": "Tecla atual: $(l)$(k:key.mimi.midi.alloff)$()$(br2)Pressionar esta tecla para imediatamente todas as notas que estão tocando. Ela deve ser usada principalmente se uma nota ficar presa tocando por um longo período.$(br2)Note que este atalho não impede que novas notas comecem."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Tela de Configuração de Dispositivo",
+            "text": "Tecla atual: $(l)$(k:key.mimi.midi.gui.settings)$()$(br2)Pressionar esta tecla abre a Tela de Dispositivo de Entrada MIDI."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Tela do Transmissor",
+            "text": "Tecla atual: $(l)$(k:key.mimi.midi.gui.transmitter)$()$(br2)Pressionar esta tecla abre a Tela do Transmissor se você tiver um Transmissor nas mãos ou na barra de acesso rápido."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Inst. Mão Principal",
+            "text": "Tecla atual: $(l)$(k:key.mimi.midi.gui.main)$()$(br2)Pressionar esta tecla abre a Tela do Instrumento do instrumento na sua mão principal, se houver um."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Inst. Mão Secundária",
+            "text": "Tecla atual: $(l)$(k:key.mimi.midi.gui.off)$()$(br2)Pressionar esta tecla abre a Tela do Instrumento do instrumento na sua mão secundária, se houver um."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Inst. Sentado",
+            "text": "Tecla atual: $(l)$(k:key.mimi.midi.gui.seat)$()$(br2)Pressionar esta tecla abre a Tela do Instrumento do instrumento onde você está sentado, se houver um."
+        }
+    ],
+    "sortnum": 2
+}

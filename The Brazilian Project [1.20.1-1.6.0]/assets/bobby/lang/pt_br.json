@@ -1,0 +1,23 @@
+{
+  "bobby.upgrade.required": "[Bobby] Este mundo contém dados de uma versão antiga do Minecraft. Execute `/bobby upgrade` para atualizá-lo.",
+  "bobby.upgrade.fallback_world": "[Bobby] Seu mundo de reserva contém dados de uma versão antiga do Minecraft. Atualize-o pelo menu \"Um Jogador\" usando a opção \"Editar\" -> \"Otimizar Mundo\".",
+  "bobby.upgrade.not_enabled": "O Bobby não está ativado para este mundo.",
+  "bobby.upgrade.begin": "[Bobby] Atualizando dados do mundo para a versão atual do Minecraft. Isso pode levar alguns minutos.",
+  "bobby.upgrade.progress": "[Bobby] %d de %d chunks (estimados) atualizados.",
+  "bobby.upgrade.done": "[Bobby] Atualização dos dados do mundo concluída. Seus chunks antigos devem estar visíveis novamente.",
+
+  "title.bobby.config": "Configuração do Bobby",
+  "option.bobby.enabled": "Ativado",
+  "option.bobby.no_block_entities": "Desativar Entidades de Bloco",
+  "tooltip.option.bobby.no_block_entities": "Não carrega entidades de bloco (ex.: baús) em chunks falsos.\nElas precisam ser atualizadas a cada tique, o que pode se acumular.\n\nAtivado por padrão porque a distância de renderização de entidades de bloco geralmente já é menor que a distância de visão do servidor.",
+  "option.bobby.taint_fake_chunks": "Marcar Chunks Falsos",
+  "tooltip.option.bobby.taint_fake_chunks": "Reduz os níveis de luz nos chunks falsos para que você consiga diferenciá-los dos reais.",
+  "option.bobby.unload_delay": "Atraso de Descarregamento de Chunks (Segundos)",
+  "tooltip.option.bobby.unload_delay": "Atrasa o descarregamento de chunks fora da sua distância de visão.\nEvita que você precise recarregar todos os chunks ao\nsair de uma área por um breve momento (ex.: cutscenes).\nNão funciona entre dimensões.",
+  "option.bobby.delete_unused_regions_after_days": "Limpar Regiões Não Usadas (Dias)",
+  "tooltip.option.bobby.delete_unused_regions_after_days": "Exclui regiões do cache quando não são carregadas por X dias.\n\nO cache de um mundo é limpo sempre que você se desconecta do servidor.\nMundos inteiros são limpos quando o jogo inicia e você não os visitou por X dias.\n\nDefina como -1 para desativar.\nDefina como 0 para limpar tudo após cada desconexão.",
+  "option.bobby.max_render_distance": "Distância Máxima de Renderização",
+  "tooltip.option.bobby.max_render_distance": "Altera o valor máximo configurável para a Distância de Renderização.\n\nRequer Sodium.",
+  "option.bobby.view_distance_overwrite": "Distância de Visão do Servidor em um Jogador",
+  "tooltip.option.bobby.view_distance_overwrite": "Sobrescreve a distância de visão do servidor integrado.\nIsso permite que o Bobby seja útil em Um Jogador.\n\nDesativado quando em 0.\nO Bobby só fica ativo em um jogador se isto estiver ativado.\nRequer novo login para ativar/desativar."
+}

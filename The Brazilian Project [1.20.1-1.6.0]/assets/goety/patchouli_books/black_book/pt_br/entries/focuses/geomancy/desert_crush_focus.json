@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Esmagamento do Deserto",
+  "icon": "goety_cataclysm:desert_crush_focus",
+  "category": "goety:cataclysm/focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Invoca Estelas do Deserto Ancestrais ao redor do conjurador, que então caem e danificam quaisquer alvos não aliados abaixo delas."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/desert_crush_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/geo_staff)Cajado Geomante$() invoca mais fileiras de Estelas."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:desert_crush_focus": 1
+  }
+}

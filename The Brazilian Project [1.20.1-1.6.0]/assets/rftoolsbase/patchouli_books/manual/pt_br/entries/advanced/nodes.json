@@ -1,0 +1,27 @@
+{
+  "name": "Nós e Redes",
+  "icon": "rftoolscontrol:node",
+  "category": "rftoolsbase:category_rftoolscontrol_advanced",
+  "extra_recipe_mappings": {
+    "rftoolscontrol:node": 1
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Nós são terminais nomeados para uma rede do Processador. Programas os usam para interagir com inventários, tanques, blocos e redstone longe do Processador."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolscontrol:node"
+    },
+    {
+      "type": "text",
+      "text": "Defina o canal da rede e o nome do nó na GUI do Nó. Um Processador precisa de um cartão de rede para alcançar nós além de sua área local."
+    },
+    {
+      "type": "text",
+      "text": "Nós podem ler entrada de redstone por lado e emitir redstone para sinalização controlada por programa."
+    }
+  ]
+}

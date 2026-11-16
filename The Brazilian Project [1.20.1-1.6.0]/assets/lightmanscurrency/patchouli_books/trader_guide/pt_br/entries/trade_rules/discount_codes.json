@@ -1,0 +1,32 @@
+{
+	"name": "Códigos de Desconto",
+	"icon": "lightmanscurrency:coupon",
+	"category": "lightmanscurrency:trade_rules",
+	"pages": [
+		"A regra \"Códigos de Desconto\" permite criar Códigos de Desconto que os clientes podem usar para obter um desconto em porcentagem.$(br2)Esses códigos podem ser inseridos pelo cliente diretamente na tela do comerciante, ou ao carregar no inventário um cupom fabricado com esse código.",
+		{
+			"type": "lightmanscurrency:wide_image_2",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/discount_codes/code_list.png",
+			"text": "A regra de Códigos de Desconto permite criar vários códigos processados separadamente. Cada código já criado será listado nas configurações da regra, com uma caixa de texto na parte inferior onde você pode adicionar novos códigos."
+		},
+		{
+			"type": "lightmanscurrency:wide_image_2",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/discount_codes/code_settings.png",
+			"text": "Depois de criar um novo Código de Desconto, você pode personalizar a porcentagem de desconto (por ex., inserir 10 dá 10% de desconto), além de definir limitações mais avançadas."
+		},
+		"O campo \"Limite\" permite definir quantas vezes um determinado $(bold)jogador$() pode usar o código de desconto antes que o código seja ignorado para ele. Isso pode ser combinado com o Campo de Tempo abaixo para limitar jogadores a um certo número de usos por dia, hora etc.$(br2)Um limite de 0 faz com que nenhum limite seja aplicado pela regra, embora usos finitos possam ser dados fornecendo a eles um cupom com número limitado de usos.",
+		{
+			"type": "patchouli:text",
+			"anchor": "using_codes",
+			"text": "Há duas formas de o cliente realmente aplicar um código de desconto a uma troca. A primeira é fazer alguém fabricar um $(item)Cupom$() numa Estação de Bilhetes com o código do cupom igual ao Código de Desconto desejado.$(br2)Qualquer jogador segurando um cupom criado dessa forma terá o código de desconto aplicado automaticamente em qualquer troca com que interagir, e esse método permite vender",
+			"title": "Usando Códigos de Desconto"
+		},
+		"descontos nas suas trocas mantendo o código de desconto em segredo.$(br2)Esse método é a forma mais flexível de dar descontos discretamente a certos clientes sem precisar gerenciar manualmente uma lista de jogadores com descontos na regra $(l:trade_rules/discount_list)Descontos$(), e ainda permite que você defina um número finito de usos para o $(item)Cupom$() ao fabricá-lo.",
+		{
+			"type": "lightmanscurrency:wide_image",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/discount_codes/code_input.png",
+			"text": "A segunda opção é informar o código diretamente ao cliente, que poderá clicar no botão \"Aplicar Códigos de Desconto\" na Tela de Comércio e digitar o código manualmente para que o desconto seja aplicado."
+		},
+		"Depois que os códigos desejados forem aplicados, basta clicar no botão \"Aplicar Códigos de Desconto\" novamente para voltar à tela de comércio normal.$(br2)Uma última observação: cuidado com quem você compartilha seus códigos de desconto, pois qualquer um consegue fabricar um cupom com seus códigos e abusar deles se você contar a alguém que não seja confiável."
+	]
+}

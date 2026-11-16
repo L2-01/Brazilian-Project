@@ -1,0 +1,20 @@
+{
+  "name": "Foco de Rajada de Vento",
+  "icon": "goety:wind_blast_focus",
+  "category": "goety:focuses/wind",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Foco de Rajada de Vento permite invocar uma rajada de vento à sua frente, empurrando criaturas na sua linha de visão. Infelizmente a rajada não causa dano, mas você pode jogar criaturas para fora de beiradas a uma, reconhecidamente curta, distância!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/wind_blast_focus",
+      "text": "Quando conjurada por cajados diferentes, a rajada de vento pode dar efeitos adicionais aos alvos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/wind_staff)Cetro dos Ventos$() aumenta a distância da repulsão."
+    }
+  ]
+}

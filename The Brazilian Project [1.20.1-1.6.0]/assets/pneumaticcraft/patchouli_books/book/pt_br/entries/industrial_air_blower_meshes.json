@@ -1,0 +1,45 @@
+{
+  "name": "Malhas do S.A.I.",
+  "icon": "compressedcreativity:mesh_splashing",
+  "category": "pneumaticcraft:compressed_creativity",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Diferentes tipos de $(item)Malha$() podem ser usados para alterar o comportamento do Soprador de Ar Industrial"
+    },
+    {
+      "type": "crafting",
+      "title": "Armação de Malha",
+      "recipe": "compressedcreativity:crafting/mesh_empty",
+      "text": "A $(item)Armação de Malha$() é a base para as outras malhas"
+    },
+    {
+      "type": "crafting",
+      "title": "Malha Densa",
+      "recipe": "compressedcreativity:crafting/mesh_dense",
+      "text": "A $(item)Malha Densa$() aumenta a troca de calor. Como resultado, o calor escoa mais rápido, mas uma temperatura menor (100°C) é exigida para o processamento de Fundição"
+    },
+    {
+      "type": "crafting",
+      "title": "Malha Assombrada",
+      "recipe": "compressedcreativity:crafting/mesh_haunted",
+      "text": "Conforme o ar quente passa pela $(item)Malha Assombrada$(), ela começa a processar receitas de Assombração"
+    },
+    {
+      "type": "crafting",
+      "title": "Malha Tecida",
+      "recipe": "compressedcreativity:crafting/mesh_woven",
+      "text": "A $(item)Malha Tecida$() não faz muita coisa sozinha, mas depois de enchê-la com água ela se torna uma $(item)Malha Encharcada$()"
+    },
+    {
+      "type": "spotlight",
+      "title": "Malha Encharcada",
+      "item": "compressedcreativity:mesh_splashing",
+      "text": "A $(item)Malha Encharcada$() transforma a Corrente de Ar numa de Lavagem! Mantenha-a em temperaturas estáveis..."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "compressedcreativity:mesh_splashing": 5
+  }
+}

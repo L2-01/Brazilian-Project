@@ -1,0 +1,19 @@
+{
+  "name": "Selo do Vazio",
+  "icon": "bloodmagic:voidsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(item)Selo do Vazio$(), quando você pressiona [$(k:use)] olhando para qualquer fluido, o destruirá ao custo de 50LP por bloco. Bom para limpar fluxos de lava irritantes sem todo aquele tedioso colocar e quebrar de blocos individuais."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Reagente do Vazio",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_void",
+      "array.heading": "Selo do Vazio",
+      "array.recipe": "bloodmagic:array/voidsigil",
+      "array.text": "$(italic)Melhor que um Swiffer!"
+    }
+  ]
+}

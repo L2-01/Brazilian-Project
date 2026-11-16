@@ -1,0 +1,13 @@
+{
+  "name": "Peças de Filtro",
+  "icon": "bloodmagic:componentframeparts",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Peças de Filtro",
+      "recipe": "bloodmagic:alchemytable/component_frame_parts",
+      "text": "$(item)Peças de Filtro$() são um componente integral de todos os $(item)Filtros$(). Não têm uso por si só."
+    }
+  ]
+}

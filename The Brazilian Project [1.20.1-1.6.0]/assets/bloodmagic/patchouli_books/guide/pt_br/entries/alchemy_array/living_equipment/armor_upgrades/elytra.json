@@ -1,0 +1,17 @@
+{
+  "name": "Élitros",
+  "icon": "minecraft:elytra",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Adiciona um Élitros à sua Armadura Viva. Em vez de ser treinado, o $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)Tomo de Upgrade$() deve ser criado. $(br2)Este Élitros drena durabilidade do Peitoral, mas a metade da velocidade de um Élitros normal. $(br2)E também fica bem bonito."
+    },
+    {
+      "type": "bloodmagic:crafting_upgrade_array",
+      "a.heading": "Tomo de Élitros",
+      "a.recipe": "bloodmagic:array/living_elytra_upgrade",
+      "b.upgrade": "bloodmagic:elytra"
+    }
+  ]
+}

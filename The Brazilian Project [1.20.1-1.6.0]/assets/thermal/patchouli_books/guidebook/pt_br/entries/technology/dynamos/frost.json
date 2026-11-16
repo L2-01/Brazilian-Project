@@ -1,0 +1,22 @@
+{
+  "name": "Dínamo Gélido",
+  "icon": "thermal_extra:dynamo_frost",
+  "category": "thermal:dynamos",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Dínamo Gélido usa itens frios como gelo ou neve para produzir RF."
+    },
+    {
+      "type": "thermal:double_crafting_page",
+      "A.recipe": "thermal_extra:crafting/dynamo_frost",
+      "title": "Dínamo Gélido"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Compatibilidade de Ampliações",
+      "text": "$(li)$(l:thermal:technology/augments/integral_components)Componentes Integrais$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)Construção de Tanque Expandida$(/l)$(li)$(l:thermal:technology/augments/dynamo_output)Câmara de Reação Auxiliar$(/l)$(li)$(l:thermal:technology/augments/dynamo_fuel)Injetores Multi-ciclo$(/l)"
+    }
+  ]
+}

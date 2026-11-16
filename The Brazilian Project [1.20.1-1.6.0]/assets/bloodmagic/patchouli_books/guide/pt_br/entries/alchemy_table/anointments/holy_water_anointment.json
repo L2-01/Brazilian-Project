@@ -1,0 +1,37 @@
+{
+  "name": "Água Benta",
+  "icon": "bloodmagic:holy_water_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Água Benta",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment",
+      "text": "Aumenta temporariamente o dano corpo a corpo causado a criaturas mortas-vivas em +5. $(br2)Itens válidos: Ferramentas, Espadas.$(br2)Aplica: Luz Sagrada I (256 golpes)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Água Benta L",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_l",
+      "text": "Esta versão melhorada da unção dura quatro vezes mais. $(br2)Aplica: Luz Sagrada I (1024 golpes)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Água Benta II",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_2",
+      "text": "Esta versão melhorada da unção aumenta o dano corpo a corpo causado a criaturas mortas-vivas em +10. $(br2)Aplica: Luz Sagrada II (256 golpes)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Água Benta XL",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_xl",
+      "text": "Esta versão melhorada da unção dura dezesseis vezes mais. $(br2)Aplica: Luz Sagrada I (4096 golpes)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Água Benta III",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_3",
+      "text": "Esta versão melhorada da unção aumenta o dano corpo a corpo causado a criaturas mortas-vivas em +15. $(br2)Aplica: Luz Sagrada III (256 golpes)"
+    }
+  ]
+}

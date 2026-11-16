@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:showcase",
+  "title": "Modificadores de Defesa",
+  "item": {
+    "type": "forge:nbt",
+    "item": "tconstruct:creative_slot",
+    "nbt": {
+      "slot": "defense"
+    }
+  },
+  "tooltip": [
+    "Ícone de Espaço de Defesa"
+  ],
+  "text": [
+    {
+      "text": "Defesa é um tipo de modificador exclusivo de armadura, aumentando proteção contra ameaças específicas como fogo ou repulsão. Oferece outra forma de customizar armadura, já que a maioria não tem traços de material. "
+    },
+    {
+      "text": "Normalmente, armaduras com muitos espaços de defesa começam com menos espaços de aprimoramento — funcionalidade é sacrificada por proteção."
+    },
+    {
+      "text": "O Mighty Smelting também tem a lista completa de modificadores de defesa das ferramentas, junto com a Enciclopédia de Tinkering.",
+      "paragraph": true
+    }
+  ]
+}

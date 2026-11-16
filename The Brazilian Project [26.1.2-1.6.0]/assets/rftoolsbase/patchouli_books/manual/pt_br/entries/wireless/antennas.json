@@ -1,0 +1,33 @@
+{
+  "name": "Antenas",
+  "icon": "xnet:antenna",
+  "category": "rftoolsbase:category_xnet_wireless",
+  "extra_recipe_mappings": {
+    "xnet:antenna": 0,
+    "xnet:antenna_base": 0,
+    "xnet:antenna_dish": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Um Roteador Sem Fio precisa de uma antena em cima. Uma antena normal dá alcance curto, uma base de antena o melhora, e uma antena parabólica permite alcance ilimitado."
+    },
+    {
+      "type": "text",
+      "text": "Níveis de antena mais altos custam mais RF por canal. Confira o tooltip do item para o alcance configurado e o custo em RF/t."
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:antenna"
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:antenna_base"
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:antenna_dish"
+    }
+  ]
+}

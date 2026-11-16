@@ -1,0 +1,31 @@
+{
+  "name": "Veneno",
+  "icon": "minecraft:spider_eye",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Veneno$() causa dano contínuo ao alvo, mas não pode matá-lo por si só. Níveis maiores causam dano mais rápido."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Veneno(3:00)",
+      "a.recipe": "bloodmagic:flask/poison",
+      "b.heading": "Veneno(8:00)",
+      "b.recipe": "bloodmagic:flask/length_poison",
+      "c.heading": "Veneno II(1:30)",
+      "c.recipe": "bloodmagic:flask/potency_poison"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "adicionar $(l:bloodmagic:alchemy_table/potions#average_potions)Catalisadores Padrão$() pode turbinar ainda mais suas poções."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Veneno III(0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_poison",
+      "b.heading": "Veneno(21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_poison"
+    }
+  ]
+}

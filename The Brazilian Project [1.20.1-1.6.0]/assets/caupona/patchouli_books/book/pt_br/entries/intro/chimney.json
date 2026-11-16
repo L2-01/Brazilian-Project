@@ -1,0 +1,38 @@
+{
+  "name": "Chaminé",
+  "icon": "caupona:brick_chimney_pot",
+  "category": "caupona:intro",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A chaminé é um tipo de instalação de cozinha; cada estrutura consiste em condutos de chaminé e um bico de chaminé. Como outras instalações, há variantes de diferentes $(l:intro/kitchen_materials)materiais$(/l)."
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/brick_chimney_flue",
+      "text": "Os condutos de chaminé estendem o comprimento da chaminé. Podem ser longos ou curtos."
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/brick_chimney_pot",
+      "text": "Os bicos de chaminé devem ser colocados no topo das estruturas de chaminé; não precisam ser do mesmo material do conduto"
+    },
+    {
+      "type": "text",
+      "text": "Estruturas de chaminé só podem se estender verticalmente, e não deve haver nada entre a chaminé e de onde a fumaça vem."
+    },
+    {
+      "type": "image",
+      "images": [
+        "caupona:textures/gui/entries/chimney.png"
+      ],
+      "title": "Uma estrutura de chaminé válida"
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:soot",
+      "text": "Fuligem se acumula quando o bico de chaminé está em uso e pode ser recolhida com uma pá no bico. Serve para fabricar corantes."
+    }
+  ]
+}

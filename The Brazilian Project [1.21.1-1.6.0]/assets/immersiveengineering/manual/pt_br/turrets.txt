@@ -1,0 +1,14 @@
+Torretas
+Você ainda está aí?
+As torretas são o próximo passo na defesa automatizada da sua fábrica. Elas têm um complexo sistema óptico combinado a um "cérebro" eletrônico para distinguir e adquirir alvos efetivamente e usar o arsenal embutido para neutralizá-los.
+Todas as torretas têm portas de energia em sua base e exigem um sinal de redstone para ficar ativas, embora esse comportamento possa ser invertido agachando e clicando com a Chave de Fenda de Engenheiro.<np>
+Ao serem colocadas, as torretas lembram de seu dono e não permitem que outros usuários as quebrem ou modifiquem. Clicar na torreta abre a GUI, que tem uma lista de nomes com campo de entrada, além de várias opções de mira.
+Por padrão, a lista é uma lista negra de alvos que não podem ser atacados. Esta lista usa nomes de criaturas, então colocar animais na lista branca é possível.<np>
+<&turret_chemthrower_recipe>A Torreta Lançadora Química utiliza as capacidades de propulsão de fluidos da <link;chemical_thrower;ferramenta homônima;start> para cobrir alvos com qualquer coisa, de água para apagar chamas a óleo diesel para iniciá-las.<np>
+Esta Torreta tem uma porta de fluido na base e na traseira para permitir conexão de tubos. Além disso, a GUI tem um botão à esquerda que ativa ou desativa a chama piloto, incendiando o fluido dispersado, desde que seja inflamável.
+
+§oOs fornecedores deste projeto não são responsáveis por danos ao usuário, vizinhos ou vários animais de fazenda que possam ocorrer.§r<np>
+<&turret_gun_recipe>A Torreta Armada apresenta uma versão muito modificada dos internos do <link;revolver;Revólver;start> num compartimento bem maior e mais imponente. A construção também envolve um carregador estendido para maior armazenamento interno de munição.<np>
+Uma porta para inserção automática de munição e extração de estojos vazios fica na traseira e na base. Esta Torreta pode armazenar até uma pilha inteira de cartuchos, e a GUI tem um botão para alternar a expulsão automática de estojos vazios.
+
+§oNote que certas munições podem causar dano colateral ao usuário ou à sua propriedade.§r

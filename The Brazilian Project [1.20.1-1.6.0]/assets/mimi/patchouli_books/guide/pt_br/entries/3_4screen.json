@@ -1,0 +1,27 @@
+{
+    "name": "A Tela do Transmissor",
+    "icon": "minecraft:oak_sign",
+    "category": "mimi:3transmitter",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A Tela do Transmissor é a tela que você vê ao clicar com o botão direito num Transmissor segurado ou num bloco Transmissor de Servidor, e que permite usar os controles da lista de reprodução para controlar a reprodução de arquivos MIDI do Transmissor."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Adicionando Músicas",
+            "text": "Ao usar um Transmissor (ou, em um jogador / como anfitrião de LAN, um Transmissor de Servidor), o botão de pasta no canto superior esquerdo abrirá a pasta onde você deve colocar os arquivos MIDI que deseja carregar.$(br2)Quando você tiver adicionado/removido arquivos, clique no botão de atualizar no canto superior direito para carregá-los na lista de reprodução.$(br2)Apenas arquivos MIDI terminados em \".mid\" ou \".midi\" serão detectados."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Filtrando Músicas",
+            "text": "Ao usar um Transmissor, você pode usar os botões no canto superior direito para filtrar a lista de reprodução de músicas por origem (seu PC, o servidor, todas) (apenas para Transmissores de mão) e por favoritas (favoritas, não favoritas, todas).$(br2)Para marcar uma música como favorita, use o botão de coração-com-mais à direita do nome da música selecionada. O mesmo botão é usado para desfavoritar a música se ela já estiver favoritada."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Reprodução de Músicas",
+            "text": "Os controles da lista de reprodução no canto inferior esquerdo são usados para trocar a música selecionada e controlar sua reprodução.$(br2)Os botões à direita dos controles da lista de reprodução permitem mudar os modos de repetição (uma, todas ou nenhuma) e aleatório (embaralhado ou não embaralhado).$(br2)A barra de reprodução no canto inferior direito mostra em que ponto da música selecionada você está."
+        }
+    ],
+    "sortnum": 4
+}

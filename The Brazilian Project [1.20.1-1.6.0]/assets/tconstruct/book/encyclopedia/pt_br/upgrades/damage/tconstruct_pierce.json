@@ -1,0 +1,15 @@
+{
+  "modifier_id": "tconstruct:pierce",
+  "text": [
+    {
+      "text": "Adiciona +0,5 de dano corpo a corpo por nível. Ataques corpo a corpo anulam 1 ponto de armadura por nível por 4 segundos após o golpe."
+    }
+  ],
+  "more_text_space": true,
+  "tool_filter": "tconstruct:modifiable/melee",
+  "effects": [
+    "Pode aplicar níveis incrementalmente",
+    "Máximo de 3 níveis",
+    "Exige 1 espaço de aprimoramento por nível"
+  ]
+}

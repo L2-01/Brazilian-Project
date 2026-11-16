@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Sanguessuga",
+  "icon": "goety:leeching_focus",
+  "category": "goety:focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Tirar a vida dos seus inimigos é uma coisa, mas realmente comê-la é outra. O feitiço drena um alvo não aliado para o qual o conjurador está olhando, ferindo-o e curando o conjurador na quantidade que o alvo perdeu."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/leeching_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/necro_staff)Cajado Necrótico$() dará o efeito Fraqueza ao alvo."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:leeching_focus": 1
+  }
+}

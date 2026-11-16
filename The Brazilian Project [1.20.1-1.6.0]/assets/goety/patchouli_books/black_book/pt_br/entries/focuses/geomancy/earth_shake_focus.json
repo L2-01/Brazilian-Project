@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Tremor de Terra",
+  "icon": "goety_cataclysm:earth_shake_focus",
+  "category": "goety:cataclysm/focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Invoca pequenas ondas de choque que saem dos pés do conjurador, danificando inimigos em seu caminho."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/earth_shake_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/geo_staff)Cajado Geomante$() invoca mais ondas de choque, que se movem um pouco mais rápido."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:earth_shake_focus": 1
+  }
+}

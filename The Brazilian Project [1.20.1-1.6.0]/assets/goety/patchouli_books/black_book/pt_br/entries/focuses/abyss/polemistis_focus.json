@@ -1,0 +1,22 @@
+{
+  "name": "Foco Polemistís",
+  "icon": "goety_cataclysm:polemistis_focus",
+  "category": "goety:cataclysm/focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O feitiço não só permite invocar Servos Afogados diretamente, como eles também vêm usando um amiguinho atirador de tinta como chapéu."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/polemistis_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() invoca mais Afogados de chapéu tentaculado de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:polemistis_focus": 1
+  }
+}

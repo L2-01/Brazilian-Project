@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:armor",
+    "icon": "irregular_implements:water_walking_boots",
+    "name": "Botas de Caminhada na Água",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "As $(d)Botas de Caminhada na Água$() permitem andar sobre a água. Uau!$(br2)Elas não funcionam quando você já está debaixo d'água, e são desativadas ao agachar."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Note que andar sobre a água significa que você também pode ATERRISSAR na água, sofrendo dano de queda!$(br2)Elas só podem ser encontradas em baús de Monumentos Oceânicos."
+        }
+    ]
+}

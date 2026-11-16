@@ -1,0 +1,66 @@
+{
+  "name": "Bocejo do Vazio",
+  "icon": "minecraft:black_stained_glass",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Bocejo do Vazio",
+      "multiblock_id": "bloodmagic:yawning_void",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "yawning_void"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "raw",
+      "text_overrides": [
+        [
+          "Will Bruta",
+          "raw"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "corrosive",
+      "text_overrides": [
+        [
+          "filter",
+          "item"
+        ]
+      ],
+      "text": "Para definir um filtro, coloque qualquer tipo de $(item)Filtro de Itens$() no $(item)Baú$() vinculado. O ritual só usará o primeiro filtro que encontrar, mas aceita Filtros de Itens $(l:bloodmagic:demon_will/item_routing/standard_item_filter)Padrão$(), $(l:bloodmagic:demon_will/item_routing/tag_item_filter)Etiqueta$(), $(l:bloodmagic:demon_will/item_routing/mod_item_filter)Mod$(), e $(l:bloodmagic:demon_will/item_routing/composite_item_filter)Composto$(). Lista negra também funciona!"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "quarryRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "chest",
+      "text_overrides": [
+        [
+          "Item Filter",
+          "item"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "placementRange"
+    }
+  ]
+}

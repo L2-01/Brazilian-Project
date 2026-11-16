@@ -1,0 +1,27 @@
+{
+  "name": "Sementes de Crescimento Rápido",
+  "icon": "goety:quick_growing_seed",
+  "category": "goety:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com bambus para tornar as trepadeiras e algas mais resistentes, e um pouco de farinha de osso, você fez sementes que crescerão rapidamente numa $(l:summons/quick_growing_vines)trepadeira consciente e forte$(), ou em alga quando colocadas debaixo d'água, capaz de bloquear o caminho de uma criatura."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:quick_growing_seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Agachar enquanto coloca uma fará com que a trepadeira fique inerte, só crescendo quando um inimigo ou alvo válido se aproximar dela."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:poison_quill_seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Misturar a semente com as toxinas de uma aranha-das-cavernas e flores-cadáver fará brotar trepadeiras de espinhos venenosos, que dispararão espinhos envenenados nos seus inimigos. Assim como as Sementes de Crescimento Rápido, agachar fará com que fique inerte e crescerá quando um inimigo estiver perto."
+    }
+  ]
+}

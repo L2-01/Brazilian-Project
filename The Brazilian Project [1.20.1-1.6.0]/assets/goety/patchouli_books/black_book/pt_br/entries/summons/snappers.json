@@ -1,0 +1,28 @@
+{
+  "name": "Mordedores",
+  "icon": "minecraft:cod",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Embora piranhas sejam, na realidade, criaturas passivas e tímidas, essas criaturas horrendas fazem jus à sua reputação cruel e agressiva."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pode-se invocar um mordedor leal através de um $(l:focuses/wild/hunting_focus)Foco de Caça$() debaixo d'água ou através do $(l:crafts/staff/abyss_staff)Cajado Abissal$(), ou por um ritual que invoca um sem vida limitada."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_snapper_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:snapper",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clicar num Mordedor leal com o botão direito usando carne o curará."
+    }
+  ]
+}

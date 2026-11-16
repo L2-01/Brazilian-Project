@@ -1,0 +1,13 @@
+{
+  "tool": "tinkers_advanced:ionized_cannon",
+  "text": [
+    { "text": "O Canhão Ionizado é uma arma corpo a corpo que dispara um raio de plasma consumindo fluidos. Quando o fluido tem efeitos em entidades, a arma ganha 300% de aumento de dano." },
+    { "text": "O nível do efeito de fluido é determinado pelo dano. Pode ser aprimorado pelo modificador Expandido. O alcance de ataque afeta o alcance do raio.", "paragraph": false }
+  ],
+  "properties": [
+    "+3 de Dano de Ataque",
+    "1.0 de Velocidade de Ataque",
+    "Duração de Carga = 2 Segundos ÷ Velocidade de Ataque",
+    "Peça principal feita fundindo material derretido sobre Fragmento de Eco"
+  ]
+}

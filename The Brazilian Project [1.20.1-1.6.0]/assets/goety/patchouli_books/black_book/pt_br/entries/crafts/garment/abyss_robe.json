@@ -1,0 +1,31 @@
+{
+  "name": "Mantos Abissais",
+  "icon": "goety:abyss_robe",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Manto Abissal permite que você aproveite o poder dos oceanos com muito mais eficiência e eficácia. O Manto faz o usuário nadar mais rápido e reduz o dano de afogamento, chegando a fornecer uma pequena quantidade de ar após sofrer dano."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:abyss_robe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Criaturas aquáticas leais se curarão lentamente usando a energia de almas de seu invocador, caso ele vista este manto."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:abyss_crown"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Coroa Abissal reduz pela metade o tempo para conjurar feitiços Abissais e impede que seus servos da água morram como Obsessores."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:abyss_robe": 1,
+    "goety:abyss_crown": 2
+  }
+}

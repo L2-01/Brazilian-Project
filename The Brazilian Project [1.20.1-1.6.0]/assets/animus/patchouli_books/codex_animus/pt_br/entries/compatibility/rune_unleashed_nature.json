@@ -1,0 +1,42 @@
+{
+  "name": "guide.animus.entry.rune_unleashed_nature",
+  "category": "animus:compatibility",
+  "icon": "animus:rune_unleashed_nature",
+  "flag": "mod:botania",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Runa da Natureza Desencadeada é um componente de altar híbrido que canaliza mana do Botania para o sistema de altares do Blood Magic. Diferente da Runa Arcana que requer Source, esta runa se abastece de um buffer interno de mana que pode ser recarregado por qualquer mecanismo de transferência de mana do Botania."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "animus:rune_unleashed_nature",
+      "text": "Fabricada usando uma $(item)Runa Vazia$() cercada por $(item)Madeira Viva$() e $(item)Manasteel$() do Botania. Isso cria uma runa de altar viva que responde ao fluxo de mana."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:rune_unleashed_nature",
+      "text": "$(animus)Runa Energizada por Mana$()$(br2)Esta runa funciona como uma pequena $(item)Piscina de Mana$() que pode ser colocada na sua estrutura de Altar de Sangue. Armazena até 10.000 mana internamente e concede bônus conforme seu nível de carga."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bônus Passivos",
+      "text": "A Runa da Natureza Desencadeada concede bônus mesmo vazia:$(br2)$(blood)Sempre Ativa:$()$(li)Bônus de Capacidade: Concede 135%% do efeito de uma Runa de Capacidade$(li)Bônus de Orbe: Concede 67,5%% do efeito de uma Runa do Orbe, aumentando o armazenamento da Soul Network$(br2)Esses bônus passivos a tornam valiosa mesmo sem mana."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bônus Carregado",
+      "text": "Quando a runa tem mana no seu buffer interno:$(br2)$(will)Energizada por Mana:$()$(li)Bônus de Aceleração: Acelera a fabricação do altar e a geração de LP$(li)Consome 10 mana por segundo enquanto ativa$(br2)O efeito de aceleração acumula com outras runas de velocidade, tornando a fabricação de alto nível mais rápida."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Métodos de Carga",
+      "text": "Como a runa age como uma pequena Piscina de Mana, você pode carregá-la usando métodos padrão do Botania:$(br2)$(li)$(item)Espalhador de Mana$(): Aponte um espalhador para a runa para enviar pulsos de mana diretamente a ela$(li)$(item)Fagulha$(): Coloque uma Fagulha de Mana em cima da runa para conectá-la à sua rede de fagulhas$(br2)O método da fagulha é recomendado para altares, pois permite distribuição automática de mana da sua piscina principal."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Requisitos",
+      "text": "Para usar a Runa da Natureza Desencadeada:$(li)$(animus)O Botania deve estar instalado$()$(li)Forneça mana via espalhadores ou fagulhas$(li)Garanta geração estável de mana$(br2)Considere a taxa de consumo (10 mana/segundo por runa) ao planejar sua infraestrutura de mana para múltiplas runas."
+    }
+  ]
+}

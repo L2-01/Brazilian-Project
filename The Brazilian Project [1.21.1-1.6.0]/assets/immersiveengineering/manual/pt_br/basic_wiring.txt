@@ -1,0 +1,13 @@
+Fiação Básica
+Bzzzt!
+<&images>Redes elétricas têm três dispositivos importantes: §lconectores§r como entradas e saídas da rede, §lrelés§r conectando múltiplos fios e <link;transformers;Transformadores> que convertem entre diferentes tensões de fio.<np>
+<&connector_recipes>§lConectores§r servem como entradas e saídas da rede elétrica. Dispositivos energizados conectados por eles transferem energia através da rede.<br>
+§lRelés§r não emitem nem recebem energia; servem como hubs da rede elétrica.<np>
+<&wirecoil_recipes>Para conectar dois dispositivos, use uma §lbobina de fio§r no primeiro e depois a mesma bobina no segundo. As conexões se rompem se um bloco obstruir o fio.<br>
+A taxa de transferência entre dois pontos depende do nível mais baixo de fio entre eles.<np>
+Conectores e relés só aceitam fios da mesma tensão para a qual o dispositivo foi projetado. Transformadores só aceitam dois fios de tensões diferentes, e tensões só funcionam com dispositivos projetados para elas.<br>
+Fios de baixa e média tensão podem ser isolados para evitar dano a criaturas próximas.<br>
+Agachar ao usar a função "Pegar Bloco" num conector pega o fio conectado do seu inventário.<np>
+Conectores têm uma potência máxima que transmitem em IF/t (§o<config;iA;machines.wireConnectorInput>§r), e fios têm uma potência máxima antes de falhar (§o<config;iA;wires.wireTransferRate;l3>§r) IF/t.<br>
+Múltiplos conectores podem §ose unificar§r num único fio usando relés, centralizando a transferência de longa distância num só fio. Se houver conectores unificados suficientes para que a §otaxa máxima de transferência§r exceda a do fio, §oo fio queimará§r.<np>
+Apenas a entrada e a saída de um fio precisam estar funcionando para ele transferir energia, o que significa que grandes distâncias podem ser cobertas com fios de alta tensão para transferir energia a amigos ou postos distantes.

@@ -1,0 +1,23 @@
+{
+  "name": "Talismã Ameaçador",
+  "icon": "goety:ominous_charm",
+  "category": "goety:crafts/garment",
+  "advancement": "minecraft:adventure/voluntary_exile",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ao matar um Capitão de Patrulha, você sempre será amaldiçoado com Mau Presságio, o que pode ser útil às vezes, mas também irritante e prejudicial. Após algumas pesquisas, você criou um talismã que absorve a maldição agonizante do capitão, poupando você do efeito, mesmo se o talismã já tiver alcançado o nível 5, seu nível máximo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Não só isso: se você estiver atualmente com o Mau Presságio, clicar com o botão direito segurando o talismã, ou pressionar a tecla Ativar Curio se equipado, o absorverá. Se desejar ser afligido com o Mau Presságio guardado no talismã, basta clicar com o botão direito com ele, ou pressionar a tecla Ativar Curio se equipado, caso não esteja com o efeito no momento."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:ominous_charm"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:ominous_charm": 1
+  }
+}

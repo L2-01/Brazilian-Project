@@ -1,0 +1,5 @@
+Barril de Fluido Criativo
+Suprimento Infinito
+Um bloco apenas de criativo/teste que fornece quantidade ilimitada de um fluido escolhido. Não aceita entrada de fluido.
+
+Clique com o botão direito usando um balde ou recipiente com um fluido para defini-lo como saída. Shift + clique direito com a mão vazia limpa o fluido selecionado. Uma vez definido, ele injeta fluido ativamente nos 6 blocos vizinhos a cada tick, até <config;i;barrel_creative.output_amount> mB/t — efetivamente ilimitado nas configurações padrão.

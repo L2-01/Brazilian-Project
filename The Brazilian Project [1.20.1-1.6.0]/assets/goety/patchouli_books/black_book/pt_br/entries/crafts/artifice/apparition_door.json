@@ -1,0 +1,15 @@
+{
+  "name": "Porta de Aparição",
+  "icon": "goety:apparition_door",
+  "category": "goety:crafts/artifice",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Porta de Aparição é um dispositivo que se torna intangível quando clicada com o botão direito ou ativada por redstone. A porta também faz as portas adjacentes fazerem o mesmo."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:apparition_door"
+    }
+  ]
+}

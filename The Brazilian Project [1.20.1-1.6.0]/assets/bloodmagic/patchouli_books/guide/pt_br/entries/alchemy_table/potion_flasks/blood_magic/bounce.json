@@ -1,0 +1,20 @@
+{
+  "name": "Salto",
+  "icon": "minecraft:slime_ball",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Se o alvo sofrer dano de queda, $(thing)Salto$() fará com que quique inofensivamente do chão. Uhu! $(br2)Agachar antes do impacto impedirá você de quicar."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Salto (3:00)",
+      "a.recipe": "bloodmagic:flask/bounce",
+      "b.heading": "Salto (8:00)",
+      "b.recipe": "bloodmagic:flask/length_bounce",
+      "c.heading": "Salto (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_bounce"
+    }
+  ]
+}

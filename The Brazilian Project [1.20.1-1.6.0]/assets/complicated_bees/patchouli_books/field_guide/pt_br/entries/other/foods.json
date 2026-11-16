@@ -1,0 +1,23 @@
+{
+  "name": "Alimentos",
+  "icon": "complicated_bees:ambrosia",
+  "category": "complicated_bees:other",
+  "advancement": "complicated_bees:recipes/honey_bread",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O mel (e produtos relacionados a mel) pode ser usado para fazer uma variedade de alimentos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:honey_bread",
+      "recipe2": "complicated_bees:honey_porkchop"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:ambrosia",
+      "title": "Comida Divina",
+      "text": "Concede regeneração, superpulo e absorção quando comida."
+    }
+  ]
+}

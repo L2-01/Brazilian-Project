@@ -1,0 +1,55 @@
+{
+  "name": "Servos Draugr",
+  "icon": "cataclysm:draugr_head",
+  "category": "goety:cataclysm/summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Carcereiros amaldiçoados de Maledictus, tão devotados a guardar sua prisão, mas que não fazem nada, nem mesmo retaliar, quando seu único prisioneiro escapa e semeia o caos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Esses Draugrs são cadáveres de guerreiros animados e amaldiçoados de forma semelhante, ou chamados e enganados da própria prisão de Maledictus, usando suas cabeças como receptáculo para invocar e vincular sua espécie ao seu serviço."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:draugr_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_draugr_servant_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:elite_draugr_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_elite_draugr_servant_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:royal_draugr_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_royal_draugr_servant_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:aptrgangr",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_aptrgangr_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Todos os tipos de Draugr podem ser curados vestindo uma Capa Necrótica ou alimentando-os com ossos ou carne podre."
+    }
+  ]
+}

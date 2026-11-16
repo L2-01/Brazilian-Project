@@ -1,0 +1,31 @@
+{
+  "name": "Gravidade",
+  "icon": "minecraft:tropical_fish",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Gravidade$() faz o alvo cair mais rápido e sofrer mais dano ao aterrissar. Não reduz a altura do salto, porém. $(br2)É criada a partir de um frasco contendo tanto os efeitos $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/grounded)Aterrado$() quanto $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/slow_falling)Queda Lenta$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Gravidade (3:00)",
+      "a.recipe": "bloodmagic:flask/gravity",
+      "b.heading": "Gravidade (8:00)",
+      "b.recipe": "bloodmagic:flask/length_gravity",
+      "c.heading": "Gravidade II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_gravity"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "adicionar $(l:bloodmagic:alchemy_table/potions#average_potions)Catalisadores Padrão$() pode turbinar ainda mais suas poções."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Gravidade III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_gravity",
+      "b.heading": "Gravidade (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_gravity"
+    }
+  ]
+}

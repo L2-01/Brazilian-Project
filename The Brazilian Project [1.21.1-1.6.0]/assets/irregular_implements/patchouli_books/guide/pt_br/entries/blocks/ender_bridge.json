@@ -1,0 +1,31 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:ender_bridge",
+    "name": "Ponte do Ender",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Ponte do Ender$() e a $(d)Ponte do Ender de Prismarinho$(), quando energizadas por redstone, teleportarão as entidades em cima delas para a $(d)Âncora do Ender$() para a qual estão apontando.$(br2)Funciona através de blocos e a qualquer distância (incluindo chunks não carregados), desde que a Âncora esteja carregada. Ela também precisa estar apontando DIRETAMENTE para a Âncora."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Quando energizada, ela busca em linha reta por uma Âncora do Ender. Se houver uma, ela carrega conforme a distância e então ativa. Se não houver, ela falha audivelmente.$(br2)A Ponte básica leva 1 tick por bloco percorrido, enquanto a Ponte de Prismarinho leva 0,5 ticks por bloco."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "A Ponte comum leva 1 tick por bloco para carregar, e a Ponte do Ender de Prismarinho é duas vezes mais rápida."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:ender_bridge"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:prismarine_ender_bridge"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:ender_anchor"
+        }
+    ]
+}

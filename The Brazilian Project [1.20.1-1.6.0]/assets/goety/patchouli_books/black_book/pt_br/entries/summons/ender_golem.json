@@ -1,0 +1,53 @@
+{
+  "name": "Golem do End",
+  "icon": "goety_cataclysm:void_mold_block",
+  "category": "goety:cataclysm/summons",
+  "advancement": "goety:goety/read_warred_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Uma variante do poderoso Golem de Redstone, mas em vez de ser feito de redstone, este golem utiliza o próprio vazio do End."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:ender_golem",
+      "scale": 0.75
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety_cataclysm:ender_golem",
+      "text": "Clique com o botão direito na Pedra do Vazio central com um Núcleo de Animação."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Obsidiana pode ser substituída por Tijolos de Obsidiana. O Golem resultante se mostra muito superior aos Golems de Ferro, pois não só é mais forte, como pode ser ordenado a seguir, vagar ou ficar em posição através de uma varinha/cajado. Eles podem ser reparados clicando neles com o botão direito com Pedra do Vazio ou Runas do Vazio."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:void_mold_block",
+      "text": "Cristal do Vazio e Obsidiana são usados para criar um molde poderoso."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:void_stone",
+      "recipe2": "goety_cataclysm:void_crystal"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_cataclysm:void_lantern_block"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_cataclysm:ender_golem_skull",
+      "text": "Se o Golem cair em batalha ou por comando, ele derrubará seu 'crânio'. O Crânio pode ser usado para reviver o Golem de forma mais barata. Porém, o Crânio se lembra de seu criador e mestre original, e o Golem revivido só seguirá os comandos dele."
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety_cataclysm:ender_golem_revive",
+      "enable_visualize": false
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:ender_golem_skull": 7
+  }
+}

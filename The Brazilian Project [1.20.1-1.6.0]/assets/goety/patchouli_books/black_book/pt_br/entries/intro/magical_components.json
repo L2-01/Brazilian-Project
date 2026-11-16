@@ -1,0 +1,42 @@
+{
+  "name": "Componentes Mágicos",
+  "icon": "goety:magic_emerald",
+  "category": "goety:intro",
+  "sortnum": 3,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com o seu Totem primitivo em mãos, você descobriu que pode usá-lo para criar itens novinhos em folha, capazes de produzir todo tipo de engenhoca mágica e focos! Embora certamente exista um jeito $(l:intro/cursed_infuser)mais barato$() de conseguir esses itens..."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:cursed_ingot_craft",
+      "recipe2": "goety:empty_focus_craft"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:shade/shade_stone_craft",
+      "recipe2": "goety:haunted/haunted_sapling_craft"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:savage_tooth_craft"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Totem do Invocador parece ter Esmeraldas onde ficariam os olhos. Você pressente que essas Esmeraldas são diferentes das comuns. Será que existe um jeito de 'ativá-las'?"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:magic_emerald_craft",
+      "recipe2": "goety:soul_emerald"
+    },
+    {
+      "anchor": "totem",
+      "type": "patchouli:crafting",
+      "recipe": "goety:totem_of_souls",
+      "text": "Você finalmente fez um verdadeiro simulacro do Totem do Invocador. Este Totem pode guardar muito mais Energia de Almas do que o Totem de Raízes."
+    }
+  ]
+}

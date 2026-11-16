@@ -1,0 +1,19 @@
+{
+    "name": "Maestro Mecânico",
+    "icon": "mimi:mechanicalmaestro",
+    "category": "mimi:4redstone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Maestro Mecânico",
+            "item": "mimi:mechanicalmaestro",
+            "text": "O Maestro Mecânico é um bloco que, quando alimentado por redstone e munido de instrumentos, tocará os instrumentos que receber quando receber notas de um Transmissor próximo vinculado aos instrumentos."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Receita",
+            "recipe": "mimi:mechanicalmaestro"
+        }
+    ],
+    "sortnum": 3
+}

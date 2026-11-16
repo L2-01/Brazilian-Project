@@ -1,0 +1,9 @@
+Unidade Lógica
+Turing Completa
+<&unit>Com a versatilidade dos <link;redstone_wiring;Fios de Redstone> e a desvio dos <link;crafting_components;Tubos de Vácuo;tubes>, lógica de redstone complexa pode ser compactada em <link;engineers_circuit_workbench;Circuitos Lógicos>.<br>
+A Unidade Lógica é a máquina especialidade na qual os circuitos lógicos são instalados para uso.<br>
+Ela tem espaço para um total de §210 circuitos§r e conta com §28 registradores embutidos§r completos, usáveis por qualquer circuito.<br>
+Para uma unidade lógica interagir com os sistemas coloridos de redstone, ela precisa ter um <link;redstone_wiring;Conector de Interface de Redstone;bundled> acoplado à sua lateral.<br>
+Toda vez que qualquer um dos conectores acoplados muda de estado, a unidade lógica percorre seus circuitos e executa todas as 10 operações.<br>
+Se um circuito usa um registrador como saída, o valor resultante é mantido no registrador e pode ser usado por circuitos posteriores como entrada.<br>
+O mesmo conector de interface usado para entrada pode ser usado como saída também.

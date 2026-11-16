@@ -1,0 +1,23 @@
+{
+  "name": "Bancada de Trabalho",
+  "icon": "rftoolscontrol:workbench",
+  "category": "rftoolsbase:category_rftoolscontrol_advanced",
+  "extra_recipe_mappings": {
+    "rftoolscontrol:workbench": 1
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Bancada de Trabalho é usada por programas voltados a fabricação como inventário de fabricação gerenciado. Ela dá ao Processador um lugar para preparar ingredientes e resultados."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolscontrol:workbench"
+    },
+    {
+      "type": "text",
+      "text": "Use opcodes relacionados à bancada quando um programa precisar preparar ingredientes, empurrar itens para fabricação ou lidar com resultados de fabricação."
+    }
+  ]
+}

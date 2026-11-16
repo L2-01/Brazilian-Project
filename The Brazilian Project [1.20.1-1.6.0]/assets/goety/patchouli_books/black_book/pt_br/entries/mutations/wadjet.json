@@ -1,0 +1,32 @@
+{
+  "name": "Uadjet",
+  "icon": "cataclysm:ancient_spear",
+  "category": "goety:cataclysm/mutations",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Através de um simples Koboleton, você conseguiu invocar um grande Uadjet e colocá-lo sob o seu domínio."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:convert_koboleton_to_wadjet_servant"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:wadjet",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O conjurador morto-vivo pode ser curado alimentando-o com ossos, e pode se curar passivamente se seu dono vestir uma Capa Necrótica."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_cataclysm:arcane_spirit",
+      "text": "Quando caem, essas vanguardas ancestrais derrubam seu espírito, que pode possuir um Koboleton para voltar dos mortos."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:arcane_spirit": 4
+  }
+}

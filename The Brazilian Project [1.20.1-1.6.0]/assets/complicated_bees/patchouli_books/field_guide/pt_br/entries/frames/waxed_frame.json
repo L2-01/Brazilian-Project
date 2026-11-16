@@ -1,0 +1,16 @@
+{
+  "name": "Quadro Encerado",
+  "icon": "complicated_bees:waxed_frame",
+  "category": "complicated_bees:frames",
+  "advancement": "complicated_bees:frame",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Feito com gravetos encerados, três vezes mais durável e mais de duas vezes mais eficaz que o quadro básico."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:waxed_frame"
+    }
+  ]
+}

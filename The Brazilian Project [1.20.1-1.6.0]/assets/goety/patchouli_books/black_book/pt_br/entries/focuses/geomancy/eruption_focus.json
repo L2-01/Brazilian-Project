@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Erupção",
+  "icon": "goety:eruption_focus",
+  "category": "goety:focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O foco permite invocar um pequeno vulcão que cospe várias rochas piroclásticas para o céu, que caem ao seu redor, explodindo e, com sorte, ferindo e atordoando seus inimigos."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/eruption_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/geo_staff)Cajado Geomante$() invoca três pequenos vulcões em vez de um."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:eruption_focus": 1
+  }
+}

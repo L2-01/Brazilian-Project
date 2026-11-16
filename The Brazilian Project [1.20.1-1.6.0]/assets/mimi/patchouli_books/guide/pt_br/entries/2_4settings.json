@@ -1,0 +1,16 @@
+{
+    "name": "Configurando Instrumentos",
+    "icon": "minecraft:writable_book",
+    "category": "mimi:2instruments",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Além de usar a Tela do Instrumento, há várias outras formas de definir as configurações MIDI dos instrumentos.$(br2)Para vincular instrumentos ao Transmissor de um jogador ou a um bloco Transmissor de Servidor, clique com o botão direito no jogador ou no bloco com o instrumento a ser vinculado."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Para copiar as Configurações MIDI de um instrumento para outro, coloque os dois instrumentos diretamente lado a lado numa grade de criação. O instrumento à direita terá suas configurações definidas com os valores do instrumento à esquerda."
+        }
+    ],
+    "sortnum": 4
+}

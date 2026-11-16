@@ -1,0 +1,15 @@
+{
+  "entity_model_features.config.variable_explanation.mobplayeranimator.is_playeranimator_animation_active": "Se a entidade tem uma animação do Player Animator ativa",
+
+  "text.autoconfig.mobplayeranimator.title": "Mob Player Animator",
+  "text.autoconfig.mobplayeranimator.option.client.is_emf_animation_halt_enabled": "Interrupção de Animação EMF",
+  "text.autoconfig.mobplayeranimator.option.client.is_emf_animation_halt_enabled.@Tooltip": "Interrompe as animações do Entity Model Features quando uma animação do Player Animator estiver ativa.",
+  "text.autoconfig.mobplayeranimator.option.client.emf_animation_halt_blacklist": "Lista Negra de Interrupção de Animação EMF",
+  "text.autoconfig.mobplayeranimator.option.client.emf_animation_halt_blacklist.@Tooltip": "Para estas entidades, impede que suas animações EMF sejam interrompidas quando uma animação do Player Animator estiver ativa",
+  "text.autoconfig.mobplayeranimator.option.client.emf_animation_halt_animation_blacklist": "Lista Negra de Animações de Interrupção EMF",
+  "text.autoconfig.mobplayeranimator.option.client.emf_animation_halt_animation_blacklist.@Tooltip": "Para estas animações do Player Animator, impede que causem a interrupção de animações EMF quando apenas elas estiverem ativas.",
+  "text.autoconfig.mobplayeranimator.option.client.emf_force_vanilla_models": "Forçar Modelos Vanilla no EMF",
+  "text.autoconfig.mobplayeranimator.option.client.emf_force_vanilla_models.@Tooltip": "Para estas entidades, força o EMF a usar o modelo vanilla em vez de interromper as animações quando uma animação do Player Animator estiver ativa.",
+  "text.autoconfig.mobplayeranimator.option.client.guess_emf_part_modifier_animated_groups": "Adivinhar Grupos de Animação do Modificador de Parte EMF",
+  "text.autoconfig.mobplayeranimator.option.client.guess_emf_part_modifier_animated_groups.@Tooltip": "Quando um grupo de animação não é especificado para um Modificador de Parte EMF, permite que o sistema interno adivinhe o grupo."
+}

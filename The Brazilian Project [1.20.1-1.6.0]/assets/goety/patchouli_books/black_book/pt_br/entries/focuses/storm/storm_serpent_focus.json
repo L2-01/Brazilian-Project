@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Serpente da Tempestade",
+  "icon": "goety_cataclysm:storm_serpent_focus",
+  "category": "goety:cataclysm/focuses/storm",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O feitiço invoca serpentes fantasmagóricas para investir contra seus inimigos e explodir numa tempestade tormentosa, tornando-os vulneráveis a outros ataques de raios."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/storm_serpent_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/storm_staff)Cajado de Tempestade$() invoca mais serpentes ao fim do feitiço."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:storm_serpent_focus": 1
+  }
+}

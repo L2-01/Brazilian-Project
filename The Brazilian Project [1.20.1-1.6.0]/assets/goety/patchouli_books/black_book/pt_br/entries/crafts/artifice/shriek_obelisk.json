@@ -1,0 +1,34 @@
+{
+  "name": "Obelisco Estridente",
+  "icon": "goety:shriek_obelisk",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/get_sculk_catalyst",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os Illagers são persistentes em caçar aqueles que mergulharam nas artes sombrias. Com um punhado de seus crânios e um emissor das trevas, você encontrou um jeito de lembrá-los do lugar deles."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:shriek_obelisk"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Obelisco Estridente solta um grito aterrorizante que afasta qualquer Illager que tente lançar um ataque contra você. Ele precisa ser colocado em cima de uma Jaula Amaldiçoada cheia para ficar ativo."
+    },
+    {
+      "type": "multiblock",
+      "name": "Exemplo de Posicionamento",
+      "multiblock_id": "goety:so_example",
+      "enable_visualize": false,
+      "text": "Até 4 níveis de crânios podem ser colocados."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crânios Altos colocados ao redor do Obelisco, como os blocos ao redor de um Sinalizador, porém apenas nos contornos, aumentarão o raio de efeito do Obelisco Estridente."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:shriek_obelisk": 1
+  }
+}

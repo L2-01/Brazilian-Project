@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Dispersão",
+  "icon": "goety:scatter_focus",
+  "category": "goety:focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O foco conjura minas ao redor do conjurador, que armam após um segundo e explodem, sem destruir blocos, quando um alvo não aliado pisa perto delas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/scatter_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/geo_staff)Cajado Geomante$() muda a forma do feitiço. Em vez de, por padrão, invocar três minas de dispersão instantaneamente, o conjurador deve conjurar continuamente até que até quatorze minas tenham surgido ao seu redor."
+    }
+  ]
+}

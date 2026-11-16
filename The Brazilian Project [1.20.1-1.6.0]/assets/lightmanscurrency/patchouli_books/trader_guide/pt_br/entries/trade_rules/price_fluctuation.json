@@ -1,0 +1,15 @@
+{
+	"name": "Flutuação de Preço",
+	"icon": "lightmanscurrency:textures/gui/trader_guide/trade_rules/price_fluctuation/icon.png",
+	"category": "lightmanscurrency:trade_rules",
+	"pages": [
+		"A regra \"Flutuação de Preço\" permite aleatorizar o preço de uma troca de tempos em tempos, dentro de uma determinada porcentagem do seu preço definido.",
+		{
+			"type": "lightmanscurrency:wide_image",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/price_fluctuation/inputs.png",
+			"text": "A regra tem dois campos: o primeiro é a porcentagem de flutuação/variação em relação ao preço base que a regra pode dar.$(br2)O segundo campo é um campo de tempo que determina com que frequência o preço mudará aleatoriamente."
+		},
+		"Algumas observações adicionais:$(li)Por consistência e eficiência, o temporizador é baseado no tempo desde 1º de janeiro de 1970; então você pode definir o intervalo como 1h e vê-lo realeatorizar menos de 5min depois de configurar a regra, caso isso ultrapasse a marca de 1h.$(li)A faixa aleatória vai de -X% -> X%, então há uma chance de o preço aleatorizar em +0% e usar o preço padrão.",
+		"$(li)Mesmo aplicada a todas as trocas, o preço de cada uma será aleatorizado separadamente (dentro da mesma faixa, claro). Isso significa que a troca 1 pode aleatoriamente ficar +5% e a troca 2 ficar -3% sob a mesma regra de troca."
+	]
+}

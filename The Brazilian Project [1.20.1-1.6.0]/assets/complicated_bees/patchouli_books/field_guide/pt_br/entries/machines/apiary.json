@@ -1,0 +1,19 @@
+{
+  "name": "Apiário",
+  "icon": "complicated_bees:apiary",
+  "category": "complicated_bees:machines",
+  "advancement": "complicated_bees:first_bee",
+  "turnin": "complicated_bees:apiary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um apiário é a moradia ideal para abelhas — com espaço de fácil acesso para abelhas, quadros e produtos, este pequeno bloco maravilhoso é o melhor amigo de um apicultor (ou, se preferir, de um apiarista)!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:apiary",
+      "title": "Apiário",
+      "text": "Você pode usar qualquer tipo de favo para fabricar um apiário!"
+    }
+  ]
+}

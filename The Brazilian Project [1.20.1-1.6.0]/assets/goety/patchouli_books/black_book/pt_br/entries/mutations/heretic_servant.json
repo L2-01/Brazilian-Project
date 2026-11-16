@@ -1,0 +1,21 @@
+{
+  "name": "Servo Herege",
+  "icon": "minecraft:blaze_powder",
+  "category": "goety:mutations",
+  "advancement": "goety:goety/craft_unholy_robe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Normalmente, quando um Aldeão dorme ao lado de um Portal do Nether, ele tem chance de se transformar num Herege. Porém, vestir um Chapéu Profano e um Manto Profano perto dele fará com que ele não só se volte à heresia, como também o sirva como acólito leal."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:heretic_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você também pode negociar com seu Servo Herege dando-lhe uma Esmeralda, sem precisar vestir o traje adequado para isso. Você também pode negociar com outros Servos Hereges, desde que seja aliado do mestre deles, se houver um, e esteja vestindo o traje apropriado."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "guide.animus.entry.sigil_builder",
+  "icon": "animus:sigil_builder",
+  "category": "animus:sigils",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "animus:crafting_array",
+      "recipe": "animus:array/sigil_builder",
+      "text": "Criado num $(blood)Círculo de Alquimia$() combinando um $(l:animus:items/reagentbuilder)Reagente: Construtor$() com uma $(item)Ardósia Reforçada$(). O reagente deve ser forjado primeiro na Forja Infernal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_builder",
+      "text": "Acelere seus projetos de construção. O Sigilo do Construtor Veloz aumenta drasticamente a velocidade de colocar blocos, permitindo construir estruturas em velocidades sobrenaturais."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Custo de LP:$() Mínimo por bloco colocado$(br2)$(bold)Efeito:$() Segure o sigilo enquanto constrói para colocar blocos muito mais rápido que o normal.$(br2)O sigilo funciona passivamente; basta tê-lo no seu inventário ou hotbar ao colocar blocos para aproveitar a construção acelerada.$(br2)Perfeito para grandes projetos de construção, terraformação e construção criativa."
+    }
+  ]
+}

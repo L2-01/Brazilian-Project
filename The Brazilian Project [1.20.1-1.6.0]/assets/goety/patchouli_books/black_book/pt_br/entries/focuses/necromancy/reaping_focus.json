@@ -1,0 +1,22 @@
+{
+  "name": "Foco Ceifador",
+  "icon": "goety:reaping_focus",
+  "category": "goety:focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Essas aparições famintas por almas não só são úteis para ceifar vários inimigos, como também coletam energia de almas para seu mestre necromante."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/reaping_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/necro_staff)Cajado Necrótico$() invoca mais ceifadores de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:reaping_focus": 1
+  }
+}

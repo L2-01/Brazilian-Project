@@ -1,0 +1,18 @@
+{
+  "name": "Pingente da Fome",
+  "icon": "goety:pendant_of_hunger",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Pingente da Fome absorve qualquer Carne Podre no seu inventário, armazenando-a dentro de si e usando-a para alimentar você automaticamente assim que sentir uma fominha. Claro, comer tal comida o deixa mais faminto do que antes."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:pendant_of_hunger"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:pendant_of_hunger": 1
+  }
+}

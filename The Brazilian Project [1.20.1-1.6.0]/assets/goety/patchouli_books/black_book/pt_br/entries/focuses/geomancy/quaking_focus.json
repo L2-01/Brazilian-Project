@@ -1,0 +1,19 @@
+{
+  "name": "Foco Tremedor",
+  "icon": "goety:quaking_focus",
+  "category": "goety:focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O conjurador invoca tremores à sua frente, ferindo e arremessando criaturas não aliadas para o ar. Conjurar o feitiço agachado invocará tremores ao redor do conjurador."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/quaking_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/geo_staff)Cajado Geomante$() invocará tremores num arco que também desativará escudos. Conjurar agachado aumenta o raio."
+    }
+  ]
+}

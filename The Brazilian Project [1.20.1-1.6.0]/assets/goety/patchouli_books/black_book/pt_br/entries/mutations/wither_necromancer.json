@@ -1,0 +1,29 @@
+{
+  "name": "Necromante Wither",
+  "icon": "goety:nether_staff",
+  "category": "goety:mutations",
+  "advancement": "goety:goety/read_buried_and_bygone_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você descobriu uma variante mais poderosa dos Necromantes comuns, uma que arde com os fogos do Nether, disparando jatos de chamas do chão e murchando seus inimigos. Em vez de Esqueletos comuns, o ritual é realizado num Esqueleto-Wither."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_wither_skeleton_to_wither_necromancer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Assim como os Necromantes comuns, eles podem ser ensinados a invocar mais do que apenas Esqueletos-Wither. Clicar com o botão direito usando certos Focos de Necromancia permite que eles invoquem mais tipos de servos. Clicar neles com a mão vazia fará o Necromante invocar Servos Mortos-vivos para você. Eles são curados da mesma forma que os Servos Esqueleto-Wither comuns."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:wither_necromancer_servant"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:soul_jar{Wither: 1b}",
+      "text": "Caso um Necromante Wither caia, ter um $(l:crafts/empty_soul_jar)Pote de Almas Vazio$() fará a alma dele preenchê-lo, que, ao ser usado com o botão direito num Esqueleto-Wither, o reviverá usando tal Esqueleto-Wither como seu novo corpo."
+    }
+  ]
+}

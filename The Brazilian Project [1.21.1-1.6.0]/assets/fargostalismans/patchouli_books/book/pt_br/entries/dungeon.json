@@ -1,0 +1,43 @@
+{
+  "name": "Informações da Masmorra",
+  "sortnum": 0,
+  "category": "fargostalismans:dungeon",
+  "icon": "fargostalismans:abominable_energy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Masmorra de Fargo, localizada no Nether, é o único lugar para obter Energia Abominável, um dos componentes de fabricação essenciais para as Bases de Talismã.  Elas podem ser saqueadas de baús nesta masmorra."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "fargostalismans:textures/images/dungeon2_256.png",
+        "fargostalismans:textures/images/dungeon_256.png"
+      ],
+      "text": "Uma pequena amostra da aparência da masmorra."
+    },
+    {
+      "title": "Itens Saqueados",
+      "type": "patchouli:text",
+      "text": "Baús têm chance de conter um item de fabricação usado na Alma do Colosso."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "fargostalismans:soul_of_colossus",
+      "text": "A alma é fabricada usando itens encontrados em baús da Masmorra de Fargo.",
+      "link_recipe": true
+    },
+    {
+      "title": "Itens de Criaturas",
+      "type": "patchouli:text",
+      "text": "Zumbis, Esqueletos, Creepers e Aranhas têm 5% chance de largar um item usado na Alma do Supersônico.  Saque adiciona 2% fixo por nível.  Os itens largados são aleatórios, então podem vir repetidos."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "fargostalismans:soul_of_supersonic",
+      "text": "A alma é fabricada usando itens largados por criaturas dentro da Masmorra de Fargo.",
+      "link_recipe": true
+    }
+  ],
+  "read_by_default": true
+}

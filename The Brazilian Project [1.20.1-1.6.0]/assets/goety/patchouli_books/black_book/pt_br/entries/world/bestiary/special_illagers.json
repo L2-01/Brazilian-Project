@@ -1,0 +1,116 @@
+{
+  "name": "Caçadores Illager",
+  "icon": "minecraft:crossbow",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_hunting_illagers",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Após matar um monte de Illagers que vieram lhe matar por roubar o conhecimento deles, você conseguiu documentar os que nunca havia encontrado antes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A maioria desses Illagers parece perseguir apenas aqueles que descobriram ou roubaram seus segredos, pois não são encontrados estacionados em Mansões da Floresta ou Postos, e parecem participar de Invasões apenas se tais descobridores estiverem naquela aldeia. O certo é que essa espécie de Illager tem patente alta o suficiente para trazer até Devastadores em sua perseguição."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:envioker"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Um Invocador poderoso e erudito que parece usar um estranho Fragmento de Rubi na cabeça para fortalecer suas magias. Seu Totem foi presenteado ou tirado de outros."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:tormentor"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Parecendo ser o resultado de um experimento entre um Obsessor e um Vindicador, esses seres permanecem invisíveis quando não estão avançando sobre seu alvo."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:sorcerer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Praticantes completos das artes sombrias, esses magos não são especializados num único elemento como os outros conjuradores illager, tornando-os mais imprevisíveis que o resto. Feiticeiros altamente treinados tendem a dourar suas vestes com materiais preciosos."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:piker",
+      "scale": 0.95
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Maiores que os Saqueadores comuns, menores mas de alcance maior que os Vindicadores, esses soldados disciplinados podem ter sido inspirados pelos pergaminhos do deserto."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:ripper",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Lobos e cães domesticados e criados por Illagers com o propósito de perseguir presas ou dilacerar seus inimigos à frente de suas tropas. Eles podem vir em tamanhos diferentes com atributos diferentes, e raramente têm reforços aparecendo por perto."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:trampler",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Corcéis violentos dos Illagers, boatos dizem ser feitos dos mais fracos de sua espécie ou como punição, que avançam sobre seus alvos com ou sem cavaleiro."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:crusher"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ferreiros e guerreiros, esses Illagers tendem a ficar forjando longe dos olhos, ou destacados em certas áreas. Dizem que alguns de seus martelos são feitos para absorver e controlar o próprio relâmpago."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:storm_caster"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Alguns acreditam que sejam ex-Geomantes ou Chamadores de Vento que decidiram dominar o poder do próprio relâmpago. Eles procuram o santuário mais alto para saquear seus segredos."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:cryologer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Parentes dos Gelomantes, esses chorões têm mais truques na manga que seus primos de feitiço único. Os Illagers acreditam que eles choram de admiração pelo frio."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:preacher"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Assim como os Encantadores, os Pregadores são um tipo raro de Illager que trabalha para apoiar seus irmãos em vez de lutar de frente. Esses Illagers seguirão e curarão qualquer invasor ferido próximo."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:conquillager",
+      "scale": 0.95
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Aristocratas doentes que espalham pestilência capaz de acabar com civilizações sobre os estrangeiros. Felizmente, eles preferem atirar de longe a partir para o corpo a corpo bárbaro."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:inquillager"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Um Illager inesperado treinado para atacar usuários de magia, pois é imune aos feitiços deles. Eles empunham espadas flamejantes e arremessam Poções de Dano."
+    }
+  ]
+}

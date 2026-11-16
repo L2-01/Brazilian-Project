@@ -1,0 +1,56 @@
+{
+  "name": "Selo de Adivinhação",
+  "icon": "bloodmagic:divinationsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(item)Selo de Adivinhação$() é provavelmente o primeiro dos muitos selos que você vai querer criar no Blood Magic. Para criar o selo, você precisa fazer um $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Arranjo de Alquimia$(/l) e usar $(item)Pó de Redstone$() e uma $(item)Ardósia em Branco$() como itens de base e catalisador, respectivamente."
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "Selo de Adivinhação",
+      "recipe": "bloodmagic:array/divinationsigil",
+      "text": " $(italic)Espiar a alma."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/divination_sigil.png"
+      ],
+      "title": "Arranjo do Selo de Adivinhação",
+      "border": true,
+      "text": "O Selo de Adivinhação, ao lado de seu arranjo de criação."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Selo de Adivinhação tem dois usos principais: $(br)$(li)Quando qualquer jogador pressiona [$(k:use)] apontando para o ar com um selo vinculado, ele exibe a quantidade de $(blood)LP$() que está na $(l:bloodmagic:altar/soul_network)Soul Network.$(/l) do dono.$(li)Ao pressionar [$(k:use)] num $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(/l), ele informa ao jogador o Tier atual do altar, a quantidade de $(blood)Essência Vital$() armazenada no altar, assim como sua capacidade máxima atual. Ter um $(item)Selo de Adivinhação$() em mãos também pode ser útil para o $(l:bloodmagic:utility/incense_altar)Altar de Incenso$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/divination_sigil_info.png"
+      ],
+      "title": "Display do Selo de Adivinhação",
+      "border": true,
+      "text": "O Selo de Adivinhação exibe este HUD quando você está olhando para um Altar de Sangue."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Por fim, ao segurar a tecla de agachar e pressionar [$(k:use)], uma nova interface se abre exibindo todos os elementos de HUD disponíveis do Blood Magic. Um elemento pode ser selecionado e movido clicando e arrastando o elemento. Soltar o elemento e clicar em \"Salvar\" salva a nova localização do elemento.$(br2)Selecionar \"Padrão\" retorna os elementos às posições padrão."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/gui_editing.png"
+      ],
+      "title": "Edição de GUI",
+      "border": true,
+      "text": "os vários elementos de GUI do Blood Magic."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os elementos, de cima para baixo, depois da esquerda para a direita, são os seguintes: $(li)$(l:bloodmagic:utility/incense_altar)O Altar de Incenso$() (cinza claro)$(li)$(l:bloodmagic:alchemy_array/sigil/seer)O Selo do Vidente$() (roxo)$(li)$(item)o Selo de Adivinhação$() (lavanda)$(li)O $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Medidor de Aura de Will Demoníaca$() (laranja) $(li)$(l:bloodmagic:alchemy_array/sigil/holding)O Selo de Retenção$() (verde)"
+    }
+  ]
+}

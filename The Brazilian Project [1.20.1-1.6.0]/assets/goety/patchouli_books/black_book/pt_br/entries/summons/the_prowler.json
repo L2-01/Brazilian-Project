@@ -1,0 +1,37 @@
+{
+  "name": "Peste-Robô",
+  "icon": "cataclysm:mech_eye",
+  "category": "goety:cataclysm/summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um ser mecânico de alta tecnologia demais para você replicar de verdade com as ferramentas que tem atualmente. Felizmente, o poder da Energia de Almas permite que o poder dos mortos há muito tempo ajude a recriar esta maravilha mecânica sob o seu domínio."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:the_prowler",
+      "scale": 0.5
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:thrall/summon_prowler_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Eles podem ser curados clicando neles com o botão direito com Lingotes de Ferro ou Blocos de Ferro."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_cataclysm:mechanized_core",
+      "text": "Quando destruídos, esses motores destrutivos derrubam sua complexa circuiteria, que contém os projetos e a tecnologia para serem reconstruídos."
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety_cataclysm:prowler",
+      "text": "Clique com o botão direito num Bloco de Ferro Mecanizado central com o Núcleo Mecanizado."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:mechanized_core": 4
+  }
+}

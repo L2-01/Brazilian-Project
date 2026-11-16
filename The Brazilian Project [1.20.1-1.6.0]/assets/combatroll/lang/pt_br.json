@@ -1,0 +1,34 @@
+{
+  "combatroll.mod_name": "Combat Roll",
+
+  "keybinds.combatroll.roll": "Rolamento",
+
+  "gui.combatroll.config_menu": "Configuração do Combat Roll",
+  "gui.combatroll.close": "Fechar",
+  "gui.combatroll.settings": "Configurações",
+  "gui.combatroll.hud": "Mova a seta",
+  "gui.combatroll.corner": "Canto",
+  "gui.combatroll.reset": "Redefinir",
+
+  "enchantment.combatroll.longfooted": "Pé Grande",
+  "enchantment.combatroll.longfooted.desc": "Aumenta a distância das suas rolamentos",
+  "enchantment.combatroll.acrobat": "Acrobata",
+  "enchantment.combatroll.acrobat.desc": "Reduz o tempo de recarga entre os seus rolamentos",
+  "enchantment.combatroll.multi_roll": "Rolamento Múltiplo",
+  "enchantment.combatroll.multi_roll.desc": "Concede rolamentos extras",
+
+  "attribute.name.combat_roll.distance": "Distância de Rolamento",
+  "attribute.name.combat_roll.count": "Rolamento Extra",
+  "attribute.name.combat_roll.recharge": "Recarga de Rolamento",
+
+  "text.autoconfig.combatroll.title": "Combat Roll",
+  "text.autoconfig.combatroll.option.client.playCooldownSound": "Reproduzir som de recarga pronta",
+  "text.autoconfig.combatroll.option.client.playCooldownFlash": "Piscar seta quando a recarga estiver pronta",
+  "text.autoconfig.combatroll.option.client.playRollSound": "Reproduzir som de rolamento",
+  "text.autoconfig.combatroll.option.client.hudArrowColor": "Cor da seta",
+  "text.autoconfig.combatroll.option.client.hudBackgroundOpacity": "Opacidade do fundo da seta",
+  "text.autoconfig.combatroll.option.client.showHUDInCreative": "Mostrar seta no modo Criativo",
+  "text.autoconfig.combatroll.option.client.showWhenFull": "Mostrar seta quando cheia",
+  "text.autoconfig.combatroll.option.client.showKeybinding": "Mostrar atalho de tecla na HUD",
+  "text.autoconfig.combatroll.option.client.keybindingLabelPosition": "Posição do rótulo do atalho de tecla"
+}

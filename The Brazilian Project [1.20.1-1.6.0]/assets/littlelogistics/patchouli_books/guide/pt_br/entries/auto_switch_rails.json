@@ -1,0 +1,23 @@
+{
+    "name": "Trilhos de Mudança Automática",
+    "icon": "littlelogistics:automatic_switch_rail",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Esses tipos de trilhos de mudança trocam de direção automaticamente quando uma locomotiva se aproxima. A direção será trocada dependendo do destino mais próximo na $(l:loco_route)Rota da Locomotiva$() que ainda não foi visitado no ciclo atual."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Trilho de Mudança Automática",
+            "recipe": "littlelogistics:automatic_switch_rail",
+            "text": "Alterna entre reto ou esquerda/direita."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Trilho de Junção em T Automática",
+            "recipe": "littlelogistics:automatic_tee_junction_rail",
+            "text": "Alterna entre esquerda/direita."
+        }
+    ]
+}

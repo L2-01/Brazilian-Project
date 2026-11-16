@@ -1,0 +1,18 @@
+{
+  "name": "guide.animus.entry.imperfect_ritual_iron_heart",
+  "icon": "irons_spellbooks:arcane_anvil",
+  "category": "animus:compatibility",
+  "flag": "mod:irons_spellbooks",
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um ritual imperfeito que canaliza o poder arcano do Iron's Spellbooks através da magia de sangue, concedendo golpes ecoantes devastadores em combate.$(br2)$(bold)Requer:$() Iron's Spellbooks$(br2)$(bold)Configuração:$()$(br)Coloque uma Bigorna Arcana em cima de uma Pedra de Ritual Imperfeita.$(br2)$(bold)Custo:$() 3.500 LP por uso$(br2)$(bold)Duração:$() 15 minutos"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Efeitos",
+      "text": "$(bold)Ativação:$()$(br)Clique com o botão direito na Pedra de Ritual Imperfeita para receber:$(li)$(thing)Echoing Strikes III$() por 15 minutos$(li)O efeito não tem partículas visíveis$(br2)$(bold)Echoing Strikes:$()$(br)O efeito Echoing Strikes do Iron's Spellbooks faz seus ataques corpo a corpo ecoarem, causando dano adicional aos alvos.$(br2)$(bold)Casos de Uso:$()$(li)Encontros prolongados de combate$(li)Lutas contra chefes$(li)Builds focadas em corpo a corpo$(br2)$(italic)Sangue e aço tornam-se um.$()"
+    }
+  ]
+}

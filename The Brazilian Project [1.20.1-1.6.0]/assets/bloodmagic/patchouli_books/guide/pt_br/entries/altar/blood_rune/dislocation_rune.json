@@ -1,0 +1,25 @@
+{
+  "name": "Runa de Deslocamento",
+  "icon": "bloodmagic:dislocationrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Runa de Deslocamento$() aumenta a taxa de fluxo de $(blood)Essência Vital$() para dentro e para fora do altar ao bombear de e para um Tanque externo em +20% multiplicativo"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_displacement"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_displacement_2",
+      "text": "Com um pouco de $(item)Fragmentos de Netherita$() e algumas $(item)Peças Intrincadas Forjadas no Inferno$() saqueadas do $(l:bloodmagic:dungeons/endless_realm)Reino Demoníaco$(), você pode dobrar o poder da sua $(item)Runa de Deslocamento$(), aumentando a taxa de fluxo em +40% multiplicativo por runa."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/displacement",
+      "text": "Se mudar de ideia, você pode desfazer a receita na ARC."
+    }
+  ]
+}

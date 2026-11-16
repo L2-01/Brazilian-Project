@@ -1,0 +1,46 @@
+{
+  "name": "Aparições",
+  "icon": "goety:ectoplasm",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_wraith",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Sombras misteriosas que invocam chamas sob os pés de seu alvo que, em vez de quentes, congelam a alma. Elas também têm a habilidade de se teleportar, mas só o fazem se o alvo estiver perto delas."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:wraith",
+      "text": "Apesar de seus poderes ígneos, elas não são imunes ao fogo."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:ectoplasm",
+      "title": "Ectoplasma",
+      "text": "Aparições têm chance de derrubar um Ectoplasma. O Ectoplasma é útil para fabricar artefatos e feitiços Necrotúrgicos."
+    },
+    {
+      "type": "patchouli:entity",
+      "advancement": "goety:goety/kill_a_muck_wraith",
+      "entity": "goety:muck_wraith"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "goety:goety/kill_a_muck_wraith",
+      "text": "Uma variante da aparição, uma que, em vez de invocar chamas congelantes, invoca nuvens de gás ácido sobre seus inimigos."
+    },
+    {
+      "type": "patchouli:entity",
+      "advancement": "goety:goety/kill_a_border_wraith",
+      "entity": "goety:border_wraith"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "goety:goety/kill_a_border_wraith",
+      "text": "Uma variante da aparição, esses fantasmas não têm a habilidade de se teleportar e invocam menos Buquês de Gelo que sua prima. Porém, eles têm o poder de soprar suas chamas gélidas sobre o alvo, se tal alvo chegar perto deles."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:ectoplasm": 2
+  }
+}

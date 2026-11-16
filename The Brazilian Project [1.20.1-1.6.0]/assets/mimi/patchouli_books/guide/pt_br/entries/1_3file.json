@@ -1,0 +1,53 @@
+{
+    "name": "Toque um Arquivo MIDI",
+    "icon": "mimi:transmitter",
+    "category": "mimi:1overview",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Um dos melhores recursos do MIMI é a capacidade de tocar arquivos MIDI facilmente do seu PC.$(br2)Arquivos MIDI são como uma forma digital de partitura que computadores conseguem ler (frequentemente usados por máquinas de karaokê) e, no MIMI, você pode usá-los para fazer seus instrumentos tocarem músicas completas.$(br2)Para tocar um arquivo MIDI no MIMI, você deve primeiro criar um Transmissor."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Receitas",
+            "recipe": "mimi:transmitter"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Encontrando Arquivos MIDI",
+            "text": "Para usar o Transmissor, você deve primeiro obter alguns arquivos MIDI para ele tocar.$(br2)Arquivos MIDI não são como músicas comuns que você ouviria no seu computador (como arquivos MP3) e o MIMI não suporta tocar nenhum outro tipo de arquivo de música. Arquivos de música normais são uma gravação de instrumentos tocando notas, mas arquivos MIDI são as próprias notas, com instruções de como elas devem ser tocadas."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O MIDI existe há muito tempo, então há muitas músicas disponíveis online, mas pode ser difícil encontrar músicas mais recentes que tenham tido arquivos MIDI criados para elas. Aqui estão alguns links para sites que têm muitos arquivos MIDI gratuitos:$(br2)1. $(l:https://bitmidi.com/)BitMidi.com$()$(br)2. $(l:https://freemidi.org/)FreeMidi.org$()$(br)3. $(l:https://www.midiworld.com/files/)MidiWorld.com$()$(br)4. $(l:https://freemidis.net)FreeMidis.net$()$(br)5. $(l:https://midifind.com/)MidiFind.com$()$(br2)Mais podem ser encontrados facilmente pelo Google!"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Usando o Transmissor",
+            "text": "Coloque um Transmissor na mão e clique com o botão direito para abri-lo.$(br2)A Tela do Transmissor permite ver e tocar todos os arquivos MIDI da pasta \"midi_files\" do MIMI, além de quaisquer arquivos fornecidos pelo servidor em que você está (em multijogador).$(br2)Para adicionar músicas do seu PC, clique no botão de pasta no canto superior esquerdo para abrir a pasta \"midi_files\" do MIMI e coloque seus arquivos MIDI lá."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Depois que seus arquivos estiverem na pasta, clique no botão de atualizar no canto superior direito para que o MIMI carregue as músicas na lista de reprodução do Transmissor.$(br2)Use os controles da lista de reprodução no canto inferior esquerdo para selecionar e tocar sua música (e alternar os modos de repetição e aleatório).$(br2)Os botões no canto superior direito podem ser usados para filtrar a lista por origem (seu PC ou o servidor) e por favoritas (definidas com o botão de coração ao lado do nome da música selecionada)."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Conectando Instrumentos",
+            "text": "O último passo é conectar seu(s) instrumento(s) ao Transmissor. Abra a Tela do Instrumento de um instrumento e clique no botão Editar (lápis) para abrir as configurações MIDI do Instrumento.$(br2)No canto inferior esquerdo, clique no botão \"ME\" para vincular o instrumento ao seu Transmissor.$(br2)Você já deve ouvir sua música!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Você pode fechar a Tela do Instrumento quando seu instrumento começar a tocar, e ele continuará tocando enquanto você continuar segurando-o em qualquer uma das mãos (instrumentos de mão) ou permanecer sentado nele (instrumentos de bloco). Isso significa que você pode tocar até 3 instrumentos ao mesmo tempo!$(br2)Um Transmissor deve permanecer em uma das suas mãos ou na sua barra de acesso rápido para continuar tocando. Usando uma tecla de atalho, você pode abrir a Tela do Transmissor a qualquer momento ($(bold)$(k:key.mimi.midi.gui.transmitter)$())."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Trocando Canais",
+            "text": "Os Canais MIDI representam partes separadas da música (como um cantor, guitarra solo e bateria); alguns arquivos MIDI podem usar todos os 16 Canais, enquanto outros podem usar apenas 1. O Canal 10 é sempre reservado para a bateria.$(br2)Olhar as atribuições de Canal na Tela do Transmissor de uma música ajudará você a decidir quais instrumentos do MIMI podem soar melhor tocando quais Canais daquela música."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Tente experimentar ativar e desativar Canais específicos em cada um dos instrumentos que você está tocando para remixar o jeito que a música soa.$(br2)Lembre-se de que o Canal 10 é sempre usado para bateria, então ele provavelmente não soará bem quando ativado em outros instrumentos."
+        }
+    ],
+    "sortnum": 3
+}

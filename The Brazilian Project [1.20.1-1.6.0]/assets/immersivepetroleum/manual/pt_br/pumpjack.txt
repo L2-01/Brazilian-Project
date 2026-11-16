@@ -1,0 +1,13 @@
+Cavalo de Pau
+Bombeie, Bombeie sem Parar
+<&pumpjack0>
+O Cavalo de Pau é uma máquina que bombeia líquidos das cabeças de poço criadas pelo <link;immersivepetroleum:derrick;§o§nDerrick§r>.
+A estrutura é formada ao usar o Martelo de Engenheiro no bloco de engenharia pesada da segunda camada.<np>
+Cavalos de Pau são a máquina de trabalho pesado da extração de petróleo, produzindo uma quantidade lenta mas constante de líquido de seus poços ao elevá-lo por uma válvula unidirecional para superar a falta de pressão do poço. Poços que ainda têm pressão vencem a válvula do cavalo de pau e jorram líquido.
+
+Para operar, a conexão do tubo principal deve ser colocada diretamente sobre a cabeça de poço para que o aparato da válvula desça até ela.<np>
+O Cavalo de Pau usa <config;i;pumpjack_consumption> Flux/t para bombear líquido a uma taxa de <config;i;pumpjack_speed> mB/t. Os líquidos saem pelas portas laterais marcadas com pontos laranja.
+
+Um reservatório de petróleo comum leva <config;i;pumpjack_days> dias para se esgotar com um cavalo de pau. Alguns reservatórios, quando a pressão hidrostática fica abaixo do equilíbrio, reabastecem o fluido que pode ser extraído pelo Cavalo de Pau.
+
+Aplicar um sinal de redstone ao painel de controle interrompe o motor do cavalo de pau; esse comportamento pode ser invertido com a Chave de Fenda de Engenheiro.

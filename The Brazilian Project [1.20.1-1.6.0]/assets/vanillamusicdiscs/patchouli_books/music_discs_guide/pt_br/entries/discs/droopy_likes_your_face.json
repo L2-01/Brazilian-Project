@@ -1,0 +1,19 @@
+{
+    "name": "Droopy Likes Your Face",
+    "category": "vanillamusicdiscs:discs",
+    "icon": "vanillamusicdiscs:droopy_likes_your_face_music_disc",
+    "sortnum": 14,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "vanillamusicdiscs:droopy_likes_your_face_music_disc",
+            "text": "Fabrique Droopy Likes Your Face usando a $(bold)Mesa de Discos de Música$(). Coloque qualquer disco de música vanilla no espaço da esquerda e o material mostrado abaixo no espaço do meio."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:yellow_dye",
+            "title": "Material Necessário",
+            "text": "$(item)Corante Amarelo$() $(#808080)$()Coloque-o no espaço do meio da Mesa de Discos de Música junto a qualquer disco de música vanilla.$()"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Medidor de Aura de Will Demoníaca",
+  "icon": "bloodmagic:demonwillgauge",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Enquanto estiver no inventário do jogador, o $(item)Medidor de Aura de Will Demoníaca$() exibirá um elemento de HUD mostrando quanta $(raw)Will Demoníaca$() há na $(l:bloodmagic:demon_will/will_manipulation/aura)Aura$() local. $(br2)De cima para baixo, os aspectos de Will medidos são: $(li)$(raw)Bruta$() $(li)$(corrosive)Corrosiva$() $(li)$(steadfast)Resoluta$() $(li)$(destructive)Destrutiva$() $(li)$(vengeful)Vingativa$()"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "recipe": "bloodmagic:soulforge/demon_will_gauge",
+      "heading": "Medidor de Aura de Will Demoníaca",
+      "text": "Veja a seguir uma imagem do Elemento de HUD do Medidor."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_will_aura_gauge.png"
+      ],
+      "title": "Elemento de HUD do Medidor de Aura",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Este medidor aparecerá no canto superior esquerdo da sua tela. As barras coloridas darão uma boa estimativa de quanto de cada $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Aspecto de Will$() há no chunk atual. $(br2)Você pode segurar [$(k:sneak)] para obter um valor numérico de cada Aspecto, entre 1 e 100 $(raw)Will$() cada. 100 é a quantidade máxima de qualquer aspecto de $(raw)Will$() que um chunk pode ter."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Cera de Abelha",
+  "icon": "complicated_bees:beeswax",
+  "category": "complicated_bees:bee_products",
+  "advancement": "complicated_bees:apiary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A cera de abelha é o componente mais comum dos favos — pode ser aplicada ao cobre para impedir que ele oxide ainda mais, ou usada para fabricar uma variedade de blocos decorativos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:wax_block"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "complicated_bees:smooth_wax"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:wax_bricks"
+    }
+  ]
+}

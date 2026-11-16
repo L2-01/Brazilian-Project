@@ -1,0 +1,27 @@
+{
+  "name": "Varinha Sombria",
+  "icon": "goety:dark_wand",
+  "category": "goety:intro",
+  "sortnum": 6,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Parece que seres mágicos, como os Invocadores, conjuram feitiços por meio de cânticos e gestos. Eles pareciam saber lançar esses feitiços de cor, graças a longos estudos e rituais. Felizmente, você descobriu um jeito de conjurar feitiços sem estudos prolongados, usando uma varinha."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:dark_wand",
+      "text": "Usando os recém-descobertos Tecidos Mágicos, você consegue usar Energia de Almas para conjurar feitiços."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "No entanto, a varinha precisa de um $(l:focuses)Foco$() para que um feitiço seja conjurado. Uma vez que o Foco esteja encaixado na varinha, tudo o que o usuário precisa fazer é se concentrar no feitiço e ter Energia de Almas suficiente para conjurá-lo. Para encaixar um Foco na Varinha, pressione o botão Abrir Espaço de Foco da Varinha (padrão: Z) enquanto segura a Varinha e adicione o foco pelo seu inventário. Ter muitos focos pode exigir a criação de uma $(l:crafts/garment/focus_bag)Bolsa de Focos$(). Para começar a criar focos, é preciso primeiro fazer um Foco Vazio."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:empty_focus_craft",
+      "recipe2": "goety:empty_focus_craft2"
+    }
+  ]
+}

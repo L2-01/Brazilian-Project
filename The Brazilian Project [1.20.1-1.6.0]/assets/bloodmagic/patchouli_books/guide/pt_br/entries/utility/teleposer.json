@@ -1,0 +1,41 @@
+{
+  "name": "Telepositores",
+  "icon": "bloodmagic:teleposerfocus",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Telepositores$() permitem uma forma de teletransporte $(fire)Controlado por Redstone$(). Basta criar um $(item)Foco de Teleposição$() (a seguir), vinculá-lo ao seu telepositor alvo, colocá-lo noutro telepositor, e aplicar um sinal de redstone ao telepositor com um foco dentro. Qualquer coisa — blocos, itens, entidades, jogadores — numa área definida acima dos dois telepositores será trocada de lugar."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:teleposer",
+      "text": "Nada vem de graça, porém; transportar blocos ou entidades via telepositor custará $(blood)1 LP$() cada para cada dois blocos percorridos, até um máximo de $(blood)1.000 LP$() por bloco/entidade, ou $(blood)10.000 LP$() no total."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Foco de Teleposição",
+      "recipe": "bloodmagic:altar/teleposer_focus",
+      "text": "O $(item)Foco de Telepositor$() básico trocará qualquer coisa numa área de 1x1x1 bloco acima dos dois telepositores."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Foco Aprimorado",
+      "recipe": "bloodmagic:altar/enhanced_teleposer_focus",
+      "text": "O $(item)Foco de Telepositor Aprimorado$() trocará qualquer coisa numa área de 3x3x3 blocos centrada diretamente acima dos dois telepositores."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:enhanced_teleposer_focus",
+      "text": "O $(item)Foco de Telepositor Reforçado$() trocará qualquer coisa numa área de 5x5x5 blocos centrada diretamente acima dos dois telepositores."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Telepositores podem ser ligados em mão única (tal que um sinal de redstone no Telepositor de saída não faz nada), em mão dupla (tal que cada Telepositor tem um Foco ligado ao outro, fazendo você teleportar para frente e para trás a um sinal de redstone de qualquer ponta), ou até encadeados — A para B para C e de volta a A. De sistemas de elevador atravessando a base a labirintos subterrâneos complexos, solte a imaginação!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se estiver com dificuldade de fazer seu Telepositor funcionar, certifique-se de que ele está sendo $(thing)alimentado fortemente por redstone$(). Isso significa que colocar um bloco de redstone ao lado do bloco não o energiza — você vai precisar de pó de redstone ou um repetidor apontando para a lateral do Telepositor, ou uma alavanca ou botão diretamente nele. A Essência Vital não é de graça, afinal, então o Telepositor foi projetado para minimizar disparos acidentais. Para mais informações sobre força de redstone forte vs fraca, consulte $(l:https://minecraft.fandom.com/wiki/Redstone_mechanics?oldid=2127827#Powered_vs._activated)a Minecraft Wiki.$() "
+    }
+  ]
+}

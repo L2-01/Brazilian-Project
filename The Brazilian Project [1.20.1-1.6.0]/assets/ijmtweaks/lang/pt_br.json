@@ -1,0 +1,52 @@
+{
+  "category.ijmtweaks.bindings": "IJM's Tweaks",
+  "category.ijmtweaks.screen": "Tela",
+  "category.ijmtweaks.utility": "Utilidade",
+  "category.ijmtweaks.visual": "Visual",
+
+  "group.ijmtweaks.overlay.name": "Sobreposição",
+  "group.ijmtweaks.general.name": "Geral",
+  "group.ijmtweaks.movement.name": "Movimento",
+  "group.ijmtweaks.creative.name": "Criativo",
+  "group.ijmtweaks.rendering.name": "Renderização",
+  "group.ijmtweaks.debug.name": "Depuração",
+
+  "key.ijmtweaks.zoom": "Zoom",
+  "key.ijmtweaks.config": "Menu de configuração",
+  "key.ijmtweaks.fullbright": "Alternar Fullbright",
+
+  "option.ijmtweaks.description.nonSurvival": "Exige estar em um modo de jogo semelhante a não-sobrevivência ao jogar em um servidor dedicado.",
+  "option.ijmtweaks.description.nonSurvivalOp": "Exige ser OP e estar em um modo de jogo semelhante a não-sobrevivência ao jogar em um servidor dedicado.",
+
+  "option.ijmtweaks.darkLoadingOverlay.name": "Sobreposição de carregamento escura",
+  "option.ijmtweaks.darkLoadingOverlay.desc": "Define a cor da sobreposição de fundo de carregamento para preto.",
+  "option.ijmtweaks.pumpkinOverlayOpacity.name": "Opacidade da sobreposição de abóbora",
+  "option.ijmtweaks.pumpkinOverlayOpacity.desc": "Aumenta ou diminui o valor de opacidade da sobreposição da abóbora.",
+  "option.ijmtweaks.blockBreakParticle.name": "Redução de partículas de quebra de bloco",
+  "option.ijmtweaks.blockBreakParticle.desc": "Altera a quantidade de partículas criadas quando um bloco é quebrado. Um número maior significa menos partículas.",
+  "option.ijmtweaks.experienceBarInCreative.name": "Barra de experiência no criativo",
+  "option.ijmtweaks.experienceBarInCreative.desc": "Mostra a barra de experiência no modo criativo.",
+  "option.ijmtweaks.autoJumpOnStairs.name": "Pulo automático em escadas",
+  "option.ijmtweaks.autoJumpOnStairs.desc": "Ativa automaticamente o pulo automático ao subir escadas.",
+  "option.ijmtweaks.zoomLevel.name": "Nível de zoom",
+  "option.ijmtweaks.zoomLevel.desc": "Ajusta o nível de zoom. O atalho pode ser alterado nas opções do Minecraft.",
+  "option.ijmtweaks.fireOverlay.name": "Sobreposição de fogo",
+  "option.ijmtweaks.fireOverlay.desc": "Minimiza a altura ou desativa a visibilidade da sobreposição de fogo.",
+  "option.ijmtweaks.singleItemInventorySwap.name": "Item único na troca do inventário",
+  "option.ijmtweaks.singleItemInventorySwap.desc": "Obtém um único item em vez de uma pilha ao usar as teclas 1-9 no inventário criativo.",
+  "option.ijmtweaks.screenshotsFolder.name": "Mensagem da pasta de capturas",
+  "option.ijmtweaks.screenshotsFolder.desc": "Envia uma mensagem no chat sugerindo abrir a pasta de capturas de tela após tirar uma captura.",
+  "option.ijmtweaks.debugInvisibleEntities.name": "Depurar entidades invisíveis",
+  "option.ijmtweaks.debugInvisibleEntities.desc": "Renderiza as caixas de colisão de depuração de entidades invisíveis ao usar F3 + B.",
+  "option.ijmtweaks.fullbright.name": "Fullbright",
+  "option.ijmtweaks.fullbright.desc": "Define o brilho do jogo para um valor maior para enxergar no escuro.",
+
+  "enum.ijmtweaks.fireOverlayType.default": "Padrão",
+  "enum.ijmtweaks.fireOverlayType.reduced": "Reduzida",
+  "enum.ijmtweaks.fireOverlayType.hidden": "Oculta",
+
+  "chat.ijmtweaks.screenshot.message": "Abrir a pasta de capturas de tela",
+
+  "overlay.ijmtweaks.fullbright.enabled": "Fullbright ativado",
+  "overlay.ijmtweaks.fullbright.disabled": "Fullbright desativado"
+}

@@ -1,0 +1,11 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:igniter",
+    "name": "Acendedor",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Acendedor$() pode ser usado para acender um fogo à sua frente quando recebe um sinal de redstone.$(br2)Ele tem 3 modos, definidos em sua interface:$(br)$(li)Alternar: Acende quando energizado, apaga quando desenergizado$(br)$(li)Manter Aceso: Mantém o fogo aceso enquanto energizado, não faz nada quando desenergizado$(br)$(li)Acender: Acende quando energizado, não faz nada quando desenergizado"
+        }
+    ]
+}

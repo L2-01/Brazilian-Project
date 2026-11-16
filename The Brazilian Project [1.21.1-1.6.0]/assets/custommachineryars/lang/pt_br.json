@@ -1,0 +1,26 @@
+{
+  "custommachineryars.gui.element.source.tooltip": "Fonte: %s / %s",
+  "custommachineryars.jei.ingredient.source": "Fonte: %s",
+  "custommachineryars.jei.ingredient.source.pertick": "Fonte: %s",
+  "custommachineryars.jei.ingredient.source.pertick.input": "Consome fonte %s @ %s/t",
+  "custommachineryars.jei.ingredient.source.pertick.output": "Produz fonte %s @ %s/t",
+  "custommachineryars.jei.ingredient.source.input": "Consome %s de fonte",
+  "custommachineryars.jei.ingredient.source.output": "Produz %s de fonte",
+  "custommachineryars.requirements.source.error.input": "Fonte insuficiente, %s necessário(s), mas apenas %s encontrado(s)!",
+  "custommachineryars.requirements.source.error.output": "Espaço insuficiente para armazenar %s de fonte!",
+  "custommachineryars.requirements.sourcepertick.error.input": "Fonte insuficiente, %s necessário(s), mas apenas %s encontrado(s)!",
+  "custommachineryars.requirements.sourcepertick.error.output": "Espaço insuficiente para armazenar %s de fonte!",
+  "custommachineryars.connections.send": "Máquina configurada para enviar para %s",
+  "custommachineryars.connections.take": "Máquina configurada para retirar de %s",
+  "custommachineryars.connections.fail": "Muito longe.",
+  "custommachineryars.relay.no_from": "Nenhum local de retirada configurado.",
+  "custommachineryars.relay.no_to": "Nenhum local de envio configurado.",
+  "custommachineryars.relay.one_from": "Retirando de %d local(is).",
+  "custommachineryars.relay.one_to": "Enviando para %d local(is).",
+
+  "custommachineryars.gui.creation.components.source.title": "Componente de Fonte",
+
+  "custommachinery.machine.component.source": "Fonte",
+  "custommachinery.machine.guielement.source": "Fonte",
+  "custommachinery.machine.component.item_source": "Item (manipulador de fonte)"
+}

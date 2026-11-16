@@ -1,0 +1,24 @@
+{
+  "name": "Servo Réprobo",
+  "icon": "minecraft:crimson_planks",
+  "category": "goety:mutations",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ultimamente, os Mercadores Ambulantes parecem se transformar quando atingidos por um Raio; você começou a pensar se poderia fazer um servo a partir de Réprobos assim como fez com as Bruxas. Após um tempo, você descobriu que um pouco de Energia de Almas, uma Esmeralda Desperta e um Núcleo Místico podem transformar um comerciante desajeitado num Réprobo leal."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_trader_to_reprobate"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:reprobate_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você também pode negociar com seu Servo Réprobo dando-lhe uma Esmeralda, sem precisar vestir o traje adequado para isso. Você também pode negociar com outros Servos Réprobos, desde que seja aliado do mestre deles, se houver um, e esteja vestindo o traje apropriado."
+    }
+  ]
+}

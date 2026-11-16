@@ -1,0 +1,30 @@
+{
+    "name": "Emissor de Efeito",
+    "icon": "mimi:effectemitter",
+    "category": "mimi:4redstone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Emissor de Efeito",
+            "item": "mimi:effectemitter",
+            "text": "O Emissor de Efeito pode tocar um som e/ou exibir um efeito de partícula quando acionado por redstone.$(br2)Várias configurações podem ser alteradas para o som e a partícula, e você pode pré-visualizar as configurações do som e da partícula usando os botões de reproduzir ao lado de cada caixa de texto."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Receita",
+            "recipe": "mimi:effectemitter",
+            "text": "Configurações podem ser copiadas de um Emissor de Efeito para outro colocando dois diretamente lado a lado numa grade de criação. As configurações daquele à esquerda serão copiadas para aquele à direita."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Som",
+            "text": "Para definir um som, digite seu nome de recurso completo na caixa de som. Você pode ver os sons disponíveis usando o comando /playsound e observando as sugestões de autocompletar.$(br2)Você pode mudar o volume, o tom e o intervalo de repetição do som usando os botões de seta ao lado de cada configuração."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Partícula",
+            "text": "Para definir uma partícula, digite seu nome de recurso completo na caixa de partícula. Você pode ver as partículas disponíveis usando o comando /particle e observando as sugestões de autocompletar (há algumas que não funcionarão).$(br2)Você pode mudar o lado, a área, a quantidade, a velocidade (que às vezes altera outras coisas) e o intervalo de repetição da partícula usando os botões de seta ao lado de cada configuração."
+        }
+    ],
+    "sortnum": 5
+}

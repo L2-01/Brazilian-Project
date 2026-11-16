@@ -1,0 +1,33 @@
+{
+  "name": "Ritual de Regeneração",
+  "icon": "minecraft:golden_apple",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ritual de Regeneração",
+      "multiblock_id": "bloodmagic:regeneration",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "regeneration"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "regeneration",
+      "page_type": "corrosive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "regeneration",
+      "page_type": "heal"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "regeneration",
+      "page_type": "vampire",
+      "text": "Requer $(corrosive)Will Corrosiva$()."
+    }
+  ]
+}

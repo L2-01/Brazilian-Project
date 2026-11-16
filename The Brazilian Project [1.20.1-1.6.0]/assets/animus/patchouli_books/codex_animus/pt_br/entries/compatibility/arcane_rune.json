@@ -1,0 +1,42 @@
+{
+  "name": "guide.animus.entry.arcane_rune",
+  "category": "animus:compatibility",
+  "icon": "animus:arcane_rune",
+  "flag": "mod:ars_nouveau",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Runa Arcana é um componente de altar revolucionário que une a magia de Source do Ars Nouveau ao sistema de altares do Blood Magic. Diferente de runas tradicionais que dão bônus fixos, o poder da Runa Arcana oscila com base no seu estoque interno de Source."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "animus:arcane_rune",
+      "text": "Fabricada usando uma $(item)Runa Vazia$() no centro, qualquer $(item)Pedra$() nos cantos, $(item)Ardósia Vazia$() em cima e embaixo, e $(item)Gemas de Source$() nas laterais. Isso combina componentes do Blood Magic e do Ars Nouveau numa runa híbrida."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:arcane_rune",
+      "text": "$(animus)Runa Energizada por Source$()$(br2)Coloque esta runa na sua estrutura de Altar de Sangue como qualquer outra runa. Ela armazena até 1.000 Source internamente e pode receber Source via o sistema de vínculo da varinha de domínio do Ars Nouveau."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Vinculando Source",
+      "text": "Para abastecer a Runa Arcana com Source:$(br2)1. Segure uma $(item)Varinha de Domínio$()$(br)2. Agache + botão direito num $(item)Pote de Source$() ou $(item)Repetidor$() para selecioná-lo$(br)3. Clique com o botão direito na $(item)Runa Arcana$() para vinculá-los$(br)4. O Source fluirá automaticamente para a runa$(br2)A runa armazena até 1.000 Source. Você precisa vinculá-la — ela não consegue puxar Source sozinha!"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Estados de Energia",
+      "text": "A Runa Arcana tem dois estados distintos conforme a disponibilidade de Source:$(br2)$(blood)Estado Energizado$() (20 Source consumido a cada 10 segundos):$(li)Age como uma Runa de Velocidade mas 20%% mais rápida$(li)Concede bônus de Runa de Dislocação$(br2)$(will)Estado Sem Energia$() (Sem Source disponível):$(li)Age como uma Runa de Velocidade a 67,5%% de eficácia$(li)Sem bônus de Dislocação"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso Estratégico",
+      "text": "A Runa Arcana se destaca em construções híbridas:$(br2)$(li)Concede velocidade de altar superior quando há Source de sobra$(li)Serve como runa de velocidade reserva quando o Source acaba$(li)O bônus de dislocação aumenta a taxa de transferência de LP$(br2)Considere a taxa de consumo de Source (20 por 10 segundos = 2 Source/segundo por runa) ao planejar sua geração e armazenamento de Source. Isso pode ser configurado no arquivo de config."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Requisitos",
+      "text": "Para usar a Runa Arcana:$(li)$(animus)O Ars Nouveau deve estar instalado$()$(li)Use uma Varinha de Domínio para vincular Potes de Source$(li)Garanta que os potes vinculados permaneçam cheios$(br2)A runa emite um brilho sutil (nível de luz 7) quando colocada, facilitando identificá-la na estrutura do seu altar."
+    }
+  ]
+}

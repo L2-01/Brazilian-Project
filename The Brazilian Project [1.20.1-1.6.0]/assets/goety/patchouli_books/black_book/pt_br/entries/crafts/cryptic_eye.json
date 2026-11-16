@@ -1,0 +1,17 @@
+{
+  "name": "Olho Críptico",
+  "icon": "goety:cryptic_eye",
+  "category": "goety:crafts",
+  "advancement": "goety:goety/kill_a_wight",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Essas essências deixadas por aquela $(l:world/bestiary/wight)criatura horripilante$() parecem estar ressoando em direção a algo. Ao combiná-la com um Olho de Ender, você descobriu que, em vez de levar à Fortaleza mais próxima, ela leva a $(l:world/crypts)algum outro lugar$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:cryptic_eye",
+      "text": "Parece que usá-lo lançará uma cópia do olho em vez de consumi-lo por inteiro. Porém, ele perde durabilidade ao fazer isso."
+    }
+  ]
+}

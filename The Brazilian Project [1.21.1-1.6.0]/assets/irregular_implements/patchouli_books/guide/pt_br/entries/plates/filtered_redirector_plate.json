@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:plates",
+    "icon": "irregular_implements:filtered_redirector_plate",
+    "name": "Chapa Redirecionadora Filtrada",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Chapa Redirecionadora Filtrada$() redireciona entidades com base em seu tipo.$(br2)Entidades que entram por qualquer extremidade atravessam direto por padrão. Uma entidade que corresponda ao filtro esquerdo é redirecionada para a esquerda, enquanto uma que corresponda ao filtro direito é redirecionada para a direita."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Clique com o botão direito na Chapa para abrir sua tela de filtro e coloque um $(l:irregular_implements:filter/entity_filter)Filtro de Entidade$(/l) em qualquer um dos espaços."
+        }
+    ]
+}

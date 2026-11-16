@@ -1,0 +1,28 @@
+{
+  "name": "Laser e Lente",
+  "icon": "deepresonance:laser",
+  "category": "rftoolsbase:category_deepresonance_machines",
+  "extra_recipe_mappings": {
+    "deepresonance:laser": 1,
+    "deepresonance:lens": 2
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Laser modifica o cristal líquido num tanque além de uma Lente. Coloque um bloco de ar entre o Laser e a Lente, depois coloque o tanque alvo após a Lente."
+    },
+    {
+      "type": "crafting",
+      "recipe": "deepresonance:laser"
+    },
+    {
+      "type": "crafting",
+      "recipe": "deepresonance:lens"
+    },
+    {
+      "type": "text",
+      "text": "O Laser usa FE, líquido de cristal de cristais inseridos e um item catalisador. O catalisador controla como pureza, força e eficiência são alteradas."
+    }
+  ]
+}

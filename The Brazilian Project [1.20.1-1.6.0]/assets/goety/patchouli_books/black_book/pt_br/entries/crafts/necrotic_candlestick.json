@@ -1,0 +1,28 @@
+{
+  "name": "Castiçais Necróticos",
+  "icon": "goety:necrotic_gold_candlestick",
+  "category": "goety:crafts",
+  "advancement": "goety:goety/craft_necro_brazier",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você infundiu um castiçal com grandes quantidades de energias necróticas, fazendo-o queimar chamas verdes funestas quando aceso. As chamas parecem proteger os mortos-vivos, ou seres como você por alguma razão, a até 8 blocos dele, do sol, embora não do fogo, permitindo que se movam à luz do dia sem queimar."
+    },
+    {
+      "type": "goety:brazier",
+      "recipe": "goety:necrotic_gold_candlestick"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se tanto o castiçal quanto os seres mortos-vivos, a até 8 blocos dele, não estiverem expostos ao sol, seja sob um teto ou de noite, eles se curarão lentamente, desde que ele permaneça aceso."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Baseado na sugestão de @kiko5836"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:necrotic_gold_candlestick": 1
+  }
+}

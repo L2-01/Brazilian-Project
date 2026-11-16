@@ -1,0 +1,19 @@
+{
+    "name": "Locomotiva a Energia",
+    "icon": "littlelogistics:energy_locomotive",
+    "category": "littlelogistics:trains",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:energy_locomotive",
+            "scale": 0.4,
+            "offset": 0.5,
+            "text": "Uma locomotiva movida a Forge Energy, pode ser carregada quando atracada com um $(l:vessel_charger)Carregador de Veículos$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:energy_locomotive",
+            "text": "A locomotiva tem um espaço extra para um item de energia, útil se a locomotiva ficar sem energia no meio do caminho e precisar ser recarregada."
+        }
+    ]
+}

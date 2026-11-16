@@ -1,0 +1,9 @@
+Gerador a Diesel
+Melhor que volume: mais volume.
+A arquitetura de alta tensão pode ser fascinante, mas uma rede elétrica não é muito útil a menos que haja um gerador que possa supri-la.<br>
+O Gerador a Diesel é o método principal de gerar energia HV. Ele funciona com <link;industrial_fluids;Biodiesel;biodiesel> ou outros combustíveis pesados, como detalhado nas páginas seguintes. Devido à alta potência, ele consome combustível rapidamente, então produção de combustível suficiente é obrigatória.<np>
+<&structure>O motor e o gerador são construídos de radiadores, tubos, blocos de engenharia e andaimes como mostrado acima e formados ao ativar o gerador central com o Martelo de Engenheiro.<br>
+O combustível entra pelos cantos inferiores do gerador, e a energia sai por até três plugues na barra acima do gerador.<br>
+Os <config;i;machines.dieselGen_output>Flux/t que o gerador produz são divididos entre todos os plugues conectados. O gerador só funciona quando pelo menos uma saída pode aceitar energia.<br>
+O pequeno terminal na lateral desliga o gerador se receber um sinal de redstone; esse comportamento pode ser invertido com a Chave de Fenda de Engenheiro.<br>
+A seguir, uma lista dos combustíveis que o gerador aceita e por quanto tempo um balde cheio o alimenta: <&list>

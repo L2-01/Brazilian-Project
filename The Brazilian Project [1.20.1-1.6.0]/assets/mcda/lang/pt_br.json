@@ -1,0 +1,845 @@
+{
+  "itemGroup.mcda.armor": "MC Dungeons Armors",
+
+  "item.mcda.archers_helmet": "Capuz do Arqueiro",
+  "item.mcda.archers_chestplate": "Colete do Arqueiro",
+  "item.mcda.archers_leggings": "Calças do Arqueiro",
+  "item.mcda.archers_boots": "Cinto do Arqueiro",
+
+  "item.mcda.archers.tooltip_1": "Favorecido por guerreiros humildes, é barato",
+  "item.mcda.archers.tooltip_2": "de fazer e ainda para uma lâmina.",
+
+  "item.mcda.archers.effect.tooltip_1": "Proeza do Arqueiro",
+
+  "item.mcda.beehive_armor_helmet": "Capacete de Colmeia Artificial",
+  "item.mcda.beehive_armor_chestplate": "Peitoral de Colmeia Artificial",
+  "item.mcda.beehive_armor_leggings": "Calças de Colmeia Artificial",
+  "item.mcda.beehive_armor_boots": "Escarcela de Colmeia Artificial",
+
+  "item.mcda.beehive_armor.tooltip_1": "A Armadura de Colmeia Artificial vibra com o",
+  "item.mcda.beehive_armor.tooltip_2": "poder concentrado de incontáveis abelhas.",
+
+  "item.mcda.beehive_armor.effect.tooltip_1": "Colmeia Zumbante",
+
+  "item.mcda.beenest_armor_helmet": "Capacete de Colmeia",
+  "item.mcda.beenest_armor_chestplate": "Peitoral de Colmeia",
+  "item.mcda.beenest_armor_leggings": "Calças de Colmeia",
+  "item.mcda.beenest_armor_boots": "Escarcela de Colmeia",
+
+  "item.mcda.beenest_armor.tooltip_1": "Sempre parece haver um leve",
+  "item.mcda.beenest_armor.tooltip_2": "zumbido ao redor da Armadura de Colmeia. Ou",
+  "item.mcda.beenest_armor.tooltip_3": "talvez o zumbido venha de dentro?",
+
+  "item.mcda.beenest_armor.effect.tooltip_1": "Colmeia Zumbante",
+
+  "item.mcda.hunters_chestplate": "Colete do Caçador",
+
+  "item.mcda.hunters.tooltip_1": "Pode não servir para um cavaleiro,",
+  "item.mcda.hunters.tooltip_2": "mas vai parar uma lâmina.",
+
+  "item.mcda.splendid_robe_chestplate": "Túnica Esplêndida",
+  "item.mcda.splendid_robe_leggings": "Calças Esplêndidas",
+
+  "item.mcda.splendid_robe.tooltip_1": "Esta túnica distinta",
+  "item.mcda.splendid_robe.tooltip_2": "é usada pelos endurecidos guerreiros",
+  "item.mcda.splendid_robe.tooltip_3": "Illagers que protegem o Arqui-Illager.",
+
+  "item.mcda.splendid_robe.effect.tooltip_1": "Ataque Esplêndido",
+
+  "item.mcda.battle_robe_chestplate": "Túnica de Batalha",
+  "item.mcda.battle_robe_leggings": "Calças de Batalha",
+
+  "item.mcda.battle_robe.tooltip_1": "Usada pelos distintos Invocadores",
+  "item.mcda.battle_robe.tooltip_2": "Illagers da corte do Arqui-Illager.",
+
+  "item.mcda.champions_armor_helmet": "Capacete do Campeão",
+  "item.mcda.champions_armor_chestplate": "Peitoral do Campeão",
+  "item.mcda.champions_armor_leggings": "Calças do Campeão",
+  "item.mcda.champions_armor_boots": "Joelheira do Campeão",
+
+  "item.mcda.champions_armor.tooltip_1": "Dada aos campeões do",
+  "item.mcda.champions_armor.tooltip_2": "Superfície pelos aldeões livres",
+  "item.mcda.champions_armor.tooltip_3": "em sinal de gratidão por muitos",
+  "item.mcda.champions_armor.tooltip_4": "anos de proteção e ajuda.",
+  "item.mcda.champions_armor.tooltip_5": "A marca de um verdadeiro herói.",
+
+  "item.mcda.heros_armor_helmet": "Capacete do Herói",
+  "item.mcda.heros_armor_chestplate": "Peitoral do Herói",
+  "item.mcda.heros_armor_leggings": "Calças do Herói",
+  "item.mcda.heros_armor_boots": "Joelheira do Herói",
+
+  "item.mcda.heros_armor.tooltip_1": "Dada apenas aos heróis do mais",
+  "item.mcda.heros_armor.tooltip_2": "alto calibre, esta armadura é uma dádiva",
+  "item.mcda.heros_armor.tooltip_3": "preciosa dos Aldeões.",
+
+  "item.mcda.heros_armor.effect.tooltip_1": "Herói da Vila",
+
+  "item.mcda.titans_shroud_helmet": "Capacete do Sudário do Titã",
+  "item.mcda.titans_shroud_chestplate": "Peitoral do Sudário do Titã",
+  "item.mcda.titans_shroud_leggings": "Calças do Sudário do Titã",
+  "item.mcda.titans_shroud_boots": "Botas do Sudário do Titã",
+
+  "item.mcda.titans_shroud.tooltip_1": "Esta armadura passou",
+  "item.mcda.titans_shroud.tooltip_2": "por mãos do mal durante gerações.",
+
+  "item.mcda.titans_shroud.effect.tooltip_1": "Sudário do Titã",
+
+  "item.mcda.dark_armor_helmet": "Capacete Sombrio",
+  "item.mcda.dark_armor_chestplate": "Peitoral Sombrio",
+  "item.mcda.dark_armor_leggings": "Calças Sombrias",
+  "item.mcda.dark_armor_boots": "Botas Sombrias",
+
+  "item.mcda.dark_armor.tooltip_1": "Esta armadura, feita nas mais",
+  "item.mcda.dark_armor.tooltip_2": "escuras profundezas da Forja Ardente, é usada",
+  "item.mcda.dark_armor.tooltip_3": "pela guarda real Illager.",
+
+  "item.mcda.royal_guard_armor_helmet": "Capacete da Guarda Real",
+  "item.mcda.royal_guard_armor_chestplate": "Peitoral da Guarda Real",
+  "item.mcda.royal_guard_armor_leggings": "Calças da Guarda Real",
+  "item.mcda.royal_guard_armor_boots": "Botas da Guarda Real",
+
+  "item.mcda.royal_guard_armor.tooltip_1": "Esta armadura, feita nas mais",
+  "item.mcda.royal_guard_armor.tooltip_2": "escuras profundezas da Forja Ardente, é usada",
+  "item.mcda.royal_guard_armor.tooltip_3": "pela guarda real Illager.",
+
+  "item.mcda.evocation_robe_helmet": "Chapéu de Evocação",
+  "item.mcda.evocation_robe_chestplate": "Túnica de Evocação",
+  "item.mcda.evocation_robe_leggings": "Calças de Evocação",
+
+  "item.mcda.evocation_robe.tooltip_1": "Potentes runas mágicas são",
+  "item.mcda.evocation_robe.tooltip_2": "entrelaçadas no tecido",
+  "item.mcda.evocation_robe.tooltip_3": "destas túnicas; suas origens",
+  "item.mcda.evocation_robe.tooltip_4": "e poderes estão envoltos",
+  "item.mcda.evocation_robe.tooltip_5": "em mistério.",
+
+  "item.mcda.ember_robe_helmet": "Chapéu de Brasa",
+  "item.mcda.ember_robe_chestplate": "Túnica de Brasa",
+  "item.mcda.ember_robe_leggings": "Calças de Brasa",
+
+  "item.mcda.ember_robe.tooltip_1": "Uma túnica criada por Illager",
+  "item.mcda.ember_robe.tooltip_2": "Invocadores para se distinguirem",
+  "item.mcda.ember_robe.tooltip_3": "da guarda comum.",
+
+  "item.mcda.ember_robe.effect.tooltip_1": "Salto de Brasa",
+
+  "item.mcda.verdant_robe_helmet": "Chapéu Verdejante",
+  "item.mcda.verdant_robe_chestplate": "Túnica Verdejante",
+  "item.mcda.verdant_robe_leggings": "Calças Verdejantes",
+
+  "item.mcda.verdant_robe.tooltip_1": "Quem veste esta túnica logo descobre",
+  "item.mcda.verdant_robe.tooltip_2": "que pode comungar com mais almas",
+  "item.mcda.verdant_robe.tooltip_3": "do que nunca.",
+
+  "item.mcda.verdant_robe.effect.tooltip_1": "Presença Silvestre",
+
+  "item.mcda.grim_armor_helmet": "Capacete Sinistro",
+  "item.mcda.grim_armor_chestplate": "Peitoral Sinistro",
+  "item.mcda.grim_armor_leggings": "Calças Sinistras",
+  "item.mcda.grim_armor_boots": "Caneleiras Sinistras",
+
+  "item.mcda.grim_armor.tooltip_1": "Esta armadura invoca uma sensação de pavor",
+  "item.mcda.grim_armor.tooltip_2": "em quem a veste e naqueles",
+  "item.mcda.grim_armor.tooltip_3": "que a enfrentam em batalha.",
+
+  "item.mcda.wither_armor_helmet": "Capacete de Wither",
+  "item.mcda.wither_armor_chestplate": "Peitoral de Wither",
+  "item.mcda.wither_armor_leggings": "Calças de Wither",
+  "item.mcda.wither_armor_boots": "Caneleiras de Wither",
+
+  "item.mcda.wither_armor.tooltip_1": "Forjada com partes de inimigos",
+  "item.mcda.wither_armor.tooltip_2": "abatidos, foi feita para aterrorizar",
+  "item.mcda.wither_armor.tooltip_3": "os inimigos de quem a veste.",
+
+  "item.mcda.wither_armor.effect.tooltip_1": "Decomposição",
+
+  "item.mcda.guards_armor_helmet": "Capacete do Guarda",
+  "item.mcda.guards_armor_chestplate": "Peitoral do Guarda",
+  "item.mcda.guards_armor_leggings": "Calças do Guarda",
+  "item.mcda.guards_armor_boots": "Coxotes do Guarda",
+
+  "item.mcda.guards_armor.tooltip_1": "Armadura barata feita em massa,",
+  "item.mcda.guards_armor.tooltip_2": "é uma visão comum nas",
+  "item.mcda.guards_armor.tooltip_3": "vilas da Superfície.",
+
+  "item.mcda.curious_armor_helmet": "Capacete Curioso",
+  "item.mcda.curious_armor_chestplate": "Peitoral Curioso",
+  "item.mcda.curious_armor_leggings": "Calças Curiosas",
+  "item.mcda.curious_armor_boots": "Coxotes Curiosos",
+
+  "item.mcda.curious_armor.tooltip_1": "Ninguém sabe de onde veio esta estranha",
+  "item.mcda.curious_armor.tooltip_2": "armadura, mas ela parece",
+  "item.mcda.curious_armor.tooltip_3": "familiar para você.",
+
+  "item.mcda.curious_armor.effect.tooltip_1": "Teletransporte Curioso",
+
+  "item.mcda.mercenary_armor_helmet": "Capacete de Mercenário",
+  "item.mcda.mercenary_armor_chestplate": "Peitoral de Mercenário",
+  "item.mcda.mercenary_armor_leggings": "Calças de Mercenário",
+  "item.mcda.mercenary_armor_boots": "Joelheira de Mercenário",
+
+  "item.mcda.mercenary_armor.tooltip_1": "Favorecida por quem procura",
+  "item.mcda.mercenary_armor.tooltip_2": "economizar algumas moedas. Falta-lhe",
+  "item.mcda.mercenary_armor.tooltip_3": "estilo, mas cumpre o trabalho.",
+
+  "item.mcda.renegade_armor_helmet": "Capacete do Renegado",
+  "item.mcda.renegade_armor_chestplate": "Peitoral do Renegado",
+  "item.mcda.renegade_armor_leggings": "Calças do Renegado",
+  "item.mcda.renegade_armor_boots": "Joelheira do Renegado",
+
+  "item.mcda.renegade_armor.tooltip_1": "Esta armadura foi um belo pagamento",
+  "item.mcda.renegade_armor.tooltip_2": "para mercenários contratados para proteger",
+  "item.mcda.renegade_armor.tooltip_3": "as vilas contra os Illagers.",
+
+  "item.mcda.renegade_armor.effect.tooltip_1": "Investida do Renegado",
+
+  "item.mcda.hungry_horror_helmet": "Capacete do Horror Faminto",
+  "item.mcda.hungry_horror_chestplate": "Peitoral do Horror Faminto",
+  "item.mcda.hungry_horror_leggings": "Calças do Horror Faminto",
+  "item.mcda.hungry_horror_boots": "Caneleiras do Horror Faminto",
+
+  "item.mcda.hungry_horror.tooltip_1": "Quando você veste esta armadura,",
+  "item.mcda.hungry_horror.tooltip_2": "sons de gritos enchem",
+  "item.mcda.hungry_horror.tooltip_3": "o ar. Mas os gritos",
+  "item.mcda.hungry_horror.tooltip_4": "são seus ou de seus inimigos?",
+
+  "item.mcda.hungry_horror.effect.tooltip_1": "Fome",
+  "item.mcda.hungry_horror.effect.tooltip_2": "Dores de Fome",
+
+  "item.mcda.ocelot_armor_helmet": "Capacete de Jaguatirica",
+  "item.mcda.ocelot_armor_chestplate": "Peitoral de Jaguatirica",
+  "item.mcda.ocelot_armor_leggings": "Calças de Jaguatirica",
+  "item.mcda.ocelot_armor_boots": "Botas de Jaguatirica",
+
+  "item.mcda.ocelot_armor.tooltip_1": "Você sente uma onda de pura",
+  "item.mcda.ocelot_armor.tooltip_2": "adrenalina percorrer seu",
+  "item.mcda.ocelot_armor.tooltip_3": "corpo ao vestir esta",
+  "item.mcda.ocelot_armor.tooltip_4": "pele de Jaguatirica.",
+
+  "item.mcda.shadow_walker_armor_helmet": "Capacete do Andarilho das Sombras",
+  "item.mcda.shadow_walker_armor_chestplate": "Peitoral do Andarilho das Sombras",
+  "item.mcda.shadow_walker_armor_leggings": "Calças do Andarilho das Sombras",
+  "item.mcda.shadow_walker_armor_boots": "Botas do Andarilho das Sombras",
+
+  "item.mcda.shadow_walker_armor.tooltip_1": "A lendária Jaguatirica negra era",
+  "item.mcda.shadow_walker_armor.tooltip_2": "tão graciosa quanto mortal.",
+  "item.mcda.shadow_walker_armor.tooltip_3": "Ao vestir sua pele, você sente",
+  "item.mcda.shadow_walker_armor.tooltip_4": "que seus inimigos ficam perseguindo",
+  "item.mcda.shadow_walker_armor.tooltip_5": "sua sombra.",
+
+  "item.mcda.shadow_walker_armor.effect.tooltip_1": "Sem Dano de Queda",
+  "item.mcda.shadow_walker_armor.effect.tooltip_2": "Corrida",
+
+  "item.mcda.phantom_armor_helmet": "Capacete de Espectro",
+  "item.mcda.phantom_armor_chestplate": "Peitoral de Espectro",
+  "item.mcda.phantom_armor_leggings": "Calças de Espectro",
+  "item.mcda.phantom_armor_boots": "Caneleiras de Espectro",
+
+  "item.mcda.phantom_armor.tooltip_1": "Esta armadura, forjada dos ossos",
+  "item.mcda.phantom_armor.tooltip_2": "de Espectros, é uma visão aterrorizante",
+  "item.mcda.phantom_armor.tooltip_3": "no campo de batalha.",
+
+  "item.mcda.phantom_armor.effect.tooltip_1": "Queda Lenta",
+
+  "item.mcda.frost_bite_armor_helmet": "Capacete da Mordida Gelada",
+  "item.mcda.frost_bite_armor_chestplate": "Peitoral da Mordida Gelada",
+  "item.mcda.frost_bite_armor_leggings": "Calças da Mordida Gelada",
+  "item.mcda.frost_bite_armor_boots": "Caneleiras da Mordida Gelada",
+
+  "item.mcda.frost_bite_armor.tooltip_1": "A Mordida Gelada lembra os ventos gelados",
+  "item.mcda.frost_bite_armor.tooltip_2": "que um dia fluíram sob as asas",
+  "item.mcda.frost_bite_armor.tooltip_3": "dos Espectros da noite.",
+
+  "item.mcda.frost_bite_armor.effect.tooltip_1": "Queda Lenta",
+  "item.mcda.frost_bite_armor.effect.tooltip_2": "Mordida Gelada",
+
+  "item.mcda.plate_armor_helmet": "Capacete de Placas",
+  "item.mcda.plate_armor_chestplate": "Peitoral de Placas",
+  "item.mcda.plate_armor_leggings": "Calças de Placas",
+  "item.mcda.plate_armor_boots": "Coxotes de Placas",
+
+  "item.mcda.plate_armor.tooltip_1": "A Armadura de Placas transforma o soldado comum",
+  "item.mcda.plate_armor.tooltip_2": "em uma fortaleza, mas vem com mobilidade",
+  "item.mcda.plate_armor.tooltip_3": "reduzida.",
+
+  "item.mcda.full_metal_armor_helmet": "Capacete de Metal Integral",
+  "item.mcda.full_metal_armor_chestplate": "Peitoral de Metal Integral",
+  "item.mcda.full_metal_armor_leggings": "Calças de Metal Integral",
+  "item.mcda.full_metal_armor_boots": "Coxotes de Metal Integral",
+
+  "item.mcda.full_metal_armor.tooltip_1": "A Armadura de Metal Integral é destinada aos",
+  "item.mcda.full_metal_armor.tooltip_2": "grandes defensores da Superfície.",
+
+  "item.mcda.reinforced_mail_helmet": "Capacete de Malha Reforçada",
+  "item.mcda.reinforced_mail_chestplate": "Peitoral de Malha Reforçada",
+  "item.mcda.reinforced_mail_leggings": "Calças de Malha Reforçada",
+  "item.mcda.reinforced_mail_boots": "Joelheira de Malha Reforçada",
+
+  "item.mcda.reinforced_mail.tooltip_1": "Usada principalmente por aventureiros casuais,",
+  "item.mcda.reinforced_mail.tooltip_2": "a Malha Reforçada é uma visão comum",
+  "item.mcda.reinforced_mail.tooltip_3": "por toda a terra.",
+
+  "item.mcda.stalwart_armor_helmet": "Capacete Valoroso",
+  "item.mcda.stalwart_armor_chestplate": "Peitoral Valoroso",
+  "item.mcda.stalwart_armor_leggings": "Calças Valorosas",
+  "item.mcda.stalwart_armor_boots": "Joelheira Valorosa",
+
+  "item.mcda.stalwart_armor.tooltip_1": "Esta armadura confiável é resistente o bastante",
+  "item.mcda.stalwart_armor.tooltip_2": "para ser passada por gerações.",
+
+  "item.mcda.stalwart_armor.effect.tooltip_1": "Baluarte Valoroso",
+
+  "item.mcda.ghostly_armor_helmet": "Capacete Fantasma",
+  "item.mcda.ghostly_armor_chestplate": "Gambessão Fantasma",
+  "item.mcda.ghostly_armor_leggings": "Calças Fantasmas",
+  "item.mcda.ghostly_armor_boots": "Botas Fantasmas",
+
+  "item.mcda.ghostly_armor.tooltip_1": "Quem veste a Armadura Fantasma pode",
+  "item.mcda.ghostly_armor.tooltip_2": "sentir o corpo se desconectar brevemente",
+  "item.mcda.ghostly_armor.tooltip_3": "do mundo físico, mas logo é",
+  "item.mcda.ghostly_armor.tooltip_4": "trazido de volta à realidade.",
+
+  "item.mcda.ghost_kindler_helmet": "Capacete do Ateador de Fantasmas",
+  "item.mcda.ghost_kindler_chestplate": "Gambessão do Ateador de Fantasmas",
+  "item.mcda.ghost_kindler_leggings": "Calças do Ateador de Fantasmas",
+  "item.mcda.ghost_kindler_boots": "Botas do Ateador de Fantasmas",
+
+  "item.mcda.ghost_kindler.tooltip_1": "Estranhas chamas seguem a forma mutável",
+  "item.mcda.ghost_kindler.tooltip_2": "de quem veste a armadura do",
+  "item.mcda.ghost_kindler.tooltip_3": "Ateador de Fantasmas.",
+
+  "item.mcda.ghost_kindler.effect.tooltip_1": "Ignição Fantasma",
+  "item.mcda.ghost_kindler.effect.tooltip_2": "Rastro do Ateador de Fantasmas",
+
+  "item.mcda.white_mystery_armor_helmet": "Capacete do Mistério Branco",
+  "item.mcda.white_mystery_armor_chestplate": "Peitoral do Mistério Branco",
+  "item.mcda.white_mystery_armor_leggings": "Calças do Mistério Branco",
+  "item.mcda.white_mystery_armor_boots": "Coxotes do Mistério Branco",
+
+  "item.mcda.mystery_armor.tooltip_1": "Alguns ferreiros veem a influência",
+  "item.mcda.mystery_armor.tooltip_2": "de design dos Golems de Ferro nesta",
+  "item.mcda.mystery_armor.tooltip_3": "armadura de propriedades mutáveis.",
+
+  "item.mcda.mystery_armor.effect.tooltip_1": "Efeito Misterioso",
+
+  "item.mcda.blue_mystery_armor_helmet": "Capacete do Mistério Azul",
+  "item.mcda.blue_mystery_armor_chestplate": "Peitoral do Mistério Azul",
+  "item.mcda.blue_mystery_armor_leggings": "Calças do Mistério Azul",
+  "item.mcda.blue_mystery_armor_boots": "Coxotes do Mistério Azul",
+
+  "item.mcda.green_mystery_armor_helmet": "Capacete do Mistério Verde",
+  "item.mcda.green_mystery_armor_chestplate": "Peitoral do Mistério Verde",
+  "item.mcda.green_mystery_armor_leggings": "Calças do Mistério Verde",
+  "item.mcda.green_mystery_armor_boots": "Coxotes do Mistério Verde",
+
+  "item.mcda.purple_mystery_armor_helmet": "Capacete do Mistério Roxo",
+  "item.mcda.purple_mystery_armor_chestplate": "Peitoral do Mistério Roxo",
+  "item.mcda.purple_mystery_armor_leggings": "Calças do Mistério Roxo",
+  "item.mcda.purple_mystery_armor_boots": "Coxotes do Mistério Roxo",
+
+  "item.mcda.red_mystery_armor_helmet": "Capacete do Mistério Vermelho",
+  "item.mcda.red_mystery_armor_chestplate": "Peitoral do Mistério Vermelho",
+  "item.mcda.red_mystery_armor_leggings": "Calças do Mistério Vermelho",
+  "item.mcda.red_mystery_armor_boots": "Coxotes do Mistério Vermelho",
+
+  "item.mcda.scale_mail_chestplate": "Peitoral de Escamas",
+  "item.mcda.scale_mail_leggings": "Calças de Escamas",
+  "item.mcda.scale_mail_boots": "Escarcela de Escamas",
+
+  "item.mcda.scale_mail.tooltip_1": "Esta armadura, forjada perto das margens",
+  "item.mcda.scale_mail.tooltip_2": "de um grande mar, foi inspirada nas",
+  "item.mcda.scale_mail.tooltip_3": "escamas dos peixes.",
+
+  "item.mcda.highland_armor_helmet": "Capacete das Terras Altas",
+  "item.mcda.highland_armor_chestplate": "Peitoral das Terras Altas",
+  "item.mcda.highland_armor_leggings": "Calças das Terras Altas",
+  "item.mcda.highland_armor_boots": "Escarcela das Terras Altas",
+
+  "item.mcda.highland_armor.tooltip_1": "Um sábio armeiro fez esta armadura com cuidado;",
+  "item.mcda.highland_armor.tooltip_2": "ela traz elementos dos Aldeões das montanhas.",
+
+  "item.mcda.highland_armor.effect.tooltip_1": "Pressa",
+
+  "item.mcda.snow_armor_helmet": "Capacete de Neve",
+  "item.mcda.snow_armor_chestplate": "Peitoral de Neve",
+  "item.mcda.snow_armor_leggings": "Calças de Neve",
+  "item.mcda.snow_armor_boots": "Botas de Neve",
+
+  "item.mcda.snow_armor.tooltip_1": "Uma armadura temperada no",
+  "item.mcda.snow_armor.tooltip_2": "degelo, protegendo quem a veste do",
+  "item.mcda.snow_armor.tooltip_3": "frio severo da tundra.",
+
+  "item.mcda.frost_armor_helmet": "Capacete de Geada",
+  "item.mcda.frost_armor_chestplate": "Peitoral de Geada",
+  "item.mcda.frost_armor_leggings": "Calças de Geada",
+  "item.mcda.frost_armor_boots": "Botas de Geada",
+
+  "item.mcda.frost_armor.tooltip_1": "Esta armadura lendária, forjada de gelo",
+  "item.mcda.frost_armor.tooltip_2": "que nunca derrete, faz quem a veste",
+  "item.mcda.frost_armor.tooltip_3": "sentir-se um só com o inverno.",
+
+  "item.mcda.frost_armor.effect.tooltip_1": "Congelamento Fluido",
+
+  "item.mcda.soul_robe_helmet": "Capuz das Almas",
+  "item.mcda.soul_robe_chestplate": "Túnica das Almas",
+  "item.mcda.soul_robe_leggings": "Calças das Almas",
+  "item.mcda.soul_robe_boots": "Cinto das Almas",
+
+  "item.mcda.soul_robe.tooltip_1": "Sob certa luz, as almas",
+  "item.mcda.soul_robe.tooltip_2": "tecidas no pano da Túnica",
+  "item.mcda.soul_robe.tooltip_3": "das Almas cintilam com poder.",
+
+  "item.mcda.souldancer_robe_helmet": "Capuz do Dançarino das Almas",
+  "item.mcda.souldancer_robe_chestplate": "Túnica do Dançarino das Almas",
+  "item.mcda.souldancer_robe_leggings": "Calças do Dançarino das Almas",
+  "item.mcda.souldancer_robe_boots": "Cinto do Dançarino das Almas",
+
+  "item.mcda.souldancer_robe.tooltip_1": "A Túnica do Dançarino das Almas ganha vida",
+  "item.mcda.souldancer_robe.tooltip_2": "na luz, como se as almas dentro dela",
+  "item.mcda.souldancer_robe.tooltip_3": "estivessem dançando por toda a eternidade.",
+
+  "item.mcda.souldancer_robe.effect.tooltip_1": "Graça do Dançarino das Almas",
+  "item.mcda.souldancer_robe.effect.tooltip_2": "Experiência do Dançarino das Almas",
+
+  "item.mcda.spelunker_armor_helmet": "Capacete de Espeleólogo",
+  "item.mcda.spelunker_armor_chestplate": "Colete de Espeleólogo",
+  "item.mcda.spelunker_armor_leggings": "Calças de Espeleólogo",
+  "item.mcda.spelunker_armor_boots": "Braçadeiras de Espeleólogo",
+
+  "item.mcda.spelunker_armor.tooltip_1": "A Armadura de Espeleólogo é usada por quem",
+  "item.mcda.spelunker_armor.tooltip_2": "desafia as profundezas mais escuras do",
+  "item.mcda.spelunker_armor.tooltip_3": "Superfície.",
+
+  "item.mcda.cave_crawler_helmet": "Capacete do Rastejante das Cavernas",
+  "item.mcda.cave_crawler_chestplate": "Colete do Rastejante das Cavernas",
+  "item.mcda.cave_crawler_leggings": "Calças do Rastejante das Cavernas",
+  "item.mcda.cave_crawler_boots": "Botas do Rastejante das Cavernas",
+
+  "item.mcda.cave_crawler.tooltip_1": "A armadura do Rastejante das Cavernas foi passada",
+  "item.mcda.cave_crawler.tooltip_2": "por gerações de corajosos",
+  "item.mcda.cave_crawler.tooltip_3": "espeleólogos e mineradores.",
+
+  "item.mcda.cave_crawler.effect.tooltip_1": "Pressa",
+
+  "item.mcda.thief_armor_helmet": "Máscara de Ladrão",
+  "item.mcda.thief_armor_chestplate": "Colete de Ladrão",
+  "item.mcda.thief_armor_leggings": "Calças de Ladrão",
+  "item.mcda.thief_armor_boots": "Cinto de Ladrão",
+
+  "item.mcda.thief_armor.tooltip_1": "Esta armadura é leve, ágil e",
+  "item.mcda.thief_armor.tooltip_2": "cheira levemente a enxofre.",
+
+  "item.mcda.thief_armor.effect.tooltip_1": "Invisibilidade",
+
+  "item.mcda.spider_armor_helmet": "Máscara de Aranha",
+  "item.mcda.spider_armor_chestplate": "Colete de Aranha",
+  "item.mcda.spider_armor_leggings": "Calças de Aranha",
+  "item.mcda.spider_armor_boots": "Cinto de Aranha",
+
+  "item.mcda.spider_armor.tooltip_1": "A Armadura de Aranha, criada por mestres",
+  "item.mcda.spider_armor.tooltip_2": "ladrões, é inspirada nos ágeis",
+  "item.mcda.spider_armor.tooltip_3": "talentos da Aranha.",
+
+  "item.mcda.spider_armor.effect.tooltip_1": "Escalada de Parede",
+  "item.mcda.spider_armor.effect.tooltip_2": "Passo sobre Teias",
+
+  "item.mcda.wolf_armor_helmet": "Capuz de Lobo",
+  "item.mcda.wolf_armor_chestplate": "Colete de Lobo",
+  "item.mcda.wolf_armor_leggings": "Calças de Lobo",
+  "item.mcda.wolf_armor_boots": "Botas de Lobo",
+
+  "item.mcda.wolf_armor.tooltip_1": "Muitos guerreiros usam cabeças de",
+  "item.mcda.wolf_armor.tooltip_2": "lobos em batalha para instilar medo",
+  "item.mcda.wolf_armor.tooltip_3": "nos corações de seus inimigos.",
+
+  "item.mcda.black_wolf_armor_helmet": "Capuz de Lobo Negro",
+  "item.mcda.black_wolf_armor_chestplate": "Colete de Lobo Negro",
+  "item.mcda.black_wolf_armor_leggings": "Calças de Lobo Negro",
+  "item.mcda.black_wolf_armor_boots": "Botas de Lobo Negro",
+
+  "item.mcda.black_wolf_armor.tooltip_1": "O lobo que ataca das",
+  "item.mcda.black_wolf_armor.tooltip_2": "sombras vive para contar a história.",
+
+  "item.mcda.black_wolf_armor.effect.tooltip_1": "Líder da Alcateia",
+
+  "item.mcda.fox_armor_helmet": "Capuz de Raposa",
+  "item.mcda.fox_armor_chestplate": "Colete de Raposa",
+  "item.mcda.fox_armor_leggings": "Calças de Raposa",
+  "item.mcda.fox_armor_boots": "Botas de Raposa",
+
+  "item.mcda.fox_armor.tooltip_1": "Antigas tribos de Aldeões criaram esta",
+  "item.mcda.fox_armor.tooltip_2": "armadura para honrar a raposa, uma grande",
+  "item.mcda.fox_armor.tooltip_3": "e ágil guerreira. Esta peça instila",
+  "item.mcda.fox_armor.tooltip_4": "terror nos corações de muitos inimigos,",
+  "item.mcda.fox_armor.tooltip_5": "pois tem fama de ser muito",
+  "item.mcda.fox_armor.tooltip_6": "difícil de perfurar.",
+
+  "item.mcda.fox_armor.effect.tooltip_1": "Passo por Arbustos",
+  "item.mcda.fox_armor.effect.tooltip_2": "Bote da Raposa",
+
+  "item.mcda.arctic_fox_armor_helmet": "Capuz de Raposa do Ártico",
+  "item.mcda.arctic_fox_armor_chestplate": "Colete de Raposa do Ártico",
+  "item.mcda.arctic_fox_armor_leggings": "Calças de Raposa do Ártico",
+  "item.mcda.arctic_fox_armor_boots": "Botas de Raposa do Ártico",
+
+  "item.mcda.arctic_fox_armor.tooltip_1": "Se você quer sobreviver com estilo na",
+  "item.mcda.arctic_fox_armor.tooltip_2": "tundra gelada, a Armadura de Raposa do Ártico",
+  "item.mcda.arctic_fox_armor.tooltip_3": "é a melhor escolha da estação.",
+
+  "item.mcda.arctic_fox_armor.effect.tooltip_1": "Passo por Arbustos",
+  "item.mcda.arctic_fox_armor.effect.tooltip_2": "Bote da Raposa",
+  "item.mcda.arctic_fox_armor.effect.tooltip_3": "Terreno Elevado do Ártico",
+  "item.mcda.arctic_fox_armor.effect.tooltip_4": "Velocidade das Bagas Doces",
+
+  "item.mcda.emerald_gear_helmet": "Capacete do Equipamento de Esmeralda",
+  "item.mcda.emerald_gear_chestplate": "Peitoral do Equipamento de Esmeralda",
+  "item.mcda.emerald_gear_leggings": "Calças do Equipamento de Esmeralda",
+  "item.mcda.emerald_gear_boots": "Botas do Equipamento de Esmeralda",
+
+  "item.mcda.emerald_gear.tooltip_1": "Ao usar a Armadura de Esmeralda durante",
+  "item.mcda.emerald_gear.tooltip_2": "suas aventuras, ela atrai outras",
+  "item.mcda.emerald_gear.tooltip_3": "esmeraldas até você, como por acaso.",
+
+  "item.mcda.opulent_armor_helmet": "Capacete Opulento",
+  "item.mcda.opulent_armor_chestplate": "Peitoral Opulento",
+  "item.mcda.opulent_armor_leggings": "Calças Opulentas",
+  "item.mcda.opulent_armor_boots": "Botas Opulentas",
+
+  "item.mcda.opulent_armor.tooltip_1": "A Armadura Opulenta, originalmente criada mais",
+  "item.mcda.opulent_armor.tooltip_2": "para exibição que para combate, prospera na",
+  "item.mcda.opulent_armor.tooltip_3": "presença de esmeraldas.",
+
+  "item.mcda.opulent_armor.effect.tooltip_1": "Sorte",
+
+  "item.mcda.gilded_glory_helmet": "Capacete da Glória Dourada",
+  "item.mcda.gilded_glory_chestplate": "Peitoral da Glória Dourada",
+  "item.mcda.gilded_glory_leggings": "Calças da Glória Dourada",
+  "item.mcda.gilded_glory_boots": "Botas da Glória Dourada",
+
+  "item.mcda.gilded_glory.tooltip_1": "Até a própria morte precisa parar e",
+  "item.mcda.gilded_glory.tooltip_2": "admirar os encantos da lendária",
+  "item.mcda.gilded_glory.tooltip_3": "armadura da Glória Dourada.",
+
+  "item.mcda.gilded_glory.effect.tooltip_1": "Herói da Vila",
+  "item.mcda.gilded_glory.effect.tooltip_2": "Totem Dourado",
+  "item.mcda.gilded_glory.effect.tooltip_3": "Dano Dourado",
+  "item.mcda.gilded_glory.effect.tooltip_4": "Ídolo Falso",
+
+  "item.mcda.climbing_gear_helmet": "Capuz de Escalada",
+  "item.mcda.climbing_gear_chestplate": "Jaqueta de Escalada",
+  "item.mcda.climbing_gear_leggings": "Calças de Escalada",
+  "item.mcda.climbing_gear_boots": "Botas de Escalada",
+
+  "item.mcda.climbing_gear.tooltip_1": "Este resistente Equipamento de Escalada é perfeito",
+  "item.mcda.climbing_gear.tooltip_2": "para enfrentar o frio cortante",
+  "item.mcda.climbing_gear.tooltip_3": "da face gelada da montanha.",
+
+  "item.mcda.rugged_climbing_gear_helmet": "Capuz de Escalada Resistente",
+  "item.mcda.rugged_climbing_gear_chestplate": "Jaqueta de Escalada Resistente",
+  "item.mcda.rugged_climbing_gear_leggings": "Calças de Escalada Resistente",
+  "item.mcda.rugged_climbing_gear_boots": "Botas de Escalada Resistente",
+
+  "item.mcda.rugged_climbing_gear.tooltip_1": "Enfrente o pior que a natureza pode",
+  "item.mcda.rugged_climbing_gear.tooltip_2": "lançar contra você com esta armadura resistente.",
+
+  "item.mcda.rugged_climbing_gear.effect.tooltip_1": "Escalada Resistente",
+
+  "item.mcda.goat_gear_helmet": "Capuz de Cabra",
+  "item.mcda.goat_gear_chestplate": "Jaqueta de Cabra",
+  "item.mcda.goat_gear_leggings": "Calças de Cabra",
+  "item.mcda.goat_gear_boots": "Botas de Cabra",
+
+  "item.mcda.goat_gear.tooltip_1": "Feita das peles de Cabras",
+  "item.mcda.goat_gear.tooltip_2": "Montanhesas, você vai querer saltitar",
+  "item.mcda.goat_gear.tooltip_3": "de pico em pico com este Equipamento de Cabra.",
+
+  "item.mcda.sprout_armor_boots": "Botas de Broto",
+  "item.mcda.sprout_armor_leggings": "Calças de Broto",
+  "item.mcda.sprout_armor_chestplate": "Túnica de Broto",
+  "item.mcda.sprout_armor_helmet": "Capuz de Broto",
+
+  "item.mcda.sprout_armor.tooltip_1": "As trepadeiras escuras da Armadura de Broto",
+  "item.mcda.sprout_armor.tooltip_2": "continuam a crescer, mesmo em completa",
+  "item.mcda.sprout_armor.tooltip_3": "escuridão.",
+
+  "item.mcda.sprout_armor.effect.tooltip_1": "Resistência ao Fogo",
+
+  "item.mcda.living_vines_armor_boots": "Botas de Trepadeiras Vivas",
+  "item.mcda.living_vines_armor_leggings": "Calças de Trepadeiras Vivas",
+  "item.mcda.living_vines_armor_chestplate": "Túnica de Trepadeiras Vivas",
+  "item.mcda.living_vines_armor_helmet": "Capuz de Trepadeiras Vivas",
+
+  "item.mcda.living_vines_armor.tooltip_1": "Esta armadura é feita das trepadeiras",
+  "item.mcda.living_vines_armor.tooltip_2": "vivas de uma planta que só cresce",
+  "item.mcda.living_vines_armor.tooltip_3": "em campos de batalha.",
+
+  "item.mcda.living_vines_armor.effect.tooltip_1": "Resistência ao Fogo",
+
+  "item.mcda.piglin_armor_boots": "Botas de Piglin",
+  "item.mcda.piglin_armor_leggings": "Calças de Piglin",
+  "item.mcda.piglin_armor_chestplate": "Peitoral de Piglin",
+  "item.mcda.piglin_armor_helmet": "Capacete de Piglin",
+
+  "item.mcda.piglin_armor.tooltip_1": "Vestir a Armadura de Piglin é quase",
+  "item.mcda.piglin_armor.tooltip_2": "o bastante para se sentir em casa no",
+  "item.mcda.piglin_armor.tooltip_3": "Nether. Quase.",
+
+  "item.mcda.golden_piglin_armor_boots": "Botas de Piglin Dourado",
+  "item.mcda.golden_piglin_armor_leggings": "Calças de Piglin Dourado",
+  "item.mcda.golden_piglin_armor_chestplate": "Peitoral de Piglin Dourado",
+  "item.mcda.golden_piglin_armor_helmet": "Capacete de Piglin Dourado",
+
+  "item.mcda.golden_piglin_armor.tooltip_1": "A Armadura de Piglin Dourado combina",
+  "item.mcda.golden_piglin_armor.tooltip_2": "as duas coisas favoritas de um piglin:",
+  "item.mcda.golden_piglin_armor.tooltip_3": "não morrer e ouro.",
+
+  "item.mcda.golden_piglin_armor.effect.tooltip_1": "Disfarce de Piglin",
+
+  "item.mcda.squid_armor_boots": "Botas de Lula",
+  "item.mcda.squid_armor_leggings": "Calças de Lula",
+  "item.mcda.squid_armor_chestplate": "Peitoral de Lula",
+  "item.mcda.squid_armor_helmet": "Capacete de Lula",
+
+  "item.mcda.squid_armor.tooltip_1": "Foi fácil deixar esta armadura",
+  "item.mcda.squid_armor.tooltip_2": "negro-azeviche com estilo. A parte difícil foi",
+  "item.mcda.squid_armor.tooltip_3": "fixar as bolsas de tinta.",
+
+  "item.mcda.glow_squid_armor_boots": "Botas de Lula-Brilhante",
+  "item.mcda.glow_squid_armor_leggings": "Calças de Lula-Brilhante",
+  "item.mcda.glow_squid_armor_chestplate": "Peitoral de Lula-Brilhante",
+  "item.mcda.glow_squid_armor_helmet": "Capacete de Lula-Brilhante",
+
+  "item.mcda.glow_squid_armor.tooltip_1": "Quem caça as elusivas lulas-brilhantes",
+  "item.mcda.glow_squid_armor.tooltip_2": "veste esta armadura para se misturar com",
+  "item.mcda.glow_squid_armor.tooltip_3": "sua bela presa.",
+
+  "item.mcda.glow_squid_armor.effect.tooltip_1": "Respiração Aquática",
+
+  "item.mcda.turtle_armor_boots": "Botas de Tartaruga",
+  "item.mcda.turtle_armor_leggings": "Calças de Tartaruga",
+  "item.mcda.turtle_armor_chestplate": "Peitoral de Tartaruga",
+  "item.mcda.turtle_armor_helmet": "Capacete de Tartaruga",
+
+  "item.mcda.turtle_armor.tooltip_1": "A Armadura de Tartaruga é inspirada",
+  "item.mcda.turtle_armor.tooltip_2": "no casco resistente e protetor da",
+  "item.mcda.turtle_armor.tooltip_3": "humilde tartaruga.",
+
+  "item.mcda.nimble_turtle_armor_boots": "Botas de Tartaruga Ágil",
+  "item.mcda.nimble_turtle_armor_leggings": "Calças de Tartaruga Ágil",
+  "item.mcda.nimble_turtle_armor_chestplate": "Peitoral de Tartaruga Ágil",
+  "item.mcda.nimble_turtle_armor_helmet": "Capacete de Tartaruga Ágil",
+
+  "item.mcda.nimble_turtle_armor.tooltip_1": "Esta armadura é feita dos densos",
+  "item.mcda.nimble_turtle_armor.tooltip_2": "(mas surpreendentemente leves) cascos de",
+  "item.mcda.nimble_turtle_armor.tooltip_3": "tartarugas que viveram a profundezas esmagadoras.",
+
+  "item.mcda.nimble_turtle_armor.effect.tooltip_1": "Resiliência da Tartaruga Ágil",
+
+  "item.mcda.entertainer_garb_helmet": "Chapéu do Artista",
+  "item.mcda.entertainer_garb_chestplate": "Colete do Artista",
+  "item.mcda.entertainer_garb_leggings": "Calças do Artista",
+  "item.mcda.entertainer_garb_boots": "Caneleiras do Artista",
+
+  "item.mcda.entertainer_garb.tooltip_1": "Defensivo? Claro. Fabuloso? COM CERTEZA.",
+
+  "item.mcda.troubadour_armor_helmet": "Chapéu de Trovador",
+  "item.mcda.troubadour_armor_chestplate": "Colete de Trovador",
+  "item.mcda.troubadour_armor_leggings": "Calças de Trovador",
+  "item.mcda.troubadour_armor_boots": "Caneleiras de Trovador",
+
+  "item.mcda.troubadour_armor.tooltip_1": "Por que deixar seus fãs adoradores querendo",
+  "item.mcda.troubadour_armor.tooltip_2": "mais quando você pode impressioná-los com este",
+  "item.mcda.troubadour_armor.tooltip_3": "traje inspirador?",
+
+  "item.mcda.troubadour_armor.effect.tooltip_1": "Carisma do Trovador",
+
+  "item.mcda.teleportation_robe_helmet": "Capuz de Teletransporte",
+  "item.mcda.teleportation_robe_chestplate": "Túnica de Teletransporte",
+  "item.mcda.teleportation_robe_leggings": "Faixa de Teletransporte",
+  "item.mcda.teleportation_robe_boots": "Sapatos de Teletransporte",
+
+  "item.mcda.teleportation_robe.tooltip_1": "As Túnicas de Teletransporte foram feitas por",
+  "item.mcda.teleportation_robe.tooltip_2": "quem devotou a vida a estudar",
+  "item.mcda.teleportation_robe.tooltip_3": "os enigmas do End.",
+
+  "item.mcda.teleportation_robe.effect.tooltip_1": "Teletransporte",
+
+  "item.mcda.unstable_robe_helmet": "Capuz Instável",
+  "item.mcda.unstable_robe_chestplate": "Túnica Instável",
+  "item.mcda.unstable_robe_leggings": "Faixa Instável",
+  "item.mcda.unstable_robe_boots": "Sapatos Instáveis",
+
+  "item.mcda.unstable_robe.tooltip_1": "Esta Túnica do End faisca com estática enquanto você",
+  "item.mcda.unstable_robe.tooltip_2": "desfila pelo campo de batalha.",
+
+  "item.mcda.unstable_robe.effect.tooltip_1": "Teletransporte Instável",
+
+  "item.mcda.shulker_armor_helmet": "Capacete de Shulker",
+  "item.mcda.shulker_armor_chestplate": "Peitoral de Shulker",
+  "item.mcda.shulker_armor_leggings": "Joelheiras de Shulker",
+  "item.mcda.shulker_armor_boots": "Coxotes de Shulker",
+
+  "item.mcda.shulker_armor.tooltip_1": "A Armadura de Shulker rivaliza até com a",
+  "item.mcda.shulker_armor.tooltip_2": "mais resistente placa de aço.",
+
+  "item.mcda.sturdy_shulker_armor_helmet": "Capacete de Shulker Resistente",
+  "item.mcda.sturdy_shulker_armor_chestplate": "Peitoral de Shulker Resistente",
+  "item.mcda.sturdy_shulker_armor_leggings": "Joelheiras de Shulker Resistente",
+  "item.mcda.sturdy_shulker_armor_boots": "Coxotes de Shulker Resistente",
+
+  "item.mcda.sturdy_shulker_armor.tooltip_1": "Dizem que a melhor defesa é",
+  "item.mcda.sturdy_shulker_armor.tooltip_2": "um bom ataque, mas boa sorte",
+  "item.mcda.sturdy_shulker_armor.tooltip_3": "tentando romper este baluarte.",
+
+  "item.mcda.sturdy_shulker_armor.effect.tooltip_1": "Imunidade à Levitação",
+  "item.mcda.sturdy_shulker_armor.effect.tooltip_2": "Projéteis de Shulker",
+
+  "item.mcda.gourdian_armor_helmet": "Capacete de Gourdiano",
+  "item.mcda.gourdian_armor_chestplate": "Peitoral de Gourdiano",
+  "item.mcda.gourdian_armor_leggings": "Calças de Gourdiano",
+  "item.mcda.gourdian_armor_boots": "Botas de Gourdiano",
+
+  "item.mcda.gourdian_armor.tooltip_1": "Quem veste o manto do",
+  "item.mcda.gourdian_armor.tooltip_2": "Gourdiano Assustador torna-se o",
+  "item.mcda.gourdian_armor.tooltip_3": "lendário terror das",
+  "item.mcda.gourdian_armor.tooltip_4": "Pastagens de Abóbora.",
+
+  "item.mcda.gourdian_armor.effect.tooltip_1": "Ódio do Gourdiano",
+
+  "item.mcda.cauldron_armor_helmet": "Capacete de Caldeirão",
+  "item.mcda.cauldron_armor_chestplate": "Peitoral de Caldeirão",
+  "item.mcda.cauldron_armor_leggings": "Joelheiras de Caldeirão",
+  "item.mcda.cauldron_armor_boots": "Coxotes de Caldeirão",
+
+  "item.mcda.cauldron_armor.tooltip_1": "A Armadura de Caldeirão foi criada",
+  "item.mcda.cauldron_armor.tooltip_2": "pensando em camuflagem, mas o que",
+  "item.mcda.cauldron_armor.tooltip_3": "lhe falta em furtividade, compensa",
+  "item.mcda.cauldron_armor.tooltip_4": "em charme borbulhante.",
+
+  "item.mcda.cauldron_armor.effect.tooltip_1": "Transbordamento do Caldeirão",
+
+  "item.mcda.sweet_tooth_helmet": "Capacete de Dente Doce",
+  "item.mcda.sweet_tooth_chestplate": "Peitoral de Dente Doce",
+  "item.mcda.sweet_tooth_leggings": "Calças de Dente Doce",
+  "item.mcda.sweet_tooth_boots": "Botas de Dente Doce",
+
+  "item.mcda.sweet_tooth.tooltip_1": "Esta armadura pode parecer um pedaço de bolo",
+  "item.mcda.sweet_tooth.tooltip_2": "para seus inimigos, mas ela",
+  "item.mcda.sweet_tooth.tooltip_3": "é surpreendentemente durável em batalha.",
+  "item.mcda.sweet_tooth.tooltip_4": "Deve ser o fondant.",
+
+  "item.mcda.vanguard_armor_helmet": "Capacete da Vanguarda",
+  "item.mcda.vanguard_armor_chestplate": "Peitoral da Vanguarda",
+  "item.mcda.vanguard_armor_leggings": "Cinto da Vanguarda",
+
+  "item.mcda.effect.lightfooted": "Pés Leves",
+  "item.mcda.effect.freezing_protection": "Proteção contra Clima Congelante",
+
+  "item.mcda.bone_rib_cage": "Caixa Torácica de Ossos",
+  "item.mcda.phantom_bones": "Ossos de Espectro",
+  "item.mcda.phantom_skin": "Pele de Espectro",
+  "item.mcda.ocelot_pelt": "Pele de Jaguatirica",
+  "item.mcda.ocelot_pelt_black": "Pele de Jaguatirica Negra",
+  "item.mcda.wolf_pelt": "Pele de Lobo",
+  "item.mcda.wolf_pelt_black": "Pele de Lobo Negro",
+  "item.mcda.fox_pelt": "Pele de Raposa",
+  "item.mcda.fox_pelt_arctic": "Pele de Raposa do Ártico",
+  "item.mcda.goat_pelt": "Pele de Cabra",
+  "item.mcda.frost_crystal": "Cristal de Geada",
+  "item.mcda.glut_charm": "Amuleto de Gula",
+  "item.mcda.iron_plate": "Placa de Ferro",
+  "item.mcda.iron_scale": "Escama de Ferro",
+  "item.mcda.fabric_bolt_white": "Rolo de Tecido Branco",
+  "item.mcda.fabric_bolt_orange": "Rolo de Tecido Laranja",
+  "item.mcda.fabric_bolt_magenta": "Rolo de Tecido Magenta",
+  "item.mcda.fabric_bolt_light_blue": "Rolo de Tecido Azul-Claro",
+  "item.mcda.fabric_bolt_yellow": "Rolo de Tecido Amarelo",
+  "item.mcda.fabric_bolt_lime": "Rolo de Tecido Verde-Limão",
+  "item.mcda.fabric_bolt_pink": "Rolo de Tecido Rosa",
+  "item.mcda.fabric_bolt_gray": "Rolo de Tecido Cinza",
+  "item.mcda.fabric_bolt_light_gray": "Rolo de Tecido Cinza-Claro",
+  "item.mcda.fabric_bolt_cyan": "Rolo de Tecido Ciano",
+  "item.mcda.fabric_bolt_purple": "Rolo de Tecido Roxo",
+  "item.mcda.fabric_bolt_blue": "Rolo de Tecido Azul",
+  "item.mcda.fabric_bolt_brown": "Rolo de Tecido Marrom",
+  "item.mcda.fabric_bolt_green": "Rolo de Tecido Verde",
+  "item.mcda.fabric_bolt_red": "Rolo de Tecido Vermelho",
+  "item.mcda.fabric_bolt_black": "Rolo de Tecido Preto",
+
+  "item.mcda.upgrade_core": "Núcleo de Melhoria — Base",
+  "item.mcda.upgrade_core_archer": "Núcleo de Melhoria — Arqueiro",
+  "item.mcda.upgrade_core_depth": "Núcleo de Melhoria — Profundezas",
+  "item.mcda.upgrade_core_ember": "Núcleo de Melhoria — Brasa",
+  "item.mcda.upgrade_core_fox": "Núcleo de Melhoria — Raposa",
+  "item.mcda.upgrade_core_frost": "Núcleo de Melhoria — Geada",
+  "item.mcda.upgrade_core_glut": "Núcleo de Melhoria — Gula",
+  "item.mcda.upgrade_core_golden": "Núcleo de Melhoria — Dourado",
+  "item.mcda.upgrade_core_highland": "Núcleo de Melhoria — Terras Altas",
+  "item.mcda.upgrade_core_hive": "Núcleo de Melhoria — Colmeia",
+  "item.mcda.upgrade_core_magicked": "Núcleo de Melhoria — Encantado",
+  "item.mcda.upgrade_core_metal": "Núcleo de Melhoria — Metal",
+  "item.mcda.upgrade_core_oceanic": "Núcleo de Melhoria — Oceânico",
+  "item.mcda.upgrade_core_shadows": "Núcleo de Melhoria — Sombras",
+  "item.mcda.upgrade_core_spider": "Núcleo de Melhoria — Aranha",
+  "item.mcda.upgrade_core_soul": "Núcleo de Melhoria — Almas",
+  "item.mcda.upgrade_core_verdant": "Núcleo de Melhoria — Verdejante",
+  "item.mcda.upgrade_core_void": "Núcleo de Melhoria — Vazio",
+  "item.mcda.upgrade_core_wither": "Núcleo de Melhoria — Wither",
+  "item.mcda.upgrade_core_wolf": "Núcleo de Melhoria — Lobo",
+
+  "item.mcda.gemstone_white": "Gema de Quartzo",
+  "item.mcda.gemstone_blue": "Gema de Lápis-Lazúli",
+  "item.mcda.gemstone_green": "Gema de Esmeralda",
+  "item.mcda.gemstone_purple": "Gema de Ametista",
+  "item.mcda.gemstone_red": "Gema de Redstone",
+
+  "enchantment.mcda.bag_of_souls": "Bolsa de Almas",
+  "enchantment.mcda.burning": "Ardente",
+  "enchantment.mcda.chilling": "Congelante",
+  "enchantment.mcda.cowardice": "Covardia",
+  "enchantment.mcda.death_barter": "Barganha com a Morte",
+  "enchantment.mcda.deflect": "Deflexão",
+  "enchantment.mcda.fire_focus": "Foco de Fogo",
+  "enchantment.mcda.fire_trail": "Rastro de Fogo",
+  "enchantment.mcda.food_reserves": "Reservas de Comida",
+  "enchantment.mcda.frenzied": "Frenético",
+  "enchantment.mcda.heal_allies": "Cura de Aliados",
+  "enchantment.mcda.lucky_explorer": "Explorador Sortudo",
+  "enchantment.mcda.poison_focus": "Foco de Veneno",
+  "enchantment.mcda.potion_barrier": "Barreira de Poção",
+  "enchantment.mcda.reckless": "Temerário",
+  "enchantment.mcda.recycler": "Reciclador",
+  "enchantment.mcda.snowball": "Bola de Neve",
+  "enchantment.mcda.surprise_gift": "Presente Surpresa",
+  "enchantment.mcda.swiftfooted": "Pés Velozes",
+
+  "effect.mcda.freezing": "Congelamento",
+
+  "subtitles.mcda.player_dodged": "Jogador se esquivou",
+
+  "enchantment.mcda.bag_of_souls.desc": "Aumenta a quantidade de experiência que você ganha conforme o nível do encantamento.",
+  "enchantment.mcda.burning.desc": "Uma versão flamejante de Espinhos.",
+  "enchantment.mcda.chilling.desc": "Retarda e aplica exaustão ao atacante.",
+  "enchantment.mcda.cowardice.desc": "Com a vida cheia, você recebe o efeito Força.",
+  "enchantment.mcda.death_barter.desc": "Ao morrer, você pode pagar para escapar da morte com Esmeraldas.",
+  "enchantment.mcda.deflect.desc": "Ao ser atingido por uma flecha, há uma chance de ela causar metade do dano e ser arremessada para longe de você.",
+  "enchantment.mcda.fire_focus.desc": "Aumenta o dano causado por ataques de fogo, especialmente Aspecto Flamejante.",
+  "enchantment.mcda.fire_trail.desc": "Um rastro de fogo segue o jogador.",
+  "enchantment.mcda.food_reserves.desc": "Ao beber uma poção de Vida Instantânea, você recebe algum alimento.",
+  "enchantment.mcda.frenzied.desc": "Quando sua vida cai abaixo de 50%, você ganha o efeito Pressa.",
+  "enchantment.mcda.heal_allies.desc": "Aliados (aldeões, mascotes, golems e outros jogadores) são curados ao receber dano.",
+  "enchantment.mcda.lucky_explorer.desc": "Chance de gerar esmeraldas a cada bloco explorado.",
+  "enchantment.mcda.poison_focus.desc": "Aumenta o dano causado por ataques de veneno.",
+  "enchantment.mcda.potion_barrier.desc": "Ao beber uma poção de Vida Instantânea, você recebe o efeito Resistência.",
+  "enchantment.mcda.reckless.desc": "Sua vida é reduzida em 60%, mas você ganha o efeito Força conforme o nível do encantamento.",
+  "enchantment.mcda.recycler.desc": "Ao ser atingido por uma flecha, há uma chance de você ganhar uma flecha, tendo apanhado a flecha com que foi atingido.",
+  "enchantment.mcda.snowball.desc": "Ao ser atacado por dois ou mais atacantes, uma bola de neve mágica será lançada em um deles, empurrando-o para trás.",
+  "enchantment.mcda.surprise_gift.desc": "Ao beber uma poção de Vida Instantânea, você recebe outra poção de um conjunto de opções.",
+  "enchantment.mcda.swiftfooted.desc": "Ao pular, você ganha vários segundos de aumento de velocidade.",
+
+  "activity.mcda.firetrail.enabled": "O Rastro de Fogo está ativado.",
+  "activity.mcda.firetrail.disabled": "O Rastro de Fogo está desativado.",
+
+  "key.mcda.firetrail.toggle": "Alternar Rastro de Fogo",
+  "key.category.mcda": "MC Dungeons Armor",
+  "block.mcda.fading_obsidian": "Obsidiana Evanescente"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Choque",
+  "icon": "goety:shocking_focus",
+  "category": "goety:focuses/storm",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O poder da eletricidade dispara de você, chocando qualquer criatura à sua frente. Quando não conjurado com o $(l:crafts/staff/storm_staff)Cajado de Tempestade$(), a eletricidade irá para o Para-Raios mais próximo."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/shocking_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/storm_staff)Cajado de Tempestade$() também causará um efeito de raio em cadeia e terá chance aumentada de infligir o efeito Espasmos."
+    }
+  ]
+}

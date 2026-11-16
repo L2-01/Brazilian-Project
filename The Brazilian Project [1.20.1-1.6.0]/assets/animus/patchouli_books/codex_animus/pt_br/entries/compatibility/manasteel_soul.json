@@ -1,0 +1,18 @@
+{
+  "name": "guide.animus.entry.imperfect_ritual_manasteel_soul",
+  "icon": "botania:manasteel_block",
+  "category": "animus:compatibility",
+  "flag": "mod:botania",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um ritual imperfeito que infunde sua alma com a essência de mana do Botania, concedendo rapidez sobrenatural e a habilidade de atravessar a matéria.$(br2)$(bold)Requer:$() Botania$(br2)$(bold)Configuração:$()$(br)Coloque um Bloco de Manasteel em cima de uma Pedra de Ritual Imperfeita.$(br2)$(bold)Custo:$() 2.500 LP por uso$(br2)$(bold)Duração:$() 15 minutos"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Efeitos",
+      "text": "$(bold)Ativação:$()$(br)Clique com o botão direito na Pedra de Ritual Imperfeita para receber:$(li)$(thing)Emptiness$() por 15 minutos$(li)$(thing)Velocidade$() por 15 minutos$(li)Ambos os efeitos sem partículas visíveis$(br2)$(bold)Emptiness:$()$(br)O efeito Emptiness do Botania permite atravessar certos blocos e reduz o aggro das criaturas.$(br2)$(bold)Casos de Uso:$()$(li)Exploração e travessia$(li)Escapar de situações perigosas$(li)Jogabilidade furtiva$(br2)$(italic)Um com o fluxo de mana.$()"
+    }
+  ]
+}

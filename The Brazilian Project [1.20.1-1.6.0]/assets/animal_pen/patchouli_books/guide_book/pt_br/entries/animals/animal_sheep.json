@@ -1,0 +1,32 @@
+{
+  "name": "Ovelha",
+  "icon": "minecraft:sheep_spawn_egg",
+  "category": "animal_pen:category_animal_pen",
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wheat",
+      "text": "Alimente as ovelhas com trigo para procriá-las e aumentar seu número no cercado."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond_sword",
+      "text": "Usar uma espada ou machado no Cercado de Animais matará a ovelha e derrubará seu saque."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:shears",
+      "text": "Usar tesoura no Cercado de Animais tosquiará a ovelha e derrubará sua lã. [interação de redstone 1]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:orange_dye",
+      "text": "Usar qualquer corante no Cercado de Animais mudará a cor da lã da ovelha."
+    }
+  ]
+}

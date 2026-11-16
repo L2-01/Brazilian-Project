@@ -1,0 +1,28 @@
+{
+  "name": "Vínculo de Equipe",
+  "icon": "bloodmagic:master_blood_orb",
+  "category": "bloodmagicteams:teams",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Quando o $(thing)BloodMagic Teams$() está instalado junto com o $(thing)FTB Teams$(), você ganha a capacidade de vincular Orbes de Sangue e Sigilos à $(item)Rede de Almas da sua Equipe$() em vez da sua pessoal.$(br2)Isso permite que todos os membros da equipe contribuam e saquem de uma reserva compartilhada de Essência Vital."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Como Funciona$()$(br)Ao vincular um Orbe de Sangue estando numa equipe, você verá uma tela de seleção:$(li)$(thing)Pessoal$() — Vincula à sua Rede de Almas individual$(li)$(thing)Equipe$() — Vincula à Rede de Almas compartilhada do seu FTB Team$(br2)Se você não estiver numa equipe, os itens vincularão automaticamente à sua rede pessoal sem perguntar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Lembrar Minha Escolha$()$(br)Marque a caixa $(thing)Não perguntar novamente$() para salvar sua preferência. Isso vinculará itens automaticamente pelo método escolhido.$(br2)Para mudar depois, use:$(br)$(#800)/bloodmagicteams reset$()$(br2)Isso limpará sua preferência salva e mostrará a tela de seleção novamente."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Comandos$()$(br)$(#800)/bloodmagicteams self$()$(br)Sempre vincula à sua rede pessoal$(br2)$(#800)/bloodmagicteams team$()$(br)Sempre vincula à sua equipe atual$(br2)$(#800)/bloodmagicteams status$()$(br)Mostra sua preferência de vínculo atual$(br2)$(#800)/bloodmagicteams reset$()$(br)Limpa a preferência e pergunta sempre"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Benefícios Compartilhados$()$(br)Com o vínculo de equipe:$(li)Os autosacrifícios de todos os membros contribuem para a mesma reserva$(li)Altares podem ser usados por qualquer membro da equipe$(li)Sigilos sacam da rede compartilhada$(li)Rituais usam a Essência Vital coletiva da equipe$(br2)Ideal para jogo colaborativo em modpack onde equipes querem progredir juntas no Blood Magic."
+    }
+  ]
+}

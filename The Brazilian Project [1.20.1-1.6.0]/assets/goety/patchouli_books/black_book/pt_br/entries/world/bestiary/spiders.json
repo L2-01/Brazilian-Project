@@ -1,0 +1,40 @@
+{
+  "name": "Aranhas Estranhas",
+  "icon": "minecraft:cobweb",
+  "category": "goety:world/bestiary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você notou que algumas aranhas estranhas têm aparecido por aí ultimamente, seja em certas áreas ou na escuridão em geral como outros monstros."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:web_spider",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Aranhas que produzem mais teias que outras variantes, esses aracnídeos covardes disparam suas teias no alvo, só atacando quando encurralados. Se o alvo se aproximar, a aranha tentará fugir. Sua produção constante de teia faz com que derrubem Teias de Aranha intactas."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:icy_spider",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Aranhas que aparecem em biomas frios, suas mordidas dão Lentidão assim como a flecha de um Errante. Elas podem andar sobre e são imunes à Neve em Pó."
+    },
+    {
+      "type": "patchouli:entity",
+      "advancement": "goety:goety/kill_a_bone_spider",
+      "entity": "goety:bone_spider",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "goety:goety/kill_a_bone_spider",
+      "text": "Aparecendo em Criptas, esses aracnídeos cobertos de ossos disparam Fragmentos de Osso de longe e atacarão com mordidas se o alvo estiver perto."
+    }
+  ]
+}

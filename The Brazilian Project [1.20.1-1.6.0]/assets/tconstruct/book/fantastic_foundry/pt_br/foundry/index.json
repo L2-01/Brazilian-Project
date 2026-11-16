@@ -1,0 +1,24 @@
+{
+  "title": "Fundição",
+  "subText": "Não há nada tão fantástico quanto a Fundição.",
+  "hidden": [
+    "structurereq",
+    "fgui2"
+  ],
+  "operations": [
+    {
+      "before": "features",
+      "action": "add_group",
+      "data": "Detalhes"
+    },
+    {
+      "before": "scorched_tanks",
+      "action": "column_break"
+    },
+    {
+      "before": "scorched_tanks",
+      "action": "add_group",
+      "data": "Blocos"
+    }
+  ]
+}

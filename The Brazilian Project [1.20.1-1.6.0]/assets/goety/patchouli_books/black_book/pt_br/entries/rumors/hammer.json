@@ -1,0 +1,17 @@
+{
+  "name": "Martelo do Chamado da Tempestade",
+  "icon": "minecraft:iron_ingot",
+  "category": "goety:rumors",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Correm boatos de um martelo poderoso que era obra-prima do artesanato $(l)Illager$() de mais alto nível, guardando as próprias tempestades dentro de si."
+    },
+    {
+      "type": "patchouli:quest",
+      "trigger": "goety:goety/get_stormlander",
+      "text": "Dizem que certos $(l)Illagers portadores de martelos$() possuem tal martelo, ou talvez uma réplica, que só revela seu poder quando atingida por um $(l)raio$()."
+    }
+  ]
+}

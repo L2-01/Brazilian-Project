@@ -1,0 +1,12 @@
+Tanque de Petróleo
+Banheira para Cavalheiros
+<&oiltank0>
+O Tanque de Petróleo é um tanque de líquido autonivelante maior que o <link;tank;§o§nTanque de Fluido§r> comum, com portas de fluido nas laterais, no topo e na base. Armazena 1024B de qualquer fluido não gasoso.<np>
+O Tanque de Petróleo se autonivela com outros Tanques de Petróleo não configurados adjacentes em linha, levando cada tanque conectado a um nível de líquido aproximadamente igual sempre que fluidos entram.
+
+As portas laterais podem ser configuradas com o martelo para entrada e saída, enquanto as portas do topo e da base não são configuráveis. Tanto o topo quanto a base aceitam entrada, mas só a porta da base permite saída.<np>
+Por sua capacidade generosa e o autonivelamento, o tanque combina bem com o <link;immersivepetroleum:derrick;§o§nDerrick§r> durante a fase de jorro, evitando rompimento do poço por armazenamento cheio e alta pressão.
+
+Ligar um comparador à porta de redstone do tanque lê o enchimento do tanque inteiro em métrica 0-15. Ligar o comparador a uma das camadas resulta em sinal proporcional à altura do comparador.
+
+Por exemplo, um comparador ligado à segunda camada de um tanque não emitirá sinal até o tanque estar 1/4 cheio, e terá intensidade 15 se o tanque estiver pela metade ou mais.

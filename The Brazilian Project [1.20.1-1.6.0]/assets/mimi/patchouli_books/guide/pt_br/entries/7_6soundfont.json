@@ -1,0 +1,27 @@
+{
+    "name": "Soundfonts",
+    "icon": "minecraft:note_block",
+    "category": "mimi:7midi",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Soundfonts são arquivos que armazenam os dados de som reais usados por um sintetizador de software para produzir som a partir de dados MIDI.$(br2)O MIMI contém uma Soundfont padrão, $(l:https://musical-artifacts.com/artifacts/841)GMGSX$() — uma SoundFont gratuita de Kenneth Rundt, que ele usa ao tocar dados MIDI se nenhuma outra Soundfont for fornecida."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Propósito",
+            "text": "Embora a Soundfont padrão contenha sons para todos os 128 programas MIDI GM, esses sons não são de alta qualidade e servem mais como conveniência do que como som de alta qualidade para produção musical.$(br2)Usar uma Soundfont permite que produtores musicais usem seus próprios dados de som para um sintetizador MIDI e produzam músicas muito mais únicas e de qualidade."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Tipos de Soundfonts",
+            "text": "Soundfonts são usadas de várias formas. Algumas podem conter dados de som para apenas um único programa MIDI (como uma guitarra ou efeito sonoro específico), enquanto outras podem conter dados para muitos programas MIDI diferentes.$(br2)Soundfonts que contêm dados de som para todos os 128 programas MIDI GM são chamadas de Soundfonts GM."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Encontrando Soundfonts",
+            "text": "Muitas Soundfonts estão disponíveis online, embora frequentemente não sejam gratuitas. Criar uma Soundfont de alta qualidade exige muito trabalho e, por isso, encontrar Soundfonts gratuitas às vezes pode ser um desafio.$(br2)Uma boa fonte de Soundfonts gratuitas (com licenças variadas) está disponível $(l:https://musical-artifacts.com/artifacts?formats=sf2)aqui$(/l)."
+        }
+    ],
+    "sortnum": 6
+}

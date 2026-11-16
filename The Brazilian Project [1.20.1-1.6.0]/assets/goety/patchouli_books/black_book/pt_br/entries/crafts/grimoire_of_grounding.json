@@ -1,0 +1,28 @@
+{
+  "name": "Grimório de Aterramento",
+  "icon": "goety:grimoire_of_grounding",
+  "category": "goety:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Às vezes, você quer que alguns dos seus servos, ou suas subespécies por assim dizer, fiquem onde estão quando os teleporta em massa ao conjurar agachado o feitiço de invocação associado ou outros feitiços."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando se fala em registrar suas subespécies, significa que, se você adicionar Servos Zumbis da Selva a ele, conjurar agachado o Feitiço Apodrecedor invocará todas as variantes de Servos Zumbis, exceto os da Selva."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:grimoire_of_grounding",
+      "text": "Clicar no ar com o botão direito mostra quem você aterrou. Agachar e clicar mostra as espécies."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Feitiço de Chamado ainda funciona mesmo se a invocação armazenada estiver registrada no grimório. Para o Feitiço de Tropa, apenas os indivíduos registrados no grimório não são teleportados. O grimório adiciona e apaga servos da mesma forma que os outros grimórios fazem com criaturas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O grimório também impede que servos temporários registrados nele sejam dispensados pela tecla 'Dispensar Servos Temporários'."
+    }
+  ]
+}

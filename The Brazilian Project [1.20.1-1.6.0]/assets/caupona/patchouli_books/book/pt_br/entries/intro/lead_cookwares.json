@@ -1,0 +1,18 @@
+{
+  "name": "Utensílios de Chumbo",
+  "icon": "caupona:lead_stew_pot",
+  "category": "caupona:intro",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/lead_stew_pot",
+      "text": "Uma panela de ensopado de $(l:intro/lead)chumbo$(/l) funciona como $(l:intro/stew_pots)sua versão comum$(/l), só que o açúcar de chumbo (como especiaria Defrutum) escorrerá para o ensopado se ele estiver concentrado o bastante, ou se vinagre for adicionado."
+    },
+    {
+      "type": "crafting",
+      "recipe": "caupona:crafting/lead_frying_pan",
+      "text": "Uma frigideira chapeada de $(l:intro/lead)chumbo$(/l) funciona como $(l:intro/frying_pans)sua versão comum$(/l), só que qualquer vinagre adicionado vira defrutum."
+    }
+  ]
+}

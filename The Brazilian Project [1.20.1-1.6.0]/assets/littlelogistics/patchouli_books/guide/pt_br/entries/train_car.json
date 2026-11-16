@@ -1,0 +1,19 @@
+{
+    "name": "Vagão de Trem",
+    "icon": "littlelogistics:seater_car",
+    "category": "littlelogistics:trains",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:seater_car",
+            "scale": 0.6,
+            "offset": 0.5,
+            "text": "Um vagão de trem simples que pode acomodar um jogador ou criatura."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:seater_car",
+            "text": "Assim como os carrinhos vanilla, este vagão pode ser descarregado com um trilho ativador."
+        }
+    ]
+}

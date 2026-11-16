@@ -1,0 +1,28 @@
+{
+  "name": "O Analisador",
+  "icon": "complicated_bees:analyzer",
+  "category": "complicated_bees:genetics",
+  "advancement": "complicated_bees:apiary",
+  "turnin": "complicated_bees:analyzer",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O analisador permite examinar os genes de uma abelha em profundidade, além de ver seus genes inativos; chega de $(l:complicated_bees:genetics/dominant)traços recessivos sorrateiros$() arruinando seu cruzamento ideal!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:analyzer",
+      "title": "O Analisador Erudito",
+      "text": "Segure-o e use-o para abrir a interface do analisador."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você terá que colocar uma abelha no espaço de abelha e algumas gotas de mel no outro espaço para acalmá-la e analisá-la. Ao fazer isso, o genoma inteiro da abelha será exibido. Você pode ver seus genes ativos e inativos, se um gene específico é dominante ou recessivo, alguns textos de sabor muito especiais e muito mais!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use essas informações e os $(l:complicated_bees:genetics/genetics)quadros de Punnett$() para orientar seus esforços de cruzamento e criar a abelha suprema!"
+    }
+  ]
+}

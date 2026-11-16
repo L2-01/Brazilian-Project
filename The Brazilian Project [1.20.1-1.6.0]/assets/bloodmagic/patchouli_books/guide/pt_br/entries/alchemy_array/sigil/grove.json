@@ -1,0 +1,38 @@
+{
+  "name": "Selo do Bosque Verde",
+  "icon": "bloodmagic:growthsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(item)Selo do Bosque Verde$() é um item com múltiplos usos. Criado num arranjo com um $(item)Reagente de Crescimento$() e uma $(item)Ardósia Reforçada$(), o selo pode usar da sua $(thing)Soul Network$() a $(blood)LP$() para nutrir e fazer crescer plantas próximas."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Reagente de Crescimento",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_growth",
+      "array.heading": "Selo do Bosque Verde",
+      "array.recipe": "bloodmagic:array/growthsigil"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/grove_sigil1.png",
+        "bloodmagic:images/entries/sigil/grove_sigil2.png",
+        "bloodmagic:images/entries/sigil/grove_sigil3.png"
+      ],
+      "title": "Arranjo do Selo do Bosque Verde",
+      "border": true,
+      "text": "O arranjo do Selo do Bosque Verde, mais seus usos principais."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se você pressionar [$(k:use)] num bloco que seja $(2)IGrowable$(), aplicará o efeito de farinha de osso consumindo $(blood)150 LP$(). $(br2)Porém, se segurar [$(k:sneak)] e [$(k:use)] mirando no ar, ele acenderá indicando que está ativado, e consumirá $(blood)150 LP$() a cada 5 segundos até ser desativado. Todo bloco num volume de 7x7x5 de altura centrado no jogador receberá um tique de crescimento. Ótimo para cultivar aquelas batatas!"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Como você tem a $(thing)Curios API$() instalada, pode equipar este $(item)Selo$() como amuleto. Se quiser usar mais curios de uma vez, considere usar um $(l:bloodmagic:alchemy_array/sigil/holding)Selo de Retenção$(), ou o Upgrade $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Encaixado$() da sua $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$()."
+    }
+  ]
+}

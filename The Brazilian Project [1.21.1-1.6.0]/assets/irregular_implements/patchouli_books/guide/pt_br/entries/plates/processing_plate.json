@@ -1,0 +1,47 @@
+{
+    "category": "irregular_implements:plates",
+    "icon": "irregular_implements:processing_plate",
+    "name": "Chapa de Processamento",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Chapa de Processamento$() combina as funções da [Chapa de Coleta](./collection_plate) e da [Chapa de Extração](./extraction_plate). Ela pode coletar itens largados para o inventário abaixo dela enquanto move independentemente itens de outro inventário adjacente para sua saída configurada.$(br2)Como as outras Chapas, ela é colocada sobre um bloco de suporte e não tem caixa de colisão. Entidades podem atravessar a Chapa fina, e itens largados são processados quando a tocam."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(d)Coletando itens largados$()$(br2)Quando uma entidade de item largado toca na Chapa de Processamento, a Chapa tenta inserir a pilha no inventário diretamente abaixo dela.$(br2)Essa direção de coleta é sempre $(d)Baixo$(). Ela é separada dos lados configuráveis de extração e saída descritos abaixo."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Se o inventário só puder aceitar parte da pilha, os itens aceitos são inseridos e o restante fica no mundo. Se não puder aceitar nada da pilha, o item permanece inalterado. Se a pilha inteira for inserida, a entidade de item é removida.$(br2)$(d)Extraindo itens de um inventário$()$(br2)A Chapa de Processamento também realiza uma transferência automática de inventário duas vezes por segundo. Cada tentativa de transferência verifica o inventário no $(d)lado de extração$() configurado."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O lado de extração pode ser Baixo, Norte, Leste, Sul, Oeste ou Cima. A Chapa acessa a face desse inventário que aponta para a Chapa, de modo que as regras de inserção e extração por lado de máquinas e outros inventários são respeitadas.$(br2)A Chapa verifica os espaços do inventário em ordem. Quando encontra uma pilha de itens que pode ser extraída e enviada à saída, move até 64 itens e encerra aquela tentativa de transferência. Ela portanto transfere de no máximo um espaço por tentativa."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(d)Enviando itens extraídos para a saída$()$(br2)O $(d)lado de saída$() pode ser Norte, Leste, Sul ou Oeste.$(br2)Se houver um inventário adjacente ao lado de saída, a Chapa insere os itens extraídos na face que aponta para a Chapa. Ela extrai apenas tantos itens quanto a saída puder aceitar."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Se não houver inventário no lado de saída, a pilha extraída é solta logo além da borda da Chapa e empurrada suavemente na direção de saída. Se um inventário de saída inesperadamente deixar um resto durante a transferência, esse resto é solto e empurrado da mesma forma.$(br2)A marcação no topo da Chapa indica sua direção de saída atual."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(d)Configuração$()$(br2)A Chapa de Processamento não tem menu. Configure-a com a mão vazia:$(br2)$(li)$(d)Clique com o botão direito$() para alternar o lado de extração.$(br)$(li)$(d)Agache e clique com o botão direito$() para alternar o lado de saída horizontal."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Uma mensagem de status exibe o lado recém-selecionado após cada interação.$(br2)Quando colocada, a saída aponta na direção para a qual o jogador estava olhando. O lado de extração aponta na direção oposta."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(d)Exemplo$()$(br2)Coloque uma Chapa de Processamento sobre um baú, com uma fornalha ao norte e outro baú ao leste. Defina o lado de extração para Norte e o lado de saída para Leste.$(br2)A Chapa agora realiza duas tarefas independentes:"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "1. Itens largados que passam sobre a Chapa são inseridos no baú abaixo. 2. Itens são extraídos da fornalha ao norte e inseridos no baú ao leste.$(br2)Mudar o lado de extração ou de saída não muda onde os itens largados são coletados; itens largados sempre vão para o inventário abaixo."
+        }
+    ]
+}

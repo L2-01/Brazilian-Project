@@ -1,0 +1,31 @@
+{
+  "name": "Redstone e Automação",
+  "icon": "minecraft:redstone",
+  "category": "bloodmagic:altar",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(l:bloodmagic:altar/blood_altar)Altar de Sangue$() é uma ferramenta fantástica, mas ficar parado esperando ardósias serem criadas não é sua ideia de diversão. Felizmente, itens e $(blood)LP$() podem ser transportados automaticamente para dentro e para fora do altar, embora com algumas ressalvas. $(br2)Enquanto um simples $(item)Funil$() permite inserir itens, o Altar não vai impedi-lo de inserir mais de 1 por vez. Ele alegremente criará 64 ardósias de uma"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "vez, consumindo 64 vezes mais $(blood)LP$() que o normal para isso — mas se você não conseguir suprir esse $(blood)LP$() rápido o suficiente, terá problemas. $(br2)Além disso, o altar não distingue entrada de saída, então sem algum tipo de filtro, itens serão puxados para dentro e para fora tão rápido quanto seu sistema de transferência aguentar. Talvez valha olhar os $(l:bloodmagic:demon_will/item_routing/routing_nodes)Nó de Roteamento$()..."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O altar também suporta a transferência de $(blood)Essência Vital$(), tanto para dentro quanto para um tanque externo. Basta conectar o tubo de fluido da sua preferência e você pode armazenar $(blood)Essência Vital$() excedente para criações futuras. $(br2)Note que a velocidade de transferência é bem lenta por padrão. Se quiser acelerá-la, é melhor olhar as $(l:bloodmagic:altar/blood_rune/acceleration_rune)Runas de Aceleração$() e $(l:bloodmagic:altar/blood_rune/dislocation_rune)Runas de Deslocamento$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Não esqueça que essa $(blood)Essência Vital$() não é tirada diretamente do $(l:bloodmagic:altar/blood_altar)altar$() em si, mas de um segundo tanque interno, secreto. Esse tanque pode segurar $(thing)até 10%$() da $(blood)Essência Vital$() que o próprio altar comporta, então se os números não parecerem bater exatamente, ou se $(blood)Essência Vital$() parecer estar sumindo do seu altar, provavelmente é para lá que ela está indo. As mesmas limitações valem para $(blood)Essência Vital$() sendo bombeada para dentro."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A quantidade de $(blood)Essência Vital$() no $(l:bloodmagic:altar/blood_altar)Altar de Sangue$() pode ser lida por um comparador na lateral, como num baú vanilla. $(br2)Se você colocar um $(item)Tijolo de Pedra de Sangue$() embaixo do altar, o comparador lerá, em vez disso, o valor da $(l:bloodmagic:altar/soul_network)Soul Network$(/l) do dono de qualquer orbe colocado no Altar. $(br2)A força do sinal depende do tamanho do orbe no altar, não do $(blood)LP$() máximo da network."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Por exemplo, se você tem $(blood)500.000 LP$(), um Orbe de Sangue Fraco apareceria completamente cheio, mas um Orbe de Sangue Mestre apareceria só pela metade. Isso pode ser usado, por exemplo, para desativar certos rituais quando seu $(blood)LP$() estiver acabando, garantindo que você não fique sem. $(br2)Por fim, colocar uma $(item)Lâmpada de Redstone$() embaixo do altar fará com que ela emita um sinal de redstone ao concluir uma operação de criação."
+    }
+  ]
+}

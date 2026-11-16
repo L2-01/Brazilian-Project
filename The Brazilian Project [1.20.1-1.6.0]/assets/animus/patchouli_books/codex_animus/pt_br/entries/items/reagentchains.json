@@ -1,0 +1,18 @@
+{
+  "name": "guide.animus.entry.reagent_chains",
+  "icon": "animus:reagentchains",
+  "category": "animus:items",
+  "sortnum": 21,
+  "pages": [
+    {
+      "type": "animus:crafting_soulforge",
+      "heading": "Reagent: Chains",
+      "recipe": "animus:soulforge/reagentchains",
+      "text": "Um reagente vinculado por correntes espectrais."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Este catalisador pode ser combinado com uma $(item)Ardósia Imbuída$() num Círculo de Alquimia para criar o $(l:animus:sigils/sigil_chains)Sigilo da Corrente Espectro$()."
+    }
+  ]
+}

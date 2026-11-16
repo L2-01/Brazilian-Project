@@ -1,0 +1,19 @@
+{
+  "name": "Foco Sensorial",
+  "icon": "goety:sensing_focus",
+  "category": "goety:focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O foco lhe concede Senso Sísmico, fazendo qualquer criatura no chão aparecer como se estivesse brilhando para você. O efeito só funciona se você também estiver no chão."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/sensing_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O encantamento Potência aumenta o nível de efeito do Senso Sísmico, dobrando o raio por nível."
+    }
+  ]
+}

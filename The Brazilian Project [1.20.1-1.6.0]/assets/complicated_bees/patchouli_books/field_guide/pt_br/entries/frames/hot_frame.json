@@ -1,0 +1,16 @@
+{
+  "name": "Quadro Quente",
+  "icon": "complicated_bees:hot_frame",
+  "category": "complicated_bees:frames",
+  "advancement": "complicated_bees:frame",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O magma pode aquecer o ar dentro dos apiários, ao custo de uma expectativa de vida menor."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:hot_frame"
+    }
+  ]
+}

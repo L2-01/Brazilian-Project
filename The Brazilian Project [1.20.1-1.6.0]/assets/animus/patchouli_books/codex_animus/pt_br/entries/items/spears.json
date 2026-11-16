@@ -1,0 +1,28 @@
+{
+  "name": "guide.animus.entry.spears",
+  "icon": "animus:spear_bound",
+  "category": "animus:items",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:spear_iron",
+      "text": "Dardos arremessáveis de estilo romano. Segure o botão direito para carregar, depois solte para arremessar. Quando arremessadas, as lanças causam dano em área onde aterrissam."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:spear_diamond",
+      "text": "Uma variante mais forte fabricada de diamante. Dano e durabilidade maiores que a de ferro, mas funciona identicamente. Suporta encantamentos como Afiação e Saque."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:spear_bound",
+      "text": "Uma lança vinculada à alma com dois modos. $(bold)Desativada:$() Comporta-se como uma lança de diamante. $(bold)Ativada:$() Ganha ataques corpo a corpo em área e sacrifica inimigos para Altares de Sangue próximos."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Detalhes da Lança Vinculada",
+      "text": "$(bold)Custo de LP:$() 50 LP por ataque/arremesso$(br)$(bold)Alternar:$() Agache + Botão direito$(br2)$(bold)Recursos Ativados:$()$(li)Dano corpo a corpo em área (raio de 5 blocos)$(li)Inimigos perto do altar são sacrificados$(li)Morte instantânea + LP ao altar$(li)Inquebrável, à prova de fogo$(br2)$(italic)A arma suprema da magia de sangue.$()"
+    }
+  ]
+}

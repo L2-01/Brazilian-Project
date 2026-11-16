@@ -1,0 +1,17 @@
+Depósitos de Minério
+Minério Bom
+Espalhados pela pedra do mundo há pequenos depósitos concentrados de <link;ores;minérios>, visíveis a olho nu e recuperáveis com ferramentas manuais.<br>
+Além deles, na rocha subjacente, estão os §2Veios Minerais§r, compostos de vários minérios diferentes, dispersos demais para qualquer coisa exceto uma <link;excavator;máquina especial> recuperar.<br>
+Ao fim desta seção há um apêndice listando todos os veios minerais conhecidos.<np>
+<&survey_tools>Como os veios minerais fazem parte da pedra, §2Ferramentas de Prospecção§r são necessárias para localizar vestígios. Aventurar-se e usar essas ferramentas em blocos de rocha natural e solo permite identificar localizações aproximadas de veios.<br>
+Cada amostra coletada do mesmo veio permite identificação mais precisa de seu centro e conteúdo. Veios minerais podem se sobrepor, então a prospecção pode mostrar traços de veios bem próximos. Locais de amostragem próximos demais, porém, não fornecem informação útil sobre a localização do veio.<br>
+Blocos artificiais como chapa metálica, plantas como troncos e fluidos como água não contêm traços de veios minerais e, portanto, não podem ser usados com as ferramentas de prospecção.<np>
+<&sample_drill>As §2Furadeiras de Amostra de Núcleo§r fornecem identificação precisa da composição e do rendimento esperado de um veio mineral. Assim como a prospecção mineral, não podem ser feitas no ar ou na água.<br>
+A furadeira pode ser ligada manualmente e desativada por sinal de redstone. Quando alimentada com energia, como de um <link;accumulators;acumulador> para bateria portátil, a furadeira consome <config;i;machines.coredrill.consumption> Flux/t para produzir uma §2amostra de núcleo§r.<br>
+As amostras de núcleo são delicadas e devem ser extraídas manualmente, da mesma forma que se ativa a máquina de novo.<np>
+<&core_sample>As amostras de núcleo podem ser facilmente analisadas visualmente para determinar a presença relativa de minerais no local.<br>
+Ao contrário da prospecção simples, a análise aprofundada com a furadeira de amostra de núcleo permite determinar a §2Saturação§r. Uma saturação maior significa maior chance de uma escavadeira retornar minério.<br>
+As amostras de núcleo podem ser colocadas enquanto se agacha, permitindo identificar facilmente as informações num relance. Além disso, quando colocadas, marcadores podem ser aplicados a mapas ao clicar na amostra com o botão direito, localizando o veio com um triângulo vermelho no mapa.<br>
+As amostras de núcleo não exibem aquíferos nem outros traços de fluido na região; elas só exibem a riqueza mineral da prospecção.<np>
+<&spoils>Mesmo veios de alta saturação não podem ser escavados sem trazer à tona a rocha ao redor do veio. Quando os depósitos são escavados de longe, mais do minério fica contido na rocha e no solo de rejeito.<br>
+Por causa da escavação ineficiente, esses veios produzirão menos minério que um depósito bem posicionado.<np>

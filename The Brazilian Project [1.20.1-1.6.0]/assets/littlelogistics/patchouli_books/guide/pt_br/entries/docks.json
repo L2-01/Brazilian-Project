@@ -1,0 +1,23 @@
+{
+    "name": "Docas de Embarcações",
+    "icon": "littlelogistics:tug_dock",
+    "category": "littlelogistics:blocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Existem dois blocos de doca: de barcaça e de rebocador. O bloco de rebocador deve estar sempre presente para as docas de barcaça funcionarem. A textura do topo da doca de rebocadores deve estar alinhada com as docas de barcaça, formando uma linha contínua de docas. As docas não transferem coisas por si, mas comunicam ao rebocador se há coisas a transferir e se ele precisa esperar. Alternativamente, o rebocador pode ser forçado a esperar aplicando um sinal de redstone."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Doca de Rebocadores",
+            "recipe": "littlelogistics:tug_dock",
+            "text": "A doca de rebocadores só pode inserir no rebocador (modo laranja/saída), coloque um funil em cima da doca para inserir. Shift+clique-direito na doca de rebocadores para inverter a direção da doca. Veja a próxima página para a doca de barcaças >>>"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Doca de Barcaças",
+            "recipe": "littlelogistics:barge_dock",
+            "text": "As docas de barcaça podem tanto enviar (modo laranja) quanto receber (modo azul) de/para as barcaças, shift+clique-direito para alternar o modo. Coloque um funil embaixo do caminho da barcaça para extrair recursos."
+        }
+    ]
+}

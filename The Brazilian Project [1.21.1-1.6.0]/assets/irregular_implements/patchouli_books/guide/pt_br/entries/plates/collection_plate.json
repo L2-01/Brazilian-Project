@@ -1,0 +1,11 @@
+{
+    "category": "irregular_implements:plates",
+    "icon": "irregular_implements:collection_plate",
+    "name": "Chapa de Coleta",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Qualquer entidade de item que tocar a $(d)Chapa de Coleta$() será inserida num inventário adjacente, se possível.$(br2)A ordem que ela tenta é: Baixo, Norte, Sul, Leste, Leste, Cima."
+        }
+    ]
+}

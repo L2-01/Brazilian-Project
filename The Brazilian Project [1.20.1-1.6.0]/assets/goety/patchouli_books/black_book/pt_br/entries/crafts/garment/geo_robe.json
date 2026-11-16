@@ -1,0 +1,23 @@
+{
+  "name": "Mantos Geomantes",
+  "icon": "goety:geo_robe",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com peles e alguns tecidos mágicos, este simples manto xamânico reduz pela metade o custo de almas dos feitiços Geomânticos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:geo_robe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ametistas são poderosos condutos de magia Geomântica. Ao criar e vestir este colar, o tempo de conjuração dos feitiços Geomânticos será reduzido pela metade."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:amethyst_necklace"
+    }
+  ]
+}

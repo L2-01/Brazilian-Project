@@ -1,0 +1,9 @@
+Bomba de Fluido
+A Pressão Está Lá
+<&pump_recipe>Bombas de Fluido servem para mover e pressurizar fluidos, tanto dentro quanto fora de sistemas de tubos.<br>
+Fluidos só serão bombeados de <link;storage_barrels;barris de fluido> ou <link;storage_minecarts;carrinhos de mina;fluid_storage> se o tanque e a bomba tiverem conexões naquele lado.<br>
+Usar o Martelo de Engenheiro nas faces da metade inferior da bomba alterna a conexão entre entrada, saída e bloqueado.<br>
+Ao receber um sinal de redstone, a bomba extrai em baixa potência. Clicar nela com a Chave de Fenda de Engenheiro inverte esse comportamento.<br>
+Fornecer flux à bomba engata a bomba de alta pressão e aumenta significativamente a taxa de transferência.<br>
+Quando colocadas contra poças de fluido no mundo, as bombas sugam o fluido para seu tanque interno pelas entradas. Água pode ser bombeada da mesma forma que é recolhida com um balde.<br>
+Fluidos recolhidos são substituídos por pedregulho na quantidade de fluidos fluindo no mundo. Esse comportamento pode ser ligado e desligado usando o Martelo de Engenheiro no topo da bomba enquanto agachado.

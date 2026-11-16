@@ -1,0 +1,19 @@
+{
+    "name": "Vagão de Baú",
+    "icon": "littlelogistics:chest_car",
+    "category": "littlelogistics:trains",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:chest_car",
+            "scale": 0.6,
+            "offset": 0.5,
+            "text": "Um vagão de trem simples que guarda itens, semelhante ao carrinho de baú."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:chest_car",
+            "text": "O vagão deve estar atracado e fazer parte de um trem para interagir com funis."
+        }
+    ]
+}

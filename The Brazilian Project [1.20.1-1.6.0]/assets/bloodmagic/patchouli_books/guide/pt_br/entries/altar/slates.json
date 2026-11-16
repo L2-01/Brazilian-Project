@@ -1,0 +1,36 @@
+{
+  "name": "Tiers de Ardósias",
+  "icon": "bloodmagic:blankslate",
+  "category": "bloodmagic:altar",
+  "extra_recipe_mappings": {
+    "bloodmagic:blankslate": 1,
+    "bloodmagic:reinforcedslate": 1,
+    "bloodmagic:infusedslate": 2,
+    "bloodmagic:demonslate": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O uso principal do $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(/l) é a produção de $(item)Ardósias$(). Cada tier de ardósia exige o tier anterior e um altar mais poderoso que o último."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Ardósia em Branco",
+      "a.recipe": "bloodmagic:altar/slate",
+      "b.heading": "Ardósia Reforçada",
+      "b.recipe": "bloodmagic:altar/reinforcedslate"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Ardósia Imbuída",
+      "a.recipe": "bloodmagic:altar/imbuedslate",
+      "b.heading": "Ardósia Demoníaca",
+      "b.recipe": "bloodmagic:altar/demonicslate"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Ardósia Etérea",
+      "recipe": "bloodmagic:altar/etherealslate"
+    }
+  ]
+}

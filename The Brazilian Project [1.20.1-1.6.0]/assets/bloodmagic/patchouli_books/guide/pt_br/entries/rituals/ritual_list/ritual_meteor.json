@@ -1,0 +1,25 @@
+{
+  "name": "Marca da Torre Cadente",
+  "icon": "minecraft:fire_charge",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Marca da Torre Cadente",
+      "multiblock_id": "bloodmagic:meteor",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "meteor"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Usando os vastos poderes à sua disposição, a conclusão mais óbvia é que é uma boa ideia invocar um meteoro do espaço sideral para se chocar com o mundo.$(br2)Ao derrubar uma oferenda apropriada em cima da PRM, o ritual consumirá o item (mais uma grande quantidade de LP, padrão de um milhão de LP) e invocará um meteoro na altura máxima do mapa. Quando o meteoro atingir algo, detonará e deixará para trás muitos recursos para minerar e processar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O tamanho e os recursos ganhos variam conforme a oferenda dada. Oferendas normais incluem: $(item)Diamante$(), $(item)Bloco de Ferro$(), $(item)Pó de Pedra-Luminosa$() e $(item)Pedra$().$(br2)Itens de mods incluem: $(item)Ossos de Dragão$() do Ice and Fire, $(item)Quartzo Certus$() do AE2, $(item)Liga de Andesito$() do Create, $(item)Bobina de Fio de Cobre$() do IE, $(item)Fragmento de Prosperidade$() do Mystical Agriculture, $(item)Bobina de RF$() do Thermal, e $(item)Liga Avançada$() do Mekanism."
+    }
+  ]
+}

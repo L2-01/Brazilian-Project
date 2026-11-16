@@ -1,0 +1,9 @@
+Tanque de Aço
+Encha Tudo!
+<&multiblock>O Tanque de Aço é apenas uma versão maior do Tanque.
+
+
+
+
+
+§lFluidos§r entram pelo topo e pela base. §lFluidos§r saem pela base. Use um sinal de redstone para fazer o fluido sair pela base. Armazena até <config;i;steel_sheetmetal_tank.capacity> mB de fluido. Um comparador ligado a uma das <config;i;steel_sheetmetal_tank.comparator_layers> camadas verticais do tanque emite sinal proporcional ao nível de fluido naquela camada específica — as camadas inferiores marcam cheio antes conforme o tanque enche, semelhante a um tanque vanilla alimentado por funil.

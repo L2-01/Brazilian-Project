@@ -1,0 +1,18 @@
+{
+  "name": "Integração com Agricraft",
+  "icon": "agricraft:wooden_crop_sticks",
+  "category": "bloodmagic:utility",
+  "flag": "mod:agricraft",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "agricraft:wooden_crop_sticks",
+      "title": "Integração com Agricraft",
+      "text": "Parece que a Sanguimancia pode ser útil até trabalhando com técnicas agrícolas avançadas. Tanto o $(l:bloodmagic:rituals/ritual_green_grove)Ritual do Bosque Verde$() quanto o $(l:bloodmagic:alchemy_array/sigil/grove)Selo do Bosque Verde aceleram o crescimento dessas plantas (e inibem o crescimento de ervas daninhas, caso seu mundo tenha o azar de ser afligido por tal coisa)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Além disso, a $(l:bloodmagic:rituals/ritual_harvest)Ceifa da Lua da Colheita$() manterá as plantas colhidas seguras, como se você tivesse recolhido sua produção com suas próprias mãos delicadas. $(br2)Se você acha que viu ervas daninhas, não viu não. (É um bug visual menor. Não se preocupe.)"
+    }
+  ]
+}

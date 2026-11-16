@@ -1,0 +1,11 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:block_mover",
+    "name": "Movedor de Bloco",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Movedor de Bloco$() pode pegar e recolocar um único bloco, incluindo sua entidade de bloco.$(br2)Ele não pode mover blocos que têm a tag de bloco #irregular_implements:block_mover_blacklist."
+        }
+    ]
+}

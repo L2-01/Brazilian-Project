@@ -1,0 +1,17 @@
+{
+  "name": "Élitros",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_elytra",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Plane pelos céus com a melhoria Élitros. Ela equipa sua armadura com asas de élitro, permitindo voar ao cair."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação da Melhoria: Élitros",
+      "recipe": "justdirethings:upgrade_elytra"
+    }
+  ]
+}

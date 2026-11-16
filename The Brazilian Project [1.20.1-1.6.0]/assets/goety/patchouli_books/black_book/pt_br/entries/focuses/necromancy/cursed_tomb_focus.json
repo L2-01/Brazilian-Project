@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Sepultura Amaldiçoada",
+  "icon": "goety_cataclysm:cursed_tomb_focus",
+  "category": "goety:cataclysm/focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Como Draugrs comuns, mas equipados com um escudo que usam ocasionalmente para bloquear ataques."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/cursed_tomb_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/necro_staff)Cajado Necrótico$() invoca mais Draugrs de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:cursed_tomb_focus": 1
+  }
+}

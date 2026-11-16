@@ -1,0 +1,560 @@
+{
+  "name": "Catalisadores",
+  "icon": "goety:brew",
+  "category": "goety:brewing",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aqui estão os catalisadores para dar um efeito à sua poção! Como já deve ter notado, alguns desses efeitos são estranhos, e a maioria deles é exclusiva do bom e velho preparo de poções de bruxa!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Mas não se preocupe! A velha Vovó vai explicar o que alguns deles fazem, já que estou me sentindo generosa hoje! Se o catalisador for um ovo gerador, significa que você vai ter que ferver o que quer que nasça daquele ovo no seu caldeirão! Ah, e alguns desses efeitos ocupam mais de 1 de capacidade, então é mais uma coisa para ficar de olho ao preparar! Hehahaha!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.absorption"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.aging",
+      "text": "A velha Vovó adora jogar essas poções naqueles pirralhos quando ficam bagunçando o jardim dela, mesmo que sejam cadáveres ambulantes! Mas parece que alguns cretinos têm vida longa demais, ou outras esquisitices, para a poção fazer efeito, como aqueles ciclopes esquisitos do oceano!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.arrowmantic",
+      "text": "Essas flechas são mesmo irritantes! Tome! Agora quem vai se irritar com elas é você! Hahahaha!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.bats",
+      "text": "Voem, minhas lindezas! Voem e devorem os rostos dos meus inimigos!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.bees",
+      "text": "Zumbem e zunem, voam e retumbam, ferroem meu inimigo, melam meus dedos!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.blind_jump",
+      "text": "Teleporta o afetado para um local aleatório! Quanto maior o nível, mais longe ele pode ir parar!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.blindness"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.bottling",
+      "text": "Fique melhor em preparar poções preparando uma poção que te faz preparar poções melhor!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.brew_dye",
+      "text": "Muda as cores da Poção para as dos corantes que você jogar nela! Mas cuidado! A cor vai mudar se você adicionar outro Catalisador ou corante!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.chop_tree",
+      "text": "Com Machado de Pedra, minha poção eu lanço! Vejo uma árvore e a derrubo num tranco!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.climbing"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.combust",
+      "text": "FOGO! HAHAHAHAHA!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.corpse_eater",
+      "text": "Já quis se banquetear com o último suspiro das suas vítimas? Pois agora você pode! E é saboroso também!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.corrosion",
+      "text": "Está vendo aqueles blocos? Não mais (a menos que seja Obsidiana)! Estou vendo sua armadura, e acho que ela podia estar um pouquinho mais danificada! Hahahaha!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.cursed",
+      "text": "Uma Maldição sobre você! Nada de cura para você! Acabei de rimar você com você! E agora, o que vai fazer?"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.darkness"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.deflective",
+      "text": "Para quê bloquear um projétil quando dá para fazer o tal projétil voar de volta no atirador!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.drought",
+      "text": "Água demais! Com esta poção, não vai sobrar água nenhuma!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.ender_ground",
+      "text": "Ensina aqueles Endermans a não sumir quando levam uma espadada ou um banho de poção!"
+    },
+    {
+      "type": "goety:sacrifice",
+      "recipe": "effect.goety.ender_flux",
+      "text": "Conhece a velha história dos gatos que pulam e arranham o teto quando se assustam? Pois e se, em vez disso, eles fossem parar num lugar totalmente novo, e a surpresa fosse uma faca na cara?"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.evil_eye",
+      "text": "O olhar do mal atrai todo tipo de gente, perfeito para dar uma festa!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.explode",
+      "text": "Está vendo aquela casa ali? Ta-dá! Agora ela tem um buraco nela!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.explosive",
+      "text": "Cuidado ao machucar criaturas com esse efeito, seu moleque! Pelo que ouvi dizer, elas podem ter um temperamento EXPLOSIVO! Hahahaha!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.extinguish",
+      "text": "Awww... As chamas se foram..."
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.fertility",
+      "text": "Como assim você não está no clima? Vá procriar! A Vovó precisa de um par novo de Botas de Couro!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.fiery_aura",
+      "text": "Não chegue muito perto de mim! Sou quente demais para você!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.fire_resistance"
+    },{
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.fire_trail",
+      "text": "Pegue-me se puder, se for capaz de aguentar minhas botas quentes!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.flammable",
+      "text": "O fogo queima bem mais do que o normal! Quase como se você fosse feito de grama!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.flame_hands",
+      "text": "Fale com essas mãos e você vai sair queimando!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.flaying",
+      "text": "Arranca a pele, as penas e a lã dos Animais! Deixa a carne e os miúdos para trás, mas não pense que eles vão ficar bem! Hahaha!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.flimsy",
+      "text": "Faz até os tolos mais robustos vergarem ao vento!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.flood",
+      "text": "Água de menos! Com esta poção, vai haver água!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.fortunate",
+      "text": "Bah! Quem precisa de Encantamentos quando se tem poções! A velha Vovó precisa de uns diamantes extras, e ela está sem Lápis-Lazúli nenhum!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.freeze",
+      "text": "Às vezes a velha Vovó quer patinar no Pântano dela, na lagoa congelada feita por mãos de bruxa!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.freezing",
+      "text": "Ei, criancinhas! Querem SER um Boneco de Neve? Hehehahaha!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.frog_leg",
+      "text": "Por que só pular do chão quando dá para pular do ar também?"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.frosty_aura",
+      "text": "Não chegue muito perto de mim! Sou fria demais para você!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.glowing"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.gold_touched",
+      "text": "Podem não ficar de ouro por inteiro, mas com certeza soltam umas pepitas ao morrer!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.gravity_pulse",
+      "text": "Ei, não seja tímido! Essas mãos não vão se socar sozinhas! Venha cá!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.grow_cactus",
+      "text": "Trazendo o corante verde para as praias arenosas da minha terra!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.grow_cave_vines",
+      "text": "Aquelas trepadeiras das cavernas verdejantes ficam lindas penduradas na minha própria caverna! Infelizmente, essas trepadeiras não vêm brilhando!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.growth",
+      "text": "Para quando minhas ervas não estão crescendo rápido o bastante! A Vovó não vai passar Farinha de Osso em cada um de vocês!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.grow_tree",
+      "text": "O que é uma Bruxa que não se cerca de árvores? O Catalisador pode ser qualquer Muda!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.haste"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.harvest",
+      "text": "Um balde de água arrasta as sementes! Com esta poção, a terra guarda seus presentes!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.health_boost"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.hunger"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.infest",
+      "text": "Deixa certas Pedras e Tijolos de Pedra infestados daquelas adoráveis Traças!"
+    },
+    {
+      "type": "goety:sacrifice",
+      "recipe": "effect.goety.infest",
+      "text": "Ferva uma Traça no seu caldeirão se não conseguir encontrar nenhuma pedra infestada por aí!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.insect_bane",
+      "text": "Esse efeito é ótimo para caçar aqueles insetos deliciosos, principalmente os grandões!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.insight",
+      "text": "Estou ficando mais INTELIGENTE!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.instant_damage"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.instant_health"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.invisibility"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.jump_boost"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.launch",
+      "text": "Para cima, para cima e além!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.leaf_shell",
+      "text": "Melhor ir acendendo os fósforos! Essas folhas não são tão fáceis de quebrar com a mão!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.leeching",
+      "text": "Bater num brutamontes com o punho ou com um graveto vai te curar uma porcentagemzinha da vida máxima dele."
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.levitation"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.love",
+      "text": "É hora da procriação!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.luck"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.mossify",
+      "text": "Às vezes a Vovó precisa trazer o verdejante das cavernas para fora! E também uns Pedregulhos e Tijolos Musgosos!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.mining_fatigue"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.nausea"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.night_vision"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.nyctophobia",
+      "text": "Peguem uma luz noturna, criancinhas! Vocês vão precisar dela!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.part_lava",
+      "text": "Esqueci de trazer meu Marchador comigo. Parece que vou ter que abrir os lagos de lava ao meio para passar!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.part_water",
+      "text": "Deixei minha lâmina giratória em casa, como vou atravessar este mar agora? Ah, que bom que trouxe minhas poções comigo!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.photosynthesis",
+      "text": "Aproveitem a luz do sol, meus queridos! Olhem bem para aquela bola de fogo! Tenho certeza de que não vão ficar cegos!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.plunge",
+      "text": "Parece que você anda comendo muitos dos biscoitos da Vovó! Tome, coma mais um pouco!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.poison"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.pressure",
+      "text": "Sente como se todo mundo estivesse te olhando estranho? Que bom que isso não te machuca de verdade! Ou será que machuca? Hehahaha!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.pruning",
+      "text": "Tirem essas malditas Folhas flutuantes do meu terreno!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.pulverize",
+      "text": "Pedra vira Pedregulho, que vira Cascalho, que vira Areia! Traga-me um Carvão e me faça um vidro!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.purify_buff",
+      "text": "Remove todos os efeitos não prejudiciais daqueles malditos moleques!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.purify_debuff",
+      "text": "Remove todos os efeitos prejudiciais daqueles malditos moleques!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.radiance",
+      "text": "Aqui vai um segredo da velha Vovó! Às vezes me sinto mais jovem depois de dar uma chinelada num pirralho com minha velha sandália!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.raise_dead",
+      "text": "Acordem, dorminhocos! A Vovó não pode carregar todas essas sacolas sozinha!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.rallying",
+      "text": "Faça aqueles pirralhos baterem mais forte quando você estiver perto deles!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.regeneration"
+    },
+    {
+      "type": "goety:sacrifice",
+      "recipe": "effect.minecraft.regeneration",
+      "text": "Já se perguntou de onde vêm aquelas histórias de bruxas fazendo ensopado de gente?! Hehehahaha!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.repulsive",
+      "text": "Quê? Não gostou do meu perfume depois de tentar conhecer a velha Vovó?!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.resistance"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.sapped",
+      "text": "Meus punhos parecem mais duros, só porque sua cara ficou mais mole!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.saturation"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.save_effects",
+      "text": "Tive a ideia comendo aqueles Fragmentos de Eco! Faz os efeitos grudarem mesmo depois de beber Leite e, aparentemente, de morrer? Deve ser útil para aqueles malditos tipos imortais, tipo aquele troço de bússola azul!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.shear",
+      "text": "Meus braços estão velhos demais para tosquiar essas Ovelhas! Minhas poções vão fazer isso pela velha Vovó!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.shielding",
+      "text": "Parece que ficar perto da velha Vovó deixa essas porradas um pouco menos doloridas!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.slimy",
+      "text": "Ouvi dizer que vocês, pirralhos, adoram ficar cobertos de gosma! Então certamente vão adorar a garrafa da velha Vovó!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.slow_falling"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.slowness"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.smiting",
+      "text": "Às vezes a velha Vovó quer o quintal dela livre de cadáveres, principalmente se eles andam!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.snow",
+      "text": "Para quando a Vovó está a fim de brincar na neve!"
+    },
+    {
+      "type": "goety:sacrifice",
+      "recipe": "effect.goety.snow_skin",
+      "text": "Quer SER um boneco de neve?! Pois primeiro você tem que ferver um!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.speed"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.storms_wrath",
+      "text": "Ou é a fúria das nuvens, ou é amor do próprio raio. De qualquer jeito, você vai ganhar um penteado novo!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.strength"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.strip",
+      "text": "Ah não, eu não sou pudica o bastante para arrancar suas roupas! Só sua armadura! Posso arrancar quase toda ela se minha poção for de nível mais alto *piscadela*."
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.sun_allergy",
+      "text": "Ei, criancinhas! Querem SER um Esqueleto? Ou Zumbi? Ou Espectro? Ou..."
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.sweet_thorns",
+      "text": "A Vovó quer fazer Torta de Bagas Doces, mas minhas pobres pernas estão cansadas demais para ir à Taiga. Meh, vou fazer meus próprios Arbustos de Bagas então!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.swift_swim",
+      "text": "Ninguém espera que uma velha Vovó como eu se esgueire rápido dentro d'água!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.swirling",
+      "text": "Melhor não cercar alguém com esse efeito em grupo, senão você vai ser fatiado enquanto ela soca a cara de alguém!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.thorn_trap",
+      "text": "Você está cercado, pirralho! É melhor parar de andar, a menos que queira a cara cheia de espinhos! Hahahaha!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.transpose",
+      "text": "Reúne todo tipo de entidade, incluindo Itens, no local onde a poção caiu ou foi bebida!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.tripping",
+      "text": "Cuidado por onde anda, criançada! Você pode tropeçar e ser jogado numa direção aleatória! Se o nível for maior, você vai tropeçar sem parar!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.unluck"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.venomous_hands",
+      "text": "Minhas mãos são feitas de Aranhas! Hahahaha!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.void_touched",
+      "text": "Entre em contato com o vazio, pirralho! Só tome cuidado para não ser tocado por mais nada!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.water_breathing"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.weakness"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.webbed",
+      "text": "Essas aranhas trabalham rápido mesmo! Mas parece que elas só fazem teias quando a poção acerta uma criatura, em vez de terra firme..."
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.goety.wild_rage",
+      "text": "Deixe o ódio fluir por você!"
+    },
+    {
+      "type": "goety:catalyst",
+      "recipe": "effect.minecraft.wither"
+    }
+  ]
+}

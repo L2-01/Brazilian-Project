@@ -1,0 +1,21 @@
+{
+  "name": "Servo Dissidente",
+  "icon": "goety:wicked_boline",
+  "category": "goety:mutations",
+  "advancement": "goety:goety/craft_unholy_robe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Dissidentes parecem ser tão devotos ao Nether que só obedecem a quem é altamente devoto a ele. Porém, vestir o conjunto Profano perto de um comerciante que esteja sob um bloco de Obsidiana Chorona fará o recém-convertido vê-lo como um mestre do Nether e obedecer aos seus comandos."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:maverick_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você também pode negociar com seu Servo Dissidente dando-lhe uma Esmeralda, sem precisar vestir o traje adequado para isso. Você também pode negociar com outros Servos Dissidentes, desde que seja aliado do mestre deles, se houver um, e esteja vestindo o traje apropriado."
+    }
+  ]
+}

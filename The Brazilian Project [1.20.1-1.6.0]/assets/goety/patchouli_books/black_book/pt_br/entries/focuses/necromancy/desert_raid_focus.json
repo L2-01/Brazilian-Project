@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Incursão do Deserto",
+  "icon": "goety_cataclysm:desert_raid_focus",
+  "category": "goety:cataclysm/focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você sentiu que os Koboletons podiam ser uma força poderosa de se comandar, então criou um feitiço que os invoca e os vincula à sua vontade."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/desert_raid_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/necro_staff)Cajado Necrótico$() invoca mais Koboletons de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:desert_raid_focus": 1
+  }
+}

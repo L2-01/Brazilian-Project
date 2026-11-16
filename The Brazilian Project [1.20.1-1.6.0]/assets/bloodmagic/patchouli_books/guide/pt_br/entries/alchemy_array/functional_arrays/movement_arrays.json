@@ -1,0 +1,20 @@
+{
+  "name": "Arranjo de Movimento",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os Arranjos de Movimento são um par de arranjos que lança jogadores, criaturas, itens, etc. numa direção específica. Um lançará os itens horizontalmente, enquanto o outro os lançará verticalmente."
+    },
+    {
+      "type": "bloodmagic:2x_functional_array",
+      "a.heading": "Arranjo de Velocidade",
+      "a.recipe": "bloodmagic:array/movement",
+      "a.image": "movementarray.png",
+      "b.heading": "Arranjo de Corrente Ascendente",
+      "b.recipe": "bloodmagic:array/updraft",
+      "b.image": "updraftarray.png"
+    }
+  ]
+}

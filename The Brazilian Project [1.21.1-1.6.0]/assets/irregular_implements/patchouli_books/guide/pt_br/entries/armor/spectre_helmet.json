@@ -1,0 +1,27 @@
+{
+    "category": "irregular_implements:armor",
+    "icon": "irregular_implements:spectre_helmet",
+    "name": "Armadura de Espectro",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Armadura de Espectro$() é equivalente à de Diamante, com maior durabilidade e encantabilidade.$(br2)Usar o conjunto completo também o torna levemente transparente!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:spectre_helmet"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:spectre_chestplate"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:spectre_leggings"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:spectre_boots"
+        }
+    ]
+}

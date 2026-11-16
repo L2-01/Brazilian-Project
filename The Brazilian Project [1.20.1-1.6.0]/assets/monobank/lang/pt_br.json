@@ -1,0 +1,43 @@
+{
+  "block.monobank.monobank": "Monobank",
+  "item.monobank.replacement_lock": "Fechadura de Substituição",
+
+  "monobank.filled_map.ruined_portal": "Mapa de Ruínas de Portal",
+
+  "monobank.tooltip.locked": "Trancado",
+  "monobank.tooltip.loot_table": "Tabela de Loot: %s",
+  "monobank.tooltip.combination_table": "Tabela de Combinação: %s",
+
+  "monobank.gui.monobank": "Monobank",
+  "monobank.gui.monobank.unlocking": "Destrancando %s",
+  "monobank.gui.monobank.lock_replacement": "Substituindo fechadura de %s",
+  "monobank.gui.monobank.lock_replacement.confirm.tooltip": "Substituir Fechadura",
+  "monobank.gui.monobank.count": "Quantidade: %s",
+  "monobank.gui.monobank.tooltip.ctrl_take_single": "CTRL: Pegar item único",
+  "monobank.gui.monobank.tooltip.ctrl_shift_take_single": "CTRL+SHIFT: Pegar todos os itens",
+  "monobank.gui.monobank.tooltip.owner": "Você é dono deste Monobank",
+  "monobank.gui.monobank.tooltip.break_in_attempted": "Alguém tentou abrir este Monobank sem sucesso",
+  "monobank.gui.monobank.tooltip.break_in_succeeded": "O Monobank foi aberto por alguém",
+
+  "monobank.message.lock_replaced": "A fechadura foi substituída",
+  "monobank.message.monobank.locking.monobank_is_locked": "Trancado. Tente destrancar com %s.",
+  "monobank.message.monobank.unlocking": "O Monobank está destrancando...",
+  "monobank.message.replacement_lock.cannot_replace_not_owner": "Não é possível substituir a fechadura deste Monobank.",
+  "monobank.message.replacement_lock.cannot_replace_when_locked": "Não é possível substituir a fechadura: o Monobank precisa estar destrancado primeiro.",
+  "monobank.message.thief.you_were_seen": "Você foi visto cometendo um crime.",
+
+  "monobank.advancement.monobank.title": "Uma Aposta Segura",
+  "monobank.advancement.monobank.description": "Obtenha um Monobank para guardar suas riquezas com segurança",
+  "monobank.advancement.unlock.title": "Se Alguém Tiver a Chave Certa",
+  "monobank.advancement.unlock.description": "Destranque o Monobank inserindo a combinação certa",
+  "monobank.advancement.replace_lock.title": "Fechadura Posta",
+  "monobank.advancement.replace_lock.description": "Substitua a fechadura de um Monobank",
+  "monobank.advancement.monobank_full.title": "Nadando em Riqueza",
+  "monobank.advancement.monobank_full.description": "Encha um Monobank até o máximo",
+
+  "monobank.subtitles.monobank.lock": "Monobank tranca",
+  "monobank.subtitles.monobank.unlock": "Monobank destranca",
+  "monobank.subtitles.monobank.click": "Fechadura do Monobank clica",
+  "monobank.subtitles.monobank.open": "Monobank abre",
+  "monobank.subtitles.monobank.close": "Monobank fecha"
+}

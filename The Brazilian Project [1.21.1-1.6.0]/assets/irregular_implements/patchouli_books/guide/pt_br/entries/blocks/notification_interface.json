@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:notification_interface",
+    "name": "Interface de Notificação",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Interface de Notificação$(), quando energizada, envia uma notificação configurável ao jogador que a colocou.$(br2)Você pode definir título, corpo e ícone em sua interface."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Administradores de servidor também podem usar o comando /ii notify para enviar notificações a jogadores."
+        }
+    ]
+}

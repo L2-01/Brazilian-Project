@@ -1,0 +1,16 @@
+{
+  "name": "Quadro Letal",
+  "icon": "complicated_bees:deadly_frame",
+  "category": "complicated_bees:frames",
+  "advancement": "complicated_bees:frame",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A pura aura necromântica que emana deste quadro pode matar a maioria das abelhas instantaneamente — muito útil para turbinar seus programas de reprodução."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:deadly_frame"
+    }
+  ]
+}

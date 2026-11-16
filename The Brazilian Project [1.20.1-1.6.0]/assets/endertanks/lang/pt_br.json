@@ -1,0 +1,58 @@
+{
+    "_comment": "--------------------------------------- EnderTanks en_us.json Localization ---------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.endertanks": "EnderTanks",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "error.endertanks.bucket.nolink1": "Não é possível vincular o balde, você não é dono deste tanque",
+    "error.endertanks.bucket.nolink2": "Não é possível vincular o balde, o dono do tanque é desconhecido",
+    "error.endertanks.bucket.nolink3": "Não é possível vincular o balde, você não está na mesma equipe",
+
+    "error.endertanks.tank.public.disabled": "Tanques públicos estão desativados, os tanques precisam de melhoria para uso",
+    "error.endertanks.tank.private.disabled": "A criação de tanques privados está desativada",
+    "error.endertanks.tank.team.disabled": "A criação de tanques de equipe está desativada",
+    "error.endertanks.tank.private.denied": "Somente o dono pode executar essa ação",
+    "error.endertanks.tank.team.denied": "Somente membros da equipe podem executar essa ação",
+    "error.endertanks.tank.upgrade_used": "Esse item de melhoria só pode ser aplicado uma vez por tanque",
+    "error.endertanks.bucket.public.disabled": "Baldes públicos estão desativados",
+    "error.endertanks.bucket.private.disabled": "A criação de baldes privados está desativada",
+    "error.endertanks.bucket.team.disabled": "A criação de baldes de equipe está desativada",
+
+    "info.endertanks.bucket.mode.normal": "§7Modo:§o Normal (Coletar, Agachar para Colocar)",
+    "info.endertanks.bucket.mode.invert": "§7Modo:§o Invertido (Colocar, Agachar para Coletar)",
+    "info.endertanks.bucket.mode.pickup": "§7Modo:§o Somente Coleta",
+    "info.endertanks.bucket.mode.place": "§7Modo:§o Somente Colocação",
+
+    "info.endertanks.bucket.header": "Balde",
+    "info.endertanks.tank.header": "Tanque",
+    "info.endertanks.tank.empty": "Vazio",
+    "info.endertanks.tank.public": "Uso Público",
+    "info.endertanks.tank.code": "Código:",
+    "info.endertanks.tank.capacity": "Capacidade do tanque melhorada para",
+    "info.endertanks.tank.pump.upgrade": "Bomba melhorada para",
+    "info.endertanks.tank.pump": "Bomba",
+
+    "_comment": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
+    "item.endertanks.bucket.public": "Balde de Ender",
+    "item.endertanks.bucket.private": "Balde de Ender",
+    "item.endertanks.bucket.team": "Balde de Ender",
+    "block.endertanks.tank.public": "Tanque de Ender",
+    "block.endertanks.tank.private": "Tanque de Ender",
+    "block.endertanks.tank.team": "Tanque de Ender",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.endertanks.server_data_missing": " §6⚠ §4Nenhum Dado de HUD Recebido do Servidor §6⚠",
+
+    "config.jade.plugin_endertanks.hud": "Ativar Plugin",
+    "config.jade.plugin_endertanks.hud.basic": "Dono e Código",
+    "config.jade.plugin_endertanks.hud.contents": "Conteúdos Contidos",
+    "config.jade.plugin_endertanks.hud.status": "Status da Bomba e Comparador",
+
+    "info.endertanks.tank.type.fluid": "§3§oFluido:§r",
+    "info.endertanks.tank.type.mekanism.gas": "§3§oGás Mekanism:§r",
+    "info.endertanks.tank.type.mekanism.infusion": "§3§oInfusão Mekanism:§r",
+    "info.endertanks.tank.type.mekanism.pigment": "§3§oPigmento Mekanism:§r",
+    "info.endertanks.tank.type.mekanism.slurry": "§3§oPolpa Mekanism:§r"
+}

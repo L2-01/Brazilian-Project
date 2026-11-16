@@ -1,0 +1,33 @@
+{
+  "name": "Favos e você",
+  "icon": "complicated_bees:comb",
+  "category": "complicated_bees:started",
+  "advancement": "complicated_bees:apiary",
+  "turnin": "complicated_bees:processing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mas como tirar o mel dos favos? Ele é pegajoso demais para ser extraído manualmente com limpeza, e você tem coisas MUITO melhores para fazer com seu tempo, com certeza. Apresentamos a Centrífuga: esta máquina gira as coisas muito, muito rápido, separando-as por densidade — neste caso, seus favos em mel, cera e outros possíveis extras."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:centrifuge",
+      "title": "A Forte Centrífuga",
+      "text": "$(o)Sem relação com quaisquer máquinas de nome semelhante."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "No entanto, essa rotação precisa de algo com um pouco mais de força do que o ar quente de coisas queimando. É aí que entra um Gerador de Fornalha — ao captar o ar quente das coisas queimando, você pode gerar energia! (ou, como outros preferem chamar, Redstone Flux, também conhecido como RF)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:furnace_generator",
+      "title": "O Astuto Gerador",
+      "text": "$(o)Capaz de ferver água!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Basta colocar um gerador de fornalha ao lado de uma centrífuga, dar-lhe combustível, e sua centrífuga estará funcionando rapidinho!$(br2)A maioria dos favos produz mel e cera, que têm seus usos — alguns favos, porém, produzem recursos especiais além desses."
+    }
+  ]
+}

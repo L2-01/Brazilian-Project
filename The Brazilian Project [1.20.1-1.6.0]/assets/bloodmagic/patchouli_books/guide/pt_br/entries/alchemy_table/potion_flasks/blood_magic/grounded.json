@@ -1,0 +1,20 @@
+{
+  "name": "Aterrado",
+  "icon": "minecraft:string",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Aterrado$() impede o alvo de pular. Nadar não é afetado, porém. $(br2)É feita a partir de uma poção de $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/jump_boost)Supersalto$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Aterrado (3:00)",
+      "a.recipe": "bloodmagic:flask/jump_to_grounded",
+      "b.heading": "Aterrado (8:00)",
+      "b.recipe": "bloodmagic:flask/length_grounded",
+      "c.heading": "Aterrado (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_grounded"
+    }
+  ]
+}

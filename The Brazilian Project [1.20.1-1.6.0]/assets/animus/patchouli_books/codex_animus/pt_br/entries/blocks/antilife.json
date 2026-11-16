@@ -1,0 +1,23 @@
+{
+  "name": "guide.animus.entry.antilife",
+  "icon": "animus:antilife",
+  "category": "animus:blocks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:antilife",
+      "text": "Uma substância corruptora que se propaga como uma praga, consumindo todos os blocos de um tipo específico. Criada usando o $(l:animus:sigils/sigil_consumption)Sigilo do Consumo$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mecânicas de Propagação",
+      "text": "$(bold)Conversão:$()$(br)A AntiVida se propaga para blocos adjacentes do mesmo tipo do bloco original convertido.$(br2)$(bold)Custo de LP:$()$(br)Cada propagação consome LP do jogador que a criou (configurável).$(br2)$(bold)Alcance:$()$(br)Propaga-se até 8 blocos da origem (configurável com o sigilo)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Sistema de Decaimento",
+      "text": "$(bold)Quebrando AntiVida:$()$(br)Quando qualquer bloco de AntiVida é quebrado, dispara uma reação de decaimento em cadeia.$(br2)$(li)Todos os blocos de AntiVida adjacentes começam a decair$(li)O decaimento se propaga para outra AntiVida$(li)Blocos decaídos são removidos$(br2)Isso previne expansão infinita e permite a limpeza.$(br2)$(bold)Blocos Protegidos:$() Não pode converter blocos com a tag $(#888888)animus:disallow_antilife$()."
+    }
+  ]
+}

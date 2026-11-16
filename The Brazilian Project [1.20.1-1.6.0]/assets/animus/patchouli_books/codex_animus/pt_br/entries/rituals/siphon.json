@@ -1,0 +1,22 @@
+{
+  "name": "guide.animus.entry.ritual_siphon",
+  "icon": "bloodmagic:masterritualstone",
+  "category": "animus:rituals",
+  "sortnum": 24,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Ritual da Sifão extrai fluidos do mundo abaixo e os deposita num tanque acima. Ele busca do centro para fora, drenando oceanos, lagos de lava ou qualquer fonte de fluido."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Configuração",
+      "text": "$(bold)Tanque:$() Coloque qualquer recipiente de fluido diretamente acima da pedra de ritual mestra.$(br2)$(bold)Ativação:$() 5.000 LP$(br)$(bold)Por Balde:$() 50 LP (configurável)$(br)$(bold)Alcance:$() 32 blocos na horizontal, 128 de profundidade (configurável)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Comportamento",
+      "text": "$(bold)Padrão de Busca:$() Começa diretamente abaixo do ritual, expande para fora em anéis.$(br2)$(bold)Substituição:$() Blocos de fluido extraídos são substituídos por $(thing)Bloco de AntiVida$() por padrão (configurável).$(br2)$(bold)Indicadores:$() Partículas de fumaça aparecem quando o tanque está cheio ou nenhum fluido é encontrado.$(br2)$(italic)A terra entrega seu sangue vital.$()"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Servo Esqueleto",
+  "icon": "minecraft:skeleton_skull",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esqueletos são um pouco mais inteligentes e rápidos que seus primos apodrecidos, mas ainda são básicos em suas funções."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os textos a seguir detalharão as variantes de esqueletos que um necromante pode invocar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pode-se invocar essas criaturas através de um $(l:focuses/necromancy/osseous_focus)Foco Ósseo$(), ou por um ritual que invoca um sem vida limitada."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_skeleton_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:skeleton_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Servos Esqueleto tentarão matar qualquer um que fira você ou qualquer criatura hostil próxima. Se invocados quando o invocador veste uma Capa Necrótica, suas flechas atravessam criaturas aliadas."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:stray_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Tentar invocar um Servo Esqueleto numa tundra fria exposta ao céu, ou invocar usando um $(l:crafts/frost_staff)Cajado de Gelo$(), gerará um Servo Errante em vez disso."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:mossy_skeleton_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Enquanto estiver num bioma de Selva, pode haver chance de invocar um Servo Esqueleto Musgoso em vez disso, 100%% se invocado com um $(l:crafts/staff/wild_staff)Cajado Selvagem$(). Suas flechas infligem Veneno, mas se o invocador vestir os $(l:crafts/garment/wild_robe)Mantos Selvagens$(), elas infligirão Veneno Ácido."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:sunken_skeleton_servant",
+      "scale": 0.95
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Sob o mar, os Esqueletos não só nadam, como também empunham bestas que disparam arpões que voam pela água melhor que flechas comuns."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:rattled_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Estar exposto a uma tempestade aberta dará chance de invocar um Servo Chacoalhado em vez disso, 100%% se invocado com um $(l:crafts/staff/storm_staff)Cajado de Tempestade$(). Suas flechas infligem Espasmos, e eles têm resistência a dano de ataques de choque ou relâmpago."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:skeleton_pillager"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar o feitiço num Posto dos Saqueadores invocará um Saqueador Esqueleto leal, que tem mais vida que Esqueletos comuns e empunha uma besta."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Servos Esqueleto podem aceitar qualquer Armadura, mas apenas Espadas/Arcos, ou seja, podem ser atacantes à distância ou corpo a corpo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Curiosamente, o feitiço não consegue invocar um Esqueleto-Wither leal quando conjurado dentro de uma Fortaleza do Nether. Os esqueletos carbonizados parecem deter grande poder mágico e uma grande lealdade ao seu lar para serem invocados frivolamente..."
+    },
+    {
+      "type": "patchouli:entity",
+      "advancement": "goety:goety/read_bygone_scroll",
+      "entity": "goety:wither_skeleton_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "goety:goety/read_bygone_scroll",
+      "text": "Após muita pesquisa, você encontrou um jeito de invocar um antigo habitante da Fortaleza e vinculá-lo à sua vontade. Eles infligem Wither no corpo a corpo e disparam flechas de fogo quando recebem um arco."
+    },
+    {
+      "type": "goety:ritual",
+      "advancement": "goety:goety/read_bygone_scroll",
+      "recipe": "goety:thrall/summon_wither_skeleton_thrall"
+    }
+  ]
+}

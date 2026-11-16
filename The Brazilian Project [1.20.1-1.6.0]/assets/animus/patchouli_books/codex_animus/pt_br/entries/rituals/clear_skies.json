@@ -1,0 +1,17 @@
+{
+  "name": "guide.animus.entry.imperfect_ritual_clear_skies",
+  "icon": "minecraft:glowstone",
+  "category": "animus:rituals",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um ritual imperfeito que limpa o clima e para chuva ou tempestades. Este ritual traz céus limpos por aproximadamente 5 minutos.$(br2)$(bold)Configuração:$()$(br)Coloque um Bloco de Pedra-luminosa em cima de uma Pedra de Ritual Imperfeita.$(br2)$(bold)Custo:$() 1.000 LP por uso$(br2)$(bold)Nota:$() O ritual não tem efeito persistente; ativa uma vez e completa imediatamente. A pedra pode ser reutilizada."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Ativação:$()$(br)1. Clique com o botão direito na Pedra de Ritual Imperfeita$(br)2. O clima limpa instantaneamente$(br)3. Chuva e trovoada param$(br)4. Céus limpos duram ~5 minutos$(br)5. A pedra permanece para reuso$(br2)$(bold)Aplicações:$()$(li)Pare a chuva durante tarefas importantes$(li)Limpe tempestades por segurança$(li)Prepare-se para trabalho ao ar livre$(br2)$(italic)Comande os próprios céus.$()"
+    }
+  ]
+}

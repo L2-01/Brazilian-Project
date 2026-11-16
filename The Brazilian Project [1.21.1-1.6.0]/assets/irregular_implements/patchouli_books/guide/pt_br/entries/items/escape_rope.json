@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:escape_rope",
+    "name": "Corda de Fuga",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Corda de Fuga$() pode ser usada para sair rapidamente de cavernas.$(br2)Segure o botão direito, e ela tentará encontrar um caminho até o bloco mais próximo que consiga ver o céu. Se um caminho for encontrado, você será teleportado instantaneamente para lá."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Se ela não encontrar uma localização válida, será largada aos seus pés."
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Ossuário de Sombra",
+  "icon": "goety:shade_ossuary",
+  "category": "goety:crafts/artifice",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ossos e crânios são, sem surpresa, bons em canalizar energias necróticas junto com pedra de sombra. Com o Foco Ósseo, você criou um ossuário capaz de invocar Servos Esqueletos leais sob demanda."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:shade/shade_ossuary"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O ossuário precisa que uma Farinha de Osso seja adicionada para invocar um Servo Esqueleto. Assim como no Ninho de Aranha, clicar no ninho com o botão direito usando uma Varinha ou Cajado fará com que ele só gere um servo se um alvo válido estiver perto dele. Agachado, porém, ele alternará entre o servo surgir protegendo o bloco ou seguindo o dono."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Dependendo do que a cerca, assim como nos $(l:rituals/dark_altar)Altares$(), o servo pode surgir como uma variante diferente do Esqueleto comum."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Esqueletos Submersos",
+      "text": "Requisitos: $(li)Ossário está submerso"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Errantes",
+      "text": "Requisitos: $(li)Ossário está localizado em um bioma nevado $(br)$(l)OU$()$() $(li)20 Neves de qualquer tipo $(li)8 Gelo de qualquer tipo"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Esqueletos Musgosos",
+      "text": "Requisitos: $(li)Ossário está localizado em uma Selva $(br)$(l)OU$()$() $(li)20 Trepadeiras $(li)8 Folhas"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Chacoalhados",
+      "text": "Requisitos: $(li)Ossário está exposto a uma tempestade ativa $(br)$(l)OU$()$() $(li)1 Para-Raios $(li)8 Blocos de Cobre"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Servos Saqueadores Esqueletos",
+      "text": "Requisitos: $(li)Ossário está localizado em um Posto de Saqueadores $(br)$(l)OU$()$() $(li)15 Troncos de Carvalho Escuro $(li)4 Abóboras Esculpidas ou Alvos"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "goety:goety/read_bygone_scroll",
+      "title": "Servos Esqueletos-Wither",
+      "text": "Requisitos: $(li)Ossário está localizado em uma Fortaleza do Nether $(br)$(l)OU$()$() $(li)32 Tijolos do Nether de qualquer tipo $(li)8 Fungos do Nether"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:shade_ossuary": 1
+  }
+}

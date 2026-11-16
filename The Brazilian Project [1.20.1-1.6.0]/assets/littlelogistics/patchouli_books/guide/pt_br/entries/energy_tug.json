@@ -1,0 +1,19 @@
+{
+    "name": "Rebocador a Energia",
+    "icon": "littlelogistics:energy_tug",
+    "category": "littlelogistics:vessels",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "littlelogistics:energy_tug",
+            "scale": 0.4,
+            "offset": 0.5,
+            "text": "Um rebocador movido a Forge Energy, pode ser carregado quando atracado com um $(l:vessel_charger)Carregador de Veículos$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:energy_tug",
+            "text": "O rebocador tem um espaço extra para um capacitor, útil se o rebocador ficar sem energia no meio do caminho e precisar ser recarregado."
+        }
+    ]
+}

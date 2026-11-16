@@ -1,0 +1,19 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:magic_bean",
+    "name": "Feijões Mágicos",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(d)Feijão Mágico Menor$()$(br2)Os $(d)Feijões Mágicos Menores$() podem ser plantados para criar um Pé de Feijão que cresce para cima até ser bloqueado por algo. Ele pode ser escalado como uma escada!$(br2)$(d)Feijão Mágico$()$(br2)O $(d)Feijão Mágico$() não-menor é uma versão muito mais poderosa. Eles crescem muito, muito mais rápido, e quebrarão (quase) qualquer bloco em seu caminho."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Quando ele alcança o topo do mundo (ou se não puder crescer mais), ele colocará uma $(d)Vagem de Feijão$() em seu topo. Quebre-a para coletar espólios raros!$(br2)O Feijão Mágico não pode ser fabricado. Em vez disso, pode ser encontrado em espólios de masmorra e em baús do $(l:irregular_implements:blocks/nature_core)Núcleo da Natureza$(/l)."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:lesser_magic_bean"
+        }
+    ]
+}

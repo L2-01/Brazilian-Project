@@ -1,0 +1,43 @@
+{
+  "gui.bloodmagicteams.binding_mode.title": "Vínculo da Rede de Almas",
+  "gui.bloodmagicteams.binding_mode.team": "Equipe: %s",
+  "gui.bloodmagicteams.binding_mode.personal": "Vínculo Pessoal",
+  "gui.bloodmagicteams.binding_mode.team_button": "Vínculo de Equipe",
+  "gui.bloodmagicteams.binding_mode.personal.tooltip": "Vincula à sua rede de almas pessoal",
+  "gui.bloodmagicteams.binding_mode.team.tooltip": "Vincula à rede de almas compartilhada da sua equipe",
+  "gui.bloodmagicteams.binding_mode.dont_ask": "Não perguntar novamente",
+  "gui.bloodmagicteams.binding_mode.dont_ask.tooltip": "Lembra esta escolha para vínculos futuros",
+  "gui.bloodmagicteams.binding_mode.reset_hint": "Use /bloodmagicteams reset para mudar",
+
+  "commands.bloodmagicteams.player_only": "Este comando só pode ser usado por jogadores",
+  "commands.bloodmagicteams.not_on_team": "Você não está numa equipe",
+  "commands.bloodmagicteams.invalid_team_id": "Formato de ID de equipe inválido",
+  "commands.bloodmagicteams.team_not_found": "Equipe não encontrada",
+  "commands.bloodmagicteams.set_self": "Modo de vínculo definido: Pessoal (todos os itens vincularão à sua rede de almas pessoal)",
+  "commands.bloodmagicteams.set_team": "Modo de vínculo definido: Equipe %s (todos os itens vincularão à rede de almas da sua equipe)",
+  "commands.bloodmagicteams.set_specific_team": "Modo de vínculo definido: Equipe %s (todos os itens vincularão à rede de almas desta equipe)",
+  "commands.bloodmagicteams.reset_success": "Preferências de vínculo redefinidas. Você será perguntado na próxima vez que vincular um item.",
+  "commands.bloodmagicteams.status_ask": "Modo de vínculo atual: Perguntar sempre",
+  "commands.bloodmagicteams.status_self": "Modo de vínculo atual: Pessoal (automático)",
+  "commands.bloodmagicteams.status_team": "Modo de vínculo atual: Equipe (automático)",
+  "commands.bloodmagicteams.status_specific_team": "Modo de vínculo atual: Equipe %s (automático)",
+
+  "tooltip.bloodmagicteams.team_bound": "Vínculo de Equipe: %s",
+  "tooltip.bloodmagicteams.personal_bound": "Vínculo Pessoal",
+  "bloodmagicteams.tooltip.team_bound": "[Vínculo de Equipe]",
+  "bloodmagicteams.tooltip.unknown_team": "Equipe Desconhecida",
+
+  "itemGroup.bloodmagicteams": "BloodMagic Teams",
+
+  "ftbteamsconfig.bloodmagicteams": "BloodMagic Teams",
+  "ftbteamsconfig.bloodmagicteams.binding_restriction": "Restrição de Vínculo",
+  "ftbteams.property.bloodmagicteams.binding_restriction": "Acesso ao Vínculo da Rede de Almas",
+  "ftbteams.property.bloodmagicteams.binding_restriction.tooltip": "Quem pode vincular itens à rede de almas da equipe",
+  "bloodmagicteams.binding_restriction.member": "Todos os Membros",
+  "bloodmagicteams.binding_restriction.officer": "Somente Oficiais",
+
+  "bloodmagicteams.error.not_officer": "Somente oficiais da equipe podem vincular à rede de almas desta equipe",
+
+  "bloodmagicteams.patchouli.book.name": "BloodMagic Teams Addon",
+  "bloodmagicteams.patchouli.book.landing": "Documentação da Rede de Almas por equipe"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Criando com Arranjos",
+  "icon": "bloodmagic:divinationsigil",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(1)Arranjos Alquímicos de Criação$() são uma das formas mais simples de arranjo. Esses arranjos inscrevem o $(item)item base$() no $(item)catalisador$(), transformando ambos num item útil (após uma pequena e bonita animação)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Embora alguns desses itens resultantes possam ser criados $(l:bloodmagic:alchemy_array/sigil/divination)usando ingredientes bem simples$(/l), outros exigem passos adicionais para criar itens úteis."
+    }
+  ]
+}

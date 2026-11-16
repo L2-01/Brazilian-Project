@@ -1,0 +1,962 @@
+{
+  "itemGroup.mcdw.weapons/melee": "MC Dungeons Weapons (Corpo a corpo)",
+  "itemGroup.mcdw.weapons/ranged": "MC Dungeons Weapons (Distância)",
+  "itemGroup.mcdw.weapons/shields": "MC Dungeons Weapons (Escudos)",
+  "itemGroup.mcdw.enchantments": "MC Dungeons Weapons (Encantamentos)",
+
+  "attribute.name.generic.mcdw.reach": "Alcance",
+  "attribute.name.generic.mcdw.attack_range": "Alcance de Ataque",
+
+  "item.mcdw.axe_anchor": "Âncora",
+  "item.mcdw.axe_encrusted_anchor": "Âncora Incrustada",
+
+  "item.mcdw.axe_axe": "Machado",
+  "item.mcdw.axe_firebrand": "Tizão",
+  "item.mcdw.axe_highland": "Machado das Terras Altas",
+
+  "item.mcdw.double_axe_cursed": "Machado Amaldiçoado",
+  "item.mcdw.double_axe_double": "Machado Duplo",
+  "item.mcdw.double_axe_whirlwind": "Redemoinho",
+
+  "item.mcdw.dagger_dagger": "Adaga",
+  "item.mcdw.dagger_fangs_of_frost": "Presas de Geada",
+  "item.mcdw.dagger_moon": "Adaga Lunar",
+
+  "item.mcdw.dagger_tempest_knife": "Faca da Tempestade",
+  "item.mcdw.dagger_chill_gale_knife": "Faca do Vendaval Gélido",
+  "item.mcdw.dagger_resolute_tempest_knife": "Faca da Tempestade Resoluta",
+
+  "item.mcdw.dagger_shear_dagger": "Adaga de Tosquiar",
+
+  "item.mcdw.dagger_backstabber": "Apunhalador",
+  "item.mcdw.dagger_swift_striker": "Golpeador Ligeiro",
+
+  "item.mcdw.dagger_void_touched_blade": "Lâmina Tocada pelo Vazio",
+  "item.mcdw.dagger_the_beginning": "O Início",
+  "item.mcdw.dagger_the_end": "O End",
+
+  "item.mcdw.soul_dagger_soul_knife": "Faca de Almas",
+  "item.mcdw.soul_dagger_eternal_knife": "Faca Eterna",
+  "item.mcdw.soul_dagger_truthseeker": "Buscadora da Verdade",
+
+  "item.mcdw.hammer_mace": "Maça",
+  "item.mcdw.hammer_flail": "Mangual",
+  "item.mcdw.hammer_suns_grace": "Graça do Sol",
+
+  "item.mcdw.hammer_great_hammer": "Martelo Grande",
+  "item.mcdw.hammer_bonehead": "Martelo Cabeça-Óssea",
+  "item.mcdw.hammer_gravity": "Martelo da Gravidade",
+  "item.mcdw.hammer_stormlander": "Terranque",
+
+  "item.mcdw.hammer_boneclub": "Clava de Ossos",
+  "item.mcdw.hammer_bone_cudgel": "Cacete de Ossos",
+
+  "item.mcdw.pick_diamond_pickaxe_var": "Picareta de Diamante",
+  "item.mcdw.pick_mountaineer_pick": "Picareta de Alpinista",
+  "item.mcdw.pick_howling_pick": "Picareta Uivante",
+  "item.mcdw.pick_hailing_pinnacle": "Pináculo Aclamado",
+
+  "item.mcdw.sickle_sickle": "Foice",
+  "item.mcdw.sickle_nightmares_bite": "Mordida do Pesadelo",
+  "item.mcdw.sickle_last_laugh_gold": "A Última Risada",
+  "item.mcdw.sickle_last_laugh_silver": "A Última Risada",
+
+  "item.mcdw.scythe_frost_scythe": "Foice de Geada",
+  "item.mcdw.scythe_jailors_scythe": "Foice do Carcereiro",
+  "item.mcdw.scythe_soul_scythe": "Foice de Almas",
+  "item.mcdw.scythe_skull_scythe": "Foice de Crânios",
+
+  "item.mcdw.spear_spear": "Lança",
+  "item.mcdw.spear_fortune": "Lança da Fortuna",
+  "item.mcdw.spear_whispering_spear": "Lança Sussurrante",
+
+  "item.mcdw.glaive_glaive": "Glaive",
+  "item.mcdw.glaive_grave_bane": "Ruína dos Túmulos",
+  "item.mcdw.glaive_venom_glaive": "Glaive de Veneno",
+  "item.mcdw.glaive_cackling_broom": "Vassoura Cacarejante",
+
+  "item.mcdw.staff_battlestaff": "Cajado de Batalha",
+  "item.mcdw.staff_battlestaff_of_terror": "Cajado de Batalha do Terror",
+  "item.mcdw.staff_growing_staff": "Cajado Crescente",
+
+  "item.mcdw.sword_iron_sword_var": "Espada",
+  "item.mcdw.sword_diamond_sword_var": "Espada de Diamante",
+  "item.mcdw.sword_hawkbrand": "Gavião",
+  "item.mcdw.sword_sinister": "Espada Sinistra",
+
+  "item.mcdw.sword_rapier": "Florete",
+  "item.mcdw.sword_beestinger": "Ferrão de Abelha",
+  "item.mcdw.sword_freezing_foil": "Florete Congelante",
+
+  "item.mcdw.sword_broadsword": "Espada Larga",
+  "item.mcdw.sword_claymore": "Claymore",
+  "item.mcdw.sword_frost_slayer": "Exterminadora de Geada",
+  "item.mcdw.sword_great_axeblade": "Grande Lâmina de Machado",
+  "item.mcdw.sword_heartstealer": "Ladra de Corações",
+  "item.mcdw.sword_obsidian_claymore": "Claymore de Obsidiana",
+  "item.mcdw.sword_the_starless_night": "A Noite sem Estrelas",
+
+  "item.mcdw.sword_cutlass": "Alfanje",
+  "item.mcdw.sword_dancers_sword": "Espada da Dançarina",
+  "item.mcdw.sword_nameless_blade": "Lâmina sem Nome",
+  "item.mcdw.sword_sparkler": "Cintilante",
+
+  "item.mcdw.sword_katana": "Katana",
+  "item.mcdw.sword_masters_katana": "Katana do Mestre",
+  "item.mcdw.sword_dark_katana": "Katana das Trevas",
+
+  "item.mcdw.sword_broken_sawblade": "Lâmina de Serra Quebrada",
+  "item.mcdw.sword_mechanized_sawblade": "Lâmina de Serra Mecanizada",
+
+  "item.mcdw.sword_coral_blade": "Lâmina de Coral",
+  "item.mcdw.sword_sponge_striker": "Espada de Esponja",
+
+  "item.mcdw.whip_whip": "Chicote",
+  "item.mcdw.whip_vine_whip": "Chicote de Trepadeiras",
+
+  "item.mcdw.gauntlet_fighters_bindings": "Amarras do Lutador",
+  "item.mcdw.gauntlet_gauntlet": "Manopla",
+  "item.mcdw.gauntlet_maulers": "Esmagadoras",
+  "item.mcdw.gauntlet_soul_fists": "Punhos de Almas",
+
+  "item.mcdw.bow_bonebow": "Arco de Ossos",
+  "item.mcdw.bow_haunted_bow": "Arco Assombrado",
+  "item.mcdw.bow_twin_bow": "Arco Gêmeo",
+
+  "item.mcdw.bow_longbow": "Arco Longo",
+  "item.mcdw.bow_guardian_bow": "Arco do Guardião",
+  "item.mcdw.bow_red_snake": "Serpente Vermelha",
+
+  "item.mcdw.bow_shortbow": "Arco Curto",
+  "item.mcdw.bow_love_spell_bow": "Arco de Feitiço de Amor",
+  "item.mcdw.bow_mechanical_shortbow": "Arco Curto Mecânico",
+  "item.mcdw.bow_purple_storm": "A Tempestade Púrpura",
+
+  "item.mcdw.bow_trickbow": "Arco Trapaceiro",
+  "item.mcdw.bow_sugar_rush": "Explosão de Açúcar",
+  "item.mcdw.bow_green_menace": "A Ameaça Verde",
+  "item.mcdw.bow_pink_scoundrel": "A Canalha Rosa",
+
+  "item.mcdw.bow_power_bow": "Arco de Poder",
+  "item.mcdw.bow_elite_power_bow": "Arco de Poder de Elite",
+  "item.mcdw.bow_phantom_bow": "Arco Fantasma",
+  "item.mcdw.bow_sabrewing": "Asa de Sabre",
+
+  "item.mcdw.bow_hunting_bow": "Arco de Caça",
+  "item.mcdw.bow_ancient_bow": "Arco Ancestral",
+  "item.mcdw.bow_hunters_promise": "Promessa do Caçador",
+  "item.mcdw.bow_masters_bow": "Arco do Mestre",
+
+  "item.mcdw.bow_soul_bow": "Arco de Almas",
+  "item.mcdw.bow_lost_souls": "Arco das Almas Perdidas",
+  "item.mcdw.bow_nocturnal_bow": "Arco Noturno",
+  "item.mcdw.bow_shivering_bow": "Arco Trêmulo",
+
+  "item.mcdw.bow_snow_bow": "Arco de Neve",
+  "item.mcdw.bow_web_bow": "Arco de Teias",
+  "item.mcdw.bow_winters_touch": "Toque do Inverno",
+
+  "item.mcdw.bow_wind_bow": "Arco do Vento",
+  "item.mcdw.bow_burst_gale_bow": "Arco do Vendaval Explosivo",
+  "item.mcdw.bow_echo_of_the_valley": "Eco do Vale",
+
+  "item.mcdw.bow_twisting_vine_bow": "Arco de Trepadeiras Retorcidas",
+  "item.mcdw.bow_weeping_vine_bow": "Arco de Trepadeiras Lamentadoras",
+
+  "item.mcdw.bow_bubble_bow": "Arco de Bolhas",
+  "item.mcdw.bow_bubble_burster": "Estoura-Bolhas",
+  "item.mcdw.bow_gloopy": "Arco Meloso",
+
+  "item.mcdw.bow_void_bow": "Arco do Vazio",
+  "item.mcdw.bow_call_of_the_void": "Chamado do Vazio",
+
+  "item.mcdw.crossbow_burst_crossbow": "Besta de Rajada",
+  "item.mcdw.crossbow_corrupted_crossbow": "Besta Corrompida",
+  "item.mcdw.crossbow_soul_hunter_crossbow": "Besta Caça-Almas",
+
+  "item.mcdw.crossbow_cog_crossbow": "Besta de Engrenagens",
+  "item.mcdw.crossbow_pride_of_the_piglins": "Orgulho dos Piglins",
+
+  "item.mcdw.crossbow_azure_seeker": "Buscadora Celeste",
+  "item.mcdw.crossbow_the_slicer": "A Fatiadora",
+
+  "item.mcdw.crossbow_dual_crossbow": "Besta Dupla",
+  "item.mcdw.crossbow_baby_crossbow": "Besta Bebê",
+  "item.mcdw.crossbow_spellbound_crossbow": "Besta Encantada",
+
+  "item.mcdw.crossbow_exploding_crossbow": "Besta Explosiva",
+  "item.mcdw.crossbow_firebolt_thrower": "Lança-Raios de Fogo",
+  "item.mcdw.crossbow_imploding_crossbow": "Besta Implosiva",
+
+  "item.mcdw.crossbow_harpoon_crossbow": "Besta de Arpões",
+  "item.mcdw.crossbow_nautical_crossbow": "Besta Náutica",
+
+  "item.mcdw.crossbow_heavy_crossbow": "Besta Pesada",
+  "item.mcdw.crossbow_doom_crossbow": "Besta da Perdição",
+  "item.mcdw.crossbow_slayer_crossbow": "Besta do Exterminador",
+
+  "item.mcdw.crossbow_rapid_crossbow": "Besta Rápida",
+  "item.mcdw.crossbow_auto_crossbow": "Besta Automática",
+  "item.mcdw.crossbow_butterfly_crossbow": "Besta Borboleta",
+
+  "item.mcdw.crossbow_scatter_crossbow": "Besta Dispersora",
+  "item.mcdw.crossbow_harp_crossbow": "Besta Harpa",
+  "item.mcdw.crossbow_lightning_harp_crossbow": "Besta Harpa de Raios",
+
+  "item.mcdw.crossbow_shadow_crossbow": "Besta das Sombras",
+  "item.mcdw.crossbow_shrieking_crossbow": "Besta Guinchante",
+  "item.mcdw.crossbow_veiled_crossbow": "Besta Velada",
+
+  "item.mcdw.crossbow_soul_crossbow": "Besta de Almas",
+  "item.mcdw.crossbow_feral_soul_crossbow": "Besta de Almas Selvagens",
+  "item.mcdw.crossbow_voidcaller_crossbow": "Chamadora do Vazio",
+
+  "item.mcdw.shield_royal_guard": "Escudo da Guarda Real",
+  "item.mcdw.shield_tower_guard": "Escudo da Guarda da Torre",
+  "item.mcdw.shield_vanguard": "Escudo de Vanguarda",
+
+  "item.mcdw.item_bee_stinger": "Ferrão de Abelha",
+  "item.mcdw.item_bee_stinger.tooltip": "A ponta afiada da abelha.",
+  "item.mcdw.moreinfo.tooltip": "Segure [SHIFT] para mais informações",
+  "item.mcdw.item_bee_stinger.tooltip2": "Sinto que poderia usar isso para alguma coisa.",
+
+  "effect.mcdw.accelerate": "Acelerar",
+  "effect.mcdw.dynamo": "Dínamo",
+  "effect.mcdw.pain_cycle": "Ciclo de Dor",
+  "effect.mcdw.shadow_form": "Forma Sombria",
+
+  "enchantment.mcdw.accelerate": "Acelerar",
+  "enchantment.mcdw.ambush": "Emboscada",
+  "enchantment.mcdw.anima_conduit": "Conduto de Ânima",
+  "enchantment.mcdw.bonus_shot": "Disparo Bônus",
+  "enchantment.mcdw.burst_bowstring": "Corda Explosiva",
+  "enchantment.mcdw.busy_bee": "Abelha Ocupada",
+  "enchantment.mcdw.chain_reaction": "Reação em Cadeia",
+  "enchantment.mcdw.chains": "Correntes",
+  "enchantment.mcdw.charge": "Carga",
+  "enchantment.mcdw.cobweb_shot": "Disparo de Teia",
+  "enchantment.mcdw.committed": "Comprometido",
+  "enchantment.mcdw.critical_hit": "Acerto Crítico",
+  "enchantment.mcdw.dipping_poison": "Veneno Mergulhante",
+  "enchantment.mcdw.dynamo": "Dínamo",
+  "enchantment.mcdw.echo": "Eco",
+  "enchantment.mcdw.enigma_resonator": "Ressonador de Enigmas",
+  "enchantment.mcdw.exploding": "Explosivo",
+  "enchantment.mcdw.freezing": "Congelamento",
+  "enchantment.mcdw.fuse_shot": "Disparo de Pavio",
+  "enchantment.mcdw.gravity": "Gravidade",
+  "enchantment.mcdw.growing": "Crescimento",
+  "enchantment.mcdw.guarding_strike": "Golpe Guardião",
+  "enchantment.mcdw.illagers_bane": "Ruína dos Illagers",
+  "enchantment.mcdw.jungle_poison": "Veneno da Selva",
+  "enchantment.mcdw.leeching": "Sanguessuga",
+  "enchantment.mcdw.levitation_shot": "Disparo de Levitação",
+  "enchantment.mcdw.multi_shot": "Multidisparo",
+  "enchantment.mcdw.overcharge": "Sobrecarga",
+  "enchantment.mcdw.pain_cycle": "Ciclo de Dor",
+  "enchantment.mcdw.phantoms_mark": "Marca do Fantasma",
+  "enchantment.mcdw.poison_cloud": "Nuvem de Veneno",
+  "enchantment.mcdw.prospector": "Garimpeiro",
+  "enchantment.mcdw.radiance": "Resplendor",
+  "enchantment.mcdw.radiance_shot": "Disparo Resplandecente",
+  "enchantment.mcdw.rampaging": "Desenfreado",
+  "enchantment.mcdw.refreshment": "Refresco",
+  "enchantment.mcdw.refreshment_shot": "Disparo Refrescante",
+  "enchantment.mcdw.replenish": "Reabastecimento",
+  "enchantment.mcdw.ricochet": "Ricochete",
+  "enchantment.mcdw.rushdown": "Investida",
+  "enchantment.mcdw.shadow_barb": "Farpa Sombria",
+  "enchantment.mcdw.shadow_shot": "Disparo Sombrio",
+  "enchantment.mcdw.shared_pain": "Dor Compartilhada",
+  "enchantment.mcdw.shockwave": "Onda de Choque",
+  "enchantment.mcdw.smiting": "Smite",
+  "enchantment.mcdw.soul_devourer": "Devorador de Almas",
+  "enchantment.mcdw.soul_siphon": "Sifão de Almas",
+  "enchantment.mcdw.stunning": "Atordoamento",
+  "enchantment.mcdw.swirling": "Redemoinho",
+  "enchantment.mcdw.tempo_theft": "Roubo de Ritmo",
+  "enchantment.mcdw.thundering": "Trovejante",
+  "enchantment.mcdw.void_shot": "Disparo do Vazio",
+  "enchantment.mcdw.void_strike": "Golpe do Vazio",
+  "enchantment.mcdw.weakening": "Enfraquecimento",
+  "enchantment.mcdw.wild_rage": "Fúria Selvagem",
+
+  "subtitles.mcdw.echo_sound": "Encantamento Eco cortando",
+
+  "tooltip_info_item.mcdw.axe_1": "O machado é uma arma",
+  "tooltip_info_item.mcdw.axe_2": "eficaz, preferida pelos",
+  "tooltip_info_item.mcdw.axe_3": "implacáveis Vindicadores",
+  "tooltip_info_item.mcdw.axe_4": "do exército do",
+  "tooltip_info_item.mcdw.axe_5": "Arqui-Illager.",
+
+  "tooltip_info_item.mcdw.firebrand_1": "Forjada nas profundezas mais",
+  "tooltip_info_item.mcdw.firebrand_2": "Sombrias da Forja Ardente e",
+  "tooltip_info_item.mcdw.firebrand_3": "encantada com poderes",
+  "tooltip_info_item.mcdw.firebrand_4": "ígneos.",
+
+  "tooltip_info_item.mcdw.highland_1": "Forjada com perícia e arma",
+  "tooltip_info_item.mcdw.highland_2": "de guerra polida, o Machado das",
+  "tooltip_info_item.mcdw.highland_3": "Terras Altas também faz um",
+  "tooltip_info_item.mcdw.highland_4": "destemido coçador de costas.",
+
+  "tooltip_info_item.mcdw.anchor_1": "Aqueles fortes o bastante para",
+  "tooltip_info_item.mcdw.anchor_2": "empunhar a Âncora em batalha",
+  "tooltip_info_item.mcdw.anchor_3": "seguem a tradição de lendários",
+  "tooltip_info_item.mcdw.anchor_4": "guerreiros marinheiros.",
+
+  "tooltip_info_item.mcdw.encrusted_anchor_1": "Esta Âncora Incrustada foi",
+  "tooltip_info_item.mcdw.encrusted_anchor_2": "perdida no mar há muito tempo e",
+  "tooltip_info_item.mcdw.encrusted_anchor_3": "tornou-se dura e corrosiva",
+  "tooltip_info_item.mcdw.encrusted_anchor_4": "durante suas eras de abandono.",
+
+  "tooltip_info_item.mcdw.claymore_1": "Uma espada maciça que parece",
+  "tooltip_info_item.mcdw.claymore_2": "impossivelmente pesada, mas repousa",
+  "tooltip_info_item.mcdw.claymore_3": "com leveza nas mãos de um",
+  "tooltip_info_item.mcdw.claymore_4": "guerreiro justo.",
+
+  "tooltip_info_item.mcdw.frost_slayer_1": "A lendária Exterminadora de Geada",
+  "tooltip_info_item.mcdw.frost_slayer_2": "retorna ao campo de batalha apenas",
+  "tooltip_info_item.mcdw.frost_slayer_3": "nos dias mais sombrios e frios",
+  "tooltip_info_item.mcdw.frost_slayer_4": "do inverno.",
+
+  "tooltip_info_item.mcdw.broadsword_1": "Somente quem tem a força",
+  "tooltip_info_item.mcdw.broadsword_2": "de um campeão e o coração",
+  "tooltip_info_item.mcdw.broadsword_3": "de um herói pode carregar esta",
+  "tooltip_info_item.mcdw.broadsword_4": "lâmina maciça.",
+
+  "tooltip_info_item.mcdw.great_axeblade_1": "Um ferreiro sortudo transformou",
+  "tooltip_info_item.mcdw.great_axeblade_2": "um erro de oficina em uma",
+  "tooltip_info_item.mcdw.great_axeblade_3": "maravilha de batalha, fundindo",
+  "tooltip_info_item.mcdw.great_axeblade_4": "duas armas em algo",
+  "tooltip_info_item.mcdw.great_axeblade_5": "novo.",
+
+  "tooltip_info_item.mcdw.heartstealer_1": "Presenteada a um dos generais",
+  "tooltip_info_item.mcdw.heartstealer_2": "mais distintos do Arqui-Illager",
+  "tooltip_info_item.mcdw.heartstealer_3": "pela conquista da Costa das Lulas -",
+  "tooltip_info_item.mcdw.heartstealer_4": "esta lâmina rúnica é imbuída",
+  "tooltip_info_item.mcdw.heartstealer_5": "de feitiçaria sombria.",
+
+  "tooltip_info_item.mcdw.obsidian_claymore_1": "Esta lâmina maciça fende até as",
+  "tooltip_info_item.mcdw.obsidian_claymore_2": "cascos de shulker mais grossas com",
+  "tooltip_info_item.mcdw.obsidian_claymore_3": "estilo e facilidade.",
+
+  "tooltip_info_item.mcdw.the_starless_night_1": "A Noite Sem Estrelas é assombrada",
+  "tooltip_info_item.mcdw.the_starless_night_2": "por ecos de dor que permanecem",
+  "tooltip_info_item.mcdw.the_starless_night_3": "dentro da lâmina negra como breu.",
+
+  "tooltip_info_item.mcdw.cutlass_1": "Esta lâmina curva, empunhada pelos",
+  "tooltip_info_item.mcdw.cutlass_2": "Guerreiros da Costa das Lulas,",
+  "tooltip_info_item.mcdw.cutlass_3": "exige mão firme em batalha.",
+
+  "tooltip_info_item.mcdw.dancers_sword_1": "Guerreiros que veem a batalha como",
+  "tooltip_info_item.mcdw.dancers_sword_2": "uma dança com a morte preferem espadas de lâmina dupla.",
+
+  "tooltip_info_item.mcdw.nameless_blade_1": "A história desta lâmina mortal foi",
+  "tooltip_info_item.mcdw.nameless_blade_2": "perdida nas areias infinitas do tempo.",
+
+  "tooltip_info_item.mcdw.sparkler_1": "A Cintilante ilumina a festa",
+  "tooltip_info_item.mcdw.sparkler_2": "enquanto corta a escuridão.",
+
+  "tooltip_info_item.mcdw.katana_1": "Uma lâmina digna de guerreiros e",
+  "tooltip_info_item.mcdw.katana_2": "lutadores experts, sua lâmina é",
+  "tooltip_info_item.mcdw.katana_3": "forjada para causar dano preciso.",
+
+  "tooltip_info_item.mcdw.masters_katana_1": "A Katana do Mestre existiu ao",
+  "tooltip_info_item.mcdw.masters_katana_2": "longo das eras, aparecendo",
+  "tooltip_info_item.mcdw.masters_katana_3": "a heróis no momento certo.",
+
+  "tooltip_info_item.mcdw.dark_katana_1": "Uma lâmina que não descansará até",
+  "tooltip_info_item.mcdw.dark_katana_2": "que a batalha seja vencida.",
+
+  "tooltip_info_item.mcdw.rapier_1": "O florete, uma lâmina ágil e",
+  "tooltip_info_item.mcdw.rapier_2": "estreita, golpeia com ferocidade rápida.",
+
+  "tooltip_info_item.mcdw.beestinger_1": "O Ferrão de Abelha, uma lâmina",
+  "tooltip_info_item.mcdw.beestinger_2": "ligeira inspirada no ferrão da abelha,",
+  "tooltip_info_item.mcdw.beestinger_3": "pode atrair abelhas amigáveis à",
+  "tooltip_info_item.mcdw.beestinger_4": "briga para lutar ao seu lado.",
+
+  "tooltip_info_item.mcdw.freezing_foil_1": "Esta lâmina fina como agulha é",
+  "tooltip_info_item.mcdw.freezing_foil_2": "fria ao toque e",
+  "tooltip_info_item.mcdw.freezing_foil_3": "resolve qualquer corte rápido.",
+
+  "tooltip_info_item.mcdw.truthseeker_1": "O carcereiro de Highblock Keep",
+  "tooltip_info_item.mcdw.truthseeker_2": "mantinha esta lâmina desagradável",
+  "tooltip_info_item.mcdw.truthseeker_3": "ao lado durante interrogatórios.",
+
+  "tooltip_info_item.mcdw.diamond_sword_var_1": "A Espada de Diamante é a verdadeira",
+  "tooltip_info_item.mcdw.diamond_sword_var_2": "marca de um herói e de um",
+  "tooltip_info_item.mcdw.diamond_sword_var_3": "aventureiro realizado.",
+
+  "tooltip_info_item.mcdw.iron_sword_var_1": "Uma lâmina robusta e confiável.",
+
+  "tooltip_info_item.mcdw.hawkbrand_1": "O Gavião é a",
+  "tooltip_info_item.mcdw.hawkbrand_2": "espada lendária de guerreiros",
+  "tooltip_info_item.mcdw.hawkbrand_3": "provados.",
+
+  "tooltip_info_item.mcdw.sinister_1": "A Espada Sinistra, atraída",
+  "tooltip_info_item.mcdw.sinister_2": "por quem enfrenta as noites",
+  "tooltip_info_item.mcdw.sinister_3": "mais arrepiantes, corta",
+  "tooltip_info_item.mcdw.sinister_4": "a noite com um uivo.",
+
+  "tooltip_info_item.mcdw.broken_sawblade_1": "A Lâmina de Serra Quebrada foi",
+  "tooltip_info_item.mcdw.broken_sawblade_2": "devastada pelo tempo, mas ainda",
+  "tooltip_info_item.mcdw.broken_sawblade_3": "causa dano considerável.",
+
+  "tooltip_info_item.mcdw.mechanized_sawblade_1": "A Lâmina de Serra Mecanizada ainda",
+  "tooltip_info_item.mcdw.mechanized_sawblade_2": "brilha com os fogos do",
+  "tooltip_info_item.mcdw.mechanized_sawblade_3": "Nether, onde foi forjada.",
+
+  "tooltip_info_item.mcdw.coral_blade_1": "A Lâmina de Coral corta",
+  "tooltip_info_item.mcdw.coral_blade_2": "inimigos com precisão",
+  "tooltip_info_item.mcdw.coral_blade_3": "feroz.",
+
+  "tooltip_info_item.mcdw.sponge_striker_1": "Esta lâmina pode parecer sem cor",
+  "tooltip_info_item.mcdw.sponge_striker_2": "e sem vida, mas absorve",
+  "tooltip_info_item.mcdw.sponge_striker_3": "energia em combate e a expulsa",
+  "tooltip_info_item.mcdw.sponge_striker_4": "numa explosão poderosa.",
+
+  "tooltip_info_item.mcdw.double_1": "Uma arma devastadora digna de",
+  "tooltip_info_item.mcdw.double_2": "lutadores bárbaros.",
+
+  "tooltip_info_item.mcdw.cursed_1": "Este machado amaldiçoado e",
+  "tooltip_info_item.mcdw.cursed_2": "venenoso deixa suas vítimas doentes",
+  "tooltip_info_item.mcdw.cursed_3": "por anos com apenas um",
+  "tooltip_info_item.mcdw.cursed_4": "arranhão.",
+
+  "tooltip_info_item.mcdw.whirlwind_1": "O Redemoinho, forjado durante uma",
+  "tooltip_info_item.mcdw.whirlwind_2": "tempestade de vento épica, é um",
+  "tooltip_info_item.mcdw.whirlwind_3": "machado de lâmina dupla que levita levemente.",
+
+  "tooltip_info_item.mcdw.fighters_bindings_1": "Feitas nas selvas além das",
+  "tooltip_info_item.mcdw.fighters_bindings_2": "montanhas, estas manoplas foram",
+  "tooltip_info_item.mcdw.fighters_bindings_3": "usadas por guerreiros por séculos.",
+
+  "tooltip_info_item.mcdw.gauntlet_1": "As manoplas remetem a um",
+  "tooltip_info_item.mcdw.gauntlet_2": "estilo antigo de combate corpo a corpo.",
+
+  "tooltip_info_item.mcdw.maulers_1": "Estas armas semelhantes a garras,",
+  "tooltip_info_item.mcdw.maulers_2": "empunhadas por antigos soldados Illagers,",
+  "tooltip_info_item.mcdw.maulers_3": "são selvagens em batalha.",
+
+  "tooltip_info_item.mcdw.soul_fists_1": "Os Punhos de Almas são manoplas",
+  "tooltip_info_item.mcdw.soul_fists_2": "revestidas de grandes gemas, cada",
+  "tooltip_info_item.mcdw.soul_fists_3": "uma contendo uma alma poderosa.",
+
+  "tooltip_info_item.mcdw.dagger_1": "Adagas são a arma dos",
+  "tooltip_info_item.mcdw.dagger_2": "covardes — ou assim dizem.",
+
+  "tooltip_info_item.mcdw.fangs_of_frost_1": "Estas aclamadas adagas gêmeas",
+  "tooltip_info_item.mcdw.fangs_of_frost_2": "das montanhas do norte",
+  "tooltip_info_item.mcdw.fangs_of_frost_3": "são conhecidas por congelar",
+  "tooltip_info_item.mcdw.fangs_of_frost_4": "seus inimigos em gelo sólido.",
+
+  "tooltip_info_item.mcdw.moon_1": "Estas lâminas curvas brilham",
+  "tooltip_info_item.mcdw.moon_2": "como a lua crescente numa",
+  "tooltip_info_item.mcdw.moon_3": "noite escura.",
+
+  "tooltip_info_item.mcdw.shear_dagger_1": "Até o mais simples dos fazendeiros",
+  "tooltip_info_item.mcdw.shear_dagger_2": "Consegue empunhar estas Adagas de",
+  "tooltip_info_item.mcdw.shear_dagger_3": "Tosquiar com resultados selvagens.",
+
+  "tooltip_info_item.mcdw.backstabber_1": "A lâmina preferida de ladrões",
+  "tooltip_info_item.mcdw.backstabber_2": "e assassinos, o Apunhalador",
+  "tooltip_info_item.mcdw.backstabber_3": "é indispensável na mochila de qualquer trapaceiro.",
+
+  "tooltip_info_item.mcdw.swift_striker_1": "Uma lâmina para quem sabe que",
+  "tooltip_info_item.mcdw.swift_striker_2": "o caminho mais certo à vitória é",
+  "tooltip_info_item.mcdw.swift_striker_3": "golpear sem ser visto.",
+
+  "tooltip_info_item.mcdw.void_touched_blade_1": "Esta Lâmina é imbuída de um",
+  "tooltip_info_item.mcdw.void_touched_blade_2": "propósito perturbador após incontáveis",
+  "tooltip_info_item.mcdw.void_touched_blade_3": "eras presa no End.",
+
+  "tooltip_info_item.mcdw.the_beginning_1": "Forjada pelos sobreviventes de uma",
+  "tooltip_info_item.mcdw.the_beginning_2": "expedição condenada ao End, esta lâmina e",
+  "tooltip_info_item.mcdw.the_beginning_3": "sua gêmea, o Fim, carregam segredos sombrios.",
+
+  "tooltip_info_item.mcdw.the_end_1": "Forjada pelos sobreviventes de uma",
+  "tooltip_info_item.mcdw.the_end_2": "expedição condenada ao End, esta lâmina e",
+  "tooltip_info_item.mcdw.the_end_3": "sua gêmea, o Início, carregam segredos sombrios.",
+
+  "tooltip_info_item.mcdw.soul_knife_1": "Uma faca cerimonial que usa",
+  "tooltip_info_item.mcdw.soul_knife_2": "energia mágica para guardar a fúria",
+  "tooltip_info_item.mcdw.soul_knife_3": "das almas dentro de sua lâmina.",
+
+  "tooltip_info_item.mcdw.eternal_knife_1": "Uma aura perturbadora cerca esta",
+  "tooltip_info_item.mcdw.eternal_knife_2": "faca, como se ela existisse por",
+  "tooltip_info_item.mcdw.eternal_knife_3": "toda a eternidade e nos sobrevivesse.",
+
+  "tooltip_info_item.mcdw.glaive_1": "A glaive, empunhada pelos servos",
+  "tooltip_info_item.mcdw.glaive_2": "do Inominável, é uma arma com",
+  "tooltip_info_item.mcdw.glaive_3": "estilo e poder.",
+
+  "tooltip_info_item.mcdw.venom_glaive_1": "Uma nuvem tóxica parece seguir a",
+  "tooltip_info_item.mcdw.venom_glaive_2": "Glaive de Veneno por onde ela vai...",
+
+  "tooltip_info_item.mcdw.grave_bane_1": "Uma relíquia de eras sombrias;",
+  "tooltip_info_item.mcdw.grave_bane_2": "esta glaive irradia energia mágica",
+  "tooltip_info_item.mcdw.grave_bane_3": "potente para afastar os mortos-vivos.",
+
+  "tooltip_info_item.mcdw.cackling_broom_1": "Varra seus inimigos dos pés",
+  "tooltip_info_item.mcdw.cackling_broom_2": "com a Vassoura Cacarejante.",
+
+  "tooltip_info_item.mcdw.spear_1": "A lança, com seu longo alcance",
+  "tooltip_info_item.mcdw.spear_2": "e poderoso raio de ação, é uma",
+  "tooltip_info_item.mcdw.spear_3": "escolha de arma sólida.",
+
+  "tooltip_info_item.mcdw.fortune_1": "Uma lança vigiada por almas",
+  "tooltip_info_item.mcdw.fortune_2": "sortudas, trazendo sorte a",
+  "tooltip_info_item.mcdw.fortune_3": "quem a empunha.",
+
+  "tooltip_info_item.mcdw.whispering_spear_1": "A lenda diz que esta lança",
+  "tooltip_info_item.mcdw.whispering_spear_2": "amaldiçoada é atormentada por uma alma",
+  "tooltip_info_item.mcdw.whispering_spear_3": "que controla a mente de quem a empunha.",
+
+  "tooltip_info_item.mcdw.mace_1": "A Maça é uma ferramenta brutal de",
+  "tooltip_info_item.mcdw.mace_2": "guerra e o que lhe falta em sutileza,",
+  "tooltip_info_item.mcdw.mace_3": "ela compensa em poder.",
+
+  "tooltip_info_item.mcdw.flail_1": "Esta arma antiga inflige",
+  "tooltip_info_item.mcdw.flail_2": "grave dano contundente a quem",
+  "tooltip_info_item.mcdw.flail_3": "não consegue desviar da bola de metal mortal.",
+
+  "tooltip_info_item.mcdw.suns_grace_1": "Esta maça, gravada com runas",
+  "tooltip_info_item.mcdw.suns_grace_2": "secretas de cura, concede poderes restauradores potentes.",
+
+  "tooltip_info_item.mcdw.great_hammer_1": "Ferreiros e soldados igualmente usam",
+  "tooltip_info_item.mcdw.great_hammer_2": "o Martelo Grande por sua força",
+  "tooltip_info_item.mcdw.great_hammer_3": "na forja e na batalha.",
+
+  "tooltip_info_item.mcdw.bonehead_1": "Feito à semelhança de um",
+  "tooltip_info_item.mcdw.bonehead_2": "velho conhecido, este martelo puxa",
+  "tooltip_info_item.mcdw.bonehead_3": "seus oponentes em direção à sua",
+  "tooltip_info_item.mcdw.bonehead_4": "perdição.",
+
+  "tooltip_info_item.mcdw.gravity_1": "Um martelo, encrustado com um cristal que",
+  "tooltip_info_item.mcdw.gravity_2": "domina o poder da gravidade, que é",
+  "tooltip_info_item.mcdw.gravity_3": "incrivelmente poderoso",
+
+  "tooltip_info_item.mcdw.stormlander_1": "O Terranque, encantado com o poder",
+  "tooltip_info_item.mcdw.stormlander_2": "da tempestade furiosa, é um tesouro",
+  "tooltip_info_item.mcdw.stormlander_3": "dos Illagers.",
+
+  "tooltip_info_item.mcdw.boneclub_1": "Quem empunha uma Clava de Ossos prefere",
+  "tooltip_info_item.mcdw.boneclub_2": "uma abordagem menos sutil para resolver problemas.",
+
+  "tooltip_info_item.mcdw.bone_cudgel_1": "O Cacete de Ossos é velho o bastante",
+  "tooltip_info_item.mcdw.bone_cudgel_2": "para ser considerado um tesouro antigo,",
+  "tooltip_info_item.mcdw.bone_cudgel_3": "mas ainda ameaçador até para os padrões modernos.",
+
+  "tooltip_info_item.mcdw.diamond_pickaxe_var_1": "O diamante é um dos materiais",
+  "tooltip_info_item.mcdw.diamond_pickaxe_var_2": "mais duráveis, sendo uma excelente",
+  "tooltip_info_item.mcdw.diamond_pickaxe_var_3": "escolha para uma picareta.",
+
+  "tooltip_info_item.mcdw.soul_scythe_1": "Ceifadora cruel de almas, a Foice",
+  "tooltip_info_item.mcdw.soul_scythe_2": "de Almas é impiedosa em seu",
+  "tooltip_info_item.mcdw.soul_scythe_3": "trabalho.",
+
+  "tooltip_info_item.mcdw.frost_scythe_1": "A Foice de Geada é uma lâmina",
+  "tooltip_info_item.mcdw.frost_scythe_2": "(quase) indestrutível, gélida",
+  "tooltip_info_item.mcdw.frost_scythe_3": "ao toque e que nunca",
+  "tooltip_info_item.mcdw.frost_scythe_4": "parece derreter",
+
+  "tooltip_info_item.mcdw.jailors_scythe_1": "Esta foice pertenceu ao terror",
+  "tooltip_info_item.mcdw.jailors_scythe_2": "de Highblock Keep, o Carcereiro.",
+
+  "tooltip_info_item.mcdw.skull_scythe_1": "Não pergunte de que criatura",
+  "tooltip_info_item.mcdw.skull_scythe_2": "antinatural vieram os ossos usados nesta arma.",
+  "tooltip_info_item.mcdw.skull_scythe_3": "Você não quer saber.",
+
+  "tooltip_info_item.mcdw.sickle_1": "Uma arma cerimonial oriunda",
+  "tooltip_info_item.mcdw.sickle_2": "da mesma região do",
+  "tooltip_info_item.mcdw.sickle_3": "Templo do Deserto.",
+
+  "tooltip_info_item.mcdw.last_laugh_gold_1": "Risadas estranhas e distorcidas",
+  "tooltip_info_item.mcdw.last_laugh_gold_2": "parecem sussurrar destas",
+  "tooltip_info_item.mcdw.last_laugh_gold_3": "foices de aspecto ameaçador.",
+
+  "tooltip_info_item.mcdw.last_laugh_silver_1": "Risadas estranhas e distorcidas",
+  "tooltip_info_item.mcdw.last_laugh_silver_2": "parecem sussurrar destas",
+  "tooltip_info_item.mcdw.last_laugh_silver_3": "foices de aspecto ameaçador.",
+
+  "tooltip_info_item.mcdw.nightmares_bite_1": "As lâminas gêmeas da Mordida",
+  "tooltip_info_item.mcdw.nightmares_bite_2": "do Pesadelo gotejam veneno mortal,",
+  "tooltip_info_item.mcdw.nightmares_bite_3": "ainda potente após todos esses anos.",
+
+  "tooltip_info_item.mcdw.battlestaff_1": "O cajado de batalha é um cajado",
+  "tooltip_info_item.mcdw.battlestaff_2": "perfeitamente equilibrado, pronto",
+  "tooltip_info_item.mcdw.battlestaff_3": "para qualquer batalha.",
+
+  "tooltip_info_item.mcdw.battlestaff_of_terror_1": "Este cajado subjuga seu",
+  "tooltip_info_item.mcdw.battlestaff_of_terror_2": "alvo em batalha com",
+  "tooltip_info_item.mcdw.battlestaff_of_terror_3": "efeito explosivo.",
+
+  "tooltip_info_item.mcdw.growing_staff_1": "Um cajado que cresce e muda",
+  "tooltip_info_item.mcdw.growing_staff_2": "Enquanto ataca, o Cajado Crescente",
+  "tooltip_info_item.mcdw.growing_staff_3": "é imprevisível e poderoso.",
+
+  "tooltip_info_item.mcdw.whip_1": "Um chicote feito de corda resistente,",
+  "tooltip_info_item.mcdw.whip_2": "muito perigoso nas mãos",
+  "tooltip_info_item.mcdw.whip_3": "certas.",
+
+  "tooltip_info_item.mcdw.vine_whip_1": "Um chicote resistente feito de",
+  "tooltip_info_item.mcdw.vine_whip_2": "trepadeiras grossas e cheias de espinhos, capaz",
+  "tooltip_info_item.mcdw.vine_whip_3": "de envenenar tudo o que toca.",
+  "tooltip_info_item.mcdw.vine_whip_4": "Cuidado para não se",
+  "tooltip_info_item.mcdw.vine_whip_5": "arranhar.",
+
+  "tooltip_info_item.mcdw.tempest_knife_1": "Esta faca fatia",
+  "tooltip_info_item.mcdw.tempest_knife_2": "inimigos como ventos que cortam",
+  "tooltip_info_item.mcdw.tempest_knife_3": "entre os picos das montanhas.",
+
+  "tooltip_info_item.mcdw.resolute_tempest_knife_1": "Passada por nômades que vagam",
+  "tooltip_info_item.mcdw.resolute_tempest_knife_2": "pelos picos das montanhas, esta faca",
+  "tooltip_info_item.mcdw.resolute_tempest_knife_3": "foi usada em incontáveis batalhas.",
+
+  "tooltip_info_item.mcdw.chill_gale_knife_1": "Criada do gelo que nunca derrete",
+  "tooltip_info_item.mcdw.chill_gale_knife_2": "no topo dos picos das montanhas, esta",
+  "tooltip_info_item.mcdw.chill_gale_knife_3": "faca é eternamente gélida ao toque.",
+
+  "tooltip_info_item.mcdw.ancient_bow_1": "O Arco Ancestral ainda é tão",
+  "tooltip_info_item.mcdw.ancient_bow_2": "vigoroso quanto no dia em que foi encordado.",
+
+  "tooltip_info_item.mcdw.bonebow_1": "O Arco de Ossos é o orgulho de Pastos",
+  "tooltip_info_item.mcdw.bonebow_2": "de Abóbora, forjado dentro dos muros",
+  "tooltip_info_item.mcdw.bonebow_3": "de sua humilde aldeia.",
+
+  "tooltip_info_item.mcdw.lost_souls_1": "Este arco, feito de ossos amaldiçoados,",
+  "tooltip_info_item.mcdw.lost_souls_2": "arranca dos vivos suas",
+  "tooltip_info_item.mcdw.lost_souls_3": "próprias almas.",
+
+  "tooltip_info_item.mcdw.elite_power_bow_1": "O segredo da construção do Arco de",
+  "tooltip_info_item.mcdw.elite_power_bow_2": "Poder de Elite foi",
+  "tooltip_info_item.mcdw.elite_power_bow_3": "perdido sem deixar rastro.",
+
+  "tooltip_info_item.mcdw.guardian_bow_1": "Forjado de coral fossilizado,",
+  "tooltip_info_item.mcdw.guardian_bow_2": "o Arco do Guardião é um remanescente",
+  "tooltip_info_item.mcdw.guardian_bow_3": "de civilizações afundadas de eras perdidas.",
+
+  "tooltip_info_item.mcdw.haunted_bow_1": "Que horror indescritível! Os",
+  "tooltip_info_item.mcdw.haunted_bow_2": "tentáculos rastejantes deste arco",
+  "tooltip_info_item.mcdw.haunted_bow_3": "buscam o Vazio incognoscível.",
+
+  "tooltip_info_item.mcdw.hunters_promise_1": "Este arco encantado aprofunda o",
+  "tooltip_info_item.mcdw.hunters_promise_2": "vínculo entre o caçador e",
+  "tooltip_info_item.mcdw.hunters_promise_3": "seu fiel companheiro animal.",
+  "tooltip_ench_item.mcdw.hunters_promise_1": "Companheiro do Caçador",
+
+  "tooltip_info_item.mcdw.hunting_bow_1": "Este arco encantado aprofunda o",
+  "tooltip_info_item.mcdw.hunting_bow_2": "vínculo entre o caçador e",
+  "tooltip_info_item.mcdw.hunting_bow_3": "seu fiel companheiro animal.",
+
+  "tooltip_info_item.mcdw.longbow_1": "O Arco Longo, forjado para caça",
+  "tooltip_info_item.mcdw.longbow_2": "em vez de batalha, ainda é",
+  "tooltip_info_item.mcdw.longbow_3": "útil numa luta.",
+
+  "tooltip_info_item.mcdw.love_spell_bow_1": "O amor pode ser mágico, mas quando",
+  "tooltip_info_item.mcdw.love_spell_bow_2": "se torna poderoso demais, pode virar",
+  "tooltip_info_item.mcdw.love_spell_bow_3": "um frenesi.",
+
+  "tooltip_info_item.mcdw.masters_bow_1": "O arco preferido dos mestres",
+  "tooltip_info_item.mcdw.masters_bow_2": "do arco e flecha pela Superfície,",
+  "tooltip_info_item.mcdw.masters_bow_3": "por mais simples que pareça.",
+
+  "tooltip_info_item.mcdw.mechanical_shortbow_1": "Um desenvolvimento inédito em",
+  "tooltip_info_item.mcdw.mechanical_shortbow_2": "tecnologia de disparo rápido, este",
+  "tooltip_info_item.mcdw.mechanical_shortbow_3": "arco dá um soco veloz.",
+
+  "tooltip_info_item.mcdw.nocturnal_bow_1": "As almas presas ao arco guiam",
+  "tooltip_info_item.mcdw.nocturnal_bow_2": "as flechas até seus alvos e",
+  "tooltip_info_item.mcdw.nocturnal_bow_3": "o fazem brilhar levemente.",
+
+  "tooltip_info_item.mcdw.power_bow_1": "A questão do que torna o",
+  "tooltip_info_item.mcdw.power_bow_2": "Arco de Poder tão poderoso intrigou",
+  "tooltip_info_item.mcdw.power_bow_3": "as mentes dos sábios por eras.",
+
+  "tooltip_info_item.mcdw.purple_storm_1": "Chamada de Tempestade Púrpura por",
+  "tooltip_info_item.mcdw.purple_storm_2": "sua cor encantadora, este arco",
+  "tooltip_info_item.mcdw.purple_storm_3": "lendário dá um soco poderoso.",
+
+  "tooltip_info_item.mcdw.red_snake_1": "A Serpente Vermelha irradia um",
+  "tooltip_info_item.mcdw.red_snake_2": "calor explosivo, sendo um risco",
+  "tooltip_info_item.mcdw.red_snake_3": "mortal de incêndio nas secas terras do deserto.",
+
+  "tooltip_info_item.mcdw.sabrewing_1": "Este arco, feito para um campeão",
+  "tooltip_info_item.mcdw.sabrewing_2": "há muito perdido, assenta bem nas mãos",
+  "tooltip_info_item.mcdw.sabrewing_3": "de quem busca justiça.",
+
+  "tooltip_info_item.mcdw.shortbow_1": "A arma preferida de ladrões",
+  "tooltip_info_item.mcdw.shortbow_2": "e trapaceiros, o Arco Curto é ágil",
+  "tooltip_info_item.mcdw.shortbow_3": "e letal a curta distância.",
+
+  "tooltip_info_item.mcdw.snow_bow_1": "Quem enfrenta o Arco de Neve em",
+  "tooltip_info_item.mcdw.snow_bow_2": "batalha também deve se preparar para",
+  "tooltip_info_item.mcdw.snow_bow_3": "o frio dos ventos gélidos do inverno.",
+
+  "tooltip_info_item.mcdw.soul_bow_1": "O Arco de Almas ferve com toda",
+  "tooltip_info_item.mcdw.soul_bow_2": "a beleza e fúria",
+  "tooltip_info_item.mcdw.soul_bow_3": "de um Obsessor em ataque.",
+
+  "tooltip_info_item.mcdw.green_menace_1": "As flechas disparadas da Ameaça",
+  "tooltip_info_item.mcdw.green_menace_2": "Verde sempre acertam o alvo",
+  "tooltip_info_item.mcdw.green_menace_3": "desejado, mesmo na névoa mais densa.",
+
+  "tooltip_info_item.mcdw.pink_scoundrel_1": "Seria um erro mortal",
+  "tooltip_info_item.mcdw.pink_scoundrel_2": "subestimar o poder da",
+  "tooltip_info_item.mcdw.pink_scoundrel_3": "Canalha Rosa.",
+
+  "tooltip_info_item.mcdw.trickbow_1": "Um arco elegante que parece",
+  "tooltip_info_item.mcdw.trickbow_2": "nunca errar seu alvo.",
+
+  "tooltip_info_item.mcdw.sugar_rush_1": "Este arco cor de doce tem",
+  "tooltip_info_item.mcdw.sugar_rush_2": "uma mordida surpreendentemente amarga.",
+
+  "tooltip_info_item.mcdw.twin_bow_1": "O Arco Gêmeo é o campeão",
+  "tooltip_info_item.mcdw.twin_bow_2": "do herói que se vê",
+  "tooltip_info_item.mcdw.twin_bow_3": "em menor número e sozinho.",
+
+  "tooltip_info_item.mcdw.winters_touch_1": "As flechas disparadas deste arco",
+  "tooltip_info_item.mcdw.winters_touch_2": "lendário dizem ser carregadas",
+  "tooltip_info_item.mcdw.winters_touch_3": "pelos próprios ventos de inverno.",
+
+  "tooltip_info_item.mcdw.shivering_bow_1": "O Arco Trêmulo perfura até",
+  "tooltip_info_item.mcdw.shivering_bow_2": "o gelo mais antigo e lança um",
+  "tooltip_info_item.mcdw.shivering_bow_3": "calafrio no coração de qualquer inimigo.",
+
+  "tooltip_info_item.mcdw.wind_bow_1": "Um arco hipnotizante que captura",
+  "tooltip_info_item.mcdw.wind_bow_2": "o poder do vento para disparar",
+  "tooltip_info_item.mcdw.wind_bow_3": "poderosas Flechas de Vendaval.",
+
+  "tooltip_info_item.mcdw.echo_of_the_valley_1": "Este arco invoca os ventos",
+  "tooltip_info_item.mcdw.echo_of_the_valley_2": "retorcidos do vale oculto onde",
+  "tooltip_info_item.mcdw.echo_of_the_valley_3": "foi encordado pela primeira vez.",
+
+  "tooltip_info_item.mcdw.burst_gale_bow_1": "Um arco infundido com a força",
+  "tooltip_info_item.mcdw.burst_gale_bow_2": "de um vento revolto que pode",
+  "tooltip_info_item.mcdw.burst_gale_bow_3": "irromper num instante.",
+
+  "tooltip_info_item.mcdw.twisting_vine_bow_1": "Este arco se contorce em suas",
+  "tooltip_info_item.mcdw.twisting_vine_bow_2": "mãos como se tentasse enrolar",
+  "tooltip_info_item.mcdw.twisting_vine_bow_3": "suas gavinhas em tudo",
+  "tooltip_info_item.mcdw.twisting_vine_bow_4": "em seu caminho.",
+
+  "tooltip_info_item.mcdw.weeping_vine_bow_1": "As trepadeiras tóxicas do Arco de",
+  "tooltip_info_item.mcdw.weeping_vine_bow_2": "Trepadeiras Lamentadoras criam uma névoa",
+  "tooltip_info_item.mcdw.weeping_vine_bow_3": "venenosa no campo de batalha.",
+
+  "tooltip_info_item.mcdw.bubble_bow_1": "Deixe seus problemas flutuarem",
+  "tooltip_info_item.mcdw.bubble_bow_2": "para longe com o Arco de Bolhas, que",
+  "tooltip_info_item.mcdw.bubble_bow_3": "sela seu alvo numa bolha",
+  "tooltip_info_item.mcdw.bubble_bow_4": "com um disparo carregado.",
+
+  "tooltip_info_item.mcdw.bubble_burster_1": "O Estoura-Bolhas cria um",
+  "tooltip_info_item.mcdw.bubble_burster_2": "efeito em cadeia de encrenca borbulhante",
+  "tooltip_info_item.mcdw.bubble_burster_3": "para seus inimigos.",
+
+  "tooltip_info_item.mcdw.gloopy_bow_1": "Prenda seus inimigos numa estranha",
+  "tooltip_info_item.mcdw.gloopy_bow_2": "bolha xaropada e mostre a eles",
+  "tooltip_info_item.mcdw.gloopy_bow_3": "quem manda!",
+
+  "tooltip_info_item.mcdw.void_bow_1": "Quando você dedilha a corda do",
+  "tooltip_info_item.mcdw.void_bow_2": "Arco do Vazio, um silêncio inquietante",
+  "tooltip_info_item.mcdw.void_bow_3": "reverbera pelo campo de batalha.",
+
+  "tooltip_info_item.mcdw.call_of_the_void_1": "Você sente o Vazio sussurrando",
+  "tooltip_info_item.mcdw.call_of_the_void_2": "de dentro deste arco, mas",
+  "tooltip_info_item.mcdw.call_of_the_void_3": "por trás desse som há outra voz",
+  "tooltip_info_item.mcdw.call_of_the_void_4": "na escuridão.",
+
+  "tooltip_info_item.mcdw.phantom_bow_1": "As flechas que alçam voo do",
+  "tooltip_info_item.mcdw.phantom_bow_2": "Arco Fantasma mergulham sobre",
+  "tooltip_info_item.mcdw.phantom_bow_3": "seus inimigos como o",
+  "tooltip_info_item.mcdw.phantom_bow_4": "homônimo aterrorizante do arco.",
+
+  "tooltip_info_item.mcdw.web_bow_1": "Forjado das teias de",
+  "tooltip_info_item.mcdw.web_bow_2": "aranhas possantes, o Arco de Teias",
+  "tooltip_info_item.mcdw.web_bow_3": "vai tirar você de qualquer",
+  "tooltip_info_item.mcdw.web_bow_4": "situação pegajosa.",
+
+  "tooltip_info_item.mcdw.auto_crossbow_1": "O Arqui-Illager disse que o projeto",
+  "tooltip_info_item.mcdw.auto_crossbow_2": "desta besta poderosa veio",
+  "tooltip_info_item.mcdw.auto_crossbow_3": "a ele numa visão.",
+
+  "tooltip_info_item.mcdw.azure_seeker_1": "Se a cor azul tivesse um som,",
+  "tooltip_info_item.mcdw.azure_seeker_2": "seriam os disparos feitos pela",
+  "tooltip_info_item.mcdw.azure_seeker_3": "Buscadora Celeste.",
+
+  "tooltip_info_item.mcdw.baby_crossbow_1": "Enquanto alguns discutem a fofa",
+  "tooltip_info_item.mcdw.baby_crossbow_2": "Besta Bebê, estas armas mortais",
+  "tooltip_info_item.mcdw.baby_crossbow_3": "crescem e viram pesos-pesados.",
+
+  "tooltip_info_item.mcdw.burst_crossbow_1": "Uma besta tática preferida por",
+  "tooltip_info_item.mcdw.burst_crossbow_2": "guerreiros e caçadores igualmente, a Besta de Rajada",
+  "tooltip_info_item.mcdw.burst_crossbow_3": "é uma ferramenta poderosa para qualquer herói.",
+
+  "tooltip_info_item.mcdw.butterfly_crossbow_1": "Esta besta se move mais rápido que",
+  "tooltip_info_item.mcdw.butterfly_crossbow_2": "asas em voo e derruba",
+  "tooltip_info_item.mcdw.butterfly_crossbow_3": "inimigos antes que vejam o virote.",
+
+  "tooltip_info_item.mcdw.cog_crossbow_1": "As engrenagens desta antiga Besta",
+  "tooltip_info_item.mcdw.cog_crossbow_2": "de Engrenagens ainda giram suavemente,",
+  "tooltip_info_item.mcdw.cog_crossbow_3": "tornando-a uma escolha de arma confiável",
+  "tooltip_info_item.mcdw.cog_crossbow_4": "até hoje.",
+
+  "tooltip_info_item.mcdw.corrupted_crossbow_1": "Esta besta tem um poder sutil mas",
+  "tooltip_info_item.mcdw.corrupted_crossbow_2": "corruptor, adequado para ladrões",
+  "tooltip_info_item.mcdw.corrupted_crossbow_3": "e guerreiros ágeis igualmente.",
+
+  "tooltip_info_item.mcdw.doom_crossbow_1": "Muitos achavam que a Besta da Perdição",
+  "tooltip_info_item.mcdw.doom_crossbow_2": "era só um mito, mas desta vez",
+  "tooltip_info_item.mcdw.doom_crossbow_3": "os rumores se provaram verdadeiros.",
+
+  "tooltip_info_item.mcdw.dual_crossbow_1": "Bestas duplas são a escolha perfeita",
+  "tooltip_info_item.mcdw.dual_crossbow_2": "para um guerreiro de reflexos rápidos numa",
+  "tooltip_info_item.mcdw.dual_crossbow_3": "batalha acelerada.",
+
+  "tooltip_info_item.mcdw.exploding_crossbow_1": "O poder da TNT fundido com o",
+  "tooltip_info_item.mcdw.exploding_crossbow_2": "mais recente design de arquearia resultou",
+  "tooltip_info_item.mcdw.exploding_crossbow_3": "nesta besta devastadora.",
+
+  "tooltip_info_item.mcdw.feral_soul_crossbow_1": "Se você ouvir de perto, consegue ouvir as",
+  "tooltip_info_item.mcdw.feral_soul_crossbow_2": "almas dentro da besta,",
+  "tooltip_info_item.mcdw.feral_soul_crossbow_3": "geralmente ridicularizando você.",
+
+  "tooltip_info_item.mcdw.firebolt_thrower_1": "O Lança-Raios de Fogo lança o caos",
+  "tooltip_info_item.mcdw.firebolt_thrower_2": "numa reação em cadeia de flechas explosivas.",
+
+  "tooltip_info_item.mcdw.harp_crossbow_1": "Metade instrumento musical e totalmente",
+  "tooltip_info_item.mcdw.harp_crossbow_2": "arma mortal, a Besta Harpa",
+  "tooltip_info_item.mcdw.harp_crossbow_3": "é a alma da festa.",
+
+  "tooltip_info_item.mcdw.harpoon_crossbow_1": "A Besta de Arpões dispara arpões",
+  "tooltip_info_item.mcdw.harpoon_crossbow_2": "que cortam vento e água com",
+  "tooltip_info_item.mcdw.harpoon_crossbow_3": "poder devastador.",
+
+  "tooltip_info_item.mcdw.heavy_crossbow_1": "A besta pesada é uma ameaça",
+  "tooltip_info_item.mcdw.heavy_crossbow_2": "causadora de dano e um perigo real",
+  "tooltip_info_item.mcdw.heavy_crossbow_3": "à distância.",
+
+  "tooltip_info_item.mcdw.imploding_crossbow_1": "A Besta Implosiva foi",
+  "tooltip_info_item.mcdw.imploding_crossbow_2": "magicamente ajustada para maximizar",
+  "tooltip_info_item.mcdw.imploding_crossbow_3": "o impacto da explosão.",
+
+  "tooltip_info_item.mcdw.lightning_harp_crossbow_1": "Adicionar energia elétrica a esta",
+  "tooltip_info_item.mcdw.lightning_harp_crossbow_2": "besta mudou o som do",
+  "tooltip_info_item.mcdw.lightning_harp_crossbow_3": "disparo drasticamente.",
+
+  "tooltip_info_item.mcdw.nautical_crossbow_1": "Por que arpões num só inimigo",
+  "tooltip_info_item.mcdw.nautical_crossbow_2": "quando se pode arpoar vários!",
+
+  "tooltip_info_item.mcdw.pride_of_the_piglins_1": "Encontrada nos confins",
+  "tooltip_info_item.mcdw.pride_of_the_piglins_2": "do Nether, o Orgulho dos",
+  "tooltip_info_item.mcdw.pride_of_the_piglins_3": "Piglins é vintage e voraz.",
+
+  "tooltip_info_item.mcdw.rapid_crossbow_1": "Nova tecnologia de recarga ajuda esta",
+  "tooltip_info_item.mcdw.rapid_crossbow_2": "besta a disparar mais rapidamente que",
+  "tooltip_info_item.mcdw.rapid_crossbow_3": "as que vieram antes dela.",
+
+  "tooltip_info_item.mcdw.scatter_crossbow_1": "Esta besta, modificada para segurar e disparar",
+  "tooltip_info_item.mcdw.scatter_crossbow_2": "múltiplos virotes, também é um",
+  "tooltip_info_item.mcdw.scatter_crossbow_3": "instrumento musical meio decente.",
+
+  "tooltip_info_item.mcdw.shadow_crossbow_1": "Quem deseja usar a Besta das",
+  "tooltip_info_item.mcdw.shadow_crossbow_2": "Sombras deve treinar em escuridão",
+  "tooltip_info_item.mcdw.shadow_crossbow_3": "total antes de empunhá-la.",
+
+  "tooltip_info_item.mcdw.shrieking_crossbow_1": "Ao empunhar esta arma inquietante,",
+  "tooltip_info_item.mcdw.shrieking_crossbow_2": "você pode se ver",
+  "tooltip_info_item.mcdw.shrieking_crossbow_3": "sucumbindo à escuridão e",
+  "tooltip_info_item.mcdw.shrieking_crossbow_4": "tornando-se um com a noite.",
+
+  "tooltip_info_item.mcdw.slayer_crossbow_1": "A Besta do Exterminador é a relíquia",
+  "tooltip_info_item.mcdw.slayer_crossbow_2": "preciada de muitos caçadores lendários.",
+
+  "tooltip_info_item.mcdw.the_slicer_1": "O ápice da travessa engenharia",
+  "tooltip_info_item.mcdw.the_slicer_2": "Illager, a famosa Fatiadora",
+  "tooltip_info_item.mcdw.the_slicer_3": "foi projetada para disparar virotes que",
+  "tooltip_info_item.mcdw.the_slicer_4": "perfuram até as mais",
+  "tooltip_info_item.mcdw.the_slicer_5": "grossas armaduras.",
+
+  "tooltip_info_item.mcdw.soul_crossbow_1": "A Besta de Almas foi forjada pelos",
+  "tooltip_info_item.mcdw.soul_crossbow_2": "Misteriosos Invocadores e Encantadores",
+  "tooltip_info_item.mcdw.soul_crossbow_3": "das Mansões da Floresta.",
+
+  "tooltip_info_item.mcdw.soul_hunter_crossbow_1": "Esta besta foi feita numa forja",
+  "tooltip_info_item.mcdw.soul_hunter_crossbow_2": "rica em almas e prospera quando há",
+  "tooltip_info_item.mcdw.soul_hunter_crossbow_3": "muitas almas por perto.",
+
+  "tooltip_info_item.mcdw.spellbound_crossbow_1": "Inimigos encantados são especialmente",
+  "tooltip_info_item.mcdw.spellbound_crossbow_2": "vulneráveis à magia desta besta.",
+
+  "tooltip_info_item.mcdw.veiled_crossbow_1": "A Besta Velada envolve o portador",
+  "tooltip_info_item.mcdw.veiled_crossbow_2": "em sombra, perfeita para quem prefere",
+  "tooltip_info_item.mcdw.veiled_crossbow_3": "passar despercebido (e invicto).",
+
+  "tooltip_info_item.mcdw.voidcaller_crossbow_1": "Esta arma clama pelas almas",
+  "tooltip_info_item.mcdw.voidcaller_crossbow_2": "presas entre este mundo e",
+  "tooltip_info_item.mcdw.voidcaller_crossbow_3": "o próximo.",
+
+  "tooltip_info_item.mcdw.gap": " ",
+  "tooltip_note_item.mcdw.dualwield": "Empunhadura Dupla",
+  "tooltip_note_item.mcdw.longbow": "Arco Longo",
+  "tooltip_note_item.mcdw.shortbow": "Arco Curto",
+
+  "death.attack.electricShock": "%s foi eletrocutado até a morte.",
+
+  "enchantment.mcdw.accelerate.desc": "Aumenta a velocidade de ataque a cada disparo consecutivo. Reinicia três segundos após o ataque.",
+  "enchantment.mcdw.ambush.desc": "Causa dano extra enquanto estiver agachado e invisível.",
+  "enchantment.mcdw.anima_conduit.desc": "Cada orbe de XP concede uma pequena quantidade de vida.",
+  "enchantment.mcdw.bonus_shot.desc": "Dispara um projétil extra em direção a um alvo secundário.",
+  "enchantment.mcdw.burst_bowstring.desc": "Atira em criaturas próximas ao pular, custando uma flecha por salto por nível. Os projéteis causam 40% do dano de uma flecha.",
+  "enchantment.mcdw.busy_bee.desc": "Enquanto segura um ferrão de abelha na mão secundária, ataque um inimigo para invocar abelhas que lutam ao seu lado.",
+  "enchantment.mcdw.chain_reaction.desc": "Chance de disparar projéteis extras a partir do alvo atingido por uma flecha.",
+  "enchantment.mcdw.chains.desc": "Chance de puxar criaturas e deixá-las mais lentas.",
+  "enchantment.mcdw.charge.desc": "Chance de receber o efeito de velocidade ao atacar um inimigo.",
+  "enchantment.mcdw.cobweb_shot.desc": "Cobre um inimigo ou bloco com teia de aranha quando sua flecha acerta o alvo.",
+  "enchantment.mcdw.committed.desc": "Chance de causar dano relativo à vida do alvo.",
+  "enchantment.mcdw.critical_hit.desc": "Chance de causar acerto crítico sem pular.",
+  "enchantment.mcdw.dipping_poison.desc": "Concede 8 flechas envenenadas ao beber uma poção de vida.",
+  "enchantment.mcdw.dynamo.desc": "Aumenta o dano do seu próximo ataque após pular. Este efeito pode acumular até 20 vezes.",
+  "enchantment.mcdw.echo.desc": "Chance de causar dano sonoro em área num raio de 3 blocos.",
+  "enchantment.mcdw.enigma_resonator.desc": "Causa dano relativo à quantidade de XP que o usuário possui.",
+  "enchantment.mcdw.exploding.desc": "Chance de o alvo explodir ao morrer, causando dano aos inimigos ao redor.",
+  "enchantment.mcdw.freezing.desc": "Chance de retardar o alvo e lhe aplicar exaustão.",
+  "enchantment.mcdw.fuse_shot.desc": "Chance de a flecha explodir no impacto.",
+  "enchantment.mcdw.gravity.desc": "Chance de puxar e arremessar alvos. A distância do arremesso é relativa ao nível.",
+  "enchantment.mcdw.growing.desc": "Causa dano extra quanto mais longe você estiver do alvo.",
+  "enchantment.mcdw.guarding_strike.desc": "Ganha o efeito de resistência ao matar criaturas.",
+  "enchantment.mcdw.illagers_bane.desc": "Causa dano extra a Illagers.",
+  "enchantment.mcdw.jungle_poison.desc": "Chance de aplicar veneno ao alvo.",
+  "enchantment.mcdw.leeching.desc": "Cura relativa à vida máxima do alvo quando ele morre.",
+  "enchantment.mcdw.levitation_shot.desc": "Dispara um tiro que aplica o efeito de levitação, muito parecido com o projétil de shulker.",
+  "enchantment.mcdw.multi_shot.desc": "Dispara flechas adicionais em direções semelhantes ao ser atacado por vários inimigos.",
+  "enchantment.mcdw.overcharge.desc": "Continue segurando o botão de ataque à distância para carregar um arco em dobro, triplo ou quádruplo, aumentando seu dano a cada vez.",
+  "enchantment.mcdw.pain_cycle.desc": "Atacar drena sua vida para conceder um acúmulo de Ciclo de Dor. Com 5 acúmulos, sua dor é canalizada no próximo ataque.",
+  "enchantment.mcdw.phantoms_mark.desc": "Aplica brilho ao alvo relativo ao nível do encantamento.",
+  "enchantment.mcdw.poison_cloud.desc": "Chance de criar uma nuvem de veneno ao redor do alvo.",
+  "enchantment.mcdw.prospector.desc": "Chance de encontrar uma esmeralda ao matar um alvo.",
+  "enchantment.mcdw.radiance.desc": "Chance de criar uma nuvem de cura ao redor do alvo.",
+  "enchantment.mcdw.radiance_shot.desc": "Chance de criar uma nuvem de cura ao redor do alvo atingido por uma flecha.",
+  "enchantment.mcdw.rampaging.desc": "Chance de ganhar pressa acumulativa ao matar.",
+  "enchantment.mcdw.refreshment.desc": "Reabastece frascos vazios como poções de vida ao matar com uma arma.",
+  "enchantment.mcdw.refreshment_shot.desc": "Reabastece frascos vazios como poções de vida ao matar com uma arma à distância.",
+  "enchantment.mcdw.replenish.desc": "Chance de recuperar uma flecha ao disparar.",
+  "enchantment.mcdw.ricochet.desc": "A flecha ricocheteia de alvo em alvo.",
+  "enchantment.mcdw.rushdown.desc": "Chance de ganhar velocidade acumulativa ao matar.",
+  "enchantment.mcdw.shadow_barb.desc": "Disparar de uma besta não quebra a Forma Sombria.",
+  "enchantment.mcdw.shadow_shot.desc": "Chance de conceder Forma Sombria ao jogador ao matar.",
+  "enchantment.mcdw.shared_pain.desc": "Se um jogador causar dano mortal excessivo a uma criatura, o dano restante será aplicado a uma criatura próxima, se houver.",
+  "enchantment.mcdw.shockwave.desc": "Chance de causar dano explosivo numa área de 3 blocos.",
+  "enchantment.mcdw.smiting.desc": "Causa dano em área a mortos-vivos num raio de 3 blocos.",
+  "enchantment.mcdw.soul_devourer.desc": "Multiplica o XP ganho em um abate.",
+  "enchantment.mcdw.soul_siphon.desc": "Chance de ganhar XP extra em um abate.",
+  "enchantment.mcdw.stunning.desc": "Chance de quase paralisar um alvo e causar náusea.",
+  "enchantment.mcdw.swirling.desc": "Chance de atingir todas as entidades num raio de 1,5 bloco ao redor do usuário.",
+  "enchantment.mcdw.tempo_theft.desc": "Rouba velocidade do seu alvo, retardando-o e acelerando você.",
+  "enchantment.mcdw.thundering.desc": "Chance de invocar um raio e causar dano a entidades num alcance relativo ao nível.",
+  "enchantment.mcdw.void_strike.desc": "Chance de causar dano multiplicativo com base no nível do encantamento.",
+  "enchantment.mcdw.void_shot.desc": "Chance de causar dano multiplicativo com base no nível do encantamento.",
+  "enchantment.mcdw.weakening.desc": "Chance de criar uma nuvem de fraqueza ao redor do alvo.",
+  "enchantment.mcdw.wild_rage.desc": "Atingir um inimigo tem chance de deixá-lo enfurecido, tornando-o hostil a todos."
+}

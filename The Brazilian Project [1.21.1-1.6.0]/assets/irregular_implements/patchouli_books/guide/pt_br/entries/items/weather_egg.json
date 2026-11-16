@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:weather_egg",
+    "name": "Ovos do Clima",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Os $(d)Ovos do Clima$() mudam o clima quando arremessados.$(br2)Há 3 tipos: Ensolarado, Chuvoso e Tempestuoso."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Naturalmente, arremessar um Ovo Ensolarado limpará o clima, um Ovo Chuvoso causará chuva e um Ovo Tempestuoso causará uma tempestade.$(br2)Arremessar um Ovo que corresponda ao clima atual não fará nada."
+        }
+    ]
+}

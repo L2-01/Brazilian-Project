@@ -1,0 +1,31 @@
+{
+  "name": "Fraqueza",
+  "icon": "minecraft:fermented_spider_eye",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Fraqueza$() diminui o dano de ataque do alvo em 4 pontos por nível."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Fraqueza(3:00)",
+      "a.recipe": "bloodmagic:flask/weakness",
+      "b.heading": "Fraqueza(8:00)",
+      "b.recipe": "bloodmagic:flask/length_weakness",
+      "c.heading": "Fraqueza II(1:30)",
+      "c.recipe": "bloodmagic:flask/potency_weakness"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "adicionar $(l:bloodmagic:alchemy_table/potions#average_potions)Catalisadores Padrão$() pode turbinar ainda mais suas poções."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Fraqueza III(0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_weakness",
+      "b.heading": "Fraqueza(21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_weakness"
+    }
+  ]
+}

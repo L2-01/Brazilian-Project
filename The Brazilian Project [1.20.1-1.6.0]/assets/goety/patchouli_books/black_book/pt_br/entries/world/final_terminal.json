@@ -1,0 +1,25 @@
+{
+  "name": "Terminal Final",
+  "icon": "goety:void_spawner",
+  "category": "goety:world",
+  "advancement": "minecraft:story/enter_the_end",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Dentro do End, há uma estrutura que guarda vários tesouros e segredos. Corre o boato de que é guardada por subespécies de Endermen, os Enderlings."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ao atravessar a estrutura, pode-se encontrar Chaves do Vazio e arenas contendo Molduras do Vazio. Usar tais chaves nas molduras invocará uma criatura poderosa, que derruba um Fragmento do Vazio quando morta. A estrutura também contém cofres que podem ser abertos com as chaves."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "No topo do terminal há um Santuário do Vazio. Ele requer que quatro Fragmentos do Vazio sejam inseridos antes que um guerreiro poderoso seja invocado. Derrotar o guerreiro fará um objeto aparecer, colocado no Santuário do Vazio, que pode revelar um segredo monstruoso."
+    },
+    {
+      "type": "goety:ritual",
+      "advancement": "goety:goety/get_crystal_ball",
+      "recipe": "goety:locate/end/final_terminal"
+    }
+  ]
+}

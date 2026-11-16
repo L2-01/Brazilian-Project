@@ -1,0 +1,18 @@
+{
+  "name": "guide.animus.entry.crystallized_demon_will_block",
+  "icon": "animus:crystallized_demon_will_block",
+  "category": "animus:blocks",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:crystallized_demon_will_block",
+      "text": "Vontade demoníaca solidificada em forma cristalina. Este pilar decorativo serve como um componente CRYSTAL válido para Altares de Sangue Nível 6."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Componente de Altar:$() Funciona como um bloco CRYSTAL na construção de altares$(br2)$(bold)Altar Nível 6:$() Necessário para o Altar de Sangue do nível mais alto$(br2)Veja a entrada $(l:animus:tier6_altar)Altar Nível 6$() para detalhes completos de construção.$(br2)$(italic)Vontade manifestada.$()"
+    }
+  ]
+}

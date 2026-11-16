@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:portkey",
+    "name": "Chave de Portal",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Chave de Portal$() é usada para teleportar quem a apanhar.$(br2)Clique com o botão direito da Chave de Portal num bloco para definir seu destino. Depois, jogue-a no chão. Após um curto intervalo, ela será ativada."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Qualquer um que tocar a Chave de Portal ativada será teleportado instantaneamente para o destino, desde que esteja na mesma dimensão.$(br2)Você pode fabricar a Chave de Portal com qualquer outro item para disfarçá-la, fazendo-a parecer o item com que foi fabricada."
+        }
+    ]
+}

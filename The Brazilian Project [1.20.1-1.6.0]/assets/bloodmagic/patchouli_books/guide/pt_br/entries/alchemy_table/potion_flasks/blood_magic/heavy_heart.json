@@ -1,0 +1,31 @@
+{
+  "name": "Coração Pesado",
+  "icon": "minecraft:slime_ball",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Coração Pesado$() arrasta o alvo firmemente para baixo, tornando voar e nadar significativamente mais difíceis. $(br2)É criado a partir de um frasco contendo tanto os efeitos $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/gravity)Gravidade$() quanto $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/instant_health)Vida Instantânea$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Coração Pesado (3:00)",
+      "a.recipe": "bloodmagic:flask/gravity_to_heart",
+      "b.heading": "Coração Pesado (8:00)",
+      "b.recipe": "bloodmagic:flask/length_heavy_heart",
+      "c.heading": "Coração Pesado II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_heavy_heart"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "adicionar $(l:bloodmagic:alchemy_table/potions#average_potions)Catalisadores Padrão$() pode turbinar ainda mais suas poções."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Coração Pesado III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_heavy_heart",
+      "b.heading": "Coração Pesado (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_heavy_heart"
+    }
+  ]
+}

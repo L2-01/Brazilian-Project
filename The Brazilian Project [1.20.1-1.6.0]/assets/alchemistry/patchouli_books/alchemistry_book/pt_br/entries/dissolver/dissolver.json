@@ -1,0 +1,23 @@
+{
+  "name": "Dissolvedor Químico",
+  "icon": "alchemistry:dissolver",
+  "category": "alchemistry:dissolver_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Dissolvedor Químico é uma máquina energizada e, junto com o Combinador Químico, são as máquinas mais essenciais do Alchemistry. O Dissolvedor Químico pega entradas e as decompõe em diferentes elementos químicos e compostos.$(br2)$(o)Das notas do Professor Warren: Tenho experimentado as propriedades do magma, como uma forma menos volátil de Lava. Enquanto a Lava destrói quase tudo, descobri que posso usar magma para decompor materiais em seus componentes com mais precisão. Alguns componentes estão mais firmemente ligados e requerem uma ou duas passadas extras para se decompor completamente."
+    },
+    {
+      "type": "text",
+      "text": "Há dois tipos de receitas do Dissolvedor Químico, indicados em cada receita do JEI. Primeiro, há receitas com $(thing)probabilidade relativa$() onde todos os grupos de saída possíveis somam 100% e um grupo de saída sempre será escolhido a cada $(thing)rolagem$(). Algumas receitas podem ter grupos vazios, entretanto, resultando numa chance de nenhuma saída."
+    },
+    {
+      "type": "text",
+      "text": "Também há receitas com $(thing)probabilidade absoluta$(). Com probabilidade absoluta, cada grupo é rolado independentemente com sua própria chance de saída, ignorando os resultados de outras rolagens."
+    },
+    {
+      "type": "crafting",
+      "recipe": "alchemistry:dissolver"
+    }
+  ]
+}

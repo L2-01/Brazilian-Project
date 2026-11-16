@@ -1,0 +1,107 @@
+{
+  "name": "O Altar de Sangue",
+  "icon": "bloodmagic:altar",
+  "category": "bloodmagic:altar",
+  "priority": "true",
+  "extra_recipe_mappings": {
+    "bloodmagic:daggerofsacrifice": 13
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(item)Altar de Sangue$() é o bloco central do mod, capaz de converter $(blood)sangue$() bruto em $(blood)Essência Vital$() pura. Embora possa começar pequeno e insignificante, sua força e tamanho crescem ao longo do mod, servindo de alicerce para a maior parte do seu poder."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_altar"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando colocado no mundo, o $(item)Altar de Sangue$() converte $(blood)sangue$() em $(blood)Essência Vital$(), que ele então usa para transfigurar itens colocados nele. Ao pressionar [$(k:use)] olhando para o Altar, você insere um item da sua mão no inventário interno do Altar. Pressionar [$(k:use)] com a mão vazia extrai o item."
+    },
+    {
+      "type": "multiblock",
+      "name": "Altar de Sangue Tier 1",
+      "multiblock_id": "bloodmagic:altar_one",
+      "text": "O Altar de Sangue de Tier 1, que não tem runas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para você adicionar $(blood)Essência Vital$(), medida como \"$(blood)LP$()\", primeiro precisa criar uma $(item)Faca Sacrificial$(). Ao pressionar [$(k:use)] mirando o ar com a faca, você pode \"extrair\" $(blood)200 LP$() ao custo de um coração, colocando-o num Altar próximo. O Altar começa com capacidade máxima de 10.000LP, e o nível de sangue na bacia indica a porcentagem cheia. O $(l:bloodmagic:alchemy_array/sigil/divination)Selo de Adivinhação$(/l) permite informações mais detalhadas sobre o Altar."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:sacrificial_dagger",
+      "anchor": "knife",
+      "text": "Lembre-se de que 10% do total de $(blood)LP$() que o altar pode segurar será absorvido num 'tanque' interno invisível, usado para extrair e inserir $(blood)Essência Vital$() no Altar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O Altar de Sangue tentará iniciar a criação assim que um item for colocado dentro por um jogador (ou após um período de 5 segundos). O $(blood)LP$() dentro do Altar drenará lentamente (indicado por partículas vermelhas), transformando o item. Se não houver $(blood)LP$() no Altar, fumaça cinza aparecerá indicando que o Altar está perdendo progresso. Quando $(blood)LP$() suficiente for consumido (custo multiplicado pela quantidade na pilha de itens), a pilha inteira será transformada num novo item."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O primeiro item que você vai querer criar é um $(l:bloodmagic:altar/soul_network)Orbe de Sangue Fraco$(/l), que por padrão é um diamante mais $(blood)2.000 LP$() dentro de um Altar de Sangue de Tier 1. Todos os itens que podem ser criados pelo Altar de Sangue podem ser encontrados usando o Just Enough Items (JEI)."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "blank_rune",
+      "text": "Para melhorar o Altar de Sangue, você precisa criar $(item)Runas de Sangue$() e colocá-las ao redor do Altar. Runas de Sangue atuam como upgrades do Altar, e usando versões mais avançadas delas você pode conferir efeitos diferentes ao Altar. A versão básica, a $(item)Runa em Branco$(), não dá nenhum upgrade — seu único uso é aumentar o Tier do Altar."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_blank"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para melhorar o Altar de Sangue para Tier 2, você deve colocar 8 $(item)Runas de Sangue$() ao redor do Altar. As runas nas direções cardeais podem ser melhoradas, mas as runas das quinas não podem atuar como runas de upgrade até o Tier 3."
+    },
+    {
+      "type": "multiblock",
+      "name": "Altar de Sangue Tier 2",
+      "multiblock_id": "bloodmagic:altar_two",
+      "text": "O Altar de Sangue de Tier 2, que tem 8 runas no total."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "dagger_of_sacrifice",
+      "text": "Agora que você tem um Altar de Tier 2, pode procurar obter $(blood)Essência Vital$() de outra fonte que não você mesmo. A $(item)Adaga de Sacrifício$() permitirá sacrificar qualquer criatura (monstro ou passivo) que esteja a até 2 blocos do seu Altar, matando-o instantaneamente e concedendo uma boa soma de $(blood)LP$(). Você pode aumentar a quantidade obtida por abate com $(l:bloodmagic:altar/blood_rune/sacrifice_rune)Runas de Sacrifício$(). Entidades diferentes dão quantidades diferentes de $(blood)LP$(). Confira suas configs para mais info."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Adaga de Sacrifício",
+      "recipe": "bloodmagic:altar/daggerofsacrifice",
+      "text": "Abater aldeões por diversão e lucro!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para melhorar o Altar de Sangue para Tier 3, coloque 5 $(item)Runas de Sangue$() um bloco abaixo e dois blocos de distância do conjunto anterior de runas ao longo de cada borda. Depois coloque dois blocos (indicados pelos $(item)Tijolos de Pedra$()) em cada quina, começando acima do novo anel de runas, e coroe cada pilar com $(item)Blocos de Pedra-Luminosa$().$(br)Para conferir se o upgrade foi bem-sucedido, use um $(l:bloodmagic:alchemy_array/sigil/divination)Selo de Adivinhação$(/l) para verificar o tier. Note que qualquer bloco que não seja ar pode ser usado nos pilares abaixo da Pedra-Luminosa."
+    },
+    {
+      "type": "multiblock",
+      "name": "Altar de Sangue Tier 3",
+      "multiblock_id": "bloodmagic:altar_three",
+      "text": "O Altar de Sangue de Tier 3, que tem 28 runas no total, 20 a mais que um Tier 2, 5 em cada lado."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para melhorar o Altar de Sangue para Tier 4, coloque 7 $(item)Runas de Sangue$() um bloco abaixo e dois blocos de distância do conjunto anterior de runas ao longo de cada borda. Depois coloque quatro blocos sólidos em cada quina, começando acima do novo anel de runas, e coroe cada pilar com $(l:bloodmagic:utility/bloodstone_bricks)Tijolos de Pedra de Sangue$(/l) e/ou $(l:bloodmagic:utility/bloodstone_bricks)Tijolos de Pedra de Sangue Grandes$(/l). Para estes, você vai precisar de $(l:bloodmagic:dungeons/tau_fruit)Fruta Tau$(), encontrada via o ritual $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Orla do Reino Oculto$()."
+    },
+    {
+      "type": "multiblock",
+      "name": "Altar de Sangue Tier 4",
+      "multiblock_id": "bloodmagic:altar_four",
+      "text": "O Altar de Sangue de Tier 4, que tem 56 runas no total, 28 a mais que um Tier 3, 7 em cada lado."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Para melhorar o Altar de Sangue para Tier 5, coloque 13 $(item)Runas de Sangue$() um bloco abaixo e três blocos de distância do conjunto anterior de runas ao longo de cada borda. Deixe um espaço de um bloco em cada ponta, e então coloque um $(l:bloodmagic:dungeons/demonite)Bloco Forjado no Inferno$() em cada quina. Você terá que explorar fundo no $(thing)Reino Demoníaco$() por esse metal raro e exótico."
+    },
+    {
+      "type": "multiblock",
+      "name": "Altar de Sangue Tier 5",
+      "multiblock_id": "bloodmagic:altar_five",
+      "text": "O Altar de Sangue de Tier 5, que tem 108 runas no total, 52 a mais que um Tier 4, 13 em cada lado."
+    }
+  ]
+}

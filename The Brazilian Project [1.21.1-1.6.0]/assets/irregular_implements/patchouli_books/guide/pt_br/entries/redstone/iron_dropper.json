@@ -1,0 +1,19 @@
+{
+    "category": "irregular_implements:redstone",
+    "icon": "irregular_implements:iron_dropper",
+    "name": "Liberador de Ferro",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Liberador de Ferro$() é uma melhoria do Liberador comum, com vários recursos extras.$(br2)Dentro dele há 4 botões para alternar suas várias configurações."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Redstone:$(br)$(li)Ejetar ao receber pulso$(br)$(li)Ejetar enquanto energizado$(br)$(li)Ejetar sempre$(br2)Atraso de coleta:$(br)$(li)20 ticks$(br)$(li)5 ticks$(br)$(li)0 ticks"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Trajetória:$(br)$(li)Aleatória$(br)$(li)Reta$(br2)Efeitos:$(br)$(li)Partículas e som$(br)$(li)Somente som$(br)$(li)Somente partículas$(br)$(li)Nenhum"
+        }
+    ]
+}

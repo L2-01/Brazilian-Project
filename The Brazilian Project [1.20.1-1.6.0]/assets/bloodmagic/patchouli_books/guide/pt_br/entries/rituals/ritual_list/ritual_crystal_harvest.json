@@ -1,0 +1,38 @@
+{
+  "name": "Fenda do Cristal Fraturado",
+  "icon": "bloodmagic:defaultcrystal",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Fenda do Cristal Fraturado",
+      "multiblock_id": "bloodmagic:crystal_harvest",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crystal_harvest",
+      "text_overrides": [
+        [
+          "Aglomerados de Cristal de Will Demoníaca",
+          "l:bloodmagic:demon_will/will_manipulation/crystallized_will"
+        ],
+        [
+          "aspects",
+          "l:bloodmagic:demon_will/will_manipulation/aspected_will"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crystal_harvest",
+      "page_type": "crystal",
+      "text_overrides": [
+        [
+          "Will Demoníaca",
+          "raw"
+        ]
+      ]
+    }
+  ]
+}

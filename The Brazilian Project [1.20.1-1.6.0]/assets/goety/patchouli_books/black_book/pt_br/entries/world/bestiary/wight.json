@@ -1,0 +1,29 @@
+{
+  "name": "Morto-Vivo",
+  "icon": "goety:shadow_essence",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_wight",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Uma entidade estranha que aparece perto de seres que têm uma grande quantidade de energia de almas."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:wight"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:shadow_essence",
+      "title": "Essência de Sombra",
+      "text": "Quando morto, ele derruba algumas 'essências' estranhas que parecem sugar a luz. Talvez possam ser usadas para criar certos itens."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Alguns, que viram e sobreviveram a um encontro com um, acreditam que ele seja uma criação de um $(l:world/crypts)lugar sombrio e frio$()..."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:shadow_essence": 2
+  }
+}

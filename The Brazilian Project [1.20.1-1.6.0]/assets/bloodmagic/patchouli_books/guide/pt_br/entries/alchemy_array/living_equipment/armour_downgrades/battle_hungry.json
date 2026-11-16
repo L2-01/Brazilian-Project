@@ -1,0 +1,16 @@
+{
+  "name": "Fome de Batalha",
+  "icon": "minecraft:rotten_flesh",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Causa fome se você não tiver atacado algo recentemente. Níveis maiores encurtam a janela de recarga e pioram a fome."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/battle_hungry",
+      "b.upgrade": "bloodmagic:battle_hungry"
+    }
+  ]
+}

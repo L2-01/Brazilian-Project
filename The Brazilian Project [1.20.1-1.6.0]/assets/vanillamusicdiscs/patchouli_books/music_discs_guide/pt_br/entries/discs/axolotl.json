@@ -1,0 +1,19 @@
+{
+    "name": "Axolotl",
+    "category": "vanillamusicdiscs:discs",
+    "icon": "vanillamusicdiscs:axolotl_music_disc",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "vanillamusicdiscs:axolotl_music_disc",
+            "text": "Fabrique Axolotl usando a $(bold)Mesa de Discos de Música$(). Coloque qualquer disco de música vanilla no espaço da esquerda e o material mostrado abaixo no espaço do meio."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:water_bucket",
+            "title": "Material Necessário",
+            "text": "$(item)Balde de Água$() $(#808080)$()Coloque-o no espaço do meio da Mesa de Discos de Música junto a qualquer disco de música vanilla.$()"
+        }
+    ]
+}

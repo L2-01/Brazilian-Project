@@ -1,0 +1,56 @@
+{
+  "name": "Necromante",
+  "icon": "goety:necro_cape",
+  "category": "goety:mutations",
+  "advancement": "goety:goety/unlock_necromancer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O pergaminho contém algumas instruções para conceder, ou invocar, inteligência aos falecidos há muito tempo, permitindo criar e comandar Necromantes mortos-vivos a partir de Esqueletos."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_skeleton_to_necromancer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os Necromantes podem ser ensinados a invocar mais do que apenas Zumbis. Clicar com o botão direito usando certos Focos de Necromancia permite que eles invoquem mais tipos de servos."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Eles só aceitarão focos que invoquem uma criatura morta-viva que ainda não saibam invocar. Eles podem aceitar Foco Apodrecedor, Foco Ósseo, Foco Arrepiante, Foco Ceifador, Foco de Vanguarda e Foco de Guarda-Negro."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clicar neles com a mão vazia fará o Necromante invocar Servos Mortos-vivos para você. Eles são curados da mesma forma que os Servos Esqueleto comuns."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:necromancer_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_stray_to_cairn_necromancer"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:cairn_necromancer_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_mossy_skeleton_to_mossy_necromancer"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:mossy_necromancer_servant"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:soul_jar",
+      "text": "Caso um Necromante caia, ter um $(l:crafts/empty_soul_jar)Pote de Almas Vazio$() fará a alma dele preenchê-lo, que, ao ser usado com o botão direito num Esqueleto, o reviverá usando tal Esqueleto como seu novo corpo. Também corre o boato de que alimentá-los com um pote de outro necromante aumentará seu poder..."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:soul_jar": 6
+  }
+}

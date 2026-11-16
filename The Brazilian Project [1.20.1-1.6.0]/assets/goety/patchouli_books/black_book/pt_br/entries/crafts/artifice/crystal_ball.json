@@ -1,0 +1,28 @@
+{
+  "name": "Bolas de Cristal",
+  "icon": "goety:pale_crystal_ball",
+  "category": "goety:crafts/artifice",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As Bolas de Cristal são conhecidas por serem usadas para vidência ou para prever o futuro."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:pale_crystal_ball"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Usar um $(l:crafts/waystone)Obelisco$() preenchido nela fará você olhar o local visto de cima, desde que esse local esteja carregado. Usar um $(l:crafts/taglock_kit)Kit de Taglock$() preenchido nela fará você olhar através dos olhos da vítima, desde que ela seja da mesma criatura que você, ou esteja a até 80 blocos de você ou de um de sua espécie."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:crystal_ball",
+      "text": "Ambos os métodos exigem que o local ou a vítima estejam na mesma dimensão e a até 1.024 blocos da bola, embora haja $(l:world/blighted_shacks)rumores$() de uma bola de cristal que não possui essa restrição específica..."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:pale_crystal_ball": 1,
+    "goety:crystal_ball": 3
+  }
+}

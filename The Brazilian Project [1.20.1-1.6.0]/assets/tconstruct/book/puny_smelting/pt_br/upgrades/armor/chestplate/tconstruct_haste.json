@@ -1,0 +1,18 @@
+{
+  "modifier_id": "tconstruct:haste",
+  "text": [
+    {
+      "text": "Adicionar redstone a um peitoral parece deixar todas as ferramentas mais rápidas, como se seus braços ficassem mais eficientes."
+    },
+    {
+      "text": "Tipo, muito louco, certo?",
+      "paragraph": true
+    }
+  ],
+  "tool_filter": "tconstruct:modifiable/armor",
+  "effects": [
+    "Aumenta a velocidade de mineração",
+    "Vários níveis, cada nível aumenta um pouco mais a velocidade",
+    "Exige 1 espaço de aprimoramento por nível"
+  ]
+}

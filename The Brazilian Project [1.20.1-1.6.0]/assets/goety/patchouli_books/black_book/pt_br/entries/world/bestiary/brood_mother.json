@@ -1,0 +1,21 @@
+{
+  "name": "Mães de Ninhada",
+  "icon": "goety:spider_mother_den",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_brood_mother",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aranhas gigantescas que atacam quem ousa mexer com seus ninhos, com presas que envenenam até os mortos-vivos."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:brood_mother",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Essas criaturas tentarão atacar diretamente seu alvo, mas se seus filhotes entrarem na luta, elas preferirão rodear o alvo, deixando os filhotes fazerem sua refeição."
+    }
+  ]
+}

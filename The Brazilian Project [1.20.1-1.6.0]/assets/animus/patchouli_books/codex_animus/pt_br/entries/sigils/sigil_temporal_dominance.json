@@ -1,0 +1,28 @@
+{
+  "name": "guide.animus.entry.sigil_temporal_dominance",
+  "icon": "animus:sigil_temporal_dominance",
+  "category": "animus:sigils",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_temporal_dominance",
+      "text": "Um sigilo que acelera o tempo para blocos-entidade. Fornalhas fundem mais rápido, plantações crescem mais depressa e máquinas processam em velocidades incríveis."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "$(bold)Ativação:$() Agache + botão direito num bloco-entidade$(br)$(bold)Duração:$() 30 segundos por ativação$(br2)Cada ativação aumenta o nível de velocidade. Clicar repetidamente no mesmo bloco acumula a aceleração até 32x de velocidade."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Progressão",
+      "text": "$(bold)Nível 1:$() velocidade 2x - 1.000 LP$(br)$(bold)Nível 2:$() velocidade 4x - 2.000 LP$(br)$(bold)Nível 3:$() velocidade 8x - 4.000 LP$(br)$(bold)Nível 4:$() velocidade 16x - 8.000 LP$(br)$(bold)Nível 5:$() velocidade 32x - 16.000 LP$(br2)$(bold)Renovar:$() 15.000 LP para zerar o timer no nível máximo"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Compatibilidade",
+      "text": "$(bold)Lista Negra:$() Blocos com a tag $(thing)animus:disallow_acceleration$() não podem ser acelerados.$(br2)$(bold)Compat de Mods:$() Não acumula com a Bolsa Temporal do GAG, Time in a Bottle ou a Varinha do Tempo do JustDireThings.$(br2)$(italic)O tempo dobra-se à vontade do sangue.$()"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Aprimoramento",
+  "icon": "minecraft:glowstone_dust",
+  "category": "goety:brewing",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Há muitos jeitos de aprimorar sua poção! Qualquer novato sabe que adicionar Redstone aumenta a duração e Pedra-Luminosa aumenta o poder, mas tem muito mais do que isso! Assim como na capacidade, os ingredientes precisam ser colocados em ordem!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Duração$()$(br)$(li)$(item)Pó de Redstone$()$(li2)Aumenta o custo — x1.25 $(li)$(item)Prismarinho$()$(li2)Aumenta o custo — x1.5 $(li)$(item)Flor-do-Coro$()$(li2)Aumenta o custo — x2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Amplificar Efeitos$()$(br)$(li)$(item)Pó de Pedra-Luminosa$()$(li2)Aumenta o custo — x2 $(li)$(item)Vara de Blaze$()$(li2)Aumenta o custo — x2.5 $(li)$(item)Núcleo Místico$()$(li2)Aumenta o custo — x3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Área de Efeito$()$(br)$(li)$(item)Carvão Vegetal$()$(li2)Aumenta o custo — x1.25 $(li)$(item)Estrela de Fogo de Artifício$()$(li2)Aumenta o custo — x1.5 $(li)$(item)Crânio Alto$()$(li2)Aumenta o custo — x2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Prolongamento$()$(br)$(li)$(item)Raízes Suspensas$()$(li2)Aumenta o custo — x1.25 $(li)$(item)Plantaforma Grande$()$(li2)Aumenta o custo — x1.25 $(li)$(item)Flor-de-Esporos$()$(li2)Aumenta o custo — x1.25"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Velocidade de Consumo$()$(br)$(li)$(item)Frasco de Mel$()$(li2)Aumenta o custo — x1.25 $(li)$(item)Líquen Brilhante$()$(li2)Aumenta o custo — x1.25 $(li)$(item)Ovo de Tartaruga$()$(li2)Aumenta o custo — x1.25"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Velocidade de Arremesso$()$(br)$(li)$(item)Bola de Neve$()$(li2)Aumenta o custo — x1.25 $(li)$(item)Arco$()$(li2)Aumenta o custo — x1.25 $(li)$(item)Besta$()$(li2)Aumenta o custo — x1.25"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Adicionais$()$(br)$(li)$(item)Pólvora$()$(li2)Torna a poção Arremessável $(li)$(item)Bafo do Dragão$()$(li2)Torna a poção Prolongada $(li2)A poção precisa ser transformada em Arremessável antes. $(li)$(item)Núcleo de Vento$()$(li2)Torna a poção Gasosa $(li2)A poção precisa ser transformada em Prolongada antes. $(li)$(item)Olho de Ender$()$(li2)Esconde as partículas de efeito."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Adicionais$()$(br)$(li)$(item)Coral-de-Tubo$()$(li2)Poções arremessadas não são mais afetadas pela água. $(li)$(item)Fragmentos de Netherita$()$(li2)Poções não são afetadas por lava nem fogo."
+    }
+  ]
+}

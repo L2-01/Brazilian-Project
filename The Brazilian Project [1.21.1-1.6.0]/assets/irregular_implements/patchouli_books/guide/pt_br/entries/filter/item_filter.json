@@ -1,0 +1,19 @@
+{
+    "category": "irregular_implements:filter",
+    "icon": "irregular_implements:item_filter",
+    "name": "Filtro de Item",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Filtro de Item$() tem uma lista de até 9 itens e pode servir como lista-branca ou lista-negra. Alterne isso usando o botão mais à direita da interface.$(br2)Acima de cada espaço preenchido há dois botões."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O botão esquerdo permite alternar se o espaço é um Filtro de Item ou um Filtro de Tag. Por exemplo, colocar um Graveto no espaço o fará filtrar o item minecraft:stick por padrão. Mudá-lo para Filtro de Tag o fará filtrar uma das tags de item do Graveto.$(br2)A função do botão direito muda dependendo de o espaço ser um Filtro de Item ou um Filtro de Tag."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Para espaços de Filtro de Item, ele alterna se o item deve ou não corresponder aos componentes de dados (como encantamentos, nomes personalizados etc.) do item no espaço.$(br2)Para espaços de Filtro de Tag, ele alterna por qual das tags do item filtrar."
+        }
+    ]
+}

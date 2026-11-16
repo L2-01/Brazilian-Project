@@ -1,0 +1,20 @@
+{
+  "name": "Piolets",
+  "icon": "goety:iron_ice_axe",
+  "category": "goety:crafts/equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Estes machados com cara de picareta são úteis para coletar gelo e para empurrar você para cima por cima de obstáculos, embora não tenham as habilidades de desativar escudos e desbastar madeira dos machados de verdade."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:iron_ice_axe",
+      "recipe2": "goety:reinforced_ice_axe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:diamond_ice_axe"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Centrífuga",
+  "icon": "complicated_bees:centrifuge",
+  "category": "complicated_bees:machines",
+  "advancement": "complicated_bees:apiary",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ao custo de RF, esta máquina gira as coisas muito, muito rápido, separando-as por densidade — geralmente isso transforma favos em mel, cera e outros possíveis extras."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "complicated_bees:centrifuge",
+      "title": "Centrífuga",
+      "text": "$(o)Girou, passou!$(br2)$()"
+    }
+  ]
+}

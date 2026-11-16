@@ -1,0 +1,17 @@
+{
+  "name": "Chifre Flamejante",
+  "icon": "goety:blazing_horn",
+  "category": "goety:crafts",
+  "advancement": "minecraft:story/enter_the_nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você ouviu boatos de magos poderosos que um dia percorreram as Fortalezas do Nether. Diz-se que um encantamento específico poderia invocar um deles quando lançado dentro de tal fortaleza."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:blazing_horn",
+      "text": "Com o chifre de uma Cabra e o poder do Nether, você pode replicar o encantamento para invocar um desses seres."
+    }
+  ]
+}

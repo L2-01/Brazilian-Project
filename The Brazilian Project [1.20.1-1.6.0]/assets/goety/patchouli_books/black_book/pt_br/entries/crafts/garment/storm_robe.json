@@ -1,0 +1,31 @@
+{
+  "name": "Mantos de Tempestade",
+  "icon": "goety:storm_robe",
+  "category": "goety:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Uma variante dos Mantos de Vento que traz o próprio relâmpago em seus tecidos. Assim como os Mantos de Vento, o manto permite que você caia lentamente. Vestir o Manto também reduz pela metade o Custo de Almas dos Feitiços de Tempestade, mas infelizmente não dos Feitiços de Vento."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:storm_robe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Criaturas das tempestades se curam lentamente com a energia de almas de seu invocador, caso ele vista este manto."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:storm_crown"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Coroa de Tempestade reduz pela metade o tempo para conjurar feitiços de Tempestade e impede que seus servos de tempestade morram como Obsessores."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:storm_robe": 1,
+    "goety:storm_crown": 3
+  }
+}

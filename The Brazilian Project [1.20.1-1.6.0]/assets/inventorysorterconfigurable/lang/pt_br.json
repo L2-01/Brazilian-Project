@@ -1,0 +1,31 @@
+{
+  "inventorysorter.gui.title": "Inventory Sorter (Configurable)",
+  "inventorysorter.gui.middleClickSorting": "Ordenação de inventário",
+  "inventorysorter.gui.middleClickSorting.tooltip": "O módulo de ordenação de inventário está ativado?",
+  "inventorysorter.gui.containerDebug": "Depurar ordenação de contêineres",
+  "inventorysorter.gui.containerDebug.tooltip": "Cria mensagens de registro quando um contêiner está sendo ordenado para auxiliar na compilação da lista-negra",
+  "keygroup.inventorysorter": "Inventory Sorter (Configurable)",
+  "key.inventorysorter.sort": "Ordenar inventário",
+  "inventorysorter.commands.inventorysorter.usage": "/invsorter §ebladd§f|§eblrem§f|§eshow§f|§elist§f",
+  "inventorysorter.commands.inventorysorter.bladd.message": "§e{0}§f adicionado à lista-negra de contêineres",
+  "inventorysorter.commands.inventorysorter.blremove.message": "§e{0}§f removido da lista-negra de contêineres",
+  "inventorysorter.commands.inventorysorter.badtype": "A string §c{0}§f não é um tipo de contêiner válido, ignorando",
+  "inventorysorter.commands.inventorysorter.showlast.message": "Último contêiner ordenado: §e{0}§f",
+  "inventorysorter.commands.inventorysorter.showlast.nosort": "Você ainda não ordenou um contêiner. Tente ordenar um!",
+  "inventorysorter.commands.inventorysorter.showblacklist.message": "Lista-negra atual §e{0}§f",
+  "inventorysorter.commands.inventorysorter.showblacklist.empty": "A lista-negra está vazia",
+  "inventorysorter.config.containerblacklist": "Lista-negra de contêineres",
+  "inventorysorter.config.slotblacklist": "Lista-negra de tipos de espaço",
+  "inventorysorter.config.sortorder": "Ordem de ordenação",
+  "inventorysorter.config.sortbycountfirst": "Ordenar por quantidade primeiro",
+
+
+
+
+
+
+  "inventorysorter.commands.inventorysorter.show.message": "Último contêiner ordenado %1$s",
+  "inventorysorter.commands.inventorysorter.list.message": "Lista-negra atual %1$s",
+  "inventorysorter.commands.inventorysorter.list.empty": "A lista-negra está vazia",
+  "inventorysorter.commands.inventorysorter.noop": "§cO último comando não teve efeito (tente ordenar um contêiner?)"
+}

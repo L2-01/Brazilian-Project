@@ -1,0 +1,24 @@
+{
+  "name": "Bruxo Servo",
+  "icon": "goety:warlock_sash",
+  "category": "goety:mutations",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ter um violador de juramentos como servo pode levantar algumas sobrancelhas, mas mesmo assim você descobriu como fazê-lo. Com o ar infernal do Nether, você pode transformar um Aldeão num Bruxo leal."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_villager_to_warlock"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:warlock_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Você também pode negociar com seu Bruxo Servo dando-lhe uma Esmeralda, sem precisar vestir o traje adequado para isso. Você também pode negociar com outros Bruxos Servos, desde que seja aliado do mestre deles, se houver um, e esteja vestindo o traje apropriado."
+    }
+  ]
+}

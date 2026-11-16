@@ -1,0 +1,36 @@
+{
+  "name": "Mochila-tanque de Cobre",
+  "icon": "create:copper_backtank",
+  "category": "pneumaticcraft:compressed_creativity",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A $(item)Mochila-tanque de Cobre$() ganhou funcionalidade adicional tanto na forma de Bloco quanto de Item!$(br)Ela pode carregar até 3 bar. $(br2)Na forma de Bloco, ela se conecta a provedores pneumáticos pela face inferior, fazendo-a funcionar como um Compressor de Ar barato. O excesso de ar será liberado."
+    },
+    {
+      "type": "image",
+      "images": [
+        "compressedcreativity:textures/gui/bt_block.png"
+      ],
+      "border": true,
+      "title": "Mochila-tanque de Cobre",
+      "text": "Mochila-tanque de Cobre funcionando como compressor"
+    },
+    {
+      "type": "text",
+      "text": "Na forma de Item, ela funciona de forma parecida com um $(l:pneumaticcraft:components/air_canister)Cilindro de Ar$(). Isso permite carregá-la como qualquer outro item pneumático."
+    },
+    {
+      "type": "image",
+      "images": [
+        "compressedcreativity:textures/gui/bt_item.png"
+      ],
+      "border": false,
+      "title": "Mochila-tanque de Cobre",
+      "text": "Carregando a Mochila-tanque de Cobre na $(l:pneumaticcraft:machines/charging_station)Estação de Carga$()"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "create:copper_backtank": 0
+  }
+}

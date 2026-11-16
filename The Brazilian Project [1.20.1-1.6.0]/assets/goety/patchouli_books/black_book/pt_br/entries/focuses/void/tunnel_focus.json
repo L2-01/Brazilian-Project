@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Túnel",
+  "icon": "goety:tunnel_focus",
+  "category": "goety:focuses/void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Usar este foco numa parede ou no chão criará um túnel etéreo levando ao outro lado. Os túneis só se abrem por um curto período e não podem atravessar certos blocos."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/tunnel_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/void_staff)Cajado do Vazio$() aumenta o tamanho do túnel de 3x3 para 5x5."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:tunnel_focus": 1
+  }
+}

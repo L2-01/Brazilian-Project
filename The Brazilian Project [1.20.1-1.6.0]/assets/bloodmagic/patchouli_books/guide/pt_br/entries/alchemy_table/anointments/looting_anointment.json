@@ -1,0 +1,37 @@
+{
+  "name": "Brilho do Saqueador",
+  "icon": "bloodmagic:looting_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Brilho do Saqueador",
+      "recipe": "bloodmagic:alchemytable/looting_anointment",
+      "text": "Aumenta os itens largados por criaturas mortas. Também acumula com o encantamento Saque.$(br2)Itens válidos: Ferramentas, Espadas.$(br2)Aplica: Saque I (256 golpes)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Brilho do Saqueador L",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_l",
+      "text": "Esta versão melhorada da unção dura quatro vezes mais. $(br2)Aplica: Saque I (1024 golpes)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Brilho do Saqueador II",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_2",
+      "text": "Esta versão melhorada da unção aumenta ainda mais os itens largados por criaturas mortas. $(br2)Aplica: Saque II (256 golpes)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Brilho do Saqueador XL",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_xl",
+      "text": "Esta versão melhorada da unção dura dezesseis vezes mais. $(br2)Aplica: Saque I (4096 golpes)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Brilho do Saqueador III",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_3",
+      "text": "Esta versão melhorada da unção aumenta ainda mais os drops de criaturas mortas. $(br2)Aplica: Saque III (256 golpes)"
+    }
+  ]
+}

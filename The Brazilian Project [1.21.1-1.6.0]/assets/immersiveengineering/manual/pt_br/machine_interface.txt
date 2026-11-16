@@ -1,0 +1,11 @@
+Interface de Máquina
+Consultando Condições Complexas Rapidamente
+<&recipe>Com a crescente complexidade do maquinário multibloco, acompanhar suas necessidades se torna bem complexo.<br>
+Enquanto <link;redstone_probe;sinais de comparador> podem dar alguma visão da quantidade de itens dentro, só a Interface de Máquina pode oferecer uma avaliação mais detalhada e enviar sinais de redstone.<np>
+Quando colocada contra a superfície de controle de redstone de um multibloco, abrir a GUI permite configurar várias condições para emitir um sinal.<br>
+Pressione o botão "Add Condition" para adicionar uma nova linha. Nela, o primeiro botão serve para deletá-la, e o segundo é para configurar a cor do sinal a emitir.<np>
+Seguem-se dois menus suspensos, um para selecionar o tipo de verificação (como "Machine Active", "Item Input", "Fluid Output") e um para selecionar a condição.<br>
+A maioria das verificações suporta "Comparator Output" para uma intensidade de sinal proporcional aos itens/fluido/energia armazenados. Também há várias opções de verdadeiro ou falso, como "75% Filled" ou "Empty".<np>
+Assim que uma condição é atendida, a Interface de Máquina emitirá o sinal correspondente no canal de cor configurado para qualquer <link;redstone_wiring;Conector de Interface de Redstone;bundled> acoplado.<br>
+Além de enviar, a Interface de Máquina também pode receber um sinal de redstone e emiti-lo à máquina conectada. A cor do sinal para isso é configurada no canto inferior direito da GUI.<np>
+Isso permite usar a <link;logic_unit;Unidade Lógica> para avaliar os sinais vindos da máquina e então enviar um de volta para ativá-la ou desativá-la!

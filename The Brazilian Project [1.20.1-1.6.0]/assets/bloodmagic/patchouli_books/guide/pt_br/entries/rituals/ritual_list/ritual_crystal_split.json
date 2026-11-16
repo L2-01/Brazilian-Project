@@ -1,0 +1,40 @@
+{
+  "name": "Ressonância do Cristal Facetado",
+  "icon": "bloodmagic:vengefulcrystal",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ressonância do Cristal Facetado",
+      "multiblock_id": "bloodmagic:crystal_split",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner#dusk)Adivinhador de Ritual [Entardecer]$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crystal_split",
+      "text_overrides": [
+        [
+          "Raw crystal cluster",
+          "l:bloodmagic:demon_will/will_manipulation/crystallized_will"
+        ],
+        [
+          "aspected crystal clusters",
+          "l:bloodmagic:demon_will/will_manipulation/aspected_will"
+        ]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Este ritual pega um $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Aglomerado de Cristal Bruto$(/l) bem crescido (pelo menos 5 agulhas) localizado 2 blocos acima da $(item)Pedra de Ritual Mestre$(), e o divide em novas agulhas únicas de cada $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Aglomerado de Cristal de Will Aspectada$(/l) localizado diretamente acima das 4 Pedras de Ritual elementais. Este espaçamento é projetado para acomodar um $(item)Cristalizador Demoníaco$() em cima da $(item)Pedra de Ritual Mestre$().$(br2)Para informações sobre como cultivar Cristais de Will Demoníaca, veja $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Will Cristalizada$(/l)."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Configuração do Ritual",
+      "images": [
+        "bloodmagic:images/entries/demon_will/will_splitting.png"
+      ],
+      "border": true,
+      "text": "Montagem recomendada para o ritual Ressonância do Cristal Facetado."
+    }
+  ]
+}

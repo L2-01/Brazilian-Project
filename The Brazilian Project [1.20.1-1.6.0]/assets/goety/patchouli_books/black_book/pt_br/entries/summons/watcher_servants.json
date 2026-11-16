@@ -1,0 +1,20 @@
+{
+  "name": "Servos Vigia",
+  "icon": "cataclysm:laser_gatling",
+  "category": "goety:cataclysm/summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os Vigias da Fábrica Ancestral, capazes de disparar lasers flamejantes e dilacerar inimigos com suas mandíbulas de metal, agora replicados tanto por meios arcanos quanto tecnológicos."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_cataclysm:watcher_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os Vigias podem ser curados clicando neles com o botão direito com Lingotes de Ferro."
+    }
+  ]
+}

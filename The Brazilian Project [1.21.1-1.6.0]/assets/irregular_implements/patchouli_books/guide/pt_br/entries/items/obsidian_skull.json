@@ -1,0 +1,19 @@
+{
+    "category": "irregular_implements:items",
+    "icon": "irregular_implements:obsidian_skull",
+    "name": "Crânio de Obsidiana",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Crânio de Obsidiana$() tem chance de anular dano de fogo enquanto estiver no seu inventário.$(br2)Quanto maior o dano que seria sofrido, maior a chance de anulação. A fórmula exata é:"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "`` (damage ^ 3) / 100 ``$(br2)O $(d)Anel de Crânio de Obsidiana$() faz exatamente o mesmo, mas pode ser usado num espaço de Curio."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:obsidian_skull_ring"
+        }
+    ]
+}

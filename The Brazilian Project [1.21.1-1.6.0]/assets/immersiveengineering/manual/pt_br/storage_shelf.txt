@@ -1,0 +1,9 @@
+Prateleira de Armazenamento
+Soluções criativas
+<&multiblock>A prateleira de armazenamento ajuda na organização da oficina, permitindo que vários <link;storage_crates;caixotes>, caixotes reforçados e até caixas de shulker sejam armazenados nela.<br>
+Os caixotes são adicionados à prateleira clicando com eles nos espaços vazios e podem ser removidos agachando e clicando com a mão vazia.<br>
+O conteúdo dos blocos pode ser acessado pela interface da prateleira, com cada nível da prateleira tendo uma separada. O botão no canto inferior direito da interface alterna entre os caixotes do lado próximo e do lado distante da prateleira.<np>
+§nAutomação§r<br>
+A prateleira suporta inserção e extração automáticas, com uma linha inteira de caixotes sendo acessada com base na posição e no lado.<br>
+Isso significa que, ao colocar um funil contra a frente ou a traseira da prateleira, ele insere em dois caixotes; contra o lado, insere na fileira de quatro caixotes; e pelo topo, numa coluna de três caixotes.<br>
+Qualquer inserção ou extração automática sempre começa pelo primeiro caixote daquela linha.

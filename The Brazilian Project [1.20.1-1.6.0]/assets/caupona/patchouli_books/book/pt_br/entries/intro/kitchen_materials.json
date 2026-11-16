@@ -1,0 +1,37 @@
+{
+  "name": "Materiais de Cozinha",
+  "icon": "caupona:opus_latericium_chimney_flue",
+  "category": "caupona:intro",
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "As instalações de cozinha aqui incluem balcões, fogões e chaminés. Instalações de vários materiais são fornecidas para combinar com diferentes estilos de arquitetura."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:mud_counter",
+      "text": "As de lama e pedra seca, que exigem só terra e pedregulho, são baratas o bastante para o início do jogo. Sua função é comparável à das instalações de outros materiais, exceto que fogões de lama e pedra seca demoram mais para aquecer."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:stone_brick_counter",
+      "text": "As de pedra são feitas de tijolos de pedra e lajes de pedra — atenção, não lajes de tijolos de pedra."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:brick_counter",
+      "text": "As de tijolo são feitas de tijolos e lajes de tijolo."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:opus_latericium_counter",
+      "text": "As de opus latericium são feitas de blocos de opus latericium e suas lajes. Parecem as de tijolo, mas com concreto exposto."
+    },
+    {
+      "type": "spotlight",
+      "item": "caupona:opus_incertum_counter",
+      "text": "As de opus incertum são feitas de blocos de opus incertum e suas lajes"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Chama Extinta",
+  "icon": "goety_cataclysm:extinct_flame_focus",
+  "category": "goety:cataclysm/focuses/nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Canalizando o poder do próprio Ignis, você conjura bolas de fogo que, após um instante, perseguem os inimigos próximos, explodindo-os numa explosão flamejante."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/extinct_flame_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/nether_staff)Cajado do Nether$() invoca mais bolas de fogo."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:extinct_flame_focus": 1
+  }
+}

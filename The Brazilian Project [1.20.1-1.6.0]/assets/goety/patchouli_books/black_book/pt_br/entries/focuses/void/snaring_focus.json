@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Laço",
+  "icon": "goety:snaring_focus",
+  "category": "goety:focuses/void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O foco é gosmento ao toque, mas não parece secretar gosma alguma. O mesmo não se pode dizer da criatura que ele pode invocar, $(l:summons/enderling_servants#snareling)uma caricatura esguia da humanidade com braços longos, uma mandíbula no peito e uma bolsa dorsal brilhante$()."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/snaring_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/void_staff)Cajado do Vazio$() invoca mais laçadores de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:snaring_focus": 1
+  }
+}

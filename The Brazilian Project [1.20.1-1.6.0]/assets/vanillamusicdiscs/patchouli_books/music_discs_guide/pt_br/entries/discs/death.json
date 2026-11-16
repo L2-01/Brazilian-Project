@@ -1,0 +1,19 @@
+{
+    "name": "Death",
+    "category": "vanillamusicdiscs:discs",
+    "icon": "vanillamusicdiscs:death_music_disc",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "vanillamusicdiscs:death_music_disc",
+            "text": "Fabrique Death usando a $(bold)Mesa de Discos de Música$(). Coloque qualquer disco de música vanilla no espaço da esquerda e o material mostrado abaixo no espaço do meio."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:black_candle",
+            "title": "Material Necessário",
+            "text": "$(item)Vela Preta$() $(#808080)$()Coloque-o no espaço do meio da Mesa de Discos de Música junto a qualquer disco de música vanilla.$()"
+        }
+    ]
+}

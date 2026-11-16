@@ -1,0 +1,16 @@
+{
+    "name": "Chave do Condutor",
+    "icon": "littlelogistics:conductors_wrench",
+    "category": "littlelogistics:items",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "littlelogistics:conductors_wrench",
+            "text": "Segurada na mão, a Chave do Condutor exibe as localizações das locomotivas e rebocadores atualmente registrados."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Clicar com o botão direito em qualquer trilho alterna entre vários formatos de trilho."
+        }
+    ]
+}

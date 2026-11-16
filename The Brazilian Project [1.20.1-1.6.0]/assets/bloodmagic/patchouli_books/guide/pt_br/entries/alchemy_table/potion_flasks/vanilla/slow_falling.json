@@ -1,0 +1,20 @@
+{
+  "name": "Queda Lenta",
+  "icon": "minecraft:phantom_membrane",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Queda Lenta$() faz o alvo cair devagar e sem sofrer dano de queda, como uma galinha."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Queda Lenta(3:00)",
+      "a.recipe": "bloodmagic:flask/slow_fall",
+      "b.heading": "Queda Lenta(8:00)",
+      "b.recipe": "bloodmagic:flask/length_slow_fall",
+      "c.heading": "Queda Lenta(21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_slow_fall"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Câmara de Reação Alquímica",
+  "icon": "bloodmagic:alchemicalreactionchamber",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Câmara de Reação Alquímica$(), ou ARC para abreviar, pode funcionar como uma $(thing)Fornalha$(), oferece uma forma de $(l:bloodmagic:utility/ore_processing)Triplicação de Minérios$(), pode reverter $(l:bloodmagic:altar/soul_network)Orbes de Sangue$(), $(item)Netheritos$() e $(item)Runas Reforçadas$(), e é atualmente a única forma de obter $(blood)Fragmentos de Sangue Fracos$(), especificamente a partir de um $(l:bloodmagic:dungeons/tau_fruit)Tau Saturado$(). $(br)A maioria das ferramentas usadas na ARC degrada com o tempo, mas pode ser encantada com inquebrável ou remendo para compensar."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:arc"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Reversor Sanguíneo",
+      "recipe": "bloodmagic:soulforge/sanguine_reverter",
+      "anchor": "blood_shard",
+      "text": "O $(item)Reversor Sanguíneo$() é usado para criar $(blood)Fragmentos de Sangue Fracos$(), e reverter $(l:bloodmagic:altar/soul_network)Orbes de Sangue$(), $(item)Netheritos$() e $(item)Runas Reforçadas$() de volta ao item de criação de entrada."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "Fragmento de Sangue Fraco",
+      "a.recipe": "bloodmagic:arc/weakbloodshard_tau",
+      "b.heading": "Revert Orbe de Sangue Fraco",
+      "b.recipe": "bloodmagic:arc/reversion/weak_blood_orb",
+      "c.heading": "Reverter Orbe de Sangue de Aprendiz",
+      "c.recipe": "bloodmagic:arc/reversion/apprentice_blood_orb"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "Reverter Orbe de Sangue de Mago",
+      "a.recipe": "bloodmagic:arc/reversion/magician_blood_orb",
+      "b.heading": "Reverter Orbe de Sangue Mestre",
+      "b.recipe": "bloodmagic:arc/reversion/master_blood_orb",
+      "c.heading": "Reverter Netherita",
+      "c.recipe": "bloodmagic:arc/reversion/netherite_ingot"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "Reverter Runa Reforçada",
+      "recipe": "bloodmagic:arc/reversion/speed",
+      "text": "Todas as Runas Reforçadas podem ser revertidas dessa forma — esta é só uma demonstração."
+    },
+    {
+      "type": "patchouli:text",
+      "heading": "Automação",
+      "text": "Caso queira automatizar a ARC, talvez como parte de uma cadeia de $(l:bloodmagic:utility/ore_processing)Triplicação de Minérios$(), pode ser útil saber que ela tem $(thing)lados$(), assim como uma $(item)fornalha$(). Ferramentas só podem ser inseridas ou extraídas pelo topo, entradas pelos lados, e saídas por baixo. Tenha isso em mente ao posicionar seus $(item)Funis$() ou $(l:bloodmagic:demon_will/item_routing/routing_nodes)Nó de Roteamento$()."
+    }
+  ]
+}

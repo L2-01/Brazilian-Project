@@ -1,0 +1,28 @@
+{
+  "name": "Grimório de Boa Vontade",
+  "icon": "goety:grimoire_of_goodwill",
+  "category": "goety:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Às vezes, seus servos podem atrapalhar seus planos, atacando criaturas que não deveriam, fazendo você gritar com eles para pararem de atacar, por exemplo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O grimório pode registrar vários seres, de Saqueadores a até seres como você! Você também pode impedir que servos ataquem uma espécie inteira, pois bater num ser agachado registrará a espécie dele. Por exemplo, agachar e bater num Saqueador com o grimório fará seus servos pararem de atacar todos os Saqueadores, mesmo que eles o fuzilem de flechas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:grimoire_of_goodwill",
+      "text": "Clicar no ar com o botão direito mostra com quem você tem boa vontade. Agachar e clicar mostra as espécies."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Porém, se você estiver num humor vingativo e quiser apagar a boa vontade, basta clicar com o botão direito no ser com quem você tem boa vontade, ou agachar e clicar se tiver boa vontade com a espécie inteira; a boa vontade será apagada do grimório. Até você clicar neles de novo com o botão esquerdo."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Adicionar boa vontade a um ser ou espécie registrada no Grimório de Rancores apagará o rancor."
+    }
+  ]
+}

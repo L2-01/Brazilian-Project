@@ -1,0 +1,23 @@
+{
+  "name": "Foco de Hoglin",
+  "icon": "goety:hogging_focus",
+  "category": "goety:focuses/nether",
+  "advancement": "minecraft:story/enter_the_nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O foco de Hoglin invoca um hoglin etéreo de curta duração que avança sobre um inimigo e explode ao contato."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/hogging_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/nether_staff)Cajado do Nether$() invoca mais Hoglins em Chamas de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:hogging_focus": 1
+  }
+}

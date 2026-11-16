@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Supercrescimento",
+  "icon": "goety:overgrowth_focus",
+  "category": "goety:focuses/wild",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com energia de almas, você conjura poderosas trepadeiras imóveis para bloquear o caminho dos seus alvos ou, se agachado, conjura uma poderosa trepadeira florida que dispara espinhos venenosos. Conjurar agachado olhando para um alvo fará a trepadeira venenosa ser invocada ao seu lado."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/overgrowth_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar o feitiço debaixo d'água invocará algas poderosas e imóveis. Nenhuma diferença além da estética e a necessidade de estar submerso, embora os espinhos da alga venenosa não sejam afetados pela água. Vestir um $(l:crafts/garment/wild_robe)Manto Selvagem$() permite passar pelas trepadeiras e algas."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:overgrowth_focus": 1
+  }
+}

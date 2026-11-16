@@ -1,0 +1,16 @@
+{
+  "name": "Combinador Químico",
+  "icon": "alchemistry:combiner",
+  "category": "alchemistry:combiner_category",
+  "pages": [
+    {
+      "type": "text",
+      "text": "O Combinador Químico é uma máquina energizada, talvez a mais importante de todas no Alchemistry. Ele permite combinar elementos, compostos e ocasionalmente outros itens para formar novos itens. O combinador aceita até 4 itens de entrada semelhante a uma grade de fabricação 2x2, mas, ao contrário da grade, permite que cada espaço de entrada contenha mais de um item por fabricação.$(br2)$(o)Das notas do Professor Warren: O Compactador é bom e tal, mas bem simplista. Me interesso no que posso fazer com esses componentes. Com o poder de foco de um diamante e a resistência da obsidiana, posso usar um pistão para forçar esses componentes em itens mais complexos."
+    },
+    {
+      "type": "crafting",
+      "recipe": "alchemistry:combiner",
+      "text": "Embora o combinador seja muito poderoso, também é fácil de usar. Para começar, escolha o item que deseja fabricar na tela do combinador ou use o JEI para transferir a receita."
+    }
+  ]
+}

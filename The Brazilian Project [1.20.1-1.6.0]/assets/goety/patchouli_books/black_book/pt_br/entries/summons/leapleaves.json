@@ -1,0 +1,26 @@
+{
+  "name": "Folhas Saltadoras",
+  "icon": "minecraft:jungle_leaves",
+  "category": "goety:summons",
+  "advancement": "goety:goety/read_floral_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Uma poderosa criatura simiesca feita de raízes e folhas, que pode pular alto e esmagar com força os inimigos de seu invocador."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:leapleaf",
+      "scale": 0.75
+    },
+    {
+      "type": "multiblock",
+      "multiblock_id": "goety:leapleaf",
+      "text": "Clique com o botão direito nas Raízes Exuberantes centrais com um Núcleo de Animação."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A criatura pode ser curada clicando nela com o botão direito usando Farinhas de Osso."
+    }
+  ]
+}

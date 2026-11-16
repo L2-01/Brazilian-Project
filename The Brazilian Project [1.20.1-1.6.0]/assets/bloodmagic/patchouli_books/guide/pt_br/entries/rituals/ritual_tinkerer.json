@@ -1,0 +1,24 @@
+{
+  "name": "Ajustador de Ritual",
+  "icon": "bloodmagic:ritualtinkerer",
+  "category": "bloodmagic:rituals",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(item)Ajustador de Ritual$() é uma ferramenta essencial para o sanguimante avançado que quer extrair tudo que puder dos seus $(thing)Rituais$(). Ele tem três modos principais, descritos a seguir. Você pode alternar entre eles pressionando [$(k:sneak)] e [$(k:use)]."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ritual_reader"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Informação: Descreve a função do $(thing)Ritual$(), similar ao $(l:bloodmagic:rituals/ritual_diviner)Adivinhador de Ritual$(). $(li)Definir Will Consumida: Diz ao $(thing)Ritual$() quais tipos de $(raw)Will Demoníaca$() (se houver) consumir da $(l:bloodmagic:demon_will/will_manipulation/aura)Aura$(). Especifique isso carregando $(item)Cristais de Will Demoníaca$() na sua hotbar, um para cada tipo de $(raw)will$() que deseja que o $(thing)Ritual$() consuma. Mais informações sobre os efeitos da $(raw)Will Demoníaca$() nos $(thing)Rituais$() podem ser encontradas na página respectiva de cada $(thing)Ritual$() neste livro."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Definir Área: Especifica a zona em que o $(thing)Ritual$() deve trabalhar, e exibe a zona atual. Se múltiplas zonas puderem ser especificadas, pressionar [$(k:sneak)] e [$(k:use)] na $(item)Pedra de Ritual Mestre$() alternará entre elas. Alguns $(thing)Rituais$() podem ser expandidos muito além das suas áreas padrão, mas lembre-se de que isso aumentará o custo de $(blood)LP$() proporcionalmente..."
+    }
+  ]
+}

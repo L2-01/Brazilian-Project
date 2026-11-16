@@ -1,0 +1,22 @@
+{
+  "name": "guide.animus.entry.ritual_entropy",
+  "icon": "minecraft:cobblestone",
+  "category": "animus:rituals",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Reduza toda matéria à sua forma mais básica. Este ritual simples converte quaisquer itens num baú diretamente acima dele em pedregulho, perfeito para limpar itens indesejados ou gerar pedregulho infinito de recursos renováveis."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos e Detalhes",
+      "text": "$(bold)Ativação:$() 1.000 LP$(br)$(bold)Renovação:$() 1 LP por item$(br)$(bold)Tempo de Renovação:$() 1 tique$(br2)$(bold)Uso:$() Coloque um baú 1 bloco acima da Pedra de Ritual Mestra. O ritual converterá os itens do baú em pedregulho a uma taxa de 1 item por tique.$(br2)$(bold)Nota:$() O próprio pedregulho não é convertido."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Aplicações",
+      "text": "Perfeito para:$(li)Descarte de lixo$(li)Converter itens largados excedentes de criaturas$(li)Gerar pedregulho de fazendas de criaturas$(li)Limpar inventário de itens inúteis$(br2)$(italic)Todas as coisas retornam ao pó... ou neste caso, ao pedregulho.$()"
+    }
+  ]
+}

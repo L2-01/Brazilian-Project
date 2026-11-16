@@ -1,0 +1,61 @@
+{
+    "_comment": "---------------------------------------- Platforms en_us.json Localization ---------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.platforms": "Platforms",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "info.platforms.base": "§6Base:§7§o",
+    "info.platforms.addon": "§6Trilho:§7§o",
+    "info.platforms.wrench.tooltip": "exibe guia de posicionamento",
+    "info.platforms.wrench.tooltip2": "Guia de posicionamento de plataforma exibido \nquando a chave está na mão secundária \ne uma plataforma na principal",
+
+    "info.platforms.particle.enabled": "Partículas: Ativadas",
+    "info.platforms.particle.disabled": "Partículas: Desativadas",
+    "info.platforms.particle.with_redstone": "Partículas: Ativadas com Redstone",
+    "info.platforms.particle.without_redstone": "Partículas: Desativadas com Redstone",
+
+    "_comment": "------------------------------------------------------ GUI -------------------------------------------------------!",
+    "gui.platforms.platformer.slot.storage.info": "Armazenamento; usado para guardar materiais necessários à fabricação.",
+    "gui.platforms.platformer.slot.craft.info": "Saída de Fabricação; se os materiais necessários estiverem disponíveis, clique aqui para fabricar.",
+    "gui.platforms.platformer.slot.decon.info": "Desconstrução; plataformas podem ser desmontadas aqui. O tamanho da pilha deve ser igual ou maior que a quantidade recebida na fabricação.",
+    "gui.platforms.platformer.slot.buffer.info": "Buffer de Saída; usado como armazenamento temporário para automação. Deve estar vazio antes de fabricar mais.",
+    "gui.platforms.platformer.slot.material.info": "Escolha de Material; define a aparência e o material usado.",
+    "gui.platforms.platformer.button.select.info": "Seletor de Plataforma; alterna entre os tipos de plataforma disponíveis.",
+    "gui.platforms.platformer.preview.info": "Prévia da Plataforma; renderização do produto final.",
+    "gui.platforms.platformer.basic": "Entrada de Armazen., Buffer e Saída de Fabr.",
+    "gui.platforms.platformer.output": "Buffer e Saída de Fabr.",
+    "gui.platforms.platformer.decon": "Desconstrução Entrada/Saída",
+    "gui.platforms.platformer.storage": "Armazen. Entrada/Saída",
+
+    "gui.platforms.wrench.edit.apply": "Aplicar Tudo",
+    "gui.platforms.wrench.edit.apply.info": "Aplica todas as mudanças e fecha a GUI",
+    "gui.platforms.wrench.edit.remove.info": "Ao Aplicar;\n  Remove este tipo de plataforma da área selecionada\n Se Colocar também estiver ativado;\n  Plataformas deste tipo mas com texturas diferentes serão substituídas",
+    "gui.platforms.wrench.edit.place.info": "Ao Aplicar;\n  Coloca esta plataforma do inventário nos espaços disponíveis\n Se Remover também estiver ativado;\n  Plataformas deste tipo mas com texturas diferentes serão substituídas",
+    "gui.platforms.wrench.edit.revert": "Reverter Alterações",
+    "gui.platforms.wrench.edit.direction": "Mudar Direção",
+
+    "gui.platforms.wrench.select.back": "§7§lVoltar:§r Seta Esquerda / Rolar para Cima",
+    "gui.platforms.wrench.select.next": "§7§lPróximo:§r Seta Direita / Rolar para Baixo",
+    "gui.platforms.wrench.select.first": "§7§lOpção Inicial:§r Espaço",
+    "gui.platforms.wrench.select.save": "§7§lSelecionar:§r Enter / Botão Direito",
+
+    "_comment": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
+    "block.platforms.flat": "Plataforma",
+    "block.platforms.floor": "Piso",
+    "block.platforms.frame": "Moldura",
+    "block.platforms.ramp": "Rampa",
+    "block.platforms.stairs": "Escadas",
+    "block.platforms.steps": "Degraus",
+    "block.platforms.shingles": "Telhado de Telhas",
+    "block.platforms.tiles": "Telhado de Ladrilhos",
+    "block.platforms.rise": "Subida",
+    "block.platforms.rail": "Corrimão",
+    "block.platforms.platformer": "PlatFormer",
+
+    "item.platforms.wrench": "Chave-Inglesa",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "config.jade.plugin_platforms.hud": "Ativar Plugin"
+}

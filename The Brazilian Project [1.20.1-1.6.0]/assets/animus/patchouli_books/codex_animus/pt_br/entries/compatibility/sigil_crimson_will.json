@@ -1,0 +1,42 @@
+{
+  "name": "guide.animus.entry.sigil_crimson_will",
+  "category": "animus:compatibility",
+  "icon": "animus:sigil_crimson_will",
+  "flag": "mod:irons_spellbooks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Sigilo da Vontade Carmesim fortalece sua conjuração com Essência Vital e Vontade Demoníaca. Este sigilo alternável aumenta drasticamente o poder de feitiço e o dano de invocações, escalando com a vontade demoníaca bruta armazenada na sua Soul Network."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sigil_crimson_will",
+      "text": "$(will)Aprimoramento de Vontade Demoníaca$()$(br2)Clique com o botão direito para ativar este sigilo. Enquanto ativo, todo feitiço que você conjura consumirá LP e aumentará temporariamente seu poder de feitiço e dano de invocações através de fortalecimento demoníaco."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Escala de Poder",
+      "text": "O Sigilo da Vontade Carmesim fornece:$(br2)$(bold)Bônus Base:$() $(blood)+30%%$() de poder de feitiço e dano de invocações$(br2)$(bold)Escala de Vontade Demoníaca:$()$(br)$(li)Escala até $(will)+50%% total$() com 4.096 de vontade demoníaca$(li)Usa vontade demoníaca da sua Soul Network$(li)Funciona com $(will)0 de vontade$() (só 30%% base)$(br2)O bônus é aplicado apenas durante a conjuração e removido logo depois."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Detalhamento de Custos",
+      "text": "Cada feitiço conjurado com o sigilo ativo consome:$(br2)$(blood)Essência Vital:$()$(br)$(li)Configurável por ponto de mana (padrão: 50 LP)$(li)Escala com o nível do feitiço$(li)Exemplo: feitiço nível 10 = 500 LP$(br2)$(will)Vontade Demoníaca:$()$(br)$(li)5 de vontade por conjuração (se disponível)$(li)Consome da Soul Network$(li)Opcional - o sigilo funciona sem vontade"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Estados de Ativação",
+      "text": "O sigilo tem dois estados:$(br2)$(bold)Ativo:$() (ícone vermelho brilhante)$(br)$(li)Consome recursos por feitiço$(li)Aumenta poder de feitiço e dano de invocações$(li)Mostra bônus de poder dinâmico na tooltip$(br2)$(bold)Inativo:$() (ícone cinza)$(br)$(li)Sem consumo de recursos$(li)Sem bônus de poder$(li)Botão direito para alternar$(br2)O sigilo deve estar $(l:bloodmagic:altar/binding)vinculado$() à sua Soul Network para ativar."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso Estratégico",
+      "text": "O Sigilo da Vontade Carmesim se destaca em:$(br2)$(li)$(blood)Lutas contra chefes$() — aumento massivo de dano$(li)$(blood)Builds de invocador$() — invocações aprimoradas$(li)$(will)Cenários de muita vontade$() — bônus de 50%%$(br2)$(italic)Dica:$() Mantenha o sigilo no seu inventário (mão principal, secundária ou qualquer slot). Desative entre lutas para conservar LP.$(br2)Combina excelentemente com o $(l:animus:compatibility/blood_infused_spellbook)Livro de Feitiços Infuso de Sangue$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Requisitos",
+      "text": "Para usar o Sigilo da Vontade Carmesim:$(br)$(li)$(blood)O Iron's Spellbooks deve estar instalado$()$(li)$(l:bloodmagic:altar/binding)Soul Network$() ativa$(li)LP suficiente para os custos de feitiço$(li)Opcional: Vontade demoníaca na Soul Network para escala$(br2)O sigilo aplica modificadores de atributo durante a conjuração, garantindo compatibilidade com outros modificadores de poder de feitiço."
+    }
+  ]
+}

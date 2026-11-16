@@ -1,0 +1,16 @@
+{
+  "name": "Castiçal de Almas",
+  "icon": "goety:soul_candlestick",
+  "category": "goety:crafts/artifice",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Certos dispositivos requerem uma grande porção de Energia de Almas, mas não conseguem tirar a energia diretamente da $(l:intro/cursed_cage)Jaula Amaldiçoada$(). Após alguns experimentos, você descobriu um jeito de fazer tais dispositivos sugarem energias de várias Jaulas Amaldiçoadas em vez de uma só. Esses dispositivos geralmente funcionam mais rápido quanto mais Castiçais e Jaulas cheias houver, normalmente a até 8 blocos, ao redor deles."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:soul_candlestick",
+      "text": "Coloque um em cima de uma $(l:intro/cursed_cage)Jaula Amaldiçoada$() cheia."
+    }
+  ]
+}

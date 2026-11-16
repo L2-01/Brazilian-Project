@@ -1,0 +1,17 @@
+{
+  "name": "Balde de Vida",
+  "icon": "bloodmagic:life_essence_bucket",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(blood)Essência Vital$() é ótima no $(l:bloodmagic:altar/blood_altar)Altar de Sangue$(), onde pode ser usada para criação ou canalizada num $(l:bloodmagic:altar/soul_network)Orbe$() para alimentar $(thing)Rituais$(), mas e se você quiser construir um fosso disso ao redor do seu $(l:bloodmagic:utility/incense_altar)Altar de Incenso$()? Felizmente, extrair $(blood)Essência Vital$() é relativamente trivial. Basta colocar um $(item)Balde$() no $(l:bloodmagic:altar/blood_altar)Altar de Sangue$() e esperar alguns segundos até encher. $(blood)1 LP$()=1mb, então $(blood)1.000 LP$() deve bastar para o seu $(item)Balde$()."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Balde de Vida",
+      "recipe": "bloodmagic:altar/bucket_life",
+      "text": "$(italic)Definitivamente não é sangue. Sangue já teria coagulado. $(br2)... Por que você está me olhando assim?$()"
+    }
+  ]
+}

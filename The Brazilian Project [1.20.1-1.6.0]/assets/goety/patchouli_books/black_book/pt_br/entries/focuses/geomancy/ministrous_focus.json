@@ -1,0 +1,19 @@
+{
+  "name": "Foco de Mini-Monstruosidade",
+  "icon": "goety:ministrous_focus",
+  "category": "goety:focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O feitiço invoca uma $(l:summons/ministrosities)Mini-Monstruosidade de Pedra$(), um golem simples que se move rápido para morder seus inimigos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/ministrous_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/geo_staff)Cajado Geomante$() invocará Mini-Monstruosidades adicionais. Conjurar vestindo $(l:crafts/garment/geo_robe)Mantos Geomantes$() invocará Mini-Monstruosidades de Redstone."
+    }
+  ]
+}

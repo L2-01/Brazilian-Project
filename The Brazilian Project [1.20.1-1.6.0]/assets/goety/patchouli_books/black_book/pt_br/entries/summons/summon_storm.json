@@ -1,0 +1,15 @@
+{
+  "name": "Invocar Tempestade",
+  "icon": "minecraft:netherrack",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um ritual simples, porém poderoso, que conjura uma Trovoada. Útil para quem deseja se esconder do sol."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:summon_storm"
+    }
+  ]
+}

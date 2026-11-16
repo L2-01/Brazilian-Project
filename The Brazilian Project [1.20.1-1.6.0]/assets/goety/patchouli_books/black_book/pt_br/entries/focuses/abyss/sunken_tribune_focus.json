@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Tribuna Submersa",
+  "icon": "goety_cataclysm:sunken_tribune_focus",
+  "category": "goety:cataclysm/focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O feitiço invoca um conjurador Deepling das profundezas. Pode-se esperar que um Sacerdote ou um Bruxo atenda ao seu chamado."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/sunken_tribune_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() invoca mais Deeplings Sacerdotes e/ou Bruxos de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:sunken_tribune_focus": 1
+  }
+}

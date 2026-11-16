@@ -1,0 +1,17 @@
+{
+  "name": "Raio X de Minérios",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_orexray",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Descubra riquezas escondidas com a melhoria Raio X de Minérios. Essa poderosa ferramenta permite enxergar através de blocos sólidos, revelando minérios valiosos ocultos na pedra.$(br2)Essa melhoria substitui a melhoria de escaneador de minérios e é ativada da mesma forma."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação: Raio X de Minérios",
+      "recipe": "justdirethings:upgrade_orexray"
+    }
+  ]
+}

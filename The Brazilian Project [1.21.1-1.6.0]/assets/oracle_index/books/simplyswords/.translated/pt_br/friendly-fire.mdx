@@ -1,0 +1,31 @@
+---
+title: Fogo Amigo
+icon: simplyswords:runic_tablet
+---
+
+## Como impeço minhas habilidades de arma de machucar meus amigos?
+O Simply Swords respeita as equipes do Minecraft vanilla. Para impedir que habilidades de arma causem dano aos seus amigos, entre na mesma equipe usando comandos como:
+```
+/team add teamname
+/team join teamname
+```
+
+O Open Parties and Claims também pode fornecer relações de equipe quando está instalado.
+
+## Como impeço habilidades de arma de atingir meus animais?
+
+A opção `abilityIgnoredEntities` na configuração geral lista tudo o que habilidades de arma e de gema jamais alvejam ou danificam. Por padrão ela contém `passive`, `minecraft:armor_stand` e `minecraft:villager`, então animais de fazenda ficam imunes de fábrica.
+
+Cada entrada pode ser uma de três coisas:
+
+- Um ID de entidade, como `minecraft:cow`.
+- Uma tag de entidade, com prefixo `#`, como `#minecraft:skeletons`.
+- Uma palavra-chave de categoria: `passive`, `animal`, `villager`, `hostile`, `water`, `ambient`, `golem`, `player` ou `tameable`.
+
+`passive` cobre criaturas reproduzíveis e que envelhecem, o que não inclui lulas, morcegos ou golens — adicione `water`, `ambient` ou `golem` se quiser excluí-los também.
+
+Entidades ignoradas ainda podem ser atacadas normalmente. Apenas a mira e o dano de habilidades as ignoram, então você ainda pode matar uma vaca acertando-a.
+
+## Como permito que habilidades de arma fortaleçam ou curem meus amigos?
+
+Use a mesma configuração de equipe ou grupo. Os efeitos benéficos reconhecem aliados pela mesma relação usada para evitar fogo amigo. Desativar o PvP no servidor também impede dano de habilidade entre jogadores.

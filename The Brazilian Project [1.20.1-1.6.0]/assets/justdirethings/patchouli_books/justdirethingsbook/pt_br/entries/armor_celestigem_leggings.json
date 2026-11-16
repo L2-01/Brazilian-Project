@@ -1,0 +1,17 @@
+{
+  "name": "Calças de Celestigema",
+  "sortnum": 11,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:celestigem_leggings",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As Calças de Celestigema utilizam Forge Energy, com capacidade de 10.000 FE para maior durabilidade. Carregue-as em movimento com um $(l:justdirethings:item_pocket_generator)Gerador Portátil$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação: Calças de Celestigema",
+      "recipe": "justdirethings:celestigem_leggings"
+    }
+  ]
+}

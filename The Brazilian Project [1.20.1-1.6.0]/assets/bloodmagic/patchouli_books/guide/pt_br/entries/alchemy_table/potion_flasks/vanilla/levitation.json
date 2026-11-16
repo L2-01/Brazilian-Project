@@ -1,0 +1,31 @@
+{
+  "name": "Levitação",
+  "icon": "minecraft:shulker_shell",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Levitação$() faz o alvo flutuar pelo ar. Níveis maiores farão o alvo levitar mais rápido.$(br2)É feita a partir de uma poção de $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/slow_falling)Queda Lenta$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Levitação(3:00)",
+      "a.recipe": "bloodmagic:flask/fall_to_levitation",
+      "b.heading": "Levitação(8:00)",
+      "b.recipe": "bloodmagic:flask/length_levitation",
+      "c.heading": "Levitação II(1:30)",
+      "c.recipe": "bloodmagic:flask/potency_levitation"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "adicionar $(l:bloodmagic:alchemy_table/potions#average_potions)Catalisadores Padrão$() pode turbinar ainda mais suas poções."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Levitação III(0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_levitation",
+      "b.heading": "Levitação(21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_levitation"
+    }
+  ]
+}

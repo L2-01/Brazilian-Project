@@ -1,0 +1,20 @@
+{
+  "name": "Tomo de Peritia",
+  "icon": "bloodmagic:experiencebook",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(item)Tomo de Peritia$() permite que você guarde sua $(thing)experiência$() com segurança. $(br2)pressionar [$(k:sneak)] e [$(k:use)] com o Tomo na mão guarda $(thing)um nível de XP$(). Pressionar [$(k:use)] $(thing)recupera um nível$(). Segurar [$(k:use)] para $(thing)guardar/recuperar múltiplos níveis$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:experience_tome"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Como você tem a $(thing)Curios API$() instalada, pode equipar o $(item)Tomo de Peritia$() como amuleto. Se quiser usar mais curios de uma vez, considere usar um $(l:bloodmagic:alchemy_array/sigil/holding)Selo de Retenção$(), ou o Upgrade $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Encaixado$() da sua $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$()."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "guide.animus.entry.sentient_shield",
+  "icon": "animus:sentient_shield",
+  "category": "animus:items",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "animus:sentient_shield",
+      "text": "Um escudo demoníaco infundido com vontade. Tem 4x a durabilidade de um escudo normal (1344 vs 336) e concede efeitos especiais ao bloquear baseados no tipo de vontade demoníaca disponível."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Efeitos de Vontade",
+      "text": "$(bold)Vontade Bruta:$() Bloqueio padrão$(br2)$(bold)Firme:$() Maior resistência a repulsão$(br2)$(bold)Corrosiva:$() Atacantes recebem dano$(br2)$(bold)Vingativa:$() Reflete dano de volta$(br2)O escudo detecta automaticamente seu maior tipo de vontade e se adapta."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bônus de Vontade",
+      "text": "$(bold)Ganho de Vontade:$() +30%% de vontade demoníaca ganha enquanto equipado$(br2)O Escudo Senciente aumenta a quantidade de vontade que você ganha de todas as fontes enquanto está na mão principal ou secundária. Perfeito para coletar vontade!$(br2)$(italic)Um escudo faminto por mais.$()"
+    }
+  ]
+}

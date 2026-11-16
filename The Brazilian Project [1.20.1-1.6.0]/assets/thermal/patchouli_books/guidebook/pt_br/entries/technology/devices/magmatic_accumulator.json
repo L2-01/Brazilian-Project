@@ -1,0 +1,22 @@
+{
+  "name": "Acumulador Magmático",
+  "icon": "thermal_extra:device_lava_gen",
+  "category": "thermal:devices",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Acumulador Magmático é um dispositivo adicionado pelo Thermal Extra que gera lava ao tocar 2 blocos de fonte de lava.$(br2)O Acumulador Magmático gera lava a uma taxa de 10mb/t. Ele gera lava a 40mb/t no Nether."
+    },
+    {
+      "type": "thermal:double_crafting_page",
+      "A.recipe": "thermal_extra:crafting/device_lava_gen",
+      "title": "Acumulador Magmático"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Compatibilidade de Ampliações",
+      "text": "$(li)$(l:thermal:technology/augments/integral_components)Componentes Integrais$(/l)"
+    }
+  ]
+}

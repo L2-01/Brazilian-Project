@@ -1,0 +1,16 @@
+Torre de Rádio
+Rádio de Onda Longa REM-64
+Embora transferir energia por longas distâncias dependa de <link;basic_wiring;fiação de alta tensão> para cobrir grandes extensões, informação pode ser transmitida sem fio.<np>
+Uma §ltorre de rádio§r pode transmitir sinais de redstone para serem recebidos por outras torres.<br>
+Para duas torres interagirem, elas precisam estar sintonizadas na mesma frequência e dentro do alcance uma da outra.<br>
+O alcance de qualquer torre de rádio é bastante prejudicado por estruturas ou terrenos ao redor mais altos que ela. Para alcance ideal, as torres devem ser colocadas em campos abertos ou no topo de montanhas ou prédios.<np>
+§lEstrutura:§r
+Uma torre montada tem três portas de conexão sobre sua caixa principal de circuitos:<br>
+A §2porta esquerda§r serve para entrada de energia. A torre de rádio consumirá <config;i;machines.radio_tower_consumption> Flux/t para operar.<br>
+A §2porta central§r é para os sinais enviados e recebidos, via um <link;redstone_wiring;conector de interface de redstone;bundled>.<np>
+A §2porta direita§r serve para controlar a torre remotamente, selecionando uma de suas 16 frequências salvas ao inserir um sinal da cor correspondente por outro conector de interface de redstone.<np>
+§lInterface:§r
+A interface da torre tem um controle deslizante para definir sua frequência, numa faixa de 128 a 384 kHz.<br>
+Abaixo estão 16 botões coloridos para salvar uma frequência selecionada, para trocar rapidamente a torre para ela.<br>
+Essas mesmas frequências salvas só podem ser acionadas por um sinal de redstone colorido na porta de controle de redstone, como explicado antes.<br>
+Um visor no canto inferior direito mostra outras torres no alcance e na mesma frequência. O campo abaixo indica o alcance da torre em metros.

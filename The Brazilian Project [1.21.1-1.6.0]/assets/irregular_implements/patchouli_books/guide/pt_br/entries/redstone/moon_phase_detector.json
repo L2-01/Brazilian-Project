@@ -1,0 +1,15 @@
+{
+    "category": "irregular_implements:redstone",
+    "icon": "irregular_implements:moon_phase_detector",
+    "name": "Detector de Fases da Lua",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "O $(d)Detector de Fases da Lua$() emite uma força de sinal de redstone proporcional à fase da lua.$(br2)Ele emite sinal cheio durante a lua cheia, e nenhum sinal durante a lua nova."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Você pode inverter isso clicando com o botão direito nele."
+        }
+    ]
+}

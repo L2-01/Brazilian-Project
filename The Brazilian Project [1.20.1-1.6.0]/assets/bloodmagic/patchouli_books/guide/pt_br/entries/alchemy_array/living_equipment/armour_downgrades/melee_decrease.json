@@ -1,0 +1,16 @@
+{
+  "name": "Lâmina Cega",
+  "icon": "minecraft:stone_sword",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Reduz seu dano corpo a corpo. Máximo de 80% de redução."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/melee_decrease",
+      "b.upgrade": "bloodmagic:melee_decrease"
+    }
+  ]
+}

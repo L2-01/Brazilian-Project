@@ -1,0 +1,60 @@
+{
+  "name": "Adicionando Criatividade",
+  "icon": "create:cogwheel",
+  "category": "pneumaticcraft:compressed_creativity",
+  "advancement": "create:andesite_alloy",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Você já pensou: $(o)\"Essas máquinas pneumáticas são tão legais, se ao menos houvesse um jeito de deixá-las ainda mais legais\"$()? Não se preocupe, agora você pode integrar suas engenhocas de PneumaticCraft e Create!"
+    },
+    {
+      "type": "spotlight",
+      "item": "compressedcreativity:rotational_compressor",
+      "text": "O $(l:pneumaticcraft:rotational_compressor)Compressor Rotacional$() é um tipo de compressor que usa a rotação do Create para gerar pressão."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:copper_backtank",
+      "text": "A $(l:pneumaticcraft:copper_backtank)Mochila-tanque de Cobre$() recebeu funcionalidade adicional, ganhando capacidades pneumáticas tanto na forma de Item quanto de Bloco."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:charging_upgrade",
+      "text": "A $(l:base_concepts/upgrades#charging)Melhoria de Carga$() recebeu funcionalidade adicional: agora ela abastece com ar ferramentas do Create, como o $(item)Braço Extensor$() e o $(item)Canhão de Batatas$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "compressedcreativity:air_blower",
+      "text": "O $(l:pneumaticcraft:air_blower)Soprador de Ar$() é uma máquina que usa ar pressurizado para criar uma Corrente de Ar, parecida com a de um $(item)Ventilador Revestido$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "compressedcreativity:industrial_air_blower",
+      "text": "O $(l:pneumaticcraft:industrial_air_blower)Soprador de Ar Industrial$() é uma versão do $(item)Soprador de Ar$() com recursos adicionais, como maiores velocidades de processamento e a capacidade de alterar o tipo de processamento usando várias $(l:pneumaticcraft:industrial_air_blower_meshes)Malhas$()."
+    },
+    {
+      "type": "spotlight",
+      "title": "Malhas",
+      "item": "compressedcreativity:mesh_splashing",
+      "text": "As $(l:pneumaticcraft:industrial_air_blower_meshes)Malhas$() dão funcionalidade adicional ao Soprador de Ar Industrial"
+    },
+    {
+      "type": "spotlight",
+      "item": "compressedcreativity:compressed_air_engine",
+      "text": "O $(l:pneumaticcraft:compressed_air_engine)Motor de Ar Comprimido$() é um motor cinético que usa ar pressurizado. Ele usa ar mesmo quando não está funcionando, então garanta que ele tenha pressão suficiente!"
+    },
+    {
+      "type": "spotlight",
+      "item": "compressedcreativity:mechanical_visor_upgrade",
+      "text": "Quando instalado no $(l:armor/pneumatic_helmet)Capacete Pneumático$(), o $(l:pneumaticcraft:mechanical_visor_upgrade)Aprimoramento de Visor Mecânico$() dá a funcionalidade dos Óculos de Engenheiro."
+    },
+    {
+      "type": "spotlight",
+      "title": "Suportes de Plástico",
+      "item": "compressedcreativity:orange_plastic_bracket",
+      "text": "O $(l:pneumaticcraft:brackets)Suporte de Plástico$() é um novo tipo de suporte colorido, compatível com Eixos, Tubos, Engrenagens e também Tubos de Pressão!"
+    }
+  ]
+}

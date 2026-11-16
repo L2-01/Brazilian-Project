@@ -1,0 +1,14 @@
+{
+	"name": "Promoção",
+	"icon": "lightmanscurrency:textures/gui/trader_guide/trade_rules/sale/icon.png",
+	"category": "lightmanscurrency:trade_rules",
+	"pages": [
+		"A regra \"Promoção\" permite dar a todos os jogadores um desconto por um período predefinido. Funciona de forma parecida com a regra $(l:trade_rules/discount_list)Descontos$(), mas aplicando a todos os jogadores por tempo limitado.",
+		{
+			"type": "lightmanscurrency:wide_image",
+			"image": "lightmanscurrency:textures/gui/trader_guide/trade_rules/sale/inputs.png",
+			"text": "Esta regra tem três campos dignos de nota. A caixa de texto no canto superior esquerdo permite definir a porcentagem de desconto (por ex., inserir 10 dá 10% de desconto).$(br2)Na parte inferior há um campo de tempo que determina quanto tempo a promoção durará."
+		},
+		"Entre esses dois campos fica o botão Iniciar/Parar, que alterna o estado da promoção.$(br2)Enquanto a promoção estiver $(l)inativa$(), esse botão permite iniciá-la de fato, e o texto acima dele mostrará a duração da promoção atualmente definida.$(br2)Enquanto a promoção estiver $(l)ativa$(), ele permite encerrá-la mais cedo, e o texto acima listará o tempo restante até o fim da promoção."
+	]
+}

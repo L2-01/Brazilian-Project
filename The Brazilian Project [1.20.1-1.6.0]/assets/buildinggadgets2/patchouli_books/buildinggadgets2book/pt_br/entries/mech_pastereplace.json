@@ -1,0 +1,16 @@
+{
+  "name": "Substituir ao Colar",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/paste_replace.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Substituir ao Colar só está disponível nos dispositivos de Recortar e Colar ou Copiar e Colar. $(br2)Quando desativado, os dispositivos não substituirão nenhum bloco do mundo exceto blocos que você normalmente sobrescreveria, como água e grama alta, o que é perigoso com o dispositivo de recortar e colar, pois pode levar a blocos 'perdidos'.  "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quando ativado, o dispositivo substituirá qualquer bloco do mundo pelo bloco da colagem, incluindo ar! É uma ótima maneira de construir uma casa dentro de uma montanha.$(br2)Nota: Quaisquer blocos substituídos dessa forma serão $(bold)ANULADOS$(clear) e não vão largar nem devolver itens."
+    }
+  ]
+}

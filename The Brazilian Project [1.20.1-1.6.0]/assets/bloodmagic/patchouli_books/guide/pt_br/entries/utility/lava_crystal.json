@@ -1,0 +1,16 @@
+{
+  "name": "Cristal de Lava",
+  "icon": "bloodmagic:lavacrystal",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O $(item)Cristal de Lava$() é uma fonte de grande calor. Entre a $(fire)lava$() usada em sua criação e o poder da sua $(l:bloodmagic:altar/soul_network)Soul Network$(), você tem certeza de que ele nunca esfriará.$(br2) Pressionar [$(k:use)] olhando para qualquer bloco do mundo o incendiará, ao custo de 100 LP."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:lava_crystal",
+      "text": "$(br)Além disso, se colocado no slot de combustível de uma $(item)Fornalha$(), atuará como uma $(thing)fonte de combustível$() infinita, consumindo 50LP para queimar por 10 segundos, ou tempo suficiente para assar um item."
+    }
+  ]
+}

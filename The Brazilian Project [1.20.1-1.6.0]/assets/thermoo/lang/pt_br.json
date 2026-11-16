@@ -1,0 +1,23 @@
+{
+    "attribute.thermoo.generic.min_temperature": "Temperatura Mínima",
+    "attribute.thermoo.generic.max_temperature": "Temperatura Máxima",
+    "attribute.thermoo.generic.frost_resistance": "Resistência ao Frio",
+    "attribute.thermoo.generic.heat_resistance": "Resistência ao Calor",
+
+
+    "commands.thermoo.temperature.exception.not_living_entity": "O alvo não é uma entidade viva!",
+    "commands.thermoo.temperature.get.scale.success": "A escala de temperatura de %s é %d",
+    "commands.thermoo.temperature.get.max.success": "%s pode ter uma temperatura máxima de %d",
+    "commands.thermoo.temperature.get.min.success": "%s pode ter uma temperatura mínima de %d",
+    "commands.thermoo.temperature.get.current.success": "A temperatura atual de %s é %d",
+    "commands.thermoo.temperature.add.success.single": "%d de temperatura adicionada a %s (agora %d)",
+    "commands.thermoo.temperature.add.success.multiple": "%d de temperatura adicionada a %d entidades",
+    "commands.thermoo.temperature.remove.success.single": "%d de temperatura removida de %s (agora %d)",
+    "commands.thermoo.temperature.remove.success.multiple": "%d de temperatura removida de %d entidades",
+    "commands.thermoo.temperature.set.success.single": "Temperatura de %s definida para %d",
+    "commands.thermoo.temperature.set.success.multiple": "Temperatura de %s entidades definida para %d",
+    "commands.thermoo.environment.printcontroller.success": "Controlador registrado no console",
+
+    "commands.thermoo.environment.checktemperature.success": "A mudança de temperatura passiva em %s, %s, %s (%s) é %s",
+    "commands.thermoo.environment.checktemperature.unit.success": "A temperatura em %s, %s, %s (%s) é %s°%s"
+}

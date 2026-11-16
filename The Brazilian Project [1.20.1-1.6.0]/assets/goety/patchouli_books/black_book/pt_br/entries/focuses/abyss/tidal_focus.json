@@ -1,0 +1,22 @@
+{
+  "name": "Foco de Maré",
+  "icon": "goety:tidal_focus",
+  "category": "goety:focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O feitiço conjura uma onda de água corrente à frente do conjurador, empurrando e danificando alvos não aliados."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/tidal_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() invocará três ondas de maré à frente do conjurador em vez de uma."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:tidal_focus": 1
+  }
+}

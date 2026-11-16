@@ -1,0 +1,18 @@
+{
+  "name": "guide.animus.entry.reagent_free_soul",
+  "icon": "animus:reagentfreesoul",
+  "category": "animus:items",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "animus:crafting_soulforge",
+      "heading": "Reagent: Free Soul",
+      "recipe": "animus:soulforge/reagentfreesoul",
+      "text": "Um reagente que liberta a alma."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Este catalisador pode ser combinado com uma $(item)Ardósia Imbuída$() num Círculo de Alquimia para criar o $(l:animus:sigils/sigil_free_soul)Sigilo da Alma Livre$()."
+    }
+  ]
+}

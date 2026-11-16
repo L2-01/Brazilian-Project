@@ -1,0 +1,27 @@
+{
+    "name": "Sequências",
+    "icon": "minecraft:music_disc_mellohi",
+    "category": "mimi:7midi",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sequenciadores MIDI podem criar, editar, salvar e tocar sequências de mensagens MIDI alinhadas a um andamento para formar uma música.$(br2)Geralmente, sequências MIDI são salvas num arquivo com a extensão .mid. Muitas músicas foram convertidas para o formato MIDI e podem ser encontradas online via Google pesquisando por \"<Nome da Música> MIDI\"."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Usos",
+            "text": "Arquivos MIDI não são tão populares quanto já foram, mas ainda são usados para várias coisas hoje.$(br2)Arquivos MIDI são comumente usados para karaokê, música de alguns videogames, tutoriais de música e músicas pré-gravadas em instrumentos digitais, entre outras coisas."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Formato",
+            "text": "Sequências MIDI armazenam $(l:7_4messages)mensagens MIDI$(/l) numa linha do tempo e normalmente conseguem armazenar dados para todos os 16 $(l:7_3channels)canais MIDI$(/l). Isso permite que um único arquivo MIDI contenha todos os componentes de uma música inteira.$(br2)Cada canal usado terá um $(l:7_2programs)programa MIDI$(/l) atribuído, que o mapeia para um único instrumento. É possível ter vários canais atribuídos ao mesmo programa."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Formato",
+            "text": "Como mencionado na seção de $(l:7_3channels)canais MIDI$(/l), o canal 10 é reservado para percussão. Por isso, ao tocar um instrumento no MIMI usando entrada MIDI, recomenda-se desativar o canal 10, a menos que você esteja tocando a bateria.$(br2)Ao tocar dados MIDI num instrumento, recomenda-se tocar apenas alguns canais por instrumento de cada vez."
+        }
+    ],
+    "sortnum": 5
+}

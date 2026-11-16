@@ -1,0 +1,17 @@
+{
+  "name": "Raio X de Criaturas",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_glowing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Essa melhoria aplica o efeito 'luminescente' a todas as entidades vivas próximas — criaturas hostis e animais pacíficos!$(br2)É uma habilidade ativada e substitui o Escaneador de Criaturas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Fabricação: Raio X de Criaturas",
+      "recipe": "justdirethings:upgrade_glowing"
+    }
+  ]
+}

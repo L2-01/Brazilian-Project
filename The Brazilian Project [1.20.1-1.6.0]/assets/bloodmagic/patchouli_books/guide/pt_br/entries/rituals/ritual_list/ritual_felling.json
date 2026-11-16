@@ -1,0 +1,27 @@
+{
+  "name": "Impacto do Lenhador",
+  "icon": "minecraft:oak_sapling",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Impacto do Lenhador",
+      "multiblock_id": "bloodmagic:felling",
+      "text": "Use um $(l:bloodmagic:rituals/ritual_diviner)Adivinhador de Ritual$(/l) para uma construção mais fácil."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "felling"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "felling",
+      "page_type": "fellingRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "felling",
+      "page_type": "chest"
+    }
+  ]
+}

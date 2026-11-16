@@ -1,0 +1,23 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:energy_distributor",
+    "name": "Distribuidor de Energia",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(d)Distribuidor de Energia$()$(br2)O $(d)Distribuidor de Energia$() permite distribuir FE uniformemente ao longo de uma linha de máquinas adjacentes para as quais está apontado.$(br2)Começando pelo bloco à sua frente, ele percorrerá um caminho reto até alcançar um bloco que não possa armazenar FE. Todos os blocos encontrados serão adicionados ao seu cache."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "O Distribuidor de Energia simulará ter um armazenamento de energia, que na verdade é composto por todas as máquinas em seu cache. Qualquer FE inserido nele é na verdade inserido nos blocos do cache; o mesmo vale para FE removido.$(br2)$(d)Distribuidor de Energia do Ender$()$(br2)O $(d)Distribuidor de Energia do Ender$() funciona de forma semelhante, mas usa 8 $(l:irregular_implements:filter/location_filter)Filtros de Localização$(/l) para especificar as máquinas em seu cache."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:energy_distributor"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:ender_energy_distributor"
+        }
+    ]
+}

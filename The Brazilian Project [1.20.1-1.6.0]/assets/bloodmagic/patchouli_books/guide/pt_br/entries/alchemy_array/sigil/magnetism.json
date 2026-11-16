@@ -1,0 +1,23 @@
+{
+  "name": "Selo de Magnetismo",
+  "icon": "bloodmagic:sigilofmagnetism",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aumenta o alcance de coleta de itens do jogador para 7 blocos quando ativo. Liga/desliga segurando o Selo na mão, e então segurando [$(k:sneak)] e pressionando [$(k:use)]. $(br2)Consome 50 $(blood)LP$() a cada 5 segundos enquanto ativo."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Reagente de Magnetismo",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_magnetism",
+      "array.heading": "Selo de Magnetismo",
+      "array.recipe": "bloodmagic:array/magnetismsigil"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Como você tem a $(thing)Curios API$() instalada, pode equipar este $(item)Selo$() como amuleto. Se quiser usar mais curios de uma vez, considere usar um $(l:bloodmagic:alchemy_array/sigil/holding)Selo de Retenção$(), ou o Upgrade $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Encaixado$() da sua $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Armadura Viva$()."
+    }
+  ]
+}

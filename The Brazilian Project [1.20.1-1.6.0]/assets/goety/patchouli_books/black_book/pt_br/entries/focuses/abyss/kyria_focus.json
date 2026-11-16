@@ -1,0 +1,22 @@
+{
+  "name": "Foco Kyría",
+  "icon": "goety_cataclysm:kyria_focus",
+  "category": "goety:cataclysm/focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com o foco na varinha ou no cajado, a pomposa nobreza do mar atende ao seu chamado."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/kyria_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com o $(l:crafts/staff/abyss_staff)Cajado Abissal$() invoca mais da burguesia de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:kyria_focus": 1
+  }
+}

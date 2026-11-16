@@ -1,0 +1,17 @@
+{
+  "name": "guide.animus.entry.imperfect_ritual_boundless_skies",
+  "icon": "minecraft:ancient_debris",
+  "category": "animus:rituals",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um ritual imperfeito que concede voo criativo temporário. Este ritual custoso fornece 15 minutos de voo irrestrito pelos céus.$(br2)$(bold)Configuração:$()$(br)Coloque Detritos Ancestrais em cima de uma Pedra de Ritual Imperfeita.$(br2)$(bold)Custo:$() 10.000 LP por uso$(br2)$(bold)Nota:$() O ritual não tem efeito persistente; ativa uma vez e completa imediatamente. A pedra pode ser reutilizada."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Efeitos",
+      "text": "$(bold)Ativação:$()$(br)Clique com o botão direito na Pedra de Ritual Imperfeita para:$(li)Ganhar o efeito Voo por 15 minutos$(li)Um raio atinge a pedra de ritual$(li)A pedra permanece para reuso$(br2)$(bold)Detalhes do Voo:$()$(li)Voo estilo criativo$(li)Duração de 900 segundos$(li)Pode ser reaplicado antes de expirar$(br2)$(bold)Aviso:$() O alto custo de LP torna este um ritual premium!$(br2)$(italic)Toque os céus ilimitados.$()"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Armaduras Assombradas",
+  "icon": "goety:cursed_knight_helmet",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_haunted_armor",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Os guardiões e sentinelas das Criptas, sem dúvida trazidos à vida por magia Necrotúrgica. Devido à sua natureza de constructos profanos, eles são imunes a quase todos os Efeitos Negativos e não queimam em chamas. Eles, porém, ainda derretem em lava e sofrem mais dano de Julgamento."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:haunted_armor{ArmorItems:[{Count:1,id:\"goety:cursed_knight_boots\"},{Count:1,id:\"goety:cursed_knight_leggings\"},{Count:1,id:\"goety:cursed_knight_chestplate\"},{Count:1,id:\"goety:cursed_knight_helmet\"}]}",
+      "scale": 0.75,
+      "text": "Seus Escudos podem ser desativados com Machado."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:fell_blade",
+      "title": "Lâmina Cruel",
+      "text": "A lâmina empunhada pelas Armaduras Assombradas tem uma propriedade especial onde tem chance de reduzir pela metade os pontos de armadura de uma criatura. Elas podem ser reparadas usando Lingotes de Metal Amaldiçoado numa Bigorna"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:cursed_knight_helmet",
+      "title": "Armadura de Cavaleiro Amaldiçoado",
+      "text": "A armadura parece ser mais ou menos uma versão ornamentada de Metal Amaldiçoado da Armadura de Ferro comum, com duas exceções. Uma, ela fornece uma pequena quantidade de resistência. Duas, vestir o conjunto completo da armadura concede 4 pontos de armadura adicionais."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:fell_blade": 2,
+    "goety:cursed_knight_helmet": 3,
+    "goety:cursed_knight_chestplate": 3,
+    "goety:cursed_knight_leggings": 3,
+    "goety:cursed_knight_boots": 3
+  }
+}

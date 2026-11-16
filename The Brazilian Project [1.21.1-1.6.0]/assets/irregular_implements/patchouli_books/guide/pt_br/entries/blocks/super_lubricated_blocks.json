@@ -1,0 +1,19 @@
+{
+    "category": "irregular_implements:blocks",
+    "icon": "irregular_implements:super_lubricant_stone",
+    "name": "Blocos Super Lubrificados",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A $(d)Pedra Super Lubrificante$() e o $(d)Gelo Super Lubrificante$() anulam completamente o atrito, permitindo que entidades deslizem sobre eles sem perder velocidade."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:super_lubricant_stone"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irregular_implements:super_lubricant_ice"
+        }
+    ]
+}

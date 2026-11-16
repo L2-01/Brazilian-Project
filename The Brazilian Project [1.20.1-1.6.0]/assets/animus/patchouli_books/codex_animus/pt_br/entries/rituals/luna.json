@@ -1,0 +1,32 @@
+{
+  "name": "guide.animus.entry.ritual_luna",
+  "icon": "minecraft:glowstone",
+  "category": "animus:rituals",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Colha a luz. O equivalente do Ritual de Sol, este ritual coleta todos os blocos emissores de luz dentro do seu alcance e os armazena num baú acima da pedra de ritual."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Como Funciona",
+      "text": "O ritual pode usar um baú (ou qualquer bloco com armazenamento de itens) colocado diretamente acima da Pedra de Ritual Mestra. A cada 5 tiques, o ritual tenta:$(br)1. Encontrar um bloco emissor de luz (nível de luz > 0)$(br)2. Colher o bloco$(br)3. Armazená-lo no baú (ou largar na PRM se não houver baú)$(br)4. Consumir LP pela operação"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Algoritmo de Busca",
+      "text": "O ritual usa uma busca do centro para fora para encontrar fontes de luz:$(br)$(li)Começa na Pedra de Ritual Mestra$(li)Busca apenas para baixo (nunca acima)$(li)Expande em anéis quadrados: 0, 1, 2... blocos de distância$(li)Busca cada coluna de cima a baixo$(li)Prioriza luzes próximas antes das distantes$(li)Processa até 1.024 posições por tique$(li)Retoma de onde parou entre tiques$(br2)Isso garante colheita eficiente começando do centro do ritual e descendo."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Custos e Detalhes",
+      "text": "$(bold)Ativação:$() 1.000 LP$(br)$(bold)Renovação:$() 1 LP por bloco colhido$(br)$(bold)Tempo de Renovação:$() 5 tiques$(br2)$(bold)Alcance Horizontal:$() Configurável (padrão: 32 blocos)$(br)$(bold)Alcance Vertical:$() Configurável (padrão: 64 blocos, -1 para o fundo do mundo)$(br)$(bold)Baú:$() 1 bloco acima do ritual (opcional)$(br2)Colhe qualquer bloco que emita luz. Se não houver baú, larga os itens na Pedra de Ritual Mestra."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Aplicações",
+      "text": "Perfeito para:$(li)Limpar fontes de luz$(li)Colher pedra-luminosa$(li)Coletar tochas$(li)Reivindicar luzes de sangue$(li)Automação em par com o Ritual de Sol$(br2)$(italic)O ciclo eterno de luz e trevas.$()"
+    }
+  ]
+}

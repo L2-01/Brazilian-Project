@@ -1,0 +1,32 @@
+{
+  "name": "Senhores das Caveiras",
+  "icon": "minecraft:skeleton_skull",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_skull_lord",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Profanar e tentar abrir um pote da grande tumba libertou um senhor enfurecido que um dia governou a estrutura. Parece que ele guarda consigo um pedaço de magia sombria que não conseguiu completar em vida."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:skull_lord"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Infelizmente para os aspirantes a caçadores de tesouro e magos, o mestre sombrio da Cripta conseguiu permanecer vinculado ao mundo material para guardar seu tesouro. Sua cabeça é a fonte de seu poder e intelecto e é protegida sempre que ele reconstitui seu corpo blindado, porém esqueletizado."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:frozen_blade",
+      "title": "Lâmina Congelada",
+      "text": "Durante a batalha, ele parece empunhar uma lâmina especial semelhante à Lâmina Cruel da Armadura Assombrada, mas bem mais gélida, a ponto de um simples corte causar congelamento rápido. Ela pode ser reparada usando Lingotes de Metal Amaldiçoado numa Bigorna"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:cursed_paladin_helmet",
+      "title": "Armadura de Paladino Amaldiçoado",
+      "text": "Uma versão bem mais ornamentada e aprimorada da Armadura de Cavaleiro Amaldiçoado, fornecendo mais armadura e resistência."
+    }
+  ]
+}

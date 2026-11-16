@@ -1,0 +1,5 @@
+Temporizador de Redstone
+Tique-Taque
+Um conector de redstone que emite um pulso curto em um temporizador repetido, de 0,5 a 30 segundos, ajustável na GUI. Conecta-se à rede de fios de redstone do Immersive Engineering em vez de pó de redstone comum.
+
+Só pulsa se houver uma entrada de redstone ativa exatamente quando cada ciclo reinicia — uma entrada continuamente alta pulsa uma vez por ciclo; sem entrada naquele tick, sem pulso naquele ciclo. A GUI define o atraso com botões +/-, alterna entre modo de entrada e saída e escolhe uma de 16 cores de fio para retransmitir. Clique com o botão direito usando a Chave de Fenda para os mesmos controles sem abrir a GUI: agachado cicla a cor do fio, sem agachar alterna o modo entrada/saída.

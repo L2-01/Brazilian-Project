@@ -1,0 +1,23 @@
+{
+  "name": "Estação de Fabricação",
+  "icon": "rftoolscontrol:craftingstation",
+  "category": "rftoolsbase:category_rftoolscontrol_advanced",
+  "extra_recipe_mappings": {
+    "rftoolscontrol:craftingstation": 1
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Estação de Fabricação expõe itens fabricáveis e requisições de fabricação ativas. É o lado voltado ao jogador da automação de fabricação do RFTools Control."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolscontrol:craftingstation"
+    },
+    {
+      "type": "text",
+      "text": "Use a GUI para buscar itens fabricáveis, requisitar fabricações e cancelar requisições selecionadas. Programas podem atender essas requisições por meio de opcodes de fabricação."
+    }
+  ]
+}
